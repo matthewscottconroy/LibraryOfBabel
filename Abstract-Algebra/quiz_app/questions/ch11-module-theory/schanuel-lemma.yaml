@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- K ⊕ Q ≅ K' ⊕ P
+- K ≅ K'
+- P ≅ Q
+- K ⊕ K' ≅ P ⊕ Q
+difficulty: advanced
+explanation: 'Schanuel: K ⊕ Q ≅ K'' ⊕ P. This shows the ''syzygy'' K is well-defined
+  up to projective summands, so the projective dimension is well-defined. It implies
+  the uniqueness of projective resolutions up to homotopy.'
+kind: mc
+tags:
+- projective-modules
+- schanuel-lemma
+text: 'Schanuel''s lemma: if 0 → K → P → M → 0 and 0 → K'' → Q → M → 0 are exact with
+  P, Q projective, then:'

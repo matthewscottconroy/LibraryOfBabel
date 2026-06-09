@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Pf(A)² (square of the Pfaffian)
+- 0 always
+- Tr(A)²/4
+- ∏ eigenvalues (all real)
+difficulty: advanced
+explanation: det(A) = Pf(A)² where Pf(A) is the Pfaffian, a polynomial in the entries
+  of A. For odd n, det(A) = 0 always. The Pfaffian arises in the theory of fermions,
+  tropical geometry, and perfect matchings.
+kind: mc
+tags:
+- determinants
+- pfaffian
+text: For a 2n×2n skew-symmetric matrix A (Aᵀ = −A), det(A) =

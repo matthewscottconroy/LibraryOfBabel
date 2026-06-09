@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- G is a direct product of its Sylow subgroups
+- G has trivial center
+- G is simple
+- G is abelian
+difficulty: advanced
+explanation: A finite group is nilpotent iff it is a direct product of its Sylow p-subgroups
+  iff every Sylow subgroup is normal. Nilpotent ⇒ solvable; abelian ⇒ nilpotent.
+kind: mc
+tags:
+- nilpotent-groups
+- group-theory
+text: A group G is nilpotent iff its lower central series G = γ₁G ⊇ γ₂G ⊇ ⋯ terminates
+  at {e}. Which of the following is equivalent?

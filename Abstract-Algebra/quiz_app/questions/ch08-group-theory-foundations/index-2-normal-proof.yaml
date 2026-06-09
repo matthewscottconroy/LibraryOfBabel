@@ -1,0 +1,24 @@
+kind: proof
+difficulty: intermediate
+text: "Theorem: Every subgroup of index 2 in a group G is normal in G."
+proof_lines:
+  - "Let H ≤ G with [G : H] = 2. Then G is partitioned into exactly two left cosets: H and the single coset gH for any g ∉ H."
+  - "Similarly G is partitioned into exactly two right cosets: H and Hg. Since there are only two cosets on each side, the left coset gH = ___ for any g ∉ H."
+  - "For g ∈ H we have gH = H = Hg trivially. For g ∉ H we showed gH = G \\ H = ___."
+  - "Since gH = Hg for every g ∈ G, the subgroup H is ___ in G."
+fills:
+  - "G \\ H"
+  - "Hg"
+  - "normal"
+explanation: >
+  When the index is 2, there are only two left cosets and two right cosets. The coset
+  containing a given g ∉ H must be everything outside H, so the left and right cosets
+  coincide. This forces gH = Hg for all g, which is precisely the normality condition.
+  The argument is purely combinatorial and requires no algebraic structure beyond the
+  partition into cosets.
+tags:
+  - normal-subgroups
+  - index-2-normal
+  - cosets
+  - group-theory
+  - proof

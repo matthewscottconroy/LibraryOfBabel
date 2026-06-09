@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- 'Total degree: Rₖ = span of monomials of total degree k'
+- Degree in x₁ only
+- Number of variables
+- Degree of factorization
+difficulty: intermediate
+explanation: 'F[x₁,…,xₙ] = ⊕_{k≥0} Rₖ with Rₖ spanned by {x₁^{a₁}⋯xₙ^{aₙ} : Σaᵢ =
+  k}. Graded rings appear throughout algebraic geometry (projective varieties, blow-ups)
+  and algebraic topology (cohomology rings).'
+kind: mc
+tags:
+- graded-rings
+- ring-theory
+text: 'A graded ring R = ⊕_{n≥0} Rₙ has homogeneous components Rₙ satisfying RₘRₙ
+  ⊆ Rₘ₊ₙ. The polynomial ring F[x₁,…,xₙ] is graded by:'

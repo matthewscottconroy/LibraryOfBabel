@@ -1,0 +1,9 @@
+kind: tf
+difficulty: beginner
+text: "ℤ/6ℤ is a field."
+answer: false
+explanation: "ℤ/6ℤ is not a field because it has zero divisors: 2·3 = 6 ≡ 0 (mod 6) yet 2 ≠ 0 and 3 ≠ 0. A field must be an integral domain, so the presence of zero divisors is an immediate obstruction. More generally, ℤ/nℤ is a field if and only if n is prime."
+tags:
+  - fields
+  - modular-arithmetic
+  - zero-divisors

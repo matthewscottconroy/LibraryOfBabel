@@ -1,0 +1,12 @@
+kind: blank
+difficulty: beginner
+text: "A syntactically correct expression in a formal logical language that can be assigned a truth value is called a ___."
+choices:
+  - "well-formed formula"
+  - "wff"
+  - "proposition"
+explanation: "A well-formed formula (wff) is any expression built according to the formation rules of a formal language. Only well-formed formulas are syntactically eligible to receive a truth value or serve as premises in proofs."
+tags:
+  - logic
+  - syntax
+  - formal-language

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- ℂ
+- ℚ
+- ℝ
+- ℚ(√2)
+difficulty: intermediate
+explanation: 'ℂ cannot be ordered: in any ordered field, −1 < 0, but i² = −1 < 0 and
+  (−i)² = −1 < 0 would force −1 to be a sum of squares (positive), contradiction.
+  Subfields of ℝ are all orderable.'
+kind: mc
+tags:
+- fields
+- ordered-field
+text: An ordered field is a field with a linear order compatible with field operations.
+  Which field is NOT orderable?

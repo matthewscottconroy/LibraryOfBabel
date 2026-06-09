@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- The Weyl character formula and root system data
+- Schur's lemma directly
+- The Killing form
+- The Weyl denominator only
+difficulty: intermediate
+explanation: 'Tensor product decomposition: L(λ)⊗L(μ) = ⊕_ν (m^ν_{λμ}) L(ν). The Clebsch–Gordan
+  coefficients m^ν_{λμ} = ⟨ch L(λ)·ch L(μ), ch L(ν)⟩ can be computed via the WCF and
+  Kostant''s partition function.'
+kind: mc
+tags:
+- tensor-product
+- clebsch-gordan
+text: 'The tensor product of two highest-weight modules L(λ) ⊗ L(μ) decomposes as
+  a direct sum of irreducibles. The multiplicities m_{λ,μ}^ν (Clebsch–Gordan coefficients)
+  can be computed using:'

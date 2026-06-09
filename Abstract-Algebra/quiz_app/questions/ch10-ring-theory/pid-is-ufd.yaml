@@ -1,0 +1,13 @@
+kind: tf
+difficulty: intermediate
+text: "Every principal ideal domain (PID) is a unique factorization domain (UFD)."
+answer: true
+explanation: >
+  In a PID, every nonzero prime ideal is maximal, and every irreducible element generates
+  a prime ideal, so irreducible and prime coincide. The ascending chain condition on
+  principal ideals guarantees that factorization into irreducibles terminates, and primeness
+  ensures uniqueness. Thus every PID is a UFD.
+tags:
+  - pid
+  - ufd
+  - ring-theory

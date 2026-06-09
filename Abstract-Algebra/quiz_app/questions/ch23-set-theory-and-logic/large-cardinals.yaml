@@ -1,0 +1,10 @@
+kind: blank
+difficulty: advanced
+text: An ___ cardinal κ is one that cannot be reached from below by the usual set-theoretic operations.
+explanation: Inaccessible cardinals cannot be obtained by powersets or bounded unions; they require large
+  cardinal axioms.
+tags:
+- large-cardinals
+choices:
+- inaccessible
+- strongly inaccessible

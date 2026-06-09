@@ -1,0 +1,9 @@
+kind: tf
+difficulty: beginner
+text: "Every short exact sequence of modules splits."
+answer: false
+explanation: "A counterexample: 0 → ℤ → ℤ → ℤ/2ℤ → 0, where the first map is multiplication by 2. This does not split because a section s: ℤ/2ℤ → ℤ would require an element of order 2 in ℤ, but ℤ is torsion-free. Short exact sequences split precisely when the rightmost module is projective (or dually, when the leftmost is injective)."
+tags:
+  - exact-sequences
+  - split-exact
+  - projective-modules

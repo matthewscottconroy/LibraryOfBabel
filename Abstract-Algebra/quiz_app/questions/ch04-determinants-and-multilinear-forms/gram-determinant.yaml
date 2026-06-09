@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- The vectors are linearly dependent
+- The vectors are orthogonal
+- n > dim V
+- All inner products are 1
+difficulty: intermediate
+explanation: det G = Vol² of the parallelepiped. det G = 0 iff some vector is a linear
+  combination of the others (Gram matrix is singular ↔ linear dependence). If the
+  vᵢ are ONB, G = I and det G = 1.
+kind: mc
+tags:
+- determinants
+- gram-matrix
+text: 'The Gram determinant det(G) where G_{ij} = ⟨vᵢ,vⱼ⟩ equals the square of the
+  volume of the parallelepiped spanned by v₁,…,vₙ, and is zero iff:'

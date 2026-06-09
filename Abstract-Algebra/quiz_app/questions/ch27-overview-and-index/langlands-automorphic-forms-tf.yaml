@@ -1,0 +1,11 @@
+kind: tf
+difficulty: advanced
+text: "The Langlands correspondence connects the representation theory of reductive groups over local fields to automorphic forms and Galois representations."
+answer: true
+explanation: >
+  The Langlands program (Langlands, 1960s–70s) predicts a deep correspondence between: (1) automorphic representations of reductive groups G(𝔸) (where 𝔸 is the adele ring); and (2) Galois representations (or more precisely, representations of the Langlands dual group L-G into GL_n). Over local fields, the local Langlands correspondence (proved for GL_n by Harris–Taylor and Henniart) is a bijection between irreducible smooth representations of G(F) and L-parameters. This unifies vast parts of number theory and representation theory.
+tags:
+  - langlands-philosophy
+  - langlands
+  - automorphic-forms
+  - tf

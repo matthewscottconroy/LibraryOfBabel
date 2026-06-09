@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- A maximal abelian subalgebra consisting of ad-semisimple elements
+- Any maximal abelian subalgebra
+- The center of g
+- A maximal nilpotent subalgebra
+difficulty: intermediate
+explanation: A Cartan subalgebra is a maximal abelian subalgebra h such that all elements
+  are ad-semisimple (i.e., ad_H is diagonalizable for H ∈ h). For semisimple g, all
+  Cartan subalgebras are conjugate under Aut(g).
+kind: mc
+tags:
+- Cartan-subalgebra
+- semisimple
+text: 'A Cartan subalgebra h of a semisimple Lie algebra g is:'

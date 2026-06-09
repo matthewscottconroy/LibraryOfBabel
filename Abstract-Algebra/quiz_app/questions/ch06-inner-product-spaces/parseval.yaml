@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ‖v‖² = Σ |⟨v,eₙ⟩|² for all v ∈ H
+- v = Σ eₙ for all v
+- ⟨v,w⟩ = Σ ‖eₙ‖²
+- Σ |⟨v,eₙ⟩|² = 1
+difficulty: intermediate
+explanation: 'Parseval: ‖v‖² = Σ |⟨v,eₙ⟩|² (equality in Bessel''s inequality). This
+  holds iff {eₙ} is complete (spans a dense subspace). For Fourier series on L²([−π,π]):
+  ‖f‖² = Σ |cₙ|² (Fourier coefficients). Generalises to any orthonormal basis.'
+kind: mc
+tags:
+- inner-products
+- parseval
+text: 'Parseval''s identity for an orthonormal basis {eₙ} of a Hilbert space H states:'

@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- A direct sum of irreducible H-representations (by complete reducibility if char
+  0)
+- Always an irreducible H-representation
+- A single H-representation with multiplicity
+- Zero when H is not a Levi subgroup
+difficulty: advanced
+explanation: By Weyl's complete reducibility theorem (char 0, semisimple), any representation
+  restricts to a semisimple H-representation, decomposing as a direct sum of irreducibles.
+  The multiplicities are given by branching rules.
+kind: mc
+tags:
+- branching-rules
+- restriction
+text: 'The restriction of an irreducible G-representation to a subgroup H decomposes
+  as:'

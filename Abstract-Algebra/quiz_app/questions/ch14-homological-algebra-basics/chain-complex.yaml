@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- ∂ₙ₋₁ ∘ ∂ₙ = 0 for all n
+- ∂ₙ is injective for all n
+- ∂ₙ is surjective for all n
+- C_• is exact
+difficulty: beginner
+explanation: 'The fundamental condition ∂² = 0 says ''boundaries are cycles'': im
+  ∂ₙ₊₁ ⊆ ker ∂ₙ. The n-th homology group Hₙ = ker ∂ₙ / im ∂ₙ₊₁ measures how far the
+  complex is from being exact.'
+kind: mc
+tags:
+- chain-complexes
+- homological-algebra
+text: 'A chain complex (C_•, ∂) consists of modules Cₙ and differentials ∂ₙ: Cₙ →
+  Cₙ₋₁ satisfying:'

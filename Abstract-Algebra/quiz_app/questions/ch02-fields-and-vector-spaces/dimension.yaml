@@ -1,0 +1,9 @@
+answer: true
+difficulty: beginner
+explanation: This is the Basis Theorem (exchange lemma / Steinitz exchange). The common
+  size is the dimension of the space. It holds over any field.
+kind: tf
+tags:
+- vector-spaces
+- dimension
+text: Any two bases of a finite-dimensional vector space have the same number of elements.

@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- M is a direct sum of simple submodules
+- M has no proper submodules
+- M is free
+- M is projective
+difficulty: intermediate
+explanation: Semisimple modules decompose as M = ⊕ Sᵢ (simple submodules). Equivalently,
+  every submodule is a direct summand. The Artin–Wedderburn theorem characterises
+  semisimple rings via their module categories.
+kind: mc
+tags:
+- semisimple-modules
+- module-theory
+text: 'A module M is semisimple if and only if:'

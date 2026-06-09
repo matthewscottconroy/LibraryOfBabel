@@ -1,0 +1,12 @@
+kind: blank
+difficulty: advanced
+text: "Quillen's higher algebraic K-theory defines K_n(R) for a ring R as the homotopy groups π_n of the classifying space ___."
+choices:
+  - "BGL(R)⁺ (the plus-construction applied to BGL(R) = colim_n BGL_n(R))"
+  - "BGL(R)"
+explanation: >
+  Quillen's plus construction: K_n(R) = π_n(BGL(R)⁺) for n ≥ 1, where BGL(R)⁺ is obtained from the classifying space BGL(R) = colim_n BGL_n(R) by killing the maximal perfect normal subgroup of π₁ (which is [GL(R), GL(R)]) while keeping homology unchanged. The plus construction makes the space simply connected (up to the abelianization) and recovers K₁(R) = GL(R)/[GL(R),GL(R)] = R×_ab and K₂ from the Bass–Tate formula. Alternatively, via Quillen's Q-construction, K_n(R) = π_{n+1}(BQP) where P is the category of finitely generated projective R-modules.
+tags:
+  - algebraic-K-theory-overview
+  - algebraic-K-theory
+  - blank

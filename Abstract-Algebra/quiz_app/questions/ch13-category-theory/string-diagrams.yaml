@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Cup and cap morphisms satisfying the 'zigzag' identities ε(η⊗id) = id
+- Crossing of wires
+- Braiding morphisms
+- The tensor product of two morphisms
+difficulty: advanced
+explanation: 'Adjunctions in string diagrams: unit η: I → G∘F (cap) and counit ε:
+  F∘G → I (cup) satisfying two zigzag identities (snake equations). This is the basis
+  of Frobenius algebras, quantum groups, and topological quantum field theory.'
+kind: mc
+tags:
+- string-diagrams
+- adjunction
+text: 'String diagrams provide a graphical calculus for monoidal categories where
+  morphisms are boxes, objects are wires, and composition is vertical stacking. Adjunctions
+  in this language correspond to:'

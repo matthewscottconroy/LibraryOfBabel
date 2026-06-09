@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Implicit (not drawn as arrows)
+- Shown as dashed edges
+- Not assumed
+- Drawn as loops
+difficulty: beginner
+explanation: 'Hasse diagrams omit: (1) reflexive loops, (2) transitive edges that
+  follow from paths already drawn. Only ''cover'' relations (immediate successors)
+  are shown. This gives a clean visual of the order structure.'
+kind: mc
+tags:
+- relations
+- partial-order
+text: 'A Hasse diagram represents a finite partial order by drawing a higher when
+  b < a (with no intermediate element c). Transitivity and reflexivity are:'

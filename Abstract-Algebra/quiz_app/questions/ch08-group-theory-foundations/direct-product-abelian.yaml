@@ -1,0 +1,12 @@
+kind: tf
+difficulty: beginner
+text: "The direct product G × H is abelian if and only if both G and H are abelian."
+answer: true
+explanation: >
+  Multiplication in G × H is componentwise: (g₁,h₁)(g₂,h₂) = (g₁g₂, h₁h₂). This
+  equals (g₂g₁, h₂h₁) = (g₂,h₂)(g₁,h₁) for all pairs iff g₁g₂ = g₂g₁ in G and
+  h₁h₂ = h₂h₁ in H for all g₁,g₂ and h₁,h₂. So G × H is abelian iff both factors are.
+tags:
+  - direct-product-groups
+  - abelian-groups
+  - group-theory

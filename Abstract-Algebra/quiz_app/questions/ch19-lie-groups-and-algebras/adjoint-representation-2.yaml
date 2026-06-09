@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Ad_g(X) = d/dt|_{t=0} (g exp(tX) g⁻¹)
+- Ad_g(X) = g · X
+- Ad_g(X) = exp(gXg⁻¹)
+- Ad_g(X) = [g, X]
+difficulty: intermediate
+explanation: 'Ad_g is the derivative at e of conjugation by g: Ad_g(X) = (d/dt)|_{t=0}
+  g exp(tX) g⁻¹. Its derivative at e gives the adjoint representation ad: g → gl(g)
+  with ad_X(Y) = [X,Y].'
+kind: mc
+tags:
+- adjoint-representation
+- conjugation
+text: 'The adjoint representation Ad: G → GL(g) is defined by:'

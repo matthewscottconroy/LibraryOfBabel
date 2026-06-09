@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Faithful (injective)
+- Trivial
+- Not a representation
+- Surjective onto all of 𝔤𝔩(𝔤)
+difficulty: intermediate
+explanation: The adjoint rep is faithful for semisimple 𝔤 since Z(𝔤) = 0 (no non-trivial
+  central elements, as the Killing form is non-degenerate). The kernel of ad is the
+  center.
+kind: mc
+tags:
+- adjoint-representation
+- semisimple
+text: 'For a semisimple Lie algebra 𝔤 over ℂ, the adjoint representation ad: 𝔤 → 𝔤𝔩(𝔤)
+  is:'

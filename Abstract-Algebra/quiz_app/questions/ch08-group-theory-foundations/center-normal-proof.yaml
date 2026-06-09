@@ -1,0 +1,25 @@
+kind: proof
+difficulty: intermediate
+text: "Theorem: The center Z(G) of any group G is a normal subgroup of G."
+proof_lines:
+  - "Recall Z(G) = {z ∈ G | zg = gz for all g ∈ G}. We first show Z(G) is a subgroup."
+  - "e ∈ Z(G) since eg = ge for all g. If z, w ∈ Z(G) then (zw)g = z(wg) = z(gw) = (zg)w = ___ for all g, so zw ∈ Z(G)."
+  - "If z ∈ Z(G) then zg = gz implies g = z⁻¹gz, so gz⁻¹ = ___, meaning z⁻¹ ∈ Z(G)."
+  - "To show normality, take any g ∈ G and z ∈ Z(G). Then gzg⁻¹ = ___ · g⁻¹ = gg⁻¹z = z ∈ Z(G)."
+  - "Since gZ(G)g⁻¹ ⊆ Z(G) for all g ∈ G, the subgroup Z(G) is ___ in G."
+fills:
+  - "g(zw)"
+  - "z⁻¹g"
+  - "gz"
+  - "normal"
+explanation: >
+  The four blanks carry the logical weight: (1) the product zw commutes with every g
+  because each factor commutes individually; (2) inverses of central elements are central
+  by rearranging zg = gz; (3) the conjugation gzg⁻¹ simplifies to z itself because z
+  commutes with g; (4) since every conjugate of z stays in Z(G), the subgroup satisfies
+  the normality criterion gZ(G)g⁻¹ ⊆ Z(G).
+tags:
+  - center
+  - normal-subgroups
+  - group-theory
+  - proof

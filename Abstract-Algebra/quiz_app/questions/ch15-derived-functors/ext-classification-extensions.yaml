@@ -1,0 +1,16 @@
+kind: blank
+difficulty: intermediate
+text: "The group Ext¹_R(M, N) classifies equivalence classes of ___ of N by M, i.e., short exact sequences 0 → N → E → M → 0 up to isomorphisms fixing the end terms."
+choices:
+  - "extensions"
+  - "module extensions"
+explanation: >
+  Baer's theorem identifies Ext¹(M,N) with the set of equivalence classes of
+  extensions 0 → N → E → M → 0, where the group operation is given by the Baer sum.
+  The zero element corresponds to the split extension E = N ⊕ M. This is one of
+  the most important interpretations of Ext, connecting the abstract derived functor
+  to concrete module-theoretic data.
+tags:
+  - ext
+  - extensions
+  - baer-sum

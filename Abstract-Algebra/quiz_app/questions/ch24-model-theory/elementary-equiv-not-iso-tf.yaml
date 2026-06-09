@@ -1,0 +1,10 @@
+kind: tf
+difficulty: intermediate
+text: "Two structures that satisfy exactly the same first-order sentences are necessarily isomorphic."
+answer: false
+explanation: >
+  Elementarily equivalent structures (M ≡ N, meaning they satisfy the same first-order sentences) need not be isomorphic. The canonical counterexample: ℚ and ℝ are both dense linear orders without endpoints, hence satisfy the same first-order sentences (by quantifier elimination for DLO), but are not isomorphic (|ℚ| = ℵ₀ ≠ 2^ℵ₀ = |ℝ|). Elementary equivalence equals isomorphism only for "categorical" theories or in special cases like finite structures (where first-order logic can pin down the structure up to isomorphism).
+tags:
+  - elementary-equivalence
+  - elementary-equiv
+  - tf

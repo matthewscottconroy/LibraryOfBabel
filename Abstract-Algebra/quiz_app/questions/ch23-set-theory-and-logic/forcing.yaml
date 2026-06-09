@@ -1,0 +1,14 @@
+kind: mc
+difficulty: advanced
+text: 'Forcing (Cohen''s technique) is used to:'
+explanation: 'Forcing: extend a model M of ZFC by adding a generic set G to create a new model M[G] with
+  different properties.'
+tags:
+- forcing
+- independence
+choices:
+- construct models of ZFC where additional axioms hold or fail
+- prove theorems about ordinals
+- define large cardinals
+- establish consistency of ZF without Choice
+answer: 0

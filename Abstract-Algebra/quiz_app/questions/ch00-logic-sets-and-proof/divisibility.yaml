@@ -1,0 +1,9 @@
+answer: true
+difficulty: beginner
+explanation: If b = ka and c = lb, then c = l(ka) = (lk)a, so a | c. Transitivity,
+  along with a | b and a | c implies a | (mb + nc), are the core divisibility lemmas.
+kind: tf
+tags:
+- number-theory
+- proof
+text: If a | b and b | c then a | c (divisibility is transitive).

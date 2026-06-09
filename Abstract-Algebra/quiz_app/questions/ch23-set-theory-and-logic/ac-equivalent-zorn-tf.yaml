@@ -1,0 +1,10 @@
+kind: tf
+difficulty: intermediate
+text: "The Axiom of Choice is equivalent to Zorn's lemma over ZF set theory."
+answer: true
+explanation: >
+  Over ZF (without Choice), the following are equivalent: (1) Axiom of Choice (every set has a choice function); (2) Zorn's lemma (every chain-bounded nonempty poset has a maximal element); (3) Well-ordering theorem (every set can be well-ordered); (4) Tychonoff's theorem (product of compact spaces is compact); and many others. The proof of AC ⟺ Zorn goes via transfinite induction and uses that any set can be well-ordered assuming AC, from which Zorn follows.
+tags:
+  - axiom-of-choice
+  - zorns-lemma
+  - tf

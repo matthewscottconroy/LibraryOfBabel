@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- They have a purely combinatorial structure (crystal graph) that encodes decomposition
+  of tensor products
+- They diagonalise the R-matrix
+- They give integral forms of representations
+- They are fixed under the bar involution
+difficulty: advanced
+explanation: Crystal bases have a crystal graph with edges colored by simple roots,
+  encoding weight spaces and the action of crystal operators ẽᵢ, f̃ᵢ. Tensor product
+  rule in terms of crystal graphs generalises Littlewood–Richardson.
+kind: mc
+tags:
+- crystal-bases
+- quantum-groups
+text: 'Crystal bases (Kashiwara) are bases for representations of quantum groups at
+  q → 0. Their main property is:'

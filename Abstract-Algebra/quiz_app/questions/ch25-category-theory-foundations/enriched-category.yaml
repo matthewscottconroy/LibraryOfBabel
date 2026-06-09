@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Ab-enriched categories (additive categories), dg-categories, and spectral categories
+- Ordinary categories only
+- Groups as single-object categories
+- Categories with a single object
+difficulty: advanced
+explanation: 'V-enriched categories: V = Ab gives additive categories (abelian groups
+  of morphisms); V = Ch gives dg-categories (chain complexes of morphisms); V = Spectra
+  gives spectral categories. Each level gives a richer structure.'
+kind: mc
+tags:
+- enriched-categories
+- monoidal-categories
+text: 'A category enriched over a monoidal category (V, ⊗, I) has hom-objects Hom(A,B)
+  ∈ V (not just sets) and composition maps Hom(B,C) ⊗ Hom(A,B) → Hom(A,C). Examples
+  include:'

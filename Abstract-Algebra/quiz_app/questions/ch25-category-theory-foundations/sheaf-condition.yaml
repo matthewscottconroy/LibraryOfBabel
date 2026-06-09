@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A bijection
+- Injective only
+- Surjective only
+- The zero map
+difficulty: intermediate
+explanation: 'Sheaf condition: F(U) ≅ lim_{V→U in S} F(V) — sections over U are determined
+  by compatible families of sections on covers. This axiomatises local-to-global principles
+  from analysis and topology.'
+kind: mc
+tags:
+- sheaves
+- grothendieck-topology
+text: 'A presheaf F: C^{op} → Set is a sheaf (for a Grothendieck topology J) if for
+  every covering sieve S, the restriction map F(U) → {compatible families in S} is:'

@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- 'Content is multiplicative: cont(fg) = cont(f)·cont(g) (up to units)'
+- Every prime in R is prime in R[x]
+- K[x] is a PID implies R[x] is a PID
+- Polynomials split over K
+difficulty: intermediate
+explanation: 'Gauss''s lemma: cont(fg) = cont(f)cont(g) for polynomials over a UFD.
+  Consequence: primitive × primitive = primitive. Irreducibility over R[x] and K[x]
+  are related by this via clearing denominators.'
+kind: mc
+tags:
+- gauss-lemma
+- ufd
+text: 'Gauss''s lemma (ring version): if R is a UFD, then R[x] is also a UFD. Moreover,
+  a primitive polynomial f ∈ R[x] (gcd of coefficients = 1) that is irreducible in
+  R[x] is also irreducible in K[x] where K = Frac(R). The key step is:'

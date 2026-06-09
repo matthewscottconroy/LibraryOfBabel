@@ -1,0 +1,13 @@
+kind: tf
+difficulty: intermediate
+text: "Every tensor in V⊗W is a simple (decomposable) tensor of the form v⊗w."
+answer: false
+explanation: >
+  Simple tensors v⊗w span V⊗W but do not exhaust it when both V and W have dimension ≥ 2.
+  A generic element of V⊗W is a sum of simple tensors. For example, if {e₁,e₂} and {f₁,f₂} are
+  bases, then e₁⊗f₁ + e₂⊗f₂ ∈ V⊗W is not a simple tensor. The tensor rank of an element measures
+  the minimum number of simple tensors needed to express it, and this rank can exceed 1.
+tags:
+  - tensor-products
+  - tensor-rank
+  - simple-tensor

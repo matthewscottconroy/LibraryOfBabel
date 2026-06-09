@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- All models of T of cardinality κ are isomorphic
+- T has a model of cardinality κ
+- T has exactly κ models
+- T is complete and has a model of size κ
+difficulty: intermediate
+explanation: T is κ-categorical when all models of cardinality κ are isomorphic (T
+  is complete up to isomorphism at κ). By the Łoś–Vaught test, if T is κ-categorical
+  for some κ ≥ |T|+ℵ₀ and has no finite models, then T is complete.
+kind: mc
+tags:
+- categoricity
+- isomorphism
+text: 'A theory T is κ-categorical if:'

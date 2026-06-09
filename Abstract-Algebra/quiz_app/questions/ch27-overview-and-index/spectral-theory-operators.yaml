@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- H = ∫ λ dE(λ), expressing H as an integral against a projection-valued measure
+- H has only discrete spectrum
+- H is bounded and diagonalisable
+- Spec(H) ⊆ [0,∞)
+difficulty: advanced
+explanation: 'The spectral theorem for self-adjoint operators: H = ∫_ℝ λ dE(λ) where
+  E is a projection-valued measure on ℝ. This generalises matrix diagonalisation to
+  infinite dimensions. For compact self-adjoint operators, the spectrum is discrete.'
+kind: mc
+tags:
+- spectral-theorem
+- functional-analysis
+text: 'The spectral theorem for unbounded self-adjoint operators H on a Hilbert space
+  asserts the existence of a spectral measure E such that:'

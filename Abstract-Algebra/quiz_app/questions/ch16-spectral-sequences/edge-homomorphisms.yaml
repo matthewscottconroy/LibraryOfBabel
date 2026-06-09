@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- The inclusion of the p-th filtration piece
+- The differential d_2
+- The connecting homomorphism
+- A section of the fibration
+difficulty: intermediate
+explanation: 'The edge homomorphism E_2^{p,0} = E_∞^{p,0} ↪ H_p comes from the filtration:
+  the bottom row survives to E_∞ and maps to a filtration quotient of H_p. It is not
+  generally an isomorphism.'
+kind: mc
+tags:
+- edge-homomorphism
+- filtration
+text: 'In a first-quadrant spectral sequence E_2 ⟹ H_*, the edge homomorphism on the
+  base axis E_2^{p,0} → H_p arises from:'

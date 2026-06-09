@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- 𝒫(ℕ)
+- ℕ × ℕ
+- ℚ
+- The set of all finite subsets of ℕ
+difficulty: intermediate
+explanation: '|𝒫(ℕ)| = 2^{ℵ₀} = |ℝ|. The sets ℕ×ℕ, ℚ, and finite subsets of ℕ are
+  all countably infinite (cardinality ℵ₀). The continuum |ℝ| = |𝒫(ℕ)| = 2^{ℵ₀} > ℵ₀.'
+kind: mc
+tags:
+- cardinality
+- countable
+text: Which of the following sets has the same cardinality as ℝ?

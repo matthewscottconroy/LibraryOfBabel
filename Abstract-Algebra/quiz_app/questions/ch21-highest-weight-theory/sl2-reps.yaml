@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- n + 1
+- n
+- 2n
+- n²
+difficulty: intermediate
+explanation: L(n) has highest weight n and weights n, n−2, n−4, …, −n, each of multiplicity
+  1. So dim L(n) = n+1. The representation theory of 𝔰𝔩₂ is the building block for
+  all of Lie theory.
+kind: mc
+tags:
+- sl2
+- highest-weight
+text: The irreducible finite-dimensional representations of 𝔰𝔩₂(ℂ) = span{e,f,h} are
+  parametrized by non-negative integers n, with dim L(n) =

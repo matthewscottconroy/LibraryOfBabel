@@ -1,0 +1,8 @@
+kind: blank
+difficulty: beginner
+text: The ___ of a matrix A is the dimension of its column space (image).
+explanation: Rank = dim(col space) = dim(row space) = n − nullity(A).
+tags:
+- matrices
+choices:
+- rank

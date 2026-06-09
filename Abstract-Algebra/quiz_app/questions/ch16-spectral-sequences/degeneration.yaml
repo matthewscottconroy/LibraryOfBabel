@@ -1,0 +1,13 @@
+choices:
+- degenerate
+- collapse
+difficulty: advanced
+explanation: 'Degeneration simplifies computation enormously: when the SS degenerates
+  at E₂, H^n ≅ ⊕_{p+q=n} E₂^{p,q} (as abelian groups, extension issues aside). Hodge
+  theory provides a key degeneration result for Kähler manifolds.'
+kind: blank
+tags:
+- spectral-sequences
+- degeneration
+text: A spectral sequence is said to ___ at page E_r₀ if all differentials d_r = 0
+  for r ≥ r₀, so E_{r₀} = E_∞.

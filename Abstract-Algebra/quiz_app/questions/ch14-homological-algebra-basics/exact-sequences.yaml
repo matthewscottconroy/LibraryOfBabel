@@ -1,0 +1,13 @@
+kind: mc
+difficulty: beginner
+text: 'A sequence of modules 0 → A →^f B →^g C → 0 is short exact if:'
+explanation: 'Short exact: 0→A→B→C→0 means f is injective, g is surjective, and im(f)=ker(g).'
+tags:
+- exact-sequences
+- short-exact
+choices:
+- f injective, g surjective, and im(f) = ker(g)
+- f surjective and g injective
+- f and g are isomorphisms
+- A = C = 0
+answer: 0

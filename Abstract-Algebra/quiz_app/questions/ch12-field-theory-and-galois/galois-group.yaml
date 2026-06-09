@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- The group of field automorphisms of L that fix K pointwise
+- The group of all field automorphisms of L
+- The group of all field automorphisms of K
+- The group of all automorphisms of L/K as a module
+difficulty: intermediate
+explanation: 'Gal(L/K) = Aut_K(L) = {σ: L → L field isomorphism : σ(k)=k ∀k∈K}. For
+  a finite Galois extension, |Gal(L/K)| = [L:K].'
+kind: mc
+tags:
+- galois-group
+- galois-theory
+text: 'The Galois group Gal(L/K) of a Galois extension L/K is:'

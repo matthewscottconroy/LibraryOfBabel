@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- The representable functor Hom_C(−, c)
+- The constant functor at c
+- The functor Hom_C(c, −)
+- The identity functor
+difficulty: intermediate
+explanation: 'The Yoneda embedding y(c) = Hom_C(−,c): C^op → Set is fully faithful
+  — natural transformations between representable functors biject with morphisms in
+  C. This embeds C into a category with all limits and colimits.'
+kind: mc
+tags:
+- Yoneda-embedding
+- representable
+text: 'The Yoneda embedding y: C → Set^{C^op} sends an object c to:'

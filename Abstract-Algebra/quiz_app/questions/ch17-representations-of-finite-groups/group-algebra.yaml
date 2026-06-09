@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Left F[G]-modules
+- Right F[G]-modules only
+- Ideals of F[G]
+- Subalgebras of F[G]
+difficulty: intermediate
+explanation: 'F[G]-modules and G-representations are the same thing: the action of
+  Σ aₘg on v ∈ V is Σ aₘ ρ(g)(v). The Artin–Wedderburn decomposition of F[G] (when
+  char F ∤ |G|) reflects the decomposition into irreducibles.'
+kind: mc
+tags:
+- group-algebra
+- representations
+text: 'The group algebra F[G] is the F-vector space with basis {g : g ∈ G} and multiplication
+  extending linearity and group multiplication. Representations of G correspond to:'

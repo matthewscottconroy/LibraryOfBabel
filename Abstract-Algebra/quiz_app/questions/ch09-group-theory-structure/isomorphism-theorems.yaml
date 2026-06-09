@@ -1,0 +1,12 @@
+kind: mc
+difficulty: intermediate
+text: 'The first isomorphism theorem for groups states that G/ker(φ) is isomorphic to:'
+explanation: 'First isomorphism: for φ:G→H, G/ker(φ) ≅ im(φ).'
+tags:
+- isomorphism-theorems
+choices:
+- im(φ)
+- G
+- ker(φ)
+- G × im(φ)
+answer: 0

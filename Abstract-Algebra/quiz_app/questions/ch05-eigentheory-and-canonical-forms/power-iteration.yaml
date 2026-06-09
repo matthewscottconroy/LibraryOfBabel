@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- v_{k+1} = Av_k / ‖Av_k‖, converging to the eigenvector for the largest |eigenvalue|
+- v_{k+1} = A⁻¹v_k
+- v_{k+1} = v_k + Av_k
+- v_{k+1} = Aᵏv₀
+difficulty: intermediate
+explanation: 'Power iteration: repeated normalised matrix-vector products converge
+  (assuming a unique dominant eigenvalue) to the eigenvector of the eigenvalue with
+  largest modulus. Rate of convergence depends on |λ₁/λ₂|.'
+kind: mc
+tags:
+- eigenvalues
+- numerical
+text: 'The power method for computing the dominant eigenvalue of A iterates:'

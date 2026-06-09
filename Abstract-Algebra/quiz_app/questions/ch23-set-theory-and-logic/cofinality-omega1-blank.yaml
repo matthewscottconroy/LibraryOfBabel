@@ -1,0 +1,13 @@
+kind: blank
+difficulty: advanced
+text: "The cofinality of ω₁ (the first uncountable ordinal) is ___."
+choices:
+  - "ω₁"
+  - "ω"
+explanation: >
+  ω₁ is a regular cardinal: its cofinality equals itself, cf(ω₁) = ω₁. This means ω₁ cannot be expressed as a union of fewer than ω₁ many sets each of cardinality less than ω₁. Concretely, there is no countable cofinal sequence in ω₁ — any countable set of countable ordinals has a countable upper bound, so you cannot reach ω₁ via a countable sequence. This is in contrast to, say, ℵ_ω which has cofinality ω.
+tags:
+  - cofinality
+  - ordinals
+  - cardinals
+  - blank

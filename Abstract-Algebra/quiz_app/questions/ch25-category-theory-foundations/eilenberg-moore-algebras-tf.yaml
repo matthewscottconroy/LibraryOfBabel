@@ -1,0 +1,10 @@
+kind: tf
+difficulty: intermediate
+text: "The Eilenberg–Moore category of a monad (T, η, μ) on C is the category of T-algebras: objects are pairs (A, α: T(A) → A) satisfying the algebra axioms."
+answer: true
+explanation: >
+  A T-algebra is an object A ∈ C together with a structure map α: T(A) → A satisfying: (1) α ∘ η_A = id_A (unit axiom) and (2) α ∘ μ_A = α ∘ T(α) (associativity axiom). The Eilenberg–Moore category C^T has these as objects and T-algebra morphisms as arrows. The free-forgetful adjunction F^T ⊣ G^T between C and C^T induces the original monad T. Beck's monadicity theorem characterizes exactly when a given adjunction is equivalent to one arising from an Eilenberg–Moore category.
+tags:
+  - Eilenberg-Moore-category
+  - monads-definition
+  - tf

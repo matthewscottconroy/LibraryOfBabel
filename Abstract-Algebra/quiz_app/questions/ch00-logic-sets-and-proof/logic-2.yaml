@@ -1,0 +1,12 @@
+kind: mc
+difficulty: beginner
+text: 'De Morgan''s law states that ¬(P ∧ Q) is logically equivalent to:'
+explanation: ¬(P∧Q) ≡ ¬P∨¬Q. Distribute negation over conjunction, flipping ∧ to ∨.
+tags:
+- logic
+choices:
+- ¬P ∧ ¬Q
+- ¬P ∨ ¬Q
+- P ∨ ¬Q
+- P ∧ ¬Q
+answer: 1

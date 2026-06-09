@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A Levi subalgebra (Levi factor)
+- A Borel subalgebra
+- A Cartan subalgebra
+- A radical subalgebra
+difficulty: advanced
+explanation: Every parabolic p decomposes as p = l ⊕ n (Levi decomposition) where
+  n is the nilpotent radical and l is a reductive Levi factor. The Levi factor is
+  isomorphic to the direct sum of the center with a semisimple algebra.
+kind: mc
+tags:
+- Levi-decomposition
+- parabolic
+text: 'For a parabolic subalgebra p = l ⊕ n where n is nilpotent, the subalgebra l
+  is called:'

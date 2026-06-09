@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- The set of eigenvalues of T (roots of the characteristic polynomial)
+- The set of all matrices similar to T
+- The image of T
+- The trace of T
+difficulty: intermediate
+explanation: 'Spec(T) = {λ ∈ ℂ : det(T − λI) = 0}. Over ℂ, every n×n matrix has exactly
+  n eigenvalues (counting algebraic multiplicity) by the fundamental theorem of algebra.
+  Over ℝ, the spectrum may require passing to ℂ.'
+kind: mc
+tags:
+- eigenvalues
+- spectrum
+text: 'The spectrum of a linear operator T on a finite-dimensional complex vector
+  space is:'

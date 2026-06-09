@@ -1,0 +1,13 @@
+kind: mc
+difficulty: intermediate
+text: 'The center Z(G) of a group G consists of all elements that:'
+explanation: Z(G) = {z∈G | zg=gz for all g∈G}. It is always a normal abelian subgroup.
+tags:
+- center
+- abelian
+choices:
+- commute with every element of G
+- have order 1 or 2
+- lie in every subgroup
+- generate G
+answer: 0

@@ -1,0 +1,10 @@
+kind: tf
+difficulty: intermediate
+text: "Every partial order can be extended to a total order (Szpilrajn's Extension Theorem)."
+answer: true
+explanation: "Szpilrajn's theorem (1930) states that any partial order on a set can be extended to a linear (total) order consistent with the original partial order. The proof uses Zorn's Lemma: the set of all partial orders extending the given one, ordered by inclusion, has a maximal element which must be a total order."
+tags:
+  - partial-order
+  - total-order
+  - szpilrajn
+  - zorns-lemma

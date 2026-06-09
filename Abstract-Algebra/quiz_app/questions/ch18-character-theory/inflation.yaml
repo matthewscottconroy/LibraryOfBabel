@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- G acts on V via G → G/N
+- G acts on V via N ↪ G
+- N acts trivially and G/N acts freely
+- G acts on V by restriction
+difficulty: intermediate
+explanation: 'Inflation pulls back a G/N-representation to G via the quotient map
+  π: G → G/N: (Inf V)(g)(v) = V(π(g))(v). In particular N acts trivially on Inf(V).'
+kind: mc
+tags:
+- inflation
+- quotient
+text: 'If N ◁ G and V is a representation of G/N, the inflation Inf(V) is a representation
+  of G where:'

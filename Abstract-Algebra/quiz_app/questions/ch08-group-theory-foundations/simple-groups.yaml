@@ -1,0 +1,9 @@
+kind: tf
+difficulty: advanced
+text: The alternating group A_n is simple for n ≥ 5.
+explanation: A_5 ≅ PSL(2,5) is simple; by induction A_n is simple for all n ≥ 5. This is a key result
+  in Galois theory.
+tags:
+- simple-groups
+- alternating-group
+answer: true

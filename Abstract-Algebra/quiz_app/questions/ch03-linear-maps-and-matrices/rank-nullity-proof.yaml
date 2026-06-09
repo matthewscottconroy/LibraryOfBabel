@@ -1,0 +1,21 @@
+kind: proof
+difficulty: intermediate
+text: "Rank-Nullity Theorem: For a linear map T: V → W with V finite-dimensional, dim(ker T) + dim(im T) = dim V."
+proof_lines:
+  - "Let {v₁, ..., vₖ} be a basis of ker(T), and extend it to a basis {v₁,...,vₖ, u₁,...,uₚ} of V."
+  - "Then dim(ker T) = k, dim V = k+p, and it suffices to show dim(im T) = ___."
+  - "The set {T(u₁), ..., T(uₚ)} spans im T: any T(v) = T(∑aᵢvᵢ + ∑bⱼuⱼ) = ∑bⱼT(uⱼ) since T(vᵢ) = ___."
+  - "It is also linearly independent: if ∑bⱼT(uⱼ) = 0 then ∑bⱼuⱼ ∈ ker T, so ∑bⱼuⱼ = ∑cᵢvᵢ, forcing all bⱼ = 0 by linear independence of the full basis."
+fills:
+  - "p"
+  - "0"
+explanation: >
+  The proof constructs a basis for im(T) from the 'non-kernel' part of a basis of V.
+  The fill 'p' is the target dimension count for im(T), since k+p = dim V and we already
+  know dim(ker T) = k. The fill '0' uses the defining property that the vᵢ are in the
+  kernel, collapsing their images and leaving only the T(uⱼ) terms to span the image.
+tags:
+  - rank-nullity
+  - linear-maps
+  - dimension
+  - proof

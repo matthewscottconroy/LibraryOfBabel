@@ -1,0 +1,12 @@
+kind: blank
+difficulty: intermediate
+text: "A root system in a real inner product space V is a finite set Φ ⊆ V of nonzero vectors satisfying: (1) Φ spans V; (2) for each α ∈ Φ, the only scalar multiples of α in Φ are ±α; (3) Φ is closed under reflections s_α; and (4) for all α, β ∈ Φ, the quantity ⟨β, α∨⟩ := ___ is an integer."
+choices:
+  - "2⟨β, α⟩ / ⟨α, α⟩"
+  - "⟨β, α⟩"
+explanation: >
+  The integrality condition 2⟨β, α⟩/⟨α, α⟩ ∈ ℤ (the Cartan integer) is the crucial axiom distinguishing root systems from arbitrary finite reflection groups. It encodes the constraint that the reflection of β through the hyperplane perpendicular to α lands back in the integer lattice spanned by Φ.
+tags:
+  - root-system-axioms
+  - blank
+  - root-systems

@@ -1,0 +1,23 @@
+kind: proof
+difficulty: advanced
+text: "Theorem: The exponential map exp: g → G is a local diffeomorphism near 0 ∈ g."
+proof_lines:
+  - "The exponential map exp: g → G is defined by exp(X) = γ_X(1), where γ_X: ℝ → G is the unique one-parameter subgroup with γ_X'(0) = X."
+  - "To show exp is a local diffeomorphism near 0, we compute its derivative at 0. The differential d(exp)_0: T_0 g → T_{exp(0)} G = T_e G = g is given by d(exp)_0(X) = d/dt|_{t=0} exp(tX) = ___."
+  - "Since this derivative is the identity map id_g, the differential d(exp)_0 is ___."
+  - "By the inverse function theorem for smooth maps between manifolds, exp is a local diffeomorphism near 0: there exist open neighborhoods U ∋ 0 in g and V ∋ e in G such that exp|_U: U → V is a ___."
+fills:
+  - "X"
+  - "an isomorphism"
+  - "diffeomorphism"
+explanation: >
+  The first blank is the key computation: differentiating t ↦ exp(tX) at t = 0 gives the tangent
+  vector X ∈ T_e G = g. This shows d(exp)_0 = id_g, which is the second blank. Since the
+  differential is an isomorphism (the identity), the inverse function theorem applies and yields
+  the local diffeomorphism property stated in the third blank. Note that exp need not be a global
+  diffeomorphism; for non-compact groups it may fail to be surjective or injective globally.
+tags:
+  - exponential-map
+  - local-diffeomorphism
+  - inverse-function-theorem
+  - proof

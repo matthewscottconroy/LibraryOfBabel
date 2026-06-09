@@ -1,0 +1,10 @@
+kind: tf
+difficulty: beginner
+text: Category theory provides a unified language for abstract algebra by abstracting morphisms across
+  all algebraic structures.
+explanation: Categories, functors, and natural transformations unify constructions across groups, rings,
+  modules, etc.
+tags:
+- category-theory
+- overview
+answer: true

@@ -1,0 +1,22 @@
+kind: proof
+difficulty: advanced
+text: "Cayley-Hamilton Theorem: Every square matrix A satisfies its own characteristic polynomial p_A(λ) = det(λI - A)."
+proof_lines:
+  - "Let p_A(λ) = det(λI - A). We wish to show p_A(A) = 0."
+  - "Write the adjugate: adj(λI - A) is a matrix whose entries are polynomials of degree ≤ n-1 in λ; expand it as B(λ) = B_{n-1}λ^{n-1} + ⋯ + B₀ where each Bₖ is a constant matrix."
+  - "The key identity is (λI - A)·adj(λI - A) = ___ · I, which holds by definition of the adjugate."
+  - "Expanding the left side and equating coefficients of each power λᵏ yields n+1 matrix equations relating A, Bₖ."
+  - "Multiplying each coefficient equation by Aᵏ and summing telescopically gives ___ = 0."
+fills:
+  - "det(λI - A)"
+  - "p_A(A)"
+explanation: >
+  The classical proof uses the adjugate identity (λI - A)·adj(λI - A) = det(λI - A)·I as a polynomial
+  matrix identity. Expanding adj(λI - A) in powers of λ and matching coefficients gives a system of
+  equations; multiplying the equation for λᵏ by Aᵏ and summing telescopes to p_A(A) = 0.
+  The crucial subtlety is that substituting λ = A into det(λI - A) is NOT valid as a scalar identity;
+  the proof must work at the level of polynomial matrices and then evaluate at A.
+tags:
+  - cayley-hamilton
+  - characteristic-polynomial
+  - proof

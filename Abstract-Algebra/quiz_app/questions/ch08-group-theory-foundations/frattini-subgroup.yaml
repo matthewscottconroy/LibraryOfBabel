@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A subset S generates G iff S \ Φ(G) generates G
+- Φ(G) generates G
+- Φ(G) = G always
+- Removing any element of Φ(G) collapses G
+difficulty: advanced
+explanation: 'Frattini: elements of Φ(G) are ''non-generators'' — they can always
+  be dropped from any generating set. For p-groups, Φ(G) = G^p[G,G], and G/Φ(G) is
+  an elementary abelian p-group (the Frattini quotient).'
+kind: mc
+tags:
+- frattini-subgroup
+- group-theory
+text: 'The Frattini subgroup Φ(G) is the intersection of all maximal subgroups of
+  G. It is called the ''non-generator'' subgroup because:'

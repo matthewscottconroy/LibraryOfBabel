@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- The tangent space T_e G at the identity, with bracket from the group structure
+- The set of all group homomorphisms G → ℝ
+- The center of G
+- The set of all subgroups of G
+difficulty: intermediate
+explanation: '𝔤 = T_e G with [X,Y] = [L_X, L_Y] (commutator of left-invariant vector
+  fields). The exponential map exp: 𝔤 → G is a local diffeomorphism near 0 ↦ e, making
+  𝔤 the ''infinitesimal'' version of G.'
+kind: mc
+tags:
+- lie-algebras
+- tangent-space
+text: 'The Lie algebra 𝔤 of a Lie group G is identified with:'

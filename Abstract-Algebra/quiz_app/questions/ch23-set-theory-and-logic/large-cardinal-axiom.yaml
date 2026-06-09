@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Cannot be proved in ZFC (if ZFC is consistent)
+- Follows from ZFC + CH
+- Is provable in ZFC
+- Contradicts the Axiom of Choice
+difficulty: advanced
+explanation: 'Large cardinal axioms transcend ZFC: if ZFC is consistent, then so is
+  ZFC + ''no measurable cardinal exists'' (by Gödel''s incompleteness). Measurable
+  cardinals imply many combinatorial principles and are central to the large cardinal
+  hierarchy.'
+kind: mc
+tags:
+- large-cardinals
+- set-theory
+text: 'A measurable cardinal is an uncountable cardinal κ admitting a non-principal
+  κ-complete ultrafilter. The existence of a measurable cardinal:'

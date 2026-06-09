@@ -1,0 +1,12 @@
+kind: mc
+difficulty: intermediate
+text: 'The first Sylow theorem states that if p^k divides |G|, then G has:'
+explanation: 'First Sylow: for every prime power p^k dividing |G|, there exists a subgroup of that order.'
+tags:
+- sylow-theorems
+choices:
+- a subgroup of order p^k
+- a normal subgroup of order p^k
+- exactly p subgroups of order k
+- no elements of order p^k
+answer: 0

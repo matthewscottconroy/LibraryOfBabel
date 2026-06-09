@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- They satisfy exactly the same first-order sentences
+- They are isomorphic
+- There is an elementary embedding M → N
+- They have the same cardinality
+difficulty: intermediate
+explanation: M ≡ N means every first-order sentence true in M is true in N. Isomorphic
+  structures are elementarily equivalent, but not vice versa (ℝ and ℝ(t) are elementarily
+  equivalent as ordered fields by model completeness of RCF).
+kind: mc
+tags:
+- elementary-equivalence
+- first-order
+text: 'Two structures M and N are elementarily equivalent (M ≡ N) if:'

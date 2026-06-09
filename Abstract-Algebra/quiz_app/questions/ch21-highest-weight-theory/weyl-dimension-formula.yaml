@@ -1,0 +1,11 @@
+kind: blank
+difficulty: advanced
+text: The ___ formula gives the dimension of the irreducible g-module V(λ) with highest weight λ as a
+  product over positive roots.
+explanation: 'Weyl dimension formula: dim V(λ) = ∏_{α>0} ⟨λ+ρ,α⟩/⟨ρ,α⟩ where ρ = half-sum of positive
+  roots.'
+tags:
+- weyl-dimension-formula
+choices:
+- Weyl dimension
+- Weyl

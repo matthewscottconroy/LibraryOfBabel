@@ -1,0 +1,12 @@
+kind: blank
+difficulty: intermediate
+text: 'The ___ lemma connects homology of a double complex: from a short exact sequence of chain complexes
+  0→A•→B•→C•→0 one gets a long exact sequence in homology.'
+explanation: 'The snake lemma produces the connecting homomorphism δ: Hₙ(C) → Hₙ₋₁(A) giving the long
+  exact sequence.'
+tags:
+- snake-lemma
+- homology
+choices:
+- snake
+- connecting homomorphism

@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- P(k) for all k ≤ n
+- P(n) only
+- P(n+1)
+- P(1) only
+difficulty: beginner
+explanation: Strong (complete) induction assumes P(k) holds for all k from the base
+  case up to n, then deduces P(n+1). This is logically equivalent to ordinary induction
+  but often more convenient.
+kind: mc
+tags:
+- induction
+- proof
+text: 'In a proof by strong induction, the inductive hypothesis assumes:'

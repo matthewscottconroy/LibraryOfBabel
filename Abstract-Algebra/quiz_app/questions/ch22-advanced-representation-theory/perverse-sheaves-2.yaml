@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- The stalks of IC(X̄_w) at a point in X_x give P_{x,w}(q)
+- The Euler characteristic of IC(X̄_w) gives P_{x,w}
+- IC(X̄_w) is a Verma module
+- The sections of IC(X̄_w) give L(w·0)
+difficulty: advanced
+explanation: 'The geometric realization: P_{x,w}(q) = ∑_i q^i dim H^{2i}(IC(X̄_w)|_{X_x}).
+  This is why KL polynomials have non-negative coefficients — they are Betti numbers
+  of intersection cohomology sheaves.'
+kind: mc
+tags:
+- perverse-sheaves
+- Kazhdan-Lusztig
+text: 'Intersection cohomology sheaves IC(X̄_w) on Schubert varieties X̄_w ⊂ G/B relate
+  to Kazhdan–Lusztig polynomials via:'

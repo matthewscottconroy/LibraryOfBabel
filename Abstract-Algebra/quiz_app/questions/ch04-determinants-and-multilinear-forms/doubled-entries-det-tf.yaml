@@ -1,0 +1,12 @@
+kind: tf
+difficulty: intermediate
+text: "If every entry of an n×n matrix A is doubled, the determinant of the resulting matrix equals 2·det(A)."
+answer: false
+explanation: >
+  Doubling every entry produces the matrix 2A. By multilinearity, det(2A) = 2ⁿ·det(A), not 2·det(A),
+  because each of the n rows is scaled by 2 and each row-scaling multiplies the determinant by 2.
+  For example, if A = I₃ then det(2I₃) = 8 = 2³, not 2. The correct factor is 2ⁿ.
+tags:
+  - determinants
+  - row-operations
+  - multilinear

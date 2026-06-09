@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A scalar ⟨λ, λ+2ρ⟩ (the Harish-Chandra eigenvalue)
+- Zero
+- The identity on weight spaces
+- dim L(λ)
+difficulty: advanced
+explanation: By Schur's lemma, the Casimir (and all central elements of U(𝔤)) acts
+  by a scalar on irreducibles. The quadratic Casimir acts by ⟨λ+ρ,λ+ρ⟩ − ⟨ρ,ρ⟩ = ⟨λ,λ+2ρ⟩.
+  This distinguishes representations with different highest weights.
+kind: mc
+tags:
+- casimir
+- representation-theory
+text: 'The Casimir element C ∈ Z(U(𝔤)) (center of the universal enveloping algebra)
+  acts on an irreducible module L(λ) by:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Injective functions
+- Surjective functions
+- Bijective functions
+- Constant functions
+difficulty: intermediate
+explanation: 'In Set: mono ↔ injective, epi ↔ surjective, iso ↔ bijective. In Ring
+  (unital): the inclusion ℤ → ℚ is an epimorphism (despite not being surjective!)
+  because any ring map out of ℚ is determined by its restriction to ℤ.'
+kind: mc
+tags:
+- monomorphism
+- category-theory
+text: 'A morphism f: A → B is a monomorphism if f ∘ g = f ∘ h ⟹ g = h (left cancellable).
+  In Set, monomorphisms are exactly:'

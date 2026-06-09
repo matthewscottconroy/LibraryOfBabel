@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- All ordered pairs (a,b) with a ∈ A and b ∈ B
+- All elements common to A and B
+- All subsets of A and B
+- All functions from A to B
+difficulty: beginner
+explanation: '|A × B| = |A| · |B| for finite sets. The concept generalises to A₁ ×
+  ⋯ × Aₙ and underpins the definition of relations and functions as subsets of Cartesian
+  products.'
+kind: mc
+tags:
+- sets
+- cartesian-product
+text: 'The Cartesian product A × B consists of:'

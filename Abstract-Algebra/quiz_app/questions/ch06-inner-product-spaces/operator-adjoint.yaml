@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Ā^T (conjugate transpose, also written A*)
+- A^T
+- Ā
+- A⁻¹
+difficulty: intermediate
+explanation: 'The adjoint of T ↔ conjugate transpose of its matrix: (A*)_{ij} = ā_{ji}.
+  Over ℝ, A* = Aᵀ (transpose). Self-adjoint T = T* ↔ Hermitian matrix A = A*.'
+kind: mc
+tags:
+- inner-products
+- adjoint
+text: 'The adjoint T* of a linear operator T on a Hilbert space H is defined by ⟨Tv,
+  w⟩ = ⟨v, T*w⟩ for all v, w. For T represented by matrix A in an ONB, T* has matrix:'

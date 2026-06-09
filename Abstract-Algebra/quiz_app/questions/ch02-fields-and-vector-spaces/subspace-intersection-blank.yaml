@@ -1,0 +1,10 @@
+kind: blank
+difficulty: beginner
+text: "The intersection of any collection of subspaces of a vector space V is also a ___ of V."
+choices:
+  - "subspace"
+explanation: "The intersection U∩W of subspaces is closed under addition and scalar multiplication (if u, w ∈ U∩W then u+w and λu lie in both U and W, hence in U∩W) and contains 0. This makes any arbitrary intersection of subspaces again a subspace — a fact used to define the span as the smallest subspace containing a set."
+tags:
+  - subspaces
+  - vector-spaces
+  - intersection

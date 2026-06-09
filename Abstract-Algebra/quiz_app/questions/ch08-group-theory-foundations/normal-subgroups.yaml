@@ -1,0 +1,8 @@
+kind: blank
+difficulty: beginner
+text: A subgroup N ≤ G is ___ if gNg⁻¹ = N for every g ∈ G.
+explanation: Normal subgroups allow the formation of a well-defined quotient group G/N.
+tags:
+- normal-subgroups
+choices:
+- normal

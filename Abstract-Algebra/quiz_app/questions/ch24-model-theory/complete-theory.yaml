@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- For every sentence φ, either T ⊢ φ or T ⊢ ¬φ
+- T has exactly one model
+- T proves all true statements
+- T is consistent
+difficulty: beginner
+explanation: 'A theory is complete if it decides every sentence: for each φ, either
+  T proves φ or T proves ¬φ. Complete consistent theories have the property that all
+  their models satisfy the same first-order sentences.'
+kind: mc
+tags:
+- complete-theory
+- decidability
+text: 'A first-order theory T is complete if:'

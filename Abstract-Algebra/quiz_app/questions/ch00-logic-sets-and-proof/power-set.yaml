@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- 2ⁿ
+- n²
+- n!
+- 2n
+difficulty: beginner
+explanation: Each element of A either is or is not in a subset, giving 2 independent
+  binary choices and hence 2ⁿ subsets total.
+kind: mc
+tags:
+- sets
+- power-set
+text: 'If |A| = n, the number of elements in the power set 𝒫(A) is:'

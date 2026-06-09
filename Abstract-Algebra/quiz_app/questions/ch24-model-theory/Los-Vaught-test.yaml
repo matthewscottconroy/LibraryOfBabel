@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- T is κ-categorical for some infinite κ and has no finite models
+- T is countably categorical
+- T has a saturated model
+- T has exactly one model up to isomorphism
+difficulty: intermediate
+explanation: 'If T is κ-categorical for some κ ≥ |L(T)|+ℵ₀ and has no finite models,
+  then T is complete. Applied to ACF_p (algebraically closed fields of characteristic
+  p): these are ω₁-categorical and hence complete.'
+kind: mc
+tags:
+- Los-Vaught
+- completeness
+text: 'The Łoś–Vaught test concludes that a theory T is complete if:'

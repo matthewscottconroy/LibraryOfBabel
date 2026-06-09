@@ -1,0 +1,15 @@
+kind: blank
+difficulty: intermediate
+text: "The determinant function is the unique ___ alternating multilinear form on n×n matrices over a field that satisfies det(I) = 1."
+choices:
+  - "scalar-valued"
+  - "normalized"
+explanation: >
+  The determinant is characterised axiomatically as the unique scalar-valued (or normalized)
+  alternating multilinear function of the rows (or columns) of a matrix with value 1 on the identity.
+  Multilinearity means det is linear in each row separately; alternating means it changes sign when two
+  rows are swapped (and vanishes when two rows are equal). These three conditions together force a unique function.
+tags:
+  - determinants
+  - multilinear
+  - alternating-form

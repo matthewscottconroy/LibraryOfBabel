@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A linear map V ⊗ W → U
+- A bilinear map V ⊗ W → U
+- A linear map V → W → U
+- An injection V × W → U
+difficulty: intermediate
+explanation: 'The tensor product is the ''universal bilinear object'': bilinear maps
+  out of V × W correspond bijectively to linear maps out of V ⊗ W. Elements v ⊗ w
+  are simple tensors; the space is spanned by them but not every element is simple.'
+kind: mc
+tags:
+- tensor-products
+- universal-property
+text: 'The tensor product V ⊗ W of vector spaces is characterised by the universal
+  property that every bilinear map V × W → U factors uniquely through:'

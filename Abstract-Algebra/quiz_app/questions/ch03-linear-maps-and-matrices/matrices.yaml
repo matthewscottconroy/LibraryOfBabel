@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: Two matrices A and B are similar (A = P⁻¹BP for some invertible P) if and only if they represent
+  the same linear map in different bases.
+explanation: Similarity is exactly the change-of-basis equivalence for endomorphisms.
+tags:
+- matrices
+- similarity
+answer: true

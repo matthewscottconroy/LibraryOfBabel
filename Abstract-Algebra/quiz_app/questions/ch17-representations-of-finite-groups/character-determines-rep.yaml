@@ -1,0 +1,11 @@
+answer: true
+difficulty: intermediate
+explanation: Two complex representations of a finite group are isomorphic if and only
+  if they have the same character. This follows from the orthogonality of characters
+  and complete reducibility.
+kind: tf
+tags:
+- character
+- isomorphism
+text: Over ℂ, a representation of a finite group G is determined up to isomorphism
+  by its character.

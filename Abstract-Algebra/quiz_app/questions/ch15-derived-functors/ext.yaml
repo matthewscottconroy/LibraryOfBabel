@@ -1,0 +1,13 @@
+kind: mc
+difficulty: intermediate
+text: The derived functor Ext^n_R(M, N) is computed using a ___ resolution of M.
+explanation: Ext^n(M,N) = H^n(Hom(P•, N)) where P• → M is a projective resolution.
+tags:
+- ext
+- derived-functors
+choices:
+- projective
+- injective
+- flat
+- free
+answer: 0

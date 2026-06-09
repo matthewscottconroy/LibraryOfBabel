@@ -1,0 +1,7 @@
+kind: tf
+difficulty: beginner
+text: The composition of two injective functions is injective.
+explanation: 'If f and g are injective: f(g(x))=f(g(y)) → g(x)=g(y) (by f injective) → x=y (by g injective).'
+tags:
+- functions
+answer: true

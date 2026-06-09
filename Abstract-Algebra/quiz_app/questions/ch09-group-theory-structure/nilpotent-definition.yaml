@@ -1,0 +1,15 @@
+kind: blank
+difficulty: intermediate
+text: "A group G is ___ if it has a central series G = G₀ ⊇ G₁ ⊇ ··· ⊇ Gₙ = {e} where each Gᵢ₊₁ contains [G, Gᵢ] (so each factor Gᵢ/Gᵢ₊₁ is central in G/Gᵢ₊₁)."
+choices:
+  - "nilpotent"
+  - "nilpotent of class n"
+explanation: >
+  Nilpotent groups generalize abelian groups: abelian groups are nilpotent of class 1.
+  Equivalently, G is nilpotent iff its lower central series γ₁G ⊇ γ₂G ⊇ ··· reaches {e},
+  or iff its upper central series {e} ⊆ Z(G) ⊆ Z₂(G) ⊆ ··· reaches G. Every nilpotent
+  group is solvable, but not conversely.
+tags:
+  - nilpotent-groups
+  - central-series
+  - group-theory

@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- A category with objects (c, x) for c ∈ C and x ∈ F(c), modeling the total category
+  of the fibration over C
+- The colimit of F in Cat
+- The limit of F in Cat
+- The nerve of the functor F
+difficulty: advanced
+explanation: 'The Grothendieck construction: ∫F has objects (c, x) with x ∈ F(c),
+  and morphisms (c,x) → (d,y) are pairs (f: c→d, g: F(f)(x)→y). This gives a fibration
+  ∫F → C and establishes the equivalence between fibrations over C and functors C
+  → Cat.'
+kind: mc
+tags:
+- Grothendieck-construction
+- fibration
+text: 'The Grothendieck construction ∫F of a functor F: C → Cat is:'

@@ -1,0 +1,15 @@
+choices:
+- I
+- id_V
+- the identity
+difficulty: intermediate
+explanation: 'ker χ = {g : ρ(g) = I_V}. Since χ(1) = dim V and |χ(g)| ≤ χ(1) with
+  equality iff ρ(g) is a scalar matrix; for the trace to equal the full dimension,
+  every eigenvalue must be 1.'
+kind: blank
+tags:
+- kernel-character
+- character-theory
+text: 'The kernel of a character χ is the set ker χ = {g ∈ G : χ(g) = χ(1)}, and it
+  equals the set of g for which ρ(g) = ___ (the identity operator on the representation
+  space).'

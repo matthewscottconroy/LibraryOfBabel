@@ -1,0 +1,11 @@
+kind: blank
+difficulty: beginner
+text: "The negation of ∀x P(x) is logically equivalent to ___."
+choices:
+  - "∃x ¬P(x)"
+  - "there exists x such that P(x) is false"
+explanation: "To refute a universal statement it suffices to exhibit a single counterexample. Formally, ¬(∀x P(x)) ↔ ∃x ¬P(x) by the duality of quantifiers. Similarly, ¬(∃x P(x)) ↔ ∀x ¬P(x)."
+tags:
+  - logic
+  - quantifiers
+  - negation

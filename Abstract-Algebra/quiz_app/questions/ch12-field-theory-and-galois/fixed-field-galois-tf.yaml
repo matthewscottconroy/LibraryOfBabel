@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: "For a finite Galois extension L/F with Galois group G, the fixed field L^G equals F."
+answer: true
+explanation: "This is a fundamental consequence of Artin's theorem combined with the definition of a Galois extension. By Artin, [L : L^G] = |G| = [L : F]. Since F ⊆ L^G ⊆ L and [L : F] = [L : L^G], we conclude L^G = F. This is one half of the Galois correspondence: the fixed field of the full Galois group recovers the base field."
+tags:
+  - galois-theory
+  - fixed-field
+  - galois-group

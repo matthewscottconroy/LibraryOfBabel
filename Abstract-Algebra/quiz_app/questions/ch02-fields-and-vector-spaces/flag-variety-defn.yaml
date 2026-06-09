@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- GL_n(ℂ)/B (B = upper triangular matrices)
+- GL_n(ℂ)/U(n)
+- Gr(n,2n)
+- ℂPⁿ
+difficulty: advanced
+explanation: The complete flag variety Fl(V) = GL_n/B where B is a Borel subgroup
+  (upper triangular matrices). It is a projective variety of complex dimension n(n−1)/2.
+  Partial flag varieties quotient by larger parabolic subgroups.
+kind: mc
+tags:
+- flag-variety
+- linear-algebra
+text: 'A complete flag in an n-dimensional vector space V is a chain 0 = V₀ ⊊ V₁ ⊊
+  ⋯ ⊊ Vₙ = V. The flag variety (over ℂ) is diffeomorphic to:'

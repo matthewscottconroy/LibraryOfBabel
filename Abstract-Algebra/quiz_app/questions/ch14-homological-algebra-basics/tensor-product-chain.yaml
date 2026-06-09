@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Splits (non-naturally)
+- Does not split in general
+- Is exact at the middle only
+- Requires C and D to be resolutions
+difficulty: advanced
+explanation: 'The Künneth sequence splits as a sequence of abelian groups (non-naturally):
+  Hₙ(C⊗D) ≅ (⊕_{i+j=n} Hᵢ⊗Hⱼ) ⊕ (⊕_{i+j=n-1} Tor(Hᵢ,Hⱼ)). The Tor term is the ''correction''
+  for torsion, vanishing if all homology is free.'
+kind: mc
+tags:
+- kunneth-theorem
+- homological-algebra
+text: 'The Künneth theorem for chain complexes over a PID R states: if C_• is a complex
+  of free R-modules, there is a short exact sequence 0 → ⊕_{i+j=n} Hᵢ(C) ⊗ Hⱼ(D) →
+  Hₙ(C ⊗ D) → ⊕_{i+j=n-1} Tor(Hᵢ(C), Hⱼ(D)) → 0 which:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- ℤ
+- ℤ/2ℤ
+- '{e}'
+- The free group on one generator (not ℤ)
+difficulty: advanced
+explanation: 'In HoTT, π₁(S¹) = ΩS¹ (loops at base) = ℤ. The proof uses encode-decode
+  (a covering space argument in type theory): the universal cover is ''ℝ'' constructed
+  as a HIT, and the fiber over base is ℤ.'
+kind: mc
+tags:
+- synthetic-homotopy
+- fundamental-group
+text: 'In synthetic homotopy theory (HoTT), the fundamental group π₁(S¹) is computed
+  to be:'

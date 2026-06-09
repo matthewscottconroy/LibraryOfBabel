@@ -1,0 +1,14 @@
+kind: blank
+difficulty: beginner
+text: "A group homomorphism φ: G → H with trivial kernel (ker(φ) = {e}) is called ___ (equivalently, a monomorphism)."
+choices:
+  - "injective"
+  - "one-to-one"
+explanation: >
+  A homomorphism is injective if and only if its kernel is trivial. If φ(g) = φ(g') then
+  φ(g'⁻¹g) = e, so g'⁻¹g ∈ ker(φ) = {e}, hence g = g'. Injective homomorphisms are also
+  called monomorphisms; they embed G isomorphically onto a subgroup of H.
+tags:
+  - homomorphism
+  - kernel
+  - group-theory

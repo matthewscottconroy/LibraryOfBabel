@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Reflexivity, symmetry, and transitivity
+- Reflexivity and transitivity only
+- Symmetry and transitivity only
+- Antisymmetry and transitivity
+difficulty: beginner
+explanation: 'An equivalence relation requires all three: reflexivity (a~a), symmetry
+  (a~b ⇒ b~a), and transitivity (a~b and b~c ⇒ a~c). Equivalence classes partition
+  the set.'
+kind: mc
+tags:
+- relations
+- equivalence
+text: 'An equivalence relation on a set A must satisfy:'

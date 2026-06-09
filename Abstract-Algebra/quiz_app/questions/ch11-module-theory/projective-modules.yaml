@@ -1,0 +1,8 @@
+kind: tf
+difficulty: intermediate
+text: Every projective module over a field is free.
+explanation: Over a field, all modules are free (vector spaces), hence projective. More generally, projective
+  = direct summand of free.
+tags:
+- projective-modules
+answer: true

@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: "The formula (∀x P(x)) → (∃x P(x)) is valid in classical first-order logic over non-empty domains."
+answer: true
+explanation: "In classical first-order logic, the domain of discourse is assumed non-empty. If every element satisfies P, then in particular there exists at least one element satisfying P. The formula fails only in logics that allow empty domains, which are excluded by the standard semantics."
+tags:
+  - logic
+  - quantifiers
+  - validity

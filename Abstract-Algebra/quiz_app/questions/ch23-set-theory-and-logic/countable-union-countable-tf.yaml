@@ -1,0 +1,11 @@
+kind: tf
+difficulty: intermediate
+text: "The union of countably many countable sets is countable, but the proof requires a weak form of the Axiom of Choice."
+answer: true
+explanation: >
+  The statement "a countable union of countable sets is countable" requires choosing, for each countable set Aₙ, an enumeration of Aₙ. Without any choice, you cannot simultaneously select these enumerations, and the statement can fail in some models of ZF without Choice (e.g., the reals can be a countable union of countable sets in some choiceless models). The Axiom of Countable Choice (or the weaker Dependent Choice) suffices to prove this. With full AC, the result is straightforward.
+tags:
+  - countable-union
+  - axiom-of-choice
+  - cardinal-arithmetic
+  - tf

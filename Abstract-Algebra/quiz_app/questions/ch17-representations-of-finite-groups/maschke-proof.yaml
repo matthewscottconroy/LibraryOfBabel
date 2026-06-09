@@ -1,0 +1,26 @@
+kind: proof
+difficulty: advanced
+text: "Maschke's Theorem: If G is a finite group and k is a field with char(k) ∤ |G|, then every representation of G over k is completely reducible."
+proof_lines:
+  - "Let V be a representation of G and W ⊆ V a G-invariant subspace. We seek a G-invariant complement."
+  - "Choose any k-linear projection p: V → W (not necessarily G-equivariant). Define the averaged map π: V → W by π(v) = ___, where the sum runs over all g ∈ G."
+  - "Since char(k) ∤ |G|, we may divide by |G|, so π is well-defined. For any h ∈ G and v ∈ V we compute h·π(v) = (1/|G|) Σ_g h·(g·v) = (1/|G|) Σ_g (hg)·p((hg)⁻¹·(h·v)) = ___."
+  - "Thus π is G-equivariant. For any w ∈ W, each g·p(g⁻¹·w) = g·(g⁻¹·w) = w since W is G-invariant, so π(w) = ___."
+  - "Therefore W' = ker(π) is a G-invariant subspace and V = W ⊕ W', making V ___."
+fills:
+  - "(1/|G|) Σ_g g·p(g⁻¹·v)"
+  - "π(h·v)"
+  - "w"
+  - "completely reducible"
+explanation: >
+  The Reynolds operator (averaging trick) is the heart of the proof. The first blank introduces
+  the averaged projection, which is the standard tool. The second blank shows G-equivariance
+  by a reindexing argument: summing over hg as g varies is the same as summing over all group
+  elements. The third blank confirms π restricts to the identity on W, so ker(π) is a genuine
+  complement. The final blank names the conclusion: complete reducibility. Dividing by |G| is
+  only valid when |G| ≠ 0 in k, i.e., char(k) ∤ |G|.
+tags:
+  - maschke-theorem
+  - complete-reducibility
+  - reynolds-operator
+  - proof

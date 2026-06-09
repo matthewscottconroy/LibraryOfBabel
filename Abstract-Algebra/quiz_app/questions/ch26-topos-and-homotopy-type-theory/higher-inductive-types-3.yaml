@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Both point constructors and path constructors (and higher-dimensional constructors)
+- Only propositional constructors
+- Arbitrary recursive definitions
+- Point constructors only (same as ordinary inductive types)
+difficulty: advanced
+explanation: 'HITs generalize inductive types by allowing path constructors: one can
+  specify not just elements but also paths (equalities) between them. Examples: the
+  circle S¹ (one point, one loop), truncations, pushouts, and the integers.'
+kind: mc
+tags:
+- HIT
+- path-constructors
+text: 'Higher inductive types (HITs) in HoTT allow the definition of types with:'

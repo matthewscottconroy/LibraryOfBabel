@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- L²([0,1])
+- C([0,1]) itself
+- C∞([0,1])
+- ℓ²(ℕ)
+difficulty: advanced
+explanation: 'L²([0,1]) is the completion: equivalence classes of Lebesgue square-integrable
+  functions, identifying those equal a.e. C([0,1]) is dense in L²([0,1]), and L² is
+  complete (Riesz–Fischer theorem). ℓ² is the sequence space analogue.'
+kind: mc
+tags:
+- hilbert-space
+- completion
+text: 'A Hilbert space is a complete inner product space. Every inner product space
+  has a completion which is a Hilbert space. The completion of C([0,1]) with the L²-inner
+  product ⟨f,g⟩ = ∫fg is:'

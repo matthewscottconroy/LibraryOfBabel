@@ -1,0 +1,9 @@
+kind: tf
+difficulty: beginner
+text: "A function can be its own inverse."
+answer: true
+explanation: "A function f is called an involution if f∘f = id, equivalently f = f⁻¹. Simple examples include f(x) = -x on ℝ and the identity function itself. Any bijection f: A → A satisfying f(f(x)) = x for all x is its own inverse."
+tags:
+  - functions
+  - inverse-function
+  - involution

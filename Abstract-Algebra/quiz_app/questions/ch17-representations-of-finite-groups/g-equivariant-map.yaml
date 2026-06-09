@@ -1,0 +1,11 @@
+kind: blank
+difficulty: intermediate
+text: "A linear map φ: V → W between representations of G is called ___ (or a G-homomorphism) if φ(g·v) = g·φ(v) for all g ∈ G and v ∈ V."
+choices:
+  - "G-equivariant"
+  - "a morphism of representations"
+explanation: "G-equivariant maps are the morphisms in the category of representations of G. By Schur's lemma, a nonzero G-equivariant map between irreducible representations is necessarily an isomorphism. The space of all G-equivariant maps from V to W is denoted Hom_G(V, W)."
+tags:
+  - equivariant-map
+  - morphism
+  - representation

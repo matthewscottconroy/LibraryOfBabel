@@ -1,0 +1,28 @@
+kind: proof
+difficulty: advanced
+text: >
+  Theorem. For a fibration F → E → B with B simply connected, the Serre spectral sequence
+  has E₂^{p,q} ≅ H^p(B; H^q(F)), where coefficients are untwisted (constant) because
+  π₁(B) = 0 acts trivially on H*(F).
+proof_lines:
+  - "Filter the singular cochain complex C*(E) by the preimages of skeleta: F^p C*(E) = cochains supported on π⁻¹(B^p), where B^p is the p-skeleton of a CW decomposition of B."
+  - "The E₁ page is computed from the associated graded: E₁^{p,q} ≅ C^p(B; H^q(F)), the cellular cochains of B with coefficients in the ___ H^q(F)."
+  - "Since B is simply connected, the action of π₁(B) on the fiber cohomology H^q(F) is trivial, so the coefficient system is ___."
+  - "Taking cohomology of E₁ with respect to d₁ (which is the cellular differential of B) gives E₂^{p,q} ≅ H^p(B; H^q(F)) by the universal coefficient theorem applied to cellular cohomology."
+  - "The spectral sequence converges: E_∞^{p,q} gives the associated graded of a filtration on H^{p+q}(E), proving ___ from the E₂ page."
+fills:
+  - "cohomology local system (coefficient bundle)"
+  - "constant (untwisted)"
+  - "the spectral sequence converges to H*(E)"
+explanation: >
+  The first blank identifies the correct technical notion: in general, the Serre
+  spectral sequence has twisted coefficients forming a local system (a representation
+  of π₁(B)); the E₁ page uses this local system. The second blank is the simplification
+  that occurs when B is simply connected: trivial fundamental group means the
+  monodromy action is trivial and ordinary (untwisted) cohomology appears. The third
+  blank states the convergence conclusion, the payoff of the entire construction.
+tags:
+  - serre-spectral-sequence
+  - fibrations
+  - proof
+  - convergence

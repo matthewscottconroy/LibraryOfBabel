@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ⟨λ, α_i∨⟩ ≥ 0 for all simple roots α_i
+- ⟨λ, α⟩ > 0 for all positive roots α
+- λ is a sum of positive roots
+- ⟨λ, α_i∨⟩ > 0 for all simple roots α_i
+difficulty: intermediate
+explanation: The dominant Weyl chamber is defined by the inequalities ⟨λ,α_i∨⟩ ≥ 0
+  for all simple roots (closed chamber). The open dominant chamber has strict inequalities.
+  The Weyl group acts simply transitively on the (open) chambers.
+kind: mc
+tags:
+- dominant-chamber
+- Weyl-chambers
+text: 'The dominant Weyl chamber C⁺ consists of all λ ∈ h_ℝ* such that:'

@@ -1,0 +1,11 @@
+kind: blank
+difficulty: intermediate
+text: Burnside's lemma states that the number of orbits of a group G acting on a set X equals ___ (average
+  number of fixed points).
+explanation: 'Burnside: |X/G| = (1/|G|) Σ_{g∈G} |Fix(g)|.'
+tags:
+- burnside
+- group-actions
+choices:
+- '|G|⁻¹ Σ_{g∈G} |X^g|'
+- (1/|G|) sum of fixed points

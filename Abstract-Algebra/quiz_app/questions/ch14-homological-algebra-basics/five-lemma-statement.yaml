@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- γ is an isomorphism
+- γ = 0
+- γ is injective only
+- γ is surjective only
+difficulty: intermediate
+explanation: 'Five lemma: with exact rows, if α,β (left two) are surjective and δ,ε
+  (right two) are injective, then γ is injective; dual for surjectivity. Together,
+  isomorphisms on four corners force the middle to be an isomorphism.'
+kind: mc
+tags:
+- five-lemma
+- homological-algebra
+text: 'In the five lemma, given a commutative diagram with exact rows and arrows α,β,δ,ε
+  between them, if α,β,δ,ε are isomorphisms then:'

@@ -1,0 +1,13 @@
+kind: mc
+difficulty: advanced
+text: 'Cantor''s theorem states that for any set A, |A| < |P(A)|. The key step uses:'
+explanation: 'Cantor diagonal: assume f:A→P(A) surjective, form D={a∈A | a∉f(a)}, derive contradiction.'
+tags:
+- sets
+- cardinality
+choices:
+- a diagonalisation argument
+- transfinite induction
+- the Schröder-Bernstein theorem
+- Zorn's lemma
+answer: 0

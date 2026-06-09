@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Adjoining a generic filter G over a partial order P to an existing model M, yielding
+  M[G]
+- Taking an elementary substructure of the universe
+- Collapsing cardinals using an ultrafilter
+- Restricting to the constructible universe L
+difficulty: advanced
+explanation: 'Forcing: start with a ctm M of ZFC, choose a partial order (P,≤) ∈ M,
+  adjoin an M-generic filter G. The extension M[G] is again a model of ZFC; properties
+  of M[G] are controlled by the forcing relation p ⊩ φ computed in M.'
+kind: mc
+tags:
+- forcing
+- set-theory
+text: 'Cohen''s method of forcing produces models of set theory by:'

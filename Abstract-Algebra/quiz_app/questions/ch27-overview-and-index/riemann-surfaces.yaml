@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- l(D) − l(K−D) = deg D − g + 1, where K is the canonical divisor
+- l(D) = deg D always
+- l(D) = g for all effective divisors
+- deg D = 2g − 2
+difficulty: advanced
+explanation: 'Riemann–Roch: l(D) − l(K−D) = deg(D) + 1 − g. For deg D > 2g−2, l(K−D)
+  = 0 and l(D) = deg D + 1 − g. The canonical divisor K has degree 2g−2 and l(K) =
+  g. Generalises to algebraic curves and higher dimensions.'
+kind: mc
+tags:
+- riemann-roch
+- algebraic-geometry
+text: 'The Riemann–Roch theorem for a compact Riemann surface X of genus g and a divisor
+  D states:'

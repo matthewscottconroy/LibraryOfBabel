@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- The only solution to c₁v₁ + ⋯ + cₙvₙ = 0 is c₁ = ⋯ = cₙ = 0
+- None of the vectors is zero
+- The vectors span the space
+- The vectors form an orthonormal set
+difficulty: beginner
+explanation: Linear independence means the trivial linear combination is the only
+  one that produces the zero vector. A single non-zero vector is automatically independent;
+  the zero vector is always dependent.
+kind: mc
+tags:
+- vector-spaces
+- linear-independence
+text: 'Vectors v₁, …, vₙ are linearly independent if and only if:'

@@ -1,0 +1,16 @@
+kind: blank
+difficulty: intermediate
+text: "The Jordan-Hölder theorem states that any two composition series for a group G have the same ___ (up to isomorphism and reordering)."
+choices:
+  - "composition factors"
+  - "set of composition factors"
+explanation: >
+  A composition series is a subnormal series whose factors are all simple groups. The
+  Jordan-Hölder theorem guarantees that while there may be many different composition
+  series, any two of them yield the same multiset of simple group factors up to
+  isomorphism. This makes composition factors invariants of the group itself.
+tags:
+  - jordan-holder
+  - composition-series
+  - simple-groups
+  - group-theory

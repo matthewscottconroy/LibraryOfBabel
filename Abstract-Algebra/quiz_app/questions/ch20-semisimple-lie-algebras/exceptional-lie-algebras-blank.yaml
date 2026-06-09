@@ -1,0 +1,12 @@
+kind: blank
+difficulty: advanced
+text: "Beyond the four classical families A_n, B_n, C_n, D_n, there are exactly ___ exceptional simple Lie algebras over ℂ."
+choices:
+  - "5"
+  - "4"
+explanation: >
+  The Killing–Cartan classification shows there are exactly 5 exceptional simple Lie algebras: G₂ (rank 2), F₄ (rank 4), E₆ (rank 6), E₇ (rank 7), and E₈ (rank 8). They correspond to Dynkin diagrams that cannot be reduced to the classical infinite families. E₈ is the largest, with dimension 248.
+tags:
+  - exceptional-lie-algebras
+  - dynkin-classification
+  - blank

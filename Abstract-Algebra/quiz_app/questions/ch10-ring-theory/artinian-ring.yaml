@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Left Noetherian
+- A field
+- Semisimple
+- A PID
+difficulty: advanced
+explanation: Artinian ⇒ Noetherian (Hopkins–Levitzki). The Artin–Wedderburn theorem
+  classifies semisimple Artinian rings as finite products of matrix rings over division
+  rings.
+kind: mc
+tags:
+- artinian
+- ring-theory
+text: 'By the Hopkins–Levitzki theorem, every left Artinian ring is also:'

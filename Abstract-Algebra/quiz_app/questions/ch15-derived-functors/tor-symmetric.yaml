@@ -1,0 +1,14 @@
+kind: tf
+difficulty: intermediate
+text: "Tor is symmetric: Tor^R_n(A, B) ≅ Tor^R_n(B, A) for all R-modules A and B."
+answer: true
+explanation: >
+  Although Tor is defined by resolving one argument, the result is symmetric. One
+  proof uses a projective resolution P• → A and Q• → B; the tensor product of
+  complexes P• ⊗ Q• is a complex quasi-isomorphic to both A ⊗^L B and B ⊗^L A
+  (since P• ⊗ Q• ≅ Q• ⊗ P• via the symmetry of tensor product), so their
+  homologies agree. Thus Tor_n(A,B) = Hₙ(P• ⊗ B) ≅ Hₙ(A ⊗ Q•) = Tor_n(B,A).
+tags:
+  - tor
+  - symmetry
+  - derived-functors

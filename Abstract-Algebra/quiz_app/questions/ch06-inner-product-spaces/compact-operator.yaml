@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Consists of countably many real eigenvalues accumulating only at 0
+- Is the entire real line
+- Is a single eigenvalue
+- Is empty
+difficulty: advanced
+explanation: 'Compact self-adjoint operators have discrete spectrum: {0} ∪ {eigenvalues},
+  where the eigenvalues are real, each has finite multiplicity, and the only accumulation
+  point is 0. The eigenvectors form an ONB for the closure of the range.'
+kind: mc
+tags:
+- compact-operators
+- spectral-theory
+text: 'A compact linear operator T: H → H maps bounded sets to precompact sets. The
+  spectrum of a non-zero compact self-adjoint operator on an infinite-dimensional
+  Hilbert space:'

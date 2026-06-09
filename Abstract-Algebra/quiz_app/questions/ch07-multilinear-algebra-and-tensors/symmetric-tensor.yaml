@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Sᵏ(V*) (the k-th symmetric power of the dual)
+- Λᵏ(V*)
+- V ⊗ V* for k=2
+- A subspace of Λᵏ(V*)
+difficulty: intermediate
+explanation: 'Symmetric covariant k-tensors form Sᵏ(V*) (symmetric multilinear maps
+  Vᵏ → F). They are the complement (when char 0) to anti-symmetric tensors: V^{⊗k}
+  = Sᵏ(V*) ⊕ Λᵏ(V*) ⊕ mixed tensors.'
+kind: mc
+tags:
+- tensors
+- symmetric
+text: 'A covariant k-tensor T is symmetric if T(v₁,…,vₖ) is unchanged under any permutation
+  of its arguments. The space of symmetric k-tensors on V is:'

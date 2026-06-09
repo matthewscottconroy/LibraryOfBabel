@@ -1,0 +1,16 @@
+kind: tf
+difficulty: advanced
+text: "The edge homomorphisms in the Serre spectral sequence for a group extension 1 → N → G → Q → 1 (viewed as a fibration BN → BG → BQ) are the inflation and restriction maps in group cohomology."
+answer: true
+explanation: >
+  The Lyndon–Hochschild–Serre spectral sequence is the Serre spectral sequence for
+  the fibration of classifying spaces BN → BG → BQ. The edge homomorphism
+  H*(Q) = E₂^{*,0} → H*(G) (along the bottom row) is the inflation map
+  inf: H*(Q; ℤ) → H*(G; ℤ), pulling back cohomology classes from the quotient.
+  The edge homomorphism H*(G) → E₂^{0,*} = H*(N)^Q (along the left column) is the
+  restriction map res: H*(G; ℤ) → H*(N; ℤ)^Q to the normal subgroup.
+tags:
+  - hochschild-serre
+  - edge-homomorphisms
+  - group-cohomology
+  - inflation-restriction

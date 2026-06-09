@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Defective (non-semisimple)
+- Singular
+- Nilpotent
+- Symmetric
+difficulty: intermediate
+explanation: A defective (non-diagonalisable) matrix has geometric multiplicity <
+  algebraic multiplicity for some eigenvalue. Its Jordan form contains at least one
+  Jordan block of size ≥ 2. Defective matrices cannot be diagonalised over any field.
+kind: mc
+tags:
+- eigenvalues
+- defective
+text: 'A matrix with fewer linearly independent eigenvectors than its dimension (i.e.,
+  with a Jordan block of size ≥ 2) is called:'

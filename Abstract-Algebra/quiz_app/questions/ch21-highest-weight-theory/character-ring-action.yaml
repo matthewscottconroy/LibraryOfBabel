@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ψ^k(V) has character χ_V(g^k)
+- ψ^k(V) = V^{⊗k}
+- ψ^k(V) = Sym^k(V)
+- ψ^k(V) is the k-th exterior power
+difficulty: advanced
+explanation: The Adams operation ψ^k is the ring endomorphism of R(G) defined by ψ^k(V)
+  having character g ↦ χ_V(g^k). It is a ring homomorphism (not the tensor power or
+  symmetric power).
+kind: mc
+tags:
+- Adams-operations
+- representation-ring
+text: 'In the representation ring R(G), the Adams operations ψ^k (for k ∈ ℤ) satisfy:'

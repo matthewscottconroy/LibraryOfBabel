@@ -1,0 +1,8 @@
+kind: tf
+difficulty: intermediate
+text: "Every equivalence of categories is an isomorphism of categories."
+answer: false
+explanation: "An isomorphism of categories requires the functors F and G to satisfy GF = id_C and FG = id_D as equalities of functors on the nose. An equivalence only requires natural isomorphisms GF ≅ id_C and FG ≅ id_D. For example, the category of finite-dimensional vector spaces over a field is equivalent to (but not isomorphic to) the category whose objects are natural numbers and whose morphisms n → m are m×n matrices. Equivalence is the appropriate categorical notion of 'sameness'."
+tags:
+  - equivalence-of-categories
+  - isomorphism-cat

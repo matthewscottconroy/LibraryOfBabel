@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- U(g)/I_λ-modules and D_λ-modules on G/B (for regular dominant λ)
+- Category O and perverse sheaves on G/B
+- Coherent sheaves on G/B and Verma modules
+- D-modules on G and representations of the Weyl group
+difficulty: advanced
+explanation: 'Beilinson–Bernstein: Γ: D_{λ}-mod → U(g)_{λ}-mod is an equivalence for
+  regular dominant λ (λ+ρ dominant regular). This transforms questions about representations
+  into geometric questions about D-modules on the flag variety.'
+kind: mc
+tags:
+- Beilinson-Bernstein
+- D-modules
+text: 'The Beilinson–Bernstein localization theorem establishes an equivalence between:'

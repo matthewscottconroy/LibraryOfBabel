@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Tor^R_*(R/(x₁,…,xₙ), R/(x₁,…,xₙ))
+- Ext^*_R(R,R)
+- The singular homology of R
+- The global dimension of R
+difficulty: advanced
+explanation: The Koszul complex is a free resolution of R/(x₁,…,xₙ) when x₁,…,xₙ is
+  a regular sequence. It is an exterior algebra differential graded algebra, fundamental
+  in commutative algebra and algebraic geometry.
+kind: mc
+tags:
+- koszul-complex
+- homological-algebra
+text: 'The Koszul complex K(x₁,…,xₙ; R) associated to a regular sequence x₁,…,xₙ in
+  R computes:'

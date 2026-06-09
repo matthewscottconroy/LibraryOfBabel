@@ -1,0 +1,13 @@
+choices:
+- Iwanaga-Gorenstein
+- hereditary
+- regular
+- Noetherian
+difficulty: intermediate
+explanation: A ring where every module has finite injective dimension is Iwanaga-Gorenstein.
+  Regular local rings satisfy this with global dimension equal to Krull dimension.
+kind: blank
+tags:
+- injective-dimension
+- Gorenstein
+text: A ring R is called ___ if every R-module has finite injective dimension.

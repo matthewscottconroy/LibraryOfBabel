@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- 'Totality: for all a,b ∈ A, a ≤ b or b ≤ a'
+- 'Symmetry: a ≤ b ⟹ b ≤ a'
+- Uniqueness of maximal elements
+- Finiteness of A
+difficulty: beginner
+explanation: 'A total (linear) order satisfies the trichotomy: any two elements are
+  comparable. Examples: (ℝ,≤), (ℚ,≤). A partial order may have incomparable elements
+  (e.g. subsets ordered by ⊆).'
+kind: mc
+tags:
+- relations
+- partial-order
+text: 'A total order on a set A is a partial order that additionally satisfies:'

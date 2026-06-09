@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- p(x) itself
+- xⁿ
+- x − cₙ₋₁
+- ∏(x − cᵢ)
+difficulty: intermediate
+explanation: 'The companion matrix C_p has the form: last row (−c₀,…,−cₙ₋₁) and 1''s
+  on the subdiagonal. Its characteristic polynomial is p(x). Every matrix is similar
+  to a block-diagonal companion matrix (rational canonical form).'
+kind: mc
+tags:
+- canonical-forms
+- companion-matrix
+text: 'The companion matrix of p(x) = xⁿ + cₙ₋₁xⁿ⁻¹ + ⋯ + c₀ is the n×n matrix whose
+  characteristic polynomial equals:'

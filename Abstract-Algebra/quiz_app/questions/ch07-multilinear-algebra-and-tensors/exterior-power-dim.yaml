@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- C(n, k)
+- nᵏ
+- k!
+- C(n+k, k)
+difficulty: beginner
+explanation: 'Λᵏ(V) has basis {eᵢ₁ ∧ ⋯ ∧ eᵢₖ : i₁ < ⋯ < iₖ}, so dim Λᵏ(V) = C(n, k).
+  In particular Λⁿ(V) is 1-dimensional and Λᵏ(V) = 0 for k > n.'
+kind: mc
+tags:
+- exterior-algebra
+- dimension
+text: 'The dimension of the k-th exterior power Λᵏ(V), where dim V = n, is:'

@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ‖u+v‖² + ‖u−v‖² = 2(‖u‖² + ‖v‖²)
+- ‖u+v‖ = ‖u‖ + ‖v‖
+- ‖u+v‖² = ‖u‖² + ‖v‖²
+- ‖u+v‖ ≤ ‖u‖ · ‖v‖
+difficulty: intermediate
+explanation: 'The parallelogram law characterises inner product spaces among normed
+  spaces (Jordan–von Neumann theorem): a norm comes from an inner product iff it satisfies
+  this law. The polarisation identity recovers ⟨u,v⟩ from the norm.'
+kind: mc
+tags:
+- inner-products
+- parallelogram-law
+text: 'An inner product space satisfies the parallelogram law: for all u, v,'

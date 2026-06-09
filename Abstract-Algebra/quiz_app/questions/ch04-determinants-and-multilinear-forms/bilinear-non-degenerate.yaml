@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- The map v ↦ B(v,−) is an isomorphism V → V*
+- B(v,v) > 0 for all v ≠ 0
+- B is symmetric
+- B(v,w) = 1 for some v,w
+difficulty: intermediate
+explanation: 'Non-degenerate: rad(B) = {v : B(v,w) = 0 ∀w} = {0}. The map φ: v ↦ B(v,−)
+  is then injective (hence bijective for finite dim). Non-degenerate ≠ positive definite;
+  e.g., the Lorentz metric is non-degenerate but indefinite.'
+kind: mc
+tags:
+- bilinear-forms
+- non-degenerate
+text: 'A bilinear form B: V × V → F is non-degenerate if its associated matrix (in
+  any basis) has non-zero determinant. Equivalently:'

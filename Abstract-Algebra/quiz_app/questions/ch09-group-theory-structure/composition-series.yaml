@@ -1,0 +1,10 @@
+kind: blank
+difficulty: advanced
+text: A composition series of G is a series 1 = G₀ ⊲ G₁ ⊲ … ⊲ Gₙ = G where each factor Gᵢ₊₁/Gᵢ is ___.
+explanation: Composition factors are simple groups. The Jordan-Hölder theorem says they are unique up
+  to isomorphism.
+tags:
+- composition-series
+- jordan-holder
+choices:
+- simple

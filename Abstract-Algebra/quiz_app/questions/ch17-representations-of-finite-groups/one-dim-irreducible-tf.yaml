@@ -1,0 +1,9 @@
+kind: tf
+difficulty: beginner
+text: "Every 1-dimensional representation of a group G is irreducible."
+answer: true
+explanation: "A 1-dimensional vector space has no proper nonzero subspaces at all, so any representation on it is automatically irreducible. Such representations correspond exactly to group homomorphisms G → k×, i.e., to characters of the abelianization G/[G,G]."
+tags:
+  - irreducible
+  - one-dimensional
+  - representation

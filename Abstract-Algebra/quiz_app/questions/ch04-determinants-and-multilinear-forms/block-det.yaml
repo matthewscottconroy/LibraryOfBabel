@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- det(A) · det(B)
+- det(A) + det(B)
+- det(AB)
+- det(A) · det(C)
+difficulty: advanced
+explanation: For block triangular matrices, the determinant factors as det(A)·det(B)
+  regardless of the off-diagonal block C. This generalizes the fact that a triangular
+  matrix's determinant is the product of diagonal entries.
+kind: mc
+tags:
+- determinants
+- block-matrices
+text: 'For a block upper-triangular matrix M = [[A, C],[0, B]], det(M) equals:'

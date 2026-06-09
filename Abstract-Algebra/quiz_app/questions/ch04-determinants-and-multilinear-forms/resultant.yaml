@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- f and g have a common root (in the algebraic closure)
+- f = g
+- deg f = deg g
+- f or g is the zero polynomial
+difficulty: advanced
+explanation: 'Res(f,g) = 0 ↔ f and g share a common factor ↔ common root in K̄. Resultants
+  eliminate variables from systems of polynomial equations. They appear in discriminant
+  formulas: disc(f) = Res(f,f'')/leading coeff.'
+kind: mc
+tags:
+- determinants
+- resultant
+text: 'The resultant Res(f,g) of two polynomials is the determinant of their Sylvester
+  matrix. Res(f,g) = 0 if and only if:'

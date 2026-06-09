@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- f(ā) = 0 and ā ≡ a (mod p)
+- f(ā) ≡ 0 (mod p) only
+- ā = a exactly
+- f(a) = 0 in ℚ_p
+difficulty: advanced
+explanation: 'Hensel''s lemma: a simple root mod p lifts uniquely to an exact root
+  in ℤ_p. This is ''Newton''s method in the p-adic world''. It shows, for example,
+  that ℤ_p contains a (p−1)-th root of unity for p odd (since xᵖ⁻¹ − 1 has p−1 simple
+  roots mod p).'
+kind: mc
+tags:
+- hensel-lemma
+- p-adic
+text: 'Hensel''s lemma for a p-adic ring R = ℤ_p: if f ∈ R[x] and a ∈ R satisfies
+  f(a) ≡ 0 (mod p) and f''(a) ≢ 0 (mod p), then there exists a unique ā ∈ R with:'

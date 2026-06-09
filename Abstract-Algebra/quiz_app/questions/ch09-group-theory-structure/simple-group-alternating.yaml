@@ -1,0 +1,10 @@
+answer: true
+difficulty: intermediate
+explanation: A₅ ≅ PSL(2,5) is the smallest non-abelian simple group (order 60). For
+  n ≥ 5, Aₙ is simple; this fact lies at the heart of the Abel–Ruffini theorem on
+  insolvability of the quintic.
+kind: tf
+tags:
+- simple-groups
+- alternating-groups
+text: The alternating group Aₙ is simple for all n ≥ 5.

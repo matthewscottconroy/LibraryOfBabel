@@ -1,0 +1,12 @@
+kind: blank
+difficulty: intermediate
+text: "A weight λ ∈ h* is called dominant integral if ⟨λ, α∨⟩ ∈ ___ for every positive root α (equivalently, for every simple root α)."
+choices:
+  - "ℤ≥0"
+  - "ℤ"
+explanation: >
+  A dominant integral weight satisfies ⟨λ, α∨⟩ ∈ ℤ≥0 for all simple roots α (where α∨ = 2α/⟨α,α⟩ is the coroot). The "integral" part means the pairings are integers; the "dominant" part means they are non-negative. Dominant integral weights index the finite-dimensional irreducible representations of a semisimple Lie algebra via the highest weight theorem.
+tags:
+  - dominant-integral-weight
+  - dominant-integral
+  - blank

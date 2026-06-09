@@ -1,0 +1,12 @@
+kind: blank
+difficulty: beginner
+text: "A partial order in which every two elements are comparable (i.e., for all a, b either a ≤ b or b ≤ a) is called a ___ order."
+choices:
+  - "total"
+  - "linear"
+  - "total/linear"
+explanation: "A total order (also called a linear order or chain) strengthens the partial order axioms by adding comparability of all pairs. Examples include the usual ≤ on ℝ and lexicographic order on strings. Not every partial order is total; for instance, subset inclusion on P({1,2,3}) is only a partial order."
+tags:
+  - partial-order
+  - total-order
+  - relations

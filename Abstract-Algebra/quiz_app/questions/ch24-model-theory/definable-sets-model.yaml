@@ -1,0 +1,18 @@
+answer: 0
+choices:
+- Definable subsets of M are constructible sets (Boolean combinations of algebraic
+  varieties)
+- Only finite and cofinite sets are definable
+- Definable sets are exactly the Borel sets
+- Only subfields are definable
+difficulty: intermediate
+explanation: 'QE in ACF means definable sets in Mⁿ (over any parameters) are constructible:
+  finite Boolean combinations of zero sets of polynomials. This is Chevalley''s theorem
+  in algebraic geometry.'
+kind: mc
+tags:
+- definable-sets
+- model-theory
+text: 'A subset D ⊆ Mⁿ is definable (with parameters from A ⊆ M) if there is a formula
+  φ(x̄,ā) with ā ∈ A such that D = {m̄ ∈ Mⁿ : M ⊨ φ(m̄,ā)}. In an algebraically closed
+  field:'

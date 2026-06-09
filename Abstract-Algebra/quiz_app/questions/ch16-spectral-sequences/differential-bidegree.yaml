@@ -1,0 +1,16 @@
+kind: blank
+difficulty: intermediate
+text: "The differential dᵣ on the Eᵣ page of a (cohomological) spectral sequence goes from E_r^{p,q} to ___."
+choices:
+  - "E_r^{p+r, q-r+1}"
+  - "E_r^{p+r,q-r+1} (bidegree shift (+r, -r+1))"
+explanation: >
+  By convention for a cohomological spectral sequence, dᵣ has bidegree (r, -r+1),
+  meaning it goes from E_r^{p,q} to E_r^{p+r, q-r+1}. For the Serre spectral sequence
+  this means d₂ goes right 2 and down 1, d₃ goes right 3 and down 2, etc. The
+  homological version has dᵣ of bidegree (-r, r-1). In either case dᵣ² = 0 and
+  E_{r+1} = H(Eᵣ, dᵣ).
+tags:
+  - spectral-sequences
+  - differentials
+  - definitions

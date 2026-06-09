@@ -1,0 +1,14 @@
+kind: blank
+difficulty: intermediate
+text: "For a skew-symmetric 2n×2n matrix A, the Pfaffian satisfies Pf(A)² = ___."
+choices:
+  - "det(A)"
+explanation: >
+  The Pfaffian Pf(A) is a polynomial in the entries of a skew-symmetric matrix A of even size
+  whose square equals the determinant: Pf(A)² = det(A).
+  This identity shows that the determinant of any skew-symmetric matrix of even size is a perfect
+  square (as a polynomial), and the Pfaffian is its signed square root.
+  For odd-size skew-symmetric matrices, the determinant is always 0.
+tags:
+  - pfaffian
+  - determinants

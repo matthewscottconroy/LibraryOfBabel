@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- P · diag(f(λ₁),…,f(λₙ)) · P⁻¹
+- f(P) · D · f(P)⁻¹
+- det(A)·f(I)
+- Σ f(aᵢᵢ) Eᵢᵢ
+difficulty: advanced
+explanation: 'For diagonal D with eigenvalues λᵢ, f(D) = diag(f(λ₁),…,f(λₙ)); then
+  f(A) = P f(D) P⁻¹. For non-diagonalisable A, use the Jordan form: f(J_k(λ)) uses
+  Taylor coefficients of f at λ.'
+kind: mc
+tags:
+- matrix-functions
+- eigenvalues
+text: 'For a diagonalisable matrix A = PDP⁻¹ and a scalar function f, the matrix function
+  f(A) is defined as:'

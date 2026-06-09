@@ -1,0 +1,13 @@
+kind: tf
+difficulty: intermediate
+text: "The tensor product distributes over direct sums: V⊗(U⊕W) ≅ (V⊗U) ⊕ (V⊗W)."
+answer: true
+explanation: >
+  This isomorphism holds by the universal property: a bilinear map V×(U⊕W) → X is equivalent to
+  a pair of bilinear maps V×U → X and V×W → X, which by universality corresponds to linear maps
+  V⊗U → X and V⊗W → X, i.e. a linear map (V⊗U)⊕(V⊗W) → X. The natural isomorphism is given
+  on simple tensors by v⊗(u,w) ↦ (v⊗u, v⊗w). This distributivity makes ⊗ a biproduct-compatible
+  operation in the category of vector spaces.
+tags:
+  - tensor-products
+  - dimension-tensor-product

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- 'The category E_b = {e ∈ E : p(e) = b} of objects over b'
+- The product E × B
+- The category of sections of p
+- The slice category B/b
+difficulty: advanced
+explanation: A Grothendieck fibration encodes a pseudofunctor B^{op} → Cat. Cartesian
+  morphisms give change-of-base functors. The Grothendieck construction recovers the
+  total category E from the fibers.
+kind: mc
+tags:
+- fibrations
+- category-theory
+text: 'A Grothendieck fibration p: E → B models a family of categories parametrized
+  by B. The fiber over b ∈ B is:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Adjoining generic subsets of ω to extend the ground model
+- Taking an ultrapower of the standard model
+- Restricting to the constructible universe L
+- Adding axiom schemas to ZFC
+difficulty: advanced
+explanation: 'Cohen''s forcing: starting from a model M of ZFC, one adjoins a generic
+  filter G ⊂ P for a poset P (e.g., finite partial functions ω × ω_2 → 2) to form
+  M[G]. With P = Fn(ω×ω_2, 2), M[G] satisfies 2^{ℵ₀} ≥ ℵ_2, refuting CH.'
+kind: mc
+tags:
+- forcing
+- Cohen
+- set-theory
+text: 'Cohen''s forcing technique constructs a model of ZFC where ¬CH holds by:'

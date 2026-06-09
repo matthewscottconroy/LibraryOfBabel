@@ -1,0 +1,13 @@
+kind: tf
+difficulty: intermediate
+text: "Every projective module is flat."
+answer: true
+explanation: >
+  A projective module P is a direct summand of a free module F. Free modules are flat
+  because − ⊗ F ≅ − ⊕ − ⊕ ··· preserves exactness, and a direct summand of a flat
+  module is flat. Alternatively, P has a projective resolution of length 0, so
+  Tor_n(P, -) = 0 for n ≥ 1, which is the criterion for flatness.
+tags:
+  - projective-modules
+  - flat-modules
+  - derived-functors

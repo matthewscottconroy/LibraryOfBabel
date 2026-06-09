@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- P' ⊆ Q' and P' ∩ R = P
+- P' = P
+- P' ⊇ Q'
+- P' ∩ R = R
+difficulty: advanced
+explanation: 'Going-up: for integral extensions R ⊆ S, prime ideals lift compatibly.
+  The prime spectrum Spec(S) → Spec(R) is surjective. Going-down additionally requires
+  R to be integrally closed (e.g. integrally closed domains = normal domains).'
+kind: mc
+tags:
+- going-up-down
+- integral-extensions
+text: 'Cohen–Seidenberg going-up theorem: if R ⊆ S is integral and P ⊆ Q are primes
+  in R with Q'' a prime in S lying over Q, then there exists a prime P'' in S with:'

@@ -1,0 +1,9 @@
+answer: true
+difficulty: beginner
+explanation: ℚ can be listed by arranging p/q in a grid (p,q ∈ ℤ, q > 0) and applying
+  Cantor's diagonal traversal, skipping already-seen values. Hence |ℚ| = ℵ₀.
+kind: tf
+tags:
+- cardinality
+- countable
+text: The set of rational numbers ℚ is countably infinite.

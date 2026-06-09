@@ -1,0 +1,10 @@
+choices:
+- subset
+difficulty: beginner
+explanation: A ⊆ B means ∀x(x ∈ A → x ∈ B). Strict (proper) subset A ⊊ B additionally
+  requires A ≠ B. The empty set is a subset of every set.
+kind: blank
+tags:
+- sets
+text: A set A is a ___ of B, written A ⊆ B, if every element of A is also an element
+  of B.

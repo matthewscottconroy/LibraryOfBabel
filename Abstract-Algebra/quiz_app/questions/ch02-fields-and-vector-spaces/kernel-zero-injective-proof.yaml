@@ -1,0 +1,23 @@
+kind: proof
+difficulty: intermediate
+text: "A linear map T: V → W is injective if and only if ker(T) = {0}."
+proof_lines:
+  - "(⇒) Suppose T is injective. If T(v) = 0 = T(0), then by injectivity v = ___."
+  - "Thus ker(T) ⊆ {0}, and since T(0) = 0 always, ker(T) = {0}."
+  - "(⇐) Suppose ker(T) = {0}. If T(v₁) = T(v₂), then T(v₁ - v₂) = ___ by linearity."
+  - "Hence v₁ - v₂ ∈ ker(T) = {0}, so v₁ = v₂ and T is injective."
+fills:
+  - "0"
+  - "0"
+explanation: >
+  In the forward direction, injectivity forces any vector in the kernel to equal 0
+  (since it maps to the same image as the zero vector). In the reverse direction,
+  the key computation is T(v₁ - v₂) = T(v₁) - T(v₂) = 0, placing v₁ - v₂ in the
+  trivial kernel. Both blanks are '0': the first is the zero vector forced by
+  injectivity; the second is the zero vector resulting from linearity applied to equal images.
+tags:
+  - linear-maps
+  - kernel
+  - injective
+  - proof
+  - vector-spaces

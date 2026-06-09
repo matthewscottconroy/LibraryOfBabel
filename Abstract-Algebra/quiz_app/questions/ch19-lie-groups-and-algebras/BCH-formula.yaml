@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- X + Y + (1/2)[X,Y] + (1/12)[X,[X,Y]] − (1/12)[Y,[X,Y]] + …
+- X + Y + [X,Y]
+- e^X e^Y − 1
+- X + Y only when [X,Y] = 0
+difficulty: advanced
+explanation: 'The BCH formula expresses the product in a Lie group near the identity
+  purely in terms of the Lie algebra operations: log(e^X e^Y) = X + Y + ½[X,Y] + …
+  (higher Lie brackets). It converges for X, Y small.'
+kind: mc
+tags:
+- BCH-formula
+- exponential
+text: 'The Baker–Campbell–Hausdorff formula expresses log(e^X e^Y) as:'

@@ -1,0 +1,22 @@
+kind: proof
+difficulty: beginner
+text: "√2 is irrational."
+proof_lines:
+  - "Suppose for contradiction that √2 = p/q with p, q ∈ ℤ and gcd(p, q) = ___."
+  - "Then 2q² = p², so p² is even, which implies p is ___."
+  - "Write p = 2k; substituting gives 2q² = 4k², so q² = 2k², meaning q is also ___."
+  - "But then 2 | gcd(p, q), contradicting gcd(p, q) = 1."
+fills:
+  - "1"
+  - "even"
+  - "even"
+explanation: >
+  The proof is a classic proof by contradiction using the assumption that √2 is rational
+  in lowest terms. The fill '1' establishes the fraction is fully reduced. The first 'even'
+  follows because p² = 2q² is divisible by 2, and squares of odd numbers are odd. The
+  second 'even' follows by the same parity argument applied to q, contradicting lowest-terms.
+tags:
+  - irrationality
+  - proof-by-contradiction
+  - proof
+  - number-theory

@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Hom(c, L) ≅ [J, C](Δc, D) naturally in c
+- Hom(L, c) ≅ [J, C](D, Δc) naturally in c
+- L is the initial object of the diagram
+- L maps to all objects in D
+difficulty: intermediate
+explanation: A limit L of D represents the functor c ↦ Nat(Δc, D) (natural transformations
+  from the constant functor at c to D). This universal property characterizes limits
+  up to unique isomorphism.
+kind: mc
+tags:
+- limits
+- universal-property
+text: 'A limit of a diagram D: J → C is an object L such that for all c in C:'

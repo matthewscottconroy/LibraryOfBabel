@@ -1,0 +1,10 @@
+kind: blank
+difficulty: intermediate
+text: The ___ lemma says that a representable functor Hom(A,−) completely determines A up to isomorphism.
+explanation: 'Yoneda: Nat(Hom(A,−), F) ≅ F(A), naturally in F. An object is fully determined by its functor
+  of points.'
+tags:
+- yoneda
+- representable-functors
+choices:
+- Yoneda

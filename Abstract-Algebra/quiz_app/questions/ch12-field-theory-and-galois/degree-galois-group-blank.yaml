@@ -1,0 +1,11 @@
+kind: blank
+difficulty: intermediate
+text: "For a finite Galois extension L/F, the order of the Galois group |Gal(L/F)| equals ___."
+choices:
+  - "[L : F]"
+  - "the degree of the extension"
+explanation: "This is the fundamental size theorem of Galois theory. For a Galois extension (normal + separable), the number of F-automorphisms of L is exactly [L:F]. This fails for non-Galois extensions: for example, [ℚ(∛2):ℚ] = 3 but |Gal(ℚ(∛2)/ℚ)| = 1 since the two complex cube roots of 2 do not lie in ℚ(∛2) ⊆ ℝ."
+tags:
+  - galois-group
+  - galois-theory
+  - field-extensions

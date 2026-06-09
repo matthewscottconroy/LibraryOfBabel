@@ -1,0 +1,11 @@
+kind: blank
+difficulty: intermediate
+text: "The ___ of a Lie algebra g is the ideal [g,g] = span{[X,Y] : X,Y ∈ g}, i.e., the smallest ideal containing all brackets."
+choices:
+  - "derived algebra"
+  - "commutator ideal"
+explanation: "The derived algebra [g,g] (also called the commutator ideal or derived subalgebra) is an ideal of g because [Z,[X,Y]] = [[Z,X],Y] + [X,[Z,Y]] ∈ [g,g] by the Jacobi identity. The quotient g/[g,g] is the largest abelian quotient of g, analogous to the abelianization of a group. A Lie algebra is solvable iff its derived series g ⊇ [g,g] ⊇ [[g,g],[g,g]] ⊇ ⋯ reaches 0."
+tags:
+  - derived-algebra
+  - commutator-ideal
+  - solvable

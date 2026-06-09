@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- f = 0 whenever two arguments are equal
+- f is linear only in the first argument
+- f is always non-zero
+- f satisfies f(v₁,…,vₙ) = f(vₙ,…,v₁)
+difficulty: intermediate
+explanation: If two arguments are equal, swapping them changes the sign while leaving
+  the value unchanged, so f = −f, hence f = 0. The determinant is the unique (up to
+  scaling) alternating n-linear form on an n-dimensional space.
+kind: mc
+tags:
+- multilinear
+- alternating
+text: 'An alternating multilinear form f(v₁,…,vₙ) satisfies f(…,vᵢ,…,vⱼ,…) = −f(…,vⱼ,…,vᵢ,…).
+  This implies:'

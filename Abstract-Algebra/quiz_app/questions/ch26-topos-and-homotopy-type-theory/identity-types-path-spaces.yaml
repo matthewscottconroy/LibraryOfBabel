@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- 'To prove P(a, b, p) for any p: a=b, it suffices to prove P(a, a, refl_a)'
+- Id_A(a,b) implies a and b are definitionally equal
+- Every type A has decidable equality
+- Id_A(a,b) is always a proposition
+difficulty: intermediate
+explanation: 'The J-rule (path induction): to prove a predicate P(x,y,p) for all x,y:
+  A and p: Id_A(x,y), it suffices to handle the reflexivity case P(a,a,refl). This
+  is the elimination rule for identity types.'
+kind: mc
+tags:
+- identity-types
+- J-rule
+- path-induction
+text: 'In Martin-Löf type theory, the identity type Id_A(a, b) is inhabited by a proof
+  of a = b: A. The J-rule (path induction) says:'

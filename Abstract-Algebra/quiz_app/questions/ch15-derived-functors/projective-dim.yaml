@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- M is projective
+- M is injective
+- M is free
+- M is flat
+difficulty: intermediate
+explanation: 'pd(M) = 0 means M itself is projective (it is its own resolution: 0
+  → M → 0). pd(M) ≤ n means there is a projective resolution of length n. pd(M) =
+  ∞ is possible (over non-regular rings).'
+kind: mc
+tags:
+- projective-dimension
+- homological-algebra
+text: 'The projective dimension pd(M) of a module M equals the length of the shortest
+  projective resolution. A module has pd(M) = 0 if and only if:'

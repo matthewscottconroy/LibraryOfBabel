@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- 'Composition and identities: F(g∘f) = F(g)∘F(f) and F(id_A) = id_{F(A)}'
+- 'Inverses: F(f⁻¹) = F(f)⁻¹'
+- 'Products: F(A×B) = F(A)×F(B)'
+- Nothing beyond the object assignment
+difficulty: beginner
+explanation: 'Functors preserve categorical structure: composition and identities.
+  A contravariant functor reverses arrows: F(g∘f) = F(f)∘F(g). Examples: forgetful
+  functors, free functors, hom-functors.'
+kind: mc
+tags:
+- functors
+- category-theory
+text: 'A (covariant) functor F: C → D assigns to each object A ∈ C an object F(A)
+  ∈ D and to each morphism f: A → B a morphism F(f): F(A) → F(B), respecting:'

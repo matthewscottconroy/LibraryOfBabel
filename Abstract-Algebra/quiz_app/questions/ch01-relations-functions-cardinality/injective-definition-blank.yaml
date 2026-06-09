@@ -1,0 +1,12 @@
+kind: blank
+difficulty: beginner
+text: "A function f: A → B is ___ if distinct elements of A always map to distinct elements of B (i.e., f(a₁) = f(a₂) implies a₁ = a₂)."
+choices:
+  - "injective"
+  - "one-to-one"
+  - "an injection"
+explanation: "Injectivity (one-to-one) means the function never collapses two distinct inputs to the same output. The contrapositive phrasing — a₁ ≠ a₂ implies f(a₁) ≠ f(a₂) — is often equally useful in proofs."
+tags:
+  - functions
+  - injective
+  - definitions

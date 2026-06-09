@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Structural induction and recursion
+- Transitive closure automatically
+- Reflexivity
+- A maximum element
+difficulty: intermediate
+explanation: Well-foundedness is the key condition for defining functions and proving
+  properties by structural recursion/induction. The natural numbers with their standard
+  order are well-founded; the integers are not.
+kind: mc
+tags:
+- relations
+- well-founded
+text: 'A relation < on a set A is well-founded if there is no infinite descending
+  chain a₁ > a₂ > a₃ > ⋯. Well-founded relations support:'

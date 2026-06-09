@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- 'Z: Bord_n → Vect assigning vector spaces to (n-1)-manifolds and linear maps to
+  n-bordisms'
+- 'Z: Man_n → Alg assigning algebras to n-manifolds'
+- 'Z: Top → ℤ assigning integers to spaces'
+- 'Z: nCob → Set'
+difficulty: advanced
+explanation: 'An n-dimensional TFT assigns to each closed (n-1)-manifold a vector
+  space Z(M) and to each n-bordism Σ: M → N a linear map Z(Σ): Z(M) → Z(N), respecting
+  the symmetric monoidal structure (disjoint union ↔ tensor product).'
+kind: mc
+tags:
+- TFT
+- bordism
+text: 'An n-dimensional topological field theory (TFT) in the Atiyah–Segal sense is
+  a symmetric monoidal functor:'

@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Slice category C/G(b) of objects over a fixed G(b)
+- Slice category of objects under c
+- Overcategory of morphisms from c
+- The functor category [A,B]
+difficulty: advanced
+explanation: The slice category C/c = (id_C ↓ c) has objects = morphisms X → c in
+  C and morphisms = commuting triangles. Dually, c/C = (c ↓ id_C). Comma categories
+  are the correct setting for universal constructions and adjunctions.
+kind: mc
+tags:
+- comma-category
+- category-theory
+text: 'The comma category (F ↓ G) for functors F: A → C and G: B → C has objects (a,
+  b, f: F(a) → G(b)) and morphisms (α,β) making the square commute. A special case
+  (c ↓ G) (c constant) is the:'

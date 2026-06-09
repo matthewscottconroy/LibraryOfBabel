@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- The characteristic polynomial = d₁⋯dₖ and the minimal polynomial = dₖ
+- The minimal polynomial = d₁
+- All invariant factors are equal
+- dₖ = char poly always
+difficulty: advanced
+explanation: 'Smith normal form over F[x]: the matrix (xI − A) is equivalent to diag(d₁,…,dₖ,1,…,1).
+  char poly = ∏ dᵢ; min poly = dₖ (the largest invariant factor). Invariant factors
+  refine the rational canonical form.'
+kind: mc
+tags:
+- canonical-forms
+- invariant-factors
+text: 'The invariant factors d₁ | d₂ | ⋯ | dₖ of a matrix A over F[x] (where A acts
+  as multiplication by x on F[x]^n/…) satisfy:'

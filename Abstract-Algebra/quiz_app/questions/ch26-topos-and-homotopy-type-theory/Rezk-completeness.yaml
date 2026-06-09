@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- X_0 → (X_1)^{equiv} (objects to path-components of equivalences) is an equivalence
+- X_0 → X_1 is a fibration
+- X is fibrant in the Reedy model structure
+- The Segal maps are all weak equivalences
+difficulty: advanced
+explanation: 'Rezk completeness: the map from the space of objects X_0 to the path-component
+  space of equivalences in X_1 is a weak equivalence. This ensures ''univalence'':
+  equivalent objects are identified (a precursor to the Univalence Axiom).'
+kind: mc
+tags:
+- Rezk-completeness
+- Segal-space
+text: 'A Segal space X is Rezk complete (a complete Segal space) if the natural map:'

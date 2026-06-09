@@ -1,0 +1,13 @@
+kind: tf
+difficulty: intermediate
+text: "Every nilpotent group is solvable."
+answer: true
+explanation: >
+  Any central series for G is also a subnormal series with abelian factors (since central
+  factors are in particular abelian). Therefore the same series that witnesses nilpotency
+  also witnesses solvability. The converse fails: S₃ is solvable (with series
+  S₃ ⊃ A₃ ⊃ {e}) but is not nilpotent.
+tags:
+  - nilpotent-groups
+  - solvable-groups
+  - group-theory

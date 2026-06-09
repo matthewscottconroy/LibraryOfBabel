@@ -1,0 +1,11 @@
+kind: tf
+difficulty: advanced
+text: "The univalence axiom implies that the universe U, viewed as a type in HoTT, has the structure of an ∞-groupoid (not merely a set or groupoid)."
+answer: true
+explanation: >
+  By univalence, the path space between two types A, B : U is equivalent to A ≃ B. The space of equivalences between types can have nontrivial higher homotopy groups: for example, (2 ≃ 2) ≃ ℤ/2ℤ (just a set), but the space of equivalences of a circle S¹ to itself includes the higher homotopy of the mapping space Map(S¹, S¹). The universe therefore has identity types of varying h-levels at different points, making it an ∞-groupoid in the sense of having nontrivial homotopy at all levels. This is the homotopy-theoretic content of HoTT.
+tags:
+  - univalence-axiom
+  - infinity-topos
+  - tf
+  - homotopy-type-theory

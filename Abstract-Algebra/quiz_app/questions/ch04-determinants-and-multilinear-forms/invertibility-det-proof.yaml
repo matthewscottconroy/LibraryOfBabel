@@ -1,0 +1,22 @@
+kind: proof
+difficulty: intermediate
+text: "Theorem: An n×n matrix A is invertible if and only if det(A) ≠ 0."
+proof_lines:
+  - "(⇒) Suppose A is invertible, so there exists A⁻¹ with AA⁻¹ = I."
+  - "Applying multiplicativity: det(A)·det(A⁻¹) = det(AA⁻¹) = ___, so det(A) ≠ 0."
+  - "(⇐) Suppose det(A) = 0. Then the rows of A are linearly dependent, so A row-reduces to a matrix with a ___ row."
+  - "A matrix with a zero row has determinant ___, confirming A is not invertible (the system Ax = 0 has a non-trivial solution)."
+fills:
+  - "det(I) = 1"
+  - "zero"
+  - "0"
+explanation: >
+  The forward direction uses multiplicativity of det: if A is invertible then det(A)·det(A⁻¹) = 1,
+  so det(A) is a unit and in particular nonzero.
+  The reverse direction uses the fact that det = 0 implies the rows are linearly dependent,
+  yielding a zero row under row reduction; a matrix with a zero row has det = 0 and is singular.
+  Together these give the clean invertibility criterion without appealing to cofactor formulas.
+tags:
+  - determinants
+  - invertibility
+  - proof

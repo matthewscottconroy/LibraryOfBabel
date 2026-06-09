@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Smooth irreducible representations of GL_n(F) and n-dimensional representations
+  of the Weil–Deligne group
+- Algebraic representations of GL_n and Galois representations
+- Characters of GL_n(F) and L-functions
+- Parabolic induction data and Hecke algebras
+difficulty: advanced
+explanation: 'LLC for GL_n: irreducible smooth reps of GL_n(F) biject with n-dimensional
+  Frobenius-semisimple Weil–Deligne representations. For n=1 this is class field theory.
+  Proved by Harris–Taylor and Henniart.'
+kind: mc
+tags:
+- langlands-correspondence
+- representation-theory
+text: 'The local Langlands correspondence (for GL_n over a p-adic field F) establishes
+  a bijection between:'

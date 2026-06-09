@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- 2n
+- n
+- n²
+- n!
+difficulty: beginner
+explanation: Dₙ contains n rotations and n reflections, so |Dₙ| = 2n. It is generated
+  by a rotation r of order n and a reflection s of order 2, with the relation srs
+  = r⁻¹.
+kind: mc
+tags:
+- dihedral-groups
+- group-theory
+text: 'The dihedral group Dₙ (symmetries of a regular n-gon) has order:'

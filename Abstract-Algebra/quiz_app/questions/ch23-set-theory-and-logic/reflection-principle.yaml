@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- 'For all x in V_α: V ⊨ φ(x) iff V_α ⊨ φ(x)'
+- V_α is a model of ZFC
+- Every set is in V_α
+- φ is absolute for all transitive sets
+difficulty: advanced
+explanation: 'Reflection: every formula reflects to some rank V_α — truth in V matches
+  truth in V_α for that formula (on parameters in V_α). This shows ZFC cannot be finitely
+  axiomatized: any finite fragment is reflected, giving a model of it.'
+kind: mc
+tags:
+- reflection-principle
+- set-theory
+text: 'The Reflection Principle in ZF states that for any formula φ(x₁,…,xₙ) there
+  is an ordinal α such that:'

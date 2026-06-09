@@ -1,0 +1,27 @@
+kind: proof
+difficulty: advanced
+text: >
+  Theorem (Five Lemma). Consider a commutative diagram with exact rows:
+  A₁ → A₂ → A₃ → A₄ → A₅ (top) and B₁ → B₂ → B₃ → B₄ → B₅ (bottom),
+  with vertical maps α₁,...,α₅. If α₁, α₂, α₄, α₅ are isomorphisms, then α₃ is an isomorphism.
+proof_lines:
+  - "We show α₃ is injective (the 'four lemma' argument). Let a ∈ A₃ with α₃(a) = 0."
+  - "Apply the map A₃ → A₄: let a₄ = d(a). Then α₄(a₄) = d'(α₃(a)) = 0, and since α₄ is injective, ___."
+  - "By exactness at A₃, a ∈ im(A₂ → A₃), so write a = e(a₂) for some a₂ ∈ A₂."
+  - "Then α₂(a₂) maps to α₃(a) = 0 in B₃; since α₂ is surjective, by commutativity d'(α₂(a₂)) = 0, so α₂(a₂) ∈ ker(d') = im(e')."
+  - "Write α₂(a₂) = e'(b₁) for some b₁ ∈ B₁. Since α₁ is surjective, b₁ = α₁(a₁), and then α₂(a₂) = α₂(e(a₁)), so a₂ - e(a₁) ∈ ker(α₂) = 0, giving a₂ = e(a₁) and a = e(a₂) = ___."
+  - "Thus α₃ is injective. Surjectivity follows by a dual chase using α₁ surjective and α₄, α₅ injective, completing the proof."
+fills:
+  - "a₄ = 0"
+  - "0"
+explanation: >
+  The first blank uses the injectivity of α₄ to conclude a₄ = d(a) = 0, placing a
+  in the kernel of the outgoing map from A₃ and invoking exactness. The second blank
+  is the punchline of the injectivity chase: a = e(a₁) is in the image of the
+  incoming map to A₃, so by exactness it lies in the kernel of d, confirming a = 0.
+  The surjectivity half is dual and follows by chasing with the right outer maps.
+tags:
+  - five-lemma
+  - diagram-chasing
+  - proof
+  - exact-sequences

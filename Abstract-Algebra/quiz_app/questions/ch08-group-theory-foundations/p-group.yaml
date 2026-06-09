@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- center
+- normal subgroup of prime order
+- Sylow subgroup
+- commutator subgroup
+difficulty: intermediate
+explanation: 'Finite p-groups have non-trivial center Z(G) ≠ {e} (class equation argument:
+  |G| = |Z(G)| + Σ |G|/|C(x)| with p | each non-central term). This makes p-groups
+  nilpotent.'
+kind: mc
+tags:
+- p-groups
+- center
+text: 'A p-group is a group in which every element has order a power of p. Every finite
+  p-group has a non-trivial:'

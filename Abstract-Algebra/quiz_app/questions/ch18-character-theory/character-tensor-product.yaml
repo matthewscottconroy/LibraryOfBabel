@@ -1,0 +1,11 @@
+kind: blank
+difficulty: intermediate
+text: "The character of the tensor product V ⊗ W of two representations satisfies χ_{V⊗W}(g) = ___."
+choices:
+  - "χ_V(g) · χ_W(g)"
+  - "χ_V(g) χ_W(g)"
+explanation: "If ρ_V(g) has eigenvalues α₁,…,αₘ and ρ_W(g) has eigenvalues β₁,…,βₙ, then ρ_{V⊗W}(g) has eigenvalues αᵢβⱼ for all i,j. The trace is Σᵢⱼ αᵢβⱼ = (Σᵢ αᵢ)(Σⱼ βⱼ) = χ_V(g)·χ_W(g). This multiplicativity of characters is central to decomposing tensor products into irreducibles via the inner product."
+tags:
+  - character
+  - tensor-product-reps
+  - trace

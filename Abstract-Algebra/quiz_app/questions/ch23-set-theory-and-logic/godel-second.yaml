@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Prove its own consistency
+- Prove the continuum hypothesis
+- Enumerate its theorems
+- Model the natural numbers
+difficulty: advanced
+explanation: 'Gödel 2: Con(T) (the statement ''T is consistent'', formalised in T)
+  is not provable in T, assuming T is consistent and extends PA. This limits Hilbert''s
+  program: we cannot finitely secure mathematics against inconsistency.'
+kind: mc
+tags:
+- godel-incompleteness
+- logic
+text: 'Gödel''s Second Incompleteness Theorem states that any consistent, sufficiently
+  strong formal system T cannot:'

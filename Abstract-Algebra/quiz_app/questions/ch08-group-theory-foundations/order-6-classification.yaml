@@ -1,0 +1,14 @@
+kind: tf
+difficulty: intermediate
+text: "Every group of order 6 is isomorphic to either ℤ/6ℤ or S₃."
+answer: true
+explanation: >
+  By Cauchy's theorem a group of order 6 has elements of order 2 and 3. The Sylow
+  3-subgroup is unique (index 2) hence normal. This forces the group to be a semidirect
+  product ℤ/3ℤ ⋊ ℤ/2ℤ. There are exactly two homomorphisms ℤ/2ℤ → Aut(ℤ/3ℤ) ≅ ℤ/2ℤ:
+  the trivial one gives ℤ/6ℤ ≅ ℤ/2ℤ × ℤ/3ℤ, and the non-trivial one gives S₃ ≅ D₃.
+tags:
+  - group-classification
+  - sylow-theorems
+  - semidirect-product
+  - group-theory

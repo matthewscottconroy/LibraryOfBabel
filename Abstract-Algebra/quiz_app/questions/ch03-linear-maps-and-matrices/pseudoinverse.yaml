@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- (AᵀA)⁻¹Aᵀ
+- Aᵀ(AAᵀ)⁻¹
+- A⁻¹
+- (AᵀA)Aᵀ
+difficulty: advanced
+explanation: When A has full column rank, A⁺ = (AᵀA)⁻¹Aᵀ is the left inverse. The
+  least-squares solution to Ax = b is x* = A⁺b = (AᵀA)⁻¹Aᵀb. For full row rank A,
+  A⁺ = Aᵀ(AAᵀ)⁻¹.
+kind: mc
+tags:
+- matrices
+- pseudoinverse
+text: The Moore–Penrose pseudoinverse A⁺ of any matrix A satisfies the four Penrose
+  conditions. For a full-column-rank matrix A, A⁺ =

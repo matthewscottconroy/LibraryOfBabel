@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- P is a direct summand of a free module
+- P is free
+- P is injective
+- P has projective dimension 0
+difficulty: intermediate
+explanation: P projective ↔ P | F (direct summand of some free module F). Free ⟹ projective;
+  over local rings, projective ↔ free (by Nakayama). Over ℤ, projective ↔ free for
+  f.g. modules, but torsion-free is enough for countably generated.
+kind: mc
+tags:
+- projective-modules
+- module-theory
+text: 'A module P is projective if and only if every short exact sequence 0 → A →
+  B → P → 0 splits. Equivalently, P is projective iff:'

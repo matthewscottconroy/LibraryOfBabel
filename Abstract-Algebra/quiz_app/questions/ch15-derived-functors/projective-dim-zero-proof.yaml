@@ -1,0 +1,24 @@
+kind: proof
+difficulty: advanced
+text: >
+  Theorem. An R-module M has projective dimension 0 if and only if M is projective.
+proof_lines:
+  - "By definition, pd(M) = 0 means M has a projective resolution of length 0, i.e., there is an exact sequence 0 → P₀ → M → 0 with P₀ ___."
+  - "This says P₀ ≅ M (since the map P₀ → M is an isomorphism in the length-0 resolution), so M itself is ___."
+  - "Conversely, if M is projective, the sequence 0 → M → M → 0 (with identity map) is a projective resolution of M of length 0."
+  - "Thus pd(M) ≤ 0, and since projective dimension is always ≥ 0, we conclude pd(M) = ___."
+fills:
+  - "projective"
+  - "projective"
+  - "0"
+explanation: >
+  The first blank establishes what length-0 means: the only module in the resolution
+  is P₀, which must be projective by definition of a projective resolution. The
+  second blank draws the immediate conclusion that M ≅ P₀ is itself projective.
+  The third blank closes the argument: the projective dimension equals exactly 0,
+  confirming the equivalence pd(M) = 0 ⟺ M is projective.
+tags:
+  - projective-dimension
+  - projective-modules
+  - proof
+  - derived-functors

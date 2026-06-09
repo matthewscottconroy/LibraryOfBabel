@@ -1,0 +1,13 @@
+kind: blank
+difficulty: beginner
+text: "An endomorphism T is nilpotent if and only if all its ___ are zero."
+choices:
+  - "eigenvalues"
+explanation: >
+  T is nilpotent iff Tᵏ = 0 for some positive integer k. If λ is an eigenvalue with eigenvector v,
+  then Tᵏv = λᵏv = 0 forces λ = 0. Conversely, if 0 is the only eigenvalue then the characteristic
+  polynomial is λⁿ, and by Cayley-Hamilton Tⁿ = 0. So nilpotency is equivalent to having 0 as the
+  only eigenvalue (with appropriate algebraic multiplicity n).
+tags:
+  - nilpotent
+  - eigenvalues

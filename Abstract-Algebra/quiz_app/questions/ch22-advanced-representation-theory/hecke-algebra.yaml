@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A deformation of ℂ[W] (group algebra of Weyl group W) with parameter q
+- The group algebra ℂ[G]
+- The universal enveloping algebra U(𝔤)
+- The center of ℂ[G(𝔽_q)]
+difficulty: advanced
+explanation: 'The Hecke algebra H_q(W) deforms ℂ[W]: generators Tₛ satisfy (Tₛ+1)(Tₛ−q)
+  = 0 (vs (sₛ)² = 1 in W). At q=1 it specializes to ℂ[W]. Representations of G(𝔽_q)
+  with Iwahori-fixed vectors correspond to H_q(W)-modules.'
+kind: mc
+tags:
+- hecke-algebra
+- representation-theory
+text: 'The Iwahori–Hecke algebra H(G(𝔽_q)//I) arises as the convolution algebra of
+  compactly supported I-bi-invariant functions on G(𝔽_q). It is isomorphic to:'

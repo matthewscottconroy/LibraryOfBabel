@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- The Killing form B(X,Y) = Tr(adX ∘ adY) is non-degenerate
+- 𝔤 has no ideals
+- 𝔤 = [𝔤,𝔤]
+- 𝔤 is a direct sum of simple algebras of classical type
+difficulty: intermediate
+explanation: 'Cartan''s criterion: semisimple ↔ non-degenerate Killing form ↔ no non-zero
+  abelian ideals ↔ 𝔤 = 𝔰₁ ⊕ ⋯ ⊕ 𝔰ₙ (direct sum of simple ideals). Solvable ↔ B(𝔤,[𝔤,𝔤])
+  = 0.'
+kind: mc
+tags:
+- cartan-criterion
+- semisimple
+text: 'Cartan''s criterion says a Lie algebra 𝔤 is semisimple if and only if:'

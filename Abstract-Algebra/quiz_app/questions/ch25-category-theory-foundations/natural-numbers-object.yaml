@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- u ∘ 0 = q and u ∘ s = f ∘ u
+- u ∘ s = u
+- u is a monomorphism
+- u ∘ 0 = 0 and u ∘ s = s ∘ u
+difficulty: intermediate
+explanation: 'The NNO satisfies the universal property of primitive recursion: given
+  X with initial element q and successor f, there is unique u: ℕ → X commuting with
+  the structure. This is the internal version of the natural numbers in a topos.'
+kind: mc
+tags:
+- NNO
+- elementary-topos
+text: 'A natural numbers object (NNO) in an elementary topos is an object ℕ with maps
+  0: 1 → ℕ and s: ℕ → ℕ such that for any X with maps q: 1 → X and f: X → X there
+  is a unique map u: ℕ → X with:'

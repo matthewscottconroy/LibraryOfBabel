@@ -1,0 +1,12 @@
+kind: blank
+difficulty: beginner
+text: "With respect to fixed bases, the matrix of the composition T∘S of linear maps is the ___ of the matrices of T and S."
+choices:
+  - "product"
+  - "matrix product"
+explanation: "If [S] and [T] are the matrices of S and T with respect to compatible bases, then [T∘S] = [T]·[S]. This is precisely why matrix multiplication is defined the way it is: it encodes composition of linear maps. The order matters — [T∘S] = [T][S], not [S][T] in general."
+tags:
+  - linear-maps
+  - matrices
+  - composition
+  - matrix-product

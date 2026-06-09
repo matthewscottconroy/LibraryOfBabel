@@ -1,0 +1,25 @@
+kind: proof
+difficulty: advanced
+text: "Sylow's First Theorem: If p^k divides |G| but p^(k+1) does not, then G has a subgroup of order p^k (a Sylow p-subgroup)."
+proof_lines:
+  - "Let G act on the set X of all subsets of G of size p^k by left multiplication: g · A = gA."
+  - "By a counting argument, |X| = C(|G|, p^k). One shows that p does not divide ___, so some orbit has size not divisible by p."
+  - "For any A in such an orbit, its stabilizer Stab(A) satisfies |G| = |Orb(A)| · ___ by the orbit-stabilizer theorem."
+  - "Since p ∤ |Orb(A)| and p^k | |G|, we get p^k | |Stab(A)|. But |Stab(A)| ≤ p^k, forcing |Stab(A)| = ___."
+fills:
+  - "|X|"
+  - "|Stab(A)|"
+  - "p^k"
+explanation: >
+  The first blank captures the key combinatorial fact: C(mp^k, p^k) is not divisible
+  by p (a non-trivial calculation using Lucas' theorem or direct p-adic valuation).
+  The second blank is the orbit-stabilizer theorem applied: |G| = |Orb(A)| · |Stab(A)|.
+  The third blank is the squeeze: p^k divides |Stab(A)| from below (from step 3) and
+  |Stab(A)| ≤ p^k from above (a stabilizer of a p^k-element set has size at most p^k),
+  so equality is forced. The stabilizer is the desired Sylow p-subgroup.
+tags:
+  - sylow-theorems
+  - group-actions
+  - orbit-stabilizer
+  - group-theory
+  - proof

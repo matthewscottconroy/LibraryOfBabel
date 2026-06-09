@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- ℤ
+- ℤ/2
+- Trivial {e}
+- Free group on one generator (same as ℤ)
+difficulty: intermediate
+explanation: 'In HoTT, S¹ is a HIT with one point base and one loop: loop: base =
+  base. The computation π₁(S¹) = ℤ requires non-trivial type-theoretic reasoning (the
+  encode-decode method or covering space theory in HoTT).'
+kind: mc
+tags:
+- S1
+- fundamental-group
+- HoTT
+text: 'In HoTT, the fundamental group π₁(S¹) of the circle (as a HIT) is:'

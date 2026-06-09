@@ -1,0 +1,26 @@
+kind: proof
+difficulty: advanced
+text: "Prove that the tensor product is right-exact: if 0 → A → B → C → 0 is a short exact sequence of R-modules, then A ⊗ M → B ⊗ M → C ⊗ M → 0 is exact."
+proof_lines:
+  - "Let f: A → B and g: B → C denote the maps in the exact sequence. We must show (i) g ⊗ id is surjective, and (ii) the sequence is exact at B ⊗ M."
+  - "(i) Every generator c ⊗ m of C ⊗ M can be written as (g(b)) ⊗ m = ___ for some b ∈ B, since g is surjective. Hence g ⊗ id is surjective."
+  - "(ii) Since g ∘ f = 0, we have (g ⊗ id) ∘ (f ⊗ id) = ___ ⊗ id = 0, so im(f ⊗ id) ⊆ ker(g ⊗ id)."
+  - "For the reverse inclusion, form the quotient N = (B ⊗ M) / im(f ⊗ id). The map g: B → C induces a well-defined surjection N → C ⊗ M."
+  - "Conversely, the map C × M → N defined by (g(b), m) ↦ b ⊗ m + im(f ⊗ id) is well-defined (independent of the choice of b since f ⊗ id maps to zero) and ___."
+  - "Therefore N ≅ C ⊗ M, which means ker(g ⊗ id) = ___, completing the proof."
+fills:
+  - "(g ⊗ id)(b ⊗ m)"
+  - "(g ∘ f)"
+  - "R-bilinear"
+  - "im(f ⊗ id)"
+explanation: >
+  The three pivotal deductions are: surjectivity of g lifts to surjectivity of
+  g ⊗ id on generators; the composite g ∘ f = 0 gives one inclusion of the
+  exactness at B ⊗ M; and the universal property of the tensor product verifies
+  the reverse inclusion by constructing an inverse isomorphism (B ⊗ M)/im(f ⊗ id) ≅ C ⊗ M.
+  Note the sequence need not be exact at A ⊗ M — this requires flatness of M.
+tags:
+  - tensor-product
+  - right-exact
+  - exact-sequences
+  - proof

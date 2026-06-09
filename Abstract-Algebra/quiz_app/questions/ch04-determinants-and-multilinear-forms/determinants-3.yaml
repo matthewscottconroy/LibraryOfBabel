@@ -1,0 +1,13 @@
+kind: mc
+difficulty: beginner
+text: 'A square matrix A is invertible if and only if:'
+explanation: A is invertible iff det(A) ≠ 0 (equivalently, iff A has full rank, iff 0 is not an eigenvalue).
+tags:
+- determinants
+- invertibility
+choices:
+- det(A) ≠ 0
+- tr(A) ≠ 0
+- rank(A) < n
+- A has repeated eigenvalues
+answer: 0

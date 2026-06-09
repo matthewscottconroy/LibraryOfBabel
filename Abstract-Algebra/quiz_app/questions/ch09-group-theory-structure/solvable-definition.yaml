@@ -1,0 +1,15 @@
+kind: blank
+difficulty: intermediate
+text: "A group G is ___ if it has a subnormal series G = G₀ ⊇ G₁ ⊇ ··· ⊇ Gₙ = {e} where each factor group Gᵢ/Gᵢ₊₁ is abelian."
+choices:
+  - "solvable"
+  - "soluble"
+explanation: >
+  Solvable (or soluble) groups are those that can be built up from abelian groups by
+  extensions. Equivalently, G is solvable iff its derived series G ⊇ G' ⊇ G'' ⊇ ···
+  reaches {e} in finitely many steps. By the Feit-Thompson theorem, every group of odd
+  order is solvable.
+tags:
+  - solvable-groups
+  - subnormal-series
+  - group-theory

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- (−1)^{(p−1)/2 · (q−1)/2}
+- (−1)^{p+q}
+- 1 always
+- (p−1)(q−1)/4 mod 2
+difficulty: intermediate
+explanation: 'QR: (p/q)(q/p) = (−1)^{(p−1)/2·(q−1)/2} where (a/p) is the Legendre
+  symbol. It equals −1 iff both p ≡ q ≡ 3 (mod 4). Gauss gave eight proofs; modern
+  proofs use Galois theory or L-functions.'
+kind: mc
+tags:
+- number-theory
+- quadratic-reciprocity
+text: 'Quadratic reciprocity (Gauss) states that for distinct odd primes p and q,
+  (p/q)(q/p) equals:'

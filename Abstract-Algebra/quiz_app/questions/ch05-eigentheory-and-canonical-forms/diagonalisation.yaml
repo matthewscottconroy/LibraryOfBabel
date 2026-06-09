@@ -1,0 +1,8 @@
+kind: tf
+difficulty: intermediate
+text: A matrix is diagonalisable over ℂ if and only if its minimal polynomial has no repeated roots.
+explanation: Diagonalisability ↔ the minimal polynomial splits into distinct linear factors.
+tags:
+- diagonalisation
+- minimal-polynomial
+answer: true

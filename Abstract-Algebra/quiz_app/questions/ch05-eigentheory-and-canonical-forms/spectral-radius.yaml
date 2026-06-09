@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- ρ(A) ≤ ‖A‖
+- ρ(A) = ‖A‖ always
+- ρ(A) ≥ ‖A‖
+- ρ(A) = det(A)^{1/n}
+difficulty: intermediate
+explanation: 'The spectral radius is a lower bound for any consistent matrix norm:
+  ρ(A) ≤ ‖A‖. The Gelfand formula: ρ(A) = lim_{k→∞} ‖Aᵏ‖^{1/k}. For normal matrices,
+  ρ(A) = ‖A‖₂.'
+kind: mc
+tags:
+- eigenvalues
+- spectral-radius
+text: 'The spectral radius of a matrix A is ρ(A) = max{|λ| : λ is an eigenvalue of
+  A}. For any induced matrix norm ‖·‖:'

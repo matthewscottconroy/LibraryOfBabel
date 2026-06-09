@@ -1,0 +1,12 @@
+kind: mc
+difficulty: beginner
+text: 'The tensor product V ⊗ W of two vector spaces V and W is characterised by:'
+explanation: 'V ⊗ W has the universal property: bilinear maps V×W→Z correspond to linear maps V⊗W→Z.'
+tags:
+- tensor-products
+choices:
+- a universal property for bilinear maps
+- it being the direct sum
+- bijectivity with Hom(V,W)
+- it being a quotient of V×W
+answer: 0

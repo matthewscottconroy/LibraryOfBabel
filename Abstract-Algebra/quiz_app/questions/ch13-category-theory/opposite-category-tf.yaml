@@ -1,0 +1,8 @@
+kind: tf
+difficulty: beginner
+text: "The opposite of the opposite category C^op is the original category C, i.e. (C^op)^op = C."
+answer: true
+explanation: "By definition, C^op has the same objects as C and has morphisms reversed: a morphism f: A → B in C becomes a morphism f^op: B → A in C^op. Applying the construction again, (C^op)^op has morphisms (f^op)^op: A → B, which is canonically identified with f: A → B. Thus (C^op)^op = C on the nose (as a strict equality, not merely an equivalence). This duality principle is fundamental: any theorem about C yields a dual theorem about C^op."
+tags:
+  - opposite-category
+  - duality

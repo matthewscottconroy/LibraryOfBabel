@@ -1,0 +1,24 @@
+kind: proof
+difficulty: advanced
+text: "Prove that a module P is projective if and only if P is a direct summand of a free module."
+proof_lines:
+  - "( ⇒ ) Suppose P is projective. Choose a surjection π: F → P where F is free (take F to be the free module on the underlying set of P)."
+  - "Because P is projective and π: F → P is surjective, the identity map id_P: P → P lifts to a homomorphism s: P → F such that ___ = id_P."
+  - "Define F = ker(π) ⊕ im(s). Since π ∘ s = id_P, the map s is injective and F = ker(π) ⊕ s(P), so P ≅ s(P) is a ___ of the free module F."
+  - "( ⇐ ) Suppose P ⊕ Q = F for some free module F and some module Q. Given a surjection g: B → C and a map f: P → C, we extend f to a map P ⊕ Q → C by zero on Q."
+  - "Because F is free, there exists a lift h: F → B with ___ = f ⊕ 0. Composing with the inclusion P → F and projection gives the required lift P → B."
+  - "Therefore P is projective, completing the ___."
+fills:
+  - "π ∘ s"
+  - "direct summand"
+  - "g ∘ h"
+  - "proof"
+explanation: >
+  The key ideas are: projectivity gives a splitting of any surjection onto P
+  (producing a section s with π ∘ s = id), which yields the direct summand
+  decomposition; conversely, freeness of F lets us lift maps through surjections,
+  and the retraction from F back to P passes the lift along.
+tags:
+  - projective-modules
+  - direct-summand
+  - proof

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Hom(C × A, B) ≅ Hom(C, A ⇒ B) naturally in C
+- Hom(A, B) = A × B
+- A ⇒ B is always the terminal object
+- The internal hom equals the external hom
+difficulty: intermediate
+explanation: 'Cartesian closed categories (CCCs) have currying: maps C×A → B biject
+  with maps C → (A⇒B). Examples: Set, Cat, any topos. The lambda calculus has a categorical
+  semantics in CCCs (Curry–Howard–Lambek correspondence).'
+kind: mc
+tags:
+- cartesian-closed
+- category-theory
+text: 'A category is cartesian closed if it has finite products and for each pair
+  of objects A, B there exists an internal hom object A ⇒ B satisfying:'

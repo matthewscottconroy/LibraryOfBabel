@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- R ≅ k[[x₁,…,xₙ]]/I for some ideal I, where n = dim_k m/m²
+- R ≅ k[x₁,…,xₙ]
+- R ≅ ℤ_p[[x]]
+- R is always a DVR
+difficulty: advanced
+explanation: 'Cohen''s theorem: a complete local ring containing its residue field
+  is a quotient of a formal power series ring k[[x₁,…,xₙ]]. The ''equicharacteristic''
+  case. The ''mixed characteristic'' case (char R = 0, char k = p) uses Witt vectors.'
+kind: mc
+tags:
+- cohen-structure
+- ring-theory
+text: 'Cohen''s structure theorem classifies complete local rings (R, m, k): if R
+  contains a field, then R is isomorphic to a power series ring over k:'

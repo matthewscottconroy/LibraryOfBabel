@@ -1,0 +1,11 @@
+kind: blank
+difficulty: intermediate
+text: The ___ conjecture (proved by Perelman) states that every simply connected closed 3-manifold is
+  homeomorphic to S³.
+explanation: Perelman's proof of the Poincaré conjecture used Ricci flow with surgery.
+tags:
+- topology
+- overview
+choices:
+- Poincaré
+- Poincare

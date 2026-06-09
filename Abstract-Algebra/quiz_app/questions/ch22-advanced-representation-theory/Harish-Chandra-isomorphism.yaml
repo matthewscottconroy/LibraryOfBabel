@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- The W-invariant part of U(h), i.e., S(h*)^W
+- The center of the Weyl group algebra
+- The ring of class functions on G
+- The polynomial ring ℂ[h*]
+difficulty: advanced
+explanation: 'The Harish-Chandra isomorphism: Z(U(g)) ≅ S(h*)^W (symmetric algebra
+  on h* modulo Weyl group) via the Harish-Chandra map. Every central character is
+  determined by a W-orbit of λ ∈ h*.'
+kind: mc
+tags:
+- Harish-Chandra
+- center-of-enveloping
+text: The Harish-Chandra isomorphism gives Z(U(g)) ≅

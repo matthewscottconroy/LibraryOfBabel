@@ -1,0 +1,12 @@
+choices:
+- e
+- the identity
+difficulty: beginner
+explanation: 'ord(g) = min{n ≥ 1 : gⁿ = e}. By Lagrange''s theorem, the order of any
+  element divides the order of the group (when G is finite).'
+kind: blank
+tags:
+- group-theory
+- order
+text: The order of an element g in a group is the smallest positive integer n such
+  that gⁿ = ___, or ∞ if no such n exists.

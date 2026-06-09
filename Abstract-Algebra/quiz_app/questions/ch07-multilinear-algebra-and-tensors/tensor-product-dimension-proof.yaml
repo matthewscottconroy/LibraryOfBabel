@@ -1,0 +1,24 @@
+kind: proof
+difficulty: intermediate
+text: "Theorem: If V and W are finite-dimensional vector spaces with dim V = m and dim W = n, then dim(V⊗W) = mn."
+proof_lines:
+  - "Let {e₁,…,eₘ} be a basis for V and {f₁,…,fₙ} be a basis for W. Consider the mn simple tensors {eᵢ⊗fⱼ : 1 ≤ i ≤ m, 1 ≤ j ≤ n}."
+  - "Every simple tensor v⊗w = (Σᵢ αᵢeᵢ)⊗(Σⱼ βⱼfⱼ) = Σᵢ,ⱼ αᵢβⱼ eᵢ⊗fⱼ by ___ of ⊗, so {eᵢ⊗fⱼ} spans V⊗W."
+  - "To show linear independence, define for each pair (i,j) the bilinear form φᵢⱼ: V×W → F by φᵢⱼ(eₖ, fₗ) = ___."
+  - "By the universal property, each φᵢⱼ extends to a linear functional φ̃ᵢⱼ: V⊗W → F with φ̃ᵢⱼ(eₖ⊗fₗ) = δᵢₖδⱼₗ."
+  - "If Σᵢ,ⱼ cᵢⱼ eᵢ⊗fⱼ = 0, applying φ̃ᵢⱼ gives cᵢⱼ = ___ for all i,j, proving linear independence."
+fills:
+  - "bilinearity"
+  - "δᵢₖδⱼₗ"
+  - "0"
+explanation: >
+  The proof has two parts: spanning follows from bilinearity (every element is a linear combination
+  of simple tensors, which expand onto the basis tensors eᵢ⊗fⱼ).
+  Independence uses the universal property to construct dual functionals φ̃ᵢⱼ that pick out each
+  coefficient cᵢⱼ; vanishing of the whole sum then forces each coefficient to be zero.
+  The universal property is essential here — it provides linear maps out of V⊗W whose existence
+  proves independence without circular reasoning.
+tags:
+  - dimension-tensor-product
+  - tensor-products
+  - proof

@@ -1,0 +1,14 @@
+kind: tf
+difficulty: intermediate
+text: "Every group of order p² (where p is prime) is abelian."
+answer: true
+explanation: >
+  A group of order p² is a p-group, so its center Z(G) is non-trivial. The order of Z(G)
+  must divide p², so |Z(G)| ∈ {p, p²}. If |Z(G)| = p² then G = Z(G) is abelian. If
+  |Z(G)| = p then G/Z(G) has order p, hence is cyclic, and a group with cyclic quotient
+  by its center must be abelian — a contradiction. Therefore |Z(G)| = p² and G is abelian.
+tags:
+  - p-group
+  - center
+  - abelian-groups
+  - group-theory

@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- The word problem is undecidable in general
+- The word problem is always decidable
+- The word problem is decidable iff G is finite
+- S must be smaller than R
+difficulty: advanced
+explanation: 'Novikov (1955) and Boone (1958) proved the word problem is undecidable
+  for some finitely presented groups. However it is decidable for specific classes:
+  hyperbolic groups, automatic groups, and groups with a solvable word problem.'
+kind: mc
+tags:
+- finitely-presented
+- group-theory
+text: 'A group G is finitely presented if G = ⟨S | R⟩ with both S (generators) and
+  R (relators) finite. The word problem asks, given a word in S ∪ S⁻¹, whether it
+  equals e. For finitely presented groups:'

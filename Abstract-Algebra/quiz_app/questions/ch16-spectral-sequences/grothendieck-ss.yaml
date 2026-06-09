@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- E₂^{p,q} = R^p G(R^q F(M)) ⇒ R^{p+q}(G∘F)(M)
+- E₂^{p,q} = R^{p+q}G(F(M))
+- E₂^{p,q} = R^p(G∘F)(M)
+- E₂^{p,q} = R^p F(M) ⊗ R^q G(N)
+difficulty: advanced
+explanation: 'Grothendieck SS: E₂^{p,q} = (R^p G)(R^q F(M)) ⇒ R^{p+q}(G∘F)(M), when
+  F maps injectives to G-acyclics. Specializes to: Leray SS (sheaf push-forwards),
+  LHS SS (group cohomology), hypercohomology SS.'
+kind: mc
+tags:
+- grothendieck-spectral-sequence
+- derived-functors
+text: 'For composable right-exact functors F: A → B and G: B → C, the Grothendieck
+  spectral sequence gives:'

@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ∏_{V irred} M_{dim V}(ℂ)
+- ∏_{V irred} ℂ^{dim V}
+- M_{|G|}(ℂ)
+- ℂ^|G| as vector spaces
+difficulty: intermediate
+explanation: By Artin–Wedderburn, ℂ[G] ≅ ∏_i M_{n_i}(ℂ) where the product is over
+  irreducible representations V_i of dimension n_i. This is the structural reason
+  why ∑ n_i² = |G|.
+kind: mc
+tags:
+- group-algebra
+- Artin-Wedderburn
+text: 'Over ℂ, the group algebra ℂ[G] decomposes as a ring as:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Fully dualizable objects in the target (∞,n)-category C
+- Manifold invariants of the n-sphere
+- The homotopy groups of BSO(n)
+- Invertible objects in C
+difficulty: advanced
+explanation: 'The cobordism hypothesis: fully extended framed n-dimensional TFTs Z:
+  Bord_n^{fr} → C are classified by fully dualizable objects Z(pt) ∈ C. The O(n)-action
+  on Bord_n^{fr} acts on fully dualizable objects.'
+kind: mc
+tags:
+- cobordism-hypothesis
+- Lurie
+text: 'The Baez–Dolan cobordism hypothesis (proved by Lurie) states that fully extended
+  n-dimensional TFTs are classified by:'

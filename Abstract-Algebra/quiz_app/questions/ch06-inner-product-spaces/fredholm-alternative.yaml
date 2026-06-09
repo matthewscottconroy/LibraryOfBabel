@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- (I−T)x = y has a unique solution for every y, OR (I−T)x = 0 has non-trivial solutions
+- Both (I−T)x = y and (I−T)x = 0 always have solutions
+- (I−T) is always invertible
+- T must be self-adjoint
+difficulty: advanced
+explanation: 'Fredholm alternative: either (I−T)x = y has a unique solution for all
+  y (kernel trivial), or the homogeneous equation (I−T)x = 0 has non-trivial solutions.
+  In the latter case, (I−T)x = y is solvable iff y ⊥ ker(I−T*).'
+kind: mc
+tags:
+- fredholm-alternative
+- compact-operators
+text: 'The Fredholm alternative for a compact operator T on a Hilbert space states:
+  exactly one of the following holds:'

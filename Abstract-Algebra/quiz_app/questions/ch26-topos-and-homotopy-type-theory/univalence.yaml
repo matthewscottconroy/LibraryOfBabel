@@ -1,0 +1,14 @@
+kind: mc
+difficulty: intermediate
+text: 'In homotopy type theory (HoTT), the univalence axiom states that:'
+explanation: 'Univalence: equivalence of types is the same as equality of types (in the universe). Proposed
+  by Voevodsky.'
+tags:
+- univalence
+- HoTT
+choices:
+- (A ≃ B) ≃ (A = B) in the universe
+- every type is a set
+- all paths are trivial
+- every function is continuous
+answer: 0

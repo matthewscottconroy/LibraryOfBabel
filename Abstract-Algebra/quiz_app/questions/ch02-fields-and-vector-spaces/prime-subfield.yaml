@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- 𝔽_p = ℤ/pℤ
+- ℚ
+- ℤ
+- ℝ
+difficulty: intermediate
+explanation: Every field of characteristic p contains a unique minimal subfield isomorphic
+  to 𝔽_p = ℤ/pℤ. Fields of characteristic 0 have prime subfield isomorphic to ℚ.
+kind: mc
+tags:
+- fields
+- prime-subfield
+text: 'The prime subfield of a field F of characteristic p > 0 is isomorphic to:'

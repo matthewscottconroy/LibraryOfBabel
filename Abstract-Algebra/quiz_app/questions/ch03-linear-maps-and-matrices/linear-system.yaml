@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- rank(A) = rank([A|b]) (Rouché–Capelli theorem)
+- det A ≠ 0
+- m = n
+- b = 0
+difficulty: beginner
+explanation: 'Rouché–Capelli (consistency condition): Ax = b is consistent iff b lies
+  in the column space of A, iff rank(A) = rank(A|b). When consistent, the solution
+  space is an affine subspace of dimension n − rank(A).'
+kind: mc
+tags:
+- matrices
+- linear-systems
+text: 'A system Ax = b of m equations and n unknowns has a solution if and only if:'

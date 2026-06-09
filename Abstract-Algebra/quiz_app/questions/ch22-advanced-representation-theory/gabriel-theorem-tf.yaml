@@ -1,0 +1,10 @@
+kind: tf
+difficulty: intermediate
+text: "Gabriel's theorem classifies quivers of finite representation type: a connected quiver has finitely many indecomposable representations over an algebraically closed field if and only if its underlying undirected graph is a Dynkin diagram of type ADE."
+answer: true
+explanation: >
+  Gabriel's theorem (1972) states that a finite acyclic quiver has finite representation type (finitely many isomorphism classes of indecomposable representations) if and only if its underlying graph is one of the ADE Dynkin diagrams: A_n, D_n, E₆, E₇, E₈. Moreover, the indecomposable representations are in bijection with the positive roots of the corresponding root system. This remarkable connection between quiver representations and Lie theory is the starting point for Auslander–Reiten theory and geometric representation theory.
+tags:
+  - gabriel-theorem
+  - dynkin-classification
+  - tf

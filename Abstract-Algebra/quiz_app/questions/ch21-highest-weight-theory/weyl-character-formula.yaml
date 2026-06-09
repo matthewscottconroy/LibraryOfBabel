@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ch L(λ) = Σ_{w∈W} det(w) e^{w(λ+ρ)} / Σ_{w∈W} det(w) e^{w(ρ)}
+- ch L(λ) = Σ_{μ≤λ} m(μ) e^μ
+- ch L(λ) = e^λ · dim L(λ)
+- ch L(λ) = det(e^{λᵢ(Hⱼ)})
+difficulty: advanced
+explanation: 'WCF: ch L(λ) = A_{λ+ρ}/A_ρ where A_μ = Σ_{w∈W} det(w)e^{w(μ)} (the Weyl
+  anti-symmetrizer) and ρ = half-sum of positive roots. The denominator A_ρ = ∏_{α>0}(e^{α/2}
+  − e^{−α/2}) is the Weyl denominator.'
+kind: mc
+tags:
+- weyl-character-formula
+- representation-theory
+text: 'The Weyl character formula gives the character of L(λ) as:'

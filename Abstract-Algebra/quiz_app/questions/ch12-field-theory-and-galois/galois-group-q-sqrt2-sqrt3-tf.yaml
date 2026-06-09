@@ -1,0 +1,8 @@
+kind: tf
+difficulty: intermediate
+text: "The Galois group of ℚ(√2, √3)/ℚ is isomorphic to ℤ/2ℤ × ℤ/2ℤ."
+answer: true
+explanation: "The extension ℚ(√2, √3)/ℚ has degree 4 and is Galois (it is the splitting field of (x²-2)(x²-3)). The four automorphisms are determined by their action on √2 and √3: σ(√2) = ±√2 and σ(√3) = ±√3 independently. Each non-identity element has order 2 and no element has order 4, so the group is the Klein four-group ℤ/2ℤ × ℤ/2ℤ."
+tags:
+  - galois-group
+  - galois-theory

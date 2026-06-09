@@ -1,0 +1,13 @@
+kind: blank
+difficulty: intermediate
+text: "In dependent type theory, a dependent product type Π(x:A). B(x) corresponds logically (under the Curry–Howard correspondence) to ___ in logic."
+choices:
+  - "a universal statement ∀x:A. B(x)"
+  - "an existential statement ∃x:A. B(x)"
+explanation: >
+  Under the Curry–Howard (propositions-as-types) correspondence: Π(x:A). B(x) corresponds to the universal statement ∀x:A. B(x), with a proof being a function that takes any a:A and returns a proof of B(a). Dually, the dependent sum Σ(x:A). B(x) corresponds to ∃x:A. B(x), with a proof being a pair (a, p) where a:A and p: B(a). The dependent product Π generalizes the non-dependent function type A → B (which is Π(x:A). B when B does not depend on x).
+tags:
+  - dependent-types
+  - propositions-as-types
+  - blank
+  - homotopy-type-theory

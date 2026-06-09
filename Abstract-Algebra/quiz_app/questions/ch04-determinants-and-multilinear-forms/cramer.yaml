@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- det(Aᵢ) / det(A), where Aᵢ replaces column i of A by b
+- det(A) / det(Aᵢ)
+- det(bAᵢ)
+- Aᵢ · det(b)
+difficulty: intermediate
+explanation: 'Cramer''s Rule: xᵢ = det(Aᵢ)/det(A) where Aᵢ is A with its i-th column
+  replaced by b. Efficient for small systems; Gaussian elimination is preferred computationally.'
+kind: mc
+tags:
+- determinants
+- cramer
+text: 'Cramer''s Rule gives the solution to Ax = b (A invertible) as xᵢ =:'

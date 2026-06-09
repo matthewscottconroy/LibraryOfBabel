@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ∏_{1 ≤ i < j ≤ n} (xⱼ − xᵢ)
+- Σ xᵢ
+- ∏ xᵢ
+- det([xᵢʲ])
+difficulty: intermediate
+explanation: 'det(Vandermonde) = ∏_{i<j}(xⱼ − xᵢ). It is non-zero iff all xᵢ are distinct.
+  Applications: Lagrange interpolation, existence/uniqueness of interpolating polynomial,
+  Schur polynomial theory.'
+kind: mc
+tags:
+- determinants
+- vandermonde
+text: 'The Vandermonde determinant of values x₁,…,xₙ equals:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Cannot prove its own consistency within T
+- Cannot prove the law of excluded middle
+- Is provably complete if and only if it is consistent
+- Has a model if and only if it is consistent
+difficulty: intermediate
+explanation: 'Gödel''s second incompleteness theorem: Con(T) (the assertion that T
+  is consistent) is not provable in T (assuming T is consistent and sufficiently strong).
+  This formalized Hilbert''s program failure.'
+kind: mc
+tags:
+- Godel-incompleteness
+- consistency
+text: 'Gödel''s second incompleteness theorem states that a consistent sufficiently
+  strong system T:'

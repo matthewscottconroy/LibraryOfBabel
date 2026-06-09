@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A free resolution of R/(x_1, …, x_n)
+- An injective resolution of R/(x_1, …, x_n)
+- A flat resolution but not free
+- Acyclic only when n = 1
+difficulty: advanced
+explanation: When x_1, …, x_n is a regular sequence, the Koszul complex is a free
+  (hence projective) resolution of R/(x_1,…,x_n). This provides an explicit way to
+  compute Ext and Tor over such quotients.
+kind: mc
+tags:
+- Koszul-complex
+- regular-sequence
+text: 'The Koszul complex K(x_1, …, x_n; R) on a regular sequence in a Noetherian
+  ring R is:'

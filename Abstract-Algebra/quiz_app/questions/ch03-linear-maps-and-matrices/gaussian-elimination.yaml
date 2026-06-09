@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- The rank of the matrix
+- The number of columns
+- The number of pivots modulo 2
+- The nullity of the matrix
+difficulty: intermediate
+explanation: 'Each non-zero row in row echelon form has a leading 1 (pivot). The number
+  of pivots = rank(A). Rank–nullity: rank + nullity = n (number of columns). Free
+  variables correspond to non-pivot columns.'
+kind: mc
+tags:
+- matrices
+- gaussian-elimination
+text: 'Gaussian elimination reduces a matrix to row echelon form. The number of non-zero
+  rows in the echelon form equals:'

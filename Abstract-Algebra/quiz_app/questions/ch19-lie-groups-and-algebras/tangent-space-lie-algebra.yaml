@@ -1,0 +1,11 @@
+kind: blank
+difficulty: beginner
+text: "The ___ of a Lie group G at the identity element e is its Lie algebra g."
+choices:
+  - "tangent space"
+  - "tangent space T_e G"
+explanation: "The Lie algebra g = T_e G is the tangent space to G at the identity. It inherits a Lie bracket from the group's smooth structure via the adjoint action or equivalently via the commutator of left-invariant vector fields. The dimension of g as a vector space equals the dimension of G as a manifold."
+tags:
+  - lie-algebra
+  - tangent-space
+  - lie-group

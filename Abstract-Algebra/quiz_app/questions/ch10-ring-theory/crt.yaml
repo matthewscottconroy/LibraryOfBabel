@@ -1,0 +1,13 @@
+kind: mc
+difficulty: intermediate
+text: 'The Chinese Remainder Theorem says that if gcd(m,n)=1, then ℤ/mnℤ ≅:'
+explanation: 'CRT: for coprime ideals (m) and (n) in ℤ, ℤ/(mn) ≅ ℤ/(m) × ℤ/(n) as rings.'
+tags:
+- CRT
+- ideals
+choices:
+- ℤ/mℤ × ℤ/nℤ
+- ℤ/(m+n)ℤ
+- ℤ/mℤ ⊕ ℤ/nℤ (not as rings)
+- ℤ[m]×ℤ[n]
+answer: 0

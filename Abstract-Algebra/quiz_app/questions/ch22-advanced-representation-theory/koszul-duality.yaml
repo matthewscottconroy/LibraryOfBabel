@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- D^b(A-mod) ≅ D^b(A!-mod) where A! is the Koszul dual
+- A is Morita equivalent to A!
+- The global dimension of A equals that of A!
+- A ≅ (A!)! as graded algebras always
+difficulty: advanced
+explanation: 'Koszul duality: for a Koszul algebra A (generated in degree 0 and 1,
+  with linear projective resolutions), there is a derived equivalence D^b(A-mod) ≅
+  D^b(A!-mod) where A! = Ext*_A(A_0, A_0) is the Koszul dual.'
+kind: mc
+tags:
+- Koszul-duality
+- derived-equivalence
+text: 'Koszul duality for a Koszul algebra A states:'

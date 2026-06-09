@@ -1,0 +1,11 @@
+kind: blank
+difficulty: intermediate
+text: "Given an adjunction F ⊣ G with unit η: id_C → GF, the triangle identity states that G(ε_B) ∘ η_{G(B)} = ___ for all B ∈ D."
+choices:
+  - "id_{G(B)}"
+  - "the identity on G(B)"
+explanation: "The triangle identities (also called the zig-zag identities) characterise an adjunction in terms of the unit η: id → GF and counit ε: FG → id. The two identities are: G(ε_B) ∘ η_{G(B)} = id_{G(B)} and ε_{F(A)} ∘ F(η_A) = id_{F(A)}. These ensure that the unit and counit are inverse to each other in the appropriate sense, and that the hom-set bijection Hom(FA,B) ≅ Hom(A,GB) is given by the correct formula."
+tags:
+  - adjoint-functors
+  - adjunction
+  - natural-transformation-defn

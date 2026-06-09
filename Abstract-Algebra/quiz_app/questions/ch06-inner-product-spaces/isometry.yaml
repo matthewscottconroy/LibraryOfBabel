@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ⟨Tv, Tu⟩ = ⟨v, u⟩ for all v, u ∈ V
+- ‖Tv‖ = 1 for all unit v
+- T is surjective
+- T² = I
+difficulty: beginner
+explanation: An isometry preserves inner products (hence norms and angles). Isometries
+  are automatically injective. A surjective isometry is a unitary (complex) or orthogonal
+  (real) isomorphism.
+kind: mc
+tags:
+- inner-products
+- isometry
+text: 'A linear map T: V → W between inner product spaces is an isometry if:'

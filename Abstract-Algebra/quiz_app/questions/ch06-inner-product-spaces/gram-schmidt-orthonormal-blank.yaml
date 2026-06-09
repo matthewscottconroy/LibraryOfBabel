@@ -1,0 +1,15 @@
+kind: blank
+difficulty: beginner
+text: "The Gram-Schmidt process converts any linearly independent set of vectors into an ___ set spanning the same subspace."
+choices:
+  - "orthonormal"
+  - "orthogonal"
+explanation: >
+  Given vectors v₁, …, vₖ, the Gram-Schmidt algorithm produces e₁, …, eₖ by iteratively subtracting
+  projections onto previously computed vectors and then normalising. The result is an orthonormal set
+  (each eᵢ has unit length and eᵢ ⊥ eⱼ for i ≠ j) spanning the same subspace as the original set.
+  If normalisation is omitted the result is orthogonal but not necessarily orthonormal.
+tags:
+  - gram-schmidt-process
+  - orthonormal-basis
+  - inner-products

@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- (1/|G|) Σ_{g∈G} |Fix(g)|
+- (1/|X|) Σ_{x∈X} |Orb(x)|
+- '|G| / |X|'
+- '|G| · |X|'
+difficulty: intermediate
+explanation: 'Burnside (Cauchy–Frobenius): #orbits = (1/|G|) Σ_g |X^g| where X^g =
+  {x ∈ X : g·x = x}. Used in Pólya enumeration to count colorings up to symmetry.'
+kind: mc
+tags:
+- group-actions
+- burnside
+text: 'Burnside''s lemma counts the number of orbits of a group action G on X as:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- E₂^{p,q} = H^p(Q; H^q(N; M)) ⇒ H^{p+q}(G; M)
+- E₂^{p,q} = H^p(N; H^q(Q; M))
+- E₂^{p,q} = H^p(G; M) ⊗ H^q(G; M)
+- E₂^{p,q} = H^{p+q}(N; M)
+difficulty: advanced
+explanation: 'LHS SS: E₂^{p,q} = H^p(Q; H^q(N;M)) ⇒ H^{p+q}(G;M). Low-degree terms
+  recover the inflation-restriction exact sequence. Essential tool for computing group
+  cohomology of extensions.'
+kind: mc
+tags:
+- lyndon-hochschild-serre
+- group-cohomology
+text: 'For a group extension 1 → N → G → Q → 1, the Lyndon–Hochschild–Serre spectral
+  sequence has E₂ page:'

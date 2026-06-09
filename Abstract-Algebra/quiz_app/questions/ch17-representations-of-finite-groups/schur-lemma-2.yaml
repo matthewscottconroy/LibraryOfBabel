@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Either 0 or an isomorphism
+- Always 0
+- Always an isomorphism
+- Surjective but not injective
+difficulty: intermediate
+explanation: 'Schur''s lemma: ker φ and im φ are subrepresentations of V and W respectively.
+  Since V is irreducible, ker φ = 0 or ker φ = V. Since W is irreducible, im φ = 0
+  or im φ = W. Hence φ = 0 or φ is an isomorphism.'
+kind: mc
+tags:
+- schur-lemma
+- representations
+text: 'Schur''s lemma states that a G-module homomorphism φ: V → W between irreducible
+  representations is:'

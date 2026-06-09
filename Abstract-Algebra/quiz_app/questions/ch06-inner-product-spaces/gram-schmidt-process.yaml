@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- 'e₁ = v₁/‖v₁‖, then subtracting projections: ẽₖ = vₖ − Σ_{j<k} ⟨vₖ,eⱼ⟩eⱼ, eₖ = ẽₖ/‖ẽₖ‖'
+- Sorting vᵢ by norm
+- Averaging the vectors
+- Taking the SVD
+difficulty: beginner
+explanation: Gram–Schmidt produces an ONB spanning the same space as the original
+  basis. At each step, subtract projections onto previously computed ONB vectors,
+  then normalise. Numerically unstable; modified Gram–Schmidt is preferred.
+kind: mc
+tags:
+- inner-products
+- gram-schmidt
+text: 'Gram–Schmidt orthogonalisation converts any basis {v₁,…,vₙ} to an orthonormal
+  basis {e₁,…,eₙ} by:'

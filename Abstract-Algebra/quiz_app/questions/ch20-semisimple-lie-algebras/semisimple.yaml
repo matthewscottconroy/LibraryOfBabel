@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: By Cartan's criterion, a Lie algebra g is semisimple if and only if its Killing form is non-degenerate.
+explanation: 'Cartan''s semisimplicity criterion: g semisimple ↔ B is non-degenerate ↔ g has no nonzero
+  abelian ideals.'
+tags:
+- semisimple
+- cartan-criterion
+answer: true

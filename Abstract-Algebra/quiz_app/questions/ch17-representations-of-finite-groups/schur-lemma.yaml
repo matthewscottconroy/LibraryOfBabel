@@ -1,0 +1,9 @@
+kind: blank
+difficulty: intermediate
+text: Schur's lemma states that any nonzero G-equivariant map between ___ representations is an isomorphism.
+explanation: 'Schur: a G-homomorphism between irreducible representations is either 0 or an isomorphism.'
+tags:
+- schur-lemma
+- irreducible
+choices:
+- irreducible

@@ -1,0 +1,12 @@
+kind: tf
+difficulty: beginner
+text: "A nilpotent matrix has 0 as its only eigenvalue."
+answer: true
+explanation: >
+  If A is nilpotent, then Aᵏ = 0 for some k ≥ 1. If λ is an eigenvalue with eigenvector v, then
+  Aᵏv = λᵏv = 0; since v ≠ 0, we get λᵏ = 0 and hence λ = 0.
+  Therefore 0 is the only eigenvalue of any nilpotent matrix. The characteristic polynomial of an
+  n×n nilpotent matrix is consequently λⁿ.
+tags:
+  - nilpotent
+  - eigenvalues

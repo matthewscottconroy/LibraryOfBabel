@@ -1,0 +1,21 @@
+kind: proof
+difficulty: intermediate
+text: "Cauchy-Schwarz Inequality: For vectors u, v in an inner product space, |⟨u, v⟩| ≤ ‖u‖·‖v‖, with equality iff u and v are linearly dependent."
+proof_lines:
+  - "If v = 0 the inequality holds trivially, so assume v ≠ 0. For any scalar t, consider the expansion of ⟨u - tv, u - tv⟩ ≥ 0."
+  - "Expanding: ‖u‖² - t⟨v,u⟩ - t̄⟨u,v⟩ + |t|²‖v‖² ≥ 0. Choose t = ___ to minimise the left side."
+  - "Substituting this optimal t yields ‖u‖² - ___ ≥ 0, rearranging to |⟨u,v⟩|² ≤ ‖u‖²‖v‖²."
+  - "Taking square roots gives the inequality. Equality holds iff ⟨u - tv, u - tv⟩ = 0, i.e. iff u = tv, meaning u and v are ___."
+fills:
+  - "⟨u,v⟩/‖v‖²"
+  - "|⟨u,v⟩|²/‖v‖²"
+  - "linearly dependent"
+explanation: >
+  The standard proof uses the non-negativity of ‖u - tv‖² ≥ 0 with the optimal scalar
+  t = ⟨u,v⟩/‖v‖² chosen to project u onto v. Substituting this t and simplifying yields
+  ‖u‖²‖v‖² ≥ |⟨u,v⟩|². The equality condition is that u - tv = 0, i.e. u and v are
+  linearly dependent (one is a scalar multiple of the other).
+tags:
+  - cauchy-schwarz
+  - inner-products
+  - proof

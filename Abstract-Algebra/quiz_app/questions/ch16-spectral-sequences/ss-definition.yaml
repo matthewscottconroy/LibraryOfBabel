@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- d_r² = 0 and E_{r+1}^{p,q} = H(E_r^{p,q}, d_r)
+- d_r is an isomorphism for all r
+- E_r^{p,q} = 0 for all r > 2
+- 'd_r: E_r^{p,q} → E_r^{p-r,q+r-1}'
+difficulty: intermediate
+explanation: Each page E_r is obtained as cohomology of (E_{r-1}, d_{r-1}). The sequence
+  converges when E_r^{p,q} stabilizes (E_∞^{p,q}) and the filtration on H*(total)
+  has associated graded pieces E_∞^{p,q}.
+kind: mc
+tags:
+- spectral-sequences
+- homological-algebra
+text: 'A (cohomological) spectral sequence consists of abelian groups E_r^{p,q} for
+  r ≥ 2 and differentials d_r: E_r^{p,q} → E_r^{p+r,q-r+1} satisfying:'

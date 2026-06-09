@@ -1,0 +1,16 @@
+answer: 3
+choices:
+- ch V(λ) = ∑_{w∈W} ε(w) e^{w(λ+ρ)} / ∑_{w∈W} ε(w) e^{w(ρ)}
+- ch V(λ) = e^λ · ∏_{α>0} (1 + e^{-α})
+- ch V(λ) = ∑_μ m(μ) e^μ where m(μ) = dim V(λ)_μ
+- Both A and C (they give the same expression)
+difficulty: advanced
+explanation: The Weyl character formula (A) is the closed form, while the expansion
+  by weight multiplicities (C) is the definition. They are equal; the formula provides
+  a way to compute the multiplicities m(μ).
+kind: mc
+tags:
+- Weyl-character-formula
+- weight-multiplicities
+text: 'The Weyl character formula gives the character of the irreducible representation
+  V(λ) as:'

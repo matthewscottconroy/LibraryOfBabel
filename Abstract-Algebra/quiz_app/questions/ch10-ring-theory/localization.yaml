@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Having a unique maximal ideal PR_P
+- Being a field
+- Being isomorphic to R/P
+- Having characteristic p
+difficulty: advanced
+explanation: R_P is a local ring with unique maximal ideal P·R_P. Localization inverts
+  elements outside P, making P the 'only prime that survives.' This is the algebraic
+  analogue of looking at a variety near a point.
+kind: mc
+tags:
+- localization
+- ring-theory
+text: 'The localization of a ring R at a multiplicative subset S is the ring S⁻¹R.
+  For a prime ideal P, the localization R_P = (R\P)⁻¹R is characterized by:'

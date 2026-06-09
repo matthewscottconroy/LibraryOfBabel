@@ -1,0 +1,8 @@
+kind: tf
+difficulty: intermediate
+text: If M is projective, then Ext^n(M, N) = 0 for all n ≥ 1.
+explanation: Projective modules have projective resolutions of length 0, so higher Ext groups vanish.
+tags:
+- ext
+- projective-modules
+answer: true

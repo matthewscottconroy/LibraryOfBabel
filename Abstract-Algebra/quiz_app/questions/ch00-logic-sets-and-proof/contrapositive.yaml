@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- If ¬Q then ¬P
+- If ¬P then ¬Q
+- If Q then P
+- ¬P or ¬Q
+difficulty: beginner
+explanation: The contrapositive of P → Q is ¬Q → ¬P, which is logically equivalent
+  to the original. Proof by contrapositive assumes ¬Q and derives ¬P.
+kind: mc
+tags:
+- logic
+- proof
+text: 'The contrapositive of ''If P then Q'' is logically equivalent to:'

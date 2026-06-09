@@ -1,0 +1,12 @@
+kind: mc
+difficulty: beginner
+text: 'An equivalence relation must satisfy reflexivity, symmetry, and:'
+explanation: Equivalence = reflexive + symmetric + transitive. Antisymmetry would make it a partial order.
+tags:
+- relations
+choices:
+- transitivity
+- antisymmetry
+- totality
+- trichotomy
+answer: 0

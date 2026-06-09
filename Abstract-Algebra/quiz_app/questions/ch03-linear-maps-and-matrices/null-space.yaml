@@ -1,0 +1,11 @@
+choices:
+- kernel
+difficulty: beginner
+explanation: 'The kernel measures how far T is from being injective: T is injective
+  iff ker T = {0}. The rank–nullity theorem: dim V = dim(ker T) + dim(im T).'
+kind: blank
+tags:
+- linear-maps
+- kernel
+text: 'The ___ (or null space) of a linear map T: V → W is the set ker T = {v ∈ V
+  : T(v) = 0}, which is a subspace of V.'

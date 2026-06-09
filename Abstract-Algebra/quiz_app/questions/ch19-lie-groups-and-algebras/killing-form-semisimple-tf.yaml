@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: "For a semisimple Lie algebra g over ℂ, the Killing form B(X,Y) = Tr(ad X ∘ ad Y) is nondegenerate."
+answer: true
+explanation: "This is precisely one direction of Cartan's criterion: g is semisimple if and only if its Killing form is nondegenerate. The nondegeneracy means the map g → g* given by X ↦ B(X,−) is an isomorphism, which is used extensively in the structure theory of semisimple Lie algebras, including the construction of the Cartan-Weyl basis and root systems."
+tags:
+  - killing-form
+  - semisimple
+  - cartan-criterion

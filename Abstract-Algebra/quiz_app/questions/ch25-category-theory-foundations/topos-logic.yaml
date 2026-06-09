@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Higher-order intuitionistic logic
+- Classical first-order logic
+- Linear logic
+- Propositional logic only
+difficulty: advanced
+explanation: 'Every topos has an internal logic that is higher-order intuitionistic:
+  the subobject classifier Ω carries the structure of a Heyting algebra, not a Boolean
+  algebra. Classical logic corresponds to Boolean toposes (e.g. Set).'
+kind: mc
+tags:
+- topos
+- internal-logic
+text: 'The internal logic of a (Grothendieck) topos is:'

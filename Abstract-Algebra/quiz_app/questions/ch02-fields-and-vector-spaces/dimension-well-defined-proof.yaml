@@ -1,0 +1,23 @@
+kind: proof
+difficulty: intermediate
+text: "Any two bases of a finite-dimensional vector space V have the same cardinality."
+proof_lines:
+  - "Let B = {b₁, ..., bₙ} and C = {c₁, ..., cₘ} be two bases of V."
+  - "Since B spans V and C is linearly independent, by the ___ Lemma, m ≤ n."
+  - "By the same argument with the roles of B and C swapped, n ≤ ___."
+  - "Therefore m = n, and the dimension of V is well-defined."
+fills:
+  - "Steinitz Exchange"
+  - "m"
+explanation: >
+  The Steinitz Exchange Lemma states: if a set of m linearly independent vectors lies
+  in the span of n vectors, then m ≤ n. Applying it with C independent and B spanning
+  gives m ≤ n. Reversing the roles — B independent, C spanning — gives n ≤ m.
+  Together these force m = n. The fill 'Steinitz Exchange' names the key lemma;
+  the fill 'm' completes the symmetric inequality that pins down equality.
+tags:
+  - dimension
+  - basis
+  - steinitz-exchange
+  - proof
+  - vector-spaces

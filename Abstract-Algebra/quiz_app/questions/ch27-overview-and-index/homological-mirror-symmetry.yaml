@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- The derived category of coherent sheaves on X and the Fukaya category of the mirror
+  X̌
+- The cohomology of X and the K-theory of X̌
+- The topological field theory of X and that of X̌
+- The Gromov–Witten invariants of X and the period integrals of X̌
+difficulty: advanced
+explanation: 'HMS: D^b(Coh(X)) ≃ D^b(Fuk(X̌)) as A_∞-categories, where Fuk is the
+  Fukaya category (symplectic invariant). This bridges algebraic geometry and symplectic
+  topology via the string-theoretic mirror symmetry between Calabi–Yau manifolds.'
+kind: mc
+tags:
+- mirror-symmetry
+- Fukaya-category
+text: 'Kontsevich''s homological mirror symmetry conjecture proposes an equivalence
+  between:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A direct sum of invariant subspaces ker(qᵢ(A)^{nᵢ})
+- A product of eigenspaces
+- A sum of cyclic subspaces
+- An orthogonal direct sum
+difficulty: advanced
+explanation: 'The primary decomposition (rational form theory): V = ⊕ᵢ ker(qᵢ(A)^{nᵢ}).
+  Each summand is A-invariant, and A restricted to each is a power of the irreducible
+  qᵢ. Over algebraically closed fields, each qᵢ is (λ − λᵢ), recovering Jordan form.'
+kind: mc
+tags:
+- canonical-forms
+- primary-decomposition
+text: 'The Primary Decomposition Theorem states that if p_A(λ) = ∏ qᵢ(λ)^{nᵢ} with
+  qᵢ distinct irreducible factors, then V decomposes as:'

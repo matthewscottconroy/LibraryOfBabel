@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- When H ≅ K
+- Always
+- Only when G is trivial
+- When |H| = |K|
+difficulty: intermediate
+explanation: G × H ≅ G × K iff H ≅ K (for finite groups). Cancellation holds in the
+  category of finite abelian groups but can fail for non-abelian groups.
+kind: mc
+tags:
+- direct-products
+- group-theory
+text: The direct product G × H has order |G||H|. When are G × H and G × K isomorphic
+  as groups (assuming finite)?

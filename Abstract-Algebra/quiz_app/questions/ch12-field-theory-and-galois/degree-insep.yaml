@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- '[L:K] = [L:K]_s · [L:K]_i'
+- '[L:K] = [L:K]_s + [L:K]_i'
+- '[L:K]_i = 1 always'
+- '[L:K] = [L:K]_i²'
+difficulty: advanced
+explanation: '[L:K] = [L:K]_s · [L:K]_i (multiplicativity of degrees, separable ×
+  inseparable). The inseparable degree is 1 iff L/K is separable. For purely inseparable
+  extensions, [L:K]_s = 1 and [L:K] = [L:K]_i = p^m.'
+kind: mc
+tags:
+- field-extensions
+- inseparable
+text: 'For a finite extension L/K with separable closure L_s, the inseparable degree
+  [L:K]_i = [L:L_s] is a power of char K. The total degree satisfies:'

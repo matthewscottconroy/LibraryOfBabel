@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- It allows defining the Lie algebra over ℤ and hence over any field
+- It diagonalises the Killing form
+- It gives a basis of eigenvectors for ad H
+- It shows 𝔤 is abelian
+difficulty: advanced
+explanation: A Chevalley basis has all structure constants in ℤ, enabling a ℤ-form
+  of 𝔤. Reducing mod p gives the corresponding Lie algebra over 𝔽_p, fundamental in
+  the classification and representation theory of reductive groups over finite fields.
+kind: mc
+tags:
+- chevalley-basis
+- algebraic-groups
+text: 'A Chevalley basis of a complex semisimple Lie algebra consists of elements
+  {Hα, Xα, X_{-α}} satisfying integral structure constants. Its significance is:'

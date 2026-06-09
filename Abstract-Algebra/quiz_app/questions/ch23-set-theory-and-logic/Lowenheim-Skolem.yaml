@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Models of every infinite cardinality
+- A unique countable model
+- Only models of the same cardinality
+- No uncountable models
+difficulty: intermediate
+explanation: By the upward Löwenheim–Skolem theorem, a theory with an infinite model
+  has models of all larger cardinalities. By the downward direction, it has a countable
+  model. This shows first-order theories cannot pin down cardinality.
+kind: mc
+tags:
+- Lowenheim-Skolem
+- model-theory
+text: 'The Löwenheim–Skolem theorem implies that a consistent first-order theory with
+  an infinite model has:'

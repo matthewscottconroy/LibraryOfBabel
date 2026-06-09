@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: "Every Lie group homomorphism φ: G → H induces a Lie algebra homomorphism dφ_e: g → h."
+answer: true
+explanation: "The differential at the identity dφ_e: T_e G → T_e H is a linear map between the Lie algebras g and h. It is a Lie algebra homomorphism because φ intertwines the adjoint actions: φ(exp(tX)) = exp(t · dφ_e(X)), and differentiating the identity φ(ghg⁻¹h⁻¹) = φ(g)φ(h)φ(g)⁻¹φ(h)⁻¹ at the identity yields dφ_e([X,Y]) = [dφ_e(X), dφ_e(Y)]."
+tags:
+  - lie-group-homomorphism
+  - lie-algebra-morphism
+  - differential

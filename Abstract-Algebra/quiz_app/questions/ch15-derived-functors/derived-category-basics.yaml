@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Inverting all quasi-isomorphisms
+- Taking the full subcategory of exact complexes
+- Applying the localization at projective objects
+- Passing to the homotopy category K(A)
+difficulty: advanced
+explanation: 'D(A) = K(A)[qis⁻¹]: the homotopy category K(A) (chain complexes mod
+  chain homotopy) with quasi-isomorphisms (maps inducing isomorphisms on all homology)
+  formally inverted. Objects are chain complexes; morphisms are ''roofs''.'
+kind: mc
+tags:
+- derived-categories
+- category-theory
+text: 'The derived category D(A) of an abelian category A is constructed from the
+  category of chain complexes by:'

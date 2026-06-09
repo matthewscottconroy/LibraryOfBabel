@@ -1,0 +1,8 @@
+kind: tf
+difficulty: intermediate
+text: "The tensor product of two projective R-modules is projective."
+answer: true
+explanation: "If P and Q are projective R-modules, write P ⊕ P' ≅ F and Q ⊕ Q' ≅ G for free modules F, G. Then (P ⊗ Q) ⊕ (P ⊗ Q') ⊕ (P' ⊗ Q) ⊕ (P' ⊗ Q') ≅ F ⊗ G, and a tensor product of free modules is free. Hence P ⊗ Q is a direct summand of a free module and therefore projective."
+tags:
+  - projective-modules
+  - tensor-product

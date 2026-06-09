@@ -1,0 +1,16 @@
+answer: 3
+choices:
+- The Killing form B is non-degenerate
+- g has no abelian ideals
+- g = [g, g]
+- All of the above are equivalent
+difficulty: intermediate
+explanation: 'All three conditions are equivalent characterizations of semisimplicity:
+  non-degenerate Killing form, no non-zero abelian ideals, and g = [g,g]. Each implies
+  the others in characteristic 0.'
+kind: mc
+tags:
+- Cartan-criterion
+- semisimple
+text: 'By Cartan''s criterion, a Lie algebra g (over a field of characteristic 0)
+  is semisimple if and only if:'

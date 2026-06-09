@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- v = Σ ⟨v,eᵢ⟩ eᵢ
+- v = Σ ‖v‖ eᵢ
+- v = Σ eᵢ/⟨v,eᵢ⟩
+- v = Σ ⟨eᵢ,v⟩ / ‖v‖ eᵢ
+difficulty: beginner
+explanation: 'For an ONB, the coordinates are simply the inner products: v = Σᵢ ⟨v,eᵢ⟩
+  eᵢ. This is Parseval''s / Bessel''s identity when combined with the norm: ‖v‖² =
+  Σ |⟨v,eᵢ⟩|².'
+kind: mc
+tags:
+- inner-products
+- orthonormal-basis
+text: 'An orthonormal basis {e₁,…,eₙ} satisfies ⟨eᵢ,eⱼ⟩ = δᵢⱼ. For any vector v, the
+  coordinate expansion is:'

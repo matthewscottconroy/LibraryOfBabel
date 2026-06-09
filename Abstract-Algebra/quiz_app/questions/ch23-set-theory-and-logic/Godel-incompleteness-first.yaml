@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Is sufficiently strong and recursively axiomatizable contains a true but unprovable
+  sentence
+- Is complete contains a contradiction
+- Proves all arithmetic is inconsistent
+- Has infinitely many axioms is complete
+difficulty: intermediate
+explanation: 'Gödel''s first incompleteness theorem: any consistent, recursively axiomatizable
+  formal system strong enough to express basic arithmetic is incomplete — there exists
+  a sentence φ (the Gödel sentence) that is true but not provable in T.'
+kind: mc
+tags:
+- Godel-incompleteness
+- formal-system
+text: 'Gödel''s first incompleteness theorem states that any consistent formal system
+  T that:'

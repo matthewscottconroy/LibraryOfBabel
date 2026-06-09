@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- (0,2)-tensor field
+- (2,0)-tensor field
+- (1,1)-tensor field
+- Scalar field
+difficulty: intermediate
+explanation: 'The metric g is a symmetric (0,2)-tensor field: g_x: T_xM × T_xM → ℝ.
+  The Riemann curvature tensor is (1,3). The stress-energy tensor in GR is (2,0) (or
+  (0,2) after lowering indices with g).'
+kind: mc
+tags:
+- tensors
+- manifolds
+text: 'A (p,q)-tensor field on a smooth manifold M assigns to each point x ∈ M a (p,q)-tensor
+  T_x ∈ T_xM^{⊗p} ⊗ T_x*M^{⊗q} smoothly. The metric tensor g is a:'

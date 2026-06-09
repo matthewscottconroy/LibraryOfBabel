@@ -1,0 +1,9 @@
+kind: tf
+difficulty: beginner
+text: "The zero vector is an element of every subspace of a vector space."
+answer: true
+explanation: "One of the axioms for a subspace W ⊆ V is that W is non-empty and closed under scalar multiplication. Taking any w ∈ W and multiplying by the scalar 0 gives 0·w = 0 ∈ W. Alternatively, the subspace axioms require W to be a vector space in its own right, so it must contain an additive identity, which is the zero vector of V."
+tags:
+  - subspaces
+  - zero-vector
+  - vector-spaces

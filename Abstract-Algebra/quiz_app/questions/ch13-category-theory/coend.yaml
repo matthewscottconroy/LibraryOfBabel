@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- ∫^{r ∈ R} M(r) ⊗ N(r) (coend over the one-object category R)
+- ∫_{r} M(r) × N(r)
+- ∫^r Hom(M,N)(r)
+- A limit over R
+difficulty: advanced
+explanation: Coends generalise colimits by allowing 'twisting'. The tensor product
+  M ⊗_R N = ∫^r M(r) ⊗ N(r) as a coend over the R-R bimodule viewpoint. Coends appear
+  in Day convolution, Kan extensions, and string diagram calculus.
+kind: mc
+tags:
+- coend
+- category-theory
+text: 'The coend ∫^{c ∈ C} F(c,c) of a bifunctor F: C^{op} × C → D is the colimit
+  over the ''twisted arrow category''. The tensor product M ⊗_R N (for R-bimodules)
+  can be expressed as a coend:'

@@ -1,0 +1,13 @@
+kind: mc
+difficulty: beginner
+text: 'In ZFC set theory, the Axiom of Foundation (Regularity) rules out:'
+explanation: 'Regularity: every nonempty set A has an element a with a ∩ A = ∅. This prevents A ∈ A.'
+tags:
+- ZFC
+- foundation
+choices:
+- sets that are members of themselves
+- infinite sets
+- uncountable sets
+- the empty set
+answer: 0

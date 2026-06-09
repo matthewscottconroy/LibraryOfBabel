@@ -1,0 +1,13 @@
+[package]
+name    = "visualizer"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "visualizer"
+path = "src/main.rs"
+
+[dependencies]
+common = { workspace = true }
+image  = { workspace = true }
+resvg  = "0.44"

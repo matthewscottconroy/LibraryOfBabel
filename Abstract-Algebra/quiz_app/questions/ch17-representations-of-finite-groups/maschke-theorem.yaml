@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- char(k) does not divide |G|
+- k is algebraically closed
+- G is abelian
+- G is a p-group
+difficulty: beginner
+explanation: 'Maschke''s theorem: if char(k) ∤ |G|, every representation decomposes
+  as a direct sum of irreducibles. The key is that averaging over the group (dividing
+  by |G|) works when |G| ≠ 0 in k.'
+kind: mc
+tags:
+- Maschke
+- complete-reducibility
+text: 'Maschke''s theorem states that every representation of a finite group G over
+  a field k is completely reducible provided:'

@@ -1,0 +1,12 @@
+kind: tf
+difficulty: intermediate
+text: "In the Cauchy-Schwarz inequality, |⟨u, v⟩| = ‖u‖·‖v‖ holds if and only if u and v are linearly dependent."
+answer: true
+explanation: >
+  Equality |⟨u,v⟩| = ‖u‖·‖v‖ holds iff ‖u - tv‖ = 0 for the optimal scalar t = ⟨u,v⟩/‖v‖²
+  (or t = 0 when v = 0), i.e. iff u = tv for some scalar t. This is precisely the condition
+  that u and v are linearly dependent (one is a scalar multiple of the other, or one is zero).
+  Geometrically, equality means u and v point in the same or opposite directions.
+tags:
+  - cauchy-schwarz
+  - inner-products

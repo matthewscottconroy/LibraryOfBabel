@@ -1,0 +1,25 @@
+kind: proof
+difficulty: advanced
+text: "First Orthogonality Relation: For irreducible complex representations Vᵢ and Vⱼ of a finite group G with characters χᵢ and χⱼ, we have ⟨χᵢ, χⱼ⟩ = δᵢⱼ."
+proof_lines:
+  - "Define the inner product ⟨χ, ψ⟩ = (1/|G|) Σ_{g∈G} χ(g) ψ̄(g). We must show this equals δᵢⱼ for irreducible characters."
+  - "For any representations V and W, form the averaging operator P = (1/|G|) Σ_{g∈G} ρ_W(g) ∘ A ∘ ρ_V(g)⁻¹ for a linear map A: V → W. Then P is ___."
+  - "By Schur's lemma, if V ≅ W are both isomorphic to an irreducible Vᵢ, then P = λ·id for some scalar λ. Taking traces: Tr(P) = λ·dim(Vᵢ). Since Tr(P) = (1/|G|) Σ_g Tr(ρ(g) ∘ A ∘ ρ(g)⁻¹) = ___, we get λ = Tr(A)/dim(Vᵢ)."
+  - "Choosing A to be a rank-1 projection and summing over a basis, one deduces that (1/|G|) Σ_g χᵢ(g) χᵢ(g)⁻¹ = 1, i.e., ⟨χᵢ, χᵢ⟩ = ___."
+  - "If V ≇ W, Schur's lemma gives P = 0 for every A: V → W, so (1/|G|) Σ_g ρ_W(g)_{kl} ρ_V(g⁻¹)_{mn} = 0 for all matrix entries, yielding ⟨χᵢ, χⱼ⟩ = ___."
+fills:
+  - "G-equivariant"
+  - "Tr(A)"
+  - "1"
+  - "0"
+explanation: >
+  The averaging operator P is G-equivariant by construction (the averaging trick). Schur's lemma
+  then constrains P to be 0 or scalar depending on whether V and W are isomorphic. The second blank
+  uses the fact that conjugation by ρ(g) is a similarity transformation, so Tr(ρ(g) A ρ(g)⁻¹) = Tr(A).
+  The third and fourth blanks record the two cases: ⟨χᵢ, χᵢ⟩ = 1 (irreducible characters are
+  unit vectors) and ⟨χᵢ, χⱼ⟩ = 0 for i ≠ j (distinct irreducible characters are orthogonal).
+tags:
+  - character-orthogonality
+  - inner-product
+  - schur-lemma
+  - proof

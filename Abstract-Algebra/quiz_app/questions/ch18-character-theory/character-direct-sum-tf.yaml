@@ -1,0 +1,9 @@
+kind: tf
+difficulty: beginner
+text: "The character of a direct sum of representations equals the sum of the individual characters: χ_{V⊕W}(g) = χ_V(g) + χ_W(g)."
+answer: true
+explanation: "With respect to a basis that is the union of bases for V and W, the matrix of g acting on V ⊕ W is block diagonal with ρ_V(g) and ρ_W(g) as blocks. The trace of a block diagonal matrix is the sum of the traces of the blocks, giving χ_{V⊕W}(g) = Tr(ρ_V(g)) + Tr(ρ_W(g)) = χ_V(g) + χ_W(g)."
+tags:
+  - character
+  - direct-sum
+  - trace

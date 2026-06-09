@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- (ℤ, ×) (integers under multiplication)
+- (ℤ, +)
+- (ℚ\{0}, ×)
+- (ℤ/nℤ, +)
+difficulty: beginner
+explanation: '(ℤ,×) fails: most integers have no multiplicative inverse in ℤ (e.g.,
+  2 has no integer inverse). (ℤ,+), (ℚ\{0},×), and (ℤ/nℤ,+) are all groups.'
+kind: mc
+tags:
+- group-theory
+- axioms
+text: The four group axioms are closure, associativity, identity, and inverses. Which
+  of the following is NOT a group?

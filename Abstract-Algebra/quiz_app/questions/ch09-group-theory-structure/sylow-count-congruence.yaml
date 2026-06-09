@@ -1,0 +1,15 @@
+kind: blank
+difficulty: intermediate
+text: "By Sylow's third theorem, the number nₚ of Sylow p-subgroups of G divides |G|/p^k and is congruent to ___ mod p."
+choices:
+  - "1"
+  - "one"
+explanation: >
+  Sylow's third theorem states nₚ ≡ 1 (mod p) and nₚ divides the index m = |G|/p^k
+  (where p^k is the full p-part of |G|). The congruence nₚ ≡ 1 (mod p) is proved by
+  having a Sylow p-subgroup P act on the set of all Sylow p-subgroups by conjugation;
+  the only fixed point is P itself.
+tags:
+  - sylow-theorems
+  - p-group
+  - group-theory

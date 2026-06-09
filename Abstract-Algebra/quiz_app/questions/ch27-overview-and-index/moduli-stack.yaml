@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Objects with non-trivial automorphisms (groupoid-valued functors)
+- Singular spaces
+- Non-algebraic objects
+- Infinitely many components
+difficulty: advanced
+explanation: 'A stack is a sheaf of groupoids on the category of schemes: objects
+  may have non-trivial automorphisms. This is essential for moduli problems where
+  objects have symmetries (e.g., moduli of elliptic curves ℳ_{1,1} has ℤ/2 or larger
+  automorphism groups).'
+kind: mc
+tags:
+- algebraic-stack
+- moduli
+text: 'Algebraic stacks (Artin stacks) generalize algebraic spaces by allowing:'

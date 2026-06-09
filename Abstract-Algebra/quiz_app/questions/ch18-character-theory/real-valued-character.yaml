@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Every representation affording χ is self-dual (isomorphic to its dual)
+- G is an abelian group
+- χ has Frobenius–Schur indicator equal to 1
+- χ is the trivial character
+difficulty: intermediate
+explanation: χ is real-valued iff χ = χ̄, which happens iff V ≅ V* as representations.
+  This includes orthogonal representations (Frobenius–Schur indicator +1) and symplectic
+  ones (indicator −1).
+kind: mc
+tags:
+- real-valued-character
+- self-dual
+text: 'A character χ is real-valued if and only if:'

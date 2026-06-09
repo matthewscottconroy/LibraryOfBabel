@@ -1,0 +1,11 @@
+answer: true
+difficulty: intermediate
+explanation: 'Weyl''s complete reducibility theorem: for semisimple g over char 0,
+  every finite-dimensional representation decomposes as a direct sum of irreducibles.
+  This fails in positive characteristic (modular representations).'
+kind: tf
+tags:
+- complete-reducibility
+- Weyl-theorem
+text: Every finite-dimensional representation of a semisimple Lie algebra over ℂ is
+  completely reducible.

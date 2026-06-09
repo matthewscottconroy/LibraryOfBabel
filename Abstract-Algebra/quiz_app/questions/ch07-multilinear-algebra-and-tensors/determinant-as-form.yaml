@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- An alternating n-linear form on V
+- A symmetric bilinear form on V
+- A covariant 2-tensor
+- A contravariant n-tensor
+difficulty: intermediate
+explanation: det is the unique (up to scalar) alternating n-linear form on an n-dimensional
+  space. It is an element of (Λⁿ V)* ≅ Λⁿ(V*). This connects determinant theory with
+  exterior algebra.
+kind: mc
+tags:
+- exterior-algebra
+- determinants
+text: 'The determinant of an n×n matrix can be viewed as an element of Λⁿ(V*) ⊗ ⋯
+  because it is:'

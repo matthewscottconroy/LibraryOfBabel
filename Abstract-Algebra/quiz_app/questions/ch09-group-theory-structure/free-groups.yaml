@@ -1,0 +1,14 @@
+kind: mc
+difficulty: advanced
+text: 'A free group on a set S has the universal property that any function S → G into a group G extends
+  to:'
+explanation: 'Free groups satisfy the universal property for group homomorphisms: maps on generators extend
+  uniquely.'
+tags:
+- free-groups
+choices:
+- a unique group homomorphism
+- a surjective homomorphism
+- an injective homomorphism
+- an isomorphism
+answer: 0

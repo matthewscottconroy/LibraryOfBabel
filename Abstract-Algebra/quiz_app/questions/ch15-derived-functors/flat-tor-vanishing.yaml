@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- 0 for all n ≥ 1
+- 0 for all n ≥ 2
+- N for n = 0 and 0 for n ≥ 1
+- Depends on N
+difficulty: intermediate
+explanation: M is flat if and only if Tor_n^R(M,N) = 0 for all n ≥ 1 and all N. Flatness
+  characterizes exactly those modules for which tensoring is exact.
+kind: mc
+tags:
+- flat-module
+- Tor
+text: 'If M is a flat R-module then Tor_n^R(M, N) equals:'

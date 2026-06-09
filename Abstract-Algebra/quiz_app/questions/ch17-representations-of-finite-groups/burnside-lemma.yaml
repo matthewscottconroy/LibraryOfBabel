@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- (1/|G|) ∑_{g ∈ G} |Fix(g)|
+- '|X|/|G|'
+- '|G|/|X|'
+- ∑_{x ∈ X} 1/|Stab(x)|
+difficulty: intermediate
+explanation: 'Burnside''s lemma: #(orbits) = (1/|G|) ∑_{g∈G} |X^g| where X^g is the
+  set of points fixed by g. It is a direct consequence of double-counting pairs (g,x)
+  with g·x = x.'
+kind: mc
+tags:
+- Burnside-lemma
+- orbits
+text: 'Burnside''s lemma states that the number of orbits of G acting on X equals:'

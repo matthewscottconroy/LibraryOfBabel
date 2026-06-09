@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- C_G(F(G)) ≤ F(G) (the centralizer of F(G) is contained in F(G) itself)
+- F(G) = G
+- F(G) = Z(G)
+- F(G) is always abelian
+difficulty: advanced
+explanation: 'The Fitting subgroup controls the structure of solvable groups: C_G(F(G))
+  ≤ F(G). This means F(G) ''sees'' everything in solvable groups — a key result toward
+  the classification framework. For non-solvable groups, one uses the generalized
+  Fitting subgroup F*(G).'
+kind: mc
+tags:
+- fitting-subgroup
+- solvable-groups
+text: 'The Fitting subgroup F(G) of a finite group G is the largest normal nilpotent
+  subgroup. For a finite solvable group G:'

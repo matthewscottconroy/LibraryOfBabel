@@ -1,0 +1,14 @@
+kind: mc
+difficulty: intermediate
+text: 'In a representation of a semisimple Lie algebra, a highest weight vector v is one that is annihilated
+  by:'
+explanation: 'Highest weight: e_α·v = 0 for all positive roots α, and h·v = λ(h)v for h ∈ h.'
+tags:
+- highest-weight
+- representations
+choices:
+- all positive root spaces e_α
+- all negative root spaces f_α
+- the Cartan subalgebra h
+- the whole Lie algebra
+answer: 0

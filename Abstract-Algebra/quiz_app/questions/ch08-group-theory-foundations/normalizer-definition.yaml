@@ -1,0 +1,15 @@
+kind: blank
+difficulty: intermediate
+text: "The normalizer N_G(H) is the largest subgroup of G in which H is ___."
+choices:
+  - "normal"
+  - "a normal subgroup"
+explanation: >
+  N_G(H) = {g ∈ G | gHg⁻¹ = H} is the set of elements that conjugate H to itself.
+  It is a subgroup of G containing H, and H is normal in N_G(H) by definition.
+  Moreover, N_G(H) is the largest such subgroup: any subgroup K in which H is normal
+  must satisfy K ⊆ N_G(H).
+tags:
+  - normalizer
+  - normal-subgroups
+  - group-theory

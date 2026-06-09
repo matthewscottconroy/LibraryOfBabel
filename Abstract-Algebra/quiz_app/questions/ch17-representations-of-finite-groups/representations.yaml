@@ -1,0 +1,12 @@
+kind: mc
+difficulty: beginner
+text: 'A representation of a group G on a vector space V is a group homomorphism:'
+explanation: 'A representation is ρ: G → GL(V), assigning an invertible linear map to each group element.'
+tags:
+- representations
+choices:
+- G → GL(V)
+- G → Aut(G)
+- V → G
+- G → End(V) (not required to be a group hom)
+answer: 0

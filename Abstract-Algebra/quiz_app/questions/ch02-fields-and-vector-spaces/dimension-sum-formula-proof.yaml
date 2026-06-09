@@ -1,0 +1,24 @@
+kind: proof
+difficulty: intermediate
+text: "Dimension Formula: For subspaces U and W of a finite-dimensional vector space V, dim(U+W) = dim(U) + dim(W) - dim(U∩W)."
+proof_lines:
+  - "Let {e₁, ..., eₖ} be a basis of U∩W, extended to a basis {e₁,...,eₖ, u₁,...,uₚ} of U and to {e₁,...,eₖ, w₁,...,wᵧ} of W."
+  - "Then dim(U) = k+p, dim(W) = k+q, and dim(U∩W) = ___."
+  - "The combined set {e₁,...,eₖ, u₁,...,uₚ, w₁,...,wᵧ} spans U+W and is ___."
+  - "Thus dim(U+W) = k+p+q = (k+p) + (k+q) - k = dim(U) + dim(W) - dim(U∩W)."
+fills:
+  - "k"
+  - "linearly independent"
+explanation: >
+  Starting from a basis of the intersection and extending separately into U and W
+  is the key structural move. The fill 'k' counts the basis vectors of U∩W directly.
+  Proving linear independence of the combined set requires showing that any linear
+  relation forces the uᵢ-coefficients and wⱼ-coefficients to be zero (using the
+  fact that any linear combination of eᵢ and uᵢ in W must lie in U∩W). The fill
+  'linearly independent' confirms the combined set is a basis, giving the dimension count.
+tags:
+  - dimension
+  - subspaces
+  - dimension-formula
+  - proof
+  - vector-spaces

@@ -1,0 +1,12 @@
+choices:
+- subrepresentation
+- G-invariant subspace
+difficulty: intermediate
+explanation: 'A subrepresentation W is a G-stable subspace; it defines a representation
+  ρ|_W: G → GL(W). An irreducible representation has no proper non-zero subrepresentations.'
+kind: blank
+tags:
+- representations
+- subrepresentation
+text: 'A ___ of a representation (V, ρ) is a subspace W ⊆ V stable under the action
+  of G: ρ(g)(W) ⊆ W for all g ∈ G.'

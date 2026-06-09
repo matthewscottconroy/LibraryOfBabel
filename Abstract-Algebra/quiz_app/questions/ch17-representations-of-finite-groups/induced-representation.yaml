@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- '[G:H] · dim(W)'
+- '|G| · dim(W)'
+- '|H| · dim(W)'
+- dim(W)
+difficulty: intermediate
+explanation: Ind_H^G(W) = ℂ[G] ⊗_{ℂ[H]} W has dimension [G:H] · dim(W). It is constructed
+  by 'spreading' W across all cosets of H in G.
+kind: mc
+tags:
+- induced-representation
+- dimension
+text: 'The induced representation Ind_H^G(W) for W a representation of H ≤ G has dimension:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Subgroups of Gal(L/K) and intermediate fields K ⊆ F ⊆ L
+- Normal subgroups of Gal(L/K) and all ideals of K
+- Subfields of K and quotients of L
+- Automorphisms of L and elements of K
+difficulty: advanced
+explanation: 'FTGT: for a finite Galois extension L/K, H ↦ L^H (fixed field) and F
+  ↦ Gal(L/F) are inverse bijections between subgroups and intermediate fields. H is
+  normal ↔ L^H/K is Galois.'
+kind: mc
+tags:
+- galois-theory
+- fundamental-theorem
+text: 'The Fundamental Theorem of Galois Theory establishes an inclusion-reversing
+  bijection between:'

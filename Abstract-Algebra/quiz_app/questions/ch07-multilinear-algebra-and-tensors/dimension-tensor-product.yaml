@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- mn
+- m + n
+- max(m, n)
+- min(m, n)
+difficulty: beginner
+explanation: 'dim(V ⊗ W) = (dim V)(dim W). A basis of V ⊗ W is {eᵢ ⊗ fⱼ : 1 ≤ i ≤
+  m, 1 ≤ j ≤ n}, giving mn basis elements.'
+kind: mc
+tags:
+- tensor-products
+- dimension
+text: If dim V = m and dim W = n (both finite), then dim(V ⊗ W) =

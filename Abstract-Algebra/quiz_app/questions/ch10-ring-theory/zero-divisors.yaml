@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- No zero divisors
+- Only prime zero divisors
+- Zero divisors forming an ideal
+- No invertible elements
+difficulty: beginner
+explanation: 'An integral domain R is a non-zero commutative ring with no zero divisors:
+  ab = 0 ⟹ a = 0 or b = 0. This cancellation law makes R behave like ℤ. Every field
+  is an integral domain; every finite integral domain is a field.'
+kind: mc
+tags:
+- integral-domain
+- zero-divisors
+text: 'An element a ≠ 0 in a ring R is a zero divisor if there exists b ≠ 0 with ab
+  = 0. An integral domain is a commutative ring with unity that has:'

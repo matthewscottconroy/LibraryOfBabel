@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- E₂^{p,q} = H^p(Y, R^q f_* ℱ) ⇒ H^{p+q}(X, ℱ)
+- E₂^{p,q} = H^p(X, ℱ) ⊗ H^q(Y, ℱ)
+- E₂^{p,q} = H^{p+q}(Y, ℱ)
+- E₂^{p,q} = H^p(X, f^* ℱ)
+difficulty: advanced
+explanation: 'Leray SS: E₂^{p,q} = H^p(Y; R^q f_* ℱ) ⇒ H^{p+q}(X;ℱ). The higher direct
+  images R^q f_* ℱ are the sheaves on Y whose stalks are H^q(f⁻¹(y), ℱ). When Y =
+  point, this reduces to the hypercohomology spectral sequence.'
+kind: mc
+tags:
+- leray-spectral-sequence
+- sheaf-cohomology
+text: 'Leray introduced spectral sequences to compute sheaf cohomology using a filtration
+  by open covers. The Leray spectral sequence for a map f: X → Y and sheaf ℱ on X
+  has E₂ page:'

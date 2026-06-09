@@ -1,0 +1,11 @@
+kind: blank
+difficulty: intermediate
+text: "An adjunction F ⊣ G between categories C and D consists of a natural isomorphism Hom_D(FA, B) ≅ Hom_C(A, ___)."
+choices:
+  - "GB"
+  - "G(B)"
+explanation: "An adjunction F ⊣ G (F left adjoint, G right adjoint) is precisely a natural bijection between morphism sets Hom_D(FA, B) ≅ Hom_C(A, GB), natural in both A ∈ C and B ∈ D. Equivalently, it is given by unit η: id_C → GF and counit ε: FG → id_D satisfying the triangle identities. Examples include the free-forgetful adjunction for groups and the tensor-hom adjunction for modules."
+tags:
+  - adjoint-functors
+  - adjunction
+  - natural-transformation-defn

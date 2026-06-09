@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- All leading principal minors of A are non-zero
+- A is symmetric positive definite
+- A is diagonally dominant
+- A is invertible
+difficulty: intermediate
+explanation: 'LU decomposition: A = LU with L lower triangular (unit diagonal) and
+  U upper triangular exists iff all leading principal submatrices are invertible (det
+  ≠ 0). With row pivoting, PA = LU always exists for non-singular A.'
+kind: mc
+tags:
+- matrices
+- lu-decomposition
+text: 'The LU decomposition of a matrix A = LU expresses A as a product where L is
+  lower triangular and U is upper triangular. It exists (without row swaps) if and
+  only if:'

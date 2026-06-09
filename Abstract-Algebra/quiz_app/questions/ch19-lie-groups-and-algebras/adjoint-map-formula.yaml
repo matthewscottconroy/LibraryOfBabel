@@ -1,0 +1,11 @@
+kind: blank
+difficulty: intermediate
+text: "The adjoint representation ad: g → gl(g) sends X ∈ g to the linear map ___."
+choices:
+  - "Y ↦ [X,Y]"
+  - "ad(X): Y ↦ [X,Y]"
+explanation: "The map ad(X) acts on g by ad(X)(Y) = [X,Y]. This is a representation of g on itself: the map X ↦ ad(X) is a Lie algebra homomorphism g → gl(g) by the Jacobi identity, which is equivalent to ad([X,Y]) = [ad(X), ad(Y)] as endomorphisms of g. For semisimple Lie algebras, the adjoint representation is faithful."
+tags:
+  - adjoint-representation
+  - lie-bracket
+  - lie-algebra

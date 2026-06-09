@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- adj(A) / det(A)
+- det(A) / adj(A)
+- adj(Aᵀ) / det(A)
+- det(Aᵀ) · adj(A)
+difficulty: intermediate
+explanation: A⁻¹ = adj(A)/det(A), where adj(A) is the transpose of the cofactor matrix.
+  This is Cramer's formula for the inverse; it holds whenever det A ≠ 0.
+kind: mc
+tags:
+- determinants
+- adjugate
+- inverse
+text: 'For an invertible matrix A, A⁻¹ equals:'

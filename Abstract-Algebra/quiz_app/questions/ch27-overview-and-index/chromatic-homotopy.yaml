@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- The chromatic filtration via formal group laws and Morava K-theories K(n)
+- The filtration by Postnikov sections
+- The Adams spectral sequence E_2 page
+- Algebraic K-theory of fields
+difficulty: advanced
+explanation: 'Chromatic homotopy theory: stable homotopy groups are organized by chromatic
+  height n, detected by Morava K-theories K(n). Height 0 = rational homotopy, height
+  1 = J-homomorphism and complex K-theory, higher heights govern exotic periodicity.'
+kind: mc
+tags:
+- chromatic-homotopy
+- Morava-K-theory
+text: 'Chromatic homotopy theory organizes stable homotopy theory by:'

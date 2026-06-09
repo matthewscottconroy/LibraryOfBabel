@@ -1,0 +1,12 @@
+choices:
+- projective
+difficulty: intermediate
+explanation: Projective resolutions exist for any module (over any ring) because every
+  module is a quotient of a free module (which is projective). They are used to compute
+  left derived functors like Tor.
+kind: blank
+tags:
+- projective-resolutions
+- homological-algebra
+text: A projective resolution of a module M is an exact sequence ⋯ → P₁ → P₀ → M →
+  0 where each Pᵢ is ___.

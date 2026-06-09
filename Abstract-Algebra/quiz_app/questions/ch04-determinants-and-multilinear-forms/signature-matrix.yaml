@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Congruence transformation A ↦ PᵀAP (P invertible)
+- Similarity A ↦ P⁻¹AP
+- Orthogonal transformation A ↦ PᵀAP with Pᵀ = P⁻¹
+- Scaling A ↦ cA
+difficulty: intermediate
+explanation: 'Sylvester''s law of inertia: congruent matrices (related by A ↦ PᵀAP)
+  have the same signature. The three numbers p,q,r determine the congruence class
+  of A over ℝ. Similarity is a finer equivalence.'
+kind: mc
+tags:
+- bilinear-forms
+- signature
+text: 'A real symmetric matrix A has signature (p,q,r) where p = #{positive eigenvalues},
+  q = #{negative eigenvalues}, r = #{zero eigenvalues}. The signature is a complete
+  invariant under:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Surjective
+- Injective
+- Bijective
+- Monotone
+difficulty: intermediate
+explanation: 'f has a right inverse iff f is surjective: for each b ∈ B, choose g(b)
+  ∈ f⁻¹(b) ≠ ∅ (requires Choice for infinite sets). Dually, f has a left inverse iff
+  f is injective.'
+kind: mc
+tags:
+- functions
+- surjective
+text: 'A function f: A → B has a right inverse (section) g: B → A with f ∘ g = id_B
+  if and only if f is:'

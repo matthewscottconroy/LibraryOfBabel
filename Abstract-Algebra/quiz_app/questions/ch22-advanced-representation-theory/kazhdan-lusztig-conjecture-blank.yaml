@@ -1,0 +1,12 @@
+kind: blank
+difficulty: advanced
+text: "The Kazhdan–Lusztig conjecture (proved by Beilinson–Bernstein and Brylinski–Kashiwara, 1981) states that the multiplicity [M(w·λ) : L(y·λ)] equals the value at q=1 of the Kazhdan–Lusztig polynomial ___, where w·λ = w(λ+ρ)−ρ is the dot action."
+choices:
+  - "P_{y,w}(1)"
+  - "P_{w,y}(1)"
+explanation: >
+  The KL conjecture identifies the Jordan–Hölder multiplicities of Verma modules in terms of KL polynomials P_{y,w}(q) ∈ ℤ[q], where y ≤ w in the Bruhat order on the Weyl group. The proof by Beilinson–Bernstein uses D-module theory (the Riemann–Hilbert correspondence) to translate the problem into one about intersection cohomology of Schubert varieties, where the KL polynomials arise as Poincaré polynomials.
+tags:
+  - kazhdan-lusztig
+  - kazhdan-lusztig-conjecture
+  - blank

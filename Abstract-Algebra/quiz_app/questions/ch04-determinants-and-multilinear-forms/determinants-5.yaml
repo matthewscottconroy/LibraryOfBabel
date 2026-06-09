@@ -1,0 +1,7 @@
+kind: tf
+difficulty: beginner
+text: det(A^T) = det(A) for any square matrix A.
+explanation: Transposing swaps rows and columns but preserves the determinant (follows from column expansion).
+tags:
+- determinants
+answer: true

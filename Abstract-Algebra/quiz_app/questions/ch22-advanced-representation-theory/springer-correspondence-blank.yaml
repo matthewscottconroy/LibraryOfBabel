@@ -1,0 +1,12 @@
+kind: blank
+difficulty: advanced
+text: "The Springer correspondence provides a bijection between irreducible representations of the Weyl group W and pairs (O, L), where O is a ___ orbit in g and L is a local system on O."
+choices:
+  - "nilpotent"
+  - "semisimple"
+explanation: >
+  Springer theory constructs W-representations on the cohomology of Springer fibers B_e = {B ∈ G/B : e ∈ Lie(B)}, where e is a nilpotent element. The top cohomology H^{2d}(B_e) (where d = dim B_e) carries an irreducible W-representation, and varying over nilpotent orbits O with local systems L on O gives the full set of irreducible W-representations. This deep connection between Weyl group representation theory and geometry of nilpotent orbits is a central result in geometric representation theory.
+tags:
+  - springer-theory
+  - nilpotent-orbits
+  - blank

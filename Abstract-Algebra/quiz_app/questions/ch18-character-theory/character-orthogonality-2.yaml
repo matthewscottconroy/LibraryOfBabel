@@ -1,0 +1,13 @@
+kind: mc
+difficulty: advanced
+text: 'The second orthogonality relation for characters states that for g, h ∈ G:'
+explanation: 'Second orthogonality: summing over irreducibles gives |C_G(g)| if g,h are conjugate, else
+  0.'
+tags:
+- character-orthogonality
+choices:
+- Σ_ρ χ_ρ(g)·χ̄_ρ(h) = |C_G(g)|·δ_{[g],[h]}
+- Σ_ρ χ_ρ(g)·χ_ρ(h) = |G|
+- Σ_ρ dim(ρ)² = |G|
+- Σ_ρ χ_ρ(g) = 0 for g≠e
+answer: 0

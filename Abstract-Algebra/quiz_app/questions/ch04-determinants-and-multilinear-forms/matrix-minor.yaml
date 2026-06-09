@@ -1,0 +1,11 @@
+choices:
+- minor
+difficulty: intermediate
+explanation: 'Mᵢⱼ = minor. The cofactor Cᵢⱼ = (−1)^{i+j} Mᵢⱼ. Cofactor expansion along
+  row i: det A = Σⱼ aᵢⱼ Cᵢⱼ. Expansion along any row or column gives the same result.'
+kind: blank
+tags:
+- determinants
+- minor
+text: The (i,j) ___ of a matrix A is the determinant of the (n−1)×(n−1) submatrix
+  obtained by deleting row i and column j.

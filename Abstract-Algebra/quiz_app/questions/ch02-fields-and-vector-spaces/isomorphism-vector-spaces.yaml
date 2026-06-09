@@ -1,0 +1,11 @@
+answer: true
+difficulty: intermediate
+explanation: Dimension completely classifies finite-dimensional vector spaces up to
+  isomorphism over a given field. Any n-dimensional space over F is isomorphic to
+  Fⁿ.
+kind: tf
+tags:
+- vector-spaces
+- isomorphism
+text: Two finite-dimensional vector spaces over the same field are isomorphic if and
+  only if they have the same dimension.

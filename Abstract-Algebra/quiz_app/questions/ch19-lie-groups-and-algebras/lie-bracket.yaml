@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Anti-symmetry [X,Y] = −[Y,X] and the Jacobi identity [[X,Y],Z] + [[Y,Z],X] + [[Z,X],Y]
+  = 0
+- Commutativity [X,Y] = [Y,X]
+- Associativity [[X,Y],Z] = [X,[Y,Z]]
+- Distributivity [X,Y+Z] = [X,Y][X,Z]
+difficulty: beginner
+explanation: 'A Lie algebra has a bilinear bracket satisfying: [X,X] = 0 (⇒ anti-symmetry),
+  and the Jacobi identity. The Lie bracket is generally not associative. For matrix
+  Lie algebras, [X,Y] = XY − YX.'
+kind: mc
+tags:
+- lie-algebras
+- lie-bracket
+text: 'The Lie bracket [X, Y] on a Lie algebra 𝔤 satisfies:'

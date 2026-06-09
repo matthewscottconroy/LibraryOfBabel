@@ -1,0 +1,7 @@
+kind: tf
+difficulty: beginner
+text: The power set P(A) of a set A with n elements contains exactly 2^n elements.
+explanation: 'Each element independently belongs or doesn''t: 2 independent choices → 2^n subsets.'
+tags:
+- sets
+answer: true

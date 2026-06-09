@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- E₂^{p,q} = H^p(B; H^q(F))
+- E₂^{p,q} = H^p(F; H^q(B))
+- E₂^{p,q} = H^{p+q}(E)
+- E₂^{p,q} = H^p(E) ⊗ H^q(F)
+difficulty: advanced
+explanation: 'Serre SS: E₂^{p,q} = H^p(B; H^q(F)) ⇒ H^{p+q}(E) (with local coefficient
+  system). If B is simply connected, E₂^{p,q} = H^p(B) ⊗ H^q(F) and the SS computes
+  H*(E) from H*(B) and H*(F).'
+kind: mc
+tags:
+- serre-spectral-sequence
+- fibrations
+text: 'The Serre spectral sequence for a fibration F → E → B with fiber F has E₂ page:'

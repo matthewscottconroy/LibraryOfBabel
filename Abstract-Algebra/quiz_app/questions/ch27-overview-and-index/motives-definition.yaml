@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Formally adjoining correspondences, Tate twists, and taking a pseudo-abelian envelope
+- Algebraically closing the coefficient field
+- Applying the Weil conjectures
+- Taking the derived category of coherent sheaves
+difficulty: advanced
+explanation: 'Pure motives: start with smooth projective varieties, take Chow correspondences
+  (algebraic cycles on X×Y up to equivalence) as morphisms, invert the Lefschetz motive,
+  and take the pseudo-abelian envelope. The result maps to all Weil cohomology theories.'
+kind: mc
+tags:
+- motives
+- Grothendieck
+text: 'Grothendieck''s theory of motives aims to provide a ''universal cohomology
+  theory'' of algebraic varieties. The category of pure motives is built from varieties
+  by:'

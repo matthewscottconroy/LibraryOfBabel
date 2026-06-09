@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Trivial abelianisation G/[G,G] = {e}
+- Trivial center
+- No normal subgroups
+- Only one conjugacy class
+difficulty: intermediate
+explanation: G = [G,G] iff G/[G,G] is trivial iff the abelianisation is trivial (all
+  homomorphisms to abelian groups are trivial). Every non-abelian simple group is
+  perfect. The free product ℤ/2 * ℤ/3 ≅ PSL(2,ℤ) is not perfect.
+kind: mc
+tags:
+- perfect-groups
+- commutator
+text: 'A group G is perfect if G = [G,G] (equals its own commutator subgroup). The
+  smallest non-abelian simple group A₅ is perfect. A perfect group has:'

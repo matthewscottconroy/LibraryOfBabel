@@ -1,0 +1,11 @@
+kind: tf
+difficulty: beginner
+text: "For any square matrix A, det(Aᵀ) = det(A)."
+answer: true
+explanation: >
+  The Leibniz formula gives det(Aᵀ) = Σ_{σ∈Sₙ} sgn(σ) ∏ᵢ (Aᵀ)_{i,σ(i)} = Σ_{σ} sgn(σ) ∏ᵢ a_{σ(i),i}.
+  Substituting τ = σ⁻¹ and using sgn(σ⁻¹) = sgn(σ) yields exactly det(A).
+  This implies that all row-based properties of det also hold for columns.
+tags:
+  - determinants
+  - transpose

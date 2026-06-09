@@ -1,0 +1,12 @@
+kind: tf
+difficulty: beginner
+text: "For finite-dimensional vector spaces V and W, V⊗W ≅ W⊗V as vector spaces."
+answer: true
+explanation: >
+  The map v⊗w ↦ w⊗v on simple tensors extends by linearity to a well-defined linear isomorphism
+  V⊗W → W⊗V, which is its own inverse. Both spaces have the same dimension mn by the dimension
+  formula. This isomorphism is natural (functorial in V and W), reflecting the symmetric role of
+  the two factors in the universal property of the tensor product.
+tags:
+  - tensor-products
+  - dimension-tensor-product

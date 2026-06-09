@@ -1,0 +1,11 @@
+kind: tf
+difficulty: intermediate
+text: "The rank of sl(n, ℂ) is n − 1."
+answer: true
+explanation: >
+  The rank of a semisimple Lie algebra is the dimension of any Cartan subalgebra. For sl(n, ℂ), the standard Cartan subalgebra consists of traceless diagonal matrices, which has dimension n − 1. Equivalently, the root system of sl(n, ℂ) is of type A_{n-1}, whose rank is n − 1. For example, sl(2, ℂ) has rank 1 and sl(3, ℂ) has rank 2.
+tags:
+  - rank
+  - sln
+  - cartan-subalgebra
+  - tf

@@ -1,0 +1,13 @@
+kind: blank
+difficulty: advanced
+text: "The propositional truncation ‖A‖ of a type A is the ___ proposition that is implied by A: it is the initial proposition receiving a map from A."
+choices:
+  - "least (smallest)"
+  - "largest"
+explanation: >
+  The propositional truncation ‖A‖ (also written ∥A∥ or A_−1) is the universal proposition mapping out of A: there is a map A → ‖A‖, and for any proposition P with a map A → P, there is a unique map ‖A‖ → P. Informally, ‖A‖ "forgets all structure in A except whether it is inhabited." The map A → ‖A‖ shows ‖A‖ is a quotient of A by the relation that makes all elements equal. Propositional truncation is used to define "∃x. P(x)" as ‖Σ(x:A). P(x)‖ in HoTT.
+tags:
+  - propositional-truncation
+  - propositions-types
+  - blank
+  - homotopy-type-theory

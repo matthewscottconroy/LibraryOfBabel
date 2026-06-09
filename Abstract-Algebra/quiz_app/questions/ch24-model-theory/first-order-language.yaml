@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Constant symbols, function symbols, and relation symbols (with arities)
+- Variables only
+- Second-order quantifiers
+- Propositional connectives only
+difficulty: beginner
+explanation: A first-order signature L specifies constant, function, and relation
+  symbols with their arities. Terms are built from constants and function symbols;
+  formulas use relation symbols, equality, connectives (¬,∧,∨,→), and first-order
+  quantifiers (∀,∃).
+kind: mc
+tags:
+- model-theory
+- first-order-logic
+text: 'A first-order language L consists of:'

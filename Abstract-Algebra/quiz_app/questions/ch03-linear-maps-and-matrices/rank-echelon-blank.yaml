@@ -1,0 +1,13 @@
+kind: blank
+difficulty: beginner
+text: "The rank of a matrix A equals the number of ___ rows in any row echelon form of A."
+choices:
+  - "nonzero"
+  - "pivot"
+  - "non-zero"
+explanation: "Row reduction to echelon form preserves the row space, and the nonzero (pivot-containing) rows of the echelon form constitute a basis for the row space. Their count is the row rank, which equals the column rank (and hence the rank) of A."
+tags:
+  - rank
+  - row-echelon
+  - gaussian-elimination
+  - matrices

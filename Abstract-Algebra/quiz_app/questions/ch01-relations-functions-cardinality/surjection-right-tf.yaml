@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: "If g∘f is surjective, then g is surjective."
+answer: true
+explanation: "Let c ∈ C (the codomain of g∘f: A → B → C). Since g∘f is surjective, there exists a ∈ A with g(f(a)) = c. Setting b = f(a) ∈ B, we have g(b) = c. Thus every element of C has a preimage under g, so g is surjective. Note f need not be surjective."
+tags:
+  - functions
+  - surjective
+  - composition

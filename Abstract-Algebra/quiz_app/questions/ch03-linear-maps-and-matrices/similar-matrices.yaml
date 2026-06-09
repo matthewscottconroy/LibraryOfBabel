@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- The same eigenvalues, trace, and determinant
+- The same entries
+- The same eigenvectors
+- The same rank only
+difficulty: intermediate
+explanation: Similar matrices represent the same linear map in different bases, so
+  they have identical characteristic polynomials (same eigenvalues with multiplicities),
+  trace, and determinant. Their eigenvectors differ by P.
+kind: mc
+tags:
+- matrices
+- similarity
+text: 'Two similar matrices A and B (B = P⁻¹AP) necessarily share:'

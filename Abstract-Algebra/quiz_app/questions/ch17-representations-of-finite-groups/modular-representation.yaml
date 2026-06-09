@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- G = ℤ/p acting on k² — the representation is indecomposable but not irreducible
+- G = ℤ/p acting on k — the regular representation is irreducible
+- G = S_3 over 𝔽₂ — all representations split
+- G = ℤ/2 over 𝔽₃ — all 2-dimensional representations are reducible
+difficulty: advanced
+explanation: Over a field of characteristic p, the group ℤ/p has the representation
+  on k² via g ↦ [[1,1],[0,1]]. This is indecomposable (no G-stable complement to the
+  span of e₁) but has a 1-dimensional subrepresentation.
+kind: mc
+tags:
+- modular-representation
+- indecomposable
+text: 'In modular representation theory (char k = p, p | |G|), Maschke''s theorem
+  fails. The simplest example is:'

@@ -1,0 +1,13 @@
+kind: mc
+difficulty: advanced
+text: 'The rational canonical form of a matrix A over F is determined by:'
+explanation: Rational canonical form uses the invariant factor decomposition of F[x] as an F[x]-module
+  via the action of A.
+tags:
+- canonical-forms
+choices:
+- the invariant factors of A
+- the eigenvalues of A over F̄
+- the trace and determinant
+- the rank of A
+answer: 0

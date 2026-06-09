@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- 'Any two elements a, b: A are equal (A has at most one element up to homotopy)'
+- A is inhabited
+- A is equivalent to the unit type 1
+- A has no self-paths except the identity
+difficulty: advanced
+explanation: 'An h-prop is a type where all identity types are contractible: ∀(a b:
+  A), a = b. Sets are types where identity types are h-props (all paths between two
+  points are equal). This gives a hierarchy: (-2)-types (contractible), (-1)-types
+  (h-props), 0-types (sets), ...'
+kind: mc
+tags:
+- homotopy-levels
+- h-prop
+text: 'In HoTT, a type A is a proposition (h-prop) if:'

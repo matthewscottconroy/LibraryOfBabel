@@ -1,0 +1,14 @@
+kind: tf
+difficulty: intermediate
+text: "The global dimension of a field k is 0."
+answer: true
+explanation: >
+  The global dimension of a ring R is the supremum of projective dimensions of all
+  R-modules. Over a field k, every module is a vector space and hence free, so
+  every k-module is projective (projective dimension 0). Thus gl.dim(k) = 0.
+  More generally, a ring has global dimension 0 if and only if it is semisimple
+  (Artin–Wedderburn theorem), and fields are the simplest examples.
+tags:
+  - global-dimension
+  - fields
+  - projective-modules

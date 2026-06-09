@@ -1,0 +1,14 @@
+kind: tf
+difficulty: intermediate
+text: "Every chain complex is an exact sequence."
+answer: false
+explanation: >
+  A chain complex requires only that consecutive compositions are zero (∂² = 0),
+  whereas exactness additionally requires that the image of each map equals the
+  kernel of the next. The homology groups Hₙ(C) = ker(∂ₙ)/im(∂ₙ₊₁) are precisely
+  the obstruction to exactness; a chain complex is exact if and only if all its
+  homology groups vanish.
+tags:
+  - chain-complex
+  - exact-sequences
+  - homology

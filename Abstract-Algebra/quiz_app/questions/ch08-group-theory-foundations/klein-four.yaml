@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- ℤ/2ℤ × ℤ/2ℤ
+- ℤ/4ℤ
+- S₃
+- ℤ
+difficulty: beginner
+explanation: 'V₄ ≅ ℤ/2ℤ × ℤ/2ℤ: elements (0,0),(1,0),(0,1),(1,1) all have order ≤
+  2. V₄ is the smallest non-cyclic group. It appears as the Galois group of x⁴ − 5x²
+  + 6 = (x²−2)(x²−3) over ℚ.'
+kind: mc
+tags:
+- group-theory
+- klein-four
+text: 'The Klein four-group V₄ = {e, a, b, c} with every non-identity element having
+  order 2 is isomorphic to:'

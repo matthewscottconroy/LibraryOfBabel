@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- ℓ(M) and the multiset of composition factors are well-defined invariants of M
+- ℓ(M) = dim M over its endomorphism ring
+- Composition factors are always simple projectives
+- ℓ(M) = 0 iff M is free
+difficulty: intermediate
+explanation: 'Jordan–Hölder for modules: any two composition series have the same
+  length and the same multiset of simple composition factors. The length is additive
+  on short exact sequences: ℓ(B) = ℓ(A) + ℓ(C) for 0→A→B→C→0.'
+kind: mc
+tags:
+- module-length
+- composition-series
+text: 'The length ℓ(M) of a module M is the length of its longest composition series.
+  Modules of finite length are both Noetherian and Artinian. Jordan–Hölder gives:'

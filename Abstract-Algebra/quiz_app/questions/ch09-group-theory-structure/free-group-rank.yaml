@@ -1,0 +1,12 @@
+kind: tf
+difficulty: intermediate
+text: "Free groups on different numbers of generators are non-isomorphic."
+answer: true
+explanation: >
+  The rank (number of free generators) of a free group is an isomorphism invariant. One
+  way to see this: abelianize the free group F_n to get ℤⁿ; since ℤⁿ ≅ ℤᵐ iff n = m
+  (as free abelian groups of finite rank), we get n = m whenever F_n ≅ F_m. For infinite
+  rank, a more careful argument using the commutator quotient also distinguishes them.
+tags:
+  - free-groups
+  - group-theory

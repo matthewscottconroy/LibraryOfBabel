@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- '[G:H] · dim W'
+- dim W
+- '|G| · dim W'
+- '[G:H] + dim W'
+difficulty: advanced
+explanation: Ind_H^G(W) = F[G] ⊗_{F[H]} W has dimension [G:H]·dim W. By Frobenius
+  reciprocity, Hom_G(Ind_H^G(W), V) ≅ Hom_H(W, Res_H^G(V)) naturally, relating induction
+  and restriction.
+kind: mc
+tags:
+- induction
+- representations
+text: 'The induced representation Ind_H^G(W) for a representation W of a subgroup
+  H ≤ G has dimension:'

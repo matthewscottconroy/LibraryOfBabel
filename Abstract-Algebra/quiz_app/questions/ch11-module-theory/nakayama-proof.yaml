@@ -1,0 +1,23 @@
+kind: proof
+difficulty: advanced
+text: "Prove Nakayama's Lemma: if M is a finitely generated R-module and M = IM for an ideal I ⊆ J(R), then M = 0."
+proof_lines:
+  - "Suppose for contradiction that M ≠ 0. Let {m_1, ..., m_n} be a minimal generating set for M, so n ≥ 1."
+  - "Since M = IM and m_n ∈ M, we can write m_n = Σᵢ aᵢ mᵢ for some aᵢ ∈ ___."
+  - "Rearranging, (1 - a_n) m_n = Σᵢ<n aᵢ mᵢ. Since a_n ∈ I ⊆ J(R), the element 1 - a_n is ___ in R."
+  - "Multiplying both sides by (1 - a_n)⁻¹ expresses m_n as an R-linear combination of {m_1, ..., m_{n-1}}, contradicting ___ of the generating set."
+  - "This contradiction shows M = 0."
+fills:
+  - "I"
+  - "invertible (a unit)"
+  - "minimality"
+explanation: >
+  The pivotal steps are: using M = IM to write the last generator in terms of I
+  acting on all generators; invoking I ⊆ J(R) to conclude 1 - a_n is a unit
+  (the defining property of the Jacobson radical); and obtaining a contradiction
+  with minimality of the generating set.
+tags:
+  - nakayama
+  - jacobson-radical
+  - finitely-generated
+  - proof

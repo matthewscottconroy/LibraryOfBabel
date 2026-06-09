@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- (n₁,h₁)(n₂,h₂) = (n₁ · φ(h₁)(n₂), h₁h₂)
+- (n₁,h₁)(n₂,h₂) = (n₁n₂, h₁h₂)
+- (n₁,h₁)(n₂,h₂) = (n₁φ(h₂)(n₂), h₁h₂)
+- (n₁,h₁)(n₂,h₂) = (n₁h₁n₂h₂)
+difficulty: advanced
+explanation: The semidirect product has underlying set N×H with (n₁,h₁)(n₂,h₂) = (n₁·φ(h₁)(n₂),
+  h₁h₂). When φ is trivial this reduces to the direct product. It generalises the
+  structure of dihedral groups.
+kind: mc
+tags:
+- semidirect-products
+- group-theory
+text: 'The semidirect product N ⋊_φ H exists for any group homomorphism φ: H → Aut(N).
+  As a set it equals N × H, with multiplication:'

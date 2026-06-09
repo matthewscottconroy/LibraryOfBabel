@@ -1,0 +1,24 @@
+kind: proof
+difficulty: advanced
+text: "Eisenstein's Irreducibility Criterion: Let f(x) = aₙxⁿ + ··· + a₁x + a₀ ∈ ℤ[x]. If a prime p divides a₀,a₁,…,aₙ₋₁ but p does not divide aₙ, and p² does not divide a₀, then f is irreducible over ℚ."
+proof_lines:
+  - "By Gauss's lemma it suffices to show f is irreducible over ℤ. Suppose f = g·h with g,h ∈ ℤ[x] and deg(g), deg(h) ≥ 1."
+  - "Reduce mod p: f̄ = ḡh̄ in 𝔽_p[x]. Since p | a₀,…,aₙ₋₁ but p ∤ aₙ, we get f̄ = ___."
+  - "Since 𝔽_p[x] is a UFD and the only factorizations of aₙxⁿ are (unit)·xᵏ · (unit)·xⁿ⁻ᵏ, both ḡ and h̄ have ___ constant term."
+  - "So p | g(0) and p | h(0), which gives p² | g(0)·h(0) = f(0) = a₀, contradicting ___."
+fills:
+  - "aₙxⁿ"
+  - "zero"
+  - "p² ∤ a₀"
+explanation: >
+  Reducing mod p kills all lower-order coefficients, leaving only the leading term aₙxⁿ.
+  In 𝔽_p[x] this forces both factors to have zero constant term (since xⁿ factors as x^k
+  times x^(n-k) in the UFD 𝔽_p[x]). Lifting back to ℤ, both g(0) and h(0) are divisible
+  by p, so p² | a₀ — contradicting the hypothesis. Gauss's lemma then extends the
+  conclusion from ℤ to ℚ.
+tags:
+  - eisenstein
+  - polynomial-ring
+  - irreducibility
+  - ring-theory
+  - proof

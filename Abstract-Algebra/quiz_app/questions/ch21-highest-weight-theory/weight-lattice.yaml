@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ⟨λ, α∨⟩ ∈ ℤ for all roots α
+- ⟨λ, α⟩ ∈ ℤ for all roots α
+- λ is a root itself
+- λ lies in the root lattice Q
+difficulty: intermediate
+explanation: 'The weight lattice P = {λ ∈ h* : ⟨λ,α∨⟩ ∈ ℤ ∀α ∈ Φ} contains Q (the
+  root lattice) as a sublattice. Fundamental weights ω_i form a basis of P. P/Q is
+  a finite abelian group.'
+kind: mc
+tags:
+- weight-lattice
+- root-lattice
+text: 'The weight lattice P of a root system is the lattice of λ ∈ h* such that:'

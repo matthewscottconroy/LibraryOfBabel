@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- '|Orb(x)| · |Stab(x)| = |G|'
+- '|Orb(x)| + |Stab(x)| = |G|'
+- '|Orb(x)| = |Stab(x)|'
+- '|Stab(x)| = |X|'
+difficulty: intermediate
+explanation: 'The orbit Orb(x) = {g·x : g ∈ G} and stabilizer Stab(x) = {g ∈ G : g·x
+  = x}. By the bijection Orb(x) ↔ G/Stab(x), |Orb(x)| = |G|/|Stab(x)|, so |Orb(x)|
+  · |Stab(x)| = |G|.'
+kind: mc
+tags:
+- group-actions
+- orbit-stabilizer
+text: 'The orbit-stabilizer theorem states that for a group G acting on a set X, for
+  each x ∈ X:'

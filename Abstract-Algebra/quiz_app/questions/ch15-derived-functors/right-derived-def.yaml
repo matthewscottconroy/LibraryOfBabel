@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- Injective resolutions
+- Projective resolutions
+- Free resolutions
+- Acyclic resolutions only
+difficulty: beginner
+explanation: Right derived functors R^nF(M) = H^n(F(I^•)) where I^• is an injective
+  resolution of M. The choice of injective resolution does not affect the result.
+kind: mc
+tags:
+- derived-functors
+- injective-resolution
+text: 'The right derived functors R^nF of a left-exact functor F are defined using:'

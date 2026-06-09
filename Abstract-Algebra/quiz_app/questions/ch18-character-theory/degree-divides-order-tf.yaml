@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: "The dimension (degree) of every irreducible complex representation of a finite group G divides |G|."
+answer: true
+explanation: "This is a theorem proved using character theory and the integrality of |G|/dim(Vᵢ): one shows that |G|/nᵢ = |G|·⟨χᵢ, χᵢ⟩/nᵢ equals an algebraic integer; since it is also rational, it must be an ordinary integer. The proof uses that χᵢ(e) = nᵢ and properties of algebraic integers combined with the column orthogonality relations."
+tags:
+  - degree-divides
+  - irreducible
+  - algebraic-integer

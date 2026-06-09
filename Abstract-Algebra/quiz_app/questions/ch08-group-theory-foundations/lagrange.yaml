@@ -1,0 +1,13 @@
+kind: mc
+difficulty: beginner
+text: 'Lagrange''s theorem states that for a finite group G and subgroup H:'
+explanation: The cosets of H partition G into equal-size classes; |G| = [G:H]·|H|.
+tags:
+- lagrange
+- subgroups
+choices:
+- '|H| divides |G|'
+- '|G| divides |H|'
+- G/H is always a group
+- H must be normal in G
+answer: 0

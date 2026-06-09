@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- n!
+- n
+- 2n
+- n²
+difficulty: intermediate
+explanation: The Galois closure is the splitting field of the minimal polynomial of
+  a primitive element of L/K (primitive element theorem). Its Galois group embeds
+  in Sₙ (permuting the n roots), so its degree divides n!.
+kind: mc
+tags:
+- galois-theory
+- galois-closure
+text: 'The Galois closure of a separable extension L/K is the smallest Galois extension
+  of K containing L. If [L:K] = n, the degree of the Galois closure divides:'

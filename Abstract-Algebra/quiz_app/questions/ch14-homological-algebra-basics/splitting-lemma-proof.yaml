@@ -1,0 +1,27 @@
+kind: proof
+difficulty: advanced
+text: >
+  Theorem (Splitting Lemma). A short exact sequence 0 → A →^i B →^p C → 0 of R-modules
+  splits (i.e., B ≅ A ⊕ C) if and only if there exists a right splitting s: C → B with p∘s = id_C,
+  and equivalently if and only if there exists a left splitting r: B → A with r∘i = id_A.
+proof_lines:
+  - "Assume a right splitting s: C → B exists, so p∘s = id_C."
+  - "Define φ: A ⊕ C → B by φ(a, c) = ___."
+  - "φ is well-defined and R-linear. We show it is an isomorphism."
+  - "Injectivity: if i(a) + s(c) = 0, apply p to get c = 0, then i(a) = 0 so a = 0 since i is injective."
+  - "Surjectivity: given b ∈ B, let c = p(b) and set a' = b - s(p(b)). Then p(a') = p(b) - p(s(p(b))) = p(b) - p(b) = 0, so a' ∈ ker(p) = im(i), write a' = i(a). Then b = i(a) + s(c) = φ(a, c)."
+  - "Thus φ is an isomorphism, and the sequence ___, verifying the equivalence."
+fills:
+  - "i(a) + s(c)"
+  - "splits"
+explanation: >
+  The first blank specifies the splitting isomorphism φ: the element i(a) comes from the
+  A-component via the inclusion, while s(c) lifts the C-component back into B using the
+  right splitting. This is the canonical formula for the direct-sum decomposition.
+  The second blank names the conclusion: the sequence splits, meaning B ≅ A ⊕ C as
+  R-modules with the original inclusion and projection as the canonical maps.
+tags:
+  - splitting-lemma
+  - exact-sequences
+  - proof
+  - short-exact-sequence

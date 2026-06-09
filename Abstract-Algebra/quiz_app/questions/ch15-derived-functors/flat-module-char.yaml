@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Tor^R_n(M, N) = 0 for all n ≥ 1 and all N
+- Ext^n_R(M, N) = 0 for all n ≥ 1
+- M ⊗ N ≅ N for all N
+- M has projective dimension ≤ 1
+difficulty: intermediate
+explanation: M is flat iff −⊗_R M is exact iff Tor^R_1(M,N) = 0 for all N iff Tor^R_n(M,N)
+  = 0 for all n≥1, N. Projective ⇒ flat ⇒ torsion-free (over domains). Flat ≠ projective
+  in general.
+kind: mc
+tags:
+- flat-modules
+- tor
+text: 'An R-module M is flat if and only if:'

@@ -1,0 +1,13 @@
+choices:
+- unique factorization domain
+- UFD
+difficulty: intermediate
+explanation: In a UFD, every element has a unique irreducible factorization (like
+  ℤ). PIDs are UFDs (and Euclidean domains are PIDs). The polynomial ring over a UFD
+  is a UFD (Gauss's lemma).
+kind: blank
+tags:
+- ufd
+- ring-theory
+text: An integral domain R in which every non-zero non-unit element factors uniquely
+  (up to order and units) into irreducibles is called a ___ (UFD).

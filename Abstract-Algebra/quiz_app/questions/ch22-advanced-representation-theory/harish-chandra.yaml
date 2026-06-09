@@ -1,0 +1,14 @@
+kind: mc
+difficulty: advanced
+text: 'Harish-Chandra modules are (g, K)-modules where K is a compact subgroup. They arise naturally in:'
+explanation: Harish-Chandra modules underlie the smooth representation theory of real Lie groups like
+  GL(n,ℝ).
+tags:
+- harish-chandra
+- real-groups
+choices:
+- the representation theory of real reductive Lie groups
+- finite group representation theory
+- the representation theory of p-adic groups
+- Galois representations
+answer: 0

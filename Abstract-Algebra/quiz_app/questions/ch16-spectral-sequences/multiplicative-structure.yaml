@@ -1,0 +1,11 @@
+answer: true
+difficulty: intermediate
+explanation: Multiplicative spectral sequences arise from filtered differential graded
+  algebras. The Leibniz rule makes each d_r a derivation, so the E_{r+1} page inherits
+  a ring structure.
+kind: tf
+tags:
+- multiplicative
+- Leibniz-rule
+text: 'In a multiplicative spectral sequence, the differentials satisfy a Leibniz
+  rule: d_r(xy) = d_r(x)y + (-1)^{|x|} x d_r(y).'

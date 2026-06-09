@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: Every surjective function has a right inverse (assuming the Axiom of Choice).
+explanation: AC provides a choice function selecting one element from each fibre f⁻¹(y), giving a right
+  inverse.
+tags:
+- sets
+- axiom-of-choice
+answer: true

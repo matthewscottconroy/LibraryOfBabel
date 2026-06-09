@@ -1,0 +1,16 @@
+kind: blank
+difficulty: intermediate
+text: "The right derived functor R^n F of a left-exact functor F is computed by applying F to an ___ resolution of the input object and taking cohomology."
+choices:
+  - "injective"
+  - "injective resolution"
+explanation: >
+  A left-exact functor F: A → B is exact on injective objects (in good abelian
+  categories with enough injectives). Given an injective resolution 0 → M → I⁰ → I¹ → ··· ,
+  one applies F to get a complex 0 → F(I⁰) → F(I¹) → ··· and defines
+  R^n F(M) = Hⁿ(F(I•)). Independence of the choice of injective resolution follows
+  from the comparison theorem.
+tags:
+  - right-derived-functor
+  - injective-resolution
+  - derived-functors

@@ -1,0 +1,14 @@
+kind: blank
+difficulty: beginner
+text: "A ring R is called an ___ if it is commutative, has a multiplicative identity 1 ≠ 0, and has no zero divisors (ab = 0 implies a = 0 or b = 0)."
+choices:
+  - "integral domain"
+  - "domain"
+explanation: >
+  Integral domains generalize the integers. The absence of zero divisors is what makes
+  cancellation valid: if ab = ac and a ≠ 0 then a(b-c) = 0, so b = c. Every field is an
+  integral domain, and every finite integral domain is a field.
+tags:
+  - integral-domain
+  - zero-divisors
+  - ring-theory

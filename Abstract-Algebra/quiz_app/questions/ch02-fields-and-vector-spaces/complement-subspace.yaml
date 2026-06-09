@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Always exists but is not unique in general
+- Is unique
+- Does not exist unless U is the zero subspace
+- Requires an inner product to define
+difficulty: intermediate
+explanation: By extending a basis of U to a basis of V, we always get a complementary
+  subspace (extend {u₁,…,uₖ} to {u₁,…,uₖ,w₁,…,wₘ}; let W = span{wᵢ}). The complement
+  is not unique (unlike the orthogonal complement in inner product spaces).
+kind: mc
+tags:
+- vector-spaces
+- subspace
+text: 'For a subspace U of a finite-dimensional vector space V, an algebraic complement
+  W satisfies V = U ⊕ W. Such a complement:'

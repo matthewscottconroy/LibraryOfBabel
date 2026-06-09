@@ -1,0 +1,10 @@
+answer: true
+difficulty: intermediate
+explanation: Anti-commutativity v ∧ w = −w ∧ v implies v ∧ v = −v ∧ v, so 2(v ∧ v)
+  = 0. If char F ≠ 2, this gives v ∧ v = 0. In characteristic 2 one must impose it
+  as a defining relation.
+kind: tf
+tags:
+- exterior-algebra
+- anticommutativity
+text: In the exterior algebra, v ∧ v = 0 for any vector v.

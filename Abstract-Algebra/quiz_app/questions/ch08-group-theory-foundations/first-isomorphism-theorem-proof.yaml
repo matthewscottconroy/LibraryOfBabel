@@ -1,0 +1,26 @@
+kind: proof
+difficulty: advanced
+text: "First Isomorphism Theorem: If φ: G → H is a group homomorphism, then G/ker(φ) ≅ im(φ)."
+proof_lines:
+  - "Let K = ker(φ). Define φ̄: G/K → im(φ) by φ̄(gK) = φ(g)."
+  - "φ̄ is well-defined: if gK = g'K then g'⁻¹g ∈ K, so φ(g'⁻¹g) = ___, hence φ(g) = φ(g')."
+  - "φ̄ is a homomorphism: φ̄(gK · g'K) = φ̄(gg'K) = φ(gg') = φ(g)φ(g') = ___."
+  - "φ̄ is injective: φ̄(gK) = e_H implies φ(g) = e_H, so g ∈ K, thus gK = ___."
+  - "φ̄ is surjective by definition of im(φ). Therefore φ̄ is an ___."
+fills:
+  - "e_H"
+  - "φ̄(gK) · φ̄(g'K)"
+  - "K"
+  - "isomorphism"
+explanation: >
+  The four blanks mark the four obligations: (1) well-definedness requires φ(g'⁻¹g) = e_H
+  since g'⁻¹g ∈ ker(φ); (2) the homomorphism property is verified by tracking φ̄ through
+  the coset product; (3) injectivity uses the kernel characterization—φ̄(gK) = e_H forces
+  gK = K (the identity coset); (4) surjectivity is immediate from the codomain being im(φ),
+  so φ̄ is an isomorphism. This theorem is the algebraic analogue of the rank-nullity theorem.
+tags:
+  - first-isomorphism-theorem
+  - homomorphism
+  - quotient-group
+  - group-theory
+  - proof

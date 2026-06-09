@@ -1,0 +1,8 @@
+kind: tf
+difficulty: intermediate
+text: Every principal ideal domain (PID) is a unique factorisation domain (UFD).
+explanation: PID ⇒ UFD by the ascending chain condition on ideals plus irreducible = prime in a PID.
+tags:
+- PID
+- UFD
+answer: true

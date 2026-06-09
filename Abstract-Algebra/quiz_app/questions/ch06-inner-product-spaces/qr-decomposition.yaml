@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- QR, where Q has orthonormal columns and R is upper triangular
+- LU where L is lower triangular
+- Q Λ Q⁻¹
+- U Σ Vᵀ
+difficulty: intermediate
+explanation: 'QR decomposition: A = QR with Q ∈ ℝ^{m×n} having orthonormal columns
+  (Qᵀ Q = Iₙ) and R ∈ ℝ^{n×n} upper triangular with positive diagonal. Used for least
+  squares (QR is numerically stabler than normal equations) and eigenvalue algorithms
+  (QR algorithm).'
+kind: mc
+tags:
+- inner-products
+- qr-decomposition
+text: Gram–Schmidt applied to the columns of a full-rank m×n matrix A (m ≥ n) produces
+  the QR decomposition A =

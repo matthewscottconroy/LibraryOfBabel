@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- An adjoint pair f* ⊣ f_* where f* (the inverse image) is left exact
+- 'A left exact functor f*: ℱ → ℰ only'
+- 'A logical functor f*: ℱ → ℰ'
+- A pair of inverse equivalences
+difficulty: advanced
+explanation: 'A geometric morphism is an adjunction f* ⊣ f_* between toposes where
+  f*: ℱ → ℰ (inverse image) preserves finite limits (is left exact) and f_*: ℰ → ℱ
+  (direct image) is the right adjoint. The name ''geometric'' reflects origin in geometry/sheaves.'
+kind: mc
+tags:
+- geometric-morphism
+- topos
+text: 'A geometric morphism f: ℰ → ℱ between toposes consists of:'

@@ -1,0 +1,8 @@
+kind: tf
+difficulty: advanced
+text: The Baker-Campbell-Hausdorff (BCH) formula expresses log(exp(X)exp(Y)) as a Lie series in X and
+  Y.
+explanation: 'BCH: Z = X + Y + ½[X,Y] + 1/12[X,[X,Y]] − 1/12[Y,[X,Y]] + …, converging near 0.'
+tags:
+- bch-formula
+answer: true

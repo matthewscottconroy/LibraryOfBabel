@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- χ(g) = Tr(ρ(g))
+- χ(g) = det(ρ(g))
+- χ(g) = ρ(g)
+- χ(g) = dim V
+difficulty: beginner
+explanation: χ(g) = Tr(ρ(g)) is the trace of the linear map ρ(g). Characters are class
+  functions (constant on conjugacy classes), since Tr(ABA⁻¹) = Tr(B). The character
+  determines the representation up to isomorphism.
+kind: mc
+tags:
+- characters
+- character-theory
+text: 'The character of a representation ρ: G → GL(V) is the function χ: G → F defined
+  by:'

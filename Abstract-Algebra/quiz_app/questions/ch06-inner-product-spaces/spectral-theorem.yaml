@@ -1,0 +1,12 @@
+kind: mc
+difficulty: intermediate
+text: 'The spectral theorem for normal operators on a finite-dimensional complex inner product space states:'
+explanation: Normal (TT*=T*T) operators are diagonalisable by a unitary matrix.
+tags:
+- spectral-theorem
+choices:
+- normal operators are unitarily diagonalisable
+- normal operators are symmetric
+- normal operators have real eigenvalues
+- normal operators are invertible
+answer: 0

@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- G₂, F₄, E₆, E₇, E₈
+- A₁, B₂, C₃, D₄, G₂
+- E₆, E₇, E₈, F₄, A₄
+- B₂, C₂, D₂, E₆, G₂
+difficulty: intermediate
+explanation: 'Classical: Aₙ = 𝔰𝔩ₙ₊₁, Bₙ = 𝔰𝔬₂ₙ₊₁, Cₙ = 𝔰𝔭₂ₙ, Dₙ = 𝔰𝔬₂ₙ. Exceptional:
+  G₂ (rank 2), F₄ (rank 4), E₆, E₇, E₈ (ranks 6,7,8). The classification is via connected
+  Dynkin diagrams.'
+kind: mc
+tags:
+- dynkin-diagrams
+- classification
+text: 'The classification of complex simple Lie algebras by Dynkin diagrams gives
+  four classical families and five exceptional algebras. The exceptional algebras
+  are:'

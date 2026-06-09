@@ -1,0 +1,13 @@
+kind: tf
+difficulty: beginner
+text: "Every field is a Noetherian ring."
+answer: true
+explanation: >
+  A field F has exactly two ideals: {0} and F itself. Every ascending chain of ideals is
+  therefore eventually constant, trivially satisfying the ascending chain condition.
+  Equivalently, both ideals {0} and F are finitely generated ({0} = (0) and F = (1)),
+  so F is Noetherian.
+tags:
+  - noetherian
+  - fields
+  - ring-theory

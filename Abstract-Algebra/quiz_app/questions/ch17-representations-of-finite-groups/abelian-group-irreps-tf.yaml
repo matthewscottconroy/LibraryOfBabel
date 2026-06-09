@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: "Every irreducible complex representation of a finite abelian group is 1-dimensional."
+answer: true
+explanation: "For a finite abelian group A, Schur's lemma applies to each element of A (which commutes with everything): in any irreducible representation ρ, each ρ(a) is a scalar multiple of the identity. Therefore every subspace is invariant, so irreducibility forces dim V = 1. Equivalently, the number of irreducible representations equals |A| = the number of conjugacy classes, and their degrees must satisfy Σ nᵢ² = |A|, forcing all nᵢ = 1."
+tags:
+  - irreducible
+  - abelian-group
+  - one-dimensional

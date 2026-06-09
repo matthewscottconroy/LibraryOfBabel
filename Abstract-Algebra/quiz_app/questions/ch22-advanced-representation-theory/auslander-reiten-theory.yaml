@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- A non-split exact sequence 0 → τM → E → M → 0 that factors through any non-iso map
+  to M
+- The projective cover of M
+- A minimal projective presentation
+- The AR quiver of the category
+difficulty: advanced
+explanation: 'An Auslander–Reiten sequence (almost split sequence) 0 → τM → E → M
+  → 0: it is non-split, and any map X → M that is not a split epimorphism factors
+  through E → M. Here τ is the Auslander–Reiten translate.'
+kind: mc
+tags:
+- Auslander-Reiten
+- almost-split-sequence
+text: 'In Auslander–Reiten theory, an almost split sequence (Auslander–Reiten sequence)
+  ending at an indecomposable M is:'

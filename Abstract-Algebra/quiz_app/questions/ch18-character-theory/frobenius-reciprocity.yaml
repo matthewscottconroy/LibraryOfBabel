@@ -1,0 +1,13 @@
+kind: mc
+difficulty: advanced
+text: 'Frobenius reciprocity states that for H ≤ G and representations V of H and W of G:'
+explanation: 'Frobenius: ⟨Ind V, W⟩_G = ⟨V, Res W⟩_H. Induction is left adjoint to restriction.'
+tags:
+- frobenius-reciprocity
+- induced-representations
+choices:
+- ⟨Ind_H^G V, W⟩_G = ⟨V, Res_H^G W⟩_H
+- Ind and Res are inverse functors
+- every G-rep is induced from H
+- the induced rep has dimension |G:H|·dim(V) only if G/H is abelian
+answer: 0

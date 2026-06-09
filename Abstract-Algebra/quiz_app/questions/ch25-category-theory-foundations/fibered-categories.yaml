@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Cartesian arrow f*e → e over f (universal lifting property)
+- Unique morphism e → b' over f
+- Natural transformation between fibers
+- Section of p
+difficulty: advanced
+explanation: 'A fibration: for every f: b''→b and e∈E_b (over b), there exists a cartesian
+  arrow φ: f*e → e over f, universal in the sense that any other lift factors uniquely
+  through it. This encodes a coherent family of functors E_b → E_{b''}.'
+kind: mc
+tags:
+- fibered-category
+- Grothendieck-fibration
+text: 'A Grothendieck fibration p: E → B has the property that for each arrow f: b''
+  → b in B and e over b, there is a:'

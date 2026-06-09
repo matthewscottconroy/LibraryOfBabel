@@ -1,0 +1,29 @@
+kind: proof
+difficulty: advanced
+text: >
+  Theorem (Snake Lemma). Given a commutative diagram of R-modules with exact rows:
+  0 → A → B → C → 0 (top row, maps f and g) and 0 → A' → B' → C' → 0 (bottom row, maps f' and g'),
+  and vertical maps α: A → A', β: B → B', γ: C → C', there is a connecting homomorphism
+  ∂: ker(γ) → coker(α) making the sequence
+  ker(α) → ker(β) → ker(γ) →^∂ coker(α) → coker(β) → coker(γ) exact.
+proof_lines:
+  - "Let c ∈ ker(γ). Since g is surjective, choose b ∈ B with g(b) = c."
+  - "Apply β: β(b) ∈ B'. Since γ(c) = 0, g'(β(b)) = β(g(b)) = 0, so β(b) ∈ ker(g') = im(f')."
+  - "Choose a' ∈ A' with f'(a') = β(b). Define ∂(c) = ___ in coker(α)."
+  - "Independence of lift: if b̃ also maps to c under g, then b - b̃ ∈ ker(g) = im(f), so b - b̃ = f(a) for some a ∈ A, and β(b) - β(b̃) = f'(α(a)), which is ___ in coker(α)."
+  - "Exactness at ker(γ): if c = g(b) with β(b) = 0, then ∂(c) = 0. Conversely if ∂(c) = 0, lift to a' with f'(a') = β(b) and a' ∈ im(α)."
+  - "Exactness at coker(α) and the remaining terms follows by dual diagram-chase arguments."
+fills:
+  - "the class [a'] of a'"
+  - "zero"
+explanation: >
+  The two blanked steps are the core of the construction. The first blank defines ∂ as
+  the class [a'] ∈ A'/im(α); the choice of a' is forced by f' injective, so the class
+  in coker(α) is unambiguous up to im(α). The second blank establishes well-definedness:
+  different lifts b differ by im(f), and chasing through commutativity shows the
+  discrepancy lands in im(α), hence is zero in coker(α).
+tags:
+  - snake-lemma
+  - connecting-homomorphism
+  - proof
+  - diagram-chasing

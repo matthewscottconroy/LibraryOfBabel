@@ -1,0 +1,7 @@
+[package]
+name = "ch27-structure-theorem"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+common = { path = "../common" }

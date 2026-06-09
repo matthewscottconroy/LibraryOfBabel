@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- R/M is a field
+- R/M is an integral domain
+- M = R
+- M is prime and M ≠ R
+difficulty: intermediate
+explanation: M is maximal iff R/M is a field (no proper ideals exist). Every maximal
+  ideal is prime (since fields are integral domains). In a PID, the non-zero prime
+  ideals are exactly the maximal ideals.
+kind: mc
+tags:
+- maximal-ideals
+- ring-theory
+text: 'An ideal M in a commutative ring R is maximal iff:'

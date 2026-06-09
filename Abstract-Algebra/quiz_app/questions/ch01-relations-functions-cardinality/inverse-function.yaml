@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- Bijective
+- Injective only
+- Surjective only
+- Continuous
+difficulty: intermediate
+explanation: A two-sided inverse g with g∘f = id_A and f∘g = id_B exists iff f is
+  bijective. Injective ↔ left-invertible; surjective ↔ right-invertible.
+kind: mc
+tags:
+- functions
+- bijection
+text: 'A function f: A → B has a two-sided inverse if and only if f is:'

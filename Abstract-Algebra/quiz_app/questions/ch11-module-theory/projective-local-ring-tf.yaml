@@ -1,0 +1,9 @@
+kind: tf
+difficulty: advanced
+text: "Every projective module over a local ring is free."
+answer: true
+explanation: "This is Kaplansky's theorem (1958). Over a local ring (R, m), every projective module — whether finitely generated or not — is free. The finitely generated case follows from Nakayama's lemma: a minimal generating set of a projective module P can be shown to be a basis by a direct argument using the splitting of the augmentation map. The general case requires a more delicate transfinite argument due to Kaplansky."
+tags:
+  - projective-modules
+  - local-ring
+  - kaplansky

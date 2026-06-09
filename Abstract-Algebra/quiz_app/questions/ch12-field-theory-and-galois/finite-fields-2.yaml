@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: Every algebraic extension of a finite field is Galois.
+explanation: Finite fields are perfect (char p, every element has a p-th root), so all algebraic extensions
+  are separable, hence Galois.
+tags:
+- finite-fields
+- galois-theory
+answer: true

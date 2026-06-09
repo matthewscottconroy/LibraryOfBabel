@@ -1,0 +1,10 @@
+kind: tf
+difficulty: intermediate
+text: "Every semisimple Lie algebra over ℂ is a direct sum of simple Lie algebras."
+answer: true
+explanation: >
+  This is the fundamental structure theorem for semisimple Lie algebras: g is semisimple if and only if g ≅ g₁ ⊕ ... ⊕ gₖ where each gᵢ is a simple Lie algebra. The decomposition is unique up to reordering of summands. It reduces the classification of semisimple algebras to the classification of simple ones, which is accomplished by Killing–Cartan via Dynkin diagrams.
+tags:
+  - semisimple
+  - structure-theorem
+  - tf

@@ -1,0 +1,24 @@
+kind: proof
+difficulty: intermediate
+text: "Prove the Tower Law: for field extensions F ⊆ K ⊆ L, we have [L : F] = [L : K][K : F]."
+proof_lines:
+  - "Let {αᵢ} be a basis of K over F (|{αᵢ}| = [K:F]) and {βⱼ} be a basis of L over K (|{βⱼ}| = [L:K])."
+  - "We claim that the set {αᵢ βⱼ} is a ___ of L over F."
+  - "Spanning: any x ∈ L can be written as x = Σⱼ kⱼ βⱼ with kⱼ ∈ K, and each kⱼ = Σᵢ fᵢⱼ αᵢ with fᵢⱼ ∈ F, giving x = Σᵢⱼ fᵢⱼ (αᵢ βⱼ). Hence {αᵢ βⱼ} ___."
+  - "Independence: if Σᵢⱼ fᵢⱼ (αᵢ βⱼ) = 0, rewrite as Σⱼ (Σᵢ fᵢⱼ αᵢ) βⱼ = 0. Since {βⱼ} is linearly independent over K, each ___ equals 0."
+  - "Then for each j, linear independence of {αᵢ} over F gives fᵢⱼ = 0 for all i, establishing linear independence of {αᵢ βⱼ}."
+  - "Therefore {αᵢ βⱼ} is a basis of size [K:F]·[L:K], so [L:F] = ___."
+fills:
+  - "basis"
+  - "spans L over F"
+  - "coefficient Σᵢ fᵢⱼ αᵢ ∈ K"
+  - "[L:K][K:F]"
+explanation: >
+  The pivotal step is showing that the product set {αᵢ βⱼ} is simultaneously a
+  spanning set (by double expansion) and linearly independent (by applying
+  independence of {βⱼ} over K first, then independence of {αᵢ} over F). Counting
+  the basis elements then gives the multiplicativity of degrees.
+tags:
+  - tower-law
+  - field-extensions
+  - proof

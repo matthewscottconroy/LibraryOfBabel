@@ -1,0 +1,13 @@
+kind: mc
+difficulty: beginner
+text: 'The n-th homology group Hₙ(C•) of a chain complex C• is defined as:'
+explanation: Hₙ = Zₙ/Bₙ = (n-cycles)/(n-boundaries), where ∂ₙ∘∂ₙ₊₁ = 0.
+tags:
+- homology
+- chain-complexes
+choices:
+- ker(∂ₙ)/im(∂ₙ₊₁)
+- im(∂ₙ)/ker(∂ₙ₊₁)
+- ker(∂ₙ) ⊕ im(∂ₙ₊₁)
+- coker(∂ₙ)
+answer: 0

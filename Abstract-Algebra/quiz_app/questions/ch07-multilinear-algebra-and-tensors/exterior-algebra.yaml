@@ -1,0 +1,13 @@
+kind: mc
+difficulty: intermediate
+text: 'The alternating algebra Λ*(V) contains Λ^k(V) = 0 whenever:'
+explanation: Λ^k(V) = 0 for k > n = dim V, since you cannot antisymmetrise k > n vectors from an n-dim
+  space.
+tags:
+- exterior-algebra
+choices:
+- k > dim V
+- k = dim V
+- k < dim V
+- k is odd
+answer: 0

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Ad(g)(X) = d/dt|_{t=0} g·exp(tX)·g⁻¹
+- Ad(g)(X) = gX
+- Ad(g)(X) = Xg
+- Ad(g)(X) = exp(g)X
+difficulty: intermediate
+explanation: 'Ad(g) is the derivative of conjugation by g at the identity. Its differential
+  at e gives the adjoint representation ad: 𝔤 → End(𝔤), ad(X)(Y) = [X,Y]. The Killing
+  form is B(X,Y) = Tr(ad X ∘ ad Y).'
+kind: mc
+tags:
+- adjoint-representation
+- lie-groups
+text: 'The adjoint representation of a Lie group G is the homomorphism Ad: G → GL(𝔤)
+  defined by:'

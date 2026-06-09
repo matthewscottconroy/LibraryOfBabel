@@ -1,0 +1,13 @@
+kind: mc
+difficulty: beginner
+text: 'The degree [F(α):F] of a simple algebraic extension equals:'
+explanation: '[F(α):F] = degree of the minimal polynomial of α over F.'
+tags:
+- field-extensions
+- minimal-polynomial
+choices:
+- deg(min_{F,α})
+- deg(min_{F,α}) − 1
+- 2·deg(min_{F,α})
+- '|Gal(F(α)/F)|'
+answer: 0

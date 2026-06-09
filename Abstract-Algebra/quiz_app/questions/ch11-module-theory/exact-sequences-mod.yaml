@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- A injects into B and B surjects onto C with kernel isomorphic to A
+- A ≅ B ≅ C
+- B = A ⊕ C always
+- C is free
+difficulty: intermediate
+explanation: In a short exact sequence, exactness at each term means im = ker at that
+  position. So A ↪ B is injective, B ↠ C is surjective, and C ≅ B/A. The sequence
+  splits iff B ≅ A ⊕ C.
+kind: mc
+tags:
+- exact-sequences
+- module-theory
+text: 'A short exact sequence 0 → A → B → C → 0 of R-modules says:'

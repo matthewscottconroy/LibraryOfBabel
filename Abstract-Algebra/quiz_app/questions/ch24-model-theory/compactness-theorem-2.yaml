@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Every finite subset of T has a model
+- T is consistent and complete
+- T has at most countably many axioms
+- T contains the axioms of set theory
+difficulty: intermediate
+explanation: 'Compactness: T is satisfiable iff every finite T₀ ⊆ T is satisfiable.
+  This is a consequence of the completeness theorem (Gödel). It has many non-constructive
+  applications: non-standard models, transfer principles.'
+kind: mc
+tags:
+- compactness
+- satisfiability
+text: 'The compactness theorem for first-order logic states that a theory T has a
+  model if and only if:'

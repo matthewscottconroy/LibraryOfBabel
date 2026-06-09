@@ -1,0 +1,8 @@
+kind: tf
+difficulty: intermediate
+text: The algebraic closure of ℝ is ℂ.
+explanation: Every polynomial with real coefficients splits over ℂ (Fundamental Theorem of Algebra).
+tags:
+- fields
+- algebraic-closure
+answer: true

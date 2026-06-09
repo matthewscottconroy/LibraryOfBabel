@@ -1,0 +1,12 @@
+kind: blank
+difficulty: intermediate
+text: "The Downward Löwenheim–Skolem theorem states: if a first-order theory T in a countable language has an infinite model, then T has a ___ model."
+choices:
+  - "countable"
+  - "finite"
+explanation: >
+  The Downward Löwenheim–Skolem theorem: if T (in a countable language) has an infinite model, it has a countably infinite model. More generally, for any infinite cardinal κ ≥ |L| + ℵ₀, if T has a model of size ≥ κ, it has a model of size exactly κ (Upward LS). These results show that first-order logic cannot characterize structures up to isomorphism: the theory of ℝ as an ordered field has countable models (Skolem's paradox).
+tags:
+  - lowenheim-skolem
+  - model-theory
+  - blank

@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Linearly independent and spans V
+- Spans V only
+- Linearly independent only
+- Orthonormal and spans V
+difficulty: beginner
+explanation: A basis must be both linearly independent (no redundancy) and a spanning
+  set (every vector is reachable). Orthonormality is an additional condition not required
+  for a basis.
+kind: mc
+tags:
+- vector-spaces
+- basis
+text: 'A basis of a vector space V is a set of vectors that is:'

@@ -1,0 +1,12 @@
+choices:
+- nilpotent
+difficulty: intermediate
+explanation: A nilpotent matrix has all eigenvalues 0 (since the characteristic polynomial
+  is λⁿ). Its Jordan form consists entirely of Jordan blocks with λ = 0. The minimal
+  polynomial is λᵐ for some m ≤ n.
+kind: blank
+tags:
+- canonical-forms
+- nilpotent
+text: A matrix N is ___ if Nᵏ = 0 for some positive integer k. All eigenvalues of
+  such a matrix are 0.

@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- In bijection with those of 𝔤 (same highest weight classification)
+- All one-dimensional
+- Irreducible of dimension q
+- Trivial for all q ≠ 1
+difficulty: advanced
+explanation: 'For q not a root of unity, Rep(U_q(𝔤)) ≅ Rep(𝔤): same classification
+  by dominant integral weights, same dimension formulas. New phenomena (e.g. quantum
+  dimensions ≠ classical, braided tensor structure) appear. At roots of unity the
+  theory becomes much richer.'
+kind: mc
+tags:
+- quantum-groups
+- representation-theory
+text: 'The quantum group U_q(𝔤) (Drinfeld–Jimbo) is a deformation of U(𝔤) depending
+  on a parameter q. For generic q, its finite-dimensional representations are:'

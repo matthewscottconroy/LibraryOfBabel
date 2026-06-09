@@ -1,0 +1,9 @@
+answer: true
+difficulty: beginner
+explanation: Projective modules have projective resolutions of length 0 (they are
+  their own projective resolution), so all higher Ext groups vanish.
+kind: tf
+tags:
+- projective-module
+- Ext
+text: If P is a projective module then Ext^n_R(P, N) = 0 for all n ≥ 1 and all N.

@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- A Lie group with Lie(G̃) = Lie(G) and π_1(G̃) = 0
+- A compact Lie group
+- The same as G when G is compact
+- A quotient of G
+difficulty: intermediate
+explanation: The universal cover G̃ is simply connected and has the same Lie algebra
+  as G. The covering map G̃ → G is a Lie group homomorphism with discrete kernel π_1(G).
+kind: mc
+tags:
+- universal-cover
+- simply-connected
+text: 'If G is a connected Lie group, then its universal cover G̃ is:'

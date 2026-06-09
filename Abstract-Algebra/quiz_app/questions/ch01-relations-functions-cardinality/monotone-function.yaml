@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- a ≤ a' in A ⟹ f(a) ≤ f(a') in B
+- f(a) ≤ a for all a
+- a ≤ f(a) for all a
+- f is injective
+difficulty: beginner
+explanation: Order-preserving (isotone) maps are the morphisms of ordered sets. An
+  order-reversing (antitone) map satisfies a ≤ a' ⟹ f(a') ≤ f(a). An order-isomorphism
+  is a bijective order-preserving map with order-preserving inverse.
+kind: mc
+tags:
+- functions
+- partial-order
+text: 'A function f: (A,≤) → (B,≤) between ordered sets is order-preserving (monotone)
+  if:'

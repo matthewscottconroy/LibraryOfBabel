@@ -1,0 +1,18 @@
+answer: 0
+choices:
+- Has a projective cover (unique up to isomorphism)
+- Is free
+- Is injective
+- Has projective dimension ≤ 1
+difficulty: advanced
+explanation: 'Artinian rings have enough projectives: every module has a projective
+  cover. The projective cover is the ''minimal'' projective mapping onto M; it is
+  unique up to isomorphism and is used to define the projective resolution that computes
+  Ext.'
+kind: mc
+tags:
+- projective-cover
+- artinian-rings
+text: 'A projective cover of a module M over a local ring is an epimorphism π: P →
+  M with P projective and ker π ⊆ J(R)·P (superfluous kernel). Over a left Artinian
+  ring, every module:'

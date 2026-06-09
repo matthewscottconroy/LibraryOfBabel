@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ω-stable ⊆ superstable ⊆ stable ⊆ NIP ⊆ simple ⊆ NSOP
+- stable ⊆ ω-stable ⊆ superstable
+- simple ⊆ stable ⊆ ω-stable ⊆ superstable
+- NIP ⊆ stable ⊆ ω-stable
+difficulty: advanced
+explanation: 'The stability hierarchy (tamest first): ω-stable ⊆ superstable ⊆ stable
+  ⊆ NIP ∩ simple ⊆ NIP (and separately ⊆ simple). Outside are NSOP and the unstable
+  theories. Each class has characteristic combinatorial dividing/forking notions.'
+kind: mc
+tags:
+- stability-hierarchy
+- Shelah
+text: 'Shelah''s stability hierarchy classifies theories as (from most to least tame):'

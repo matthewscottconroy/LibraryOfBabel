@@ -1,0 +1,14 @@
+kind: tf
+difficulty: intermediate
+text: "The characteristic polynomial and minimal polynomial of a diagonalizable matrix have the same roots."
+answer: true
+explanation: >
+  For a diagonalizable matrix, the minimal polynomial is the product of distinct linear factors
+  (λ - λᵢ) for each distinct eigenvalue λᵢ, while the characteristic polynomial is ∏ᵢ (λ - λᵢ)^{mᵢ}
+  where mᵢ is the algebraic multiplicity. Both polynomials vanish at exactly the same values, namely
+  the eigenvalues, even though they may have different degrees. The minimal polynomial has each root
+  with multiplicity 1; the characteristic polynomial may have higher multiplicities.
+tags:
+  - minimal-polynomial
+  - characteristic-polynomial
+  - diagonalizable-criteria

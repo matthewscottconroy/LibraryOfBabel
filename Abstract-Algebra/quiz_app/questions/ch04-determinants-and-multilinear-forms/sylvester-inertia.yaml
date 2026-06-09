@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- An invariant of the form, independent of the basis chosen
+- Always equal to (n, 0)
+- Determined only by the rank
+- Equal to (0, n) for negative-definite forms
+difficulty: advanced
+explanation: The signature (p, q) — the numbers of +1 and −1 in any diagonalization
+  — is a complete invariant over ℝ. A positive-definite form has signature (n,0);
+  indefinite forms have p,q > 0.
+kind: mc
+tags:
+- bilinear-forms
+- sylvester
+text: 'Sylvester''s law of inertia states that for a real symmetric bilinear form,
+  the signature (p,q) is:'

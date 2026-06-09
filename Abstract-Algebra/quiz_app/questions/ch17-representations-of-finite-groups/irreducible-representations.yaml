@@ -1,0 +1,14 @@
+kind: mc
+difficulty: intermediate
+text: 'The number of irreducible representations of a finite group G equals:'
+explanation: The number of irreducibles equals the number of conjugacy classes (dimension of the centre
+  of ℂ[G]).
+tags:
+- irreducible-representations
+- conjugacy-classes
+choices:
+- the number of conjugacy classes of G
+- '|G|'
+- the number of subgroups of G
+- the rank of the centre Z(G)
+answer: 0

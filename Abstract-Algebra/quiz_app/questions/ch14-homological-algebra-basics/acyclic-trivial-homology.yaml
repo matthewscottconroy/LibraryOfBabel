@@ -1,0 +1,15 @@
+kind: tf
+difficulty: intermediate
+text: "The homology of an acyclic chain complex is trivial (zero in every degree)."
+answer: true
+explanation: >
+  By definition, a chain complex C• is acyclic if it is exact, meaning
+  im(∂ₙ₊₁) = ker(∂ₙ) at every position n. This is equivalent to
+  Hₙ(C) = ker(∂ₙ)/im(∂ₙ₊₁) = 0 for all n. Acyclic complexes (also called
+  exact complexes) play the role of "resolutions" when augmented: a projective
+  or injective resolution of a module M is an acyclic complex except at degree 0
+  where the homology is M.
+tags:
+  - acyclic
+  - homology
+  - chain-complex

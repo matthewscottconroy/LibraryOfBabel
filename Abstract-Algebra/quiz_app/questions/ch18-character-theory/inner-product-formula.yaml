@@ -1,0 +1,11 @@
+kind: blank
+difficulty: intermediate
+text: "The inner product of characters is defined by ⟨χ, ψ⟩ = (1/|G|) Σ_{g∈G} ___, and is used to decompose representations into irreducibles."
+choices:
+  - "χ(g) ψ̄(g)"
+  - "χ(g) ψ(g⁻¹)"
+explanation: "Both expressions are equivalent since ψ̄(g) = ψ(g⁻¹) for characters of unitary representations (all complex representations of finite groups can be made unitary). The multiplicity of the irreducible Vᵢ in V is mᵢ = ⟨χ_V, χᵢ⟩. A representation is irreducible if and only if ⟨χ, χ⟩ = 1."
+tags:
+  - inner-product
+  - character-orthogonality
+  - decomposition

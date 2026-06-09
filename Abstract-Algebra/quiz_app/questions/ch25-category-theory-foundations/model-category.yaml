@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Inverting the weak equivalences
+- Taking the full subcategory of fibrant objects
+- Quotienting by cofibrations
+- Localizing at all morphisms
+difficulty: advanced
+explanation: 'Ho(M) = M[W⁻¹] where W is the class of weak equivalences. Model structure
+  provides a calculus of fractions: fibrant-cofibrant replacement allows computing
+  derived functors and homotopy limits/colimits.'
+kind: mc
+tags:
+- model-categories
+- homotopy-theory
+text: 'A model category (Quillen) is a category with classes of weak equivalences,
+  fibrations, and cofibrations satisfying certain axioms. The homotopy category Ho(M)
+  is obtained by:'

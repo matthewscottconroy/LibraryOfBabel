@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Rep(G∨) and G(O)-equivariant perverse sheaves on the affine Grassmannian Gr_G
+- Rep(G) and coherent sheaves on G∨/B∨
+- Rep(G∨) and D-modules on G/B
+- The Langlands program and perverse sheaves on G
+difficulty: advanced
+explanation: 'Geometric Satake (Ginzburg, Mirković–Vilonen): the tensor category Perv_{G(O)}(Gr_G)
+  is equivalent to Rep(G∨) as tensor categories, where G∨ is the Langlands dual group.
+  This gives a geometric construction of the dual group.'
+kind: mc
+tags:
+- geometric-Satake
+- affine-Grassmannian
+text: 'The geometric Satake correspondence establishes an equivalence between:'

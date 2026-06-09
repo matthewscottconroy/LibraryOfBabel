@@ -1,0 +1,13 @@
+kind: mc
+difficulty: beginner
+text: A proof by contradiction assumes the ___ of the conclusion and derives a contradiction.
+explanation: 'Reductio ad absurdum: assume ¬P, derive ⊥, conclude P.'
+tags:
+- logic
+- proof
+choices:
+- converse
+- negation
+- contrapositive
+- obverse
+answer: 1

@@ -1,0 +1,13 @@
+kind: mc
+difficulty: intermediate
+text: 'The compactness theorem for first-order logic states that a set of sentences Σ has a model if:'
+explanation: 'Compactness: Σ is satisfiable iff every finite subset is satisfiable. Proof via ultraproducts
+  or Henkin completeness.'
+tags:
+- compactness-theorem
+choices:
+- every finite subset of Σ has a model
+- Σ is consistent
+- Σ has a countable model
+- Σ is decidable
+answer: 0

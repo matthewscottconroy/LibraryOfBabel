@@ -1,0 +1,12 @@
+choices:
+- span
+- linear span
+difficulty: beginner
+explanation: 'Span(S) = {c₁v₁ + ⋯ + cₙvₙ : vᵢ ∈ S, cᵢ ∈ F, n ≥ 0}. It is the intersection
+  of all subspaces containing S.'
+kind: blank
+tags:
+- vector-spaces
+- span
+text: The ___ of a set S ⊆ V is the smallest subspace of V containing S, consisting
+  of all finite linear combinations of elements of S.

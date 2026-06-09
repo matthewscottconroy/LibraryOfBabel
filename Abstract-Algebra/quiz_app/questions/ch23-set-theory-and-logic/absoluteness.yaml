@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- 'Existential statements: ∃y, ψ(x,y) with ψ being Δ₀'
+- 'Universal statements: ∀y, ψ(x,y)'
+- Π₂ sentences
+- The statement 'x is a cardinal'
+difficulty: advanced
+explanation: 'Σ₁ formulas (bounded existential quantifier over Δ₀ formulas) are upward
+  absolute: if a witness y exists in M, it exists in any larger model N. Π₁ is downward
+  absolute. Statements about cardinals are in general not absolute.'
+kind: mc
+tags:
+- absoluteness
+- set-theory
+text: 'A formula φ(x) is Σ₁-absolute (upward absolute between transitive models) if
+  whenever M ⊆ N are transitive models and M ⊨ φ(x), then N ⊨ φ(x). Examples of Σ₁
+  formulas include:'

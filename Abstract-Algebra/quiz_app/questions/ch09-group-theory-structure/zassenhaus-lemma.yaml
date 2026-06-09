@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Isomorphic
+- Equal as sets
+- Both trivial
+- One a quotient of the other
+difficulty: advanced
+explanation: 'Zassenhaus lemma (butterfly lemma): (V∩Y)/(V∩X)(U∩Y) ≅ (U(V∩Y))/(U(V∩X))
+  ≅ (X(Y∩V))/(X(Y∩U)). This algebraic lemma is used to prove the Schreier refinement
+  theorem (any two subnormal series have equivalent refinements) and thence Jordan–Hölder.'
+kind: mc
+tags:
+- zassenhaus-lemma
+- subnormal-series
+text: 'The Zassenhaus butterfly lemma states: given subgroups U ◁ V and X ◁ Y in G,
+  the factor groups (U(V∩Y))/(U(V∩X)) and (X(Y∩V))/(X(Y∩U)) are:'

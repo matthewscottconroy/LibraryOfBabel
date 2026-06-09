@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- An alternating sum of lengths of Tor modules
+- The degree of the resultant polynomial
+- The dimension of the Ext groups
+- The Euler characteristic of the normal bundle
+difficulty: advanced
+explanation: 'Serre: χ(A,B) = Σ (-1)^i length(Tor^i_R(A,B)) where R is a regular local
+  ring. This homological formula replaces naive ''count intersections'' and handles
+  the non-transverse case correctly.'
+kind: mc
+tags:
+- serre-formula
+- intersection-theory
+text: 'Serre''s intersection formula defines the intersection multiplicity of varieties
+  at a point using:'

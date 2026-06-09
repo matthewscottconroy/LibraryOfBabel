@@ -1,0 +1,24 @@
+kind: proof
+difficulty: advanced
+text: "Projection Theorem: Let W be a closed subspace of a Hilbert space H. Then every v ∈ H decomposes uniquely as v = p + q where p ∈ W and q ∈ W⊥."
+proof_lines:
+  - "Existence: Let d = inf{‖v - w‖ : w ∈ W}. Choose a minimising sequence wₙ ∈ W with ‖v - wₙ‖ → d."
+  - "By the parallelogram law applied to (v - wₘ) and (v - wₙ), the sequence (wₙ) is ___ in H."
+  - "Since H is complete and W is closed, wₙ converges to some p ∈ W; set q = v - p."
+  - "For any w ∈ W and scalar t ∈ ℝ, ‖q - tw‖² ≥ d², which on expansion forces ⟨q, w⟩ = ___, so q ∈ W⊥."
+  - "Uniqueness: if v = p + q = p' + q' with p,p' ∈ W and q,q' ∈ W⊥, then p - p' = q' - q lies in ___."
+fills:
+  - "Cauchy"
+  - "0"
+  - "W ∩ W⊥"
+explanation: >
+  The existence argument uses the parallelogram law to prove that the minimising sequence is Cauchy;
+  completeness of H gives convergence to the closest point p in W. The orthogonality of q = v - p
+  follows by differentiating the distance function in each direction w ∈ W.
+  For uniqueness, any difference p - p' simultaneously lies in W (sum of subspace elements) and W⊥
+  (same reason), hence in W ∩ W⊥ = {0}, giving p = p' and q = q'.
+tags:
+  - projection-theorem
+  - orthogonal-complement
+  - hilbert-completion
+  - proof

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- HK = KH
+- H ◁ G
+- K ◁ G
+- '|H| = |K|'
+difficulty: intermediate
+explanation: '|HK| = |H||K|/|H∩K| (Dedekind''s formula). HK is a subgroup iff HK =
+  KH (i.e., H and K permute). This holds when either H or K is normal. The condition
+  is symmetric in H and K.'
+kind: mc
+tags:
+- subgroups
+- product
+text: 'For subgroups H, K ≤ G, the product HK = {hk : h ∈ H, k ∈ K} is a subgroup
+  of G if and only if:'

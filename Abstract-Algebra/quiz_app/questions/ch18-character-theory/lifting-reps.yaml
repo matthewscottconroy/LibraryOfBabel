@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Irreducible representations of G/N
+- Irreducible representations of N
+- Irreducible representations of G with degree |N|
+- All representations of G
+difficulty: intermediate
+explanation: 'Lifting: representations of G/N biject with representations of G whose
+  kernel contains N. The character table of G/N embeds into that of G via this lifting.'
+kind: mc
+tags:
+- representations
+- lifting
+text: 'If N ◁ G and χ is an irreducible character of G/N, the lifted character χ̃
+  of G is defined by χ̃(g) = χ(gN). The irreducible representations of G containing
+  N in their kernel correspond to:'

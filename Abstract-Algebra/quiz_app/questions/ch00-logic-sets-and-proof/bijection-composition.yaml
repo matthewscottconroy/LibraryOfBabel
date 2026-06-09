@@ -1,0 +1,9 @@
+answer: true
+difficulty: intermediate
+explanation: 'If f: A → B and g: B → C are both bijections, then g∘f is injective
+  (composition of injections) and surjective (composition of surjections), hence bijective.'
+kind: tf
+tags:
+- functions
+- bijection
+text: The composition of two bijections is again a bijection.

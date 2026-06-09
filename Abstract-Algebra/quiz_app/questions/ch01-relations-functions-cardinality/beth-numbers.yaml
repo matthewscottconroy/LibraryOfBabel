@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ℶ₁ = ℵ₁
+- ℶ₁ = ℵ₀
+- ℶ₂ = ℵ₁
+- ℶ_ω = ℵ_ω
+difficulty: advanced
+explanation: ℶ₁ = 2^{ℵ₀} = |ℝ|. CH states 2^{ℵ₀} = ℵ₁ (i.e., ℶ₁ = ℵ₁), meaning there
+  is no cardinal strictly between ℵ₀ and ℝ. GCH says ℶ_α = ℵ_α for all ordinals α.
+kind: mc
+tags:
+- cardinality
+- beth-numbers
+text: 'The beth numbers are defined by ℶ₀ = ℵ₀, ℶ_{α+1} = 2^{ℶ_α}, and ℶ_λ = sup_{α<λ}
+  ℶ_α. The Continuum Hypothesis says:'

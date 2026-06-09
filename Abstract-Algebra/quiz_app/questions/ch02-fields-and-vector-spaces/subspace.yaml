@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- W is closed under addition and scalar multiplication
+- W is closed under addition only
+- W contains the zero vector only
+- W has finite dimension
+difficulty: beginner
+explanation: 'The subspace test: W ≠ ∅, and for all u,v ∈ W and λ ∈ F, u+v ∈ W and
+  λu ∈ W. Non-emptiness plus closure under scalar multiplication implies 0 ∈ W.'
+kind: mc
+tags:
+- vector-spaces
+- subspace
+text: 'A non-empty subset W of a vector space V over a field F is a subspace if and
+  only if:'

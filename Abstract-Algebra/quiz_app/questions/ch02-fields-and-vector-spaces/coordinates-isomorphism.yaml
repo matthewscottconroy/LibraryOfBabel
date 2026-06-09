@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- v ↦ [v]_ℬ (the coordinate vector)
+- v ↦ v ⊗ ℬ
+- v ↦ ⟨v, vᵢ⟩
+- v ↦ dim V
+difficulty: beginner
+explanation: 'The coordinate map φ_ℬ: V → Fⁿ sends v = Σ cᵢvᵢ to (c₁,…,cₙ). This is
+  an isomorphism of vector spaces (linear, bijective). Different bases give different
+  but equivalent isomorphisms V ≅ Fⁿ.'
+kind: mc
+tags:
+- vector-spaces
+- basis
+text: 'Choosing an ordered basis ℬ = (v₁,…,vₙ) of V over F defines an isomorphism
+  V → Fⁿ given by:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- 2^κ = κ⁺ (the next cardinal after κ)
+- 2^κ = 2^{ℵ₀} for all κ
+- 2^κ < ℵ_ω
+- κ⁺ = κ + 1
+difficulty: intermediate
+explanation: 'GCH: 2^κ = κ⁺ for all infinite κ. For κ = ℵ₀ this is the Continuum Hypothesis
+  (2^{ℵ₀} = ℵ₁). GCH is independent of ZFC (Gödel showed it is consistent; Cohen showed
+  its negation is consistent).'
+kind: mc
+tags:
+- GCH
+- Continuum-Hypothesis
+text: 'The Generalized Continuum Hypothesis (GCH) asserts that for every infinite
+  cardinal κ:'

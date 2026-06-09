@@ -1,0 +1,12 @@
+kind: blank
+difficulty: advanced
+text: "A perverse sheaf on a stratified variety X (with middle perversity) is a constructible complex F of sheaves satisfying the support condition dim supp Hᵏ(F) ≤ −k and the ___ condition dim supp Hᵏ(𝔻F) ≤ −k, where 𝔻 is Verdier duality."
+choices:
+  - "cosupport"
+  - "intersection"
+explanation: >
+  Perverse sheaves are objects of the derived category of constructible sheaves satisfying two half-perversity conditions: the support condition (on cohomology sheaves) and the cosupport condition (on Verdier dual cohomology sheaves). The term "perverse" is historical — these are not perverse in any colloquial sense, but rather they are the correct t-structure heart for intersection cohomology. The simple perverse sheaves are the intersection cohomology complexes IC(Z, L) for locally closed subvarieties Z with a local system L.
+tags:
+  - perverse-sheaves
+  - perverse-sheaf-definition
+  - blank

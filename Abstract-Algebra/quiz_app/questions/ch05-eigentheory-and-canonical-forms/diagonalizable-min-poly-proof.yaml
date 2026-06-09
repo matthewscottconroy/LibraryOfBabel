@@ -1,0 +1,23 @@
+kind: proof
+difficulty: advanced
+text: "Theorem: A linear operator T on a finite-dimensional vector space V is diagonalizable if and only if its minimal polynomial m_T(λ) has no repeated roots."
+proof_lines:
+  - "(⇒) If T is diagonalizable, choose a basis of eigenvectors. In this basis T = diag(λ₁,…,λₙ), and the polynomial p(λ) = ∏_{distinct λᵢ} (λ - λᵢ) annihilates T, since p(T) applied to any basis vector gives ___."
+  - "Since m_T divides any annihilating polynomial and p has no repeated roots, m_T has no repeated roots."
+  - "(⇐) Suppose m_T(λ) = (λ - λ₁)⋯(λ - λₖ) with distinct λᵢ. By the primary decomposition theorem, V = ⊕ᵢ ___."
+  - "Each factor (λ - λᵢ) appears with multiplicity 1 in m_T, so on each summand Ker(T - λᵢI) the restriction of m_T forces (T - λᵢI) = ___ on that summand, meaning every vector in it is an eigenvector."
+fills:
+  - "0"
+  - "Ker(T - λᵢI)"
+  - "0"
+explanation: >
+  The forward direction constructs an annihilating polynomial with no repeated roots directly from the
+  distinct eigenvalues of the diagonal form. The backward direction uses the primary decomposition
+  (which applies because m_T splits into distinct linear factors) to write V as a direct sum of eigenspaces.
+  The blanks mark: the eigenvector annihilation in the forward direction, the primary decomposition
+  summands (eigenspaces, not generalised eigenspaces, because multiplicities are 1), and the conclusion
+  that T - λᵢI is zero on each summand.
+tags:
+  - diagonalizable-criteria
+  - minimal-polynomial
+  - proof

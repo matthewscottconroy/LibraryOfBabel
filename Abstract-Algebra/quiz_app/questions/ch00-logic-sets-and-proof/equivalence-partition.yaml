@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- '[a] = [b] or [a] ∩ [b] = ∅'
+- '[a] ⊆ [b] always'
+- '[a] and [b] may partially overlap'
+- '[a] = A always'
+difficulty: intermediate
+explanation: 'Equivalence classes partition A: distinct classes are disjoint, every
+  element belongs to exactly one class. The set of classes A/~ is the quotient set.
+  Conversely, any partition defines an equivalence relation.'
+kind: mc
+tags:
+- relations
+- equivalence
+text: 'An equivalence relation ~ on a set A induces a partition of A into equivalence
+  classes. Two equivalence classes [a] and [b] satisfy:'

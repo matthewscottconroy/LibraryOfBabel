@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- True under every truth-value assignment
+- True under some assignment
+- False under every assignment
+- Equivalent to its negation
+difficulty: beginner
+explanation: A tautology (e.g. P ∨ ¬P, or (P → Q) → (¬Q → ¬P)) evaluates to True for
+  all truth assignments. Its negation is a contradiction. Tautologies are the theorems
+  of propositional logic.
+kind: mc
+tags:
+- logic
+- tautology
+text: 'A tautology is a propositional formula that is:'

@@ -1,0 +1,12 @@
+kind: mc
+difficulty: beginner
+text: 'The characteristic of the field ℤ/pℤ (p prime) is:'
+explanation: char(ℤ/pℤ) = p because p·1 = 0 in ℤ/pℤ, and p is the smallest such positive integer.
+tags:
+- fields
+choices:
+- p
+- '0'
+- '1'
+- p−1
+answer: 0

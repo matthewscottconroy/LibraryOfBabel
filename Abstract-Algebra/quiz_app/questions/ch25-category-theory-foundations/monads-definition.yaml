@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Associativity μ(Tμ) = μ(μT) and unit laws μ(Tη) = μ(ηT) = id_T
+- μ is a natural isomorphism
+- T is an adjoint functor
+- η is a natural isomorphism
+difficulty: intermediate
+explanation: 'Monad axioms: μ ∘ T(μ) = μ ∘ μ_T (associativity) and μ ∘ T(η) = μ ∘
+  η_T = id_T (unit laws). Monads arise from adjunctions: every adjunction F ⊣ G gives
+  a monad T = GF.'
+kind: mc
+tags:
+- monad
+- unit-multiplication
+text: 'A monad on a category C is a triple (T, η, μ) where T: C → C, η: Id → T (unit),
+  μ: T² → T (multiplication) satisfying:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- ⊕_{V irred} V ⊗ V* (Hilbert direct sum over irreducible representations)
+- ⊕_{V irred} V
+- The regular representation of the Lie algebra
+- L²(G) ≅ L²(G/T) where T is a maximal torus
+difficulty: advanced
+explanation: 'Peter–Weyl: L²(G) ≅ ⊕̂_{V} V ⊗ V* as G×G-representations, with each
+  V appearing with multiplicity dim(V). The matrix coefficient functions give explicit
+  Fourier modes.'
+kind: mc
+tags:
+- Peter-Weyl
+- harmonic-analysis
+text: 'The Peter–Weyl theorem for a compact Lie group G states that L²(G) decomposes
+  as:'

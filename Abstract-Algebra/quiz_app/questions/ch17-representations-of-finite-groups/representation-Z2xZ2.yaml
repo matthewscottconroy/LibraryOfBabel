@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- '4'
+- '2'
+- '1'
+- '3'
+difficulty: beginner
+explanation: V₄ has 4 conjugacy classes (it is abelian, so each element is its own
+  conjugacy class). Hence it has exactly 4 irreducible representations, all 1-dimensional
+  (since ∑ n_i² = 4 forces all n_i = 1).
+kind: mc
+tags:
+- Klein-four-group
+- abelian
+text: The Klein four-group V₄ = ℤ/2 × ℤ/2 has how many irreducible complex representations?

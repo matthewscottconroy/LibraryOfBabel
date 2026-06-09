@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: "Over a principal ideal domain, every torsion-free module is flat."
+answer: true
+explanation: "Over a PID R, a module M is flat if and only if it is torsion-free. This follows because over a PID, every finitely generated module splits as a direct sum of a free part and a torsion part, and flatness can be tested on finitely generated ideals (all principal). In particular, submodules of free R-modules are free (hence flat), and a torsion-free module embeds in its localization which is flat."
+tags:
+  - flat-modules
+  - torsion
+  - pid

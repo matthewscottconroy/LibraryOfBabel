@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- 'The diagram where for each f: c → c'', the maps F(c'',c) ⇒ F(c,c) and F(c'',c'')
+  ⇒ F(c,c) are equalized'
+- All objects F(c,c)
+- 'F along the diagonal functor Δ: C → C^op × C'
+- All morphisms F(c,c') for c ≠ c'
+difficulty: advanced
+explanation: The coend ∫^c F(c,c) is the coequalizer of ∐_{f:c→c'} F(c',c) ⇒ ∐_c F(c,c)
+  (two maps given by composition with f on each argument). The Yoneda lemma, tensor
+  products of functors, and Day convolution are coend formulas.
+kind: mc
+tags:
+- coend
+- Yoneda
+text: 'The coend ∫^c F(c,c) for a functor F: C^op × C → D is the colimit of:'

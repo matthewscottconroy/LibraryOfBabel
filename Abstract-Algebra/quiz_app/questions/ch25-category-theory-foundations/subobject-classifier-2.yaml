@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- 'true: 1 → Ω along χ'
+- the diagonal Ω → Ω × Ω along χ
+- the identity Ω → Ω along χ
+- 'false: 1 → Ω along χ'
+difficulty: advanced
+explanation: 'The subobject classifier Ω and global section true: 1 → Ω: every sub-object
+  A ↪ X corresponds uniquely to its characteristic map χ_A: X → Ω, pulling true back
+  to A. In Set, Ω = {0,1} and true = {1}.'
+kind: mc
+tags:
+- subobject-classifier
+- elementary-topos
+text: 'An elementary topos has a subobject classifier Ω, meaning for each monomorphism
+  A ↪ X there is a unique morphism χ: X → Ω such that A is the pullback of:'

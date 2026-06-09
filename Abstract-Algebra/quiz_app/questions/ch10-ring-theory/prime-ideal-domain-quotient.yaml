@@ -1,0 +1,16 @@
+kind: blank
+difficulty: intermediate
+text: "An ideal P of a commutative ring R is prime if and only if the quotient ring R/P is an ___."
+choices:
+  - "integral domain"
+  - "domain"
+explanation: >
+  By definition P is prime iff: P ≠ R and ab ∈ P implies a ∈ P or b ∈ P. In the
+  quotient R/P this translates to: R/P has identity 1 ≠ 0 (since P ≠ R) and has no zero
+  divisors (since (a+P)(b+P) = 0+P implies ab ∈ P implies a ∈ P or b ∈ P). These are
+  exactly the conditions for R/P to be an integral domain.
+tags:
+  - prime-ideal
+  - quotient-ring
+  - integral-domain
+  - ring-theory

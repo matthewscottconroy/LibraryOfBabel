@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- k · v_k
+- (k+1) · v_k
+- n · v_k
+- '0'
+difficulty: beginner
+explanation: In V(n), H acts on the weight vector v_k by k·v_k, where k ∈ {n, n−2,
+  …, −n}. The weights are all integers of the same parity as n, each occurring with
+  multiplicity 1.
+kind: mc
+tags:
+- sl2
+- weight-vectors
+text: 'The irreducible sl₂-representation with highest weight n has a basis {v_n,
+  v_{n-2}, …, v_{-n}} where the action of H = diag(1,−1) on v_k is:'

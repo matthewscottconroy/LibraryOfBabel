@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- 9 axioms/schemas
+- 5 axioms
+- 20 axioms
+- An infinite list
+difficulty: beginner
+explanation: 'ZFC has 9 axioms/schemas: Extensionality, Pairing, Union, Power Set,
+  Infinity, Separation Schema, Replacement Schema, Foundation (Regularity), and Choice.
+  The schemas (Separation, Replacement) generate infinitely many axioms but are finitely
+  stated as schemas.'
+kind: mc
+tags:
+- ZFC
+- axioms
+text: The standard foundation for mathematics, ZFC set theory, consists of how many
+  axioms (including axiom schema)?

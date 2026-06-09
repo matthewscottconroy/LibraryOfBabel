@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- 0 → ⊕_{w∈W, ℓ(w)=n} M(w·λ) → ⋯ → M(λ) → L(λ) → 0
+- 0 → L(λ) → M(λ) → 0
+- 0 → M(0) → M(λ) → L(λ) → 0
+- 0 → ⊕_α M(sα·λ) → M(λ) → L(λ) → 0 (one step)
+difficulty: advanced
+explanation: 'BGG resolution: 0 → ⊕_{ℓ(w)=N} M(w·λ) → ⋯ → ⊕_{ℓ(w)=1} M(w·λ) → M(λ)
+  → L(λ) → 0 where N = |Φ⁺| and ℓ is Weyl group length. It is used to compute Lie
+  algebra cohomology (Kostant''s formula).'
+kind: mc
+tags:
+- bgg-resolution
+- verma-modules
+text: 'The BGG (Bernstein–Gelfand–Gelfand) resolution of a finite-dimensional irreducible
+  𝔤-module L(λ) is a resolution by Verma modules:'

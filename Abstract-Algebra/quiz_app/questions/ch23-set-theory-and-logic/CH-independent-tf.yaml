@@ -1,0 +1,11 @@
+kind: tf
+difficulty: intermediate
+text: "The Continuum Hypothesis (2^ℵ₀ = ℵ₁) is independent of ZFC."
+answer: true
+explanation: >
+  Gödel (1938) showed CH is consistent with ZFC by constructing the constructible universe L in which CH holds. Cohen (1963) showed ¬CH is consistent with ZFC using forcing: he built a model where 2^ℵ₀ = ℵ₂. Together these results establish that CH is independent of ZFC — it can neither be proved nor disproved from the ZFC axioms (assuming ZFC is consistent). This independence result opened the field of forcing and modern set theory.
+tags:
+  - continuum-hypothesis
+  - independence
+  - forcing
+  - tf

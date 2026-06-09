@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Products, equalizers, and pullbacks
+- Coproducts and pushouts
+- Colimits only
+- Initial objects only
+difficulty: intermediate
+explanation: Limits include products (discrete J), equalizers (J = •⇒•), pullbacks
+  (J = •→•←•), and terminal objects (empty J). Colimits (coproducts, coequalizers,
+  pushouts) are dual.
+kind: mc
+tags:
+- limits
+- category-theory
+text: 'A limit of a diagram F: J → C is an object lim F with cone morphisms that is
+  universal in the sense that every other cone factors through it uniquely. Examples
+  of limits include:'

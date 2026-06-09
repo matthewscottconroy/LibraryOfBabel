@@ -1,0 +1,10 @@
+answer: true
+difficulty: intermediate
+explanation: 'If [G:H] = 2, there are only two left cosets (H and G\H) and two right
+  cosets; since G\H must be both, H is normal. Proof: for g ∉ H, gH = G\H = Hg, so
+  gH = Hg; for g ∈ H, gH = H = Hg.'
+kind: tf
+tags:
+- subgroups
+- normal-subgroups
+text: Any subgroup of index 2 is normal.

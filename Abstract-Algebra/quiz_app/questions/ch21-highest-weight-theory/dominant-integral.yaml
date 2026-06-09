@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Dominant integral weights
+- All weights in P
+- Simple roots
+- Elements of the Weyl group
+difficulty: intermediate
+explanation: 'Cartan–Weyl: there is a bijection between dominant integral weights
+  λ ∈ P⁺ and isomorphism classes of finite-dimensional irreducible 𝔤-modules L(λ).
+  The module L(0) is the trivial representation; L(ωᵢ) are fundamental representations.'
+kind: mc
+tags:
+- dominant-weights
+- cartan-weyl
+text: 'A weight λ is dominant integral if ⟨λ, αᵥ⟩ ∈ ℤ_{≥0} for all positive coroots
+  αᵥ. By Cartan–Weyl theory, the irreducible finite-dimensional representations of
+  a semisimple Lie algebra are parametrized by:'

@@ -1,0 +1,12 @@
+kind: blank
+difficulty: advanced
+text: "The Weyl dimension formula gives dim L(λ) = ∏_{α>0} ⟨λ+ρ, α∨⟩ / ∏_{α>0} ⟨ρ, α∨⟩, where ρ denotes ___."
+choices:
+  - "the Weyl vector, equal to the sum of all fundamental weights (or equivalently half the sum of all positive roots)"
+  - "the highest root"
+explanation: >
+  The Weyl vector ρ = ω₁ + ... + ω_r = (1/2)Σ_{α>0} α is the half-sum of positive roots. It satisfies ⟨ρ, αᵢ∨⟩ = 1 for every simple root αᵢ. The denominator ∏⟨ρ,α∨⟩ is a positive integer (a product of positive integers), and the formula shows that dim L(λ) is always a positive integer. The formula is obtained from the Weyl character formula by specializing all exponentials to 1.
+tags:
+  - weyl-dimension-formula
+  - weyl-vector
+  - blank

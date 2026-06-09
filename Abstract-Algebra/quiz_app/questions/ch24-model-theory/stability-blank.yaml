@@ -1,0 +1,12 @@
+kind: blank
+difficulty: advanced
+text: "A complete theory T is called stable if for every model M and parameter set A, the number of complete types over A satisfies |S(A)| ≤ ___."
+choices:
+  - "|A| + 2^|T|"
+  - "2^|A|"
+explanation: >
+  A theory T is stable if for every set A of parameters, |S(A)| ≤ |A| + 2^|T|. Equivalently, T is stable iff it does not have the order property (cannot define an infinite linear order). The stability hierarchy (Shelah) classifies theories as stable, superstable, ω-stable, or strictly stable, with each class having progressively richer structure. Stable theories have well-behaved notions of independence (non-forking) and the geometric model theory that follows from Morley's theorem.
+tags:
+  - stability-theory
+  - stability-hierarchy
+  - blank

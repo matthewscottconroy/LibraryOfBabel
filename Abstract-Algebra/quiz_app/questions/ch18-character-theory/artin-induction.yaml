@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- A ℚ-linear combination of characters induced from cyclic subgroups
+- A ℤ-linear combination of characters induced from cyclic subgroups
+- A ℤ-linear combination of characters induced from all subgroups
+- Induced from a cyclic subgroup
+difficulty: advanced
+explanation: 'Artin''s theorem: every character is a ℚ-linear combination of induced
+  characters from cyclic subgroups. Brauer''s theorem strengthens this to an integral
+  (ℤ) linear combination from elementary subgroups.'
+kind: mc
+tags:
+- Artin-induction
+- cyclic-subgroups
+text: 'Artin''s induction theorem states that every character of G is:'

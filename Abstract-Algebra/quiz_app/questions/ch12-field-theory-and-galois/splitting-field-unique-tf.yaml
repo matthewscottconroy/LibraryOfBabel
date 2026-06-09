@@ -1,0 +1,8 @@
+kind: tf
+difficulty: beginner
+text: "The splitting field of a polynomial over F is unique up to isomorphism."
+answer: true
+explanation: "Any two splitting fields of a polynomial f ∈ F[x] are isomorphic as extensions of F. This follows by induction on the degree: if α is a root of an irreducible factor of f, adjoining α gives F(α) ≅ F[x]/(irred. factor), and one continues inductively. The isomorphism is not unique in general, which is precisely why the Galois group (the group of automorphisms fixing F) can be nontrivial."
+tags:
+  - splitting-field
+  - field-extensions

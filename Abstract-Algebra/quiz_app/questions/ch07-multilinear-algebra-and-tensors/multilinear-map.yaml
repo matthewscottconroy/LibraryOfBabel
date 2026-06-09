@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- It is linear in each argument separately when all others are fixed
+- It is linear in all arguments simultaneously
+- It is a linear map from the direct sum to W
+- It preserves all algebraic operations
+difficulty: beginner
+explanation: Multilinearity means f(…, λu + v, …) = λ f(…, u, …) + f(…, v, …) for
+  each slot independently. This is weaker than linearity in all arguments at once.
+kind: mc
+tags:
+- tensors
+- multilinear
+text: 'A map f: V₁ × ⋯ × Vₖ → W is multilinear if:'

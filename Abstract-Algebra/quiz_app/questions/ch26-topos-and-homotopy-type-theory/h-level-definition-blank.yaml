@@ -1,0 +1,13 @@
+kind: blank
+difficulty: intermediate
+text: "A type A is a proposition (h-level 1, also written isProp(A)) if for all x, y : A the identity type ___ is contractible. A type is a set (h-level 2) if all its identity types are propositions."
+choices:
+  - "x =_A y"
+  - "A"
+explanation: >
+  The h-levels (homotopy levels) classify types by the complexity of their identity types: h-level −1 means the empty type or a contractible type (h-level 0 in the HoTT book convention), h-level 1 (propositions) means all identity types are contractible (at most one path between any two points), h-level 2 (sets) means all identity types are propositions (all paths between any two points are equal). Higher h-levels correspond to groupoids, 2-groupoids, etc. The hierarchy is cumulative: every proposition is a set, every set is a 1-groupoid, etc.
+tags:
+  - h-levels
+  - h-levels-2
+  - blank
+  - homotopy-type-theory

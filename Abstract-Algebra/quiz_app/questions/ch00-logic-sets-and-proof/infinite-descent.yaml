@@ -1,0 +1,18 @@
+answer: 0
+choices:
+- If P(n) holds for some n, then P(m) holds for some m < n, giving an infinite descending
+  sequence
+- P(1) is false
+- P(n) ⟹ P(n+1)
+- The well-ordering principle fails
+difficulty: intermediate
+explanation: 'Infinite descent: assuming P(n) holds for some n yields a smaller positive
+  integer with P(m). Since ℕ has no infinite descending sequence (well-ordering),
+  no n satisfies P(n). Fermat used it to prove x⁴ + y⁴ = z⁴ has no positive integer
+  solutions.'
+kind: mc
+tags:
+- proof
+- induction
+text: 'Proof by infinite descent (Fermat) shows a statement P(n) is false for all
+  positive integers by demonstrating:'

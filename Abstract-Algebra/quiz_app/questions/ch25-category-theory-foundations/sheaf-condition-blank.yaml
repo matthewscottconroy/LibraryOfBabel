@@ -1,0 +1,12 @@
+kind: blank
+difficulty: advanced
+text: "A presheaf F: Open(X)^op → Set is a sheaf if it satisfies the sheaf condition: for every open cover {Uᵢ} of U, the natural map F(U) → ___ is an equalizer."
+choices:
+  - "{ (sᵢ) ∈ ∏ᵢ F(Uᵢ) : sᵢ|_{Uᵢ∩Uⱼ} = sⱼ|_{Uᵢ∩Uⱼ} for all i,j }"
+  - "∏ᵢ F(Uᵢ)"
+explanation: >
+  The sheaf condition says F(U) maps bijectively onto the set of compatible families of sections: tuples (sᵢ ∈ F(Uᵢ)) such that all pairwise restrictions agree (sᵢ|_{Uᵢ∩Uⱼ} = sⱼ|_{Uᵢ∩Uⱼ}). In categorical terms, F(U) → ∏ F(Uᵢ) ⇉ ∏ F(Uᵢ∩Uⱼ) is an equalizer diagram. This gluing/locality condition characterizes sheaves among presheaves, and its categorical generalization to Grothendieck topologies defines sheaves on a site.
+tags:
+  - sheaf-condition
+  - sheaf
+  - blank

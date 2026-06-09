@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- G∘F ≅ id_C and F∘G ≅ id_D
+- G∘F = id_C and F∘G = id_D (on the nose)
+- F and G are both isomorphisms of categories
+- C and D are isomorphic as categories
+difficulty: advanced
+explanation: 'Equivalence is weaker than isomorphism: we only need G∘F ≅ id (naturally
+  isomorphic, not equal). A functor is an equivalence iff it is fully faithful and
+  essentially surjective. Most ''same structure'' results in mathematics are equivalences.'
+kind: mc
+tags:
+- equivalence-of-categories
+- category-theory
+text: 'Two categories C and D are equivalent (C ≃ D) if there exist functors F: C
+  → D, G: D → C with natural isomorphisms:'

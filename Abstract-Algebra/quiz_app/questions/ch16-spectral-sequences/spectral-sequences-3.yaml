@@ -1,0 +1,12 @@
+kind: blank
+difficulty: advanced
+text: A spectral sequence with E₂^{p,q} converging to H^{p+q}(X) is called a ___ spectral sequence for
+  the given filtration.
+explanation: There are many named spectral sequences (Serre, Leray, Eilenberg-Moore, Adams) converging
+  to different targets.
+tags:
+- spectral-sequences
+choices:
+- Grothendieck
+- Leray-Serre
+- cohomological

@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- F(G) → C
+- C → F(G)
+- G → G
+- The identity functor
+difficulty: intermediate
+explanation: 'F(G) is the free category: formally, compose paths by concatenation.
+  This is left adjoint to the forgetful functor Cat → Graph. Free categories are the
+  categorical analogues of free monoids.'
+kind: mc
+tags:
+- free-category
+- universal-property
+text: 'The free category on a directed graph G has objects = vertices and morphisms
+  = paths (composable sequences of edges). The universal property: any map G → C (underlying
+  graph of a category C) extends uniquely to a functor:'

@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: "Two non-isomorphic complex representations of a finite group can have the same character."
+answer: false
+explanation: "Over ℂ, the character is a complete isomorphism invariant: two representations are isomorphic if and only if they have the same character. This follows because the character determines the multiplicity of each irreducible summand via the inner product formula mᵢ = ⟨χ_V, χᵢ⟩, and the multiplicities uniquely determine the isomorphism type by Maschke's theorem."
+tags:
+  - character
+  - isomorphism
+  - complete-reducibility

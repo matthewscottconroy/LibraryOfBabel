@@ -1,0 +1,12 @@
+choices:
+- nilradical
+difficulty: intermediate
+explanation: 'Nil(R) = {r ∈ R : rⁿ = 0 for some n} = ∩{P : P prime}. The quotient
+  R/Nil(R) is reduced (no nilpotents). The Jacobson radical J(R) is the intersection
+  of all maximal ideals.'
+kind: blank
+tags:
+- nilradical
+- ring-theory
+text: The ___ of a commutative ring R is the set of all nilpotent elements, and equals
+  the intersection of all prime ideals of R.

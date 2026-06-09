@@ -1,0 +1,10 @@
+kind: blank
+difficulty: beginner
+text: A square matrix A is ___ if it can be written as PDP⁻¹ where D is a diagonal matrix.
+explanation: 'Diagonalisable: A = PDP⁻¹ where the columns of P are eigenvectors and D lists eigenvalues.'
+tags:
+- eigenvalues
+- diagonalisation
+choices:
+- diagonalisable
+- diagonalizable

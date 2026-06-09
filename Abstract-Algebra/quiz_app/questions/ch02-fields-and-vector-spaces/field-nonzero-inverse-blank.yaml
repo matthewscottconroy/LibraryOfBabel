@@ -1,0 +1,11 @@
+kind: blank
+difficulty: beginner
+text: "A field is a commutative ring in which every ___ element has a multiplicative inverse."
+choices:
+  - "nonzero"
+  - "non-zero"
+explanation: "In a field (F, +, ·), the multiplicative structure (F \\ {0}, ·) must be an abelian group, meaning every nonzero element a has an element a⁻¹ with a·a⁻¹ = 1. The zero element is excluded because 0·x = 0 ≠ 1 for any x, so 0 cannot have a multiplicative inverse."
+tags:
+  - fields
+  - definitions
+  - ring-theory

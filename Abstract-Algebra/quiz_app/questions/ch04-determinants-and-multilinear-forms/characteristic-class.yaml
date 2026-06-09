@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- The top exterior power Λⁿ(V) (a 1-dimensional space)
+- V itself
+- The tensor product V ⊗ V
+- The symmetric square S²(V)
+difficulty: advanced
+explanation: det T is the unique scalar λ with T*(ω) = λω for ω ∈ Λⁿ(V) \ {0}. This
+  basis-free definition shows det is intrinsic to T (not the matrix). It equals any
+  n×n matrix determinant of T in any basis.
+kind: mc
+tags:
+- determinants
+- exterior-algebra
+text: 'The determinant of a linear map T: V → V can be defined intrinsically (without
+  a basis) as the scalar by which T acts on:'

@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Each irreducible G-representation appears at most once in V
+- V is irreducible
+- V has only one weight with multiplicity > 1
+- V is the regular representation
+difficulty: advanced
+explanation: A multiplicity-free representation decomposes as a direct sum of distinct
+  irreducibles (no isomorphic summands repeated). Multiplicity-free branching (restriction
+  from G to H) is central in combinatorics and special functions.
+kind: mc
+tags:
+- multiplicity-free
+- decomposition
+text: 'A representation V of G is called multiplicity-free if:'

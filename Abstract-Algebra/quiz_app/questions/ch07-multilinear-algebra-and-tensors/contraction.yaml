@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- (1,1)
+- (2,2)
+- (0,0)
+- (2,0)
+difficulty: advanced
+explanation: Contracting one upper and one lower index reduces each count by 1. A
+  (2,2) tensor contracted on one upper/lower pair gives a (1,1) tensor. Contracting
+  all indices gives a scalar.
+kind: mc
+tags:
+- tensors
+- contraction
+text: 'The contraction (or trace) of a tensor T^{ij}_{kl} on indices i and k yields
+  a tensor of type:'

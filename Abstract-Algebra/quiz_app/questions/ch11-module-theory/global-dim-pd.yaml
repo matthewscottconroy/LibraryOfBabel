@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Hereditary rings
+- Regular rings
+- Dedekind domains only
+- Local rings
+difficulty: intermediate
+explanation: 'Hereditary rings (global dimension ≤ 1): submodules of projectives are
+  projective ↔ Ext² = 0 ↔ projective dimension of every module ≤ 1. Examples: PIDs
+  (hereditary domains), Dedekind domains, semisimple rings.'
+kind: mc
+tags:
+- global-dimension
+- hereditary-rings
+text: 'A ring R has global dimension 0 iff it is semisimple Artinian. Global dimension
+  1 means every submodule of a projective module is projective; such rings are called:'

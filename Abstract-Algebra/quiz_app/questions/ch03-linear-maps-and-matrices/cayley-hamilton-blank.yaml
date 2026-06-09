@@ -1,0 +1,10 @@
+kind: blank
+difficulty: intermediate
+text: "The Cayley-Hamilton theorem states that every square matrix satisfies its own ___ polynomial."
+choices:
+  - "characteristic"
+explanation: "The characteristic polynomial of A ∈ Mₙ(F) is p(λ) = det(λI - A). The Cayley-Hamilton theorem asserts p(A) = 0 (the zero matrix). This means every matrix is a root of its own characteristic polynomial, and it implies the minimal polynomial divides the characteristic polynomial."
+tags:
+  - cayley-hamilton
+  - characteristic-polynomial
+  - matrices

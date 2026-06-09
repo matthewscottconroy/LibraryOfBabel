@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- The universal highest weight module with highest weight λ
+- The unique irreducible module with highest weight λ
+- A finite-dimensional module when λ is dominant
+- A projective module in the category O
+difficulty: advanced
+explanation: 'M(λ) = U(g) ⊗_{U(b)} ℂ_λ is the universal highest weight module: any
+  highest weight module with weight λ is a quotient of M(λ). It has a unique irreducible
+  quotient L(λ).'
+kind: mc
+tags:
+- Verma-module
+- category-O
+text: 'The Verma module M(λ) for a weight λ ∈ h* is characterized as:'

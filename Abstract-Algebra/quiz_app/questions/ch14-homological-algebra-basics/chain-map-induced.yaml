@@ -1,0 +1,15 @@
+kind: blank
+difficulty: intermediate
+text: "A chain map f•: C• → D• (a collection of module maps commuting with the boundary operators) induces ___ fₙ*: Hₙ(C) → Hₙ(D) on homology for each n."
+choices:
+  - "homomorphisms"
+  - "well-defined group homomorphisms"
+explanation: >
+  Because f commutes with the boundary, it carries cycles to cycles and boundaries
+  to boundaries, so the assignment [z] ↦ [f(z)] is well-defined on homology classes.
+  The resulting maps fₙ*: Hₙ(C) → Hₙ(D) are R-module homomorphisms, and this
+  construction is functorial: (g∘f)* = g*∘f*.
+tags:
+  - chain-map
+  - homology
+  - functoriality

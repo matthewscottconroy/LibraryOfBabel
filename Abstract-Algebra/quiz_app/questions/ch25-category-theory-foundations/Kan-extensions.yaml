@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A natural transformation F → G ∘ K and G is initial with this property
+- A natural transformation G ∘ K → F
+- G is the right adjoint to K*
+- G composed with K equals F on the nose
+difficulty: intermediate
+explanation: 'Lan_K F is the left Kan extension: it comes with α: F → (Lan_K F)∘K
+  and is universal (initial) among such pairs (G, β: F → G∘K). ''All concepts are
+  Kan extensions'' (Mac Lane).'
+kind: mc
+tags:
+- Kan-extension
+- universal-property
+text: 'The left Kan extension Lan_K F of F: C → E along K: C → D is the universal
+  functor G: D → E with:'

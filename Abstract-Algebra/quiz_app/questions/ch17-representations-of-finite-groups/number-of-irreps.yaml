@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- The number of conjugacy classes of G
+- The order of G
+- The number of normal subgroups
+- The rank of the center Z(G)
+difficulty: intermediate
+explanation: Over ℂ, the number of irreducible representations equals the number of
+  conjugacy classes. This follows from the fact that the character table is a square
+  matrix and characters form an orthonormal basis for class functions.
+kind: mc
+tags:
+- number-of-irreps
+- conjugacy-classes
+text: 'The number of inequivalent irreducible complex representations of a finite
+  group G equals:'

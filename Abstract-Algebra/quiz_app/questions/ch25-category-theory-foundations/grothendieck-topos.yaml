@@ -1,0 +1,13 @@
+kind: mc
+difficulty: advanced
+text: 'A Grothendieck topos is a category equivalent to:'
+explanation: Grothendieck topos = Sh(C, J) for some site (C, J). Every Grothendieck topos is an elementary
+  topos.
+tags:
+- grothendieck-topos
+choices:
+- sheaves on a site (C, J)
+- presheaves on a small category
+- Set
+- a localisation of a site
+answer: 0

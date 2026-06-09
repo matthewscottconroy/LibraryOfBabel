@@ -1,0 +1,13 @@
+kind: tf
+difficulty: beginner
+text: "In a Noetherian ring, every ascending chain of ideals I₁ ⊆ I₂ ⊆ I₃ ⊆ ··· eventually stabilizes."
+answer: true
+explanation: >
+  This is the definition of a Noetherian ring (ascending chain condition, or ACC, on
+  ideals). Equivalently, a ring is Noetherian iff every ideal is finitely generated. By
+  Hilbert's basis theorem, if R is Noetherian then R[x] is also Noetherian, which is the
+  foundational result of commutative algebra and algebraic geometry.
+tags:
+  - noetherian
+  - ideals
+  - ring-theory

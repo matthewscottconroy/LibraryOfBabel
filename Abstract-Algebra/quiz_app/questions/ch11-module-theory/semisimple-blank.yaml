@@ -1,0 +1,10 @@
+kind: blank
+difficulty: intermediate
+text: "A module M is ___ if every submodule of M is a direct summand of M."
+choices:
+  - "semisimple"
+  - "completely reducible"
+explanation: "A semisimple (equivalently, completely reducible) module is one in which every submodule splits off as a direct summand. Equivalently, M is a direct sum of simple submodules. This notion generalises the concept of a semisimple algebra acting on a representation."
+tags:
+  - semisimple-module
+  - direct-summand

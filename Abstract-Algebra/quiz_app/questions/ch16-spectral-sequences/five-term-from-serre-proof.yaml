@@ -1,0 +1,29 @@
+kind: proof
+difficulty: advanced
+text: >
+  Theorem. For a fibration F → E → B with B simply connected, the Serre spectral sequence
+  yields a five-term exact sequence in low degrees:
+  H²(B) → H²(E) → H²(F)^{π₁} → H³(B) → H³(E).
+  (Here we work with cohomology; in homology there is a dual five-term sequence.)
+proof_lines:
+  - "On the E₂ page (with ℤ coefficients for simplicity), consider the nonzero groups in total degree 2: E₂^{2,0} = H²(B), E₂^{1,1} = H¹(B;H¹(F)), and E₂^{0,2} = H²(F)."
+  - "The differential d₂: E₂^{0,1} → E₂^{2,0} is the transgression in degree 1. The groups E₂^{p,q} = 0 for p < 0 or q < 0, so differentials dᵣ for r ≥ 3 landing in or leaving bidegrees contributing to H² are ___."
+  - "Thus E₃^{2,0} = ker(d₂: E₂^{2,0} → E₂^{0,2}) ... wait — d₂ goes from E₂^{p,q} to E₂^{p+2,q-1}, so d₂: E₂^{0,1} → E₂^{2,0}. The group E_∞^{2,0} = ___ (the part of H²(E) from the base)."
+  - "The edge homomorphism π*: H²(B) = E₂^{2,0} ↠ E_∞^{2,0} ↪ H²(E) is the pullback along π: E → B, and the map H²(E) → E_∞^{0,2} ↪ E₂^{0,2} = H²(F) is the restriction to the fiber."
+  - "Splicing the filtration on H²(E) and using exactness of the edge maps produces the five-term exact sequence, where the connecting map H²(F) → H³(B) is ___."
+fills:
+  - "automatically zero (there are no nonzero groups to map between at those bidegrees)"
+  - "E₃^{2,0} = ker(d₂: E₂^{2,0} → E₂^{0,3}) = E₂^{2,0} since E₂^{0,3} sits in a different degree"
+  - "the transgression d₂ (or higher differentials) in the spectral sequence"
+explanation: >
+  The first blank observes that the first-quadrant condition forces many differentials
+  to be zero simply because their source or target is in the zero region, limiting which
+  differentials can affect low-degree groups. The second blank identifies E∞^{2,0}
+  precisely, requiring careful tracking of which d₂ maps affect the (2,0) position.
+  The third blank identifies the connecting map in the five-term sequence as the
+  transgression, the key non-trivial differential in the spectral sequence.
+tags:
+  - serre-spectral-sequence
+  - five-term-exact-sequence
+  - proof
+  - edge-homomorphisms

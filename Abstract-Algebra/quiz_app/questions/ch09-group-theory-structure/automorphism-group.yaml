@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- (ℤ/nℤ)× (units mod n, under multiplication)
+- ℤ/nℤ
+- Sₙ
+- ℤ/φ(n)ℤ
+difficulty: intermediate
+explanation: Aut(ℤ/nℤ) ≅ (ℤ/nℤ)× (invertible elements mod n). An automorphism is determined
+  by the image of 1, which must be a generator of ℤ/nℤ, i.e., an element of order
+  n, i.e., a unit. |(ℤ/nℤ)×| = φ(n) (Euler's totient).
+kind: mc
+tags:
+- automorphisms
+- cyclic-groups
+text: 'For a cyclic group ℤ/nℤ, the automorphism group Aut(ℤ/nℤ) is isomorphic to:'

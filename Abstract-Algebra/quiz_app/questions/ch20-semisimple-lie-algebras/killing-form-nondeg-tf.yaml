@@ -1,0 +1,11 @@
+kind: tf
+difficulty: intermediate
+text: "A Lie algebra g over ℂ is semisimple if and only if its Killing form is non-degenerate."
+answer: true
+explanation: >
+  This is Cartan's criterion for semisimplicity: g is semisimple if and only if the Killing form B(X,Y) = tr(ad X ∘ ad Y) is non-degenerate. One direction uses the fact that the radical rad(g) is contained in the radical of B; the other uses that a Lie algebra with non-degenerate Killing form must have trivial radical. This criterion is fundamental because it connects the algebraic property of semisimplicity with a computable bilinear form.
+tags:
+  - killing-form
+  - semisimple
+  - cartan-criterion
+  - tf

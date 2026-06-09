@@ -1,0 +1,15 @@
+kind: blank
+difficulty: beginner
+text: "By the Chinese Remainder Theorem, ℤ/mnℤ ≅ ℤ/mℤ × ℤ/nℤ (as rings) when gcd(m, n) = ___."
+choices:
+  - "1"
+  - "one (m and n are coprime)"
+explanation: >
+  Coprimality is the necessary and sufficient condition. When gcd(m,n) = 1 the ideals
+  mℤ and nℤ satisfy mℤ + nℤ = ℤ (comaximal ideals), which is precisely the condition
+  for the Chinese Remainder Theorem to apply. The isomorphism is given by the map
+  a (mod mn) ↦ (a mod m, a mod n).
+tags:
+  - chinese-remainder
+  - ring-theory
+  - isomorphism

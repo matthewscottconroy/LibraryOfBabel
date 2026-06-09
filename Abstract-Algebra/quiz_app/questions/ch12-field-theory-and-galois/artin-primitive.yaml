@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- '|G|'
+- '|G|/2'
+- '|G|² '
+- '1'
+difficulty: advanced
+explanation: 'Artin: [L:L^G] = |G| and Gal(L/L^G) = G. This is the converse direction
+  to the Fundamental Theorem: given a group of automorphisms, it is the Galois group
+  of the extension over the fixed field. Used to show splitting fields are Galois.'
+kind: mc
+tags:
+- galois-theory
+- artin-theorem
+text: 'Artin''s theorem: if G is a finite group of automorphisms of a field L, then
+  L/L^G is a Galois extension of degree:'

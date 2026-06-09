@@ -1,0 +1,16 @@
+kind: blank
+difficulty: intermediate
+text: "The number of conjugates of a subgroup H in G equals [G : ___]."
+choices:
+  - "N_G(H)"
+  - "the normalizer of H in G"
+explanation: >
+  The conjugates of H are the subgroups gHg⁻¹ as g ranges over G. Two elements g and g'
+  give the same conjugate iff g'g⁻¹ ∈ N_G(H), so the conjugates are in bijection with
+  the left cosets of N_G(H) in G. Thus the number of distinct conjugates equals
+  [G : N_G(H)], the index of the normalizer.
+tags:
+  - normalizer
+  - conjugacy
+  - cosets
+  - group-theory

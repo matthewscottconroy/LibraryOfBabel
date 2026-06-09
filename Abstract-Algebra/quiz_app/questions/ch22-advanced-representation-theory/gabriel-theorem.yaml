@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- The underlying undirected graph is a Dynkin diagram of type ADE
+- The quiver is acyclic
+- The quiver has at most 4 vertices
+- All arrows point in the same direction
+difficulty: advanced
+explanation: 'Gabriel''s theorem: a connected quiver has finite representation type
+  iff its underlying graph is a Dynkin diagram (A_n, D_n, E_6, E_7, E_8). Moreover,
+  the indecomposables biject with positive roots of the corresponding root system.'
+kind: mc
+tags:
+- Gabriel-theorem
+- quiver-representations
+text: 'Gabriel''s theorem on quiver representations states that a quiver has only
+  finitely many indecomposable representations if and only if:'

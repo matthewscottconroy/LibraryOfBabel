@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- The smallest positive integer n with n·1 = 0, or 0 if none exists
+- The number of elements of F
+- The dimension of F over its prime subfield
+- Always a prime number if F is finite
+difficulty: intermediate
+explanation: char(F) is the additive order of 1 ∈ F. If 1 has infinite additive order,
+  char(F) = 0 (e.g. ℚ, ℝ, ℂ). Otherwise char(F) must be prime, as F has no zero divisors.
+kind: mc
+tags:
+- fields
+- characteristic
+text: 'The characteristic of a field F is:'

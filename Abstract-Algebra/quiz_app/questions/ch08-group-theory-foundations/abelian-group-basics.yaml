@@ -1,0 +1,9 @@
+answer: true
+difficulty: beginner
+explanation: If |G| = p prime, any non-identity g has order dividing p, so ord(g)
+  = p, meaning g generates G. Thus G = ⟨g⟩ ≅ ℤ/pℤ, which is abelian.
+kind: tf
+tags:
+- cyclic-groups
+- abelian-groups
+text: Every group of prime order is cyclic and hence abelian.

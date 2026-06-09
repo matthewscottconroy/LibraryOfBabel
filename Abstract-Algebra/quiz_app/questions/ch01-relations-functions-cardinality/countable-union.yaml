@@ -1,0 +1,10 @@
+answer: true
+difficulty: intermediate
+explanation: If each Aₙ is countable and there are countably many sets, one can arrange
+  all elements in a grid and traverse it diagonally, showing the union is countable.
+  This requires the Axiom of Choice in its full generality.
+kind: tf
+tags:
+- cardinality
+- countable
+text: A countable union of countable sets is countable.

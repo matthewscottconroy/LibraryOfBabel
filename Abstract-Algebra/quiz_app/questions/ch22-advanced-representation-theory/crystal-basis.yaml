@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A basis with combinatorial raising/lowering operators ẽ_i, f̃_i defined over q=0
+- A basis that is orthonormal with respect to the Killing form
+- The set of extremal weight vectors
+- A canonical basis in the sense of Lusztig
+difficulty: advanced
+explanation: Kashiwara's crystal basis is a basis at q=0 of the quantum group representation
+  V_q(λ), with crystal operators ẽ_i, f̃_i giving a combinatorial (crystal graph)
+  structure. It captures the combinatorics of weight multiplicities.
+kind: mc
+tags:
+- crystal-basis
+- quantum-groups
+text: 'A crystal basis (in the sense of Kashiwara) of a representation V(λ) consists
+  of:'

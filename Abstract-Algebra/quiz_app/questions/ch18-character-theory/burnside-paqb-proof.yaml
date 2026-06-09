@@ -1,0 +1,25 @@
+kind: proof
+difficulty: advanced
+text: "Burnside's pᵃqᵇ Theorem: A finite group G of order pᵃqᵇ (p, q distinct primes) is solvable."
+proof_lines:
+  - "It suffices to show every group of order pᵃqᵇ has a proper nontrivial normal subgroup, then induct. The key ingredient is the following character-theoretic lemma: if χ is an irreducible character of G of degree n and C is a conjugacy class of G with |C| coprime to n, then for any g ∈ C either χ(g) = 0 or ___."
+  - "Using this lemma: a Sylow q-subgroup Q of G has a nontrivial center Z(Q). For a nonidentity element g ∈ Z(Q), the conjugacy class C_G(g) has size [G:C_G(g)] dividing pᵃ. If χ is an irreducible character of degree divisible by q, then gcd(|C_G(g)|, deg χ) is a power of p and hence coprime to ___."
+  - "Applying the lemma, either χ(g) = 0 or ρ(g) is a scalar. Summing over all irreducible characters via the second orthogonality relation applied at g and 1, one deduces that g is in the kernel of some irreducible representation, giving a proper normal subgroup N = ___."
+  - "Since every group of prime power order is nilpotent (hence solvable), an induction on |G| using the proper normal subgroup N and the quotient G/N—both of order pᵃ'qᵇ' with a' + b' < a + b—completes the proof that G is ___."
+fills:
+  - "ρ(g) is a scalar multiple of the identity"
+  - "deg χ"
+  - "ker χ"
+  - "solvable"
+explanation: >
+  The first blank is the core lemma of the proof: when |C| and deg(χ) are coprime, the character
+  value χ(g)/deg(χ) is an algebraic integer of absolute value at most 1, and a careful argument
+  with algebraic integers forces either χ(g) = 0 or ρ(g) is scalar. The second blank identifies
+  that the conjugacy class size is a p-power while the irreducible degree is divisible by q, making
+  them coprime. The third blank names the proper normal subgroup produced: the kernel of a
+  non-trivial irreducible representation. The final blank states the inductive conclusion.
+tags:
+  - burnside-theorem
+  - solvable-groups
+  - character-theory
+  - proof

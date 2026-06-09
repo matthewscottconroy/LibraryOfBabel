@@ -1,0 +1,12 @@
+kind: blank
+difficulty: advanced
+text: "In the representation L(λ), the multiplicity of a weight μ can be computed using the Freudenthal formula, which expresses mult(μ) recursively in terms of multiplicities of ___ weights."
+choices:
+  - "higher weights μ + kα for positive roots α and k ≥ 1"
+  - "lower weights"
+explanation: >
+  The Freudenthal multiplicity formula is: (⟨λ+ρ,λ+ρ⟩ − ⟨μ+ρ,μ+ρ⟩) mult(μ) = 2 Σ_{α>0} Σ_{k≥1} ⟨μ+kα, α⟩ mult(μ+kα). It expresses mult(μ) in terms of multiplicities of the strictly higher weights μ+kα, allowing inductive computation starting from mult(λ) = 1. This is more efficient than the Weyl character formula for computing individual multiplicities.
+tags:
+  - freudenthal-multiplicity
+  - weight-spaces
+  - blank

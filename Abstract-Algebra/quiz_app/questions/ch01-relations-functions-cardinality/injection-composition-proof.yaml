@@ -1,0 +1,21 @@
+kind: proof
+difficulty: beginner
+text: "If f: A → B and g: B → C are both injective, then g∘f: A → C is injective."
+proof_lines:
+  - "Let a₁, a₂ ∈ A and suppose (g∘f)(a₁) = (g∘f)(a₂), i.e., g(f(a₁)) = g(f(a₂))."
+  - "Since g is injective, we conclude f(a₁) = ___."
+  - "Since f is injective, we conclude a₁ = ___."
+  - "Thus g∘f is injective."
+fills:
+  - "f(a₂)"
+  - "a₂"
+explanation: >
+  The proof unwinds the composition by applying injectivity of the outer function first,
+  then the inner. The fill 'f(a₂)' follows directly from g being injective applied to the
+  hypothesis g(f(a₁)) = g(f(a₂)). The fill 'a₂' then follows from f being injective
+  applied to f(a₁) = f(a₂), completing the chain back to the original inputs.
+tags:
+  - functions
+  - injective
+  - composition
+  - proof

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- An injective field homomorphism
+- A surjective but not injective map
+- An additive but not multiplicative map
+- The identity map
+difficulty: intermediate
+explanation: φ(xy) = (xy)ᵖ = xᵖyᵖ and φ(x+y) = (x+y)ᵖ = xᵖ + yᵖ (freshman's dream,
+  using char p). Fields have no zero divisors, so φ is injective. For finite fields,
+  it is an automorphism.
+kind: mc
+tags:
+- frobenius
+- field-theory
+text: 'In a field of characteristic p, the Frobenius endomorphism is the map φ: x
+  ↦ xᵖ. It is:'

@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Σᵢ χᵢ(g) χᵢ(h̅) = |C_G(g)| δ_{[g],[h]}
+- Σᵢ χᵢ(g) χᵢ(h) = 0 for all g ≠ h
+- Σᵢ χᵢ(g)² = 1
+- Σᵢ |χᵢ(g)|² = |G|
+difficulty: intermediate
+explanation: 'Column orthogonality: summing over irreps, Σᵢ χᵢ(g)χᵢ(h̅) = |C_G(g)|
+  if g,h are conjugate and 0 otherwise. Together with row orthogonality, the character
+  table is a unitary matrix (after normalizing).'
+kind: mc
+tags:
+- character-orthogonality
+- character-theory
+text: 'The second (column) orthogonality relation for characters states:'

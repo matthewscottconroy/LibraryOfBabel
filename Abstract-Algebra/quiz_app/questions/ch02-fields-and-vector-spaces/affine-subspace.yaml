@@ -1,0 +1,12 @@
+choices:
+- affine
+difficulty: intermediate
+explanation: Affine subspaces are translates of subspaces. Unlike subspaces, they
+  need not contain 0. The cosets of a subspace W form the quotient vector space V/W.
+  Lines and planes not through the origin in ℝⁿ are affine subspaces.
+kind: blank
+tags:
+- vector-spaces
+- affine
+text: 'An ___ subspace (or coset) of a vector space V is a set of the form v + W =
+  {v + w : w ∈ W} for a fixed vector v and subspace W.'

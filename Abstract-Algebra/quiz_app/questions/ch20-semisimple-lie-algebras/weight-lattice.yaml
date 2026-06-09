@@ -1,0 +1,12 @@
+choices:
+- weight lattice
+difficulty: intermediate
+explanation: 'The weight lattice P contains the root lattice Q = ℤΦ with finite index
+  |P/Q| = det(Cartan matrix). Dominant integral weights P⁺ = {λ ∈ P : ⟨λ,αᵢᵥ⟩ ≥ 0}
+  index finite-dimensional irreps by Cartan–Weyl theory.'
+kind: blank
+tags:
+- weight-lattice
+- root-systems
+text: 'The ___ of a root system is the set P = {λ ∈ 𝔥*_ℝ : ⟨λ,αᵥ⟩ ∈ ℤ for all roots
+  α}, where αᵥ = 2α/⟨α,α⟩.'

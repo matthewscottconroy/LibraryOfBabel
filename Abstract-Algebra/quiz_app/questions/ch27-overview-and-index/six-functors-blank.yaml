@@ -1,0 +1,12 @@
+kind: blank
+difficulty: advanced
+text: "Grothendieck's six functor formalism for a morphism f: X → Y consists of six functors: the direct image f_*, the ___, the exceptional direct image f_!, the exceptional inverse image f^!, the tensor product ⊗^L, and the internal Hom RHom."
+choices:
+  - "inverse image f*"
+  - "pushforward f₊"
+explanation: >
+  The six functors are f*, f_*, f^!, f_!, ⊗^L, RHom. They satisfy adjunctions: (f^* ⊣ f_*), (f_! ⊣ f^!), (−⊗^L A ⊣ RHom(A,−)), and base change isomorphisms. For a proper map f_! = f_*; for an open embedding f^! = f^*. The formalism operates in derived categories of sheaves (or D-modules, or ℓ-adic sheaves) and is the structural backbone of modern algebraic geometry, perverse sheaves, and the geometric Langlands program.
+tags:
+  - six-functors
+  - blank
+  - overview-connections

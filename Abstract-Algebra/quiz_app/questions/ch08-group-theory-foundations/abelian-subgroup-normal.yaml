@@ -1,0 +1,12 @@
+kind: tf
+difficulty: beginner
+text: "Every subgroup of an abelian group is normal."
+answer: true
+explanation: >
+  In an abelian group G, every element commutes with every other element, so for any
+  subgroup H and any g ∈ G we have gHg⁻¹ = Hgg⁻¹ = H. Thus gHg⁻¹ = H for all g ∈ G,
+  which is precisely the condition for H to be normal in G.
+tags:
+  - abelian-groups
+  - normal-subgroups
+  - group-theory

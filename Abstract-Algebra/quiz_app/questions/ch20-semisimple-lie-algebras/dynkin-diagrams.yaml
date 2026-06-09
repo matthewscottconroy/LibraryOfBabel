@@ -1,0 +1,10 @@
+kind: blank
+difficulty: advanced
+text: The simple Lie algebras over ℂ are classified by connected ___ diagrams.
+explanation: 'Dynkin diagrams classify the simple Lie algebras: Aₙ, Bₙ, Cₙ, Dₙ and five exceptionals G₂,
+  F₄, E₆, E₇, E₈.'
+tags:
+- dynkin-diagrams
+- classification
+choices:
+- Dynkin

@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- The right derived functors of Hom_R(−,M) and related cohomology
+- The free resolution of M
+- Tor functors
+- Projective dimension of M
+difficulty: intermediate
+explanation: Applying a left-exact functor to an injective resolution and taking homology
+  gives right derived functors. For Hom_R(N,−), applying to an injective resolution
+  of M gives Ext^n_R(N,M).
+kind: mc
+tags:
+- injective-resolutions
+- derived-functors
+text: 'An injective resolution 0 → M → I⁰ → I¹ → ⋯ of a module M is used to compute:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- H*(E) ≅ H*(B) ⊗ H*(F)
+- H*(E) ≅ H*(F) ⊗ H*(F)
+- H*(E) ≅ H*(B) ⊕ H*(F)
+- H*(E) ≅ Hom(H*(B), H*(F))
+difficulty: advanced
+explanation: Leray–Hirsch states that when cohomology classes from the fiber can be
+  globally chosen (i.e., restrict to generators on each fiber), H*(E) ≅ H*(B) ⊗_ℤ
+  H*(F) as H*(B)-modules.
+kind: mc
+tags:
+- Leray-Hirsch
+- fiber-bundle
+text: 'The Leray–Hirsch theorem implies that if H*(F) injects into H*(E) via pullback,
+  then as H*(B)-modules:'

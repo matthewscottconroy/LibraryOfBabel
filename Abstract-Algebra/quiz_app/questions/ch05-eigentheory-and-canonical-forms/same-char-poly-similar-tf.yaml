@@ -1,0 +1,14 @@
+kind: tf
+difficulty: intermediate
+text: "Two n×n matrices with the same characteristic polynomial are necessarily similar."
+answer: false
+explanation: >
+  Having the same characteristic polynomial does not imply similarity. A standard counterexample:
+  the 4×4 matrices diag(J₂(0), J₂(0)) and diag(J₃(0), J₁(0)) both have characteristic polynomial λ⁴,
+  but they have different Jordan normal forms and are therefore not similar. Similarity requires
+  identical Jordan forms (over ℂ), which depends on the sizes of Jordan blocks, not merely the
+  eigenvalues and their algebraic multiplicities.
+tags:
+  - characteristic-polynomial
+  - jordan-normal-form
+  - similarity

@@ -1,0 +1,10 @@
+kind: tf
+difficulty: advanced
+text: "Kontsevich's homological mirror symmetry conjecture states that for mirror dual Calabi–Yau manifolds X and X∨, the derived category of coherent sheaves on X is equivalent to the Fukaya category of X∨."
+answer: true
+explanation: >
+  Homological mirror symmetry (HMS, Kontsevich 1994) conjectures an equivalence D^b(Coh(X)) ≅ D^b(Fuk(X∨)) between the bounded derived category of coherent sheaves on X (B-model) and the derived Fukaya category of X∨ (A-model). The Fukaya category is an A∞-category whose objects are Lagrangian submanifolds and morphisms are Floer chain groups. HMS has been proved in many cases (elliptic curves by Polishchuk–Zaslow, quartic surfaces, etc.) and is a central conjecture connecting symplectic geometry, algebraic geometry, and physics.
+tags:
+  - homological-mirror-symmetry
+  - tf
+  - overview-connections

@@ -1,0 +1,15 @@
+kind: mc
+difficulty: advanced
+text: 'The ∞-topos of spaces (∞-Gpd) provides a model for HoTT via:'
+explanation: 'Voevodsky''s simplicial set model: types = Kan complexes, paths = 1-simplices, higher paths
+  = higher simplices.'
+tags:
+- infinity-topos
+- simplicial-sets
+- HoTT
+choices:
+- Kan complexes as types, fibrations as dependent types
+- simplicial sets without the Kan condition
+- topological spaces with the classical topology
+- sets with discrete homotopy type
+answer: 0

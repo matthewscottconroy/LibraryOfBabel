@@ -1,0 +1,12 @@
+kind: blank
+difficulty: intermediate
+text: "Zorn's lemma states: if P is a nonempty partially ordered set in which every ___ has an upper bound in P, then P has a maximal element."
+choices:
+  - "chain (totally ordered subset)"
+  - "directed subset"
+explanation: >
+  Zorn's lemma: if every chain (totally ordered subset) in a nonempty poset P has an upper bound in P, then P contains a maximal element. The condition on chains (not all subsets) is crucial — it does not require every subset to be bounded, only every totally ordered one. Zorn's lemma is equivalent to the Axiom of Choice over ZF set theory, and it is the standard tool for proving existence results in algebra (maximal ideals, bases of vector spaces, etc.).
+tags:
+  - zorns-lemma
+  - axiom-of-choice
+  - blank

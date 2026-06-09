@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- '{∅, {∅}, {∅,{∅}}, …} = ℕ'
+- '{1,2,3,…}'
+- ℝ
+- '{ω}'
+difficulty: intermediate
+explanation: 'Von Neumann ordinals: 0 = ∅, 1 = {∅}, 2 = {∅,{∅}}, …, n = {0,1,…,n-1},
+  ω = {0,1,2,…} = ℕ. Each ordinal is the set of all smaller ordinals. The order ∈
+  is a well-order on any ordinal.'
+kind: mc
+tags:
+- ordinals
+- set-theory
+text: 'An ordinal (in von Neumann''s definition) is a transitive set well-ordered
+  by ∈. The first infinite ordinal ω equals:'

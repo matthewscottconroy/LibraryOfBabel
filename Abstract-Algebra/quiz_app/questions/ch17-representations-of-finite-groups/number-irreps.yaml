@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- The number of conjugacy classes of G
+- '|G|'
+- The number of subgroups of G
+- The number of generators of G
+difficulty: intermediate
+explanation: The number of irreps equals the number of conjugacy classes (both equal
+  the dimension of the center of F[G] as a vector space). This is a key fact in character
+  theory.
+kind: mc
+tags:
+- irreducible-representations
+- character-theory
+text: 'Over an algebraically closed field of characteristic 0, the number of irreducible
+  representations of a finite group G equals:'

@@ -1,0 +1,10 @@
+kind: blank
+difficulty: advanced
+text: "A functor that has both a left adjoint and a right adjoint is sometimes called ___."
+choices:
+  - "ambidextrous (or a Frobenius functor)"
+  - "ambidextrous"
+explanation: "A functor F is ambidextrous (or biadjoint) when it sits in a diagram L ⊣ F ⊣ R, admitting both a left adjoint L and a right adjoint R. Such functors arise naturally in representation theory (restriction functors between module categories can be ambidextrous when there is a trace map), and in 2-category theory (the Frobenius condition). They are also central in topological quantum field theory."
+tags:
+  - adjoint-functors
+  - frobenius-functor

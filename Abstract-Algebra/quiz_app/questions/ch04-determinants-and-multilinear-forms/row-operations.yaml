@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- −1
+- '+1'
+- '0'
+- '2'
+difficulty: beginner
+explanation: Row swaps change the sign of the determinant because the determinant
+  is an alternating multilinear form in the rows. Scaling a row by c multiplies det
+  by c; adding a multiple of one row to another leaves det unchanged.
+kind: mc
+tags:
+- determinants
+- row-operations
+text: 'Swapping two rows of a matrix multiplies its determinant by:'

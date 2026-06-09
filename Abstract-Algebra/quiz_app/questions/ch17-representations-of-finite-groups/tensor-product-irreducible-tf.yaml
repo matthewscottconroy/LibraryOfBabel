@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: "The tensor product of two irreducible representations of a finite group is always irreducible."
+answer: false
+explanation: "The tensor product V ⊗ W of irreducible representations need not be irreducible. For example, for S₃ the 2-dimensional irreducible V satisfies V ⊗ V ≅ triv ⊕ sign ⊕ V, which is a direct sum of three distinct irreducibles. One checks irreducibility of V ⊗ W by computing ⟨χ_V⊗W, χ_V⊗W⟩; if it equals 1 then V ⊗ W is irreducible, but this often fails."
+tags:
+  - tensor-product-reps
+  - irreducible
+  - representation

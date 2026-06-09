@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A maximal solvable subalgebra
+- A maximal semisimple subalgebra
+- A Cartan subalgebra
+- The center of 𝔤
+difficulty: advanced
+explanation: 𝔟 = 𝔥 ⊕ 𝔫₊ is maximal solvable (the positive roots generate 𝔫₊ which
+  is nilpotent). Parabolic subalgebras contain 𝔟 and correspond to subsets of simple
+  roots. Borel subalgebras are all conjugate under the adjoint action.
+kind: mc
+tags:
+- borel-subalgebra
+- semisimple
+text: 'The Borel subalgebra 𝔟 = 𝔥 ⊕ 𝔫₊ of a semisimple Lie algebra 𝔤 (where 𝔫₊ = ⊕_{α>0}
+  𝔤_α) is:'

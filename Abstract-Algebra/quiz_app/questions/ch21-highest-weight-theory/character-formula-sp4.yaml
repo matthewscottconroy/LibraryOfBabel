@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- '2'
+- '4'
+- '3'
+- '1'
+difficulty: advanced
+explanation: sp₄(ℂ) has rank 2 (the Cartan subalgebra is 2-dimensional). It is the
+  Lie algebra of the symplectic group Sp(4), and is isomorphic to so₅(ℂ) (type B₂).
+  Its root system has 8 roots.
+kind: mc
+tags:
+- sp4
+- rank
+- symplectic
+text: 'The rank of the Lie algebra sp₄(ℂ) (type C₂) is:'

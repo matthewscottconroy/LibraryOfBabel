@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- '|G| if g = e, and 0 otherwise'
+- 1 for all g
+- '|G| for all g'
+- The number of fixed points of g
+difficulty: beginner
+explanation: In the regular representation, left multiplication by g ≠ e has no fixed
+  basis elements, so χ_reg(g) = 0. For g = e, all |G| basis elements are fixed, giving
+  χ_reg(e) = |G|.
+kind: mc
+tags:
+- regular-representation
+- character
+text: The regular representation of a finite group G is the representation on ℂ[G]
+  by left multiplication. Its character satisfies χ_reg(g) =

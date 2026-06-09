@@ -1,0 +1,21 @@
+kind: proof
+difficulty: advanced
+text: >
+  Right adjoints preserve limits: if F ⊣ G (F is left adjoint to G: C → D) and D has a limit lim J for a diagram J: I → D, then G(lim J) is a limit of G ∘ J in C.
+proof_lines:
+  - "Let (L, (πᵢ)_{i∈I}) be a limit cone over J in D, so L = lim J with universal projection maps πᵢ: L → J(i)."
+  - "We must show G(L) with maps G(πᵢ): G(L) → G(J(i)) is a limit cone over G ∘ J. That is, for any cone (A, (fᵢ)) over G ∘ J in C, there is a unique factoring morphism A → ___."
+  - "A cone (A, fᵢ: A → G(J(i))) over G ∘ J in C corresponds by the adjunction F ⊣ G to morphisms F(A) → J(i) in D — specifically, to a cone from ___ to J in D."
+  - "By the universal property of the limit L, the cone F(A) → J(i) factors uniquely through L, giving a unique map F(A) → L in D."
+  - "Applying the adjunction bijection Hom_D(F(A), L) ≅ Hom_C(A, G(L)), this unique map corresponds to a unique map A → G(L) in C, establishing the universal property of G(L)."
+fills:
+  - "G(L)"
+  - "F(A)"
+explanation: >
+  The proof uses the adjunction bijection Hom(F(A), -) ≅ Hom(A, G(-)) to translate the universal property of the limit in D to the universal property in C. The first blank identifies the target of the factoring morphism (the claimed limit object G(L)). The second blank identifies that the cone data in C, transposed across the adjunction, is a cone from F(A) in D. This is a purely formal argument that works for any adjunction without any size conditions.
+tags:
+  - right-adjoints-preserve-limits
+  - adjunction
+  - limits
+  - proof
+  - category-theory

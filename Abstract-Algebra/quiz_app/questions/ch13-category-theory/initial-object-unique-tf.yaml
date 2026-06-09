@@ -1,0 +1,8 @@
+kind: tf
+difficulty: beginner
+text: "Initial objects in a category are unique up to unique isomorphism."
+answer: true
+explanation: "If I and I' are both initial objects, then there is a unique morphism f: I → I' and a unique morphism g: I' → I. The composite g ∘ f: I → I must equal id_I (the unique endomorphism of I), and similarly f ∘ g = id_I'. Therefore f is an isomorphism and it is the unique isomorphism between I and I'. The same argument applies to terminal objects. This is the standard proof that universal objects are unique up to unique isomorphism."
+tags:
+  - initial-terminal
+  - universal-property

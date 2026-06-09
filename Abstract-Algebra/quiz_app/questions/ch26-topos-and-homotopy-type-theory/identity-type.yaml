@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Proofs (paths) that a and b are equal
+- Functions from a to b
+- Elements of A equal to both a and b
+- Propositions about A
+difficulty: intermediate
+explanation: 'Id_A(a,b) is inhabited iff a and b are (provably) equal in type A. In
+  HoTT, paths (inhabitants of identity types) have higher structure: paths between
+  paths (homotopies), paths between paths between paths, etc. This gives the ∞-groupoid
+  structure.'
+kind: mc
+tags:
+- identity-types
+- type-theory
+text: 'In Martin-Löf type theory, the identity type Id_A(a,b) (or a =_A b) represents
+  the type of:'

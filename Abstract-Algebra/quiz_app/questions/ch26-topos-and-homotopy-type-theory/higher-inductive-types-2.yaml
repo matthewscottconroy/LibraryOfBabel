@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- 'Path constructors: equalities between terms'
+- Only point constructors
+- Elimination rules only
+- Propositions about the type
+difficulty: advanced
+explanation: 'HITs have both point constructors (elements) and path constructors (identifications).
+  Examples: the circle S¹ (point base and loop: base = base), propositional truncation
+  ‖A‖ (all points are equal), and Eilenberg–MacLane spaces.'
+kind: mc
+tags:
+- higher-inductive-types
+- hott
+text: 'A higher inductive type (HIT) extends ordinary inductive types by also specifying:'

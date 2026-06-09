@@ -1,0 +1,12 @@
+kind: blank
+difficulty: advanced
+text: A polynomial f ∈ F[x] is ___ if its splitting field extension has Galois group that is a solvable
+  group.
+explanation: 'Abel-Ruffini: the general polynomial of degree ≥ 5 is not solvable by radicals because S₅
+  is not solvable.'
+tags:
+- solvability
+- galois-theory
+choices:
+- solvable by radicals
+- solvable

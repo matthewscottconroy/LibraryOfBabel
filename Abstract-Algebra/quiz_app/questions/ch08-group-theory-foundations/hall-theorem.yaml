@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Non-solvable groups (e.g. A₅ has no subgroup of order 15)
+- All abelian groups
+- Groups where m = p (prime)
+- Groups of prime power order
+difficulty: advanced
+explanation: A₅ (order 60 = 4·15) has no subgroup of order 15, showing Hall's theorem
+  requires solvability. For solvable groups, Hall subgroups exist and are all conjugate
+  — a strong generalisation of Sylow.
+kind: mc
+tags:
+- hall-theorem
+- solvable-groups
+text: 'Hall''s theorem (for finite solvable groups) generalises Sylow: if |G| = mn
+  with gcd(m,n) = 1, then G contains a Hall π-subgroup of order m, and any two are
+  conjugate. This fails for:'

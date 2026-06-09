@@ -1,0 +1,12 @@
+kind: blank
+difficulty: intermediate
+text: 'A type A in HoTT is a ___ proposition (h-level -1) if all of its elements are equal: ∀ x y : A,
+  x = y.'
+explanation: Mere propositions are types with at most one element up to homotopy; they correspond to subterminal
+  objects in a topos.
+tags:
+- h-levels
+- propositions
+choices:
+- mere
+- propositional

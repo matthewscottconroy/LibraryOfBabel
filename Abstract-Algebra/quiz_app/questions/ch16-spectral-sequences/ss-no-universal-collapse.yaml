@@ -1,0 +1,15 @@
+kind: tf
+difficulty: intermediate
+text: "The spectral sequence associated to a filtration of a cochain complex always collapses at the E₂ page."
+answer: false
+explanation: >
+  Collapse at E₂ (meaning all differentials dᵣ = 0 for r ≥ 2) is a special property
+  that holds in favorable situations, such as when the spectral sequence is over a field
+  of characteristic zero and a formality argument applies, but it fails in general.
+  For example, the Serre spectral sequence for the path-loop fibration ΩSⁿ → PSⁿ → Sⁿ
+  has nontrivial higher differentials, and the spectral sequence of a non-formal
+  space need not collapse at E₂.
+tags:
+  - spectral-sequences
+  - collapse
+  - differentials

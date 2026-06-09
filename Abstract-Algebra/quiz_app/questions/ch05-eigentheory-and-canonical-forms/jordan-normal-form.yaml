@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- λ on the diagonal and 1 on the superdiagonal
+- λ on the diagonal and 0 elsewhere
+- 1 on the diagonal and λ on the superdiagonal
+- λ on the diagonal and λ on the superdiagonal
+difficulty: intermediate
+explanation: A Jordan block Jₖ(λ) has λ on the main diagonal and 1's immediately above.
+  The number and sizes of Jordan blocks are uniquely determined (up to ordering) and
+  form the Jordan canonical form.
+kind: mc
+tags:
+- canonical-forms
+- jordan-form
+text: 'The Jordan normal form of a matrix over an algebraically closed field groups
+  each eigenvalue λ into Jordan blocks. A Jordan block Jₖ(λ) is a k×k matrix with:'

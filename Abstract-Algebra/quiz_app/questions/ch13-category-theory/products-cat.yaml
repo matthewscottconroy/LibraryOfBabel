@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- 'Morphism ⟨f,g⟩: C → A × B with π_A∘⟨f,g⟩ = f and π_B∘⟨f,g⟩ = g'
+- Morphism A × B → C
+- Isomorphism A × B ≅ C
+- 'Morphism ⟨f,g⟩: A × B → C'
+difficulty: intermediate
+explanation: 'The product A × B comes with projections π_A: A×B → A and π_B: A×B →
+  B satisfying the universal property. This characterises the Cartesian product (Set),
+  direct product (Grp), etc. uniquely up to isomorphism.'
+kind: mc
+tags:
+- products
+- universal-property
+text: 'The product A × B in a category is characterised by the universal property
+  that for any object C with morphisms f: C → A and g: C → B, there is a unique:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- The snake lemma applied to the short exact sequences of cycles/boundaries
+- Direct computation from the definition of chains
+- The Mayer–Vietoris theorem
+- Applying the five lemma
+difficulty: intermediate
+explanation: 'δ is defined by: lift a cycle c ∈ Cₙ to b ∈ Bₙ, compute ∂b ∈ Bₙ₋₁, which
+  maps to 0 in Cₙ₋₁ (exactness), so ∂b comes from some a ∈ Aₙ₋₁; [a] ∈ Hₙ₋₁(A) is
+  δ([c]). This is essentially the snake lemma.'
+kind: mc
+tags:
+- long-exact-sequence
+- connecting-homomorphism
+text: 'In the long exact sequence in homology associated to 0 → A_• → B_• → C_• →
+  0, the connecting homomorphism δ: Hₙ(C) → Hₙ₋₁(A) is constructed by:'

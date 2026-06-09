@@ -1,0 +1,11 @@
+kind: blank
+difficulty: intermediate
+text: "Characters are ___ functions: they satisfy χ(hgh⁻¹) = χ(g) for all g, h ∈ G."
+choices:
+  - "class"
+  - "conjugation-invariant"
+explanation: "A class function is constant on each conjugacy class of G. Characters have this property because Tr(ABA⁻¹) = Tr(B) for any invertible matrix A. The space of class functions on G has dimension equal to the number of conjugacy classes, and the irreducible characters form an orthonormal basis for this space."
+tags:
+  - class-function
+  - character
+  - conjugacy-class

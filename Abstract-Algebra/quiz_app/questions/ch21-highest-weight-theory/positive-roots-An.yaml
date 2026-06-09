@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- n(n+1)/2
+- n²
+- 2n
+- n!
+difficulty: intermediate
+explanation: The root system A_n has positive roots e_i − e_j for 1 ≤ i < j ≤ n+1,
+  giving n(n+1)/2 positive roots (and the same number of negative roots, for a total
+  of n(n+1) roots).
+kind: mc
+tags:
+- positive-roots
+- An
+text: 'The number of positive roots in the root system A_n is:'

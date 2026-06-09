@@ -1,0 +1,15 @@
+answer: 2
+choices:
+- Left adjoint to restriction Res_H^G
+- Right adjoint to restriction Res_H^G
+- Both left and right adjoint (biadjoint) to restriction
+- Not adjoint to restriction in general
+difficulty: advanced
+explanation: For finite groups, Ind_H^G ≅ CoInd_H^G (the coinduction), so induction
+  is both left and right adjoint to restriction (biadjoint). This special property
+  does not hold for infinite groups.
+kind: mc
+tags:
+- adjunction
+- induction-restriction
+text: 'At the level of module categories, induction Ind_H^G is:'

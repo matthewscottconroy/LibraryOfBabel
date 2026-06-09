@@ -1,0 +1,12 @@
+choices:
+- dim V
+- dim(V)
+difficulty: beginner
+explanation: 'The rank–nullity theorem: dim(im T) + dim(ker T) = dim V. Rank is the
+  dimension of the image; nullity is the dimension of the kernel.'
+kind: blank
+tags:
+- linear-maps
+- rank-nullity
+text: 'For a linear map T: V → W between finite-dimensional spaces, rank(T) + nullity(T)
+  = ___.'

@@ -1,0 +1,9 @@
+kind: blank
+difficulty: advanced
+text: A module M over a ring R is ___ if every surjective homomorphism N → M splits.
+explanation: 'Projective modules: every epi N→M splits, equivalently they are direct summands of free
+  modules.'
+tags:
+- projective-modules
+choices:
+- projective

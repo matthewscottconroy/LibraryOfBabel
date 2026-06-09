@@ -1,0 +1,15 @@
+answer: 3
+choices:
+- Cohomology of Hom_R(P_•, N) where P_• → M is projective
+- Homology of P_• ⊗_R N
+- Cohomology of Hom_R(M, I^•) where I^• is injective for M
+- Both A and C give the same answer
+difficulty: intermediate
+explanation: Ext^n_R(M,N) can be computed either from a projective resolution of M
+  or an injective resolution of N — both give the same groups. This is a fundamental
+  theorem in homological algebra.
+kind: mc
+tags:
+- Ext
+- derived-functors
+text: 'Ext^n_R(M, N) is computed as:'

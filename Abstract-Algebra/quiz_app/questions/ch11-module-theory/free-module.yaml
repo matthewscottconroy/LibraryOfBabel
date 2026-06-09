@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- Rⁿ
+- R/nR
+- R^×
+- nR
+difficulty: intermediate
+explanation: A free module Rⁿ = R × ⋯ × R has a free basis of n elements. Free modules
+  over a PID have a well-defined rank. Unlike vector spaces, not all modules are free.
+kind: mc
+tags:
+- free-modules
+- module-theory
+text: 'A free R-module of rank n is isomorphic to:'

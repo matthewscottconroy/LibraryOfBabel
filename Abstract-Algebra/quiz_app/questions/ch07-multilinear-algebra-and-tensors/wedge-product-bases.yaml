@@ -1,0 +1,10 @@
+answer: true
+difficulty: intermediate
+explanation: The only basis elements for Λⁿ(V) are wedge products of n basis vectors
+  of V; there is (up to sign) only one such product e₁∧⋯∧eₙ. Λⁿ is the top exterior
+  power; Λᵏ = 0 for k > n.
+kind: tf
+tags:
+- exterior-algebra
+- top-form
+text: For a vector space V of dimension n, Λⁿ(V) is 1-dimensional.

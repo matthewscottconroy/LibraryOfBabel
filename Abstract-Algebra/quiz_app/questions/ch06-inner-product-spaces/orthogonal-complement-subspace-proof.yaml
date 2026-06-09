@@ -1,0 +1,22 @@
+kind: proof
+difficulty: intermediate
+text: "Theorem: If W is a subspace of an inner product space V, then W⊥ = {v ∈ V : ⟨v, w⟩ = 0 for all w ∈ W} is a subspace of V."
+proof_lines:
+  - "First, 0 ∈ W⊥ since ⟨0, w⟩ = ___ for all w ∈ W, so W⊥ is nonempty."
+  - "If u, v ∈ W⊥ and α, β are scalars, then for any w ∈ W: ⟨αu + βv, w⟩ = α⟨u,w⟩ + β⟨v,w⟩ = ___, by linearity of the inner product and the definition of W⊥."
+  - "Hence αu + βv ∈ W⊥, so W⊥ is closed under ___."
+  - "Having verified that W⊥ contains 0 and is closed under linear combinations, W⊥ is a ___."
+fills:
+  - "0"
+  - "0"
+  - "linear combinations"
+  - "subspace"
+explanation: >
+  The proof checks the two standard subspace criteria: the zero vector belongs to W⊥ (since the
+  inner product with any vector is zero), and W⊥ is closed under linear combinations (by linearity
+  of the inner product in the first argument). The key computation is that ⟨αu+βv, w⟩ = α·0 + β·0 = 0
+  whenever u, v ∈ W⊥. These two properties together characterise a subspace.
+tags:
+  - orthogonal-complement
+  - inner-products
+  - proof

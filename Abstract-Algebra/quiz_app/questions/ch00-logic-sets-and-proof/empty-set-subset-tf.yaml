@@ -1,0 +1,9 @@
+kind: tf
+difficulty: beginner
+text: "The empty set ∅ is a subset of every set."
+answer: true
+explanation: "By definition, A ⊆ B holds iff every element of A is also an element of B. Since ∅ has no elements, the condition is vacuously satisfied for any B. Thus ∅ ⊆ B for every set B."
+tags:
+  - sets
+  - subset-definition
+  - vacuous-truth

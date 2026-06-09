@@ -1,0 +1,9 @@
+kind: blank
+difficulty: intermediate
+text: Expansion of the determinant along a row using cofactors is called ___ expansion.
+explanation: 'The Laplace/cofactor expansion: det(A) = Σⱼ aᵢⱼ·Cᵢⱼ along row i.'
+tags:
+- determinants
+choices:
+- cofactor
+- Laplace

@@ -1,0 +1,23 @@
+kind: proof
+difficulty: advanced
+text: "Theorem: For n×n matrices A and B, det(AB) = det(A)·det(B)."
+proof_lines:
+  - "For fixed B, define f(A) = det(AB). We show f is multilinear and alternating in the rows of A."
+  - "Multilinearity: replacing row i of A by a sum or scalar multiple scales det(AB) accordingly, since each row of AB is a ___ combination of rows of B with coefficients from row i of A."
+  - "Alternating: swapping two rows of A swaps two rows of AB, which changes the sign of det(AB), so f is ___."
+  - "Any multilinear alternating function on rows of n×n matrices is a scalar multiple of the determinant; since f(I) = det(B), we conclude f(A) = ___."
+fills:
+  - "linear"
+  - "alternating"
+  - "det(A)·det(B)"
+explanation: >
+  The key insight is that det, viewed as a function of the rows of AB, inherits multilinearity and the
+  alternating property from det itself, because the rows of AB are linear in the rows of A.
+  Any such function must be a scalar multiple of det(A), and evaluating at A = I gives the scalar as det(B).
+  This characterisation argument is cleaner than direct Leibniz-formula expansion and makes the
+  role of the three defining properties of the determinant explicit.
+tags:
+  - determinants
+  - multiplicativity
+  - multilinear
+  - proof

@@ -1,0 +1,12 @@
+answer: true
+difficulty: intermediate
+explanation: For compact groups, one can average over the group using Haar measure
+  (the analogue of the finite group averaging trick). This makes every invariant subspace
+  have an invariant complement, giving complete reducibility.
+kind: tf
+tags:
+- lie-groups
+- compact
+- representations
+text: Every representation of a compact Lie group is completely reducible (decomposes
+  as a direct sum of irreducibles).

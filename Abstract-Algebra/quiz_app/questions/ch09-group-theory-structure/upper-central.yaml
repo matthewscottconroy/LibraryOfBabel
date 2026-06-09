@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Zc(G) = G and c is minimal
+- Z₁(G) = G
+- Z(G) = {e}
+- G has derived length c
+difficulty: intermediate
+explanation: 'Nilpotency class c: the upper central series reaches G in exactly c
+  steps. The lower central series reaches {e} in exactly c steps (same c). For abelian
+  groups c = 1; for non-abelian p-groups, c ≥ 2.'
+kind: mc
+tags:
+- nilpotent-groups
+- central-series
+text: 'The upper central series of G is defined by Z₀(G) = {e}, Z₁(G) = Z(G), Zₙ₊₁(G)/Zₙ(G)
+  = Z(G/Zₙ(G)). G is nilpotent of class c iff:'

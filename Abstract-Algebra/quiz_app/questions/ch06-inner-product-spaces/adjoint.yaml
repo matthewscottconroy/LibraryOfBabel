@@ -1,0 +1,11 @@
+kind: blank
+difficulty: intermediate
+text: A linear operator T on an inner product space is ___ if ⟨Tu,v⟩ = ⟨u,Tv⟩ for all u,v.
+explanation: 'Self-adjoint (Hermitian): T = T*. Real case: symmetric. Complex case: Hermitian.'
+tags:
+- adjoint
+- self-adjoint
+choices:
+- self-adjoint
+- Hermitian
+- symmetric

@@ -1,0 +1,11 @@
+kind: blank
+difficulty: advanced
+text: "Artin's theorem states: if G is a finite group of automorphisms of a field L, then [L : L^G] = ___, where L^G is the fixed field of G."
+choices:
+  - "|G|"
+  - "the order of G"
+explanation: "Artin's theorem is the foundational result underlying Galois theory: starting from a finite group of automorphisms rather than from a polynomial, it guarantees the degree of L over its fixed field equals the group order. It implies that L/L^G is always a Galois extension with Galois group G, grounding the entire correspondence of the Fundamental Theorem."
+tags:
+  - artin-theorem
+  - fixed-field
+  - galois-theory

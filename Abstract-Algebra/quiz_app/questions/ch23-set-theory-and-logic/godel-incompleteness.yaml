@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: Gödel's first incompleteness theorem states that any consistent formal system containing arithmetic
+  is incomplete.
+explanation: 'Gödel 1931: in any consistent ω-consistent system T extending PA, there exist statements
+  unprovable in T.'
+tags:
+- godel-incompleteness
+answer: true

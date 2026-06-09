@@ -1,0 +1,12 @@
+kind: tf
+difficulty: beginner
+text: "For n×n matrices A and B, det(A + B) = det(A) + det(B) in general."
+answer: false
+explanation: >
+  This statement is false. The determinant is multilinear in the rows separately, not additive in the
+  entire matrix. A simple counterexample: A = B = I₂, then det(A+B) = det(2I) = 4, but
+  det(A) + det(B) = 1 + 1 = 2. Additivity of det in the whole matrix would contradict its
+  nonlinear (degree-n) nature.
+tags:
+  - determinants
+  - multilinear

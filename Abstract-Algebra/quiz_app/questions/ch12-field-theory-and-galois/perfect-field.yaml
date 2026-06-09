@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- char K = 0, or char K = p and every element of K is a p-th power (K = Kᵖ)
+- K is algebraically closed
+- K is a finite field
+- K contains all roots of unity
+difficulty: intermediate
+explanation: 'Perfect fields: char 0 always perfect; char p perfect iff Frobenius
+  is surjective (K = Kᵖ). Finite fields 𝔽_{pⁿ} are perfect (Frobenius is an automorphism).
+  An example of a non-perfect field: 𝔽_p(t) (t is not a p-th power).'
+kind: mc
+tags:
+- perfect-fields
+- field-theory
+text: 'A field K is perfect if every algebraic extension is separable. Equivalent
+  conditions include:'

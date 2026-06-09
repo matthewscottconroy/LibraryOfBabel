@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- The same length and the same multiset of composition factors (up to isomorphism
+  and order)
+- The same length but possibly different factors
+- Different lengths in general
+- Factors isomorphic to cyclic groups
+difficulty: intermediate
+explanation: 'Jordan–Hölder: composition factors are unique up to permutation. The
+  composition factors are the simple group ''building blocks'' of G. This is the group-theoretic
+  analogue of the fundamental theorem of arithmetic.'
+kind: mc
+tags:
+- composition-series
+- jordan-holder
+text: 'The Jordan–Hölder theorem states that any two composition series of a group
+  G have:'

@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Abelian (G⁽¹⁾ = [G,G] = {e})
+- Simple
+- Nilpotent of class 2
+- Non-solvable
+difficulty: advanced
+explanation: 'Derived length 1: [G,G] = {e}, i.e. G is abelian. Derived length 2 (metabelian):
+  [G,G] is abelian. Symmetric group S₄ has derived length 3; S₅ is not solvable (infinite
+  derived series).'
+kind: mc
+tags:
+- solvable-groups
+- derived-series
+text: 'The derived length (solvability class) of a solvable group G is the length
+  of its derived series G = G⁽⁰⁾ ⊇ G⁽¹⁾ ⊇ ⋯ ⊇ G⁽ⁿ⁾ = {e}. A group of derived length
+  1 is:'

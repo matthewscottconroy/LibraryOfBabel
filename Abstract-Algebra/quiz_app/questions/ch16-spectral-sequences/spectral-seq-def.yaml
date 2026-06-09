@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- d_r² = 0 and E_{r+1} = H(E_r, d_r)
+- d_r is the zero map for r sufficiently large
+- E_r is always a vector space
+- The pages are indexed by integers only
+difficulty: beginner
+explanation: A spectral sequence consists of bigraded abelian groups E_r^{p,q} with
+  differentials d_r of bidegree (r, 1-r) satisfying d_r² = 0, and E_{r+1} = H(E_r).
+  Each page is the homology of the previous.
+kind: mc
+tags:
+- spectral-sequence
+- definition
+text: 'A spectral sequence is a sequence of pages (E_r, d_r) where:'

@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- The failure of unique factorization of elements (trivial iff R is a PID)
+- The number of prime ideals
+- The Krull dimension of R
+- The automorphism group of R
+difficulty: advanced
+explanation: Cl(R) = (fractional ideals)/(principal ideals). Cl(R) = 0 iff R is a
+  PID (hence UFD). The class number h_K = |Cl(O_K)| for a number field K measures
+  how far O_K deviates from a PID; h_K = 1 iff O_K is a UFD.
+kind: mc
+tags:
+- dedekind-domain
+- class-group
+text: 'A Dedekind domain is an integral domain in which every non-zero ideal factors
+  uniquely into prime ideals. Rings of integers of number fields are Dedekind domains.
+  The class group Cl(R) measures:'

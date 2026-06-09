@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- The minimal polynomial of T
+- The characteristic polynomial
+- The degree-1 factor of char poly
+- Any annihilating polynomial
+difficulty: advanced
+explanation: A cyclic module F[x]·v ≅ F[x]/(m_T) when v is cyclic. A cyclic vector
+  exists iff the minimal and characteristic polynomials of T are equal (i.e. T has
+  a single invariant factor in the rational canonical form).
+kind: mc
+tags:
+- canonical-forms
+- cyclic-vector
+text: 'A vector v ∈ V is cyclic for a linear operator T if the set {v, Tv, T²v, …}
+  spans V. When a cyclic vector exists, V is isomorphic to F[x]/(m_T(x)) where m_T
+  is:'

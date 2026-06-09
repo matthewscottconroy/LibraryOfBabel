@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A projective resolution of B with P_n ⊕ Q_n at each degree
+- An injective resolution of B
+- A flat resolution of B
+- A resolution only when B is projective
+difficulty: advanced
+explanation: The horseshoe lemma provides a projective resolution of B with terms
+  P_n ⊕ Q_n, fitting into a short exact sequence of resolutions. This is key to proving
+  the long exact sequence in derived functors.
+kind: mc
+tags:
+- horseshoe-lemma
+- projective-resolution
+text: 'The horseshoe lemma states that given a short exact sequence 0 → A → B → C
+  → 0 and projective resolutions P_• → A and Q_• → C, one can construct:'

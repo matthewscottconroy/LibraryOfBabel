@@ -1,0 +1,12 @@
+kind: blank
+difficulty: intermediate
+text: "The fundamental weights ω₁, ..., ω_r are defined by the condition ⟨ωᵢ, α_j∨⟩ = ___ for simple roots α₁, ..., α_r."
+choices:
+  - "δᵢⱼ (the Kronecker delta)"
+  - "⟨αᵢ, αⱼ⟩"
+explanation: >
+  The fundamental weights are dual to the simple coroots: ⟨ωᵢ, αⱼ∨⟩ = δᵢⱼ. They form a basis for the weight lattice P dual to the basis of simple coroots α₁∨, ..., αᵣ∨. Every dominant integral weight is a non-negative integer linear combination λ = Σ nᵢωᵢ with nᵢ = ⟨λ, αᵢ∨⟩ ≥ 0; these nᵢ are called the Dynkin labels of λ.
+tags:
+  - fundamental-weights
+  - simple-roots
+  - blank

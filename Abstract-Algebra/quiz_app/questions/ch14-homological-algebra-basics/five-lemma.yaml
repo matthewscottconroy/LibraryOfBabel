@@ -1,0 +1,14 @@
+kind: mc
+difficulty: intermediate
+text: 'The Five Lemma states that in a commutative diagram with exact rows and four vertical isomorphisms,
+  the fifth map is:'
+explanation: 'The 5-lemma: if the outer four maps are isomorphisms and rows are exact, the middle map
+  is an isomorphism.'
+tags:
+- five-lemma
+choices:
+- an isomorphism
+- injective but possibly not surjective
+- surjective but possibly not injective
+- the zero map
+answer: 0

@@ -1,0 +1,13 @@
+kind: mc
+difficulty: advanced
+text: 'Stability theory classifies theories by their number of models in various cardinalities. A stable
+  theory has:'
+explanation: 'Stable: T has no order property; type spaces are ''small''. Shelah''s classification: stable→superstable→ω-stable.'
+tags:
+- stability-theory
+choices:
+- no order property and few types over sets
+- exactly one model
+- models in all cardinalities
+- finite Morley rank
+answer: 0

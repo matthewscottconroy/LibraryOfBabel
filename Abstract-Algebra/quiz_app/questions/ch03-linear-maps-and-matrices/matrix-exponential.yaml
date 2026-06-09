@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- e^A e^B = e^{A+B} if AB = BA
+- e^A e^B = e^{A+B} for all A, B
+- e^A = e^B ⟹ A = B
+- det(e^A) = 0
+difficulty: advanced
+explanation: 'e^A e^B = e^{A+B} holds when A and B commute (AB = BA), via the BCH
+  formula. In general e^A e^B ≠ e^{A+B}. The matrix exponential satisfies: det(e^A)
+  = e^{tr A} (Jacobi''s formula).'
+kind: mc
+tags:
+- matrix-exponential
+- matrices
+text: The matrix exponential e^A = Σ_{n=0}^∞ Aⁿ/n! satisfies which property?

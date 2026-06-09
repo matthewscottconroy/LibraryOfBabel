@@ -1,0 +1,13 @@
+choices:
+- self-adjoint
+- Hermitian
+difficulty: intermediate
+explanation: 'Self-adjoint operators satisfy T = T* (T* is the adjoint). Real self-adjoint
+  operators are symmetric: Aᵀ = A. The spectral theorem guarantees they have real
+  eigenvalues and an orthonormal basis of eigenvectors.'
+kind: blank
+tags:
+- inner-products
+- self-adjoint
+text: A linear operator T on an inner product space is called ___ (or Hermitian) if
+  ⟨Tu, v⟩ = ⟨u, Tv⟩ for all u, v.

@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ∑_χ χ(g) χ̄(h) = |C_G(g)| · δ_{[g],[h]}
+- ∑_χ χ(g) χ̄(h) = |G| · δ_{gh}
+- ∑_g χ(g) χ̄'(g) = |G| · δ_{χ,χ'}
+- ∑_g χ(g) = 0 for non-trivial χ
+difficulty: advanced
+explanation: 'Column orthogonality: ∑_χ irreducible χ(g)χ̄(h) = |C_G(g)|δ_{[g],[h]},
+  where [g] denotes the conjugacy class of g. Row orthogonality is ∑_g χ(g)χ̄''(g)
+  = |G|δ_{χχ''}.'
+kind: mc
+tags:
+- character-table
+- column-orthogonality
+text: 'Column orthogonality of the character table of G states:'

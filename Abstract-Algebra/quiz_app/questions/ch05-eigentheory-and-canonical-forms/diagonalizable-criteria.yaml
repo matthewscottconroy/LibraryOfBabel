@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Splits into distinct linear factors over F
+- Equals the characteristic polynomial
+- Has degree n
+- Is equal to (x−λ) for some λ
+difficulty: intermediate
+explanation: A is diagonalisable ↔ min poly splits into distinct linear factors (no
+  repeated roots) ↔ every invariant factor is squarefree. If char poly splits over
+  F with distinct roots, A is automatically diagonalisable.
+kind: mc
+tags:
+- eigenvalues
+- minimal-polynomial
+text: 'A matrix A is diagonalisable over F if and only if its minimal polynomial:'

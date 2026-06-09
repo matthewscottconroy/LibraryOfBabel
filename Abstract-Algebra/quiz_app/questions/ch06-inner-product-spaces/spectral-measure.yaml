@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- Self-adjoint operators on H via T = ∫ λ dP(λ)
+- Unitary operators
+- Compact operators
+- The trace class
+difficulty: advanced
+explanation: 'Every self-adjoint operator T on a Hilbert space has a unique spectral
+  measure E_T with T = ∫_ℝ λ dE_T(λ). Functional calculus: f(T) = ∫ f(λ) dE_T(λ).
+  For compact self-adjoint operators, the PVM is discrete (pure point spectrum).'
+kind: mc
+tags:
+- spectral-theorem
+- hilbert-space
+text: 'A projection-valued measure (PVM) on ℝ assigns to each Borel set E a projection
+  P(E): H → H satisfying P(ℝ) = I and σ-additivity. The spectral theorem relates PVMs
+  to:'

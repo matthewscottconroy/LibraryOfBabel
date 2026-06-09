@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- ∏_{α>0} ⟨λ+ρ, α∨⟩ / ⟨ρ, α∨⟩
+- ∏_{α>0} (⟨λ, α∨⟩ + 1)
+- The sum of all weight multiplicities
+- '|W| · ⟨λ+ρ, ρ⟩ / ⟨ρ, ρ⟩'
+difficulty: advanced
+explanation: dim V(λ) = ∏_{α>0} ⟨λ+ρ,α∨⟩ / ⟨ρ,α∨⟩, the product over positive roots
+  of the ratio of shifted inner products. Here ρ = (1/2)∑_{α>0} α is the Weyl vector.
+kind: mc
+tags:
+- Weyl-dimension-formula
+- positive-roots
+text: 'The Weyl dimension formula gives dim V(λ) as:'

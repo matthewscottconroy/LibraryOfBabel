@@ -1,0 +1,12 @@
+kind: blank
+difficulty: intermediate
+text: "An sl₂-triple in a Lie algebra g is a set {e, f, h} ⊆ g satisfying [h, e] = 2e, [h, f] = −2f, and [e, f] = ___."
+choices:
+  - "h"
+  - "2h"
+explanation: >
+  The relations [h,e] = 2e, [h,f] = −2f, [e,f] = h define a copy of sl(2,ℂ) inside g. The Jacobson–Morozov theorem guarantees that every nilpotent element e ≠ 0 in a semisimple Lie algebra over a field of characteristic 0 can be embedded in an sl₂-triple. These triples are essential for studying nilpotent orbits and the representation theory of sl(2).
+tags:
+  - sl2-triple
+  - sl2-embeddings
+  - blank

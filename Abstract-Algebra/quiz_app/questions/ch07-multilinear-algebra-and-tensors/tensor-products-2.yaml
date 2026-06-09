@@ -1,0 +1,7 @@
+kind: tf
+difficulty: beginner
+text: For finite-dimensional vector spaces, dim(V ⊗ W) = dim(V) · dim(W).
+explanation: A basis of V ⊗ W is {eᵢ ⊗ fⱼ} for bases {eᵢ} of V and {fⱼ} of W — so mn elements.
+tags:
+- tensor-products
+answer: true

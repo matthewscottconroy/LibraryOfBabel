@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- P² = P
+- P = Pᵀ
+- P² = I
+- det P = 1
+difficulty: intermediate
+explanation: An idempotent matrix P² = P is a projection onto its column space along
+  its null space. Orthogonal projections additionally satisfy P = Pᵀ, but general
+  projections need not be symmetric.
+kind: mc
+tags:
+- matrices
+- projection
+text: 'A matrix P is a projection if and only if:'

@@ -1,0 +1,9 @@
+kind: tf
+difficulty: advanced
+text: Geometric Satake identifies the category of spherical perverse sheaves on the affine Grassmannian
+  with the category of representations of the Langlands dual group.
+explanation: 'Geometric Satake (Mirković-Vilonen): Perv_{G(O)}(Gr_G) ≃ Rep(G∨) as monoidal categories.'
+tags:
+- geometric-satake
+- langlands
+answer: true

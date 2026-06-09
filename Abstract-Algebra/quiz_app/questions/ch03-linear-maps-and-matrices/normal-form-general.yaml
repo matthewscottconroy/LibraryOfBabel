@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- The real Jordan (Schur) normal form
+- The rational canonical form
+- The Smith normal form
+- The Weierstrass form
+difficulty: intermediate
+explanation: 'Real Schur form: every A ∈ M_n(ℝ) is orthogonally similar (A = Q R Qᵀ)
+  to a block upper-triangular R with 1×1 real eigenvalue blocks and 2×2 rotation-scaling
+  blocks for complex conjugate pairs.'
+kind: mc
+tags:
+- matrices
+- normal-form
+text: 'Every real square matrix is orthogonally similar to a block upper-triangular
+  matrix with 1×1 (real eigenvalue) and 2×2 (complex conjugate pair) blocks. This
+  is called:'

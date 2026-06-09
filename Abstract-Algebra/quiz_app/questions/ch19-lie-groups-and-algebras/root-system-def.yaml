@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- Always an integer
+- Always a real number
+- In {0, ±1, ±2, ±3}
+- In {0, 1, 2, 3}
+difficulty: intermediate
+explanation: The Cartan integers 2⟨α,β⟩/|α|² must be integers for all roots α, β.
+  This is a key axiom of root systems and constrains the possible angles and length
+  ratios between roots.
+kind: mc
+tags:
+- root-system
+- Cartan-integers
+text: 'A root system Φ ⊂ V (Euclidean space) satisfies: for α, β ∈ Φ, the value 2⟨α,β⟩/⟨α,α⟩
+  is:'

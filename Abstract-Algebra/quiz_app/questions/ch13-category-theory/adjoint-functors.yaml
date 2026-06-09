@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: Left adjoints preserve colimits and right adjoints preserve limits.
+explanation: 'Adjoint functor theorem: left adjoints preserve all colimits (coproducts, cokernels); right
+  adjoints preserve limits.'
+tags:
+- adjoint-functors
+- limits
+answer: true

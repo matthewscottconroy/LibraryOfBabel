@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- M is h-semisimple with finite-dimensional weight spaces and locally n⁺-finite
+- M has a highest weight
+- M is a direct sum of Verma modules
+- M is finite-dimensional
+difficulty: advanced
+explanation: 'Category O: finitely generated, semisimple over h (weight decomposition),
+  and locally n⁺-finite (n⁺ acts nilpotently on each vector). Includes Verma modules,
+  irreducibles L(λ), and is closed under many operations.'
+kind: mc
+tags:
+- category-O
+- BGG-category
+text: 'Category O of a semisimple Lie algebra g consists of finitely generated g-modules
+  M such that:'

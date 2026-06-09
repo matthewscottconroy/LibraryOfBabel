@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- 'The type of functions mapping x: A to a term of type B(x)'
+- 'The type of pairs (a, b) with a: A and b: B'
+- 'The type B(a) for a fixed a: A'
+- The union type A + B
+difficulty: intermediate
+explanation: '∏_{x:A} B(x) = ''for all x: A, B(x)'' — the type of dependent functions.
+  When B is constant it reduces to A → B. The Σ-type Σ_{x:A} B(x) is the dependent
+  sum (pairs), corresponding to ''there exists x: A such that B(x)''.'
+kind: mc
+tags:
+- dependent-types
+- type-theory
+text: 'In dependent type theory, a dependent type B(x) indexed by x: A is a family
+  of types. The dependent product ∏_{x:A} B(x) represents:'

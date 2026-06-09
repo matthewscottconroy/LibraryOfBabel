@@ -1,0 +1,11 @@
+kind: tf
+difficulty: beginner
+text: "The determinant of every orthogonal matrix is ±1."
+answer: true
+explanation: >
+  An orthogonal matrix Q satisfies QᵀQ = I, so det(Qᵀ)·det(Q) = det(I) = 1.
+  Since det(Qᵀ) = det(Q), we get det(Q)² = 1, hence det(Q) = ±1.
+  Orthogonal matrices with det = +1 are proper rotations; those with det = -1 include reflections.
+tags:
+  - determinants
+  - orthogonal-matrix

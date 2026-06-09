@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- χ(z)/χ(e)
+- χ(z)
+- χ(z)/|G|
+- '|G|/χ(e)'
+difficulty: intermediate
+explanation: 'By Schur''s lemma, z ∈ Z(G) acts as a scalar λ_z on irreducible V. Taking
+  traces: χ(z) = λ_z · dim(V) = λ_z · χ(e), so λ_z = χ(z)/χ(e).'
+kind: mc
+tags:
+- central-character
+- center
+text: 'For an irreducible representation V with character χ and z ∈ Z(G), the scalar
+  by which z acts on V is:'

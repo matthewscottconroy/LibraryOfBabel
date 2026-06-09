@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- ∑ n_i² = |G|
+- ∑ n_i = |G|
+- ∏ n_i = |G|
+- max(n_i) = |G|
+difficulty: intermediate
+explanation: 'The sum of squares formula: ∑_i (dim V_i)² = |G|, where the sum is over
+  all irreducible representations. This follows from decomposing the regular representation
+  into irreducibles.'
+kind: mc
+tags:
+- sum-of-squares
+- degree-formula
+text: 'If G has irreducible representations of degrees n_1, n_2, …, n_k then:'

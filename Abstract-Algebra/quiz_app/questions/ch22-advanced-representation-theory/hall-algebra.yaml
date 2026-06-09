@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- '[M][N] = ∑_L |Ext¹(M,N)_L| / |Hom(M,N)| · [L]'
+- '[M][N] = [M ⊕ N]'
+- '[M][N] = [M ⊗ N]'
+- '[M][N] = |Hom(M,N)| · [M⊕N]'
+difficulty: advanced
+explanation: In the Hall algebra, [M]·[N] = ∑_L P^L_{MN}[L] where P^L_{MN} counts
+  submodules of L isomorphic to N with quotient ≅ M (Hall numbers). The Hall algebra
+  of Rep(Q) over 𝔽_q realizes the positive part of the quantum group U_q(g).
+kind: mc
+tags:
+- Hall-algebra
+- quantum-group
+text: 'The Hall algebra of an abelian category A (e.g., Rep_𝔽_q(Q)) has multiplication
+  given by:'

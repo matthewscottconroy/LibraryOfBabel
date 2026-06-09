@@ -1,0 +1,14 @@
+answer: 0
+choices:
+- The number of columns of A equals the number of rows of B
+- A and B are both square
+- A and B have the same dimensions
+- The number of rows of A equals the number of rows of B
+difficulty: beginner
+explanation: If A is m×n and B is n×p, then AB is m×p. The inner dimensions must match.
+  Matrix multiplication corresponds to composition of linear maps.
+kind: mc
+tags:
+- matrices
+- matrix-multiplication
+text: 'Matrix multiplication AB is defined when:'

@@ -1,0 +1,21 @@
+kind: proof
+difficulty: advanced
+text: >
+  Weyl's Complete Reducibility Theorem: every finite-dimensional representation of a semisimple Lie algebra g over ℂ is completely reducible (i.e., decomposes as a direct sum of irreducible subrepresentations).
+proof_lines:
+  - "Let V be a finite-dimensional g-module. It suffices to show that every submodule W ⊆ V has a g-stable complement."
+  - "Choose an invariant inner product on g using the ___ (which is non-degenerate since g is semisimple), allowing one to construct a Casimir element C ∈ U(g)."
+  - "The Casimir element C acts on each irreducible g-module by a scalar via Schur's lemma; choose C so it acts as ___ on the trivial module and as a nonzero scalar on every nontrivial irreducible."
+  - "For a short exact sequence 0 → W → V → V/W → 0, the Casimir C acts as 0 on V/W (if V/W is trivial) and provides a splitting via the projection onto the ___-eigenspace."
+  - "Iterating, every extension splits, so V is a direct sum of irreducibles."
+fills:
+  - "Killing form"
+  - "0"
+  - "0"
+explanation: >
+  The Killing form's non-degeneracy (Cartan's criterion) is what allows the Casimir element to be defined with controlled eigenvalues. The key computational step is that the Casimir acts by 0 on the trivial module but nonzero on nontrivials, making the projection onto the 0-eigenspace the desired splitting map. This proof, via the Casimir, is Weyl's original algebraic argument (as opposed to the unitary trick over ℝ).
+tags:
+  - weyl-complete-reducibility
+  - proof
+  - casimir
+  - semisimple

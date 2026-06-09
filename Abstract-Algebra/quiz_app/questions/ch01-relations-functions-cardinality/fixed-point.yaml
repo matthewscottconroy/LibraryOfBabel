@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A least and a greatest fixed point
+- Exactly one fixed point
+- No fixed points
+- A fixed point only if P is finite
+difficulty: intermediate
+explanation: 'Knaster–Tarski: the set of fixed points of a monotone map on a complete
+  lattice is itself a complete lattice (non-empty). Applications: Cantor–Schröder–Bernstein
+  theorem, least/greatest solutions to fixed-point equations in semantics.'
+kind: mc
+tags:
+- partial-order
+- fixed-point
+text: 'The Knaster–Tarski fixed-point theorem states that every monotone function
+  f: P → P on a complete lattice P has:'

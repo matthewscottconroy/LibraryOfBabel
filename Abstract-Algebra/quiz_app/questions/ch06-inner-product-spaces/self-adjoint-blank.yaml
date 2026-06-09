@@ -1,0 +1,15 @@
+kind: blank
+difficulty: beginner
+text: "An operator T on an inner product space is ___ if T = T*, i.e. ⟨Tu, v⟩ = ⟨u, Tv⟩ for all u, v."
+choices:
+  - "self-adjoint"
+  - "Hermitian"
+explanation: >
+  A self-adjoint (or Hermitian) operator satisfies T = T*, where T* is the adjoint defined by
+  ⟨Tu, v⟩ = ⟨u, T*v⟩. Such operators have real eigenvalues and their eigenvectors for distinct
+  eigenvalues are orthogonal. On finite-dimensional spaces over ℝ, self-adjoint corresponds to
+  symmetric matrices; over ℂ it corresponds to Hermitian matrices (A = Ā^T).
+tags:
+  - self-adjoint
+  - adjoint
+  - inner-products

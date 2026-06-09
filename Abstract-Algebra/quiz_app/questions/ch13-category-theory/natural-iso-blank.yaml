@@ -1,0 +1,10 @@
+kind: blank
+difficulty: beginner
+text: "A natural transformation η: F ⇒ G between functors F, G: C → D is a natural isomorphism if each component ηₐ: F(A) → G(A) is ___."
+choices:
+  - "an isomorphism"
+  - "an invertible morphism"
+explanation: "A natural isomorphism is a natural transformation in which every component morphism is an isomorphism. The inverse transformation η⁻¹: G ⇒ F is then also natural, with components (η⁻¹)_A = (ηₐ)⁻¹. Natural isomorphisms capture the concept of 'canonical isomorphism' in mathematics: two functors are naturally isomorphic when they produce isomorphic outputs in a coherent, structure-respecting way."
+tags:
+  - natural-transformation-defn
+  - natural-transformations

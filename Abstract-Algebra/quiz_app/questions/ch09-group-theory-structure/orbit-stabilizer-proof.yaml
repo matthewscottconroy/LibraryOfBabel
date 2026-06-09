@@ -1,0 +1,24 @@
+kind: proof
+difficulty: intermediate
+text: "Orbit-Stabilizer Theorem: If G acts on X and x ∈ X, then |G| = |Orb(x)| · |Stab(x)|."
+proof_lines:
+  - "Let H = Stab(x) = {g ∈ G | g · x = x}. One checks H is a subgroup of G."
+  - "Define a map f from left cosets of H to Orb(x) by f(gH) = g · x."
+  - "f is well-defined: if gH = g'H then g'⁻¹g ∈ H, so (g'⁻¹g) · x = x, giving g · x = ___."
+  - "f is injective: if g · x = g' · x then g'⁻¹g ∈ Stab(x) = H, so ___."
+  - "f is surjective by definition of Orb(x). Hence the number of left cosets of H equals |Orb(x)|, and by Lagrange's theorem |G| = ___ · |Stab(x)|."
+fills:
+  - "g' · x"
+  - "gH = g'H"
+  - "|Orb(x)|"
+explanation: >
+  The three blanks are: (1) well-definedness — if two coset representatives agree mod H
+  then acting on x gives the same orbit element; (2) injectivity — if the orbit elements
+  agree then the ratio g'⁻¹g fixes x, putting it in H, so the cosets are equal; (3) the
+  final count from Lagrange's theorem, [G:H] = |G|/|H|, which equals |Orb(x)|.
+tags:
+  - orbit-stabilizer
+  - group-actions
+  - lagrange-theorem
+  - group-theory
+  - proof

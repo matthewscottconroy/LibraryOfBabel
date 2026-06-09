@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A Hamel basis exists by the Axiom of Choice and is uncountable
+- The standard basis {1} suffices
+- No basis exists
+- The basis has size ℵ₀
+difficulty: advanced
+explanation: ℝ over ℚ has uncountable dimension (a Hamel basis has cardinality |ℝ|
+  = 2^{ℵ₀}). Its existence requires AC. Most elements of ℝ require infinitely many
+  non-zero rational coordinates in any Hamel basis — this is not explicitly constructible.
+kind: mc
+tags:
+- vector-spaces
+- basis
+text: 'A Hamel basis of a vector space V over ℝ is a linearly independent spanning
+  set. For V = ℝ (as a vector space over ℚ):'

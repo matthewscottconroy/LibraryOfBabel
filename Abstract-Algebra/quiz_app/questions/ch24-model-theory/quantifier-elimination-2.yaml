@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A quantifier-free formula
+- A universal formula
+- An existential formula
+- A Boolean combination of atomic formulas
+difficulty: intermediate
+explanation: 'QE means every formula φ(x̄) is T-equivalent to a quantifier-free formula.
+  Consequences: the theory is model-complete, definable sets are simple. Key examples:
+  ACF has QE (by Tarski), RCF has QE.'
+kind: mc
+tags:
+- quantifier-elimination
+- model-completeness
+text: 'A theory T has quantifier elimination if every formula is provably equivalent
+  in T to:'

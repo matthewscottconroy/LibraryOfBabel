@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- '|Z(G)| + Σ [G:C_G(gᵢ)] (sum over non-central conjugacy classes)'
+- '|Z(G)| · [G:Z(G)]'
+- Σ ord(g) for g ∈ G
+- Σ |C_G(g)|
+difficulty: intermediate
+explanation: 'Class equation: |G| = |Z(G)| + Σ_{conj. classes size > 1} |G|/|C_G(g)|.
+  This is key for p-groups (|G| = pⁿ) and proves Z(G) ≠ {e}, so |Z(G)| > 1 (since
+  all terms divisible by p).'
+kind: mc
+tags:
+- centralizer
+- class-equation
+text: 'The centralizer of an element g ∈ G is C_G(g) = {x ∈ G : xg = gx}. The class
+  equation |G| ='

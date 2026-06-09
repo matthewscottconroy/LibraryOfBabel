@@ -1,0 +1,11 @@
+kind: blank
+difficulty: beginner
+text: "A subspace W ⊆ V of a representation V of G is called ___ (or a subrepresentation) if g·w ∈ W for all g ∈ G and w ∈ W."
+choices:
+  - "G-invariant"
+  - "invariant"
+explanation: "A G-invariant subspace W is one that is closed under the action of every group element. It then inherits a representation structure from V, making it a subrepresentation. Maschke's theorem guarantees that every G-invariant subspace of a representation (in good characteristic) has a G-invariant complement."
+tags:
+  - subrepresentation
+  - invariant-subspace
+  - representation

@@ -1,0 +1,10 @@
+kind: blank
+difficulty: intermediate
+text: "A representation V of a finite group G over ℂ is irreducible if and only if its character satisfies ⟨χ_V, χ_V⟩ = ___."
+choices:
+  - "1"
+explanation: "Writing V ≅ ⊕ᵢ Vᵢ^{mᵢ} and using orthonormality of irreducible characters, ⟨χ_V, χ_V⟩ = Σᵢ mᵢ². This equals 1 if and only if exactly one mᵢ equals 1 and all others equal 0, i.e., V is irreducible. This gives a practical test for irreducibility that requires only computing an inner product of the character with itself."
+tags:
+  - irreducibility-criterion
+  - inner-product
+  - character

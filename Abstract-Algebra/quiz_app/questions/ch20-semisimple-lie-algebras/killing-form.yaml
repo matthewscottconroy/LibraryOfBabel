@@ -1,0 +1,13 @@
+kind: mc
+difficulty: intermediate
+text: 'The Killing form B(X,Y) on a Lie algebra g is defined as:'
+explanation: 'Killing form: B(X,Y) = tr(ad_X ∘ ad_Y). It is symmetric and invariant under the adjoint
+  action.'
+tags:
+- killing-form
+choices:
+- tr(ad_X ∘ ad_Y)
+- X·Y (dot product)
+- tr(XY) for matrix algebras
+- '[X,Y]'
+answer: 0

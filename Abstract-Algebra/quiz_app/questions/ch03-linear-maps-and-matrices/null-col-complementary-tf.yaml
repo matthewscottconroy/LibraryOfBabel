@@ -1,0 +1,10 @@
+kind: tf
+difficulty: intermediate
+text: "For an n×n matrix A, dim(null space of A) + dim(column space of A) = n."
+answer: true
+explanation: "This is the Rank-Nullity theorem applied to the linear map x ↦ Ax from Fⁿ to Fⁿ: nullity(A) + rank(A) = n. The null space is the kernel and the column space is the image of this map, so their dimensions sum to n, the dimension of the domain."
+tags:
+  - rank-nullity
+  - null-space
+  - column-space
+  - matrices

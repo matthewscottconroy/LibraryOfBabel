@@ -1,0 +1,9 @@
+kind: tf
+difficulty: intermediate
+text: "Maschke's theorem holds—every representation is completely reducible—when the characteristic of k is a prime p that does not divide |G|."
+answer: true
+explanation: "The hypothesis of Maschke's theorem is precisely that char(k) ∤ |G|, which includes the case char(k) = p with p ∤ |G|. The averaging trick requires dividing by |G|, which is valid as long as |G| is invertible in k. If p | |G|, the theorem fails and indecomposable non-semisimple representations can exist."
+tags:
+  - maschke-theorem
+  - modular-representation
+  - complete-reducibility

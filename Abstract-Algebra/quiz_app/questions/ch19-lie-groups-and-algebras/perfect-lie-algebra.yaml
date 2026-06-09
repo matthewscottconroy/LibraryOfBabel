@@ -1,0 +1,10 @@
+kind: blank
+difficulty: intermediate
+text: "A Lie algebra g is called ___ if it equals its own derived algebra: g = [g,g]."
+choices:
+  - "perfect"
+explanation: "A perfect Lie algebra satisfies g = [g,g], meaning every element is a sum of brackets. All semisimple Lie algebras are perfect (since [g,g] = g follows from g having no abelian quotients). The property is strictly stronger than non-solvability: a solvable Lie algebra always has g ≠ [g,g] unless g = 0, since [g,g] is a proper ideal in any nontrivial solvable algebra."
+tags:
+  - perfect-lie-algebra
+  - derived-algebra
+  - semisimple

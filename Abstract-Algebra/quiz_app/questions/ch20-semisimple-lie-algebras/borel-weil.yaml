@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- H^0(G/B, ℒ_λ) where ℒ_λ is a line bundle on the flag variety G/B
+- H^1(G/B, ℒ_λ) for anti-dominant λ
+- The space of polynomial functions on a nilpotent orbit
+- A quotient of the regular representation
+difficulty: advanced
+explanation: 'The Borel–Weil theorem: for dominant integral λ, V(λ) ≅ H^0(G/B, ℒ_λ)
+  (global sections of the line bundle associated to λ). Borel–Weil–Bott computes higher
+  cohomology using Weyl group reflections.'
+kind: mc
+tags:
+- Borel-Weil
+- flag-variety
+text: 'The Borel–Weil theorem identifies the irreducible representation V(λ) (for
+  dominant λ) as:'

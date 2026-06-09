@@ -1,0 +1,13 @@
+kind: mc
+difficulty: advanced
+text: 'An R-module M is flat if:'
+explanation: M is flat iff M ⊗_R − is exact (preserves short exact sequences).
+tags:
+- flat-modules
+- tensor-product
+choices:
+- tensoring with M preserves exact sequences
+- tensoring with M reflects exact sequences
+- Hom(M,−) is exact
+- every map into M is split
+answer: 0

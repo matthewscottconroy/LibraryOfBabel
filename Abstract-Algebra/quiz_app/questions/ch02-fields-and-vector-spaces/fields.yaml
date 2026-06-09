@@ -1,0 +1,12 @@
+kind: mc
+difficulty: beginner
+text: 'A field is a commutative ring in which every nonzero element has a:'
+explanation: Fields add multiplicative inverses for all nonzero elements to the commutative ring axioms.
+tags:
+- fields
+choices:
+- multiplicative inverse
+- additive inverse
+- square root
+- prime factorisation
+answer: 0

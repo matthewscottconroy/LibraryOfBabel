@@ -1,0 +1,14 @@
+kind: mc
+difficulty: intermediate
+text: 'Every real symmetric matrix has:'
+explanation: Real symmetric matrices are diagonalisable over ℝ with orthogonal eigenvectors (spectral
+  theorem).
+tags:
+- spectral-theorem
+- symmetric-matrices
+choices:
+- real eigenvalues and orthogonal eigenvectors
+- complex eigenvalues
+- only positive eigenvalues
+- determinant 1
+answer: 0

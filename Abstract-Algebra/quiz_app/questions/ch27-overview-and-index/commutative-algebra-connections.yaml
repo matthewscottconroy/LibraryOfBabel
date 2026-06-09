@@ -1,0 +1,17 @@
+answer: 0
+choices:
+- V and I(V) are inverse operations (I(V(I)) = I)
+- Every variety corresponds to a prime ideal
+- Every prime ideal defines a smooth variety
+- V(I ∩ J) = V(I) ∪ V(J) holds only for principal ideals
+difficulty: intermediate
+explanation: 'Nullstellensatz (strong form): I(V(I)) = √I (radical). For radical ideals
+  I = √I over algebraically closed fields, V and I are inverse bijections between
+  radical ideals and algebraic varieties. Primes ↔ irreducible varieties.'
+kind: mc
+tags:
+- nullstellensatz
+- algebraic-geometry
+text: 'The Nullstellensatz (Hilbert) establishes a correspondence between ideals I
+  in k[x₁,…,xₙ] and algebraic varieties V(I) ⊆ kⁿ. For radical ideals over an algebraically
+  closed field:'

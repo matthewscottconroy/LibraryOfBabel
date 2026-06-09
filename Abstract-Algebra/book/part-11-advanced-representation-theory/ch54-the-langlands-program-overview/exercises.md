@@ -1,0 +1,41 @@
+# Chapter 54 — Exercises
+
+## Important Figures
+
+- **Robert Langlands (1936–)** — Langlands conjectures (1967–); formulated the web of correspondences in a letter to André Weil; Abel Prize 2018
+- **André Weil (1906–1998)** — Weil conjectures; function-field analogies; Weil groups; forerunner of the Langlands philosophy
+- **Pierre Deligne (1944–)** — proved the Weil conjectures (1974); foundational work on $\ell$-adic representations; Fields Medal 1978
+- **Richard Taylor (1962–) & Andrew Wiles (1953–)** — modularity theorem (1995): every elliptic curve over $\mathbb{Q}$ is modular; this is a special case of the Langlands program; used to prove Fermat's Last Theorem
+- **Michael Harris & Richard Taylor; Guy Henniart** — local Langlands for $GL_n$ (Harris–Taylor 2001; Henniart 1998); proved the local correspondence
+
+## References and Primary Sources
+
+- **R. Langlands, *Letter to André Weil* (1967)** — the original statement; available from the IAS
+- **A. Borel & W. Casselman (eds.), *Automorphic Forms, Representations and L-Functions* (AMS Symposia in Pure Math. 33, 1979)** — the foundational conference proceedings
+- **E. Frenkel, *Love and Math* (Basic Books, 2013)** — accessible account of the Langlands program and geometric Langlands; written for a general audience
+- **M. Harris & R. Taylor, *The Geometry and Cohomology of Some Simple Shimura Varieties* (Princeton, 2001)** — local Langlands for $GL_n$
+
+## Examples, Applications, and Thought Experiments
+
+- **The modularity theorem** — every elliptic curve $E/\mathbb{Q}$ is modular: its $L$-function $L(E, s) = \prod_p L_p(E, s)$ equals the $L$-function of a modular form $f$ of weight 2; this is the $GL_2$ case of Langlands over $\mathbb{Q}$; Wiles and Taylor proved it for semistable curves; it implies Fermat's Last Theorem
+- **Local Langlands for $GL_n(\mathbb{Q}_p)$** — an exact bijection between: (a) isomorphism classes of irreducible admissible representations of $GL_n(\mathbb{Q}_p)$ and (b) isomorphism classes of $n$-dimensional Frobenius-semisimple Weil–Deligne representations of $W_{\mathbb{Q}_p}$; a theorem of Harris–Taylor and Henniart; the local building block of the global conjecture
+- **Geometric Langlands** — replace the number field by the function field of a curve $C$ over $\mathbb{C}$; representations of the Galois group $\to$ local systems on $C$ (with structure group $\hat{G}$); automorphic forms $\to$ $\mathcal{D}$-modules on the moduli of $G$-bundles on $C$; the geometric Langlands correspondence is now a theorem (Frenkel, Arinkin–Gaitsgory)
+- **Thought experiment: "one language for all of mathematics"** — Langlands conjectured that three apparently unrelated mathematical worlds (number theory, harmonic analysis, geometry) are secretly the same subject written in different languages; a Galois representation over a number field $\leftrightarrow$ an automorphic form $\leftrightarrow$ a geometric object; proving these correspondences would unify vast areas of mathematics; the program is the Mount Everest of contemporary mathematics
+
+## Exercises
+
+1. State the local Langlands correspondence for $GL_1(F)$, where $F$ is a local field. In this case, it asserts that the group of continuous characters $\chi: F^\times \to \mathbb{C}^\times$ is in natural bijection with the group of continuous characters $\psi: W_F \to \mathbb{C}^\times$ of the Weil group $W_F$. The bijection is given by local class field theory (the local Artin map). Verify this explicitly for $F = \mathbb{Q}_p$: identify $\mathbb{Q}_p^\times \cong \mathbb{Z} \times \mathbb{Z}_p^\times$ and describe the unramified characters (those trivial on $\mathbb{Z}_p^\times$) in terms of the Frobenius element $\mathrm{Frob}_p \in W_{\mathbb{Q}_p}$.
+
+2. Let $E/\mathbb{Q}$ be the elliptic curve $y^2 = x^3 - x$ (which has conductor 32). For a prime $p \neq 2$, the number of points $\#E(\mathbb{F}_p) = p + 1 - a_p$ where $a_p = p + 1 - \#E(\mathbb{F}_p)$. Compute $a_p$ for $p = 3, 5, 7, 11, 13$. The modularity theorem asserts that the formal series $\sum_{n \geq 1} a_n q^n$ is a weight-2 newform of level 32. Look up or compute the first several Fourier coefficients of this newform and verify that they match your computations.
+
+3. The global Langlands correspondence for $GL_1$ over $\mathbb{Q}$ is class field theory. State the Artin map: there is a surjection $\mathbb{A}_{\mathbb{Q}}^\times \to \mathrm{Gal}(\mathbb{Q}^{ab}/\mathbb{Q})$ with kernel $\mathbb{Q}^\times \cdot (\mathbb{R}_{>0} \times \prod_p \mathbb{Z}_p^\times)$. Show that for the cyclotomic extension $\mathbb{Q}(\zeta_n)/\mathbb{Q}$, the Artin map restricts to the map sending a prime $p \nmid n$ to the Frobenius automorphism $\zeta_n \mapsto \zeta_n^p$. Use this to recover the Kronecker–Weber theorem: every abelian extension of $\mathbb{Q}$ is contained in some cyclotomic field.
+
+4. Let $f = q - 2q^5 - 3q^9 + 6q^{13} + \cdots$ be the weight-2 newform of level 11 associated with the elliptic curve $E: y^2 + y = x^3 - x^2$. State precisely what it means for the Galois representation $\rho_{f,\ell}: \mathrm{Gal}(\overline{\mathbb{Q}}/\mathbb{Q}) \to GL_2(\overline{\mathbb{Q}}_\ell)$ attached to $f$ to be a 2-dimensional representation satisfying $\mathrm{tr}(\rho_{f,\ell}(\mathrm{Frob}_p)) = a_p(f)$ for primes $p \nmid 11\ell$. Then: what is the determinant $\det \rho_{f,\ell}(\mathrm{Frob}_p)$ in terms of $p$? What does this say about the cyclotomic character?
+
+5. Describe the function field analogy: let $\mathbb{F}_q$ be a finite field of characteristic $p$, and let $C/\mathbb{F}_q$ be a smooth projective curve with function field $K = \mathbb{F}_q(C)$. Explain why $K$ is analogous to a number field $F$, identifying: the role of the places of $K$ (i.e., closed points of $C$) with the primes of $F$; the global function field analogue of the ring of integers; the analogue of the absolute Galois group; and the analogue of the idèle class group. State the Langlands correspondence for function fields (Drinfeld for $GL_2$, Lafforgue for $GL_n$) in one sentence, and explain what makes the function field case more tractable than the number field case.
+
+6. The Langlands dual group $\hat{G}$ of a reductive group $G$ is defined by swapping the roles of roots and coroots. Compute $\hat{G}$ for the following groups: $G = GL_n$ (then $\hat{G} = ?$); $G = SL_n$ (then $\hat{G} = ?$); $G = SO_{2n+1}$ (then $\hat{G} = ?$); $G = Sp_{2n}$ (then $\hat{G} = ?$). The Langlands correspondence for $G$ should relate automorphic representations of $G(\mathbb{A}_F)$ to Galois representations valued in $\hat{G}(\overline{\mathbb{Q}}_\ell)$.
+
+7. State the geometric Langlands correspondence for $G = GL_1$ and a curve $C$ over $\mathbb{C}$: it asserts an equivalence of categories between (a) $\mathcal{D}$-modules on $\mathrm{Pic}(C)$ (the Picard variety of line bundles on $C$) and (b) local systems on $C$ (rank-1 local systems, i.e., representations of $\pi_1(C)$). Describe this equivalence concretely using the Fourier–Mukai transform on the Picard: explain what the Poincaré line bundle $\mathcal{P}$ on $\mathrm{Pic}^0(C) \times \mathrm{Pic}^0(C)$ is and how the Fourier–Mukai transform with kernel $\mathcal{P}$ gives the correspondence.
+
+8. (Challenge) The Satake isomorphism provides the local input to the Langlands correspondence. Let $G = GL_n$ and let $K = GL_n(\mathbb{Z}_p) \subset GL_n(\mathbb{Q}_p)$. The spherical Hecke algebra $\mathcal{H}(G, K) = C_c(K \backslash G / K)$ (compactly supported $K$-biinvariant functions on $G$) is commutative. State the Satake isomorphism: $\mathcal{H}(G, K) \otimes \mathbb{C} \cong \mathbb{C}[\hat{T}/W]$, where $\hat{T}$ is the torus of the dual group $\hat{G} = GL_n(\mathbb{C})$ and $W = S_n$ is the Weyl group. For $G = GL_2$, write down explicit generators of $\mathcal{H}$ (the characteristic functions of the double cosets $K \mathrm{diag}(p, 1) K$ and $K \mathrm{diag}(p, p) K$), and use the Satake isomorphism to identify the corresponding generators of $\mathbb{C}[\hat{T}]^W \cong \mathbb{C}[t_1 + t_2, t_1 t_2]$. Explain how the eigenvalues of unramified Hecke operators on an unramified automorphic representation correspond to the Satake parameter (a semisimple conjugacy class in $\hat{G}$).

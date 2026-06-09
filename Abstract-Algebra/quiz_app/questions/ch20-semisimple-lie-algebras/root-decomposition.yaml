@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- '𝔤 = 𝔥 ⊕ ⊕_{α∈Φ} 𝔤_α, where 𝔤_α = {X ∈ 𝔤 : [H,X] = α(H)X for all H ∈ 𝔥}'
+- 𝔤 = ⊕_{α} 𝔤_α (no 𝔥 term)
+- 𝔤 = 𝔥 ⊕ 𝔫₊ ⊕ 𝔫₋
+- 𝔤 = 𝔥 × ⊕_α 𝔤_α
+difficulty: intermediate
+explanation: 'The root space decomposition: 𝔤 = 𝔥 ⊕ ⊕_{α∈Φ} 𝔤_α. Each 𝔤_α is 1-dimensional.
+  Φ ⊆ 𝔥* is the root system. The Cartan subalgebra 𝔥 is its own zero-weight space.'
+kind: mc
+tags:
+- root-systems
+- semisimple
+text: 'For a semisimple Lie algebra 𝔤 with Cartan subalgebra 𝔥, the root space decomposition
+  is:'

@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- (T_s + 1)(T_s − q) = 0 for simple reflections s, plus braid relations
+- T_s² = q · T_s for simple reflections
+- T_w T_{w'} = T_{ww'} always
+- (T_s)² = 1 for all simple reflections
+difficulty: advanced
+explanation: The Hecke algebra has generators T_s for simple reflections with relations
+  (T_s−q)(T_s+1) = 0 (deforming T_s² = (q−1)T_s + q) and the braid/commutativity relations
+  of W. At q=1, H(W,q) ≅ ℂ[W].
+kind: mc
+tags:
+- Hecke-algebra
+- Coxeter-group
+text: 'The Hecke algebra H(W, q) of a Coxeter group W with parameter q is generated
+  by T_w (w ∈ W) satisfying:'

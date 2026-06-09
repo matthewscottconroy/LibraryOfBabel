@@ -1,0 +1,11 @@
+kind: tf
+difficulty: intermediate
+text: "In HoTT, every type is either a proposition (h-level 1) or a set (h-level 2)."
+answer: false
+explanation: >
+  There are types of arbitrarily high h-level in HoTT. For example: the circle type S¹ (defined as a higher inductive type with a point base : S¹ and a path loop : base = base) has π₁(S¹) = ℤ — it is a 1-type (groupoid) but not a set. The universe U itself has all higher homotopy types. The h-level hierarchy is infinite: propositions ⊂ sets ⊂ 1-groupoids ⊂ 2-groupoids ⊂ ..., with each inclusion strict.
+tags:
+  - h-levels
+  - homotopy-levels
+  - tf
+  - homotopy-type-theory

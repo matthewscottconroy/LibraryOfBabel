@@ -1,0 +1,10 @@
+kind: tf
+difficulty: intermediate
+text: "Every complete theory with an infinite model has models of all infinite cardinalities."
+answer: true
+explanation: >
+  This follows from the Löwenheim–Skolem theorems: the downward version gives models of cardinality ℵ₀ (for countable languages), and the upward version gives models of every infinite cardinality κ ≥ |L| + ℵ₀. For a complete theory with an infinite model M, adding κ many constant symbols and asserting they are distinct gives a consistent theory (by compactness), whose model has size ≥ κ; the Downward LS then gives a model of size exactly κ. This shows first-order theories cannot characterize their models by cardinality alone.
+tags:
+  - lowenheim-skolem
+  - categoricity
+  - tf

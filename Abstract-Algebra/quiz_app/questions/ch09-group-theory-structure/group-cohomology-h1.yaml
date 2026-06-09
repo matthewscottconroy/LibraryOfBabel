@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Conjugacy classes of complements to A in the semidirect product A ⋊ G
+- Equivalence classes of extensions 1 → A → E → G → 1
+- Homomorphisms G → A
+- Normal subgroups of A ⋊ G
+difficulty: advanced
+explanation: H¹(G,A) = crossed homomorphisms / principal crossed homomorphisms. When
+  A is the G-module for a split extension A ⋊ G, H¹ counts conjugacy classes of complements
+  to A (by Schur-Zassenhaus when gcd(|A|,|G|)=1, H¹ = 0 so all complements are conjugate).
+kind: mc
+tags:
+- group-cohomology
+- group-theory
+text: 'H¹(G, A) for a G-module A classifies:'

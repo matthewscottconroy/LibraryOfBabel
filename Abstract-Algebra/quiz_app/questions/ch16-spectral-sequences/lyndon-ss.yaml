@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- H_p(G/N; H_q(N; M))
+- H_p(N; H_q(G/N; M))
+- Tor_p^{ℤ[G/N]}(ℤ, H_q(N; M))
+- H_p(G; H_q(N; M))
+difficulty: advanced
+explanation: The Lyndon–Hochschild–Serre spectral sequence for homology has E^2_{p,q}
+  = H_p(G/N; H_q(N; M)) converging to H_{p+q}(G; M). It is the homological analog
+  of the Hochschild–Serre spectral sequence.
+kind: mc
+tags:
+- Lyndon-Hochschild-Serre
+- group-homology
+text: 'The Lyndon–Hochschild–Serre spectral sequence in homology has E^2 page:'

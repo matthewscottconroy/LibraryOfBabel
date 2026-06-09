@@ -1,0 +1,16 @@
+answer: 0
+choices:
+- A is projective (only sufficient, not necessary in general)
+- 'There exists s: C → B with p∘s = id_C'
+- 'There exists r: B → A with r∘i = id_A'
+- B ≅ A ⊕ C
+difficulty: intermediate
+explanation: 'A splits iff (1) there is a right splitting s: C → B, (2) a left splitting
+  r: B → A, (3) B ≅ A ⊕ C. C projective guarantees (1); A injective guarantees (2).
+  But the SES splits regardless of the projectivity of A alone.'
+kind: mc
+tags:
+- exact-sequences
+- splitting-lemma
+text: 'A short exact sequence 0 → A →^i B →^p C → 0 splits if and only if any of these
+  equivalent conditions hold EXCEPT:'

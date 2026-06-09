@@ -1,0 +1,10 @@
+kind: blank
+difficulty: beginner
+text: "A representation V of G is ___ if it has no proper nonzero G-invariant subspaces."
+choices:
+  - "irreducible"
+  - "simple"
+explanation: "An irreducible (or simple) representation admits no proper nonzero subrepresentations. By Schur's lemma, the only G-equivariant endomorphisms of an irreducible representation over an algebraically closed field are scalar multiples of the identity."
+tags:
+  - irreducible
+  - subrepresentation

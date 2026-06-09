@@ -1,0 +1,15 @@
+answer: 0
+choices:
+- Nilpotent orbits of G with irreducible representations of the Weyl group W
+- Unipotent characters of G with representations of the center of G
+- Root systems with representations of Borel subgroups
+- The Weyl group with the center of U(g)
+difficulty: advanced
+explanation: 'Springer theory: to each nilpotent element N and a representation of
+  the component group A(N), one associates an irreducible representation of W. This
+  gives the Springer correspondence, covering all irreps of W.'
+kind: mc
+tags:
+- Springer-theory
+- nilpotent-orbits
+text: 'The Springer correspondence relates:'

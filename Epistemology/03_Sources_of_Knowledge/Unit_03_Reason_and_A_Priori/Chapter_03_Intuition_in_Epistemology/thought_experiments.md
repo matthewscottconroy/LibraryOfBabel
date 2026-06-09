@@ -1,0 +1,29 @@
+## Gettier's Original Cases
+
+**The scenario:** Smith has strong evidence that Jones will get a job and that Jones has ten coins in his pocket. He infers: "The man who will get the job has ten coins in his pocket." As it turns out, Smith himself gets the job and — unknown to him — he also has ten coins in his pocket. His belief is true and justified, but it seems that he does not know.
+
+**The philosophical point:** Gettier's case is the paradigmatic example of a philosophical thought experiment that works by eliciting a strong intuition to serve as evidence against a philosophical theory — the justified true belief (JTB) analysis of knowledge. The near-universal intuition that Smith does not know drives the conclusion that JTB analysis is insufficient. This case illustrates the fundamental methodological role of intuitions in epistemology: we take our verdict on this particular case to be more credible than the general theory, and so we revise the theory. The experimental philosophy movement has questioned whether this "near-universal" intuition is truly universal or culturally variable.
+
+## The Selection Problem in Reflective Equilibrium
+
+**The scenario:** Two philosophers begin the reflective equilibrium process with different sets of "fixed" intuitions. Philosopher A takes it as a firm datum that knowledge requires certainty; Philosopher B takes it as a firm datum that we know many ordinary things with ease. Each builds a theory that accommodates their respective starting intuitions. The resulting theories are internally consistent and mutually incompatible.
+
+**The philosophical point:** The selection problem — how we choose which intuitions to treat as fixed points in reflective equilibrium — is a fundamental challenge to the method. Without a principled account of which intuitions count as "considered judgments" that must be preserved, reflective equilibrium risks being an elaborate procedure for rationalizing whatever we began by believing. The problem raises the question of whether intuitions can provide genuine epistemological evidence, or whether their role in theory construction is more akin to the role of preferences in theory selection — neither truth-tracking nor clearly mistaken.
+
+## The Truetemp Case
+
+**The scenario:** A man named Truetemp has, unknown to himself, had a tiny temperature-recording device implanted in his brain. The device reliably causes him to form beliefs about the current temperature that are almost always correct. Truetemp does not know about the device and has no reason to trust or distrust his temperature beliefs; they simply occur to him.
+
+**The philosophical point:** Keith Lehrer's Truetemp case is designed to elicit the intuition that reliably produced true beliefs are not sufficient for knowledge if the subject has no access to the source of those beliefs. This intuition, if trusted, supports internalist constraints on knowledge and challenges pure reliabilism. The case illustrates how thought experiments function as probes of our intuitive concept of knowledge: we are not testing a hypothesis empirically, but checking whether a proposed analysis matches our considered verdicts. The experimental philosophy question is whether our intuitive verdict here is reliable evidence about the concept of knowledge or merely a parochial cultural artifact.
+
+## Weinberg, Nichols, and Stich's Cross-Cultural Survey
+
+**The scenario:** Weinberg, Nichols, and Stich presented subjects from different cultural backgrounds (East Asian, Western, and South Asian) with variants of epistemic thought experiments, including Gettier cases. They found that subjects from East Asian backgrounds were less likely than Western subjects to deny knowledge attribution in Gettier cases — a result they interpret as showing that epistemic intuitions vary systematically with cultural background.
+
+**The philosophical point:** If the result is robust, it poses a dilemma for standard epistemological methodology. Either we must say that some cultural groups have systematically mistaken intuitions about knowledge (a claim that seems difficult to justify without already having a theory of knowledge), or we must accept that intuitions do not provide culturally neutral evidence about epistemological truths. Critics of the experimental philosophy conclusion argue that the variation found in these studies is not in the relevant epistemic intuitions but in other factors (such as charitable interpretation of the protagonist's situation), and that the studies do not establish the methodological conclusion their authors draw.
+
+## The Shape of Reflective Equilibrium in Practice
+
+**The scenario:** A philosopher initially has the strong intuition that knowledge requires certainty. She encounters the Gettier cases and revises: knowledge does not require certainty. She then encounters lottery cases and revises again: knowing requires more than mere reliable belief. She encounters contextualist cases and revises: knowledge attributions are context-sensitive. At the end, her original concept of knowledge is heavily modified and her theory is unrecognizable from the starting intuitions.
+
+**The philosophical point:** This "evolutionary" picture of reflective equilibrium raises the question of whether the method is genuinely tracking the correct concept of knowledge or simply generating increasingly sophisticated rationalizations. It also raises the question of theory-ladenness: at what point is the philosopher's verdict on a new case driven by her theory rather than by intuition? Williamson argues that this is not problematic — we are simply using our cognitive capacities to reason about hypothetical situations, and revision in both directions is to be expected — while critics worry that heavy revision severs the connection between the resulting theory and the folk concept of knowledge that the methodology was supposed to elucidate.

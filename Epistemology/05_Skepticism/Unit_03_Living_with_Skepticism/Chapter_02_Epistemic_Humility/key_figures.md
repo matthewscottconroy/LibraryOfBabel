@@ -1,0 +1,29 @@
+# Key Figures: Epistemic Humility
+
+## John Stuart Mill (1806–1873)
+
+Mill is the foundational figure for the connection between epistemic humility and political philosophy. In *On Liberty* (1859), he argues for freedom of expression on explicitly epistemological grounds: because we cannot be certain any belief is true, silencing dissent removes our best mechanism for discovering error. Even if a belief is true, suppressing its opposition prevents us from understanding why it is true — reducing knowledge to dogma. Mill's argument assumes that fallibility is pervasive and that epistemic humility (recognition of one's own fallibility) should translate into institutional tolerance for dissent. This connection between individual epistemic humility and liberal political institutions has been enormously influential.
+
+## C.S. Peirce (1839–1914)
+
+Peirce's fallibilism grounds epistemic humility in the practice of scientific inquiry. He argued that the scientific method is distinguished precisely by its institutional fallibilism: results are accepted provisionally, subjected to ongoing criticism, and revised when better evidence appears. For Peirce, epistemic humility is not a mere virtue of individual character but a structural feature of the only practice that has reliably produced knowledge over time. He connected this to his "critical commonsensism" — the view that common-sense beliefs are practically indispensable but theoretically revisable — a sophisticated position that combines Moorean commonsensism with fallibilist self-criticism.
+
+## Nathan Ballantyne (b. c. 1978)
+
+Ballantyne's *Knowing Our Limits* (2019) is the most comprehensive philosophical treatment of epistemic humility and its grounds. He argues that a wide range of reliable evidence — experimental philosophy findings about intuition instability, cognitive psychology results about bias and motivated reasoning, historical studies of expert failure — provides strong reason to believe that our cognitive faculties are systematically less reliable than we typically assume. Epistemic humility is therefore not merely a virtue but a rationally required response to this evidence. Ballantyne develops specific implications for academic philosophy, religious belief, and political epistemology, arguing that awareness of our cognitive limitations should moderate our confidence in the deliverances of introspection, moral intuition, and theoretical reasoning.
+
+## Jason Baehr (b. 1970)
+
+Baehr's treatment of intellectual humility as a character virtue in *The Inquiring Mind* (2011) is the most philosophically rigorous account within the virtue-epistemological tradition. He distinguishes intellectual humility — accurate assessment of one's epistemic limitations and appropriate behavioral responses to that assessment — from mere epistemic timidity or epistemic cowardice. A genuinely humble person does not simply abstain from strong opinions; they hold their beliefs with a degree of confidence proportionate to their evidence and are genuinely open to revision. Baehr also distinguishes intellectual humility from the related virtues of open-mindedness, intellectual courage, and thoroughness, showing how the virtues interact and how each has its own characteristic failings.
+
+## David Dunning (b. 1961) and Justin Kruger (b. 1971)
+
+Dunning and Kruger's empirical research on metacognitive accuracy — culminating in the "Dunning-Kruger effect" — has become central to philosophical discussions of epistemic humility. Their research (published in 1999 in the *Journal of Personality and Social Psychology*) showed that people with limited competence in a domain tend to significantly overestimate their competence, while experts tend to underestimate theirs. This systematic asymmetry in metacognitive accuracy has been taken to support epistemic humility as a response: if those with less knowledge systematically overestimate what they know, then correcting for this bias requires active epistemic humility — a deliberate effort to interrogate one's sense of confidence and check it against external standards.
+
+## Miranda Fricker (b. 1966)
+
+Fricker's connection of epistemic humility to social justice, developed in *Epistemic Injustice* (2007), shows that the virtue of epistemic humility is not merely individual but necessarily social and political. Testimonial injustice — deflating a speaker's credibility due to identity prejudice — involves a failure of epistemic humility: it consists in an unjustified overcrediting of one's own assessments relative to the testimony of marginalized speakers. The corrective virtue (testimonial justice) requires epistemic humility about one's own credibility assessments, combined with genuine openness to the testimony of those one might be tempted to dismiss. Fricker thus shows that epistemic humility has stakes that go beyond individual accuracy and connect to structures of social power and recognition.
+
+## Quassim Cassam (b. 1961)
+
+Cassam's analysis of intellectual arrogance in *Vices of the Mind* (2019) illuminates epistemic humility by contrast. Intellectual arrogance — the systematic over-estimation of one's own epistemic competence, the dismissal of challenges without due consideration, and the refusal to acknowledge one's cognitive limitations — is an intellectual vice that directly impedes knowledge. Cassam also notes that arrogance is often "stealthy" — arrogant people typically do not recognize themselves as such — which makes the cultivation of epistemic humility particularly challenging: it requires developing a self-critical awareness of one's own tendencies toward overconfidence that goes against the grain of motivated reasoning. His work connects to the practical question of how epistemic humility can be cultivated in individuals and institutions.

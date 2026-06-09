@@ -1,0 +1,19 @@
+## Primary Sources
+
+- John Hardwig, "Epistemic Dependence," *Journal of Philosophy* 82(7), 1985. Argues that in modern, specialized knowledge systems, individuals routinely rely on the knowledge of others without being able to verify it independently, making epistemic interdependence a structural feature of contemporary knowledge.
+- C.A.J. Coady, *Testimony: A Philosophical Study*, Oxford University Press, 1992. The first book-length analytic treatment of testimony as a source of knowledge, arguing against reductionism and defending the view that testimony is a fundamental and irreducible source of justification.
+- Elizabeth Fricker, "Against Gullibility," in *Knowing from Others*, Kluwer, 1994. Defends local reductionism about testimony, arguing that hearers must have some positive evidence for the reliability of a speaker in order to gain testimonial knowledge, resisting the anti-reductionist position.
+- Tyler Burge, "Content Preservation," *Philosophical Review* 102(4), 1993. Defends an anti-reductionist account of testimony grounded in norms of epistemic entitlement — hearers are entitled to accept what speakers say absent defeaters, with no prior inductive evidence of reliability required.
+- Alvin Goldman, *Knowledge in a Social World*, Oxford University Press, 1999. A systematic social epistemology examining how social institutions, practices, and epistemic communities affect the production and distribution of knowledge, including an influential treatment of epistemic labor division.
+- Philip Kitcher, *The Advancement of Science*, Oxford University Press, 1993. Analyzes how the social organization of science promotes the production of knowledge, including the division of cognitive labor and the role of credit-seeking as an epistemic mechanism.
+- Steve Fuller, *Social Epistemology*, Indiana University Press, 1988. An early and provocative statement of social epistemology as an empirically-informed study of knowledge production in human communities, drawing on sociology of science.
+
+## Secondary Sources
+
+- Jennifer Lackey and Ernest Sosa, eds., *The Epistemology of Testimony*, Oxford University Press, 2006. An essential anthology collecting the major papers in the debate over the epistemological status of testimonial knowledge.
+- Miranda Fricker, *Epistemic Injustice: Power and the Ethics of Knowing*, Oxford University Press, 2007. Though focused on injustice, contains important discussions of the norms governing testimonial exchanges and the epistemic virtues required for appropriate trust.
+- Shaul Feldman, "Trust and Anti-Reductionism about Testimony," *Philosophical Studies* 141(2), 2008. Defends anti-reductionism by arguing that the concept of trust — not merely evidence of reliability — is the central notion in testimonial knowledge.
+- Kristoffer Ahlstrom-Vij, *Epistemic Paternalism: A Defence*, Palgrave Macmillan, 2013. Examines the relationship between epistemic authority, trust, and the conditions under which epistemic paternalism — directing others' belief formation for their own epistemic good — is justified.
+- Harry Collins and Robert Evans, *Rethinking Expertise*, University of Chicago Press, 2007. A sociologically informed examination of how expertise functions in public knowledge, distinguishing types of expertise and analyzing how non-experts should relate to experts.
+- Jonathan Matheson, *The Epistemic Significance of Disagreement*, Palgrave Macmillan, 2015. Examines how testimony from disagreeing parties affects rational credence, connecting the social epistemology of testimony to the peer disagreement debate.
+- Sheila Jasanoff, *The Fifth Branch: Science Advisers as Policymakers*, Harvard University Press, 1990. A detailed case study of how expert knowledge functions in civic contexts, examining the epistemic authority of scientific advisory bodies in democratic governance.

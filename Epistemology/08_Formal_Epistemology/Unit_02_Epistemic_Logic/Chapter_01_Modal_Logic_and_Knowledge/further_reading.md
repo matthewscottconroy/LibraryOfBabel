@@ -1,0 +1,20 @@
+## Primary Sources
+
+- Jaakko Hintikka, *Knowledge and Belief: An Introduction to the Logic of the Two Notions*, Cornell University Press, 1962. The founding text of epistemic logic, introducing the K and B operators with possible-worlds semantics and deriving the characteristic axioms of the S4 and S5 systems.
+- Saul Kripke, "A Completeness Theorem in Modal Logic," *Journal of Symbolic Logic* 24(1), 1959. Establishes the relational semantics for modal logic (Kripke semantics) that grounds epistemic logic in the notion of accessibility between possible worlds.
+- David Lewis, *Convention*, Harvard University Press, 1969. Introduces the concept of common knowledge in the analysis of convention, showing how iterated mutual knowledge leads to a distinctive fixed-point structure that cannot be captured by finitely iterated operators.
+- Robert Aumann, "Agreeing to Disagree," *Annals of Statistics* 4(6), 1976. The landmark result in game theory showing that agents with common knowledge of each other's posteriors must have the same posteriors — common knowledge of disagreement is impossible, with profound implications for epistemic game theory.
+- Johan van Benthem, *Logical Dynamics of Information and Knowledge*, Cambridge University Press, 2011. A comprehensive treatment of dynamic epistemic logic, modeling how public announcements, learning events, and strategic information exchange transform agents' epistemic states.
+- Hans van Ditmarsch, Wiebe van der Hoek, and Barteld Kooi, *Dynamic Epistemic Logic*, Springer, 2007. A systematic and technically rigorous textbook on DEL, covering action models and product updates for multi-agent information change.
+- Brian Chellas, *Modal Logic: An Introduction*, Cambridge University Press, 1980. A standard reference for the technical development of modal logic systems, including K, T, S4, and S5, essential background for the philosophical reader.
+
+## Secondary Sources
+
+- Joseph Halpern, *Reasoning About Uncertainty*, MIT Press, 2003. A technically oriented treatment integrating probability, possibility, and knowledge, with applications to AI, game theory, and distributed computing.
+- Wiebe van der Hoek and Marc Pauly, "Modal Logic for Games and Information," in *Handbook of Modal Logic*, Elsevier, 2007. Surveys the applications of epistemic and dynamic modal logic to game theory and information economics.
+- Rohit Parikh and Ramaswamy Ramanujam, "A Knowledge-Based Semantics of Messages," *Journal of Logic, Language and Information* 12(4), 2003. Develops epistemic logic for communication protocols, applying modal knowledge operators to distributed computing scenarios.
+- Patrick Blackburn, Maarten de Rijke, and Yde Venema, *Modal Logic*, Cambridge University Press, 2001. The most comprehensive graduate-level text on modal logic, covering completeness, decidability, and expressivity results directly relevant to epistemic systems.
+- Timothy Williamson, *Knowledge and Its Limits*, Oxford University Press, 2000. Though primarily a book about knowledge-first epistemology, contains important critiques of the standard epistemic logic axioms, particularly the KK thesis (knowledge of knowledge).
+- Sergei Artemov and Elena Nogina, "Introducing Justification into Epistemic Logic," *Journal of Logic and Computation* 15(6), 2005. Develops justification logic as an extension of epistemic logic in which agents know propositions for specific reasons, addressing the logical omniscience problem directly.
+- Kevin Kelly, *The Logic of Reliable Inquiry*, Oxford University Press, 1996. Develops formal learning theory as an alternative to Bayesian epistemology, connecting modal operators over epistemic states to long-run reliability in inquiry.
+- Moshe Vardi, "On Epistemic Logic and Logical Omniscience," in *Theoretical Aspects of Reasoning About Knowledge*, Morgan Kaufmann, 1986. An early and still relevant analysis of the logical omniscience problem in standard epistemic logic, proposing ways to represent resource-bounded reasoning.

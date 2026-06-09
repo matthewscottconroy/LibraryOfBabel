@@ -1,0 +1,31 @@
+# Thought Experiments: The Internalism/Externalism Debate
+
+## The New Evil Demon
+
+**The scenario:** Duplicate Earth is populated by people who are intrinsic duplicates of people on Earth — they have identical sensory experiences, identical phenomenal states, identical introspective reports. The difference is that Duplicate Earthlings are deceived by a powerful evil demon: their beliefs about the external world are systematically false, produced not by reliable perception but by demonic illusion. Now ask: are the beliefs of Duplicate Earthlings epistemically justified?
+
+**The philosophical point:** This is the most powerful argument for internalism. The internalist's answer is yes — the Duplicate Earthlings are doing everything epistemically right; they are responding appropriately to their evidence (phenomenal experience), reasoning carefully, and meeting all internal epistemic norms. The externalist, particularly the reliabilist, must say no — their beliefs are not justified because they are produced by an unreliable process (demonic deception). But this strikes many as deeply counterintuitive: how can people who are epistemically blameless, reasoning impeccably from their evidence, be unjustified? The thought experiment is Stewart Cohen's canonical formulation of the central intuitive motivation for internalism.
+
+## The Reliable Clairvoyant
+
+**The scenario:** Norman is a perfectly reliable clairvoyant: whenever he forms beliefs about the locations of distant people via his clairvoyant faculty, those beliefs are true. He has no evidence for or against the existence of clairvoyance; he simply finds himself, from time to time, with strong convictions about where people are. He has no idea why these beliefs arise. His belief that the President is in New York right now (formed clairvoyantly) is true and reliably formed. Is it justified?
+
+**The philosophical point:** BonJour introduced this case to argue against reliabilism. Reliabilism says yes — the belief is produced by a reliable process, so it is justified. But the internalist answer is no — Norman has no reason to trust his clairvoyant faculty, and if he were epistemically responsible, he would not believe what his clairvoyance tells him without independent corroboration. The case shows that reliability alone seems insufficient for justification; something must be accessible to the believer that licenses the belief. Externalists respond that our perceptual faculties are, in the relevant respects, just like Norman's clairvoyance: we cannot independently verify that they are reliable, yet we are clearly justified in trusting them.
+
+## The Forgotten Evidence
+
+**The scenario:** Alex carefully reads ten studies about a medical claim and forms a well-justified belief that the claim is true. Two years later, Alex still holds the belief but has no memory of the studies. She cannot recall why she believes it; she just believes it. Is Alex's current belief justified?
+
+**The philosophical point:** This case tests different versions of internalism and externalism. A strict access internalist holds that Alex is not currently justified, since she cannot access the reasons for her belief. A mentalist internalist (like Conee and Feldman) might hold that she is justified as long as her current mental states include some residual phenomenal "sense" of the evidence. An externalist reliabilist holds that whether she is justified depends on whether the process that now sustains the belief is reliable — and if it is a reliable memory process, she remains justified. The case reveals that internalism and externalism generate genuinely different verdicts about cases of forgotten but originally good evidence.
+
+## The Blindsight Patient
+
+**The scenario:** A neurological patient has damage to the primary visual cortex and is blind in part of her visual field. Yet when asked to guess where a light is in that blind region, she correctly identifies its location at a rate far above chance. She sincerely reports that she cannot see the light and is merely guessing. Her "guesses" are produced by a reliable sub-cortical visual process that operates outside her conscious awareness. Are her correct guesses justified beliefs about the light's location?
+
+**The philosophical point:** Blindsight is a real neurological phenomenon, and this case tests the externalist claim that reliability is sufficient for justification. The externalist must say that if her responses are indeed reliably tracking the light's location, then she has at least propositional justification for the belief. But it seems strange to say she is *justified* in believing what she thinks she is merely guessing. This case parallels the clairvoyance case but with an empirically real phenomenon, pressing the question of whether reliability without any phenomenal access to the tracking relation suffices for genuine epistemic justification.
+
+## The Super-Sophisticated Meteorologist
+
+**The scenario:** A meteorologist has an elaborate and sophisticated model of weather systems. She uses this model to make predictions that are highly reliable — far more reliable than any competitor. However, she has never subjected the model's assumptions to critical scrutiny; she inherited the model from her teacher and has simply trusted it and used it. A second meteorologist has a less reliable model but has deeply understood its assumptions and critically evaluated its foundations. Which meteorologist is more justified in her predictions?
+
+**The philosophical point:** This case puts in tension the externalist's emphasis on reliability and the internalist's emphasis on reflective access and epistemic responsibility. The externalist says the first meteorologist is more justified, since her predictions are more reliably true. The internalist says the second is more justified (or perhaps both are equally lacking in full justification), since justification tracks how well one is managing one's epistemic situation from the inside. The case also connects to the debate about whether justification has a primarily *guidance* function (to help us pursue truth, which requires access) or a *status* function (to mark which beliefs are truth-apt in the right way, which need not require access).

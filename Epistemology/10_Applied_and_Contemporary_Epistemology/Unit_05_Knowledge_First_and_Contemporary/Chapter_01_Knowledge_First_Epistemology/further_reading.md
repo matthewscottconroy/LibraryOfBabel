@@ -1,0 +1,19 @@
+## Primary Sources
+
+- Timothy Williamson, *Knowledge and Its Limits*, Oxford University Press, 2000. The foundational text of knowledge-first epistemology, arguing that knowledge is not to be analyzed in terms of more basic concepts but is itself the most fundamental mental state, and developing the E=K thesis, the knowledge norm of assertion, and safe belief.
+- Timothy Williamson, "Knowledge as Evidence," *Mind* 106(422), 1997. An earlier paper arguing for the E=K thesis — that an agent's evidence is exactly what the agent knows — contrasting with traditional views that evidence consists of beliefs, sense-data, or other items that fall short of knowledge.
+- John Hawthorne, *Knowledge and Lotteries*, Oxford University Press, 2004. Develops knowledge-first treatments of the lottery problem, arguing that we cannot know lottery propositions and exploring the implications for contextualism, sensitive invariantism, and the knowledge norm of practical reasoning.
+- Jeremy Fantl and Matthew McGrath, *Knowledge in an Uncertain World*, Oxford University Press, 2009. Defends "knowledge-action principles" closely related to the Williamsonian knowledge norm, arguing that whether you know depends partly on your practical situation.
+- Jennifer Nagel, *Knowledge: A Very Short Introduction*, Oxford University Press, 2014. An exceptionally clear and accurate introduction to epistemology that incorporates knowledge-first themes and psychological research on knowledge attributions.
+- Clayton Littlejohn, *Justification and the Truth-Connection*, Cambridge University Press, 2012. Develops and defends the knowledge norm of assertion and belief, situating it within a broader account of the relationship between truth, justification, and doxastic norms.
+- Jonathan Jenkins Ichikawa and Matthias Steup, "The Analysis of Knowledge," *Stanford Encyclopedia of Philosophy*, 2018. Comprehensive survey of the post-Gettier analysis program and the rise of knowledge-first epistemology as an alternative.
+
+## Secondary Sources
+
+- John Hawthorne and Jason Stanley, "Knowledge and Action," *Journal of Philosophy* 105(10), 2008. Develops the knowledge norm of practical reasoning — that one should treat p as a reason for action only if one knows p — and examines its implications for contextualism and subject-sensitive invariantism.
+- Patrick Greenough and Duncan Pritchard, eds., *Williamson on Knowledge*, Oxford University Press, 2009. A collection of critical essays on *Knowledge and Its Limits*, covering knowledge-first epistemology, anti-luminosity, E=K, and the knowledge norm of assertion, with Williamson's replies.
+- Matthew Benton, "Knowledge Norms," *Internet Encyclopedia of Philosophy*, 2014. An accessible overview of knowledge norms for belief, assertion, and action, covering the main arguments and objections.
+- Ernest Sosa, *A Virtue Epistemology: Apt Belief and Reflective Knowledge*, Oxford University Press, 2007. Develops a virtue-epistemological alternative to knowledge-first epistemology that also resists the analysis of knowledge in terms of more basic concepts.
+- John Turri, "Knowledge and Assertion," *Philosophy and Phenomenological Research* 86(2), 2013. Provides experimental philosophical evidence bearing on whether the knowledge norm of assertion correctly captures our epistemic practices.
+- Alexander Bird, "The Epistemological Conception of Evidential Support," in *Williamson on Knowledge*, Oxford University Press, 2009. Examines the E=K thesis in the context of the epistemology of science, asking whether scientists' evidence is plausibly identified with their knowledge.
+- Duncan Pritchard, *Epistemic Luck*, Oxford University Press, 2005. Defends an anti-luck epistemology using the modal notion of safety that Williamson also employs, situating the knowledge-first framework within the anti-luck tradition.

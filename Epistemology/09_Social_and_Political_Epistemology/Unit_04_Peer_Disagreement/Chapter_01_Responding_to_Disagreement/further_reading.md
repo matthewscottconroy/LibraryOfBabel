@@ -1,0 +1,19 @@
+## Primary Sources
+
+- David Christensen, "Epistemology of Disagreement: The Good News," *Philosophical Review* 116(2), 2007. The most influential statement of conciliationism, arguing that discovering that an epistemic peer disagrees with you is strong evidence that your shared methods have gone wrong somewhere, requiring you to move toward the peer's position.
+- Richard Feldman, "Reasonable Religious Disagreements," in *Philosophers Without Gods*, Oxford University Press, 2007. Defends the Equal Weight View, arguing that in peer disagreement, you should give equal weight to your peer's conclusion as to your own, often requiring suspension of judgment.
+- Thomas Kelly, "The Epistemic Significance of Disagreement," in *Oxford Studies in Epistemology*, vol. 1, Oxford University Press, 2005. Defends a "total evidence" view that is more sympathetic to steadfastness, arguing that your prior reasons for your view may outweigh the evidential force of the disagreement itself.
+- Adam Elga, "Reflection and Disagreement," *Noûs* 41(3), 2007. Offers a careful defense of the Equal Weight View using reflection principles, arguing that the independence of peer judgments makes them genuinely evidential about the truth.
+- Ernest Sosa, "The Epistemology of Disagreement," in *Social Epistemology*, Oxford University Press, 2010. Argues that virtuosity — the exercise of epistemic virtue — can justify maintaining one's view in the face of peer disagreement, defending a moderate steadfastness position.
+- Peter van Inwagen, "It Is Wrong, Everywhere, Always, and for Anyone, to Believe Anything upon Insufficient Evidence," in *God and the Burden of Proof*, Prometheus Books, 1994. Examines the relationship between evidence norms and the stubbornness of metaphysical disagreement, defending a kind of principled steadfastness for well-examined positions.
+- Jonathan Matheson, *The Epistemic Significance of Disagreement*, Palgrave Macmillan, 2015. A book-length treatment of peer disagreement covering all major positions, with attention to expert disagreement and democratic deliberation.
+
+## Secondary Sources
+
+- John Lackey, "A Justificationist View of Disagreement's Epistemic Significance," in *Social Epistemology*, Oxford University Press, 2010. Develops a view intermediate between conciliationism and steadfastness, focusing on the justificatory status of the reasons behind disagreement.
+- David Christensen, "Disagreement as Evidence: The Epistemology of Controversy," *Philosophy Compass* 4(5), 2009. A clear survey of the positions in the peer disagreement debate and the main arguments for and against each.
+- Jonathan Kvanvig, "Disagreement, Philosophical," in *Encyclopedia of Philosophy*, Macmillan, 2006. A succinct overview of the epistemology of disagreement and its connection to broader questions about rationality and knowledge.
+- Michael Huemer, "Permissivism about Rational Belief," in *Disagreement*, Oxford University Press, 2013. Examines the relationship between permissivism (the view that the same evidence can rationally support different credences) and the peer disagreement debate.
+- Gary Gutting, *Religious Belief and Religious Skepticism*, Notre Dame University Press, 1982. Applies peer disagreement considerations to religious epistemology, arguing that religious disagreement provides strong reasons for doubt, anticipating later debates.
+- Bryan Frances and Jonathan Matheson, "Disagreement," *Stanford Encyclopedia of Philosophy*, 2018. A comprehensive, up-to-date encyclopedic treatment of all aspects of the peer disagreement debate, including expert and scientific disagreement.
+- Lara Buchak, "Disagreement with Oneself," in *Oxford Studies in Epistemology* 5, 2014. Extends peer disagreement considerations to the self's relationship with its own earlier and later credences, raising unusual questions about diachronic epistemic rationality.

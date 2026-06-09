@@ -1,0 +1,23 @@
+## Bertrand Russell (1872–1970)
+
+Russell introduced the acquaintance/description distinction as the fundamental division within the theory of knowledge. To know something by acquaintance is to be directly and immediately aware of it without the mediation of any description or inference: Russell held that we are acquainted with sense-data (the immediate deliverances of perception), universals (such as whiteness or triangularity), our own self as subject (controversially, in the 1912 account), and memory-data. All other knowledge is by description: we know external physical objects, other minds, and abstract entities not directly encountered through acquaintance only as "the so-and-so"—as whatever uniquely satisfies some description. Russell's Principle states that every proposition we can genuinely understand must contain, as constituents, only entities with which we are acquainted.
+
+## Frank Jackson (born 1943)
+
+Jackson's Mary's Room thought experiment challenged physicalism by arguing that phenomenal knowledge—knowledge of what it is like to have an experience—cannot be captured by any amount of physical/functional knowledge. Mary knows all the physical facts about color vision but learns something new when she first sees red. Jackson argued that what she learns is a new fact—a phenomenal fact about qualia—and that this shows physicalism is false. Though Jackson later recanted his dualist conclusion (arguing that Mary gains no new knowledge but acquires a new way of representing the same facts), the thought experiment has proved enormously generative for debates about phenomenal consciousness, phenomenal concepts, and the relation between acquaintance and propositional knowledge.
+
+## Richard Fumerton (born 1949)
+
+Fumerton is the most rigorous contemporary defender of an acquaintance-based foundationalism. He argues that non-inferential justification requires a three-term acquaintance relation: S is justified in believing p (a proposition) when S is acquainted with the fact p, with the proposition p, and with the correspondence between them. This "acquaintance theory" avoids the regress problem for foundationalism by grounding justification in a non-propositional, immediate relation between the mind and its objects. Fumerton has argued extensively against reliabilism and other externalist accounts, insisting that epistemic justification must be something accessible to the subject from the inside.
+
+## Brie Gertler (born c. 1970)
+
+Gertler has developed the most careful contemporary defense of acquaintance as the basis for privileged first-person authority. Her "infallibility" argument holds that in introspecting a phenomenal state, the subject's belief about the state cannot be false: the very act of attending to the pain and forming the belief that one is in pain is constituted by an acquaintance relation that cannot misfire in the way perceptual beliefs can misfire. This position connects the epistemology of self-knowledge to the phenomenology of consciousness and challenges both higher-order theories of consciousness (which require a further thought about the first-order state) and externalist theories of mental content.
+
+## Thomas Nagel (born 1937)
+
+Nagel's "What Is It Like to Be a Bat?" established the irreducibility of the subjective perspective in the philosophy of mind, with direct implications for knowledge by acquaintance. His argument is that no amount of objective, third-person physical description captures what it is like to experience echolocation from the inside. This subjective dimension of experience is knowable only from the perspective of the experiencing subject—a point about epistemic access that is tantamount to saying that phenomenal properties are knowable only by acquaintance. Nagel's work motivates the view that physicalism cannot fully account for phenomenal consciousness, since all physical description is third-personal while phenomenal knowledge is irreducibly first-personal.
+
+## Earl Conee (born 1948)
+
+Conee developed the "phenomenal concepts strategy" in connection with acquaintance: we form phenomenal concepts—concepts of phenomenal properties—through direct acquaintance with those properties, and these concepts cannot be reduced to functional or physical concepts because they are constituted by the acquaintance relation itself. This strategy defends a form of phenomenal realism while maintaining physicalism: phenomenal properties are physical, but our concepts of them are formed through a distinctive first-personal acquaintance that gives them an irreducibility at the conceptual level even if there is no irreducibility at the metaphysical level.

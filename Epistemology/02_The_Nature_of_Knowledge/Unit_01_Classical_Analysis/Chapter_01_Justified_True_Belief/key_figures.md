@@ -1,0 +1,23 @@
+## Plato (c. 428–348 BCE)
+
+Plato did not offer a systematic analysis of knowledge in the style of later epistemologists, but he introduced the conceptual vocabulary and the central problems that have structured the discussion ever since. In the *Meno*, he distinguished knowledge from true belief by analogy with the statues of Daedalus: true opinions are valuable but unreliable, like the statues that walk away unless tethered; knowledge is true belief that is "tethered" by an account (*aitias logismos*). The *Theaetetus* subjects three candidate definitions of knowledge to examination and finds each wanting: knowledge is not perception, not true belief, and not true belief with an account (since the account either regresses or presupposes what it was supposed to explain). These aporetic conclusions set the agenda for the tripartite analysis.
+
+## Aristotle (384–322 BCE)
+
+Aristotle's *Posterior Analytics* provides the closest ancient approximation to a systematic account of scientific knowledge (*episteme*): genuine knowledge is knowledge through causes, arrived at by demonstration from first principles that are themselves known by nous (intellectual intuition). Though his account differs from the JTB analysis in requiring demonstrative structure and causal explanation, his emphasis on the role of appropriate *logos* in distinguishing knowledge from mere true belief anticipates the justification condition. His account of opinion (*doxa*) as fallible, changeable belief about contingent matters, contrasted with knowledge of necessary truths, is the background for the later distinction between knowledge and justified true belief.
+
+## Roderick Chisholm (1916–1999)
+
+Chisholm's systematic elaboration of the classical analysis of knowledge provided the analytic tradition with its canonical pre-Gettier formulation. His framework distinguished multiple epistemic states—from the negative (being beyond reasonable doubt) through the positive (having adequate evidence, being evident, being certain)—and his careful analysis of the justification condition in terms of epistemic acceptability and prima facie versus ultima facie justification provided the vocabulary for subsequent debates. His "particularism" in the problem of the criterion—the view that we can identify particular instances of knowledge before formulating general criteria—influenced the reflective equilibrium approach to epistemological methodology.
+
+## Edmund Gettier (born 1927)
+
+Before his 1963 counterexamples, Gettier was a relatively unknown philosophy instructor at Wayne State University. His three-page paper targeted the tripartite analysis as it was stated in the textbooks of the time, particularly in A. J. Ayer's *The Problem of Knowledge* and Chisholm's *Perceiving*. By demonstrating that justified true belief is insufficient for knowledge, Gettier not only refuted a specific theory but revealed a structural gap—between the truth of a belief and the quality of the epistemic access that justifies it—that has proven enormously difficult to close. The paper is one of the most cited in all of analytic philosophy despite—or because of—its brevity.
+
+## A. J. Ayer (1910–1989)
+
+Ayer's *The Problem of Knowledge* (1956) provided the most widely read pre-Gettier articulation of the JTB analysis, stating the three necessary and jointly sufficient conditions clearly and defending them systematically. Ayer's version required that the knower have "the right to be sure"—a phrase that captures the normative dimension of the justification condition while remaining appropriately vague about its precise requirements. His logical positivism influenced the particular form the justification condition took in analytic epistemology: justification was understood in terms of the evidence available to the knower, tying the analysis to an internalist, evidence-based framework.
+
+## Keith Lehrer (1936–2022)
+
+Lehrer developed one of the most systematic post-Gettier accounts of knowledge in the coherentist tradition, holding that knowledge requires not merely justified true belief but "undefeated" justified true belief. His framework distinguished between the "acceptance system" of a knower—the total set of beliefs she accepts—and the "ultrasystem" that results from correcting that system by removing false beliefs. A belief constitutes knowledge when it is justified and that justification is undefeated: no substitution of true for false beliefs in the system removes the justification. Lehrer's collaborative work with Thomas Paxson on the defeasibility approach to Gettier cases was particularly influential.

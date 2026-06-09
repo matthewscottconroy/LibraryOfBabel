@@ -1,0 +1,31 @@
+# Thought Experiments: Externalist Responses to Skepticism
+
+## The Reliable Perceiver in a Normal World
+
+**The scenario:** Maria is a normal human being with normally functioning perceptual systems. She opens her eyes and sees a coffee cup on her desk. Her visual system reliably produces true beliefs about medium-sized objects in normal conditions; the cup is there; her belief that the cup is there is produced by a reliable process. She cannot prove that she is not hallucinating or dreaming, but in fact she is not. Is she justified in believing there is a cup on her desk?
+
+**The philosophical point:** Goldman's reliabilism answers yes — her belief is justified because it is produced by a reliable process (normal vision in normal conditions), regardless of whether she can prove from the inside that her faculties are reliable. This response to skepticism is externalist: justification is determined by actual facts about the world (process reliability) rather than by what the believer can verify from her own perspective. The skeptic's challenge — you cannot rule out dreaming — is irrelevant on this account because whether your processes are reliable does not depend on your ability to rule out skeptical alternatives.
+
+## Dretske's Zebra at the Zoo
+
+**The scenario:** You visit the zoo and see what appears to be a zebra in the zebra enclosure. You believe it is a zebra. You know that zoos sometimes display cleverly disguised mules instead of real zebras — but this is not actually happening here. You cannot distinguish a cleverly disguised mule from a real zebra. Do you know there is a zebra in the pen?
+
+**The philosophical point:** Dretske argues yes, you know there is a zebra. The relevant alternative — cleverly disguised mule — is not a live possibility in the actual context of your zoo visit. Knowledge is relativized to relevant alternatives, and exotic alternatives (the mule hypothesis) are not relevant. This illustrates his response to skepticism: just as you know there is a zebra without being able to rule out the mule hypothesis, you know ordinary propositions without being able to rule out skeptical hypotheses (BIV, demon). The skeptical hypothesis is simply not a relevant alternative in ordinary life. The question this raises is how we determine which alternatives are "relevant" — a question that has generated much of the secondary literature on Dretske's approach.
+
+## Nozick's Sensitivity and the Skeptical Scenario
+
+**The scenario:** Consider two possible worlds: in W1 (the actual world), you have hands. In W2 (the skeptical scenario), you are a handless brain in a vat. In W1, you believe you have hands; this belief is true. In W2, you would still believe you have hands — you can't tell the difference from the inside. Does this show that your belief in W1 that you have hands fails the sensitivity condition?
+
+**The philosophical point:** Nozick's response to this challenge is subtle. He argues that we evaluate the sensitivity condition by holding fixed the *method* by which the belief is formed: if you were not to have hands (not in a BIV scenario, but in the actual world with no hands), would you still believe you had hands via the same method (normal perception)? The answer is no — if you had no hands in the actual world, you would not perceive them and would not believe you had them. The BIV scenario involves a *different method* of forming the belief (vat-stimulation rather than perception), so it is not relevant to the sensitivity of your actual perceptual belief. The case illustrates why tracking theories need a careful account of method-individuation.
+
+## The New Evil Demon and Externalism
+
+**The scenario:** Twin Earth is like Earth in every experiential respect, but its inhabitants are deceived by an evil demon: their perceptual processes are unreliable (the demon generates the experiences they would have if the world were as they believe). An Earth person and a Twin Earth person have identical phenomenal experiences when they look at what appears to be a hand. The Earth person has justified beliefs (on Goldman's account); the Twin Earth person does not.
+
+**The philosophical point:** This thought experiment represents the "new evil demon" objection to reliabilism as an externalist response to skepticism. If reliabilism is correct, then victims of an evil demon — who are doing everything epistemically right — lack justified beliefs. Many philosophers find this counterintuitive and use it to argue for an internalist component in the theory of justification. Externalists respond in two ways: (1) the Twin Earth person really is unjustified, because justification requires actual reliability; (2) the case shows that "justified" is ambiguous — there is a sense in which the Twin Earther is "blameless" and a sense in which her beliefs are not genuine epistemic achievements, and we should keep these distinct.
+
+## Stroud's Challenge to the Reliabilist
+
+**The scenario:** A reliabilist says: "Our perceptual faculties are reliable; therefore our perceptual beliefs are justified; therefore we have knowledge of the external world; therefore skepticism fails." A skeptic replies: "But how do you know your perceptual faculties are reliable? If you appeal to your perceptual faculties to answer this, you are using the very faculties whose reliability you are trying to establish. If you appeal to something else, what is it?"
+
+**The philosophical point:** Stroud's challenge to reliabilism targets the metaepistemological level: even if reliabilism is true (reliability constitutes justification), the reliabilist cannot demonstrate to the skeptic that our faculties are reliable without using the faculties in question. This is not exactly the Cartesian circle (which is about using reason to validate reason), but an analogous problem about the relationship between a theory of justification and the resources needed to apply it. Stroud's point is that reliabilism gives the *right account* of what justification is while failing to *vindicate* our epistemic practices in the face of the skeptic — because vindicating those practices requires showing that the reliability condition is met, which cannot be done without the very faculties in question.

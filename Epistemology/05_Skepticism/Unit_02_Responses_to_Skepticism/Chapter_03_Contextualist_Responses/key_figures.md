@@ -1,0 +1,29 @@
+# Key Figures: Contextualist Responses to Skepticism
+
+## Stewart Cohen (b. 1954)
+
+Cohen is the philosopher who most carefully articulated the contextualist response to skepticism as a formal position. His "How to Be a Fallibilist" (1988) and "Knowledge and Context" (1987) argued that "knows" is a context-sensitive term: the standards that must be met for a knowledge attribution to be true shift with the context in which the attribution is made. When a philosopher raises skeptical possibilities in a seminar room, the standards for "knows" are elevated so that only beliefs that rule out the relevant skeptical scenarios qualify. In ordinary life, when no skeptical alternatives are salient, the standards are lower and ordinary perceptual beliefs qualify as knowledge. Cohen's account explains both why the skeptic's argument seems compelling (it is valid at the elevated standards the skeptic invokes) and why we should not revise our ordinary knowledge claims (they are true at the standards appropriate for ordinary contexts).
+
+## Keith DeRose (b. 1962)
+
+DeRose's "Solving the Skeptical Problem" (1995) is the landmark paper in the contextualist tradition. He develops a specific contextualist framework based on the "Rule of Sensitivity": when a knowledge claim is made in a context, the standards that govern it are determined partly by the truth of sensitivity-based conditionals across possible worlds. When the skeptic raises a distant possible world in which you are a BIV, this elevates the standards in the discussion context so high that ordinary beliefs fail to meet them. But in ordinary contexts where such distant worlds are not salient, the standards are much lower and ordinary beliefs qualify. DeRose's framework also handles the lottery paradox and connects contextualism to the broader literature on epistemic standards and closure.
+
+## David Lewis (1941–2001)
+
+Lewis's "Elusive Knowledge" (1996) offers the most technically elegant version of contextualism. Knowledge is defined as having evidence that eliminates all relevant alternatives; "relevant" is context-sensitive and governed by rules about what can be "properly ignored." The Rule of Actuality says the actual world cannot be ignored (so if you are actually a BIV, the BIV possibility is always relevant). The Rule of Attention says anything the participants in a conversation are attending to cannot be ignored — which explains why, when a philosopher raises the BIV scenario, it suddenly becomes relevant and undermines knowledge claims. Lewis's account explains both the apparent truth of ordinary knowledge claims and the apparent truth of the skeptic's argument, by relativizing both to different conversational contexts.
+
+## John Hawthorne (b. 1967)
+
+Hawthorne is one of the most trenchant critics of contextualism and an advocate of the rival "interest-relative invariantism." In *Knowledge and Lotteries* (2004), he argues that contextualism faces problems with the "practical implications" of knowledge: if what you "know" depends on the conversational context, then two people in different conversational contexts should be able to make incompatible knowledge attributions that are both true — which seems to undermine the point of knowledge attributions as tools for coordinating action and inquiry. Hawthorne argues instead that knowledge is not context-relative but is interest-relative in a different sense: whether a true belief constitutes knowledge depends on the practical stakes for the *believer*, not the attributor.
+
+## Jason Stanley (b. 1969)
+
+Stanley's *Knowledge and Practical Interests* (2005) develops interest-relative invariantism as the main alternative to contextualism. He accepts that the lottery paradox and related puzzles show that the conditions for "knows" vary with practical stakes, but argues that this variation is located in the subject's practical situation rather than in the context of the attributor. This makes the view a form of invariantism (the truth conditions of "S knows that p" do not shift with the attributor's context) that nonetheless accommodates the data that motivated contextualism. Stanley's challenge to contextualism has sharpened the debate and forced contextualists to articulate more precisely what kind of context-sensitivity they are committed to.
+
+## Michael Williams (b. 1947)
+
+Williams's contextualism differs fundamentally from the semantic contextualism of Cohen, DeRose, and Lewis. In *Unnatural Doubts* (1991) and related work, Williams defends "methodological contextualism": knowledge claims are always made within and relative to particular practices of inquiry, and what counts as adequate justification varies with the standards of those practices. This is not primarily a claim about the semantics of "knows" but a claim about the nature of epistemic practices. Skeptical doubts, on Williams's account, are not so much false as unintelligible from within any real epistemic practice: the theoretical framework that makes them seem compelling — "epistemological realism" — is one that neither ordinary practice nor good scientific inquiry adopts or requires.
+
+## Patrick Rysiew (b. c. 1969)
+
+Rysiew's "The Context-Sensitivity of Knowledge Attributions" (2001) offers an important challenge to the semantic contextualist position. He argues that the ordinary language evidence for contextualism — the observation that we seem to speak truly when we say "She knows" in ordinary contexts and when we say "She doesn't know" in skeptical contexts — can be explained by pragmatic mechanisms (Gricean implicature) without positing semantic context-sensitivity in "knows." This "pragmatic encroachment" alternative to semantic contextualism has forced contextualists to articulate more precisely what would distinguish genuine semantic context-sensitivity from pragmatic sensitivity, and has generated a rich literature on the relationship between semantics and pragmatics in epistemology.

@@ -1,0 +1,29 @@
+# Key Figures: Externalist Responses to Skepticism
+
+## Alvin Goldman (b. 1938)
+
+Goldman's reliabilism provides the canonical externalist response to skepticism. On his account, a belief is justified if it is produced by a reliable cognitive process — one that produces a high ratio of true beliefs. Skeptical scenarios (demon worlds, vats) by definition involve unreliable processes, so victims of those scenarios would indeed lack justified beliefs. But crucially, this means that if *our* actual cognitive processes are reliable — as Goldman argues they are, appealing to evolutionary and cognitive-scientific considerations — then we have justified beliefs about the external world. The skeptic cannot generate a genuine challenge without showing that our actual processes are unreliable, which is a different and much harder task. Goldman's response is explicitly external: whether we are justified depends on facts about the world, not on what we can verify from our own perspective.
+
+## Fred Dretske (1932–2017)
+
+Dretske's relevant alternatives approach provides a distinctive externalist response to skepticism that denies the closure principle. He argues that "knows" does not require eliminating all possible alternatives to the known proposition — only the "relevant" alternatives, those that are live possibilities in the actual epistemic context. Since evil demons, brains in vats, and elaborate global deceptions are not relevant alternatives in ordinary life (they are not real possibilities the agent has any reason to consider), one can know ordinary propositions without being able to rule these scenarios out. Dretske's response allows him to accept the skeptic's premise (I cannot rule out being a BIV) while rejecting the skeptical conclusion (therefore I don't know there is a hand) — the inference fails because closure is false.
+
+## Robert Nozick (1938–2002)
+
+Nozick's tracking theory (from *Philosophical Explanations*, 1981) offers an externalist response to skepticism using the sensitivity condition. He argues that one knows P only if one's belief is sensitive — if P were false, one would not believe it. This condition rules out the skeptical scenario: if you were a brain in a vat (or there were no hand), you would still believe there was a hand. Hence the BIV hypothesis blocks knowledge of ordinary propositions *in the skeptical scenario*, but this does not affect whether you know there is a hand *in ordinary circumstances* — because in ordinary circumstances, if there were no hand, you would not believe there was one. Nozick explicitly embraces the denial of closure: one can know there is a hand without knowing one is not a BIV.
+
+## Ernest Sosa (b. 1940)
+
+Sosa's virtue epistemology applies an externalist response to skepticism that does not require the believer to possess an argument against the skeptic. On his view, beliefs formed through reliable intellectual virtues (stable, truth-conducive cognitive competencies) constitute knowledge. Our perceptual faculties are intellectual virtues — reliable cognitive competencies — and beliefs formed through them constitute animal knowledge. When the skeptic suggests we might be brains in vats, Sosa's response is that in *our actual situation*, our faculties are reliable, and this suffices for knowledge. We do not need to prove our faculties are reliable; the reliability is what constitutes the knowledge, not something we must demonstrate in advance.
+
+## John Greco (b. 1961)
+
+Greco's agent reliabilism responds to skepticism by arguing that knowledge requires that a true belief be an achievement of the agent's cognitive competence. Skeptical scenarios, on this view, are cases in which the agent's cognitive competence is not responsible for the truth of their beliefs (if any beliefs in such scenarios were true, it would be by luck). In the actual world, where our competencies are reliable, our beliefs are achievements of those competencies and constitute knowledge. Greco's response also engages the "new evil demon" objection by distinguishing two senses in which a belief might be "justified" — one internalist (you are doing your epistemic best) and one externalist (your belief is a genuine epistemic achievement) — and arguing that the skeptic only challenges the latter.
+
+## Timothy Williamson (b. 1955)
+
+Williamson's knowledge-first epistemology provides a distinctive externalist response to skepticism. Rather than defining knowledge in terms of justified true belief (plus some fourth condition), Williamson takes knowledge as primitive and analyzes other epistemic concepts in terms of it. His anti-skeptical move is that the very formulation of the skeptical argument depends on epistemic concepts (justification, evidence) that are best understood in terms of knowledge — and that if one has knowledge, the skeptical scenarios do not arise. His equation E=K (one's evidence just is what one knows) is particularly relevant: if knowledge is one's evidence base, and if one does have knowledge, then one's evidence base is secure, and the skeptic's challenge to the adequacy of one's evidence base fails.
+
+## Barry Stroud (1935–2019)
+
+Stroud's role in the externalist debate is primarily critical: he argues that externalist responses to skepticism fail to engage the skeptic's challenge at the correct level. In *The Significance of Philosophical Scepticism* (1984), he contends that the skeptic is raising a question about how knowledge of the external world is *possible in principle*, and that reliabilist or tracking-theory responses only show that in the actual world, our faculties happen to be reliable — they do not explain *why* reliability constitutes knowledge or how we could *know* that our faculties are reliable. Stroud's critique forces externalists to articulate a more complete epistemological account that connects reliability to the concept of knowledge rather than merely asserting the connection.

@@ -1,0 +1,20 @@
+## Primary Sources
+
+- John Searle, "Minds, Brains, and Programs," *Behavioral and Brain Sciences* 3(3), 1980. Introduces the Chinese Room argument, challenging whether any computational system can have genuine understanding or mental states — directly bearing on whether AI systems can know.
+- Alan Turing, "Computing Machinery and Intelligence," *Mind* 59(236), 1950. Introduces the Turing Test as a criterion for machine intelligence, proposing that if a machine can be indistinguishable from a person in conversation, questions about inner states may become secondary.
+- Luciano Floridi and J. W. Sanders, "On the Morality of Artificial Agents," *Minds and Machines* 14(3), 2004. Examines the conditions under which artificial agents can be moral and epistemic agents, developing an information-theoretic account of agency.
+- Safiya Umoja Noble, *Algorithms of Oppression: How Search Engines Reinforce Racism*, New York University Press, 2018. Documents how algorithmic systems embed and amplify social biases, raising questions about epistemic justice in AI-mediated information access.
+- Kate Crawford, *Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence*, Yale University Press, 2021. A critical examination of the material, political, and epistemic dimensions of AI systems, including their role in shaping what counts as knowledge and who is counted as a knower.
+- Bostrom, Nick, *Superintelligence: Paths, Dangers, Strategies*, Oxford University Press, 2014. Examines the long-range epistemic implications of AI systems that might exceed human cognitive capacities, including the question of whether such systems could have knowledge superior to humans'.
+- Edmund Gettier, "Is Justified True Belief Knowledge?," *Analysis* 23(6), 1963. The canonical challenge to the justified true belief account of knowledge — relevant to AI epistemology insofar as AI systems produce true outputs through processes that may or may not be "justified."
+
+## Secondary Sources
+
+- Timothy Williamson, *Knowledge and Its Limits*, Oxford University Press, 2000. While not about AI, Williamson's knowledge-first epistemology raises the question of whether AI systems satisfy the conditions for knowledge — or merely for reliable true belief.
+- Jack Stilgoe, *Machine Learning, Social Learning*, Routledge, 2019. Examines how AI systems are trained, validated, and deployed in ways that constitute a form of social epistemology, raising questions about epistemic responsibility.
+- Shannon Vallor, *Technology and the Virtues: A Philosophical Guide to a Future Worth Wanting*, Oxford University Press, 2016. Develops a virtue-ethical approach to AI and technology, including an account of the epistemic virtues required for responsible use of AI systems.
+- Cathy O'Neil, *Weapons of Math Destruction*, Crown Publishing, 2016. Documents how algorithmic systems can produce epistemic and social harms through opacity, scale, and feedback loops, illustrating the "black box" problem from an applied perspective.
+- Andrew Ng and Stuart Russell, "Q&A: The Future of Artificial Intelligence," *Harvard Data Science Review*, 2020. A discussion of AI development and its epistemic implications by two leading researchers, useful for understanding how AI practitioners think about knowledge and understanding.
+- Murray Shanahan, *The Technological Singularity*, MIT Press, 2015. Examines philosophical questions about machine cognition, knowledge, and understanding in the context of predictions about transformative AI, with careful attention to what is known and speculated.
+- Luc Floridi, *The Ethics of Artificial Intelligence*, MIT Press, 2023. A systematic examination of the ethical and epistemological dimensions of AI, including AI's role in the epistemic commons, autonomy, and the right to explanation.
+- Virginia Dignum, *Responsible Artificial Intelligence: How to Develop and Use AI in a Responsible Way*, Springer, 2019. Addresses how AI systems should be designed to support rather than undermine human epistemic autonomy and responsibility.

@@ -1,0 +1,20 @@
+## Primary Sources
+
+- Karl Popper, *The Logic of Scientific Discovery*, Hutchinson, 1959 (German original 1934). The classic statement of falsificationism: science is distinguished from non-science by the falsifiability of its hypotheses, and progress occurs through the bold conjecture and rigorous attempted refutation of hypotheses.
+- Pierre Duhem, *The Aim and Structure of Physical Theory*, Princeton University Press, 1954 (French original 1906). Introduces the Duhem thesis: physical hypotheses cannot be tested in isolation because they always require auxiliary assumptions, making falsification of a single hypothesis impossible.
+- W. V. O. Quine, "Two Dogmas of Empiricism," *Philosophical Review* 60, 1951. Extends Duhem's thesis to all of knowledge (the Duhem-Quine thesis), arguing that any statement can be held true in the face of recalcitrant experience by adjusting elsewhere in the web of belief.
+- Thomas Kuhn, *The Structure of Scientific Revolutions*, University of Chicago Press, 1962. Argues that science proceeds through alternating periods of normal science (puzzle-solving within a paradigm) and scientific revolution (paradigm replacement), challenging the cumulative and rational picture of scientific progress.
+- Imre Lakatos, *The Methodology of Scientific Research Programmes*, Cambridge University Press, 1978. Develops the research program methodology as a sophisticated response to Popper and Kuhn, evaluating sequences of theories rather than individual theories and distinguishing progressive from degenerating research programs.
+- Gilbert Harman, "The Inference to the Best Explanation," *Philosophical Review* 74(1), 1965. Introduces and defends inference to the best explanation (IBE) as a fundamental non-deductive inference pattern in science and ordinary reasoning.
+- Peter Lipton, *Inference to the Best Explanation*, 2nd ed., Routledge, 2004. The most thorough philosophical study of IBE, defending the "loveliness" criterion and examining the relationship between explanation and confirmation.
+
+## Secondary Sources
+
+- Paul Feyerabend, *Against Method*, New Left Books, 1975. Argues that no single scientific method can account for the historical diversity of successful science, advocating for an "anarchist" epistemology of science.
+- Deborah Mayo, *Statistical Inference as Severe Testing: How to Get Beyond the Statistics Wars*, Cambridge University Press, 2018. Defends the error-statistical approach to scientific inference against both Bayesian and naive frequentist alternatives, arguing that the severity of testing is the key epistemic criterion.
+- Elliott Sober, *Evidence and Evolution: The Logic of Darwin's Case*, Cambridge University Press, 2008. Applies philosophy of science methodology — likelihoodism, Bayesian inference, and IBE — to the case of evolutionary biology, providing a sophisticated case study in scientific epistemology.
+- Alan Musgrave, "Logical Versus Historical Theories of Scientific Rationality," *Monist* 60(3), 1977. An influential critique of Kuhn's historical approach, arguing that it cannot accommodate the normative requirements of scientific rationality.
+- Wesley Salmon, *Four Decades of Scientific Explanation*, University of Pittsburgh Press, 1989. A comprehensive survey of theories of scientific explanation from the deductive-nomological model onward, covering causal, statistical, and unification approaches.
+- Brad Wray, *Kuhn's Evolutionary Social Epistemology*, Cambridge University Press, 2011. A careful reconstruction of Kuhn's social epistemology of science, arguing that his account anticipates many themes in contemporary social epistemology.
+- Carl Hempel, *Aspects of Scientific Explanation*, Free Press, 1965. The canonical statement of the deductive-nomological and inductive-statistical models of explanation, setting the agenda for philosophy of science for a generation.
+- Samir Okasha, *Philosophy of Science: A Very Short Introduction*, Oxford University Press, 2002. An accessible and philosophically careful overview of scientific methodology debates, suitable as an entry point for students.

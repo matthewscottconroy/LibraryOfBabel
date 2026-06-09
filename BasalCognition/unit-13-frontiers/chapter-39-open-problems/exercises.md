@@ -1,0 +1,33 @@
+# Chapter 39: Exercises
+
+## Part I: Reflection and Discussion
+
+1. **Operationalizing cognition.** Choose one of the behavioral criteria for cognition discussed in Section 39.1 (flexibility, memory, anticipation, goal-directedness, non-linear integration). Design an experiment that would apply this criterion to *Physarum polycephalum* in a way that controls for the most plausible non-cognitive alternatives. What positive result would you need to observe to be confident the criterion was met? What result would definitively falsify the cognitive interpretation?
+
+2. **The mechanism question.** For the behavior of your choice (bacterial chemotaxis, slime mold network optimization, plant habituation), describe what a complete mechanistic explanation would look like. What physical processes would need to be specified? At what spatial and temporal scales? What would the explanation reveal that the current behavioral description leaves open? What is the most important missing piece of mechanistic knowledge?
+
+3. **Lost cognitive capacities.** The section proposes that neural organisms may have lost some cognitive capacities in the transition from cellular to neural cognition. What evidence would support or refute this hypothesis? Can you identify any case where a non-neural organism clearly outperforms neural organisms on a cognitive task — not merely by working more slowly, but by achieving a better outcome? What does this tell us about the relationship between neural and non-neural cognition?
+
+4. **The methodological limits.** The section argues that third-person science cannot, by itself, determine whether any system is conscious. Do you agree with this argument? If so, does it mean that consciousness research should be abandoned (as some eliminativists suggest) or that new methods are needed? What would a method look like that could provide evidence about the presence or absence of phenomenal consciousness in non-neural organisms? Is such a method conceivable?
+
+5. **Behavioral markers of experience.** The section argues that behavioral markers of experience are necessary but not sufficient for consciousness. Are any behavioral markers ever sufficient — that is, is there any behavior that would convince you that a system is conscious, regardless of its physical substrate? If yes: what is it? If no: does this mean consciousness attributions are always uncertain, or is there a different kind of evidence that could be sufficient?
+
+---
+
+## Part II: Thought Experiments
+
+1. **The measurement device.** Imagine a "cognitive meter" — a device that could measure the degree of cognitive function in any biological system, without prior assumptions about what cognition should look like in that system. What principles would it need to implement? What inputs would it take (behavioral, physiological, molecular)? What output would it produce (a single number, a multidimensional profile, a qualitative category)? How would you validate it — what would count as confirming that the device was measuring what you intended? And most importantly: would the device tell you anything about consciousness, or only about functional cognition?
+
+2. **The phylogenetic plot.** Imagine plotting the "cognitive complexity" of all living organisms — from bacteria to humans — on a single axis, with time on the horizontal axis and cognitive complexity on the vertical. What would the plot look like? Would it be a gradually rising curve from bacteria to humans? Would it be a landscape with many peaks (cognitive complexity evolving multiple times in different lineages)? Would it be a scatter of points with no clear trend? What does your intuition about the shape of this plot reveal about your assumptions regarding the relationship between evolution and cognition?
+
+3. **The zombie bacterium.** Philosophical zombies are systems that are functionally identical to conscious beings but lack any inner experience. Consider a "zombie bacterium": a system physically and functionally identical to *E. coli* — the same molecular components, the same chemical dynamics, the same behavioral outputs — but without any inner experience, if *E. coli* has any. Is a zombie bacterium conceivable? If conceivable, is it possible? If possible, what would it take to distinguish a zombie bacterium from a conscious one? What does this thought experiment reveal about the relationship between function and experience at the cellular level?
+
+---
+
+## Part III: Laboratory and Computational Investigations
+
+1. **Information-theoretic analysis of bacterial chemotaxis.** Using published data on *E. coli* chemotaxis — or collecting your own, if you have access to a microscopy setup — compute the mutual information between chemical concentration changes in the environment and the bacterium's tumbling behavior. Then compute the transfer entropy from chemical stimulus to behavioral output. Compare these measures to the theoretical maximum given the number of receptor types and their sensitivity. Discuss what these measures tell you about the degree to which *E. coli* is extracting information from its environment and using it to guide behavior.
+
+2. **Philosophical zombie versus cognitive system: an empirical test design.** Design an experimental protocol that would, in principle, distinguish between (a) a system that performs all the functional behaviors associated with cognition without any inner experience, and (b) a system that performs those behaviors accompanied by inner experience. Be explicit about what evidence would differentiate these cases. Then evaluate your protocol: is it genuinely discriminatory, or does it collapse back to behavioral evidence, which (by the argument of this chapter) cannot determine consciousness? Write a 1500-word analysis of the methodological problems you encountered and what they reveal about the consciousness problem.
+
+3. **Comparative cognitive complexity analysis.** Select 10 organisms spanning the range from bacteria to primates. For each, find published evidence for the presence or absence of: (a) associative learning, (b) memory lasting more than 1 hour, (c) anticipation of future events, (d) goal-directed behavior robust to perturbation, (e) evidence of aversive experience (nociception or its equivalent). Construct a matrix showing which criteria each organism meets, and which evidence is strongest or weakest. What pattern emerges? Do all the criteria track together, or do some organisms meet some criteria without others? What does the pattern tell you about whether cognition is best understood as a single dimension or as a multidimensional profile?

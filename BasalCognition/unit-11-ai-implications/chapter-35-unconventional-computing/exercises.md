@@ -1,0 +1,33 @@
+# Chapter 35: Exercises
+
+## Part I: Reflection and Discussion
+
+1. **The computation question.** Adleman's DNA computer solved a combinatorial problem using molecular hybridization. Critics have argued that this is not "real" computation because the molecules are not following an algorithm — they are simply obeying chemical thermodynamics. How would you respond to this objection? Does it matter whether the physical process is following an algorithm or obeying natural law? What does this debate reveal about our concept of computation?
+
+2. **DishBrain and moral status.** The DishBrain experiment showed that cultured neurons can modify their activity patterns in response to feedback, improving performance on a simplified game. The authors raised questions about the sentience of such systems. What criteria would you apply to determine whether DishBrain merits any moral consideration? Is behavioral adaptation sufficient evidence of experience? Is it necessary? What would you need to know to feel confident in your answer?
+
+3. **The repressilator as cognitive architecture.** Elowitz and Leibler's repressilator implements a biological clock — a system that tracks the passage of time and generates periodic outputs. Circadian clocks in organisms from cyanobacteria to humans perform similar functions. What cognitive capacities does timekeeping enable? Can you think of adaptive behaviors that would be impossible without some form of internal temporal tracking? How does this illuminate the relationship between molecular circuits and behavior?
+
+4. **Chemical computing and universality.** It has been shown mathematically that chemical networks with appropriate reaction rates can implement any computable function. Does this mean that chemistry is computationally equivalent to a Turing machine? What are the practical differences between chemical computing and silicon computing that matter even if the theoretical computational class is the same? What does this equivalence tell us about the relationship between life and computation?
+
+5. **The ethics of designed cognition.** Xenobots are assembled from frog cells by human design and can self-replicate. They are neither natural organisms nor conventional machines. Discuss the ethical status of xenobots under the following frameworks: (a) a sentience-based framework that grants moral consideration to systems capable of suffering, (b) a relational framework that grounds moral status in relationships with other moral agents, (c) an intrinsic value framework that assigns moral status based on organizational complexity. Which framework you find most compelling, and why?
+
+---
+
+## Part II: Thought Experiments
+
+1. **The bacterium as computer.** Consider *E. coli* performing chemotaxis. From the perspective of chemical computing, the bacterium's signaling network — its receptors, methylation machinery, CheA/CheY phosphorylation cascade, and flagellar motor — is implementing a computation: it takes chemical concentration as input and generates motor behavior as output. Characterize this computation precisely: what function is it computing? Is it computing a derivative (rate of change of concentration), an integral (average concentration over time), or something more complex? What would it mean for this computation to fail? What does this analysis add to — or subtract from — the cognitive framing of bacterial chemotaxis?
+
+2. **Engineering a Turing pattern.** Suppose you could engineer the gene regulatory network of a developing embryo so that the activator-inhibitor dynamics generated not the native tissue pattern but a different target pattern — say, a regular hexagonal lattice instead of irregular spots. What would you need to know about the kinetics and diffusion constants of the molecular players? What constraints would the target pattern impose on these parameters? Now ask: is there a sense in which the embryo is "solving" a morphogenesis problem? If you modify the reaction-diffusion parameters to impose a different pattern, are you changing the problem the embryo is solving, or imposing your own solution over its?
+
+3. **The minimal cognitive system.** Using the concepts developed in this chapter, design (on paper) the minimal biological or chemical system you think could exhibit genuine cognitive behavior — not just reactive behavior or simple information processing, but something that merits the label "cognition" by the criteria developed in Chapter 1. What components does it need? What timescales must it operate on? What would convince you that it had crossed the cognitive threshold?
+
+---
+
+## Part III: Laboratory and Computational Investigations
+
+1. **Simulate a BZ oscillator.** Using a numerical integration package (Python's scipy.integrate, MATLAB, or similar), implement the Oregonator model of the Belousov-Zhabotinsky reaction — a three-variable ODE system that captures the core dynamics of the BZ reaction. Plot the oscillation of all three variables over time. Now implement a 2D reaction-diffusion version of the system on a grid and observe the formation of spiral waves. Document how the spiral wavelength, rotation period, and propagation speed depend on the diffusion constants. Discuss what this tells you about the computational properties of excitable chemical media.
+
+2. **Build a genetic toggle switch in simulation.** Using the ordinary differential equation model of Gardner, Cantor, and Collins (2000) — a mutual repressor bistable switch — implement the toggle switch model and characterize its parameter space. Under what conditions does the system show bistability (two stable states)? Under what conditions does it collapse to monostability? Simulate the effect of a pulse of inducer (a molecule that blocks one repressor) and show how the system switches from one state to the other. Discuss the relevance of this model to cellular decision-making and long-term memory storage in natural gene regulatory networks.
+
+3. **Analyze DishBrain from a free energy perspective.** The DishBrain paper (Kagan et al., 2022) interprets the neurons' learning behavior in terms of the free energy principle: neurons organize their activity to minimize prediction error about their sensory inputs. Read the original paper carefully. Evaluate the following: (a) Is the free energy interpretation of the DishBrain data the simplest explanation consistent with the data? (b) What alternative interpretations are possible? (c) What experimental manipulations would distinguish between these interpretations? Write a critique of no more than 1500 words that engages seriously with the paper's claims and evidence.

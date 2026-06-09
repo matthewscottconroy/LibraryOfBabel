@@ -1,0 +1,43 @@
+# What Phylogenetics Answers
+
+Here is a question worth sitting with for a moment: how do you know that your left hand and a bat's wing are related? Not similar — related. They share a common ancestor who had five digits, and the bat's wing is that same five-fingered skeleton, stretched and fused. The connection is not visible from anatomy alone; it has to be inferred from historical evidence. Phylogenetics is the discipline that makes those inferences rigorous — and when you work with sequences instead of bones, it turns out you can reconstruct evolutionary histories spanning billions of years from a few hundred nucleotides of DNA.
+
+**Phylogenetics** is the study of evolutionary relationships among biological entities — organisms, genes, proteins, viruses, or any heritable unit. By analyzing patterns of molecular similarity and difference, phylogenetics reconstructs the history of descent with modification that connects all life on Earth. The questions it can answer span from pure evolutionary biology to clinical microbiology to drug target identification. It is worth enumerating these questions explicitly, because the range is startling.
+
+## Evolutionary Relationships Between Organisms, Genes, and Proteins
+
+The most direct question phylogenetics addresses is: how are these biological entities related? A **phylogenetic tree** represents a hypothesis about the branching pattern of evolutionary history. The topology of the tree encodes which entities share more recent common ancestors, and branch lengths encode the amount of evolutionary change (typically measured in substitutions per site).
+
+You might expect that morphology would be enough to resolve these questions. It turns out that molecules are often more informative — and sometimes spectacularly more decisive. Molecular phylogenetics established that fungi are more closely related to animals than to plants (a result that baffled many biologists when it first emerged, but makes sense once you consider the biochemical similarities). It confirmed that whales evolved from within artiodactyls, the even-toed ungulates — meaning hippos are whales' closest living relatives, a conclusion that now has both molecular and fossil support. And it established the three-domain system (Bacteria, Archaea, Eukarya) as the correct framework for the deepest split in life, supplanting the older two-domain Bacteria/Eukarya division.
+
+## Divergence Time Estimation
+
+Using **molecular clocks** — the approximately constant rate of molecular substitution over time — phylogenetics can estimate when evolutionary lineages diverged. Calibrated with fossil dates or biogeographic events, molecular phylogenetics has dated the divergence of placental mammal orders, the origin of land plants, and the emergence of viral clades. It turns out you can even use genomes as fossils: the field of **molecular paleovirology** uses endogenous retroviruses embedded in host genomes as molecular fossils to date ancient viral integrations. A retrovirus that inserted itself into an ancestral mammal genome 50 million years ago is still there, in every cell of every descendant, like an inscription in stone — if you know how to read it.
+
+## Ancestral Sequence Reconstruction
+
+Phylogenetics enables the statistical inference of ancestral sequences at internal nodes of the tree — the predicted amino acid or nucleotide sequences of common ancestors that lived millions of years ago. **Ancestral sequence reconstruction (ASR)** using maximum likelihood can recover ancient protein sequences with sufficient probability. Researchers have "resurrected" ancestral steroid hormone receptors, visual pigments, and enzymes, studying their biochemical properties to understand how protein function evolved.
+
+The logic here is quietly profound: you are not guessing what ancient proteins looked like. You are computing a probability distribution over possible ancestral sequences, selecting the most probable, synthesizing the actual DNA, expressing the protein in a cell, and then running it through biochemical assays. You can hold evolution's past work in your hands. The results have been striking — ancestral steroid receptors turn out to be promiscuous molecules that later evolved narrow specificity, exactly as evolutionary theory predicts for new gene duplicates exploring function space.
+
+## Horizontal Gene Transfer Detection
+
+In microorganisms, genes can move between organisms through horizontal gene transfer (HGT). Phylogenetically, HGT creates **incongruence** between the gene tree and the species tree: a gene phylogeny places the gene in the wrong taxonomic position relative to the organismal phylogeny. You might expect that all a bacterium's genes would tell the same evolutionary story — but it turns out that different genes in the same bacterial genome can have dramatically different histories. Systematic comparison of many gene trees against a reference species tree identifies probable HGT events — critical for understanding antibiotic resistance spread, metabolic evolution in microbes, and the evolutionary origins of eukaryotic cell organelles (mitochondria, chloroplasts, whose own phylogenies identify them as once-free-living alpha-proteobacteria and cyanobacteria, respectively).
+
+## Classification of New Organisms
+
+When a new organism is isolated — a novel bacterial isolate, a newly discovered virus, or an environmental sequence — phylogenetics assigns it to its taxonomic group by comparing its marker gene sequences (16S rRNA for bacteria, ITS for fungi, core genes for viruses) to known reference sequences. This is not a trivial task: before phylogenetic classification, every new isolate required a painstaking culture and morphological characterization that was often ambiguous. Metagenomic surveys of novel environments have dramatically expanded the known diversity of life using this phylogenetic framework, discovering entirely new archaeal phyla that challenge our understanding of the tree of life.
+
+## Tracking Pathogen Evolution and Outbreak Sources
+
+**Phylodynamics** — the integration of phylogenetics with epidemiology and population genetics — has become essential for outbreak investigation and pandemic preparedness. During the SARS-CoV-2 pandemic, real-time phylogenetic analysis of thousands of virus genomes tracked variant emergence (Alpha, Delta, Omicron), estimated transmission rates, inferred geographic spread patterns, and identified potential outbreak sources. The turnaround time — from sequencing a new sample to placing it on a global phylogenetic tree — was sometimes hours. The same approach was used to track Ebola spread in West Africa in 2014, HIV transmission networks in epidemiological investigations, and antibiotic-resistant bacterial outbreaks in hospital settings.
+
+It is worth pausing to appreciate how different this makes modern outbreak response. In 1918, epidemiologists had no molecular tools at all. In 2020, phylogenetic trees of SARS-CoV-2 were being published in real time, enabling public health authorities to trace transmission chains, identify superspreader events, and detect when a variant had independently emerged in multiple locations.
+
+## Discovering Protein Function via Phylogenetic Context
+
+A protein of unknown function found in a newly sequenced genome can be characterized by its phylogenetic relatives. If the unknown protein clusters with a known enzyme family in a phylogenetic analysis, function can be tentatively inferred. The **Rosetta Stone hypothesis** goes further: proteins that are fused (occur as a single polypeptide) in some organisms are likely to interact functionally in organisms where they are separate genes. Phylogenetic gene fusion mapping was an important early approach to protein function prediction, and it works precisely because phylogenetics reveals the evolutionary context that explains why a gene exists and what it does.
+
+## Why This Matters
+
+Zoom out for a moment and you see what phylogenetics actually is: it is the application of the comparative method — the idea that relationships reveal history — to the molecular record encoded in every genome. Darwin sketched the first tree of life in his notebook in 1837, but he had no way to build it from data. Every modern phylogenetic method, from UPGMA to Bayesian MCMC, is an attempt to honor that original insight with mathematical rigor. Phylogenetics provides the evolutionary framework without which biological diversity is incomprehensible — it connects comparative genomics, functional annotation, clinical outbreak tracking, and evolutionary developmental biology into a coherent discipline that reveals the historical processes shaping every genome we can sequence today.

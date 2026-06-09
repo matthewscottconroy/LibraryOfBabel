@@ -1,0 +1,21 @@
+# Section 2: Molecular Biology
+
+In 1953, Watson and Crick published a two-page paper describing the double-helical structure of DNA. The final sentence — "It has not escaped our notice that the specific pairing we have postulated immediately suggests a possible copying mechanism for the genetic material" — is perhaps the most understated moment in the history of science. From that structure, and from the work of hundreds of researchers over the following decades, emerged the central dogma: DNA is replicated to make DNA, transcribed to make RNA, and RNA is translated to make protein. These three processes are the core subject of molecular biology, and they are the molecular machinery through which every biological circuit, every metabolic pathway, and every evolutionary process operates.
+
+For a computational biologist, molecular biology is more than historical background. It is the level of description at which the most important parameters are defined: transcription rates, translation efficiencies, mRNA half-lives, protein degradation rates, mutation rates. Every gene circuit model you will build is ultimately parameterized by molecular biology. Understanding the mechanisms that generate those parameters — what determines how fast an mRNA is made, what controls its lifetime, how efficiently it is translated, how stably the resulting protein folds — is essential for building models that are not just numerically parameterized but mechanistically grounded.
+
+This section traces the flow of information through the central dogma, from DNA replication through transcription, RNA processing, translation, post-translational modification, and DNA repair. Each subsection adds another layer to a quantitative understanding of gene expression.
+
+The section opens with DNA replication, which introduces the first quantitative benchmark that every computational biologist should know: the extraordinary fidelity of replication — one error per billion base pairs — achieved through three independent layers of error correction. This is the baseline against which mutation rates are measured and evolutionary models are parameterized.
+
+Transcription follows, covering promoter recognition, the mechanics of the elongation complex, termination, and the crucial quantitative example of estimating mRNA copy number per cell. It turns out that typical bacterial mRNAs are present at 2–3 copies per cell — a number small enough that Poisson fluctuations alone produce substantial cell-to-cell variability. This is where molecular biology meets statistical physics, and where deterministic ODE models begin to fail.
+
+RNA processing introduces the eukaryotic additions to the central dogma: capping, splicing, and polyadenylation. These steps are not mere formalities — they are regulatory layers that create the isoform landscape that RNA-seq tools must navigate, and they introduce delays between transcriptional activation and functional mRNA that any eukaryotic gene circuit model must account for.
+
+Translation covers the ribosome — a molecular machine so central to life that bacteria spend ~80% of their energy budget building and running ribosomes. The distinction between bacterial initiation (Shine-Dalgarno sequence, RBS engineering) and eukaryotic cap-dependent initiation, the elongation kinetics, and codon usage are all quantitatively tractable and directly relevant to synthetic biology design.
+
+Post-translational modification reveals the gap between the proteome and the genome: with ~20,000 protein-coding genes but potentially hundreds of thousands of distinct protein states, PTMs are the primary language of cellular signaling. The mathematical modeling of phosphorylation cycles is one of the most important tools in quantitative biology.
+
+The section closes with mutation and DNA repair — connecting molecular biology to evolutionary biology by explaining the sources, frequencies, and repair of DNA damage. The mutational signatures now visible in tumor genomes are a direct readout of these molecular processes, and the CRISPR editing outcomes (indels vs. precise edits) are mechanistically determined by the DSB repair pathways described here.
+
+Taken together, these subsections give you the mechanistic vocabulary — and the quantitative intuition — needed to parameterize and interpret models of gene expression at every level.

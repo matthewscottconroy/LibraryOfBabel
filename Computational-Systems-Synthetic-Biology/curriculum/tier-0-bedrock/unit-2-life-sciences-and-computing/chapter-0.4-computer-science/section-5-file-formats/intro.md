@@ -1,0 +1,17 @@
+# Section 5: File Formats
+
+The FASTQ format was invented in 2004 at the Wellcome Sanger Institute to handle the output of early Solexa sequencers. The BAM format was published in 2009 to provide a compressed binary representation of aligned reads. The VCF format was standardized in 2010 for the 1000 Genomes Project. The BED format for genomic intervals, the GTF format for gene annotations, the SBML format for biochemical network models — each format was created to solve a specific problem in a specific context. The collection of these formats, accumulated over decades of genomics history, is what you encounter every time you start a bioinformatics analysis.
+
+Knowing these formats is not optional bookkeeping. One of the most common sources of bugs in bioinformatics is format confusion: using 0-based BED coordinates where a tool expects 1-based VCF coordinates, confusing the SAM FLAG field with the alignment position, misinterpreting a CIGAR string that reports soft-clipped bases as aligned. These errors are invisible — they produce output, just wrong output. The analysis runs to completion. The figures look reasonable. And somewhere downstream, the conclusions are subtly or severely incorrect.
+
+This section covers the formats you will encounter in every real bioinformatics project, with enough depth to understand their structure, parse them correctly, and recognize when something has gone wrong.
+
+**Sequence formats** — FASTA and FASTQ — are the entry and exit points of almost every genomics workflow. FASTA stores sequences; FASTQ adds Phred quality scores, which encode the sequencer's confidence in each base call as a log-probability. The Phred encoding scheme, the FASTQ four-line structure, and the practical details of working with gzip-compressed files all matter for writing correct parsers and interpreting quality-based filters.
+
+**Alignment formats** — SAM, BAM, and CRAM — record how reads map to a reference genome. The SAM format's 11 mandatory fields, the FLAG bitfield that encodes mapping state, the CIGAR string that describes the alignment character by character, and the MAPQ score that quantifies alignment ambiguity are all load-bearing information. The compressed binary BAM format requires a `.bai` index for random access; CRAM requires the reference genome to decode. The samtools suite manipulates all three.
+
+**Variant formats** — VCF and BCF — record genetic variants against a reference. The VCF coordinate system (1-based), the INFO and FORMAT fields that carry per-variant and per-sample annotations, the genotype encoding in the GT field, and the bgzip plus tabix indexing scheme for random-access queries are all essential for variant annotation and filtering workflows.
+
+**Annotation formats** — BED, GFF3, and GTF — encode genomic features as intervals. BED uses 0-based half-open coordinates; GFF3 and GTF use 1-based closed coordinates. The GTF format specifically is the annotation format expected by RNA-seq aligners (STAR, HISAT2) and quantifiers (featureCounts, RSEM). The `bedtools` suite manipulates genomic intervals from BED files.
+
+**Structure and systems biology formats** — PDB, mmCIF, HDF5/h5ad, SBML, Antimony, Newick, and NEXUS — serve the structural biology, single-cell genomics, systems biology modeling, and phylogenetics communities respectively. Each connects to a specific computational ecosystem and a specific set of downstream tools.

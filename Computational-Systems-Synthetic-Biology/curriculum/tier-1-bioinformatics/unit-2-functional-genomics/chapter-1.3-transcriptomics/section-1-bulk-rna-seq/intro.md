@@ -1,0 +1,17 @@
+# Section 1: Bulk RNA-seq
+
+For two decades, bulk RNA-seq has been the workhorse of transcriptomics — the reliable, statistically powerful method that has transformed our understanding of gene regulation in development, disease, and response to perturbation. Before the single-cell revolution, it was the only way to measure the transcriptome. Even now that single-cell methods exist, bulk RNA-seq remains the first choice for most differential expression studies, providing the statistical depth that makes it possible to detect subtle, biologically real changes with confidence.
+
+But bulk RNA-seq done well is harder than it looks. The technology has matured enough that running the experiment is no longer the bottleneck — the bottleneck is making the right decisions at every step, from how you design the study to how you interpret the statistics. This section walks through those decisions in the order you encounter them, building from the bench to the bioinformatics.
+
+## What You Will Learn in This Section
+
+**Subsection 1: Experimental Design** opens with the uncomfortable truth that no computational tool can rescue a poorly designed experiment. The choices you make before sequencing — library preparation strategy, sequencing depth, number of biological replicates, strand specificity, and sample randomization — determine whether the resulting data can answer your biological question. You will learn the specific requirements for different experimental goals, the mathematical case for why n ≥ 3 biological replicates is a hard floor, and the design principles that protect against batch effects. This is the highest-leverage knowledge in the entire RNA-seq workflow.
+
+**Subsection 2: The RNA-seq Pipeline** covers the computational transformation from raw FASTQ files to the count matrix that is the starting point for all downstream analysis. At its center is STAR — a splice-aware aligner that can map reads across exon-exon junctions that span hundreds of kilobases of introns. You will understand why standard DNA aligners fail for RNA and how STAR's two-pass mode discovers novel splice junctions. The section covers read summarization with featureCounts, the critical distinctions between expression units (TPM, FPKM, and raw counts), normalization methods, and the quality metrics that tell you whether your experiment succeeded.
+
+**Subsection 3: Differential Expression Analysis** addresses the statistical core of bulk RNA-seq: identifying which genes change between conditions. You will encounter the negative binomial model and understand why the Poisson distribution is insufficient for biological count data, how DESeq2's empirical Bayes dispersion shrinkage solves the problem of estimating variance from small numbers of replicates, and why fold change shrinkage with apeglm produces more reliable gene rankings. The Benjamini-Hochberg FDR correction is explained from first principles, not just as a recipe — you will understand what it guarantees and what it does not.
+
+## The Logical Flow
+
+The three subsections follow the natural sequence of a bulk RNA-seq experiment: first you design it, then you process the data, then you analyze it statistically. Each subsection depends on the previous one — understanding normalization requires understanding what expression units mean; understanding DESeq2 requires understanding the count model. Work through them in order, and you will finish with a complete, coherent picture of bulk RNA-seq from experiment conception to biological interpretation.

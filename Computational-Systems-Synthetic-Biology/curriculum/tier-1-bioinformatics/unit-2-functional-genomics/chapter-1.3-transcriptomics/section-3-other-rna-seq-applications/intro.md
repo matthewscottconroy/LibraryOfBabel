@@ -1,0 +1,19 @@
+# Section 3: Other RNA-seq Applications
+
+Standard bulk RNA-seq measures the abundance of polyadenylated mRNAs across the genome. It is a powerful and general tool, but it samples only one layer of transcriptional biology. The transcriptome is vastly richer than a catalog of mRNA levels: the same pre-mRNA can be spliced dozens of different ways into functionally distinct proteins; tiny 22-nucleotide RNAs regulate entire networks of genes post-transcriptionally; thousands of long non-coding RNAs control chromatin structure and gene regulation without ever being translated; and the gap between which mRNAs are present and which are actually being translated by ribosomes can be enormous.
+
+Each of these layers requires specialized experimental protocols and analytical methods. Together, they reveal that the "transcriptome" is not one thing but a multi-layered system, and that standard RNA-seq illuminates only the most visible part of it.
+
+## What You Will Learn in This Section
+
+**Subsection 1: Alternative Splicing Analysis** opens with the remarkable fact that >95% of human multi-exon genes are alternatively spliced, and that the same gene can produce fundamentally different proteins depending on which exons are included. You will learn the five canonical splicing event types and the PSI metric (percent spliced in) that quantifies splicing changes, then work through rMATS (which tests predefined event categories) and MAJIQ (which builds de novo splicing graphs). The subsection closes with long-read sequencing, which for the first time allows complete isoforms to be directly observed rather than inferred.
+
+**Subsection 2: Small RNA-seq** begins with the discovery of *lin-4* in C. elegans — the first microRNA, found by Ambros and Ruvkun in a tiny worm's developmental timing circuit. You will trace the complete biogenesis pathway of miRNAs from pri-miRNA through Drosha/DGCR8 processing to Dicer cleavage and RISC loading, understand the seed-region targeting logic, and contrast miRNAs with piRNAs (germline transposon defenders) and siRNAs. Specialized library preparation for 18–30 nt fragments is covered, including the ligation bias that is the central technical pitfall of small RNA-seq.
+
+**Subsection 3: Long Non-coding RNA Analysis** confronts one of the great open questions in modern genomics: why does 75% of the human genome get transcribed if only 1–2% encodes proteins? Starting with XIST — the lncRNA responsible for X chromosome inactivation — you will survey the best-characterized lncRNAs (HOTAIR, NEAT1, MALAT1), learn the chromatin features used to distinguish genuine lncRNAs from transcriptional noise, and understand the annotation and analysis pipeline that extends standard DE analysis to this challenging class of genes.
+
+**Subsection 4: Ribosome Profiling (Ribo-seq)** addresses the gap between the transcriptome and the proteome. Developed by Ingolia et al. in 2009, Ribo-seq sequences the mRNA fragments protected by translating ribosomes — giving genome-wide measurement of translation at single-codon resolution. You will understand the experimental principle, the ribosome site offset correction, metagene analysis, and translation efficiency as a metric for post-transcriptional regulation. The subsection covers applications from uORF discovery to non-canonical translation to codon occupancy analysis.
+
+## The Logical Flow
+
+The four subsections each introduce an independent measurement modality, so they can be read in any order. They are organized roughly from most widely used (alternative splicing) to most specialized (Ribo-seq). A natural pairing is subsections 1 and 4: alternative splicing and ribosome profiling together reveal the full post-transcriptional regulatory landscape between pre-mRNA and protein. Subsections 2 and 3, on small RNAs and lncRNAs, both address non-coding RNA biology and can usefully be read together.

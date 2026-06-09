@@ -1,0 +1,15 @@
+# Section 5: Key Connections to Biology
+
+Every chapter in a curriculum must end somewhere, but the ideas in a well-constructed curriculum never really end — they connect. The chemistry you have learned in this chapter does not stay in the chemistry section. It flows forward into every dynamical model, every structural analysis, every synthetic circuit design that follows. This final section exists to make those connections explicit.
+
+The danger in learning a discipline is that you accumulate knowledge in silos. You understand thermodynamics in the thermodynamics section; you understand enzyme kinetics in the enzyme kinetics section. But the real skill — the one that distinguishes a practicing computational biologist from a student who has memorized the material — is the ability to see a system and immediately recognize which chemical principles are operating, how they constrain the possible behaviors, and what the most important parameters are.
+
+Consider what happens when a transcription factor activates a gene. A protein — folded in a specific three-dimensional conformation determined by its amino acid sequence and the thermodynamics of protein folding — diffuses through the nucleus (governed by the Einstein-Stokes relation) until it encounters its target DNA site. The probability of its being bound at any instant is given by a Boltzmann-weighted equilibrium (statistical thermodynamics), with a dissociation constant set by the free energy of DNA-protein contacts (thermodynamics). When bound, it facilitates recruitment of RNA polymerase, which transcribes the gene at a rate determined by kinetics. The mRNA is degraded first-order. The protein is translated at a rate set partly by the thermodynamics of ribosome binding site hybridization (nucleic acid chemistry) and then degrades or is modified — perhaps phosphorylated by a kinase, a reaction whose rate follows Michaelis-Menten kinetics.
+
+Every sentence of that paragraph invokes a different piece of chemistry from this chapter. None of them can be omitted without losing accuracy.
+
+This section contains a single subsection: a synthesis overview that maps the chemical concepts from this chapter directly onto the computational tools and models you will encounter throughout the rest of the curriculum. It provides a table of chemistry-to-computation connections, a discussion of the role of free energy as the universal organizer of biochemical reasoning, and a worked example showing how promoter activity can be estimated from thermodynamic first principles.
+
+The goal is not to repeat what you have already learned, but to step back and see the landscape. After completing this section, you should be able to look at a rate law in a systems biology paper and identify the chemical assumptions it encodes; look at a molecular dynamics simulation protocol and know what physicochemical parameters must be carefully set; and look at a synthetic biology design and predict where it might fail based on the chemistry of the components.
+
+The chemistry is not background. It is the physics of biology, and your models will only be as good as your understanding of it.

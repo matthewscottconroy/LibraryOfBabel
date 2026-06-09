@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "The communication complexity of the equality function EQ_n (Alice has x∈{0,1}^n, Bob has y∈{0,1}^n, they want to determine x=y) has deterministic complexity n but randomized (public coin) complexity:",
+  "opts": [
+    "O(log n)",
+    "O(1)",
+    "O(√n)",
+    "Ω(n)"
+  ],
+  "ans": 1,
+  "exp": "Randomized communication complexity of EQ_n is O(1): use a random hash function H:{0,1}^n→{0,1}^k for k=O(log(1/δ)). Alice sends H(x), Bob checks H(x)=H(y). Error probability δ by collision probability analysis."
+}

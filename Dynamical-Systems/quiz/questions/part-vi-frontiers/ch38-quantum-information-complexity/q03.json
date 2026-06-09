@@ -1,0 +1,14 @@
+{
+  "ch": 38,
+  "part": 6,
+  "chTitle": "Quantum Information Complexity",
+  "q": "The Eigenstate Thermalization Hypothesis (ETH) for non-integrable quantum systems says that for a local observable A in energy eigenstate |Eₙ⟩:",
+  "opts": [
+    "⟨Eₙ|A|Eₙ⟩ = 0",
+    "⟨Eₙ|A|Eₙ⟩ ≈ ⟨A⟩_{thermal} (eigenstate expectation = thermal average at energy Eₙ)",
+    "All eigenvalues are degenerate",
+    "A has no expectation value"
+  ],
+  "ans": 1,
+  "exp": "ETH (Deutsch 1991, Srednicki 1994): in non-integrable (chaotic) quantum systems, individual energy eigenstates look thermal — local observables take their thermal equilibrium values. This is the quantum analogue of ergodicity: single eigenstates encode the full statistical mechanics."
+}

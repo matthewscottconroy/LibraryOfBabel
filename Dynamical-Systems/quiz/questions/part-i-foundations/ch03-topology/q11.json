@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "A topological space is called paracompact if:",
+  "opts": [
+    "It is compact",
+    "Every open cover has a locally finite open refinement",
+    "Every open cover is finite",
+    "It is a countable union of compact sets"
+  ],
+  "ans": 1,
+  "exp": "Paracompactness: every open cover has a locally finite open refinement. All metric spaces and CW-complexes are paracompact. Paracompactness implies the existence of partitions of unity, crucial for differential topology and sheaf theory."
+}

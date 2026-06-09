@@ -1,0 +1,14 @@
+{
+  "ch": 36,
+  "part": 6,
+  "chTitle": "The Zimmer Program",
+  "q": "The Lyapunov exponents of a measurable cocycle over an ergodic action of a lattice Γ are controlled by superrigidity. Zimmer's cocycle superrigidity implies that for a representation-like cocycle, the Lyapunov exponents:",
+  "opts": [
+    "Are all equal",
+    "Are all zero",
+    "Are the Lyapunov exponents of a homomorphism Γ → GL(n,ℝ), since the cocycle is cohomologous to a representation",
+    "Depend on the base dynamics"
+  ],
+  "ans": 2,
+  "exp": "By Zimmer's cocycle superrigidity, the cocycle α: Γ×X → GL(n,ℝ) is cohomologous to a group homomorphism ρ: Γ → GL(n,ℝ). The Lyapunov exponents of α therefore equal those of the constant cocycle x ↦ ρ(g), which are log|eigenvalues of ρ(g)| — purely algebraic quantities."
+}

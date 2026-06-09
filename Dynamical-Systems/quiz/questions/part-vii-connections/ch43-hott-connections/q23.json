@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "In HoTT, the statement LEM (law of excluded middle) ∀A:Prop.A∨¬A and function extensionality FunExt are related to each other and to univalence as follows:",
+  "opts": [
+    "LEM implies FunExt which implies univalence",
+    "Univalence implies FunExt; LEM is independent of univalence and consistent with HoTT",
+    "FunExt implies LEM",
+    "Univalence is inconsistent with LEM"
+  ],
+  "ans": 1,
+  "exp": "In HoTT: univalence implies function extensionality (FunExt: f=g iff ∀x.f(x)=g(x)) as a theorem. LEM is independent of HoTT with univalence — both LEM and ¬LEM are consistent with HoTT (different models satisfy or violate LEM). LEM does not follow from univalence and does not contradict it."
+}

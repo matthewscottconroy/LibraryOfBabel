@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "The dimension group of an SFT with adjacency matrix A is the inductive limit group:",
+  "opts": [
+    "ℤ[A] = ℤ[x]/(det(xI-A))",
+    "(ℤ^n, A): the group ℤ^n with the automorphism induced by A, forming the direct limit under multiplication by A",
+    "det(A)·ℤ",
+    "The group of invariant measures"
+  ],
+  "ans": 1,
+  "exp": "The dimension group (Krieger, 1980) is the direct limit G(A) = lim_{→} (ℤ^n →^A ℤ^n), with the automorphism induced by A. It is a complete invariant for eventual conjugacy (flow equivalence) of SFTs and connects symbolic dynamics to K-theory."
+}

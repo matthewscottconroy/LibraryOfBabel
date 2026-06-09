@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "One-shot entropies generalize Shannon entropy to single-copy settings. The smooth min-entropy H_min^ε(X|Y) and smooth max-entropy H_max^ε(X|Y) satisfy the duality relation:",
+  "opts": [
+    "H_min^ε(X|Y)_ρ + H_max^ε(X|Z)_ρ = 0 where YZ is a purification of XYZ",
+    "H_min + H_max = 2H (Shannon entropy)",
+    "H_min^ε(X|Y)=H_max^{1-ε}(X|Y)",
+    "H_min^ε+H_max^ε≥H(X)"
+  ],
+  "ans": 0,
+  "exp": "Tomamichel-Colbeck-Renner duality: for a pure state |ψ⟩_{XYZ}, H_min^ε(X|Y)_ψ+H_max^ε(X|Z)_ψ=0. This is the one-shot analog of H(X|Y)+H(X|Z)=0 for pure states (where H(X|Z)=−H(X|Y) since I(X;Y)=H(X)+H(Y)−H(XY))."
+}

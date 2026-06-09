@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "The Cantor-Bendixson theorem states that every closed subset F of a Polish space can be written as F=P⊔C where P is perfect (closed with no isolated points) and C is:",
+  "opts": [
+    "Open",
+    "Countable",
+    "A Cantor set",
+    "Empty or a finite set"
+  ],
+  "ans": 1,
+  "exp": "Cantor-Bendixson: F=P⊔C where P is the perfect kernel (largest perfect subset of F) and C=F\\P is countable (the scattered part — constructed by iterated removal of isolated points). The decomposition is unique."
+}

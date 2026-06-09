@@ -1,0 +1,14 @@
+{
+  "ch": 10,
+  "part": 2,
+  "chTitle": "Bifurcation Theory",
+  "q": "Takens' theorem (1981) on delay embeddings: for a smooth dynamical system on a compact manifold M of dimension d, the delay-coordinate map using 2d+1 time delays is generically an embedding. The proof uses Sard's theorem to show that:",
+  "opts": [
+    "The map is always a diffeomorphism",
+    "The set of 'bad' observation functions (those for which the delay map is not an embedding) has measure zero in the space of smooth functions",
+    "The manifold M must be a sphere",
+    "Only 2 delays are needed"
+  ],
+  "ans": 1,
+  "exp": "Takens' proof: the 'bad' set of functions h: M → ℝ for which (h(x), h(Tx),..., h(T^{2d}x)) fails to be an embedding has measure zero by Sard's theorem and Whitney's embedding theorem. So generically 2d+1 delays suffice. Extensions (Sauer-Yorke-Casdagli) handle fractal attractors: 2·dim_H(A)+1 delays suffice."
+}

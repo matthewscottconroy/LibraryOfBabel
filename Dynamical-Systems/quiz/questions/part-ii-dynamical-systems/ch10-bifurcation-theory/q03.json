@@ -1,0 +1,14 @@
+{
+  "ch": 10,
+  "part": 2,
+  "chTitle": "Bifurcation Theory",
+  "q": "The Feigenbaum constant δ ≈ 4.669 appears in the period-doubling route to chaos. It describes:",
+  "opts": [
+    "The Lyapunov exponent at the onset of chaos",
+    "The universal ratio of successive parameter intervals in the period-doubling cascade",
+    "The fractal dimension of the Lorenz attractor",
+    "The entropy of the logistic map at r=4"
+  ],
+  "ans": 1,
+  "exp": "In the logistic map rₙ denotes the parameter value of the n-th period-doubling. Then (rₙ-rₙ₋₁)/(rₙ₊₁-rₙ) → δ ≈ 4.669. This constant is universal across all unimodal maps — a striking example of universality in nonlinear dynamics."
+}

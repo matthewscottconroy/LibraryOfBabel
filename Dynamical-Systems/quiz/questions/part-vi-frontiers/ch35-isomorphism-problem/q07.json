@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "Thouvenot's relative isomorphism theorem extends Ornstein's result to:",
+  "opts": [
+    "Non-invertible systems",
+    "Joinings and factor maps between Bernoulli shifts",
+    "Extensions of Bernoulli shifts over a common factor",
+    "Group actions"
+  ],
+  "ans": 2,
+  "exp": "Thouvenot's relative Ornstein theorem: if two extensions of a common factor both have the relative VWB property, they are relatively isomorphic (isomorphic over the factor). This is the key tool in Ratner's early work on measure rigidity."
+}

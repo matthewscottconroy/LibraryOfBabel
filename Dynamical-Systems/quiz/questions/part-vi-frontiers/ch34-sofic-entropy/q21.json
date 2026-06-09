@@ -1,0 +1,14 @@
+{
+  "ch": 34,
+  "part": 6,
+  "chTitle": "Sofic Entropy",
+  "q": "The Austin-Host-Kra structure theorem for multiple recurrence says that the limits in the nonconventional ergodic averages (1/N)∑_{n=0}^{N-1} f_1∘T^n·f_2∘T^{2n}·...·f_k∘T^{kn} are characterized by the Host-Kra nilfactor structure. This implies Szemerédi's theorem because:",
+  "opts": [
+    "The nilfactors have positive entropy",
+    "For f_1=...=f_k=1_A with μ(A)>0, the limit is positive (by the structure theorem and polynomial Hales-Jewett)",
+    "The averages converge to ∫f_1 dμ·...·∫f_k dμ",
+    "The Furstenberg tower is finite"
+  ],
+  "ans": 1,
+  "exp": "The Host-Kra structure theorem shows the L² limit of (1/N)∑f_1∘T^n...f_k∘T^{kn} equals the average over a nilfactor (nilsystem). By Bergelson-Leibman polynomial Hales-Jewett and the structure theorem, for A with μ(A)>0, lim inf(1/N)∑μ(A∩T^{-n}A∩...∩T^{-kn}A)>0, giving AP's."
+}

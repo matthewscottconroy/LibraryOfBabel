@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "The Connes-Feldman-Weiss theorem states that for a measure-preserving action of an amenable group:",
+  "opts": [
+    "It is always free",
+    "It is orbit equivalent to a ℤ-action (i.e., an action of the integers)",
+    "It is orbit equivalent to every free action",
+    "It has zero entropy"
+  ],
+  "ans": 1,
+  "exp": "CFW theorem (1981): every essentially free, ergodic, measure-preserving action of a countable amenable group is orbit equivalent to an ergodic ℤ-action. This reduces the study of amenable group actions to single transformations."
+}

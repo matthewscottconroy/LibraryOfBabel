@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "Shannon entropy is used in decision tree learning (e.g., ID3 algorithm) to select features by maximizing:",
+  "opts": [
+    "The gain in variance",
+    "Information gain = H(Y) − H(Y|X) (reduction in label entropy after observing feature X)",
+    "The mutual information I(X;X) between features",
+    "The conditional entropy H(X|Y)"
+  ],
+  "ans": 1,
+  "exp": "Information gain measures how much knowing feature X reduces uncertainty about label Y: IG(Y;X) = H(Y) − H(Y|X) = I(X;Y). ID3 greedily selects the feature with highest information gain at each node."
+}

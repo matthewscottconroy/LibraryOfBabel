@@ -1,0 +1,14 @@
+{
+  "ch": 37,
+  "part": 6,
+  "chTitle": "Frontiers in Complex Dynamics",
+  "q": "Thurston's topological characterisation of rational maps says a branched cover f: S²→S² (finite postcritical set) is equivalent to a rational map iff:",
+  "opts": [
+    "f has degree ≥2",
+    "f has no Thurston obstruction (no multicurve with eigenvalue ≥1 in the Thurston matrix)",
+    "f has connected Julia set",
+    "f is orientation-preserving"
+  ],
+  "ans": 1,
+  "exp": "Thurston rigidity (proved by Douady–Hubbard 1993): f is homotopy equivalent to a rational map iff it has no Thurston obstruction. An obstruction is an invariant multicurve Γ with λ(A_Γ)≥1. If the rational map exists, it is unique up to Möbius conjugacy."
+}

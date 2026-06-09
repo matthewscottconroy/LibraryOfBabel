@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "Dynamical systems and descriptive complexity: the omega-limit set ω(x) of a point x under a continuous map T on a compact space is always:",
+  "opts": [
+    "A single point",
+    "A closed T-invariant set (non-empty, compact, connected in some cases)",
+    "An open set",
+    "Finite"
+  ],
+  "ans": 1,
+  "exp": "ω(x) = ∩_{n≥0} cl{T^k(x) : k ≥ n} is always non-empty (compactness), closed, and T-invariant. It may not be connected. From a descriptive set theory perspective, the map x ↦ ω(x) (taking values in the hyperspace of closed sets) is Borel measurable but not continuous in general."
+}

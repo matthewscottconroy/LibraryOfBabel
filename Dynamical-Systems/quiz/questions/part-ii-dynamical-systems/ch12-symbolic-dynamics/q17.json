@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "The zeta function of a subshift of finite type with transition matrix A is ζ(z)=exp(∑_{n≥1} |Fix(σⁿ)|z^n/n). For an irreducible SFT, this equals:",
+  "opts": [
+    "det(I−zA)",
+    "1/det(I−zA)",
+    "det(I+zA)",
+    "exp(z·tr(A))"
+  ],
+  "ans": 1,
+  "exp": "For an SFT with transition matrix A, |Fix(σⁿ)|=tr(Aⁿ). Then ζ(z)=exp(∑tr(Aⁿ)z^n/n)=exp(−log det(I−zA))=1/det(I−zA)."
+}

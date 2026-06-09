@@ -1,0 +1,14 @@
+{
+  "ch": 28,
+  "part": 5,
+  "chTitle": "Category Theory and Dynamics",
+  "q": "In domain theory (Scottʼs model of the λ-calculus), a Scott-continuous function f:D→E between domains satisfies: f preserves directed suprema. The relationship between Scott-continuous and monotone functions is:",
+  "opts": [
+    "Every monotone function is Scott-continuous",
+    "Every Scott-continuous function is monotone and preserves all directed sups, but not conversely",
+    "Scott-continuity and monotonicity are equivalent",
+    "Scott-continuity is strictly weaker than monotonicity"
+  ],
+  "ans": 1,
+  "exp": "Scott-continuous ⟹ monotone (trivially), but not conversely: a monotone function can fail to preserve directed suprema (limits of directed sets). Scott topology makes Scott-continuous functions exactly the continuous functions in this topology, which equals the ω-continuous functions for ω-algebraic domains."
+}

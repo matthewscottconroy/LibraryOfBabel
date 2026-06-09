@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "The entropy of the golden mean shift (forbidding 11) over the binary alphabet is:",
+  "opts": [
+    "log 2",
+    "log φ where φ=(1+√5)/2",
+    "log(√5)",
+    "(log 5)/2"
+  ],
+  "ans": 1,
+  "exp": "The golden mean shift has transition matrix A=[[1,1],[1,0]] with spectral radius φ=(1+√5)/2. By the Perron-Frobenius theorem, entropy = log(spectral radius) = log φ."
+}

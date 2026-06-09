@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "Action-angle variables (I,θ) for an integrable system reduce the Hamiltonian to H = H(I) (function of actions only). The dynamics in these coordinates is:",
+  "opts": [
+    "İ = ω(I), θ̇ = 0",
+    "Ι̇ = 0, θ̇ = ω(I) where ωᵢ = ∂H/∂Iᵢ",
+    "İ = θ, θ̇ = −I",
+    "θ̇ = I·ω(I)"
+  ],
+  "ans": 1,
+  "exp": "In action-angle coordinates: İ = −∂H/∂θ = 0 (H is θ-independent), θ̇ = ∂H/∂I = ω(I). Actions are constants of motion; angles increase linearly in time. Motion is quasi-periodic on invariant tori with frequencies ω(I)."
+}

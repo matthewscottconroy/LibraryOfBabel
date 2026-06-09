@@ -1,0 +1,14 @@
+{
+  "ch": 34,
+  "part": 6,
+  "chTitle": "Sofic Entropy",
+  "q": "Seward's Rokhlin entropy h_Rok extends entropy to actions of all groups (not just sofic ones) as:",
+  "opts": [
+    "The topological entropy of the action",
+    "inf_ξ H(ξ|ξ⁻) where the infimum is over generating partitions ξ (similar to KS but for non-amenable groups)",
+    "The KS entropy of the associated Bernoulli shift",
+    "The Lyapunov exponent of the cocycle"
+  ],
+  "ans": 1,
+  "exp": "Seward (2014–2020): Rokhlin entropy = inf over generating partitions ξ of the conditional entropy H(ξ|ξ⁻). This is well-defined for all groups. For sofic groups, h_Rok = h_Σ (sofic entropy). For Bernoulli shifts, h_Rok = H(μ₀) universally."
+}

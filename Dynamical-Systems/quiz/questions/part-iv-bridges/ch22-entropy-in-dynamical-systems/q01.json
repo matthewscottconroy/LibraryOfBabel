@@ -1,0 +1,14 @@
+{
+  "ch": 22,
+  "part": 4,
+  "chTitle": "Entropy in Dynamical Systems",
+  "q": "Bowen's definition of topological entropy uses (n,ε)-separated sets. The entropy is:",
+  "opts": [
+    "h_top(f) = lim_{n→∞}(1/n)log s_n(ε) for any ε>0",
+    "h_top(f) = lim_{ε→0} lim sup_{n→∞}(1/n)log s_n(ε)",
+    "h_top(f) = sup_ε lim_{n→∞}(1/n)log s_n(ε)",
+    "h_top(f) = lim_{n→∞}(1/n²)log s_n(ε)"
+  ],
+  "ans": 1,
+  "exp": "Bowen: h_top = lim_{ε→0} limsup_{n→∞}(1/n)log sₙ(ε). One first takes n→∞ then ε→0 (so we're capturing the exponential growth rate of distinguishable orbits at any resolution). The order of limits matters."
+}

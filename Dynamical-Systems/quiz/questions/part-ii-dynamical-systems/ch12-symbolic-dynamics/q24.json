@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "The Krieger embedding theorem states that any ergodic measure-preserving system (X,μ,T) with entropy h<log N can be measurably embedded into:",
+  "opts": [
+    "The full N-shift",
+    "The golden mean shift",
+    "Any SFT with entropy exceeding h",
+    "The Bernoulli shift on 2 symbols"
+  ],
+  "ans": 0,
+  "exp": "Krieger's embedding theorem: an ergodic system with entropy h<log N embeds measure-theoretically into the full N-shift (Σ_N,μ_N,σ). Combined with the generator theorem, this gives tight entropy bounds for Bernoulli embeddings."
+}

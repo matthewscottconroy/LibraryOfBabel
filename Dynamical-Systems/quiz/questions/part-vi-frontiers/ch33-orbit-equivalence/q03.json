@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "Gaboriau's theorem (2000) shows that free groups F_r and F_s (r≠s) have non-orbit-equivalent free ergodic actions because:",
+  "opts": [
+    "They have different entropies",
+    "Their ℓ²-Betti numbers differ: β₁^{(2)}(F_r) = r-1 ≠ s-1 = β₁^{(2)}(F_s), and ℓ²-Betti numbers are orbit-equivalence invariants",
+    "F_r has more normal subgroups",
+    "Their Cayley graphs are not isomorphic"
+  ],
+  "ans": 1,
+  "exp": "Gaboriau: β_n^{(2)}(R) = β_n^{(2)}(Γ) for free ergodic Γ-actions (ℓ²-Betti numbers of the relation = ℓ²-Betti numbers of the group). Since β₁^{(2)}(F_r)=r-1, free groups of different rank have non-OE free ergodic actions."
+}

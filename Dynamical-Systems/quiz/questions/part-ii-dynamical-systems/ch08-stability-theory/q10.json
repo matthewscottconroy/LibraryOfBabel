@@ -1,0 +1,14 @@
+{
+  "ch": 8,
+  "part": 2,
+  "chTitle": "Stability Theory",
+  "q": "Conley's fundamental theorem of dynamical systems states that any flow on a compact space decomposes into:",
+  "opts": [
+    "Fixed points and limit cycles",
+    "Chain-recurrent set (attractor-free dynamics) and gradient-like part flowing between chain-recurrent pieces",
+    "Stable and unstable manifolds",
+    "Invariant tori"
+  ],
+  "ans": 1,
+  "exp": "Conley decomposition: X = CR(T) ∪ {points flowing between chain-recurrent pieces}. There exists a Lyapunov function (Conley-Lyapunov function) that is constant on chain-recurrent pieces and strictly decreasing on connecting orbits. This is the 'fundamental theorem of dynamical systems'."
+}

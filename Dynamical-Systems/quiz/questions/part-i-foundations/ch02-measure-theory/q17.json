@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "The co-area formula relates integrals of functions on ℝⁿ to integrals over level sets. For a Lipschitz function u: ℝⁿ → ℝ and non-negative measurable g:",
+  "opts": [
+    "∫g dx = ∫_{-∞}^∞ (∫_{u=t} g/|∇u| dσ) dt",
+    "∫g|∇u| dx = ∫_{-∞}^∞ (∫_{u=t} g dσ) dt",
+    "∫g dx = ∫|∇u| dt",
+    "∫|∇u| dx = ∫ℋ^{n-1}({u=t}) dt"
+  ],
+  "ans": 1,
+  "exp": "Co-area formula: ∫_ℝⁿ g|∇u|dx = ∫_{-∞}^∞ (∫_{u⁻¹(t)} g dℋ^{n-1}) dt. Setting g=1: ∫|∇u|dx = ∫ℋ^{n-1}({u=t})dt — the L¹ norm of the gradient equals the integral of perimeters of level sets. This is a fundamental tool in geometric measure theory and the BV space theory."
+}

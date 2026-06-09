@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "The data stream model studies algorithms that process a sequence of n elements using sublinear space. The AMS (Alon-Matias-Szegedy) sketch estimates the F₂ moment (sum of squares of frequencies) using O(log n) bits with:",
+  "opts": [
+    "Constant relative error with constant probability",
+    "ε relative error with probability 1−δ using O(ε^{-2}log(1/δ)) bits",
+    "Exact computation in O(n log n) bits",
+    "O(√n) bits for ε=1/√n error"
+  ],
+  "ans": 1,
+  "exp": "The AMS sketch: draw random ±1 hash h:domain→{±1} and maintain Z=∑_i a_i h(i). E[Z²]=F₂. Using O(ε^{-2}log(1/δ)) independent sketches with median-of-means gives ε relative error with probability 1−δ. This is optimal (lower bound Ω(ε^{-2}) bits)."
+}

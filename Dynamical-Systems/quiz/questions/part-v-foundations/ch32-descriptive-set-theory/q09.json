@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "The Borel hierarchy on a Polish space X starts with open and closed sets and is built by taking countable unions (Σ⁰_α) and complements (Π⁰_α). The first levels are Σ⁰₁ = open, Π⁰₁ = closed, Σ⁰₂ =",
+  "opts": [
+    "Closed sets",
+    "F_σ (countable union of closed sets) = {∪ Fₙ : Fₙ closed}",
+    "G_δ sets",
+    "Open sets"
+  ],
+  "ans": 1,
+  "exp": "Σ⁰₂ = F_σ (countable unions of closed sets). Π⁰₂ = G_δ (countable intersections of open sets). The key examples: ℚ is F_σ in ℝ (not G_δ by Baire), ℝ\\ℚ is G_δ (countable intersection of dense open sets). The hierarchy is strict (each class is strictly larger than all previous ones)."
+}

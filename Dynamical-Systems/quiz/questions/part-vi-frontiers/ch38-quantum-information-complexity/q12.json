@@ -1,0 +1,14 @@
+{
+  "ch": 38,
+  "part": 6,
+  "chTitle": "Quantum Information and Complexity",
+  "q": "The quantum Merlin-Arthur (QMA) class and its relationship to 2-QMA (two-prover QMA): it is known that:",
+  "opts": [
+    "2-QMA = QMA",
+    "2-QMA = NEXP (nondeterministic exponential time)",
+    "2-QMA ⊆ QMA",
+    "2-QMA = PSPACE"
+  ],
+  "ans": 1,
+  "exp": "Kobayashi-Matsumoto (2003): 2-QMA = NEXP. Having two separate quantum provers (who cannot communicate) dramatically increases power compared to one quantum prover (QMA ⊆ PSPACE). This is the quantum analogue of the classical MIP = NEXP result."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 24,
+  "part": 4,
+  "chTitle": "Symbolic Dynamics and Information Theory",
+  "q": "The topological entropy of a substitution tiling (like Penrose tiling) is:",
+  "opts": [
+    "Positive (it has many distinct tilings)",
+    "Zero, since substitution tilings are repetitive (every patch recurs) and complexity p(n) grows polynomially",
+    "log 5 (the golden ratio symmetry)",
+    "Infinite"
+  ],
+  "ans": 1,
+  "exp": "Substitution tilings (Penrose, Ammann-Beenker, etc.) have polynomial patch complexity (number of distinct patches of size n grows polynomially in n), giving zero topological entropy. Despite having uncountably many distinct tilings, they are 'ordered' (zero entropy, not chaotic)."
+}

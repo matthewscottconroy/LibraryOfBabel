@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "Jewett-Krieger theorem states that every ergodic measure-preserving system (X,μ,T) is:",
+  "opts": [
+    "Isomorphic to a Bernoulli shift",
+    "Measurably isomorphic to a uniquely ergodic minimal topological system",
+    "Orbit equivalent to an irrational rotation",
+    "Conjugate to a group rotation"
+  ],
+  "ans": 1,
+  "exp": "Jewett-Krieger: every ergodic system can be realised as a uniquely ergodic minimal homeomorphism of a compact metric space. This shows the abstract measure-theoretic category contains all topological systems—and topological systems can realise any abstract ergodic system."
+}

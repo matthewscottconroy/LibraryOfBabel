@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "The method of Lyapunov functions proves asymptotic stability of an equilibrium x* if:",
+  "opts": [
+    "A quadratic form V is positive definite and dV/dt ≤ 0",
+    "V is positive definite and dV/dt < 0 on a neighborhood of x*",
+    "V is negative definite along trajectories",
+    "The linearization has all eigenvalues with negative real part"
+  ],
+  "ans": 1,
+  "exp": "For asymptotic stability we need V > 0 and dV/dt < 0 (strictly negative definite) near x*. If only dV/dt ≤ 0, we get Lyapunov (not asymptotic) stability without LaSalle's invariance principle."
+}

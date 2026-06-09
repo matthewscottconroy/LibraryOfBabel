@@ -1,0 +1,14 @@
+{
+  "ch": 24,
+  "part": 4,
+  "chTitle": "Symbolic Dynamics and Information Theory",
+  "q": "The Parry measure on an irreducible SFT corresponds to which information-theoretic concept?",
+  "opts": [
+    "The source distribution minimising entropy",
+    "The capacity-achieving input distribution (measure of maximal entropy)",
+    "The noise distribution of the channel",
+    "The empirical distribution of a long typical sequence"
+  ],
+  "ans": 1,
+  "exp": "The Parry measure is the measure of maximal entropy — it achieves h_μ = h_top. In channel coding terms, it is the input distribution that achieves capacity. This is the variational principle in symbolic dynamics."
+}

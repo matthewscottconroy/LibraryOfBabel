@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The Gottesman-Knill theorem states that quantum circuits consisting only of Clifford gates (Hadamard, CNOT, S gate) applied to computational basis states can be:",
+  "opts": [
+    "Efficiently simulated by classical computers in polynomial time",
+    "Not simulated classically",
+    "Simulated classically only for n ≤ 50 qubits",
+    "Universal for quantum computation"
+  ],
+  "ans": 0,
+  "exp": "Gottesman-Knill: Clifford circuits are classically efficiently simulable. The stabilizer group (n Pauli operators) evolves under Clifford gates and can be tracked in O(n²) classical space. Clifford circuits are not universal—T gates (non-Clifford) are needed for universality."
+}

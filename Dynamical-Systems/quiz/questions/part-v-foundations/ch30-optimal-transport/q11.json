@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "McCann's displacement interpolation (1997) shows that the geodesic in (P(M), W₂) between μ₀ and μ₁ is given by:",
+  "opts": [
+    "μ_t = (1-t)μ₀ + tμ₁ (linear interpolation)",
+    "μ_t = ((1-t)id + tT)_*μ₀ where T is the optimal transport map (push-forward along the straight-line map)",
+    "μ_t = T^t_*μ₀ for the flow T^t",
+    "μ_t = μ₀ ∗ μ₁^t"
+  ],
+  "ans": 1,
+  "exp": "Displacement interpolation: μ_t = ((1-t)x + tT(x))_*μ₀ where T = ∇φ is the optimal transport map. The path t ↦ μ_t is the unique constant-speed geodesic in (P(M),W₂). This is fundamentally different from the linear interpolation μ_t = (1-t)μ₀+tμ₁ (which is the mixture, not a geodesic)."
+}

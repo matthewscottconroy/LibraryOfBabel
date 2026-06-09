@@ -1,0 +1,14 @@
+{
+  "ch": 11,
+  "part": 2,
+  "chTitle": "Chaos Theory",
+  "q": "The Smale horseshoe map on the square D demonstrates chaos by showing the existence of an invariant Cantor set on which the dynamics is conjugate to:",
+  "opts": [
+    "A rotation",
+    "The full 2-shift (Bernoulli shift on 2 symbols)",
+    "A Markov chain",
+    "An irrational rotation"
+  ],
+  "ans": 1,
+  "exp": "Smale's horseshoe: the intersection ∩_{n=-∞}^∞ T^n(D) is a Cantor set on which T is conjugate to the 2-sided shift on {0,1}. This gives uncountably many distinct orbits, dense periodic orbits, and sensitive dependence—the prototypical example of deterministic chaos."
+}

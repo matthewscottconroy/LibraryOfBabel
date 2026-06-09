@@ -1,0 +1,14 @@
+{
+  "ch": 10,
+  "part": 2,
+  "chTitle": "Bifurcation Theory",
+  "q": "A subcritical Hopf bifurcation differs from a supercritical one in that:",
+  "opts": [
+    "The limit cycle exists after the bifurcation point",
+    "An unstable limit cycle shrinks to the equilibrium as the parameter reaches the critical value",
+    "The equilibrium remains stable after bifurcation",
+    "The bifurcation involves a zero eigenvalue"
+  ],
+  "ans": 1,
+  "exp": "Subcritical Hopf: an unstable limit cycle exists before bifurcation and shrinks onto the equilibrium at the critical parameter. After bifurcation, no small limit cycle exists—the system can jump to a distant attractor."
+}

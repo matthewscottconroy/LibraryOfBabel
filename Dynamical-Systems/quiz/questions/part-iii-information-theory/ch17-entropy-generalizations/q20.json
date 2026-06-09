@@ -1,0 +1,14 @@
+{
+  "ch": 17,
+  "part": 3,
+  "chTitle": "Entropy Generalizations",
+  "q": "The Csiszár-Kullback-Pinsker inequality relates total variation distance to KL divergence. For distributions P,Q on a finite set:",
+  "opts": [
+    "|P−Q|_TV ≤ √(D_KL(P||Q)/2)",
+    "D_KL(P||Q) ≥ 2|P−Q|²_TV",
+    "D_KL(P||Q) ≥ |P−Q|²_TV/2",
+    "Both A and B"
+  ],
+  "ans": 1,
+  "exp": "Pinsker's inequality: D_KL(P||Q)≥2|P−Q|²_TV (with TV norm |P−Q|_TV=(1/2)∑|p_i−q_i|). This is tight (up to constant). Combined: |P−Q|_TV≤√(D_KL(P||Q)/2)."
+}

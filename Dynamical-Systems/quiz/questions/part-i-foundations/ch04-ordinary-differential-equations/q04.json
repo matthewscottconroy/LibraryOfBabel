@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "For a linear system ẋ = Ax, the stability of the origin depends on:",
+  "opts": [
+    "The trace of A",
+    "The determinant of A",
+    "The real parts of the eigenvalues of A",
+    "Whether A is symmetric"
+  ],
+  "ans": 2,
+  "exp": "The origin is asymptotically stable iff all eigenvalues of A have negative real part. The Jordan form of A determines the full qualitative behaviour (decay, oscillation, growth)."
+}

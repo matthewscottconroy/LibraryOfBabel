@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "The Kantorovich–Rubinstein duality formula for W₁(μ,ν) is:",
+  "opts": [
+    "W₁(μ,ν) = inf_{π∈Π(μ,ν)} ∫|x-y|dπ(x,y)",
+    "W₁(μ,ν) = sup_{‖f‖_Lip≤1} {∫f dμ - ∫f dν}",
+    "W₁(μ,ν) = D_KL(μ||ν)",
+    "W₁(μ,ν) = ‖μ-ν‖_{TV}"
+  ],
+  "ans": 1,
+  "exp": "Kantorovich–Rubinstein duality: W₁(μ,ν) = sup over all 1-Lipschitz functions f of the difference of integrals. This 'dual' formulation is often easier to compute and is used in Wasserstein GANs. The primal is a coupling (transport plan) and the dual is a potential function."
+}

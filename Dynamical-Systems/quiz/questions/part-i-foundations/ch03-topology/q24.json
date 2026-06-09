@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "A CW-complex is built by attaching cells. The cellular chain complex C_n = H_n(X^n, X^{n-1}) (relative homology of skeleta) has boundary maps d_n: C_n → C_{n-1} given by the degrees of attaching maps. The homology of this chain complex:",
+  "opts": [
+    "Is always the same as singular homology",
+    "Equals singular homology H_*(X) (cellular homology theorem)",
+    "Depends on the CW structure chosen",
+    "Is isomorphic to cohomology"
+  ],
+  "ans": 1,
+  "exp": "Cellular homology theorem: the homology of the cellular chain complex equals the singular homology of X. This gives a practical computational tool: the cellular boundary map has matrix entries given by degrees of compositions of attaching and projection maps, often computable from geometric data."
+}

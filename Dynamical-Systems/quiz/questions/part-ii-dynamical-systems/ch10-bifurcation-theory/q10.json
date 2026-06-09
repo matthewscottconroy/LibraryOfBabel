@@ -1,0 +1,14 @@
+{
+  "ch": 10,
+  "part": 2,
+  "chTitle": "Bifurcation Theory",
+  "q": "Normal form theory reduces a vector field near a bifurcation to its simplest equivalent form. The normal form for the Hopf bifurcation (in polar coordinates) is:",
+  "opts": [
+    "ṙ = μr + r³, θ̇ = ω",
+    "ṙ = μr − r³, θ̇ = ω + br² (supercritical)",
+    "ṙ = μr, θ̇ = ω",
+    "ṙ = r², θ̇ = ω"
+  ],
+  "ans": 1,
+  "exp": "Supercritical Hopf normal form: ṙ = μr − r³, θ̇ = ω + br². For μ < 0: stable focus at origin; for μ > 0: unstable focus and stable limit cycle of radius √μ. The cubic term (first Lyapunov coefficient) determines super- vs. subcritical."
+}

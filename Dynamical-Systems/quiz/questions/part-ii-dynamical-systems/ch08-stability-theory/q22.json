@@ -1,0 +1,14 @@
+{
+  "ch": 8,
+  "part": 2,
+  "chTitle": "Stability Theory",
+  "q": "The Kalman decomposition for a linear system (A,B,C) decomposes the state space into four subspaces based on reachability and observability. The transfer function G(s) = C(sI−A)⁻¹B is determined entirely by:",
+  "opts": [
+    "The full state space",
+    "Only the reachable AND observable subspace (the 'good' part of the decomposition)",
+    "The unobservable subspace",
+    "The unreachable subspace"
+  ],
+  "ans": 1,
+  "exp": "Kalman decomposition: the transfer function G(s) depends only on the states that are both reachable and observable. Unreachable and/or unobservable modes are 'hidden' from the input-output description. A minimal realization (least-order state space representation) consists exactly of the reachable+observable subspace."
+}

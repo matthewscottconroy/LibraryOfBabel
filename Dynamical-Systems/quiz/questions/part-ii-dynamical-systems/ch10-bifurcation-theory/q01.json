@@ -1,0 +1,14 @@
+{
+  "ch": 10,
+  "part": 2,
+  "chTitle": "Bifurcation Theory",
+  "q": "A saddle–node bifurcation occurs when two fixed points collide and annihilate. The normal form is:",
+  "opts": [
+    "ẋ = μx - x³",
+    "ẋ = μ - x²",
+    "ẋ = μx",
+    "ẋ = x² - μx"
+  ],
+  "ans": 1,
+  "exp": "Saddle–node (fold) normal form: ẋ = μ - x². For μ>0 there are two fixed points (√μ stable, -√μ unstable); at μ=0 they collide; for μ<0 there are none. This is the generic codimension-1 local bifurcation."
+}

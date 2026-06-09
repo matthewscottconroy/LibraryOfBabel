@@ -1,0 +1,14 @@
+{
+  "ch": 29,
+  "part": 5,
+  "chTitle": "Thermodynamics and Information",
+  "q": "Landauer's principle states that erasing one bit of information dissipates at least:",
+  "opts": [
+    "kT joules",
+    "kT ln 2 joules",
+    "h_Planck joules",
+    "kT/ln 2 joules"
+  ],
+  "ans": 1,
+  "exp": "Landauer (1961): erasing 1 bit reduces entropy by k_B ln 2, which must be transferred to the environment as heat Q ≥ k_BT ln 2 (second law). This resolves Maxwell's demon: the demon must erase its memory, paying the thermodynamic cost of the information it acquired."
+}

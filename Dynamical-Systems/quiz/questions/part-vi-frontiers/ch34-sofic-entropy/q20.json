@@ -1,0 +1,14 @@
+{
+  "ch": 34,
+  "part": 6,
+  "chTitle": "Sofic Entropy",
+  "q": "A group Γ is sofic (Gromov 1999, Weiss 2000) if it admits a sofic approximation: a sequence of maps σ_i:Γ→Sym(V_i) with |V_i|→∞ such that the maps are asymptotically free and multiplicative. Which class of groups is known to be sofic?",
+  "opts": [
+    "Only amenable groups",
+    "Only residually finite groups",
+    "All amenable groups, all residually finite groups, and their extensions and limits (but no non-sofic group is known)",
+    "Only virtually free groups"
+  ],
+  "ans": 2,
+  "exp": "Known sofic groups include: all amenable groups, all residually finite groups, all groups with sofic normal subgroups where the quotient is sofic (extension), direct products and free products of sofic groups, limits of sofic groups. No non-sofic group is currently known, but it is widely believed they exist."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 41,
+  "part": 7,
+  "chTitle": "The Collatz Conjecture",
+  "q": "The 3n+1 problem (Collatz conjecture) asks whether the iteration n ↦ n/2 (n even) or n ↦ 3n+1 (n odd) always reaches 1. The best-known partial result (Tao, 2019) shows that for any ε > 0, the sequence reaches a value below ε·n for:",
+  "opts": [
+    "All n",
+    "Almost all n (in the sense of logarithmic density)",
+    "Odd n only",
+    "n in a set of positive density"
+  ],
+  "ans": 1,
+  "exp": "Tao's result (2019): for almost all n (100% in logarithmic density), the Collatz orbit reaches a value ≤ f(n) for any f(n) → ∞. This is the best unconditional result toward the conjecture."
+}

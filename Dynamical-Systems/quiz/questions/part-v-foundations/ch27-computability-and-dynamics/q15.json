@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "The Blum-Shub-Smale (BSS) model of computation over ℝ (the real RAM model) can decide the Mandelbrot set membership problem in:",
+  "opts": [
+    "P over ℝ",
+    "Polynomial time over ℝ (using exact real arithmetic, Newton iteration converges geometrically)",
+    "Exponential time only",
+    "It is undecidable over ℝ"
+  ],
+  "ans": 1,
+  "exp": "Over the BSS model (exact real arithmetic), Mandelbrot set membership is decidable in polynomial time: iterate z ↦ z²+c exactly and check if |z| > 2 within polynomially many steps. This contrasts with the classical Turing model where the boundary ∂M poses challenges."
+}

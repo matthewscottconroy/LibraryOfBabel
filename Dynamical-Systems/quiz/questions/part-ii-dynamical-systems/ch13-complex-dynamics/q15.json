@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "The measurable dynamics of a rational map f is governed by the conformal measure μ supported on the Julia set J(f). For a polynomial of degree d, the natural conformal measure has exponent:",
+  "opts": [
+    "1",
+    "d",
+    "log d",
+    "dim_H(J(f))"
+  ],
+  "ans": 3,
+  "exp": "The natural conformal measure (Patterson-Sullivan measure) has exponent δ = dim_H(J(f)): μ(f(A)) = ∫_A |f'|^δ dμ. For hyperbolic polynomials, δ = dim_H(J) and μ is ergodic, giving the 'canonical' measure on the Julia set."
+}

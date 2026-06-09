@@ -1,0 +1,14 @@
+{
+  "ch": 42,
+  "part": 7,
+  "chTitle": "Quantum Computing and Dynamical Systems",
+  "q": "The adiabatic theorem guarantees that adiabatic quantum computation remains in the ground state if the Hamiltonian changes slowly enough, with required time T = O(‖Ḣ‖/Δmin²) where Δmin is:",
+  "opts": [
+    "The maximum energy",
+    "The minimum spectral gap (energy difference between ground state and first excited state) during the evolution",
+    "The ground state energy",
+    "The number of qubits"
+  ],
+  "ans": 1,
+  "exp": "The adiabatic theorem: if the gap Δmin = min_t(E₁(t)-E₀(t)) > 0 and the evolution is slow enough (T ≫ ‖Ḣ‖/Δmin²), the system stays in the instantaneous ground state. The minimum gap is the 'bottleneck' — phase transitions (Δmin→0) make adiabatic computation slow."
+}

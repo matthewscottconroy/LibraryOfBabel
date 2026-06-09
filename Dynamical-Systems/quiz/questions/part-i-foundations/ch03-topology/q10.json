@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "A covering space p: (X̃, x̃₀) → (X, x₀) corresponds (via the monodromy action) to:",
+  "opts": [
+    "A normal subgroup of π₁(X, x₀)",
+    "A subgroup H ≤ π₁(X, x₀) (namely p_*(π₁(X̃, x̃₀)))",
+    "A quotient group of π₁(X)",
+    "An element of H¹(X, ℤ)"
+  ],
+  "ans": 1,
+  "exp": "Covering space theory: connected covering spaces of X correspond (up to isomorphism) to conjugacy classes of subgroups of π₁(X). The subgroup is the image p_*(π₁(X̃)). The universal cover corresponds to the trivial subgroup."
+}

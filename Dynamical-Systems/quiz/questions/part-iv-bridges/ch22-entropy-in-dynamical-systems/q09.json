@@ -1,0 +1,14 @@
+{
+  "ch": 22,
+  "part": 4,
+  "chTitle": "Entropy in Dynamical Systems",
+  "q": "The topological pressure P(φ) for a continuous function φ on a compact topological dynamical system (X,T) is defined via the variational principle as:",
+  "opts": [
+    "P(φ) = h_top(T) + sup_{μ} ∫φ dμ",
+    "P(φ) = sup_{μ invariant} (h_μ(T) + ∫φ dμ)",
+    "P(φ) = ∫φ dμ_max",
+    "P(φ) = h_top(T)·||φ||_∞"
+  ],
+  "ans": 1,
+  "exp": "Topological pressure: P(φ) = sup_{μ∈M(T)} (h_μ(T) + ∫φ dμ). Setting φ ≡ 0 recovers the variational principle for topological entropy. Equilibrium states are measures achieving the supremum. Pressure is the Legendre transform of entropy as a function of the potential φ."
+}

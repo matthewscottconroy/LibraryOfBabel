@@ -1,0 +1,14 @@
+{
+  "ch": 1,
+  "part": 1,
+  "chTitle": "Real Analysis",
+  "q": "Interpolation of operators: the Riesz-Thorin theorem states that if a linear operator T is bounded from L^{p₀} → L^{q₀} with norm M₀ and from L^{p₁} → L^{q₁} with norm M₁, then for θ ∈ (0,1), T is bounded from L^p → L^q (1/p = (1-θ)/p₀ + θ/p₁, 1/q = (1-θ)/q₀ + θ/q₁) with norm:",
+  "opts": [
+    "M₀ + M₁",
+    "M₀^{1-θ} M₁^θ",
+    "max(M₀,M₁)",
+    "M₀ · M₁"
+  ],
+  "ans": 1,
+  "exp": "Riesz-Thorin interpolation: the norm in L^p→L^q is ≤ M₀^{1-θ}M₁^θ. This log-convex norm estimate is proven via the three-lines lemma for analytic functions. It is the foundation of the Calderón-Mityagin real interpolation and applies to Fourier multipliers, convolution operators, etc."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 11,
+  "part": 2,
+  "chTitle": "Chaos Theory",
+  "q": "The Ruelle-Perron-Frobenius (transfer) operator L_φ acting on continuous functions by (L_φ f)(x) = Σ_{Ty=x} e^{φ(y)} f(y) has a spectral gap for:",
+  "opts": [
+    "Any continuous φ",
+    "Hölder continuous φ on a topologically mixing SFT (or hyperbolic system)",
+    "Analytic φ only",
+    "φ ≡ 0 only"
+  ],
+  "ans": 1,
+  "exp": "For Hölder φ on a mixing SFT, L_φ has a simple maximal eigenvalue e^{P(φ)} (topological pressure) with a positive eigenfunction, and the rest of the spectrum lies in a strictly smaller disk. This spectral gap implies exponential decay of correlations for Gibbs measures."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 41,
+  "part": 7,
+  "chTitle": "The Collatz Conjecture",
+  "q": "The Collatz map T:ℕ→ℕ is T(n)=n/2 if n even, 3n+1 if n odd. The '3x+1 problem' asks whether all n eventually reach 1. Terras (1976) showed the stopping time σ(n) (first k with T^k(n)<n) satisfies for almost all n (in the density sense):",
+  "opts": [
+    "σ(n)=O(log n)",
+    "σ(n)→∞ for all n",
+    "σ(n)~c·log n for a constant c",
+    "σ(n) is unbounded"
+  ],
+  "ans": 2,
+  "exp": "Terras' theorem: for almost all n (in the sense of natural density), the stopping time σ(n)~(log(4/3)/log(4/3))·log n ≈ (2log 2/log(3/2))·log n·c. More precisely, σ(n)/log n converges in distribution to a law with specific constants. This is a probabilistic analysis treating Collatz as a random walk."
+}

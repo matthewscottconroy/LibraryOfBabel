@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "In Homotopy Type Theory (HoTT), the identity type a =_A b is interpreted as:",
+  "opts": [
+    "The Boolean value True/False",
+    "The type of paths (continuous paths in the space A) from a to b",
+    "A proposition with at most one proof",
+    "The set of bijections from a to b"
+  ],
+  "ans": 1,
+  "exp": "HoTT: identity types are path types — a proof of a=b is a path from a to b in the space A. Higher identities p=_{a=b}q are homotopies between paths. This gives types the structure of ∞-groupoids, mirroring homotopy theory."
+}

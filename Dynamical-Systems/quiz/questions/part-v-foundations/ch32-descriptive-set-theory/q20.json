@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "A Borel equivalence relation E on a Polish space X is called hyperfinite if E=⋃_n E_n for an increasing sequence of finite Borel equivalence relations. The Dye-Krieger theorem characterizes hyperfinite ergodic equivalence relations as:",
+  "opts": [
+    "All orbit equivalence relations of ℤ²-actions",
+    "Orbit equivalence relations of ℤ-actions (a single measure-preserving transformation)",
+    "All countable Borel equivalence relations",
+    "Treeable equivalence relations"
+  ],
+  "ans": 1,
+  "exp": "Dye's theorem (1959): any two ergodic hyperfinite equivalence relations are orbit equivalent. Ornstein-Weiss (1980): every free action of an amenable group generates a hyperfinite equivalence relation. Hyperfinite = orbit equivalence relation of a single transformation (ℤ-action)."
+}

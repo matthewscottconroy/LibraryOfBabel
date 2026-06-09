@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The quantum channel capacity Q (for transmitting quantum information reliably) satisfies:",
+  "opts": [
+    "Q = log₂(dim H)",
+    "Q is determined by the coherent information I_c(ρ, N) = S(N(ρ)) − S(N ⊗ I(|ψ⟩⟨ψ|))",
+    "Q equals the classical capacity C",
+    "Q is always greater than the entanglement-assisted capacity"
+  ],
+  "ans": 1,
+  "exp": "Quantum channel capacity is given by the regularized coherent information: Q = lim (1/n) max_ρ I_c(ρ, N^⊗n). Unlike the classical case, a single-letter formula is not always achievable due to superadditivity."
+}

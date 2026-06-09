@@ -1,0 +1,14 @@
+{
+  "ch": 18,
+  "part": 3,
+  "chTitle": "Algorithmic Information Theory",
+  "q": "The symmetry of information in Kolmogorov complexity states:",
+  "opts": [
+    "K(x) = K(y) for all x, y of the same length",
+    "K(x, y) = K(x) + K(y|x) + O(log(|x|+|y|)) = K(y) + K(x|y) + O(log)",
+    "K(x|y) = K(y|x) always",
+    "K(xy) ≤ K(x) + K(y)"
+  ],
+  "ans": 1,
+  "exp": "Symmetry of information: K(x,y) = K(x) + K(y|x) + O(log n) = K(y) + K(x|y) + O(log n). This is an analogue of the chain rule for entropy, but with a logarithmic error term inherent to the theory."
+}

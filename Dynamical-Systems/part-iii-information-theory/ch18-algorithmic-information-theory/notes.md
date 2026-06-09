@@ -1,0 +1,13 @@
+# Notes — Chapter 18
+
+The canonical reference is Li and Vitányi's *An Introduction to Kolmogorov Complexity and Its Applications* (Springer, now in its fourth edition). It is comprehensive, rigorous, and contains essentially everything in this chapter plus much more. If you only read one book on AIT, make it this one. The writing is clear and the exercises are excellent.
+
+For algorithmic randomness specifically — the Martin-Löf/Schnorr/Kurtz hierarchy and its computability-theoretic properties — the definitive text is Downey and Hirschfeldt's *Algorithmic Randomness and Complexity* (Springer, 2010). This is a research-level monograph, thorough and demanding, covering far more than we have touched here. Particularly valuable are the chapters on lowness (sequences that are "random relative to" almost everything), bases for ML-randomness, and the connections to effective dimension.
+
+For history: Kolmogorov introduced the concept in three papers from 1965-1968, all translated in *Problems of Information Transmission*. Independently, Solomonoff had introduced algorithmic probability in 1964 (his "theory of inductive inference"). Chaitin's work in the 1970s introduced prefix-free complexity and the halting probability $\Omega$; his book *Algorithmic Information Theory* (Cambridge, 1987) collects the early papers. Martin-Löf's 1966 paper "The Definition of Random Sequences" (*Information and Control*) is short, readable, and revolutionary.
+
+Fouché's theorem (Section 18.8.1) connecting ML-randomness and orbits of the doubling map is from his 2000 paper in *Theoretical Computer Science*. The broader program of connecting ergodic theory and algorithmic randomness — "algorithmic ergodic theory" — is pursued by Kucera-Gács, Reimann-Slaman, and others. The key question: for which dynamical systems does "ergodic typicality" coincide with "ML-randomness"? The answer involves the effective version of the ergodic decomposition and is still being worked out.
+
+For computable analysis and dynamics: Braverman's work on Julia sets (*Computational Complexity of Euclidean Sets*, 2005) and the Rettinger-Weihrauch results are in the computable analysis tradition, surveyed in Weihrauch's *Computable Analysis* (Springer, 2000).
+
+For those interested in the connection to Gödel incompleteness: Chaitin's book *The Unknowable* (Springer, 1999) gives an accessible account of how $\Omega$ provides information-theoretic proofs of incompleteness. The deeper result — that any formal system can determine only finitely many bits of $\Omega$ — is Chaitin's incompleteness theorem, proved in his 1975 *Journal of the ACM* paper.

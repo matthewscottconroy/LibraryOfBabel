@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "Sturm comparison theorem: if p(x) > q(x) on [a,b] and u'' + p(x)u = 0, v'' + q(x)v = 0, then between any two consecutive zeros of v, u has at least:",
+  "opts": [
+    "No zeros",
+    "Exactly one zero",
+    "One zero (u oscillates faster than v when p > q)",
+    "Two zeros"
+  ],
+  "ans": 2,
+  "exp": "Sturm comparison: if p ≥ q (with p > q somewhere), solutions of the equation with larger coefficient oscillate at least as fast. Between any two consecutive zeros of v (satisfying q-equation), u (satisfying p-equation) must have at least one zero. This is the basis for oscillation theory of Sturm-Liouville problems."
+}

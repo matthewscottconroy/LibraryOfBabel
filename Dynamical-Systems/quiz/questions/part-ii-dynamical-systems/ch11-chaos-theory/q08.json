@@ -1,0 +1,14 @@
+{
+  "ch": 11,
+  "part": 2,
+  "chTitle": "Chaos Theory",
+  "q": "In the logistic map xₙ₊₁ = rxₙ(1−xₙ), the value r = 4 produces dynamics with Lyapunov exponent:",
+  "opts": [
+    "Negative, indicating stability",
+    "Zero, indicating neutral behavior",
+    "ln 2 ≈ 0.693 > 0, indicating chaos",
+    "Undefined"
+  ],
+  "ans": 2,
+  "exp": "At r = 4, the logistic map is conjugate to the angle-doubling map θ ↦ 2θ (mod 1), which has Lyapunov exponent ln 2. The map is fully chaotic on [0,1] with invariant measure μ = (π√(x(1-x)))⁻¹dx."
+}

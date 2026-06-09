@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "The quantum reverse Shannon theorem (Bennett-Harrow-Morgan-Smolin 2005, later refined) states that any quantum channel N can be simulated using entanglement and classical communication, at a rate of:",
+  "opts": [
+    "χ(N) bits of classical communication + E_F(N) ebits",
+    "log d_in bits per channel use",
+    "S(N) bits without entanglement",
+    "C_E(N) classical bits using log d_in ebits"
+  ],
+  "ans": 0,
+  "exp": "The quantum reverse Shannon theorem: N can be simulated (in the i.i.d. sense) using χ*(N) classical bits + E_F(N) ebits of entanglement, where χ*(N) is the entanglement-assisted classical capacity divided by 2. The tight statement involves the quantum channel's entanglement cost."
+}

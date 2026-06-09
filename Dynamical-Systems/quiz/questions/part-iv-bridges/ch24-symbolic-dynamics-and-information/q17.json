@@ -1,0 +1,14 @@
+{
+  "ch": 24,
+  "part": 4,
+  "chTitle": "Symbolic Dynamics and Information Theory",
+  "q": "For a sofic shift with presentation by a right-resolving labeled graph G, the topological entropy equals log λ_{PF} where λ_{PF} is the Perron-Frobenius eigenvalue of the adjacency matrix A_G. For an SFT, this coincides with:",
+  "opts": [
+    "The entropy of the Parry measure",
+    "log(spectral radius of transition matrix)",
+    "Both A and B",
+    "The entropy of the uniform Bernoulli measure on the alphabet"
+  ],
+  "ans": 2,
+  "exp": "For an SFT, the entropy h=log λ_{PF}(A) where A is the transition matrix, and this equals the entropy of the Parry measure (the unique measure of maximal entropy, which is a Markov measure with specific transition probabilities)."
+}

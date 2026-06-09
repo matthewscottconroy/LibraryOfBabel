@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "The von Neumann algebra M = L∞(X) ⋊ Γ (crossed product) associated to an ergodic free action Γ ↷ (X,μ) is a complete invariant of:",
+  "opts": [
+    "The measure-theoretic conjugacy class",
+    "Not a complete OE invariant in general — Murray-von Neumann showed there are non-conjugate systems with isomorphic crossed products",
+    "The topological conjugacy class",
+    "The entropy of the action"
+  ],
+  "ans": 1,
+  "exp": "The crossed product L∞(X) ⋊ Γ is an OE invariant (if Γ ↷ X and Λ ↷ Y are OE, the crossed products are isomorphic). But it is not a complete invariant: non-OE actions can give isomorphic von Neumann algebras (the free group problem). Popa's deformation/rigidity theory separates many cases."
+}

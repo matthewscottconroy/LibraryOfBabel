@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "In one-shot quantum thermodynamics, the maximum work extractable from a single system ρ at temperature T is governed by:",
+  "opts": [
+    "k_BT·S(ρ) (von Neumann entropy — same as i.i.d. average)",
+    "k_BT·Hmin(ρ) (min-entropy — pessimistic single-shot bound)",
+    "k_BT·H₂(ρ) (second-order Rényi entropy)",
+    "k_BT·log rank(ρ)"
+  ],
+  "ans": 1,
+  "exp": "Single-shot thermodynamics (Dahlsten et al. 2011): one-shot work W ≤ k_BT·Hmin(ρ). The min-entropy (not von Neumann entropy) governs single-use work extraction. In the i.i.d. limit Hmin^ε/n→S(ρ), recovering classical thermodynamics."
+}

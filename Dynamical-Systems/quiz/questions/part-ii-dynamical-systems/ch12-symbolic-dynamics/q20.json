@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "Two-sided SFTs S_A and S_B are conjugate (topologically) if and only if their adjacency matrices A and B are:",
+  "opts": [
+    "Similar over ℤ (same characteristic polynomial)",
+    "Strong shift equivalent (connected by a chain of elementary equivalences)",
+    "Have the same trace",
+    "Both irreducible with the same entropy"
+  ],
+  "ans": 1,
+  "exp": "Williams' theorem (1973, with correction by Kim-Roush): two SFTs are conjugate iff their transition matrices are strong shift equivalent. Strong shift equivalence is finer than shift equivalence (which determines the zeta function)."
+}

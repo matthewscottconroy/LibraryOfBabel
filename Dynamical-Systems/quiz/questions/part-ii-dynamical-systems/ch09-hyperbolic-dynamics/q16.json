@@ -1,0 +1,14 @@
+{
+  "ch": 9,
+  "part": 2,
+  "chTitle": "Hyperbolic Dynamics",
+  "q": "The concept of a dominated splitting generalises hyperbolicity. A T-invariant splitting TM|_Λ = E ⊕ F is dominated if there exists C > 0, λ < 1 such that for all x and all unit vectors u ∈ Eₓ, v ∈ Fₓ:",
+  "opts": [
+    "||DTⁿu|| < ||DTⁿv||",
+    "||DTⁿu|| ≤ Cλⁿ||DTⁿv||",
+    "||DTⁿu|| / ||DTⁿv|| → 0",
+    "F is contracting and E is expanding"
+  ],
+  "ans": 1,
+  "exp": "Dominated splitting: ||DT^n|_E(x)|| · ||DT^{-n}|_F(T^nx)|| ≤ Cλ^n (equivalently, E is uniformly dominated by F). Dominated splittings are C¹-robust and persist under perturbations, unlike hyperbolicity which requires both expansion and contraction."
+}

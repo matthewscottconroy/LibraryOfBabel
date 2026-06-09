@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "The cost of a countable standard equivalence relation E on (X,μ) is defined (Levitt, Gaboriau) as:",
+  "opts": [
+    "The number of orbits",
+    "inf{μ(Φ) : Φ generates E} = inf over graphings (measurable generating subsets of E) of their measure",
+    "The rank of the associated von Neumann algebra",
+    "The topological entropy of E"
+  ],
+  "ans": 1,
+  "exp": "Cost of E: C(E) = inf{μ(graphing)} over all graphings (Borel subsets of E\\ diagonal that generate E). For a free action of Γ, C(E_Γ) = β₁^{(2)}(Γ) − χ(Γ) for many groups (Gaboriau's formula connecting cost to l²-Betti numbers)."
+}

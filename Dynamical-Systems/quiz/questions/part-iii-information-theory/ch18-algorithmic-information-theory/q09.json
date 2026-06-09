@@ -1,0 +1,14 @@
+{
+  "ch": 18,
+  "part": 3,
+  "chTitle": "Algorithmic Information Theory",
+  "q": "Chaitin's Ω = Σ_{p: U(p) halts} 2^{-|p|} is a specific example of an algorithmic-random real. It is notable because:",
+  "opts": [
+    "It is computable to arbitrary precision",
+    "It is left-computable (its binary expansion can be approximated from below) but not computable, and every bit encodes a halting problem",
+    "It equals 1/2 exactly",
+    "Its digits are eventually periodic"
+  ],
+  "ans": 1,
+  "exp": "Ω (halting probability) is Martin-Löf random, left-computable (Σ over terminating programs ≤ 1 by Kraft), but not computable. Knowing finitely many bits of Ω answers finitely many halting problems. It is the canonical example of an 'unknowable' real number."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "Sullivan's no-wandering-domains theorem (1985) states that for a rational map f: ℂ̂ → ℂ̂:",
+  "opts": [
+    "All Fatou components are eventually periodic",
+    "Every wandering domain maps to a periodic cycle of Fatou components (no proper wandering domains exist)",
+    "The Fatou set is always connected",
+    "Every Fatou component is simply connected"
+  ],
+  "ans": 1,
+  "exp": "Sullivan's theorem (using quasiconformal surgery): rational maps have no wandering Fatou components—every Fatou component eventually maps into a periodic cycle. Before Sullivan, wandering domains were only ruled out for specific classes. This was a landmark application of quasiconformal deformations."
+}

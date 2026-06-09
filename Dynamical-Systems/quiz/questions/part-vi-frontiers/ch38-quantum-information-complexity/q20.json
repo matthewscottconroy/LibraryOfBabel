@@ -1,0 +1,14 @@
+{
+  "ch": 38,
+  "part": 6,
+  "chTitle": "Quantum Information and Complexity",
+  "q": "The random circuit sampling (RCS) hardness conjecture supports quantum supremacy claims. The anti-concentration property of random quantum circuits means:",
+  "opts": [
+    "Output probabilities are concentrated on few outcomes",
+    "The distribution of output probabilities approaches the Porter-Thomas distribution (p(x)∼Haar-random)",
+    "The circuit depth grows as O(log n)",
+    "The circuits can be efficiently simulated classically"
+  ],
+  "ans": 1,
+  "exp": "Anti-concentration: for a uniformly random n-qubit circuit C of sufficient depth, the output probabilities |⟨x|C|0^n⟩|² are approximately Porter-Thomas distributed (exponential with mean 1/2^n). This means most probabilities are neither too large nor too small, making classical sampling hard."
+}

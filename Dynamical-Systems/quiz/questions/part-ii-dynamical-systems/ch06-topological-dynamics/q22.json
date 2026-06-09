@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "Glasner's theorem on the structure of minimal flows: every minimal equicontinuous flow is (topologically conjugate to) a rotation on a compact abelian group. The group is:",
+  "opts": [
+    "Always ℤ_p for some prime p",
+    "The Ellis group of the system, which equals the enveloping semigroup (which is a group for equicontinuous systems)",
+    "The fundamental group of X",
+    "The automorphism group of X"
+  ],
+  "ans": 1,
+  "exp": "Minimal equicontinuous flows: the enveloping semigroup (Ellis semigroup) E(X) is a compact abelian group, and the flow is conjugate to left-multiplication on E(X). This group is compact, metrizable when X is metrizable, and encodes all the equicontinuous dynamics."
+}

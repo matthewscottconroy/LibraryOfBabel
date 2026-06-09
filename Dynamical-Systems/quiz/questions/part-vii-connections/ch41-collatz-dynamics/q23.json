@@ -1,0 +1,14 @@
+{
+  "ch": 41,
+  "part": 7,
+  "chTitle": "The Collatz Conjecture",
+  "q": "The Collatz conjecture is related to the study of aperiodic sequences. If n is a positive integer whose binary representation has a specific pattern, the Collatz orbit structure can be partially predicted. Specifically, numbers of the form n=2^k−1 (all 1s in binary) take approximately how long to reach 1?",
+  "opts": [
+    "O(k)",
+    "O(k²)",
+    "O(k log k)",
+    "O(2^k/k)"
+  ],
+  "ans": 2,
+  "exp": "Numbers 2^k−1 require approximately O(k log k) steps in the Collatz sequence. The 3x+1 steps multiply by ~3/2 while even steps divide by 2; the alternation depends on the bit pattern, and for 2^k−1 (all 1s), the orbit has O(k log k) length (heuristic analysis from the probabilistic model)."
+}

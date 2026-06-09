@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "The smooth min-entropy H_min^ε(X|Y) in one-shot information theory represents:",
+  "opts": [
+    "The average conditional entropy",
+    "The minimum number of bits extractable about X given Y with failure probability ≤ ε",
+    "The maximum entropy over all distributions ε-close to P_{XY}",
+    "The von Neumann entropy of the quantum state"
+  ],
+  "ans": 1,
+  "exp": "Smooth min-entropy H_min^ε(X|Y) characterizes one-shot privacy amplification: it is the maximum number of (nearly) uniform secret bits extractable given adversary's information Y, with failure ε. As n → ∞, it converges to the conditional entropy rate."
+}

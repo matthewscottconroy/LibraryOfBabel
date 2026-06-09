@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "The Arnold web in a multi-dimensional near-integrable Hamiltonian system refers to:",
+  "opts": [
+    "The collection of all KAM tori",
+    "The network of resonance zones that can facilitate Arnold diffusion",
+    "The stable/unstable manifolds of hyperbolic tori",
+    "The Poincaré return map"
+  ],
+  "ans": 1,
+  "exp": "The Arnold web is the web of resonances in action space. Arnold diffusion is the slow drift of orbits along this web, which is the generic mechanism for global instability in systems with ≥ 2.5 degrees of freedom."
+}

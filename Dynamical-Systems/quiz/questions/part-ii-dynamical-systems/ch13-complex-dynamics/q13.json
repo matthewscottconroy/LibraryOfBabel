@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "The degree of a rational map f: ℂ̂ → ℂ̂ is the number of preimages of a generic point. The Riemann-Hurwitz formula for a degree-d map with ramification gives:",
+  "opts": [
+    "2 − 2·deg(f) = χ(ℂ̂) − Σ(eₚ − 1) with eₚ the local degree at each ramification point",
+    "Σ(eₚ − 1) = 2(d−1)",
+    "The number of critical points equals d",
+    "deg(f) = Σ eₚ"
+  ],
+  "ans": 1,
+  "exp": "Riemann-Hurwitz: 2−2g' = d(2−2g) − Σ(eₚ−1). For f: ℂ̂ → ℂ̂ (g = g' = 0): 0 = d·0 − Σ(eₚ−1), so Σ(eₚ−1) = 2(d−1). A degree-d rational map has exactly 2d−2 critical points counted with multiplicity."
+}

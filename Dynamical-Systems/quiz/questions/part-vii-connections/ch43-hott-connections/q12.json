@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "Univalent foundations (Voevodsky) provides a set-level foundation via setoids or types with decidable equality. A 'set' in HoTT is a type A with:",
+  "opts": [
+    "A = B for all B",
+    "IsSet(A): all identity proofs in A are equal — (p q: a = b) → p = q (h-proposition level 1)",
+    "A has at least one element",
+    "A is decidable"
+  ],
+  "ans": 1,
+  "exp": "Sets in HoTT (h-sets or 0-types): A is a set if for any a, b: A, the type a =_A b is a mere proposition (h-Prop) — any two proofs of a = b are equal. This means A has no non-trivial homotopy (no higher structure). Classical mathematics lives in sets; HoTT adds higher types above them."
+}

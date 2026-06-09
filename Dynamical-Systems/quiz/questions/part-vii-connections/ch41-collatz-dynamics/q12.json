@@ -1,0 +1,14 @@
+{
+  "ch": 41,
+  "part": 7,
+  "chTitle": "The Collatz Conjecture",
+  "q": "The Collatz graph G = (ℕ, →) where n → Syr(n) is a directed graph. The Collatz conjecture states that G has a specific tree structure. Specifically:",
+  "opts": [
+    "G is a tree rooted at 1",
+    "G has a unique infinite connected component but may have multiple fixed points",
+    "G is a forest with one root per cycle",
+    "G would be a tree rooted at 1 iff the conjecture holds — every positive integer eventually maps to 1"
+  ],
+  "ans": 3,
+  "exp": "If the Collatz conjecture holds, every positive integer eventually reaches 1, making G a directed tree rooted at 1 (every node has exactly one outgoing edge, and all paths lead to 1). The conjecture fails iff some orbit never reaches 1 — either diverging or cycling at a different value."
+}

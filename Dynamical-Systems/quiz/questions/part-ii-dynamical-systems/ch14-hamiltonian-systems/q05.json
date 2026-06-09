@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "Noether's theorem in Hamiltonian mechanics states that every continuous symmetry of the action corresponds to:",
+  "opts": [
+    "A conserved quantity (first integral)",
+    "A periodic orbit",
+    "An integrable subsystem",
+    "A Lyapunov stable equilibrium"
+  ],
+  "ans": 0,
+  "exp": "Noether's theorem: continuous symmetry ↔ conservation law. Time-translation symmetry → energy conservation; rotational symmetry → angular momentum conservation; etc."
+}

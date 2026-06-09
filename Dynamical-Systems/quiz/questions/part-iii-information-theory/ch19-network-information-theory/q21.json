@@ -1,0 +1,14 @@
+{
+  "ch": 19,
+  "part": 3,
+  "chTitle": "Network Information Theory",
+  "q": "The relay channel capacity remains open in general. The best known lower bound is the Cover-El Gamal (1979) compress-and-forward bound. Decode-and-forward achieves capacity when:",
+  "opts": [
+    "The relay is full-duplex",
+    "The relay channel is degraded (Y₁ is a degraded version of Y₀ given X)",
+    "The relay has more power than the source",
+    "The channel is additive Gaussian"
+  ],
+  "ans": 1,
+  "exp": "Decode-and-forward achieves the relay channel capacity when the channel is physically degraded: P(y₁,y₀|x₁,x₀)=P(y₁|x₁,x₀)·P(y₀|y₁,x₀). In this case, DnF matches the cut-set upper bound."
+}

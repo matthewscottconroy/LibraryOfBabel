@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "The Böttcher coordinate near an attracting fixed point 0 of f(z) = λz + … with |λ| < 1 linearizes f to:",
+  "opts": [
+    "z ↦ λz",
+    "z ↦ z²",
+    "z ↦ z + 1",
+    "z ↦ e^z"
+  ],
+  "ans": 0,
+  "exp": "Koenigs linearization theorem: near an attracting fixed point with multiplier λ (0 < |λ| < 1), f is locally analytically conjugate to z ↦ λz. (Böttcher coordinates apply near superattracting fixed points.)"
+}

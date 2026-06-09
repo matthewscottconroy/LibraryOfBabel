@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "The Wolfram classification of cellular automata (Classes I-IV) places Class IV CA near the 'edge of chaos'. Class IV CA are characterised by:",
+  "opts": [
+    "All cells eventually becoming quiescent",
+    "Periodic spatial and temporal patterns",
+    "Seemingly random behavior without simple global patterns",
+    "Complex, localised patterns with persistent structures (gliders)—potentially computationally universal"
+  ],
+  "ans": 3,
+  "exp": "Class IV CA (like Conway's Game of Life, Rule 110) exhibit complex localised structures that interact in complicated ways. They live at the 'edge of chaos' between simple (periodic/ordered) and fully chaotic behavior, and are candidates for (or proven to be) computationally universal."
+}

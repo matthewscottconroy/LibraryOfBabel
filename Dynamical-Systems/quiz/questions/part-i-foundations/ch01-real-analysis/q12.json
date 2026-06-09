@@ -1,0 +1,14 @@
+{
+  "ch": 1,
+  "part": 1,
+  "chTitle": "Real Analysis",
+  "q": "The Vitali covering theorem states: given a collection 𝒱 of balls covering a set E ⊂ ℝⁿ in the Vitali sense, there exists a countable disjoint subcollection {Bₖ} ⊂ 𝒱 such that:",
+  "opts": [
+    "The Bₖ cover E exactly",
+    "E ⊂ ∪ 5Bₖ (the 5× dilations cover E)",
+    "The Bₖ partition E",
+    "The subcollection is finite"
+  ],
+  "ans": 1,
+  "exp": "Vitali's covering theorem: from a Vitali cover (every point is in arbitrarily small balls of 𝒱) one extracts a disjoint subcollection whose 5-fold dilates cover the whole set. This is the foundation of Lebesgue differentiation theorem."
+}

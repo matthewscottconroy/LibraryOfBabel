@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "The Hardy-Littlewood maximal function Mf(x) = sup_{r>0} (1/|B(x,r)|) ∫_{B(x,r)} |f| is weak-type (1,1), meaning:",
+  "opts": [
+    "Mf ∈ L¹ whenever f ∈ L¹",
+    "μ({Mf > λ}) ≤ C||f||₁/λ for all λ > 0",
+    "Mf ≤ f pointwise",
+    "Mf ∈ L^p for p > 1"
+  ],
+  "ans": 1,
+  "exp": "The maximal function is not in L¹ generally (Mf(x) ≥ c/|x|ⁿ for f = 1_{B(0,1)}), but satisfies the weak-type bound. This implies the Lebesgue differentiation theorem: (1/|B(x,r)|)∫_{B(x,r)} f → f(x) a.e."
+}

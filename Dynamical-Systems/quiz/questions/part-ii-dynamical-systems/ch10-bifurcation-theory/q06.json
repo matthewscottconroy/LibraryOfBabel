@@ -1,0 +1,14 @@
+{
+  "ch": 10,
+  "part": 2,
+  "chTitle": "Bifurcation Theory",
+  "q": "The Bogdanov-Takens bifurcation occurs when the Jacobian at equilibrium has:",
+  "opts": [
+    "A pair of purely imaginary eigenvalues",
+    "A zero eigenvalue with algebraic multiplicity 1",
+    "A double zero eigenvalue (a Jordan block)",
+    "All eigenvalues with negative real parts"
+  ],
+  "ans": 2,
+  "exp": "Bogdanov-Takens: the Jacobian has eigenvalue 0 with algebraic multiplicity 2 (Jordan block 2×2). The unfolding generically contains saddle-node, Hopf, and homoclinic bifurcations."
+}

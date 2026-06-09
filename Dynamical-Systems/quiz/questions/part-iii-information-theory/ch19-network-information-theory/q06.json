@@ -1,0 +1,14 @@
+{
+  "ch": 19,
+  "part": 3,
+  "chTitle": "Network Information Theory",
+  "q": "The broadcast channel capacity (one sender, multiple receivers) is in general:",
+  "opts": [
+    "Completely solved by superposition coding",
+    "Not fully characterized; only special cases are known",
+    "Given by the min of individual channel capacities",
+    "Equal to the MAC capacity by duality"
+  ],
+  "ans": 1,
+  "exp": "The general broadcast channel capacity is a long-standing open problem. Only degraded, less noisy, and a few other special cases have complete capacity characterizations. Superposition coding is optimal for degraded broadcast channels."
+}

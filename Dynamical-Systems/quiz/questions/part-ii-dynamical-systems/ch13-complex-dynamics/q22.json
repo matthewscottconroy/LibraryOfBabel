@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "The Fatou-Shishikura inequality states that for a rational map of degree d≥2, the number of non-repelling cycles satisfies:",
+  "opts": [
+    "#(non-repelling cycles) ≤ 2d−2",
+    "#(non-repelling cycles) ≤ d−1",
+    "#(non-repelling cycles) ≤ d",
+    "#(non-repelling cycles) ≤ 2d"
+  ],
+  "ans": 0,
+  "exp": "Fatou-Shishikura: the number of attracting and indifferent (parabolic+Siegel+Cremer) cycles is at most 2d−2, the number of critical points (counted with multiplicity) for a degree-d rational map."
+}

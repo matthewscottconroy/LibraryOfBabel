@@ -1,0 +1,14 @@
+{
+  "ch": 36,
+  "part": 6,
+  "chTitle": "The Zimmer Program",
+  "q": "Super-rigidity for products: if Γ = Γ₁ × Γ₂ is a product of lattices, Margulis's theorem on 'commensurating superrigidity' shows that homomorphisms from Γ to GL(n,ℝ) that are:",
+  "opts": [
+    "Non-trivial on both factors must extend to G₁ × G₂",
+    "Non-trivial on exactly one factor must factor through the projection to that factor (Margulis's factor theorem)",
+    "Always trivial",
+    "Determined by their restriction to the center"
+  ],
+  "ans": 1,
+  "exp": "Margulis's factor theorem for irreducible lattices Γ ≤ G₁×G₂: any irreducible lattice is algebraically 'indivisible' — homomorphisms from Γ to other groups cannot factor through either projection alone. This is a form of 'algebraic irreducibility' and is the basis for arithmeticity proofs."
+}

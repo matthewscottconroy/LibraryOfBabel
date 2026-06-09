@@ -1,0 +1,14 @@
+{
+  "ch": 37,
+  "part": 6,
+  "chTitle": "Frontiers in Complex Dynamics",
+  "q": "The Multibrot set M_d is the analog of M for f_{c,d}(z)=z^d+c (degree d≥2). As d→∞, the Multibrot sets M_d converge (in the Hausdorff metric on compact subsets of ℂ) to:",
+  "opts": [
+    "The unit disk |c|≤1",
+    "The set |c|≤2",
+    "The Julia set J_c=∞",
+    "A Cantor set"
+  ],
+  "ans": 0,
+  "exp": "As d→∞, M_d={c: f_{c,d}^n(0)↛∞}→{c:|c|≤1} (the closed unit disk). Intuitively, f_{c,d}(0)=c and f_{c,d}²(0)=c^d+c≈c^d for |c|<1 → 0, so the orbit stays bounded iff |c|≤1 in the limit."
+}

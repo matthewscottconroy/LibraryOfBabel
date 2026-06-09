@@ -1,0 +1,14 @@
+{
+  "ch": 24,
+  "part": 4,
+  "chTitle": "Symbolic Dynamics and Information Theory",
+  "q": "The constrained coding capacity theorem (Marcus–Siegel, Adler–Coppersmith–Hassner) says a binary source at rate R can be encoded into constrained channel X (subshift with entropy h_top(X)) iff:",
+  "opts": [
+    "R = h_top(X)",
+    "R < h_top(X)",
+    "R ≤ h_top(X) and h_top(X) is a rational multiple of log 2",
+    "R < log 2"
+  ],
+  "ans": 1,
+  "exp": "Rate R bits/symbol can be encoded into X at rate R/h_top(X) output symbols per input symbol if R < h_top(X). The existence of finite-state encoders with sliding-window decoders additionally requires h_top(X)/log 2 to be rational (so rate ratios are rational)."
+}

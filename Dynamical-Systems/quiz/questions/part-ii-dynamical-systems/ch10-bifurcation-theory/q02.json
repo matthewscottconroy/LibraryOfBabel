@@ -1,0 +1,14 @@
+{
+  "ch": 10,
+  "part": 2,
+  "chTitle": "Bifurcation Theory",
+  "q": "A Hopf bifurcation produces:",
+  "opts": [
+    "Two new fixed points from one",
+    "A limit cycle emerging from a fixed point as a complex conjugate pair of eigenvalues crosses the imaginary axis",
+    "A period-doubling cascade",
+    "A strange attractor directly"
+  ],
+  "ans": 1,
+  "exp": "Hopf: as a parameter varies, a complex conjugate pair λ(μ)=α(μ)±iω(μ) crosses the imaginary axis (α(μ*)=0). A limit cycle is born (supercritical) or destroyed (subcritical) at μ*. This is how oscillations emerge in dynamical systems."
+}

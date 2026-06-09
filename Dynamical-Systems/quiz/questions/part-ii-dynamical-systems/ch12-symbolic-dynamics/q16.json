@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "Substitution systems generate sequences by iterating a substitution σ: A → A^* (each symbol maps to a finite word). The topological entropy of a substitution shift equals:",
+  "opts": [
+    "log|A|",
+    "0 (substitution shifts have zero entropy)",
+    "The growth rate of the substitution",
+    "log(spectral radius of the substitution matrix)"
+  ],
+  "ans": 1,
+  "exp": "Substitution shifts are minimal (under primitivity of the substitution) and have entropy 0: p(n) grows polynomially (often linearly), far slower than exponential. This contrasts with SFTs; substitution shifts are the main source of zero-entropy, non-periodic, minimal systems."
+}

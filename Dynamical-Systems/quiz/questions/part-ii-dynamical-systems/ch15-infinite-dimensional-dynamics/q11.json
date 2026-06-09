@@ -1,0 +1,14 @@
+{
+  "ch": 15,
+  "part": 2,
+  "chTitle": "Infinite-Dimensional Dynamics",
+  "q": "The reaction-diffusion equation uₜ = DΔu + f(u) (D > 0, f satisfies a dissipativity condition) on a bounded domain has a global attractor 𝒜 in H¹₀(Ω). The key step in proving compactness of 𝒜 uses:",
+  "opts": [
+    "The maximum principle only",
+    "Compact Sobolev embeddings: H¹ ↪ L² is compact (Rellich-Kondrachov), which converts H¹-boundedness to L²-precompactness",
+    "Fourier analysis",
+    "The Poincaré inequality alone"
+  ],
+  "ans": 1,
+  "exp": "The compact embedding H¹(Ω) ↪ L²(Ω) (Rellich-Kondrachov) is the key: solutions bounded in H¹ (from energy estimates) form a precompact set in L². This gives the compact absorbing set needed for the global attractor theorem."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "Rice's theorem in computability theory is the analogue of which dynamical systems result?",
+  "opts": [
+    "Birkhoff's ergodic theorem",
+    "The undecidability of nontrivial asymptotic properties of the universal Turing machine's orbits",
+    "The Baire category theorem",
+    "Poincaré recurrence"
+  ],
+  "ans": 1,
+  "exp": "Rice's theorem: every non-trivial property of computable functions is undecidable. Dynamically: any non-trivial property of the 'orbit' of a Turing machine (does it halt? does it output an even number? does it have a fixed point?) is undecidable — an undecidability theorem about orbits."
+}

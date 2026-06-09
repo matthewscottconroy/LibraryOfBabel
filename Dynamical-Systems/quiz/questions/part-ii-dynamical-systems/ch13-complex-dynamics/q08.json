@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "Montel's theorem, which is fundamental in complex dynamics, states that a family of holomorphic functions is normal (has a locally uniformly convergent subsequence) if:",
+  "opts": [
+    "The functions are uniformly bounded",
+    "The functions omit two distinct values in ℂ",
+    "The functions have uniformly bounded derivative",
+    "The functions are injective"
+  ],
+  "ans": 1,
+  "exp": "Montel's theorem (great Picard + normal families): a family omitting two fixed values in ℂ is normal. This is used to show the Fatou set is the maximal domain of normality of the family {fⁿ}."
+}

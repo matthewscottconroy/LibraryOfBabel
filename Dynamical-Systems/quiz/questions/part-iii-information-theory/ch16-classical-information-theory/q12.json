@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "Slepian-Wolf theorem for distributed source coding allows two correlated sources X,Y to be compressed separately (without seeing each other) and decoded jointly at rates:",
+  "opts": [
+    "R_X ≥ H(X), R_Y ≥ H(Y) always",
+    "R_X ≥ H(X|Y), R_Y ≥ H(Y|X), and R_X+R_Y ≥ H(X,Y)",
+    "R_X + R_Y ≥ H(X) + H(Y)",
+    "R_X = R_Y = H(X,Y)/2"
+  ],
+  "ans": 1,
+  "exp": "Slepian-Wolf: the achievable rate region for separate encoding, joint decoding of (X,Y) is R_X ≥ H(X|Y), R_Y ≥ H(Y|X), R_X+R_Y ≥ H(X,Y). Remarkably, this matches the rate for joint encoding—correlation can be exploited even without communication between encoders."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 29,
+  "part": 5,
+  "chTitle": "Thermodynamics and Information",
+  "q": "Ruelle's thermodynamic formalism for dynamical systems defines the pressure P(φ)=sup_μ{h_μ+∫φ dμ}. The partition function analogy for a lattice system with potential Φ={Φ_Λ} is:",
+  "opts": [
+    "Z_Λ=∑_σ∈Ω_Λ exp(−βH_Λ(σ)) analogous to exp(n·P(φ))",
+    "Z_Λ=n·P(φ) directly",
+    "Z_Λ=exp(h_μ(T))",
+    "Z_Λ=∑_{|p|=n} exp(∫_p φ) (periodic orbit sum)"
+  ],
+  "ans": 0,
+  "exp": "The partition function Z_Λ=∑_σ exp(−βH_Λ(σ)) is the lattice analog, with log Z_Λ/|Λ|→P(−βΦ). For Axiom A systems, the partition function is ∑_{|p|=n} exp(S_n φ(x_p)) (sum over periodic orbits) and log Z_n/n→P(φ) by the Bowen-Ruelle theorem."
+}

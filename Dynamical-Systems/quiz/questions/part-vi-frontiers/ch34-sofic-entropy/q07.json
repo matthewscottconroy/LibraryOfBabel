@@ -1,0 +1,14 @@
+{
+  "ch": 34,
+  "part": 6,
+  "chTitle": "Sofic Entropy",
+  "q": "Sofic entropy is defined using approximating maps σᵢ: G → Sym(nᵢ). The entropy of a partition depends on counting good models; a key feature is that it can be:",
+  "opts": [
+    "Always computable",
+    "−∞ (undefined/minus infinity) for some actions, unlike KS entropy which is always ≥ 0",
+    "Always positive",
+    "Invariant under all group automorphisms"
+  ],
+  "ans": 1,
+  "exp": "One subtlety of sofic entropy: it can equal −∞ (essentially undefined) for some actions of non-amenable groups. This indicates the action cannot be approximated in the sofic framework, a phenomenon absent in the amenable case."
+}

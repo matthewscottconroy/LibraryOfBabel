@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "For the depolarizing channel N_p(ρ)=(1−p)ρ+p·I/2 on a qubit, the quantum capacity Q(N_p) is positive for p<p_* where p_* is approximately:",
+  "opts": [
+    "1/4",
+    "1/3",
+    "1/2",
+    "3/4"
+  ],
+  "ans": 1,
+  "exp": "The depolarizing channel's quantum capacity Q>0 for p<1/3 (since the channel is antidegradable at p=1/3 making Q=0). The exact threshold p_*≈0.2523 (numerically), but Q>0 for p below approximately 1/3 and Q=0 for p≥1/3."
+}

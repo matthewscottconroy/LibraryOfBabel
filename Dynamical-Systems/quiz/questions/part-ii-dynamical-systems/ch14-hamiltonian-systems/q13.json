@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "The Birkhoff normal form near an elliptic fixed point of a symplectic map T reduces T (to any order) to a map of the form (Iₖ = |zₖ|²):",
+  "opts": [
+    "zₖ ↦ e^{iωₖ}zₖ (pure rotation)",
+    "zₖ ↦ e^{i(ωₖ + Σⱼ aₖⱼIⱼ)}zₖ (twist map in each action)",
+    "zₖ ↦ zₖ + ωₖ (translation)",
+    "zₖ ↦ λₖzₖ with |λₖ| < 1"
+  ],
+  "ans": 1,
+  "exp": "Birkhoff normal form: the symplectic map near a non-resonant elliptic fixed point is formally conjugate to zₖ ↦ exp(i(ωₖ + Σⱼ aₖⱼ|zⱼ|²))zₖ — a nonlinear twist. The coefficients aₖⱼ are the Birkhoff constants, which determine the KAM condition and Arnold diffusion."
+}

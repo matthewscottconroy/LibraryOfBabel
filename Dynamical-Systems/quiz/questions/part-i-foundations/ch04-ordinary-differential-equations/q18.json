@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "The Picard-Lindelöf theorem guarantees unique local solutions to ẋ = f(x,t), x(t₀) = x₀ when f is:",
+  "opts": [
+    "Measurable in t",
+    "Locally Lipschitz in x and continuous in t",
+    "Differentiable in x",
+    "Bounded and measurable"
+  ],
+  "ans": 1,
+  "exp": "Picard-Lindelöf: local Lipschitz in x + continuity in t → unique local solution. The proof uses the Banach contraction on the space of continuous functions. The condition is sharp: without Lipschitz (e.g., f = |x|^{1/2}), uniqueness fails."
+}

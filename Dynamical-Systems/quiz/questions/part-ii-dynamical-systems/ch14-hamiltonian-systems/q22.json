@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "The symplectic capacity of the polydisk P(a,b)=B²(a)×B²(b) in ℝ⁴ is:",
+  "opts": [
+    "π·min(a,b)",
+    "π·max(a,b)",
+    "π·ab",
+    "π·(a+b)/2"
+  ],
+  "ans": 0,
+  "exp": "The Gromov width (smallest symplectic capacity) of the polydisk P(a,b)=B²(a)×B²(b) is π·min(a,b), the radius of the smallest ball that fits symplectically. The cylindrical capacity is π·max(a,b)."
+}

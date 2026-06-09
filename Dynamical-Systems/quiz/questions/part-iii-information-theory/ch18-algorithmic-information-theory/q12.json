@@ -1,0 +1,14 @@
+{
+  "ch": 18,
+  "part": 3,
+  "chTitle": "Algorithmic Information Theory",
+  "q": "Levin's notion of 'universal distribution' assigns to each finite string x the probability m(x) = Σ_{p: U(p)=x} 2^{-|p|}. This is a semi-measure (Σ m(x) ≤ 1) because:",
+  "opts": [
+    "Some programs output infinitely many x",
+    "Programs can loop indefinitely (not outputting anything), contributing probability mass that doesn't correspond to any output",
+    "The universal TM is non-deterministic",
+    "The alphabet is infinite"
+  ],
+  "ans": 1,
+  "exp": "Σ_x m(x) = P(U halts and outputs x for some x) = P(U halts) ≤ 1 (not necessarily =1 since U may not halt). This is the 'halting probability' Ω. The universal semi-measure m dominates all computable semi-measures, making it the prior of choice for induction."
+}

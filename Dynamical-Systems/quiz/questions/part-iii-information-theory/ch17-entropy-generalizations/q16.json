@@ -1,0 +1,14 @@
+{
+  "ch": 17,
+  "part": 3,
+  "chTitle": "Entropy Generalizations",
+  "q": "Rényi's characterisation theorem shows that Shannon entropy is the unique measure satisfying certain axioms. The key distinguishing axiom is:",
+  "opts": [
+    "Continuity in probabilities",
+    "The chain rule (decomposability): H(p₁,…,pₙ) = H(p₁+p₂, p₃,…,pₙ) + (p₁+p₂)H(p₁/(p₁+p₂), p₂/(p₁+p₂))",
+    "Symmetry",
+    "Maximum at uniform distribution"
+  ],
+  "ans": 1,
+  "exp": "The chain rule (decomposability) axiom is the key distinguishing property. Shannon (1948) and Khinchin characterised entropy as the unique function satisfying continuity, symmetry, normalization, and this chain rule. Rényi entropies satisfy the others but not this chain rule (which is specific to α = 1)."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 29,
+  "part": 5,
+  "chTitle": "Thermodynamics and Information",
+  "q": "The Gibbs free energy G=U−TS+PV is minimized at equilibrium for systems at constant T,P. The entropy of mixing for an ideal mixture of N components with mole fractions x_i is:",
+  "opts": [
+    "ΔS_mix=−R∑x_i log x_i per mole",
+    "ΔS_mix=R·log N",
+    "ΔS_mix=0 (no mixing entropy for ideal systems)",
+    "ΔS_mix=−∑x_i log(x_i/N)"
+  ],
+  "ans": 0,
+  "exp": "The entropy of mixing for ideal mixtures: ΔS_mix=−R∑_i x_i ln x_i per mole of mixture (always ≥0 since x_i≤1). This is exactly the Shannon entropy formula with natural log and the gas constant R. It drives spontaneous mixing even without enthalpy changes."
+}

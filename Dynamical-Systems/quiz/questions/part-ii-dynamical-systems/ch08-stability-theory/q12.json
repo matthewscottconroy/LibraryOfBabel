@@ -1,0 +1,14 @@
+{
+  "ch": 8,
+  "part": 2,
+  "chTitle": "Stability Theory",
+  "q": "Global asymptotic stability of ẋ = f(x) can be established by finding a Lyapunov function V: ℝⁿ → ℝ that is positive definite, radially unbounded (V(x) → ∞ as |x| → ∞), and satisfies V̇ < 0 for x ≠ 0. Radial unboundedness ensures:",
+  "opts": [
+    "V has a unique minimum",
+    "All sublevel sets {V ≤ c} are compact, so trajectories cannot escape to infinity",
+    "V is convex",
+    "V is a norm"
+  ],
+  "ans": 1,
+  "exp": "Radially unbounded (V → ∞) Lyapunov functions ensure that all level sets are compact, so trajectories are bounded for all time. Combined with V̇ < 0, this gives global (not just local) asymptotic stability."
+}

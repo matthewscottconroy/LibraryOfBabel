@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "The ACC⁰ class consists of constant-depth circuits with AND, OR, NOT, and MOD-m gates for arbitrary m. Williams (2011) showed:",
+  "opts": [
+    "ACC⁰ = P",
+    "NEXP ⊄ ACC⁰ — NEXP is not contained in ACC⁰",
+    "ACC⁰ = NC¹",
+    "ACC⁰ ⊂ TC⁰ strictly"
+  ],
+  "ans": 1,
+  "exp": "Williams (2011): NEXP ⊄ ACC⁰. The proof used a clever algorithm-based approach: efficient simulation of ACC⁰ circuits yields a non-trivial NTIME(n^{polylog}) algorithm for NEXP (via satisfiability), contradicting NTIME hierarchy theorems. This is the strongest known explicit lower bound for ACC⁰."
+}

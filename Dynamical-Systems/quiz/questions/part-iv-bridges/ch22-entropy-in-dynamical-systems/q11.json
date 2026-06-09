@@ -1,0 +1,14 @@
+{
+  "ch": 22,
+  "part": 4,
+  "chTitle": "Entropy in Dynamical Systems",
+  "q": "For an ergodic measure-preserving system (X,μ,T) and partition 𝒫, the entropy h_μ(T,𝒫) = lim_{n→∞} (1/n) H(𝒫 ∨ T⁻¹𝒫 ∨ … ∨ T^{-(n-1)}𝒫). The Kolmogorov-Sinai theorem states:",
+  "opts": [
+    "h_μ(T) = h_μ(T,𝒫) for every partition 𝒫",
+    "h_μ(T) = sup_𝒫 h_μ(T,𝒫) = h_μ(T,𝒫) for any generating partition 𝒫",
+    "h_μ(T) = h_μ(T,𝒫) + h_μ(T,𝒬) for any two partitions",
+    "h_μ(T) = H(𝒫) for the finest partition"
+  ],
+  "ans": 1,
+  "exp": "Kolmogorov-Sinai theorem: h_μ(T) = h_μ(T,𝒫) for any generating partition 𝒫 (one where ∨_{n=-∞}^∞ T^n𝒫 separates points). This is the key computational result: entropy can be computed from a single generating partition rather than taking the supremum."
+}

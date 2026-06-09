@@ -1,0 +1,14 @@
+{
+  "ch": 23,
+  "part": 4,
+  "chTitle": "Ergodic Information Theory",
+  "q": "The Lempel-Ziv compression algorithm achieves near-optimal compression for stationary ergodic sources. The LZ77 algorithm parses the string into phrases, each defined as the longest match in the preceding text. The compression ratio satisfies:",
+  "opts": [
+    "Always equals H̄ exactly",
+    "Converges to H̄ (the entropy rate) almost surely for ergodic sources as n → ∞",
+    "Equals H̄ only for i.i.d. sources",
+    "Converges to 0 always"
+  ],
+  "ans": 1,
+  "exp": "Ziv-Lempel theorem: for any ergodic stationary source, the LZ compression ratio (bits per symbol output by LZ77/78) converges a.s. to the entropy rate H̄. This makes LZ-based algorithms universally asymptotically optimal—no prior knowledge of the source is needed."
+}

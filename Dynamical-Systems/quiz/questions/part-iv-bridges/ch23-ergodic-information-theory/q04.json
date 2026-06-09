@@ -1,0 +1,14 @@
+{
+  "ch": 23,
+  "part": 4,
+  "chTitle": "Ergodic Information Theory",
+  "q": "For a Markov chain with transition matrix P and stationary distribution π, the entropy rate is:",
+  "opts": [
+    "H(π)",
+    "H(P) = -∑ᵢⱼ Pᵢⱼ log Pᵢⱼ",
+    "h = -∑ᵢ πᵢ ∑ⱼ Pᵢⱼ log Pᵢⱼ (weighted sum of row entropies)",
+    "log|states|"
+  ],
+  "ans": 2,
+  "exp": "For an ergodic Markov chain: h = H(X₁|X₀) = -∑ᵢπᵢ∑ⱼPᵢⱼlog Pᵢⱼ = ∑ᵢπᵢH(Pᵢ·). The entropy rate is the stationary average of the row entropies — how uncertain is the next state given the current state, averaged over the stationary distribution."
+}

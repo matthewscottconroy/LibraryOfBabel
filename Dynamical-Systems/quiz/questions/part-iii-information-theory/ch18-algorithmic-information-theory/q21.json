@@ -1,0 +1,14 @@
+{
+  "ch": 18,
+  "part": 3,
+  "chTitle": "Algorithmic Information Theory",
+  "q": "The Kolmogorov structure function h_x(k)=min{log|S|: S is a computable set, x∈S, K(S)≤k} measures the complexity of the 'best model' of size k for x. The typical set size for a 'good' model is:",
+  "opts": [
+    "2^{K(x)}",
+    "2^{n-k} where n=|x|",
+    "2^{H·n} for entropy rate H",
+    "2^{K(x|S)}"
+  ],
+  "ans": 1,
+  "exp": "In the two-part code, a model S with K(S)≤k accounts for h_x(k)=log|S| bits of the total complexity n=K(x). The 'best' models have |S|≈2^{n-k}: they use k bits of structure to reduce the random part from n bits to n-k bits."
+}

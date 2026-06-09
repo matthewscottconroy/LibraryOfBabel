@@ -1,0 +1,14 @@
+{
+  "ch": 22,
+  "part": 4,
+  "chTitle": "Entropy in Dynamical Systems",
+  "q": "Entropy conjugacy (Bowen, 1978): two subshifts of finite type with the same topological entropy are related by the existence of a common extension. Specifically, every mixing SFT of entropy log λ is:",
+  "opts": [
+    "Isomorphic to the full shift",
+    "A factor of the full shift on ⌈λ⌉ symbols",
+    "An extension of every other mixing SFT of the same entropy",
+    "Conjugate to the Bernoulli shift of the same entropy"
+  ],
+  "ans": 2,
+  "exp": "Bowen's entropy conjecture (proved by Adler-Marcus): any mixing SFT of entropy h is an extension of every other mixing SFT of entropy h. Two mixing SFTs are topologically conjugate iff they have the same entropy AND the same period—but they are entropy-conjugate (common extension) based on entropy alone."
+}

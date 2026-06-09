@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "Turbo codes and LDPC codes are practical capacity-approaching codes. LDPC codes (Gallager, 1962) are characterised by:",
+  "opts": [
+    "A dense parity-check matrix",
+    "A sparse parity-check matrix H with density O(1/n) — most entries are 0",
+    "A circulant parity-check matrix",
+    "A parity-check matrix with all entries 1"
+  ],
+  "ans": 1,
+  "exp": "LDPC (Low-Density Parity-Check) codes have sparse H: each row and column has O(1) ones. This allows efficient belief-propagation (sum-product) decoding on the Tanner graph. LDPC codes asymptotically achieve Shannon capacity on the BEC and approach it on other channels."
+}

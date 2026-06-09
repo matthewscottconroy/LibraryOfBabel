@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "The counting argument for lower bounds on circuit complexity (Shannon, 1949) works by showing that most Boolean functions on n bits require circuits of size:",
+  "opts": [
+    "O(n)",
+    "Θ(n log n)",
+    "Ω(2ⁿ/n)",
+    "O(n²)"
+  ],
+  "ans": 2,
+  "exp": "Shannon counting argument: there are 2^{2^n} functions on n bits but only ≈ (nS)^S circuits of size S. For S ≪ 2^n/n, this is less than 2^{2^n}, so most functions require circuit size Ω(2^n/n). Despite this, no explicit function is known to require super-polynomial circuits."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "The Brunerie number β (Brunerie 2016) is an integer defined as the value of a specific HoTT-definable element β: ℤ, computed by a homotopy-theoretic argument involving π₄(S³). Its value was computed to be:",
+  "opts": [
+    "0",
+    "1",
+    "2",
+    "±1"
+  ],
+  "ans": 2,
+  "exp": "Brunerie proved in HoTT that β ∈ {±1, ±2}, and later verified computationally (in a cubical proof assistant) that β = 2. This corresponds to the classical result π₄(S³) = ℤ/2ℤ, with the generator having Hopf invariant 2. The computation required years of work in the Agda proof assistant."
+}

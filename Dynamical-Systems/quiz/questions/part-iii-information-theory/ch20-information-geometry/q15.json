@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "The Bregman divergence D_F(P||Q) = F(P) − F(Q) − ⟨∇F(Q), P−Q⟩ for a strictly convex F generalises KL divergence. For F(P) = Σ p(x) log p(x) (negative entropy), D_F is:",
+  "opts": [
+    "Total variation",
+    "KL divergence D(P||Q)",
+    "Hellinger distance",
+    "χ²-divergence"
+  ],
+  "ans": 1,
+  "exp": "F = Σ p log p (negative entropy): ∇F(Q) = (1 + log q(x)). Then D_F(P||Q) = Σ p(x)log p(x) − Σ q(x)log q(x) − Σ(1+log q(x))(p(x)−q(x)) = Σ p(x)log(p(x)/q(x)) = D(P||Q). So KL divergence is the Bregman divergence for negative entropy."
+}

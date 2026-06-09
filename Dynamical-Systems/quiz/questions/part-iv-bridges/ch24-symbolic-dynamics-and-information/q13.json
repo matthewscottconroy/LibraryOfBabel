@@ -1,0 +1,14 @@
+{
+  "ch": 24,
+  "part": 4,
+  "chTitle": "Symbolic Dynamics and Information Theory",
+  "q": "The follower set (right context) of a word w in a subshift X determines its syntactic complexity. For minimal subshifts, the map w ↦ F(w) has the property that as |w| → ∞:",
+  "opts": [
+    "F(w) grows exponentially",
+    "F(w) shrinks to a single word",
+    "F(w) stabilises to F(w') for longer extensions w' of w (the future eventually determines the word's type)",
+    "F(w) = L(X) for all w"
+  ],
+  "ans": 2,
+  "exp": "In an SFT, follower sets are determined by the last m symbols (where m is the memory). In general minimal subshifts, the number of distinct follower sets equals the number of states in the minimal right-resolving presentation. The follower-set complexity measures syntactic complexity."
+}

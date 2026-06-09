@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "For a chaotic dynamical system with positive Lyapunov exponent λ>0, the initial condition sensitivity implies that prediction is limited to a horizon ~log(1/δ)/λ where δ is the initial measurement uncertainty. This is:",
+  "opts": [
+    "Polynomial in 1/δ",
+    "Logarithmic in 1/δ",
+    "Exponential in λ",
+    "Independent of λ"
+  ],
+  "ans": 1,
+  "exp": "The prediction horizon T_pred~(1/λ)log(1/δ): for initial uncertainty δ, errors amplify as δ·e^{λt}≈1 after time t~(log(1/δ))/λ. The horizon grows logarithmically slow in the precision 1/δ—improving measurement precision gives diminishing returns."
+}

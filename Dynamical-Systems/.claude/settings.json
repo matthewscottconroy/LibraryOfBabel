@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const q = require\\('./questions-bundle.js'\\); console.log\\('Total questions:', ALL_QUESTIONS.length\\); console.log\\('Per chapter \\(ch1\\):', ALL_QUESTIONS.filter\\(q=>q.ch===1\\).length\\);\")",
+      "Bash(node -e \"const fs=require\\('fs'\\); const src=fs.readFileSync\\('questions-bundle.js','utf8'\\); eval\\(src\\); console.log\\('Total:',ALL_QUESTIONS.length,'Per ch1:',ALL_QUESTIONS.filter\\(q=>q.ch===1\\).length\\);\")",
+      "Bash(node generate-extra3a.js)",
+      "Bash(node generate-extra3b.js)",
+      "Bash(node generate-extra3c.js)",
+      "Bash(node generate-extra3d.js)",
+      "Bash(node generate-extra3e.js)"
+    ]
+  }
+}

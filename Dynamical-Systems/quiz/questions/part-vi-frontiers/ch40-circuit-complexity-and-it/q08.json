@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "AC⁰ circuits (constant depth, polynomial size, unbounded fan-in AND/OR) cannot compute the parity function (XOR of n bits). The lower bound proof uses:",
+  "opts": [
+    "Diagonalization",
+    "Switching lemma (random restriction argument) — Håstad's theorem gives exponential lower bounds",
+    "Algebraization",
+    "Natural proofs"
+  ],
+  "ans": 1,
+  "exp": "Håstad's switching lemma (1986): under random restriction, constant-depth circuits simplify to decision trees. This gives exp(Ω(n^{1/d})) lower bounds for parity in depth-d circuits. Parity ∉ AC⁰ follows with exponential lower bounds on the size of constant-depth circuits."
+}

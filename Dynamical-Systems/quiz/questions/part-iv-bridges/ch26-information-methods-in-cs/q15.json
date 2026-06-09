@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "Expander graphs have important connections to information theory. An (n,d,λ)-expander with second largest eigenvalue λ has the mixing time of a random walk on it proportional to:",
+  "opts": [
+    "n",
+    "d",
+    "log n / log(d/λ)",
+    "λ"
+  ],
+  "ans": 2,
+  "exp": "Mixing time of random walk on an expander: tmix ≈ log n / log(d/λ). The spectral gap d−λ controls the exponential convergence rate; mixing time is O(log n / spectral_gap). Expanders are crucial for derandomization (converting random walks to pseudorandom walks)."
+}

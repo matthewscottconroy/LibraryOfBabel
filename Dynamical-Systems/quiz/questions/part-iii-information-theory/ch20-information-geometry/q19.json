@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "The exponential family p(x;θ)=exp(θᵀT(x)−A(θ))·h(x) has Fisher information matrix I(θ)=∇²A(θ). The dual parameters (mean parameters) η=∇A(θ)=E_θ[T(X)] satisfy:",
+  "opts": [
+    "η parameterizes the e-flat (exponential) geodesics",
+    "θ parameterizes the m-flat (mixture) geodesics",
+    "The mapping θ↦η is the Legendre transform",
+    "Both A and C"
+  ],
+  "ans": 3,
+  "exp": "In exponential families, θ (natural parameters) are e-affine coordinates and η=E[T(X)]=∇A(θ) (mean parameters) are m-affine coordinates. The relation θ↦η is the Legendre transform A*(η)+A(θ)=θ·η."
+}

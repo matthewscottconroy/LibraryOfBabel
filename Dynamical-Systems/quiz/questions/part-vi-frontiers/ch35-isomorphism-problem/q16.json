@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "The Jewett-Krieger theorem constructs a uniquely ergodic minimal topological model for any ergodic MPT. The relevance to the isomorphism problem is that:",
+  "opts": [
+    "Topological conjugacy implies measure-theoretic isomorphism",
+    "Topological models are not unique: different Jewett-Krieger models of the same abstract ergodic system can be topologically inequivalent — measure-theoretic isomorphism is coarser than topological conjugacy",
+    "Unique ergodicity implies the system is Bernoulli",
+    "All models have the same topological entropy"
+  ],
+  "ans": 1,
+  "exp": "The Jewett-Krieger theorem shows every abstract ergodic system has a uniquely ergodic minimal topological model, but this model is far from unique (many topologically inequivalent models exist). Topological conjugacy is strictly finer than measure-theoretic isomorphism: the latter is the 'right' notion for ergodic theory."
+}

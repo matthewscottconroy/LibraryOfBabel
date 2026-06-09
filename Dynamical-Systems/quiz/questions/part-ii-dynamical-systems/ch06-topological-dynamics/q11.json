@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "The proximal relation P in a topological dynamical system: x P y if inf_{n≥0} d(Tⁿx, Tⁿy) = 0. In a distal system (no two distinct proximal points), the Ellis semigroup E(X) is:",
+  "opts": [
+    "A group (every element is invertible)",
+    "A semigroup with a zero element",
+    "Trivial (one element)",
+    "Isomorphic to ℤ"
+  ],
+  "ans": 0,
+  "exp": "Distal systems: E(X) is a group. This is because in a distal system, every element of E(X) is bijective (invertible). The structure theorem for distal systems (Furstenberg) builds them as towers of isometric extensions."
+}

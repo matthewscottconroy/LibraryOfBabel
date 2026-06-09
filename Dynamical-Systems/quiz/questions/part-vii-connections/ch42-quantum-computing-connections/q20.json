@@ -1,0 +1,14 @@
+{
+  "ch": 42,
+  "part": 7,
+  "chTitle": "Quantum Computing and Dynamical Systems",
+  "q": "Quantum volume (Cross et al. 2019) is a metric for quantum computer performance defined as V_Q=2^n where n is the largest number of qubits for which the quantum computer can effectively run a random square circuit. The metric captures:",
+  "opts": [
+    "Only gate fidelity",
+    "Only qubit count",
+    "A combined figure of merit: qubit count, gate fidelity, connectivity, and compilation efficiency",
+    "Only circuit depth"
+  ],
+  "ans": 2,
+  "exp": "Quantum volume integrates multiple performance factors: number of qubits n, gate error rates, qubit connectivity (limiting the effective circuit), readout errors, and compiler quality. V_Q=2^n is the largest random n-qubit circuit the device can execute with >2/3 heavy output probability. It captures the 'useful' computational power holistically."
+}

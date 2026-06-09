@@ -1,0 +1,14 @@
+{
+  "ch": 41,
+  "part": 7,
+  "chTitle": "The Collatz Conjecture",
+  "q": "The Collatz function viewed as a dynamical system on ℝ (via continuous interpolation) can be extended to a smooth map. The most natural smooth extension to ℝ satisfying T(n)=n/2 (n even) and T(n)=(3n+1)/2 (n odd) uses the formula:",
+  "opts": [
+    "T(x)=x/2·cos²(πx)+((3x+1)/2)·sin²(πx)",
+    "T(x)=(1/4)(7x+2−(5x+2)cos(πx))",
+    "T(x)=x·(3/2)^{sin²(πx/2)}",
+    "T(x)=x/2+sin²(πx/2)·(x+1/2)"
+  ],
+  "ans": 1,
+  "exp": "The Bernstein-Lagarias smooth extension: T(x)=(1/4)(7x+2−(5x+2)cos(πx)). At even integers 2k: T(2k)=(1/4)(14k+2−(10k+2)·1)=k=n/2. At odd integers 2k+1: T(2k+1)=(1/4)(7(2k+1)+2−(5(2k+1)+2)(−1))=(6k+4)/2=3k+2=(3(2k+1)+1)/2. This gives a real-analytic extension."
+}

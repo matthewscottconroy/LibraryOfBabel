@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "Two subshifts (X, σ) and (Y, σ) are conjugate (topologically isomorphic) if there exists a homeomorphism φ: X → Y such that:",
+  "opts": [
+    "φ commutes with σ (φ ∘ σ = σ ∘ φ)",
+    "φ maps periodic orbits to periodic orbits",
+    "φ is a sliding block code",
+    "φ preserves entropy"
+  ],
+  "ans": 0,
+  "exp": "Conjugacy in symbolic dynamics: a bijective sliding block code φ with σ ∘ φ = φ ∘ σ. By Curtis-Lyndon-Hedlund theorem, every continuous shift-commuting map between subshifts is a sliding block code."
+}

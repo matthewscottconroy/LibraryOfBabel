@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The quantum error correcting code [[n,k,d]] encodes k logical qubits into n physical qubits with distance d. The quantum Singleton bound states:",
+  "opts": [
+    "k ≤ n−d",
+    "k ≤ n−2(d−1)",
+    "k = n/2",
+    "d ≤ n/2"
+  ],
+  "ans": 1,
+  "exp": "Quantum Singleton bound: k ≤ n − 2(d−1) = n − 2d + 2. This is stricter than the classical Singleton bound (k ≤ n−d+1) by a factor of 2, reflecting the need to correct both X and Z errors. Codes achieving equality are quantum MDS codes (e.g., certain stabilizer codes over GF(q²))."
+}

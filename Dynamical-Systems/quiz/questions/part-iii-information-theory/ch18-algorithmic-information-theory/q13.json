@@ -1,0 +1,14 @@
+{
+  "ch": 18,
+  "part": 3,
+  "chTitle": "Algorithmic Information Theory",
+  "q": "The Kolmogorov structure function h_x(α) measures, for a string x of length n, the minimum description length K(S) of a model S ∋ x such that K(x|S) ≤ α (x appears random in S). The graph of h_x is:",
+  "opts": [
+    "Constant",
+    "A non-increasing staircase from K(x) (at α=0) to K({x}) ≈ n (at α=K(x))",
+    "An increasing function",
+    "Linear in α"
+  ],
+  "ans": 1,
+  "exp": "The structure function h_x(α) = min{K(S) : x∈S, log|S| ≤ α} is non-increasing in α: more allowance for randomness within S allows more structured (shorter description) models. The 'meaningful information' of x is the initial steep decrease of h_x before it flattens."
+}

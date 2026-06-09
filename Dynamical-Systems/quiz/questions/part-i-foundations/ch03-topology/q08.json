@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "The fundamental group π₁(X, x₀) is trivial for which of the following spaces?",
+  "opts": [
+    "The circle S¹",
+    "The torus T²",
+    "Euclidean space ℝⁿ",
+    "The figure-eight"
+  ],
+  "ans": 2,
+  "exp": "ℝⁿ is simply connected: every loop is contractible to a point, so π₁(ℝⁿ) = {e}. The circle has π₁ = ℤ, the torus ℤ², and the figure-eight the free group F₂."
+}

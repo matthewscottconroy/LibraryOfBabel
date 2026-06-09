@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "A rational map f is called geometrically finite if every critical point in the Julia set is:",
+  "opts": [
+    "Periodic",
+    "Preperiodic (lands on a cycle after finitely many iterations)",
+    "In the Fatou set",
+    "A fixed point"
+  ],
+  "ans": 1,
+  "exp": "A rational map is geometrically finite iff every critical point in the Julia set is preperiodic (eventually periodic). This class includes all hyperbolic maps (no critical points in J) and sub-hyperbolic maps."
+}

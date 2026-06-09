@@ -1,0 +1,14 @@
+{
+  "ch": 19,
+  "part": 3,
+  "chTitle": "Network Information Theory",
+  "q": "The capacity region of the interference channel (two sender-receiver pairs sharing a channel) is known completely only for:",
+  "opts": [
+    "All interference levels",
+    "The strong interference regime (|a₁₂|² ≥ 1 and |a₂₁|² ≥ 1 in the Gaussian case) where treating interference as noise is optimal",
+    "The weak interference regime",
+    "The Gaussian case generally"
+  ],
+  "ans": 1,
+  "exp": "The interference channel capacity is open in general. For strong interference (each receiver's interference is stronger than its desired signal), the capacity region is known and equals that of a compound multiple access channel. For Gaussian weak interference, the Han-Kobayashi inner bound is not tight in general."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "The Talagrand T₂ inequality states that for a measure μ satisfying the log-Sobolev inequality with constant ρ>0 (i.e., Ent_μ(f²)≤(2/ρ)∫|∇f|²dμ), we have for any probability measure ν:",
+  "opts": [
+    "W₂(μ,ν)≤√(2D_KL(ν||μ)/ρ)",
+    "W₂(μ,ν)²≤2D_KL(ν||μ)/ρ",
+    "W₂²(μ,ν)≤D_KL(ν||μ)",
+    "Both A and B (equivalent forms)"
+  ],
+  "ans": 3,
+  "exp": "Talagrand T₂ inequality: W₂(μ,ν)²≤(2/ρ)D_KL(ν||μ). Otto-Villani proved this follows from the log-Sobolev inequality via the HWI inequality: H(ν||μ)≤W₂(ν,μ)·√(2I(ν||μ))−(ρ/2)W₂²(ν,μ). Both A (W₂≤...) and B (W₂²≤...) are equivalent."
+}

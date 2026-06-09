@@ -1,0 +1,14 @@
+{
+  "ch": 38,
+  "part": 6,
+  "chTitle": "Quantum Information and Complexity",
+  "q": "Random circuit sampling (as implemented in Google's quantum supremacy experiment, 2019) aims to sample from the output distribution of a random quantum circuit. The classical hardness of this task is based on:",
+  "opts": [
+    "Proven lower bounds on circuit depth",
+    "The conjectural hardness of computing output probabilities of random circuits (anticoncentration and average-case hardness of computing amplitudes)",
+    "P ≠ NP",
+    "The no-cloning theorem"
+  ],
+  "ans": 1,
+  "exp": "The hardness of classical simulation of random circuit sampling is not proven but based on: (1) anticoncentration of output probabilities (distributed like Porter-Thomas), (2) average-case hardness of computing amplitudes (related to #P-hardness), and (3) the assumption that worst-case and average-case hardness are equivalent for this problem."
+}

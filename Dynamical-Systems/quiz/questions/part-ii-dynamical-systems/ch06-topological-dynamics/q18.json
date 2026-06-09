@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "The concept of a Toeplitz sequence in topological dynamics: a sequence x ∈ A^ℤ is Toeplitz if for every position n ∈ ℤ, there exists a period p > 0 such that x(n) = x(n+kp) for all k ∈ ℤ (each position is 'periodic', but with different periods). Toeplitz subshifts are:",
+  "opts": [
+    "Always SFTs",
+    "Minimal and almost 1-to-1 extensions of their maximal equicontinuous factor (an odometer)",
+    "Always Bernoulli",
+    "Always of positive entropy"
+  ],
+  "ans": 1,
+  "exp": "Toeplitz subshifts are minimal (the orbit closure of a Toeplitz sequence) and almost 1-to-1 extensions of an odometer (an inverse limit of cyclic groups). They have zero entropy and serve as examples of minimal but non-uniquely ergodic systems (in some cases)."
+}

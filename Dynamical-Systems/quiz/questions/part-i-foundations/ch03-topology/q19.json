@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "The Künneth formula for the homology of a product space X × Y (over a field k) gives:",
+  "opts": [
+    "Hₙ(X×Y;k) = ⊕_{p+q=n} Hₚ(X;k) ⊗ H_q(Y;k)",
+    "Hₙ(X×Y;k) = Hₙ(X;k) ⊕ Hₙ(Y;k)",
+    "H_*(X×Y;k) = H_*(X;k) ∧ H_*(Y;k) (smash product)",
+    "Hₙ(X×Y;k) = Hₙ(X;k) for all n"
+  ],
+  "ans": 0,
+  "exp": "Künneth over a field: Hₙ(X×Y;k) = ⊕_{p+q=n} Hₚ(X;k) ⊗ H_q(Y;k). Over ℤ there is a correction term Tor(H_{p-1}(X), H_q(Y)). Over a field, the graded homology is the tensor product of graded homologies — a clean multiplicative structure."
+}

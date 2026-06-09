@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "Natural proofs (Razborov-Rudich, 1994) are a framework for proving circuit lower bounds. A lower bound proof is 'natural' if it uses a property P of Boolean functions that is:",
+  "opts": [
+    "Random",
+    "Useful (functions outside circuit class C satisfy P), large (P holds for 2^{Ω(n)} functions), and constructive (P is computable in polynomial time)",
+    "Algebraic",
+    "Topological"
+  ],
+  "ans": 1,
+  "exp": "Razborov-Rudich: a natural proof against P/poly would break pseudorandom generators (which exist if OWFs exist). Most known lower bound techniques (switching lemma, random restrictions) are natural, suggesting they cannot prove P ≠ NP. This 'natural proofs barrier' explains why circuit lower bounds are hard."
+}

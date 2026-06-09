@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "The resource theory of coherence in one-shot quantum information identifies free states as:",
+  "opts": [
+    "Maximally entangled states",
+    "Incoherent states (diagonal in the computational basis)",
+    "Pure states",
+    "States with maximum von Neumann entropy"
+  ],
+  "ans": 1,
+  "exp": "In the resource theory of coherence, free (resourceless) states are incoherent states—those diagonal in a fixed reference basis. Coherence is a resource and one-shot measures like robustness of coherence and one-shot coherence distillation/dilution quantify it."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "Weyl's equidistribution theorem states that the sequence {nα} (fractional parts) is equidistributed modulo 1 if and only if:",
+  "opts": [
+    "α is rational",
+    "α is irrational",
+    "α is algebraic",
+    "α > 1"
+  ],
+  "ans": 1,
+  "exp": "Weyl's theorem: {nα} is equidistributed mod 1 (Cesàro averages of f({nα}) converge to ∫₀¹ f) iff α is irrational. This is equivalent to the ergodicity of the irrational rotation T_α: x ↦ x + α (mod 1)."
+}

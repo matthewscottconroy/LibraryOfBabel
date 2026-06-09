@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "The measured equivalence (ME) of groups Γ and Λ (Gromov 1993) means they admit commuting free measure-preserving actions on a standard probability space (Ω,m) as principal torsion-free couplings. Furman proved that property (T) groups have the following ME rigidity:",
+  "opts": [
+    "Property (T) groups are ME-rigid: any ME with a group Λ implies Λ is virtually isomorphic to Γ",
+    "Property (T) prevents any ME",
+    "ME of two property (T) groups implies they are isomorphic",
+    "Property (T) is a ME invariant but not ME rigidity"
+  ],
+  "ans": 0,
+  "exp": "Furman's ME rigidity for property (T) groups: if a property (T) group Γ is ME to Λ, then Λ is virtually isomorphic to Γ. This combines Popa's cocycle superrigidity with structural properties of the ME coupling. ME rigidity is a strong form of group rigidity."
+}

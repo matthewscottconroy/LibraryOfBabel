@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "Markov triples (a,b,c) with a²+b²+c² = 3abc arise in Diophantine approximation. The Markov spectrum relates to the Lagrange spectrum of approximability of reals. Numbers with Markov constant m(α) ≥ √5 are related to:",
+  "opts": [
+    "Normal numbers",
+    "The 'worst-case' badly approximable numbers: those with CF partial quotients all equal to 1 (golden ratio, √5-related)",
+    "Rational numbers",
+    "Periodic points of the doubling map"
+  ],
+  "ans": 1,
+  "exp": "Markov spectrum: isolated points below the Hall ray {m(α) < 3} correspond to Markov numbers. The least well-approximable numbers (largest m(α)) are related to the golden ratio: m((√5-1)/2) = √5. Periodic CF expansions with all 1s (quadratic irrationals related to φ) are hardest to approximate."
+}

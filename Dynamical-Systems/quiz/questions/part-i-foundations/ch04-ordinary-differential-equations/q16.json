@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "The Cauchy-Kovalevskaya theorem guarantees local analytic solutions to PDE initial value problems when the data and coefficients are analytic. Its main limitation is:",
+  "opts": [
+    "It requires the domain to be compact",
+    "It only applies to linear PDEs",
+    "It says nothing about well-posedness in Sobolev spaces (the solution may not be stable in L²)",
+    "It only works in one spatial dimension"
+  ],
+  "ans": 2,
+  "exp": "Cauchy-Kovalevskaya gives local analytic solutions but not stability: small analytic perturbations can lead to wildly different solutions in non-hyperbolic directions (Hadamard's example). Well-posedness in Sobolev spaces requires separate analysis."
+}

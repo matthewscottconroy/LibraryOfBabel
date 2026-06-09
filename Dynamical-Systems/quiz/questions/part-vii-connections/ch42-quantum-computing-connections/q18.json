@@ -1,0 +1,14 @@
+{
+  "ch": 42,
+  "part": 7,
+  "chTitle": "Quantum Computing and Dynamical Systems",
+  "q": "The quantum threshold theorem (Aharonov-Ben-Or, Knill-Laflamme-Zurek) states that fault-tolerant quantum computation is achievable with a constant error rate below the threshold p_{th}. The threshold for the surface code is approximately:",
+  "opts": [
+    "p_{th}≈1%",
+    "p_{th}≈11% (for depolarizing noise)",
+    "p_{th}≈50%",
+    "p_{th}≈0.1% (only for specific error models)"
+  ],
+  "ans": 1,
+  "exp": "The threshold for fault-tolerant quantum computation under the surface code with depolarizing noise is approximately p_{th}≈10.9−11% (Wang-Fowler-Hollenberg 2011, Dennisetal.). This is remarkably high compared to earlier estimates of ~1%. Below this threshold, concatenation/surface code allows reliable QC with constant physical error rate."
+}

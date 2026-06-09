@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "The hypothesis testing relative entropy D_H^ε(ρ||σ) (the one-shot analog of KL divergence) satisfies: in the limit of many i.i.d. copies, (1/n)D_H^ε(ρ^⊗n||σ^⊗n)→",
+  "opts": [
+    "D_KL(ρ||σ) for ε∈(0,1)",
+    "D_KL(ρ||σ)^2 (squared KL divergence)",
+    "The quantum Rényi divergence at α=1",
+    "0 for ε>0"
+  ],
+  "ans": 0,
+  "exp": "The quantum Stein's lemma (Ogawa-Nagaoka 2000): for ε∈(0,1), (1/n)D_H^ε(ρ^⊗n||σ^⊗n)→D_KL(ρ||σ)=tr[ρ(log ρ−log σ)] as n→∞. This is the one-shot-to-asymptotic bridge for quantum hypothesis testing."
+}

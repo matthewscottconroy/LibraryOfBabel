@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "The topological entropy of a continuous map T: X → X (X compact metric) via spanning sets is: h_top(T) = lim_{ε→0} lim sup_{n→∞} (1/n) log s(n,ε), where s(n,ε) is:",
+  "opts": [
+    "The number of periodic orbits of period n",
+    "The minimum number of (n,ε)-spanning orbits",
+    "The minimum number of balls of radius ε needed to cover X",
+    "The number of (n,ε)-separated points"
+  ],
+  "ans": 3,
+  "exp": "Both definitions (spanning and separating sets) give the same entropy. s(n,ε) = maximum number of (n,ε)-separated points (no two within ε in the first n iterates). Equivalently use r(n,ε) = min spanning set; both give h_top via the same limit."
+}

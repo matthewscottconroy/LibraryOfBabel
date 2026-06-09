@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "Ratner's theorems on orbit closures and equidistribution for unipotent flows on homogeneous spaces include the measure classification theorem, which states that every ergodic U-invariant probability measure on Γ\\G (G Lie, Γ lattice, U unipotent) is:",
+  "opts": [
+    "The Haar measure",
+    "An algebraic measure: the U-invariant measure on a closed orbit Γ\\ΓgH for some closed subgroup H ≤ G",
+    "A product measure",
+    "Zero"
+  ],
+  "ans": 1,
+  "exp": "Ratner's measure classification (1991): every ergodic U-invariant (U = unipotent one-parameter subgroup) probability measure μ on Γ\\G is the L-invariant measure on a closed orbit xL for some closed connected subgroup L ≥ U. This is the 'algebraicity' of limits of translates by unipotent flows."
+}

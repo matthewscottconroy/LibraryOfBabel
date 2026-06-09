@@ -1,0 +1,14 @@
+{
+  "ch": 7,
+  "part": 2,
+  "chTitle": "Ergodic Theory",
+  "q": "The ergodic decomposition theorem states that every invariant probability measure μ for a measurable transformation T can be decomposed as:",
+  "opts": [
+    "μ = μ_ergodic uniquely",
+    "μ = ∫ μ_x dμ(x) where μ_x is ergodic for μ-a.e. x",
+    "μ = Σ cₙμₙ for finitely many ergodic measures",
+    "μ is always ergodic for a generic T"
+  ],
+  "ans": 1,
+  "exp": "Ergodic decomposition: the space of invariant measures is a Choquet simplex with extreme points being the ergodic measures. Every invariant measure decomposes as a (possibly uncountable) integral/mixture of ergodic measures, unique for standard Borel systems."
+}

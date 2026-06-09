@@ -1,0 +1,14 @@
+{
+  "ch": 15,
+  "part": 2,
+  "chTitle": "Infinite-Dimensional Dynamics",
+  "q": "A global attractor 𝒜 for a dissipative PDE semigroup is characterized by:",
+  "opts": [
+    "Being a single equilibrium point",
+    "Being compact, invariant (S(t)𝒜=𝒜), and attracting all bounded sets",
+    "Having finite topological entropy",
+    "Being equal to the unstable manifold of the origin"
+  ],
+  "ans": 1,
+  "exp": "A global attractor is the maximal compact invariant set that attracts all bounded sets. Its existence requires dissipativity (energy dissipation) and compactness of the semigroup (a smoothing property). Examples: Navier–Stokes, Kuramoto–Sivashinsky equations."
+}

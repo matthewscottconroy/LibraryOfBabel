@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "Effective descriptive set theory uses computable (recursive) versions of classical concepts. A set A ⊆ ℕ is Σ⁰₁ (recursively enumerable) in classical computability iff it is:",
+  "opts": [
+    "Decidable",
+    "The domain of a partial recursive function (computably enumerable)",
+    "A finite set",
+    "A recursive subset of ℕ"
+  ],
+  "ans": 1,
+  "exp": "A ⊆ ℕ is Σ⁰₁ (computably enumerable, r.e.) iff A = dom(φ_e) for some partial recursive φ_e — the set of inputs on which a Turing machine halts. This is the effective analogue of open sets in the Borel hierarchy; decidable (recursive) = Σ⁰₁ ∩ Π⁰₁ = Δ⁰₁."
+}

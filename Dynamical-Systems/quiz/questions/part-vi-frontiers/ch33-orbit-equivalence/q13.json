@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "Popa's cocycle superrigidity theorem (2007) extends Zimmer's to non-linear targets. It states that for a Bernoulli action Γ ↷ (X^Γ,μ^Γ) of a group Γ with property (T) or a product group, any measurable cocycle α: Γ×X → Λ (target group Λ):",
+  "opts": [
+    "Is always trivial",
+    "Is cohomologous to a group homomorphism Γ → Λ (a 'virtual homomorphism')",
+    "Depends only on the group structure of Λ",
+    "Is bounded"
+  ],
+  "ans": 1,
+  "exp": "Popa's cocycle superrigidity: for Bernoulli actions of groups with property (T), every cocycle into a countable group (or an algebraic group) is cohomologous to a group homomorphism. This implies orbit equivalence implies conjugacy for many groups—a vast strengthening of Zimmer's theorem."
+}

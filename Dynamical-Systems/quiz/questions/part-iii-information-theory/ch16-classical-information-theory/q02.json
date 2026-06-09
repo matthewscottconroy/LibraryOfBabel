@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "The KL divergence (relative entropy) D_KL(P||Q) = ∑P(x)log(P(x)/Q(x)) satisfies:",
+  "opts": [
+    "D_KL(P||Q) = D_KL(Q||P) (it is symmetric)",
+    "D_KL(P||Q) ≥ 0 with equality iff P=Q (Gibbs' inequality)",
+    "D_KL(P||Q) ≤ 1 always",
+    "D_KL(P||Q) = H(P) - H(Q)"
+  ],
+  "ans": 1,
+  "exp": "By Jensen's inequality (log is concave): D_KL(P||Q) = -∑P log(Q/P) ≥ -log∑P(Q/P) = -log 1 = 0. Equality iff Q/P is constant a.e., i.e., P=Q. KL divergence is not symmetric — it is not a metric."
+}

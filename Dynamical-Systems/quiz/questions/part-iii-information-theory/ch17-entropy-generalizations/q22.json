@@ -1,0 +1,14 @@
+{
+  "ch": 17,
+  "part": 3,
+  "chTitle": "Entropy Generalizations",
+  "q": "For a continuous random variable X with density f, the differential entropy h(X)=−∫f log f dx can be negative. The maximum differential entropy under a variance constraint σ² is achieved by X∼N(0,σ²) and equals:",
+  "opts": [
+    "(1/2)log(2πeσ²)",
+    "log(σ√(2π))",
+    "(1/2)log(σ²)",
+    "log(2πeσ²)"
+  ],
+  "ans": 0,
+  "exp": "The Gaussian maximizes differential entropy subject to variance σ²: h(N(0,σ²))=(1/2)log(2πeσ²). This is the maximum possible differential entropy for any distribution with variance ≤σ²."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "Sullivan's No Wandering Domains theorem proves that rational maps have no wandering Fatou components. The main tool was:",
+  "opts": [
+    "Nevanlinna theory",
+    "Quasiconformal mappings and the measurable Riemann mapping theorem",
+    "Fourier analysis",
+    "Algebraic topology"
+  ],
+  "ans": 1,
+  "exp": "Sullivan (1985) used quasiconformal deformation theory: if a wandering domain existed, one could construct an infinite-dimensional family of quasiconformally conjugate maps, contradicting the finite-dimensionality of the space of rational maps."
+}

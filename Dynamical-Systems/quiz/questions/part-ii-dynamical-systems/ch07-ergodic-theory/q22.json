@@ -1,0 +1,14 @@
+{
+  "ch": 7,
+  "part": 2,
+  "chTitle": "Ergodic Theory",
+  "q": "Oseledets' multiplicative ergodic theorem (1968) for a measurable cocycle A: X → GL(d,ℝ) over an ergodic MPT T asserts the existence of a T-invariant measurable splitting ℝ^d = E₁(x) ⊕ ... ⊕ Eₖ(x) and numbers λ₁ > ... > λₖ such that for vectors v ∈ Eᵢ(x):",
+  "opts": [
+    "||A^n(x)v|| → 0 for all i",
+    "(1/n) log ||A^n(x)v|| → λᵢ almost surely",
+    "||A^n(x)v|| = e^{nλᵢ} exactly",
+    "The splitting is constant in x"
+  ],
+  "ans": 1,
+  "exp": "Oseledets MET: for a.e. x, the Lyapunov exponent lim (1/n)log||A^n(x)v|| = λᵢ for all v ∈ Eᵢ(x)\\{0}. This is the ergodic theorem for matrix products. The splitting Eᵢ(x) is measurable, T-equivariant, and the exponents are deterministic constants (Lyapunov exponents)."
+}

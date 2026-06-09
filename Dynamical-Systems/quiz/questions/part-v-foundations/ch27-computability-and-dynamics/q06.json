@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "The halting problem for cellular automata (does a given CA eventually reach an all-zero configuration from a given initial state?) is:",
+  "opts": [
+    "Always decidable",
+    "Undecidable in general (for 2D or sufficiently complex 1D CAs)",
+    "Decidable for 1D CAs",
+    "Decidable if the CA is reversible"
+  ],
+  "ans": 1,
+  "exp": "The quiescence problem for cellular automata is undecidable by reduction from the halting problem of Turing machines, since CAs can simulate TMs. Even simple-looking CAs (like Rule 110) are computationally universal."
+}

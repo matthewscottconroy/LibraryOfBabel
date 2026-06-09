@@ -1,0 +1,14 @@
+{
+  "ch": 36,
+  "part": 6,
+  "chTitle": "The Zimmer Program",
+  "q": "Zimmer's cocycle superrigidity theorem (1980) constrains derivative cocycles of smooth lattice actions. It says measurable cocycles Γ×X→GL(n,ℝ) are:",
+  "opts": [
+    "Always trivial",
+    "Cohomologous to algebraic maps (composition of a group homomorphism Γ→GL(n,ℝ) and a measurable map into a compact group)",
+    "Always smooth",
+    "Determined by the entropy of the action"
+  ],
+  "ans": 1,
+  "exp": "Zimmer's cocycle superrigidity: for higher-rank lattices, measurable cocycles into GL(n,ℝ) are cohomologous to 'algebraic' ones (coming from representations of the ambient Lie group G). This constrains the derivative of any smooth action — the key step toward the Zimmer conjecture."
+}

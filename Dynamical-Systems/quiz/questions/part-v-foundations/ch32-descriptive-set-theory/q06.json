@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "The perfect set property (every uncountable set in the class contains a perfect set) is known to hold for:",
+  "opts": [
+    "All subsets of ℝ (assuming ZFC)",
+    "Analytic sets (Suslin's theorem)",
+    "All projective sets (provable in ZFC)",
+    "Only Borel sets"
+  ],
+  "ans": 1,
+  "exp": "Suslin's theorem (1917): every uncountable analytic set contains a perfect set (hence has cardinality of the continuum). For projective sets beyond Σ¹₁, large cardinal axioms are needed."
+}

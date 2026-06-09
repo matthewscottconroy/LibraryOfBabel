@@ -1,0 +1,14 @@
+{
+  "ch": 1,
+  "part": 1,
+  "chTitle": "Real Analysis",
+  "q": "The closed graph theorem states that a linear map T: X → Y between Banach spaces is bounded (continuous) if and only if:",
+  "opts": [
+    "T is surjective",
+    "T has a closed kernel",
+    "The graph {(x,Tx)} is closed in X×Y",
+    "T is an isometry"
+  ],
+  "ans": 2,
+  "exp": "Closed graph theorem (consequence of the open mapping theorem): if X, Y are Banach spaces and T is linear with closed graph, then T is continuous. This is frequently used to prove that a naturally defined linear operator is bounded."
+}

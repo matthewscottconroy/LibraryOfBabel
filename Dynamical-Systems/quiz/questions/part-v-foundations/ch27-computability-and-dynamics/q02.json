@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "Conway's Game of Life is Turing-complete. This means the halting problem for Life configurations is:",
+  "opts": [
+    "Decidable in polynomial time",
+    "Undecidable (no algorithm can decide for all initial configurations whether a given pattern eventually dies out)",
+    "Decidable because the grid is finite",
+    "Always halting after 2ⁿ steps"
+  ],
+  "ans": 1,
+  "exp": "Since Life simulates Turing machines, the question 'does configuration C eventually become all-zero?' is at least as hard as the halting problem — undecidable. This is a dynamical systems statement: long-run behaviour of a cellular automaton is undecidable."
+}

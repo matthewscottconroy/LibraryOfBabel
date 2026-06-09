@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "The Golden Mean shift is the subshift on {0,1}^ℤ that forbids the word '11'. Its entropy is:",
+  "opts": [
+    "log 2",
+    "log φ where φ = (1+√5)/2 (the golden ratio)",
+    "0",
+    "1"
+  ],
+  "ans": 1,
+  "exp": "The Golden Mean shift has adjacency matrix [[1,1],[1,0]] with Perron eigenvalue φ = (1+√5)/2. Entropy = log φ ≈ 0.481. The number of admissible words of length n grows as φⁿ."
+}

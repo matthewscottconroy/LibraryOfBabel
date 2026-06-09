@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "The entropy compression method (introduced in combinatorics) is an information-theoretic technique for proving existence results. It works by showing:",
+  "opts": [
+    "The entropy of the output is maximized",
+    "If a random process terminates, then the entropy of the algorithm's execution must be bounded—forcing termination",
+    "Greedy algorithms achieve optimal entropy",
+    "Randomized algorithms have lower entropy than deterministic ones"
+  ],
+  "ans": 1,
+  "exp": "Entropy compression: if an algorithm can be 'compressed' (the random transcript can be reconstructed from a smaller encoding), then the information-theoretic bound forces the algorithm to terminate. Used by Moser-Tardos to prove the constructive Lovász Local Lemma."
+}

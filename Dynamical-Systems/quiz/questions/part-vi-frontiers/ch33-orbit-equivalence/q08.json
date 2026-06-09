@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "Gaboriau's l²-Betti numbers are invariants of measure equivalence classes of groups. His theorem (2002) showed:",
+  "opts": [
+    "All groups have the same l²-Betti numbers",
+    "Free groups Fₙ and Fₘ are not measure equivalent for n ≠ m (their l²-Betti numbers differ)",
+    "Amenable groups have non-zero l²-Betti numbers",
+    "l²-Betti numbers are orbit equivalence invariants"
+  ],
+  "ans": 1,
+  "exp": "Gaboriau proved that l²-Betti numbers are measure equivalence invariants. Since βₙ(Fₙ) = n−1, free groups Fₙ and Fₘ are not measure equivalent when n ≠ m, solving a long-standing open problem."
+}

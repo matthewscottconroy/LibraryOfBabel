@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "In the Baire category sense, the generic ergodic MPT (in the weak topology on Aut(X,μ)) is:",
+  "opts": [
+    "A Bernoulli shift",
+    "Weakly mixing but NOT strongly mixing",
+    "A rotation",
+    "A system with positive entropy"
+  ],
+  "ans": 1,
+  "exp": "Halmos–Rokhlin theorem: weakly mixing transformations form a dense Gδ (hence comeager); strongly mixing transformations are meager. Positive entropy systems are also meager. The 'typical' ergodic transformation is weakly mixing with zero entropy — very different from the examples that arise naturally."
+}

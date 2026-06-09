@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "Shannon's channel coding theorem (noisy channel coding theorem) states that for a channel with capacity C, reliable communication is possible at rate R if and only if:",
+  "opts": [
+    "R < C",
+    "R = C",
+    "R ≤ C²",
+    "R > C"
+  ],
+  "ans": 0,
+  "exp": "Capacity theorem: rates R<C are achievable (there exist codes with vanishing error probability), while for R>C, error probability→1 for any code. Capacity C = max_{p(x)} I(X;Y) is the maximum mutual information over all input distributions."
+}

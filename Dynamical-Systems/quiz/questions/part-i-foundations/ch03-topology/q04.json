@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "The fundamental group π₁(S¹, *) of the circle is:",
+  "opts": [
+    "Trivial {e}",
+    "ℤ",
+    "ℤ/2ℤ",
+    "The free group on 2 generators"
+  ],
+  "ans": 1,
+  "exp": "π₁(S¹) ≅ ℤ — loops in S¹ are classified by their winding number, an integer. This is the prototypical example of a non-trivial fundamental group."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "The expander mixing lemma states: for a d-regular graph G with adjacency matrix A having second eigenvalue λ₂≤λ, for any sets S,T⊆V:",
+  "opts": [
+    "|e(S,T)−d|S||T|/n|≤λ√(|S||T|)",
+    "e(S,T)≥d|S||T|/n−λ√(|S||T|)",
+    "Both A and B",
+    "e(S,T)=d|S||T|/n for Ramanujan graphs"
+  ],
+  "ans": 2,
+  "exp": "The expander mixing lemma: |e(S,T)−d|S||T|/n|≤λ√(|S||T|) where e(S,T) is the number of edges between S and T, d is the degree, n=|V|, and λ is the second eigenvalue. This upper-bounds the discrepancy from expected edge count for random graphs."
+}

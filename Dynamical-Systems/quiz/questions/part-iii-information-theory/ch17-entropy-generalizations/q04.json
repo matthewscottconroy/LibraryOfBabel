@@ -1,0 +1,14 @@
+{
+  "ch": 17,
+  "part": 3,
+  "chTitle": "Entropy Generalizations",
+  "q": "For a quantum state ρ_{AB} of a bipartite system, the strong subadditivity of von Neumann entropy states:",
+  "opts": [
+    "S(AB) ≥ S(A) + S(B)",
+    "S(AB) + S(B) ≥ S(A) + S(BC)",
+    "S(AB) = S(A) + S(B|A)",
+    "S(A) ≥ S(AB)"
+  ],
+  "ans": 1,
+  "exp": "Strong subadditivity (Lieb–Ruskai 1973): S(AB) + S(BC) ≥ S(B) + S(ABC), equivalently I(A;C|B)≥0. This is the deepest inequality in quantum information theory; its proof uses the Lieb concavity theorem. All useful properties of quantum entropy follow from it."
+}

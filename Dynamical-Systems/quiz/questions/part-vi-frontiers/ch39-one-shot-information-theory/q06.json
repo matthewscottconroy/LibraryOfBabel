@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "In the one-shot channel coding framework, the one-shot capacity with error ε is characterized by the hypothesis testing mutual information I_h^ε(X;Y). As block length n → ∞:",
+  "opts": [
+    "It diverges",
+    "n⁻¹ · (one-shot capacity for Pⁿ) → I(X;Y) (Shannon capacity)",
+    "It converges to 0",
+    "It equals the Rényi mutual information of order 2"
+  ],
+  "ans": 1,
+  "exp": "The one-shot capacity recovers the Shannon capacity in the i.i.d. limit via the law of large numbers: 1/n times the ε-achievable rate for n channel uses → I(X;Y). Second-order analysis gives the normal approximation with √n dispersion corrections."
+}

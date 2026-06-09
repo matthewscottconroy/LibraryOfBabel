@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "The Hopf invariant of a map f: S³ → S² classifies elements of π₃(S²). The Hopf fibration η: S³ → S² has Hopf invariant:",
+  "opts": [
+    "0",
+    "1",
+    "2",
+    "-1"
+  ],
+  "ans": 1,
+  "exp": "The Hopf fibration η: S³ → S² (fibers are great circles S¹) has Hopf invariant 1, generating π₃(S²) ≅ ℤ. The Hopf invariant-1 problem (Adams, 1960) showed the only maps with Hopf invariant 1 occur in dimensions 1, 2, 4, 8 (related to division algebras)."
+}

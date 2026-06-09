@@ -1,0 +1,14 @@
+{
+  "ch": 36,
+  "part": 6,
+  "chTitle": "The Zimmer Program",
+  "q": "The Zimmer program concerns actions of lattices Γ in higher-rank semisimple Lie groups (e.g., SL(n,ℝ), n ≥ 3) on compact manifolds. The central conjecture is:",
+  "opts": [
+    "Such actions are always trivial",
+    "Such actions are always algebraic—arising from representations of the group",
+    "The smallest manifold admitting a non-trivial action has dimension ≥ n−1",
+    "All such actions preserve a smooth volume form"
+  ],
+  "ans": 2,
+  "exp": "Zimmer's conjecture: lattices in higher-rank groups cannot act smoothly on low-dimensional manifolds. Brown-Fisher-Hurtado proved (2020) that SL(n,ℤ) cannot act on manifolds of dimension < n−1 by volume-preserving diffeomorphisms."
+}

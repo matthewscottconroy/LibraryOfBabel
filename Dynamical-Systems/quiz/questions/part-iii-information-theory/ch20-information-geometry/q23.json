@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "Bregman divergences D_F(p||q)=F(p)−F(q)−⟨∇F(q),p−q⟩ for strictly convex F generalize KL divergence (F=∑p_i log p_i). They satisfy:",
+  "opts": [
+    "D_F(p||q)=D_F(q||p) for all convex F",
+    "The three-point property: D_F(p||q)=D_F(p||r)+D_F(r||q) for projection r",
+    "The generalized Pythagorean theorem: D_F(p||q)+D_F(q||r)=D_F(p||r) when q is the Bregman projection of p onto a Bregman-flat set containing r",
+    "Non-negativity and D_F(p||q)=0 iff p=q"
+  ],
+  "ans": 3,
+  "exp": "Every Bregman divergence D_F satisfies: (1) D_F(p||q)≥0, (2) D_F(p||q)=0 iff p=q (strict convexity of F), (3) Bregman Pythagorean theorem for projections. But D_F is generally asymmetric and does not satisfy the triangle inequality."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 29,
+  "part": 5,
+  "chTitle": "Thermodynamics and Information",
+  "q": "The Gibbs paradox (entropy of mixing) arises when mixing two volumes of the same ideal gas. The correct resolution (via Gibbs) gives ΔS_mixing = 0 for identical gases because:",
+  "opts": [
+    "The entropy formula is wrong",
+    "Identical particles are indistinguishable; the correct Gibbs entropy uses 1/N! in the partition function (counting distinct microstates)",
+    "The gases have zero entropy",
+    "Mixing doesn't occur for identical gases"
+  ],
+  "ans": 1,
+  "exp": "Gibbs resolution: dividing the classical partition function by N! (for identical particles) gives the Sackur-Tetrode equation for the entropy, which correctly gives ΔS_mixing = 0 for identical gases and the correct entropy of mixing for distinguishable gases. This is a precursor to quantum statistics."
+}

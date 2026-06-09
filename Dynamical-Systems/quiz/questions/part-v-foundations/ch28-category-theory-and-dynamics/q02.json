@@ -1,0 +1,14 @@
+{
+  "ch": 28,
+  "part": 5,
+  "chTitle": "Category Theory and Dynamics",
+  "q": "Two minimal topological dynamical systems are orbit-equivalent iff:",
+  "opts": [
+    "They are topologically conjugate",
+    "Their topological entropies are equal",
+    "Their orbit groupoids are isomorphic as étale groupoids",
+    "They have the same number of periodic orbits"
+  ],
+  "ans": 2,
+  "exp": "The orbit groupoid G(X,f) = {(x,n,y): fⁿ(x)=y} captures the orbit structure. Two minimal systems are orbit-equivalent (same orbit structure up to homeomorphism) iff G(X,f) ≅ G(Y,g) as groupoids. This is the Giordano–Putnam–Skau characterisation."
+}

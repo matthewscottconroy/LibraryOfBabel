@@ -1,0 +1,14 @@
+{
+  "ch": 8,
+  "part": 2,
+  "chTitle": "Stability Theory",
+  "q": "Hartman-Grobman theorem states that near a hyperbolic equilibrium x* of ẋ = f(x):",
+  "opts": [
+    "The nonlinear system is globally topologically conjugate to its linearization",
+    "The flow is locally topologically conjugate to the linear flow ẋ = Df(x*)x",
+    "The system has a Lyapunov function equal to the quadratic form from Df",
+    "Stability is determined by the nonlinear terms"
+  ],
+  "ans": 1,
+  "exp": "Hartman-Grobman: near a hyperbolic fixed point (no eigenvalue with zero real part), the nonlinear flow is locally topologically conjugate (homeomorphic) to the linearization—the qualitative picture is the same."
+}

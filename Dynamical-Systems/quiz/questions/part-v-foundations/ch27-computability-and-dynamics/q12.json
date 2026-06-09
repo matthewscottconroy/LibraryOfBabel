@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "The Post correspondence problem (PCP) is undecidable. It asks: given pairs (aᵢ, bᵢ) of strings, does there exist a sequence i₁,…,iₖ such that aᵢ₁…aᵢₖ = bᵢ₁…bᵢₖ? PCP is used to prove undecidability of:",
+  "opts": [
+    "Primality testing",
+    "Ambiguity of context-free grammars, non-emptiness of two-tape TM intersections",
+    "Graph isomorphism",
+    "Sorting"
+  ],
+  "ans": 1,
+  "exp": "PCP is used to prove undecidability of various language-theoretic problems: ambiguity of CFGs, emptiness of the intersection of two CFLs, and many tiling problems. PCP reduces from the halting problem and is a universal undecidability 'relay station'."
+}

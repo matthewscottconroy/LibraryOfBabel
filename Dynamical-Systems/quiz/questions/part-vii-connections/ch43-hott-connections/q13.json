@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "The law of excluded middle (LEM) and axiom of choice (AC) in HoTT: both are consistent with HoTT (they hold in the set-theoretic model) but not provable. LEM for mere propositions states: for any P: Prop, ‖P‖ + ‖¬P‖. In HoTT without LEM:",
+  "opts": [
+    "All propositions are decidable",
+    "There exist propositions P that are neither provably true nor provably false — HoTT is constructive by default",
+    "All types are sets",
+    "AC is equivalent to LEM"
+  ],
+  "ans": 1,
+  "exp": "HoTT is constructive: LEM is not provable from the type-theoretic axioms alone (it is consistent but not derivable). Adding LEM gives a 'classical' version of HoTT. Without LEM, existence proofs must be constructive (providing actual witnesses), and the propositional truncation ‖P‖ separates existence from explicit witnesses."
+}

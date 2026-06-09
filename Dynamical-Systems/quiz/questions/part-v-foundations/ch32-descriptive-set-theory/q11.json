@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "Borel equivalence relations (countable Borel equivalence relations, CBER) are equivalence relations on Polish spaces with Borel graphs. The simplest non-trivial is E₀ (tail equivalence on {0,1}^ℕ). Dye's theorem states:",
+  "opts": [
+    "All CBERs are smooth (Borel reducible to equality)",
+    "E₀ is the unique minimal non-smooth CBER — every non-smooth CBER contains E₀",
+    "CBERs have only finitely many classes",
+    "All CBERs have the same Borel complexity"
+  ],
+  "ans": 1,
+  "exp": "Dye's theorem (in descriptive set theory formulation): E₀ is Borel reducible to every non-smooth CBER. E₀ is not smooth (no Borel assignment of canonical elements to classes), but it is the minimum non-smooth CBER. This begins the rich theory of Borel equivalence relations."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "The three-distance theorem (Steinhaus, Sós) states that the N points {0}, {α}, {2α}, …, {(N-1)α} on [0,1) partition the circle into N arcs of at most:",
+  "opts": [
+    "N distinct lengths",
+    "2 distinct lengths",
+    "3 distinct lengths",
+    "N/2 distinct lengths"
+  ],
+  "ans": 2,
+  "exp": "Three-distance theorem: for any α and N, the N points {kα} (k=0,…,N-1) partition the unit circle into N arcs of exactly 2 or 3 distinct lengths. The three lengths are determined by the continued fraction expansion of α. This is a remarkable uniformity result for irrational rotations."
+}

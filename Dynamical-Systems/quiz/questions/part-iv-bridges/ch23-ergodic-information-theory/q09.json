@@ -1,0 +1,14 @@
+{
+  "ch": 23,
+  "part": 4,
+  "chTitle": "Ergodic Information Theory",
+  "q": "The Kolmogorov-Sinai entropy of a stationary ergodic process {Xₙ} equals the entropy rate H̄ of the process. This connection is stated precisely as:",
+  "opts": [
+    "h_μ(T) = H(X₀) always",
+    "h_μ(T) = H(X₀ | X_{-1}, X_{-2}, …) = lim H(Xₙ|X₁,…,Xₙ₋₁)",
+    "h_μ(T) = H(X₀,X₁)",
+    "h_μ(T) = log(alphabet size)"
+  ],
+  "ans": 1,
+  "exp": "The KS entropy of the stationary measure μ on the shift space equals the entropy rate: h_μ(σ) = H(X₀|X_{-∞}^{-1}) = lim_{n→∞} H(Xₙ|X₁,…,Xₙ₋₁). This unifies Shannon's entropy rate (information theory) with Kolmogorov's measure-theoretic entropy."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 9,
+  "part": 2,
+  "chTitle": "Hyperbolic Dynamics",
+  "q": "The spectral decomposition theorem for Axiom A diffeomorphisms decomposes the non-wandering set Ω into:",
+  "opts": [
+    "A countable collection of fixed points",
+    "Finitely many disjoint T-invariant basic sets, each topologically transitive",
+    "A single transitive invariant set",
+    "The union of all periodic orbits"
+  ],
+  "ans": 1,
+  "exp": "Smale's spectral decomposition: Ω = Ω₁ ∪ … ∪ Ωₖ (finite, disjoint, invariant, locally maximal hyperbolic sets on each of which T is topologically transitive)."
+}

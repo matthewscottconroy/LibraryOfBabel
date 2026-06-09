@@ -1,0 +1,14 @@
+{
+  "ch": 19,
+  "part": 3,
+  "chTitle": "Network Information Theory",
+  "q": "In the broadcast channel (one sender, multiple receivers), the capacity region for a degraded broadcast channel is achieved by:",
+  "opts": [
+    "Time-sharing between users",
+    "Superposition coding (weaker user gets a coarse code, stronger user decodes and cancels)",
+    "Treating interference as noise",
+    "Using a single codebook for all users"
+  ],
+  "ans": 1,
+  "exp": "Superposition coding (Cover 1972): encode message for weaker user at low rate using full power; encode message for stronger user as a refinement. The stronger receiver decodes and cancels the weak-user codeword, then decodes its own. This achieves the degraded broadcast channel capacity region."
+}

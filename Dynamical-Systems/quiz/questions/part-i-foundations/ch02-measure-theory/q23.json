@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "The Daniell integral extends the Lebesgue integral by starting from a lattice of functions and a positive linear functional. Its advantage over the Lebesgue approach is:",
+  "opts": [
+    "It requires fewer axioms",
+    "It allows construction of integrals on spaces without a pre-existing σ-algebra — the σ-algebra is derived from the integral",
+    "It gives a different result than Lebesgue for L¹ functions",
+    "It handles only bounded functions"
+  ],
+  "ans": 1,
+  "exp": "Daniell's approach: start with (X, L, I) where L is a vector lattice of functions and I is a positive linear functional. Extend by monotone convergence. The measure is recovered a posteriori: μ(A) = I(1_A). This is basis for integration on locally compact spaces (Riesz representation) without first specifying a σ-algebra."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "Parity decision trees and their connection to Fourier analysis: the XOR lemma (Yao, Blum-Luby-Rubinfeld) states that for a function f which is hard on average for small circuits:",
+  "opts": [
+    "f^⊕n (the XOR of n copies) is easier",
+    "f^⊕n = f(x₁) ⊕ ... ⊕ f(xₙ) is exponentially harder — hardness amplification",
+    "Hardness is preserved exactly (not amplified)",
+    "The XOR of n copies is always hard for n ≥ 2"
+  ],
+  "ans": 1,
+  "exp": "XOR lemma (direct product / hardness amplification): if f is δ-hard (best circuit succeeds with probability ≤ 1/2 + δ), then f^⊕n (XOR of n copies on separate inputs) is 2^{-Ω(n)}-hard. This amplifies weak hardness to strong hardness. The proof uses the Fourier representation of Boolean functions on the hypercube."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 29,
+  "part": 5,
+  "chTitle": "Thermodynamics and Information",
+  "q": "Fluctuation theorems (Crooks, Jarzynski) are exact equalities valid arbitrarily far from equilibrium. Crooks' fluctuation theorem states that for a protocol and its time-reverse:",
+  "opts": [
+    "P_F(W) = P_R(−W)",
+    "P_F(W)/P_R(−W) = e^{β(W−ΔF)}",
+    "P_F(W) = e^{βW} P_R(W)",
+    "⟨W⟩ = ΔF"
+  ],
+  "ans": 1,
+  "exp": "Crooks FT: P_F(W)/P_R(−W) = e^{β(W−ΔF)}, where P_F is the work distribution in the forward protocol and P_R in the reverse. Integrating both sides over W gives Jarzynski's equality ⟨e^{-βW}⟩ = e^{-βΔF}. Crooks FT is a stronger, more symmetric version."
+}

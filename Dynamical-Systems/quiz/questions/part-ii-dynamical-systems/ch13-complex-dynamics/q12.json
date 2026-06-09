@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "Parabolic fixed points (multiplier λ = e^{2πip/q}) have associated Leau-Fatou petals. The number of attracting petals is:",
+  "opts": [
+    "1",
+    "p",
+    "q",
+    "p+q"
+  ],
+  "ans": 2,
+  "exp": "At a parabolic fixed point with multiplier e^{2πip/q}, the local dynamics has q attracting petals and q repelling petals alternating around the fixed point (Leau-Fatou flower theorem). Orbits in each attracting petal converge to the fixed point along specific directions."
+}

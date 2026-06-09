@@ -1,0 +1,14 @@
+{
+  "ch": 24,
+  "part": 4,
+  "chTitle": "Symbolic Dynamics and Information Theory",
+  "q": "A factor map π: (X,σ) → (Y,σ) between subshifts is analogous to a noisy channel because:",
+  "opts": [
+    "It increases topological entropy",
+    "It may be many-to-one: multiple inputs produce the same output (like noise obscuring the input)",
+    "It always reduces entropy by exactly H(X)-H(Y)",
+    "It is always reversible"
+  ],
+  "ans": 1,
+  "exp": "A factor map is like a noisy channel: the output y=π(x) may not uniquely determine x (it is many-to-one in general). The 'noise' is the hidden information in the fibre π⁻¹(y). Entropy decreases: h_top(Y) ≤ h_top(X), and h_μ(Y) = h_μ(X) - h_μ(X|Y)."
+}

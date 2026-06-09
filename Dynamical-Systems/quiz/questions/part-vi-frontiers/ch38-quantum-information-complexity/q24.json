@@ -1,0 +1,14 @@
+{
+  "ch": 38,
+  "part": 6,
+  "chTitle": "Quantum Information and Complexity",
+  "q": "The complexity class QMA (quantum Merlin-Arthur) is the quantum analog of NP. The local Hamiltonian problem (k-LH: given local terms H_i and threshold a<b, is ground energy ≤a or ≥b?) is QMA-complete when k≥2. This was proved by:",
+  "opts": [
+    "Kitaev (1999) for k=5, then refined to k=2 by Kempe-Kitaev-Regev",
+    "Shor (1994) as a corollary of factoring",
+    "Lloyd-Terhal-Kitaev",
+    "Nielsen-Chuang"
+  ],
+  "ans": 0,
+  "exp": "Kitaev (1999) proved 5-LH is QMA-complete using the circuit-to-Hamiltonian construction (Feynman-Kitaev clock construction). Kempe-Kitaev-Regev (2006) reduced to 3-LH, and Oliveira-Terhal (2005) then Hallgren-Nagaj-Narayanaswami proved 2-LH on a line is QMA-complete."
+}

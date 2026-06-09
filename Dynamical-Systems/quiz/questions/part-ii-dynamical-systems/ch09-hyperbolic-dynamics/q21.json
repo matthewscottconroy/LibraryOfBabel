@@ -1,0 +1,14 @@
+{
+  "ch": 9,
+  "part": 2,
+  "chTitle": "Hyperbolic Dynamics",
+  "q": "Pesin's Lyapunov stable manifold theorem extends stable manifold theory to non-uniformly hyperbolic systems. For a.e. x w.r.t. an ergodic measure with negative Lyapunov exponent λ_s < 0 < λ_u, the stable manifold W^s(x) satisfies:",
+  "opts": [
+    "W^s(x) is a C¹ submanifold tangent to the Oseledets stable space at x, with exponential contraction rate approaching λ_s",
+    "W^s(x) is a linear subspace",
+    "W^s(x) is the entire manifold",
+    "W^s(x) = {x}"
+  ],
+  "ans": 0,
+  "exp": "Pesin's theorem: for a.e. x (w.r.t. ergodic measure with nonzero Lyapunov exponents), W^s(x) is a C¹⁺ᵅ injectively immersed submanifold tangent to the Oseledets stable space E^s(x) and satisfying d(T^nx, T^ny) ≤ C(x) e^{n(λ_s+ε)} d(x,y) for y ∈ W^s(x)."
+}

@@ -1,0 +1,65 @@
+# 7.7 Entropy
+
+## Partitions and Information
+
+Here is where dynamics meets information theory. The Kolmogorov-Sinai entropy is the measure-theoretic isomorphism invariant, and it's defined by asking: how much new information does each application of $f$ generate?
+
+To make this precise, we need a way to "observe" the system coarsely — by specifying which cell of a partition the current state lies in — and then measuring how much information accumulates as we make finer and finer observations over time.
+
+**Definition 7.7.1.** A *measurable partition* $\xi = \{A_1, \ldots, A_k\}$ of $(X, \mu)$ is a finite collection of disjoint measurable sets with $\mu(\bigcup_i A_i) = 1$.
+
+**Definition 7.7.2.** The *information function* of $\xi$ is $I(\xi)(x) = -\log \mu(A_i)$ for $x \in A_i$.
+
+The *entropy* of $\xi$ is $H(\xi) = \int I(\xi)\,d\mu = -\sum_i \mu(A_i) \log \mu(A_i)$ (Shannon entropy of the distribution $(\mu(A_1), \ldots, \mu(A_k))$).
+
+The information function is precisely Shannon's self-information: the less probable the cell you're in, the more information you receive upon being told which cell it is. The entropy $H(\xi)$ averages this over all cells — it's the expected information content of a single observation.
+
+**Definition 7.7.3.** The *join* $\xi \vee \eta$ of two partitions is the finest partition coarser than both: $\{A_i \cap B_j : \mu(A_i \cap B_j) > 0\}$.
+
+**Definition 7.7.4.** The *conditional entropy* of $\xi$ given $\eta$ is $H(\xi | \eta) = H(\xi \vee \eta) - H(\eta)$.
+
+The join $\xi \vee \eta$ is the partition you get by observing both $\xi$ and $\eta$ simultaneously — you know which cell of $\xi$ you're in *and* which cell of $\eta$ you're in. Conditional entropy measures the additional information in $\xi$ given that you already know $\eta$.
+
+---
+
+## The Kolmogorov-Sinai Entropy
+
+Now we use the partition to measure how much information the dynamics generates per iterate.
+
+**Definition 7.7.5.** For an MPT $(X, \mathcal{B}, \mu, f)$ and partition $\xi$, the *entropy of $f$ with respect to $\xi$* is
+$$h(f, \xi) = \lim_{N \to \infty} \frac{1}{N} H\left(\bigvee_{n=0}^{N-1} f^{-n}\xi\right).$$
+
+The limit exists by subadditivity of entropy: $H(\xi \vee f^{-1}\xi \vee \cdots \vee f^{-(N-1)}\xi) \leq N \cdot H(\xi)$.
+
+*Interpretation:* $h(f, \xi)$ measures the average information gained per iterate about which element of $\xi$ the orbit visits.
+
+The partition $\bigvee_{n=0}^{N-1} f^{-n}\xi$ is what you observe by watching which cell of $\xi$ the orbit visits at each time $0, 1, \ldots, N-1$. Its entropy is the total information in $N$ steps of observation. Dividing by $N$ and taking the limit gives the rate at which new information is generated.
+
+**Definition 7.7.6 (Kolmogorov-Sinai Entropy).** The *metric entropy* of $(X, \mathcal{B}, \mu, f)$ is
+$$h_\mu(f) = \sup_\xi h(f, \xi)$$
+where the supremum is over all finite measurable partitions.
+
+The KS entropy is the maximum possible rate of information generation — it's the "richest" observation you can make. Taking the supremum ensures we're capturing the full complexity of the system, not just what one particular observation reveals.
+
+**Theorem 7.7.7 (Sinai's Generator Theorem).** If $\xi$ is a *generating partition* (i.e., $\bigvee_{n=-\infty}^{\infty} f^{-n}\xi = \mathcal{B}$ mod $\mu$), then $h_\mu(f) = h(f, \xi)$.
+
+The generator theorem makes entropy computable: one need not take the supremum over all partitions.
+
+This is the theorem that makes everything practical. A generating partition is one that, when you observe which cell the orbit visits at all times (past and future), you can reconstruct the orbit completely. For such a partition, a single computation gives the entropy — no supremum needed.
+
+---
+
+## Computing Entropy for the Standard Examples
+
+**Theorem 7.7.8 (Entropy of Basic Examples).**
+- Irrational rotation: $h_\mu(R_\alpha) = 0$ (any partition generates entropy $\to 0$)
+- Bernoulli shift $(p_0, \ldots, p_{k-1})$: $h_\mu(\sigma) = -\sum_i p_i \log p_i = H(p)$ (Shannon entropy)
+- Toral automorphism $f_A$: $h_\mu(f_A) = \sum_{\lambda > 1} \log |\lambda|$ (sum of logs of expanding eigenvalues)
+
+**Proof for Bernoulli:** The partition $\xi = \{[0], [1], \ldots, [k-1]\}$ (by the 0-th coordinate) is a generator. The atoms of $\bigvee_{n=0}^{N-1} \sigma^{-n}\xi$ are cylinder sets of length $N$, each with measure $p_{i_0} p_{i_1} \cdots p_{i_{N-1}}$. By independence (product measure): $H(\bigvee_{n<N} \sigma^{-n}\xi) = N \cdot H(\xi) = N \cdot (-\sum p_i \log p_i)$.
+
+The Bernoulli computation is the cleanest application of the generator theorem. Independence of the coordinates means the entropy of $N$ observations is exactly $N$ times the entropy of one observation. The rate is the Shannon entropy of the marginal distribution. This is the precise connection between KS entropy and Shannon entropy.
+
+The entropy of the rotation is zero because the rotation is equicontinuous — no information is generated by iterating an isometry. The entropy of the cat map equals the log of its expanding eigenvalue — the amount of stretching per iterate. This is a special case of Pesin's formula (Chapter 8).
+
+Entropy is a complete invariant for Bernoulli shifts. That's Ornstein's theorem, and it's the subject of the next section.

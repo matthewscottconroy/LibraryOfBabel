@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "Effective descriptive set theory (Moschovakis) studies the lightface Borel and projective hierarchies. The lightface Σ⁰₁ (effectively open) sets in Baire space ℕ^ℕ are precisely:",
+  "opts": [
+    "All open sets",
+    "Recursively open sets (unions of basic open sets along a computable sequence)",
+    "Projections of closed sets",
+    "The sets decidable by a Turing machine"
+  ],
+  "ans": 1,
+  "exp": "Lightface Σ⁰₁ sets in ℕ^ℕ are the effectively open sets: unions ⋃_n N_{σ_n} of basic open (cylinder) sets where the sequence σ_n is computable. These are the domains of partial computable functions, i.e., the sets of convergent computations. The boldface Σ⁰₁ (= all open sets) is the non-effective version."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "The Razborov–Rudich Natural Proofs barrier says that if pseudorandom generators exist in P/poly, then:",
+  "opts": [
+    "P = NP",
+    "No 'natural proof' (constructive, large, useful) can prove superpolynomial lower bounds against P/poly",
+    "Circuit lower bounds are undecidable",
+    "Complexity theory is complete"
+  ],
+  "ans": 1,
+  "exp": "Natural proofs (1994): any proof technique that is constructive (the hardness property is computable), large (many functions have the property), and useful (hard functions satisfy it) would break pseudorandom generators. Since PRGs likely exist, such proofs cannot work — hence the barrier."
+}

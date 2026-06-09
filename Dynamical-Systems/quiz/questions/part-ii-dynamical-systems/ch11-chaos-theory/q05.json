@@ -1,0 +1,14 @@
+{
+  "ch": 11,
+  "part": 2,
+  "chTitle": "Chaos Theory",
+  "q": "Devaney's definition of chaos requires that a continuous map T: X → X be:",
+  "opts": [
+    "Transitive, has dense periodic points, and depends sensitively on initial conditions",
+    "Topologically mixing and has positive topological entropy",
+    "Has positive Lyapunov exponents",
+    "Has a dense orbit and a fixed point"
+  ],
+  "ans": 0,
+  "exp": "Devaney chaos: (1) topological transitivity, (2) dense periodic points, (3) sensitive dependence. Banks et al. showed (3) follows from (1) and (2) for infinite spaces—sensitivity is redundant."
+}

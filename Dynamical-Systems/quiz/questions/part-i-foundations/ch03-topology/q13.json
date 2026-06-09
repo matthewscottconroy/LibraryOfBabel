@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "Čech cohomology H̃ⁿ(X; G) agrees with singular cohomology for 'nice' spaces (CW-complexes). Its main advantage is that:",
+  "opts": [
+    "It is easier to compute",
+    "It is defined for all topological spaces (not just CW-complexes) and is functorial and exact",
+    "It agrees with de Rham cohomology on manifolds",
+    "It is finitely generated always"
+  ],
+  "ans": 1,
+  "exp": "Čech cohomology is defined for any topological space via good covers (or the nerve of covers). It agrees with singular and de Rham cohomology for manifolds/CW-complexes, but extends to more singular spaces where singular cohomology may misbehave."
+}

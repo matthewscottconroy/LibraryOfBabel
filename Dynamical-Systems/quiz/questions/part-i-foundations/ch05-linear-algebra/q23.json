@@ -1,0 +1,14 @@
+{
+  "ch": 5,
+  "part": 1,
+  "chTitle": "Linear Algebra",
+  "q": "For symmetric positive definite A, the conjugate gradient (CG) method for solving Ax = b converges in at most n steps (exactly) and in practice converges faster. The convergence rate is determined by:",
+  "opts": [
+    "The condition number κ(A) = λ_max/λ_min",
+    "The spectral radius of A − I",
+    "The rank of A",
+    "The dimension n"
+  ],
+  "ans": 0,
+  "exp": "CG convergence: the error after k steps satisfies ||e_k||_A ≤ 2((√κ−1)/(√κ+1))^k ||e₀||_A. The rate (√κ−1)/(√κ+1) → 1 as κ → ∞ (slow) and → 0 as κ → 1 (fast). Preconditioning reduces κ, dramatically accelerating convergence."
+}

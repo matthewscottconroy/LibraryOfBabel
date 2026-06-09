@@ -1,0 +1,14 @@
+{
+  "ch": 9,
+  "part": 2,
+  "chTitle": "Hyperbolic Dynamics",
+  "q": "Markov partitions for Anosov diffeomorphisms enable symbolic coding. A Markov partition {R₁,…,Rₖ} of a basic set satisfies the Markov property:",
+  "opts": [
+    "T(Rᵢ) = Rⱼ for some j",
+    "T(int(Rᵢ)) ∩ int(Rⱼ) ≠ ∅ implies T(W^u(Rᵢ)) ⊇ W^u(Rⱼ) and T(W^s(Rᵢ)) ⊆ W^s(Rⱼ)",
+    "The rectangles tile X exactly",
+    "T maps each Rᵢ onto a single Rⱼ"
+  ],
+  "ans": 1,
+  "exp": "Markov property: when T(Rᵢ)∩Rⱼ ≠ ∅, the unstable boundary of Rᵢ maps across Rⱼ (Markov in the u-direction) and the stable boundary maps inside (s-direction). This gives a well-defined symbolic dynamics via the transition matrix Aᵢⱼ = 1[T(Rᵢ)∩Rⱼ ≠ ∅]."
+}

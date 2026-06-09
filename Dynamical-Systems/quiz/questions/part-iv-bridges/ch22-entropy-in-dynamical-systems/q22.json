@@ -1,0 +1,14 @@
+{
+  "ch": 22,
+  "part": 4,
+  "chTitle": "Entropy in Dynamical Systems",
+  "q": "Dimensional theory of dynamical systems connects Lyapunov exponents to dimensions via the Ledrappier-Young formula. For an ergodic hyperbolic measure μ, the Hausdorff dimension of μ satisfies dim_H(μ)=∑ h_i/|λ_i| where:",
+  "opts": [
+    "h_i are partial entropies along the i-th unstable foliation and λ_i are the corresponding Lyapunov exponents",
+    "h_i=h_μ(f)/n for all i",
+    "h_i are the Brin-Katok local entropies",
+    "The formula only holds for conformal maps"
+  ],
+  "ans": 0,
+  "exp": "Ledrappier-Young (1985): dim_H(μ)=∑_i h_i/|λ_i| where h_i are the partial entropies (entropy production per unstable direction, satisfying ∑h_i=h_μ). For conformal maps, h_i=h_μ·|λ_i|/∑|λ_j|, simplifying to Bowen's formula."
+}

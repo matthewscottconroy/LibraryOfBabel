@@ -1,0 +1,14 @@
+{
+  "ch": 23,
+  "part": 4,
+  "chTitle": "Ergodic Information Theory",
+  "q": "The Shannon-McMillan-Breiman (SMB) theorem states that for an ergodic stationary source with entropy rate H, the probability of a typical sequence xⁿ satisfies:",
+  "opts": [
+    "P(xⁿ) → H",
+    "−(1/n) log P(xⁿ) → H almost surely",
+    "P(xⁿ) = 2^{−nH} exactly",
+    "All sequences have equal probability in the limit"
+  ],
+  "ans": 1,
+  "exp": "SMB (Asymptotic Equipartition Property for ergodic sources): −(1/n) log P(X₁…Xₙ) → H(X) a.s. The 'typical set' of ≈ 2^{nH} sequences accounts for nearly all probability."
+}

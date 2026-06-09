@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "The data processing inequality states that for a Markov chain X → Y → Z:",
+  "opts": [
+    "I(X;Z) ≥ I(X;Y)",
+    "I(X;Z) ≤ I(X;Y) (processing data cannot increase mutual information)",
+    "H(Z|Y) ≥ H(Z|X)",
+    "I(Y;Z) = I(X;Z)"
+  ],
+  "ans": 1,
+  "exp": "Data processing inequality: if X → Y → Z is Markov, then I(X;Z) ≤ I(X;Y). Processing (applying a channel to Y) cannot increase the information about X. This fundamental inequality underpins the channel coding theorem and source-channel separation."
+}

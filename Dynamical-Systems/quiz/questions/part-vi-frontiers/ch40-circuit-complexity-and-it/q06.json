@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "The Karchmer-Wigderson theorem relates circuit depth complexity to:",
+  "opts": [
+    "The entropy of the function",
+    "The communication complexity of the Karchmer-Wigderson game for f",
+    "The number of satisfying assignments",
+    "The algebraic degree of f"
+  ],
+  "ans": 1,
+  "exp": "Karchmer-Wigderson: the depth of a Boolean circuit for f equals the communication complexity of the game where Alice has x ∈ f⁻¹(1), Bob has y ∈ f⁻¹(0), and they must find a coordinate i where x_i ≠ y_i. This reduces circuit lower bounds to communication lower bounds."
+}

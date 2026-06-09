@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "The Elias-Bassalygo bound improves on the Singleton bound for large alphabets. For a code over alphabet of size q with minimum distance d, block length n, and M codewords, the MRRW (McEliece-Rodemich-Rumsey-Welch) linear programming bound gives:",
+  "opts": [
+    "The best known asymptotic upper bound on code size via LP duality",
+    "A lower bound matching the Gilbert-Varshamov bound",
+    "An upper bound equivalent to the Hamming bound",
+    "A construction via random cosets"
+  ],
+  "ans": 0,
+  "exp": "The MRRW bound uses linear programming (Delsarte's method/association schemes) to obtain the best known asymptotic upper bounds on code size, outperforming the Plotkin and Hamming bounds for intermediate distances."
+}

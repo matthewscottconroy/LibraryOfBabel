@@ -1,0 +1,14 @@
+{
+  "ch": 42,
+  "part": 7,
+  "chTitle": "Quantum Computing and Dynamical Systems",
+  "q": "The Grover lower bound (Bennett-Bernstein-Brassard-Vazirani 1997) proves that any quantum algorithm requires Ω(√N) queries to find a marked element in an unsorted database of N elements. The proof uses:",
+  "opts": [
+    "Simon's problem reduction",
+    "The polynomial method (degree-2 lower bound)",
+    "The hybrid method: bounding the inner product change between adjacent states",
+    "The quantum adversary method"
+  ],
+  "ans": 2,
+  "exp": "BBBV used the hybrid argument: define |ψ_i^t⟩ as the state after t queries given the marked element is i. Show ‖|ψ_i^t⟩−|ψ_j^t⟩‖ is small until t=Ω(√N) queries, bounding the probability of finding the marked element below a constant."
+}

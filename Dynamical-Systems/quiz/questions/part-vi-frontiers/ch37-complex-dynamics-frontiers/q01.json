@@ -1,0 +1,14 @@
+{
+  "ch": 37,
+  "part": 6,
+  "chTitle": "Frontiers in Complex Dynamics",
+  "q": "If the MLC conjecture (Mandelbrot set is locally connected) were proved, it would imply:",
+  "opts": [
+    "Every Julia set is locally connected",
+    "The Mandelbrot set has a topological model as a quotient of the circle, with every parameter identifiable by its external angles",
+    "The Mandelbrot set has Hausdorff dimension 2",
+    "Every quadratic polynomial is renormalisable"
+  ],
+  "ans": 1,
+  "exp": "MLC implies: the Carathéodory loop (boundary of M parameterised by external angle) gives a continuous surjection S¹→∂M, providing a complete combinatorial description. Every Misiurewicz point and hyperbolic component is identified by its rational external angles."
+}

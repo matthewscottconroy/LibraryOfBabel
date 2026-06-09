@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "Weyl's polynomial equidistribution theorem generalises Weyl's rotation theorem. It states that for a polynomial p(n) = αₖnᵏ + … + α₁n + α₀ with at least one αᵢ (i ≥ 1) irrational, the sequence {p(n)} is:",
+  "opts": [
+    "Dense in [0,1] but not equidistributed",
+    "Equidistributed mod 1",
+    "Eventually periodic",
+    "Computable"
+  ],
+  "ans": 1,
+  "exp": "Weyl's theorem (1916): if any non-constant coefficient αᵢ of p(n) is irrational, then {p(n)} = {p(n) mod 1} is equidistributed in [0,1]. Proved by van der Corput's theorem (reducing to lower-degree polynomials) and Weyl sums |Σ e^{2πi p(n)}| = o(N)."
+}

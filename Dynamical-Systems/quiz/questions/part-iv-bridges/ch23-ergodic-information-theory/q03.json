@@ -1,0 +1,14 @@
+{
+  "ch": 23,
+  "part": 4,
+  "chTitle": "Ergodic Information Theory",
+  "q": "The entropy rate of a stationary process (Xₙ) is defined as h = lim (1/n)H(X₁,...,Xₙ). This limit exists because:",
+  "opts": [
+    "H is always finite",
+    "The sequence (1/n)H(X₁,...,Xₙ) is bounded",
+    "The conditional entropies H(Xₙ|X_{n-1},...,X₁) are non-increasing (subadditivity of entropy)",
+    "By the law of large numbers"
+  ],
+  "ans": 2,
+  "exp": "Subadditivity: H(X₁,...,Xₙ) ≤ ∑H(Xᵢ), so (1/n)H(X₁,...,Xₙ) is bounded. The sequence is also non-increasing: H(Xₙ|X₁,...,Xₙ₋₁) decreases as more conditioning information is added. By Cesàro, the limit equals lim H(Xₙ|X₁,...,Xₙ₋₁)."
+}

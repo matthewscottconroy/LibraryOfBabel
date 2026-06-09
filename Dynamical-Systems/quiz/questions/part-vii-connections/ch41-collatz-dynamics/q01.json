@@ -1,0 +1,14 @@
+{
+  "ch": 41,
+  "part": 7,
+  "chTitle": "The Collatz Conjecture",
+  "q": "The Collatz map C(n) = n/2 (n even) or (3n+1)/2 (n odd), viewed as a map on the 2-adic integers ℤ₂ with Haar measure, is:",
+  "opts": [
+    "Ergodic on ℤ₂",
+    "Not measure-preserving",
+    "A contraction",
+    "A conformal map"
+  ],
+  "ans": 0,
+  "exp": "Terras–Lagarias: the accelerated Collatz map C̃: ℤ₂→ℤ₂ is measure-preserving and ergodic with respect to Haar measure. Ergodicity on ℤ₂ means almost all 2-adic integers have orbits that are equidistributed in ℤ₂ — supporting the conjecture heuristically."
+}

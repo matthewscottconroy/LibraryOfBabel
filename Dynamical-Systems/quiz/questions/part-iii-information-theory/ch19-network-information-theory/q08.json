@@ -1,0 +1,14 @@
+{
+  "ch": 19,
+  "part": 3,
+  "chTitle": "Network Information Theory",
+  "q": "The capacity of a relay channel (source → relay → destination with direct link) under the decode-and-forward strategy is:",
+  "opts": [
+    "min(I(X;Y_R), I(X,X_R;Y))",
+    "I(X;Y) with no relay",
+    "max(I(X;Y_R|X_R), I(X_R;Y))",
+    "I(X;Y) + I(X_R;Y)"
+  ],
+  "ans": 0,
+  "exp": "Decode-and-forward capacity: min(I(X;Y_R), I(X,X_R;Y))—the relay must decode the source message, then the source and relay cooperate. Cover and El Gamal proved this achieves capacity for degraded relay channels."
+}

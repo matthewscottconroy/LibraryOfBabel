@@ -1,0 +1,14 @@
+{
+  "ch": 11,
+  "part": 2,
+  "chTitle": "Chaos Theory",
+  "q": "The Benedicks-Carleson theorem establishes positive-measure parameters for the quadratic family fₐ(x)=1−ax² with strange attractors. The key technical condition on the critical orbit is:",
+  "opts": [
+    "The critical point is periodic",
+    "|fₐⁿ(0)|≥e^{−αn} (slow recurrence) with exponential growth of |Dfₐⁿ(fₐ(0))|",
+    "The entropy exceeds log 2",
+    "The map is conjugate to the full tent map"
+  ],
+  "ans": 1,
+  "exp": "Benedicks-Carleson impose a slow-recurrence condition |fₐⁿ(0)|≥e^{−αn} for small α, plus exponential growth of derivatives along the critical orbit, to construct a positive-measure set of parameters with genuine strange attractors."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "The channel capacity of a discrete memoryless channel P(y|x) is C=max_{p(x)} I(X;Y). For a binary symmetric channel with crossover probability p, the capacity-achieving distribution is:",
+  "opts": [
+    "Uniform on {0,1} giving C=1−H(p)",
+    "Concentrated on 0 giving C=0",
+    "Biased with weight p giving C=H(p)",
+    "Non-unique, any distribution achieves C"
+  ],
+  "ans": 0,
+  "exp": "For the BSC with crossover p, the uniform input distribution maximizes mutual information, giving C=1−H_b(p)=1−(−p log p−(1−p)log(1−p)) bits. By symmetry, the uniform distribution is unique optimal."
+}

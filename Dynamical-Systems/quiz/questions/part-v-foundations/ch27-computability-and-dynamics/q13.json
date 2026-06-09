@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "The class of computable dynamical systems (Julia sets, Newton's method dynamics) and their decidability: for a given polynomial p(z), the problem 'does the Newton iteration starting at z₀ converge to a root?' is:",
+  "opts": [
+    "Always decidable in polynomial time",
+    "Computable for almost all z₀ but undecidable on the Julia set (boundary between basins)",
+    "Always undecidable",
+    "Decidable iff z₀ is rational"
+  ],
+  "ans": 1,
+  "exp": "Newton's method convergence is computable for points away from the Julia set (finite escape time or convergence within a basin). On the Julia set itself, the boundary between basins, convergence is not computable in general—this is a manifestation of the Blum-Shub-Smale (BSS) undecidability."
+}

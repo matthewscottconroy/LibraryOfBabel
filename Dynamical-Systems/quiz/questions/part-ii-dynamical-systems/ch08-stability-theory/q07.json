@@ -1,0 +1,14 @@
+{
+  "ch": 8,
+  "part": 2,
+  "chTitle": "Stability Theory",
+  "q": "Input-to-State Stability (ISS) of a control system ẋ = f(x,u) means:",
+  "opts": [
+    "The system is stable with u = 0",
+    "The state x(t) is bounded by a KL function of x(0) plus a K function of sup|u|",
+    "The system has a quadratic Lyapunov function",
+    "All solutions converge to zero for any bounded input"
+  ],
+  "ans": 1,
+  "exp": "ISS: the state satisfies |x(t)| ≤ β(|x(0)|, t) + γ(||u||∞) with β a KL function and γ a class K function. This captures both stability (β → 0) and robustness to bounded disturbances."
+}

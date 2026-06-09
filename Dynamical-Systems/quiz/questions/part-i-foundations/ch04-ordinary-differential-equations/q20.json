@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "The method of characteristics for a first-order PDE uₜ + c(x,t)uₓ = 0 gives the solution along characteristic curves x = x(t) defined by dx/dt = c(x,t). The solution satisfies:",
+  "opts": [
+    "u is constant along characteristics: du/dt = 0",
+    "u increases linearly along characteristics",
+    "u(x(t),t) = u(x(0),0) for each characteristic",
+    "Characteristics are always straight lines"
+  ],
+  "ans": 2,
+  "exp": "Along the characteristic curve x(t) (with dx/dt = c): du/dt = uₜ + ẋuₓ = uₜ + c·uₓ = 0. So u is constant along each characteristic: u(x(t),t) = u(x₀,0). This reduces the PDE to a family of ODEs. Characteristics may cross (causing shocks) when c depends on u."
+}

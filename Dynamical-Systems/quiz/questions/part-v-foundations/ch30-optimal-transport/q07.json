@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "The HWI inequality in optimal transport connects entropy H, Wasserstein distance W, and Fisher information I via:",
+  "opts": [
+    "H(ν) ≤ H(μ) + W₂(μ,ν)",
+    "H(ν|γ) ≤ W₂(μ,ν) · √I(μ|γ) − W₂(μ,ν)²/2 (where γ is a reference measure)",
+    "I(μ|γ) = W₂(μ,γ)²",
+    "H = W · I always"
+  ],
+  "ans": 1,
+  "exp": "The HWI inequality interpolates between the log-Sobolev inequality and the Talagrand inequality. It states H(ν|γ) ≤ W₂(ν,γ)√I(ν|γ) − W₂²/2 under appropriate curvature conditions (positive Ricci curvature)."
+}

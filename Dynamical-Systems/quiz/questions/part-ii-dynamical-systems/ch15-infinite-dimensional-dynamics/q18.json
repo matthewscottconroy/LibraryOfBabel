@@ -1,0 +1,14 @@
+{
+  "ch": 15,
+  "part": 2,
+  "chTitle": "Infinite-Dimensional Dynamics",
+  "q": "For the 2D Navier-Stokes equations on a bounded domain with forcing, Foias-Prodi proved that the long-time dynamics are determined by finitely many Fourier modes (determining modes). The number of determining modes N satisfies:",
+  "opts": [
+    "N∼(L/l_d)^{4/3} where l_d is the Kolmogorov dissipation scale",
+    "N∼Re",
+    "N∼Re^{1/2}",
+    "N∼(L/l_d)^2"
+  ],
+  "ans": 0,
+  "exp": "The classical estimate for determining modes of 2D Navier-Stokes is N∼(L/l_d)^{4/3} where l_d=(ν³/ε)^{1/4} is the Kolmogorov scale. This matches the estimate for the dimension of the global attractor."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 9,
+  "part": 2,
+  "chTitle": "Hyperbolic Dynamics",
+  "q": "The Bowen-Manning formula expresses the Hausdorff dimension of the basic set Λ of a conformal Anosov diffeomorphism in terms of the pressure function P(·). Specifically:",
+  "opts": [
+    "dim_H(Λ) = dim(W^s) + dim(W^u)",
+    "dim_H(Λ) = t_s + t_u where P(−t_s φ^s) = 0 and P(−t_u φ^u) = 0 (t_s and t_u are solutions to Bowen equations)",
+    "dim_H(Λ) = topological entropy / Lyapunov exponent",
+    "dim_H(Λ) = n (the ambient dimension)"
+  ],
+  "ans": 1,
+  "exp": "For conformal Anosov maps, dim_H(Λ) = t_s + t_u where t_s (resp. t_u) solves the Bowen equation P(−t_s log|DT|_{E^s}|) = 0 (P = topological pressure). The formula decouples into stable and unstable contributions in the conformal case."
+}

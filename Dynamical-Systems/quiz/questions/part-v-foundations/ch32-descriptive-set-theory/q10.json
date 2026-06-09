@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "The Luzin-Suslin theorem characterises Borel subsets among analytic sets. It states that an analytic subset A of a Polish space is Borel if and only if:",
+  "opts": [
+    "A is closed",
+    "The complement X\\A is also analytic (A is both Σ¹₁ and Π¹₁ — bianalytic)",
+    "A is compact",
+    "A is countable"
+  ],
+  "ans": 1,
+  "exp": "Luzin-Suslin (or Suslin's theorem): a subset of a Polish space is Borel iff it is both analytic (Σ¹₁) and co-analytic (Π¹₁). If A is analytic and its complement is also analytic, then A is Borel. This is a non-trivial separation theorem—there exist analytic sets that are not Borel."
+}

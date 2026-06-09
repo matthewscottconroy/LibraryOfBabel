@@ -1,0 +1,14 @@
+{
+  "ch": 7,
+  "part": 2,
+  "chTitle": "Ergodic Theory",
+  "q": "The concept of mixing (strong mixing) for a measure-preserving system means:",
+  "opts": [
+    "Time averages equal space averages",
+    "μ(T⁻ⁿA ∩ B) → μ(A)μ(B) for all measurable A, B",
+    "The system has positive entropy",
+    "Every orbit is dense"
+  ],
+  "ans": 1,
+  "exp": "Strong mixing: sets become asymptotically independent under iteration. This is strictly stronger than ergodicity (which only requires Cesàro convergence of μ(T⁻ⁿA ∩ B))."
+}

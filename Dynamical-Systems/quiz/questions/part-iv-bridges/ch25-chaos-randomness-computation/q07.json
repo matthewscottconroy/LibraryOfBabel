@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "The notion of computational universality in cellular automata (e.g., Rule 110) relates to dynamical systems because:",
+  "opts": [
+    "All cellular automata are universal",
+    "A CA that can simulate any Turing machine must exhibit complex dynamics (not periodic or eventually periodic)",
+    "Universal CAs are always chaotic in the topological sense",
+    "Universal CAs have zero entropy"
+  ],
+  "ans": 1,
+  "exp": "Computational universality implies undecidability of the halting problem for configurations, which requires complex (non-periodic, non-quiescent) orbits. Rule 110's universality (proven by Cook) makes many properties of its dynamics undecidable."
+}

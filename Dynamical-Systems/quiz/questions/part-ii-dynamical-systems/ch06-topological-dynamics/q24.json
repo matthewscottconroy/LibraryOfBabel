@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "The Jewett-Krieger-Weiss theorem refines Jewett-Krieger: every aperiodic ergodic measure-preserving system is measurably isomorphic to a strictly ergodic (uniquely ergodic minimal) topological system. Moreover, the topological system can be chosen to be:",
+  "opts": [
+    "A subshift of finite type",
+    "A subshift (closed shift-invariant subset of A^ℤ for a finite alphabet A)",
+    "A rotation on a compact group",
+    "A minimal homeomorphism of the Cantor set only"
+  ],
+  "ans": 1,
+  "exp": "Weiss's theorem: every aperiodic ergodic MPT is isomorphic to a strictly ergodic subshift. The topological model is a subshift on a finite alphabet, with the unique invariant measure being the given measure. This gives measure-theoretic ergodic theory a natural symbolic topological model."
+}

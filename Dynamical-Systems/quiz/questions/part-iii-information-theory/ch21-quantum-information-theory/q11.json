@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The stabilizer formalism for quantum error correction uses an Abelian group S ⊂ Pauli group P_n. The code space is the +1 eigenspace of all elements of S. The code encodes k qubits into n qubits if |S| =",
+  "opts": [
+    "2^k",
+    "2^{n−k}",
+    "2^n",
+    "k"
+  ],
+  "ans": 1,
+  "exp": "|S| = 2^{n-k}: S has n-k generators (independent Pauli operators), giving 2^k-dimensional code space (the +1 eigenspace of all 2^{n-k} generators). The code distance is the minimum weight of a Pauli in the normalizer N(S) not in S."
+}

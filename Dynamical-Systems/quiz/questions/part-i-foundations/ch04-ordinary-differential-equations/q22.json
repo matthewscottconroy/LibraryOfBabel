@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "The Hamiltonian formulation of classical mechanics uses the Legendre transform to pass from Lagrangian L(q,q̇,t) to Hamiltonian H(q,p,t). The canonical equations are:",
+  "opts": [
+    "q̇ = ∂H/∂q, ṗ = −∂H/∂p",
+    "q̇ = ∂H/∂p, ṗ = −∂H/∂q",
+    "q̈ = −∂H/∂q",
+    "q̇ = p, ṗ = −∂H/∂q"
+  ],
+  "ans": 1,
+  "exp": "Hamilton's equations: q̇ = ∂H/∂p (velocity from momentum), ṗ = −∂H/∂q (force = negative gradient of H). These are first-order equations on phase space (q,p) ∈ T*M. They preserve the symplectic form dq∧dp and (when H has no explicit t-dependence) the total energy H."
+}

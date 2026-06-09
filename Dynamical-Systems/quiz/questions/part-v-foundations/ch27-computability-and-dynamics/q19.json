@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "The Mandelbrot set M is computable as a subset of ℂ in the sense of Type-2 computability (Weihrauch), meaning:",
+  "opts": [
+    "M is decidable (membership is computable)",
+    "Given c∉M, we can computably approximate the boundary ∂M; membership in M is co-semi-decidable",
+    "M is computably enumerable but not decidable",
+    "M is not computable in any sense"
+  ],
+  "ans": 1,
+  "exp": "Hertling (2005), Braverman-Yampolsky (2009): M is computable as a compact set (its complement is computably open). However, membership in M is not decidable (the boundary ∂M contains non-computable points). The set M is 'computable' in the sense that it can be approximated to any precision."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "The Melnikov function for a periodically forced planar system ẋ = f(x) + εg(x,t) measures the distance between stable and unstable manifolds. When M(t₀) has a simple zero:",
+  "opts": [
+    "The system has a periodic orbit",
+    "The manifolds intersect transversally, implying chaotic dynamics by Smale-Birkhoff",
+    "The equilibrium is stable",
+    "The perturbation is conservative"
+  ],
+  "ans": 1,
+  "exp": "A simple zero of the Melnikov function implies transverse homoclinic intersection of stable and unstable manifolds. By Smale-Birkhoff, transverse homoclinic points imply a horseshoe, hence topological chaos (positive entropy, sensitive dependence)."
+}

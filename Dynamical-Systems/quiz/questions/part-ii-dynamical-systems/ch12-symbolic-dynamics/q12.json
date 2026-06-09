@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "Sturmian sequences are the aperiodic sequences with minimal complexity p(n) = n+1. They are in bijection with:",
+  "opts": [
+    "Periodic orbits of the shift",
+    "Irrational rotations: the orbit of 0 under T_α(x)=x+α (mod 1) coded by the partition [0,α)∪[α,1)",
+    "Bernoulli sequences",
+    "SFTs of minimal entropy"
+  ],
+  "ans": 1,
+  "exp": "Every Sturmian sequence arises as a coding of an irrational rotation by a two-interval partition. The rotation number α ∈ (0,1)\\ℚ parameterises the Sturmian sequence. Sturmian sequences have zero entropy and appear in combinatorics on words and quasicrystal theory."
+}

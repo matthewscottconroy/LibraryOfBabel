@@ -1,0 +1,14 @@
+{
+  "ch": 15,
+  "part": 2,
+  "chTitle": "Infinite-Dimensional Dynamics",
+  "q": "A global attractor for a dissipative PDE is characterized by being:",
+  "opts": [
+    "A periodic orbit",
+    "The compact invariant set that attracts all bounded sets",
+    "An equilibrium solution",
+    "The set of all stationary solutions"
+  ],
+  "ans": 1,
+  "exp": "The global attractor is the unique compact, invariant, maximal attracting set. Its finite Hausdorff (and fractal) dimension reflects effective finite-dimensional reduction of the infinite-dimensional dynamics."
+}

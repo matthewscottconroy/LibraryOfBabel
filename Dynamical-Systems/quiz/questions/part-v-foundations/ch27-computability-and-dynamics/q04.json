@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "A real number x ∈ [0,1] is computable if:",
+  "opts": [
+    "x is rational",
+    "There is a Turing machine that, given n, outputs a rational q with |x-q| < 2^{-n}",
+    "x can be written as a finite decimal",
+    "x is algebraic (satisfies a polynomial equation with integer coefficients)"
+  ],
+  "ans": 1,
+  "exp": "Computable reals: a Turing machine approximates x to arbitrary precision. Most reals are not computable (countably many computable reals, uncountably many reals). Computable ≠ algebraic: π and e are computable but transcendental; Chaitin's Ω is neither algebraic nor computable."
+}

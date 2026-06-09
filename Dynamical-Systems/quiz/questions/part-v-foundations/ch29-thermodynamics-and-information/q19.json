@@ -1,0 +1,14 @@
+{
+  "ch": 29,
+  "part": 5,
+  "chTitle": "Thermodynamics and Information",
+  "q": "Maxwell's demon thought experiment proposes to violate the second law using information. The resolution (Szilard, Bennett, Landauer) is that the demon must erase its memory, which:",
+  "opts": [
+    "Is free (memory erasure costs nothing)",
+    "Costs at least k_B T ln 2 per bit erased (Landauer's principle)",
+    "Increases entropy by less than the demon gains",
+    "Is impossible for a finite-memory demon"
+  ],
+  "ans": 1,
+  "exp": "Landauer's principle resolves the demon paradox: the demon's memory grows as it measures molecules. When the demon resets its memory (required to close the cycle), erasing 1 bit dissipates ≥k_B T ln 2, exactly compensating the entropy reduction from sorting."
+}

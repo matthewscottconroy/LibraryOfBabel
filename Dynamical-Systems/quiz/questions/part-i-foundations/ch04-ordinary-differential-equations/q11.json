@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "The method of variation of parameters solves the inhomogeneous system ẋ = A(t)x + g(t) by seeking a solution of the form x(t) = Φ(t)c(t), where Φ is the fundamental matrix. The result is:",
+  "opts": [
+    "x(t) = Φ(t)x₀",
+    "x(t) = Φ(t)x₀ + Φ(t)∫₀ᵗ Φ⁻¹(s)g(s)ds",
+    "x(t) = ∫₀ᵗ Φ(t-s)g(s)ds",
+    "x(t) = e^{At}x₀ + g(t)"
+  ],
+  "ans": 1,
+  "exp": "Variation of parameters: differentiating x = Φc and substituting gives Φċ = g, so c(t) = x₀ + ∫₀ᵗ Φ⁻¹(s)g(s)ds. This gives the variation of constants formula—exact solution for any continuous g."
+}

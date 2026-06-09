@@ -1,0 +1,14 @@
+{
+  "ch": 23,
+  "part": 4,
+  "chTitle": "Ergodic Information Theory",
+  "q": "Shannon-McMillan-Breiman theorem: for an ergodic stationary process {X_n} with entropy rate h, (−1/n)log P(X_1,...,X_n)→h almost surely. This is the AEP (asymptotic equipartition property). The theorem implies that the size of the typical set T_n^ε satisfies:",
+  "opts": [
+    "|T_n^ε|≈2^{nh}",
+    "2^{n(h−ε)}≤|T_n^ε|≤2^{n(h+ε)} and P(T_n^ε)→1",
+    "2^{n(h−ε)}≤|T_n^ε|≤2^{n(h+ε)} and P(T_n^ε)→0",
+    "Both A and B"
+  ],
+  "ans": 1,
+  "exp": "The AEP: the typical set T_n^ε satisfies (1) P(T_n^ε)→1, (2) |T_n^ε|≤2^{n(h+ε)}, (3) |T_n^ε|≥(1−ε)2^{n(h−ε)} for large n. Both exponential bounds hold simultaneously with high probability."
+}

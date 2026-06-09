@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "The Bowen-Franks group of an SFT with transition matrix A is the cokernel of (I−A) over ℤ, i.e., BF(A)=ℤⁿ/(I−A)ℤⁿ. This group is an invariant of:",
+  "opts": [
+    "Topological conjugacy",
+    "Measure-theoretic isomorphism",
+    "Topological entropy",
+    "Flow equivalence"
+  ],
+  "ans": 0,
+  "exp": "The Bowen-Franks group (and its ordered version, the dimension group) is a complete invariant for strong shift equivalence of irreducible SFTs up to a shift, hence an invariant of topological conjugacy."
+}

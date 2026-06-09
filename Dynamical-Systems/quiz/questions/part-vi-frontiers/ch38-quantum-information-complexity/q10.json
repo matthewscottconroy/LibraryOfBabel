@@ -1,0 +1,14 @@
+{
+  "ch": 38,
+  "part": 6,
+  "chTitle": "Quantum Information and Complexity",
+  "q": "The complexity class MIP* (multiprover interactive proofs with entangled provers) was shown by Ji-Natarajan-Vidick-Wright-Yuen (2020, MIP*=RE) to satisfy:",
+  "opts": [
+    "MIP* = PSPACE",
+    "MIP* = RE (recursively enumerable) — the class of all computably enumerable languages",
+    "MIP* = NP",
+    "MIP* ⊆ EXPTIME"
+  ],
+  "ans": 1,
+  "exp": "MIP*=RE (JNVWY, 2020): the power of multiprover interactive proofs with quantum-entangled provers is exactly RE — all computably enumerable problems! This refuted Tsirelson's conjecture (C*-algebra), resolved Connes' embedding conjecture (negatively), and showed quantum entanglement between provers is enormously powerful."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "A topological dynamical system (X,f) is minimal if:",
+  "opts": [
+    "f has a dense set of periodic points",
+    "Every orbit is dense in X",
+    "X is a single fixed point",
+    "f is an isometry"
+  ],
+  "ans": 1,
+  "exp": "Minimality means every orbit is dense — there is no proper closed invariant subset. Irrational rotations of the circle are the prototypical example. Minimality implies topological transitivity but not vice versa."
+}

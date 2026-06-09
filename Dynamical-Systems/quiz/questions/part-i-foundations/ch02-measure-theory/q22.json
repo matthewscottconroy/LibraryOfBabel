@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "The Nikodym boundedness theorem states that if {μₙ} is a sequence of signed measures on (X,Σ) that is pointwise bounded (supₙ |μₙ(A)| < ∞ for each A ∈ Σ), then the sequence is uniformly bounded:",
+  "opts": [
+    "sup_{n,A} |μₙ(A)| < ∞",
+    "sup_A |μₙ(A)| → 0",
+    "Each μₙ is absolutely continuous",
+    "The sequence converges weakly"
+  ],
+  "ans": 0,
+  "exp": "Nikodym's theorem (an instance of the uniform boundedness principle for measures): pointwise boundedness implies uniform boundedness: sup_{n,A} |μₙ(A)| < ∞. This is the 'Banach-Steinhaus theorem for measures' and is used in the theory of weak convergence of measures."
+}

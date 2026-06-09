@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "The three-distance theorem (Steinhaus, proved by Sós) states that for any α∈[0,1]\\ℚ and n≥1, the n points {α},{2α},...,{nα} divide the circle into n+1 arcs of at most how many distinct lengths?",
+  "opts": [
+    "2",
+    "3",
+    "n",
+    "log n"
+  ],
+  "ans": 1,
+  "exp": "The three-distance theorem: the n points {kα} (k=1,...,n) partition the circle into n+1 arcs of exactly 2 or 3 distinct lengths (3 unless n is a denominator of a convergent of α, when there are only 2). This is a fundamental property of irrational rotations."
+}

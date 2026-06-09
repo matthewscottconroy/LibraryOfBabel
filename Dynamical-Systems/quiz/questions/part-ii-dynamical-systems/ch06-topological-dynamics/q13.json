@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "The Furstenberg structure theorem for distal systems states that every minimal distal system is:",
+  "opts": [
+    "An isometric extension of a point",
+    "A transfinite tower of isometric extensions (each stage is an isometric extension of the previous)",
+    "A group rotation",
+    "A Bernoulli system"
+  ],
+  "ans": 1,
+  "exp": "Furstenberg (1963): every minimal distal flow is built as a (possibly transfinite) tower of isometric extensions, starting from a point. Each isometric extension adds a compact group fiber with isometric action. This completely characterises distal systems."
+}

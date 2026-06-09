@@ -1,0 +1,14 @@
+{
+  "ch": 17,
+  "part": 3,
+  "chTitle": "Entropy Generalizations",
+  "q": "The quantum Rényi entropy of order α for a density matrix ρ is defined as S_α(ρ) = (1/(1−α)) log tr(ρ^α). As α → 1, this converges to:",
+  "opts": [
+    "0",
+    "The von Neumann entropy S(ρ) = −tr(ρ log ρ)",
+    "log(rank ρ)",
+    "tr(ρ²)"
+  ],
+  "ans": 1,
+  "exp": "By L'Hôpital applied to tr(ρ^α)/(1−α): lim_{α→1} S_α(ρ) = −tr(ρ log ρ) = S(ρ). The quantum Rényi entropies form a family parameterised by α, with S₁ = von Neumann entropy as the special case."
+}

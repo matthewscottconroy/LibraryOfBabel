@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "A quantum channel has zero quantum capacity Q(ε)=0 when:",
+  "opts": [
+    "It is a unitary channel",
+    "It is anti-degradable (the complement channel is 'better' than the channel itself)",
+    "It has zero classical capacity",
+    "The coherent information is positive"
+  ],
+  "ans": 1,
+  "exp": "Anti-degradable channels have Q=0 because the environment (complementary channel) can simulate any output Bob could get. Examples: the quantum erasure channel with ε>1/2, amplitude damping with η<1/2. Unitary channels have Q=1 (maximum)."
+}

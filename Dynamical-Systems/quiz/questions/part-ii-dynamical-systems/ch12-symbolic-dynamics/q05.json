@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "A subshift of finite type (SFT) is defined by forbidding a finite list of words. Its topological entropy equals:",
+  "opts": [
+    "Zero always",
+    "The growth rate of the number of admissible words: log of the spectral radius of the adjacency matrix",
+    "The logarithm of the alphabet size",
+    "Infinity if the shift has fixed points"
+  ],
+  "ans": 1,
+  "exp": "For an SFT defined by a vertex or edge shift with adjacency matrix A, the topological entropy is log ρ(A), where ρ(A) is the spectral radius (Perron eigenvalue of A)."
+}

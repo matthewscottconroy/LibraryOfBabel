@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "The ε-net theorem (from combinatorics/learning theory) states that for a set system (X,𝒮) with VC dimension d, a random sample of size O((d log(1/ε))/ε) is an ε-net with probability ≥ 3/4. This is related to information theory by:",
+  "opts": [
+    "VC dimension equals entropy",
+    "Sample complexity bounds use entropy of the hypothesis class: log|𝒮_n| ≤ O(d log n) (Sauer-Shelah)",
+    "ε-nets achieve Shannon capacity",
+    "VC dimension equals KL divergence"
+  ],
+  "ans": 1,
+  "exp": "Sauer-Shelah lemma: |𝒮_n| ≤ O(n^d) for VC dimension d. The entropy of the hypothesis class over n points is O(d log n) bits, directly controlling the sample complexity via uniform convergence bounds. The log factor in ε-nets comes from the entropy of the class."
+}

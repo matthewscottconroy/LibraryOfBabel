@@ -1,0 +1,14 @@
+{
+  "ch": 29,
+  "part": 5,
+  "chTitle": "Thermodynamics and Information",
+  "q": "Stochastic thermodynamics extends classical thermodynamics to mesoscopic systems. The stochastic entropy production along a trajectory x(t) from 0 to τ is σ=log[P(x(t))/P̃(x̃(t))] where P̃ is the probability of the time-reversed trajectory. The integral fluctuation theorem gives:",
+  "opts": [
+    "⟨e^{-σ}⟩=1",
+    "⟨σ⟩=0",
+    "σ≥0 always",
+    "⟨σ²⟩=⟨σ⟩"
+  ],
+  "ans": 0,
+  "exp": "The integral fluctuation theorem (Crooks-Evans-Cohen): ⟨e^{-σ}⟩=1 exactly, valid for all driving protocols and all trajectory lengths. By Jensen: ⟨σ⟩≥0 recovers the second law. The IFT is exact even far from equilibrium."
+}

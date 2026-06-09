@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "In HoTT, the fundamental groupoid of a type X has as objects the terms of X and as morphisms:",
+  "opts": [
+    "Functions X → X",
+    "The identity proofs (paths) p: x = y for x, y : X",
+    "The propositional truncations",
+    "The higher inductive constructors"
+  ],
+  "ans": 1,
+  "exp": "In HoTT, the type x =_X y of identity proofs behaves as a path space. The collection of all terms and all identity proofs forms the fundamental groupoid of X, and higher identities between paths give the ∞-groupoid structure (the homotopy type of X)."
+}

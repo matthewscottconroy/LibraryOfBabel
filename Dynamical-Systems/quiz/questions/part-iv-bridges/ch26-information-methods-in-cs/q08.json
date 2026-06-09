@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "The Chernoff bound provides exponential concentration for sums of independent random variables. For a sum S = X₁+…+Xₙ with E[S] = μ, it states P(S ≥ (1+δ)μ) ≤:",
+  "opts": [
+    "1/(δ²n)",
+    "e^{−μδ²/3} for δ ∈ (0,1)",
+    "e^{−μδ}",
+    "1/√n"
+  ],
+  "ans": 1,
+  "exp": "The Chernoff bound: P(S ≥ (1+δ)μ) ≤ (e^δ/(1+δ)^{1+δ})^μ ≤ e^{−μδ²/3} for δ ∈ (0,1). This exponential decay (vs. polynomial for Chebyshev) makes Chernoff bounds much tighter for algorithms analysis."
+}

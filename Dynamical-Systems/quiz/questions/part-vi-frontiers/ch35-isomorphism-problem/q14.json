@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "Goodman's theorem extends the variational principle by showing that for expansive homeomorphisms T of compact metric spaces:",
+  "opts": [
+    "h_top(T) = sup_μ h_μ(T) with the supremum achieved",
+    "h_top(T) = max_μ h_μ(T) — the supremum is always achieved (maximum entropy measures exist)",
+    "h_top(T) > sup_μ h_μ(T)",
+    "h_top(T) = h_μ(T) for every ergodic μ"
+  ],
+  "ans": 1,
+  "exp": "Goodman: for expansive homeomorphisms, the variational principle gives a maximum (not just supremum). The maximum entropy measure exists for expansive systems. This includes SFTs (where the Parry measure achieves the maximum) and Axiom A attractors."
+}

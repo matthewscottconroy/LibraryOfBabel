@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "The natural proofs barrier (Razborov-Rudich 1994) shows that most known lower bound techniques cannot prove P≠NP. A proof technique is 'natural' if the property P is: (1) constructive (polynomial-time decidable), (2) large (dense in the set of all functions), and (3) useful (implies lower bounds). The barrier states:",
+  "opts": [
+    "Natural proof techniques can prove P≠NP",
+    "If one-way functions exist, then no natural proof technique can separate P from NP",
+    "P≠NP implies the existence of natural proofs",
+    "Natural proofs exist iff P=NP"
+  ],
+  "ans": 1,
+  "exp": "Razborov-Rudich (1994): if OWFs exist (a standard cryptographic assumption), then no natural proof technique can prove super-polynomial circuit lower bounds. This explains why diagonalization, random restrictions, and algebraic methods fail: they are natural and OWFs would imply Boolean pseudo-randomness blocking them."
+}

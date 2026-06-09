@@ -1,0 +1,14 @@
+{
+  "ch": 29,
+  "part": 5,
+  "chTitle": "Thermodynamics and Information",
+  "q": "The maximum entropy principle (MaxEnt, Jaynes 1957) states that the best probability distribution for an inference problem is the one that:",
+  "opts": [
+    "Minimises the entropy",
+    "Maximises the Shannon entropy subject to the constraints (known moment conditions, given information)",
+    "Equals the uniform distribution",
+    "Minimises KL divergence from a flat prior"
+  ],
+  "ans": 1,
+  "exp": "Jaynes' MaxEnt: given constraints ⟨fᵢ(X)⟩ = aᵢ, the maximum entropy distribution is the Gibbs distribution P ∝ exp(Σ λᵢfᵢ(x)) (Lagrange multipliers). This is the least informative (least biased) distribution consistent with the known constraints, and is the unique maximum of H(P)."
+}

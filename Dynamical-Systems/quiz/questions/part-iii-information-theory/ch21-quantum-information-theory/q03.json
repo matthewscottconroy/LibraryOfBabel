@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The Knill–Laflamme conditions for quantum error correction state that a code C corrects errors {Eₖ} iff:",
+  "opts": [
+    "The errors map C to orthogonal subspaces",
+    "⟨ψ|Eₖ†El|φ⟩ = cₖₗ⟨ψ|φ⟩ for all |ψ⟩,|φ⟩ ∈ C (errors act uniformly on the code)",
+    "∑ₖ Eₖ†Eₖ = I (errors form a CPTP map)",
+    "The code has minimum distance d ≥ 2t+1 for t-error correction"
+  ],
+  "ans": 1,
+  "exp": "Knill–Laflamme: the errors cannot distinguish states within the code — they act proportionally on all code states. This means no information about the encoded logical state leaks into which error occurred, allowing perfect recovery."
+}

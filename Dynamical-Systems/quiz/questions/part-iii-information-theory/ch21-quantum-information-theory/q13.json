@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The Holevo bound χ(ρ,{pᵢ,ρᵢ}) limits the classical information accessible from an ensemble {pᵢ,ρᵢ} of quantum states via any measurement. It states the accessible information is at most:",
+  "opts": [
+    "Σ pᵢ S(ρᵢ)",
+    "S(Σᵢ pᵢρᵢ) − Σᵢ pᵢ S(ρᵢ) = χ (the Holevo quantity)",
+    "log(dim H)",
+    "Σᵢ pᵢ log(1/pᵢ)"
+  ],
+  "ans": 1,
+  "exp": "Holevo bound: I(X;Y) ≤ χ = S(ρ) − Σ pᵢS(ρᵢ) where ρ = Σpᵢρᵢ. The accessible information from measuring an ensemble cannot exceed χ. Equality is achievable (HSW theorem) with product-state encoding and suitable measurements."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "An almost periodic function f: ℝ → ℂ (Bohr) has the property that for every ε > 0 there exists L > 0 such that every interval of length L contains an ε-period. This is equivalent to:",
+  "opts": [
+    "f being periodic",
+    "f being the uniform limit of trigonometric polynomials",
+    "f being bounded",
+    "f being integrable"
+  ],
+  "ans": 1,
+  "exp": "Bohr's theorem: almost periodic functions are exactly the uniform limits of trigonometric polynomials (finite sums Σcₖe^{iλₖt}). They are the continuous functions on the Bohr compactification ℝ̂ of ℝ."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "The Wasserstein-2 distance W₂(μ,ν) between two probability measures is defined as:",
+  "opts": [
+    "sup_f ∫f dμ − ∫f dν over 1-Lipschitz f",
+    "(inf_γ ∫|x−y|² dγ(x,y))^{1/2} over couplings γ with marginals μ, ν",
+    "||μ−ν||₁ in total variation",
+    "D(μ||ν)^{1/2}"
+  ],
+  "ans": 1,
+  "exp": "W₂(μ,ν) = (min over couplings γ of ∫|x−y|² dγ)^{1/2}. This is the L² version of the Kantorovich-Wasserstein distance. The Kantorovich duality gives the dual formulation via (φ, ψ) with φ(x)+ψ(y) ≤ |x−y|²."
+}

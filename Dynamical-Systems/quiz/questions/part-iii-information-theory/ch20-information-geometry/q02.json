@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "The Cramér–Rao bound states that for any unbiased estimator T̂(X) of θ:",
+  "opts": [
+    "Var(T̂) ≥ 1/I(θ) where I(θ) is the Fisher information",
+    "Var(T̂) ≤ 1/I(θ)",
+    "Var(T̂) = H(X)/I(θ)",
+    "E[T̂]=θ implies Var(T̂)=0"
+  ],
+  "ans": 0,
+  "exp": "Cramér–Rao: Var(T̂(X)) ≥ 1/I(θ). The Fisher information I(θ) bounds how precisely θ can be estimated. The bound is achieved by the MLE (asymptotically) for exponential families. This is a fundamental limit on estimation precision."
+}

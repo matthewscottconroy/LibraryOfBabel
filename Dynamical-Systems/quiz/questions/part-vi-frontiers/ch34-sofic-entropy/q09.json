@@ -1,0 +1,14 @@
+{
+  "ch": 34,
+  "part": 6,
+  "chTitle": "Sofic Entropy",
+  "q": "The graph entropy h_{Σ,G}(μ,T) for a sofic approximation Σ = (σᵢ: G → Sym(dᵢ)) and a partition P (finite measurable) is defined as:",
+  "opts": [
+    "The topological entropy of the shift",
+    "(1/dᵢ) log |Hom_μ(P, σᵢ, ε)| in the limit as i → ∞ and ε → 0",
+    "The KS entropy of the partition",
+    "The Hausdorff dimension of the orbit closure"
+  ],
+  "ans": 1,
+  "exp": "Bowen's sofic entropy: hΣ(μ,T,P) = lim_{ε→0} limsup_{i→∞} (1/dᵢ) log |good models|, where good models are maps from dᵢ into the partition P that approximately reproduce the distributions of words under T. This limits to the KS entropy for amenable G."
+}

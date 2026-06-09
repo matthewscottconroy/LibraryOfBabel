@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "The Seifert fibration of a 3-manifold decomposes it into circles. The Euler class of the fibration is an obstruction to:",
+  "opts": [
+    "The fibration being a product",
+    "The existence of a section (global cross-section of the S¹ bundle) — the fibration is trivial iff Euler class = 0",
+    "The manifold being orientable",
+    "The base being simply connected"
+  ],
+  "ans": 1,
+  "exp": "Euler class e(E) ∈ H²(B;ℤ) for an oriented S¹ bundle E → B measures the twisting. A section exists iff e = 0. For the Hopf fibration S³ → S², e is the generator of H²(S²) = ℤ, so no section exists. Seifert fibrations generalise this to orbifold bases."
+}

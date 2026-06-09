@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "The Birkhoff ergodic theorem for the Gauss map implies that for Lebesgue-a.e. α, the partial quotients aₙ of the continued fraction of α satisfy:",
+  "opts": [
+    "(1/n) Σᵢ aᵢ → Khinchin's constant (the geometric mean)",
+    "(1/n) Σᵢ log aᵢ → log K (where K is Khinchin's constant)",
+    "aₙ → ∞",
+    "aₙ are bounded"
+  ],
+  "ans": 1,
+  "exp": "Birkhoff for the Gauss map with Gauss measure: (1/n) Σᵢ log aᵢ(α) → ∫₀¹ log⌊1/x⌋ dμ_Gauss(x) = log K / log 2 for a.e. α. Hence the geometric mean (a₁…aₙ)^{1/n} → K ≈ 2.685 (Khinchin's constant). The arithmetic mean is infinite (since E_Gauss[a₁] = ∞)."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 37,
+  "part": 6,
+  "chTitle": "Frontiers in Complex Dynamics",
+  "q": "The Branner-Hubbard work on cubic polynomials (non-connected Julia sets) introduced tableaux and the 'wringing' deformation. Tableaux track the orbit of the critical points in the puzzle structure. When all tableau entries are:",
+  "opts": [
+    "Periodic",
+    "'Escaping' (mapped outside all puzzle pieces after finitely many steps), the corresponding cubic has a Cantor Julia set",
+    "'Bounded', the Julia set is connected",
+    "Preperiodic, the critical point is eventually periodic"
+  ],
+  "ans": 1,
+  "exp": "In Branner-Hubbard theory: if all critical point orbits eventually escape the puzzle pieces (the tableau is 'escaping'), the Julia set is a Cantor set (totally disconnected). This generalizes Mandelbrot/Douady-Hubbard: connected Julia set ↔ bounded critical orbit, but for cubics there are two critical points."
+}

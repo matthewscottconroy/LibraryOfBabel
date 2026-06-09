@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "The treeable equivalence relations (those having a graphing that is a treeing, i.e., a.e. the graph is a tree) are important because:",
+  "opts": [
+    "They are all smooth",
+    "They include free group actions and are exactly the hyperfinite relations",
+    "They have zero cost",
+    "Free groups produce treeings, and treeability is preserved under stable orbit equivalence — connecting free group actions to the cost invariant"
+  ],
+  "ans": 3,
+  "exp": "A relation is treeable if it has an a.e. acyclic graphing. Free actions of free groups Fₙ are treeable with cost n. Gaboriau showed cost is a stable OE invariant, and treeability is preserved under stable OE. This is key to distinguishing OE classes of free group actions."
+}

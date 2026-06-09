@@ -1,0 +1,14 @@
+{
+  "ch": 17,
+  "part": 3,
+  "chTitle": "Entropy Generalizations",
+  "q": "The Gibbs variational principle states that the Boltzmann-Gibbs distribution P_β(x) ∝ e^{−βH(x)} minimises the free energy F(P) = E_P[H] − (1/β)H(P). Equivalently, P_β is the unique distribution satisfying:",
+  "opts": [
+    "H(P_β) = 0",
+    "D(P || P_β) ≥ 0 for all P (P_β minimises free energy by non-negativity of KL)",
+    "E_{P_β}[H] = 0",
+    "F(P_β) = H(P_β)"
+  ],
+  "ans": 1,
+  "exp": "The Gibbs distribution is the unique minimiser of the free energy E_P[H] − H(P)/β. This follows from F(P) − F(P_β) = D(P||P_β)/β ≥ 0. Equivalently, P_β is the maximum entropy distribution subject to the constraint E_P[H] = E_{P_β}[H]."
+}

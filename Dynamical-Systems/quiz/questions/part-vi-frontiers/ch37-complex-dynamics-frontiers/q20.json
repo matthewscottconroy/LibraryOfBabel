@@ -1,0 +1,14 @@
+{
+  "ch": 37,
+  "part": 6,
+  "chTitle": "Frontiers in Complex Dynamics",
+  "q": "Near a parabolic fixed point of multiplicity m+1 (i.e., f'(z₀)=e^{2πip/q} and (f^q)'(z₀)=1 with multiplier 1), there are exactly 2mq petals (attracting and repelling alternating). The Leau-Fatou theorem gives the dynamics on each attracting petal as conjugate to:",
+  "opts": [
+    "z↦λz (linear contraction)",
+    "z↦z/(1+z) (parabolic normal form) or z↦z+z^{m+1} (local model)",
+    "z↦z+1 (translation)",
+    "z↦z² (squaring map)"
+  ],
+  "ans": 1,
+  "exp": "In each attracting petal, the dynamics is analytically conjugate to z↦z/(1+z^m) (Écalle-Voronin normal form), or topologically to z↦z+1 on the upper half-plane. The parabolic basin consists of 2m attracting petals arranged around z₀, each biholomorphic to a half-plane."
+}

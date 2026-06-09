@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "The Lovász theta function ϑ(G) for a graph G satisfies ϑ(G)·ϑ(Ḡ)≥n (n=|V|) and gives bounds on:",
+  "opts": [
+    "The chromatic number χ(G)≤ϑ(Ḡ) and independence number α(G)≤ϑ(G)",
+    "The clique number ω(G)≤ϑ(G)",
+    "Both A and B",
+    "The Shannon capacity Θ(G)=ϑ(G) (Shannon capacity equals the Lovász theta function)"
+  ],
+  "ans": 3,
+  "exp": "The Lovász theta function satisfies: α(G)≤ϑ(G)≤χ(Ḡ) and Θ(G)=ϑ(G) for vertex-transitive graphs (Lovász 1979). The Shannon capacity of the pentagon C₅ equals √5=ϑ(C₅), resolved by this method. In general, ϑ(G) sandwiches the Shannon capacity: α(G)≤Θ(G)≤ϑ(G)."
+}

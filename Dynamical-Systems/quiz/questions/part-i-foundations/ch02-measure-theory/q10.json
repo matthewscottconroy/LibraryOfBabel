@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "The Fubini-Tonelli theorem allows switching the order of integration. Tonelli's version (for non-negative functions) requires:",
+  "opts": [
+    "Both measures to be finite",
+    "Both measures to be σ-finite (and the function to be non-negative measurable)",
+    "The function to be continuous",
+    "The product space to be compact"
+  ],
+  "ans": 1,
+  "exp": "Tonelli's theorem: for σ-finite measures and a non-negative measurable f, ∫∫ f d(μ×ν) = ∫(∫f dμ) dν = ∫(∫f dν) dμ with all integrals equal (possibly infinite). Fubini then extends this to integrable functions."
+}

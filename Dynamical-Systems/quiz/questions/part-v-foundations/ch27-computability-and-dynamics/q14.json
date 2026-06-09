@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "The Turing degree of the halting set ∅' = {e : φₑ(e) ↓} is denoted 0'. The Turing degrees form a partial order under Turing reducibility. The jump operator A ↦ A' satisfies:",
+  "opts": [
+    "A' = A always",
+    "A' is strictly above A in Turing degree (A <_T A') by the relativized halting problem",
+    "A' = ∅' for all A",
+    "A' = ∅ if A is computable"
+  ],
+  "ans": 1,
+  "exp": "Jump theorem: A <_T A' always (the jump is strictly harder than A, by the relativized diagonal argument). For computable A: A' ≡_T ∅'. The jump operation is fundamental in the arithmetic hierarchy: Σ⁰_n sets are exactly those computable in ∅^{(n-1)} (the n-1 fold jump of the empty set)."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 37,
+  "part": 6,
+  "chTitle": "Frontiers in Complex Dynamics",
+  "q": "Lyubich's theorem on the density of hyperbolicity in the real quadratic family fᵣ(x) = rx(1−x) states that:",
+  "opts": [
+    "The Mandelbrot set has positive measure",
+    "Hyperbolicity is dense in parameter space (for the real family): for almost every r ∈ [0,4], fᵣ has an attracting periodic orbit",
+    "Every r ∈ [0,4] gives a hyperbolic map",
+    "The chaotic parameters form a set of positive measure"
+  ],
+  "ans": 1,
+  "exp": "Lyubich (1997): hyperbolic parameters are dense in [0,4] for the real logistic family. Moreover, the set of non-hyperbolic parameters has measure zero (Lyubich, following Graczyk-Swiatek). This is a major result toward the 'density of hyperbolicity' conjecture in the complex setting (still open)."
+}

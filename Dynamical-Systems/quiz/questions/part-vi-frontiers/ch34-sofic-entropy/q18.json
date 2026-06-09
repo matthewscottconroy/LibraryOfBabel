@@ -1,0 +1,14 @@
+{
+  "ch": 34,
+  "part": 6,
+  "chTitle": "Sofic Entropy",
+  "q": "Hayes' theorem (2018) on the f-invariant and sofic entropy states that for a free ergodic action of F_n on (X,μ), the f-invariant f(F_n↷X,μ) and the sofic entropy h_Σ are related by:",
+  "opts": [
+    "h_Σ=f invariant/(n−1)",
+    "h_Σ=f invariant for all sofic approximations Σ",
+    "h_Σ≥f invariant with equality for Bernoulli actions",
+    "f invariant=(n−1)·h_Σ+(1−n)·H(μ_base) — Hayes' formula"
+  ],
+  "ans": 3,
+  "exp": "Hayes' formula (2018): for a free pmp F_n-action, h_Σ=(n−1)h_Σ(Bernoulli)+(f-inv) where the f-invariant is an intrinsic invariant. More precisely, f(α)=(1−n)H(base)+h_Σ(α) for Bernoulli α, and Hayes showed the sofic entropy determines the f-invariant."
+}

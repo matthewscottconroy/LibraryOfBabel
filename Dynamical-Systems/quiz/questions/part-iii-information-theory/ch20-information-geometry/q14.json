@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "The Amari-Nagaoka book (Methods of Information Geometry) shows that the maximum likelihood estimator θ̂_MLE is first-order efficient because it achieves:",
+  "opts": [
+    "Zero bias",
+    "The Cramér-Rao bound asymptotically: √n(θ̂ − θ) →_d N(0, G(θ)^{-1})",
+    "Exact Fisher efficiency for all sample sizes",
+    "The same variance for all estimators"
+  ],
+  "ans": 1,
+  "exp": "MLE is first-order efficient: asymptotically it achieves the Cramér-Rao bound G(θ)^{-1}/n (where G(θ) is the Fisher information matrix). In information-geometric terms, MLE is the e-geodesic projection of the empirical distribution onto the model manifold."
+}

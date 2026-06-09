@@ -1,0 +1,14 @@
+{
+  "ch": 11,
+  "part": 2,
+  "chTitle": "Chaos Theory",
+  "q": "The Kaplan-Yorke dimension of an attractor with Lyapunov exponents λ₁≥λ₂≥...≥λₙ is defined as j + (λ₁+...+λⱼ)/|λⱼ₊₁| where j is chosen so that the sum of the first j exponents is nonneg. For the Lorenz attractor with λ₁≈0.906, λ₂=0, λ₃≈−14.572, which value is closest to the Kaplan-Yorke dimension?",
+  "opts": [
+    "1.062",
+    "2.062",
+    "2.906",
+    "3.062"
+  ],
+  "ans": 1,
+  "exp": "j=2 since λ₁+λ₂≈0.906>0 but λ₁+λ₂+λ₃<0. D_KY = 2 + (0.906+0)/14.572 ≈ 2.062."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "Measure equivalence (ME) of groups Γ and Λ (Gromov's notion): they are ME if they have commuting, measure-preserving, free actions on a standard measure space Σ with finite-measure fundamental domains. This is related to OE by:",
+  "opts": [
+    "ME implies OE",
+    "OE of free ergodic actions implies ME: if Γ ↷ X and Λ ↷ X are OE free ergodic, then Γ and Λ are ME",
+    "ME and OE are unrelated",
+    "ME implies isomorphism of groups"
+  ],
+  "ans": 1,
+  "exp": "Furman's theorem: if two free ergodic actions Γ ↷ X and Λ ↷ X are orbit equivalent, then Γ and Λ are measure equivalent (as abstract groups). This reduces orbit equivalence questions to group-theoretic (ME) questions. Gaboriau's l²-Betti number theorems then give ME invariants."
+}

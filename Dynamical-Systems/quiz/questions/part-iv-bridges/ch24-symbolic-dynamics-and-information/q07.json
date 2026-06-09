@@ -1,0 +1,14 @@
+{
+  "ch": 24,
+  "part": 4,
+  "chTitle": "Symbolic Dynamics and Information Theory",
+  "q": "The Parry measure (measure of maximal entropy) for an irreducible SFT with adjacency matrix A assigns to each cylinder set a probability determined by:",
+  "opts": [
+    "The uniform distribution on words",
+    "Left and right Perron eigenvectors of A",
+    "The unique stationary distribution of the Markov chain",
+    "The square root of each entry of A"
+  ],
+  "ans": 1,
+  "exp": "The Parry measure is the unique measure of maximal entropy for an irreducible SFT. It is the Markov measure with transition probabilities Pᵢⱼ = Aᵢⱼ vⱼ/(ρ vᵢ), where ρ = spectral radius and u, v are Perron eigenvectors."
+}

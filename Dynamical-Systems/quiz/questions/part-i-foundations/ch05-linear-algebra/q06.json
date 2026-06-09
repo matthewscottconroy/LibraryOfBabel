@@ -1,0 +1,14 @@
+{
+  "ch": 5,
+  "part": 1,
+  "chTitle": "Linear Algebra",
+  "q": "The Cayley-Hamilton theorem states that for any n×n matrix A with characteristic polynomial p(λ) = det(λI - A):",
+  "opts": [
+    "A has n distinct eigenvalues",
+    "p(A) = 0 (A satisfies its own characteristic equation)",
+    "Aⁿ = 0",
+    "The minimal polynomial equals p(λ)"
+  ],
+  "ans": 1,
+  "exp": "Every matrix satisfies its own characteristic equation p(A) = 0. This has computational uses (computing matrix inverses and powers) and theoretical uses (structure of the minimal polynomial)."
+}

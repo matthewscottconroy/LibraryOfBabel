@@ -1,0 +1,14 @@
+{
+  "ch": 7,
+  "part": 2,
+  "chTitle": "Ergodic Theory",
+  "q": "Poincaré Recurrence Theorem says: for a measure-preserving transformation f of a finite measure space and a set A with μ(A)>0, almost every point of A:",
+  "opts": [
+    "Never returns to A",
+    "Returns to A exactly once",
+    "Returns to A infinitely often",
+    "Spends measure-proportional time in A"
+  ],
+  "ans": 2,
+  "exp": "Poincaré recurrence: for finite measure systems, a.e. point of A returns to A infinitely often. The proof is simple: the sets A, f⁻¹A, f⁻²A,… cannot all be disjoint in a finite measure space."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 1,
+  "part": 1,
+  "chTitle": "Real Analysis",
+  "q": "The Contraction Mapping Theorem (Banach Fixed-Point Theorem) requires the map T: X → X to satisfy:",
+  "opts": [
+    "T is continuous",
+    "T is a bijection",
+    "There exists k < 1 such that d(Tx,Ty) ≤ k·d(x,y) for all x,y",
+    "T is an isometry"
+  ],
+  "ans": 2,
+  "exp": "A contraction requires a uniform Lipschitz constant k < 1. The theorem then guarantees a unique fixed point and gives an explicit convergence rate for iterates."
+}

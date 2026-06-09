@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "The Lusin-Sierpiński theorem in descriptive set theory states that a Borel subset B of a Polish space can be mapped by a continuous injection into:",
+  "opts": [
+    "ℝ",
+    "The Cantor space 2^ℕ",
+    "The Baire space ℕ^ℕ",
+    "Any other Polish space"
+  ],
+  "ans": 1,
+  "exp": "The Lusin-Sierpiński theorem: every uncountable Borel set in a Polish space contains a closed copy of the Cantor space 2^ℕ. Combined with the Cantor-Bernstein-Schröder theorem for injections, every uncountable Borel Polish space is Borel isomorphic to [0,1]."
+}

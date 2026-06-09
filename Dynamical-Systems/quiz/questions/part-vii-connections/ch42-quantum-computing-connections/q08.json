@@ -1,0 +1,14 @@
+{
+  "ch": 42,
+  "part": 7,
+  "chTitle": "Quantum Computing and Dynamical Systems",
+  "q": "Quantum advantage for sampling problems (like BosonSampling and random circuit sampling) is related to the hardness of computing:",
+  "opts": [
+    "The trace of a unitary",
+    "The permanent of a matrix (BosonSampling) or amplitudes of random circuits",
+    "The eigenvalue gap",
+    "The entanglement entropy"
+  ],
+  "ans": 1,
+  "exp": "BosonSampling (Aaronson-Arkhipov): sampling from the output distribution of a boson interferometer is hard for classical computers unless the polynomial hierarchy collapses, based on the hardness of computing matrix permanents. Random circuit sampling has analogous hardness."
+}

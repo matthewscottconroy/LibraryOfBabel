@@ -1,0 +1,14 @@
+{
+  "ch": 22,
+  "part": 4,
+  "chTitle": "Entropy in Dynamical Systems",
+  "q": "Pesin's entropy formula relates KS entropy to Lyapunov exponents for a C² diffeomorphism preserving a smooth measure μ:",
+  "opts": [
+    "h_μ(f) = ∑ all Lyapunov exponents",
+    "h_μ(f) = ∑_{λᵢ>0} λᵢ (sum of positive Lyapunov exponents)",
+    "h_μ(f) = max Lyapunov exponent",
+    "h_μ(f) = ∫ λ₁(x) dμ(x) where λ₁ is the top Lyapunov exponent"
+  ],
+  "ans": 1,
+  "exp": "Pesin (1977): h_μ(f) = ∫∑_{λᵢ>0}λᵢ(x)dμ(x) for smooth invariant measures. The KS entropy equals the total expansion rate (sum of positive Lyapunov exponents). For general invariant measures, only the inequality ≤ holds (Ruelle)."
+}

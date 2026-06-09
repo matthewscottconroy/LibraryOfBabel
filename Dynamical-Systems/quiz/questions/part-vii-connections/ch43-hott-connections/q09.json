@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "In HoTT, the Encode-Decode method proves a path space calculation. For the circle S¹, to prove π₁(S¹) = ℤ, one defines a 'code' Cover: S¹ → U by Cover(base) = ℤ and Cover(loop) =",
+  "opts": [
+    "refl",
+    "the successor function equiv succ: ℤ ≃ ℤ",
+    "the identity",
+    "a constant path"
+  ],
+  "ans": 1,
+  "exp": "The universal cover of S¹ is the path space. In HoTT: Cover: S¹ → U with Cover(base) = ℤ and Cover(loop) = (ℤ ≃ ℤ) via succ. The encode map sends p: base = x to transport^Cover(p, 0) ∈ Cover(x). The decode map sends n ∈ ℤ to loop^n. Together they give π₁(S¹) ≅ ℤ."
+}

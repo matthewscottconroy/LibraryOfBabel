@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The Stinespring dilation theorem states that every quantum channel N:B(H)→B(K) has a representation N(ρ)=tr_E[V ρ V†] where V:H→K⊗E is an isometry. The dimension of E can be taken to be:",
+  "opts": [
+    "dim(H)·dim(K)",
+    "dim(H)²",
+    "dim(K)²",
+    "dim(H)·dim(K)² (Kraus rank squared)"
+  ],
+  "ans": 0,
+  "exp": "By the Stinespring theorem, the environment dimension satisfies dim(E)≤dim(H)·dim(K). The Kraus rank (minimal number of Kraus operators) equals the minimal dim(E), which is at most dim(H)·dim(K)."
+}

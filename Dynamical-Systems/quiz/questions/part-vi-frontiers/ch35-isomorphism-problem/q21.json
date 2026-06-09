@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "The d-bar (d̄) metric on stationary processes is defined by d̄(X,Y)=inf_{joining μ} P(X_0≠Y_0) over all joinings of the two processes. Ornstein's criterion for Bernoullicity (finitely determined processes) states T is Bernoulli iff:",
+  "opts": [
+    "T has zero entropy",
+    "T is isomorphic to a Markov chain",
+    "For every ε>0 and partition P, there exist N and δ such that d̄-closeness of two processes to (T,P) on N steps implies d̄-closeness of the processes to each other",
+    "T is the d̄-limit of i.i.d. processes"
+  ],
+  "ans": 2,
+  "exp": "Finitely determined (FD) processes (Ornstein): T is FD iff small d̄-distance on a large block plus entropy matching implies small d̄-distance overall. FD is equivalent to Bernoulli (Ornstein's theorem). This gives a computable criterion for Bernoullicity."
+}

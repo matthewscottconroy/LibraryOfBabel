@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "The Freudenthal suspension theorem in HoTT states that for an n-connected type X (πᵢ(X)=0 for i≤n), the suspension map π_k(X)→π_{k+1}(ΣX) is an isomorphism for k≤2n and surjective for k=2n+1. This is used in HoTT to prove:",
+  "opts": [
+    "π_n(Sⁿ)=ℤ for all n≥1",
+    "π_n(Sⁿ)=ℤ for n≥2 (using S^{n-1} is (n-2)-connected and induction)",
+    "π₁(S¹)=ℤ directly",
+    "The homotopy groups of spheres vanish above the dimension"
+  ],
+  "ans": 1,
+  "exp": "By Freudenthal, if Sⁿ⁻¹ is (n-2)-connected (true since πᵢ(Sⁿ⁻¹)=0 for i<n-1), then πₙ(Sⁿ)≅πₙ₋₁(Sⁿ⁻¹) for n≥2. By induction (π₁(S¹)=ℤ from Licata-Shulman), πₙ(Sⁿ)=ℤ for all n≥1. Freudenthal gives the inductive step."
+}

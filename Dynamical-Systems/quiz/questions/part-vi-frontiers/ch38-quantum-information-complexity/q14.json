@@ -1,0 +1,14 @@
+{
+  "ch": 38,
+  "part": 6,
+  "chTitle": "Quantum Information and Complexity",
+  "q": "The Harrow-Hassidim-Lloyd (HHL) algorithm solves linear systems Ax = b with exponential speedup (under specific conditions). The quantum speedup over classical methods (like Gaussian elimination) assumes:",
+  "opts": [
+    "A is a dense matrix",
+    "A is sparse and well-conditioned (condition number κ = O(poly(n))), b is given as a quantum state, and the solution is accessed via expectation values of observables",
+    "All entries of A are known classically",
+    "The solution x has polynomial many non-zero entries"
+  ],
+  "ans": 1,
+  "exp": "HHL: solves Ax = b in O(log(n) κ² / ε) time for sparse A with condition number κ. Assumptions: (1) efficient quantum access to A (quantum RAM or sparse oracle), (2) |b⟩ can be prepared efficiently, (3) the output is a quantum state |x⟩ from which expectation values (not all of x) are extracted. 'Quantum speed limit' caveats make classical speedup rare in practice."
+}

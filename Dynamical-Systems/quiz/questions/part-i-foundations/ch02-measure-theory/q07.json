@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "Which convergence theorem allows passing the limit inside the integral when |fₙ| ≤ g for an integrable function g?",
+  "opts": [
+    "Monotone Convergence Theorem",
+    "Fatou's Lemma",
+    "Dominated Convergence Theorem",
+    "Uniform Convergence Theorem"
+  ],
+  "ans": 2,
+  "exp": "The Dominated Convergence Theorem requires an integrable dominating function. Monotone Convergence applies when fₙ is non-decreasing; Fatou's Lemma gives a lower bound."
+}

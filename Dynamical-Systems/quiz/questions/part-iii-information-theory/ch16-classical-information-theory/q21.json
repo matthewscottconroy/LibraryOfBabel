@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "The source-channel separation theorem (Shannon 1948) states that for a stationary ergodic source and a DMC, reliable communication is achievable iff:",
+  "opts": [
+    "The source entropy rate H<C",
+    "The Kolmogorov complexity of the source is less than C",
+    "The source has finite memory",
+    "The source is i.i.d."
+  ],
+  "ans": 0,
+  "exp": "The separation theorem: independent optimization of source coding (compress to rate H) and channel coding (transmit at rate R<C) achieves the optimal performance. End-to-end reliable communication is possible iff H≤C."
+}

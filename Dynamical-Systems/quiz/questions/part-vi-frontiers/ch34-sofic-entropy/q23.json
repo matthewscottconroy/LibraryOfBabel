@@ -1,0 +1,14 @@
+{
+  "ch": 34,
+  "part": 6,
+  "chTitle": "Sofic Entropy",
+  "q": "For actions of a non-amenable group Γ, the sofic entropy h_Σ(f,μ) can depend on the sofic approximation Σ. This non-uniqueness was demonstrated by:",
+  "opts": [
+    "Bowen (2010) for free groups",
+    "Austin (2016) constructing actions where different sofic approximations give different entropies",
+    "Kerr-Li (2011) for SL(3,ℤ)",
+    "The phenomenon is only theoretical, no explicit examples exist"
+  ],
+  "ans": 1,
+  "exp": "Austin (2016) constructed the first explicit examples of actions where sofic entropy depends on the sofic approximation: two sofic approximations of F₂ give different entropy values for the same action. This shows sofic entropy is not intrinsic to the action in general."
+}

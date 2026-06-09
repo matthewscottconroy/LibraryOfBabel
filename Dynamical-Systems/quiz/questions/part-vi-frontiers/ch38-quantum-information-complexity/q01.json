@@ -1,0 +1,14 @@
+{
+  "ch": 38,
+  "part": 6,
+  "chTitle": "Quantum Information and Complexity",
+  "q": "The Local Hamiltonian Problem (deciding if the ground state energy is ≤a or ≥b) is QMA-complete. This means:",
+  "opts": [
+    "It is solvable in polynomial quantum time",
+    "It is the quantum analogue of 3-SAT — hard for quantum computers to verify and solve",
+    "It is undecidable",
+    "It reduces to factoring"
+  ],
+  "ans": 1,
+  "exp": "Kitaev (1999): k-Local Hamiltonian is QMA-complete — it is 'quantum NP-complete'. Quantum witnesses (quantum states) allow verification in quantum polynomial time, but no efficient quantum algorithm is known. This is the quantum computational complexity version of finding ground states."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 19,
+  "part": 3,
+  "chTitle": "Network Information Theory",
+  "q": "The Gaussian multiple access channel with K users, each with power P, has a sum-rate capacity of:",
+  "opts": [
+    "K · ½ log(1 + P/N)",
+    "½ log(1 + KP/N)",
+    "½ log(1 + P/N)",
+    "K · C₁ where C₁ is the single-user capacity"
+  ],
+  "ans": 1,
+  "exp": "MAC sum-rate capacity: C_sum = ½ log(1 + KP/N). All K users share the channel coherently (superimposed signals), so the total power is KP relative to noise N. This can exceed K times the single-user capacity ½ log(1+P/N) achieved by TDMA."
+}

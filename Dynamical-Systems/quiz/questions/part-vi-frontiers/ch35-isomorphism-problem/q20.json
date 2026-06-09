@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "Ratner's measure classification theorem for unipotent flows: if U is a unipotent one-parameter subgroup of a connected Lie group G, and Γ is a lattice, then every ergodic U-invariant probability measure on G/Γ is:",
+  "opts": [
+    "Lebesgue measure",
+    "The unique measure of maximal entropy",
+    "Homogeneous (algebraic): the unique measure supported on a closed orbit H·x for a closed subgroup H",
+    "A Gibbs measure"
+  ],
+  "ans": 2,
+  "exp": "Ratner's theorem (1991): every U-ergodic invariant measure μ on G/Γ is algebraic (homogeneous): μ=m_{Hx} for a closed subgroup H⊇U and base point x, where m_{Hx} is the H-invariant measure on the closed orbit H·x. This resolves Raghunathan's conjecture."
+}

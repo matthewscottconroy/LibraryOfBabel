@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "The Furstenberg correspondence principle in combinatorics: for a set A ⊆ ℕ of positive upper density d*(A) > 0, the correspondence provides a measure-preserving system (X,μ,T) and a set Ã with μ(Ã) = d*(A) such that d*(A ∩ (A-n₁) ∩ ... ∩ (A-nₖ)) ≥ μ(Ã ∩ T^{-n₁}Ã ∩ ... ∩ T^{-nₖ}Ã). This is used to prove:",
+  "opts": [
+    "A is periodic",
+    "Szemerédi's theorem: A contains arbitrarily long arithmetic progressions (via ergodic multiple recurrence)",
+    "A is a Sidon set",
+    "A contains all pairs"
+  ],
+  "ans": 1,
+  "exp": "Furstenberg's correspondence + multiple recurrence theorem: since μ(Ã ∩ T^{-n}Ã ∩ T^{-2n}Ã ∩ ...) > 0 for some n > 0 (by multiple recurrence), the set A ∩ (A-n) ∩ (A-2n) ∩ ... is non-empty, giving arithmetic progressions in A. This is Furstenberg's ergodic proof of Szemerédi's theorem (1977)."
+}

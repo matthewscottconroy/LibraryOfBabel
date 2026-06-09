@@ -1,0 +1,14 @@
+{
+  "ch": 11,
+  "part": 2,
+  "chTitle": "Chaos Theory",
+  "q": "For an Axiom A attractor, the Sinai-Ruelle-Bowen measure can be characterized as the unique invariant measure satisfying:",
+  "opts": [
+    "It maximizes entropy among all invariant measures",
+    "It equals the Liouville measure restricted to the attractor",
+    "It is the weak* limit of (1/n)∑_{k=0}^{n-1} f^k_* Leb for Lebesgue-almost every initial condition",
+    "It is supported on periodic orbits"
+  ],
+  "ans": 2,
+  "exp": "The SRB measure is the physical measure: for a positive Lebesgue measure set of initial conditions, the time averages of observables converge to integrals against the SRB measure. It is the weak* limit of forward pushforwards of Lebesgue measure."
+}

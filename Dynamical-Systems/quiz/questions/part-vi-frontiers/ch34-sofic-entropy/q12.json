@@ -1,0 +1,14 @@
+{
+  "ch": 34,
+  "part": 6,
+  "chTitle": "Sofic Entropy",
+  "q": "The independence at infinity (f-independence) condition for sofic entropy: two partitions P and Q are f-independent (for some function f) if their joint distribution approaches the product of marginals at large scales in the sofic approximation. This is related to:",
+  "opts": [
+    "Strong mixing",
+    "The relative sofic entropy hΣ(T,P|Q) equalling hΣ(T,P) — Q gives no additional entropy",
+    "The orbit equivalence class",
+    "The spectral gap"
+  ],
+  "ans": 1,
+  "exp": "Relative sofic entropy: if P and Q are asymptotically independent in the sofic approximation, hΣ(T, P∨Q) = hΣ(T,P) + hΣ(T,Q) (additivity). This mirrors the classical KS entropy property. Independence conditions are key to the classification of Bernoulli actions via sofic entropy."
+}

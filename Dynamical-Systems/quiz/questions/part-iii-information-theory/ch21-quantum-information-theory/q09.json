@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The quantum mutual information for a bipartite state ρ_{AB} is defined as I(A:B)_ρ = S(A) + S(B) − S(AB). For a pure state |ψ⟩_{AB}, this equals:",
+  "opts": [
+    "0",
+    "2S(A) = 2S(B)",
+    "S(A) + S(B)",
+    "S(AB)"
+  ],
+  "ans": 1,
+  "exp": "For pure |ψ⟩_{AB}: S(AB)=0 and S(A)=S(B) (by Schmidt decomposition), so I(A:B) = S(A)+S(B)−0 = 2S(A). This is twice the entanglement entropy and the maximum possible quantum mutual information for fixed marginals."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "Lebesgue's Dominated Convergence Theorem says that if fₙ → f a.e. and |fₙ| ≤ g with g integrable, then:",
+  "opts": [
+    "∫fₙ → ∫f",
+    "The fₙ are uniformly integrable but convergence of integrals may fail",
+    "fₙ → f in L²",
+    "∫|fₙ - f| → ∞"
+  ],
+  "ans": 0,
+  "exp": "DCT: pointwise a.e. convergence plus a dominating integrable bound guarantees ∫fₙ dμ → ∫f dμ. This is the workhorse of analysis."
+}

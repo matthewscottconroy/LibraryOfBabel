@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "Håstad's switching lemma proves that parity (XOR) is not in AC⁰ (constant-depth polynomial-size circuits) because:",
+  "opts": [
+    "Parity requires exponential space",
+    "A random restriction of variables leaves parity hard: any depth-d AC⁰ circuit for parity requires size exp(Ω(n^{1/(d-1)}))",
+    "Parity is NP-complete",
+    "Parity is in P but not in NC¹"
+  ],
+  "ans": 1,
+  "exp": "Håstad (1987): the switching lemma shows that after a random restriction, DNFs of width w simplify to small decision trees. Applied to any AC⁰ circuit computing parity, each gate simplifies, but the lower-level logic proves parity requires exponential AC⁰ size (grows with depth)."
+}

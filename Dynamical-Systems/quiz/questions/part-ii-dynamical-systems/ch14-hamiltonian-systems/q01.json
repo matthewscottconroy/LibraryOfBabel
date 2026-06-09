@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "Liouville's theorem for Hamiltonian systems states that the flow preserves:",
+  "opts": [
+    "Energy (H is constant along orbits)",
+    "Phase space volume (the symplectic volume form)",
+    "Angular momentum",
+    "The Lyapunov exponents"
+  ],
+  "ans": 1,
+  "exp": "Liouville's theorem: Hamiltonian flows preserve the Liouville measure (symplectic volume = dq₁∧dp₁∧…∧dqₙ∧dpₙ). Combined with Poincaré recurrence, this is the foundation of statistical mechanics."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 42,
+  "part": 7,
+  "chTitle": "Quantum Computing and Dynamical Systems",
+  "q": "The quantum Fourier transform (QFT) over ℤ_N can be implemented using O(log² N) quantum gates. Its speedup over the classical FFT (O(N log N)) is the basis for:",
+  "opts": [
+    "Quantum error correction",
+    "Shor's factoring algorithm and the hidden subgroup problem",
+    "Grover's search algorithm",
+    "Quantum simulation"
+  ],
+  "ans": 1,
+  "exp": "The QFT provides exponential speedup for finding periodicity, which is the core of Shor's algorithm for factoring and discrete logarithm. Both reduce to the abelian hidden subgroup problem, which QFT solves efficiently."
+}

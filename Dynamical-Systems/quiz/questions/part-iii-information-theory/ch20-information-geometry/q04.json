@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "The EM algorithm for maximum likelihood estimation alternates between:",
+  "opts": [
+    "Gradient ascent and conjugate gradient steps",
+    "E-step: compute posterior over latent variables; M-step: maximise expected complete log-likelihood",
+    "Forward and backward message passing",
+    "Projection onto constraints and likelihood maximisation"
+  ],
+  "ans": 1,
+  "exp": "EM (Dempster–Laird–Rubin 1977): E-step computes q(z)=p(z|x,θ_old); M-step maximises E_q[log p(x,z;θ)] over θ. In information geometry, EM is alternating projections: e-projection (E-step) and m-projection (M-step), converging to a saddle point of KL divergence."
+}

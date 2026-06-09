@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "The Douady-Hubbard theorem on the connectedness of the Julia set for a polynomial states that J(f) is connected iff:",
+  "opts": [
+    "The critical points have bounded orbits",
+    "The leading coefficient is positive",
+    "The polynomial is monic",
+    "deg(f) is even"
+  ],
+  "ans": 0,
+  "exp": "For a polynomial, J(f) is connected iff all critical points have bounded orbits (equivalently, all critical points are in the filled Julia set K(f)). If any critical point escapes to ∞, J(f) is a Cantor set (totally disconnected). For z²+c this gives c ∈ Mandelbrot set ↔ J(f) connected."
+}

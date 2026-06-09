@@ -1,0 +1,14 @@
+{
+  "ch": 10,
+  "part": 2,
+  "chTitle": "Bifurcation Theory",
+  "q": "Centre manifold reduction is used in bifurcation theory to:",
+  "opts": [
+    "Eliminate all hyperbolic (stable/unstable) directions and reduce the dynamics to the low-dimensional centre manifold",
+    "Linearise the vector field",
+    "Find all fixed points",
+    "Compute the Lyapunov exponents"
+  ],
+  "ans": 0,
+  "exp": "Near a bifurcation, the centre manifold carries the interesting dynamics. Stable/unstable directions are enslaved: after projecting onto the centre manifold (typically 1–2 dimensional), one can compute normal forms and classify the bifurcation type."
+}

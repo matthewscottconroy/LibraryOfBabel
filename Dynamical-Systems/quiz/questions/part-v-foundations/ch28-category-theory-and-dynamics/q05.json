@@ -1,0 +1,14 @@
+{
+  "ch": 28,
+  "part": 5,
+  "chTitle": "Category Theory and Dynamics",
+  "q": "A coalgebra for an endofunctor F: C → C is a pair (X, α: X → F(X)). In dynamical systems, coalgebras model:",
+  "opts": [
+    "Initial algebras",
+    "Systems with state-transition structure: X is the state space, α is the dynamics",
+    "Fixed points only",
+    "Invariant measures"
+  ],
+  "ans": 1,
+  "exp": "Coalgebras capture transition systems: the map α: X → FX describes how the state evolves. For F = (−)×A (A an action set), FX = X×A, and (X, α) is a labeled transition system. Terminal coalgebras represent bisimilarity."
+}

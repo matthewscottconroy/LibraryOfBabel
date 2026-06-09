@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "The Krylov–Bogoliubov theorem guarantees that every continuous map on a compact metric space has:",
+  "opts": [
+    "A fixed point",
+    "A periodic orbit",
+    "At least one invariant Borel probability measure",
+    "A dense orbit"
+  ],
+  "ans": 2,
+  "exp": "Krylov–Bogoliubov: take any point x, form the Cesàro averages μₙ = (1/n)∑δ_{fᵏ(x)}, and take a weak-* limit. Compactness of the space (Prokhorov's theorem) ensures a convergent subsequence whose limit is f-invariant."
+}

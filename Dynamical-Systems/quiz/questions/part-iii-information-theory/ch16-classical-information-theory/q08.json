@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "The entropy H(X) = −Σ p(x) log p(x) achieves its maximum value of log|A| when:",
+  "opts": [
+    "p(x) = 1 for one x",
+    "X is concentrated on a small set",
+    "p(x) = 1/|A| for all x (uniform distribution)",
+    "The distribution is Gaussian"
+  ],
+  "ans": 2,
+  "exp": "Entropy is maximized by the uniform distribution: H(X) ≤ log|A| with equality iff p is uniform. This characterizes the uniform distribution as the maximum uncertainty distribution over a finite alphabet."
+}

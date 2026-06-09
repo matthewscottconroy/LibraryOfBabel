@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "Which of the following is NOT necessarily true for a σ-algebra 𝒜?",
+  "opts": [
+    "X ∈ 𝒜 (the whole space is measurable)",
+    "If A ∈ 𝒜 then Aᶜ ∈ 𝒜",
+    "Countable unions of sets in 𝒜 are in 𝒜",
+    "Every subset of a set in 𝒜 is in 𝒜"
+  ],
+  "ans": 3,
+  "exp": "A σ-algebra is closed under complementation and countable unions, and contains X. But arbitrary subsets of measurable sets need not be measurable — that is what distinguishes measure theory from set theory."
+}

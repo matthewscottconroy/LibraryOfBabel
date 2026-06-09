@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "Ornstein's isomorphism theorem (1970) states that two Bernoulli shifts with the same entropy are:",
+  "opts": [
+    "Orbit equivalent",
+    "Measurably isomorphic (conjugate as measure-preserving systems)",
+    "Topologically conjugate",
+    "Only spectrally isomorphic"
+  ],
+  "ans": 1,
+  "exp": "Ornstein's theorem: entropy is a complete invariant for Bernoulli shifts. Any two Bernoulli shifts with the same entropy are measurably isomorphic. This was a landmark result—entropy had been shown to distinguish Bernoulli shifts (Kolmogorov), Ornstein showed it is the only obstruction."
+}

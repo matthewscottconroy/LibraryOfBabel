@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "Bennett and independently Zurek argued that the entropy production of a computational process is related to its logical irreversibility. Landauer's principle states:",
+  "opts": [
+    "Erasing one bit of information requires at least k_B T ln 2 energy dissipation",
+    "Computation is always reversible",
+    "Entropy production is proportional to the number of bits processed",
+    "Only measurement causes entropy production"
+  ],
+  "ans": 0,
+  "exp": "Landauer's principle (1961): logically irreversible operations (erasing one bit of information) must dissipate at least k_B T ln 2 ≈ 3×10^{-21} J at temperature T. This connects information theory to thermodynamics and limits the energy efficiency of computation."
+}

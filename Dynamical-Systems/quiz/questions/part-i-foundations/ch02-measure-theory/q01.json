@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "The Radon–Nikodym theorem states that if ν ≪ μ (ν is absolutely continuous w.r.t. μ), then:",
+  "opts": [
+    "ν and μ are equal",
+    "There exists a measurable function f ≥ 0 such that ν(A) = ∫_A f dμ for all measurable A",
+    "μ and ν are mutually singular",
+    "ν(A) = μ(A)² for all A"
+  ],
+  "ans": 1,
+  "exp": "The Radon–Nikodym derivative (density) f = dν/dμ exists precisely when ν ≪ μ. This generalises the relationship between a probability density and a measure."
+}

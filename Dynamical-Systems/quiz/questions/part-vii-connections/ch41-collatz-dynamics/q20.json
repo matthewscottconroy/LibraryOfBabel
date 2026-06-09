@@ -1,0 +1,14 @@
+{
+  "ch": 41,
+  "part": 7,
+  "chTitle": "The Collatz Conjecture",
+  "q": "In the dynamical systems interpretation, the Collatz map (extended to ℤ[1/6]) generates a dynamical system related to a specific affine map on ℝ/ℤ. The associated circle map is x↦{2x} (doubling map) when n is even and x↦{2x/3+1/3} when odd, giving the connection to:",
+  "opts": [
+    "The Gauss map for continued fractions",
+    "Expanding circle maps and their Markov properties",
+    "The doubling map's chaos explaining Collatz difficulty",
+    "The logistic map at a specific parameter"
+  ],
+  "ans": 1,
+  "exp": "The Collatz map is equivalent to an affine map on ℤ_2 (2-adic view) or can be analyzed as a non-invertible expanding map on ℝ/ℤ. The connection to Markov maps with Markov partitions {[0,1/2],[1/2,1]} (even/odd) is the basis for the probabilistic heuristics — the induced map has specific Lyapunov exponents."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 42,
+  "part": 7,
+  "chTitle": "Quantum Computing and Dynamical Systems",
+  "q": "Clifford+T circuits are universal for quantum computation. The T gate (π/8 phase gate) requires fault-tolerant implementation via 'magic state distillation'. The overhead of T gate implementation in a fault-tolerant architecture is approximately:",
+  "opts": [
+    "O(1) physical qubits per T gate",
+    "O(log²(1/ε)) T gates to implement one T gate to accuracy ε (Solovay-Kitaev), or O(log(1/ε)) with optimal decomposition (Ross-Selinger)",
+    "O(1/ε) physical qubits",
+    "Linear in the circuit depth"
+  ],
+  "ans": 1,
+  "exp": "Solovay-Kitaev: any single-qubit gate can be approximated within ε using O(log^c(1/ε)) gates from a universal set (c ≈ 3.97). For T gates specifically, optimal decompositions (Ross-Selinger) achieve O(log(1/ε)) T gates. Magic state distillation adds space overhead to produce accurate T gate magic states."
+}

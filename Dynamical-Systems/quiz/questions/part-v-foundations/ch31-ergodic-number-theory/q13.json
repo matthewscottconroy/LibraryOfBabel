@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "The Denjoy-Koksma inequality for quasi-periodic functions gives a bound on the discrepancy of Birkhoff sums. For a function f of bounded variation Var(f) and the irrational rotation T_α with best approximations p_n/q_n:",
+  "opts": [
+    "|(1/qₙ) Σ_{k=0}^{qₙ-1} f(x+kα) − ∫f| ≤ Var(f)/qₙ",
+    "|(1/qₙ) Σ_{k=0}^{qₙ-1} f(x+kα) − ∫f| ≤ Var(f)·(qₙ)^{-1}",
+    "The sum equals ∫f for all n",
+    "The bound depends on α being Diophantine"
+  ],
+  "ans": 1,
+  "exp": "Denjoy-Koksma: |Σ_{k=0}^{qₙ-1} f(kα) − qₙ∫f| ≤ Var(f). This is a sharp bound for Birkhoff sums at the denominators qₙ of best rational approximations. It quantifies how well the irrational rotation approximates the time average by the space average."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The Holevo bound limits the classical information accessible from a quantum ensemble {pᵢ,ρᵢ} to:",
+  "opts": [
+    "I(X;Y) ≤ H(X)",
+    "I(X;Y) ≤ χ = S(∑pᵢρᵢ) - ∑pᵢS(ρᵢ)",
+    "I(X;Y) ≤ S(ρ)",
+    "I(X;Y) ≤ log(dim H)"
+  ],
+  "ans": 1,
+  "exp": "Holevo (1973): the mutual information between a classical message X and any quantum measurement Y is bounded by the Holevo quantity χ = S(ρ̄) - ∑pᵢS(ρᵢ) where ρ̄=∑pᵢρᵢ. This bound is achievable (HSW theorem)."
+}

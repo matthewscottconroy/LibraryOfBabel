@@ -1,0 +1,14 @@
+{
+  "ch": 5,
+  "part": 1,
+  "chTitle": "Linear Algebra",
+  "q": "The Moore-Penrose pseudoinverse A⁺ of a matrix A with SVD A = UΣVᵀ is given by:",
+  "opts": [
+    "A⁺ = Vᵀ Σ⁺ U where Σ⁺ replaces each nonzero σᵢ by 1/σᵢ",
+    "A⁺ = (AᵀA)⁻¹Aᵀ when A is full column rank (otherwise undefined)",
+    "A⁺ = Aᵀ(AAᵀ)⁻¹ always",
+    "A⁺ = U Σ⁺ Vᵀ where Σ⁺ replaces each nonzero σᵢ by 1/σᵢ"
+  ],
+  "ans": 3,
+  "exp": "A⁺ = V Σ⁺ Uᵀ where Σ⁺ inverts each nonzero singular value. This satisfies the four Moore-Penrose conditions: AA⁺A = A, A⁺AA⁺ = A⁺, (AA⁺)* = AA⁺, (A⁺A)* = A⁺A. It gives the minimum-norm least-squares solution to Ax = b."
+}

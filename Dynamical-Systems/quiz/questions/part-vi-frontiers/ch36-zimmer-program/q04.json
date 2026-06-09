@@ -1,0 +1,14 @@
+{
+  "ch": 36,
+  "part": 6,
+  "chTitle": "The Zimmer Program",
+  "q": "Kazhdan's property (T) for a group Γ means:",
+  "opts": [
+    "Γ is finite",
+    "Every unitary representation with almost-invariant vectors has a nonzero invariant vector",
+    "Γ is amenable",
+    "Every subgroup of Γ has finite index"
+  ],
+  "ans": 1,
+  "exp": "Property (T) (Kazhdan 1967): if π(Γ) has (ε,K)-invariant vectors for all ε,K, then it has a true invariant vector. Examples: SL(n,ℤ) for n≥3, lattices in higher-rank groups. Property (T) implies property (FW) and Popa's rigidity results."
+}

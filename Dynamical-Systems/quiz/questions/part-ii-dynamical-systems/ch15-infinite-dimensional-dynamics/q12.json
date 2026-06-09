@@ -1,0 +1,14 @@
+{
+  "ch": 15,
+  "part": 2,
+  "chTitle": "Infinite-Dimensional Dynamics",
+  "q": "The Squire transformation for linearised Navier-Stokes shows that 3D instabilities can be reduced to 2D instabilities. More precisely:",
+  "opts": [
+    "All 3D instabilities are equivalent to 2D instabilities",
+    "Any 3D normal mode (k_x, k_y, k_z) instability corresponds to a 2D instability at the same Reynolds number (Squire's theorem)",
+    "3D flows are more stable than 2D",
+    "The Orr-Sommerfeld equation is 3D"
+  ],
+  "ans": 1,
+  "exp": "Squire's theorem: for any unstable 3D oblique mode at Reynolds number Re, there is a more unstable 2D mode at a lower Re'. Therefore the critical Reynolds number for instability is determined by 2D disturbances (the Orr-Sommerfeld equation)."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 9,
+  "part": 2,
+  "chTitle": "Hyperbolic Dynamics",
+  "q": "The Anosov closing lemma states that near a recurrent point of an Anosov diffeomorphism, there is a periodic orbit. More precisely: for any recurrent point x and ε > 0, there is a periodic point y with d(Tⁿy,Tⁿx) < ε for 0 ≤ n ≤ period(y). This follows from the shadowing lemma because:",
+  "opts": [
+    "All orbits are periodic",
+    "A recurrent orbit is a pseudo-orbit (it returns near itself), and the shadowing lemma provides a true periodic orbit that shadows it",
+    "The system is uniformly hyperbolic",
+    "The Markov partition gives the closing directly"
+  ],
+  "ans": 1,
+  "exp": "Closing lemma for Anosov maps: a recurrent point gives a pseudo-orbit (the orbit eventually returns near its start), and the hyperbolic shadowing lemma says this pseudo-orbit is shadowed by a true orbit that must be periodic (since it shadows a nearly-periodic sequence). This gives the density of periodic points in Ω(T)."
+}

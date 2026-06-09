@@ -1,0 +1,14 @@
+{
+  "ch": 17,
+  "part": 3,
+  "chTitle": "Entropy Generalizations",
+  "q": "The mutual information I(X;Y) can be decomposed as I(X;Y)=H(X)+H(Y)−H(X,Y). The chain rule for mutual information gives:",
+  "opts": [
+    "I(X;Y,Z)=I(X;Y)+I(X;Z|Y)",
+    "I(X;Y,Z)=I(X;Y)·I(X;Z|Y)",
+    "I(X;Y,Z)=I(X;Y)+I(X;Z)",
+    "I(X;Y,Z)=I(X;Y,Z|W)+I(X;W)"
+  ],
+  "ans": 0,
+  "exp": "The chain rule: I(X;Y,Z)=I(X;Y)+I(X;Z|Y). This follows from H(X,Y,Z)=H(X)+H(Y,Z|X) and the definition of conditional mutual information I(X;Z|Y)=H(Z|Y)−H(Z|X,Y)."
+}

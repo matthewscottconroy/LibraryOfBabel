@@ -1,0 +1,14 @@
+{
+  "ch": 10,
+  "part": 2,
+  "chTitle": "Bifurcation Theory",
+  "q": "Period-doubling cascade to chaos (as studied by Feigenbaum) is a universal route with the convergence ratio of parameter intervals satisfying:",
+  "opts": [
+    "δ = π",
+    "δ ≈ 4.669 (Feigenbaum constant)",
+    "δ = e",
+    "δ = 2"
+  ],
+  "ans": 1,
+  "exp": "Feigenbaum's constant δ ≈ 4.66920… is universal: consecutive period-doubling bifurcation parameter values satisfy (μₙ₊₁ − μₙ)/(μₙ₊₂ − μₙ₊₁) → δ for any smooth one-parameter family in this universality class."
+}

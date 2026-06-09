@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "Sinkhorn's algorithm for regularized optimal transport (entropic regularization with parameter ε) solves min_{γ∈Π(μ,ν)} ∫c dγ + ε·D_KL(γ||μ⊗ν). The algorithm alternates between:",
+  "opts": [
+    "Gradient descent steps on γ",
+    "Projection onto marginal constraints: normalize rows then columns of the transport matrix",
+    "Solving linear programs",
+    "Computing Wasserstein barycenters"
+  ],
+  "ans": 1,
+  "exp": "Sinkhorn-Knopp: the regularized optimal transport is solved by alternating Bregman projections (w.r.t. KL divergence) onto the constraint sets {γ:γ1=a} and {γ:γᵀ1=b}. Each projection is a diagonal rescaling of the current coupling matrix."
+}

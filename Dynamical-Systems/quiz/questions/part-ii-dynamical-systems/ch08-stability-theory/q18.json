@@ -1,0 +1,14 @@
+{
+  "ch": 8,
+  "part": 2,
+  "chTitle": "Stability Theory",
+  "q": "The passivity theorem for interconnected systems: a feedback connection of a passive system H₁ and a strictly passive system H₂ (satisfying ⟨y,u⟩ ≥ δ||u||² for some δ > 0) is:",
+  "opts": [
+    "Passive but not necessarily stable",
+    "L²-stable (input-output stable)",
+    "Always unstable",
+    "Neutral (energy-preserving)"
+  ],
+  "ans": 1,
+  "exp": "Passivity theorem: if H₁ is passive (∫y·u dt ≥ −γ for all T > 0 and some γ) and H₂ is strictly passive, the feedback connection is L²-stable. Passivity is preserved under parallel and positive feedback connections; strict passivity provides the dissipation needed for stability."
+}

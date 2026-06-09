@@ -1,0 +1,14 @@
+{
+  "ch": 10,
+  "part": 2,
+  "chTitle": "Bifurcation Theory",
+  "q": "Center manifold reduction at a non-hyperbolic equilibrium works because the center manifold W^c is attracting and carries the essential bifurcation dynamics. Specifically, after the reduction to ẋ_c = f_c(x_c) on W^c:",
+  "opts": [
+    "The full system is linear",
+    "Bifurcations in the full system correspond bijectively to bifurcations in the reduced system on W^c",
+    "The reduced system has more equilibria",
+    "The reduced system is Hamiltonian"
+  ],
+  "ans": 1,
+  "exp": "Center manifold theorem: the qualitative dynamics (number and stability of equilibria, limit cycles) near the bifurcation is captured by the reduced equation on W^c. The center manifold is computed as a formal power series in x_c."
+}

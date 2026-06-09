@@ -1,0 +1,14 @@
+{
+  "ch": 36,
+  "part": 6,
+  "chTitle": "The Zimmer Program",
+  "q": "The Zimmer conjecture for SL(n,ℝ)-lattices Γ says that any volume-preserving C∞ action of Γ on a compact manifold M must satisfy:",
+  "opts": [
+    "dim(M) = n",
+    "dim(M) ≥ n-1 = rank_ℝ(SL(n,ℝ))",
+    "M is a torus",
+    "The action is free"
+  ],
+  "ans": 1,
+  "exp": "Zimmer: if Γ≤SL(n,ℝ) is a lattice (e.g., SL(n,ℤ)), any faithful volume-preserving smooth action on compact M has dim(M)≥n-1 (the real rank). Smaller-dimensional M can only be acted on trivially (action factors through a finite group)."
+}

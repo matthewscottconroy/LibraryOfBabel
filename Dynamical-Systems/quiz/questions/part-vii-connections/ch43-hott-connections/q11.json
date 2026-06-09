@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "Synthetic homotopy theory in HoTT proves theorems about homotopy groups πₙ(Sⁿ) using only type-theoretic reasoning. The Freudenthal suspension theorem states:",
+  "opts": [
+    "πₙ(Sⁿ) = ℤ for all n",
+    "The suspension homomorphism E: πₙ(X) → πₙ₊₁(ΣX) is an isomorphism if X is (n−1)-connected and n ≥ 2·(connectivity of X)",
+    "πₙ(Sⁿ) = 0 for n ≥ 2",
+    "All suspension maps are trivial"
+  ],
+  "ans": 1,
+  "exp": "Freudenthal's theorem: if X is (k-1)-connected, the suspension E: πₙ(X) → πₙ₊₁(ΣX) is an isomorphism for n < 2k and surjection for n = 2k. In HoTT, this is proved using the 'join construction' and is one of the deepest results in synthetic homotopy theory."
+}

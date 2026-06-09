@@ -1,0 +1,14 @@
+{
+  "ch": 7,
+  "part": 2,
+  "chTitle": "Ergodic Theory",
+  "q": "An ergodic MPT T is called a K-automorphism (Kolmogorov automorphism) if there exists a sub-σ-algebra 𝒦 such that T⁻¹𝒦 ⊂ 𝒦, ∨ₙ T^n𝒦 = ℬ (full σ-algebra), and ∩ₙ T^{-n}𝒦 = {∅, X} (trivial tail). K-automorphisms satisfy:",
+  "opts": [
+    "Zero entropy",
+    "Completely positive entropy (h(T,𝒫) > 0 for every non-trivial 𝒫) and strong mixing",
+    "Periodicity",
+    "Discrete spectrum"
+  ],
+  "ans": 1,
+  "exp": "K-systems (K-automorphisms): any K-system has completely positive entropy and is strongly mixing. The K-property lies between positive entropy and Bernoulli: all Bernoulli shifts are K, but not all K-systems are Bernoulli. K-systems are characterized by the 0-1 law for the tail field."
+}

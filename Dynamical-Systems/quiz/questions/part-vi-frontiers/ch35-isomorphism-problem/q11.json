@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "The Pinsker algebra Π(T) of an ergodic MPT T is the largest T-invariant sub-σ-algebra with zero entropy. The factor T/Π(T) is the Pinsker factor, and T is a:",
+  "opts": [
+    "Kronecker system if Π(T) is the whole algebra",
+    "Bernoulli system if Π(T) is trivial (the zero-entropy factor is trivial, and T has completely positive entropy)",
+    "Mixing system if Π(T) = {∅,X}",
+    "Weakly mixing system if Π(T) contains the invariant sets"
+  ],
+  "ans": 1,
+  "exp": "Completely positive entropy (CPE) means Π(T) is trivial: no non-trivial sub-σ-algebra has zero entropy. Bernoulli systems have CPE (Thouvenot). The Pinsker factor is the 'zero-entropy part'; factoring it out leaves a CPE system, which by Thouvenot's theorem on factors is Bernoulli up to a zero-entropy extension."
+}

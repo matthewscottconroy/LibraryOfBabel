@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "Singular perturbation problems (fast-slow systems) with ẋ = f(x,y), εẏ = g(x,y) (ε → 0) are analysed by Fenichel's geometric singular perturbation theory. The slow manifold is:",
+  "opts": [
+    "The set where f = 0",
+    "An O(ε) perturbation of the critical manifold {g(x,y) = 0} that is invariant for small ε > 0",
+    "The set where both f = 0 and g = 0",
+    "An invariant torus for the fast system"
+  ],
+  "ans": 1,
+  "exp": "Fenichel's theorem: near a normally hyperbolic compact piece of the critical manifold S₀ = {g = 0}, there exists a slow invariant manifold S_ε = S₀ + O(ε) on which dynamics reduces to a slower system. This formalises Tikhonov's theorem geometrically."
+}

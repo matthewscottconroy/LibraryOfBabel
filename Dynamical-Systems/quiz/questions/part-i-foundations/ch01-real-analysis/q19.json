@@ -1,0 +1,14 @@
+{
+  "ch": 1,
+  "part": 1,
+  "chTitle": "Real Analysis",
+  "q": "The Fourier transform on L²(ℝ) is a unitary isometry (Parseval's theorem). For f, g ∈ L²(ℝ):",
+  "opts": [
+    "∫|f|² dx = ∫|f̂|² dξ (Plancherel)",
+    "||f||₂ = ||f̂||₁",
+    "f̂ ∈ L¹ for all f ∈ L²",
+    "f * g = f̂ · ĝ pointwise"
+  ],
+  "ans": 0,
+  "exp": "Plancherel theorem: ||f̂||₂ = ||f||₂ (with appropriate normalization). The Fourier transform extends to a unitary operator on L²(ℝ). The L² theory requires extension from L¹ ∩ L² by density, unlike the L¹ case where the Fourier transform is defined directly."
+}

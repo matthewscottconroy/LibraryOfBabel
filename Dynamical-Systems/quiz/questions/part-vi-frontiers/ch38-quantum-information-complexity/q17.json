@@ -1,0 +1,14 @@
+{
+  "ch": 38,
+  "part": 6,
+  "chTitle": "Quantum Information and Complexity",
+  "q": "MIP*=RE (Ji-Natarajan-Vidick-Wright-Yuen, 2020) has the consequence that the Connes embedding problem (CEP) is false. The proof uses:",
+  "opts": [
+    "A direct counterexample to CEP via random matrices",
+    "The connection between quantum interactive proofs and CEP via the Kirchberg-QWEP equivalence",
+    "Classical circuit lower bounds",
+    "The Razborov-Smolensky polynomial method"
+  ],
+  "ans": 1,
+  "exp": "Ji et al. (2020): MIP*=RE (multi-prover interactive proofs with quantum entanglement = recursively enumerable). Via Kirchberg's QWEP theorem, this implies the existence of a II₁ factor not embeddable in R^ω, refuting CEP. The key object is the synchronous correlation set and quantum graph isomorphism."
+}

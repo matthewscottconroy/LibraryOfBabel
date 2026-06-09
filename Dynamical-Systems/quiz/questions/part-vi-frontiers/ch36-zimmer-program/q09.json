@@ -1,0 +1,14 @@
+{
+  "ch": 36,
+  "part": 6,
+  "chTitle": "The Zimmer Program",
+  "q": "The Zimmer program's central question asks: what are the actions of lattices Γ in higher-rank Lie groups (like SL(n,ℝ)) on compact manifolds M? The most basic question is: what is the minimum dimension of M for a non-trivial action?",
+  "opts": [
+    "1 (on S¹)",
+    "n−1 (for SL(n,ℝ)-lattices, the conjecture is that actions on manifolds of dimension < n−1 are finite image)",
+    "2",
+    "log n"
+  ],
+  "ans": 1,
+  "exp": "Brown-Fisher-Hurtado (2020): SL(n,ℤ) cannot act on compact manifolds of dimension < n−1 by smooth volume-preserving diffeomorphisms (the action must have finite image). This resolves the main case of the Zimmer conjecture in these dimensions."
+}

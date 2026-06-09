@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "Wolfram's computational equivalence principle (Class IV cellular automata) posits that simple systems can achieve universal computation. The elementary CA Rule 110 was proved Turing-universal by Cook (2004). The key structure used is:",
+  "opts": [
+    "Glider collisions implementing logical gates",
+    "Periodic backgrounds supporting glider computation",
+    "Both A and B",
+    "The lattice symmetry of Rule 110"
+  ],
+  "ans": 2,
+  "exp": "Cook's proof of Rule 110 universality uses gliders (localized propagating structures) on a periodic background. Glider collisions implement universal computation by simulating a tag system. Both the glider dynamics and the periodic background are essential."
+}

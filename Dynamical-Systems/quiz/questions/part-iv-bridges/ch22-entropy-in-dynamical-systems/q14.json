@@ -1,0 +1,14 @@
+{
+  "ch": 22,
+  "part": 4,
+  "chTitle": "Entropy in Dynamical Systems",
+  "q": "The measure of maximal entropy (MME) for a hyperbolic set Λ of a C¹⁺α diffeomorphism equals the SRB measure if and only if:",
+  "opts": [
+    "The Lyapunov exponents are all equal",
+    "The system is volume-preserving and ergodic w.r.t. volume",
+    "The stable and unstable manifolds have equal dimension",
+    "The topological entropy equals the sum of all positive Lyapunov exponents for every invariant measure"
+  ],
+  "ans": 1,
+  "exp": "MME = SRB iff the system preserves a smooth (absolutely continuous) measure, i.e., it is volume-preserving (the Jacobian det(DT) = 1 along unstable manifolds). For Anosov diffeomorphisms, this is equivalent to volume preservation."
+}

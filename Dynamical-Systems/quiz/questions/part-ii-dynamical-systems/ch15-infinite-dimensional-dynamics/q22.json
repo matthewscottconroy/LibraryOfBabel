@@ -1,0 +1,14 @@
+{
+  "ch": 15,
+  "part": 2,
+  "chTitle": "Infinite-Dimensional Dynamics",
+  "q": "The Mañé-Baldi theorem on the dimension of global attractors uses the concept of fractal dimension (box-counting dimension). For the 2D Navier-Stokes equations, the best upper bound on dim_F(A) is proportional to:",
+  "opts": [
+    "Re²",
+    "Re^{4/3}",
+    "Re",
+    "Re^{3/2}"
+  ],
+  "ans": 1,
+  "exp": "The Lieb-Thirring approach (Constantin-Foias-Temam) gives dim_F(A)≤c·Re^{4/3} for 2D Navier-Stokes, matching the Kolmogorov theory prediction for the number of active degrees of freedom."
+}

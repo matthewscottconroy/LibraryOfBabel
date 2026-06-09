@@ -1,0 +1,14 @@
+{
+  "ch": 11,
+  "part": 2,
+  "chTitle": "Chaos Theory",
+  "q": "The Yorke-Li theorem ('Period Three Implies Chaos', 1975) states that for a continuous map f: [a,b] → [a,b]:",
+  "opts": [
+    "Existence of a fixed point implies chaos",
+    "If f has a period-3 orbit, then f has periodic orbits of all periods and uncountably many irregular (non-periodic) points",
+    "Period-3 implies the map is topologically conjugate to the tent map",
+    "Chaos implies period-3"
+  ],
+  "ans": 1,
+  "exp": "Li-Yorke theorem: period-3 → all periods. More precisely, the theorem produces a 'scrambled set' of uncountably many points with irregular orbits (pairs asymptotically independent but not asymptotically separate). This is the Li-Yorke definition of chaos."
+}

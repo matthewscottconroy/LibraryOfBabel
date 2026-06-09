@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "The Leftover Hash Lemma says: if X has min-entropy Hmin(X)≥k and f is a 2-universal hash to {0,1}^ℓ with ℓ ≤ k - 2log(1/ε), then:",
+  "opts": [
+    "f(X) has min-entropy ℓ",
+    "f(X) is ε-close to uniform (indistinguishable from ℓ uniform random bits)",
+    "f(X) = X with probability ε",
+    "f(X) has Shannon entropy exactly ℓ"
+  ],
+  "ans": 1,
+  "exp": "LHL: hashing a source with high min-entropy using a 2-universal hash function extracts nearly-uniform bits. The output f(X) is ε-close to U_ℓ in total variation. This is the foundation of privacy amplification in quantum key distribution."
+}

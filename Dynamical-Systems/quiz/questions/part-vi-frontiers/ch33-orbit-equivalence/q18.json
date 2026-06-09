@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "Connes' embedding problem (CEP) asks whether every II₁ factor embeds into an ultrapower R^ω of the hyperfinite II₁ factor R. The connection to sofic groups is that if G is sofic, then the von Neumann algebra L(G) (the group von Neumann algebra) satisfies:",
+  "opts": [
+    "L(G) is hyperfinite",
+    "L(G) embeds into R^ω (Elek-Szabó)",
+    "L(G) is a type III factor",
+    "L(G) is isomorphic to L(F₂)"
+  ],
+  "ans": 1,
+  "exp": "Elek-Szabó proved that if G is sofic, then L(G) embeds into an ultrapower R^ω of the hyperfinite II₁ factor. This is a positive instance of CEP. MIPRE=RE (Ji et al. 2020) implies CEP is false for general II₁ factors."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 41,
+  "part": 7,
+  "chTitle": "The Collatz Conjecture",
+  "q": "The parity sequence of the Collatz orbit ω_n = C^n(m) mod 2 is used to define a symbolic representation. The Collatz conjecture is equivalent to:",
+  "opts": [
+    "Every parity sequence is eventually periodic with period (0,1)",
+    "Every parity sequence is eventually periodic with period (0) or (1,0,0) (corresponding to the cycles 1→2→1 or 1→4→2→1)",
+    "Every parity sequence is ML-random",
+    "Parity sequences are all eventually 0"
+  ],
+  "ans": 1,
+  "exp": "The cycles of C on positive integers: 1→2→1 (parity: 1,0) and 1→4→2→1 (parity: 1,0,0) [under accelerated map]. Collatz conjecture: every orbit eventually enters one of these cycles, so every parity sequence is eventually periodic with these periods."
+}

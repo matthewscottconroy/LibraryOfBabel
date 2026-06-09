@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "Normal numbers in base b are defined by Borel (1909): x is normal to base b if every block of k digits appears with frequency b^{-k}. The set of normal numbers has:",
+  "opts": [
+    "Measure zero",
+    "Full Lebesgue measure (measure 1)",
+    "Measure equal to log b",
+    "Measure equal to 1−1/b"
+  ],
+  "ans": 1,
+  "exp": "Borel's theorem (1909): almost all real numbers are normal to every base (absolutely normal). The proof uses the law of large numbers applied to the digit expansion. Despite having full measure, not a single provably absolutely normal number is explicitly known to be transcendental."
+}

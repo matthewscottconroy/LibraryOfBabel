@@ -1,0 +1,14 @@
+{
+  "ch": 37,
+  "part": 6,
+  "chTitle": "Frontiers in Complex Dynamics",
+  "q": "The Thurston-Douady-Hubbard classification via Hubbard trees: for a postcritically finite polynomial f (all critical orbits are finite), the combinatorial type is captured by:",
+  "opts": [
+    "The Mandelbrot set",
+    "The Hubbard tree: a finite invariant tree containing the postcritical set, on which f acts as a graph map with specific topological properties",
+    "The Julia set topology",
+    "The rotation number of the Siegel disk"
+  ],
+  "ans": 1,
+  "exp": "Hubbard tree: for a postcritically finite polynomial, the convex hull of the postcritical set in the filled Julia set K(f) is a finite invariant tree (the Hubbard tree). The restriction of f to the tree encodes the combinatorics of the polynomial up to topological conjugacy. Thurston's algorithm reconstructs f from the Hubbard tree."
+}

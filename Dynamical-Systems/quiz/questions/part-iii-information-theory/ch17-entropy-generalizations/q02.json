@@ -1,0 +1,14 @@
+{
+  "ch": 17,
+  "part": 3,
+  "chTitle": "Entropy Generalizations",
+  "q": "Von Neumann entropy S(ρ) = -Tr[ρ log ρ] for a quantum state ρ equals Shannon entropy H when:",
+  "opts": [
+    "ρ is a pure state (rank 1)",
+    "ρ is diagonal in some basis (the eigenvalues form a classical probability distribution)",
+    "ρ = I/d (maximally mixed)",
+    "ρ has only integer eigenvalues"
+  ],
+  "ans": 1,
+  "exp": "When ρ = ∑λᵢ|i⟩⟨i| is diagonal, S(ρ) = -∑λᵢ log λᵢ = H(λ₁,…,λd). Von Neumann entropy generalises Shannon entropy to quantum states, with the eigenvalues of ρ playing the role of the probability distribution."
+}

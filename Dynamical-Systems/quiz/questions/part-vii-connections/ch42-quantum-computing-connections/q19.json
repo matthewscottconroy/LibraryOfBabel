@@ -1,0 +1,14 @@
+{
+  "ch": 42,
+  "part": 7,
+  "chTitle": "Quantum Computing and Dynamical Systems",
+  "q": "The quantum approximate optimization algorithm (QAOA) for MaxCut on a graph G with n vertices uses p layers of alternating cost and mixer unitaries. The approximation ratio for p=1 QAOA on 3-regular graphs is known to be at least:",
+  "opts": [
+    "1/2",
+    "0.6924... (Farhi-Goldstone-Gutmann 2014)",
+    "0.878 (Goemans-Williamson)",
+    "Provably better than all classical algorithms"
+  ],
+  "ans": 1,
+  "exp": "QAOA at p=1 on 3-regular MaxCut achieves approximation ratio ≥0.6924 (FGG 2014), better than the random 0.5 but below the GW algorithm's 0.878. For large p, QAOA approaches the optimal, but the practical advantage over classical algorithms for small p remains unclear."
+}

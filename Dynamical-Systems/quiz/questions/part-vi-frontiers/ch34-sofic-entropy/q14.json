@@ -1,0 +1,14 @@
+{
+  "ch": 34,
+  "part": 6,
+  "chTitle": "Sofic Entropy",
+  "q": "Austin's theorem on multiple recurrence for amenable groups and its relation to sofic entropy: the multiple Birkhoff average (1/|Φₙ|) Σ_{g∈Φₙ} T^g f₁ · T^{g²} f₂ converges in L². The connection to sofic entropy is that:",
+  "opts": [
+    "Multiple recurrence requires positive sofic entropy",
+    "The non-conventional ergodic averages (Host-Kra theory) use structured extensions that can be viewed as systems of bounded sofic entropy",
+    "All convergence results require amenability",
+    "Sofic entropy is irrelevant to multiple recurrence"
+  ],
+  "ans": 1,
+  "exp": "Host-Kra theory of characteristic factors for multiple convergence uses nilpotent extensions (nilsystems). These are algebraic actions whose entropy structure (sofic or classical) is well-controlled. The connection is indirect but deep: nilsystems have bounded entropy and control multiple averages."
+}

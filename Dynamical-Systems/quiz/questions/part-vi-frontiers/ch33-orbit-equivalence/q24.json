@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "The Borel cardinality of the isomorphism relation on countable groups is classified by Shelah-Thomas (2001). The isomorphism relation on countable groups is Borel reducible to which equivalence relation?",
+  "opts": [
+    "E_0 (tail equivalence)",
+    "The universal countable Borel equivalence relation E_∞",
+    "The graph isomorphism relation",
+    "It is not a Borel equivalence relation (analytic but not Borel)"
+  ],
+  "ans": 1,
+  "exp": "Shelah-Thomas (2001): the isomorphism relation ≅_G on countable groups is a complete analytic (Σ¹₁) equivalence relation, Borel bi-reducible with the universal countable Borel equivalence relation E_∞. It is more complex than all countable Borel equivalence relations under ≤_B."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "The prefix-free (Shannon) code length for a symbol x with probability p(x) is optimally −log₂ p(x) bits. The Kraft inequality states that a prefix-free code with lengths {lᵢ} exists if and only if:",
+  "opts": [
+    "Σ lᵢ ≤ n",
+    "Σ 2^{−lᵢ} ≤ 1",
+    "Σ lᵢ·pᵢ = H(X)",
+    "All lᵢ are positive integers"
+  ],
+  "ans": 1,
+  "exp": "Kraft inequality: Σ 2^{-lᵢ} ≤ 1 is necessary and sufficient for prefix-free codes. Conversely, for any lengths satisfying Kraft's inequality, a prefix-free code exists. Combined with H(X) ≤ ∑ pᵢlᵢ < H(X)+1, this bounds the overhead of Huffman coding."
+}

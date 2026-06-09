@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "The effective Hausdorff dimension of a sequence ω∈{0,1}^ω (Lutz 2003) is defined as dim(ω)=lim inf_{n→∞} K(ω|_n)/n where K is Kolmogorov complexity. A normal sequence (in the sense of Borel) has effective dimension:",
+  "opts": [
+    "0",
+    "1",
+    "1/2",
+    "Equal to the algorithmic entropy"
+  ],
+  "ans": 1,
+  "exp": "A Borel-normal sequence ω has K(ω|_n)~n (near-maximal compression), so dim(ω)=lim inf K(ω|_n)/n=1. Sequences with effective dimension 1 include Martin-Löf random sequences. Sequences with dim(ω)<1 have compressible prefixes."
+}

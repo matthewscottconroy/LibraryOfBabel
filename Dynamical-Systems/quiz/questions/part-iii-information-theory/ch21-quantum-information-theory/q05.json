@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The no-cloning theorem in quantum information states that:",
+  "opts": [
+    "Quantum states cannot be teleported",
+    "There is no unitary operation that perfectly copies an arbitrary unknown quantum state",
+    "Quantum computation is slower than classical",
+    "Entanglement cannot be created"
+  ],
+  "ans": 1,
+  "exp": "No-cloning: there is no unitary U such that U|ψ⟩|0⟩ = |ψ⟩|ψ⟩ for all |ψ⟩. This distinguishes quantum from classical information and is why quantum cryptography can detect eavesdroppers."
+}

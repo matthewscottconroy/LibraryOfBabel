@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "The Nekhoroshev theorem (1977) on near-integrable Hamiltonian systems provides stability over exponentially long time scales. For perturbation size ε, actions I(t) stay within O(ε^b) of I(0) for time:",
+  "opts": [
+    "O(1/ε)",
+    "O(exp(1/ε^a)) for some exponents a,b > 0 depending on the number of degrees of freedom",
+    "O(1/ε²)",
+    "All time (KAM stability)"
+  ],
+  "ans": 1,
+  "exp": "Nekhoroshev stability: under convexity conditions on H₀(I), the actions satisfy |I(t)−I(0)| ≤ Cε^b for |t| ≤ T₀ exp((ε₀/ε)^a). This super-exponential time scale bridges KAM (infinite time for Diophantine tori) and Chirikov diffusion (polynomial time for resonant zones)."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 22,
+  "part": 4,
+  "chTitle": "Entropy in Dynamical Systems",
+  "q": "The topological entropy of a continuous map f:X→X can be computed via the growth rate of (n,ε)-spanning sets s(n,ε). The entropy is h_top(f)=lim_{ε→0} lim sup_{n→∞} (1/n)log s(n,ε). An alternative definition due to Misiurewicz-Szlenk for piecewise monotone interval maps gives:",
+  "opts": [
+    "h_top(f)=lim (1/n)log(number of monotone pieces of fⁿ)",
+    "h_top(f)=log(spectral radius of the transition matrix)",
+    "h_top(f)=∫log|f'|dμ_{MME}",
+    "All three are equivalent for piecewise monotone maps"
+  ],
+  "ans": 3,
+  "exp": "For piecewise monotone interval maps, all three formulas give the same topological entropy: (1/n)log(lap number of fⁿ), log(spectral radius of kneading/transition matrix), and ∫log|f'|dμ_{MME} (Parry-Milnor-Thurston). They are equivalent by Misiurewicz-Szlenk theory."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "The index theory of inclusions of II₁ factors (Jones 1983) defines [M:N]∈{4cos²(π/n): n≥3}∪[4,∞] for a subfactor N⊆M. The Jones index is computed as:",
+  "opts": [
+    "[M:N]=dim_N(L²(M))",
+    "[M:N]=dim(M)−dim(N)",
+    "[M:N]=the spectral radius of the principal graph",
+    "[M:N]=dim_{L(F_n)}(M)"
+  ],
+  "ans": 0,
+  "exp": "Jones' index [M:N]=dim_{N-right}(L²(M)) is the Murray-von Neumann dimension of L²(M) as a right N-module. The restriction to values {4cos²(π/n)}∪[4,∞] is Jones' index theorem, with the gap (1,4) being excluded values."
+}

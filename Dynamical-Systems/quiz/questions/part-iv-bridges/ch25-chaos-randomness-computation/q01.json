@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "For the doubling map T(x)=2x mod 1, the orbit of a rational x=p/q is:",
+  "opts": [
+    "Dense in [0,1]",
+    "Martin–Löf random",
+    "Eventually periodic with period equal to the multiplicative order of 2 mod q",
+    "A fixed point"
+  ],
+  "ans": 2,
+  "exp": "Rationals under the doubling map: 2ⁿ·(p/q) mod 1 is eventually periodic because {2ⁿ mod q} is periodic. The period equals the multiplicative order of 2 modulo q. Rational orbits are never random (periodic = compressible)."
+}

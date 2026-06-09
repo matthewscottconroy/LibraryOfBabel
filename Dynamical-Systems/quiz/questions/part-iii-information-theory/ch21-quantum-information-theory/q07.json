@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "Bennett-Brassard-Wiesner dense coding allows transmission of 2 classical bits using:",
+  "opts": [
+    "2 qubits and no entanglement",
+    "1 qubit and 1 pre-shared EPR pair",
+    "2 EPR pairs",
+    "1 qubit with no entanglement"
+  ],
+  "ans": 1,
+  "exp": "Superdense coding: Alice encodes 2 bits by applying one of 4 Pauli operations to her half of a shared EPR pair, then sends 1 qubit to Bob, who measures the pair. This doubles classical capacity via entanglement."
+}

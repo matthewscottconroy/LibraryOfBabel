@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "Amari's α-connections ∇^{(α)} on a statistical manifold form a one-parameter family. The dually flat pair (e-flat, m-flat) corresponds to:",
+  "opts": [
+    "α = 0 and α = 1",
+    "α = 1 and α = −1",
+    "α = 0 and α = ∞",
+    "α = 2 and α = −2"
+  ],
+  "ans": 1,
+  "exp": "The e-connection (α=+1) and m-connection (α=−1) are dual with respect to the Fisher metric: they are related by (∇^{(α)})^* = ∇^{(-α)} under metric duality. The Levi-Civita connection is α=0 (the Riemannian connection), which is its own dual."
+}

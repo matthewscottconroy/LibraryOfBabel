@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "The Lebesgue differentiation theorem states that for f ∈ L¹_{loc}(ℝⁿ), at Lebesgue-almost every x:",
+  "opts": [
+    "f is differentiable",
+    "(1/|B_r(x)|)∫_{B_r(x)} f(y) dy → f(x) as r → 0",
+    "f is continuous",
+    "The Fourier series of f converges at x"
+  ],
+  "ans": 1,
+  "exp": "Lebesgue differentiation theorem: for a.e. x, the balls-average of f converges to f(x). x is a 'Lebesgue point' of f. The proof uses the Hardy-Littlewood maximal function. This makes the 'almost everywhere pointwise value' of an L¹ function well-defined."
+}

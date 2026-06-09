@@ -1,0 +1,14 @@
+{
+  "ch": 18,
+  "part": 3,
+  "chTitle": "Algorithmic Information Theory",
+  "q": "Levin's coding theorem relates K(x) (plain complexity) to K_m(x) (monotone complexity). For a string x of length n, the monotone complexity K_m(x) satisfies:",
+  "opts": [
+    "K_m(x)=K(x)+O(1)",
+    "K_m(x)=K(x)+O(log n)",
+    "K_m(x)≤K(x)≤K_m(x)+2log K(x)+O(1)",
+    "K_m(x)≥K(x) always"
+  ],
+  "ans": 2,
+  "exp": "K(x)≤K_m(x)+O(1) (monotone programs are valid programs) and K_m(x)≤K(x)+2log K(x)+O(1) (self-delimiting trick). So K_m and K differ by at most O(log n), making them equivalent for most purposes."
+}

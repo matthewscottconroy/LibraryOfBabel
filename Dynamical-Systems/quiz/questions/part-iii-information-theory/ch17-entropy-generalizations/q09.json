@@ -1,0 +1,14 @@
+{
+  "ch": 17,
+  "part": 3,
+  "chTitle": "Entropy Generalizations",
+  "q": "Rényi's entropy H_α(X) → H_∞(X) = −log max_x p(x) as α → ∞. This min-entropy equals:",
+  "opts": [
+    "−log E[p(X)]",
+    "The negative log of the largest probability (the most likely outcome's surprisal)",
+    "H(X)/α",
+    "0"
+  ],
+  "ans": 1,
+  "exp": "Min-entropy H_∞(X) = −log max_x p(x) is the entropy of the best single-guess predictor. It is the most conservative (smallest) Rényi entropy and equals 0 for a deterministic X. In cryptography it measures the one-query distinguishing advantage."
+}

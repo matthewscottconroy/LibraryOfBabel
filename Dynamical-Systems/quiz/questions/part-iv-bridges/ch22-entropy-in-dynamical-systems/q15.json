@@ -1,0 +1,14 @@
+{
+  "ch": 22,
+  "part": 4,
+  "chTitle": "Entropy in Dynamical Systems",
+  "q": "Takens' embedding theorem (delay-coordinate embedding) states that for a smooth dynamical system on a compact manifold M of dimension m, a generic delay embedding (x, T(x), T²(x), …, T^{2m}(x)) is:",
+  "opts": [
+    "Always onto M",
+    "An embedding (injective immersion) of M into ℝ^{2m+1}",
+    "Surjective onto ℝ^{2m+1}",
+    "Only injective for m = 1"
+  ],
+  "ans": 1,
+  "exp": "Takens' theorem (1981): for a C² diffeomorphism T on a compact m-manifold M, the delay-coordinate map Φ: M → ℝ^{2m+1} is generically an embedding. This justifies reconstructing the attractor from a single scalar time series—the foundation of time-series analysis of chaotic systems."
+}

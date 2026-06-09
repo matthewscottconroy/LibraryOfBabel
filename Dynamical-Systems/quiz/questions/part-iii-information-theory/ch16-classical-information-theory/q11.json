@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "The mutual information I(X;Y) can be written as a KL divergence:",
+  "opts": [
+    "I(X;Y) = D(P_{XY} || P_X ⊗ P_Y)",
+    "I(X;Y) = D(P_X || P_Y)",
+    "I(X;Y) = H(X) + H(Y)",
+    "I(X;Y) = D(P_Y || P_{Y|X})"
+  ],
+  "ans": 0,
+  "exp": "I(X;Y) = D(P_{XY} || P_X ⊗ P_Y) = Σ p(x,y) log[p(x,y)/(p(x)p(y))]. This expresses mutual information as the KL divergence between the joint distribution and the product of marginals, measuring the deviation from independence."
+}

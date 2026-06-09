@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "The Riesz representation theorem for C(K) (K compact Hausdorff) identifies the dual space C(K)* with:",
+  "opts": [
+    "L¹(K)",
+    "The space of regular Borel signed measures on K, via Λ(f) = ∫ f dμ",
+    "The space of Borel probability measures",
+    "L²(K)"
+  ],
+  "ans": 1,
+  "exp": "Riesz-Markov-Kakutani: every bounded linear functional Λ on C(K) is represented by a unique regular Borel signed measure μ. For positive functionals, μ is a positive measure. This is foundational for weak-* topology on measure spaces."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 19,
+  "part": 3,
+  "chTitle": "Network Information Theory",
+  "q": "For the wiretap channel (Wyner 1975), with main channel P(y|x) and eavesdropper channel P(z|x) where z is a degraded version of y, the secrecy capacity is:",
+  "opts": [
+    "C_s=max_{p(x)}[I(X;Y)−I(X;Z)]",
+    "C_s=max_{p(x)}I(X;Y)",
+    "C_s=C_main−C_wiretap",
+    "C_s=I(Y;Z)"
+  ],
+  "ans": 0,
+  "exp": "Wyner's secrecy capacity for the degraded wiretap channel is C_s=max_{p(x)}[I(X;Y)−I(X;Z)], where the maximization is over input distributions. The gap I(X;Y)−I(X;Z) measures the advantage of the legitimate receiver over the eavesdropper."
+}

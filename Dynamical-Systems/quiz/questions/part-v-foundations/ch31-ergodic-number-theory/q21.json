@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "The Furstenberg correspondence principle relates Szemerédi-type theorems to ergodic theory. It states that for any A⊆ℕ with upper density d̄(A)=lim sup |A∩[N]|/N>0, there exists an ergodic measure-preserving system (X,μ,T) and set E with μ(E)=d̄(A) such that:",
+  "opts": [
+    "d̄(A∩(A-k))≥μ(E∩T^{-k}E) for all k",
+    "d̄(A∩(A-1)∩...∩(A-k))≥μ(E∩T^{-1}E∩...∩T^{-k}E) for all k (van der Waerden/AP)",
+    "μ(E)=d̄(A) and the dynamical system encodes A",
+    "Both A and B hold with equality"
+  ],
+  "ans": 1,
+  "exp": "Furstenberg's correspondence: given A with d̄(A)>0, ∃ system (X,μ,T) with set E, μ(E)=d̄(A), such that d̄(A∩(A-1)∩...∩(A-k))≥μ(E∩T^{-1}E∩...∩T^{-k}E). Szemerédi's theorem follows from the ergodic theorem giving lim inf μ(⋂T^{-jk}E)>0."
+}

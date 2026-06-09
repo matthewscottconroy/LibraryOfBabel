@@ -1,0 +1,14 @@
+{
+  "ch": 1,
+  "part": 1,
+  "chTitle": "Real Analysis",
+  "q": "The Riemann-Lebesgue lemma states that for any f ∈ L¹(ℝ):",
+  "opts": [
+    "The Fourier transform f̂ is in L¹(ℝ)",
+    "f̂(ξ) → 0 as |ξ| → ∞",
+    "f̂ is uniformly continuous",
+    "f̂ is in L²(ℝ)"
+  ],
+  "ans": 1,
+  "exp": "Riemann-Lebesgue: f̂(ξ) = ∫ f(x)e^{-2πiξx}dx → 0 as |ξ| → ∞ for any f ∈ L¹. Intuitively, rapid oscillations of e^{-2πiξx} cancel; formally, approximate f by step functions and use that f̂ of a step function decays."
+}

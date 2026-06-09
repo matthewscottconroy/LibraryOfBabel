@@ -1,0 +1,14 @@
+{
+  "ch": 9,
+  "part": 2,
+  "chTitle": "Hyperbolic Dynamics",
+  "q": "The Hirsch-Pugh-Shub theorem on normally hyperbolic invariant manifolds (NHIMs) states that if M is invariant under T and the normal bundle expansion/contraction dominates the tangential, then M persists under C¹ perturbations. The persistence means:",
+  "opts": [
+    "M is unchanged by perturbations",
+    "There exists M' close to M that is invariant for the perturbed map T' = T+ε",
+    "T restricted to M is unchanged",
+    "The normal bundle vanishes"
+  ],
+  "ans": 1,
+  "exp": "NHIM persistence theorem: if M is compact invariant with normal hyperbolicity (normal rates dominate tangential rates), then for any C¹ perturbation T' of T, there exists M' (homeomorphic to M, C^r close) that is invariant for T'. This generalizes the hyperbolic fixed-point theory to higher-dimensional invariant manifolds."
+}

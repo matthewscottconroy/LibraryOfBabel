@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "Williams' classification of SFTs by strong shift equivalence states that two SFTs (with adjacency matrices A, B) are conjugate iff:",
+  "opts": [
+    "A and B have the same determinant",
+    "A and B are strongly shift equivalent (related by a chain of elementary equivalences R, S with RS=A, SR=B)",
+    "A and B have the same spectrum",
+    "A and B have the same size"
+  ],
+  "ans": 1,
+  "exp": "Williams' theorem (1973): SFTs defined by non-negative integer matrices A, B are topologically conjugate iff A and B are strongly shift equivalent (SSE). Checking SSE is algorithmically undecidable in general; shift equivalence (a weaker algebraic relation) is decidable but not equivalent to SSE."
+}

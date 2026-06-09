@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "The Maslov index of a Lagrangian path (path in the Lagrangian Grassmannian Λ(n)) is an integer that counts signed intersections with the Maslov cycle. In physics and semiclassical analysis, it appears in the:",
+  "opts": [
+    "Hamiltonian equations of motion",
+    "WKB quantisation condition: ∮ p dq = (n + μ/4)h where μ is the Maslov index",
+    "Poisson bracket formula",
+    "Definition of canonical transformations"
+  ],
+  "ans": 1,
+  "exp": "The Maslov index μ appears in the semiclassical (WKB/Bohr-Sommerfeld) quantisation condition ∮ p dq = (n + μ/4)h, correcting the naive quantisation by counting caustic crossings. It is a topological invariant of Lagrangian submanifolds."
+}

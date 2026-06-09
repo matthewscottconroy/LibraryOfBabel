@@ -1,0 +1,14 @@
+{
+  "ch": 8,
+  "part": 2,
+  "chTitle": "Stability Theory",
+  "q": "Oseledec's Multiplicative Ergodic Theorem extends Lyapunov exponents to ergodic systems by stating:",
+  "opts": [
+    "All Lyapunov exponents are equal",
+    "For a.e. initial condition, the Lyapunov exponents exist and are constant (ergodic averages)",
+    "Lyapunov exponents are always zero for ergodic systems",
+    "The exponents depend continuously on the initial condition"
+  ],
+  "ans": 1,
+  "exp": "Oseledec (1968): for a cocycle over an ergodic MPT, the Lyapunov exponents λ₁≥λ₂≥… exist for a.e. x, are constant (independent of x), and define the Lyapunov spectrum. This is the multiplicative analogue of Birkhoff's theorem."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 5,
+  "part": 1,
+  "chTitle": "Linear Algebra",
+  "q": "The matrix exponential e^A is defined by the power series Σ Aⁿ/n!. For commuting matrices A, B (AB = BA):",
+  "opts": [
+    "e^{A+B} = e^A · e^B",
+    "e^{A+B} ≠ e^A · e^B in general",
+    "e^{A+B} = e^A + e^B",
+    "e^{A+B} = max(e^A, e^B)"
+  ],
+  "ans": 0,
+  "exp": "For commuting A, B: e^{A+B} = e^A·e^B. Without commutativity, the Baker-Campbell-Hausdorff formula applies: e^A·e^B = e^{A+B+[A,B]/2+...}. The matrix exponential maps the Lie algebra to the Lie group and is fundamental in solving linear ODEs ẋ = Ax with solution x(t) = e^{At}x₀."
+}

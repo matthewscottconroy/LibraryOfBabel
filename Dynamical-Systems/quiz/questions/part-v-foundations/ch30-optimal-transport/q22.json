@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "The Lott-Sturm-Villani theory of metric measure spaces satisfying CD(K,N) (curvature-dimension condition) characterizes Riemannian manifolds with Ricci curvature ≥K and dimension ≤N via:",
+  "opts": [
+    "The K-convexity of entropy along W₂ geodesics",
+    "The Sobolev inequality with best constants",
+    "Bounds on eigenvalues of the Laplacian",
+    "The Harnack inequality"
+  ],
+  "ans": 0,
+  "exp": "CD(K,N): a metric measure space (X,d,m) satisfies CD(K,N) iff the (N,K)-Rényi entropy S_N is K-convex along W₂ geodesics. For Riemannian manifolds, this recovers Ric≥K and dim≤N. This allows proving Brunn-Minkowski, isoperimetric, and Poincaré inequalities in general metric spaces."
+}

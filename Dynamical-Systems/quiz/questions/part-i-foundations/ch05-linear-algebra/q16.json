@@ -1,0 +1,14 @@
+{
+  "ch": 5,
+  "part": 1,
+  "chTitle": "Linear Algebra",
+  "q": "For a linear map T: V → V on a finite-dimensional space, the Cayley-Hamilton theorem can be used to show the minimal polynomial m_T divides the characteristic polynomial p_T. This means the minimal polynomial:",
+  "opts": [
+    "Equals p_T always",
+    "Has the same roots as p_T but possibly smaller degree",
+    "Has strictly smaller degree than p_T",
+    "Is unrelated to p_T"
+  ],
+  "ans": 1,
+  "exp": "The minimal polynomial m_T has the same roots (eigenvalues) as p_T but each may appear with smaller multiplicity. m_T | p_T by CH. A matrix is diagonalizable iff m_T has no repeated roots (all eigenvalues appear with multiplicity 1 in m_T)."
+}

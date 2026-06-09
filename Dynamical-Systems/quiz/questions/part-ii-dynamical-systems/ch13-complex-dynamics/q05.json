@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "The Julia set J(f) of a rational map f: ℂ̂ → ℂ̂ is equivalently defined as the closure of the set of:",
+  "opts": [
+    "Attracting periodic points",
+    "Repelling periodic points",
+    "Neutral periodic points",
+    "Critical points"
+  ],
+  "ans": 1,
+  "exp": "A fundamental theorem: J(f) equals the closure of the set of repelling periodic points. This characterization (due to Julia and Fatou) shows J(f) is non-empty for deg(f) ≥ 2."
+}

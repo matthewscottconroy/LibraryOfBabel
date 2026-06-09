@@ -1,0 +1,14 @@
+{
+  "ch": 5,
+  "part": 1,
+  "chTitle": "Linear Algebra",
+  "q": "A matrix A is diagonalizable over ℂ if and only if the minimal polynomial m_A has:",
+  "opts": [
+    "Degree equal to the algebraic multiplicity of each eigenvalue",
+    "No repeated roots (each eigenvalue appears with multiplicity 1 in m_A)",
+    "All roots of absolute value 1",
+    "All roots real"
+  ],
+  "ans": 1,
+  "exp": "Diagonalizability ↔ m_A has no repeated roots ↔ the Jordan form has no Jordan blocks of size > 1 ↔ the algebraic and geometric multiplicities of each eigenvalue coincide. This is equivalent to the eigenspace decomposition spanning the full space."
+}

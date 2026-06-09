@@ -1,0 +1,14 @@
+{
+  "ch": 23,
+  "part": 4,
+  "chTitle": "Ergodic Information Theory",
+  "q": "The relative entropy rate of process P w.r.t. process Q satisfies D̄(P||Q) = lim_{n→∞} (1/n) D(P^n||Q^n). For ergodic processes, this equals:",
+  "opts": [
+    "H̄(P)",
+    "H̄(Q) − H̄(P)",
+    "The asymptotic expected log-likelihood ratio per symbol",
+    "D(P₁||Q₁) always"
+  ],
+  "ans": 2,
+  "exp": "By Birkhoff ergodic theorem, (1/n)log(dP^n/dQ^n) → D̄(P||Q) a.s. under P. The relative entropy rate is the a.s. limit of the normalised log-likelihood ratio—the per-symbol KL divergence between stationary processes."
+}

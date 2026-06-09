@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "The α-divergence D_α(p||q)=(4/(1-α²))(1−∫p^{(1-α)/2}·q^{(1+α)/2}) interpolates between forward and reverse KL. At α=1:",
+  "opts": [
+    "D_α→D_KL(p||q)",
+    "D_α→D_KL(q||p)",
+    "D_α→0",
+    "D_α→Hellinger distance"
+  ],
+  "ans": 0,
+  "exp": "As α→1, D_α(p||q)→D_KL(p||q) (forward KL). As α→−1, D_α(p||q)→D_KL(q||p) (reverse KL). At α=0, D_α is proportional to the squared Hellinger distance."
+}

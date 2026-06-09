@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "The isomorphism problem for ergodic measure-preserving transformations asks whether two given systems are measurably isomorphic. For Bernoulli shifts, Ornstein's theorem (1970) gives a complete classification, reducing the problem to:",
+  "opts": [
+    "Comparing topological entropies",
+    "Comparing Kolmogorov-Sinai entropy (a complete invariant for Bernoulli shifts)",
+    "Computing the Pinsker algebra",
+    "Checking if both are weakly mixing"
+  ],
+  "ans": 1,
+  "exp": "Ornstein's theorem: entropy H is a complete invariant for Bernoulli shifts. Two Bernoulli shifts are isomorphic iff they have equal entropy. The proof introduces the 'd-bar metric on processes and shows Bernoulli shifts are the d-bar closure of i.i.d. processes."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "Pseudo-random number generators (PRNGs) based on chaotic maps use the property that chaotic maps:",
+  "opts": [
+    "Have rational orbits",
+    "Are sensitive to initial conditions, mixing information quickly",
+    "Are linear",
+    "Have periodic orbits only"
+  ],
+  "ans": 1,
+  "exp": "Chaotic maps (logistic map, tent map, etc.) are sensitive to initial conditions and mix information rapidly. They can be used as PRNGs, though cryptographic security requires additional analysis of the unpredictability relative to polynomial-time adversaries."
+}

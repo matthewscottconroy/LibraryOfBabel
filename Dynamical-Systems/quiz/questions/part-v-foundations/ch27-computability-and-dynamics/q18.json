@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "A real number x∈ℝ is computable if there exists a Turing machine that, given n, outputs an integer a_n with |x−a_n/2^n|<2^{-n}. The set of computable reals is:",
+  "opts": [
+    "Countable and forms a real closed field",
+    "Uncountable (one per Turing machine)",
+    "All algebraic numbers",
+    "Dense in the computable reals only"
+  ],
+  "ans": 0,
+  "exp": "The computable reals form a countable set (one per Turing machine) that is a real closed field: closed under +,−,×,÷ and square roots of positives. However, the set is not closed: limits of computable sequences of computable reals need not be computable (contra-Cauchy sequences of computable reals can converge to uncomputable limits)."
+}

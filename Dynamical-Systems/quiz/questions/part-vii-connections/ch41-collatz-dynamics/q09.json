@@ -1,0 +1,14 @@
+{
+  "ch": 41,
+  "part": 7,
+  "chTitle": "The Collatz Conjecture",
+  "q": "The 2-adic representation of the Collatz map on odd integers n is: T(n) = (3n+1)/2^{v₂(3n+1)}. In terms of the 2-adic norm |·|₂ (where |2^k m|₂ = 2^{-k} for odd m), T is:",
+  "opts": [
+    "An isometry",
+    "A contraction: |T(n)|₂ < |n|₂ on average (heuristically)",
+    "An expansion",
+    "Measure-preserving on ℤ₂"
+  ],
+  "ans": 1,
+  "exp": "In 2-adic terms: T multiplies n by 3/2^{v₂(3n+1)}. The 2-adic valuation v₂ is geometrically distributed (heuristically), so |T(n)|₂ = 2^{-v₂(3n+1)}|n|₂ · 3 ≈ (3/4)|n|₂ on average (since E[2^{-v₂}] = 1/2). Average contraction by 3/4 < 1 explains why iterates should go to 0 (which is 1 → fixed point in ℤ₂)."
+}

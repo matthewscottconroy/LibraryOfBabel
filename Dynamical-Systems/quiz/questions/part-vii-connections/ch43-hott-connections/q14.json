@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "Cubical type theory (Bezem-Coquand-Huber, CCHM) provides a computational interpretation of HoTT where:",
+  "opts": [
+    "The univalence axiom has no computational content",
+    "The univalence axiom is provable from cubical primitives (faces, degeneracies, connections in the n-cube) and has a reduction rule (is definitionally true)",
+    "Cubical types are just simplicial types",
+    "Higher inductive types are not definable"
+  ],
+  "ans": 1,
+  "exp": "Cubical type theory (CTT): introduces an interval type I with endpoints 0, 1 and face maps. Paths are functions I → A; the composition/filling operations give a constructive proof of univalence (as a theorem, not an axiom). This resolves the 'non-constructive' nature of the original HoTT book."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 12,
+  "part": 2,
+  "chTitle": "Symbolic Dynamics",
+  "q": "For a primitive substitution (where some power maps each letter to a word containing all letters), the symbolic dynamical system is:",
+  "opts": [
+    "Always an SFT",
+    "Always minimal and uniquely ergodic",
+    "Always mixing",
+    "Conjugate to a Bernoulli shift"
+  ],
+  "ans": 1,
+  "exp": "A primitive substitution generates a minimal (every orbit is dense) and uniquely ergodic (unique invariant probability measure) subshift. The Perron-Frobenius theorem gives the invariant measure weights from the leading eigenvector."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 11,
+  "part": 2,
+  "chTitle": "Chaos Theory",
+  "q": "Jakobson's theorem (1981) states that for the quadratic family fₐ(x)=1−ax², the set of parameters a∈[0,2] for which fₐ admits an absolutely continuous invariant measure has:",
+  "opts": [
+    "Measure zero but is uncountable",
+    "Positive Lebesgue measure",
+    "Full measure",
+    "Only countably many elements"
+  ],
+  "ans": 1,
+  "exp": "Jakobson's theorem establishes that the set of parameters for which the quadratic map has an ACIM has positive Lebesgue measure, though it has measure strictly less than that of the full parameter interval."
+}

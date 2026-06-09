@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "The orbit problem for linear maps (given rational matrix A and rational vectors x, y, does Aⁿx = y for some n?) is:",
+  "opts": [
+    "Decidable in polynomial time",
+    "Decidable but PSPACE-hard",
+    "Decidable for 2×2 matrices but open for higher dimensions",
+    "Undecidable in general"
+  ],
+  "ans": 2,
+  "exp": "The orbit problem for 2×2 matrices is decidable (Kannan-Lipton). For 3×3 it is open, and for sufficiently large matrices it is undecidable. This connects computational complexity to algebraic number theory."
+}

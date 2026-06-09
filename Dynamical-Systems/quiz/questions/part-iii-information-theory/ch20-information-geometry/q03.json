@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "Exponential families p(x;θ) = h(x)exp(θ·T(x) - A(θ)) are geometrically special because:",
+  "opts": [
+    "They have zero Fisher information",
+    "Their score function is zero",
+    "They form flat manifolds with respect to the e-connection (exponential connection) and the m-connection (mixture connection)",
+    "They minimise entropy"
+  ],
+  "ans": 2,
+  "exp": "Exponential families are e-flat (flat in the exponential/information geometry sense). The natural parameters θ form an e-affine coordinate system; the mean parameters η=E[T(X)]=∇A(θ) form an m-affine system. The two connections are dual, enabling elegant geometry (Pythagorean theorem for KL divergence)."
+}

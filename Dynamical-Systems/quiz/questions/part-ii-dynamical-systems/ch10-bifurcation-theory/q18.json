@@ -1,0 +1,14 @@
+{
+  "ch": 10,
+  "part": 2,
+  "chTitle": "Bifurcation Theory",
+  "q": "The Neimark-Sacker bifurcation (discrete-time Hopf bifurcation) occurs when a fixed point of a map f: ℝ² → ℝ² has eigenvalues e^{±iθ} crossing the unit circle. The bifurcation produces:",
+  "opts": [
+    "A period-2 orbit",
+    "An invariant closed curve (invariant circle) surrounding the fixed point",
+    "A fixed point with different stability",
+    "A Cantor set"
+  ],
+  "ans": 1,
+  "exp": "Neimark-Sacker bifurcation: when the multipliers e^{±iθ} cross the unit circle (|multiplier| passes through 1 as complex conjugate pair), an invariant closed curve is born (discrete-time analogue of the limit cycle in Hopf). For irrational θ/2π, the dynamics on the invariant curve is quasi-periodic."
+}

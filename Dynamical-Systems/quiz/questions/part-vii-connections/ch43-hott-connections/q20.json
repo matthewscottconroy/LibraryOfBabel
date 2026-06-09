@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "Higher inductive types (HITs) in HoTT allow defining types by both point constructors and path constructors. The circle S¹ is defined as a HIT with one point constructor base:S¹ and one path constructor loop:base=base. The fundamental group π₁(S¹) in HoTT is:",
+  "opts": [
+    "ℤ (proven formally by Licata-Shulman 2013)",
+    "ℤ/2ℤ",
+    "Trivial",
+    "Depends on the model"
+  ],
+  "ans": 0,
+  "exp": "Licata-Shulman (2013) formally proved π₁(S¹)=ℤ in HoTT using the encode-decode method. The proof uses the covering space (universal cover) approach: define a map Encode:S¹→Type taking base to ℤ and loop to the succ equivalence, then show encode and decode are inverses."
+}

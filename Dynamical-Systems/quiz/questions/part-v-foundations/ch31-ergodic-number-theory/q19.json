@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "Khintchine's theorem in Diophantine approximation states that for a monotone function ψ(q)→0, the set of x∈[0,1] with |x−p/q|<ψ(q) for infinitely many p/q has measure 1 if ∑ψ(q) diverges, and measure 0 if:",
+  "opts": [
+    "∑ψ(q) converges",
+    "ψ(q)=1/q²",
+    "The approximation is by rationals only",
+    "ψ is not monotone"
+  ],
+  "ans": 0,
+  "exp": "Khintchine's theorem (1924): Lebesgue measure is full (1) or zero depending on convergence of ∑_{q=1}^∞ ψ(q). Divergence → measure 1 (almost all reals are ψ-approximable), convergence → measure 0. The monotonicity assumption was later removed (Duffin-Schaeffer conjecture/theorem, 2020)."
+}

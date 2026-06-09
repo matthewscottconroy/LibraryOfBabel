@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "The Schrödinger bridge problem (1931/1932) seeks the most likely (maximum likelihood) evolution of a diffusion conditioned to go from μ₀ to μ₁. It is related to optimal transport by:",
+  "opts": [
+    "It is equivalent to the Monge problem",
+    "In the zero-temperature limit, the Schrödinger bridge converges to the optimal transport map T = ∇φ",
+    "The Schrödinger bridge is always a product measure",
+    "They are unrelated"
+  ],
+  "ans": 1,
+  "exp": "Schrödinger bridge: find a measure on paths closest (in KL) to Brownian motion that has prescribed marginals at t=0 and t=1. As the noise parameter ε → 0 (temperature → 0), the Schrödinger bridge converges to the displacement interpolation (optimal transport geodesic). The finite-ε case is equivalent to entropy-regularised OT."
+}

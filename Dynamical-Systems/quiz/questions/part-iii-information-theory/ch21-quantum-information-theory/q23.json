@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The accessible information I_acc of an ensemble {(p_x,ρ_x)} is bounded above by the Holevo quantity χ=S(∑_x p_x ρ_x)−∑_x p_x S(ρ_x). This bound is:",
+  "opts": [
+    "Achievable by projective measurements only",
+    "Achievable asymptotically using collective measurements on many copies",
+    "Not achievable in general",
+    "Equal to I_acc for orthogonal states only"
+  ],
+  "ans": 1,
+  "exp": "The Holevo bound χ is an upper bound on accessible information. Holevo-Schumacher-Westmoreland (1997) show χ is achievable as the capacity of the classical-quantum channel {(p_x,ρ_x)} using collective (entangled) measurements on multiple copies, not necessarily product measurements."
+}

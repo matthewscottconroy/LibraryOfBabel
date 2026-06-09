@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "The polynomial method in circuit complexity (Razborov-Smolensky) uses the fact that any depth-d AC⁰[p] circuit (with MOD-p for prime p) computing a function f can be approximated by a polynomial of degree:",
+  "opts": [
+    "O(log n)",
+    "O(n^{1/d}) with probability 1−1/n over random restrictions",
+    "O(log²n)",
+    "O(n)"
+  ],
+  "ans": 0,
+  "exp": "Razborov-Smolensky: AC⁰[p] circuits of size S and depth d have degree O(log S · log(1/ε))^d approximating polynomials over GF(p). For constant d and S = poly(n), the approximating polynomial has degree O(log^d n). This shows MOD_q (q≠p prime) requires exponential-size AC⁰[p] circuits."
+}

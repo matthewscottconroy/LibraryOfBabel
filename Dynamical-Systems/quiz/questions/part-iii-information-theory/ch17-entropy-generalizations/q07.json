@@ -1,0 +1,14 @@
+{
+  "ch": 17,
+  "part": 3,
+  "chTitle": "Entropy Generalizations",
+  "q": "The Tsallis entropy S_q = (1 − Σ pᵢ^q)/(q−1) was introduced in statistical mechanics. As q → 1, it approaches:",
+  "opts": [
+    "0",
+    "Boltzmann-Gibbs entropy −Σ pᵢ ln pᵢ",
+    "Max-entropy",
+    "Rényi entropy of order 2"
+  ],
+  "ans": 1,
+  "exp": "Tsallis entropy is a one-parameter family generalizing Boltzmann-Gibbs entropy, which it recovers in the limit q → 1. It is non-extensive and used in anomalous statistical systems."
+}

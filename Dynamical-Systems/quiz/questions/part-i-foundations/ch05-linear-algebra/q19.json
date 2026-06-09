@@ -1,0 +1,14 @@
+{
+  "ch": 5,
+  "part": 1,
+  "chTitle": "Linear Algebra",
+  "q": "The condition number κ(A) = ||A||·||A⁻¹|| (in any consistent matrix norm) measures numerical sensitivity. For a linear system Ax = b, a perturbation δb in b causes a relative error in x bounded by:",
+  "opts": [
+    "||δx||/||x|| ≤ κ(A) · ||δb||/||b||",
+    "||δx|| = κ(A)||δb||",
+    "||δx||/||x|| ≤ ||δb||/||b||",
+    "||δx|| ≤ ||δb||"
+  ],
+  "ans": 0,
+  "exp": "Condition number bound: ||δx||/||x|| ≤ κ(A)||δb||/||b||. A large κ(A) means the system is ill-conditioned: small relative errors in b can cause large relative errors in x. For Gaussian elimination, rounding errors of magnitude ε_machine produce x errors of order κ(A)·ε_machine."
+}

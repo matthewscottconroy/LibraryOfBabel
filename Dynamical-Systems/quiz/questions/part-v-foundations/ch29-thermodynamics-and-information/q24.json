@@ -1,0 +1,14 @@
+{
+  "ch": 29,
+  "part": 5,
+  "chTitle": "Thermodynamics and Information",
+  "q": "The second law of thermodynamics for quantum systems in terms of von Neumann entropy: for a unitary evolution U of an isolated system with initial state ρ, the entropy satisfies:",
+  "opts": [
+    "S(UρU†)≥S(ρ)",
+    "S(UρU†)=S(ρ)",
+    "S(UρU†)≤S(ρ)",
+    "S(UρU†) is unrelated to S(ρ)"
+  ],
+  "ans": 1,
+  "exp": "Von Neumann entropy is invariant under unitary evolution: S(UρU†)=S(ρ). This is because the eigenvalues of ρ are unchanged by unitary conjugation. Entropy increase (second law) arises from tracing out the environment, not from the unitary dynamics itself."
+}

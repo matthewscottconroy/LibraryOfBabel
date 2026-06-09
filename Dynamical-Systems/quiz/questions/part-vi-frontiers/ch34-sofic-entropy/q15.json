@@ -1,0 +1,14 @@
+{
+  "ch": 34,
+  "part": 6,
+  "chTitle": "Sofic Entropy",
+  "q": "The f-invariant of Bowen (2010) is a more refined invariant for free group actions that takes into account the tree structure. It equals sofic entropy when computed with a specific sofic approximation coming from random homomorphisms into:",
+  "opts": [
+    "Symmetric groups",
+    "The free group itself via Schreier coset graphs",
+    "Alternating groups",
+    "Finite quotients"
+  ],
+  "ans": 1,
+  "exp": "Bowen's f-invariant uses Schreier graphs (coset graphs) of finite-index subgroups of the free group as the sofic approximation. The f-invariant can be strictly different from hΣ for other sofic approximations, showing sofic entropy depends on the choice of Σ for non-amenable groups."
+}

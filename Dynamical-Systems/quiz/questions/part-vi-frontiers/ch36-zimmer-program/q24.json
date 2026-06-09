@@ -1,0 +1,14 @@
+{
+  "ch": 36,
+  "part": 6,
+  "chTitle": "The Zimmer Program",
+  "q": "The Borel density theorem states that if Γ is a lattice in a connected semisimple Lie group G (with no compact factors), then Γ is Zariski dense in G. This is used to prove:",
+  "opts": [
+    "The existence of a Haar measure on G",
+    "Margulis' normal subgroup theorem (every normal subgroup of Γ is central or of finite index)",
+    "The uniqueness of the Poisson boundary",
+    "Zimmer's cocycle superrigidity"
+  ],
+  "ans": 1,
+  "exp": "The Borel density theorem (Borel 1960): a lattice Γ in a semisimple G is Zariski dense in G. This is a key ingredient in Margulis' normal subgroup theorem: any normal N◁Γ is either finite (central) or cofinite (finite index), ruling out 'intermediate' normal subgroups."
+}

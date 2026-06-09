@@ -1,0 +1,14 @@
+{
+  "ch": 19,
+  "part": 3,
+  "chTitle": "Network Information Theory",
+  "q": "The capacity of the Gaussian broadcast channel (one sender, two receivers with noise σ₁²<σ₂²) is achieved by superposition coding. The capacity region boundary is parameterized by power split α∈[0,1] as:",
+  "opts": [
+    "R₁=(1/2)log(1+αP/σ₁²), R₂=(1/2)log(1+(1−α)P/(αP+σ₂²))",
+    "R₁=(1/2)log(1+αP/σ₁²), R₂=(1/2)log(1+(1−α)P/σ₂²)",
+    "R₁+R₂=(1/2)log(1+P/σ₁²)",
+    "R₁=R₂=(1/2)log(1+P/(σ₁²+σ₂²))"
+  ],
+  "ans": 0,
+  "exp": "For the degraded Gaussian BC, receiver 1 (better, σ₁²<σ₂²) decodes its message treating receiver 2's signal as noise. Receiver 2 decodes its signal (gets power (1−α)P) with the worse channel. The capacity region is achieved by Gaussian superposition."
+}

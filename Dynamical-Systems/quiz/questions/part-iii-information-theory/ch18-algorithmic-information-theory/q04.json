@@ -1,0 +1,14 @@
+{
+  "ch": 18,
+  "part": 3,
+  "chTitle": "Algorithmic Information Theory",
+  "q": "The invariance theorem for Kolmogorov complexity states that for any two universal Turing machines U and V:",
+  "opts": [
+    "K_U(x) = K_V(x) for all x",
+    "|K_U(x) - K_V(x)| ≤ c_{UV} for all x (additive constant independent of x)",
+    "K_U(x) ≤ K_V(x) for all x",
+    "K_U and K_V coincide only for short strings"
+  ],
+  "ans": 1,
+  "exp": "The invariance theorem: |K_U(x) - K_V(x)| ≤ c where c depends on U,V but not on x. This makes Kolmogorov complexity 'machine-independent' up to an additive constant — it is a well-defined property of the string, not the machine."
+}

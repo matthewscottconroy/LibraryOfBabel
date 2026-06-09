@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "Wang's tiling problem (deciding whether a finite set of Wang tiles tiles the plane) was proved undecidable by Berger (1966). The connection to dynamical systems is:",
+  "opts": [
+    "Tilings are periodic orbits of cellular automata",
+    "A Wang tile set defines a 2D subshift; the emptiness problem for 2D SFTs is Π₁⁰-complete; 2D SFTs can simulate Turing machines",
+    "Every Wang tile set is an SFT in 1D",
+    "The tiling problem reduces to computing topological entropy"
+  ],
+  "ans": 1,
+  "exp": "Wang tiles define 2D subshifts X_τ. Whether X_τ is nonempty (tiles exist) is Π₁⁰-complete because finding a valid tiling requires checking all finite configurations — you can never confirm non-existence computably. Turing machine simulation shows undecidability."
+}

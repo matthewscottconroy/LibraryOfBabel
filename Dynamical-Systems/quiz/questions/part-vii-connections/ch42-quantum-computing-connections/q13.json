@@ -1,0 +1,14 @@
+{
+  "ch": 42,
+  "part": 7,
+  "chTitle": "Quantum Computing and Dynamical Systems",
+  "q": "Quantum approximate optimization algorithm (QAOA) for MaxCut uses p layers of alternating phase and mixing unitaries. At p = 1, the achievable approximation ratio for MaxCut on 3-regular graphs is:",
+  "opts": [
+    "1 (exact solution)",
+    "0.6924... (Farhi-Goldstone-Gutmann theoretical bound)",
+    "0.878... (Goemans-Williamson SDP bound)",
+    "0.5"
+  ],
+  "ans": 1,
+  "exp": "QAOA at depth p=1: Farhi-Goldstone-Gutmann computed the expected cut value for 3-regular graphs as 0.6924... of the optimal MaxCut. This is below the Goemans-Williamson SDP bound of 0.878... (assuming Unique Games Conjecture is optimal). Higher p gives better approximations but the advantage over classical is unclear."
+}

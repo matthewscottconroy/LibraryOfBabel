@@ -1,0 +1,14 @@
+{
+  "ch": 1,
+  "part": 1,
+  "chTitle": "Real Analysis",
+  "q": "The Sobolev embedding theorem relates Sobolev spaces W^{k,p}(Ω) to continuous function spaces. For p > n (dimension of domain), the embedding W^{1,p}(Ω) ↪ C^{0,α}(Ω) holds with α =",
+  "opts": [
+    "1 − n/p",
+    "n/p",
+    "p/n",
+    "1/p"
+  ],
+  "ans": 0,
+  "exp": "Morrey's inequality: for p > n, W^{1,p}(Ω) ↪ C^{0,1−n/p}(Ω) (Hölder continuous with exponent α = 1−n/p). This allows Sobolev functions to be represented pointwise (not just a.e.) when p > n, which is crucial for regularity theory of PDEs."
+}

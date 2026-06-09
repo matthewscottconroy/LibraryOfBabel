@@ -1,0 +1,14 @@
+{
+  "ch": 5,
+  "part": 1,
+  "chTitle": "Linear Algebra",
+  "q": "The Weyl chamber and root system of a Lie algebra g partition the weight space. For sl(2,ℂ) (the simplest non-abelian Lie algebra), the representation with highest weight n has dimension:",
+  "opts": [
+    "n",
+    "n+1",
+    "2n+1",
+    "n²"
+  ],
+  "ans": 1,
+  "exp": "For sl(2,ℂ): the irreducible representation V(n) with highest weight n has dimension n+1. It is spanned by basis vectors v₀,...,vₙ with H·vₖ = (n−2k)vₖ. For n=0: dim=1 (trivial), n=1: dim=2 (standard), n=2: dim=3 (adjoint representation of so(3))."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 7,
+  "part": 2,
+  "chTitle": "Ergodic Theory",
+  "q": "The Abramov-Rokhlin formula expresses the entropy of a skew product T̃(x,y) = (Tx, φ(x,y)) over (X,μ,T) with fiber maps φ(x,·) preserving measures ν_x as:",
+  "opts": [
+    "h(T̃) = h(T) + h(fiber)",
+    "h(T̃) = h(T) + ∫ h(φ(x,·)) dμ(x)",
+    "h(T̃) = max(h(T), h(fiber))",
+    "h(T̃) = h(T)·h(fiber)"
+  ],
+  "ans": 1,
+  "exp": "Abramov-Rokhlin: h(T̃) = h(T) + ∫_X h(φ(x,·)) dμ(x). The entropy of a skew product is the base entropy plus the fiberwise entropy (averaged over the base). This generalises the product formula h(T×S) = h(T) + h(S)."
+}

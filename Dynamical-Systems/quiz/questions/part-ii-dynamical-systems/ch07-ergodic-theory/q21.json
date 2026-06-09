@@ -1,0 +1,14 @@
+{
+  "ch": 7,
+  "part": 2,
+  "chTitle": "Ergodic Theory",
+  "q": "Rokhlin's cocycle theorem: for an ergodic measure-preserving transformation T and a measurable function φ: X → ℝ (a cocycle), the Birkhoff sums Sₙφ(x) = Σ_{k=0}^{n-1} φ(T^k x) are centered if ∫φ dμ = 0. The CLT (central limit theorem) for Birkhoff sums holds (with √n normalization) when:",
+  "opts": [
+    "φ is bounded",
+    "φ is Lipschitz",
+    "φ satisfies a mixing condition and is sufficiently regular (e.g., Hölder for hyperbolic systems via the spectral gap of the transfer operator)",
+    "∫φ dμ = 1"
+  ],
+  "ans": 2,
+  "exp": "CLT for Birkhoff sums: (1/√n) Sₙφ → N(0,σ²) (in distribution) when the system is mixing and φ is regular enough (Hölder). The proof uses the spectral gap of the Ruelle-Perron-Frobenius operator. For hyperbolic systems, this gives statistical laws for chaotic trajectories."
+}

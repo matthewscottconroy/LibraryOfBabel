@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "A topological space X is compact if:",
+  "opts": [
+    "Every sequence has a convergent subsequence",
+    "Every open cover has a finite subcover",
+    "X is closed and bounded in some ambient space",
+    "X has finitely many open sets"
+  ],
+  "ans": 1,
+  "exp": "Compactness by definition: every open cover admits a finite subcover. Sequentially compact (every sequence has a convergent subsequence) is equivalent for metric spaces but not in general."
+}

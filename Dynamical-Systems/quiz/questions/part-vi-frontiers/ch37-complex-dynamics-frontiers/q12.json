@@ -1,0 +1,14 @@
+{
+  "ch": 37,
+  "part": 6,
+  "chTitle": "Frontiers in Complex Dynamics",
+  "q": "The Multibrot set M_d (the analogue of the Mandelbrot set for f_c(z) = z^d + c) satisfies: c ∈ M_d iff the orbit of the critical point 0 is bounded. For d even, M_d is:",
+  "opts": [
+    "Simply connected",
+    "Has d−1 'buds' around the main cardioid",
+    "Connected but not locally connected",
+    "Has the same shape as M₂"
+  ],
+  "ans": 0,
+  "exp": "The Multibrot set M_d is connected (as the Mandelbrot set M₂), homeomorphic to M₂ for d ≥ 2. For d odd, the boundary consists of d-1 main components. For all d, M_d is simply connected. The self-similarity and topology of M_d parallel those of M₂."
+}

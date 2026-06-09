@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "The class BPP (bounded-error probabilistic polynomial time) and its relationship to entropy: a language L ∈ BPP iff there is a probabilistic TM M with:",
+  "opts": [
+    "P(M(x)=L(x)) ≥ 3/4 for all x",
+    "P(M(x)=L(x)) = 1 for x ∈ L and = 0 for x ∉ L",
+    "P(M(x)=1) > 1/2 for x ∈ L and = 0 for x ∉ L",
+    "P(M(x)=L(x)) ≥ 1/2 + 1/poly(n)"
+  ],
+  "ans": 0,
+  "exp": "BPP: M runs in poly time and P(M(x)=L(x)) ≥ 3/4. The error can be amplified: running k independent copies and majority-voting gives error 2^{-Θ(k)}. The entropy of the coin flips used is O(poly(n)) bits, giving the resource-theoretic interpretation."
+}

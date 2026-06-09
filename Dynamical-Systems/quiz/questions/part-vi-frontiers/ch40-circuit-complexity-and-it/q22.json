@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "The log-rank conjecture (Lovász-Saks 1988) states that the deterministic communication complexity D(f) of a Boolean function f satisfies D(f)=O(log^c(rank(M_f))) where M_f is the communication matrix. The best current upper bound (without the conjecture) is:",
+  "opts": [
+    "D(f)≤rank(M_f)+1 (trivially)",
+    "D(f)=O(√(rank(M_f))·log(rank(M_f))) (Lovett 2016)",
+    "D(f)=O(log(rank(M_f))^2)",
+    "D(f)=rank(M_f) (conjecture is proven)"
+  ],
+  "ans": 1,
+  "exp": "The best unconditional upper bound is Lovett (2016): D(f)≤O(√(rank(M_f))·log(rank(M_f))), proving D(f)≤Õ(√r) where r=rank(M_f). The log-rank conjecture would give D(f)=O(polylog(r)), a major open problem separating the two sides by O(polylog) vs √."
+}

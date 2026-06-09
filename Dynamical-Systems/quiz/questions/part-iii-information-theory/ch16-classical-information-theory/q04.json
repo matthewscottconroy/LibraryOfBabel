@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "The Asymptotic Equipartition Property (AEP) for i.i.d. X₁,X₂,… with entropy H says:",
+  "opts": [
+    "Each sequence has probability exactly 2^{-nH}",
+    "-(1/n)log P(X₁,…,Xₙ) → H in probability",
+    "All sequences are equally likely",
+    "The number of likely sequences is n·H"
+  ],
+  "ans": 1,
+  "exp": "AEP (Shannon-McMillan): -(1/n)log p(X₁,…,Xₙ) → H(X) in probability. There are ≈2^{nH} typical sequences each with probability ≈2^{-nH}. This justifies lossless compression at rate H and is the foundation of source coding theory."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "The geometric mean of two distributions P, Q in information geometry is the point M on the e-geodesic from P to Q at t=1/2, which equals:",
+  "opts": [
+    "(P+Q)/2 (arithmetic mean)",
+    "The normalized geometric mean M ∝ √(p(x)q(x))",
+    "The distribution minimising D(M||P) + D(M||Q)",
+    "The KL-centroid"
+  ],
+  "ans": 1,
+  "exp": "The e-geodesic midpoint (exponential barycenter): p_t ∝ p(x)^{1-t} q(x)^t. At t=1/2: m(x) ∝ √(p(x)q(x)) (geometric mean, normalised). The m-geodesic midpoint is the arithmetic mean (p+q)/2. These differ—the two geodesics give different interpolations."
+}

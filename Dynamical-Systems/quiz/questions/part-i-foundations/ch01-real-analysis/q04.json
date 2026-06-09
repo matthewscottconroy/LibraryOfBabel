@@ -1,0 +1,14 @@
+{
+  "ch": 1,
+  "part": 1,
+  "chTitle": "Real Analysis",
+  "q": "The Arzelà–Ascoli theorem characterizes compact subsets of C(K) (continuous functions on a compact metric space K) as sets that are:",
+  "opts": [
+    "Bounded and closed",
+    "Uniformly bounded and equicontinuous",
+    "Pointwise bounded",
+    "Lipschitz with a uniform constant"
+  ],
+  "ans": 1,
+  "exp": "Arzelà–Ascoli: a subset of C(K) is relatively compact iff it is uniformly bounded (|f(x)|≤M for all f, x) and equicontinuous (for each ε, one δ works for all functions in the set)."
+}

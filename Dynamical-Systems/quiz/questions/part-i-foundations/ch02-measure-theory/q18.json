@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "A function f ∈ BV([a,b]) (bounded variation) can be decomposed (Lebesgue decomposition) into:",
+  "opts": [
+    "Absolutely continuous and Cantor parts only",
+    "Absolutely continuous part f_{ac}, jump part f_j (step function), and Cantor part f_c (continuous, but derivative = 0 a.e.)",
+    "Continuous and discontinuous parts",
+    "Measurable and non-measurable parts"
+  ],
+  "ans": 1,
+  "exp": "Lebesgue decomposition of BV functions: f = f_{ac} + f_j + f_c (three parts). The Cantor part is the subtle component: it is continuous, singular (derivative 0 a.e.), and carries mass on a set of measure zero (like the Cantor function). All three parts are BV."
+}

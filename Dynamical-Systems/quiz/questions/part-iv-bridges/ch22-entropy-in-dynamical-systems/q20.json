@@ -1,0 +1,14 @@
+{
+  "ch": 22,
+  "part": 4,
+  "chTitle": "Entropy in Dynamical Systems",
+  "q": "The entropy of a Gaussian process with spectral density S(λ) (the entropy rate of the stationary process) is given by the Kolmogorov-Szegő formula:",
+  "opts": [
+    "h = (1/2)∫log S(λ)dλ/(2π)",
+    "h = (1/4π)∫log(2πeS(λ))dλ",
+    "h = log‖S‖_∞",
+    "h = (1/2π)∫S(λ)dλ"
+  ],
+  "ans": 1,
+  "exp": "The entropy rate of a stationary Gaussian process with spectral density S(λ) is h=(1/4π)∫_{-π}^{π}log(2πeS(λ))dλ=(1/2)log(2πe)+(1/4π)∫log S(λ)dλ. This is the Szegő-Kolmogorov formula."
+}

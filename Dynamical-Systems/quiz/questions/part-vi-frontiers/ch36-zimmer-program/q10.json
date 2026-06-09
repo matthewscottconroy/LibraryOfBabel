@@ -1,0 +1,14 @@
+{
+  "ch": 36,
+  "part": 6,
+  "chTitle": "The Zimmer Program",
+  "q": "The Margulis normal subgroup theorem states that for an irreducible lattice Γ in a higher-rank semisimple Lie group G, any normal subgroup N ⊲ Γ is either:",
+  "opts": [
+    "Trivial",
+    "Finite or of finite index in Γ",
+    "All of Γ",
+    "A lattice itself"
+  ],
+  "ans": 1,
+  "exp": "Margulis's normal subgroup theorem: for lattices in higher-rank groups (ℝ-rank ≥ 2), every normal subgroup is either finite or has finite index. This 'simplicity modulo finite' shows lattices are highly rigid—far from having rich normal subgroup structure like free groups."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 5,
+  "part": 1,
+  "chTitle": "Linear Algebra",
+  "q": "The Jordan normal form of a matrix A decomposes A into blocks of the form λI + N where N is nilpotent. This matters for dynamics because:",
+  "opts": [
+    "Nilpotent parts cause only polynomial growth, not exponential growth",
+    "Nilpotent parts create chaos",
+    "Nilpotent parts are always zero in practice",
+    "Nilpotent parts correspond to complex eigenvalues"
+  ],
+  "ans": 0,
+  "exp": "Jordan blocks with λ on the diagonal give solutions like tᵏeλt — the nilpotent part N contributes polynomial factors. For stability analysis: if Re(λ)<0, polynomial×exponential decay still decays. If Re(λ)=0 and N≠0, polynomial growth occurs."
+}

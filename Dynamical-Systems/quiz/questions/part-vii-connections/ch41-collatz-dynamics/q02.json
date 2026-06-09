@@ -1,0 +1,14 @@
+{
+  "ch": 41,
+  "part": 7,
+  "chTitle": "The Collatz Conjecture",
+  "q": "Tao's 2022 theorem on the Collatz conjecture proves that for any f(n)→∞:",
+  "opts": [
+    "All orbits eventually reach 1",
+    "Almost all (density 1) orbits eventually reach a value ≤f(n) — orbits attain 'almost bounded' values",
+    "The conjecture is false",
+    "The orbit length is always O(log n)"
+  ],
+  "ans": 1,
+  "exp": "Tao (2022): for any f→∞, the set {n≤N: min_k C^k(n)≤f(n)} has density 1. Orbits almost surely reach very small values, but not necessarily 1. The proof uses Fourier analysis on ℤ₂ and sieve theory. The full conjecture (reaching exactly 1) remains open."
+}

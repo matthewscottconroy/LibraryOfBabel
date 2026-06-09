@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "The Mandelbrot set is the set of parameters c ∈ ℂ for which:",
+  "opts": [
+    "fc(0) is a fixed point",
+    "The orbit of 0 under fc(z)=z²+c is bounded",
+    "All orbits of fc are periodic",
+    "fc has a real fixed point"
+  ],
+  "ans": 1,
+  "exp": "The Mandelbrot set M = {c∈ℂ: fₙ_c(0) does not tend to ∞}. The critical point 0 is special: c∈M iff the orbit of the critical point is bounded, iff the Julia set J(fc) is connected."
+}

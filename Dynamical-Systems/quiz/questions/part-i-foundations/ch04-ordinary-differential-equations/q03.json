@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "Poincaré–Bendixson theorem applies to planar flows and states that the ω-limit set of a bounded orbit must be:",
+  "opts": [
+    "A fixed point, a limit cycle, or a homoclinic connection",
+    "A strange attractor",
+    "A torus",
+    "An arbitrary compact set"
+  ],
+  "ans": 0,
+  "exp": "In dimension 2, the Jordan curve theorem severely restricts recurrence: bounded orbits must approach a fixed point, a periodic orbit, or a cycle connecting saddle points. Strange attractors cannot exist in 2D."
+}

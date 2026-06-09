@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "The Kantorovich dual of the optimal transport problem with cost c(x,y) is:",
+  "opts": [
+    "max_{γ∈Π(μ,ν)} ∫c dγ",
+    "max_{(φ,ψ): φ(x)+ψ(y)≤c(x,y)} ∫φ dμ + ∫ψ dν",
+    "min_{φ convex} ∫φ dμ",
+    "max_φ ∫φ d(μ−ν)"
+  ],
+  "ans": 1,
+  "exp": "Kantorovich dual: max over (φ,ψ) with φ(x)+ψ(y) ≤ c(x,y) of ∫φdμ + ∫ψdν. For c(x,y) = |x−y|, ψ = −φ and ||φ||_{Lip} ≤ 1, recovering the Wasserstein-1 = Kantorovich-Rubinstein formula: W₁(μ,ν) = max_{||f||_{Lip}≤1} |∫fdμ − ∫fdν|."
+}

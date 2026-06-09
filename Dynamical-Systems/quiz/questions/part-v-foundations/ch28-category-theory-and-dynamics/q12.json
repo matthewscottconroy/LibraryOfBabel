@@ -1,0 +1,14 @@
+{
+  "ch": 28,
+  "part": 5,
+  "chTitle": "Category Theory and Dynamics",
+  "q": "The 2-category structure relevant to dynamical systems considers functors (morphisms between categories), natural transformations (morphisms between functors), and modifications. In the context of dynamical systems:",
+  "opts": [
+    "Dynamical systems are 1-cells between categories",
+    "A natural transformation η: F ⇒ G between two functor-representations of dynamical systems corresponds to an intertwining map (conjugacy) between the systems",
+    "The 2-cells are Lyapunov functions",
+    "Categories represent orbits"
+  ],
+  "ans": 1,
+  "exp": "Natural transformations in the category of dynamical systems correspond to conjugacies or semi-conjugacies. A natural transformation η: F ⇒ G (where F and G are functors representing two systems) has components ηₓ satisfying ηₓ ∘ F(f) = G(f) ∘ ηₓ—exactly the commutativity required for an intertwining map."
+}

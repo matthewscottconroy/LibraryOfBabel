@@ -1,0 +1,14 @@
+{
+  "ch": 23,
+  "part": 4,
+  "chTitle": "Ergodic Information Theory",
+  "q": "For an ergodic measure-preserving system (X,μ,T) and f,g∈L²(μ), mixing means ∫f·g∘Tⁿ dμ→∫f dμ·∫g dμ. In information-theoretic terms, mixing is equivalent to:",
+  "opts": [
+    "h_μ(T)>0",
+    "I(X_0;X_n)→0 where X_0,X_n are observations at time 0 and n",
+    "I(X_0;X_n)=h_μ(T) for all n",
+    "The process {X_n} having zero entropy rate"
+  ],
+  "ans": 1,
+  "exp": "Mixing means the mutual information between the past and future separated by n steps goes to zero: I(X_0;X_n)→0. For ergodic systems, this is stronger than ergodicity (which only requires I(X_0;X_n)/n→0 in Cesàro sense)."
+}

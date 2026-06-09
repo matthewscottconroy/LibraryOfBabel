@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "Borel's normal number theorem says Lebesgue-a.e. x∈[0,1) is absolutely normal. The ergodic proof uses:",
+  "opts": [
+    "Weyl's criterion for all bases simultaneously",
+    "Birkhoff's theorem for the expanding map T_b(x)=bx mod 1: a.e. x is generic for Lebesgue, hence normal in base b",
+    "The prime number theorem",
+    "Continued fraction theory"
+  ],
+  "ans": 1,
+  "exp": "Normality in base b is equivalent to x being generic for Lebesgue under the b-fold expanding map T_b. Birkhoff's theorem (T_b is ergodic w.r.t. Lebesgue) gives a.e. genericity, hence a.e. normality. Repeating for all b gives absolute normality."
+}

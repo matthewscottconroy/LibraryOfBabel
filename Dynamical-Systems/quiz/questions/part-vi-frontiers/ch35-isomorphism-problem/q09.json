@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "The Rokhlin-Sinai theorem states that any ergodic MPT of positive entropy has a Bernoulli factor. More precisely:",
+  "opts": [
+    "Every positive-entropy system is Bernoulli",
+    "For any h' < h(T), there exists a Bernoulli factor of entropy h'",
+    "Every Bernoulli factor has the same entropy as T",
+    "Every ergodic system has a Bernoulli factor of entropy 0"
+  ],
+  "ans": 1,
+  "exp": "Rokhlin-Sinai theorem: for any ergodic T with h(T) > 0 and any 0 < h' ≤ h(T), T has a Bernoulli factor of entropy h'. In particular, T has Bernoulli factors of all entropies up to h(T). This builds the 'Bernoulli part' of any positive-entropy system."
+}

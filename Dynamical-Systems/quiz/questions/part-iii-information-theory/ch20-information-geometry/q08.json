@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "Natural gradient descent, introduced by Amari, uses the update rule θ ← θ − η G⁻¹(θ) ∇L(θ), where G is the Fisher information matrix. Its advantage over standard gradient descent is:",
+  "opts": [
+    "It always converges faster",
+    "It is parametrization invariant—the update direction is the steepest descent in the intrinsic geometry of the model",
+    "It requires fewer hyperparameters",
+    "It avoids saddle points"
+  ],
+  "ans": 1,
+  "exp": "Natural gradient descent is invariant under reparametrization of the model, unlike standard gradient descent. It follows the steepest descent direction in the Riemannian geometry defined by the Fisher metric."
+}

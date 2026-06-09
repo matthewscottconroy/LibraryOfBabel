@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "The Talagrand inequality T₂(C) states that for a probability measure μ satisfying it, every measure ν satisfies:",
+  "opts": [
+    "W₂(ν,μ)² ≤ C·D(ν||μ) (Wasserstein-2 distance controlled by KL divergence)",
+    "D(ν||μ) ≤ C·W₂(ν,μ)",
+    "W₂(ν,μ) = D(ν||μ)^{1/2}",
+    "W₁(ν,μ) ≤ C·H(ν)"
+  ],
+  "ans": 0,
+  "exp": "Talagrand T₂: W₂(ν,μ)² ≤ 2C·D(ν||μ). The Gaussian measure satisfies T₂(1) (Otto-Villani, 2000). Talagrand T₂ is implied by the log-Sobolev inequality (LSI with constant C) and implies the Poincaré inequality. This chain LSI → T₂ → Poincaré encodes increasing concentration."
+}

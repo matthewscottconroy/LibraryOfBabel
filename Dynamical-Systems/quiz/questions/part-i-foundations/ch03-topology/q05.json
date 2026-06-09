@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "A topological space X is called normal (T₄) if:",
+  "opts": [
+    "Every point is closed",
+    "Every open cover has a finite subcover",
+    "Any two disjoint closed sets can be separated by disjoint open sets",
+    "X is Hausdorff and compact"
+  ],
+  "ans": 2,
+  "exp": "Normality means disjoint closed sets have disjoint open neighborhoods. Urysohn's lemma then gives continuous functions separating them—key for extension theorems."
+}

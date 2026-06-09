@@ -1,0 +1,14 @@
+{
+  "ch": 7,
+  "part": 2,
+  "chTitle": "Ergodic Theory",
+  "q": "Rokhlin's lemma states that for any aperiodic measure-preserving transformation T and ε > 0, there exists a measurable set F such that F, TF, …, T^{n-1}F are disjoint and:",
+  "opts": [
+    "Their union has measure 1",
+    "Their union has measure > 1 − ε",
+    "F has measure 1/n exactly",
+    "T^n F = F"
+  ],
+  "ans": 1,
+  "exp": "Rokhlin (Halmos-Rokhlin) lemma: for every aperiodic T and any n,ε, there exists F with F, TF, …, T^{n-1}F disjoint and μ(∪T^kF) > 1−ε. This is the key approximation lemma used in entropy theory and the proof of Ornstein's theorem."
+}

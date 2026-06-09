@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "Hashing in data structures (e.g., bloom filters) uses information-theoretic arguments. A Bloom filter with n elements, m bits, and k hash functions has false positive rate approximately:",
+  "opts": [
+    "n/m",
+    "(1/2)^k",
+    "(1 − e^{-kn/m})^k",
+    "k/m"
+  ],
+  "ans": 2,
+  "exp": "Bloom filter false positive rate: (1 − e^{-kn/m})^k ≈ (1/2)^k when k = (m/n) ln 2 (optimal k). This minimises false positives for given m and n. The optimal rate ≈ (0.6185)^{m/n}, which can be achieved with O((m/n) ln 2) hash functions."
+}

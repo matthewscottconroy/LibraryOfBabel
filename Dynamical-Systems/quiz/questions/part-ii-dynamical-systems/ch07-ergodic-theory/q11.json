@@ -1,0 +1,14 @@
+{
+  "ch": 7,
+  "part": 2,
+  "chTitle": "Ergodic Theory",
+  "q": "The natural extension of a non-invertible measure-preserving system (X,μ,T) is the invertible system (X̃,μ̃,T̃) where X̃ is:",
+  "opts": [
+    "The product space X×X",
+    "The inverse limit: {(x₀,x₁,...) : T(xₙ₊₁) = xₙ for all n}",
+    "The suspension of X over T",
+    "The one-sided shift on X^ℕ"
+  ],
+  "ans": 1,
+  "exp": "The natural extension X̃ = {(xₙ)_{n≤0} : T(xₙ) = xₙ₊₁} is the 'smallest' invertible extension. T̃ is the left-shift. The natural extension of the Gauss map is the two-sided continued fraction map, central in the metric theory of continued fractions."
+}

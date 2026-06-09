@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "A point x in a topological dynamical system is called recurrent if:",
+  "opts": [
+    "Its orbit is finite",
+    "It is a periodic point",
+    "x ∈ ω(x) (x is in its own omega-limit set)",
+    "T(x) = x"
+  ],
+  "ans": 2,
+  "exp": "Recurrent means x returns to any neighborhood infinitely often, equivalently x ∈ ω(x). Every point in a compact minimal system is recurrent (by the Birkhoff recurrence theorem)."
+}

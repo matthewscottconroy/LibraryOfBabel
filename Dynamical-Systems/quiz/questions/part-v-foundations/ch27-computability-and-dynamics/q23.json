@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "The BSS (Blum-Shub-Smale) model of computation over ℝ admits real number arithmetic as unit-cost operations. In this model, the Mandelbrot set membership is:",
+  "opts": [
+    "Decidable in BSS-polynomial time",
+    "Undecidable over ℝ (Julia sets are not BSS-decidable in general)",
+    "Decidable but BSS-NP-complete",
+    "BSS-computable but requires exponential time"
+  ],
+  "ans": 1,
+  "exp": "In the BSS model, computing whether c∈M (Mandelbrot membership) is undecidable: Blum-Cucker-Smale (1997) showed that the halting problem for BSS machines reduces to Julia set membership, making it BSS-undecidable. The complement (divergence) is semi-decidable."
+}

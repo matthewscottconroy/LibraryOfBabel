@@ -1,0 +1,14 @@
+{
+  "ch": 5,
+  "part": 1,
+  "chTitle": "Linear Algebra",
+  "q": "The Singular Value Decomposition (SVD) of an m×n matrix A writes A as:",
+  "opts": [
+    "A = LU (lower × upper triangular)",
+    "A = QR (orthogonal × upper triangular)",
+    "A = UΣVᵀ (orthogonal × diagonal × orthogonal)",
+    "A = PDP⁻¹ (diagonalisation)"
+  ],
+  "ans": 2,
+  "exp": "SVD: A = UΣVᵀ where U, V are orthogonal and Σ = diag(σ₁,…,σₖ) with σᵢ ≥ 0. The singular values measure how much A stretches space in each direction — they are the square roots of eigenvalues of AᵀA."
+}

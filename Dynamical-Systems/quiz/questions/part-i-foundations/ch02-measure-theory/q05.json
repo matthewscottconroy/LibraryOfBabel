@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "The Radon-Nikodym theorem states that if ν ≪ μ (ν absolutely continuous w.r.t. μ), then:",
+  "opts": [
+    "ν = μ",
+    "There exists a measurable f ≥ 0 such that ν(A) = ∫_A f dμ for all measurable A",
+    "ν and μ are mutually singular",
+    "ν is a finite measure"
+  ],
+  "ans": 1,
+  "exp": "Radon-Nikodym yields the density dν/dμ (the Radon-Nikodym derivative). It is fundamental in probability (conditional expectation) and ergodic theory (invariant measures)."
+}

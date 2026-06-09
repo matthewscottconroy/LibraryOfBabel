@@ -1,0 +1,14 @@
+{
+  "ch": 11,
+  "part": 2,
+  "chTitle": "Chaos Theory",
+  "q": "The Lorenz attractor is an example of a strange attractor. 'Strange' means:",
+  "opts": [
+    "It has non-integer Hausdorff dimension (fractal geometry)",
+    "It is disconnected",
+    "It moves unpredictably",
+    "It is not compact"
+  ],
+  "ans": 0,
+  "exp": "Strange attractors have fractal (non-integer) Hausdorff dimension, unlike classical attractors (fixed points: dimension 0, limit cycles: dimension 1, tori: integer dimensions). The Lorenz attractor has dimension ≈2.06."
+}

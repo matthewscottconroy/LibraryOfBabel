@@ -1,0 +1,14 @@
+{
+  "ch": 1,
+  "part": 1,
+  "chTitle": "Real Analysis",
+  "q": "The spectral theorem for compact self-adjoint operators T: H → H on an infinite-dimensional Hilbert space states the eigenvalues {λₙ} satisfy:",
+  "opts": [
+    "Countably many eigenvalues, all positive",
+    "Finitely many nonzero eigenvalues",
+    "Eigenvalues accumulate only at 0, and there is an orthonormal basis of eigenvectors (possibly infinite)",
+    "No eigenvalues"
+  ],
+  "ans": 2,
+  "exp": "Compact self-adjoint operators: the nonzero eigenvalues form a sequence λₙ → 0 (accumulating only at 0), each of finite multiplicity, and the eigenvectors form a complete orthonormal system. This is the Hilbert-Schmidt theorem — the infinite-dimensional analogue of eigendecomposition."
+}

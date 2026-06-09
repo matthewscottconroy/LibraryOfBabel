@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "For the quadratic family f_c(z) = z² + c, the Mandelbrot set M is defined as:",
+  "opts": [
+    "The set of c for which |fₙ(0)| → ∞",
+    "The set of c for which the orbit of 0 is bounded",
+    "The set of c for which J(f_c) is connected",
+    "B and C are equivalent characterizations"
+  ],
+  "ans": 3,
+  "exp": "Both definitions coincide: c ∈ M ↔ the orbit of the critical point 0 is bounded ↔ J(f_c) is connected. This is the Böttcher-Fatou theorem connecting the Mandelbrot set to Julia set topology."
+}

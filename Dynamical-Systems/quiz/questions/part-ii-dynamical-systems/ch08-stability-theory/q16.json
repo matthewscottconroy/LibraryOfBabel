@@ -1,0 +1,14 @@
+{
+  "ch": 8,
+  "part": 2,
+  "chTitle": "Stability Theory",
+  "q": "Zubov's method constructs the exact domain of attraction D(0) of an asymptotically stable equilibrium as the sublevel set {V < 1} of a function V satisfying a specific PDE. The PDE is:",
+  "opts": [
+    "∇V · f = −V",
+    "∇V · f = −(1−V)h(x) for some positive h",
+    "∇V · f = −|x|²",
+    "∇V · f = 1 − V²"
+  ],
+  "ans": 1,
+  "exp": "Zubov's PDE: ∇V(x)·f(x) = −h(x)(1−V(x)) with boundary condition V → 1 as x → ∂D. The solution V ∈ [0,1) in D, V = 1 on ∂D, giving the exact boundary of the domain of attraction. Unlike standard Lyapunov functions, Zubov's gives the exact (not merely an estimate of) the domain."
+}

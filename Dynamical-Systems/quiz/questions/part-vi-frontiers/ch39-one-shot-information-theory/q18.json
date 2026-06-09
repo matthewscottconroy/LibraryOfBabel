@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "The one-shot capacity of a quantum channel N for sending classical information with error ≤ε is characterized by the smooth max-information. The i.i.d. asymptotic limit recovers:",
+  "opts": [
+    "The Holevo capacity χ(N)",
+    "The quantum capacity Q(N)",
+    "The entanglement-assisted capacity C_E(N)=log d_in + S(N(ρ))",
+    "The zero-error capacity"
+  ],
+  "ans": 0,
+  "exp": "By the quantum AEP (Schumacher compression) and HSW theorem, the one-shot capacity C^{1,ε}(N) satisfies C^{1,ε}(N^⊗n)/n→χ(N)=max_{p_x,ρ_x}[S(∑p_xN(ρ_x))−∑p_xS(N(ρ_x))] as n→∞, ε→0. This recovers the Holevo capacity as the asymptotic classical capacity."
+}

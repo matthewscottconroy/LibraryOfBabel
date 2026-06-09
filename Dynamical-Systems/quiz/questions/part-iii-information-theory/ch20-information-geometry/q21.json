@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "Natural gradient descent replaces the Euclidean gradient ∇L with the natural gradient I(θ)^{-1}∇L, where I(θ) is the Fisher information matrix. The key property is that natural gradient descent is:",
+  "opts": [
+    "Slower but more stable than SGD",
+    "Invariant under reparameterization of the statistical model",
+    "Equivalent to Newton's method",
+    "Guaranteed to converge in one step"
+  ],
+  "ans": 1,
+  "exp": "The natural gradient (Amari 1998) is covariant: the update I(θ)^{-1}∇L is independent of the coordinate system used for the statistical model. Standard gradient descent is not invariant under reparameterization, making the learning rate geometry-dependent."
+}

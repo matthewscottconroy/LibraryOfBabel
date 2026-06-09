@@ -1,0 +1,14 @@
+{
+  "ch": 18,
+  "part": 3,
+  "chTitle": "Algorithmic Information Theory",
+  "q": "The Algorithmic Sufficient Statistic of a string x is a set S ∋ x (a hypothesis) such that:",
+  "opts": [
+    "S has minimum description length K(S)",
+    "K(x) = K(S) + log|S| + O(log n) — the two-part description S (model) then x's rank in S is as short as any description",
+    "S = {x}",
+    "S has maximum cardinality"
+  ],
+  "ans": 1,
+  "exp": "Algorithmic sufficient statistic: S is sufficient for x if K(x|S) ≈ log|S| (random within S) and K(S) + log|S| ≈ K(x) (S captures all meaningful structure). This formalises the distinction between random and structural components of x."
+}

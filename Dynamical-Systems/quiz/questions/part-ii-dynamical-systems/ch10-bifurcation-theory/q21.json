@@ -1,0 +1,14 @@
+{
+  "ch": 10,
+  "part": 2,
+  "chTitle": "Bifurcation Theory",
+  "q": "In 2D maps, the twist condition for a Birkhoff annulus map (r, θ) ↦ (r + f(r,θ), θ + g(r,θ)) requires ∂g/∂r ≠ 0. This condition ensures the Poincaré-Birkhoff theorem applies, giving:",
+  "opts": [
+    "No fixed points",
+    "At least two fixed points of the map for every rational rotation number",
+    "Dense orbits",
+    "A global attractor"
+  ],
+  "ans": 1,
+  "exp": "Poincaré-Birkhoff theorem: an area-preserving twist map of an annulus has at least two fixed points (for any period-p/q approximation). The twist condition (rotation number varies monotonically with r) is essential. This is a cornerstone of KAM theory for 2D maps."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "Razborov's monotone circuit lower bound for the clique function CLIQUE_{k,n} (does a graph have a k-clique?) uses:",
+  "opts": [
+    "Fourier analysis",
+    "The approximation method — showing no small monotone circuit can simultaneously accept random cliques and reject random sets without large cliques",
+    "Communication complexity directly",
+    "Randomized computation"
+  ],
+  "ans": 1,
+  "exp": "Razborov (1985): the approximation method assigns approximate Boolean functions to circuits. Any monotone circuit for CLIQUE must distinguish two distributions; the method shows this requires exponential monotone circuit size via an entropy/counting argument."
+}

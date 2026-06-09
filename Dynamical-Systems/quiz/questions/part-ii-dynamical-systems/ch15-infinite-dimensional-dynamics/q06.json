@@ -1,0 +1,14 @@
+{
+  "ch": 15,
+  "part": 2,
+  "chTitle": "Infinite-Dimensional Dynamics",
+  "q": "Inertial manifolds for dissipative PDEs are finite-dimensional invariant manifolds that:",
+  "opts": [
+    "Contain only equilibria",
+    "Attract all solutions exponentially and contain the global attractor",
+    "Are spanned by unstable modes only",
+    "Have the same dimension as the phase space"
+  ],
+  "ans": 1,
+  "exp": "An inertial manifold M is finite-dimensional, invariant, and exponentially attracting: every solution approaches M at exponential rate. The global attractor lies in M, yielding a finite-dimensional ODE (the inertial form) governing long-time behavior."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "The Leray-Hirsch theorem gives conditions for the cohomology of a fiber bundle E → B with fiber F to split as H*(E) ≅ H*(B) ⊗ H*(F). The conditions are:",
+  "opts": [
+    "The fiber is contractible",
+    "The inclusion of each fiber F → E_b induces a surjection H*(E) → H*(F), and H*(F) is a free module",
+    "The base is simply connected",
+    "The bundle is trivial"
+  ],
+  "ans": 1,
+  "exp": "Leray-Hirsch: if i*: H*(E) → H*(F) is surjective (equivalently, there exist global cohomology classes on E restricting to a basis for each fiber), then H*(E) ≅ H*(B) ⊗ H*(F) as H*(B)-modules. This applies to sphere bundles, flag bundles, etc."
+}

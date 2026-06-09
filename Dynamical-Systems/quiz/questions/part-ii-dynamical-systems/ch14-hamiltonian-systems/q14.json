@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "Gromov's non-squeezing theorem (1985) states that a symplectic map cannot embed a ball B(r) into a cylinder Z(R) = {z : |z₁|² + |z₂|² < R²} × ℝ^{2n-2} if:",
+  "opts": [
+    "r > R",
+    "r < R",
+    "r = R",
+    "n > 2"
+  ],
+  "ans": 0,
+  "exp": "Non-squeezing: a symplectic embedding of B(r) into Z(R) requires r ≤ R. Despite the cylinder having infinite volume, symplectic rigidity prevents compressing in the symplectic directions. This shows symplectic maps are far more rigid than volume-preserving maps."
+}

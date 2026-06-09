@@ -1,0 +1,14 @@
+{
+  "ch": 19,
+  "part": 3,
+  "chTitle": "Network Information Theory",
+  "q": "The Costa dirty-paper coding (DPC) result states that for the channel Y = X + S + Z (S is interference known to encoder, Z ~ N(0,N), power constraint P on X):",
+  "opts": [
+    "The capacity is log(1 + P/(N + σ²_S))",
+    "The capacity is the same as if S were absent: C = ½ log(1 + P/N)",
+    "DPC achieves zero rate",
+    "The capacity is reduced by the interference"
+  ],
+  "ans": 1,
+  "exp": "Costa (1983): if the encoder knows S non-causally, the channel capacity is ½ log(1+P/N)—as if S were absent! The encoder pre-cancels the known interference using a version of Gel'fand-Pinsker coding (auxiliary variable U = X + αS). This underlies precoding in MIMO communications."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 28,
+  "part": 5,
+  "chTitle": "Category Theory and Dynamics",
+  "q": "Profunctors (distributors) H: C ↛ D are defined as functors H: D^op × C → Set. They represent 'many-valued' maps and are relevant to dynamical systems as they can represent:",
+  "opts": [
+    "Non-deterministic transitions (set-valued maps)",
+    "Lyapunov functions",
+    "Invariant measures",
+    "Topological entropy"
+  ],
+  "ans": 0,
+  "exp": "A profunctor H: C ↛ D can be seen as a bimodule or a generalised relation. In the context of non-deterministic systems, a Markov transition kernel or a set-valued map (relation) can be expressed as a profunctor. Profunctor composition generalises relational composition."
+}

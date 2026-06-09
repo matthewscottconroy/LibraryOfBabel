@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "The ε-smooth min-entropy Hmin^ε(ρ) is defined by:",
+  "opts": [
+    "Hmin^ε(ρ) = Hmin(ρ) - log(1/ε)",
+    "Hmin^ε(ρ) = max_{ρ̃: ‖ρ̃-ρ‖₁≤ε} Hmin(ρ̃) (smoothing allows 'cheating' on ε fraction of probability)",
+    "Hmin^ε(ρ) = H_ε(ρ) (Rényi entropy at order ε)",
+    "Hmin^ε(ρ) = ε·Hmin(ρ)"
+  ],
+  "ans": 1,
+  "exp": "Smooth entropy (Renner 2005): Hmin^ε(ρ) = max over all ρ̃ within ε in trace distance of Hmin(ρ̃). The smoothing allows ignoring ε-fraction of probability mass — making the entropy larger (smoother = less pessimistic). In the i.i.d. limit, Hmin^ε/n → S(ρ)."
+}

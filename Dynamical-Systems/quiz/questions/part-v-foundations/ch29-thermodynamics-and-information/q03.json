@@ -1,0 +1,14 @@
+{
+  "ch": 29,
+  "part": 5,
+  "chTitle": "Thermodynamics and Information",
+  "q": "In the thermodynamic formalism (Ruelle), the pressure function P(f,φ) = sup_μ[h_μ(f) + ∫φ dμ] for φ=0 gives:",
+  "opts": [
+    "The free energy",
+    "The topological entropy h_top(f) (variational principle)",
+    "The Lyapunov exponent",
+    "The measure-theoretic entropy of the MME"
+  ],
+  "ans": 1,
+  "exp": "P(f,0) = sup_μ h_μ(f) = h_top(f) by the variational principle. The pressure P(f,φ) is the Legendre transform of the entropy function — a direct analogy with free energy in statistical mechanics (F = U - TS corresponds to -P = -h - ∫φ dμ)."
+}

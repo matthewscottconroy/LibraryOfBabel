@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "Cuturi's Sinkhorn algorithm for regularised optimal transport (with entropy regularisation ε·H(γ)) converges to the solution of:",
+  "opts": [
+    "The exact Monge problem",
+    "min_{γ∈Π(μ,ν)} ∫c dγ − ε·H(γ) (entropy-regularised OT), converging to the unregularised solution as ε → 0",
+    "The Kantorovich dual",
+    "A Wasserstein barycenter"
+  ],
+  "ans": 1,
+  "exp": "Sinkhorn iterations solve the entropy-regularised OT: min_γ {∫c dγ − ε·H(γ)}. The solution is a matrix proportional to e^{-c/ε} diag(u) diag(v)^T; Sinkhorn rescales rows and columns alternately. As ε → 0, the solution converges to the unregularised OT (Brenier map). Sinkhorn runs in O(n²) iterations."
+}

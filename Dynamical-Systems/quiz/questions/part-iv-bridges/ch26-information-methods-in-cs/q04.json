@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "The Karchmer–Wigderson relation KW_f connects circuit depth to communication complexity by:",
+  "opts": [
+    "depth(f) = log(CC(f))",
+    "depth(f) = D^{rel}(KW_f) (depth equals the communication complexity of the search problem: find coordinate where f⁻¹(1) and f⁻¹(0) inputs differ)",
+    "depth(f) = CC(f)/log n",
+    "depth(f) = CC(f)"
+  ],
+  "ans": 1,
+  "exp": "KW theorem: the minimum depth of a circuit computing f equals the communication complexity of the relation KW_f (Alice holds x∈f⁻¹(1), Bob holds y∈f⁻¹(0), they find i with xᵢ≠yᵢ). This reduces depth lower bounds to communication lower bounds."
+}

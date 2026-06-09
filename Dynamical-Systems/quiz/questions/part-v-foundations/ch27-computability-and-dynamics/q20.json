@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "Rice's theorem states that for any non-trivial property P of partial computable functions (neither always true nor always false), the set {e: φ_e has property P} is:",
+  "opts": [
+    "Computable",
+    "Computably enumerable but not computable",
+    "Not computably enumerable",
+    "Dependent on the property P"
+  ],
+  "ans": 2,
+  "exp": "Rice's theorem: for any non-trivial extensional property P of the function computed by a TM (i.e., a property of φ_e, not the machine e itself), the set {e: φ_e satisfies P} is not computably enumerable (hence undecidable). This generalizes the undecidability of the halting problem."
+}

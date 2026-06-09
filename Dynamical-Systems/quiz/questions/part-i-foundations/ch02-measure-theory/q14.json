@@ -1,0 +1,14 @@
+{
+  "ch": 2,
+  "part": 1,
+  "chTitle": "Measure Theory",
+  "q": "Hausdorff measure ℋˢ is an outer measure on ℝⁿ. Its key property relating to Lebesgue measure is:",
+  "opts": [
+    "ℋⁿ = Lebesgue measure on ℝⁿ (up to a constant)",
+    "ℋˢ = 0 for all s < n",
+    "ℋˢ = ∞ for all s > 0",
+    "ℋˢ is not σ-finite for any s"
+  ],
+  "ans": 0,
+  "exp": "ℋⁿ equals the n-dimensional Lebesgue measure up to the constant ω_n/2^n (where ω_n is the volume of the unit ball). Hausdorff dimension of a set is the critical exponent where ℋˢ jumps from ∞ to 0."
+}

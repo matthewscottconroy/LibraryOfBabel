@@ -1,0 +1,14 @@
+{
+  "ch": 20,
+  "part": 3,
+  "chTitle": "Information Geometry",
+  "q": "The Pythagorean theorem in information geometry states that for three distributions P, Q, R where R is the e-geodesic projection of P onto an m-flat submanifold (or vice versa):",
+  "opts": [
+    "D(P||Q) = D(P||R) + D(R||Q)",
+    "D(P||Q) = D(P||R) · D(R||Q)",
+    "D(P||Q) ≥ D(P||R)",
+    "D(P||R) = D(Q||R)"
+  ],
+  "ans": 0,
+  "exp": "Pythagorean theorem: if R is the e-projection of P onto an m-flat submanifold containing Q (or the m-projection onto an e-flat submanifold), then D(P||Q) = D(P||R) + D(R||Q). This is the information-geometric analogue of the Pythagorean theorem."
+}

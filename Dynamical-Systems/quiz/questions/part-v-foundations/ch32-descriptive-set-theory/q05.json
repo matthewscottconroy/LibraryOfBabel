@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "A set A ⊆ ℝ is analytic (Σ¹₁) if it is:",
+  "opts": [
+    "Borel",
+    "A continuous image of a Borel set (equivalently, of the Baire space ℕᴺ)",
+    "A countable union of closed sets",
+    "An open set"
+  ],
+  "ans": 1,
+  "exp": "Analytic sets are projections of Borel sets: A = {x : ∃y (x,y) ∈ B} for Borel B. Equivalently, A = f(ℕᴺ) for some continuous f. Not all analytic sets are Borel (Suslin's theorem characterizes Borel sets as those that are both analytic and co-analytic)."
+}

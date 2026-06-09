@@ -1,0 +1,14 @@
+{
+  "ch": 18,
+  "part": 3,
+  "chTitle": "Algorithmic Information Theory",
+  "q": "Chaitin's incompleteness theorem states that there is a constant L such that no formal system F can prove statements of the form 'K(x)>L'. This constant L is approximately:",
+  "opts": [
+    "The Kolmogorov complexity of F itself plus a constant",
+    "log|F|",
+    "The number of axioms of F",
+    "The halting probability Ω of the reference UTM"
+  ],
+  "ans": 0,
+  "exp": "L≈K(F)+c where K(F) is the complexity of encoding F's axioms. A proof of 'K(x)>L' would allow an algorithm to enumerate proofs and find x with K(x)>L in time bounded by L+O(1), contradiction. The exact bound depends on the formalization."
+}

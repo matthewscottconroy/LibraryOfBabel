@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The quantum capacity Q of a degraded quantum channel N is given by the LSD (Lloyd-Shor-Devetak) theorem as Q=max_ρ I_c(ρ,N) where I_c is the coherent information. The coherent information is defined as:",
+  "opts": [
+    "I_c(ρ,N)=S(N(ρ))−S(N⊗id(Φ_ρ))",
+    "I_c(ρ,N)=S(N(ρ))−S(ρ)",
+    "I_c(ρ,N)=I(A;B)_ρ",
+    "I_c(ρ,N)=S(B)−S(AB) in the state (id⊗N)(|Φ⟩⟨Φ|)"
+  ],
+  "ans": 3,
+  "exp": "The coherent information I_c(ρ,N)=S(B)−S(E) in the isometric extension, where E is the environment. For a degraded channel (degradable), Q=max_ρ I_c(ρ,N) is additive and gives the quantum capacity."
+}

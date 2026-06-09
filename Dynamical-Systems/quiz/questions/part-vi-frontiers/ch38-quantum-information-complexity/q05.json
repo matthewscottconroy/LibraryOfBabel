@@ -1,0 +1,14 @@
+{
+  "ch": 38,
+  "part": 6,
+  "chTitle": "Quantum Information and Complexity",
+  "q": "The quantum communication complexity of a function f(x,y) can be exponentially smaller than classical communication complexity. The key example is:",
+  "opts": [
+    "Integer multiplication",
+    "The equality function",
+    "The disjointness function (DISJ)",
+    "Matrix-vector multiplication"
+  ],
+  "ans": 1,
+  "exp": "Equality: classically requires Ω(n) bits (one-way), but quantumly O(1) qubits (quantum fingerprinting using random hashes). More dramatically, some relation problems show exponential quantum advantage in communication complexity."
+}

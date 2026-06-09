@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "Terras's theorem on the Collatz stopping time σ(n) (first time the orbit drops below n) states that for almost all n:",
+  "opts": [
+    "σ(n) = O(1)",
+    "σ(n) ~ log n / log(4/3)",
+    "σ(n) is always infinite (the orbit never drops)",
+    "σ(n) ~ n"
+  ],
+  "ans": 1,
+  "exp": "Terras (1976): σ(n) ~ log(n)/log(4/3) for density-1 set of n. Each step of the Collatz map multiplies by 3/4 on average (half the time ÷2, half the time ×3/2), so it takes ≈log(n)/|log(3/4)| = log(n)/log(4/3) steps to drop below n."
+}

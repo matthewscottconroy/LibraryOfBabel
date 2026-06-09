@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "The notion of computational depth (logical depth, Bennett 1988) measures the computational effort needed to produce a string. A string x has high logical depth if:",
+  "opts": [
+    "K(x) is large",
+    "The shortest program for x takes many steps to run (deep = costly to compute but short to describe)",
+    "x is incompressible",
+    "x has high mutual information with the halting string Ω"
+  ],
+  "ans": 1,
+  "exp": "Logical depth: x has depth d if the shortest program of length ≤ K(x)+c takes ≥ d steps to output x. Deep objects (like Mandelbrot set images, evolved organisms) are 'information-dense': their structure took long to compute even if the description is short."
+}

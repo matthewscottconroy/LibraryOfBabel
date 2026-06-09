@@ -1,0 +1,14 @@
+{
+  "ch": 1,
+  "part": 1,
+  "chTitle": "Real Analysis",
+  "q": "The Fredholm alternative for compact operators K: H → H states that for any λ ≠ 0, exactly one of the following holds:",
+  "opts": [
+    "(I − λK)u = 0 has a non-trivial solution",
+    "(I − λK)u = f has a unique solution for every f, or the homogeneous equation (I−λK)u = 0 has a non-trivial solution (but not both)",
+    "I − λK is always invertible",
+    "The equation has no solutions"
+  ],
+  "ans": 1,
+  "exp": "Fredholm alternative: either (I−λK)u = f has a unique solution for all f (when 1/λ is not an eigenvalue of K), or the homogeneous equation has a non-trivial solution (1/λ is an eigenvalue). This dichotomy—analogous to linear algebra—is fundamental to integral equations and spectral theory."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 41,
+  "part": 7,
+  "chTitle": "The Collatz Conjecture",
+  "q": "The Collatz map on the 2-adic integers ℤ₂ can be expressed as a continuous map. The conjecture is equivalent to:",
+  "opts": [
+    "The 2-adic map has a unique fixed point",
+    "Every 2-adic integer has an orbit that passes through ℤ⁺ and eventually reaches 1",
+    "The 2-adic valuation of iterates grows",
+    "The map has no periodic orbits in ℤ₂"
+  ],
+  "ans": 1,
+  "exp": "Extending the Collatz map to ℤ₂ gives a continuous map. The conjecture is equivalent to every positive integer eventually reaching 1, i.e., every positive integer is in the basin of the fixed-point cycle {1,2} in ℤ₂."
+}

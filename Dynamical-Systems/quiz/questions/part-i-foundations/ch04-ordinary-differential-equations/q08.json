@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "Phase plane analysis of a 2D autonomous system finds that a critical point has Jacobian eigenvalues λ₁ = 2+3i, λ₂ = 2−3i. This point is:",
+  "opts": [
+    "A stable spiral",
+    "A center",
+    "An unstable spiral",
+    "A saddle point"
+  ],
+  "ans": 2,
+  "exp": "Complex eigenvalues give spirals; the sign of the real part determines stability. Real part = 2 > 0 means trajectories spiral outward: unstable spiral (also called unstable focus)."
+}

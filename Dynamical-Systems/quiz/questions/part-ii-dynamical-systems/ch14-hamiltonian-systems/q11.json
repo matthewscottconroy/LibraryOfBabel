@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "The generating function approach to canonical transformations uses a function S(q,P) such that the old and new canonical coordinates are related by:",
+  "opts": [
+    "p = ∂S/∂q, Q = ∂S/∂P",
+    "Q = ∂S/∂q, P = ∂S/∂p",
+    "p = S·Q, P = S·q",
+    "q = ∂S/∂p, P = ∂S/∂Q"
+  ],
+  "ans": 0,
+  "exp": "For a generating function of type-2, S(q,P): old momenta p = ∂S/∂q and new coordinates Q = ∂S/∂P. The transformation is canonical (symplectic) iff these relations hold, and the new Hamiltonian is K(Q,P) = H(q(Q,P),p(Q,P)) + ∂S/∂t."
+}

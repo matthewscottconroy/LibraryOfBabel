@@ -1,0 +1,14 @@
+{
+  "ch": 7,
+  "part": 2,
+  "chTitle": "Ergodic Theory",
+  "q": "Ornstein's theorem (1970) classifies Bernoulli shifts up to measure-theoretic isomorphism by:",
+  "opts": [
+    "Their topological entropy",
+    "Their Kolmogorov–Sinai (KS) entropy",
+    "Their number of symbols",
+    "Their mixing rate"
+  ],
+  "ans": 1,
+  "exp": "Ornstein's theorem: two Bernoulli shifts are isomorphic (as MPTs) iff they have the same KS entropy. Entropy is a complete invariant for Bernoulli shifts — a landmark result connecting information theory and ergodic theory."
+}

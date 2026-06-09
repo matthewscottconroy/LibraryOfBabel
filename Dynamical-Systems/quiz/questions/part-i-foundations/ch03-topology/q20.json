@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "The de Rham cohomology H^k_{dR}(M) of a smooth manifold M is defined using differential forms. The de Rham theorem states:",
+  "opts": [
+    "H^k_{dR}(M) = 0 for k > dim M",
+    "H^k_{dR}(M) ≅ H^k_{sing}(M; ℝ) (de Rham cohomology equals singular cohomology with real coefficients)",
+    "H^k_{dR}(M) is always ℝ",
+    "Every closed form is exact"
+  ],
+  "ans": 1,
+  "exp": "de Rham's theorem: H^k_{dR}(M) ≅ H^k_{sing}(M;ℝ) via integration of k-forms over k-cycles. This profound theorem connects differential geometry (forms) to algebraic topology (singular cohomology), proved using the Mayer-Vietoris sequence and the Poincaré lemma."
+}

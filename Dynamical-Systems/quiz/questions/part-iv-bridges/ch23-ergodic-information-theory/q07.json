@@ -1,0 +1,14 @@
+{
+  "ch": 23,
+  "part": 4,
+  "chTitle": "Ergodic Information Theory",
+  "q": "Ziv-Lempel complexity (used in LZ77/LZ78 compression) is related to entropy by the fact that:",
+  "opts": [
+    "It equals H exactly for all sequences",
+    "The LZ complexity rate converges to H for stationary ergodic sources",
+    "LZ complexity equals Kolmogorov complexity",
+    "It is always less than H"
+  ],
+  "ans": 1,
+  "exp": "Ziv-Lempel theorem: for ergodic stationary sources, the compression ratio of the LZ algorithm converges a.s. to the entropy rate H. This makes LZ-based algorithms asymptotically optimal."
+}

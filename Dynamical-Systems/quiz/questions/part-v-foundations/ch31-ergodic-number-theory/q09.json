@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "Van der Corput's theorem for equidistribution: if the differences {aₙ₊ₖ − aₙ} are equidistributed for every k ≥ 1, then:",
+  "opts": [
+    "The sequence {aₙ} is periodic",
+    "The sequence {aₙ} is equidistributed",
+    "The sequence {aₙ} converges",
+    "The sequence is eventually constant"
+  ],
+  "ans": 1,
+  "exp": "Van der Corput's theorem (first difference theorem): if for every h, the sequence (aₙ₊ₕ − aₙ) is equidistributed, then aₙ is equidistributed. This is the key tool for proving equidistribution of polynomial sequences (Weyl), since the differences have lower degree."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 28,
+  "part": 5,
+  "chTitle": "Category Theory and Dynamics",
+  "q": "An adjunction between two categories C and D (with F: C → D left adjoint to G: D → C) in the context of dynamical systems provides:",
+  "opts": [
+    "An isomorphism of the categories",
+    "A natural bijection Hom_D(FX, Y) ≅ Hom_C(X, GY), often relating different representations of the same dynamics",
+    "A functor from flows to maps",
+    "A cohomology theory"
+  ],
+  "ans": 1,
+  "exp": "Adjunctions in dynamical systems often relate continuous-time flows to discrete-time maps (suspension/Poincaré section adjunction), or relate topological and measurable categories of systems via forgetful/free functors."
+}

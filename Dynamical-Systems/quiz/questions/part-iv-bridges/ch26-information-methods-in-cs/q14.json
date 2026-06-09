@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "The Yao minimax principle for randomised algorithms states that the expected cost of the best deterministic algorithm on the worst-case input distribution equals:",
+  "opts": [
+    "The worst-case randomised complexity",
+    "A lower bound on the randomised complexity: max_D min_A E_D[cost(A)] ≤ min_A max_x cost(A,x)",
+    "The deterministic complexity",
+    "The entropy of the input distribution"
+  ],
+  "ans": 1,
+  "exp": "Yao's principle: max over input distributions D of (expected cost of best deterministic algorithm under D) ≤ expected cost of best randomised algorithm on worst-case input. To prove R(f) ≥ C, find D such that every deterministic algorithm has expected cost ≥ C under D."
+}

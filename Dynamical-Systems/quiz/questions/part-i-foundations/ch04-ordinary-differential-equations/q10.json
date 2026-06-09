@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "Bendixson's criterion for ruling out closed orbits states: if div(f) = ∂f₁/∂x + ∂f₂/∂y is not identically zero and does not change sign in a simply connected region D, then ẋ = f(x):",
+  "opts": [
+    "Has a fixed point in D",
+    "Has no closed orbit entirely contained in D",
+    "Is globally asymptotically stable",
+    "Has exactly one periodic orbit"
+  ],
+  "ans": 1,
+  "exp": "Bendixson's criterion: by Green's theorem, ∮_γ f·n ds = ∬_D div(f) dA. If div(f) doesn't change sign, the right-hand side is nonzero, contradicting ∮ = 0 for a closed trajectory. This rules out limit cycles in D."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "The Kolmogorov-Smirnov test for randomness checks whether a sample comes from a hypothesized distribution by comparing:",
+  "opts": [
+    "The mean and variance to theoretical values",
+    "The empirical CDF to the theoretical CDF, bounding the supremum norm",
+    "The entropy of the sample to the theoretical entropy",
+    "The autocorrelation function"
+  ],
+  "ans": 1,
+  "exp": "The KS test uses the supremum norm ||F_n − F||_∞ between empirical and theoretical CDFs. By the Glivenko-Cantelli theorem, this converges to 0 a.s. for i.i.d. samples from F."
+}

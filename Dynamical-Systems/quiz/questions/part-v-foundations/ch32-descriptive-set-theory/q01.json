@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "In the Borel hierarchy, a Gδ set (G_δ = Π⁰₂) is a:",
+  "opts": [
+    "Countable union of closed sets",
+    "Countable intersection of open sets",
+    "Finite union of open and closed sets",
+    "Countable union of open sets"
+  ],
+  "ans": 1,
+  "exp": "Gδ sets are countable intersections of open sets (G for German 'Gebiet'=open, δ for 'Durchschnitt'=intersection). Examples: the irrationals in ℝ (intersection of complements of rationals), the set of continuity points of a monotone function."
+}

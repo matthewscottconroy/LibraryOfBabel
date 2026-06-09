@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "In a metric space, a set is totally bounded if and only if:",
+  "opts": [
+    "It is bounded",
+    "Every sequence has a Cauchy subsequence",
+    "For every ε > 0, it can be covered by finitely many ε-balls",
+    "It is compact"
+  ],
+  "ans": 2,
+  "exp": "Total boundedness means finite ε-nets exist for all ε > 0. Combined with completeness it characterises compactness: a complete metric space subset is compact iff totally bounded."
+}

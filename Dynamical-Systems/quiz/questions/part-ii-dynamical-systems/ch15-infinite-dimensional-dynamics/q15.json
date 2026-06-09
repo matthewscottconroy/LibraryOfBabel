@@ -1,0 +1,14 @@
+{
+  "ch": 15,
+  "part": 2,
+  "chTitle": "Infinite-Dimensional Dynamics",
+  "q": "The concept of determining modes for the Navier-Stokes equations says that the long-time behavior is determined by a finite number of Fourier modes N_d. The estimate for N_d is:",
+  "opts": [
+    "N_d ∼ Re",
+    "N_d ∼ Re³/² or G^{2/3} (depending on dimension and norm)",
+    "N_d ∼ Re²",
+    "N_d = dim(𝒜)"
+  ],
+  "ans": 1,
+  "exp": "Foias-Prodi-Ladyzhenskaya theorem: if two solutions agree on the first N Fourier modes for all t, they are asymptotically identical, for N above a threshold N_d ∼ G^{2/3}. This is the number of 'determining modes' and relates to the attractor dimension."
+}

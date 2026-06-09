@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "Position-based quantum cryptography (Chandran-Fehr-Gelles-Goyal-Ostrovsky 2009) attempts to verify a party's physical location. The unconditional security of most position-verification protocols is broken by:",
+  "opts": [
+    "The no-cloning theorem",
+    "Entanglement attacks: sharing pre-distributed EPR pairs allows attackers to simulate any position",
+    "Classical attacks using collision resistance",
+    "Quantum key distribution"
+  ],
+  "ans": 1,
+  "exp": "Chandran et al. showed that any single-round quantum position-verification protocol can be broken using O(2^n) EPR pairs shared between attackers. The attack uses quantum teleportation and port-based teleportation. Unconditional secure position-based QKD remains open without computational assumptions."
+}

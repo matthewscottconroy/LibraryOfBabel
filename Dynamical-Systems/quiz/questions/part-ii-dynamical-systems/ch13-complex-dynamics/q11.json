@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "The Böttcher coordinate near a superattracting fixed point 0 (f(z) = cz^d + …, d ≥ 2) is a biholomorphism φ: (U,0) → (𝔻,0) such that:",
+  "opts": [
+    "φ(f(z)) = φ(z)²",
+    "φ(f(z)) = φ(z)^d",
+    "φ(f(z)) = d·φ(z)",
+    "φ(f(z)) = φ(z) + 1"
+  ],
+  "ans": 1,
+  "exp": "Böttcher coordinate: φ linearises f to z ↦ z^d. It satisfies φ(f(z)) = φ(z)^d, conjugating f to the power map. This is used to define the Green's function and external rays for polynomials, which are the level sets and gradient lines of log|φ|."
+}

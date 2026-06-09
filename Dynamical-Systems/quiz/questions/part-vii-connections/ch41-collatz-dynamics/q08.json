@@ -1,0 +1,14 @@
+{
+  "ch": 41,
+  "part": 7,
+  "chTitle": "The Collatz Conjecture",
+  "q": "The stopping time of the Collatz iteration for n is the first k with C^k(n) < n. Empirical and heuristic arguments suggest the stopping time for a typical n grows as:",
+  "opts": [
+    "Linearly in n",
+    "O(log n)",
+    "O(log² n)",
+    "O(n)"
+  ],
+  "ans": 1,
+  "exp": "Heuristic analysis: the expected number of steps to reduce n to below n is O(log n) (since each step multiplies by ≈ 3/4 in expectation). Empirically, stopping times grow as O(log n) for almost all n."
+}

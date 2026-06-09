@@ -1,0 +1,14 @@
+{
+  "ch": 37,
+  "part": 6,
+  "chTitle": "Frontiers in Complex Dynamics",
+  "q": "For a polynomial f of degree d, the kneading theory (Milnor-Thurston) encodes the dynamics of the critical orbit via:",
+  "opts": [
+    "The Böttcher coordinate",
+    "The kneading invariant: an element of ℤ[[t]]^{d-1} recording the itinerary of the critical values",
+    "The Hubbard tree (combinatorial encoding of the Fatou components)",
+    "The external angle of the critical value"
+  ],
+  "ans": 1,
+  "exp": "Milnor-Thurston kneading theory: the kneading invariant ν=ν(f)∈ℤ[[t]]^{d-1} encodes the itinerary of each critical value with respect to the partition by critical points. The kneading determinant D(t)=det(I−νI) determines the topological entropy via h_top=log(1/smallest root of D(t)) (Milnor-Thurston-Bernhardt-Irwin)."
+}

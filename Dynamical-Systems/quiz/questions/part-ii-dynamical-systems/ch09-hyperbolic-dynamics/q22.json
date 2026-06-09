@@ -1,0 +1,14 @@
+{
+  "ch": 9,
+  "part": 2,
+  "chTitle": "Hyperbolic Dynamics",
+  "q": "The Mañé-Sad-Sullivan theorem on holomorphic families: for a holomorphic family {f_λ} of rational maps (λ ∈ D), the Julia set J(f_λ) moves continuously (holomorphically) for λ outside the bifurcation locus. More precisely:",
+  "opts": [
+    "J(f_λ) is always the same set",
+    "In the stable set {λ : f_λ is stable (J moves analytically)}, there is a holomorphic motion h: D × J(f₀) → ℂ with h(λ,·) a conjugacy on J",
+    "J(f_λ) is compact for all λ",
+    "The bifurcation locus is empty"
+  ],
+  "ans": 1,
+  "exp": "Mañé-Sad-Sullivan (MSS) theorem: stable maps form an open dense set in 1-parameter families (Sullivan, and separately MSS). In the stable component, J moves by a holomorphic motion — a quasiconformal map h_λ: J₀ → J_λ depending holomorphically on λ. The λ-lemma extends this to a quasiconformal conjugacy."
+}

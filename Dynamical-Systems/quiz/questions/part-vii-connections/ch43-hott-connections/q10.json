@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "The Seifert-van Kampen theorem in HoTT (pushout of fundamental groups) computes π₁ of a pushout A ←f B →g C as:",
+  "opts": [
+    "π₁(A) × π₁(C)",
+    "The pushout (amalgamated free product) of π₁(A) and π₁(C) over π₁(B) — the HoTT proof uses the recursion principle of the pushout HIT",
+    "π₁(A) + π₁(C)",
+    "A free group on |A| + |C| generators"
+  ],
+  "ans": 1,
+  "exp": "HoTT van Kampen: given a pushout of spaces (represented as HITs), π₁ of the pushout is the pushout (amalgamated free product) of the fundamental groups. The proof uses the universal property of the pushout HIT and the recursion principle for π₁ (loop induction)."
+}

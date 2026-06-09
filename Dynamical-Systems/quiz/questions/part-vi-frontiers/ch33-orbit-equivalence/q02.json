@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "The Ornstein–Weiss theorem (1980) extends Dye's theorem to:",
+  "opts": [
+    "All non-amenable groups",
+    "All free ergodic actions of countably infinite amenable groups (they are all orbit equivalent to each other)",
+    "Free groups only",
+    "SL(n,ℤ) for all n"
+  ],
+  "ans": 1,
+  "exp": "Ornstein–Weiss: for any two countably infinite amenable groups Γ,Λ, their free ergodic actions are orbit equivalent. The orbit equivalence class is unique for all amenable groups — the orbit structure only depends on the fact that the group is infinite amenable, not on which one."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 1,
+  "part": 1,
+  "chTitle": "Real Analysis",
+  "q": "The Hausdorff dimension of the middle-thirds Cantor set is:",
+  "opts": [
+    "0",
+    "log 2 / log 3",
+    "1/2",
+    "1"
+  ],
+  "ans": 1,
+  "exp": "The Cantor set is self-similar: it consists of 2 copies scaled by factor 1/3, so dim_H = log 2 / log 3 ≈ 0.631. It has measure zero (it's a null set) but uncountably many points—a hallmark example for fractal geometry."
+}

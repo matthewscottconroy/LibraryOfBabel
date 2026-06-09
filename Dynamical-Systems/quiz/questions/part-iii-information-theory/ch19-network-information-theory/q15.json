@@ -1,0 +1,14 @@
+{
+  "ch": 19,
+  "part": 3,
+  "chTitle": "Network Information Theory",
+  "q": "The degrees of freedom (DoF) of the K-user interference channel gives the pre-log factor of capacity at high SNR. The surprising result by Cadambe-Jafar (2008) showed that the total DoF is:",
+  "opts": [
+    "1 (as if there were only one user)",
+    "K/2 — each user gets half a degree of freedom on average via interference alignment",
+    "K — each user gets full DoF",
+    "log K"
+  ],
+  "ans": 1,
+  "exp": "Cadambe-Jafar (2008): the K-user Gaussian interference channel has K/2 total degrees of freedom via interference alignment—each user achieves ½ DoF. This result showed that interference is not the fundamental bottleneck it was believed to be, revolutionising the understanding of interference."
+}

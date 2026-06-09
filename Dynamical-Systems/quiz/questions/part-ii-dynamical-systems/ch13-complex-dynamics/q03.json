@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "The Julia set J(f) and Fatou set F(f) of a rational map f are related by:",
+  "opts": [
+    "J(f) = ℂ \\ F(f) (they partition the Riemann sphere)",
+    "J(f) ⊂ F(f)",
+    "J(f) is always a Cantor set",
+    "F(f) is always empty"
+  ],
+  "ans": 0,
+  "exp": "J(f) and F(f) form a partition of the Riemann sphere Ĉ: J is where the family {fⁿ} is NOT normal (equicontinuous), F is where it IS normal. J is closed and completely invariant; F is open and completely invariant."
+}

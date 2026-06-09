@@ -1,0 +1,14 @@
+{
+  "ch": 27,
+  "part": 5,
+  "chTitle": "Computability and Dynamics",
+  "q": "The effective topos (Hyland 1982) is a topos built on Kleene realizability. In the effective topos, every function ℝ→ℝ is:",
+  "opts": [
+    "Continuous",
+    "Computable",
+    "Both continuous and computably measurable",
+    "Not defined (reals don't exist in the effective topos)"
+  ],
+  "ans": 1,
+  "exp": "In the effective topos, every morphism (function) is computable in Kleene's sense: the internal logic validates 'all functions ℝ→ℝ are computable' (and hence continuous). This makes the effective topos a model of constructive mathematics where Church's thesis holds."
+}

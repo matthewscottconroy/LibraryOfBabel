@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "Sturm-Liouville theory concerns the eigenvalue problem (p(x)y')' + (λw(x) - q(x))y = 0. Its eigenfunctions form:",
+  "opts": [
+    "A finite orthogonal basis",
+    "A complete orthogonal basis in L²([a,b], w dx)",
+    "An orthonormal basis with w = 1 only",
+    "A basis only when p > 0 everywhere"
+  ],
+  "ans": 1,
+  "exp": "The Sturm-Liouville operator is self-adjoint in L²([a,b], w dx) with the weight function w. Its eigenfunctions are complete and orthogonal with respect to the weighted inner product."
+}

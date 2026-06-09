@@ -1,0 +1,14 @@
+{
+  "ch": 23,
+  "part": 4,
+  "chTitle": "Ergodic Information Theory",
+  "q": "The entropy rate of a stationary stochastic process {Xₙ} can be computed as:",
+  "opts": [
+    "H(X₁)",
+    "lim_{n→∞} H(Xₙ|X₁,...,Xₙ₋₁) = lim H(X₁,...,Xₙ)/n",
+    "H(X₁,X₂,...) / lim n",
+    "lim sup H(Xₙ)"
+  ],
+  "ans": 1,
+  "exp": "For a stationary process, the entropy rate H̄ = lim_{n→∞} H(Xₙ|X₁,...,Xₙ₋₁). This limit exists by stationarity. Also H̄ = lim_{n→∞} H(X₁,...,Xₙ)/n (both limits exist and are equal)."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 4,
+  "part": 1,
+  "chTitle": "Ordinary Differential Equations",
+  "q": "The Picard–Lindelöf theorem guarantees a unique local solution to ẋ = f(x,t), x(0)=x₀ when f is:",
+  "opts": [
+    "Continuous in both variables",
+    "Continuous in t and Lipschitz in x (locally)",
+    "Smooth (C∞) in both variables",
+    "Analytic in x"
+  ],
+  "ans": 1,
+  "exp": "Picard–Lindelöf requires local Lipschitz continuity in x (not just continuity). Continuous-only gives existence (Peano) but not uniqueness. The Lipschitz condition controls divergence of nearby solutions."
+}

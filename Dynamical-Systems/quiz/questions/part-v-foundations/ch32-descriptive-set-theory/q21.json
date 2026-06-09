@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "The Feldman-Moore theorem states that every countable Borel equivalence relation E on a standard Borel space arises as the orbit equivalence relation of a Borel action of:",
+  "opts": [
+    "A locally compact group",
+    "A countable group Γ",
+    "An amenable group",
+    "The free group F₂"
+  ],
+  "ans": 1,
+  "exp": "Feldman-Moore (1977): every countable Borel equivalence relation E (where each equivalence class is countable) is the orbit equivalence relation of some Borel action of a countable group Γ. The group Γ need not be unique (in fact, every countable group acting freely generates E)."
+}

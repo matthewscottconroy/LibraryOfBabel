@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "Carathéodory's theorem extends the Riemann mapping φ: 𝔻 → U to the boundary when:",
+  "opts": [
+    "U is convex",
+    "U is a Jordan domain (bounded by a Jordan curve), in which case φ extends to a homeomorphism 𝔻̄ → Ū",
+    "U is a half-plane",
+    "U has finitely many boundary components"
+  ],
+  "ans": 1,
+  "exp": "Carathéodory extension theorem: if U is a Jordan domain, the Riemann map φ: 𝔻 → U extends continuously to a homeomorphism of the closed disk 𝔻̄ → Ū. This fails for domains with fractal boundaries (e.g., the complement of a Julia set may not be a Jordan domain)."
+}

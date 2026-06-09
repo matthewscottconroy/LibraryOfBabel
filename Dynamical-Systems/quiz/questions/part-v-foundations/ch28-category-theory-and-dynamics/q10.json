@@ -1,0 +1,14 @@
+{
+  "ch": 28,
+  "part": 5,
+  "chTitle": "Category Theory and Dynamics",
+  "q": "The Kleisli category of the Giry monad G on Meas has morphisms X → Y corresponding to:",
+  "opts": [
+    "Measurable functions X → Y",
+    "Markov kernels: measurable maps X → G(Y) (stochastic maps assigning a probability measure on Y to each x ∈ X)",
+    "Probability measures on X × Y",
+    "Deterministic functions"
+  ],
+  "ans": 1,
+  "exp": "Kleisli category of Giry: morphisms are Markov kernels κ: X → G(Y) (x ↦ κ(x,·) a probability measure on Y). Composition is by Chapman-Kolmogorov. This makes the Kleisli category the natural framework for stochastic processes and Markov chains."
+}

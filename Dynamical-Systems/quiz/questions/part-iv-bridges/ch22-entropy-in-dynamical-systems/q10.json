@@ -1,0 +1,14 @@
+{
+  "ch": 22,
+  "part": 4,
+  "chTitle": "Entropy in Dynamical Systems",
+  "q": "The Bowen-Ruelle definition of topological pressure uses (n,ε)-spanning sets. Specifically:",
+  "opts": [
+    "P(φ) = lim_{ε→0} lim_{n→∞} (1/n) log inf_{E spanning} Σ_{x∈E} e^{Sₙφ(x)}",
+    "P(φ) = lim_{n→∞} (1/n) log Σ_{x: T^nx=x} e^{Sₙφ(x)}",
+    "P(φ) = sup_μ h_μ(T)",
+    "P(φ) = lim_{n→∞} (1/n) log max_{x} Sₙφ(x)"
+  ],
+  "ans": 0,
+  "exp": "Bowen's definition: P(φ) = lim_{ε→0} limsup_{n→∞} (1/n) log Z_n(φ,ε) where Z_n is the weighted partition function over (n,ε)-spanning sets. The alternative sum over periodic orbits gives the same pressure for Axiom A systems."
+}

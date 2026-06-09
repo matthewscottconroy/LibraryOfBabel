@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "In the context of random dynamical systems, the Furstenberg theorem on random matrix products states that for i.i.d. matrices A₁, A₂, … chosen from a distribution μ on GL(d,ℝ) satisfying irreducibility and strong irreducibility:",
+  "opts": [
+    "The matrix products Aₙ…A₁ are bounded",
+    "The Lyapunov exponent λ = lim_{n→∞} (1/n) log||Aₙ…A₁|| > −∞ exists and λ > −∞ a.s.",
+    "The products converge to a fixed matrix",
+    "The products have zero Lyapunov exponent"
+  ],
+  "ans": 1,
+  "exp": "Furstenberg's theorem: under irreducibility + strong irreducibility, the top Lyapunov exponent λ₁ is simple and positive (the distribution is not supported on compact groups). This implies the products grow exponentially—relevant for products of transfer matrices in disordered systems."
+}

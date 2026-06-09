@@ -1,0 +1,14 @@
+{
+  "ch": 15,
+  "part": 2,
+  "chTitle": "Infinite-Dimensional Dynamics",
+  "q": "Itô's formula for a stochastic process dXt = b(Xt)dt + σ(Xt)dWt and smooth function f gives:",
+  "opts": [
+    "df(Xt) = f'(Xt)dXt",
+    "df(Xt) = f'(Xt)dXt + (1/2)f''(Xt)σ(Xt)²dt",
+    "df(Xt) = (Lf)(Xt)dt where L is the generator",
+    "Both B and C are correct"
+  ],
+  "ans": 3,
+  "exp": "Itô's formula: df(Xt) = f'(Xt)b dt + f'(Xt)σ dWt + (1/2)f''(Xt)σ² dt. The extra (1/2)f''σ² dt term (Itô correction) arises from the quadratic variation ⟨dWt,dWt⟩=dt. The generator of the diffusion is Lf = bf' + (σ²/2)f''."
+}

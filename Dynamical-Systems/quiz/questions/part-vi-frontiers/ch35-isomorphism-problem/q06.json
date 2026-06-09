@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "The property 'very weak Bernoulli' (VWB) was introduced by Ornstein as a sufficient condition for a system to be:",
+  "opts": [
+    "Weakly mixing",
+    "Isomorphic to a Bernoulli shift",
+    "Uniquely ergodic",
+    "An Anosov system"
+  ],
+  "ans": 1,
+  "exp": "VWB (very weak Bernoulli) is Ornstein's condition generalizing 'processes that approximate i.i.d.' Any VWB process is Bernoulli. Geodesic flows on compact surfaces of negative curvature are VWB (hence Bernoulli)."
+}

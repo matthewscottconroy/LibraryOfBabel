@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "The Arnold diffusion problem concerns Hamiltonian systems with n≥3 degrees of freedom. Arnold's 1964 example showed that despite KAM tori, diffusion can occur through the Arnold web. The mechanism involves:",
+  "opts": [
+    "Overlap of resonance zones",
+    "Heteroclinic connections between hyperbolic tori along resonance channels",
+    "Destruction of all invariant tori",
+    "Chaotic seas filling phase space"
+  ],
+  "ans": 1,
+  "exp": "Arnold's original example uses heteroclinic connections between whiskered (hyperbolic) invariant tori along a resonance layer. The diffusion is slow (polynomial-time in 1/ε) and uses the gaps in KAM barriers."
+}

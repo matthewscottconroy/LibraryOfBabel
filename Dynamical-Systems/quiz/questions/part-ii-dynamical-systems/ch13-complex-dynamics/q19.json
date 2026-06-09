@@ -1,0 +1,14 @@
+{
+  "ch": 13,
+  "part": 2,
+  "chTitle": "Complex Dynamics",
+  "q": "The Böttcher coordinate φ_c near ∞ for a polynomial P of degree d satisfies φ_c(P(z))=φ_c(z)^d. The Green's function of the basin of ∞ is:",
+  "opts": [
+    "G_c(z)=log|φ_c(z)|",
+    "G_c(z)=|φ_c(z)|",
+    "G_c(z)=Re(φ_c(z))",
+    "G_c(z)=log|z|"
+  ],
+  "ans": 0,
+  "exp": "G_c(z)=log|φ_c(z)| is the Green's function of the basin of attraction of ∞, harmonic on ℂ∖K_c (filled Julia set), equal to 0 on K_c, and satisfying G_c(P(z))=d·G_c(z)."
+}

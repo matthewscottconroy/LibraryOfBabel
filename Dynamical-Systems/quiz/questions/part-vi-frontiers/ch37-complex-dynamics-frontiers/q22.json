@@ -1,0 +1,14 @@
+{
+  "ch": 37,
+  "part": 6,
+  "chTitle": "Frontiers in Complex Dynamics",
+  "q": "Lyubich's density of hyperbolicity theorem (2002) for real quadratic polynomials states that the set of real parameters c∈[−2,1/4] for which f_c(x)=x²+c is hyperbolic (has an attracting cycle) is:",
+  "opts": [
+    "A finite union of intervals",
+    "Dense in [−2,1/4]",
+    "Of full measure in [−2,1/4]",
+    "Nowhere dense"
+  ],
+  "ans": 1,
+  "exp": "Lyubich (2002): real hyperbolic parameters are dense in [−2,1/4]. The set of non-hyperbolic (stochastic) parameters has measure zero but is topologically 'large' — this is the real version of the hyperbolicity conjecture. The positive measure set is the 'Jakobson parameters' with ACIMs."
+}

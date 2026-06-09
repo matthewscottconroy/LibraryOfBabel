@@ -1,0 +1,14 @@
+{
+  "ch": 19,
+  "part": 3,
+  "chTitle": "Network Information Theory",
+  "q": "The decode-forward (DF) strategy for the relay channel achieves rates up to min(I(X;Y_R|X_R), I(X,X_R;Y)). A key limitation is:",
+  "opts": [
+    "The relay must know the channel",
+    "The relay must fully decode the source message, which requires I(X;Y_R) ≥ R (bottleneck at weak relay-destination link)",
+    "DF requires full-duplex relay",
+    "DF never outperforms direct transmission"
+  ],
+  "ans": 1,
+  "exp": "DF's bottleneck: the relay must reliably decode the source message, requiring R ≤ I(X;Y_R). If the source-relay link is weak, DF may not be better than direct transmission. Compress-forward (CF) does not require decoding and can outperform DF when the relay-destination link is strong."
+}

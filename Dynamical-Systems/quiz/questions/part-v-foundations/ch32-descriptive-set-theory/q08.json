@@ -1,0 +1,14 @@
+{
+  "ch": 32,
+  "part": 5,
+  "chTitle": "Descriptive Set Theory",
+  "q": "A Polish space is a topological space that is:",
+  "opts": [
+    "Compact and Hausdorff",
+    "Separable and completely metrizable",
+    "Locally compact",
+    "Second-countable and locally compact Hausdorff"
+  ],
+  "ans": 1,
+  "exp": "Polish spaces (separable completely metrizable) are the natural setting for descriptive set theory and standard Borel spaces in ergodic theory. Examples: ℝ, ℝⁿ, Baire space ℕᴺ, Cantor space {0,1}ᴺ."
+}

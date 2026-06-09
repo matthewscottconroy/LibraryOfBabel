@@ -1,0 +1,14 @@
+{
+  "ch": 42,
+  "part": 7,
+  "chTitle": "Quantum Computing and Dynamical Systems",
+  "q": "The QAOA (Quantum Approximate Optimization Algorithm) at large depth p is related to adiabatic quantum computation by:",
+  "opts": [
+    "QAOA is more powerful than adiabatic QC",
+    "QAOA with parameters γ_k ≈ t_k/p, β_k ≈ (T-t_k)/p approximates the adiabatic evolution from H_B to H_C (Trotterised adiabatic evolution)",
+    "QAOA requires classical optimization; adiabatic QC does not",
+    "QAOA works only for specific graph problems"
+  ],
+  "ans": 1,
+  "exp": "For large p, QAOA with optimal parameters matches the adiabatic schedule: the angles γ_k, β_k discretise the adiabatic path from H_B to H_C. QAOA is thus the 'digital' version of adiabatic QC, with the number of layers p controlling approximation quality."
+}

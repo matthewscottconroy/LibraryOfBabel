@@ -1,0 +1,14 @@
+{
+  "ch": 9,
+  "part": 2,
+  "chTitle": "Hyperbolic Dynamics",
+  "q": "The Oseledets decomposition ℝ^d = E₁(x) ⊕ ... ⊕ Eₖ(x) is measurable but typically not continuous. The obstruction to continuity is related to:",
+  "opts": [
+    "Lack of differentiability",
+    "Non-uniform hyperbolicity: the Oseledets spaces can vary wildly with x in the C⁰ topology, even for smooth systems, due to resonances and slow hyperbolic behavior",
+    "The dimension of M",
+    "The measure μ being non-ergodic"
+  ],
+  "ans": 1,
+  "exp": "The Oseledets decomposition is only measurable (a.e. defined) and can fail to be continuous anywhere. Near points where two Lyapunov exponents are equal (a resonance), the corresponding Oseledets subspaces may rotate rapidly. This is a fundamental difference between uniform hyperbolicity (where subspaces vary continuously) and non-uniform hyperbolicity."
+}

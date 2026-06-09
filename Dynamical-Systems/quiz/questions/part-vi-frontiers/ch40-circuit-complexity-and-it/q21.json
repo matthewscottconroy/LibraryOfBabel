@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "The Williams ACC⁰ lower bound (2011) showed NEXP⊄ACC⁰ (nondeterministic exponential time cannot be computed by constant-depth circuits with modular gates). The proof uses:",
+  "opts": [
+    "Diagonalization alone",
+    "An accelerated circuit SAT algorithm for ACC⁰ circuits, combined with the time hierarchy theorem",
+    "The natural proofs barrier (avoided by the specific structure of ACC⁰)",
+    "Oracle separations"
+  ],
+  "ans": 1,
+  "exp": "Williams' technique: if NEXP⊆ACC⁰, then there is a fast (subexponential) SAT algorithm for ACC⁰ circuits (using the Barrington theorem and Nisan-Wigderson PRGs). But the time hierarchy theorem says SAT cannot be solved in subexponential nondeterministic time. Contradiction gives NEXP⊄ACC⁰."
+}

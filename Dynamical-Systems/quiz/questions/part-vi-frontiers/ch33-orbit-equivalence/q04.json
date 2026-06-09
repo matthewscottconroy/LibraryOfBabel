@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "Popa's cocycle superrigidity theorem (2005) proves that for certain group actions (malleable, property (T) or strong property (T)), any measurable cocycle into a target group Λ is:",
+  "opts": [
+    "Trivial",
+    "Cohomologous to a group homomorphism (the cocycle is 'rigidly' determined by algebraic data)",
+    "A coboundary",
+    "Smooth"
+  ],
+  "ans": 1,
+  "exp": "Popa's superrigidity: cocycles c: Γ×X→Λ for Bernoulli Γ-actions are cohomologous to group homomorphisms Γ→Λ. This is the cocycle version of Margulis superrigidity — cocycles (derivatives of orbit equivalences) are algebraically constrained."
+}

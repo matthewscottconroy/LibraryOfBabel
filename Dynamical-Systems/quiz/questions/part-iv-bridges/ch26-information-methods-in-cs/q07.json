@@ -1,0 +1,14 @@
+{
+  "ch": 26,
+  "part": 4,
+  "chTitle": "Information-Theoretic Methods in CS",
+  "q": "The min-entropy H_∞(X) = −log max_x P(X=x) is relevant in cryptography because:",
+  "opts": [
+    "It equals the Shannon entropy for uniform distributions",
+    "It is an upper bound on the probability that an adversary correctly guesses X in one try",
+    "A distribution with high H_∞ is hard to predict: the best single-guess success probability is 2^{−H_∞}",
+    "All of the above"
+  ],
+  "ans": 3,
+  "exp": "All are correct: H_∞ = H_1 (Shannon entropy at uniform), and the optimal one-guess success probability is max P(X=x) = 2^{−H_∞}, so high min-entropy ↔ low guessing probability. Min-entropy is the right notion of randomness for cryptography."
+}

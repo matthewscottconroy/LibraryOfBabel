@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "The second-order coding rate for reliable transmission over a DMC at rate R and blocklength n is (1/2)log n·V/n (where V is the channel dispersion). This means the maximal rate with error ≤ε satisfies:",
+  "opts": [
+    "R*(n,ε)=C+O(1/√n)",
+    "R*(n,ε)=C−√(V/n)·Q^{-1}(ε)+O(log n/n)",
+    "R*(n,ε)=C·(1−ε)",
+    "R*(n,ε)=C−1/n"
+  ],
+  "ans": 1,
+  "exp": "The second-order result (Polyanskiy-Poor-Verdú 2010, Hayashi 2009): R*(n,ε)=C−√(V/n)·Q^{-1}(ε)+O(log n/n) where V=Var_{P*}[log P(Y|X)/P(Y)] is the channel dispersion and Q^{-1} is the inverse Q-function. This gives sharp finite-blocklength corrections."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "The Braverman–Yampolsky theorem on Julia sets states:",
+  "opts": [
+    "All Julia sets are computable",
+    "The Mandelbrot set is computable, but Julia sets J(f_c) for c ∈ ∂M may be noncomputable",
+    "Julia sets are computable iff c is rational",
+    "The Julia set of z²+c is always a circle"
+  ],
+  "ans": 1,
+  "exp": "Braverman–Yampolsky (2006–2008): M is computable (one can decide membership up to ε). But for some c ∈ ∂M, the Julia set J(f_c) is not computable — no algorithm can approximate it. This shows geometric objects arising from simple dynamics can be computationally inaccessible."
+}

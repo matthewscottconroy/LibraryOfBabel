@@ -1,0 +1,14 @@
+{
+  "ch": 25,
+  "part": 4,
+  "chTitle": "Chaos, Randomness, and Computation",
+  "q": "The notion of algorithmic randomness and unpredictability in chaotic systems is formalized by the result that the Bernoulli shift on k symbols preserves the property that a sequence x ∈ {0,…,k-1}^ω is Martin-Löf random iff:",
+  "opts": [
+    "x has equal frequency of all symbols",
+    "K(x₁…xₙ) ≥ n log k − O(1) (incompressible in base k)",
+    "x generates a dense orbit",
+    "The sequence has no periods"
+  ],
+  "ans": 1,
+  "exp": "Martin-Löf random sequences in {0,…,k-1}^ω are characterised by K(xₙ) ≥ n log k − O(1)—maximal complexity (incompressible). Under the Bernoulli measure (fair k-sided coin), Lebesgue-a.e. sequence is Martin-Löf random, connecting measure theory to algorithmic randomness."
+}

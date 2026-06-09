@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "Thouvenot's relative isomorphism theorem extends Ornstein's result. Two extensions T̃ of T and S̃ of S over isomorphic base (T ≅ S) are relatively isomorphic if they both have the relative:",
+  "opts": [
+    "Same entropy",
+    "VWB property (very weak Bernoulli relative to the factor)",
+    "Same spectrum",
+    "Same orbit equivalence class"
+  ],
+  "ans": 1,
+  "exp": "Thouvenot's relative Ornstein: if T and S are isomorphic and T̃, S̃ are extensions satisfying the relative VWB property with the same relative entropy, then T̃ ≅ S̃ over the common factor. This is the main tool for proving isomorphism of geodesic flows and other systems."
+}

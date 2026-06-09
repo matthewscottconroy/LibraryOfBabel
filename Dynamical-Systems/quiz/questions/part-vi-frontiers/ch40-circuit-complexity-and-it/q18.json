@@ -1,0 +1,14 @@
+{
+  "ch": 40,
+  "part": 6,
+  "chTitle": "Circuit Complexity and Information Theory",
+  "q": "The information complexity IC(f,ε) of a function f is the minimum amount of information Alice and Bob must reveal about their inputs during any ε-error protocol. For the equality function EQ_n, IC(EQ_n,0) satisfies:",
+  "opts": [
+    "IC(EQ_n,0)=n (equals the input length)",
+    "IC(EQ_n,0)=O(log n)",
+    "IC(EQ_n,0)=0 (no information needed)",
+    "IC(EQ_n,0)=Θ(n) for deterministic protocols, 0 for randomized"
+  ],
+  "ans": 0,
+  "exp": "The information complexity of exact equality IC(EQ_n,0)=n bits: any deterministic protocol for EQ_n that errs with probability 0 must reveal all n bits of mutual information (since the worst-case distribution makes x=y the hardest case). For randomized protocols with error, IC(EQ_n,ε)=O(log(1/ε))."
+}

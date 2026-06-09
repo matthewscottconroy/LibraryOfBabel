@@ -1,0 +1,14 @@
+{
+  "ch": 1,
+  "part": 1,
+  "chTitle": "Real Analysis",
+  "q": "The Baire Category Theorem states that in a complete metric space, the intersection of countably many dense open sets is:",
+  "opts": [
+    "Empty",
+    "At most countable",
+    "Dense",
+    "A closed set"
+  ],
+  "ans": 2,
+  "exp": "Baire's theorem says any countable intersection of dense open sets in a complete metric space is dense (in particular nonempty). This distinguishes complete spaces from incomplete ones."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "Dye's theorem (1959–1963) states that all free ergodic MPT actions of ℤ are:",
+  "opts": [
+    "Isomorphic",
+    "Orbit equivalent to each other",
+    "Weakly isomorphic but not orbit equivalent",
+    "Orbit equivalent only if they have the same entropy"
+  ],
+  "ans": 1,
+  "exp": "Dye: all free ergodic ℤ-actions are mutually orbit equivalent — there is only one orbit equivalence class for free ergodic ℤ-actions. Entropy, mixing, spectral type — none of this matters for orbit equivalence. The orbit structure is universal."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 22,
+  "part": 4,
+  "chTitle": "Entropy in Dynamical Systems",
+  "q": "For a continuous map T on a compact metric space with a unique measure of maximal entropy μ_max, the topological entropy can be computed from the growth rate of periodic orbits:",
+  "opts": [
+    "|Fix(Tⁿ)| = e^{nh_top} exactly",
+    "(1/n) log |Fix(Tⁿ)| → h_top(T) as n → ∞ (for expansive maps or when periodic orbits are dense)",
+    "h_top = lim_{n→∞} |Fix(Tⁿ)|^{1/n}",
+    "All periodic orbits have the same period"
+  ],
+  "ans": 1,
+  "exp": "For expansive maps with specification property (e.g., mixing SFTs, Axiom A attractors): (1/n) log |Per_n(T)| → h_top. For the full k-shift: |Per_n| = kⁿ, giving entropy log k. This is the dynamical analogue of Dirichlet series counting prime orbits."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 6,
+  "part": 2,
+  "chTitle": "Topological Dynamics",
+  "q": "A system (X,f) is equicontinuous if the family of iterates {fⁿ} is equicontinuous. Equicontinuous minimal systems are called:",
+  "opts": [
+    "Mixing",
+    "Chaotic",
+    "Isometric (isomorphic to a rotation on a compact group)",
+    "Hyperbolic"
+  ],
+  "ans": 2,
+  "exp": "By the Ellis-Auslander theorem, equicontinuous minimal systems are isomorphic (as dynamical systems) to rotations on compact abelian groups. They have purely discrete spectrum — the opposite of chaos."
+}

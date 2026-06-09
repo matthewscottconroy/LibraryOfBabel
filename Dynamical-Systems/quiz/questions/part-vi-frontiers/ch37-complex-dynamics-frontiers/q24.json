@@ -1,0 +1,14 @@
+{
+  "ch": 37,
+  "part": 6,
+  "chTitle": "Frontiers in Complex Dynamics",
+  "q": "The Fatou-Shishikura inequality (sharp form) for a rational map of degree d: # (attracting cycles) + # (parabolic cycles) + # (Siegel disks) + # (Herman rings) ≤ 2d−2. Equality holds when:",
+  "opts": [
+    "The map is a Lattès example",
+    "Each critical point is in the Fatou set and maps to a distinct cycle",
+    "Every critical point is periodic",
+    "The map has only repelling fixed points"
+  ],
+  "ans": 1,
+  "exp": "Equality 2d−2 is achieved when each of the 2d−2 critical points (counted with multiplicity) is associated to a distinct non-repelling cycle: each attracting/parabolic cycle has exactly one critical point in its immediate basin, each Siegel disk/Herman ring has one critical point on its boundary."
+}

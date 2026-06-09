@@ -1,0 +1,14 @@
+{
+  "ch": 3,
+  "part": 1,
+  "chTitle": "Topology",
+  "q": "The long exact sequence of a pair (X, A) in singular homology reads: … → Hₙ(A) → Hₙ(X) → Hₙ(X,A) → H_{n-1}(A) → … The connecting homomorphism ∂: Hₙ(X,A) → H_{n-1}(A) is defined by:",
+  "opts": [
+    "∂[σ] = [∂σ] (the boundary of the cycle σ)",
+    "∂[c] = [∂c|_A] — represent a relative cycle c by its boundary (which lies in A), giving a class in H_{n-1}(A)",
+    "∂ is the zero map",
+    "∂ = inclusion-induced map"
+  ],
+  "ans": 1,
+  "exp": "The connecting homomorphism: given a relative cycle c ∈ Cₙ(X,A) (∂c ∈ Cₙ₋₁(A)), ∂[c] = [∂c] ∈ H_{n-1}(A). This is well-defined and gives the long exact sequence. It measures how cycles in X 'rel A' bound in A — capturing the topology of the pair."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "The Brenier theorem states that for absolutely continuous μ,ν on ℝⁿ (μ with density in L^p), the optimal transport map for the quadratic cost c(x,y)=|x−y|²/2 is:",
+  "opts": [
+    "The gradient of a convex function T=∇φ (unique μ-a.e.)",
+    "A linear map",
+    "Any measure-preserving bijection",
+    "A stochastic kernel"
+  ],
+  "ans": 0,
+  "exp": "Brenier's theorem (1991): for μ,ν with finite second moments and μ≪Lebesgue, the unique optimal transport map for quadratic cost is T=∇φ where φ is a convex function (Brenier potential). T is the μ-a.e. unique minimizer of ∫|T(x)−x|²dμ."
+}

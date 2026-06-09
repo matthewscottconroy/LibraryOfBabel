@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "Property (T) (Kazhdan's property, 1967) for a group Γ means every unitary representation with almost-invariant vectors has invariant vectors. For orbit equivalence, property (T) groups have the rigidity property that:",
+  "opts": [
+    "All their actions are free",
+    "They cannot be orbit equivalent to amenable group actions",
+    "Their Bernoulli actions are not OE to each other for different entropies",
+    "Property (T) groups have cost 1"
+  ],
+  "ans": 1,
+  "exp": "Groups with property (T) are not OE-equivalent to amenable group actions (by CFW theorem, all amenable actions are OE to ℤ-actions). Property (T) prevents the 'softness' of amenable OE classes. Popa's work shows property (T) implies very strong rigidity for OE."
+}

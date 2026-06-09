@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "The Toda lattice is a completely integrable Hamiltonian system of n particles with exponential nearest-neighbor interactions. Its integrability is established via a Lax pair (L, B) satisfying:",
+  "opts": [
+    "L̇ = LB",
+    "L̇ = LB − BL = [L,B]",
+    "L̇ = 0",
+    "L̇ = B²"
+  ],
+  "ans": 1,
+  "exp": "Lax pair: L̇ = [L,B] implies that eigenvalues of L are conserved quantities (since d/dt eig(L) = 0 follows from L̇ = [L,B]). This generates enough integrals of motion for complete integrability. The Toda lattice was the first non-trivial system shown completely integrable via the Lax method."
+}

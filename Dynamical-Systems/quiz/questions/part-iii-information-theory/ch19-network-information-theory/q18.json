@@ -1,0 +1,14 @@
+{
+  "ch": 19,
+  "part": 3,
+  "chTitle": "Network Information Theory",
+  "q": "The Han-Kobayashi inner bound for the interference channel splits each message into common and private parts. For the Gaussian interference channel at high SNR, the degrees-of-freedom (DoF) region for two users is:",
+  "opts": [
+    "Each user gets 1/2 DoF (total 1 DoF)",
+    "Each user gets 1 DoF (total 2 DoF)",
+    "Each user gets 2/3 DoF (total 4/3 DoF)",
+    "DoF depends on channel coefficients"
+  ],
+  "ans": 0,
+  "exp": "The DoF region of the 2-user Gaussian interference channel is (d₁,d₂) with d₁+d₂≤1, i.e., each user gets at most 1/2 DoF in the symmetric case (Etkin-Tse-Wang). This is the interference-limited regime."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 43,
+  "part": 7,
+  "chTitle": "Homotopy Type Theory and Dynamics",
+  "q": "The cohomology of BG (classifying space of a group G) in HoTT corresponds to:",
+  "opts": [
+    "The group homology of G",
+    "The type K(G,1) (the Eilenberg-MacLane space), defined as the connected 1-type with π₁ = G, and the cohomology H*(K(G,1)) = group cohomology H*(G)",
+    "The homotopy groups of G",
+    "The free group on |G| generators"
+  ],
+  "ans": 1,
+  "exp": "BG = K(G,1) in HoTT is defined as the groupoid quotient (or delooping) of G: a type with a point ⋆ and π₁(BG) = G. The cohomology H*(BG) computes the group cohomology H*(G). In HoTT, this is constructed via the 'delooping' using HITs or the quotient type."
+}

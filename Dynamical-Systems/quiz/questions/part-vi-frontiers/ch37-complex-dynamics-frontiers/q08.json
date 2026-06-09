@@ -1,0 +1,14 @@
+{
+  "ch": 37,
+  "part": 6,
+  "chTitle": "Frontiers in Complex Dynamics",
+  "q": "Polynomial-like maps (Douady-Hubbard) generalize polynomials and are used to explain renormalization. A polynomial-like map of degree d is:",
+  "opts": [
+    "A polynomial of degree d",
+    "A proper holomorphic map f: U' → U of degree d with U' ⊂⊂ U",
+    "A rational map of degree d on ℂ̂",
+    "An entire function with d critical points"
+  ],
+  "ans": 1,
+  "exp": "A polynomial-like map (Douady-Hubbard 1985) is a proper holomorphic map f: U' → U with U', U ⊂ ℂ open and U' ⊂⊂ U. Its filled Julia set K_f = ∩ f⁻ⁿ(U) mimics a polynomial. The straightening theorem shows it is hybrid equivalent to an actual polynomial."
+}

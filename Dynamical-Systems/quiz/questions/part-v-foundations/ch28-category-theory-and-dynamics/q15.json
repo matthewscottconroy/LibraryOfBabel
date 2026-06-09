@@ -1,0 +1,14 @@
+{
+  "ch": 28,
+  "part": 5,
+  "chTitle": "Category Theory and Dynamics",
+  "q": "The Chu construction Chu(Set,2) produces a star-autonomous category (a model of multiplicative linear logic). Its objects are pairs (X,A,r) with r: X×A → 2, which can represent:",
+  "opts": [
+    "Measure spaces",
+    "Games (X = positions of player 1, A = strategies of player 2, r = winner)",
+    "Topological spaces",
+    "Probability distributions"
+  ],
+  "ans": 1,
+  "exp": "Chu spaces (X,A,r) model various structures in a unified way: r: X×A → 2 can be membership (topology: X = points, A = open sets), strategies (game theory: X = moves, A = counter-moves, r = outcome), or binary relations. The Chu construction is a universal way to build star-autonomous categories."
+}

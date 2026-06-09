@@ -1,0 +1,14 @@
+{
+  "ch": 21,
+  "part": 3,
+  "chTitle": "Quantum Information Theory",
+  "q": "The quantum teleportation protocol transmits one qubit of quantum information using:",
+  "opts": [
+    "2 classical bits and 1 EPR pair",
+    "1 qubit and 1 classical bit",
+    "3 EPR pairs",
+    "No classical communication"
+  ],
+  "ans": 0,
+  "exp": "Quantum teleportation: Alice shares an EPR pair with Bob, measures her qubit and her half of the EPR pair (2 bits outcome), sends 2 classical bits to Bob, who applies a correction. Net: 1 qubit teleported using 2 cbits + 1 ebit."
+}

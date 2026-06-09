@@ -1,0 +1,14 @@
+{
+  "ch": 23,
+  "part": 4,
+  "chTitle": "Ergodic Information Theory",
+  "q": "The Ziv-Lempel complexity of a sequence x^n, defined as the number of distinct phrases in the sequential parsing, satisfies for a stationary ergodic source with entropy rate h:",
+  "opts": [
+    "c(x^n)/n→h/log n (normalized complexity converges to entropy rate)",
+    "c(x^n)·log n/n→h almost surely",
+    "c(x^n)/2^{nh}→1",
+    "c(x^n)→∞ at rate 2^{nh}"
+  ],
+  "ans": 1,
+  "exp": "Ziv-Lempel complexity: c(x^n)~nh/log n for a stationary ergodic source with entropy rate h. More precisely, c(x^n)·log n/n→h almost surely (Ornstein-Weiss, Ziv-Lempel). This is the basis of LZ78/LZW compression."
+}

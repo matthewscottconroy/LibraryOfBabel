@@ -1,0 +1,14 @@
+{
+  "ch": 14,
+  "part": 2,
+  "chTitle": "Hamiltonian Systems",
+  "q": "The Liouville-Arnold theorem guarantees that a completely integrable Hamiltonian system (n degrees of freedom, n independent Poisson-commuting integrals) has compact level sets that are:",
+  "opts": [
+    "Spheres Sⁿ",
+    "Tori 𝕋ⁿ",
+    "Ellipsoids",
+    "Projective spaces ℝPⁿ"
+  ],
+  "ans": 1,
+  "exp": "Liouville-Arnold: connected compact regular level sets of n commuting integrals are tori 𝕋ⁿ on which the flow is linear (quasi-periodic). Action-angle coordinates (I,θ)∈U×𝕋ⁿ are defined in a neighborhood."
+}

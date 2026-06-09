@@ -1,0 +1,14 @@
+{
+  "ch": 35,
+  "part": 6,
+  "chTitle": "The Isomorphism Problem",
+  "q": "Goodman's theorem (extending Krieger's generator theorem) states that every ergodic pmp system (X,μ,T) with h_μ(T)<log N has a generating partition with N atoms. The proof uses:",
+  "opts": [
+    "Zorn's lemma",
+    "The Rokhlin lemma and approximation of atoms by Rokhlin towers",
+    "The spectral theorem for unitary operators",
+    "Direct construction via entropy calculations"
+  ],
+  "ans": 1,
+  "exp": "Krieger's generator theorem (proved via Rokhlin-Sinai, refined by Goodman) uses the Rokhlin lemma to construct towers covering most of X, then approximates partition atoms within these towers. The bound h<log N is sharp (cannot generate with fewer atoms when entropy=log N, e.g., Bernoulli shift on N symbols)."
+}

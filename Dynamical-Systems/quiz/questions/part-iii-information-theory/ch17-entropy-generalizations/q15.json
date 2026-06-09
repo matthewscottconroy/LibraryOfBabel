@@ -1,0 +1,14 @@
+{
+  "ch": 17,
+  "part": 3,
+  "chTitle": "Entropy Generalizations",
+  "q": "The log-sum inequality states that for non-negative aᵢ, bᵢ:",
+  "opts": [
+    "Σaᵢ log(aᵢ/bᵢ) ≤ (Σaᵢ) log(Σaᵢ/Σbᵢ)",
+    "Σaᵢ log(aᵢ/bᵢ) ≥ (Σaᵢ) log(Σaᵢ/Σbᵢ)",
+    "Σaᵢ log(aᵢ/bᵢ) = Σaᵢ·Σlog(aᵢ/bᵢ)",
+    "Σaᵢ log(aᵢ/bᵢ) = 0"
+  ],
+  "ans": 1,
+  "exp": "Log-sum inequality: Σᵢ aᵢ log(aᵢ/bᵢ) ≥ (Σaᵢ) log(Σaᵢ/Σbᵢ). This follows from Jensen's inequality applied to the convex function t log t. It is used to prove non-negativity of KL divergence, convexity of mutual information, and many other information inequalities."
+}

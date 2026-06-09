@@ -1,0 +1,14 @@
+{
+  "ch": 33,
+  "part": 6,
+  "chTitle": "Orbit Equivalence Theory",
+  "q": "The equivalence relation E_t (t-equivalence, for t>0) is defined by x E_t y iff x−y∈tℤ. These are hyperfinite equivalence relations parameterized by t, and they are all:",
+  "opts": [
+    "Isomorphic as Borel equivalence relations regardless of t",
+    "Mutually non-isomorphic as measured equivalence relations for different t",
+    "The same as E_0 for all t",
+    "Smooth for t>0 and non-smooth for t=0"
+  ],
+  "ans": 1,
+  "exp": "The E_t equivalence relations (for irrational t>0 and rational t separately) give a family of hyperfinite equivalence relations parameterized up to measure equivalence. For irrational t, E_t is orbit equivalent to the irrational rotation by t; different t give non-orbit-equivalent actions of ℤ (if the rotation numbers are in different orbits of GL(2,ℤ))."
+}

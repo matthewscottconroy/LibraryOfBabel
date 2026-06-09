@@ -1,0 +1,14 @@
+{
+  "ch": 5,
+  "part": 1,
+  "chTitle": "Linear Algebra",
+  "q": "The Perron-Frobenius theorem applies to non-negative irreducible matrices and states that:",
+  "opts": [
+    "All eigenvalues are positive",
+    "There is a unique largest real eigenvalue (Perron root) with a positive eigenvector",
+    "The matrix is diagonalizable",
+    "All eigenvalues have the same modulus"
+  ],
+  "ans": 1,
+  "exp": "Perron-Frobenius: a positive (irreducible non-negative) matrix has a simple largest positive eigenvalue ρ (Perron root) with a unique positive eigenvector. Critical in Markov chains and dynamical systems."
+}

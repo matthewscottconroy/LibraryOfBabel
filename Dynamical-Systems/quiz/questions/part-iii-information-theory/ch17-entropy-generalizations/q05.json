@@ -1,0 +1,14 @@
+{
+  "ch": 17,
+  "part": 3,
+  "chTitle": "Entropy Generalizations",
+  "q": "The Rényi entropy of order α is defined as H_α(X) = (1−α)⁻¹ log Σ p(x)^α. As α → 1, this converges to:",
+  "opts": [
+    "0",
+    "The min-entropy H_∞",
+    "The Shannon entropy H(X)",
+    "The max-entropy log|A|"
+  ],
+  "ans": 2,
+  "exp": "By L'Hôpital's rule, lim_{α→1} H_α(X) = −Σ p(x) log p(x) = H(X). So Shannon entropy is the special case α = 1. Rényi entropies form a monotone family: H_α ≥ H_β for α ≤ β."
+}

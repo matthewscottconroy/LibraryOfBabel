@@ -1,0 +1,14 @@
+{
+  "ch": 39,
+  "part": 6,
+  "chTitle": "One-Shot Information Theory",
+  "q": "The resource theory of thermodynamics in one-shot quantum information uses 'thermal operations' (interactions with a heat bath at temperature T). The second law in this framework says a state ρ can be converted to σ by thermal operations iff:",
+  "opts": [
+    "S(ρ) ≤ S(σ)",
+    "The free energies satisfy F(ρ) ≥ F(σ): F = Tr[Hρ] − TS(ρ)",
+    "The Rényi divergences D_α(ρ||γ) ≥ D_α(σ||γ) for all α ≥ 0 (where γ is the Gibbs state)",
+    "ρ and σ commute with H"
+  ],
+  "ans": 2,
+  "exp": "In the one-shot resource theory (Brandão-Horodecki-Oppenheim-Streltsov-Wehner 2015): ρ → σ by thermal operations iff D_α(ρ||γ) ≥ D_α(σ||γ) for all α ≥ 0 (the 'thermomajorization' condition in terms of Rényi divergences). This is an infinite family of constraints — the single free energy F(ρ) ≥ F(σ) is only the first-order (i.i.d.) condition."
+}

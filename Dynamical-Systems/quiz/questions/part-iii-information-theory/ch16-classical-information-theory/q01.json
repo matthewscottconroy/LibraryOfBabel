@@ -1,0 +1,14 @@
+{
+  "ch": 16,
+  "part": 3,
+  "chTitle": "Classical Information Theory",
+  "q": "Shannon entropy H(X) = -∑p(x)log p(x) achieves its maximum for a discrete random variable with n outcomes when:",
+  "opts": [
+    "p is concentrated at one point (deterministic)",
+    "p is the uniform distribution (p(x)=1/n for all x)",
+    "p follows a geometric distribution",
+    "p has exactly two non-zero values"
+  ],
+  "ans": 1,
+  "exp": "Shannon entropy is maximised by the uniform distribution: H(X)≤log n with equality iff X is uniform. Intuitively, maximum uncertainty equals maximum information content — a uniform source is maximally hard to compress."
+}

@@ -1,0 +1,14 @@
+{
+  "ch": 31,
+  "part": 5,
+  "chTitle": "Ergodic Number Theory",
+  "q": "Furstenberg's 2×3 theorem (1967) states that the only infinite closed subsets of [0,1) invariant under both x ↦ 2x (mod 1) and x ↦ 3x (mod 1) are:",
+  "opts": [
+    "Finite sets",
+    "The set [0,1) itself",
+    "The Cantor set",
+    "The rationals"
+  ],
+  "ans": 1,
+  "exp": "Furstenberg's ×2 ×3 conjecture (proved for closed sets, still open for ergodic measures): the only infinite closed set simultaneously invariant under ×2 and ×3 is [0,1). The measure version (only common invariant ergodic measure is Lebesgue) remains open—it is implied by normality of all numbers."
+}

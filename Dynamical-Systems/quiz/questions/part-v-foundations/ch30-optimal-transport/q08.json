@@ -1,0 +1,14 @@
+{
+  "ch": 30,
+  "part": 5,
+  "chTitle": "Optimal Transport",
+  "q": "The Benamou-Brenier formula gives a dynamic (fluid mechanics) characterization of W₂²(μ₀,μ₁) as:",
+  "opts": [
+    "The minimal total variation of the path",
+    "inf ∫₀¹ ∫|v(t,x)|² dμ_t(x) dt over paths (μ_t, v_t) satisfying the continuity equation ∂_t μ + ∇·(vμ) = 0",
+    "The geodesic length in KL geometry",
+    "The Fisher information along the path"
+  ],
+  "ans": 1,
+  "exp": "Benamou-Brenier: W₂²(μ₀,μ₁) = min ∫₀¹ ∫|v|² dμ_t dt subject to the continuity equation. This formulation links optimal transport to fluid mechanics and is the basis for numerical computation of Wasserstein distances."
+}

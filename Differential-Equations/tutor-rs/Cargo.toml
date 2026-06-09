@@ -1,0 +1,19 @@
+[package]
+name = "math-tutor"
+version = "0.1.0"
+edition = "2021"
+description = "Adaptive math tutor with ELO-based spaced repetition"
+
+[[bin]]
+name = "tutor"
+path = "src/main.rs"
+
+[dependencies]
+clap      = { version = "4",    features = ["derive"] }
+rusqlite  = { version = "0.31", features = ["bundled"] }
+rand      = { version = "0.8", features = ["small_rng"] }
+crossterm = "0.27"
+ratatui   = "0.27"
+anyhow    = "1"
+chrono    = { version = "0.4",  features = ["serde"] }
+dirs      = "5"

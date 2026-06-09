@@ -1,0 +1,9 @@
+# Chapter 3: Singular Sturm-Liouville Problems
+
+When the leading coefficient $p(x)$ of a Sturm-Liouville problem vanishes at one or both endpoints, or when the interval is infinite, the problem is called **singular**. Singular SL problems require a more careful analysis than regular ones: the simple separated boundary conditions of the regular theory must be replaced by weaker conditions (boundedness, square-integrability), the spectrum may include both discrete eigenvalues and a continuous part, and the completeness theorem requires a more sophisticated proof.
+
+Despite these complications, singular SL problems are of paramount importance. The most classical special functions — Legendre polynomials, Bessel functions, Hermite and Laguerre polynomials — are eigenfunctions of singular SL problems. Their orthogonality and completeness, which underlie their utility as bases for function expansions and solutions of PDEs, are consequences of the singular SL framework.
+
+The chapter focuses on three topics. First, the classification of singular endpoints using Weyl's limit-point and limit-circle theory, which determines what boundary conditions (if any) are needed at a singular endpoint. Second, the Legendre equation as an example of a singular SL problem on $[-1,1]$ with $p(\pm 1) = 0$ — the eigenfunctions are the Legendre polynomials, and the Legendre series is the eigenfunction expansion. Third, the Bessel equation as an SL problem on $(0, R)$ with $p(0) = 0$ — the eigenfunctions are Bessel functions, and the Fourier-Bessel series is the eigenfunction expansion appropriate for circular or cylindrical geometry.
+
+Together, these examples show how the singular SL framework unifies the theory of all major special functions and places their properties — orthogonality, completeness, recurrence — in a single theoretical setting.

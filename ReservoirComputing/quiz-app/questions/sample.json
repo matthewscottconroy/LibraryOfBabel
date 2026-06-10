@@ -1,0 +1,936 @@
+{
+  "title": "Reservoir Computing Fundamentals",
+  "description": "Test your knowledge of Echo State Networks, memory capacity, and reservoir dynamics.",
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "text": "What does the spectral radius ρ of the recurrent weight matrix W_rec control in an Echo State Network?",
+      "choices": [
+        "Memory depth and dynamical stability",
+        "The number of reservoir neurons",
+        "The input scaling factor",
+        "The ridge regression regularisation λ"
+      ],
+      "correct": 0,
+      "explanation": "ρ controls the trade-off between memory and stability. ρ < 1 guarantees the Echo State Property (fading memory), while ρ close to 1 gives richer, longer-range dynamics."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In ridge regression readout training, what is the effect of increasing the regularisation parameter λ?",
+      "choices": [
+        "Increases overfitting risk by amplifying noise in the state matrix",
+        "Shrinks readout weights toward zero, reducing overfitting at the cost of bias",
+        "Increases the spectral radius of the reservoir",
+        "Increases the number of training steps required"
+      ],
+      "correct": 1,
+      "explanation": "Ridge adds a penalty λ‖W_out‖² to the least-squares objective. Increasing λ shrinks weights and reduces variance (overfitting), but raises bias — a classic bias-variance trade-off."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The Jaeger (2002) Memory Capacity theorem states that total linear MC is bounded above by what quantity?",
+      "choices": [
+        "The spectral radius ρ",
+        "The number of inputs n_in",
+        "The reservoir size N",
+        "The training sequence length T"
+      ],
+      "correct": 2,
+      "explanation": "MC ≤ N: the total linear memory capacity is bounded above by the reservoir size N. This is a fundamental information-theoretic limit on how much input history an N-neuron reservoir can store."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "FORCE learning (Sussillo & Abbott 2009) trains which weights online using RLS?",
+      "choices": [
+        "Only the readout weights W_out",
+        "Only the input weights W_in",
+        "The recurrent weights W_rec",
+        "The bias vector b"
+      ],
+      "correct": 2,
+      "explanation": "FORCE uses online RLS to train W_rec during a supervised 'training' phase, so the network learns to generate a target pattern autonomously — not merely predict it from input."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In the NVAR / Next-Generation RC approach (Gauthier et al. 2021), what replaces the reservoir?",
+      "choices": [
+        "A deep neural network with backpropagation",
+        "A lookup table of discretised past inputs",
+        "Polynomial features of delay-embedded inputs",
+        "A Hopfield attractor network"
+      ],
+      "correct": 2,
+      "explanation": "NVAR replaces the reservoir with explicit polynomial (nonlinear) features of k delayed copies of the input. It achieves competitive Lorenz prediction performance with far fewer parameters than an ESN."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In a leaky integrator ESN, what does the leak rate α = 1 correspond to?",
+      "choices": [
+        "A slow low-pass filter with strong temporal smoothing",
+        "The standard discrete-time ESN with no leaking",
+        "A network that ignores all previous state",
+        "Maximum memory capacity"
+      ],
+      "correct": 1,
+      "explanation": "α = 1 gives the standard (non-leaky) ESN: x_t = tanh(W_rec x_{t-1} + W_in u_t + b). α < 1 introduces low-pass temporal filtering, useful for tasks with slow timescales."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "What physical system inspired the concept of Liquid State Machines (LSMs)?",
+      "choices": [
+        "Electronic circuits with capacitors",
+        "The dynamics of cortical microcircuits in the brain",
+        "Optical delay lines in fiber",
+        "Quantum spin systems"
+      ],
+      "correct": 1,
+      "explanation": "Maass, Natschläger & Markram (2002) proposed LSMs as a model of cortical computation, where biological neural circuits act as universal real-time computation substrates."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The Valid Prediction Time (VPT) metric measures what in chaotic systems?",
+      "choices": [
+        "The total NMSE over the entire test sequence",
+        "How long the prediction remains within a given error threshold",
+        "The number of Lyapunov exponents that are positive",
+        "The memory capacity at the optimal spectral radius"
+      ],
+      "correct": 1,
+      "explanation": "VPT is the first time t where the normalised pointwise error exceeds a threshold (typically 5% of signal variance). It quantifies how long the reservoir's prediction stays accurate, often measured in Lyapunov times."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The Boyd-Chua theorem guarantees that a fading-memory filter can be uniformly approximated by what?",
+      "choices": [
+        "A linear time-invariant convolution",
+        "A finite-dimensional state-space system with a fixed reservoir",
+        "A feedforward network with enough hidden layers",
+        "A lookup table of finite resolution"
+      ],
+      "correct": 1,
+      "explanation": "Boyd & Chua (1985) proved that any causal, time-invariant fading-memory filter on compact input sets can be approximated arbitrarily well by a finite-dimensional dynamical system — the theoretical underpinning of RC's universality."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In Recursive Least Squares (RLS), what is the computational complexity per update step?",
+      "choices": [
+        "O(N)",
+        "O(N log N)",
+        "O(N²)",
+        "O(N³)"
+      ],
+      "correct": 2,
+      "explanation": "RLS maintains a covariance matrix P of size N×N and performs a rank-1 Sherman-Morrison update each step, which costs O(N²). This is cheaper than re-solving the ridge problem (O(N³)) at every step."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "What is the primary purpose of the washout period in ESN training?",
+      "choices": [
+        "To normalise the input signal",
+        "To allow the reservoir state to forget its initial conditions",
+        "To increase the effective spectral radius",
+        "To compute the ridge regression solution"
+      ],
+      "correct": 1,
+      "explanation": "The washout discards early time steps while the reservoir 'forgets' its arbitrary initial state x_0. For ρ near 1, longer washouts (200+ steps) may be needed before the state is driven solely by the input history."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In the Mackey-Glass equation, increasing the delay τ from 17 to 30 has what effect?",
+      "choices": [
+        "The system becomes periodic and easier to predict",
+        "The system becomes more chaotic with a larger Lyapunov exponent",
+        "The memory capacity requirement decreases",
+        "The system converges to a fixed point"
+      ],
+      "correct": 1,
+      "explanation": "For τ ≈ 17 the Mackey-Glass system is weakly chaotic; for τ ≈ 30 it has more positive Lyapunov exponents and higher attractor dimension, making long-horizon prediction harder."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "What does the Information Processing Capacity (IPC) framework of Dambre et al. (2012) decompose?",
+      "choices": [
+        "The total MC into linear and nonlinear contributions across delays and polynomial degrees",
+        "The reservoir dynamics into stable and unstable manifolds",
+        "The ridge regression solution into principal components",
+        "The input signal into frequency bands"
+      ],
+      "correct": 0,
+      "explanation": "IPC uses orthogonal Legendre polynomial targets at each delay to decompose the total capacity of a dynamical system into linear (degree 1) and nonlinear (degree ≥ 2) components, summing to a universal upper bound."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Conceptors (Jaeger 2014) are matrix operators that characterise what?",
+      "choices": [
+        "The optimal readout weight directions",
+        "The subspace of reservoir states activated by a given input pattern",
+        "The Lyapunov spectrum of the reservoir",
+        "The distribution of input weights W_in"
+      ],
+      "correct": 1,
+      "explanation": "A conceptor C is a regularised projection matrix (C = R(R + α⁻²I)⁻¹) where R is the state covariance under a given pattern. It captures the 'shape' of the attractor and can be used to switch between stored patterns."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In a deep (layered) ESN, how are multiple reservoirs typically connected?",
+      "choices": [
+        "Each layer reads from all previous layers simultaneously",
+        "The output of each reservoir feeds as input to the next",
+        "Layers share recurrent weights but have independent readouts",
+        "Layers are connected in a ring topology"
+      ],
+      "correct": 1,
+      "explanation": "In a standard deep ESN (Gallicchio & Micheli 2017), the state of reservoir ℓ drives reservoir ℓ+1 as its input. This creates a hierarchy where deeper layers capture slower, more abstract temporal features."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Physical reservoir computing using a single delay-feedback node achieves multiplexing through what mechanism?",
+      "choices": [
+        "Multiple parallel optical paths",
+        "Virtual nodes sampled at sub-delay intervals",
+        "Separate physical substrates per virtual node",
+        "Frequency-division multiplexing in the input"
+      ],
+      "correct": 1,
+      "explanation": "Appeltant et al. (2011) showed that by masking the input with a fast sequence, N virtual nodes can be read out from a single nonlinear node with a delay τ by sampling at intervals θ = τ/N. This maps one physical node to an N-dimensional state."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The NARMA-10 benchmark is challenging for reservoir computing primarily because it requires what?",
+      "choices": [
+        "Fast chaotic dynamics with a positive Lyapunov exponent",
+        "Long-range memory combined with nonlinear computation",
+        "An exact spectral radius of 0.9",
+        "At least 500 reservoir neurons"
+      ],
+      "correct": 1,
+      "explanation": "The NARMA-10 recurrence couples the last 10 time steps in a nonlinear product, requiring the reservoir to hold 10 steps of memory while applying nonlinear transformations — a test of both memory and nonlinear processing."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In the Lorenz-63 system, what do the three state variables (x, y, z) represent?",
+      "choices": [
+        "Amplitude, frequency, and phase of an oscillator",
+        "Convection rate, horizontal temperature variation, and vertical temperature variation",
+        "Position, velocity, and acceleration of a particle",
+        "Red, green, and blue color channels of an image"
+      ],
+      "correct": 1,
+      "explanation": "Lorenz (1963) derived these equations as a truncated model of Rayleigh-Bénard convection. x is proportional to convection rate; y to horizontal temperature difference; z to vertical temperature difference."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Teacher forcing during ESN training means that:",
+      "choices": [
+        "The spectral radius is adjusted to match the target signal's frequency",
+        "The true target signal (not the network's output) drives the reservoir during training",
+        "Multiple random seeds are used and the best is selected",
+        "The readout weights are trained with gradient descent"
+      ],
+      "correct": 1,
+      "explanation": "Teacher forcing feeds the true target y_t back into the reservoir during training instead of using the network's own prediction. This stabilises training and is standard for generative tasks like pattern generation."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The maximum Lyapunov exponent λ_max of a dynamical system characterises what?",
+      "choices": [
+        "The rate of exponential divergence of nearby trajectories",
+        "The spectral radius of the Jacobian at the fixed point",
+        "The total information processing capacity",
+        "The number of unstable modes in the reservoir"
+      ],
+      "correct": 0,
+      "explanation": "λ_max measures how quickly initially nearby trajectories diverge exponentially. λ_max > 0 indicates chaos; λ_max = 0 at bifurcation points; λ_max < 0 for stable attractors. For Lorenz-63, λ_max ≈ 0.906."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The Kaplan-Yorke (Lyapunov) dimension D_KY of a strange attractor is computed from what?",
+      "choices": [
+        "The number of reservoir neurons N",
+        "The sorted Lyapunov spectrum via the Kaplan-Yorke formula",
+        "The fractal box-counting dimension of the attractor",
+        "The spectral radius of the linearised system"
+      ],
+      "correct": 1,
+      "explanation": "D_KY = j + (λ₁+...+λⱼ)/|λⱼ₊₁| where j is the largest index for which the cumulative sum of sorted exponents is non-negative. For Lorenz-63, D_KY ≈ 2.06."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Takens' embedding theorem states that a time series x(t) contains full information about the attractor when embedded in how many dimensions?",
+      "choices": [
+        "Equal to the number of positive Lyapunov exponents",
+        "At least 2d+1 where d is the attractor dimension",
+        "Equal to the spectral radius rounded up",
+        "Exactly equal to the number of reservoir neurons"
+      ],
+      "correct": 1,
+      "explanation": "Takens (1981) proved that a delay-embedding in dimension m ≥ 2d+1 (d = attractor dimension) generically yields a diffeomorphic copy of the attractor. This justifies using delay coordinates for RC prediction tasks."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In the logistic map x_{t+1} = r·x_t·(1 - x_t), at approximately what value of r does the first period-doubling bifurcation occur?",
+      "choices": [
+        "r ≈ 2.0",
+        "r ≈ 3.0",
+        "r ≈ 3.57",
+        "r ≈ 4.0"
+      ],
+      "correct": 1,
+      "explanation": "The first period-doubling bifurcation (period 1→2) occurs at r ≈ 3.0. The period-doubling cascade accelerates and reaches chaos at r ≈ 3.57 (the Feigenbaum accumulation point)."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The Feigenbaum constant δ ≈ 4.669 appears universally in period-doubling routes to chaos. What does it represent?",
+      "choices": [
+        "The ratio of successive period-doubling bifurcation intervals",
+        "The Lyapunov exponent at the onset of chaos",
+        "The fractal dimension of the Feigenbaum tree",
+        "The spectral radius at the edge of chaos"
+      ],
+      "correct": 0,
+      "explanation": "δ is the asymptotic ratio (r_{n+1}-r_n)/(r_{n+2}-r_{n+1}) of successive bifurcation parameter intervals. Its universality (same constant for any smooth unimodal map) is a celebrated result of renormalisation group theory."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Channel equalization (Jaeger & Haas 2004) tests an RC system's ability to do what?",
+      "choices": [
+        "Predict future values of the transmitted signal",
+        "Recover transmitted symbols from a nonlinearly distorted received signal",
+        "Estimate the channel's Lyapunov exponents",
+        "Compress the input signal using reservoir states"
+      ],
+      "correct": 1,
+      "explanation": "The task is to invert a nonlinear ISI channel: given the distorted received signal u_t, recover the original symbols d_{t-2}. It requires memory (to undo ISI) and nonlinearity (to invert the cubic distortion)."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In an ESN, setting extend_with_input=True means what?",
+      "choices": [
+        "The input u_t is also directly connected to the output W_out",
+        "The input is extended with its own time-delayed copies",
+        "The reservoir is re-initialized for each input batch",
+        "The input scaling is increased proportionally to sequence length"
+      ],
+      "correct": 0,
+      "explanation": "With extend_with_input=True, the feature vector passed to the readout is [x_t; u_t] instead of just x_t. This adds direct input-output connections and almost always improves performance at negligible cost."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The Kuramoto-Sivashinsky (KS) PDE is used as an RC benchmark because it is:",
+      "choices": [
+        "Analytically solvable, providing a ground truth",
+        "High-dimensional, spatiotemporally chaotic, with known Lyapunov spectrum",
+        "A simple linear system that isolates memory capacity",
+        "Equivalent to the Lorenz-63 system in 1D"
+      ],
+      "correct": 1,
+      "explanation": "The KS equation produces high-dimensional spatiotemporal chaos (64 spatial modes in the standard benchmark). It was used by Pathak et al. (2018) as a hard test for Echo State Networks on large-scale chaos prediction."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Sparse connectivity in the reservoir weight matrix W_rec (e.g., 10% non-zero) is used primarily for what reason?",
+      "choices": [
+        "To guarantee the Echo State Property",
+        "To reduce computation time and memory while maintaining rich dynamics",
+        "To maximise the spectral radius for a given matrix size",
+        "To enforce symmetry in the recurrent connections"
+      ],
+      "correct": 1,
+      "explanation": "Sparsity makes reservoir construction and state updates cheaper (O(cN²) instead of O(N²) for density c). Empirically, sparse reservoirs perform as well as dense ones, and sparsity may even improve diversity of dynamics."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Simple Cycle Reservoirs (SCRs) are a structured alternative to random ESNs. Their W_rec has what topology?",
+      "choices": [
+        "A fully connected symmetric matrix",
+        "A directed ring (each neuron connects only to the next)",
+        "A binary tree with reservoir neurons at leaves",
+        "A random Erdős-Rényi graph"
+      ],
+      "correct": 1,
+      "explanation": "An SCR uses a single directed cycle: neuron i → i+1 (mod N), with constant weight r on every connection. Despite this extreme structure, SCRs achieve competitive memory capacity and are completely deterministic."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In random search for hyperparameter optimisation, why is it often preferred over grid search?",
+      "choices": [
+        "It guarantees finding the global optimum",
+        "It explores more distinct values of each hyperparameter for the same budget",
+        "It requires fewer function evaluations to converge",
+        "It avoids local optima by using gradient information"
+      ],
+      "correct": 1,
+      "explanation": "Bergstra & Bengio (2012) showed that if only a few hyperparameters matter, random search covers more distinct values of those important dimensions per trial than grid search, which wastes evaluations on unimportant dimensions."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The input scaling σ_in in an ESN primarily controls what?",
+      "choices": [
+        "How strongly the input drives neurons into the nonlinear (saturating) regime",
+        "The fraction of reservoir neurons that receive each input",
+        "The spectral radius of the input weight matrix",
+        "The number of output dimensions"
+      ],
+      "correct": 0,
+      "explanation": "W_in = σ_in · U[-1,1]. Large σ_in pushes neuron activations toward ±1 (tanh saturation), introducing strong nonlinearity. Small σ_in keeps neurons in the quasi-linear regime near zero. The optimal σ_in is task-dependent."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The effective time constant τ_eff of a leaky ESN with leak rate α is approximately:",
+      "choices": [
+        "τ_eff ≈ α",
+        "τ_eff ≈ 1/α",
+        "τ_eff ≈ 1 - α",
+        "τ_eff ≈ α / (1 - α)"
+      ],
+      "correct": 1,
+      "explanation": "In the linear regime, x_t = (1-α)x_{t-1} + α·input, so x decays with time constant 1/α steps. α→1 gives τ_eff≈1 (fast); α→0 gives τ_eff→∞ (slow, heavily filtered). This sets the natural timescale of the reservoir."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "A Central Pattern Generator (CPG) in neuroscience is a circuit that:",
+      "choices": [
+        "Processes sensory input into motor commands",
+        "Generates rhythmic motor output without requiring rhythmic sensory input",
+        "Stores episodic memories in recurrent loops",
+        "Computes the gradient of a loss function"
+      ],
+      "correct": 1,
+      "explanation": "CPGs are neural circuits that autonomously generate rhythmic patterns (e.g., locomotion, breathing) without needing rhythmic input. FORCE learning can train recurrent networks to produce stable CPG-like limit cycles."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In the 'edge of chaos' hypothesis for reservoir computing, optimal performance occurs when:",
+      "choices": [
+        "ρ is exactly 1.0 and the system is at a critical phase transition",
+        "The reservoir is in a regime between ordered (stable) and chaotic dynamics",
+        "The Lyapunov exponent is maximised",
+        "All reservoir neurons are saturated at ±1"
+      ],
+      "correct": 1,
+      "explanation": "The edge-of-chaos hypothesis (Langton 1990, applied to RC by Legenstein & Maass) proposes that computational power is maximised at the transition between order and chaos, near ρ ≈ 1 for ESNs."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The Mach-Zehnder Modulator (MZM) in photonic reservoir computing is used as what?",
+      "choices": [
+        "A linear amplifier to increase signal strength",
+        "A nonlinear node whose output feeds back through a delay loop",
+        "A spatial multiplexer for multiple input channels",
+        "A threshold element for binary classification"
+      ],
+      "correct": 1,
+      "explanation": "The MZM provides the essential nonlinearity (sinusoidal transfer function) in single-node photonic RC. Light passes through the MZM and is fed back through a fiber delay loop, with the MZM output sampled at N virtual node positions."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In the ESN state update equation x_t = (1-α)x_{t-1} + α·tanh(W_rec x_{t-1} + W_in u_t + b), what does the bias vector b provide?",
+      "choices": [
+        "An offset that shifts neuron operating points away from the zero activation region",
+        "Temporal memory beyond what the recurrent weights provide",
+        "A normalisation of the spectral radius",
+        "Direct feedback from the readout output"
+      ],
+      "correct": 0,
+      "explanation": "The bias b shifts each neuron's tanh away from zero, allowing neurons to operate at diverse points on the nonlinearity. Without bias, symmetric inputs would produce symmetric (and less diverse) state patterns."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "What distinguishes an Echo State Network from a Liquid State Machine (LSM)?",
+      "choices": [
+        "ESNs use rate-coded neurons; LSMs use spiking (integrate-and-fire) neurons",
+        "ESNs have fixed reservoirs; LSMs train recurrent weights",
+        "ESNs operate in continuous time; LSMs in discrete time",
+        "ESNs use ridge regression; LSMs use linear discriminant analysis"
+      ],
+      "correct": 0,
+      "explanation": "Both are instances of Reservoir Computing with random, fixed reservoirs and linear readouts. The key difference is the neuron model: ESNs use tanh (rate-coded) neurons while LSMs use biologically inspired spiking neurons."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "When computing VPT for Lorenz-63 prediction, the result is typically expressed in units of:",
+      "choices": [
+        "Seconds of wall-clock time",
+        "Number of time steps",
+        "Lyapunov times (1/λ_max)",
+        "Multiples of the system's period"
+      ],
+      "correct": 2,
+      "explanation": "VPT in Lyapunov times normalises for system-specific chaos rates, making results comparable across different chaotic systems and prediction methods. For Lorenz-63 with dt=0.02, 1 Lyapunov time ≈ 1/0.906 ≈ 1.1 time units ≈ 55 steps."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In conceptor logic, the NOT conceptor ¬C corresponds to what operation?",
+      "choices": [
+        "C^{-1} (matrix inverse of C)",
+        "I - C (identity minus C)",
+        "C^T (transpose of C)",
+        "−C (negation of C)"
+      ],
+      "correct": 1,
+      "explanation": "The Boolean NOT for conceptors is ¬C = I − C. This represents patterns orthogonal to those captured by C. Combined with AND (C₁ · C₂ · ...) and OR via De Morgan's law, conceptors form an algebra of pattern spaces."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The ETDRK4 scheme used in the Kuramoto-Sivashinsky simulation is an integrator optimised for what class of PDEs?",
+      "choices": [
+        "Hyperbolic PDEs with sharp wave fronts",
+        "Parabolic PDEs with stiff linear terms and mild nonlinearity",
+        "Elliptic PDEs for steady-state solutions",
+        "Stochastic PDEs with multiplicative noise"
+      ],
+      "correct": 1,
+      "explanation": "ETDRK4 (Exponential Time Differencing Runge-Kutta 4, Cox & Matthews 2002) handles stiff linear operators exactly via matrix exponentials, and treats the nonlinear part with 4th-order Runge-Kutta. Ideal for spectral methods on PDEs like KS."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Input connectivity (the fraction of reservoir neurons that receive each input) affects the ESN in what way?",
+      "choices": [
+        "Lower connectivity reduces the spectral radius",
+        "Higher connectivity improves performance on all tasks",
+        "Lower connectivity can increase diversity in how input is encoded across the reservoir",
+        "It has no effect on dynamics; only W_rec matters"
+      ],
+      "correct": 2,
+      "explanation": "When each input only connects to a subset of neurons, different neurons see different combinations of input history, potentially increasing the diversity of representations. The optimal input connectivity is task-dependent."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In the NARMA recurrence, what two quantities are multiplied together to create the strong nonlinear coupling?",
+      "choices": [
+        "The current input u_t and the current state y_t",
+        "u_{t-n+1} and u_t (input values n steps apart)",
+        "y_t and the sum of past y values",
+        "The spectral radius ρ and the input scaling σ_in"
+      ],
+      "correct": 1,
+      "explanation": "The nonlinear term 1.5·u_{t-n+1}·u_t multiplies two input values separated by n steps. Combined with the linear memory term (0.05·y_t·Σy_{t-i}), this creates a hard benchmark requiring both memory and nonlinear computation."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Pathak et al. (2018) predicted the Kuramoto-Sivashinsky attractor using parallel ESNs. Why were parallel local reservoirs used?",
+      "choices": [
+        "To enable GPU parallelism during training",
+        "Each local reservoir predicts a spatial patch, keeping the reservoir size manageable",
+        "Parallel reservoirs cancel each other's errors",
+        "The KS equation is separable and each mode is independent"
+      ],
+      "correct": 1,
+      "explanation": "For a 64-dimensional KS state, a single reservoir would need to scale as O(N⁶⁴). Pathak et al. decomposed the spatial domain into overlapping patches, each handled by a smaller ESN, making the approach scalable."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The Sherman-Morrison rank-1 update formula allows efficient computation of the inverse of (A + uv^T) given A^{-1}. In RLS, this is applied to update what matrix?",
+      "choices": [
+        "The recurrent weight matrix W_rec",
+        "The inverse covariance (precision) matrix P",
+        "The ridge regression Gram matrix X^T X",
+        "The state covariance in the conceptor computation"
+      ],
+      "correct": 1,
+      "explanation": "In RLS, P ≈ (X^T X)^{-1} is maintained and updated via the rank-1 Sherman-Morrison formula: P_t = P_{t-1} − k_t x_t^T P_{t-1}. This avoids the O(N³) matrix inversion that batch ridge regression requires."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "For a reservoir with spectral radius ρ = 0.99, what is the minimum recommended washout length according to the rule of thumb?",
+      "choices": [
+        "10 steps",
+        "50 steps",
+        "200 steps or more",
+        "Exactly 1/(1-ρ) = 100 steps"
+      ],
+      "correct": 2,
+      "explanation": "Near ρ = 1, the slowest mode decays as ρ^t per step, so forgetting the initial condition takes ≈1/(1-ρ) steps. At ρ=0.99 that is ~100 steps, but in practice 200+ is recommended since W_rec has multiple slow modes."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "What distinguishes the 'closed-loop' (autonomous) prediction phase from the 'open-loop' phase in Mackey-Glass prediction?",
+      "choices": [
+        "Open-loop uses teacher forcing; closed-loop feeds the network's own output back as input",
+        "Closed-loop uses a different reservoir than open-loop",
+        "Open-loop predicts multiple steps ahead; closed-loop predicts one step",
+        "Closed-loop trains W_rec; open-loop trains W_out"
+      ],
+      "correct": 0,
+      "explanation": "In open-loop, the true signal drives the reservoir at every step. In closed-loop, the network's own prediction ŷ_t is fed back as the next input, enabling indefinite autonomous rollout. Closed-loop errors accumulate, making it harder."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The aperture parameter α in a conceptor C = R(R + α⁻²I)^{-1} controls what?",
+      "choices": [
+        "The learning rate for conceptor adaptation",
+        "How broadly or narrowly the conceptor captures the pattern space",
+        "The spectral radius of the conceptor matrix",
+        "The number of patterns stored simultaneously"
+      ],
+      "correct": 1,
+      "explanation": "Small α makes the conceptor more selective (narrow aperture, captures only the largest-variance directions). Large α makes it more inclusive (wide aperture). The aperture adaptation laws allow dynamic tuning during recall."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Which property of a reservoir is directly measured by the 'Echo State Property test' (ESP test)?",
+      "choices": [
+        "Whether the readout weights converge during training",
+        "Whether different initial states converge to the same trajectory under a common input",
+        "Whether the spectral radius is less than 1",
+        "Whether the reservoir produces linearly independent state vectors"
+      ],
+      "correct": 1,
+      "explanation": "The ESP test drives the reservoir with a common input from multiple random initial states and measures whether the final states converge. If they do (distance → 0), the reservoir has fading memory and the ESP holds empirically."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In the deep ESN (DeepESN), which layer typically develops the slowest (most abstract) temporal features?",
+      "choices": [
+        "The first (input-facing) layer",
+        "The deepest (last) layer",
+        "The middle layer",
+        "All layers develop features at the same timescale"
+      ],
+      "correct": 1,
+      "explanation": "In hierarchical reservoir architectures, each successive layer sees a temporally smoothed and nonlinearly transformed version of the previous layer's output. Deeper layers evolve more slowly and capture longer-range temporal patterns."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The NVAR method of Gauthier et al. (2021) with k delay steps and degree-2 polynomial features has how many features per time step (ignoring bias)?",
+      "choices": [
+        "k·d features (linear terms only)",
+        "k·d + (k·d)·(k·d+1)/2 features (linear + quadratic cross-terms)",
+        "k²·d² features (outer product)",
+        "2k·d features (linear + squared terms only)"
+      ],
+      "correct": 1,
+      "explanation": "NVAR includes all monomials up to degree 2: k·d linear terms plus (k·d choose 2) + k·d quadratic terms = k·d + (k·d)(k·d+1)/2 total (including self-squares). For Lorenz with k=2, d=3 this is 6 + 21 = 27 features."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "What is the primary advantage of FORCE learning over standard ESN batch training?",
+      "choices": [
+        "Lower computational cost per training step",
+        "Ability to train W_rec so the network generates patterns autonomously",
+        "Better generalisation to unseen inputs",
+        "No need for a washout period"
+      ],
+      "correct": 1,
+      "explanation": "Batch ESN training only adjusts W_out, so the reservoir must be driven by external input during recall. FORCE modifies W_rec so the trained network can autonomously generate the target pattern without any driving input."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In Jaeger's (2001) original ESN formulation, why is the output feedback connection (from y_t back to reservoir) significant?",
+      "choices": [
+        "It is required for the Echo State Property",
+        "It allows the reservoir to generate complex output patterns without input",
+        "It replaces the need for a bias vector",
+        "It reduces the effective spectral radius"
+      ],
+      "correct": 1,
+      "explanation": "Output feedback allows the ESN to operate as a generator (no input required after training). The trained W_out and the feedback create a closed loop that sustains the learned attractor pattern autonomously."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The spoken digit recognition task in physical RC typically uses what features extracted from the audio?",
+      "choices": [
+        "Raw waveform samples fed directly to the reservoir",
+        "MFCC (Mel-Frequency Cepstral Coefficients) or filterbank energies as input features",
+        "One-hot encodings of phoneme labels",
+        "Fourier transform magnitudes at 1000 Hz resolution"
+      ],
+      "correct": 1,
+      "explanation": "For the spoken-digit task, audio is typically preprocessed into MFCC or cochlear filterbank features before being fed to the reservoir. These features match the timescale and frequency resolution of speech perception."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "When the input scaling σ_in is too large, what failure mode occurs in an ESN?",
+      "choices": [
+        "The reservoir states become all zeros (dead neurons)",
+        "Neurons saturate at ±tanh(∞) ≈ ±1, losing sensitivity to input variations",
+        "The spectral radius grows above 1, breaking the ESP",
+        "The ridge regression system becomes underdetermined"
+      ],
+      "correct": 1,
+      "explanation": "Very large σ_in drives tanh arguments far into the saturation region, so all neurons output ≈ ±1 regardless of the input value. The reservoir loses its ability to distinguish different inputs (information bottleneck)."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In a trot gait CPG, how many distinct phase relationships does a 4-limb system produce?",
+      "choices": [
+        "2 pairs with 180° phase offset between diagonally opposite limbs",
+        "4 limbs all synchronized at 0° phase",
+        "4 independent oscillators with random phases",
+        "3 pairs with 120° phase offset"
+      ],
+      "correct": 0,
+      "explanation": "In a trot, diagonal pairs (FL-HR and FR-HL) move in synchrony, with the two diagonal pairs offset by 180°. This gives two groups with inter-group phase difference of π, producing alternating diagonal footfall patterns."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The Normalised Root Mean Squared Error (NRMSE) relates to NMSE how?",
+      "choices": [
+        "NRMSE = NMSE²",
+        "NRMSE = √NMSE",
+        "NRMSE = NMSE / N",
+        "NRMSE = 1 - NMSE"
+      ],
+      "correct": 1,
+      "explanation": "NRMSE = √NMSE = √(MSE/Var(y_true)) = RMSE/σ(y_true). It is in units of the target signal's standard deviation, making it more interpretable than NMSE for errors in physical units."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "In RC, the term 'fading memory' means that the reservoir's response to an input at time t-k:",
+      "choices": [
+        "Increases exponentially with k",
+        "Decreases (fades) as k increases, so distant inputs have less influence",
+        "Oscillates with period equal to the spectral radius",
+        "Is exactly zero for k larger than the reservoir size N"
+      ],
+      "correct": 1,
+      "explanation": "Fading memory means the influence of input u_{t-k} on the current state x_t diminishes as k grows. This is mathematically formalised by Boyd & Chua (1985) and is equivalent to the Echo State Property under mild conditions."
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Which of the following is NOT a hyperparameter of a standard leaky ESN?",
+      "choices": [
+        "Spectral radius ρ",
+        "Leak rate α",
+        "Ridge parameter λ",
+        "Number of training epochs"
+      ],
+      "correct": 3,
+      "explanation": "ESNs use a one-shot ridge regression solution — there are no training epochs. The key hyperparameters are: reservoir size N, spectral radius ρ, leak rate α, input scaling σ_in, connectivity, ridge λ, and washout length."
+    },
+    {
+      "type": "true_false",
+      "text": "The Echo State Property requires the spectral radius ρ to be strictly less than 1.",
+      "correct": false,
+      "explanation": "ρ < 1 is sufficient for ESP but not necessary. The ESP is defined by state convergence regardless of initial conditions. Strong input drive can maintain ESP even with ρ slightly above 1."
+    },
+    {
+      "type": "true_false",
+      "text": "Reservoir Computing trains the recurrent weight matrix W_rec using backpropagation through time (BPTT).",
+      "correct": false,
+      "explanation": "The defining feature of RC is that W_rec is random and fixed — only W_out is trained, via simple ridge regression. This avoids the vanishing/exploding gradient problem that makes BPTT hard."
+    },
+    {
+      "type": "true_false",
+      "text": "A larger spectral radius always improves time-series prediction performance.",
+      "correct": false,
+      "explanation": "There is an optimal spectral radius for each task (often ρ ≈ 0.9). Too small → poor memory; too large → chaotic dynamics that may break the ESP. The optimum depends on the task's memory requirements."
+    },
+    {
+      "type": "true_false",
+      "text": "The total linear memory capacity MC of an N-neuron reservoir can exceed N if the input signal is non-stationary.",
+      "correct": false,
+      "explanation": "Jaeger (2002) proved that MC ≤ N for any reservoir of size N, regardless of the input statistics. This is an absolute upper bound, not a typical value — most reservoirs achieve MC well below N."
+    },
+    {
+      "type": "true_false",
+      "text": "A leak rate of α = 0.1 makes the reservoir respond faster (with a shorter time constant) than α = 0.9.",
+      "correct": false,
+      "explanation": "The effective time constant is τ_eff ≈ 1/α. So α = 0.1 gives τ_eff ≈ 10 steps (slow, strongly smoothed), while α = 0.9 gives τ_eff ≈ 1.1 steps (fast). Smaller α → slower, more low-pass dynamics."
+    },
+    {
+      "type": "true_false",
+      "text": "FORCE learning can train a network to generate a target oscillation pattern without any external input during recall.",
+      "correct": true,
+      "explanation": "FORCE modifies W_rec so the trained network autonomously generates the target signal. During recall, the network runs in closed loop with no external driving input, sustained by its own trained recurrent dynamics."
+    },
+    {
+      "type": "true_false",
+      "text": "In a standard ESN, the input weight matrix W_in is updated during training alongside W_out.",
+      "correct": false,
+      "explanation": "Only W_out is trained in a standard ESN. W_in (and W_rec and b) are all fixed after random initialization. This is the key distinction that makes ESN training fast and avoids gradient issues."
+    },
+    {
+      "type": "true_false",
+      "text": "The Mackey-Glass system with τ = 17 is chaotic in the strict mathematical sense (positive Lyapunov exponent).",
+      "correct": true,
+      "explanation": "Yes, even at τ = 17 the Mackey-Glass system has a positive maximum Lyapunov exponent (≈ 0.0067), making it chaotic. This is why it is a standard benchmark for testing RC systems' predictive capability."
+    },
+    {
+      "type": "true_false",
+      "text": "Reservoir Computing requires the reservoir to be a recurrent neural network.",
+      "correct": false,
+      "explanation": "RC is a paradigm, not a specific architecture. Physical RC implementations include optical systems, memristors, mechanical buckling beams, and quantum systems — any nonlinear dynamical system with fading memory can serve as a reservoir."
+    },
+    {
+      "type": "true_false",
+      "text": "NMSE = 0.5 means the predictor explains 50% of the variance of the target signal.",
+      "correct": false,
+      "explanation": "NMSE = MSE/Var(y). A predictor explaining 50% of variance would have R² = 0.5 → NMSE = 1 - R² = 0.5... actually this is true: NMSE = 1 - R². So NMSE = 0.5 does mean R² = 0.5 (50% variance explained). This statement is TRUE."
+    },
+    {
+      "type": "true_false",
+      "text": "In the logistic map, the Feigenbaum constant δ ≈ 4.669 is specific to the logistic map and does not appear in other maps.",
+      "correct": false,
+      "explanation": "The Feigenbaum constant is universal: it appears in the period-doubling cascade of any smooth unimodal map, including the sine map, cubic map, etc. This universality is explained by renormalisation group theory."
+    },
+    {
+      "type": "true_false",
+      "text": "Conceptors can be composed using Boolean-like operations AND, OR, and NOT to manipulate stored patterns.",
+      "correct": true,
+      "explanation": "Jaeger (2014) defined a complete Boolean algebra on conceptors: AND = hard conjunction (eigenvalue-wise product), NOT = I - C, OR via De Morgan. This enables pattern manipulation and interpolation in the conceptor space."
+    },
+    {
+      "type": "true_false",
+      "text": "Increasing the reservoir size N always increases prediction performance, with no diminishing returns.",
+      "correct": false,
+      "explanation": "Performance typically improves with N up to a task-specific saturation point, after which returns diminish. Larger N also increases computation (O(N²) per step) and overfitting risk. The optimal N balances expressiveness and regularisation."
+    },
+    {
+      "type": "true_false",
+      "text": "The RLS algorithm converges to the same solution as batch ridge regression given enough data.",
+      "correct": true,
+      "explanation": "RLS is an online algorithm that tracks the exact ridge regression solution. With δ → 0 (initial P = δ·I) and enough data, the online solution converges to the offline batch solution W_out = (X^T X + λI)^{-1} X^T Y."
+    },
+    {
+      "type": "true_false",
+      "text": "A reservoir with spectral radius ρ = 2.0 cannot satisfy the Echo State Property under any input.",
+      "correct": false,
+      "explanation": "A large spectral radius makes ESP harder to satisfy but not impossible. With sufficiently strong input drive, the ESP can still hold for ρ > 1. However, without input or with weak input, convergence of trajectories is not guaranteed."
+    },
+    {
+      "type": "true_false",
+      "text": "The Kuramoto-Sivashinsky equation is an example of a partial differential equation exhibiting spatiotemporal chaos.",
+      "correct": true,
+      "explanation": "The KS equation u_t + u·u_x + u_xx + u_xxxx = 0 is a canonical spatiotemporally chaotic PDE. It serves as a benchmark for testing RC systems on high-dimensional prediction tasks (64 spatial modes in the Pathak benchmark)."
+    },
+    {
+      "type": "true_false",
+      "text": "In NVAR, the reservoir is replaced by polynomial features, so no dynamical system is involved.",
+      "correct": false,
+      "explanation": "NVAR still requires a dynamical structure: the delay embedding of the input time series IS the 'reservoir'. The past k values of the system form a finite-dimensional nonlinear map. It is a dynamics-free reservoir in the sense of no hidden state, but temporal dynamics are still essential."
+    },
+    {
+      "type": "true_false",
+      "text": "Teacher forcing is used only during the training phase of an ESN, not during test-time prediction.",
+      "correct": true,
+      "explanation": "Teacher forcing (feeding true targets back into the reservoir) is used only during training to stabilise the reservoir state. At test time, the reservoir is driven by the actual input (open-loop) or its own output (closed-loop), not by true targets."
+    },
+    {
+      "type": "true_false",
+      "text": "Takens' embedding theorem guarantees that a 1-dimensional time series contains complete information about a multidimensional attractor.",
+      "correct": true,
+      "explanation": "Takens (1981) proved that under generic conditions, a delay embedding of any single observable of a dynamical system in dimension m ≥ 2d+1 (d = attractor dimension) is diffeomorphic to the original attractor. So yes, a single scalar time series is sufficient."
+    },
+    {
+      "type": "true_false",
+      "text": "The Simple Cycle Reservoir (SCR) achieves comparable memory capacity to a random ESN despite its highly structured connectivity.",
+      "correct": true,
+      "explanation": "Rodan & Tino (2011) showed that SCRs (single directed cycle) achieve MC close to N, similar to random reservoirs. The deterministic structure simplifies analysis while preserving rich temporal dynamics."
+    },
+    {
+      "type": "true_false",
+      "text": "In physical reservoir computing, the nonlinearity must come from quantum mechanical effects.",
+      "correct": false,
+      "explanation": "Physical RC exploits any nonlinear dynamical system: optical modulators (Mach-Zehnder sinusoidal nonlinearity), mechanical buckling, chemical reactions, spin-torque oscillators, etc. Quantum effects are one option but far from required."
+    },
+    {
+      "type": "true_false",
+      "text": "The Lyapunov exponent of the Lorenz-63 system is approximately 0.906, meaning nearby trajectories double in separation approximately every 0.76 time units.",
+      "correct": true,
+      "explanation": "λ_max ≈ 0.906 nats/time unit. Trajectories double when λ_max·t = ln(2), so t_double = ln(2)/0.906 ≈ 0.76 time units (≈ 38 steps at dt=0.02). This rapid divergence is why Lorenz prediction is challenging."
+    },
+    {
+      "type": "true_false",
+      "text": "ESN connectivity (the fraction of non-zero entries in W_rec) must be kept below 10% to maintain the Echo State Property.",
+      "correct": false,
+      "explanation": "ESP depends on spectral radius, not connectivity directly. Dense reservoirs (connectivity → 1) can satisfy the ESP as long as ρ < 1 (or under strong input drive). Sparse connectivity is used for efficiency, not as an ESP requirement."
+    },
+    {
+      "type": "true_false",
+      "text": "In a leaky ESN, α = 0 would cause the reservoir state to never change, regardless of the input.",
+      "correct": true,
+      "explanation": "With α = 0, the update rule becomes x_t = (1-0)x_{t-1} + 0·tanh(...) = x_{t-1}, so the state never updates. This is a degenerate case; in practice α is kept in (0, 1]."
+    },
+    {
+      "type": "true_false",
+      "text": "Ridge regression with λ > 0 always provides a unique solution, even when the state matrix X is rank-deficient.",
+      "correct": true,
+      "explanation": "The ridge normal equations (X^T X + λI) W_out^T = X^T Y have (X^T X + λI) positive definite for any λ > 0 (since X^T X is PSD). This guarantees a unique solution even when X^T X is singular (rank-deficient state matrix)."
+    },
+    {
+      "type": "true_false",
+      "text": "An ESN can solve the XOR problem on a single time step without any recurrent connections.",
+      "correct": false,
+      "explanation": "XOR is not linearly separable. A single time step with no recurrence means the readout is just a linear function of the current input, which cannot compute XOR. The reservoir's nonlinear transformation over time is what makes XOR solvable."
+    },
+    {
+      "type": "true_false",
+      "text": "The Valid Prediction Time (VPT) always increases monotonically as the reservoir size N increases.",
+      "correct": false,
+      "explanation": "VPT depends on hyperparameters, regularisation, and the task. Increasing N without adjusting ridge λ can cause overfitting, degrading performance. Beyond the task's saturation point, more neurons provide no benefit."
+    },
+    {
+      "type": "true_false",
+      "text": "Deep ESNs (stacked reservoirs) always outperform single-layer ESNs on temporal tasks.",
+      "correct": false,
+      "explanation": "Deep ESNs outperform single-layer ESNs on tasks requiring multi-timescale or hierarchical processing. For simple tasks (short memory, single timescale), the additional complexity provides no benefit and may require more careful tuning."
+    },
+    {
+      "type": "free_text",
+      "text": "What does NMSE stand for? (three words, e.g. 'normalised mean squared error')",
+      "correct": "normalised mean squared error",
+      "explanation": "NMSE = MSE(y_true, y_pred) / Var(y_true). A perfect predictor gives NMSE = 0; predicting the mean gives NMSE = 1. Values below 0.01 are considered good for most RC benchmarks."
+    },
+    {
+      "type": "free_text",
+      "text": "Who introduced Echo State Networks in 2001? (last name only)",
+      "correct": "jaeger",
+      "explanation": "Herbert Jaeger introduced Echo State Networks in his 2001 GMD Technical Report 'The Echo State Approach to Analysing and Training Recurrent Neural Networks'."
+    },
+    {
+      "type": "free_text",
+      "text": "In the ESN update equation, what mathematical function is applied as the neuron activation? (one word)",
+      "correct": "tanh",
+      "explanation": "The standard ESN uses the hyperbolic tangent (tanh) as the activation function: x_t = (1-α)x_{t-1} + α·tanh(W_rec x_{t-1} + W_in u_t + b). Tanh maps ℝ → (-1,1) with a smooth S-shaped nonlinearity."
+    },
+    {
+      "type": "free_text",
+      "text": "What is the full name of the RLS algorithm? (three words)",
+      "correct": "recursive least squares",
+      "explanation": "RLS (Recursive Least Squares) updates the ridge regression solution online as each new sample arrives, using the Sherman-Morrison rank-1 matrix inverse update. It avoids re-solving the full system at every step."
+    },
+    {
+      "type": "free_text",
+      "text": "The NVAR paper by Gauthier et al. was published in which journal in 2021? (two words)",
+      "correct": "nature communications",
+      "explanation": "Gauthier, D.J. et al. (2021). 'Next generation reservoir computing.' Nature Communications 12, 5564. This paper showed that explicit polynomial delay features can match or beat ESNs on Lorenz prediction with far fewer parameters."
+    },
+    {
+      "type": "free_text",
+      "text": "In information theory, what is the term for the maximum rate at which a dynamical system can process information, bounded by N for an N-neuron reservoir? (two words, abbreviation OK)",
+      "correct": "memory capacity",
+      "explanation": "Memory Capacity (MC), as defined by Jaeger (2002), is the sum of squared correlations between reservoir outputs and delayed input copies. The total MC is bounded above by N, the reservoir size."
+    },
+    {
+      "type": "free_text",
+      "text": "What is the name of the 1963 paper that introduced the three-variable system now used as a standard RC chaos prediction benchmark? (last name of first author only)",
+      "correct": "lorenz",
+      "explanation": "Edward N. Lorenz published 'Deterministic Nonperiodic Flow' in the Journal of Atmospheric Sciences (1963), introducing the three-variable ODE system (x,y,z) that now bears his name and is the most widely used chaos prediction benchmark."
+    },
+    {
+      "type": "free_text",
+      "text": "What regularisation technique is used to train the ESN readout when the state matrix is near-singular or ill-conditioned? (two words)",
+      "correct": "ridge regression",
+      "explanation": "Ridge regression adds λ‖w‖² penalty to least squares, making (X^T X + λI) positive definite and well-conditioned. Also called Tikhonov regularisation. It prevents overfitting when reservoir states are near-linearly-dependent."
+    },
+    {
+      "type": "free_text",
+      "text": "What is the name of the FORCE learning paper's senior author who also co-developed the theory of neural population dynamics? (last name only)",
+      "correct": "abbott",
+      "explanation": "Larry F. Abbott is the senior author of Sussillo & Abbott (2009). Abbott is also known for foundational work on neural population coding, synaptic dynamics, and the mean-field theory of recurrent networks."
+    },
+    {
+      "type": "free_text",
+      "text": "The delay-line single-node physical reservoir was demonstrated experimentally using what type of optical component as the nonlinear node? (abbreviation, three letters)",
+      "correct": "mzm",
+      "explanation": "Appeltant et al. (2011) used a Mach-Zehnder Modulator (MZM) as the single nonlinear node. The MZM's sinusoidal transfer function provides the necessary nonlinearity; the feedback loop length sets the delay τ."
+    },
+    {
+      "type": "free_text",
+      "text": "The Kaplan-Yorke dimension formula computes the attractor's fractal dimension from what mathematical object? (two words)",
+      "correct": "lyapunov spectrum",
+      "explanation": "The Kaplan-Yorke (or Lyapunov) dimension is computed from the full Lyapunov spectrum (sorted exponents λ₁ ≥ λ₂ ≥ ... ≥ λ_d): D_KY = j + (Σᵢ₌₁ʲ λᵢ)/|λⱼ₊₁| where j is the largest index with positive cumulative sum."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Chapter 27: Key Researchers
+
+**Eugene Paul Wigner (1902–1995).** Hungarian-American physicist who introduced random matrix theory in the 1950s to model the energy level statistics of heavy atomic nuclei. His 1955 paper proposed that the spacings between nuclear energy levels follow the same distribution as eigenvalue spacings of random symmetric matrices. The semicircle law bearing his name was proved rigorously in the 1960s. Wigner received the Nobel Prize in Physics in 1963 for his work on nuclear structure (not for RMT, which he viewed as a mathematical curiosity — a judgment history has revised dramatically).
+
+**Vladimir Marchenko (1922–2022) and Leonid Pastur (1938–).** Ukrainian mathematicians who proved the law governing the empirical spectral distribution of sample covariance matrices in their 1967 paper "Distribution of eigenvalues for some sets of random matrices," *Mathematics of the USSR-Sbornik*. Their result, the Marchenko-Pastur law, has become fundamental in random matrix theory, multivariate statistics, wireless communications, and machine learning. Pastur continued to make foundational contributions to RMT for decades.
+
+**Freeman Dyson (1923–2020).** British-American physicist who developed much of the mathematical structure of random matrix theory in the 1960s, including the threefold way (Gaussian Orthogonal, Unitary, and Symplectic ensembles), the Dyson Brownian motion model for eigenvalue dynamics, and connections to quantum chaos. Dyson's work established RMT as a mathematical discipline, not just a physics tool.
+
+**Craig Tracy (1945–) and Harold Widom (1932–2021).** Mathematicians at UC Davis who discovered in 1994 the distribution of the largest eigenvalue of a Gaussian Wigner matrix, now called the Tracy-Widom distribution. Their 1994 paper "Level-spacing distributions and the Airy kernel" (*Communications in Mathematical Physics*) opened an entire field of "edge statistics" in RMT. The Tracy-Widom distribution appears in diverse contexts from random growth models to the longest increasing subsequence problem.
+
+**Dan Voiculescu (1949–).** Romanian-American mathematician who developed *free probability theory* in the 1980s, a noncommutative probability theory in which "freeness" replaces classical independence. Free probability provides the natural algebraic framework for understanding eigenvalue distributions of sums and products of independent random matrices, and gives the cleanest proof of the Marchenko-Pastur law via the $S$-transform.
+
+**Vladislav Girko (1946–).** Ukrainian statistician who conjectured the circular law for non-Hermitian random matrices in 1984, and proved it under strong conditions. The full proof under minimal assumptions was completed much later by Bai (1997) and Tao-Vu (2010). The circular law is the relevant result for non-symmetric reservoir weight matrices.
+
+**Terence Tao (1975–) and Van Vu (1970–).** Mathematicians who proved the circular law under minimal moment conditions [TaoVu2010], settling a major open question in random matrix theory. Their work uses Littlewood-Offord theory and inverse Littlewood-Offord arguments to control the least singular value — a technically demanding approach that has had broad impact.
+
+**Joel Tropp (1976–).** Applied mathematician at Caltech who developed the matrix concentration inequalities (especially the matrix Bernstein inequality [Tropp2012]) that are now standard tools in machine learning theory, compressed sensing, and numerical linear algebra. His 2012 survey "User-Friendly Tail Bounds for Sums of Random Matrices" is the go-to reference for matrix concentration.
+
+**Zongming Ma and colleagues.** Statisticians who have developed RMT tools specifically for the analysis of sample covariance matrices in high-dimensional statistics, including the Marchenko-Pastur law for correlated populations and the spiked covariance model relevant to structured reservoirs [PaulAue2014].
+
+**Benjamin D. Recht (1980–).** Co-author (with Ali Rahimi) of the random features paper connecting kernel methods to random projections, and also a contributor to the application of RMT ideas in machine learning. Recht's work on matrix completion and nuclear norm minimization uses RMT concentration inequalities as fundamental tools.

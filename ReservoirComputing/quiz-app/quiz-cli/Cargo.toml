@@ -1,0 +1,11 @@
+[package]
+name = "quiz-cli"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "quiz-cli"
+path = "src/main.rs"
+
+[dependencies]
+quiz-core = { path = "../quiz-core" }

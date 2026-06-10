@@ -1,0 +1,29 @@
+# Carnap and Deflationism
+
+---
+
+Carnap's 1950 paper "Empiricism, Semantics, and Ontology" poses a challenge that the universals debate has never fully answered. Carnap distinguishes two kinds of questions about existence: *internal* questions, asked within a linguistic framework, and *external* questions, asked from outside any framework about whether the framework as a whole corresponds to mind-independent reality.
+
+Internal questions are easy. "Are there numbers?" asked within the framework of arithmetic has a trivially positive answer: of course there are numbers; they are what arithmetic is about. "Are there properties?" asked within the framework of property theory has a trivially positive answer: we use property terms and the framework licenses their use. These answers are analytic consequences of the framework — they say nothing about ultimate reality.
+
+External questions are different. "Are there *really* numbers, in the ultimate metaphysical sense?" is an external question — asked from outside the arithmetic framework, about whether that framework corresponds to something real. Carnap's claim is that external questions are either meaningless or merely pragmatic questions about which framework to adopt. There is no framework-independent fact about whether numbers ultimately exist; there is only the question of whether it is theoretically useful to adopt the framework of arithmetic. To ask the external question as if it had a deep metaphysical answer is, for Carnap, to be confused about the nature of linguistic frameworks and their relation to reality.
+
+Applied to the universals debate: "Are there universals?" is either an internal question within a framework that posits universals — where it has a trivially positive answer — or an external question about whether the universals framework corresponds to ultimate reality — where it has no cognitive content. The debate between Armstrong, Lewis, and Rodriguez-Pereyra looks, on this view, like a competition between frameworks, not a substantive question about what the world contains.
+
+## Quine's Response
+
+Quine's rejection of the internal/external distinction is direct and influential. He argues that there is no principled criterion for distinguishing internally true sentences from externally questionable ones. All existence claims are on a par: they are assessed holistically, as part of our best overall theory of the world. "There are electrons" and "there are numbers" and "there are universals" are all evaluated the same way — by asking which total theory is most simple, strong, and empirically adequate.
+
+The supposed analyticity of internal claims — the idea that "are there numbers?" has a trivial answer within the arithmetic framework — depends on a sharp distinction between analytic (true by meaning) and synthetic (true by the world) sentences, which Quine argues is untenable in "Two Dogmas of Empiricism" (1951). If there are no analytic truths, there are no framework-internal truths either; all truths are part of the same holistic web. The universals debate is then a genuine question to be decided by the best philosophy and science, not dismissed as a confusion between internal and external questions.
+
+If Quine is right, the considerations adduced throughout this module are genuine evidence for and against universals: Armstrong's inference problem, Lewis's parsimony argument, Rodriguez-Pereyra's resemblance nominalism, the challenges from quantum mechanics — all are relevant to a genuine metaphysical question. If Carnap is right, these considerations are at best reasons to prefer one theoretical framework over another for practical purposes, and at worst pseudo-disputes that dissolve once the internal/external distinction is made clear.
+
+## Thomasson's Easy Ontology
+
+Amie Thomasson's *Ontology Made Easy* (2015) develops a neo-Carnapian position with greater philosophical precision than Carnap's original. Thomasson argues that existence questions have *easy* answers — settled by conceptual analysis combined with trivial empirical facts — without need for the demanding metaphysical theorizing that Armstrong, Lewis, and their interlocutors engage in.
+
+The argument: "Are there properties?" We use property terms in ordinary and scientific discourse — "red is a color," "the property of being charged is fundamental in physics." These uses presuppose properties. Given that such sentences are true and that property terms function as genuine singular terms in them, properties exist. This is an easy, near-trivial inference from ordinary truths to existence. No deep theorizing about universals versus tropes versus classes is required; once we have granted the truth of the ordinary sentences, the existence follows by conceptual analysis.
+
+Defenders of serious metaphysics — Sider, van Inwagen, Schaffer — object that Thomasson's easy answers presuppose that our conceptual frameworks successfully refer to real features of the world, but this presupposition is precisely what the debate is about. To say "property terms function as genuine singular terms, therefore properties exist" begs the question against the eliminativist who maintains that property terms do not succeed in picking out any entity in the ultimate inventory of the world. The "easy" inference is easy only if we have already settled the hard question about whether our ordinary ontological commitments are correct. If that question is hard — and it is — the easy ontology approach does not dissolve it but obscures it.
+
+Whether the universals debate is substantive (Quine, Armstrong, Lewis), easy (Thomasson), or meaningless (radical Carnapianism) is itself one of the most important unresolved questions in contemporary metaphysics. The answer shapes the methodology of the entire module: what kind of evidence is relevant, what counts as a better theory, and what philosophical progress in the area would even look like.

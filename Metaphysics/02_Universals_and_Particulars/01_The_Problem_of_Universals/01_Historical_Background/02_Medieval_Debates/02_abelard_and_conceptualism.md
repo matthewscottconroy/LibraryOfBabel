@@ -1,0 +1,25 @@
+# Abelard and Conceptualism
+
+---
+
+Peter Abelard (1079–1142) is the most searching and original medieval philosopher of language and universals before the thirteenth-century recovery of Aristotle. His position resists easy classification — it is sometimes called *conceptualism*, but the label risks obscuring what is genuinely distinctive about it.
+
+Abelard began by destroying the realism of his teacher William of Champeaux. William held the *identity theory*: the same numerically single universal humanity is wholly present in each individual human. Abelard's attack was a reductio: if humanity is wholly present in both Socrates and Plato, and if Socrates is in Athens while Plato is at the Academy, then the same single entity is simultaneously in two places undergoing contradictory things — doing philosophy in Athens while doing something else in Corinth. The absurdity is plain. William revised to what Abelard called the *indifference theory*: individuals do not share the same entity, but they do not differ with respect to their humanity (*non differunt quantum ad humanitatem*). But this, Abelard argued, merely relocates the problem. "The same with respect to" needs analysis. If it means numerical identity, we are back to the original absurdity. If it means mere similarity — that Socrates and Plato are similar in humanity — we have given up realism and arrived at nominalism under another name.
+
+This dialectic established something important: extreme realism is untenable, and any stable position must explain predication without either positing a single numerically shared entity or reducing predication to mere word-use. Abelard's own position tries to thread this needle.
+
+## The Sermo and the Status
+
+Abelard rejected crude nominalism too. Roscelinus had held that universals are nothing but *voces* — sounds. Sounds are particular items; calling something a "universal" requires more than noting that we use the same word to describe many things. The universal must carry semantic content — it must mean something, have a determinate sense — and this is more than a bare physical token.
+
+Abelard's position is that universals are *sermones* — meaningful sounds or signs with determinate semantic content. The content is a *status*: the way that multiple things are, their common mode of being, which is not itself a thing (*res*) but rather an objective feature of how they stand. When we say "Socrates is human," what grounds the truth of this is that Socrates has the *status* of being human — the way Socrates is, considered as a member of the human kind.
+
+This is what makes Abelard hard to classify. The status is objective: it does not depend on our concepts or our words. Socrates would have the status of being human even if there were no language users. But the status is not an entity — we cannot say "humanity exists" in the way we say "Socrates exists." There is no universal entity over and above the individuals; there is only an objective sameness in how they are that grounds the application of a common predicate. Abelard is a kind of *ante rem* anti-realist (no universal entities) who is not a nominalist (there is genuine objective grounding for predication). Whether this distinction is stable is a question his successors tried to answer.
+
+Medieval conceptualists after Abelard — particularly in the fourteenth century — located the universal in mental concepts rather than in objective statuses. John Buridan's sophisticated nominalism, for instance, holds that universals are mental representations with determinate content and signifying multiple particulars, where the objective basis for their signification is resemblance among the particulars rather than any shared entity. The shift from Abelard's *status* to Buridan's mental concept marks a significant change of emphasis: from the world's structure to the mind's representational capacities.
+
+## Abelard and the Philosophy of Language
+
+Abelard's work is not only a contribution to the metaphysics of universals — it is one of the founding documents of medieval philosophy of language. His treatment of signification distinguishes between the *vox* (the physical sound), the *sermo* (the sound as a linguistic sign with content), and the *res* (the thing signified). This tripartite structure anticipates Frege's distinctions between inscription, sense, and reference in ways that continue to interest historians of logic.
+
+His *Logica Ingredientibus* and *Logica Nostrorum Petitioni Sociorum* develop the logical theory of predication in detail, connecting the universals debate to the theory of inference. If universals are not entities, then predication is not a relation between an entity (the subject) and another entity (the universal). What is it, then? Abelard's answer — that predication is a semantic relation between a sign and a thing as characterized by a status — is more sophisticated than most of his contemporaries managed. It took the recovery of Aristotle and another century of work before his insights were fully absorbed.

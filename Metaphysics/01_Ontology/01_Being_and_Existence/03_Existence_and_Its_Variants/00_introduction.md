@@ -1,0 +1,9 @@
+# Existence and Its Variants
+
+Does existence come in degrees? Are there different ways or modes of existing, such that unicorns "exist" in some weakened sense even though they don't exist in the full sense? These questions might seem to have obvious answers — no, and no — but the history of philosophy has not found them so easy to dismiss.
+
+Kant's famous claim that existence is not a predicate — that "God exists" does not ascribe a property to God but rather asserts that the concept of God is instantiated — was meant to deflate the ontological argument and to clarify what we are saying when we say that something exists. Frege and Russell developed this insight further: to say that F's exist is to say that the concept F has instances, not to attribute a property "existence" to any individual. This logical analysis of existence has been enormously influential and has shaped the Quinean framework of ontological commitment.
+
+But it has also been challenged. Meinong argued for a domain of objects that "subsist" — that have a kind of being — even though they do not exist in the ordinary sense. The golden mountain, the round square, the present king of France — these are objects that have properties and can be thought about even though they do not exist. Russell's theory of descriptions was explicitly designed to refute this picture, but neo-Meinongianism has revived it in more sophisticated forms.
+
+Ontological pluralism holds that there are genuinely different modes of being: abstracta exist differently from concreta, properties exist differently from their instances, possibilia exist differently from actuality. Whether this pluralism carves genuine ontological distinctions or merely multiplies entities beyond necessity is the central question this section pursues. The stakes are high: how we think about existence determines how we count things, what we are committed to, and what metaphysical questions make sense.

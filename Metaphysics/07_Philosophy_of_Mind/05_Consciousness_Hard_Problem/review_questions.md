@@ -1,0 +1,17 @@
+# Review Questions — Consciousness and the Hard Problem
+
+1. Chalmers distinguishes the hard problem (why is any physical process accompanied by experience?) from the easy problems (how does the brain integrate information, focus attention, generate reports?). Type-A physicalists (Dennett) deny this distinction — once the easy problems are solved, consciousness is explained. What would it take for Dennett's denial to succeed, and what exactly would he have to show about the concept of phenomenal consciousness?
+
+2. The zombie argument concludes that physicalism is false from the conceivability of beings physically identical to us but lacking phenomenal experience. The most contested step is the move from conceivability to possibility. Explain the difference between prima facie conceivability and ideal positive conceivability, and assess whether strengthening the conceivability claim really closes the gap to metaphysical possibility.
+
+3. Mary the color scientist knows all physical facts about color vision but learns something new when she first sees red. The phenomenal concept strategy responds that what she gains is not a new *fact* but a new *mode of presentation* of an already-known physical fact. If this strategy succeeds, what does it imply about the relationship between ways of knowing and what is known? And does it explain why the experience has phenomenal character, or only why Mary's epistemic situation changes?
+
+4. Global Workspace Theory explains which states are conscious by appealing to global broadcast: a state is conscious when information is made available across the whole cognitive system. Chalmers grants that GWT explains access consciousness but argues it leaves the hard problem untouched. What would GWT need to add to address the hard problem, and is such an addition available within its theoretical framework?
+
+5. Integrated Information Theory claims that consciousness is identical to integrated information (Φ), an intrinsic property of causal organization. IIT thus aims to address the hard problem rather than circumvent it — consciousness is not left over after the functional story is told. Assess this ambition: does the identity between Φ and consciousness dissolve the hard problem, or does it face a version of the conceivability argument (could there be a system with high Φ but no experience)?
+
+6. Higher-Order Theories hold that a mental state is conscious when the subject has a higher-order representation of that state. What is the most serious objection to HOT theories, and does the theory address phenomenal consciousness or only access/reporting consciousness?
+
+7. Spectrum inversion thought experiments (inverted qualia) raise the possibility that two subjects could have the same functional/behavioral profile while their qualitative experiences are systematically inverted — your red is my green. If spectrum inversion is possible, what does this show about the relationship between functional states and phenomenal states? And how does this challenge differ from the zombie argument?
+
+8. The hard problem of consciousness has direct implications for debates about personal identity, free will, and mental causation. If phenomenal properties are genuinely non-physical (as Chalmers argues), what follows for (a) whether personal identity through time is a matter of psychological continuity, (b) whether our decisions — which are phenomenally conscious — can causally affect our behavior, and (c) the moral status of entities that lack phenomenal consciousness?

@@ -1,0 +1,20 @@
+# The Leibniz's Law Objection to the Identity Theory
+
+If A is identical to B, then everything true of A must be true of B, and vice versa. This is Leibniz's Law, and it gives us a simple test for non-identity: find a property that one thing has and the other lacks, and you have shown they are not the same thing. Applied to the mind-brain identity theory: pain has the property of hurting, of feeling a certain way — of having a particular phenomenal character. C-fiber firing, as a neural event, seems not to have this property; it is a pattern of electrochemical signals. These signals have various physical properties — frequency, amplitude, duration — but not the property of feeling painful. If pain has a phenomenal property that C-fiber firing lacks, then by Leibniz's Law, pain ≠ C-fiber firing.
+
+The argument can be formalized:
+
+- P1: If A = B, then for any property F: A has F if and only if B has F (Leibniz's Law).
+- P2: Pain has the property of being painful — having a certain phenomenal character.
+- P3: C-fiber firing does not have the property of being painful.
+- C: Pain ≠ C-fiber firing.
+
+The argument is valid; its soundness turns on the premises. P1 is a logical truth. P2 seems obviously true — pain is, by definition, something that hurts. P3 is where the debate occurs. The identity theorist's most direct response is to deny P3 while admitting that C-fiber firing, described in physical terms, does not *seem* to be painful. The response: that appearance is misleading. Being painful just *is* being in the neural state associated with pain. From the outside (the third-person perspective), this state is described as C-fiber firing; from the inside (the first-person perspective), it is described as painful. These are two different modes of presentation of the same property.
+
+## The Spatial Location Version and the Modal Version
+
+A related version of the objection invokes spatial location. Physical brain states have spatial locations (in the brain). But if I have a pain in my hand, where is the pain — in my hand, or in my brain? The identity theory says in the brain; but the phenomenology suggests the hand. The identity theorist can respond: the pain is in the brain, and what feels like a hand-pain is the brain's representation of a hand-location. Phantom limb pain provides evidence for this: the pain clearly cannot be in the missing hand, yet it is experienced as located there. The pain is a brain event; its phenomenal character includes a body-location representation.
+
+Kripke's argument in *Naming and Necessity* presses the objection further, in modal terms. For genuine identity claims between natural kinds (water = H₂O, temperature = mean molecular kinetic energy), the identity is necessary: there is no possible world in which water is not H₂O. Kripke argues that the case of pain is different. I can genuinely conceive of C-fiber firing occurring without any pain — not just an epistemic scenario that seems like pain-absence but a genuine metaphysical possibility. "Pain" is a rigid designator that picks out its referent by its essential phenomenal character. So C-fiber firing without pain is not a case of something that merely seems like pain without being pain; it is a genuine case where the neural event occurs but the phenomenal character does not. This conceivability establishes metaphysical possibility, which establishes non-identity.
+
+This argument has generated extensive response. Type-B physicalists (Block, Stalnaker) accept that there is a conceptual gap between phenomenal and physical concepts — explaining why Kripke's scenario seems conceivable — while denying that this conceptual gap corresponds to a metaphysical gap. Type-A physicalists (Lewis, Tye, Dretske) deny that there is any coherent sense in which C-fiber firing without pain is conceivable, once "pain" is properly analyzed in functional or representational terms. The debate continues, and it connects directly to debates about the hard problem of consciousness and the knowledge argument — wherever the conceivability-possibility bridge is accepted, the identity theory faces pressure.

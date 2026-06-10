@@ -1,0 +1,11 @@
+# Artificial Intelligence and Mind
+
+The rapid advance of artificial intelligence — from the rule-based systems of classical AI through connectionist neural networks to contemporary large language models — has transformed the context of philosophical debates about the nature of the mind. These debates are no longer merely speculative: we have systems that can perform tasks that, until recently, required human intelligence, and we face genuine questions about what these systems understand, whether they have any form of experience, and what their existence tells us about the nature of mind.
+
+The Turing Test — a machine is intelligent if it can engage in arbitrary conversation indistinguishably from a human — was proposed as an operationalization of machine intelligence. It has the virtue of avoiding assumptions about the internal nature of intelligence and focusing on behavioral competence. But Searle's Chinese Room argument challenges the inference from behavioral competence to genuine understanding: a system can pass the Turing Test without understanding anything, if it is merely manipulating symbols according to rules.
+
+Contemporary large language models like GPT-4 and Claude present a more challenging case than the systems Searle had in mind. They produce fluent, contextually appropriate, apparently understanding-laden responses to arbitrary inputs. Whether this performance reflects genuine understanding, or whether it is sophisticated pattern-matching without semantic content, is a live and important philosophical question — and one that bears directly on the debates between functionalism and its critics.
+
+The question of machine consciousness is distinct from the question of machine intelligence. A system might be intelligent (perform cognitive tasks effectively) without being conscious (having phenomenal experience). Or it might have some form of experience without behaving intelligently. Given the hard problem of consciousness, the question of whether any AI system is conscious may be in principle unanswerable from the outside.
+
+This section examines the philosophical issues surrounding AI and mind, connecting them to the broader debates about consciousness, intentionality, and functionalism.

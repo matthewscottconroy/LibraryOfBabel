@@ -1,0 +1,11 @@
+# The Grounding Relation
+
+Contemporary metaphysics has seen a revival of the concept of grounding — the notion that some facts hold in virtue of, or because of, other facts, in a way that is distinct from causation, entailment, or supervenience. The fact that the apple is red because it has certain surface properties; the fact that the set {a, b} exists because a and b exist; the fact that it is wrong to torture innocents for fun because of the suffering it causes — all these seem to involve one fact making another the case in a non-causal, non-logical way.
+
+Grounding is intended to capture what philosophers mean when they say that some things are "more fundamental" than others — that the physical grounds the mental, that facts about parts ground facts about wholes, that fundamental physics grounds everything else. This is not the same as saying that the mental supervenes on the physical (supervenience is merely a modal relation — necessary co-variation) or that the mental is entailed by the physical (entailment is a logical relation). Grounding is supposed to be a real metaphysical relation of priority and dependence.
+
+The formal properties of grounding are contested. Most philosophers hold that grounding is irreflexive (nothing grounds itself), asymmetric (if A grounds B, then B does not ground A), and transitive (if A grounds B and B grounds C, then A grounds C). These properties make grounding an ordering relation — a way of arranging facts in a hierarchy of ontological priority. But there are potential counterexamples to each formal property, and the formal analysis of grounding remains an active research area.
+
+The connection between grounding and explanation is important: grounding facts ground explanations. Why is the apple colored? Because it is red (and red is a kind of color). This grounding explanation is not a causal explanation — the apple's redness does not cause it to be colored; rather, being colored is constituted by being red. This distinguishes grounding explanations from causal explanations while preserving their objective, fact-stating character.
+
+This section examines the grounding relation — its motivation, its formal properties, and its role in contemporary metaphysics.

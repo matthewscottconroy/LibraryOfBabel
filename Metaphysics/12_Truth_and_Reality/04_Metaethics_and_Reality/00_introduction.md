@@ -1,0 +1,11 @@
+# Metaethics and Reality
+
+When we say that gratuitous cruelty is wrong, that the Holocaust was evil, that fairness is a virtue — are we stating objective truths about the world? Or are we expressing attitudes, preferences, or social norms that have no mind-independent truth value? This is the central question of metaethics, and it is directly connected to the metaphysical questions about realism and truth that dominate this unit.
+
+Moral realism holds that moral statements express genuine propositions, that those propositions can be true or false, and that at least some of them are true: there are objective moral facts that obtain independently of what anyone thinks or feels about them. The metaethical question is then about the nature of these moral facts: are they natural facts, accessible to empirical investigation? Or are they irreducibly non-natural facts, sui generis features of the world that cannot be identified with any physical or psychological properties?
+
+Non-cognitivism (expressivism) holds that moral statements do not express propositions at all; they express attitudes, prescriptions, or norms. "Torture is wrong" is not true or false; it expresses disapproval of torture. This view faces the Frege-Geach problem: moral terms appear in logical inferences in ways that seem to require them to express propositions (if torture is wrong, then causing unnecessary suffering is wrong; torture causes unnecessary suffering; therefore, causing unnecessary suffering is wrong). Quasi-realism, associated with Simon Blackburn, attempts to reconstruct the appearance of moral objectivity from an expressivist base.
+
+Error theory, associated with Mackie, holds that moral statements express genuine propositions and purport to describe objective moral facts — but that there are no such facts. All positive moral claims are false. The world as described by science contains no moral properties, no values, no reasons-providing facts. This is a radical conclusion with unsettling implications for moral practice and motivation.
+
+Aesthetic realism and anti-realism raise parallel questions about beauty, artistic value, and the nature of aesthetic experience. This chapter develops the metaethical positions, their connections to the broader realism/anti-realism debate, and the philosophical stakes of getting the answer right.

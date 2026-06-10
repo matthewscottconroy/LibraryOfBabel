@@ -1,0 +1,11 @@
+# Mental Causation
+
+The problem of mental causation is, at its core, a problem about the causal efficacy of the mind. When I raise my arm because I decided to raise it, the decision — a mental event — seems to cause the arm-raising — a physical event. This is the ordinary, pre-philosophical picture of how action works. The problem is that this picture is difficult to reconcile with what we believe about the physical world.
+
+If physicalism is true — if mental events are identical to, or at least realized by, physical events — then mental events do causally interact with physical events; my decision is a physical event in my brain, and it causes the physical movement of my arm through a continuous physical causal chain. But if mental events are identical to physical events, then what is distinctively "mental" about the causation? Is the causal work done by the mental features or by the physical features?
+
+The exclusion problem, formulated by Jaegwon Kim, makes this difficulty precise. Mental events are caused by physical events (the history of your brain) and cause physical events (the movement of your arm). But the physical level is causally complete: every physical event has a sufficient physical cause. So if a mental event m causes a physical event p, and p already has a sufficient physical cause p*, then either m = p* (reduction), or m is causally redundant, or the physical world is overdetermined. None of these options is attractive.
+
+Non-reductive physicalism — the view that mental properties are genuinely distinct from physical properties while being realized by them — faces the exclusion problem most acutely. The mental property contributes something beyond the physical base, but if the physical base is causally sufficient for any physical effect, the contribution of the mental seems superfluous. Eliminativism dissolves the problem by denying that there are genuine mental properties; token identity dissolves it by denying that mental properties are genuinely distinct from physical ones.
+
+This section examines mental causation as a special case of the general theory of causation, with attention to how different metaphysical positions handle the exclusion problem.

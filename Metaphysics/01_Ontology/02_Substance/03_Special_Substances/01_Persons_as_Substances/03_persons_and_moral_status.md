@@ -1,0 +1,26 @@
+# Persons and Moral Status
+
+The question of what grounds moral status is not identical to the question of what makes something a person, but the two questions are deeply entangled. Kant held that persons have unconditional moral worth — dignity — that cannot be valued or traded against anything else. The Kantian formula: treat rational nature always as an end and never merely as a means. This is a categorical constraint, not a defeasible one: no amount of good consequences justifies treating a person purely instrumentally. The source of this constraint is personhood itself — specifically, the capacity for rational autonomy, the ability to give oneself the moral law.
+
+The theoretical elegance of the Kantian position is real. It explains why persons have a moral status that things do not (persons are rational, self-governing agents; things are not). It explains why this status is categorical rather than a matter of degree (rationality is either present or absent; it does not come in the relevant kind of graduated form). And it connects metaphysics to ethics: the answer to "what is a person?" (a rational agent) directly generates the answer to "why do persons matter morally?" (because rational agency is what grounds moral standing).
+
+The difficulty is the threshold problem. Infants lack fully developed rational capacity. Severely cognitively disabled individuals may permanently lack it. People in dreamless sleep lack it temporarily. Great apes have sophisticated forms of cognition that arguably approach the threshold from below. If full moral status requires the capacity for rational autonomy, and these beings lack that capacity, they either lack moral status or have only derivative moral status — as beings we happen to care about, not as ends in themselves. Most people find this conclusion unacceptable for the human cases; extending it to great apes seems more contested but for parallel reasons.
+
+## The Sentience Alternative
+
+Peter Singer's utilitarian framework shifts the criterion from rationality to sentience — the capacity to experience pleasure and pain. The morally relevant question is not "Can they reason?" but "Can they suffer?" The argument:
+
+P1. The capacity to suffer is the morally relevant criterion for having interests.
+P2. All beings with interests deserve equal consideration of those interests.
+P3. Many non-human animals can suffer and thus have interests.
+C. Non-human animals deserve equal consideration of their comparable interests.
+
+Equal consideration does not mean identical treatment — a pig's interest in a complex meaningful life is less weighty than a human's because pigs have less complex forms of interest. But a pig's interest in not suffering counts as much as a human's interest in not suffering. To discount it on the grounds that the pig is not a rational agent is speciesism: an unjustifiable bias toward members of one's own species, analogous in structure to racism or sexism.
+
+Singer's framework extends moral status beyond the rational-agency threshold but generates its own difficulties. It makes moral status a matter of degree, correlated with the sophistication of the capacity for experience. And it implies that some cognitively sophisticated animals may have greater moral status than some cognitively impaired humans — a result many find counterintuitive, though Singer accepts it.
+
+## The Metaphysical and Moral Questions Disentangled
+
+A useful clarification: the metaphysical question (what is a person?) and the moral question (what grounds moral status?) can come apart, and separating them helps. One might hold that personhood is defined by rational agency (metaphysics) while arguing that moral status tracks sentience rather than rationality (ethics). On this view, some non-persons (sentient animals) have significant moral status, and the grounds for that status are different from the grounds for full personal dignity. Or one might hold, with neo-Aristotelians, that personhood is a matter of kind membership — belonging to the kind *rational animal* — while arguing that the moral status of persons flows not from individual exercise of rationality but from the full array of properties characteristic of the kind: vulnerability, rationality, sociality, narrative identity, the capacity for a meaningful life.
+
+The practical stakes are significant and well-known. The moral status of early fetuses turns on whether the neo-Lockean or the neo-Aristotelian account of personhood is correct. The justification for or against end-of-life decisions for patients in persistent vegetative states depends on whether psychological continuity or biological continuity grounds personal identity. The moral status of sufficiently sophisticated artificial systems depends on whether what matters morally is rationality, sentience, or something else — and on whether artificial systems can genuinely possess those properties. These are not questions for which philosophical analysis simply has the right answer waiting to be discovered; they are genuinely hard, and the hardness is not an accident. They are hard because they sit at the intersection of our best metaphysical understanding of what persons are and our deepest moral commitments about what matters.

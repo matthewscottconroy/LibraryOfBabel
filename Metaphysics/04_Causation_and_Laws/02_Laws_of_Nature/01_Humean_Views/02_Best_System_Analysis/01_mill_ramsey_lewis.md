@@ -1,0 +1,31 @@
+# Mill, Ramsey, and Lewis on the Best System
+
+The naive regularity theory fails because it cannot distinguish laws from accidents — both are formally identical universal generalizations, and nothing in the theory tells us why one licenses counterfactuals and the other does not. If laws are to be distinguished from accidental regularities within a Humean framework, the distinction must come from somewhere. The thought that generated the Best System Analysis is that it comes from theoretical role: a generalization is a law if it earns its place in the best deductive systematization of all the facts — not merely if it happens to be true. This thought was anticipated by Mill, made precise by Ramsey, and developed into a full philosophical account by Lewis.
+
+## From Mill to Ramsey to Lewis
+
+Mill gestured toward the idea in *A System of Logic* (1843). Scientific laws, he observed, are the simplest and most comprehensive generalizations that account for the observed facts. He was describing how we identify laws rather than giving a metaphysical account of what they are, but the essential insight is present: laws are not just any regularities but those that figure in the optimal theoretical description of the world.
+
+Ramsey gave the first clear formulation in posthumously published notes (written 1928, published 1978): "If we knew everything we could say what are the causal laws — the simplest generalizations which cover all the particular matters of fact." Laws are the generalizations in the simplest and most comprehensive true theory. The approach is epistemic in framing — Ramsey is describing what an omniscient being would identify as laws — but it identifies the essential structure: laws are what appear in the optimal trade-off between simplicity and strength, constrained by truth.
+
+Lewis developed this into a systematic account in *Counterfactuals* (1973) and subsequent work through "Humean Supervenience Debugged" (1994). His definition: the laws of a possible world W are the generalizations that appear as theorems in the true deductive system for W with the best balance of simplicity and strength.
+
+Two virtues are in tension. **Strength** measures how informative a system is — how much it tells us about the world. A system that specifies the complete state of the universe at every moment has maximal strength but at enormous cost to simplicity; we would need to list every particular fact. **Simplicity** measures how parsimonious and elegant the axioms are. A system with a single elegant axiom is simpler than one with many. The "best" system trades these off optimally: neither so simple as to be uninformative nor so informative as to be incomprehensibly complex. Generalizations that appear in the best system — not necessarily as axioms but as theorems — are laws.
+
+## The Naturalness Requirement
+
+Lewis added a constraint essential to making the account non-trivial: the best system must be formulated in terms of "perfectly natural" properties — those that carve nature at its joints. Without this constraint, any set of facts can be trivially systematized. We could introduce a gerrymandered predicate F that is defined to hold of exactly the things the actual mosaic describes, then state the single axiom "everything is F." This system would be maximally simple and maximally strong. But it would not express a law, because F does not correspond to any genuine feature of reality.
+
+With the naturalness constraint in place, only predicates that track real, fundamental features of reality can appear in candidate systems. "Grue" is disqualified; "has charge −e" is not. This connects the BSA to a realist ontology of sparse, fundamental properties — those that figure in fundamental physics rather than those we find convenient to use. Laws are regularities among natural properties, and it is natural properties that make those regularities scientifically significant.
+
+## Probabilistic Laws and the Addition of Fit
+
+Lewis extended the BSA to indeterministic worlds by adding a third theoretical virtue: **fit**. In an indeterministic world, the best system includes probabilistic generalizations that assign objective chances to outcomes. Fit measures how well the system's probability assignments match the actual pattern of outcomes — how probable the actual sequence of events is given the system's chance function. The best system balances simplicity, strength, and fit; probabilistic laws like quantum mechanical decay rates are the chance-assigning generalizations in this optimal system.
+
+This extension is one of the BSA's most important achievements. Non-Humean necessitation accounts are best suited to deterministic laws where N(F, G) guarantees all F's are G's; extending them to probabilistic laws requires a probabilistic necessitation relation whose character is far from clear. The BSA handles the probabilistic case by the same mechanism as the deterministic case, with fit added to the optimization.
+
+## Laws and Humean Supervenience
+
+The BSA is embedded in Lewis's broader Humean supervenience program. Laws supervene on the total distribution of local, intrinsic, qualitative properties across spacetime — the Humean mosaic. A world with different patterns of events has a different best system and therefore different laws. Laws are not primitive governing features of reality but the best summaries of the patterns in the mosaic; they describe the world without making it be a certain way.
+
+This is what distinguishes the BSA from both the naive regularity theory and the necessitation accounts. Against the naive regularity theory, the BSA adds the theoretical-role condition: a generalization is a law only if it earns its place in the optimal systematization, not merely if it is true. Against the necessitation accounts, the BSA refuses to postulate any law-making relation or modal primitive beyond the mosaic itself. The laws are still, in the end, truths about the distribution of particular facts — but truths picked out by the most informative and elegant way of describing that distribution. Whether this is enough to capture everything we want from a theory of laws is the central question that the objections to the BSA press.

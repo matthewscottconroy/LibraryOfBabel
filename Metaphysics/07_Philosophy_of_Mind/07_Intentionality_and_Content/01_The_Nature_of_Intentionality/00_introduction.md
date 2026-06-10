@@ -1,0 +1,11 @@
+# The Nature of Intentionality
+
+Every thought is a thought about something. Every belief is a belief that something is the case. Every desire is a desire that something be the case. This "aboutness" of mental states — their directedness toward objects, facts, or states of affairs — is what Brentano called intentionality, and he proposed it as the mark of the mental: what distinguishes mental states from merely physical states is that mental states are intrinsically about things, while physical states are not.
+
+Intentionality poses a deep philosophical puzzle. How can a physical state — a pattern of neural firing, a computational state of the brain — be about something? Physical states have their physical properties intrinsically, without reference to anything else. But intentional states have their content — what they are about — in virtue of some relation to something beyond themselves. My belief that it is raining is not about rain because of any intrinsic property of the neurons; it is about rain because of some relation those neural states bear to rain. What is that relation?
+
+Brentano held that intentionality is a primitive, irreducible feature of mental states that cannot be analyzed in physical terms. This is consistent with his view that the mental realm is fundamentally different from the physical realm. Contemporary physicalists cannot accept this primitive intentionality if they want to give a fully naturalistic account of the mind: they must explain how physical systems come to be about things in the world.
+
+Naturalistic theories of intentionality attempt to explain the content of mental states in purely physical, causal, or functional terms. Causal-covariation theories hold that a mental state represents what it reliably covaries with: my "water" concept represents water because water causes that concept to be tokened. Teleosemantic theories hold that mental states represent what they have the biological function to represent: representations evolved to "track" certain features of the environment, and what they represent is determined by what they were selected to track.
+
+This section examines the nature of intentionality, the main naturalistic theories, and the challenges each faces.

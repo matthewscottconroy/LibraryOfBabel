@@ -1,0 +1,11 @@
+# Dualism
+
+Dualism is not merely the historical view from which modern philosophy sought to escape; it continues to attract sophisticated philosophical defenders, and for good reason. The phenomenal features of conscious experience — the redness of red, the painfulness of pain, the taste of coffee — seem to resist any straightforward identification with physical properties. Physical science describes the world in terms of particles, fields, functional organization, and causal structure; but none of these descriptions, however detailed, seems to capture what it is like to see red or to taste coffee. Something appears to be left out, and dualists argue that what is left out is the mental.
+
+Substance dualism holds that there are two fundamentally different kinds of substance — mental and physical — each with its own characteristic properties. Descartes's version is the most famous: minds are essentially thinking, unextended things; bodies are essentially extended, unthinking things. Contemporary substance dualists are rare but not extinct: some philosophers of religion hold that the soul is a Cartesian substance; some defenders of personal immortality require it.
+
+Property dualism is far more common in contemporary philosophy. Property dualists accept that there is only one kind of substance — the physical — but deny that all properties are physical. Mental properties — particularly phenomenal properties, the felt qualities of experience — are real properties of physical substances that are not reducible to or identical with any physical properties. This is a position that takes the phenomenon of consciousness seriously without accepting an ontology of immaterial substances.
+
+Naturalistic dualism, associated with David Chalmers, holds that phenomenal consciousness is a fundamental feature of the universe, like mass or charge, that must be added to the physical picture rather than derived from it. This is dualism without the supernatural: it does not posit any violation of physical law but insists that no physical theory will ever explain why physical processes are accompanied by experience.
+
+This chapter develops the main forms of dualism, the arguments for them, and the objections that physicalists press. The reader should come away understanding why dualism is a live option rather than a historical relic.

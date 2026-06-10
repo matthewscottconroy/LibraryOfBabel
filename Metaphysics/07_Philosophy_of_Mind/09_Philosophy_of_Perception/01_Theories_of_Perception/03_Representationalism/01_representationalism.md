@@ -1,0 +1,22 @@
+# Representationalism about Perception
+
+Representationalism about perception holds that perception is fundamentally a matter of having internal representations of the world. To perceive a red apple is to be in a mental state with representational content — a state that represents the apple as red, round, and in front of one. The phenomenal character of perception — what it is like to perceive — is itself representational: experience has the qualitative character it has in virtue of representing the world in a particular way. This is the view associated with Dretske (*Naturalizing the Mind*, 1995), Tye (*Ten Problems of Consciousness*, 1995), Harman, and Byrne.
+
+The core claim: **phenomenal properties of experience are identical to (or wholly constituted by) representational properties**. The redness of my visual experience of an apple is nothing over and above the experience's representing the apple as red. This thesis is sometimes called **transparency**: when you try to attend to the qualitative character of your experience of blue, your attention passes through the experience to the blue object. The experience has no detectable "inner layer" of qualia; phenomenal character seems to consist entirely in how the world is represented as being. Moore first noticed this, though he drew different conclusions from it.
+
+The representationalist approach has several attractions. It avoids positing a special class of mental entities (sense data, qualia as inner objects) — everything that sense data theory explained by mental particulars is explained by intentional states, with no additional ontological commitment. It fits naturally with computational theories of vision and cognitive science, which analyze perceptual processing as a sequence of representational transformations. It handles illusion and hallucination naturally: in illusion, the experience represents the world as being a certain way (the stick as bent) when it is actually otherwise; in hallucination, the experience represents a state of affairs that does not obtain. Error is misrepresentation, and the general theory of intentionality applies.
+
+## Tye's PANIC Theory and Challenges
+
+Tye's PANIC theory (*Ten Problems of Consciousness*, 1995) is a careful development of representationalism. PANIC content is:
+
+- **Poised**: the content is available at the interface between perceptual processing and higher cognitive functions.
+- **Abstract**: the content is not about particular objects but about types.
+- **Nonconceptual**: the content does not require the perceiver to have concepts — it can be finer-grained than any concepts the perceiver possesses.
+- **Intentional Content**: it is a representational state.
+
+On Tye's view, the qualitative character of experience is constituted by PANIC content — the fine-grained, nonconceptual, poised representational content of the perceptual state. This is strong representationalism: phenomenal character is fully determined by representational content.
+
+The **inverted qualia** objection challenges this. Two subjects might have experiences with the same representational content (both correctly represent red) but differ in phenomenal character (what is it like to see red for one is what it is like to see green for the other). If such inversion is conceivable, phenomenal character is not fully determined by representational content. Strong representationalists typically respond that genuinely inverted qualia would require different functional organization and hence different representational content — that spectrum inversion at the functional level is actually impossible. The **absent qualia** objection presses similarly: a system might have all the same representational content as a conscious perceiver while lacking phenomenal consciousness entirely. If philosophical zombies are possible, representational content does not entail phenomenal character.
+
+**Weak representationalism** holds that phenomenal character supervenes on representational content without being identical to it — there may be phenomenal residue beyond content. Most critics of strong representationalism either favor the weak version or reject representationalism entirely in favor of naive realism or disjunctivism, which hold that the phenomenal character of veridical experience is constituted not by representational content but by direct acquaintance with the world itself.

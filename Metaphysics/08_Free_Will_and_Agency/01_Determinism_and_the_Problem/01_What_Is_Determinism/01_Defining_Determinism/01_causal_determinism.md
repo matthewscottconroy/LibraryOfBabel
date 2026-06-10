@@ -1,0 +1,32 @@
+# Causal Determinism
+
+Think of a billiard break: the cue strikes the ball, the ball strikes the pack, and every subsequent trajectory follows from the geometry of the collision and the laws of motion. Now scale that picture up to the entire universe. If you had a complete description of every particle's position and momentum at any single moment — plus a complete statement of the laws governing them — you could, in principle, read off every subsequent state of the universe with perfect precision. Nothing that follows could be otherwise. This is causal determinism: the thesis that the prior history of the world, together with the laws of nature, uniquely fixes every subsequent event.
+
+The puzzle is obvious, and you already feel it. You are reading this sentence, and it seems to you that you could stop reading and go make coffee instead. But if causal determinism is true, the neural states that are about to produce your next eye movement were determined by prior states of your brain, which were determined by earlier states, and so on back to a time before you were born. In what sense, then, is any of this up to you?
+
+## The Historical Vision and Its Formal Core
+
+Pierre-Simon Laplace gave this thought its canonical expression in his 1814 *Philosophical Essay on Probabilities*: "An intellect which at a certain moment would know all forces that set nature in motion, and all positions of all items of which nature is composed... for such an intellect nothing would be uncertain and the future just like the past would be present before its eyes." Laplace's demon is an image, not a proof — but it captures exactly what causal determinism entails. The demon is external to the universe it calculates, presumably subject to its own causal laws; the vision assumes a classical-mechanical description of the world; and it presupposes that the governing laws are complete and exceptionless.
+
+We can give the thesis more precise form. For any two possible worlds W1 and W2 that share the same complete physical state at time T and the same laws of nature L, W1 and W2 are identical in their complete physical states at all times after T. The laws plus the past fix the future. There is no remainder — no gap into which chance or agency can insert itself.
+
+Notice what this does *not* say. Determinism is not the same as predictability. A world could be deterministic yet practically unpredictable, as chaotic systems illustrate: sensitive dependence on initial conditions means that tiny uncertainties about the starting state amplify rapidly into large divergences. The weather is effectively deterministic in principle yet famously unforeseeable in practice. More important for us: determinism is not the same as fatalism. The fatalist holds that certain outcomes will occur no matter what the agent does — the outcome is independent of action. Determinism makes no such claim. In a deterministic world, what the agent does is itself determined; what happens depends on what the agent does. The entanglement is total, not bypassed.
+
+The Stoics understood this well. They held that everything happens by *heimarmene* — a governing chain of causes reaching back to the origin of the cosmos — yet insisted that some things are still "up to us" (*eph' hêmin*). Chrysippus reached for a compatibilist resolution: when an external cause sets a cylinder rolling, how it rolls depends on the cylinder's own nature. External circumstances prompt desires and impressions in us; whether we *assent* to them is the work of our own rational nature. This ancient move anticipates the central strategy of modern compatibilism and shows that the question was not born with Laplace.
+
+## Why Determinism Matters for Free Will
+
+A distinction that proves useful: we should separate physical-level determinism — the claim that all physical events are fixed by prior physical events and laws — from psychological-level determinism, which concerns whether all mental events (decisions, desires, beliefs) are fixed by prior mental states and psychological regularities. These levels interact, but conceptually they are distinct.
+
+For the free will debate, psychological determinism is often the more pressing level. Even if quantum mechanics has shown that the physical universe is not strictly deterministic at the micro level, the question remains whether an agent's choices are determined by her prior beliefs, desires, and character. A compatibilist who grants quantum indeterminism can still maintain that psychological processes are effectively deterministic — that the indeterminism operates at a scale too fine to disrupt the regularities of deliberation and choice. What matters practically is whether the causal chain that runs through the agent's psychology is the sort of chain that is hers, or merely one she happens to be caught in.
+
+The basic incompatibilist argument connecting causal determinism to the absence of free will runs as follows:
+
+- P1: If causal determinism is true, then for every action A an agent performs, A was necessitated by the state of the world long before the agent was born, together with the laws of nature.
+- P2: The state of the world before the agent's birth and the laws of nature are not within the agent's control.
+- P3: If an action is necessitated by factors entirely outside the agent's control, then the action is not within the agent's control.
+- C: Therefore, if causal determinism is true, no action is within the agent's control — and therefore no action is free.
+
+Each premise carries intuitive weight. P1 follows from the definition of causal determinism. P2 seems undeniable — no one controls what happened before she was born, and no one controls the laws of physics. P3 captures what we might call the *transfer of powerlessness*: if you have no control over X, and X necessitates Y, then you have no control over Y either. This is the argument van Inwagen later made rigorous as the Consequence Argument.
+
+That third premise, P3, is where the real philosophical work begins. The compatibilist denies that the relevant kind of control requires that the necessitating factors themselves be within the agent's control. What matters, she will say, is not whether the causes trace to a time before the agent existed, but whether they run through the agent's own reasons, character, and deliberative capacities. Whether this denial succeeds — whether the right kind of causal determination is sufficient for genuine freedom — defines much of the contemporary debate.

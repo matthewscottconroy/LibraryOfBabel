@@ -1,0 +1,11 @@
+# Regularity and Necessity in Laws of Nature
+
+The tension at the heart of the philosophy of laws of nature is the tension between the apparent necessity of laws and the apparent contingency of all particular facts. Laws support counterfactuals, sustain scientific predictions, and seem to hold not merely actually but necessarily — the electron had to have its charge, given what it is. Yet the electron's charge seems like a contingent matter: we can conceive of a universe where electrons have a different charge, and there is nothing formally contradictory in the supposition.
+
+This tension can be resolved in at least two ways. The regularity theorist (following Hume) denies that there is genuine necessity in laws — the appearance of necessity is an artifact of the way we systematize and conceptualize regularities, not a real feature of the world. The necessitarian denies that laws are merely contingent — laws have a kind of nomic necessity that, while not logical necessity, is a genuine, objective, metaphysical modality.
+
+The challenge for the regularity theorist is to explain why laws, but not accidental generalizations, support counterfactuals and are used in scientific explanation. If "All electrons have charge −e" and "All the coins in my pocket are silver" are both regularities, what is the difference that explains why the first but not the second is projected to new cases and used in counterfactual reasoning? The regularity theorist must appeal to the systematic, integrated character of nomic regularities — their role in the best systematic theory of nature — to ground this difference.
+
+The challenge for the necessitarian is to explain what nomic necessity consists in. Armstrong's account invokes universals: a law is a necessitation relation N(F, G) between universals F and G — a second-order relation that holds between the universals and necessitates (though does not logically entail) the corresponding first-order regularity. This gives laws a genuine ontological status, but the nature of the N relation — how universals can "necessitate" anything — remains controversial.
+
+This section examines the regularity-necessity tension in depth, surveying the main theoretical options and their respective difficulties.

@@ -1,0 +1,11 @@
+# Personal Identity
+
+The question of personal identity is, in one sense, strikingly immediate: am I the same person I was thirty years ago, and will I be the same person thirty years from now? If the answer is yes, then there are facts about my past that I can remember and be held responsible for, and there are facts about my future that give me reasons to plan and invest and make promises. If the answer is no — or if the question has no determinate answer — then something fundamental about our practical and moral lives becomes ungrounded.
+
+Locke's answer to the question of personal identity was revolutionary: persons are identical over time by virtue of psychological continuity, specifically the continuity of memory. I am the same person as that child because I can (in principle) remember being that child — or remember events connected by a chain of memory to that child's experiences. This psychological criterion breaks the link between personal identity and the identity of the physical body: the same person can migrate, in thought experiments, from one body to another; a person can go out of existence while the body continues.
+
+Reid's objection to Locke — the famous objection about the old general — pointed to the intransitivity that results if memory is not transmitted transitively. If the old general remembers being a young officer but not being a boy flogged for stealing, and if the young officer remembered being the flogged boy, then the old general is the same person as the young officer (who remembers the boy) but is not the same person as the boy (whom the general does not remember). Identity is transitive; this cannot be right.
+
+Parfit's radical revision of the entire framework argued that personal identity is not what matters in survival. What matters is psychological continuity and connectedness — and these can come in degrees, be indeterminate, and admit of branching in fission cases. Parfit concluded that there is no deep metaphysical fact about whether I survive; there are only the psychological relations, and the question "But do I survive?" when those relations are described, is an empty further question.
+
+This section examines these competing theories and the thought experiments — fission, teleportation, gradual replacement — that test them.

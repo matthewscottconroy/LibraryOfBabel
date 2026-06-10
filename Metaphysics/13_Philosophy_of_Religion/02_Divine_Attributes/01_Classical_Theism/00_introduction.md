@@ -1,0 +1,11 @@
+# Classical Theism and the Divine Attributes
+
+Classical theism holds that God is omnipotent (all-powerful), omniscient (all-knowing), omnibenevolent (perfectly good), and necessarily existent — a being of unsurpassable greatness, the creator of all contingent existence, the first cause on which all else depends. These attributes are not merely predicates that we apply to God from the outside; they constitute what it is to be God. A being that lacks any of them would not be the God of classical theism.
+
+The theological tradition — from Augustine and Aquinas through the Reformers and into contemporary analytic philosophy of religion — has elaborated these attributes with great sophistication. Omnipotence raises the "paradox of the stone": can God create a stone so heavy that even God cannot lift it? If God can, then there is something God cannot do (lift the stone); if God cannot, there is something God cannot do (create the stone). Aquinas's response: omnipotence is the power to do anything logically possible; creating a self-contradictory stone is not possible, so the inability to create it is not a limitation on omnipotence.
+
+Omniscience generates its own puzzle in connection with human freedom. If God knows now what you will do tomorrow, then your action tomorrow is already determined (in the sense that it cannot be otherwise than God knows). But if your action is already determined, how can you be free to do otherwise? Boethius's solution: God is eternal (outside of time), not merely everlasting (existing at all times). God's knowledge of your future action is not foreknowledge in the usual sense; it is simultaneous eternal knowledge of a temporal event. Your action is free in the temporal order even if God "sees" it from eternity.
+
+Omnibenevolence raises the problem of evil: if God is perfectly good and all-powerful, why does evil exist? This is the subject of the next section; here we examine the internal coherence of the divine attributes and how the classical theological tradition has worked to show that they are mutually compatible.
+
+This section examines the classical divine attributes — omnipotence, omniscience, and omnibenevolence — with attention to the internal puzzles each generates and the theological responses.

@@ -1,0 +1,11 @@
+# Nomic Necessity and Governing Laws
+
+Against the Humean position stands the view that laws of nature are genuinely necessary — that they govern events rather than merely describe regularities. On this view, the law "All copper conducts electricity" does not merely report a pattern; it states something that could not have been otherwise, given the nature of copper. Laws are not descriptions of the world's history; they are principles that constrain what can happen.
+
+Several distinct accounts of nomic necessity have been developed. The most influential is the DTA account (Armstrong-Dretske-Tooley), which holds that laws are second-order relations of necessitation between universals. When N(F, G) holds — when the universal F stands in the necessitation relation N to the universal G — then all instances of F are instances of G. This is more than a regularity: it is a necessary connection at the level of universals that governs individual cases.
+
+The DTA account has several virtues. It draws a principled distinction between laws and accidental generalizations: accidental generalizations do not involve the necessitation relation between universals. It supports counterfactuals: if N(F, G) holds, then in any world with the same universals and the same necessitation relation, all F's would be G's. It also explains the intuitive difference between a world where copper happens to conduct and a world where copper must conduct.
+
+But the DTA account faces a famous objection from Lewis: the inference problem. What is it about the relation N(F, G) that guarantees that all F's are G's in individual cases? If N is a second-order relation between universals, it seems like a primitive with no explanatory power unless we can derive facts about individual instances from it. Armstrong's response was that necessitation is a primitive relation that we must accept as a fundamental feature of reality. Critics find this unsatisfying.
+
+Kit Fine has argued for a related but distinct approach: laws hold by virtue of the essences of the properties involved. The law that all electrons have negative charge holds because it is essential to being an electron that it has negative charge. This "essence-based" account of necessity is close to Brian Ellis's scientific essentialism and avoids the DTA's reliance on a primitive necessitation relation.

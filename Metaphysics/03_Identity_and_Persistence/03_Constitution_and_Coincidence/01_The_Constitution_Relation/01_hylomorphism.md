@@ -1,0 +1,25 @@
+# Hylomorphism and Constitution
+
+*How Aristotle's form-matter analysis applies to the constitution of complex objects.*
+
+---
+
+When a sculptor shapes bronze into a statue, something happens that is more than simple rearrangement. The bronze was already there; after the sculpting, it is organized differently. We have not added any new matter to the universe. Yet we seem to have a statue that did not exist before. Aristotle's hylomorphism is an attempt to account for this: a physical substance is a composite of matter (*hyle*) and form (*morphe*), and the creation of the statue is the imposition of form on matter — not creation from nothing, but actualization of what the matter was potentially capable of becoming.
+
+For Aristotle, a primary substance — Socrates, this horse, this particular oak tree — is a hylomorphic compound: matter organized by a substantial form. Neither the matter alone nor the form alone is the substance; it is their unity that constitutes the individual substance.
+
+*Matter* (*hyle*) is the underlying stuff — what a thing is made *of*. Bronze for a statue, bricks and mortar for a house, flesh and bone for an animal. Matter is potentially whatever form it receives; it is "that from which" a thing is made. *Form* (*morphe* or *eidos*) is the structure, organization, or essence that makes matter into a particular kind of thing. The form of a house is what makes the bricks and mortar a house rather than a heap. For living things, the form is the *soul* (*psyche*) — the organizational principle of biological life. *Composite substance* — Socrates, the house, the horse — is the matter-form compound. The compound is not identical with the matter alone (the matter could exist in a different form) nor with the form alone (the form can potentially be instantiated in different matter). The substance is a specific instance of form in matter.
+
+## The Constitution Problem
+
+The modern relevance of hylomorphism to the constitution debate: when we ask whether the statue is *identical with* the lump of bronze, the hylomorphist answer is nuanced. They are not identical in all respects — the lump exists before and after the statue; the statue ceases to exist if the bronze is melted down — but they are not entirely distinct either. The statue *is* the bronze organized in a certain way; the constitution relation is tighter than mere co-location.
+
+For Aristotle, the statue and the lump of bronze are numerically one in a sense (there is one bronze object before us) but differ in their formal identity (the statue has the statue-form; the lump does not). This is arguably Geach-style relative identity: they are the same *bronze* but not the same *statue*.
+
+Contemporary neo-Aristotelian constitution theorists use the hylomorphic framework to give a principled account of the relationship between material constitution and identity. The key neo-Aristotelian claim: constitution is a *form-matter* relation — the matter (bronze) constitutes the thing (statue) in virtue of the form (statue-form) being imposed on the matter. The thing (statue) is *essentially* formed matter: not just the matter plus a form as separable items, but the organized unity. Different forms impose different persistence conditions: the statue persists as long as the form is preserved; the bronze persists as long as the matter is organized in any bronze-constituting way. This explains why the statue and the bronze have different persistence conditions — not because they are simply different objects co-located, but because one is the matter and the other is the formed product.
+
+## Form and Function
+
+For artifacts (statues, houses, tools), the relevant form is partly functional: a house is matter organized for habitation; a knife is matter organized for cutting. The form includes the intended function as part of its content, connecting hylomorphism to contemporary functionalism. This functional element generates interesting implications for persistence: a knife that loses its cutting edge gradually ceases to be a knife; a hammer used as a paperweight is still a hammer (the form is constituted by the maker's intention and design, not current use); a person in PVS retains the biological form of a human organism but may have lost the psychological/rational form associated with personhood.
+
+Wiggins's account of identity as sortal-dependent is Aristotelian in inspiration: each thing falls under a *substance sortal* that specifies its form, and the persistence conditions are those associated with the sortal/form. Van Inwagen's view that only organisms (and simples) exist reflects an Aristotelian restriction: only things with a genuine life-form constitute genuine substances. Kit Fine has developed a sophisticated neo-Aristotelian ontology in which form and matter are distinct variables in the constitution of individuals, with different kinds of objects having different matter-form structures — showing that Aristotelian hylomorphism, suitably developed, can address contemporary problems in the metaphysics of coincidence and constitution.

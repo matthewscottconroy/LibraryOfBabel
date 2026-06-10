@@ -1,0 +1,11 @@
+# Reasons and Causes
+
+When a person acts for a reason, is that reason a cause of the action? Donald Davidson's "Actions, Reasons, and Causes" (1963) argued for an affirmative answer that has dominated the philosophy of action ever since: the reason for which someone acts — their belief-desire pair — is identical to the event that causes the action. Reason-explanation is a species of causal explanation; it just describes the cause (the reason) in intentional rather than physical terms.
+
+Before Davidson, it was widely held that reason-explanation and causal explanation are fundamentally different types of explanation. Wittgenstein and his followers argued that explaining an action by citing the agent's reasons is not the same as citing causes and effects. Reasons are justifications — they make the action intelligible, rational, appropriate — while causes are merely efficient antecedents. A reason that is a good reason justifies the action; a cause that is a cause simply produces the effect, regardless of whether it is good or bad.
+
+Davidson's response was to argue that the distinction between justifying reasons and causal antecedents is compatible with their being the same events. My belief that it will rain and my desire to stay dry together constitute a reason for taking an umbrella; they also, Davidson argued, cause the action of taking an umbrella. The reason-relation is a logical relation between the content of the belief-desire pair and the description of the action; the causal relation is an extensional relation between the events themselves. Both relations hold, but they hold "under different descriptions."
+
+The "deviant causal chain" problem challenges Davidson's account: cases where the relevant belief-desire pair causes the action, but not in the right way. An actor who is playing a murderer has a belief that he should now commit a murder on stage; this belief causes him, through stage fright, to actually attack the other actor. The belief-desire pair caused the action, but it did not rationalize it in the right way.
+
+This section examines the reasons-causes relationship, Davidson's causal theory, the deviant causal chain problem, and the implications for the metaphysics of agency.

@@ -1,0 +1,28 @@
+# Natural Kinds Defined
+
+Why does discovering that one emerald is green confirm that the next emerald will be green, while discovering that one emerald was examined before 2100 fails to confirm anything about what emeralds examined after 2100 will be like? Goodman's "grue" paradox isolates a real asymmetry: some predicates support inductive generalization and others do not, and the difference tracks something about the world, not merely about us. The predicate "green" projects; "grue" does not. We want to say: "green" picks out a genuine category of the world, while "grue" is an artificial construction. Natural kinds are the categories on the correct side of this divide.
+
+Natural kinds are the fundamental types of things that occur in nature, organized by objective, mind-independent similarities. The paradigm cases are chemical elements (gold, oxygen, hydrogen), chemical compounds (water, salt, ammonia), fundamental particles (electrons, protons, quarks), and biological taxa (tigers, oaks, HIV). These contrast with "nominal" or "conventional" kinds — furniture, games, musical instruments — united by human interests or functions rather than intrinsic, objective similarities.
+
+The distinction matters for science in at least three reinforcing ways. Laws of nature typically generalize over natural kinds: "all electrons have negative charge" is a genuine natural law; "all red things have mass" is not, because red things do not form a natural kind — being red is not an intrinsic, objective property that grounds further generalizations. Natural kinds support inductive projection in the way "grue" does not: discovering that sampled electrons have charge -e confirms that unexamined electrons have charge -e, because "electron" carves nature at a genuine joint. And natural kinds ground explanation: why does this sample dissolve in water? Because it is sodium chloride, and sodium chloride is water-soluble in virtue of its chemical structure — the ionic bonds that interact with the polar water molecule. The kind-membership grounds and explains the property. If the kind were conventional, no such grounding explanation would be available.
+
+## Classical, Essentialist, and Causal-Historical Accounts
+
+The classical account of natural kinds, stemming from Aristotle, holds that kinds are defined by essential properties — necessary and sufficient for membership, and grounding the kind's non-essential properties. Gold has the essence of being a specific kind of metal; this essence grounds gold's observable properties. The contemporary essentialist revival, associated with Kripke and Putnam, reformulates this in terms of reference and modal necessity: natural kind terms are rigid designators that pick out the same kind in all possible worlds, and the properties of the kind at the actual world are necessary properties of that kind. Water is necessarily H₂O; gold is necessarily element 79. The necessity is a posteriori — discovered empirically — but genuine nonetheless.
+
+Richard Boyd develops a causal-historical account as part of his defense of scientific realism. Natural kinds are groupings that figure in inductive and explanatory practices that contribute to scientific knowledge. A grouping G is a natural kind roughly when: its members share a significant cluster of properties; this cluster exists because of underlying causal mechanisms; and investigations of members of G are highly informative about other members. This account ties natural kinds to the practices of science rather than to metaphysical essences, avoiding commitment to any specific metaphysical template while capturing the functional role of natural kinds in inductive reasoning.
+
+## Formal Notation and the Promiscuity Problem
+
+Let U be the set of all objects and let P be the set of all properties. A kind K ⊆ U is a natural kind if there exists a set of essential or homeostatic properties E ⊆ P such that:
+
+1. ∀x ∈ K: x has all properties in E (or a sufficient cluster, for HPC kinds).
+2. ∀x ∉ K: x lacks at least one property in E (or the relevant cluster).
+3. The properties in E co-occur because of some underlying causal mechanism or essential constitution.
+4. Membership in K is projectible: ∀x, if x ∈ K and x has property Q, this provides inductive evidence that all members of K have Q.
+
+This formalization accommodates both essentialist and HPC accounts depending on whether conditions 1–2 are interpreted strictly or approximately.
+
+A persistent challenge for any account of natural kinds is the promiscuity problem. John Dupré's "promiscuous realism," developed in *The Disorder of Things* (1993), challenges the view that there is a unique natural carving. Many different classificatory schemes — physical, chemical, biological, functional, cultural — each carve nature differently, and each is legitimate relative to different interests and explanatory purposes. The problem is not that there are no objective similarities in nature but that there are too many, and no unique way to project those similarities into a privileged set of kinds.
+
+The realist must either defend a privileged set of fundamental kinds — a demanding metaphysical commitment — or accept a form of pluralism about kinds that risks collapsing the distinction between natural and conventional kinds. Whether every domain of science has natural kinds, and whether natural kinds require intrinsic essences or can be characterized by homeostatic clusters of properties, are debated questions with direct implications for the unity of science and the autonomy of the special sciences — topics taken up in the Reduction and Emergence module.

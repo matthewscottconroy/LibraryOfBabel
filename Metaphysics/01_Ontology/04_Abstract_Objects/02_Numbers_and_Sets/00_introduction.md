@@ -1,0 +1,11 @@
+# Numbers and Sets
+
+Mathematics is, in one sense, the most certain knowledge we possess: the proof that there are infinitely many primes is as secure as any argument can be. But certainty of proof is not the same as ontological clarity. What are numbers? What are sets? The question is not about the theorems of arithmetic or set theory — we can take those as given — but about the nature of the objects those theorems are about.
+
+Frege's answer was that numbers are logical objects: the number two is the extension of the concept "equinumerous with the concept being a prime less than 4." This answer was elegant and principled — it grounded arithmetic in logic and gave numbers determinate identity conditions — until Russell showed that the naive comprehension principle on which Frege's definition depended generates contradictions. The resulting program of logicism was salvaged in various ways, but the dream of identifying numbers purely with logical objects was never fully restored.
+
+Set theory became the dominant foundational framework: numbers are sets (the empty set is zero, its successor is the set containing the empty set, and so on), and all of mathematics can be grounded in the axioms of set theory. But this reduction generates its own puzzles. If numbers are sets, which sets are they? Benacerraf famously pointed out that there are multiple consistent identifications of numbers with sets, with no principled reason to prefer one over another. This suggests that numbers are not really identical to any particular sets — which undermines the reductive ambition.
+
+Structuralism takes Benacerraf's puzzle as its starting point: what matters about numbers is not which particular objects they are, but the structure they collectively instantiate. The natural numbers are not this or that set of objects; they are the unique (up to isomorphism) simply infinite progression. The number two is not an object with intrinsic identity; it is the second position in any such progression. The metaphysical question then shifts: what are mathematical structures, and do they exist independently of any concrete instance?
+
+This section works through the central puzzles about numbers and sets with careful attention to the competing frameworks, examining what each approach illuminates and what it leaves unexplained.

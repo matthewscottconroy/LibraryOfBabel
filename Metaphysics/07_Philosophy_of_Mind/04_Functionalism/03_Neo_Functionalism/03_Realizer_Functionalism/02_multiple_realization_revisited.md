@@ -1,0 +1,18 @@
+# Multiple Realization Revisited
+
+The multiple realizability argument was decisive for functionalism's rise: since the same mental state type can be realized by different physical state types across species — C-fibers in humans, different neural structures in octopi, silicon in robots — mental state types cannot be identified with physical types, and functionalism must be right. But subsequent work has questioned whether multiple realizability is as widespread and metaphysically significant as originally assumed, and the debate has become considerably more nuanced.
+
+Kim's local reduction response is the most influential challenge. Even if pain is multiply realizable, this shows only that there is no single physical type corresponding to pain — not that pain is irreducible to physical types altogether. Kim proposed species-specific local reductions: human pain = C-fiber firing; octopus pain = whatever octopus neural state plays the pain-role; Martian pain = whatever Martian state plays the pain-role. Each local reduction is a type identity claim empirically grounded in the neuroscience of that species. Multiple realizability undermines universal type identity — there is no universal psychophysical law of the form "pain = φ" — but it does not undermine local type identity. The original multiple realizability argument:
+
+- P1: Pain is multiply realizable — instantiated by different physical states in different systems.
+- P2: If pain is multiply realizable, pain is not identical to any single physical state type.
+- P3: If pain is not identical to any physical state type, type identity theory is false.
+- C: Type identity theory is false; functionalism is true.
+
+Kim accepts P1 and P2 but notes that P3 slides from "pain is not identical to a single universal physical type" to "pain is not identical to any physical type" — which is unwarranted. Local type identity claims are available and empirically grounded. Functionalism may be useful as a framework for identifying the functional role, but the physical identification is done species-specifically.
+
+## Polger and Shapiro's Empirical Challenge
+
+Polger and Shapiro's *The Multiple Realization Book* (2016) offers a more direct empirical challenge. They argue that most purported cases of multiple realizability in cognitive science are better described as multiple implementation — the same mechanism instantiated in different materials — rather than multiple realization — genuinely different mechanisms achieving the same functional result. A kitchen scale and a postal scale both measure weight using the same mechanism (spring compression proportional to mass) even though they are made of different materials. This is one mechanism in different substrates, not two mechanisms converging on the same function.
+
+Most alleged multiple realizability of mental states across species, Polger and Shapiro argue, has this character: the same computational-neural mechanism implemented in biological materials that differ in physical detail but not in mechanism. If they are right, the evidence for genuine multiple realization — different mechanisms achieving the same mental function — is much weaker than functionalists assumed. Type identity theory with species-specific local reductions becomes more defensible. This would not eliminate functionalism as a useful framework for cognitive science — functional descriptions remain valuable — but it would undermine the metaphysical thesis that mental state types are irreducibly functional. The debate about multiple realizability thus connects to deep questions about the individuation of mechanisms, the standards for sameness of function, and the relationship between psychological and neuroscientific levels of explanation.

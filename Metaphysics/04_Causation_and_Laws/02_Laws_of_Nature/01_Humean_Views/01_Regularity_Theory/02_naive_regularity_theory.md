@@ -1,0 +1,35 @@
+# The Naive Regularity Theory
+
+Start with the simplest possible thought: a law of nature is just a true universal generalization. "All copper conducts electricity" is a law because it is true of all copper things — every sample, everywhere, at every time. Nothing more is required. Laws have no additional modal force, no necessity, no "governing" character over and above their truth. They describe what happens without prescribing what must happen. This is the naive regularity theory, and its appeal is not merely that it is simple. It is that it seems to ask for nothing beyond what empiricism will license.
+
+## The Theory Stated and Its Virtues
+
+**NRT**: L is a law of nature iff L is a true universal generalization of the form (∀x)(Fx → Gx).
+
+The parsimony is real and significant. The NRT requires no mysterious necessities, no abstract universals standing in second-order relations, no primitive law-making relations that float free of the empirical record. The world consists of particular events arranged in spacetime; laws are summaries of the regularities in those arrangements. And the epistemology is correspondingly clean: our evidence for laws just is our evidence for universal generalizations — observed instances. No additional bridge between what we observe (regularities) and what laws are (regularities) is needed. For paradigmatic physical laws like "all electrons have charge −e," the NRT delivers the right verdict without inventing metaphysical machinery to do so.
+
+There is also a structural virtue. The NRT sits perfectly inside Lewis's Humean supervenience program. If laws are just true universal generalizations, they supervene on the pattern of particular facts — fixing the Humean mosaic fixes the laws. No law can vary without some particular fact varying first. This is the picture of a thoroughly parsimonious ontology, and if it could be made to work it would be a genuine philosophical achievement.
+
+## Why the Theory Fails
+
+It cannot be made to work. The failure is not peripheral but central, and it was made precise through the combined pressure of several objections.
+
+The most fundamental is the problem of accidental regularities. Consider Goodman's pair: all gold spheres are smaller than one mile in diameter, and all uranium spheres are smaller than one mile in diameter. Both are true universal generalizations. Neither is about a particular location or time. Yet the uranium generalization is law-like — a sphere of uranium larger than critical mass would spontaneously fission, so the nuclear physics underlying critical mass is what explains the generalization — while the gold sphere generalization holds contingently, as a result of gold's scarcity and the practical difficulty of assembling large quantities. On the NRT, both are laws. But clearly only one is.
+
+The pocket coin case makes the same point more vividly. "All coins in my pocket are silver" is true today. It is a universal generalization over all actual coins in my pocket. The NRT makes it a law. This verdict is wrong, and the wrongness reveals what the NRT cannot supply: the distinction between regularities that hold because of how the world is structured and regularities that hold by coincidence. The NRT has no resources to draw that distinction because it looks only at whether the generalization is true, not at why.
+
+A natural response is to require that laws be spatiotemporally unrestricted — no indexical predicates like "in my pocket." The coins case is handled, since it involves an indexed predicate. But the gold sphere case survives: "all gold spheres are less than one mile in diameter" contains no indexical element. It holds everywhere and always, yet it is not a law.
+
+The second failure concerns counterfactuals. Laws are supposed to support counterfactuals; accidents do not. The law that copper conducts licenses "if this rod were copper, it would conduct." The accidental regularity that all coins in my pocket are silver does not license "if this coin were in my pocket, it would be silver." But on the NRT, what explains the difference? Both are true universal generalizations; neither has additional modal force. Chisholm pressed this objection sharply: any adequate account of laws must explain why some generalizations support counterfactuals and others do not. The NRT provides no basis for this distinction, because it makes no modal distinction between law and accident.
+
+Third, the NRT cannot handle vacuously true universal generalizations. "All unicorns are white" and "All neutron stars with mass greater than ten solar masses are stable" are both true if the relevant entities do not exist. On the NRT, both are laws. But the first is not a law; the second may or may not be a law, but its law-status should turn on the physics of neutron star structure, not merely on whether such stars happen not to exist. The NRT gives the same verdict for both cases, and the verdict for the first case is clearly wrong.
+
+## Refinements That Push Beyond the Theory
+
+Both obvious refinements point away from the NRT rather than saving it. The epistemic refinement says that laws are not merely true universal generalizations but those inductively supported in the right way — those we would maintain in the face of recalcitrant evidence, those that fit with broader theoretical frameworks. This is sensible but no longer purely metaphysical; it introduces theoretical virtues that the NRT, taken at face value, has no room for. The syntactic refinement says that laws must be formulated in "genuine" predicates — not gerrymandered predicates like "grue" or indexed predicates like "in my pocket." But this requires a criterion for genuine predicates, which connects directly to Goodman's new riddle of induction and Lewis's notion of naturalness — concepts with modal commitments the NRT officially forswears.
+
+Both refinements are steps toward the Best System Analysis, which treats the theoretical and pragmatic virtues distinguishing laws from accidents as themselves law-constitutive. This is a more honest position: rather than pretending laws are bare regularities, the BSA acknowledges that law-hood is conferred by a generalization's role in the best deductive systematization of the world — a role that is theoretical through and through.
+
+## Historical Significance
+
+The naive regularity theory was the default Humean view for much of the nineteenth and early twentieth centuries. Mill endorsed a version of it; Ayer and the logical positivists were sympathetic. It was through careful work by Goodman, Hempel, Chisholm, and others in the mid-twentieth century that its decisive failures were made precise, driving subsequent work toward the BSA and non-Humean alternatives. The NRT remains philosophically significant as the baseline that more sophisticated accounts must surpass: any adequate theory of laws must explain why some regularities are laws and others are not. The NRT cannot answer that question. All further progress is, in part, the story of finding an answer the NRT lacks.

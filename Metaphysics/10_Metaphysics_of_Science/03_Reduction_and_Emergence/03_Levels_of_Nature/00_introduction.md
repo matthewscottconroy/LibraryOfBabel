@@ -1,0 +1,11 @@
+# Levels of Nature
+
+Science is organized into levels: fundamental physics, particle physics, nuclear physics, atomic physics, chemistry, molecular biology, cell biology, physiology, psychology, sociology. Each level deals with entities and properties that are characteristic of that level — atoms, molecules, cells, organisms, societies — and the levels are related by the fact that higher-level entities are composed of lower-level entities. This hierarchical picture is so deeply embedded in how we think about science that it can seem obviously correct; but the concept of "levels of nature" raises philosophical difficulties that are not immediately apparent.
+
+What constitutes a "level"? The most natural answer appeals to composition: one entity is at a lower level than another if it is a part of the higher-level entity. This makes the levels of nature a reflection of the mereological structure of the world. But different scientific disciplines cut nature at different levels, and the levels of one science do not always map cleanly onto the levels of another: the levels of molecular biology do not correspond precisely to the levels of physics, because biology tracks functional organization rather than mere physical structure.
+
+The "autonomy of special sciences" thesis — associated with Fodor — holds that each level of science is autonomous: the laws and explanations of biology, psychology, and economics cannot be reduced to lower-level laws, because the higher-level laws describe patterns that are realized by multiple different lower-level configurations. The laws of economics describe patterns of exchange and distribution that are compatible with many different physical implementations; if we tried to reduce them to physics, we would lose the generalization.
+
+Critics of the autonomy thesis — Fodor's later self included — worry that autonomy without reduction leads to causal overdetermination or epiphenomenalism: if the higher-level laws describe genuinely causal patterns, and if the physical level is causally complete, then there is double causation. This is the level-theoretic version of the exclusion problem.
+
+This section examines the levels of nature, their philosophical foundations, and the tensions between the autonomy of special sciences and the unity of physical science.

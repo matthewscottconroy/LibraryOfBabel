@@ -1,0 +1,23 @@
+# The Extended Mind
+
+Classical cognitive science assumes that the mind is where the brain is: inside the skull. External resources — notebooks, maps, calculators, the internet — are tools that the mind uses; they are part of the cognitive environment but not part of the cognitive system itself. This assumption is so deeply embedded in cognitive science methodology that it typically goes unexamined. Clark and Chalmers's "The Extended Mind" (1998) makes it an explicit target.
+
+The challenge is not merely that external resources influence cognitive processes. Everything influences cognitive processes — light, temperature, caffeine. The claim is stronger: under certain conditions, external processes are constitutive of cognitive processes. They are not mere causes of cognitive states; they are genuine components of the cognitive system. The mind, on this view, is not bounded by skin and skull; it is defined by the functional organization of a coupled brain-body-world system.
+
+The argument rests on applying functionalism to the question of cognitive architecture. Functionalism holds that mental states are individuated by their causal-functional roles, not by the physical substrate in which they are realized. If what makes something a belief is its functional role — how it is stored, retrieved, and used in guiding behavior — then an external state that plays the same functional role as an internal belief is a belief. The Otto and Inga case makes this vivid: Otto's notebook entry and Inga's biological memory belief are functionally equivalent; if the latter is a belief, so is the former.
+
+## Coupling and Constitution
+
+A natural objection distinguishes **coupling** from **constitution**. External resources can be causally coupled to cognitive systems — influencing their operations — without being part of the cognitive system. My eyes are causally coupled to my visual cortex, but the external light source that activates my eyes is not part of my cognitive system. What distinguishes genuine cognitive extension from mere causal coupling?
+
+Clark and Chalmers argue that the coupling-constitution distinction does not track a principled difference in the case of tight, reliable, automatic coupling. When Otto's notebook is always available, always consulted in the relevant way, and automatically endorsed, it is not merely causally coupled to his cognitive system — it genuinely constitutes part of his memory. The coupling is tight enough that the notebook functions as biological memory functions; and if functional role is what matters, this suffices for constitution.
+
+The analogy with sensory organs is useful: the retina is not part of the central nervous system, but we count retinal processing as cognitive. The extended mind thesis generalizes this: tight, reliable, functional coupling suffices for cognitive constitution wherever it occurs, not only within the skull.
+
+## 4E Cognition and Contemporary Relevance
+
+The extended mind thesis is one of four related challenges to classical internalist cognitive science — the "4E cognition" family: **Embodied** (cognitive processes are shaped by the body's specific structure and dynamics), **Embedded** (cognitive processes are adapted to and supported by environmental structures), **Enacted** (cognitive processes are constituted by sensorimotor engagement with the world), and **Extended** (cognitive processes can extend into the environment). These positions are logically independent but are often held together, united by the rejection of the view that cognitive science is the science of what happens inside the skull.
+
+The contemporary relevance is obvious. Smartphones, search engines, GPS navigation, and digital notebooks increasingly serve functions that biological memory and central cognition previously performed alone. If the conditions for cognitive extension are met — reliable availability, automatic endorsement, easy accessibility — these technologies are not tools we use from outside our cognitive systems but genuine parts of those systems. Removing them is not merely practical inconvenience; it is cognitive impairment. This recasts questions about privacy (access to my phone is access to my mind), about intellectual achievement (how much of what I "know" is constituted by my access to external resources), and about personal identity (whether continuity through time must involve continuity of the external cognitive system as well as biological continuity).
+
+Whether this result is an insight about the mind or an inflation of the concept of cognition is exactly what the debate about extended mind turns on. The parity principle and its applications are examined in the following sections.

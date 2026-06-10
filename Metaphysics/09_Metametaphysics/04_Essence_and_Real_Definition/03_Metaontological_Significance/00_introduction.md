@@ -1,0 +1,11 @@
+# Metaontological Significance of Essence
+
+The rehabilitation of essence in contemporary analytic metaphysics has metaontological implications — implications for how we understand the project of metaphysics itself and what counts as a successful metaphysical theory. If essence is a primitive, irreducible concept that structures metaphysical explanation, then metaphysics is not in the business of reducing everything to a base ontology of physical particles and their properties; it is in the business of discovering the essences of things and the essential structure of reality.
+
+The neo-Aristotelian program in contemporary metaphysics — associated with Lowe, Fine, Heil, and others — holds that metaphysics investigates the ontological categories and their essential relationships. There are substances, properties, relations, and modes; each has an essential nature; and the relationships among these categories are themselves essential relationships that metaphysics can discover. This is a recognizable descendant of scholastic metaphysics, but articulated in the vocabulary of contemporary analytic philosophy.
+
+The methodological implications are significant. If essence is prior to modality, then the proper method for investigating essential facts is not the scrutiny of possible worlds — not asking "Is there a possible world where x lacks property P?" — but the scrutiny of the real definitions of things. Real definitions are not verbal definitions — they do not capture how we use words — but metaphysical definitions that capture what things are. Discovering real definitions requires something like Aristotelian investigation of natures, not merely conceptual analysis.
+
+This raises questions about the epistemology of essence: how do we discover real definitions? The essentialist tradition has sometimes invoked rational intuition; contemporary essentialists appeal to a combination of a priori and empirical investigation. Scientific discovery is discovery of essences — what Kripke and Putnam called "scientific essentialism" — so the line between scientific and philosophical investigation of essences is blurred.
+
+This section examines the metaontological significance of the essence concept, the neo-Aristotelian program, and the epistemological challenges it faces.

@@ -1,0 +1,11 @@
+# Freedom and Neuroscience
+
+The neuroscience of decision-making has injected new empirical urgency into the free will debate. Since Libet's experiments in the 1980s, there has been a strand of empirical research claiming to show that conscious decisions are preceded by unconscious brain activity — the "readiness potential" — that initiates the action before the agent is aware of deciding. If this interpretation is correct, it suggests that conscious decisions are not the causes of actions but post-hoc rationalizations of processes that were already underway before consciousness became involved.
+
+Libet's original interpretation was cautious: the readiness potential begins before the subject is aware of the decision, but the subject can "veto" the action up until the last moment. This preserved a form of conscious control over action, even if the initiation was unconscious. Later interpretations were less cautious: some neuroscientists claimed that the decision is "made" before the agent is aware of it, and that free will is therefore an illusion.
+
+The philosophical response has been critical on multiple fronts. The readiness potential may not be a "decision" in the relevant sense — it may be a preparation for action, a general readiness to move, rather than a specific intention to perform a particular action. The experimental tasks (asking subjects to press a button whenever they feel like it) are very different from the complex decisions that constitute the actions for which we hold people responsible. And the inference from "unconscious processes precede conscious decisions" to "free will is an illusion" requires a very contentious premise about what free will requires.
+
+More recent neuroscience, using better experimental paradigms and richer theoretical frameworks, has complicated the simple Libet story. Some experiments suggest that conscious decisions can override automatic processes; others suggest that the relationship between conscious intention and action is more complex than a simple temporal ordering.
+
+This section examines the neuroscience of decision-making, the philosophical implications of the findings, and whether neuroscience genuinely threatens free will or merely illuminates the mechanisms by which free actions are produced.

@@ -1,0 +1,11 @@
+# Necessitarian Views on Laws of Nature
+
+Armstrong's account of laws as second-order relations between universals is the best-known necessitarian view, but the broader necessitarian tradition encompasses a family of positions united by the conviction that laws are not merely contingent regularities but genuinely necessary connections in nature. Understanding this family requires distinguishing the different ways in which a necessitarian can understand what "necessity" means in this context.
+
+Metaphysical necessitarianism — the view associated with Shoemaker, Swoyer, and Ellis — holds that the necessity of laws flows from the essential natures of the properties involved. If being negatively charged essentially includes the disposition to repel other negative charges, then the regularity "like charges repel" is metaphysically necessary — there is no possible world in which negative charges fail to repel. On this view, there is no need for a special N relation over and above the properties themselves; the necessitation is built into what the properties are. This "dispositional essentialism" differs from Armstrong's view in grounding the necessity of laws in the essences of first-order properties rather than in a sui generis second-order relation.
+
+Nomological necessitarianism — the view that laws are necessary relative to the kind of world we inhabit, but contingent in a broader sense — is a more modest position. Laws might vary across possible worlds, but within any particular world, they are in some sense "necessary" in that they cannot be violated by particular events. This view is difficult to articulate without either collapsing into Humean regularity views or embracing a stronger necessitarianism.
+
+The debate between dispositional essentialism and Armstrong's externalist account of laws is one of the most productive debates in contemporary metaphysics of science. It connects to debates about quidditism (the view that properties could have had different causal roles), the identity of properties across possible worlds, and the prospects for a truly science-friendly metaphysics.
+
+This section surveys the range of necessitarian views, comparing their theoretical virtues and examining the objections each faces.

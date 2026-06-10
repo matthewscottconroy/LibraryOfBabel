@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Write(/home/matthewscott/Development/Metaphysics/**)",
+      "Edit(/home/matthewscott/Development/Metaphysics/**)",
+      "Bash(python3 /tmp/fill_06d.py)",
+      "Bash(python3 /tmp/fill_06e.py)",
+      "Bash(python3 /tmp/fill_07a.py)",
+      "Bash(python3 /tmp/fill_07b.py)",
+      "Bash(python3 /tmp/fill_07c.py)",
+      "Bash(python3 /tmp/fill_07d.py)",
+      "Bash(python3 /tmp/fill_07e.py)",
+      "Bash(python3 /tmp/fill_07f.py)",
+      "Bash(python3 /tmp/fill_07g.py)",
+      "Bash(python3 /tmp/fill_07h.py)",
+      "Bash(python3 /tmp/fill_07i.py)",
+      "Bash(python3 /tmp/fill_07j.py)",
+      "Bash(python3 /tmp/fill_07k.py)",
+      "Bash(python3 /tmp/fill_07l.py)",
+      "Bash(python3 /tmp/fill_08.py)",
+      "Bash(python3 /tmp/fill_09.py)",
+      "Bash(python3 /tmp/fill_10.py)",
+      "Bash(python3 /tmp/fill_11.py)",
+      "Bash(python3 /tmp/fill_12a.py)",
+      "Bash(python3 /tmp/fill_12b.py)",
+      "Bash(python3 /tmp/fill_13a.py)",
+      "Bash(python3 /tmp/fill_13b.py)",
+      "Bash(python3 /tmp/fill_01b2.py)",
+      "Bash(python3 /tmp/sup_01.py)",
+      "Bash(python3 /tmp/sup_02.py)",
+      "Bash(read d *)",
+      "Bash([ ! -f \"$d/important_figures.md\" ])",
+      "Bash(python3 /tmp/sup_03.py)",
+      "Bash(python3 /tmp/sup_04a.py)"
+    ]
+  }
+}

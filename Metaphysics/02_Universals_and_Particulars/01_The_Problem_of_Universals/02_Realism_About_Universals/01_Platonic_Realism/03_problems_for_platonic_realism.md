@@ -1,0 +1,25 @@
+# Problems for Platonic Realism
+
+---
+
+Platonic realism faces four serious challenges, each pressing from a different direction. We should look at them carefully, since understanding them is essential to understanding why so many philosophers have sought alternatives.
+
+**The Third Man Regress** is already familiar from the *Parmenides*: if Socrates is large because he participates in the Form LARGENESS, and LARGENESS is itself large (being the paradigm of largeness), there must be a further Form to explain the largeness of both Socrates and the first Form. The regress is vicious because the Form was supposed to *explain* why things are large, but it just generates a further Form requiring the same explanation. Even if we deny that Forms instantiate themselves — Plato's eventual response — the participation relation itself seems to require a further entity grounding it: if Socrates participates in LARGENESS, what is the nature of participation? If participation is itself a Form, we have an infinite hierarchy of participations.
+
+**The Epistemological Problem** (Benacerraf 1973) is the deepest contemporary challenge. If universals are causally inert, non-spatiotemporal abstract objects, there can be no causal connection between human thinkers and universals. But knowledge typically requires appropriate causal connection with what is known. How then can we know anything about transcendent universals?
+
+Paul Benacerraf's articulation makes the tension precise through two independently plausible constraints:
+
+1. **The semantic constraint**: The semantics of mathematical sentences should be continuous with the semantics of ordinary sentences. Mathematical terms ("7," "the set of natural numbers") are singular terms referring to objects; mathematical sentences are true or false of those objects.
+
+2. **The epistemological constraint**: Our account of mathematical knowledge should mesh with a general account of human knowledge and not invoke special faculties unexplained by broader cognitive science.
+
+The problem: the semantic constraint commits us to causally inert abstract objects, but the epistemological constraint requires that we have appropriate causal connection with what we know. Any semantically adequate Platonism faces epistemological bankruptcy.
+
+Three responses have been offered. *Gödelian intuition* holds that we have a faculty of rational intuition giving direct access to abstract objects, analogous to perception. Critics question how a faculty calibrated by evolution to navigate the physical world could latch onto causally inert abstract entities. *Structuralism* holds that what we know about in mathematics is structure — the relational patterns that mathematical systems instantiate — and structural knowledge does not require causal contact with individual objects. Critics argue that structuralism either still requires abstract structures (and the problem recurs) or collapses into nominalism. *Indispensability-based deflation* holds that we know mathematical truths because they are part of our best total theory of the world, accepted on holistic grounds, with no special faculty required. Critics argue this makes mathematical knowledge too indirect and dependent on contingent scientific practice.
+
+**The Too-Many-Universals Problem** presses from the opposite direction. If universals exist for every predicate, including negative predicates (not being round), disjunctive predicates (being either gold or taller than six feet), and gerrymandered predicates (being grue), then the universal realm becomes unmanageably large and includes entities with no explanatory role in science or metaphysics. Most contemporary Platonists respond by restricting universals to sparse or natural properties. But the restriction criteria must be given independently of what we happen to find scientifically useful — otherwise the account is circular.
+
+**The Connection Problem** (also called the application or instantiation problem) arises for any two-category ontology that posits both universals and particulars as real entities. If universals and particulars are genuinely distinct, what connects them? The predication relation — "this is red" — seems to require a connecting tie between the particular and the universal. But if this tie is itself an entity (a relation), we need a further entity to connect the particular and the tie, and the original universal and the tie. Bradley's regress follows. If this tie is not an entity but a "formal" relation, we need to explain what makes something a formal rather than a substantial relation, without circularity.
+
+Platonic realism faces this problem especially acutely because the transcendence of universals makes the gap between universal and particular larger: if the universal is in a non-spatiotemporal realm, what connects it to spatiotemporal particulars at all? This is why many philosophers prefer immanent realism (the universal is in the particular, so no cross-realm connection is needed) or trope theory (there is no universal to connect — only individual property-instances). But as we will see, each alternative carries its own costs.

@@ -1,0 +1,11 @@
+# Contemporary Panpsychism
+
+Contemporary defenders of panpsychism have developed the position with considerable philosophical sophistication, distinguishing it from naive animism, connecting it to physics and philosophy of science, and addressing the combination problem with new conceptual tools. The most prominent contemporary panpsychists include Chalmers, Goff, Strawson, and Nagel, and they represent different variants of the view.
+
+Constitutive panpsychism holds that macro-level consciousness is constituted by micro-level phenomenal properties. The combination problem is then the problem of explaining how micro-phenomenal properties combine to constitute macro-phenomenal properties. Goff has argued that the combination problem is no harder than the standard emergence problem for physicalism — in both cases, we are trying to understand how higher-level properties arise from lower-level properties — but that panpsychism has the advantage of providing the right "raw material" (phenomenal properties) to constitute consciousness.
+
+Cosmopsychism inverts the usual assumption that we should start with micro-level properties and explain macro-level consciousness. Instead, cosmopsychism holds that the universe as a whole is conscious, and that individual conscious minds are derivative — they arise from or are constituted by the consciousness of the universe as a whole. This "top-down" approach avoids the combination problem but generates an analogous "division problem": how does the cosmic consciousness give rise to the many finite, individual minds?
+
+Panprotopsychism — perhaps the most cautious variant — holds not that fundamental particles have genuine phenomenal properties but that they have "proto-phenomenal" properties — properties that are neither clearly physical nor clearly phenomenal but that give rise to phenomenal properties when combined in the right way. This allows the panprotopsychist to avoid positing full-blown consciousness at the level of electrons while still providing the resources for understanding the emergence of consciousness at higher levels.
+
+This section examines these variants of contemporary panpsychism with critical attention to their motivations and difficulties.

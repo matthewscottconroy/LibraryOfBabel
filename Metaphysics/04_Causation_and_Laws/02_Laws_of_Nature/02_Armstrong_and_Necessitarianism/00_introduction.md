@@ -1,0 +1,11 @@
+# Armstrong and Necessitarianism
+
+David Armstrong's theory of laws of nature is among the most carefully worked-out alternatives to the Humean regularity view, and it represents the clearest expression of necessitarianism — the view that laws are genuinely necessary connections among properties, not merely regularities that happen to hold. For Armstrong, a law of nature is a second-order state of affairs: the fact that universals F and G stand in the necessitation relation N. This second-order fact grounds and explains the first-order regularity that all Fs are Gs, while being distinct from it and going beyond it.
+
+The key move is the posit of the N relation — a real, sui generis relation between universals. N(F, G) means that being F necessitates being G in some robust, non-logical, non-merely-Humean sense. This necessitation is weaker than logical necessity (we can coherently describe a world where N(F, G) does not hold, if we understand logical coherence broadly enough) but stronger than mere correlation. It is a brute metaphysical necessity — irreducible and not further analyzable.
+
+Armstrong's theory handles the connection between laws and counterfactuals naturally: if N(F, G), then in any possible world where x is F, x is G (given the same laws). Laws support counterfactuals because the necessitation relation N holds in all worlds that contain the same universals. And the relation between laws and particular instances — the connection between the general fact N(F, G) and the particular fact that this F is G — is guaranteed by the nature of the N relation itself.
+
+The main objection — raised by Lewis, van Fraassen, and others — is "the identification problem": even if we grant the N relation, what ensures that its holding makes it the case that all Fs are Gs? Why should a second-order relation between universals have implications for first-order regularities? Armstrong's response is that this is simply what the N relation is — its nature is such that it necessitates the regularity. Critics find this unsatisfying: it seems to solve the problem by stipulating a solution rather than explaining it.
+
+This section examines Armstrong's necessitarianism in detail, the arguments for it, and the responses to the main objections.

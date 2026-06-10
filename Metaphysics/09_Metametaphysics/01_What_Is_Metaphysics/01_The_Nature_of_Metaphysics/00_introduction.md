@@ -1,0 +1,11 @@
+# The Nature of Metaphysics
+
+What is metaphysics, and what would count as a correct or incorrect answer to a metaphysical question? These are not easy questions, and a great deal of the disagreement in contemporary metaphysics is rooted in disagreement about their answers. Metaphysics has been variously described as the study of being as being, the investigation of the most general features of reality, the attempt to describe the fundamental structure of the world, and — less charitably — the production of unfalsifiable speculation that goes beyond anything that evidence can settle.
+
+Aristotle's characterization — metaphysics investigates being qua being — distinguishes it from the special sciences, each of which investigates some part of reality (biology investigates living things, physics investigates the physical world). Metaphysics investigates what is true of everything that exists, simply in virtue of its existing. Existence, substance, identity, causation, possibility — these are topics for metaphysics because they pertain to being as such, not to any special domain.
+
+Kant's critique of traditional metaphysics challenged the Aristotelian picture. For Kant, the mind contributes categories and forms (causation, substance, time, space) that structure all possible experience; but if these are conditions of experience, they cannot be used to reach beyond experience to things in themselves. Traditional metaphysics attempted to apply categories (substance, causation) beyond the bounds of possible experience — to God, the soul, and the world as a whole — and this is where it inevitably fell into antinomies and contradictions. Kant's transcendental idealism replaced traditional metaphysics with a critical investigation of the conditions of possible experience.
+
+The logical positivists went further: metaphysical claims, lacking any empirical content, are meaningless. Carnap's critique of Heidegger's "Nothing nothings" is the canonical example. Contemporary metaphysics has had to defend itself against this charge while specifying what method and standard of evidence it employs.
+
+This section examines the nature of metaphysics, its scope, its method, and its relationship to empirical science.

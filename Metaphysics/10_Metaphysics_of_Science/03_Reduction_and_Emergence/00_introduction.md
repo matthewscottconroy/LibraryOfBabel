@@ -1,0 +1,11 @@
+# Reduction and Emergence
+
+Can biology be reduced to chemistry? Can chemistry be reduced to physics? If yes, does this mean that biological and chemical facts are "nothing but" physical facts, redescribed? If no, does this mean that biology and chemistry study genuinely irreducible levels of reality, irreducible not just practically but in principle?
+
+Reduction in the philosophy of science standardly means Nagelian reduction: the laws of one theory are derived from the laws of a more fundamental theory, given bridge laws connecting the concepts of the two theories. If this is possible, then the higher-level theory is explanatorily absorbed by the lower-level one; the entities and properties of the higher level are shown to be "nothing but" entities and properties of the lower level, redescribed. The reduction of thermodynamics to statistical mechanics is the clearest case: temperature just is mean kinetic energy; the thermodynamic laws follow from the kinetic theory of gases.
+
+Multiple realizability, however, threatens this clean picture. If mental states, biological functions, and social roles can be realized in multiple different physical substrates, then there is no single physical description that captures what pain, digestion, or democracy have in common. The failure of multiple realizability arguments against type identity in philosophy of mind applies equally to cross-theoretic reduction in philosophy of science: higher-level kinds may not have lower-level counterparts that can serve as the terms of bridge laws.
+
+Emergence offers a different framework: higher-level phenomena arise from lower-level phenomena in ways that generate genuinely novel properties and causal powers that are not predictable from or derivable from the lower level description. Weak emergence — where the higher-level properties are in principle derivable but practically unpredictable — is relatively uncontroversial. Strong emergence — where higher-level properties are in principle irreducible — is philosophically significant but contested.
+
+This chapter develops the notions of reduction and emergence, examines the arguments for and against each, and considers what the levels of nature — physical, chemical, biological, psychological, social — reveal about the structure of reality.

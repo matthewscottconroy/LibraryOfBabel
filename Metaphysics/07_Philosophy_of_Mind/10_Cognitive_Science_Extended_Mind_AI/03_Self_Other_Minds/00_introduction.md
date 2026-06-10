@@ -1,0 +1,11 @@
+# Self, Other Minds, and the Social Dimensions of Mind
+
+The problem of other minds is one of the oldest in philosophy: we each have direct access to our own mental states, but our knowledge of other minds is mediated by behavior, testimony, and analogy. How do we know that other people are conscious, that they have genuine mental states — pain, belief, desire — rather than being "zombies" that behave as if they had minds without any inner experience? This problem is not a skeptical puzzle to be "solved" and dismissed; it is a fundamental question about the nature of mental state attribution and the grounds on which it rests.
+
+The argument by analogy — I know from my own case that behavior is caused by mental states; I see similar behavior in others; therefore, by analogy, others have similar mental states — is intuitively appealing but philosophically weak. An argument by analogy from a single case to all others is very poor inductive evidence, and the assumption that my own case is the right model for others may be question-begging.
+
+Wittgenstein's treatment of the private language argument challenged the very intelligibility of mental concepts as private, introspectively given items that each person knows from their own case. Mental concepts are public — they are taught by reference to publicly observable behavior and circumstances — and what justifies their application is not an inner comparison with a private sample but mastery of a public practice of attribution. This does not eliminate other minds skepticism but transforms it: the problem is not "How do I know that others have minds?" but "What does it mean to have a mind?"
+
+Theory of mind — the cognitive capacity to attribute mental states to others — has been studied extensively in developmental psychology. Children develop theory of mind around age four; its disruption is characteristic of autism spectrum disorder. Mirror neurons have been invoked as the neural basis for understanding others' actions and mental states. These empirical findings bear on the philosophical question of what grounds our knowledge of other minds.
+
+This section examines the problem of other minds, the self, and the social character of mental state attribution, connecting philosophical analysis to empirical cognitive science.

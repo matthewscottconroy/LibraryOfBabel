@@ -1,0 +1,11 @@
+# The Philosophy of Thermodynamics
+
+Thermodynamics is the science of heat, work, and the transformations between them. Its philosophical significance goes far beyond the physics of engines and refrigerators: thermodynamics introduces the concept of entropy, which has been proposed as the explanation for some of the most striking features of our experience of the world — the direction of time, the irreversibility of macroscopic processes, the approach to equilibrium, and the ultimate "heat death" of the universe.
+
+The Second Law of Thermodynamics — that the entropy of an isolated system never decreases — is one of the most important and most puzzling laws in physics. It is puzzling because it is asymmetric in time: it says that entropy increases toward the future, never toward the past. But the fundamental laws of physics (classical mechanics, quantum mechanics) are time-symmetric — they make the same predictions whether time runs forward or backward. How can the time-symmetric fundamental laws give rise to the time-asymmetric Second Law?
+
+The standard answer appeals to initial conditions: the universe began in a very low-entropy state (the "Past Hypothesis"), and given this initial condition, the probabilistic tendency of entropy to increase — the statistical-mechanical argument that a system is overwhelmingly likely to move toward higher-entropy states — explains the Second Law. But the Past Hypothesis is itself a brute fact, requiring explanation. Why did the universe begin in such an improbable low-entropy state?
+
+Boltzmann's statistical mechanics — the grounding of thermodynamics in the mechanics of individual molecules — is a reduction story: thermodynamic properties (temperature, pressure, entropy) are identified with or grounded in the statistical mechanical properties of the constituent molecules. This reduction is philosophically illuminating but raises questions about whether the reduction is "in principle" (showing that thermodynamics is nothing over and above mechanics) or merely "in practice" (providing a practical means of understanding thermodynamic behavior).
+
+This section examines the philosophy of thermodynamics, the Second Law, the Past Hypothesis, and the relationship between thermodynamics and the direction of time.

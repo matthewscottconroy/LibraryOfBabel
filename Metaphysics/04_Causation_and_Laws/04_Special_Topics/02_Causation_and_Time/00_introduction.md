@@ -1,0 +1,11 @@
+# Causation and Time
+
+Causes precede their effects. This claim is so nearly universal in our causal reasoning that it functions as an axiom — a constraint that any theory of causation must respect. But examining why this temporal asymmetry holds, and whether it holds necessarily or merely contingently, reveals deep connections between the metaphysics of causation and the metaphysics of time.
+
+The temporal asymmetry of causation raises the first puzzle: is it a necessary truth that causes precede their effects, or merely a contingent feature of our world? Standard arguments suggest that it is not logically necessary — there is no formal contradiction in the idea of backwards causation, where effects precede their causes. Tachyons — hypothetical faster-than-light particles — would, in some interpretations of special relativity, move backwards in time. Quantum correlations across spacelike intervals have been interpreted as involving instantaneous causal connections. These cases suggest that the temporal priority of causes is at least not logically guaranteed.
+
+If temporal asymmetry is contingent, it must be explained. The most prominent explanation appeals to entropy: the thermodynamic arrow of time (the direction of increasing entropy) grounds the asymmetric structure of causation. Causes are in the lower-entropy past; effects are in the higher-entropy future. Lewis's account of causation attempts to ground causal asymmetry in the "overdetermination asymmetry" — the fact that past events leave many traces (high-entropy records) in the future while being determined by few events in the past.
+
+A second puzzle is the relationship between causation and the direction of time. Does causation explain why time has a direction, or does the direction of time explain why causation has the asymmetry it has? If causation is more basic than temporal order — if "A causes B" is not defined in terms of the temporal relation between A and B but is itself what grounds temporal relations — then the metaphysics of causation and time are more deeply intertwined than either can be fully explained without the other.
+
+This section examines these puzzles about causation and time, assessing the leading accounts of the causal arrow and its relationship to the other arrows of time.

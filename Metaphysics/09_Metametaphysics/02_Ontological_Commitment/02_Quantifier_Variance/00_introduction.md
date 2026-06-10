@@ -1,0 +1,11 @@
+# Quantifier Variance
+
+Quantifier variance is the metaontological thesis that the existential quantifier — "there is" or "there exists" — does not have a single, privileged meaning, but can be understood in different ways that generate different but equally legitimate ontological pictures. When the mereologist says "There is an object that is the fusion of this table and the Eiffel Tower" and the commonsense ontologist says "There is no such object," they are not, on the quantifier variance view, disagreeing about the same claim. They are using "there is" with different meanings, and both claims are correct given their respective meanings of existence.
+
+The quantifier variance view was developed by Hirsch as a response to debates about composition (when do parts compose a whole?) and existence (when does a putative entity really exist?). These debates have an air of futility, Hirsch argues, because the disputants are talking past each other. Whether tables are "real" in a deep ontological sense is not a factual question about which the mereologist and the commonsense ontologist disagree; it is a question about which existential concept to employ, and different concepts are appropriate for different purposes.
+
+The implications for the metaphysics of ontology are radical. If there are equally legitimate quantifier meanings that generate different ontologies, then there is no unique, privileged answer to the question "What exists?" Ontological debates about whether there are tables, numbers, properties, and persons over and above the physical particles would be revealed as merely verbal — disputes about which quantifier meaning to adopt, not substantive disagreements about the fundamental structure of reality.
+
+Sider and other critics have argued against quantifier variance by positing a quantifier with a "joint-carving" meaning — a use of "there is" that tracks the real ontological structure of the world. On this view, some uses of "there is" are more natural, more fundamental, more accurately tracking of reality than others. The debate between quantifier variance and its critics is central to contemporary metaontology.
+
+This section examines quantifier variance, its theoretical motivations, and the debate about whether there is a privileged interpretation of the existential quantifier.

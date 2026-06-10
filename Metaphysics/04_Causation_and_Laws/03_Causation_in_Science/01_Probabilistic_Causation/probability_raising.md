@@ -1,0 +1,11 @@
+# Probability-Raising and Probabilistic Causation
+
+The regularity and counterfactual theories of causation are primarily designed for deterministic causation: one event reliably producing another given the same initial conditions. But much of the causation we encounter in medicine, epidemiology, and quantum mechanics appears to be irreducibly probabilistic. Smoking does not deterministically cause lung cancer; it raises the probability of cancer. Radioactive decay is probabilistic at the fundamental level. How should we understand causation in these domains?
+
+Probabilistic theories of causation attempt to define causation in terms of probability-raising rather than deterministic succession. The basic idea, developed by Hans Reichenbach, Patrick Suppes, and Wesley Salmon, is that C is a cause of E if C raises the probability of E: P(E | C) > P(E | ~C). Causes are probability-raisers; they make their effects more likely.
+
+Patrick Suppes's *A Probabilistic Theory of Causality* (1970) provided an influential early development. On Suppes's account, C is a prima facie cause of E if C precedes E in time and C raises the probability of E. C is a genuine cause if, in addition, C is not "screened off" by some prior common cause. Screening off occurs when a third variable Z makes C and E probabilistically independent: P(E | C & Z) = P(E | Z). In that case, Z is the real cause and C is a spurious correlate.
+
+The probability-raising account faces several challenges. The most fundamental is the problem of probability-lowering causes: sometimes a cause lowers the probability of its effect. A vaccine lowers the probability of contracting a disease — does it cause the disease? Usually we say it prevents disease, but prevention is a form of causation. More strikingly: a strong wind can send a ball off course toward a gate it wouldn't otherwise have hit. The wind lowered the probability of hitting the gate, yet the wind was the cause of the ball hitting the gate (through a complex intervening path).
+
+The problem of effects of common causes is another challenge. If C and E share a common cause Z, then P(E | C) > P(E), even though C does not cause E. Suppes's screening-off condition is designed to handle this, but applying it requires prior causal knowledge — which threatens circularity.

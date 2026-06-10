@@ -1,0 +1,11 @@
+# Chance and Determinism
+
+If the world is deterministic — if the complete state of the world at any time, together with the laws of nature, determines the complete state at every future time — then it seems that there are no objective chances. Everything that happens had to happen, given the past and the laws; and a probability of 1 is not what we ordinarily mean by chance. Classical statistical mechanics, which assigns probabilities to the micro-states of a gas given only its macro-state, seemed to require objective probabilities; but if classical mechanics is deterministic, where do these probabilities come from?
+
+This puzzle generates the first major theme of this section: whether objective probabilities can exist in a deterministic world. One response — the epistemic view — holds that the probabilities of classical statistical mechanics are not objective but epistemic: they measure our ignorance of the precise micro-state, given only macro-level information. On this view, determinism and probability are compatible because probabilities are about our epistemic situation, not about mind-independent features of the world.
+
+A second response — associated with David Lewis's "undermining" problem — concerns the relationship between chances and the laws of nature in a deterministic world. Lewis held that chances are part of the best system analysis of laws: the laws that best systematize the world's history will include chance laws if the world has probabilistic features. But in a deterministic world, the best system might not include chance laws at all, even if the history of the world is compatible with various chance distributions.
+
+Quantum mechanics provides the most important case for objective, irreducible chance. The measurement problem — the question of why quantum systems "collapse" to definite values — has generated multiple interpretations, each with different implications for chance. Copenhagen interpretations treat collapse as an objective, chance process; many-worlds interpretations eliminate collapse and hence objective single-case probability; GRW and Bohmian mechanics handle chance in yet other ways.
+
+This section examines the compatibility of chance and determinism, the interpretation of quantum probability, and the metaphysical implications of objective chance.

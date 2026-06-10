@@ -1,0 +1,36 @@
+# Carnap on Metaphysics
+
+Rudolf Carnap's 1950 paper "Empiricism, Semantics, and Ontology" poses a challenge to metaphysics that is subtler and more durable than the blunt positivist slogan that metaphysics is meaningless. The paper begins with an apparently mundane observation: when a mathematician says "there are prime numbers greater than a million," she is asking a question within mathematics, answerable by mathematical methods. But when a philosopher asks "do numbers really exist — independently of minds and mathematical practice?" she seems to be asking something quite different. Carnap's contention is that this appearance deceives us. The second question is not a deeper or more fundamental version of the first; it is not a theoretical question at all.
+
+The distinction Carnap draws is between *internal* and *external* questions. An internal question is asked within a given *linguistic framework* — a system of rules and vocabulary for making claims and evaluating them. Within the framework of arithmetic, "are there prime numbers greater than a million?" is a meaningful internal question with a definite answer. Within the framework of ordinary physical discourse, "are there tables?" is equally meaningful. These questions have right answers, determinable by the framework's own methods.
+
+An external question asks whether the entities posited by a framework "really" exist, from a standpoint outside any framework — as if we could step back from all conceptual schemes and assess which ones correctly describe reality as it is in itself. For Carnap, this is not a meaningful theoretical question but a practical one: should we adopt the mathematical framework? The answer is pragmatic — yes, because the framework is useful, productive, and empirically well-behaved — and carries no metaphysical weight. To think we are making a substantive discovery about the mind-independent existence of numbers is to confuse a practical decision with a theoretical one. We can formalize the key distinction:
+
+- *Internal existential question*: A question of the form "is there an x such that φ(x)?" asked within framework F, answered by F's own methods.
+- *External existential question*: A question of the form "does F's vocabulary refer to real entities?" asked from a standpoint neutral between frameworks.
+
+Carnap's claim is that only internal questions have cognitive content. External questions, when not reinterpreted as practical questions, are pseudo-questions: grammatically well-formed but without determinate content.
+
+## Frameworks and Convention
+
+Carnap's frameworks are explicitly conventional: adopting a framework is adopting a set of rules for using certain words, justified by pragmatic considerations — utility, coherence, empirical fruitfulness. There is no framework-independent fact about which framework correctly describes reality, because "reality" is always described from within some framework. The conventionalism has clear affinities with Wittgenstein's idea that we always speak from within a form of life, and with Kuhn's idea that science proceeds from within a paradigm. In each case, there is no view from nowhere.
+
+This conventionalist picture has an important application to the Platonism/nominalism debate. Within the mathematical framework, "there are prime numbers" is trivially true — it is an internal question with a settled answer. The external question — do numbers *really* exist, independently of mathematical practice? — is, on Carnap's view, a pseudo-question that imagines a standpoint outside all frameworks from which the framework's entities can be assessed. Neither Platonism nor nominalism is *correct*; the question they purport to answer has no determinate content.
+
+## Chalmers's Refinement
+
+David Chalmers (2009, "Ontological Anti-Realism") develops a more nuanced version of Carnap's distinction that recovers its key insight without committing to full conventionalism. Chalmers distinguishes *verbal* from *substantive* metaphysical disputes. A dispute is verbal if the parties use key terms with different meanings and would agree on all the relevant facts if the ambiguity were resolved. A dispute is substantive if the parties share the meanings of their terms and genuinely disagree about the facts.
+
+On this view, the dispute between mereological universalists and nihilists may be verbal: both parties use "exists" differently, and once this is made explicit, no further dispute remains. But other metaphysical disputes — about consciousness, God, modal facts — may be genuinely substantive. The challenge for the friend of metaphysics is to show that the disputes she cares about fall in the substantive category, and this requires non-trivial criteria for the verbal/substantive distinction.
+
+## The Main Objections
+
+The most influential responses to Carnap come from Quine, Fine, and Thomasson, and they approach the problem from different angles.
+
+Quine denies that the internal/external distinction can be drawn sharply, because frameworks are not explicitly defined systems with clear boundaries. The "framework" for ordinary physical discourse bleeds into the "framework" for scientific discourse without a definite boundary. When we ask "do electrons exist?", there is no clear point at which the internal question becomes an external one. Quine concludes that all existence questions are equally "internal" — asked within our total theory of the world — and all equally substantive. The relevant ontological question is not external to all frameworks; it is whether our best total theory is committed to electrons. That is a genuine question with a genuine answer.
+
+Fine objects at a different point: Carnap assumes that framework adoption is purely pragmatic, but this assumption is false. There are better and worse frameworks for capturing the genuine structure of reality — frameworks that carve reality at its joints versus those that carve it arbitrarily. The concept of "carving at joints" is not itself a pragmatic or framework-relative notion; it is a genuine metaphysical notion. The question of which framework to adopt is therefore not merely pragmatic; it is the question of which framework gets reality right.
+
+Thomasson (2007, 2015) develops an "easy ontology" position that is sympathetic to Carnap without endorsing his full conventionalism. On her view, many ontological questions are trivially settled by conceptual analysis: given that there is wood arranged table-wise, the concept of "table" trivially applies, and so tables exist. But Thomasson insists this is genuinely true — not merely a pragmatic adoption of a framework. The deep metaphysical questions — about which entities are fundamental, about what grounds what — she tends to treat more skeptically; but she does not hold that ontological claims are merely practical. The disagreement with Carnap is real, if narrow.
+
+What each of these responses shares is the conviction that Carnap's dissolving move comes too cheaply. The question of what is real — of what is part of the fundamental furniture of the world — cannot be settled by pointing out that existence questions have determinate answers within frameworks. It may be precisely the right question that remains once the framework-internal question has been answered.

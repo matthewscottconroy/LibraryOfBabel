@@ -1,0 +1,11 @@
+# Naturalistic Dualism
+
+Naturalistic dualism — most prominently associated with Chalmers's development of the position — attempts to reconcile the dualist intuition about consciousness with a broadly naturalistic worldview. Unlike traditional substance dualism, naturalistic dualism does not posit an immaterial soul that stands outside the natural order; it accepts that consciousness is a natural phenomenon, subject to investigation by science. But it insists that consciousness is a fundamental aspect of nature that cannot be derived from or reduced to purely physical facts.
+
+The key distinction naturalistic dualism draws is between the "easy problems" and the "hard problem" of consciousness. The easy problems — explaining cognitive functions, behavioral control, attention, reportability, integration of information — are problems that a sufficiently complete neuroscience and cognitive science can in principle solve. They involve explaining how physical systems perform certain functions. The hard problem — explaining why there is something it is like to be such a system — is fundamentally different: no account of physical function, however complete, seems to explain why there is subjective experience at all.
+
+The naturalistic dualist's response is to treat phenomenal consciousness as a fundamental feature of nature on a par with mass, charge, or spacetime — something that exists as a basic, irreducible aspect of reality that is correlated with (or necessitated by) physical facts via psychophysical laws. Just as fundamental physics posits basic properties and basic laws governing them, a complete theory of nature would posit phenomenal consciousness as a basic property and state the laws governing its relationship to physical properties.
+
+This proposal is "naturalistic" in the sense that it does not posit anything supernatural; it does not invoke God, the soul, or any immaterial substance. But it is "dualist" in the sense that it posits a fundamental distinction between physical and phenomenal properties that no purely physical theory can bridge.
+
+This section examines naturalistic dualism in detail, the arguments that support it, the responses available to the physicalist, and the question of whether the hard problem can ever be resolved.

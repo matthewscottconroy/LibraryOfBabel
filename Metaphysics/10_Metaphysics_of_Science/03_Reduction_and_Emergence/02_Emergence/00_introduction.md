@@ -1,0 +1,11 @@
+# Emergence
+
+Emergence is the phenomenon of properties or behaviors arising at higher levels of organization that are not simply predictable from the properties of the lower-level parts. The color of gold, the liquidity of water, the consciousness of the brain — all have been described as "emergent" properties, though the sense of emergence invoked in each case is different. Understanding what emergence is, and when it is genuinely distinct from complexity or reduction, is one of the central tasks of the philosophy of science.
+
+Weak emergence — sometimes called "epistemic emergence" — holds that higher-level properties are in principle derivable from lower-level properties given full information about the lower-level system, but the derivation is computationally intractable or requires knowledge we do not in practice have. The global behavior of a gas can be derived from the mechanics of individual molecules in principle; but the number of molecules and the complexity of their interactions makes the derivation practically impossible. Weak emergence does not involve any ontological novelty; it is a matter of computational or epistemic limitation.
+
+Strong emergence — sometimes called "ontological emergence" — holds that higher-level properties are in principle irreducible to lower-level properties. No complete physical description of the brain, however detailed, would entail facts about consciousness; the phenomenal character of experience is strongly emergent from the physical. If there is strong emergence, then the natural order is not a single unified hierarchy derivable from fundamental physics; there are levels of nature with their own ontological status, not fully grounded in lower-level facts.
+
+The distinction between weak and strong emergence is philosophically significant because only strong emergence poses a genuine challenge to physicalism and the unity of science. Most emergence in physics and chemistry is weak — complex, surprising, but in principle derivable. Whether there is any strong emergence — whether consciousness, life, or any other high-level phenomenon is irreducible in principle — is among the most contested questions in philosophy and science.
+
+This section examines emergence — its varieties, its relationship to reduction, and the evidence for strong emergence in the natural world.

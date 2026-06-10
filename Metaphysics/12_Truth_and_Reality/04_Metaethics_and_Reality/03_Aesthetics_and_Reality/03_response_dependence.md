@@ -1,0 +1,52 @@
+# Response-Dependence
+
+Consider color. Redness seems to be straightforwardly in the object — the tomato is red whether or not anyone looks at it. But there is also something right about the thought that redness involves how things look to creatures like us under normal conditions of illumination. The tomato is disposed to look red; that disposition is in the object, part of its causal structure. Yet what redness consists in — the appearance of red in normal perceptual experience — is not in the object independently of any perceiver. Redness is neither purely mind-independent nor purely mind-dependent; it is a response-dependent property, one whose nature is given by its constitutive relation to the responses of suitably placed observers. Response-dependence theories extend this model to aesthetics (and ethics): beauty, like redness, is a disposition to elicit certain responses in appropriately situated observers, not a feature of objects that floats free of any response, but not merely a subjective report either.
+
+**The Lockean model**
+
+Locke's distinction between primary and secondary qualities provides the template. Primary qualities — shape, size, motion, number — are in objects as we conceive them: our ideas of shape and size more or less accurately represent real features of the external world. Secondary qualities — color, sound, taste, smell — are powers in objects to produce certain experiences in perceivers. The redness of the tomato is a real power, causally grounded in the object's microstructure; but the redness as we conceive it (the visual appearance) is in the experiencing mind rather than in the object itself. Secondary qualities are thus intermediate between the full objectivity of primary qualities and the full subjectivity of private sensation.
+
+The aesthetic response-dependence theorist proposes that aesthetic properties occupy an analogous intermediate position. They are not primary qualities, detected by the senses independently of how things appear to qualified observers. But they are not simply subjective reports either. Beauty is a disposition in the object — grounded in its structural features — to elicit aesthetic pleasure in appropriately equipped observers under appropriate conditions. The formal schema:
+
+x is beautiful iff x is disposed to produce aesthetic pleasure (or the relevant aesthetic response) in a suitably idealized observer O* under suitable conditions C*
+
+Equivalently, using the dispositional biconditional:
+
+Aes(x) ↔ □(SuitableConditions(O, C) → Response(O, x))
+
+This schema has several attractive features. It preserves the genuine meaningfulness of aesthetic ascriptions: there is a fact about whether x is beautiful, determined by facts about x's dispositional properties. It explains why aesthetic experience is the appropriate route to aesthetic judgment — the experience is constitutive of detecting the property, not merely caused by it. And it grounds the normativity of aesthetic education: the idealization specifies which improvements in our responses bring us closer to accurate aesthetic judgment.
+
+**Wright, Johnston, and McDowell**
+
+Crispin Wright, Mark Johnston, and John McDowell have developed sophisticated versions of response-dependence that diverge in important ways. Their disagreements reveal how much work the idealization is expected to do.
+
+Wright (*Truth and Objectivity*, 1992) distinguishes two ways a concept's extension might be related to response. "Extension-reflecting" response-dependence: the extension is determined independently, and responses track it. "Extension-determining" response-dependence: the extension is constituted by what appropriately idealized observers respond to. In physics, "mass" is extension-reflecting: the mass of an object is what it is independently of any response, and measurement tracks it. In aesthetics, Wright argues that "beautiful" is extension-determining: the property of beauty is the property that ideally situated observers respond to aesthetically, not a property that ideal observers happen to detect. This is what makes aesthetic discourse distinctively different from physical description: there is no standpoint from which we can ask what the aesthetic property is "really" like apart from how it appears to idealized observers.
+
+Johnston (*Dispositional Theories of Value*, 1989) argues for a "disposition" account of value properties that is neither fully realist nor simply subjectivist. Value properties are dispositions to elicit certain responses from idealized observers. The "idealization" is crucial: it ensures that the property is not constituted by actual, possibly distorted responses, but by the responses that would occur under conditions that eliminate distorting factors.
+
+McDowell's position in "Values and Secondary Qualities" (1985) resists the projectivist conclusion while accepting the response-involving character of value. McDowell argues that colors are real features of objects that perceivers are sensitive to: the experience of redness reliably tracks the real property of redness. The response does not constitute the property; it tracks it. Similarly, the experience of beauty reliably tracks the real property of beauty in the aesthetic object. McDowell is sometimes read as a response-dependent realist: aesthetic properties are mind-involving not because minds constitute them but because the relation between object and appropriately situated observer is internal to what the property is. This "primary quality" reading of secondary qualities is closer to realism than Wright's or Johnston's positions.
+
+**The circularity problem and strategies for avoiding it**
+
+The mediating argument for response-dependence runs as follows:
+
+- P1: Aesthetic judgments are not merely reports of subjective preference — they have genuine normative force, and aesthetic disagreements are real.
+- P2: Aesthetic judgments are not detections of fully mind-independent properties — aesthetic experience is constitutively involved in aesthetic judgment.
+- P3: The best account of a property that is (i) genuinely there to be judged and (ii) constitutively tied to appropriate response is a response-dependent property.
+- C: Aesthetic properties are response-dependent: they are dispositions to elicit appropriate responses from idealized observers in ideal conditions.
+
+The main technical challenge is specifying "ideal conditions" and "suitable observers" without circularity. If an ideal observer is defined as one who reliably makes correct aesthetic judgments, the account says: x is beautiful iff it would be judged beautiful by someone who judges beautiful things correctly — which is trivially true and uninformative. The non-circular specification of ideal conditions is the central task, and several strategies are available.
+
+The first is specification by cognitive conditions: ideal conditions are conditions of unimpeded perception (no distraction, adequate light, sufficient time), full relevant information (knowledge of the art form, historical context, artistic tradition), and rational reflection (coherence among aesthetic responses, responsiveness to reasons). These can be specified without invoking "correct aesthetic judgment" directly — they appeal to cognitive and epistemic virtues that are independently intelligible. The second is specification by training and expertise: an ideal observer is one who has undergone appropriate aesthetic cultivation, developing the perceptual capacities needed for the relevant domain. The specification appeals to facts about a practice of aesthetic development, not to the concept of aesthetic truth; circularity is broken by grounding "ideal observer" in the cultivation process. The third is reflective equilibrium: ideal conditions are those under which aesthetic judgments achieve stable equilibrium between particular judgments and general aesthetic principles. Equilibrium is a formal condition specifiable without invoking aesthetic correctness directly.
+
+**Response-dependence and truth**
+
+The truthmaker for "x is beautiful" on the response-dependence account is not an abstract aesthetic property floating free of any responses, but a dispositional property of the object — its power to elicit appropriate responses in idealized observers. The T-schema for aesthetic truth becomes:
+
+T("x is beautiful") ↔ x is disposed to produce aesthetic pleasure in O* under C*
+
+This truthmaker is an actual dispositional property of x, grounded in its structural features (sonic, visual, literary) that causally interact with appropriately equipped and situated observers. Aesthetic truth is grounded in the world — in objective features of objects — while being constitutively response-involving. This explains the distinctive role of aesthetic experience in aesthetic judgment: the experience is not merely evidence for the presence of an independently constituted property but is the means by which a response-dependent property is detected, and its nature partly consists in the detecting.
+
+The response-dependence framework is equally available for ethics. "x is wrong" is true iff x is disposed to elicit disapproval in appropriately idealized observers under ideal conditions of reflection (Johnston, Wiggins). Moral response-dependence avoids both the non-naturalist's queer moral facts — irreducible normative entities with intrinsic prescriptivity — and the subjectivist's mere preference-reporting. It preserves normative force: there is a fact about what ideal observers would disapprove of. And it grounds the constitutive role of moral response: approval and disapproval are not merely caused by moral properties but partly constitutive of what those properties are.
+
+The parallel between aesthetic and moral response-dependence is instructive. Both domains involve responses that are more than preferences but less than detections of fully mind-independent facts. The response-dependence framework captures this intermediate status by locating the relevant properties in the dispositional structure of objects — real, causally grounded, world-involving — while insisting that their nature is given by their relation to the responses of suitably placed observers. This is the most philosophically productive position in the neighborhood of these debates: it takes seriously both the objectivity that aesthetic and moral discourse presupposes and the response-involving character that any adequate account of either domain must explain.

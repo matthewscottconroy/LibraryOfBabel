@@ -1,0 +1,29 @@
+# Morality and Modal Realism
+
+Modal realism generates uncomfortable questions when we place it alongside moral reasoning. If all possible worlds are equally real, then every evil that can occur does occur — in some concrete universe, fully as real as ours. Genocide, torture, the suffering of innocents: these exist somewhere in modal space with the same ontological status as our own world. Moreover, for every morally heroic action we perform in this world, there is a world where the morally cowardly alternative is performed. Does this trivialize moral choice? And does it place modal realism in tension with moral realism?
+
+## The Objection from Moral Significance
+
+The most immediate worry is motivational. If preventing genocide in our world does not prevent genocide in the grand scheme of modal reality — the genocidal worlds remain fully real — does this undermine the motivational force of preventing it here? Everything we fail to prevent here is "prevented" in other worlds, and everything we do to prevent it occurs alongside equally real worlds where we failed. The existence of infinitely many worlds containing all forms of evil and all forms of heroism seems to make the moral profile of any particular world irrelevant to the overall distribution of good and evil across modal space.
+
+Lewis's principal response: causal and practical isolation is morally relevant. Our obligations run to those we can affect — those with whom we stand in causal and practical relations. The suffering in other possible worlds is real but outside our practical sphere. Our obligations do not extend to beings we cannot causally affect, just as they do not extend to changing the past. The suffering in other worlds is real but no more actionable than the suffering of historical persons who have already died — we cannot change it, and we are not obligated to prevent what we cannot affect.
+
+Furthermore, Lewis does not aggregate welfare across worlds. There is no cross-world utilitarian calculus in which the sum of wellbeing across all possible worlds is what morality tracks. Moral deliberation is properly conducted within a world, about the outcomes of available actions in that world. Whether this response fully addresses the worry about trivialization is contested, but it at least shows that Lewis has a principled reply available.
+
+## The Problem for Moral Realism
+
+A deeper and more philosophically interesting objection concerns the consistency of modal realism with moral realism. Moral realism holds that there are objective, mind-independent moral facts. If possible worlds are all equally real, and if moral properties are natural properties that vary with the character and dispositions of the inhabitants of a world, then moral truths are world-indexed: what is good at a world is determined by what promotes flourishing at that world.
+
+Critics argue this analysis is inadequate for moral realism. If "good" picks out different properties at different worlds — depending on what promotes flourishing there — then moral claims are implicitly world-indexed, and there are no absolute moral truths that hold across worlds. Gideon Rosen pressed this further: if there are worlds where the inhabitants' natures are such that they flourish through cruelty, is "gratuitous cruelty is wrong" still absolutely true? It seems so from within our world, but on a fully naturalistic modal realist view, the moral claim is indexed to our world's facts about flourishing.
+
+Lewis's position was that moral properties are natural properties identified via a dispositional account: "good" refers to whatever actually tends to promote human flourishing or satisfy our considered preferences. This analysis is world-relative: what is good at a world is determined by what promotes flourishing there. Critics argue this falls short of what moral realism requires: the absolute necessity of at least some moral truths. Lewis could respond that moral necessities are grounded in the natures of persons — that there are essential connections between personhood and welfare, between pain and badness, that hold across all worlds containing persons. But developing this response requires importing an essentialist framework that sits somewhat awkwardly with Lewis's own commitment to Humean supervenience.
+
+## Modal Realism and the Problem of Evil
+
+An independent connection: if all possible worlds exist, and if a perfect God actualized one of infinitely many concrete worlds, why this world with all its suffering rather than a world without it? Every better world exists and is just as real; the actual world's evil seems pointless given the existence of better alternatives at the same ontological level.
+
+Lewis's own secular position sidesteps this: there is no creator choosing among worlds. The actual world is actual not by divine selection but by indexical reference — it is the world we happen to inhabit. The problem of evil as a challenge to theism is not directly generated by Lewis's version of modal realism. The combination of theism with modal realism, however, does intensify the problem.
+
+## The Deeper Lesson
+
+The moral objections to modal realism reveal that the theory has substantive commitments in metaethics, not merely in modal metaphysics. Moral realists who hold that at least some moral truths are necessary and world-independent will find Lewis's modal realism in tension with their metaethics. Relativists and naturalists who accept world-indexed moral facts will find it less troubling. This illustrates a general lesson: metaphysical theories rarely exist in isolation — they have consequences across philosophy, including in domains that might seem remote from their original concerns. Modal metaphysics and metaethics are more tightly connected than they first appear.

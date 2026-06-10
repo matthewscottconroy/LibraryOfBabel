@@ -1,0 +1,11 @@
+# Perdurance vs. Endurance
+
+The central debate about persistence over time is framed as a choice between endurance and perdurance. An object endures if it exists at multiple times by being "wholly present" at each of those times — the very same object, with no temporal parts, existing at t₁ and at t₂ and at every other time in its career. An object perdures if it persists by having distinct temporal parts at different times — not the same object wholly present, but different temporal stages of a four-dimensional whole.
+
+The endurance view (associated with most of the tradition prior to four-dimensionalism, and with contemporary three-dimensionalists) captures the commonsense picture: when you meet a friend after many years, you meet her — not a temporal stage of her. She is wholly present now, just as she was wholly present twenty years ago. Persistence is not composition of temporal stages; it is the continuation of a single, wholly present individual.
+
+The perdurance view (associated with Lewis and the four-dimensionalist tradition) captures the analogy with spatial extension: objects extend through time by having different temporal parts at different times, just as they extend through space by having different spatial parts in different locations. This analogy motivates the four-dimensional picture: if we accept that spatial extension involves distinct spatial parts, we should accept that temporal extension involves distinct temporal parts.
+
+The "temporary intrinsics" problem is Lewis's argument for perdurance. An intrinsic property is one that a thing has independently of anything else. If the shape of a person is an intrinsic property, then the same person cannot be both bent (at t₁) and straight (at t₂), since these are incompatible intrinsic properties. The endurance view seems committed to contradiction: the same person has incompatible intrinsic properties at different times. The perdurance view resolves this by holding that the temporal parts have the shapes — the t₁-stage is bent, the t₂-stage is straight — without contradiction.
+
+This section examines endurance and perdurance, the arguments for each, and the connections to broader debates about identity, persistence, and temporal ontology.

@@ -1,0 +1,11 @@
+# Downward Causation and Emergent Powers
+
+The concept of downward causation refers to the alleged capacity of higher-level properties or systems to causally influence their lower-level components. If the mind can cause brain states, or if social structures can cause the behavior of individuals, this is a form of downward causation — causation running from higher levels of organization to lower levels.
+
+Downward causation is controversial precisely because it seems to conflict with the "upward" picture that is implicit in reduction and supervenience: higher-level properties are determined by lower-level properties, so the causal action is fundamentally at the lower level, with higher-level talk being just a useful summary. If lower-level components causally determine higher-level properties, what work is left for higher-level causes to do?
+
+Emergentists have argued that certain higher-level properties have genuine causal powers that are not possessed by the individual lower-level components in isolation. The wetness of water is a property of the ensemble that is not reducible to the properties of individual H2O molecules. Similarly, the information-processing properties of a neural network are properties of the system that individual neurons do not possess in isolation. These emergent properties may causally influence the behavior of the components.
+
+Strong emergentism holds that emergent properties are genuinely distinct from the properties of the components and have irreducible causal powers. Weak emergentism holds that emergent properties are supervenient on component properties but are not predictable from them (because prediction would require intractable computations). Strong emergentism threatens causal closure; weak emergentism does not obviously give us genuine downward causation.
+
+The most sophisticated treatments of downward causation in recent years come from philosophers of biology (Denis Walsh, Peter Godfrey-Smith) and complexity theorists, who argue that biological systems exhibit causal dynamics at multiple levels simultaneously. Whether this requires revising our standard picture of causal hierarchy or can be accommodated within a more sophisticated reductionism remains contested.

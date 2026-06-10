@@ -1,0 +1,11 @@
+# Divine Simplicity and Immutability
+
+Among the most philosophically demanding doctrines of classical theism is divine simplicity — the claim that God has no parts, no composition, no real distinctions among attributes. God is not merely one thing; God is absolutely simple. The divine attributes — omnipotence, omniscience, goodness — are not distinct properties that God happens to have; they are identical to God, and to each other. God's power and God's knowledge are not two things in God but one reality, which is God.
+
+Divine simplicity arose partly from a concern about divine unity: a God with distinct attributes would be a composite being, dependent on the composition of those attributes, and hence not a perfect first cause. Aquinas's argument: God is the first cause; any first cause must be simple, since a composite being depends on the prior existence of its components and their combination. God therefore has no real composition — no composition of genus and differentia, matter and form, essence and existence, subject and property, or the various divine attributes among themselves.
+
+The simplicity doctrine creates severe puzzles. If God's power and God's knowledge are identical (as simplicity requires), then in knowing the theorem of Pythagoras, God is omnipotent; and in creating the world, God is omniscient. These predications seem confused. If the divine attributes are identical to God, then "God is good" and "God is powerful" say the same thing — but they seem to say different things. The scholastic tradition responded by distinguishing real identity from conceptual distinction: the attributes are one reality in God, but they are different "modes" or aspects under which we conceive of that reality.
+
+Divine immutability — the claim that God cannot change — is closely connected to simplicity. A timeless, simple God cannot change: change requires succession, and succession requires time. But immutability creates difficulties for God's engagement with the world: did God change in creating the world? Does God change in knowing that Caesar is now dead, when earlier God knew that Caesar was alive?
+
+This section examines divine simplicity and immutability, the theological tradition that developed these doctrines, and the philosophical puzzles they generate.

@@ -1,0 +1,11 @@
+# Religious Experience
+
+Millions of people across history and across cultures have reported experiences that they describe as direct encounters with God, the divine, the transcendent, the sacred. These religious experiences range from dramatic mystical visions and revelations to quiet, persistent senses of divine presence. They are the most direct and intimate form of putative knowledge of God — not argument, not testimony, but experience. Can religious experience serve as evidence for the existence of God?
+
+William Alston's "perceiving God" argument holds that religious experience should be treated epistemically as we treat perceptual experience. Perception is our evidence for the existence of the external world; we accept perceptual reports as evidence because there is a reliable connection between perception and its objects. Alston argues that religious experience can play the same evidential role: if there is a reliable connection between religious experience and its apparent object — God — then religious experience can provide evidence for God's existence.
+
+The analogy between sensory perception and religious perception is the strongest point of Alston's argument; the connection between perceptual experience and its objects is not self-evident either — it rests on a background of ordinary human experience and the practice of perception. The practice of "Christian mystical perception" is, Alston argues, analogously reliable — supported by its own internal coherence and the lives it has shaped.
+
+Objections to the argument from religious experience include: (1) Religious experiences are highly varied and culturally conditioned, suggesting that they reflect the experiencer's background beliefs rather than a common object. (2) Perceptual experience is checkable — we can verify perceptual beliefs by additional observation and testimony — while religious experience is not checkable in the same way. (3) There are naturalistic explanations of religious experience (neural correlates, psychological mechanisms) that remove the need to appeal to God as the cause.
+
+This section examines the epistemic significance of religious experience, Alston's argument, and the main objections.

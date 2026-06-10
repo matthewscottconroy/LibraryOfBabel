@@ -1,0 +1,11 @@
+# Temporal Mereology
+
+Four-dimensionalism holds that ordinary material objects extend through time in much the same way they extend through space: they have temporal parts, just as they have spatial parts. A temporal part of an object is a portion of the object that exists at a specific time or during a specific temporal interval, bearing the same relation to the whole temporal object that a spatial part bears to the whole spatial object. The person who exists right now is a temporal part of the four-dimensional persisting person, as a slice of a loaf of bread is a spatial part of the whole loaf.
+
+Temporal mereology is the extension of mereological theory to the time dimension. If temporal parts are genuine parts, then all the axioms and principles of spatial mereology should apply to temporal mereology as well: parthood is transitive (if t₁ is a temporal part of x and x is a temporal part of y, then t₁ is a temporal part of y), antisymmetric, and so on. The fusion of temporal parts of an object over a period of time is the object itself (or a temporal part of a larger object). Temporal mereology provides the resources for a unified treatment of spatial and temporal composition.
+
+Four-dimensionalism with temporal parts offers an elegant solution to the problem of change. How can the same object be green at t₁ and red at t₂? On the temporal parts view: the temporal part of the leaf at t₁ is green; the temporal part of the leaf at t₂ is red; and there is no contradiction, because the two temporal parts are numerically distinct, just as the left half and the right half of a sphere can have different colors without contradiction.
+
+The most serious objection to temporal parts is the claim that they are unintuitive or even incoherent as applied to ordinary objects. The "worm theorist" and the "stage theorist" diverge on whether ordinary objects are entire four-dimensional worms or temporal stages (instantaneous temporal parts). Each variant has distinctive implications for persistence, temporary intrinsics, and the relationship between objects and events.
+
+This section develops temporal mereology, the temporal parts view of persistence, and the competing worm and stage theories.

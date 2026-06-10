@@ -1,0 +1,13 @@
+# Possible Worlds and Similarity
+
+Lewis's counterfactual analysis depends critically on the notion of similarity between possible worlds. To evaluate "If the match had not been struck, the fire would not have started," we need to identify which possible worlds are most similar to actuality while making the antecedent true. This is not a trivial matter.
+
+Lewis developed a detailed account of world-similarity in the context of counterfactuals. He proposed that the similarity relation is governed by a priority ordering: first, avoid large-scale miracles (massive violations of actual laws); second, maximize the region of perfect match with the actual world; third, avoid small-scale miracles; fourth, achieve closeness in particular facts. This ordering is designed to capture our intuitive judgments about counterfactuals.
+
+The priority ordering matters for causation. Consider the counterfactual "If Nixon had pressed the button, a nuclear war would have occurred." To evaluate this, we need a world where Nixon presses the button. If we allow a small miracle — a single violation of the laws of nature — just before the button-press, we can have a world that matches actuality up to that point and then diverges. This gives the right result: the nearest world with the button-press is one where nuclear war follows.
+
+But the account faces Backtracking Objections. Suppose the reason Nixon did not press the button was that he was in a calm state. In the nearest world where he does press, is it a world where he was in a different psychological state (backtracking into the past) or a world where he overcame his calm state at the last moment (a small miracle)? Lewis argued we should prefer the world with the small miracle, not the backtracking interpretation, but this preference needs justification.
+
+Jonathan Bennett and others have pressed the point that the similarity ordering is highly context-sensitive. Different contexts make different features of worlds salient for assessing similarity, and what counts as "nearest" varies accordingly. This suggests that counterfactuals do not have a single, context-independent truth value but are evaluated relative to standards set by conversational context. Lewis was aware of this but thought context-sensitivity is a feature rather than a bug.
+
+The dependence on a primitive notion of world-similarity is one of the main points at which Lewis's analysis has been criticized. If similarity is itself explained partly in terms of causal relationships — if causal continuity is part of what makes worlds similar — the analysis risks circularity.

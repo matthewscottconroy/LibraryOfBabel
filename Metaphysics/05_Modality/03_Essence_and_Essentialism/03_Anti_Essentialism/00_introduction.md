@@ -1,0 +1,11 @@
+# Anti-Essentialism
+
+Essentialism — the view that things have intrinsic, necessary properties that constitute what they fundamentally are — has faced persistent and sophisticated opposition. Anti-essentialists come in several varieties, united by the conviction that the essentialist's apparent discoveries are really artifacts of our conceptual frameworks, our practical interests, or our linguistic habits, rather than revelations of how the world is carved at its natural joints.
+
+Quine's anti-essentialism — grounded in his empiricism and behaviorism about language — held that the distinction between essential and accidental properties is framework-relative. It is not the case that any property is inherently necessary or inherently accidental; a property is "essential" relative to one description of the object and "accidental" relative to another. Asked "Is it essential to this animal that it is a biped?", the answer depends on whether we are describing the animal as a mathematician (in which case bipedality is accidental) or as a biped (in which case bipedality is essential). There is no privileged description that reveals the true essence.
+
+Biological anti-essentialism draws on the philosophy of science. Population thinking in evolutionary biology holds that species are defined not by shared essential properties but by genealogical relations — by being members of the same breeding population or historical lineage. Individual organisms within a species differ from each other in every quantitative property; there is no sharp boundary that distinguishes members from non-members; and the definition of species has been endlessly revised as new biological evidence accumulates. This suggests that biological kinds do not have real essences, and that the expectation of real essences is a philosophical imposition on a messier biological reality.
+
+Social anti-essentialism — in feminist philosophy, philosophy of race, and social theory — argues that the apparent essential properties of social kinds (gender, race, class) are socially constructed rather than natural, and that essentialist thinking about social kinds has been systematically distorting and oppressive.
+
+This section examines anti-essentialist positions in depth, assessing the strongest arguments against essentialism and the essentialist's resources for responding.

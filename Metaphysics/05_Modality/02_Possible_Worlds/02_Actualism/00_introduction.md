@@ -1,0 +1,11 @@
+# Actualism and the Nature of Possible Worlds
+
+The actualist about possible worlds shares Lewis's conviction that possible-worlds talk is indispensable — it illuminates modal claims, grounds the semantics of modal language, and organizes philosophical theorizing about necessity and possibility. But the actualist denies that possible worlds are concrete universes as real as our own. The only things that actually exist are actual things; possible worlds, insofar as they exist, are abstract representations or constructions built from actual materials, not independently existing concrete universes.
+
+Several varieties of actualism have been developed. On Plantinga's account, possible worlds are possible states of affairs — abstract entities that either obtain or fail to obtain. The actual world is the maximal state of affairs that obtains; other possible worlds are maximal states of affairs that do not obtain but could have. These abstract states of affairs are taken as primitive entities with necessary existence — they exist whether or not they obtain.
+
+On Adams's and Stalnaker's accounts, possible worlds are constructed from actually existing materials in various ways. Adams identifies possible worlds with maximally consistent sets of propositions; Stalnaker identifies them with properties that the actual world might have had (maximal properties that are possibly instantiated). Both approaches ground the possible in the actual, avoiding the ontological extravagance of Lewisian realism.
+
+The "abstract" or "ersatz" possible worlds of actualism are cheaper than Lewis's concrete worlds, but they face a distinctive challenge: explaining what makes a representation of a possible world accurate, or what it means for an abstract object to "represent" a concrete scenario. The actualist must invoke some primitive modal notion — possibility, consistency, or something similar — to distinguish genuine possible worlds from impossible ones, whereas Lewis's concrete worlds can be individuated by their concrete content alone.
+
+This section examines actualist theories of possible worlds, their theoretical virtues, and the challenges they face in accounting for the representational relation between abstract worlds and possible concrete situations.

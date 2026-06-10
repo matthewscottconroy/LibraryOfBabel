@@ -1,0 +1,11 @@
+# Early Modern Transformations of Substance
+
+The seventeenth century transformed the concept of substance more dramatically than any period since Aristotle. Three philosophical systems — those of Descartes, Spinoza, and Leibniz — represent genuinely distinct and philosophically powerful positions that restructured the entire ontological landscape. Understanding them is not merely historical education; these positions define the range of positions available to anyone who takes the metaphysics of substance seriously.
+
+Descartes inherited Aristotelian substance as his category but filled it with entirely new content. For Descartes, finite substances are either thinking things (res cogitans) or extended things (res extensa). Mind and body share no properties and cannot be composed of each other. The price of this clean dualism is the interaction problem: how do substances that share no properties causally affect each other? The pineal gland was Descartes's anatomical answer, but no philosophical answer was ever satisfactory.
+
+Spinoza took the interaction problem as evidence that Descartes had gotten the number of substances wrong. If substances with nothing in common cannot interact, and if mind and body do interact, then they must be the same substance under different aspects. Spinoza's single infinite substance — God or Nature — has both thought and extension as attributes; what we call individual minds and bodies are modes of this single substance, ways in which it is expressed in finite form.
+
+Leibniz, dissatisfied with both Cartesian dualism and Spinozistic monism, proposed a monadology: reality consists of an infinity of immaterial, simple, self-contained substances (monads) that have no genuine causal interaction with each other. The apparent interaction between minds and bodies is a pre-established harmony — a God-given correlation between the internal states of monads that makes them appear to affect each other without any genuine causal connection. This is ontologically bizarre but philosophically systematic.
+
+These three positions exhaust much of the logical space for substance ontology, and working through them prepares the reader to understand why contemporary debates have the shape they do.

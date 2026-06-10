@@ -1,0 +1,29 @@
+# What Is Eternalism?
+
+Imagine the universe not as a process unfolding through time but as a complete four-dimensional solid — a block — in which every event has a fixed position. Caesar's death is located at one position in this block. The formation of the solar system is at another. Your reading of this page is at another. All of these events exist in the same sense: they are all real parts of the four-dimensional structure. None of them is more real than another by virtue of being past, present, or future. The block simply contains them all.
+
+This is eternalism, also known as the block universe theory. All times — past, present, and future — exist with equal ontological status. The past is not "gone" and the future is not "yet to be"; both are as real as the present. "The present" on this view is an indexical — it picks out the time of the current utterance or experience rather than a metaphysically special time. Just as "here" is wherever the speaker happens to be in space without there being a metaphysically special place, "now" is whenever the speaker happens to be in time without there being a metaphysically special time.
+
+The "eternal" in eternalism refers to the mode of existence of events and entities: they exist eternally — not in the sense of lasting forever, but in the sense of existing at their temporal location without ever going out of existence. Caesar's death exists at its temporal location permanently and immovably. D.H. Mellor defended this picture in *Real Time* (1981) and *Real Time II* (1998). Ted Sider's *Four-Dimensionalism* (2001) argues for combining eternalism with four-dimensionalism about persistence.
+
+## Eternalism and Four-Dimensionalism
+
+Eternalism about temporal ontology is commonly paired with four-dimensionalism about persistence: objects persist by having distinct temporal parts at different times. This pairing is not logically necessary — one could be an eternalist while holding that objects endure — but it is philosophically natural and defensible.
+
+On the four-dimensionalist view, a persisting object — a person, say — is a temporally extended entity composed of temporal stages. The person who existed in 1990 and the person who exists now are both temporal stages of the same four-dimensional "worm," a mereological sum of all the temporal stages. The person is not wholly present at any one time; they are partially present at each time in the sense that a temporal part of them is present. Change is variation in properties across temporal stages, not the gain and loss of properties by a single enduring substance.
+
+Sider's *Four-Dimensionalism* argues for this view on multiple grounds: it handles the paradoxes of coincident objects (the statue and the lump of clay), it provides a simple treatment of change, and it is consistent with the eternalist ontology required by special relativity.
+
+## Eternalism and Special Relativity
+
+The natural fit between eternalism and special relativity is one of the strongest considerations in its favor. In Minkowski spacetime, events are located in a four-dimensional spacetime manifold; the fundamental structure is the spacetime interval (Lorentz-invariant), not separate spatial and temporal distances (which are frame-dependent); and there is no frame-independent notion of "simultaneity" — no objective partition of events into "past," "present," and "future" for all observers.
+
+The block universe interpretation treats Minkowski spacetime at face value: the four-dimensional manifold of events is the physical reality, and the B-series ordering — the spacetime interval ordering, the causal structure encoded in the light cones — is the fundamental temporal structure. "The present" is not a physical or metaphysical feature of the spacetime but merely the temporal location of the observer. This interpretation is endorsed by many philosophers of physics, including Lawrence Sklar (*Space, Time, and Spacetime*, 1974) and Hilary Putnam ("Time and Physical Geometry," 1967).
+
+## "Presentness" as an Indexical
+
+The eternalist analysis of "the present" is modeled on Kaplan's theory of indexicals. On Kaplan's account, indexicals like "I," "here," and "now" have a context-independent meaning (character) and a context-dependent content (what they refer to in a particular context). "Now" has the character "the time of utterance" — constant across contexts — but refers to different times in different contexts. "It is now raining" does not attribute a special metaphysical property (nowness) to the rain; it places the rain at the time of utterance.
+
+This analysis dissolves the A-theorist's claim that "the present" is metaphysically special: the present is just the temporal location of the speaker, and the appearance of metaphysical privilege is an artifact of how indexicals work. Critics argue that the analogy between "here" and "now" is imperfect. Space is symmetric in a way time is not: we can move backward as well as forward in space, but not in time; we have perceptual access to the present that we lack to the past and future. These asymmetries suggest that "now" is not merely a temporal analog of "here" but tracks a genuine metaphysical distinction. Eternalists respond that the asymmetries are explained by the thermodynamic arrow of time, not by any objective privilege of the present. Whether this response is adequate is precisely the question the A-theorist contests.
+
+The main challenge for eternalism is explaining why the present feels special. If all times exist equally, why does this moment seem vivid and real while others seem absent? Eternalists explain this in terms of our cognitive architecture — we are temporal beings with memories of the past and anticipations of the future, so we experience the present as our "location" in the block. Whether that is an explanation or a redescription of the phenomenon is a question we will need to keep returning to.

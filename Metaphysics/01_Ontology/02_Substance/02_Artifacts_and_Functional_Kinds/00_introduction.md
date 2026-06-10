@@ -1,0 +1,9 @@
+# Artifacts and Functional Kinds
+
+When we count the things in a workshop, we count not just hunks of matter but tools: this hammer, that saw, that drill press. Artifacts are objects defined by their function — by what they are for, not merely by what they are made of. The hammer is a hammer in virtue of being designed and used for driving nails; it could be made of steel or rubber or bone; what makes it a hammer is its function and origin, not its material composition. This generates a distinctive set of metaphysical questions.
+
+Artifacts seem to have existence and persistence conditions that depend on human intentions and practices. The hammer exists as a hammer only because humans made it for that purpose and use it as such; without the context of human practice, the same object is just a shaped piece of metal. This suggests that artifact identity is in some sense mind-dependent — that it depends not just on physical facts but on facts about what things are for and how they are used.
+
+But if artifact identity is mind-dependent, what follows? Does this mean artifacts are not "real" entities in the way that natural objects are? Or does it mean that mind-dependence is compatible with genuine existence — that the hammer genuinely exists as a hammer even if its existence as a hammer depends on facts about human intentions?
+
+The Ship of Theseus is the canonical puzzle for artifact persistence: if every plank of the ship is gradually replaced, is it still the same ship? And if the replaced planks are used to reconstruct the original ship, which ship is the original? Artifacts raise the problem of persistence in a particularly sharp form because their identity conditions are function-based rather than material — and functions can be transferred to different material realizations. This section examines the ontology of artifacts and functional kinds with the care these genuinely puzzling objects deserve.

@@ -1,0 +1,11 @@
+# Laws of Nature
+
+Newton's law of universal gravitation — every massive body attracts every other massive body with a force proportional to the product of their masses and inversely proportional to the square of the distance between them — is paradigmatically a law of nature. It is not a description of what has happened to be true; it is a description of what must be true, what could not be otherwise given the nature of mass and space. Or so it seems. But when we try to say what this "must" consists in, serious difficulties arise.
+
+The Humean tradition holds that laws are nothing over and above regularities — patterns in the distribution of particular matters of fact across space and time. The "Best Systems Analysis," associated with Lewis (developing ideas from Ramsey and Mill), holds that laws are the theorems of the systematization of all particular facts that achieves the best combination of simplicity and strength. A law is not a necessity over and above the pattern; it is just the pattern, described in the most efficient and informative way. There are no governing laws — laws do not *produce* or *constrain* the events they describe; they are summaries of those events.
+
+The necessitarian tradition disagrees fundamentally. Armstrong, Dretske, and Tooley argued that laws express genuine necessary connections between universals: the law that all copper conducts electricity is not just the regularity of copper things being conductive, but the higher-order fact that the universal *being copper* necessitates the universal *being conductive*. This necessitation is a real relation between real universals, irreducible to the pattern of instances. Laws govern; they do not merely describe.
+
+The powers tradition offers a different anti-Humean picture: laws are grounded in the dispositional essences of the properties that appear in them. If it is of the essence of mass to attract, then the gravitational law follows necessarily from what mass *is*. On this view, laws are not contingent features of the world that happen to hold but necessary consequences of the natures of the fundamental properties.
+
+This chapter develops each position, examines the major arguments for and against, and asks what the status of laws of nature tells us about the modal structure of reality.

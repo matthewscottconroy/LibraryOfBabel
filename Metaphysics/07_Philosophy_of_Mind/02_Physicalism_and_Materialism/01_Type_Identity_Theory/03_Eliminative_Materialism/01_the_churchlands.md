@@ -1,0 +1,22 @@
+# The Churchlands and Eliminative Materialism
+
+The history of science includes repeated episodes of theories not being reduced but being eliminated. Phlogiston was not identified with oxygen; it was simply abandoned. Caloric was not reduced to kinetic energy; the concept was discarded and replaced. Folk physics held that heavier objects fall faster than lighter ones — this was not refined but refuted. Eliminative materialism begins with the observation that folk psychology is a theory, not a datum, and asks whether it might suffer the same fate as phlogiston and caloric. Paul Churchland's answer — developed in *Scientific Realism and the Plasticity of Mind* (1979) and *Matter and Consciousness* (1984) — is yes. Mental state types postulated by folk psychology, such as beliefs, desires, and propositional attitudes, do not correspond to real categories in the brain. The correct response to folk psychology is not to reduce it but to eliminate it.
+
+The argument by analogy:
+
+- P1: Folk theories about natural phenomena have repeatedly turned out to be radically false, with their central posits (phlogiston, caloric) having no counterparts in nature.
+- P2: Folk psychology is a folk theory about mental phenomena, positing beliefs, desires, and propositional attitudes as central entities.
+- P3: There is good reason (from neuroscience) to think that folk psychology's central posits have no counterparts in neural reality.
+- C: Folk psychology will be eliminated rather than reduced by mature neuroscience.
+
+Paul Churchland's positive vision is of a neuroscience that describes cognition in terms of activation vectors in high-dimensional state spaces, transformations of these vectors by connection weights in neural networks, and the dynamics of large-scale neural populations. These descriptions have no simple mapping onto folk psychological categories: there is no discrete neural state that corresponds to the belief that Paris is in France — there is a pattern of distributed activation encoding something like semantic content, spread across millions of neurons in a deeply context-sensitive way. The connectionist model of cognition — continuous transformations in high-dimensional vector spaces — renders the folk psychological picture of discrete beliefs and desires as a crude approximation that obscures the continuous, dynamical, context-sensitive character of actual neural processing.
+
+## Patricia Churchland's Neurophilosophy
+
+Patricia Churchland's contribution is methodological: she argues in *Neurophilosophy* (1986) and *Brain-Wise* (2002) that philosophy of mind must engage seriously with neuroscience as a constraint on philosophical theorizing. Purely a priori philosophy of mind — conceptual analysis conducted without attention to how the brain actually works — is likely to generate false or misleading theories. The concepts of folk psychology evolved for practical purposes (predicting and explaining behavior in social contexts) and may be poorly suited for understanding the underlying neural mechanisms.
+
+Both Churchlands are eliminativists about phenomenal consciousness in the sense that they deny that qualia, as traditionally described, will survive contact with neuroscience. They argue that the phenomenal/physical distinction is itself a conceptual artifact of folk psychology, not a deep metaphysical division. Patricia Churchland has been particularly critical of Nagel's "what is it like" formulation, arguing that the apparent uniqueness of phenomenal consciousness may be an artifact of imperfect, theory-laden introspective access rather than a reflection of a genuine ontological distinction.
+
+## The Self-Refutation Objection
+
+Critics argue that eliminativism is self-refuting: to believe eliminativism, endorse it, and argue for it already presupposes the folk psychological categories — belief, desire, argument — that eliminativism says do not exist. If there are no such things as beliefs, then the eliminativist does not have the belief that eliminativism is true. Paul Churchland responds that this objection assumes any adequate replacement for folk psychology must preserve folk categories. But if folk psychology is eliminated rather than reduced, we will have new categories for the mental states that ground argument and endorsement — categories that do not map onto "belief" and "desire" but play similar functional roles in a scientifically adequate account. The self-refutation objection, on this view, begs the question by assuming that folk categories are indispensable.

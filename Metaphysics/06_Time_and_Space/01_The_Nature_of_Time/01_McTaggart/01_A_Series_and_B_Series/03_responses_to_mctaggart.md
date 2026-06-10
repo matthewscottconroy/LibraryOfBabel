@@ -1,0 +1,37 @@
+# Responses to McTaggart's Argument
+
+There is a striking piece of phenomenological evidence that any response to McTaggart must reckon with. A.N. Prior noticed it in his short paper "Thank Goodness That's Over" (1959). After recovering from a painful dental procedure, one feels genuine relief — not merely a calm awareness that the procedure is temporally prior to the relief, but something more specific and felt: it is *now* past, it is *over*. What is the object of this relief? Not a B-series fact — the fact that the procedure is earlier than the relief was true throughout the procedure, and I was not relieved then. What I am relieved about is that the present moment is on the post-procedure side of the timeline. That "now" seems to point to something irreducible.
+
+This observation does not prove McTaggart wrong. But it sharpens the question. Any satisfying response to his argument must either explain why this phenomenological datum tracks a real metaphysical difference, or explain why it misleads us.
+
+## The B-Theorist's Response
+
+The most systematic response comes from the B-theorist, and the most technically developed version is D.H. Mellor's, worked out in *Real Time* (1981) and *Real Time II* (1998). The strategy is to argue that A-properties are not genuine properties of events but indexical descriptions — perspectival facts that vary with the temporal context of the speaker, just as "here" varies with the speaker's location. "Caesar's death is past" does not attribute an intrinsic property to the event; it is equivalent to "Caesar's death is earlier than this utterance." Formally: for any token utterance u, E is present relative to u iff E is simultaneous with u; E is past relative to u iff E is earlier than u; E is future relative to u iff E is later than u. All of these are B-series relations plus the identity of the token utterance.
+
+On this account, McTaggart's regress never arises. The A-properties have been dissolved — not answered but removed. There is no regress of A-series reference times because there are no A-properties in the first place.
+
+The token-reflexive analysis has a technical elegance: it explains why tensed sentence-types cannot be translated into non-tensed sentence-types (since "now" shifts its reference across tokens), while insisting that any particular token has a non-tensed truth condition. For the B-theorist, truth is fundamentally a property of tokens, not types.
+
+Prior's objection to Mellor stands firm, however. The relief I feel when the dentist is done cannot be explained by any B-series fact about the ordering of events. Mellor's reply: Prior's argument assumes that the phenomenological datum tracks a real metaphysical difference, but phenomenology is not a reliable guide to ontology. The special feeling of relief is a fact about my cognitive architecture — about which events I can now act on, which I remember, which I anticipate — not evidence for an irreducible property of pastness. Whether this reply adequately meets Prior's point is a matter of ongoing dispute.
+
+D.C. Williams made an earlier version of the B-theorist's case in "The Myth of Passage" (1951). Williams argued that the sense of time "flowing" is not a feature of the world but a confabulation produced by the fact that we are temporally extended beings who experience events in sequence. We feel as if we are "moving through" time — but this "movement" requires a second time dimension against which to measure it, and no such dimension exists. The experience of passage is real; the metaphysical passage it seems to report is a myth.
+
+## Prior's Tense-Logical Response
+
+Prior's positive contribution was to develop tense logic as a formal alternative to B-theoretic paraphrase. His operators P ("it was the case that") and F ("it will be the case that") are primitive logical constants, not abbreviations for quantifiers over times. The system permits iterated applications — PPp means "it was the case that it was the case that p" — and generates a rich logical structure that cannot be straightforwardly reproduced in the B-theorist's extensional framework.
+
+For Prior, the McTaggart regress is not vicious because the operators are defined with respect to the present moment of evaluation, and that present moment is not a further A-property requiring analysis. The regress is not infinite because we do not need to keep going: any intelligible tensed claim is captured by some finite application of the operators. The "present" is not an object that must be analyzed further but the shifting center of the evaluation procedure itself.
+
+This tense-logical framework has proved enormously fruitful. It is now a standard tool in formal linguistics for the semantics of tense, in computer science as temporal logic for reasoning about concurrent systems, and in modal logic more broadly. The practical success of A-theoretic logical frameworks does not settle the metaphysical question — a useful tool need not accurately reflect deep ontological structure — but it establishes that A-theoretic reasoning has genuine expressive power that B-theoretic frameworks struggle to match directly.
+
+## Fine's Truth-Maker Approach
+
+Kit Fine ("The Reality of Tense," 2005) offered a more recent defense of the A-theory that approaches the McTaggart problem from the direction of truth-making. Fine distinguishes two kinds of temporal facts: those that are tenseless (eternally true or false) and those that are tensed (true or false relative to a time). A complete description of reality must, he argues, include both. What makes "It is raining" true is not merely a B-series fact (rain at some time t) but the present fact — rain occurring at the time of evaluation. This requires acknowledging a form of temporal absolutism: there are absolute facts about which time is present, not merely indexical facts about which time is simultaneous with a given utterance.
+
+Fine's approach blocks McTaggart's regress differently from Prior's. Rather than showing that the regress terminates in the present moment of evaluation, Fine denies that A-properties must be explained in B-series terms at all. They are primitive, and the regress is blocked at the ground level. The objection that this is merely an assertion rather than an argument is fair. But Fine would say the same about the B-theorist's insistence that A-properties can be dissolved: at some point the theorist must assert primitives, and the question is which primitives are more explanatorily satisfying.
+
+## Causation and the Wider Stakes
+
+We should note one connection that is often underappreciated. If the A-series is fundamental — if there is a privileged present — causation is naturally understood as a forward-running process: causes are present events producing future effects, and the past is fixed. Causal power resides in what is present. If only the B-series is real, causation must be explained in terms of lawful correlations between earlier and later events, and causal asymmetry is not primitive but derived from the thermodynamic asymmetry of the universe's initial state. Whether that derivation is adequate is contested.
+
+This means the McTaggart debate is not isolated to philosophy of time. It connects to the metaphysics of causation, to philosophy of physics, and to the foundations of our understanding of the physical world. A controversy that looks at first like an argument about grammatical tense turns out to touch nearly every area of analytic metaphysics.

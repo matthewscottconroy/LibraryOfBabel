@@ -1,0 +1,17 @@
+# Review Questions — Particulars and Individuation
+
+1. The bare particular is introduced to do four distinct jobs: ground individuation, provide a subject of predication, support persistence through change, and unify an object's properties. Assess each argument separately. Does the bare particular succeed at all four tasks, or does it genuinely handle only some of them while leaving the others to be resolved by independent means?
+
+2. The characterlessness objection against bare particulars runs as a dilemma: if a bare particular has no qualitative character, it seems indistinguishable from nothing; if it has some character, it is not truly bare. Explain how Sider's deflationary reading and Armstrong's thin particular each attempt to escape this dilemma. Do either of them preserve what the bare-particular theorist was originally trying to explain, or do they merely relabel the phenomenon?
+
+3. The Principle of the Identity of Indiscernibles comes in at least three versions (PII-1, PII-2, PII-3), differing in which properties are included. Black's two-sphere case is standardly taken to refute the strongest version. Identify which version is refuted, and assess whether weak discernibility (Saunders) saves a philosophically substantive version of the principle or merely preserves its letter while conceding its spirit.
+
+4. Haecceities and bare particulars are both proposed as solutions to individuation, but they are different kinds of entity: one is a property, the other a substratum. Explain the ontological difference between Adams's primitive thisness and Bergmann's bare particular. Which does more explanatory work, and which is more vulnerable to the objection that it merely names the phenomenon of individuality rather than explaining it?
+
+5. Adams argues that Lewis's counterpart theory changes the subject when it translates "Nixon could have been a Democrat" into a claim about a Nixon-like individual in another possible world. Reconstruct Adams's objection carefully, then assess Lewis's possible reply that this is simply what de re modal claims amount to. Which account is more faithful to our pre-theoretic intuitions about modal claims about persons?
+
+6. Trope bundle theory is said to handle Black's two-sphere case more naturally than universals bundle theory. Explain the relevant difference: why does universals bundle theory collapse the two spheres into one, while trope bundle theory does not? What exactly is the trope theorist's account of what makes the two spheres numerically distinct, and does that account require any further primitive?
+
+7. Spatiotemporal individuation — the view that objects are individuated by their location — faces two sources of pressure: the hole argument against substantivalism in general relativity, and the indeterminate positions of quantum particles. Explain one of these pressures in detail. How does sophisticated substantivalism attempt to resist it, and what further commitments does that response introduce?
+
+8. The debate about the Principle of the Identity of Indiscernibles, haecceities, and bare particulars all concern whether numerical identity can come apart from qualitative character. How should the conclusion one reaches in this debate bear on the theory of personal identity across time? Specifically, does the possibility or impossibility of qualitatively indistinguishable but numerically distinct objects have implications for fission cases — cases where a person's psychology is duplicated in two distinct bodies?

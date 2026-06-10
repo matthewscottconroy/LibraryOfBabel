@@ -1,0 +1,28 @@
+# The Species Problem
+
+Suppose you are a conservation biologist trying to determine whether a particular population of birds deserves legal protection as a distinct species. Under the Biological Species Concept, you ask whether the population is reproductively isolated from others. Under the Phylogenetic Species Concept, you look for unique shared derived characters. Under the Ecological Species Concept, you examine the ecological niche. Different concepts yield different answers — and the choice can determine whether a population receives protected status or is treated as a variant of a more widespread taxon. The species problem is not merely academic: the metaphysics of species has direct implications for taxonomic practice, evolutionary theory, and conservation biology.
+
+The species problem is the question of what makes organisms members of the same biological species and how species should be defined and individuated. The plurality of species concepts — over twenty have been identified in the biological literature — reflects a genuine and deep difficulty: "species" is doing multiple theoretical jobs across different contexts, and there may not be a single concept adequate for all purposes.
+
+## Major Species Concepts
+
+The **Biological Species Concept** (Mayr, 1942) defines a species as a group of organisms that actually or potentially interbreed and are reproductively isolated from other groups. This grounds species in a real biological property — reproductive compatibility — that is explanatorily significant: reproductive isolation creates genetic cohesion within species and divergence between them. Its problems are well-known. The BSC cannot apply to asexual organisms (bacteria, many plants, some animals). It is difficult to apply to allopatric populations — geographically separated groups that do not encounter each other, so cannot actually interbreed or fail to. Ring species, like the herring gull / lesser black-backed gull complex around the Arctic, present cases where neighboring populations interbreed but distant populations do not — creating a continuum that confounds the BSC. And reproductive isolation is a matter of degree, generating vague species boundaries.
+
+The **Phylogenetic Species Concept** (Cracraft, Nelson) defines a species as the smallest clade — the smallest monophyletic group sharing a unique derived character state (synapomorphy). This emphasizes evolutionary history, allowing the concept to apply to asexual organisms and generating species boundaries by identifying branch points in the evolutionary tree of life. But it produces an enormous number of species — some estimates put the number of bird species at twice traditional taxonomy — and may lack practical utility for conservation without complete phylogenetic data.
+
+The **Ecological Species Concept** (van Valen) defines a species by its ecological niche. This is useful in ecology and community biology, but ecological niches are difficult to define precisely, and different organisms can occupy the same niche without belonging to the same species. The **Cohesion Species Concept** (Templeton) generalizes the BSC by defining species through genetic and demographic exchangeability — the cohesion mechanisms keeping a population together. The **Genotypic Cluster Species Concept** (Mallet) identifies species as groups sharing genetic characters that form a distinct cluster in morphological or genetic space.
+
+## The Pluralism Debate
+
+The species pluralist (Kitcher, Dupré) draws the following conclusion:
+
+- **P1**: Different scientific contexts require different classificatory principles for "species."
+- **P2**: No single species concept satisfies all of these requirements simultaneously.
+- **P3**: All of these contexts involve genuine biological investigation of real biological phenomena.
+- **C**: Therefore, there is no single natural kind "species" — there are multiple legitimate species concepts, each appropriate to different investigative contexts.
+
+The monist (Mayden, de Queiroz) responds with the General Lineage Concept: all legitimate species concepts are attempting to track the same underlying biological reality — a separately evolving metapopulation lineage — and the apparent plurality reflects incomplete operationalizations of this single concept. De Queiroz argues that species are defined by being separately evolving lineages; all other criteria (interbreeding, ecological distinctness, monophyly) are evidence for this fundamental criterion, not competing definitions.
+
+The bearing on natural kinds is direct. If "water = H₂O" is a genuine metaphysical identity grounding a natural kind, is "Homo sapiens = lineage L" a similar identity? The differences are notable: water's essential structure is fixed and static, while species' evolutionary history is dynamic. The essence of water is a microstructural constitution shared by all water molecules; the "essence" of a species, if there is one, is a historical and relational property — belonging to a lineage — not a structural constitution. Any H₂O molecule is water regardless of when or where it occurs. Being Homo sapiens requires belonging to the human lineage — a historical, spatiotemporal requirement.
+
+These differences suggest that species, even if they are natural kinds, are natural kinds of a different type than chemical elements. Some philosophers (Ereshefsky) conclude that species are not natural kinds at all; others (Boyd) apply the HPC framework; and still others (Ghiselin, Hull) conclude that species are individuals rather than kinds — a thesis examined in the next file.

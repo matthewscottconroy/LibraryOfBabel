@@ -1,0 +1,11 @@
+# Fundamentality
+
+What is it for something to be fundamental? The notion of fundamentality is central to metaphysics but resists easy analysis. Intuitively, the fundamental entities and facts are those that do not depend on anything else for their being — they are the ontological bedrock on which everything else rests. The non-fundamental entities and facts are those that are grounded in, or dependent on, the fundamental ones. Physics describes the most fundamental level of nature; chemistry, biology, and psychology describe levels that are progressively less fundamental.
+
+Sider's account of fundamentality connects it to the concept of "structure" — the way the world is "carved at its joints." The fundamental truths are those expressed in perfectly natural terms — terms that correspond to the genuine joints in nature, not mere projections of human interest or convenience. Quine's notion of ontological commitment pointed in this direction: what exists, at the most fundamental level, is what appears in the canonical first-order formulation of our best scientific theory. Sider extends this: the fundamental structure of the world is what is described by the perfectly natural predicates of that theory.
+
+The question of whether there is a fundamental level — whether the grounding hierarchy has a bottom — is a substantive metaphysical question. Infinitism about fundamentality holds that the hierarchy of grounding extends infinitely downward: every level of reality is grounded in a lower level, with no level reaching bedrock. This may seem to make grounding viciously regressive; but some philosophers argue that an infinite well-founded hierarchy is not vicious. Well-foundedness holds that every chain of grounding eventually terminates; whether it terminates at a finite level is a further question.
+
+Monism about fundamentality — the view that there is one fundamental entity (the universe, God, or some other whole) from which everything else is derived — is an alternative to the more common assumption that the fundamental entities are many (particles, fields, simples).
+
+This section examines fundamentality — its formal analysis, the question of whether there is a fundamental level, and the debate between monism and pluralism about fundamentality.

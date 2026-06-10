@@ -1,0 +1,20 @@
+# Intentionality as the Mark of the Mental
+
+Brentano's remarkable thesis, first articulated in his 1874 *Psychology from an Empirical Standpoint*, is that intentionality — the property of being "about" or "directed toward" something — is the distinctive mark of all and only mental states. Every mental state is intentional in this sense: beliefs are about something, desires are for something, perceptions are of something, fears are of something. Physical states lack this directedness. A rock does not point at anything; a neuron does not represent anything except perhaps in a derived sense. Brentano called the relevant property "intentional inexistence" — the object is present in the mental act in a special, immanent way, even if the object does not exist. When you think of Pegasus, Pegasus is not real, but your thought is genuinely directed toward Pegasus.
+
+The thesis stated formally:
+
+- Sufficiency: For any state S, if S is a mental state, then S is intentional — directed toward an intentional object.
+- Necessity: For any state S, if S is intentional, then S is (or is a manifestation of) a mental state.
+
+Together these make intentionality a necessary and sufficient condition for mentality. Both directions face objections. Moods — anxiety, depression, euphoria — often lack a specific object. Raw sensations like pain seem merely painful rather than about anything. Phenomenal qualities seem to be features of experience itself rather than representations of something further. These cases threaten the sufficiency direction. In the other direction, thermostats are in some sense "directed toward" temperature; biological systems represent their environments; photographs and maps are about things. These cases threaten the necessity direction.
+
+Searle addresses the extension problem with a distinction between original and derived intentionality. Thermostats and photographs have derived intentionality — intentionality assigned to them by conscious interpreters. Mental states have original or intrinsic intentionality — they are intentional in their own right, not in virtue of anyone's interpretation. The photograph is about Abraham Lincoln because I say it is; my belief about Lincoln is about him intrinsically. Whether this distinction can be drawn without circular appeal to consciousness — whether original intentionality can be explained without presupposing it — is a central debate in the naturalization project.
+
+## Contemporary Significance and the Meinongian Question
+
+In contemporary analytic philosophy of mind, Brentano's thesis functions as a constraint: any theory of mind must explain what makes mental states intentional. The debates among Fodor (Language of Thought, causal-functional content), Dretske (informational content grounded in natural indication), Millikan (teleological content grounded in proper functions), and Brandom (inferential role semantics) are direct successors of the question Brentano placed at the center of psychology.
+
+Alexius Meinong, another of Brentano's students, drew the implication that Brentano's thesis requires a rich ontology of intentional objects. For Meinong, golden mountains and round squares are genuine objects of thought — they have *Sosein* (being-so, a set of properties) even if they lack *Sein* (being, existence). This Meinongian ontology is still debated; Graham Priest uses paraconsistent logic to make room for impossible objects. Russell rejected the Meinongian ontology by analyzing intentional objects in terms of definite descriptions: "The present king of France is bald" does not describe a non-existent object but asserts that exactly one thing is presently king of France and that thing is bald — which is simply false, not a case of a non-existent object having baldness.
+
+Whether we follow Meinong or Russell on non-existent intentional objects, Brentano's thesis retains its central importance: it identifies intentionality as the phenomenon to be explained and sets the agenda for the entire project of understanding the relationship between mind and world.

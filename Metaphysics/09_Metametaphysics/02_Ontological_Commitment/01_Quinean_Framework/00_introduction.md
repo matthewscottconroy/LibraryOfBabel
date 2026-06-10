@@ -1,0 +1,11 @@
+# The Quinean Framework for Ontological Commitment
+
+Quine's question — "What is there?" — may seem to have the obvious answer "Everything," but the philosophical question behind it is how we determine what our best theories commit us to acknowledging as existing. Quine's answer was to look at the existential commitments of our best scientific theories: what a theory says there is, is determined by what the theory quantifies over. If our best theory of physics quantifies over electrons — says "there is an x such that x is an electron with such-and-such properties" — then ontological commitment to electrons follows.
+
+The slogan "to be is to be the value of a bound variable" expresses Quine's criterion of ontological commitment. A theory is committed to the existence of those entities that must be among the values of its variables for the theory's sentences to be true. This gives a tractable method for determining ontological commitments: translate the theory into first-order logic, and the entities that must exist as values of the bound variables are what the theory is committed to.
+
+Quine's framework presupposes that first-order classical logic is the canonical language for the expression of ontological commitments. This presupposition is not neutral: it excludes from the analysis any ontological categories not expressible in first-order logic, and it makes the question of ontological commitment formally tractable at the cost of theoretical assumptions about the structure of language. Some philosophers have argued for alternatives: second-order quantification for higher-order ontological commitments, plural quantification for collective entities, or free logics that allow reference to non-existent objects.
+
+The most important application of Quine's framework in contemporary metaphysics is the indispensability argument for mathematical Platonism: since our best physical theories quantify over mathematical objects (numbers, sets, functions), we are committed to their existence just as we are committed to the existence of electrons. This argument has generated a rich literature on whether mathematics can be made nominalistic — reformulated without quantification over abstract mathematical objects.
+
+This section examines Quine's framework for ontological commitment, its theoretical presuppositions, and its most important applications.

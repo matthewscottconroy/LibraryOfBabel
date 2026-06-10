@@ -1,0 +1,11 @@
+# Neo-Functionalism
+
+The objections to classic functionalism have driven a family of refined positions that retain the functionalist's core commitment — mental states are defined by their functional roles — while attempting to accommodate the phenomena that the classic theory seemed to miss. These neo-functionalist positions represent the mainstream of contemporary philosophy of mind and cognitive science.
+
+One response to the qualia objection is to build phenomenal character directly into the functional role. Higher-order theories of consciousness — associated with Rosenthal and Lycan — hold that a mental state is conscious if and only if it is the object of a suitable higher-order mental state. A pain is conscious if one has a belief (or a higher-order representation) that one is in that state. Consciousness, on this view, is not a first-order intrinsic feature of mental states but a relational property: being represented by a higher-order state. This is compatible with functionalism if higher-order representations are themselves defined functionally.
+
+Global workspace theory — associated with Baars and Dehaene — holds that consciousness consists in the broadcasting of information to a "global workspace" that makes it available to a wide range of cognitive processes: memory, attention, language, planning. A mental state is conscious if its content is broadcast globally; unconscious states are those that remain local to particular processing subsystems. This is a functionalist theory in that consciousness is analyzed in terms of functional role (global broadcasting) rather than intrinsic qualitative character.
+
+Representationalism about phenomenal consciousness — associated with Dretske, Tye, and Lycan — holds that phenomenal character just is representational content of the right kind: what it is like to see red is the representational content "red" when that content is produced by perception rather than imagination. This allows the phenomenal to be analyzed functionally (in terms of the representational role of mental states) without reducing phenomenal experience to mere computation.
+
+This section examines neo-functionalist positions, the extent to which they address the original objections, and the further difficulties they face.

@@ -1,0 +1,11 @@
+# Non-Reductive Physicalism and Mental Causation
+
+Non-reductive physicalism holds that mental properties are neither identical to nor reducible to physical properties, yet mental events are realized by or supervene on physical events. The challenge is to explain how mental properties can be causally efficacious given this combination of claims.
+
+The most influential defense of non-reductive physicalism in the context of mental causation comes from Stephen Yablo's work on determinables and determinates. Yablo argues that mental properties are determinable properties (like being colored), while physical properties are determinate properties (like being red). The relation between mental and physical is analogous to the relation between a color determinable and a specific shade. The mental property is not identical to the physical but is not a separate cause — it is the higher-level description of the same causal power.
+
+This approach attempts to dissolve the exclusion problem by denying that the mental and physical causes are genuinely distinct in the relevant sense. The mental property is "constitutively" or "essentially" implemented by the physical property — not as a distinct cause alongside the physical, but as a higher-level description of the same causal process. The property of being in pain causes the grimace just as the property of being red causes the observer to select that object — via the physical realizer, but as genuinely causal.
+
+Others, notably Tyler Burge, have argued that psychological explanation is autonomous and cannot be derived from neuroscience because psychological states are individuated by their relations to the environment and to other mental states, not by their physical realizers. This gives a different reason for non-reduction: psychological kinds cross-classify physical kinds in a way that makes psychological laws irreducible.
+
+The debate about non-reductive physicalism is ongoing and touches on fundamental questions about the nature of properties, the analysis of causation, and the relationship between different levels of scientific description. It is one of the most active intersections of metaphysics, philosophy of mind, and philosophy of science.

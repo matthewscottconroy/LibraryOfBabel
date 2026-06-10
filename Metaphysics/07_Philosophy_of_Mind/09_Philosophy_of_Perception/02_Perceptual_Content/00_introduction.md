@@ -1,0 +1,11 @@
+# Perceptual Content
+
+The question of whether perception has content — whether perceptual states represent the world as being a certain way — is central to contemporary philosophy of perception and connects directly to the broader theory of intentionality. If perception has content, then it stands in truth-evaluable relations to the world: a perceptual state can be veridical (accurate, representing the world as it actually is) or illusory (inaccurate, representing the world as it is not). The content of perception is what is represented — what the perceptual state says the world is like.
+
+The intentionalist view — that perceptual states have representational content — has become dominant in contemporary philosophy of perception. On this view, what it is like to see the red apple is constituted by representing the apple as red — where "representing" has the same semantic structure as belief and assertion. The phenomenal character of perceptual experience is explained by its representational content: two perceptual states have the same phenomenal character if and only if they have the same representational content.
+
+The disjunctivist challenge to intentionalism holds that veridical perception and hallucination are fundamentally different in kind, not merely different in truth-value. In veridical perception, the perceiver is in direct contact with the external world; in hallucination, the perceiver is not in contact with anything external but is in a qualitatively similar mental state. These are two radically different types of mental state, not instances of the same state (representing) that differ merely in their satisfaction conditions.
+
+McDowell's influential view holds that perceptual content is conceptual — that what one perceives is structured by one's conceptual capacities. To perceive the apple as red is to have a perceptual state with the conceptual content "that is red." This view connects perception directly to judgment and reason: what makes perception a cognitive achievement rather than mere causal sensitivity is that it has conceptual structure that can figure directly in inference and rational deliberation.
+
+This section examines these competing accounts of perceptual content, assessing their theoretical commitments and their implications for the broader theory of mind.

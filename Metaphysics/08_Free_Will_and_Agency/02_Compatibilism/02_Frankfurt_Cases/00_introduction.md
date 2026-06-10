@@ -1,0 +1,11 @@
+# Frankfurt Cases and the Principle of Alternative Possibilities
+
+Harry Frankfurt's 1969 paper "Alternate Possibilities and Moral Responsibility" is one of the most influential pieces of philosophical argumentation in the last century. Frankfurt targeted what he called the Principle of Alternative Possibilities (PAP): the claim that a person is morally responsible for an action only if she could have done otherwise. This principle seems undeniable — how can you be responsible for something you were unable to avoid? — yet Frankfurt constructed thought experiments designed to show that it is false.
+
+A Frankfurt case: Jones decides to vote for the Democratic candidate, and does so. But unbeknownst to Jones, Black — a neuroscientist sympathetic to the Democrats — has implanted a device in Jones's brain that would have caused Jones to vote Democrat had Jones been about to vote otherwise. Black never needs to intervene, because Jones votes Democrat entirely on his own. Jones could not have voted otherwise (Black would have prevented it), yet intuitively Jones seems fully responsible for his vote. If so, the Principle of Alternative Possibilities is false: responsibility does not require the ability to do otherwise.
+
+The philosophical consequences of Frankfurt's result are significant. Incompatibilists often rely on PAP: if determinism eliminates the ability to do otherwise, and if responsibility requires the ability to do otherwise, then determinism eliminates responsibility. If Frankfurt is right that responsibility does not require the ability to do otherwise, the incompatibilist's argument is undercut even before we settle the question of determinism.
+
+Responses to Frankfurt cases have been extensive and sophisticated. The "flicker of freedom" response argues that even in Frankfurt cases, there is a residual ability to do otherwise — some counterfactual circumstance in which the agent would have acted differently. The "dilemma defense" argues that Frankfurt cases either rely on a deterministic prior sign (in which case they assume determinism) or an indeterministic prior sign (in which case the agent could still have done otherwise at the moment of decision).
+
+This section examines Frankfurt cases, the responses to them, and their implications for the free will debate.

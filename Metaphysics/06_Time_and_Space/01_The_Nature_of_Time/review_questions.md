@@ -1,0 +1,17 @@
+# Review Questions — The Nature of Time
+
+1. McTaggart argues that the B-series alone cannot constitute genuine time because a pure ordering by "earlier than" is analogous to a spatial ordering — static, directionless, without flow. What exactly does the A-series add that is supposed to remedy this? And is McTaggart right that the B-series genuinely lacks what time requires, or is his analogy to spatial ordering misleading?
+
+2. McTaggart's regress attempts to show that every effort to resolve the contradiction among A-properties simply reintroduces A-properties at a higher level. Prior responds by treating tense operators as primitive rather than as abbreviations for quantifiers over times. Does Prior's tense logic actually block the regress, or does it merely relocate it? What would a committed B-theorist say in reply?
+
+3. The B-theory handles "temporary intrinsic properties" either by making them relational (green-at-t₁) or by invoking temporal parts. The A-theorist charges that neither option captures genuine intrinsic change. Evaluate this charge: does four-dimensionalism change the subject, or does it provide a satisfying alternative account of what change amounts to?
+
+4. The Rietdijk-Putnam argument uses the relativity of simultaneity to conclude that presentism is inconsistent with special relativity. Neo-Newtonian presentists respond by positing a metaphysically privileged frame that physics does not reveal. What is the cost of this move, and does it differ in kind from the cost the B-theorist pays when dismissing the phenomenological datum of relief as a mere artifact of cognitive architecture?
+
+5. The growing block appears to thread the needle between presentism (which loses truthmakers for past-tensed statements) and eternalism (which struggles to explain why the present feels special). Examine Button's "lost in the past" objection: if a past observer's phenomenology is indistinguishable from a present observer's, what philosophical work does the distinction between being "at the edge" and being "in the interior" actually do?
+
+6. Prior's "Thank Goodness That's Over" argument is pressed by both A-theorists and presentists as evidence for an irreducible "now." Mellor replies that the phenomenology is explained by our cognitive architecture. Assess this exchange: is the phenomenological argument independent evidence for the A-theory, or does it beg the question against the B-theorist by assuming that phenomenology tracks mind-independent metaphysical structure?
+
+7. The moving spotlight accepts the block universe but adds an objective "nowness" that migrates through it. Critics charge that any motion of the spotlight requires a meta-time against which to measure it, generating a regress that mirrors McTaggart's original argument. Skow responds by treating the migration of nowness as a primitive, unexplained fact. Compare this primitivism with the B-theorist's dismissal of passage as illusory: which view does more explanatory work, and which pays the higher theoretical cost?
+
+8. The open future, on the growing block view, is supposed to ground libertarian free will — my future actions are not yet real, so I am genuinely choosing among alternatives. But the chapter notes that an open future is necessary but not sufficient for libertarian free will: randomness is not agency. Does grounding the openness of the future in the growing block's ontology advance the free will debate, or does it merely shift the difficulty from the metaphysics of time to the metaphysics of agency?

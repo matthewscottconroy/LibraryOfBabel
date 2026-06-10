@@ -1,0 +1,11 @@
+# Causal Explanation
+
+To explain why something happened is, in the most common case, to give its cause. But the relationship between causation and explanation is more complex than a simple equation of the two would suggest. Not every cause is an explanatory cause; not every explanation is causal; and the standards for what counts as an explanation vary across scientific disciplines in ways that resist a unified account.
+
+The covering-law model of explanation — associated with Hempel — holds that to explain an event is to show that it was to be expected given the laws of nature and the relevant initial conditions. Explanation is a logical relation: the explanandum (what is explained) follows deductively (in deterministic contexts) or with high probability (in probabilistic contexts) from the explanans (the laws plus initial conditions). The covering-law model makes the connection between explanation and causation explicit: a causal explanation is one where the laws and conditions cited describe the causal antecedents of the event.
+
+The covering-law model was criticized for allowing explanations that intuitively seem backwards: the length of a shadow is explained by the height of the flagpole plus the laws of optics, but the height of the flagpole is also "explained" (in the covering-law sense) by the length of the shadow plus the same laws. Only the former is explanatory; the asymmetry is causal, not logical. This shows that explanation has an asymmetry that the covering-law model cannot capture without an independent account of causal direction.
+
+Unificationist theories of explanation — associated with Friedman and Kitcher — hold that explanation consists in reducing the number of independent phenomena we need to take as brute facts. The deeper an explanation, the more it unifies; and the ideal of scientific explanation is a maximally unified theory that derives all phenomena from a minimal set of laws and principles. This view makes explanation a holistic matter — the explanation of any particular fact depends on the global structure of our best theory.
+
+This section examines the main theories of causal explanation and their relationship to the metaphysics of causation.

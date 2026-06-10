@@ -1,0 +1,17 @@
+# Review Questions — Constitution and Coincidence
+
+1. Baker's constitution view holds that the statue and the lump are numerically distinct objects that are nonetheless co-located and share all their physical parts. The view is meant to honor both the Leibniz's Law argument for distinctness and the intuition that only one object is "there." Does it succeed on both counts, or does honoring one intuition come at the price of undermining the other?
+
+2. The "too many thinkers" problem arises when constitution theory is applied to persons: if the person and the organism are distinct but co-located, there are two complete thinkers in the same skull. Baker's response is that the organism thinks only derivatively, by virtue of constituting the person. What work does "derivatively" do here, and is there a principled way to cash it out that does not either collapse the distinction between person and organism or implicitly eliminate the organism as a genuine thinker?
+
+3. Constitution theory requires rejecting mereological extensionality: two objects (the statue and the lump) share all their proper parts but are not identical. Fine's response is to relativize parthood to principles of unity, so that extensionality holds within each domain but not across them. Compare Baker's and Fine's strategies for living with non-extensionality. Which is more metaphysically costly, and why?
+
+4. The four-dimensionalist resolves the coincidence puzzle by giving the statue and the lump different temporal parts: the lump's four-dimensional worm extends before the casting; the statue's does not. This preserves mereological extensionality without a constitution relation. What does this solution require the endurantist to reject, and is rejecting it a higher or lower cost than accepting constitution?
+
+5. The vagueness of parthood threatens the formal foundations of classical mereology in a way that vagueness in composition does not. Explain why this is so—why vague composition is a problem about when fusions exist, while vague parthood is a problem about the primitive relation itself—and assess which generates a more serious challenge to the mereological enterprise.
+
+6. Sider's argument against restricted composition proceeds through the claim that ontological vagueness is impossible: either a composite object determinately exists or it determinately does not. Reconstruct the argument in full and then identify the premise where an opponent has the strongest grounds for resistance. Does blocking that premise require accepting a revisionary view of logic, or is it available to a conservative mereologist?
+
+7. The sharp-cutoffs problem and the vagueness problem are structurally related but distinct: the cutoff problem concerns the arbitrariness of any transition from composing to not-composing, while the vagueness problem concerns whether such transitions can even be indeterminate. Show how these two pressures jointly constrain the space of restricted composition views, and identify what resources—if any—a restricted-composition theorist has to resist both simultaneously.
+
+8. The colocation puzzle, vague parthood, and the temporal constitution puzzle all turn on the interaction between mereological structure and identity. What common thread runs through all three? Does approaching them together reveal a systematic tension in classical mereology's commitments, or are they best treated as independent problems requiring independent solutions?

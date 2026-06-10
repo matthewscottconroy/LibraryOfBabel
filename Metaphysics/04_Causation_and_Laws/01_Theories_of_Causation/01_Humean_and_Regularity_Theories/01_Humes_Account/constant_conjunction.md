@@ -1,0 +1,13 @@
+# Constant Conjunction and Its Limits
+
+The regularity theory of causation, distilled from Hume, holds that for C to cause E is for events of type C to be constantly conjoined with events of type E: whenever a C-type event occurs, an E-type event follows. This analysis has the virtue of parsimony. It requires no mysterious necessities, no irreducible causal powers, no non-Humean metaphysical glue. The world consists of events arranged in patterns, and causation just is the pattern.
+
+But the constant conjunction account faces several serious objections that have shaped subsequent theorizing. The most pressing is the problem of distinguishing causal regularities from accidental regularities. Consider: all gold spheres are less than one mile in diameter, and all spheres of enriched uranium are also less than one mile in diameter (for safety reasons). The uranium regularity is arguably nomological — it reflects a physical law — while the gold sphere regularity is accidental. Yet the simple regularity account cannot draw this distinction: both involve perfect constant conjunctions.
+
+A related problem is the problem of spurious causation. Day regularly precedes night, but day does not cause night. The ticking of a clock is constantly conjoined with the tocking, but neither causes the other. Both are effects of a common underlying mechanism. The regularity account seems committed to calling these cases genuine causal relationships, which is unacceptable.
+
+Mill's methods, developed in the *System of Logic* (1843), represent an early attempt to give the regularity account more structure. Mill identified methods — agreement, difference, joint method, concomitant variation — for identifying causal factors by looking for what is present when an effect occurs and absent when it is not. But these methods presuppose that we have already identified the relevant factors, which requires background knowledge about what kinds of things are causally relevant.
+
+J.L. Mackie's INUS condition (insufficient but necessary part of an unnecessary but sufficient condition) was a more sophisticated regularity analysis. For Mackie, a cause is an INUS condition: it is not sufficient on its own for the effect, but it is a necessary part of some sufficient condition that is not itself necessary, because there are other sufficient conditions for the same effect. This captures the intuition that causes are parts of minimal sufficient conditions, handling cases of overdetermination and alternative causes.
+
+Despite these refinements, most contemporary philosophers have moved away from pure regularity analyses toward counterfactual theories or causal powers approaches, treating Humean constant conjunction as a symptom of causation rather than its essence.

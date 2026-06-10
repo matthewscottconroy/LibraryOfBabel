@@ -1,0 +1,11 @@
+# The Inference Problem for Necessitarianism
+
+Lewis's "What is a Law of Nature?" raised what has become known as the inference problem for Armstrong's necessitation account of laws. The problem is simple but sharp: if laws are second-order relations of necessitation between universals, what guarantees that these relations actually produce the first-order regularities we observe?
+
+Here is the worry in a nutshell. Armstrong posits a relation N holding between universals F and G, written N(F, G). This is supposed to explain why all F's are G's. But the relation N is a primitive — it is not analyzed in terms of anything more fundamental. What is it about N that ensures that individual instances of F are instances of G? If N just is the relation of necessitation, we seem to be saying that F's are G's because they are necessitated to be so — which is circular. If N is something more than this, we need to be told what.
+
+Lewis pressed the point with a rhetorical question: What prevents a world with N(F, G) from being a world where some F is not G? If N is simply a relation between universals — a higher-order entity — it is not clear why it has any influence on individual instances. Relations between universals do not obviously constrain the distribution of properties among particulars unless there is an additional principle connecting the two levels.
+
+Armstrong's response was to insist that N is a genuine necessitation relation — one that, by its very nature, ensures that F's are G's. Refusing to accept this is like refusing to accept that modus ponens is a valid inference form: at some point, primitive connections must be accepted. Armstrong also invoked the analogy of a dispositional property: just as having a disposition ensures a certain counterfactual is true, having the N relation between universals ensures the regularity holds.
+
+Many philosophers find this response unsatisfying. The comparison to dispositions may actually strengthen the critic's hand: if dispositional properties face their own analysis problems, invoking them does not help. The debate continues, with some taking the inference problem to be fatal to the necessitation account and others viewing it as one of many primitive elements that any ontology must accept.

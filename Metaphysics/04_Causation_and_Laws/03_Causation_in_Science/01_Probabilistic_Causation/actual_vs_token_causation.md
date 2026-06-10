@@ -1,0 +1,11 @@
+# Actual Causation and Token Causation
+
+A distinction that runs through debates about causation is the distinction between type causation (or general causation) and token causation (or actual causation). Type causation concerns relations between types of events: smoking causes cancer, heating causes expansion, stress causes anxiety. Token causation concerns specific individual events: this particular cigarette caused this particular cancer in this particular patient.
+
+These are logically independent. It is possible for C-type events to cause E-type events (type causation) without any particular C event being the token cause of any particular E event. Conversely — more controversially — it might be possible for a token C to cause a token E without C-type events being causally relevant to E-type events in general.
+
+Most philosophical analyses of causation focus on token causation, and this creates difficulties when causation is probabilistic. In the deterministic case, if the laws are deterministic and the initial conditions obtain, the effect follows necessarily. In the probabilistic case, the cause raises the probability of the effect, but the effect may or may not occur. When the effect does occur, was it caused by the probability-raising factor?
+
+This is the problem of "actual causation" in probabilistic contexts. Suppose a gunman shoots at a target with a 50% chance of hitting. The bullet hits. Was the firing of the gun the cause of the hit? Most would say yes — the firing caused the hit even though it only raised the probability. But now suppose the probability was 0.1%. Is the rare event still caused by the probability-raising factor? The intuitive answer is still yes in many contexts, but the probability seems to matter in assessing responsibility.
+
+Ned Hall has argued that there are in fact two distinct concepts of causation that we conflate: "production" (the causal process that generates the effect) and "dependence" (the counterfactual or probabilistic dependence of the effect on the cause). These come apart in cases of preemption and overdetermination, and they may require separate analyses. Token causation is primarily a matter of production; type causation is primarily a matter of dependence.

@@ -1,0 +1,11 @@
+# Nominalism
+
+The nominalist thinks the realist about universals is multiply mistaken: there are no universals, there are no abstract objects, and the entire apparatus of Platonic or Aristotelian realism is an explanatory wheel that turns nothing. All that exists is particular individuals — this rose, that sunset — and our universal terms ("red," "triangular," "mammal") are just words, or perhaps concepts, with no corresponding entity in the world. The nominalist's challenge is to explain everything that universals were supposed to explain, but using only particular individuals.
+
+The most straightforward nominalism — predicate nominalism — holds that "red" is true of something simply by virtue of the existence of the predicate "red" and the fact that the thing falls under it. But this seems to get things backwards: we apply the predicate because the thing is red, not the other way around. Resemblance nominalism is more sophisticated: there are no universals, but there are genuine resemblance relations among particulars, and what makes something red is that it resembles all paradigmatically red things (or sufficiently many of them) sufficiently closely. The resemblance relation is primitive and not further analyzable.
+
+The main objection to resemblance nominalism is the regress of resemblances. If two red roses resemble each other, this resemblance is either a universal (which the nominalist cannot admit) or a particular resemblance-trope (which requires a further account of how resemblances themselves resemble each other). Class nominalism — the view that being red just is being a member of the class of red things — faces a different problem: what determines which class is the relevant one, if not the shared property?
+
+Contemporary nominalism has developed sophisticated tools to handle these objections: Goodman's calculus of individuals, Lewis's counterpart theory, and mereological approaches all offer nominalist-friendly resources. The question is whether these resources are sufficient — whether they genuinely eliminate the need for universals or merely disguise the commitment under a different label.
+
+This section examines the major versions of nominalism with critical attention to their resources and their limitations.

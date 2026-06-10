@@ -1,0 +1,11 @@
+# Moral Realism
+
+Moral realism is the view that there are objective moral facts — truths about what is right, wrong, good, and bad — that are independent of any individual's or society's attitudes, beliefs, or practices. Just as it is objectively true that the Earth is spherical, independently of what anyone believes, so (on the moral realist's view) it is objectively true that gratuitous cruelty is wrong, independently of what anyone believes or how any society is organized.
+
+The case for moral realism begins with the phenomenology of moral experience: when we judge that something is wrong, we seem to be making a genuine claim about the world, not merely expressing a feeling or issuing a command. The wrongness of gratuitous cruelty does not seem like a matter of taste or convention; it seems like a real feature of acts of gratuitous cruelty, as mind-independent as their physical features. And when we disagree morally — when one person says abortion is wrong and another says it is not — we seem to be disagreeing about facts, not merely expressing incompatible preferences.
+
+Non-naturalist moral realism (associated with Moore, Prichard, and contemporary intuitionists) holds that moral properties (goodness, rightness) are sui generis — irreducibly normative properties that are not identical to any natural properties. The "open question argument" (Moore) shows that no natural description of an action (produces pleasure, maximizes welfare, promotes flourishing) is identical to its moral description: it is always an open question whether what produces pleasure is thereby good. This suggests that goodness is not any natural property.
+
+Naturalist moral realism holds that moral properties are identical to natural properties, despite Moore's argument. Cornell realism (Sturgeon, Railton) holds that moral properties are complex natural properties — being good is being the kind of thing that promotes flourishing or satisfies the ideally informed preferences of rational agents. These natural properties are mind-independent and scientifically respectable.
+
+This section examines moral realism — its varieties, its motivations, and the challenges it faces from error theory, expressivism, and constructivism.

@@ -1,0 +1,11 @@
+# Faith and Reason
+
+The relationship between faith and reason is the oldest problem in the philosophy of religion. Faith, in the theological tradition, is not merely belief on insufficient evidence — it is a commitment to God and to the claims of revelation that goes beyond what pure reason alone can establish. Reason is the capacity for logical inference and evidence-based inquiry — the faculty by which we discover mathematical truths, evaluate empirical claims, and assess arguments. Are these two cognitive faculties in conflict, or can they be harmonized?
+
+The fideist tradition — associated with Tertullian's "Credo quia absurdum" (I believe because it is absurd), with Pascal's wager, and with Kierkegaard's "leap of faith" — holds that faith is precisely the commitment to something that reason cannot reach. To demand that faith be rationally supported is to misunderstand its nature: faith is a commitment of the will, a trust in God, that transcends the deliverances of reason. Kierkegaard held that the religious life — the commitment to a personal God — requires a "leap" over the rational and the ethical to a relationship that is by its nature beyond reason's grasp.
+
+The natural theology tradition — associated with Aquinas's "Five Ways," with Clarke and Butler in the Enlightenment, and with contemporary analytic philosophy of religion — holds that reason can establish the existence of God, the soul's immortality, and the foundations of ethics, without appeal to revelation. Faith then builds on this rational foundation, extending it through the acceptance of revealed truths. This "faith seeking understanding" model (Anselm) treats faith as complementary to reason rather than in opposition to it.
+
+Reformed epistemology (Plantinga, Wolterstorff, Alston) offers a middle way: belief in God can be "properly basic" — rationally held without being based on evidence or argument — if it is formed by a reliable belief-forming process. Just as perceptual beliefs are basic (not based on evidence but directly produced by experience), so belief in God can be basic if it is produced by an appropriate cognitive faculty.
+
+This section examines the faith-reason relationship, the fideist and natural theology traditions, and reformed epistemology.

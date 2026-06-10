@@ -1,0 +1,11 @@
+# Classic Functionalism
+
+Functionalism is the view that mental states are defined by their causal-functional roles — by what causes them, what they cause, and how they interact with other mental states — rather than by their intrinsic physical composition. Pain is whatever state is typically caused by tissue damage, causes avoidance behavior and the desire to alleviate the damage, and interacts with other states in characteristic ways. On this analysis, what makes a state a pain is its functional profile, not what it is made of: neurons, silicon circuits, or anything else could in principle be in pain, provided the relevant functional organization is present.
+
+Functionalism was developed by Putnam in the 1960s precisely as a response to the interaction problem of substance dualism (functionalism requires no non-physical substance) and the multiple realizability problem for type identity theory (functionalism allows the same mental type to be realized by different physical types). The functionalist picture fit naturally with the emerging computer science metaphor for the mind: just as software can run on different hardware, mental states are "programs" that can be "implemented" in different physical substrates.
+
+Turing's test for machine intelligence was an implicit functionalism: a machine that passes the test — that can engage in arbitrary conversation indistinguishably from a human — should be counted as intelligent, because intelligence is a matter of functional performance, not physical composition. Functionalism thus opened the possibility of genuine artificial intelligence and provided a framework for cognitive science: the study of the mind as a computational system.
+
+The type of functionalism most influential in philosophy — Lewisian functional analysis — holds that the folk-psychological concepts of belief, desire, and sensation are defined by their roles in folk psychological theory: they are whatever internal states play the functional roles that folk psychology assigns to them. Mental state terms are implicitly defined by their place in the network of folk psychological generalizations.
+
+This section examines classic functionalism, its motivations, its theoretical advantages, and the initial objections that set the stage for later criticisms.

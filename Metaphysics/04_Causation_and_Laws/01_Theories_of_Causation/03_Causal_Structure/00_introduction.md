@@ -1,0 +1,11 @@
+# Causal Structure
+
+Causal structure is the pattern of causal relations among events in a system — which events cause which other events, what the direction of causation is, how the system would behave under interventions. The study of causal structure has been transformed by the development of formal tools — directed acyclic graphs (DAGs), structural equations, the interventionist framework of Pearl and Woodward — that allow causal hypotheses to be stated with precision and tested against observational and experimental data.
+
+The interventionist theory of causation, developed by James Woodward, holds that causation is to be understood in terms of what would happen under hypothetical interventions. C causes E if there is a possible intervention that changes C and, as a result of that change (without other causal pathways), changes E. This is not a reductive analysis — it uses causal notions (intervention, as opposed to mere counterfactual change) — but it is illuminating because it connects the metaphysics of causation to the methodology of causal inference in science. Scientists discover causal structure by designing interventions — experiments — that can distinguish genuine causal relations from mere correlations.
+
+The structural equations approach models causal systems as sets of equations where each variable is determined by the variables that are its direct causes, plus an error term. A causal model represents a set of counterfactual claims: what would happen to the values of downstream variables if upstream variables were fixed at particular values by intervention. This framework allows precise analysis of preemption, overdetermination, and complex causal pathways, and connects naturally to the statistical methods used in the biological and social sciences.
+
+One of the most important results of the formal approach is the identification of necessary and sufficient conditions for inferring causal structure from observational data. The d-separation criterion, Markov conditions, and faithfulness assumptions together determine what causal conclusions can be drawn from patterns of correlation — and where they underdetermine the true causal structure.
+
+This section examines causal structure formally and philosophically, assessing the interventionist framework and the limits of causal inference.

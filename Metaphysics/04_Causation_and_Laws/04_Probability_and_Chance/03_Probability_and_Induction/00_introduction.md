@@ -1,0 +1,11 @@
+# Probability and Induction
+
+The problem of induction — Hume's observation that inferences from observed cases to unobserved ones are not logically guaranteed — connects to the metaphysics of probability at a deep level. If we ask why we are justified in thinking that past regularities will continue into the future, we are asking for a justification of inductive inference; and the most natural response invokes probability: the observed regularity makes it probable that future cases will conform. But what grounds this probability claim?
+
+The Bayesian approach to induction holds that learning from experience is a matter of updating prior probabilities in light of new evidence using Bayes's theorem. If one's prior credence that all emeralds are green is 0.8, and one observes a hundred green emeralds, Bayesian updating (combined with the likelihood ratio of observing these emeralds given that all emeralds are green versus some alternatives) raises the credence further. Learning from experience is rational because it conforms to the probability calculus.
+
+The problem of the priors is the central difficulty: where do the prior probabilities come from? If they are objective — grounded in the structure of the world — then Bayesianism inherits the metaphysical burden of giving an account of objective priors. If they are subjective — merely a matter of individual starting points — then different agents with different priors will reach different posteriors even after seeing the same evidence, and the rationality of induction appears relative to the agent's subjective starting point.
+
+Goodman's "new riddle of induction" — the problem of grue — shows that not all predicates are equally project-able: "green" is naturally projected to future cases, while "grue" (true of things examined before some time t and found green, or not examined before t and blue) is not, even though both predicates are confirmed by the same observations. This requires an account of which predicates are "law-like" — which is itself a question about the metaphysics of natural kinds and the structure of the world.
+
+This section examines the intersection of probability and induction, the Bayesian framework, and the metaphysical commitments required for a satisfactory account of inductive inference.

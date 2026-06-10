@@ -1,0 +1,11 @@
+# Enactivism and Embodiment
+
+The representationalist paradigm that has dominated philosophy of mind and cognitive science treats the brain as a computer processing inputs and producing outputs, with mental representations as the medium. Perception, on this picture, produces perceptual representations; cognition manipulates those representations; action results from the outputs. The mind is fundamentally a processor of internal representations, and the body and the environment are merely sources of input and targets of output.
+
+Enactivism — associated with Varela, Thompson, and Maturana, and more recently with Noë and Hutto and Myin — rejects this representationalist framework. On the enactivist view, perception and cognition are not primarily matters of generating and manipulating internal representations; they are forms of skilled, embodied engagement with the environment. To perceive is not to receive a sensory representation and process it; it is to exercise a practical skill — a know-how — for acting in and interacting with the world. The classic question "How does the brain generate a representation of the external world?" is replaced by "How does the organism couple with its environment in order to act effectively?"
+
+Merleau-Ponty's phenomenology of embodiment is the historical source of many enactivist ideas. For Merleau-Ponty, the body is not an object in the world perceived by an inner mind; it is the very medium through which we perceive and engage with the world. Skilled bodily action — driving a car, playing piano, catching a ball — is not guided by explicit representations; it is embodied knowledge, a form of intelligence embedded in the body itself. The boundary between mind and world, on this view, is not at the skull but at the boundary of the skillfully acting body.
+
+The extended mind thesis — associated with Clark and Chalmers — is a related but distinct idea: the mind can extend beyond the skull to include parts of the environment that are appropriately integrated into cognitive processing. A notebook that an Alzheimer's patient uses to store memories is, on this view, part of their cognitive system.
+
+This section examines enactivism, embodied cognition, and the extended mind, assessing whether they genuinely transform the mind-body problem or merely redescribe the same phenomena.

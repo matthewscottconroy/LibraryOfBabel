@@ -1,0 +1,11 @@
+# Substance Dualism
+
+Substance dualism — the view that minds and bodies are distinct kinds of substance — is widely regarded as a defeated philosophical position. The combination of the interaction problem (how can non-physical minds causally interact with physical bodies?) and the explanatory success of neuroscience (which correlates mental states with neural states without invoking any non-physical substance) seems to have rendered substance dualism untenable. Yet the position has defenders among contemporary philosophers, and understanding why requires taking seriously the genuine difficulties that motivate it.
+
+The strongest motivation for substance dualism is the first-person character of conscious experience. When I am in pain, there is something it is like to be me — a subjective character to my experience that cannot, it seems, be fully captured by any objective physical description. My pain is the feeling of pain, not just the C-fiber firing — and "feeling" is irreducibly first-personal. Substance dualists argue that this subjective, qualitative character of experience is incompatible with any purely physical account: no matter how complete our physical description of the brain, it will always leave out what it is like to be in pain.
+
+Contemporary defenders of substance dualism include those who argue that the "hard problem" of consciousness — explaining why physical processes give rise to subjective experience — is not merely difficult but impossible to solve within a physicalist framework. If this is right, then any adequate account of the mind must posit something beyond the physical.
+
+The challenges for substance dualism remain formidable. The interaction problem is the most immediate: if minds are non-physical, they cannot participate in the causal structure of the physical world without violating physical causal closure. Epiphenomenalism — the view that minds are causally inefficacious byproducts of physical processes — escapes the interaction problem but at the cost of making mental causation illusory, which is deeply implausible.
+
+This section examines contemporary substance dualism, its motivations, its forms, and the challenges it must overcome.

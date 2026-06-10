@@ -1,0 +1,21 @@
+# Putnam's Multiple Realizability Objection
+
+Imagine pain in an octopus. Octopi have nervous systems radically different from ours — different neurotransmitters, different structural organization, no C-fibers. Yet there is good reason to think octopi feel pain. They avoid damaging stimuli, show behavioral distress, exhibit something like wound-guarding behavior. If they are in pain — if the same mental state occurs in octopi that occurs in humans who stub their toes — then pain cannot be identical to C-fiber firing, because octopi have no C-fibers. Whatever pain is, it must be something that both C-fiber systems and octopus nerve systems can instantiate. This is the core of Hilary Putnam's multiple realizability argument, developed in "Psychological Predicates" (1967) and elaborated in *Mind, Language and Reality* (1975), and it effectively ended the dominance of type identity theory for two decades.
+
+The argument can be stated precisely:
+
+- P1: Pain is a single mental state type — the same property is instantiated by humans, octopi, and perhaps silicon-based systems.
+- P2: If pain is identical to a physical type T, then every pain is a T-state (by Leibniz's Law and the necessity of identity).
+- P3: Human pain is realized by C-fiber firing; octopus pain is realized by a different physical state; silicon pain (if possible) is realized by yet another physical state.
+- P4: C-fiber firing, the octopus neural state, and the silicon state are different physical types — there is no single physical type common to all of them.
+- C: There is no single physical type T such that pain = T; pain is not identical to any physical type.
+
+The argument's force depends on the truth of P1 — that pain is a univocal mental state across species — and P4 — that the realizers are genuinely different physical types at the relevant level of description. Both have been contested, and we will examine the responses shortly. But first, notice Putnam's positive proposal: mental states are functional states, defined by their causal roles — causal relations to sensory inputs, behavioral outputs, and other mental states. Pain is whatever state is typically caused by tissue damage, causes avoidance behavior, focuses attention on the damage site, and interacts with belief and desire in the characteristic ways. This functional characterization is neutral about physical substrate. Any physical system that instantiates the relevant functional organization instantiates the mental state — just as the same computing function can be implemented in different hardware architectures.
+
+## Putnam's Later Recantation and Its Significance
+
+Remarkably, Putnam later abandoned functionalism and the multiple realizability argument in "The Importance of Being Austin" (1983) and subsequent work. He came to believe that functionalism was committed to a form of abstraction that could not account for the semantic properties of mental states — their intentional connection to the world — and that the very notion of "functional role" was ambiguous and potentially circular. His later work moved toward a kind of semantic externalism and a naturalistic but non-reductive account of mind and meaning.
+
+This recantation is philosophically significant. It shows that even the architect of the multiple realizability argument came to have doubts about its positive implications. The argument may successfully refute type identity without establishing functionalism, if functionalism itself faces insurmountable problems. We should therefore separate the negative claim (type identity is false, or at least unsupported) from the positive claim (functionalism is the right alternative). The subsequent debate has been largely about this separation.
+
+Jaegwon Kim later argued that if mental properties are genuinely distinct from physical properties — as multiple realizability suggests — then a serious problem of mental causation arises, the exclusion problem, that may be worse than type identity. On Kim's view, the choice is between identity theory (which preserves mental causation) and epiphenomenalism (which denies it). Multiple realizability, which seemed to deliver us from identity theory, may actually lead to the worse alternative.

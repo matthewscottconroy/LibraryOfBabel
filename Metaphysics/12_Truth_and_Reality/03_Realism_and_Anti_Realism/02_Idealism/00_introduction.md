@@ -1,0 +1,11 @@
+# Idealism
+
+Idealism is the view that reality is fundamentally mental in character — that what exists is mind, experience, or ideas, rather than matter independent of any mind. This is a position with deep roots in the history of philosophy — in Plato's view that the Forms are the most real things, in Descartes's epistemic starting point in the certainty of thought, in Berkeley's assertion that to be is to be perceived, in Kant's transcendental idealism, in Hegel's absolute idealism — and it has attracted renewed interest in contemporary analytic metaphysics.
+
+Berkeley's subjective idealism is the most radical version: material objects just are bundles of ideas; the apple I see is not a material object existing independently of any mind but a collection of sensory experiences (color, shape, smell, texture) that are held together and given stability by God's continuing perception. "To be is to be perceived" (esse est percipi): existence just is being perceived. Berkeley defended this view against the commonsense objection ("Does the tree fall in the forest?") by holding that God perceives everything, providing the permanent framework of experience within which human perceiving occurs.
+
+Kant's transcendental idealism is more moderate and more philosophically influential. Kant held that our experience of the world is shaped by the a priori forms of intuition (space and time) and the categories of understanding (causation, substance, quantity), which the mind brings to experience. Things as they appear to us — the phenomenal world — are shaped by these mental contributions; things as they are in themselves (the noumenal world) are unknowable. This is idealism in the sense that the form of the experienced world is mind-dependent, not in the sense that there is nothing "out there" — there is, but we cannot know its nature.
+
+Contemporary idealism — "analytic idealism" (Kastrup) or "panpsychism" with an idealist twist — grounds the entire physical world in consciousness, inverting the usual materialist assumption that consciousness is grounded in the physical.
+
+This section examines idealism in its historical and contemporary forms, the arguments for and against it, and its relationship to contemporary debates in the metaphysics of mind.

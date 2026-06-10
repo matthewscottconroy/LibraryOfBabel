@@ -1,0 +1,11 @@
+# Correspondence Theory of Truth
+
+The correspondence theory of truth is perhaps the most natural view of what truth consists in: a proposition is true if and only if it corresponds to a fact, to the way things are in the world. "The cat is on the mat" is true because there is a cat, and a mat, and the cat is on the mat — a fact in the world that makes the sentence true. Truth is a relation between language (or thought) and the world; and the worldly side of this relation — the facts — are what truth corresponds to.
+
+Aristotle's formulation is the canonical statement: "to say of what is that it is, or of what is not that it is not, is true." The true statement says things are as they are; the false statement says they are otherwise. This seems right — indeed, it seems to be the merest common sense. The philosophical challenge is to make it precise: what are the "facts" that true propositions correspond to, and what is the "correspondence" relation?
+
+Russell and early Wittgenstein developed a version of the correspondence theory within the framework of logical atomism. The world is composed of atomic facts — states of affairs in which objects stand in relations. An atomic proposition is true if it "pictures" or corresponds to an atomic fact: the proposition "a is R to b" is true if a stands in the relation R to b. Complex propositions are truth-functions of atomic propositions.
+
+The main difficulties for correspondence theories concern the nature of facts and the correspondence relation. Facts are puzzling entities: if we say "The cat is on the mat" is made true by the fact that the cat is on the mat, what exactly is this fact? It seems to be a structured entity — not just the cat, not just the mat, not just the on-relation, but some combination of them. And the correspondence relation between the proposition and the fact seems equally puzzling: it is not identity (the proposition is not the fact), and it is not arbitrary (there must be something that makes the proposition correspond to this fact rather than any other).
+
+This section examines the correspondence theory — its formulations, its philosophical difficulties, and its relationship to the metaphysics of facts.

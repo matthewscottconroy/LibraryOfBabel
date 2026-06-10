@@ -1,0 +1,11 @@
+# Causal Process Theories: Salmon and Dowe
+
+Causal process theories shift attention from causal events and their regularities to causal processes: spatiotemporally continuous paths of objects and energy that constitute the underlying physical basis of causation. This approach was developed by Wesley Salmon and refined by Phil Dowe.
+
+Wesley Salmon, in *Scientific Explanation and the Causal Structure of the World* (1984), distinguished causal processes from pseudo-processes. A causal process is a physical process that transmits energy, momentum, and other conserved quantities. A pseudo-process is a spatiotemporal entity that merely moves but does not transmit anything: the shadow on a wall moving as the light source moves, the spot of light from a rotating flashlight sweeping across a screen. Pseudo-processes can move faster than light — no information or energy is transmitted — while genuine causal processes are limited by physical laws.
+
+Salmon also introduced the concept of causal interactions: spatiotemporal intersections between causal processes that produce lasting changes in both. When two billiard balls collide, each emerges from the interaction with modified momentum and energy. This distinguishes genuine causal interactions from mere correlations and from pseudo-intersections (two shadows crossing on a screen).
+
+Phil Dowe refined Salmon's account with the conserved quantity theory: a causal process is a world-line of an object that possesses a conserved quantity (energy, momentum, charge, etc.), and a causal interaction is an intersection of world-lines involving the exchange of conserved quantities. This gives a precise, physically grounded account of causation.
+
+The conserved quantity theory has several virtues: it is extensionally adequate for paradigm cases of physical causation, it connects causation to fundamental physics, and it handles the temporal direction of causation via the direction of energy flow. But it faces objections. Prevention and causation by omission do not involve transfer of conserved quantities. Mental causation becomes puzzling if mental states are not bearers of conserved quantities. And the theory seems to leave out the normative dimension of causation — what matters for responsibility and explanation.

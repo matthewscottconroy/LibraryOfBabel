@@ -1,0 +1,11 @@
+# Suffering, Meaning, and the Problem of Evil
+
+The problem of evil is not only a theoretical problem about the existence of God; it is an existential problem about the meaning of human suffering. For the person in the midst of grief, loss, or pain, the theoretical arguments — the free will defense, the soul-making theodicy, the skeptical theist response — can seem cold and insufficient. The philosophical problem of evil and the personal problem of suffering overlap but are not identical; and any adequate treatment of evil must engage with both dimensions.
+
+Marilyn McCord Adams's work on "horrendous evils" has been particularly influential in connecting the theoretical and personal dimensions. Adams holds that some evils are "horrendous" — so severe that they constitute reasons to doubt that the life containing them is worth living. Horrendous evils include participation in genocide, the systematic abuse of children, the suffering of severe physical disease. Theodicies that appeal to the development of moral character or the balance of goods and evils seem inadequate for horrendous evils: they fail to provide adequate meaning for the specific persons who suffer such evils.
+
+Adams's theistic response is that God can defeat horrendous evils by redeeming them within the context of an individual life — by creating a context, perhaps in an afterlife, in which the individual's participation in horrendous evil becomes a source of meaning and even intimacy with God. This is not a general defense against the existence of evil but a personal theodicy directed at the specific victims of horrendous evils.
+
+Existentialist approaches — from Kierkegaard through Camus to contemporary existentialists — engage with suffering as a challenge to the meaning of human life rather than as a theoretical objection to theism. Camus's response to the "absurdity" of a world containing suffering without apparent justification is neither theistic theodicy nor atheistic despair but a defiant affirmation of life in the face of meaninglessness.
+
+This section examines the relationship between the philosophical problem of evil and the personal problem of suffering, with attention to Adams's work on horrendous evils and the existentialist approaches.

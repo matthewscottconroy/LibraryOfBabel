@@ -1,0 +1,11 @@
+# How Do We Know Modal Facts?
+
+We know — or at least believe — a great many modal facts. We know that water is necessarily H₂O, that it is impossible for there to be a round square, that it is possible that Napoleon might have won at Waterloo. But how do we know these things? Empirical observation gives us access to what is actually the case; but the possible and the necessary seem to go beyond the actual in ways that resist straightforward empirical investigation.
+
+The traditional rationalist answer is that we know necessary truths a priori — through pure reason, without any empirical investigation. Mathematical truths are necessary, and we come to know them by proof, not by observation. Logical truths are necessary, and we recognize them by conceptual analysis. But Kripke's discovery of necessary a posteriori truths undermined the simple identification of the necessary with the a priori: we learned that water is H₂O through chemistry, not through conceptual analysis, yet this is a necessary truth.
+
+The epistemology of modality must therefore go beyond the rationalist-empiricist divide. Several approaches have been developed. Conceivability-based accounts hold that what is genuinely conceivable is possible: if we can vividly and coherently imagine a scenario, that scenario is possible. But conceivability is not a reliable guide to metaphysical possibility — we can seemingly conceive of water without H₂O, yet this is not possible. The refinement of conceivability-based approaches requires distinguishing genuine conceivability from mere apparent conceivability.
+
+Counterfactual-based accounts hold that modal knowledge is a development of our capacity for counterfactual reasoning — our ability to "think off-line" about how the world might have been. Williamson argues that we know modal truths in the same way we know counterfactual truths, by imaginative simulation of counterfactual scenarios combined with sensitivity to the real constraints on possibility. This naturalizes modal epistemology while preserving a connection to robust modal realism.
+
+This section examines the major approaches to modal epistemology, asking how our modal knowledge is possible and what its sources are.

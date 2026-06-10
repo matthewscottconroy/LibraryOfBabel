@@ -1,0 +1,21 @@
+# The Reductionist Solution
+
+The cleanest solution to the exclusion problem is to deny the non-reduction premise. If mental properties just are physical properties — if pain is C-fiber firing and desire is some specific neural state — then the mental cause and the physical cause are one and the same event, described at different levels of abstraction. There is no overdetermination because identity is not overdetermination. The exclusion problem dissolves.
+
+This is the **type identity theory**, developed by J.J.C. Smart and U.T. Place in the 1950s and 1960s. Every mental state type is identical to a physical state type: pain = C-fiber firing, the desire for water = some specific neural configuration, and so on. The mental vocabulary does not pick out a distinct ontological layer but describes the physical layer in terms convenient for folk psychology and behavioral prediction.
+
+Kim, having developed and pressed the exclusion problem, eventually concluded in *Mind in a Physical World* (1998) that it forces reductionism for intentional mental properties. His strategy: **functionalize mental properties** as second-order properties — properties of having physical properties that play certain causal roles. Pain is the property of having some physical property that is caused by tissue damage and causes avoidance behavior. On this view, pain is causally efficacious in virtue of the first-order physical property that realizes it.
+
+But Kim recognized that this move is effectively reductive. The causal work is done by the physical realizer, not by the second-order mental property. The second-order property is causally redundant — which is exactly what the exclusion problem predicted. To have genuine causal efficacy, mental properties must be type-identical to physical properties; second-order functional characterization does not add independent causal power.
+
+## Multiple Realizability and Kim's Response
+
+The main challenge for type identity theory is Putnam's **multiple realizability objection** (1967). Pain can be realized by different physical states in different species: C-fiber firings in humans, some other neural configuration in octopi, perhaps silicon states in robots. If pain is type-identical to C-fiber firing, octopi cannot feel pain — a counterintuitive result. More generally, the mental vocabulary cuts across physical types in a way that suggests the two levels are not globally type-identical.
+
+Kim's response is to **localize mental properties**: instead of species-wide type identities, seek organism-relative type identities. Human pain = a specific neural state in humans; octopus pain = a different specific neural state in octopi. This gives up on species-general psychology but preserves the explanatory power of mental predicates within each type of system.
+
+Critics press back: localization retains the exclusion problem in another form. If pain-in-humans = neural state N, then "the pain caused the withdrawal" is just an abbreviation for "neural state N caused the withdrawal." The mental description does no independent causal work. Psychology as a science is reducible to species-specific neuroscience.
+
+Davidson's **anomalous monism** offers a weaker reductionism: each individual mental event *token* is identical to a particular physical event token, without requiring type identity. Token physicalism preserves mental causation at the level of individual events while allowing mental types to be multiply realizable. But the **content irrelevance objection** applies: if mental properties are not causally efficacious — if only the physical event tokens cause effects — then the content of a mental state makes no causal difference. Whether I believe it will rain or that the sun is shining makes no causal difference if only the underlying neural states matter. This seems to eliminate the explanatory significance of psychological explanation entirely, which is a cost most non-reductive physicalists are not willing to accept.
+
+The reductionist solution preserves mental causation at the cost of giving up the autonomy of psychology. Whether this cost is acceptable depends on what one thinks the explanatory project of psychology consists in — whether it is to identify autonomous causal patterns or to redescribe physical processes in a vocabulary convenient for predicting behavior.

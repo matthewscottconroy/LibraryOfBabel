@@ -1,0 +1,11 @@
+# Event-Causal Libertarianism
+
+Event-causal libertarianism is a more scientifically tractable version of free will libertarianism that avoids the metaphysically extravagant posit of substance causation while preserving the incompatibilist conviction that genuine freedom requires indeterminism. On this view, free actions are caused by the agent's mental states — beliefs, desires, intentions — but this causation is indeterministic: the mental states make the action probable without determining it. The agent's practical reasoning raises the probability of certain actions without necessitating any of them.
+
+The appeal to quantum indeterminacy provides the physical basis for event-causal libertarianism. If quantum mechanical indeterminacy percolates up from the subatomic level to produce genuine indeterminacy in neural processes, then human decision-making may be genuinely indeterministic. The action is not predetermined; there are multiple possible futures compatible with the agent's prior states. This preserves the incompatibilist's requirement that the agent could genuinely have done otherwise.
+
+But the main objection immediately arises: if the indeterminism is quantum randomness, then the action is partly the result of chance, not of the agent's reasons and values. A genuinely random element in the causal history of the action does not seem to enhance freedom or responsibility; it seems to diminish it. An action that the agent's values make probable but do not determine seems no more "up to the agent" than a determined action: in both cases, the agent's control is incomplete.
+
+Kane's response is the most sophisticated defense of event-causal libertarianism. Kane holds that indeterministic choices involve "self-forming actions" — moments of practical conflict where the agent's practical commitments genuinely compete, and the resolution of the conflict is genuinely undetermined. In such moments, the agent can take responsibility for the outcome because, whichever way it goes, the outcome reflects the agent's own values and reasons — the quantum randomness does not undermine responsibility because both possible outcomes are ones the agent could endorse.
+
+This section examines event-causal libertarianism, Kane's theory, and the objections to the view.

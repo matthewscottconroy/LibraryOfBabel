@@ -1,0 +1,11 @@
+# Classical Mereology
+
+Mereology — the formal theory of part and whole — is one of the few areas of metaphysics with a well-developed formal language and a set of axioms that have been systematically studied since Leśniewski's work in the early twentieth century. Classical mereology (or "general extensional mereology") is the most widely discussed formal system, and understanding its axioms, theorems, and philosophical presuppositions is essential for engaging with the contemporary literature on composition, coincidence, and four-dimensionalism.
+
+Classical mereology rests on a few core axioms. Transitivity: if x is a part of y and y is a part of z, then x is a part of z. Antisymmetry: if x is a part of y and y is a part of x, then x = y. These two axioms, together with reflexivity (every thing is a part of itself), make the part-of relation a partial order. The unrestricted principle of mereological fusion (or "extensionality of composition") holds that for any things, there is an object that is their fusion — the smallest thing that has all of them as parts. This principle is what makes classical mereology "unrestricted": it permits the existence of wildly gerrymandered objects like the fusion of this table and the Eiffel Tower.
+
+The philosophical consequences of classical mereology are significant. If unrestricted composition holds, then for any objects, there is a fusion of those objects. This is an ontologically profligate conclusion: it implies the existence of an enormous number of "scattered" or "gerrymandered" objects that common sense does not recognize. Lewis accepted this profligacy as the price of a clean and simple mereological theory; others have proposed "restricted" composition principles that permit composition only when certain conditions are met.
+
+The "Special Composition Question" — under what conditions do some things compose something? — is one of the central questions of contemporary metaphysics. Van Inwagen's restricted view holds that composition occurs only when the composing things are organized to constitute a life (living organisms are the only composite objects). Extreme nihilism holds that composition never occurs — there are only simples.
+
+This section develops classical mereology formally and examines its philosophical presuppositions.

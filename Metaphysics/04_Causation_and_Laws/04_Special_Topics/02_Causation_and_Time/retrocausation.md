@@ -1,0 +1,11 @@
+# Retrocausation and Backward Causation
+
+Retrocausation — the causal influence of later events on earlier events — appears paradoxical but has been seriously entertained both philosophically and in physics. Understanding whether backward causation is possible illuminates the relationship between causation, time, and modality.
+
+The philosophical case for the conceptual coherence of backward causation was made by Michael Dummett and Anthony Flew in the 1950s–60s. Dummett's "Bringing About the Past" (1964) argued that if certain conditions are met — in particular, if the agent does not know whether the past event occurred when they perform the present action — then it is coherent to suppose that the present action causes the past event. The absurdity of "trying to bring about the past" arises from our epistemic situation, not from any metaphysical impossibility in backward causation itself.
+
+The main philosophical objection to backward causation is the causal loop problem: if C (now) causes E (then earlier), can E cause some event F that in turn prevents C from occurring? This would be a causal loop in which C's occurrence prevents its own occurrence. Such a loop seems paradoxical in the way that time travel paradoxes are paradoxical: the Grandfather Paradox in causal dress.
+
+In physics, several theories have been proposed that appear to involve retrocausation or at least action-at-a-distance that has a temporal component. The Wheeler-Feynman absorber theory of electromagnetic radiation involved advanced waves (traveling backward in time) as well as retarded waves. More recently, certain interpretations of quantum mechanics — including Yakir Aharonov's two-state vector formalism — posit backward-in-time influences as part of the physical story.
+
+The philosophical significance of these proposals is contested. Even if the equations allow backward-in-time solutions, it does not follow that there is a metaphysically possible world with genuine backward causation — the equations might be satisfied only by the forward-in-time solutions as a matter of contingent boundary conditions. The relationship between mathematical solutions to physical equations and metaphysical possibility is a deep question in philosophy of physics.

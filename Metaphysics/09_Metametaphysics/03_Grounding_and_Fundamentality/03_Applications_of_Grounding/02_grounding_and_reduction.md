@@ -1,0 +1,29 @@
+# Grounding and Reduction
+
+Water is H₂O. This is a paradigm of reduction: the claim that two apparently different descriptions pick out the same thing. There is only one substance here, described at different levels. The higher-level vocabulary is, in principle, eliminable — we could always use lower-level vocabulary without loss. Grounding is different. When we say mental facts are grounded in physical facts, we are not saying the mental is identical to the physical. We are saying the mental *depends on* the physical while remaining genuinely distinct from it. Understanding the difference between grounding and reduction matters enormously for debates about mind, morality, and the layered structure of reality.
+
+Reductive explanation holds that higher-level facts are identical to, or eliminable in favor of, lower-level facts. *Type identity reduction*: pain is identical to C-fiber firing — there is only one property, described at two levels. *Eliminative reduction*: there are no higher-level entities at all; the higher-level discourse is useful shorthand for lower-level facts, but strictly false. Grounding is typically presented as a non-reductive relation: the higher-level facts exist and are real, but they depend on lower-level facts. The mental is grounded in the physical but not identical to it. Social facts are grounded in physical and psychological facts but not eliminable in favor of them. Grounding allows for ontological "layers" — multiple genuine levels of reality — without requiring that higher levels reduce to lower ones.
+
+We can think of a spectrum of positions about higher-level/lower-level relationships. At one end: type identity reduction — higher-level property P is identical to lower-level property Q; the "higher-level" vocabulary is eliminable. Next: token identity without type identity — each token instance of a higher-level property is identical to some token instance of a lower-level property, but there is no single lower-level type to which the higher-level type reduces. Next: non-reductive grounding — P is distinct from Q, but every instance of P is grounded in some instance of Q (or complex of Q-instances); the mental is real and distinct, but grounded. Finally: emergentism — higher-level properties are distinct and not grounded in lower-level properties in any way explicable from the lower level alone, with genuine emergence of new causal powers.
+
+## Multiple Realizability and Grounding
+
+Putnam's multiple realizability argument (1967) is a classic argument against type-identity reduction: pain can be realized by many different physical configurations (C-fiber firing in humans, different neuron configurations in octopuses, silicon circuits in robots). If pain is multiply realizable, it cannot be identical to any single physical type.
+
+Multiple realizability fits naturally into the grounding framework. Let M be the mental property (pain) and P₁, P₂, P₃, ..., Pₙ be the distinct physical configurations that can realize it:
+
+∀x(Mx → ∃i(Pᵢx ∧ (Pᵢx < Mx)))
+
+For any individual that has pain, there is some physical configuration Pᵢ that grounds its pain. The grounding base varies across individuals and species; the grounded fact (pain) remains the same. Pain is not identical to any Pᵢ — since it can be grounded by different Pᵢ in different cases — but it is fully grounded in physical facts in each case. Multiple realizability thus provides a positive reason to prefer grounding to identity as the relationship between mental and physical properties, while maintaining non-reductive physicalism rather than collapsing into dualism.
+
+## The "Nothing Over and Above" Claim
+
+Both reduction and grounding invoke the phrase "nothing over and above," but they use it in different senses.
+
+For reduction (identity): the higher-level fact *is* the lower-level fact. There is literally nothing more here — only one fact, described at two levels. "Nothing over and above" means numerical identity.
+
+For grounding: the higher-level fact is distinct from (not identical to) the lower-level fact, but it is fully constituted by it — it adds no further ontological commitment. "Nothing over and above" means constitutive dependence without addition.
+
+The difference matters when we ask about causal powers. If mental properties are identical to physical properties, their causal powers are one and the same — there is no problem of causal exclusion. If mental properties are distinct from but grounded in physical properties, their causal powers may differ, and we need an account of how grounded properties can have their own causal roles. Fine (2012) argues that the "nothing over and above" in grounding should be taken seriously as an ontological claim: grounded entities are not additional items in the fundamental inventory of the world. They exist but do not increase the fundamental ontology. This is Fine's concept of *ontological innocence* for grounded entities.
+
+It is worth noting that grounding is neither synthetic reduction (which identifies higher-level properties with lower-level ones through substantive, a posteriori discoveries) nor analytic reduction (which eliminates higher-level properties through conceptual analysis). Grounding holds in virtue of real metaphysical connections between genuinely distinct facts, not through identity or conceptual equivalence. Whether this primitive metaphysical connection — distinct but fully dependent — is ultimately coherent is the deepest question about non-reductive grounding. Fine, Schaffer, and Rosen all accept it; eliminativists and identity theorists deny it. The issue turns on whether "distinct but fully dependent" can be sustained or collapses into either identity (if fully dependent) or genuine independence (if distinct). Working out which position is correct requires the essentialist apparatus developed in the next section of this module.

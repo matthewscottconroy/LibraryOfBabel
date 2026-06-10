@@ -1,0 +1,11 @@
+# Ontological Arguments for God's Existence
+
+The ontological argument attempts something that initially sounds like a parlor trick: to prove the existence of God purely from the concept of God, without any appeal to empirical evidence about the world. Anselm's original formulation: God is that than which nothing greater can be conceived. Suppose God did not exist. Then we could conceive of something greater — God with existence added. But then God would not be that than which nothing greater can be conceived. Contradiction. Therefore, God must exist.
+
+The argument has been refuted many times and defended many times, and it continues to generate philosophical work. Gaunilo's island objection is the classic parody: we could run the same argument for a perfect island — if a perfect island doesn't exist, we can conceive of a greater island (one that does exist); therefore, a perfect island must exist. But clearly the argument proves too much if it establishes that perfect islands necessarily exist. Anselm's response distinguished God, as a necessary being, from contingent beings like islands: the argument works only for a being whose essence includes existence, and God alone has such an essence.
+
+Kant's objection is perhaps the most influential: existence is not a predicate. When we say "God exists," we are not adding an attribute to the concept of God; we are saying that the concept is instantiated. Adding "existence" to the concept of God does not make the concept of a greater being; it says that there is something corresponding to the concept. Therefore, the ontological argument illegitimately treats existence as a property that can be part of the essence of a being.
+
+The modal ontological argument — associated with Plantinga — uses possible-worlds semantics to give a new version of the argument. It is possible that there exists a maximally great being. A maximally great being is one that exists necessarily, in every possible world. If it is possible that there exists a necessarily existing being, then that being exists in some possible world; and a necessarily existing being exists in every possible world; therefore, such a being exists in the actual world.
+
+This section examines the ontological argument — its history, Kant's objection, the modal version, and the ongoing philosophical debate.

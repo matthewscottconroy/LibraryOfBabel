@@ -1,0 +1,28 @@
+# Scientific Realism Defined
+
+Consider what it would mean for science to be genuinely wrong about electrons. Not wrong in some minor quantitative way — wrong about whether there are electrons at all. We design accelerators around their properties, build transistors that exploit their behavior, calculate the structure of the atom using their mass and charge. If electrons did not exist, what exactly would be happening when all that engineering succeeds? The question feels urgent, and the most natural answer — that the engineering works because electrons are real and our theories approximately describe them — is scientific realism in miniature.
+
+Scientific realism is a family of views about the epistemic and semantic status of scientific theories. In its most common formulation, it holds three theses: the world described by mature scientific theories exists mind-independently; our best confirmed theories are approximately true descriptions of that world, including its unobservable aspects; and the theoretical terms of science typically refer to real entities. The reference to "mature" theories is important — realism is about the products of successful science, not every hypothesis ever entertained. And "approximately true" acknowledges that theories are tested, revised, and improved over time while converging toward truth.
+
+## The Three Theses Distinguished
+
+Stathis Psillos, in *Scientific Realism: How Science Tracks Truth* (1999), distinguishes three component theses that most realists endorse. The **metaphysical thesis** holds that there is a mind-independent world described by science. The **semantic thesis** holds that scientific theories make genuine truth-apt claims, and that their theoretical terms refer when the theories are well-confirmed. The **epistemic thesis** holds that mature, empirically successful theories are approximately true, and that we have good reason to believe them.
+
+These components can come apart. A philosopher might accept the metaphysical thesis while rejecting the epistemic one: yes, there is a world, but we cannot know it. Van Fraassen's constructive empiricism accepts the semantic thesis — theories make truth-apt claims — while restricting epistemic commitment to the observable domain. The realism debate is therefore partly a debate about which combination of these three theses is sustainable, and on what grounds.
+
+Notice that the debate has a second-order character: it is philosophical reflection on science rather than science itself. Scientists typically proceed as if realism were true — they design experiments to detect entities, infer the existence of unobservables, and make predictions based on theoretical posits. The realist philosopher attempts to vindicate this practice as epistemically well-founded. Anjan Chakravartty's *A Metaphysics for Scientific Realism* (2007) develops "semi-realism" — a selective commitment not to every element of a theory but to the causal properties that underwrite its predictive success. The realist is committed to entities and properties that genuinely make a causal difference in experiments.
+
+## Formal Articulation
+
+Let T be a mature scientific theory with observational consequences O and theoretical posits U (unobservables). Scientific realism can be formally characterized:
+
+- **Approximate truth**: T is approximately true iff there exists a mapping φ from T's theoretical terms to real-world entities and properties such that the core inferential structure of T is preserved under φ and the observational predictions O are derivable with small error.
+- **Reference**: A term t in T refers iff there is an entity or property in the world that plays the causal role attributed to t in T's explanatory structure.
+
+The approximate-truth and reference conditions are interconnected: theoretical terms refer because they track real causal structure, and theories are approximately true because their referential terms contribute correct claims about that structure.
+
+## Historical and Ontological Significance
+
+The contemporary debate has roots in the logical positivist movement of the early twentieth century. The Vienna Circle held that theoretical terms were meaningful only if translatable into observation terms — a thesis that effectively collapsed the semantic distinction between theories and their observational consequences. Talk of electrons was legitimate only as shorthand for talk of pointer readings. Quine's critique of the analytic/synthetic distinction undermined this framework, and by the 1960s the question had shifted from the meaning of theoretical terms to the epistemic status of well-confirmed theories. Putnam's advocacy for scientific realism in the 1970s — culminating in the no-miracles argument — defined the terms of the contemporary debate. Laudan's response through the pessimistic meta-induction shaped the realist reply and generated the selective realism strategies now central to the field.
+
+The stakes for metaphysics are direct. If realism is correct, science gives us genuine knowledge of what kinds of things there are — quarks, genes, electrons, viruses — and these should figure in our ontological inventory. If anti-realism is correct, our ontology is restricted to the observable, and theoretical posits are at best useful fictions. The relationship runs in both directions: metaphysical commitments also constrain scientific realism. A philosopher committed to a sparse ontology grounded in causal powers will find realism about natural kinds particularly congenial; a verificationist will resist the epistemic thesis from the start.

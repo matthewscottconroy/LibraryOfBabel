@@ -1,0 +1,11 @@
+# Internalism vs. Externalism About Mental Content
+
+Hilary Putnam's famous slogan — "meanings just ain't in the head" — encapsulates a revolution in how philosophers think about the content of mental states. Before Putnam, it was widely assumed that the content of a thought is determined entirely by what is going on inside the thinker — by the thinker's internal mental states, dispositions, and functional organization. Putnam's Twin Earth thought experiment showed that this assumption is false: two thinkers who are internally identical can have thoughts with different contents, because the content of thought is partly determined by the environment.
+
+The Twin Earth case: in 1750, Oscar on Earth and his physical duplicate Oscar-twin on Twin Earth both think thoughts they would express as "Water is wet." But Oscar is thinking about H₂O and Oscar-twin is thinking about the superficially similar but chemically different substance XYZ that constitutes the water on Twin Earth. The two thoughts have different truth conditions: Oscar's thought is true if H₂O is wet; Oscar-twin's thought is true if XYZ is wet. Yet the two thinkers are physically identical. Therefore, mental content is not determined by internal physical states alone: the environment contributes to the individuation of content.
+
+This externalism about semantic content — the view that the content of thought is partly constituted by the environment — has implications for the mind-body problem, personal identity, and the theory of knowledge. It challenges the Cartesian picture of the mind as a self-contained inner theater whose contents are entirely transparent to introspection: if content is partly constituted by the environment, then one can be wrong about what one's own thoughts are about.
+
+Internalism resists this conclusion, arguing that the notions of content most relevant to psychological explanation are "narrow contents" — contents determined entirely by internal states, independent of the environment. The dispute between internalism and externalism is a dispute about which notion of content is most fundamental for psychology, cognitive science, and epistemology.
+
+This section examines the internalism-externalism debate, Putnam's and Burge's arguments for externalism, and the internalist responses.

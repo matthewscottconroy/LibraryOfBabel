@@ -1,0 +1,11 @@
+# Special Relativity and Spacetime
+
+Einstein's special theory of relativity is not merely a physical theory about how measuring rods and clocks behave at high speeds. It is a theory about the structure of spacetime itself — a theory that forces us to revise our most fundamental intuitions about space, time, and the relationship between them. The philosophical implications of special relativity are so far-reaching that any adequate metaphysics of time and space must reckon with them.
+
+The central claim of special relativity is that the laws of physics are the same in all inertial reference frames, and that the speed of light is the same in all inertial frames. From these two postulates, Einstein derived consequences that seem paradoxical from the perspective of classical mechanics: time dilation (moving clocks tick slower), length contraction (moving objects are shorter in the direction of motion), and the relativity of simultaneity (events that are simultaneous in one frame are not simultaneous in another).
+
+The relativity of simultaneity is metaphysically the most significant. In Newtonian mechanics, simultaneity is an absolute relation: two events either occur at the same time or they do not, and this is a frame-independent fact. In special relativity, simultaneity is relative to a reference frame: two spatially separated events that are simultaneous in one inertial frame are sequential in another. This eliminates the possibility of a frame-independent "now" — the metaphysical present cannot be identified with a simultaneity class if simultaneity is frame-dependent.
+
+Minkowski showed that special relativity is naturally understood as a theory of four-dimensional spacetime: a four-dimensional manifold in which space and time are not separate entities but aspects of a unified structure with its own geometry. The spacetime interval between two events — a measure of their separation that is invariant across reference frames — is the physically fundamental quantity, replacing the separate spatial and temporal distances of classical mechanics.
+
+This section examines the philosophical implications of special relativity for the metaphysics of time, space, and their unification in the spacetime framework.

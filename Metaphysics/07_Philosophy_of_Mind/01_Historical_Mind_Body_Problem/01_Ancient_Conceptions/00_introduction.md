@@ -1,0 +1,11 @@
+# Ancient Conceptions of Mind and Body
+
+The relationship between the mind and the body is not a problem invented by Descartes. Ancient philosophy grappled with the nature of the soul — its composition, its relationship to the body, and its fate after death — in ways that anticipate many of the contemporary debates, though the conceptual framework was different in important respects. Understanding the ancient background is not merely historical enrichment; it reveals which aspects of the mind-body problem are perennial and which are artifacts of distinctively modern assumptions.
+
+Plato's dualism is the most influential ancient position. The soul (psyche) is distinct from and ontologically prior to the body; the true self is the soul, which is immortal and exists independently of any particular physical embodiment. The soul is attracted to the Forms — the eternal, unchanging objects of genuine knowledge — while the body is mired in the realm of appearance and change. The soul's relationship to the body is one of temporary imprisonment: the goal of the philosophical life is to free the soul from bodily entanglement. This picture grounds a sharp separation between mental and physical that has echoed through the entire subsequent tradition.
+
+Aristotle's position is importantly different. For Aristotle, the soul is the form of the body — the principle of organization and activity that makes a living body alive. Soul and body are not two separate substances; they are matter and form of a single substance. The soul is not "in" the body as a sailor is in a ship; it is the actuality of the body, the pattern of functional organization that constitutes life and cognition. This hylomorphic conception of mind is much closer to contemporary functionalism than to Cartesian dualism, and it has attracted renewed attention in contemporary philosophy of mind.
+
+The Stoics and Epicureans held that the soul is material — a breath or collection of atoms — and hence that mental processes are physical processes. This anticipates contemporary physicalism, though the underlying physical theory is very different from modern science.
+
+This section examines ancient theories of soul and mind, asking what was understood, what was at stake, and how these ancient debates set the agenda for later philosophy.

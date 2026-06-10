@@ -1,0 +1,11 @@
+# Applications of Modal Epistemology
+
+The epistemology of modality becomes most illuminating when applied to specific philosophical problems where the method of appeal to possibility and necessity plays a central role. Philosophy has long used modal arguments — arguments that turn on what is possible, necessary, or impossible — as its primary tool. Understanding the epistemological status of these arguments is therefore essential to evaluating the arguments themselves.
+
+The conceivability-based argument against physicalism in the philosophy of mind is a paradigm case. The argument runs: we can coherently conceive of philosophical zombies — physical duplicates of conscious beings who have no conscious experience whatsoever. If we can conceive of this, it is possible. If it is possible, then consciousness is not identical to any physical state (since the physical duplicate lacks consciousness while having all the same physical states). Therefore, physicalism is false. The argument's modal premise — that conceivability entails possibility — is precisely what modal epistemology must assess.
+
+Ontological arguments for the existence of God turn on the modal claim that necessary existence is a genuine property of the divine being. In the modal version of the ontological argument: it is possible that there exists a necessary being; if it is possible that a necessary being exists, then a necessary being actually exists (since necessary existence entails existence in every possible world, including the actual world). The epistemological question is whether we have any grounds for accepting the initial modal premise — that a necessary being is possible.
+
+Thought experiments in personal identity turn on modal claims about what the person could survive. Can a person survive the replacement of all their neurons with silicon equivalents? Could a person survive teleportation that destroys the original body and creates an exact replica? These are modal questions, and our intuitive answers are treated as evidence about the nature of personal identity. Modal epistemology examines the reliability of such intuitions as evidence about genuine modal facts.
+
+This section surveys these applications, assessing the evidential weight of modal intuitions in each domain and the broader implications for the methodology of philosophy.

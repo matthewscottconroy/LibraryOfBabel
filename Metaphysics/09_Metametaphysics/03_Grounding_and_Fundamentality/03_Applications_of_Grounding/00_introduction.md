@@ -1,0 +1,11 @@
+# Applications of Grounding
+
+The theoretical value of the grounding concept is best assessed by examining what it does when applied to specific metaphysical problems. Grounding has been proposed as the right framework for analyzing a wide range of philosophical relationships that were previously analyzed in terms of supervenience, reduction, or constitution — relationships that seemed to involve more than mere modal co-variation but less than strict identity.
+
+In the philosophy of mathematics, grounding provides a natural way to articulate the priority of concrete over abstract: the existence of the number two is grounded in the existence of pairs of concrete objects, or (on a different view) the existence of mathematical structures is grounded in the possibility of concrete systems. This grounding relation is not merely modal — it is not just that the existence of mathematical objects is necessarily tied to the existence of concrete objects; it is that concrete objects are ontologically prior.
+
+In metaethics, grounding has been used to articulate moral naturalism: the wrongness of an action is grounded in its natural properties — its consequences, its relations to the agent's values and commitments, its effects on the interests of others. This grounding relation is distinct from identity: wrongness is not identical to its natural grounds (since different natural properties can ground wrongness in different cases), but it holds in virtue of those natural properties. Moral supervenience — the necessary co-variation of moral and natural properties — is explained by grounding: moral properties are necessarily tied to natural properties because they are grounded in natural properties.
+
+In the philosophy of mind, grounding has been used to articulate what non-reductive physicalism should say about the relationship between mental and physical properties. Mental facts are grounded in physical facts, but not reducible to them: the grounding is a real metaphysical relation of priority and dependence, not merely a logical or modal relation.
+
+This section examines these and other applications of grounding, assessing whether the concept genuinely illuminates the relationships it is applied to or merely re-describes them.

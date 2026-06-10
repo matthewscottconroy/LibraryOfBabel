@@ -1,0 +1,11 @@
+# The Possibility of Time Travel
+
+Is time travel possible? The question sounds like the province of science fiction, but it is a serious philosophical and physical question with implications for the metaphysics of causation, the nature of time, and the consistency of the laws of physics. General relativity admits solutions — the Gödel metric, closed timelike curves — in which it is physically possible for a traveler to return to her own past. Whether such solutions are physically realizable is an empirical question; whether they are conceptually coherent is a philosophical one.
+
+Lewis's influential analysis of time travel distinguishes personal time — the time measured by the traveler's own experience and biological processes — from external time — the time of the world through which the traveler moves. Time travel involves a mismatch between these two: a traveler who goes backward in time moves in the direction of decreasing external time while her personal time continues to increase. She experiences a continuous progression; but the events she moves through are earlier, in external time, than the events she departed from.
+
+On Lewis's analysis, time travel is not only coherent but fully compatible with a deterministic world. The traveler's journey is part of the causal history of the world; past events that the traveler "changes" were always events that the traveler was part of. There is no real "changing" of the past — the past is fixed — but the traveler's presence in the past was always part of the past that was fixed. This "no change" view of time travel is consistent with ordinary causal reasoning; it just requires that the traveler's adventures be woven into the causal fabric of the world from the beginning.
+
+The grandfather paradox is the most famous objection: if you travel back in time and kill your grandfather before your parents were conceived, you would never exist, and hence never travel back in time to kill your grandfather. Lewis's response invokes the idea of inability in a new sense: you can, in the ordinary sense, kill your grandfather — you have the relevant physical and cognitive capacities — but you cannot, given the conjunction of all the facts, because you did not, and facts are fixed.
+
+This section examines the possibility of time travel, Lewis's analysis, and the main objections to it.

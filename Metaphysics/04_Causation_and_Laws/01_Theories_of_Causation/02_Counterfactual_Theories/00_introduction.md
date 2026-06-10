@@ -1,0 +1,11 @@
+# Counterfactual Theories of Causation
+
+"If the short circuit had not occurred, the fire would not have started." This counterfactual captures our ordinary understanding of what it means to say that the short circuit caused the fire: the fire depended on the short circuit, in the sense that without it, the fire would not have happened. David Lewis built on this intuition to construct the most influential counterfactual theory of causation: c causes e if and only if e counterfactually depends on c — that is, if c had not occurred, e would not have occurred.
+
+The analysis uses possible-worlds semantics to cash out counterfactuals. "If c had not occurred, e would not have occurred" is true if and only if, in the possible world most similar to the actual world in which c does not occur, e does not occur either. The similarity metric among possible worlds is sensitive to the laws of nature, the distribution of particular facts, and the "small miracle" that would be required to delete a given event without wholesale revision of the past. This framework handles ordinary causal dependence with elegance.
+
+The main difficulties are cases of preemption and overdetermination. In preemption: two potential causes compete, one fires first and produces the effect, and the backup would have produced the same effect if the primary had been absent. In such cases, the actual effect does not counterfactually depend on the actual cause (because the backup would have taken over), yet we want to say that the primary cause is the real cause. Lewis responded by developing "quasi-dependence" and, later, an "influence" theory that relies on a richer notion of causal dependence.
+
+Overdetermination — two events each sufficient to produce the effect, both occurring simultaneously — raises a different problem: neither cause is such that, had it been absent, the effect would not have occurred. Lewis's successive revisions of the counterfactual theory represent the most sustained effort to handle these hard cases within the Humean framework.
+
+This section examines the counterfactual theory in detail, traces Lewis's development of it, and assesses whether the difficult cases can be handled satisfactorily within the framework.

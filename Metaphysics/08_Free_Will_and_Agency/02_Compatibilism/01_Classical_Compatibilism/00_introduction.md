@@ -1,0 +1,11 @@
+# Classical Compatibilism
+
+Compatibilism is the view that free will and determinism are compatible — that a person can be genuinely free, responsible, and the proper object of praise and blame, even in a deterministic universe. This has been the dominant view in the empiricist tradition, associated with Hobbes, Hume, Mill, and their contemporary descendants. The compatibilist's basic move is to reanalyze what free will requires: freedom is not absence of causation but absence of external constraint; a free action is one that flows from the agent's own desires and character, even if those desires and character are themselves causally determined.
+
+Hume's analysis is the locus classicus. On Hume's account, liberty is "a power of acting or not acting, according to the determinations of the will." To be free is to be able to act as you will; to be unfree is to be externally coerced or physically compelled. A prisoner who cannot leave the room is unfree; a person who acts on his own desires is free, even if those desires are determined by his character and circumstances. Determinism, on this account, is not a threat to freedom but its precondition: without the causal connection between character and action, there would be no connection between the person and the action, and hence no basis for attribution of responsibility.
+
+The "conditional analysis" of freedom refines Hume's account: an agent is free to do A if and only if, if she had chosen to do A, she would have done A. This connects freedom to the ability to act on one's choices without specifying that the choice itself must be undetermined. The analysis allows that determinism is true while preserving the relevant sense of freedom.
+
+The classical objection to compatibilism is the Consequence Argument: if determinism is true, then our actions are the consequences of the laws of nature and events in the remote past — things over which we have no control. If an agent has no control over p and no control over "if p then q," then the agent has no control over q. Our actions are therefore not in our control, and hence we are not free.
+
+This section examines classical compatibilism, the conditional analysis, and the Consequence Argument.

@@ -1,0 +1,11 @@
+# Fine on Essence and Real Definition
+
+Kit Fine's 1994 paper "Essence and Modality" is one of the most influential pieces in contemporary metaphysics. Its central argument is that the traditional modal analysis of essence — being essential to x is being necessarily possessed by x — is incorrect. Fine argues, through a series of counterexamples, that necessity and essence come apart in both directions: some necessary properties are not essential to the things that have them, and the notion of essence is prior to, not analyzable in terms of, necessity.
+
+The key counterexample: it is necessarily true that Socrates is a member of the singleton set {Socrates}. This is a necessary property of Socrates — in every possible world where Socrates exists, he is a member of {Socrates}. But being a member of {Socrates} is not essential to Socrates. What is essential to Socrates is determined by what it is to be Socrates, by Socrates's nature — and nothing about sets is part of Socrates's nature. By contrast, it is essential to the set {Socrates} that Socrates is a member of it — what it is to be {Socrates} includes having Socrates as its sole member.
+
+Fine's positive proposal is that essence is to be understood in terms of real definition, following the Aristotelian tradition. The essence of a thing is what is true of it in virtue of what it is — what its real definition specifies. Essential properties flow from the thing's real definition; non-essential properties, however necessary they may be, do not. This reverses the direction of explanation: it is not that a property is essential because it is necessary; rather, a property is necessary (when it is) because it is essential.
+
+The philosophical consequences of Fine's distinction are far-reaching. If essence cannot be analyzed in terms of modality, then essence is a more primitive concept than modal metaphysics assumed. The Kripkean tradition of using possible worlds to analyze essential properties would need to be rethought — or at least supplemented by an independently motivated theory of essence.
+
+This section examines Fine's argument, its implications for the relationship between essence and necessity, and the Aristotelian tradition Fine invokes.

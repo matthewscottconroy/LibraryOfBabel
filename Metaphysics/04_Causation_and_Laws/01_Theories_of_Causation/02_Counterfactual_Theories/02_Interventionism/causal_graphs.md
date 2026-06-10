@@ -1,0 +1,13 @@
+# Causal Graphs and Structural Equations
+
+One of the most significant developments in the philosophy and science of causation in recent decades has been the emergence of causal graphical models. These models, associated with Judea Pearl, Peter Spirtes, Clark Glymour, and Richard Scheines, represent causal relationships using directed acyclic graphs (DAGs) and structural equations. They provide a formal language for expressing, reasoning about, and discovering causal structure from observational and experimental data.
+
+In a causal graph, variables are represented as nodes, and causal relationships as directed edges. If X causes Y, there is an arrow from X to Y. Structural equations specify the functional relationship: Y = f(X, U), where U is an error term representing background factors. The structural equation is not merely a regression equation — it represents a genuine causal mechanism that tells you what would happen under interventions.
+
+Pearl's "do-calculus" provides rules for computing the effect of interventions from observational data, given background assumptions about the graph structure. The key operation is the "do" operator: do(X = x) means intervening to set X to x, which "cuts" all incoming arrows to X and sets its value by fiat. The resulting probability distribution P(Y | do(X = x)) can differ from the conditional probability P(Y | X = x), because the conditional probability reflects both the effect of X on Y and any common causes of X and Y. The do-calculus makes precise when and how these can be disentangled.
+
+The framework handles the problem of confounding — a major challenge in epidemiology, economics, and social science — by representing confounders as common causes and providing formal criteria for when a causal effect is identifiable from observational data. The backdoor criterion and frontdoor criterion give conditions under which causal effects can be estimated without direct experimentation.
+
+Philosophically, causal graphs raise questions about the interpretation of structural equations. Are they merely descriptive tools, or do they reflect genuine causal structure in the world? Woodward treats the invariance of structural equations under interventions as the mark of genuine causation. Others, more skeptical of realism about causation, treat the graphical models as useful representations without commitment to a deep metaphysics.
+
+The integration of causal graph methods with philosophical theories of causation is an active area of research, connecting the metaphysics of causation to the epistemology of causal inference and the practice of causal science.

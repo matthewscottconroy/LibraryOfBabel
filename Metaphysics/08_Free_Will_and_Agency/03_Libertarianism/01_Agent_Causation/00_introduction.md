@@ -1,0 +1,11 @@
+# Agent Causation
+
+Libertarianism about free will holds that free will requires not just the right kind of causal history (as compatibilism argues) but genuine indeterminism: the agent must be the ultimate originator of her actions, not merely a link in a deterministic causal chain stretching back before her birth. The most distinctive form of libertarianism posits agent causation — a form of causation in which the agent as a whole, as a substance, is the cause of the action, rather than any particular event or state within the agent.
+
+Agent causation has a long history, associated with Reid and Kant in the modern period and with Roderick Chisholm in the twentieth century. The motivation is direct: if we want to say that the agent — the person — is responsible for the action, we should say that the person caused it. Not that a prior desire or intention caused it; not that a brain state caused it; the person himself, as a metaphysical agent, initiated the action from his own rational nature. This "prime mover unmoved" picture captures the phenomenology of agency: when we decide, it feels as though we are the source, not merely the conduit, of our actions.
+
+The main difficulty for agent causation theory is metaphysical: what is the nature of agent causation, and how does it relate to event causation? Ordinary causation is a relation between events — the striking causes the match to light. Agent causation, if genuine, is a relation between a substance and an event — the agent causes the action to occur. But this seems metaphysically mysterious: how does an agent, as a substance, initiate a causal process in the world without some prior state of the agent being the "real" cause?
+
+Randomness also threatens: if the agent's action is not determined by prior events, it seems that the action is random — a matter of chance. But random actions are no more under the agent's control than determined ones; they are just caused by indeterminacy rather than prior states. The challenge for agent causationists is to distinguish agent causation from mere randomness.
+
+This section examines agent causation — its philosophical motivations, its theoretical content, and the objections it faces.

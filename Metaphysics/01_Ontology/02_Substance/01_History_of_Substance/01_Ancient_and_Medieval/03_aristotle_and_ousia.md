@@ -1,0 +1,33 @@
+# Aristotle and Ousia
+
+Aristotle's concept of *ousia* — usually translated "substance" — is the cornerstone of his metaphysics. The word is harder to define than it appears: *ousia* comes from the Greek verb "to be" (*einai*) and carries connotations of being, essence, and the fundamental nature of a thing. Aristotle's central question in the *Metaphysics* — "What is being?" — quickly becomes "What is *ousia*?" because the most fundamental mode of being is the being of substance.
+
+The *Categories* offers one answer: primary substances are concrete individual things — this particular horse, this particular Socrates. They are primary because they are the ultimate subjects of predication. Socrates can be called white, wise, five feet tall, but "Socrates" is not predicated of anything more fundamental. Secondary substances — the species horse, the genus animal — are substances derivatively, because they express what primary substances are. The individual is ontologically primary; the universal is derivative.
+
+The *Metaphysics* deepens this analysis and, at some points, complicates it. Book VII (*Zeta*) — widely regarded as the most difficult sustained text in philosophy — argues that substance in the fullest sense is *essence* (*to ti ên einai*, literally "the what it was to be for a thing"): the structural account of what makes something the kind of thing it is. If we ask what makes this organism a human being, the answer is not its matter (flesh and bone) but its form — the pattern of organization that constitutes a functioning human life. Form is substance in the primary sense.
+
+## Hylomorphism
+
+This is the doctrine of hylomorphism: every physical substance is a composite of matter (*hylê*) and form (*morphê* or *eidos*). The bronze is the matter; the shape and functional organization of the statue are the form. The matter is potentiality: it is capable of receiving a form but is not yet (or no longer) that form in actuality. The form is actuality: the actualization of the matter's potentiality. The composite — the bronze statue — is the actualization of the bronze's potentiality to be shaped.
+
+In living things, this distinction maps onto the distinction between life and death. A living body is matter that is actually organized by a soul (form). A dead body is matter that has lost the form of life. This makes the soul not a separate substance — as Descartes would later claim — but the form and actuality of the natural body. Aristotle uses this to solve Parmenides' problem about change: coming-to-be is the actualization of what previously existed potentially. The bronze sphere comes to be from the bronze, which was already potentially spherical. There is a middle state — potentiality — between being and absolute non-being.
+
+## The Unity Problem
+
+Hylomorphism faces an immediate challenge: what makes form and matter constitute *one* thing rather than two? If the bronze and the spherical form are both things, what makes their combination a single substance?
+
+Aristotle addresses this in *Metaphysics* H, chapter 6. His answer: matter is potentiality and form is actuality, and a potential sphere and the actuality of being-a-sphere are not two things but one thing at two stages of determination. There is no "third thing" needed to unite them — the unity of the composite is just the actualization of the potential. This is elegant, but it raises a further question: what ensures that the matter is the matter *of* this particular form? Why does the bronze take on a spherical rather than a cubic form? This requires an account of the efficient cause (the sculptor), which in turn raises questions about the causal priority of form over matter — a topic that occupies Aristotle's natural philosophy as much as his metaphysics.
+
+## The Four Causes
+
+Aristotle's analysis of *ousia* is intimately connected to his doctrine of the four causes (*aitia*): material (what a thing is made of), formal (what makes something the kind of thing it is), efficient (the agent that produced it), and final (the purpose for which it exists). For living things, the formal and final causes tend to coincide: the form of a human being just is the kind of organization that constitutes the human telos. Understanding what something is (its formal cause) and understanding what it is for (its final cause) are, in natural organisms, the same inquiry.
+
+Substance, in this framework, is the bearer of all four causes. A living organism is the paradigm substance: it has material substrate (flesh, blood, bone), formal organization (the soul), efficient origin (the parent who generated it), and final purpose (the actualization of its capacities). All four causes converge in the substance, and the complete explanation of any natural thing requires all four.
+
+## Aristotle Against Plato
+
+Throughout the *Metaphysics*, Aristotle develops systematic criticisms of Plato. The separation problem: Plato's Forms exist separately from the particulars that participate in them. But if Beauty itself exists separately from beautiful things, how does it make beautiful things beautiful? Participation is a name, not an explanation. The Third Man Argument (*Metaphysics* A.9): if Socrates and Callias are both human because they participate in the Form of Man, then there must be a common nature uniting Socrates, Callias, and the Form of Man — requiring a Third Form, and so on.
+
+Aristotle's positive alternative: forms do not exist separately; they exist immanently — in the things that have them. The form of man exists in particular men, not in a transcendent Platonic heaven. This is immanent realism: universals are real (they genuinely ground similarity and explanation) but they exist only in particulars. The debate between Platonic transcendent realism and Aristotelian immanent realism — between universals existing *before* things (ante rem) and universals existing *in* things (in re) — runs through the entire history of philosophy and remains a live question in contemporary metaphysics.
+
+Whether the *Categories* and *Metaphysics* offer compatible or contradictory accounts of substance is a long-standing scholarly controversy. The *Categories* makes concrete particulars primary; *Metaphysics Z* seems to make forms — which are at least quasi-universal — primary. The most plausible reconciliation holds that the *Categories* addresses the logical question (what is the ultimate subject of predication?) while the *Metaphysics* addresses the explanatory question (what makes something the kind of thing it is?). Both accounts are correct for their respective purposes — but the tension between them is real, and it anticipates later debates about the primacy of individuals versus kinds.

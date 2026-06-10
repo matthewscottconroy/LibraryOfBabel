@@ -1,0 +1,13 @@
+# Problems for the Regularity Theory
+
+The regularity theory of causation faces a cluster of objections that, together, have persuaded most contemporary philosophers that constant conjunction — however refined — cannot be the whole story about causation. These objections are important not only because they motivate alternative theories but because they reveal what any adequate theory of causation must explain.
+
+The problem of accidental regularities is perhaps the most fundamental. The regularity theory cannot, in its simplest forms, distinguish between causal laws and accidental generalizations. "All copper conducts electricity" and "all coins in my pocket are silver" may both be universally true, but the first is a law and the second is a coincidence. The regularities are formally identical, yet they support different counterfactuals: if something were copper, it would conduct electricity; but if something were a coin in my pocket, it would not necessarily be silver. The regularity theory does not, by itself, explain why some regularities are law-like and others are not.
+
+The problem of spurious correlation is related. Correlations can arise from common causes without any direct causal relationship. Shoe size correlates with reading ability among children, not because one causes the other, but because both are caused by age. The regularity theory has difficulty ruling out such spurious correlations as genuine causes without supplementary criteria.
+
+The problem of the direction of causation is another challenge. If C causes E, then C-type events are followed by E-type events — but also, E-type events are preceded by C-type events. Regularities are symmetric in a way that causation is not. What makes causation run from past to future, and why can we not cause the past? The regularity theory struggles to account for this asymmetry without appealing to the direction of time, but then the asymmetry of causation is not explained — it is merely relocated.
+
+Causal preemption cases pose further difficulties. Suppose two gunmen both fire at a target, but one bullet arrives first and kills the victim. The second gunman's shot was prevented from being the cause by the first. In this case, the first shot was a cause even though the second shot was "ready" to be sufficient. The regularities cannot by themselves identify which shot was the actual cause.
+
+These problems have motivated the development of counterfactual theories (Lewis), causal powers theories (Mumford, Molnar), and probabilistic theories (Suppes, Cartwright). Each can be seen as a response to the failures of the regularity approach.

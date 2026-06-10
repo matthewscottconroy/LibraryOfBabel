@@ -1,0 +1,21 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "An ◯-modal type (for a modality ◯) is a type A such that:",
+  "choices": [
+    "◯A is contractible",
+    "The unit η_A: A → ◯A is an equivalence",
+    "A = ◯A by reflexivity",
+    "A is a proposition"
+  ],
+  "answer": 1,
+  "explanation": "A is ◯-modal iff η_A: A≃◯A; the modality is a reflective subuniverse.",
+  "tags": [
+    "modal-hott",
+    "modal-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "6a10809e-ea5d-44e8-95d2-d5251db13147"
+}

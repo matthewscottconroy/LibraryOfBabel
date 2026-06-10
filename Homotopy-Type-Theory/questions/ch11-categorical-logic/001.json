@@ -1,0 +1,21 @@
+{
+  "question_id": "6fea575e-fa7b-4b5d-bd2c-321c932e355d",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A Cartesian Closed Category (CCC) models:",
+  "choices": [
+    "System F",
+    "Simply Typed Lambda Calculus",
+    "Martin-Löf Type Theory",
+    "Linear type theory"
+  ],
+  "answer": 1,
+  "explanation": "CCC ↔ STLC: products ↔ ×, exponentials ↔ →, terminal ↔ 1. Currying = closedness.",
+  "tags": [
+    "categorical-logic",
+    "CCC"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

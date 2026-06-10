@@ -1,0 +1,21 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, the interval type I has endpoints:",
+  "choices": [
+    "0 and 1",
+    "i0 and i1",
+    "⊥ and ⊤",
+    "north and south"
+  ],
+  "answer": 1,
+  "explanation": "I has i0 : I and i1 : I as the two endpoints.",
+  "tags": [
+    "cubical-agda",
+    "interval"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "1f45be24-2535-405f-96d2-846e33bf3f12"
+}

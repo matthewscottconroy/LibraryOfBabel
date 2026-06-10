@@ -1,0 +1,21 @@
+{
+  "question_id": "ab74218d-3b38-452e-817c-1eaf09e2ff02",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The compactness theorem for propositional logic states that if every finite subset of Γ is satisfiable, then:",
+  "choices": [
+    "Γ is inconsistent",
+    "Γ itself is satisfiable",
+    "Γ proves every formula",
+    "Γ contains a tautology"
+  ],
+  "answer": 1,
+  "explanation": "Compactness: a set of formulas is satisfiable iff every finite subset is satisfiable.",
+  "tags": [
+    "logic",
+    "compactness"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

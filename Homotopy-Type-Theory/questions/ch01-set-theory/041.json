@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Zorn's lemma states: if every chain in a partially ordered set P has an upper bound in P, then P has:",
+  "choices": [
+    "A least element",
+    "A minimal element",
+    "A maximal element",
+    "A well-ordering"
+  ],
+  "answer": 2,
+  "explanation": "Zorn's lemma (equivalent to AC): every chain-bounded poset has a maximal element.",
+  "tags": [
+    "zorns-lemma",
+    "axiom-of-choice"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "089d4cd2-9b55-40d9-b4d3-0664dd8d4deb"
+}

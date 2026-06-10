@@ -1,0 +1,21 @@
+{
+  "question_id": "55d4894e-9a24-484f-b7e0-1fc4b6ca2287",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "hcomp (homogeneous composition) in cubical TT takes as input:",
+  "choices": [
+    "two paths and returns their concatenation directly",
+    "a system of paths on the boundary of a cube and produces the remaining face",
+    "a type and two terms and produces a path",
+    "a path and a point and lifts the point"
+  ],
+  "answer": 1,
+  "explanation": "hcomp fills open boxes: given partial elements agreeing on a system of faces, it produces the remaining face. This generalizes both path composition and transport.",
+  "tags": [
+    "hcomp",
+    "cubical-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Propositional truncation ∥A∥ as a HIT has constructors:",
+  "choices": [
+    "|·|: A → ∥A∥ and squash: Π(x y:∥A∥). x=y",
+    "base:∥A∥ and loop:base=base",
+    "trunc: A → ∥A∥ only",
+    "A point for each element of A"
+  ],
+  "answer": 0,
+  "explanation": "∥A∥ as HIT: |a|:∥A∥ for each a:A, and squash(x,y):x=y for all x,y:∥A∥ (collapsing all paths). This forces ∥A∥ to be a proposition.",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "truncation"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "76a625d3-6b7c-4014-9e85-634322883e7f"
+}

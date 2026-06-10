@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Urysohn lemma states that in a normal space:",
+  "choices": [
+    "Every closed set is a zero-set",
+    "Disjoint closed sets can be separated by a continuous function [0,1]-valued",
+    "Every open cover has a finite subcover",
+    "Every sequence has a convergent subsequence"
+  ],
+  "answer": 1,
+  "explanation": "Urysohn: in a T₄ space, for disjoint closed A,B there exists f: X→[0,1] with f|_A=0 and f|_B=1.",
+  "tags": [
+    "urysohn",
+    "normal-space",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "1f843b30-8d8c-48ea-aff3-56f0a56ef4d2"
+}

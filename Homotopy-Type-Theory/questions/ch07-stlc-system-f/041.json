@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Rank-n polymorphism means quantifiers ∀ may appear:",
+  "choices": [
+    "Only at the top level",
+    "At any position up to depth n in the type",
+    "Only inside function arguments",
+    "Only in the codomain"
+  ],
+  "answer": 1,
+  "explanation": "Rank-n: ∀ appears at nesting depth ≤ n; rank-1 = prenex (HM), rank-2 allows ∀ inside function domains.",
+  "tags": [
+    "rank-n-polymorphism",
+    "system-f"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "619e1363-d3e9-4a84-a719-404524d2169a"
+}

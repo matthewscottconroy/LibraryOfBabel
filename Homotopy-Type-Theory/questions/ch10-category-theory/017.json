@@ -1,0 +1,20 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A presheaf on a category C is a functor of the form:",
+  "choices": [
+    "C → C (endofunctor)",
+    "C^op → Set (contravariant functor to Set)",
+    "Set → C",
+    "C × C^op → Set"
+  ],
+  "answer": 1,
+  "explanation": "A presheaf is F: C^op → Set. The Yoneda embedding Y: C → [C^op, Set] sends c to Hom(-,c). The presheaf category [C^op, Set] is a topos.",
+  "tags": [
+    "category-theory",
+    "presheaves"
+  ],
+  "difficulty": "advanced",
+  "question_id": "1f845f7d-5769-4d10-8c21-f2769fc5e62d"
+}

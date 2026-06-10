@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In cubical type theory (Cohen et al.), univalence is proved as a theorem rather than an axiom. The key ingredient is:",
+  "choices": [
+    "The interval type I with endpoints 0 and 1",
+    "The circle HIT",
+    "The J rule for identity",
+    "Axiom K"
+  ],
+  "answer": 0,
+  "explanation": "Cubical TT has an interval type I, face maps, and Kan filling operations that derive univalence (Glue types).",
+  "tags": [
+    "cubical-type-theory",
+    "univalence"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "73b170b1-3a55-4e47-8a5b-f4e54835aa96"
+}

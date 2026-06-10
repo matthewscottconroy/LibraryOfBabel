@@ -1,0 +1,21 @@
+{
+  "question_id": "1479aaff-6bdf-4e31-b363-03dda270f18c",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The adjunction ♭ ⊣ ♯ in cohesive HoTT means:",
+  "choices": [
+    "flat is left adjoint to sharp, so maps from a flat type to any type correspond to maps into the sharp type",
+    "sharp is left adjoint to flat",
+    "there are more flat types than sharp types",
+    "♭ and ♯ are inverse equivalences"
+  ],
+  "answer": 0,
+  "explanation": "♭ ⊣ ♯: Hom(♭A, B) ≅ Hom(A, ♯B). This expresses that ♭ collapses to discrete and ♯ enforces codiscrete cohesion; maps out of discrete types correspond to maps into codiscrete types.",
+  "tags": [
+    "modal-HoTT",
+    "cohesion"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

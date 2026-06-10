@@ -1,0 +1,23 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'cubical assembly model' extends the effective topos approach by:",
+  "choices": [
+    "Combining realizability with cubical type theory to get a computational model of HoTT",
+    "Adding LEM to CTT",
+    "Replacing Kan filling with realizability",
+    "Combining sheaf models with cubical sets"
+  ],
+  "answer": 0,
+  "explanation": "Cubical assembly models combine realizability (effective topos) with cubical structure to model CTT.",
+  "tags": [
+    "assembly-model",
+    "cubical-type-theory",
+    "realizability",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "d5372307-a1b8-49a0-b2f6-11d1202f240c"
+}

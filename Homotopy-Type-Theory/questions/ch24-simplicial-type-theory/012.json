@@ -1,0 +1,20 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A morphism f:hom_A(a,b) in a Segal type A is an isomorphism iff:",
+  "choices": [
+    "f has a left inverse",
+    "there exists g:hom_A(b,a) with g∘f=id_a and f∘g=id_b",
+    "f is a path",
+    "hom_A(a,b) is contractible"
+  ],
+  "answer": 1,
+  "explanation": "iso_A(a,b) = { f:hom(a,b) | ∃g:hom(b,a). g∘f=id_a ∧ f∘g=id_b }. In a Rezk type, iso(a,b) ≃ (a=b) — isomorphism equals identity.",
+  "tags": [
+    "simplicial-TT",
+    "Rezk"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "7b1d1a29-8ee4-44d8-91c7-e2b9959e332f"
+}

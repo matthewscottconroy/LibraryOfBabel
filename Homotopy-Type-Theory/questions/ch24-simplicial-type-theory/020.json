@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, the Segal condition states that composable morphisms compose. It is expressed as:",
+  "choices": [
+    "An axiom about the interval",
+    "A Kan extension condition on the restricted hom-types (Segal types are types satisfying this)",
+    "A uniqueness condition on paths",
+    "A fibrancy condition"
+  ],
+  "answer": 1,
+  "explanation": "A Segal type: for any f: hom(a,b) and g: hom(b,c), there is a unique composite in hom(a,c).",
+  "tags": [
+    "simplicial-type-theory",
+    "segal-condition"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a1ab8350-99de-430e-9b48-9f0537eb6c06"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An initial object in a category C is an object I such that:",
+  "choices": [
+    "There is exactly one morphism from every object to I",
+    "There is exactly one morphism from I to every object",
+    "I is isomorphic to the terminal object",
+    "I has no outgoing morphisms"
+  ],
+  "answer": 1,
+  "explanation": "Initial: ∀A. ∃! I→A. Dual of terminal (∀A. ∃! A→1).",
+  "tags": [
+    "initial-object",
+    "category-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "dd3eece3-359a-45b5-8216-07a468fe19ed"
+}

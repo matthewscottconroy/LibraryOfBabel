@@ -1,0 +1,20 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Sheaf semantics for constructive logic uses: a proposition P is valid iff it holds 'locally' meaning:",
+  "choices": [
+    "P is true in the terminal sheaf",
+    "P is in the global sections of the sheaf associated to P",
+    "P is forced at all points of the underlying space",
+    "P has a section over every open covering"
+  ],
+  "answer": 3,
+  "explanation": "Sheaf semantics for intuitionistic logic: a proposition P is locally true if it has sections over open covers. This gives Kripke-like semantics with a topological flavour.",
+  "tags": [
+    "categorical-logic",
+    "sheaves"
+  ],
+  "difficulty": "advanced",
+  "question_id": "f1013381-d1c8-4042-ba85-55e702de2e57"
+}

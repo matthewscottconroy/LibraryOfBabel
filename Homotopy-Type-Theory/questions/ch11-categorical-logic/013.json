@@ -1,0 +1,20 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the internal language of a topos, existential quantification ∃x.φ(x) corresponds to:",
+  "choices": [
+    "a product",
+    "the image of the display map for φ",
+    "the pullback of φ along the diagonal",
+    "the global sections of φ"
+  ],
+  "answer": 1,
+  "explanation": "∃x.φ corresponds to the image of the projection from {(x,p) | p:φ(x)} to the base. In set-theoretic terms, ∃x.φ is the direct image of the display map.",
+  "tags": [
+    "categorical-logic",
+    "topos"
+  ],
+  "difficulty": "advanced",
+  "question_id": "26f3c028-761c-449f-a777-4db93d3e2bfa"
+}

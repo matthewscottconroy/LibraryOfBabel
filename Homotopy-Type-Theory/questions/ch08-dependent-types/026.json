@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A 'universe' in a dependent type system is:",
+  "choices": [
+    "The type of all types (which may cause paradox if unlevelled)",
+    "A synonym for 'kind'",
+    "The type of propositions only",
+    "The universe of discourse in ZFC"
+  ],
+  "answer": 0,
+  "explanation": "A universe 𝒰 : 𝒰 would yield Girard's paradox; hence universe hierarchies are used.",
+  "tags": [
+    "universes",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "71afc3e0-f5a6-4f47-b352-5d8deaa3b4f8"
+}

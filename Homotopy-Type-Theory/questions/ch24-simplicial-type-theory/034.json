@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "What is the role of 'shapes' (such as Δⁿ, ∂Δⁿ, Λⁿₖ) in Simplicial TT?",
+  "choices": [
+    "They are types in the universe",
+    "They are geometric objects parametrising the extension types that express Segal/Kan conditions",
+    "They are Lean 4 modules",
+    "They are axioms"
+  ],
+  "answer": 1,
+  "explanation": "Shapes parametrise extension types: {A | Λ²₁ ↦ (f,g)} expresses composability conditions.",
+  "tags": [
+    "simplicial-type-theory",
+    "shapes"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "ff775963-c1ed-4fac-ada1-8ef9b7037bab"
+}

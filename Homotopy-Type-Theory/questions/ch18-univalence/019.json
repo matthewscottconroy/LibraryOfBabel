@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Function extensionality (funext) is:",
+  "choices": [
+    "An axiom independent of HoTT",
+    "A consequence of univalence",
+    "Equivalent to axiom K",
+    "Equivalent to UIP"
+  ],
+  "answer": 1,
+  "explanation": "Funext follows from univalence: functions are determined by their values, and the universe respects this via ua.",
+  "tags": [
+    "function-extensionality",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "826c9cb3-1ca2-4624-8628-c5612e286451"
+}

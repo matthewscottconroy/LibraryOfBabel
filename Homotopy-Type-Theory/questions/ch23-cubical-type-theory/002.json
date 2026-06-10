@@ -1,0 +1,21 @@
+{
+  "question_id": "6162f64f-45ec-4a12-9d72-4c2482475bda",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Canonicity for CCHM cubical type theory means:",
+  "choices": [
+    "every type is inhabited",
+    "every closed term of type ℕ is definitionally equal to a numeral",
+    "every proof is propositionally unique",
+    "type checking is decidable"
+  ],
+  "answer": 1,
+  "explanation": "Canonicity (Huber 2018): closed ℕ-terms compute to numerals. This gives univalence genuine computational content.",
+  "tags": [
+    "cubical-TT",
+    "canonicity"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

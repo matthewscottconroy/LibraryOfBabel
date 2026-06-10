@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A sequence (aₙ) is Cauchy if:",
+  "choices": [
+    "aₙ is bounded",
+    "For every ε>0 there exists N such that m,n>N implies |aₙ-aₘ|<ε",
+    "aₙ is decreasing",
+    "aₙ converges to 0"
+  ],
+  "answer": 1,
+  "explanation": "Cauchy criterion: terms become arbitrarily close to each other.",
+  "tags": [
+    "cauchy-sequence",
+    "real-analysis"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f83c5b3f-0bd2-4d56-8602-b5a98bd6eb5a"
+}

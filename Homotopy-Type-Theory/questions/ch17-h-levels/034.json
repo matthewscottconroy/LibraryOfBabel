@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The set-truncation ‖A‖₀ of a type A in HoTT is characterised as:",
+  "choices": [
+    "The set of connected components of A",
+    "The 0-truncation: the universal set receiving a map from A",
+    "The propositional truncation of A",
+    "Both A and B"
+  ],
+  "answer": 3,
+  "explanation": "‖A‖₀ is both the 0-truncation (universal h-set) and corresponds to the set of connected components (π₀).",
+  "tags": [
+    "set-truncation",
+    "0-truncation",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "1230e9b0-9e2c-40f6-b79e-8dccbfa5e11a"
+}

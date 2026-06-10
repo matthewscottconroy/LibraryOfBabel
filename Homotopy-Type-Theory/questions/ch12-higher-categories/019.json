@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A quasicategory (Joyal, Boardman-Vogt) is a simplicial set satisfying:",
+  "choices": [
+    "The Kan condition for all horns",
+    "The inner horn filling condition (for 0 < k < n)",
+    "The outer horn filling condition",
+    "Stricter composition laws"
+  ],
+  "answer": 1,
+  "explanation": "Quasicategories = simplicial sets with fillers for inner horns Λ^n_k → Δ^n (0 < k < n).",
+  "tags": [
+    "quasicategory",
+    "higher-categories",
+    "simplicial-set"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "5c4c707f-deda-4cc0-ab33-2ab63693d0e3"
+}

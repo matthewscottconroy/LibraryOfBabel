@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'covariant functoriality' in Simplicial TT means that for a type family P: A→Type over a Segal A:",
+  "choices": [
+    "P is constant",
+    "For each morphism f: hom_A(a,b), there is a transport map P(a)→P(b)",
+    "P has a left adjoint",
+    "P is a groupoid fibration"
+  ],
+  "answer": 1,
+  "explanation": "Covariant fibrations have transport along morphisms: Π(f: hom_A(a,b)). P(a)→P(b).",
+  "tags": [
+    "simplicial-type-theory",
+    "covariant-fibration"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "6457c777-d56a-47dd-8fd8-fbe7938e5cae"
+}

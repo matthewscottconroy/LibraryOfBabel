@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The cardinal ℵ₁ is defined as:",
+  "choices": [
+    "2^ℵ₀",
+    "the cardinality of ℝ",
+    "the smallest uncountable cardinal",
+    "ℵ₀ + 1"
+  ],
+  "answer": 2,
+  "explanation": "ℵ₁ is the first uncountable cardinal (the Hartogs number of ℕ). Whether ℵ₁=2^ℵ₀ is the Continuum Hypothesis — independent of ZFC.",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "093df7cd-c6c3-44a8-8977-12ecfd62e990"
+}

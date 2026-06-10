@@ -1,0 +1,19 @@
+{
+  "question_id": "ae48779e-bf9b-4d40-9d95-9582045bfa62",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Every Cartesian closed category (CCC) can serve as a model of the simply typed lambda calculus.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The Curry-Howard-Lambek correspondence: types = objects, terms = morphisms, → = exponential, × = product. Every CCC gives a sound and complete model of STLC.",
+  "tags": [
+    "ccc",
+    "stlc"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

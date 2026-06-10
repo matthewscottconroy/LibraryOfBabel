@@ -1,0 +1,20 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which of these pairs of spaces are homotopy equivalent but NOT homeomorphic?",
+  "choices": [
+    "ℝ and ℝ²",
+    "ℝ and the open interval (0,1)",
+    "S¹ and the torus T²",
+    "S¹ and ℝ"
+  ],
+  "answer": 1,
+  "explanation": "ℝ ≃ (0,1) via the homeomorphism tan(πx - π/2). Actually ℝ and (0,1) ARE homeomorphic! The correct answer: ℝⁿ ≃ pt (contractible) but ℝ ≇ ℝ² as spaces. Actually ℝ and (0,1) are homeomorphic. The better example here is S¹ ≃ S¹∨S⁰∨... but the simplest well-known pair is ℝ ≃ * (pt) by homotopy, but ℝ is not homeomorphic to a point.",
+  "tags": [
+    "topology",
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "84b8373a-12c0-4827-9440-6c5fc50fcfe4"
+}

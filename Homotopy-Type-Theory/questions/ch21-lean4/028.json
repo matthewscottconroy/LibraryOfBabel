@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, the `structure` keyword creates:",
+  "choices": [
+    "An inductive type with multiple constructors",
+    "A record type with named fields and auto-generated projections",
+    "A typeclass",
+    "An axiom"
+  ],
+  "answer": 1,
+  "explanation": "`structure Foo where field1 : A; field2 : B` creates a single-constructor inductive type with projections.",
+  "tags": [
+    "lean4",
+    "structure",
+    "record"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d3a1a573-81cc-4477-b5dc-9ce93b833a98"
+}

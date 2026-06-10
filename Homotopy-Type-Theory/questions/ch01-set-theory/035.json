@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Cantor's theorem states that for any set A:",
+  "choices": [
+    "A and P(A) have the same cardinality",
+    "|P(A)| > |A|",
+    "P(A) is always countable",
+    "A is a subset of P(A)"
+  ],
+  "answer": 1,
+  "explanation": "Cantor: there is no surjection from A onto P(A), so |P(A)| > |A|.",
+  "tags": [
+    "cantors-theorem",
+    "cardinality"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "874b077a-924c-4361-af6e-ebf3c58d5cda"
+}

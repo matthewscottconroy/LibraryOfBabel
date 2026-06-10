@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `ua` function in Cubical Agda converts an equivalence A ≃ B to a path:",
+  "choices": [
+    "A → B",
+    "A ≡ B in the universe",
+    "A proof of isEquiv",
+    "A Glue type"
+  ],
+  "answer": 1,
+  "explanation": "ua : A ≃ B → A ≡ B (path in the universe), proved using Glue types.",
+  "tags": [
+    "cubical-agda",
+    "ua",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "68d17b03-f17d-4183-a475-e0698894554c"
+}

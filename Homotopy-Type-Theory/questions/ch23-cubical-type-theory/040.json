@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "blank",
+  "text": "In CTT, the composition operation `hcomp` is used to prove that all types are ______.",
+  "choices": [
+    "Kan fibrations (can fill open boxes)",
+    "contractible",
+    "propositions",
+    "sets"
+  ],
+  "answer": "Kan fibrations (can fill open boxes)",
+  "explanation": "hcomp provides the Kan filling: every type is a Kan fibration in CTT.",
+  "tags": [
+    "cubical-type-theory",
+    "kan-filling",
+    "hcomp"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "abb052b5-8ea8-4d02-b8bd-32b64612853d"
+}

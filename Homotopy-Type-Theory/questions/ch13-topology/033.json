@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Homotopy equivalence f: X→Y means there exists g: Y→X such that:",
+  "choices": [
+    "f∘g = id_Y and g∘f = id_X (strict inverses)",
+    "f∘g ≃ id_Y and g∘f ≃ id_X (homotopic to identities)",
+    "f is a homeomorphism",
+    "f is a weak homotopy equivalence"
+  ],
+  "answer": 1,
+  "explanation": "Homotopy equivalence: f∘g and g∘f are homotopic (not necessarily equal) to identities.",
+  "tags": [
+    "homotopy-equivalence",
+    "topology"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "169de4d2-f7c1-492e-b7ea-6fb7f7248329"
+}

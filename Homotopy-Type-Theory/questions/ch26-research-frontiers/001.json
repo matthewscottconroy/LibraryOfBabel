@@ -1,0 +1,21 @@
+{
+  "question_id": "b8e1ac6d-a649-4659-b827-6628159dc3d5",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Brunerie's open problem asks for:",
+  "choices": [
+    "a new computation of π₁(S¹)",
+    "a simpler human-readable proof of π₄(S³) = ℤ/2ℤ in HoTT",
+    "a proof that canonicity holds for Book HoTT",
+    "a formalization of the Yoneda lemma in Rzk"
+  ],
+  "answer": 1,
+  "explanation": "Brunerie (2016) proved π₄(S³)=ℤ/2ℤ computationally; the proof term is too large for human reading. A conceptual proof is open.",
+  "tags": [
+    "research",
+    "Brunerie"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "920876cb-ee0d-4fc0-93ab-aac16489768c",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The encode-decode method for computing πₙ(A) proceeds by constructing a family code: A → Type such that:",
+  "choices": [
+    "code(x) ≃ (a = x) for all x, via a section of decode",
+    "code(x) is always contractible",
+    "code(a) = ℕ and code(x) = 𝟘 for x ≠ a",
+    "decode is a surjection onto the loop space"
+  ],
+  "answer": 0,
+  "explanation": "Encode: (a=x) → code(x); decode: code(x) → (a=x). Show encode ∘ decode = id and decode ∘ encode = id (by path induction). Used to prove π₁(S¹) = ℤ.",
+  "tags": [
+    "encode-decode",
+    "identity-types"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

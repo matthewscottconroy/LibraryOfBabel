@@ -1,0 +1,21 @@
+{
+  "question_id": "ba021948-8ec6-4344-960e-a4abd4ccd201",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which property of the real line is used to prove the intermediate value theorem?",
+  "choices": [
+    "completeness (least upper bound property)",
+    "archimedean property",
+    "uncountability",
+    "sigma-compactness"
+  ],
+  "answer": 0,
+  "explanation": "The IVT follows from connectedness of [a,b], which in turn follows from completeness/order-completeness of ℝ.",
+  "tags": [
+    "analysis",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

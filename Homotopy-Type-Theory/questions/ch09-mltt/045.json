@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In MLTT, the coproduct type A+B has how many constructors?",
+  "choices": [
+    "One (pair)",
+    "Two (inl and inr)",
+    "Three",
+    "None"
+  ],
+  "answer": 1,
+  "explanation": "A+B: inl:A→A+B and inr:B→A+B.",
+  "tags": [
+    "mltt",
+    "coproduct",
+    "inductive"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "300f478d-fdb1-4372-8015-15495ad13044"
+}

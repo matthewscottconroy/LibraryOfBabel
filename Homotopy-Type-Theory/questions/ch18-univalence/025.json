@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Univalence implies that isomorphic mathematical structures are:",
+  "choices": [
+    "Definitionally equal",
+    "Propositionally equal (identical as types)",
+    "Related by a bijection only",
+    "Related by a retraction"
+  ],
+  "answer": 1,
+  "explanation": "By univalence, equivalent (isomorphic) types are propositionally equal; this formalises the mathematical practice of treating isomorphic structures identically.",
+  "tags": [
+    "univalence",
+    "structure-identity"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b66cf56d-b076-4682-b67d-d4c14a509205"
+}

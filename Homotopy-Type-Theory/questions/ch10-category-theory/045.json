@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In which category are the morphisms monotone functions between posets?",
+  "choices": [
+    "Set",
+    "Top",
+    "Pos",
+    "Grp"
+  ],
+  "answer": 2,
+  "explanation": "Pos: objects are posets (or preorders), morphisms are monotone (order-preserving) functions.",
+  "tags": [
+    "pos",
+    "poset",
+    "category-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "5a2bb580-4726-4096-a8a2-67ef9f61cfcc"
+}

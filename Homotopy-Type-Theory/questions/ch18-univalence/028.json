@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The structure identity principle (SIP) derived from univalence says that two mathematical structures of the same type are equal iff they are:",
+  "choices": [
+    "Isomorphic as structures",
+    "Equal as sets",
+    "Related by a function",
+    "Homeomorphic"
+  ],
+  "answer": 0,
+  "explanation": "SIP: for structured types (e.g., groups, rings), equality of structures ≃ isomorphism of structures.",
+  "tags": [
+    "structure-identity-principle",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "09038292-6644-40cc-983f-a83314d89fda"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Church-Rosser property (confluence) of the lambda calculus says: if t→*u and t→*v, then there exists w such that:",
+  "choices": [
+    "u=v",
+    "u→*w and v→*w",
+    "w=t",
+    "the reduction terminates"
+  ],
+  "answer": 1,
+  "explanation": "Church-Rosser/confluence: reductions can always be 'joined' — if both u and v are reducts of t, they have a common reduct w. This implies uniqueness of normal forms.",
+  "tags": [
+    "curry-howard",
+    "lambda-calculus",
+    "confluence"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "6faccc66-75a0-4b2d-b220-481c68f50c83"
+}

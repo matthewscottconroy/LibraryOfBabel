@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Curry-Howard-Lambek correspondence extends Curry-Howard to include:",
+  "choices": [
+    "Set theory",
+    "Cartesian closed categories (CCCs) as a third corner",
+    "Modal logic",
+    "Linear types"
+  ],
+  "answer": 1,
+  "explanation": "The triple correspondence: proofs ≅ lambda terms ≅ morphisms in a CCC.",
+  "tags": [
+    "curry-howard-lambek",
+    "ccc",
+    "correspondence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8b6b0613-dc4e-4422-ad2d-2f9b34906cfb"
+}

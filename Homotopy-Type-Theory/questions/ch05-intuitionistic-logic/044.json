@@ -1,0 +1,21 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Heyting algebras provide the algebraic semantics of IPC. The operation → in a Heyting algebra is:",
+  "choices": [
+    "Boolean complement",
+    "The right adjoint to meet: a→b = max{c : a∧c ≤ b}",
+    "Symmetric difference",
+    "Sum in the lattice"
+  ],
+  "answer": 1,
+  "explanation": "Heyting implication: a→b = sup{c : a∧c ≤ b} (pseudo-complement or relative pseudo-complement).",
+  "tags": [
+    "heyting-algebra",
+    "ipc"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "2fd3052b-d4f8-4ea8-b0b8-1708a6a67d13"
+}

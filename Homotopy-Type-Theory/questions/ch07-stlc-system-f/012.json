@@ -1,0 +1,20 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Girard-Reynolds isomorphism says System F is isomorphic to:",
+  "choices": [
+    "STLC with recursion",
+    "second-order propositional logic",
+    "Martin-Löf Type Theory",
+    "first-order predicate logic"
+  ],
+  "answer": 1,
+  "explanation": "System F (polymorphic lambda calculus) is the Curry-Howard correspondent of second-order intuitionistic propositional logic. Independently discovered by Girard and Reynolds.",
+  "tags": [
+    "System-F",
+    "curry-howard"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "eabe21b2-58ce-405d-aba1-601531959497"
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "1add16c0-d90f-4478-9e58-71aaf28c063d",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In HoTT, the J eliminator (path induction) can be derived from the fact that the type Σ(x:A), a=x is contractible.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The contractibility of Σ(x:A), a=x with center (a, refl) means that any two elements (b, p) are equal to (a, refl), giving exactly the J eliminator.",
+  "tags": [
+    "j-eliminator",
+    "identity-types",
+    "contractible"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

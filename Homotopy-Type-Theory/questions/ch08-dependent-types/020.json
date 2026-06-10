@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The type Σ(x:A).B(x) represents:",
+  "choices": [
+    "The type of functions that return pairs",
+    "A dependent sum: pairs (a, b) where b : B(a)",
+    "A disjunction A ∨ B",
+    "A subtype of A"
+  ],
+  "answer": 1,
+  "explanation": "Σ-types (dependent pair types) generalise products: the second component type depends on the first.",
+  "tags": [
+    "sigma-type",
+    "dependent-types"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "cc9436d5-b54b-4160-8e1c-f8c42c350185"
+}

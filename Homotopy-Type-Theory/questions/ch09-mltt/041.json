@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The category of contexts and substitutions for MLTT forms a category with families (CwF). The key structure is:",
+  "choices": [
+    "A Cartesian closed category",
+    "A category C of contexts with a type functor Ty: C^op → Set and term functor Tm",
+    "A locally Cartesian closed category",
+    "A topos"
+  ],
+  "answer": 1,
+  "explanation": "CwFs (Dybjer): contexts form a category, Ty assigns type sets to contexts, Tm assigns terms.",
+  "tags": [
+    "cwf",
+    "mltt",
+    "categorical-semantics"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "f583f408-0693-41a0-84ea-3774c97d7bbf"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "99b65b86-a907-44c4-9ce7-73492bc24f46",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The sharp modality ♯A in cohesive HoTT represents:",
+  "choices": [
+    "the suspension of A",
+    "the 'codiscrete' or 'indiscrete' version of A (all maps into it are smooth)",
+    "the loop space of A",
+    "the propositional truncation"
+  ],
+  "answer": 1,
+  "explanation": "♯A is codiscrete: every type maps uniquely into ♯A up to homotopy, but maps out of ♯A are rigid. ♯ is right adjoint to ♭.",
+  "tags": [
+    "sharp-modality",
+    "cohesive-hott"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

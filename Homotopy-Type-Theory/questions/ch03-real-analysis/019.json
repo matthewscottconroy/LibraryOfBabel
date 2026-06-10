@@ -1,0 +1,18 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A Cauchy sequence in a metric space is always convergent.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Cauchy sequences are convergent only in complete metric spaces. In ℚ, (1, 1.4, 1.41, …) approximating √2 is Cauchy but does not converge in ℚ.",
+  "tags": [
+    "analysis",
+    "completeness"
+  ],
+  "difficulty": "beginner",
+  "question_id": "8829f22b-e736-4112-a0e2-4218afe9fbcf"
+}

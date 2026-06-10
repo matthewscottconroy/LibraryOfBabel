@@ -1,0 +1,22 @@
+{
+  "question_id": "cc895870-fcc4-4025-bd48-50cdc16ae1ed",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which of the following is TRUE about the interval I as a HIT?",
+  "choices": [
+    "I has no point constructors",
+    "I is contractible and can be used to prove funext in Book HoTT",
+    "I is the same as the circle S¹",
+    "I requires the univalence axiom"
+  ],
+  "answer": 1,
+  "explanation": "I = {0,1 : I, seg : 0=1}. It is contractible and gives a proof of funext: a homotopy I → (A→B) is an extensional equality.",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "interval"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

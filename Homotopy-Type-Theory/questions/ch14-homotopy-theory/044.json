@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The rational cohomology ring of a Lie group G is:",
+  "choices": [
+    "A polynomial ring",
+    "An exterior algebra on odd-degree generators",
+    "A free abelian group",
+    "Always trivial"
+  ],
+  "answer": 1,
+  "explanation": "Hopf's theorem: H*(G;ℚ) is an exterior algebra on generators of odd degree.",
+  "tags": [
+    "lie-group",
+    "cohomology-ring",
+    "rational-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "8118741f-9321-4f13-a8dc-a64862100d7d"
+}

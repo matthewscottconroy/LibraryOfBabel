@@ -1,0 +1,20 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the Kan-Quillen model structure on sSet, what are the cofibrations?",
+  "choices": [
+    "Kan fibrations",
+    "all monomorphisms of simplicial sets",
+    "inner anodyne extensions",
+    "trivial cofibrations"
+  ],
+  "answer": 1,
+  "explanation": "Every monomorphism of simplicial sets is a cofibration in the Kan-Quillen model structure. This means every simplicial set is cofibrant (Quillen model structure is 'left-proper').",
+  "tags": [
+    "simplicial-sets",
+    "model-structure"
+  ],
+  "difficulty": "advanced",
+  "question_id": "f21533e2-630d-4293-9add-217a3aedcc4a"
+}

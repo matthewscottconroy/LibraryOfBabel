@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Proof complexity studies the size of proofs. The Extended Frege system is polynomially equivalent to:",
+  "choices": [
+    "Frege systems with substitution rule",
+    "Resolution",
+    "Cut-free proofs",
+    "Natural deduction"
+  ],
+  "answer": 0,
+  "explanation": "Extended Frege = Frege with substitution; it is polynomially complete relative to Frege.",
+  "tags": [
+    "proof-complexity",
+    "frege"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "f7477b42-bb22-41ee-93b5-8d0a8b26af65"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Cubical Agda (--cubical) versus --erased-cubical: what does 'erased' add?",
+  "choices": [
+    "new type constructors",
+    "the ability to mark certain terms as erased at runtime (@ annotation), useful for proof-relevant vs. irrelevant distinctions",
+    "classical logic",
+    "a different interval"
+  ],
+  "answer": 1,
+  "explanation": "--erased-cubical allows @-erased arguments (computationally irrelevant). This enables efficient extraction by erasing proof content. It is relevant for certified programming.",
+  "tags": [
+    "research",
+    "Cubical-Agda"
+  ],
+  "difficulty": "advanced",
+  "question_id": "37b56e40-6fcf-4307-adea-d32d34b914b1"
+}

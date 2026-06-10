@@ -1,0 +1,18 @@
+{
+  "question_id": "77a9dd96-66c2-4c16-8ccc-4823d2be3723",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The normalisation theorem for intuitionistic natural deduction says every proof has a normal form.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Prawitz (1965): every proof in NJ reduces to a normal form by eliminating all detours. This is the proof-theoretic counterpart of strong normalisation.",
+  "tags": [
+    "proof-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

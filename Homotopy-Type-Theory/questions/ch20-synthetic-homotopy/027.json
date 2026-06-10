@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, a pointed map f: (A,a)→(B,b) consists of:",
+  "choices": [
+    "A function f:A→B",
+    "A function f:A→B together with a path f(a)=b",
+    "A homotopy between f and the constant map",
+    "A path in A"
+  ],
+  "answer": 1,
+  "explanation": "A pointed map is f: A→B together with fpt: f(a₀)=b₀.",
+  "tags": [
+    "pointed-map",
+    "hott"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "df85a91e-82f9-402d-86e1-a2082fc5bc6f"
+}

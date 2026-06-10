@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The 'convoy pattern' in Agda/Coq is used to:",
+  "choices": [
+    "Avoid universe polymorphism",
+    "Retain information about dependent indices during case analysis",
+    "Enable mutual recursion",
+    "Translate between Σ and Π types"
+  ],
+  "answer": 1,
+  "explanation": "The convoy pattern propagates equalities/indices through pattern matching in dependent type provers.",
+  "tags": [
+    "dependent-types",
+    "pattern-matching",
+    "convoy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "08fc4976-c657-4ba0-a9e1-57666ec80a5d"
+}

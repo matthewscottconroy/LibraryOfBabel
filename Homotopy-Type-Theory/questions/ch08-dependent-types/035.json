@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In Agda, the Set keyword is the name for:",
+  "choices": [
+    "The empty type",
+    "The type of propositions",
+    "The universe (type of types) at level 0",
+    "A record type"
+  ],
+  "answer": 2,
+  "explanation": "In Agda, Set = Set₀ is the first universe; Set₁, Set₂, … are higher universes.",
+  "tags": [
+    "agda",
+    "universes",
+    "dependent-types"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "f31bb4fb-8b00-42de-b86b-cc4014a54041"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In synthetic homotopy theory, the statement π₁(S¹) = ℤ is proved by:",
+  "choices": [
+    "Seifert-van Kampen applied to two arcs",
+    "the encode-decode method using the winding number code family",
+    "computing homology",
+    "using univalence directly on π₁"
+  ],
+  "answer": 1,
+  "explanation": "π₁(S¹)=ℤ in HoTT: define code:S¹→U with code(base)=ℤ, code(loop)=ua(succ). The encode function uses transport; decode sends n:ℤ to loopⁿ. Show encode∘decode=id and decode∘encode=id.",
+  "tags": [
+    "HoTT",
+    "homotopy",
+    "circle"
+  ],
+  "difficulty": "beginner",
+  "question_id": "3e64adf0-b06c-4763-8aca-2bf955c90707"
+}

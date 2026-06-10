@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In a dependent type system, what can types depend on?",
+  "choices": [
+    "Other types only",
+    "Values (terms)",
+    "Proof terms only",
+    "Kinds only"
+  ],
+  "answer": 1,
+  "explanation": "Dependent types allow types to be parameterised by values, e.g. Vec A n for vectors of length n.",
+  "tags": [
+    "dependent-types",
+    "basics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "af4af075-f8e1-461c-95aa-de793636a3f1"
+}

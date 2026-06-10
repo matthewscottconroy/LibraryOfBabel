@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Which --cubical Agda primitive allows defining a set quotient A/R?",
+  "choices": [
+    "Glue types only",
+    "HITs with path constructors",
+    "The interval directly",
+    "Postulated axioms"
+  ],
+  "answer": 1,
+  "explanation": "In Cubical Agda, HITs can be defined with path constructors using the `data` declaration syntax.",
+  "tags": [
+    "cubical-agda",
+    "hit",
+    "quotient"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "7e11470d-4708-4d14-8e21-780e735524aa"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The ∞-category of spaces (Lurie) can be modelled as the full subcategory of sSet on:",
+  "choices": [
+    "All simplicial sets",
+    "Kan complexes",
+    "Quasi-categories",
+    "The nerve of FinSet"
+  ],
+  "answer": 1,
+  "explanation": "Spaces = Kan complexes: the ∞-category of ∞-groupoids / homotopy types.",
+  "tags": [
+    "simplicial-set",
+    "kan-complex",
+    "spaces"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "c4db1f8b-ed1b-4801-b417-657b0b08c54e"
+}

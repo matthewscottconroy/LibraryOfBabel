@@ -1,0 +1,22 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Under BHK, a proof of A→B is:",
+  "choices": [
+    "A proof of ¬A or a proof of B",
+    "A function mapping any proof of A to a proof of B",
+    "A proof that B is consistent with A",
+    "A truth-value assignment"
+  ],
+  "answer": 1,
+  "explanation": "BHK: proof of A→B = constructive function f: Proof(A)→Proof(B).",
+  "tags": [
+    "bhk",
+    "implication",
+    "intuitionistic-logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "2a530809-c188-49f0-a3ba-7df8eab04376"
+}

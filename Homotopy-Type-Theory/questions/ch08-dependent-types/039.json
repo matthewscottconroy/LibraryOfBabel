@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In a dependent type system, type-checking requires normalising terms because:",
+  "choices": [
+    "Terms are too complex",
+    "Two types may be definitionally equal only after reduction (e.g. Vec A (n+0) and Vec A n)",
+    "All types must be in normal form",
+    "Definitional equality is undecidable"
+  ],
+  "answer": 1,
+  "explanation": "Types may be propositionally but not syntactically equal; definitional equality (up to reduction) decides type compatibility.",
+  "tags": [
+    "dependent-types",
+    "definitional-equality",
+    "normalisation"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "dd680d7e-d7b9-4442-8df5-57acffb4c611"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "7e7ae8d8-5df9-4375-82d5-f274696afd0b",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which theorem characterises compactness in metric spaces?",
+  "choices": [
+    "Urysohn's lemma",
+    "The Heine-Borel theorem (closed and bounded iff compact in ℝⁿ)",
+    "Tychonoff's theorem",
+    "The Baire category theorem"
+  ],
+  "answer": 1,
+  "explanation": "Heine-Borel: a subset of ℝⁿ is compact iff it is closed and bounded. Tychonoff is the general statement for arbitrary products.",
+  "tags": [
+    "topology",
+    "compactness"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

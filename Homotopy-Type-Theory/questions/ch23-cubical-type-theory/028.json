@@ -1,0 +1,21 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The cubical set model (Bezem-Coquand-Huber) interprets types as:",
+  "choices": [
+    "Topological spaces",
+    "Presheaves on the category of cubes with Kan filling structure",
+    "Groupoids",
+    "Simplicial sets"
+  ],
+  "answer": 1,
+  "explanation": "Types are interpreted as cubical Kan fibrations: presheaves on □ with a Kan structure.",
+  "tags": [
+    "cubical-set-model",
+    "cubical-type-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "8b3f2c8c-d508-4559-a422-3cc92cbb5ebb"
+}

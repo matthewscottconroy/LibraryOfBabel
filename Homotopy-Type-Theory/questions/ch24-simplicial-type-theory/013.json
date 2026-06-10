@@ -1,0 +1,20 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The Segal condition in simplicial type theory states: for a type A with a,b,c:A and f:hom(a,b) and g:hom(b,c), the type of composites is:",
+  "choices": [
+    "empty",
+    "contractible (unique composite exists up to homotopy)",
+    "a set",
+    "the loop space of A"
+  ],
+  "answer": 1,
+  "explanation": "Segal condition: Σ(h:hom(a,c)). comp(f,g,h) is contractible — there is a unique composite h = g∘f up to homotopy. This is ∞-categorical composition.",
+  "tags": [
+    "simplicial-TT",
+    "Segal"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "dafb74d9-bc18-4ff3-9f65-a0d9d9aaf6f4"
+}

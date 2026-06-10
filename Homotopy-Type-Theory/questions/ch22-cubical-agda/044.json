@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `compEquiv` function in Cubical Agda composes two equivalences A≃B and B≃C to give:",
+  "choices": [
+    "A path A≡C",
+    "An equivalence A≃C",
+    "A path B≡C",
+    "An Iso"
+  ],
+  "answer": 1,
+  "explanation": "compEquiv e₁ e₂ : A≃C given e₁:A≃B, e₂:B≃C.",
+  "tags": [
+    "cubical-agda",
+    "compEquiv",
+    "equivalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d70e75d1-095e-4a13-a989-6d60d25d8495"
+}

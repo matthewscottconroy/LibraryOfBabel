@@ -1,0 +1,22 @@
+{
+  "question_id": "9358135a-758e-42c1-ba22-3ceee7b56ae5",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Eckmann-Hilton argument shows that π₂(A, a) is abelian. The key step is showing that for 2-loops α, β: refl_a = refl_a, the two compositions ⋆ (vertical) and ⋆ₕ (horizontal) satisfy:",
+  "choices": [
+    "α ⋆ β = α  and  α ⋆ₕ β = β",
+    "α ⋆ β = α ⋆ₕ β = β ⋆ α",
+    "α ⋆ β = refl and α ⋆ₕ β = refl",
+    "the two compositions are unrelated"
+  ],
+  "answer": 1,
+  "explanation": "Both compositions agree on 2-loops (by interchange) and both are unital, so α⋆β = α⋆ₕβ = β⋆α. The same argument shows all πₙ for n≥2 are abelian.",
+  "tags": [
+    "eckmann-hilton",
+    "homotopy-groups",
+    "h-levels"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

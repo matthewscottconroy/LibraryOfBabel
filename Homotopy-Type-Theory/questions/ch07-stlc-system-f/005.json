@@ -1,0 +1,21 @@
+{
+  "question_id": "35e216c0-1ce4-43e2-a63e-aba2a5101c89",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the kind of a type constructor like List in System Fω?",
+  "choices": [
+    "*",
+    "* → *",
+    "* → * → *",
+    "∀κ. κ → κ"
+  ],
+  "answer": 1,
+  "explanation": "List has kind * → *: it takes a type (kind *) and returns a type (kind *). Fω adds kinds to System F.",
+  "tags": [
+    "System-F",
+    "kinds"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

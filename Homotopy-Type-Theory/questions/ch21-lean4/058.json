@@ -1,0 +1,22 @@
+{
+  "question_id": "faf81651-1e7c-4fcb-8ae5-a2dc72c0cdcb",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4 / Mathlib4, the `CategoryTheory` library models morphisms as:",
+  "choices": [
+    "elements of a set Hom(X,Y) with a definitional associativity law",
+    "bundled structures (category as a typeclass over an object type, with Hom as a field)",
+    "functions between types only",
+    "propositions about objects"
+  ],
+  "answer": 1,
+  "explanation": "Mathlib4 CategoryTheory: `Category C` is a typeclass on C: Type with `Hom: C → C → Type`, `comp`, `id`, and associativity/unit as proof fields. This allows universe-polymorphic categories.",
+  "tags": [
+    "Lean4",
+    "Mathlib",
+    "category-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

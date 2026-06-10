@@ -1,0 +1,19 @@
+{
+  "question_id": "420914d3-6196-4395-9e8e-33f56f8cb913",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "tf",
+  "text": "In Lean 4, `instance` declarations are searched globally by the elaborator, so adding an instance in one file affects typeclass resolution in all files that import it.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Lean 4 uses open-world typeclass resolution: instances accumulate across imports. This is why Mathlib instances (e.g., Fintype for specific types) are available automatically.",
+  "tags": [
+    "Lean4",
+    "typeclass"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

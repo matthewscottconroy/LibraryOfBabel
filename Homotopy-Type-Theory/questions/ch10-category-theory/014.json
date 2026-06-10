@@ -1,0 +1,20 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Yoneda lemma implies that every object c in a locally small category C is completely determined by:",
+  "choices": [
+    "the set of its endomorphisms",
+    "the functor Hom(c, -): C → Set (its covariant representable functor)",
+    "the category of morphisms into c",
+    "its isomorphism class only"
+  ],
+  "answer": 1,
+  "explanation": "Yoneda: c ↦ Hom(c,-) is fully faithful. Two objects are isomorphic iff their representable functors are naturally isomorphic. Objects are 'probed' by morphisms from them.",
+  "tags": [
+    "category-theory",
+    "Yoneda"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "d7982a46-e7e0-4488-bb67-54a22beff11b"
+}

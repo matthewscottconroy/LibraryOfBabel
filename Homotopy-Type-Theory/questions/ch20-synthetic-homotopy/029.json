@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Mayer-Vietoris sequence in HoTT for a pushout A⊔_C B gives a long exact sequence of:",
+  "choices": [
+    "Homology groups",
+    "Homotopy groups",
+    "Both, depending on the version",
+    "Only cohomology groups"
+  ],
+  "answer": 2,
+  "explanation": "In synthetic HT, both homotopy-theoretic and homological Mayer-Vietoris sequences can be established.",
+  "tags": [
+    "mayer-vietoris",
+    "hott",
+    "pushout"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "e21a58f4-70eb-4b2f-aa98-32de312707af"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The center Z(G) of a group G is:",
+  "choices": [
+    "the set of elements of order 1 or 2",
+    "the set of elements that commute with all elements of G",
+    "the largest normal subgroup",
+    "the commutator subgroup [G,G]"
+  ],
+  "answer": 1,
+  "explanation": "Z(G) = {g∈G | gx=xg for all x∈G}. It is the largest abelian subgroup that is also normal.",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "47ebf08b-feb8-4650-b4a5-285531985995"
+}

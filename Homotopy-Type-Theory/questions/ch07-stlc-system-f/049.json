@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which of the following correctly describes β-η equivalence in STLC?",
+  "choices": [
+    "Two terms are equal iff they are syntactically identical",
+    "Two terms are βη-equal iff they reduce to the same normal form under β and η rules",
+    "All terms of the same type are βη-equal",
+    "βη-equality is undecidable in STLC"
+  ],
+  "answer": 1,
+  "explanation": "βη-equality in STLC is decidable: compute βη normal forms and compare.",
+  "tags": [
+    "stlc",
+    "beta-eta-equivalence",
+    "decidability"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "70f92ea9-9371-49f4-8161-1e046dcdf119"
+}

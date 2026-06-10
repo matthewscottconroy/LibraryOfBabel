@@ -1,0 +1,17 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Every propositional formula that is consistent (satisfiable) in IPC is also consistent in classical logic.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "IPC is a subset of classical logic: if A is consistent in IPC (¬A is not provable), then A has an intuitionistic Kripke model and hence a classical model. Consistency in IPC implies consistency classically.",
+  "tags": [
+    "intuitionistic"
+  ],
+  "difficulty": "advanced",
+  "question_id": "f05fcdf2-8f4e-438f-bf19-809f33201a3c"
+}

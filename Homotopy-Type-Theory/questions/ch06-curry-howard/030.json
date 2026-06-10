@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Refinement types (as in F* or Liquid Haskell) extend simple types with:",
+  "choices": [
+    "dependent sums only",
+    "predicates on values: {x:T | φ(x)}, giving a form of dependent types oriented towards program verification",
+    "second-order quantification",
+    "effects"
+  ],
+  "answer": 1,
+  "explanation": "Refinement types: {x:T | φ(x)} where φ is a predicate. This allows types like {n:Int | n>0} (positive integers) without full dependent types. SMT solvers discharge proof obligations.",
+  "tags": [
+    "curry-howard",
+    "refinement-types"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "d19e0c96-54cb-4c69-a455-c6418ed4ce25"
+}

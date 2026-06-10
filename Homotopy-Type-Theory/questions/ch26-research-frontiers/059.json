@@ -1,0 +1,19 @@
+{
+  "question_id": "d51210fd-c65e-4292-be29-bd72087b0862",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "blank",
+  "text": "The proof assistant designed for synthetic (∞,1)-category theory based on Riehl-Shulman's framework is called ___.",
+  "choices": [
+    "Rzk"
+  ],
+  "answer": "rzk",
+  "explanation": "Rzk (rzk-lang.github.io) implements simplicial/directed type theory. It is used to formalize results like the Yoneda lemma and adjoint functor theorem synthetically.",
+  "tags": [
+    "rzk",
+    "simplicial-type-theory",
+    "research-frontiers"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A type A is n-truncated (has h-level ≤ n+2) iff:",
+  "choices": [
+    "A has at most n elements",
+    "all identity types IdA(a,b) are (n-1)-truncated (i.e., h-level ≤ n+1)",
+    "πₙ(A) = 0",
+    "A is contractible"
+  ],
+  "answer": 1,
+  "explanation": "Inductively: A is (-2)-truncated iff isContr; A is (-1)-truncated iff isProp; A is 0-truncated (a set) iff all a=b are props; A is n-truncated iff all a=b are (n-1)-truncated.",
+  "tags": [
+    "HoTT",
+    "h-levels"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "9f61eb2d-7161-44d3-b0a8-3b969e8b2377"
+}

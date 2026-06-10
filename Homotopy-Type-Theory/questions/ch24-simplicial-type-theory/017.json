@@ -1,0 +1,18 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "tf",
+  "text": "In Riehl-Shulman simplicial type theory, every function between Segal types is automatically a functor (preserves composition).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Functoriality is automatic: any map f:A→B between Segal types preserves the Segal composition. No additional functor conditions are needed — this is the key advantage of the synthetic approach.",
+  "tags": [
+    "simplicial-TT",
+    "Segal"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "2ebd9c05-8d4e-415e-a5b3-14a2d605c62d"
+}

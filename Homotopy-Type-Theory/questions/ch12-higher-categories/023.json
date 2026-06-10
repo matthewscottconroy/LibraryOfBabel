@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The ∞-category of spaces (Lurie's 'Spaces') is equivalent to:",
+  "choices": [
+    "The nerve of Set",
+    "The coherent nerve of Kan complexes",
+    "The ∞-category of ∞-groupoids",
+    "Both B and C"
+  ],
+  "answer": 3,
+  "explanation": "The ∞-category of spaces can be presented as N(Kan) or equivalently as ∞-Gpd.",
+  "tags": [
+    "infinity-category",
+    "spaces"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "fd99260b-1cea-4555-b6e2-3a7fd6e6ecdc"
+}

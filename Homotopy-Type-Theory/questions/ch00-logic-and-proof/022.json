@@ -1,0 +1,20 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A resolution refutation proves unsatisfiability of a clause set Γ by deriving:",
+  "choices": [
+    "a tautology",
+    "the empty clause □",
+    "a unit clause",
+    "a Horn clause"
+  ],
+  "answer": 1,
+  "explanation": "Resolution: repeatedly resolve pairs of clauses until the empty clause □ is derived. □ represents a contradiction, proving Γ is unsatisfiable.",
+  "tags": [
+    "logic",
+    "resolution"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "59b0224e-129d-4f61-9046-b4f7c38c3c64"
+}

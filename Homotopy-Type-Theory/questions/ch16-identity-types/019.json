@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The concatenation of paths p: a=b and q: b=c gives a path:",
+  "choices": [
+    "p·q : a=c",
+    "p·q : a=b=c",
+    "p∘q : c=a",
+    "p+q : a=b"
+  ],
+  "answer": 0,
+  "explanation": "Path concatenation · gives transitivity: p·q : a=c.",
+  "tags": [
+    "path-concatenation",
+    "identity-type"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "6324d127-9635-4acb-a83e-769c344d8fe6"
+}

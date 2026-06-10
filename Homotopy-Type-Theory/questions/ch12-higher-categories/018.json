@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An (∞,1)-category has morphisms at all dimensions, with the property that all k-morphisms for k≥2 are:",
+  "choices": [
+    "Trivial (identities)",
+    "Invertible (equivalences)",
+    "Monomorphisms",
+    "Limits"
+  ],
+  "answer": 1,
+  "explanation": "In an (∞,1)-category, 0-cells are objects, 1-cells are morphisms, and all higher cells are invertible up to higher homotopy.",
+  "tags": [
+    "infinity-categories",
+    "higher-categories"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "c7355e9d-e21c-46d4-82ed-f3b51f10b9e3"
+}

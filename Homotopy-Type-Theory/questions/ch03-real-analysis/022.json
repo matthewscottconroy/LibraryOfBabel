@@ -1,0 +1,17 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A function f: [a,b] → ℝ is ___ if for every ε>0 there exists δ>0 such that Σ|f(xᵢ)-f(xᵢ₋₁)| < ε whenever Σ|xᵢ-xᵢ₋₁| < δ.",
+  "choices": [
+    "absolutely continuous",
+    "AC"
+  ],
+  "answer": "absolutely continuous",
+  "explanation": "Absolute continuity is stronger than uniform continuity. AC ↔ f is the antiderivative of an L¹ function (fundamental theorem of calculus for Lebesgue integration).",
+  "tags": [
+    "analysis"
+  ],
+  "difficulty": "advanced",
+  "question_id": "02f230b1-7b85-413e-93c3-02d11faa7f42"
+}

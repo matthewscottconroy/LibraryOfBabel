@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The type ∑(A:𝒰).isSet(A) of all sets in HoTT is:",
+  "choices": [
+    "A set",
+    "A 1-type",
+    "A 2-type",
+    "Not a type"
+  ],
+  "answer": 1,
+  "explanation": "The type of sets is a 1-type: identity types between sets are sets (since isomorphisms between sets form a set).",
+  "tags": [
+    "h-level",
+    "set-of-sets",
+    "universe"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "d8f942a2-a926-41f4-859a-258117e1da77"
+}

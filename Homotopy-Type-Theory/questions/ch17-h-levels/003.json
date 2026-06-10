@@ -1,0 +1,21 @@
+{
+  "question_id": "8ce41f0f-04e6-496c-b71a-9b4a65aec44e",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Hedberg's theorem says that if A has ___, then A is an h-set.",
+  "choices": [
+    "a group structure",
+    "decidable equality",
+    "a contractible identity type",
+    "exactly two elements"
+  ],
+  "answer": 1,
+  "explanation": "Hedberg: decidable equality (∀a b. a=b ∨ a≠b) implies all identity types are mere propositions, making A a set.",
+  "tags": [
+    "HoTT",
+    "Hedberg"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

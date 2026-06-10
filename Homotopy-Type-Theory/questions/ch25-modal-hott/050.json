@@ -1,0 +1,21 @@
+{
+  "question_id": "2505eeb7-5bcb-4dba-8b1d-0496d86fe810",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A modality in HoTT is:",
+  "choices": [
+    "a modal operator from classical modal logic (□, ◇)",
+    "an idempotent monadic operation on types: a reflective localization",
+    "a higher inductive type",
+    "a universe level annotation"
+  ],
+  "answer": 1,
+  "explanation": "A modality is an operation ○: Type → Type with a unit η: A → ○A that is universal (○-modal types are exactly the local types). Truncations and the flat/sharp modalities are examples.",
+  "tags": [
+    "modality",
+    "modal-hott"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

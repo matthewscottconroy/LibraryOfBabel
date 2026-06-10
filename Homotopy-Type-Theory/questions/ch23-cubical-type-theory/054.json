@@ -1,0 +1,22 @@
+{
+  "question_id": "7a073b52-f3a0-4396-9c57-445d25af74d9",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The transp operation in cubical type theory is used for:",
+  "choices": [
+    "composing two paths",
+    "transporting an element along a path in a type",
+    "inverting a path",
+    "computing the action of a function on paths"
+  ],
+  "answer": 1,
+  "explanation": "transp (λi. A i) φ a₀: A i1, where A: I → U is a type path, φ is a constraint under which a₀ is already in A i1, and a₀: A i0. This replaces transport.",
+  "tags": [
+    "transp",
+    "transport",
+    "cubical-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

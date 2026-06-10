@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which principle is equivalent to the Well-Ordering Theorem over ZF?",
+  "choices": [
+    "Zorn's Lemma",
+    "The Baire Category Theorem",
+    "The Hahn-Banach Theorem",
+    "The Arzelà-Ascoli Theorem"
+  ],
+  "answer": 0,
+  "explanation": "Over ZF, AC ↔ Well-Ordering Theorem ↔ Zorn's Lemma. All three are equivalent and each implies the other without extra axioms.",
+  "tags": [
+    "set-theory",
+    "axiom-of-choice"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "baf4a076-9b71-466e-9a54-82ea52918251"
+}

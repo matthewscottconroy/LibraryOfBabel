@@ -1,0 +1,19 @@
+{
+  "question_id": "ad900236-1607-4d82-8840-636c06101574",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The fundamental groupoid Π₁(X) of a topological space has objects = points of X and morphisms = homotopy classes of paths.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Π₁(X) generalizes the fundamental group: instead of loops based at one point, we allow paths between any two points, with homotopy classes as morphisms.",
+  "tags": [
+    "groupoids",
+    "homotopy-hypothesis"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

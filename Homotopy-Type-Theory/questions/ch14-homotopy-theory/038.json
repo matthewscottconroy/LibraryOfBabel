@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In stable homotopy theory, the sphere spectrum S is the sphere S⁰ viewed as a:",
+  "choices": [
+    "Space",
+    "Ring spectrum (the initial commutative ring spectrum)",
+    "Group",
+    "Simplicial set"
+  ],
+  "answer": 1,
+  "explanation": "The sphere spectrum S is the unit for the smash product of spectra; it is the initial E∞-ring spectrum.",
+  "tags": [
+    "sphere-spectrum",
+    "stable-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "992652a9-f5b1-41ca-8cea-83d4a4f746e5"
+}

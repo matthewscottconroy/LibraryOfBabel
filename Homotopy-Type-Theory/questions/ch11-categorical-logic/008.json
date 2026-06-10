@@ -1,0 +1,20 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the categorical semantics of MLTT, the Π type Π(x:A).B(x) is interpreted as:",
+  "choices": [
+    "a product in the category",
+    "a right adjoint to weakening (the dependent product)",
+    "a left adjoint to base change",
+    "a presheaf over A"
+  ],
+  "answer": 1,
+  "explanation": "Π types are right adjoint to weakening (context extension): Π_A B = ∏ B along the projection A. This is the categorical notion of dependent product.",
+  "tags": [
+    "categorical-logic",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "1f1f5866-e854-453b-a49f-57d02e3f13ff"
+}

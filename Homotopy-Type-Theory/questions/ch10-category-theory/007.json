@@ -1,0 +1,20 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A functor F: C → D must preserve:",
+  "choices": [
+    "limits and colimits",
+    "identity morphisms and composition",
+    "isomorphisms only",
+    "the hom-sets"
+  ],
+  "answer": 1,
+  "explanation": "Functor laws: F(id_A)=id_{F(A)} and F(g∘f)=F(g)∘F(f). A functor is a structure-preserving map between categories.",
+  "tags": [
+    "category-theory",
+    "functors"
+  ],
+  "difficulty": "beginner",
+  "question_id": "63cd7a5a-0b48-4654-8a06-01949d48d8da"
+}

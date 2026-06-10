@@ -1,0 +1,21 @@
+{
+  "question_id": "d74cd2a5-3f6e-4ef6-b7e2-6c660ec1358f",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A path in cubical type theory between a and b in type A is:",
+  "choices": [
+    "an element of the identity type a = b",
+    "a function p: I → A with p(i0) = a and p(i1) = b",
+    "a homotopy between a and b",
+    "a proof of a ≡ b (definitional equality)"
+  ],
+  "answer": 1,
+  "explanation": "Cubical paths are functions from the interval: PathP (λ_. A) a b ≡ Π(i:I). A with the constraint that the function reduces to a at i0 and b at i1.",
+  "tags": [
+    "path-type",
+    "cubical-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

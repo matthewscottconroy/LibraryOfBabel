@@ -1,0 +1,21 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The Liquid Tensor Experiment (Scholze-Buzzard et al., formalised in Lean 4) formally verified:",
+  "choices": [
+    "Fermat's Last Theorem",
+    "a key theorem in condensed mathematics about liquid ℝ-vector spaces",
+    "the Poincaré conjecture",
+    "the Hodge conjecture"
+  ],
+  "answer": 1,
+  "explanation": "The Liquid Tensor Experiment (2021) formalised the hardest lemma in Scholze's condensed/liquid mathematics in Lean 4 / Mathlib. A landmark in large-scale mathematical formalisation.",
+  "tags": [
+    "research",
+    "Lean4",
+    "condensed-mathematics"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "db22956e-776e-497d-9f86-2786a2a6355f"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What does `apply h` do in Lean 4 tactic mode?",
+  "choices": [
+    "Applies h as a rewrite rule",
+    "Unifies the goal with the conclusion of h, creating subgoals for h's hypotheses",
+    "Closes the goal if h has the goal's type",
+    "Introduces h into context"
+  ],
+  "answer": 1,
+  "explanation": "`apply h` matches the goal against the conclusion of h and generates new goals for each premise.",
+  "tags": [
+    "lean4",
+    "apply",
+    "tactics"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e357ba79-37e5-426d-8a4c-6cbd913fbfa6"
+}

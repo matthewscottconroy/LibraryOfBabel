@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "β-reduction in the lambda calculus corresponds to what logical operation?",
+  "choices": [
+    "Introducing an implication",
+    "Eliminating an implication (modus ponens)",
+    "Introducing a conjunction",
+    "Introducing a universal quantifier"
+  ],
+  "answer": 1,
+  "explanation": "β: (λx.t)u → t[u/x] is the computational content of →-elimination (modus ponens). Applying a function to its argument eliminates the arrow.",
+  "tags": [
+    "curry-howard",
+    "lambda-calculus"
+  ],
+  "difficulty": "beginner",
+  "question_id": "4978f359-d271-48f0-bb6a-b3f5a6ffd8c0"
+}

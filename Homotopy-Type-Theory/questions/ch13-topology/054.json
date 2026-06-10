@@ -1,0 +1,21 @@
+{
+  "question_id": "9dab6cc5-326e-484d-a06a-519e15acf87f",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The fundamental group of the Klein bottle K is:",
+  "choices": [
+    "ℤ × ℤ/2ℤ",
+    "⟨a, b | abab⁻¹ = 1⟩",
+    "⟨a, b | aba⁻¹b⁻¹ = 1⟩",
+    "ℤ * ℤ/2ℤ"
+  ],
+  "answer": 1,
+  "explanation": "π₁(K) = ⟨a,b | abab⁻¹⟩ — one generator for each 1-cell, one relation for the 2-cell. This is non-abelian and non-isomorphic to π₁(T²) = ℤ².",
+  "tags": [
+    "fundamental-group",
+    "cw-complex"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

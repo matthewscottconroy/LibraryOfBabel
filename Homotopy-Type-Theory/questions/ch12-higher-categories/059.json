@@ -1,0 +1,20 @@
+{
+  "question_id": "8a9e42c8-d8ff-47bb-bcdf-528af9b88199",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The nerve N(C) of a 1-category C is a simplicial set whose n-simplices are composable chains of ___ morphisms.",
+  "choices": [
+    "n",
+    "n composable"
+  ],
+  "answer": "n",
+  "explanation": "N(C)_n = {f₁, …, fₙ composable morphisms in C}. The nerve embeds Cat into sSet, and a simplicial set is the nerve of a category iff it satisfies the Segal condition.",
+  "tags": [
+    "nerve",
+    "simplicial-set",
+    "segal-condition"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

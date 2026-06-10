@@ -1,0 +1,20 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The genus of a closed orientable surface Σ_g determines its Euler characteristic χ(Σ_g) =",
+  "choices": [
+    "g",
+    "2-2g",
+    "2g",
+    "g-2"
+  ],
+  "answer": 1,
+  "explanation": "χ(Σ_g) = 2 - 2g. The sphere (g=0) has χ=2, the torus (g=1) has χ=0, the genus-2 surface has χ=-2.",
+  "tags": [
+    "topology",
+    "surfaces"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "98ce1d1e-6363-4ee0-be2c-e712a5f68cbc"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'Rezk completion' of a Segal type is the process of:",
+  "choices": [
+    "Adding more morphisms",
+    "Forcing equivalences to be equalities (completing to a Rezk type)",
+    "Truncating to a set",
+    "Taking the classifying space"
+  ],
+  "answer": 1,
+  "explanation": "Rezk completion: the universal Rezk type receiving a functor from the Segal type; turns equivalences into equalities.",
+  "tags": [
+    "simplicial-type-theory",
+    "rezk-completion"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "8e66d9f3-b100-4cdd-aa8b-49322d3e677b"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Cauchy's theorem states: if p is a prime and p divides |G|, then G has:",
+  "choices": [
+    "a normal subgroup of order p",
+    "an element of order p",
+    "a Sylow p-subgroup of order p",
+    "a subgroup isomorphic to ℤ/pℤ × ℤ/pℤ"
+  ],
+  "answer": 1,
+  "explanation": "Cauchy's theorem: if p | |G|, there exists g∈G with ord(g)=p. This is a partial converse to Lagrange.",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "d8085024-6994-42f9-93cc-84e227cbec2e"
+}

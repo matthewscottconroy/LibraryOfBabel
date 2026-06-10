@@ -1,0 +1,19 @@
+{
+  "question_id": "a1ae2d91-4389-432d-87e7-81030231cdf2",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The Heine-Borel theorem: a subset of ℝⁿ is compact iff it is closed and bounded.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Heine-Borel applies to ℝⁿ specifically. In general metric spaces, compact ↔ complete + totally bounded.",
+  "tags": [
+    "analysis",
+    "compactness"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

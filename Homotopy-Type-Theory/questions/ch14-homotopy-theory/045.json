@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "blank",
+  "text": "A fibration sequence F → E → B gives a long exact sequence of homotopy groups where the connecting homomorphism ∂: πₙ(B) → πₙ₋₁(F) is the ______.",
+  "choices": [
+    "boundary map",
+    "suspension map",
+    "transgression",
+    "degree map"
+  ],
+  "answer": "boundary map",
+  "explanation": "The connecting homomorphism ∂ is the boundary map in the LES of the fibration.",
+  "tags": [
+    "fibration",
+    "long-exact-sequence",
+    "boundary-map"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "46aeb182-3007-416a-8e64-4e32be9fcb27"
+}

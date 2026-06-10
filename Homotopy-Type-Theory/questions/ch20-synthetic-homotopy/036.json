@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Whitehead tower of a pointed space X in HoTT is a sequence X = X⟨0⟩ ← X⟨1⟩ ← X⟨2⟩ ← ⋯ where:",
+  "choices": [
+    "Each X⟨n⟩ is more connected than X⟨n-1⟩",
+    "X⟨n⟩ → X kills πₖ for k>n",
+    "Each X⟨n⟩ has π_k=πₖ(X) for k≥n and πₖ=0 for k<n",
+    "Each X⟨n⟩ is n-truncated"
+  ],
+  "answer": 2,
+  "explanation": "Whitehead tower: X⟨n⟩ is n-connected, with πₖ(X⟨n⟩)=πₖ(X) for k>n.",
+  "tags": [
+    "whitehead-tower",
+    "homotopy-groups",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "e5325b75-d106-4b7a-93cd-bc240d841a74"
+}

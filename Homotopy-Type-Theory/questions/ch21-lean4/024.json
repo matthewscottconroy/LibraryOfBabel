@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `omega` is a decision procedure for:",
+  "choices": [
+    "Propositional logic",
+    "Linear arithmetic over ℤ and ℕ",
+    "Polynomial arithmetic",
+    "All of first-order arithmetic"
+  ],
+  "answer": 1,
+  "explanation": "`omega` solves linear arithmetic goals (equalities and inequalities over ℤ/ℕ).",
+  "tags": [
+    "lean4",
+    "omega",
+    "tactics"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "351e3be4-7e13-4a60-8469-79005dfec346"
+}

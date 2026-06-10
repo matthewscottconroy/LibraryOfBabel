@@ -1,0 +1,21 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The type 'PathP (λ i → P i) a b' in Cubical Agda is equivalent to (in Book HoTT notation):",
+  "choices": [
+    "a ≡ b",
+    "transport (λ i → P i) a ≡ b — a heterogeneous path",
+    "P i0 ≡ P i1",
+    "a Sigma type"
+  ],
+  "answer": 1,
+  "explanation": "PathP P a b is a heterogeneous path: a path from a : P i0 to b : P i1 lying over the path i↦P(i). Equivalent to transport along the path of types equals the target: subst P (λ i → ...) a ≡ b.",
+  "tags": [
+    "Cubical-Agda",
+    "PathP",
+    "paths"
+  ],
+  "difficulty": "advanced",
+  "question_id": "ab7456cd-b7b9-48b3-9443-689ac3b2a0ae"
+}

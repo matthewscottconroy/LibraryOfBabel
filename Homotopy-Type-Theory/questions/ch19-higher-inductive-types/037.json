@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The HoTT construction of the real projective plane ℝP² as a HIT requires:",
+  "choices": [
+    "base, a loop p: base=base, and a path s: p·p=refl",
+    "Only a single loop",
+    "Two points and no paths",
+    "A 2-sphere and a quotient"
+  ],
+  "answer": 0,
+  "explanation": "ℝP²: base; p: base=base; s: p·p=refl (the relation that p has order 2).",
+  "tags": [
+    "projective-plane",
+    "hit",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a5c61687-20ed-45dd-8b4c-2f250376a486"
+}

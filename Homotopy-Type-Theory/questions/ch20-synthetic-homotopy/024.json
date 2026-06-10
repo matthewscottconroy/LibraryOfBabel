@@ -1,0 +1,20 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In HoTT, the homotopy groups πₙ(Sⁿ) ≅ ℤ can be proved without assuming classical logic.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "πₙ(Sⁿ)≅ℤ is provable constructively in HoTT; this is one of the main achievements of synthetic HT.",
+  "tags": [
+    "synthetic-homotopy",
+    "spheres",
+    "constructive"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f13a87cb-d2b6-4a41-92a9-7c11d75fc91b"
+}

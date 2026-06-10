@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "blank",
+  "text": "In Cubical Agda, the symmetry of a path p : a ≡ b is written ______ and has type b ≡ a.",
+  "choices": [
+    "sym p",
+    "p⁻¹",
+    "inv p",
+    "! p"
+  ],
+  "answer": "sym p",
+  "explanation": "sym p : b ≡ a; defined as λ i → p (~ i) using De Morgan complement.",
+  "tags": [
+    "cubical-agda",
+    "symmetry",
+    "path"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "ccfd7523-47dd-48d5-85a4-b05739b3beae"
+}

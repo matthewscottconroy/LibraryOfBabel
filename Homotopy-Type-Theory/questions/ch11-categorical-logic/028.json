@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In topos theory, geometric morphisms between toposes correspond to:",
+  "choices": [
+    "Functors that are left exact and have left adjoints",
+    "Pairs of adjoint functors (f*, f*) where f* is left exact",
+    "Natural isomorphisms",
+    "Monad maps"
+  ],
+  "answer": 1,
+  "explanation": "A geometric morphism f: E → F consists of f* ⊣ f* with f* (inverse image) left exact.",
+  "tags": [
+    "geometric-morphism",
+    "topos"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "6bf3d589-2a78-4d3a-bb29-a9ca93aed43c"
+}

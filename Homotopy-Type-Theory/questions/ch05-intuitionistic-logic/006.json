@@ -1,0 +1,19 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In intuitionistic logic, a proof of P∨Q requires:",
+  "choices": [
+    "a proof that P∨Q is consistent",
+    "either a proof of P or a proof of Q (and knowing which)",
+    "a proof that ¬P→Q",
+    "a proof of ¬(¬P∧¬Q)"
+  ],
+  "answer": 1,
+  "explanation": "Disjunction in intuitionistic logic is constructive: you must supply a proof of one disjunct and indicate which one. This is the disjunction property.",
+  "tags": [
+    "intuitionistic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "aa2d9e4a-7ed5-47ab-9ce0-41056308ea50"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Hyperdoctrines (Lawvere) provide a categorical account of:",
+  "choices": [
+    "Monads and effects",
+    "First-order predicate logic via fibrations",
+    "Higher categories",
+    "Algebraic topology"
+  ],
+  "answer": 1,
+  "explanation": "A hyperdoctrine is a functor P: C^op → Heyting-Alg capturing substitution, ∃, ∀ as adjoints.",
+  "tags": [
+    "hyperdoctrine",
+    "categorical-logic",
+    "fibration"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "dd2bf876-e50f-4f98-b87f-6fb24c8d9735"
+}

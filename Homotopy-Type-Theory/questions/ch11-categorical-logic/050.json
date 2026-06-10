@@ -1,0 +1,21 @@
+{
+  "question_id": "e5f3728f-06d8-4842-b6c1-4391954c560e",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A category is called Cartesian closed (CCC) if it has finite products and:",
+  "choices": [
+    "all equalizers",
+    "exponential objects A^B for any two objects A, B",
+    "a zero object and biproducts",
+    "all pushouts"
+  ],
+  "answer": 1,
+  "explanation": "A CCC has finite products and internal hom objects A^B (exponentials). This structure models the simply typed lambda calculus via the Curry-Howard-Lambek correspondence.",
+  "tags": [
+    "ccc",
+    "categorical-logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

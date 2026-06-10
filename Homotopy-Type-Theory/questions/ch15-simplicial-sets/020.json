@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The degeneracy maps sᵢ: Xₙ → Xₙ₊₁ insert a repeated vertex. A simplex in the image of some sᵢ is called:",
+  "choices": [
+    "Non-degenerate",
+    "Degenerate",
+    "Composite",
+    "Flat"
+  ],
+  "answer": 1,
+  "explanation": "Degenerate simplices are in the image of some degeneracy map; non-degenerate ones are not.",
+  "tags": [
+    "simplicial-set",
+    "degenerate"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "057dc949-ad9e-4b2b-8027-f0d57c8a9771"
+}

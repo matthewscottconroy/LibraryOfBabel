@@ -1,0 +1,20 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which of these is the categorical semantics of the Σ type Σ(x:A).B(x)?",
+  "choices": [
+    "a coproduct in the fibre over A",
+    "the total space of the display map for B (the dependent sum is a left adjoint to weakening)",
+    "the limit of B",
+    "the exponential B^A"
+  ],
+  "answer": 1,
+  "explanation": "Σ types are the total space of B → A: Σ(x:A).B(x) is the domain of the display map. The Σ functor is left adjoint to weakening (context extension).",
+  "tags": [
+    "categorical-logic",
+    "dependent-types"
+  ],
+  "difficulty": "advanced",
+  "question_id": "b734ecd3-e57a-439f-8101-405ef86090e9"
+}

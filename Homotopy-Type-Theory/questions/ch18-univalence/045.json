@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, the 'equivalence induction' principle says: to prove P(A,B,e) for all A,B:𝒰 and e:A≃B, it suffices to prove:",
+  "choices": [
+    "P(A,A,id_A) for all A",
+    "P(A,A,e) for all A and all e",
+    "P(∅,∅,id)",
+    "P for a single type A"
+  ],
+  "answer": 0,
+  "explanation": "Equivalence induction (from univalence via J): the case e=id suffices, analogous to path induction for =.",
+  "tags": [
+    "univalence",
+    "equivalence-induction"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "ae0fc6ce-d60d-4663-b953-ab3f7ce400fb"
+}

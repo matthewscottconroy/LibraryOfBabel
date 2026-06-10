@@ -1,0 +1,20 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The cohesive HoTT axiom 'pieces have points' (Π = ∫) means:",
+  "choices": [
+    "every cohesive space is a set",
+    "the shape functor ∫ preserves the unit (∫1 ≃ 1)",
+    "the terminal object is preserved by ∫",
+    "∫ maps every type to a single point"
+  ],
+  "answer": 1,
+  "explanation": "'Pieces have points' (Lawvere): ∫ preserves the terminal object (∫* ≃ *). More precisely, the counit ε: ∫A → A has a section, meaning every connected component has at least one point.",
+  "tags": [
+    "modal-HoTT",
+    "cohesion"
+  ],
+  "difficulty": "advanced",
+  "question_id": "fde745c3-b335-4450-a0f1-9107ff520d23"
+}

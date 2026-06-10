@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The degree of a map f: Sⁿ→Sⁿ is the integer d such that f_*: Hₙ(Sⁿ)→Hₙ(Sⁿ) acts as multiplication by ______.",
+  "choices": [
+    "d",
+    "n",
+    "-1",
+    "0"
+  ],
+  "answer": "d",
+  "explanation": "The degree is the integer by which f_* scales the generator of Hₙ(Sⁿ) ≅ ℤ.",
+  "tags": [
+    "degree",
+    "homotopy-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "70deaff7-8bd2-4140-8e93-312b607d1512"
+}

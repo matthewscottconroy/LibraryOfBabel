@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'formalisation of liquid mathematics' project (Scholze-Clausen) faces which type-theoretic challenge?",
+  "choices": [
+    "Defining real numbers",
+    "Handling large-category arguments and condensed sets in a proof assistant",
+    "Proving consistency",
+    "Writing fast code"
+  ],
+  "answer": 1,
+  "explanation": "Liquid tensor experiment: formalising condensed mathematics requires handling large colimits and non-elementary structures.",
+  "tags": [
+    "liquid-mathematics",
+    "formalisation",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "5d0d3b07-bddb-43fc-a8ca-5c9f554e9704"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The free monad on a functor F is the initial ______-algebra.",
+  "choices": [
+    "F-",
+    "(Id + F)-",
+    "F∘F-",
+    "constant-"
+  ],
+  "answer": "(Id + F)-",
+  "explanation": "Free monad = initial (Id+F)-algebra, giving the least fixed point of X ↦ Id + F(X).",
+  "tags": [
+    "free-monad",
+    "algebra"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "24310b1f-54a4-4079-a042-a409a6c9e4da"
+}

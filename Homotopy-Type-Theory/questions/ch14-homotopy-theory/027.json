@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Stable homotopy groups πₙˢ are defined as the stable limit:",
+  "choices": [
+    "limₖ→∞ πₙ₊ₖ(Sᵏ)",
+    "πₙ(S∞)",
+    "πₙ(BU)",
+    "πₙ(MO)"
+  ],
+  "answer": 0,
+  "explanation": "πₙˢ = colimₖ πₙ₊ₖ(Sᵏ) via Freudenthal stabilisation.",
+  "tags": [
+    "stable-homotopy",
+    "stable-stems"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "f7e89f6c-88ab-4bd6-b66e-dd1a91d363d3"
+}

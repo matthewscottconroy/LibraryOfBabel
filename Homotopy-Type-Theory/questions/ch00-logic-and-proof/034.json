@@ -1,0 +1,18 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A formal system F is ___ if there exists a sentence φ such that neither φ nor ¬φ is provable in F.",
+  "choices": [
+    "incomplete",
+    "incompletable"
+  ],
+  "answer": "incomplete",
+  "explanation": "Incompleteness: F is incomplete if ∃φ: F⊬φ and F⊬¬φ. By Gödel's first incompleteness theorem, any consistent system strong enough to express arithmetic is incomplete.",
+  "tags": [
+    "logic",
+    "incompleteness"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "55a6c117-aed6-4108-8bbf-e3116ec7b94b"
+}

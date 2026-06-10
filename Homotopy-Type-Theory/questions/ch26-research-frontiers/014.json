@@ -1,0 +1,21 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Which recent result was most significant for showing that HoTT can directly support large-scale computation?",
+  "choices": [
+    "Voevodsky's univalence axiom (2009)",
+    "Brunerie's Cubical Agda verification of π₄(S³)=ℤ/2ℤ (showing a proof term from cubical TT fully normalises)",
+    "The Liquid Tensor Experiment",
+    "The formalisation of sphere eversion"
+  ],
+  "answer": 1,
+  "explanation": "Brunerie's result (verified ~2022 in Cubical Agda): the proof term for π₄(S³)=ℤ/2ℤ normalises to ℤ/2ℤ. This demonstrates that cubical TT has genuine computational content for advanced homotopy theory.",
+  "tags": [
+    "research",
+    "cubical-TT",
+    "computation"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "bacbaeb4-c3db-403b-8d71-c3c64d201826"
+}

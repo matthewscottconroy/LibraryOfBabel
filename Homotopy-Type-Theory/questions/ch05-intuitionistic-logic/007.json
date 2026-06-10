@@ -1,0 +1,17 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In intuitionistic propositional logic (IPC), ¬¬¬P → ¬P is provable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "¬¬¬P→¬P is intuitionistically valid: from ¬¬¬P, suppose P; then ¬P is a proof that P implies ⊥, so ¬¬P by double negation intro, contradicting ¬¬¬P.",
+  "tags": [
+    "intuitionistic"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "f9a2ffa3-daa2-4fef-ac74-f5021305ad68"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A model category (Quillen) consists of a category with three distinguished classes of morphisms called:",
+  "choices": [
+    "Epis, monos, isos",
+    "Fibrations, cofibrations, and weak equivalences",
+    "Left adjoints, right adjoints, units",
+    "Open maps, closed maps, étale maps"
+  ],
+  "answer": 1,
+  "explanation": "Quillen model structure: fibrations (acyclic if also weak equiv), cofibrations, weak equivalences satisfying specific axioms.",
+  "tags": [
+    "model-category",
+    "quillen"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "64873601-72df-46d3-b08e-16977f0dba68"
+}

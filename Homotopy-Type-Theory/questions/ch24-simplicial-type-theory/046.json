@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, an equivalence between Segal types f: A→B is a morphism such that:",
+  "choices": [
+    "f is injective on hom-types",
+    "f is an equivalence of types A≃B",
+    "f is full, faithful, and essentially surjective",
+    "f has a strict inverse"
+  ],
+  "answer": 2,
+  "explanation": "Equivalence of ∞-categories: full, faithful (isomorphism on hom-types), and essentially surjective.",
+  "tags": [
+    "simplicial-type-theory",
+    "equivalence",
+    "fully-faithful"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "cfd98e76-807c-4074-8b05-a8c29a3b2df8"
+}

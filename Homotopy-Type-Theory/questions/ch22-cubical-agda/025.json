@@ -1,0 +1,21 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Partial elements in Cubical Agda are typed using the `Partial` type former. `Partial φ A` represents:",
+  "choices": [
+    "A type defined only on part of the interval",
+    "An element of A defined on the face φ (a formula of I)",
+    "A partial function A→B",
+    "A proof by cases"
+  ],
+  "answer": 1,
+  "explanation": "Partial φ A is the type of elements of A defined only when the face condition φ holds.",
+  "tags": [
+    "cubical-agda",
+    "partial-elements"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "569e13c2-2827-4013-bb42-76c687378314"
+}

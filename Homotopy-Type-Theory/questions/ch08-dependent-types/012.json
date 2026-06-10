@@ -1,0 +1,20 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The formation rule for Π types Π(x:A).B(x) requires:",
+  "choices": [
+    "A : Type and B : Type",
+    "A : Type_i and B(x) : Type_i for x:A",
+    "A and B to have the same type",
+    "A to be a proposition"
+  ],
+  "answer": 1,
+  "explanation": "Π-formation: Γ ⊢ A : U_i and Γ, x:A ⊢ B(x) : U_i, then Γ ⊢ Π(x:A).B(x) : U_i. Both A and the fibers B(x) must be types in the same (or compatible) universe.",
+  "tags": [
+    "dependent-types",
+    "pi-types"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "a45d86d7-0c42-49a7-9411-5a7117dfbed1"
+}

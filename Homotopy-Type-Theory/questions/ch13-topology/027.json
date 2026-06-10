@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Eilenberg-MacLane space K(G, n) is characterised by:",
+  "choices": [
+    "πₖ(K(G,n)) = G if k=n, else 0",
+    "All homotopy groups equal G",
+    "πₙ(K(G,n)) = 0",
+    "K(G,n) is a loop space"
+  ],
+  "answer": 0,
+  "explanation": "K(G,n) has πₙ = G and all other homotopy groups trivial; it represents cohomology Hⁿ(-;G).",
+  "tags": [
+    "eilenberg-maclane",
+    "algebraic-topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "abe00617-4ff3-4ee9-909f-358b01118a48"
+}

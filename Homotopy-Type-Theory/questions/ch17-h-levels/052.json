@@ -1,0 +1,19 @@
+{
+  "question_id": "8a92f8d3-c6c4-429f-b22e-d0786aa30e98",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "tf",
+  "text": "The propositional truncation ‖A‖₋₁ of A satisfies: ‖A‖₋₁ is inhabited if and only if A is inhabited.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "‖A‖₋₁ comes with |·|: A → ‖A‖₋₁, so if A is inhabited, so is ‖A‖₋₁. Conversely, ‖A‖₋₁ is a mere proposition, so to map out of it into a proposition P, you need a map A → P (not an element of A directly).",
+  "tags": [
+    "propositional-truncation",
+    "h-levels"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, a retraction of A onto B (r:A→B, s:B→A, r∘s~id_B) does NOT generally imply:",
+  "choices": [
+    "B is a retract of A",
+    "The fibres of r are non-empty",
+    "A≃B (equivalence)",
+    "s is injective up to homotopy"
+  ],
+  "answer": 2,
+  "explanation": "Retraction doesn't imply equivalence in general (only if it's also a section, i.e. a deformation retraction).",
+  "tags": [
+    "retraction",
+    "equivalence",
+    "identity-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "035a08d5-b5c4-492b-ac65-13e58b62f583"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "To define a section of a dependent type P : S¹ → Type over S¹, one must provide:",
+  "choices": [
+    "P(base) only",
+    "b : P(base) and l : transport^P(loop, b) = b",
+    "A section over ℝ",
+    "A path in P"
+  ],
+  "answer": 1,
+  "explanation": "S¹-ind: given b:P(base) and l:transport^P(loop,b)=b, define a section s:Π(x:S¹).P(x).",
+  "tags": [
+    "circle",
+    "hit",
+    "dependent-elimination"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "9dd2939a-fd01-4386-9c22-d04f996419c4"
+}

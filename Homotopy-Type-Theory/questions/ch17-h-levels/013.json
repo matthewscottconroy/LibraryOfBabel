@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "For a fibration p: E → B with fibre F = p⁻¹(b), the long exact sequence of homotopy groups in HoTT corresponds to:",
+  "choices": [
+    "the Seifert-van Kampen theorem",
+    "the fiber sequence of truncations",
+    "the homotopy pushout square",
+    "the Mayer-Vietoris sequence"
+  ],
+  "answer": 1,
+  "explanation": "The fiber sequence F → E → B yields a long exact sequence ⋯ → πₙ(F) → πₙ(E) → πₙ(B) → πₙ₋₁(F) → ⋯ in HoTT (after n-truncation). This is a fundamental computational tool.",
+  "tags": [
+    "HoTT",
+    "h-levels",
+    "fiber-sequences"
+  ],
+  "difficulty": "advanced",
+  "question_id": "8d97911e-02d2-4709-ae2b-891690f26dfb"
+}

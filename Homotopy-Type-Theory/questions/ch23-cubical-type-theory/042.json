@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In CTT, the 'fill' operation is derived from 'comp' by:",
+  "choices": [
+    "Transporting along the interval",
+    "comp with a box that is open on the i=1 face, filling the path",
+    "Applying J",
+    "Using Glue types"
+  ],
+  "answer": 1,
+  "explanation": "fill A u a₀ : A∘[0,1] = λ j. comp A (u|_{φ∧j=j}) a₀ — fills the entire path, not just the top.",
+  "tags": [
+    "cubical-type-theory",
+    "fill",
+    "comp"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "6cf3c1e5-1de8-481d-ba27-00f9245bee39"
+}

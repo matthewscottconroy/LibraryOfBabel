@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A monad on a category C is a triple (T, η, μ) where T is an endofunctor and:",
+  "choices": [
+    "η: Id⇒T (unit) and μ: T∘T⇒T (multiplication), satisfying unit and associativity laws",
+    "η: T⇒Id and μ: T⇒T∘T",
+    "η is a natural isomorphism and μ is a functor",
+    "η and μ are adjunctions"
+  ],
+  "answer": 0,
+  "explanation": "A monad is a monoid in the monoidal category of endofunctors.",
+  "tags": [
+    "monad",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8ce5556c-a2c4-464f-af7f-ded727c6a4b8"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In 'modal type theory' (Gratzer-Birkedal), the term 'later ▷A' is used for:",
+  "choices": [
+    "The suspension of A",
+    "Guarded recursion: elements of A available after one 'tick' of time",
+    "The truncation of A",
+    "The looping of A"
+  ],
+  "answer": 1,
+  "explanation": "▷ (later) is the modality for guarded/productive recursion: ▷A has elements of A available in the next step.",
+  "tags": [
+    "guarded-recursion",
+    "later-modality",
+    "modal-hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3c41d31e-0255-405a-894e-dd931097e0dc"
+}

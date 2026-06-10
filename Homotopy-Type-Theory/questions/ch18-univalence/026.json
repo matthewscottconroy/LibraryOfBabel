@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The univalence axiom is inconsistent with:",
+  "choices": [
+    "Function extensionality",
+    "Propositional extensionality",
+    "Uniqueness of identity proofs (UIP / axiom K)",
+    "The law of non-contradiction"
+  ],
+  "answer": 2,
+  "explanation": "UIP collapses all identity types to propositions; univalence produces non-trivial paths in the universe (e.g. Bool=Bool via the non-identity equivalence), contradicting UIP.",
+  "tags": [
+    "univalence",
+    "uip",
+    "consistency"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "73a90ce9-e3de-466b-ab68-93351792167e"
+}

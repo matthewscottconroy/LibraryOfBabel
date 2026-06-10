@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The Π-type Π(x:A).B(x) is a generalisation of the function type A→B where ______.",
+  "choices": [
+    "the codomain B may depend on the argument x",
+    "the domain A may depend on x",
+    "both A and B are propositions",
+    "A must be a finite type"
+  ],
+  "answer": "the codomain B may depend on the argument x",
+  "explanation": "Π(x:A).B(x) generalises A→B by allowing the return type B to mention the input x.",
+  "tags": [
+    "pi-type",
+    "dependent-types"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "df40d9bb-1a14-4747-ab59-b3202a409486"
+}

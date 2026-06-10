@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The homotopy hypothesis (Grothendieck) conjectures that:",
+  "choices": [
+    "All homotopy types are classifiable by integer sequences",
+    "∞-groupoids are equivalent to homotopy types of topological spaces",
+    "The homotopy category of spaces is a topos",
+    "Homology classifies all spaces"
+  ],
+  "answer": 1,
+  "explanation": "Grothendieck's homotopy hypothesis: ∞-Gpd ≃ Top (as homotopy theories).",
+  "tags": [
+    "homotopy-hypothesis",
+    "infinity-groupoid"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "cbb0725c-ebf7-4835-a36f-3d9b9b524f09"
+}

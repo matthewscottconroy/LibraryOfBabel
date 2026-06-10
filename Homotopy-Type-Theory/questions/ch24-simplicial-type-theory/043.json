@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, a 'left fibration' over a Segal type B is the type-theoretic version of:",
+  "choices": [
+    "A coCartesian fibration (Grothendieck construction for covariant functors B→Spaces)",
+    "A Kan fibration",
+    "A group action",
+    "A principal bundle"
+  ],
+  "answer": 0,
+  "explanation": "Left fibrations: coCartesian fibrations, modelling functors B→Spaces via Grothendieck construction.",
+  "tags": [
+    "simplicial-type-theory",
+    "left-fibration",
+    "cocartesian"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "20d30abf-0f86-4a20-90bd-47bdf564a737"
+}

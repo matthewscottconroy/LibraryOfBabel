@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Diaconescu theorem in topos theory states:",
+  "choices": [
+    "The axiom of choice in a topos implies the law of excluded middle",
+    "Every topos has a Boolean subtopos",
+    "The internal logic of Set is classical",
+    "Every topos has enough points"
+  ],
+  "answer": 0,
+  "explanation": "Diaconescu (1975): AC (in the categorical sense) in a topos implies LEM, connecting choice and classicality.",
+  "tags": [
+    "diaconescu",
+    "topos",
+    "axiom-of-choice"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "de88b3cb-1889-42e6-afc2-2110f9f34fde"
+}

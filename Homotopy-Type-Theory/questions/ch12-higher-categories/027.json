@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The homotopy category Ho(C) of a model category C is obtained by inverting the ______.",
+  "choices": [
+    "weak equivalences",
+    "fibrations",
+    "cofibrations",
+    "all morphisms"
+  ],
+  "answer": "weak equivalences",
+  "explanation": "Ho(C) = C[W⁻¹], the localisation at weak equivalences.",
+  "tags": [
+    "model-category",
+    "homotopy-category"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b5fb4362-8aed-4884-bb49-75e889d50029"
+}

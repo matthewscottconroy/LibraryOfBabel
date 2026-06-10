@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Whitehead principle in HoTT for sets says: if f: A→B is a function between sets and f is an equivalence on π₀ and π₁, then:",
+  "choices": [
+    "f is an equivalence",
+    "f is a monomorphism",
+    "f is surjective",
+    "f is the identity"
+  ],
+  "answer": 0,
+  "explanation": "For sets (0-types), a bijection (equivalence on π₀) is already a type equivalence.",
+  "tags": [
+    "whitehead",
+    "sets",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "68f16efd-db4a-44bb-9dc4-338fa847dfbe"
+}

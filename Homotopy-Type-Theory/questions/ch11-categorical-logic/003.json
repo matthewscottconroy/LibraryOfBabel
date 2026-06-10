@@ -1,0 +1,19 @@
+{
+  "question_id": "8a780bc0-c599-49f5-a3c0-ef43f5dfe905",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The internal logic of every elementary topos is classical.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "The internal logic of a topos is intuitionistic in general. It is classical iff the topos is Boolean (Ω ≅ 1+1).",
+  "tags": [
+    "categorical-logic",
+    "topos"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What does the J eliminator allow you to do?",
+  "choices": [
+    "Invert any function",
+    "Prove properties of a proof p : Id_A(a,b) by reduction to the case p = refl",
+    "Convert between propositional and definitional equality",
+    "Eliminate Σ-types"
+  ],
+  "answer": 1,
+  "explanation": "J (path induction) reduces reasoning about arbitrary paths to the reflexivity case.",
+  "tags": [
+    "j-eliminator",
+    "identity-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "6aabc2e9-4d67-4669-b990-020b20701b2c"
+}

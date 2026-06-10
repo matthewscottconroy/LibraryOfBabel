@@ -1,0 +1,21 @@
+{
+  "question_id": "078c7c35-f041-4e7f-abbe-41e5e481946f",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In CCHM cubical type theory, univalence is proved using:",
+  "choices": [
+    "the J eliminator",
+    "the Glue type",
+    "propositional truncation",
+    "the Freudenthal theorem"
+  ],
+  "answer": 1,
+  "explanation": "ua(e) := λi. Glue[i=0↦(A,e), i=1↦(B,id)] B. The Glue type provides the path in the universe.",
+  "tags": [
+    "cubical-TT",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

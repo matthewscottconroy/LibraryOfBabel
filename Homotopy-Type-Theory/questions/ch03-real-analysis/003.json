@@ -1,0 +1,21 @@
+{
+  "question_id": "e19bcaa9-2e7f-43db-ba68-1b03bd735b4c",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The intermediate value theorem (IVT) is a consequence of which topological property of [a,b]?",
+  "choices": [
+    "Completeness",
+    "Compactness",
+    "Connectedness",
+    "Separability"
+  ],
+  "answer": 2,
+  "explanation": "IVT uses connectedness of [a,b]: a continuous image of a connected set is connected.",
+  "tags": [
+    "analysis",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Impredicativity in System F means that the universal type ∀α.T can be instantiated with:",
+  "choices": [
+    "Only base types",
+    "Any type, including polymorphic types (∀ types themselves)",
+    "Only monotypes",
+    "Only propositional types"
+  ],
+  "answer": 1,
+  "explanation": "System F is impredicative: ∀α.T[α] can be instantiated at α = ∀β.S, allowing powerful encodings.",
+  "tags": [
+    "system-f",
+    "impredicativity"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "10c48633-4cd2-4edc-858c-7aa39aefa8b9"
+}

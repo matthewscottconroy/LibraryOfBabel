@@ -1,0 +1,23 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Which is an active research direction in automated reasoning for HoTT?",
+  "choices": [
+    "SAT solvers for HoTT",
+    "Rewriting-based automation for path algebra (using rewriting modulo homotopy equivalences)",
+    "Numerical methods",
+    "Graph colouring"
+  ],
+  "answer": 1,
+  "explanation": "Path algebra automation: developing term-rewriting and decision procedures for equalities in the presence of HITs and UA.",
+  "tags": [
+    "automated-reasoning",
+    "path-algebra",
+    "hott",
+    "research"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "7c6ab91b-2958-46ad-a725-405250a23fa2"
+}

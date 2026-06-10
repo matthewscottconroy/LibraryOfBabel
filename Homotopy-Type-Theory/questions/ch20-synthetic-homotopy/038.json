@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, the Hopf invariant 1 problem is connected to which construction?",
+  "choices": [
+    "The Hopf fibration S¹→S³→S²",
+    "The Freudenthal theorem",
+    "The Blakers-Massey theorem",
+    "The van Kampen theorem"
+  ],
+  "answer": 0,
+  "explanation": "Hopf invariant 1 elements correspond to Hopf fibrations S^{2n-1}→S^n; in HoTT this is the join construction.",
+  "tags": [
+    "hopf-invariant",
+    "hopf-fibration",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "f0cb3868-f39d-4d37-b502-aa2db1033012"
+}

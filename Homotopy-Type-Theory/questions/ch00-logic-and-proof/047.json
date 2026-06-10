@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Löwenheim-Skolem theorem (downward) states that a countable first-order theory with an infinite model has:",
+  "choices": [
+    "No finite models",
+    "A model of every infinite cardinality",
+    "A countable model",
+    "An uncountable model only"
+  ],
+  "answer": 2,
+  "explanation": "Downward Löwenheim-Skolem: if T has an infinite model, it has a countably infinite model.",
+  "tags": [
+    "lowenheim-skolem",
+    "first-order-logic"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "cacfc5e8-856b-4aa9-8c6c-f5a2c15101a0"
+}

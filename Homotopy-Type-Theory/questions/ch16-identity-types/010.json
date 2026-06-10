@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The apd operation apd_f for a dependent function f: Π(x:A).B(x) and p:a=b gives:",
+  "choices": [
+    "a path f(a) = f(b) in B(a)",
+    "transport^B(p, f(a)) = f(b) — a path over p in B",
+    "a path ap_f(p) in the codomain",
+    "a homotopy"
+  ],
+  "answer": 1,
+  "explanation": "apd_f(p) : transport^B(p, f(a)) = f(b). This is the dependent version of ap. It says f 'respects' p over the fibration B.",
+  "tags": [
+    "HoTT",
+    "identity-types",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "d45e0bb5-e823-427a-a69f-0d462cb82d17"
+}

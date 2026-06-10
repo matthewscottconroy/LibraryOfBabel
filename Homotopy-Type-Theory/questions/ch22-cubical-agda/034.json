@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, `cong` (or `ap`) is proved as:",
+  "choices": [
+    "An axiom",
+    "λ f p i → f (p i) — by applying f pointwise to the path",
+    "Using J",
+    "Using transport"
+  ],
+  "answer": 1,
+  "explanation": "ap f p = λ i → f (p i) : f a ≡ f b, since paths are functions I→A.",
+  "tags": [
+    "cubical-agda",
+    "cong",
+    "ap"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "49baa34e-c162-4a4a-a25d-31a4bd4012f7"
+}

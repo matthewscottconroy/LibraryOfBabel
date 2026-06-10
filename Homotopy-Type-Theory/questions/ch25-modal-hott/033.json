@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In directed / two-level type theory (2LTT, Voevodsky), the two levels are:",
+  "choices": [
+    "Syntactic and semantic",
+    "An outer fibrant layer (HoTT) and an inner strict layer (exact equality)",
+    "Types and proofs",
+    "Set-theoretic and type-theoretic"
+  ],
+  "answer": 1,
+  "explanation": "2LTT has a strict inner layer (with definitional UIP) and a fibrant outer layer (HoTT); used to meta-theorise about HoTT.",
+  "tags": [
+    "two-level-type-theory",
+    "2ltt",
+    "modal-hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "b28cf032-c8d8-499d-9b86-223088e5b14c"
+}

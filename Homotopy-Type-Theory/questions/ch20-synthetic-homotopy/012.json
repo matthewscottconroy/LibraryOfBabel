@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Blakers-Massey connectivity theorem in HoTT generalises Freudenthal by giving connectivity of:",
+  "choices": [
+    "the suspension map",
+    "the cofiber sequence",
+    "the map from C to the pullback A×_B^h for a pushout A⊔_C B",
+    "loop spaces of wedges"
+  ],
+  "answer": 2,
+  "explanation": "Blakers-Massey: for pushout A⊔_C B with f:C→A m-connected and g:C→B n-connected, the map C→A×^h_B is (m+n)-connected. Setting A=B=pt and C=Sⁿ recovers Freudenthal.",
+  "tags": [
+    "HoTT",
+    "Blakers-Massey",
+    "homotopy"
+  ],
+  "difficulty": "advanced",
+  "question_id": "9611ee82-b765-4b3a-90cb-fa7ff17543b1"
+}

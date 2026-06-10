@@ -1,0 +1,20 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A set of formulas Γ is satisfiable iff:",
+  "choices": [
+    "every formula in Γ is a tautology",
+    "there is a truth assignment making all formulas in Γ true simultaneously",
+    "Γ is consistent with the axioms",
+    "Γ is finite"
+  ],
+  "answer": 1,
+  "explanation": "Satisfiable: ∃ valuation v such that v(φ)=T for all φ∈Γ. This is the semantic notion (a model exists).",
+  "tags": [
+    "logic",
+    "semantics"
+  ],
+  "difficulty": "beginner",
+  "question_id": "4947cbc6-db69-4208-9467-47df5f51530d"
+}

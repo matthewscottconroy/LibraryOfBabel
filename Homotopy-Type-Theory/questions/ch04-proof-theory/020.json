@@ -1,0 +1,18 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Cut-free proofs in LK have the subformula property: every formula occurring in the proof is a subformula of the conclusion.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The subformula property is the key consequence of cut elimination. Cut-free proofs are 'analytic' — they build up from subformulas of the conclusion.",
+  "tags": [
+    "proof-theory",
+    "sequent-calculus"
+  ],
+  "difficulty": "beginner",
+  "question_id": "7e4a6388-f139-46ae-8629-515822ac8edf"
+}

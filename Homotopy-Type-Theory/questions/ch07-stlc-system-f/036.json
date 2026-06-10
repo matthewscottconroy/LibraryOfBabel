@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In STLC, the K combinator λx.λy.x has type:",
+  "choices": [
+    "a→b→a",
+    "a→a",
+    "a→b→b",
+    "(a→b)→a"
+  ],
+  "answer": 0,
+  "explanation": "K : α→β→α (the const function type).",
+  "tags": [
+    "stlc",
+    "combinators",
+    "k-combinator"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "dd9b32b6-fa86-423c-9e13-ff8b5034046f"
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "08057c38-aad9-4975-81fd-ee9bf22ee825",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Every covering space of a path-connected, locally path-connected, semi-locally simply connected space X corresponds (up to isomorphism) to a subgroup of π₁(X).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The Galois correspondence for covering spaces: {covering spaces of X} ↔ {subgroups of π₁(X,x₀)}. The universal cover corresponds to the trivial subgroup {1}.",
+  "tags": [
+    "covering-spaces",
+    "fundamental-group"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

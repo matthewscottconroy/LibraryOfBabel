@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "blank",
+  "text": "A continuous bijection f: X → Y whose inverse is also continuous is called a ______.",
+  "choices": [
+    "homeomorphism",
+    "homotopy equivalence",
+    "retraction",
+    "covering map"
+  ],
+  "answer": "homeomorphism",
+  "explanation": "Homeomorphism: topological isomorphism — continuous bijection with continuous inverse.",
+  "tags": [
+    "homeomorphism",
+    "topology"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "5e7aade5-ea9e-4a04-99ba-4124249f8103"
+}

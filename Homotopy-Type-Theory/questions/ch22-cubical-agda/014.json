@@ -1,0 +1,21 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In the cubical library (agda/cubical), the HoTT circle S¹ is defined as:",
+  "choices": [
+    "data S¹ where base : S¹ ; loop : base ≡ base",
+    "a quotient of ℝ",
+    "the group ℤ",
+    "an Eilenberg-MacLane space"
+  ],
+  "answer": 0,
+  "explanation": "S¹ is defined as a higher inductive type: data S¹ where base : S¹ and loop : base ≡ base. This is the standard HIT definition enabled by Cubical Agda's support for HITs.",
+  "tags": [
+    "Cubical-Agda",
+    "HITs",
+    "circle"
+  ],
+  "difficulty": "beginner",
+  "question_id": "0a40dd00-2ced-44fa-95f1-f2b041c3cba8"
+}

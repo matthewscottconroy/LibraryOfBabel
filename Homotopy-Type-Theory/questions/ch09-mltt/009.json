@@ -1,0 +1,20 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In Martin-Löf's original intensional type theory, the identity type IdA(a,b) is:",
+  "choices": [
+    "always the unit type",
+    "defined by K (UIP holds)",
+    "an inductive type with constructor refl_a : IdA(a,a)",
+    "definitional equality only"
+  ],
+  "answer": 2,
+  "explanation": "The identity type is inductively generated with constructor refl_a : Id_A(a,a). The J eliminator is the recursor. In intensional TT, UIP is an additional assumption (not a theorem).",
+  "tags": [
+    "MLTT",
+    "identity-types"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "f766bf98-2f54-4576-9546-e2c5c08d8905"
+}

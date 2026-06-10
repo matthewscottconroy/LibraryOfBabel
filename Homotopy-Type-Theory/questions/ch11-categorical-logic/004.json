@@ -1,0 +1,21 @@
+{
+  "question_id": "53d973b5-44b2-457c-aa96-c9e406500115",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Awodey-Warren theorem (2009) shows that MLTT has a model in:",
+  "choices": [
+    "elementary toposes",
+    "groupoids (Hofmann-Streicher model — predating AW)",
+    "Quillen model categories — specifically, the category of groupoids satisfies the model structure",
+    "STLC models"
+  ],
+  "answer": 2,
+  "explanation": "Awodey-Warren: MLTT models arise from Quillen model categories. The groupoid model (Hofmann-Streicher) is a special case showing UIP can fail.",
+  "tags": [
+    "categorical-logic",
+    "models"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

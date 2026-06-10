@@ -1,0 +1,20 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A Postnikov tower of a space X is a sequence of fibrations Xₙ → Xₙ₋₁ where Xₙ is obtained by:",
+  "choices": [
+    "attaching n-cells",
+    "killing homotopy groups above n (truncating to n-type)",
+    "computing homology at level n",
+    "taking the n-fold loop space"
+  ],
+  "answer": 1,
+  "explanation": "Postnikov tower: Xₙ = τ_{≤n}X is the n-th truncation. πₖ(Xₙ) = πₖ(X) for k≤n and 0 for k>n. X = holim Xₙ (the homotopy limit of its Postnikov sections).",
+  "tags": [
+    "homotopy",
+    "Postnikov"
+  ],
+  "difficulty": "advanced",
+  "question_id": "a64d99d9-5ded-476c-87a5-566ff8f30ffa"
+}

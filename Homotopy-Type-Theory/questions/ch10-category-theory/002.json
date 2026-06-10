@@ -1,0 +1,21 @@
+{
+  "question_id": "e419a52a-b823-419e-a4af-f07e3bd725f1",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An adjunction F ⊣ G means there is a natural isomorphism:",
+  "choices": [
+    "F ∘ G ≅ id and G ∘ F ≅ id",
+    "Hom_D(F(a), b) ≅ Hom_C(a, G(b))",
+    "F and G are inverse equivalences",
+    "F preserves limits"
+  ],
+  "answer": 1,
+  "explanation": "F ⊣ G: left adjoint F 'freely constructs'; right adjoint G 'forgets'. Unit-counit triangle identities follow.",
+  "tags": [
+    "category-theory",
+    "adjunctions"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

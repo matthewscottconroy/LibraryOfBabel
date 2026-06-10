@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What does `#print` do in Lean 4?",
+  "choices": [
+    "Prints the current goal",
+    "Prints the definition/type of a constant",
+    "Prints all axioms",
+    "Runs a computation"
+  ],
+  "answer": 1,
+  "explanation": "`#print foo` displays the type and definition of `foo`.",
+  "tags": [
+    "lean4",
+    "print",
+    "meta"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "6c43170c-f0b4-4bf5-bb71-eaa06ae8c42b"
+}

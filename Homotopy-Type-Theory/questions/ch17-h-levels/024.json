@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The propositional truncation ‖A‖ (squash / -1-truncation) of A is the universal proposition:",
+  "choices": [
+    "Weakly equivalent to A",
+    "Such that ‖A‖ is a mere proposition and there is a map A→‖A‖",
+    "The set-truncation of A",
+    "The loop space of A"
+  ],
+  "answer": 1,
+  "explanation": "‖A‖₋₁ is the (-1)-truncation: a proposition with a constructor |_| : A→‖A‖ and the truncation axiom.",
+  "tags": [
+    "propositional-truncation",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d9c03939-43dc-4b78-9461-46e9daa166bf"
+}

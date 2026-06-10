@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In Agda, the type of proofs that n ≤ m is defined inductively. The base case is ______ : 0 ≤ m.",
+  "choices": [
+    "z≤n",
+    "refl",
+    "zero",
+    "base"
+  ],
+  "answer": "z≤n",
+  "explanation": "The standard Agda stdlib uses z≤n for the proof that 0 ≤ n for any n.",
+  "tags": [
+    "agda",
+    "dependent-types",
+    "ordering"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "c19f2179-6655-41bc-a8d8-8cf6c44eadec"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The main advantage of CTT over book HoTT for formalisation is:",
+  "choices": [
+    "CTT is simpler to implement",
+    "CTT gives a computational interpretation: proofs compute and univalence computes",
+    "CTT requires fewer axioms",
+    "CTT has a simpler model theory"
+  ],
+  "answer": 1,
+  "explanation": "CTT is computational: every proof has a normal form, and transport along ua(e) computes as applying e.",
+  "tags": [
+    "cubical-type-theory",
+    "computation",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "318d312f-00b4-402b-9af5-52ff51bf4f53"
+}

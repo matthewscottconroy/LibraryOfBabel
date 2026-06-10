@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, showing a map f: A→B is an equivalence can be done by exhibiting:",
+  "choices": [
+    "A section only",
+    "A retraction only",
+    "Both a section and a retraction (quasi-inverse), or contractible fibres",
+    "A diagonal lift"
+  ],
+  "answer": 2,
+  "explanation": "Equivalence: quasi-inverse (homotopy-inverse pair) or equivalently contractible fibres.",
+  "tags": [
+    "equivalence",
+    "quasi-inverse",
+    "identity-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "dc06ab52-ebaf-4e51-bb4e-58555afb3db8"
+}

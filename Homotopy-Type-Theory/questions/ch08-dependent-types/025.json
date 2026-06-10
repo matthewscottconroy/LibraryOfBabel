@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the eliminator for the dependent pair type Σ(x:A).B(x)?",
+  "choices": [
+    "Projection fst and snd",
+    "A split/ind-Σ that allows the return type to depend on both components",
+    "A case expression",
+    "A corecursor"
+  ],
+  "answer": 1,
+  "explanation": "ind-Σ is the full dependent eliminator; plain projections are the non-dependent special case.",
+  "tags": [
+    "sigma-type",
+    "elimination"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "991f36b0-6b20-4a77-a3e9-b0456b348429"
+}

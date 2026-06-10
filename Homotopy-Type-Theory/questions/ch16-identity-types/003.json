@@ -1,0 +1,19 @@
+{
+  "question_id": "50d1e024-cdfd-45ea-8910-fb2bff07ee10",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In HoTT (without UIP), the identity type a = a can have more than one element.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "With univalence: Bool = Bool has two paths (id and negation). Without UIP, loop spaces can be non-trivial.",
+  "tags": [
+    "HoTT",
+    "UIP"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

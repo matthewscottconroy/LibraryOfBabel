@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "An equivalence of types A ≃ B in HoTT is a function f: A→B that is:",
+  "choices": [
+    "A bijection on the underlying sets",
+    "A function with a quasi-inverse (or, better, with contractible fibers)",
+    "An isomorphism in the category of types",
+    "All of the above"
+  ],
+  "answer": 3,
+  "explanation": "These are all equivalent definitions of equivalence in HoTT (though contractible fibers is the preferred one by univalence).",
+  "tags": [
+    "equivalence",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "4150999f-753f-450d-8373-76ed2757e39c"
+}

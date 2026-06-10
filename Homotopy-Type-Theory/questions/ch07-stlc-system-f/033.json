@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Curry-Howard correspondence maps STLC to which logic?",
+  "choices": [
+    "Classical propositional logic",
+    "Intuitionistic propositional logic",
+    "Linear logic",
+    "Modal logic S4"
+  ],
+  "answer": 1,
+  "explanation": "STLC proofs correspond exactly to natural deduction proofs in intuitionistic propositional logic.",
+  "tags": [
+    "curry-howard",
+    "stlc"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "31b57a92-8232-44a0-a51a-6031d7cfdac3"
+}

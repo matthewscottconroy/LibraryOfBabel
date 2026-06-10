@@ -1,0 +1,21 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, the 'induction n with' tactic on n:ℕ generates goals for:",
+  "choices": [
+    "n=0 only",
+    "n=0 and the successor case n+1 (with inductive hypothesis)",
+    "all n up to a fixed bound",
+    "the general case only"
+  ],
+  "answer": 1,
+  "explanation": "'induction n with | zero => ... | succ n ih => ...' generates two cases: base case (n=0) and inductive step (assuming ih: P(n), prove P(n+1)).",
+  "tags": [
+    "Lean4",
+    "tactics",
+    "induction"
+  ],
+  "difficulty": "beginner",
+  "question_id": "d4a58ec7-e2a4-4015-a44b-9c032a9a7f98"
+}

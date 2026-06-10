@@ -1,0 +1,19 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Normalisation for MLTT (without large eliminations) was proved by:",
+  "choices": [
+    "Gödel (1958)",
+    "Martin-Löf himself (1975) via the notion of computability",
+    "Voevodsky (2010)",
+    "Coquand and Huet (1988)"
+  ],
+  "answer": 1,
+  "explanation": "Martin-Löf proved strong normalisation for his type theory using a logical-relations / computability (reducibility) argument in the 1970s–80s.",
+  "tags": [
+    "MLTT"
+  ],
+  "difficulty": "advanced",
+  "question_id": "4ec20676-f75f-4601-8f1c-c8c71e1d234d"
+}

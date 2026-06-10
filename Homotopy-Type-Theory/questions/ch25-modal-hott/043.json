@@ -1,0 +1,21 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The '♭-integration' in cohesive HoTT refers to:",
+  "choices": [
+    "Path integration",
+    "The operation of forgetting cohesive structure (applying ♭)",
+    "Computing homotopy groups",
+    "Integration of differential forms"
+  ],
+  "answer": 1,
+  "explanation": "♭A = the flat/discrete version of A; points of ♭A are 'locally constant' sections.",
+  "tags": [
+    "cohesive-hott",
+    "flat-modality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f806d69d-0d3e-4c15-a655-cab88d8bd245"
+}

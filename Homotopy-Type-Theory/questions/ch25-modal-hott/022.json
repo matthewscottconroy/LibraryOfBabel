@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In cohesive HoTT, the four modalities form an adjoint quadruple. In order, they are:",
+  "choices": [
+    "ʃ ⊣ ♭ ⊣ ♯ (with an extra level for differential cohesion)",
+    "ʃ ⊣ ♭ ⊣ ♯ ⊣ ♭♯",
+    "♭ ⊣ ♯ ⊣ ʃ",
+    "All four are equivalent"
+  ],
+  "answer": 0,
+  "explanation": "Cohesive HoTT: shape ⊣ flat ⊣ sharp, plus Π_inf ⊣ ♭ ⊣ ♯ for differential cohesion.",
+  "tags": [
+    "modal-hott",
+    "cohesive-hott",
+    "adjoint-quadruple"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "007d614c-7ed1-4514-bb28-af54517db398"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "985fa99a-f4a2-4692-9391-65d652687976",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The groupoid laws (associativity, unit, inverse) for path concatenation are proved by:",
+  "choices": [
+    "assuming UIP",
+    "using the J eliminator (path induction on one of the paths)",
+    "the univalence axiom",
+    "the interval type"
+  ],
+  "answer": 1,
+  "explanation": "All groupoid laws follow from J by path induction. E.g., p ∙ refl = p by inducting on p.",
+  "tags": [
+    "HoTT",
+    "identity-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

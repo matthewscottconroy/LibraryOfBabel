@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In a dependently typed system, what property must a definition satisfy to be accepted as a type-theoretic function?",
+  "choices": [
+    "It must be total and terminating",
+    "It must return a boolean",
+    "It must be a closed lambda term",
+    "It must be in A-normal form"
+  ],
+  "answer": 0,
+  "explanation": "Totality (all cases covered) and termination are required to maintain consistency of the type theory.",
+  "tags": [
+    "totality",
+    "termination",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "4a7109ac-4102-41b8-8b6d-6dfe7979c4fd"
+}

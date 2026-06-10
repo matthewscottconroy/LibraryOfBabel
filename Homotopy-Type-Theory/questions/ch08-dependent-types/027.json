@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which rule distinguishes Π-types from simple function types?",
+  "choices": [
+    "The domain must be a universe",
+    "The codomain type may depend on the variable bound in the domain",
+    "Η-reduction applies",
+    "The introduction rule requires two premises"
+  ],
+  "answer": 1,
+  "explanation": "Π(x:A).B(x) vs A→B: in the dependent case, B can mention x.",
+  "tags": [
+    "pi-type",
+    "dependent-types"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "0d3645a2-f804-4a2b-a68c-d1df5d2c2826"
+}

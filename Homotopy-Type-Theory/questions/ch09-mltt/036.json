@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The recursor for the unit type ⊤ (with constructor tt:⊤) has the computation rule:",
+  "choices": [
+    "rec⊤(P, p, tt) ≡ p",
+    "rec⊤(P, p, x) ≡ x",
+    "rec⊤(P, p, tt) ≡ tt",
+    "rec⊤(P) ≡ P"
+  ],
+  "answer": 0,
+  "explanation": "Unit recursor: given P:⊤→Type and p:P(tt), rec⊤(P,p,tt) ≡ p.",
+  "tags": [
+    "mltt",
+    "unit-type",
+    "computation-rule"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "dedfca67-e9f7-4614-95b8-bf18bf89106a"
+}

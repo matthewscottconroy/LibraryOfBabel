@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A right Kan extension Ran_K F of F: C→D along K: C→E is characterised by:",
+  "choices": [
+    "A universal natural transformation ε: Ran_K(F)∘K ⇒ F",
+    "A left adjoint to composition with K",
+    "A limit of F over K",
+    "A colimit formula Ran_K(F)(e) = lim_{(e→Ke')} F(e')"
+  ],
+  "answer": 0,
+  "explanation": "Right Kan extension: (Ran_K F, ε) is universal with ε: (Ran_K F)∘K ⇒ F.",
+  "tags": [
+    "kan-extension",
+    "category-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "9336f1fb-ae6b-4b4e-8e62-99df90834415"
+}

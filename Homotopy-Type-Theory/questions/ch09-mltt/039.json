@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In MLTT, propositional equality (a = b) is defined as:",
+  "choices": [
+    "An axiom",
+    "An inductive type with constructor refl_a: a = a",
+    "A primitive notion",
+    "A defined notion using ⊥"
+  ],
+  "answer": 1,
+  "explanation": "Id_A(a,b) is an inductive type; the unique constructor is refl_a: Id_A(a,a).",
+  "tags": [
+    "mltt",
+    "identity-type",
+    "inductive"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "20ad0fdf-501a-44f2-9752-4d86a60b1c09"
+}

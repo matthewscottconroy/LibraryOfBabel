@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A splitting field of a polynomial f(x) over F is the smallest field extension K/F in which:",
+  "choices": [
+    "f has at least one root",
+    "f factors into linear factors",
+    "f is irreducible",
+    "f has a repeated root"
+  ],
+  "answer": 1,
+  "explanation": "Splitting field K: f(x) = c(x-α₁)⋯(x-αₙ) in K[x] and K = F(α₁,…,αₙ). It is unique up to F-isomorphism.",
+  "tags": [
+    "algebra",
+    "fields",
+    "Galois"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "caa09cda-65aa-465a-9909-6bd28bb9cfc8"
+}

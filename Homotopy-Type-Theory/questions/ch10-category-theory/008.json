@@ -1,0 +1,18 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "A natural transformation α: F ⇒ G assigns to each object c a morphism α_c: F(c) → G(c) called the ___ of α at c.",
+  "choices": [
+    "component",
+    "natural component"
+  ],
+  "answer": "component",
+  "explanation": "The morphism α_c is the component of α at c. Naturality says G(f)∘α_c = α_{c'}∘F(f) for all f:c→c'.",
+  "tags": [
+    "category-theory",
+    "natural-transformations"
+  ],
+  "difficulty": "beginner",
+  "question_id": "11933fcb-8a45-4ce6-a373-9eca4a849358"
+}

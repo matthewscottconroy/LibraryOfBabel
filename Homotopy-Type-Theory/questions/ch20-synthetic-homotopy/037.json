@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Eilenberg-MacLane type K(G,n) is characterised synthetically by:",
+  "choices": [
+    "It is n-connected",
+    "πₙ(K(G,n))=G and πₖ(K(G,n))=0 for k≠n",
+    "It is n-truncated only",
+    "It is the suspension of K(G,n-1)"
+  ],
+  "answer": 1,
+  "explanation": "K(G,n): πₙ=G, all other homotopy groups trivial; it is (n-1)-connected and n-truncated.",
+  "tags": [
+    "eilenberg-maclane",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d377eefb-0ced-459c-8018-9c34e4c3c93b"
+}

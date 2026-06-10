@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The order of an element g in a group G is:",
+  "choices": [
+    "The cardinality of G",
+    "The smallest positive n such that gⁿ = e",
+    "The number of subgroups containing g",
+    "The index of ⟨g⟩ in G"
+  ],
+  "answer": 1,
+  "explanation": "ord(g) = min{n>0 : gⁿ=e}; Lagrange: ord(g) divides |G| for finite G.",
+  "tags": [
+    "group-theory",
+    "order-of-element"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "9149f4c5-068c-4eee-91f3-b247a9b397d8"
+}

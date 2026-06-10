@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The von Neumann ordinal for the natural number n is defined as:",
+  "choices": [
+    "The set {1,2,…,n}",
+    "The set {0,1,…,n-1} (the set of all smaller ordinals)",
+    "The singleton {n}",
+    "The empty set for all n"
+  ],
+  "answer": 1,
+  "explanation": "Von Neumann: n = {0,1,…,n-1}; e.g. 3 = {0,1,2} = {∅,{∅},{∅,{∅}}}.",
+  "tags": [
+    "von-neumann-ordinals",
+    "set-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "87f4c682-12e0-4253-8ef7-c2bb324f40a8"
+}

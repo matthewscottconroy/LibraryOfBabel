@@ -1,0 +1,20 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The two paths in Bool = Bool (given by univalence) correspond to the two equivalences:",
+  "choices": [
+    "the identity and the negation equivalence",
+    "two different identity functions",
+    "left and right projections",
+    "the two elements of Bool"
+  ],
+  "answer": 0,
+  "explanation": "Bool has two automorphisms: id and neg (swap true/false). By univalence, Bool=Bool has exactly two paths: refl (from id) and ua(neg) (from negation). This refutes UIP.",
+  "tags": [
+    "HoTT",
+    "univalence"
+  ],
+  "difficulty": "beginner",
+  "question_id": "365fd550-dac0-40a5-aff4-e51a1692c89b"
+}

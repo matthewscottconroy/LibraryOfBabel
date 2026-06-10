@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which HIT encodes the free group on a set G?",
+  "choices": [
+    "S¹ for G={a}",
+    "The set-quotient of G* by the group relations",
+    "A HIT with point a:FG for each g:G, paths representing the group operations and laws",
+    "The loop space of the suspension ΣG+"
+  ],
+  "answer": 2,
+  "explanation": "Free group: HIT with generators, multiplication, inverse, and identity paths and their equations.",
+  "tags": [
+    "free-group",
+    "hit",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "be583ebb-c6c5-4f35-9e49-889fcddf536c"
+}

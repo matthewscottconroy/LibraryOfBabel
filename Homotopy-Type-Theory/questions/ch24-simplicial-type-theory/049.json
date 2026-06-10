@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, the type theory has two kinds of variables: 'crisp' (∷) and 'cohesive'. The distinction arises from:",
+  "choices": [
+    "Definitional vs propositional equality",
+    "The directed vs undirected structure — crisp variables are used for the base ∞-topos, cohesive for the ∞-categories",
+    "Universe levels",
+    "Proof relevance"
+  ],
+  "answer": 1,
+  "explanation": "Crisp/cohesive distinction in Riehl-Shulman: the directed structure requires tracking which variables can appear in shape positions.",
+  "tags": [
+    "simplicial-type-theory",
+    "crisp-variables",
+    "directed"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "9497d93f-805b-4dc2-b84e-887b26df5423"
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "67c0bb9e-e3c6-41d5-848d-76472ea1b121",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A CW complex is called n-dimensional if:",
+  "choices": [
+    "it has exactly n cells",
+    "it has cells of dimension at most n and at least one n-cell",
+    "its nth homotopy group is non-trivial",
+    "it is homeomorphic to Sⁿ"
+  ],
+  "answer": 1,
+  "explanation": "Dimension of a CW complex = the highest dimension of any of its cells. The n-skeleton Xⁿ contains all cells of dimension ≤ n.",
+  "tags": [
+    "cw-complex"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

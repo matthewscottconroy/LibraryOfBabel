@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the Quillen model structure on sSet, the generating cofibrations are:",
+  "choices": [
+    "The horn inclusions Λⁿₖ↪Δ[n]",
+    "The boundary inclusions ∂Δ[n]↪Δ[n]",
+    "The degenerate simplices",
+    "All monomorphisms"
+  ],
+  "answer": 1,
+  "explanation": "Generating cofibrations: ∂Δ[n]↪Δ[n] for all n≥0.",
+  "tags": [
+    "model-structure",
+    "cofibration",
+    "simplicial-set"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "40aafae3-5c11-4b12-8c66-75c54aad7e43"
+}

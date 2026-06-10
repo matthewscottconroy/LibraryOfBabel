@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The 3×3 lemma (or cube lemma) in HoTT is used to prove that:",
+  "choices": [
+    "Pushouts commute with suspensions",
+    "Composites of pushout squares give pushout squares",
+    "All homotopy pushouts are equivalent",
+    "The Blakers-Massey connectivity bound is sharp"
+  ],
+  "answer": 1,
+  "explanation": "The 3×3 / cube lemma: pasting two pushout squares gives a pushout, enabling inductive arguments.",
+  "tags": [
+    "cube-lemma",
+    "pushout",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "eefc6605-4e2c-4c4f-93ec-98c45dd1d2cb"
+}

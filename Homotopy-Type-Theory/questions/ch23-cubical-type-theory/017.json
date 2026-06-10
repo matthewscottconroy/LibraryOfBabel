@@ -1,0 +1,20 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In XTT (Cartesian cubical type theory for sets, Sterling-Harper), compared to CCHM:",
+  "choices": [
+    "XTT has no identity types",
+    "XTT adds an 'exact equality' type (strict equality) for h-sets, making UIP provable for sets",
+    "XTT requires LEM",
+    "XTT has no interval"
+  ],
+  "answer": 1,
+  "explanation": "XTT (Sterling-Harper) is a cubical type theory for sets (h-sets) that adds an exact (strict) equality type Id, which satisfies UIP. It is a two-level approach: exact equality for sets, paths for homotopy.",
+  "tags": [
+    "cubical-TT",
+    "XTT"
+  ],
+  "difficulty": "advanced",
+  "question_id": "0f967f24-5e9e-48e4-b5d3-2676a30a85f2"
+}

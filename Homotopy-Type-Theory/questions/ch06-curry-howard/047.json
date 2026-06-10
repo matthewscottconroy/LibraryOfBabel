@@ -1,0 +1,21 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the CoC (Calculus of Constructions), proofs and types both live in the same language. This is called:",
+  "choices": [
+    "Predicativity",
+    "The propositions-as-types principle taken to its limit",
+    "Universe polymorphism",
+    "Impredicativity"
+  ],
+  "answer": 1,
+  "explanation": "CoC: types and propositions are identified; the sort Prop contains proofs and Type contains data.",
+  "tags": [
+    "coc",
+    "propositions-as-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "07cbd5bd-a374-47ab-9cc0-115eb6c57f2b"
+}

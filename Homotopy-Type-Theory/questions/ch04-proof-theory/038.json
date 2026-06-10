@@ -1,0 +1,22 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The proof-theoretic ordinal of Peano Arithmetic (PA) is:",
+  "choices": [
+    "ω",
+    "ω^ω",
+    "ε₀",
+    "ε_{ε₀}"
+  ],
+  "answer": 2,
+  "explanation": "|PA| = ε₀ (the first fixed point of α ↦ ω^α), proved by Gentzen.",
+  "tags": [
+    "peano-arithmetic",
+    "epsilon-naught",
+    "ordinal-analysis"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "ddca7cd7-f9a3-456c-a30a-8af18fae5798"
+}

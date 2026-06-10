@@ -1,0 +1,22 @@
+{
+  "question_id": "ca0b24bd-c58c-403b-b954-563e099ee591",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The action on paths ap_f(p) for f: A → B and p: a₁=a₂ satisfies:",
+  "choices": [
+    "ap_f(p ∙ q) = ap_f(p) ∙ ap_f(q)  (functoriality)",
+    "ap_f(p) = p  (identity)",
+    "ap_f(p⁻¹) = ap_f(p)  (ignores inversion)",
+    "ap_f(refl) = p"
+  ],
+  "answer": 0,
+  "explanation": "ap_f is functorial: ap(id) = id, ap(g∘f) = ap(g)∘ap(f), ap_f(p∙q) = ap_f(p)∙ap_f(q), ap_f(p⁻¹) = (ap_f(p))⁻¹. This makes every function a functor between groupoids.",
+  "tags": [
+    "ap",
+    "functoriality",
+    "identity-types"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

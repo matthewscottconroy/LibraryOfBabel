@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A function f: A→B is called a quasi-inverse of g: B→A if:",
+  "choices": [
+    "f∘g = id_B and g∘f = id_A",
+    "f∘g ~ id_B and g∘f ~ id_A (homotopic to identities)",
+    "f = g⁻¹",
+    "f∘g : B→B is an equivalence"
+  ],
+  "answer": 1,
+  "explanation": "f is a quasi-inverse (section + retraction up to homotopy) of g.",
+  "tags": [
+    "quasi-inverse",
+    "equivalence",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "c2d23427-88b4-4eda-afdc-38bf6f3c708e"
+}

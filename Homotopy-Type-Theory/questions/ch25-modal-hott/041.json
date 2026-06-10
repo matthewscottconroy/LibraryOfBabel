@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'Galois connection' between a modality ◯ and its class of modal types is:",
+  "choices": [
+    "◯ is left adjoint to the inclusion of modal types into all types",
+    "◯ is right adjoint to the inclusion",
+    "They form a monoidal structure",
+    "They are unrelated"
+  ],
+  "answer": 0,
+  "explanation": "Reflective subuniverse: ◯ ⊣ inclusion of ◯-modal types; the unit η: A→◯A is the reflection.",
+  "tags": [
+    "modal-hott",
+    "galois-connection",
+    "reflective-subuniverse"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "9d32f467-269b-4e7c-83af-04b94c1d5038"
+}

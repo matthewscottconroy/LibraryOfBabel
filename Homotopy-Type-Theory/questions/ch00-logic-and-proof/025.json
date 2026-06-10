@@ -1,0 +1,20 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Second-order logic extends first-order logic by allowing quantification over:",
+  "choices": [
+    "individuals only",
+    "predicates and functions (not just individuals)",
+    "infinite conjunctions",
+    "modal operators"
+  ],
+  "answer": 1,
+  "explanation": "Second-order logic: ∀P.(...)  and ∃P.(...) where P ranges over predicates (sets). It is strictly more expressive than FOL but not axiomatizable by a complete recursive system.",
+  "tags": [
+    "logic",
+    "second-order"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "4bce847e-50c4-4d3f-9831-398b8a5955bf"
+}

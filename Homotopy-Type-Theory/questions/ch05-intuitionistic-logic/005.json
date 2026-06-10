@@ -1,0 +1,21 @@
+{
+  "question_id": "59e437d6-7ac4-41a0-b196-cce6db809967",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which of these principles is valid in Bishop's constructive mathematics (BISH) but not in IPC alone?",
+  "choices": [
+    "LEM",
+    "Markov's Principle",
+    "The Fan Theorem",
+    "Double Negation Elimination"
+  ],
+  "answer": 1,
+  "explanation": "Markov's Principle (MP) is used in Russian constructivism; it is not derivable in IPC but is accepted in some constructive frameworks.",
+  "tags": [
+    "intuitionistic",
+    "constructivism"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

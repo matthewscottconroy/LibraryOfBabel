@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The computation rule for ua states: transport^(id_𝒰)(ua(e), x) ≡",
+  "choices": [
+    "x",
+    "e(x)  (applying the equivalence)",
+    "e⁻¹(x)",
+    "refl"
+  ],
+  "answer": 1,
+  "explanation": "Computation for ua: transporting x:A along ua(e):A=B applies e to give e(x):B.",
+  "tags": [
+    "univalence",
+    "ua",
+    "computation-rule"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8bcc8be2-4540-4a50-a4b8-0801591121e6"
+}

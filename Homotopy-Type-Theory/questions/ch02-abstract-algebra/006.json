@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of the following is a necessary condition for a group (G, ·)?",
+  "choices": [
+    "commutativity",
+    "every element has a unique inverse",
+    "finiteness",
+    "the operation is idempotent"
+  ],
+  "answer": 1,
+  "explanation": "A group requires: closure, associativity, identity, and inverses. Every element must have an inverse, but commutativity is NOT required (non-abelian groups exist).",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "beginner",
+  "question_id": "aef1d8a3-6b1c-4a42-8bf7-e7c65e8ca6ff"
+}

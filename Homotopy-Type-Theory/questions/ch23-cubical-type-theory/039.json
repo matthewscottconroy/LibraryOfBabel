@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In which model does the 'interval' have a decidable equality?",
+  "choices": [
+    "The simplicial set model",
+    "The Cartesian cubical set model (with ⊤,⊥,∧,∨ but no ~)",
+    "Both",
+    "Neither"
+  ],
+  "answer": 1,
+  "explanation": "In Cartesian cubical sets, the interval {0,1} has decidable equality; De Morgan CTT uses an interval without this.",
+  "tags": [
+    "cubical-type-theory",
+    "cartesian-cubical",
+    "interval"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "852c5401-9844-47a0-8551-70a0350faeaf"
+}

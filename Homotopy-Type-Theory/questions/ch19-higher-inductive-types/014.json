@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The set quotient A/R (for an equivalence relation R on A) is a HIT in HoTT satisfying:",
+  "choices": [
+    "it is always a proposition",
+    "it is a set with [a]=[b] iff R(a,b)",
+    "it is the same as ∥A∥",
+    "it requires A to be finite"
+  ],
+  "answer": 1,
+  "explanation": "A/R as HIT: point constructor [─]:A→A/R, path constructor eq(r):[a]=[b] for r:R(a,b), and a set-truncation constructor making A/R an h-set. This gives the correct set quotient.",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "quotients"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "3825fb1c-13a5-4e11-89a7-b24196b11332"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Whitehead theorem states that a map between CW-complexes that is a weak homotopy equivalence (isomorphism on all πₙ) is:",
+  "choices": [
+    "A homeomorphism",
+    "A homotopy equivalence",
+    "A fibration",
+    "A cofibration"
+  ],
+  "answer": 1,
+  "explanation": "Whitehead: weak homotopy equivalence between CW-complexes is a homotopy equivalence.",
+  "tags": [
+    "whitehead",
+    "cw-complex",
+    "homotopy-equivalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "5adb3cb0-32e2-4bb1-9bc0-8295ad69a98d"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The correspondence between Cartesian closed categories and simply typed lambda calculus says: products in the CCC correspond to which type constructor?",
+  "choices": [
+    "function type →",
+    "product type ×",
+    "sum type +",
+    "unit type 1"
+  ],
+  "answer": 1,
+  "explanation": "CCC ↔ STLC: products A×B ↔ pair type, exponentials B^A ↔ function type A→B, terminal object ↔ unit type 1. Currying is the CCC's closedness.",
+  "tags": [
+    "categorical-logic",
+    "CCC"
+  ],
+  "difficulty": "beginner",
+  "question_id": "21d58fb9-002f-4b71-a77e-0745d3f5af21"
+}

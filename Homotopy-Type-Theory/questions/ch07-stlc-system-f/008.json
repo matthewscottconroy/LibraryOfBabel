@@ -1,0 +1,17 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In STLC, every well-typed term has a unique type (given a fixed type environment).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "STLC has unique type assignment (given a context Γ): if Γ ⊢ t:T and Γ ⊢ t:T', then T=T'. This is why type checking is decidable.",
+  "tags": [
+    "STLC"
+  ],
+  "difficulty": "beginner",
+  "question_id": "4671a690-b0b4-4826-b4b7-98478080a4ef"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The wedge sum A∨B in HoTT is defined as:",
+  "choices": [
+    "A×B",
+    "A+B",
+    "The pushout of A←1→B (over the basepoint)",
+    "The suspension of A×B"
+  ],
+  "answer": 2,
+  "explanation": "A∨B = A⊔_1 B: the pushout of the span A←{*}→B collapsing the two basepoints to one.",
+  "tags": [
+    "wedge-sum",
+    "pushout",
+    "hit"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "48c7ea89-6ea4-4990-bbba-e8f8af9c0229"
+}

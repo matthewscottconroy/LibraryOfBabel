@@ -1,0 +1,22 @@
+{
+  "question_id": "61341ab1-efe3-4da3-b660-4db442826e69",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, a path p : a = b in A is:",
+  "choices": [
+    "a proof of propositional equality with no further structure",
+    "a continuous function [0,1] → A sending 0 to a and 1 to b",
+    "a term of the identity type — which IS a path in the homotopy-theoretic sense",
+    "an element of the loop space ΩA"
+  ],
+  "answer": 2,
+  "explanation": "In HoTT, identity types are paths. Proof of a=b ≡ path from a to b. The homotopy interpretation is built into the foundations.",
+  "tags": [
+    "HoTT",
+    "identity-types",
+    "paths"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

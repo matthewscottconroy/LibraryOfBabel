@@ -1,0 +1,18 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The ___ theorem states: if n | |G| and p is prime, there exists an element of order p in G.",
+  "choices": [
+    "Cauchy",
+    "Cauchy's"
+  ],
+  "answer": "cauchy",
+  "explanation": "Cauchy's theorem: if p | |G| (p prime) then ∃g∈G with ord(g)=p. It is a partial converse to Lagrange and a special case of the Sylow theorems.",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "beginner",
+  "question_id": "a17081b2-63a9-420a-aabd-9a18116fd061"
+}

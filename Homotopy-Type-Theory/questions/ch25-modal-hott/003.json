@@ -1,0 +1,19 @@
+{
+  "question_id": "4d8ceb68-c50a-4815-bec9-a5922469e76a",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "tf",
+  "text": "The de Rham theorem (H*_dR(M) ≅ H*(M,ℝ)) can be stated and proved internally in cohesive HoTT.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "In cohesive HoTT, H*_dR(A) depends only on ∫A: the de Rham theorem becomes H*_dR(A) ≃ H*(∫A,ℝ).",
+  "tags": [
+    "modal-HoTT",
+    "de-Rham"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

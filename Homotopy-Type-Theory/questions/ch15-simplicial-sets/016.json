@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The homotopy groups of a Kan complex K at vertex v are defined as:",
+  "choices": [
+    "πₙ(|K|, v) via geometric realisation",
+    "the groups [Δ[n]/∂Δ[n], K]_v of based maps",
+    "the homology groups of K",
+    "the n-th skeleton of K"
+  ],
+  "answer": 1,
+  "explanation": "πₙ(K, v) can be defined entirely simplicially: homotopy classes of maps (Δ[n], ∂Δ[n]) → (K, v). This agrees with the topological πₙ of |K| via the Kan-Quillen equivalence.",
+  "tags": [
+    "simplicial-sets",
+    "homotopy",
+    "Kan"
+  ],
+  "difficulty": "advanced",
+  "question_id": "3f2d7571-fde9-4922-aeb3-6d9de9aef26b"
+}

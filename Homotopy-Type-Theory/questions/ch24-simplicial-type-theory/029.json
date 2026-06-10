@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "blank",
+  "text": "In Simplicial TT, the shape Δ¹ = 2 is the directed interval. Its boundary ∂Δ¹ consists of the ______ and ______.",
+  "choices": [
+    "source and target (0 and 1)",
+    "two faces",
+    "two paths",
+    "initial and terminal object"
+  ],
+  "answer": "source and target (0 and 1)",
+  "explanation": "∂Δ¹ = {0, 1}: the two endpoints of the directed interval.",
+  "tags": [
+    "simplicial-type-theory",
+    "interval",
+    "boundary"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f473ce75-048d-4ba3-af92-459293ac7918"
+}

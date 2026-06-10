@@ -1,0 +1,20 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In HoTT (without axiom K or UIP), the type a =_A a may have non-trivial elements other than refl.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Without axiom K, identity loops can be non-trivial (e.g. in the circle S¹, loop : base = base is distinct from refl in π₁).",
+  "tags": [
+    "identity-type",
+    "uip",
+    "axiom-k"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "33100599-6fde-4ffd-a967-4000c6144bc5"
+}

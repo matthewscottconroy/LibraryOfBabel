@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A continuous map f: X→Y satisfies:",
+  "choices": [
+    "f maps open sets to open sets",
+    "Preimages of open sets are open",
+    "f maps closed sets to closed sets",
+    "f is a homeomorphism"
+  ],
+  "answer": 1,
+  "explanation": "f is continuous iff f⁻¹(U) is open in X for every open U in Y.",
+  "tags": [
+    "continuous-map",
+    "topology"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "3af071a5-8d72-45e8-ae92-31b178e7a4e8"
+}

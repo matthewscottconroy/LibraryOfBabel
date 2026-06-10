@@ -1,0 +1,21 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "blank",
+  "text": "In CTT, the path type A between a and b is written as `PathP (λ i → A) a b`, or simply `______` when A is constant.",
+  "choices": [
+    "a ≡ b",
+    "a = b",
+    "Id A a b",
+    "path a b"
+  ],
+  "answer": "a ≡ b",
+  "explanation": "In Cubical Agda / CTT, `a ≡ b` is syntactic sugar for `PathP (λ _ → A) a b`.",
+  "tags": [
+    "cubical-type-theory",
+    "path-type"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "a4eba34d-c120-46db-a66e-536f70de6c9a"
+}

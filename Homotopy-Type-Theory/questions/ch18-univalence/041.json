@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Univalence is compatible with proof-relevant mathematics because:",
+  "choices": [
+    "It forces all types to be sets",
+    "It shows equivalent types are equal without collapsing their homotopy type",
+    "It adds LEM",
+    "It makes all propositions equal"
+  ],
+  "answer": 1,
+  "explanation": "Univalence identifies equivalent types as equal but preserves their internal structure (homotopy type).",
+  "tags": [
+    "univalence",
+    "proof-relevance"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "655b4b6f-e3b8-48c9-84d4-b5f922add33a"
+}

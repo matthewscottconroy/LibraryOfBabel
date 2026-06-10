@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "System T (Gödel's T) extends the STLC with what feature?",
+  "choices": [
+    "Polymorphic types",
+    "Primitive recursion on natural numbers",
+    "Dependent types",
+    "Continuation-passing style"
+  ],
+  "answer": 1,
+  "explanation": "Gödel's System T = STLC + ℕ with the recursion combinator rec. It is strongly normalising and corresponds to proofs in Heyting Arithmetic.",
+  "tags": [
+    "curry-howard",
+    "System-T"
+  ],
+  "difficulty": "advanced",
+  "question_id": "85ba3e07-eb2a-4cbf-bbcc-ae2275fb1d33"
+}

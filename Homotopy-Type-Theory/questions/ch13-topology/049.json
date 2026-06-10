@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Čech cohomology and singular cohomology agree for:",
+  "choices": [
+    "All topological spaces",
+    "Spaces that are locally contractible (or are nice enough, e.g. CW complexes)",
+    "Only manifolds",
+    "Only compact spaces"
+  ],
+  "answer": 1,
+  "explanation": "Čech = singular cohomology for paracompact, locally contractible spaces (e.g. CW complexes).",
+  "tags": [
+    "cech-cohomology",
+    "singular-cohomology",
+    "topology"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "178dc22a-46b0-4e67-96d3-c8d2ec0f5c73"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "4d33f6d4-048b-4767-bb81-e327e7db4fef",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The encode-decode method proves (base=ₛ₁ base) ≃ ℤ by:",
+  "choices": [
+    "J elimination alone",
+    "defining a code family, encode via transport, decode via the S¹ eliminator, then showing they are inverse",
+    "propositional truncation of the loop space",
+    "the Freudenthal suspension theorem"
+  ],
+  "answer": 1,
+  "explanation": "Encode-decode: code→encode→decode→inverse proofs. This is the canonical technique for homotopy group computations in HoTT.",
+  "tags": [
+    "HoTT",
+    "encode-decode"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

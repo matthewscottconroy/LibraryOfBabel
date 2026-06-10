@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Univalence for propositions is equivalent to:",
+  "choices": [
+    "LEM",
+    "Propositional extensionality alone",
+    "Function extensionality",
+    "Both propositional extensionality and function extensionality"
+  ],
+  "answer": 1,
+  "explanation": "For propositions, univalence reduces to propext: P=Q ↔ (P↔Q).",
+  "tags": [
+    "univalence",
+    "propext",
+    "proposition"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "c4d0bb2e-81a2-4de8-9e06-99b2367d3375"
+}

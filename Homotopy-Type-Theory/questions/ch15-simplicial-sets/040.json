@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The Eilenberg-Zilber theorem gives a chain equivalence C*(X×Y) ≃ C*(X) ⊗ C*(Y), where C* denotes the ______ complex.",
+  "choices": [
+    "normalised singular chain",
+    "simplicial chain",
+    "cellular chain",
+    "bar"
+  ],
+  "answer": "normalised singular chain",
+  "explanation": "EZ theorem: the normalised chain complex of a product of simplicial sets is quasi-isomorphic to the tensor product of chain complexes.",
+  "tags": [
+    "eilenberg-zilber",
+    "chain-complex",
+    "simplicial-set"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "f90758e6-a7f9-4e6b-949d-9f0680a58160"
+}

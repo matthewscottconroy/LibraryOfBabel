@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Riesz representation theorem (for Hilbert spaces) says: every bounded linear functional φ on a Hilbert space H has the form φ(v) =",
+  "choices": [
+    "‖v‖",
+    "⟨v, w⟩ for a unique w∈H",
+    "φ(0)",
+    "Tv for a bounded operator T"
+  ],
+  "answer": 1,
+  "explanation": "Riesz: φ∈H* ↔ ∃! w∈H: φ(v)=⟨v,w⟩ for all v. This gives the canonical isomorphism H≅H*. Combined with the Lax-Milgram theorem, it underlies much of PDE theory.",
+  "tags": [
+    "analysis",
+    "functional-analysis"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "aeb2205e-b5cf-487e-ab69-c4465dfd8ebb"
+}

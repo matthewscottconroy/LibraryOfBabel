@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The inverse of a path p: a=b is denoted p⁻¹ and has type:",
+  "choices": [
+    "b=a",
+    "a=a",
+    "a=b",
+    "b=b"
+  ],
+  "answer": 0,
+  "explanation": "Symmetry: p⁻¹ : b=a.",
+  "tags": [
+    "path-inverse",
+    "identity-type"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "1173984f-1f1c-4380-a924-8161cbaf9cc0"
+}

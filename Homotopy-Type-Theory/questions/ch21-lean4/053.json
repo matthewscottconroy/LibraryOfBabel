@@ -1,0 +1,19 @@
+{
+  "question_id": "cfee3b2d-e113-4a30-bfe0-a16df77dde74",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "tf",
+  "text": "In Lean 4, `#eval` and `#reduce` always produce the same output for a well-typed term.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "#eval compiles and runs the term using the native code generator (fast); #reduce kernel-reduces (slow, pure type theory). They agree on values but differ in speed and sometimes in what they can evaluate (e.g., axioms).",
+  "tags": [
+    "Lean4",
+    "computation"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "c15d1ee8-568a-4d1a-8606-de9068e95963",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Quillen model structure on sSet has as weak equivalences:",
+  "choices": [
+    "simplicial homotopy equivalences",
+    "maps inducing isomorphisms on all homotopy groups (weak homotopy equivalences)",
+    "maps inducing isomorphisms on π₁ only",
+    "bijections on 0-simplices"
+  ],
+  "answer": 1,
+  "explanation": "Weak equivalences in sSet are maps inducing isomorphisms on all homotopy groups — the same as in Top.",
+  "tags": [
+    "simplicial-sets",
+    "model-structure"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In cohesive HoTT, ∫A ≃ * (contractible) means:",
+  "choices": [
+    "A is contractible",
+    "A is connected (the shape of A has only one component)",
+    "A is a set",
+    "A is a proposition"
+  ],
+  "answer": 1,
+  "explanation": "∫A is the 'shape' (homotopy type). ∫A ≃ * means A is connected in the cohesive sense — its underlying homotopy type is contractible. E.g., ∫ℝ ≃ * since ℝ is cohesively connected.",
+  "tags": [
+    "modal-HoTT",
+    "cohesion"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "7ee35f58-86b4-4493-ac15-9ed2f9b2975d"
+}

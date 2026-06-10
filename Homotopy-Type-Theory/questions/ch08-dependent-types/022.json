@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which of the following best exemplifies a dependent type?",
+  "choices": [
+    "Int → Bool",
+    "List Int",
+    "Vec Bool n (a list whose type records its length n)",
+    "Maybe String"
+  ],
+  "answer": 2,
+  "explanation": "Vec Bool n has a type that depends on the natural number value n.",
+  "tags": [
+    "dependent-types",
+    "examples"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "d2438ab7-1dc3-4c83-81ff-663860e4cce1"
+}

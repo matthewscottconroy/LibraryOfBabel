@@ -1,0 +1,23 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The fundamental theorem of identity types (FTID) states: for a:A and P:A→Type, the following are equivalent: (1) P(a) is contractible, (2) P is pointwise equivalent to the identity type family (a=_) .",
+  "choices": [
+    "Only in extensional TT",
+    "In any Martin-Löf type theory",
+    "Only with univalence",
+    "Only for proposition-valued P"
+  ],
+  "answer": 1,
+  "explanation": "FTID: Σ(x:A).a=x is contractible; any P equivalent to (a=_) is also contractible.",
+  "tags": [
+    "ftid",
+    "contractible",
+    "identity-type",
+    "mltt"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d3f3ef4a-bfb2-42ff-a77d-d74d6d1f604e"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The face maps dᵢ: Xₙ → Xₙ₋₁ in a simplicial set correspond to which morphism in Δ?",
+  "choices": [
+    "The surjection σⁱ: [n]→[n-1]",
+    "The injection δⁱ: [n-1]↪[n] that skips i",
+    "The identity",
+    "A degeneracy"
+  ],
+  "answer": 1,
+  "explanation": "Face dᵢ = X(δⁱ) where δⁱ: [n-1]→[n] is the unique injection omitting i.",
+  "tags": [
+    "simplicial-set",
+    "face-maps"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3233d779-6593-43fd-a7a7-435523ad6586"
+}

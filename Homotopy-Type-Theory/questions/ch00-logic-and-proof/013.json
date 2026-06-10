@@ -1,0 +1,19 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of the following best describes a tautology?",
+  "choices": [
+    "A formula that is satisfiable",
+    "A formula true in exactly one valuation",
+    "A formula true under all valuations",
+    "A formula with no free variables"
+  ],
+  "answer": 2,
+  "explanation": "A tautology is a propositional formula that evaluates to True for every assignment of truth values to its variables.",
+  "tags": [
+    "logic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "4e5ca69e-ab02-4d9b-948e-11f464f32855"
+}

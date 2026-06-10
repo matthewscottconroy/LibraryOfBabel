@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Which of the following is a mode theory for two-mode MTT (Gratzer et al.)?",
+  "choices": [
+    "A single mode with one modality",
+    "A category with two objects (modes) and morphisms between them representing modalities",
+    "A Boolean algebra of modes",
+    "A poset of universes"
+  ],
+  "answer": 1,
+  "explanation": "Mode theories in MTT: a category where objects are modes and morphisms are modalities.",
+  "tags": [
+    "modal-type-theory",
+    "mode-theory",
+    "mtt"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "ee73f126-d9cb-4352-b0b6-0582d257a091"
+}

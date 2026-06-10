@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In the Voevodsky model of HoTT in simplicial sets, univalence corresponds to:",
+  "choices": [
+    "every simplicial set being Kan",
+    "the Kan fibration replacement being an equivalence on fibrant objects",
+    "the fact that the universe object Û is a Kan fibration over the universe U of types",
+    "the singular complex functor"
+  ],
+  "answer": 2,
+  "explanation": "In the Kan-Quillen model, the universe Û → U (classified maps) is a Kan fibration, and the universal property gives univalence. This was Voevodsky's key insight (2009).",
+  "tags": [
+    "HoTT",
+    "univalence",
+    "models"
+  ],
+  "difficulty": "advanced",
+  "question_id": "75b5adeb-89fe-49cb-84e1-c5d3040273fb"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "An active open problem in HoTT as of 2024 is:",
+  "choices": [
+    "whether ℕ has decidable equality",
+    "whether the suspension of the 2-sphere S³ is equivalent to ΩS⁴",
+    "a fully human-readable, computer-checkable proof of Brunerie's π₄(S³)=ℤ/2ℤ that is not just a normalisation proof",
+    "whether univalence is consistent with MLTT"
+  ],
+  "answer": 2,
+  "explanation": "While the Cubical Agda normalisation verified π₄(S³)=ℤ/2ℤ computationally, a conceptual, mathematically illuminating proof (as opposed to just machine normalisation) remains an open challenge.",
+  "tags": [
+    "research",
+    "open-problems",
+    "Brunerie"
+  ],
+  "difficulty": "advanced",
+  "question_id": "3df04795-0bcc-4c79-aa0f-c8ecf570ae4f"
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Prawitz's normalisation theorem for intuitionistic natural deduction says: every proof can be reduced to a proof with no:",
+  "choices": [
+    "hypotheses",
+    "atoms",
+    "detours (intro/elim redexes)",
+    "induction steps"
+  ],
+  "answer": 2,
+  "explanation": "A detour is an introduction immediately followed by the matching elimination. Normalisation removes all detours, producing an 'analytic' proof.",
+  "tags": [
+    "proof-theory"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "844e491c-c2cf-4f8d-ae9f-2416cadf1900"
+}

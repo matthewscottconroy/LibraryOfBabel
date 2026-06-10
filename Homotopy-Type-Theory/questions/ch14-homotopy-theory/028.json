@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Serre spectral sequence converges to:",
+  "choices": [
+    "The homology of the base space",
+    "The homology of the total space of a fibration",
+    "The homotopy groups of the fibre",
+    "The cohomology ring of the base"
+  ],
+  "answer": 1,
+  "explanation": "For a fibration F→E→B, the Serre SS has E² = H_*(B; H_*(F)) ⟹ H_*(E).",
+  "tags": [
+    "serre-spectral-sequence",
+    "fibration",
+    "homology"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "14e72d86-295a-4bbb-8f31-ba9356c653cb"
+}

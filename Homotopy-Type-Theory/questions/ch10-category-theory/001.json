@@ -1,0 +1,21 @@
+{
+  "question_id": "ea9fc7e7-fe7e-4df9-9f5e-281835c64d85",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Yoneda lemma: for F: C → Set and c ∈ C, Nat(Hom(c,−), F) ≅",
+  "choices": [
+    "Hom(c,c)",
+    "F(c)",
+    "C",
+    "Nat(F, Hom(c,−))"
+  ],
+  "answer": 1,
+  "explanation": "Yoneda: natural transformations Hom(c,−) ⇒ F correspond bijectively to elements of F(c).",
+  "tags": [
+    "category-theory",
+    "Yoneda"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

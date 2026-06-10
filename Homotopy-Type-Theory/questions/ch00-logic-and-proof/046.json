@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In sequent calculus LK, the cut rule is:",
+  "choices": [
+    "From Γ⊢Δ,A and A,Σ⊢Π infer Γ,Σ⊢Δ,Π",
+    "From Γ⊢Δ infer Γ,A⊢Δ",
+    "From Γ,A,A⊢Δ infer Γ,A⊢Δ",
+    "From Γ⊢Δ,A,A infer Γ⊢Δ,A"
+  ],
+  "answer": 0,
+  "explanation": "Cut: compose a proof of A with a proof using A to eliminate A from the derivation.",
+  "tags": [
+    "sequent-calculus",
+    "cut-rule"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "16de9da2-b7d2-4b59-a91c-490d8efafc2f"
+}

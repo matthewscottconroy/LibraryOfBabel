@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Flattening lemma for HITs states that the total space of a fibration over a HIT:",
+  "choices": [
+    "Is contractible",
+    "Can also be presented as a HIT with a specific structure",
+    "Is always a set",
+    "Equals the HIT itself"
+  ],
+  "answer": 1,
+  "explanation": "The flattening lemma describes the total space ΣP of a fibration over a HIT as another HIT.",
+  "tags": [
+    "flattening-lemma",
+    "hit"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "b8e470ec-12f5-4840-91a0-a8e00f3351da"
+}

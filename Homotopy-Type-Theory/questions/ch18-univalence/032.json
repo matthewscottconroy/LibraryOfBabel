@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The law of excluded middle (LEM) in HoTT:",
+  "choices": [
+    "Follows from univalence",
+    "Is inconsistent with univalence",
+    "Is independent of univalence",
+    "Is provable from HITs"
+  ],
+  "answer": 2,
+  "explanation": "LEM is independent of HoTT + UA: there are models that validate LEM and others that don't.",
+  "tags": [
+    "lem",
+    "univalence",
+    "independence"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "2e87438d-3913-4724-83b1-0d90c64d105a"
+}

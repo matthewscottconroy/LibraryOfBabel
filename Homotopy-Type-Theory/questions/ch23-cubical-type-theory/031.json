@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In the operational semantics of CTT, what is the key property of the normalisation algorithm?",
+  "choices": [
+    "It terminates but is not confluent",
+    "It is confluent and strongly normalising, yielding a decidable definitional equality",
+    "It is undecidable",
+    "It requires oracle calls"
+  ],
+  "answer": 1,
+  "explanation": "CTT has a decidable definitional equality via a normalisation procedure that is confluent.",
+  "tags": [
+    "cubical-type-theory",
+    "normalisation",
+    "decidability"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "f33d7a50-5c92-43ce-ba39-c2855aead57e"
+}

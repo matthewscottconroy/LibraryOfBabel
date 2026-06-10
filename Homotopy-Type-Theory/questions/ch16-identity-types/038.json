@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, the characterisation of identity types for Π-types states: (f=g) in Π(x:A).B ≃",
+  "choices": [
+    "Π(x:A). f(x)=g(x) (assuming funext)",
+    "A path in A→B",
+    "f and g have the same domain",
+    "f∘g is the identity"
+  ],
+  "answer": 0,
+  "explanation": "By funext: (f=g in ΠxB) ≃ Π(x:A). f(x)=g(x) (requires funext axiom or univalence).",
+  "tags": [
+    "function-extensionality",
+    "pi-type",
+    "identity-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3ce4b276-f155-4e7e-befd-2bd3a5a306af"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'whiskering' operation in a 2-category corresponds in Simplicial TT to:",
+  "choices": [
+    "Path composition",
+    "Post- or pre-composition of a natural transformation by a functor",
+    "Applying a modality",
+    "Taking a fibre"
+  ],
+  "answer": 1,
+  "explanation": "Whiskering: α: F⇒G whiskered by H gives H∘α: H∘F⇒H∘G (or α∘K: F∘K⇒G∘K).",
+  "tags": [
+    "simplicial-type-theory",
+    "whiskering",
+    "natural-transformation"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a0b0e411-f43a-4202-bcaa-a684bb3ebc32"
+}

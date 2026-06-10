@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The ∞-categorical analogue of a 'surjective on objects' functor is a functor that is ______ on objects.",
+  "choices": [
+    "essentially surjective",
+    "bijective",
+    "strictly surjective",
+    "full"
+  ],
+  "answer": "essentially surjective",
+  "explanation": "Essentially surjective: every b:B is equivalent to F(a) for some a:A.",
+  "tags": [
+    "infinity-category",
+    "essentially-surjective"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "da2e5c59-db50-4d2b-8a2e-d494e5bd4bad"
+}

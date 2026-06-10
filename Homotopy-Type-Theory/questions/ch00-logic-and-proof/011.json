@@ -1,0 +1,19 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In a proof by induction on ℕ, the inductive step proves:",
+  "choices": [
+    "P(0)",
+    "P(n) for all n",
+    "P(n) → P(n+1) for arbitrary n",
+    "P(n) for some specific n"
+  ],
+  "answer": 2,
+  "explanation": "The inductive step shows that if P holds for n (inductive hypothesis) then it holds for n+1.",
+  "tags": [
+    "induction"
+  ],
+  "difficulty": "beginner",
+  "question_id": "d01c55e9-a0d0-44a5-bd45-7dbf8b580dc5"
+}

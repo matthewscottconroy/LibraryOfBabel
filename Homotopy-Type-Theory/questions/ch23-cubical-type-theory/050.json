@@ -1,0 +1,22 @@
+{
+  "question_id": "3c75efc9-dc76-4a7a-a4d3-d503fe0ac460",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In CCHM cubical type theory, the interval I is equipped with:",
+  "choices": [
+    "only two points: 0 and 1",
+    "a De Morgan algebra structure: ∧, ∨, and complement ~",
+    "a group structure",
+    "a linear order"
+  ],
+  "answer": 1,
+  "explanation": "The CCHM interval has i0, i1, meet (∧), join (∨), and complement (~i). This De Morgan structure is what gives cubical paths their computational power.",
+  "tags": [
+    "interval",
+    "cchm",
+    "cubical-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

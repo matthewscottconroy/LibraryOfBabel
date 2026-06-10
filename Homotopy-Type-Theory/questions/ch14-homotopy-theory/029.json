@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A spectrum in stable homotopy theory is a sequence of spaces Eₙ with structure maps:",
+  "choices": [
+    "Eₙ → Eₙ₊₁",
+    "ΣEₙ → Eₙ₊₁",
+    "Eₙ × S¹ → Eₙ₊₁",
+    "ΩEₙ₊₁ ← Eₙ"
+  ],
+  "answer": 1,
+  "explanation": "A spectrum has structure maps ΣEₙ→Eₙ₊₁ (equivalently Eₙ→ΩEₙ₊₁ by adjunction).",
+  "tags": [
+    "spectrum",
+    "stable-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "d0f6a940-35b7-4fef-812f-a2099ad7a3c4"
+}

@@ -1,0 +1,17 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In classical propositional logic, P→Q is logically equivalent to ¬P∨Q.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Material conditional: P→Q ≡ ¬P∨Q. This equivalence underlies the clausal representation of implications in resolution and CNF conversion.",
+  "tags": [
+    "logic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "352a22c2-2fa0-435e-9fd9-455bf3760647"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, `Set` is replaced by `hSet` where `hSet` is:",
+  "choices": [
+    "A type with decidable equality",
+    "Σ(A:Type). isSet A",
+    "A built-in type",
+    "The set of all Agda types"
+  ],
+  "answer": 1,
+  "explanation": "hSet = Σ(A:Type). isSet A in the cubical library.",
+  "tags": [
+    "cubical-agda",
+    "hSet",
+    "h-level"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "b97c3f70-594e-4106-850f-b5d854d2454a"
+}

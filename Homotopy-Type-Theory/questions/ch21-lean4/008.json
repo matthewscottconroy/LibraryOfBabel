@@ -1,0 +1,20 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Which Lean 4 tactic is used to split a goal of the form 'A ↔ B' into two goals '⊢ A → B' and '⊢ B → A'?",
+  "choices": [
+    "split",
+    "constructor",
+    "intro",
+    "apply Iff.intro"
+  ],
+  "answer": 1,
+  "explanation": "'constructor' (or 'apply Iff.intro') splits A↔B into two subgoals. 'constructor' applies the first applicable constructor of the head type.",
+  "tags": [
+    "Lean4",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "question_id": "18c6235f-b53a-48b8-95f3-d182c4237f8c"
+}

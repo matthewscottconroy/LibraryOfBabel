@@ -1,0 +1,21 @@
+{
+  "question_id": "388241c3-ead0-4b1d-ba21-80f010c392bd",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "For dependent functions f, g: Π(x:A). B(x), a homotopy h: f ~ g is:",
+  "choices": [
+    "a path f = g in Π(x:A). B(x)",
+    "a term of type Π(x:A). f(x) = g(x)",
+    "an equivalence between the total spaces",
+    "a section of the fibration B → A"
+  ],
+  "answer": 1,
+  "explanation": "A homotopy between dependent functions is Π(x:A). f(x) = g(x). Function extensionality (funext) says this implies f = g (they are equal as functions).",
+  "tags": [
+    "homotopy",
+    "function-extensionality"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

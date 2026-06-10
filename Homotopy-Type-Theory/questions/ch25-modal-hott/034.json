@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In modal HoTT, a modality ◯ is called 'accessible' if it is a left Bousfield localisation. This means:",
+  "choices": [
+    "It is right adjoint to inclusion",
+    "It is a nullification at a generating set of types S: ◯A = L_S A",
+    "It only applies to propositions",
+    "It is idempotent on identity types"
+  ],
+  "answer": 1,
+  "explanation": "Accessible modalities are S-nullifications: modal types are those for which maps from S are constant.",
+  "tags": [
+    "modal-hott",
+    "accessible-modality",
+    "nullification"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "d62d8d3e-b352-4f57-80d8-6030237a032c"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'walking arrow' in Simplicial TT is the type:",
+  "choices": [
+    "S¹",
+    "Δ¹ (the directed interval 2={0,1} seen as a Segal type with one non-trivial morphism)",
+    "The unit type",
+    "A circle with one morphism"
+  ],
+  "answer": 1,
+  "explanation": "Δ¹ = 2 = {0→1}: the walking morphism, a Segal type with two objects and one non-trivial morphism.",
+  "tags": [
+    "simplicial-type-theory",
+    "walking-arrow",
+    "directed-interval"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "c9374607-5a46-4284-af53-14a07d2074ee"
+}

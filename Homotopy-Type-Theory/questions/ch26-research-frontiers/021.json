@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Condensed mathematics (Clausen-Scholze) uses ∞-categorical foundations. Its relationship to HoTT is that:",
+  "choices": [
+    "It is formalisable in HoTT directly",
+    "It uses condensed sets which are sheaves on profinite sets, requiring (∞,1)-topos methods",
+    "It replaces HoTT",
+    "It is a subfield of cubical TT"
+  ],
+  "answer": 1,
+  "explanation": "Condensed mathematics uses (∞,1)-topos methods; formalising it in univalent foundations is an active research programme.",
+  "tags": [
+    "condensed-mathematics",
+    "research",
+    "infinity-topos"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "da3c3038-a4dd-42a4-9892-e9690df93431"
+}

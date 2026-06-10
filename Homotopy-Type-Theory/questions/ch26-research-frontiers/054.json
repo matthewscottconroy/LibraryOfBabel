@@ -1,0 +1,22 @@
+{
+  "question_id": "77c73926-4f8e-46b0-af74-be97f95051a0",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The agda/cubical library is:",
+  "choices": [
+    "a library for classical mathematics in Agda",
+    "the main library for Cubical Agda, containing formalized HoTT results",
+    "a library of simplicial set algorithms",
+    "a Lean 4 package for homotopy theory"
+  ],
+  "answer": 1,
+  "explanation": "The agda/cubical library (github.com/agda/cubical) formalizes: the circle and π₁(S¹)=ℤ, set quotients, Eilenberg-MacLane spaces, and much more, all in Cubical Agda.",
+  "tags": [
+    "cubical-agda",
+    "formalization",
+    "research-frontiers"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

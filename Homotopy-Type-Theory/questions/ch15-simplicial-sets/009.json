@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The horn Λⁿₖ is the simplicial subset of Δ[n] obtained by removing:",
+  "choices": [
+    "all degenerate simplices",
+    "the interior and the k-th face",
+    "all faces",
+    "only the k-th vertex"
+  ],
+  "answer": 1,
+  "explanation": "Λⁿₖ = Δ[n] minus its interior and its k-th face. Kan complexes fill ALL horns; quasi-categories fill inner horns (0<k<n).",
+  "tags": [
+    "simplicial-sets",
+    "Kan",
+    "horns"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "3be43716-3528-407d-a26a-4554cd8ea219"
+}

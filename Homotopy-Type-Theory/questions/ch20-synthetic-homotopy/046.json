@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, 'cohomology with coefficients in G' for a type A is defined as:",
+  "choices": [
+    "Hⁿ(A;G) = πₙ(Aᴳ)",
+    "Hⁿ(A;G) = ‖A→K(G,n)‖₀ = π₀(A→K(G,n))",
+    "Hⁿ(A;G) = πₙ(A)⊗G",
+    "Hⁿ(A;G) = [A,K(G,n)]"
+  ],
+  "answer": 1,
+  "explanation": "Cohomology: Hⁿ(A;G) = π₀(A→K(G,n)) = ‖A→K(G,n)‖₀.",
+  "tags": [
+    "cohomology",
+    "eilenberg-maclane",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "84dafdf5-aa2b-4fa2-bdfc-defc49ca0f80"
+}

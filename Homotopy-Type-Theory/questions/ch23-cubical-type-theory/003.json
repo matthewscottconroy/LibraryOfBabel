@@ -1,0 +1,20 @@
+{
+  "question_id": "4f473504-6847-4032-ae4f-9e3d90e05307",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The De Morgan algebra structure on the interval I (with ~, ∧, ∨) provides:",
+  "choices": [
+    "universe levels",
+    "definitional path reversal via ~",
+    "the Glue type",
+    "the hcomp composition operation"
+  ],
+  "answer": 1,
+  "explanation": "~ i gives path reversal definitionally: sym p = λ i → p(~ i). Cartesian cubical TT lacks ~ and so lacks definitional reversal.",
+  "tags": [
+    "cubical-TT"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

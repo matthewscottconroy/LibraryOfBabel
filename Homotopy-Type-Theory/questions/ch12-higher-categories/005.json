@@ -1,0 +1,21 @@
+{
+  "question_id": "67ec67a6-40d7-4ac4-a38e-b9897d66fab9",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Grothendieck's Homotopy Hypothesis states that:",
+  "choices": [
+    "every ∞-groupoid is a Kan complex",
+    "weak ∞-groupoids are equivalent to homotopy types (topological spaces up to weak homotopy equivalence)",
+    "the fundamental group classifies covering spaces",
+    "every Kan fibration is a homotopy equivalence"
+  ],
+  "answer": 1,
+  "explanation": "The Homotopy Hypothesis: the ∞-category of weak ∞-groupoids is equivalent to the ∞-category of topological spaces (up to weak homotopy equivalence). HoTT realises this: types are ∞-groupoids.",
+  "tags": [
+    "higher-categories",
+    "HoTT"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

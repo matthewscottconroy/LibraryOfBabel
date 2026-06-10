@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The type of all n-truncated types at universe U is:",
+  "choices": [
+    "the whole universe U",
+    "the sub-universe n-Type consisting of n-truncated types",
+    "the empty type for n ≥ 0",
+    "the type of propositions only"
+  ],
+  "answer": 1,
+  "explanation": "n-Type ⊆ U is the subuniverse of n-types (h-level n+2). It is itself a type in U (a higher universe). Prop = (-1)-Type, Set = 0-Type, 1-Groupoid = 1-Type, etc.",
+  "tags": [
+    "HoTT",
+    "h-levels",
+    "universes"
+  ],
+  "difficulty": "advanced",
+  "question_id": "b1d99f52-ec62-465a-bf10-fff37d2024b3"
+}

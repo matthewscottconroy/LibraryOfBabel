@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The group ring k[G] of a finite group G over a field k decomposes (when char(k)∤|G|) as:",
+  "choices": [
+    "k^|G| (direct product of |G| copies of k)",
+    "a product of matrix algebras Mₙᵢ(k) by Maschke + Artin-Wedderburn",
+    "k[G/Z(G)]",
+    "a polynomial ring"
+  ],
+  "answer": 1,
+  "explanation": "Maschke+Artin-Wedderburn: k[G] ≅ ⊕Mₙᵢ(Dᵢ) where Dᵢ are division algebras over k. Over ℂ this is ⊕Mₙᵢ(ℂ); the nᵢ are the dimensions of irreducible representations.",
+  "tags": [
+    "algebra",
+    "representation-theory"
+  ],
+  "difficulty": "advanced",
+  "question_id": "0ffec83e-8cda-4e3e-b050-11d7844632e4"
+}

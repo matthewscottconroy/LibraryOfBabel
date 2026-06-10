@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Freudenthal suspension theorem in HoTT implies: for n-connected A,",
+  "choices": [
+    "ΩΣA ≃ A",
+    "the map A → ΩΣA is 2n-connected",
+    "πₙ(ΣA) = πₙ(A)",
+    "ΣA is contractible"
+  ],
+  "answer": 1,
+  "explanation": "Freudenthal: the unit A→ΩΣA is (2n)-connected when A is n-connected. This means πₖ(A)≅πₖ₊₁(ΣA) for k<2n (stable range). It is a key theorem for computing homotopy groups of spheres.",
+  "tags": [
+    "HoTT",
+    "Freudenthal",
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "34e32b50-ae86-45ba-b55f-6acb72272702"
+}

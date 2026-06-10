@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Freudenthal suspension theorem in HoTT states (for n-connected A):",
+  "choices": [
+    "Σ: πₙ(A) → πₙ₊₁(ΣA) is always an isomorphism",
+    "The suspension map is an equivalence below the stable range",
+    "A is contractible after n suspensions",
+    "ΣA is always n+1-connected and the suspension map is iso for k ≤ 2n"
+  ],
+  "answer": 3,
+  "explanation": "Freudenthal (HoTT): if A is n-connected, ΣA is (n+1)-connected and the suspension Ωₙ A→Ωₙ₊₁(ΣA) is an equivalence for k ≤ 2n.",
+  "tags": [
+    "freudenthal",
+    "suspension",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "66090be1-8c5d-42b1-865e-7096b0269b08"
+}

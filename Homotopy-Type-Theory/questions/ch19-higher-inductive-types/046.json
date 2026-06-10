@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The smash product A∧B of two pointed types is:",
+  "choices": [
+    "A×B",
+    "A∨B",
+    "(A×B)/(A∨B) (the pushout collapsing A∨B in A×B)",
+    "A+B"
+  ],
+  "answer": 2,
+  "explanation": "A∧B = (A×B)/(A∨B): quotient of the product by the wedge sum (collapsing the axes).",
+  "tags": [
+    "smash-product",
+    "pointed-type",
+    "hit"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e864e438-e050-48b6-8f74-fee79e588c4d"
+}

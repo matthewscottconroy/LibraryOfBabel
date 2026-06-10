@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "If f: A→B is an equivalence and A is a set, then B is:",
+  "choices": [
+    "Contractible",
+    "A proposition",
+    "A set",
+    "A 1-type"
+  ],
+  "answer": 2,
+  "explanation": "Equivalences preserve h-level: if A is a set (h-level 0) and A≃B then B is a set.",
+  "tags": [
+    "h-set",
+    "equivalence",
+    "h-level"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "229404db-7654-4139-a8cd-7c37b64b4e2e"
+}

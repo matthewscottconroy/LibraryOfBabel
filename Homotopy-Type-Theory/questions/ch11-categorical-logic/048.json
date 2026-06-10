@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A geometric formula in categorical logic is built from:",
+  "choices": [
+    "All connectives",
+    "∃, ∧, ⊤, and possibly ⊥ and finite ∨ (no ∀ or →)",
+    "∀ and →",
+    "Only atomic predicates"
+  ],
+  "answer": 1,
+  "explanation": "Geometric fragment: ∃, finite ∧, ⊤, possibly ∨, ⊥ — preserved by geometric morphisms.",
+  "tags": [
+    "geometric-logic",
+    "categorical-logic"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "b22f23e6-34aa-4e2e-a312-fb895dc45469"
+}

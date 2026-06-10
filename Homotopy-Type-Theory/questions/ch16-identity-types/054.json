@@ -1,0 +1,22 @@
+{
+  "question_id": "ff626612-824a-49a5-a7d1-e8f47accef71",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Whiskering a 2-path α: p=q (where p,q: a=b) on the right by r: b=c gives:",
+  "choices": [
+    "a 2-path α ▷ r : (p ∙ r) = (q ∙ r)",
+    "a path in A",
+    "a 2-path r ▷ α : (r ∙ p) = (r ∙ q)",
+    "the horizontal composite α ∙ₕ refl_r"
+  ],
+  "answer": 0,
+  "explanation": "Right whiskering: α ▷ r : p ∙ r = q ∙ r. Left whiskering: l ▷ α : l ∙ p = l ∙ q. These are used to define horizontal composition of 2-paths.",
+  "tags": [
+    "higher-paths",
+    "whiskering",
+    "identity-types"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

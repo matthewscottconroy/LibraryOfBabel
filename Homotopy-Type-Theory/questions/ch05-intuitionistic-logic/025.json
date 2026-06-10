@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Linear logic (Girard 1987) refines intuitionistic logic by treating resources as:",
+  "choices": [
+    "infinite",
+    "that can only be used exactly once (unless explicitly promoted with !)",
+    "always propositional",
+    "unordered"
+  ],
+  "answer": 1,
+  "explanation": "Linear logic tracks resource usage: A⊗B uses both A and B; A⊕B uses exactly one; !A allows unlimited copies. It captures substructural reasoning (no weakening/contraction by default).",
+  "tags": [
+    "intuitionistic",
+    "linear-logic"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "b4758959-a451-41ef-a041-d3914b27ec20"
+}

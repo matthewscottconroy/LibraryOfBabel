@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The proof term for modus ponens (from f:A→B and a:A derive B) is:",
+  "choices": [
+    "λ(f,a).a",
+    "f a (function application)",
+    "λa.f",
+    "(a,f)"
+  ],
+  "answer": 1,
+  "explanation": "Modus ponens corresponds to function application: f a : B.",
+  "tags": [
+    "curry-howard",
+    "modus-ponens",
+    "application"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "cd83d48a-d79e-46ef-81d1-2125f9d62bca"
+}

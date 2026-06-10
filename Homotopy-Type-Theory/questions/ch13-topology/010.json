@@ -1,0 +1,17 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Two topological spaces are ___ homeomorphic if there is a continuous bijection with a continuous inverse between them.",
+  "choices": [
+    "homeomorphic",
+    "topologically equivalent"
+  ],
+  "answer": "homeomorphic",
+  "explanation": "A homeomorphism is a bicontinuous bijection. Homeomorphic spaces are 'the same' topologically — they have identical topological properties.",
+  "tags": [
+    "topology"
+  ],
+  "difficulty": "beginner",
+  "question_id": "35c9aaf1-09c1-48cb-bf13-f1723a14fd2d"
+}

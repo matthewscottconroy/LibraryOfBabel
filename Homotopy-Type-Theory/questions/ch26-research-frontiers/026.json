@@ -1,0 +1,23 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The Agda library 'cubical' (1Lab) is notable for formalising:",
+  "choices": [
+    "Only arithmetic",
+    "A large body of HoTT and cubical mathematics, including sheaf models and synthetic algebraic geometry",
+    "Category theory without HoTT",
+    "The Lean 4 tactic system"
+  ],
+  "answer": 1,
+  "explanation": "The 1Lab Cubical Agda library formalises univalent foundations, including advanced topics in algebra, topology, and category theory.",
+  "tags": [
+    "1lab",
+    "cubical-agda",
+    "formalisation",
+    "research"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "cca98d67-0ab2-4a2e-b8ed-812fd9ad128a"
+}

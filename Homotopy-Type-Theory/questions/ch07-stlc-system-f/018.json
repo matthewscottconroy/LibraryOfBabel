@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the simply typed lambda calculus, what property ensures that every well-typed term has a normal form?",
+  "choices": [
+    "Subject reduction",
+    "Strong normalisation",
+    "Confluence",
+    "Uniqueness of types"
+  ],
+  "answer": 1,
+  "explanation": "STLC is strongly normalising: every reduction sequence terminates.",
+  "tags": [
+    "stlc",
+    "normalisation"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "8a740742-0bb5-4a68-a2d3-2b30571a979c"
+}

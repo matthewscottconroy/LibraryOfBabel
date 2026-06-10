@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the internal logic of a topos, the formula ∀x:A. φ(x) is interpreted as:",
+  "choices": [
+    "The set of all x:A satisfying φ",
+    "The intersection of all subobjects φ(a) for a:A",
+    "The image of the generic predicate",
+    "The universal quantification morphism (right adjoint to pullback along A→1)"
+  ],
+  "answer": 3,
+  "explanation": "∀ is right adjoint to pullback: ∀_{A→1}: Sub(A) → Sub(1).",
+  "tags": [
+    "topos",
+    "universal-quantification",
+    "internal-logic"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "94586a93-42eb-4144-adc9-7a0cd21a192d"
+}

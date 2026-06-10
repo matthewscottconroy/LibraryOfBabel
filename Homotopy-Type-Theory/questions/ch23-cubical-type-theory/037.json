@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In CTT, the 'contractibility of singletons' is proved by:",
+  "choices": [
+    "J eliminator",
+    "Constructing a path between any element of (Σy.a≡y) and (a,refl) using hcomp",
+    "Univalence",
+    "Axiom K"
+  ],
+  "answer": 1,
+  "explanation": "Singletons are contractible: for (b,p):(Σy.a≡y), the path to (a,refl) is constructed via hcomp.",
+  "tags": [
+    "cubical-type-theory",
+    "contractible",
+    "singletons"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "43997c7a-938d-4375-9c70-c3aec3df466c"
+}

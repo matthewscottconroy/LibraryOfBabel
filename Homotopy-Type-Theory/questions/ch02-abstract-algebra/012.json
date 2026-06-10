@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "An ideal I of a commutative ring R such that R/I is a field is called:",
+  "choices": [
+    "a prime ideal",
+    "a maximal ideal",
+    "a principal ideal",
+    "a radical ideal"
+  ],
+  "answer": 1,
+  "explanation": "I is maximal iff R/I is a field. I is prime iff R/I is an integral domain. Every maximal ideal is prime (in commutative rings).",
+  "tags": [
+    "algebra",
+    "rings"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "0edbe03c-16f0-432a-bdd6-10d5dd365f6c"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "An irreducible polynomial over a field F is one that:",
+  "choices": [
+    "has no roots in F",
+    "cannot be written as a product of two lower-degree polynomials in F[x]",
+    "has degree ≥ 3",
+    "has coefficients in ℤ"
+  ],
+  "answer": 1,
+  "explanation": "Irreducible: p(x) ∈ F[x] has degree ≥ 1 and is not a product of two polynomials of smaller positive degree. Over algebraically closed fields, only linear polynomials are irreducible.",
+  "tags": [
+    "algebra",
+    "fields",
+    "polynomials"
+  ],
+  "difficulty": "beginner",
+  "question_id": "90f927fe-90f8-43cf-b714-5237fdd0bde6"
+}

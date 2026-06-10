@@ -1,0 +1,20 @@
+{
+  "question_id": "2a64dca2-837c-480c-a0bf-7965ba8e910c",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "tf",
+  "text": "The propositional truncation ∥A∥ can be defined as a higher inductive type.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "∥A∥ as HIT: |·| : A → ∥A∥ (constructor) and squash : Π(x y:∥A∥). x=y (path constructor forcing it to be a prop).",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "truncation"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

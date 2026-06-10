@@ -1,0 +1,21 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, the #check command is used to:",
+  "choices": [
+    "Run a tactic proof",
+    "Print the type of an expression",
+    "Import a module",
+    "Define a new inductive type"
+  ],
+  "answer": 1,
+  "explanation": "#check e displays the type of expression e.",
+  "tags": [
+    "lean4",
+    "basics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "4f736623-6f5b-4476-bcdd-3650fb9ca9cb"
+}

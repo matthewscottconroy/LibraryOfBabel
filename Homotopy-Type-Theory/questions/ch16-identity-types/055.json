@@ -1,0 +1,22 @@
+{
+  "question_id": "a798429b-1840-4d8e-998b-9eb4b97ec383",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Eckmann-Hilton argument shows that for 2-loops α, β: refl = refl in ΩΩA:",
+  "choices": [
+    "α ∙ β = β ∙ α  (π₂(A) is abelian)",
+    "α = β  (all 2-loops are equal)",
+    "α ∙ β = refl  (all 2-loops are trivial)",
+    "α and β cannot be composed"
+  ],
+  "answer": 0,
+  "explanation": "Eckmann-Hilton: the two compositions (vertical and horizontal) on ΩΩA agree and are both commutative. This proves π₂(A) is abelian — the first instance of commutativity from higher structure.",
+  "tags": [
+    "eckmann-hilton",
+    "higher-paths",
+    "homotopy-groups"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

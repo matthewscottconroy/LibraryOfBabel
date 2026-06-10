@@ -1,0 +1,19 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In System F, type inference is undecidable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Wells (1994) proved that type inference for System F (rank-2 and above) is undecidable.",
+  "tags": [
+    "system-f",
+    "type-inference"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "ccb386f8-2599-40b8-a4fa-650fd0b594da"
+}

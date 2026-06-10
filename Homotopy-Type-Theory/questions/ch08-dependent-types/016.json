@@ -1,0 +1,18 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In dependent type theory, propositions and types are distinct syntactic categories.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "In the propositions-as-types view (Martin-Löf, HoTT), propositions ARE types. There is no separate category — a proposition P is the type of its proofs.",
+  "tags": [
+    "dependent-types",
+    "curry-howard"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "c92f4bc9-f539-46b5-ba57-c204b0735d8a"
+}

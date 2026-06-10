@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The conjunctive normal form (CNF) of a formula is a conjunction of ______.",
+  "choices": [
+    "clauses (disjunctions of literals)",
+    "implications",
+    "atomic formulas",
+    "biconditionals"
+  ],
+  "answer": "clauses (disjunctions of literals)",
+  "explanation": "CNF: every formula is written as ∧ᵢ(∨ⱼ lᵢⱼ) where each lᵢⱼ is a literal.",
+  "tags": [
+    "cnf",
+    "normal-form"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "9f8463ea-1e5e-4d0c-8be7-9749071e5793"
+}

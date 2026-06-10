@@ -1,0 +1,22 @@
+{
+  "question_id": "09919bd0-d5b6-4800-9cc7-3002558cc798",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `apply?` tactic in Lean 4 / Mathlib:",
+  "choices": [
+    "applies all applicable lemmas and closes the goal automatically",
+    "searches the library for lemmas whose conclusion unifies with the current goal",
+    "rewrites the goal using all available simp lemmas",
+    "converts the goal to its normal form"
+  ],
+  "answer": 1,
+  "explanation": "apply? (like exact?) is a 'search tactic' that suggests library lemmas. apply? finds f such that applying f transforms the goal; exact? finds a term that closes it.",
+  "tags": [
+    "Lean4",
+    "tactics",
+    "Mathlib"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

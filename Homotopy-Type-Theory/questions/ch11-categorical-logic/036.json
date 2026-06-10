@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In topos theory, the Lawvere-Tierney topology j: Ω→Ω must satisfy:",
+  "choices": [
+    "j(⊤)=⊤, j∘j=j, j(a∧b)=j(a)∧j(b)",
+    "j(⊥)=⊥ only",
+    "j is the identity",
+    "j(a∨b)=j(a)∨j(b)"
+  ],
+  "answer": 0,
+  "explanation": "LT topology: j(⊤)=⊤, idempotent j²=j, preserves ∧.",
+  "tags": [
+    "lawvere-tierney",
+    "topos"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "e2da835c-fae0-4e16-bccc-bb2f3f486b05"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "5fd3c2c3-d80a-4e67-8666-0f06b559f9da",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4 metaprogramming, a `macro` rule differs from a `syntax` + `elab` pair primarily because:",
+  "choices": [
+    "macros operate in the kernel while elaborators run in the type checker",
+    "macros perform syntactic rewriting before elaboration, while elaborators have access to the full elaboration monad and unification",
+    "macros cannot produce tactics but elaborators can",
+    "macros run at runtime while elaborators run at compile time"
+  ],
+  "answer": 1,
+  "explanation": "Macros are pure syntax transformers (Syntax → MacroM Syntax). Elaborators have access to the full MetaM/ElabM monad — unification, type inference, tactic proof states.",
+  "tags": [
+    "Lean4",
+    "metaprogramming"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

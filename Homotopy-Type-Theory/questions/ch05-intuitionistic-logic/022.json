@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The existence property of intuitionistic first-order logic says: if IFO ⊢ ∃x.φ(x) then:",
+  "choices": [
+    "FOL also proves ∃x.φ(x)",
+    "there is a closed term t such that IFO ⊢ φ(t)",
+    "x must be a natural number",
+    "the proof requires LEM"
+  ],
+  "answer": 1,
+  "explanation": "Existence property: a proof of ∃x.φ(x) in IFO yields an actual witness t with ⊢φ(t). This is the constructive property of existentials — witnesses are explicit.",
+  "tags": [
+    "intuitionistic",
+    "FOL"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "b040f4b0-123a-4ad8-8a7f-dcbfcb75ef35"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, what is the purpose of the 'have h : T := ...' tactic?",
+  "choices": [
+    "it closes the goal",
+    "it introduces a local lemma h of type T",
+    "it applies h to the goal",
+    "it rewrites using h"
+  ],
+  "answer": 1,
+  "explanation": "'have h : T := proof' introduces h:T as a new local hypothesis. Useful for naming intermediate steps.",
+  "tags": [
+    "Lean4",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "question_id": "63b55367-7717-4bb9-863f-733920fb6d12"
+}

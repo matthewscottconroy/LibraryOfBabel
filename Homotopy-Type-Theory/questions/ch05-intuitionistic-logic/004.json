@@ -1,0 +1,21 @@
+{
+  "question_id": "938238a3-7ec8-47f3-b5f2-30fff319d734",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In a Kripke model for IPC, the forcing relation w ⊩ P → Q means:",
+  "choices": [
+    "P is false at w or Q is true at w",
+    "for all w' ≥ w, if w' ⊩ P then w' ⊩ Q",
+    "P and Q have the same truth value at w",
+    "Q is provable from P"
+  ],
+  "answer": 1,
+  "explanation": "Kripke: → is forced at w iff preserved at all future worlds — capturing the constructive content.",
+  "tags": [
+    "intuitionistic",
+    "Kripke"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

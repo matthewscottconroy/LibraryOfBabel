@@ -1,0 +1,21 @@
+{
+  "question_id": "525647d0-a36e-45a2-8504-7ca4bc4bdc79",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which of these does NOT follow from univalence?",
+  "choices": [
+    "Function extensionality",
+    "Propositional extensionality",
+    "Uniqueness of Identity Proofs (UIP)",
+    "Structure invariance"
+  ],
+  "answer": 2,
+  "explanation": "UIP is inconsistent with univalence (Bool=Bool has a non-trivial path). Funext, propext, and structure invariance all follow.",
+  "tags": [
+    "HoTT",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

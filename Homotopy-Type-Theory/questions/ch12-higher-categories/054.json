@@ -1,0 +1,21 @@
+{
+  "question_id": "0e08d35d-6ff5-4760-ae94-32922fed05f6",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In a bicategory (weak 2-category), the associativity and unit laws for composition hold:",
+  "choices": [
+    "strictly (as equalities)",
+    "up to coherent isomorphisms (2-morphisms)",
+    "only when the objects form a set",
+    "not at all — they are replaced by axioms"
+  ],
+  "answer": 1,
+  "explanation": "Bicategories weaken strict 2-categories: associativity (a∘b)∘c ≅ a∘(b∘c) and units id∘a ≅ a ≅ a∘id hold up to coherent invertible 2-morphisms.",
+  "tags": [
+    "bicategory",
+    "higher-categories"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

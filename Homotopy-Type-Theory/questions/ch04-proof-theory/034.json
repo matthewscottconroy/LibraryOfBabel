@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the context of proof complexity, Frege systems are proof systems based on:",
+  "choices": [
+    "resolution",
+    "propositional axiom schemas with modus ponens",
+    "tableaux",
+    "deep inference"
+  ],
+  "answer": 1,
+  "explanation": "Frege (Hilbert-style) systems: finite set of axiom schemas + modus ponens. Extended Frege adds substitution. Polynomial simulation between Frege variants; separation from Resolution is open.",
+  "tags": [
+    "proof-theory",
+    "proof-complexity"
+  ],
+  "difficulty": "advanced",
+  "question_id": "1dae6a63-b519-4a9c-bf36-4d623cff463a"
+}

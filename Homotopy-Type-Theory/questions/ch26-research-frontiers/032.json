@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Which of the following is an active area of research connecting HoTT to physical theories?",
+  "choices": [
+    "Quantum logic via linear HoTT / LHoTT (Schreiber)",
+    "Newtonian mechanics via classical HoTT",
+    "Special relativity via simplicial TT",
+    "Thermodynamics via modal HoTT"
+  ],
+  "answer": 0,
+  "explanation": "Linear HoTT (Schreiber) is proposed as a foundation for quantum gauge field theory, incorporating linear types and cohesion.",
+  "tags": [
+    "linear-hott",
+    "quantum",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "782ce4af-0ed4-42eb-b3ae-197aa75696d4"
+}

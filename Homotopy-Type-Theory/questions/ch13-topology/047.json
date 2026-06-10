@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Alexander duality theorem relates the homology of a subset K ⊂ Sⁿ and its complement:",
+  "choices": [
+    "H̃k(K) ≅ H̃_{n-k-1}(Sⁿ∖K)",
+    "Hk(K) ≅ Hk(Sⁿ∖K)",
+    "Hk(K) ≅ H^k(K)",
+    "πk(K) ≅ πk(Sⁿ∖K)"
+  ],
+  "answer": 0,
+  "explanation": "Alexander duality: H̃k(K) ≅ H̃_{n-k-1}(Sⁿ\\ K) (reduced homology vs. complement).",
+  "tags": [
+    "alexander-duality",
+    "algebraic-topology"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "71142b05-80bd-4e52-8fdf-d8cec7433ed7"
+}

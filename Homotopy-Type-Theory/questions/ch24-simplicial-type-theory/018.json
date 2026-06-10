@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Simplicial type theory (Riehl-Shulman) is designed to work with:",
+  "choices": [
+    "Simplicial sets as the basic type theory",
+    "Types fibred over a directed interval, for the internal language of (∞,1)-categories",
+    "A simplicial presentation of HoTT",
+    "Proof assistants based on Agda"
+  ],
+  "answer": 1,
+  "explanation": "Simplicial TT provides an internal language for (∞,1)-categories, with a directed interval 2.",
+  "tags": [
+    "simplicial-type-theory",
+    "infinity-categories"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e1efc4b5-1b31-42b0-85ca-bd0e91fffe2b"
+}

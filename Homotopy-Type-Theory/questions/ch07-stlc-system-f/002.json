@@ -1,0 +1,20 @@
+{
+  "question_id": "edfeacad-e482-4672-ba97-ae458c7f17a6",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In System F, the polymorphic identity has type:",
+  "choices": [
+    "∀α. α → α",
+    "∀α. ∀β. α → β",
+    "∀α. α",
+    "∀α. α → α → α"
+  ],
+  "answer": 0,
+  "explanation": "Λα. λx:α. x : ∀α. α → α. It is the unique closed term of this type (parametricity).",
+  "tags": [
+    "System-F"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

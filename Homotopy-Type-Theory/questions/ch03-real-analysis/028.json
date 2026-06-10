@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Cauchy-Schwarz inequality for functions in L²([a,b]) states:",
+  "choices": [
+    "|∫fg| ≤ ∫|fg|",
+    "|∫fg| ≤ (∫f²)^{1/2}(∫g²)^{1/2}",
+    "∫f² ≤ ∫g² whenever f≤g",
+    "∫|f+g| ≤ ∫|f| + ∫|g|"
+  ],
+  "answer": 1,
+  "explanation": "Cauchy-Schwarz in L²: |⟨f,g⟩| ≤ ‖f‖₂‖g‖₂, i.e., |∫fg| ≤ (∫f²)^{1/2}(∫g²)^{1/2}. The last option is the triangle inequality (Minkowski).",
+  "tags": [
+    "analysis",
+    "functional-analysis"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "6f02600c-80e1-4e92-9f2f-9da04edc8ae8"
+}

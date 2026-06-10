@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `calc` blocks are used for:",
+  "choices": [
+    "Recursive computation",
+    "Equational or relational reasoning by transitivity (chained rewrites)",
+    "Declaring new tactics",
+    "Defining corecursive functions"
+  ],
+  "answer": 1,
+  "explanation": "`calc` enables step-by-step equational chains: a = b := ... _ = c := ...",
+  "tags": [
+    "lean4",
+    "calc",
+    "equational-reasoning"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f86a2b8f-14ca-4afc-beb6-a2b49d0443d8"
+}

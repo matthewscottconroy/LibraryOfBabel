@@ -1,0 +1,22 @@
+{
+  "question_id": "baae1d0c-e219-4f94-b3c0-c8ee45071123",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "XTT (Extended Cubical Type Theory) differs from standard cubical TT by:",
+  "choices": [
+    "adding classical logic",
+    "removing univalence",
+    "adding a strict (definitionally proof-irrelevant) equality type alongside the path type",
+    "using a non-computational interval"
+  ],
+  "answer": 2,
+  "explanation": "XTT (Sterling-Angiuli-Gratzer) adds a 'boundary separator' / strict equality. This gives definitional proof irrelevance for the strict equality, useful for practical formalization.",
+  "tags": [
+    "xtt",
+    "cubical-type-theory",
+    "research-frontiers"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

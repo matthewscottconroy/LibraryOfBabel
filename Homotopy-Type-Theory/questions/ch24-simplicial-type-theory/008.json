@@ -1,0 +1,20 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In simplicial type theory, the type hom_A(a, b) for a Segal type A represents:",
+  "choices": [
+    "the path type a=b",
+    "the type of morphisms from a to b",
+    "the product A×A",
+    "the loop space of A"
+  ],
+  "answer": 1,
+  "explanation": "hom_A(a,b) = (2 → A)[0↦a, 1↦b] (maps from the directed interval into A with endpoints a and b). It is the type of 'directed edges' or morphisms.",
+  "tags": [
+    "simplicial-TT",
+    "Segal"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "83908c8e-6f7c-4151-a058-30402a0678d5"
+}

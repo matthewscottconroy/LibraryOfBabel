@@ -1,0 +1,22 @@
+{
+  "question_id": "0555b9ff-b856-4d05-aa88-8f20bbeba6ed",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The code family for the π₁(S¹)=ℤ proof uses univalence to define:",
+  "choices": [
+    "the loop in S¹",
+    "code : S¹ → Type with code(base)=ℤ and the path over loop given by ua(succ)",
+    "the decode function ℤ → (base=base)",
+    "the propositional truncation of ℤ"
+  ],
+  "answer": 1,
+  "explanation": "code(loop) = ua(succ) : ℤ=ℤ. Transporting along loop increments by 1. Without univalence this family cannot be defined.",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "pi1-circle"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

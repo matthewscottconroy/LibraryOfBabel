@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The suspension SX of a topological space X is defined as:",
+  "choices": [
+    "X × [0,1]",
+    "X × [0,1] with X×{0} collapsed to a point and X×{1} collapsed to another point",
+    "The cone on X",
+    "The loop space of X"
+  ],
+  "answer": 1,
+  "explanation": "Suspension: SX = X×I / (X×{0}~N, X×{1}~S) — unreduced suspension with two cone points.",
+  "tags": [
+    "suspension",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "65f5fd50-50a7-4104-b8a6-e69d450d58b4"
+}

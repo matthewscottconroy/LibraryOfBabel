@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Curry-Howard correspondence for the sequent calculus LJ maps cut to:",
+  "choices": [
+    "beta reduction",
+    "let-binding/substitution (cut = explicit substitution)",
+    "lambda abstraction",
+    "the identity combinator"
+  ],
+  "answer": 1,
+  "explanation": "Cut in LJ ↔ let x=t in u (explicit substitution / sequencing). Cut elimination ↔ β-reduction. This is the sequent calculus side of Curry-Howard.",
+  "tags": [
+    "proof-theory",
+    "curry-howard"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "95741d42-b3d8-47f9-8be5-68ba0d141f13"
+}

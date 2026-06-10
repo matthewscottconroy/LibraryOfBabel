@@ -1,0 +1,18 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Every Heyting algebra is a distributive lattice.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Heyting algebras are distributive lattices with a relative pseudocomplement (→). The lattice operations ∧,∨ in a Heyting algebra satisfy a∧(b∨c)=(a∧b)∨(a∧c).",
+  "tags": [
+    "intuitionistic",
+    "Heyting"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "9edbea56-70e1-49a6-a6ee-b13adef7adc5"
+}

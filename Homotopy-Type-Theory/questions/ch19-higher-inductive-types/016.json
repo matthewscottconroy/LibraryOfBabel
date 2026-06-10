@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which of these is a key technical challenge in the metatheory of HITs?",
+  "choices": [
+    "HITs cannot express colimits",
+    "The general theory of HITs requires a coherent elimination rule for higher constructors (2-paths, etc.), which is not fully settled in the literature",
+    "HITs are inconsistent with univalence",
+    "HITs can only define 1-truncated types"
+  ],
+  "answer": 1,
+  "explanation": "The elimination rules for HITs with higher constructors (2-cells and above) require coherence conditions. The general theory (Lumsdaine-Shulman, etc.) is an active research area.",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "metatheory"
+  ],
+  "difficulty": "advanced",
+  "question_id": "475ed84a-fd8d-4fc0-99f0-9d9b0a05e9e3"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'internal ∞-topos theory' programme (Lurie-style) aims to develop ∞-topos theory:",
+  "choices": [
+    "In classical set theory",
+    "Within an ambient ∞-topos or type theory, avoiding external set-theoretic foundations",
+    "Using only 1-categorical methods",
+    "In Coq"
+  ],
+  "answer": 1,
+  "explanation": "Internal ∞-topos theory: develop the theory of ∞-toposes within a suitable ambient ∞-topos or type theory.",
+  "tags": [
+    "infinity-topos",
+    "internal",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "08ffb91f-2b5d-42a3-b448-2b443f5def9b"
+}

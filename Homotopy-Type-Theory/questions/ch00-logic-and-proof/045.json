@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The compactness theorem for first-order logic states:",
+  "choices": [
+    "Every finite set of sentences has a model",
+    "A set of sentences has a model iff every finite subset has a model",
+    "Every consistent theory is complete",
+    "Every satisfiable formula is a tautology"
+  ],
+  "answer": 1,
+  "explanation": "Compactness: Σ satisfiable iff every finite Σ₀⊆Σ is satisfiable.",
+  "tags": [
+    "compactness",
+    "first-order-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "ce7af070-9197-422b-b52b-ffeac82d745b"
+}

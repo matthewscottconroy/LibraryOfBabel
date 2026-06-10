@@ -1,0 +1,18 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Every equivalence of categories is an adjunction.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "An equivalence F: C → D (with pseudo-inverse G, and natural isomorphisms ε, η) is a special case of an adjunction F ⊣ G where the unit and counit are isomorphisms.",
+  "tags": [
+    "category-theory",
+    "adjunctions"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "3cf21cc0-6a95-459f-a3ce-ebd7298a8fbe"
+}

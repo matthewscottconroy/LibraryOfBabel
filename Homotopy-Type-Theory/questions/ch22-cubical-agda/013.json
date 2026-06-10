@@ -1,0 +1,20 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The 'Iso' record in Cubical Agda consists of:",
+  "choices": [
+    "a function and its inverse only",
+    "a function fun:A→B, its inverse inv:B→A, and two proofs rightInv and leftInv showing they are quasi-inverses",
+    "two functions in the same homotopy class",
+    "a homotopy only"
+  ],
+  "answer": 1,
+  "explanation": "Iso A B = { fun:A→B; inv:B→A; rightInv: fun∘inv~id; leftInv: inv∘fun~id }. It is a quasi-inverse. isoToEquiv converts an Iso to an Equiv (correcting the coherence).",
+  "tags": [
+    "Cubical-Agda",
+    "equivalences"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "cb9e0a30-8303-4afe-92bb-9665076e224b"
+}

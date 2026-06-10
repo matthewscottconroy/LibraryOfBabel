@@ -1,0 +1,21 @@
+{
+  "question_id": "dc766d7d-dc2b-40d7-9eb2-16773a395f62",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which of the following is NOT a topological invariant (can change under homeomorphism)?",
+  "choices": [
+    "the fundamental group π₁",
+    "the number of path components",
+    "the diameter in a fixed metric",
+    "compactness"
+  ],
+  "answer": 2,
+  "explanation": "The diameter depends on the choice of metric, not just the topology. A homeomorphism between metric spaces need not be an isometry.",
+  "tags": [
+    "homeomorphism",
+    "invariants"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

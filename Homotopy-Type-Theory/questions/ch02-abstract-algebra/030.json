@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Artin's theorem on primitive elements says: a finite separable field extension K/F is:",
+  "choices": [
+    "always Galois",
+    "simple (K = F(α) for some α)",
+    "always abelian",
+    "of prime degree"
+  ],
+  "answer": 1,
+  "explanation": "Primitive element theorem: every finite separable extension is simple. Separability (characteristic 0 or finite fields suffice) is necessary; inseparable extensions may not be simple.",
+  "tags": [
+    "algebra",
+    "fields"
+  ],
+  "difficulty": "advanced",
+  "question_id": "c9a2f40f-0dfd-40d6-80cd-c48525f81d96"
+}

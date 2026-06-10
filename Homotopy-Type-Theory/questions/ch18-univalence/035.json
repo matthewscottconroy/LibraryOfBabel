@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which of the following is a direct consequence of univalence for propositions P,Q?",
+  "choices": [
+    "P→Q",
+    "P=Q iff P↔Q (propositional extensionality)",
+    "P∧Q implies P=Q",
+    "¬P=¬Q iff P=Q"
+  ],
+  "answer": 1,
+  "explanation": "Propositional extensionality: univalence restricted to propositions gives P=Q ↔ (P↔Q).",
+  "tags": [
+    "univalence",
+    "propositional-extensionality"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "ec5763ea-7636-4672-9efe-aac46bb71e64"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In System Fω, what is added over System F?",
+  "choices": [
+    "Subtyping",
+    "Type operators — abstraction and application at the type level",
+    "Linear types",
+    "Dependent product types"
+  ],
+  "answer": 1,
+  "explanation": "Fω extends F with a kind system allowing type-level functions (type operators).",
+  "tags": [
+    "system-f-omega",
+    "kinds"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "952212a5-fd8f-4bba-a6c7-e5bee31c5b52"
+}

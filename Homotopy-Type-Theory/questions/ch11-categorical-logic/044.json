@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Barr-Beck monadicity theorem characterises when a functor is monadic. A functor G:C→D is monadic iff:",
+  "choices": [
+    "G has a left adjoint and creates coequalizers of G-split pairs",
+    "G is full and faithful",
+    "G is an equivalence",
+    "G reflects isomorphisms only"
+  ],
+  "answer": 0,
+  "explanation": "Barr-Beck: G monadic iff G has a left adjoint and creates reflexive coequalizers split by G.",
+  "tags": [
+    "barr-beck",
+    "monadicity",
+    "category-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "198d15f5-6434-43f6-8ba6-2665fa4940cb"
+}

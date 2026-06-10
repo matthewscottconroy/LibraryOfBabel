@@ -1,0 +1,19 @@
+{
+  "question_id": "a273eb0b-6442-4d1a-8669-e87da0e9a290",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The internal logic of any elementary topos is classical (satisfies the law of excluded middle).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "The internal logic of a topos is higher-order intuitionistic logic. LEM holds only in Boolean toposes (where the subobject classifier Ω is a Boolean algebra).",
+  "tags": [
+    "categorical-logic",
+    "topos"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

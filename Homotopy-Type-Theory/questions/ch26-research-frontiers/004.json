@@ -1,0 +1,21 @@
+{
+  "question_id": "4304ad0d-00d3-414f-8e58-6f45406626c2",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Which proof assistant has the largest library of formalized mathematics (as of 2024-2025)?",
+  "choices": [
+    "Coq/Rocq with UniMath",
+    "Lean 4 with Mathlib4",
+    "Cubical Agda with the Cubical library",
+    "Isabelle/HOL"
+  ],
+  "answer": 1,
+  "explanation": "Mathlib4 for Lean 4 is the largest single formalized mathematics library with hundreds of thousands of theorems.",
+  "tags": [
+    "research",
+    "proof-assistants"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

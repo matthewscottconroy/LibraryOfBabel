@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Mitchell-Bénabou language of a topos E is a language in which:",
+  "choices": [
+    "Every formula is classical",
+    "Every type is a set in E and every formula is a term of type Ω",
+    "Terms are drawn from the natural numbers",
+    "Quantifiers range over propositions only"
+  ],
+  "answer": 1,
+  "explanation": "MB language: types are objects of E, terms are global sections, Ω is the truth-value object.",
+  "tags": [
+    "mitchell-benabou",
+    "topos",
+    "internal-language"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "cb677442-cd62-40f3-8521-ae2d3e4ffada"
+}

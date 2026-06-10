@@ -1,0 +1,21 @@
+{
+  "question_id": "c7121052-afaf-4d74-a1be-10326e9ae888",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Yoneda embedding Y: C → [C^op, Set] is:",
+  "choices": [
+    "full and faithful",
+    "an equivalence of categories",
+    "faithful but not full",
+    "surjective on objects"
+  ],
+  "answer": 0,
+  "explanation": "Y(c) = Hom(−, c) is fully faithful: C(c,c') ≅ [C^op,Set](Hom(−,c), Hom(−,c')). C embeds in its presheaf category.",
+  "tags": [
+    "category-theory",
+    "Yoneda"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

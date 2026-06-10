@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Path concatenation p ∙ q : a = c, given p: a=b and q: b=c, is defined by:",
+  "choices": [
+    "the K axiom",
+    "J applied to q with motive λy._. a=y",
+    "transport along q",
+    "the interval type"
+  ],
+  "answer": 1,
+  "explanation": "p ∙ q is defined by path induction (J) on q: for q=refl, p∙refl = p. Topologically, concatenation = composing paths.",
+  "tags": [
+    "HoTT",
+    "identity-types",
+    "paths"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "18fc1528-d577-4d1c-b26b-c89763333e96"
+}

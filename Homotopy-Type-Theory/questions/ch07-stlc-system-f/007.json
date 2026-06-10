@@ -1,0 +1,20 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the type of the Church encoding of the boolean 'true' in System F?",
+  "choices": [
+    "Bool → Bool",
+    "∀α. α → α → α",
+    "∀α. α → α",
+    "Bool"
+  ],
+  "answer": 1,
+  "explanation": "true = Λα. λt:α. λf:α. t : ∀α.α→α→α. Church booleans encode case analysis as polymorphic selectors.",
+  "tags": [
+    "System-F",
+    "Church-encodings"
+  ],
+  "difficulty": "beginner",
+  "question_id": "3e464e25-1f97-4916-a82f-006c9b303acd"
+}

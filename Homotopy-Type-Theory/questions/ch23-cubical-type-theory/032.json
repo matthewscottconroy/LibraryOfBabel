@@ -1,0 +1,21 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "RedTT and cooltt are:",
+  "choices": [
+    "Homotopy type theories based on algebraic K-theory",
+    "Proof assistants implementing cartesian cubical type theory",
+    "Extensions of Lean 4",
+    "Python libraries for type theory"
+  ],
+  "answer": 1,
+  "explanation": "RedTT and cooltt are implementations of cartesian cubical type theory (CHTT).",
+  "tags": [
+    "cubical-type-theory",
+    "implementations"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "6ca4ddf7-80eb-48b8-bee2-34318fb41b56"
+}

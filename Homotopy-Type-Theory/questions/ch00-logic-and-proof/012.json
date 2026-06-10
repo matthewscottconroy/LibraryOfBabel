@@ -1,0 +1,19 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The rule of ___ says: to prove P→Q, assume P and derive Q.",
+  "choices": [
+    "→-introduction",
+    "conditional proof",
+    "implication introduction"
+  ],
+  "answer": "→-introduction",
+  "explanation": "Arrow introduction (→I) is the deduction theorem: hypothetically assume P, derive Q, then discharge the assumption to get P→Q.",
+  "tags": [
+    "logic",
+    "proof-theory"
+  ],
+  "difficulty": "beginner",
+  "question_id": "5e7dee31-9134-4397-a7a4-1297ce557bda"
+}

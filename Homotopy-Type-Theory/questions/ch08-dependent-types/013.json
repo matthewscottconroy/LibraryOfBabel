@@ -1,0 +1,19 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The eliminator for a finite type Fin n gives:",
+  "choices": [
+    "a way to list all elements of Fin n",
+    "a way to define functions by cases on {0,…,n-1} without runtime bounds errors",
+    "a proof that Fin n has exactly n elements",
+    "a proof that Fin n ≅ ℕ"
+  ],
+  "answer": 1,
+  "explanation": "Fin n is the type of naturals < n. The eliminator ensures safe array indexing: Vec A n → Fin n → A is total and cannot be out-of-bounds.",
+  "tags": [
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "b8e99acb-15cd-4715-aeda-b466cda7b749"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The real projective plane ℝP² can be defined as a HIT. Which best describes its constructors?",
+  "choices": [
+    "base:ℝP² and loop:base=base",
+    "base:ℝP², line:base=base, and surf:line = line⁻¹ (showing the loop is self-inverse as a path)",
+    "N:ℝP², S:ℝP², and merid:N=S",
+    "∅ only"
+  ],
+  "answer": 1,
+  "explanation": "ℝP² = {base, line:base=base, surf:line=line⁻¹}. The relation surf:line=line⁻¹ captures the antipodal identification of S². This gives π₁(ℝP²)=ℤ/2ℤ.",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "projective-plane"
+  ],
+  "difficulty": "advanced",
+  "question_id": "cdc2122f-893b-467f-8f8d-2f3f996a8d1c"
+}

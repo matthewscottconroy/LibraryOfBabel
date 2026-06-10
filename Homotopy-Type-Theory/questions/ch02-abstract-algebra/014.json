@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Sylow theorems concern subgroups of order p^k where p is prime. The first Sylow theorem guarantees:",
+  "choices": [
+    "a unique Sylow p-subgroup",
+    "the existence of a Sylow p-subgroup of order p^k where p^k | |G| but p^{k+1} ∤ |G|",
+    "all Sylow p-subgroups are normal",
+    "the number of Sylow p-subgroups divides |G|/p^k"
+  ],
+  "answer": 1,
+  "explanation": "First Sylow theorem: if p^k | |G| and p^{k+1} ∤ |G|, then G has a subgroup of order p^k (a Sylow p-subgroup).",
+  "tags": [
+    "algebra",
+    "groups",
+    "Sylow"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "fc140b88-a148-4333-b2db-69c2dc129730"
+}

@@ -1,0 +1,23 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "'Homotopy canonicity' for HoTT (Shulman, Coquand et al.) is the property that:",
+  "choices": [
+    "Every closed type has a canonical form",
+    "Every closed term of type ℕ is definitionally equal to a numeral (even with univalence)",
+    "All proofs are equal",
+    "LEM holds"
+  ],
+  "answer": 1,
+  "explanation": "Homotopy canonicity: closed terms of type ℕ reduce to numerals; proved for CTT, open for book HoTT.",
+  "tags": [
+    "canonicity",
+    "hott",
+    "cubical-type-theory",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "7bd429e6-3991-4a44-8cfc-b11c9699ed95"
+}

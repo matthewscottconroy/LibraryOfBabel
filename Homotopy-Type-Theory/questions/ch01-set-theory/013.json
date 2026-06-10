@@ -1,0 +1,19 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of these is NOT an axiom of ZFC?",
+  "choices": [
+    "Axiom of Extensionality",
+    "Axiom of Union",
+    "Axiom of Choice",
+    "Axiom of Completeness"
+  ],
+  "answer": 3,
+  "explanation": "ZFC consists of: Extensionality, Foundation, Separation, Pairing, Union, Power Set, Infinity, Replacement, and Choice. 'Completeness' is not an axiom of set theory (it applies to ordered fields).",
+  "tags": [
+    "set-theory"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "782caa7d-6794-4fef-9470-941fed68fe4e"
+}

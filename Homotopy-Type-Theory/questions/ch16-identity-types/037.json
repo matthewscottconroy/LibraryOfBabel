@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "For a type family P: A→Type and path p: a=b, the function transport^P(p,-): P(a)→P(b) is always:",
+  "choices": [
+    "A proposition",
+    "An equivalence (with inverse transport^P(p⁻¹,-))",
+    "A monomorphism only",
+    "An identity function"
+  ],
+  "answer": 1,
+  "explanation": "Transport along a path is an equivalence: its inverse is transport along the inverse path.",
+  "tags": [
+    "transport",
+    "equivalence",
+    "identity-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f10c4fef-aaf4-40f5-b3ec-4c03fce9d4a2"
+}

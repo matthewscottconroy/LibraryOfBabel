@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The pushout of a span A ← C → B is defined as a HIT with:",
+  "choices": [
+    "Constructors inl:A→A⊔B and inr:B→A⊔B and no paths",
+    "Constructors for points of A and B, and for each c:C a path from inl(f c) to inr(g c)",
+    "A single path constructor",
+    "A product constructor"
+  ],
+  "answer": 1,
+  "explanation": "Pushout P = A⊔_C B: inl:A→P, inr:B→P, push: Π(c:C). inl(f c)=inr(g c).",
+  "tags": [
+    "pushout",
+    "hit"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "2edae301-6bf4-433d-8221-d049c49dadd5"
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "ebbed4da-1e58-464f-b9d8-8c88ab36d3ba",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Modus ponens says: from P and P→Q, conclude ___.",
+  "choices": [
+    "¬P",
+    "¬Q",
+    "Q",
+    "P∧Q"
+  ],
+  "answer": 2,
+  "explanation": "→-elimination: a proof of P and a proof of P→Q yield a proof of Q.",
+  "tags": [
+    "logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

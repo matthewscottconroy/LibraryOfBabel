@@ -1,0 +1,22 @@
+{
+  "question_id": "98ddb5ab-91b0-44b6-ba16-4a3f850cd41f",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "An h-set (h-level 0) is a type A where:",
+  "choices": [
+    "A has at most one element",
+    "all identity types a=b are propositions (at most one element)",
+    "A is contractible",
+    "A is isomorphic to ℕ"
+  ],
+  "answer": 1,
+  "explanation": "isSet(A) := Π(a b:A). isProp(a=b). Sets have no homotopy content — identity types are mere propositions.",
+  "tags": [
+    "HoTT",
+    "h-levels",
+    "h-sets"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

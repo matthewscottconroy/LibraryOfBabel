@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Curry-Howard interpretation of the hypothesis rule (id: A ⊢ A) corresponds to:",
+  "choices": [
+    "The constant function",
+    "The identity function λx.x",
+    "The composition of two functions",
+    "A recursive function"
+  ],
+  "answer": 1,
+  "explanation": "Under C-H, the axiom A ⊢ A corresponds to the identity: λx:A.x.",
+  "tags": [
+    "curry-howard",
+    "identity"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "59c90fce-7ac1-4fda-be22-24ab464c95f5"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In Agda, the 'Set' hierarchy Set₀, Set₁, Set₂, … corresponds to:",
+  "choices": [
+    "type classes",
+    "the universe hierarchy U₀ : U₁ : U₂ : … in dependent type theory",
+    "module levels",
+    "proof terms"
+  ],
+  "answer": 1,
+  "explanation": "Agda's Set_n corresponds to the n-th universe. Set₀ contains ordinary types; Set₁ contains Set₀; etc. This prevents universe paradox while allowing 'Type of types'.",
+  "tags": [
+    "dependent-types",
+    "Agda",
+    "universes"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "63837d24-390b-4ee9-acd8-dcf773d765e0"
+}

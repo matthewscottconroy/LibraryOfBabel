@@ -1,0 +1,21 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The 'norm_num' tactic in Lean 4 handles:",
+  "choices": [
+    "propositional logic",
+    "numerical computations and arithmetic facts (e.g., 2+2=4, prime p, etc.)",
+    "rewriting with function extensionality",
+    "type class resolution"
+  ],
+  "answer": 1,
+  "explanation": "'norm_num' proves numerical/arithmetic goals by computation: equalities, inequalities, primality, divisibility, etc. It is an arithmetic normalizer.",
+  "tags": [
+    "Lean4",
+    "tactics",
+    "Mathlib"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "8d0808c3-d743-4378-bf2e-a5212ec15c38"
+}

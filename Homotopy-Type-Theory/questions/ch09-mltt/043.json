@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Martin-Löf's original type theory (1973) had a single universe U with U:U. This was shown inconsistent by:",
+  "choices": [
+    "Gödel",
+    "Girard (Girard's paradox)",
+    "Russell",
+    "Cantor"
+  ],
+  "answer": 1,
+  "explanation": "Girard proved that U:U leads to inconsistency; this motivated the predicative universe hierarchy.",
+  "tags": [
+    "mltt",
+    "girard-paradox",
+    "universes"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8534121c-247b-48ec-9709-00f82e36fbe1"
+}

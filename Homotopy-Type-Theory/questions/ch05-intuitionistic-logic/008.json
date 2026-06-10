@@ -1,0 +1,19 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The negation ¬P in intuitionistic logic is defined as:",
+  "choices": [
+    "P is false",
+    "P → ⊥ (P implies falsehood)",
+    "¬¬P holds",
+    "LEM fails for P"
+  ],
+  "answer": 1,
+  "explanation": "Intuitionistically, ¬P := P→⊥. A proof of ¬P is a function taking any proof of P to a proof of the empty type.",
+  "tags": [
+    "intuitionistic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "713291c7-3067-4871-8da2-c4908730f63e"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Poincaré duality for a closed orientable n-manifold M states:",
+  "choices": [
+    "Hk(M) ≅ Hn-k(M)",
+    "Hk(M) ≅ Hn-k(M) (cap product with fundamental class)",
+    "Hk(M) ≅ H^{n-k}(M)",
+    "πk(M) ≅ Hn-k(M)"
+  ],
+  "answer": 2,
+  "explanation": "Poincaré duality: Hk(M;R) ≅ H^{n-k}(M;R) for a closed orientable n-manifold.",
+  "tags": [
+    "poincare-duality",
+    "manifold",
+    "algebraic-topology"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4fbefe40-af87-467a-94d5-80cf452943e6"
+}

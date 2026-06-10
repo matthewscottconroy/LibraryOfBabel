@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A module M over a ring R is free if:",
+  "choices": [
+    "M has no non-zero elements",
+    "M has a basis (a linearly independent spanning set)",
+    "M is a field",
+    "Every submodule is a direct summand"
+  ],
+  "answer": 1,
+  "explanation": "Free module: M ≅ R^I for some index set I; analogue of vector spaces over rings.",
+  "tags": [
+    "free-module",
+    "module-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "5e42b4c3-e4ca-4e9d-9576-e5143fc037e3"
+}

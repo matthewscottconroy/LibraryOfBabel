@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The axiom of extensionality states that two sets are equal iff:",
+  "choices": [
+    "They have the same power set",
+    "They have the same elements",
+    "They are both empty",
+    "They are both finite"
+  ],
+  "answer": 1,
+  "explanation": "Extensionality: A = B iff ∀x(x∈A ↔ x∈B).",
+  "tags": [
+    "extensionality",
+    "zfc"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "006cc0aa-152f-4705-91db-7994f1c96d7c"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "8fdf8d02-9954-48b1-83e1-2c329d4a7843",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Rzk is:",
+  "choices": [
+    "an extension of Lean 4 for directed type theory",
+    "a proof assistant based on Riehl-Shulman's simplicial type theory",
+    "a tactic in Cubical Agda",
+    "a library for Coq/Rocq"
+  ],
+  "answer": 1,
+  "explanation": "Rzk implements simplicial/directed type theory from scratch, following the Riehl-Shulman paper. It is used to formalize results in synthetic (∞,1)-category theory.",
+  "tags": [
+    "rzk",
+    "simplicial-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

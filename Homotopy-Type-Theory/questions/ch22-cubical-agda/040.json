@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `Cubical.Foundations.HLevels` module provides:",
+  "choices": [
+    "Definitions of h-levels and proofs that h-levels are closed under various operations",
+    "Only the definition of contractible",
+    "Lean 4 compatibility",
+    "The interval type"
+  ],
+  "answer": 0,
+  "explanation": "HLevels: isProp, isSet, isGroupoid and their closure properties (closure under Σ, Π, etc.).",
+  "tags": [
+    "cubical-agda",
+    "h-levels",
+    "library"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8af680e7-9e40-4b67-aebc-fe687eeb77a2"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In the Riehl-Shulman framework, the universe of types in Simplicial TT is stratified into:",
+  "choices": [
+    "Discrete types only",
+    "A universe 𝒰 of fibrant types and a universe of all types",
+    "The universe of propositions only",
+    "Countably many universes"
+  ],
+  "answer": 1,
+  "explanation": "The Riehl-Shulman universe has fibrant types (closed under Π, Σ, path spaces) and the ambient type theory.",
+  "tags": [
+    "simplicial-type-theory",
+    "universe",
+    "riehl-shulman"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "96be03aa-0ba7-4ede-9a4f-5cf9de0a9bcc"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The directed path space in Simplicial TT from a to b is written hom_A(a,b). Unlike HoTT paths, these morphisms:",
+  "choices": [
+    "Are always reversible",
+    "May not be reversible (they are directed morphisms, not symmetric paths)",
+    "Are always equivalences",
+    "Are the same as paths when A is a Rezk type"
+  ],
+  "answer": 1,
+  "explanation": "Directed morphisms are not symmetric in general; an equivalence in a Segal type is a morphism with a two-sided inverse.",
+  "tags": [
+    "simplicial-type-theory",
+    "directed-homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "06515093-294b-426e-a6d8-70492ae49c47"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Curry-Howard correspondent of the fan theorem (in Brouwer's intuitionism) is:",
+  "choices": [
+    "continuity of all functions ℕᴺ→ℕ",
+    "bar induction",
+    "the continuity of all functions ℕᴺ→ℕ is equivalent to well-foundedness of bar types",
+    "system T"
+  ],
+  "answer": 0,
+  "explanation": "The fan theorem (Brouwer) states that any bar on the universal spread is a uniform bar. Its computational content is: every function ℕᴺ→ℕ is continuous (uses only finite initial segments of its argument).",
+  "tags": [
+    "intuitionistic",
+    "constructivism"
+  ],
+  "difficulty": "advanced",
+  "question_id": "6e79e97f-46af-4d3c-9272-9473e1fc00d8"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "6da05d04-2cc3-47a7-8c95-6efd056bcfb5",
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda (--cubical), a path p : a ≡ b is literally:",
+  "choices": [
+    "an element of the inductive identity type",
+    "a function (i : I) → A with p i0 ≡ a and p i1 ≡ b (definitionally)",
+    "a proof of equivalence",
+    "a transport operation"
+  ],
+  "answer": 1,
+  "explanation": "Paths in Cubical Agda are functions from the interval I. p i0 and p i1 reduce definitionally to their endpoints.",
+  "tags": [
+    "Cubical-Agda",
+    "paths"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

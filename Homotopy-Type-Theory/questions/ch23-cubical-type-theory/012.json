@@ -1,0 +1,20 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The type-theoretic proof of canonicity for CCHM cubical type theory (Huber 2018) shows:",
+  "choices": [
+    "the theory is inconsistent",
+    "every closed term of type ℕ reduces to a numeral",
+    "all types are sets",
+    "the theory is classical"
+  ],
+  "answer": 1,
+  "explanation": "Huber proved canonicity for CCHM: closed terms of type ℕ compute to numerals. This is the key payoff of cubical TT — univalence no longer breaks computation.",
+  "tags": [
+    "cubical-TT",
+    "canonicity"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "316c2c97-2add-47ce-949b-94162bc57b37"
+}

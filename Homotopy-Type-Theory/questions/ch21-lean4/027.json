@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `have` tactic in Lean 4 introduces:",
+  "choices": [
+    "A new hypothesis by proving it inline",
+    "A new definition",
+    "A new tactic",
+    "An axiom"
+  ],
+  "answer": 0,
+  "explanation": "`have h : P := proof` proves P inline and adds h:P to the context.",
+  "tags": [
+    "lean4",
+    "have",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "95642ec8-f8e7-4057-8320-c6594c938e8d"
+}

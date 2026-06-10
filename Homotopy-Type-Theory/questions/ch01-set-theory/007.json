@@ -1,0 +1,18 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The union of two countable sets is countable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The union A∪B of two countable sets is countable. More generally, a countable union of countable sets is countable (with AC).",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "beginner",
+  "question_id": "f89af372-d26d-43d6-a9f5-b632c5bff468"
+}

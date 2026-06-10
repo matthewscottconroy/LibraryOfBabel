@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "blank",
+  "text": "In Cubical Agda, path composition (transitivity) p ∙ q for p : a ≡ b and q : b ≡ c uses the ______ operation.",
+  "choices": [
+    "hcomp",
+    "refl",
+    "ua",
+    "Glue"
+  ],
+  "answer": "hcomp",
+  "explanation": "Path composition is derived via hcomp by filling a square.",
+  "tags": [
+    "cubical-agda",
+    "path-composition",
+    "hcomp"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "7cdae2ee-0bb1-4e9d-b1c7-11fa48121e75"
+}

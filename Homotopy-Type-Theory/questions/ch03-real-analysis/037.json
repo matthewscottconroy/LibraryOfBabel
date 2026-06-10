@@ -1,0 +1,19 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every monotone bounded sequence of real numbers converges.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Monotone convergence theorem: monotone + bounded ⟹ convergent.",
+  "tags": [
+    "monotone-convergence",
+    "real-analysis"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "99c8f8f1-a15e-42dc-9bbd-a944e0a7e2cf"
+}

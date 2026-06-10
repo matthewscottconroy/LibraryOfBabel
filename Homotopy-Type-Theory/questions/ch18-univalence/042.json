@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The type A=B in a universe 𝒰 is equivalent to A≃B by univalence. When A=B=ℤ, the type ℤ=ℤ is equivalent to ______.",
+  "choices": [
+    "ℤ≃ℤ (the type of automorphisms of ℤ)",
+    "the type of group homomorphisms ℤ→ℤ",
+    "the type ℤ itself",
+    "the trivial type"
+  ],
+  "answer": "ℤ≃ℤ (the type of automorphisms of ℤ)",
+  "explanation": "By univalence, ℤ=ℤ ≃ ℤ≃ℤ (self-equivalences of ℤ), which corresponds to the automorphism group of ℤ.",
+  "tags": [
+    "univalence",
+    "automorphisms"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "c5f8541f-adf2-4f64-aac7-67c23847c038"
+}

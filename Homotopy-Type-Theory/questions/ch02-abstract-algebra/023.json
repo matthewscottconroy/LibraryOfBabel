@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A group G is solvable if its derived series G⁰⊃G¹⊃⋯ eventually reaches the trivial group. Which group is NOT solvable?",
+  "choices": [
+    "Any abelian group",
+    "S₃",
+    "S₄",
+    "A₅ (alternating group on 5 letters)"
+  ],
+  "answer": 3,
+  "explanation": "A₅ is simple and non-abelian, so it is not solvable. The solvability of S_n for n≤4 is the key step in Galois theory (showing degree ≤4 polynomials are solvable by radicals).",
+  "tags": [
+    "algebra",
+    "groups",
+    "Galois"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "b28ba51c-eae0-4d27-9cd6-07704e6683d3"
+}

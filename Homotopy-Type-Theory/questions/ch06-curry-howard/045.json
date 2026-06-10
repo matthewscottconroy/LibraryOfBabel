@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The type ∀X.X→X in System F is inhabited by:",
+  "choices": [
+    "Only the identity function",
+    "No terms",
+    "All functions",
+    "Terms of every type"
+  ],
+  "answer": 0,
+  "explanation": "By parametricity, ∀X.X→X has exactly one inhabitant up to β-η: the polymorphic identity Λα.λx:α.x.",
+  "tags": [
+    "system-f",
+    "parametricity",
+    "identity"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "a84f0980-d27c-43c3-860c-98a89ca2956f"
+}

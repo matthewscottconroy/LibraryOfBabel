@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Axiom K (Streicher's K) states: any two proofs of the same equality p q : a=a are:",
+  "choices": [
+    "definitionally equal",
+    "provably equal (there is a term of type p=q)",
+    "both equal to transport",
+    "always distinct"
+  ],
+  "answer": 1,
+  "explanation": "Axiom K: Π(a:A)(p:a=a). p = refl. This is the uniqueness of identity proofs (UIP) restricted to loops. K is independent of MLTT and inconsistent with univalence.",
+  "tags": [
+    "MLTT",
+    "UIP",
+    "K-axiom"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "aad38dbd-5ba7-4d56-8638-94fd0081fa69"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, the difference between 'extension types' and dependent function types is:",
+  "choices": [
+    "Extension types restrict the domain to a subshape",
+    "Extension types are always propositions",
+    "They are the same",
+    "Extension types use cubical interval"
+  ],
+  "answer": 0,
+  "explanation": "Extension types {A | φ ↦ a} restrict functions on Δ^n to agree with specified boundary conditions on φ.",
+  "tags": [
+    "simplicial-type-theory",
+    "extension-types"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "2e207987-fe8a-4e5e-9039-c8efe4e72dac"
+}

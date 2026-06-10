@@ -1,0 +1,21 @@
+{
+  "question_id": "3a4de469-265b-493e-961a-2b523554089a",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In natural deduction, what does an elimination rule do?",
+  "choices": [
+    "Introduces a new connective into a proof",
+    "Removes a connective to extract information from it",
+    "Discharges a hypothesis",
+    "Proves a sequent by contradiction"
+  ],
+  "answer": 1,
+  "explanation": "Elimination rules decompose a compound formula: e.g., →-elim (modus ponens) extracts the consequent given a proof of A→B and a proof of A.",
+  "tags": [
+    "proof-theory",
+    "natural-deduction"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

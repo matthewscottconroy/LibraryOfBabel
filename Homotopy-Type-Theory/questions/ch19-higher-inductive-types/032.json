@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The torus T² in HoTT is defined as a HIT with:",
+  "choices": [
+    "base, p:base=base, q:base=base, and t:p·q=q·p",
+    "Two points and four paths",
+    "base, p, q, and t: p·q = q·p (commutativity path)",
+    "base and one loop only"
+  ],
+  "answer": 2,
+  "explanation": "T²: base; p,q:base=base; t:p·q=q·p (the square filling expressing commutativity).",
+  "tags": [
+    "torus",
+    "hit"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "4d1dbbbc-490c-4539-89cd-a28f7a22eb44"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `induction n with | zero => ... | succ n ih => ...` is the syntax for:",
+  "choices": [
+    "Case analysis on n",
+    "Recursive function definition",
+    "Induction on n, with the inductive hypothesis available as ih",
+    "Pattern matching on a list"
+  ],
+  "answer": 2,
+  "explanation": "`induction` in Lean 4 generates subgoals for each constructor, with the IH named ih.",
+  "tags": [
+    "lean4",
+    "induction",
+    "tactics"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "a2670f83-9c39-4cea-a672-8efa21ffdefb"
+}

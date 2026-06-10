@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In display calculus (Belnap), display postulates allow moving any formula to the:",
+  "choices": [
+    "Left side only",
+    "Right side only",
+    "Either side of the sequent (display property)",
+    "A separate proof context"
+  ],
+  "answer": 2,
+  "explanation": "Display calculus: every structure can be brought into display position (left or right of the turnstile).",
+  "tags": [
+    "display-calculus",
+    "sequent-calculus"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "85e29b04-9d39-4d27-9e48-a89ba2d81272"
+}

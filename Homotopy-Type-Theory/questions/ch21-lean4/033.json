@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `Nat.rec` is the recursor for ℕ. Its type signature says it produces a term of type:",
+  "choices": [
+    "ℕ → Prop",
+    "∀ {motive : ℕ → Sort u}, motive 0 → (∀ n, motive n → motive (n+1)) → ∀ n, motive n",
+    "ℕ → ℕ",
+    "∀ P : ℕ → Prop, P 0 → P n → P (n+1)"
+  ],
+  "answer": 1,
+  "explanation": "Nat.rec has the full dependent recursor type with motive, base case, inductive step.",
+  "tags": [
+    "lean4",
+    "recursor",
+    "natural-numbers"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "6f5d0c4b-94d9-4351-b4f3-5a4b1224eb20"
+}

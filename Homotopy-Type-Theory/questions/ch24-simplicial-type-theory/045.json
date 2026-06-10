@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, the ∞-categorical limits are defined as:",
+  "choices": [
+    "Limits of simplicial diagrams in Top",
+    "Terminal objects in the appropriate slice category / right Kan extensions",
+    "Colimits in the opposite category",
+    "Homotopy limits via hocolim"
+  ],
+  "answer": 1,
+  "explanation": "Limits in ∞-cats: L = lim D is characterised by Hom(X,L) ≃ Nat(Δ_X, D) (right Kan extension along the constant diagram).",
+  "tags": [
+    "simplicial-type-theory",
+    "limits",
+    "right-kan"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "fb2ab8dd-1731-4a05-b97e-6a1c195de54d"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The unit and counit of an adjunction L⊣R satisfy the triangle identities. One identity says:",
+  "choices": [
+    "(ε L) ∘ (L η) = id_L",
+    "(R ε) ∘ (η R) = id_R",
+    "Both A and B",
+    "ε ∘ η = id"
+  ],
+  "answer": 2,
+  "explanation": "Both triangle identities hold: (εLA)∘(Lη_A)=id_{LA} and (R ε_B)∘(η_{RB})=id_{RB}.",
+  "tags": [
+    "adjunction",
+    "triangle-identity",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b362f3d7-bb3c-4bba-9b25-03826adb29b6"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Stone-Weierstrass theorem generalises Weierstrass's approximation theorem: it says that a subalgebra A of C(X) (continuous functions on compact X) is dense iff A:",
+  "choices": [
+    "contains constants",
+    "separates points and contains a nonzero constant",
+    "consists of polynomials",
+    "is closed under uniform limits"
+  ],
+  "answer": 1,
+  "explanation": "Stone-Weierstrass: A dense in C(X) iff A separates points (∀x≠y ∃f∈A: f(x)≠f(y)) and A contains a nonzero constant. Generalises Weierstrass polynomial approximation.",
+  "tags": [
+    "analysis",
+    "approximation"
+  ],
+  "difficulty": "advanced",
+  "question_id": "85f28396-54aa-41fc-a193-aaa15adf6e20"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "664b0214-3d91-4844-bc74-af9b0ff84221",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A type A is contractible (h-level -2) iff:",
+  "choices": [
+    "A is empty",
+    "A has exactly one element (up to definitional equality)",
+    "Σ(a:A). Π(x:A). a=x (there is a center to which every element is connected by a path)",
+    "all identity types of A are empty"
+  ],
+  "answer": 2,
+  "explanation": "isContr(A) := Σ(a:A).Π(x:A).a=x — a center a and contracting homotopy to every x.",
+  "tags": [
+    "HoTT",
+    "h-levels"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

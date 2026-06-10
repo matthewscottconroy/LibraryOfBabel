@@ -1,0 +1,19 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which of the following is NOT provable in intuitionistic propositional logic?",
+  "choices": [
+    "P → P",
+    "P → ¬¬P",
+    "(P → Q) → (¬Q → ¬P)",
+    "¬¬P → P"
+  ],
+  "answer": 3,
+  "explanation": "Double negation elimination (DNE: ¬¬P→P) is classically valid but not intuitionistically provable. The other three are intuitionistically valid.",
+  "tags": [
+    "intuitionistic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "f0c3df40-4bf4-4d88-8de9-8ccfa16ccbfa"
+}

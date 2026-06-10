@@ -1,0 +1,21 @@
+{
+  "question_id": "94caa02f-0f46-4bb7-8661-df5833c4d2ab",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of these is equivalent to the Axiom of Choice (over ZF)?",
+  "choices": [
+    "Every set is countable",
+    "Zorn's Lemma",
+    "The Continuum Hypothesis",
+    "The Axiom of Foundation"
+  ],
+  "answer": 1,
+  "explanation": "Zorn's Lemma, Well-Ordering Theorem, and Tychonoff's Theorem are each equivalent to AC over ZF.",
+  "tags": [
+    "set-theory",
+    "axiom-of-choice"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

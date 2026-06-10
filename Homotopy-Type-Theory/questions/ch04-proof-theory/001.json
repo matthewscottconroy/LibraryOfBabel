@@ -1,0 +1,20 @@
+{
+  "question_id": "abec8293-f7cd-4da8-91ba-0abcbf2117ec",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A 'detour' in natural deduction is: an introduction rule immediately followed by:",
+  "choices": [
+    "another introduction rule",
+    "a hypothesis",
+    "the matching elimination rule",
+    "a cut"
+  ],
+  "answer": 2,
+  "explanation": "A redex (detour) is an intro immediately followed by its elim. Normalisation removes all detours.",
+  "tags": [
+    "proof-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

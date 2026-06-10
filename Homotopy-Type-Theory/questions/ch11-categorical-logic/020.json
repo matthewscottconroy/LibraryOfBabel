@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An elementary topos is a category with:",
+  "choices": [
+    "All small limits and colimits",
+    "Finite limits, power objects, and a subobject classifier",
+    "A model of ZFC internally",
+    "Small Hom-sets and exponentials"
+  ],
+  "answer": 1,
+  "explanation": "An elementary topos has: finite limits, exponentials (CCCness), and a subobject classifier.",
+  "tags": [
+    "topos",
+    "categorical-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "69768038-02b0-48b1-ae37-ac36d09f2ce2"
+}

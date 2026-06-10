@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the propositions-as-types paradigm, a proof of Π(x:A).B(x) corresponds to:",
+  "choices": [
+    "An element of A",
+    "A function that, given any a:A, produces a proof of B(a)",
+    "A proof of ∃x:A.B(x)",
+    "A proof of A → B"
+  ],
+  "answer": 1,
+  "explanation": "By Curry-Howard, Π(x:A).B(x) corresponds to universal quantification ∀x:A.B(x).",
+  "tags": [
+    "curry-howard",
+    "pi-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "30c67d4a-ddcf-4b51-9481-a0245e974655"
+}

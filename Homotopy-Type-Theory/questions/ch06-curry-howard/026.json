@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Under Curry-Howard, which type corresponds to the logical principle ∀A.¬¬A → A?",
+  "choices": [
+    "(∀A. (A→⊥)→⊥) → ∀A.A — the double-negation shift / callcc principle",
+    "The unit type",
+    "The identity type",
+    "A → ¬A"
+  ],
+  "answer": 0,
+  "explanation": "∀A.¬¬A→A = ∀A.((A→⊥)→⊥)→A. This type is the classical control operator callcc (call-with-current-continuation). It is not inhabited in pure STLC/MLTT.",
+  "tags": [
+    "curry-howard",
+    "classical-logic"
+  ],
+  "difficulty": "advanced",
+  "question_id": "69ff99bd-5520-446a-8d75-f027413bb601"
+}

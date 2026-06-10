@@ -1,0 +1,20 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In MLTT, definitional equality implies propositional equality.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "If a ≡ b (definitionally), then refl : Id(a,b) witnesses propositional equality. The converse does not hold in general.",
+  "tags": [
+    "definitional-equality",
+    "propositional-equality",
+    "mltt"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "6146bbb9-c01b-4bac-8783-81b5f7159b3d"
+}

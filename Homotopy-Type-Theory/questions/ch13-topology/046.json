@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The degree-1 map S¹→S¹ (identity) and the degree-(-1) map (reflection) are:",
+  "choices": [
+    "Homotopic",
+    "Not homotopic",
+    "Homeomorphic but not homotopic",
+    "Both null-homotopic"
+  ],
+  "answer": 1,
+  "explanation": "Degree is a homotopy invariant: maps of different degrees are not homotopic.",
+  "tags": [
+    "degree",
+    "sphere",
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "fcd1323c-0ebd-4cbb-894a-64740782dca4"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Hedberg's theorem: if A has decidable equality (∀x,y:A. x=y + ¬(x=y)), then:",
+  "choices": [
+    "A is contractible",
+    "A is a proposition",
+    "A is a set (h-set)",
+    "A is a 1-type"
+  ],
+  "answer": 2,
+  "explanation": "Hedberg: decidable equality implies UIP; hence h-set.",
+  "tags": [
+    "hedberg",
+    "h-set",
+    "decidable-equality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "61b799e8-18c1-4f38-9cc5-f0cd35277379"
+}

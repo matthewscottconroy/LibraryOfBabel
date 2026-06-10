@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A dependent record type in Agda groups fields where later field types can depend on earlier field values. The canonical example is:",
+  "choices": [
+    "A plain product A×B",
+    "A Σ-type Σ(x:A).B(x)",
+    "A function type A→B",
+    "A universe"
+  ],
+  "answer": 1,
+  "explanation": "Dependent records are definitionally Σ-types: Σ(x:A).B(x) has first field of type A and second of type B(x).",
+  "tags": [
+    "sigma-type",
+    "dependent-types",
+    "record"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "a3adee6c-d0ed-41d1-88f9-f453a143e327"
+}

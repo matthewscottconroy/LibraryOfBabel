@@ -1,0 +1,21 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The fixpoint combinator Y = λf.(λx.f(xx))(λx.f(xx)) is NOT typeable in STLC because:",
+  "choices": [
+    "it uses two arguments",
+    "typing it would require a type T satisfying T = T→T, which has no solution in STLC",
+    "it diverges",
+    "it has free variables"
+  ],
+  "answer": 1,
+  "explanation": "Y requires T=T→T (self-application xx:T where x:T→T and x:T). STLC has no such recursive type; Y is typeable in recursive type systems or with explicit fixpoint operators.",
+  "tags": [
+    "curry-howard",
+    "STLC",
+    "recursion"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "0ddcad6e-b302-49fe-915d-bb59f80a9b20"
+}

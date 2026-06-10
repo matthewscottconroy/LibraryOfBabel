@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The based path space of A at a is defined as:",
+  "choices": [
+    "Σ(x:A). a=x",
+    "Π(x:A). a=x",
+    "a=a",
+    "Σ(x:A). x=x"
+  ],
+  "answer": 0,
+  "explanation": "The based path space (contractible space) is ΣP_a = Σ(x:A). a=x, which is contractible.",
+  "tags": [
+    "path-space",
+    "identity-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b5f2c538-0d4f-42c1-a378-4812b53365e3"
+}

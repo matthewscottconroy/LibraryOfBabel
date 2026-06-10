@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Curry-Howard-Lambek correspondence extends Curry-Howard by adding:",
+  "choices": [
+    "dependent types",
+    "Cartesian closed categories (CCCs) as a third pillar: proof ↔ term ↔ morphism",
+    "linear types",
+    "modal types"
+  ],
+  "answer": 1,
+  "explanation": "Curry-Howard-Lambek: propositions ↔ types ↔ objects; proofs ↔ terms ↔ morphisms; proof normalisation ↔ β-reduction ↔ equality of morphisms in a CCC.",
+  "tags": [
+    "curry-howard",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "95f40f11-8320-4a8c-bc14-cdc95a8a6fcd"
+}

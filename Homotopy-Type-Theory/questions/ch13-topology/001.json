@@ -1,0 +1,20 @@
+{
+  "question_id": "2fde9193-3a37-47d2-802e-8e23fa692e4c",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The circle S¹ is homeomorphic to the quotient:",
+  "choices": [
+    "ℝ/ℤ",
+    "ℝ/ℚ",
+    "[0,1]/{0}",
+    "ℝ²/{origin}"
+  ],
+  "answer": 0,
+  "explanation": "S¹ ≅ ℝ/ℤ (translate by integers). Also [0,1]/{0~1} (glue endpoints).",
+  "tags": [
+    "topology"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

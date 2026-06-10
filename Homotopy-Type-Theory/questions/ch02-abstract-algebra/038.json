@@ -1,0 +1,19 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every group of prime order is cyclic.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "If |G|=p (prime), every non-identity element has order p, so G = ⟨g⟩ is cyclic.",
+  "tags": [
+    "cyclic-group",
+    "prime-order"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "17014364-1d7e-40ae-ae89-2601b433a9c3"
+}

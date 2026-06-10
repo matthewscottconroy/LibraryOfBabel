@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The ∨-elimination rule in natural deduction says: to prove C from A∨B, it suffices to:",
+  "choices": [
+    "prove C directly",
+    "prove A→C and prove B→C",
+    "prove C from A only",
+    "assume A∨B and apply modus ponens"
+  ],
+  "answer": 1,
+  "explanation": "∨E: if A∨B, and A→C, and B→C, then C. You need proofs of C from each disjunct separately.",
+  "tags": [
+    "proof-theory",
+    "natural-deduction"
+  ],
+  "difficulty": "beginner",
+  "question_id": "f38b1cde-3e99-45e4-b099-ab10778d935a"
+}

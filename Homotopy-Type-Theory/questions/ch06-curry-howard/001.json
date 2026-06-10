@@ -1,0 +1,20 @@
+{
+  "question_id": "8571c2bc-559b-437e-8795-d19e7a524c78",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Under Curry-Howard, what does a term of type A → B correspond to?",
+  "choices": [
+    "A proof of A ∧ B",
+    "A proof of A ∨ B",
+    "A proof of A → B",
+    "A proof of ¬A"
+  ],
+  "answer": 2,
+  "explanation": "Functions A → B are proofs of implication A → B. β-reduction corresponds to modus ponens.",
+  "tags": [
+    "curry-howard"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

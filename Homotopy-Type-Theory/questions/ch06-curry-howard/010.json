@@ -1,0 +1,19 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Curry-Howard correspondence between proofs and programs extends to which proof normalisation theorem ↔ computation result?",
+  "choices": [
+    "Gödel incompleteness ↔ non-termination",
+    "Normalisation ↔ termination (strong normalisation = all programs halt)",
+    "Cut elimination ↔ type safety",
+    "Soundness ↔ type inference"
+  ],
+  "answer": 1,
+  "explanation": "Normalisation ↔ termination: a proof normalises iff the corresponding program terminates. Strong normalisation of a typed calculus means all well-typed programs halt.",
+  "tags": [
+    "curry-howard"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "2c001122-3a8f-4860-a2b5-65af531d0536"
+}

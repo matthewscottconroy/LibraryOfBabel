@@ -1,0 +1,19 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Coherence theorem for bicategories (MacLane's coherence) states:",
+  "choices": [
+    "every bicategory is equivalent to a strict 2-category",
+    "all coherence diagrams for a bicategory automatically commute",
+    "every free bicategory is strict",
+    "there are no non-trivial bicategories"
+  ],
+  "answer": 0,
+  "explanation": "MacLane's coherence for bicategories: every bicategory is equivalent (not isomorphic!) to a strict 2-category. You can 'strictify' without loss of essential information.",
+  "tags": [
+    "higher-categories"
+  ],
+  "difficulty": "advanced",
+  "question_id": "7713413f-3ed7-4f9a-ac6f-9abb795cda0b"
+}

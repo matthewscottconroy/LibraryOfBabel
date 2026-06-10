@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The programme of 'univalent category theory' (Ahrens-Kapulkin-Shulman) shows:",
+  "choices": [
+    "All categories are equivalent to strict categories",
+    "Category theory done in HoTT satisfies the SIP: isomorphic categories are equal",
+    "HoTT has no models",
+    "Category theory requires LEM"
+  ],
+  "answer": 1,
+  "explanation": "Univalent categories: in HoTT, using univalence, isomorphic categories are equal (SIP for categories).",
+  "tags": [
+    "univalent-category-theory",
+    "sip",
+    "research"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "554d54ca-155a-41ad-80d7-adaea2936eff"
+}

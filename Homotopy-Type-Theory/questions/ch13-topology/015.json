@@ -1,0 +1,20 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A fibre bundle p: E → B with fibre F satisfies: for small enough open sets U ⊆ B,",
+  "choices": [
+    "p⁻¹(U) ≅ U",
+    "p⁻¹(U) ≅ U × F (local trivialisation)",
+    "p⁻¹(U) is contractible",
+    "E ≅ B × F globally"
+  ],
+  "answer": 1,
+  "explanation": "Local trivialisation: p⁻¹(U) ≅ U × F for open U. The twist is measured by the structure group and transition functions. Globally, a bundle need not be trivial.",
+  "tags": [
+    "topology",
+    "fibre-bundles"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "2c058008-065c-45be-b98c-22b8c1c31b77"
+}

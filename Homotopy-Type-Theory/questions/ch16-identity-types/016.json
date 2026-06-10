@@ -1,0 +1,20 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which statement about the based loop space ΩA = (a =_A a) is correct in HoTT?",
+  "choices": [
+    "ΩA is always contractible",
+    "ΩA has the structure of a group object in types (up to homotopy)",
+    "ΩA = π₁(A) always",
+    "ΩA is always a set"
+  ],
+  "answer": 1,
+  "explanation": "ΩA = (a=_A a) is the type of loops at a. It has group structure: identity=refl, multiplication=concatenation, inverse=path reversal. It is the loop space — group structure holds up to homotopy.",
+  "tags": [
+    "HoTT",
+    "loop-space"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "6591313c-7679-42b1-8266-335534a5e054"
+}

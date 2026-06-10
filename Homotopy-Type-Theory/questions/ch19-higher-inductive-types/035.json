@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The recursion principle for S¹ maps a function f: S¹→A by giving:",
+  "choices": [
+    "A function ℕ→A",
+    "A point b:A and a path l:b=b (loop at b)",
+    "A section of a fibration over S¹",
+    "A pair of points in A"
+  ],
+  "answer": 1,
+  "explanation": "S¹-rec: b:A, l:b=b → S¹→A with f(base)=b, ap_f(loop)=l.",
+  "tags": [
+    "circle",
+    "hit",
+    "recursion"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "66088522-d72d-4800-b91c-988bed97eef5"
+}

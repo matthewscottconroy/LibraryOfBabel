@@ -1,0 +1,17 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A function f is ___ continuous at x₀ if for every ε>0 there exists δ>0 such that |x-y|<δ implies |f(x)-f(y)|<ε for ALL x,y in the domain.",
+  "choices": [
+    "uniformly",
+    "uniformly continuous"
+  ],
+  "answer": "uniformly",
+  "explanation": "Uniform continuity is global: the same δ works for all points simultaneously, unlike pointwise continuity where δ may depend on x₀.",
+  "tags": [
+    "analysis"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "3239406f-7023-443e-b365-65ad31d12b71"
+}

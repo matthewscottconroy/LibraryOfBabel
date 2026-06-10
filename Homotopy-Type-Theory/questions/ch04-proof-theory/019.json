@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In sequent calculus LK (Gentzen), the weakening rule allows:",
+  "choices": [
+    "removing a formula from a sequent",
+    "adding an arbitrary formula to the antecedent or succedent",
+    "permuting formulas",
+    "contracting two identical formulas"
+  ],
+  "answer": 1,
+  "explanation": "Weakening (W): Γ⊢Δ ⇒ Γ,A⊢Δ (left) or Γ⊢A,Δ (right). It allows adding unused hypotheses or adding conclusions. Together with contraction and exchange it gives structural rules.",
+  "tags": [
+    "proof-theory",
+    "sequent-calculus"
+  ],
+  "difficulty": "beginner",
+  "question_id": "7d33ab6b-de71-433a-830f-29e5330ef467"
+}

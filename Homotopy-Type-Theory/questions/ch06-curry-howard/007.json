@@ -1,0 +1,19 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Under Curry-Howard, what type corresponds to the logical proposition ⊥ (falsehood)?",
+  "choices": [
+    "The unit type 1",
+    "The empty type 0 (Void)",
+    "The natural numbers ℕ",
+    "The type of booleans"
+  ],
+  "answer": 1,
+  "explanation": "⊥ corresponds to the empty type: there are no inhabitants (no proofs). A function from the empty type to anything (ex falso) is the eliminator.",
+  "tags": [
+    "curry-howard"
+  ],
+  "difficulty": "beginner",
+  "question_id": "b195bdc9-3c4e-45c6-adbb-73ed9d604916"
+}

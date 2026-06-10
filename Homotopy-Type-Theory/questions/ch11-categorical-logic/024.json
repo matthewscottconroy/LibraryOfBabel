@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A locally Cartesian closed category (LCCC) models which type theory?",
+  "choices": [
+    "STLC",
+    "System F",
+    "Martin-Löf dependent type theory (extensional)",
+    "Linear type theory"
+  ],
+  "answer": 2,
+  "explanation": "Seely's theorem: LCCCs model extensional MLTT with Π, Σ, and identity types.",
+  "tags": [
+    "lccc",
+    "mltt",
+    "categorical-semantics"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4ff74f1b-359f-4d6c-80c5-193ff027692f"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The 'Glue' type in Cubical Agda is used to:",
+  "choices": [
+    "glue two simplicial sets",
+    "prove that the universe is Kan (give computation rules for ua)",
+    "define the interval",
+    "handle partial elements"
+  ],
+  "answer": 1,
+  "explanation": "Glue[i=0↦(A,e)] B provides the 'gluing' that makes the universe fibrant — it gives ua its computation rule and proves univalence internally.",
+  "tags": [
+    "Cubical-Agda",
+    "univalence",
+    "Glue"
+  ],
+  "difficulty": "advanced",
+  "question_id": "fef26f59-094d-45e0-b635-be8ac8692257"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A 1-type (groupoid) in HoTT is a type A where all identity types a=b are:",
+  "choices": [
+    "Contractible",
+    "Mere propositions",
+    "Sets",
+    "1-types"
+  ],
+  "answer": 2,
+  "explanation": "1-types (groupoids) have isSet(a=b) for all a,b; i.e. h-level 3 in Voevodsky's indexing.",
+  "tags": [
+    "1-type",
+    "groupoid",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "bb28e674-6859-4c22-ba71-470a34e0adad"
+}

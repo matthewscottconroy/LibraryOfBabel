@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Krull-Schmidt theorem says: in a group with ACC and DCC on subgroups, any two direct product decompositions into indecomposable factors are:",
+  "choices": [
+    "equal",
+    "isomorphic (the factors are the same up to order and isomorphism)",
+    "related by a group automorphism",
+    "always finite"
+  ],
+  "answer": 1,
+  "explanation": "Krull-Schmidt: decompositions into indecomposable direct factors are unique up to permutation and isomorphism (analogous to unique factorisation for groups).",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "advanced",
+  "question_id": "7a5a31a5-9e02-4983-b6a4-d5e8986acf0f"
+}

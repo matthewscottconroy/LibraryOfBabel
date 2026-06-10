@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The classifying space BG of a discrete group G is the geometric realisation of:",
+  "choices": [
+    "The nerve of G viewed as a one-object groupoid",
+    "The nerve of the poset G",
+    "The simplicial set with all simplices = G",
+    "The suspension of G"
+  ],
+  "answer": 0,
+  "explanation": "BG = |N(BG_cat)| where BG_cat is the category with one object and morphisms G.",
+  "tags": [
+    "classifying-space",
+    "nerve",
+    "group"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "6ce601c4-1cdb-463c-91a6-57017adf4f0a"
+}

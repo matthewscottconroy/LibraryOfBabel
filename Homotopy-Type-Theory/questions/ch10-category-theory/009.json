@@ -1,0 +1,19 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An initial object I in a category C satisfies:",
+  "choices": [
+    "there is exactly one morphism from any A to I",
+    "there is exactly one morphism from I to any A",
+    "I is isomorphic to all other objects",
+    "I has no morphisms"
+  ],
+  "answer": 1,
+  "explanation": "I is initial if for every A there is a unique morphism !: I → A. Dually, a terminal object T has a unique morphism !: A → T from any A.",
+  "tags": [
+    "category-theory"
+  ],
+  "difficulty": "beginner",
+  "question_id": "bdcffcc8-08ae-46ca-a082-5b8f3b18c886"
+}

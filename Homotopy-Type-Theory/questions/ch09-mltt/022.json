@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Martin-Löf's predicative type theory stratifies types into a hierarchy of universes to avoid:",
+  "choices": [
+    "Computational inefficiency",
+    "Girard's paradox (Type : Type)",
+    "The halting problem",
+    "Undecidable type inference"
+  ],
+  "answer": 1,
+  "explanation": "Universe stratification (𝒰₀ : 𝒰₁ : …) is the standard fix for Girard's paradox.",
+  "tags": [
+    "mltt",
+    "universes",
+    "predicativity"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d842a27b-9113-4941-9b70-21c12034cd8a"
+}

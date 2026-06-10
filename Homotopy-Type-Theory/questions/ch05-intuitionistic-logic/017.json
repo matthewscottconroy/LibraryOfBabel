@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The function extensionality principle (if f(x)=g(x) for all x then f=g) is:",
+  "choices": [
+    "a theorem of IPC",
+    "a theorem of ZFC",
+    "not provable in MLTT without axioms (it must be added as an axiom or derived from interval types)",
+    "equivalent to LEM"
+  ],
+  "answer": 2,
+  "explanation": "In MLTT/HoTT, funext is not provable from J alone. It can be added as an axiom or derived from the interval HIT. In Cubical Type Theory it is a theorem.",
+  "tags": [
+    "intuitionistic",
+    "MLTT"
+  ],
+  "difficulty": "advanced",
+  "question_id": "d9dfcfce-209a-47dc-aebf-f5ab744cadd7"
+}

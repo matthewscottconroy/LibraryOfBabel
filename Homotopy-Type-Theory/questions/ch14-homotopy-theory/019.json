@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The n-th homotopy group πₙ(X, x₀) for n ≥ 2 is always:",
+  "choices": [
+    "Non-abelian",
+    "Abelian",
+    "Trivial",
+    "Finitely generated"
+  ],
+  "answer": 1,
+  "explanation": "Eckmann-Hilton argument: πₙ(X) is abelian for n ≥ 2.",
+  "tags": [
+    "homotopy-groups",
+    "abelian"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "9664913c-52f5-4f34-9649-cae496dec7d9"
+}

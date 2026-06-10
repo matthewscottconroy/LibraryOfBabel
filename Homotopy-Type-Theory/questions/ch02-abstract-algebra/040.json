@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The symmetric group Sₙ has order:",
+  "choices": [
+    "n",
+    "2n",
+    "n!",
+    "2^n"
+  ],
+  "answer": 2,
+  "explanation": "|Sₙ| = n! (number of bijections {1,…,n}→{1,…,n}).",
+  "tags": [
+    "symmetric-group",
+    "group-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "b4698c3b-e1a2-491f-90d0-c2ac2918f503"
+}

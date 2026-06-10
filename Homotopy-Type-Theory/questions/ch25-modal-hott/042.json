@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In differential cohesive HoTT, the 'de Rham shape' ʃ_inf A is used to define:",
+  "choices": [
+    "The shape modality of A",
+    "Synthetic differential forms on A (by pulling back along ʃ_inf → id)",
+    "The loop space of A",
+    "The classifying space of A"
+  ],
+  "answer": 1,
+  "explanation": "ʃ_inf A models the de Rham stack: functions A→ʃ_inf A correspond to flat/closed differential forms.",
+  "tags": [
+    "differential-cohesion",
+    "de-rham-shape",
+    "modal-hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "59b32777-ed18-432d-89a3-35bc225f6f59"
+}

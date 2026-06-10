@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The suspension ΣX of a space X is homotopy equivalent to:",
+  "choices": [
+    "X × S¹",
+    "The double cone on X (X×I with both ends collapsed)",
+    "The product X × I",
+    "The free loop space of X"
+  ],
+  "answer": 1,
+  "explanation": "ΣX = X×I / (X×{0} ~ pt, X×{1} ~ pt): the unreduced suspension.",
+  "tags": [
+    "suspension",
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "bfbfdaa7-01a4-4718-bcf8-f2946a0ed474"
+}

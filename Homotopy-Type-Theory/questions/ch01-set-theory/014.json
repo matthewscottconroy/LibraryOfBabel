@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The von Neumann hierarchy Vα is defined by:",
+  "choices": [
+    "V₀=∅, Vα+1=Vα∪{Vα}, Vλ=⋃{Vα|α<λ}",
+    "V₀=∅, Vα+1=𝒫(Vα), Vλ=⋃{Vα|α<λ}",
+    "V₀={∅}, Vα+1=𝒫(Vα)×Vα",
+    "Vα = {x | rank(x)=α}"
+  ],
+  "answer": 1,
+  "explanation": "V₀=∅, Vα+1=𝒫(Vα), Vλ=⋃_{α<λ}Vα. The foundation axiom ensures every set appears in Vα for some ordinal α.",
+  "tags": [
+    "set-theory",
+    "ordinals"
+  ],
+  "difficulty": "advanced",
+  "question_id": "3dfe39b8-9872-4e31-abed-47dc989e8ffb"
+}

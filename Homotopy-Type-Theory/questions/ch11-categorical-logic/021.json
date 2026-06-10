@@ -1,0 +1,19 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Every Grothendieck topos is an elementary topos.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Grothendieck toposes (sheaf categories on a site) satisfy the elementary topos axioms.",
+  "tags": [
+    "grothendieck-topos",
+    "topos"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "7aeb7a44-0d61-4a0d-8c0b-c5da3eed23ef"
+}

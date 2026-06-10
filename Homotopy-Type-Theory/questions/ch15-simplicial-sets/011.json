@@ -1,0 +1,20 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The singular complex Sing(X) of a topological space X is a simplicial set whose n-simplices are:",
+  "choices": [
+    "the points of X",
+    "continuous maps |Δⁿ| → X (singular n-simplices)",
+    "homotopy classes of maps Sⁿ → X",
+    "n-simplices of a CW decomposition of X"
+  ],
+  "answer": 1,
+  "explanation": "Sing(X)_n = Top(|Δ[n]|, X). The singular complex is the right adjoint to |−|. Its geometric realisation |Sing(X)| is weakly homotopy equivalent to X.",
+  "tags": [
+    "simplicial-sets",
+    "singular-complex"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "d9b2a151-efda-445b-b21c-24b0aad641fc"
+}

@@ -1,0 +1,18 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Under ZFC, the Continuum Hypothesis (CH) is provably true.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "CH (2^ℵ₀=ℵ₁) is independent of ZFC: Gödel showed ZFC+CH is consistent, and Cohen showed ZFC+¬CH is consistent.",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "ebe7e935-8972-467f-9129-cf0c85603867"
+}

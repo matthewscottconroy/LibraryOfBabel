@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A modality in HoTT that is both a monad and a comonad is called:",
+  "choices": [
+    "An idempotent monad only",
+    "A Frobenius monad or a bireflection",
+    "A truncation",
+    "An equivalence"
+  ],
+  "answer": 1,
+  "explanation": "A modality that is both left and right adjoint to the inclusion is Frobenius; pure examples are rare.",
+  "tags": [
+    "modal-hott",
+    "frobenius",
+    "modality"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "54f37aac-2176-4397-99cc-e2322bb25914"
+}

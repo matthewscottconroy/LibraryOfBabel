@@ -1,0 +1,23 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `ext` tactic in Lean 4 proves equality of functions/structures by:",
+  "choices": [
+    "Applying reflexivity",
+    "Extensionality: reducing f=g to ∀x, f(x)=g(x)",
+    "Unfolding definitions",
+    "Applying congruence"
+  ],
+  "answer": 1,
+  "explanation": "`ext` applies function extensionality (or structure extensionality) lemmas.",
+  "tags": [
+    "lean4",
+    "ext",
+    "tactics",
+    "extensionality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "90e87246-e71b-43ae-bc1d-c2d1467cc524"
+}

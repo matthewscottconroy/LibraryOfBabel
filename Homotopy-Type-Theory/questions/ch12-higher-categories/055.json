@@ -1,0 +1,21 @@
+{
+  "question_id": "17a1281e-a14e-4340-b257-5c3c6f52de5d",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In HoTT, every type A carries the structure of an ∞-groupoid where the morphisms are:",
+  "choices": [
+    "the elements of A",
+    "the paths a = b (identity types)",
+    "the functions A → A",
+    "the propositions about A"
+  ],
+  "answer": 1,
+  "explanation": "Types are ∞-groupoids: paths (1-morphisms), paths-of-paths (2-morphisms), etc. This is the core of the HoTT interpretation of type theory.",
+  "tags": [
+    "hott",
+    "infinity-groupoid"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

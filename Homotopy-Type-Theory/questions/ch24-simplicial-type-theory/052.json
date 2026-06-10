@@ -1,0 +1,19 @@
+{
+  "question_id": "7b95ffcc-b805-4db4-96ff-f8bb67b59f34",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "tf",
+  "text": "In a Rezk type (complete Segal space), isomorphic objects are equal.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Completeness = the Rezk condition: isomorphisms a ≅ b imply equality a = b. This is the synthetic analog of univalence for (∞,1)-categories.",
+  "tags": [
+    "complete-segal-space",
+    "simplicial-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

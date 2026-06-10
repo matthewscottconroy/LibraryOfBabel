@@ -1,0 +1,17 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Every 1-category can be viewed as a (∞,1)-category where all hom-spaces are discrete (sets with trivial homotopy).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Any ordinary category C becomes a (∞,1)-category by taking all hom-spaces as discrete Kan complexes (sets). The nerve N(C) is already a 1-Segal simplicial set.",
+  "tags": [
+    "higher-categories"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "9962927c-1ad9-45cf-9f69-e672ca5bcd4c"
+}

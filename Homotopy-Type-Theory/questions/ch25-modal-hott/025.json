@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In modal type theory (MTT, Gratzer et al.), modalities are handled by a context extension. A context Γ,⟨μ⟩ means:",
+  "choices": [
+    "The context Γ restricted to the μ-mode",
+    "Γ with an additional modal variable",
+    "Γ with μ applied to the last type",
+    "A context of μ-modal types"
+  ],
+  "answer": 0,
+  "explanation": "In MTT, ⟨μ⟩ in context records the modal annotation; variables under ⟨μ⟩ can only be used in μ-modal positions.",
+  "tags": [
+    "modal-type-theory",
+    "mtt",
+    "context"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "d7271214-1fe7-401d-a309-e1ffc5c42ff3"
+}

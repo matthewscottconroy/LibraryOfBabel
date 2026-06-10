@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In CTT, the system (a term of type `System φ A`) represents:",
+  "choices": [
+    "A proof of φ",
+    "A partial element: a collection of elements over sub-faces of φ that are compatible",
+    "A Glue type",
+    "A path"
+  ],
+  "answer": 1,
+  "explanation": "Systems are compatible families of partial elements on the faces of a cubical boundary.",
+  "tags": [
+    "cubical-type-theory",
+    "system",
+    "partial"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "38d05cbc-09ce-4143-ba89-17207e0a3bb6"
+}

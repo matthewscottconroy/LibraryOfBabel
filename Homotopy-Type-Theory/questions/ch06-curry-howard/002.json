@@ -1,0 +1,19 @@
+{
+  "question_id": "294c8b80-f81f-405e-a3e9-ece5395e3f25",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Under Curry-Howard, ___ elimination corresponds to function application (β-reduction).",
+  "choices": [
+    "→",
+    "implication",
+    "arrow"
+  ],
+  "answer": "→",
+  "explanation": "β-reduction: (λx.t)s ↦ t[s/x] eliminates the →-intro (λ) via →-elim (application).",
+  "tags": [
+    "curry-howard"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Which active programme seeks to unify homotopy theory and representation theory via motivic methods?",
+  "choices": [
+    "Chromatic homotopy theory",
+    "Motivic homotopy theory (Morel-Voevodsky), applied to algebraic K-theory and algebraic geometry",
+    "Synthetic HoTT",
+    "Modal HoTT"
+  ],
+  "answer": 1,
+  "explanation": "Motivic HoTT: extending Voevodsky's univalent foundations to the motivic setting (A¹-homotopy theory).",
+  "tags": [
+    "motivic-homotopy",
+    "voevodsky",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a6e0f281-b3cc-4169-ad5a-be940ceb69f5"
+}

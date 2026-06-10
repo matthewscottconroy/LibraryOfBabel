@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A monomorphism f:A→B in a category is characterised by:",
+  "choices": [
+    "f has a left inverse",
+    "For all g,h: X→A, f∘g=f∘h implies g=h",
+    "f is injective on elements",
+    "f has a right inverse"
+  ],
+  "answer": 1,
+  "explanation": "Mono: left-cancellable morphisms generalise injections.",
+  "tags": [
+    "monomorphism",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0c62edf4-8e8c-46f8-9254-4c614064402e"
+}

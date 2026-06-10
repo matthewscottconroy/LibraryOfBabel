@@ -1,0 +1,21 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Linear logic (Girard) differs from IPC by treating hypotheses as:",
+  "choices": [
+    "Universal",
+    "Resources that must be used exactly once (unless explicitly duplicated with !A)",
+    "Classical",
+    "Propositions only"
+  ],
+  "answer": 1,
+  "explanation": "Linear logic is resource-sensitive: each hypothesis is a resource used once. ! (bang) allows unrestricted use.",
+  "tags": [
+    "linear-logic",
+    "girard"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "7dc34fc9-d083-484c-95d6-4aaf797a0781"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The torus T² is homeomorphic to:",
+  "choices": [
+    "S²",
+    "S¹×S¹",
+    "ℝ²",
+    "The projective plane"
+  ],
+  "answer": 1,
+  "explanation": "The torus T² = S¹×S¹ (product of two circles).",
+  "tags": [
+    "torus",
+    "topology"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "14ad4efc-1d16-4370-934a-3cc7864b8d0d"
+}

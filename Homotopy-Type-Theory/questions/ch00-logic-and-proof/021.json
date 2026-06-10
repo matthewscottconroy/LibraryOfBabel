@@ -1,0 +1,18 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A proof system is ___ if every formula provable in it is a tautology.",
+  "choices": [
+    "sound",
+    "correct"
+  ],
+  "answer": "sound",
+  "explanation": "Soundness: ⊢ φ ⟹ ⊨ φ. A sound system never proves false things. Completeness is the converse: ⊨ φ ⟹ ⊢ φ.",
+  "tags": [
+    "logic",
+    "proof-theory"
+  ],
+  "difficulty": "beginner",
+  "question_id": "92e3808d-b4df-4e29-a6a6-6188a90384eb"
+}

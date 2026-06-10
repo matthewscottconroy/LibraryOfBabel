@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The type inference algorithm W (Damas-Milner) runs in which time complexity?",
+  "choices": [
+    "Polynomial in the term size",
+    "Exponential in the worst case, but almost linear in practice",
+    "Linear always",
+    "Doubly exponential"
+  ],
+  "answer": 1,
+  "explanation": "W is worst-case exponential (type sizes can blow up) but efficient in practice.",
+  "tags": [
+    "hindley-milner",
+    "type-inference",
+    "algorithm-w"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "c4308f98-95a8-4ab6-8dad-f84014ef88b2"
+}

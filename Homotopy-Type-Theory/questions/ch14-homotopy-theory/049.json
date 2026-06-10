@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The thick subcategory theorem (Hopkins-Smith) classifies thick subcategories of the stable homotopy category by:",
+  "choices": [
+    "Subgroups of π*(S)",
+    "Type: a sequence of invariants related to the Morava K-theories K(n)",
+    "Cohomology theories",
+    "Chromatic filtration"
+  ],
+  "answer": 1,
+  "explanation": "Hopkins-Smith: thick subcategories of fin. spectra correspond to types 0,1,2,… defined by K(n)-acyclicity.",
+  "tags": [
+    "thick-subcategory",
+    "chromatic-homotopy",
+    "stable-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "0832b722-8e68-4070-83b0-f919252f7304"
+}

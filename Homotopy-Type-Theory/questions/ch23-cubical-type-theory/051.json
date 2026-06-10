@@ -1,0 +1,20 @@
+{
+  "question_id": "f1de419f-baab-4c2d-9205-78a36dabe747",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "tf",
+  "text": "In cubical type theory (CCHM), the univalence axiom is a theorem, not a postulated axiom.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Uniquely among type theories, CCHM makes univalence computable: it follows from the Glue type and the interval. There is no need to postulate it separately.",
+  "tags": [
+    "univalence",
+    "cubical-type-theory",
+    "cchm"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

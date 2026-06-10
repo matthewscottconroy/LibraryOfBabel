@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In cohesive HoTT (Schreiber-Shulman), the modality ʃ (shape) is:",
+  "choices": [
+    "The homotopy type of the underlying discrete space",
+    "Left adjoint to the discrete modality, sending a cohesive type to its path-connected components",
+    "The flat modality",
+    "A truncation"
+  ],
+  "answer": 1,
+  "explanation": "ʃ (sharp shape / pi naught cohesive) is the left adjoint of the discrete inclusion.",
+  "tags": [
+    "modal-hott",
+    "cohesive-hott",
+    "shape-modality"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "977680a5-73eb-4146-95a4-7ec320837843"
+}

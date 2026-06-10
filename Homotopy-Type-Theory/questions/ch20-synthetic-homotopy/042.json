@@ -1,0 +1,23 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The suspension-loop adjunction in HoTT says that for well-behaved types, maps [ΣX, Y]₀ ≃:",
+  "choices": [
+    "[X, ΩY]₀ (pointed maps from X to the loop space of Y)",
+    "[X, Y]₀",
+    "[X×Y, *]₀",
+    "[ΩX, ΩY]₀"
+  ],
+  "answer": 0,
+  "explanation": "Σ ⊣ Ω: pointed maps ΣX→Y correspond to pointed maps X→ΩY.",
+  "tags": [
+    "suspension",
+    "loop-space",
+    "adjunction",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e131f6e9-6407-476e-9853-c5d5a7c20be4"
+}

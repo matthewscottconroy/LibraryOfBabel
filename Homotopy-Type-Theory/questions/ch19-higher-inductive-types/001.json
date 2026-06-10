@@ -1,0 +1,22 @@
+{
+  "question_id": "08704e56-83a4-471a-9275-77149e412244",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The circle S¹ as a HIT has constructors:",
+  "choices": [
+    "base : S¹, and loop : base = base",
+    "north : S¹, south : S¹",
+    "zero : S¹, succ : S¹ → S¹",
+    "node : S¹, edge : S¹ → S¹ → S¹"
+  ],
+  "answer": 0,
+  "explanation": "S¹ = {base : S¹, loop : base = base}. One point constructor, one path constructor (a loop).",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "circle"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

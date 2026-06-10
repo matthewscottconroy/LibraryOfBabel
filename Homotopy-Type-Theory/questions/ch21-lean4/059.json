@@ -1,0 +1,20 @@
+{
+  "question_id": "04e4b458-3e9d-49d8-92ff-be7e8c6d5c26",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "blank",
+  "text": "In Lean 4, the tactic that splits a goal of the form P ∧ Q into two subgoals P and Q is ___.",
+  "choices": [
+    "constructor",
+    "And.intro",
+    "exact ⟨_, _⟩"
+  ],
+  "answer": "constructor",
+  "explanation": "`constructor` applies the first constructor of an inductive type to the goal. For P ∧ Q (= And P Q), this splits into two goals: P and Q.",
+  "tags": [
+    "Lean4",
+    "tactics"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

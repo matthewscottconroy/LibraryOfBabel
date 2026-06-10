@@ -1,0 +1,20 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The adjoint functor theorem in simplicial type theory (Riehl-Shulman) states: a functor F:A→B between Rezk types has a right adjoint iff:",
+  "choices": [
+    "F is fully faithful",
+    "F preserves all colimits and A is locally small",
+    "F has a representable left comma type (i.e., the slice B/Fa is representable for each a)",
+    "B is contractible"
+  ],
+  "answer": 2,
+  "explanation": "In STT, F⊣G iff for each b:B, the type Σ(a:A). hom_B(Fa, b) is representable (its universal element gives the right adjoint G(b)). This is a synthetic version of the universal mapping property.",
+  "tags": [
+    "simplicial-TT",
+    "adjunctions"
+  ],
+  "difficulty": "advanced",
+  "question_id": "ccef54d5-2d55-4b8c-b41c-67a98d2432c5"
+}

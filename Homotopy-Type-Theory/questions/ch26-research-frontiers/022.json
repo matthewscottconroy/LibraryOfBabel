@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'HoTT Book' Chapter 15 mentions open problems. Which of the following is a known open question?",
+  "choices": [
+    "Whether π₁(S¹)≅ℤ",
+    "Whether HoTT + UA is consistent (proved by simplicial set model)",
+    "Whether all cohomology operations in HoTT are representable",
+    "Whether funext holds"
+  ],
+  "answer": 2,
+  "explanation": "Representability of all cohomology operations (steenrod operations, etc.) in HoTT is an open problem.",
+  "tags": [
+    "open-problems",
+    "hott",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "69c89dd0-a130-420c-ad9e-429fa2da6a60"
+}

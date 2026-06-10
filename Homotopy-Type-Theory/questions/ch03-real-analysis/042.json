@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The mean value theorem states: if f is continuous on [a,b] and differentiable on (a,b), then there exists c∈(a,b) with:",
+  "choices": [
+    "f(c) = (f(a)+f(b))/2",
+    "f′(c) = (f(b)-f(a))/(b-a)",
+    "f′(c) = 0",
+    "f(c) = 0"
+  ],
+  "answer": 1,
+  "explanation": "MVT: the derivative equals the average rate of change at some interior point.",
+  "tags": [
+    "mvt",
+    "differentiation"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "179250c0-8386-41b3-bbc3-37771a180e3a"
+}

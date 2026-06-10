@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which rule is NOT one of Gentzen's structural rules in LK?",
+  "choices": [
+    "Weakening",
+    "Contraction",
+    "Exchange",
+    "Cut elimination"
+  ],
+  "answer": 3,
+  "explanation": "Structural rules: weakening, contraction, exchange. Cut is a logical (not structural) rule, and cut elimination is a theorem, not a rule.",
+  "tags": [
+    "structural-rules",
+    "sequent-calculus"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0e6f9499-97b1-4fd7-a792-6d1aae4f97ac"
+}

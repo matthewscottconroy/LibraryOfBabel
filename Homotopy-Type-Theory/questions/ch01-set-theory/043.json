@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The continuum hypothesis (CH) states:",
+  "choices": [
+    "2^{ℵ₀} = ℵ₂",
+    "There is no cardinal strictly between ℵ₀ and 2^{ℵ₀}",
+    "ℵ₀ = ℵ₁",
+    "Every set is countable or has size 2^{ℵ₀}"
+  ],
+  "answer": 1,
+  "explanation": "CH: no cardinal κ with ℵ₀ < κ < 2^{ℵ₀}; equivalently, 2^{ℵ₀} = ℵ₁.",
+  "tags": [
+    "continuum-hypothesis",
+    "cardinals"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "977e57c8-c2dd-4584-810c-81dbd3997920"
+}

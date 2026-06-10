@@ -1,0 +1,21 @@
+{
+  "question_id": "51bbd1c5-bb8e-4165-bfb3-e477223c64fb",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Hopf fibration S¹ → S³ → S² implies π₃(S²) is:",
+  "choices": [
+    "0",
+    "ℤ/2ℤ",
+    "ℤ",
+    "ℤ×ℤ"
+  ],
+  "answer": 2,
+  "explanation": "Via the LES of the fibration: π₃(S¹)=0, π₃(S³)=ℤ, π₂(S¹)=0 gives 0→ℤ→π₃(S²)→0, so π₃(S²)=ℤ.",
+  "tags": [
+    "homotopy",
+    "Hopf"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Brown representability theorem states that a cohomology theory h^n(-) on CW complexes is represented by:",
+  "choices": [
+    "A chain complex",
+    "A spectrum (a sequence of spaces Eₙ with ΩEₙ₊₁≃Eₙ)",
+    "A graded ring",
+    "An abelian group"
+  ],
+  "answer": 1,
+  "explanation": "Brown: every cohomology theory on CW-pairs is represented by a spectrum E: h^n(X)=[X,Eₙ].",
+  "tags": [
+    "brown-representability",
+    "spectrum",
+    "cohomology"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a73cfaa1-0e18-46bc-a94b-d41e6bcf3aa4"
+}

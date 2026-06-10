@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Markov's Principle (MP) states: if ¬¬∃n.P(n) for a decidable P, then:",
+  "choices": [
+    "∃n.¬P(n)",
+    "∀n.P(n)",
+    "∃n.P(n)",
+    "¬∃n.P(n)"
+  ],
+  "answer": 2,
+  "explanation": "MP: if it is not the case that all n fail P, then some n satisfies P. Not provable in IPC; accepted in Russian constructivism. Equivalent to: a halting program eventually halts.",
+  "tags": [
+    "intuitionistic",
+    "constructivism"
+  ],
+  "difficulty": "advanced",
+  "question_id": "2e4442b3-b3b5-4dfd-b618-cbf9499cc6d8"
+}

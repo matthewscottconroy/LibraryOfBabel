@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Street-Roberts conjecture (now theorem) states that ω-categories are equivalent to:",
+  "choices": [
+    "Strict ω-groupoids",
+    "Complicial sets",
+    "Simplicial sets",
+    "Quasi-categories"
+  ],
+  "answer": 1,
+  "explanation": "Roberts-Street: strict ω-categories are equivalent to complicial sets (stratified simplicial sets).",
+  "tags": [
+    "omega-category",
+    "complicial-set",
+    "higher-categories"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4ee8ca0a-1972-4f25-802c-d0298ada5405"
+}

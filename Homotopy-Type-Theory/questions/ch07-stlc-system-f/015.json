@@ -1,0 +1,20 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Hindley-Milner type system is obtained from System F by restricting polymorphism to:",
+  "choices": [
+    "rank-1 polymorphism (∀ only at outermost positions in let-bindings)",
+    "monomorphism",
+    "higher-rank polymorphism",
+    "type class polymorphism only"
+  ],
+  "answer": 0,
+  "explanation": "Hindley-Milner restricts to rank-1 (prenex) polymorphism: type variables are only quantified at the top level in let-definitions. This makes type inference decidable (Algorithm W).",
+  "tags": [
+    "STLC",
+    "type-inference"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "7309a224-cdb1-4038-8506-ca8bf4653a94"
+}

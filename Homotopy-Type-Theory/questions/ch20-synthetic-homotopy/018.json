@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Synthetic homotopy theory studies homotopy theory by:",
+  "choices": [
+    "Working in a classical set-theoretic framework",
+    "Working directly in HoTT, using types as spaces and paths as homotopies",
+    "Constructing explicit CW complexes",
+    "Using algebraic topology over a field"
+  ],
+  "answer": 1,
+  "explanation": "Synthetic HT: within HoTT, types are spaces, paths are homotopies, and theorems are proved type-theoretically.",
+  "tags": [
+    "synthetic-homotopy",
+    "hott"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "0ef9cf40-1aa8-474f-9d58-53666e56b87f"
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "6dc0dc1f-249b-4b24-a877-3f4743d1c998",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "tf",
+  "text": "The adjunction ∫ ⊣ ♭ ⊣ ♯ means that shape is left adjoint to flat, and flat is left adjoint to sharp.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "In cohesive HoTT: shape ∫ ⊣ flat ♭ ⊣ sharp ♯. These three modalities capture the cohesive structure (differential-geometric intuition) of the types.",
+  "tags": [
+    "cohesive-hott",
+    "modality"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

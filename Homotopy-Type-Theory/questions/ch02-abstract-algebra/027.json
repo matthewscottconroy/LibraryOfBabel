@@ -1,0 +1,18 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every PID (principal ideal domain) is a UFD.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "PID ⊂ UFD: in a PID every irreducible is prime (ascending chain condition), giving unique factorisation. The converse fails: ℤ[x] is a UFD but not a PID.",
+  "tags": [
+    "algebra",
+    "rings"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "df92598f-1542-4a92-88ef-6449011ddcbe"
+}

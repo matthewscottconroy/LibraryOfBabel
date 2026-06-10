@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The subformula property, a consequence of cut elimination, states:",
+  "choices": [
+    "Every formula appears in the conclusion",
+    "Every formula in a cut-free proof is a subformula of the endsequent",
+    "Cut-free proofs are shorter",
+    "Every proof has a unique normal form"
+  ],
+  "answer": 1,
+  "explanation": "Subformula property: in cut-free proofs, all formulas used are subformulas of the conclusion.",
+  "tags": [
+    "subformula-property",
+    "cut-elimination"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "4ad6c0a9-9278-4aff-ba68-7bbf893ca490"
+}

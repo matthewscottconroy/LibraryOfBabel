@@ -1,0 +1,18 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "tf",
+  "text": "The category sSet of simplicial sets is a topos.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "sSet = [Δ^op, Set] is the presheaf category on Δ, and every presheaf category is a Grothendieck topos. Its internal logic is intuitionistic (not classical).",
+  "tags": [
+    "simplicial-sets",
+    "topos"
+  ],
+  "difficulty": "advanced",
+  "question_id": "61f34312-828f-49c8-94a2-fd8cc4f9b720"
+}

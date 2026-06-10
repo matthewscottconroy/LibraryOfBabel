@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Lurie's Higher Algebra, an A∞-space is a space with:",
+  "choices": [
+    "A strictly associative multiplication",
+    "A multiplication associative up to all higher homotopies (an algebra over the A∞-operad)",
+    "Two commutative operations",
+    "A group structure"
+  ],
+  "answer": 1,
+  "explanation": "A∞-spaces have associativity up to coherent higher homotopies; they deloop to loop spaces.",
+  "tags": [
+    "a-infinity",
+    "higher-algebra",
+    "higher-categories"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a958a545-0696-49dd-bada-54660e19fed0"
+}

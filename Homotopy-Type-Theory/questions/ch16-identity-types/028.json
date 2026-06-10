@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The groupoid structure on a type A in HoTT consists of:",
+  "choices": [
+    "A group structure on A",
+    "Reflexivity, symmetry, and transitivity of paths (refl, inv, concat)",
+    "An abelian group structure on π₁(A)",
+    "A monoidal structure on A"
+  ],
+  "answer": 1,
+  "explanation": "Every type in HoTT is an ∞-groupoid: paths form a groupoid with refl, inv, concat and higher coherences.",
+  "tags": [
+    "groupoid",
+    "identity-type",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "ca61595b-f835-4973-99cc-5c6ea1446c70"
+}

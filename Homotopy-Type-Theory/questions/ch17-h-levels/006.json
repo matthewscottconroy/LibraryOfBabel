@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A type A is a proposition (h-level -1) iff:",
+  "choices": [
+    "A has exactly one element",
+    "Π(x y : A). x = y (any two elements are equal)",
+    "A is contractible",
+    "A is an h-set"
+  ],
+  "answer": 1,
+  "explanation": "isProp(A) := Π(x y:A). x=y. A proposition has at most one element (up to homotopy). Examples: True (=1), False (=0), decidable propositions.",
+  "tags": [
+    "HoTT",
+    "h-levels",
+    "propositions"
+  ],
+  "difficulty": "beginner",
+  "question_id": "78c56baf-5974-4e83-8cda-dab072de6c08"
+}

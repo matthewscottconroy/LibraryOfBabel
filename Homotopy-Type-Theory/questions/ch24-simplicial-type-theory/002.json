@@ -1,0 +1,21 @@
+{
+  "question_id": "d45330ab-4405-40eb-9259-34b9cb12ae6e",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A Rezk type (complete Segal space) satisfies: isomorphic objects are:",
+  "choices": [
+    "equivalent but not necessarily equal",
+    "equal (connected by a path in the type)",
+    "both contractible",
+    "identical by definition"
+  ],
+  "answer": 1,
+  "explanation": "Rezk / completeness: (a=b) ≃ Iso(a,b). Equal ≡ isomorphic. This is univalence for ∞-categories.",
+  "tags": [
+    "simplicial-TT",
+    "Rezk"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

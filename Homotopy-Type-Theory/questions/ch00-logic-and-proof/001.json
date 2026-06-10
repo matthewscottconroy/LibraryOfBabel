@@ -1,0 +1,20 @@
+{
+  "question_id": "40bf6ac9-b039-4330-8b65-25b2bb4d84bf",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A proof by contradiction assumes the ___ of the conclusion and derives a contradiction.",
+  "choices": [
+    "converse",
+    "negation",
+    "contrapositive",
+    "obverse"
+  ],
+  "answer": 1,
+  "explanation": "Proof by contradiction (reductio ad absurdum) assumes ¬P and derives ⊥.",
+  "tags": [
+    "logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

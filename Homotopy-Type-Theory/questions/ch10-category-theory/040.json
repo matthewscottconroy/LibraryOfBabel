@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The free category on a directed graph G has G's vertices as objects and ______ as morphisms.",
+  "choices": [
+    "paths (finite sequences of composable edges) in G",
+    "edges of G",
+    "paths of length ≤2",
+    "only identity paths"
+  ],
+  "answer": "paths (finite sequences of composable edges) in G",
+  "explanation": "Free category: morphisms are finite composable paths; composition is concatenation.",
+  "tags": [
+    "free-category",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "78e101e2-6e75-4492-a55a-2c1c9e8cced2"
+}

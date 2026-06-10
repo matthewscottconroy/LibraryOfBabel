@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, `hProp` is:",
+  "choices": [
+    "A type alias for Bool",
+    "The type of mere propositions: Σ(A:Type). isProp A",
+    "A module",
+    "The interval type"
+  ],
+  "answer": 1,
+  "explanation": "hProp = Σ(A:Type). isProp A: the type of propositions.",
+  "tags": [
+    "cubical-agda",
+    "hProp",
+    "proposition"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "e921fcaf-75b5-40df-99c6-ce5869562cbb"
+}

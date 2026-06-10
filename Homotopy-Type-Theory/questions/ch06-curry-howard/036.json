@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Under Curry-Howard, the coproduct type A+B corresponds to:",
+  "choices": [
+    "A∧B",
+    "A→B",
+    "A∨B",
+    "¬A"
+  ],
+  "answer": 2,
+  "explanation": "Sum/coproduct type A+B corresponds to disjunction A∨B.",
+  "tags": [
+    "curry-howard",
+    "sum-type",
+    "disjunction"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "56cc5e7d-0dad-4a33-90b4-a028f6519ba5"
+}

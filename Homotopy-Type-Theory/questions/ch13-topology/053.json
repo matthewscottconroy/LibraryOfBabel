@@ -1,0 +1,21 @@
+{
+  "question_id": "78b41444-3828-4371-8d63-76910704a936",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The van Kampen theorem computes π₁(X ∪_C Y) when C = X ∩ Y is path-connected as:",
+  "choices": [
+    "π₁(X) × π₁(Y)",
+    "π₁(X) ∗ π₁(Y) (free product)",
+    "π₁(X) ∗_{π₁(C)} π₁(Y) (amalgamated free product)",
+    "π₁(X) / π₁(Y)"
+  ],
+  "answer": 2,
+  "explanation": "Van Kampen: π₁(X ∪_C Y) ≅ π₁(X) *_{π₁(C)} π₁(Y). When C is simply connected, this reduces to the free product π₁(X) * π₁(Y). Critical for computing π₁ of CW complexes.",
+  "tags": [
+    "van-kampen",
+    "fundamental-group"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A natural transformation η: F ⇒ G between functors F,G: C→D consists of:",
+  "choices": [
+    "A single morphism F(C)→G(C)",
+    "For each object A in C, a morphism η_A: FA→GA, natural in A",
+    "A functor from the functor category to D",
+    "An adjunction between C and D"
+  ],
+  "answer": 1,
+  "explanation": "η is a family of morphisms satisfying naturality: G(f)∘η_A = η_B∘F(f) for every f:A→B.",
+  "tags": [
+    "natural-transformation",
+    "category-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "b219781c-aa2a-4aa9-9d96-37ebbd447806"
+}

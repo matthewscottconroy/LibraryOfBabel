@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, the Eckmann-Hilton argument shows that Ω²(A,a) is:",
+  "choices": [
+    "Non-abelian",
+    "Abelian (commutativity of 2-loops follows from interchange)",
+    "Trivial",
+    "Isomorphic to π₁"
+  ],
+  "answer": 1,
+  "explanation": "The Eckmann-Hilton argument: two binary operations that interchange give a single abelian operation. Applied to Ω², it shows π₂ is abelian.",
+  "tags": [
+    "eckmann-hilton",
+    "loop-space",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f12ce23d-f48a-4877-8b1a-673acbc426d9"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "68934d3b-e0a6-4fea-9d22-cf202f6a8865",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, the 'simp' tactic:",
+  "choices": [
+    "proves goals by ring axioms",
+    "applies a set of rewrite rules repeatedly until no more apply",
+    "performs induction automatically",
+    "searches for applicable lemmas"
+  ],
+  "answer": 1,
+  "explanation": "'simp' applies simp-lemmas (tagged @[simp]) repeatedly in a left-to-right, bottom-up sweep.",
+  "tags": [
+    "Lean4",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

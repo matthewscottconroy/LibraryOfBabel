@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The type isContr(A) is itself:",
+  "choices": [
+    "Always contractible",
+    "A mere proposition",
+    "A set",
+    "A 1-type"
+  ],
+  "answer": 1,
+  "explanation": "isProp(isContr(A)): any two proofs of contractibility are equal (the centre is uniquely determined).",
+  "tags": [
+    "contractible",
+    "proposition",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "ad91be30-b06d-4a6e-9c99-c3bbe9b20ac1"
+}

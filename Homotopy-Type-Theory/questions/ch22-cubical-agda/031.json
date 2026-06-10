@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, `PathP` is the type of dependent paths. `PathP P p0 p1` represents:",
+  "choices": [
+    "A path from p0 to p1 in P i0",
+    "A path over a type family P : I → Type, from p0 : P i0 to p1 : P i1",
+    "A parametric path",
+    "A path between types"
+  ],
+  "answer": 1,
+  "explanation": "PathP (dependent path) is the cubical generalisation of heterogeneous equality.",
+  "tags": [
+    "cubical-agda",
+    "pathp",
+    "dependent-path"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "fd1f8da0-d301-44f0-b4d6-b0d265993f60"
+}

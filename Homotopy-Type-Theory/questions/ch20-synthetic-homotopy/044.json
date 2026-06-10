@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The smash product X∧Y in HoTT corresponds to which homological operation?",
+  "choices": [
+    "H*(X)⊗H*(Y)",
+    "The cross product in cohomology / tensor product of reduced homology",
+    "The direct sum H*(X)⊕H*(Y)",
+    "The intersection"
+  ],
+  "answer": 1,
+  "explanation": "Künneth: H̃*(X∧Y) ≅ H̃*(X) ⊗ H̃*(Y) (reduced smash product ↔ tensor product of reduced homology).",
+  "tags": [
+    "smash-product",
+    "kunneth",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "97d6187a-f083-4ce0-bba6-00a3e63adb17"
+}

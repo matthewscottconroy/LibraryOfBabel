@@ -1,0 +1,20 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, the interval I has the following De Morgan structure:",
+  "choices": [
+    "~ i, i ∧ j, i ∨ j (complement, min, max) with ~ i0 = i1",
+    "only the successor operation",
+    "only +",
+    "only ∧ and ∨"
+  ],
+  "answer": 0,
+  "explanation": "I has: complement (~ i: ~i0=i1, ~i1=i0), meet (i∧j), and join (i∨j). This is a De Morgan algebra structure, giving Cubical Agda definitional path reversal and Kan operations.",
+  "tags": [
+    "Cubical-Agda",
+    "interval"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "70509acd-8842-440b-bf9d-dd6534936b11"
+}

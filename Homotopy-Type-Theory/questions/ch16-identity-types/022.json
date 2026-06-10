@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The transport function transport^P(p): P(a)→P(b) for a path p:a=b and type family P:A→Type is used to:",
+  "choices": [
+    "Evaluate P at b",
+    "Move elements of a fibre along a path (coerce along p)",
+    "Define dependent functions",
+    "Prove P(a) = P(b) as types"
+  ],
+  "answer": 1,
+  "explanation": "transport^P(p, -): P(a)→P(b) transports elements along the path p in the type family P.",
+  "tags": [
+    "transport",
+    "identity-type",
+    "type-family"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "98cef4f5-0d6a-4e81-b185-9e716013a459"
+}

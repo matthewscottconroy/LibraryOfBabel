@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The substitution lemma in STLC states: if Γ,x:A ⊢ t:B and Γ ⊢ u:A then Γ ⊢ ______.",
+  "choices": [
+    "t[u/x] : B",
+    "u[t/x] : A",
+    "t : A→B",
+    "u : B"
+  ],
+  "answer": "t[u/x] : B",
+  "explanation": "Substitution preserves typing: replacing x by a term of type A in a term of type B yields type B.",
+  "tags": [
+    "stlc",
+    "substitution"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "dec2d9f4-03a8-4575-acb9-e7818b40ae44"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A Heyting algebra is the algebraic structure modelling:",
+  "choices": [
+    "Classical propositional logic",
+    "Intuitionistic propositional logic",
+    "Linear logic",
+    "Modal logic"
+  ],
+  "answer": 1,
+  "explanation": "Heyting algebras are the algebraic semantics of intuitionistic propositional logic; Boolean algebras add LEM.",
+  "tags": [
+    "heyting-algebra",
+    "categorical-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "6386cc18-3003-47d8-b26a-f20dcd17c878"
+}

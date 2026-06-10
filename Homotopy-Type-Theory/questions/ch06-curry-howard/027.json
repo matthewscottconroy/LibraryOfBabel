@@ -1,0 +1,18 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In the Curry-Howard correspondence, the elimination rule for the sum type A+B corresponds to ___ over the two cases.",
+  "choices": [
+    "case analysis",
+    "pattern matching"
+  ],
+  "answer": "case analysis",
+  "explanation": "Sum type (A+B) elimination = case analysis: given p:A+B, prove C by providing proofs of C from A (left case) and C from B (right case). Logically: ∨-elimination.",
+  "tags": [
+    "curry-howard",
+    "types"
+  ],
+  "difficulty": "beginner",
+  "question_id": "598f3999-36f8-41ad-8709-740e66780f26"
+}

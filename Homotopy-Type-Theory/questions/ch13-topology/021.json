@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The fundamental group π₁(X, x₀) of a space X is the group of:",
+  "choices": [
+    "Continuous maps S¹→X",
+    "Homotopy classes of loops based at x₀, with concatenation",
+    "Connected components of X",
+    "Path components"
+  ],
+  "answer": 1,
+  "explanation": "π₁ consists of homotopy classes [γ] of loops γ:([0,1],{0,1})→(X,x₀), composed by concatenation.",
+  "tags": [
+    "fundamental-group",
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d0e32392-9683-4b79-ac57-a2c4f8ce4f57"
+}

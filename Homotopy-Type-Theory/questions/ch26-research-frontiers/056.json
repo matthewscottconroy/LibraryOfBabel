@@ -1,0 +1,19 @@
+{
+  "question_id": "7ee1868e-91cb-477f-8b1c-f6bc73257e75",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "tf",
+  "text": "Directed HoTT aims to extend HoTT to handle ∞-categories (with non-invertible morphisms).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Directed/simplicial HoTT (Riehl-Shulman) adds directed morphisms (hom types) alongside undirected paths. This enables synthetic (∞,1)-category theory inside type theory.",
+  "tags": [
+    "directed",
+    "research-frontiers"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

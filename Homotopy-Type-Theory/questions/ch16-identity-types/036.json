@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The based path induction principle (J) and the path induction from the contractibility of the based path space are:",
+  "choices": [
+    "Inequivalent",
+    "Logically equivalent formulations",
+    "Only propositionally equivalent",
+    "The same axiom stated differently"
+  ],
+  "answer": 1,
+  "explanation": "Both formulations of J are equivalent and can be derived from each other.",
+  "tags": [
+    "j-eliminator",
+    "path-induction",
+    "identity-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0ad6b253-baaf-4c7a-b208-79f668149fe3"
+}

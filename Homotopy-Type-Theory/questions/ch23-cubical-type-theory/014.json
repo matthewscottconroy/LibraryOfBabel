@@ -1,0 +1,20 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Which property does cubical type theory share with HoTT but not classical MLTT?",
+  "choices": [
+    "strong normalisation",
+    "univalence as a theorem (with computational content)",
+    "decidable type checking",
+    "the J rule"
+  ],
+  "answer": 1,
+  "explanation": "MLTT does not have univalence (it must be added as an axiom, breaking canonicity). Cubical TT proves univalence as a theorem (from Glue), with full computational content.",
+  "tags": [
+    "cubical-TT",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "2c65e9da-a741-44a4-9107-9d30dfe63770"
+}

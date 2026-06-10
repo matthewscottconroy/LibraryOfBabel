@@ -1,0 +1,19 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A category C consists of objects, morphisms, and:",
+  "choices": [
+    "a partial order on objects",
+    "composition of morphisms satisfying associativity and identity laws",
+    "a set of functors",
+    "an equivalence relation on morphisms"
+  ],
+  "answer": 1,
+  "explanation": "A category: objects, morphisms (f:A→B), composition (g∘f:A→C), identity morphisms (id_A:A→A), satisfying associativity (h∘(g∘f)=(h∘g)∘f) and unit laws.",
+  "tags": [
+    "category-theory"
+  ],
+  "difficulty": "beginner",
+  "question_id": "5806da1b-7e4d-48cd-8b99-d44cfaf5dd50"
+}

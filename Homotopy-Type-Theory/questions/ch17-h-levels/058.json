@@ -1,0 +1,22 @@
+{
+  "question_id": "f6eb873f-77df-4cfc-bd2f-14e78650f054",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The n-th Postnikov section P_n(A) of a type A is characterized by:",
+  "choices": [
+    "πₖ(P_n(A)) ≅ πₖ(A) for k ≤ n and πₖ(P_n(A)) = 0 for k > n",
+    "P_n(A) is the n-th loop space of A",
+    "P_n(A) is the n-fold suspension of A",
+    "P_n(A) has the same 0-cells as A but no higher cells"
+  ],
+  "answer": 0,
+  "explanation": "Postnikov sections truncate homotopy groups above n. P_n(A) is an n-type with a map A → P_n(A) inducing isomorphisms on πₖ for k≤n. These assemble into the Postnikov tower.",
+  "tags": [
+    "postnikov-tower",
+    "n-types",
+    "h-levels"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

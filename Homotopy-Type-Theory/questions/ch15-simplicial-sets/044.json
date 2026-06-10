@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Mapping spaces in sSet (with Kan-Quillen model structure) are computed using:",
+  "choices": [
+    "The horn filling condition",
+    "The function complex Hom(X,Y) = Map_sSet(X,Y) (internal hom)",
+    "Singular homology",
+    "The adjunction |−|⊣Sing"
+  ],
+  "answer": 1,
+  "explanation": "Map_sSet(X,Y)_n = Hom_sSet(X×Δ[n], Y) is the function complex (mapping space).",
+  "tags": [
+    "simplicial-set",
+    "mapping-space",
+    "function-complex"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "5ee55722-23a0-4c5d-9b5e-fc2dd8bc3ad5"
+}

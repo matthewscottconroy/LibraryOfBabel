@@ -1,0 +1,20 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Lurie's ∞-category theory (quasi-categories), the ∞-category of spaces is the quasi-category of:",
+  "choices": [
+    "all simplicial sets",
+    "Kan complexes",
+    "strict ∞-groupoids",
+    "fibrant-cofibrant objects in sSet"
+  ],
+  "answer": 1,
+  "explanation": "The quasi-category of spaces is the coherent nerve of the simplicial category of Kan complexes. Kan complexes are the ∞-groupoids — they model homotopy types.",
+  "tags": [
+    "higher-categories",
+    "quasi-categories"
+  ],
+  "difficulty": "advanced",
+  "question_id": "cf095d17-c7af-40d0-9fd9-2ea5aac676e4"
+}

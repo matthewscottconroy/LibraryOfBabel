@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The n-th homotopy group πₙ(A,a) in HoTT is defined as ‖Ωⁿ(A,a)‖______.",
+  "choices": [
+    "₀",
+    "₋₁",
+    "₁",
+    "ₙ"
+  ],
+  "answer": "₀",
+  "explanation": "πₙ = ‖Ωⁿ A‖₀: the set-truncation of the n-th iterated loop space.",
+  "tags": [
+    "homotopy-groups",
+    "loop-space",
+    "truncation"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f17e8158-b339-471d-89fe-df1afa4831cd"
+}

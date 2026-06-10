@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A null-homotopy of a map f: X→Y is:",
+  "choices": [
+    "A homotopy between f and the identity",
+    "A homotopy between f and a constant map",
+    "A homotopy between two constant maps",
+    "A deformation retraction"
+  ],
+  "answer": 1,
+  "explanation": "Null-homotopy: H with H(-,0)=f and H(-,1)=const_y₀; f is null-homotopic iff [f]=0 in [X,Y].",
+  "tags": [
+    "null-homotopy",
+    "homotopy"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "38aeb991-7ca7-49de-a78c-8435f5e94c66"
+}

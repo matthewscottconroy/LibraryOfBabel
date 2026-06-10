@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In CTT, the 'regularity' condition on comp is:",
+  "choices": [
+    "comp is always trivial",
+    "comp A u a₀ = a₀ when u is the empty system (φ=0)",
+    "comp commutes with funext",
+    "comp is associative"
+  ],
+  "answer": 1,
+  "explanation": "Regularity: if the partial system is empty (φ=⊥), comp reduces to its base element a₀.",
+  "tags": [
+    "cubical-type-theory",
+    "regularity",
+    "comp"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "f9d8a3a1-37f4-404b-b8bc-a579a2c6e8ab"
+}

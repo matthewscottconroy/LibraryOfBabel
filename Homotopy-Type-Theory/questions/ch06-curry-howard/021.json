@@ -1,0 +1,21 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The continuation monad T[A] = (A→R)→R corresponds under Curry-Howard to:",
+  "choices": [
+    "A∧R",
+    "(A→R)→R — double negation with respect to R, capturing classical reasoning via CPS",
+    "A∨R",
+    "¬A"
+  ],
+  "answer": 1,
+  "explanation": "Continuation monad: (A→R)→R = ¬¬A (where ¬A = A→R). This encodes classical reasoning: CPS (continuation-passing style) corresponds to a double-negation translation.",
+  "tags": [
+    "curry-howard",
+    "continuations",
+    "classical-logic"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "fd0f031f-c846-48d1-a41a-502be0e86245"
+}

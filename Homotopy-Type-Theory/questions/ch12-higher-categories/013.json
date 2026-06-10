@@ -1,0 +1,19 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A (∞,1)-category is an ∞-category in which all k-morphisms for k≥2 are:",
+  "choices": [
+    "identity morphisms",
+    "invertible",
+    "equal",
+    "composable"
+  ],
+  "answer": 1,
+  "explanation": "In an (∞,1)-category, 1-morphisms can be non-invertible but all higher morphisms (k≥2) are invertible (i.e., equivalences). This models categories up to coherent homotopy.",
+  "tags": [
+    "higher-categories"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "a217eb79-3c1b-4b71-86a5-5ea9a1c7af20"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Joyal's model structure on sSet has fibrant objects that are:",
+  "choices": [
+    "Kan complexes",
+    "Quasi-categories",
+    "All simplicial sets",
+    "Minimal fibrant replacements"
+  ],
+  "answer": 1,
+  "explanation": "Joyal (or contravariant) model structure: fibrant = quasi-category (inner horn filling).",
+  "tags": [
+    "joyal-model-structure",
+    "quasi-category",
+    "simplicial-set"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "32f38b6f-23e5-46bd-aecc-25e62ec64c63"
+}

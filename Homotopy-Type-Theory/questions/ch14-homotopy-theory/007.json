@@ -1,0 +1,20 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The fundamental group π₁(X, x₀) has as elements:",
+  "choices": [
+    "homotopy classes of maps S² → X",
+    "homotopy classes of loops based at x₀ (maps [0,1]→X with f(0)=f(1)=x₀)",
+    "all paths from x₀ to other points",
+    "covering spaces of X"
+  ],
+  "answer": 1,
+  "explanation": "π₁(X, x₀) = {[f] | f:[0,1]→X, f(0)=f(1)=x₀} / homotopy rel {0,1}. Group operation = path concatenation; inverse = path reversal.",
+  "tags": [
+    "homotopy",
+    "fundamental-group"
+  ],
+  "difficulty": "beginner",
+  "question_id": "ce7f3ee3-fffc-4d31-bebe-032f0c2f5079"
+}

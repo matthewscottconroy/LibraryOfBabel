@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the Curry style of typing (à la Curry), terms:",
+  "choices": [
+    "have a unique type",
+    "are untyped and types are assigned externally — a term may have multiple types",
+    "are always in normal form",
+    "cannot contain free variables"
+  ],
+  "answer": 1,
+  "explanation": "Curry-style (implicit types): terms are untyped; the typing relation assigns types. A term may have infinitely many types (principal type). Contrast with Church-style (explicit type annotations).",
+  "tags": [
+    "curry-howard",
+    "type-theory"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "18c0760b-fbb8-4719-991d-fe2dd091e580"
+}

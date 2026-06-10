@@ -1,0 +1,21 @@
+{
+  "question_id": "fa7d255e-01e6-46b7-b7d9-6265ee653e44",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The First Isomorphism Theorem: G/ker(φ) is isomorphic to:",
+  "choices": [
+    "G",
+    "ker(φ)",
+    "im(φ)",
+    "G × im(φ)"
+  ],
+  "answer": 2,
+  "explanation": "For φ: G → H, G/ker(φ) ≅ im(φ). This is the fundamental structure theorem for groups.",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In Agda, an 'abstract' block hides definitions' implementations. Outside the block, the type is known but:",
+  "choices": [
+    "The function cannot be used",
+    "The definitional equality is blocked (the body is not unfolded)",
+    "The type is also hidden",
+    "The function becomes a postulate"
+  ],
+  "answer": 1,
+  "explanation": "Abstract: hides the implementation for definitional equality, analogous to an opaque definition.",
+  "tags": [
+    "agda",
+    "abstract",
+    "dependent-types"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "26e057ae-aebb-4195-a24e-949a9958d52c"
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Every HIT in HoTT requires the truncation path (squash) constructor.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "The truncation path is only for propositional truncation and set-quotients; most HITs (circle, suspension, etc.) do not include it.",
+  "tags": [
+    "hit",
+    "truncation"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "fb90faba-4a33-46ac-8365-a8d3e3f3cea0"
+}

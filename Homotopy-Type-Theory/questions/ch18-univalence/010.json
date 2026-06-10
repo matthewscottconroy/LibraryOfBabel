@@ -1,0 +1,19 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The map ua : (A ≃ B) → (A = B) is the ___ of idToEquiv.",
+  "choices": [
+    "inverse",
+    "section",
+    "quasi-inverse"
+  ],
+  "answer": "inverse",
+  "explanation": "Univalence: (A=B) ≃ (A≃B). The forward map is idToEquiv (transport); the inverse is ua. ua and idToEquiv are mutual inverses up to homotopy.",
+  "tags": [
+    "HoTT",
+    "univalence"
+  ],
+  "difficulty": "beginner",
+  "question_id": "d8b8140d-3f1b-413f-9ae8-e2b2f159aa91"
+}

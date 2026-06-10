@@ -1,0 +1,17 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "An intuitionistic propositional formula is called ___ if it is a theorem of IPC.",
+  "choices": [
+    "intuitionistically valid",
+    "IPC-valid"
+  ],
+  "answer": "intuitionistically valid",
+  "explanation": "A formula is intuitionistically valid iff it is provable in IPC (or equivalently, forced in all Kripke models). Classical tautologies are not always intuitionistically valid.",
+  "tags": [
+    "intuitionistic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "9b2cf78a-4076-42cb-a1df-2cb3c699317d"
+}

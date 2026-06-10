@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The James construction J(A) (free A-module on a 1-simplex) satisfies the homotopy equivalence:",
+  "choices": [
+    "J(Sⁿ) ≃ Sⁿ",
+    "ΩΣA ≃ J(A) (James splitting)",
+    "J(A) ≃ ΣΩA",
+    "J(A) ≃ A"
+  ],
+  "answer": 1,
+  "explanation": "The James splitting: ΩΣA ≃ J(A) = ∐_{n≥0} Aⁿ (the free topological monoid on A). Homotopy-theoretically, this splits the loop-suspension into a wedge of smash products.",
+  "tags": [
+    "HoTT",
+    "homotopy",
+    "James"
+  ],
+  "difficulty": "advanced",
+  "question_id": "68892aff-33cd-4c22-b9dc-aafb7f74be20"
+}

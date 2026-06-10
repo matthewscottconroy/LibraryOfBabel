@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Lagrange's theorem states: for a finite group G and subgroup H,",
+  "choices": [
+    "|H| divides |G|",
+    "|G| divides |H|",
+    "|G/H| = |G| - |H|",
+    "G ≅ H × (G/H)"
+  ],
+  "answer": 0,
+  "explanation": "Lagrange: the order of a subgroup divides the order of the group. Proof: cosets partition G, each with |H| elements.",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "beginner",
+  "question_id": "9736abe3-342d-4676-a913-7ffce0014509"
+}

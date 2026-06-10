@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Calculus of Constructions (CoC) is the system at which corner of the lambda cube?",
+  "choices": [
+    "Bottom-left (STLC)",
+    "Top-right (all three axes: terms depend on types, types on terms, types on types)",
+    "Middle (System F)",
+    "Top-left (Fω)"
+  ],
+  "answer": 1,
+  "explanation": "CoC sits at the top-right corner of the lambda cube, combining polymorphism, type operators, and dependent types.",
+  "tags": [
+    "calculus-of-constructions",
+    "lambda-cube"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d2fcdb3b-7bbb-4e9c-9d56-ef919fff4ff6"
+}

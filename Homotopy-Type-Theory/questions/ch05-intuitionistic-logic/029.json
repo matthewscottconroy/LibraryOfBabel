@@ -1,0 +1,19 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The principle of independence of premises (IP) states: if (A→∃x.B(x)) is provable in IPC, then:",
+  "choices": [
+    "∃x.(A→B(x)) is also provable",
+    "A→B(x) for all x",
+    "A is provable",
+    "B(x) is provable for some x"
+  ],
+  "answer": 0,
+  "explanation": "IP: ⊢_IPC (A→∃x.B(x)) ⟹ ⊢_IPC ∃x.(A→B(x)), where x∉FV(A). This principle holds in IPC but fails in some constructive systems.",
+  "tags": [
+    "intuitionistic"
+  ],
+  "difficulty": "advanced",
+  "question_id": "047f528f-fa15-460e-9cc5-64a6d7efe913"
+}

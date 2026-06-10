@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In cohesive HoTT, the flat modality ♭ satisfies: ♭(♭A) ≃",
+  "choices": [
+    "A",
+    "♭A",
+    "1",
+    "ΩA"
+  ],
+  "answer": 1,
+  "explanation": "♭ is idempotent: ♭(♭A) ≃ ♭A (flat of flat is flat).",
+  "tags": [
+    "cohesive-hott",
+    "flat-modality",
+    "idempotent"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b17088ff-e312-4fe5-aceb-2d01c66f37a4"
+}

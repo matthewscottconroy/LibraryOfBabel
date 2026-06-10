@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'initiality conjecture' for dependent type theory (now a theorem, Brunerie-Lumsdaine-Mörtberg) states that:",
+  "choices": [
+    "Every type theory has a unique model",
+    "The syntax of MLTT (or HoTT + UA) is the initial object in the category of models",
+    "Every model satisfies univalence",
+    "Initiality implies consistency"
+  ],
+  "answer": 1,
+  "explanation": "The initiality theorem: the syntactic category of a type theory is the initial object among categories with the corresponding structure.",
+  "tags": [
+    "initiality",
+    "type-theory",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "097ff4ef-3ffc-45bf-b5e5-10eb8c57e748"
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A bicategory (weak 2-category) differs from a strict 2-category in that:",
+  "choices": [
+    "bicategories have more objects",
+    "composition in a bicategory is associative only up to coherent natural isomorphisms",
+    "bicategories have no 2-morphisms",
+    "in a bicategory, 1-morphisms are invertible"
+  ],
+  "answer": 1,
+  "explanation": "In a bicategory, the associativity isomorphism α_{f,g,h}:(h∘g)∘f ≅ h∘(g∘f) is a specified natural isomorphism, not strict equality. This data must satisfy the MacLane pentagon coherence condition.",
+  "tags": [
+    "higher-categories"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "7df0c6e8-e611-4e96-99ec-cde0b6f1aa9c"
+}

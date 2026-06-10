@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The proof-theoretic strength of Peano Arithmetic (PA) is measured by its proof-theoretic ordinal, which equals:",
+  "choices": [
+    "ω",
+    "ω^ω",
+    "ε₀ (the first epsilon number)",
+    "Γ₀"
+  ],
+  "answer": 2,
+  "explanation": "|PA| = ε₀ (Gentzen 1936). ε₀ is the least fixed point of α↦ω^α. Gentzen's consistency proof for PA uses transfinite induction up to ε₀.",
+  "tags": [
+    "proof-theory",
+    "ordinals"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "98153d78-fa4e-4032-b6bd-81c112cf95e8"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In natural deduction, ∧-introduction says: given proofs of A and B, we can conclude:",
+  "choices": [
+    "A ∨ B",
+    "A → B",
+    "A ∧ B",
+    "A ↔ B"
+  ],
+  "answer": 2,
+  "explanation": "∧I (conjunction introduction): from a proof of A and a proof of B, derive A∧B. The pair of proofs witnesses the conjunction.",
+  "tags": [
+    "proof-theory",
+    "natural-deduction"
+  ],
+  "difficulty": "beginner",
+  "question_id": "68c88f6f-32b9-4e64-9471-1247fce84b67"
+}

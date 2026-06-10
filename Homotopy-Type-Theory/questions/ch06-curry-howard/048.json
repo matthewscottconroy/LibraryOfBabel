@@ -1,0 +1,21 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Proof relevance means that two proofs of the same proposition:",
+  "choices": [
+    "Are always equal",
+    "May be computationally different and the difference may matter",
+    "Can be freely interchanged",
+    "Have the same type"
+  ],
+  "answer": 1,
+  "explanation": "Proof relevance: distinct proofs of A can be distinguished; contrast with proof irrelevance where all proofs of A are equal.",
+  "tags": [
+    "proof-relevance",
+    "curry-howard"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "52458a58-0591-4e93-b775-6e5463b48085"
+}

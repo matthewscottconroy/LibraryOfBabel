@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The search problem in automated theorem proving for HoTT is fundamentally hard because:",
+  "choices": [
+    "HoTT proofs are too long",
+    "The homotopy-theoretic content requires non-trivial path algebra and the proof space is large",
+    "Type checking is undecidable",
+    "Lean 4 does not support HoTT"
+  ],
+  "answer": 1,
+  "explanation": "HoTT proofs involve path algebra, higher coherences, and encode/decode strategies that are hard to automate.",
+  "tags": [
+    "automated-theorem-proving",
+    "hott",
+    "research"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e58e6636-2df9-48ef-9db8-6d218e6295aa"
+}

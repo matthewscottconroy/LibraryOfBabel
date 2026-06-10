@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The loop space ΩX of a pointed space (X, x₀) consists of:",
+  "choices": [
+    "Maps S¹→X",
+    "Continuous maps (I, ∂I)→(X, x₀) (loops) with compact-open topology",
+    "The suspension of X",
+    "Homotopy classes of loops"
+  ],
+  "answer": 1,
+  "explanation": "ΩX = Map_*((S¹, *), (X, x₀)) = space of based loops at x₀.",
+  "tags": [
+    "loop-space",
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "eb8e389c-8cf5-4b6d-bf45-e88ec0f735b7"
+}

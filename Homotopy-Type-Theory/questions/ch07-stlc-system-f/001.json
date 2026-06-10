@@ -1,0 +1,20 @@
+{
+  "question_id": "2d91052a-90ed-4bc4-aeb5-55d1aec1c3d8",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Type safety in STLC is established by:",
+  "choices": [
+    "type inference",
+    "progress and preservation together",
+    "the parametricity theorem",
+    "strong normalisation alone"
+  ],
+  "answer": 1,
+  "explanation": "Type safety = Progress (well-typed terms are not stuck) + Preservation (reduction preserves types).",
+  "tags": [
+    "STLC"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

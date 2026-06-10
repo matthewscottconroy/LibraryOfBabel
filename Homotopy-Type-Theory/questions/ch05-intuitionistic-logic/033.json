@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Topos-theoretic models of IPC: the internal logic of any elementary topos is:",
+  "choices": [
+    "classical predicate logic",
+    "higher-order intuitionistic logic",
+    "minimal logic",
+    "linear logic"
+  ],
+  "answer": 1,
+  "explanation": "Every topos has higher-order intuitionistic logic as its internal language. Classical logic holds internally only in Boolean toposes (where Ω≅1+1).",
+  "tags": [
+    "intuitionistic",
+    "topos"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "ae27ff59-9f95-4936-abd3-054eb14c385d"
+}

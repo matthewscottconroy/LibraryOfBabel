@@ -1,0 +1,20 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Schreiber's differential cohomology via cohesive HoTT, the de Rham stack of a smooth manifold M is:",
+  "choices": [
+    "the flat modality ♭M",
+    "the shape modality ∫M",
+    "the infinitesimal shape ℑM",
+    "the loop space ΩM"
+  ],
+  "answer": 2,
+  "explanation": "The de Rham stack M_dR = ℑM (infinitesimal shape): it collapses all infinitesimal paths, leaving only 'de Rham cohomology information'. H*(M_dR) = H*_dR(M).",
+  "tags": [
+    "modal-HoTT",
+    "differential-cohomology"
+  ],
+  "difficulty": "advanced",
+  "question_id": "3e1130e8-2e31-4297-b932-527a3c77352f"
+}

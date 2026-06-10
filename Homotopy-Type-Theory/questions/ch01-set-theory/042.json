@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The cardinality of the continuum |ℝ| equals ______, which is also written 𝔠.",
+  "choices": [
+    "2^{ℵ₀}",
+    "ℵ₁",
+    "ω₁",
+    "ℵ₀²"
+  ],
+  "answer": "2^{ℵ₀}",
+  "explanation": "|ℝ| = |P(ℕ)| = 2^{ℵ₀} = 𝔠.",
+  "tags": [
+    "continuum",
+    "cardinality"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "942a4cf0-a6a3-48f5-b556-77f44ed08984"
+}

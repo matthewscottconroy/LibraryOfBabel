@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `Fin n` type in Lean 4 represents:",
+  "choices": [
+    "An n-element list",
+    "The finite type {0,1,…,n-1}",
+    "Natural numbers up to n (inclusive)",
+    "The n-th Fibonacci number"
+  ],
+  "answer": 1,
+  "explanation": "Fin n = {k : ℕ | k < n}: the canonical type with exactly n elements.",
+  "tags": [
+    "lean4",
+    "fin",
+    "finite-type"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "0d95a392-6430-4e90-87fc-f44ca166e199"
+}

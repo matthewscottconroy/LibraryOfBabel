@@ -1,0 +1,21 @@
+{
+  "question_id": "c83ecf94-f056-4639-ab8d-00b1d3009612",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In a slice category C/A, the objects are:",
+  "choices": [
+    "subobjects of A",
+    "morphisms f: X → A for any object X in C",
+    "functors from C to A",
+    "morphisms from A to other objects"
+  ],
+  "answer": 1,
+  "explanation": "C/A (C over A) has objects = morphisms into A, and morphisms = commutative triangles over A. Slice categories model dependent type contexts categorically.",
+  "tags": [
+    "lccc",
+    "categorical-logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

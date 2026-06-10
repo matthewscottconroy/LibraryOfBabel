@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The effective topos (Hyland) is notable because:",
+  "choices": [
+    "It models classical logic",
+    "It models intuitionistic logic with all functions ℕ→ℕ being recursive",
+    "It is a presheaf topos",
+    "It is equivalent to Set"
+  ],
+  "answer": 1,
+  "explanation": "In the effective topos, all morphisms ℕ→ℕ are computable; it realises Brouwer's fan theorem and Church's thesis.",
+  "tags": [
+    "effective-topos",
+    "realizability"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "ce884cbd-cf26-4884-a7f7-6100e4541193"
+}

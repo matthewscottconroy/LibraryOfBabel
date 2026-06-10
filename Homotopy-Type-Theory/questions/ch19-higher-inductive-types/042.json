@@ -1,0 +1,23 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, the type-theoretic van Kampen theorem computes π₁(A⊔_C B) using:",
+  "choices": [
+    "Mayer-Vietoris",
+    "The pushout HIT and an encode-decode argument giving a pushout of groups",
+    "The long exact sequence",
+    "Freudenthal"
+  ],
+  "answer": 1,
+  "explanation": "HoTT van Kampen: π₁(A⊔_C B) ≅ π₁(A) *_{π₁(C)} π₁(B), proved using HITs.",
+  "tags": [
+    "van-kampen",
+    "pushout",
+    "hit",
+    "pi1"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0b8faaa4-1f94-4efd-b046-abc6c16f2ff4"
+}

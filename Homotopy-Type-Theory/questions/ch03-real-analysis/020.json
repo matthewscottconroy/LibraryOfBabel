@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of the following tests guarantees convergence of a series Σaₙ?",
+  "choices": [
+    "aₙ → 0",
+    "The ratio test: lim|aₙ₊₁/aₙ| < 1",
+    "All terms are positive",
+    "aₙ is decreasing"
+  ],
+  "answer": 1,
+  "explanation": "Ratio test: if lim sup |aₙ₊₁/aₙ| < 1, the series converges absolutely. aₙ→0 is necessary but not sufficient (harmonic series diverges).",
+  "tags": [
+    "analysis",
+    "series"
+  ],
+  "difficulty": "beginner",
+  "question_id": "d6c879ec-dc07-402d-bf43-d9da17b3dbe0"
+}

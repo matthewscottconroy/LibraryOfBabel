@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Schröder-Bernstein theorem states: if |A|≤|B| and |B|≤|A|, then:",
+  "choices": [
+    "A = B (as sets)",
+    "A ⊆ B",
+    "A and B are finite",
+    "|A| = |B| (there is a bijection A↔B)"
+  ],
+  "answer": 3,
+  "explanation": "Cantor-Schröder-Bernstein: injections A→B and B→A imply a bijection A↔B. Remarkably, this does not require the axiom of choice.",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "bbe9c3f6-e60d-40c4-83c9-8444ac37b974"
+}

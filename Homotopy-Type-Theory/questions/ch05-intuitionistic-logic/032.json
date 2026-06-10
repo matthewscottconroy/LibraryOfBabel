@@ -1,0 +1,21 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Church's thesis in constructive mathematics (CT) is the axiom that every total function ℕ→ℕ is:",
+  "choices": [
+    "continuous",
+    "computable by a Turing machine (i.e., has a Gödel index)",
+    "measurable",
+    "represented by a formal system"
+  ],
+  "answer": 1,
+  "explanation": "CT₀ (Kleene's Church-Thesis as axiom): all total functions ℕ→ℕ are recursive. In Russian constructivism and Markov's school, CT is adopted as an axiom.",
+  "tags": [
+    "intuitionistic",
+    "constructivism",
+    "computability"
+  ],
+  "difficulty": "advanced",
+  "question_id": "a215b86c-d4ef-4e8f-afd2-9d7ea7b2ea4f"
+}

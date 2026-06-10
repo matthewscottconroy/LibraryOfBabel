@@ -1,0 +1,21 @@
+{
+  "question_id": "a3360664-4eda-4bf5-b893-a48b96bd7fb4",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The shape modality ∫A (or 'shape of A') in cohesive HoTT represents:",
+  "choices": [
+    "the propositional truncation of A",
+    "the underlying homotopy type of A, forgetting smooth/differential structure",
+    "the loop space of A",
+    "the discrete set of connected components"
+  ],
+  "answer": 1,
+  "explanation": "∫A is the 'geometric realization' or 'fundamental ∞-groupoid' of A. In real-cohesive HoTT, ∫A for a smooth space A is its classical homotopy type.",
+  "tags": [
+    "shape-modality",
+    "cohesive-hott"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

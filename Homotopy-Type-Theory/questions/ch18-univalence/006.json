@@ -1,0 +1,19 @@
+{
+  "question_id": "5ca375e4-0878-4f21-b8fd-87c45a28608d",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The univalence axiom says that the canonical map (A = B) → (A ___ B) is an equivalence.",
+  "choices": [
+    "≃",
+    "is equivalent to"
+  ],
+  "answer": "≃",
+  "explanation": "Univalence: idToEquiv : (A=B) → (A≃B) is an equivalence. Equivalences give paths, and paths between types are equivalences.",
+  "tags": [
+    "univalence",
+    "HoTT"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

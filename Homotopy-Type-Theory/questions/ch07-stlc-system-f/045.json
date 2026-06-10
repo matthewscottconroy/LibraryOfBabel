@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which of the following is a consequence of parametricity for System F?",
+  "choices": [
+    "Every term of type ∀α.α is the identity",
+    "Every term of type ∀α.α is of any type A",
+    "There is no term of type ∀α.α",
+    "Every term of type ∀α.α→α is the identity"
+  ],
+  "answer": 2,
+  "explanation": "∀α.α has no closed inhabitants (it corresponds to ⊥ under C-H); ∀α.α→α is inhabited only by the identity.",
+  "tags": [
+    "system-f",
+    "parametricity",
+    "uninhabited"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "bf96f8e7-e3d9-4052-9813-05aefc49d949"
+}

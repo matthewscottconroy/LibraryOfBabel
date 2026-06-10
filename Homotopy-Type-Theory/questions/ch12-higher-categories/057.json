@@ -1,0 +1,21 @@
+{
+  "question_id": "c48b201a-735d-44d0-80ec-7f74bfeb2e9f",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Morphisms between morphisms in a 2-category are called:",
+  "choices": [
+    "natural transformations only",
+    "2-morphisms (or 2-cells)",
+    "adjunctions",
+    "bimodules"
+  ],
+  "answer": 1,
+  "explanation": "A 2-category has objects, 1-morphisms (between objects), and 2-morphisms (between 1-morphisms). Examples: Cat (categories, functors, natural transformations), 2-Grp.",
+  "tags": [
+    "2-category",
+    "higher-categories"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "fa9fee31-55c4-4484-a85a-0ae1a4357e2b",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A connected topological space is necessarily path-connected.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "The topologist's sine curve {(x, sin(1/x)) : x > 0} ∪ {(0,y) : -1≤y≤1} is connected but not path-connected — the limit line cannot be reached by a path from the oscillating part.",
+  "tags": [
+    "connectedness"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

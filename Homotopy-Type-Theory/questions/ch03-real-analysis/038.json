@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The supremum of a set S ⊆ ℝ is:",
+  "choices": [
+    "The maximum element of S",
+    "The least upper bound of S",
+    "An upper bound of S",
+    "The infimum of the complement"
+  ],
+  "answer": 1,
+  "explanation": "sup S = least upper bound; it need not be in S (unlike max).",
+  "tags": [
+    "supremum",
+    "real-analysis"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "ab7d47e3-113b-4d8d-bf05-92557cf516a0"
+}

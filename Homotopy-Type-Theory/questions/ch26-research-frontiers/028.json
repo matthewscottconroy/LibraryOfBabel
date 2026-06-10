@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Formalization of the Adams spectral sequence in HoTT is notable because:",
+  "choices": [
+    "It is easy and fully automated",
+    "It requires formalising a deep theorem of stable homotopy theory in a system where homotopy is synthetic",
+    "It has been completed in Lean 4",
+    "It only uses basic arithmetic"
+  ],
+  "answer": 1,
+  "explanation": "The Adams SS requires stable homotopy theory, spectra, and spectral sequences — all needing significant HoTT infrastructure.",
+  "tags": [
+    "adams-spectral-sequence",
+    "formalisation",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "0530973c-b4e0-433f-a248-fa9585a125d0"
+}

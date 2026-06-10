@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Dold-Kan correspondence gives an equivalence between:",
+  "choices": [
+    "simplicial abelian groups and chain complexes of abelian groups (in non-negative degrees)",
+    "simplicial sets and topological spaces",
+    "Kan complexes and groupoids",
+    "nerves and categories"
+  ],
+  "answer": 0,
+  "explanation": "Dold-Kan: sAb ≃ Ch_{≥0}(Ab). Every simplicial abelian group corresponds to a connective chain complex. The normalisation functor N gives the equivalence; it is a key bridge between homological and simplicial algebra.",
+  "tags": [
+    "higher-categories",
+    "simplicial-sets",
+    "homological-algebra"
+  ],
+  "difficulty": "advanced",
+  "question_id": "29a171cd-d3cd-493e-bdbb-0ee8b087f7bc"
+}

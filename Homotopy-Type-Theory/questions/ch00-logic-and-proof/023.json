@@ -1,0 +1,20 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The rule of modus ponens is the only rule needed for a Hilbert-style calculus for propositional logic (with appropriate axioms). This is because:",
+  "choices": [
+    "it is the strongest rule",
+    "all other rules are derivable from MP and the axioms",
+    "it is easy to implement",
+    "it is sound"
+  ],
+  "answer": 1,
+  "explanation": "Hilbert calculi are axiom-heavy and rule-light: MP plus a small set of axiom schemas (e.g., K, S, DN) suffice. All natural deduction rules are admissible.",
+  "tags": [
+    "logic",
+    "proof-theory"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "5d4076ae-b096-4de4-a82d-afdcd250536f"
+}

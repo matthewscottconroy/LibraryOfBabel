@@ -1,0 +1,20 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A locally Cartesian closed category (LCCC) models which type theory?",
+  "choices": [
+    "System F",
+    "STLC",
+    "MLTT with Σ and Π types (but no identity type)",
+    "First-order logic with equality"
+  ],
+  "answer": 2,
+  "explanation": "LCCCs model MLTT with Σ and Π types. Identity types require additional structure (e.g., a factorization system). Seely (1984) first observed the LCCC–MLTT correspondence.",
+  "tags": [
+    "categorical-logic",
+    "MLTT"
+  ],
+  "difficulty": "advanced",
+  "question_id": "841cea21-c8b5-438b-967d-0f9fa5b8948b"
+}

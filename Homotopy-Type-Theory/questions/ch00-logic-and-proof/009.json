@@ -1,0 +1,19 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of the following is the contrapositive of 'If P then Q'?",
+  "choices": [
+    "If Q then P",
+    "If ¬P then ¬Q",
+    "If ¬Q then ¬P",
+    "¬P ∨ Q"
+  ],
+  "answer": 2,
+  "explanation": "The contrapositive of P→Q is ¬Q→¬P. It is logically equivalent to the original.",
+  "tags": [
+    "logic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "9df227ea-c647-4f54-8c4e-18737c7f3096"
+}

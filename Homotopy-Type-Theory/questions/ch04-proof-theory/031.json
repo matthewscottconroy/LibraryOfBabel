@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Display calculus (Belnap 1982) generalises sequent calculus to handle substructural logics by:",
+  "choices": [
+    "removing all structural rules",
+    "allowing the context to be structured (not just a list) using display postulates",
+    "adding modal operators",
+    "using trees instead of lists"
+  ],
+  "answer": 1,
+  "explanation": "Display calculus: the context is a structured formula-like expression. 'Display postulates' allow equivalent rearrangements. Handles classical, intuitionistic, linear, and modal logics uniformly.",
+  "tags": [
+    "proof-theory",
+    "substructural"
+  ],
+  "difficulty": "advanced",
+  "question_id": "f9c60b53-a09d-42ea-9f9d-785984267232"
+}

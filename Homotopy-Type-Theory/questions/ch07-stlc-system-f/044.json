@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the simply typed lambda calculus extended with fixpoints (PCF), the fixpoint combinator Y has type:",
+  "choices": [
+    "(A→A)→A",
+    "A→A",
+    "(A→B)→B",
+    "∀A.A"
+  ],
+  "answer": 0,
+  "explanation": "Y : (A→A)→A; note Y is not typeable in pure STLC (it requires recursive types or fixpoint extensions).",
+  "tags": [
+    "stlc",
+    "fixpoint",
+    "pcf"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "ebbad4c0-118a-4cf9-a5ed-fae09412753a"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Rational homotopy theory (Quillen, Sullivan) studies spaces up to:",
+  "choices": [
+    "All homotopy equivalences",
+    "ℚ-local equivalences (isomorphisms on π_* ⊗ ℚ)",
+    "Integral homology equivalences",
+    "K-theory equivalences"
+  ],
+  "answer": 1,
+  "explanation": "Rational HT inverts primes: two spaces are ℚ-equivalent iff their rational homotopy groups agree.",
+  "tags": [
+    "rational-homotopy",
+    "sullivan"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "7c03f938-8b33-44e9-a3f8-938fc232559f"
+}

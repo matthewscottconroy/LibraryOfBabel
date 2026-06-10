@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The univalence axiom implies that the type of groups (as a structure on a set) satisfies:",
+  "choices": [
+    "Every two groups are equal",
+    "Isomorphic groups are equal (SIP for groups)",
+    "Groups are propositions",
+    "Groups are contractible"
+  ],
+  "answer": 1,
+  "explanation": "SIP: by univalence, (G,*) = (H,⊕) in the type of groups iff there's a group isomorphism G≅H.",
+  "tags": [
+    "univalence",
+    "sip",
+    "groups"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "2f8ca686-f15d-40aa-9288-d895bc12433f"
+}

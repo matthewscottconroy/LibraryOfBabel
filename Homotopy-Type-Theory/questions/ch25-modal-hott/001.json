@@ -1,0 +1,21 @@
+{
+  "question_id": "ab2b4058-c898-4675-bf61-9e8b80fa7fde",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In cohesive HoTT, the shape modality ∫A gives:",
+  "choices": [
+    "the underlying discrete set of A",
+    "the homotopy type of A (forgetting cohesive / smooth structure)",
+    "the codiscrete version of A",
+    "the differential forms on A"
+  ],
+  "answer": 1,
+  "explanation": "∫A = the 'pure homotopy type' of A: geometric structure forgotten, only topology retained. ∫ℝ ≃ * (contractible).",
+  "tags": [
+    "modal-HoTT",
+    "cohesion"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

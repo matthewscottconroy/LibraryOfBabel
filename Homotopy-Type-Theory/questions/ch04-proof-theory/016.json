@@ -1,0 +1,17 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Deep inference proof systems (like the calculus of structures) allow rules to be applied at any depth within a formula.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Deep inference (Guglielmi et al.) generalises sequent calculus by allowing rules to fire inside formulas, not just at the root. This enables symmetries not visible in sequent calculus.",
+  "tags": [
+    "proof-theory"
+  ],
+  "difficulty": "advanced",
+  "question_id": "008a098c-d1c6-49e5-b748-104999cb9776"
+}

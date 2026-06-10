@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The 2-sphere S² can be defined as a HIT with constructors:",
+  "choices": [
+    "N, S (poles) and merid(a):N=S for all a:S¹ (same as ΣS¹)",
+    "base:S² and surf:refl=refl (a 2-cell constructor at base)",
+    "a point and two paths between it",
+    "base and loop:base=base"
+  ],
+  "answer": 1,
+  "explanation": "S² := {base:S², surf:refl_base = refl_base : base=base}. The surface constructor surf is a 2-path (path between paths). Equivalently, S² = ΣS¹ = suspension of S¹.",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "spheres"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "c7fe9542-1def-4203-b167-654fff20658e"
+}

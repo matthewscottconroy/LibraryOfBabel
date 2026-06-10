@@ -1,0 +1,22 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Intuitionistic logic is sound and complete with respect to:",
+  "choices": [
+    "Boolean algebras",
+    "Heyting algebras",
+    "Topological spaces only",
+    "Kripke frames and Heyting algebras (both)"
+  ],
+  "answer": 3,
+  "explanation": "IPC is complete for both Kripke semantics and Heyting-algebraic semantics.",
+  "tags": [
+    "completeness",
+    "ipc",
+    "semantics"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "642958df-4d91-4e5f-a9a1-f2f80dc186b9"
+}

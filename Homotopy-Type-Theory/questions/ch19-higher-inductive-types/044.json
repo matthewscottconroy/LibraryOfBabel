@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The 'Blakers-Massey theorem' in HoTT (Favonia-Lumsdaine et al.) is proved using:",
+  "choices": [
+    "Classical homology",
+    "The Freudenthal theorem only",
+    "A cubical argument with pushouts and Kan filling",
+    "An induction on cell structure"
+  ],
+  "answer": 2,
+  "explanation": "HoTT Blakers-Massey uses a cubical/pushout argument; the proof is notable for being formalized.",
+  "tags": [
+    "blakers-massey",
+    "hott",
+    "hit"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "59b7eb4d-9739-464e-87a9-bc0775004179"
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "f04271d3-4308-4120-82b7-2cbdd28aab6c",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Gentzen's ___ theorem states that every proof in sequent calculus can be transformed to a cut-free proof.",
+  "choices": [
+    "Hauptsatz",
+    "cut-elimination"
+  ],
+  "answer": "hauptsatz",
+  "explanation": "The Hauptsatz (main theorem) is Gentzen's cut-elimination result. Cut-free proofs have the subformula property: every formula appearing in the proof appears in the conclusion.",
+  "tags": [
+    "proof-theory",
+    "sequent-calculus"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

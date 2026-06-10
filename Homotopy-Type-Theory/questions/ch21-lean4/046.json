@@ -1,0 +1,23 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `notation` and `macro` are used to:",
+  "choices": [
+    "Prove theorems",
+    "Extend the syntax with new notation or macros",
+    "Define tactics only",
+    "Import external libraries"
+  ],
+  "answer": 1,
+  "explanation": "Lean 4 has a powerful macro/elaboration system allowing user-defined notation and syntax.",
+  "tags": [
+    "lean4",
+    "notation",
+    "macro",
+    "meta"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d3843850-13b8-4eca-973a-e58b43984e57"
+}

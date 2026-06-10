@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The pigeonhole principle cannot be proved in bounded arithmetic (e.g., I-Δ₀) because:",
+  "choices": [
+    "it is false",
+    "bounded arithmetic lacks sufficient induction to formalise it",
+    "it requires the axiom of choice",
+    "it is a second-order principle"
+  ],
+  "answer": 1,
+  "explanation": "The pigeonhole principle requires induction principles beyond I-Δ₀ (Buss arithmetic). This gives a separation of weak arithmetic systems by proof complexity.",
+  "tags": [
+    "logic",
+    "proof-theory",
+    "arithmetic"
+  ],
+  "difficulty": "advanced",
+  "question_id": "7c1bbdea-3e31-4741-921b-a61b69e0dbad"
+}

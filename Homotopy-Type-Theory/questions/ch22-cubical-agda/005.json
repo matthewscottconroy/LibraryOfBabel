@@ -1,0 +1,19 @@
+{
+  "question_id": "db1feb93-110c-4a0a-9712-af6da715a784",
+  "chapter": 22,
+  "phase": 6,
+  "kind": "blank",
+  "text": "In Cubical Agda, the type of paths from a to b in type A is written ___.",
+  "choices": [
+    "a ≡ b",
+    "Path A a b"
+  ],
+  "answer": "a ≡ b",
+  "explanation": "In Cubical Agda, a ≡ b (or equivalently Path A (λ _ → A) a b) is the path type. It is definitionally a function 𝕀→A with endpoints a and b.",
+  "tags": [
+    "Cubical-Agda",
+    "paths"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

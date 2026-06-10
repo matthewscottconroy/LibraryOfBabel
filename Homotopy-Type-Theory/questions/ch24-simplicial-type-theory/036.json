@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'Segal types' in Simplicial TT are types satisfying the Segal condition. An equivalent formulation is:",
+  "choices": [
+    "The type is a Kan complex",
+    "Composition of morphisms is uniquely defined (the composition space is contractible)",
+    "The type is an n-type",
+    "The type is a set"
+  ],
+  "answer": 1,
+  "explanation": "Segal: for any f:hom(a,b) and g:hom(b,c), the space of composites is contractible (unique composition).",
+  "tags": [
+    "simplicial-type-theory",
+    "segal-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "42bf42af-a623-48f6-a59b-196e69444d03"
+}

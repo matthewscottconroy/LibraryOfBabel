@@ -1,0 +1,18 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Gödel's completeness theorem applies to first-order logic but not to second-order logic.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Gödel's completeness theorem: FOL is complete (every valid formula is provable). For second-order logic with standard semantics, completeness fails (Gödel's incompleteness applies).",
+  "tags": [
+    "logic",
+    "completeness"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "07629c3f-ce05-46ab-9129-b4575201f502"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The elimination rule for S¹ states: to define f : S¹ → P (non-dependent), it suffices to provide:",
+  "choices": [
+    "A point f(base) : P",
+    "A point p : P and a path l : p = p",
+    "A function A → P",
+    "Just the loop"
+  ],
+  "answer": 1,
+  "explanation": "S¹-rec: given b:P and l:b=b, there is a unique f:S¹→P with f(base)=b and ap_f(loop)=l.",
+  "tags": [
+    "circle",
+    "hit",
+    "elimination"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b01023ca-02f4-42c1-8de4-36f249b36b60"
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "c5072b29-c7c6-46f9-99bb-72d7b93e2da1",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "tf",
+  "text": "Canonicity for Book HoTT (that every closed term of ℕ reduces to a numeral) has been fully proved.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Canonicity for Book HoTT (with the univalence axiom as a postulate) remains open. Cubical type theory achieves canonicity by making univalence computational.",
+  "tags": [
+    "canonicity",
+    "research-frontiers"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

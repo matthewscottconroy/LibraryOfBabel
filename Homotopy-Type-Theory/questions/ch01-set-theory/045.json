@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "An ordinal α is a limit ordinal if:",
+  "choices": [
+    "α = β+1 for some β",
+    "α has no immediate predecessor (α ≠ 0 and α ≠ β+1 for any β)",
+    "α is finite",
+    "α = ω"
+  ],
+  "answer": 1,
+  "explanation": "Limit ordinals: ω, ω+ω, ω², … — they have no predecessor and equal the sup of all smaller ordinals.",
+  "tags": [
+    "limit-ordinal",
+    "ordinals"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "53f43689-d018-4229-88f5-831fa9b74262"
+}

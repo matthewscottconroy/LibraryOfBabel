@@ -1,0 +1,22 @@
+{
+  "question_id": "c33fbcce-ca88-4ae1-8afc-a0942c1f1ab1",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `omega` tactic in Lean 4 / Mathlib decides:",
+  "choices": [
+    "all first-order arithmetic goals",
+    "polynomial equalities over ℝ",
+    "linear arithmetic goals over ℤ and ℕ",
+    "propositional logic goals only"
+  ],
+  "answer": 2,
+  "explanation": "omega decides linear arithmetic (Presburger arithmetic): goals involving +, -, scalar multiplication, ≤, =, ∀, ∃ over ℤ and ℕ. Polynomial goals need ring/norm_num.",
+  "tags": [
+    "Lean4",
+    "tactics",
+    "omega"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

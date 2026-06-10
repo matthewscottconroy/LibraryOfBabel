@@ -1,0 +1,19 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The term fst : A × B → A in the lambda calculus corresponds to which logical rule?",
+  "choices": [
+    "∧-introduction",
+    "∧-elimination (left projection)",
+    "→-introduction",
+    "∨-introduction"
+  ],
+  "answer": 1,
+  "explanation": "fst corresponds to ∧E₁ (left projection): from a proof of A∧B, extract the proof of A. snd gives A∧B → B.",
+  "tags": [
+    "curry-howard"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "f8e82f3f-1fd3-4a31-a070-121364f45bc0"
+}

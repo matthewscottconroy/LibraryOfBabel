@@ -1,0 +1,20 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The Rzk proof assistant is designed to formalise:",
+  "choices": [
+    "Agda-style dependent types",
+    "Riehl-Shulman simplicial type theory for ∞-category theory",
+    "linear type theory",
+    "classical logic"
+  ],
+  "answer": 1,
+  "explanation": "Rzk (Kudasov et al.) implements a version of Riehl-Shulman 2-level type theory with the directed interval. Its library sHoTT formalises ∞-category theory.",
+  "tags": [
+    "simplicial-TT",
+    "Rzk"
+  ],
+  "difficulty": "beginner",
+  "question_id": "406c94d3-446f-4f9f-a4b1-a94531b7b22b"
+}

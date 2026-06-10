@@ -1,0 +1,19 @@
+{
+  "question_id": "6f688076-f97e-4a97-b423-faffa95f1415",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "blank",
+  "text": "The three cohesive modalities are arranged in an adjoint triple: ___ ⊣ flat ♭ ⊣ sharp ♯.",
+  "choices": [
+    "shape ∫",
+    "∫"
+  ],
+  "answer": "shape ∫",
+  "explanation": "The adjoint triple ∫ ⊣ ♭ ⊣ ♯ is the defining structure of cohesion. Shape ∫ is left adjoint to flat ♭; flat ♭ is left adjoint to sharp ♯.",
+  "tags": [
+    "cohesive-hott",
+    "modality"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

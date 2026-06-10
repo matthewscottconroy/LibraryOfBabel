@@ -1,0 +1,18 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A differentiable function on (a,b) with zero derivative everywhere is constant.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Mean value theorem: if f'(x)=0 for all x∈(a,b) and f is differentiable on (a,b) and continuous on [a,b], then f is constant.",
+  "tags": [
+    "analysis",
+    "differentiation"
+  ],
+  "difficulty": "beginner",
+  "question_id": "2ea3d057-e287-43d2-9adc-9362742c5866"
+}

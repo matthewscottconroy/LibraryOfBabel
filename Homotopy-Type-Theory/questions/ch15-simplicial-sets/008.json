@@ -1,0 +1,19 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The degeneracy maps s_i in a simplicial set X satisfy s_i: X_n → X_{n+1} and represent:",
+  "choices": [
+    "face maps in the opposite direction",
+    "degenerate simplices obtained by repeating the i-th vertex",
+    "boundary operators",
+    "homotopies between faces"
+  ],
+  "answer": 1,
+  "explanation": "Degeneracy: s_i repeats vertex i (the map [n+1]→[n] that sends i and i+1 both to i). A degenerate simplex is in the image of some s_i and is 'trivial' in the homotopy sense.",
+  "tags": [
+    "simplicial-sets"
+  ],
+  "difficulty": "beginner",
+  "question_id": "c7fcf7a7-474c-4e2c-b8f2-547eb153c7c3"
+}

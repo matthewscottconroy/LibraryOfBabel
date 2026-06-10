@@ -1,0 +1,19 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The ___ model structure on sSet has the Kan complexes as fibrant objects and maps induced by geometric realisation as weak equivalences.",
+  "choices": [
+    "Kan-Quillen",
+    "Quillen model",
+    "Kan"
+  ],
+  "answer": "Kan-Quillen",
+  "explanation": "The Kan-Quillen (or Quillen) model structure on sSet: cofibrations = monomorphisms, fibrations = Kan fibrations (right lifting property against horn inclusions), weak equivalences = maps inducing weak homotopy equivalences on geometric realisations.",
+  "tags": [
+    "simplicial-sets",
+    "model-structure"
+  ],
+  "difficulty": "advanced",
+  "question_id": "7e6d5275-ac9b-40cd-887a-f1b96e385664"
+}

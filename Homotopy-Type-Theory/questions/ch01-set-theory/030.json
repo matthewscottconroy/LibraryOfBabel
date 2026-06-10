@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The cardinal arithmetic rule κ + λ = max(κ,λ) holds for infinite cardinals under:",
+  "choices": [
+    "ZF without AC",
+    "ZF with AC",
+    "only for countable cardinals",
+    "always, without any axioms"
+  ],
+  "answer": 1,
+  "explanation": "With AC: if κ,λ are infinite cardinals, κ+λ = κ⋅λ = max(κ,λ). This simplification of cardinal arithmetic requires AC.",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "70ff2080-41b1-44ab-a43c-21713490c869"
+}

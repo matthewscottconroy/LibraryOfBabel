@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which theorem states that any two normal forms of the same term are α-equivalent?",
+  "choices": [
+    "Subject reduction",
+    "Church-Rosser (confluence)",
+    "Standardisation",
+    "Parametricity"
+  ],
+  "answer": 1,
+  "explanation": "The Church-Rosser theorem implies uniqueness of normal forms up to α-equivalence.",
+  "tags": [
+    "confluence",
+    "lambda-calculus"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "c269ef71-78a9-4d1f-8ff3-867b6415b1ee"
+}

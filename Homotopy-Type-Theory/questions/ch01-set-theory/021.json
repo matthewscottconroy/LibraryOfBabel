@@ -1,0 +1,19 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Axiom Schema of Replacement says: if F is a function (class function), then for any set A,",
+  "choices": [
+    "F is a set",
+    "the image F[A] = {F(x) | x∈A} is a set",
+    "F is injective",
+    "A is countable"
+  ],
+  "answer": 1,
+  "explanation": "Replacement (Fraenkel): the image of a set under a definable function is a set. This ensures e.g. that ω+ω exists as a set.",
+  "tags": [
+    "set-theory"
+  ],
+  "difficulty": "beginner",
+  "question_id": "e291657d-214e-4919-88ac-09d3235fda51"
+}

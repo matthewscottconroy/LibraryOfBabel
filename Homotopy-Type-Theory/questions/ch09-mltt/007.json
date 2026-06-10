@@ -1,0 +1,19 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In MLTT, the four basic judgments include 'a : A'. What does this mean?",
+  "choices": [
+    "a is a subset of A",
+    "a is an element (term) of type A",
+    "A proves a",
+    "a and A are definitionally equal"
+  ],
+  "answer": 1,
+  "explanation": "'a : A' is the fundamental typing judgment: a is a term of type A, or equivalently, a is a proof of proposition A (propositions-as-types).",
+  "tags": [
+    "MLTT"
+  ],
+  "difficulty": "beginner",
+  "question_id": "ba4fd5d7-fc41-4999-b308-9a7351984ff3"
+}

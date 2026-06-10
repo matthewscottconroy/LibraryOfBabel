@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The h-level of the universe 𝒰 cannot be bounded because:",
+  "choices": [
+    "𝒰 contains types of all h-levels (e.g. S¹ is a 1-type in 𝒰, so 𝒰 is at least a 2-type)",
+    "𝒰 is inconsistent",
+    "𝒰 is a proposition",
+    "𝒰 is contractible"
+  ],
+  "answer": 0,
+  "explanation": "𝒰 contains n-types for all n, so it has no finite h-level bound.",
+  "tags": [
+    "universe",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "dc9f7b96-5431-4607-977f-3b8ab5776fd5"
+}

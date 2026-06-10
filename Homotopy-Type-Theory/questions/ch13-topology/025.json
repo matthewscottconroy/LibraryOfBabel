@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A fibration p: E→B (in the sense of Serre) satisfies:",
+  "choices": [
+    "The homotopy lifting property for all spaces",
+    "The homotopy lifting property for CW-complexes",
+    "The path lifting property only",
+    "A section exists"
+  ],
+  "answer": 1,
+  "explanation": "A Serre fibration lifts homotopies of CW-complexes; Hurewicz fibrations lift for all spaces.",
+  "tags": [
+    "fibration",
+    "serre",
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "12c2aba1-7a2e-478e-8b19-bcc308753b23"
+}

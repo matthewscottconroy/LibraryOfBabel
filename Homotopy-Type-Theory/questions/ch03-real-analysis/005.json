@@ -1,0 +1,19 @@
+{
+  "question_id": "1c8a529e-18ce-48d7-957a-fa5333ac6adc",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every uniformly continuous function on a dense subset of a metric space extends uniquely to a uniformly continuous function on the completion.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is the uniform extension theorem. It relies on completeness: uniformly continuous images of Cauchy sequences are Cauchy.",
+  "tags": [
+    "analysis",
+    "completion"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

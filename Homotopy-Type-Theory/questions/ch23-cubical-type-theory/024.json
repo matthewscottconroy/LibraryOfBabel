@@ -1,0 +1,21 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "De Morgan cubical type theory (ABCFHL) uses ∧,∨,~ on the interval. The variant CHTT uses instead:",
+  "choices": [
+    "Only ∧ (symmetric cubical sets)",
+    "Cartesian interval (I with min and max but no complement)",
+    "Bounded distributive lattice",
+    "Just a linear order"
+  ],
+  "answer": 1,
+  "explanation": "Cartesian cubical TT (CHTT, Angiuli et al.) uses a Cartesian interval without De Morgan involution.",
+  "tags": [
+    "cubical-type-theory",
+    "cartesian-cubical"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "642aa08f-1a02-42e8-a758-8e127adb9ae1"
+}

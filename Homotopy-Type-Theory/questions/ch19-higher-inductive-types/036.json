@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The 2-torus T² = S¹ × S¹ has fundamental group:",
+  "choices": [
+    "ℤ",
+    "ℤ×ℤ",
+    "ℤ*ℤ",
+    "The trivial group"
+  ],
+  "answer": 1,
+  "explanation": "π₁(T²) = π₁(S¹)×π₁(S¹) = ℤ×ℤ (since T²=S¹×S¹).",
+  "tags": [
+    "torus",
+    "fundamental-group",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3ba5c9b8-804f-44c5-abbe-c9b21b98087d"
+}

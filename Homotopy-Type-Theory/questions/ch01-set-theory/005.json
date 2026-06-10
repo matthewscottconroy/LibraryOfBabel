@@ -1,0 +1,20 @@
+{
+  "question_id": "8367ac44-30e1-47f4-b995-865957a1c007",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In ZFC, why can't we form the 'set of all sets'?",
+  "choices": [
+    "Because it would be uncountable",
+    "Because the Axiom of Foundation forbids it",
+    "Because unrestricted comprehension leads to paradox — ZFC uses the Axiom Schema of Separation instead",
+    "Because the Axiom of Choice is needed first"
+  ],
+  "answer": 2,
+  "explanation": "The Axiom Schema of Separation (Aussonderung) restricts comprehension to subsets of an existing set, avoiding Russell's paradox.",
+  "tags": [
+    "set-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

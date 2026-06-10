@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the propositions-as-types view, what does η-reduction correspond to?",
+  "choices": [
+    "Weakening",
+    "Contraction",
+    "Uniqueness of proofs (canonical form for intro rules)",
+    "Cut elimination"
+  ],
+  "answer": 2,
+  "explanation": "η-reduction (λx.f x → f) ensures canonical forms: a function is uniquely determined by its input-output behaviour. This corresponds to the extensionality of proofs for →.",
+  "tags": [
+    "curry-howard",
+    "lambda-calculus"
+  ],
+  "difficulty": "advanced",
+  "question_id": "0318328b-6317-485e-96e2-36813304c638"
+}

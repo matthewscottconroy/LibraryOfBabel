@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which typing rule introduces a function type in STLC?",
+  "choices": [
+    "Elimination (→E)",
+    "Formation (→F)",
+    "Introduction (→I, i.e. abstraction)",
+    "Contraction"
+  ],
+  "answer": 2,
+  "explanation": "The abstraction rule Γ,x:A ⊢ t:B / Γ ⊢ λx.t : A→B is the introduction rule for →.",
+  "tags": [
+    "stlc",
+    "typing-rules"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "5c26e72f-3435-4fd6-ae65-8e03744ba1fc"
+}

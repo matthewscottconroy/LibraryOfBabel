@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Irrelevance (proof irrelevance) in type theory means:",
+  "choices": [
+    "All proofs of a proposition are definitionally equal",
+    "Propositions cannot be eliminated to computationally relevant types",
+    "Types and values are identified",
+    "Only one proof of any proposition exists"
+  ],
+  "answer": 0,
+  "explanation": "Proof irrelevance: any two proofs of the same proposition are considered equal (propositionally or definitionally depending on the system).",
+  "tags": [
+    "proof-irrelevance",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "4c6a17c4-de18-486b-b48c-cad3f0bf4815"
+}

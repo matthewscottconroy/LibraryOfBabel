@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The induction principle for S¹ states: to prove P(x) for all x:S¹, you need:",
+  "choices": [
+    "P(base) and a path over loop connecting P(base) to itself",
+    "P(base) only",
+    "a function S¹ → P",
+    "P holds for all reals"
+  ],
+  "answer": 0,
+  "explanation": "S¹-ind: given P:S¹→U, you need d_base:P(base) and d_loop:transport^P(loop, d_base) = d_base (a path over loop). This is stronger than the recursion principle.",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "circle"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "d97b07e5-b43c-4da9-9d16-a768da2861aa"
+}

@@ -1,0 +1,18 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In intuitionistic logic, the principle ¬∃x.φ(x) → ∀x.¬φ(x) is provable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "⊢_IPC ¬∃x.φ(x) → ∀x.¬φ(x): assume ¬∃x.φ(x) and arbitrary x; if φ(x) then ∃x.φ(x), contradicting the assumption. The converse (∀x.¬φ→¬∃x.φ) also holds.",
+  "tags": [
+    "intuitionistic",
+    "FOL"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "12fc057d-69a6-4aeb-bf96-60c54733d408"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In simplicial type theory, what makes the Yoneda lemma synthetic?",
+  "choices": [
+    "it is an axiom",
+    "it is proved without using limits or colimits, just using function types",
+    "it requires the Segal condition",
+    "it uses the univalence axiom"
+  ],
+  "answer": 1,
+  "explanation": "The synthetic Yoneda lemma: for a Segal type A with a:A, Nat(hom_A(a,-), F) ≃ F(a) for any F:A→U. Proved purely in the type theory using just function extensionality and dependent types.",
+  "tags": [
+    "simplicial-TT",
+    "Yoneda"
+  ],
+  "difficulty": "advanced",
+  "question_id": "2647268a-3fc9-406e-9a80-053bb52aeb00"
+}

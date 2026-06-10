@@ -1,0 +1,18 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The Curry-Howard correspondence applies to second-order logic via System F (polymorphic lambda calculus).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "System F ↔ second-order intuitionistic propositional logic. ∀α.A corresponds to polymorphic types. This was independently discovered by Girard (in logic) and Reynolds (in CS).",
+  "tags": [
+    "curry-howard",
+    "System-F"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "cacca7b0-709f-47a6-ade8-97c89b66d17d"
+}

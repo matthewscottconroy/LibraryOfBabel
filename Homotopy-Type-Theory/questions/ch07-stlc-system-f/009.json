@@ -1,0 +1,20 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The preservation (subject reduction) theorem for STLC states: if Γ ⊢ t : T and t → t', then:",
+  "choices": [
+    "t' : T' for some T' ≠ T",
+    "Γ ⊢ t' : T",
+    "t' is a value",
+    "T is a base type"
+  ],
+  "answer": 1,
+  "explanation": "Preservation (subject reduction): reduction preserves types. If t is well-typed and reduces, the reduct has the same type.",
+  "tags": [
+    "STLC",
+    "type-safety"
+  ],
+  "difficulty": "beginner",
+  "question_id": "ae8c5002-d011-4f4c-af40-0aafbab0bd3b"
+}

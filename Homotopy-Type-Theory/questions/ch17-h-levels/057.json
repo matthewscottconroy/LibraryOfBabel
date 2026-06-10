@@ -1,0 +1,22 @@
+{
+  "question_id": "ce827c27-9952-4ecc-af1e-b495626e2acd",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The set-quotient A/R (for a relation R: A → A → Prop) in HoTT can be constructed as:",
+  "choices": [
+    "the image of the map [·]: A → A/R",
+    "the pushout A ∪_{A×A} A (one copy per related pair)",
+    "a higher inductive type with point constructor [·]: A → A/R and path constructor q: ∀x,y. R(x,y) → [x]=[y]",
+    "the propositional truncation ‖A‖₋₁"
+  ],
+  "answer": 2,
+  "explanation": "A/R as a HIT: point constructor [·]: A → A/R and path constructor q: R(x,y)→[x]=[y], plus the 0-truncation condition. The universal property: maps A/R → B (B a set) correspond to R-respecting functions A → B.",
+  "tags": [
+    "quotient-types",
+    "hit",
+    "h-sets"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

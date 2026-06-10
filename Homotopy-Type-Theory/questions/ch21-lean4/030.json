@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "blank",
+  "text": "In Lean 4, to split a conjunction goal `P ∧ Q`, one uses the tactic ______.",
+  "choices": [
+    "constructor",
+    "split",
+    "intro",
+    "cases"
+  ],
+  "answer": "constructor",
+  "explanation": "`constructor` (or `And.intro`) splits P∧Q into two subgoals P and Q.",
+  "tags": [
+    "lean4",
+    "conjunction",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "e84525db-4b21-4097-a131-dfc60c19e0a6"
+}

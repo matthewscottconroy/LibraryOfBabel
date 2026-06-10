@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Geometric type theory aims to extend HoTT to capture:",
+  "choices": [
+    "The internal language of (∞,1)-toposes with geometric morphisms between them",
+    "Classical geometry",
+    "CW complex theory",
+    "Simplicial combinatorics"
+  ],
+  "answer": 0,
+  "explanation": "Geometric TT (Shulman's programme) seeks a type theory whose models are ∞-toposes connected by geometric morphisms.",
+  "tags": [
+    "geometric-type-theory",
+    "infinity-topos",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "5493acf3-c35c-4fe0-9c79-0a931346714b"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In System F, Booleans can be encoded as ∀α. α → α → α. The term true is:",
+  "choices": [
+    "ΛαλxλAy.x",
+    "Λα.λx:α.λy:α.x",
+    "Λα.λx:α.λy:α.y",
+    "ΛαλxλAy.x+y"
+  ],
+  "answer": 1,
+  "explanation": "true = Λα.λx:α.λy:α.x (select first argument).",
+  "tags": [
+    "system-f",
+    "boolean-encoding"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d2392c5d-3558-45e1-a54d-753ff13f4d62"
+}

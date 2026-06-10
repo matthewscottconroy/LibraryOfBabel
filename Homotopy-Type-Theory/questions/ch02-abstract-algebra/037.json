@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "By Lagrange's theorem, the order of any subgroup H of a finite group G:",
+  "choices": [
+    "Equals |G|",
+    "Divides |G|",
+    "Is prime",
+    "Is at most |G|/2"
+  ],
+  "answer": 1,
+  "explanation": "Lagrange: |G| = |H| · [G:H], so |H| divides |G|.",
+  "tags": [
+    "lagrange",
+    "group-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "58c9fdf9-2ac3-4598-bbbf-3f248da963ac"
+}

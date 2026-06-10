@@ -1,0 +1,20 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Seifert-van Kampen theorem is used to compute π₁ of a space formed by gluing two path-connected spaces along:",
+  "choices": [
+    "a point",
+    "a path-connected subspace",
+    "any subset",
+    "any subgroup of π₁"
+  ],
+  "answer": 1,
+  "explanation": "Van Kampen: if X = A ∪ B with A, B, A∩B path-connected and open, then π₁(X) = π₁(A) *_{π₁(A∩B)} π₁(B) (amalgamated free product). Requires path-connected intersection.",
+  "tags": [
+    "topology",
+    "fundamental-group"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "6e1c887c-78d2-467e-b28e-d27d3ea7fe91"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The cardinal ℵ₀ is:",
+  "choices": [
+    "The cardinality of ℝ",
+    "The cardinality of ℕ (smallest infinite cardinal)",
+    "The cardinality of P(ℕ)",
+    "The first uncountable ordinal"
+  ],
+  "answer": 1,
+  "explanation": "ℵ₀ = |ℕ|, the smallest infinite cardinal; ω is the corresponding ordinal.",
+  "tags": [
+    "aleph-null",
+    "cardinals"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "c45984b8-74c0-49a2-9372-dfffc0e10f16"
+}

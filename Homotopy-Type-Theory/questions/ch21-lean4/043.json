@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "blank",
+  "text": "In Lean 4, the tactic `intro h` introduces a hypothesis h when the goal starts with ______.",
+  "choices": [
+    "∀ or →",
+    "∃",
+    "∧",
+    "¬"
+  ],
+  "answer": "∀ or →",
+  "explanation": "`intro` introduces universally quantified variables or implications as hypotheses.",
+  "tags": [
+    "lean4",
+    "intro",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "0436f9ba-fb69-4a2d-8f1b-e58fca043766"
+}

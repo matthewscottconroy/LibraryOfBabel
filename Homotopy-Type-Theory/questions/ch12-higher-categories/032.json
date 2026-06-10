@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Complete Segal spaces (Rezk) are models for (∞,1)-categories where 'completeness' means:",
+  "choices": [
+    "All Segal maps are isomorphisms",
+    "The space of objects is equivalent to the space of equivalences",
+    "The nerve condition holds strictly",
+    "The classifying map is an acyclic fibration"
+  ],
+  "answer": 1,
+  "explanation": "Completeness: X_0 ≃ X_{eq} (space of objects ≃ core of morphism space), encoding that equivalent objects are equal.",
+  "tags": [
+    "complete-segal-space",
+    "infinity-category"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "c9655ece-5ab2-4e71-9df9-fd4879fc9e32"
+}

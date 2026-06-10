@@ -1,0 +1,23 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `discreteToSeparated` or related functions in Cubical Agda connect:",
+  "choices": [
+    "Decidable equality to the set property",
+    "Types to their truncations",
+    "Paths to functions",
+    "Equivalences to isomorphisms"
+  ],
+  "answer": 0,
+  "explanation": "Discrete types (decidable equality) are sets; Hedberg's theorem is formalised in the library.",
+  "tags": [
+    "cubical-agda",
+    "discrete",
+    "h-set",
+    "hedberg"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "90b2d787-df21-4abb-a0f3-e9da9a6b7789"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The classification of closed surfaces says every compact connected surface without boundary is homeomorphic to:",
+  "choices": [
+    "a sphere or a real projective plane",
+    "a connected sum of tori (orientable) or connected sum of projective planes (non-orientable)",
+    "a sphere only",
+    "a torus only"
+  ],
+  "answer": 1,
+  "explanation": "Classification: every compact surface is homeomorphic to S² (g=0), a connected sum Σ_g = T²#…#T² (g tori), or ℝP²#…#ℝP² (n projective planes). The Euler characteristic distinguishes them.",
+  "tags": [
+    "topology",
+    "surfaces"
+  ],
+  "difficulty": "advanced",
+  "question_id": "53b4ee4d-0797-43e0-922b-c9a726b640ad"
+}

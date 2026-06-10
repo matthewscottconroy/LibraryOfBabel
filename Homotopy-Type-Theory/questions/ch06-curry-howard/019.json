@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The type ∀α.α (in System F) corresponds to which logical proposition?",
+  "choices": [
+    "⊤",
+    "⊥ (falsehood — there is no closed term of this type)",
+    "A∧B",
+    "A→A"
+  ],
+  "answer": 1,
+  "explanation": "∀α.α is uninhabited in System F: a closed term of this type would have every type simultaneously, giving an element of every type including ⊥ — inconsistency.",
+  "tags": [
+    "curry-howard",
+    "System-F"
+  ],
+  "difficulty": "beginner",
+  "question_id": "a7520ffd-bafb-4005-8825-022ad9e3f404"
+}

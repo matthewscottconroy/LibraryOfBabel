@@ -1,0 +1,21 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The Polymorphism Conjecture in type theory asks whether:",
+  "choices": [
+    "every polymorphic function is the identity",
+    "every term of type ∀α.α→α in System F is definitionally equal to the identity",
+    "all System F terms are parametric",
+    "there is only one term of type ∀α.α→α"
+  ],
+  "answer": 3,
+  "explanation": "By parametricity, the ONLY closed term of type ∀α.α→α in System F is the identity. This is not a 'conjecture' in the traditional sense — it is a theorem of parametricity.",
+  "tags": [
+    "research",
+    "System-F",
+    "parametricity"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "4a097707-4e1b-4af0-9bba-b6e0621aba79"
+}

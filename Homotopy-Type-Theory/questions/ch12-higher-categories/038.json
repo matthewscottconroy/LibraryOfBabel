@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The ∞-category of ∞-groupoids is also known as:",
+  "choices": [
+    "Cat",
+    "Spaces (the ∞-category of spaces / homotopy types)",
+    "Grp",
+    "Set"
+  ],
+  "answer": 1,
+  "explanation": "∞-Gpd ≃ Spaces: homotopy types are the same as ∞-groupoids.",
+  "tags": [
+    "infinity-groupoid",
+    "spaces",
+    "infinity-category"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "a613281c-a2c0-4d2e-a71b-ea4dccc1f9b1"
+}

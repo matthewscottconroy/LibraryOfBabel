@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Orton-Pitts CTT is a variation that uses:",
+  "choices": [
+    "Symmetric monoidal structure on I",
+    "A sheaf model replacing cofibrations with opens of a frame",
+    "The De Morgan algebra structure",
+    "Cartesian interval only"
+  ],
+  "answer": 1,
+  "explanation": "Orton-Pitts abstract CTT: frame of cofibrations abstracting over different cubical set models.",
+  "tags": [
+    "orton-pitts",
+    "cubical-type-theory",
+    "abstract"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "0cef2bef-5f3f-400a-84d4-492d653bb43c"
+}

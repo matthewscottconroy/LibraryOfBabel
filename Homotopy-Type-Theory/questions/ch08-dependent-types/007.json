@@ -1,0 +1,19 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The 'safe head' function on vectors has type:",
+  "choices": [
+    "Vec A n → A (fails if n=0 at runtime)",
+    "Vec A (S n) → A (only defined for non-empty vectors)",
+    "List A → Maybe A",
+    "Maybe (Vec A n) → A"
+  ],
+  "answer": 1,
+  "explanation": "safeHead : Vec A (S n) → A. The type ensures the vector is non-empty (successor of n), so head is total and cannot fail.",
+  "tags": [
+    "dependent-types"
+  ],
+  "difficulty": "beginner",
+  "question_id": "304dbfe5-f891-436e-a7f2-c48875939ddc"
+}

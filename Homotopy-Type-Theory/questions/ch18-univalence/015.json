@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A type A: U is an n-type iff the type (A = B): U is an (n-1)-type for all B: U. This shows:",
+  "choices": [
+    "the universe U is a set",
+    "the h-level of the universe is one higher than the types it contains",
+    "U is contractible",
+    "all types in U have the same h-level"
+  ],
+  "answer": 1,
+  "explanation": "Paths in U (types of equivalences) have h-level one lower than U itself. U is not a set; it is at best a 1-groupoid (with equiv as morphisms). This is the homotopy content of univalence.",
+  "tags": [
+    "HoTT",
+    "univalence",
+    "h-levels"
+  ],
+  "difficulty": "advanced",
+  "question_id": "b1d27350-021b-4fe8-a0c5-344fb9dac5a6"
+}

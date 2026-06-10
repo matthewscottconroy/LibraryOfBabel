@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, the `ring` tactic proves:",
+  "choices": [
+    "Goals in any ring",
+    "Goals that are equations following from ring axioms (e.g. a*(b+c) = a*b + a*c)",
+    "Goals in a field",
+    "Commutativity only"
+  ],
+  "answer": 1,
+  "explanation": "`ring` closes polynomial identity goals in commutative (semi-)rings.",
+  "tags": [
+    "lean4",
+    "ring",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "9572e9cb-feb3-4c0b-b804-4ceaa77fbb5b"
+}

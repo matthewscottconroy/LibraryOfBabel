@@ -1,0 +1,19 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Two continuous maps f, g: X → Y are homotopic if:",
+  "choices": [
+    "f = g as functions",
+    "there exists a continuous H: X × [0,1] → Y with H(x,0)=f(x) and H(x,1)=g(x)",
+    "f and g agree on a dense subset",
+    "X and Y are homeomorphic"
+  ],
+  "answer": 1,
+  "explanation": "A homotopy H is a continuous deformation from f to g. Homotopy is an equivalence relation on maps; homotopy equivalence of spaces is the induced equivalence on identities.",
+  "tags": [
+    "homotopy"
+  ],
+  "difficulty": "beginner",
+  "question_id": "a7668310-792f-4aca-be7f-9a4165489ec7"
+}

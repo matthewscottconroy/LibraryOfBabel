@@ -1,0 +1,20 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Differential cohesive HoTT adds, on top of cohesive HoTT, the modalities:",
+  "choices": [
+    "♭ and ♯",
+    "ℑ (infinitesimal shape) and & (infinitesimal disk bundle)",
+    "the homotopy truncations",
+    "spectrum types"
+  ],
+  "answer": 1,
+  "explanation": "Differential cohesion adds: ℑ (infinitesimal shape modality) and & (the reduced shape). These model the infinitesimal structure of smooth spaces, enabling synthetic differential geometry.",
+  "tags": [
+    "modal-HoTT",
+    "differential-cohesion"
+  ],
+  "difficulty": "advanced",
+  "question_id": "abe0ce0a-534a-45c1-b830-c06732159b38"
+}

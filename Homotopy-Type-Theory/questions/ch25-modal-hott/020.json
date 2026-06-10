@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The n-truncation ‖A‖ₙ in HoTT is an example of a modality. Which modality is it?",
+  "choices": [
+    "The shape modality",
+    "The n-truncation modality τₙ: A ↦ ‖A‖ₙ",
+    "The codiscrete modality",
+    "The double negation modality"
+  ],
+  "answer": 1,
+  "explanation": "Truncation ‖−‖ₙ is an idempotent monad (modality) whose modal types are the n-types.",
+  "tags": [
+    "modal-hott",
+    "truncation",
+    "modality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "fb74e250-9cd9-47dc-9d97-519f6d85904c"
+}

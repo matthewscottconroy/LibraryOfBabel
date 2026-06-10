@@ -1,0 +1,21 @@
+{
+  "question_id": "74b7d5bd-8a08-423b-a72a-95847a2a8cb5",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `omega` tactic in Lean 4 / Mathlib solves:",
+  "choices": [
+    "polynomial arithmetic over ℝ",
+    "linear arithmetic over ℤ and ℕ (Presburger arithmetic)",
+    "all decidable propositions in first-order logic",
+    "propositional tautologies"
+  ],
+  "answer": 1,
+  "explanation": "`omega` decides Presburger arithmetic (linear integer/natural arithmetic without multiplication). It subsumes `linarith` for integer goals and `decide` for small instances.",
+  "tags": [
+    "Lean4",
+    "tactics"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

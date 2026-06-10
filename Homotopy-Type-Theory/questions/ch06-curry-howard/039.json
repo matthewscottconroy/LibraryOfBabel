@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Under Curry-Howard, the eliminator for the empty type 0 (ex falso) has type:",
+  "choices": [
+    "0→0",
+    "1→A",
+    "0→A (for any A)",
+    "A→0"
+  ],
+  "answer": 2,
+  "explanation": "absurd: 0→A, corresponding to ex falso quodlibet: ⊥→A.",
+  "tags": [
+    "curry-howard",
+    "empty-type",
+    "ex-falso"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "5efa7735-f2d1-4f99-a71f-9244af6871ec"
+}

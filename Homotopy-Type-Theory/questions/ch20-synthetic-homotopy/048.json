@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, the 'Seifert-van Kampen theorem for ∞-groupoids' states that:",
+  "choices": [
+    "The pushout of ∞-groupoids is the pushout in the category of groups",
+    "The fundamental ∞-groupoid Π_∞ sends homotopy pushouts to pushouts of ∞-groupoids",
+    "Every ∞-groupoid is free",
+    "Pushouts preserve h-levels"
+  ],
+  "answer": 1,
+  "explanation": "∞-van Kampen: Π_∞ preserves homotopy pushouts, giving the fundamental ∞-groupoid of a pushout.",
+  "tags": [
+    "van-kampen",
+    "infinity-groupoid",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "d88cb6dd-25de-441a-86de-3f415c796990"
+}

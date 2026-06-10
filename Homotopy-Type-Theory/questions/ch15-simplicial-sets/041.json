@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A bisimplicial set X_{•,•}: Δ^op × Δ^op → Set has a diagonal diag(X) defined by:",
+  "choices": [
+    "diag(X)_n = X_{n,0}",
+    "diag(X)_n = X_{n,n}",
+    "diag(X) = X_{0,•}",
+    "diag(X) = colim X"
+  ],
+  "answer": 1,
+  "explanation": "Diagonal: diag(X)_n = X_{n,n}, with face/degeneracy maps from both directions.",
+  "tags": [
+    "bisimplicial-set",
+    "diagonal"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "9e03740a-4bb4-4dc5-bc50-b7c8974cbb35"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'Initiality Conjecture' for HoTT (proposed by Voevodsky) concerns:",
+  "choices": [
+    "whether HoTT has a model",
+    "whether the syntactic category of HoTT is the initial ∞-topos with appropriate structure",
+    "whether all types in HoTT are sets",
+    "whether π₄(S³) is ℤ/2ℤ"
+  ],
+  "answer": 1,
+  "explanation": "The Initiality Conjecture: the term model (syntax) of HoTT is the initial object among ∞-toposes equipped with the required structure. Proving it would establish HoTT's universal property as a foundational system.",
+  "tags": [
+    "research",
+    "open-problems"
+  ],
+  "difficulty": "advanced",
+  "question_id": "e6501243-ecce-44e6-93be-2d852f52381c"
+}

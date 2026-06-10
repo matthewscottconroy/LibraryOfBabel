@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A topological space (X, τ) requires τ (the collection of open sets) to satisfy:",
+  "choices": [
+    "X and ∅ are open; finite unions and arbitrary intersections are open",
+    "X and ∅ are open; arbitrary unions and finite intersections are open",
+    "All subsets are open",
+    "Only X and ∅ are open"
+  ],
+  "answer": 1,
+  "explanation": "Topology axioms: ∅,X ∈ τ; arbitrary unions of opens are open; finite intersections of opens are open.",
+  "tags": [
+    "topology",
+    "definition"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "0d067ce6-86ab-4c95-9026-2512add999b5"
+}

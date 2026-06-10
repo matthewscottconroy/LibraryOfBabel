@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Euler characteristic χ(X) of a CW-complex relates to its Betti numbers by:",
+  "choices": [
+    "χ = Σ (-1)ⁿ bₙ where bₙ = rank Hₙ(X)",
+    "χ = Σ bₙ",
+    "χ = #vertices - #edges",
+    "χ = dim X"
+  ],
+  "answer": 0,
+  "explanation": "Euler-Poincaré: χ(X) = Σₙ(-1)ⁿ rank Hₙ(X) = alternating sum of Betti numbers.",
+  "tags": [
+    "euler-characteristic",
+    "betti-numbers"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "de5736b1-c722-4e58-85b8-fc8b379c45ad"
+}

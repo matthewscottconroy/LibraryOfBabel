@@ -1,0 +1,21 @@
+{
+  "question_id": "7add0a3b-d215-4739-97e3-f9b2101aa1ee",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A natural transformation α: F ⇒ G assigns to each c a morphism αc: F(c)→G(c) satisfying:",
+  "choices": [
+    "αc is always an isomorphism",
+    "G(f) ∘ αc = αc' ∘ F(f) for all f: c→c' (naturality square)",
+    "αc = αc' whenever F(c) = F(c')",
+    "α is the identity on objects"
+  ],
+  "answer": 1,
+  "explanation": "Naturality = coherence: the transformation commutes with all morphisms in the source category.",
+  "tags": [
+    "category-theory",
+    "natural-transformations"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A simplicial set map f: X→Y is a Kan fibration iff it has the right lifting property with respect to:",
+  "choices": [
+    "All boundary inclusions ∂Δ[n]↪Δ[n]",
+    "All horn inclusions Λⁿₖ↪Δ[n] for all n,k",
+    "All monomorphisms",
+    "The acyclic cofibrations"
+  ],
+  "answer": 1,
+  "explanation": "Kan fibration: RLP w.r.t. all horns (both inner and outer).",
+  "tags": [
+    "kan-fibration",
+    "simplicial-set"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "ea05335c-0a07-42d5-8948-a21418e72eee"
+}

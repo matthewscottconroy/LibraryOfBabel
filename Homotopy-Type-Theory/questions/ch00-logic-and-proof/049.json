@@ -1,0 +1,19 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In classical logic, ¬(φ∧ψ) is equivalent to ¬φ∨¬ψ (De Morgan).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "De Morgan: ¬(φ∧ψ) ≡ ¬φ∨¬ψ.",
+  "tags": [
+    "de-morgan",
+    "propositional-logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "e6dd9e7e-2c2b-410e-9fe9-a8c4bf7c5e8c"
+}

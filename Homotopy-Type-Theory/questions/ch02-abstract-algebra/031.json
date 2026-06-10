@@ -1,0 +1,19 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A group G is ___ if every subgroup of G is normal.",
+  "choices": [
+    "Dedekind",
+    "Hamiltonian",
+    "nilpotent"
+  ],
+  "answer": "dedekind",
+  "explanation": "Dedekind groups (or Hamiltonian for non-abelian) have every subgroup normal. The only non-abelian example is the quaternion group Q₈ and its products with abelian groups.",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "advanced",
+  "question_id": "0bf69f2e-28c4-4e18-b298-1edd5bad139e"
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of the following functions is uniformly continuous on ℝ but NOT Lipschitz?",
+  "choices": [
+    "sin(x)",
+    "x²",
+    "√x on [0,∞)",
+    "x^{1/3}"
+  ],
+  "answer": 3,
+  "explanation": "x^{1/3} is uniformly continuous on ℝ (Hölder with exponent 1/3) but has infinite derivative at 0, so it is not Lipschitz. sin(x) is Lipschitz.",
+  "tags": [
+    "analysis"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "b953225c-8af1-4f0b-a15c-f3a57f3c2a70"
+}

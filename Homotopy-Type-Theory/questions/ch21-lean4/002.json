@@ -1,0 +1,21 @@
+{
+  "question_id": "90c0322e-34b2-4c27-b340-9ded3fc808ca",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The 'exact?' tactic in Lean 4:",
+  "choices": [
+    "proves the goal exactly",
+    "searches Mathlib for a lemma that closes the current goal",
+    "applies all lemmas in sequence",
+    "checks that a given term has the right type"
+  ],
+  "answer": 1,
+  "explanation": "'exact?' is a search tactic. It queries Mathlib and reports which lemma closes the goal.",
+  "tags": [
+    "Lean4",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

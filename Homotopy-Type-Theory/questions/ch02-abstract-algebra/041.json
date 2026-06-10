@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A ring R is a field if every non-zero element of R has:",
+  "choices": [
+    "A square root in R",
+    "A multiplicative inverse in R",
+    "Finite order",
+    "A prime factorisation"
+  ],
+  "answer": 1,
+  "explanation": "A field is a commutative ring where every r≠0 has r⁻¹∈R.",
+  "tags": [
+    "field",
+    "ring-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "a8a5f561-688e-4200-8bee-cd360de2e726"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The CCHM paper (Cohen-Coquand-Huber-Mörtberg) presents cubical type theory based on:",
+  "choices": [
+    "Simplicial sets",
+    "Cubical sets with a De Morgan algebra structure on the interval",
+    "Globular sets",
+    "Symmetric monoidal categories"
+  ],
+  "answer": 1,
+  "explanation": "CCHM CTT: based on de Morgan cubical sets (with ∧,∨,~) where types are fibrant cubical Kan complexes.",
+  "tags": [
+    "cchm",
+    "cubical-type-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b40b78de-d8a0-4402-84c8-3d408cd50d7f"
+}

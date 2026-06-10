@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The co-Yoneda lemma states:",
+  "choices": [
+    "F(A) ≅ Nat(FA, y(A))",
+    "F(A) ≅ Nat(y(A), F) where y=Yoneda",
+    "F(A) ≅ ∫^B Hom(A,B)×F(B) (coend formula)",
+    "F(A) is the colimit of F"
+  ],
+  "answer": 2,
+  "explanation": "Co-Yoneda (ninja Yoneda): F(A) ≅ ∫^B C(A,B) × F(B), expressing F as a colimit of representables.",
+  "tags": [
+    "co-yoneda",
+    "coend",
+    "category-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "b54a49ef-5117-4fdd-861c-5c992b11254a"
+}

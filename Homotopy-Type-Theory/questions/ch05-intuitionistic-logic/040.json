@@ -1,0 +1,21 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Gödel-Gentzen negative translation embeds classical logic into intuitionistic logic by:",
+  "choices": [
+    "Adding ¬¬ before every subformula",
+    "Replacing ∨ with ¬(¬A∧¬B)",
+    "Replacing ∀ with ¬∃¬",
+    "Both A and C"
+  ],
+  "answer": 3,
+  "explanation": "Gödel-Gentzen: replace atomic A by ¬¬A, A∨B by ¬(¬A∧¬B), ∃x by ¬∀x¬.",
+  "tags": [
+    "godel-gentzen",
+    "negative-translation"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "91f37b46-cb2c-4a7a-a233-42afc5639a9c"
+}

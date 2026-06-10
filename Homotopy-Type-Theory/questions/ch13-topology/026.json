@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The long exact sequence of a fibration F→E→B is:",
+  "choices": [
+    "⋯→πₙ(F)→πₙ(E)→πₙ(B)→π_{n-1}(F)→⋯",
+    "⋯→Hₙ(F)→Hₙ(E)→Hₙ(B)→⋯",
+    "⋯→πₙ(B)→πₙ(E)→πₙ(F)→⋯",
+    "A short exact sequence only"
+  ],
+  "answer": 0,
+  "explanation": "The long exact sequence of homotopy groups runs: ⋯→πₙ(F)→πₙ(E)→πₙ(B)→π_{n-1}(F)→⋯→π₀(B).",
+  "tags": [
+    "long-exact-sequence",
+    "fibration",
+    "homotopy-groups"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a3ffc080-e49a-4474-afd3-b135a295a864"
+}

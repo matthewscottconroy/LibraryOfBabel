@@ -1,0 +1,22 @@
+{
+  "question_id": "eae5b14d-7393-4d66-b67b-3eddf148dfb2",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The Glue type in CCHM is primarily used to construct:",
+  "choices": [
+    "the propositional truncation",
+    "the proof that univalence holds (ua: A≃B → A=B)",
+    "higher inductive types",
+    "the dependent product Π"
+  ],
+  "answer": 1,
+  "explanation": "Glue φ A B f: a family over I that is A on the face φ and B elsewhere, with equivalence f: A ≃ B on φ. This is the key construction for proving ua.",
+  "tags": [
+    "glue-type",
+    "univalence",
+    "cubical-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

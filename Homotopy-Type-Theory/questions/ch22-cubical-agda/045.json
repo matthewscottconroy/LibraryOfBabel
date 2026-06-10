@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, `isContr→isProp` proves:",
+  "choices": [
+    "isContr A → A",
+    "isContr A → isProp A",
+    "isProp A → isContr A",
+    "isContr A ≃ isProp A"
+  ],
+  "answer": 1,
+  "explanation": "isContr→isProp: a contractible type is a proposition (all elements equal the centre).",
+  "tags": [
+    "cubical-agda",
+    "contractible",
+    "proposition"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "47fb162d-cf8d-4193-9b07-5aa3b38f49e1"
+}

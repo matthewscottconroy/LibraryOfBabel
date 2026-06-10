@@ -1,0 +1,21 @@
+{
+  "question_id": "3c97f0b3-df08-4ca7-8b78-c9adae32d386",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the computational content (under Curry-Howard) of a proof of A ∨ B?",
+  "choices": [
+    "A function from A to B",
+    "A pair of type A × B",
+    "A tagged union: either a proof of A or a proof of B",
+    "A proof of ¬A → B"
+  ],
+  "answer": 2,
+  "explanation": "Disjunction corresponds to the sum type A + B. A proof of A ∨ B is either inl(a) (a proof of A) or inr(b) (a proof of B).",
+  "tags": [
+    "curry-howard",
+    "logic"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

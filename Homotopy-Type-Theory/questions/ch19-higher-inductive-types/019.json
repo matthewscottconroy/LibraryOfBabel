@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The HoTT circle S¹ is defined as a HIT with:",
+  "choices": [
+    "One point constructor and one path constructor (loop : base = base)",
+    "Two point constructors and one path between them",
+    "Just the point constructor base",
+    "No constructors"
+  ],
+  "answer": 0,
+  "explanation": "S¹ : base : S¹; loop : base = base.",
+  "tags": [
+    "circle",
+    "hit"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "d80f18d9-9038-4921-ae24-7dcc2712c529"
+}

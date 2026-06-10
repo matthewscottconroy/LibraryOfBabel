@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which of the following requires HITs to construct (cannot be built from just Σ, Π, and identity types)?",
+  "choices": [
+    "Propositional truncation",
+    "Σ-types",
+    "Function types",
+    "Identity types"
+  ],
+  "answer": 0,
+  "explanation": "Propositional truncation ‖A‖ requires a HIT (or a resizing axiom); it is not definable from MLTT primitives alone.",
+  "tags": [
+    "propositional-truncation",
+    "hit"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "befa0387-1cc9-49d9-bc3d-0cbc168ba9ca"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Real-cohesive HoTT (Shulman) adds the axiom that the shape of the real line ℝ is:",
+  "choices": [
+    "Contractible (ʃ ℝ ≃ 1)",
+    "The circle S¹",
+    "ℝ itself",
+    "The empty type"
+  ],
+  "answer": 0,
+  "explanation": "Real-cohesion: ʃ ℝ ≃ * (contractible); this allows synthetic constructions of classical theorems.",
+  "tags": [
+    "real-cohesive-hott",
+    "shape",
+    "real-line"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4f258cde-1f86-4859-90a1-a8b651da2c17"
+}

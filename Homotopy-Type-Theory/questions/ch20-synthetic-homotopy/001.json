@@ -1,0 +1,21 @@
+{
+  "question_id": "f66a3791-b33b-468c-9622-5c70ca9e9f94",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Freudenthal suspension theorem: if A is n-connected, A → ΩΣA is:",
+  "choices": [
+    "an equivalence",
+    "2n-connected",
+    "(n-1)-connected",
+    "always an isomorphism on π₁"
+  ],
+  "answer": 1,
+  "explanation": "Freudenthal: if A is n-connected, the unit A → ΩΣA is 2n-connected, giving stability of πₖ in the stable range k ≤ 2n-1.",
+  "tags": [
+    "HoTT",
+    "Freudenthal"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

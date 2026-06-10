@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Taylor's theorem with Lagrange remainder: if f is n+1 times differentiable on [a,x], then f(x) = Tₙ(x) + Rₙ(x) where Rₙ(x) = f^{(n+1)}(c)·(x-a)^{n+1}/(n+1)! for some c between a and x. The key condition is:",
+  "choices": [
+    "f is analytic",
+    "f is n+1 times differentiable",
+    "f has no zeros",
+    "f is uniformly continuous"
+  ],
+  "answer": 1,
+  "explanation": "Taylor's theorem requires f ∈ Cⁿ⁺¹ near a; then the Lagrange remainder is exact.",
+  "tags": [
+    "taylors-theorem",
+    "differentiation"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "5dc91220-7424-457f-bc31-e4f069560c9e"
+}

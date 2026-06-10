@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which of the following is NOT a separation axiom?",
+  "choices": [
+    "T₀ (Kolmogorov)",
+    "T₁",
+    "T₂ (Hausdorff)",
+    "T_∞ (completely regular and normal)"
+  ],
+  "answer": 3,
+  "explanation": "T₀, T₁, T₂ (Hausdorff), T₃, T₃½, T₄ are standard; T_∞ is not standard terminology.",
+  "tags": [
+    "separation-axioms",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "c2988d37-ac66-4fbd-9cf9-112c55400a62"
+}

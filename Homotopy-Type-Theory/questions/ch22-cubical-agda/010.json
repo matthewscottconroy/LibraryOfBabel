@@ -1,0 +1,20 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, a partial element (partial : ∀ i → Partial φ A) represents:",
+  "choices": [
+    "a full element of A",
+    "an element of A defined only when the formula φ holds",
+    "a path in A",
+    "a transport operation"
+  ],
+  "answer": 1,
+  "explanation": "Partial φ A is the type of elements of A defined when the cofibration φ holds. Used in hcomp to specify the open box boundary.",
+  "tags": [
+    "Cubical-Agda",
+    "partial-elements"
+  ],
+  "difficulty": "advanced",
+  "question_id": "27890dc1-aa32-4af6-a2f7-5b11062fa28e"
+}

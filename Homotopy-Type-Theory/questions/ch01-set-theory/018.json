@@ -1,0 +1,19 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In ZFC, the Axiom of Pairing says: for any sets a, b, there exists a set containing:",
+  "choices": [
+    "all sets",
+    "only a and b as elements",
+    "a and all subsets of b",
+    "the union a∪b"
+  ],
+  "answer": 1,
+  "explanation": "Pairing: ∀a,b ∃c: x∈c ↔ (x=a ∨ x=b). This gives the pair set {a,b} and (with union) enables ordinal and tuple constructions.",
+  "tags": [
+    "set-theory"
+  ],
+  "difficulty": "beginner",
+  "question_id": "17787c47-b518-42ab-a832-6f4c92174a26"
+}

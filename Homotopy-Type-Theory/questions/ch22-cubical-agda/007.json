@@ -1,0 +1,20 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, transport is written as:",
+  "choices": [
+    "subst",
+    "transp (λ i → P i) i0",
+    "transport P p",
+    "J P d p"
+  ],
+  "answer": 1,
+  "explanation": "transp (λ i → P i) i0 : P i0 → P i1 in Cubical Agda. The 'i0' argument indicates the start face; at i=i1 it gives the transport. This is the primitive transport.",
+  "tags": [
+    "Cubical-Agda",
+    "transport"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "05a9fb6a-a522-4b01-a702-585c72539a93"
+}

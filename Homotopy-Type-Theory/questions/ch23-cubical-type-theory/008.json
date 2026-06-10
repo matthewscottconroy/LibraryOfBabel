@@ -1,0 +1,21 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The key innovation of CCHM cubical type theory (Cohen-Coquand-Huet-Mörtberg 2018) over Book HoTT is:",
+  "choices": [
+    "adding new axioms",
+    "giving computation rules for ua (transport along ua(e) = e(a)), making univalence computational",
+    "removing the J rule",
+    "adding LEM"
+  ],
+  "answer": 1,
+  "explanation": "CCHM gives ua a β-rule: transp(ua(e)) a = e a. This makes univalence canonical (computable), not just an axiom. It solves the canonicity problem for Book HoTT.",
+  "tags": [
+    "cubical-TT",
+    "univalence",
+    "computation"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "4629238a-1882-4ba1-b610-d7925b7ca9fb"
+}

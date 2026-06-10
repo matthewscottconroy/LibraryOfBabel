@@ -1,0 +1,19 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In IPC, A∨¬A is not a theorem.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "LEM (A∨¬A) is not provable in IPC; the Kripke frame with one world and no ¬A-forcing refutes it for some A.",
+  "tags": [
+    "lem",
+    "ipc"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "0acbe7e0-04ff-4e6d-9705-02e826c88344"
+}

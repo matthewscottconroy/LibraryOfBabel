@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The intermediate value theorem states: if f: [a,b]→ℝ is continuous and f(a)<0<f(b), then:",
+  "choices": [
+    "f achieves its maximum on [a,b]",
+    "There exists c∈(a,b) with f(c)=0",
+    "f is uniformly continuous",
+    "f is differentiable"
+  ],
+  "answer": 1,
+  "explanation": "IVT: a continuous function on [a,b] takes every value between f(a) and f(b).",
+  "tags": [
+    "ivt",
+    "continuity"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "f0d77d2c-20b9-4f39-a4e9-ca1773ebccad"
+}

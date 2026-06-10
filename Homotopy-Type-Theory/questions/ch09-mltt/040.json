@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In extensional MLTT, the 'equality reflection' rule says:",
+  "choices": [
+    "Every two proofs of a=b are equal",
+    "If p: a=b then a ≡ b (definitionally)",
+    "All functions are extensional",
+    "Propositional equality implies definitional equality"
+  ],
+  "answer": 3,
+  "explanation": "Equality reflection: p: a=b ⊢ a ≡ b. This makes type-checking undecidable but simplifies reasoning.",
+  "tags": [
+    "extensional-mltt",
+    "equality-reflection"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "77070133-7fa5-4634-98bf-20234ddc4c0e"
+}

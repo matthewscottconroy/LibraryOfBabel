@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Proof by contradiction assumes ¬φ and derives:",
+  "choices": [
+    "φ",
+    "A true formula",
+    "⊥ (contradiction)",
+    "¬¬φ"
+  ],
+  "answer": 2,
+  "explanation": "Reductio ad absurdum: assume ¬φ, derive ⊥, conclude φ.",
+  "tags": [
+    "proof-by-contradiction",
+    "classical-logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "42d11eb9-9ec4-4441-9b73-5cf9e75fc0ce"
+}

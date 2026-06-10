@@ -1,0 +1,18 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The product of two well-ordered sets (with lexicographic order) is well-ordered.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Lex product of two well-orders is well-ordered. More generally, any product of a set of well-orders is well-ordered (this uses AC for infinite products).",
+  "tags": [
+    "set-theory",
+    "ordinals"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "caeb8edc-f631-4af6-9080-1c70431f6569"
+}

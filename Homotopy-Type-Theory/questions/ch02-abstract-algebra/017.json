@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The fundamental theorem of Galois theory establishes a correspondence between:",
+  "choices": [
+    "primes and maximal ideals",
+    "intermediate fields F⊆L⊆K and subgroups of Gal(K/F)",
+    "group homomorphisms and ring homomorphisms",
+    "normal extensions and abelian groups"
+  ],
+  "answer": 1,
+  "explanation": "Galois correspondence: for a Galois extension K/F, there is an order-reversing bijection between subfields F⊆L⊆K and subgroups H≤Gal(K/F), with L fixed by H and [K:L]=[H:1].",
+  "tags": [
+    "algebra",
+    "galois"
+  ],
+  "difficulty": "advanced",
+  "question_id": "63e82593-672a-4616-a9f3-0f73aba2183d"
+}

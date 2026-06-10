@@ -1,0 +1,21 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The flat modality ♭ in cohesive HoTT assigns to a type A the type of:",
+  "choices": [
+    "Globally constant / discrete elements of A",
+    "Homotopy classes in A",
+    "Codiscrete elements of A",
+    "Local sections of a fibration"
+  ],
+  "answer": 0,
+  "explanation": "♭A = 'flat A': the type of points of A with trivial cohesive structure (global sections of the constant sheaf).",
+  "tags": [
+    "modal-hott",
+    "flat-modality"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "f2888fe3-1b06-4c2b-8db5-2ef761cc030b"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A function f is uniformly continuous on S if for every ε>0 there exists δ>0 (depending only on ε, not on ______) such that |x-y|<δ implies |f(x)-f(y)|<ε.",
+  "choices": [
+    "x",
+    "f",
+    "ε",
+    "the interval"
+  ],
+  "answer": "x",
+  "explanation": "Uniform continuity: the same δ works for all points x simultaneously.",
+  "tags": [
+    "uniform-continuity",
+    "real-analysis"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "5d0d46fa-ad3f-440c-b793-e129d7e61bcc"
+}

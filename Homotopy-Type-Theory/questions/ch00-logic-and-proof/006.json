@@ -1,0 +1,21 @@
+{
+  "question_id": "b8606e90-93cc-4c6a-9f69-82841cc726b3",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The compactness theorem for propositional logic states that a set of formulas has a model if and only if:",
+  "choices": [
+    "it is consistent",
+    "every finite subset of it has a model",
+    "it contains no tautologies",
+    "it is closed under modus ponens"
+  ],
+  "answer": 1,
+  "explanation": "Compactness: Γ is satisfiable iff every finite Γ₀ ⊆ Γ is satisfiable. This is the bridge between finite and infinite syntax.",
+  "tags": [
+    "logic",
+    "compactness"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

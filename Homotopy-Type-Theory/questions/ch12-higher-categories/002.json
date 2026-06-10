@@ -1,0 +1,21 @@
+{
+  "question_id": "b695cf9f-b650-499f-a627-b354bc0be41e",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In a quasi-category (Joyal), composition exists for inner horns Λⁿₖ with:",
+  "choices": [
+    "all k",
+    "k = 0 only",
+    "k = n only",
+    "0 < k < n"
+  ],
+  "answer": 3,
+  "explanation": "Inner horns (0<k<n) encode composition. Kan complexes fill all horns (including outer), giving invertibility.",
+  "tags": [
+    "higher-categories",
+    "quasi-categories"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

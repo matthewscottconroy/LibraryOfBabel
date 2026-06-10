@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, the directed interval 2 = {0,1} gives rise to arrows. An element of type hom_A(a,b) (the hom-type) is interpreted as:",
+  "choices": [
+    "A path from a to b in A",
+    "A morphism from a to b in the (∞,1)-category A",
+    "A homotopy equivalence from a to b",
+    "An equality proof"
+  ],
+  "answer": 1,
+  "explanation": "hom_A(a,b) = A^2 restricted to functions sending 0↦a and 1↦b; these are 1-morphisms.",
+  "tags": [
+    "simplicial-type-theory",
+    "hom-type",
+    "morphism"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "9ef5faec-22fa-4c21-82da-a0c020a0d6aa"
+}

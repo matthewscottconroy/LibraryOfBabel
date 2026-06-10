@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Every theorem of IPC is also a theorem of classical propositional logic.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "IPC ⊆ CPC: classical logic extends intuitionistic logic by adding LEM.",
+  "tags": [
+    "ipc",
+    "classical-logic",
+    "soundness"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "3f15ae84-07bd-41fa-b3bb-4568a62eeb01"
+}

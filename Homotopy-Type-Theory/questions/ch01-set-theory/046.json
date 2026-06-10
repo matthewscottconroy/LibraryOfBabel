@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Cardinal arithmetic: ℵ₀ + ℵ₀ = ?",
+  "choices": [
+    "ℵ₁",
+    "2ℵ₀",
+    "ℵ₀",
+    "ℵ₀²"
+  ],
+  "answer": 2,
+  "explanation": "For infinite cardinals κ, κ+κ = κ (cardinal addition is absorbed by infinite cardinals).",
+  "tags": [
+    "cardinal-arithmetic",
+    "cardinals"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f190e135-ad51-4687-b0ad-814dc7bb2420"
+}

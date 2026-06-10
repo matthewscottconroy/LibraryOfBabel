@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the Curry-Howard correspondence, the intuitionistic law ¬¬P→P corresponds to:",
+  "choices": [
+    "the call/cc (call-with-current-continuation) operator in classical type theory",
+    "the identity function",
+    "double negation monad",
+    "the Y combinator"
+  ],
+  "answer": 0,
+  "explanation": "¬¬P→P is the double negation elimination; it corresponds to classical control operators like callcc (call-with-current-continuation), as in Griffin's (1990) observation.",
+  "tags": [
+    "intuitionistic",
+    "curry-howard"
+  ],
+  "difficulty": "advanced",
+  "question_id": "bb10350e-ab58-45ce-8eac-5abbe7709bfd"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why does System F NOT have a decidable type inference algorithm?",
+  "choices": [
+    "It has no base types",
+    "Polymorphic instantiation is undecidable in general (Wells 1994)",
+    "It cannot represent recursive functions",
+    "It requires continuations"
+  ],
+  "answer": 1,
+  "explanation": "Full type inference for System F is undecidable (Wells 1994). Hindley-Milner (ML) avoids this by restricting to let-polymorphism, keeping inference decidable.",
+  "tags": [
+    "System-F",
+    "type-inference"
+  ],
+  "difficulty": "advanced",
+  "question_id": "ecd4e5d6-0c46-4c8c-846f-3f1a22d7dc74"
+}

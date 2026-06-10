@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, `isEquiv f` for a morphism f: hom_A(a,b) means:",
+  "choices": [
+    "f is a path",
+    "f has a two-sided inverse morphism g: hom_A(b,a)",
+    "f is the identity",
+    "f is an element of A"
+  ],
+  "answer": 1,
+  "explanation": "f is an equivalence in a Segal type if it has a retraction and a section in the directed sense.",
+  "tags": [
+    "simplicial-type-theory",
+    "equivalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "4841c3cb-3762-47a2-9d4a-60de41e9e64a"
+}

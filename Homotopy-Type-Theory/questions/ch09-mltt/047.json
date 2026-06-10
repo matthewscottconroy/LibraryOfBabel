@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In MLTT, the type of the recursion principle for ℕ (rec-ℕ) with a non-dependent motive P is:",
+  "choices": [
+    "ℕ → P",
+    "P → (P→P) → ℕ → P",
+    "P → (ℕ→P→P) → ℕ → P",
+    "ℕ → (ℕ→ℕ) → P"
+  ],
+  "answer": 2,
+  "explanation": "rec-ℕ: base: P; step: ℕ→P→P; gives Nary function ℕ→P by iteration.",
+  "tags": [
+    "mltt",
+    "natural-numbers",
+    "recursor"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "cc602c3f-9910-4e76-b360-08daf09ad9b8"
+}

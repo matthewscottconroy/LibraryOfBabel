@@ -1,0 +1,19 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Urysohn's lemma states: in a normal space, for any two disjoint closed sets A, B there exists:",
+  "choices": [
+    "an open set between them",
+    "a continuous function f: X → [0,1] with f|_A=0 and f|_B=1",
+    "a homeomorphism sending A to B",
+    "a partition of unity"
+  ],
+  "answer": 1,
+  "explanation": "Urysohn: normal spaces ↔ Urysohn's lemma. A normal space is one where disjoint closed sets can be separated by a continuous function (in [0,1]). This implies T₄ separation.",
+  "tags": [
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "f7fe1444-2690-47b1-8034-a53ea7bb245f"
+}

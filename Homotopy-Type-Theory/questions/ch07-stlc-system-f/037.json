@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The I combinator λx.x has type:",
+  "choices": [
+    "a→b",
+    "a→a",
+    "(a→b)→a",
+    "a→b→a"
+  ],
+  "answer": 1,
+  "explanation": "I : α→α (identity).",
+  "tags": [
+    "stlc",
+    "combinators",
+    "identity"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "c162813b-2d0a-4b39-978b-e6b8adeafb3e"
+}

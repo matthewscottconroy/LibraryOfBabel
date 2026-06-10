@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Two continuous maps f,g: X→Y are homotopic if there exists a continuous H: X×[0,1]→Y with H(-,0)=f and H(-,1)=g. This H is called a:",
+  "choices": [
+    "Homeomorphism",
+    "Homotopy",
+    "Deformation retract",
+    "Fibration"
+  ],
+  "answer": 1,
+  "explanation": "H is a homotopy between f and g.",
+  "tags": [
+    "homotopy",
+    "definition"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "d129dbe5-4f32-4d84-96cd-5e00b28f7438"
+}

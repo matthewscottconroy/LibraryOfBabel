@@ -1,0 +1,19 @@
+{
+  "question_id": "0b5cb8f1-5dca-4cca-893a-59d506193d48",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A Kan complex is a simplicial set in which all horns (not just inner horns) can be filled.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Kan complexes satisfy the Kan condition: every horn Λⁿₖ (for all 0≤k≤n, n≥1) has a filler. They model ∞-groupoids / homotopy types.",
+  "tags": [
+    "simplicial-sets",
+    "Kan"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

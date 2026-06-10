@@ -1,0 +1,21 @@
+{
+  "question_id": "5a346e1b-d990-46d2-bd47-b5e5ebf25997",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The universal property of the free group F(S) on a set S says:",
+  "choices": [
+    "F(S) is the smallest group containing S",
+    "Every function f: S → G extends uniquely to a homomorphism F(S) → G",
+    "F(S) has exactly |S| elements",
+    "F(S) is always abelian"
+  ],
+  "answer": 1,
+  "explanation": "The free group is initial in the category of groups equipped with a set-map from S.",
+  "tags": [
+    "algebra",
+    "free-groups"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

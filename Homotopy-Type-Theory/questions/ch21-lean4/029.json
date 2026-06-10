@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `instance` is used to:",
+  "choices": [
+    "Declare a term-level alias",
+    "Register a term as a typeclass instance for automatic synthesis",
+    "Define a new tactic",
+    "Import a module"
+  ],
+  "answer": 1,
+  "explanation": "`instance` registers a definition as a typeclass instance, enabling implicit synthesis.",
+  "tags": [
+    "lean4",
+    "typeclass",
+    "instance"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "67b96d93-69e1-42d6-bf1d-531d8f580318"
+}

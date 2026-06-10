@@ -1,0 +1,19 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The dependent pair type Σ(x:A).B(x) is also called a ___ type.",
+  "choices": [
+    "sigma",
+    "Sigma",
+    "dependent sum"
+  ],
+  "answer": "sigma",
+  "explanation": "Σ types are dependent sums (sigma types). A term of Σ(x:A).B(x) is a pair (a, b) where a:A and b:B(a). When B is constant, Σ gives the product type.",
+  "tags": [
+    "dependent-types",
+    "sigma-types"
+  ],
+  "difficulty": "beginner",
+  "question_id": "bd4d5fd2-52a2-45a6-b9ea-62b6e9081254"
+}

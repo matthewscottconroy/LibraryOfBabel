@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Seifert-van Kampen theorem computes π₁(X) when X = U ∪ V by:",
+  "choices": [
+    "Taking the direct product π₁(U) × π₁(V)",
+    "Taking the free product with amalgamation π₁(U) *_{π₁(U∩V)} π₁(V)",
+    "Taking the direct sum π₁(U) ⊕ π₁(V)",
+    "Using the long exact sequence"
+  ],
+  "answer": 1,
+  "explanation": "van Kampen: π₁(U∪V) ≅ π₁(U) *_{π₁(U∩V)} π₁(V) (when U,V,U∩V are path-connected).",
+  "tags": [
+    "van-kampen",
+    "fundamental-group"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b004b317-61df-4692-9f0e-ebfdee94f55a"
+}

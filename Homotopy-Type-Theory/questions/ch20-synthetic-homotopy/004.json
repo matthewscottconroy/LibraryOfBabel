@@ -1,0 +1,21 @@
+{
+  "question_id": "34bcac5c-b2cf-4cfc-8fd8-68b2ec1117db",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Blakers-Massey theorem in HoTT says: for a pushout with f: C→A being m-connected and g: C→B being n-connected, the comparison map C → A×_{A⊔_CB} B is:",
+  "choices": [
+    "m-connected",
+    "n-connected",
+    "(m+n)-connected",
+    "contractible"
+  ],
+  "answer": 2,
+  "explanation": "Blakers-Massey connectivity: the comparison map into the pullback is (m+n)-connected. This implies Freudenthal.",
+  "tags": [
+    "HoTT",
+    "Blakers-Massey"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

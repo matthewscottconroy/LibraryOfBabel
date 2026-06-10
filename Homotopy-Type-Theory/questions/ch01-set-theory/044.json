@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The axiom schema of separation (comprehension) allows forming:",
+  "choices": [
+    "Any collection as a set",
+    "A subset {x∈A : φ(x)} of an existing set A",
+    "The class of all sets",
+    "The power set of any set"
+  ],
+  "answer": 1,
+  "explanation": "Separation: given set A and formula φ, {x∈A : φ(x)} is a set (prevents Russell's paradox).",
+  "tags": [
+    "separation",
+    "zfc"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "42ffa486-ba4d-402b-8252-7e07f4e374f8"
+}

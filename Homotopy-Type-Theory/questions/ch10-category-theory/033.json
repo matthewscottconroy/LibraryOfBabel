@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which result guarantees that every small category embeds fully and faithfully into a presheaf category?",
+  "choices": [
+    "Yoneda lemma",
+    "Freyd-Mitchell embedding theorem",
+    "Barr's theorem",
+    "Gabriel-Popescu theorem"
+  ],
+  "answer": 0,
+  "explanation": "The Yoneda embedding y: C ↪ [C^op, Set] is full and faithful.",
+  "tags": [
+    "yoneda",
+    "embedding"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "45e01905-e4ae-43a5-b3d9-d2dc5f8dab1b"
+}

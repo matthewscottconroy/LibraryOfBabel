@@ -1,0 +1,21 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Cubical Agda is an extension of Agda that implements:",
+  "choices": [
+    "Classical HoTT with axiom K",
+    "Cubical type theory, making univalence a theorem rather than an axiom",
+    "Intensional MLTT without identity types",
+    "A classical set-theoretic foundation"
+  ],
+  "answer": 1,
+  "explanation": "Cubical Agda (--cubical flag) implements cubical type theory where univalence and funext are provable.",
+  "tags": [
+    "cubical-agda",
+    "univalence"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "218e09e8-c069-4dde-bca3-4fdd71720f42"
+}

@@ -1,0 +1,23 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "blank",
+  "text": "The problem of providing a computational interpretation of HoTT with LEM is currently ______.",
+  "choices": [
+    "open",
+    "solved by cubical TT",
+    "trivial",
+    "impossible in principle"
+  ],
+  "answer": "open",
+  "explanation": "LEM + UA is consistent (classical HoTT) but no computational interpretation is currently known.",
+  "tags": [
+    "lem",
+    "computation",
+    "hott",
+    "open-problems"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "71e4d7b1-a9d2-4af7-bcfc-b9cc89eb55f5"
+}

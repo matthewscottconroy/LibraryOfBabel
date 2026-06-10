@@ -1,0 +1,21 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The calculus of constructions (CoC, Coquand-Huet 1988) extends MLTT by:",
+  "choices": [
+    "adding primitive recursion",
+    "combining System F (polymorphism) with dependent types in a single framework",
+    "adding LEM as an axiom",
+    "allowing non-terminating terms"
+  ],
+  "answer": 1,
+  "explanation": "CoC: the top of the Barendregt cube. It has ∀α:* and Π(x:A).B — full dependent types plus polymorphism. The kernel of Coq is based on CIC (Calculus of Inductive Constructions), an extension of CoC.",
+  "tags": [
+    "curry-howard",
+    "CoC",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "0f9ad30a-1ecc-42f6-a2c0-040e47d242f6"
+}

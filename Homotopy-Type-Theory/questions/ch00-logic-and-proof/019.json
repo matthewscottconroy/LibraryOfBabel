@@ -1,0 +1,17 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The formula (P→Q)→((Q→R)→(P→R)) is a tautology.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Hypothetical syllogism: if P→Q and Q→R then P→R. This is a tautology — the chain rule of implication.",
+  "tags": [
+    "logic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "a68c5c84-05c4-439d-8f6d-25109098ffbe"
+}

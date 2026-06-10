@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `rfl` closes a goal of the form `a = a` because:",
+  "choices": [
+    "It applies function extensionality",
+    "It proves definitional equality by reflexivity",
+    "It uses the J eliminator",
+    "It applies congruence"
+  ],
+  "answer": 1,
+  "explanation": "`rfl` (reflexivity) proves any goal that reduces to `x = x` by definitional equality.",
+  "tags": [
+    "lean4",
+    "rfl",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "b639adee-d4a8-407f-aaa5-f1c8fd527f49"
+}

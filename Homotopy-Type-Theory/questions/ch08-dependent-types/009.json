@@ -1,0 +1,18 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In dependent type theory, the identity type a =_A b is itself a type that depends on a and b.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The identity type Id_A(a,b) (or a =_A b) is indeed a dependent type: it is a type indexed by A, a:A, and b:A. It is inhabited by refl when a ≡ b definitionally.",
+  "tags": [
+    "dependent-types",
+    "identity-types"
+  ],
+  "difficulty": "beginner",
+  "question_id": "f500aed9-e0ea-4d84-9d9e-581f3f98156a"
+}

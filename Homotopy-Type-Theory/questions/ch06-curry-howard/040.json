@@ -1,0 +1,21 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The logical negation ¬A corresponds under Curry-Howard to:",
+  "choices": [
+    "A→0",
+    "0→A",
+    "A×0",
+    "A+0"
+  ],
+  "answer": 0,
+  "explanation": "¬A = A→⊥ ≅ A→0; a proof of ¬A is a function that derives absurdity from A.",
+  "tags": [
+    "curry-howard",
+    "negation"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "ee2ab7cf-8520-4484-b816-4592e3658a8b"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In cohesive HoTT, ♭A (flat/discrete) satisfies: for any discrete type B,",
+  "choices": [
+    "Hom(A, B) ≃ Hom(♭A, B) — maps out of A into discrete types factor through ♭A",
+    "Hom(♭A, B) ≃ Hom(A, ♯B) — maps out of ♭A correspond to maps into codiscrete B",
+    "♭A = A always",
+    "♭A is always contractible"
+  ],
+  "answer": 0,
+  "explanation": "♭ is the coreflection onto the discrete types: Hom(A, B)_{disc} ≅ Hom(♭A, B) for discrete B. This is the universal property of the flat modality.",
+  "tags": [
+    "modal-HoTT",
+    "cohesion"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "bfbb4dce-c553-46d7-9332-bb657b7b5928"
+}

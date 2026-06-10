@@ -1,0 +1,22 @@
+{
+  "question_id": "2220e8d9-370c-4549-b5e8-f96c76ee1e19",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The pushout A ⊔_C B has how many path constructors?",
+  "choices": [
+    "None",
+    "One (glue : ∀c. inl(f(c)) = inr(g(c)))",
+    "Two",
+    "Infinitely many"
+  ],
+  "answer": 1,
+  "explanation": "Pushout: inl, inr (point constructors) and glue(c) (path constructor identifying inl(f(c)) with inr(g(c))).",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "pushouts"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

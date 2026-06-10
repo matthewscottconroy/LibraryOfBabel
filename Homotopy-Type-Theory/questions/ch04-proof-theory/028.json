@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Reverse mathematics studies which axioms are necessary to prove theorems. The base system RCA₀ corresponds to:",
+  "choices": [
+    "full second-order arithmetic",
+    "recursive comprehension and Σ⁰₁ induction — provably equivalent to computable mathematics",
+    "ZFC",
+    "Peano arithmetic"
+  ],
+  "answer": 1,
+  "explanation": "RCA₀ (recursive comprehension axioms): the base system of reverse mathematics. Corresponds to computable mathematics. Four stronger systems (WKL₀, ACA₀, ATR₀, Π¹₁-CA₀) form the 'big five'.",
+  "tags": [
+    "proof-theory",
+    "reverse-mathematics"
+  ],
+  "difficulty": "advanced",
+  "question_id": "abb9ab6a-ee9f-435d-91b2-8968ee6088cc"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In simplicial type theory, a covariant family (fibration) F:A→U over a Segal type A satisfies:",
+  "choices": [
+    "F is constant",
+    "for each morphism f:hom_A(a,b), there is a covariant action F(f):F(a)→F(b)",
+    "F is a proposition",
+    "F preserves composition strictly"
+  ],
+  "answer": 1,
+  "explanation": "A covariant family has a covariant transport: morphisms f:hom(a,b) act covariantly by F(f):F(a)→F(b). This is the functoriality of F as an ∞-functor A→U.",
+  "tags": [
+    "simplicial-TT",
+    "fibrations"
+  ],
+  "difficulty": "advanced",
+  "question_id": "664d55db-16a0-4498-87ef-2cbbc569379f"
+}

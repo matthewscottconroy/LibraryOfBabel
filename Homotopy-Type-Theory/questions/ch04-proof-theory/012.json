@@ -1,0 +1,17 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In proof theory, the ___ property says that every formula in a normal proof is a subformula of the conclusion or a hypothesis.",
+  "choices": [
+    "subformula",
+    "subformula property"
+  ],
+  "answer": "subformula",
+  "explanation": "Subformula property: in cut-free / normal proofs, only subformulas of the premises and conclusion appear. This makes proofs 'analytic'.",
+  "tags": [
+    "proof-theory"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "532938ee-0e59-4080-adf4-cd4ef568cb59"
+}

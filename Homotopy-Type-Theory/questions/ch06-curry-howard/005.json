@@ -1,0 +1,21 @@
+{
+  "question_id": "690a29cb-9b2d-4374-9bd5-014f3ea4c894",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Under the Curry-Howard correspondence, what does a dependent product type Π(x:A).B(x) correspond to?",
+  "choices": [
+    "Conjunction A ∧ B",
+    "Universal quantification ∀x:A. B(x)",
+    "Existential quantification ∃x:A. B(x)",
+    "Implication A → B"
+  ],
+  "answer": 1,
+  "explanation": "Π types generalise function types to dependent functions. The proof of ∀x:A.B(x) is a function taking x:A to a proof of B(x).",
+  "tags": [
+    "curry-howard",
+    "dependent-types"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Atiyah-Hirzebruch spectral sequence has E₂ page:",
+  "choices": [
+    "H*(X;ℤ)",
+    "H_*(X;π_*(E)) (ordinary homology with π*(E) coefficients)",
+    "H*(X;π*(E)) ⟹ E*(X)",
+    "The Adams E₂ page"
+  ],
+  "answer": 2,
+  "explanation": "AHSS: E₂^{p,q} = H^p(X; π_q(E)) ⟹ E^{p+q}(X) for a generalised cohomology theory E.",
+  "tags": [
+    "atiyah-hirzebruch",
+    "spectral-sequence",
+    "generalized-cohomology"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "b43439e7-39b6-4331-b596-cda8d1ad184b"
+}

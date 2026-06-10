@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The identity type of the function type (A→B) is characterised by:",
+  "choices": [
+    "Pointwise equality (function extensionality)",
+    "Syntactic equality of lambda terms",
+    "Definitional equality",
+    "The type of bijections A→B"
+  ],
+  "answer": 0,
+  "explanation": "In HoTT (with funext): f = g in A→B ≃ Π(x:A). f(x) = g(x).",
+  "tags": [
+    "function-extensionality",
+    "identity-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "200ab35f-1a69-413a-8ae2-962c88a5d56a"
+}

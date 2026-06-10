@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Brouwer's fixed point theorem states that any continuous map f: Dⁿ→Dⁿ:",
+  "choices": [
+    "Is null-homotopic",
+    "Has a fixed point",
+    "Is homotopic to the identity",
+    "Maps the boundary to itself"
+  ],
+  "answer": 1,
+  "explanation": "Brouwer FPT: every continuous f: Dⁿ→Dⁿ has a point x with f(x)=x.",
+  "tags": [
+    "brouwer-fpt",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "adfcd33d-0a77-4b1d-95a1-85353b1bbf18"
+}

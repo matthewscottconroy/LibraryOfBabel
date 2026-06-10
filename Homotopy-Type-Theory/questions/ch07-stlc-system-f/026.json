@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which of the following is NOT definable in STLC (without fixpoints)?",
+  "choices": [
+    "Pairs",
+    "Boolean values",
+    "The Y combinator (general recursion)",
+    "Church numerals"
+  ],
+  "answer": 2,
+  "explanation": "STLC is strongly normalising, so no general fixed-point combinator is typeable.",
+  "tags": [
+    "stlc",
+    "expressivity"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d1e24e1a-8e82-47e9-80db-c69c01df8eb4"
+}

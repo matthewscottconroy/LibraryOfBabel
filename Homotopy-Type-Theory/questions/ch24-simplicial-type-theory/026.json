@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The model of Simplicial TT lives in the ∞-topos of:",
+  "choices": [
+    "Kan complexes",
+    "Simplicial spaces (bisimplicial sets) / (∞,1)-categories",
+    "Presheaves on Δ×Δ",
+    "Both B and C"
+  ],
+  "answer": 3,
+  "explanation": "Simplicial TT is modelled in simplicial spaces (bisimplicial sets), which present (∞,1)-categories.",
+  "tags": [
+    "simplicial-type-theory",
+    "model"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "21227ecc-6ca5-4f1d-bfea-ad5effce3a9e"
+}

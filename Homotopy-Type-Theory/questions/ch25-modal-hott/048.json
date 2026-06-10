@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In 'multimodal type theory' (MTT), context extensions using multiple modalities allow:",
+  "choices": [
+    "Mixing classical and constructive logic arbitrarily",
+    "Tracking usage modes: linear, affine, relevant, or modal, within a single framework",
+    "Eliminating the need for universes",
+    "Replacing dependent types"
+  ],
+  "answer": 1,
+  "explanation": "MTT with mode theories captures linear, modal, and other resource disciplines in a unified framework.",
+  "tags": [
+    "multimodal-type-theory",
+    "mtt",
+    "resource-sensitivity"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "0f88f94b-c780-4858-98a3-a951b33a1ba2"
+}

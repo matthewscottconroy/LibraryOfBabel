@@ -1,0 +1,20 @@
+{
+  "question_id": "100929e4-99c3-42d8-b3be-e8a29f4d0538",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The operation that transports a term p:P(x) along a path e:x=y to produce a term in P(y) is called ___.",
+  "choices": [
+    "transport",
+    "subst"
+  ],
+  "answer": "transport",
+  "explanation": "Transport (sometimes written subst) is the induced action of paths on type families: given P:A→U and e:x=y, transport P e : P(x) → P(y).",
+  "tags": [
+    "HoTT",
+    "paths",
+    "identity-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

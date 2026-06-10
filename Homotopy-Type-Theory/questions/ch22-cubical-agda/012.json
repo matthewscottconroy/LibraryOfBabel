@@ -1,0 +1,20 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, 'ua' (univalence axiom) maps:",
+  "choices": [
+    "A ≃ B → A ≡ B",
+    "A ≡ B → A ≃ B",
+    "Any path to an equivalence",
+    "A type to its propositions"
+  ],
+  "answer": 0,
+  "explanation": "ua : A ≃ B → A ≡ B. It is the inverse of the canonical idToEquiv. In Cubical Agda, ua is proved as a theorem using the Glue type (not an axiom).",
+  "tags": [
+    "Cubical-Agda",
+    "univalence"
+  ],
+  "difficulty": "beginner",
+  "question_id": "365f01b6-7a44-4e62-9318-2b03811ad266"
+}

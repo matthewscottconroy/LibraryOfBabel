@@ -1,0 +1,21 @@
+{
+  "question_id": "ad711cdf-1cec-4d81-b6cc-eb3f41443588",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A homotopy between functions f, g : A → B is a term of type:",
+  "choices": [
+    "f = g",
+    "Π(x:A). f(x) = g(x)",
+    "Σ(x:A). f(x) = g(x)",
+    "A → B"
+  ],
+  "answer": 1,
+  "explanation": "A homotopy H: f ~ g is Π(x:A).f(x)=g(x). Funext says f~g → f=g (it is an axiom in Book HoTT, a theorem in cubical TT).",
+  "tags": [
+    "HoTT",
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

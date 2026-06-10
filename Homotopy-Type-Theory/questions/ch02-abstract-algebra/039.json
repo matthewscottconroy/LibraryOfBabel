@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The first isomorphism theorem states: if φ: G→H is a homomorphism, then:",
+  "choices": [
+    "G ≅ H",
+    "G/ker(φ) ≅ im(φ)",
+    "ker(φ) ≅ G",
+    "im(φ) ≅ H"
+  ],
+  "answer": 1,
+  "explanation": "First isomorphism theorem: G/ker(φ) ≅ φ(G).",
+  "tags": [
+    "isomorphism-theorem",
+    "group-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "672a95cf-2558-4ece-971b-c05a6e3900e4"
+}

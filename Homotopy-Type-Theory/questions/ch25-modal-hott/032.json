@@ -1,0 +1,21 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Which modal type theory uses 'ticks' (') to mark the previous-time modality for guarded recursion?",
+  "choices": [
+    "Cohesive HoTT",
+    "Guarded recursive type theory (Clouston et al.)",
+    "Modal HoTT (Shulman)",
+    "Linear type theory"
+  ],
+  "answer": 1,
+  "explanation": "Guarded recursive TT uses a later modality ▷ (next step), enabling productive corecursion.",
+  "tags": [
+    "guarded-recursion",
+    "modal-type-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8604c810-f7ce-4fb5-8c34-b90185a40e8d"
+}

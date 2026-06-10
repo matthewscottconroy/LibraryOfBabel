@@ -1,0 +1,19 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In a dependent type system, type-checking is generally decidable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Type-checking can be undecidable in some dependent type systems (e.g. those with general recursion); it is decidable in systems like Martin-Löf TT with structural recursion only.",
+  "tags": [
+    "dependent-types",
+    "decidability"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "9c575f86-5e72-438d-ada1-0953e5a7babe"
+}

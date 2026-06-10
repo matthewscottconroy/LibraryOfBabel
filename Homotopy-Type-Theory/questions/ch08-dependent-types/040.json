@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The 'large elimination' principle for Bool in MLTT allows:",
+  "choices": [
+    "Proving P : Bool → Prop",
+    "Defining a type family P : Bool → Type by pattern matching on Bool",
+    "Extracting values from Bool proofs",
+    "Eliminating Bool from a predicate"
+  ],
+  "answer": 1,
+  "explanation": "Large elimination: the motive of the Bool recursor can live in Type (not just Prop), enabling Bool→Type branching.",
+  "tags": [
+    "large-elimination",
+    "bool",
+    "dependent-types"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "907aebd1-9db7-4170-8558-396a1973e3a7"
+}

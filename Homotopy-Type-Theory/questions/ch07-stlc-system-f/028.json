@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the principal type of the S combinator λx.λy.λz. x z (y z) in STLC?",
+  "choices": [
+    "(a→b→c)→(a→b)→a→c",
+    "a→b→a",
+    "(a→b)→a→b",
+    "a→a"
+  ],
+  "answer": 0,
+  "explanation": "S : (α→β→γ)→(α→β)→α→γ is the standard Schönfinkel S combinator type.",
+  "tags": [
+    "stlc",
+    "combinators"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "7358a777-b297-44e9-b20c-4503e735e2ad"
+}

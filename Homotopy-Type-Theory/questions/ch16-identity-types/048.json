@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The identity system (Rijke-Shulman-Spitters) characterises the identity type by:",
+  "choices": [
+    "Universal property: Σ(a:A)(R(a,a)) and a map A→Σ(b:A)R(a,b) being contractible",
+    "Function extensionality",
+    "Univalence for identity types",
+    "K axiom"
+  ],
+  "answer": 0,
+  "explanation": "Identity systems: a relation R with reflexivity r:(a:A)→R(a,a) gives an identity system if the total space is contractible.",
+  "tags": [
+    "identity-system",
+    "identity-type",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "d1946079-7823-4f81-857b-4c93ae85012d"
+}

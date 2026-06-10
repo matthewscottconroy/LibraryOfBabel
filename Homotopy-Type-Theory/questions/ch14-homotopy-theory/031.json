@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Hopf fibration S¹ → S³ → S² has as its classifying data:",
+  "choices": [
+    "A generator of π₃(S²) ≅ ℤ (the Hopf invariant 1 element η)",
+    "The Euler class",
+    "A generator of H²(S²)",
+    "A representation of U(1)"
+  ],
+  "answer": 0,
+  "explanation": "The Hopf fibration η ∈ π₃(S²) ≅ ℤ is the Hopf invariant 1 element, the first non-trivial element of πₙ(S^{n-1}) for n>1.",
+  "tags": [
+    "hopf-fibration",
+    "homotopy-groups"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "bfc53186-80ac-41d2-bafd-e89cf5df6f80"
+}

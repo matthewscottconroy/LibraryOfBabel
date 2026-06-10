@@ -1,0 +1,20 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The propositional truncation ∥A∥ satisfies: for any proposition P,",
+  "choices": [
+    "(A → P) ≃ (A → ∥A∥)",
+    "(A → P) ≃ (∥A∥ → P)",
+    "∥A∥ = A",
+    "∥A∥ is contractible when A is inhabited"
+  ],
+  "answer": 1,
+  "explanation": "Universal property of ∥A∥: (A→P) ≃ (∥A∥→P) for any proposition P. To define a function ∥A∥→P (propositions have at most one element), it suffices to give A→P.",
+  "tags": [
+    "HoTT",
+    "truncation"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "666306c9-8cfa-439f-bd5d-384366935061"
+}

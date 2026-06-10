@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The universal cover of the circle S¹ is the real line ______.",
+  "choices": [
+    "ℝ",
+    "S²",
+    "ℤ",
+    "S¹ × S¹"
+  ],
+  "answer": "ℝ",
+  "explanation": "The map ℝ→S¹, t↦e^{2πit} is the universal covering; ℝ is contractible and the fibre is ℤ.",
+  "tags": [
+    "covering-space",
+    "fundamental-group"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3c10491d-dd7c-4580-a4d3-53a07d72b33b"
+}

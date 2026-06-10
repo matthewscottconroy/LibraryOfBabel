@@ -1,0 +1,20 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Hopf fibration η: S³ → S² is a fibration with fibre:",
+  "choices": [
+    "S³",
+    "S²",
+    "S¹",
+    "ℝ"
+  ],
+  "answer": 2,
+  "explanation": "The Hopf fibration S¹ → S³ → S² has fibre S¹. It is the first non-trivial principal U(1)-bundle. The total space S³ is the join S¹ * S¹.",
+  "tags": [
+    "homotopy",
+    "Hopf"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "01df81e8-99e3-4457-bd40-5ec88a7e265e"
+}

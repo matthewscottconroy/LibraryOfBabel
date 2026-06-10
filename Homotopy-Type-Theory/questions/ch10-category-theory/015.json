@@ -1,0 +1,20 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A monad on a category C is a triple (T, η, μ) where η: Id ⇒ T is the unit, μ: T² ⇒ T is the multiplication, satisfying:",
+  "choices": [
+    "naturality of η only",
+    "monad laws: μ∘Tη = id = μ∘ηT and μ∘Tμ = μ∘μT",
+    "T is a functor preserving limits",
+    "η is a natural isomorphism"
+  ],
+  "answer": 1,
+  "explanation": "Monad axioms: unit laws (μ∘Tη=μ∘ηT=id_T) and associativity (μ∘Tμ=μ∘μT). Monads generalise monoids from Set to functor categories.",
+  "tags": [
+    "category-theory",
+    "monads"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "60a55724-c8da-4466-b9ed-1fd37a9bed1d"
+}

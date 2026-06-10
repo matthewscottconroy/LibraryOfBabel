@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What does `Prop` represent in Lean 4?",
+  "choices": [
+    "A boolean",
+    "The sort of propositions (proof-irrelevant types)",
+    "The type of natural numbers",
+    "A typeclass"
+  ],
+  "answer": 1,
+  "explanation": "Prop is the sort of proof-irrelevant propositions; a term of type P : Prop is a proof of P.",
+  "tags": [
+    "lean4",
+    "prop",
+    "sorts"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "55497297-115b-434a-89c0-9facbe66101f"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Fibred category theory models dependent types. A fibration p:E→B models:",
+  "choices": [
+    "A functor from B to E",
+    "A type family over a context (a type indexed by elements of the base)",
+    "A monomorphism",
+    "An equivalence of categories"
+  ],
+  "answer": 1,
+  "explanation": "Fibrations model type families: for each b:B, the fibre p⁻¹(b) represents the type at context b.",
+  "tags": [
+    "fibration",
+    "categorical-semantics",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e58369e5-1b3a-4ee3-9082-83ff44faa57c"
+}

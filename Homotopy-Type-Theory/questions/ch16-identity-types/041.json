@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The type of equivalences A≃B is defined as Σ(f:A→B). ______.",
+  "choices": [
+    "isEquiv(f)",
+    "isMono(f)",
+    "isSurj(f)",
+    "isProp(f)"
+  ],
+  "answer": "isEquiv(f)",
+  "explanation": "A≃B = Σ(f:A→B). isEquiv(f), where isEquiv(f) = Π(b:B). isContr(fib f b).",
+  "tags": [
+    "equivalence",
+    "sigma-type",
+    "identity-type"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "f79a6709-eaf0-404d-9b79-0679a325f0d1"
+}

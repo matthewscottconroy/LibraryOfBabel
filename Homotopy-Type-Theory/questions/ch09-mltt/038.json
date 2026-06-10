@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In MLTT, the recursor for Σ-types (ind-Σ) has the type:",
+  "choices": [
+    "Σ(x:A).B(x) → A",
+    "(Σ(x:A).B(x)) → C for constant C",
+    "∀(C: Σ(x:A).B(x)→Type). (∀x:A.∀y:B(x). C(x,y)) → ∀p. C(p)",
+    "Σ(x:A).B(x) → B(fst p)"
+  ],
+  "answer": 2,
+  "explanation": "ind-Σ: given C and f:∀x,y.C(x,y), define ind-Σ(C,f,(x,y)) ≡ f(x,y).",
+  "tags": [
+    "mltt",
+    "sigma-type",
+    "recursor"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "a44d5fbf-9c11-47f4-bce2-ba408659bc6c"
+}

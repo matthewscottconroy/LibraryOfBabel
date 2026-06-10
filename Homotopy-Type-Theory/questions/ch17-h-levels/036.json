@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "For functions f,g: A→B between propositions, we have:",
+  "choices": [
+    "f may differ from g",
+    "f = g (since B is a proposition and isProp implies all terms are equal)",
+    "f=g only if A is also a proposition",
+    "f=g only up to homotopy"
+  ],
+  "answer": 1,
+  "explanation": "If isProp(B) then any two functions A→B are equal (since all terms of B are equal).",
+  "tags": [
+    "proposition",
+    "h-level",
+    "function"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "a637d4df-d978-46ec-9f26-fc9b465d6b6f"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The type of automorphisms Aut(A) = (A=A) in HoTT for a type A is:",
+  "choices": [
+    "Always trivial",
+    "Always ℤ",
+    "A group under path composition (with identity refl)",
+    "Always a set"
+  ],
+  "answer": 2,
+  "explanation": "Aut(A) = Ω(𝒰,A): loops in the universe at A form a group via path composition.",
+  "tags": [
+    "automorphisms",
+    "loop-space",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b8326e93-3d87-4c29-bddc-16c3a639a936"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The based loop space ΩX of a pointed type X is defined as the identity type ______.",
+  "choices": [
+    "(baseX = baseX)",
+    "(X = X)",
+    "Σ(x:X).x=baseX",
+    "X × X"
+  ],
+  "answer": "(baseX = baseX)",
+  "explanation": "ΩX = (base =_X base): the type of loops at the basepoint.",
+  "tags": [
+    "loop-space",
+    "identity-type",
+    "hit"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "4c68ff1d-3026-4dbd-b781-ae0bb012f26a"
+}

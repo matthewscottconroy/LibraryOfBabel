@@ -1,0 +1,21 @@
+{
+  "question_id": "5aafeed8-01a1-4631-ba57-46572a8a4b64",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In simplicial type theory, a functor between Segal types A and B is:",
+  "choices": [
+    "a natural transformation F ⇒ G",
+    "simply a function F : A → B (no extra conditions needed)",
+    "an equivalence of types",
+    "a map satisfying explicit naturality conditions"
+  ],
+  "answer": 1,
+  "explanation": "Every function between Segal types is automatically a functor — functoriality follows from how functions interact with directed structure.",
+  "tags": [
+    "simplicial-TT",
+    "functors"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

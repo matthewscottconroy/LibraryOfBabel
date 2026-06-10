@@ -1,0 +1,21 @@
+{
+  "question_id": "6e89c8e5-5499-4ddc-879d-06e79e12ddce",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The 'omega' tactic handles:",
+  "choices": [
+    "ring equalities over ℤ",
+    "linear arithmetic over ℕ and ℤ (Presburger arithmetic)",
+    "propositional tautologies",
+    "any decidable proposition"
+  ],
+  "answer": 1,
+  "explanation": "'omega' decides linear arithmetic (Presburger). For ring equalities use 'ring'; for props use 'decide' or 'tauto'.",
+  "tags": [
+    "Lean4",
+    "tactics"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

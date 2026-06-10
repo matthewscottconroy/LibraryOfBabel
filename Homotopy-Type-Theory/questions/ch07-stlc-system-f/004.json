@@ -1,0 +1,21 @@
+{
+  "question_id": "a066aec1-a712-4ff0-a1cd-ed3b68c488d0",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Reynolds' parametricity theorem says a term of type ∀α. α → α must be:",
+  "choices": [
+    "undefined / diverging",
+    "a constant function",
+    "the identity function",
+    "any computable function"
+  ],
+  "answer": 2,
+  "explanation": "By parametricity, the only closed term of type ∀α.α→α is the identity. Parametricity rules out all others.",
+  "tags": [
+    "System-F",
+    "parametricity"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

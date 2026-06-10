@@ -1,0 +1,18 @@
+{
+  "question_id": "cc736435-4f72-4359-8436-30ff89574f27",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In classical logic, the law of excluded middle (P ∨ ¬P) is a tautology.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "LEM holds classically but fails intuitionistically — a key dividing line.",
+  "tags": [
+    "logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

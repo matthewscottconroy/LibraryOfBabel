@@ -1,0 +1,19 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In ZFC, the axiom of choice (AC) implies that every set can be well-ordered.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Well-ordering theorem is equivalent to AC: every set admits a well-order.",
+  "tags": [
+    "axiom-of-choice",
+    "well-ordering"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "dcdf6677-2c60-4f4b-8e39-15224250dfec"
+}

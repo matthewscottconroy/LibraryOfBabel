@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The set-quotient A/R defined as a HIT has as path constructors:",
+  "choices": [
+    "eq : Π(a b:A). R a b → [a] = [b]",
+    "A loop for each equivalence class",
+    "A single path for all of A",
+    "No paths"
+  ],
+  "answer": 0,
+  "explanation": "A/R: [_] : A → A/R; eq : Π(a b:A). R a b → [a] = [b]; set-trunc path.",
+  "tags": [
+    "quotient-type",
+    "hit"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0ffe8ec3-7909-44db-a277-e1f115df0535"
+}

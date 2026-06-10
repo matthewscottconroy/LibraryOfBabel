@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `show T` in tactic mode:",
+  "choices": [
+    "Proves T immediately",
+    "Changes the goal to T (if T is definitionally equal to the current goal)",
+    "Introduces T as a hypothesis",
+    "Checks if T is a type"
+  ],
+  "answer": 1,
+  "explanation": "`show T` changes the display of the goal to T (requires T to be definitionally equal to the goal).",
+  "tags": [
+    "lean4",
+    "show",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "f72ca77c-c8bf-45ff-afbc-3d0a31ab6ef7"
+}

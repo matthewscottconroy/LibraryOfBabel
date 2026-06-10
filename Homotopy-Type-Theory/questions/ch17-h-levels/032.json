@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "If f: A→B is an equivalence and A is a mere proposition, then B is:",
+  "choices": [
+    "Contractible",
+    "A set",
+    "A mere proposition",
+    "Not necessarily a mere proposition"
+  ],
+  "answer": 2,
+  "explanation": "h-levels are preserved by equivalence: if A ≃ B and isProp(A), then isProp(B).",
+  "tags": [
+    "h-level",
+    "equivalence",
+    "proposition"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8773f218-e5cb-4ca2-bb3b-86faf3ff4c69"
+}

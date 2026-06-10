@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The encode-decode proof of π₁(S¹) ≅ ℤ in HoTT uses univalence to construct the universal cover. The key step is:",
+  "choices": [
+    "Applying ua to the successor equivalence succ: ℤ≃ℤ to define the loop's action",
+    "Using J to eliminate the loop",
+    "Applying funext to the winding function",
+    "Truncating the path space"
+  ],
+  "answer": 0,
+  "explanation": "The universal cover is a type family ℤ→Type; the loop at base acts by ua(succ), giving ℤ as the fibre.",
+  "tags": [
+    "pi1-circle",
+    "univalence",
+    "encode-decode"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "72f7f31a-bf37-4884-b4a0-969387f1159c"
+}

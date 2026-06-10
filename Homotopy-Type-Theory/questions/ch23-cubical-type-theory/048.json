@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'higher inductive-inductive types' (HIITs) combine:",
+  "choices": [
+    "Higher inductive types with inductive-inductive definitions (mutually defined types where later types are indexed over earlier ones)",
+    "HITs and coinductive types",
+    "HITs and universe polymorphism",
+    "HITs and modalities"
+  ],
+  "answer": 0,
+  "explanation": "HIITs: simultaneously define a type A and a family B:A→Type by induction, with path constructors.",
+  "tags": [
+    "hiit",
+    "higher-inductive-inductive",
+    "cubical-type-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "547fcb1b-732d-415e-b66f-aaaeedc983f8"
+}

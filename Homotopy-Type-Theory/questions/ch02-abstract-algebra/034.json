@@ -1,0 +1,18 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every finite abelian group is isomorphic to a direct product of cyclic groups.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Classification of finite abelian groups: every finite abelian group G ≅ ℤ/n₁ × ⋯ × ℤ/nₖ where n₁|n₂|⋯|nₖ (invariant factor decomposition).",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "ecd7cfb3-e02d-40ff-8502-3ec2a1f69c7b"
+}

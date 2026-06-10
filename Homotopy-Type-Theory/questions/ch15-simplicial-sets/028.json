@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The homotopy groups πₙ(X, x) of a Kan complex X are defined as:",
+  "choices": [
+    "Homotopy classes of maps Sⁿ→|X|",
+    "Homotopy classes of n-simplices whose boundary is degenerate at x",
+    "Homotopy classes of n-simplices, relative to x",
+    "Both B and C"
+  ],
+  "answer": 3,
+  "explanation": "πₙ(X,x) = {σ ∈ Xₙ | dᵢσ = s₀^{n-1}(x) for all i} / homotopy.",
+  "tags": [
+    "homotopy-groups",
+    "kan-complex"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a5a20f50-31a9-4b58-8f77-b92d00acb91e"
+}

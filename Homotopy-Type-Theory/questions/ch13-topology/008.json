@@ -1,0 +1,20 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The product of two compact spaces (with the product topology) is:",
+  "choices": [
+    "compact (Tychonoff's theorem for finite products)",
+    "not necessarily compact",
+    "compact only if both are metrizable",
+    "compact only if both are T₁"
+  ],
+  "answer": 0,
+  "explanation": "Tychonoff's theorem: any product of compact spaces is compact. For finitely many factors, this does not need the axiom of choice. For infinite products, AC is equivalent to Tychonoff.",
+  "tags": [
+    "topology",
+    "compactness"
+  ],
+  "difficulty": "beginner",
+  "question_id": "7ac351a4-eebf-4b27-bca0-eafe440474a7"
+}

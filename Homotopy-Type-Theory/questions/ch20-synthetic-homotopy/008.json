@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "An n-connected type A (in HoTT) satisfies:",
+  "choices": [
+    "πₖ(A)=0 for k≤n (all homotopy groups through n are trivial)",
+    "A has exactly n connected components",
+    "A is contractible",
+    "all paths in A are loops"
+  ],
+  "answer": 0,
+  "explanation": "A is n-connected iff it is n-truncated after one truncation: ∥A∥_n is contractible. Equivalently, πₖ(A)=0 for k≤n. 0-connected = path-connected; 1-connected = simply connected.",
+  "tags": [
+    "HoTT",
+    "homotopy",
+    "connectivity"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "c4600208-daea-4e62-a860-02bd59c2bcfd"
+}

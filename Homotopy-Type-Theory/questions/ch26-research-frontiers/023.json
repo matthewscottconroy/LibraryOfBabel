@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "XTT (Gratzer-Birkedal) is a type theory designed to reconcile:",
+  "choices": [
+    "HoTT and linear logic",
+    "Strict equality (for proof-irrelevant propositions) and homotopy identity types for general types",
+    "Cubical TT and simplicial TT",
+    "Modal and cohesive HoTT"
+  ],
+  "answer": 1,
+  "explanation": "XTT separates propositions (strict equality via UIP) from general types (with homotopy identity), giving decidable type-checking with HoTT features.",
+  "tags": [
+    "xtt",
+    "type-theory",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "593c3823-997c-4e08-bf39-f5c12c532d17"
+}

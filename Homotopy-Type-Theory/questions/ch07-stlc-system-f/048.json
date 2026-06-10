@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Girard-Reynolds isomorphism states that:",
+  "choices": [
+    "System F and System Fω are equivalent",
+    "Proofs of second-order propositions correspond to polymorphic programs",
+    "Data types correspond to their Church encodings in System F",
+    "All of the above"
+  ],
+  "answer": 1,
+  "explanation": "Girard-Reynolds: System F is the type theory of second-order logic under C-H; data types correspond to universal types.",
+  "tags": [
+    "system-f",
+    "girard-reynolds"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "ca404b43-e938-49d9-a0c9-f34bf7496e89"
+}

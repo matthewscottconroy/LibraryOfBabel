@@ -1,0 +1,19 @@
+{
+  "question_id": "097b6c93-4278-43eb-b088-82cf649634f5",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "tf",
+  "text": "The propositional truncation ∥A∥ is the smallest proposition A maps into.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Universal property of ∥A∥: for any prop P, (A → P) ≃ (∥A∥ → P). It is initial among propositions over A.",
+  "tags": [
+    "HoTT",
+    "truncation"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A CW-complex is built by attaching:",
+  "choices": [
+    "Only 1-cells (edges) to 0-cells (vertices)",
+    "Cells of various dimensions, with each n-cell attached by a map Sⁿ⁻¹→(n-1)-skeleton",
+    "Simplices only",
+    "Spheres via degree-1 maps"
+  ],
+  "answer": 1,
+  "explanation": "CW complexes attach n-cells eⁿ via attaching maps ∂eⁿ = Sⁿ⁻¹ → X_{n-1}.",
+  "tags": [
+    "cw-complex",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "a5b07585-f802-4a98-a40c-1dfb1b805a07"
+}

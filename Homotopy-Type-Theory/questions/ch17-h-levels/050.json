@@ -1,0 +1,22 @@
+{
+  "question_id": "78f4185b-ba4e-493e-9e4b-b4ae22d059cc",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Hedberg's theorem states: if A has decidable equality (∀x,y:A. (x=y)+(x≠y)), then:",
+  "choices": [
+    "A is contractible",
+    "A is a mere proposition",
+    "A is a set (h-level 0, all identity types are mere propositions)",
+    "A has decidable membership"
+  ],
+  "answer": 2,
+  "explanation": "Hedberg (1998): decidable equality → UIP → h-set. The proof constructs a constant function on loops using the decision procedure, then applies Streicher's theorem.",
+  "tags": [
+    "hedberg",
+    "h-sets",
+    "decidability"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

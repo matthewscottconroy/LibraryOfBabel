@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why does the propositional truncation ∥A∥ provide a notion of 'mere existence' that matters in HoTT?",
+  "choices": [
+    "Because it makes A into a set",
+    "Because stating ∥A∥ says A has an element WITHOUT committing to a specific one (no computational witness)",
+    "Because it collapses all types to propositions",
+    "Because ∥A∥ is equivalent to A for Kan complexes"
+  ],
+  "answer": 1,
+  "explanation": "∥A∥ = 'there merely exists an element of A'. Unlike Σ(x:A).True (which provides a witness x), ∥A∥ erases the witness. This distinction is crucial for stating classical logic axioms constructively.",
+  "tags": [
+    "HoTT",
+    "truncation",
+    "constructivism"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "153b0d0e-0f1c-4bb2-b26b-08821b5dc043"
+}

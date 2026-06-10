@@ -1,0 +1,21 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Real-Cohesive HoTT (Shulman 2018) is a version of cohesive HoTT that:",
+  "choices": [
+    "adds classical logic",
+    "uses the real numbers as the cohesive interval, giving a synthetic account of real analysis",
+    "removes the shape modality",
+    "uses cubical intervals"
+  ],
+  "answer": 1,
+  "explanation": "Real-Cohesive HoTT (Shulman) uses the reals ℝ as the model of cohesion. It has an extra axiom ('reals cohesion') allowing synthetic differential geometry and cohesive topology.",
+  "tags": [
+    "research",
+    "modal-HoTT",
+    "cohesion"
+  ],
+  "difficulty": "advanced",
+  "question_id": "01b8382f-ad3d-42ff-ab2e-8d4397622aae"
+}

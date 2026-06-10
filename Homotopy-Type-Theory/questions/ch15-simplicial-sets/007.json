@@ -1,0 +1,19 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The standard n-simplex Δ[n] in sSet is the simplicial set represented by [n]:",
+  "choices": [
+    "its k-simplices are all order-preserving maps [k] → [n]",
+    "it is the geometric simplex |Δ[n]|",
+    "it has exactly n+1 vertices",
+    "it is the nerve of [n]"
+  ],
+  "answer": 0,
+  "explanation": "Δ[n] = Hom_Δ(−, [n]): the representable presheaf on [n]. Its k-simplices are monotone maps [k]→[n]. By Yoneda, maps Δ[n]→X correspond to n-simplices of X.",
+  "tags": [
+    "simplicial-sets"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "96aea91b-d2c7-4adf-bf38-d495b24c5d13"
+}

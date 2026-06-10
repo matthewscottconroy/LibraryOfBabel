@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which of the following is a form of extensionality that MLTT (without HoTT) does NOT have by default?",
+  "choices": [
+    "Η-rule for functions",
+    "Propositional function extensionality (funext)",
+    "Definitional β-reduction",
+    "Judgmental η for Σ"
+  ],
+  "answer": 1,
+  "explanation": "Function extensionality (∀x.f x = g x → f = g) is not derivable in MLTT and must be postulated or obtained from univalence.",
+  "tags": [
+    "mltt",
+    "function-extensionality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3518dc28-b719-45c1-9507-49a230fd32b3"
+}

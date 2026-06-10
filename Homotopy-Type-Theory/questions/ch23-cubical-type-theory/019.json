@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In cubical type theory, the interval I is a ______ type with endpoints i0, i1 and operations ∧, ∨, ~.",
+  "choices": [
+    "De Morgan algebra",
+    "Boolean algebra",
+    "Heyting algebra",
+    "Linear type"
+  ],
+  "answer": 0,
+  "explanation": "I carries a De Morgan algebra structure: i ∧ j, i ∨ j, ~i, i0, i1.",
+  "tags": [
+    "cubical-type-theory",
+    "interval",
+    "de-morgan"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "2a21f0b3-daa0-493b-9100-60add3cfd4f9"
+}

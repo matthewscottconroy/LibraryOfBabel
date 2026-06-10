@@ -1,0 +1,21 @@
+{
+  "question_id": "bc24c892-d947-442a-a024-a47ca10979fb",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Real cohesive HoTT is a variant of modal HoTT where cohesion is defined over:",
+  "choices": [
+    "the integers ℤ",
+    "the real numbers ℝ, enabling synthetic differential geometry",
+    "a Grothendieck topos",
+    "the Boolean algebra 2"
+  ],
+  "answer": 1,
+  "explanation": "Real-cohesive HoTT (Shulman) uses ℝ-cohesion to do synthetic differential geometry: smooth functions, de Rham cohomology, and Chern-Weil theory all become synthetic.",
+  "tags": [
+    "cohesive-hott",
+    "real-cohesion"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

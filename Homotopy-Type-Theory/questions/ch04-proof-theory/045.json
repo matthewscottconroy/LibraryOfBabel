@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The big-step (natural) semantics and small-step (structural operational) semantics of a language agree on:",
+  "choices": [
+    "Only infinite computations",
+    "Only terminating programs",
+    "All programs (by standard equivalence theorems)",
+    "Only functional programs"
+  ],
+  "answer": 2,
+  "explanation": "For standard languages, big-step and small-step semantics are equivalent for terminating computations.",
+  "tags": [
+    "operational-semantics",
+    "proof-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "a6fa8e01-240b-456b-92fc-8dc6e06c8c22"
+}

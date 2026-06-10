@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A normal subgroup N of G satisfies:",
+  "choices": [
+    "N is abelian",
+    "gNg⁻¹ = N for all g∈G",
+    "N has index 2",
+    "N is the center of G"
+  ],
+  "answer": 1,
+  "explanation": "N◁G iff gNg⁻¹=N for all g (equivalently, left cosets = right cosets).",
+  "tags": [
+    "normal-subgroup",
+    "group-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "af476a35-2fcd-4a4d-96b4-0d0d1763c1c4"
+}

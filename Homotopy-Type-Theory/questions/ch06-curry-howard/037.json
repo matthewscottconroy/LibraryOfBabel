@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The unit type 1 (with a single constructor tt) corresponds logically to:",
+  "choices": [
+    "⊥ (false)",
+    "⊤ (true)",
+    "A∧B",
+    "A→B"
+  ],
+  "answer": 1,
+  "explanation": "Unit type 1 ≅ ⊤: it is trivially inhabited (one proof of ⊤).",
+  "tags": [
+    "curry-howard",
+    "unit-type",
+    "truth"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "38872544-3faf-4234-86fc-722657c640d2"
+}

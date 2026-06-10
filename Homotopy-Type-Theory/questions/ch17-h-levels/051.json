@@ -1,0 +1,21 @@
+{
+  "question_id": "08a23977-d7bf-4e24-9f59-81875b998110",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "For n ≥ -2, a type A is an n-type if and only if:",
+  "choices": [
+    "πₖ(A) is trivial for k > n",
+    "all identity types a=b in A are (n-1)-types",
+    "A has at most n+3 elements",
+    "A is n-connected"
+  ],
+  "answer": 1,
+  "explanation": "The recursive definition: (-2)-types = contractible; (n+1)-types = all identity types a=b are n-types. This gives the h-level hierarchy: contr (-2), prop (-1), set (0), groupoid (1), …",
+  "tags": [
+    "h-levels",
+    "n-types"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

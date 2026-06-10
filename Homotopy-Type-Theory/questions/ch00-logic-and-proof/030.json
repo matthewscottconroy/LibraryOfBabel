@@ -1,0 +1,19 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A formula is in conjunctive normal form (CNF) iff it is:",
+  "choices": [
+    "a single clause",
+    "a conjunction of disjunctions of literals",
+    "a disjunction of conjunctions of literals",
+    "a negation-free formula"
+  ],
+  "answer": 1,
+  "explanation": "CNF: φ = C₁∧C₂∧⋯∧Cₙ where each Cᵢ = l₁∨⋯∨lₖ (a clause) and each lⱼ is a literal. Every propositional formula is equivalent to one in CNF.",
+  "tags": [
+    "logic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "08f7defc-f0dc-4b3d-82ce-1b2cbce208de"
+}

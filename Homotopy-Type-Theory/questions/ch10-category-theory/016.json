@@ -1,0 +1,20 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Kan extensions are 'best approximations' to extending a functor along an inclusion. They are the most general notion for:",
+  "choices": [
+    "defining adjunctions",
+    "computing limits and colimits (both can be expressed as Kan extensions)",
+    "building functors between Set and Top",
+    "defining monads"
+  ],
+  "answer": 1,
+  "explanation": "Kan (1958): 'All concepts are Kan extensions.' Limits, colimits, adjunctions, and even Yoneda can be expressed as (pointwise) Kan extensions.",
+  "tags": [
+    "category-theory",
+    "Kan-extensions"
+  ],
+  "difficulty": "advanced",
+  "question_id": "0ba3c50b-4a43-4ab7-a727-0fd30ce20d27"
+}

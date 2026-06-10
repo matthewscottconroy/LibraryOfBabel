@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Propositional truncation ‖A‖ satisfies ‖A‖ = ‖B‖ (as propositions in 𝒰) iff:",
+  "choices": [
+    "A = B as types",
+    "A ≃ B",
+    "‖A‖ ↔ ‖B‖ (they are logically equivalent propositions)",
+    "A and B have the same cardinality"
+  ],
+  "answer": 2,
+  "explanation": "By propext: ‖A‖=‖B‖ iff ‖A‖↔‖B‖ (both are propositions, so propext applies).",
+  "tags": [
+    "univalence",
+    "propositional-truncation",
+    "propext"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8b92d839-e3ab-4e8a-aba2-3a37c586d31d"
+}

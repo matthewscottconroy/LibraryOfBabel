@@ -1,0 +1,21 @@
+{
+  "question_id": "5b4c2e71-2267-4fd1-8d6f-36d90ffcd1b9",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Cantor's theorem: for any set A, the cardinality of ___ is strictly greater than |A|.",
+  "choices": [
+    "A ∪ {∅}",
+    "A × A",
+    "𝒫(A) (power set)",
+    "A + 1"
+  ],
+  "answer": 2,
+  "explanation": "|𝒫(A)| > |A| for all A. Proved by the diagonal argument: no surjection A → 𝒫(A) exists.",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

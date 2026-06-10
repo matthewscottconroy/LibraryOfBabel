@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The n-th singular homology group H_n(X) is defined as:",
+  "choices": [
+    "Homotopy classes of maps Sⁿ→X",
+    "ker(∂_n) / im(∂_{n+1}) in the singular chain complex",
+    "The n-th homotopy group πₙ(X)",
+    "The cohomology H^n(X)"
+  ],
+  "answer": 1,
+  "explanation": "H_n(X;R) = Zₙ/Bₙ where Zₙ = cycles = ker ∂ₙ and Bₙ = boundaries = im ∂_{n+1}.",
+  "tags": [
+    "singular-homology",
+    "algebraic-topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d6d23692-5b28-476f-b7a6-44ae4f8e7c91"
+}

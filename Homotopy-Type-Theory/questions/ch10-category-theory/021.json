@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An adjunction L ⊣ R between categories C and D is characterized by:",
+  "choices": [
+    "L and R being inverse functors",
+    "A natural bijection Hom_D(LA, B) ≅ Hom_C(A, RB)",
+    "L preserving limits and R preserving colimits",
+    "A monad on C"
+  ],
+  "answer": 1,
+  "explanation": "L ⊣ R iff there is a natural bijection between hom-sets, with L left adjoint and R right adjoint.",
+  "tags": [
+    "adjunctions",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "451adc3d-7341-490a-8164-be4abfbf3fe0"
+}

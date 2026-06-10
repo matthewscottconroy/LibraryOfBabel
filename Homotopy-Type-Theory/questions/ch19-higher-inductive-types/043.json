@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The truncation HIT ‖A‖ₙ satisfies the elimination rule: to define f: ‖A‖ₙ→B (with B an n-type), it suffices to give:",
+  "choices": [
+    "f on the generators of ‖A‖ₙ and check coherences",
+    "A function A→B (since B is n-truncated, it extends uniquely)",
+    "Only f(|a|) for a:A",
+    "A proof that B is contractible"
+  ],
+  "answer": 1,
+  "explanation": "n-Truncation universal property: maps ‖A‖ₙ→B for n-truncated B correspond to maps A→B.",
+  "tags": [
+    "truncation",
+    "hit",
+    "universal-property"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8a13ce41-1b29-4fab-bfb0-118d2ed4e74b"
+}

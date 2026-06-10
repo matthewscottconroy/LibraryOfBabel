@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Subject reduction (preservation) in STLC states:",
+  "choices": [
+    "If ⊢ t : T and t→t' then ⊢ t' : T",
+    "If ⊢ t : T then t is a value",
+    "Types are preserved under substitution only",
+    "Well-typed terms have unique types"
+  ],
+  "answer": 0,
+  "explanation": "Preservation: typing is preserved under reduction.",
+  "tags": [
+    "stlc",
+    "preservation",
+    "type-safety"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "4a0154da-7731-4978-b1de-fb9bcf2424f2"
+}

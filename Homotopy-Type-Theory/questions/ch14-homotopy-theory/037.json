@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The long cofibre sequence A → X → Cf → ΣA → ΣX → ΣCf → ⋯ is a sequence of:",
+  "choices": [
+    "Exact sequences of groups",
+    "Cofibre sequences (each map is the inclusion into the mapping cone of the previous)",
+    "Fibration sequences",
+    "Homology groups"
+  ],
+  "answer": 1,
+  "explanation": "Cofibre sequences (Puppe sequence): each consecutive pair (f,i) has i = inclusion into Cf.",
+  "tags": [
+    "cofibre-sequence",
+    "puppe",
+    "homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "1c3383ce-2e55-4e54-9f34-b933b2bebc41"
+}

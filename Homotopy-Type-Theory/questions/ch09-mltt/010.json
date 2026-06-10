@@ -1,0 +1,19 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The principle that Π(x:A).Σ(y:B(x)).P(x,y) → Σ(f:Π(x:A).B(x)).Π(x:A).P(x,f(x)) is known as the ___ in type theory.",
+  "choices": [
+    "axiom of choice",
+    "AC",
+    "type-theoretic axiom of choice"
+  ],
+  "answer": "axiom of choice",
+  "explanation": "In MLTT, this 'axiom of choice' is provable: the witness is explicit in the given term. It is not an extra axiom but a consequence of the dependent type structure.",
+  "tags": [
+    "MLTT",
+    "axiom-of-choice"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "8f41598a-994b-4d0c-b747-e78d8f1fd4bf"
+}

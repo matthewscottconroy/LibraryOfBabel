@@ -1,0 +1,21 @@
+{
+  "question_id": "88b856a3-c31b-4728-8abf-5ad3c2e833e5",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The J eliminator computation rule says:",
+  "choices": [
+    "J(C, d, refl) ≡ d",
+    "J(C, d, p) ≡ p",
+    "J(C, d, p) ≡ C(a, a, refl)",
+    "J is undefined on refl"
+  ],
+  "answer": 0,
+  "explanation": "J(C, d, refl_a) ≡ d(a). The induction base case: path induction at refl reduces to d.",
+  "tags": [
+    "MLTT",
+    "J-rule"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

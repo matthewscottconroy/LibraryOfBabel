@@ -1,0 +1,21 @@
+{
+  "question_id": "cbfd2e94-eaeb-4941-86f5-9e5d5955016f",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In homotopy type theory, a modality is:",
+  "choices": [
+    "a syntactic mode (declarative vs. imperative) for type-checking",
+    "an operation ○ on types with a unit η:A→○A that is a reflective sub-universe",
+    "a dependent type that depends on a proof of accessibility",
+    "a form of universe polymorphism"
+  ],
+  "answer": 1,
+  "explanation": "A modality ○ is a reflective subuniverse: ○A is in the sub-universe, η:A→○A is the unit, and maps A→B with B modal factor uniquely through ○A.",
+  "tags": [
+    "modal-HoTT",
+    "modalities"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

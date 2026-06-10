@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Telescopes in dependent type theory are sequences Γ = x₁:A₁, x₂:A₂(x₁), … where:",
+  "choices": [
+    "All Aᵢ are the same type",
+    "Each Aᵢ may depend on the previous variables x₁,…,xᵢ₋₁",
+    "Each Aᵢ is a proposition",
+    "The sequence is finite"
+  ],
+  "answer": 1,
+  "explanation": "Telescopes are dependent contexts; they generalise flat contexts to allow dependencies.",
+  "tags": [
+    "telescope",
+    "dependent-types",
+    "context"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "40cec7ec-6277-42bf-aaaf-91a563004f34"
+}

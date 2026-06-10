@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Blakers-Massey theorem in HoTT gives connectivity bounds for the pushout. If f: C→A is m-connected and g: C→B is n-connected, the pushout is:",
+  "choices": [
+    "m+n-connected",
+    "(m+n)-connected, and the comparison map is (m+n)-connected",
+    "max(m,n)-connected",
+    "min(m,n)-connected"
+  ],
+  "answer": 1,
+  "explanation": "Blakers-Massey: the map A→A⊔_C B is (m+n)-connected when f is m-conn and g is n-conn.",
+  "tags": [
+    "blakers-massey",
+    "pushout",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "26d02330-0e9e-41ed-b9fd-81c46514a9a4"
+}

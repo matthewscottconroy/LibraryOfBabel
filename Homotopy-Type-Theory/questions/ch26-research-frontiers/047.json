@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'ordinal analysis programme' for stronger systems continues to establish proof-theoretic bounds. The current frontier includes which system?",
+  "choices": [
+    "PA (settled: ε₀)",
+    "ZFC (partially settled)",
+    "Full second-order arithmetic (Π¹₂-CA₀ and beyond) and large cardinal axioms",
+    "Only first-order arithmetic"
+  ],
+  "answer": 2,
+  "explanation": "Ordinal analysis: ε₀ (PA), Γ₀ (ATR₀), and beyond into impredicative analysis and set theory are active frontiers.",
+  "tags": [
+    "ordinal-analysis",
+    "proof-theory",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "fd7a5789-82db-40cd-9314-6e8163babf93"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `Cubical.Data.Int` module defines ℤ in Cubical Agda as:",
+  "choices": [
+    "An inductive type with positive and negative constructors",
+    "Typically as a HIT or an inductive type with pos/negsuc constructors",
+    "A set-quotient of ℕ×ℕ",
+    "A simplicial set"
+  ],
+  "answer": 1,
+  "explanation": "ℤ in Cubical Agda: data ℤ with pos : ℕ→ℤ and negsuc : ℕ→ℤ (negsuc n = -(n+1)).",
+  "tags": [
+    "cubical-agda",
+    "integers"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "4dd34b78-fef8-4dd8-9881-fe0e8ea93c40"
+}

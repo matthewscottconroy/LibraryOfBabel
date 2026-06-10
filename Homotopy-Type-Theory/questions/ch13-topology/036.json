@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A subset A of a metric space is dense iff:",
+  "choices": [
+    "A = X",
+    "Every open set intersects A (equivalently, cl(A) = X)",
+    "A contains all limit points",
+    "A is uncountable"
+  ],
+  "answer": 1,
+  "explanation": "A is dense: every non-empty open set meets A, or equivalently A's closure is X.",
+  "tags": [
+    "dense-set",
+    "topology"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "25ad24cb-e878-4b64-82ff-4b7797288936"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the simply typed lambda calculus, what does the 'progress' property say?",
+  "choices": [
+    "well-typed programs always terminate",
+    "a well-typed closed term is either a value or can take a reduction step",
+    "types are preserved under reduction",
+    "every term has a unique type"
+  ],
+  "answer": 1,
+  "explanation": "Progress: if ⊢ t : T (t is well-typed and closed), then either t is a value (normal form) or ∃t'. t → t'. Well-typed programs are never stuck.",
+  "tags": [
+    "STLC",
+    "type-safety"
+  ],
+  "difficulty": "beginner",
+  "question_id": "7bc9fc6e-752b-44a3-afec-6fd5702048df"
+}

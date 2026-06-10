@@ -1,0 +1,21 @@
+{
+  "question_id": "2f76745f-6e42-474c-9bdd-c8c3e4a0436b",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Yoneda lemma says that natural transformations C(-, A) ⟹ F are in bijection with:",
+  "choices": [
+    "morphisms from A to any object",
+    "elements of F(A)",
+    "subobjects of A",
+    "functors from C to Set"
+  ],
+  "answer": 1,
+  "explanation": "Nat(C(-,A), F) ≅ F(A), naturally in A and F. This is one of the most fundamental results in category theory and is used everywhere in categorical logic.",
+  "tags": [
+    "yoneda",
+    "category-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

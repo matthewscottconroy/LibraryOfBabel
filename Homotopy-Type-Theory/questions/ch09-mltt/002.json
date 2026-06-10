@@ -1,0 +1,21 @@
+{
+  "question_id": "17cadb27-8a0c-4afa-a5dd-826fcaba9340",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "UIP (Uniqueness of Identity Proofs) in MLTT without K:",
+  "choices": [
+    "is an axiom",
+    "is a theorem provable from J",
+    "is independent — neither provable nor refutable",
+    "follows from univalence"
+  ],
+  "answer": 2,
+  "explanation": "UIP is independent of MLTT. The groupoid model (Hofmann-Streicher) shows it can fail; HoTT explicitly denies it.",
+  "tags": [
+    "MLTT",
+    "UIP"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Axiom of Regularity (Foundation) in ZFC implies:",
+  "choices": [
+    "every set is infinite",
+    "ε-induction: to prove ∀x.P(x), it suffices to prove ∀x.(∀y∈x.P(y)) → P(x)",
+    "every set is countable",
+    "the power set of ω is countable"
+  ],
+  "answer": 1,
+  "explanation": "Foundation is equivalent to ∈-induction (set induction): P holds for all sets iff whenever P holds for all elements of x, it holds for x. This is the transfinite induction principle for sets.",
+  "tags": [
+    "set-theory"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "b625f049-f302-4fb7-a391-54a40df02ea3"
+}

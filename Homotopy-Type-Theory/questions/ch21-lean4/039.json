@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `linarith` tactic in Lean 4 proves linear arithmetic goals. It works by:",
+  "choices": [
+    "Calling omega",
+    "Finding a linear combination of hypotheses that witnesses the goal",
+    "Computing the Gröbner basis",
+    "Simplifying with simp"
+  ],
+  "answer": 1,
+  "explanation": "`linarith` finds a non-negative linear combination of hypotheses that proves ⊥ or the goal.",
+  "tags": [
+    "lean4",
+    "linarith",
+    "tactics"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "343b81d9-14f3-4dde-85b0-6bb7d84b6fde"
+}

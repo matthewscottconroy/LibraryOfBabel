@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The action of a path p: x=y on a type family P at a term u: P(x) is written transport^P(p, u): ______.",
+  "choices": [
+    "P(y)",
+    "P(x)",
+    "x = y",
+    "Σ(z:A).P(z)"
+  ],
+  "answer": "P(y)",
+  "explanation": "transport^P(p, u) : P(y) moves u along p.",
+  "tags": [
+    "transport",
+    "type-family"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "a9932b62-84c1-49ed-af20-5a70bb8b234a"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The homotopy hypothesis (Grothendieck, 1983) conjectures that the ∞-category of:",
+  "choices": [
+    "n-categories is equivalent to the ∞-category of n-manifolds",
+    "weak ∞-groupoids is equivalent to the ∞-category of spaces (CW complexes) up to homotopy",
+    "simplicial sets is equivalent to topological spaces",
+    "Kan complexes is equivalent to strict ∞-groupoids"
+  ],
+  "answer": 1,
+  "explanation": "Homotopy hypothesis: Spaces ≃ ∞-Gpd. HoTT realises this synthetically: types ARE ∞-groupoids. Lurie's work (Higher Topos Theory) gives a rigorous version using quasi-categories.",
+  "tags": [
+    "higher-categories",
+    "homotopy-hypothesis"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "5a7c4678-ac8e-410e-973d-68021d9d2c65"
+}

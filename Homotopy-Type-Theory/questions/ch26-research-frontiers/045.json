@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "'Homotopy type system' (HTS) by Voevodsky proposed having:",
+  "choices": [
+    "Only one equality type",
+    "Two equality types: a strict equality (congruence) and a weak equality (path), with the strict equality not collapsing homotopy",
+    "Equality as a global axiom",
+    "Equality only for sets"
+  ],
+  "answer": 1,
+  "explanation": "HTS: strict equality (good for definitional reasoning) alongside path equality (homotopy-theoretic), without them coinciding.",
+  "tags": [
+    "hts",
+    "strict-equality",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "37b12115-5842-4727-bbf6-ddf07e9e766a"
+}

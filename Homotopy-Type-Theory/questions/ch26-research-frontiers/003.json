@@ -1,0 +1,19 @@
+{
+  "question_id": "b1055c11-e35d-48cb-b4f1-58893965f7f7",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "tf",
+  "text": "The Rzk proof assistant is designed specifically for simplicial type theory and ∞-category theory.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Rzk (Kudasov 2023) implements a variant of Riehl-Shulman simplicial type theory. Its library sHoTT contains the Yoneda lemma.",
+  "tags": [
+    "research",
+    "Rzk"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

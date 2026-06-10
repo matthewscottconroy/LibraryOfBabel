@@ -1,0 +1,21 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `refl` path in Cubical Agda is the function:",
+  "choices": [
+    "λ i → a (the constant function at a)",
+    "λ i → i",
+    "the identity function",
+    "A proof of a ≡ a by J"
+  ],
+  "answer": 0,
+  "explanation": "refl {a} = λ i → a : a ≡ a.",
+  "tags": [
+    "cubical-agda",
+    "refl"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "52d5968b-62d9-4eaf-aee6-e58fe8b04e49"
+}

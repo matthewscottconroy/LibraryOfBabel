@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The encode-decode method for computing π₁(S¹) uses which key type family?",
+  "choices": [
+    "ℤ-valued winding number",
+    "The universal cover, a family code : S¹ → Type with code(base)=ℤ and code(loop)=ua(succ)",
+    "The fundamental class",
+    "Paths in S¹"
+  ],
+  "answer": 1,
+  "explanation": "The code family assigns ℤ to the basepoint and transports by succ via ua, giving the universal cover.",
+  "tags": [
+    "pi1-circle",
+    "encode-decode",
+    "identity-type"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "95b47c7e-d0d0-4cab-8bcf-de7f30f757be"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The groupoid model of Martin-Löf type theory (Hofmann-Streicher 1994) shows that:",
+  "choices": [
+    "MLTT is inconsistent",
+    "UIP cannot be proved from J alone (it models non-trivial identity types)",
+    "all types are sets",
+    "univalence follows from J"
+  ],
+  "answer": 1,
+  "explanation": "The groupoid model assigns each type a groupoid (not necessarily a set), so identity types can have nontrivial elements. This refutes any proposed proof of UIP from J alone.",
+  "tags": [
+    "MLTT",
+    "models",
+    "UIP"
+  ],
+  "difficulty": "advanced",
+  "question_id": "29230fd6-e201-4b25-aefa-2262a8f2f4fa"
+}

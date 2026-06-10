@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The type of equivalences A≃B between two sets A,B is:",
+  "choices": [
+    "A set",
+    "A proposition",
+    "A 1-type (groupoid)",
+    "Contractible"
+  ],
+  "answer": 0,
+  "explanation": "If A,B are sets, then A≃B is a set: the type of bijections between sets is a set.",
+  "tags": [
+    "h-set",
+    "equivalence",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "965fd888-0c44-4694-9949-b2745ed3a065"
+}

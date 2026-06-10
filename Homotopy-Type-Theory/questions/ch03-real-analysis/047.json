@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A metric space (X,d) is complete if:",
+  "choices": [
+    "Every sequence converges",
+    "Every Cauchy sequence converges",
+    "X is bounded",
+    "X is compact"
+  ],
+  "answer": 1,
+  "explanation": "Complete metric space: every Cauchy sequence converges to a point in X.",
+  "tags": [
+    "complete-metric-space",
+    "real-analysis"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "9b81af0d-de97-46aa-bb43-ab427c0da9a0"
+}

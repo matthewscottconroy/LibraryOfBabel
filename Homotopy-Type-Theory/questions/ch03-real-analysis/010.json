@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Bolzano-Weierstrass theorem states: every bounded sequence in ℝⁿ has:",
+  "choices": [
+    "a convergent subsequence",
+    "a monotone subsequence",
+    "a Cauchy tail",
+    "exactly one limit point"
+  ],
+  "answer": 0,
+  "explanation": "Bolzano-Weierstrass: every bounded sequence has a convergent subsequence. This is equivalent to sequential compactness of closed bounded sets in ℝⁿ.",
+  "tags": [
+    "analysis",
+    "compactness"
+  ],
+  "difficulty": "beginner",
+  "question_id": "e07949fd-38e9-4f7c-9c70-6f936edf7a31"
+}

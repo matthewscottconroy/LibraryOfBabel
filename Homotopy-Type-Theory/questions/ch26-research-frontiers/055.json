@@ -1,0 +1,22 @@
+{
+  "question_id": "91a408f9-fb98-49cd-b4d6-2970b406feb9",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "π₄(S³) equals:",
+  "choices": [
+    "ℤ",
+    "ℤ/2ℤ",
+    "ℤ/4ℤ",
+    "0"
+  ],
+  "answer": 1,
+  "explanation": "π₄(S³) = ℤ/2ℤ, the cyclic group of order 2. This is Brunerie's theorem, formalized in Agda. The generator is related to the Hopf fibration S¹ → S³ → S² via the EHP sequence.",
+  "tags": [
+    "pi4-s3",
+    "brunerie",
+    "homotopy-groups"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

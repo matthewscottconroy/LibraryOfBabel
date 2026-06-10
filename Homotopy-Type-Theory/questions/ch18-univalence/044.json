@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which model of HoTT does NOT validate univalence?",
+  "choices": [
+    "The simplicial set model",
+    "The groupoid model (validates a weak version only)",
+    "The cubical set model",
+    "The effective topos"
+  ],
+  "answer": 1,
+  "explanation": "The groupoid model (Hofmann-Streicher) validates univalence only for groupoids, not for all h-levels; full univalence requires the simplicial set model.",
+  "tags": [
+    "univalence",
+    "groupoid-model",
+    "models"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "1b30086e-82e6-449f-822f-5efd28d52947"
+}

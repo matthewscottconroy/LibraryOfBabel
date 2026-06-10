@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Parametric type theory (Nuyts et al.) and relational parametricity in HoTT are connected because:",
+  "choices": [
+    "They both use axiom K",
+    "Parametric TT internalises relational interpretations, similar to how HoTT internalises homotopy-theoretic structure",
+    "They share the same proof assistants",
+    "They are unrelated"
+  ],
+  "answer": 1,
+  "explanation": "Both use type structure to internalise mathematical properties (homotopy resp. parametricity) that were previously external.",
+  "tags": [
+    "parametric-type-theory",
+    "research",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4ebf013d-fe87-4ee4-ae7b-53cbb949b62b"
+}

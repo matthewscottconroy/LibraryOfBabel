@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the principal advantage of using dependent types over simply typed generics?",
+  "choices": [
+    "Faster runtime performance",
+    "Types can express precise invariants (e.g. sorted, length-indexed)",
+    "No need for type inference",
+    "Simpler operational semantics"
+  ],
+  "answer": 1,
+  "explanation": "Dependent types allow invariants like 'this vector has length n' or 'this list is sorted' to be enforced statically.",
+  "tags": [
+    "dependent-types",
+    "expressivity"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "1be2add7-5ffb-48ec-93e9-5a64c8e116b8"
+}

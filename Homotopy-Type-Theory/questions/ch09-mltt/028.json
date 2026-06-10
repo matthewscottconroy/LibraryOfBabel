@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The positivity condition on inductive type definitions in MLTT is required to ensure:",
+  "choices": [
+    "Universe consistency",
+    "Termination and logical consistency (avoiding paradoxes via negative occurrences)",
+    "Η-expansion",
+    "Decidability of equality"
+  ],
+  "answer": 1,
+  "explanation": "Negative occurrences of the inductive type in constructors would allow Curry's paradox; strict positivity blocks this.",
+  "tags": [
+    "mltt",
+    "positivity",
+    "consistency"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "00f360b0-2590-47de-b405-bf3118bdc248"
+}

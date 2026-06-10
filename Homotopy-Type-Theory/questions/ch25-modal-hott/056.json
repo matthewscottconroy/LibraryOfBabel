@@ -1,0 +1,21 @@
+{
+  "question_id": "ef7ce257-21d0-4b8a-be33-f94cb0e03940",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A lex modality is a modality that additionally:",
+  "choices": [
+    "is involutive (○○A ≃ ○A)",
+    "preserves finite limits (products and pullbacks)",
+    "turns every type into a set",
+    "satisfies the axiom of choice"
+  ],
+  "answer": 1,
+  "explanation": "Lex (= left exact) modalities preserve pullbacks. The n-truncations are lex modalities; the propositional truncation ‖-‖₋₁ is lex. Non-lex modalities include ♭ in some models.",
+  "tags": [
+    "lex-modality",
+    "modal-hott"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

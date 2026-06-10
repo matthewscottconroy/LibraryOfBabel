@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The totalization (or geometric realisation) of a simplicial object in spaces models:",
+  "choices": [
+    "A discrete space",
+    "The homotopy colimit of the diagram",
+    "The product of all spaces",
+    "The homotopy limit"
+  ],
+  "answer": 1,
+  "explanation": "|X_•| = hocolim_Δ^op X is the geometric realisation/totalization, a homotopy colimit.",
+  "tags": [
+    "simplicial-object",
+    "geometric-realisation",
+    "homotopy-colimit"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "844c96c1-9047-433a-9d7d-4b6d8af3d92e"
+}

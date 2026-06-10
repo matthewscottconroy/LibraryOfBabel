@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Current research on 'proof assistants for higher structures' focuses on making which operations more tractable?",
+  "choices": [
+    "Basic arithmetic",
+    "Coherence proofs for n-categorical structures and automatising path algebra",
+    "File system operations",
+    "String matching"
+  ],
+  "answer": 1,
+  "explanation": "Coherence for higher structures (e.g., proving associativity pentagons in bicategories) is a major automated reasoning challenge.",
+  "tags": [
+    "proof-assistants",
+    "coherence",
+    "research"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "70353f3b-a111-43cd-ac88-0a8890704321"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The progress theorem in STLC states:",
+  "choices": [
+    "Well-typed terms can always take a step or are values",
+    "Well-typed terms never get stuck and always terminate",
+    "Well-typed terms are closed",
+    "All terms have a normal form"
+  ],
+  "answer": 0,
+  "explanation": "Progress: if ⊢ t : T then either t is a value or ∃t'. t→t'.",
+  "tags": [
+    "stlc",
+    "progress",
+    "type-safety"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d4de7eb0-3163-4e9d-9510-1d623c6a8832"
+}

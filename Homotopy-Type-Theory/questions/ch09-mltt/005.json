@@ -1,0 +1,20 @@
+{
+  "question_id": "fae9e9ec-ccee-4a4a-87d1-a60c4fa47fed",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the difference between intensional and extensional MLTT?",
+  "choices": [
+    "Extensional MLTT has more types",
+    "Extensional MLTT adds a rule making propositional equality imply definitional equality, at the cost of undecidable type-checking",
+    "Intensional MLTT has no identity type",
+    "Extensional MLTT requires LEM"
+  ],
+  "answer": 1,
+  "explanation": "Extensional rule: if p : a = b then a ≡ b definitionally. This makes the theory simpler but type-checking undecidable.",
+  "tags": [
+    "MLTT"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

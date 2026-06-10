@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Realizability semantics (Kleene 1945) assigns to each formula φ a set of natural numbers (realizers). A realizer of A→B is:",
+  "choices": [
+    "any number",
+    "a Turing machine e such that e(n) realizes B for every n realizing A",
+    "the product of realizers of A and B",
+    "the minimum of realizers of A"
+  ],
+  "answer": 1,
+  "explanation": "Kleene realizability: e⊩A→B iff for all n: n⊩A ⟹ {e}(n)↓ and {e}(n)⊩B. It is a number-theoretic semantics that makes constructive logic computationally explicit.",
+  "tags": [
+    "intuitionistic",
+    "realizability"
+  ],
+  "difficulty": "advanced",
+  "question_id": "a5608329-52a8-493f-86c9-35f0d447ecf9"
+}

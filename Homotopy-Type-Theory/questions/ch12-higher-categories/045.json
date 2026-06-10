@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Barwick-Schommer-Pries axioms characterise (∞,n)-category theories by specifying which:",
+  "choices": [
+    "Simplicial sets satisfy them",
+    "Model categories satisfy certain properties making them equivalent to one canonical (∞,n)-theory",
+    "Kan complexes are (∞,n)-categories",
+    "Strict n-categories are fibrant"
+  ],
+  "answer": 1,
+  "explanation": "B-SP: any model category satisfying their axioms is equivalent to complete Segal n-spaces (or Θₙ-spaces).",
+  "tags": [
+    "barwick",
+    "infinity-n-category",
+    "axioms"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "5b0f8a76-351e-4c3a-88cd-a3b86d0b25f6"
+}

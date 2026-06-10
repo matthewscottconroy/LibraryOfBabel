@@ -1,0 +1,19 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Gentzen's consistency proof for PA (Peano Arithmetic) used:",
+  "choices": [
+    "a finitary argument",
+    "transfinite induction up to ε₀",
+    "the axiom of choice",
+    "non-standard models"
+  ],
+  "answer": 1,
+  "explanation": "Gentzen (1936) proved the consistency of PA using transfinite induction up to ε₀ (the first epsilon number), a technique not formalizable within PA itself (cf. Gödel's second incompleteness).",
+  "tags": [
+    "proof-theory"
+  ],
+  "difficulty": "advanced",
+  "question_id": "e2249739-347a-4670-9ce0-961787464c5a"
+}

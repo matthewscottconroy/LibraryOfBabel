@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which of the following types is a mere proposition in HoTT?",
+  "choices": [
+    "ℕ",
+    "Bool",
+    "isProp(A) (the type asserting A is a proposition)",
+    "A + B"
+  ],
+  "answer": 2,
+  "explanation": "isProp(A) is always a proposition (proof irrelevance for propositionhood).",
+  "tags": [
+    "proposition",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "fea7f85a-4bd1-48d9-868d-cc744d258d4d"
+}

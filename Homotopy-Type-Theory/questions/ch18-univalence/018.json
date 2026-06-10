@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Voevodsky's univalence axiom states that the canonical map (A = B) → (A ≃ B) is:",
+  "choices": [
+    "Injective",
+    "Surjective",
+    "An equivalence",
+    "A proposition"
+  ],
+  "answer": 2,
+  "explanation": "Univalence: (A =_𝒰 B) ≃ (A ≃ B); paths in the universe correspond to equivalences.",
+  "tags": [
+    "univalence",
+    "hott"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "571ec2d9-b36a-4303-b79d-10135f24c7f0"
+}

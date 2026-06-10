@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Under Curry-Howard, the type A×B corresponds to which logical connective?",
+  "choices": [
+    "A∨B",
+    "A∧B",
+    "A→B",
+    "¬A"
+  ],
+  "answer": 1,
+  "explanation": "Product type A×B corresponds to conjunction A∧B; its constructors are pairs.",
+  "tags": [
+    "curry-howard",
+    "product-type",
+    "conjunction"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "150f984a-9b27-4359-8586-0cf2b9fd682b"
+}

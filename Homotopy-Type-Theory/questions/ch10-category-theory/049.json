@@ -1,0 +1,20 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Every equivalence of categories is witnessed by a pair of adjoint functors.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Equivalences are adjoint pairs F⊣G where the unit and counit are natural isomorphisms.",
+  "tags": [
+    "equivalence",
+    "adjunction",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "13b25b2e-7c0c-4138-8f5c-40d26684b620"
+}

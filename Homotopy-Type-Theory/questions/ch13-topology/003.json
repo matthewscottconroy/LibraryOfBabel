@@ -1,0 +1,21 @@
+{
+  "question_id": "a31b930b-2128-4c82-8677-d79fb2e2fca2",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A topological space X is compact if:",
+  "choices": [
+    "X is bounded and closed in some ambient space",
+    "every sequence has a convergent subsequence",
+    "every open cover has a finite subcover",
+    "X is homeomorphic to [0,1]"
+  ],
+  "answer": 2,
+  "explanation": "Compactness is defined by the finite subcover property. In metric spaces it is equivalent to sequential compactness.",
+  "tags": [
+    "topology",
+    "compactness"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

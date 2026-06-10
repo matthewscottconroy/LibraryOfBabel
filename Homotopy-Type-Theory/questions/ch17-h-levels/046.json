@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The set-truncation ‖A‖₀ is characterised by which universal property?",
+  "choices": [
+    "It is the smallest set receiving a map from A",
+    "For any set B, maps A→B factor uniquely through ‖A‖₀→B",
+    "A→‖A‖₀ is surjective",
+    "‖A‖₀ is the set of connected components of A"
+  ],
+  "answer": 1,
+  "explanation": "Universal property of 0-truncation: maps from A to any set factor through ‖A‖₀ uniquely.",
+  "tags": [
+    "set-truncation",
+    "universal-property",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8cecdb83-3b3a-4c71-8819-cf55ca803b92"
+}

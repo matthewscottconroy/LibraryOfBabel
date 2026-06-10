@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The transport-along-ua lemma states: transport^X(ua(e), a) = ______ for e: A≃B and a:A.",
+  "choices": [
+    "a",
+    "e(a)",
+    "e⁻¹(a)",
+    "refl_a"
+  ],
+  "answer": 1,
+  "explanation": "The computation rule for ua: transport along ua(e) applies the equivalence e.",
+  "tags": [
+    "transport",
+    "ua",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "627678b0-8e3b-4361-a57a-78f12b48a58f"
+}

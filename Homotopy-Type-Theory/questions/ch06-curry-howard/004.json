@@ -1,0 +1,21 @@
+{
+  "question_id": "233e5302-2675-41db-bb5d-a272669691e0",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What does the Curry-Howard correspondence say about the Σ type Σ(x:A).B(x)?",
+  "choices": [
+    "It corresponds to universal quantification ∀x:A. B(x)",
+    "It corresponds to existential quantification ∃x:A. B(x)",
+    "It corresponds to implication A → B",
+    "It corresponds to conjunction A ∧ B"
+  ],
+  "answer": 1,
+  "explanation": "Σ types are dependent pairs: (a, b) where a:A and b:B(a). This is the computational witness for ∃x:A.B(x).",
+  "tags": [
+    "curry-howard",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

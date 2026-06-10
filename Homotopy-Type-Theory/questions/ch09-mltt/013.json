@@ -1,0 +1,19 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Extensional type theory adds a 'reflection rule' that says: from p : a =_A b, derive a ≡ b definitionally. The cost is:",
+  "choices": [
+    "loss of canonicity",
+    "undecidable type checking",
+    "loss of function extensionality",
+    "inconsistency"
+  ],
+  "answer": 1,
+  "explanation": "Extensional TT (reflection rule): p:a=b ⟹ a≡b. This makes type checking undecidable because the reflection rule collapses propositional and definitional equality.",
+  "tags": [
+    "MLTT"
+  ],
+  "difficulty": "advanced",
+  "question_id": "11fa256c-f4e3-4b8e-940c-0e9af3fdb293"
+}

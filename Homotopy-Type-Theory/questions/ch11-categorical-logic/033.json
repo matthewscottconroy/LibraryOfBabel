@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the categorical semantics of type theory, substitution is modelled by:",
+  "choices": [
+    "Functor application",
+    "Pullback (base change)",
+    "A natural transformation",
+    "Coproduct injection"
+  ],
+  "answer": 1,
+  "explanation": "Substitution A[σ] is interpreted as pulling back the display map A → Γ along σ: Δ → Γ.",
+  "tags": [
+    "substitution",
+    "categorical-semantics",
+    "pullback"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "095e6095-b1e3-472b-b418-5a6046a15658"
+}

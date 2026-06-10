@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, the action of transport on a type family P: A → U along a loop p: a=a gives:",
+  "choices": [
+    "the identity on P(a)",
+    "an autoequivalence of P(a)",
+    "a path P(a) = P(a)",
+    "the concatenation of P"
+  ],
+  "answer": 1,
+  "explanation": "transport^P(p, ─): P(a) → P(a) is an autoequivalence. For the circle S¹ with P = code (the winding number family), transporting along loop = adding 1 — this is the key to the π₁(S¹)=ℤ proof.",
+  "tags": [
+    "HoTT",
+    "paths",
+    "transport"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "e161e419-ab87-4b5f-93b8-768e9a0ad28f"
+}

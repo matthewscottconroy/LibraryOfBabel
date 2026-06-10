@@ -1,0 +1,21 @@
+{
+  "question_id": "d7440a06-5e52-41ab-886f-ff0fc1cbc9db",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A natural transformation between functors F, G: A → B (Segal types) in simplicial TT is:",
+  "choices": [
+    "a proof that F = G",
+    "an element of the hom type hom_{A→B}(F, G) — a directed path in the function type",
+    "a family of morphisms F(a) → G(a) plus coherence proofs",
+    "an equivalence F ≃ G"
+  ],
+  "answer": 1,
+  "explanation": "In synthetic category theory, natural transformations = directed paths in function types. This collapses the definition: α: hom_{A→B}(F,G) is a term of the hom type, and components α(a): hom_B(F(a), G(a)) are its evaluations.",
+  "tags": [
+    "natural-transformation",
+    "simplicial-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

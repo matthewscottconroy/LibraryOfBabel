@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In MLTT, the ⊥ (empty type / False) is an inductive type with:",
+  "choices": [
+    "One constructor",
+    "Two constructors",
+    "No constructors",
+    "Infinitely many constructors"
+  ],
+  "answer": 2,
+  "explanation": "⊥ is the empty inductive type: no constructors, so it is uninhabited.",
+  "tags": [
+    "mltt",
+    "empty-type",
+    "inductive"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "6198b70e-dc35-41af-83a2-5787cc2827cf"
+}

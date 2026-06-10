@@ -1,0 +1,21 @@
+{
+  "question_id": "e4fe07f3-fc44-4d4e-9c5d-81dcdde5d0f8",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "CW complexes are important in homotopy theory because:",
+  "choices": [
+    "they are compact",
+    "every topological space is a CW complex",
+    "they allow inductive cell-by-cell reasoning, and every CW complex has the homotopy type of a CW complex",
+    "they are the smallest class closed under products"
+  ],
+  "answer": 2,
+  "explanation": "CW complexes give a convenient combinatorial way to build spaces. Whitehead's theorem applies to maps between CW complexes.",
+  "tags": [
+    "topology",
+    "CW-complexes"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The concatenation of paths satisfies which algebraic structure?",
+  "choices": [
+    "a group (strict)",
+    "a groupoid (path concatenation is associative only up to homotopy)",
+    "an abelian group",
+    "a ring"
+  ],
+  "answer": 1,
+  "explanation": "Identity types form an ∞-groupoid: concatenation is associative up to higher paths, with path inverses and identities. The laws hold up to paths, and those laws hold up to higher paths, etc.",
+  "tags": [
+    "HoTT",
+    "identity-types",
+    "infinity-groupoid"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "715ff5a6-d037-485e-a087-be082a1ad152"
+}

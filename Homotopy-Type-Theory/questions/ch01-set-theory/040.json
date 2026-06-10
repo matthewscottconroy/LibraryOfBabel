@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The union axiom ∪A in ZFC guarantees:",
+  "choices": [
+    "That A has a largest element",
+    "That ∪{x : x∈A} is a set",
+    "That A is transitive",
+    "That A has a power set"
+  ],
+  "answer": 1,
+  "explanation": "Union axiom: for any set A, ∪A = {x : ∃y∈A. x∈y} is a set.",
+  "tags": [
+    "union-axiom",
+    "zfc"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "7235b499-efc8-4387-bca8-b463fb487eff"
+}

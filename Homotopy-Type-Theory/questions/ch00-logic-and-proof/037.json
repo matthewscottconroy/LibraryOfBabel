@@ -1,0 +1,19 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In classical logic, (φ→ψ) is logically equivalent to (¬φ∨ψ).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Material implication: φ→ψ ≡ ¬φ∨ψ in classical propositional logic.",
+  "tags": [
+    "material-implication",
+    "classical-logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "3e4d12c2-c0e5-44cd-b25f-e99638f12da9"
+}

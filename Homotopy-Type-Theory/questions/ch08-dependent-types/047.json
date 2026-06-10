@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Definitional (judgemental) equality vs. propositional equality: the key difference is:",
+  "choices": [
+    "Definitional equality is undecidable; propositional is decidable",
+    "Definitional equality is checked by the type-checker; propositional equality requires a proof term",
+    "They are the same in HoTT",
+    "Propositional equality is stronger"
+  ],
+  "answer": 1,
+  "explanation": "Definitional: checked automatically by normalisation (no proof needed). Propositional: requires explicit proof term p : a=b.",
+  "tags": [
+    "definitional-equality",
+    "propositional-equality",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "a7e5d0e4-1a0e-4fc2-a7ef-77663f99ee3a"
+}

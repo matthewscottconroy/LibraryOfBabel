@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The 2-sphere S² as a HIT has one point constructor base:S² and one path constructor surf: refl_{base} = ______ in the identity type (base=base).",
+  "choices": [
+    "refl_{base}",
+    "loop",
+    "seg",
+    "merid(north)"
+  ],
+  "answer": "refl_{base}",
+  "explanation": "S²: base:S²; surf: refl=refl (a 2-loop, i.e. an element of Ω²(S²,base)).",
+  "tags": [
+    "sphere",
+    "hit",
+    "2-loop"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a486d635-52d0-44fa-b23f-428247bf327d"
+}

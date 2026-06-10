@@ -1,0 +1,21 @@
+{
+  "question_id": "1924ec6c-c3f6-4d36-b4bd-36ec52ad3600",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Riehl-Shulman simplicial type theory, the hom type hom_A(a, b) represents:",
+  "choices": [
+    "the identity type a = b",
+    "the type of directed morphisms from a to b (not necessarily invertible)",
+    "the function type A → B",
+    "the loop space of A at a"
+  ],
+  "answer": 1,
+  "explanation": "hom_A(a,b) is the type of 'arrows' from a to b in the ∞-category A. Unlike a = b, morphisms in hom_A are not automatically invertible.",
+  "tags": [
+    "hom-type",
+    "simplicial-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

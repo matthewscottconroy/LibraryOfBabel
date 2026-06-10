@@ -1,0 +1,20 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A higher inductive type (HIT) extends ordinary inductive types by allowing:",
+  "choices": [
+    "recursive types with negative occurrences",
+    "path constructors (constructors of identity types) in addition to point constructors",
+    "impredicative definitions",
+    "universe-level polymorphism"
+  ],
+  "answer": 1,
+  "explanation": "HITs have both point constructors (ordinary terms) and path constructors (proofs of equalities). E.g., S¹ has base:S¹ (point) and loop:base=base (path).",
+  "tags": [
+    "HoTT",
+    "HITs"
+  ],
+  "difficulty": "beginner",
+  "question_id": "c51af51b-d741-4f8b-a5b7-a381749a61fc"
+}

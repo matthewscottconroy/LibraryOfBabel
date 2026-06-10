@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of the following is NOT a valid natural deduction rule for ∧?",
+  "choices": [
+    "∧I: from A and B, infer A∧B",
+    "∧E₁: from A∧B, infer A",
+    "∧E₂: from A∧B, infer B",
+    "∧E: from A∧B, infer A∨B"
+  ],
+  "answer": 3,
+  "explanation": "A∧B does not directly give A∨B without further reasoning; this is not a standard ∧ elimination rule.",
+  "tags": [
+    "natural-deduction",
+    "conjunction"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "e20d07ec-df4c-4e0c-a034-9b0eafcdfe98"
+}

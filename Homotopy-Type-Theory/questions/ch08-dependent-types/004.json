@@ -1,0 +1,19 @@
+{
+  "question_id": "83f07013-7f73-4622-a19e-537448f79f99",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In dependent type theory, the Axiom of Choice is a theorem, not an axiom.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "AC in DTT: from Π(x:A).Σ(y:B).P(x,y), extract the choice function by projection — no choice needed, the witness is explicit.",
+  "tags": [
+    "dependent-types",
+    "axiom-of-choice"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

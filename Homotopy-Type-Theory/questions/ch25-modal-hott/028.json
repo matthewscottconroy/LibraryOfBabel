@@ -1,0 +1,21 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "blank",
+  "text": "A lex modality (left exact modality) preserves ______, making it compatible with the universe structure.",
+  "choices": [
+    "finite limits (pullbacks and terminal object)",
+    "all colimits",
+    "Σ-types",
+    "identity types"
+  ],
+  "answer": "finite limits (pullbacks and terminal object)",
+  "explanation": "A lex modality is left-exact: it preserves finite limits (pullbacks, terminal), hence preserves Σ-types and identity types.",
+  "tags": [
+    "modal-hott",
+    "lex-modality"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "49a0bd97-d347-47ff-8746-6d4d5ccaa657"
+}

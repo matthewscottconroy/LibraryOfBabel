@@ -1,0 +1,21 @@
+{
+  "question_id": "d1b30362-1524-4734-af02-78c7590f1025",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The flat modality ♭A in cohesive HoTT represents:",
+  "choices": [
+    "the suspension of A",
+    "the type A with all higher path structure collapsed",
+    "the 'discrete' or 'locally constant' version of A",
+    "the propositional truncation of A"
+  ],
+  "answer": 2,
+  "explanation": "♭A is the 'underlying discrete type': it picks out the constant/locally-constant elements of A. In real-cohesive HoTT, ♭A corresponds to the set of locally constant maps into A.",
+  "tags": [
+    "flat-modality",
+    "cohesive-hott"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

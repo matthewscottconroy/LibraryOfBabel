@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The type Π(x:A).B(x) represents:",
+  "choices": [
+    "A disjoint union indexed by A",
+    "The type of functions from A to B(x) where the return type depends on the input",
+    "A product type A × B",
+    "An existential type"
+  ],
+  "answer": 1,
+  "explanation": "Π-types (dependent function types) generalise → : the codomain B(x) may depend on the argument x.",
+  "tags": [
+    "pi-type",
+    "dependent-types"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "eb1a855a-4055-4c92-a899-80c9a26f1d97"
+}

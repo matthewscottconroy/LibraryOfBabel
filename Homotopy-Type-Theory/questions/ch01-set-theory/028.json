@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A set X is Dedekind-infinite iff:",
+  "choices": [
+    "X is uncountable",
+    "X is in bijection with a proper subset of itself",
+    "X has more than ℵ₀ elements",
+    "X is not well-founded"
+  ],
+  "answer": 1,
+  "explanation": "Dedekind-infinite: ∃ proper subset S⊂X with S≅X. Without AC, Dedekind-infinite ↛ infinite; with AC they are equivalent.",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "d1c55513-a820-457c-8fc1-53ad7a31ecd8"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A Rezk type in Simplicial TT is a Segal type that additionally satisfies:",
+  "choices": [
+    "Kan filling for all horns",
+    "Completeness: the map from identity paths to equivalences is an equivalence",
+    "Being a 1-type",
+    "Having decidable equality"
+  ],
+  "answer": 1,
+  "explanation": "Rezk (complete Segal) types: hom(a,a) → Equiv_Segal(a,a) is an equivalence — objects equivalent in the Segal sense are equal.",
+  "tags": [
+    "simplicial-type-theory",
+    "rezk-type",
+    "completeness"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "3849bbfe-9814-404f-a8c5-914990f9bf2a"
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "2aad8787-c844-45e6-a720-bce26d0fa83a",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The operation that moves a:B(x) along p:x=y to get a term of type B(y) is called ___.",
+  "choices": [
+    "transport",
+    "subst"
+  ],
+  "answer": "transport",
+  "explanation": "transport^B(p, a) : B(y) is defined from J. Topologically: parallel transport along a path.",
+  "tags": [
+    "MLTT",
+    "transport"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

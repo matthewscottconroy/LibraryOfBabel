@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A category consists of objects, morphisms, composition, and which two additional pieces of structure?",
+  "choices": [
+    "Associativity and terminal objects",
+    "Identity morphisms and associativity of composition",
+    "Initial objects and functors",
+    "Limits and colimits"
+  ],
+  "answer": 1,
+  "explanation": "A category requires: (1) identity morphisms id_A: A→A, and (2) associativity: (h∘g)∘f = h∘(g∘f).",
+  "tags": [
+    "category-theory",
+    "definition"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "1cd7c237-b04a-4ad0-b713-160c95a72398"
+}

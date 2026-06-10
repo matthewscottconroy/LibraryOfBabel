@@ -1,0 +1,18 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "If κ is an infinite cardinal, then κ^κ = 2^κ.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "κ ≤ 2^κ (since {0,1}^κ ⊆ κ^κ) and κ^κ ≤ (2^κ)^κ = 2^(κ⋅κ) = 2^κ. So κ^κ = 2^κ for infinite κ.",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "advanced",
+  "question_id": "3f92b67a-2dec-4e97-b8c2-5adb75ceaf9e"
+}

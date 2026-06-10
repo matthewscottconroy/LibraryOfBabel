@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, isProp(A) is equivalent to (A → isContr(A)). Why?",
+  "choices": [
+    "Because propositions are always inhabited",
+    "If A is a proposition and a:A is given, then a=x for all x (hence a is the centre of contraction)",
+    "Because propositions are equivalent to ⊤",
+    "Because isContr implies isProp always"
+  ],
+  "answer": 1,
+  "explanation": "isProp(A) ↔ (A→isContr(A)): given any element, the proposition is contractible.",
+  "tags": [
+    "proposition",
+    "contractible",
+    "h-level"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "088cbc10-df64-4036-b782-5fe03c7592f6"
+}

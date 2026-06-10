@@ -1,0 +1,19 @@
+{
+  "question_id": "c1e1b109-2a82-4305-b79a-9d8cd950484e",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The internal logic of every elementary topos satisfies the law of excluded middle.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Topos logic is intuitionistic by default. LEM holds only when the subobject classifier Ω is Boolean (i.e., Ω ≅ 1 + 1), which is not required in general.",
+  "tags": [
+    "topos",
+    "categorical-logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

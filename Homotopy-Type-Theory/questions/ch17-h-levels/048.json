@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "If B is a proposition and f,g: A→B, what can we say about f and g?",
+  "choices": [
+    "f=g always",
+    "f=g iff A is also a proposition",
+    "f=g by funext applied to the proof that B is a proposition",
+    "f=g assuming isProp(A→B)"
+  ],
+  "answer": 0,
+  "explanation": "Since isProp(B), for all x:A we have f(x)=g(x), so funext gives f=g.",
+  "tags": [
+    "proposition",
+    "function-extensionality",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e92cc037-6c80-45d7-a32e-61f3ba8ab14a"
+}

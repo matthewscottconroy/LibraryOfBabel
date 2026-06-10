@@ -1,0 +1,21 @@
+{
+  "question_id": "9338733c-f5e9-4bee-a04a-0c61bb8b65a4",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which universe strategy avoids the paradox 'Type : Type'?",
+  "choices": [
+    "Impredicative universes",
+    "A cumulative hierarchy Type₀ : Type₁ : Type₂ : …",
+    "Univalence",
+    "Propositional truncation"
+  ],
+  "answer": 1,
+  "explanation": "'Type : Type' leads to Girard's paradox (analogous to Russell's). A cumulative hierarchy prevents this.",
+  "tags": [
+    "dependent-types",
+    "universes"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

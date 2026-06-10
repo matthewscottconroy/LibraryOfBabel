@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In synthetic homotopy theory, the n-truncation functor τₙ satisfies:",
+  "choices": [
+    "τₙ ∘ τₙ = τₙ (idempotence)",
+    "τₙ(A) is always contractible",
+    "τₙ is exact",
+    "τₙ(A) = A for n-types"
+  ],
+  "answer": 0,
+  "explanation": "Truncation is idempotent: ‖‖A‖ₙ‖ₙ ≃ ‖A‖ₙ since ‖A‖ₙ is already n-truncated.",
+  "tags": [
+    "truncation",
+    "idempotent",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "9dd9b530-346b-42d9-ae74-f4c9b6aa30bd"
+}

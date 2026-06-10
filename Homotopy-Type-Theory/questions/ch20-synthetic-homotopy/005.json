@@ -1,0 +1,21 @@
+{
+  "question_id": "605ab13a-9385-47e3-b875-81e84e0c3adc",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The encode-decode method in HoTT is used to:",
+  "choices": [
+    "construct higher inductive types",
+    "compute the homotopy groups of a type by finding a code family over it",
+    "prove the univalence axiom",
+    "eliminate the identity type using the J rule"
+  ],
+  "answer": 1,
+  "explanation": "Encode-decode: to compute π₁(A,a) one defines a code family code:A→U and shows Σ(x:A).code(x) ≃ (a=x), then π₁(A,a) ≃ code(a). Used for π₁(S¹)=ℤ.",
+  "tags": [
+    "HoTT",
+    "homotopy"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "15c692eb-a8e2-442e-910d-2658c2a4110f",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A fibration p: E → B has the homotopy lifting property for all spaces. The long exact sequence of homotopy groups gives:",
+  "choices": [
+    "… → πₙ(F) → πₙ(E) → πₙ(B) → πₙ₋₁(F) → …",
+    "… → πₙ(B) → πₙ(E) → πₙ(F) → …",
+    "πₙ(E) = πₙ(B) × πₙ(F) for all n",
+    "πₙ(F) = πₙ(E)/πₙ(B)"
+  ],
+  "answer": 0,
+  "explanation": "The LES of a fibration F → E → B: … → πₙ(F) → πₙ(E) → πₙ(B) → πₙ₋₁(F) → …, a key computational tool.",
+  "tags": [
+    "homotopy",
+    "fibrations"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

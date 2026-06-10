@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A groupoid is a category where:",
+  "choices": [
+    "Every morphism is monic",
+    "Every morphism is an isomorphism",
+    "The category has a single object",
+    "All objects are isomorphic"
+  ],
+  "answer": 1,
+  "explanation": "Groupoid: every morphism has a two-sided inverse.",
+  "tags": [
+    "groupoid",
+    "category-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "a28a9eeb-888a-4605-8d37-4aac178ed615"
+}

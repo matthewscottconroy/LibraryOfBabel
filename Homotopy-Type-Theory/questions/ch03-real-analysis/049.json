@@ -1,0 +1,19 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every compact subset of ℝⁿ is closed and bounded.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Heine-Borel: a subset of ℝⁿ is compact iff it is closed and bounded.",
+  "tags": [
+    "heine-borel",
+    "compact"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "aa3d37e9-d66d-4e04-856a-ebbd62fd35a4"
+}

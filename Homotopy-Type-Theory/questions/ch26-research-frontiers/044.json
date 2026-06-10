@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Which project is developing a proof assistant based on 'XTT' (extended type theory with proof-irrelevant equality)?",
+  "choices": [
+    "Coq",
+    "RedPRL / RedTT / Cooltt",
+    "Isabelle/HOL",
+    "ACL2"
+  ],
+  "answer": 1,
+  "explanation": "RedPRL/RedTT/cooltt implement cartesian cubical TT; XTT (Gratzer-Birkedal) handles proof-irrelevant identity.",
+  "tags": [
+    "xtt",
+    "proof-assistant",
+    "research"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "49df694d-7c1b-4a7e-bc53-e65b22b3d08a"
+}

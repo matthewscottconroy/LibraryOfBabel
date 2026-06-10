@@ -1,0 +1,22 @@
+{
+  "question_id": "029bc6cb-cdec-4c39-9d05-12510bbf8103",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4's kernel, Prop is a sort that differs from Type in that:",
+  "choices": [
+    "Prop is a universe with no universe polymorphism",
+    "proof terms in Prop are definitionally equal (proof irrelevance holds)",
+    "Prop has no inductive types",
+    "Prop is always the bottom of the universe hierarchy"
+  ],
+  "answer": 1,
+  "explanation": "Lean 4 has proof irrelevance for Prop: any two proofs p q: P are definitionally equal when P: Prop. This allows large eliminations from Type into Prop but not vice versa.",
+  "tags": [
+    "Lean4",
+    "prop",
+    "proof-irrelevance"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

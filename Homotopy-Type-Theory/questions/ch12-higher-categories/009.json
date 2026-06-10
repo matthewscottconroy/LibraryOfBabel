@@ -1,0 +1,20 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The nerve N(C) of a small category C is a simplicial set whose n-simplices are ___ in C.",
+  "choices": [
+    "composable n-tuples of morphisms",
+    "chains of n morphisms",
+    "n-paths"
+  ],
+  "answer": "composable n-tuples of morphisms",
+  "explanation": "N(C)_n consists of composable sequences A₀→A₁→…→Aₙ. The nerve construction embeds Cat into sSet; its image consists of simplicial sets satisfying the Segal condition.",
+  "tags": [
+    "higher-categories",
+    "simplicial-sets",
+    "nerve"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "437db454-f1a4-4137-8310-55e4f9a1e5e8"
+}

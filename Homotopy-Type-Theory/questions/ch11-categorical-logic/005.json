@@ -1,0 +1,21 @@
+{
+  "question_id": "0dbd00e3-76a5-46c3-a631-fa3573336720",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A Cartesian closed category (CCC) must have:",
+  "choices": [
+    "all small limits",
+    "finite products and exponential objects",
+    "a subobject classifier",
+    "all colimits"
+  ],
+  "answer": 1,
+  "explanation": "A CCC has finite products A×B and for each pair (A,B) an exponential object Bᴬ with a natural bijection Hom(C×A,B) ≅ Hom(C,Bᴬ). CCCs correspond to the simply-typed lambda calculus.",
+  "tags": [
+    "categorical-logic",
+    "CCC"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

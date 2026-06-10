@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `Cubical.Foundations.Univalence` module provides:",
+  "choices": [
+    "Only ua",
+    "ua, uaβ (computation), uaη, and equivalences between ua and idtoeqv",
+    "The interval type",
+    "Only idtoeqv"
+  ],
+  "answer": 1,
+  "explanation": "The univalence module provides ua, its β (computation) rule, and proofs that ua and idtoeqv are inverse.",
+  "tags": [
+    "cubical-agda",
+    "univalence",
+    "library"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d6ade5ab-22d1-455d-98d9-53d7ee19bd77"
+}

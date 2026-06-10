@@ -1,0 +1,19 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In CCHM, the cofibration system consists of propositions built from:",
+  "choices": [
+    "types",
+    "face lattice formulas built from interval variables (e.g. i=0, j=1, i=j) using ∧ and ∨",
+    "propositions only",
+    "set-theoretic membership"
+  ],
+  "answer": 1,
+  "explanation": "The face lattice in CCHM: formulas φ ::= i=0 | i=1 | i=j | φ∧ψ | φ∨ψ | ⊥ | ⊤. These specify the 'faces' on which partial elements are defined.",
+  "tags": [
+    "cubical-TT"
+  ],
+  "difficulty": "advanced",
+  "question_id": "db97b392-58b8-496c-8749-714440750086"
+}

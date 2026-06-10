@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The loop space Ω(A,a) of a pointed type (A,a) in HoTT is:",
+  "choices": [
+    "Σ(b:A). a=b",
+    "a =_A a (the type of loops at a)",
+    "Π(b:A). a=b",
+    "The suspension of A"
+  ],
+  "answer": 1,
+  "explanation": "Ω(A,a) = (a =_A a), the type of loops; Ω²(A,a) = Ω(Ω(A,a), refl_a), etc.",
+  "tags": [
+    "loop-space",
+    "identity-type",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "983487d1-05ba-4f21-8e38-f39c03fc34e0"
+}

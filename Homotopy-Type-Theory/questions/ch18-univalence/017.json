@@ -1,0 +1,19 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Univalence is consistent with MLTT (it has a model in simplicial sets).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Voevodsky (2009) showed univalence holds in the Kan-Quillen model (simplicial sets). This established that UA is consistent with MLTT and launched the HoTT program.",
+  "tags": [
+    "HoTT",
+    "univalence",
+    "consistency"
+  ],
+  "difficulty": "beginner",
+  "question_id": "dc4f8302-d967-426b-bb02-24b08c5dad5a"
+}

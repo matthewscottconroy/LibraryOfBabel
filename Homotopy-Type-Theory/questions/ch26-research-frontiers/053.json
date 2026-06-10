@@ -1,0 +1,22 @@
+{
+  "question_id": "2265ad75-5329-4ad4-a88e-8fe920b9397a",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The Blakers-Massey theorem in HoTT (proved by Anel-Biedermann-Finster-Joyal 2017) is a:",
+  "choices": [
+    "result about the fundamental group of the circle",
+    "connectivity bound for the comparison map between homotopy pushouts and pullbacks",
+    "proof that all higher homotopy groups of spheres are finitely generated",
+    "formalization of the Hopf fibration"
+  ],
+  "answer": 1,
+  "explanation": "Blakers-Massey: if f: A→C and g: B→C are m- and n-connected, then the comparison map A×_C B → A×B is (m+n)-connected. In HoTT, this was first proved using lex modalities.",
+  "tags": [
+    "blakers-massey",
+    "research-frontiers",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

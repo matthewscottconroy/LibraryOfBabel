@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The 'no-confusion' property for inductive types ensures:",
+  "choices": [
+    "No two constructors produce equal values (injectivity and disjointness)",
+    "The type is always inhabited",
+    "Constructors have the same type",
+    "The type has no eliminators"
+  ],
+  "answer": 0,
+  "explanation": "No-confusion: constructors are injective and have disjoint ranges.",
+  "tags": [
+    "mltt",
+    "inductive-types",
+    "no-confusion"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "2e584428-785a-4547-9e0e-5933a1edbf88"
+}

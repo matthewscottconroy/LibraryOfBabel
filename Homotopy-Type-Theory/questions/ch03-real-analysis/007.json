@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The ε-δ definition of lim_{x→a} f(x) = L says: for every ε>0 there exists δ>0 such that:",
+  "choices": [
+    "0 < |x-a| < δ implies |f(x)-L| < ε",
+    "|f(x)-L| < ε implies |x-a| < δ",
+    "|x-a| < δ implies f(x)=L",
+    "f(a)=L"
+  ],
+  "answer": 0,
+  "explanation": "The ε-δ definition: ∀ε>0 ∃δ>0: 0<|x-a|<δ → |f(x)-L|<ε. The 0< excludes x=a (the limit doesn't depend on f(a)).",
+  "tags": [
+    "analysis",
+    "limits"
+  ],
+  "difficulty": "beginner",
+  "question_id": "3fa2eb58-c693-40ba-9914-8df6f3b9a1c6"
+}

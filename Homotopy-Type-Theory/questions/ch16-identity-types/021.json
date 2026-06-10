@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The ap function for a function f: A→B and a path p: a=b gives:",
+  "choices": [
+    "A path f(a)=f(b) in B",
+    "A path a=b in A",
+    "An element of B",
+    "A homotopy between f and the identity"
+  ],
+  "answer": 0,
+  "explanation": "ap_f(p) : f(a) =_B f(b) — functoriality of functions on paths.",
+  "tags": [
+    "ap",
+    "identity-type",
+    "functoriality"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "6e66f9a0-a731-4b2a-9c33-bc484a75cab2"
+}

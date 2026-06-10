@@ -1,0 +1,19 @@
+{
+  "question_id": "aa012226-e397-401c-a7c4-32e0de9395d4",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "tf",
+  "text": "In Lean 4, `simp` is guaranteed to terminate on any goal.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "simp applies simp lemmas (rewrite rules) until no more apply. If lemmas form a cycle (e.g. a↔b and b↔a), simp will loop. Use `simp?` to inspect what is applied.",
+  "tags": [
+    "Lean4",
+    "tactics"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

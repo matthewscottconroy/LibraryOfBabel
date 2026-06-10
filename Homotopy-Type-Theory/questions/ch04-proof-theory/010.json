@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The propositions-as-types correspondence under Curry-Howard maps the cut rule of sequent calculus to:",
+  "choices": [
+    "function application",
+    "let-binding / substitution (cut ↔ substitution)",
+    "lambda abstraction",
+    "the identity combinator"
+  ],
+  "answer": 1,
+  "explanation": "Cut corresponds to substitution / let-binding: to derive B using intermediate formula A (A is the cut formula), substitute the proof of A into the proof of B from A.",
+  "tags": [
+    "proof-theory",
+    "curry-howard"
+  ],
+  "difficulty": "advanced",
+  "question_id": "d9eae9b1-bc83-4f3f-944c-3cdd62810e64"
+}

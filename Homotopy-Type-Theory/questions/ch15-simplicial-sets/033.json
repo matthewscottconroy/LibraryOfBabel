@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A simplicial fibration (Kan fibration) p: E → B has the property that:",
+  "choices": [
+    "p is a homotopy equivalence",
+    "p has the right lifting property w.r.t. all horn inclusions Λⁿₖ ↪ Δ[n]",
+    "p is a trivial fibration",
+    "p has the right lifting property w.r.t. all boundary inclusions"
+  ],
+  "answer": 1,
+  "explanation": "Kan fibration: p has the RLP w.r.t. all horns (all k); trivial Kan fibrations have the RLP w.r.t. all boundaries.",
+  "tags": [
+    "kan-fibration",
+    "simplicial-set"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "bef306e1-75d6-4eed-a13c-b0f547bd56e2"
+}

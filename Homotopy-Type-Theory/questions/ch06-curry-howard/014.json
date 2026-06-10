@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Dialectica interpretation translates intuitionistic proofs into:",
+  "choices": [
+    "classical proofs",
+    "System T computations witnessing existential statements",
+    "Kripke models",
+    "modal proofs"
+  ],
+  "answer": 1,
+  "explanation": "Gödel's Dialectica (1958): every IPC proof of ∃x.∀y.A(x,y) translates to a System T term t such that ∀y.A(t,y). It extracts computational content from proofs.",
+  "tags": [
+    "curry-howard",
+    "proof-theory"
+  ],
+  "difficulty": "advanced",
+  "question_id": "b8828ad8-8d98-47bf-ae48-b4d5b56640a7"
+}

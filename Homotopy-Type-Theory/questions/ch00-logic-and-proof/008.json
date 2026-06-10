@@ -1,0 +1,21 @@
+{
+  "question_id": "27bd486c-c01c-4389-80bb-8c4dac3c12f8",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Structural induction is applied to:",
+  "choices": [
+    "natural numbers only",
+    "any inductively defined set, by cases matching the constructors",
+    "well-founded relations exclusively",
+    "finite lists only"
+  ],
+  "answer": 1,
+  "explanation": "Structural induction works on any inductive type: to prove P(t) for all t, prove P holds for each constructor applied to arguments satisfying P.",
+  "tags": [
+    "logic",
+    "induction"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The univalence axiom for a universe 𝒰 postulates that the map idtoeqv: (A = B) → (A ≃ B) is an ______.",
+  "choices": [
+    "equivalence",
+    "injection",
+    "surjection",
+    "function"
+  ],
+  "answer": "equivalence",
+  "explanation": "idtoeqv (or ua⁻¹) is postulated to be an equivalence.",
+  "tags": [
+    "univalence",
+    "idtoeqv"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "acf1fd70-5b85-4a07-ac6c-259abc3e3c17"
+}

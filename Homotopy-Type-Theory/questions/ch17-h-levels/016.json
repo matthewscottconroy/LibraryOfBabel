@@ -1,0 +1,19 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In HoTT, the loop space Ω(K(G,1)) of an Eilenberg-MacLane space is equivalent to G as a type.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "K(G,1) (BG) has π₁=G and higher homotopy groups = 0. ΩK(G,1) ≃ G as types (the loop space recovers the group). This is the HoTT construction of classifying spaces.",
+  "tags": [
+    "HoTT",
+    "h-levels",
+    "Eilenberg-MacLane"
+  ],
+  "difficulty": "advanced",
+  "question_id": "a427f4d4-cf35-460a-be65-c040829dff51"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The double negation modality ¬¬ in HoTT is:",
+  "choices": [
+    "A modality with modal types = all propositions",
+    "A modality with modal types = classical propositions (double-negation-stable propositions)",
+    "A modality with modal types = sets",
+    "The propositional truncation modality"
+  ],
+  "answer": 1,
+  "explanation": "¬¬ is a modality; ¬¬-modal types are propositions P with P ↔ ¬¬P (double-negation-stable).",
+  "tags": [
+    "double-negation",
+    "modality",
+    "modal-hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "4d24c97a-e617-4d7b-a434-ddb11b892cf9"
+}

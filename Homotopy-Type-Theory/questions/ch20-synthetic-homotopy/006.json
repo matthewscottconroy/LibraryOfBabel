@@ -1,0 +1,20 @@
+{
+  "question_id": "048b2a8a-82b3-46fc-bc4d-e7bf24602021",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The ___ suspension theorem says π_k(Sⁿ) ≅ π_{k+1}(Sⁿ⁺¹) for k < 2n-1.",
+  "choices": [
+    "Freudenthal",
+    "Freudenthal suspension"
+  ],
+  "answer": "freudenthal",
+  "explanation": "The Freudenthal suspension theorem gives a stability range for homotopy groups of spheres. In HoTT it is proved using the Blakers-Massey theorem.",
+  "tags": [
+    "HoTT",
+    "homotopy",
+    "suspension"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

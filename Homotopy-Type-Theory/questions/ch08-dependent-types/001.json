@@ -1,0 +1,20 @@
+{
+  "question_id": "08790b42-41b9-4c35-96bb-ee38d5b75d78",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In Vector A n, the length n is:",
+  "choices": [
+    "a type-level parameter inferred automatically",
+    "part of the type — the type depends on the runtime value n",
+    "always inferred by the compiler",
+    "an implicit class constraint"
+  ],
+  "answer": 1,
+  "explanation": "Dependent types allow types to depend on terms. Vector A n : Type where n : ℕ is genuinely part of the type.",
+  "tags": [
+    "dependent-types"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

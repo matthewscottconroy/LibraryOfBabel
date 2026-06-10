@@ -1,0 +1,19 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The category Set has as morphisms:",
+  "choices": [
+    "injective functions only",
+    "all functions between sets",
+    "surjective functions",
+    "partial functions"
+  ],
+  "answer": 1,
+  "explanation": "Set: objects are sets, morphisms are all (total) functions. Composition is function composition; identity is the identity function.",
+  "tags": [
+    "category-theory"
+  ],
+  "difficulty": "beginner",
+  "question_id": "3ecdc008-8783-4cff-b973-09798e2d1739"
+}

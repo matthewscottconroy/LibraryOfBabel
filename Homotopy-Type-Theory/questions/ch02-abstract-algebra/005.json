@@ -1,0 +1,22 @@
+{
+  "question_id": "e34b72ea-f1ff-44c5-87d2-000c3b4cca0c",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why are free groups important in HoTT?",
+  "choices": [
+    "They are the only infinite groups",
+    "The fundamental group π₁ of a graph is a free group, and free groups arise as path groups of HITs",
+    "They satisfy the axiom of choice",
+    "They are always abelian"
+  ],
+  "answer": 1,
+  "explanation": "Free groups appear as π₁ of graphs (van Kampen) and as the algebraic structure corresponding to loop spaces of wedge sums.",
+  "tags": [
+    "algebra",
+    "free-groups",
+    "HoTT"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

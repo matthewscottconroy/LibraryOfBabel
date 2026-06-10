@@ -1,0 +1,21 @@
+{
+  "question_id": "d8c19794-9e70-4eeb-9ace-c6cd1e380044",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A Segal type in synthetic (∞,1)-category theory is a type A where:",
+  "choices": [
+    "all morphisms are invertible",
+    "the Segal condition holds: every composable pair uniquely composes",
+    "A has decidable equality",
+    "A is a mere proposition"
+  ],
+  "answer": 1,
+  "explanation": "The Segal condition: the natural map hom(a,b) × hom(b,c) → hom(a,c) has contractible fibers. This corresponds to inner horn filling in the simplicial model.",
+  "tags": [
+    "segal-condition",
+    "simplicial-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

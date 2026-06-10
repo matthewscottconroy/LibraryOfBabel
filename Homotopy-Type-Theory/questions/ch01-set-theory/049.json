@@ -1,0 +1,19 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The generalised continuum hypothesis (GCH) implies the axiom of choice.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Sierpiński: GCH implies AC; the proof uses the fact that GCH forces a well-ordering of any infinite set.",
+  "tags": [
+    "gch",
+    "axiom-of-choice"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a79affef-6026-4ca4-b9ed-c54146abb095"
+}

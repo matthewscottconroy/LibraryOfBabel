@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The h-level hierarchy is defined recursively as: A has h-level n+1 iff all identity types a=b have h-level:",
+  "choices": [
+    "n+2",
+    "n",
+    "n-1",
+    "0"
+  ],
+  "answer": 1,
+  "explanation": "isHLevel(n+1, A) = Π(x y:A). isHLevel(n, x=y).",
+  "tags": [
+    "h-level",
+    "definition"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "fedaa9b5-5a06-4cfc-86f5-11fcdf450d60"
+}

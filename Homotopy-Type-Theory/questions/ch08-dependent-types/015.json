@@ -1,0 +1,20 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which feature distinguishes Martin-Löf Type Theory from System F?",
+  "choices": [
+    "MLTT has type variables",
+    "MLTT has dependent types (types depending on terms)",
+    "MLTT has no functions",
+    "MLTT has impredicative universes"
+  ],
+  "answer": 1,
+  "explanation": "The key distinction: MLTT has dependent types (Π and Σ), where types can depend on terms. System F has only type-level quantification (no term-level dependency).",
+  "tags": [
+    "dependent-types",
+    "MLTT"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "f0692c1c-bad5-417c-8fd2-b077d2126a62"
+}

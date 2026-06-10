@@ -1,0 +1,22 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Curry-Howard correspondent of IPC ⊃-introduction is:",
+  "choices": [
+    "Application (f a)",
+    "Lambda abstraction (λx.t)",
+    "Variable reference",
+    "Recursion"
+  ],
+  "answer": 1,
+  "explanation": "→-intro corresponds to λ-abstraction; →-elim to application.",
+  "tags": [
+    "curry-howard",
+    "ipc",
+    "lambda-abstraction"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "2431fe78-7ead-40f5-8995-b01d504b9b74"
+}

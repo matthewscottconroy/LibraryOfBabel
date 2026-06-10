@@ -1,0 +1,19 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of the following is a valid rule of inference in classical propositional logic?",
+  "choices": [
+    "From P conclude P∧¬P",
+    "From P→Q and ¬P conclude ¬Q",
+    "From ¬Q and P→Q conclude ¬P",
+    "From P∨Q and P conclude ¬Q"
+  ],
+  "answer": 2,
+  "explanation": "Modus tollens: P→Q, ¬Q ⊢ ¬P. It is the contrapositive form of modus ponens.",
+  "tags": [
+    "logic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "9f9eafd4-cf42-43ca-a8af-449ae62d0bc6"
+}

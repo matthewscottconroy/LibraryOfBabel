@@ -1,0 +1,23 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The Curry-Howard correspondence for classical logic requires adding a control operator. The call/cc operator has type ______ (Peirce's law).",
+  "choices": [
+    "((A→B)→A)→A",
+    "A→A",
+    "(A→B)→B",
+    "¬¬A→A"
+  ],
+  "answer": "((A→B)→A)→A",
+  "explanation": "call/cc : ((A→B)→A)→A corresponds to Peirce's law, the classical axiom.",
+  "tags": [
+    "curry-howard",
+    "classical-logic",
+    "callcc",
+    "peirce"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "56fcf28b-3ffe-46f8-bd2a-5e68d7ba7f53"
+}

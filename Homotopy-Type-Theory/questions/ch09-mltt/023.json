@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which rule is the recursor for natural numbers in MLTT?",
+  "choices": [
+    "elim-ℕ (with base case and step case, returning a type depending on the number)",
+    "ℕ-elim only with motive in a fixed universe",
+    "Primitive recursion without dependent return type",
+    "The well-founded recursion principle"
+  ],
+  "answer": 0,
+  "explanation": "ind-ℕ (or rec-ℕ) is a dependent recursor: given P:ℕ→Type, p₀:P(0), pₛ:(∀n.P(n)→P(s n)), returns ∀n.P(n).",
+  "tags": [
+    "mltt",
+    "natural-numbers",
+    "recursion"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "de1bc7e6-733c-4853-8228-afe243d2e73c"
+}

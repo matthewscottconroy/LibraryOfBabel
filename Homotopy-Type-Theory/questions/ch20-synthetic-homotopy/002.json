@@ -1,0 +1,21 @@
+{
+  "question_id": "31340f40-cd26-4e57-8d18-a0eff640ad30",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Brunerie's number n (an element of π₄(S³)) is conjectured (and computationally verified) to equal:",
+  "choices": [
+    "0",
+    "1",
+    "2",
+    "12"
+  ],
+  "answer": 2,
+  "explanation": "Brunerie's thesis (2016) constructs n and the computer verified n=2, but a human-readable proof of this value is still open.",
+  "tags": [
+    "HoTT",
+    "Brunerie"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

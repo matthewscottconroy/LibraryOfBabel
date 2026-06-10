@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The power set of ℕ has the same cardinality as:",
+  "choices": [
+    "ℕ",
+    "ℤ",
+    "ℝ",
+    "ℚ"
+  ],
+  "answer": 2,
+  "explanation": "|𝒫(ℕ)| = |ℝ| = 2^ℵ₀ = 𝔠 (the cardinality of the continuum). This follows from the Cantor-Schröder-Bernstein theorem.",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "beginner",
+  "question_id": "b440d8bb-307c-4c8a-86ce-a60362f83bd1"
+}

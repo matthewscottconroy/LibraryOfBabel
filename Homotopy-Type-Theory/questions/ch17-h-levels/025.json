@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The n-truncation ‖A‖ₙ satisfies:",
+  "choices": [
+    "isHLevel(n, ‖A‖ₙ) and a universal map A → ‖A‖ₙ",
+    "‖A‖ₙ is equivalent to A for n large enough",
+    "‖A‖ₙ preserves all homotopy groups",
+    "Both B and C"
+  ],
+  "answer": 0,
+  "explanation": "‖A‖ₙ is the universal n-type receiving a map from A; it truncates homotopy above level n.",
+  "tags": [
+    "truncation",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3d187db6-9b71-4ae2-bba8-dc8fccdeeaa8"
+}

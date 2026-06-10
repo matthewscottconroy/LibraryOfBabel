@@ -1,0 +1,21 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Session types in process calculi extend the Curry-Howard correspondence to:",
+  "choices": [
+    "continuous time",
+    "concurrent computation: a session type A describes the communication protocol of a channel, and A⊗B ↔ running two processes",
+    "quantum computing",
+    "probabilistic processes"
+  ],
+  "answer": 1,
+  "explanation": "Session types (Honda 1993, Caires-Pfenning 2010): types for communication channels in the π-calculus, with Curry-Howard connecting session types to linear logic propositions.",
+  "tags": [
+    "curry-howard",
+    "session-types",
+    "linear-logic"
+  ],
+  "difficulty": "advanced",
+  "question_id": "69b3ee8f-003c-480a-95b2-061dec68c7ae"
+}

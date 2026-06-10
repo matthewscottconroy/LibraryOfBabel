@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In MLTT, the function extensionality principle states that f = g whenever:",
+  "choices": [
+    "f and g have the same domain",
+    "f and g are syntactically equal",
+    "∀x. f(x) = g(x)",
+    "f and g have the same type annotation"
+  ],
+  "answer": 2,
+  "explanation": "Funext: (∀x:A. f(x) =_{B(x)} g(x)) → f =_{Π(x:A)B(x)} g.",
+  "tags": [
+    "mltt",
+    "function-extensionality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "421c37cd-241f-462e-b6d2-f1eac70e3a87"
+}

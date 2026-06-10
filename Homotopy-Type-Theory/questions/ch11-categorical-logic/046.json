@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The category of sets and partial functions is:",
+  "choices": [
+    "A topos",
+    "Not a topos (lacks exponentials for all objects)",
+    "A pretopos",
+    "Equivalent to Set"
+  ],
+  "answer": 2,
+  "explanation": "Par (partial functions) is a pretopos but not a topos; exponentials do not exist in general.",
+  "tags": [
+    "partial-functions",
+    "topos",
+    "pretopos"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "ae24ea69-dc9b-498c-8d97-ed73bcb75c51"
+}

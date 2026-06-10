@@ -1,0 +1,20 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The 'apply?' tactic in Lean 4:",
+  "choices": [
+    "applies all lemmas to the goal",
+    "searches for applicable lemmas and suggests them",
+    "proves the goal automatically",
+    "applies the last used lemma"
+  ],
+  "answer": 1,
+  "explanation": "'apply?' searches Mathlib for lemmas whose conclusion matches the current goal and reports candidates. Similar to 'exact?' but for apply (leaves subgoals).",
+  "tags": [
+    "Lean4",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "question_id": "80217b6f-873a-4e4d-bc3a-5225c61d727a"
+}

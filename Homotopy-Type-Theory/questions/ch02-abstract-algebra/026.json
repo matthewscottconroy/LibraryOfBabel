@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of the following is a UFD (unique factorisation domain)?",
+  "choices": [
+    "ℤ[√-5]",
+    "ℤ",
+    "ℤ[x,y]/(y²-x³)",
+    "Every ring"
+  ],
+  "answer": 1,
+  "explanation": "ℤ is a PID (every ideal principal), hence a UFD. ℤ[√-5] fails UFD: 6 = 2·3 = (1+√-5)(1-√-5), both factorisations into irreducibles.",
+  "tags": [
+    "algebra",
+    "rings"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "c75cacb9-eb5f-4ded-90c7-4397d928a782"
+}

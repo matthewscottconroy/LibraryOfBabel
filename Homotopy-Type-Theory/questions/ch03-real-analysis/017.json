@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Hahn-Banach theorem guarantees that for a normed space X:",
+  "choices": [
+    "X has a Schauder basis",
+    "every bounded linear functional on a subspace extends to all of X with the same norm",
+    "X is reflexive",
+    "the dual of X is separable"
+  ],
+  "answer": 1,
+  "explanation": "Hahn-Banach extension: a bounded linear functional on a subspace Y⊆X extends to all of X preserving the norm. Fundamental for dual spaces in functional analysis.",
+  "tags": [
+    "analysis",
+    "functional-analysis"
+  ],
+  "difficulty": "advanced",
+  "question_id": "241f5c0b-2912-4f7b-992e-cca43407faf9"
+}

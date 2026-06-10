@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A formula is a tautology if it is true:",
+  "choices": [
+    "Under at least one valuation",
+    "Under all valuations",
+    "Under no valuation",
+    "Under the standard valuation"
+  ],
+  "answer": 1,
+  "explanation": "A tautology is valid: true under every truth assignment.",
+  "tags": [
+    "tautology",
+    "semantics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "8bcd480e-9252-4eb5-8de8-06a5997cb810"
+}

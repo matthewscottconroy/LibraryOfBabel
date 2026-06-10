@@ -1,0 +1,19 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "tf",
+  "text": "In Cubical Agda, K (uniqueness of identity proofs) is provable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "K is inconsistent with the Cubical Agda univalence axiom (proven as a theorem). In particular, Bool ≡ Bool has a non-trivial path (negation), so not all loops at Bool are refl.",
+  "tags": [
+    "Cubical-Agda",
+    "UIP",
+    "K-axiom"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "a41ae0a2-8632-4231-a94d-7907ee13bb91"
+}

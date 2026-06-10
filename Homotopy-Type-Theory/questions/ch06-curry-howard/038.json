@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The empty type 0 (no constructors) corresponds logically to:",
+  "choices": [
+    "⊤",
+    "A∧B",
+    "⊥ (false)",
+    "A∨B"
+  ],
+  "answer": 2,
+  "explanation": "Empty type 0 ≅ ⊥: it is uninhabited (no proof of ⊥).",
+  "tags": [
+    "curry-howard",
+    "empty-type",
+    "falsehood"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "5f33c68f-abe9-4f21-87f9-986eaf3676de"
+}

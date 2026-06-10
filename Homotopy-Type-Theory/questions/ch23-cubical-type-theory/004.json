@@ -1,0 +1,19 @@
+{
+  "question_id": "3e28188c-9af9-476f-9241-4944bc5d1654",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "tf",
+  "text": "In axiomatic HoTT (the HoTT Book), canonicity is a proven theorem.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Canonicity is open for axiomatic HoTT. It holds for cubical TT (Huber 2018) but the Book's axiomatic ua has no reduction rule.",
+  "tags": [
+    "cubical-TT",
+    "canonicity"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, `subst` is derived from `transport`. The type of `subst` is:",
+  "choices": [
+    "∀{A B}. A ≡ B → A → B",
+    "∀{A: I→Type}{i: I}. A i0 → A i",
+    "(p: a ≡ b) → P a → P b  for a type family P",
+    "P a ≡ P b for any p: a ≡ b"
+  ],
+  "answer": 2,
+  "explanation": "subst P p pa : P b where P : A → Type, p : a ≡ b, pa : P a.",
+  "tags": [
+    "cubical-agda",
+    "subst",
+    "transport"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3bb8a22a-1d3a-4730-a783-8dfdeb603a4b"
+}

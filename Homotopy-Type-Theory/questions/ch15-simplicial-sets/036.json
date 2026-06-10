@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The simplicial identities include dᵢ∘dⱼ = dⱼ₋₁∘dᵢ for i<j. This encodes:",
+  "choices": [
+    "Commutativity of faces",
+    "The compatibility of face maps with each other when composed in sequence",
+    "The action of degeneracies",
+    "Group law on simplices"
+  ],
+  "answer": 1,
+  "explanation": "Simplicial identities ensure the data of a simplicial set is coherent (faces of faces are faces).",
+  "tags": [
+    "simplicial-identities",
+    "simplicial-set"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "043eed1b-d426-472e-b479-524b7c728b5b"
+}

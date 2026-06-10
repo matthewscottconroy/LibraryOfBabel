@@ -1,0 +1,21 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `theorem` and `lemma` differ in:",
+  "choices": [
+    "theorem is for propositions, lemma is for computations",
+    "They are syntactically different but semantically identical (both prove propositions)",
+    "lemma is weaker than theorem",
+    "theorem requires an explicit type"
+  ],
+  "answer": 1,
+  "explanation": "In Lean 4, `theorem` and `lemma` are syntactic synonyms; both introduce a proof term.",
+  "tags": [
+    "lean4",
+    "theorem-vs-lemma"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "5d8ecd14-92c7-4e6e-b9af-a63ca70fb22e"
+}

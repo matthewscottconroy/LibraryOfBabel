@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, `Square` p q r s represents:",
+  "choices": [
+    "A 2-dimensional path: a square with sides p,q,r,s",
+    "A product type",
+    "A 4-element type",
+    "A 2-simplex"
+  ],
+  "answer": 0,
+  "explanation": "Square p q r s: a 2-path (2D cube) with boundary the four paths p,q,r,s.",
+  "tags": [
+    "cubical-agda",
+    "square",
+    "2-path"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0ccb67a4-687b-4e64-bb89-604d0ad90441"
+}

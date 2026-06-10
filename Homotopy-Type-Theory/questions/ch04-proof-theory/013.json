@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A proof of A in classical logic that is NOT a proof in intuitionistic logic typically uses:",
+  "choices": [
+    "modus ponens",
+    "conjunction introduction",
+    "double negation elimination (¬¬A → A) or LEM",
+    "hypothetical reasoning"
+  ],
+  "answer": 2,
+  "explanation": "The key classical-but-not-intuitionistic principles are LEM (A∨¬A) and DNE (¬¬A→A). All other inference rules are shared.",
+  "tags": [
+    "proof-theory",
+    "intuitionistic"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "cae53feb-954f-43e9-a7fe-e96c94ff95c5"
+}

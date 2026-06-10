@@ -1,0 +1,22 @@
+{
+  "question_id": "036d91d6-5e8c-465c-af44-6426dcdbd795",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Brunerie's number refers to:",
+  "choices": [
+    "the Euler characteristic of S⁴",
+    "the value of π₄(S³) computed via a formalized HoTT proof in Agda",
+    "the number of non-trivial path components of the universe",
+    "the first Betti number of a certain HIT"
+  ],
+  "answer": 1,
+  "explanation": "Guillaume Brunerie formalized a proof that π₄(S³) = ℤ/2ℤ in Agda/HoTT. The proof extracted a natural number 'n'; computing n=2 required significant effort.",
+  "tags": [
+    "brunerie",
+    "synthetic-homotopy",
+    "pi4-s3"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

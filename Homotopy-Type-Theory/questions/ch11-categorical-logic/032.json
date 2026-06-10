@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Doctrines in categorical logic generalise the notion of:",
+  "choices": [
+    "Cartesian products",
+    "Logical systems with substitution, quantifiers, and connectives",
+    "Inductive types",
+    "Kan extensions"
+  ],
+  "answer": 1,
+  "explanation": "Doctrines (Lawvere) are categorical structures for modelling logical systems abstractly.",
+  "tags": [
+    "doctrine",
+    "categorical-logic"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "c016b0a1-ea35-493f-88f5-4d50ab58a49f"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A set (h-level 0 / 2) is a type A such that:",
+  "choices": [
+    "isSet(A) = Π(x y:A). isProp(x=y)",
+    "A is a finite type",
+    "A = ℕ or A = Bool",
+    "A has decidable equality"
+  ],
+  "answer": 0,
+  "explanation": "isSet(A): all identity types are mere propositions (UIP holds for A).",
+  "tags": [
+    "h-set",
+    "h-level"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "2cdc746e-9de7-4114-af3c-8c524c30f193"
+}

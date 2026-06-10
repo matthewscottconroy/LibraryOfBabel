@@ -1,0 +1,18 @@
+{
+  "question_id": "e5f257cb-c223-43a9-a169-7a5fff8a6b63",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In intuitionistic logic, ¬¬P implies P for all P.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "DNE fails intuitionistically. However P → ¬¬P always holds. Adding DNE collapses IPC to classical logic.",
+  "tags": [
+    "intuitionistic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

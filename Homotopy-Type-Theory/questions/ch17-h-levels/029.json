@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The type S¹ (the HoTT circle) has h-level:",
+  "choices": [
+    "0 (set)",
+    "1 (groupoid)",
+    "2 (2-groupoid)",
+    "It is not a finite h-level"
+  ],
+  "answer": 1,
+  "explanation": "S¹ is a 1-type (groupoid): π₁(S¹) ≅ ℤ is non-trivial but all higher homotopy groups are trivial.",
+  "tags": [
+    "circle",
+    "h-level",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "cd8c1aa5-e11c-4123-ad10-3a0bbfd79821"
+}

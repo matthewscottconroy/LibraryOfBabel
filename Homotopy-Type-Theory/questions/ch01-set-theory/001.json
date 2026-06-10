@@ -1,0 +1,20 @@
+{
+  "question_id": "05df2994-bb48-4b9d-af81-30ef92c6be04",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Russell's paradox shows that the 'set of all sets not containing themselves' leads to:",
+  "choices": [
+    "a tautology",
+    "a contradiction",
+    "an axiom",
+    "a well-ordering"
+  ],
+  "answer": 1,
+  "explanation": "If R = {x | x ∉ x}, then R ∈ R ↔ R ∉ R — a contradiction. ZFC avoids this via restricted comprehension.",
+  "tags": [
+    "set-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

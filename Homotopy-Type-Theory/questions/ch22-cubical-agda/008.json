@@ -1,0 +1,20 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What is the type of 'funExt' in Cubical Agda?",
+  "choices": [
+    "(f g : A → B) → f ≡ g",
+    "(∀ x → f x ≡ g x) → f ≡ g",
+    "f ≡ g → ∀ x → f x ≡ g x",
+    "Function → Function"
+  ],
+  "answer": 1,
+  "explanation": "funExt : (∀ x → f x ≡ g x) → f ≡ g. In Cubical Agda it is a theorem (not an axiom): funExt h = λ i x → h x i.",
+  "tags": [
+    "Cubical-Agda",
+    "funext"
+  ],
+  "difficulty": "beginner",
+  "question_id": "7c0feb77-c580-403e-aca6-449c76fc354b"
+}

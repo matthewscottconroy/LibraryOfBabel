@@ -1,0 +1,21 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, the 'hcomp' primitive fills a square. Given a tube u : ∀ i → Partial φ (A i) and base u0 : A i0, hcomp gives:",
+  "choices": [
+    "the path from u0 to u i1",
+    "an element of A i1 extending the tube at j=i1",
+    "a path over a path",
+    "a proof of A"
+  ],
+  "answer": 1,
+  "explanation": "hcomp u u0 : A i1 — it fills the open box: given the tube u (sides) and bottom face u0, produces the top face at i=i1. This is the Kan filling operation.",
+  "tags": [
+    "Cubical-Agda",
+    "hcomp",
+    "Kan"
+  ],
+  "difficulty": "advanced",
+  "question_id": "78bb982c-4f3c-4544-b966-ad86883c1b64"
+}

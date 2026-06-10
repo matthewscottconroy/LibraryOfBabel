@@ -1,0 +1,21 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Kripke semantics for IPC uses a partially ordered set of 'worlds' (stages of knowledge). Validity of A∨B at world w requires:",
+  "choices": [
+    "A is valid at w or B is valid at w",
+    "A is valid at some world accessible from w",
+    "A is valid at all worlds accessible from w or B is at all such worlds",
+    "A is valid or B is valid but not both"
+  ],
+  "answer": 0,
+  "explanation": "In Kripke semantics: w ⊩ A∨B iff w ⊩ A or w ⊩ B (unlike ¬, ∀ which involve all accessible worlds).",
+  "tags": [
+    "kripke-semantics",
+    "ipc"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b8be1947-d32f-452f-9782-cc22bee5a788"
+}

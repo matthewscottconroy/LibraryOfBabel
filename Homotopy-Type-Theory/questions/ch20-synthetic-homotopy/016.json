@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Synthetic homotopy theory differs from classical homotopy theory in that:",
+  "choices": [
+    "it uses topological spaces as primitives",
+    "it works entirely within HoTT — spaces are types, paths are identity proofs, without needing explicit point-set topology",
+    "it requires LEM",
+    "it cannot compute homotopy groups"
+  ],
+  "answer": 1,
+  "explanation": "Synthetic: work in HoTT directly. Types are ∞-groupoids, identity types are paths, HITs are building blocks of spaces. Classical homotopy theory is 'analytic' (uses point-set topology as a foundation).",
+  "tags": [
+    "HoTT",
+    "homotopy",
+    "synthetic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "58622787-4633-4422-9b3b-9d5749e89619"
+}

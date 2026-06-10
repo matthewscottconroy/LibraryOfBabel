@@ -1,0 +1,21 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "tf",
+  "text": "In CTT, the computation rule for transport along ua(e) holds definitionally (not just propositionally).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "A key feature of CTT: transport^(ua e) u ≡ e.1 u holds definitionally, giving a computational interpretation of univalence.",
+  "tags": [
+    "cubical-type-theory",
+    "transport",
+    "ua",
+    "definitional-equality"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "c61f3930-5545-411e-a9f7-6592345c2891"
+}

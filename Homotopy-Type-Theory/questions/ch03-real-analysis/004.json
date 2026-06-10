@@ -1,0 +1,21 @@
+{
+  "question_id": "6d2e6e4e-1910-449e-a93f-eb6fa7f0094f",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Baire category theorem states that a complete metric space:",
+  "choices": [
+    "is compact",
+    "cannot be written as a countable union of nowhere-dense sets",
+    "has no isolated points",
+    "is separable"
+  ],
+  "answer": 1,
+  "explanation": "The Baire category theorem: a complete metric space (or locally compact Hausdorff space) is of the second category — it is not meagre.",
+  "tags": [
+    "analysis",
+    "topology"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

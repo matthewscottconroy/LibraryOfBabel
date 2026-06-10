@@ -1,0 +1,21 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Directed type theory extends HoTT by distinguishing:",
+  "choices": [
+    "Propositions and sets",
+    "Symmetric paths (=) and directed morphisms (→)",
+    "Definitional and propositional equality",
+    "Types and kinds"
+  ],
+  "answer": 1,
+  "explanation": "Directed TT captures both undirected homotopy and directed category theory in a single system.",
+  "tags": [
+    "directed-type-theory",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "14614a55-cde2-4efa-bba8-a56777b1e31d"
+}

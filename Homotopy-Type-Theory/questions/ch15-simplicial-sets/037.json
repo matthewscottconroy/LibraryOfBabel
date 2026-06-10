@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The category of simplicial sets sSet is a presheaf category. Its colimits are computed:",
+  "choices": [
+    "By geometric realisation",
+    "Levelwise (pointwise)",
+    "By the Yoneda embedding",
+    "By concatenation of simplices"
+  ],
+  "answer": 1,
+  "explanation": "Colimits in sSet: (colim F)_n = colim (F_n), computed pointwise.",
+  "tags": [
+    "simplicial-set",
+    "colimits",
+    "presheaf"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "7ad66248-7bd4-4943-a37b-98f48cc3aa34"
+}

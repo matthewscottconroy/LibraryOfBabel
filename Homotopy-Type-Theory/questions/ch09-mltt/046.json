@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Strictly positive occurrences of an inductive type T in a constructor's argument type means T occurs:",
+  "choices": [
+    "Only to the left of all arrows",
+    "Not under any negative (contravariant) position",
+    "Only in the return type",
+    "Exactly once"
+  ],
+  "answer": 1,
+  "explanation": "Strict positivity: T may not appear to the left of a function arrow in constructor argument types.",
+  "tags": [
+    "mltt",
+    "strict-positivity",
+    "inductive-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "7ccfc56d-00ab-4e2e-be0f-15d371e20815"
+}

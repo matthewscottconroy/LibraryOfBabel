@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A type A is n-connected in HoTT if:",
+  "choices": [
+    "πₖ(A) = 0 for k ≤ n",
+    "‖A‖ₙ is contractible",
+    "A has n distinct points",
+    "A is n-truncated"
+  ],
+  "answer": 1,
+  "explanation": "n-connected: ‖A‖ₙ is contractible, equivalently πₖ(A)=0 for k ≤ n.",
+  "tags": [
+    "connected",
+    "h-level",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "ee5969a4-39dd-41ac-ad1b-10d8bbf01efa"
+}

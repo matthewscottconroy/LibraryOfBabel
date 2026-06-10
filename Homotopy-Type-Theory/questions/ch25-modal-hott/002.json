@@ -1,0 +1,21 @@
+{
+  "question_id": "d9dd3c30-2e9a-4fcb-b687-252cf5d49cf7",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In cohesive HoTT, a type A is flat-modal (discrete) iff:",
+  "choices": [
+    "∫A ≃ A",
+    "♭A ≃ A",
+    "♯A ≃ A",
+    "A ≃ ℝ"
+  ],
+  "answer": 1,
+  "explanation": "♭A ≃ A means A is already discrete — it has no cohesive structure beyond its points.",
+  "tags": [
+    "modal-HoTT",
+    "cohesion"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

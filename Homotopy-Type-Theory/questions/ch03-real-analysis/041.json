@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A function f: [a,b]→ℝ is Riemann integrable iff:",
+  "choices": [
+    "f is continuous",
+    "f is monotone",
+    "The set of discontinuities has measure zero",
+    "f is bounded and has finitely many discontinuities"
+  ],
+  "answer": 2,
+  "explanation": "Lebesgue's criterion: f is Riemann integrable iff it is bounded and its discontinuities form a null set.",
+  "tags": [
+    "riemann-integral",
+    "lebesgue-criterion"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "8e3396c2-dbc6-4a0c-a1e6-81b4dc970bb7"
+}

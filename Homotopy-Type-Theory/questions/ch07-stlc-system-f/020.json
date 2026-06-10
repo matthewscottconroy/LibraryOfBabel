@@ -1,0 +1,19 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "System F (polymorphic lambda calculus) is strongly normalising.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "System F is strongly normalising despite its expressive power; this was proved by Girard.",
+  "tags": [
+    "system-f",
+    "normalisation"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "abc5f96c-3b8a-4527-b8eb-5ce06636ec5a"
+}

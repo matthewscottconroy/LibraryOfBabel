@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Hopf fibration in HoTT is constructed using the join. The total space S³ is realised as:",
+  "choices": [
+    "S¹ * S¹",
+    "S² * S¹",
+    "S¹ × S¹",
+    "ΣS²"
+  ],
+  "answer": 0,
+  "explanation": "S³ ≃ S¹ * S¹ (join of two circles); the Hopf fibration S¹→S³→S² is defined via this join.",
+  "tags": [
+    "hopf-fibration",
+    "join",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "8df25193-5b3e-462c-8fbe-24928c8cb9f7"
+}

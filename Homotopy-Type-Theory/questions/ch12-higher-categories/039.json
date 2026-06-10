@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Segal condition for a simplicial space X is:",
+  "choices": [
+    "X is a Kan complex",
+    "The Segal maps Xₙ → X₁ ×_{X₀} ⋯ ×_{X₀} X₁ are equivalences",
+    "X is discrete",
+    "X satisfies the horn-filling condition"
+  ],
+  "answer": 1,
+  "explanation": "Segal: composition is essentially unique — the n-simplex data is equivalent to composable n-tuple of 1-simplices.",
+  "tags": [
+    "segal-condition",
+    "simplicial-space",
+    "higher-categories"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0c40d305-a6b7-4a0c-802c-a0561097d4c5"
+}

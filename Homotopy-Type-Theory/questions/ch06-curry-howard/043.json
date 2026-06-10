@@ -1,0 +1,21 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Curry-Howard correspondence was independently discovered by:",
+  "choices": [
+    "Curry and Church",
+    "Howard and Girard",
+    "Curry (1934/1958) for combinators and Howard (1969/1980) for natural deduction",
+    "Church and Turing"
+  ],
+  "answer": 2,
+  "explanation": "Curry noticed the connection between combinatory logic and Hilbert-style proofs; Howard extended it to natural deduction.",
+  "tags": [
+    "curry-howard",
+    "history"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "c23a7e27-ef34-4374-95bf-98da8f8a6dcd"
+}

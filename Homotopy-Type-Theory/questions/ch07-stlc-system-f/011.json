@@ -1,0 +1,19 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Reynolds' abstraction theorem (parametricity) says that polymorphic types carry ___ conditions on their inhabitants.",
+  "choices": [
+    "relational",
+    "free theorems",
+    "parametric"
+  ],
+  "answer": "relational",
+  "explanation": "Parametricity (Reynolds 1983): every polymorphic term satisfies a relational condition derived from its type. This gives 'free theorems' — properties guaranteed by the type alone.",
+  "tags": [
+    "System-F",
+    "parametricity"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "93a685bb-980f-48e7-a67f-35aea4d0399a"
+}

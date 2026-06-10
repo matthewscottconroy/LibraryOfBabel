@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Propositional resizing in HoTT states that every mere proposition in 𝒰₁ is equivalent to one in:",
+  "choices": [
+    "𝒰₂",
+    "𝒰₀",
+    "A fixed classical universe",
+    "The empty type"
+  ],
+  "answer": 1,
+  "explanation": "Propositional resizing: every (-1)-type in a higher universe is equivalent to one in 𝒰₀; this is a further axiom.",
+  "tags": [
+    "propositional-resizing",
+    "universe",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "c510c29a-a8de-4fad-91c3-41299aed7953"
+}

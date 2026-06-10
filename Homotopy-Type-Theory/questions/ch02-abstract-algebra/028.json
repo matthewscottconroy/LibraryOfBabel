@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The degree [K:F] of a field extension K/F is defined as:",
+  "choices": [
+    "the number of roots of the minimal polynomial",
+    "dimₐ(K) — the dimension of K as an F-vector space",
+    "the number of field automorphisms",
+    "the degree of the minimal polynomial of a generator"
+  ],
+  "answer": 1,
+  "explanation": "[K:F] = dimₐ(K). Tower law: [K:F]=[K:L][L:F] for intermediate field L. Finite Galois extensions satisfy [K:F]=|Gal(K/F)|.",
+  "tags": [
+    "algebra",
+    "fields"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "a93dd5a9-c64f-4196-8100-db64ea7b20fc"
+}

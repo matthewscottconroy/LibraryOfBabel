@@ -1,0 +1,20 @@
+{
+  "question_id": "415c8180-b6bd-4351-b824-334601c37367",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The disjunction property of IPC says: if ⊢ A ∨ B, then:",
+  "choices": [
+    "both ⊢ A and ⊢ B",
+    "⊢ A or ⊢ B",
+    "⊢ A ∧ B",
+    "neither is provable alone"
+  ],
+  "answer": 1,
+  "explanation": "Disjunction property: to prove A ∨ B constructively, you must commit to which disjunct holds.",
+  "tags": [
+    "intuitionistic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

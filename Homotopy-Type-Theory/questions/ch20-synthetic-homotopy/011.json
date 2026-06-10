@@ -1,0 +1,20 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "blank",
+  "text": "In HoTT, an n-type is a type whose identity types are all (n-1)-types. The type of all n-types is written ___.",
+  "choices": [
+    "n-Type",
+    "Type_n",
+    "n-Groupoid"
+  ],
+  "answer": "n-Type",
+  "explanation": "n-Type = Σ(A:U). isTrunc n A (the sub-universe of n-truncated types). The subuniverse is closed under limits and satisfies a universal property.",
+  "tags": [
+    "HoTT",
+    "h-levels",
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "ea952518-6f8f-491f-ac31-20586de15862"
+}

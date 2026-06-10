@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'directed univalence' axiom proposed for directed type theory would assert:",
+  "choices": [
+    "Equivalences and paths are the same",
+    "Isomorphisms between categories correspond to equalities of types (SIP for directed types)",
+    "All types are directed",
+    "The directed interval is contractible"
+  ],
+  "answer": 1,
+  "explanation": "Directed univalence: the analogue of UA for directed types — isomorphism of Segal types corresponds to equality.",
+  "tags": [
+    "directed-univalence",
+    "simplicial-type-theory",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "d3725e2e-64c1-44ad-9fc0-b37221d9cd82"
+}

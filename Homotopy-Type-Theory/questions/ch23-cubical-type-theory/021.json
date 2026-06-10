@@ -1,0 +1,21 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The Kan filling condition in CTT ensures that types are:",
+  "choices": [
+    "Contractible",
+    "Kan fibrations (all open boxes can be filled)",
+    "Definitionally equal to their identity types",
+    "Truncated at level 0"
+  ],
+  "answer": 1,
+  "explanation": "Kan types have composition (hcomp) and transport, making them fibrant.",
+  "tags": [
+    "cubical-type-theory",
+    "kan-filling"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f6a8cc16-9b45-435a-ab73-662e2044dc27"
+}

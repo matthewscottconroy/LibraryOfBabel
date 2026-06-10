@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, the 'join' of simplicial shapes is used to define:",
+  "choices": [
+    "Higher morphisms (n-simplices as n-fold joins of Δ¹)",
+    "Limits and colimits",
+    "Suspension types",
+    "Dependent types"
+  ],
+  "answer": 0,
+  "explanation": "Δⁿ ≅ Δ¹ ⋆ ⋯ ⋆ Δ¹ (n times); the join of directed intervals generates all simplex shapes.",
+  "tags": [
+    "simplicial-type-theory",
+    "join",
+    "simplex"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "c7976bba-2d1f-440c-a8ec-4b977168052c"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A proof system is consistent iff:",
+  "choices": [
+    "Every formula is provable",
+    "No formula is provable",
+    "Not every formula is provable (equivalently, ⊥ is not provable)",
+    "The system is complete"
+  ],
+  "answer": 2,
+  "explanation": "Consistency: ⊬⊥ (or equivalently, some formula is not provable, e.g. in classical logic ¬⊥=⊤ so ⊢⊤ but ⊬⊥).",
+  "tags": [
+    "consistency",
+    "proof-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "67c0dac8-8fa1-4960-b0cc-b164eac02bea"
+}

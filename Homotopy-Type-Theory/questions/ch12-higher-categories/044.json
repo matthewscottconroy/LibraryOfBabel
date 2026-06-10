@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An (∞,2)-category has morphisms at levels 0, 1, 2, with level-2 morphisms being:",
+  "choices": [
+    "All invertible",
+    "Not necessarily invertible",
+    "Trivial",
+    "Strict"
+  ],
+  "answer": 0,
+  "explanation": "(∞,2): 0-cells=objects, 1-cells=morphisms, 2-cells=2-morphisms, and all k-cells for k>2 are invertible.",
+  "tags": [
+    "infinity-2-category",
+    "higher-categories"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0ac0de6c-982b-4193-aab0-ff25be9f49ef"
+}

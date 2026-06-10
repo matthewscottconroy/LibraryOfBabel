@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which of the following spaces has π₁ ≅ ℤ?",
+  "choices": [
+    "S²",
+    "Dⁿ (n≥1)",
+    "S¹",
+    "ℝ²"
+  ],
+  "answer": 2,
+  "explanation": "π₁(S¹) ≅ ℤ (winding number); S², Dⁿ, ℝ² are all simply connected (π₁ = 0).",
+  "tags": [
+    "fundamental-group",
+    "circle",
+    "topology"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "f42bd3d0-0281-469b-9c7a-7580f03ec96b"
+}

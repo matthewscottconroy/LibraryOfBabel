@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Barycentric subdivision Sd(X) of a simplicial set X provides a functor used to show:",
+  "choices": [
+    "Sd is left adjoint to Ex",
+    "Sd is right adjoint to Ex",
+    "Sd is a Quillen equivalence",
+    "Sd = Ex"
+  ],
+  "answer": 0,
+  "explanation": "Sd ⊣ Ex (extension) is an adjunction; Ex^∞ fibrant-replaces simplicial sets.",
+  "tags": [
+    "subdivision",
+    "ex-functor",
+    "simplicial-set"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4b59d4db-6d54-4b9a-bf21-2beeaa7ed07c"
+}

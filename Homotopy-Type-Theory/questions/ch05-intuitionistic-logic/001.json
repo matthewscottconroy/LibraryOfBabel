@@ -1,0 +1,21 @@
+{
+  "question_id": "56b793d4-30e9-4bec-8663-9caea697bc8e",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Under the BHK interpretation, a proof of A ∧ B is:",
+  "choices": [
+    "a proof of A or a proof of B",
+    "a pair (proof of A, proof of B)",
+    "a function from proofs of A to proofs of B",
+    "a proof that A and B are equivalent"
+  ],
+  "answer": 1,
+  "explanation": "BHK: ∧-proof = pair, ∨-proof = tagged proof, →-proof = function, ⊥-proof = there is none.",
+  "tags": [
+    "intuitionistic",
+    "BHK"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

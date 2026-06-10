@@ -1,0 +1,19 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Every equivalence of categories is also an isomorphism of categories.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "An equivalence F: C→D requires F to be full, faithful, and essentially surjective — weaker than isomorphism which requires F to be a bijection on objects.",
+  "tags": [
+    "equivalence-of-categories",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "14d3555f-a987-4670-9df6-6798b9a3cfbb"
+}

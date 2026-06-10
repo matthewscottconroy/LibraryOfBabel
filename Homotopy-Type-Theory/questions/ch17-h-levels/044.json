@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "For a fibration P: A→Type where all P(a) are contractible, the total space Σ(x:A).P(x) is:",
+  "choices": [
+    "Empty",
+    "Contractible",
+    "Equivalent to A",
+    "A proposition"
+  ],
+  "answer": 2,
+  "explanation": "Σ(x:A).P(x) ≃ A when all P(x) are contractible (the fibres are contractible, so the fibration is trivial).",
+  "tags": [
+    "sigma-type",
+    "contractible",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d2e1f67a-a83a-40b2-a341-15e4439afcce"
+}

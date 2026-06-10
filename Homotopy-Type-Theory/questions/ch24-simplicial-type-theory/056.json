@@ -1,0 +1,21 @@
+{
+  "question_id": "626b0106-4c07-47a8-8164-250393ce9d57",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The key difference between ordinary HoTT and simplicial type theory is:",
+  "choices": [
+    "simplicial TT has no univalence",
+    "simplicial TT has directed morphisms (hom types) alongside undirected paths (identity types)",
+    "simplicial TT uses a different interval",
+    "simplicial TT is classical"
+  ],
+  "answer": 1,
+  "explanation": "HoTT has only symmetric paths (a=b). Simplicial TT adds directed morphisms hom_A(a,b) that need not be invertible, enabling synthetic (∞,1)-category theory.",
+  "tags": [
+    "simplicial-type-theory",
+    "directed"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

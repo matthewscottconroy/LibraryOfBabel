@@ -1,0 +1,21 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, `funExt` (function extensionality) is proved as:",
+  "choices": [
+    "An axiom",
+    "λ h i x → h x i  — by abstracting over the interval",
+    "By the J rule",
+    "By induction on the function"
+  ],
+  "answer": 1,
+  "explanation": "funExt h = λ i x → h x i : ∀ x → f x ≡ g x → f ≡ g. It works because paths are functions I→A.",
+  "tags": [
+    "cubical-agda",
+    "function-extensionality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "9ebf10d7-c9df-40a1-95f6-9b56fb2b5303"
+}

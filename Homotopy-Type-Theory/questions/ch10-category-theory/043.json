@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A reflective subcategory D ↪ C means:",
+  "choices": [
+    "The inclusion has a left adjoint (the reflector)",
+    "D = C",
+    "The inclusion is an equivalence",
+    "The inclusion has a right adjoint"
+  ],
+  "answer": 0,
+  "explanation": "Reflective: i:D↪C has a left adjoint L:C→D (the reflection); units η_A: A→L(A) are universal.",
+  "tags": [
+    "reflective-subcategory",
+    "adjunction",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0eeb5461-4ad4-4d69-b1b4-36cfd24008f1"
+}

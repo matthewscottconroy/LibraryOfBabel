@@ -1,0 +1,22 @@
+{
+  "question_id": "e84770d9-b537-4b0a-9b2b-d18f59c525be",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The suspension ΣA of A has constructors:",
+  "choices": [
+    "base : ΣA and loop : base = base",
+    "N : ΣA, S : ΣA, and merid(a) : N = S for each a : A",
+    "zero : ΣA and succ : ΣA → ΣA",
+    "inl : A → ΣA and inr : A → ΣA"
+  ],
+  "answer": 1,
+  "explanation": "Σ = suspension: north pole N, south pole S, and a meridian for each element of A connecting N to S.",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "suspension"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

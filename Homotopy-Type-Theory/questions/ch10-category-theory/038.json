@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An equivalence of categories F:C→D is witnessed by a functor G:D→C with:",
+  "choices": [
+    "FG=idD and GF=idC strictly",
+    "Natural isomorphisms FG≅idD and GF≅idC",
+    "F being bijective on objects",
+    "F being full only"
+  ],
+  "answer": 1,
+  "explanation": "Equivalence: natural isos FG≅id and GF≅id (not strict equality).",
+  "tags": [
+    "equivalence",
+    "category-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "ff672c99-1731-4d4d-96f5-d838aebea00e"
+}

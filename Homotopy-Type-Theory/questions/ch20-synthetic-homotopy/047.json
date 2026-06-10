@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The 'descent theorem' for ∞-toposes says that colimit-diagrams of types satisfy:",
+  "choices": [
+    "Colimits are computed levelwise",
+    "Colimits are van Kampen: a diagram in the universe is a colimit iff its fibres form colimits",
+    "Colimits don't exist",
+    "Colimits are products"
+  ],
+  "answer": 1,
+  "explanation": "Descent / van Kampen in ∞-toposes: universal colimits (pushouts are van Kampen squares).",
+  "tags": [
+    "descent",
+    "van-kampen",
+    "infinity-topos"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4b0297aa-45b3-4030-91e6-9ac5e9eb30f3"
+}

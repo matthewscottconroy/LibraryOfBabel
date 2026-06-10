@@ -1,0 +1,20 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Eilenberg-MacLane spaces K(G, n) are defined by: πₙ(K(G,n)) = G and:",
+  "choices": [
+    "πₖ(K(G,n)) = G for all k",
+    "πₖ(K(G,n)) = 0 for k ≠ n",
+    "K(G,n) is contractible",
+    "G must be abelian"
+  ],
+  "answer": 1,
+  "explanation": "K(G,n) is unique up to homotopy. πₙ = G and all other homotopy groups vanish. K(G,1) = classifying space BG. Cohomology with coefficients in G is represented by maps into K(G,n).",
+  "tags": [
+    "homotopy",
+    "Eilenberg-MacLane"
+  ],
+  "difficulty": "advanced",
+  "question_id": "340d6616-c5e8-4773-8398-63d4f4163424"
+}

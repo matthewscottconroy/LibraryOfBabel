@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In Coq, the Prop sort is:",
+  "choices": [
+    "The sort of computational types",
+    "The sort of proof-irrelevant propositions",
+    "The universe of all types",
+    "The sort for inductive types only"
+  ],
+  "answer": 1,
+  "explanation": "Prop in Coq is impredicative and proof-irrelevant (proof terms are erased at extraction).",
+  "tags": [
+    "coq",
+    "prop",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "dc83f1b1-f9d5-4775-94df-daae222a408e"
+}

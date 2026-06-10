@@ -1,0 +1,19 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A topological space X is Hausdorff (T₂) iff:",
+  "choices": [
+    "every sequence has at most one limit",
+    "any two distinct points have disjoint neighbourhoods",
+    "X is metrizable",
+    "every continuous function on X is bounded"
+  ],
+  "answer": 1,
+  "explanation": "T₂ (Hausdorff): for x≠y, there exist open U∋x and V∋y with U∩V=∅. Hausdorff spaces have unique limits for convergent sequences/filters.",
+  "tags": [
+    "topology"
+  ],
+  "difficulty": "beginner",
+  "question_id": "ab912f65-ae83-4763-8771-c87727fb2fab"
+}

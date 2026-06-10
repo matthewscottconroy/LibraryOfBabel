@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "For a type A, which condition implies A is contractible?",
+  "choices": [
+    "A is non-empty",
+    "A has a point and all paths from that point to any other point (a:A with Π(x:A).a=x)",
+    "A is a set",
+    "A is a proposition and inhabited"
+  ],
+  "answer": 1,
+  "explanation": "isContr(A) = Σ(a:A).Π(x:A).a=x: a center and contraction.",
+  "tags": [
+    "contractible",
+    "h-level"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "1667dae3-dddd-4a67-8ea5-17127ef71098"
+}

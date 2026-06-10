@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The cohomology operation Sq² (Steenrod square) in synthetic homotopy theory arises from:",
+  "choices": [
+    "the cup product structure",
+    "symmetry of the join: the flip involution on A*A and its effect on cohomology",
+    "the Hopf fibration",
+    "transport along loops"
+  ],
+  "answer": 1,
+  "explanation": "The Steenrod square Sq² can be constructed in HoTT using the cofiber of the fold map ΣA → A * A / flip. This is part of the synthetic approach to stable homotopy operations.",
+  "tags": [
+    "HoTT",
+    "homotopy",
+    "Steenrod"
+  ],
+  "difficulty": "advanced",
+  "question_id": "5244dfa1-cda1-4c68-8b14-8713e20a0eec"
+}

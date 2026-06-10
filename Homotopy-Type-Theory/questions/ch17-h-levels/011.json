@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A group G (in HoTT) is defined as an h-set with group operations. Why the h-set requirement?",
+  "choices": [
+    "Groups must be finite",
+    "Without h-set, the group axioms are not unique (multiple proofs of commutativity)",
+    "H-sets are more computationally efficient",
+    "It follows from Lagrange's theorem"
+  ],
+  "answer": 1,
+  "explanation": "If G were not a set, the carrier would have higher homotopy, and there could be multiple inequivalent proofs of the group axioms. The h-set condition ensures a 'discrete' algebraic structure.",
+  "tags": [
+    "HoTT",
+    "h-levels",
+    "algebra"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "0aa5f32c-ac21-4efd-a223-fa045f018f1b"
+}

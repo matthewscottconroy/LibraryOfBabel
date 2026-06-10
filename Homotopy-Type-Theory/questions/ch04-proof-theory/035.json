@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Cut elimination (Gentzen's Hauptsatz) for LK states:",
+  "choices": [
+    "Every proof can be normalised to remove all cuts",
+    "Every proof is cut-free by definition",
+    "The cut rule is admissible but not eliminable",
+    "Cut elimination is equivalent to completeness"
+  ],
+  "answer": 0,
+  "explanation": "Hauptsatz: every LK proof can be transformed into a cut-free proof.",
+  "tags": [
+    "cut-elimination",
+    "sequent-calculus"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "1ad71915-0fa2-4007-ad19-95dfdea94e27"
+}

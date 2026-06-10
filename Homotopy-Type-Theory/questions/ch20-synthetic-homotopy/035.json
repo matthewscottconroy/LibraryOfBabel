@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In synthetic homotopy theory, the statement 'X is n-connected' means:",
+  "choices": [
+    "πₖ(X)=0 for all k",
+    "πₖ(X)=0 for k≤n (the n-truncation ‖X‖ₙ is contractible)",
+    "X has n connected components",
+    "X is n-truncated"
+  ],
+  "answer": 1,
+  "explanation": "n-connected: ‖X‖ₙ is contractible, equivalently πₖ(X)=0 for k≤n.",
+  "tags": [
+    "synthetic-homotopy",
+    "connected",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "63e0d0ab-2266-4b9b-96fe-243ca42a53c2"
+}

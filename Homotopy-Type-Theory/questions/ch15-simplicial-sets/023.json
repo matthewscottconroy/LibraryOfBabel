@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The singular simplicial set Sing(X) of a topological space X has n-simplices:",
+  "choices": [
+    "Continuous maps Δⁿ→X",
+    "Homotopy classes of maps Δⁿ→X",
+    "Singular chains in Cₙ(X)",
+    "Cells in a CW structure on X"
+  ],
+  "answer": 0,
+  "explanation": "Sing(X)_n = Top(|Δ[n]|, X); the counit |Sing(X)|→X is a weak homotopy equivalence.",
+  "tags": [
+    "singular-simplicial-set",
+    "simplicial-set"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "9722eb30-c2d1-4578-aea4-05c046eb90cf"
+}

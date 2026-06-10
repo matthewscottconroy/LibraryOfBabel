@@ -1,0 +1,20 @@
+{
+  "question_id": "8574f6a9-dba0-4e89-9f88-8cdbdddc2c14",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The key difference between CCHM and Cartesian cubical type theory is:",
+  "choices": [
+    "CCHM uses univalence as an axiom; Cartesian does not",
+    "CCHM has a De Morgan algebra on I (with ~, ∧, ∨); Cartesian uses only the product structure",
+    "Cartesian cubical TT has canonicity; CCHM does not",
+    "They are equivalent in all respects"
+  ],
+  "answer": 1,
+  "explanation": "CCHM has complement ~, giving definitional reversal. Cartesian cubical TT is simpler (no ~) but loses definitional reversal.",
+  "tags": [
+    "cubical-TT"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

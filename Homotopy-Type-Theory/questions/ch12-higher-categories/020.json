@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Kan complexes are fibrant objects in the Quillen model structure on sSet. They model:",
+  "choices": [
+    "Strict ω-groupoids",
+    "∞-groupoids (all morphisms invertible at all dimensions)",
+    "∞-categories",
+    "Simplicial groups"
+  ],
+  "answer": 1,
+  "explanation": "Kan complexes have all horn fillers; they present ∞-groupoids (= homotopy types).",
+  "tags": [
+    "kan-complex",
+    "infinity-groupoid"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "18bc4148-5447-4fe7-be0e-312b5566eae1"
+}

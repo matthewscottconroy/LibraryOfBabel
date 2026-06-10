@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The universe 𝒰₀ in HoTT has h-level:",
+  "choices": [
+    "0 (set)",
+    "1 (groupoid)",
+    "2 (2-groupoid)",
+    "No finite h-level"
+  ],
+  "answer": 3,
+  "explanation": "𝒰 is not an n-type for any finite n: there exist types of arbitrarily high h-level, so 𝒰 has no bounded h-level.",
+  "tags": [
+    "universe",
+    "h-level"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "d910c651-d89c-48cc-8560-5290f830296e"
+}

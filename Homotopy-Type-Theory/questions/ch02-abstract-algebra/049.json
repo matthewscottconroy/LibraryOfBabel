@@ -1,0 +1,19 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every subgroup of an abelian group is normal.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "In an abelian group, ghg⁻¹=h for all g,h, so every subgroup satisfies the normality condition.",
+  "tags": [
+    "abelian-group",
+    "normal-subgroup"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "e77d5603-4a6c-46d2-8456-97b89f218ae2"
+}

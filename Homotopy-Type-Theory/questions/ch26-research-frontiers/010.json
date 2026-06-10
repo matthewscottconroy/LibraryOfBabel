@@ -1,0 +1,21 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The Agda library 'HoTT-Agda' (Brunerie et al.) versus the 'Cubical' library differ mainly in that:",
+  "choices": [
+    "HoTT-Agda uses axioms (univalence is an axiom); Cubical uses definitional univalence",
+    "HoTT-Agda is for topology; Cubical is for algebra",
+    "HoTT-Agda is in Lean 4",
+    "they are identical"
+  ],
+  "answer": 0,
+  "explanation": "HoTT-Agda postulates univalence and funext (no computation rules). The cubical library (--cubical) has computational univalence (via Glue). The cubical approach is more robust but requires Cubical Agda.",
+  "tags": [
+    "research",
+    "Agda",
+    "Cubical-Agda"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "e976555b-515f-4895-81b9-4963109bbb19"
+}

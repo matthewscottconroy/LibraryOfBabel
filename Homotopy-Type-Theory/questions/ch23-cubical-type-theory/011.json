@@ -1,0 +1,20 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The Kan filling condition in a cubical model category says: open boxes (partial cubes) have:",
+  "choices": [
+    "no fillers",
+    "a contractible space of fillers (unique up to homotopy)",
+    "exactly two fillers",
+    "fillers only for inner horns"
+  ],
+  "answer": 1,
+  "explanation": "Kan filling: any open box (a cube with one face missing) has a contractible type of fillers. This is the computational analogue of the Kan extension / horn filling condition.",
+  "tags": [
+    "cubical-TT",
+    "Kan"
+  ],
+  "difficulty": "advanced",
+  "question_id": "16b69ef9-9d75-4ea5-a4d3-e9c65bc4cf5d"
+}

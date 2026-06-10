@@ -1,0 +1,23 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'two-level type theory' (2LTT) by Voevodsky is used as:",
+  "choices": [
+    "A foundation for physics",
+    "A metatheory for HoTT, having a strict inner layer for reasoning about models and a fibrant outer layer",
+    "A way to combine classical and intuitionistic logic",
+    "An alternative to cubical TT"
+  ],
+  "answer": 1,
+  "explanation": "2LTT has a strict layer (with K axiom) for meta-reasoning about types and a fibrant layer (HoTT).",
+  "tags": [
+    "2ltt",
+    "metatheory",
+    "hott",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "6ab6d645-a425-4c6e-8e22-a00b2831251f"
+}

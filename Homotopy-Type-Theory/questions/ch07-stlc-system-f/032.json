@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which reduction strategy is guaranteed to find a normal form if one exists?",
+  "choices": [
+    "Applicative-order (call by value)",
+    "Normal-order (leftmost-outermost)",
+    "Call by need",
+    "Random selection"
+  ],
+  "answer": 1,
+  "explanation": "Normal-order reduction is a normalising strategy by the standardisation theorem.",
+  "tags": [
+    "reduction-strategy",
+    "lambda-calculus"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "9cbeefa9-c28a-4165-abcd-8680add6206d"
+}

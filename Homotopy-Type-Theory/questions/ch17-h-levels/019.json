@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A mere proposition (h-level -1 / 1) is a type A satisfying:",
+  "choices": [
+    "A is inhabited",
+    "Any two elements of A are equal: ∀(x y:A). x=y",
+    "A has at most two elements",
+    "A is contractible"
+  ],
+  "answer": 1,
+  "explanation": "isProp(A) = Π(x y:A). x=y.",
+  "tags": [
+    "proposition",
+    "h-level"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "6f4937ca-27bd-460f-9c78-9d8d6359e07d"
+}

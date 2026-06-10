@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The nerve of a small category C is a simplicial set whose n-simplices are:",
+  "choices": [
+    "Objects of C",
+    "Morphisms of C",
+    "Composable chains of n morphisms in C",
+    "Natural transformations"
+  ],
+  "answer": 2,
+  "explanation": "NC_n = { composable sequences A₀→A₁→⋯→Aₙ }.",
+  "tags": [
+    "nerve",
+    "simplicial-set",
+    "category-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "34274ee4-33bd-4002-afd3-333ad03dde89"
+}

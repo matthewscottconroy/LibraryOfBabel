@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The characteristic of a ring R is:",
+  "choices": [
+    "The dimension of R as a vector space",
+    "The smallest positive n such that n·1=0 (or 0 if none)",
+    "The number of units in R",
+    "The number of maximal ideals"
+  ],
+  "answer": 1,
+  "explanation": "char(R) = min{n>0 : n·1_R=0} or 0 if no such n exists.",
+  "tags": [
+    "characteristic",
+    "ring-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "14365d36-10f0-4b46-a466-45c97c84ab84"
+}

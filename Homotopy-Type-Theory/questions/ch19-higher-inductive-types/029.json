@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which theorem in HoTT is established using HITs (specifically the circle S¹)?",
+  "choices": [
+    "Univalence axiom",
+    "π₁(S¹) ≅ ℤ",
+    "The Seifert-van Kampen theorem",
+    "Both B and C"
+  ],
+  "answer": 3,
+  "explanation": "Both π₁(S¹)≅ℤ and the HoTT van Kampen theorem are proved using HITs.",
+  "tags": [
+    "hit",
+    "pi1-circle",
+    "van-kampen"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b83cc0d2-0660-43ab-a07e-2a0cf1831b4b"
+}

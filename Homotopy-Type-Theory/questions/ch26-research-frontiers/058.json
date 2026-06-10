@@ -1,0 +1,22 @@
+{
+  "question_id": "6dc15054-3a07-4731-a2e7-3b3943d508e9",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Which of the following is an open problem in HoTT as of 2025?",
+  "choices": [
+    "whether π₁(S¹) = ℤ (already proved)",
+    "coherence for general HITs (that arbitrary HIT elimination rules are consistent)",
+    "whether univalence is consistent (already proved via simplicial set model)",
+    "function extensionality (already follows from univalence)"
+  ],
+  "answer": 1,
+  "explanation": "General HIT coherence: it is not fully proved that all HITs with arbitrary path constructors can be realized in all models. Specific HITs (circle, pushouts, truncations) are fine.",
+  "tags": [
+    "hit",
+    "research-frontiers",
+    "open-problems"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

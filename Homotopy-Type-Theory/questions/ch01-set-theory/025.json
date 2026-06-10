@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The constructible universe L (Gödel) is defined by transfinite recursion: L₀=∅, Lα+1 = the set of subsets of Lα definable by a first-order formula. Gödel showed:",
+  "choices": [
+    "L is a proper class and a model of ZFC + GCH + AC",
+    "L is uncountable",
+    "L = V (every set is constructible)",
+    "L contains only ordinals"
+  ],
+  "answer": 0,
+  "explanation": "Gödel (1938): L is an inner model of ZFC+AC+GCH. In L, the Axiom of Choice and Generalised Continuum Hypothesis hold. This shows ZFC+AC+GCH is consistent if ZFC is.",
+  "tags": [
+    "set-theory",
+    "L"
+  ],
+  "difficulty": "advanced",
+  "question_id": "8c6f1814-6fa1-490d-9c4d-902314130233"
+}

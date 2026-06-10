@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The n-truncation of a type A, written ‖A‖ₙ, satisfies: isHLevel(______, ‖A‖ₙ).",
+  "choices": [
+    "n",
+    "n+1",
+    "n-1",
+    "0"
+  ],
+  "answer": "n",
+  "explanation": "‖A‖ₙ has h-level exactly n (is an n-type); the truncation collapses all homotopy above level n.",
+  "tags": [
+    "truncation",
+    "h-level"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "f20e8a56-64e1-4fd1-8bc7-31f9be7debb6"
+}

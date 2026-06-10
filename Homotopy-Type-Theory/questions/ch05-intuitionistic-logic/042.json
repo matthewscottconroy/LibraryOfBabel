@@ -1,0 +1,22 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which of the following is a theorem in IPC but NOT in minimal logic?",
+  "choices": [
+    "A→A",
+    "A→(B→A)",
+    "¬A→(A→B) (ex falso quodlibet)",
+    "(A→B)→((A→¬B)→¬A)"
+  ],
+  "answer": 2,
+  "explanation": "Ex falso (⊥→B) is added to minimal logic to get intuitionistic logic; minimal logic lacks it.",
+  "tags": [
+    "ipc",
+    "minimal-logic",
+    "ex-falso"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "2bf8cfbe-15da-480a-bbc9-a4290a157ae7"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The poset of subobjects of an object A in a topos is a ______.",
+  "choices": [
+    "Heyting algebra",
+    "Boolean algebra",
+    "Lattice only",
+    "Partial order only"
+  ],
+  "answer": "Heyting algebra",
+  "explanation": "Sub(A) is always a Heyting algebra in any topos (it need not be Boolean).",
+  "tags": [
+    "subobject",
+    "topos",
+    "heyting-algebra"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "bf7ba230-e0b7-4f7d-95d1-5d27986fbde6"
+}

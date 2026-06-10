@@ -1,0 +1,21 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Condensed mathematics (Clausen-Scholze) is relevant to HoTT research because:",
+  "choices": [
+    "it uses cubical type theory",
+    "condensed sets provide a possible cohesive site for modelling cohesive HoTT with better analysis properties",
+    "it is a proof assistant",
+    "it proves the Blakers-Massey theorem"
+  ],
+  "answer": 1,
+  "explanation": "Condensed sets (sheaves on the category of profinite sets) have excellent properties for analysis. They are proposed as a foundation for 'analytic geometry', and may provide models for differential/cohesive HoTT.",
+  "tags": [
+    "research",
+    "cohesion",
+    "condensed-mathematics"
+  ],
+  "difficulty": "advanced",
+  "question_id": "94144893-d384-448d-9d05-d559b94758b2"
+}

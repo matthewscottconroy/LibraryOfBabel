@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Coq's 'impredicative Prop' means that:",
+  "choices": [
+    "Prop:Prop (Prop is its own type)",
+    "∀(P:Prop).P lives in Prop (universal quantification over Prop stays in Prop)",
+    "All proofs in Prop are equal",
+    "Prop contains all types"
+  ],
+  "answer": 1,
+  "explanation": "Impredicative Prop: ∀(P:Prop).F(P):Prop even though we quantify over all Prop; this is safe due to proof irrelevance.",
+  "tags": [
+    "coq",
+    "prop",
+    "impredicativity"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "019851e3-0c8d-4e61-be15-4aefea3621dd"
+}

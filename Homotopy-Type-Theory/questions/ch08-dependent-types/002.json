@@ -1,0 +1,21 @@
+{
+  "question_id": "286963b1-24ec-41a0-8a2f-16ce283d1934",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Π type Π(x:A). B(x) generalises:",
+  "choices": [
+    "The product type A × B",
+    "The sum type A + B",
+    "The function type A → B",
+    "The unit type"
+  ],
+  "answer": 2,
+  "explanation": "When B is constant (B(x) = B), Π(x:A).B(x) = A → B. The Π type adds dependency.",
+  "tags": [
+    "dependent-types",
+    "pi-types"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

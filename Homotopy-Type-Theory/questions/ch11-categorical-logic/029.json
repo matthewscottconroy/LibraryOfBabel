@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The classifying topos of a geometric theory T is the topos:",
+  "choices": [
+    "Whose points are models of T in Set",
+    "That classifies T-models in any topos (universal model)",
+    "That is the terminal topos",
+    "Whose internal logic is T"
+  ],
+  "answer": 1,
+  "explanation": "Set[T] is the classifying topos: Topos(E, Set[T]) ≃ Models(T, E) naturally in E.",
+  "tags": [
+    "classifying-topos",
+    "geometric-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "8c2485d3-2b17-4b35-a13c-0f1e09d0cddb"
+}

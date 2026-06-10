@@ -1,0 +1,5 @@
+The discipline of formal logic begins with an act of deliberate impoverishment. We strip away all content — all meaning, all context, all contingency — and ask: what remains? What we find is *structure*. A propositional formula like φ → (ψ → φ) is true not because of what φ and ψ say about the world, but because of the shape of the argument. Structure is what survives when everything else is removed.
+
+This section develops propositional logic as a formal system: its syntax (which expressions are well-formed), its semantics (what it means for a formula to be true), and the connection between them. The key theorem — completeness — says that the two notions of validity, the semantic and the syntactic, are coextensive.
+
+Keep one thread visible throughout: propositional logic is not the end. The connectives — conjunction, disjunction, implication, negation — are the type-forming operations of a programming language. The proofs are the programs. What we build here is the simplest version of a correspondence that grows, through predicate logic, dependent types, and the Curry-Howard isomorphism, into the foundation of automated theorem proving.

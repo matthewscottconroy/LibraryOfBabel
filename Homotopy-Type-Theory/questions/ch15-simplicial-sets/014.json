@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Joyal model structure on sSet (for quasi-categories) has as fibrant objects:",
+  "choices": [
+    "Kan complexes",
+    "quasi-categories (inner Kan complexes)",
+    "all simplicial sets",
+    "nerves of small categories"
+  ],
+  "answer": 1,
+  "explanation": "Joyal model structure: fibrant = quasi-categories. Weak equivalences = Joyal equivalences (DK-equivalences). This models (∞,1)-categories, not spaces.",
+  "tags": [
+    "simplicial-sets",
+    "quasi-categories",
+    "model-structure"
+  ],
+  "difficulty": "advanced",
+  "question_id": "713d70ec-530b-4f82-bb5a-1892080f4e25"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "How does Simplicial TT relate to HoTT?",
+  "choices": [
+    "They are the same theory",
+    "HoTT is the subtheory of Simplicial TT where all types are Rezk groupoids (invertible morphisms)",
+    "Simplicial TT is strictly weaker",
+    "HoTT and Simplicial TT have incompatible semantics"
+  ],
+  "answer": 1,
+  "explanation": "Simplicial TT extends HoTT: setting all morphisms invertible (groupoid condition) recovers HoTT.",
+  "tags": [
+    "simplicial-type-theory",
+    "hott",
+    "comparison"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "1500c844-d357-4ec9-8ce0-54d31ac94edf"
+}

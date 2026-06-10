@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which of the following is a direct consequence of univalence?",
+  "choices": [
+    "LEM (law of excluded middle)",
+    "Propositional extensionality: (P ↔ Q) → P = Q for propositions",
+    "Axiom K",
+    "UIP for all types"
+  ],
+  "answer": 1,
+  "explanation": "Univalence implies propositional extensionality: equivalent propositions are equal in 𝒰.",
+  "tags": [
+    "propositional-extensionality",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "bba782b5-0581-4809-8def-636e33a7d122"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The left-exact (lex) modalities in HoTT are those that:",
+  "choices": [
+    "preserve all colimits",
+    "preserve finite limits (in particular, preserve pullbacks and the terminal object)",
+    "are idempotent",
+    "preserve propositions only"
+  ],
+  "answer": 1,
+  "explanation": "A lex modality ○ preserves pullbacks: ○(A×_C B) ≃ ○A×_{○C} ○B. The modalities ♭, ♯, ∫ in cohesive HoTT are all lex.",
+  "tags": [
+    "modal-HoTT",
+    "modalities"
+  ],
+  "difficulty": "advanced",
+  "question_id": "84b593c4-5aff-481b-8d00-9eaf10fc68e9"
+}

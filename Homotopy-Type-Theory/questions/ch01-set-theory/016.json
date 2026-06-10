@@ -1,0 +1,18 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every well-ordered set is isomorphic to a unique ordinal.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The well-ordering theorem (equivalent to AC over ZF): every set can be well-ordered. Every well-ordered set is order-isomorphic to a unique ordinal.",
+  "tags": [
+    "set-theory",
+    "ordinals"
+  ],
+  "difficulty": "advanced",
+  "question_id": "be267bca-cd28-4b06-8ee0-c2fa2dcf3442"
+}

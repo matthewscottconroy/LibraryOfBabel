@@ -1,0 +1,21 @@
+{
+  "question_id": "3445ee01-63f8-4525-a3ba-47a5fc16c0d5",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The synthetic Yoneda lemma in simplicial type theory states:",
+  "choices": [
+    "Every presheaf is representable",
+    "For a Segal type A and a:A, the natural map (A→U) → (a=−) is an equivalence",
+    "Hom(A, −) preserves limits in any ∞-category",
+    "Every functor between Segal types has a left adjoint"
+  ],
+  "answer": 1,
+  "explanation": "The synthetic Yoneda lemma (Riehl-Shulman): for any covariant functor F:A→U in a Segal type A, Nat(hom(a,−), F) ≃ F(a). Proved entirely within simplicial type theory.",
+  "tags": [
+    "simplicial-TT",
+    "Yoneda"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

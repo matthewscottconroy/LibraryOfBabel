@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The structure identity principle (SIP) for rings states: two rings (R,+,*) and (S,+,*) are equal in the type of rings iff:",
+  "choices": [
+    "They are isomorphic as sets",
+    "They are isomorphic as rings (ring isomorphism)",
+    "They have the same cardinality",
+    "They are equal as sets"
+  ],
+  "answer": 1,
+  "explanation": "SIP via univalence: equality of structured types ≃ isomorphism of structures.",
+  "tags": [
+    "sip",
+    "univalence",
+    "rings"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "139b34de-844e-40ef-9280-68686cd28631"
+}

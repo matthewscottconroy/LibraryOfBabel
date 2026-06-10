@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A 2-category has objects, morphisms, and 2-morphisms. An example is Cat, where 2-morphisms are:",
+  "choices": [
+    "Adjunctions",
+    "Natural transformations",
+    "Functors",
+    "Objects of functor categories"
+  ],
+  "answer": 1,
+  "explanation": "Cat = category of (small) categories: 0-cells=cats, 1-cells=functors, 2-cells=natural transformations.",
+  "tags": [
+    "2-category",
+    "higher-categories",
+    "natural-transformation"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "8f1dd29d-aa44-4739-a451-6d415b93359f"
+}

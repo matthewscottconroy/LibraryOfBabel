@@ -1,0 +1,21 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The Mathlib4 'Finset.sum_comm' lemma says: for a double sum ∑ i, ∑ j, f i j,",
+  "choices": [
+    "the sum equals 0",
+    "the order of summation can be exchanged: ∑ i, ∑ j, f i j = ∑ j, ∑ i, f i j",
+    "the sum is always finite",
+    "f must be symmetric"
+  ],
+  "answer": 1,
+  "explanation": "Finset.sum_comm: ∑ i ∈ s, ∑ j ∈ t, f i j = ∑ j ∈ t, ∑ i ∈ s, f i j. This is the Fubini / commutativity of finite sums.",
+  "tags": [
+    "Lean4",
+    "Mathlib",
+    "algebra"
+  ],
+  "difficulty": "advanced",
+  "question_id": "036e0a4b-ac4d-453f-981f-5c701f4b26e3"
+}

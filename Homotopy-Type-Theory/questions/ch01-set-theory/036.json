@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The axiom of foundation (regularity) states that every non-empty set A contains an element x such that:",
+  "choices": [
+    "x ∈ A and x ∉ A",
+    "x ∩ A = ∅",
+    "x ⊆ A",
+    "x = A"
+  ],
+  "answer": 1,
+  "explanation": "Foundation prevents infinite descending ∈-chains: every non-empty A has an ∈-minimal element (x∩A=∅).",
+  "tags": [
+    "foundation",
+    "zfc"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "bd84a59e-b0c3-4b00-8df4-dba7fc3a5b40"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "7a2738f6-3c2c-42e3-9e1c-1cdf012892f5",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The fundamental group π₁(S¹, base) is isomorphic to:",
+  "choices": [
+    "ℤ/2ℤ",
+    "ℚ",
+    "ℤ",
+    "the trivial group"
+  ],
+  "answer": 2,
+  "explanation": "π₁(S¹) = ℤ. The generator is the loop going once around; winding number counts traversals.",
+  "tags": [
+    "homotopy",
+    "fundamental-group"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

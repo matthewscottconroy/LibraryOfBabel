@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Sequent calculus for intuitionistic logic LJ differs from classical LK in that the succedent:",
+  "choices": [
+    "may contain at most one formula",
+    "may contain any number of formulas",
+    "must be a conjunction",
+    "must be empty"
+  ],
+  "answer": 0,
+  "explanation": "LJ (intuitionistic): the succedent Γ⊢A has at most one formula on the right. This restriction (Gentzen) corresponds to the constructive requirement that proofs produce specific witnesses.",
+  "tags": [
+    "proof-theory",
+    "sequent-calculus",
+    "intuitionistic"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "a8389fa5-e890-41f1-a8df-044adbc5f4cf"
+}

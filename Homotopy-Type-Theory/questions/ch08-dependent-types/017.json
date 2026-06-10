@@ -1,0 +1,20 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The induction principle for the natural numbers in MLTT is the dependent eliminator with motive:",
+  "choices": [
+    "P : ℕ → Type (a type family over ℕ)",
+    "P : Prop (a proposition only)",
+    "P : ℕ → ℕ (a function on naturals)",
+    "P : Type (a constant type)"
+  ],
+  "answer": 0,
+  "explanation": "The ℕ eliminator has motive P:ℕ→U (a type family). For the base: d₀:P(0); for the step: dₛ:Π(n:ℕ).P(n)→P(S n). This unifies recursion (P constant) and induction (P propositions).",
+  "tags": [
+    "dependent-types",
+    "MLTT"
+  ],
+  "difficulty": "advanced",
+  "question_id": "f67518d6-aa5b-4d88-9fa5-4009b5d3904a"
+}

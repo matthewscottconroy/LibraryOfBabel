@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In natural deduction, a proof is in normal form when it contains no ______.",
+  "choices": [
+    "detours (introduction followed immediately by elimination of the same connective)",
+    "atomic formulas",
+    "hypotheses",
+    "axioms"
+  ],
+  "answer": "detours (introduction followed immediately by elimination of the same connective)",
+  "explanation": "Normalisation eliminates intro-elim detours (β-redexes in the Curry-Howard correspondence).",
+  "tags": [
+    "normalisation",
+    "natural-deduction"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "45fe93ab-bc88-47e2-be54-e2b18ec3c404"
+}

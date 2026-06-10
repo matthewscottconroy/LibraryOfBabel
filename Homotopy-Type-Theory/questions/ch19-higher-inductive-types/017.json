@@ -1,0 +1,18 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Every ordinary inductive type can be seen as a HIT with no path constructors.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "An ordinary inductive type (like ℕ) has no path constructors — only point constructors. It is a degenerate HIT. HITs generalise by allowing path constructors.",
+  "tags": [
+    "HoTT",
+    "HITs"
+  ],
+  "difficulty": "beginner",
+  "question_id": "fa297859-2ec9-4d2c-9358-1142ad4b06c1"
+}

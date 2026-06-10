@@ -1,0 +1,21 @@
+{
+  "question_id": "524a9168-fe3d-4cca-8fc6-c913b1d97ed5",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In cohesive homotopy type theory, the shape modality ∫ sends a cohesive type to:",
+  "choices": [
+    "its underlying set of points",
+    "its discrete reflection (forgetting cohesive structure)",
+    "its fundamental ∞-groupoid (the 'homotopy type' of the space)",
+    "its de Rham complex"
+  ],
+  "answer": 2,
+  "explanation": "∫A (shape of A) is the underlying homotopy type: it collapses connected components to points and forgets the geometric/cohesive structure. ♭A gives the discrete reflection, ♯A gives the codiscrete.",
+  "tags": [
+    "modal-HoTT",
+    "cohesion"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

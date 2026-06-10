@@ -1,0 +1,21 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'higher topos theory' programme (Lurie 2009) is relevant to HoTT because:",
+  "choices": [
+    "it provides a model of classical logic",
+    "∞-toposes serve as the semantic models for HoTT (they satisfy the Giraud axioms at the ∞-level)",
+    "it eliminates the need for proof assistants",
+    "it provides models only for cubical type theory"
+  ],
+  "answer": 1,
+  "explanation": "Lurie's ∞-toposes satisfy ∞-analogues of the Giraud axioms. Voevodsky's conjecture (and Shulman's recent work) shows that ∞-toposes are the intended models for HoTT, connecting type theory to higher categorical semantics.",
+  "tags": [
+    "research",
+    "infinity-topos",
+    "models"
+  ],
+  "difficulty": "advanced",
+  "question_id": "3972052f-03bc-40ac-a0a7-7f62c03c510f"
+}

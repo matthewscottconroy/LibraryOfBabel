@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `match` expressions are used for:",
+  "choices": [
+    "Importing modules",
+    "Pattern matching (case analysis)",
+    "Calling external programs",
+    "Only for inductive types"
+  ],
+  "answer": 1,
+  "explanation": "`match t with | pat₁ => e₁ | pat₂ => e₂` performs pattern matching.",
+  "tags": [
+    "lean4",
+    "pattern-matching",
+    "term-mode"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "bb544695-966f-486d-92b2-6787d8032642"
+}

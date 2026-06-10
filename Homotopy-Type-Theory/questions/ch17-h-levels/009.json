@@ -1,0 +1,19 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The propositional truncation of A, written ∥A∥ or ‖A‖, is the ___ proposition that A maps into.",
+  "choices": [
+    "smallest",
+    "least",
+    "initial"
+  ],
+  "answer": "smallest",
+  "explanation": "∥A∥ is initial among propositions P with maps A→P: the universal property says Hom(A,P) ≅ Hom(∥A∥,P) for props P. It removes all homotopy content from A.",
+  "tags": [
+    "HoTT",
+    "truncation"
+  ],
+  "difficulty": "beginner",
+  "question_id": "5f89115c-82c1-4e76-8258-35e1e1e4a020"
+}

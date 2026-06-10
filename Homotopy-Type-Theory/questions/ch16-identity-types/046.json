@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The loop space Ωⁿ(A,a) for n≥2 is:",
+  "choices": [
+    "Non-abelian",
+    "Abelian (by Eckmann-Hilton)",
+    "Trivial",
+    "Always ℤ"
+  ],
+  "answer": 1,
+  "explanation": "Eckmann-Hilton: Ωⁿ for n≥2 is abelian since two independent group structures on the same set coincide and are abelian.",
+  "tags": [
+    "loop-space",
+    "eckmann-hilton",
+    "identity-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "32a447c9-4ad8-46fc-b7e8-139ae396cc53"
+}

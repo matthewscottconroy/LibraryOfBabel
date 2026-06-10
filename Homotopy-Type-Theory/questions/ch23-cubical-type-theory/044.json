@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Which result showed that Cubical Agda (CTT) is consistent?",
+  "choices": [
+    "Gentzen's cut elimination",
+    "The cubical set model of CCHM (Huber's thesis / Cohen et al.)",
+    "Classical set theory",
+    "Gödel's completeness theorem"
+  ],
+  "answer": 1,
+  "explanation": "Consistency of CCHM CTT is established via the cubical set model, proving the axioms hold.",
+  "tags": [
+    "cubical-type-theory",
+    "consistency",
+    "model"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "6ffe12dd-665b-4882-9d3b-0ffb557495dd"
+}

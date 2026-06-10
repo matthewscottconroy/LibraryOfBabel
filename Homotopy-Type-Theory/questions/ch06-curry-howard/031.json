@@ -1,0 +1,18 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The Curry-Howard correspondence implies that checking well-typedness of a term is equivalent to checking the validity of a proof.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Type checking (is t:T?) ↔ proof checking (is the derivation valid?). In STLC both are decidable. In dependent types, checking may involve definitional equality (decidable in MLTT).",
+  "tags": [
+    "curry-howard",
+    "type-checking"
+  ],
+  "difficulty": "beginner",
+  "question_id": "b7a4d919-af7b-4a8d-8cfb-542a29fc53ea"
+}

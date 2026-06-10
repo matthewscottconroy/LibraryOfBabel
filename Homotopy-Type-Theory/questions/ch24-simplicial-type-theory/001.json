@@ -1,0 +1,21 @@
+{
+  "question_id": "32a7a38a-0cda-47ba-b269-77f7489ea7e3",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In simplicial type theory, a Segal type is one where:",
+  "choices": [
+    "every morphism is invertible",
+    "every composable pair of morphisms has a unique (up to contractibility) composite",
+    "the type has finitely many objects",
+    "every morphism is an equivalence"
+  ],
+  "answer": 1,
+  "explanation": "Segal condition: composable pairs uniquely compose — inner horn fillings are contractible. Segal types are ∞-categories.",
+  "tags": [
+    "simplicial-TT",
+    "Segal"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

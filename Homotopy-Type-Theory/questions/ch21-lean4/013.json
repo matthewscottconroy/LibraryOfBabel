@@ -1,0 +1,20 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, a 'structure' definition with fields a:A and b:B creates, among other things:",
+  "choices": [
+    "a class with instances",
+    "a record type with projection functions .a and .b and an anonymous constructor ⟨·,·⟩",
+    "a theorem about A and B",
+    "an inductive type with two constructors"
+  ],
+  "answer": 1,
+  "explanation": "'structure S where a:A; b:B' creates a record type with mk:A→B→S and projections S.a:S→A, S.b:S→B. It also supports anonymous constructor ⟨a_val, b_val⟩ notation.",
+  "tags": [
+    "Lean4",
+    "syntax"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "76ecc814-b6cb-4e4f-92c4-55927e9cf867"
+}

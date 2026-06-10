@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Sylow p-subgroups of a finite group G all have order:",
+  "choices": [
+    "p",
+    "p^k where p^k divides |G| but p^{k+1} does not",
+    "|G|/p",
+    "p^{|G|}"
+  ],
+  "answer": 1,
+  "explanation": "Sylow: if p^k || |G|, every Sylow p-subgroup has order p^k.",
+  "tags": [
+    "sylow",
+    "group-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "89dd092b-786b-4727-b207-cd04ccfaf3fa"
+}

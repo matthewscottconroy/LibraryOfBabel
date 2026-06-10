@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Scott encoding in untyped lambda calculus represents a data type by its case analysis. The Scott encoding of a pair (a,b) is:",
+  "choices": [
+    "λf.f a b",
+    "λs.s a b",
+    "λz.z",
+    "a b"
+  ],
+  "answer": 0,
+  "explanation": "Scott pair: λk.k a b — applying it to a selector k recovers a or b.",
+  "tags": [
+    "lambda-calculus",
+    "scott-encoding"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "7c4bb0d6-6493-4a94-9262-0a91cd8a1d52"
+}

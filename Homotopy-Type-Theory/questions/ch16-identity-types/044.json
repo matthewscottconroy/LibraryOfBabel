@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The type of paths in a Σ-type is characterised by: (x,y) =_{Σ(z:A).B(z)} (x',y') ≃",
+  "choices": [
+    "x=x' ∧ y=y'",
+    "Σ(p:x=x'). transport^B(p,y)=y'",
+    "x=x' only",
+    "B(x)=B(x')"
+  ],
+  "answer": 1,
+  "explanation": "Identity in Σ: dependent pair of path p in A and path in B over p.",
+  "tags": [
+    "sigma-type",
+    "identity-type",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "6acab6fd-fef7-46fd-9e75-ce167cf79be3"
+}

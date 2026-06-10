@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, the long exact sequence of a fibration F→E→B in homotopy takes the form:",
+  "choices": [
+    "⋯→πₙ(F)→πₙ(E)→πₙ(B)→πₙ₋₁(F)→⋯",
+    "⋯→Hₙ(F)→Hₙ(E)→Hₙ(B)→⋯",
+    "A short exact sequence in sets",
+    "A cofibre sequence"
+  ],
+  "answer": 0,
+  "explanation": "The long exact sequence of homotopy groups for a fibration works the same in HoTT as in classical topology.",
+  "tags": [
+    "long-exact-sequence",
+    "fibration",
+    "homotopy-groups"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "aa480b84-2eed-4120-b8c5-8f63b057c47b"
+}

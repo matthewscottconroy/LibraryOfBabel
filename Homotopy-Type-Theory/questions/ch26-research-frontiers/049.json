@@ -1,0 +1,23 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The conjecture that 'all sets in HoTT (with UA) are locally small' relates to:",
+  "choices": [
+    "The axiom of choice",
+    "Universe consistency",
+    "Open questions about whether the type of propositions Ω is a set in the presence of UA and propositional resizing",
+    "Completeness of HoTT"
+  ],
+  "answer": 2,
+  "explanation": "Local smallness and propositional resizing interact subtly with UA; whether Ω is a set under UA+resizing is open.",
+  "tags": [
+    "local-smallness",
+    "propositional-resizing",
+    "open-problems",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "fffbfd8d-c7ee-453b-84c4-c9e00f20a398"
+}

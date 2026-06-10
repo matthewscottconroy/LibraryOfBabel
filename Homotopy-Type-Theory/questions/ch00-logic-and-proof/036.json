@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The deduction theorem in propositional logic states: Γ,φ ⊢ ψ if and only if:",
+  "choices": [
+    "Γ ⊢ φ",
+    "Γ ⊢ φ∧ψ",
+    "Γ ⊢ φ→ψ",
+    "Γ ⊢ ¬φ∨ψ"
+  ],
+  "answer": 2,
+  "explanation": "Deduction theorem: Γ,φ ⊢ ψ ↔ Γ ⊢ φ→ψ.",
+  "tags": [
+    "deduction-theorem",
+    "propositional-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "1df1cceb-3b87-4c59-9440-cefbba2b9432"
+}

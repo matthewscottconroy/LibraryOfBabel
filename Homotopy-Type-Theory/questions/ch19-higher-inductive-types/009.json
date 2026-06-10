@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The recursion principle for S¹ states: to define f: S¹ → B, you must give:",
+  "choices": [
+    "a base point b:B only",
+    "a base point b:B and a loop path l:b=b in B",
+    "a family B over S¹",
+    "a path between two fixed points of B"
+  ],
+  "answer": 1,
+  "explanation": "S¹-rec: f(base) = b and f(loop) = l. The recursion principle maps out of S¹ by specifying the image of each constructor.",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "circle"
+  ],
+  "difficulty": "beginner",
+  "question_id": "caa80e35-6ddc-4134-ad5c-b3a131950fc1"
+}

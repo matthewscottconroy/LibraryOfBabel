@@ -1,0 +1,21 @@
+{
+  "question_id": "1d714d2d-3b45-4d4c-bb47-993ef863b151",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A Segal type in simplicial type theory is one where:",
+  "choices": [
+    "all morphisms are invertible",
+    "the type of composites hom(a,b) × hom(b,c) → hom(a,c) is contractible",
+    "the inner horn filling condition holds: Λ²₁ → A has a contractible space of fillers",
+    "there is exactly one morphism between any two points"
+  ],
+  "answer": 2,
+  "explanation": "Segal types satisfy: for every composable pair (f:a→b, g:b→c), the type of witness arrows h:a→c together with 2-simplices filling the horn is contractible. This is ∞-categorical composition.",
+  "tags": [
+    "simplicial-TT",
+    "Segal"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

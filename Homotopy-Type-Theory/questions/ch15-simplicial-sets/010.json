@@ -1,0 +1,19 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Every Kan complex satisfies the inner horn filling condition (quasi-category condition).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Kan complexes fill ALL horns (including outer: k=0 and k=n). Quasi-categories only require inner horn fillings. So every Kan complex is a quasi-category, but not vice versa.",
+  "tags": [
+    "simplicial-sets",
+    "Kan",
+    "quasi-categories"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "099686a3-d68a-4083-83c9-95e1cc299c65"
+}

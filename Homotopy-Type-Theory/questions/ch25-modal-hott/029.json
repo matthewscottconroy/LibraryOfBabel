@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Differential cohesive HoTT adds modalities for infinitesimal structure. The infinitesimal shape modality ʃ_inf assigns to A:",
+  "choices": [
+    "Its de Rham stack (quotienting by infinitesimal thickening)",
+    "Its truncation",
+    "Its suspension",
+    "Its classifying space"
+  ],
+  "answer": 0,
+  "explanation": "ʃ_inf A is the de Rham stack of A: quotienting A by infinitesimal paths, encoding synthetic differential geometry.",
+  "tags": [
+    "differential-cohesion",
+    "modal-hott",
+    "de-rham"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "1adb25ef-e342-4402-a02f-dc42e615fa09"
+}

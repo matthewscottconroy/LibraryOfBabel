@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The van Kampen theorem in HoTT computes the fundamental group of a pushout A⊔_C B as:",
+  "choices": [
+    "π₁(A) × π₁(B)",
+    "π₁(A) *_{π₁(C)} π₁(B) (pushout in groups)",
+    "π₁(A) ⊕ π₁(B)",
+    "The free product π₁(A) * π₁(B)"
+  ],
+  "answer": 1,
+  "explanation": "Van Kampen in HoTT: π₁(A⊔_C B) ≅ π₁(A) *_{π₁(C)} π₁(B) when A,B,C are 0-connected.",
+  "tags": [
+    "van-kampen",
+    "fundamental-group",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "5aefea7f-f38b-4fe3-bdd6-cae10e023e97"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "e57ab98a-c200-4d0e-b18b-f15fae24d0e6",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Grothendieck's homotopy hypothesis conjectures that ∞-groupoids correspond to:",
+  "choices": [
+    "chain complexes",
+    "simplicial sets",
+    "homotopy types (topological spaces up to weak homotopy equivalence)",
+    "strict ω-categories"
+  ],
+  "answer": 2,
+  "explanation": "The homotopy hypothesis: ∞-Gpd ≃ Top (as (∞,1)-categories). This is the bridge between abstract higher category theory and classical algebraic topology.",
+  "tags": [
+    "homotopy-hypothesis",
+    "infinity-groupoid"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

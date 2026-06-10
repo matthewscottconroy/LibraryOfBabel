@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Quillen model structure on sSet has fibrant objects that are exactly:",
+  "choices": [
+    "All simplicial sets",
+    "Kan complexes",
+    "Quasi-categories",
+    "Simplicial groups"
+  ],
+  "answer": 1,
+  "explanation": "In the Quillen (Kan-Quillen) model structure, fibrant = Kan complex.",
+  "tags": [
+    "model-structure",
+    "kan-complex",
+    "simplicial-set"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e476623b-6ccc-4e10-a5cf-bfa9332e8f16"
+}

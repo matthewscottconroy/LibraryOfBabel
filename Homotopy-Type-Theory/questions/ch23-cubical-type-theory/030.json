@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Which of the following is NOT a rule in CTT but IS in classic HoTT?",
+  "choices": [
+    "J (path induction)",
+    "Univalence as an axiom",
+    "Function extensionality",
+    "All of the above are in CTT"
+  ],
+  "answer": 1,
+  "explanation": "CTT derives univalence as a theorem; it is not assumed as an axiom. J is derivable, and funext is provable.",
+  "tags": [
+    "cubical-type-theory",
+    "hott",
+    "comparison"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "c900623d-6e8c-422a-aedf-469cce474ec5"
+}

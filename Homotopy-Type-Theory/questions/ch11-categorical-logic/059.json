@@ -1,0 +1,20 @@
+{
+  "question_id": "dc0bc317-0b44-4219-8c68-c1166f2e12d9",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The Curry-Howard-Lambek correspondence identifies Cartesian closed categories with intuitionistic propositional logic and the ___.",
+  "choices": [
+    "simply typed lambda calculus",
+    "STLC"
+  ],
+  "answer": "simply typed lambda calculus",
+  "explanation": "The three-way correspondence: CCCs ↔ STLC ↔ intuitionistic prop. logic. Objects = types/propositions, morphisms = terms/proofs.",
+  "tags": [
+    "ccc",
+    "stlc",
+    "categorical-logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

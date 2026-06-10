@@ -1,0 +1,19 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "A ___ is a topos equipped with a geometric morphism to Set, making it a 'universe of sets' with a point.",
+  "choices": [
+    "Grothendieck topos",
+    "localic topos",
+    "Set-topos"
+  ],
+  "answer": "grothendieck topos",
+  "explanation": "Grothendieck toposes arise as sheaves on a site. They admit a geometric morphism to Set (global sections), making them generalisations of 'parameterized universes of sets'.",
+  "tags": [
+    "categorical-logic",
+    "topos"
+  ],
+  "difficulty": "advanced",
+  "question_id": "a1601b01-650b-41f4-91e8-68ae0a1ced80"
+}

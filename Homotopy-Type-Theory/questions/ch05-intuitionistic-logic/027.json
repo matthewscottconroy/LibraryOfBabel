@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "De Morgan's laws ¬(A∨B)≡¬A∧¬B and ¬(A∧B)≡¬A∨¬B: which holds in IPC?",
+  "choices": [
+    "Both hold",
+    "Only ¬(A∨B)≡¬A∧¬B holds",
+    "Only ¬(A∧B)→¬A∨¬B holds",
+    "Neither holds"
+  ],
+  "answer": 1,
+  "explanation": "In IPC: ¬(A∨B)≡¬A∧¬B holds (both directions). But ¬(A∧B)→¬A∨¬B fails intuitionistically. The forward direction ¬A∧¬B→¬(A∧B) holds but not its converse.",
+  "tags": [
+    "intuitionistic",
+    "logic"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "e2a1d20c-01c0-460a-84c5-ebb3112dc5c8"
+}

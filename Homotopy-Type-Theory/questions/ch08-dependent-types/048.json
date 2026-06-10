@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In Lean 4, the #eval command:",
+  "choices": [
+    "Checks a type",
+    "Runs a computation and prints the result",
+    "Imports a file",
+    "Generates a proof term"
+  ],
+  "answer": 1,
+  "explanation": "#eval e runs e as a computation and displays the output.",
+  "tags": [
+    "lean4",
+    "evaluation",
+    "dependent-types"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "5e68e4b0-74fe-4126-9d37-cd7d27d7475d"
+}

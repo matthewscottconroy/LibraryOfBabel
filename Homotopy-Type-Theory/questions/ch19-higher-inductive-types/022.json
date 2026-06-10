@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The propositional truncation ‖A‖ is a HIT with constructors:",
+  "choices": [
+    "|_| : A → ‖A‖ and squash : Π(x y : ‖A‖). x = y",
+    "Only |_| : A → ‖A‖",
+    "|_| and a loop",
+    "No constructors"
+  ],
+  "answer": 0,
+  "explanation": "‖A‖₋₁: constructor |_|:A→‖A‖ and the truncation path squash making it a proposition.",
+  "tags": [
+    "propositional-truncation",
+    "hit"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e2d0f75f-9279-437c-9f5b-ade5c5f00709"
+}

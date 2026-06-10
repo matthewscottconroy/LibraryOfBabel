@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Cohomology operations in synthetic HoTT (e.g. Steenrod squares) are constructed as:",
+  "choices": [
+    "Functions on chain complexes",
+    "Natural transformations H^n(-;𝔽₂)→H^{n+k}(-;𝔽₂) constructed using EHP sequences or cup product structure",
+    "Classical cobordism operations",
+    "Only for spheres"
+  ],
+  "answer": 1,
+  "explanation": "Cohomology operations in HoTT are constructed as maps between Eilenberg-MacLane types.",
+  "tags": [
+    "steenrod-operations",
+    "cohomology",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "75acd07e-74ac-4d3e-a40a-1c663376b373"
+}

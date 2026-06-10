@@ -1,0 +1,20 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Universe polymorphism in dependent type theory is needed because:",
+  "choices": [
+    "types cannot be elements of other types",
+    "without it, 'the type of all types' would be in itself, leading to Girard's paradox",
+    "it makes type checking undecidable",
+    "it allows subtyping"
+  ],
+  "answer": 1,
+  "explanation": "'Type : Type' (Russell's paradox analogue) is inconsistent (Girard's paradox). A hierarchy U₀:U₁:U₂:… (universe polymorphism) avoids this while allowing types to be elements.",
+  "tags": [
+    "dependent-types",
+    "universes"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "508d68cc-6de3-48ee-afa6-f02fd08a51c0"
+}

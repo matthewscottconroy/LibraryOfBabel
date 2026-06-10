@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The opposite category Cᵒᵖ of a category C has:",
+  "choices": [
+    "The same objects and same morphisms",
+    "The same objects but all morphisms reversed",
+    "Only the identity morphisms",
+    "Objects and morphisms from C composed differently"
+  ],
+  "answer": 1,
+  "explanation": "Cᵒᵖ: objects same as C; morphisms f:A→B in C become fᵒᵖ:B→A in Cᵒᵖ.",
+  "tags": [
+    "opposite-category",
+    "category-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "71538a3a-ece5-4376-8620-a9b741e83874"
+}

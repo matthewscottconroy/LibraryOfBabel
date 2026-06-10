@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The synthetic algebraic K-theory programme (e.g. Barwick) proposes to define K-theory:",
+  "choices": [
+    "Using only set-theoretic methods",
+    "Synthetically in an (∞,1)-categorical or HoTT setting, using ∞-categories of exact sequences",
+    "By formalising the Quillen Q-construction in Lean 4",
+    "Using cubical type theory only"
+  ],
+  "answer": 1,
+  "explanation": "The programme defines K-theory using spans of ∞-categories or HITs, making it amenable to HoTT formalisation.",
+  "tags": [
+    "algebraic-k-theory",
+    "synthetic",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "1bd97d20-9e1e-4832-bdd9-dceb338b7615"
+}

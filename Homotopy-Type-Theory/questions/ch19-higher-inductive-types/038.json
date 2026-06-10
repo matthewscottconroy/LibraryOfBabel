@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The HoTT proof that π₁(S¹)=ℤ uses the encode-decode method. The decode function dec: ℤ→(base=base) maps:",
+  "choices": [
+    "n to the n-fold concatenation of loop",
+    "n to refl^n",
+    "n to the winding number",
+    "n to n·loop"
+  ],
+  "answer": 0,
+  "explanation": "decode(n) = loop^n (n-fold concatenation, with negative n using loop⁻¹).",
+  "tags": [
+    "pi1-circle",
+    "encode-decode",
+    "hit"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f5d19449-178d-4a14-95d3-a71025a70cb4"
+}

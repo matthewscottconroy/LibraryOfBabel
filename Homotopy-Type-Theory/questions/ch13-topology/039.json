@@ -1,0 +1,20 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A metric space is always Hausdorff (T₂).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "In a metric space, distinct points x≠y have disjoint open balls (radius d(x,y)/2), so the space is Hausdorff.",
+  "tags": [
+    "metric-space",
+    "hausdorff",
+    "topology"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "dc657a81-ccc2-442d-b1f9-de8d676709af"
+}

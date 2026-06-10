@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In an (∞,1)-category, the mapping space Map(A,B) is:",
+  "choices": [
+    "A set",
+    "A simplicial set (or Kan complex)",
+    "A 2-category",
+    "A strict category"
+  ],
+  "answer": 1,
+  "explanation": "In quasicategories, Map(A,B) is a Kan complex (∞-groupoid of morphisms from A to B).",
+  "tags": [
+    "infinity-category",
+    "mapping-space"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "cea572b8-d534-4b32-a06b-ba2e68a53a34"
+}

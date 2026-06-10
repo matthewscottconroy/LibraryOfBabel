@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Postnikov tower of a space X is a sequence of fibrations whose stages classify:",
+  "choices": [
+    "The homology groups of X",
+    "The homotopy groups πₙ(X) level by level",
+    "The cohomology operations on X",
+    "The K-theory of X"
+  ],
+  "answer": 1,
+  "explanation": "The n-th Postnikov stage Pₙ(X) has πₖ(Pₙ(X)) = πₖ(X) for k ≤ n and 0 for k > n.",
+  "tags": [
+    "postnikov-tower",
+    "homotopy-groups"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "fc22d440-301c-4e0f-b675-584129afc9f8"
+}

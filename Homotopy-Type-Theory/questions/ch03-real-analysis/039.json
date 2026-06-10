@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The completeness axiom for ℝ states that every non-empty set bounded above has:",
+  "choices": [
+    "A maximum",
+    "A supremum in ℝ",
+    "An infimum",
+    "A minimum"
+  ],
+  "answer": 1,
+  "explanation": "Dedekind completeness: ℝ is Archimedean and every bounded-above non-empty set has a supremum in ℝ.",
+  "tags": [
+    "completeness",
+    "real-numbers"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "5d1dc9e2-9270-4ca6-a737-6341676d643a"
+}

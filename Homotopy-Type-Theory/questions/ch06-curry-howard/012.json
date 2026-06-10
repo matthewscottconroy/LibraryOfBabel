@@ -1,0 +1,18 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Under Curry-Howard, the axiom of choice (AC) has a corresponding proof term in MLTT without extra axioms.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "In MLTT, AC is provable: given Π(x:A).Σ(y:B).P(x,y), the choice function is λx.fst(f(x)). The witness is built in to the term. AC is not an axiom in dependent type theory — it follows from constructivity.",
+  "tags": [
+    "curry-howard",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "a6f8176d-6feb-4565-8f78-7f61f8a31936"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Brouwer-Heyting-Kolmogorov (BHK) interpretation defines a proof of A→B as:",
+  "choices": [
+    "a proof of A and a proof of B",
+    "a function taking proofs of A to proofs of B",
+    "a proof that A and B are equivalent",
+    "a proof that B implies A"
+  ],
+  "answer": 1,
+  "explanation": "BHK: proof of A→B = a method (function) transforming any proof of A into a proof of B. This is the intuitionistic semantics of implication.",
+  "tags": [
+    "proof-theory",
+    "BHK",
+    "intuitionistic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "920cd37a-a4f9-4fe1-94b6-c344f8adea91"
+}

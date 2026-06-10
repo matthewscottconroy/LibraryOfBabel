@@ -1,0 +1,18 @@
+{
+  "question_id": "1f4994fe-3fb3-4d5a-8d45-05d48516fe03",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Every path-connected topological space is connected.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Path-connectedness implies connectedness. The converse fails: the topologist's sine curve is connected but not path-connected.",
+  "tags": [
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

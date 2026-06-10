@@ -1,0 +1,20 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In System F, the Church encoding of natural numbers has type:",
+  "choices": [
+    "ℕ",
+    "∀α. α → (α → α) → α",
+    "∀α. (α → α) → α → α",
+    "∀α.α"
+  ],
+  "answer": 2,
+  "explanation": "Church ℕ: n = Λα. λs:α→α. λz:α. s(s(...(z)...)) : ∀α.(α→α)→α→α. n represents 'apply s n times to z'.",
+  "tags": [
+    "System-F",
+    "Church-encodings"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "ec46fdca-c5a8-4af3-a875-72f27e68dffa"
+}

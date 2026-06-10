@@ -1,0 +1,21 @@
+{
+  "question_id": "cc03c3b8-038c-4d6a-80c5-a6dc4511c797",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4 tactic mode, which tactic closes a goal ⊢ P ∧ Q?",
+  "choices": [
+    "split",
+    "constructor",
+    "intro",
+    "simp"
+  ],
+  "answer": 1,
+  "explanation": "'constructor' applies the first constructor — And.intro for P∧Q — splitting into subgoals ⊢P and ⊢Q.",
+  "tags": [
+    "Lean4",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

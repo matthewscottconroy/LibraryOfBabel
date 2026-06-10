@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In Agda, a 'data' declaration with indices (as opposed to parameters) means:",
+  "choices": [
+    "The index is fixed across all constructors",
+    "The index can vary between constructors (enabling GADTs/indexed families)",
+    "The type is polymorphic",
+    "The constructors are implicit"
+  ],
+  "answer": 1,
+  "explanation": "Indexed types: Vec A : ℕ → Set has the ℕ index vary (cons increases it); this is what distinguishes indexed families from parameterised types.",
+  "tags": [
+    "indexed-types",
+    "agda",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "892d4ec1-f672-401f-b651-4726fbeb48de"
+}

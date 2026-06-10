@@ -1,0 +1,21 @@
+{
+  "question_id": "3f25fbdb-84bf-471c-b8b2-6ffa60e3532a",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In a quasi-category (∞-category in Joyal's sense), the inner horn filling condition ensures:",
+  "choices": [
+    "every morphism is invertible",
+    "composition is associative up to coherent higher homotopies",
+    "the ∞-category is equivalent to a 1-category",
+    "all objects are contractible"
+  ],
+  "answer": 1,
+  "explanation": "Quasi-categories satisfy the inner horn filling: any inner horn Λⁿₖ (0 < k < n) can be filled. This gives a homotopy-coherent notion of composition without choosing a specific composite.",
+  "tags": [
+    "higher-categories",
+    "quasi-categories"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

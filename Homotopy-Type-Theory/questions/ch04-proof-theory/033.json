@@ -1,0 +1,17 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "An admissible rule in a proof system is one where: if the premises are provable, the conclusion is ___, even though the rule itself may not be an axiom.",
+  "choices": [
+    "provable",
+    "also provable"
+  ],
+  "answer": "provable",
+  "explanation": "Admissibility: a rule is admissible if adding it does not change the set of provable formulas. Derivability is stronger: the conclusion is provable using the rule in a single step.",
+  "tags": [
+    "proof-theory"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "c6e0d338-b67d-44d5-b095-8f06245942db"
+}

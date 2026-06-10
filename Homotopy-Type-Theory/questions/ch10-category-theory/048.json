@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A factorisation system (E, M) on a category consists of classes E,M of morphisms such that:",
+  "choices": [
+    "Every morphism factors uniquely as e∘m with e∈E, m∈M",
+    "Every morphism is in E or M",
+    "E=Mono and M=Epi always",
+    "E consists of isomorphisms"
+  ],
+  "answer": 0,
+  "explanation": "OFS: every f factors as f = m∘e (or e∘m depending on convention) with e∈E, m∈M, and the factorisation is unique up to iso.",
+  "tags": [
+    "factorisation-system",
+    "category-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "77542518-28d2-475e-8cba-4f20d1790a0d"
+}

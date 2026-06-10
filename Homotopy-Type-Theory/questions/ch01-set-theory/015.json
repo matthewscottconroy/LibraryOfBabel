@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The rank of a set x in the von Neumann hierarchy is:",
+  "choices": [
+    "the cardinality of x",
+    "the smallest ordinal α such that x∈Vα+1",
+    "the number of elements of x",
+    "the ordinal isomorphic to x"
+  ],
+  "answer": 1,
+  "explanation": "rank(x) = smallest α such that x ⊆ Vα, equivalently x ∈ Vα+1. So rank(∅)=0, rank({∅})=1, etc.",
+  "tags": [
+    "set-theory",
+    "ordinals"
+  ],
+  "difficulty": "advanced",
+  "question_id": "f73cbee9-94a5-4f8c-96e5-8014ee9a043f"
+}

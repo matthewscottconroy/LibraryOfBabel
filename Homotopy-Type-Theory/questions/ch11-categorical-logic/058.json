@@ -1,0 +1,22 @@
+{
+  "question_id": "9a9bc950-45a1-4264-916b-7aad7ebf3b07",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In categorical logic, universal quantification ∀x. P(x) is modeled by:",
+  "choices": [
+    "the left adjoint to the pullback functor",
+    "the right adjoint to the pullback functor (dependent product)",
+    "the equalizer of P",
+    "the subobject classifier Ω"
+  ],
+  "answer": 1,
+  "explanation": "∀ = right adjoint (Π) to substitution/pullback; ∃ = left adjoint (Σ) to substitution/pullback. This is the Beck-Chevalley / hyperdoctrine structure.",
+  "tags": [
+    "lccc",
+    "categorical-logic",
+    "quantifiers"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

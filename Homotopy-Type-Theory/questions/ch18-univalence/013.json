@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The univalence axiom was first proposed by:",
+  "choices": [
+    "Martin Hofmann",
+    "Thierry Coquand",
+    "Vladimir Voevodsky",
+    "Per Martin-Löf"
+  ],
+  "answer": 2,
+  "explanation": "Voevodsky discovered the univalence axiom around 2005-2009, inspired by simplicial set semantics. It was the key new idea in the HoTT program.",
+  "tags": [
+    "HoTT",
+    "univalence",
+    "history"
+  ],
+  "difficulty": "beginner",
+  "question_id": "743b0262-f455-4035-9206-652d052bf431"
+}

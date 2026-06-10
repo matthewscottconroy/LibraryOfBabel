@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The sequent calculus has a 'right ∀' rule that says: to prove ∀x.A(x) on the right, you introduce:",
+  "choices": [
+    "a specific witness t and prove A(t)",
+    "a fresh variable y not in any hypothesis and prove A(y) on the right",
+    "two proofs: one with x=0 and one for x+1",
+    "a proof of ¬∀x.¬A(x)"
+  ],
+  "answer": 1,
+  "explanation": "R∀: Γ ⊢ Δ, A(y) where y is fresh (an eigenvariable). This is the universal generalisation rule for sequents.",
+  "tags": [
+    "proof-theory",
+    "sequent-calculus"
+  ],
+  "difficulty": "advanced",
+  "question_id": "3c2bac62-d888-4e32-a429-f0738f85a40d"
+}

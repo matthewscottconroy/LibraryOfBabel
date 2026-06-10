@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In CTT, the 'unglue' operation extracts from a Glue type:",
+  "choices": [
+    "The path in the universe",
+    "The underlying element of the base type A from an element of Glue A φ T e",
+    "The equivalence",
+    "A partial element"
+  ],
+  "answer": 1,
+  "explanation": "unglue: given x: Glue A φ T e, unglue φ x : A is the underlying base element.",
+  "tags": [
+    "cubical-type-theory",
+    "glue",
+    "unglue"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "daf1419e-0417-4a32-baea-5d8110c8436b"
+}

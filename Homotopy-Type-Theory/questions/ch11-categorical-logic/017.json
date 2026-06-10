@@ -1,0 +1,20 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The classifying topos of a geometric theory T is a topos B[T] such that:",
+  "choices": [
+    "B[T] has T as its internal language",
+    "geometric morphisms E → B[T] correspond naturally to T-models in E",
+    "B[T] is always a Grothendieck topos over T",
+    "the terminal object of B[T] is T"
+  ],
+  "answer": 1,
+  "explanation": "The classifying topos B[T] represents the functor Mod_T: Topos^op → Set. A geometric morphism f: E → B[T] is the same as a T-model in E. This 'classifies' all models of T.",
+  "tags": [
+    "categorical-logic",
+    "topos"
+  ],
+  "difficulty": "advanced",
+  "question_id": "f4346be7-7fb3-4f98-9a42-6a1804648f8e"
+}

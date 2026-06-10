@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What does System F add to STLC?",
+  "choices": [
+    "Recursive types",
+    "Universal (second-order) quantification over types",
+    "Linear resources",
+    "Dependent types"
+  ],
+  "answer": 1,
+  "explanation": "System F = STLC + ∀α.T, enabling polymorphism.",
+  "tags": [
+    "system-f",
+    "polymorphism"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "c329df98-6bf7-4ed9-8085-860bd145dc37"
+}

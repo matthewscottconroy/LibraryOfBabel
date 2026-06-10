@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Propositional extensionality (propext) follows from univalence: for propositions P and Q,",
+  "choices": [
+    "P → Q implies P = Q",
+    "(P ↔ Q) implies P = Q (a proposition equivalence gives a path)",
+    "P and Q are always equal",
+    "P = Q iff both are provable"
+  ],
+  "answer": 1,
+  "explanation": "Propext: if P and Q are propositions and P↔Q, then they are equivalent (P≃Q), so by univalence P=Q. This is the propositional version of univalence.",
+  "tags": [
+    "HoTT",
+    "univalence",
+    "propositions"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "f5e527d6-dce0-4e51-a909-97bdf49927c0"
+}

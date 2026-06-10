@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What is the `--safe` flag in Cubical Agda used for?",
+  "choices": [
+    "Disabling termination checking",
+    "Ensuring the code does not use potentially unsafe features (postulates, unsafe pragma)",
+    "Enabling classical logic",
+    "Speeding up type checking"
+  ],
+  "answer": 1,
+  "explanation": "--safe forbids postulates, BUILTIN pragmas that break consistency, and other unsafe extensions.",
+  "tags": [
+    "cubical-agda",
+    "safe",
+    "meta"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b9aa1a5f-e91b-4ab3-a203-f05e9d558afc"
+}

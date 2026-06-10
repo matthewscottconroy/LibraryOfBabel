@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In MLTT, the formation rule for Π-types requires: if A:Type and (for x:A) B(x):Type, then ______ is a type.",
+  "choices": [
+    "Π(x:A).B(x)",
+    "Σ(x:A).B(x)",
+    "A→B",
+    "A×B"
+  ],
+  "answer": "Π(x:A).B(x)",
+  "explanation": "Π-formation: A:Type, Γ,x:A ⊢ B:Type ⊢ Π(x:A).B(x):Type.",
+  "tags": [
+    "mltt",
+    "pi-type",
+    "formation-rule"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "d946cf98-fbad-4bb5-85ad-c0dd1602bf11"
+}

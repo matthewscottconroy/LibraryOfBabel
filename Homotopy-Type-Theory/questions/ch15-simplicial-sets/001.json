@@ -1,0 +1,21 @@
+{
+  "question_id": "2b897a67-c303-4d91-9cb2-ab140b3cdd95",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A Kan complex is a simplicial set where all horn inclusions Λⁿₖ → Δⁿ have fillers, for:",
+  "choices": [
+    "n ≥ 1 and 0 < k < n (inner horns only)",
+    "n ≥ 1 and all 0 ≤ k ≤ n (all horns)",
+    "n ≥ 2 and k = 0 only",
+    "all k but only n = 1"
+  ],
+  "answer": 1,
+  "explanation": "Kan complexes fill all horns (inner and outer) — this gives invertibility of all morphisms, making them ∞-groupoids.",
+  "tags": [
+    "simplicial-sets",
+    "Kan"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

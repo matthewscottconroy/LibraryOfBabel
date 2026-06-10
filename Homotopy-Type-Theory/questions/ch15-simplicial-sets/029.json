@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The n-th horn Λⁿₖ is the simplicial subset of Δ[n] obtained by removing the interior and the ______-th face.",
+  "choices": [
+    "k",
+    "0",
+    "last",
+    "all"
+  ],
+  "answer": "k",
+  "explanation": "Λⁿₖ = Δ[n] \\ (int Δ[n] ∪ face_k), i.e. the boundary with the k-th face removed.",
+  "tags": [
+    "horn",
+    "simplicial-set"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f0c77a6c-2afd-4dd9-a18d-f732981e7876"
+}

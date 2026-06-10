@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Galois group Gal(K/F) of a field extension K/F is:",
+  "choices": [
+    "the group of ring homomorphisms K→K",
+    "the group of F-algebra automorphisms of K",
+    "the group of field extensions between F and K",
+    "the fundamental group of Spec(K)"
+  ],
+  "answer": 1,
+  "explanation": "Gal(K/F) is the group of field automorphisms σ:K→K fixing F pointwise. Its order equals [K:F] for Galois extensions.",
+  "tags": [
+    "algebra",
+    "galois",
+    "fields"
+  ],
+  "difficulty": "advanced",
+  "question_id": "6e5adfef-bf99-465b-8fe1-4953f7308b14"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The decalage (Décalage) functor Dec on simplicial sets shifts the simplicial structure. It is used to:",
+  "choices": [
+    "Subdivide simplices",
+    "Study augmented simplicial sets and construct contractible resolutions",
+    "Compute the nerve of a category",
+    "Define the path space of X"
+  ],
+  "answer": 1,
+  "explanation": "Dec X: (Dec X)_n = X_{n+1} with shifted face/degeneracy; used in bar constructions and resolutions.",
+  "tags": [
+    "decalage",
+    "simplicial-set",
+    "bar-construction"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "7efd2aad-e254-4ff9-ae74-94762f29b203"
+}

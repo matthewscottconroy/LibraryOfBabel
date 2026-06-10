@@ -1,0 +1,21 @@
+{
+  "question_id": "6be7ea67-45d5-413a-8739-119a5ce1a34d",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In categorical semantics, the conjunction P ∧ Q of two propositions is modeled by:",
+  "choices": [
+    "the coproduct P + Q",
+    "the product P × Q",
+    "the exponential P^Q",
+    "the equalizer of P and Q"
+  ],
+  "answer": 1,
+  "explanation": "Conjunction = product, disjunction = coproduct, implication = exponential. This is the core of the logic–category correspondence.",
+  "tags": [
+    "categorical-logic",
+    "ccc"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

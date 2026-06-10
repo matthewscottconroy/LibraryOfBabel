@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A Cartesian closed category (CCC) is one that has:",
+  "choices": [
+    "Finite limits only",
+    "Terminal object, binary products, and internal homs (exponentials)",
+    "All small limits and colimits",
+    "A factorisation system"
+  ],
+  "answer": 1,
+  "explanation": "CCCs have 1, A×B, and A⇒B (internal hom), making them models of STLC.",
+  "tags": [
+    "CCC",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "42455890-f0cf-4373-b4e8-c0f280ff3834"
+}

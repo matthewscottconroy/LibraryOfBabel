@@ -1,0 +1,21 @@
+{
+  "question_id": "f9402115-6b5e-45ea-bb06-0b5ed37769dc",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The van Kampen theorem computes π₁(A ∪_C B) as:",
+  "choices": [
+    "π₁(A) × π₁(B)",
+    "π₁(A) * π₁(B) (free product)",
+    "π₁(A) *_{π₁(C)} π₁(B) (amalgamated free product)",
+    "π₁(C)"
+  ],
+  "answer": 2,
+  "explanation": "Van Kampen: the fundamental group of a pushout is the pushout (amalgamated free product) in the category of groups.",
+  "tags": [
+    "homotopy",
+    "van-kampen"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

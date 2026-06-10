@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Lebesgue dominated convergence theorem says: if fₙ→f pointwise and |fₙ|≤g with g integrable, then:",
+  "choices": [
+    "fₙ converges uniformly",
+    "∫fₙ → ∫f",
+    "fₙ is Cauchy",
+    "fₙ converges in L²"
+  ],
+  "answer": 1,
+  "explanation": "Dominated convergence: the dominated hypothesis swaps limit and integral. One of the most used theorems in real analysis and probability theory.",
+  "tags": [
+    "analysis",
+    "integration",
+    "Lebesgue"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "353dbb8f-1be3-4fa2-b673-b5eb28216da7"
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "0a16f3fa-39d1-4204-89bd-f048525ed036",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "blank",
+  "text": "A type A is n-connected if πₖ(A) is trivial for k ≤ n. A (-1)-connected type is simply called ___.",
+  "choices": [
+    "inhabited",
+    "merely inhabited",
+    "non-empty"
+  ],
+  "answer": "inhabited",
+  "explanation": "(-1)-connected = merely inhabited (= ‖A‖₋₁ is contractible = A is non-empty). 0-connected = path-connected. 1-connected = simply connected.",
+  "tags": [
+    "connectivity",
+    "h-levels"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The principle of structure invariance in HoTT says: if A ≃ B and A has a group structure, then:",
+  "choices": [
+    "B has no group structure",
+    "B has a group structure and it is isomorphic to A's",
+    "A and B are definitionally equal",
+    "the group structures are the same up to ua only"
+  ],
+  "answer": 1,
+  "explanation": "Structure invariance (a corollary of univalence): equivalent types can be freely substituted in any type-theoretic statement. If A ≃ B as types, any structure on A transfers to B via transport along ua(e).",
+  "tags": [
+    "HoTT",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "21d1c0d7-08b8-41f1-a5b7-6ae78d2abc04"
+}

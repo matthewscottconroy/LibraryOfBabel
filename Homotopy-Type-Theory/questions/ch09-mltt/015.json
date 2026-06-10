@@ -1,0 +1,18 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In MLTT, function extensionality — if f x = g x for all x then f = g — is provable from the J rule alone.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Funext is NOT provable from J in MLTT. It must be added as an axiom (or derived from the interval type in HoTT). This is a well-known independence result.",
+  "tags": [
+    "MLTT",
+    "funext"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "a1949d00-1f12-4cf8-bda2-4644f0bd91b6"
+}

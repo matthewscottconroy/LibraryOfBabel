@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "An equivalence f: A → B in HoTT is a function with:",
+  "choices": [
+    "a left and right inverse (but they may differ)",
+    "a quasi-inverse — but two quasi-inverses of the same function may not be equal",
+    "a contractible type of quasi-inverses (half-adjoint or bi-invertible equivalence)",
+    "a monic and epic morphism"
+  ],
+  "answer": 2,
+  "explanation": "isEquiv(f) is defined to be a PROPOSITION (contractible choice of inverse data). Using just 'has a quasi-inverse' gives a non-propositional definition. The half-adjoint definition is standard.",
+  "tags": [
+    "HoTT",
+    "equivalences",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "9d390b09-1bfe-481b-b2a4-7af85ce34df9"
+}

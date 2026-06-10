@@ -1,0 +1,20 @@
+{
+  "question_id": "e87a68ec-a8ec-402f-8e93-219b933d1ce3",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "tf",
+  "text": "Cartesian cubical type theory (as in Agda's --cubical mode) uses the same interval as CCHM (with complement ~).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Cartesian cubical TT (Angiuli et al.) uses a simpler interval without complement or connections. Cubical Agda uses the CCHM interval with De Morgan operations.",
+  "tags": [
+    "cartesian-cubical",
+    "cchm",
+    "cubical-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

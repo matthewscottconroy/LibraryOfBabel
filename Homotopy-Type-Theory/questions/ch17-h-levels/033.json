@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Hedberg's theorem states that if a type A has decidable equality, then:",
+  "choices": [
+    "A is contractible",
+    "A is a set (h-level 0)",
+    "A is a proposition",
+    "A is a 1-type"
+  ],
+  "answer": 1,
+  "explanation": "Hedberg: decidable equality implies UIP (hence A is a set).",
+  "tags": [
+    "hedberg",
+    "decidable-equality",
+    "h-set"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3e09e38e-f7d6-4308-999d-71a9545ea8a8"
+}

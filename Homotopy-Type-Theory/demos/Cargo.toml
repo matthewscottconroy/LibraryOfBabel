@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "algebra", "bhk", "categorical_logic", "categories", "circle",
+    "covering_spaces", "cubical", "cubical_agda", "curry_howard",
+    "dependent_types", "eilenberg_maclane", "encode_decode", "equiv",
+    "fundamental_theorem", "funext", "groupoid_laws", "higher_cats",
+    "hlevels", "hopf", "induction_vs_recursion", "james", "kripke",
+    "lean4", "modal_hott", "normal_forms", "paths", "proof_basics",
+    "proof_theory", "pushouts", "quotients", "real_analysis",
+    "research_frontiers", "set_theory", "simplicial_hott", "simplicial_sets",
+    "suspension", "transport", "truncations", "univalence_deep",
+    "universes", "w_types",
+]
+resolver = "2"
+
+[workspace.lints.rust]
+dead_code = "allow"

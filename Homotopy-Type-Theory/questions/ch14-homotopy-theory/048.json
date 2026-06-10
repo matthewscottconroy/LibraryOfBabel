@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A stable equivalence of spectra is a map f: E→F that induces isomorphisms on:",
+  "choices": [
+    "All homotopy groups π*(E)→π*(F)",
+    "All cohomology groups",
+    "All homology groups",
+    "Fundamental groups only"
+  ],
+  "answer": 0,
+  "explanation": "Stable equivalence: isomorphism on all stable homotopy groups πₙ for all n∈ℤ.",
+  "tags": [
+    "stable-homotopy",
+    "weak-equivalence",
+    "spectrum"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "7548e9b7-1faf-4ec2-a5f6-9a236617fb84"
+}

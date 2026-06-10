@@ -1,0 +1,21 @@
+{
+  "question_id": "4d962f6d-e4b4-40d9-99fd-7af4373ce8ce",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The fundamental theorem of identity types states: given R: A → Prop with r: R(a), if f: Π(x:A). R(x) → (a=x) and encode: Π(x:A). (a=x) → R(x) are mutual inverses, then:",
+  "choices": [
+    "A is a set",
+    "(Σ x:A, R(x)) is contractible",
+    "R(x) is a proposition for all x",
+    "A is contractible"
+  ],
+  "answer": 1,
+  "explanation": "FTIT: if R with r₀: R(a) satisfies R(x) ≃ (a=x), then (Σx:A, R(x)) is contractible (center = (a, r₀)). This characterizes identity types via contractible total spaces.",
+  "tags": [
+    "identity-types",
+    "fundamental-theorem"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

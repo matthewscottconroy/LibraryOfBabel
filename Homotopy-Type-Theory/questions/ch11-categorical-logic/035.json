@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A Boolean algebra is a Heyting algebra that additionally satisfies:",
+  "choices": [
+    "a ∧ ¬a = ⊤",
+    "a ∨ ¬a = ⊤ (LEM holds)",
+    "a → b = b",
+    "a ∧ a = a"
+  ],
+  "answer": 1,
+  "explanation": "Boolean = Heyting + LEM (a∨¬a=1); equivalently, ¬¬a=a.",
+  "tags": [
+    "boolean-algebra",
+    "heyting-algebra",
+    "classical-logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "68f9461e-d372-4aea-a20f-c96aa4ebfa4c"
+}

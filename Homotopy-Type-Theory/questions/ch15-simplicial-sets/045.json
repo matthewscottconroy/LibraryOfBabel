@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Segal maps for a simplicial set X: the n-th Segal map is Xₙ → X₁ ×_{X₀} ⋯ ×_{X₀} X₁. For the nerve NC, this map is:",
+  "choices": [
+    "An isomorphism",
+    "A weak equivalence only",
+    "A surjection",
+    "Not well-defined"
+  ],
+  "answer": 0,
+  "explanation": "For NC, Segal maps are isomorphisms: n composable morphisms are exactly n-simplices in NC.",
+  "tags": [
+    "segal-map",
+    "nerve",
+    "simplicial-set"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "43a2e46c-3583-41bc-874e-d656e465cc52"
+}

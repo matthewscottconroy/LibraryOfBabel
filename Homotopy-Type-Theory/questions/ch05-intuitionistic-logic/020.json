@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In a Kripke model for IPC, the accessibility relation ≤ must be:",
+  "choices": [
+    "symmetric",
+    "a partial order (reflexive and transitive)",
+    "an equivalence relation",
+    "irreflexive"
+  ],
+  "answer": 1,
+  "explanation": "Kripke models for IPC: worlds W with a partial order ≤ (reflexive, transitive). Monotonicity: if w⊩P and w≤v then v⊩P. This captures the 'knowledge grows over time' intuition.",
+  "tags": [
+    "intuitionistic",
+    "Kripke"
+  ],
+  "difficulty": "beginner",
+  "question_id": "cd8c69d1-d173-4365-b5f1-2e35610597b0"
+}

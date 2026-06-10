@@ -1,0 +1,21 @@
+{
+  "question_id": "174c79bb-1e0d-4c32-b2d5-49ad17228873",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The axiom of unique choice in HoTT states that if R: A → B → Prop is total (∀a.∃b. R(a,b)) and functional (∀a,b,b'. R(a,b) → R(a,b') → b=b'), then:",
+  "choices": [
+    "the axiom of choice gives a function A → B",
+    "there exists a unique function f: A → B with ∀a. R(a,f(a))",
+    "B must be a set",
+    "this requires propositional resizing"
+  ],
+  "answer": 1,
+  "explanation": "Unique choice: ∀a. ∃!b. R(a,b) → ∃ f: A→B. ∀a. R(a,f(a)). Works constructively because the uniqueness condition (h-prop) lets us extract from ‖Σb.R(a,b)‖.",
+  "tags": [
+    "axiom-of-choice",
+    "h-sets"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

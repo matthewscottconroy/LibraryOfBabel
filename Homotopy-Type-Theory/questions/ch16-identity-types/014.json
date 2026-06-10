@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The induction principle for the identity type — the J rule — has this feature that distinguishes it from K:",
+  "choices": [
+    "J only applies to reflexivity",
+    "J handles arbitrary paths p:a=b (not just loops), K only handles p:a=a",
+    "J requires univalence",
+    "K is derivable from J"
+  ],
+  "answer": 1,
+  "explanation": "J (path induction) works for any path p:a=b between potentially different points. K (Streicher's K) specialises to loops p:a=a and adds UIP. K is not derivable from J.",
+  "tags": [
+    "HoTT",
+    "J-rule",
+    "K-axiom"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "da6e707e-2b38-429d-8bb4-6d0f579aaeb2"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A type A is contractible (h-level -2 / 0 in Voevodsky's indexing) if:",
+  "choices": [
+    "A is empty",
+    "A has a unique element",
+    "There exists a : A and for all x : A, a = x (inhabited and uniquely so)",
+    "A is a proposition"
+  ],
+  "answer": 2,
+  "explanation": "isContr(A) = Σ(a:A). Π(x:A). a=x: a center of contraction exists and all points are connected to it.",
+  "tags": [
+    "contractible",
+    "h-level"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "0a1666f3-037a-4871-8d56-05da29244208"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which category serves as the categorical semantics of simply typed lambda calculus?",
+  "choices": [
+    "Any topos",
+    "A Cartesian closed category (CCC)",
+    "A locally Cartesian closed category (LCCC)",
+    "A regular category"
+  ],
+  "answer": 1,
+  "explanation": "STLC models are exactly CCCs; each type former maps to a categorical constructor.",
+  "tags": [
+    "CCC",
+    "categorical-semantics",
+    "stlc"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b08052e6-5a71-4c07-9c1c-de71d89827b2"
+}

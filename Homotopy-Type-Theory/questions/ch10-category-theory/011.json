@@ -1,0 +1,20 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A limit of a diagram D: J → C is a universal cone over D. The terminal object is the limit of:",
+  "choices": [
+    "the empty diagram",
+    "the identity functor",
+    "any discrete diagram",
+    "the comma category"
+  ],
+  "answer": 0,
+  "explanation": "The terminal object is the limit of the empty diagram (J=∅). The product A×B is the limit of the discrete diagram {A,B}. Equalizers are limits of parallel pairs.",
+  "tags": [
+    "category-theory",
+    "limits"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "3675ab7f-70e7-4e13-a7e7-d16190af448c"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'homotopy type theory with internal universes' programme aims to:",
+  "choices": [
+    "Remove all universes",
+    "Construct models of HoTT entirely within HoTT itself (avoiding set-theoretic foundations)",
+    "Prove LEM in HoTT",
+    "Formalise all of mathematics"
+  ],
+  "answer": 1,
+  "explanation": "Internal models: constructing HoTT models synthetically within HoTT using internal presheaf constructions.",
+  "tags": [
+    "internal-universes",
+    "hott",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "8da60ad0-ac0f-45f2-8764-7f8775df3fa0"
+}

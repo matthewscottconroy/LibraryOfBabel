@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "An inaccessible cardinal κ is one that is:",
+  "choices": [
+    "equal to ω",
+    "uncountable, regular, and a strong limit cardinal",
+    "the Hartogs number of ℕ",
+    "provably consistent with ZFC"
+  ],
+  "answer": 1,
+  "explanation": "Inaccessible: κ is uncountable, regular (cf(κ)=κ), and ∀λ<κ: 2^λ<κ (strong limit). Their existence is not provable in ZFC (large cardinal axiom).",
+  "tags": [
+    "set-theory",
+    "large-cardinals"
+  ],
+  "difficulty": "advanced",
+  "question_id": "584571da-3f21-4548-9212-878af3fb6e78"
+}

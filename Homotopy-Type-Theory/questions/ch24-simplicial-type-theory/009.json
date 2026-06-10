@@ -1,0 +1,20 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A Rezk type (complete Segal space) satisfies: the Segal condition PLUS:",
+  "choices": [
+    "all morphisms are invertible",
+    "isomorphic objects are equal: iso(a,b) → (a=b)",
+    "every morphism factors as epi followed by mono",
+    "the type is an h-set"
+  ],
+  "answer": 1,
+  "explanation": "Completeness (Rezk condition): the type of isomorphisms iso(a,b) is equivalent to the path type (a=b). This is univalence for ∞-categories: isomorphism = identity.",
+  "tags": [
+    "simplicial-TT",
+    "Rezk"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "e564fad8-d76f-4832-bd09-907459a0a4fa"
+}

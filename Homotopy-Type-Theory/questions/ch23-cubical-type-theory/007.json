@@ -1,0 +1,19 @@
+{
+  "question_id": "a05bcbee-3eea-4e79-9a05-10e381748d56",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "tf",
+  "text": "In cubical type theory, function extensionality is a theorem, not an axiom.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Funext follows from the path type: if f g : A → B and h : (x:A) → f x = g x, then λ i → λ x → h x i witnesses f = g as a path in A→B.",
+  "tags": [
+    "cubical-TT",
+    "funext"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

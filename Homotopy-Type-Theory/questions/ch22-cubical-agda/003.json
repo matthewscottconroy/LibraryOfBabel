@@ -1,0 +1,19 @@
+{
+  "question_id": "7f9222f9-8abc-4566-827f-0b634bde0fbd",
+  "chapter": 22,
+  "phase": 6,
+  "kind": "tf",
+  "text": "In Cubical Agda (--cubical), function extensionality is an axiom.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "funExt is a theorem in Cubical Agda: funExt p = λ i x → p x i — just rearranging function arguments.",
+  "tags": [
+    "Cubical-Agda",
+    "funext"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

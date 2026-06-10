@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'anti-modal' types for a modality ◯ are types A with ◯A ≃",
+  "choices": [
+    "A",
+    "1",
+    "0",
+    "ΩA"
+  ],
+  "answer": 1,
+  "explanation": "Anti-modal (or ◯-null types): A is ◯-null if ◯A ≃ 1; e.g. S¹ is connected, so π₀(S¹)=1.",
+  "tags": [
+    "modal-hott",
+    "anti-modal",
+    "null-type"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "f3ec0b57-955e-4ec1-ae31-8eb50c4e0eb2"
+}

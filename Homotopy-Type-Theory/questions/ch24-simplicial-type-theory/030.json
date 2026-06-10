@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The Yoneda lemma in Simplicial TT (for Segal types) states that:",
+  "choices": [
+    "hom_A(a,-) is a contravariant fibration",
+    "hom_A(a,-) is a covariant fibration representing the functor y(a)",
+    "Every Segal type is representable",
+    "hom_A(-,a) is the Yoneda embedding"
+  ],
+  "answer": 1,
+  "explanation": "The Yoneda lemma: Nat(hom_A(a,-), P) ≃ P(a) for covariant fibrations P.",
+  "tags": [
+    "simplicial-type-theory",
+    "yoneda"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "171874d6-e092-4834-b8a7-84c4ba15a848"
+}

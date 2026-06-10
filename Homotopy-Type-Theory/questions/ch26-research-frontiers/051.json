@@ -1,0 +1,21 @@
+{
+  "question_id": "3cc9472c-c56a-4b85-96ee-992d03bd61ca",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "2-Level Type Theory (2LTT) is designed to have:",
+  "choices": [
+    "two universe levels (Type 0 and Type 1)",
+    "both a fibrant layer (with univalence) and a strict layer (without univalence) simultaneously",
+    "two different notions of equality",
+    "a classical and an intuitionistic mode"
+  ],
+  "answer": 1,
+  "explanation": "2LTT (Annenkov-Capriotti-Kraus-Sattler) allows reasoning about both HoTT (fibrant) and strict metatheory in the same system — needed for synthetic approaches to model theory.",
+  "tags": [
+    "2ltt",
+    "research-frontiers"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

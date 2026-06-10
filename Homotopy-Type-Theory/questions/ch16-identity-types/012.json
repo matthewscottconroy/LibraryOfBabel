@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The type of heterogeneous paths (PathP) in Cubical Type Theory is:",
+  "choices": [
+    "paths between elements of the same type",
+    "paths p : P i0 → P i1 over a path of types P: 𝕀 → U",
+    "paths between types",
+    "path-over-a-path"
+  ],
+  "answer": 1,
+  "explanation": "PathP (path-over-a-path): given P: 𝕀→U, PathP P a b is the type of paths i↦p(i) with p(i):P(i), p(0)≡a, p(1)≡b. This generalises transport and is essential in cubical TT.",
+  "tags": [
+    "HoTT",
+    "identity-types",
+    "cubical-TT"
+  ],
+  "difficulty": "advanced",
+  "question_id": "22e5a380-0fb8-49bc-b99c-b1d34ad542b3"
+}

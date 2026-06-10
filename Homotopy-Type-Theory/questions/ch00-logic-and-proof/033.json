@@ -1,0 +1,20 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The undecidability of the halting problem (Turing 1936) implies that first-order logic is:",
+  "choices": [
+    "consistent",
+    "complete",
+    "decidable",
+    "undecidable (validity is not decidable)"
+  ],
+  "answer": 3,
+  "explanation": "Church-Turing theorem: validity in FOL is undecidable (co-RE but not RE). The halting problem reduces to it. Propositional logic is decidable (NP-complete for satisfiability).",
+  "tags": [
+    "logic",
+    "computability"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "6e317806-8cbf-404a-9221-f5740c4ffc03"
+}

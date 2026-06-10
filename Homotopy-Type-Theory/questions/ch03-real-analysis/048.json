@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The dominated convergence theorem allows swapping limit and integral when:",
+  "choices": [
+    "The sequence is uniformly bounded",
+    "There is an integrable dominating function |fₙ| ≤ g with g integrable",
+    "The sequence is monotone increasing",
+    "The functions are continuous"
+  ],
+  "answer": 1,
+  "explanation": "DCT: fₙ→f a.e. and |fₙ|≤g (integrable) imply ∫fₙ→∫f.",
+  "tags": [
+    "dominated-convergence",
+    "lebesgue-integral"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "de67ba3c-4b63-48eb-b10e-392310bb1dbf"
+}

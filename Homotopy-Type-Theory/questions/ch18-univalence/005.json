@@ -1,0 +1,21 @@
+{
+  "question_id": "77b8e7c8-c64f-4459-9ad0-07dbbf24f3ee",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In the half-adjoint equivalence definition, the coherence condition τ says:",
+  "choices": [
+    "g∘f = id",
+    "f∘g = id",
+    "ap_f(η_x) = ε_{f(x)} for all x (two paths in f∘g∘f ~ f agree)",
+    "η and ε are both natural transformations"
+  ],
+  "answer": 2,
+  "explanation": "The coherence condition τ is what makes isEquiv a proposition. Without it (quasi-inverses), isEquiv has multiple inequivalent witnesses.",
+  "tags": [
+    "HoTT",
+    "equivalences"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

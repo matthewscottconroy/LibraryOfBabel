@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which of the following sequent calculi is complete for classical logic?",
+  "choices": [
+    "LJ (intuitionistic sequent calculus)",
+    "LK (classical sequent calculus)",
+    "LL (linear logic)",
+    "BV (deep inference)"
+  ],
+  "answer": 1,
+  "explanation": "LK (Gentzen 1935) is sound and complete for classical propositional and first-order logic. LJ is complete for intuitionistic logic — it restricts the succedent to at most one formula.",
+  "tags": [
+    "proof-theory",
+    "sequent-calculus"
+  ],
+  "difficulty": "beginner",
+  "question_id": "6451edc0-cf40-4b4f-8b07-ec067aed66b1"
+}

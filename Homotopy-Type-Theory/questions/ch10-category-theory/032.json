@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Kleisli category of a monad (T,η,μ) on C has the same objects as C, and morphisms A→B are:",
+  "choices": [
+    "Morphisms TA→B in C",
+    "Morphisms A→TB in C",
+    "Natural transformations TA⇒TB",
+    "Morphisms TA→TB in C"
+  ],
+  "answer": 1,
+  "explanation": "Kleisli morphisms A→_K B are morphisms A→TB in C (Kleisli arrows).",
+  "tags": [
+    "kleisli-category",
+    "monad"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "284c658b-0bcc-4b46-8487-1ab26289e5a1"
+}

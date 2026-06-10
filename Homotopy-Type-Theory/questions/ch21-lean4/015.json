@@ -1,0 +1,20 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, 'simp only [h₁, h₂]' differs from 'simp [h₁, h₂]' in that:",
+  "choices": [
+    "simp only uses h₁ and h₂ but NOT the default simp set (@[simp] lemmas)",
+    "simp only runs faster",
+    "simp only can fail",
+    "simp only applies lemmas left-to-right only"
+  ],
+  "answer": 0,
+  "explanation": "'simp only [h₁, h₂]' uses exactly h₁ and h₂ (disabling the default simp set). 'simp [h₁, h₂]' adds to the default set. Using 'simp only' makes proofs more robust and explicit.",
+  "tags": [
+    "Lean4",
+    "tactics"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "4fe84508-7cff-4c03-81f6-b6423a060f85"
+}

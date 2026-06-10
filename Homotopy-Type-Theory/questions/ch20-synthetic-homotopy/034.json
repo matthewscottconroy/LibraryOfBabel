@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Seifert-van Kampen theorem in HoTT has a stronger version: a pushout of 1-types is a:",
+  "choices": [
+    "Set",
+    "Pushout of groupoids (in the category of 1-types)",
+    "Proposition",
+    "Contractible type"
+  ],
+  "answer": 1,
+  "explanation": "Van Kampen at h-level 1: pushouts of 1-types are computed as pushouts in the (2,1)-category of groupoids.",
+  "tags": [
+    "van-kampen",
+    "groupoid",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "72e848d2-40a9-4767-acde-26f95a865613"
+}

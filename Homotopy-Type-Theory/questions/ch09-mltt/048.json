@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which of the following type theoretic principles corresponds to the axiom of choice in set theory?",
+  "choices": [
+    "Π(x:A).Σ(y:B). P(x,y) → Σ(f:A→B). Π(x:A). P(x,f(x))",
+    "Σ(x:A).B(x) → A",
+    "Π(x:A).B(x) → Σ(x:A).B(x)",
+    "Π(x:A).P(x) → Σ(x:A).P(x)"
+  ],
+  "answer": 0,
+  "explanation": "Type-theoretic AC: Π(x:A).Σ(y:B). P(x,y) → Σ(f:A→B). Π(x:A). P(x, f(x)); provable in MLTT (!)",
+  "tags": [
+    "mltt",
+    "axiom-of-choice",
+    "type-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "050777dd-774a-48cb-9192-a0551c79b2f8"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Gödel's first incompleteness theorem states that any consistent formal system F that can express basic arithmetic:",
+  "choices": [
+    "is decidable",
+    "contains a true statement that is not provable in F",
+    "is inconsistent",
+    "proves its own consistency"
+  ],
+  "answer": 1,
+  "explanation": "Gödel (1931): any consistent, recursively axiomatizable theory interpreting arithmetic is incomplete — it has true-but-unprovable sentences.",
+  "tags": [
+    "logic",
+    "incompleteness"
+  ],
+  "difficulty": "advanced",
+  "question_id": "71227bf9-8400-4130-8b1a-e1d29b143cd0"
+}

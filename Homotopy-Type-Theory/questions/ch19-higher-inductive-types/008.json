@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The pushout A ⊔_C B of spans A ← C → B is a HIT with constructors inl, inr, and:",
+  "choices": [
+    "A higher constructor making C contractible",
+    "glue : Π(c:C). inl(f(c)) = inr(g(c)) (a path constructor for each c:C)",
+    "A point constructor for each pair (a,b)",
+    "Transport along C"
+  ],
+  "answer": 1,
+  "explanation": "Pushout: point constructors inl:A→A⊔_CB and inr:B→A⊔_CB, path constructor glue(c): inl(f(c))=inr(g(c)) for each c:C. The elimination principle requires coherence data.",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "pushouts"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "b90e22d6-1ee2-4127-a666-aa9c559dca3c"
+}

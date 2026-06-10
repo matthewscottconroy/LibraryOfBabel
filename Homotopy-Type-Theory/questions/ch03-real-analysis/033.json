@@ -1,0 +1,18 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The space of square-integrable functions L²([a,b]) is a ___ with inner product ⟨f,g⟩=∫fg.",
+  "choices": [
+    "Hilbert space",
+    "complete inner product space"
+  ],
+  "answer": "hilbert space",
+  "explanation": "L²([a,b]) is a Hilbert space (complete inner product space). It is the canonical example used in quantum mechanics and Fourier analysis.",
+  "tags": [
+    "analysis",
+    "functional-analysis"
+  ],
+  "difficulty": "beginner",
+  "question_id": "f98d4b70-83b7-44aa-970a-7ae8dc4756f3"
+}

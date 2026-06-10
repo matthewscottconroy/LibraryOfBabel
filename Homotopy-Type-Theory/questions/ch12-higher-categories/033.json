@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Lurie's ∞-categorical framework, the ∞-category of ∞-categories is denoted:",
+  "choices": [
+    "Cat",
+    "Cat_∞",
+    "sCat",
+    "Gpd_∞"
+  ],
+  "answer": 1,
+  "explanation": "Lurie uses Cat_∞ for the (large) ∞-category of (small) ∞-categories.",
+  "tags": [
+    "lurie",
+    "infinity-category",
+    "cat-infinity"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b8aa5e6a-b325-43f4-bd75-41332cde4882"
+}

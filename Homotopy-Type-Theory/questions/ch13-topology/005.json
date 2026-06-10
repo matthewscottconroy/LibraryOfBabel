@@ -1,0 +1,21 @@
+{
+  "question_id": "024225b5-815c-4390-b314-6303d152ba53",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A CW complex is built by:",
+  "choices": [
+    "taking a colimit of simplicial sets",
+    "inductively attaching cells Dⁿ along attaching maps from Sⁿ⁻¹",
+    "taking the geometric realisation of a simplicial set",
+    "applying the nerve construction to a groupoid"
+  ],
+  "answer": 1,
+  "explanation": "A CW complex starts with a discrete set of 0-cells and inductively attaches n-cells via maps from the boundary Sⁿ⁻¹. All spheres, surfaces, and RP^n are CW complexes.",
+  "tags": [
+    "topology",
+    "CW-complexes"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which of the following is a colimit?",
+  "choices": [
+    "Product",
+    "Pullback",
+    "Equalizer",
+    "Pushout"
+  ],
+  "answer": 3,
+  "explanation": "Pushouts are colimits of span diagrams; products, pullbacks, equalizers are limits.",
+  "tags": [
+    "colimits",
+    "pushout",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b4ae3107-0b92-4104-ab49-e37d2519cebe"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "c588f0ea-2a92-4419-ac9a-564758375b0b",
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, the hcomp operation:",
+  "choices": [
+    "transports along a path of types",
+    "fills an open box — given a partial cube (tube) and its bottom face, produces the top face",
+    "applies a function to a path",
+    "defines the Glue type"
+  ],
+  "answer": 1,
+  "explanation": "hcomp fills open boxes (partial cubes). It is the computational analogue of Kan filling.",
+  "tags": [
+    "Cubical-Agda",
+    "hcomp"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

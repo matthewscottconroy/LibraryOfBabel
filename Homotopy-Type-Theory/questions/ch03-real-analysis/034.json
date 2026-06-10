@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Fourier series of a 2π-periodic function f converges in L² to f. This convergence is:",
+  "choices": [
+    "pointwise everywhere",
+    "uniform",
+    "in the L² norm (mean-square convergence)",
+    "only if f is continuous"
+  ],
+  "answer": 2,
+  "explanation": "L² convergence of Fourier series: ‖f - Sₙf‖₂ → 0 (Parseval/Riesz-Fischer). Pointwise convergence is more subtle and requires Dini or Dirichlet conditions.",
+  "tags": [
+    "analysis",
+    "Fourier"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "ddee055f-0289-413f-b707-d1c692e73b83"
+}

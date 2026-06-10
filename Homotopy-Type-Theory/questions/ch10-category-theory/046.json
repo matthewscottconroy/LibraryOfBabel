@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A comonad on C is a triple (W, ε, δ) where ε: W⇒Id and δ: W⇒W∘W satisfy:",
+  "choices": [
+    "Counit and comultiplication laws dual to monad axioms",
+    "Monad axioms",
+    "Only the counit law",
+    "Only the comultiplication law"
+  ],
+  "answer": 0,
+  "explanation": "Comonad laws: δ and ε satisfy counit and coassociativity, dual to monad unit/associativity.",
+  "tags": [
+    "comonad",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0bb55bf2-53aa-4e67-91a6-0c4a66f4a0b4"
+}

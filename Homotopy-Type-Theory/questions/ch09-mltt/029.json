@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Intensional MLTT differs from extensional MLTT primarily in that:",
+  "choices": [
+    "Extensional MLTT has decidable type-checking; intensional does not",
+    "Intensional MLTT has decidable type-checking; extensional makes equality reflection a rule which breaks decidability",
+    "They differ only in naming",
+    "Intensional MLTT has axiom K"
+  ],
+  "answer": 1,
+  "explanation": "Extensional MLTT has the equality reflection rule (propositional → definitional equality), which makes type-checking undecidable. Intensional MLTT avoids this.",
+  "tags": [
+    "mltt",
+    "intensional-vs-extensional"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "2a5b6423-a5a8-4a5b-a3e4-5a921cfec021"
+}

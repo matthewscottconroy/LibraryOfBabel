@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A path-connected space X is simply connected if:",
+  "choices": [
+    "π₀(X)=0",
+    "π₁(X,x₀)=0 for some (equivalently all) basepoints",
+    "X is contractible",
+    "X has no holes"
+  ],
+  "answer": 1,
+  "explanation": "Simply connected: path-connected and π₁=0 (every loop is null-homotopic).",
+  "tags": [
+    "simply-connected",
+    "fundamental-group"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "1e6e6ec7-288b-462b-b54a-69fbb95e4a93"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The type Bool has h-level:",
+  "choices": [
+    "−2 (contractible)",
+    "−1 (proposition)",
+    "0 (set)",
+    "1 (groupoid)"
+  ],
+  "answer": 2,
+  "explanation": "Bool = {true, false} is a set: equality is decidable and unique (true≠false).",
+  "tags": [
+    "h-set",
+    "bool"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "0db0d5ed-dcee-4479-ac3e-0dfe6d483223"
+}

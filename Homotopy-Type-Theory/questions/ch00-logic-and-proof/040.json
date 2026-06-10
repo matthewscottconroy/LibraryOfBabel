@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The completeness theorem for propositional logic (Post) states:",
+  "choices": [
+    "Every valid formula is provable",
+    "Every provable formula is valid",
+    "The proof system is consistent",
+    "The logic is decidable"
+  ],
+  "answer": 0,
+  "explanation": "Completeness: ⊨φ implies ⊢φ. Soundness is the converse.",
+  "tags": [
+    "completeness",
+    "propositional-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b2a909cd-f72a-4e88-aa30-fe7f6bfdbe79"
+}

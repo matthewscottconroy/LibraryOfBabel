@@ -1,0 +1,18 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every subgroup of an abelian group is normal.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "In an abelian group, for any subgroup H and g∈G: gH = Hg (since gh = hg for all h). So every subgroup is normal.",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "beginner",
+  "question_id": "37a82607-4c21-417d-9c2f-d3cd7aac2306"
+}

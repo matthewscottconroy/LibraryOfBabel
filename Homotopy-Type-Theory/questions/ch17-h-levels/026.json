@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "blank",
+  "text": "For a type A and n : ℕ, the condition isHLevel(n, A) states that the n-fold iterated ______ of A are contractible.",
+  "choices": [
+    "identity types",
+    "loop spaces",
+    "path fibrations",
+    "transport maps"
+  ],
+  "answer": "identity types",
+  "explanation": "h-levels are defined inductively on identity types: isHLevel(0)=isContr, isHLevel(n+1,A)=all identity types of A have isHLevel(n).",
+  "tags": [
+    "h-level",
+    "definition"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "5000ad48-98ee-4f85-b35b-31101239ac2a"
+}

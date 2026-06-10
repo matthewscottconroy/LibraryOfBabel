@@ -1,0 +1,21 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Brouwer-Heyting-Kolmogorov (BHK) interpretation says a proof of A∧B consists of:",
+  "choices": [
+    "A proof of A or a proof of B",
+    "A proof of A and a proof of B",
+    "A function from proofs of A to proofs of B",
+    "A pair of proof obligations"
+  ],
+  "answer": 1,
+  "explanation": "BHK: proof of A∧B = pair (proof of A, proof of B).",
+  "tags": [
+    "bhk",
+    "intuitionistic-logic"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "d52fe0d8-56eb-4ee4-bbfb-4cf0d5628fed"
+}

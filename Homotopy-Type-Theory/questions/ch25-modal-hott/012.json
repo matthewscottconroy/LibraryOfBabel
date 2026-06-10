@@ -1,0 +1,20 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In modal HoTT, a crisp variable (in the flat context ♭) differs from an ordinary variable in that:",
+  "choices": [
+    "it has no type",
+    "it is treated as a set-level variable not subject to cohesive structure",
+    "it can have arbitrary h-level",
+    "it only applies to natural numbers"
+  ],
+  "answer": 1,
+  "explanation": "Crisp variables (in the ♭-context) are 'discrete': they carry no cohesive/geometric information. The flat modality extracts the underlying discrete set.",
+  "tags": [
+    "modal-HoTT",
+    "cohesion"
+  ],
+  "difficulty": "advanced",
+  "question_id": "00a577e4-201f-41d7-a69d-8de0a3bc5172"
+}

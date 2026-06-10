@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In Curry-style STLC, terms are typed by:",
+  "choices": [
+    "External type annotation on every sub-term",
+    "Inference — types are assigned to undecorated lambda terms",
+    "A global type table",
+    "Self-annotation of each variable"
+  ],
+  "answer": 1,
+  "explanation": "Curry-style assigns types to untyped terms via inference, as opposed to Church-style where every binder is annotated.",
+  "tags": [
+    "stlc",
+    "curry-vs-church"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "2ee892fe-bdcb-47b1-b0c2-ec54c273e6e1"
+}

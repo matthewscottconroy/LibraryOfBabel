@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The join A * B of two types in HoTT is a HIT. Its path constructor links:",
+  "choices": [
+    "inl(a) to inl(b) for a:A, b:B",
+    "inl(a) to inr(b) for each a:A and b:B",
+    "Elements of A×B to inr",
+    "Elements of A to elements of A"
+  ],
+  "answer": 1,
+  "explanation": "A*B: inl:A→A*B; inr:B→A*B; seg:Π(a:A)(b:B). inl(a)=inr(b).",
+  "tags": [
+    "join",
+    "hit"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8791b07e-836e-40ed-a300-66797636b70f"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "67ed7c85-ac58-4170-84a1-41d635d1025e",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The synthetic Yoneda lemma in Segal type theory states that for a Segal type A:",
+  "choices": [
+    "every Segal type is equivalent to a hom type",
+    "natural transformations from hom(a,-) to F are equivalent to elements of F(a)",
+    "every functor has a right adjoint",
+    "A is complete if and only if it is a Kan fibration"
+  ],
+  "answer": 1,
+  "explanation": "Synthetic Yoneda: Nat(hom(a,-), F) ≃ F(a), naturally. This follows from the Segal condition and the fact that hom(a,a) has a canonical element (the identity).",
+  "tags": [
+    "yoneda",
+    "simplicial-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

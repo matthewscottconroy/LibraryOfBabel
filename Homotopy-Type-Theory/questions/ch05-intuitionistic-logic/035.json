@@ -1,0 +1,21 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In intuitionistic propositional logic (IPC), which formula is NOT a tautology?",
+  "choices": [
+    "A→A",
+    "(A→B)→((B→C)→(A→C))",
+    "¬¬A→A",
+    "A→(B→A)"
+  ],
+  "answer": 2,
+  "explanation": "¬¬A→A (double negation elimination) is classically valid but NOT intuitionistically valid.",
+  "tags": [
+    "ipc",
+    "double-negation"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "337c689b-5609-45a6-8943-90653098277e"
+}

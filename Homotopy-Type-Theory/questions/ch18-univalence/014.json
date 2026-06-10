@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Transport along ua(e): A=B for an equivalence e: A≃B acts on a term a:A as:",
+  "choices": [
+    "refl",
+    "the underlying function of e applied to a",
+    "the identity",
+    "the inverse of e"
+  ],
+  "answer": 1,
+  "explanation": "transport(ua(e), a) = e(a) (the underlying function). This is the computation rule for ua (the 'β rule' for univalence). It ensures ua has genuine computational content.",
+  "tags": [
+    "HoTT",
+    "univalence",
+    "transport"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "1c9b7ec1-6ea0-4786-8295-44f3b60e4c1d"
+}

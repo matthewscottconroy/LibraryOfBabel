@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In categorical logic, the Lawvere-Tierney topology on a topos enables the construction of:",
+  "choices": [
+    "Quotient types",
+    "Internal sheaves (a new topos)",
+    "Inductive types",
+    "Kleisli categories"
+  ],
+  "answer": 1,
+  "explanation": "A Lawvere-Tierney topology j: Ω→Ω yields a sheaf subtopos Sh_j(E) ↪ E.",
+  "tags": [
+    "lawvere-tierney",
+    "topos",
+    "sheaves"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "222d2f02-7330-4140-aacc-58fbe4624699"
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Intuitionistic logic can be extended to obtain classical logic by adding which of the following axiom schemas?",
+  "choices": [
+    "¬¬A→A (double negation elimination)",
+    "A→¬A",
+    "A∧¬A",
+    "A→A∧A"
+  ],
+  "answer": 0,
+  "explanation": "IPC + DNE (¬¬A→A) = CPC (classical propositional logic). Equivalently, adding LEM (A∨¬A) gives the same extension.",
+  "tags": [
+    "intuitionistic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "3f7b8929-6cb8-4788-9d86-396cebc8ce01"
+}

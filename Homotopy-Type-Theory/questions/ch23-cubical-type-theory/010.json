@@ -1,0 +1,19 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Cartesian cubical type theory (ABCFHL, Angiuli-Brunerie-Coquand-Favonia-Harper-Licata), the interval structure is:",
+  "choices": [
+    "the De Morgan algebra (with ~)",
+    "only meet (∧) and join (∨) without complement (no ~)",
+    "only constant 0 and 1",
+    "the boolean algebra with exclusive-or"
+  ],
+  "answer": 1,
+  "explanation": "Cartesian cubical TT uses only ∧ and ∨ on I (no complement ~). This means path reversal is not definitional. The advantage: a cleaner computational model.",
+  "tags": [
+    "cubical-TT"
+  ],
+  "difficulty": "advanced",
+  "question_id": "7aa96aad-80c3-4569-be04-8fd8e804991e"
+}

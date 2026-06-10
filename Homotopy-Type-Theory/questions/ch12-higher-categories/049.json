@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The ∞-categorical analogue of 'every category has a nerve' is:",
+  "choices": [
+    "Every ∞-category is a quasicategory",
+    "Every ∞-category has a realisation as a complete Segal space",
+    "The coherent nerve gives an equivalence between homotopy-coherent categories and quasicategories",
+    "All of the above (different but equivalent presentations)"
+  ],
+  "answer": 3,
+  "explanation": "Different models of ∞-categories are all equivalent via Quillen equivalences; nerve/realisation go between models.",
+  "tags": [
+    "infinity-category",
+    "nerve",
+    "models"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "f22e6dd8-1049-4b45-8fd3-1f1e0004a1c9"
+}

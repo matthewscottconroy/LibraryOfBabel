@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The univalence axiom implies function extensionality. The proof goes via:",
+  "choices": [
+    "showing ∥A∥ is a proposition",
+    "using ua to build a path in (A→B) from a homotopy",
+    "applying the J rule directly",
+    "computing π₁(S¹)"
+  ],
+  "answer": 1,
+  "explanation": "Funext from UA: given h:f~g (a homotopy), define a path in (A→B) by transporting along ua(id) or by using the universal property of ua applied to a family. (Details are subtle but this is the main idea.)",
+  "tags": [
+    "HoTT",
+    "univalence",
+    "funext"
+  ],
+  "difficulty": "advanced",
+  "question_id": "7a54c6e1-cdbb-4c59-b0e7-56828ce784a3"
+}

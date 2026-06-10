@@ -1,0 +1,20 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A proposition P in HoTT can be thought of as a (-1)-truncated type. In modal HoTT, a proposition is a type satisfying:",
+  "choices": [
+    "the propositional modality",
+    "isProp(P) = Π(x y:P). x=y",
+    "P is ♭-modal",
+    "P is ♯-modal"
+  ],
+  "answer": 1,
+  "explanation": "isProp(P) = Π(x y:P). x=y. This is unchanged in modal HoTT; modalities (♭, ♯, ∫) are orthogonal to the truncation level hierarchy.",
+  "tags": [
+    "modal-HoTT",
+    "propositions"
+  ],
+  "difficulty": "beginner",
+  "question_id": "34075266-4b45-4122-a0f5-0db441fb72a2"
+}

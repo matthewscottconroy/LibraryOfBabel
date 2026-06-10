@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Spatial Type Theory (Sterling-Angiuli), crisp variables (∷) are variables whose cohesive structure is ignored. This is used for:",
+  "choices": [
+    "Encoding propositions",
+    "Separating 'spatial' from 'crisp' (discrete) reasoning, enabling internal spatial logic",
+    "Avoiding univalence",
+    "Implementing recursion"
+  ],
+  "answer": 1,
+  "explanation": "Spatial TT uses crisp/codiscrete context annotations to reason about the discrete vs. cohesive aspects of types.",
+  "tags": [
+    "spatial-type-theory",
+    "modal-hott",
+    "cohesive"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "fd5418d1-51da-44a3-8f8c-8148cbce359f"
+}

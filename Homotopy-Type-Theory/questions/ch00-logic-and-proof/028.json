@@ -1,0 +1,20 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In first-order logic, a formula φ is logically valid (⊨ φ) iff:",
+  "choices": [
+    "φ is satisfiable in some model",
+    "φ is true in all interpretations",
+    "φ is consistent",
+    "φ has no free variables"
+  ],
+  "answer": 1,
+  "explanation": "Logical validity: ⊨ φ means φ is true in every model (every interpretation). Satisfiability means true in at least one model.",
+  "tags": [
+    "logic",
+    "semantics"
+  ],
+  "difficulty": "beginner",
+  "question_id": "603f830f-e1cc-4fcf-899e-ed97d1a544f7"
+}

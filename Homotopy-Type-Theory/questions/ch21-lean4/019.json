@@ -1,0 +1,21 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Which keyword in Lean 4 introduces a proof by tactics?",
+  "choices": [
+    "proof",
+    "by",
+    "tactic",
+    "qed"
+  ],
+  "answer": 1,
+  "explanation": "In Lean 4, `by` switches to tactic mode: `theorem foo : P := by ...`",
+  "tags": [
+    "lean4",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "c9af1deb-0ff3-4c30-9d02-5cde2aa72f06"
+}

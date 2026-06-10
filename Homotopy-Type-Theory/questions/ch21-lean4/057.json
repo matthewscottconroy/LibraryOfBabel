@@ -1,0 +1,21 @@
+{
+  "question_id": "cabebb05-aac8-49a1-85f7-cce6f1e02d7b",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "To define a recursive function in Lean 4 that Lean cannot automatically prove terminating, you use:",
+  "choices": [
+    "a `partial` declaration (disables termination checking) or a well-founded recursion proof",
+    "the `unsafe` keyword",
+    "a `noncomputable` declaration",
+    "a mutual block"
+  ],
+  "answer": 0,
+  "explanation": "Lean 4 requires termination proofs for recursive functions. `partial` opts out (no termination guarantee). Alternatively, provide a termination_by clause with a measure that decreases.",
+  "tags": [
+    "Lean4",
+    "termination"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

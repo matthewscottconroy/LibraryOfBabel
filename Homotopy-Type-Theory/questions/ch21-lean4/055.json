@@ -1,0 +1,21 @@
+{
+  "question_id": "e189bd85-7259-4c17-ad14-ca3a5785d0b8",
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, a `structure` definition generates:",
+  "choices": [
+    "only an inductive type with one constructor",
+    "an inductive type with one constructor, plus projection functions and dot-notation support",
+    "a typeclass with no default implementations",
+    "a namespace with arbitrary definitions"
+  ],
+  "answer": 1,
+  "explanation": "structure S where field1: T1; field2: T2 generates: constructor S.mk, projections S.field1 and S.field2, and dot notation (s.field1). Also inherits from parent structures.",
+  "tags": [
+    "Lean4",
+    "structures"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

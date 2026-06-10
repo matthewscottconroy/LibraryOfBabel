@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The size of a proof in natural deduction can grow exponentially when eliminating cuts due to:",
+  "choices": [
+    "the number of hypotheses",
+    "duplication: eliminating a cut with a formula proved by two premises may require copying a sub-derivation",
+    "the axioms",
+    "quantifier instantiation"
+  ],
+  "answer": 1,
+  "explanation": "Cut elimination can cause exponential blowup due to duplication of sub-derivations. This is unlike the sequent calculus where the additive rules can sometimes avoid copying.",
+  "tags": [
+    "proof-theory",
+    "complexity"
+  ],
+  "difficulty": "advanced",
+  "question_id": "8578f41e-4360-4b00-87ad-ceefa025d073"
+}

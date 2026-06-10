@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "blank",
+  "text": "In HoTT, the delooping of a group G is a pointed type BG with ΩBG ≃ ______.",
+  "choices": [
+    "G",
+    "π₁(G)",
+    "BG",
+    "the trivial type"
+  ],
+  "answer": "G",
+  "explanation": "Delooping BG: ΩBHG ≃ G (as groups/types); K(G,1) = BG is the delooping.",
+  "tags": [
+    "delooping",
+    "loop-space",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "9ed25151-1619-45bd-96d9-6457a443d557"
+}

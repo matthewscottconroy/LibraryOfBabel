@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Cohomology in HoTT is defined using Eilenberg-MacLane spaces as:",
+  "choices": [
+    "Hⁿ(X;G) = ‖X→K(G,n)‖₀",
+    "Hⁿ(X;G) = πₙ(K(G,0))",
+    "Hⁿ(X;G) = ΩⁿK(G,0)",
+    "Hⁿ(X;G) = πₙ(X)"
+  ],
+  "answer": 0,
+  "explanation": "Hⁿ(X;G) = ‖X→K(G,n)‖₀ = π₀(X→K(G,n)); K(G,n) represents n-cohomology.",
+  "tags": [
+    "cohomology",
+    "eilenberg-maclane",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "ae522f82-100c-43cd-8770-ac0756230cba"
+}

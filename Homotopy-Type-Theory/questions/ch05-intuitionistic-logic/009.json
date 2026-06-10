@@ -1,0 +1,19 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The Kripke completeness theorem states that IPC is complete with respect to ___ semantics.",
+  "choices": [
+    "Kripke",
+    "Kripke frame",
+    "possible world"
+  ],
+  "answer": "kripke",
+  "explanation": "IPC is sound and complete for Kripke semantics (possible worlds with accessibility relation). A formula is a theorem of IPC iff it is forced at every world of every Kripke model.",
+  "tags": [
+    "intuitionistic",
+    "Kripke"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "b2d911df-11e2-458a-9b3a-84fe74f7e5c1"
+}

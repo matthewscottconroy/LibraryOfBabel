@@ -1,0 +1,20 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In MLTT, transport is defined using the J eliminator. Given P:A→U and p:a=_A b, transport P p has type:",
+  "choices": [
+    "P(a)→P(b) — it moves elements along the path",
+    "a=b → P(a)",
+    "P(a)=P(b)",
+    "(a=b)→(P(a)=P(b))"
+  ],
+  "answer": 0,
+  "explanation": "transport P p : P(a) → P(b). Defined by J with motive λy p. P(a)→P(y). Topologically: parallel transport along p.",
+  "tags": [
+    "MLTT",
+    "transport"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "cfa55945-7390-4bc8-802e-ae2ba3c5d27e"
+}

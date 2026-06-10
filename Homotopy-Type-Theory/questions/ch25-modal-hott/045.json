@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Licata-Shulman-Riley's 'Fitch-style' modal lambda calculus, the box modality □A is:",
+  "choices": [
+    "The suspension of A",
+    "A type whose terms are valid in all possible worlds (necessitation)",
+    "The Prop truncation",
+    "An interval type"
+  ],
+  "answer": 1,
+  "explanation": "□A (necessity): terms of □A are available at any stage/world; corresponds to the S4/necessity modality.",
+  "tags": [
+    "fitch-style",
+    "modal-lambda",
+    "box-modality"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "5da3cd71-a78a-4207-97cc-0847686a226f"
+}

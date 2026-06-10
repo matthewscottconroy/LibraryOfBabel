@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In MLTT, what distinguishes large elimination from small elimination?",
+  "choices": [
+    "Large elimination allows the motive to range over types (𝒰), not just propositions",
+    "Large elimination applies to larger data structures",
+    "Small elimination is only for propositions",
+    "Large elimination is computationally irrelevant"
+  ],
+  "answer": 0,
+  "explanation": "Large elimination: ind returns a type (motive has type T→𝒰). Small: motive is T→Prop. Large is needed, e.g., to convert between Bool and 2-element types.",
+  "tags": [
+    "mltt",
+    "large-elimination"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a760acb5-26c2-41a1-94ae-5a48ddaa4f8a"
+}

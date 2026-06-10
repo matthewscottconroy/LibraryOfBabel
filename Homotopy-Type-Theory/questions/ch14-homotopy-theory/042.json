@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The loop-suspension adjunction states: [ΣX,Y] ≅ [X,ΩY] because:",
+  "choices": [
+    "ΣX and ΩY are always homotopy equivalent",
+    "Σ ⊣ Ω as functors on pointed spaces",
+    "Every map ΣX→Y factors through ΩY",
+    "Loop spaces are contractible"
+  ],
+  "answer": 1,
+  "explanation": "Σ ⊣ Ω: adjunction between reduced suspension and loop space functors on pointed spaces.",
+  "tags": [
+    "loop-suspension-adjunction",
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "9a1d6ad3-2aa4-47f2-89ee-de3f65a82450"
+}

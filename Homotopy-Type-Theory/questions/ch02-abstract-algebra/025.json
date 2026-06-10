@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Eisenstein's criterion says: a polynomial f(x) = aₙxⁿ+⋯+a₀ ∈ ℤ[x] is irreducible over ℚ if there is a prime p such that:",
+  "choices": [
+    "p|aₙ",
+    "p∤aₙ, p|a₀,…,p|aₙ₋₁, p²∤a₀",
+    "p divides all coefficients",
+    "p is a root of f"
+  ],
+  "answer": 1,
+  "explanation": "Eisenstein: p∤aₙ, p|aᵢ for 0≤i<n, p²∤a₀ ⟹ f is irreducible over ℚ. E.g., x^p - p is irreducible (Eisenstein with prime p).",
+  "tags": [
+    "algebra",
+    "polynomials"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "78674f13-498d-479a-8d59-9c6cab465db2"
+}

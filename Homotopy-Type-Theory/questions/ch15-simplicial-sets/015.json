@@ -1,0 +1,20 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The nerve N(C) of a category C is always:",
+  "choices": [
+    "a Kan complex",
+    "a quasi-category (inner Kan complex) but not necessarily a Kan complex",
+    "just a set",
+    "a strict 2-category"
+  ],
+  "answer": 1,
+  "explanation": "N(C) satisfies the inner horn conditions exactly (a strict category has unique inner horn fillers). But outer horns (k=0,n) may not fill, so N(C) is not a Kan complex unless all morphisms are invertible.",
+  "tags": [
+    "simplicial-sets",
+    "nerve"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "64812e79-0ba9-4759-bc2a-1ca507a53f7e"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The geometric realisation |X| of a simplicial set X is constructed by:",
+  "choices": [
+    "Taking the colimit of the diagram X_• over Δ",
+    "Gluing standard simplices |Δ[n]| according to the face/degeneracy structure of X",
+    "Taking the nerve of the category of elements",
+    "Taking the limit of the cosimplicial space"
+  ],
+  "answer": 1,
+  "explanation": "|X| = (∐ Xₙ × |Δⁿ|) / (face and degeneracy identifications); this is the coend X ⊗_Δ |Δ^−|.",
+  "tags": [
+    "geometric-realisation",
+    "simplicial-set"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "038bd7ad-75d5-4174-91a8-f06d21e667cb"
+}

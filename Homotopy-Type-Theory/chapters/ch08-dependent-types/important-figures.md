@@ -1,0 +1,66 @@
+# Important Figures
+
+## Nicolaas Govert de Bruijn (1918–2012)
+*Dutch mathematician who built the first machine-checkable proof system — a dependent type theory in practice.*
+
+Nicolaas de Bruijn was a mathematician at Eindhoven whose primary research was in analysis, combinatorics, and number theory. He is best known in combinatorics for the de Bruijn sequence (a cyclic sequence in which every possible subsequence of a given length appears exactly once) and in asymptotics for the Laplace-de Bruijn method. But his most lasting contribution to logic and computer science was the AUTOMATH project, which he began in 1967.
+
+AUTOMATH (AUTOmated MATHematics) was motivated by a simple question: can we write down mathematical proofs in a language that a computer can verify? De Bruijn designed a formal language — essentially a dependent type theory — in which books of mathematics could be mechanically checked for correctness. AUTOMATH was not derived from Martin-Löf's work (which came later) but arrived at many of the same ideas independently: propositions as types, proofs as terms, and type-checking as proof verification. The AUTOMATH language distinguished *types* from *terms* and allowed types to depend on terms, making it a genuine dependent type system. Several significant mathematical texts were fully formalized in AUTOMATH, including large parts of Landau's *Grundlagen der Analysis*.
+
+Two technical contributions from AUTOMATH are now standard throughout computer science. *De Bruijn indices* represent bound variables by their distance (in number of binders) from their binding site, rather than by name. This eliminates all issues of variable capture and alpha-equivalence and is used in the implementation of essentially every proof assistant today. *Definitional equality* — the identification of terms that reduce to the same normal form — as a primitive notion (not requiring a proof, just a computation) is also traceable to the AUTOMATH design. De Bruijn continued to think about the foundations of AUTOMATH and related systems well into his later years, publishing reflections on its design and philosophy as late as the 2000s.
+
+---
+
+## Per Martin-Löf (1942–present)
+*Swedish logician and philosopher who created Martin-Löf Type Theory, the foundation of modern proof assistants and HoTT.*
+
+Per Martin-Löf occupies a unique position: he is both the creator of the primary formal system used in proof assistants today and a philosopher of mathematics whose writings on the nature of judgment, evidence, and constructive truth are among the most serious in the field. Trained as a statistician and probabilist (his early work was on infinite-dimensional probability measures and randomness), he moved into logic and foundations in the late 1960s, studying with Kreisel and Prawitz before developing his own type theory.
+
+The first version of Martin-Löf Type Theory appeared in a 1971 preprint. Girard showed it was inconsistent (by encoding the Burali-Forti paradox — the paradox of the largest ordinal — using a type-in-itself universe $U : U$). Martin-Löf's response was the *predicative* type theory of the 1975 Logic Colloquium paper, which introduced the universe hierarchy $U_0 : U_1 : U_2 : \cdots$ to avoid paradox. Subsequent versions refined the identity type (introducing the $J$ rule — the elimination principle for identity types that is now central to HoTT's path induction), added dependent sum types, and gave increasingly careful treatments of the four judgment forms. The 1984 Bibliopolis notes (transcribed from his 1980 Padova lectures) represent the mature system.
+
+Martin-Löf's philosophical contributions are inseparable from his technical ones. His distinction between *judgments* (such as "A is a type" and "a : A") and *propositions* (which are types, hence objects of judgment) — developed in "Truth of a Proposition, Evidence of a Judgement, Validity of a Proof" (1987) and "Analytic and Synthetic Judgements in Type Theory" (1994) — is a sophisticated response to Frege, Husserl, and Kant. His view that a type theory is a *theory of meaning* for constructive mathematics (not just a formal calculus) distinguishes him from purely technical type theorists. Every proof assistant based on dependent type theory — Coq, Agda, Lean, Idris — builds on his formal system, and HoTT's identity types, path induction, and the univalence axiom are all extensions of Martin-Löf's foundational framework.
+
+---
+
+## Thierry Coquand (1961–present)
+*French logician who developed the Calculus of Constructions, cofounded Coq, and pioneered computational interpretations of HoTT.*
+
+Thierry Coquand did his doctoral research under Gérard Huet at INRIA Paris in the mid-1980s, producing a thesis that introduced the *Calculus of Constructions* (CoC). CoC unified Martin-Löf's dependent types with Girard's System F in a single framework, organized by the *lambda cube* — a diagram that maps out eight typed lambda calculi corresponding to the four possible combinations of allowing terms to depend on types, types on types, types on terms, and terms on terms. CoC sits at the richest corner of the cube. The 1988 paper with Huet, "The Calculus of Constructions," proved the fundamental metatheory: decidability of type checking, strong normalization, and consistency.
+
+Coquand also contributed to the *implementation* of proof assistants: the Coq system (originally called CoC, then renamed) grew out of his and Paulin-Mohring's work at INRIA. His proof of the Cantor-Bendixson theorem in CoC was one of the first fully machine-checked theorems in a dependent type theory. Beyond Coq, Coquand has made major contributions to constructive set theory, the theory of type-theoretic universes, and — most recently and prominently — to *cubical type theory*. In a series of papers from 2015 onward (with Bezem, Huber, and Mörtberg), Coquand developed a computational interpretation of homotopy type theory in which the univalence axiom holds by definition, not as an additional postulate. Cubical Agda, implementing this system, allows all of HoTT's constructions to be fully computed. This is arguably the most important development in the foundations of HoTT since Voevodsky's original conjecture.
+
+---
+
+## Christine Paulin-Mohring (1962–present)
+*French computer scientist who introduced inductive types to the Calculus of Constructions, creating the type theory underlying Coq.*
+
+Christine Paulin-Mohring's doctoral thesis at ENS Lyon, defended in 1989 and supervised by Gérard Huet, extended Coquand's Calculus of Constructions with *inductive types*, creating what is now called the *Calculus of Inductive Constructions* (CIC) — the type theory that Coq actually implements. The original CoC could only encode inductive types via impredicative quantification (a technique from System F that works in theory but is computationally expensive and logically restricted). Paulin-Mohring showed how to add inductive types *directly* as a primitive feature, with an explicit specification of their constructors and a general schema for generating their recursors.
+
+The key contribution is the *inductive definition schema*: given a list of constructor types satisfying a "strict positivity" condition (ensuring that the inductive type does not appear in a "negative" position in any constructor, which would allow paradoxes), the system generates the type together with its recursor, computes the reduction rules for the recursor, and verifies that the extension is logically consistent. This framework encompasses the natural numbers, lists, vectors, binary trees, well-founded trees (W-types), and all the inductive types used throughout this chapter and the rest of the textbook. The strict positivity condition is the precise formalization of the intuition that an inductive type is built up "from below" — its constructors only refer to previously constructed objects. Paulin-Mohring also developed the `Program` framework in Coq for writing certified functional programs using tactics. Her contribution of inductive types to CoC is the technical foundation that makes Coq's library of formalized mathematics possible.
+
+---
+
+## Frank Pfenning (1962–present)
+*American logician and computer scientist who developed the LF logical framework, Twelf, and the theory of dependently typed logical frameworks.*
+
+Frank Pfenning has been a professor at Carnegie Mellon since 1989, where he leads a group working on proof theory, type theory, and programming language foundations. His main contribution relevant to this chapter is the *Edinburgh Logical Framework* (LF, also called the $\lambda\Pi$-calculus), developed with Robert Harper and Conal Elliott in the late 1980s. LF is a dependently typed lambda calculus — a fragment of MLTT with only $\Pi$ types and no $\Sigma$ types or inductive types — designed specifically as a *meta-language for encoding logics and type theories*. In LF, you represent a logic by encoding its types as LF types and its derivations as LF terms; the LF type checker then verifies that your "proofs" are well-formed derivations in the encoded logic.
+
+*Twelf* is Pfenning's implementation of LF, which became the standard tool for mechanizing proofs about programming language metatheory in the 1990s and 2000s. Type safety proofs for ML, subject reduction for the pi-calculus, and the cut elimination theorem for classical logic have all been verified in Twelf. Pfenning's work on *linear logic* and *substructural type systems* (type systems where the structural rules of weakening and contraction are restricted) connects dependent types to resource-sensitive computation. His work on *proof-carrying code* (with George Necula) showed how dependent types could be used as certificates of program safety — a practical application of the Curry-Howard correspondence to systems software. Pfenning's lecture notes (for his courses 15-317 and 15-814 at CMU) are widely used and freely available; they provide one of the best structured introductions to proof theory and dependent type theory.
+
+---
+
+## Philip Wadler (1956–present)
+*Computer scientist who has explored applications of dependent types and monads to programming language design.*
+
+Philip Wadler's contributions to dependent types are primarily on the applied side: he has worked to bring the ideas of dependent type theory closer to practical programming. His advocacy for richer type systems — including type classes (which he co-designed for Haskell), monads, and the Curry-Howard perspective — has shaped mainstream functional programming in ways that reflect the ideas of this chapter even when the language does not have full dependent types. His co-design of GJ (Generics for Java) brought a form of universal quantification ($\forall$ types, in the System F sense) to Java, and his work on "Featherweight Java" provides a clean formal model for reasoning about object-oriented programs using type-theoretic tools.
+
+Wadler has also advocated explicitly for bringing dependent types into mainstream programming languages, and his collaborations on languages like Links and the design discussions around Haskell's dependent types feature reflect a sustained effort to translate the theoretical ideas of this chapter into practical tools. His 1989 "Theorems for Free!" paper, while primarily about parametricity (Chapter 7), has a direct application to dependent types: the free theorems for dependently typed functions are even more powerful, since the type carries more information. His 2015 CACM paper "Propositions as Types" situates dependent types in the broader history of the Curry-Howard correspondence, giving the most accessible account of why dependent types are the natural completion of the correspondence that Curry and Howard began.
+
+---
+
+## Ulf Norell (1979–present)
+*Swedish computer scientist and primary designer of the Agda proof assistant.*
+
+Ulf Norell's doctoral thesis, "Towards a Practical Programming Language Based on Dependent Type Theory" (Chalmers, 2007), introduced Agda 2 — the modern version of Agda that is now one of the two most widely used proof assistants for dependently typed programming (alongside Coq). Norell designed Agda to be both a practical programming language and a proof assistant, with an emphasis on readability, interactive development, and the use of Unicode identifiers that let proofs look like mathematical notation.
+
+Norell's specific technical contributions include the design of Agda's *pattern matching with dependent types*, the `with` abstraction (which allows you to pattern-match on the result of a function call while retaining information about its structure), the *dot patterns* that mark forced constructor arguments in dependent pattern matching, and Agda's *universe polymorphism* (allowing quantification over universe levels). These features make it possible to write programs like `Vec`-based `zip`, `splitAt`, and `lookup` with precise dependent types, and to give proofs that these programs satisfy their specifications. Norell's Agda tutorial, "Dependently Typed Programming in Agda" (2008), remains the standard introduction to the system and has introduced thousands of students and researchers to dependent type programming through the running example of vectors and the dependent types needed to make them safe.

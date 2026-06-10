@@ -1,0 +1,20 @@
+{
+  "question_id": "10e012c8-d4cf-45d9-ae64-ea1469d5ce98",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The ___ rule for identity types says: to prove P(y,p) for all y:A and p:x=y, it suffices to give the case P(x, refl).",
+  "choices": [
+    "J",
+    "path induction"
+  ],
+  "answer": "j",
+  "explanation": "The J rule (path induction) is the eliminator for the identity type. It captures the idea that every path is homotopic to a reflexivity path.",
+  "tags": [
+    "MLTT",
+    "identity-types",
+    "paths"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

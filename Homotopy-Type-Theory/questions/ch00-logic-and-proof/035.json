@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which inference rule is: from ⊢ φ and ⊢ φ→ψ, conclude ⊢ ψ?",
+  "choices": [
+    "Modus tollens",
+    "Modus ponens",
+    "Hypothetical syllogism",
+    "Disjunction introduction"
+  ],
+  "answer": 1,
+  "explanation": "Modus ponens: from φ and φ→ψ, infer ψ.",
+  "tags": [
+    "propositional-logic",
+    "inference"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "73fbba9a-17c9-4d2e-814a-4337075108b1"
+}

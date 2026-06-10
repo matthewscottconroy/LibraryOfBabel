@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The open mapping theorem says: if f: X → Y is a surjective bounded linear operator between Banach spaces, then:",
+  "choices": [
+    "f is an isomorphism",
+    "f maps open sets to open sets (is an open map)",
+    "f has a bounded inverse",
+    "ker(f) = {0}"
+  ],
+  "answer": 1,
+  "explanation": "Open mapping theorem (Banach-Schauder): a surjective bounded linear map between Banach spaces is an open map. If also injective, the inverse is bounded.",
+  "tags": [
+    "analysis",
+    "functional-analysis"
+  ],
+  "difficulty": "advanced",
+  "question_id": "6789e6d9-60b1-4805-acc5-73f8ba5868ae"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'comprehensive factorisation system' in Simplicial TT factors any functor f: A→B as:",
+  "choices": [
+    "A left fibration followed by an equivalence",
+    "A coCartesian fibration followed by a right fibration",
+    "An equivalence followed by an inner fibration",
+    "A sequence of Segal conditions"
+  ],
+  "answer": 0,
+  "explanation": "The (coCartesian, right fibration) or (left fib, equivalence) factorisation systems in ∞-cat theory.",
+  "tags": [
+    "simplicial-type-theory",
+    "factorisation-system"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "38ddd896-09f4-4cb4-9400-d3df4b170764"
+}

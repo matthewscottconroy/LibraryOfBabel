@@ -1,0 +1,20 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A complete Segal space (Rezk 2001) is a simplicial space W such that:",
+  "choices": [
+    "all Segal maps are isomorphisms",
+    "the Segal maps are equivalences (Segal condition) AND the map from equivalences to identities is a weak equivalence (completeness)",
+    "W is a Kan complex",
+    "W is a nerve of a 1-category"
+  ],
+  "answer": 1,
+  "explanation": "Complete Segal spaces (Rezk): the Segal condition makes W a Segal space (homotopy-coherent category); completeness adds the Rezk condition (iso=identity). They model (∞,1)-categories.",
+  "tags": [
+    "higher-categories",
+    "Segal-spaces"
+  ],
+  "difficulty": "advanced",
+  "question_id": "26a688d8-37cf-478e-8636-c19f3b0ea2bf"
+}

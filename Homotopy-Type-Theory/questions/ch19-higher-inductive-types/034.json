@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Eilenberg-MacLane type K(G,1) in HoTT is constructed as:",
+  "choices": [
+    "A HIT with one point and for each g:G a loop, plus coherence paths for group operations",
+    "The classifying space BG via simplicial methods",
+    "A Σ-type over G",
+    "Both A and B"
+  ],
+  "answer": 3,
+  "explanation": "K(G,1) = BG can be constructed as a HIT (delooping) or via simplicial methods; both approaches work.",
+  "tags": [
+    "eilenberg-maclane",
+    "hit",
+    "delooping"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "1f1dff3d-39b3-40d1-bd6f-35617e346542"
+}

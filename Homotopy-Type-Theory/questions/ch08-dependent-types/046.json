@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A split context (or display map) in categorical semantics of dependent types represents:",
+  "choices": [
+    "A morphism in a CCC",
+    "A fibration over a context (interpreting a type in context)",
+    "A product of types",
+    "A comonadic operation"
+  ],
+  "answer": 1,
+  "explanation": "Display maps (locally Cartesian closed structure) interpret type families as fibrations.",
+  "tags": [
+    "display-map",
+    "categorical-semantics",
+    "dependent-types"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "97dc1086-4888-4901-82d0-8b6aca9e09ee"
+}

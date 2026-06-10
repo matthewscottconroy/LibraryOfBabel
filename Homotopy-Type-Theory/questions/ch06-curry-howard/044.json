@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Under Curry-Howard, the β-reduction rule (λx.t)u → t[u/x] corresponds to:",
+  "choices": [
+    "Proof weakening",
+    "Proof cut elimination / normalisation",
+    "Adding a hypothesis",
+    "Proof by contradiction"
+  ],
+  "answer": 1,
+  "explanation": "β-reduction in λ-calculus corresponds to cut elimination / proof normalisation in natural deduction.",
+  "tags": [
+    "beta-reduction",
+    "normalisation",
+    "curry-howard"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8efd25e6-5878-4b06-99b2-ce72959e548c"
+}

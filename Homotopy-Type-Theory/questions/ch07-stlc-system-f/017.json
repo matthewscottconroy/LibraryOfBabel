@@ -1,0 +1,20 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Curry-Howard correspondent of universal quantification ∀α.A(α) in second-order logic is:",
+  "choices": [
+    "dependent function type Π(x:A).B(x)",
+    "polymorphic type ∀α.A (type variable quantification in System F)",
+    "existential type ∃α.A(α)",
+    "the product type A × B"
+  ],
+  "answer": 1,
+  "explanation": "In System F, ∀α.T is the type of polymorphic functions that work uniformly for any type α — the computational content of the universal quantifier in second-order logic.",
+  "tags": [
+    "System-F",
+    "curry-howard"
+  ],
+  "difficulty": "advanced",
+  "question_id": "a3e83caf-b1f7-46ed-9240-80967bc3e696"
+}

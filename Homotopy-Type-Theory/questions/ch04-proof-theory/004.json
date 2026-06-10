@@ -1,0 +1,20 @@
+{
+  "question_id": "a7ef27fe-3889-4679-8185-e0a8afe6e5f1",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The subformula property says that in a normal proof of A:",
+  "choices": [
+    "all formulas are atomic",
+    "every formula occurring in the proof is a subformula of A or of a hypothesis",
+    "every formula is provable from A alone",
+    "A is a conjunction of atoms"
+  ],
+  "answer": 1,
+  "explanation": "Subformula property follows from normalisation / cut elimination. It means proofs are 'analytic'.",
+  "tags": [
+    "proof-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In a dependently typed language, the 'with abstraction' or 'inspect' pattern is used to:",
+  "choices": [
+    "Avoid termination issues",
+    "Retain the equation relating an expression to its value during pattern matching",
+    "Convert between isomorphic types",
+    "Automatically infer universe levels"
+  ],
+  "answer": 1,
+  "explanation": "'with' / inspect: when pattern-matching on e, retain the proof that e equals its matched value for further reasoning.",
+  "tags": [
+    "with-abstraction",
+    "dependent-types",
+    "pattern-matching"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "3429fe45-dfbe-4eac-a97e-ab620d781a43"
+}

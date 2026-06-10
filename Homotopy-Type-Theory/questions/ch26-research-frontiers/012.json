@@ -1,0 +1,20 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The programme of 'formalised mathematics' refers to:",
+  "choices": [
+    "programming in formal languages only",
+    "expressing and verifying mathematical theorems in proof assistants (Lean, Agda, Coq, etc.) to the level of machine-checked correctness",
+    "informal mathematical writing",
+    "algorithmic number theory only"
+  ],
+  "answer": 1,
+  "explanation": "Formalised mathematics: statements and proofs verified by a proof assistant's type checker. Mathlib4, UniMath, and the Agda libraries are major examples.",
+  "tags": [
+    "research",
+    "proof-assistants"
+  ],
+  "difficulty": "beginner",
+  "question_id": "767543b4-d1f2-4da8-ad80-a36c71eb24c0"
+}

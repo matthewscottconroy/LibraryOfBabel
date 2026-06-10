@@ -1,0 +1,21 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The open sets of a topological space form a complete Heyting algebra, where A→B is interpreted as:",
+  "choices": [
+    "A∩B",
+    "the interior of (X\\A)∪B (the largest open set U with U∩A⊆B)",
+    "A∪B",
+    "the closure of B"
+  ],
+  "answer": 1,
+  "explanation": "In the Heyting algebra of open sets: A→B = int((X∖A)∪B) = the largest open U such that U∩A ⊆ B. Negation ¬A = int(X∖A) = interior of the complement.",
+  "tags": [
+    "intuitionistic",
+    "Heyting",
+    "topology"
+  ],
+  "difficulty": "advanced",
+  "question_id": "71258939-ee15-48fe-bb7d-7946888cddba"
+}

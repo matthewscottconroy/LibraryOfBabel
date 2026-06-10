@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A presheaf on C is a functor:",
+  "choices": [
+    "C → Set",
+    "C^op → Set",
+    "Set → C",
+    "C → C"
+  ],
+  "answer": 1,
+  "explanation": "Presheaf on C: contravariant functor C^op → Set.",
+  "tags": [
+    "presheaf",
+    "category-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "71a99b97-a9bd-4cfa-a54c-4ecd1ec0c0ea"
+}

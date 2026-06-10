@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `decide` closes goals that are:",
+  "choices": [
+    "Provable by omega",
+    "Decidable propositions (computable instances of Decidable)",
+    "Any proposition",
+    "Linear arithmetic"
+  ],
+  "answer": 1,
+  "explanation": "`decide` evaluates a Decidable instance at compile time; works for decidable goals.",
+  "tags": [
+    "lean4",
+    "decide",
+    "decidable"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "4e6f9714-5cea-4e07-9593-ccdd427cbafc"
+}

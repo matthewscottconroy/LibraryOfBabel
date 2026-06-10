@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of the following is an example of a non-abelian group?",
+  "choices": [
+    "(ℤ, +)",
+    "(ℝ\\{0}, ×)",
+    "The symmetric group S₃",
+    "(ℤ/nℤ, +)"
+  ],
+  "answer": 2,
+  "explanation": "S₃ (permutations of 3 elements) is non-abelian: (12)(13) ≠ (13)(12). It is the smallest non-abelian group, with order 6.",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "beginner",
+  "question_id": "dfc10625-0567-46c1-88b9-c1cc8af074c0"
+}

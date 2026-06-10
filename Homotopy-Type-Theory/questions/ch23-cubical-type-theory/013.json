@@ -1,0 +1,20 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In cubical type theory, the 'fill' operation is related to 'hcomp' by:",
+  "choices": [
+    "they are completely independent",
+    "fill gives the entire path (filling a box) while hcomp gives only the top face",
+    "fill is the inverse of hcomp",
+    "fill requires univalence"
+  ],
+  "answer": 1,
+  "explanation": "hcomp u u0 : A i1 gives the top face. fill u u0 : ∀ i → A i gives the entire path (the whole box). fill(u)(u0)(i) = hcomp (λ j → ...) u0 with a suitable truncation.",
+  "tags": [
+    "cubical-TT",
+    "hcomp"
+  ],
+  "difficulty": "advanced",
+  "question_id": "a84954af-957c-4f20-97a0-30785ee9c535"
+}

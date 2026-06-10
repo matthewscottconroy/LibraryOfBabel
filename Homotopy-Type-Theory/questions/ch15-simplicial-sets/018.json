@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A simplicial set X is a functor X: Δ^op → Set. The category Δ has objects [n] = {0,…,n} and morphisms are:",
+  "choices": [
+    "All functions {0,…,n}→{0,…,m}",
+    "Order-preserving functions",
+    "Injections only",
+    "Bijections"
+  ],
+  "answer": 1,
+  "explanation": "Δ is the simplex category: objects [n], morphisms weakly order-preserving functions.",
+  "tags": [
+    "simplicial-set",
+    "delta-category"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "d9d26d53-51cd-4a74-b786-675fb39bd078"
+}

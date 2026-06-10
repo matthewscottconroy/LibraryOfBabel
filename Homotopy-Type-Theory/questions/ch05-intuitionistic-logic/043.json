@@ -1,0 +1,21 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The disjunction property of IPC states: if ⊢ A∨B then ⊢ A or ______.",
+  "choices": [
+    "⊢ B",
+    "⊢ ¬A",
+    "⊢ A∧B",
+    "A=B"
+  ],
+  "answer": "⊢ B",
+  "explanation": "Disjunction property (Harrop): IPC ⊢ A∨B implies IPC ⊢ A or IPC ⊢ B.",
+  "tags": [
+    "disjunction-property",
+    "ipc"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "48c1ed93-9a69-417f-8535-438c71a8b5c2"
+}

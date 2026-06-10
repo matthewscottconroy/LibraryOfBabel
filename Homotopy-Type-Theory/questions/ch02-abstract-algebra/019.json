@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The quotient group G/N is defined when N is a ___ subgroup of G.",
+  "choices": [
+    "cyclic",
+    "normal",
+    "abelian",
+    "maximal"
+  ],
+  "answer": 1,
+  "explanation": "G/N is well-defined (the cosets form a group) iff N is normal (gNg⁻¹=N for all g). Normality makes the coset multiplication well-defined.",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "beginner",
+  "question_id": "0dd0283b-5ea5-4ae1-adce-6bdc681959b4"
+}

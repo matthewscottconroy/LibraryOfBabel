@@ -1,0 +1,20 @@
+{
+  "question_id": "3c993f4c-6e1e-41ca-b56b-0dff30790659",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "MLTT has four kinds of judgment. Which is NOT one of them?",
+  "choices": [
+    "A is a type",
+    "a : A",
+    "A = B (type equality)",
+    "A ⊆ B (subtype)"
+  ],
+  "answer": 3,
+  "explanation": "The four judgments: A type, A = B type, a : A, a = b : A. Subtyping is not a primitive in MLTT.",
+  "tags": [
+    "MLTT"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A Gray-category is a 3-dimensional categorical structure where interchange holds:",
+  "choices": [
+    "Strictly",
+    "Only up to invertible 3-cells",
+    "Up to a non-invertible Gray-tensor interchange",
+    "Not at all"
+  ],
+  "answer": 2,
+  "explanation": "Gray-categories use the Gray tensor product where interchange holds up to a non-invertible 3-cell.",
+  "tags": [
+    "gray-category",
+    "higher-categories",
+    "interchange"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "145f6d49-dfbf-46a8-a699-ec7476a54986"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The real line ℝ in real-cohesive HoTT has the property that its shape ʃ(ℝ) is:",
+  "choices": [
+    "ℤ",
+    "S¹",
+    "Contractible (≃ 1)",
+    "ℝ itself"
+  ],
+  "answer": 2,
+  "explanation": "Real-cohesion axiom: ʃ(ℝ) ≃ 1 (the real line is contractible as a shape); this enables classical theorems.",
+  "tags": [
+    "real-cohesive-hott",
+    "shape",
+    "real-line"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "810018e0-316b-4a2d-92bb-7682e09ed4f6"
+}

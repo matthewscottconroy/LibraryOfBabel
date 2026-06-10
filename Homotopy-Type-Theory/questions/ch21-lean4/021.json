@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `simp` tactic in Lean 4 proves goals by:",
+  "choices": [
+    "Induction on the main variable",
+    "Applying a set of rewrite rules (the simp set) repeatedly until the goal is solved or in normal form",
+    "Calling an external SAT solver",
+    "Unfolding all definitions"
+  ],
+  "answer": 1,
+  "explanation": "`simp` is a congruence-closure and rewriting tactic using the registered simp lemmas.",
+  "tags": [
+    "lean4",
+    "simp",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "87011470-d841-4e67-bc0c-1c43c291095b"
+}

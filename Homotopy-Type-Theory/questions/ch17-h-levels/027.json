@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The type ℕ (natural numbers) has h-level:",
+  "choices": [
+    "-2 (contractible)",
+    "-1 (proposition)",
+    "0 (set)",
+    "1 (groupoid)"
+  ],
+  "answer": 2,
+  "explanation": "ℕ is an h-set (discrete type): equality of natural numbers is decidable and any two proofs of n=m are equal.",
+  "tags": [
+    "h-set",
+    "natural-numbers"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8aabd5c2-29df-4fe4-a0f1-78dc00436355"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "0e317f75-7168-425b-a414-7c6754a49495",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Path induction (J) is justified topologically because the total path space Σ(y:A). a=y is:",
+  "choices": [
+    "the loop space ΩA",
+    "contractible",
+    "the free group on A",
+    "the suspension ΣA"
+  ],
+  "answer": 1,
+  "explanation": "The total path space Σ(y:A).a=y is contractible (homotopy-theoretically it is a cone), so induction on paths is trivial by J.",
+  "tags": [
+    "HoTT",
+    "J-rule"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

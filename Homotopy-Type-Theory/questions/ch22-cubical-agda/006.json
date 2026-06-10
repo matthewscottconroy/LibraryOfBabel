@@ -1,0 +1,20 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda (--cubical flag), path concatenation p ∙ q is defined using:",
+  "choices": [
+    "the J eliminator",
+    "the hcomp operation with a suitable partial element",
+    "refl only",
+    "the Glue type"
+  ],
+  "answer": 1,
+  "explanation": "In cubical: (p ∙ q) i = hcomp (λ j → λ {(i=i0) → p i0; (i=i1) → q j}) (p i). The hcomp fills an open box from p and q.",
+  "tags": [
+    "Cubical-Agda",
+    "paths"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "61e632c9-32c6-4904-a412-456736630fff"
+}

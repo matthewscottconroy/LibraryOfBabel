@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, `PathP` is used when:",
+  "choices": [
+    "The path endpoints have different types (over a family)",
+    "You need a path in ℤ",
+    "You want to avoid funext",
+    "You need a 2-path"
+  ],
+  "answer": 0,
+  "explanation": "PathP P a b: dependent path over family P:I→Type, with a:P i0 and b:P i1.",
+  "tags": [
+    "cubical-agda",
+    "PathP",
+    "dependent-path"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "dcfb9fba-9d56-420e-9a02-35ec55a9b7ca"
+}

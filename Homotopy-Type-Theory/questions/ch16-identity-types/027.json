@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Path induction (J) says: to prove P(x,y,p) for any x,y:A and p:x=y, it suffices to prove:",
+  "choices": [
+    "P(x,x,refl) for all x",
+    "P(a,b,q) for a fixed a,b,q",
+    "P(x,y,refl) for all x,y",
+    "P for all reflexivity paths only"
+  ],
+  "answer": 0,
+  "explanation": "J (based path induction): P holds for all paths iff P(x, x, refl) holds for all x.",
+  "tags": [
+    "j-eliminator",
+    "path-induction"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "3aeb2015-d0a5-4244-b4c9-62fc2b7ccc94"
+}

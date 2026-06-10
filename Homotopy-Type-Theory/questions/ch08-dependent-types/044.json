@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The 'K axiom' (Streicher) in dependent type theory states:",
+  "choices": [
+    "All types have a unique element",
+    "All proofs of identity a=a are equal to refl",
+    "Equality types are propositions",
+    "Functions are determined by their values"
+  ],
+  "answer": 1,
+  "explanation": "Axiom K: Π(p : a=a). p = refl. This is UIP for the diagonal and implies full UIP.",
+  "tags": [
+    "axiom-k",
+    "uip",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e1c729b0-b1e4-4e09-a256-af59951bb54f"
+}

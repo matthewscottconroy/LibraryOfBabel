@@ -1,0 +1,37 @@
+# Important Thinkers: Point-Set Topology
+
+## Henri Poincaré (1854–1912)
+
+Poincaré was, by any measure, the last universal mathematician — a figure who worked at the highest level across all branches of pure and applied mathematics simultaneously. His contributions to analysis, differential equations, celestial mechanics, non-Euclidean geometry, and theoretical physics would each alone mark him as one of the century's great figures. But his deepest legacy is the creation of algebraic topology.
+
+In his 1895 paper *Analysis Situs* and its five complements (1899–1904), Poincaré invented the fundamental group $\pi_1(X, x_0)$, defined it as the group of homotopy classes of loops based at a point, and proved that it is a topological invariant. He introduced homology and cohomology (initially as "Betti numbers," before Emmy Noether reformulated them as groups), stated Poincaré duality, and raised the foundational questions about manifolds that would drive the field for a century. Most famously, he conjectured in 1904 that every simply connected closed 3-manifold is homeomorphic to $S^3$ — a conjecture not proved until 2003, when Grigori Perelman used Ricci flow techniques that would have been unimaginable to Poincaré. The connection to HoTT: every concept in this chapter — open sets, continuous maps, homeomorphism, the fundamental group — flows through the questions Poincaré asked.
+
+## Felix Hausdorff (1868–1942)
+
+Hausdorff put point-set topology on rigorous foundations. Before his 1914 book *Grundzüge der Mengenlehre*, there was no standard definition of a topological space; the field operated with metric spaces and intuitive notions of "neighborhood." Hausdorff gave the first systematic axiomatization, introduced the separation axioms (including the condition now called the Hausdorff axiom, or $T_2$), proved foundational results on compactness and dimension theory, and defined the Hausdorff metric on compact subsets of a metric space. His 1919 paper introduced Hausdorff dimension for fractal sets, anticipating by decades the development of fractal geometry. The open-set formulation of topology that dominates modern textbooks is a simplification and generalization of Hausdorff's neighborhood axioms, due to Kuratowski.
+
+Hausdorff also made philosophical contributions: under the pseudonym Paul Mongré, he wrote on space and time from a neo-Kantian perspective. He was forced out of his chair in Bonn in 1935. In January 1942, rather than be deported to a concentration camp, he and his wife took their own lives. His mathematical legacy is honored in the Hausdorff Center for Mathematics in Bonn.
+
+## L.E.J. Brouwer (1881–1966)
+
+Brouwer's contributions to topology are among the deepest of the early twentieth century. His 1910–1912 papers proved the *fixed-point theorem* (every continuous map from $D^n$ to itself has a fixed point), the *invariance of domain* (a continuous injective map from an open set in $\mathbb{R}^n$ to $\mathbb{R}^n$ is an open map), and established the topological invariance of dimension (which had been assumed but not proved). These results created the field of degree theory — the algebraic invariant that distinguishes maps of spheres — and established that homological methods are necessary in topology, not merely convenient.
+
+Brouwer is equally famous for his philosophical views. He rejected classical logic, denying the law of excluded middle and the actual infinite, and built intuitionism as an alternative foundation for mathematics. His mathematical objects must be *constructed* by the mathematician's mind; they do not exist independently in a Platonic realm. This view has deep resonances with HoTT's constructive character: the Curry-Howard correspondence, the priority of construction over existence, and the computational content of proofs all echo Brouwer's program. Yet the fixed-point theorem — the most famous result of Brouwer the topologist — is inherently non-constructive. It proves existence without providing the fixed point. This tension between Brouwer's philosophy and his mathematics is a rich subject in its own right.
+
+## Emmy Noether (1882–1935)
+
+Noether's contribution to topology was not a new theorem but a conceptual revolution that transformed how the entire subject is understood. Before Noether, topological invariants were presented as *numbers* — Betti numbers counting the ranks of homological data. Around 1925, in lectures and informal discussions at Göttingen, Noether insisted that these invariants should be presented as *groups* — the homology groups — and that the Betti number is simply the rank of the group while torsion is its torsion subgroup.
+
+This shift seems minor but was transformative. Groups have structure — homomorphisms, exact sequences, long exact sequences — that numbers do not. Once homological invariants were groups, the algebraic machinery of Noether's abstract algebra could be applied directly to topological situations. This led, in the hands of Eilenberg and Mac Lane (who invented category theory partly to make sense of the natural transformations of algebraic topology), Cartan and Serre (who built spectral sequences), and Grothendieck (who built sheaf cohomology and K-theory), to the entire modern algebraic apparatus of topology. Every exact sequence in this chapter is a consequence of Noether's insight.
+
+## James Munkres (1930–)
+
+Munkres is an MIT topologist whose research contributions — including early work on exotic differentiable structures and the Hauptvermutung for manifolds — are significant, but whose lasting impact is pedagogical. His textbook *Topology* (1975, 2nd edition 2000) has been the standard first-year topology course for American mathematics graduate students for five decades. Its virtues: extraordinary clarity of exposition, careful balancing of point-set and algebraic topology, excellent exercises graded by difficulty, and a logical progression that builds from the axioms through the Tychonoff theorem, Urysohn metrization theorem, and the classification of compact surfaces to the fundamental group and covering spaces.
+
+The presentation in this chapter follows Munkres's organizational scheme, and readers who want more detail on point-set foundations are strongly advised to work through Munkres directly. The exercises in this chapter are partly inspired by, and sometimes directly derived from, Munkres's problem sets.
+
+## Paul Alexandrov (1896–1982)
+
+Alexandrov (also transliterated Alexandroff) was a Soviet topologist at Moscow State University who, with his collaborator Pavel Urysohn (who died by drowning in 1924 at the age of 26), established the modern theory of compact spaces. Their joint 1929 memoir on compact topological spaces characterized compactness via nets and ultrafilters, proved the Urysohn lemma and the Urysohn metrization theorem, and established the theory of paracompactness.
+
+Alexandrov also proved the *nerve theorem* — that the nerve of a good open cover of a space is homotopy equivalent to the space — which is now a cornerstone of topological data analysis (persistent homology computes the homology of the nerve of a cover at various scales). He developed the Alexandrov topology on posets, which connects order theory to topological spaces and, through the theory of domains, to computer science and denotational semantics. His textbook *Topologie* (with Heinz Hopf, 1935) was the standard reference in algebraic topology for a generation.

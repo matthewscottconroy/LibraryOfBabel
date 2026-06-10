@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, what is the purpose of `@[simp]` attribute on a lemma?",
+  "choices": [
+    "It makes the lemma visible outside the module",
+    "It registers the lemma as a simp rule for the simp tactic",
+    "It marks the lemma as a typeclass instance",
+    "It unfolds the lemma automatically"
+  ],
+  "answer": 1,
+  "explanation": "`@[simp]` adds the lemma to the default simp set, so `simp` uses it automatically.",
+  "tags": [
+    "lean4",
+    "simp",
+    "attribute"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "fc0d8d16-3d35-4d61-acf1-a2336a2a696c"
+}

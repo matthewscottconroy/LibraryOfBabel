@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Two proofs p,q: a=b in HoTT are equal iff:",
+  "choices": [
+    "They are definitionally equal",
+    "There exists a 2-path r: p=q",
+    "a=b is a proposition",
+    "a and b are in a set"
+  ],
+  "answer": 1,
+  "explanation": "In general, p=q requires a 2-path r: p=_{a=b} q; for sets, all such p,q are equal (UIP).",
+  "tags": [
+    "2-path",
+    "identity-type",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d1292d0b-663b-4a99-94f8-f6ebf7d4e3ce"
+}

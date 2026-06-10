@@ -1,0 +1,21 @@
+{
+  "question_id": "4778f67c-90a8-478f-8acf-9b9704a7ffba",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "LCCC stands for:",
+  "choices": [
+    "left-closed Cartesian category",
+    "locally Cartesian closed category",
+    "limit-coheight Cartesian complex",
+    "linearly closed category construction"
+  ],
+  "answer": 1,
+  "explanation": "A locally Cartesian closed category (LCCC) has all slice categories C/A being CCCs. LCCCs model dependent type theory (Seely-Hofmann-Dybjer).",
+  "tags": [
+    "lccc",
+    "dependent-types"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

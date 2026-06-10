@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In natural deduction, ⊥-elimination (ex falso quodlibet) says:",
+  "choices": [
+    "from ⊥ conclude any formula A",
+    "from A conclude ¬A",
+    "from A∧¬A conclude ⊥",
+    "from ¬A conclude ⊥"
+  ],
+  "answer": 0,
+  "explanation": "⊥E: from a proof of ⊥ (falsum), conclude any formula A. Classically: ex falso quodlibet (from a contradiction, anything follows).",
+  "tags": [
+    "proof-theory",
+    "natural-deduction"
+  ],
+  "difficulty": "beginner",
+  "question_id": "5a3c78d3-339e-4f55-82cc-228c012b29ed"
+}

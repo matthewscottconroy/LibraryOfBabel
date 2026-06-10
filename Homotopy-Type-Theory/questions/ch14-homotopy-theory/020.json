@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Hurewicz theorem states that for a simply connected space X with πₖ(X)=0 for k<n:",
+  "choices": [
+    "Hₙ(X) = 0",
+    "πₙ(X) ≅ Hₙ(X)",
+    "π₁(X) ≅ H₁(X)",
+    "All homotopy groups equal homology groups"
+  ],
+  "answer": 1,
+  "explanation": "Hurewicz isomorphism: πₙ(X) ≅ Hₙ(X) for the first non-trivial degree.",
+  "tags": [
+    "hurewicz",
+    "homotopy-groups",
+    "homology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "13cf621f-8f9b-4caa-9c61-44fa437b989f"
+}

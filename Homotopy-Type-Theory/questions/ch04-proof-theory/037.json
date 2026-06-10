@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Ordinal analysis of a theory T assigns it a proof-theoretic ordinal |T| which measures:",
+  "choices": [
+    "The cardinality of T's models",
+    "The complexity of transfinite induction T can prove",
+    "The number of axioms",
+    "The length of the shortest proof"
+  ],
+  "answer": 1,
+  "explanation": "Proof-theoretic ordinal: the supremum of ordinals for which T proves well-foundedness.",
+  "tags": [
+    "ordinal-analysis",
+    "proof-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "6156352b-c086-4b8a-8b51-59cd7dc816b2"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is the Duskin nerve of a bicategory?",
+  "choices": [
+    "A 2-dimensional simplicial set",
+    "A 3-coskeletal simplicial set presenting the bicategory as an (∞,2)-category",
+    "A strict 2-category",
+    "The nerve of its underlying 1-category"
+  ],
+  "answer": 1,
+  "explanation": "The Duskin nerve embeds bicategories into simplicial sets as 3-coskeletal objects.",
+  "tags": [
+    "duskin-nerve",
+    "bicategory",
+    "simplicial-set"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "087ce069-619b-4d51-9211-877e221dcec4"
+}

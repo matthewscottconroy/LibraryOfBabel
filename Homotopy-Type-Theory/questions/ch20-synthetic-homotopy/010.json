@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The computation π₂(S²) = ℤ in HoTT uses:",
+  "choices": [
+    "the Hopf fibration and the long exact sequence",
+    "the Freudenthal suspension theorem applied to S¹ (since π₁(S¹)=ℤ and S²=ΣS¹)",
+    "the J rule alone",
+    "Brunerie's work directly"
+  ],
+  "answer": 1,
+  "explanation": "π₂(S²)=ℤ: since S²=ΣS¹ and S¹ is 0-connected, Freudenthal gives π₂(ΣS¹)≅π₁(S¹)=ℤ. This is the simplest stable homotopy group computation in HoTT.",
+  "tags": [
+    "HoTT",
+    "homotopy",
+    "spheres"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "02e39a19-9bf2-4d6a-ae38-dfeb6da2ae9f"
+}

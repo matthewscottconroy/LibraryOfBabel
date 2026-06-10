@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The fundamental group of the figure-eight space (wedge S¹∨S¹) is:",
+  "choices": [
+    "ℤ",
+    "ℤ×ℤ",
+    "The free group on two generators F₂",
+    "The trivial group"
+  ],
+  "answer": 2,
+  "explanation": "π₁(S¹∨S¹) = F₂ (free group on 2 generators), by van Kampen.",
+  "tags": [
+    "fundamental-group",
+    "wedge",
+    "free-group"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "ed8189a9-126d-4001-8d10-146ca60031d8"
+}

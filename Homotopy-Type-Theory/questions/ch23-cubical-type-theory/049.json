@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The cooltt proof assistant is notable for implementing:",
+  "choices": [
+    "Classical HoTT",
+    "Cartesian cubical type theory with a normalisation-by-evaluation (NbE) algorithm",
+    "Standard Agda features only",
+    "Lean 4 tactics in a cubical setting"
+  ],
+  "answer": 1,
+  "explanation": "cooltt implements CHTT (Cartesian cubical TT) with NbE for efficient definitional equality checking.",
+  "tags": [
+    "cooltt",
+    "cubical-type-theory",
+    "nbe"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "c7f4c6bc-9670-4ec4-84b6-23d2a73dd07d"
+}

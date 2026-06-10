@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An adjunction in a bicategory B between 1-cells f: A→B and u: B→A consists of:",
+  "choices": [
+    "2-cells η: 1_A ⇒ u∘f and ε: f∘u ⇒ 1_B satisfying triangle identities",
+    "An isomorphism of hom-categories",
+    "A natural equivalence B(fA,-) ≅ A(A, u-)",
+    "Both A and C"
+  ],
+  "answer": 3,
+  "explanation": "An adjunction f ⊣ u in B is equivalently given by unit/counit 2-cells with triangle identities, or by a natural equivalence of hom-categories.",
+  "tags": [
+    "adjunction",
+    "bicategory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "e05ef9fe-5379-4c91-9eec-f0e37c1b05c7"
+}

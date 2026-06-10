@@ -1,0 +1,18 @@
+{
+  "question_id": "b762b71a-9d37-45c8-bc1f-5b447db1f4f7",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "tf",
+  "text": "The homotopy groups πₙ(X) are abelian for all n ≥ 2.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Higher homotopy groups are abelian by the Eckmann-Hilton argument: the two group operations on Ω²X coincide and commute.",
+  "tags": [
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

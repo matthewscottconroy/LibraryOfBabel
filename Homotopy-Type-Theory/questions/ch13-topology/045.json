@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A covering space p: E→B is characterised by having:",
+  "choices": [
+    "The path lifting property only",
+    "The unique path lifting property and the evenly covered neighbourhoods",
+    "A section",
+    "A finite fibre"
+  ],
+  "answer": 1,
+  "explanation": "Covering space: every b∈B has an evenly covered neighbourhood U, and paths lift uniquely given an initial lift.",
+  "tags": [
+    "covering-space",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "5ff30778-30ff-4e95-a8af-f75ebcaa7642"
+}

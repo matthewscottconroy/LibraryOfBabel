@@ -1,0 +1,17 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "De Morgan's law states ¬(P ∧ Q) ≡ ¬P ∧ ¬Q.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "De Morgan: ¬(P∧Q) ≡ ¬P ∨ ¬Q. The conjunction becomes a disjunction under negation.",
+  "tags": [
+    "logic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "8ea82ec2-1bef-47d0-acc8-87c44c1af6cf"
+}

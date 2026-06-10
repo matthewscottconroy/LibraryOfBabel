@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A presentable ∞-category is one that is:",
+  "choices": [
+    "Locally small only",
+    "An accessible ∞-category that is also cocomplete",
+    "A Kan complex",
+    "An ∞-topos"
+  ],
+  "answer": 1,
+  "explanation": "Presentable: accessible + cocomplete; these are the ∞-categories generated under colimits by a small collection of objects.",
+  "tags": [
+    "presentable",
+    "infinity-category",
+    "accessible"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "c0142e87-c77a-475f-9561-a77fc45de0f1"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `norm_num` tactic in Lean 4 is used for:",
+  "choices": [
+    "Normalising terms in a ring",
+    "Deciding numerical goals (arithmetic over ℤ,ℚ,ℝ)",
+    "Proving that all numbers are positive",
+    "Applying norm to a space"
+  ],
+  "answer": 1,
+  "explanation": "`norm_num` decides numerical/arithmetic goals using normalisation.",
+  "tags": [
+    "lean4",
+    "norm_num",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "b6666854-2c6e-4842-bd76-ab69cf88f5fe"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The right adjoint to the inclusion sSet ↪ bisSet (as a constant bisimplicial set) is:",
+  "choices": [
+    "The diagonal",
+    "The totalization / Bousfield-Kan map",
+    "The geometric realisation",
+    "The Dold-Kan correspondence"
+  ],
+  "answer": 1,
+  "explanation": "Totalization (Tot) is right adjoint to the constant bisimplicial set functor.",
+  "tags": [
+    "bisimplicial-set",
+    "totalization",
+    "adjunction"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "8d1464a2-96d1-4ad8-9e4d-6eb1404d92a6"
+}

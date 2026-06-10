@@ -1,0 +1,19 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Riehl-Shulman simplicial type theory, the directed interval 2 (the 'arrow type') has:",
+  "choices": [
+    "two points connected by an invertible path",
+    "two points 0 and 1 connected by a non-invertible arrow 0→1",
+    "uncountably many points",
+    "only one point"
+  ],
+  "answer": 1,
+  "explanation": "The directed interval 2 = {0, 1} with hom_2(0,1) = {*} (one morphism), hom_2(1,0) = ∅ (no reverse morphism). It models the 'walking arrow'.",
+  "tags": [
+    "simplicial-TT"
+  ],
+  "difficulty": "beginner",
+  "question_id": "ba99d44e-8d89-483d-865a-ad1dc20a3d0f"
+}

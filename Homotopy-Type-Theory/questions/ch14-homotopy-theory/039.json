@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Adams spectral sequence converges to:",
+  "choices": [
+    "The homology of X",
+    "The homotopy groups π*(X) (p-completed, for the mod-p Adams SS)",
+    "The K-theory of X",
+    "The cohomology of ΩX"
+  ],
+  "answer": 1,
+  "explanation": "Adams SS: E₂ = Ext_{A}(H*(X;𝔽_p), 𝔽_p) ⟹ π*(X)⊗ℤ_p^∧.",
+  "tags": [
+    "adams-spectral-sequence",
+    "stable-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "aa7395e0-74d7-4185-9541-da795bd7300b"
+}

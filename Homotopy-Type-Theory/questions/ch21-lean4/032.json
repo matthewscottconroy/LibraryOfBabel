@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Which Lean 4 tactic unfolds a definition in the goal?",
+  "choices": [
+    "intro",
+    "revert",
+    "unfold",
+    "ring"
+  ],
+  "answer": 2,
+  "explanation": "`unfold foo` replaces occurrences of `foo` with its definition.",
+  "tags": [
+    "lean4",
+    "unfold",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "cc8e0b29-56ac-4c16-aabc-8b9fe4a36c42"
+}

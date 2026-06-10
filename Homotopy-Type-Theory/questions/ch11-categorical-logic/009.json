@@ -1,0 +1,20 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An elementary topos is a category with finite limits, power objects, and:",
+  "choices": [
+    "a group structure on objects",
+    "a subobject classifier Ω",
+    "all small limits",
+    "a zero object"
+  ],
+  "answer": 1,
+  "explanation": "An elementary topos has: finite limits, exponentials (CCC), and a subobject classifier Ω. It generalises the category Set and its internal logic is higher-order intuitionistic.",
+  "tags": [
+    "categorical-logic",
+    "topos"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "eca6c647-1468-498a-bebe-4a1b4a36236d"
+}

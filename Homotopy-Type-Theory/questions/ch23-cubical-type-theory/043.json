@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'connection' (∧,∨) on the interval in CTT is used to construct:",
+  "choices": [
+    "Constant paths",
+    "Fillers for degenerate boxes that arise in proofs of functoriality and composition laws",
+    "Union of types",
+    "Intersection of propositions"
+  ],
+  "answer": 1,
+  "explanation": "Connections (i∧j, i∨j) produce degenerate higher-dimensional cubes needed for coherence proofs.",
+  "tags": [
+    "cubical-type-theory",
+    "connections",
+    "interval"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "38f1853c-484c-493f-91a6-e84d800db23d"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The h-levels form a cumulative hierarchy: if A is an h-level n type, then A is also an h-level:",
+  "choices": [
+    "n-1",
+    "n+1",
+    "0",
+    "n only"
+  ],
+  "answer": 1,
+  "explanation": "h-levels are cumulative: isContr(A) implies isProp(A) implies isSet(A) implies is-1-groupoid(A), etc. Higher h-level is a weaker condition.",
+  "tags": [
+    "HoTT",
+    "h-levels"
+  ],
+  "difficulty": "beginner",
+  "question_id": "0f4d2fa2-0824-47c9-9d71-3ec1f90854c8"
+}

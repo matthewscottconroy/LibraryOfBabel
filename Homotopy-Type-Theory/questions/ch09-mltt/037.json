@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The type ℕ in MLTT has constructors:",
+  "choices": [
+    "zero: ℕ and succ: ℕ→ℕ",
+    "zero: ℕ only",
+    "one: ℕ and plus: ℕ→ℕ→ℕ",
+    "All integers"
+  ],
+  "answer": 0,
+  "explanation": "ℕ: zero:ℕ, succ:ℕ→ℕ (two constructors for the natural number inductive type).",
+  "tags": [
+    "mltt",
+    "natural-numbers",
+    "inductive"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "2b967603-5380-49ac-923d-4b3e1e8895b3"
+}

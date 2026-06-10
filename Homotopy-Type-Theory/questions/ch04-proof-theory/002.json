@@ -1,0 +1,21 @@
+{
+  "question_id": "3411a4af-1ef1-47aa-b214-4dee037e1d6c",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Gentzen's Hauptsatz (cut elimination) implies:",
+  "choices": [
+    "every theorem is tautological",
+    "every provable theorem has a proof not using the cut rule",
+    "the sequent calculus is incomplete",
+    "there are no tautologies"
+  ],
+  "answer": 1,
+  "explanation": "Cut elimination ⇒ the subformula property: every formula in a proof is a subformula of the conclusion.",
+  "tags": [
+    "proof-theory",
+    "sequent-calculus"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

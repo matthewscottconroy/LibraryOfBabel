@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, what does the type (f ~ g) typically denote, for functions f,g: A→B?",
+  "choices": [
+    "f = g",
+    "A homotopy: Π(x:A). f(x) = g(x)",
+    "f ∘ g",
+    "A path in A→B"
+  ],
+  "answer": 1,
+  "explanation": "Homotopy: f~g = Π(x:A). f(x)=_{B} g(x).",
+  "tags": [
+    "homotopy",
+    "identity-type",
+    "hott"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "d56fe095-7c6f-4a32-a89c-32aa9a684f6f"
+}

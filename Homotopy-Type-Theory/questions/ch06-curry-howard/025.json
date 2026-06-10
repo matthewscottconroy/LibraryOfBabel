@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Normalization by evaluation (NbE) is a technique for computing normal forms by:",
+  "choices": [
+    "β-reducing the term step by step",
+    "evaluating in a semantic domain and reflecting back to syntax",
+    "applying type inference",
+    "using the Church-Rosser theorem"
+  ],
+  "answer": 1,
+  "explanation": "NbE: evaluate the term to a semantic value (in a domain where no reduction applies), then 'quote' (reflect) back to a normal form. Avoids explicit β-reduction; used in Coq/Agda kernels.",
+  "tags": [
+    "curry-howard",
+    "normalisation"
+  ],
+  "difficulty": "advanced",
+  "question_id": "abb3f2c4-829f-4030-a145-5a3761e11e5a"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Dold-Kan correspondence establishes an equivalence between:",
+  "choices": [
+    "Simplicial sets and topological spaces",
+    "Simplicial abelian groups and non-negatively graded chain complexes",
+    "Kan complexes and ∞-groupoids",
+    "Simplicial groups and groupoids"
+  ],
+  "answer": 1,
+  "explanation": "Dold-Kan: sAb ≃ Ch_{≥0}(Ab) via the normalisation functor N.",
+  "tags": [
+    "dold-kan",
+    "simplicial-abelian-group",
+    "chain-complex"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4b9106b4-e6b8-4d79-9a1d-d820d768efa1"
+}

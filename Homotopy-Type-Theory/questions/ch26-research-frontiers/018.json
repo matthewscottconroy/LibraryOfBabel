@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'internal languages' programme in higher category theory aims to develop type theories that are the internal language of:",
+  "choices": [
+    "Elementary toposes only",
+    "(∞,n)-categories for various n",
+    "Abelian categories",
+    "Presheaf categories"
+  ],
+  "answer": 1,
+  "explanation": "The programme seeks type theories for (∞,1)-, (∞,2)-, and (∞,n)-categories; Simplicial TT is one instance.",
+  "tags": [
+    "internal-languages",
+    "higher-categories",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "397bec46-906b-4034-a1da-9c0e922e2ff9"
+}

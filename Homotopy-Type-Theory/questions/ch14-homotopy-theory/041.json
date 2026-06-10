@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Mayer-Vietoris sequence for homotopy groups of a pushout A⊔_C B (with A,B,C simply connected) gives:",
+  "choices": [
+    "A short exact sequence",
+    "A long exact sequence involving π*(A), π*(B), π*(C), π*(A⊔_C B)",
+    "A direct sum formula",
+    "Trivial homotopy groups"
+  ],
+  "answer": 1,
+  "explanation": "Homotopy-Mayer-Vietoris: long exact sequence ⋯→πn(C)→πn(A)⊕πn(B)→πn(A⊔_CB)→πn-1(C)→⋯",
+  "tags": [
+    "mayer-vietoris",
+    "homotopy-groups",
+    "pushout"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4f967187-48e4-4549-b096-c08536ee8dcf"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In CTT, the `comp` (heterogeneous composition) operation requires a partial element specified on a face φ. Its type is roughly:",
+  "choices": [
+    "∀ A: I→Type, ∀ u: Partial φ (A i0), A i0 → A i1",
+    "(A: I→Type) → (u: ∀i. Partial φ (A i)) → A i0 → A i1",
+    "A pure path type",
+    "A constant function"
+  ],
+  "answer": 1,
+  "explanation": "comp handles heterogeneous paths: comp A u a0 : A i1 given partial tube u and base a0 : A i0.",
+  "tags": [
+    "cubical-type-theory",
+    "comp",
+    "heterogeneous"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "ec886e6e-fa67-41a9-a595-bb750318c819"
+}

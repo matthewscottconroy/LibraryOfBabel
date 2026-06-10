@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The 'Univalence From Scratch' construction (Escardó) shows univalence follows from:",
+  "choices": [
+    "LEM and AC",
+    "Propositional extensionality + function extensionality (in a weak sense)",
+    "Axiom K",
+    "Classical set theory"
+  ],
+  "answer": 1,
+  "explanation": "Escardó: univalence for types of h-level n can be derived from weaker principles like propext+funext in certain settings.",
+  "tags": [
+    "univalence",
+    "propext",
+    "funext"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "edcedbd3-ad12-4c23-8c6e-875f30d85bab"
+}

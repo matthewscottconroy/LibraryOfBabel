@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Kan extensions generalise limits and colimits. The left Kan extension Lan_K F is characterised by:",
+  "choices": [
+    "A natural transformation η: F ⇒ Lan_K F ∘ K that is universal",
+    "A right adjoint to restriction along K",
+    "A colimit formula (Lan_K F)(e) = colim_{(Ke'→e)} F(e')",
+    "Both B and C"
+  ],
+  "answer": 3,
+  "explanation": "Left Kan: both the adjoint characterisation and coend/colimit formula describe Lan_K F.",
+  "tags": [
+    "kan-extension",
+    "left-kan",
+    "category-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "78e40e07-a886-4666-969c-b3afecd838a7"
+}

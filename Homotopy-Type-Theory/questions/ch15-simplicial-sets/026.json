@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A simplicial homotopy between maps f, g: X→Y of simplicial sets is a map H: X × Δ[1] → Y satisfying:",
+  "choices": [
+    "H|_{X×{0}} = f and H|_{X×{1}} = g",
+    "H∘d₀ = f and H∘d₁ = g",
+    "A and B",
+    "Neither"
+  ],
+  "answer": 2,
+  "explanation": "Equivalent formulations: both characterise H as a homotopy from f to g.",
+  "tags": [
+    "simplicial-homotopy",
+    "simplicial-set"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3e08819b-66fa-46b5-8d74-6bb7f8073bc3"
+}

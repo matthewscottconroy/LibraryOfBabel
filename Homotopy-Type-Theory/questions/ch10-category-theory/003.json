@@ -1,0 +1,19 @@
+{
+  "question_id": "3751e21b-98bb-4ca1-bb00-ff8ebe7173d1",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Left adjoints preserve colimits.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Left adjoints preserve all colimits; right adjoints preserve all limits. A central theorem of category theory.",
+  "tags": [
+    "category-theory",
+    "adjunctions"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

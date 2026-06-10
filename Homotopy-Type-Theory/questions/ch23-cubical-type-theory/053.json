@@ -1,0 +1,21 @@
+{
+  "question_id": "4a14a536-ae31-4ca5-809b-d03179126d1b",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "What does 'canonicity' mean for a type theory?",
+  "choices": [
+    "every type has at most one element",
+    "every closed term of a base type (e.g., ℕ) reduces to a constructor (a numeral)",
+    "all proofs of the same proposition are definitionally equal",
+    "the theory has a decision procedure for type checking"
+  ],
+  "answer": 1,
+  "explanation": "Canonicity: closed terms of ground types normalize to constructor forms. CCHM achieves canonicity, whereas Book HoTT with the univalence axiom does not (open problem).",
+  "tags": [
+    "canonicity",
+    "cubical-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

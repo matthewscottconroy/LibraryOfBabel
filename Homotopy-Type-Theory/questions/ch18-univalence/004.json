@@ -1,0 +1,21 @@
+{
+  "question_id": "700322fa-214e-4776-b9a4-15e3004e2a20",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The type Bool=Bool (in HoTT with univalence) has how many elements?",
+  "choices": [
+    "Exactly one (just refl)",
+    "Exactly two",
+    "Infinitely many",
+    "None"
+  ],
+  "answer": 1,
+  "explanation": "Bool has exactly two self-equivalences: id and negation. By univalence, Bool=Bool has two paths: refl and ua(neg).",
+  "tags": [
+    "HoTT",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

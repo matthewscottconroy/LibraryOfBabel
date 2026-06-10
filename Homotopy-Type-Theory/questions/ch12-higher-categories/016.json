@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An ∞-topos (Lurie) is an ∞-category satisfying Giraud-type axioms. It models:",
+  "choices": [
+    "ordinary set theory",
+    "homotopy type theory / Book HoTT (conjecturally)",
+    "only classical logic",
+    "strict 2-categories"
+  ],
+  "answer": 1,
+  "explanation": "HoTT is conjectured to be the internal language of ∞-toposes (Voevodsky's conjecture / the 'initiality conjecture'). Shulman's recent work constructs models of HoTT in any ∞-topos.",
+  "tags": [
+    "higher-categories",
+    "HoTT",
+    "infinity-topos"
+  ],
+  "difficulty": "advanced",
+  "question_id": "d6a5efa4-bd87-4976-83bc-d7022bd4b0dd"
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "703a8764-026b-4d27-84b6-95d7d92dd61e",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "blank",
+  "text": "A continuous map f: X → Y such that every open cover of Y pulls back to an open cover of X with a finite subcover is called a ___ map.",
+  "choices": [
+    "proper",
+    "proper map"
+  ],
+  "answer": "proper",
+  "explanation": "Proper maps: preimages of compact sets are compact. Equivalent to the pullback property above. Proper maps are closed, and proper bijections between Hausdorff spaces are homeomorphisms.",
+  "tags": [
+    "proper-map",
+    "compactness"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

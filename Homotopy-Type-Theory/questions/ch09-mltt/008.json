@@ -1,0 +1,19 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Definitional equality (≡) in MLTT is:",
+  "choices": [
+    "judged by the type checker via computation rules (it is decidable)",
+    "the same as propositional equality (a=b)",
+    "always undecidable",
+    "defined by the J rule"
+  ],
+  "answer": 0,
+  "explanation": "Definitional equality ≡ (also 'judgmental equality' or 'conversion') is enforced by the type checker via β, η, and other computation rules. Propositional equality (a=b) is weaker and proved.",
+  "tags": [
+    "MLTT"
+  ],
+  "difficulty": "beginner",
+  "question_id": "98a6c33c-6699-4af0-b0f0-4b3bdd6dbac8"
+}

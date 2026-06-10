@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The fundamental theorem of covering spaces: connected covering spaces of a 'nice' space X correspond to:",
+  "choices": [
+    "open subsets of X",
+    "conjugacy classes of subgroups of π₁(X, x₀)",
+    "elements of π₂(X)",
+    "maps X → S¹"
+  ],
+  "answer": 1,
+  "explanation": "Covering spaces of X ↔ subgroups of π₁(X, x₀) (up to conjugacy). The universal covering space corresponds to the trivial subgroup.",
+  "tags": [
+    "topology",
+    "fundamental-group",
+    "covering-spaces"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "4211c3c3-8ba7-461d-b7c5-518076dad19e"
+}

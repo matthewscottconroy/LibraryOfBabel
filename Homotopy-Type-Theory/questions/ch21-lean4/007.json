@@ -1,0 +1,20 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, the 'rw [h]' tactic replaces the left-hand side of h with the right in the goal. What is 'rw [← h]'?",
+  "choices": [
+    "rewrites using h backwards (right-to-left)",
+    "applies h in all hypotheses",
+    "introduces h as a new hypothesis",
+    "closes the goal if h is exact"
+  ],
+  "answer": 0,
+  "explanation": "rw [← h] rewrites right-to-left: it replaces the RHS of h with the LHS in the goal. The ← reverses the direction of the rewrite.",
+  "tags": [
+    "Lean4",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "question_id": "c1b31486-1733-4606-93b5-8f755099e834"
+}

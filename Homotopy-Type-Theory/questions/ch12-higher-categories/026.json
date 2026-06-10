@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which of the following is a strict 2-category versus a bicategory?",
+  "choices": [
+    "In a strict 2-category, composition is strictly associative and unital; in a bicategory it is only so up to invertible 2-cells",
+    "In a bicategory, 2-cells must be invertible",
+    "They are the same",
+    "A bicategory has only finitely many objects"
+  ],
+  "answer": 0,
+  "explanation": "Bicategories (Bénabou) relax strict 2-categories: associativity/units hold up to coherent isomorphism.",
+  "tags": [
+    "bicategory",
+    "2-category"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "910af7d5-dbb7-429d-aeae-5c2f8323c3a7"
+}

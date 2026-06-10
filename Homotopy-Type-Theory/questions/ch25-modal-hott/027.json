@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Which of the following is a reflective subuniverse in HoTT?",
+  "choices": [
+    "The universe of all types",
+    "The sub-universe of n-types (with truncation as reflector)",
+    "The universe of propositions",
+    "Both B and C"
+  ],
+  "answer": 3,
+  "explanation": "Both the n-types (truncation) and propositions ((-1)-truncation) form reflective sub-universes.",
+  "tags": [
+    "reflective-subuniverse",
+    "modal-hott",
+    "modality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e36ef9bc-7d00-4472-9bb9-7907ca70e234"
+}

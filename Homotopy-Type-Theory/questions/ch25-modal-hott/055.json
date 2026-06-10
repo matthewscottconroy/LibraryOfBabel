@@ -1,0 +1,19 @@
+{
+  "question_id": "a1080147-9815-4633-b697-e83a03c70101",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "tf",
+  "text": "The propositional truncation ‖A‖₋₁ is an example of a modality.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Truncations are lex modalities. ‖-‖₋₁ is (-1)-truncation; ‖-‖₀ is 0-truncation (set quotient), etc. More generally, n-truncation is a lex modality for each n ≥ -2.",
+  "tags": [
+    "propositional-truncation",
+    "modality"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

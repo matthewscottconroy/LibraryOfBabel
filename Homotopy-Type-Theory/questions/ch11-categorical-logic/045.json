@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In categorical logic, the 'internal hom' [A,B] in a Cartesian closed category satisfies:",
+  "choices": [
+    "[A,B] ≅ A×B",
+    "Hom(C×A, B) ≅ Hom(C, [A,B]) (currying/uncurrying)",
+    "[A,B] = A→B as a function",
+    "[A,A] = A"
+  ],
+  "answer": 1,
+  "explanation": "CCC exponential law: Hom(X×A,B) ≅ Hom(X,[A,B]) naturally in X.",
+  "tags": [
+    "ccc",
+    "internal-hom",
+    "categorical-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e1218312-b6bd-469d-947f-f6bc50eff7fd"
+}

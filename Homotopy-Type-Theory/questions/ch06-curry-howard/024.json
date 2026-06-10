@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Barendregt lambda cube classifies type systems by three axes: terms-depending-on-types (λ2), types-depending-on-types (λω), and:",
+  "choices": [
+    "types-depending-on-terms (λP — dependent types)",
+    "terms-depending-on-terms (λ→)",
+    "proofs-depending-on-proofs",
+    "terms-depending-on-propositions"
+  ],
+  "answer": 0,
+  "explanation": "The cube has axes: λ2 (∀α — polymorphism), λω (λα — type operators), λP (Π — dependent types). The top-right-front corner is CoC (all three). Bottom-left-back is STLC (none).",
+  "tags": [
+    "curry-howard",
+    "lambda-cube"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "88b29e68-d0e6-4647-81ac-d5ef5d19eeb5"
+}

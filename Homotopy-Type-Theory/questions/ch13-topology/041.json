@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Mayer-Vietoris sequence for homology applies when X = A ∪ B with A,B open. It gives:",
+  "choices": [
+    "A short exact sequence",
+    "A long exact sequence ⋯→Hₙ(A∩B)→Hₙ(A)⊕Hₙ(B)→Hₙ(X)→Hₙ₋₁(A∩B)→⋯",
+    "A direct sum decomposition",
+    "Spectral sequence"
+  ],
+  "answer": 1,
+  "explanation": "Mayer-Vietoris: long exact sequence relating homology of A∩B, A, B, and A∪B=X.",
+  "tags": [
+    "mayer-vietoris",
+    "homology",
+    "algebraic-topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "ba4af789-1e0c-4e11-965c-289fefb73013"
+}

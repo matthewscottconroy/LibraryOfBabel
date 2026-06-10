@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A limit of a diagram D: J→C generalises which constructions?",
+  "choices": [
+    "Colimits and pushouts only",
+    "Products, equalizers, pullbacks (and more)",
+    "Coproducts only",
+    "Initial objects only"
+  ],
+  "answer": 1,
+  "explanation": "Limits include products (discrete J), equalizers (parallel pair J), pullbacks (cospan J), terminal objects (empty J), etc.",
+  "tags": [
+    "limits",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "03d42fb5-d71c-4c10-bca5-06526919a575"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Church encoding of the natural numbers in System F has type:",
+  "choices": [
+    "Nat = ∀α. α → α",
+    "Nat = ∀α. (α → α) → α → α",
+    "Nat = ∀α. α → (α → α)",
+    "Nat = Fix(α. 1 + α)"
+  ],
+  "answer": 1,
+  "explanation": "The Church numeral n is λα. λs:α→α. λz:α. s^n z, typed ∀α.(α→α)→α→α.",
+  "tags": [
+    "system-f",
+    "church-encoding"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e255274b-262d-426c-83ec-88ada62e586d"
+}

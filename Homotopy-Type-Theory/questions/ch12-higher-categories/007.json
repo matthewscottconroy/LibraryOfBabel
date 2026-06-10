@@ -1,0 +1,19 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A strict 2-category has morphisms, 2-morphisms, and requires:",
+  "choices": [
+    "strict associativity and unit laws for both composition and 2-composition",
+    "weak associativity only",
+    "invertible 2-morphisms",
+    "a monoidal structure"
+  ],
+  "answer": 0,
+  "explanation": "Strict 2-categories (Ehresmann) satisfy strict associativity at both levels. Weak (bicategories, Bénabou 1967) relax this: associativity holds only up to coherent isomorphisms.",
+  "tags": [
+    "higher-categories"
+  ],
+  "difficulty": "beginner",
+  "question_id": "d9705e67-bf5b-477b-81aa-b1ed194c3e9c"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4 / Mathlib, a 'class' differs from a 'structure' in that:",
+  "choices": [
+    "classes cannot have fields",
+    "classes are for type-class inference (used with square bracket arguments [C α])",
+    "classes are definitionally transparent",
+    "classes cannot have methods"
+  ],
+  "answer": 1,
+  "explanation": "A 'class' in Lean 4 is a structure intended for type class resolution. Instances are found automatically via [inst : MyClass α] implicit arguments. Structures with regular anonymous constructors are not classes.",
+  "tags": [
+    "Lean4",
+    "type-classes"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "9f7713b3-c0af-41d3-b8fb-55d9fff44869"
+}

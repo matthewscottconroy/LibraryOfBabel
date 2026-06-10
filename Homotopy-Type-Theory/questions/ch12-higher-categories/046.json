@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the ∞-categorical setting, the adjoint functor theorem states F has a right adjoint iff:",
+  "choices": [
+    "F preserves limits",
+    "F preserves colimits and satisfies a solution set condition (or F is accessible and the categories are presentable)",
+    "F is essentially surjective",
+    "F is full and faithful"
+  ],
+  "answer": 1,
+  "explanation": "∞-cat AFT: F:C→D has a right adjoint iff F preserves colimits and C,D are presentable ∞-categories.",
+  "tags": [
+    "adjoint-functor-theorem",
+    "infinity-category"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "5543d820-0d6c-453e-b844-1167d754313d"
+}

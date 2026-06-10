@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The ∞-categorical Yoneda embedding for a quasicategory C gives:",
+  "choices": [
+    "A functor C→Set",
+    "A fully faithful functor C → Fun(Cᵒᵖ, Spaces)",
+    "A functor C→Cat",
+    "A functor Cᵒᵖ→C"
+  ],
+  "answer": 1,
+  "explanation": "Yoneda: y: C ↪ P(C) = Fun(Cᵒᵖ,Spaces) is fully faithful in the ∞-categorical setting.",
+  "tags": [
+    "yoneda",
+    "infinity-category",
+    "quasicategory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f4dda8ea-8842-4577-b2e2-3e7463fd74b9"
+}

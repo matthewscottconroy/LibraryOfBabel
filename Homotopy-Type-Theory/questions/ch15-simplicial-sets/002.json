@@ -1,0 +1,17 @@
+{
+  "question_id": "03e82709-d806-40d0-bb6a-5fa780543870",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The geometric realisation |·|: sSet → Top is left adjoint to the ___ complex functor Sing.",
+  "choices": [
+    "singular"
+  ],
+  "answer": "singular",
+  "explanation": "|·| ⊣ Sing. The unit η: X → Sing|X| is a weak homotopy equivalence for Kan complexes.",
+  "tags": [
+    "simplicial-sets"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

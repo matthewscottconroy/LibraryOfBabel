@@ -1,0 +1,21 @@
+{
+  "question_id": "7bea46a8-2a0a-48be-81b4-449d788df65f",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The ap operation ap_f : (a = b) → (f(a) = f(b)) corresponds topologically to:",
+  "choices": [
+    "homotopy lifting",
+    "functoriality of f on paths",
+    "transport along a path",
+    "the fundamental theorem of covering spaces"
+  ],
+  "answer": 1,
+  "explanation": "ap_f is the path-action of f: it applies f to a path, producing a path in the codomain. This is functoriality.",
+  "tags": [
+    "HoTT",
+    "paths"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

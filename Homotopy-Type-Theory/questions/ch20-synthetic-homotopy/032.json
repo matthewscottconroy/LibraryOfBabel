@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Gysin sequence in HoTT arises from a fibration with fibre:",
+  "choices": [
+    "S¹",
+    "Sⁿ (a sphere)",
+    "K(ℤ,2)",
+    "ℝP²"
+  ],
+  "answer": 1,
+  "explanation": "The Gysin sequence in topology/HoTT comes from a fibration with sphere fibres Sⁿ.",
+  "tags": [
+    "gysin-sequence",
+    "fibration",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "643be620-307d-4a20-9ba8-b9f3ca3a7fba"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The Church numeral for n in System F represents n applications of the successor: the type is ∀α. (α→α) → α → α, and the term for 0 is Λα.λs:α→α.λz:α.______.",
+  "choices": [
+    "z",
+    "s z",
+    "s(s z)",
+    "s"
+  ],
+  "answer": "z",
+  "explanation": "Church 0 = Λα.λs.λz.z (apply s zero times to z).",
+  "tags": [
+    "system-f",
+    "church-numerals"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "93f184ef-2057-49dd-8ebb-e7e558982649"
+}

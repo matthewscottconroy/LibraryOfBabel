@@ -1,0 +1,17 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "tf",
+  "text": "For n ≥ 2, πₙ(X) is always abelian.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Eckmann-Hilton argument: on Ω²X there are two group operations (horizontal and vertical composition) that are mutually distributive and share a unit, so they must coincide and be abelian.",
+  "tags": [
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "e0ff35a6-3bbb-4bd0-82fd-435c3bda23f1"
+}

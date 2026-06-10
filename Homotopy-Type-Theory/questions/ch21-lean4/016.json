@@ -1,0 +1,20 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4 metaprogramming, a 'Tactic' is a value of type:",
+  "choices": [
+    "MetaM Unit",
+    "TacticM Unit",
+    "Term",
+    "CommandElabM Unit"
+  ],
+  "answer": 1,
+  "explanation": "A tactic in Lean 4's metaprogramming API is a function that produces TacticM Unit (runs in the tactic monad, modifying the proof state). Term elaborators run in TermElabM; commands in CommandElabM.",
+  "tags": [
+    "Lean4",
+    "metaprogramming"
+  ],
+  "difficulty": "advanced",
+  "question_id": "11fdd7cf-8668-4f4d-80fd-539020a59176"
+}

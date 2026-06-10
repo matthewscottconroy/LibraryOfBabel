@@ -1,0 +1,21 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The 'sHoTT' library for Rzk formalises results in:",
+  "choices": [
+    "classical algebraic topology",
+    "synthetic ∞-category theory in Riehl-Shulman simplicial type theory",
+    "set theory in ZFC",
+    "ordinary homological algebra"
+  ],
+  "answer": 1,
+  "explanation": "sHoTT (Kudasov et al.) is a Rzk library implementing the Yoneda lemma, adjunctions, and other results in Riehl-Shulman STT. It is a proof-of-concept for synthetic ∞-category theory.",
+  "tags": [
+    "research",
+    "simplicial-TT",
+    "Rzk"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "c47628ce-0cf9-4885-8c55-15d124155ebb"
+}

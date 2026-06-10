@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In categorical logic, a regular category supports:",
+  "choices": [
+    "All connectives of first-order logic",
+    "Existential quantification and the ∧, = fragment of logic",
+    "Linear implication only",
+    "Higher-order quantification"
+  ],
+  "answer": 1,
+  "explanation": "Regular categories model the regular fragment: ∧, ∃, =.",
+  "tags": [
+    "regular-category",
+    "categorical-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "429daa1e-f7d4-4e5f-8603-f6cbc3ffaab1"
+}

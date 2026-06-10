@@ -1,0 +1,22 @@
+{
+  "question_id": "632911a4-7491-44ab-81aa-43f13d579dcc",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The key distinction between Σ(x:A).P(x) and ∥Σ(x:A).P(x)∥ is:",
+  "choices": [
+    "they are always equivalent",
+    "the former gives an explicit witness; the latter gives mere existence (no choice of witness)",
+    "the latter is a set; the former may not be",
+    "the former is a proposition; the latter is not"
+  ],
+  "answer": 1,
+  "explanation": "Σ(x:A).P(x) = 'there exists x with P(x) AND we know which x'. ∥Σ(x:A).P(x)∥ = 'merely there exists'.",
+  "tags": [
+    "HoTT",
+    "truncation",
+    "propositions"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

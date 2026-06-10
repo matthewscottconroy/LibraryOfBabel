@@ -1,0 +1,21 @@
+{
+  "question_id": "58dd304e-1157-4556-ac87-01e63b900a38",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A quasi-category (in the sense of Joyal) is a simplicial set in which every ___ has a filler.",
+  "choices": [
+    "outer horn Λⁿ₀ or Λⁿₙ",
+    "inner horn Λⁿₖ (0 < k < n)",
+    "boundary ∂Δ[n]",
+    "standard simplex Δ[n]"
+  ],
+  "answer": 1,
+  "explanation": "Quasi-categories (∞-categories) require fillers for inner horns only. Kan complexes (∞-groupoids) additionally require fillers for outer horns.",
+  "tags": [
+    "quasi-categories",
+    "kan-complex"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

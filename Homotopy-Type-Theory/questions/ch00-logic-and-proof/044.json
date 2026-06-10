@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Gödel's first incompleteness theorem applies to theories that are:",
+  "choices": [
+    "Complete and inconsistent",
+    "Consistent, sound, and capable of expressing enough arithmetic",
+    "Inconsistent",
+    "Decidable and complete"
+  ],
+  "answer": 1,
+  "explanation": "Gödel's theorem: any consistent, effectively axiomatised theory that interprets PA has true but unprovable sentences.",
+  "tags": [
+    "incompleteness",
+    "godel"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "87b491a6-b2d5-4b5e-b689-9b73791a8453"
+}

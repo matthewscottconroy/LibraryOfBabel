@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `isEquiv` type in Cubical Agda states that f: A→B is an equivalence if:",
+  "choices": [
+    "f has a quasi-inverse",
+    "The fibers fib f b = Σ a. f a ≡ b are contractible for all b",
+    "f is a bijection",
+    "f is a path in the universe"
+  ],
+  "answer": 1,
+  "explanation": "isEquiv f = ∀ b, isContr (fib f b); this is the preferred HoTT definition.",
+  "tags": [
+    "cubical-agda",
+    "equivalence",
+    "isEquiv"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "a9c8cc7e-08ee-4343-a9cf-2a295fed38c4"
+}

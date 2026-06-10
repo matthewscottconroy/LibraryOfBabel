@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A 'set-quotient HIT' A/R is 0-truncated. This means:",
+  "choices": [
+    "A/R is contractible",
+    "isSet(A/R) holds — all identity types in A/R are propositions",
+    "A/R is a proposition",
+    "A and R must be sets"
+  ],
+  "answer": 1,
+  "explanation": "Set-quotient HITs include a truncation constructor making the result a set.",
+  "tags": [
+    "quotient-hit",
+    "h-set",
+    "hit"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8a094d90-cfc3-46dd-9eae-bff4c29ddea0"
+}

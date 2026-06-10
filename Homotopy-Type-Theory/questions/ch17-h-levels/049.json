@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "For a pointed type (A,a), the loop space ΩA = (a=a) has h-level:",
+  "choices": [
+    "Same as A",
+    "One less than A (h-level decreases by 1)",
+    "Always 0 (set)",
+    "Always -1 (proposition)"
+  ],
+  "answer": 1,
+  "explanation": "isHLevel(n+1,A) iff ∀x,y. isHLevel(n, x=y); so paths have h-level one less.",
+  "tags": [
+    "loop-space",
+    "h-level",
+    "identity-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d29abf32-3dd1-4147-9231-6b6f48087b52"
+}

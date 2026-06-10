@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The idtoeqv function converts a path p: A=B in 𝒰 to an equivalence by:",
+  "choices": [
+    "Applying ua⁻¹",
+    "Transport along p: transport^(id_𝒰)(p): A→B is an equivalence",
+    "Using funext",
+    "Applying J"
+  ],
+  "answer": 1,
+  "explanation": "idtoeqv(p) = transport^{X↦X}(p,-): A≃B; this is the map that univalence says is an equivalence.",
+  "tags": [
+    "univalence",
+    "idtoeqv",
+    "transport"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "2a71337d-9708-42cb-a885-a9f9362ea5fe"
+}

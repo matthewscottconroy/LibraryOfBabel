@@ -1,0 +1,19 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In ZFC, the Axiom of Foundation (Regularity) prevents:",
+  "choices": [
+    "uncountable sets",
+    "sets that are members of themselves (well-foundedness)",
+    "the axiom of choice",
+    "proper classes"
+  ],
+  "answer": 1,
+  "explanation": "The Axiom of Foundation ensures every non-empty set contains an ∈-minimal element, ruling out x∈x and infinite descending chains.",
+  "tags": [
+    "set-theory"
+  ],
+  "difficulty": "beginner",
+  "question_id": "fadb4724-22cb-40e9-868c-d09ac47b3e7a"
+}

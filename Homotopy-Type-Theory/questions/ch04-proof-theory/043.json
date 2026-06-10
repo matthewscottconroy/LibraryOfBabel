@@ -1,0 +1,22 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Curry-Howard correspondence maps normalisation of natural deduction proofs to:",
+  "choices": [
+    "Cut elimination in sequent calculus",
+    "Beta reduction in lambda calculus",
+    "Alpha conversion",
+    "Eta expansion"
+  ],
+  "answer": 1,
+  "explanation": "Under C-H, proof normalisation ≅ β-reduction; the normal form of a proof ≅ the value of a lambda term.",
+  "tags": [
+    "curry-howard",
+    "normalisation",
+    "beta-reduction"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3e477ee5-171e-4e33-ad90-7b2eb9f06f22"
+}

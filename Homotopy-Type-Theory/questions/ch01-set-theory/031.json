@@ -1,0 +1,17 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A ___ is a collection of sets that is 'too large' to be a set, e.g. the collection of all sets.",
+  "choices": [
+    "proper class",
+    "class"
+  ],
+  "answer": "proper class",
+  "explanation": "Proper classes are collections defined by formulas but not themselves sets in ZFC (they would violate comprehension). Examples: V (all sets), Ord (all ordinals), Card (all cardinals).",
+  "tags": [
+    "set-theory"
+  ],
+  "difficulty": "beginner",
+  "question_id": "90a044b3-8f72-406d-adb6-7c4dea78307d"
+}

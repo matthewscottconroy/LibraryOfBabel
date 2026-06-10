@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The standard n-simplex Δ[n] as a simplicial set represents the functor:",
+  "choices": [
+    "Hom_Δ([n], −)",
+    "Hom_Δ(−, [n])",
+    "The constant functor at {0,…,n}",
+    "The n-th Eilenberg-MacLane space"
+  ],
+  "answer": 1,
+  "explanation": "Δ[n] = Hom_Δ(−, [n]): the representable presheaf on [n].",
+  "tags": [
+    "standard-simplex",
+    "yoneda"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "1ba04b3e-1e48-413e-9779-7aa0c19d36b1"
+}

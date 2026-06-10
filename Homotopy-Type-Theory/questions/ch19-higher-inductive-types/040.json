@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The homotopy pushout in HoTT is computed as:",
+  "choices": [
+    "The strict pushout",
+    "A HIT: given f:C→A, g:C→B, the pushout A⊔_C B has inl:A→P, inr:B→P, push:∀c.inl(f c)=inr(g c)",
+    "A Σ-type",
+    "A function type"
+  ],
+  "answer": 1,
+  "explanation": "Homotopy pushout = HIT with point constructors for A,B and path constructor for C.",
+  "tags": [
+    "pushout",
+    "hit",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "18459da8-ae94-4742-8faf-ad741aa0f9b0"
+}

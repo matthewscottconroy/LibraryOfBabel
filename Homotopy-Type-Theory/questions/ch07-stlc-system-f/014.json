@@ -1,0 +1,20 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In Fω (System F with type operators), the kind system includes:",
+  "choices": [
+    "only *",
+    "* and Nat → *",
+    "* and arrow kinds κ₁ → κ₂",
+    "propositions as kinds"
+  ],
+  "answer": 2,
+  "explanation": "Fω has kinds * (ground types) and κ₁→κ₂ (type operators). E.g., List : * → * has kind * → *. This adds abstraction over type constructors.",
+  "tags": [
+    "System-F",
+    "kinds"
+  ],
+  "difficulty": "advanced",
+  "question_id": "ab415266-95d8-495a-a161-972ede19b2a3"
+}

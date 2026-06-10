@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In CTT, `transp` (primitive transport) computes transport along a line of types A: I→Type. The defining computation rule is:",
+  "choices": [
+    "transp A i0 a ≡ a (transport along the constant path is identity)",
+    "transp A i1 a ≡ a",
+    "transp A φ a ≡ ua a",
+    "transp A φ a is always non-trivial"
+  ],
+  "answer": 0,
+  "explanation": "transp (λ _ → A) i0 a ≡ a: transporting along a constant line is the identity.",
+  "tags": [
+    "cubical-type-theory",
+    "transp",
+    "computation-rule"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "ed41d926-b5d6-4ac1-bed2-329097c8e2f7"
+}

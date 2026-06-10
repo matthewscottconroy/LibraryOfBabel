@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, an 'inner fibration' models:",
+  "choices": [
+    "A groupoid fibration",
+    "A functor between (∞,1)-categories (a map where composition is preserved)",
+    "A Kan fibration",
+    "A fibration over the interval"
+  ],
+  "answer": 1,
+  "explanation": "Inner fibrations in sSTT model functors between ∞-categories (maps compatible with composition).",
+  "tags": [
+    "simplicial-type-theory",
+    "inner-fibration",
+    "functor"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a7259e06-74df-4404-b890-b27618e76222"
+}

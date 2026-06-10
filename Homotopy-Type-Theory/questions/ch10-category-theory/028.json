@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In category theory, an epimorphism f: A→B satisfies:",
+  "choices": [
+    "f has a right inverse",
+    "For all g,h: B→C, g∘f = h∘f → g = h",
+    "f is surjective on underlying sets",
+    "f is a split monomorphism"
+  ],
+  "answer": 1,
+  "explanation": "Epimorphisms are right-cancellable. In Set this means surjective, but in general categories the notions diverge.",
+  "tags": [
+    "epimorphism",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "7a063f19-f9a2-4600-9036-0b33fa6168f5"
+}

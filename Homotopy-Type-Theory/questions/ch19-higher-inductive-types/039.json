@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, the n-sphere Sⁿ can be defined as a HIT. For S², the data is:",
+  "choices": [
+    "base:S², loop:base=base",
+    "base:S², surf: refl_base = refl_base (a 2-path)",
+    "north, south, and merid: north=south",
+    "north, south, merid:north=south, and a surface"
+  ],
+  "answer": 1,
+  "explanation": "S²: base; surf: refl=refl in Ω²(S²,base). Alternatively, suspension Σ(S¹).",
+  "tags": [
+    "sphere",
+    "hit",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "758cadbe-02dd-4ce4-881b-b15d72ee7d5d"
+}

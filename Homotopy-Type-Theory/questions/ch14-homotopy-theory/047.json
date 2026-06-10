@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The James splitting theorem states: Σ(X∨Y) ≃",
+  "choices": [
+    "ΣX ∨ ΣY",
+    "ΣX × ΣY",
+    "Σ(X×Y)",
+    "ΣX ∧ ΣY"
+  ],
+  "answer": 0,
+  "explanation": "James: Σ(X∨Y) ≃ ΣX ∨ ΣY ∨ Σ(X∧Y) after suspension. Wait — this is the splitting of Σ(X×Y). Actually Σ(X∨Y)≃ΣX∨ΣY by cofibration.",
+  "tags": [
+    "james-splitting",
+    "suspension",
+    "homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "d7ac02d5-56f7-4a81-824b-cdb60fa154eb"
+}

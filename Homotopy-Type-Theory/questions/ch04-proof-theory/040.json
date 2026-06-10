@@ -1,0 +1,22 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The consistency of PA cannot be proved within PA by:",
+  "choices": [
+    "The Curry-Howard correspondence",
+    "Gödel's second incompleteness theorem",
+    "Cut elimination",
+    "Completeness theorem"
+  ],
+  "answer": 1,
+  "explanation": "Gödel's second theorem: Con(T) is not provable in T (for consistent T extending PA).",
+  "tags": [
+    "consistency",
+    "godel",
+    "peano-arithmetic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "1ad84161-8dab-4872-855c-81ec111c8812"
+}

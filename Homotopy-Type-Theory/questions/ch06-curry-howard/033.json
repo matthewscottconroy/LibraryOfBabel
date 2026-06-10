@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In a dependent type theory with Σ and Π, the 'propositions as types' slogan means a proof of ∀x:A.∃y:B.φ(x,y) is a term of type:",
+  "choices": [
+    "A→B",
+    "Π(x:A).Σ(y:B).φ(x,y)",
+    "Σ(x:A).Π(y:B).φ(x,y)",
+    "A×B"
+  ],
+  "answer": 1,
+  "explanation": "∀x:A.∃y:B.φ(x,y) ↔ Π(x:A).Σ(y:B).φ(x,y). A proof is a function that takes any x:A and returns a pair (y, proof-that-φ(x,y)).",
+  "tags": [
+    "curry-howard",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "32475147-84ca-465b-88be-49bbbbf8c058"
+}

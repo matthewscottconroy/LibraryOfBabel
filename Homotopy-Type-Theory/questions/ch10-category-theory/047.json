@@ -1,0 +1,21 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An enriched category over a monoidal category (V,⊗,I) has hom-objects in V instead of sets. Example:",
+  "choices": [
+    "Ab-enriched categories are preadditive categories",
+    "Top-enriched categories are topological categories",
+    "2-categories are Cat-enriched",
+    "All of the above"
+  ],
+  "answer": 3,
+  "explanation": "All three: Ab-enrichment gives additivity, Top-enrichment gives topological homs, Cat-enrichment gives 2-categories.",
+  "tags": [
+    "enriched-category",
+    "monoidal-category"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4ffffeac-dff5-455f-97a1-6b724bcd8343"
+}

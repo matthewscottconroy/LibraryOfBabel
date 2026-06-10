@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The encode-decode method in HoTT is a technique for characterising path spaces. It requires constructing:",
+  "choices": [
+    "A code type family and encode/decode functions that are mutually inverse",
+    "An equivalence A ≃ B",
+    "A path in a universe",
+    "A section of the fibration"
+  ],
+  "answer": 0,
+  "explanation": "Encode-decode: define code: A→Type, encode: Π(b:A). a=b → code(b), decode: Π(b:A). code(b) → a=b, show they are inverse.",
+  "tags": [
+    "encode-decode",
+    "identity-type",
+    "hott"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "95797d23-ab45-4477-a11f-3192416e0ecf"
+}

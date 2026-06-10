@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Proof nets (Girard 1987) are a graphical presentation of proof theory for linear logic that:",
+  "choices": [
+    "use trees for proofs",
+    "make the geometry of proof explicit, identifying proofs that are 'the same' up to spurious sequence",
+    "add new logical connectives",
+    "require the excluded middle"
+  ],
+  "answer": 1,
+  "explanation": "Proof nets: a planar graph representing a linear logic proof. The correctness criterion (Danos-Regnier) identifies when a graph is a valid net. They quotient out permutation of rules.",
+  "tags": [
+    "proof-theory",
+    "linear-logic"
+  ],
+  "difficulty": "advanced",
+  "question_id": "2c911516-2b33-4eed-9f22-1318b5b47331"
+}

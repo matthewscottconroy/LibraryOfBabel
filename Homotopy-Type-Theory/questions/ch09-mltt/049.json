@@ -1,0 +1,19 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In MLTT, the axiom of choice is provable as a theorem (without any additional assumptions).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "In intensional MLTT, the type-theoretic AC is provable by λ(f: Πx.Σy.P(x,y)). (λx.fst(f x), λx.snd(f x)).",
+  "tags": [
+    "mltt",
+    "axiom-of-choice"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a699fd31-dc0c-4674-8101-1155e8910d63"
+}

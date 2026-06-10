@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Focused proof systems (Andreoli 1992) classify formulas as 'synchronous' or 'asynchronous'. This classification:",
+  "choices": [
+    "determines the order of rule applications, reducing proof search by limiting choice",
+    "is equivalent to cut elimination",
+    "only applies to linear logic",
+    "has no effect on provability"
+  ],
+  "answer": 0,
+  "explanation": "Focusing: async formulas can be decomposed eagerly (no choice); sync formulas require focusing and choice. This leads to the canonical notion of 'focused proof' and reduces redundant search.",
+  "tags": [
+    "proof-theory",
+    "focusing"
+  ],
+  "difficulty": "advanced",
+  "question_id": "c5143c78-6437-4918-9e73-858013ca5546"
+}

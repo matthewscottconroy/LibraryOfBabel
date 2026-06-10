@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The ∞-topos hypothesis (Lurie) says that an ∞-topos is a presentable ∞-category that:",
+  "choices": [
+    "Has all small limits",
+    "Satisfies descent and left-exact localisation conditions",
+    "Is Cartesian closed",
+    "Is locally Cartesian closed"
+  ],
+  "answer": 1,
+  "explanation": "∞-toposes: presentable ∞-cats with universal colimits and descent (Giraud ∞-axioms).",
+  "tags": [
+    "infinity-topos",
+    "lurie",
+    "higher-categories"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "878b191a-00fd-4a38-b16e-cfae3a81cc1c"
+}

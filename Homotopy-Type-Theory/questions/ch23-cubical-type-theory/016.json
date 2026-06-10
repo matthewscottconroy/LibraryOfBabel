@@ -1,0 +1,21 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The initiality conjecture for HoTT (Brunerie et al.) states that the initial model of HoTT is:",
+  "choices": [
+    "the category of sets",
+    "the category of simplicial sets",
+    "the type theory itself (the syntactic model is initial among all models)",
+    "Cubical Agda"
+  ],
+  "answer": 2,
+  "explanation": "The initiality conjecture: the syntactic category of HoTT is the initial ∞-topos with the appropriate structure. A proof by Brunerie-Lumsdaine-others is ongoing work.",
+  "tags": [
+    "cubical-TT",
+    "metatheory",
+    "models"
+  ],
+  "difficulty": "advanced",
+  "question_id": "05a7bf68-b727-4c5e-bf5d-09378a1e4386"
+}

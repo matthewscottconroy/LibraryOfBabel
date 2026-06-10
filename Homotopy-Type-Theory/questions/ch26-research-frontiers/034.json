@@ -1,0 +1,23 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Which open problem in HoTT concerns whether ‖Sⁿ‖ₙ₋₁ (the (n-1)-truncation of Sⁿ) is equivalent to what expected space?",
+  "choices": [
+    "Sⁿ⁻¹",
+    "K(ℤ, n-1)",
+    "The empty type",
+    "ΩSⁿ"
+  ],
+  "answer": 1,
+  "explanation": "Computing the truncations of spheres and comparing with Eilenberg-MacLane spaces is part of ongoing synthetic HT computations.",
+  "tags": [
+    "truncation",
+    "spheres",
+    "open-problems",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "98289046-9c90-49bd-9988-36f759a4243f"
+}

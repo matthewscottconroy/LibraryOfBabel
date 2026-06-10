@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In MLTT, the identity type Id_A(a,b) is introduced by which constructor?",
+  "choices": [
+    "J (eliminator)",
+    "refl_a : Id_A(a,a)",
+    "symm",
+    "ap"
+  ],
+  "answer": 1,
+  "explanation": "refl is the sole constructor: refl_a : Id_A(a,a). J is the eliminator.",
+  "tags": [
+    "identity-type",
+    "mltt"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "7719812a-51bc-4aa9-9ae2-f300188ef700"
+}

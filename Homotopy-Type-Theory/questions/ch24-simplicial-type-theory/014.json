@@ -1,0 +1,20 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In 2-level type theory (2LTT), the 'inner' and 'outer' type theories serve different purposes:",
+  "choices": [
+    "inner handles computation, outer handles proofs",
+    "outer = strict MLTT (for internal rewriting); inner = HoTT (for homotopical content); the outer controls the inner",
+    "they are identical",
+    "inner = Lean 4, outer = Agda"
+  ],
+  "answer": 1,
+  "explanation": "2LTT (Voevodsky, Annenkov-Capriotti-Kraus): two universes — 'fibrant' types (inner) for homotopy and 'strict' types (outer) for bookkeeping. The outer universe has strict UIP; the inner has univalence.",
+  "tags": [
+    "simplicial-TT",
+    "2LTT"
+  ],
+  "difficulty": "advanced",
+  "question_id": "2fcd9b8d-0116-41bc-b2ad-cb80c3881bb0"
+}

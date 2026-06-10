@@ -1,0 +1,21 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A deformation retraction of X onto a subspace A is a homotopy H: X×I→X such that:",
+  "choices": [
+    "H(x,0)=x, H(x,1)∈A, and H(a,1)=a for all a∈A",
+    "H(x,0)=x and H(x,1)=x₀",
+    "H is the identity",
+    "H is surjective"
+  ],
+  "answer": 0,
+  "explanation": "A deformation retraction fixes A throughout: H(-,0)=id, H(-,1) maps to A, H|_{A×I}=incl.",
+  "tags": [
+    "deformation-retract",
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "631cb054-2739-4f42-8feb-eebb31bab95f"
+}

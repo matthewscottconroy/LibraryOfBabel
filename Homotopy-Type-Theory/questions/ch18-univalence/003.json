@@ -1,0 +1,19 @@
+{
+  "question_id": "08250eb9-88b6-41ad-aba4-99b383f9d0ac",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The computation rule for ua: transport(ua(e), a) = ___.",
+  "choices": [
+    "e(a)",
+    "e .fst a"
+  ],
+  "answer": "e(a)",
+  "explanation": "Transporting along ua(e) computes as applying the underlying function of the equivalence e.",
+  "tags": [
+    "HoTT",
+    "univalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

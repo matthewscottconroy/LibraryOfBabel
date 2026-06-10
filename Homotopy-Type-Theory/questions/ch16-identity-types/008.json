@@ -1,0 +1,20 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The reflexivity term refl_a has type:",
+  "choices": [
+    "∀A.A → A",
+    "a =_A a",
+    "Π(A:U).A → a = a",
+    "Π(b:A). a = b"
+  ],
+  "answer": 1,
+  "explanation": "refl_a : a =_A a (or IdA(a,a)). It is the constructor of the identity type — the proof that a equals itself.",
+  "tags": [
+    "HoTT",
+    "identity-types"
+  ],
+  "difficulty": "beginner",
+  "question_id": "cc6fa08e-5ae9-4a08-8056-d526c12ceaba"
+}

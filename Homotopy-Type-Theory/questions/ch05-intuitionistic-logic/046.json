@@ -1,0 +1,22 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Brouwer's continuity principle (in intuitionism) states that all functions ℕℕ→ℕ are:",
+  "choices": [
+    "Computable",
+    "Continuous (in the Baire space topology)",
+    "Primitive recursive",
+    "Uniformly continuous"
+  ],
+  "answer": 1,
+  "explanation": "Brouwer: every total function on Baire space ℕℕ is continuous (this is inconsistent with classical logic).",
+  "tags": [
+    "brouwer",
+    "continuity-principle",
+    "intuitionism"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "c07fe207-5d59-4d42-bd6a-a381e36e52bf"
+}

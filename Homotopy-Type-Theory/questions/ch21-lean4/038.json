@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `fun` is used to:",
+  "choices": [
+    "Call a function",
+    "Define an anonymous function / lambda abstraction",
+    "Apply a tactic",
+    "Import a module"
+  ],
+  "answer": 1,
+  "explanation": "`fun x => e` is lambda abstraction; `fun x : A => e` is typed.",
+  "tags": [
+    "lean4",
+    "lambda",
+    "term-mode"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "9b2e497b-7da2-4517-8926-3e6f640ad4e4"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "5a39082e-ca3d-430a-8c26-441b3e3fce99",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A metric space (X, d) is complete if:",
+  "choices": [
+    "every sequence converges",
+    "every Cauchy sequence converges to a point in X",
+    "every open cover has a finite subcover",
+    "X is bounded"
+  ],
+  "answer": 1,
+  "explanation": "Completeness: every Cauchy sequence converges. ℝ is complete; ℚ is not.",
+  "tags": [
+    "analysis",
+    "metric-spaces"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

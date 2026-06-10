@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "blank",
+  "text": "In Simplicial TT, the type of natural transformations between functors F,G: A→B is defined as Π(a:A). ______.",
+  "choices": [
+    "hom_B(F(a), G(a))",
+    "F(a) ≡ G(a)",
+    "Σ(b:B). F(a)=b",
+    "hom_A(a,a)"
+  ],
+  "answer": "hom_B(F(a), G(a))",
+  "explanation": "Nat(F,G) = Π(a:A). hom_B(F(a), G(a)) (natural transformations as dependent products of morphisms).",
+  "tags": [
+    "simplicial-type-theory",
+    "natural-transformation",
+    "dependent-product"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f4fd035b-45c6-4c4d-9b32-5c918a4b1d72"
+}

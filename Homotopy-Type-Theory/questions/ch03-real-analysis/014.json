@@ -1,0 +1,19 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a function f: ℝ → ℝ, Lipschitz continuity with constant K means:",
+  "choices": [
+    "|f(x)| ≤ K for all x",
+    "|f(x)-f(y)| ≤ K|x-y| for all x,y",
+    "f has a derivative bounded by K",
+    "f is differentiable with f'(x)=K"
+  ],
+  "answer": 1,
+  "explanation": "Lipschitz: |f(x)-f(y)| ≤ K|x-y|. Lipschitz ⟹ uniformly continuous. Differentiable with bounded derivative implies Lipschitz (MVT).",
+  "tags": [
+    "analysis"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "d5c14214-053b-4dff-9091-5a0ca63e902f"
+}

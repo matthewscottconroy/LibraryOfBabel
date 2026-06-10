@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "An ordinal number α is defined as:",
+  "choices": [
+    "A cardinal number that measures size",
+    "A transitive set well-ordered by ∈",
+    "A finite set with a natural number of elements",
+    "Any set that is the power set of another"
+  ],
+  "answer": 1,
+  "explanation": "An ordinal is a transitive set (x∈α and y∈x implies y∈α) that is well-ordered by ∈. Ordinals generalise natural numbers to the transfinite.",
+  "tags": [
+    "set-theory",
+    "ordinals"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "f0d992f8-6164-4ebc-bf56-c8a003d37e1f"
+}

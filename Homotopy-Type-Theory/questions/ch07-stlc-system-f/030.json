@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Hindley-Milner type system is a restriction of System F to which fragment?",
+  "choices": [
+    "Rank-1 polymorphism (∀ only at outermost position)",
+    "Rank-2 polymorphism",
+    "Monotypes only",
+    "Existential types only"
+  ],
+  "answer": 0,
+  "explanation": "HM restricts quantifiers to prenex (rank-1) positions, enabling principal type inference.",
+  "tags": [
+    "hindley-milner",
+    "polymorphism"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b0aeac50-eeca-44f7-b6b0-a321f66d131f"
+}

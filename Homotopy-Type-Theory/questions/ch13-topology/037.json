@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The quotient topology on X/∼ is the:",
+  "choices": [
+    "Discrete topology",
+    "Coarsest topology making the quotient map q: X → X/∼ continuous",
+    "Indiscrete topology",
+    "Finest topology on X/∼"
+  ],
+  "answer": 1,
+  "explanation": "Quotient topology: U ⊆ X/∼ is open iff q⁻¹(U) is open in X.",
+  "tags": [
+    "quotient-topology",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0a1093c6-aa5f-43be-ae57-51d03d7385d5"
+}

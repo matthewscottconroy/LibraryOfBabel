@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The sharp modality ♯ in cohesive HoTT is right adjoint to:",
+  "choices": [
+    "ʃ (shape)",
+    "♭ (flat)",
+    "The identity",
+    "The suspension"
+  ],
+  "answer": 1,
+  "explanation": "Adjoint quadruple: ♭ ⊣ ♯ (flat is left adjoint to sharp).",
+  "tags": [
+    "cohesive-hott",
+    "sharp-modality",
+    "adjunction"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "8b144b7b-f982-421c-b765-6049db894927"
+}

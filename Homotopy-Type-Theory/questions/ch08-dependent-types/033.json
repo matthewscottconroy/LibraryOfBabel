@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which paradox arises if 'Type : Type' is admitted without a universe hierarchy?",
+  "choices": [
+    "Russell's paradox",
+    "Girard's paradox",
+    "Löb's paradox",
+    "Berry's paradox"
+  ],
+  "answer": 1,
+  "explanation": "Girard's paradox (1972) shows that Type:Type leads to inconsistency, analogous to Burali-Forti in set theory.",
+  "tags": [
+    "universes",
+    "girard-paradox"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "1bfdb0a1-2c95-4bf2-b4ea-29666352a2fb"
+}

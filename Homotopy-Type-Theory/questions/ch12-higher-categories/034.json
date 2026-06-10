@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The straightening/unstraightening equivalence (Lurie) establishes a correspondence between:",
+  "choices": [
+    "Left fibrations over C and functors C→Spaces",
+    "Right fibrations and presheaves",
+    "Inner fibrations and simplicial functors",
+    "Both A and B"
+  ],
+  "answer": 3,
+  "explanation": "Straightening: left fibrations E→C ↔ functors C→Spaces; right fibrations ↔ functors C^op→Spaces.",
+  "tags": [
+    "straightening",
+    "lurie",
+    "infinity-category"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "00718559-2c14-4c8b-9831-3729755ffd37"
+}

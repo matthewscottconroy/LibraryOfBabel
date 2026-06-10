@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In sequent calculus LJ (intuitionistic), the right side of every sequent has at most one formula.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "LJ restricts the right-hand side to at most one formula, capturing intuitionistic logic.",
+  "tags": [
+    "lj",
+    "intuitionistic-logic",
+    "sequent-calculus"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "6756bc28-fa87-43e5-9e14-2c43b8359c93"
+}

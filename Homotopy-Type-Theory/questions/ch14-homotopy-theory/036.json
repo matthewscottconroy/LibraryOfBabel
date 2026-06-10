@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The cofibre of a map f: A→X is:",
+  "choices": [
+    "The fibre of f",
+    "X ∪_f CA (X with a cone on A attached via f)",
+    "The suspension of A",
+    "The loop space of X"
+  ],
+  "answer": 1,
+  "explanation": "Cofibre (mapping cone) Cf = X ∪_f CA: attach the cone CA to X along f.",
+  "tags": [
+    "cofibre",
+    "mapping-cone",
+    "homotopy"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b93df3cb-f1cc-42ea-828c-8c8c995771df"
+}

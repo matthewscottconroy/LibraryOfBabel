@@ -1,0 +1,19 @@
+{
+  "question_id": "89e74c77-d013-45ac-9e98-eb3d5d22f422",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The Axiom of Choice is provable from the other ZFC axioms.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "AC is independent of ZF — Cohen forcing gives a model where AC fails.",
+  "tags": [
+    "set-theory",
+    "axiom-of-choice"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

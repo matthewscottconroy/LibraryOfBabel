@@ -1,0 +1,21 @@
+{
+  "question_id": "a91cc35f-019c-4b86-b480-0b7e2ecc33f5",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Tychonoff's theorem (an arbitrary product of compact spaces is compact) is equivalent to:",
+  "choices": [
+    "the axiom of choice",
+    "Zorn's lemma only in the finite case",
+    "the continuum hypothesis",
+    "König's lemma"
+  ],
+  "answer": 0,
+  "explanation": "Kelley (1950) showed Tychonoff ↔ AC. The proof uses AC to construct ultrafilters; the converse uses Tychonoff to well-order any set.",
+  "tags": [
+    "compactness",
+    "axiom-of-choice"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

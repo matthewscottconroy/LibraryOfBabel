@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, `congS` (or `cong`) is the function:",
+  "choices": [
+    "Testing if two terms are equal",
+    "Applying a function to both sides of a path: cong f p : f a ≡ f b",
+    "Combining squares",
+    "Computing subst"
+  ],
+  "answer": 1,
+  "explanation": "cong f p = λ i → f (p i) : f a ≡ f b.",
+  "tags": [
+    "cubical-agda",
+    "cong",
+    "ap"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "2fa7dd76-3bf6-4128-8a33-51bb1c3f984c"
+}

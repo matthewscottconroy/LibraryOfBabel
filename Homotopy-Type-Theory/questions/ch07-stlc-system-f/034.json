@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Existential types in System F are used to model:",
+  "choices": [
+    "Inductive data types",
+    "Abstract data types / modules",
+    "Subtraction of resources",
+    "Co-inductive streams"
+  ],
+  "answer": 1,
+  "explanation": "∃α.T packages a type with its interface, directly modelling abstract data types.",
+  "tags": [
+    "system-f",
+    "existential-types",
+    "abstract-data-types"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "c8e2827c-cbde-4545-9509-a9401b326dd2"
+}

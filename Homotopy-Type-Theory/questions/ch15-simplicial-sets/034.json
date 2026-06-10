@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The homotopy theory of simplicial sets is equivalent to the homotopy theory of topological spaces via:",
+  "choices": [
+    "The Quillen equivalence |−| ⊣ Sing between sSet and Top",
+    "The Dold-Kan correspondence",
+    "The nerve-realisation adjunction for categories",
+    "The Seifert-van Kampen theorem"
+  ],
+  "answer": 0,
+  "explanation": "The adjunction |−| ⊣ Sing is a Quillen equivalence between the Kan-Quillen model structure on sSet and the Quillen model structure on Top.",
+  "tags": [
+    "quillen-equivalence",
+    "simplicial-set",
+    "topological-space"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "b3f3395b-e43c-4f93-bb6a-98859202a96c"
+}

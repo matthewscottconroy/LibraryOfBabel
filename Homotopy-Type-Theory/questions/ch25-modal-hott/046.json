@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'modality of double negation' ¬¬ in HoTT gives a reflective subuniverse. The ¬¬-modal types are:",
+  "choices": [
+    "All types",
+    "Only contractible types",
+    "¬¬-stable propositions (P≃¬¬P)",
+    "Sets"
+  ],
+  "answer": 2,
+  "explanation": "¬¬-modal: propositions P with ¬¬P→P; this gives classical (double-negation-stable) propositions.",
+  "tags": [
+    "double-negation",
+    "modal-hott",
+    "classical-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e9e96aa8-917d-4be9-a847-e2a5f0ad53d5"
+}

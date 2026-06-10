@@ -1,0 +1,21 @@
+{
+  "question_id": "824c3eae-e389-4602-bbe0-ead8444e4c54",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A subobject classifier Ω in an elementary topos is an object such that:",
+  "choices": [
+    "every subobject of X corresponds uniquely to a morphism X → Ω",
+    "Ω is the terminal object 1",
+    "Ω classifies all endofunctors",
+    "Ω is the initial object 0"
+  ],
+  "answer": 0,
+  "explanation": "The characteristic morphism χ_S: X → Ω of a subobject S ↪ X is the categorical analog of the indicator function. This makes Ω the 'object of truth values'.",
+  "tags": [
+    "topos",
+    "subobject-classifier"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

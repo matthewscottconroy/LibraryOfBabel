@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Freudenthal suspension theorem in HoTT implies which stable result for the first non-trivial homotopy group of spheres?",
+  "choices": [
+    "π₁(S¹)=ℤ is stable",
+    "πₙ₊₁(Sⁿ)=ℤ/2 for n≥3 is stable (first stable stem)",
+    "πₙ(Sⁿ)=ℤ for all n",
+    "πₙ₋₁(Sⁿ)=0"
+  ],
+  "answer": 1,
+  "explanation": "Freudenthal: for n≥3, πₙ₊₁(Sⁿ) stabilises to ℤ/2 (the first stable homotopy group of spheres).",
+  "tags": [
+    "freudenthal",
+    "stable-stems",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "9cb56842-a3a2-4e2d-80b7-3921133729c8"
+}

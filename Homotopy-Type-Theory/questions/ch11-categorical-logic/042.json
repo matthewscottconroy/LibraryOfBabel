@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The classifying topos of the theory of a single set (pure set theory) is:",
+  "choices": [
+    "Set itself",
+    "The presheaf topos [FinSet^op, Set] (the Schanuel topos)",
+    "The effective topos",
+    "The Sierpiński topos"
+  ],
+  "answer": 1,
+  "explanation": "The Schanuel topos classifies infinite decidable sets; [FinSet^op,Set] is the classifying topos for objects.",
+  "tags": [
+    "classifying-topos",
+    "schanuel-topos"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "97b3fbb5-4d74-46f0-8905-bf91f5789584"
+}

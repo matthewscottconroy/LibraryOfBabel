@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, 'covariant fibrations' and 'contravariant fibrations' over a Segal type A model:",
+  "choices": [
+    "Subobjects and quotients",
+    "Functors A→Spaces (covariant) and Aᵒᵖ→Spaces (contravariant)",
+    "Left and right Kan extensions",
+    "Fibrant and cofibrant objects"
+  ],
+  "answer": 1,
+  "explanation": "Covariant fib: A→Spaces (presheaf); contravariant fib: A^op→Spaces (copresheaf).",
+  "tags": [
+    "simplicial-type-theory",
+    "covariant-fibration",
+    "functor"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "caa51f20-b1a1-456c-b8b0-bcb9956b551c"
+}

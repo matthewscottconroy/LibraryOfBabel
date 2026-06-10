@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In an (∞,n)-category, morphisms up to dimension k < n are:",
+  "choices": [
+    "Always invertible",
+    "Strict",
+    "Not necessarily invertible",
+    "Required to have adjoints"
+  ],
+  "answer": 2,
+  "explanation": "In (∞,n), morphisms ≤ n are not assumed invertible; those > n are. (∞,0) = ∞-groupoid.",
+  "tags": [
+    "infinity-n-category",
+    "higher-categories"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "067f2d9a-036d-4cbc-8726-345dbbc1a27a"
+}

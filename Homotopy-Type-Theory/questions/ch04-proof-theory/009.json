@@ -1,0 +1,18 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In the sequent calculus LK (for classical logic), the exchange rule allows reordering of formulas in the antecedent.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "LK has structural rules: weakening, contraction, and exchange (permutation). Exchange allows treating the antecedent as a multiset.",
+  "tags": [
+    "proof-theory",
+    "sequent-calculus"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "c978da4f-7afb-41c6-b862-9986e852eb12"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In differential cohesive homotopy type theory, there are how many modalities in the basic chain?",
+  "choices": [
+    "2 (♭ and ♯)",
+    "4 (ℑ, ʃ, ♭, ♯)",
+    "3 (∫, ♭, ♯)",
+    "6"
+  ],
+  "answer": 2,
+  "explanation": "Cohesive HoTT (Lawvere-Schreiber-Shulman) has the chain of modalities: ʃ (shape/sharp), ♭ (flat/discrete), ♯ (codiscrete), and the pairs form adjoint triples.",
+  "tags": [
+    "modal-HoTT",
+    "cohesion"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "c299f235-99da-4ad4-9e9f-a1f26d5e20de"
+}

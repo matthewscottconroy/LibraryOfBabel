@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, the circle S¹ is defined as a HIT with `base : S¹` and `loop : base ≡ base`. The eliminator `elimS¹` requires:",
+  "choices": [
+    "A point and a loop in the target",
+    "A point b and a path l : b ≡ b in the target type",
+    "A delooping of the target",
+    "Just a point"
+  ],
+  "answer": 1,
+  "explanation": "S¹-elim: provide b: P base and l: PathP (λ i → P (loop i)) b b.",
+  "tags": [
+    "cubical-agda",
+    "circle",
+    "hit"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "4810c864-c2b3-4745-8c4b-4f47ad94cbd8"
+}

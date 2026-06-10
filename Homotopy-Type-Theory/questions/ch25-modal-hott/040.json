@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "blank",
+  "text": "In modal HoTT, the unit of a modality ◯ is a natural transformation η: Id ⇒ ◯. It is an equivalence on types that are ______.",
+  "choices": [
+    "◯-modal",
+    "contractible",
+    "propositions",
+    "Σ-types"
+  ],
+  "answer": "◯-modal",
+  "explanation": "A type A is ◯-modal iff η_A: A→◯A is an equivalence.",
+  "tags": [
+    "modal-hott",
+    "modality",
+    "unit"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "88f5f4dc-0708-401b-bfbe-7cd720ad12dd"
+}

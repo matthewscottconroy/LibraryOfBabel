@@ -1,0 +1,21 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The Lean 4 project 'sphere-eversions' (Massot et al.) aims to formalise:",
+  "choices": [
+    "π₁(S¹)=ℤ",
+    "Smale's sphere eversion theorem (you can turn S² inside out without creasing)",
+    "the Poincaré conjecture",
+    "the classification of surfaces"
+  ],
+  "answer": 1,
+  "explanation": "The sphere eversion project (formalised in Lean 4 / Mathlib) gives a fully formal proof that S² can be continuously turned inside out. A landmark example of advanced topology in a proof assistant.",
+  "tags": [
+    "research",
+    "Lean4",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "4b7e6849-fa21-4487-ba5a-7a9b66d3876f"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which type former in MLTT corresponds to the logical connective 'and' (conjunction)?",
+  "choices": [
+    "Π-type",
+    "Σ-type",
+    "+  (coproduct)",
+    "ℕ"
+  ],
+  "answer": 1,
+  "explanation": "Σ(x:A).B corresponds to A ∧ B (or ∃x:A.B when B depends on x); Π corresponds to ∀/→.",
+  "tags": [
+    "mltt",
+    "propositions-as-types",
+    "conjunction"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "918a0503-8bc3-4c22-87af-4368b1e6d968"
+}

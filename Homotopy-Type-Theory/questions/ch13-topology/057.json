@@ -1,0 +1,21 @@
+{
+  "question_id": "bc87d0ca-c464-4c98-9019-0f818e6357bc",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The long exact sequence of homotopy groups for a fibration p: E → B with fiber F is:",
+  "choices": [
+    "⋯ → πₙ(F) → πₙ(E) → πₙ(B) → πₙ₋₁(F) → ⋯",
+    "⋯ → πₙ(B) → πₙ(E) → πₙ(F) → ⋯",
+    "πₙ(E) ≅ πₙ(F) × πₙ(B) for all n",
+    "⋯ → πₙ(F) → πₙ(B) → πₙ(E) → ⋯"
+  ],
+  "answer": 0,
+  "explanation": "LES: ⋯ → πₙ(F) →i* πₙ(E) →p* πₙ(B) →∂ πₙ₋₁(F) → ⋯ → π₀(E) → π₀(B). Connecting map ∂ comes from lifting a loop in B to a path in E.",
+  "tags": [
+    "fibration",
+    "homotopy-groups"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

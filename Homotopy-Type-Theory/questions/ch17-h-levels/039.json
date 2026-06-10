@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "If A is a mere proposition and A is inhabited, then A is:",
+  "choices": [
+    "A set",
+    "A 1-type",
+    "Contractible",
+    "Non-trivial"
+  ],
+  "answer": 2,
+  "explanation": "Inhabited proposition: we have a:A and isProp(A) ⊢ Π(x:A).a=x, so isContr(A).",
+  "tags": [
+    "contractible",
+    "proposition",
+    "h-level"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "a7effd5d-d6e5-480b-83a0-c9fbe46da2cf"
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "d717d395-e225-4aae-9106-bedc9a5ec744",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In simplicial type theory, a functor between Segal types A and B is:",
+  "choices": [
+    "a special morphism in the hom type",
+    "a plain function f: A → B (automatically preserving composition up to homotopy)",
+    "a proof that A ≃ B",
+    "a natural transformation from A to B"
+  ],
+  "answer": 1,
+  "explanation": "A key feature of synthetic category theory: functors = plain functions between Segal types. Preservation of composition follows from the Segal condition automatically.",
+  "tags": [
+    "functors",
+    "simplicial-type-theory",
+    "segal-condition"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The Sterling-Harper 'synthetic Tait computability' is a technique for:",
+  "choices": [
+    "Proving termination of cubical type theory",
+    "Giving logical-relations proofs synthetically using type theory itself",
+    "Defining new modalities",
+    "Proving initiality"
+  ],
+  "answer": 1,
+  "explanation": "Synthetic Tait computability uses a type-theoretic language to state and prove logical-relation (computability) arguments.",
+  "tags": [
+    "synthetic-tait",
+    "logical-relations",
+    "research"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "85e0c4c9-f164-48a8-839c-6dd14cd09e27"
+}

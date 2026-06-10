@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The suspension Σ(A) of a type A in HoTT is defined as a HIT with:",
+  "choices": [
+    "One point and one loop",
+    "North pole N, South pole S, and for each a:A a path merid(a): N=S",
+    "Two points and no paths",
+    "All of A plus two poles"
+  ],
+  "answer": 1,
+  "explanation": "Σ(A) = {N, S : ΣA; merid : A → N=S}.",
+  "tags": [
+    "suspension",
+    "hit"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0e7b3e5a-9f1d-4a9b-886a-eec514d60351"
+}

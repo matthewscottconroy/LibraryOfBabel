@@ -1,0 +1,21 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In modal HoTT (Shulman, Licata-Orton), modalities are endofunctors on types satisfying:",
+  "choices": [
+    "They are comonads",
+    "They are monads (idempotent, unit η: A→◯A, and the map A→◯A is an equivalence on ◯-modal types)",
+    "They are equivalences",
+    "They are functors to propositions only"
+  ],
+  "answer": 1,
+  "explanation": "A modality ◯ is a left-exact, idempotent monad: A→◯A is universal among maps into ◯-modal types.",
+  "tags": [
+    "modal-hott",
+    "modality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "66273f92-52ab-4262-a867-d7352d1d01c0"
+}

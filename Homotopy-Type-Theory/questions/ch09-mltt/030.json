@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Axiom K in type theory states:",
+  "choices": [
+    "Every type has at most one element",
+    "All proofs of identity are equal to reflexivity (UIP)",
+    "Types are identified with their terms",
+    "Each type has a canonical proof"
+  ],
+  "answer": 1,
+  "explanation": "Axiom K (Streicher) is equivalent to UIP (uniqueness of identity proofs): all p : Id(a,a) equal refl.",
+  "tags": [
+    "axiom-k",
+    "uip",
+    "mltt"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "9d9edcef-bdbc-4138-b45e-f86cb14d7c26"
+}

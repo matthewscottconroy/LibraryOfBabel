@@ -1,0 +1,18 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The ___ of a set A is the smallest ordinal not in bijection with any member of A.",
+  "choices": [
+    "Hartogs number",
+    "Hartogs ordinal"
+  ],
+  "answer": "hartogs number",
+  "explanation": "Hartogs' theorem (without AC): for any set A there is a least ordinal H(A) that cannot be injected into A. This constructs ordinals without well-ordering.",
+  "tags": [
+    "set-theory",
+    "ordinals"
+  ],
+  "difficulty": "advanced",
+  "question_id": "95982cea-346e-4d9d-b8e2-c083d31425e9"
+}

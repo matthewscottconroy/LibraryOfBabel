@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Gödel-McKinsey-Tarski translation embeds IPC into:",
+  "choices": [
+    "classical propositional logic",
+    "S4 modal logic",
+    "first-order logic",
+    "linear logic"
+  ],
+  "answer": 1,
+  "explanation": "The GMT translation: ⊢_IPC A iff ⊢_S4 □A°, where (·)° prefixes every subformula with □. This embeds intuitionistic logic into modal logic S4.",
+  "tags": [
+    "intuitionistic",
+    "modal-logic"
+  ],
+  "difficulty": "advanced",
+  "question_id": "c1f7dcf2-2400-4d46-b45b-4baa36715251"
+}

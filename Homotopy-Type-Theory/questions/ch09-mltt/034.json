@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The type Bool in MLTT is an inductive type with how many constructors?",
+  "choices": [
+    "One",
+    "Two",
+    "Three",
+    "Infinitely many"
+  ],
+  "answer": 1,
+  "explanation": "Bool = {true, false}, two constructors.",
+  "tags": [
+    "mltt",
+    "boolean",
+    "inductive-types"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "3264c328-d7a7-406a-b848-2f0726e30df2"
+}

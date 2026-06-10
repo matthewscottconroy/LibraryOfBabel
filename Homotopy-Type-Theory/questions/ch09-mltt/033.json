@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which property of MLTT makes it suitable as a foundation for constructive mathematics?",
+  "choices": [
+    "It is classical (includes LEM)",
+    "All proofs are constructive — every proof of ∃x.P(x) yields a witness",
+    "It is incomplete (Gödel)",
+    "It has unrestricted comprehension"
+  ],
+  "answer": 1,
+  "explanation": "In constructive MLTT, ∃-elimination always extracts a witness, unlike in classical logic.",
+  "tags": [
+    "mltt",
+    "constructive-mathematics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "458a613f-4a39-4424-b2f5-5a95c990bef0"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Lean 4, `rcases h with ⟨a, ha⟩` is used to:",
+  "choices": [
+    "Rewrite with h",
+    "Destruct h (typically a conjunction or existential) into components a and ha",
+    "Introduce a hypothesis",
+    "Apply h to a goal"
+  ],
+  "answer": 1,
+  "explanation": "`rcases` destructs hypotheses; ⟨a, ha⟩ pattern works for ∃ and ∧.",
+  "tags": [
+    "lean4",
+    "rcases",
+    "tactics"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "c03192a4-f58d-453e-b19c-ed94dbee4e53"
+}

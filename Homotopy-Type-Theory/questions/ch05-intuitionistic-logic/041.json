@@ -1,0 +1,21 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Markov's principle (MP) is the axiom: if it is not the case that a computable function never halts, then it halts. It is:",
+  "choices": [
+    "A theorem of IPC",
+    "Accepted in Russian constructivism but not in intuitionism",
+    "Equivalent to LEM",
+    "A theorem of HoTT"
+  ],
+  "answer": 1,
+  "explanation": "MP is accepted by Russian constructivists (Markov school) but rejected by Brouwerian intuitionists.",
+  "tags": [
+    "markovs-principle",
+    "constructivism"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "e8271c59-5f4c-4c9e-8386-14131d3cdea6"
+}

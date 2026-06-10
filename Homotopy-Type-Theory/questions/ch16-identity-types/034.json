@@ -1,0 +1,23 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, what does it mean for a type to be a 'set' (h-set / 0-type)?",
+  "choices": [
+    "It has exactly one element",
+    "All identity types are contractible",
+    "All identity types are propositions (mere propositions)",
+    "All identity types are sets"
+  ],
+  "answer": 2,
+  "explanation": "A set (0-type): ∀ (a b:A). isProp(a=b). Equivalently, UIP holds: any two paths are equal.",
+  "tags": [
+    "h-set",
+    "0-type",
+    "uip",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "6f3035f0-d6b9-42c1-9925-c00de0504a92"
+}

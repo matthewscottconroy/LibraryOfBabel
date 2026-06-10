@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In NBG (von Neumann-Bernays-Gödel) set theory, classes are:",
+  "choices": [
+    "always sets",
+    "first-class objects, with sets being those classes that are members of some class",
+    "only ordinals",
+    "always proper"
+  ],
+  "answer": 1,
+  "explanation": "NBG allows proper classes as first-class objects. A set is a class that belongs to some class. NBG is a conservative extension of ZFC: it proves the same theorems about sets.",
+  "tags": [
+    "set-theory",
+    "NBG"
+  ],
+  "difficulty": "advanced",
+  "question_id": "60cbd4dc-26fb-4085-a0b6-af9c6b5de8c7"
+}

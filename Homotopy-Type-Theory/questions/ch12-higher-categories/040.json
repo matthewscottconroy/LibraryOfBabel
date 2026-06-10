@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the theory of ∞-operads (Lurie), an ∞-operad is a fibration p: O⊗→N(Fin*) satisfying:",
+  "choices": [
+    "A Segal condition on multi-morphisms",
+    "The inner horn condition",
+    "Being Kan",
+    "Being a left fibration"
+  ],
+  "answer": 0,
+  "explanation": "∞-Operad: cocartesian fibration over Fin* with a Segal-type condition on multi-object operations.",
+  "tags": [
+    "infinity-operad",
+    "lurie",
+    "higher-categories"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4a2a20f7-1e2e-4bcf-8419-d7f922de2ff7"
+}

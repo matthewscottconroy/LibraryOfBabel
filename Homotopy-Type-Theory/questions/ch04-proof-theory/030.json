@@ -1,0 +1,18 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In LK (classical sequent calculus), a sequent Γ⊢Δ has a proof iff the formula (∧Γ)→(∨Δ) is classically valid.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The sequent Γ⊢Δ corresponds to the formula ¬(∧Γ)∨(∨Δ). It is provable in LK iff this formula is a classical tautology.",
+  "tags": [
+    "proof-theory",
+    "sequent-calculus"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "16991127-e977-4220-9685-9f57fdad1ae8"
+}

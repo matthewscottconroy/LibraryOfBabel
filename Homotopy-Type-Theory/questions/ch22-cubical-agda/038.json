@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `Cubical.HITs.S1` module defines S¹ using:",
+  "choices": [
+    "A postulate",
+    "A data type with base:S¹ and loop:base≡base",
+    "A Glue type",
+    "An Iso"
+  ],
+  "answer": 1,
+  "explanation": "S¹ in Cubical Agda: data S¹ where base:S¹; loop:base≡base.",
+  "tags": [
+    "cubical-agda",
+    "circle",
+    "hit"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "ffd0b78c-2b8c-4b82-ac12-c98bbbe46e5c"
+}

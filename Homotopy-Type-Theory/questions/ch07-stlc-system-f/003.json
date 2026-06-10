@@ -1,0 +1,18 @@
+{
+  "question_id": "d883ccd1-f3e3-47bc-9cb0-afd7c9dfc861",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In System F, type inference is decidable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Full type inference for System F is undecidable (Wells 1994). ML uses restricted let-polymorphism to keep it decidable.",
+  "tags": [
+    "System-F"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

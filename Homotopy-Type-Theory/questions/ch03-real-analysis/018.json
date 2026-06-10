@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A sequence (aₙ) converges to L iff: for every ε>0 there exists N such that for all n>N,",
+  "choices": [
+    "|aₙ|<ε",
+    "|aₙ-L|<ε",
+    "aₙ=L",
+    "aₙ>L-ε"
+  ],
+  "answer": 1,
+  "explanation": "Convergence: ∀ε>0 ∃N ∀n>N: |aₙ-L|<ε. The tail of the sequence lies within ε of L.",
+  "tags": [
+    "analysis",
+    "sequences"
+  ],
+  "difficulty": "beginner",
+  "question_id": "92111745-327c-48a4-8d85-0faec180efc8"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The interval HIT I has two point constructors 0ᵢ,1ᵢ: I and one path seg: 0ᵢ=1ᵢ. The type I is:",
+  "choices": [
+    "A non-trivial homotopy type",
+    "Contractible",
+    "A proposition",
+    "A set with two elements"
+  ],
+  "answer": 1,
+  "explanation": "I is contractible (it models [0,1] which deformation retracts to a point).",
+  "tags": [
+    "interval",
+    "hit",
+    "contractible"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3fa17f9c-b752-4f8e-bd3c-478ae3dcf93e"
+}

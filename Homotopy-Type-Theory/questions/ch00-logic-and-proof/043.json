@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In first-order logic, ∀x(P(x)→Q(x)) and ∀x P(x) together imply:",
+  "choices": [
+    "∃x Q(x)",
+    "¬∀x Q(x)",
+    "∀x Q(x)",
+    "P(a) for some constant a"
+  ],
+  "answer": 2,
+  "explanation": "Universal instantiation + modus ponens applied to all x gives ∀x Q(x).",
+  "tags": [
+    "first-order-logic",
+    "universal-instantiation"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "1b70af77-4672-4524-96fd-c9bc7779d9c4"
+}

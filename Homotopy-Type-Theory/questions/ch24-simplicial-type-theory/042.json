@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, the 'spine inclusion' Iₙ ↪ Δⁿ is used to express:",
+  "choices": [
+    "The Kan condition",
+    "The Segal condition (composability of n morphisms)",
+    "The unit law",
+    "Naturality"
+  ],
+  "answer": 1,
+  "explanation": "Segal condition via spine: Xₙ → Hom_sSet(Δⁿ, X) factors through the spine Iₙ (path of n composable edges).",
+  "tags": [
+    "simplicial-type-theory",
+    "segal-condition",
+    "spine"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "6e0ade15-49e9-4f3a-9544-ed2e191df330"
+}

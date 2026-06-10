@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In categorical logic, a 'regular morphism' (regular epi) is an epimorphism that:",
+  "choices": [
+    "Has a section",
+    "Is the coequalizer of its kernel pair",
+    "Is a monomorphism",
+    "Is an isomorphism"
+  ],
+  "answer": 1,
+  "explanation": "Regular epi: coequaliser of some parallel pair; models surjective-on-elements morphisms.",
+  "tags": [
+    "regular-epi",
+    "categorical-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "ad42025c-738e-456b-ab7b-6696424d7d55"
+}

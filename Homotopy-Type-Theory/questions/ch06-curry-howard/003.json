@@ -1,0 +1,21 @@
+{
+  "question_id": "cfa0cf55-b3e2-4e75-bbbe-4b5dcd76fbff",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Strong normalisation of a typed lambda calculus implies:",
+  "choices": [
+    "every program terminates",
+    "the corresponding logic is consistent (⊥ is uninhabited)",
+    "all types are propositions",
+    "the type checker is decidable"
+  ],
+  "answer": 1,
+  "explanation": "If all terms normalise, there is no infinite reduction, so no term of type ⊥ can exist — the logic is consistent.",
+  "tags": [
+    "curry-howard",
+    "consistency"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

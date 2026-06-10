@@ -1,0 +1,20 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Lawvere-Tierney topology on a topos T is a morphism j: Ω → Ω satisfying:",
+  "choices": [
+    "j∘j=j, j∘⊤=⊤, j∘∧=(∧)∘(j×j)",
+    "j is an isomorphism",
+    "j=id_Ω",
+    "j is the negation operation"
+  ],
+  "answer": 0,
+  "explanation": "A Lawvere-Tierney topology (local operator) j: Ω→Ω satisfies j²=j (idempotent), j∘⊤=⊤, and j∘∧=∧∘(j×j). It determines a subtopos (the j-sheaves).",
+  "tags": [
+    "categorical-logic",
+    "topos"
+  ],
+  "difficulty": "advanced",
+  "question_id": "4b25dd9d-5e54-413f-a99a-a84789570890"
+}

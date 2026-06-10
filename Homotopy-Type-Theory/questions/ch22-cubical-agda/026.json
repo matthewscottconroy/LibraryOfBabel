@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `hcomp` operation in Cubical Agda provides:",
+  "choices": [
+    "Horizontal composition of paths",
+    "Kan filling: given a box with open top, fills in the top face",
+    "Composition of equivalences",
+    "A path concatenation"
+  ],
+  "answer": 1,
+  "explanation": "hcomp (homogeneous composition) is the Kan filling operation for cubical types.",
+  "tags": [
+    "cubical-agda",
+    "hcomp",
+    "kan-filling"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "91ad9100-20f6-4ced-a85a-bcfcf0089297"
+}

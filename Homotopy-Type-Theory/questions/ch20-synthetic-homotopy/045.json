@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A 'connected cover' of a space X in HoTT is:",
+  "choices": [
+    "ΩX",
+    "The fibre of X → ‖X‖₋₁",
+    "The universal cover of X",
+    "The n-th Postnikov section"
+  ],
+  "answer": 1,
+  "explanation": "Connected cover: fibre of X→‖X‖₋₁ (the (-1)-truncation map), making it path-connected.",
+  "tags": [
+    "connected-cover",
+    "truncation",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "1f93874f-4a9b-4f7a-b325-237b109b4f74"
+}

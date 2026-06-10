@@ -1,0 +1,20 @@
+{
+  "question_id": "d1aae6ae-fb1c-40c8-bc83-744de5c2f25e",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "tf",
+  "text": "The type of all mere propositions (h-props) is itself a set (h-level 0).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Two h-props P, Q: hProp are equal iff P ≃ Q (by univalence), and the type of equivalences between h-props is itself an h-prop (being an h-prop is a property). So hProp is a set.",
+  "tags": [
+    "h-propositions",
+    "univalence",
+    "h-sets"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

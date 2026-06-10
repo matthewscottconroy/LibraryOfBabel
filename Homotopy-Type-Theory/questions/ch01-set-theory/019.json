@@ -1,0 +1,19 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Axiom of Infinity in ZFC asserts the existence of a set containing:",
+  "choices": [
+    "all ordinals",
+    "∅ and for each x, the set x∪{x}",
+    "all natural numbers as a proper class",
+    "the real numbers"
+  ],
+  "answer": 1,
+  "explanation": "Infinity: ∃S: ∅∈S ∧ ∀x∈S: x∪{x}∈S. This gives a set containing 0,1,2,… (the von Neumann naturals) and so guarantees infinite sets exist.",
+  "tags": [
+    "set-theory"
+  ],
+  "difficulty": "beginner",
+  "question_id": "e48a5e57-024a-42d5-bcd4-2a61e1d6a165"
+}

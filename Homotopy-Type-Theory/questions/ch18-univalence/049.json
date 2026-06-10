@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In homotopy type theory, the assertion 'all types are sets' (i.e. everything has h-level 0) is:",
+  "choices": [
+    "A theorem",
+    "Consistent but not provable (it holds in some models e.g. setoids)",
+    "Inconsistent with univalence",
+    "Equivalent to LEM"
+  ],
+  "answer": 1,
+  "explanation": "Asserting all types are sets is consistent with MLTT but not with HoTT+UA (since S¹ is a non-trivial 1-type).",
+  "tags": [
+    "h-set",
+    "univalence",
+    "consistency"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4e27b60f-15b4-4e78-ad64-437cf657370a"
+}

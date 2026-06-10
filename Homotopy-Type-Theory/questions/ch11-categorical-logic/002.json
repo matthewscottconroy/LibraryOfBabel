@@ -1,0 +1,21 @@
+{
+  "question_id": "8dcebe09-80c0-4864-b561-d7b18393ffff",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The subobject classifier Ω in an elementary topos plays the role of:",
+  "choices": [
+    "the set of all sets",
+    "the type of propositions / truth values",
+    "the terminal object",
+    "the empty type"
+  ],
+  "answer": 1,
+  "explanation": "Ω classifies monomorphisms: each subobject of A corresponds to a unique characteristic map A → Ω. In Set, Ω = {⊤,⊥}.",
+  "tags": [
+    "categorical-logic",
+    "topos"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "e4d31241-1308-443b-8269-687f5de1b715",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Transport along a path p: a=b in a family B: A → Type is always an equivalence B(a) ≃ B(b).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "transport(p, -): B(a) → B(b) is an equivalence with inverse transport(p⁻¹, -): B(b) → B(a). This is because p⁻¹ is the inverse path and transport is functorial.",
+  "tags": [
+    "transport",
+    "identity-types",
+    "equivalence"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

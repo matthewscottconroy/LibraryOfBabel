@@ -1,0 +1,19 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In HoTT, function extensionality (funext) is provable from the J rule without any extra axioms.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Funext (if f~g then f=g) is NOT provable from J alone in Book HoTT. It must be added as an axiom or derived from the interval HIT. In Cubical TT it is a theorem.",
+  "tags": [
+    "HoTT",
+    "funext",
+    "identity-types"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "d4d284ca-a143-45df-8109-c291d6a4c8a2"
+}

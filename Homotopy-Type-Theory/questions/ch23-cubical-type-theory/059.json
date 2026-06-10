@@ -1,0 +1,19 @@
+{
+  "question_id": "e2276c37-88ae-478d-955b-52315613bfeb",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "blank",
+  "text": "In cubical type theory, the two endpoints of the interval I are named ___ and ___.",
+  "choices": [
+    "i0 and i1",
+    "0 and 1"
+  ],
+  "answer": "i0 and i1",
+  "explanation": "The interval I has i0 (the 'left' endpoint, like 0∈[0,1]) and i1 (the 'right' endpoint). A path p: I→A with p i0 = a and p i1 = b witnesses a = b.",
+  "tags": [
+    "interval",
+    "cubical-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

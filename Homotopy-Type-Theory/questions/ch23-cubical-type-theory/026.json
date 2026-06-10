@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Higher inductive types in CTT are defined by generators that include path constructors. Termination is ensured by:",
+  "choices": [
+    "Requiring a well-founded ordering",
+    "Higher-dimensional coherence conditions on the HIT constructors",
+    "Restricting to first-order path constructors only",
+    "Using the interval type directly"
+  ],
+  "answer": 1,
+  "explanation": "HITs in CTT must satisfy coherence conditions to ensure consistency; e.g. path constructors must respect face formulas.",
+  "tags": [
+    "cubical-type-theory",
+    "hit",
+    "coherence"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a8805796-116b-4f27-8835-d4a804ed42ea"
+}

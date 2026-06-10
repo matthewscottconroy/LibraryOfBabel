@@ -1,0 +1,21 @@
+{
+  "question_id": "e4133f7e-d783-44c1-b862-775de0dd8ed8",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The univalence axiom states that idToEquiv : (A=B) → (A≃B) is:",
+  "choices": [
+    "injective",
+    "surjective",
+    "an equivalence",
+    "a group homomorphism"
+  ],
+  "answer": 2,
+  "explanation": "Univalence: (A=B) ≃ (A≃B). Paths in the universe correspond exactly to equivalences.",
+  "tags": [
+    "HoTT",
+    "univalence"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

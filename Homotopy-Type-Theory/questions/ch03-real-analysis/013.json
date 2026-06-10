@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Arzelà-Ascoli theorem characterises compact subsets of C([a,b]) as sets of functions that are:",
+  "choices": [
+    "bounded only",
+    "equicontinuous only",
+    "uniformly bounded and equicontinuous",
+    "Lipschitz"
+  ],
+  "answer": 2,
+  "explanation": "Arzelà-Ascoli: a subset F ⊆ C([a,b]) has compact closure iff F is uniformly bounded and equicontinuous. This gives a function-space analogue of Bolzano-Weierstrass.",
+  "tags": [
+    "analysis",
+    "compactness"
+  ],
+  "difficulty": "advanced",
+  "question_id": "320b9251-3c56-4f3c-862d-5f0d240dfb04"
+}

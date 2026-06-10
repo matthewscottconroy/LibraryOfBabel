@@ -1,0 +1,20 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Hurewicz theorem (in the simply-connected case) says: if X is (n-1)-connected (πₖ(X)=0 for k<n), then:",
+  "choices": [
+    "πₙ(X) = 0",
+    "Hₙ(X) ≅ πₙ(X) (first non-trivial homology equals first non-trivial homotopy group)",
+    "X ≃ Sⁿ",
+    "πₙ(X) is abelian"
+  ],
+  "answer": 1,
+  "explanation": "Hurewicz: if πₖ(X)=0 for k<n, then Hₖ(X)=0 for 0<k<n and Hₙ(X)≅πₙ(X). This bridges homotopy and homology in the first non-trivial dimension.",
+  "tags": [
+    "homotopy",
+    "homology"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "8cf5d475-b6b0-42fc-8839-b0a50d0a73b4"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "ed8e6426-111b-4a7a-89ac-e2b8c107ecc3",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The homotopy category Ho(C) of an ∞-category C is obtained by:",
+  "choices": [
+    "restricting to the 0-simplices only",
+    "inverting all morphisms",
+    "taking objects and homotopy classes of 1-morphisms",
+    "truncating all higher path data above dimension 1"
+  ],
+  "answer": 2,
+  "explanation": "Ho(C) has the same objects as C, but morphisms are π₀(Map_C(x,y)) — homotopy classes of morphisms. This is the '1-categorical shadow' of C.",
+  "tags": [
+    "homotopy-category",
+    "infinity-categories"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

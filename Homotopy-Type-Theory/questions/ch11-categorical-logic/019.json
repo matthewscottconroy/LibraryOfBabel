@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In categorical logic, a subobject classifier Ω in a topos satisfies:",
+  "choices": [
+    "Ω is a set",
+    "Every monomorphism m: A↪B corresponds uniquely to a characteristic map χ_m: B→Ω",
+    "Ω is the initial object",
+    "Ω is the set of truth values {0,1}"
+  ],
+  "answer": 1,
+  "explanation": "The subobject classifier makes mono → true-map a bijection, generalising the powerset.",
+  "tags": [
+    "subobject-classifier",
+    "topos"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0ca1f086-13c9-4aec-9993-10724a4623e1"
+}

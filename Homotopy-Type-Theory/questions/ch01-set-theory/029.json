@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Suslin's hypothesis (SH) is the statement that every dense linear order without endpoints that is complete and has the countable chain condition is order-isomorphic to ℝ. SH is:",
+  "choices": [
+    "provable in ZFC",
+    "refutable in ZFC",
+    "independent of ZFC",
+    "equivalent to GCH"
+  ],
+  "answer": 2,
+  "explanation": "SH is independent of ZFC (Jensen 1968 shows ♢ (diamond) implies ¬SH; MA+¬CH implies SH). Closely related to the Suslin line problem.",
+  "tags": [
+    "set-theory",
+    "combinatorics"
+  ],
+  "difficulty": "advanced",
+  "question_id": "f9dd8dee-734b-40c2-bbd2-d15873478c14"
+}

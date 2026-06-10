@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `exact` tactic in Lean 4 closes a goal by:",
+  "choices": [
+    "Rewriting",
+    "Providing an explicit term that has the goal's type",
+    "Applying an introduction rule",
+    "Calling omega"
+  ],
+  "answer": 1,
+  "explanation": "`exact e` closes the goal if `e` has the expected type.",
+  "tags": [
+    "lean4",
+    "exact",
+    "tactics"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "a59e3af3-b05f-4dab-8235-7f1f42d79dba"
+}

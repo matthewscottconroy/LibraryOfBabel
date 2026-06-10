@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In CTT, types are defined as:",
+  "choices": [
+    "Sets with extra structure",
+    "Fibrations over the interval — Kan fibrant presheaves on the category of cubes",
+    "Boolean algebras",
+    "Groupoids with Kan filling"
+  ],
+  "answer": 1,
+  "explanation": "CTT types are Kan fibrant cubical sets: presheaves on □ with the Kan filling structure.",
+  "tags": [
+    "cubical-type-theory",
+    "fibrant",
+    "model"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "17e3f25e-5636-4b7e-8742-aecedc9faa3c"
+}

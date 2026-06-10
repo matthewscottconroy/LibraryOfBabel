@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Cantor set is constructed by removing the middle thirds from [0,1] iteratively. It is:",
+  "choices": [
+    "countable",
+    "an open dense set",
+    "uncountable, closed, nowhere dense, and has Lebesgue measure 0",
+    "a countable union of intervals"
+  ],
+  "answer": 2,
+  "explanation": "The Cantor set: closed (complement is open), uncountable (homeomorphic to {0,1}^ℕ), nowhere dense (no interval), measure 0 (∑(2/3)^n→0). A classic pathological set.",
+  "tags": [
+    "analysis",
+    "measure-theory"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "cf75b40e-0cdf-457a-8f44-1e015f81ef8b"
+}

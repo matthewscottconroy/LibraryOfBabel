@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The James construction J(A) on a pointed type A in HoTT represents:",
+  "choices": [
+    "The free ∞-group on A",
+    "The suspension of A",
+    "The free associative monoid on A (with basepoint as unit)",
+    "The loop space of A"
+  ],
+  "answer": 2,
+  "explanation": "J(A) = ΩΣA is the free A∞-space on A; it presents the free monoid structure.",
+  "tags": [
+    "james-construction",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "e3626c27-b475-48b8-bf34-7150128d0a5d"
+}

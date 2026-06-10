@@ -1,0 +1,20 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Univalence is provable from the other rules of HoTT (Martin-Löf TT + HITs).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Univalence is an axiom (cannot be proved from MLTT); it is satisfied by the simplicial set model.",
+  "tags": [
+    "univalence",
+    "hott",
+    "axiom"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "7e9b67cd-3000-4168-a178-91a626e0d6cc"
+}

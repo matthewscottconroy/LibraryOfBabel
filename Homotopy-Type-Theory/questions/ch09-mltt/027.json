@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In MLTT, the computation rule for J states: J(A,a,C,d,a,______) ≡ d.",
+  "choices": [
+    "refl_a",
+    "ap f",
+    "transport",
+    "symm"
+  ],
+  "answer": "refl_a",
+  "explanation": "J(A,a,C,d,a,refl) ≡ d is the β-rule for J: it computes when the path is reflexivity.",
+  "tags": [
+    "j-eliminator",
+    "computation-rule"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "3cfe8a14-b6f2-4118-9657-1f51b114c597"
+}

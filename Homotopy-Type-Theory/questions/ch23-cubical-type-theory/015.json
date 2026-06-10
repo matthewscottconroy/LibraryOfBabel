@@ -1,0 +1,21 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'subst' function in Cubical Agda / cubical TT (transport along a path) is definitionally:",
+  "choices": [
+    "subst P refl x = x (transport along refl is the identity)",
+    "subst P p x = hcomp",
+    "subst P p x ≡ x for all p",
+    "subst P p x requires univalence"
+  ],
+  "answer": 0,
+  "explanation": "A key computational property: transp (λ i → P i) i0 x computes to x when P is independent of i (i.e., the path is degenerate). This is the definitional β-rule for transport.",
+  "tags": [
+    "cubical-TT",
+    "transport",
+    "computation"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "38babf91-855c-490a-9fd4-a9809c555c84"
+}

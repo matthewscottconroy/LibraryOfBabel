@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The codomain fibration over a category C sends each morphism f:A→B to its ______.",
+  "choices": [
+    "codomain B",
+    "domain A",
+    "kernel",
+    "equalizer"
+  ],
+  "answer": "codomain B",
+  "explanation": "The codomain fibration cod: C^→ → C maps each arrow to its codomain.",
+  "tags": [
+    "fibration",
+    "category-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "d07d8070-f136-471b-9c63-f041b00199f3"
+}

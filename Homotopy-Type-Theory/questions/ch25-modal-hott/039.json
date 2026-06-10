@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'unique choice principle' for a modality ◯ states:",
+  "choices": [
+    "Every ◯-modal type has at most one element",
+    "If ◯(Σ(x:A).isProp(P(x))) and isProp(A), then we can choose",
+    "If Σ(x:A).P(x) is ◯-modal and P(x) is a proposition for all x, then we can extract a function A→{x|P(x)}",
+    "If P is a proposition, ‖P‖=P"
+  ],
+  "answer": 2,
+  "explanation": "Unique choice: if a Σ-type is modal with propositional fibres, we can eliminate the truncation.",
+  "tags": [
+    "modal-hott",
+    "unique-choice",
+    "modality"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "f4af1125-ae3b-4362-b7aa-6117b073cac0"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Heine-Cantor theorem states that a continuous function on a compact set is:",
+  "choices": [
+    "Differentiable",
+    "Uniformly continuous",
+    "Monotone",
+    "Lipschitz"
+  ],
+  "answer": 1,
+  "explanation": "Heine-Cantor: continuous image of a compact set is compact; continuous on compact ⟹ uniformly continuous.",
+  "tags": [
+    "heine-cantor",
+    "compact",
+    "uniform-continuity"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "1b7d67e7-3533-4910-bd23-3614300ba954"
+}

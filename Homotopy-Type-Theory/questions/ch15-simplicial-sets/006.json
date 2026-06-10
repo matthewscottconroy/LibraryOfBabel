@@ -1,0 +1,21 @@
+{
+  "question_id": "6d624a47-16f5-4b8a-aa3b-4e08000072b3",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The geometric realisation–singular complex adjunction |·| ⊣ Sing establishes:",
+  "choices": [
+    "an equivalence between simplicial sets and topological spaces",
+    "a Quillen equivalence between the Kan-Quillen model structure on sSet and the Quillen model structure on Top",
+    "that every topological space is a simplicial set",
+    "that Kan complexes are the same as CW complexes"
+  ],
+  "answer": 1,
+  "explanation": "|·| ⊣ Sing is a Quillen equivalence between (sSet, Kan-Quillen) and (Top, Quillen). Weak homotopy equivalences in Top correspond exactly to weak equivalences in sSet.",
+  "tags": [
+    "simplicial-sets",
+    "model-structure"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

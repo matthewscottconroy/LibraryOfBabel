@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The apd function in HoTT, for a dependent function f: Π(x:A).B(x) and path p: a=b, gives:",
+  "choices": [
+    "apd_f(p): f(a) = f(b)",
+    "apd_f(p): transport^B(p, f(a)) = f(b) (a dependent path over p)",
+    "apd_f(p): B(a) = B(b)",
+    "apd_f(p): a = b"
+  ],
+  "answer": 1,
+  "explanation": "apd_f(p): transport^B(p, f(a)) =_{B(b)} f(b), the dependent action on paths.",
+  "tags": [
+    "apd",
+    "dependent-path",
+    "identity-type"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "9c01b88f-f08a-4ba2-bef0-1111dbeabc8f"
+}

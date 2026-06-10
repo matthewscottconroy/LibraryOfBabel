@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `isoToEquiv` function in Cubical Agda converts an Iso to an equivalence by:",
+  "choices": [
+    "Applying ua",
+    "Using the fact that Iso implies contractible fibres (via the half-adjoint equivalence trick)",
+    "Using propositional truncation",
+    "Applying funext"
+  ],
+  "answer": 1,
+  "explanation": "isoToEquiv: the coherence data of an Iso implies contractible fibres, giving an equivalence.",
+  "tags": [
+    "cubical-agda",
+    "isoToEquiv",
+    "equivalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "5442d9ba-5045-4f82-8441-841ebde063c9"
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "0e8831a9-c6c6-4a3a-8679-3d57c50dc91b",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Cubical Agda, the command `PathP (λ i → A i) a b` defines:",
+  "choices": [
+    "a path from a to b in a fixed type A",
+    "a heterogeneous path from a: A i0 to b: A i1 lying over a type path A: I → U",
+    "a proof that A is contractible",
+    "a transport of a to the type A i1"
+  ],
+  "answer": 1,
+  "explanation": "PathP generalizes Path: Path A a b ≡ PathP (λ_. A) a b. Heterogeneous paths are needed for the eliminator of HITs where the type changes along the path.",
+  "tags": [
+    "path-type",
+    "cubical-type-theory",
+    "cubical-agda"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

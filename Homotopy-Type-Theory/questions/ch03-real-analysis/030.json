@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Banach fixed-point theorem requires: a function T: X → X on a complete metric space is a contraction if:",
+  "choices": [
+    "T is continuous",
+    "d(Tx,Ty) ≤ k·d(x,y) for some k<1 and all x,y",
+    "T is surjective",
+    "T is injective"
+  ],
+  "answer": 1,
+  "explanation": "Contraction mapping: ∃k<1 ∀x,y: d(Tx,Ty)≤k·d(x,y). Then T has a unique fixed point (Banach's theorem). Used to prove existence/uniqueness for ODEs (Picard).",
+  "tags": [
+    "analysis",
+    "metric-spaces"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "50439293-3852-4059-ab48-3831ec393dff"
+}

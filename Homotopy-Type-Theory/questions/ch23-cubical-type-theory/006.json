@@ -1,0 +1,20 @@
+{
+  "question_id": "928e1e96-4307-402c-9929-2a253e4a938a",
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In cubical type theory (CCHM), the interval 𝕀 has endpoints:",
+  "choices": [
+    "0 and 1, with 𝕀 a type in the universe",
+    "i0 and i1, with 𝕀 a primitive not in the universe",
+    "⊥ and ⊤, matching the Boolean lattice",
+    "left and right, as named constructors"
+  ],
+  "answer": 1,
+  "explanation": "In CCHM, 𝕀 has endpoints i0 and i1. It is primitive — not a type in the universe — so you cannot quantify over it with Π without using the Path type abstraction.",
+  "tags": [
+    "cubical-TT"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

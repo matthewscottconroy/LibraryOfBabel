@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The ε-δ definition of lim_{x→a} f(x) = L requires: for every ε>0, there exists δ>0 such that:",
+  "choices": [
+    "0<|x-a|<δ implies f(x)=L",
+    "0<|x-a|<δ implies |f(x)-L|<ε",
+    "f(a)=L",
+    "|f(x)-L|<δ implies 0<|x-a|<ε"
+  ],
+  "answer": 1,
+  "explanation": "Cauchy ε-δ definition of limit.",
+  "tags": [
+    "limits",
+    "epsilon-delta"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "8c251a95-5fbe-471d-9f4e-9bac38e5175c"
+}

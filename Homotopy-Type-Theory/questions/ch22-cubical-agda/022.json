@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, the `Glue` type is used to:",
+  "choices": [
+    "Define HITs",
+    "Implement univalence: glue an equivalence along a path in the universe",
+    "Define the interval",
+    "Prove Kan filling"
+  ],
+  "answer": 1,
+  "explanation": "Glue types encode equivalences and are the mechanism by which ua (univalence) is derived in cubical TT.",
+  "tags": [
+    "cubical-agda",
+    "glue",
+    "univalence"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "cf691a4f-e1ad-4031-ab67-a5887583c2a2"
+}

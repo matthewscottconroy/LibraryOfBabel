@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The ∞-cosmos of Riehl-Verity is a framework for:",
+  "choices": [
+    "Constructive logic",
+    "Defining and working with (∞,1)-category theory in a model-independent way",
+    "Building proof assistants",
+    "Simplicial combinatorics"
+  ],
+  "answer": 1,
+  "explanation": "An ∞-cosmos is an axiomatised framework (a particular kind of enriched category) for model-independent ∞-category theory.",
+  "tags": [
+    "infinity-cosmos",
+    "riehl-verity",
+    "infinity-categories"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "4b42bd8b-9721-4bc9-9167-0192a690094d"
+}

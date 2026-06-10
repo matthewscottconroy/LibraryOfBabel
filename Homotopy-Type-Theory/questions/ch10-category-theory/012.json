@@ -1,0 +1,20 @@
+{
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A right adjoint functor G: D → C preserves:",
+  "choices": [
+    "colimits",
+    "limits",
+    "all isomorphisms",
+    "initial objects"
+  ],
+  "answer": 1,
+  "explanation": "Right adjoints preserve all limits; left adjoints preserve all colimits. This is one of the key theorems of category theory.",
+  "tags": [
+    "category-theory",
+    "adjunctions"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "886063f1-7152-4957-acba-3cba9b76713b"
+}

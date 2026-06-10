@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Parametric type theory (Nuyts-Vezzosi-Devriese) uses modal types to internalise:",
+  "choices": [
+    "Classical logic",
+    "Parametricity / relational interpretations of types",
+    "Geometric morphisms",
+    "Kan extensions"
+  ],
+  "answer": 1,
+  "explanation": "Parametric TT uses modes and modalities to represent internal relational parametricity.",
+  "tags": [
+    "parametric-type-theory",
+    "modal-hott",
+    "parametricity"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "9b3ec576-c5b8-43af-8c91-b18c8d96e20e"
+}

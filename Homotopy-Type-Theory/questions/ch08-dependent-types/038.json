@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Universe polymorphism in Agda/Coq allows a definition to be parametric in:",
+  "choices": [
+    "The type constructor",
+    "The universe level",
+    "The number of arguments",
+    "The kind"
+  ],
+  "answer": 1,
+  "explanation": "Universe polymorphism: functions can abstract over universe levels, avoiding code duplication.",
+  "tags": [
+    "universe-polymorphism",
+    "dependent-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "fe673269-782a-4795-9a62-910c303816bc"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Herbrand theorem says that a first-order formula φ is unsatisfiable iff:",
+  "choices": [
+    "φ is a tautology",
+    "a finite propositional instantiation of φ (a Herbrand instance) is unsatisfiable",
+    "φ contains no quantifiers",
+    "φ is a conjunction of literals"
+  ],
+  "answer": 1,
+  "explanation": "Herbrand's theorem: φ is unsatisfiable iff some finite set of ground instances of φ is propositionally unsatisfiable. This reduces first-order validity to propositional reasoning.",
+  "tags": [
+    "logic",
+    "FOL"
+  ],
+  "difficulty": "advanced",
+  "question_id": "54069262-208f-4f14-89a2-bf1878c32445"
+}

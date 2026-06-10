@@ -1,0 +1,21 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Transfinite induction over ordinals states: if a property P holds for 0, and whenever P holds for all β<α it holds for α, then:",
+  "choices": [
+    "P holds for all finite ordinals",
+    "P holds for all ordinals",
+    "P holds for ω only",
+    "P holds for all cardinals"
+  ],
+  "answer": 1,
+  "explanation": "Transfinite induction: the three cases (zero, successor, limit) cover all ordinals.",
+  "tags": [
+    "transfinite-induction",
+    "ordinals"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "bcf31e26-d174-4383-9dcd-0798e40eca39"
+}

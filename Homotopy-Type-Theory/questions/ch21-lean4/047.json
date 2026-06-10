@@ -1,0 +1,23 @@
+{
+  "chapter": 21,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The `use e` tactic in Lean 4 applies when the goal is an existential ∃(x:A).P(x). It:",
+  "choices": [
+    "Introduces a new variable",
+    "Provides the witness e and reduces the goal to P(e)",
+    "Destructs the existential",
+    "Applies modus ponens"
+  ],
+  "answer": 1,
+  "explanation": "`use e` provides the existential witness and leaves the predicate as the new goal.",
+  "tags": [
+    "lean4",
+    "use",
+    "tactics",
+    "existential"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "1128a22a-8898-4469-8f48-8c3024722b2b"
+}

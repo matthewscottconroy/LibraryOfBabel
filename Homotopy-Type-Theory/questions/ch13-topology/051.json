@@ -1,0 +1,21 @@
+{
+  "question_id": "c68f6ed6-0f57-405a-b653-78d7c3bfd540",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Urysohn metrization theorem states that a topological space is metrizable if it is:",
+  "choices": [
+    "compact and Hausdorff",
+    "second-countable, regular, and T₁",
+    "locally compact and σ-compact",
+    "paracompact and Hausdorff"
+  ],
+  "answer": 1,
+  "explanation": "Urysohn: second-countable + regular + T₁ ⟹ metrizable. Second-countable + regular ⟹ normal (Urysohn's lemma applies); Urysohn's embedding then gives a metric.",
+  "tags": [
+    "metrizability",
+    "urysohn"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

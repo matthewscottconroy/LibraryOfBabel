@@ -1,0 +1,21 @@
+{
+  "question_id": "4c1fcc6f-e0aa-4107-ab63-1466c69b3acc",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A groupoid is a category in which:",
+  "choices": [
+    "all objects are isomorphic",
+    "every morphism is an isomorphism",
+    "there is exactly one morphism between any two objects",
+    "all hom-sets are groups"
+  ],
+  "answer": 1,
+  "explanation": "A groupoid is a category where every morphism f: A → B has an inverse f⁻¹: B → A. The fundamental groupoid Π₁(X) of a space is the prototypical example.",
+  "tags": [
+    "groupoids",
+    "higher-categories"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

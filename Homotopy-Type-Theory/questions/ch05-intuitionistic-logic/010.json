@@ -1,0 +1,19 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which of the following is a theorem of classical logic but NOT of intuitionistic logic?",
+  "choices": [
+    "P → P",
+    "P ∧ Q → P",
+    "(P → Q) → (¬Q → ¬P)",
+    "¬¬P → P"
+  ],
+  "answer": 3,
+  "explanation": "DNE (¬¬P→P) fails intuitionistically. The others (reflexivity, weakening, contrapositive) are all intuitionistically provable.",
+  "tags": [
+    "intuitionistic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "73c484b8-0861-4ea1-8f17-d6943389eecf"
+}

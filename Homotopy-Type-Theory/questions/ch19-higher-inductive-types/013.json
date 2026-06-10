@@ -1,0 +1,21 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The homotopy pushout (or homotopy cofiber) A ⊔_C B differs from the ordinary pushout because:",
+  "choices": [
+    "it uses identity types instead of set-quotients",
+    "it avoids collapsing higher homotopy content of C by keeping track of the maps as paths",
+    "it is only defined for propositions",
+    "it requires A and B to be Kan complexes"
+  ],
+  "answer": 1,
+  "explanation": "The homotopy pushout records the path data from the two maps C→A and C→B, not just their images. In HoTT, the HIT pushout automatically gives the homotopy pushout.",
+  "tags": [
+    "HoTT",
+    "HITs",
+    "homotopy"
+  ],
+  "difficulty": "advanced",
+  "question_id": "29913d89-b2b5-43d4-8276-a2ed0aa3fe09"
+}

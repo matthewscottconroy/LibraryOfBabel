@@ -1,0 +1,17 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The ___ property of IPC says that if ⊢ A∨B then either ⊢ A or ⊢ B.",
+  "choices": [
+    "disjunction",
+    "disjunction property"
+  ],
+  "answer": "disjunction",
+  "explanation": "Disjunction property: any proof of A∨B in IPC yields a proof of A or a proof of B. This fails for classical logic (e.g., ⊢_CPC LEM but neither disjunct is provable alone).",
+  "tags": [
+    "intuitionistic"
+  ],
+  "difficulty": "beginner",
+  "question_id": "745c0315-454b-46e2-baa9-22c2cbb52a2c"
+}

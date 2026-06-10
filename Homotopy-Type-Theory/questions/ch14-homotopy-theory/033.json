@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which of the following is a classical result in homotopy theory: π₄(S³) ≅",
+  "choices": [
+    "0",
+    "ℤ",
+    "ℤ/2ℤ",
+    "ℤ/2ℤ ⊕ ℤ"
+  ],
+  "answer": 2,
+  "explanation": "π₄(S³) ≅ ℤ/2 (the first instance of a 2-torsion stable stem).",
+  "tags": [
+    "homotopy-groups",
+    "spheres",
+    "stable-stems"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "c64aeca4-ebc5-4620-92f9-8de4de2d73e4"
+}

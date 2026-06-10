@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Univalent foundations differ from classical set-theoretic foundations primarily because:",
+  "choices": [
+    "They reject the existence of infinite sets",
+    "Equality is not a proposition but a type (with potentially rich structure)",
+    "They require all proofs to be constructive",
+    "They reject function composition"
+  ],
+  "answer": 1,
+  "explanation": "In univalent foundations, identity types carry homotopical information; equality is not merely true/false but a space of paths.",
+  "tags": [
+    "univalent-foundations",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0926f584-4c61-4873-98c6-78dee21a54e9"
+}

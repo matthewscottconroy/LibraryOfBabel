@@ -1,0 +1,21 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Reynolds's parametricity theorem for System F says that every term respects:",
+  "choices": [
+    "Beta-eta equivalence",
+    "All relations between types — its free theorem",
+    "Syntactic sugar expansions",
+    "The subtyping lattice"
+  ],
+  "answer": 1,
+  "explanation": "Parametricity (Reynolds 1983): polymorphic functions are uniformly relational across all instantiations.",
+  "tags": [
+    "system-f",
+    "parametricity"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "8d2e282a-e875-455c-be6a-2a98bff33a03"
+}

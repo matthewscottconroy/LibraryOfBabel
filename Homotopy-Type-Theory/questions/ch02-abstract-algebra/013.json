@@ -1,0 +1,18 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every integral domain can be embedded in a field.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The field of fractions construction embeds any integral domain R into a field Frac(R). For R=ℤ, Frac(ℤ)=ℚ.",
+  "tags": [
+    "algebra",
+    "rings"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "31da5d98-1ecc-414e-a56c-f7bab7c8da5a"
+}

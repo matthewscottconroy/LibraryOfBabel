@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The spectral radius formula says: for a bounded linear operator T on a Banach space, r(T) = lim‖Tⁿ‖^{1/n} =",
+  "choices": [
+    "‖T‖",
+    "sup{|λ|: λ∈σ(T)}",
+    "‖T²‖^{1/2}",
+    "1"
+  ],
+  "answer": 1,
+  "explanation": "Spectral radius r(T) = sup{|λ| : λ is in the spectrum of T} = lim_{n→∞}‖Tⁿ‖^{1/n}. For self-adjoint T on Hilbert space, r(T)=‖T‖.",
+  "tags": [
+    "analysis",
+    "functional-analysis"
+  ],
+  "difficulty": "advanced",
+  "question_id": "2b0238c8-f1b4-480d-afb3-158c112a9d97"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A space X is second-countable if it has:",
+  "choices": [
+    "At most countably many points",
+    "A countable basis for its topology",
+    "A countable dense subset",
+    "Only countably many open sets"
+  ],
+  "answer": 1,
+  "explanation": "Second-countable: there exists a countable basis B for the topology (every open set is a union of basis elements from B).",
+  "tags": [
+    "second-countable",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "134d42e1-378d-4f6d-a405-b489299796da"
+}

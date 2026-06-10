@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'two-variable Yoneda lemma' in Simplicial TT relates:",
+  "choices": [
+    "Two different functors",
+    "Nat(hom(a,-), hom(b,-)) ≃ hom(b,a)",
+    "The Yoneda embedding applied twice",
+    "The product of two representables"
+  ],
+  "answer": 1,
+  "explanation": "Two-variable Yoneda: natural transformations between representables correspond to morphisms in the opposite direction.",
+  "tags": [
+    "simplicial-type-theory",
+    "yoneda",
+    "natural-transformation"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "a7f2452a-c8ab-4211-8311-236b9b081f5d"
+}

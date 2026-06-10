@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Rezk completion is a construction that, given an (∞,1)-precategory, produces an:",
+  "choices": [
+    "Elementary topos",
+    "(∞,1)-category where all equivalences are equalities (a complete Segal space)",
+    "Strict 2-category",
+    "Classifying topos"
+  ],
+  "answer": 1,
+  "explanation": "Rezk completion produces a complete Segal space, enforcing that equivalent objects are equal (analogous to univalence for types).",
+  "tags": [
+    "rezk-completion",
+    "univalence",
+    "infinity-category"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "f0378620-1b92-446c-9c00-53dbcc007bd5"
+}

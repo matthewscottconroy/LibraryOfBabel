@@ -1,0 +1,18 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Every Boolean topos has classical internal logic (satisfying LEM).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "A topos is Boolean iff its subobject classifier Ω is a Boolean algebra (¬¬=id). In a Boolean topos, LEM holds in the internal logic. Set is a Boolean topos.",
+  "tags": [
+    "categorical-logic",
+    "topos"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "78308427-1808-4ed6-be9f-258e1c2b2670"
+}

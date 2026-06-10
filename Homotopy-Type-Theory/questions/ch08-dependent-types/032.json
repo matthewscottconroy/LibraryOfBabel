@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Indexed inductive types generalise ordinary inductive types by:",
+  "choices": [
+    "Allowing the inductive type to be parameterised by a value (index) that can vary per constructor",
+    "Adding coinductive cases",
+    "Removing the positivity condition",
+    "Permitting higher-order constructors"
+  ],
+  "answer": 0,
+  "explanation": "E.g. Vec A : ℕ → Type; the index (length) can differ between cons and nil.",
+  "tags": [
+    "indexed-types",
+    "inductive-types"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "f4574ba2-75fb-48b0-9b9a-62572518df26"
+}

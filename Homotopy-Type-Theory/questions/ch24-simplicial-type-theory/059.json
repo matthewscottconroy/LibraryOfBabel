@@ -1,0 +1,20 @@
+{
+  "question_id": "400ca059-3d47-4fd5-845f-05fb5885a096",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "blank",
+  "text": "A Segal type where every equivalence is an equality of objects is called a ___ type.",
+  "choices": [
+    "Rezk",
+    "complete Segal"
+  ],
+  "answer": "rezk",
+  "explanation": "Rezk types = complete Segal spaces in the synthetic setting. The Rezk condition is the directed analog of the univalence axiom.",
+  "tags": [
+    "complete-segal-space",
+    "rezk",
+    "simplicial-type-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

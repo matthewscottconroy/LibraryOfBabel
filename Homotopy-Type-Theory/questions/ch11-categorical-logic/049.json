@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which of the following correctly describes a pretopos?",
+  "choices": [
+    "A category with a subobject classifier",
+    "A finitely complete category with stable disjoint coproducts and effective equivalence relations",
+    "A Boolean topos",
+    "A category with all small limits"
+  ],
+  "answer": 1,
+  "explanation": "Pretopos: finite limits, stable finite coproducts (disjoint), effective quotients.",
+  "tags": [
+    "pretopos",
+    "categorical-logic"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "b267ff94-0b6b-4fbe-ac7e-18dba3e8cd4b"
+}

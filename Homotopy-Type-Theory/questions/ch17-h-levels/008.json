@@ -1,0 +1,21 @@
+{
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "ℕ (the natural numbers) is an h-set because:",
+  "choices": [
+    "it has decidable equality, and Hedberg's theorem applies",
+    "all types are sets",
+    "ℕ has no identity types",
+    "ℕ is contractible"
+  ],
+  "answer": 0,
+  "explanation": "ℕ has decidable equality (n=m ∨ n≠m for all n,m). By Hedberg's theorem, this implies all identity types n=_ℕ m are propositions, making ℕ a set.",
+  "tags": [
+    "HoTT",
+    "h-levels",
+    "Hedberg"
+  ],
+  "difficulty": "beginner",
+  "question_id": "35907501-1b85-4fcf-897f-8564bb52190c"
+}

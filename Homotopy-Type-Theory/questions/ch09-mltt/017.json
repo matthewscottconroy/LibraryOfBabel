@@ -1,0 +1,20 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The 'elimination into types' (large eliminations) in MLTT allows the motive of an induction to be:",
+  "choices": [
+    "any proposition",
+    "any type family (into U), not just a predicate into Prop",
+    "only natural numbers",
+    "only decidable predicates"
+  ],
+  "answer": 1,
+  "explanation": "Large eliminations allow the motive to be P:ℕ→U (a type family, not just a proposition). This is what makes it possible to define the type Vector A n by induction on n.",
+  "tags": [
+    "MLTT",
+    "dependent-types"
+  ],
+  "difficulty": "advanced",
+  "question_id": "59d406f2-e182-4499-8f56-160a4165c05a"
+}

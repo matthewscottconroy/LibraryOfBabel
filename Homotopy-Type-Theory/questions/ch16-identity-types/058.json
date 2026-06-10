@@ -1,0 +1,22 @@
+{
+  "question_id": "29585e1c-ac45-44e8-85ec-178edfad9c5e",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The type of based paths from a:A (the 'path space' based at a) is Σ(x:A), a=x. This type is:",
+  "choices": [
+    "a set (h-level 0)",
+    "always empty",
+    "contractible (h-level -2)",
+    "a mere proposition"
+  ],
+  "answer": 2,
+  "explanation": "Σ(x:A), a=x is contractible with center (a, refl_a). This contractibility is equivalent to the J eliminator.",
+  "tags": [
+    "contractible",
+    "identity-types",
+    "path-space"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

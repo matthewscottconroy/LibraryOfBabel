@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What does it mean to say a HoTT proof 'computes' π₄(S³)?",
+  "choices": [
+    "It uses a computer algebra system",
+    "The proof term, when normalised, produces the canonical element ℤ/2ℤ — the actual mathematical answer",
+    "It uses floating-point arithmetic",
+    "It requires classical logic"
+  ],
+  "answer": 1,
+  "explanation": "A computational proof means the proof term reduces (β/η-normalises) to the actual value. Brunerie's proof term for π₄(S³)=ℤ/2ℤ was computationally verified (Cubical Agda normalised it to ℤ/2ℤ).",
+  "tags": [
+    "HoTT",
+    "homotopy",
+    "computation"
+  ],
+  "difficulty": "advanced",
+  "question_id": "a69895b5-3fdc-4d9c-a816-90965dc38acc"
+}

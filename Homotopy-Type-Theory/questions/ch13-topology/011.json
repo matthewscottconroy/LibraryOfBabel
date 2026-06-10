@@ -1,0 +1,19 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A topological space X is connected iff:",
+  "choices": [
+    "every point can be joined to every other by a path",
+    "X cannot be written as a disjoint union of two non-empty open sets",
+    "every open cover has a finite subcover",
+    "X is a single point"
+  ],
+  "answer": 1,
+  "explanation": "Connectedness: X is not the disjoint union of two non-empty open sets. Path-connectedness (stronger) implies connectedness, but not vice versa.",
+  "tags": [
+    "topology"
+  ],
+  "difficulty": "beginner",
+  "question_id": "9f7b38d9-398f-4c4e-b02a-e57491467818"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Seifert-van Kampen theorem can be proved in HoTT using:",
+  "choices": [
+    "J elimination alone",
+    "the pushout HIT — the fundamental group of a pushout is the amalgamated product of the fundamental groups",
+    "Freudenthal suspension",
+    "the encode-decode method for each space separately"
+  ],
+  "answer": 1,
+  "explanation": "In HoTT, the van Kampen theorem is π₁(A⊔_CB) ≅ π₁(A) *_{π₁(C)} π₁(B). It follows from the universal property of the pushout HIT applied to fundamental groups.",
+  "tags": [
+    "HoTT",
+    "homotopy",
+    "van-kampen"
+  ],
+  "difficulty": "advanced",
+  "question_id": "56c712eb-3cdb-4043-adad-a9973f8eff71"
+}

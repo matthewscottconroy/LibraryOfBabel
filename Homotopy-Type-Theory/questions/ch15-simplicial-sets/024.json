@@ -1,0 +1,20 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "tf",
+  "text": "The nerve of a category C is always a Kan complex.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "NC is a quasi-category (inner horns fill) but outer horns only fill when all morphisms are invertible (i.e. C is a groupoid).",
+  "tags": [
+    "nerve",
+    "kan-complex",
+    "quasi-category"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "a82fde95-a80a-4dc4-899a-5f6f27017909"
+}

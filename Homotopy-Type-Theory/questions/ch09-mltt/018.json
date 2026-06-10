@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which of the following is NOT one of the four judgement forms in MLTT?",
+  "choices": [
+    "A is a type",
+    "a : A (a is a term of type A)",
+    "a = b : A (definitional equality)",
+    "A ⊆ B (A is a subtype of B)"
+  ],
+  "answer": 3,
+  "explanation": "MLTT has: A type, a:A, A=B (type eq), a=b:A. Subtyping is not a primitive judgement.",
+  "tags": [
+    "mltt",
+    "judgements"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "c2f47150-4ca5-427e-9607-84144ba1a3c4"
+}

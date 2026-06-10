@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Burnside's lemma counts the number of orbits of a group G acting on X as:",
+  "choices": [
+    "1/|G| · |X|",
+    "1/|G| · Σ_{g∈G} |Fix(g)|",
+    "|G| · |X|",
+    "Σ_{x∈X} |Stab(x)|"
+  ],
+  "answer": 1,
+  "explanation": "Burnside: |X/G| = 1/|G| · Σ_{g} |Fix(g)| where Fix(g)={x : gx=x}.",
+  "tags": [
+    "burnside",
+    "group-actions"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "4621eab8-9a94-480c-801e-2cd4d423a51c"
+}

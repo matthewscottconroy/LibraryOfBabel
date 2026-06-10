@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In the simplicial set model, the univalence axiom holds because:",
+  "choices": [
+    "Sets satisfy UIP",
+    "The universe is a Kan complex and the Kan condition encodes univalence",
+    "Simplicial sets are topological spaces",
+    "The model is classical"
+  ],
+  "answer": 1,
+  "explanation": "In Voevodsky's simplicial set model, the universe of Kan fibrations is itself a Kan complex, and the fibrations yield univalence.",
+  "tags": [
+    "simplicial-set-model",
+    "univalence",
+    "kan-complex"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "03aa6f09-ef4d-43d2-87bf-ae329fe81eae"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The deduction theorem (for classical propositional logic) states: Γ, P ⊢ Q if and only if:",
+  "choices": [
+    "Γ ⊢ P ∧ Q",
+    "Γ ⊢ P → Q",
+    "Γ ⊢ ¬P ∨ Q",
+    "Γ, ¬P ⊢ ¬Q"
+  ],
+  "answer": 1,
+  "explanation": "The deduction theorem: Γ, P ⊢ Q ↔ Γ ⊢ P→Q. It lets us move hypotheses into implications.",
+  "tags": [
+    "logic",
+    "proof-theory"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "3708fbc3-e582-4675-828c-526617f99adb"
+}

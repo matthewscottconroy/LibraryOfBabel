@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Girard paradox arises in the Calculus of Constructions when:",
+  "choices": [
+    "We add LEM",
+    "We have Type : Type (the universe is its own type)",
+    "We use impredicative quantification over small types only",
+    "We add the η rule"
+  ],
+  "answer": 1,
+  "explanation": "Girard's paradox: Type:Type leads to inconsistency via a self-referential construction analogous to the Burali-Forti paradox.",
+  "tags": [
+    "girard-paradox",
+    "coc",
+    "type-in-type"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "c7cf81a7-46d2-4858-8095-b3e50d699bd3"
+}

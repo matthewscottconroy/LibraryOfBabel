@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A Grothendieck fibration p: E → B has the property that for every morphism f:a→b in B and e:E above b, there is a Cartesian lift of f to E above a. This models:",
+  "choices": [
+    "Currying",
+    "Substitution (pulling back types along context morphisms)",
+    "Composition",
+    "Universe formation"
+  ],
+  "answer": 1,
+  "explanation": "Cartesian lifts in a fibration model substitution: pulling back the type P(b) along f gives P(a)=P(f(-)).",
+  "tags": [
+    "grothendieck-fibration",
+    "substitution",
+    "categorical-semantics"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "6b3c8cbc-059b-49da-a0c2-52af9c5f1687"
+}

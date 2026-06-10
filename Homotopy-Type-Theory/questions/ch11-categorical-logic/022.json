@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The internal logic of a topos is:",
+  "choices": [
+    "Classical first-order logic",
+    "Intuitionistic higher-order logic",
+    "Linear logic",
+    "Minimal logic"
+  ],
+  "answer": 1,
+  "explanation": "The Mitchell-Bénabou language gives every topos an internal intuitionistic higher-order language.",
+  "tags": [
+    "internal-logic",
+    "topos"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "e1f10bf9-7602-4699-8bfd-f500b374d1ec"
+}

@@ -1,0 +1,18 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every field is an integral domain.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "A field F is an integral domain: if ab=0 and a≠0, then b = a⁻¹(ab) = 0. Fields have no zero divisors.",
+  "tags": [
+    "algebra",
+    "fields"
+  ],
+  "difficulty": "beginner",
+  "question_id": "b618e54a-adbf-43aa-85f2-a6f8ecef90d6"
+}

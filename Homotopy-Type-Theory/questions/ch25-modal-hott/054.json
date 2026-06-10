@@ -1,0 +1,22 @@
+{
+  "question_id": "47dd04d3-fa08-40be-abbf-150ccb41a68e",
+  "chapter": 25,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A type A is ♭-modal (or 'discrete') in cohesive HoTT if:",
+  "choices": [
+    "A has no higher paths",
+    "the unit A → ♭A is an equivalence",
+    "A is contractible",
+    "A is a mere proposition"
+  ],
+  "answer": 1,
+  "explanation": "A type is ○-modal for a modality ○ when the unit η_A: A → ○A is an equivalence. Discrete types (♭-modal) have no non-trivial smooth structure.",
+  "tags": [
+    "flat-modality",
+    "discrete",
+    "cohesive-hott"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

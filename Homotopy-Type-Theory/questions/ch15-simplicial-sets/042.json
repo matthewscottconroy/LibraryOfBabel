@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Waldhausen's S-construction in algebraic K-theory uses a functor S_•: exact cat → sSet. The K-theory space is:",
+  "choices": [
+    "The geometric realisation |S_•(C)|",
+    "The nerve of C",
+    "The classifying space BC",
+    "The suspension of |NC|"
+  ],
+  "answer": 0,
+  "explanation": "K(C) = Ω|S_•(C)|; the S-construction produces a simplicial category whose realisation gives K-theory.",
+  "tags": [
+    "waldhausen",
+    "k-theory",
+    "simplicial-set"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "16c78c01-a829-4def-ac7c-8de8136770d4"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Freudenthal suspension theorem states that the suspension map πₙ(Sᵏ)→πₙ₊₁(Sᵏ⁺¹) is an isomorphism for:",
+  "choices": [
+    "All n,k",
+    "n < 2k-1",
+    "n ≥ k",
+    "n = k"
+  ],
+  "answer": 1,
+  "explanation": "Freudenthal: Σ: πₙ(Sᵏ) → πₙ₊₁(Sᵏ⁺¹) is an iso for n < 2k-1 and surjective for n = 2k-1.",
+  "tags": [
+    "freudenthal",
+    "suspension",
+    "stable-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "b53c14c6-42d3-46f8-bedb-a58dd356da64"
+}

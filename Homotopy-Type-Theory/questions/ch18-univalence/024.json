@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The simplicial set model (Voevodsky) validates univalence by:",
+  "choices": [
+    "Interpreting types as Kan complexes and paths as homotopies",
+    "Assuming LEM in set theory",
+    "Using classical logic in the meta-theory",
+    "Interpreting = as definitional equality"
+  ],
+  "answer": 0,
+  "explanation": "In the simplicial set model, types are Kan complexes, = is the path space, and the universe is a Kan complex making univalence hold.",
+  "tags": [
+    "simplicial-set-model",
+    "univalence"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "98450141-6fb6-43b2-bebd-420658c2d696"
+}

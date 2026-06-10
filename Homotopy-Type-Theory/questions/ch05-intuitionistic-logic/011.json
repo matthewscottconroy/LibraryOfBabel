@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Heyting algebras are to intuitionistic logic as Boolean algebras are to:",
+  "choices": [
+    "modal logic",
+    "classical logic",
+    "linear logic",
+    "quantum logic"
+  ],
+  "answer": 1,
+  "explanation": "Heyting algebras are the algebraic semantics of IPC (generalising Boolean algebras). Every Boolean algebra is a Heyting algebra but not vice versa.",
+  "tags": [
+    "intuitionistic",
+    "semantics"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "05670d05-f8ab-4e64-821c-44703758fe45"
+}

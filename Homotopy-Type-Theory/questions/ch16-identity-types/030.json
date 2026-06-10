@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The characterisation of identity types of Σ-types states: (a,b) = (a',b') in Σ(x:A).B(x) is equivalent to:",
+  "choices": [
+    "a = a' and b = b'",
+    "Σ(p: a=a'). transport^B(p, b) = b'",
+    "Just a = a'",
+    "b = b' in B(a)"
+  ],
+  "answer": 1,
+  "explanation": "Identity in Σ: (a,b) =_Σ (a',b') ≃ Σ(p:a=a'). transport^B(p,b)=b'.",
+  "tags": [
+    "identity-type",
+    "sigma-type"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "7774bd55-102e-4999-ab96-723cc80df7d6"
+}

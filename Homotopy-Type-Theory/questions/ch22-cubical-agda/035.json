@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, the `Iso` record represents a cubical isomorphism. It contains:",
+  "choices": [
+    "A function and its inverse only",
+    "fun, inv, rightInv: fun∘inv~id, leftInv: inv∘fun~id",
+    "A path between two types",
+    "A Glue type"
+  ],
+  "answer": 1,
+  "explanation": "Iso A B: fun:A→B, inv:B→A, rightInv:∀b.fun(inv b)≡b, leftInv:∀a.inv(fun a)≡a.",
+  "tags": [
+    "cubical-agda",
+    "iso",
+    "equivalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0d8da8b5-2038-4410-8a97-b8d8fbc24bf8"
+}

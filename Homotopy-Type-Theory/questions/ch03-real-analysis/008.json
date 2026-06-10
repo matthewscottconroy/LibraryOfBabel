@@ -1,0 +1,17 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A uniformly continuous function on [0,1] is bounded.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "[0,1] is compact, and any continuous function on a compact set is uniformly continuous and bounded. Uniform continuity is stronger than pointwise continuity.",
+  "tags": [
+    "analysis"
+  ],
+  "difficulty": "beginner",
+  "question_id": "b8b4cd9c-d712-4370-92ce-febde0122bf0"
+}

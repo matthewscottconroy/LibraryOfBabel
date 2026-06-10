@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In CTT, the Glue type `Glue A φ B e` (where e : φ → Σ T, T≃A) represents:",
+  "choices": [
+    "A fibration over I",
+    "A type that is B on φ and A elsewhere, glued via the equivalence e",
+    "The propositional truncation of A",
+    "A record type"
+  ],
+  "answer": 1,
+  "explanation": "Glue A φ B e: on the face φ, the type is B; away from φ, it's A; they're glued via e.",
+  "tags": [
+    "cubical-type-theory",
+    "glue-type",
+    "univalence"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "8269d23d-cb07-4c5f-81a8-f5a59c3a55f9"
+}

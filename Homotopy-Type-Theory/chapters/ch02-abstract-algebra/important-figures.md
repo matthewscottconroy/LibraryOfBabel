@@ -1,0 +1,76 @@
+# Important Figures
+
+## Évariste Galois (1811–1832)
+*Creator of group theory and Galois theory; introduced normal subgroups and proved that polynomial solvability is equivalent to group solvability.*
+
+Galois was born in Bourg-la-Reine near Paris and displayed extraordinary mathematical talent from adolescence, though he failed twice to gain admission to the École Polytechnique (the most prestigious scientific institution in France) and eventually enrolled at the less prestigious École Normale. He lived a turbulent political life, was imprisoned twice for republican agitation, and died in a duel at age 20 — leaving behind a few manuscripts and letters that, when finally published by Liouville in 1846, transformed mathematics.
+
+Galois's central contribution was the precise identification of what determines whether a polynomial equation $p(x) = 0$ is solvable by radicals — that is, whether its roots can be expressed using field operations ($+$, $-$, $\times$, $\div$) and root extractions ($\sqrt[n]{\cdot}$). He associated to each polynomial a group — now called the *Galois group* — consisting of the permutations of the polynomial's roots that preserve all algebraic relations between them. The key theorem: $p(x)$ is solvable by radicals if and only if its Galois group is *solvable*, meaning it has a composition series $1 = G_0 \unlhd G_1 \unlhd \cdots \unlhd G_n = G$ in which each quotient $G_{i+1}/G_i$ is abelian. To state and prove this, Galois needed to invent the concept of a *normal subgroup* and a *quotient group* — both defined and used in this chapter. He also identified the correspondence between subfields of the splitting field and subgroups of the Galois group that constitutes the *Fundamental Theorem of Galois Theory*, previewed in Section 4.
+
+Galois's lasting influence on this chapter is total: the definition of a group, the concept of a normal subgroup, the notion of a quotient group, and the significance of abelian groups all trace directly to his work. The fact that group theory was invented to answer a question about polynomials — and only later recognized as a general theory of symmetry — is a reminder that abstract structures often emerge from concrete problems.
+
+---
+
+## Niels Henrik Abel (1802–1829)
+*Proved the impossibility of solving the general quintic by radicals; initiated the theory of abelian groups and elliptic functions.*
+
+Abel was born in Nedstrand, Norway, the son of a poor pastor, and received mathematical education largely through self-study and the help of a dedicated teacher in Christiania (now Oslo). Despite producing work of the highest quality by his early twenties, he died of tuberculosis at age 26, never having secured a permanent mathematical position. His 1824 pamphlet proving the impossibility of a general radical formula for degree-5 polynomials (the Abel-Ruffini theorem) was the direct precursor to Galois's more complete theory.
+
+Abel's proof of the quintic's insolvability did not yet use the language of groups — that was Galois's contribution — but it established the central fact that the symmetry structure of the quintic is fundamentally different from that of lower-degree equations. Abel went on to study a class of integrals now called *abelian integrals* and the theory of *elliptic functions*, laying the groundwork for algebraic geometry. He also proved what is now called *Abel's theorem* on the convergence of power series at the boundary of their interval of convergence, and made fundamental contributions to the theory of algebraic equations.
+
+Abel's name is attached to *abelian groups* — groups in which the operation is commutative — a usage introduced by Kronecker in the 1870s in recognition of Abel's work on commutative algebraic structures. The abelian condition ($ab = ba$ for all $a, b$) is the fourth axiom of an abelian group and is central to this chapter: the abelian case is simpler (the classification of finitely generated abelian groups is complete, the non-abelian case vastly more complex), but abelian groups also appear throughout topology (homology groups are abelian), ring theory (the additive group of a ring is always abelian), and the Galois theory condition (composition factors of a solvable group are abelian). Abel's early death before Galois's manuscripts were read, and Galois's death before Abel's influence was fully felt, mean that two of the founders of group theory never properly encountered each other's work.
+
+---
+
+## Arthur Cayley (1821–1895)
+*First to define groups abstractly; proved Cayley's theorem; one of the founders of matrix algebra.*
+
+Cayley was born in Richmond, Surrey, and educated at Trinity College, Cambridge, where he graduated as Senior Wrangler in 1842. Unable to find a mathematical position immediately, he spent fourteen years as a practicing barrister while continuing to produce mathematics at a remarkable rate (around 200 papers during this period). In 1863 he was appointed to a professorship at Cambridge, where he remained for the rest of his life.
+
+Cayley's 1854 paper "On the Theory of Groups, as Depending on the Symbolic Equation $\theta^n = 1$" gave the first abstract definition of a group: a set of symbols with an operation satisfying an associativity-type condition, a distinguished identity, and the group property. This abstract definition, while somewhat different from the modern formulation, is the direct ancestor of the definition in this chapter. The same paper contains *Cayley's theorem*: every group is isomorphic to a subgroup of the symmetric group $S_n$ for some $n$ — specifically, a group of permutations of its own elements (the *regular representation*). This theorem, which appears in Section 7 of this chapter under group actions, shows that abstract groups are not more general than permutation groups; they are exactly as general. Every group IS a symmetry group.
+
+Cayley also independently developed matrix algebra (along with Hamilton and Sylvester), proving that $n \times n$ matrices form a ring and that every matrix satisfies its own characteristic polynomial (the Cayley-Hamilton theorem). The connection to this chapter is direct: the groups $GL_n(k)$ (invertible $n \times n$ matrices over a field $k$) and its subgroups ($SL_n$, $O_n$, $SO_n$, $U_n$, etc.) are among the most important examples of groups, and the ring $M_n(k)$ of all $n \times n$ matrices is a foundational example of a non-commutative ring (Section 4). Cayley's unification of these perspectives — groups as symmetries, groups as matrices, groups abstractly defined — is the style of the chapter throughout.
+
+---
+
+## Emmy Noether (1882–1935)
+*Transformed algebra through the structural approach; introduced the ascending chain condition and Noetherian rings; proved the Noether isomorphism theorems.*
+
+Noether was born in Erlangen, Germany, the daughter of the mathematician Max Noether. She completed a doctorate in 1907 (on invariants of ternary biquadratic forms) but, as a woman, was initially barred from regular academic positions — she taught without pay at Göttingen for years before a professorship became possible. She fled Germany for the Institute for Advanced Study in Princeton after the Nazis came to power in 1933, and died in 1935 of complications from surgery, at age 53. Despite these obstacles, she produced mathematics of the highest order and trained a generation of algebraists (the "Noether boys") who spread her structural approach worldwide.
+
+Noether's central contributions to algebra are the *structural* perspective on rings and the theorems that now bear her name. Her 1921 paper "Idealtheorie in Ringbereichen" introduced the *ascending chain condition* (ACC): a ring is *Noetherian* if every ascending chain of ideals $I_1 \subseteq I_2 \subseteq I_3 \subseteq \cdots$ eventually stabilizes. She proved that in a Noetherian ring, every ideal is finitely generated — and conversely. This single finiteness condition captures the structural properties that make algebraic number theory and algebraic geometry tractable. The rings $\mathbb{Z}$, $k[x]$ (polynomial ring over a field), and more generally any finitely generated algebra over a field, are all Noetherian.
+
+The *Noether isomorphism theorems* — the First, Second, and Third Isomorphism Theorems — appear in this chapter in their group-theoretic form and are among the most-used results in algebra. The First Isomorphism Theorem states that if $\phi: G \to H$ is a homomorphism, then $G / \ker(\phi) \cong \mathrm{Im}(\phi)$; this is the fundamental factorization of any homomorphism through a quotient. These theorems, which Noether stated and proved in the ring-theoretic setting, were recognized as the correct way to organize algebraic theory and have been central to every algebra textbook since. Hilbert described Noether as "the most significant creative mathematical genius thus far produced," which is why her erasure from the academic system makes her story one of the more outrageous in the history of mathematics.
+
+---
+
+## Richard Dedekind (1831–1916)
+*Gave the modern definition of ideals; developed the theory of fields and the abstract approach to algebraic number theory; contributed to the theory of rings and lattices.*
+
+Dedekind was born in Brunswick, Germany, and was a student of Gauss at Göttingen, where he completed his doctorate in 1852. He spent most of his career as a professor at the Brunswick Polytechnic, which was not a research institution, and yet produced some of the most important mathematical ideas of the nineteenth century — often published in supplements to editions of other mathematicians' work rather than in original papers.
+
+Dedekind's contributions to algebra center on two innovations. First, he introduced the concept of an *ideal* in a ring of algebraic integers — a notion designed to restore unique factorization in rings where it fails for individual elements. For example, in $\mathbb{Z}[\sqrt{-5}]$, the number $6 = 2 \times 3 = (1 + \sqrt{-5})(1 - \sqrt{-5})$ factors in two ways; Dedekind showed that by passing to ideals, unique factorization is restored. This is the central result of algebraic number theory and the motivation for studying rings and their ideals in Section 4. Second, Dedekind gave one of the first formal definitions of a *field* (Körper) in his work on algebraic number theory, as the right setting for studying solutions of polynomial equations — the context in which the Galois correspondence lives.
+
+Dedekind also introduced the *Dedekind cut* definition of real numbers, the notion of a *lattice* (as a partially ordered set closed under meet and join), and a construction of the natural numbers by inductive sets that is close in spirit to von Neumann's ordinals. His collected works show a pattern characteristic of the best abstract mathematicians: finding the right definitions that make complicated phenomena tractable, and being willing to define new objects (like ideals) when the existing ones are not sufficient.
+
+---
+
+## Leopold Kronecker (1823–1891)
+*Developed the theory of algebraic number fields; founded the constructive tradition in algebra; introduced the Kronecker product and the structure theorem for finitely generated abelian groups.*
+
+Kronecker was born in Liegnitz (now Legnica, Poland) into a wealthy merchant family and completed his doctorate under Kummer at Berlin in 1845. He was financially independent and worked without a regular academic position for many years before accepting a professorship at Berlin in 1883. He was a dominant figure in German mathematics and a central (and sometimes obstructive) voice in disputes over foundational questions.
+
+Kronecker's algebraic contributions include the theory of algebraic number fields (developed in parallel with and sometimes in competition with Dedekind), the *Kronecker product* of matrices (a systematic construction of tensor products), and the *structure theorem for finitely generated abelian groups*: every finitely generated abelian group is isomorphic to a direct sum of cyclic groups $\mathbb{Z}^r \oplus \mathbb{Z}/n_1\mathbb{Z} \oplus \cdots \oplus \mathbb{Z}/n_k\mathbb{Z}$ where $n_1 \mid n_2 \mid \cdots \mid n_k$. This theorem, one of the cleanest classification results in all of algebra, appears in this chapter and is the algebraic prototype for the classification of finitely generated modules over principal ideal domains that underlies the classification of homology groups in topology.
+
+Kronecker is also famous for his fiercely constructive philosophy: "God made the integers; all else is the work of man." He opposed Cantor's infinite set theory and Dedekind's use of non-constructive existence arguments, insisting that every mathematical object must have a finite construction. While his mathematical philosophy was ultimately unsuccessful in blocking the development of set theory, his constructive instincts are not without merit — they prefigure, in a rough way, the constructive type theory that is the foundation of HoTT. The tension between Kronecker's finitism and Cantor-Dedekind's set-theoretic methods is a recurring theme throughout this curriculum.
+
+---
+
+## Emil Artin (1898–1962)
+*Reformulated Galois theory into its modern form; proved the theorem on primitive elements; contributed fundamental results in algebraic number theory and topology.*
+
+Artin was born in Vienna and completed his doctorate at Leipzig in 1921. He held positions in Hamburg and, after fleeing the Nazi regime in 1937, at Indiana University and finally Princeton. His lectures at Princeton and Hamburg were legendary for their clarity and elegance, and his collected works and lecture notes remain essential references.
+
+Artin's primary contribution to the material of this chapter is his reformulation of *Galois theory* in the 1940s. The classical Galois theory, as developed by Galois, Abel, and Dedekind, was organized around fields and polynomials. Artin's reformulation starts instead from *automorphisms of fields*: given a field extension $E/F$, the *Galois group* $\mathrm{Gal}(E/F)$ is the group of all field automorphisms of $E$ that fix $F$ pointwise. The *Fundamental Theorem of Galois Theory* then states: there is an order-reversing bijection between intermediate fields $F \subseteq K \subseteq E$ and subgroups $H \leq \mathrm{Gal}(E/F)$, with normal subgroups corresponding to Galois intermediate extensions. This clean formulation — fields correspond to subgroups, Galois extensions to normal subgroups — is the version presented in the preview in Section 4 of this chapter, and it is the basis for the modern treatment in all algebra textbooks.
+
+Artin also proved that every field automorphism of $\mathbb{R}$ is the identity — a deep and surprising result — and made major contributions to algebraic number theory (the Artin reciprocity law, which generalized quadratic reciprocity and is a cornerstone of class field theory), braid groups (the Artin braid groups, which are fundamental groups of configuration spaces and directly relevant to the topology content of this curriculum), and the theory of braids as knot invariants. His textbook *Geometric Algebra* (1957) unifies the algebraic and geometric perspectives in a way directly relevant to the algebra-topology bridge in Section 5.

@@ -1,0 +1,19 @@
+{
+  "question_id": "721feacc-5910-4931-a548-03acece3bc1f",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every group of prime order is cyclic.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "By Lagrange, subgroups of a group of prime order p have order 1 or p, so every non-identity element generates the whole group.",
+  "tags": [
+    "algebra",
+    "groups"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 13,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Every compact Hausdorff space is normal.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "A compact Hausdorff space is T₄ (normal Hausdorff): disjoint closed sets can be separated by open sets.",
+  "tags": [
+    "compact",
+    "hausdorff",
+    "normal",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "0a3d48e8-b478-424f-bd28-cce2e636a703"
+}

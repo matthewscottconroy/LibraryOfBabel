@@ -1,0 +1,21 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Bolzano-Weierstrass theorem states that every bounded sequence in ℝⁿ has:",
+  "choices": [
+    "A monotone subsequence",
+    "A convergent subsequence",
+    "A Cauchy subsequence",
+    "A constant subsequence"
+  ],
+  "answer": 1,
+  "explanation": "Bolzano-Weierstrass: bounded sequences in ℝⁿ have convergent subsequences.",
+  "tags": [
+    "bolzano-weierstrass",
+    "sequences"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "62cf2371-98dd-46fe-95c9-6a79918e5e96"
+}

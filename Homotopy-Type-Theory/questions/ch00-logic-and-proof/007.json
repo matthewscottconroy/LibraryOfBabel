@@ -1,0 +1,20 @@
+{
+  "question_id": "32024279-2ea5-41bd-b24a-95d9191fd83d",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A sequent Γ ⊢ φ in natural deduction means φ is derivable from the ___ Γ.",
+  "choices": [
+    "hypotheses",
+    "assumptions",
+    "context"
+  ],
+  "answer": "hypotheses",
+  "explanation": "The sequent notation Γ ⊢ φ reads 'φ is derivable assuming the hypotheses in Γ'. This is the fundamental judgment of natural deduction.",
+  "tags": [
+    "logic",
+    "proof-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

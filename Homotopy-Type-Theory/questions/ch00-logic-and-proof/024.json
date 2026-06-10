@@ -1,0 +1,20 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Craig interpolation theorem says: if ⊨ A→B, then there is a formula C such that:",
+  "choices": [
+    "C is a tautology",
+    "⊨ A→C and ⊨ C→B, and C uses only variables common to A and B",
+    "C = A∧B",
+    "C is the negation of A"
+  ],
+  "answer": 1,
+  "explanation": "Craig interpolation: if A→B is valid, there is an interpolant C with vars(C)⊆vars(A)∩vars(B), ⊨A→C, ⊨C→B. Used in model checking and logical analysis.",
+  "tags": [
+    "logic",
+    "interpolation"
+  ],
+  "difficulty": "advanced",
+  "question_id": "f08f4aa4-6b58-476e-a693-1d6c0e882f27"
+}

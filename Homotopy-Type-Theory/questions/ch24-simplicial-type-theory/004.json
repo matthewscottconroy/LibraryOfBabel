@@ -1,0 +1,20 @@
+{
+  "question_id": "fdae358a-8c2b-42cc-9cf5-cb6cae23d6bb",
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Riehl-Shulman simplicial type theory, the directed interval 2 has how many points?",
+  "choices": [
+    "One (the interval is contractible)",
+    "Two (0 and 1, with a non-invertible arrow 0→1)",
+    "Uncountably many (it models [0,1]⊂ℝ)",
+    "Two, with an invertible path between them"
+  ],
+  "answer": 1,
+  "explanation": "2 = {0,1} with a directed morphism 0→1. The hom type hom_A(a,b) is the type of morphisms a→b in a Segal type A, generalising function types.",
+  "tags": [
+    "simplicial-TT"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "An adjunction between two Rezk types A and B in Simplicial TT consists of:",
+  "choices": [
+    "Functors F:A→B and G:B→A with hom_B(Fa,b) ≃ hom_A(a,Gb) naturally",
+    "Equivalences F and G",
+    "A single natural transformation",
+    "A retraction"
+  ],
+  "answer": 0,
+  "explanation": "Adjunction in Simplicial TT: hom_B(Fa,b) ≃ hom_A(a,Gb) naturally in a,b.",
+  "tags": [
+    "simplicial-type-theory",
+    "adjunction"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "6ed72320-a483-49bf-ae12-489d8b278ebd"
+}

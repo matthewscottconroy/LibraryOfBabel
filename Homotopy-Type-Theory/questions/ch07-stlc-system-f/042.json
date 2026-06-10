@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In STLC, the η-rule states that λx.(f x) is equal to f when:",
+  "choices": [
+    "x is a free variable in f",
+    "x does not occur free in f",
+    "f is a value",
+    "f has a function type"
+  ],
+  "answer": 1,
+  "explanation": "Eta: λx.(f x) =_η f when x ∉ FV(f); extensionality of functions.",
+  "tags": [
+    "stlc",
+    "eta-rule",
+    "extensionality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "91228036-9be9-4f30-8818-6cc5de30e7ab"
+}

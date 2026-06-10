@@ -1,0 +1,21 @@
+{
+  "question_id": "925ac8e9-b7c4-494a-bd6e-0818de7866c2",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Grothendieck's homotopy hypothesis says homotopy n-types correspond to:",
+  "choices": [
+    "n-dimensional manifolds",
+    "strict n-groupoids",
+    "weak n-groupoids",
+    "chain complexes of length n"
+  ],
+  "answer": 2,
+  "explanation": "Grothendieck: the homotopy category of spaces is equivalent to the category of weak ∞-groupoids.",
+  "tags": [
+    "higher-categories",
+    "homotopy-hypothesis"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

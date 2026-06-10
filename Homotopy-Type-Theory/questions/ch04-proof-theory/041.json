@@ -1,0 +1,21 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Reverse mathematics studies which axioms are needed to prove theorems of ordinary mathematics. The base theory is:",
+  "choices": [
+    "ZFC",
+    "PA",
+    "RCA₀ (recursive comprehension axiom)",
+    "PRA (primitive recursive arithmetic)"
+  ],
+  "answer": 2,
+  "explanation": "RM base system: RCA₀ (computable sets + induction for Σ₁⁰ formulas); most theorems fall in Big Five.",
+  "tags": [
+    "reverse-mathematics",
+    "rca0"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "6918b015-0a01-46fb-a67f-1a78ad340dad"
+}

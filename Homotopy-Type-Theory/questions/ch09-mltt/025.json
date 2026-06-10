@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the purpose of the W-type (well-founded trees) in MLTT?",
+  "choices": [
+    "To model coinductive structures",
+    "To provide a general induction principle subsuming all inductive types",
+    "To encode first-order arithmetic",
+    "To represent ordinals in classical set theory"
+  ],
+  "answer": 1,
+  "explanation": "W-types (Wₓ:A.B(x)) subsume all strictly positive inductive types and provide a single universal induction principle.",
+  "tags": [
+    "mltt",
+    "w-type",
+    "inductive-types"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "c620cd34-8846-43fe-a85b-e944fc317c83"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "7a4ae0a9-975b-44e4-b1af-e7274c8c08f0",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Which is an active open problem in HoTT foundations?",
+  "choices": [
+    "Whether ℕ is an h-set",
+    "Whether univalence is consistent with MLTT",
+    "Canonicity for Book HoTT (does axiomatic ua preserve canonicity?)",
+    "Whether S¹ is a valid HIT"
+  ],
+  "answer": 2,
+  "explanation": "Canonicity for axiomatic HoTT (does every closed ℕ-term normalise to a numeral when ua is an axiom?) is open.",
+  "tags": [
+    "research",
+    "open-problems"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

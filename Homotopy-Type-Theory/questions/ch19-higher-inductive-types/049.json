@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In the construction of K(G,1) as a HIT, the path constructor for each g:G is:",
+  "choices": [
+    "A loop loop_g: base=base",
+    "A higher path between loops",
+    "A constant path",
+    "A section of a fibration"
+  ],
+  "answer": 0,
+  "explanation": "K(G,1) HIT: base; for each g:G, loop_g:base=base; paths for multiplication; truncation to 1-type.",
+  "tags": [
+    "eilenberg-maclane",
+    "hit",
+    "delooping"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "bd642f42-ede3-4604-a4f5-d164d2d062da"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A Kan complex is a simplicial set in which every horn Λⁿₖ → X (for any 0 ≤ k ≤ n) extends to:",
+  "choices": [
+    "A unique n-simplex",
+    "Some n-simplex (existence, not necessarily uniqueness)",
+    "A degenerate simplex only",
+    "A 2-simplex"
+  ],
+  "answer": 1,
+  "explanation": "Kan complexes have fillers for all horns (including outer ones); this models ∞-groupoids.",
+  "tags": [
+    "kan-complex",
+    "horn-filling"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "00ceb265-7150-4c0c-bb15-a02d215e436f"
+}

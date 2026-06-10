@@ -1,0 +1,18 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every countably infinite set is in bijection with ℕ.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "By definition: a set A is countably infinite iff there is a bijection A↔ℕ. So yes, every countably infinite set is in bijection with ℕ.",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "beginner",
+  "question_id": "a857d8d7-d60c-4efe-9c88-3855c9f02508"
+}

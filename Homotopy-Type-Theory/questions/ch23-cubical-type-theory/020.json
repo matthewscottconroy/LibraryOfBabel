@@ -1,0 +1,21 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Face formulas φ in CTT are generated from:",
+  "choices": [
+    "Boolean operations on atomic propositions",
+    "Interval variables and the constants i0, i1 using ∧, ∨, ~",
+    "All first-order formulas",
+    "The universe hierarchy"
+  ],
+  "answer": 1,
+  "explanation": "Face formulas: φ ::= i | ~i | φ∧ψ | φ∨ψ | 0 | 1, where i ranges over interval variables.",
+  "tags": [
+    "cubical-type-theory",
+    "face-formula"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "1ff35c21-41d2-43ad-81d5-752d6a4b7ef4"
+}

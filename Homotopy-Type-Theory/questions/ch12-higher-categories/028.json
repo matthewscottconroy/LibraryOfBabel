@@ -1,0 +1,21 @@
+{
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The coherence theorem for bicategories states that every bicategory is:",
+  "choices": [
+    "Equivalent to a strict 2-category",
+    "Equivalent to a 1-category",
+    "Equivalent to a Kan complex",
+    "Equivalent to an (∞,2)-category"
+  ],
+  "answer": 0,
+  "explanation": "Mac Lane's coherence: every bicategory is biequivalent to a strict 2-category.",
+  "tags": [
+    "coherence",
+    "bicategory"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "15776820-d220-4f0f-b0b9-081d337bfc26"
+}

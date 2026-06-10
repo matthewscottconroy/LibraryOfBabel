@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In HoTT, the identity type Id_A(a,b) (or a =_A b) is interpreted as:",
+  "choices": [
+    "The proposition that a and b are definitionally equal",
+    "The type of paths from a to b in A",
+    "A boolean",
+    "The set of proofs that a = b in classical logic"
+  ],
+  "answer": 1,
+  "explanation": "In HoTT, identity types are path spaces: an element of a=b is a path from a to b.",
+  "tags": [
+    "identity-type",
+    "paths",
+    "hott"
+  ],
+  "difficulty": "beginner",
+  "generated": false,
+  "question_id": "523c3891-b5c8-4004-a751-d6aa1b1a88d8"
+}

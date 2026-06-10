@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The CTT proof of J (path induction) from the contractibility of singletons proceeds by:",
+  "choices": [
+    "Assuming J as an axiom",
+    "Using transport^(id_Type) along the path p to move from the (a,a,refl) case to the general (a,b,p) case",
+    "Applying univalence",
+    "Using the interval directly"
+  ],
+  "answer": 1,
+  "explanation": "J is derived: transport from the contractibility of (Σb.a=b) along p gives the general case from refl.",
+  "tags": [
+    "cubical-type-theory",
+    "j-eliminator",
+    "transport"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "3e6a0ddf-fdc9-4b52-be0f-5bb0fdb8fa6f"
+}

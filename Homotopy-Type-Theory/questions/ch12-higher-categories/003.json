@@ -1,0 +1,21 @@
+{
+  "question_id": "ad4bf9ea-e640-4c58-80bd-209cb93c42d9",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "HoTT is conjectured to be the internal language of:",
+  "choices": [
+    "elementary toposes",
+    "strict 2-categories",
+    "∞-toposes (Grothendieck ∞-toposes)",
+    "symmetric monoidal categories"
+  ],
+  "answer": 2,
+  "explanation": "HoTT is the internal language of ∞-toposes — this is the 'initiality conjecture' / Voevodsky's conjecture.",
+  "tags": [
+    "higher-categories",
+    "HoTT"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

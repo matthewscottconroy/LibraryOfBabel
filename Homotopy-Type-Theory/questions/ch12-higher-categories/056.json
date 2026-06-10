@@ -1,0 +1,19 @@
+{
+  "question_id": "912c6eb2-b1e6-4dea-ab69-32bc1424da14",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Every Kan complex is a quasi-category.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "A Kan complex fills all horns (outer and inner), so it certainly fills inner horns. Kan complexes are ∞-groupoids; quasi-categories are ∞-categories (not necessarily groupoids).",
+  "tags": [
+    "kan-complex",
+    "quasi-categories"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

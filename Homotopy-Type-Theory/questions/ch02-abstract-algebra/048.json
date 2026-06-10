@@ -1,0 +1,21 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Cauchy's theorem states: if p is a prime dividing |G|, then G contains:",
+  "choices": [
+    "A subgroup of order p²",
+    "An element of order p",
+    "A normal subgroup of index p",
+    "A Sylow p-subgroup"
+  ],
+  "answer": 1,
+  "explanation": "Cauchy: p||G| → ∃g∈G with ord(g)=p.",
+  "tags": [
+    "cauchy",
+    "group-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "58b4640f-3816-48a5-8b6d-7b704f346ca7"
+}

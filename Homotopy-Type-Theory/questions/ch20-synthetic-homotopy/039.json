@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The statement π₃(S²)=ℤ is proved in HoTT by:",
+  "choices": [
+    "Induction on S²",
+    "Using the Hopf fibration S¹→S³→S² and the long exact sequence",
+    "Freudenthal applied to S²",
+    "Direct encode-decode"
+  ],
+  "answer": 1,
+  "explanation": "π₃(S²)=ℤ: via the Hopf fibration LES: ⋯→π₃(S¹)→π₃(S³)→π₃(S²)→π₂(S¹)→⋯ with π₃(S³)=ℤ and π₃(S¹)=0.",
+  "tags": [
+    "pi3-s2",
+    "hopf-fibration",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "67fa2a0c-e752-4143-977f-bcd6d104a498"
+}

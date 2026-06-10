@@ -1,0 +1,23 @@
+{
+  "chapter": 23,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The 'Brunerie number' is a famous result in synthetic homotopy theory formalised in CTT. It is:",
+  "choices": [
+    "π₃(S²) = ℤ",
+    "The number n such that π₄(S³) = ℤ/nℤ (proved to be 2 by computer)",
+    "The Euler characteristic of S²",
+    "The cardinality of π₂(S²)"
+  ],
+  "answer": 1,
+  "explanation": "Brunerie's thesis: π₄(S³)=ℤ/2, with the proof fully mechanised in cubical type theory.",
+  "tags": [
+    "brunerie",
+    "pi4-s3",
+    "cubical-type-theory",
+    "synthetic-homotopy"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "8a9ca2f0-e06a-4eff-a70f-f28d143474ce"
+}

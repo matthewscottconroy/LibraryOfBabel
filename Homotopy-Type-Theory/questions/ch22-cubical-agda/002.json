@@ -1,0 +1,20 @@
+{
+  "question_id": "250bbff5-dee7-479f-807d-d91ed0328bc4",
+  "chapter": 22,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In Cubical Agda, sym (path reversal) is defined as:",
+  "choices": [
+    "λ i → p i",
+    "λ i → p (~ i)",
+    "λ i → p (i ∧ i0)",
+    "transport (sym p)"
+  ],
+  "answer": 1,
+  "explanation": "sym p = λ i → p (~ i). The complement ~ : I → I satisfies ~ i0 = i1 and ~ i1 = i0.",
+  "tags": [
+    "Cubical-Agda"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

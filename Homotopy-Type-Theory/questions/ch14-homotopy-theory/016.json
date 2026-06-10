@@ -1,0 +1,20 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Blakers-Massey theorem concerns the connectivity of the map from the homotopy pushout:",
+  "choices": [
+    "it measures the Euler characteristic of pushouts",
+    "for A∪_C B with C→A m-connected and C→B n-connected, the map C→A×_B^h is (m+n)-connected",
+    "it requires A and B to be spheres",
+    "it only applies to pairs of homotopy groups"
+  ],
+  "answer": 1,
+  "explanation": "Blakers-Massey: the comparison map from C into the homotopy pullback A×_B^h B is (m+n)-connected when f:C→A is m-connected and g:C→B is n-connected. This generalises Freudenthal.",
+  "tags": [
+    "homotopy",
+    "Blakers-Massey"
+  ],
+  "difficulty": "advanced",
+  "question_id": "6dc330d7-d7dc-43fb-9af9-7298d9deb6f4"
+}

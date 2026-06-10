@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In Simplicial TT, what type-theoretic operation corresponds to composition of morphisms?",
+  "choices": [
+    "Path concatenation",
+    "A term of the extension type witnessing the composite",
+    "Function application",
+    "Transport"
+  ],
+  "answer": 1,
+  "explanation": "Composition is witnessed by the Segal condition: filling the inner 2-horn Λ²₁ gives the composite.",
+  "tags": [
+    "simplicial-type-theory",
+    "composition",
+    "segal"
+  ],
+  "difficulty": "advanced",
+  "generated": false,
+  "question_id": "ff539ce2-d2f5-4e42-8839-cdb60b951dbf"
+}

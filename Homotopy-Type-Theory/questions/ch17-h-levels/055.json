@@ -1,0 +1,21 @@
+{
+  "question_id": "e70345c3-6558-4f0a-9869-1c12e015894e",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A mere proposition P satisfies: Π(x,y:P). x=y. An equivalent characterization is that:",
+  "choices": [
+    "P is contractible",
+    "P → P is contractible",
+    "P ≃ 𝟙 whenever P is inhabited",
+    "P is a retract of 𝟙"
+  ],
+  "answer": 2,
+  "explanation": "P is an h-prop iff: (a) all elements are equal, or equivalently (b) P ≃ 𝟙 when inhabited. h-props are the propositions of HoTT — they have 'at most one proof'.",
+  "tags": [
+    "h-propositions",
+    "h-levels"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

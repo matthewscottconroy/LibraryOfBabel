@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The resolution rule in propositional logic derives ψ∨χ from:",
+  "choices": [
+    "φ∨ψ and φ∨χ",
+    "φ∨ψ and ¬φ∨χ",
+    "¬φ and φ→ψ",
+    "φ and ¬φ∨ψ∨χ"
+  ],
+  "answer": 1,
+  "explanation": "Resolution: from (φ∨ψ) and (¬φ∨χ) infer (ψ∨χ).",
+  "tags": [
+    "resolution",
+    "propositional-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": false,
+  "question_id": "3d9a0beb-6a7e-49b7-8480-a2b7df3de002"
+}

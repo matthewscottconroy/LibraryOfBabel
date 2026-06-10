@@ -1,0 +1,20 @@
+{
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Serre spectral sequence for a fibration F → E → B has E₂ page:",
+  "choices": [
+    "E₂^{p,q} = Hₚ(B) ⊗ Hq(F)",
+    "E₂^{p,q} = Hₚ(B; Hq(F))",
+    "E₂^{p,q} = πₚ(B) × πq(F)",
+    "E₂^{p,q} = Hₚ(F) ⊗ Hq(B)"
+  ],
+  "answer": 1,
+  "explanation": "Serre SS: E₂^{p,q} = Hₚ(B; Hq(F)) (with local coefficients if B isn't simply connected). It converges to H_{p+q}(E). Fundamental tool for computing homology of fibrations.",
+  "tags": [
+    "homotopy",
+    "spectral-sequences"
+  ],
+  "difficulty": "advanced",
+  "question_id": "483e636c-b4bd-49b4-a4bc-31e961864112"
+}

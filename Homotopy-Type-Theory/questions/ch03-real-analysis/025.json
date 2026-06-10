@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A function f:ℝ→ℝ is measurable iff:",
+  "choices": [
+    "f is Borel measurable",
+    "the preimage of every open set is measurable",
+    "f is integrable",
+    "f is continuous a.e."
+  ],
+  "answer": 1,
+  "explanation": "(Lebesgue) measurability: f⁻¹(U) is measurable for every open U. Equivalent: f⁻¹((-∞,c)) is measurable for all c∈ℝ.",
+  "tags": [
+    "analysis",
+    "measure-theory"
+  ],
+  "difficulty": "intermediate",
+  "question_id": "5e5d5fc6-b3f2-4a5b-8c2d-1a402ce14486"
+}

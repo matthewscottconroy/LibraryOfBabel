@@ -1,0 +1,13 @@
+# Chapter 10: Descartes, Spinoza, and Leibniz
+
+---
+
+## Chapter Introduction
+
+The three thinkers treated in this chapter are different from each other in almost every way: in temperament, in metaphysical framework, in the problems that preoccupied them, and in their styles of writing. Descartes wrote in a clear, persuasive French and Latin that democratized philosophy for educated readers across Europe. Spinoza wrote in a forbidding geometric style — propositions, demonstrations, and corollaries — that repels casual readers but rewards careful ones. Leibniz wrote prolifically but systematically, in Latin, French, and German, adapting his presentation to his audience. What they share is rationalism: the conviction that genuine knowledge of reality is achieved through reason rather than through sense experience, and that the structure of the world reflects the structure of rational thought.
+
+For the philosophy of time, rationalism has a distinctive consequence: the question of what time is connects directly to the question of what it is for reason to grasp reality. Descartes's account of duration as a mode of substance is embedded in his substance dualism and his program of grounding physics in metaphysics. Spinoza's account of time as a product of imagination is embedded in his monist metaphysics and his account of the three kinds of knowledge. Leibniz's relational account of time is embedded in his Principle of Sufficient Reason and his metaphysics of monads.
+
+Chapter 10 proceeds through four sections. Section 10.1 examines Descartes's account of duration as a mode of created substance, his distinction between duration and time, and the remarkable doctrine of continuous creation. Section 10.2 analyzes Spinoza's account of time as imagination and his concept of *sub specie aeternitatis* — knowing things under the aspect of eternity. Section 10.3 examines Leibniz's relational theory of time, including the argument from the Principle of Sufficient Reason. Section 10.4 examines the Leibniz-Clarke correspondence — the most important debate in the seventeenth century about the nature of space and time — and assesses what was and was not resolved.
+
+A word about the order of presentation. Strictly speaking, we should encounter Spinoza's account after Descartes's (since Spinoza was responding to Descartes) and Leibniz's account in the context of Newton (since the Leibniz-Clarke correspondence was a response to Newtonian physics). Placing all three rationalists together before Newton sacrifices some historical fidelity but gains philosophical coherence: it allows us to see the rationalist tradition's approach to time as a whole before we turn to the contrasting empiricist and Newtonian approaches.

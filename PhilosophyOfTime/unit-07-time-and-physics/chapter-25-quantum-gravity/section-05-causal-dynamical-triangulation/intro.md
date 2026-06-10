@@ -1,0 +1,5 @@
+# Section 5: Causal Dynamical Triangulation
+
+Causal dynamical triangulation (CDT) is a non-perturbative approach to quantum gravity that takes causality and temporal structure seriously from the start. Developed by Jan Ambjorn, Jerzy Jurkiewicz, and Renate Loll beginning around 2000, CDT differs from earlier "dynamical triangulation" approaches by imposing a causal constraint on the discrete spacetime configurations that are summed over. This causal constraint — which enforces a consistent foliation of spacetime into spacelike slices — turns out to be essential for obtaining a physically reasonable four-dimensional spacetime geometry from the quantum path integral.
+
+CDT is significant for the philosophy of time because it demonstrates that the temporal structure of spacetime — the causal ordering of events — is not just a feature that emerges from geometry, but must be built into the theory from the beginning. Without the causal constraint, the theory produces geometrically pathological configurations; with it, four-dimensional spacetime with the right large-scale properties emerges dynamically.

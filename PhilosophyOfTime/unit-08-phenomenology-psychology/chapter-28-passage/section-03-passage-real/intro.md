@@ -1,0 +1,5 @@
+# Section 3: Arguments That Passage Is Real
+
+Not everyone is persuaded by the no-passage arguments. There is a robust tradition of philosophers who defend the reality of temporal passage — who argue that the experience of passage is not an illusion but accurately (or at least approximately) represents a genuine feature of the world. These philosophers work within what is broadly called the A-theory of time — the view that temporal properties like being past, present, and future are genuinely distinct and that events genuinely become past as time passes.
+
+The challenge for this tradition is to answer the rate-of-passage argument and to make sense of objective passage in terms that connect with physics. These are difficult tasks, and different defenders of passage take different strategies. In this section we examine two: Bradford Skow's moving spotlight theory with its treatment of the rate-of-passage problem, and the view that temporal passage is a primitive, irreducible feature of reality.

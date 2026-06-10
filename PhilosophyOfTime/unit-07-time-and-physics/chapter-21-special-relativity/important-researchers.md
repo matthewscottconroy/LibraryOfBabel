@@ -1,0 +1,28 @@
+# Important Researchers: Chapter 21
+
+**Albert Einstein (1879–1955)**
+German-born theoretical physicist who transformed our understanding of space, time, and gravity. His 1905 "annus mirabilis" papers include not only special relativity but also the photoelectric effect (for which he received the Nobel Prize in Physics in 1921) and Brownian motion. His 1915 general theory of relativity extended special relativity to accelerating frames and gravity. Einstein's insistence on taking the constancy of the speed of light as a postulate rather than a problem was the conceptual breakthrough that made special relativity possible. His later philosophical reflections on relativity, quantum mechanics, and the nature of reality remain important.
+
+**Hermann Minkowski (1864–1909)**
+German mathematician, Einstein's former teacher at the Swiss Polytechnic, who reformulated special relativity in a four-dimensional geometric framework. His 1908 lecture "Space and Time" introduced the Minkowski metric, the spacetime interval, and the concept of the light cone, revealing the deep geometric structure underlying Einstein's physics. Minkowski's geometric reformulation was initially resisted by Einstein himself but was ultimately accepted and became indispensable for the development of general relativity. Minkowski died of appendicitis at age 44, having lived just long enough to see his geometric vision taken up by the physics community.
+
+**Hendrik Lorentz (1853–1928)**
+Dutch physicist who, together with Henri Poincaré and George FitzGerald, developed the transformation equations now bearing his name as part of an aether-based theory of electromagnetism. Lorentz derived the length contraction and time dilation effects as physical consequences of motion through the aether, using an approach that was formally correct but philosophically different from Einstein's. The neo-Lorentzian interpretation of special relativity (which posits a preferred frame) is named after his approach. Lorentz and Pieter Zeeman shared the Nobel Prize in Physics in 1902 for the discovery and theoretical interpretation of the Zeeman effect.
+
+**Hans Reichenbach (1891–1953)**
+German philosopher of science, a founder of logical empiricism and one of the most important philosophers of space and time in the twentieth century. His *The Philosophy of Space and Time* (1928) remains a landmark in the philosophical analysis of relativity. Reichenbach developed the ε-convention for clock synchronization, argued for conventionalism about simultaneity, and worked to clarify the empirical content of spacetime theories. He fled Germany in 1933 and eventually settled at UCLA. His students included Carl Hempel and Wesley Salmon.
+
+**Howard Stein (1929–2022)**
+American philosopher of physics who made sustained and precise contributions to the philosophy of time and spacetime over more than six decades. His 1968 paper "On Einstein-Minkowski Space-Time" and 1991 paper "On Relativity Theory and Openness of the Future" developed the argument that a relativistically appropriate notion of temporal becoming can be defined using the causal past light cone. His work on the history of mechanics and the philosophy of space and time combines philosophical rigor with deep knowledge of physics. A model of what serious philosophy of physics can achieve.
+
+**Hilary Putnam (1926–2016)**
+American philosopher who made foundational contributions to the philosophy of mind, mathematics, and science. His 1967 paper "Time and Physical Geometry" is one of the most-discussed papers in the philosophy of time, arguing that special relativity establishes the block universe and refutes presentism. Though Putnam's argument remains controversial, it crystallized the challenge that relativistic physics poses for ordinary temporal metaphysics. Putnam's broader work on realism, reference, and meaning is among the most important in twentieth-century analytic philosophy.
+
+**David Malament (1947–)**
+American philosopher of physics at the University of California, Irvine, whose technical precision and philosophical clarity have made him one of the most influential figures in the field. His 1977 paper on the conventionality of simultaneity, showing that Einstein synchrony is uniquely determined by the causal structure of Minkowski spacetime, is a landmark in the analysis of temporal structure in special relativity. His work on general relativity, Newtonian gravity, and the foundations of spacetime physics is rigorous and philosophically sophisticated.
+
+**Albert Abraham Michelson (1852–1931) and Edward Morley (1838–1923)**
+American physicists who, in their famous 1887 experiment at the Case School of Applied Science in Cleveland, measured the speed of light in different directions and found no evidence for the luminiferous aether. The null result of the Michelson-Morley experiment was one of the most consequential experiments in the history of physics, creating the crisis that Einstein's 1905 paper resolved. Michelson became the first American to win the Nobel Prize in Physics in 1907, awarded for his precision optical instruments and the spectroscopic and metrological investigations he made with their help.
+
+**C. W. Rietdijk (1934–1997)**
+Dutch physicist and philosopher who published the argument for the deterministic block universe from special relativity in 1966, independently of and slightly before Putnam's version. Rietdijk's paper, though less widely cited than Putnam's, made the logical structure of the argument particularly clear. His work illustrates how technical arguments in the foundations of physics can have far-reaching implications for metaphysics.

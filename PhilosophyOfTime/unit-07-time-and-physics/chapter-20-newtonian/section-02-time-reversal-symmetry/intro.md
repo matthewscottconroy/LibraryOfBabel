@@ -1,0 +1,7 @@
+# Section 2: Time-Reversal Symmetry
+
+One of the most striking features of classical mechanics — and one that creates profound difficulties for our ordinary understanding of time — is its time-reversal symmetry. The fundamental laws that govern the motion of particles, from Newton's second law to the conservation equations of Hamiltonian mechanics, are symmetric under the transformation that replaces *t* with *-t*. Run the equations forward and you get one trajectory; run them backward from the final state and you recover the initial state exactly. Both directions are, in this precise sense, equally lawful.
+
+This symmetry sits in astonishing tension with everything we know about temporal experience: we remember the past and not the future; causes precede effects; broken eggs do not reassemble; people age. The world we live in looks nothing like a world in which time runs symmetrically in both directions. This section explores that tension with care.
+
+The first subsection examines what time-reversal symmetry actually means, both mathematically and physically, and distinguishes it carefully from the claim that time is symmetric in all respects. The second looks at a genuine exception in the laws of microphysics: the weak nuclear force violates T-symmetry (and CP-symmetry, which by the CPT theorem implies T-violation), raising the question of whether this fundamental violation can account for the arrow of time we observe. The answer is illuminating in its limitations.

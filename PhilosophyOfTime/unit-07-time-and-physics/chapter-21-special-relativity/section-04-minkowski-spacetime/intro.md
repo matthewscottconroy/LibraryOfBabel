@@ -1,0 +1,7 @@
+# Section 4: Minkowski Spacetime
+
+In 1908, three years after Einstein published special relativity, Hermann Minkowski delivered a lecture at the 80th Assembly of German Natural Scientists and Physicians in Cologne that began with a sentence which has become one of the most famous in the history of physics: "Henceforth, space alone and time alone are doomed to fade away into mere shadows, and only a union of the two will preserve an independent reality."
+
+Minkowski had been Einstein's mathematics teacher in Zurich, and he recognized that Einstein's physical theory had a deep geometric content that Einstein himself had not fully articulated. The Lorentz transformations, Minkowski saw, are not just a convenient way to relate coordinate systems. They are the symmetries of a four-dimensional geometric structure — spacetime — with a metric that differs fundamentally from the familiar Euclidean metric of three-dimensional space.
+
+This section develops the Minkowski spacetime framework and explores its philosophical implications. The first subsection presents the spacetime geometry: the Minkowski metric, the classification of intervals as spacelike, timelike, or lightlike, the light cone structure, and the concept of a worldline. The second subsection examines the philosophical consequences of geometrizing time: what does it mean to say that temporal relations are geometric relations? Is time really "just a fourth dimension of space"? And what, if anything, distinguishes the time dimension from the spatial dimensions in this four-dimensional world?

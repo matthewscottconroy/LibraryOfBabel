@@ -1,0 +1,5 @@
+# Section 1: The Psychological Present
+
+What is "now"? In objective terms, the present moment is a mathematical point — extensionless, instantaneous, the boundary between past and future. But the phenomenological tradition has shown that the experienced present is not a point at all: it has an extension, a texture, a structure. And empirical psychology has confirmed this in striking ways.
+
+The concept of the "psychological present" — sometimes called the "specious present," following William James — refers to the window of experienced nowness: the span of time that we experience as, in some sense, simultaneously present to us. Research beginning in the late nineteenth century and accelerating rapidly from the 1970s onward has converged on the finding that this window spans roughly two to three seconds. Within this window, events are experienced as co-occurring or as immediately sequential; outside it, events are experienced as more distantly past or future. This section examines the empirical evidence for this window and its neural correlates, and then asks what these findings mean for the philosophical accounts of temporal experience we have been developing.

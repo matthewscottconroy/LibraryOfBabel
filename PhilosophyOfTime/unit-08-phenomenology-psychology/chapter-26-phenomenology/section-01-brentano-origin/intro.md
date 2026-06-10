@@ -1,0 +1,5 @@
+# Section 1: Brentano and the Origin of the Problem
+
+The question of how we experience temporal objects — objects that exist only by unfolding across time — is one that Franz Brentano identified as a genuine philosophical puzzle in lectures he delivered in Vienna in the 1890s. His student Edmund Husserl, who would eventually transform and surpass Brentano's account, preserved and engaged with it at length. To understand why Husserl needed a new account, we must first understand what Brentano proposed.
+
+Brentano's starting point is disarmingly simple: when I hear the last note of a melody, I am aware of it as the last note, which means I am aware of it in relation to what came before. But the earlier notes have ceased to sound. They no longer exist as present sensations. So how am I aware of them? I have not explicitly recalled them — memory, for Brentano, involves a separate cognitive act of turning back to the past. The relation to the just-past seems immediate, not mediated by any act of recollection. This is the kernel of the problem, and it remains the kernel of the problem for every thinker who follows Brentano into this territory.

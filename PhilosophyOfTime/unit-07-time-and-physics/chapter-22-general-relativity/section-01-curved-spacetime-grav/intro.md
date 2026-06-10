@@ -1,0 +1,7 @@
+# Section 1: Curved Spacetime and Gravity
+
+The central idea of general relativity is elegant: gravity is not a force acting across space and time but a curvature of spacetime itself. Massive objects do not pull other objects toward them through some mysterious action at a distance; they curve the spacetime through which other objects move, and those objects then follow the straightest possible paths — geodesics — through the curved geometry. What we experience as the gravitational force is the effect of the curved geometry on our motion.
+
+This reconceptualization of gravity required a new understanding of time. In Newtonian mechanics, time was uniform everywhere. In special relativity, time was still the same everywhere in flat Minkowski spacetime (though different observers measured different coordinate times). In general relativity, the rate at which time passes depends on where you are in a gravitational field: clocks at different heights run at different rates, and this difference is not a measurement artifact but a genuine fact about the geometry of spacetime.
+
+This section develops two core ideas: the equivalence principle, which is the key to understanding how gravity curves spacetime and affects time; and the dynamical character of spacetime in general relativity, which means that time is no longer a fixed background but changes with the distribution of matter and energy.

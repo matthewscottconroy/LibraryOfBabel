@@ -1,0 +1,5 @@
+# Section 2: The Measurement Problem
+
+The measurement problem is the central interpretive puzzle of quantum mechanics. It arises from the tension between two apparently contradictory descriptions of how quantum states evolve. According to the Schrödinger equation, quantum states evolve linearly and continuously. According to the standard "projection postulate," when a measurement is made, the state instantaneously collapses to one of the eigenstates of the measured observable. But the measurement apparatus and the observer are themselves physical systems that should, by the logic of quantum mechanics, evolve according to the Schrödinger equation. Why should measurement produce collapse rather than just more Schrödinger evolution?
+
+This section focuses specifically on the temporal dimensions of the measurement problem: the questions of when collapse occurs (or appears to occur), what the "time of measurement" is, and whether quantum collapse introduces a genuine temporal asymmetry into the physics.

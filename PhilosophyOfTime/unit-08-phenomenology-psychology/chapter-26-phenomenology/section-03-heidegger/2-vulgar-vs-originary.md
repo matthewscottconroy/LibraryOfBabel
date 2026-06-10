@@ -1,0 +1,33 @@
+# Vulgar Time and Originary Temporality: Heidegger's Critique
+
+## The Ordinary Conception of Time
+
+The time we are most familiar with in everyday life — clock time, calendar time, the time of schedules and appointments and deadlines — is what Heidegger calls "vulgar time" (*vulgäre Zeit*) or "the ordinary conception of time." This is time understood as an infinite, homogeneous sequence of "now-points," stretching from the indefinite past through the present into the indefinite future. Any moment in this sequence is as real as any other; none is intrinsically privileged; time moves steadily and uniformly forward, indifferent to who is living in it.
+
+This ordinary conception has deep roots in the history of philosophy. Aristotle's account of time as the measure of motion with respect to before and after presents time as something available to any observer who can register change and count it. Augustine's puzzlement about time — if the past is no longer and the future is not yet, what is the "present"? — is also conducted within the framework of the "now-series." And Husserl's analysis of time-consciousness, however sophisticated, still takes as its starting point the analysis of *how a consciousness experiences time* — it remains, Heidegger argues, within a framework that treats time primarily as an object of experience (Heidegger 1962: 472–480).
+
+## Time as Available and Leveled-Off
+
+For Heidegger, the ordinary conception of time has a specific existential root: it is time as experienced from the standpoint of inauthentic *Dasein*, absorbed in the world of everyday concern. In everyday life, we relate to time primarily as a resource to be managed: there is time "for" doing this, time "until" that deadline, time "since" something happened. Time is the field within which tasks are distributed and scheduled.
+
+This practical engagement with time produces a characteristic leveling-off and publicizing of temporality. Time becomes "public time" — the time that "everyone" shares, that is measured by clocks that everyone can read, that is indifferent to any particular individual. The "now" of public time is a position in the sequence available to anyone, not the *Augenblick* of a particular *Dasein* making a resolute decision. This is what Heidegger means by calling it "vulgar": not morally low, but ordinary, common, averaged-out, and anonymous.
+
+## Originary Temporality as Prior
+
+Heidegger's critical point is that vulgar time is a *derived* mode of time — derived from originary temporality by a process of leveling-off and abstraction. Originary temporality is the authentic temporal structure of *Dasein* analyzed above: the unified ecstatic structure of future-having-been-present. Vulgar time is what you get when you strip away the existential character of this structure — when you detach the ecstases from their connection to death, thrownness, and resolute existence, and treat them as mere positions in a neutral sequence.
+
+The derivation works roughly as follows. Inauthentic *Datability*: every "now" in originary temporality is "now that I am doing this," or "now that this situation is in play." This "datability" (the fact that temporal moments are indexed to situations) gets leveled off into mere abstract positions on a timeline when time becomes public. Inauthentic *Significance*: every originary now has significance — it matters in a particular way relative to a particular existence. Public time strips away significance, treating all moments as equivalent. Inauthentic *Extension*: originary temporality has a span or stretch that reflects the existential scope of *Dasein*'s projects; public time treats extension as purely quantitative measure (Heidegger 1962: 460–465).
+
+## Connections to Augustine and Husserl
+
+The relationship to Augustine is interesting. Heidegger explicitly discusses Augustine's analysis of time in the *Confessions* (Book XI), where Augustine famously argues that past, present, and future are all modifications of the present soul: the present of the past (memory), the present of the present (attention), and the present of the future (expectation). Heidegger finds in Augustine a genuine insight: that time is not simply "out there" in the world but is rooted in the structure of a particular kind of being. But Augustine remains within a framework of the soul's relation to eternity, which is quite different from Heidegger's analysis of temporality as the structure of a finite, mortal existence.
+
+The relationship to Husserl is more complex and more critical. Heidegger acknowledges that Husserl's analysis of time-consciousness is more sophisticated than any previous account, and he credits Husserl with showing that consciousness has an intrinsic temporal structure that cannot be reduced to a series of punctual nows. But Heidegger argues that Husserl's analysis remains at the level of the intentional acts of a transcendental subject — a subject whose being has not been adequately questioned. By beginning with consciousness and its constituting acts, Husserl presupposes a subject whose mode of being is already implicitly that of a "worldless" mind, rather than a being-in-the-world whose very existence is temporal.
+
+For Heidegger, the analysis of time-consciousness is derivative of — and depends on — a more fundamental ontological analysis of *Dasein*'s temporal existence. Husserl asks: how does consciousness constitute temporal experience? Heidegger asks: what does it mean to be the kind of being that has, or can have, such experiences? The second question is prior.
+
+## The Significance of Heidegger's Critique
+
+Heidegger's distinction between vulgar and originary temporality has profound consequences for how we think about time more generally. It suggests that the time of physics — homogeneous, universal, available to any observer — is not the most fundamental kind of time but a highly abstract and derived representation that has its roots in the leveling-off of originary temporality. The physicist's time is, in a sense, a social and cognitive achievement, not a primal datum.
+
+It also challenges us to ask what it means to take time seriously in the way that Heidegger suggests. If authentic temporality is the structure of a life that genuinely owns its finitude, then a great deal of ordinary temporal experience — hurrying through the present, avoiding thought of death, treating time as a neutral resource — represents a kind of flight from what we essentially are. Heidegger is not moralizing here; he is making an ontological point. But the ontological point has, unmistakably, an ethical resonance: to live inauthentically in time is to miss something essential about what we are.

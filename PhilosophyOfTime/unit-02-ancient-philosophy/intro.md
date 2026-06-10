@@ -1,0 +1,27 @@
+# Unit II: Ancient Philosophy of Time
+
+---
+
+## Unit Introduction
+
+The ancient Greeks did something that no people before them had done with quite the same systematic ambition: they tried to think about everything at once. Not merely to describe the world, or to tell stories about it, or to manage it practically, but to *understand* it — to give an account of why it is the way it is, grounded in principles that hold necessarily and are grasped by reason rather than inherited from tradition. Physics, cosmology, ethics, mathematics, logic, metaphysics, psychology — all of these were aspects of a single great inquiry, conducted under the broad heading of *philosophia*, love of wisdom.
+
+Time was central to this inquiry from the beginning, and for a simple reason: time is inseparable from the most fundamental questions about nature. To understand what things are, you must understand how they come to be and pass away. To understand motion, you must understand the medium through which motion occurs. To understand the relationship between the eternal and the changing, between what is and what becomes, between knowledge and opinion — all of this requires engaging with time directly. The ancient Greeks did not have a "philosophy of time" as a separate subdiscipline. They had something better: a philosophy of nature in which time was present everywhere, as a structural feature of the problems rather than a special topic to be quarantined.
+
+This unit examines the three great chapters of ancient Greek philosophy of time: the Pre-Socratics, Plato, and Aristotle. These three chapters represent three very different responses to the same fundamental puzzle: how do we make sense of a world that is always changing, in which things come to be and pass away, in which the past is gone and the future is not yet, and yet in which there seem to be stable truths available to reason?
+
+The Pre-Socratics set the terms. Heraclitus pushed the fact of change to its most radical conclusion — everything flows, nothing stays the same — and then insisted, paradoxically, that this constant flux is governed by a rational structure, the Logos. Parmenides pushed in the opposite direction: if reason is our guide, and reason tells us that what is cannot not-be, then there is no genuine change, no time, no plurality — only the One, eternal and unchanging. Zeno defended Parmenides with the most ingenious and resilient paradoxes in the history of philosophy, paradoxes that still exercise logicians and physicists today. Democritus and the Atomists offered a third path: materialism, in which permanent atoms in void produce the appearance of change through their rearrangements.
+
+Plato responded to this difficult inheritance with a cosmological synthesis of extraordinary ambition. In the *Timaeus*, he proposed that time was created by a divine craftsman (the Demiurge) as a "moving image of eternity" — a numerical, cyclical approximation to the timeless perfection of the eternal Forms. Time belongs to the realm of *becoming*, not *being*; it is ontologically inferior to eternity but a genuine and beautiful reflection of it. The *Timaeus* would prove enormously influential on subsequent cosmology, theology, and philosophy of time.
+
+Aristotle took a different approach altogether. Rather than reasoning from ideal Forms or eternal models, Aristotle began from the phenomena themselves — from what we observe and what we say. In Books III and IV of the *Physics*, he gave the most careful and systematic analysis of time in antiquity: time as the number of motion with respect to before and after, continuous, inseparable from change, dependent on the counting mind that measures it, governed by the eternal circular motion of the celestial spheres. Aristotle's analysis is difficult, subtle, and in several places genuinely puzzling — but it is the most serious sustained attempt in antiquity to say what time actually is rather than what it represents cosmologically or how it contrasts with eternity.
+
+Three notes for the reader. First, these ancient philosophers were not merely precursors to better, later philosophy. They were engaging, often more directly and incisively than their modern successors, with questions that remain genuinely unresolved. The paradoxes of Zeno have not been fully resolved. The question of whether time is mind-dependent — raised by Aristotle in *Physics* IV.14 — is still debated. The contrast between temporal and eternal being is as philosophically alive today as it was in the *Timaeus*.
+
+Second, when we encounter ancient texts, we must engage with both what they said and with what we can see that they *could not* have seen. They did not have calculus, general relativity, or quantum mechanics. They reasoned brilliantly with what they had. Part of philosophical education is developing the ability to read an ancient text both charitably — granting it the best possible interpretation — and critically — assessing its arguments on their merits.
+
+Third, the ancient Greek world is not the whole world. Unit I, Chapter 2 reminded us that Chinese, Indian, Mesoamerican, and indigenous peoples developed sophisticated temporal thinking long before and during the period of classical Greek philosophy. The focus of this unit on Greece is not a claim to universal superiority but a recognition that the Greek tradition is the one whose concepts most directly shaped the subsequent Western philosophical tradition in which this textbook is written.
+
+---
+
+*Unit II comprises Chapters 3, 4, and 5.*

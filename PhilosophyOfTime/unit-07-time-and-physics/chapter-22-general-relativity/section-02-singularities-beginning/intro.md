@@ -1,0 +1,5 @@
+# Section 2: Singularities and the Beginning of Time
+
+One of the most dramatic and philosophically consequential results of general relativity is that the theory predicts its own breakdown. Under very general conditions, GR predicts the existence of *singularities* — regions where the spacetime curvature becomes infinite and the classical description fails. The most important of these, for the philosophy of time, is the Big Bang singularity: the apparent beginning of the universe, where the classical description of spacetime breaks down entirely.
+
+This section examines the Penrose-Hawking singularity theorems, which established on rigorous mathematical grounds that singularities are generic predictions of general relativity. It then turns to the philosophical question: does the Big Bang singularity mean that time began? Several distinct answers are available, each with different implications for the metaphysics of time and for classical questions in the philosophy of time and cosmology — including Kant's First Antinomy.

@@ -1,0 +1,3 @@
+# Section 2: The Wheeler-DeWitt Equation
+
+The Wheeler-DeWitt equation is the central equation of canonical quantum gravity — the attempt to quantize general relativity by applying the canonical quantization procedure to the Hamiltonian formulation of GR. The equation, derived by Bryce DeWitt in 1967, is deceptively simple in appearance: Ĥ|Ψ⟩ = 0. Yet its implications for the nature of time are profound and deeply puzzling. This section examines how the equation arises, what it appears to say about time, and how the "problem of time" in quantum gravity has been formulated and partially addressed.

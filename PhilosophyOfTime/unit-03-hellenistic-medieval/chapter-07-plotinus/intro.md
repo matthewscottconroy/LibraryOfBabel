@@ -1,0 +1,17 @@
+# Chapter 7: Plotinus
+
+---
+
+## Chapter Introduction
+
+Plotinus (204–270 CE) is one of those philosophers who is enormously influential and remarkably underread. His influence on Augustine, on medieval Islamic, Jewish, and Christian philosophy, and on subsequent mystical and idealist traditions in Western thought is incalculable. Yet he is rarely taught in introductory philosophy courses — partly because his system is demanding, partly because it resists easy summary, and partly because modern philosophy has largely moved in directions that make his concerns seem remote. This is unfortunate. Plotinus is one of the most original and subtle philosophers of time who ever wrote, and his account anticipates features of phenomenological and idealist accounts of time that would not be fully developed for another seventeen centuries.
+
+Plotinus worked in the tradition he received from Plato and the Platonists, but he was not merely a commentator. The *Enneads* — the six groups of nine treatises that his student Porphyry compiled and edited — contain sustained, difficult, original philosophical work. The treatise *On Eternity and Time* (*Enneads* III.7) is widely regarded as one of the greatest philosophical treatments of time in the ancient world, and it repays close study.
+
+The organizing structure of Plotinus's philosophy is the doctrine of the three *hypostases* — the three fundamental levels of reality: the One, Intellect (*Nous*), and Soul (*Psychê*). Understanding these three levels is the prerequisite for understanding his account of time, because time, for Plotinus, is not a feature of the physical world but a feature of Soul's activity. Time is not something the world has; it is something Soul does. This is a revolutionary claim, and it requires careful unpacking.
+
+Chapter 7 proceeds as follows. Section 7.1 introduces the three hypostases and explains the ontological structure within which time is located. This includes the concept of *aion* (eternity) as the mode of being of Intellect — a mode that is atemporal and simultaneous rather than temporal and successive — and the contrast between the "complete, simultaneous life" of Intellect and the "stretched-out, discursive" life of Soul. Section 7.2 examines the central claim of *Enneads* III.7: that time is the life of the Soul in a movement of passage from one way of life to another. What does this mean? How does it generate the time that we experience? And does it make time subjective in a problematic way? Section 7.3 considers Plotinus's critique of his predecessors — particularly Aristotle — and assesses whether his critique is successful.
+
+Two cautions for readers new to Plotinus. First, the *Enneads* are not easy reading. Plotinus writes in a way that is simultaneously abstract and intensely personal — the prose has a quality of reaching toward something that resists full articulation. Second, Plotinus is not simply repeating Plato. While he draws heavily on Plato's *Timaeus* (which introduced the idea of time as the "moving image of eternity"), he transforms Plato's account in ways that Plato himself would not have recognized. The relationship between Plotinian eternity and Platonic eternity is important and philosophically interesting.
+
+By the end of this chapter, you should be able to explain the three Plotinian hypostases and their temporal characteristics; articulate Plotinus's account of time as the life of Soul; and assess whether time on Plotinus's view is objective, subjective, or something in between.

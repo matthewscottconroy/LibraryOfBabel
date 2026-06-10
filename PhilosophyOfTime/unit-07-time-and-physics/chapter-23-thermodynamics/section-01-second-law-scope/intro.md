@@ -1,0 +1,5 @@
+# Section 1: The Second Law and Its Scope
+
+The Second Law of Thermodynamics has been stated in many ways, and the variety of formulations reflects the richness of the phenomenon it describes. All formulations share a common core: there is a fundamental asymmetry between the past and future directions of thermodynamic processes. Heat flows from hot to cold, not the reverse. Useful work cannot be extracted from a single heat source without a by-product. The disorder of a closed system tends to increase.
+
+This section develops the classical formulations of the Second Law — Clausius's original statement and Kelvin's equivalent formulation — and examines their relationship to the statistical mechanical interpretation introduced by Boltzmann. The second subsection then confronts the central puzzle: if the microphysical laws are time-symmetric, how can the Second Law be as strong as it appears? We examine Loschmidt's reversibility objection and Zermelo's recurrence objection, and trace how Boltzmann responded — in ways that raise as many questions as they answer.

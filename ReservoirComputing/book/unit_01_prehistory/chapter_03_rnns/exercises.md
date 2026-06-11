@@ -226,13 +226,14 @@ class VanillaRNN:
         preacts = np.zeros((T, self.N))
         outputs = np.zeros((T, self.W_out.shape[0]))
         
-        # TODO: Implement the forward pass.
-        # For t in range(T):
-        #   1. Compute preacts[t] = W_rec @ states[t] + W_in @ U[t] + b
-        #   2. Compute states[t+1] = np.tanh(preacts[t])
-        #   3. Compute outputs[t] = W_out @ states[t+1]
-        
-        raise NotImplementedError("Implement forward pass")
+        # Forward pass implementation.
+        for t in range(T):
+            preacts[t]     = self.W_rec @ states[t] + self.W_in @ U[t] + self.b
+            states[t + 1]  = np.tanh(preacts[t])
+            outputs[t]     = self.W_out @ states[t + 1]
+        # Explanation: at each step t we compute the pre-activation a_t = W_rec x_t + W_in u_t + b,
+        # apply tanh elementwise to obtain the new hidden state x_{t+1}, and project to the output.
+        # states[0] is the zero initial condition; states[t+1] corresponds to time step t+1.
         return states, preacts, outputs
     
     def backward(
@@ -268,22 +269,33 @@ class VanillaRNN:
         # Gradient of loss w.r.t. outputs: dL/dy_t = 2*(y_t - y_hat_t) / T
         dL_dy = 2.0 * (outputs - targets) / T    # shape (T, M)
         
-        # Gradient of loss w.r.t. W_out: sum_t (dL/dy_t) x_t^T
-        # TODO: compute dW_out
+        # Gradient of loss w.r.t. W_out: sum_t (dL/dy_t) x_{t+1}^T
+        # Each time step contributes an outer product of the output error with the hidden state.
+        dW_out = dL_dy.T @ states[1:]   # shape (M, N): sum over T time steps
         
         # Backward pass through time
-        delta = np.zeros(self.N)  # accumulated error signal
+        delta = np.zeros(self.N)  # accumulated error signal flowing backward through time
         
-        # TODO: for t in reversed(range(T)):
-        #   1. delta += W_out.T @ dL_dy[t]    (gradient from current loss)
-        #   2. tanh_deriv = 1 - states[t+1]**2   (derivative of tanh at preacts[t])
-        #   3. delta_pre = tanh_deriv * delta     (gradient at pre-activation)
-        #   4. Accumulate: dW_rec += np.outer(delta_pre, states[t])
-        #   5. Accumulate: dW_in  += np.outer(delta_pre, U[t])
-        #   6. Accumulate: db     += delta_pre
-        #   7. Propagate: delta = W_rec.T @ delta_pre
+        for t in reversed(range(T)):
+            # 1. Add the direct gradient from the loss at step t.
+            #    dL/dx_{t+1} via the output: W_out.T maps M-dim output error to N-dim state space.
+            delta += self.W_out.T @ dL_dy[t]
+            
+            # 2. tanh derivative evaluated at the stored post-activation (equivalent to 1 - tanh^2).
+            tanh_deriv = 1.0 - states[t + 1] ** 2    # shape (N,)
+            
+            # 3. Gate the error by the tanh derivative to get the pre-activation gradient.
+            delta_pre = tanh_deriv * delta             # shape (N,) — elementwise
+            
+            # 4-6. Accumulate parameter gradients using the pre-activation gradient.
+            dW_rec += np.outer(delta_pre, states[t])   # outer product: shape (N, N)
+            dW_in  += np.outer(delta_pre, U[t])        # outer product: shape (N, K)
+            db     += delta_pre                         # bias gradient: shape (N,)
+            
+            # 7. Propagate the error one step further back through W_rec^T.
+            #    This is the "through-time" step that can cause vanishing/exploding gradients.
+            delta = self.W_rec.T @ delta_pre
         
-        raise NotImplementedError("Implement backward pass")
         return {'W_rec': dW_rec, 'W_in': dW_in, 'W_out': dW_out, 'b': db}
 
 
@@ -375,14 +387,16 @@ def measure_gradient_norms(N=50, T=200, spectral_radii=[0.5, 0.9, 0.99, 1.01, 1.
         grad_norms = np.zeros(T)
         grad_norms[T-1] = 1.0  # norm of identity
         
-        # TODO: propagate J_prod backward:
-        # for s in reversed(range(T-1)):
-        #   D_s = np.diag(1 - states[s+1]**2)  # tanh derivative
-        #   J_s = D_s @ W
-        #   J_prod = J_prod @ J_s              # accumulate product
-        #   grad_norms[s] = np.linalg.norm(J_prod, ord=2)
-        
-        raise NotImplementedError("Implement Jacobian product accumulation")
+        # Propagate J_prod backward: J_prod accumulates the product of Jacobians
+        # from time T back to time s.  Each factor J_s = D_s W where D_s is the
+        # diagonal matrix of tanh derivatives at time step s.
+        for s in reversed(range(T - 1)):
+            D_s    = np.diag(1.0 - states[s + 1] ** 2)   # tanh'(a_s): shape (N, N) diagonal
+            J_s    = D_s @ W                               # Jacobian at step s: shape (N, N)
+            J_prod = J_prod @ J_s                          # accumulate: J_T->s = J_T->s+1 * J_s
+            grad_norms[s] = np.linalg.norm(J_prod, ord=2) # spectral norm of the accumulated product
+        # Interpretation: grad_norms[s] = ||∂x_T / ∂x_s||_2.
+        # For rho < 1 this decays exponentially with (T-s); for rho > 1 it grows exponentially.
         results[rho] = grad_norms
     
     return results
@@ -475,12 +489,63 @@ def train_rnn_addition(T: int, N: int = 50, n_epochs: int = 2000, lr: float = 1e
     final_mse : float   Final test MSE
     losses    : list    Training loss per epoch
     """
-    # TODO: 
-    # 1. Generate training and test batches.
-    # 2. Train VanillaRNN (from Lab 3.1) on the training batch.
-    # 3. Every 100 epochs, evaluate on test batch and record MSE.
-    # 4. Return final test MSE and training loss history.
-    raise NotImplementedError
+    rng = np.random.default_rng(0)
+    
+    # 1. Generate training (256 examples) and test (512 examples) batches.
+    X_train, y_train = generate_addition_problem(T, batch_size=256, rng=rng)
+    X_test,  y_test  = generate_addition_problem(T, batch_size=512, rng=rng)
+    # Reshape targets to (batch, T, 1) — loss only at final time step.
+    # We train with teacher forcing at all steps but only care about the final prediction.
+    # Simplest approach: use the final state prediction as the output.
+    # Targets: y_train is shape (batch,); we predict the sum at the last step.
+    
+    # 2. Train VanillaRNN (from Lab 3.1) using SGD + BPTT.
+    rnn = VanillaRNN(N=N, K=2, M=1)  # K=2 (value+marker), M=1 (scalar output)
+    losses = []
+    
+    for epoch in range(n_epochs):
+        epoch_loss = 0.0
+        # Mini-batch gradient descent (one batch per epoch for simplicity).
+        batch_dW_rec = np.zeros_like(rnn.W_rec)
+        batch_dW_in  = np.zeros_like(rnn.W_in)
+        batch_dW_out = np.zeros_like(rnn.W_out)
+        batch_db     = np.zeros_like(rnn.b)
+        
+        for i in range(len(X_train)):
+            U_i = X_train[i]                       # (T, 2)
+            # Target: zeros for all steps except the last, which holds the sum.
+            tgt_i = np.zeros((T, 1))
+            tgt_i[-1, 0] = y_train[i]
+            
+            states, preacts, outputs = rnn.forward(U_i)
+            grads = rnn.backward(U_i, states, preacts, outputs, tgt_i)
+            
+            # Accumulate gradients.
+            batch_dW_rec += grads['W_rec']
+            batch_dW_in  += grads['W_in']
+            batch_dW_out += grads['W_out']
+            batch_db     += grads['b']
+            epoch_loss   += np.mean((outputs[-1] - tgt_i[-1]) ** 2)
+        
+        # Average gradient and apply SGD update with gradient clipping.
+        n = len(X_train)
+        for grad in [batch_dW_rec, batch_dW_in, batch_dW_out, batch_db]:
+            np.clip(grad / n, -1.0, 1.0, out=grad)  # gradient clipping to [-1, 1]
+        rnn.W_rec -= lr * batch_dW_rec / n
+        rnn.W_in  -= lr * batch_dW_in  / n
+        rnn.W_out -= lr * batch_dW_out / n
+        rnn.b     -= lr * batch_db     / n
+        losses.append(epoch_loss / n)
+    
+    # 3. Evaluate on test set.
+    test_mse = 0.0
+    for i in range(len(X_test)):
+        tgt_i = np.zeros((T, 1)); tgt_i[-1, 0] = y_test[i]
+        _, _, outputs = rnn.forward(X_test[i])
+        test_mse += (outputs[-1, 0] - y_test[i]) ** 2
+    final_mse = test_mse / len(X_test)
+    
+    return final_mse, losses
 
 
 # Experiment: sweep over sequence lengths

@@ -1,9 +1,0 @@
-kind: tf
-difficulty: advanced
-text: "The exponential map exp: g → G is always surjective for any connected Lie group G."
-answer: false
-explanation: "The exponential map is not always surjective. A standard counterexample: for G = SL(2,ℝ), the matrix −I (negative identity) is not in the image of exp: sl(2,ℝ) → SL(2,ℝ), because exp(X) for X ∈ sl(2,ℝ) has trace ≥ −2 with trace = −2 only in degenerate cases that do not include −I. By contrast, for compact connected Lie groups exp is always surjective."
-tags:
-  - exponential-map
-  - surjectivity
-  - non-compact

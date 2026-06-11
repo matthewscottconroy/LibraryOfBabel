@@ -1,8 +1,0 @@
-kind: tf
-difficulty: beginner
-text: Every subspace of a finite-dimensional vector space is finite-dimensional.
-explanation: Any linearly independent set in V is bounded in size by dim V, so every subspace has finite
-  dimension.
-tags:
-- vector-spaces
-answer: true

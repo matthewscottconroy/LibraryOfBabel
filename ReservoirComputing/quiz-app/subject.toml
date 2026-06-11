@@ -1,0 +1,129 @@
+title = 'Reservoir Computing Adaptive Quiz'
+chapters_dir = '../labs'
+system_prompt = """You are an expert quiz question generator for a graduate-level course on Reservoir Computing. Topics include: fading memory, echo state property, spectral radius, ESN training via ridge regression, NARMA benchmarks, Mackey-Glass prediction, hyperparameter tuning, FORCE learning, online RLS, conceptors, deep ESNs, next-generation RC (NVAR), physical reservoirs (photonic, memristive), Lorenz prediction, and central pattern generators. Questions test deep understanding of computational principles, quantitative reasoning, and trade-offs."""
+
+[[chapters]]
+index = 0
+phase = 0
+name = 'Fading Memory'
+file = '01_fading_memory/README.md'
+
+[[chapters]]
+index = 1
+phase = 0
+name = 'Dynamical Systems'
+file = '02_dynamical_systems/README.md'
+
+[[chapters]]
+index = 2
+phase = 0
+name = 'Echo State Networks'
+file = '03_echo_state_networks/README.md'
+
+[[chapters]]
+index = 3
+phase = 1
+name = 'Echo State Property'
+file = '04_echo_state_property/README.md'
+
+[[chapters]]
+index = 4
+phase = 1
+name = 'Spectral Radius'
+file = '05_spectral_radius/README.md'
+
+[[chapters]]
+index = 5
+phase = 1
+name = 'Memory Capacity'
+file = '06_memory_capacity/README.md'
+
+[[chapters]]
+index = 6
+phase = 2
+name = 'NARMA10 Benchmark'
+file = '07_narma10/README.md'
+
+[[chapters]]
+index = 7
+phase = 2
+name = 'Mackey-Glass Prediction'
+file = '08_mackey_glass/README.md'
+
+[[chapters]]
+index = 8
+phase = 2
+name = 'Hyperparameter Tuning'
+file = '09_hyperparameters/README.md'
+
+[[chapters]]
+index = 9
+phase = 3
+name = 'Online RLS Learning'
+file = '10_online_rls/README.md'
+
+[[chapters]]
+index = 10
+phase = 3
+name = 'FORCE Learning'
+file = '11_force_learning/README.md'
+
+[[chapters]]
+index = 11
+phase = 3
+name = 'Conceptors'
+file = '12_conceptors/README.md'
+
+[[chapters]]
+index = 12
+phase = 4
+name = 'Deep Echo State Networks'
+file = '13_deep_esn/README.md'
+
+[[chapters]]
+index = 13
+phase = 4
+name = 'Next-Generation RC (NVAR)'
+file = '14_nvar/README.md'
+
+[[chapters]]
+index = 14
+phase = 4
+name = 'Physical Reservoir Computing'
+file = '15_physical_rc/README.md'
+
+[[chapters]]
+index = 15
+phase = 5
+name = 'Lorenz Attractor Prediction'
+file = '16_lorenz_prediction/README.md'
+
+[[chapters]]
+index = 16
+phase = 5
+name = 'Central Pattern Generators'
+file = '17_central_pattern_generator/README.md'
+
+[[phases]]
+index = 0
+name = 'Phase 0 — Foundations'
+
+[[phases]]
+index = 1
+name = 'Phase 1 — Core ESN Properties'
+
+[[phases]]
+index = 2
+name = 'Phase 2 — Benchmarks and Tuning'
+
+[[phases]]
+index = 3
+name = 'Phase 3 — Advanced Training Methods'
+
+[[phases]]
+index = 4
+name = 'Phase 4 — Architectural Extensions'
+
+[[phases]]
+index = 5
+name = 'Phase 5 — Applications'

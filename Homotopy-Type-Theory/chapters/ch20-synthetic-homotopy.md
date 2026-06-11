@@ -215,3 +215,32 @@ The *Brunerie number* $n$ is defined as the element of $\pi_4(S^3)$ constructed 
   - Anel-Biedermann-Finster-Joyal, "Goodwillie's Calculus of Functors and Higher Topos Theory" (for Blakers-Massey)
   - van Doorn, "On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory"
   - Favonia-Shulman, "A Mechanization of the Blakers-Massey Connectivity Theorem in HoTT"
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch19-higher-inductive-types` — Prerequisite. All synthetic homotopy results in this chapter use HITs to define the spaces (S¹, S², Sⁿ, pushouts) and truncations to state the connectivity conditions.
+- `ch17-h-levels` — The notion of n-connectedness (`isNConnected`) and n-truncation (`‖–‖ₙ`) are the primary tools. Freudenthal's theorem (`Σ : πₙ(X) → πₙ₊₁(ΣX)` is an isomorphism in the stable range) is stated in terms of h-levels.
+- `ch18-univalence` — Univalence is used in the construction of the Hopf fibration: the twist automorphism of `S¹` is a non-trivial path in the universe (an element of `S¹ = S¹` that is not `refl`), and the Hopf fibration uses this.
+- `ch14-homotopy-theory` — This chapter is the synthetic counterpart. Every theorem proved synthetically here has a classical analog in ch14: Freudenthal ↔ Freudenthal's suspension theorem; Blakers-Massey ↔ the Blakers-Massey excision theorem; Hopf fibration ↔ exercise 14.6.
+- `ch26-research-frontiers` — The open problems in synthetic homotopy theory: computing further homotopy groups of spheres, chromatic homotopy, spectra. Brunerie's calculation `π₄(S³) = ℤ/2ℤ` (exercise 20.6) is the current frontier of formalized synthetic homotopy.
+
+**In book/:**
+- `book/unit-06-core-hott/ch20-synthetic-homotopy/` — Extended narrative treatment with philosophical discussion of what it means to do homotopy theory synthetically — without reference to topological spaces, only types.
+
+**In demos/:**
+- `demos/demo_suspension.py` — Suspension ΣX as a HIT; the suspension homomorphism `σ : πₙ(X) → πₙ₊₁(ΣX)`.
+- `demos/demo_hopf.py` — The Hopf fibration `S¹ → S³ → S²` as a HIT construction. Includes the long exact sequence of homotopy groups.
+- `demos/demo_james.py` — The James construction J(X) — the free topological monoid on X — used in Brunerie's calculation.
+- `demos/demo_eilenberg_maclane.py` — Eilenberg-MacLane spaces K(G, n) as HITs: K(G, n) has `πₙ = G` and all other homotopy groups trivial.
+
+**Key results proved in this chapter (all by synthetic means using HoTT):**
+| Result | Classical statement | Synthetic tool |
+|---|---|---|
+| π₁(S¹) = ℤ | Fundamental group of the circle | Encode-decode (ch19) + HIT eliminator |
+| Freudenthal suspension | πₙ(Sⁿ) ≅ πₙ₊₁(Sⁿ⁺¹) (stable) | n-connectedness + truncation |
+| Seifert-van Kampen | π₁(A ∪_C B) from π₁(A), π₁(B), π₁(C) | Pushout HIT + encode-decode |
+| Blakers-Massey | Excision for homotopy groups | n-connected maps + truncation |
+| Hopf fibration | S¹ → S³ → S²; π₃(S²) = ℤ | H-space structure on S¹ + join |

@@ -1,9 +1,0 @@
-answer: false
-difficulty: beginner
-explanation: '(AB)ᵀ = BᵀAᵀ, reversing the order. This mirrors how inverses work: (AB)⁻¹
-  = B⁻¹A⁻¹. The order reversal is essential and easily overlooked.'
-kind: tf
-tags:
-- matrices
-- transpose
-text: For matrices A and B of compatible dimensions, (AB)ᵀ = AᵀBᵀ.

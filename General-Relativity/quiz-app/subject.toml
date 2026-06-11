@@ -1,0 +1,101 @@
+title = 'General Relativity Adaptive Quiz'
+chapters_dir = '../textbook'
+system_prompt = """You are an expert quiz question generator for a graduate-level course on General Relativity. Topics include: tensor calculus, differential geometry (manifolds, geodesics, curvature), the equivalence principle, the Riemann curvature tensor, Einstein field equations, the Schwarzschild and Kerr metrics, black holes, gravitational waves, cosmology (FLRW metric, Hubble expansion, dark energy), causal structure, conformal diagrams, and advanced topics (ADM formalism, numerical relativity). Questions test mathematical precision and physical intuition."""
+
+[[chapters]]
+index = 0
+phase = 0
+name = 'Logic, Proof, and Mathematics'
+file = 'unit-01-logic-proof-mathematics/README.md'
+
+[[chapters]]
+index = 1
+phase = 0
+name = 'Calculus'
+file = 'unit-02-calculus/README.md'
+
+[[chapters]]
+index = 2
+phase = 0
+name = 'Multivariable and Linear Algebra'
+file = 'unit-03-multivariable-linear-algebra/README.md'
+
+[[chapters]]
+index = 3
+phase = 1
+name = 'Advanced Analysis and Topology'
+file = 'unit-04-advanced-analysis-topology/README.md'
+
+[[chapters]]
+index = 4
+phase = 1
+name = 'Classical Mechanics'
+file = 'unit-05-classical-mechanics/README.md'
+
+[[chapters]]
+index = 5
+phase = 1
+name = 'Classical Electromagnetism'
+file = 'unit-06-classical-electromagnetism/README.md'
+
+[[chapters]]
+index = 6
+phase = 2
+name = 'Special Relativity'
+file = 'unit-07-special-relativity/README.md'
+
+[[chapters]]
+index = 7
+phase = 2
+name = 'Differential Geometry'
+file = 'unit-08-differential-geometry/README.md'
+
+[[chapters]]
+index = 8
+phase = 3
+name = 'Foundations of GR'
+file = 'unit-09-foundations-of-gr/README.md'
+
+[[chapters]]
+index = 9
+phase = 3
+name = 'Exact Solutions'
+file = 'unit-10-exact-solutions/README.md'
+
+[[chapters]]
+index = 10
+phase = 4
+name = 'Gravitational Waves'
+file = 'unit-11-gravitational-waves/README.md'
+
+[[chapters]]
+index = 11
+phase = 4
+name = 'Cosmology'
+file = 'unit-12-cosmology/README.md'
+
+[[chapters]]
+index = 12
+phase = 4
+name = 'Advanced GR'
+file = 'unit-13-advanced-gr/README.md'
+
+[[phases]]
+index = 0
+name = 'Phase 0 — Mathematical Foundations'
+
+[[phases]]
+index = 1
+name = 'Phase 1 — Classical Physics'
+
+[[phases]]
+index = 2
+name = 'Phase 2 — Relativity and Geometry'
+
+[[phases]]
+index = 3
+name = 'Phase 3 — General Relativity'
+
+[[phases]]
+index = 4
+name = 'Phase 4 — Applications and Frontiers'

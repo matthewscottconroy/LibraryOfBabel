@@ -1,8 +1,0 @@
-kind: tf
-difficulty: beginner
-text: The Gram-Schmidt process takes a linearly independent set and produces an orthonormal basis for
-  the same span.
-explanation: 'Gram-Schmidt: iteratively orthogonalise each vector against previous ones, then normalise.'
-tags:
-- gram-schmidt
-answer: true

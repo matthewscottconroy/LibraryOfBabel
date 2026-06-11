@@ -223,3 +223,29 @@ In HoTT, *sets* (h-level 0 types) often have decidable equality, but general typ
 **5.9.** In Lean 4 without importing any classical axioms, try to prove `P ∨ ¬P` for an arbitrary proposition `P`. What error do you get? Now import `Classical` and prove it using `Classical.em`. What does this tell you about Lean 4's foundational assumptions?
 
 **5.10 (Conceptual).** Bishop says: "Meaningful distinctions deserve to be maintained." Explain what distinction is lost when we use proof by contradiction to prove $\exists n, P(n)$ rather than directly exhibiting the $n$. Give a mathematical example where the classical proof gives existence but no algorithm.
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch04-proof-theory` — Prerequisite. The proof theory of IPC (sequent calculus, natural deduction, normalization) provides the syntactic background for the semantic completeness results in ch05.
+- `ch06-curry-howard` — The computational content of intuitionistic logic: every IPC proof is a program; every IPC theorem is an inhabited type. The BHK interpretation introduced informally in ch05 is made precise by the Curry-Howard isomorphism.
+- `ch08-dependent-types` — Dependent type theory extends IPC to predicate logic: `Π(x:A), P x` is the dependent counterpart of `∀x:A. P(x)`, and `Σ(x:A), P x` is the dependent counterpart of `∃x:A. P(x)`. The BHK clause for ∀ becomes the formation rule for Π-types.
+- `ch17-h-levels` — The distinction between `Σ(x:A), P x` (proof-relevant existence) and `‖Σ(x:A), P x‖` (mere existence) is the HoTT refinement of the constructive/classical distinction from ch05. Propositional truncation `‖–‖` is the formal device for moving from a proof-relevant to a proof-irrelevant statement.
+
+**In book/:**
+- `book/unit-02-logic-and-computation/ch05-intuitionistic-logic/` — Extended narrative treatment emphasizing the mathematical and philosophical significance of the rejection of LEM. Includes extended discussion of the BHK interpretation, Markov's principle, and the constructivist tradition (Brouwer, Bishop, Martin-Löf).
+
+**In demos/:**
+- `demos/demo_bhk.py` — The BHK interpretation made computational: enter a proposition; compute its BHK interpretation; enter a proof term; verify it satisfies the interpretation.
+- `demos/demo_kripke.py` — Kripke models for intuitionistic propositional logic. Demonstrates which classical tautologies fail intuitionistically by providing Kripke countermodels.
+
+**The key principles of IPC vs. classical logic:**
+| Principle | Classical | Intuitionistic |
+|---|---|---|
+| LEM `P ∨ ¬P` | Axiom | Not provable (without K or dneg) |
+| DNE `¬¬P → P` | Derivable | Not provable |
+| Peirce `((P→Q)→P)→P` | Derivable | Not provable |
+| De Morgan `¬(P∧Q) → ¬P∨¬Q` | Derivable | Not provable |
+| EM for ℕ `Π(n:ℕ), P n ∨ ¬P n` | Derivable | Derivable if P is decidable |

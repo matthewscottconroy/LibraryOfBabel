@@ -242,3 +242,31 @@ This is the seed of homotopy type theory: the identity type is the type of paths
   - Function composition: write the term and its type
 
 **6.8 (Challenge).** The *simply typed combinator basis*: Show that every simply typed lambda term can be translated into a term using only $S$, $K$, $I$, and variables (no $\lambda$-abstractions). (*Hint:* This translation is the *bracket abstraction* algorithm. It proceeds by structural induction on terms.)
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch04-proof-theory` — Prerequisite. The natural deduction rules whose types are the Curry-Howard counterparts of the typing rules of STLC. Cut elimination corresponds to normalization; the subformula property corresponds to the types of subterms.
+- `ch05-intuitionistic-logic` — The propositional fragment: `IPC ≅ STLC`. Every propositional intuitionistic tautology corresponds to an inhabited type in STLC. Classical tautologies that are not intuitionistic correspond to types with no closed inhabitants.
+- `ch07-stlc-system-f` — The direct continuation: System F adds universal quantification over types, corresponding to second-order propositional logic. Parametricity (Reynolds) is the computational analog of the proof-theoretic uniformity enforced by the absence of non-logical axioms.
+- `ch08-dependent-types` — The generalization: Π-types `(x : A) → B x` extend the function type `A → B` to the dependent case. `∀x. P(x)` becomes `Π(x : A), P x`. The Curry-Howard correspondence extends fully: `Π` is dependent universal quantification and dependent product; `Σ` is dependent existential quantification.
+- `ch09-mltt` — MLTT is the full dependent Curry-Howard correspondence, including the identity type `a =_A b` as the type of proofs of equality (paths). The J eliminator is the proof rule for identity-type elimination; the β-reduction for J is the computation rule.
+
+**In book/:**
+- `book/unit-02-logic-and-computation/ch06-curry-howard/` — Extended narrative treatment emphasizing the philosophical significance of "propositions as types." Includes discussion of the BHK interpretation and its relationship to intuitionism.
+
+**In demos/:**
+- `demos/demo_curry_howard.py` — Interactive visualization of the Curry-Howard correspondence. Enter a proposition in IPC; receive a type in STLC; enter a proof; receive a lambda term.
+- `demos/demo_bhk.py` — The Brouwer-Heyting-Kolmogorov interpretation, which the Curry-Howard correspondence makes precise.
+- `demos/demo_proof_basics.py` — Basic proof construction corresponding to simple typed programs.
+
+**Key type-theoretic notation:**
+- `P ∧ Q ↔ A × B` (product type; `(p, q) : A × B` is the pair constructor)
+- `P ∨ Q ↔ A + B` (sum type; `inl a : A + B` and `inr b : A + B`)
+- `P → Q ↔ A → B` (function type; `λx.t : A → B`)
+- `⊥ ↔ 𝟘` (empty type; no introduction rule; elimination `exfalso : 𝟘 → A`)
+- `¬P ↔ P → 𝟘`
+- `∀x:A. P x ↔ Π(x : A), P x` (dependent function type — ch08)
+- `∃x:A. P x ↔ Σ(x : A), P x` (dependent pair type — ch08)

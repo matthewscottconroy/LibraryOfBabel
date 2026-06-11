@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "Left adjoint functors preserve all limits."
-answer: false
-explanation: "Left adjoint functors preserve colimits, not limits. Right adjoint functors preserve limits. This is because the adjunction isomorphism Hom(FA, B) ≅ Hom(A, GB) commutes with limits in the second variable (for Hom), and limits are defined by terminal cones which correspond to the right-adjoint side of the hom-set. A mnemonic: LAPC (Left Adjoints Preserve Colimits) and RAPL (Right Adjoints Preserve Limits)."
-tags:
-  - adjoint-functors
-  - limits
-  - colimits

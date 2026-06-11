@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "If g∘f is injective, then f is injective."
-answer: true
-explanation: "Suppose f(a₁) = f(a₂). Then g(f(a₁)) = g(f(a₂)), i.e., (g∘f)(a₁) = (g∘f)(a₂). Since g∘f is injective, a₁ = a₂. Therefore f is injective. Note that g need not be injective: e.g., g can collapse elements that are never in the image of f."
-tags:
-  - functions
-  - injective
-  - composition

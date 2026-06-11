@@ -242,3 +242,35 @@ $$\text{Contractible} \subset \text{hProp} \subset \text{hSet} \subset 1\text{-T
 **17.9.** Give an example of a type in HoTT that is not a set. (*Hint:* The circle $S^1$ has $\pi_1(S^1) = \mathbb{Z}$, so there are non-trivial loops at the basepoint.)
 
 **17.10 (Challenge).** Define the *$n$-truncation* $\|A\|_n$ as a higher inductive type. State its universal property formally. Show that $\|A\|_{-2} \simeq \mathbf{1}$ iff $A$ is nonempty and $\|-\|_{-2}$ of any type is contractible (since there is only one contractible type up to equivalence).
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch16-identity-types` — Prerequisite. H-levels are defined in terms of path types: a type A is at h-level n iff its path types are at h-level n−1. The hierarchy bottoms out at contractible types (h-level −2): `isContr A := Σ(a : A), Π(b : A), a = b`.
+- `ch18-univalence` — The universe `Type` is not a set: its path type `A =_{Type} B` is equivalent to `A ≃ B` by univalence, and equivalences do not always form a mere proposition. The universe is at h-level 1 (a groupoid) for propositions, but has no finite h-level overall — it is a genuine ∞-type.
+- `ch19-higher-inductive-types` — Propositional truncation `‖A‖` (h-level −1 truncation) and general n-truncations are defined as HITs. The truncation modalities `‖–‖ₙ` are the HoTT analogs of Postnikov sections in classical homotopy theory.
+- `ch20-synthetic-homotopy` — Connectedness (`n-connected maps`) and n-truncation interact in the Blakers-Massey theorem and the Freudenthal suspension theorem, both proved in ch20. The h-level hierarchy from ch17 is the primary organizational tool for those proofs.
+
+**In book/:**
+- `book/unit-06-core-hott/ch17-h-levels/` — Extended narrative explaining the h-level hierarchy as the HoTT refinement of the classical notion of "discrete" vs. "continuous" space. Emphasizes the philosophical significance of the distinction between `A` (a type with witnesses) and `‖A‖` (merely having a witness).
+
+**In demos/:**
+- `demos/demo_hlevels.py` — Computes h-levels for basic types (ℕ, Bool, S¹, Type), illustrating the hierarchy and the contrast between discrete and continuous types.
+- `demos/demo_truncations.py` — Propositional truncation `‖A‖` and n-truncations as HITs. Demonstrates the universal property: maps from `‖A‖` into a proposition factor uniquely through `A`.
+
+**The h-level hierarchy:**
+| h-level | Name | Condition | Examples |
+|---|---|---|---|
+| −2 | Contractible | `Σ(a:A), Π(b:A), a=b` | `𝟙`, `Σ(b:A), a=b` |
+| −1 | Mere proposition | `Π(a b:A), a=b` | `𝟘`, `𝟙`, `isProp A` |
+| 0 | Set | `Π(a b:A), isProp(a=b)` | `ℕ`, `ℤ`, `Bool` |
+| 1 | Groupoid | path types are sets | `S¹` (π₁=ℤ, but π₂=0) |
+| n | n-groupoid | iterated paths reach sets | `Sⁿ` |
+| ∞ | (no truncation) | | `Type` itself |
+
+**Critical distinction — `Σ` vs. `‖Σ‖`:**
+- `Σ(n : ℕ), P n` = "there exists n : ℕ with P n, and I have a witness"
+- `‖Σ(n : ℕ), P n‖` = "there merely exists n : ℕ with P n (witness not retained)"
+This distinction is invisible in classical set theory but is mathematically and computationally essential in HoTT.

@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "The values of any character of a finite group are algebraic integers."
-answer: true
-explanation: "Each element g ∈ G has finite order n, so ρ(g)ⁿ = id, meaning the eigenvalues of ρ(g) are n-th roots of unity. Roots of unity are algebraic integers (they satisfy xⁿ − 1 = 0), and sums of algebraic integers are algebraic integers, so χ(g) = Tr(ρ(g)) is an algebraic integer."
-tags:
-  - character-values
-  - algebraic-integer
-  - roots-of-unity

@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "D-modules provide an algebraic framework for studying differential equations on algebraic varieties."
-answer: true
-explanation: >
-  A D-module on a smooth algebraic variety X is a module over the sheaf D_X of algebraic differential operators. Systems of differential equations correspond to D-modules: a PDE system on X translates into a D_X-module M where the equations are the relations in M. The Riemann–Hilbert correspondence (Kashiwara, Mebkhout) provides an equivalence between regular holonomic D-modules and perverse sheaves, connecting algebraic analysis with topology.
-tags:
-  - d-modules
-  - tf

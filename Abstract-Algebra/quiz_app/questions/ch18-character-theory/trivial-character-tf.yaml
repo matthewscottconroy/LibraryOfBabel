@@ -1,8 +1,0 @@
-kind: tf
-difficulty: beginner
-text: "The character of the trivial representation of any group G is identically 1: χ_triv(g) = 1 for all g ∈ G."
-answer: true
-explanation: "The trivial representation assigns to each g ∈ G the identity map on a 1-dimensional space, so ρ(g) = (1) and χ(g) = Tr(1) = 1 for every g. It is the unique 1-dimensional representation with this property, and it appears as a summand in every representation via the fixed-point subspace."
-tags:
-  - trivial-representation
-  - character

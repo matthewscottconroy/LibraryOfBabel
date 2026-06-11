@@ -1,9 +1,0 @@
-kind: tf
-difficulty: beginner
-text: "Every field is an integral domain."
-answer: true
-explanation: "In a field, every nonzero element has a multiplicative inverse. If ab = 0 and a ≠ 0, then b = a⁻¹(ab) = a⁻¹·0 = 0. Thus a field has no zero divisors, which is exactly the definition of an integral domain. The converse fails: ℤ is an integral domain but not a field."
-tags:
-  - fields
-  - integral-domain
-  - ring-theory

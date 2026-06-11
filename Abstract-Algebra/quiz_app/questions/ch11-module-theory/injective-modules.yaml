@@ -1,8 +1,0 @@
-kind: tf
-difficulty: advanced
-text: Every injective module over a PID is divisible.
-explanation: Over a PID, injective ↔ divisible. The injective hull of a module over a PID is its divisible
-  closure.
-tags:
-- injective-modules
-answer: true

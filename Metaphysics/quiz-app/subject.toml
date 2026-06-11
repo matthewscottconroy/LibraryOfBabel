@@ -1,0 +1,101 @@
+title = 'Metaphysics Adaptive Quiz'
+chapters_dir = '../'
+system_prompt = """You are an expert quiz question generator for a graduate-level course on Metaphysics. Topics include: ontology, universals and particulars (realism, nominalism, trope theory), identity and persistence, causation, laws of nature, modality (possible worlds, de re vs de dicto necessity), time and space, free will, metametaphysics, mereology, and philosophy of science (natural kinds, reduction, emergence). Questions must demand precision about philosophical positions and arguments. Distractors should conflate closely related positions."""
+
+[[chapters]]
+index = 0
+phase = 0
+name = 'Ontology'
+file = '01_Ontology/README.md'
+
+[[chapters]]
+index = 1
+phase = 0
+name = 'Universals and Particulars'
+file = '02_Universals_and_Particulars/README.md'
+
+[[chapters]]
+index = 2
+phase = 0
+name = 'Identity and Persistence'
+file = '03_Identity_and_Persistence/README.md'
+
+[[chapters]]
+index = 3
+phase = 1
+name = 'Causation and Laws of Nature'
+file = '04_Causation_and_Laws/README.md'
+
+[[chapters]]
+index = 4
+phase = 1
+name = 'Modality'
+file = '05_Modality/README.md'
+
+[[chapters]]
+index = 5
+phase = 1
+name = 'Time and Space'
+file = '06_Time_and_Space/README.md'
+
+[[chapters]]
+index = 6
+phase = 2
+name = 'Philosophy of Mind'
+file = '07_Philosophy_of_Mind/README.md'
+
+[[chapters]]
+index = 7
+phase = 2
+name = 'Free Will and Agency'
+file = '08_Free_Will_and_Agency/README.md'
+
+[[chapters]]
+index = 8
+phase = 2
+name = 'Metametaphysics'
+file = '09_Metametaphysics/README.md'
+
+[[chapters]]
+index = 9
+phase = 3
+name = 'Metaphysics of Science'
+file = '10_Metaphysics_of_Science/README.md'
+
+[[chapters]]
+index = 10
+phase = 3
+name = 'Mereology'
+file = '11_Mereology/README.md'
+
+[[chapters]]
+index = 11
+phase = 3
+name = 'Truth and Reality'
+file = '12_Truth_and_Reality/README.md'
+
+[[chapters]]
+index = 12
+phase = 4
+name = 'Philosophy of Religion'
+file = '13_Philosophy_of_Religion/README.md'
+
+[[phases]]
+index = 0
+name = 'Phase 0 — Ontology and Basic Metaphysics'
+
+[[phases]]
+index = 1
+name = 'Phase 1 — Causation, Modality, and Time'
+
+[[phases]]
+index = 2
+name = 'Phase 2 — Mind, Agency, and Meta-Theory'
+
+[[phases]]
+index = 3
+name = 'Phase 3 — Science, Mereology, and Truth'
+
+[[phases]]
+index = 4
+name = 'Phase 4 — Religion and Applied Metaphysics'

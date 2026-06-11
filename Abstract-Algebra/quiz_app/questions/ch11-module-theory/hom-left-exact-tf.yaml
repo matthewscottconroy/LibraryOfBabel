@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "The functor Hom_R(A, -) is left-exact but not right-exact in general."
-answer: true
-explanation: "Given an exact sequence 0 → B → C → D → 0, applying Hom(A, -) yields 0 → Hom(A,B) → Hom(A,C) → Hom(A,D), which is exact (left-exact). However the last map need not be surjective: taking R = ℤ, A = ℤ/2ℤ, and 0 → ℤ → ℤ → ℤ/2ℤ → 0, we get Hom(ℤ/2ℤ, ℤ/2ℤ) → Hom(ℤ/2ℤ, 0) = 0, but the map ℤ → ℤ/2ℤ does not lift to a map ℤ/2ℤ → ℤ. The failure is measured by Ext¹."
-tags:
-  - hom-functor
-  - left-exact
-  - derived-functors

@@ -1,0 +1,9 @@
+{
+  "chapter": 4, "phase": 1, "kind": "mc",
+  "text": "McTaggart's A-series orders events using which temporal properties?",
+  "choices": ["Earlier than, simultaneous with, later than", "Past, present, and future", "Temporal distance measured in absolute units", "Before and after relative to an observer's frame"],
+  "answer": 1,
+  "explanation": "McTaggart distinguished two ways of ordering events in time. The A-series orders events as past, present, or future — these properties are intrinsic to events and change over time (what is future becomes present, then past). The B-series orders events as earlier than, simultaneous with, or later than — these relations are permanent and do not change. McTaggart argued that genuine temporal becoming requires the A-series, but the A-series is contradictory, leading to his famous argument that time is unreal.",
+  "tags": ["A-series", "B-series", "McTaggart", "temporal-becoming"],
+  "difficulty": "beginner"
+}

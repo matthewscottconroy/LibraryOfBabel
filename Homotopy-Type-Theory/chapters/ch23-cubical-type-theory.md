@@ -406,3 +406,38 @@ Cubical type theory makes some things harder:
 **23.6.** In CCHM, prove the *Kan condition for function types*: if $A$ and $B$ are Kan types, show how to define `hcomp` for the function type $A \to B$. What is the construction?
 
 **23.7 (Research).** Read the original CCHM paper: "Cubical Type Theory: A Constructive Interpretation of the Univalence Axiom" (Cohen, Coquand, Huber, Mörtberg, 2015). Identify the exact place where the Glue type is used to prove univalence, and explain in your own words why the computation rule for transport along $\mathsf{ua}(e)$ holds definitionally.
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch18-univalence` — Prerequisite. The univalence axiom `ua : (A ≃ B) → (A = B)` is an *axiom* in ch18, breaking canonicity: `transport id (ua f) a` has no computational normal form in axiomatic HoTT. Ch23 resolves this by making `ua` a *theorem* derivable from the Glue type.
+- `ch15-simplicial-sets` — The motivating semantics for CCHM is a presheaf category on the De Morgan algebra of the interval. Simplicial sets use the simplex category Δ; cubical type theory uses the cube category `□` (with De Morgan structure). Understanding the Kan filling conditions for simplicial sets (ch15) gives intuition for the `hcomp` operation in cubical type theory.
+- `ch22-cubical-agda` — Cubical Agda is the implementation of CCHM cubical type theory. The path type `Path A a b` in Cubical Agda corresponds to the cubical path type `PathP`; the `hcomp` and `transp` primitives are directly available. Ch22 covers the practical formalization tools; ch23 covers the theoretical foundations.
+- `ch09-mltt` — MLTT is the base theory that CCHM extends. The J rule of ch09 is derivable from the cubical path type: the contractibility of the total path space `Σ(b:A), Path A a b` is proved by `transp`. But MLTT has no canonical reduction for `J(C, d, a, refl_a)` when applied after transport; cubical TT restores this.
+- `ch24-simplicial-type-theory` — The alternative approach: Riehl-Shulman's simplicial TT also addresses the problem of directed type theory (morphisms that are not paths) using a different kind of interval. Comparing the two approaches illuminates the trade-offs in the design of computational HoTT.
+
+**In book/:**
+- `book/unit-08-advanced-foundations/ch23-cubical-type-theory/` — Extended narrative treatment emphasizing the philosophical significance of the canonicity restoration: in CCHM, HoTT has a genuine computational interpretation — every closed term of a computational type has a canonical form.
+
+**In demos/:**
+- `demos/demo_cubical.py` — The cubical interval, path types, `hcomp`, and `transp` illustrated computationally. Shows how ua is derived from Glue.
+- `demos/demo_cubical_agda.py` — Cubical Agda-style proofs: path types, the `--cubical` pragma, and the Cubical standard library.
+- `demos/demo_equiv.py` — Equivalences and the Glue type; how `ua` is defined via Glue.
+- `demos/demo_univalence_deep.py` — Deep exploration: `transport id (ua f) a` reduces definitionally to `f a` in cubical type theory — not just propositionally, but by computation.
+
+**The key innovations of CCHM over axiomatic HoTT:**
+| Feature | Axiomatic HoTT (ch18) | CCHM Cubical TT (ch23) |
+|---|---|---|
+| Univalence | Axiom (breaks canonicity) | Theorem (from Glue type) |
+| `transport id (ua f) a` | No canonical form | Definitionally equal to `f a` |
+| `funext` | Axiom or from univalence | Theorem (from path type) |
+| Path types | Via J rule | `Path A a b = (i:𝕀) → A [i=0↦a, i=1↦b]` |
+| Canonicity | Fails | Holds (Huber's theorem) |
+| Proof assistant | Agda --without-K | Agda --cubical, Cubical Agda |
+
+**The Glue type (the key construction):**
+Given `φ : 𝔽` (a cofibration), `T : Partial φ Type`, and `e : Partial φ (T ≃ A)`:
+$$\mathsf{Glue}[\varphi \mapsto (T, e)] A : \mathsf{Type}$$
+Transport along `ua e` reduces to `e` applied to the transported element — giving the canonical computation rule that axiomatic HoTT lacks.

@@ -1,9 +1,0 @@
-answer: true
-difficulty: beginner
-explanation: 'De Morgan''s laws: ¬(A ∪ B) = ¬A ∩ ¬B and ¬(A ∩ B) = ¬A ∪ ¬B. An element
-  is outside the union iff it is outside both sets.'
-kind: tf
-tags:
-- sets
-- de-morgan
-text: De Morgan's law states that ¬(A ∪ B) = ¬A ∩ ¬B.

@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "Right adjoint functors preserve all limits."
-answer: true
-explanation: "If G: D → C is right adjoint to F: C → D, then G preserves all limits that exist in D. The argument is a Yoneda-style proof: Hom_C(A, G(lim Dᵢ)) ≅ Hom_D(FA, lim Dᵢ) ≅ lim Hom_D(FA, Dᵢ) ≅ lim Hom_C(A, G(Dᵢ)) ≅ Hom_C(A, lim G(Dᵢ)), so by Yoneda G(lim Dᵢ) ≅ lim G(Dᵢ). Dually, left adjoints preserve colimits."
-tags:
-  - adjoint-functors
-  - limits
-  - right-adjoint

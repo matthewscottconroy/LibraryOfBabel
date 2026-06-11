@@ -1,9 +1,0 @@
-kind: blank
-difficulty: intermediate
-text: A basis of a vector space is a linearly independent set that ___ the space.
-explanation: A basis is a maximal linearly independent set, equivalently a minimal spanning set.
-tags:
-- vector-spaces
-choices:
-- spans
-- generates

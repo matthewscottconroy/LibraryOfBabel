@@ -1,8 +1,0 @@
-kind: tf
-difficulty: beginner
-text: "Every free module is projective."
-answer: true
-explanation: "A free module F has a basis, so any surjection g: B → C and map f: F → C can be lifted to h: F → B by choosing h on each basis element to be any preimage under g. This is precisely the lifting property that defines a projective module. Hence free ⇒ projective, but the converse fails in general."
-tags:
-  - free-module
-  - projective-modules

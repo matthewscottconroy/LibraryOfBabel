@@ -1,0 +1,95 @@
+title = 'Philosophy of Time Adaptive Quiz'
+chapters_dir = '../'
+system_prompt = """You are an expert quiz question generator for a graduate-level course on the Philosophy of Time. Topics include: A-theory vs B-theory (McTaggart), presentism vs eternalism vs growing-block, the direction and asymmetry of time, time in special and general relativity (block universe, time dilation), Zeno's paradoxes, Aristotle, Newton vs Leibniz on time, Kant on time as intuition, Husserl's retention-protention, temporal experience, personal identity through time, time travel and causal paradoxes, and quantum gravity approaches. Questions must test philosophical precision."""
+
+[[chapters]]
+index = 0
+phase = 0
+name = 'First Principles of Time'
+file = 'unit-01-first-principles/README.md'
+
+[[chapters]]
+index = 1
+phase = 0
+name = 'Ancient Philosophy of Time'
+file = 'unit-02-ancient-philosophy/README.md'
+
+[[chapters]]
+index = 2
+phase = 0
+name = 'Hellenistic and Medieval Time'
+file = 'unit-03-hellenistic-medieval/README.md'
+
+[[chapters]]
+index = 3
+phase = 1
+name = 'Early Modern Conceptions'
+file = 'unit-04-early-modern/README.md'
+
+[[chapters]]
+index = 4
+phase = 1
+name = 'Metaphysics and Ontology of Time'
+file = 'unit-05-metaphysics-ontology/README.md'
+
+[[chapters]]
+index = 5
+phase = 2
+name = 'Topology and Direction of Time'
+file = 'unit-06-topology-direction/README.md'
+
+[[chapters]]
+index = 6
+phase = 2
+name = 'Time and Physics'
+file = 'unit-07-time-and-physics/README.md'
+
+[[chapters]]
+index = 7
+phase = 3
+name = 'Phenomenology and Psychology'
+file = 'unit-08-phenomenology-psychology/README.md'
+
+[[chapters]]
+index = 8
+phase = 3
+name = 'Personal Identity and Persistence'
+file = 'unit-09-identity-persistence/README.md'
+
+[[chapters]]
+index = 9
+phase = 4
+name = 'Ethics and Temporal Existence'
+file = 'unit-10-ethics-existence/README.md'
+
+[[chapters]]
+index = 10
+phase = 4
+name = 'Time Travel'
+file = 'unit-11-time-travel/README.md'
+
+[[chapters]]
+index = 11
+phase = 4
+name = 'Cutting-Edge Research'
+file = 'unit-12-cutting-edge/README.md'
+
+[[phases]]
+index = 0
+name = 'Phase 0 — Historical and Conceptual Foundations'
+
+[[phases]]
+index = 1
+name = 'Phase 1 — Metaphysics and Ontology'
+
+[[phases]]
+index = 2
+name = 'Phase 2 — Physics and Formal Structure'
+
+[[phases]]
+index = 3
+name = 'Phase 3 — Phenomenology and Identity'
+
+[[phases]]
+index = 4
+name = 'Phase 4 — Ethics, Time Travel, and Frontiers'

@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "Over ℂ, the regular representation of a finite group G decomposes as a direct sum of all irreducible representations, each appearing with multiplicity equal to its dimension."
-answer: true
-explanation: "By the Artin-Wedderburn decomposition ℂ[G] ≅ ⊕ᵢ M_{nᵢ}(ℂ), each irreducible Vᵢ of dimension nᵢ appears exactly nᵢ times in the regular representation. This gives |G| = Σᵢ nᵢ², the sum-of-squares formula."
-tags:
-  - regular-representation
-  - complete-reducibility
-  - sum-of-squares

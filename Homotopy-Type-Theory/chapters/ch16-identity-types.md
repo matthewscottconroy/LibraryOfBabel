@@ -250,3 +250,29 @@ $$\mathsf{transport}^P(p \cdot q) = \mathsf{transport}^P(q) \circ \mathsf{transp
 **16.8.** Prove that paths in $\mathbb{N}$ are decidable: for any $m, n : \mathbb{N}$, either $m = n$ or $m \neq n$.
 
 **16.9 (Challenge: higher paths).** Show that the type $\mathsf{refl}_a =_{\Sigma_{b:A}(a=b)} \mathsf{refl}_a$ is contractible (the space of paths from the constant path to itself in the contractible total path space is contractible). What does this mean for the higher groupoid structure of $A$?
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch09-mltt` — Prerequisite. The J eliminator is stated in full in ch09; ch16 applies it systematically to derive all the structural properties of paths (groupoid laws, transport, ap, funext).
+- `ch15-simplicial-sets` — Semantic foundation: the identity type `a =_A b` is interpreted as the path-space object in the Kan simplicial set model. Degenerate simplices are `refl`; the J rule is contractibility of the total path space `Σ(b : A), a = b`.
+- `ch17-h-levels` — The h-level of A is determined by the complexity of its path types. If `a = b` is contractible for all `a b : A`, then A is a mere proposition. If `a = b` is a set for all `a b : A`, then A is a set. Ch17 develops this hierarchy.
+- `ch18-univalence` — Paths in the universe `A =_{Type} B` are identified by univalence with equivalences `A ≃ B`. Ch16 provides the path operations that make the universe an ∞-groupoid; ch18 gives the specific content of paths between types.
+- `ch19-higher-inductive-types` — HITs add path constructors, making new types with specified non-trivial path structure. S¹ has `loop : base = base`; the non-triviality of this path (there is no path-induction proof that loop = refl) follows from the calculation `π₁(S¹) = ℤ` in ch19.
+
+**In book/:**
+- `book/unit-06-core-hott/ch16-identity-types/` — Extended narrative treatment, including the full philosophical discussion of why paths are more informative than the classical notion of equality, and the relationship to constructive mathematics and homotopy theory.
+
+**In demos/:**
+- `demos/demo_paths.py` — Constructs paths, concatenates them, computes inverses. Verifies the groupoid laws by explicit computation.
+- `demos/demo_groupoid_laws.py` — The groupoid laws for path types: associativity `(p · q) · r = p · (q · r)`, unit laws, and inverse laws — all proved by J (path induction), not by definition.
+- `demos/demo_transport.py` — Transport `transport^P(p) : P(a) → P(b)` for `p : a =_A b` and type family `P : A → Type`. The action on paths `ap_f : a = b → f a = f b` is implemented and tested.
+
+**Key formulas established in this chapter:**
+- Path concatenation: `_·_ : (a = b) → (b = c) → (a = c)` (derived from J)
+- Path inversion: `_⁻¹ : (a = b) → (b = a)` (derived from J)
+- Transport: `transport : (P : A → Type) → (a = b) → P a → P b` (derived from J)
+- Action on paths: `ap : (f : A → B) → (a = b) → f a = f b` (derived from J)
+- Groupoid laws: `(p · q) · r = p · (q · r)`, `refl · p = p`, `p · refl = p`, `p · p⁻¹ = refl`, `p⁻¹ · p = refl` (all propositional equalities, proved by J)

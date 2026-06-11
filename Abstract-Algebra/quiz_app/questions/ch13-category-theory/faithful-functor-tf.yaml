@@ -1,8 +1,0 @@
-kind: tf
-difficulty: beginner
-text: "A faithful functor reflects the equality of morphisms: if F(f) = F(g), then f = g."
-answer: true
-explanation: "A functor F: C → D is faithful if for each pair of objects A, B ∈ C the function F_{A,B}: Hom_C(A,B) → Hom_D(FA, FB) is injective. Injectivity of a function means that equal outputs imply equal inputs: F(f) = F(g) ⇒ f = g. Note that a faithful functor need not be injective on objects, and it need not reflect isomorphisms (a morphism f with F(f) an isomorphism need not itself be an isomorphism unless F is also full)."
-tags:
-  - faithful-functor
-  - functor-definition

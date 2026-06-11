@@ -1,8 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: The minimal polynomial of a matrix divides its characteristic polynomial.
-explanation: By Cayley-Hamilton, the characteristic polynomial annihilates A; the minimal polynomial is
-  the monic annihilator of least degree.
-tags:
-- minimal-polynomial
-answer: true

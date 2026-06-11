@@ -1,9 +1,0 @@
-kind: tf
-difficulty: advanced
-text: "The Frobenius automorphism x ↦ x^p generates the Galois group of 𝔽_{pⁿ} over 𝔽_p."
-answer: true
-explanation: "The extension 𝔽_{pⁿ}/𝔽_p is a cyclic Galois extension of degree n. The Frobenius φ: x ↦ x^p is an automorphism of 𝔽_{pⁿ} fixing 𝔽_p, and its order is exactly n (since φᵏ fixes 𝔽_{p^k} and the least k with φᵏ = id is k = n). Therefore Gal(𝔽_{pⁿ}/𝔽_p) = ⟨φ⟩ ≅ ℤ/nℤ."
-tags:
-  - frobenius-endomorphism
-  - finite-fields
-  - galois-group

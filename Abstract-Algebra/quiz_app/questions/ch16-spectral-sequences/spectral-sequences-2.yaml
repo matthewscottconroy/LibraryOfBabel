@@ -1,8 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: A spectral sequence converges when the differentials dᵣ are eventually zero for all bidegrees.
-explanation: 'Convergence: for each (p,q), dᵣ^{p,q} = 0 for large enough r, so E_r^{p,q} stabilises to
-  E_∞^{p,q}.'
-tags:
-- spectral-sequences
-answer: true

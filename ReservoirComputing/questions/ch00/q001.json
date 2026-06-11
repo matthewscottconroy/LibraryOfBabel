@@ -1,0 +1,9 @@
+{
+  "chapter": 0, "phase": 0, "kind": "mc",
+  "text": "The fading memory property of a reservoir requires that the influence of past inputs on the reservoir state:",
+  "choices": ["Increases exponentially with time", "Decays to zero as time progresses", "Remains constant regardless of the time elapsed", "Oscillates periodically with a fixed period"],
+  "answer": 1,
+  "explanation": "Fading memory (also called the echo state property) requires that the effect of past inputs on the current reservoir state decays monotonically toward zero as those inputs recede further into the past. Without this, the reservoir retains permanent memory of all past inputs and cannot generalise — its state depends on the entire unbounded history.",
+  "tags": ["fading-memory", "echo-state-property", "stability"],
+  "difficulty": "beginner"
+}

@@ -1,0 +1,9 @@
+{
+  "chapter": 6, "phase": 2, "kind": "mc",
+  "text": "In special relativity, two events are spacelike separated if and only if:",
+  "choices": ["There exists a reference frame in which they are simultaneous", "A light signal can connect them", "They share the same time coordinate in all frames", "Their spatial separation equals their temporal separation"],
+  "answer": 0,
+  "explanation": "Spacelike separation means the spacetime interval s^2 = -(ct)^2 + (Δx)^2 > 0 (in the +--- signature). For any two spacelike-separated events, there always exists an inertial frame in which they are simultaneous (Δt = 0 in that frame). No causal signal can connect spacelike-separated events — the light cone does not connect them. This is the criterion for relativistic simultaneity being frame-dependent.",
+  "tags": ["special-relativity", "spacetime-interval", "simultaneity", "spacelike"],
+  "difficulty": "intermediate"
+}

@@ -1,9 +1,0 @@
-kind: tf
-difficulty: beginner
-text: "The Lie algebra of GL(n,ℝ) is gl(n,ℝ), the space of all n×n real matrices with bracket [X,Y] = XY − YX."
-answer: true
-explanation: "GL(n,ℝ) is an open submanifold of M_n(ℝ) ≅ ℝ^{n²}, so its tangent space at the identity is all of M_n(ℝ) = gl(n,ℝ). The Lie bracket induced from the group structure is the matrix commutator [X,Y] = XY − YX. By contrast, the Lie algebra of SL(n,ℝ) is sl(n,ℝ) = {X ∈ gl(n,ℝ) : Tr(X) = 0}."
-tags:
-  - lie-algebra
-  - general-linear-group
-  - matrix-algebra

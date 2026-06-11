@@ -1,9 +1,0 @@
-answer: true
-difficulty: beginner
-explanation: P ⊕ Q = (P ∨ Q) ∧ ¬(P ∧ Q). It is true when one but not both of P, Q
-  holds. Unlike inclusive-or, P ⊕ P = False for any proposition P.
-kind: tf
-tags:
-- logic
-text: Exclusive-or (XOR) of P and Q is true precisely when exactly one of P, Q is
-  true.

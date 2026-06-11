@@ -1,8 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: Every finite abelian group is a direct product of cyclic groups of prime power order.
-explanation: 'Fundamental theorem of finite abelian groups: A ≅ ℤ/p₁^{a₁} × … × ℤ/pₙ^{aₙ}.'
-tags:
-- abelian-groups
-- structure-theorem
-answer: true

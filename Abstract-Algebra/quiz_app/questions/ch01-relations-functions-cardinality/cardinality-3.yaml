@@ -1,9 +1,0 @@
-kind: tf
-difficulty: advanced
-text: The continuum hypothesis (CH) is provable within ZFC.
-explanation: Gödel showed CH is consistent with ZFC (1940); Cohen showed ¬CH is also consistent (1963).
-  CH is independent.
-tags:
-- cardinality
-- foundations
-answer: false

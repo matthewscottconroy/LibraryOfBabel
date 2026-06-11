@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "Every algebraic extension of a field is a finite extension."
-answer: false
-explanation: "A counterexample is the algebraic closure ℚ̄ of ℚ, which is an algebraic extension (every element satisfies a polynomial over ℚ) but is infinite-dimensional over ℚ. More concretely, the field ℚ(√2, √3, √5, ...) obtained by adjoining square roots of all primes is algebraic over ℚ but infinite. A finite extension is algebraic, but the converse fails."
-tags:
-  - algebraic-element
-  - field-extensions
-  - algebraic-closure

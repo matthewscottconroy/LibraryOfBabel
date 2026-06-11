@@ -243,3 +243,24 @@ Cut elimination in type theory is *substitution elimination*: any term of the fo
 **4.7.** The *de Morgan dualities* for classical logic: show that in classical natural deduction, $\neg(\varphi \vee \psi) \leftrightarrow \neg\varphi \wedge \neg\psi$ and $\neg(\varphi \wedge \psi) \leftrightarrow \neg\varphi \vee \neg\psi$. Show that the second implication ($\neg(\varphi \wedge \psi) \to \neg\varphi \vee \neg\psi$) is not intuitionistically provable.
 
 **4.8 (Challenge).** The *consistency* of propositional natural deduction: prove that there is no derivation of $\vdash \bot$ (false from no hypotheses) in intuitionistic propositional natural deduction. (*Hint:* Use the subformula property — $\bot$ has no subformulas, so a normal proof of $\bot$ from nothing would have to be empty, but there are no 0-premise rules with conclusion $\bot$.)
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch00-logic-and-proof` — Prerequisite. The informal proof discipline that ch04 formalizes into natural deduction and sequent calculus.
+- `ch05-intuitionistic-logic` — The direct continuation: restricting to constructive logic by removing LEM. The BHK interpretation is the semantic content of the syntactic rules developed here.
+- `ch06-curry-howard` — The proof-program correspondence. Each natural deduction rule for a connective corresponds to a typing rule for a type former. The cut-elimination theorem proved here corresponds to the normalization theorem for the lambda calculus.
+- `ch07-stlc-system-f` — STLC is the Curry-Howard image of propositional intuitionistic logic. The normalization theorem for STLC proved there is the computational content of cut elimination from ch04.
+- `ch09-mltt` — The FIEC rules of MLTT (Formation, Introduction, Elimination, Computation) are the dependent type-theoretic generalization of the introduction/elimination structure of natural deduction. The β-rule in MLTT corresponds to the computation rule (also called definitional reduction) in sequent calculus.
+
+**In book/:**
+- `book/unit-02-logic-and-computation/ch04-proof-theory/` — Extended narrative treatment with emphasis on the philosophical significance of normal proofs and the relationship between proof normalization and mathematical understanding.
+
+**In demos/:**
+- `demos/demo_proof_theory.py` — Interactive demonstrations of natural deduction derivations for propositional connectives, including normalization steps.
+- `demos/demo_normal_forms.py` — Illustrates beta-normal and eta-long normal forms, connecting to the subformula property.
+- `demos/demo_kripke.py` — Kripke semantics for intuitionistic logic, which provides the semantic content of the syntactic completeness results.
+
+**Key connection to HoTT:** The cut-elimination theorem for sequent calculus is the proof-theoretic analog of the normalization theorem for type theory (strong normalization of MLTT). Both results express the fact that the system is consistent and that every provable proposition has a canonical proof. In HoTT, the univalence axiom breaks the naive normalization property; cubical type theory (ch23) restores it.

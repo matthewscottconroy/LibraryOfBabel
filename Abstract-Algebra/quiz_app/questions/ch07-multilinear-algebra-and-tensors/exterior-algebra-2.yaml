@@ -1,9 +1,0 @@
-kind: blank
-difficulty: intermediate
-text: The ___ product of two forms α∈Λ^p(V) and β∈Λ^q(V) gives an element of Λ^{p+q}(V).
-explanation: 'The wedge product ∧: Λ^p × Λ^q → Λ^{p+q} is the antisymmetrised tensor product.'
-tags:
-- exterior-algebra
-choices:
-- wedge
-- exterior

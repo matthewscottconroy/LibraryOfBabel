@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "Every tautology is a theorem in classical propositional logic."
-answer: true
-explanation: "Classical propositional logic is complete (Gödel's completeness theorem for propositional logic): every tautology — a formula true in every truth-value assignment — is derivable using the axioms and inference rules of the system. Soundness gives the converse: every theorem is a tautology."
-tags:
-  - logic
-  - tautology
-  - completeness

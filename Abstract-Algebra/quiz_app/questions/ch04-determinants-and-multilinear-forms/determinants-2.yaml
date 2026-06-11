@@ -1,7 +1,0 @@
-kind: tf
-difficulty: beginner
-text: det(AB) = det(A)·det(B) for square matrices A, B of the same size.
-explanation: The determinant is a group homomorphism GLₙ(F) → F*. This is the multiplicative property.
-tags:
-- determinants
-answer: true

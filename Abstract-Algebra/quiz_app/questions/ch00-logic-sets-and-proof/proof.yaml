@@ -1,9 +1,0 @@
-kind: blank
-difficulty: beginner
-text: A proof technique that establishes P(n) for all n∈ℕ by proving P(0) and P(k)→P(k+1) is called ___.
-explanation: 'Mathematical induction: base case P(0) plus inductive step P(k)→P(k+1).'
-tags:
-- proof
-choices:
-- induction
-- mathematical induction

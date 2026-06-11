@@ -226,10 +226,54 @@ N = int(T/dt)
 x0a = np.array([1., 1., 1.])
 x0b = x0a + np.array([1e-8, 0., 0.])
 
-# TODO: integrate both trajectories and compute separation
-# TODO: fit exponential to early growth phase
-# TODO: estimate attractor diameter (max pairwise distance over long run)
-# TODO: mark predictability horizon on plot
+# Integrate both trajectories.
+traj_a = np.zeros((N, 3))
+traj_b = np.zeros((N, 3))
+sa, sb = x0a.copy(), x0b.copy()
+for i in range(N):
+    sa = rk4(lorenz, sa, dt)
+    sb = rk4(lorenz, sb, dt)
+    traj_a[i] = sa
+    traj_b[i] = sb
+
+# Compute separation ||x^(1)(t) - x^(2)(t)||.
+separation = np.linalg.norm(traj_a - traj_b, axis=1)
+
+# Fit exponential to early linear-growth phase on semilog plot.
+# The separation grows as ~eps * exp(lambda_max * t) while both trajectories
+# are still in the same "fold" of the attractor.  We fit on t where
+# separation < 0.01 * (initial estimate of attractor diameter).
+t_vals = np.arange(N) * dt
+early_mask = separation < 0.1  # keep only the exponential-growth regime
+slope, intercept, *_ = linregress(t_vals[early_mask], np.log(separation[early_mask] + 1e-30))
+lambda_estimated = slope  # this is λ_max ≈ 0.9 for canonical Lorenz
+
+# Estimate attractor diameter from a long run of trajectory a.
+# Use the max pairwise distance on a subsample to avoid O(N^2) cost.
+subsample = traj_a[::10]  # every 10th point
+diffs = subsample[:, None, :] - subsample[None, :, :]
+attractor_diameter = np.max(np.linalg.norm(diffs, axis=-1))
+
+# Find predictability horizon: first time separation exceeds 1% of diameter.
+horizon_threshold = 0.01 * attractor_diameter
+horizon_idx = np.argmax(separation > horizon_threshold)
+horizon_time = t_vals[horizon_idx] if horizon_idx > 0 else t_vals[-1]
+
+# Plot.
+fig, ax = plt.subplots(figsize=(9, 5))
+ax.semilogy(t_vals, separation, 'b-', lw=1.2, label='Trajectory separation')
+ax.semilogy(t_vals[early_mask], np.exp(intercept + slope * t_vals[early_mask]),
+            'r--', lw=1.2, label=f'Fit: λ_max ≈ {lambda_estimated:.3f}')
+ax.axvline(horizon_time, color='orange', linestyle=':', lw=2,
+           label=f'Predictability horizon ≈ {horizon_time:.1f} t.u.')
+ax.set_xlabel('Time')
+ax.set_ylabel('Separation ||x¹(t) − x²(t)||')
+ax.set_title('Lorenz sensitive dependence')
+ax.legend()
+plt.tight_layout()
+plt.savefig('lorenz_separation.png', dpi=150)
+plt.show()
+# Expected result: λ_max ≈ 0.9, predictability horizon ≈ 25 time units.
 ```
 
 **Expected result:** $\lambda_{\max} \approx 0.9$, predictability horizon $\approx 25$ time units.

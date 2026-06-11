@@ -242,3 +242,28 @@ System $F_\omega$ is the core of Haskell's type system (generalized algebraic da
   - A polymorphic function `curry : ∀ {A B C : Type}, (A × B → C) → A → B → C`
 
 **7.7 (Challenge).** The *Girard-Reynolds isomorphism:* System F types classify second-order formulas. In particular, $\mathsf{Nat} = \forall \alpha,\, (\alpha \to \alpha) \to \alpha \to \alpha$ corresponds to the Peano second-order axiom defining $\mathbb{N}$. Show that Church naturals satisfy the Peano axioms (zero, successor, induction) at the type level in System F.
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch06-curry-howard` — Prerequisite. STLC is the Curry-Howard image of propositional IPC; ch06 establishes this correspondence, which ch07 extends to System F (second-order logic) and System Fω (higher-order logic).
+- `ch08-dependent-types` — The continuation: System F allows quantification over types but not type-valued expressions indexed by terms. Dependent types generalize this: `Π(x : A), B x` allows the codomain to depend on the *value* of the argument, not just on its type. This is the step from polymorphism to full dependent types.
+- `ch09-mltt` — MLTT adds dependent types to the system. The Church numerals in System F (exercise 7.7) are replaced by inductive types defined by their eliminators in MLTT; the Peano axioms become the J rule and the recursor for ℕ.
+
+**In book/:**
+- `book/unit-02-logic-and-computation/ch07-stlc-system-f/` — Extended narrative with emphasis on parametricity (free theorems) and their mathematical significance: every polymorphic function is "natural" in the categorical sense.
+
+**In demos/:**
+- `demos/demo_curry_howard.py` — STLC and its Curry-Howard counterpart for IPC (from ch06); extended to System F examples here.
+- `demos/demo_normal_forms.py` — Beta-normal forms in STLC and System F; strong normalization illustrated.
+
+**Key distinctions for moving to dependent types (ch08):**
+| Feature | STLC | System F | Dependent Types (ch08) |
+|---|---|---|---|
+| Type quantification | No | `∀α.T` | No (universe-based) |
+| Term-indexed types | No | No | `Vec A n : Type` |
+| Propositions as types | Simple types only | Second-order | Full first-order |
+| Expressiveness | Weak | Strong | Very strong |
+| Normalization | Strong | Strong | Decidable (MLTT) |

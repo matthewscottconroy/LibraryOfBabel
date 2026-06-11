@@ -1,8 +1,0 @@
-kind: tf
-difficulty: beginner
-text: Every group of prime order p is cyclic and isomorphic to ℤ/pℤ.
-explanation: By Lagrange, the only subgroup orders are 1 and p. Any non-identity element generates all
-  of G.
-tags:
-- cyclic-groups
-answer: true

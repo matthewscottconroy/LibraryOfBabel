@@ -1,8 +1,0 @@
-kind: tf
-difficulty: beginner
-text: Every subgroup of an abelian group is normal.
-explanation: In abelian groups, gHg⁻¹ = H for all g since gh = hg; all subgroups are normal.
-tags:
-- abelian-groups
-- normal-subgroups
-answer: true

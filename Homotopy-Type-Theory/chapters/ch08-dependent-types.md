@@ -280,3 +280,27 @@ What is this function? What does it witness?
 **8.9 (Challenge).** The *axiom of choice* in dependent type theory is:
 $$\mathsf{AC} : \Pi_{A B : \mathsf{Type}}\, \Pi_{R : A \to B \to \mathsf{Type}}\, (\Pi_{x:A}\, \Sigma_{y:B}\, R(x,y)) \to \Sigma_{f : A \to B}\, \Pi_{x:A}\, R(x, f(x))$$
 Prove this as a theorem in dependent type theory (no axiom needed!). What does this say about the relationship between choice and dependent types?
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch06-curry-howard` — Prerequisite. The Curry-Howard correspondence for simple types is extended here to dependent types: `Π(x : A), B x` corresponds to `∀x:A. P(x)` and `Σ(x : A), B x` corresponds to `∃x:A. P(x)`.
+- `ch09-mltt` — The direct continuation: MLTT adds the identity type `Id_A(a, b)` to the dependent type theory introduced here, completing the foundation for HoTT. The J eliminator is the crucial new rule.
+- `ch11-categorical-logic` — The categorical semantics of dependent types: Π-types correspond to right adjoints of the pullback functor in a locally Cartesian closed category (LCCC). `Π_f B := (f* ⊣ Π_f)` is the categorical reading of the dependent product.
+- `ch16-identity-types` — The identity type `Id_A(a, b)` is the third fundamental type former, after Π and Σ. Together, these three type formers generate the full structure of HoTT. The exercise 8.9 above (AC is provable) fails when propositional truncation is added (ch17): `Π_{x:A} ‖Σ_{y:B} R(x,y)‖ → ‖Σ_{f : A→B} Π_{x:A} R(x, f(x))‖` is not provable.
+
+**In book/:**
+- `book/unit-03-dependent-types/ch08-dependent-types/` — Extended narrative treatment, with emphasis on the mathematical significance of dependent types: vectors, matrices, well-founded trees, and the propositions-as-types reading of quantified statements.
+
+**In demos/:**
+- `demos/demo_dependent_types.py` — Interactive illustrations of Π-types and Σ-types. Demonstrates the difference between `A → B` and `Π(x : A), B x`, and between `A × B` and `Σ(x : A), B x`.
+- `demos/demo_universes.py` — Universe levels and universe polymorphism.
+- `demos/demo_w_types.py` — W-types (well-founded trees) as a general framework for inductive types.
+
+**Key notation established here (used throughout all subsequent chapters):**
+- Π-type: `Π(x : A), B x` or `(x : A) → B x`
+- Σ-type: `Σ(x : A), B x` or `⟨a, b⟩ : Σ(x : A), B x`
+- Universe: `A : Type₀ : Type₁ : Type₂ : ...` (Russell style) or `A : 𝒰ᵢ`
+- The axiom of choice (as a theorem, without propositional truncation): `Π_{x:A} Σ_{y:B} R(x,y) → Σ_{f:A→B} Π_{x:A} R(x, f(x))`

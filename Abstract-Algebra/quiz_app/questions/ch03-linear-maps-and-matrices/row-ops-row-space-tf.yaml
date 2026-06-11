@@ -1,9 +1,0 @@
-kind: tf
-difficulty: beginner
-text: "Elementary row operations do not change the row space of a matrix."
-answer: true
-explanation: "Each elementary row operation (row swap, scalar multiplication of a row, adding a multiple of one row to another) produces a new row that is a linear combination of the original rows. Therefore the span of the rows — the row space — is preserved. This is why Gaussian elimination can be used to find a basis for the row space."
-tags:
-  - row-space
-  - elementary-matrices
-  - gaussian-elimination

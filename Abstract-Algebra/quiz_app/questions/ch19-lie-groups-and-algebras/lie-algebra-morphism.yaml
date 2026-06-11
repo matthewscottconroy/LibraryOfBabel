@@ -1,9 +1,0 @@
-answer: true
-difficulty: beginner
-explanation: A Lie algebra homomorphism is a linear map that preserves the Lie bracket.
-  This is precisely the condition φ([X,Y]_g) = [φ(X),φ(Y)]_h.
-kind: tf
-tags:
-- Lie-homomorphism
-- bracket
-text: 'A Lie algebra homomorphism φ: g → h must satisfy φ([X,Y]) = [φ(X), φ(Y)].'

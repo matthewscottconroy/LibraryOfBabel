@@ -308,3 +308,31 @@ And HoTT shows it is also:
   - What is the identity type $a =_X b$ in this model?
   - What elements does it have (for $X = S^1$ and specific $a, b$)?
   - Why does UIP fail?
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch08-dependent-types` — Prerequisite. The Π-types, Σ-types, and universes that MLTT extends with the identity type. MLTT = dependent type theory + Id-types.
+- `ch11-categorical-logic` — The categorical semantics of MLTT: contextual categories (C-systems) and locally Cartesian closed categories. The J eliminator corresponds to the comprehension structure of a fibered category.
+- `ch15-simplicial-sets` — Streicher's groupoid model (exercise 9.8) is the precursor of the simplicial set model. Kan complexes are the correct ∞-dimensional generalization of groupoids; they provide the model in which UIP fails and univalence holds.
+- `ch16-identity-types` — The direct continuation: ch16 develops the homotopy interpretation of the identity type that MLTT leaves open. The groupoid laws for paths are derived from J in ch16.
+- `ch17-h-levels` — The h-level hierarchy — contractible, proposition, set, groupoid, ... — is the classification of types by the complexity of their identity types. MLTT with UIP collapses this hierarchy to propositions and sets; HoTT without UIP allows all h-levels.
+- `ch18-univalence` — The univalence axiom `ua : (A ≃ B) → (A =_{Type} B)` is the statement that was *not provable* in MLTT but is consistent with MLTT (by the groupoid and simplicial models). Adding univalence to MLTT gives HoTT.
+- `ch23-cubical-type-theory` — Cubical TT makes univalence a *theorem* (not axiom) by adding the interval type as a primitive. The canonicity that axiomatic HoTT lacks is restored.
+
+**In book/:**
+- `book/unit-03-dependent-types/ch09-mltt/` — Extended treatment emphasizing the intensional/extensional distinction and the philosophical significance of proof-relevant equality. The narrative version of exercise 9.8 is developed at length here.
+
+**In demos/:**
+- `demos/demo_paths.py` — Path operations (concatenation, inversion, groupoid laws) as computed by path induction. Implements J in Python.
+- `demos/demo_transport.py` — Transport `transport^P(p) : P(a) → P(b)` for `p : a = b`; demonstrably a function from P(a) to P(b) depending on the path p.
+- `demos/demo_induction_vs_recursion.py` — The difference between inductive and recursive definitions; path induction as a special case.
+
+**The central formula of this chapter:**
+The J eliminator: given `a : A`, `C : Π(b : A), (a =_A b) → Type`, and `d : C(a, refl_a)`,
+$$J(C, d) : \Pi_{b : A}\, \Pi_{p : a =_A b}\, C(b, p)$$
+with computation rule `J(C, d, a, refl_a) ≡ d`.
+
+This is the single most important formal rule in the book. Everything in ch16–ch20 is derived from it.

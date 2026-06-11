@@ -204,3 +204,33 @@ $$\{(a, b) \in A \times B \mid f(a) = g(b)\}$$
   - What is a "term"? (An object of the groupoid)
   - What is the identity type $a =_G b$? (The set of morphisms from $a$ to $b$)
   - Why does UIP fail? (Hint: $\pi_1(S^1)$ — morphisms from the basepoint to itself are all integers)
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch10-category-theory` — Prerequisite. The categorical concepts (CCC, adjunctions, limits) that ch11 applies to type theory.
+- `ch08-dependent-types` and `ch09-mltt` — The type theories whose categorical semantics ch11 develops. The central correspondence: dependent type theory ↔ locally Cartesian closed category (LCCC). Specifically: `Π_f B` (the dependent product along `f`) is right adjoint to `f*` (pullback along `f`).
+- `ch12-higher-categories` — The categorical semantics of HoTT requires ∞-categories (or ∞-toposes), not just ordinary categories. The groupoid model (exercise 11.7) is the 1-categorical approximation to the full ∞-categorical semantics.
+- `ch15-simplicial-sets` — The Kan simplicial set model is a specific locally Cartesian closed category (the category of Kan complexes) that models MLTT with univalence. The subobject classifier of sSet is the Kan complex of propositions.
+- `ch18-univalence` — Univalence holds in any ∞-topos with a univalent universe. The topos-theoretic perspective makes precise what "universe" means and why univalence is a property of the universe object.
+
+**In book/:**
+- `book/unit-04-category-theory/ch11-categorical-logic/` — Extended narrative on categorical semantics, emphasizing the LCCC ↔ dependent type theory correspondence and its implications for the design of proof assistants.
+
+**In demos/:**
+- `demos/demo_categorical_logic.py` — Illustrates CCCs, Cartesian closed structure, and the internal language of a category.
+- `demos/demo_categories.py` — Basic category theory; natural transformations and the Yoneda lemma (from ch10) are prerequisites for the fibration constructions here.
+
+**The LCCC ↔ dependent type theory dictionary:**
+| Type Theory | Category Theory |
+|---|---|
+| Context `Γ` | Object of the base category C |
+| Type `Γ ⊢ A : Type` | Morphism `A → Γ` in C (a "display map") |
+| Term `Γ ⊢ a : A` | Section of `A → Γ` |
+| Weakening | Pullback: `f*A` for `f : Δ → Γ` |
+| Substitution | Pullback of display maps |
+| `Π_f A` (dependent product) | Right adjoint of `f*`: `Π_f ⊣ f*` |
+| `Σ_f A` (dependent sum) | Left adjoint: `Σ_f ⊣ f*` |
+| Identity type `Id_A` | Path-object `A^I → A × A` |

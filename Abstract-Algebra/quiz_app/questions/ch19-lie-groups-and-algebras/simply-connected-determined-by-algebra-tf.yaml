@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "Every connected, simply connected Lie group is uniquely determined (up to isomorphism) by its Lie algebra."
-answer: true
-explanation: "This is the content of Lie's third theorem combined with the uniqueness of the simply connected cover: for any finite-dimensional real Lie algebra g, there exists a unique (up to isomorphism) connected, simply connected Lie group G with Lie(G) = g. The simply-connected hypothesis is essential: SU(2) and SO(3) have the same Lie algebra su(2) ≅ so(3) but are non-isomorphic as groups (SU(2) is the universal cover of SO(3))."
-tags:
-  - lie-correspondence
-  - simply-connected
-  - lie-algebra

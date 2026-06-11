@@ -230,3 +230,39 @@ This is the deepest connection in the curriculum: HoTT is not just a logical sys
 **12.6.** Inner horn filling: write out explicitly what a map $\Lambda^2_1 \to X$ consists of (i.e., what data it provides). Why does filling it give a "composite"?
 
 **12.7 (Research).** Read the statement of the homotopy hypothesis as formalized by Grothendieck and Ara. What is the current status of the fully general conjecture? (Hint: it's been proved in various cases — for 1-groupoids (Quillen), for strict ω-groupoids (Brown-Higgins), but the full weak case remains open in full generality.)
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch10-category-theory` — Prerequisite. 2-categories are the next level up from ordinary categories; the basic categorical concepts (functors, natural transformations) generalize to 2-functors and 2-natural transformations.
+- `ch15-simplicial-sets` — Quasi-categories (inner Kan complexes) are the primary model for (∞,1)-categories. Ch15 develops the technical background; ch12 provides the conceptual motivation and the homotopy hypothesis.
+- `ch16-identity-types` — HoTT types are naturally ∞-groupoids: the identity type structure `a = b` (1-paths), `p = q` (2-paths), etc. gives an ∞-groupoid structure. The homotopy hypothesis says this is the *right* notion of ∞-groupoid — it captures exactly the homotopy-theoretic information of a space.
+- `ch18-univalence` — The universe in HoTT is an ∞-groupoid of types, with equivalences as its morphisms. Univalence makes precise what this ∞-groupoid is: paths between types are equivalences, 2-paths between paths are natural isomorphisms of equivalences, and so on.
+- `ch24-simplicial-type-theory` — Riehl-Shulman's simplicial type theory provides a synthetic framework for (∞,1)-category theory. The Rezk types of ch24 are the type-theoretic analog of quasi-categories (Joyal) and complete Segal spaces (Rezk).
+
+**In book/:**
+- `book/unit-04-category-theory/ch12-higher-categories/` — Extended narrative treatment. Emphasizes the philosophical significance of the homotopy hypothesis: the claim that "space" and "∞-groupoid" are the same concept is one of the deepest insights connecting algebra and geometry.
+
+**In demos/:**
+- `demos/demo_higher_cats.py` — Illustrates 2-categories, bicategories, and the nerve construction. Demonstrates quasi-categories and inner horn filling.
+
+**The homotopy hypothesis (Grothendieck, 1983):**
+> The homotopy category of ∞-groupoids is equivalent to the homotopy category of topological spaces (with weak homotopy equivalences as the weak equivalences).
+
+In HoTT, this is expressed as: types *are* ∞-groupoids (not just modeled by them). Every type A in HoTT has an ∞-groupoid structure:
+- 0-cells: terms `a : A`
+- 1-cells (1-paths): `p : a =_A b`
+- 2-cells (2-paths): `α : p =_{a=b} q`
+- n-cells (n-paths): iterated identity types
+
+**The key examples:**
+| Type | As ∞-groupoid |
+|---|---|
+| `𝟙` (unit) | Trivial (contractible) |
+| `Bool` | Discrete (two points, no non-trivial paths) |
+| `ℕ` | Discrete (set) |
+| `S¹` | Circle: π₁ = ℤ, πₙ = 0 for n ≠ 1 |
+| `S²` | 2-sphere: π₁ = 0, π₂ = ℤ, π₃ = ℤ (Hopf) |
+| `Type` | Equivalent to the ∞-groupoid of all spaces |

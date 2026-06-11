@@ -167,10 +167,15 @@ def build_reservoir(N, K, rho=0.9, sigma_in=0.5, seed=0):
     """
     rng = np.random.default_rng(seed)
     
-    # TODO: sample W_rec, scale to spectral radius rho
-    # TODO: sample W_in
-    
-    raise NotImplementedError
+    # Sample a random dense Gaussian reservoir matrix and rescale its spectral radius.
+    # The spectral radius is the magnitude of the largest eigenvalue; scaling ensures
+    # that rho(W_rec) = rho_target, which controls the echo state property.
+    W_rec = rng.standard_normal((N, N))
+    current_rho = np.max(np.abs(np.linalg.eigvals(W_rec)))
+    W_rec = W_rec * (rho / current_rho)   # rescale so spectral radius equals rho
+
+    # Sample W_in uniformly from [-sigma_in, sigma_in]; each entry is independent.
+    W_in = rng.uniform(-sigma_in, sigma_in, (N, K))
     return W_rec, W_in
 
 
@@ -183,9 +188,14 @@ def run_reservoir(U, W_rec, W_in, T_washout=100):
     N    = W_rec.shape[0]
     x    = np.zeros(N)
     
-    # TODO: forward pass, collect states after washout
-    
-    raise NotImplementedError
+    # Forward pass: drive the reservoir through all T steps.
+    # Discard the first T_washout states (the "washout" period removes the influence
+    # of the arbitrary zero initial condition x_0 = 0).
+    X = np.zeros((T - T_washout, N))
+    for t in range(T):
+        x = np.tanh(W_rec @ x + W_in @ U[t])   # standard ESN state update
+        if t >= T_washout:
+            X[t - T_washout] = x               # record states only after washout
     return X
 
 
@@ -194,15 +204,20 @@ def train_readout(X, Y_target, alpha=1e-6):
     Solve ridge regression: W_out^T = (X^T X + alpha I)^{-1} X^T Y_target.
     Return W_out (M, N).
     """
-    # TODO: one line of numpy linear algebra
-    raise NotImplementedError
+    # Ridge regression: W_out^T = (X^T X + alpha I)^{-1} X^T Y_target.
+    # np.linalg.solve is preferred over explicit inversion for numerical stability.
+    # W_out has shape (M, N): each row is one output's readout weight vector.
+    W_out = np.linalg.solve(X.T @ X + alpha * np.eye(X.shape[1]), X.T @ Y_target).T
     return W_out
 
 
 def predict(U_test, W_rec, W_in, W_out):
     """Predict outputs for test input sequence."""
-    # TODO: run reservoir, apply readout
-    raise NotImplementedError
+    # Run the reservoir on the test input (no washout needed if we start from
+    # the final state of the training run, or accept a short transient).
+    X_test = run_reservoir(U_test, W_rec, W_in, T_washout=0)
+    # Apply the learned linear readout: Y_pred = X_test @ W_out.T
+    Y_pred = X_test @ W_out.T   # shape (T_test, M)
     return Y_pred
 
 

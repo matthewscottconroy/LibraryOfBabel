@@ -203,3 +203,33 @@ HITs can be used to define all Eilenberg-MacLane spaces:
   - The univalence axiom
   - Transport computations
   - Path induction
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch16-identity-types` — Prerequisite. HITs add path constructors to the type theory; these paths are elements of identity types. The groupoid laws from ch16 apply to paths in HITs.
+- `ch17-h-levels` — Truncations `‖A‖ₙ` are the canonical HITs for controlling h-level. The propositional truncation `‖A‖` is the (-1)-truncation; it is a HIT with point constructor `|–| : A → ‖A‖` and path constructor `squash : Π(a b : ‖A‖), a = b`.
+- `ch18-univalence` — The encode-decode proof of `π₁(S¹) = ℤ` uses univalence crucially: the cover `ℤ → S¹ → Type` (the winding number cover) is constructed using `ua` to identify fibers. This is the canonical example of univalence in use.
+- `ch14-homotopy-theory` — The classical covering space proof of `π₁(S¹) = ℤ` uses the universal cover `ℝ → S¹`. The encode-decode proof in ch19 is the synthetic analog: the cover is the type family `code : S¹ → Type` defined by `code(base) := ℤ` and `transport code loop := succ`.
+- `ch20-synthetic-homotopy` — Continuation: ch20 uses HITs to prove the Freudenthal suspension theorem (`Σ(Sⁿ) = Sⁿ⁺¹` stably) and construct the Hopf fibration `S¹ → S³ → S²`.
+
+**In book/:**
+- `book/unit-06-core-hott/ch19-higher-inductive-types/` — Extended narrative treatment of HITs, with emphasis on the universal property of pushouts, the interval type as the "proof of contractibility," and the philosophical significance of specifying spaces by their path structure.
+
+**In demos/:**
+- `demos/demo_circle.py` — S¹ as a HIT with `base : S¹` and `loop : base = base`. Illustrates the HIT eliminator and the non-trivial computation `transport code loop ≡ succ`.
+- `demos/demo_encode_decode.py` — The encode-decode proof of `π₁(S¹) = ℤ`. The most important demo in the repository.
+- `demos/demo_suspension.py` — The suspension `ΣX` of a type X as a HIT; connection to reduced homology.
+- `demos/demo_pushouts.py` — Pushouts as HITs and their role in synthetic van Kampen's theorem.
+- `demos/demo_truncations.py` — n-truncations as HITs with higher path constructors.
+
+**The canonical HITs:**
+| HIT | Constructors | Key property |
+|---|---|---|
+| Interval I | `i0, i1 : I`; `seg : i0 = i1` | Contractible; proves funext |
+| Circle S¹ | `base : S¹`; `loop : base = base` | `π₁(S¹) = ℤ` |
+| Suspension ΣX | `N, S : ΣX`; `merid : X → N = S` | `Σ(Sⁿ) = Sⁿ⁺¹` |
+| Pushout A ←C→ B | `inl : A → P`, `inr : B → P`, `push : Π(c:C), inl(f c) = inr(g c)` | Van Kampen |
+| ‖A‖ₙ (n-truncation) | `|–| : A → ‖A‖ₙ`; higher paths | `isNType (‖A‖ₙ)` |

@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: The characters of irreducible representations of a finite group form an orthonormal basis for the
-  space of class functions.
-explanation: 'Orthogonality of characters: ⟨χᵢ, χⱼ⟩ = δᵢⱼ (first orthogonality). Characters of irreducibles
-  span class functions.'
-tags:
-- character-orthogonality
-answer: true

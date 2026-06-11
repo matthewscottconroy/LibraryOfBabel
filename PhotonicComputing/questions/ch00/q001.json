@@ -1,0 +1,9 @@
+{
+  "chapter": 0, "phase": 0, "kind": "mc",
+  "text": "What is the primary advantage of using photons rather than electrons as information carriers for computing?",
+  "choices": ["Photons have higher rest mass, enabling more stable storage", "Photons travel at the speed of light and do not generate resistive heat losses", "Photonic circuits can be miniaturised below 1 nm, surpassing electronic lithography limits", "Photons naturally perform Boolean logic without additional components"],
+  "answer": 1,
+  "explanation": "The key advantage of photonics for computing is that photons travel at the speed of light in the medium and do not experience resistive (Ohmic) energy dissipation — the dominant energy bottleneck in electronics. Photons also allow wavelength-division multiplexing (many channels on one waveguide) and are immune to electromagnetic interference. The miniaturisation limit for photonics is set by the diffraction limit (~wavelength/2), not by lithography, so electronics still wins at raw density.",
+  "tags": ["photons", "electrons", "energy-efficiency", "WDM"],
+  "difficulty": "beginner"
+}

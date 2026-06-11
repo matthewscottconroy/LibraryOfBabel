@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "Over ℂ, two representations of a finite group are isomorphic if and only if they have the same character."
-answer: true
-explanation: "Since every representation over ℂ is completely reducible (Maschke), a representation is determined up to isomorphism by the multiplicities of its irreducible summands. The multiplicity of the i-th irreducible Vᵢ in V is ⟨χ_V, χᵢ⟩, which depends only on χ_V. Hence the character is a complete isomorphism invariant."
-tags:
-  - character
-  - isomorphic-representations
-  - complete-reducibility

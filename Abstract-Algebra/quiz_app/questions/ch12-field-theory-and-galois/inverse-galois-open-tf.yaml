@@ -1,9 +1,0 @@
-kind: tf
-difficulty: advanced
-text: "Every finite group occurs as the Galois group of some extension of ℚ."
-answer: false
-explanation: "This is the inverse Galois problem, one of the most famous open problems in mathematics. It is not known whether every finite group can be realised as Gal(L/ℚ) for some Galois extension L/ℚ. Many families of groups are known to be realisable (e.g. all abelian groups, Sₙ, Aₙ, many sporadic groups), but a general proof is lacking. The problem was stated by Hilbert and remains open."
-tags:
-  - inverse-galois
-  - galois-group
-  - open-problem

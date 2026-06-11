@@ -1,0 +1,9 @@
+{
+  "chapter": 2, "phase": 0, "kind": "mc",
+  "text": "David Chalmers' hard problem of consciousness refers to the difficulty of explaining:",
+  "choices": ["How the brain integrates information from different sensory modalities", "Why certain brain states are accompanied by subjective, phenomenal experience at all", "How neural damage causes specific cognitive deficits", "Why conscious access to mental states is sometimes mistaken or confabulatory"],
+  "answer": 1,
+  "explanation": "Chalmers distinguished the easy problems (explaining cognitive and behavioural functions like attention, memory, reportability — tractable in principle by functionalist neuroscience) from the hard problem: why is there something it is like to be in a mental state at all? Even a complete functional account of the brain leaves open why physical processes give rise to phenomenal consciousness — qualia, the redness of red, the painfulness of pain. This explanatory gap is the hard problem.",
+  "tags": ["hard-problem", "Chalmers", "qualia", "phenomenal-consciousness"],
+  "difficulty": "beginner"
+}

@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "The Verma module M(λ) is always finite-dimensional."
-answer: false
-explanation: >
-  Verma modules M(λ) = U(g) ⊗_{U(b)} ℂ_λ are always infinite-dimensional (as vector spaces over ℂ). By the PBW theorem, M(λ) has a basis indexed by monomials in the negative root vectors f_α applied to the highest weight vector. The module M(λ) is finite-dimensional only in degenerate senses; the finite-dimensional irreducible L(λ) is the quotient of M(λ) by its maximal proper submodule, and this quotient is finite-dimensional precisely when λ is dominant integral.
-tags:
-  - verma-modules
-  - tf

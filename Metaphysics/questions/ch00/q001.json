@@ -1,0 +1,9 @@
+{
+  "chapter": 0, "phase": 0, "kind": "mc",
+  "text": "Quine's criterion for ontological commitment states that a theory is committed to the existence of entities that:",
+  "choices": ["Are explicitly named in the theory's axioms", "Must be among the values of the bound variables for the theory's sentences to be true", "Are causally efficacious within the theory's domain", "Cannot be eliminated by paraphrase into a more parsimonious theory"],
+  "answer": 1,
+  "explanation": "Quine's slogan 'to be is to be the value of a bound variable' captures his criterion: a theory is ontologically committed to all and only those entities over which its bound variables must range for its first-order sentences to come out true. This allows ontological questions to be adjudicated by examining the logical form of our best theories, not intuition or naming practices.",
+  "tags": ["Quine", "ontological-commitment", "bound-variables"],
+  "difficulty": "intermediate"
+}

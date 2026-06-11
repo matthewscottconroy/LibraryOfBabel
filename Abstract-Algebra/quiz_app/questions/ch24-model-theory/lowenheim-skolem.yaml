@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: The Löwenheim-Skolem theorem says that if a countable theory has an infinite model, it has models
-  of all infinite cardinalities.
-explanation: 'Upward L-S: if T has an infinite model, it has models of every infinite cardinality. Downward:
-  countable model exists.'
-tags:
-- lowenheim-skolem
-answer: true

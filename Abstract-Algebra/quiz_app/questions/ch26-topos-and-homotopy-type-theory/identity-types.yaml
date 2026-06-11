@@ -1,9 +1,0 @@
-kind: tf
-difficulty: beginner
-text: In HoTT, the identity type a =_A b is itself a type, whose elements are called 'paths' from a to
-  b.
-explanation: 'Identity types in HoTT are path types: a proof of a = b is a path, and types form ∞-groupoids.'
-tags:
-- identity-types
-- HoTT
-answer: true

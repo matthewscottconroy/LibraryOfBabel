@@ -1,7 +1,0 @@
-kind: tf
-difficulty: advanced
-text: The Galois group of the splitting field of x⁵ − 2 over ℚ has order 20.
-explanation: Gal(ℚ(⁵√2, ζ₅)/ℚ) ≅ ℤ/5ℤ ⋊ (ℤ/5ℤ)* with order 5·4 = 20.
-tags:
-- galois-theory
-answer: true

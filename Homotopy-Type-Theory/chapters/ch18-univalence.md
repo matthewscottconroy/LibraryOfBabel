@@ -219,3 +219,34 @@ In this model, univalence fails because $A \simeq B$ may have multiple elements 
 **18.7.** Formalize the statement "any property of types is invariant under equivalence" in dependent type theory, and show how univalence implies it.
 
 **18.8 (Challenge).** The *J rule for the universe*: univalence gives us a J-like rule for paths in $\mathsf{Type}$. Specifically, to prove a property of $e : A = B$ for all $A, B : \mathsf{Type}$, it suffices to prove it for $A = B$ an equivalence $A \simeq B$... which reduces to the case $A = B$ and $e = \mathsf{refl}$ (by an argument similar to path induction). Make this precise and prove it.
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch16-identity-types` — Prerequisite. Univalence is a statement about identity types *in the universe*: `(A =_{Type} B) ≃ (A ≃ B)`. The J rule of ch16 applies to paths in Type just as to paths in any other type.
+- `ch17-h-levels` — Univalence implies that h-level properties are not merely formal: `isProp A` is equivalent (as a proposition) to `isProp B` whenever `A ≃ B`. The universe classifies types by h-level, and equivalences preserve h-level structure.
+- `ch15-simplicial-sets` — Voevodsky's proof that the univalence axiom holds in the Kan simplicial set model uses the Kan fibration structure of the universe. The canonical map `idtoeqv : (A = B) → (A ≃ B)` is proved to be a Kan acyclic fibration.
+- `ch19-higher-inductive-types` — Univalence is used throughout the HITs chapter. The fact that Bool has two distinct automorphisms (exercise 18.5) implies that there is a non-trivial path in the universe — and this is used in the calculation of `π₁(S¹)` via the "twist" automorphism of the cover.
+- `ch23-cubical-type-theory` — In axiomatic HoTT (this chapter), `ua : (A ≃ B) → (A = B)` is an axiom and breaks canonicity: `ua f` has no computational normal form. CCHM cubical type theory (ch23) introduces the Glue type and proves `ua` as a *theorem*, restoring canonicity.
+
+**In book/:**
+- `book/unit-06-core-hott/ch18-univalence/` — Extended narrative treatment. Section 02 on the univalence axiom explains why the axiom is philosophically natural (equivalent things should be equal) and Section 03 derives its consequences (funext, propext) with detailed proofs.
+
+**In demos/:**
+- `demos/demo_univalence_deep.py` — Deep exploration of the univalence axiom: what ua does to type families, how transport along ua relates to coercion along an equivalence, and the non-computational nature of axiomatic ua.
+- `demos/demo_equiv.py` — Equivalences: the difference between quasi-equivalences (not a proposition) and bi-invertible maps (a proposition). Demonstrates why the "right" notion of equivalence matters.
+- `demos/demo_funext.py` — Function extensionality as a consequence of univalence: `Π(x:A), f x = g x` implies `f = g`.
+
+**The central statement:**
+$$\mathsf{ua} : (A \simeq B) \to (A =_{\mathsf{Type}} B)$$
+with inverse
+$$\mathsf{idtoeqv} : (A =_{\mathsf{Type}} B) \to (A \simeq B)$$
+where `idtoeqv` is derived from transport: `idtoeqv p := transport id p`.
+
+**Consequences:**
+- **Function extensionality** (funext): `(Π(x:A), f x = g x) → f = g`
+- **Propositional extensionality** (propext): `(P ↔ Q) → P = Q` for propositions P, Q
+- **Invariance under equivalence**: every property `P : Type → Type` is invariant under equivalence
+- **The universe is not a set**: `Bool = Bool` has (at least) two distinct elements: `refl` and `ua(neg)` where `neg : Bool ≃ Bool` is negation

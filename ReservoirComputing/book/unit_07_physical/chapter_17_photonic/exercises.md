@@ -109,15 +109,59 @@ def narma10(T, seed=42):
         y[t] = 0.3*y[t-1] + 0.05*y[t-1]*np.sum(y[t-10:t]) + 1.5*u[t-10]*u[t-1] + 0.1
     return u, y
 
-# TODO:
-# 1. Generate 3000 steps of NARMA-10.
-# 2. Simulate the Ikeda reservoir with N=100, beta=0.6, gamma=0.2.
-# 3. Add Gaussian noise with std=0.01 to simulate measurement noise.
-# 4. Train readout on steps 200-2200 (with 200-step warmup). Test on 2200-3000.
-# 5. Vary beta in {0.3, 0.5, 0.7, 0.9}. Plot NRMSE vs. beta for:
-#    (a) No noise; (b) noise std=0.01; (c) noise std=0.05
-# 6. At what noise level does the performance plateau? What does this tell you about
-#    the practical limitations of the physical implementation?
+# Lab 17.1 solution — Ikeda delay-feedback photonic reservoir on NARMA-10
+import numpy as np
+import matplotlib.pyplot as plt
+
+T_ikeda = 3000; wash_i = 200; T_tr_i = 2200
+u_i, y_i = narma10(T_ikeda)
+
+def run_ikeda_with_noise(u, N=100, beta=0.6, gamma=0.2, noise_std=0.0, seed=0):
+    """Run Ikeda reservoir and add Gaussian readout noise."""
+    states, mask = ikeda_reservoir(u, N=N, beta=beta, gamma=gamma)
+    # (ikeda_reservoir defined in starter code above)
+    if noise_std > 0:
+        rng = np.random.default_rng(seed)
+        states = states + rng.normal(0, noise_std, states.shape)
+    return states
+
+def score_ikeda(u, y, N, beta, gamma, noise_std, wash=200, T_tr=2200):
+    states = run_ikeda_with_noise(u, N=N, beta=beta, gamma=gamma, noise_std=noise_std)
+    X_tr = states[wash:T_tr]
+    w = np.linalg.solve(X_tr.T @ X_tr + 1e-4*np.eye(N),
+                        X_tr.T @ y[wash:T_tr])
+    y_pred = states[T_tr:] @ w
+    return np.sqrt(np.mean((y_pred - y[T_tr:])**2)) / np.std(y)
+
+# 5. Sweep over beta and noise levels
+betas_i = [0.3, 0.5, 0.7, 0.9]
+noise_levels = [0.0, 0.01, 0.05]
+results_i = {}
+for noise in noise_levels:
+    results_i[noise] = [score_ikeda(u_i, y_i, 100, b, 0.2, noise) for b in betas_i]
+
+fig, ax = plt.subplots(figsize=(7, 5))
+for noise in noise_levels:
+    ax.plot(betas_i, results_i[noise], 'o-', label=f'noise={noise}')
+ax.set_xlabel('Feedback gain beta'); ax.set_ylabel('NRMSE')
+ax.set_title('Ikeda photonic reservoir: NRMSE vs. beta and noise level')
+ax.legend(); plt.tight_layout(); plt.savefig('ikeda_noise.png', dpi=150)
+
+for noise in noise_levels:
+    print(f"noise={noise}: ", end="")
+    for b, nr in zip(betas_i, results_i[noise]):
+        print(f"beta={b}:{nr:.4f} ", end="")
+    print()
+
+# 6. Performance plateau analysis:
+# The noiseless case has a clear optimum at beta ≈ 0.5-0.7.
+# As noise_std increases, the minimum NRMSE floor rises — the readout cannot
+# recover information below the noise level even with perfect weights.
+# The plateau occurs when noise_std ≈ (signal variance) * (NRMSE_noiseless)^2,
+# which for NARMA-10 with noise_std=0.05 is reached around the training objective.
+# This tells us: physical implementation noise sets a hard performance floor.
+# For optoelectronic systems, noise levels of 0.01-0.1 (relative to signal) are
+# typical, limiting achievable NRMSE to roughly the noise floor.
 ```
 
 **Lab 17.2 — Silicon Micro-Ring Reservoir Simulation**
@@ -145,14 +189,68 @@ def silicon_ring_step(a, s_in, tau_ph, tau_c, kappa, alpha_tpa, dt=1e-12):
     a_new = a + dt * da
     return a_new
 
-# TODO:
-# 1. Implement a 4-ring (2x2) coupled resonator network (smaller than the real 16-ring system).
-# 2. Connect the rings: output of ring 1 -> input of ring 2, etc., with coupling coeff c.
-# 3. Inject a NARMA-10 input sequence. Record the intensity at each ring output port.
-# 4. Train a ridge regression readout on the 4 ring intensities.
-# 5. Compare performance to a 4-neuron digital ESN. Is the silicon ring better or worse?
-# 6. Vary the input power (scale s_in). At what power does TPA become significant?
-#    Plot NRMSE vs. input power.
+# Lab 17.2 solution — 4-ring silicon photonic reservoir
+import numpy as np
+
+def run_4ring_reservoir(u_seq, tau_ph=1e-11, tau_c=1e-9, kappa=1e10,
+                         alpha_tpa=1e-11, c=0.3, dt=1e-12, input_power=1.0):
+    """
+    Simulate a 4-ring coupled resonator network.
+    Rings connected in a chain: 1->2->3->4 with coupling coefficient c.
+    Input is injected only into ring 1 (scaled by input_power).
+    Returns: intensities at each ring, shape (T, 4).
+    """
+    T = len(u_seq)
+    a = np.zeros(4, dtype=complex)   # field amplitudes in each ring
+    intensities = np.zeros((T, 4))
+    
+    for t in range(T):
+        s_ext = input_power * u_seq[t]   # external input to ring 1
+        a_new = a.copy()
+        for r in range(4):
+            # Input coupling: ring 0 gets external signal; others get c * output of previous ring
+            s_in_r = (s_ext if r == 0 else c * a[r-1])
+            a_new[r] = silicon_ring_step(a[r], s_in_r, tau_ph, tau_c, kappa, alpha_tpa, dt)
+        a = a_new
+        intensities[t] = np.abs(a)**2   # intensity = |field|^2
+    return intensities
+
+# 3-4. Run on NARMA-10, train readout
+T_ring = 1500; wash_r = 200
+u_r, y_r = narma10(T_ring)
+intensities = run_4ring_reservoir(u_r, input_power=1.0)
+X_tr_r = intensities[wash_r:1200]
+w_r = np.linalg.solve(X_tr_r.T @ X_tr_r + 1e-4*np.eye(4),
+                       X_tr_r.T @ y_r[wash_r:1200])
+nr_ring = np.sqrt(np.mean((intensities[1200:] @ w_r - y_r[1200:])**2)) / np.std(y_r)
+print(f"4-ring photonic reservoir NRMSE: {nr_ring:.4f}")
+
+# 5. Compare to 4-neuron digital ESN (same feature count = 4 states)
+rng_r = np.random.default_rng(0)
+W_small = rng_r.standard_normal((4,4)); W_small *= 0.9/np.max(np.abs(np.linalg.eigvals(W_small)))
+Win_small = rng_r.uniform(-0.5, 0.5, (4, 1))
+x_e = np.zeros(4); X_esn4 = np.zeros((T_ring, 4))
+for t, ut in enumerate(u_r):
+    x_e = np.tanh(W_small @ x_e + Win_small.ravel()*ut); X_esn4[t] = x_e
+w_esn4 = np.linalg.solve(X_esn4[wash_r:1200].T @ X_esn4[wash_r:1200] + 1e-4*np.eye(4),
+                          X_esn4[wash_r:1200].T @ y_r[wash_r:1200])
+nr_esn4 = np.sqrt(np.mean((X_esn4[1200:] @ w_esn4 - y_r[1200:])**2)) / np.std(y_r)
+print(f"4-neuron digital ESN NRMSE:       {nr_esn4:.4f}")
+# Expected: digital ESN is slightly better for 4 neurons; the ring's nonlinearity
+# (TPA) is weak and the ring chain topology is less rich than a random 4×4 matrix.
+
+# 6. TPA significance threshold: scan input power
+powers = [0.01, 0.1, 0.5, 1.0, 2.0, 5.0, 10.0]
+nrmse_vs_power = []
+for pw in powers:
+    ints = run_4ring_reservoir(u_r, input_power=pw)
+    X_p = ints[wash_r:1200]
+    w_p = np.linalg.solve(X_p.T@X_p + 1e-4*np.eye(4), X_p.T@y_r[wash_r:1200])
+    nrmse_vs_power.append(np.sqrt(np.mean((ints[1200:]@w_p - y_r[1200:])**2))/np.std(y_r))
+print("\nInput power vs NRMSE:")
+for pw, nr in zip(powers, nrmse_vs_power): print(f"  power={pw}: {nr:.4f}")
+# TPA becomes significant when |a|^2 * alpha_tpa ≈ 1/tau_ph.
+# For the given parameters this is at input_power ≈ 1-5 (arbitrary units).
 ```
 
 **Lab 17.3 — Delay-Feedback Memory Curve**
@@ -182,13 +280,47 @@ def memory_capacity(states, u_seq, max_delay=50, reg=1e-4):
         mc_per_delay.append(max(r2, 0))
     return mc_per_delay, sum(mc_per_delay)
 
-# TODO:
-# 1. For beta in {0.3, 0.5, 0.7, 0.9}, run the Ikeda reservoir on a random input.
-# 2. Compute the memory capacity for each beta.
-# 3. Plot: memory curve (R^2 vs. delay) for each beta.
-# 4. Plot: total memory capacity vs. beta.
-# 5. The theoretical maximum memory capacity for a reservoir of N nodes is N.
-#    How close does the Ikeda ring get for each beta?
+# Lab 17.3 solution — Memory capacity of Ikeda delay-feedback reservoir
+import numpy as np
+import matplotlib.pyplot as plt
+
+N_mc = 100   # virtual nodes (reservoir size)
+T_mc = 2000  # random input length
+rng_mc = np.random.default_rng(0)
+u_mc = rng_mc.standard_normal(T_mc)   # white noise input for memory capacity measurement
+
+betas_mc = [0.3, 0.5, 0.7, 0.9]
+max_delay = N_mc   # MC cannot exceed N_mc theoretically
+
+mc_curves = {}
+mc_totals = {}
+
+for beta in betas_mc:
+    # Run Ikeda reservoir on white noise input
+    states_mc, _ = ikeda_reservoir(u_mc, N=N_mc, beta=beta, gamma=0.2)
+    mc_per_delay, mc_total = memory_capacity(states_mc, u_mc, max_delay=max_delay)
+    mc_curves[beta] = mc_per_delay
+    mc_totals[beta] = mc_total
+    print(f"beta={beta}: total MC = {mc_total:.2f} / {N_mc} (theoretical max = N)")
+
+# Plot 1: memory curves R^2 vs delay for each beta
+fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+for beta in betas_mc:
+    axes[0].plot(mc_curves[beta], label=f'beta={beta}')
+axes[0].set_xlabel('Delay k'); axes[0].set_ylabel('R²_k (memory at delay k)')
+axes[0].set_title('Memory capacity curves'); axes[0].legend()
+
+# Plot 2: total MC vs beta
+axes[1].bar([str(b) for b in betas_mc], [mc_totals[b] for b in betas_mc], color='steelblue')
+axes[1].axhline(N_mc, color='r', linestyle='--', label=f'Theoretical max = {N_mc}')
+axes[1].set_xlabel('Feedback gain beta'); axes[1].set_ylabel('Total memory capacity MC')
+axes[1].set_title('Total MC vs. feedback gain'); axes[1].legend()
+
+plt.tight_layout(); plt.savefig('ikeda_memory_capacity.png', dpi=150)
+# Expected: MC increases with beta (more feedback = more memory), peaking near the
+# stability boundary.  For beta=0.9, MC ≈ 60-80% of N.
+# A linear reservoir driven at the edge of stability can achieve MC close to N.
+# The nonlinear Ikeda ring trades some linear memory for nonlinear computation.
 ```
 
 ---

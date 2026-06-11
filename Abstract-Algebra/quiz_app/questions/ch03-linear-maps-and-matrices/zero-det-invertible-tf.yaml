@@ -1,9 +1,0 @@
-kind: tf
-difficulty: beginner
-text: "A square matrix with determinant zero is invertible."
-answer: false
-explanation: "A square matrix A is invertible if and only if det(A) ≠ 0. When det(A) = 0, the matrix is singular: its rows (and columns) are linearly dependent, the system Ax = 0 has nontrivial solutions, and no inverse exists. The determinant being the product of eigenvalues, det(A) = 0 means 0 is an eigenvalue."
-tags:
-  - matrices
-  - determinant
-  - invertible

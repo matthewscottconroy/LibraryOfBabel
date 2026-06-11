@@ -200,3 +200,33 @@ Cubical sets have a more computational flavor: the cube $\{0,1\}^n$ models the $
   - What does the cofibration $\Lambda^n_k \hookrightarrow \Delta[n]$ look like at the level of sets?
   - What is the generating set of trivial cofibrations?
   - Verify that $\mathsf{Sing}(X)$ is fibrant for any topological space $X$ (i.e., verify the Kan condition).
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch14-homotopy-theory` — Prerequisite. Simplicial sets provide the combinatorial model for the homotopy-theoretic concepts (path spaces, fundamental group, fibrations) developed classically in ch14.
+- `ch12-higher-categories` — The homotopy hypothesis: Kan complexes model ∞-groupoids. A quasi-category (inner Kan complex) models an (∞,1)-category. Simplicial sets are the technical vehicle for both.
+- `ch16-identity-types` — The path type `a =_A b` is interpreted in the Kan simplicial set model as the path-space object: the exponential `Hom(Δ[1], A)` with boundary conditions. The J rule corresponds to the contractibility of the total path space, which is the simplicial set `Σ(b : A), Hom(Δ[1], A)(a, b)`.
+- `ch18-univalence` — Voevodsky's original proof of the consistency of univalence lives in the Kan simplicial set model. The universe in this model is the Kan complex of Kan fibrations; the univalence axiom holds because the canonical map from equalities to equivalences is a Kan fibration with contractible fibers.
+- `ch23-cubical-type-theory` — Cubical type theory uses a presheaf category on the cube category (rather than the simplex category Δ) as its model. Comparing the simplex category model (ch15) with the cube category model (ch23) illuminates the trade-offs between the two approaches to computational HoTT.
+
+**In book/:**
+- `book/unit-05-topology/ch15-simplicial-sets/` — Extended narrative treatment, including the geometric realization functor, homotopy groups of Kan complexes, and the Quillen equivalence between topological spaces and Kan complexes.
+
+**In demos/:**
+- `demos/demo_simplicial_sets.py` — Implements simplicial sets as functors `Δᵒᵖ → Set` and illustrates the horn-filling condition for Kan complexes.
+
+**Key correspondences:**
+| Simplicial concept | HoTT concept |
+|---|---|
+| Kan complex K | Type A |
+| 0-simplex (vertex) `x ∈ K₀` | Term `a : A` |
+| 1-simplex (edge) `p ∈ K₁` | Path `p : a =_A b` |
+| 2-simplex (triangle) | Homotopy between paths / 2-path |
+| n-simplex | n-path |
+| Degenerate 1-simplex σ₀(x) | Reflexivity `refl_x : x = x` |
+| Kan filling condition | J rule (path induction) |
+| Contractible based path space | J: proof depends only on `refl` case |
+| Equivalence of Kan complexes | Equivalence `A ≃ B` of types |

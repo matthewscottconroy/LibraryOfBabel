@@ -1,9 +1,0 @@
-kind: tf
-difficulty: beginner
-text: The subobject classifier Ω in Set is the two-element set {true, false}.
-explanation: In Set, subsets of X correspond to functions X → {⊤,⊥} — the subobject classifier is the
-  2-element set.
-tags:
-- subobject-classifier
-- set
-answer: true

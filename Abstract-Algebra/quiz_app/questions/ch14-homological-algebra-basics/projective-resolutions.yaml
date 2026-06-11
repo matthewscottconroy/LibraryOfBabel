@@ -1,7 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: A projective resolution of a module M is exact except at M.
-explanation: 'A projective resolution is exact: … → P₁ → P₀ → M → 0 with each Pᵢ projective.'
-tags:
-- projective-resolutions
-answer: true

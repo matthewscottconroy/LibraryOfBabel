@@ -1,8 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: The orthogonal complement of a subspace W in a finite-dimensional inner product space satisfies
-  V = W ⊕ W⊥.
-explanation: In finite dimensions, V = W ⊕ W⊥ always holds. The projections onto W and W⊥ are orthogonal.
-tags:
-- orthogonal-complement
-answer: true

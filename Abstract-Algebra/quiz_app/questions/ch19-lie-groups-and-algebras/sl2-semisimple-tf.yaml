@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "The Lie algebra sl(2,ℂ) is semisimple."
-answer: true
-explanation: "sl(2,ℂ) has a basis {e, f, h} with brackets [h,e] = 2e, [h,f] = −2f, [e,f] = h. One computes the Killing form and finds it is nondegenerate (B(h,h) = 8, B(e,f) = B(f,e) = 4, all others zero), so Cartan's criterion confirms semisimplicity. Equivalently, sl(2,ℂ) is simple (has no proper nonzero ideals), and every simple Lie algebra is semisimple."
-tags:
-  - sl2
-  - semisimple
-  - killing-form

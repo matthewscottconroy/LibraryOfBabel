@@ -267,3 +267,24 @@ The discipline of writing rigorous, step-by-step proofs — internalized here �
 **0.9.** State and prove the *induction principle for lists*: if $P$ holds for the empty list and if $P$ holds for a list $\ell$ whenever it holds for its tail, then $P$ holds for all finite lists.
 
 **0.10 (Reflection).** Proof by contradiction uses the law of excluded middle. Find a proof in this chapter that uses contradiction and rewrite it as a direct proof. Can you always do this?
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch04-proof-theory` — Develops the proof theory introduced here into natural deduction and sequent calculus; proves cut elimination. The subformula property established there is the type-theoretic analog of the normalization property of well-typed lambda terms.
+- `ch05-intuitionistic-logic` — The restriction to constructive proof (no double negation elimination) is the foundation of the BHK interpretation. Every logical connective introduced in ch00 reappears with a constructive reading.
+- `ch06-curry-howard` — The central application: propositions are types, proofs are programs. Every proof technique in ch00 has a precise type-theoretic analog. Proof by contradiction (`¬P = P → ⊥`) is the empty type elimination rule.
+- `ch09-mltt` — Martin-Löf Type Theory is, in part, the formalization of the proof discipline demanded in this chapter. The FIEC rules for each type former correspond exactly to the proof rules for the corresponding proposition.
+
+**In book/:**
+- `book/unit-01-mathematical-foundations/ch00-logic-and-proof/` — The extended narrative version of this chapter, with more worked examples and philosophical commentary on what rigorous proof demands.
+- `book/unit-02-logic-and-computation/ch04-proof-theory/` — Situates the proof discipline of ch00 within proof theory proper.
+
+**In demos/:**
+- `demos/demo_proof_basics.py` — Demonstrates propositional logic, truth tables, and simple proof checking computationally.
+- `demos/demo_proof_theory.py` — Illustrates natural deduction derivations for the connectives introduced here.
+- `demos/demo_normal_forms.py` — Shows normalization of proofs, connecting to the subformula property.
+
+**Prerequisites for:** ch04, ch05, ch06, ch08, ch09, and every subsequent chapter. Logic and proof is the universal prerequisite.

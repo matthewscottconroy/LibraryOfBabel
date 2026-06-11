@@ -1,9 +1,0 @@
-kind: tf
-difficulty: beginner
-text: "The rank of a matrix equals the rank of its transpose."
-answer: true
-explanation: "Row rank equals column rank for any matrix A. Since the rows of A are the columns of Aᵀ and vice versa, the row rank of Aᵀ equals the column rank of A, which equals the row rank of A. Hence rank(A) = rank(Aᵀ) in all cases."
-tags:
-  - rank
-  - transpose
-  - matrices

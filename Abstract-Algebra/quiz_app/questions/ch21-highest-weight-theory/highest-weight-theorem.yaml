@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: Every finite-dimensional irreducible representation of a semisimple Lie algebra is characterised
-  by its highest weight.
-explanation: 'The highest weight theorem: finite-dim irreps of g are in bijection with dominant integral
-  weights λ.'
-tags:
-- highest-weight-theorem
-answer: true

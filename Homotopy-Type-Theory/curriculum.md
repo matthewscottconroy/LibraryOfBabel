@@ -940,3 +940,177 @@ The final aim is not to memorize this curriculum but to develop mathematical jud
 ---
 
 *"The cathedral is not built in a day. But each stone, set rightly, bears the weight of every stone above it."*
+
+---
+
+## Dependency Graph
+
+The following diagram shows which chapters depend on which. An arrow from A → B means "B depends on A" (A should be studied before B). Chapters at the same level can often be studied in parallel. The diagram corresponds to the formal `chapters/` structure; the `book/` units follow the same dependency order.
+
+```
+PHASE 0 — Mathematical Foundations
+════════════════════════════════════════════════════════════
+
+Ch.00 Logic & Proof ──┬──→ Ch.04 Proof Theory ──────────────────┐
+                      │                                           │
+Ch.01 Set Theory ─────┤──→ Ch.05 Intuitionistic Logic ──────────┤
+                      │                                           │
+Ch.02 Abstract Algebra┤                                           │
+                      │                                           │
+Ch.03 Real Analysis ──┘──→ Ch.13 Topology                       │
+                                  │                               │
+PHASE 1 — Logic and Computation   │                               │
+══════════════════════════════════╪═══════════════════════════════╪══════
+
+Ch.04 Proof Theory ──────────────→ Ch.06 Curry-Howard ──────────→ Ch.08 Dependent Types
+Ch.05 Intuitionistic Logic ───────→ Ch.06 Curry-Howard
+
+Ch.06 Curry-Howard ──────────────→ Ch.07 STLC & System F ───────→ Ch.08 Dependent Types
+                                   │
+                                   └──────────────────────────────→ Ch.09 MLTT
+
+PHASE 2 — Type Theory
+════════════════════════════════════════════════════════════
+
+Ch.07 STLC & System F ──────────→ Ch.08 Dependent Types ────────→ Ch.09 MLTT
+                                         │                               │
+                                         └───────────────────────────────┘
+                                                     │
+                                                     ↓
+                                           Ch.09 MLTT (Martin-Löf TT)
+                                                     │
+                              ┌──────────────────────┼──────────────────────┐
+                              ↓                      ↓                      ↓
+                         Ch.16 Identity         Ch.21 Lean 4          Ch.22 Cubical
+                         Types                  (proof assistants      Agda
+                                                 usable from here)
+
+PHASE 3 — Category Theory
+════════════════════════════════════════════════════════════
+
+Ch.00 Logic ──→ Ch.10 Category Theory ──→ Ch.11 Categorical Logic ──→ Ch.16 Identity Types
+                       │                          │                           │
+                       └──────────→ Ch.12 Higher Categories ──────→ Ch.17 H-Levels
+                                           │
+                                           └──────────────────────→ Ch.18 Univalence
+
+Ch.11 Categorical Logic (LCCC ↔ Dependent Types correspondence)
+       │
+       └──→ validates Ch.08–Ch.09 (the categorical semantics of MLTT)
+
+PHASE 4 — Algebraic Topology
+════════════════════════════════════════════════════════════
+
+Ch.03 Real Analysis ──→ Ch.13 Topology ──→ Ch.14 Homotopy Theory ──→ Ch.15 Simplicial Sets
+                                                    │                          │
+                                                    ↓                          ↓
+                                          Ch.20 Synthetic              Ch.18 Univalence
+                                          Homotopy                     (Kan model)
+
+Ch.14 Homotopy Theory ──→ Ch.16 Identity Types (path spaces ↔ homotopy)
+Ch.15 Simplicial Sets  ──→ Ch.18 Univalence    (Kan model of univalence)
+Ch.15 Simplicial Sets  ──→ Ch.24 Simplicial TT (presheaf model)
+
+PHASE 5 — Core HoTT
+════════════════════════════════════════════════════════════
+
+Ch.09 MLTT ──────────────────────────→ Ch.16 Identity Types
+Ch.14 Homotopy Theory (for intuition) ↗        │
+                                                ↓
+                                       Ch.17 H-Levels (truncation hierarchy)
+                                                │
+                       ┌────────────────────────┼────────────────────────┐
+                       ↓                        ↓                        ↓
+               Ch.18 Univalence        Ch.19 Higher Inductive    Ch.20 Synthetic
+               (ua : (A≃B)→(A=B))      Types (circle, HITs)      Homotopy
+                       │                        │
+                       ↓                        ↓
+               funext (derived)         π₁(S¹) = ℤ (encode-decode)
+               propext (derived)        Freudenthal suspension
+
+Ch.16 + Ch.17 + Ch.18 together → the full HoTT foundation
+Ch.19 adds constructive spaces    → synthetic homotopy calculations
+Ch.20 proves results using Ch.16–Ch.19 as its foundation
+
+PHASE 6 — Proof Assistants (parallel to Phase 5)
+════════════════════════════════════════════════════════════
+
+Ch.09 MLTT ──→ Ch.21 Lean 4       (from Phase 2, deepen throughout)
+Ch.09 MLTT ──→ Ch.22 Cubical Agda (--without-K flag; then --cubical)
+
+Ch.18 Univalence ──→ Ch.22 Cubical Agda (proving ua from Glue type)
+Ch.19 HITs ──────→ Ch.22 Cubical Agda (defining S¹, T², pushouts)
+
+PHASE 7 — Advanced Foundations
+════════════════════════════════════════════════════════════
+
+Ch.18 Univalence + Ch.15 Simplicial Sets ──→ Ch.23 Cubical TT
+       (canonicity problem) ──────────────→ (CCHM solution: ua as theorem)
+
+Ch.12 Higher Categories + Ch.15 Simplicial Sets ──→ Ch.24 Simplicial TT
+       (Rezk types ≃ (∞,1)-categories)
+
+Ch.18 Univalence ──→ Ch.25 Modal HoTT
+       (cohesive TT: ♭ flat, ♯ sharp modalities)
+
+PHASE 8 — Research Frontiers
+════════════════════════════════════════════════════════════
+
+Ch.20 Synthetic Homotopy ──→ Ch.26 Research Frontiers (open problems in synthetic homotopy)
+Ch.23 Cubical TT ──────────→ Ch.26 (canonicity, normalization, new model constructions)
+Ch.24 Simplicial TT ───────→ Ch.26 (directed HoTT, (∞,1)-category theory)
+Ch.25 Modal HoTT ──────────→ Ch.26 (cohesive ∞-toposes, differential geometry)
+```
+
+### Minimal Dependency Chains
+
+For targeted study, here are the shortest paths to key results:
+
+**To understand the J rule and path induction:**
+```
+Ch.00 → Ch.04 → Ch.05 → Ch.06 → Ch.08 → Ch.09 → Ch.16
+```
+
+**To understand the univalence axiom:**
+```
+[path to Ch.16] → Ch.17 → Ch.18
+```
+With classical motivation: additionally `Ch.13 → Ch.14 → Ch.15` (Kan model)
+
+**To compute π₁(S¹) = ℤ in HoTT:**
+```
+[path to Ch.18] → Ch.19
+```
+(The encode-decode proof requires identity types, h-levels, and the HIT definition of S¹)
+
+**To prove univalence as a theorem (not axiom) in Cubical Agda:**
+```
+[path to Ch.18] → Ch.22 → Ch.23
+```
+
+**To do synthetic ∞-category theory (Riehl-Shulman):**
+```
+[path to Ch.18] + Ch.12 + Ch.15 → Ch.24
+```
+
+**To understand the HoTT Book (homotopytypetheory.org) Chapter by Chapter:**
+- HoTT Book Ch.1–2 ↔ Ch.09 (MLTT) + Ch.16 (identity types)
+- HoTT Book Ch.3 ↔ Ch.17 (h-levels)
+- HoTT Book Ch.4 ↔ Ch.16 §5 (equivalences)
+- HoTT Book Ch.6 ↔ Ch.19 (HITs)
+- HoTT Book Ch.7 ↔ Ch.17 (truncation modalities)
+- HoTT Book Ch.8 ↔ Ch.20 (synthetic homotopy)
+- HoTT Book Ch.10 ↔ Ch.17 (sets in HoTT)
+
+### Key Dependency Facts
+
+1. **Ch.09 (MLTT) is the single most load-bearing chapter.** Everything in Phases 5–8 depends on it. Do not rush through the J eliminator.
+
+2. **Ch.16 and Ch.18 are the core of HoTT.** Identity types (Ch.16) provide the structure; univalence (Ch.18) provides the power. If you understand these two chapters deeply, the rest of the book becomes accessible.
+
+3. **Ch.15 (Simplicial sets) is optional for Phase 5 but essential for Phase 7.** You can use HoTT without understanding its simplicial model. But to understand why CCHM cubical TT (Ch.23) works, you need to understand what Kan filling is.
+
+4. **Ch.17 (H-levels) is used throughout.** The hierarchy contractible → prop → set → groupoid → ... appears in every non-trivial HoTT argument. It must be internalized before Ch.19 and Ch.20.
+
+5. **Proof assistant work (Ch.21–Ch.22) can begin at Ch.09.** Do not wait until Phase 5 to open a proof assistant. Formalizing MLTT constructions in Lean 4 or Agda from Phase 2 onward is the single most effective way to build understanding.
+

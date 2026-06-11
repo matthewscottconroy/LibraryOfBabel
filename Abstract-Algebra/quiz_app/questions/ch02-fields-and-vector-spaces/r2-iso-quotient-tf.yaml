@@ -1,9 +1,0 @@
-kind: tf
-difficulty: intermediate
-text: "ℝ² and ℝ[x]/(x²) are isomorphic as ℝ-vector spaces."
-answer: true
-explanation: "Both are 2-dimensional vector spaces over ℝ: ℝ² has the standard basis {e₁, e₂} and ℝ[x]/(x²) has basis {1, x̄} where x̄ is the image of x. Since any two finite-dimensional vector spaces over the same field with the same dimension are isomorphic, these two are isomorphic as ℝ-vector spaces (though not as ℝ-algebras, since ℝ[x]/(x²) has a non-trivial ring structure with x̄² = 0)."
-tags:
-  - vector-spaces
-  - isomorphism
-  - dimension

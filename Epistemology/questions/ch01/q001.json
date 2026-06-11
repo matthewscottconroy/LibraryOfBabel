@@ -1,0 +1,9 @@
+{
+  "chapter": 1, "phase": 0, "kind": "mc",
+  "text": "Edmund Gettier's 1963 paper refuted the traditional justified true belief (JTB) analysis of knowledge by showing:",
+  "choices": ["That justification is not necessary for knowledge", "That truth is not necessary for knowledge", "That justified true belief is not sufficient for knowledge", "That knowledge is impossible given radical scepticism"],
+  "answer": 2,
+  "explanation": "Gettier constructed cases where an agent has a justified true belief but intuitively lacks knowledge — the belief is true but for the wrong reasons. For example: Jones will get the job and has 10 coins in his pocket (Jones' justified belief). Smith forms the belief 'the person who will get the job has 10 coins in their pocket.' But Smith gets the job and has (unbeknownst to him) 10 coins too. Smith has a JTB, but not knowledge. This showed JTB is not sufficient for knowledge, launching the project of finding a fourth condition.",
+  "tags": ["Gettier", "JTB", "knowledge-analysis", "justified-true-belief"],
+  "difficulty": "beginner"
+}

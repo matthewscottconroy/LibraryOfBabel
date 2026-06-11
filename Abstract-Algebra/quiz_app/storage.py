@@ -1,1 +1,0 @@
-../../Homotopy-Type-Theory/quiz_app/storage.py

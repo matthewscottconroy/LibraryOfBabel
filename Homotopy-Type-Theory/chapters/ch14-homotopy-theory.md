@@ -226,3 +226,34 @@ Note: this requires both spaces to be CW complexes. A map inducing isomorphisms 
 **14.7.** Compute the CW structure of $\mathbb{RP}^2$ and verify the attaching map of the 2-cell corresponds to the relation in $\pi_1$.
 
 **14.8 (Challenge).** The *Hurewicz theorem:* For a simply connected space $X$ (i.e., $\pi_0(X) = \pi_1(X) = 0$), the first non-trivial homotopy group $\pi_n(X) = \mathbb{Z}$ iff the first non-trivial homology group $H_n(X) = \mathbb{Z}$, and the Hurewicz map $\pi_n(X) \to H_n(X)$ is an isomorphism. State and explore this theorem; use it to compute $\pi_2(S^2)$.
+
+---
+
+## See Also
+
+**In chapters/:**
+- `ch13-topology` — Prerequisite. Point-set topology: continuity, compactness, quotient maps, and the CW complex structure that underlies the computations in this chapter.
+- `ch15-simplicial-sets` — The combinatorial model of homotopy theory: Kan complexes model ∞-groupoids (the homotopy hypothesis), and the singular complex `Sing(X)` of a topological space X is a Kan complex encoding all homotopy-theoretic information about X. This is the bridge from classical to abstract homotopy theory.
+- `ch16-identity-types` — Every construction in this chapter has a direct HoTT analog. The homotopy `H : f ~ g` corresponds to `p : f = g`; the fundamental group `π₁(X, x₀)` corresponds to `Ω(A, a₀) := (a₀ =_A a₀)`; the loop concatenation corresponds to path concatenation via J; covering spaces correspond to type families `B : A → Type`.
+- `ch19-higher-inductive-types` — S¹ is defined as a HIT with one point constructor `base : S¹` and one path constructor `loop : base = base`. The proof `π₁(S¹) = ℤ` (encode-decode) in HoTT corresponds precisely to the classical covering space argument (universal cover of S¹ is ℝ, with deck transformations ℤ).
+- `ch20-synthetic-homotopy` — The synthetic versions of: the Seifert-van Kampen theorem, the Freudenthal suspension theorem, the Hopf fibration (exercise 14.6), and the long exact sequence of a fibration (exercise 14.5) are all proved in ch20 using the HoTT methods built in ch16–ch19.
+
+**In book/:**
+- `book/unit-05-topology/ch14-homotopy-theory/` — Narrative treatment with historical context and emphasis on the connection to the homotopy hypothesis (∞-groupoids ≃ homotopy types).
+
+**In demos/:**
+- `demos/demo_covering_spaces.py` — Covering spaces of S¹ and the figure-eight, implemented as HoTT-style type families.
+- `demos/demo_fundamental_theorem.py` — The fundamental theorem of covering space theory as a type-theoretic statement.
+- `demos/demo_hopf.py` — The Hopf fibration `S¹ → S³ → S²` as a HIT construction.
+- `demos/demo_suspension.py` — The suspension `ΣX` of a space X as a HIT; the Freudenthal suspension theorem.
+
+**Classical-to-synthetic dictionary:**
+| Classical | HoTT |
+|---|---|
+| Continuous map `f : X → Y` | Function `f : A → B` |
+| Homotopy `H : f ~ g` | Path `p : f =_{A→B} g` (funext) |
+| Fundamental group `π₁(X, x₀)` | Loop space `Ω(A, a₀) := (a₀ = a₀)` |
+| Higher homotopy group `πₙ(X, x₀)` | Iterated loop space `Ωⁿ(A, a₀)` |
+| Covering space `p : E → X` | Type family `B : A → Type` |
+| Universal cover | `Σ(x : A), ‖base = x‖ → Type` |
+| Fibration `F → E → B` | Dependent type `(a : A) ↦ B a` |

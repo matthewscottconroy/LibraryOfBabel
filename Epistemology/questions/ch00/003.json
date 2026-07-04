@@ -1,0 +1,18 @@
+{
+  "question_id": "6cf6adfb-f784-42fa-ad57-729dff3fbc79",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "At the close of the Meno, Plato likens true opinions to the statues of Daedalus, which must be 'tied down.' What advantage of knowledge over mere true opinion is this simile meant to capture?",
+  "choices": [
+    "Knowledge is more stable because it is tethered by 'an account of the reason why,' whereas untethered true opinions tend to run away.",
+    "Knowledge is certain and infallible, whereas true opinion is merely probable and is liable to turn out false.",
+    "Knowledge guides action to its goal far more reliably than true opinion, which is practically useless as a guide.",
+    "Knowledge is innate and recollected, whereas true opinion must always be freshly acquired through the senses."
+  ],
+  "answer": 0,
+  "explanation": "In the Meno a true opinion is as good a practical guide as knowledge (the road to Larissa), but it is unstable: like Daedalus' statues it 'runs away' unless tied down by an account of the reason why. Option 1 misplaces the difference in infallibility; a true opinion is already true, so Plato's contrast concerns stability and tethering, not true opinion turning false.",
+  "tags": ["plato", "meno", "true belief", "tied statues"],
+  "difficulty": "intermediate",
+  "generated": true
+}

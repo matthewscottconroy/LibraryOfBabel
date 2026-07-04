@@ -1,0 +1,20 @@
+{
+  "question_id": "60f12983-a370-48c4-b7e9-948a88bb2771",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In characteristic p, the map φ(a) = aᵖ is a ring homomorphism called the ___ endomorphism.",
+  "choices": [
+    "Frobenius",
+    "frobenius endomorphism"
+  ],
+  "answer": "frobenius",
+  "explanation": "Additivity is the 'freshman's dream': (a+b)ᵖ = aᵖ + bᵖ because p divides the middle binomial coefficients. Frobenius generates Gal(𝔽_{pⁿ}/𝔽_p) and governs separability phenomena unique to characteristic p.",
+  "tags": [
+    "finite-fields",
+    "frobenius",
+    "characteristic-p"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

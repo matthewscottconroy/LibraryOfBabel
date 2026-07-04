@@ -1,0 +1,19 @@
+{
+  "chapter": 25,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The ___ algorithm reveals a hierarchy of nested network modules by iteratively removing the edge with the highest betweenness centrality at each step.",
+  "choices": [
+    "Girvan-Newman"
+  ],
+  "answer": "Girvan-Newman",
+  "explanation": "The Girvan-Newman algorithm builds a dendrogram of nested communities by repeatedly identifying and removing the edge currently carrying the highest betweenness centrality, which tends to be the edge bridging two modules. This hierarchical, divisive approach is well suited to revealing nested structure such as that found in metabolic pathway hierarchies, unlike agglomerative methods such as Louvain or Leiden.",
+  "tags": [
+    "girvan-newman",
+    "hierarchical-clustering",
+    "betweenness-centrality"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "4dbb86f9-b91a-4be8-ac64-92709168135d"
+}

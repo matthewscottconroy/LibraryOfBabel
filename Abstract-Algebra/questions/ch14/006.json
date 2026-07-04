@@ -1,0 +1,21 @@
+{
+  "question_id": "46d9326b-fc44-48e5-8114-0d022a282c4f",
+  "chapter": 14,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The five lemma: given a commutative diagram with exact rows and five vertical maps α₁,…,α₅ where α₁, α₂, α₄, α₅ are isomorphisms, one concludes:",
+  "choices": [
+    "the middle map α₃ is an isomorphism",
+    "both rows are split exact",
+    "α₃ is the zero map",
+    "α₃ is injective but possibly not surjective"
+  ],
+  "answer": 0,
+  "explanation": "Two diagram chases give injectivity and surjectivity of α₃; the sharp version needs only α₂, α₄ iso, α₁ epi and α₅ mono. It is the standard tool for proving a comparison map is an isomorphism, e.g. between long exact sequences.",
+  "tags": [
+    "five-lemma",
+    "diagram-chasing"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

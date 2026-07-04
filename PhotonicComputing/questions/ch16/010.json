@@ -1,0 +1,19 @@
+{
+  "question_id": "8b5ab4cf-a3d3-42da-a3db-c7c3a53e0779",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "blank",
+  "text": "A Bell state is maximally entangled: tracing out one qubit leaves the maximally mixed state (identity over 2), and the state carries exactly one ___ (unit) of entanglement entropy.",
+  "choices": [
+    "ebit"
+  ],
+  "answer": "ebit",
+  "explanation": "A maximally entangled two-qubit (Bell) state contains one ebit; equivalently its reduced density matrix is identity/2 with entanglement entropy S = 1 bit. The ebit is the standard unit of bipartite pure-state entanglement.",
+  "tags": [
+    "ebit",
+    "entanglement-entropy",
+    "bell-states"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

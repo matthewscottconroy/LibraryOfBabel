@@ -1,0 +1,20 @@
+{
+  "question_id": "dc82fdd9-c511-466f-8734-b3c64109c7c0",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Formally inverting the elements of a multiplicative set S ⊆ R produces the ring S⁻¹R, a construction called ___.",
+  "choices": [
+    "localization",
+    "localisation"
+  ],
+  "answer": "localization",
+  "explanation": "Key cases: S = R∖{0} in a domain gives the fraction field (Frac(ℤ) = ℚ); S = R∖P for a prime P gives the local ring R_P, the basic tool for studying a ring 'near one prime' in commutative algebra and algebraic geometry.",
+  "tags": [
+    "rings",
+    "localization",
+    "fraction-field"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

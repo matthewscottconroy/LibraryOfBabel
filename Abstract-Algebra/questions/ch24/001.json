@@ -1,0 +1,18 @@
+{
+  "question_id": "15e66bb6-08a4-4a05-94e3-ebdb1c3d08fd",
+  "chapter": 24,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The Compactness Theorem states that a set $T$ of first-order sentences has a model if and only if:",
+  "choices": [
+    "$T$ is finite",
+    "every finite subset of $T$ has a model",
+    "$T$ is a complete theory",
+    "$T$ has a countable model"
+  ],
+  "answer": 1,
+  "explanation": "Compactness: $T$ has a model iff every finite subset of $T$ has one. $T$ need not be finite; the theorem's power is precisely for infinite $T$ (e.g. building nonstandard models). Completeness (deciding every sentence) is a different property, and possessing a countable model is the conclusion of Lowenheim-Skolem, not the compactness criterion.",
+  "tags": ["compactness-theorem", "first-order-logic", "models"],
+  "difficulty": "beginner",
+  "generated": true
+}

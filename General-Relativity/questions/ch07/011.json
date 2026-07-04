@@ -1,0 +1,21 @@
+{
+  "question_id": "b29234af-80af-4b47-8816-c6543012a815",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In this book's statement of Stokes' theorem, ∫_M dω = ∫_∂M ω, the symbol ∂M denotes the ___ of M.",
+  "choices": [
+    "boundary",
+    "the boundary",
+    "∂M"
+  ],
+  "answer": "boundary",
+  "explanation": "Stokes' theorem is written ∫_M dω = ∫_∂M ω: the integral of the exterior derivative dω over M equals the integral of ω over the boundary ∂M. The book notes this single identity unifies the fundamental theorem of calculus, Green's theorem, the divergence theorem, and the classical Stokes theorem. It requires M to be compact and oriented, with ∂M carrying the induced orientation.",
+  "tags": [
+    "differential-forms",
+    "stokes-theorem",
+    "exterior-derivative"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

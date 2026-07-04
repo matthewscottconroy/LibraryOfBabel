@@ -1,0 +1,22 @@
+{
+  "question_id": "56aa8f73-27bd-413d-b0a0-19cc977db402",
+  "chapter": 11,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In one-shot information theory, the source-coding rate for a single use is governed by the:",
+  "choices": [
+    "Shannon entropy",
+    "Renyi-2 entropy",
+    "topological entropy",
+    "smooth min-entropy"
+  ],
+  "answer": 3,
+  "explanation": "For a single (non-i.i.d.) use, smooth min-entropy replaces Shannon entropy; it recovers Shannon entropy only in the i.i.d. asymptotic limit.",
+  "tags": [
+    "one-shot",
+    "smooth-min-entropy",
+    "source-coding"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

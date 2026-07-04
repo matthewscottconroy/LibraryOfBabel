@@ -1,0 +1,20 @@
+{
+  "question_id": "a3c9df09-df1c-4ffb-a7a7-baf430b96e5e",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The gauge choice ∇·A = 0, in which the scalar potential is fixed instantaneously by the charge distribution through Poisson's equation, is called the ___ gauge.",
+  "choices": [
+    "Coulomb",
+    "radiation"
+  ],
+  "answer": "Coulomb",
+  "explanation": "The condition ∇·A = 0 defines the Coulomb (or radiation) gauge; in it Gauss's law becomes ∇²φ = −ρ/ε₀, so φ responds instantaneously to ρ while A carries the radiation degrees of freedom. It is the non-covariant counterpart of the Lorenz gauge ∂_μ A^μ = 0.",
+  "tags": [
+    "maxwell",
+    "gauge",
+    "coulomb-gauge"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

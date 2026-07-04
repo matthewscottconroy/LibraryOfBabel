@@ -1,0 +1,22 @@
+{
+  "question_id": "35a7d786-b52f-4ded-9996-62ea6b572185",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Asymptotic Equipartition Property states that -(1/n) log p(X_1,...,X_n) converges (a.s.) to:",
+  "choices": [
+    "0",
+    "H(X)",
+    "1",
+    "infinity"
+  ],
+  "answer": 1,
+  "explanation": "For i.i.d. sources the normalized log-probability concentrates at the entropy H(X), placing almost all mass on ~2^{nH} equally likely typical sequences. It does not tend to 0 or infinity.",
+  "tags": [
+    "aep",
+    "typical-set",
+    "entropy-rate"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "06793d4b-0d3a-4b88-97bd-0d9f94b8fd68",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The unit repeatedly flags the differing epistemic status of these frontier claims. Which of the following does the book describe as experimentally confirmed, rather than as a conjecture or a speculative interpretation?",
+  "choices": [
+    "The AdS/CFT correspondence",
+    "The ER = EPR conjecture",
+    "Landauer's principle",
+    "Barbour's claim that the past never actually happened"
+  ],
+  "answer": 2,
+  "explanation": "The book reports Landauer's principle as experimentally confirmed (Berut et al. 2012, using single colloidal particles in optical traps). By contrast AdS/CFT is described as an unproved conjecture, ER = EPR as 'a conjecture, not a theorem' and even less established than AdS/CFT, and Barbour's timeless reading as a radical interpretation — none of which is experimentally confirmed.",
+  "tags": ["epistemic-status", "landauer", "conjecture", "experimental-confirmation"],
+  "difficulty": "intermediate",
+  "generated": true
+}

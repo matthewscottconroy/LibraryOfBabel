@@ -1,0 +1,18 @@
+{
+  "question_id": "0ee0675b-c324-4152-b196-49036a717de3",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The equivalence-principle calculation of light deflection by the Sun gives 2GM/(bc²), but the full GR result is twice as large, 4GM/(bc²). What accounts for the factor of 2?",
+  "choices": [
+    "The equivalence principle is only an approximation that breaks down near massive bodies",
+    "Photons acquire an effective mass in a gravitational field that doubles the deflection",
+    "The full GR calculation adds the curvature of the spatial part of the metric to the temporal (time-dilation) part, and each contributes equally to the deflection of null geodesics",
+    "The equivalence-principle calculation neglects the cosmological constant Λ"
+  ],
+  "answer": 2,
+  "explanation": "The uniformly accelerated elevator (equivalence-principle) argument captures only the bending of the light ray's spatial path, giving 2GM/(bc²). In full GR the metric departs from flatness in both g_00 (gravitational time dilation) and the spatial g_rr, and these contribute equally to the bending of null geodesics, doubling the result to 4GM/(bc²), the value Eddington confirmed in 1919. Photons remain massless and Λ plays no role here.",
+  "tags": ["equivalence-principle", "light-deflection"],
+  "difficulty": "intermediate",
+  "generated": true
+}

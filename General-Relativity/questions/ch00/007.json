@@ -1,0 +1,19 @@
+{
+  "question_id": "c2a58b4f-c5c4-49d5-a9f6-d42bb8547b89",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The book states that the rational numbers ℚ are countable — there is a bijection between ℚ and ℕ — even though ℚ is dense in ℝ.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The book proves ℚ is countable using Cantor's diagonal enumeration of fractions, giving |ℚ| = |ℕ| = ℵ₀, and explicitly notes this holds despite the rationals being dense in ℝ. Density (between any two rationals lies another) is an order property, not a size property, so it does not make ℚ uncountable.",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

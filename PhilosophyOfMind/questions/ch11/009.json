@@ -1,0 +1,21 @@
+{
+  "question_id": "e268b0ab-d794-4052-816d-dcaf75a30e8b",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Fodor calls the innate, compositionally structured mental representational system in which thinking is carried out '___.'",
+  "choices": [
+    "Mentalese",
+    "the language of thought"
+  ],
+  "answer": "Mentalese",
+  "explanation": "'Mentalese' is Fodor's name for the language of thought -- a symbol system with quantifiers, predicates, and connectives that is distinct from, and prior to, any natural language. It is not itself English or any spoken tongue, which for Fodor merely expresses Mentalese thoughts.",
+  "tags": [
+    "mentalese",
+    "language-of-thought",
+    "fodor",
+    "mental-representation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

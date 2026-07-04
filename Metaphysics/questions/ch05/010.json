@@ -1,0 +1,13 @@
+{
+  "question_id": "a71e582b-9b1a-4f22-a3a9-b7670466c043",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The eternalist picture on which past, present, and future events are all equally real, laid out in a static four-dimensional manifold, is often called the ___ universe.",
+  "choices": ["block", "block universe"],
+  "answer": "block",
+  "explanation": "Eternalism is standardly pictured as the 'block universe,' a four-dimensional whole in which all events exist tenselessly at their spacetime locations. This contrasts with presentism (only the present is real) and the growing block (past and present real, future not yet), and it fits naturally with the B-theory and special relativity.",
+  "tags": ["time", "eternalism", "block-universe", "b-theory"],
+  "difficulty": "beginner",
+  "generated": true
+}

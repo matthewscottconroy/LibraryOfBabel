@@ -1,0 +1,19 @@
+{
+  "question_id": "d8f1b4c9-0e5a-4b3d-8c9f-8a2e5b7d1c04",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A small, non-mutant subpopulation within a bacterial culture that spontaneously enters a dormant, metabolically quiescent state, making it tolerant to antibiotics and able to regrow after treatment ends, is called a population of ___ cells.",
+  "choices": [
+    "persister"
+  ],
+  "answer": "persister",
+  "explanation": "The answer is 'persister.' Persister cells are a bet-hedging mechanism: they arise by stochastic phenotypic switching (driven by toxin-antitoxin fluctuations), not by genetic mutation, so they show tolerance rather than heritable resistance. Balaban's single-cell work established them as a likely source of chronic-infection relapse.",
+  "tags": [
+    "persister-cells",
+    "bet-hedging",
+    "antibiotic-tolerance"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

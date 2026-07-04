@@ -1,0 +1,22 @@
+{
+  "question_id": "db7ed2c6-8ad1-4860-b19d-b726dcc5c5d5",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Gödel's First Incompleteness Theorem says that for any consistent, effectively axiomatizable theory T extending arithmetic:",
+  "choices": [
+    "T can prove its own consistency",
+    "T is inconsistent",
+    "every arithmetic truth is provable in T",
+    "there is a sentence G_T with T ⊬ G_T and T ⊬ ¬G_T, yet G_T is true in ℕ"
+  ],
+  "answer": 3,
+  "explanation": "The First Theorem produces the Gödel sentence G_T ('I am not provable in T'), which is neither provable nor refutable in T though true in the standard model ℕ. Option C is exactly what incompleteness denies; option A is the (false) content ruled out by the Second Theorem; option B contradicts the consistency hypothesis.",
+  "tags": [
+    "first-incompleteness",
+    "godel-sentence",
+    "incompleteness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

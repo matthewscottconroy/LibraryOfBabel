@@ -1,0 +1,18 @@
+{
+  "question_id": "133b2662-91ec-4a9c-874f-82f127617fab",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the Newtonian limit, the geodesic equation reduces to Newton's second law d²x/dt² = −∇Φ provided the time-time component of the metric is identified as:",
+  "choices": [
+    "g_00 = −(1 + 2Φ/c²)",
+    "g_00 = 1 + 2Φ/c²",
+    "g_00 = −(1 − 2Φ/c²)",
+    "g_00 = 2Φ/c²"
+  ],
+  "answer": 0,
+  "explanation": "Matching the spatial geodesic equation d²x^i/dt² ≈ −(c²/2)∂_i h_00 to Newton's law d²x^i/dt² = −∂_i Φ forces h_00 = −2Φ/c², i.e. g_00 = −(1 + 2Φ/c²). This same identification reproduces gravitational redshift, since a clock deeper in the potential (Φ more negative) runs slower. Options with the wrong overall sign or the wrong factor fail to give both Newtonian motion and the correct time dilation.",
+  "tags": ["newtonian-limit", "metric", "geodesic"],
+  "difficulty": "intermediate",
+  "generated": true
+}

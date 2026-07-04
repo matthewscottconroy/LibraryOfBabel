@@ -1,0 +1,22 @@
+{
+  "question_id": "7c67a47b-08ac-4cc6-8e4d-27bc51f82e9f",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In their 1988 critique of connectionism, Fodor and Pylyshyn argued that connectionist networks:",
+  "choices": [
+    "Straightforwardly explain systematicity better than classical architectures do",
+    "Are mathematically incapable of representing anything at all",
+    "Prove that thought lacks any compositional structure",
+    "Can at best implement a classical (LOT) architecture at a lower level, but cannot in their own right explain systematicity"
+  ],
+  "answer": 3,
+  "explanation": "Fodor and Pylyshyn (1988) argued that if a connectionist network genuinely exhibits systematicity, it does so only by implementing a classical, combinatorially structured (LOT) architecture at a lower level; as a rival to classical architecture it cannot explain systematicity in its own right. Option 0 inverts their conclusion, option 1 overstates it into absurdity, and option 2 attributes to them the denial of compositional structure, which is the connectionist position they attack.",
+  "tags": [
+    "connectionism",
+    "fodor-pylyshyn",
+    "systematicity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

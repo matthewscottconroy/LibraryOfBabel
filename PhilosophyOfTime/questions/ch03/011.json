@@ -1,0 +1,13 @@
+{
+  "question_id": "a9f43633-cc11-4dfc-94f3-ddd2b3316a0c",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Hume holds that we possess a distinct, separate impression of time itself, over and above our impressions of successive objects.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "This is false. Hume explicitly denies any distinct impression of time: the idea of time 'is not derived from a particular impression' but 'arises altogether from the manner in which impressions appear to the mind' in succession (Treatise I.ii.3). Because we have no impression of a changeless, event-free flow, Hume concludes that Newton's absolute time is a philosophical fiction — the opposite of the claim stated here.",
+  "tags": ["hume", "impressions", "succession", "absolute-time"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "59275ae9-98c1-422e-bdfc-ea0d5f197384",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which reservoir achieves the maximum linear memory capacity MC = N exactly?",
+  "choices": [
+    "A strongly nonlinear reservoir with large input scaling that drives tanh into saturation",
+    "Any reservoir whose spectral radius exceeds 1",
+    "A reservoir with the smallest possible spectral radius",
+    "A linear reservoir (tanh in its identity regime) driven by white noise"
+  ],
+  "answer": 3,
+  "explanation": "A linear reservoir (small inputs so tanh(x) ~ x, no bias) driven by white noise saturates the bound at MC = N, because all state variance is explained by linear correlations with delayed inputs. Strong nonlinearity/saturation spends capacity on nonlinear terms and lowers linear MC; rho > 1 breaks the ESP and collapses MC; and a very small rho gives very short memory, far below N.",
+  "tags": [
+    "memory-capacity",
+    "linear-reservoir",
+    "mc-equals-n"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

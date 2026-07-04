@@ -1,0 +1,22 @@
+{
+  "question_id": "1c7ed648-9e25-4342-b644-cea75b0e67e8",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The dominant-mode analysis in the hyperparameter chapter shows the k-step memory capacity of a near-linear reservoir decays with delay as:",
+  "choices": [
+    "MC_k ~ rho^(2k), so memory decays faster for smaller rho",
+    "MC_k ~ rho^(-k), so memory grows with delay",
+    "MC_k ~ 1/k, independent of rho",
+    "MC_k ~ k*rho, increasing linearly with delay"
+  ],
+  "answer": 0,
+  "explanation": "Each eigenmode behaves like an AR(1) process with pole lambda_i, giving MC_k^(i) = (1-|lambda_i|^2)|lambda_i|^(2k); the dominant mode yields MC_k proportional to rho^(2k), a geometric decay whose characteristic time tau = -1/(2 ln rho) grows as rho -> 1. Memory therefore decays faster for smaller rho. The other forms would imply growing or rho-independent memory, contradicting the geometric-series derivation.",
+  "tags": [
+    "spectral-radius",
+    "memory-capacity",
+    "geometric-decay"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

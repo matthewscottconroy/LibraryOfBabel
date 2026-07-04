@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which numerical method for solving ODEs is only first-order accurate and is described as fine for learning but something that should never be used for real scientific problems?",
+  "choices": [
+    "Runge-Kutta 4 (RK4)",
+    "Euler method",
+    "Dormand-Prince (RK45)",
+    "Backward Differentiation Formula (BDF)"
+  ],
+  "answer": 1,
+  "explanation": "The Euler method is explicitly described as the simplest, first-order accurate integrator that is 'only for learning; never use for real problems.' RK4 is fourth-order accurate, RK45 is an adaptive higher-order method, and BDF is a variable-order implicit method for stiff systems -- all legitimate choices for real simulations, unlike plain Euler.",
+  "tags": [
+    "scientific-computing",
+    "ode-solvers",
+    "euler-method"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "016271dd-9560-4ba1-aad5-3b092fb2c4d9"
+}

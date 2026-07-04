@@ -1,0 +1,19 @@
+{
+  "question_id": "b8e21d47-3c9a-4f60-8a15-6d2e9f47c081",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Anselm defines God as \"that than which nothing greater can be conceived\" and tries to derive God's existence from that concept alone, with no appeal to empirical evidence; this purely a priori proof is called the ___ argument.",
+  "choices": [
+    "ontological"
+  ],
+  "answer": "ontological",
+  "explanation": "The ontological argument is a priori, deriving existence from the concept of God alone. It is distinguished from the cosmological argument, which starts from the existence of the contingent world, and the teleological argument, which starts from observed order and design.",
+  "tags": [
+    "ontological-argument",
+    "anselm",
+    "arguments-for-god"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

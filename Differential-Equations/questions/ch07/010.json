@@ -1,0 +1,22 @@
+{
+  "question_id": "1634a562-0f9f-49f3-8f04-02075f351956",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A Hopf bifurcation, which gives birth to a limit cycle, occurs when:",
+  "choices": [
+    "a single real eigenvalue passes through zero",
+    "two equilibria merge",
+    "a complex-conjugate pair of eigenvalues crosses the imaginary axis with nonzero speed",
+    "the Jacobian becomes the identity"
+  ],
+  "answer": 2,
+  "explanation": "At a Hopf bifurcation a complex-conjugate eigenvalue pair crosses the imaginary axis (its real part changing sign), turning a stable focus unstable and spawning a small-amplitude limit cycle. A single real eigenvalue passing through zero instead produces saddle-node, transcritical, or pitchfork bifurcations.",
+  "tags": [
+    "hopf-bifurcation",
+    "limit-cycles",
+    "eigenvalues"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "46a0d7e2-9b13-4c85-a7f6-2d90b1e8c453",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A key limitation of the synthetic-biology 'reconstruction' strategy for cognition is that a working synthetic system reveals:",
+  "choices": ["Nothing about cognition, because synthetic systems are not truly alive", "The sufficient conditions for a behavior, but not whether the natural organism evolved that same mechanism", "The phenomenal experience of the organism directly", "Only the anthropocentric baseline of the researcher"],
+  "answer": 1,
+  "explanation": "A synthetic circuit that reproduces a cognitive behavior demonstrates a set of sufficient conditions for that behavior, but not that the natural organism arrived at the same solution, since nature may implement the same function by a different mechanism. It is not that synthetic systems reveal nothing (option 0) or expose phenomenal experience (option 2), and the anthropocentric baseline (option 3) is a separate issue.",
+  "tags": ["synthetic-biology", "reconstruction-strategy", "sufficient-conditions"],
+  "difficulty": "advanced",
+  "generated": true
+}

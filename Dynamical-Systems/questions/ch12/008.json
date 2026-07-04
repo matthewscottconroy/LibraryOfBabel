@@ -1,0 +1,20 @@
+{
+  "question_id": "9e044f93-298a-4f2c-b5ce-e8d7451443cd",
+  "chapter": 12,
+  "phase": 6,
+  "kind": "tf",
+  "text": "Terras' theorem: for almost every 2-adic x, the proportion of odd steps in the Collatz orbit converges to 1/2.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "By ergodicity of the 2-adic Collatz map and Birkhoff's theorem, odd and even steps are asymptotically equally frequent for Haar-a.e. x.",
+  "tags": [
+    "terras-theorem",
+    "collatz",
+    "ergodic"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

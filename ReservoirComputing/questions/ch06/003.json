@@ -1,0 +1,22 @@
+{
+  "question_id": "8f9bf916-1f27-4562-bd04-e69e7f44ec1d",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the recurrence y(t+1) = 0.3·y(t) + c·y(t)·Σ_{k=0}^{9} y(t−k) + 1.5·u(t−9)·u(t) + 0.1, what is the coefficient c on the nonlinear feedback term?",
+  "choices": [
+    "0.3",
+    "1.5",
+    "0.1",
+    "0.05"
+  ],
+  "answer": 3,
+  "explanation": "The nonlinear term is 0.05·y(t)·Σ, so c = 0.05. The other values are the other coefficients in the same recurrence: 0.3 (linear AR term), 1.5 (input-product term), 0.1 (constant offset).",
+  "tags": [
+    "narma10",
+    "recurrence",
+    "coefficients"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which caution is specifically raised about codon-optimizing a gene solely to maximize its Codon Adaptation Index (CAI)?",
+  "choices": [
+    "CAI-optimized sequences always increase translation initiation rate (TIR) by an identical amount, regardless of mRNA secondary structure",
+    "Maximizing CAI does not necessarily maximize expression, because mRNA secondary structure effects and repeat-sequence-driven recombination instability also matter",
+    "Codon optimization has no effect on protein expression, since all synonymous codons are translated at identical rates",
+    "CAI can only be calculated for eukaryotic genes and cannot be applied to bacterial genes"
+  ],
+  "answer": 1,
+  "explanation": "The chapter specifically cautions that maximum CAI does not equal maximum expression, because secondary-structure effects on mRNA folding also influence translation, and introducing repeated sequence elements during optimization can cause recombination instability. Choice 0 overstates CAI's effect and ignores this secondary-structure caveat. Choice 2 is factually wrong -- rare codons cause real effects such as ribosome pausing and queuing, which is precisely why codon choice matters. Choice 3 is a fabricated limitation; CAI applies to genes in any organism with known codon usage tables, including bacteria.",
+  "tags": [
+    "codon-optimization",
+    "codon-adaptation-index",
+    "translation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "2ffd5947-2855-4812-ab7e-19f69657ccab"
+}

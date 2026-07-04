@@ -1,0 +1,23 @@
+{
+  "question_id": "33e13f09-d6ff-4ed4-be73-9d55bcdb4642",
+  "chapter": 19,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Dennett's 'heterophenomenology' is best described as...",
+  "choices": [
+    "a first-person method that trains subjects to produce more accurate introspective reports",
+    "the classical view that introspection is infallible about one's own experience",
+    "a third-person method that treats verbal reports as data about what subjects believe, to be interpreted rather than taken at face value",
+    "the eliminativist claim that consciousness does not exist"
+  ],
+  "answer": 2,
+  "explanation": "Heterophenomenology stands outside the first-person perspective and treats reports as evidence about a subject's intentional states and beliefs about experience, not as transparent readouts of what is really happening. Option A describes Varela's neurophenomenology, B is the infallibility view Dennett rejects, and D mistakes his method for eliminativism.",
+  "tags": [
+    "heterophenomenology",
+    "dennett",
+    "introspection",
+    "method"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

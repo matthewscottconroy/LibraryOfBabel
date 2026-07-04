@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The repressilator, engineered by Elowitz and Leibler (2000), produces sustained oscillations in gene expression. Which network topology generates this behavior?",
+  "choices": [
+    "Two mutually repressing genes that also each self-activate, producing a bistable toggle switch",
+    "A single gene that directly represses its own promoter (negative autoregulation)",
+    "A ring of three transcriptional repressors, each repressing the next, forming a delayed negative feedback loop",
+    "A coherent feed-forward loop with AND logic at the output gene"
+  ],
+  "answer": 2,
+  "explanation": "The repressilator connects three repressor genes in a cycle (each represses the next), a negative feedback loop with enough delay -- from the multiple steps around the ring -- to produce sustained oscillations, following the same general principle as the Goodwin oscillator. Choice 0 describes a bistable toggle switch (mutual repression), which is a switch, not an oscillator. Simple negative autoregulation (choice 1) reaches a stable steady state faster and does not oscillate on its own, and a coherent feed-forward loop (choice 3) produces a delay in activation, not sustained oscillation.",
+  "tags": [
+    "repressilator",
+    "oscillators",
+    "negative-feedback"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "1d1c8c7f-9da6-462f-a70b-6a8013fa1510"
+}

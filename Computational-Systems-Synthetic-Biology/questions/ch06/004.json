@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which downstream analysis method uses the ENTIRE ranked gene list (e.g., by fold change or test statistic) rather than requiring a hard significance cutoff to define a gene set?",
+  "choices": [
+    "Gene Ontology (GO) overrepresentation with Fisher's exact test",
+    "KEGG pathway hypergeometric enrichment",
+    "Volcano plot visualization",
+    "Gene Set Enrichment Analysis (GSEA)"
+  ],
+  "answer": 3,
+  "explanation": "GSEA evaluates whether predefined gene sets are enriched toward the top or bottom of a fully ranked gene list, without needing an arbitrary significance cutoff to select genes first. GO and KEGG overrepresentation methods instead require a pre-defined list of significant genes as input, and a volcano plot is purely a visualization of fold change versus significance, not an enrichment test.",
+  "tags": [
+    "functional-enrichment",
+    "gsea",
+    "pathway-analysis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "2baab74e-32bd-49da-bb8f-04adcb779599"
+}

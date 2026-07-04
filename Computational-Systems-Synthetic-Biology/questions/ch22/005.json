@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Flux balance analysis (FBA) maximizes an objective such as biomass flux subject to the steady-state constraint S times v = 0 and flux bounds. What class of optimization method is used to solve this problem?",
+  "choices": [
+    "Simulated annealing",
+    "Gradient descent with the Adam optimizer",
+    "Genetic algorithms",
+    "Linear programming, using methods such as simplex or interior point"
+  ],
+  "answer": 3,
+  "explanation": "FBA's objective and constraints are linear, so it is solved exactly as a linear program using simplex or interior-point methods (via solvers such as GLPK, CPLEX, or Gurobi). Simulated annealing, gradient descent, and genetic algorithms are general-purpose global or heuristic optimizers used elsewhere in scientific computing, but FBA's linear structure permits exact, much faster LP methods with a guaranteed optimum.",
+  "tags": [
+    "scientific-computing",
+    "optimization",
+    "flux-balance-analysis"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "36a0a288-2279-4664-b2b1-f3f990a6d704"
+}

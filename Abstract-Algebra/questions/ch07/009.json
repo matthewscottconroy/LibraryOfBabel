@@ -1,0 +1,18 @@
+{
+  "question_id": "3c6e91da-b89b-4ee4-89bc-b2e70a6d115c",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "For an n-dimensional space V, the symmetric algebra Sym(V) is isomorphic to the ___ ring F[x₁, …, xₙ].",
+  "choices": [
+    "polynomial"
+  ],
+  "answer": "polynomial",
+  "explanation": "Choosing a basis e₁,…,eₙ of V identifies Symᵏ(V) with homogeneous polynomials of degree k in n variables, of dimension C(n+k−1, k). The exterior algebra is its skew-commutative counterpart.",
+  "tags": [
+    "symmetric-algebra",
+    "polynomials"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

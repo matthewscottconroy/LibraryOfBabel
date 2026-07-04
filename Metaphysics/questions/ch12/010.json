@@ -1,0 +1,19 @@
+{
+  "question_id": "4e2a1c63-5b7d-4098-a6f1-3b90c8e47d15",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "blank",
+  "text": "A positive account that purports to identify the actual morally sufficient reason for which God permits evil—as opposed to a mere \"defense\" that shows only logical consistency—is called a ___.",
+  "choices": [
+    "theodicy"
+  ],
+  "answer": "theodicy",
+  "explanation": "A theodicy (from Leibniz's Theodicee) claims to give God's actual justifying reason, such as Hick's soul-making. It is more ambitious, and more vulnerable, than a defense, which claims only that God and evil are logically consistent given some merely possible reason.",
+  "tags": [
+    "problem-of-evil",
+    "theodicy",
+    "defense"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

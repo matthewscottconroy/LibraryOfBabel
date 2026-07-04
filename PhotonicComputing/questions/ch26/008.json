@@ -1,0 +1,13 @@
+{
+  "question_id": "0181dd57-534a-4efc-bdf3-e56beec42c37",
+  "chapter": 26,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: Topological protection in photonics is absolute, so a protected edge mode is immune to material absorption and fabrication-induced frequency shifts just as it is immune to backscattering.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Topological protection is bounded and specific: it suppresses backscattering into certain channels but does nothing against material absorption or fabrication-induced frequency shifts. The chapter insists that 'topologically protected' must always be completed by the clause 'against which disorder', because robust is not the same as perfect.",
+  "tags": ["topological-photonics", "protection", "edge-states"],
+  "difficulty": "intermediate",
+  "generated": true
+}

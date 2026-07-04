@@ -1,0 +1,22 @@
+{
+  "question_id": "8a395c97-d1ee-495b-8581-c74085ff6e2e",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "d'Alembert's solution of the one-dimensional wave equation u_tt = c^2 u_xx expresses u as:",
+  "choices": [
+    "a single Gaussian spreading in time",
+    "the sum F(x - c t) + G(x + c t) of right- and left-traveling waves",
+    "a Fourier series that decays exponentially in time",
+    "the average of u over expanding spheres"
+  ],
+  "answer": 1,
+  "explanation": "The general one-dimensional solution is F(x - c t) + G(x + c t): two fixed waveforms translating rigidly at speed c in opposite directions, with F and G determined by the initial displacement and velocity. Exponential decay in time is a feature of the heat equation, not the energy-conserving wave equation.",
+  "tags": [
+    "dalembert",
+    "wave-equation",
+    "traveling-waves"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

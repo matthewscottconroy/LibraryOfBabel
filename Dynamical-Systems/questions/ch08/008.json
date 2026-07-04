@@ -1,0 +1,20 @@
+{
+  "question_id": "4e463414-1e23-4248-b6aa-d22d37fdb368",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Jarzynski's equality relating work to free-energy difference holds only for quasi-static (reversible) processes.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Jarzynski's equality <exp(-W/kT)> = exp(-Delta F/kT) is exact for any protocol, however fast or irreversible; that generality is what makes it remarkable.",
+  "tags": [
+    "jarzynski-equality",
+    "nonequilibrium",
+    "fluctuation-theorem"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

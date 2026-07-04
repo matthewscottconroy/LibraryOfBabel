@@ -1,0 +1,22 @@
+{
+  "question_id": "4b0c2509-6229-4654-8b2d-3f8ff05479ec",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The lab README frames the full-observation experiment as reproducing the Pathak et al. (2018) benchmark. Which statement best matches the quantitative expectations stated in the lab and book?",
+  "choices": [
+    "With N=500 the VPT should reach hundreds of Lyapunov times because the model is deterministic",
+    "A persistence forecast (predict next = current) already reaches ~5 Lyapunov times, so the ESN adds little",
+    "The Kuramoto-Sivashinsky benchmark is easier than Lorenz, so a single reservoir attains far higher VPT there",
+    "An N=500 ESN reaches on the order of 5-6 (up to ~12) Lyapunov times of valid prediction on Lorenz, vastly exceeding the persistence baseline of ~0.1"
+  ],
+  "answer": 3,
+  "explanation": "The README targets ~5-6 Lyapunov times VPT with N=500 (the lab docstring notes 5-12 in practice), matching Pathak 2017/2018; the book gives the persistence baseline as ~0.1 Lyapunov times. Option 0 ignores chaotic divergence (VPT is finite); option 1 grossly overstates persistence; option 2 is wrong because KS is higher-dimensional and harder, requiring the parallel-reservoir architecture.",
+  "tags": [
+    "pathak",
+    "VPT",
+    "benchmark"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

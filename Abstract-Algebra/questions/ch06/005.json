@@ -1,0 +1,22 @@
+{
+  "question_id": "4dab8006-9854-4d15-96a2-6db2b1c73fdb",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Sylvester's law of inertia says that for a real symmetric bilinear form, which datum is independent of the diagonalizing basis?",
+  "choices": [
+    "The signature — the counts (p, q, r) of +1, −1, and 0 diagonal entries",
+    "The diagonal entries themselves",
+    "The eigenvalues of its Gram matrix",
+    "The determinant of its Gram matrix"
+  ],
+  "answer": 0,
+  "explanation": "Any two diagonalizations with entries in {+1, −1, 0} have the same counts of each sign — that triple is the complete congruence invariant. The Gram matrix itself transforms as M ↦ PᵀMP, so its eigenvalues and determinant do change (det by the positive factor det(P)²).",
+  "tags": [
+    "bilinear-forms",
+    "sylvester",
+    "signature"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

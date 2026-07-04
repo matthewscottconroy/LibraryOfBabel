@@ -1,0 +1,13 @@
+{
+  "question_id": "a5c8e1f6-7b2d-4e0a-9f6c-5d9b2e4a8f71",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In most natural and clinical environments, bacteria exist predominantly as free-swimming planktonic individuals rather than in surface-attached biofilm communities.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Biofilms are the dominant mode of bacterial existence, estimated to account for more than 80% of microbial biomass on Earth and the majority of chronic bacterial infections; planktonic growth is the minority state. This reframing, pioneered by J. William Costerton, is foundational to modern infection biology.",
+  "tags": ["biofilm", "costerton", "microbial-ecology"],
+  "difficulty": "beginner",
+  "generated": true
+}

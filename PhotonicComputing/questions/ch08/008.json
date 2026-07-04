@@ -1,0 +1,13 @@
+{
+  "question_id": "209d428b-ccb6-4aa9-8ed3-c3b051679456",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Because it is only an abstract ceiling, the Shannon capacity can never be approached in practice, and real optical systems always operate at least 20 dB away from it.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The Shannon limit is a practical engineering benchmark: long-haul systems now run within 2-3 dB of it, and shorter links within 10-20%. A 20 dB gap grossly overstates the real distance to capacity.",
+  "tags": ["shannon-limit", "spectral-efficiency"],
+  "difficulty": "intermediate",
+  "generated": true
+}

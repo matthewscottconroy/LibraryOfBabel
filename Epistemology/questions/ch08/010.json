@@ -1,0 +1,18 @@
+{
+  "question_id": "33867bd7-f5ae-4c43-b6ef-e77723db821d",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Thomas Kelly's steadfast, 'total evidence' response to peer disagreement holds that:",
+  "choices": [
+    "one must suspend judgment whenever a peer disagrees, since the disagreement shows the shared evidence to be genuinely inconclusive.",
+    "one should give the peer's disagreement exactly equal weight to one's own judgment, yielding a midpoint credence.",
+    "one should set aside one's own reasoning entirely and defer, since one may not use the disputed conclusion to assess one's own reliability.",
+    "because one's total evidence still includes the original first-order reasons for the belief, a person whose evidence in fact strongly supported p may rationally retain that belief despite the peer's disagreement."
+  ],
+  "answer": 3,
+  "explanation": "Kelly's total-evidence view insists that the disagreement is only one part of one's evidence: the original first-order reasons still count, and if they in fact strongly supported p, one may rationally hold steadfast. Options 0 and 1 are conciliationist (suspension and equal weight); option 2 overstates Christensen's independence principle into blanket deference. Only option 3 states Kelly's steadfast position.",
+  "tags": ["peer-disagreement", "steadfast-view", "kelly", "total-evidence"],
+  "difficulty": "intermediate",
+  "generated": true
+}

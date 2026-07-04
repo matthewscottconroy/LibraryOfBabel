@@ -1,0 +1,18 @@
+{
+  "question_id": "2e0dfde3-5057-4969-9846-2256c4deeb97",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "On Woodward's interventionist theory, what does it mean to say that X causes Y?",
+  "choices": [
+    "That X and Y are constantly conjoined, with X spatiotemporally contiguous with and prior to Y.",
+    "That X and Y are connected by a continuous process transmitting a conserved quantity such as energy.",
+    "That X necessitates Y in virtue of a second-order relation between the universals X and Y.",
+    "That an ideal intervention which changes the value of X (setting it from outside the system) would change the value of Y."
+  ],
+  "answer": 3,
+  "explanation": "Woodward analyzes causation as invariance under intervention: X causes Y if intervening on X to set its value exogenously would change Y, which is why causal claims, unlike mere correlations, support manipulation and control. Option 1 is the Salmon-Dowe process theory and option 2 is the DTA view; Woodward's account is manipulationist and, he concedes, non-reductive because 'intervention' is itself a causal notion.",
+  "tags": ["causation", "interventionism", "woodward", "manipulation"],
+  "difficulty": "beginner",
+  "generated": true
+}

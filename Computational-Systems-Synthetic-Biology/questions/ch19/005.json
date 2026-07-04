@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In FACS-based directed evolution screening, a researcher typically gates on approximately what fraction of cells to enrich for the desired fluorescent phenotype?",
+  "choices": [
+    "Bottom 10% least fluorescent cells only",
+    "Top 25-50% of fluorescent cells",
+    "Exactly the single brightest cell in the population",
+    "Top 0.1-1% of fluorescent cells"
+  ],
+  "answer": 3,
+  "explanation": "Standard FACS-based enrichment gates on the top 0.1-1% of fluorescent cells, often across multiple rounds of sorting, to enrich for rare improved variants within a large library while retaining enough diversity to find true positives. Gating on 25-50% would be far too permissive to enrich rare variants, isolating a single cell is not how population-level sorting works in practice, and gating on the least fluorescent cells would select against, rather than for, the desired activity in a standard positive screen.",
+  "tags": [
+    "facs",
+    "flow-cytometry",
+    "screening"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "74a8f0fa-d1e7-44fa-8322-60b78226181c"
+}

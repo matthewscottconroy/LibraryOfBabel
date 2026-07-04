@@ -1,0 +1,20 @@
+{
+  "question_id": "380aa423-df8e-48be-9c4c-74ddf3e19ed2",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "tf",
+  "text": "On a stationary task with forgetting factor mu = 1, RLS drives P toward 0 and the Kalman gain toward 0, so it effectively stops adapting after convergence.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "As the correlation accumulates, P_t -> 0 and therefore the gain k_t -> 0, so updates vanish once RLS has converged. To keep adapting on non-stationary tasks one sets mu < 1, which prevents P from collapsing to zero.",
+  "tags": [
+    "rls",
+    "convergence",
+    "kalman-gain"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

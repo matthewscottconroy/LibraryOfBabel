@@ -1,0 +1,21 @@
+{
+  "question_id": "2280df95-b3b2-4199-830a-14c8d046042f",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: The ring of integers modulo m, ℤ/mℤ, is a field for every integer m > 1.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. ℤ/mℤ is a field exactly when m is prime (then it is 𝔽_p); for composite m it has zero divisors (for instance 2·3 ≡ 0 in ℤ/6ℤ) and nonzero non-invertible elements, so it is not a field.",
+  "tags": [
+    "modular-arithmetic",
+    "field",
+    "ring",
+    "primes"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

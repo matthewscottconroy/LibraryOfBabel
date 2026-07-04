@@ -1,0 +1,22 @@
+{
+  "question_id": "4cf1133a-6124-4508-a8e9-a1d471a0075b",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A second-order PDE with principal part A u_xx + B u_xy + C u_yy is hyperbolic when:",
+  "choices": [
+    "B^2 - 4AC > 0",
+    "B^2 - 4AC = 0",
+    "B^2 - 4AC < 0",
+    "A + C = 0"
+  ],
+  "answer": 0,
+  "explanation": "In analogy with conic sections, B^2 - 4AC > 0 is hyperbolic (two real characteristic families), = 0 is parabolic, and < 0 is elliptic. The wave equation (A = 1, B = 0, C = -c^2) gives 4c^2 > 0, confirming it is hyperbolic.",
+  "tags": [
+    "classification",
+    "discriminant",
+    "characteristics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

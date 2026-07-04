@@ -1,0 +1,22 @@
+{
+  "question_id": "4b06d814-2bd2-4b9d-85f8-38d14fb292ef",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "According to class nominalism, what is the property of being red?",
+  "choices": [
+    "The class of all red things; to be red is just to be a member of that class.",
+    "A primitive resemblance among red things, which need not form any class.",
+    "Simply the applicability of the predicate 'red', with no worldly entity involved.",
+    "A universal, redness, wholly present in each distinct red thing."
+  ],
+  "answer": 0,
+  "explanation": "Class nominalism identifies a property with the class of its instances. The tempting distractor is resemblance nominalism (option 1), which grounds redness in a primitive resemblance relation among particulars rather than in class membership; note too that class nominalism does not fully escape abstracta, since classes are themselves abstract objects.",
+  "tags": [
+    "nominalism",
+    "class-nominalism",
+    "properties"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

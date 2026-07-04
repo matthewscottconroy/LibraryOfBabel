@@ -1,0 +1,21 @@
+{
+  "question_id": "cc65484b-67fc-421e-b814-aac6640d084c",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "A consequence of Fodor's Language of Thought hypothesis is that natural language is not the medium of thought but a means of expressing thoughts already formed in Mentalese.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. LOT makes the private, innate Mentalese the medium of thought and treats public languages as vehicles for communicating it -- the reverse of the Wittgensteinian/Whorfian view that language shapes or constitutes thought. Fodor even argues that language learning presupposes prior Mentalese concepts.",
+  "tags": [
+    "language-of-thought",
+    "mentalese",
+    "fodor",
+    "expression"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

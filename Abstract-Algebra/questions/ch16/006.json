@@ -1,0 +1,18 @@
+{
+  "question_id": "d4cc8e99-b784-4122-9f27-3050368665cf",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Suppose a first-quadrant spectral sequence has $E_2^{p,q}=0$ for all $q\\neq 0$ (a single nonzero row). What follows?",
+  "choices": [
+    "The spectral sequence fails to converge",
+    "$H^n\\cong E_2^{0,n}$, read off the fiber edge",
+    "$E_2=E_\\infty$ and $H^n\\cong E_2^{n,0}$",
+    "$H^n\\cong\\bigoplus_{p+q=n} E_2^{p,q}$ with nontrivial Tor corrections"
+  ],
+  "answer": 2,
+  "explanation": "Each $d_r$ with $r\\geq 2$ lowers the $q$-degree by $r-1\\geq 1$, so with only the row $q=0$ nonzero every differential vanishes: the sequence collapses, $E_2=E_\\infty$, and $H^n\\cong E_2^{n,0}$. Reading $E_2^{0,n}$ is the single-column case; collapse is precisely why convergence does hold; and there are no Tor corrections because only one graded piece is nonzero.",
+  "tags": ["spectral-sequences", "collapse", "edge-homomorphism"],
+  "difficulty": "advanced",
+  "generated": true
+}

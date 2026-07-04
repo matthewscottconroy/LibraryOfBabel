@@ -1,0 +1,18 @@
+{
+  "question_id": "ff5384e6-fed0-4cef-b35f-3f1fd8faa096",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "GPS satellite clocks must be corrected relative to clocks on Earth's surface. What does general relativity identify as the dominant reason?",
+  "choices": [
+    "Special-relativistic time dilation from the satellites' orbital speed makes their clocks run fast.",
+    "Clocks deeper in the gravitational well run faster, so the ground clocks gain time on the satellites.",
+    "The relativity of simultaneity makes it impossible ever to synchronize ground and satellite clocks.",
+    "Gravitational time dilation makes the higher-altitude satellite clocks run faster than ground clocks."
+  ],
+  "answer": 3,
+  "explanation": "Gravitational time dilation makes clocks run faster where gravity is weaker; at altitude the GPS clocks gain about 45 microseconds per day, dominating the roughly 7 microseconds per day of special-relativistic slowing from orbital speed (net about 38 μs/day). Option 0 reverses the special-relativistic effect (speed slows clocks) and it is not the dominant term; option 1 reverses the direction of gravitational dilation; option 2 misdescribes the mechanism.",
+  "tags": ["general-relativity", "gravitational-time-dilation", "gps", "equivalence-principle"],
+  "difficulty": "beginner",
+  "generated": true
+}

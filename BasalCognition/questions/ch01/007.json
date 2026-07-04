@@ -1,0 +1,13 @@
+{
+  "question_id": "c5e8a1b6-7d2f-4a0c-9b6e-5f9d2a4c8b71",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Xenobots are genetically engineered organisms whose DNA has been modified in order to program their novel behaviors.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Xenobots are built from native, unmodified Xenopus laevis frog cells that are reorganized (often via evolutionary-algorithm design) into novel morphologies. Their genomes are not modified. The point is precisely that behavioral capacities are not encoded solely in the genome but depend on morphological and bioelectric context.",
+  "tags": ["xenobots", "bioelectricity", "morphology"],
+  "difficulty": "beginner",
+  "generated": true
+}

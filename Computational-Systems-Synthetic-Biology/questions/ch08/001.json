@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which experimental structure determination method is generally limited to proteins smaller than about 50 kDa, but uniquely provides direct experimental information about protein dynamics (via order parameters) and conformational ensembles?",
+  "choices": [
+    "X-ray crystallography",
+    "Cryo-electron microscopy",
+    "NMR spectroscopy",
+    "Homology modeling"
+  ],
+  "answer": 2,
+  "explanation": "NMR spectroscopy measures through-bond and through-space distances for a protein in solution, is restricted to roughly 50 kDa or smaller, and yields order parameters plus multi-conformer ensembles that directly report on dynamics. X-ray crystallography and cryo-EM can handle much larger complexes (including membrane proteins) but require crystals or vitrified samples respectively and give comparatively little direct dynamics information. Homology modeling is a purely computational technique, not an experimental one.",
+  "tags": [
+    "structural-bioinformatics",
+    "nmr",
+    "experimental-methods"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "92e0834f-4af8-4dd8-9642-d836ab7a63e4"
+}

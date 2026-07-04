@@ -1,0 +1,22 @@
+{
+  "question_id": "f425d63c-5ca8-4dae-bebc-bc9b47618891",
+  "chapter": 13,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The univalence axiom asserts that two types are equal if and only if there is a(n) ___ between them:",
+  "choices": [
+    "injection",
+    "equivalence (homotopy equivalence)",
+    "surjection",
+    "isometry"
+  ],
+  "answer": 1,
+  "explanation": "Univalence identifies equality of types with equivalence (invertible-up-to-homotopy maps). Injections, surjections, or isometries are not the relevant notion.",
+  "tags": [
+    "univalence",
+    "equivalence",
+    "hott"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

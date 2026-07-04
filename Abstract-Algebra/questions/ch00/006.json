@@ -1,0 +1,21 @@
+{
+  "question_id": "e012192a-97e9-43c9-aaed-52b369017419",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "To prove 'if n² is even, then n is even', one assumes n is odd and shows n² is odd. Which proof technique is this?",
+  "choices": [
+    "Direct proof",
+    "Proof by contrapositive",
+    "Proof by contradiction",
+    "Proof by strong induction"
+  ],
+  "answer": 1,
+  "explanation": "The argument proves ¬Q ⇒ ¬P, which is logically equivalent to P ⇒ Q. A proof by contradiction would instead assume both that n² is even and that n is odd, then derive ⊥; here the original hypothesis is never assumed.",
+  "tags": [
+    "proof",
+    "contrapositive"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,12 @@
+# Section 16.1: Excitable Photonic Laser Neurons
+
+A biological neuron is not an amplifier that reports its input in proportion; it is an *excitable* system. Excitability has three defining features: a single stable rest state; sub-threshold perturbations that decay back to rest; and a super-threshold perturbation that triggers a large, stereotyped, all-or-nothing excursion — a spike — after which the system enters a refractory period during which it cannot, or can only reluctantly, fire again. The spike's amplitude carries no information; only its *presence* and its *timing* do. This is the physical substance behind the leaky integrate-and-fire (LIF) and FitzHugh–Nagumo abstractions of Chapter 15.
+
+Certain semiconductor lasers realize exactly this behavior. A laser biased near its lasing threshold balances gain against loss, and its dynamics have two disparate timescales: a fast intracavity photon population (lifetime on the order of picoseconds) and a slow carrier population (lifetime on the order of nanoseconds). This fast/slow separation is precisely the structure that produces excitability in the FitzHugh–Nagumo model. Add a mechanism that supplies a threshold and a recovery — a saturable absorber, optical injection locking, or competition between two lasing modes — and the laser inherits a stable "off" rest state, a firing threshold, an all-or-nothing optical pulse, and a refractory period. The spike is now a burst of light a few tens of picoseconds wide rather than a millisecond membrane depolarization, roughly eight orders of magnitude faster than its biological counterpart.
+
+This section develops four physical embodiments of the excitable laser neuron: the injection-locked / integrate-and-fire laser with a saturable absorber (§16.1.1), the polarization-switching VCSEL neuron (§16.1.2), excitable microring and semiconductor ring lasers (§16.1.3), and the coupled field–carrier rate equations whose linear-stability structure ties these back to FitzHugh–Nagumo (§16.1.4).
+
+## References
+
+- Prucnal, P.R., Shastri, B.J., Ferreira de Lima, T., Nahmias, M.A. & Tait, A.N. (2016). "Recent progress in semiconductor excitable lasers for photonic spike processing." *Advances in Optics and Photonics*, 8(2), 228–299.
+- Nahmias, M.A., Shastri, B.J., Tait, A.N. & Prucnal, P.R. (2013). "A leaky integrate-and-fire laser neuron for ultrafast cognitive computing." *IEEE J. Sel. Top. Quantum Electron.*, 19(5), 1800212.

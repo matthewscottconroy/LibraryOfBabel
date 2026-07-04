@@ -1,0 +1,24 @@
+{
+  "question_id": "da569dd3-1858-47a9-b6df-4e575c73413e",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A central diagnosis in Hilbert's Grundlagen is that side-angle-side (SAS) congruence, which Euclid 'proved' by superposition:",
+  "choices": [
+    "is derivable from the incidence axioms alone",
+    "follows from the parallel postulate",
+    "is actually false in Euclidean geometry",
+    "must be taken as an axiom (Hilbert's III.5), being independent of the others"
+  ],
+  "answer": 3,
+  "explanation": "Hilbert showed SAS is not derivable from the remaining axioms and must be posited as congruence axiom III.5; a distorted congruence satisfies III.1–III.4 but not III.5, confirming independence. Euclid's superposition argument for I.4 was thus an unlicensed maneuver, and SAS follows neither from incidence nor from the parallel axiom.",
+  "tags": [
+    "hilbert",
+    "sas",
+    "congruence",
+    "axioms",
+    "superposition"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

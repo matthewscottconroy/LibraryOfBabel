@@ -1,0 +1,22 @@
+{
+  "question_id": "e8c38c77-57a7-4841-8f6e-33dedb078747",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a differentiable f: ℝⁿ → ℝ, the directional derivative D_v f(p) in the direction of a unit vector v equals:",
+  "choices": [
+    "the gradient ∇f(p) itself",
+    "the Jacobian matrix of f evaluated at p",
+    "|∇f(p)|, the magnitude of the gradient",
+    "∇f(p) · v, the dot product of the gradient with v"
+  ],
+  "answer": 3,
+  "explanation": "The book's theorem gives D_v f(p) = ∇f(p) · v = Df(p)(v): the directional derivative is a scalar obtained by dotting the gradient with the direction. The gradient ∇f is an entire vector, not this scalar, and its magnitude |∇f| is only the maximal directional derivative, attained when v points along ∇f. The distinction between the gradient and the directional derivative is the point being tested.",
+  "tags": [
+    "directional-derivative",
+    "gradient",
+    "multivariable-calculus"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

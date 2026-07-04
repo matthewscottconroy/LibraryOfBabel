@@ -1,0 +1,23 @@
+{
+  "question_id": "0e2cd98f-7102-4a9e-8408-090a5cf09868",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Epiphenomenalism about the mental (associated with T.H. Huxley) is the view that:",
+  "choices": [
+    "Mental events are strictly identical to brain events",
+    "Mentality is the only reality, and matter is an illusion",
+    "Mental and physical events are perfectly synchronized by God",
+    "Physical events cause mental events, but mental events themselves cause nothing — they are causally inert byproducts"
+  ],
+  "answer": 3,
+  "explanation": "Epiphenomenalism holds that phenomenal/mental events are caused by physical processes but are themselves causally impotent — like steam from an engine that drives nothing. Option 0 is the identity theory; option 1 is idealism; option 2 is occasionalism/pre-established harmony. What is distinctive is the one-way causal arrow from physical to mental.",
+  "tags": [
+    "epiphenomenalism",
+    "huxley",
+    "mental-causation",
+    "property-dualism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

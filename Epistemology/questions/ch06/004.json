@@ -1,0 +1,20 @@
+{
+  "question_id": "221a66f1-86bd-4fb6-9b7f-f9c0cc53a17f",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Chalmers distinguishes the tractable 'easy problems' of consciousness (attention, information integration, verbal report) from the ___ problem: the question of why any physical or functional processing is accompanied by subjective experience at all.",
+  "choices": [
+    "hard"
+  ],
+  "answer": "hard",
+  "explanation": "The easy problems concern functions and mechanisms that cognitive science can in principle explain; the hard problem asks why there is 'something it is like' (Nagel) to undergo those processes rather than everything proceeding in the dark. Chalmers argues that specifying functional organization leaves this question, and the associated explanatory gap, untouched.",
+  "tags": [
+    "hard problem",
+    "chalmers",
+    "consciousness",
+    "explanatory gap"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

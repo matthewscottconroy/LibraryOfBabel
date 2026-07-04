@@ -1,0 +1,23 @@
+{
+  "question_id": "c1221664-18d0-40a8-a18f-e4c1b1695b1b",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In ℝ³, which statement correctly matches each operator with the kind of object it produces?",
+  "choices": [
+    "The divergence of a vector field is a vector field; the curl of a vector field is a scalar field.",
+    "The gradient of a scalar field is a scalar field; the divergence of a vector field is a vector field.",
+    "The divergence of a vector field is a scalar field; the curl of a vector field is a vector field.",
+    "The gradient, divergence, and curl all produce scalar fields."
+  ],
+  "answer": 2,
+  "explanation": "Per §8.1, divergence sends a vector field to a scalar field (∇·F = ∂F₁/∂x + ∂F₂/∂y + ∂F₃/∂z), while curl sends a vector field to another vector field in 3D. The gradient sends a scalar field to a vector field. The wrong options swap these outputs — calling the divergence a vector or the curl a scalar is the classic div-versus-curl confusion.",
+  "tags": [
+    "divergence",
+    "curl",
+    "gradient",
+    "vector-calculus"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

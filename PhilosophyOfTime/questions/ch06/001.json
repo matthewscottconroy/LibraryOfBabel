@@ -1,0 +1,18 @@
+{
+  "question_id": "75c93dbf-9a88-4d6f-80e6-9e43310349bf",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the Scholium to the Principia, what is the defining feature of Newton's absolute time?",
+  "choices": [
+    "It flows uniformly on its own, independently of matter, motion, and observers, serving as a fixed backdrop for mechanics.",
+    "It is an abstraction from the pattern of change among physical objects and has no reality in an empty universe.",
+    "It is a dynamical field that is warped and slowed by the presence of matter and energy.",
+    "It is defined by the orbital motions of the celestial bodies, as in ephemeris time."
+  ],
+  "answer": 0,
+  "explanation": "Newton's absolute time 'flows equably without relation to anything external': it is non-dynamical, independent of matter and observers, and provides the universal background against which motion unfolds. Option 1 is the relational view of Leibniz and Mach, which Newton rejected; option 2 is the dynamical time of general relativity, a much later development; option 3 describes ephemeris or 'common' (relative) time, which Newton regarded as only an approximate measure of the true absolute duration beneath it.",
+  "tags": ["newton", "absolute-time", "non-dynamical-time", "relational-time"],
+  "difficulty": "beginner",
+  "generated": true
+}

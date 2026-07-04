@@ -1,0 +1,23 @@
+{
+  "question_id": "cf7895b9-4c75-4330-9b02-0bc7750b55c2",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In natural deduction, the rule 'from φ → ψ and φ, infer ψ' is:",
+  "choices": [
+    "→-introduction (→I)",
+    "→-elimination (→E), also called modus ponens",
+    "reductio ad absurdum (RAA)",
+    "∧-elimination (∧E)"
+  ],
+  "answer": 1,
+  "explanation": "This is →-elimination, i.e. modus ponens. →-introduction (option 1) is the converse move — assume φ, derive ψ, then conclude φ→ψ while discharging φ. RAA (option 3) and ∧E (option 4) concern negation and conjunction, not implication.",
+  "tags": [
+    "natural-deduction",
+    "modus-ponens",
+    "implication",
+    "elimination-rules"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

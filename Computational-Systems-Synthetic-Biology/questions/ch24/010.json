@@ -1,0 +1,19 @@
+{
+  "chapter": 24,
+  "phase": 4,
+  "kind": "blank",
+  "text": "___ MD runs multiple replicas of a system at different temperatures and periodically attempts to swap configurations between them using a Metropolis criterion, helping the simulation escape local energy minima.",
+  "choices": [
+    "Replica Exchange"
+  ],
+  "answer": "Replica Exchange",
+  "explanation": "Replica Exchange MD (REMD) uses high-temperature replicas to cross energy barriers and periodic Metropolis-criterion swaps to let low-temperature replicas sample diverse conformational states, addressing the tendency of standard MD to become trapped in local minima beyond about 1 microsecond.",
+  "tags": [
+    "molecular-dynamics",
+    "enhanced-sampling",
+    "remd"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "8f11dc72-9130-453a-ab4d-287223e7ab2b"
+}

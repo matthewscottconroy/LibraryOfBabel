@@ -1,0 +1,19 @@
+{
+  "chapter": 18,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Adaptive laboratory evolution (ALE) guarantees that any mutation improving growth rate under product-stress conditions will also increase the production yield of the target compound.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: ALE selects directly for growth or survival, not production, and growth selection does not always equal production selection. Evolved beneficial mutations can improve tolerance or growth at the expense of product yield, which is precisely why mechanism discovery and careful genomic reverse-engineering are still required after an ALE experiment before the beneficial changes can be rationally re-engineered into a production strain.",
+  "tags": [
+    "adaptive-laboratory-evolution",
+    "growth-production-tradeoff"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "1a371432-ae81-4a86-bba9-36d28666ed0a"
+}

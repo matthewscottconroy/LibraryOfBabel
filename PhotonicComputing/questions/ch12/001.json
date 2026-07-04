@@ -1,0 +1,18 @@
+{
+  "question_id": "0f4884bb-619a-4554-96c7-f0872f12a1b7",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In a feedforward layer a = f(Wa + b), what fraction of the operations are matrix MACs, and why does that matter for photonics?",
+  "choices": [
+    "About 50%, so photonics must also accelerate the activation functions",
+    "More than 99% (e.g. 99.83% in an MNIST MLP), so accelerating only the matrix multiply addresses essentially all of the arithmetic",
+    "Under 10%; most operations are the nonlinear activations",
+    "Exactly N*log(N) of the operations"
+  ],
+  "answer": 1,
+  "explanation": "The MAC-to-activation ratio is N_{l-1} (hundreds to tens of thousands): an MNIST MLP is 99.83% MACs and a GPT-3-class layer has ~1.8e9 MACs against ~1e5 pointwise ops. So an optical accelerator that speeds only W*a still covers nearly all the arithmetic; activations are cheap and scale only as O(N).",
+  "tags": ["deep-learning", "mac", "matrix-multiplication"],
+  "difficulty": "beginner",
+  "generated": true
+}

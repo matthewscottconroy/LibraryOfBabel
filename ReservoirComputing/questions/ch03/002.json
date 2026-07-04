@@ -1,0 +1,22 @@
+{
+  "question_id": "96d77b5d-5ad5-402c-9d0d-9c33b6a71722",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The echo_state_property_test method drives the reservoir from several different random initial states and concludes that the ESP holds when:",
+  "choices": [
+    "the maximum final-state distance between the trajectories falls below 1e-4",
+    "the measured spectral radius of W_rec falls below 1e-4",
+    "the ridge-regression training error drops below 1e-4",
+    "every eigenvalue of W_rec has magnitude below 1e-4"
+  ],
+  "answer": 0,
+  "explanation": "The empirical test runs the same input from n_trials different random initial states and returns esp_holds = (max final-state distance < 1e-4): if all trajectories collapse onto one echo state, the initial condition has been forgotten. It measures state convergence, not spectral radius, not training error, and not eigenvalue magnitudes (a reservoir with ESP typically has eigenvalues near 0.9, far above 1e-4).",
+  "tags": [
+    "esp",
+    "empirical-test",
+    "convergence"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

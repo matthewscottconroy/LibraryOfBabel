@@ -1,0 +1,13 @@
+{
+  "question_id": "7f3a1c9e-4b2d-4e8a-9c1f-6a2b8d4e0c73",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Who introduced the concept of 'stigmergy', based on observations of termite mound construction?",
+  "choices": ["Marco Dorigo", "E. O. Wilson", "Pierre-Paul Grassé", "Deborah Gordon"],
+  "answer": 2,
+  "explanation": "Pierre-Paul Grassé introduced stigmergy in 1959 from his studies of termite mound construction, recognizing that coordinated building could arise without direct worker-to-worker communication. Marco Dorigo later translated the idea into Ant Colony Optimization algorithms but did not coin the term; E. O. Wilson is associated with the superorganism concept; and Deborah Gordon is known for interaction-rate studies of harvester ants.",
+  "tags": ["stigmergy", "swarm-intelligence", "key-researchers"],
+  "difficulty": "beginner",
+  "generated": true
+}

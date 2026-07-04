@@ -1,0 +1,21 @@
+{
+  "question_id": "3604e5e6-2519-49df-858c-9874730ae2e7",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Is the matrix A = [[3, 1], [0, 3]] diagonalizable over ℝ?",
+  "choices": [
+    "No — the eigenvalue 3 has algebraic multiplicity 2 but geometric multiplicity 1",
+    "Yes — it is already upper triangular",
+    "Yes — its characteristic polynomial has the double root 3",
+    "No — it has no real eigenvalues"
+  ],
+  "answer": 0,
+  "explanation": "A − 3I = [[0,1],[0,0]] has a one-dimensional kernel, span{e₁}, so there is no basis of eigenvectors. A diagonalizable matrix with only eigenvalue 3 would have to equal 3I.",
+  "tags": [
+    "diagonalization",
+    "multiplicity"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,23 @@
+{
+  "chapter": 25,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In network analysis of biological systems, a scale-free network's degree distribution follows which mathematical form?",
+  "choices": [
+    "P(k) ~ k^(-\u03b3), a power-law distribution with a few high-degree hubs",
+    "P(k) ~ e^(-k/k\u2080), an exponential distribution with a capped maximum degree",
+    "P(k) ~ N(\u03bc,\u03c3\u00b2), a Gaussian distribution centered on the mean degree",
+    "P(k) = 1/N for all k, a uniform distribution across degrees"
+  ],
+  "answer": 0,
+  "explanation": "Scale-free biological networks (e.g., many PPI networks) follow a power-law degree distribution P(k)~k^(-\u03b3), producing a small number of highly connected hub nodes and many low-degree nodes. Exponential distributions (second option) describe networks with a capped degree such as the E. coli regulatory network, not scale-free ones. Gaussian and uniform distributions (third and fourth options) would produce a typical degree with no hubs, contradicting the hub-dominated topology seen in many biological networks.",
+  "tags": [
+    "degree-distribution",
+    "scale-free",
+    "power-law",
+    "graph-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "f43ebea1-eefa-4951-a057-415b9e63748e"
+}

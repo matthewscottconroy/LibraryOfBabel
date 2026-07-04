@@ -1,0 +1,18 @@
+{
+  "question_id": "64411352-1b06-423a-942b-11e94142b9e8",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Descartes's doctrine of continuous creation — that God must re-create (conserve) the world at every moment — rests on which key premise?",
+  "choices": [
+    "Time is merely the order of succession among events, not a container",
+    "Every genuine idea must be a copy of a prior sensory or introspective impression",
+    "The parts of time are ontologically independent, so a thing's existing at one moment does not entail its existing at the next",
+    "Simultaneity is relative to an observer's inertial frame of reference"
+  ],
+  "answer": 2,
+  "explanation": "Continuous creation follows from the ontological independence of temporal moments: because a thing's existing at one instant does not by itself guarantee its existing at the next, God's ongoing creative act is required for the world to persist (Third Meditation; Principles I.21). Choice 0 is Leibniz's relationalism and choice 1 is Hume's copy principle, both from other thinkers; choice 3 is a twentieth-century relativistic idea entirely foreign to Descartes.",
+  "tags": ["descartes", "continuous-creation", "conservation", "temporal-atomism"],
+  "difficulty": "intermediate",
+  "generated": true
+}

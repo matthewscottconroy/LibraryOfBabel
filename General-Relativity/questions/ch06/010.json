@@ -1,0 +1,13 @@
+{
+  "question_id": "32e36e9f-16c4-48b6-b407-015d5dff25e8",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Rapidity is defined by φ = arctanh(v/c), with γ = cosh φ and βγ = sinh φ. Unlike velocities, rapidities ___ linearly when collinear boosts are composed.",
+  "choices": ["add"],
+  "answer": "add",
+  "explanation": "For collinear boosts the rapidities are additive, φ_total = φ₁ + φ₂, whereas velocities combine by u = (u'+v)/(1+u'v/c²). Because γ = cosh φ and βγ = sinh φ, a boost is a hyperbolic rotation through angle φ. Summing N equal rapidities gives velocity tanh(Nφ), which approaches but never reaches c.",
+  "tags": ["rapidity", "boost", "velocity-addition"],
+  "difficulty": "intermediate",
+  "generated": true
+}

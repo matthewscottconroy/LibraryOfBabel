@@ -1,0 +1,22 @@
+{
+  "question_id": "8cac225f-c180-4f36-8e0e-617f4a79fbea",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "By Noether's theorem, a continuous symmetry of the action yields a conserved quantity. Invariance of the action under rotations corresponds to conservation of:",
+  "choices": [
+    "angular momentum",
+    "energy",
+    "linear momentum",
+    "electric charge"
+  ],
+  "answer": 0,
+  "explanation": "The book pairs each symmetry with its conserved charge: rotation ↔ angular momentum, time translation ↔ energy, spatial translation ↔ linear momentum, gauge symmetry ↔ charge. Rotational invariance therefore gives angular-momentum conservation, while the other options are the charges belonging to the other three symmetries.",
+  "tags": [
+    "noether",
+    "conservation",
+    "symmetry"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

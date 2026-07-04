@@ -1,0 +1,22 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A BLAST search returns a hit with an E-value of 1e-3. How should this result typically be interpreted?",
+  "choices": [
+    "Highly significant homology, near certainty of a true evolutionary relationship",
+    "Borderline; conventionally not considered significant since common thresholds are around 1e-5 or lower",
+    "The alignment covers exactly 0.1% of the query sequence length",
+    "The probability that the two sequences are homologous is precisely 0.001"
+  ],
+  "answer": 1,
+  "explanation": "An E-value of 1e-3 falls short of the conventional significance threshold of about 1e-5 (with 1e-10 considered high-confidence), so it is generally treated as borderline rather than significant. The E-value is the expected number of chance hits at that score, not a probability of homology and not a measure of query coverage, so the last two options misinterpret what the statistic means.",
+  "tags": [
+    "blast",
+    "e-value",
+    "statistics"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "0cdc3dda-2bf5-4939-9732-ea70c2d1db76"
+}

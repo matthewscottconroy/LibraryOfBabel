@@ -1,0 +1,13 @@
+{
+  "question_id": "17500678-f157-4f24-add6-91e8290a6745",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Because of silicon's large thermo-optic coefficient (dn/dT = 1.87x10^-4 per K), a silicon microring resonance drifts with temperature at approximately:",
+  "choices": ["0.69 pm/K", "69 pm/K", "6.9 nm/K", "1.87 pm/K"],
+  "answer": 1,
+  "explanation": "A silicon microring resonance shifts about 69 pm per kelvin, which is why every ring needs active thermal stabilization (~1 mW). 0.69 pm/K and 6.9 nm/K are off by two orders of magnitude in opposite directions; 1.87 pm/K mistakes the thermo-optic coefficient's mantissa for the drift rate.",
+  "tags": ["thermo-optic", "ring-resonator", "thermal-drift"],
+  "difficulty": "intermediate",
+  "generated": true
+}

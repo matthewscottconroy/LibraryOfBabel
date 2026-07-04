@@ -1,0 +1,22 @@
+{
+  "question_id": "f26815e7-859a-4761-b26a-3233cab6a731",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Strong representationalists (Dretske, Tye) appeal to the 'transparency' of experience, the observation that:",
+  "choices": [
+    "Experiences are private and cannot be described at all",
+    "Perception is infallible",
+    "When we try to introspect an experience of blue we seem to 'see through' it to the blue object, finding no separate inner quality to attend to",
+    "Physical objects are actually mind-dependent"
+  ],
+  "answer": 2,
+  "explanation": "The transparency (diaphanousness) observation, which Moore noted, is that when we try to introspect an experience of blue we 'see through' it to the blue object, finding no separate inner quality to attend to; Dretske and Tye take this to support representationalism. Options 0, 1, and 3 are unrelated claims about privacy, infallibility, and idealism.",
+  "tags": [
+    "representationalism",
+    "transparency",
+    "tye-dretske"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

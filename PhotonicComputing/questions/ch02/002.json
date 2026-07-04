@@ -1,0 +1,13 @@
+{
+  "question_id": "ca9e9bf9-34b9-48d7-b796-a28e81c5b270",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Einstein's treatment of a two-level atom in equilibrium with radiation relates the stimulated absorption coefficient B₁₂ and the stimulated emission coefficient B₂₁. What is the relation?",
+  "choices": ["B₁₂ = B₂₁ (they are equal)", "B₁₂ = 2 B₂₁", "B₁₂ ≫ B₂₁", "B₁₂ = A₂₁"],
+  "answer": 0,
+  "explanation": "The interaction is symmetric, so B₁₂ = B₂₁: at equal populations, stimulated absorption and stimulated emission occur at equal rates. A₂₁ is the separate spontaneous-emission coefficient, related by A₂₁ = (ℏω³/π²c³)B₂₁, not equal to B₁₂.",
+  "tags": ["einstein-coefficients", "stimulated-emission", "absorption"],
+  "difficulty": "beginner",
+  "generated": true
+}

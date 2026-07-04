@@ -1,0 +1,21 @@
+{
+  "question_id": "a5fdb024-0616-4ab7-a2fa-15f6efde3a29",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "blank",
+  "text": "An infinite binary sequence that passes every effective (computably enumerable) statistical test is called ___ random.",
+  "choices": [
+    "Martin-Lof",
+    "Martin-Lof",
+    "ML",
+    "Martin-Loef"
+  ],
+  "answer": "Martin-Lof",
+  "explanation": "Martin-Lof randomness is the standard notion; by the Levin-Schnorr theorem it is equivalent to prefixes being incompressible, K(omega up to n) >= n - O(1).",
+  "tags": [
+    "martin-lof-randomness",
+    "algorithmic-randomness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

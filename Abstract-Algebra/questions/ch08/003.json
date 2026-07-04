@@ -1,0 +1,21 @@
+{
+  "question_id": "8b446972-4e16-4425-9e96-8360e75e046f",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "For a subgroup H ≤ G, the left cosets satisfy aH = bH exactly when:",
+  "choices": [
+    "a⁻¹b ∈ H",
+    "ab⁻¹ ∈ H",
+    "ab ∈ H",
+    "a = b"
+  ],
+  "answer": 0,
+  "explanation": "aH = bH iff b ∈ aH iff b = ah for some h ∈ H iff a⁻¹b ∈ H. The condition ab⁻¹ ∈ H instead characterizes equality of RIGHT cosets Ha = Hb; the two agree for all a, b precisely when H is normal.",
+  "tags": [
+    "groups",
+    "cosets"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

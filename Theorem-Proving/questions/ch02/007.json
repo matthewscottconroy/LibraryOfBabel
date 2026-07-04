@@ -1,0 +1,21 @@
+{
+  "question_id": "20363f6c-1bba-46fb-8684-a38f6752ac38",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "When substituting a term t for a free variable x in φ, if t contains a variable y that would fall within the scope of a ∀y or ∃y in φ, that occurrence of y becomes wrongly bound — the phenomenon called variable capture, which is avoided by α-renaming.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Variable capture occurs when a free variable of t is 'captured' by a quantifier in φ, altering the meaning; the standard remedy is to α-rename the offending bound variable before substituting. Proof assistants avoid capture automatically via de Bruijn indices.",
+  "tags": [
+    "substitution",
+    "variable-capture",
+    "alpha-renaming",
+    "bound-variables"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

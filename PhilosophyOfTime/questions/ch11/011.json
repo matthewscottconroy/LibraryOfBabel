@@ -1,0 +1,18 @@
+{
+  "question_id": "7e604325-687c-462e-ba88-16244bcc3223",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The 'rate problem' component of the problem of temporal passage (Section 39.1) is the objection that:",
+  "choices": [
+    "specifying a rate of passage requires two independent units, yet 'one second per second' measures time against itself and so conveys no information",
+    "special relativity denies any frame-independent set of simultaneous events, so an objective 'now' cannot be defined",
+    "if the block grows, an observer cannot tell whether they are at its leading edge or at some earlier point already in the past",
+    "erasing the memory of an earlier moment dissipates at least k_B T ln 2 of heat, giving experience a thermodynamic direction"
+  ],
+  "answer": 0,
+  "explanation": "The rate problem observes that a genuine rate needs a second, independent temporal dimension; 'one second per second' is trivially uninformative because it measures time in terms of itself. Option 1 is the distinct presentism-relativity impasse, option 2 is the growing block's 'how do we know it is now now?' epistemological worry (Braddon-Mitchell), and option 3 is Landauer's principle — each a real topic in the unit, but none is the rate problem.",
+  "tags": ["passage-problem", "rate-problem", "metaphysics-of-time", "open-questions"],
+  "difficulty": "advanced",
+  "generated": true
+}

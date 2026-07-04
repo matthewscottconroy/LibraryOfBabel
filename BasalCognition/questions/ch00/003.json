@@ -1,0 +1,13 @@
+{
+  "question_id": "c3e6a9b4-5d0f-4a8c-9b4e-3f7d0a2c6b59",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Maturana and Varela's theory of autopoiesis characterizes a living system as 'organizationally closed.' What does this mean?",
+  "choices": ["The system is sealed off from all exchange of matter and energy with its surroundings", "The system's sole objective is to maximize the number of offspring it produces", "The system continuously produces the very components that in turn produce the system, forming a self-producing network", "The system's responses are dictated by instructions received directly from the environment"],
+  "answer": 2,
+  "explanation": "Autopoiesis (self-production) means the network of processes produces the components, and those components constitute the network, closing it organizationally. Option 0 confuses organizational closure with physical/thermodynamic closure, but autopoietic systems are open to matter and energy. Option 1 is a Darwinian fitness notion, not autopoiesis. Option 3 contradicts structural coupling, in which the environment perturbs but does not instruct the cell.",
+  "tags": ["autopoiesis", "maturana-varela", "what-is-life"],
+  "difficulty": "intermediate",
+  "generated": true
+}

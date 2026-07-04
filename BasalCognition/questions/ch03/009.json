@@ -1,0 +1,20 @@
+{
+  "question_id": "7b1a9e35-8c0d-4a62-9f47-3d5e2b1c8a09",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The Paramecium 'avoiding reaction' (backward swimming, turning, then forward swimming in a new direction) is triggered when depolarization opens voltage-gated channels that admit an influx of ___ ions, reversing the ciliary beat (Eckert, 1972).",
+  "choices": [
+    "calcium"
+  ],
+  "answer": "calcium",
+  "explanation": "The answer is calcium. Roger Eckert established that calcium influx through voltage-gated channels in the anterior membrane drives ciliary reversal and therefore the avoiding reaction, a biophysical mechanism (electrical signaling plus calcium as a second messenger) structurally homologous to neural signaling.",
+  "tags": [
+    "ciliates",
+    "paramecium",
+    "calcium",
+    "avoiding-reaction"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

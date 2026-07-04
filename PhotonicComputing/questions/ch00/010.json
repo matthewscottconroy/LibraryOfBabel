@@ -1,0 +1,20 @@
+{
+  "question_id": "041fa127-8193-4c79-86b8-94f41a3978fd",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "In a silicon modulator, injecting free carriers changes both the real refractive index (phase) and the absorption at once. This unavoidable coupling of the real and imaginary parts of the response follows from causality and is expressed by the ___ relations.",
+  "choices": [
+    "Kramers-Kronig"
+  ],
+  "answer": "Kramers-Kronig",
+  "explanation": "The Kramers-Kronig relations link the real (dispersion) and imaginary (absorption) parts of the susceptibility because a medium cannot respond before it is driven (causality). The Soref-Bennett equations for silicon are a specific instance, which is why phase modulation in silicon necessarily brings some amplitude modulation.",
+  "tags": [
+    "kramers-kronig",
+    "causality",
+    "silicon-modulator",
+    "absorption"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

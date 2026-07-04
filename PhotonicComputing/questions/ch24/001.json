@@ -1,0 +1,13 @@
+{
+  "question_id": "46843e7d-53af-4e74-a69b-9f7a788d6e3f",
+  "chapter": 24,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the central thesis of electronic-photonic co-design regarding where the cost of a photonic accelerator lies?",
+  "choices": ["The optical nonlinearity dominates the energy budget", "In nearly every photonic accelerator built to date, the majority of energy, latency, area, and cost lives in the electronics, not the optics", "The laser is the only significant power draw; the conversions are essentially free", "Photonic cores are so slow that latency dominates everything else"],
+  "answer": 1,
+  "explanation": "The book states bluntly that the electronics (DAC/ADC, TIA, drivers, thermal tuning, control) dominate energy, latency, area, and cost, while the optical MAC itself costs femtojoules. Choice 0 is wrong (photonics does the linear ops; nonlinearity is pushed to electronics); choice 2 ignores the pJ-scale conversion tax; choice 3 inverts reality — the optical core is extremely fast (tens of ps).",
+  "tags": ["co-design", "electronics-overhead", "energy"],
+  "difficulty": "beginner",
+  "generated": true
+}

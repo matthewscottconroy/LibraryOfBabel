@@ -1,0 +1,19 @@
+{
+  "question_id": "e8cef19e-e4e4-416a-b4c0-6e40183487b6",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Topological entropy is always less than or equal to the KS entropy of any invariant measure.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "The variational principle gives h_top = sup_mu h_mu, so h_top is greater than or equal to every h_mu, not less. Equality holds only for a measure of maximal entropy.",
+  "tags": [
+    "variational-principle",
+    "topological-entropy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

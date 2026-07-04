@@ -1,0 +1,13 @@
+{
+  "question_id": "50cd8b08-77d2-470b-a28e-02e69bbe2afc",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "tf",
+  "text": "According to functionalism, a mental state such as pain is identical to one specific physical brain-state type, and therefore it cannot be multiply realized.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "This describes type-identity theory, not functionalism. Functionalism defines pain by its functional role, which can be realized by many different physical substrates; indeed multiple realizability is a central motivation for functionalism and an objection to the very type-identity theory the statement actually characterizes.",
+  "tags": ["functionalism", "type identity", "multiple realizability", "philosophy of mind"],
+  "difficulty": "intermediate",
+  "generated": true
+}

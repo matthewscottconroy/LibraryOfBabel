@@ -1,0 +1,13 @@
+{
+  "question_id": "7388f686-f3b5-410b-aae2-280999009220",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For single-photon detection at 1550 nm, superconducting nanowire single-photon detectors (SNSPDs) beat InGaAs SPADs in efficiency, dark-count rate, and timing jitter. What is their main practical drawback?",
+  "choices": ["They only work at visible wavelengths", "They have very low detection efficiency (15–25%)", "They have very high dark-count rates", "They require cryogenic cooling, adding cost and complexity"],
+  "answer": 3,
+  "explanation": "SNSPDs deliver 90–98% efficiency, sub-cps dark counts, and <3 ps jitter, but must operate at cryogenic temperatures (kW-scale 4 K cooling), which is their chief disadvantage. The low efficiency (15–25%) and high dark counts actually describe the room-temperature SPAD, and SNSPDs span 400–2000 nm, not just visible.",
+  "tags": ["snspd", "spad", "single-photon-detection", "quantum-photonics"],
+  "difficulty": "intermediate",
+  "generated": true
+}

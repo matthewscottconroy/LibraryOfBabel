@@ -1,0 +1,19 @@
+{
+  "chapter": 13,
+  "phase": 2,
+  "kind": "blank",
+  "text": "TGF-beta family ligands signal through receptor serine/threonine kinases that phosphorylate receptor-activated Smad (R-Smad) proteins. R-Smads then partner with the co-Smad ___ before translocating together into the nucleus to regulate gene expression.",
+  "choices": [
+    "Smad4"
+  ],
+  "answer": "Smad4",
+  "explanation": "Smad4 is the shared co-Smad that partners with ligand-activated R-Smads (such as Smad1/5/8 for BMP signaling or Smad2/3 for TGF-beta signaling) to form a complex that enters the nucleus and regulates transcription. This pathway is also subject to negative feedback via inhibitory I-Smads (Smad6/7), which compete with R-Smads for receptor interaction.",
+  "tags": [
+    "tgf-beta",
+    "smad-pathway",
+    "pattern-formation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "50f535b3-f9aa-44a0-be62-776be2344565"
+}

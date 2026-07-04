@@ -1,0 +1,19 @@
+{
+  "question_id": "c7a09e34-6d1b-4820-9a5f-3e8c2b0d7146",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The idea that the root apex acts like the brain of a lowly animal, the 'root-brain' hypothesis later revived by Baluska's group, originates with Charles ___, who studied root-tip movements together with his son Francis.",
+  "choices": [
+    "Darwin"
+  ],
+  "answer": "Darwin",
+  "explanation": "The answer is Darwin. Charles Darwin (with Francis Darwin, in The Power of Movement in Plants, 1880) proposed the root-brain analogy; Baluska and colleagues later extended it to the root-apex transition zone as a 'command centre,' a claim most plant biologists regard as overstated.",
+  "tags": [
+    "root-intelligence",
+    "darwin",
+    "root-brain"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

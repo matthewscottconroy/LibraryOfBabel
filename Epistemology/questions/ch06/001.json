@@ -1,0 +1,18 @@
+{
+  "question_id": "58975dbf-ee76-428e-b3e2-42b15d5e415f",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Descartes's substance dualism, what is the fundamental relationship between mind and body?",
+  "choices": [
+    "Mental states are identical to brain-state types, just as water is identical to H₂O.",
+    "There is a single physical substance that nonetheless instantiates irreducibly mental properties.",
+    "Mind and body are two distinct kinds of substance — an unextended thinking thing (res cogitans) and an extended, spatial thing (res extensa) — neither reducible to the other.",
+    "Mental states are defined by their causal roles, so what physically realizes them is irrelevant."
+  ],
+  "answer": 2,
+  "explanation": "Substance dualism posits two distinct substances whose essential attributes, thought and extension, are incompatible, which is why Descartes concludes they are really distinct. Option 0 states the type-identity theory, option 1 states property dualism (one substance bearing irreducible mental properties), and option 3 states functionalism. Each is a genuine rival, but the signature of substance dualism is a plurality of substances, not merely of properties.",
+  "tags": ["substance dualism", "descartes", "mind-body problem", "dualism"],
+  "difficulty": "beginner",
+  "generated": true
+}

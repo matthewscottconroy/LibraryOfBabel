@@ -1,0 +1,20 @@
+{
+  "question_id": "65d12acb-5240-45f6-908f-820ad8276870",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The subspace {v ∈ V : T(v) = 0} is called the ___ of the linear map T.",
+  "choices": [
+    "kernel",
+    "null space",
+    "nullspace"
+  ],
+  "answer": "kernel",
+  "explanation": "The kernel measures failure of injectivity: T is injective iff ker T = {0}. Its dimension is the nullity, tied to the rank by rank–nullity.",
+  "tags": [
+    "linear-maps",
+    "kernel"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

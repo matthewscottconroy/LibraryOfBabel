@@ -1,0 +1,22 @@
+{
+  "question_id": "b6d68931-9593-4c9d-8e7e-2964ee30a467",
+  "chapter": 10,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Bowen's sofic entropy extends Kolmogorov-Sinai entropy to actions of:",
+  "choices": [
+    "amenable groups only",
+    "sofic groups (including many non-amenable ones)",
+    "finite groups only",
+    "solvable groups only"
+  ],
+  "answer": 1,
+  "explanation": "Sofic entropy is defined for sofic groups - those approximable by finite symmetric groups - which include free groups and many non-amenable groups; it recovers KS entropy for Z.",
+  "tags": [
+    "sofic-entropy",
+    "bowen",
+    "non-amenable"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

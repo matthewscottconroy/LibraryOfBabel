@@ -1,0 +1,19 @@
+{
+  "question_id": "c0ae136c-c4ae-4179-a223-4efc0c8e6da2",
+  "chapter": 14,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In any chain complex, every boundary is a cycle.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "d ∘ d = 0 says exactly that im(dₙ₊₁) ⊆ ker(dₙ): boundaries are automatically cycles. Homology asks the converse question — which cycles are boundaries.",
+  "tags": [
+    "chain-complexes",
+    "homology"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "0cca877d-e71f-48b7-bcb5-6ff3f5eb1cbc",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In the empirical ESP lab, a reservoir with rho = 0.1 forgets its initial condition (its trajectories converge) more SLOWLY than a reservoir with rho = 0.99.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False, the direction is reversed. The lab reports that rho = 0.1 converges within about 10 steps (rapid forgetting) while rho = 0.99 converges very slowly as it approaches the ESP boundary. The log-distance decays at rate ~ log(rho) per step, so a smaller rho gives faster convergence and a shorter effective washout.",
+  "tags": [
+    "esp",
+    "convergence-rate",
+    "spectral-radius"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

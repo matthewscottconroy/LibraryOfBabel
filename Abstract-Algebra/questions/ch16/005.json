@@ -1,0 +1,18 @@
+{
+  "question_id": "1de134b4-21fd-4401-80d2-0c472ea37ddc",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In a double complex, which relation must the horizontal and vertical differentials $d_h,d_v$ satisfy so that $d=d_h+d_v$ is a differential on the total complex?",
+  "choices": [
+    "$d_h d_v = d_v d_h$ (they commute)",
+    "$d_h d_v + d_v d_h = 0$ (they anticommute)",
+    "$d_h d_v = 0$",
+    "$d_h = -d_v$"
+  ],
+  "answer": 1,
+  "explanation": "The chapter requires $d_h^2=0$, $d_v^2=0$, and $d_h d_v + d_v d_h = 0$; anticommuting is exactly what forces $d^2 = d_h^2 + (d_h d_v + d_v d_h) + d_v^2 = 0$. If they commuted, $d^2 = 2 d_h d_v \\neq 0$ in general; $d_h d_v = 0$ is stronger than required and false in general; and $d_h = -d_v$ is impossible since the two differentials have different bidegrees.",
+  "tags": ["spectral-sequences", "double-complex", "total-complex"],
+  "difficulty": "intermediate",
+  "generated": true
+}

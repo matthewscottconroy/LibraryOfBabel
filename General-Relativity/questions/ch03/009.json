@@ -1,0 +1,19 @@
+{
+  "question_id": "484677cf-407a-4f02-b505-512002fc8a07",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The book classifies Laplace's equation ∇²u = 0 as a hyperbolic PDE whose natural well-posed problem is the specification of Cauchy (initial) data.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False on both counts: Laplace's equation has B² − AC < 0, so it is elliptic, not hyperbolic. Its well-posed formulation is a boundary value problem (Dirichlet or Neumann); imposing Cauchy data on an elliptic equation is Hadamard's classic ill-posed example, where high-frequency perturbations blow up.",
+  "tags": [
+    "pde",
+    "well-posedness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

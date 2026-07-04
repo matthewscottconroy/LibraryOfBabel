@@ -1,0 +1,23 @@
+{
+  "question_id": "0aa1c6d6-9746-4bf3-bfda-8ad352043b8c",
+  "chapter": 13,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In LTL, what does the formula G φ assert about an execution trace?",
+  "choices": [
+    "φ holds at the next state",
+    "φ holds at some future state",
+    "φ holds at every state of the trace (always)",
+    "φ holds until some other condition becomes true"
+  ],
+  "answer": 2,
+  "explanation": "G ('globally/always') means φ holds at all positions of the trace. Choice 0 is X (next), choice 1 is F (eventually/finally), and choice 3 is the U (until) operator. A frequent error is reading G as 'eventually' — that is F.",
+  "tags": [
+    "ltl",
+    "temporal-operators",
+    "globally",
+    "always"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

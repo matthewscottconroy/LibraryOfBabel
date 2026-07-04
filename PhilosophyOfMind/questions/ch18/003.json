@@ -1,0 +1,23 @@
+{
+  "question_id": "79c3d457-8f6a-4753-a4a5-a48c46553ded",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "mc",
+  "text": "P.F. Strawson's \"Freedom and Resentment\" (1962) argues that moral responsibility is grounded in...",
+  "choices": [
+    "libertarian free will, which requires that determinism be false",
+    "our practices of reactive attitudes (resentment, gratitude, indignation), largely independent of whether determinism is true",
+    "the neuroscientific discovery of an uncaused decision center in the brain",
+    "a utilitarian calculation of the social benefits of praise and punishment"
+  ],
+  "answer": 1,
+  "explanation": "Strawson relocates responsibility from metaphysics to the reactive attitudes constitutive of interpersonal life, so the truth of determinism is largely beside the point. Option A is the incompatibilist libertarian view he sidesteps, C misrepresents his non-metaphysical approach, and D is a consequentialist theory of punishment, not Strawson's.",
+  "tags": [
+    "strawson",
+    "reactive-attitudes",
+    "moral-responsibility",
+    "compatibilism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

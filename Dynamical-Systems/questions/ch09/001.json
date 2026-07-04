@@ -1,0 +1,21 @@
+{
+  "question_id": "739bf5af-14a2-40fd-8aee-7ea3548002ce",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The p-Wasserstein distance between two probability measures measures:",
+  "choices": [
+    "the pointwise difference of their densities",
+    "the minimal cost of transporting the mass of one onto the other",
+    "their KL divergence",
+    "only their total-variation distance"
+  ],
+  "answer": 1,
+  "explanation": "Wasserstein (optimal-transport) distance is the minimum average cost to rearrange one distribution into the other. It differs from density differences, KL divergence, and total variation.",
+  "tags": [
+    "wasserstein-distance",
+    "optimal-transport"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

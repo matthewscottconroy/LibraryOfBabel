@@ -1,0 +1,19 @@
+{
+  "question_id": "e238f1b2-e7f8-403f-b593-a84059f0d3e5",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In his early 'machine' functionalism, Putnam identified mental states with the abstract states of a probabilistic ___ machine, defined by a state-transition table rather than by any physical hardware.",
+  "choices": [
+    "Turing"
+  ],
+  "answer": "Turing",
+  "explanation": "Putnam's early machine functionalism identified mental states with the abstract states of a probabilistic Turing machine (automaton), defined by a machine (state-transition) table rather than by physical hardware. The expected word is 'Turing'.",
+  "tags": [
+    "machine-functionalism",
+    "turing-machine",
+    "putnam"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

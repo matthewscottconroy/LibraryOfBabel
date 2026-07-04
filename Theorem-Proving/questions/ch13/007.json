@@ -1,0 +1,20 @@
+{
+  "question_id": "09c598db-6435-4f04-ac97-0f85199c86be",
+  "chapter": 13,
+  "phase": 3,
+  "kind": "tf",
+  "text": "A safety property (e.g., 'the system never deadlocks') is one whose violation is always witnessed by a finite prefix of an execution.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: this is the defining feature of safety ('something bad never happens') — any violation shows up in a finite prefix, so bounded checking can catch it. Liveness properties, by contrast, cannot be refuted by any finite prefix; they require reasoning about infinite behavior.",
+  "tags": [
+    "safety",
+    "liveness",
+    "finite-prefix"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

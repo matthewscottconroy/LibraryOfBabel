@@ -1,0 +1,13 @@
+{
+  "question_id": "d9b3e60c-2a71-4c58-8f42-7e15d9a6b304",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "tf",
+  "text": "The objection that \"existence is not a real predicate\" was first raised by Anselm himself as a caution against his own ontological argument.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. \"Existence is not a predicate\" is Kant's objection to the ontological argument in the Critique of Pure Reason, not Anselm's. Anselm treats existence in reality as a great-making feature; it is Kant who denies that existence adds anything to a concept of a thing.",
+  "tags": ["ontological-argument", "kant", "anselm"],
+  "difficulty": "beginner",
+  "generated": true
+}

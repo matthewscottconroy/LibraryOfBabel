@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "¹³C metabolic flux analysis is needed in addition to flux balance analysis primarily because:",
+  "choices": [
+    "FBA cannot solve linear programming problems for large networks",
+    "¹³C labeling data is required just to build the stoichiometric matrix",
+    "Actual intracellular fluxes depend on enzyme levels, regulation, and kinetics, so parallel pathways (e.g., glycolysis vs. the pentose phosphate pathway) cannot be resolved by stoichiometric optimization alone",
+    "FBA cannot include exchange reactions with the extracellular environment"
+  ],
+  "answer": 2,
+  "explanation": "FBA predicts an optimal flux distribution under an assumed objective, but real fluxes are shaped by enzyme levels, regulation, and kinetics, so alternative parallel routes carrying the same net stoichiometry (like glycolysis versus the pentose phosphate pathway) cannot be distinguished from metabolite concentrations or optimization alone; ¹³C-MFA resolves this by tracking isotope labeling patterns experimentally. FBA's linear programs scale well computationally, the stoichiometric matrix is built from reaction stoichiometry alone (no isotope data needed), and exchange reactions are a standard, well-supported part of FBA models.",
+  "tags": [
+    "13c-mfa",
+    "flux-analysis",
+    "parallel-pathways"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "b7394648-e206-4d97-a494-1b4a322eb226"
+}

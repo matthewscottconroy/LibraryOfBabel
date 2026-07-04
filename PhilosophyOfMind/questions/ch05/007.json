@@ -1,0 +1,22 @@
+{
+  "question_id": "cc9e4b06-5c56-4f0e-9caa-ed85741983b9",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The 'systems reply' to the Chinese Room contends that:",
+  "choices": [
+    "The room could never behave as though it understands Chinese",
+    "Although the person doesn't understand Chinese, the whole system (person + rulebook + symbol store) does",
+    "Only a robot with sensorimotor links to the world could understand",
+    "Simulating each neuron of a Chinese speaker's brain would yield understanding"
+  ],
+  "answer": 1,
+  "explanation": "The systems reply grants that the person doesn't understand Chinese but holds that the whole system (person, rulebook, and symbol store together) does. Option 2 is the distinct robot reply (sensorimotor grounding) and option 3 is the brain-simulator reply; option 0 denies the behavioural premise the thought experiment stipulates.",
+  "tags": [
+    "chinese-room",
+    "systems-reply",
+    "functionalism"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

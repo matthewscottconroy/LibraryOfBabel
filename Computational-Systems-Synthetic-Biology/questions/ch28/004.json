@@ -1,0 +1,22 @@
+{
+  "chapter": 28,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What is a key risk of running an underpowered study (too few replicates for the expected effect size)?",
+  "choices": [
+    "Underpowered studies automatically satisfy multiple-testing correction requirements",
+    "A positive result that is found may actually be a false positive (the 'winner's curse'), and true effects may go undetected",
+    "The study will always find a statistically significant result regardless of true effect",
+    "Underpowered studies eliminate the need for a negative control"
+  ],
+  "answer": 1,
+  "explanation": "Underpowered studies cannot reliably detect real effects, and when a 'significant' result does turn up, it is disproportionately likely to be an inflated or false positive -- the so-called winner's curse -- while real effects are often missed, wasting resources. Being underpowered does not guarantee significance (the opposite is true), has no bearing on the need for negative controls, and has nothing to do with multiple-testing correction, which is a separate statistical concern.",
+  "tags": [
+    "statistical-power",
+    "underpowered-studies",
+    "replicates"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "266270dd-cdff-420e-904e-6493fb09b0a7"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In a standard PDB file, which record type stores the atomic coordinates of ligands, ions, and water molecules rather than the standard polymer residues?",
+  "choices": [
+    "HETATM",
+    "SEQRES",
+    "ATOM",
+    "CONECT"
+  ],
+  "answer": 0,
+  "explanation": "HETATM records hold coordinates for heteroatoms such as bound ligands, metal ions, and water molecules. ATOM records instead hold coordinates for the standard amino acid or nucleotide polymer, SEQRES lists the sequence without any coordinates, and CONECT specifies explicit bonds (typically for ligands) rather than atomic positions.",
+  "tags": [
+    "pdb-format",
+    "file-format"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "5725f22b-5795-422f-be16-03eb4ac89590"
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "88c0f758-4fd0-469a-99a7-db7c0f9c746f",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The emptiness problem for one-dimensional subshifts of finite type is:",
+  "choices": [
+    "undecidable",
+    "decidable",
+    "Pi-0-1 complete",
+    "open"
+  ],
+  "answer": 1,
+  "explanation": "In 1D, checking whether an SFT is nonempty reduces to a reachable cycle in the transition graph and is decidable. Undecidability appears only in 2D (the domino problem).",
+  "tags": [
+    "1d-sft",
+    "decidability",
+    "symbolic-dynamics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

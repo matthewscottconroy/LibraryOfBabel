@@ -1,0 +1,21 @@
+{
+  "question_id": "a55d1865-3fe0-4e50-a048-17890872d944",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which of the following maps ℝ² → ℝ² is linear?",
+  "choices": [
+    "T(x,y) = (x + y, x − y)",
+    "T(x,y) = (x + 1, y)",
+    "T(x,y) = (xy, y)",
+    "T(x,y) = (x², y)"
+  ],
+  "answer": 0,
+  "explanation": "T(x,y) = (x+y, x−y) respects addition and scaling. Adding a constant is affine but not linear (T(0) ≠ 0), while xy and x² fail homogeneity: T(2v) ≠ 2T(v).",
+  "tags": [
+    "linear-maps",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

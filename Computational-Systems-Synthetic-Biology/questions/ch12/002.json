@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which statement correctly describes positive autoregulation (PAR), in which a transcription factor activates its own gene?",
+  "choices": [
+    "It produces a slower response time than an unregulated gene and, with sufficient cooperativity, can generate bistable, all-or-none switching with memory",
+    "It always speeds up the response to steady state by a factor of about two, similar to negative autoregulation",
+    "It reduces cell-to-cell variability in protein levels relative to an unregulated gene",
+    "It requires a downstream repressor Z to generate a sign-sensitive delay in gene expression"
+  ],
+  "answer": 0,
+  "explanation": "PAR is slower than an unregulated gene (a 'memory effect') and, when cooperative (Hill coefficient > 1), can create bistability and switch-like, all-or-none expression that persists after the inducing signal is removed. Choices 1 and 2 both describe negative autoregulation, which speeds up responses and reduces noise -- the opposite of PAR. Choice 3 describes a feed-forward loop, which requires three nodes (X, Y, Z), not a single-gene autoregulatory motif.",
+  "tags": [
+    "positive-autoregulation",
+    "bistability",
+    "network-motifs"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "1e771e01-a343-40ef-b475-501ba9a60118"
+}

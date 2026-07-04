@@ -1,0 +1,20 @@
+{
+  "question_id": "88f139e7-400c-4030-b0f4-b51585e24d71",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Rejecting innate ideas, Locke holds that the mind at birth is a blank slate, or ___, whose entire content is derived from sensation and reflection.",
+  "choices": [
+    "tabula rasa"
+  ],
+  "answer": "tabula rasa",
+  "explanation": "Locke's positive doctrine is that the mind begins as 'white paper, void of all characters,' the tabula rasa, with every idea traceable to sensation (the outer senses) or reflection (awareness of the mind's own operations). 'Tabula rasa' is the canonical term for this blank-slate thesis.",
+  "tags": [
+    "locke",
+    "empiricism",
+    "tabula rasa",
+    "innate ideas"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

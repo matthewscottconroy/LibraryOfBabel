@@ -1,0 +1,23 @@
+{
+  "question_id": "5bf50c23-1fce-4eb9-aade-b83266c28305",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A disease has a prevalence of 1% in a population. A test has sensitivity 99% (positive in 99% of diseased people) and a false-positive rate of 1% (positive in 1% of healthy people). A randomly selected person tests positive. To the nearest whole percent, what is the posterior probability that they actually have the disease?",
+  "choices": [
+    "99%",
+    "50%",
+    "1%",
+    "About 2%"
+  ],
+  "answer": 1,
+  "explanation": "By Bayes' theorem, P(D|+) = (0.99 x 0.01) / [(0.99 x 0.01) + (0.01 x 0.99)] = 0.0099 / (0.0099 + 0.0099) = 0.0099 / 0.0198 = 0.5, i.e. exactly 50%. Answering 99% commits the base-rate neglect fallacy by reading the posterior off the test's sensitivity while ignoring the low prior; answering 1% ignores the evidence and returns the prior. Because the true-positive mass exactly equals the false-positive mass here, a positive result leaves the odds at 1:1.",
+  "tags": [
+    "base-rate neglect",
+    "bayes theorem",
+    "calculation",
+    "posterior"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

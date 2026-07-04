@@ -1,0 +1,23 @@
+{
+  "question_id": "d6ef80a1-842f-47df-8de1-374d4bee1524",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The proof that irrational a, b exist with a^b rational uses √2^√2: if it is rational take a = b = √2, otherwise take a = √2^√2 and b = √2. Why is this proof called non-constructive?",
+  "choices": [
+    "Because √2 is irrational and so cannot be written down exactly",
+    "Because it secretly uses induction with no base case",
+    "Because a^b is in fact never rational for these choices",
+    "Because it never determines which of the two cases holds, so it exhibits no definite witness"
+  ],
+  "answer": 3,
+  "explanation": "The argument invokes the law of excluded middle on '√2^√2 is rational or not' and concludes existence without deciding which case is real, so it produces no explicit witness pair — the hallmark of a non-constructive (classical) existence proof. Under the BHK interpretation, a constructive proof of ∃x P(x) must supply an actual witness. The other options misstate the mathematics.",
+  "tags": [
+    "existence",
+    "non-constructive",
+    "excluded-middle",
+    "bhk"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

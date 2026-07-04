@@ -1,0 +1,19 @@
+{
+  "question_id": "65f87b11-9f59-4889-bb3e-07c17ebed164",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "blank",
+  "text": "A distribution (generalized function) is defined as a continuous linear ___ acting on a space of smooth test functions.",
+  "choices": [
+    "functional"
+  ],
+  "answer": "functional",
+  "explanation": "Distributions are continuous linear functionals on the space of test functions (smooth, compactly supported), assigning a number to each test function. This dual viewpoint makes objects such as the Dirac delta, which sends phi to phi(0), fully rigorous.",
+  "tags": [
+    "distributions",
+    "test-functions",
+    "functional"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

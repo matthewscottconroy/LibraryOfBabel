@@ -1,0 +1,19 @@
+{
+  "question_id": "12026cad-8a51-4671-8243-b9dd1e80494a",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "tf",
+  "text": "ℤ/6ℤ is a field.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "2·3 ≡ 0 (mod 6), so ℤ/6ℤ has zero divisors; in a field ab = 0 forces a = 0 or b = 0. ℤ/nℤ is a field exactly when n is prime.",
+  "tags": [
+    "fields",
+    "zero-divisors"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

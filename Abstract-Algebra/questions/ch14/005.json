@@ -1,0 +1,21 @@
+{
+  "question_id": "06353425-f6a6-40a5-a4a9-c3b7a58ffe90",
+  "chapter": 14,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In the snake lemma, the connecting morphism δ runs from:",
+  "choices": [
+    "ker γ to coker α",
+    "ker α to coker γ",
+    "coker γ to ker α",
+    "ker β to coker β"
+  ],
+  "answer": 0,
+  "explanation": "The six-term exact sequence is ker α → ker β → ker γ →δ→ coker α → coker β → coker γ. The snake path: lift c ∈ ker γ to B, push to B′ by β, pull back to A′ by exactness, and read the class in coker α. It is this δ that produces the long exact sequence in homology.",
+  "tags": [
+    "snake-lemma",
+    "diagram-chasing"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

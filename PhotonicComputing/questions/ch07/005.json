@@ -1,0 +1,13 @@
+{
+  "question_id": "1af3bb58-0b6a-470f-af8a-d7ae9564ad5f",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A diffractive deep neural network (D2NN) built from passive metasurface layers has a fundamental limit on its expressive power. What is it?",
+  "choices": ["It cannot be trained by backpropagation", "It can classify only audio, never images", "Passive diffraction is linear, so a stack of layers collapses to a single linear operation unless nonlinearity is added", "Each diffractive layer must be thicker than 1 mm"],
+  "answer": 2,
+  "explanation": "Because passive diffraction is a linear operation, cascading layers yields only another linear map, so without optical nonlinearity a D2NN cannot match a deep nonlinear network. D2NNs are in fact trained by backpropagation through a differentiable diffraction (angular-spectrum) model and reach 91-93% on MNIST images, so the other options are false.",
+  "tags": ["d2nn", "diffractive-computing", "metasurface"],
+  "difficulty": "intermediate",
+  "generated": true
+}

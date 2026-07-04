@@ -1,0 +1,13 @@
+{
+  "question_id": "6fa066e4-1be2-4688-852e-1778e0f0e01a",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In Lewis's analysis of the grandfather paradox, the time traveller Tim is prevented from killing his grandfather by a mysterious force that specially protects the past from alteration.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Lewis holds that Tim has the local ability to kill his grandfather but lacks the global ability, since no self-consistent history contains both Tim and the grandfather's early death; Tim fails for ordinary reasons (the gun jams, he misses), not because of any special protective barrier. The paradox dissolves via two senses of 'can,' not via a mysterious force.",
+  "tags": ["time", "time-travel", "lewis", "grandfather-paradox"],
+  "difficulty": "intermediate",
+  "generated": true
+}

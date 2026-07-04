@@ -1,0 +1,18 @@
+{
+  "question_id": "eb7b01ef-09c5-446b-86e7-1fabe58f1891",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In spike-timing-dependent plasticity (STDP), with delta_t = t_post - t_pre, when is a synapse potentiated (LTP)?",
+  "choices": [
+    "When delta_t > 0 (presynaptic spike before postsynaptic): the input helps cause the post-spike, so the synapse strengthens",
+    "When delta_t < 0 (post before pre): the synapse strengthens",
+    "Whenever pre and post both fire, regardless of order",
+    "Only when delta_t = 0 exactly"
+  ],
+  "answer": 0,
+  "explanation": "STDP is causal Hebbian: delta_w = +A_+*exp(-delta_t/tau_+) for delta_t > 0 (pre before post, LTP), and depression for delta_t < 0 (post before pre, LTD). Option 1 has the sign reversed, option 2 ignores the timing/causality that defines STDP, and potentiation is strongest as delta_t approaches 0 from above but is not confined to exactly zero.",
+  "tags": ["neuromorphic", "stdp", "plasticity", "hebbian"],
+  "difficulty": "intermediate",
+  "generated": true
+}

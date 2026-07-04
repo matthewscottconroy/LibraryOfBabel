@@ -1,0 +1,22 @@
+{
+  "question_id": "c1ed9194-519e-43d7-8d95-82752c7fbebf",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Oseledec multiplicative ergodic theorem guarantees that Lyapunov exponents exist:",
+  "choices": [
+    "everywhere without exception",
+    "only for linear systems",
+    "mu-almost everywhere for an ergodic measure mu",
+    "nowhere"
+  ],
+  "answer": 2,
+  "explanation": "Oseledec gives an invariant splitting and well-defined exponents for mu-a.e. point (constant a.e. when mu is ergodic). It is a measure-theoretic almost-everywhere statement, not everywhere and not restricted to linear systems.",
+  "tags": [
+    "oseledec",
+    "lyapunov-exponents",
+    "ergodic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

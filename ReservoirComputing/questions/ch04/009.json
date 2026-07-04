@@ -1,0 +1,19 @@
+{
+  "question_id": "337aeb6f-6845-480e-8133-4f1aff77f285",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A common rule-of-thumb starting value for the spectral radius in ESN design is rho ~ ___.",
+  "choices": [
+    "0.9",
+    "0.95"
+  ],
+  "answer": "0.9",
+  "explanation": "The chapters recommend setting rho(W_rec) ~ 0.9 as a default starting point (the esn.py docstring likewise notes rho ~ 0.9-0.95), just below the ESP boundary so memory is long while the reservoir stays contractive. Tune upward for long-memory tasks, downward for instantaneous ones.",
+  "tags": [
+    "spectral-radius",
+    "rule-of-thumb"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

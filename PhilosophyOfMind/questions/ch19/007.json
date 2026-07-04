@@ -1,0 +1,20 @@
+{
+  "question_id": "c3164886-1651-40f5-9418-649d3712eb9e",
+  "chapter": 19,
+  "phase": 6,
+  "kind": "tf",
+  "text": "Experimental philosophy (x-phi) uses survey methods to study ordinary people's intuitions, and some of its findings challenge the evidential authority traditionally granted to philosophical intuitions.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: x-phi imports social-science survey methods to probe intuitions, and results such as cross-cultural Gettier variation and the Knobe effect have been used to question whether intuitions track universal conceptual truths. Defenders of tradition reply by appealing to expert intuitions, but the challenge is real.",
+  "tags": [
+    "experimental-philosophy",
+    "intuitions",
+    "method"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

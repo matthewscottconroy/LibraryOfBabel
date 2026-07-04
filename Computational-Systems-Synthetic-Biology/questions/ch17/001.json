@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "For the standard Streptococcus pyogenes Cas9 (SpCas9), which sequence must immediately follow (3') the 20-nt target site for Cas9 to bind and cut?",
+  "choices": [
+    "5'-NGG-3' (PAM)",
+    "5'-TTTN-3' (PAM)",
+    "5'-NNGRRT-3' (PAM)",
+    "5'-NRN-3' or NYN-3' (PAM)"
+  ],
+  "answer": 0,
+  "explanation": "SpCas9 requires an NGG protospacer adjacent motif (PAM) immediately 3' of the target site on the non-template strand. TTTN is the 5' PAM recognized by Cas12a (Cpf1); NNGRRT is the PAM recognized by the smaller SaCas9; and NRN/NYN describes the near-PAMless SpRY variant, not wild-type SpCas9.",
+  "tags": [
+    "crispr-cas9",
+    "pam",
+    "spcas9"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "4420f369-ddcd-45b4-949d-2457044e0d65"
+}

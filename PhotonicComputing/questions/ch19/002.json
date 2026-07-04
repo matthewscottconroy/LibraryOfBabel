@@ -1,0 +1,18 @@
+{
+  "question_id": "172245af-5c58-4183-b1fb-c8cdf2559422",
+  "chapter": 19,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Photons do not interact, so a deterministic two-qubit gate seems impossible in linear optics. What did Knill, Laflamme and Milburn (2001) use to escape this?",
+  "choices": [
+    "A strong optical (Kerr) nonlinearity acting directly between the photons",
+    "Cooling the photons until they begin to interact",
+    "Slowing light in a resonator so the photons collide",
+    "Measurement (photodetection of ancilla photons), which is not a linear operation and supplies the missing nonlinearity"
+  ],
+  "answer": 3,
+  "explanation": "KLM's insight is that photodetection is nonlinear: interfering data photons with ancillas and post-selecting on a heralding detector pattern applies a transformation no linear circuit can. No inter-photon interaction, Kerr medium, cooling, or collision is used (choices 0-2); the nonlinearity comes entirely from measurement.",
+  "tags": ["klm", "measurement-induced-nonlinearity", "2001"],
+  "difficulty": "beginner",
+  "generated": true
+}

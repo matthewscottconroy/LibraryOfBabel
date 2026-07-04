@@ -1,0 +1,18 @@
+{
+  "question_id": "8c6e363d-0918-4701-ba26-ff30f655278e",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the Posterior Analytics, Aristotle faces the threat that if all scientific knowledge (episteme) requires demonstration, then justification is either circular or regresses without end. What is his solution?",
+  "choices": [
+    "Circular demonstration is acceptable, since P and Q can be mutually supporting, so no undemonstrated starting points are required.",
+    "The first principles of a science are grasped immediately and non-demonstratively by nous, halting the regress without circularity.",
+    "The regress is harmless because an actual infinity of prior premises can in fact be traversed in thought.",
+    "All scientific premises are ultimately provisional hypotheses, accepted only insofar as their observable consequences are borne out."
+  ],
+  "answer": 1,
+  "explanation": "Aristotle's foundationalism stops the regress by holding that first principles (definitions, axioms, postulates) are known directly by nous rather than by demonstration, giving knowledge a non-inferential base. Option 3 describes the later hypothetico-deductive model that displaced Aristotle's demonstrative ideal, not his own view, and he explicitly rejects the circular route in option 0.",
+  "tags": ["aristotle", "posterior analytics", "regress", "nous", "first principles"],
+  "difficulty": "advanced",
+  "generated": true
+}

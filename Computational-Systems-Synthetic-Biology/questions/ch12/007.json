@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Liu et al. (2011, Nature) developed a framework for identifying the minimum set of 'driver nodes' needed to fully control a network's dynamical state -- a concept later linked to reprogramming factors such as the Yamanaka factors. What computational method did they use to find this minimum driver set?",
+  "choices": [
+    "A maximum matching algorithm applied to the network's directed graph structure",
+    "Random forest regression trained on single-cell expression profiles",
+    "Mutual information filtering using the Data Processing Inequality",
+    "Quasi-steady-state relaxation of a Boolean network into a continuous sigmoidal model"
+  ],
+  "answer": 0,
+  "explanation": "Liu et al. used maximum matching on the network's directed graph to identify the minimum set of driver nodes needed for full structural controllability, and observed that known cell-reprogramming factors often correspond to these driver nodes. Choice 1 describes GENIE3-style GRN inference, and choice 2 describes ARACNE -- both infer network structure from data rather than analyze controllability of a known structure. Choice 3 describes the SQUAD approach for converting Boolean models to continuous ones, an unrelated technique.",
+  "tags": [
+    "network-controllability",
+    "driver-nodes",
+    "cell-reprogramming"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "a0dcff4a-b487-4606-a596-3071181255fb"
+}

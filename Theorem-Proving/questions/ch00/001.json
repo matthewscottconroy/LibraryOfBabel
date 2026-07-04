@@ -1,0 +1,23 @@
+{
+  "question_id": "5d6f7afa-706d-4a7e-b45d-e512f7659fba",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "According to the chapter, an argument is *valid* exactly when:",
+  "choices": [
+    "all of its premises are true",
+    "the conclusion is true in every model in which all the premises are true",
+    "it is valid and, in addition, all of its premises are true",
+    "the conclusion happens to be true in the actual world"
+  ],
+  "answer": 1,
+  "explanation": "Validity means the conclusion is true in every model where all premises are true; it is a property of form, not of actual truth. Options 1 and 4 confuse validity with having true premises or a true conclusion, and option 3 is the definition of soundness (validity PLUS true premises), not validity.",
+  "tags": [
+    "validity",
+    "soundness",
+    "arguments",
+    "semantics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

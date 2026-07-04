@@ -1,0 +1,18 @@
+{
+  "chapter": 8,
+  "phase": 1,
+  "kind": "blank",
+  "text": "___ is a graph neural network trained on PDB structures that takes a fixed protein backbone (Cα, Cβ, N, C coordinates) as input and outputs an amino acid probability distribution at each position; it runs in seconds and is commonly paired with RFdiffusion in protein design pipelines.",
+  "choices": [
+    "ProteinMPNN"
+  ],
+  "answer": "ProteinMPNN",
+  "explanation": "ProteinMPNN takes backbone coordinates and predicts a sequence likely to fold into that backbone, running in roughly seconds per design, which is why it is used downstream of RFdiffusion-generated backbones in modern design pipelines (RFdiffusion → ProteinMPNN → AlphaFold validation). Rosetta also does sequence design but is a Monte Carlo energy-function search, not a graph neural network, and ESM-2 is a general protein language model rather than a backbone-conditioned design tool.",
+  "tags": [
+    "proteinmpnn",
+    "protein-design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "982b4a81-4059-4482-a166-1781d9195b39"
+}

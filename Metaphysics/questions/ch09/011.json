@@ -1,0 +1,19 @@
+{
+  "question_id": "ded001a3-d82b-476f-88b0-0cb0ca396deb",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "blank",
+  "text": "On Kripke and Putnam's essentialism, natural-kind terms such as 'water' function as ___ designators, referring to the same kind (the substance with structure H2O) in every possible world.",
+  "choices": [
+    "rigid"
+  ],
+  "answer": "rigid",
+  "explanation": "For Kripke and Putnam, natural-kind terms are rigid designators whose reference is fixed by the actual microstructure of paradigm samples, yielding necessary a posteriori truths like 'water is H2O.' Putnam's Twin Earth case shows that a phenomenally identical liquid with structure XYZ would simply not be water.",
+  "tags": [
+    "natural-kinds",
+    "kripke-putnam",
+    "rigid-designation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "a950dde4-cfd4-4aa4-8c8d-043204301255",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "For a linear homogeneous ODE, any linear combination of solutions is again a solution (the superposition principle).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Linearity and homogeneity make the solution set a vector space, so c1*y1 + c2*y2 solves the equation whenever y1 and y2 do. Superposition fails for nonlinear equations and does not apply to the particular solution of a nonhomogeneous equation.",
+  "tags": [
+    "superposition",
+    "linearity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "a07e28df-978d-4157-a96e-bb276d2fe0ea",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In this textbook's convention, the spacetime interval between two nearby events is given by which expression?",
+  "choices": [
+    "ds² = c²dt² + dx² + dy² + dz²",
+    "ds² = c²dt² − dx² − dy² − dz²",
+    "ds² = −c²dt² + dx² + dy² + dz²",
+    "ds² = −c²dt² − dx² − dy² − dz²"
+  ],
+  "answer": 2,
+  "explanation": "The book adopts signature (−,+,+,+) with η_μν = diag(−1,+1,+1,+1), giving ds² = −c²dt² + dx² + dy² + dz². Choice 1 is the (+,−,−,−) convention common in particle physics, which the text explicitly notes it does not use. Unlike dt or dx separately, the interval ds² is invariant under Lorentz transformations.",
+  "tags": ["minkowski", "interval", "signature"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "7ce1ffb7-f007-4bf0-84a8-40421cc5a5d9",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A module over a field F is exactly the same thing as:",
+  "choices": [
+    "an F-vector space",
+    "an abelian group",
+    "a commutative ring",
+    "an ideal of F"
+  ],
+  "answer": 0,
+  "explanation": "The module axioms over a field are literally the vector space axioms. Module theory generalizes linear algebra by allowing scalars from an arbitrary ring, where familiar facts (existence of bases, etc.) start to fail.",
+  "tags": [
+    "modules",
+    "vector-spaces"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

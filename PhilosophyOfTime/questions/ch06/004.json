@@ -1,0 +1,18 @@
+{
+  "question_id": "ba162c56-25e4-4ad6-b993-8808d4d6d1e7",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the twin paradox the traveling twin returns younger than the stay-at-home twin. On the book's resolution, what breaks the apparent symmetry and explains the age difference?",
+  "choices": [
+    "The stay-at-home twin occupies a metaphysically preferred rest frame in which her clock is the truly correct one.",
+    "The traveling twin's worldline is non-inertial: she accelerates to turn around, so hers is not the geodesic of maximal proper time between departure and reunion.",
+    "Gravitational time dilation slows the traveling twin's clock during acceleration, exactly as a clock runs slow deeper in a gravity well.",
+    "Length contraction shortens the traveling twin's path, so she simply traverses less distance."
+  ],
+  "answer": 1,
+  "explanation": "The situation is not symmetric: one twin stays inertial while the other accelerates at the turnaround, so her bent worldline is not a geodesic, and in Minkowski spacetime the geodesic maximizes proper time, leaving her with less. Option 0 is the neo-Lorentzian preferred-frame move, which special relativity does not require; option 2 imports gravitational time dilation, but the book resolves the case purely by the geometry of worldlines; option 3 misidentifies length contraction as the cause.",
+  "tags": ["twin-paradox", "proper-time", "worldline", "acceleration", "special-relativity"],
+  "difficulty": "intermediate",
+  "generated": true
+}

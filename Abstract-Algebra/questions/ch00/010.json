@@ -1,0 +1,19 @@
+{
+  "question_id": "78b36f20-9101-44bc-abea-a53f8856ade9",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Within an axiomatic system, an axiom that cannot be derived from the remaining axioms is said to be ___.",
+  "choices": [
+    "independent",
+    "logically independent"
+  ],
+  "answer": "independent",
+  "explanation": "Independence, consistency, and completeness are the classical desiderata for axiom systems. The parallel postulate's independence from Euclid's other axioms — revealed by non-Euclidean geometries — is the historic example.",
+  "tags": [
+    "foundations",
+    "axiomatic-method"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

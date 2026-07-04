@@ -1,0 +1,21 @@
+{
+  "question_id": "1358d7cb-1e0d-4b7a-90ad-717deec141cb",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the Galois correspondence for a finite Galois extension E/F with group G, larger subgroups of G correspond to:",
+  "choices": [
+    "smaller intermediate fields",
+    "larger intermediate fields",
+    "only the normal intermediate extensions",
+    "nothing — the correspondence does not interact with inclusion"
+  ],
+  "answer": 0,
+  "explanation": "The bijection H ↦ E^H is inclusion-REVERSING: more automorphisms fix fewer elements. The extremes match up as G ↦ F and {id} ↦ E, and [E^H : F] = [G : H].",
+  "tags": [
+    "galois-theory",
+    "galois-correspondence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

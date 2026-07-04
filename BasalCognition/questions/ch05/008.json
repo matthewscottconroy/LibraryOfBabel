@@ -1,0 +1,13 @@
+{
+  "question_id": "9c0e4b21-7a3d-4f68-8b09-1e5c2a7d6f30",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In Ophiocordyceps-infected 'zombie ants,' the final 'death grip' bite is produced by the fungus directly invading and taking over the ant's brain.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Hughes et al. (2011) found the fungus is largely absent from the brain even during manipulated behavior; the terminal death grip is caused by the fungus invading and atrophying the jaw muscles directly (a muscular effect), while behavioral steering is thought to involve neuroactive compounds released into the hemolymph rather than physical invasion of neural tissue.",
+  "tags": ["symbiosis", "ophiocordyceps", "parasitic-manipulation"],
+  "difficulty": "advanced",
+  "generated": true
+}

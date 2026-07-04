@@ -1,0 +1,13 @@
+{
+  "question_id": "672ee032-c9d9-4e51-9d5a-65cf214d9a1e",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The quantum efficiency η of a photodetector is defined as:",
+  "choices": ["the ratio of output voltage to input optical power", "the fraction of incident photons that produce a collected electron-hole pair", "the photocurrent divided by the dark current", "the detector bandwidth divided by its responsivity"],
+  "answer": 1,
+  "explanation": "Quantum efficiency is the fraction of incident photons that generate a collected electron-hole pair, and it directly sets the responsivity R = ηeλ/(hc). Voltage-per-power is a transimpedance gain, photocurrent-over-dark-current is a signal ratio, and bandwidth-over-responsivity is not a defined efficiency.",
+  "tags": ["quantum-efficiency", "photodiode", "detection"],
+  "difficulty": "beginner",
+  "generated": true
+}

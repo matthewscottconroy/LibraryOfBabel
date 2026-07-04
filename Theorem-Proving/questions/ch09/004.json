@@ -1,0 +1,19 @@
+{
+  "question_id": "73748550-b195-4acb-a77f-1e9f57b02dd9",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "tf",
+  "text": "True or False: The Church–Turing thesis — that every effectively computable function is Turing-computable — is a thesis supported by evidence, not a formally proved theorem.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. It is a thesis, not a theorem, because 'effectively computable' is an informal, pre-mathematical notion. Its decisive evidence is the convergence of Turing machines, Church's lambda calculus, and the Gödel–Kleene recursive functions on exactly the same class of functions.",
+  "tags": [
+    "church-turing-thesis",
+    "computability"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

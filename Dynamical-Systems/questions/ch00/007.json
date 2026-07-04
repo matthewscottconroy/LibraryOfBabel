@@ -1,0 +1,22 @@
+{
+  "question_id": "d2a4bc5f-a943-42c2-88e6-f146650337b4",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The stable manifold of a hyperbolic equilibrium x* consists of the initial conditions that:",
+  "choices": [
+    "stay at constant distance from x*",
+    "converge to x* as t -> -infinity",
+    "converge to x* as t -> +infinity",
+    "leave every neighborhood of x*"
+  ],
+  "answer": 2,
+  "explanation": "The stable manifold W^s is the set of points whose forward orbits converge to x*, tangent to the stable eigenspace E^s. Backward-time convergence characterizes the unstable manifold W^u instead.",
+  "tags": [
+    "stable-manifold",
+    "invariant-manifolds",
+    "hyperbolicity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

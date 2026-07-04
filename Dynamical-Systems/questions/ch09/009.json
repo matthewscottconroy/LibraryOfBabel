@@ -1,0 +1,20 @@
+{
+  "question_id": "07d60244-8415-4816-9ca6-e4a1b654eb13",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Borel reducibility E <=_B F means F is no harder to classify than E.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "E <=_B F means E is no harder than F: an F-invariant serves as a complete E-invariant. The direction of comparison is the reverse of the statement.",
+  "tags": [
+    "borel-reducibility",
+    "descriptive-set-theory",
+    "classification"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

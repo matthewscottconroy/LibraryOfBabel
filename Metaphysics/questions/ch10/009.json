@@ -1,0 +1,20 @@
+{
+  "question_id": "c8871cef-e0d8-46f5-a774-20bc2298b1ee",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Classical extensional mereology requires that every object be ultimately composed of atoms, and is therefore inconsistent with 'gunk' (matter every part of which has a further proper part).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Classical mereology is neutral on atomism: it is fully consistent with atomless gunk, in which every part has a further proper part. The axioms (supplementation and unrestricted fusion) do not entail that decomposition terminates in simples.",
+  "tags": [
+    "gunk",
+    "atomism",
+    "classical-mereology"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

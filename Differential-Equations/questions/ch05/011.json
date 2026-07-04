@@ -1,0 +1,19 @@
+{
+  "question_id": "c743a9a1-607d-4335-8749-b617c116cbd8",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The ___ theorem guarantees existence and uniqueness of weak solutions to elliptic PDEs given a bounded, coercive bilinear form on a Hilbert space.",
+  "choices": [
+    "Lax-Milgram"
+  ],
+  "answer": "Lax-Milgram",
+  "explanation": "Lax-Milgram provides existence and uniqueness for the weak (variational) formulation a(u,v) = l(v) when a is bounded and coercive, underpinning the finite element method. Coercivity is the key hypothesis, generalizing positive-definiteness.",
+  "tags": [
+    "lax-milgram",
+    "weak-solutions",
+    "variational"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

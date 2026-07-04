@@ -1,0 +1,21 @@
+{
+  "question_id": "4c901f67-af0b-4b9a-9472-b48e0a4ea006",
+  "chapter": 16,
+  "phase": 4,
+  "kind": "mc",
+  "text": "For a random variable over n outcomes, Shannon entropy H(X) is MAXIMIZED by which distribution?",
+  "choices": [
+    "The uniform distribution (all p_i = 1/n)",
+    "A deterministic distribution (one outcome with probability 1)",
+    "The most skewed distribution possible",
+    "Any distribution — H is constant across them"
+  ],
+  "answer": 0,
+  "explanation": "The maximum-entropy bound gives H(X) ≤ log₂ n with equality iff X is uniform — maximal uncertainty. A deterministic distribution instead MINIMIZES entropy at H = 0 (no uncertainty); heavier skew lowers entropy; and H plainly varies with the distribution.",
+  "tags": [
+    "maximum-entropy",
+    "uniform"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

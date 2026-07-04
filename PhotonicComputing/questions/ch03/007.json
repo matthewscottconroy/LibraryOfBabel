@@ -1,0 +1,13 @@
+{
+  "question_id": "adf4691f-8fca-4524-9de5-f434aea19014",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Theodore Maiman built the first working laser.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: Maiman demonstrated the first laser (a ruby laser), famously remarking 'I just went ahead and built the thing' after his grant proposal was rejected. Ruby is a three-level system, which is one reason the achievement was notable.",
+  "tags": ["history", "maiman", "ruby-laser"],
+  "difficulty": "beginner",
+  "generated": true
+}

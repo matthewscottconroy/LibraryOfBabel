@@ -1,0 +1,13 @@
+{
+  "question_id": "c4b8f012-6a97-4e3d-8b15-2f7a0c9e6d43",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Pamela Lyon's 'biogenic approach' to studying cognition recommends that researchers:",
+  "choices": ["Start from human cognition and ask which organisms come closest to it", "Start from what simple organisms actually do and ask what information processing is minimally necessary for adaptive behavior", "Restrict the term 'cognition' to systems that possess neurons", "Measure cognition exclusively via integrated information (phi)"],
+  "answer": 1,
+  "explanation": "The biogenic approach deliberately refuses the human yardstick, beginning instead from what simple organisms actually do and asking what information processing is minimally required for adaptive behavior in their ecological niche. Starting from human cognition (option 0) is the anthropocentric baseline it was designed to avoid; restricting cognition to neurons and equating it with phi are separate positions.",
+  "tags": ["biogenic-approach", "lyon", "measurement-problem"],
+  "difficulty": "beginner",
+  "generated": true
+}

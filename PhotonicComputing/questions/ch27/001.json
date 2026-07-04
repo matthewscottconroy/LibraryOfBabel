@@ -1,0 +1,18 @@
+{
+  "question_id": "a71de7ac-60bc-4402-aadb-78a0993d9152",
+  "chapter": 27,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The book calls its single most important structural claim about photonics' near-term role in computing the 'interconnect-first thesis.' What does that thesis assert?",
+  "choices": [
+    "Photons beat electrons at communication long before they beat them at logic",
+    "Optical computers will fully replace digital electronics within a decade",
+    "The Landauer limit is the binding constraint on photonic computing today",
+    "Analog optics excels at the 32-bit precision of scientific linear algebra"
+  ],
+  "answer": 0,
+  "explanation": "The interconnect-first thesis states that photons beat electrons at communication long before they beat them at logic, so photonics' first decisive role inside a computer is to move bits, not to do arithmetic. Full replacement is the promotional reflex the chapter rejects, Landauer is explicitly not the binding constraint, and analog optics is poor at high-precision scientific linear algebra.",
+  "tags": ["interconnect-first", "outlook", "communication-vs-logic"],
+  "difficulty": "beginner",
+  "generated": true
+}

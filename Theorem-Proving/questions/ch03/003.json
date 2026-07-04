@@ -1,0 +1,23 @@
+{
+  "question_id": "4c384054-9700-43ab-8828-f91f258160cd",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Compared with natural deduction, a Hilbert-style proof system is characterized by:",
+  "choices": [
+    "many inference rules (intro/elim for each connective) and no axioms",
+    "sequents of the form Γ ⊢ Δ together with structural rules",
+    "a tree-based refutation search that requires no creativity",
+    "a few axiom schemas plus a single inference rule (modus ponens)"
+  ],
+  "answer": 3,
+  "explanation": "A Hilbert system uses a small set of axiom schemas (typically 3–4) and just one rule, modus ponens — minimal but hard for humans. Option 1 describes natural deduction (rules, essentially no axioms), option 2 describes the sequent calculus, and option 3 describes semantic tableaux.",
+  "tags": [
+    "hilbert-system",
+    "axioms",
+    "modus-ponens",
+    "proof-systems"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

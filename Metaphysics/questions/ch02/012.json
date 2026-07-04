@@ -1,0 +1,18 @@
+{
+  "question_id": "abbd20c1-7e8a-49a8-810c-60c03e1a79c6",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Peter Geach's doctrine of ___ identity denies that there is any absolute identity relation, holding instead that a and b may be the same F yet not the same G.",
+  "choices": [
+    "relative"
+  ],
+  "answer": "relative",
+  "explanation": "Relative identity holds that identity claims are always relative to a sortal, so 'same lump' and 'same statue' can diverge and there is no framework-independent fact of identity. It offers one response to constitution and Ship-of-Theseus puzzles, but it conflicts with the standard, absolute logic of identity underwritten by Leibniz's Law.",
+  "tags": [
+    "relative-identity",
+    "geach"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "81c151db-0d4c-428f-bbfe-4d789dcad7f8",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "On Millikan's teleosemantic theory, what fixes the content of a mental representation is:",
+  "choices": [
+    "Whatever currently causes tokens of it under ideal conditions",
+    "Its inferential role within the subject's web of beliefs",
+    "The Shannon information it carries during a calibration period",
+    "Its biological proper function - what it was selected (in the organism's evolutionary history) to do"
+  ],
+  "answer": 3,
+  "explanation": "Teleosemantics (Millikan, in Language, Thought, and Other Biological Categories, 1984) fixes content by a representation's biological proper function - what it was selected to do in the organism's evolutionary history - which lets it handle misrepresentation naturally as failure to perform that function. Option 0 is pure causal covariance, option 2 is Dretske's informational account, and option 1 is inferential-role semantics; each is a distinct rival theory of content.",
+  "tags": [
+    "teleosemantics",
+    "millikan",
+    "content"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

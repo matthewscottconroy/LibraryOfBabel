@@ -1,0 +1,20 @@
+{
+  "question_id": "fb7af15f-dbac-498e-bc58-d5d25f4a6629",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "tf",
+  "text": "In a commutative ring with 1 ≠ 0, every maximal ideal is prime.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "R/M is a field, fields are integral domains, and R/P being a domain characterizes P prime. The converse fails: (0) is prime but not maximal in ℤ, and (x) is prime but not maximal in ℤ[x].",
+  "tags": [
+    "rings",
+    "maximal-ideals",
+    "prime-ideals"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "0b504c56-c05d-4515-9945-967d2b81e1b7",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Chalmers' 'hard problem' of consciousness is the problem of explaining:",
+  "choices": [
+    "How the brain discriminates and categorizes sensory stimuli",
+    "How attention selects some information for further processing",
+    "Why there is subjective experience at all — why physical processing is accompanied by 'something it is like'",
+    "How the brain produces verbal reports about its own internal states"
+  ],
+  "answer": 2,
+  "explanation": "The hard problem asks why physical/functional processing is accompanied by phenomenal experience at all, rather than going on 'in the dark.' Options 0, 1, and 3 are precisely the easy problems — discrimination, attention, and reportability — which Chalmers grants are tractable by ordinary cognitive science. The hard problem is what remains once every easy problem is solved.",
+  "tags": [
+    "hard-problem",
+    "chalmers",
+    "phenomenal-consciousness",
+    "easy-problems"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

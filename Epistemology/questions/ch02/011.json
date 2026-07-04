@@ -1,0 +1,20 @@
+{
+  "question_id": "876326dd-7b39-419f-bdbb-b9e7f884a3e8",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Kant argued that some judgments, such as '7 + 5 = 12', genuinely extend our knowledge rather than merely unpacking a definition, yet are justified independently of experience; he called such judgments ___ a priori.",
+  "choices": [
+    "synthetic"
+  ],
+  "answer": "synthetic",
+  "explanation": "For Kant a judgment is analytic when the predicate is contained in the subject (e.g., 'all bachelors are unmarried') and synthetic when the predicate adds new information; his central claim was that mathematics and principles like 'every event has a cause' are synthetic yet a priori, showing that pure reason yields substantive knowledge. The logical positivists denied this, holding that all a priori truths are analytic. The expected term is 'synthetic'.",
+  "tags": [
+    "a-priori",
+    "kant",
+    "synthetic-a-priori",
+    "mathematics"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

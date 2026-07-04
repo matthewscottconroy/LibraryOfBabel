@@ -1,0 +1,19 @@
+{
+  "chapter": 22,
+  "phase": 4,
+  "kind": "blank",
+  "text": "LSODA, a default solver for many biological ODE systems in SciPy, automatically switches between the non-stiff Adams method and the stiff ___ method depending on detected stiffness.",
+  "choices": [
+    "BDF"
+  ],
+  "answer": "BDF",
+  "explanation": "LSODA (Livermore Solver for ODEs with Automatic method switching) toggles between the non-stiff Adams method and the stiff Backward Differentiation Formula (BDF) method as the character of the system changes during integration.",
+  "tags": [
+    "scientific-computing",
+    "ode-solvers",
+    "lsoda"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "716898eb-bf6d-4bec-b827-297e078bf2dc"
+}

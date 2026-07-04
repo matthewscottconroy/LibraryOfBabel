@@ -1,0 +1,22 @@
+{
+  "question_id": "345ca09a-a049-4892-bbd2-33fa5644b84b",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What did the 2012 Cambridge Declaration on Consciousness actually assert?",
+  "choices": [
+    "That every animal with a nervous system, down to nematodes, is phenomenally conscious",
+    "That phenomenal consciousness requires a mammalian neocortex",
+    "That the hard problem of consciousness had been solved by comparative neuroscience",
+    "That non-human animals, including mammals, birds, and octopuses, possess the neurological substrates that generate consciousness"
+  ],
+  "answer": 3,
+  "explanation": "The Declaration carefully claimed shared neurological substrates in mammals, birds, and octopuses, using 'weight of evidence' language rather than certainty. It did not extend to all animals, did not require a neocortex (birds and octopuses lack one), and explicitly did not settle the hard problem.",
+  "tags": [
+    "cambridge-declaration",
+    "animal-consciousness",
+    "neural-substrate"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "a1e7b294-3c60-4d8f-9b05-7e2a1d6c8f40",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What does hyphal anastomosis contribute to a mycelial network?",
+  "choices": [
+    "It divides the network into isolated, single-walled cells",
+    "It permanently halts all cytoplasmic streaming",
+    "It is the tip-growth process by which individual hyphae elongate",
+    "It fuses hyphae into a true network with cycles and redundant pathways, adding robustness"
+  ],
+  "answer": 3,
+  "explanation": "Anastomosis is the regulated fusion of compatible hyphae, converting a branching tree into a looped network with redundant routes that are robust to damage and efficient for transport, and it requires molecular self-recognition. It does not isolate cells (choice 0) or stop streaming (choice 1), and it is distinct from tip elongation (choice 2).",
+  "tags": ["fungal-biology", "anastomosis", "network"],
+  "difficulty": "intermediate",
+  "generated": true
+}

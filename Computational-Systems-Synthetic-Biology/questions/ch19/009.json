@@ -1,0 +1,19 @@
+{
+  "chapter": 19,
+  "phase": 3,
+  "kind": "blank",
+  "text": "___ is the in vitro selection method used to enrich high-affinity nucleic acid aptamers from a random library over repeated rounds of binding, recovery, and amplification.",
+  "choices": [
+    "SELEX"
+  ],
+  "answer": "SELEX",
+  "explanation": "SELEX (Systematic Evolution of Ligands by Exponential enrichment) incubates a random nucleic acid library with a target, recovers the bound sequences, and amplifies them over repeated rounds, typically 8 to 15, to enrich for high-affinity aptamers. It is the nucleic-acid analog of phage display, which performs an equivalent enrichment role for protein and peptide binders.",
+  "tags": [
+    "selex",
+    "aptamers",
+    "in-vitro-selection"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "282754a5-cba2-428f-a0e1-286b85bef7a0"
+}

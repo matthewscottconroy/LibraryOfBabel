@@ -1,0 +1,24 @@
+{
+  "question_id": "2680ba35-e51d-49cf-ae8f-dbba6cde4117",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Plantinga's Reformed epistemology defends the rationality of belief in God by holding that:",
+  "choices": [
+    "it is wrong to believe anything on insufficient evidence, so theistic belief must be supported by successful natural-theology arguments.",
+    "given even a small probability that God exists, the enormous expected payoff of believing rationally mandates belief on prudential grounds.",
+    "in a forced, live, and momentous choice made under insufficient evidence, one may permissibly let one's passional nature decide the question.",
+    "belief in God can be 'properly basic' - rational without any inferential argument - and has warrant when produced by a properly functioning faculty (the sensus divinitatis) operating on a truth-oriented design plan."
+  ],
+  "answer": 3,
+  "explanation": "Reformed epistemology rejects the demand for propositional evidence: theistic belief can be foundational (properly basic) and warranted through proper cognitive function rather than argument. Option 0 is Clifford's evidentialism, the very position Plantinga opposes; option 1 is Pascal's prudential wager; and option 2 is James's will to believe - each a distinct route that, unlike Plantinga's, either supplies evidence or prudence or licenses belief without addressing warrant.",
+  "tags": [
+    "religious epistemology",
+    "reformed epistemology",
+    "plantinga",
+    "properly basic",
+    "sensus divinitatis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

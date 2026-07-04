@@ -1,0 +1,21 @@
+{
+  "question_id": "8c77560b-f2ae-4920-ac73-6d58117a42a3",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Let |G| = 15. What do the Sylow theorems force?",
+  "choices": [
+    "n₃ = n₅ = 1, both Sylow subgroups are normal, and G ≅ ℤ/15ℤ",
+    "G has five Sylow 3-subgroups",
+    "G is non-abelian",
+    "Nothing — several non-isomorphic groups of order 15 exist"
+  ],
+  "answer": 0,
+  "explanation": "n₃ ≡ 1 (mod 3) and n₃ | 5 force n₃ = 1; n₅ ≡ 1 (mod 5) and n₅ | 3 force n₅ = 1. The two normal Sylow subgroups intersect trivially and commute, so G ≅ ℤ/3ℤ × ℤ/5ℤ ≅ ℤ/15ℤ is the unique group of order 15.",
+  "tags": [
+    "sylow",
+    "classification"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

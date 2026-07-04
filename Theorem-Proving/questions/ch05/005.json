@@ -1,0 +1,22 @@
+{
+  "question_id": "4d3293fd-6307-4f2d-a6c5-c11b83ea0500",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Over ZF, the Axiom of Choice is provably equivalent to which of the following?",
+  "choices": [
+    "The Axiom of Foundation (Regularity)",
+    "The Continuum Hypothesis",
+    "The Well-Ordering Theorem (every set can be well-ordered) and Zorn's Lemma",
+    "The Axiom of Extensionality"
+  ],
+  "answer": 2,
+  "explanation": "The Axiom of Choice, the Well-Ordering Theorem, and Zorn's Lemma are all equivalent over ZF. Foundation and Extensionality are independent axioms unrelated to choice, and the Continuum Hypothesis is independent of ZFC entirely — it is not equivalent to AC.",
+  "tags": [
+    "axiom-of-choice",
+    "well-ordering",
+    "zorns-lemma"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

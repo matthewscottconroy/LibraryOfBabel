@@ -1,0 +1,20 @@
+{
+  "question_id": "eadfc04b-7309-402b-aa9e-142d01c3f167",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "___'s theorem guarantees: if a prime p divides |G|, then G contains an element of order p.",
+  "choices": [
+    "Cauchy",
+    "Cauchy's"
+  ],
+  "answer": "cauchy",
+  "explanation": "Cauchy's theorem is the sharpest general converse to Lagrange at the level of single primes; Sylow I extends it to the full prime power dividing |G|. For composite divisors existence can fail (A₄ has no subgroup of order 6).",
+  "tags": [
+    "groups",
+    "cauchy",
+    "lagrange"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

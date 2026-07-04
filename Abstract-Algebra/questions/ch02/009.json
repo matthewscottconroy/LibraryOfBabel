@@ -1,0 +1,19 @@
+{
+  "question_id": "a45a24ee-ecad-4253-82af-3e3373b45fc0",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The set of all linear combinations of vectors from a set S is called the ___ of S.",
+  "choices": [
+    "span",
+    "linear span"
+  ],
+  "answer": "span",
+  "explanation": "span(S) is the smallest subspace containing S — equivalently, the intersection of all subspaces containing S. S spans V when span(S) = V.",
+  "tags": [
+    "vector-spaces",
+    "span"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "bbd8429e-c37f-4e73-97eb-7c3184f3b0eb",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Caves (1981) showed interferometer shot noise comes from vacuum entering the dark port; injecting squeezed ___ into that port beats the standard quantum limit, and Advanced LIGO's ~3 dB of it yielded a ~15% binary-neutron-star range gain.",
+  "choices": [
+    "vacuum"
+  ],
+  "answer": "vacuum",
+  "explanation": "Squeezed vacuum injected into the interferometer's dark port replaces the ordinary vacuum fluctuations and lowers phase noise below the standard quantum limit, exactly as deployed in Advanced LIGO (Tse et al., 2019).",
+  "tags": [
+    "ligo",
+    "squeezed-vacuum",
+    "quantum-metrology"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is the function of the Shine-Dalgarno (SD) sequence within a bacterial ribosome binding site (RBS)?",
+  "choices": [
+    "It forms a stable stem-loop structure that halts RNA polymerase, terminating transcription",
+    "It binds the σ70 subunit of RNA polymerase to initiate transcription at the correct start site",
+    "It is cleaved by a self-cleaving ribozyme to create a defined mRNA 5' end independent of upstream sequence",
+    "It base-pairs with the complementary anti-SD sequence at the 3' end of the 16S rRNA, recruiting the ribosome to the start codon"
+  ],
+  "answer": 3,
+  "explanation": "The Shine-Dalgarno sequence base-pairs with the complementary anti-SD sequence at the 3' end of 16S rRNA, positioning the ribosome so it can locate the downstream start codon and begin translation. Choice 0 describes an intrinsic transcriptional terminator, a different genetic part acting on RNA polymerase rather than the ribosome. Choice 1 describes promoter/sigma-factor function during transcription initiation, and choice 2 describes a ribozyme-based insulator (such as RiboJ), which acts on the mRNA 5' end rather than mediating ribosome recruitment.",
+  "tags": [
+    "ribosome-binding-site",
+    "shine-dalgarno",
+    "translation-initiation"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "58c4a4c0-3a8e-4e2f-8c33-9842440aab3d"
+}

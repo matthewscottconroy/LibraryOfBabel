@@ -1,0 +1,13 @@
+{
+  "question_id": "e8ac5bca-a695-4f04-a910-a0269fecd18a",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The ITU DWDM frequency grid used for wavelength-division multiplexing is anchored at a reference frequency of:",
+  "choices": ["1550 nm exactly", "100 GHz", "193.1 THz", "50 THz"],
+  "answer": 2,
+  "explanation": "The ITU grid is anchored at 193.1 THz, with channels spaced at 50 GHz or 12.5 GHz. 1550 nm is a wavelength, whereas the grid is defined in frequency; 100 GHz and 50 THz confuse a channel spacing and an arbitrary value with the anchor frequency.",
+  "tags": ["wdm", "itu-grid", "dwdm"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "310e53f4-abe9-4107-8ca5-b100b2a7751e",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Maxwell added a new term to Ampère's law. What is that term, and why is it required?",
+  "choices": ["The displacement current ε₀ ∂E/∂t, required for consistency with charge conservation (the continuity equation)", "The conduction current J, required to describe currents flowing in wires", "The Faraday term −∂B/∂t, required to describe magnetic induction", "A magnetic-monopole current, required to make the equations symmetric"],
+  "answer": 0,
+  "explanation": "Without the displacement current ε₀ ∂E/∂t, Ampère's law contradicts charge conservation (∂ρ/∂t + ∇·J = 0), and this term is precisely what lets EM waves propagate in vacuum. The conduction current J was already in Ampère's original law; −∂B/∂t belongs to Faraday's law; and Maxwell's equations contain no monopole term since ∇·B = 0.",
+  "tags": ["maxwells-equations", "displacement-current", "charge-conservation"],
+  "difficulty": "intermediate",
+  "generated": true
+}

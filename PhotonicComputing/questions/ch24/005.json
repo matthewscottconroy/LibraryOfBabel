@@ -1,0 +1,13 @@
+{
+  "question_id": "2fd4caed-0143-4f47-a15b-2220a3eca234",
+  "chapter": 24,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Analog optical computing has no bit width, only a signal-to-noise ratio. From the shot-noise limit, roughly how many photons per output symbol are required to resolve 2^b distinguishable levels, and what does that imply?",
+  "choices": ["About 2^b photons; precision is essentially free", "About b^2 photons; precision scales gently", "About 2^(2b) photons — each extra bit costs 4x the light — confining optical computing to about 4-8 bits", "A fixed 1,000 photons regardless of b"],
+  "answer": 2,
+  "explanation": "The shot-noise limit requires roughly 2^(2b) photons to resolve 2^b levels, so each added bit quadruples the light needed (256 photons at 4 bits, 65,536 at 8 bits), pinning practical optics to 4-8 bits. Choice 0 understates the exponent (it is 2b, not b); choice 1 is the wrong scaling law; choice 3 ignores the exponential dependence entirely.",
+  "tags": ["shot-noise", "precision", "enob"],
+  "difficulty": "advanced",
+  "generated": true
+}

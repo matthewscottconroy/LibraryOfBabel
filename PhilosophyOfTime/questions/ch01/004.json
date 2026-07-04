@@ -1,0 +1,21 @@
+{
+  "question_id": "31b29a59-6cb5-4388-b759-57a6ba1bc0a0",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "True or False: Parmenides trusted sense experience over reason, concluding that the world's changes and its plurality of things are fully real.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false, and it inverts Parmenides' position. He held that reason, not the senses, reveals the truth, and that reason shows change and plurality to be impossible - mere appearances on the 'Way of Seeming.' The senses, which present a changing, plural world, are for Parmenides unreliable guides to genuine Being.",
+  "tags": [
+    "parmenides",
+    "eleatics",
+    "reason",
+    "change"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

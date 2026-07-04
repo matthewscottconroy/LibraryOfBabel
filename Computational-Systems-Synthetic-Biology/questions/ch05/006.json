@@ -1,0 +1,22 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A GWAS tests roughly one million approximately independent SNPs for association with a phenotype. What p-value threshold is conventionally used to declare genome-wide significance?",
+  "choices": [
+    "p < 0.05",
+    "p < 1 \u00d7 10\u207b\u00b3",
+    "p < 5 \u00d7 10\u207b\u2078",
+    "p < 5 \u00d7 10\u207b\u00b2"
+  ],
+  "answer": 2,
+  "explanation": "p < 5\u00d710\u207b\u2078 is the standard genome-wide significance threshold, functioning as a Bonferroni correction for roughly one million independent tests. An uncorrected threshold like 0.05 would produce enormous numbers of false positives at this scale, and the other thresholds shown are far too lenient for multiple testing correction of this magnitude.",
+  "tags": [
+    "gwas",
+    "population-genetics",
+    "statistics"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "56536f8e-e1c8-4a11-bad2-77ae384a1161"
+}

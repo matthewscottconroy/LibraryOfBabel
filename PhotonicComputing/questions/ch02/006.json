@@ -1,0 +1,13 @@
+{
+  "question_id": "5aa1d17a-2072-450f-9cda-c4b7ff401859",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A fundamental optical soliton in a fiber propagates without spreading because of a balance between two effects. Which two?",
+  "choices": ["Normal dispersion (β₂ > 0) and two-photon absorption", "Rayleigh scattering and Raman gain", "Chromatic dispersion and ordinary linear loss", "Anomalous group-velocity dispersion (β₂ < 0) and Kerr self-phase modulation"],
+  "answer": 3,
+  "explanation": "The nonlinear Schrödinger equation admits a soliton when anomalous GVD (β₂ < 0) exactly cancels the chirp from Kerr self-phase modulation (γ|A|²). Normal dispersion (β₂ > 0) reinforces rather than cancels the SPM chirp, and scattering or linear loss are dissipative, not the dispersive/nonlinear balance that sustains a soliton.",
+  "tags": ["solitons", "nonlinear-schrodinger", "kerr-effect", "dispersion"],
+  "difficulty": "advanced",
+  "generated": true
+}

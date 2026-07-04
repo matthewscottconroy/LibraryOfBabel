@@ -1,0 +1,19 @@
+{
+  "question_id": "47b6d63d-c927-40fa-8fbf-9e7c3e5aa3ad",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "A strongly nonlinear tanh reservoir with large input scaling achieves a HIGHER linear memory capacity than the equivalent linear reservoir.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: the linear reservoir attains the maximum MC = N, whereas nonlinearity trades linear memory away for nonlinear computation. Driving tanh into saturation with large inputs spends the fixed capacity budget on nonlinear (degree >= 2) terms and lowers linear MC, so it cannot exceed the linear case.",
+  "tags": [
+    "memory-capacity",
+    "memory-nonlinearity-tradeoff"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

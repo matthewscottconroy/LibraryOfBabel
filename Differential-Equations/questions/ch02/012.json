@@ -1,0 +1,19 @@
+{
+  "question_id": "51f7a7f1-5b64-4cf1-aa9a-c84f9daaf2d0",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A vector field whose divergence is zero everywhere is called ___ (equivalently, incompressible).",
+  "choices": [
+    "solenoidal"
+  ],
+  "answer": "solenoidal",
+  "explanation": "A divergence-free field is solenoidal or incompressible: it has no sources or sinks, so by the Divergence Theorem its outward flux through any closed surface is zero. Such a field can locally be written as the curl of a vector potential.",
+  "tags": [
+    "divergence",
+    "solenoidal",
+    "vector-fields"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

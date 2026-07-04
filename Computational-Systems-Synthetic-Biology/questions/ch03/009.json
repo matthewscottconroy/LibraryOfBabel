@@ -1,0 +1,19 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The bottom-up dynamic programming technique that fills a table iteratively from base cases upward, as opposed to top-down caching of recursive calls, is called ___.",
+  "choices": [
+    "tabulation"
+  ],
+  "answer": "tabulation",
+  "explanation": "Tabulation is the bottom-up dynamic programming approach that iteratively builds up a table of solutions to subproblems, starting from base cases. This is contrasted with memoization, the top-down approach that caches results of recursive calls as they are computed.",
+  "tags": [
+    "dynamic-programming",
+    "tabulation",
+    "memoization"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "cbe2fbbe-bde8-4dbe-9263-2eaba8f66754"
+}

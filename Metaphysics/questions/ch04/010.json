@@ -1,0 +1,13 @@
+{
+  "question_id": "a59f2647-93b0-4f21-b73b-7972604eef4a",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In Putnam's Twin Earth thought experiment, the clear, drinkable, watery liquid on Twin Earth is not H2O but a superficially identical substance with the chemical formula ___.",
+  "choices": ["XYZ", "xyz"],
+  "answer": "XYZ",
+  "explanation": "Putnam stipulates that Twin Earth 'water' is XYZ, a substance that plays the watery role but is chemically distinct from H2O; because 'water' is fixed by the actual substance rather than by a description, the Twin Earthlings' term refers to XYZ, not H2O. The case supports semantic externalism and the necessity of 'water is H2O.'",
+  "tags": ["modality", "twin-earth", "putnam", "natural-kinds"],
+  "difficulty": "beginner",
+  "generated": true
+}

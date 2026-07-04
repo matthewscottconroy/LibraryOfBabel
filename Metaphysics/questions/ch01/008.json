@@ -1,0 +1,20 @@
+{
+  "question_id": "e4d7ad89-2464-4b3c-916a-84867d644097",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Aristotelian immanent realism holds that a universal such as triangularity can exist even if nothing triangular exists.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. That is Platonic (ante rem) realism. Immanent (in re) realism holds that universals exist only in the particulars that instantiate them, so on this view an uninstantiated universal is impossible.",
+  "tags": [
+    "immanent-realism",
+    "aristotelianism",
+    "universals"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

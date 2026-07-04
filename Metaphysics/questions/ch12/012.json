@@ -1,0 +1,18 @@
+{
+  "question_id": "60a4c385-3d1f-4b2e-8c93-7f12e0d64a59",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In Hume's Dialogues Concerning Natural Religion, the character Philo presses which objection to the design argument?",
+  "choices": [
+    "The universe is not sufficiently similar to a human artifact like a machine, so the analogy from designed objects to a cosmic designer is weak.",
+    "The physical constants are finely tuned for life, which is better explained by a multiverse than by a single designer.",
+    "Natural selection produces the appearance of design without any actual designer.",
+    "Existence is not a predicate, so a designer cannot be inferred from the mere concept of the universe."
+  ],
+  "answer": 0,
+  "explanation": "Philo's core move is that the universe does not closely resemble a machine, so the analogical inference to a designer is weak and its conclusion badly underdetermined. Distractor 2 is Darwin's later objection from natural selection; while it also undermines design, it is not Hume's analogical critique and postdates the Dialogues.",
+  "tags": ["teleological-argument", "hume", "design", "objections"],
+  "difficulty": "beginner",
+  "generated": true
+}

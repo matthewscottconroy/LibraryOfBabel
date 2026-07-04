@@ -1,0 +1,20 @@
+{
+  "question_id": "cb828c7d-0a0d-4512-bebc-affd634b5b87",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In Bernard Williams's discussion of the Makropulos case, the desires that give a person reasons to go on living, as opposed to desires that merely presuppose one is already alive, are called ___ desires.",
+  "choices": [
+    "categorical"
+  ],
+  "answer": "categorical",
+  "explanation": "The expected answer is 'categorical.' Williams contrasts categorical desires with conditional desires, which presuppose one is already alive. He argues that categorical desires are constitutively finite, so an endless life would eventually exhaust them and collapse into the tedium of immortality.",
+  "tags": [
+    "williams",
+    "immortality",
+    "categorical-desires",
+    "makropulos"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

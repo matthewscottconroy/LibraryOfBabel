@@ -1,0 +1,23 @@
+{
+  "question_id": "46e09e93-a9d6-4bc0-8942-b5207acc20fa",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "On Fodor's Language of Thought (Mentalese) hypothesis, what is the relationship between thought and natural language?",
+  "choices": [
+    "Thought occurs in an innate, compositional mental language (Mentalese); natural languages like English merely express thoughts already formed in it",
+    "Thought is conducted in one's public natural language, so people who speak different languages literally think differently",
+    "Thought has no structure at all until it is put into the words of a natural language",
+    "Thinking is the simulation of perceptual and motor experience, with no language-like symbols involved"
+  ],
+  "answer": 0,
+  "explanation": "For Fodor, Mentalese is prior to and independent of natural language, which is only its vehicle of expression; indeed he argues that learning a natural language presupposes already having concepts. Option 1 is the Sapir-Whorf/relativist view LOT opposes; option 2 is a strong constitutive view of language; option 3 is Barsalou's grounded/simulation alternative.",
+  "tags": [
+    "language-of-thought",
+    "mentalese",
+    "fodor",
+    "thought-and-language"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

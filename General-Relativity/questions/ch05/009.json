@@ -1,0 +1,19 @@
+{
+  "question_id": "d79b70cc-1805-419a-8d0e-a93c7778e0c9",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Maxwell's displacement current ε₀ ∂E/∂t is the extra term added to Gauss's law ∇·E = ρ/ε₀.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: the displacement current is added to Ampère's law, giving ∇×B = μ₀J + μ₀ε₀ ∂E/∂t, not to Gauss's law. Gauss's law ∇·E = ρ/ε₀ is left unchanged; the displacement current is what makes Ampère's law consistent with charge conservation and permits self-sustaining electromagnetic waves.",
+  "tags": [
+    "maxwell",
+    "displacement-current"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

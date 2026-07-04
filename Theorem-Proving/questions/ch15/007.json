@@ -1,0 +1,20 @@
+{
+  "question_id": "969f8b4c-1a2e-41e1-9dfe-a2d27fe00f52",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: Unlike the set-membership relation ∈, the parthood relation P is transitive — if x is part of y and y is part of z, then x is part of z.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Transitivity (M3) is an axiom of parthood, whereas ∈ is not transitive: a ∈ {a} and {a} ∈ {{a}}, yet a ∉ {{a}}. So the statement is true, and this contrast is a key structural difference between mereology and set theory.",
+  "tags": [
+    "parthood",
+    "membership",
+    "transitivity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

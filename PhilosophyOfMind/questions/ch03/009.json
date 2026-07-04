@@ -1,0 +1,19 @@
+{
+  "question_id": "990c3ab7-0a29-4806-b249-320383ad6e23",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Brentano used the phrase 'the intentional ___ of an object' to describe the way an object is contained within a mental act, which lets thought be directed even at things that do not exist.",
+  "choices": [
+    "inexistence"
+  ],
+  "answer": "inexistence",
+  "explanation": "Brentano's term 'intentional inexistence' (in-existence, i.e. existence-within) captures how the object is contained in the mental act, which is why we can think about non-existent things such as unicorns. The expected word is 'inexistence' — not 'nonexistence.'",
+  "tags": [
+    "brentano",
+    "intentional-inexistence",
+    "aboutness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

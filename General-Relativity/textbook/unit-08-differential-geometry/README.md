@@ -26,7 +26,12 @@ These are the immediate prerequisites for GR.
 
 ## Chapters in This Unit
 
-- [Chapter 23: Smooth Manifolds and Tangent Spaces](chapter-23-manifolds/README.md)
-- [Chapter 24: Differential Forms and Integration on Manifolds](chapter-24-forms-integration/README.md)
-- [Chapter 25: Connections and Covariant Derivatives](chapter-25-connections/README.md)
-- [Chapter 26: Curvature](chapter-26-curvature/README.md)
+- [Chapter 23: Connections and Covariant Derivatives](chapter-23-connections/README.md)
+- [Chapter 24: Curvature](chapter-24-curvature/README.md)
+- [Chapter 27: Smooth Manifolds](chapter-27-smooth-manifolds/README.md)
+- [Chapter 28: Tangent and Cotangent Spaces](chapter-28-tangent-cotangent-spaces/README.md)
+- [Chapter 29: Tensor Fields and Tensor Algebra](chapter-29-tensors/README.md)
+- [Chapter 30: Differential Forms and Integration](chapter-30-differential-forms/README.md)
+- [Chapter 31: Connections and Covariant Derivatives](chapter-31-connections-covariant-derivatives/README.md)
+- [Chapter 32: Curvature](chapter-32-curvature/README.md)
+- [Chapter 33: Geodesics](chapter-33-geodesics/README.md)

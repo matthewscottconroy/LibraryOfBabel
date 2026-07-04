@@ -1,0 +1,20 @@
+{
+  "question_id": "ca4db4cc-ac8b-4527-b229-0dcbcb7b90c0",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A positive maximum Lyapunov exponent (lambda_max > 0) is the defining signature of chaos, indicating that nearby trajectories diverge exponentially on average.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The key-concepts and Lyapunov sections state that lambda_max > 0 is essentially the defining condition of chaos: infinitesimally close trajectories separate exponentially on average. The statement is true.",
+  "tags": [
+    "lyapunov-exponent",
+    "chaos",
+    "sensitive-dependence"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

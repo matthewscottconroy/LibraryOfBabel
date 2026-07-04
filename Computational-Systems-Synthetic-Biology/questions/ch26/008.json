@@ -1,0 +1,20 @@
+{
+  "chapter": 26,
+  "phase": 4,
+  "kind": "tf",
+  "text": "The chapter describes HDF5 as a better choice than Zarr for parallel, cloud-native access to large chunked-array datasets such as those used in AnnData.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is reversed. The chapter presents Zarr as the cloud-friendly, chunked-array format that is better than HDF5 for parallel access from cloud object storage (S3, GCS), which is why AnnData can use a Zarr backing. HDF5/h5py remains useful for local structured storage of simulation trajectories, but it is not presented as the superior choice for parallel, cloud-native access.",
+  "tags": [
+    "hdf5",
+    "zarr",
+    "data-formats"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "2e985dcc-fbcb-4140-bb86-de517fd2f63c"
+}

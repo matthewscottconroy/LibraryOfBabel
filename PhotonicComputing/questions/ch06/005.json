@@ -1,0 +1,13 @@
+{
+  "question_id": "31f13ffa-111a-403e-a4ba-716e80573c21",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A microring modulator enhances electro-optic efficiency over a straight phase shifter by roughly the factor F/pi (finesse over pi). For a ring with finesse F = 30, the phase shift required for full switching is reduced by about:",
+  "choices": ["3x", "30x", "100x", "10x"],
+  "answer": 3,
+  "explanation": "The enhancement is F/pi = 30/pi ~ 9.5, i.e. about 10x, enabling millivolt drive and femtojoule switching. 30x forgets the division by pi; 3x and 100x are off by an order of magnitude. The trade-off is a narrow resonance linewidth and strong thermal drift.",
+  "tags": ["ring-modulator", "finesse", "resonant-enhancement"],
+  "difficulty": "intermediate",
+  "generated": true
+}

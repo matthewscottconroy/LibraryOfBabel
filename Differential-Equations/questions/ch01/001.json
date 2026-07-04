@@ -1,0 +1,22 @@
+{
+  "question_id": "22a4dde8-d0ef-475e-9b42-5c2cc4f71971",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "At a point where the gradient of f is nonzero, the gradient vector is:",
+  "choices": [
+    "tangent to the level set of f through that point",
+    "perpendicular to the level set of f, pointing toward increasing values of f",
+    "nonzero only at local maxima",
+    "always parallel to the x-axis"
+  ],
+  "answer": 1,
+  "explanation": "The gradient is orthogonal to the level set {f = c} and points in the direction of steepest increase. Being tangent to the level set is exactly wrong (that direction gives zero directional derivative). The gradient vanishes at all interior extrema and saddle points, not maxima alone.",
+  "tags": [
+    "gradient",
+    "level-sets",
+    "directional-derivative"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

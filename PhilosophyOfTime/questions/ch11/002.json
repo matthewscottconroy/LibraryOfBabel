@@ -1,0 +1,18 @@
+{
+  "question_id": "668eaaf7-4ac2-419f-958e-f28dfe9887fb",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Section 36.1 distinguishes three things 'time is unreal' might mean: (C1) objective temporal passage is unreal; (C2) the A-series is incoherent; (C3) time altogether — including earlier/later B-series relations — is unreal. Which claim does the special-relativistic block universe most directly support?",
+  "choices": [
+    "C3, because relativity shows that even earlier-and-later relations among events are illusory",
+    "C1, because a temporally ordered world can exist with no frame-independent 'present' and no moving A-series",
+    "C2, because the relativity of simultaneity reproduces McTaggart's incoherence regress",
+    "None of them, since the block universe is neutral among the three and bears only on quantum gravity"
+  ],
+  "answer": 1,
+  "explanation": "The block universe abolishes a frame-independent present, so there is no objective A-series passage — precisely C1 — while retaining B-series (earlier/later) ordering. It does not establish C3 (temporal relations survive within the block) and does not reproduce McTaggart's a priori incoherence regress (C2). It is quantum gravity, not special relativity, that pushes toward C3.",
+  "tags": ["mctaggart", "block-universe", "special-relativity", "a-series", "b-series"],
+  "difficulty": "intermediate",
+  "generated": true
+}

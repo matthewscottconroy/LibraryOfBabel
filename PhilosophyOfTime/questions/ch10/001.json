@@ -1,0 +1,23 @@
+{
+  "question_id": "46421faf-ca2a-4c7a-b645-68ac0de04531",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "On David Lewis's 1976 analysis, what constitutes time travel?",
+  "choices": [
+    "A discrepancy between the traveler's personal time and external time: the duration of the journey measured by external time does not equal its duration measured by the traveler's own personal time.",
+    "Any physical transportation of an object from an earlier moment of external time to a later one.",
+    "The presence of a closed timelike curve in the background spacetime along which the traveler moves.",
+    "A reversal of the thermodynamic arrow of time in the region immediately surrounding the traveler."
+  ],
+  "answer": 0,
+  "explanation": "Lewis defines time travel as a systematic divergence between personal time (the traveler's own clocks and biological processes) and external time (the time coordinate of the background spacetime). Mere transportation forward is what a rock sitting in the ground undergoes, with no such discrepancy, so it is not time travel (choice 1). The definition is explicitly neutral about mechanism, so a closed timelike curve is one possible means but not part of the analysis (choice 2), and no reversal of thermodynamic processes is required (choice 3).",
+  "tags": [
+    "lewis",
+    "personal-time",
+    "external-time",
+    "definition"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "85ce3108-4967-4600-a3a7-4dbac99f8d86",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The quantized field mode has energy ladder E_n = hbar*omega(n + 1/2). What is the energy of the vacuum state |0>?",
+  "choices": [
+    "Zero",
+    "hbar*omega/2 (the zero-point energy)",
+    "hbar*omega",
+    "It is undefined because |0> is not a physical state"
+  ],
+  "answer": 1,
+  "explanation": "Setting n = 0 gives E_0 = hbar*omega/2, the uncertainty-enforced zero-point energy. It is not zero (choice 0 drops the 1/2), not hbar*omega (that is n = 1), and |0> is a perfectly physical state, the vacuum (choice 3).",
+  "tags": ["zero-point-energy", "harmonic-oscillator", "vacuum"],
+  "difficulty": "beginner",
+  "generated": true
+}

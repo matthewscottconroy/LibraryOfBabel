@@ -1,0 +1,18 @@
+{
+  "question_id": "cbef78cf-9370-45d1-a3e7-ec8db52fb68b",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Hume denies that induction can be given a non-circular justification. Why, specifically, does he reject the attempt to justify induction by pointing out that it has worked reliably in the past?",
+  "choices": [
+    "Because the conclusion of an inductive inference concerns a matter of fact, whose denial is never a contradiction, so the inference cannot be deductively valid.",
+    "Because the argument is deductively valid but unsound, since its premises are actually false.",
+    "Because induction has in fact frequently failed in the past, so the premise about its track record is empirically false.",
+    "Because such a justification presupposes that the future will resemble the past, the very inductive principle it is trying to justify, and so begs the question."
+  ],
+  "answer": 3,
+  "explanation": "Appealing to induction's track record uses induction to justify induction: it assumes the uniformity of nature (that observed regularities extend to unobserved cases), which is exactly what is at issue, so the defense is circular. The option about a matter of fact's denial never being a contradiction is a genuine Humean point, but it explains why deduction cannot justify induction, not why the track-record defense fails.",
+  "tags": ["hume", "problem of induction", "circularity", "uniformity of nature"],
+  "difficulty": "intermediate",
+  "generated": true
+}

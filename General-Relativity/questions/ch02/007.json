@@ -1,0 +1,24 @@
+{
+  "question_id": "1e15a867-5e0d-4f47-8483-b3d8f0472f8f",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the book's development, what is an element of the dual space V* = L(V, ℝ), and how does it relate to a vector?",
+  "choices": [
+    "It is a vector in V; V and V* are literally the same space, so no identification is needed.",
+    "It is a covector, and it is canonically identified with a vector using only the vector-space axioms.",
+    "It is a bilinear form V × V → ℝ, identified with a vector through its diagonal values.",
+    "It is a covector (linear functional on V); identifying it with a vector requires extra structure — a metric — and is not canonical."
+  ],
+  "answer": 3,
+  "explanation": "V* consists of linear functionals (covectors / 1-forms); it has the same dimension as V but is not canonically isomorphic to it. The book stresses that identifying a covector with a vector — index lowering ω_μ = g_{μν} v^ν — requires a metric, so the identification depends on that extra structure. Without a metric, vectors and covectors are genuinely different objects that transform by inverse-transpose laws.",
+  "tags": [
+    "dual-space",
+    "covector",
+    "metric",
+    "inner-product",
+    "linear-algebra"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

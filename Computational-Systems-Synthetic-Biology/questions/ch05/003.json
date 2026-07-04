@@ -1,0 +1,21 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A whole-exome sequencing sample shows a transition/transversion (Ti/Tv) ratio of approximately 3.0. How should this be interpreted?",
+  "choices": [
+    "Abnormally low, suggesting a high sequencing error rate",
+    "Only expected for whole-genome sequencing, not for exome data",
+    "Consistent with the expected exome Ti/Tv ratio, which is higher than the whole-genome average",
+    "Evidence of sample contamination from a different individual"
+  ],
+  "answer": 2,
+  "explanation": "The expected Ti/Tv ratio is about 2 for whole-genome data but rises to about 3 for exome data because coding regions are enriched for transitions, so a ratio near 3 in an exome sample is exactly what is expected. It is not a sign of elevated error rate or contamination, and the higher ratio is specifically an exome phenomenon rather than something exclusive to whole-genome sequencing.",
+  "tags": [
+    "population-genetics",
+    "ti-tv-ratio"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "1a89d375-a17f-4bb7-813f-5869430df71b"
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "32ea158b-499d-48a5-8c29-237643368a8e",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Picard-Lindelof existence-and-uniqueness theorem for dx/dt = f(x) requires that f be:",
+  "choices": [
+    "merely continuous",
+    "monotonic in x",
+    "Lipschitz continuous in x",
+    "only bounded"
+  ],
+  "answer": 2,
+  "explanation": "Local Lipschitz continuity in x lets the Picard integral operator be a contraction, giving both existence and uniqueness. Mere continuity (Peano) gives existence but not uniqueness; boundedness and monotonicity are neither the stated hypothesis nor sufficient for uniqueness.",
+  "tags": [
+    "picard-lindelof",
+    "existence-uniqueness",
+    "lipschitz"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

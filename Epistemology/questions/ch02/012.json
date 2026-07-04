@@ -1,0 +1,18 @@
+{
+  "question_id": "eb51bb80-8e96-41e8-8b8e-7638712570fa",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which claim expresses generativism (rather than preservationism) about memorial justification?",
+  "choices": [
+    "Memory only transmits the epistemic status that a belief acquired from its original source.",
+    "The memorial state can itself confer fresh prima facie justification on a recalled belief, much as current perception justifies a perceptual belief.",
+    "A belief that was unjustified when first formed remains unjustified no matter how vividly it is later remembered.",
+    "A memorial belief is justified only if the subject can currently cite the original evidence that produced it."
+  ],
+  "answer": 1,
+  "explanation": "Generativism holds that memory is a genuine source that can generate new prima facie justification on recall, paralleling perception, so a currently justified memorial belief need not inherit its status from the original source. Options 0 and 2 state the preservationist thesis that memory only transmits, and never launders or creates, justification; option 3 is an accessibilist evidential demand that generativism does not make. The problem of forgotten evidence, in which one still believes something whose original justification is no longer accessible, is often used to motivate generativism against preservationism. Only option 1 is generativism.",
+  "tags": ["memory", "generativism", "preservationism", "forgotten-evidence"],
+  "difficulty": "beginner",
+  "generated": true
+}

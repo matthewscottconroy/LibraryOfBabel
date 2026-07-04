@@ -1,0 +1,18 @@
+{
+  "question_id": "7f6d51a8-cb0c-478f-934a-3b38ae6ccd1a",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The book notes that the presentist and block-universe (eternalist) interpretations “give identical physical predictions.” What methodological conclusion does it draw?",
+  "choices": [
+    "Presentism has been experimentally refuted, leaving eternalism as the only scientifically respectable option",
+    "The dispute is merely verbal and dissolves once the key terms are carefully defined",
+    "The metaphysics of time is underdetermined by physics, so settling which times are real requires distinctively philosophical work",
+    "Because physics cannot decide between them, the question of what is real is meaningless"
+  ],
+  "answer": 2,
+  "explanation": "The book treats this as a structural case of underdetermination: identical predictions leave 'which times are real?' open, so philosophy must go beyond physics. It explicitly denies that physics refutes presentism (the predictions are identical) and rejects the positivist 'physics-imperialist' claim that an empirically undecidable question is thereby meaningless.",
+  "tags": ["underdetermination", "presentism", "eternalism", "philosophy-vs-physics", "methodology"],
+  "difficulty": "advanced",
+  "generated": true
+}

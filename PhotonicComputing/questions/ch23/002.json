@@ -1,0 +1,13 @@
+{
+  "question_id": "0151c835-9f9e-469e-ab7b-c3375d779c68",
+  "chapter": 23,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The cost of a 3D FDTD simulation scales as roughly (linear resolution)^4. Why does halving the grid spacing delta-x multiply the cost by about 16?",
+  "choices": ["Because the memory per cell grows quadratically", "Because the cell count grows 8x (three spatial dimensions) and the Courant condition delta-t <= delta-x/(c*sqrt(3)) forces 2x more time steps", "Because the discrete Fourier transform must be recomputed for each cell", "Because the PML thickness must double each time"],
+  "answer": 1,
+  "explanation": "Halving delta-x multiplies the cell count by 2^3 = 8, and the explicit-scheme Courant stability limit ties delta-t to delta-x, so the number of time steps also doubles: 8 x 2 = 16 = 2^4. Choice 0 is false (memory per cell is a constant ~100 bytes); choice 2 misattributes the scaling to the DFT; choice 3 is not what drives the scaling.",
+  "tags": ["courant-limit", "fdtd", "computational-cost"],
+  "difficulty": "advanced",
+  "generated": true
+}

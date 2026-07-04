@@ -1,0 +1,22 @@
+{
+  "question_id": "f829f1ab-7c97-4864-bae4-f7fddee2907c",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the book's discussion, the genuine curvature singularity of the Schwarzschild spacetime — where the Kretschmann scalar diverges and tidal forces become infinite — is located at:",
+  "choices": [
+    "r = 0",
+    "r = r_s = 2GM/c²",
+    "r = 3GM/c² (the photon sphere)",
+    "r = 6GM/c² (the ISCO)"
+  ],
+  "answer": 0,
+  "explanation": "The Kretschmann invariant R_μνρσR^μνρσ = 48G²M²/(r⁶c⁴) diverges as r→0, marking a true curvature singularity that no coordinate change can remove. By contrast r = r_s is only a coordinate singularity (finite curvature, removable by Eddington-Finkelstein or Kruskal coordinates), while the photon sphere (3GM/c²) and ISCO (6GM/c²) are perfectly regular orbit radii.",
+  "tags": [
+    "schwarzschild",
+    "singularity",
+    "kretschmann"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

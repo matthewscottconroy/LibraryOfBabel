@@ -1,0 +1,13 @@
+{
+  "question_id": "a0d11ce8-11dc-4d03-aac4-81006f50e62a",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the heterogeneous III-V-on-silicon approach (the Fang/Bowers insight), unpatterned III-V films are bonded to silicon and the laser cavity is defined afterward by silicon lithography. Why is this decisive over flip-chip die bonding?",
+  "choices": ["It eliminates the need for III-V material entirely", "It lets the laser operate without electrical pumping", "Because the cavity is defined lithographically after bonding, die-placement precision becomes irrelevant — enabling wafer-scale (Intel-scale) production", "It removes all coupling loss between the laser and the silicon waveguide"],
+  "answer": 2,
+  "explanation": "Bonding a blank III-V film and then patterning it with silicon lithography means the sub-micron placement burden vanishes (placement precision becomes irrelevant), which is what enables high-volume manufacturing. Choice 0 is wrong — gain still needs III-V; choice 1 is false (the laser is still electrically pumped); choice 3 overstates it — coupling loss is engineered down but not eliminated.",
+  "tags": ["iii-v-integration", "wafer-bonding", "lasers"],
+  "difficulty": "advanced",
+  "generated": true
+}

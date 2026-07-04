@@ -1,0 +1,13 @@
+{
+  "question_id": "444e2c79-a424-458b-a177-2defc14a5689",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "For a 500x220 nm silicon strip waveguide the resonance sensitivity is roughly delta-lambda = 0.55*delta-w + 1.8*delta-t (nm shift per nm of width/thickness error). What design doctrine does this force on photonic computing architectures?",
+  "choices": ["No photonic computing architecture may assume as-drawn dimensions; tuning, calibration, and their power budgets are architectural constants", "Rings should be made as small as possible to reduce sensitivity", "Thickness errors matter less than width errors", "Fabrication scatter is negligible because 2-5 nm errors are small"],
+  "answer": 0,
+  "explanation": "Because routine 2-5 nm dimensional scatter displaces ring resonances by tens of linewidths, no design can trust as-drawn dimensions; tuning and calibration power (tens of mW per ring, watts per weight bank) must be budgeted up front. Choice 1 misunderstands the per-nm index sensitivity; choice 2 is backwards (the 1.8 thickness coefficient exceeds the 0.55 width coefficient); choice 3 ignores that nm errors still dwarf pm-scale linewidths.",
+  "tags": ["fabrication-sensitivity", "calibration", "resonators"],
+  "difficulty": "intermediate",
+  "generated": true
+}

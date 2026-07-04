@@ -1,0 +1,23 @@
+{
+  "question_id": "2cd5190c-e006-491e-af70-74ebef9fac68",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Descartes' substance dualism, the mind is res cogitans and the body is res extensa. What single essential attribute defines res extensa?",
+  "choices": [
+    "Thought",
+    "Extension (occupying space)",
+    "Free will",
+    "Sensation"
+  ],
+  "answer": 1,
+  "explanation": "For Descartes each substance has exactly one essence: res cogitans (mind) is essentially thinking, while res extensa (body) is essentially extended — it occupies space. Thought, free will, and sensation all belong to the thinking substance, not to extended body; that sharp split between the two essences is what generates the interaction problem.",
+  "tags": [
+    "descartes",
+    "substance-dualism",
+    "res-extensa",
+    "res-cogitans"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

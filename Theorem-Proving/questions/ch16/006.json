@@ -1,0 +1,22 @@
+{
+  "question_id": "2ad1fdd2-28af-4cf8-bdc3-878ad28fd163",
+  "chapter": 16,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A fundamental property of Kolmogorov complexity K(x), the length of the shortest program that outputs x, is that:",
+  "choices": [
+    "it is efficiently computable by a universal Turing machine",
+    "it is uncomputable, though well-defined up to an additive constant",
+    "it equals the Shannon entropy of x exactly",
+    "it depends heavily on the choice of programming language, with no bound"
+  ],
+  "answer": 1,
+  "explanation": "K is uncomputable — a formalization of Berry's paradox shows a computable K would let a short program output an arbitrarily high-complexity string — yet the Invariance Theorem makes it well-defined up to an additive constant independent of x. So it is not efficiently computable (option 0), the language-dependence is bounded not unbounded (option 3), and entropy is only the AVERAGE description length, matching K per symbol in expectation rather than exactly for an individual string (option 2).",
+  "tags": [
+    "kolmogorov-complexity",
+    "uncomputability",
+    "invariance-theorem"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

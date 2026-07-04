@@ -1,0 +1,13 @@
+{
+  "question_id": "4e1257d9-d5a0-41cb-9540-1beddf9f7240",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "On the Humean picture that Bird opposes, a fundamental property has an intrinsic qualitative nature, a ___, that is independent of the causal or dispositional role the property happens to play.",
+  "choices": ["quiddity", "quidditism", "quiddities"],
+  "answer": "quiddity",
+  "explanation": "A quiddity is the bare qualitative 'whatness' a Humean assigns to a property independently of its causal role, so that the laws connecting properties are contingent external additions. Bird rejects quidditism, holding instead that a property is constituted by its dispositional profile, which makes the associated laws metaphysically necessary.",
+  "tags": ["laws-of-nature", "quidditism", "dispositional-essentialism", "bird"],
+  "difficulty": "advanced",
+  "generated": true
+}

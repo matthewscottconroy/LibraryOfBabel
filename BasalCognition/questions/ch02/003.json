@@ -1,0 +1,13 @@
+{
+  "question_id": "c1e4a7b2-3d8f-4a6c-9b2e-1f5d8a0c4b37",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "High intracellular concentrations of the second messenger cyclic di-GMP (c-di-GMP) bias a bacterium toward which lifestyle?",
+  "choices": ["Rapid planktonic swimming with frequent runs", "Sessile, surface-attached biofilm formation", "Sporulation into a dormant endospore", "Lytic viral replication"],
+  "answer": 1,
+  "explanation": "c-di-GMP is the master lifestyle-decision molecule: high levels promote sessile biofilm behavior (matrix synthesis, adhesion, suppressed motility), while low levels favor motile planktonic swimming, so option 0 describes the low-c-di-GMP state. Sporulation (option 2) is governed by the Spo0A phosphorelay, and lytic replication (option 3) is a bacteriophage program, neither controlled by c-di-GMP.",
+  "tags": ["c-di-gmp", "biofilm", "lifestyle-switch"],
+  "difficulty": "intermediate",
+  "generated": true
+}

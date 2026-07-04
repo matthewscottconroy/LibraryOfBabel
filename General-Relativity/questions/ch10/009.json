@@ -1,0 +1,20 @@
+{
+  "question_id": "9aa612e4-f39e-4417-a40f-3cf6aa15ffe9",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "tf",
+  "text": "According to this book, a passing gravitational wave directly accelerates an isolated free-falling test mass in that mass's own local inertial frame.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The book explicitly says a gravitational wave does not directly accelerate a free-falling test mass — in its local inertial frame it remains at rest to first order. What the wave changes is the proper distance between two nearby masses, δL/L = ½h_+, which is the quantity LIGO measures. The metric perturbation h_μν is not a Newtonian force.",
+  "tags": [
+    "test-mass",
+    "proper-distance",
+    "ligo"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

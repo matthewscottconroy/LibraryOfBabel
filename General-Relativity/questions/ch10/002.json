@@ -1,0 +1,22 @@
+{
+  "question_id": "9900c01a-9952-4375-a5ab-63f65a2b3235",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In this book, the absence of gravitational dipole radiation is a direct consequence of which conservation law?",
+  "choices": [
+    "conservation of mass",
+    "conservation of momentum",
+    "conservation of electric charge",
+    "conservation of angular momentum"
+  ],
+  "answer": 1,
+  "explanation": "The text ties the vanishing dipole term to conservation of momentum (the relevant time derivative of the mass dipole, i.e. the total momentum, does not change). The absence of monopole radiation is instead tied to mass conservation. There is no electric charge in this purely gravitational argument, and the leading surviving term is the mass quadrupole.",
+  "tags": [
+    "dipole",
+    "conservation",
+    "radiation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

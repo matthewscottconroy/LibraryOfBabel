@@ -1,0 +1,21 @@
+{
+  "question_id": "f6c3e5d7-be72-4d95-abeb-0bbec9c640c8",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Shannon entropy of a discrete random variable X with distribution p is:",
+  "choices": [
+    "-sum p(x) log p(x)",
+    "sum p(x)^2",
+    "sum 1/p(x)",
+    "-sum log p(x)"
+  ],
+  "answer": 0,
+  "explanation": "Entropy H(X) = -sum p log p is the average surprise, equal to the minimum average bits per symbol. The other expressions are collision/Renyi-like or undefined quantities, not Shannon entropy.",
+  "tags": [
+    "shannon-entropy",
+    "information-measures"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

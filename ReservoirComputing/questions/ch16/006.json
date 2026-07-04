@@ -1,0 +1,22 @@
+{
+  "question_id": "9f65ba6c-1d99-4a68-90ad-f61442c1f3c1",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "During the autonomous test, how does the trained reservoir keep producing the gait, and what dynamical object does the 8-channel output trace?",
+  "choices": [
+    "The true target gait is still fed in at each step; the output is just a delayed copy",
+    "A fresh noise signal drives the reservoir, so the output is quasi-random",
+    "The reservoir's own output is fed back as its next input, and the system settles onto a stable limit cycle",
+    "The reservoir relaxes to a fixed point, so all 8 channels flatline"
+  ],
+  "answer": 2,
+  "explanation": "In autonomous_run the predicted output u = y_pred is fed back as the next input with no external drive, and the hip-vs-knee phase portraits trace clean ellipses, the signature of a stable limit cycle. Option 0 describes teacher forcing (training, not the autonomous test); option 1 is wrong (there is no external noise drive); a CPG produces a sustained rhythm, not a fixed point (option 3).",
+  "tags": [
+    "autonomous",
+    "limit-cycle",
+    "feedback"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

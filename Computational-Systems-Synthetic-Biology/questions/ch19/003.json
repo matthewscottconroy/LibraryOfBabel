@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 3,
+  "kind": "mc",
+  "text": "DNA shuffling, developed by Stemmer in 1994, generates recombinant genes by which method?",
+  "choices": [
+    "Fragmenting homologous parent genes with DNase I, then reassembling the fragments via primerless PCR relying on their sequence homology",
+    "Randomizing a single codon position using NNK degenerate primers",
+    "Treating cells with EMS to alkylate guanine bases genome-wide",
+    "Displaying protein variants on phage coat proteins for affinity panning"
+  ],
+  "answer": 0,
+  "explanation": "DNA shuffling fragments multiple homologous parent genes with DNase I and reassembles full-length recombinants via PCR without primers, relying on roughly 50% sequence homology between the fragments to prime each other, generating chimeric genes. NNK randomization instead describes saturation mutagenesis at a single position, EMS treatment is a chemical point-mutagenesis method unrelated to recombination, and phage display is a selection method for finding binders, not a diversity-generation or recombination technique.",
+  "tags": [
+    "dna-shuffling",
+    "stemmer",
+    "recombination"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "57978afe-873c-489b-b459-1318ea57e762"
+}

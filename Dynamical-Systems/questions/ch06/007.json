@@ -1,0 +1,22 @@
+{
+  "question_id": "f00569b0-1f19-49b8-93a7-47ae37c5bef2",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The measure of maximal entropy for a subshift of finite type with irreducible transition matrix is the:",
+  "choices": [
+    "Lebesgue measure",
+    "Parry measure",
+    "Dirac measure",
+    "Gauss measure"
+  ],
+  "answer": 1,
+  "explanation": "The Parry measure - the Markov measure built from the Perron eigenvector - uniquely maximizes entropy for an irreducible SFT. Lebesgue/Dirac/Gauss are unrelated to this maximization.",
+  "tags": [
+    "parry-measure",
+    "maximal-entropy",
+    "sft"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "64fc9672-1abe-44dc-aacd-e26d4e80e7bc",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Van Fraassen's constructive empiricism holds that accepting a scientific theory involves believing only that it is empirically adequate - correct about the observable phenomena - and not that it is true about unobservable entities.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is the core of constructive empiricism: to accept a theory is to believe it empirically adequate, which stops short of believing its claims about unobservables are true. Van Fraassen deliberately distinguishes acceptance from belief so that science can be rational without any realist commitment to the truth of theoretical posits.",
+  "tags": [
+    "philosophy of science",
+    "constructive empiricism",
+    "van fraassen",
+    "empirical adequacy"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

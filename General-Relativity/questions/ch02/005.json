@@ -1,0 +1,23 @@
+{
+  "question_id": "30d6c82e-033e-4bbc-ac7a-c22a4820e8a1",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The identity ∭_V (∇·F) dV = ∯_{∂V} F · dS, converting a volume integral into flux through the closed boundary surface, is:",
+  "choices": [
+    "Stokes' theorem",
+    "the divergence theorem (Gauss's theorem)",
+    "Green's theorem",
+    "the fundamental theorem of line integrals"
+  ],
+  "answer": 1,
+  "explanation": "The book states the divergence theorem as ∭_V (∇·F) dV = ∯_{∂V} F · dS, equating the volume integral of the divergence to the outward flux through the closed boundary. Stokes' theorem instead relates the surface integral of the curl to a line integral around a boundary curve (∬_S (∇×F)·dS = ∮_{∂S} F·dl), and Green's theorem is its 2D analogue. All three are special cases of the generalized Stokes' theorem ∫_M dω = ∫_{∂M} ω.",
+  "tags": [
+    "divergence-theorem",
+    "stokes-theorem",
+    "surface-integral",
+    "vector-calculus"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

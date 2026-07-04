@@ -1,0 +1,23 @@
+{
+  "question_id": "031345cd-7491-4efc-ad47-5c5a4c7843db",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Descartes proposed that mind and body causally interact at one specific bodily location. Which structure did he identify as the seat of this interaction?",
+  "choices": [
+    "The heart",
+    "The corpus callosum",
+    "The pineal gland",
+    "The hippocampus"
+  ],
+  "answer": 2,
+  "explanation": "Descartes located mind-body interaction in the pineal gland, an answer that (as the text puts it) 'satisfied almost no one.' The corpus callosum and hippocampus are modern neuroanatomical structures with no role in his account, and it was Aristotle, not Descartes, who tied cognition to the heart. The deeper interaction problem — how utterly unlike substances interact at all — survived his answer.",
+  "tags": [
+    "descartes",
+    "interaction-problem",
+    "pineal-gland",
+    "dualism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

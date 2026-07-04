@@ -1,0 +1,19 @@
+{
+  "chapter": 8,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Cryo-electron microscopy requires the protein to first be crystallized before imaging, just like X-ray crystallography.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: cryo-EM instead flash-freezes the protein in vitreous (non-crystalline) ice and images individual particles directly with an electron beam, combining millions of 2D projections into a 3D reconstruction. Crystallization is specifically what X-ray crystallography requires, and avoiding it is one of cryo-EM's major advantages for large complexes and membrane proteins.",
+  "tags": [
+    "cryo-em",
+    "structure-determination"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "06a62935-d909-4325-a7f3-ae2ff81d477e"
+}

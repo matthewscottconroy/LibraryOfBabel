@@ -1,0 +1,22 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In eukaryotic pre-mRNA splicing, which dinucleotide sequences mark the 5' and 3' splice sites of an intron, respectively?",
+  "choices": [
+    "AG at the 5' site and GU at the 3' site",
+    "AU at the 5' site and AA at the 3' site",
+    "GU at the 5' site and AG at the 3' site",
+    "TATA at the 5' site and a poly-A signal at the 3' site"
+  ],
+  "answer": 2,
+  "explanation": "Introns almost universally begin with GU at the 5' splice site and end with AG at the 3' splice site (the 'GU-AG rule'), recognized by the spliceosome along with the branch point adenosine. Reversing the order or substituting AU/AA is factually wrong, and the TATA box and poly-A signal are promoter and 3'-processing elements, not splice sites.",
+  "tags": [
+    "rna-processing",
+    "splicing",
+    "spliceosome"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "54db76fb-201c-4cdc-8d04-a5d0bf81b26b"
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "d8ed308a-44b2-48db-ae51-de93e9241fee",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A Gaussian beam is focused to a smaller waist radius w₀. What happens to its far-field divergence angle θ?",
+  "choices": ["It decreases, because a tighter focus stays collimated longer", "It increases, because the product w₀θ = λ/π is fixed", "It is unchanged, because divergence is independent of waist", "It becomes zero, because the beam is diffraction-limited"],
+  "answer": 1,
+  "explanation": "For any Gaussian beam w₀θ = λ/π is a constant (the diffraction-limited 'uncertainty product'), so a smaller waist forces a larger divergence θ = λ/(πw₀). Believing a tighter focus reduces divergence, or that divergence is waist-independent or exactly zero, contradicts this fixed product.",
+  "tags": ["gaussian-beams", "divergence", "diffraction-limit"],
+  "difficulty": "advanced",
+  "generated": true
+}

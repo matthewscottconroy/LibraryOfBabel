@@ -1,0 +1,22 @@
+{
+  "chapter": 28,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is a positive control essential in an experiment, according to standard experimental design practice?",
+  "choices": [
+    "It shows what happens with the solvent/carrier alone, controlling for vehicle effects",
+    "It eliminates the need for biological replicates",
+    "It ensures the analyst is blinded to treatment group assignment",
+    "It confirms the assay is working and that its detection limit is adequate, so a negative result can be trusted as real rather than a failed assay"
+  ],
+  "answer": 3,
+  "explanation": "A positive control is a condition known to produce the expected result; without it, you cannot tell whether an observed negative result reflects true biology or simply a failed or insensitive assay. A vehicle control addresses solvent effects, not assay validity; positive controls do not remove the need for biological replicates, which capture biological variability; and blinding is a separate practice for preventing analyst bias, unrelated to positive controls.",
+  "tags": [
+    "positive-control",
+    "experimental-design",
+    "controls"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "5a102959-f7ce-4ee6-ac46-5ddaf9aa4ddf"
+}

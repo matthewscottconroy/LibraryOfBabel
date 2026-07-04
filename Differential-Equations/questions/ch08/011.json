@@ -1,0 +1,19 @@
+{
+  "question_id": "2e2b92ed-c908-41ba-966e-88bdd730b1a6",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "blank",
+  "text": "At each point of a smooth manifold, the linear space of velocity vectors of curves through that point is the ___ space.",
+  "choices": [
+    "tangent"
+  ],
+  "answer": "tangent",
+  "explanation": "The tangent space at a point is the vector space of velocity vectors (derivations) there; assembling these over all points gives the tangent bundle. It furnishes the local linear model in which calculus on manifolds is carried out.",
+  "tags": [
+    "tangent-space",
+    "manifolds",
+    "differential-geometry"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

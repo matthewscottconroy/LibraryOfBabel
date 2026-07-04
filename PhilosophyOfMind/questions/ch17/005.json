@@ -1,0 +1,23 @@
+{
+  "question_id": "0faf09ca-4b9b-41f4-902c-756a9c87f822",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Hubert Dreyfus's critique of classical (GOFAI) artificial intelligence, drawing on Heidegger and Merleau-Ponty, held that...",
+  "choices": [
+    "human intelligence can be fully captured by explicit symbolic rules given sufficient memory",
+    "the Turing test is too easy because human judges are biased and easily fooled",
+    "intelligent human coping depends on embodied, practical know-how that cannot be reduced to explicit rules or representations",
+    "machines cannot think because God did not endow them with immortal souls"
+  ],
+  "answer": 2,
+  "explanation": "Dreyfus argued in What Computers Can't Do (1972) that skilled human coping rests on embodied, situated know-how that resists formalization into explicit rules, the core weakness of rule-based GOFAI. Option A is the GOFAI assumption he rejects; B is a Loebner-style objection; D is Turing's 'theological objection,' not Dreyfus's.",
+  "tags": [
+    "dreyfus",
+    "gofai",
+    "embodiment",
+    "heidegger"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

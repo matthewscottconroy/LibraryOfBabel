@@ -1,0 +1,19 @@
+{
+  "question_id": "ed5f96da-5a48-4ed7-960b-f9fdfaa150e3",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Silicon microring resonators drift at about 69 pm/K, so every ring in a ring-based photonic network-on-chip needs active thermal ___ that consumes 0.5-2 mW each.",
+  "choices": [
+    "stabilization"
+  ],
+  "answer": "stabilization",
+  "explanation": "Active thermal stabilization (a heater plus feedback) holds each ring on resonance against the 69 pm/K drift, and at 0.5-2 mW per ring this dominates the optical energy budget of ring-based PNoC. It is the central practical challenge for the approach.",
+  "tags": [
+    "ring-resonator",
+    "thermal-stabilization",
+    "photonic-noc"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

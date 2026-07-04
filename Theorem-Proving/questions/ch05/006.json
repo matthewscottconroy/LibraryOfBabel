@@ -1,0 +1,22 @@
+{
+  "question_id": "9e0eed00-178d-4c45-b49f-39bc47d643e0",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Ordinal arithmetic is not commutative. Which statement correctly reflects this, where ω is the least infinite ordinal?",
+  "choices": [
+    "1 + ω = ω + 1",
+    "1 + ω = ω, but ω + 1 > ω",
+    "ω + 1 = ω, but 1 + ω > ω",
+    "1 + ω > ω and ω + 1 = ω"
+  ],
+  "answer": 1,
+  "explanation": "Prepending one element to a copy of ℕ yields an order isomorphic to ℕ, so 1 + ω = ω; appending one element after all of ℕ yields a strictly longer well-order, so ω + 1 > ω. Thus 1 + ω ≠ ω + 1 — ordinal addition is non-commutative. Option A denies the non-commutativity; options C and D reverse which sum grows.",
+  "tags": [
+    "ordinals",
+    "ordinal-arithmetic",
+    "non-commutative"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

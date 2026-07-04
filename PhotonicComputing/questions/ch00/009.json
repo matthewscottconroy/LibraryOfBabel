@@ -1,0 +1,18 @@
+{
+  "question_id": "fc9b7e7d-c176-4d15-b463-ada219e57de1",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The vector S = E × H, which points in the direction of electromagnetic energy flow and has units of W/m², is called the ___ vector.",
+  "choices": [
+    "Poynting"
+  ],
+  "answer": "Poynting",
+  "explanation": "The Poynting vector S = E × H gives the energy flux (power per unit area) of the field and appears in Poynting's theorem as the energy-conservation statement for electromagnetism.",
+  "tags": [
+    "poynting-vector",
+    "energy-flow"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

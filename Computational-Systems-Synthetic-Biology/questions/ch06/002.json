@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which statistical distribution do both DESeq2 and edgeR use to model RNA-seq read counts, accounting for the fact that counts are overdispersed relative to a simpler model?",
+  "choices": [
+    "Negative binomial distribution",
+    "Normal (Gaussian) distribution",
+    "Poisson distribution",
+    "Beta-binomial distribution"
+  ],
+  "answer": 0,
+  "explanation": "Both DESeq2 and edgeR model counts using the negative binomial distribution, which adds a dispersion parameter to capture the fact that RNA-seq count variance exceeds the mean, unlike the Poisson distribution which assumes variance equals the mean. The Gaussian distribution is instead used downstream of a log-CPM transformation in limma-voom, and the beta-binomial distribution is not part of the standard DESeq2/edgeR modeling framework.",
+  "tags": [
+    "differential-expression",
+    "deseq2",
+    "edger"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "c59c9645-cae6-47bb-9db2-485553db6c68"
+}

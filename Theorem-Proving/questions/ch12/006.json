@@ -1,0 +1,23 @@
+{
+  "question_id": "621037e6-c3ba-41ab-a131-9de8f4234908",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Lean 4 and Coq, which component ultimately guarantees that a claimed proof is correct?",
+  "choices": [
+    "The tactic language, which searches for proofs",
+    "The elaborator that turns tactic scripts into proof terms",
+    "The small trusted kernel, which type-checks the final proof term",
+    "The Mathlib library of previously verified theorems"
+  ],
+  "answer": 2,
+  "explanation": "Correctness rests on the small trusted kernel: a proof of P is a term of type P, and the kernel checks that term (checking definitional equality). Tactics and elaboration (choices 0, 1) are untrusted — they need only emit a kernel-accepted term. Mathlib (choice 3) is content built on top, not the checker.",
+  "tags": [
+    "proof-assistants",
+    "trusted-kernel",
+    "lean",
+    "coq"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

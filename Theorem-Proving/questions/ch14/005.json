@@ -1,0 +1,22 @@
+{
+  "question_id": "ba9a9ea2-1337-4b7d-a303-4ddbb309992d",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why does plural comprehension avoid the analogue of Russell's paradox that sinks naïve set comprehension?",
+  "choices": [
+    "Because a special axiom explicitly forbids self-membered pluralities",
+    "Because the formula 'xx ≺ xx' is not even well-formed — ≺ requires a singular term on its left",
+    "Because comprehension is restricted to finite pluralities",
+    "Because every plurality is itself a member of some larger set"
+  ],
+  "answer": 1,
+  "explanation": "≺ is singular on the left and plural on the right, so 'xx ≺ xx' is ungrammatical; there is simply no formula on which to run the diagonal argument, blocking the paradox at the level of syntax rather than by any axiom. No special prohibition, finiteness restriction, or containing set is needed.",
+  "tags": [
+    "russell-paradox",
+    "syntax",
+    "type-discipline"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

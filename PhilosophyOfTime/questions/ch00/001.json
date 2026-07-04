@@ -1,0 +1,18 @@
+{
+  "question_id": "96985599-5564-4f09-91e3-724011fe7385",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Augustine's famous remark — “What then is time? If no one asks me, I know; if I want to explain it to one that asks, I do not know” — is used in the book to capture which feature of the problem of time?",
+  "choices": [
+    "The gap between our fluent, pre-theoretical familiarity with time and our inability to give a theoretical account of what it is",
+    "The claim that time does not exist at all, since neither the past nor the future is real",
+    "The relativistic discovery that clocks run at different rates in different reference frames",
+    "The thesis that time is nothing over and above the relations among events"
+  ],
+  "answer": 0,
+  "explanation": "The book reads Augustine's remark as naming the gap between knowing-how (using temporal concepts fluently) and knowing-that (stating what time is) — a lived familiarity that resists conceptual capture. Denying time's existence is Aristotle's aporia, not Augustine's point here; frame-dependent clocks belong to special relativity; and 'nothing over and above relations' is Leibniz's relationalism, each discussed elsewhere in the unit.",
+  "tags": ["augustine", "knowledge-how", "methodology", "nature-of-time"],
+  "difficulty": "beginner",
+  "generated": true
+}

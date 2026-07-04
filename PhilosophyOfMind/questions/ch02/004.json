@@ -1,0 +1,23 @@
+{
+  "question_id": "8d2df5a8-433d-470f-922e-33c37c5f049d",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "How does Levine's 'explanatory gap,' as he originally framed it, differ from Chalmers' hard problem?",
+  "choices": [
+    "Levine's gap is an epistemological claim (we cannot explain why a neural state feels as it does) compatible with physicalism being true, whereas Chalmers draws the metaphysical conclusion that consciousness is non-physical",
+    "Levine argues consciousness is non-physical, while Chalmers holds it is physical",
+    "There is no difference; the two are exactly the same claim",
+    "Levine denies that qualia exist, whereas Chalmers affirms them"
+  ],
+  "answer": 0,
+  "explanation": "Levine (1983) claimed only that we cannot explain why a physical state has the qualitative character it does — an epistemic gap that could persist even if physicalism is true. Chalmers presses further to a metaphysical conclusion that phenomenal properties are not physical. Option 1 reverses their positions; option 2 ignores Levine's explicit caution; option 3 describes illusionism, not Levine.",
+  "tags": [
+    "explanatory-gap",
+    "levine",
+    "hard-problem",
+    "chalmers"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

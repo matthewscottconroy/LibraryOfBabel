@@ -1,0 +1,20 @@
+{
+  "question_id": "af2eb20f-a9ba-4422-88da-2705258aec79",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "tf",
+  "text": "Grothendieck's homotopy hypothesis asserts that $\\infty$-groupoids (all morphisms invertible at all levels) are the same as topological spaces up to homotopy equivalence.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is precisely the homotopy hypothesis of the chapter: $\\{\\text{topological spaces}\\}/\\text{homotopy}\\simeq\\{\\infty\\text{-groupoids}\\}$, stated there as a theorem in various models. It is what lets homotopy theory be carried out purely algebraically inside $\\infty$-categories.",
+  "tags": [
+    "homotopy-hypothesis",
+    "infinity-groupoid",
+    "spaces"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "83e60646-269b-4965-9101-7acb1211e836",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The Fokker-Planck equation can be written as a gradient flow of free energy in the ___ metric (Jordan-Kinderlehrer-Otto).",
+  "choices": [
+    "Wasserstein",
+    "W2",
+    "Wasserstein-2"
+  ],
+  "answer": "Wasserstein",
+  "explanation": "The JKO result realizes diffusion as steepest descent of free energy in the W2 (Wasserstein-2) geometry, giving the PDE a variational structure.",
+  "tags": [
+    "jko",
+    "wasserstein",
+    "gradient-flow"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

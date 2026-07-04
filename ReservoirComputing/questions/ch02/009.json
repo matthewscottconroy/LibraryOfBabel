@@ -1,0 +1,22 @@
+{
+  "question_id": "5046afbb-037f-452c-b882-a3a84a543410",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "How does esn.py's echo_state_property_test empirically decide whether the ESP holds?",
+  "choices": [
+    "It computes rho(W_rec) and reports ESP if it is below 1.0",
+    "It trains the readout and reports ESP if the training NMSE is below 1e-4",
+    "It compares the norm of W_out across random seeds",
+    "It drives the reservoir from several different random initial states and reports ESP if the maximum final-state distance is below 1e-4"
+  ],
+  "answer": 3,
+  "explanation": "The test drives the reservoir with the same input from several different random initial states and declares the ESP to hold if the maximum final-state distance is below 1e-4 - an empirical convergence check. It does not inspect rho, training NMSE, or W_out norms.",
+  "tags": [
+    "echo-state-property",
+    "esp-test",
+    "state-convergence"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

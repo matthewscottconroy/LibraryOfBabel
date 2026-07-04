@@ -1,0 +1,21 @@
+{
+  "question_id": "138e040f-133f-4e84-80ff-2377e8f1f0d6",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Functionalism holds that a mental state such as pain is:",
+  "choices": [
+    "Identical to a specific neural type, such as C-fibre firing",
+    "Whatever state plays the characteristic causal role (its typical causes, effects, and interactions), regardless of physical make-up",
+    "A non-physical property irreducible to any physical or functional facts",
+    "A mere behavioural disposition with no genuine inner state"
+  ],
+  "answer": 1,
+  "explanation": "Functionalism defines pain by its functional role - its typical causes (tissue damage), effects (withdrawal), and interactions with other states - so any suitably organized system realizes it. Option 0 is the type-identity theory, option 2 is dualism, and option 3 is behaviourism; functionalism is distinguished from each by individuating states through causal role rather than brain-type, substance, or bare behaviour.",
+  "tags": [
+    "functionalism",
+    "functional-role"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

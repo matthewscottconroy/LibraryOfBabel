@@ -1,0 +1,18 @@
+{
+  "question_id": "380f37ac-0742-40e5-b076-6b0b5d974cf9",
+  "chapter": 24,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Ax's theorem (1968) states that an injective polynomial map $f: \\mathbb{C}^n \\to \\mathbb{C}^n$ must be:",
+  "choices": [
+    "constant",
+    "linear",
+    "a bijection onto a proper subset",
+    "surjective"
+  ],
+  "answer": 3,
+  "explanation": "Ax's theorem: an injective polynomial map $\\mathbb{C}^n \\to \\mathbb{C}^n$ is surjective (hence bijective). The model-theoretic proof transfers the easy finite-field fact through an ultraproduct to a model of $\\mathrm{ACF}_0$, then to $\\mathbb{C}$ by completeness of $\\mathrm{ACF}_0$. Polynomial maps need not be linear, and 'constant' or 'onto a proper subset' directly contradict surjectivity.",
+  "tags": ["ax-theorem", "algebraically-closed-fields", "transfer-principle"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "164d58b7-4097-48f5-b5d6-eb73ce9d97da",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The book defines an ordered field F as complete if every non-empty subset of F that is bounded above has a ___ in F.",
+  "choices": [
+    "least upper bound",
+    "supremum"
+  ],
+  "answer": "least upper bound",
+  "explanation": "The book states completeness as the Least Upper Bound Property: every non-empty subset bounded above has a least upper bound (supremum) in F. This is what distinguishes ℝ from ℚ, and the book notes it is equivalent to every Cauchy sequence converging.",
+  "tags": [
+    "number-systems",
+    "completeness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

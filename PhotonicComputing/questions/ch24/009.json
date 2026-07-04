@@ -1,0 +1,19 @@
+{
+  "question_id": "71f4c1f7-c655-4204-9be0-fe7bec9d27f0",
+  "chapter": 24,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The laser that powers a photonic accelerator runs off an electrical supply at only about 10-25% ___ efficiency, so its optical energy must be divided by that factor to account for its true cost at the wall plug.",
+  "choices": [
+    "wall-plug"
+  ],
+  "answer": "wall-plug",
+  "explanation": "Typical laser wall-plug (electrical-to-optical) efficiency is 10-25%, so the laser's optical energy is divided by the WPE to get the real electrical cost — a required normalization in fair benchmarking. This is why the laser term in the master energy-per-MAC equation carries a divide-by-WPE factor.",
+  "tags": [
+    "wall-plug-efficiency",
+    "laser",
+    "energy-accounting"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

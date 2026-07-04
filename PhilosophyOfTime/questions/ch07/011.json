@@ -1,0 +1,13 @@
+{
+  "question_id": "34eb3eb8-24b5-495c-b034-365c995e5d9a",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Empirical studies find that depressed patients consistently overestimate the duration of intervals — a result consistent with the phenomenological report that in depression time seems to slow, or even to stop.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "This is true. Depressed patients consistently overestimate interval duration — time 'passes slowly' — which fits the reported experience of time thickening or stopping and is explained by increased self-monitoring feeding the attentional-gate mechanism, so that more clock pulses accumulate. This is the mirror image of mania, where patients underestimate duration and time seems to accelerate.",
+  "tags": ["depression", "time-distortion", "duration-estimation", "psychology"],
+  "difficulty": "beginner",
+  "generated": true
+}

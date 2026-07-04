@@ -1,0 +1,20 @@
+{
+  "question_id": "26620851-09b1-4bd7-a27d-c84e3e0bab66",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: In set theory a function f: A → B is defined as a relation f ⊆ A × B that is total (every a ∈ A relates to some b) and single-valued (each a relates to exactly one b).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Functions are encoded set-theoretically as special relations — subsets of the Cartesian product A × B that are total and single-valued (functional). This reduction of functions to sets is part of encoding all of mathematics inside ZFC.",
+  "tags": [
+    "functions",
+    "relations",
+    "cartesian-product"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

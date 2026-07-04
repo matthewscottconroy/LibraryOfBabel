@@ -1,0 +1,19 @@
+{
+  "question_id": "7b881542-1595-42c8-81bd-a380f531a10a",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "To provide a truthmaker for negative existentials like 'there are no unicorns,' Armstrong posits a higher-order ___ state of affairs—the fact that the actual things are all the things there are.",
+  "choices": [
+    "totality"
+  ],
+  "answer": "totality",
+  "explanation": "Armstrong's totality state of affairs 'closes off' the world, entailing that nothing exists beyond the actual inventory and thereby necessitating negative existentials and universal generalizations. Critics (Lewis, Simons) object that this higher-order fact is mysterious and ad hoc, which motivates sparse-truthmaking and grounding alternatives to maximalism.",
+  "tags": [
+    "truthmaker",
+    "totality-fact",
+    "negative-truths"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

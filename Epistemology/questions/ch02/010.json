@@ -1,0 +1,18 @@
+{
+  "question_id": "9014ae01-62cb-469a-9145-7bfd1c0599fd",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Sydney Shoemaker explains the special authority of first-person, present-tense psychological avowals (such as 'I am in pain') by:",
+  "choices": [
+    "showing that such avowals are strictly infallible and incorrigible, exactly as Descartes maintained",
+    "treating them as high-level perceptual reports produced by an inner-sense faculty scanning one's own mental representations",
+    "noting that they are not based on observation of evidence, are not reached by inference, and are not subject to error through misidentification of whose state it is",
+    "reducing first-person authority to the same inductive track record that grounds ordinary third-person attributions"
+  ],
+  "answer": 2,
+  "explanation": "Shoemaker grounds first-person authority not in infallibility but in the absence of certain error-possibilities: avowals are not evidence-based, not inferential, and immune to error through misidentification (one does not wonder whether it is oneself who is in pain), yielding a distinctive but still defeasible authority. Option 0 is the stronger Cartesian infallibility Shoemaker avoids; option 1 is Carruthers' inner-sense model; option 3 collapses the very first/third-person asymmetry being explained. Only option 2 is Shoemaker's account.",
+  "tags": ["introspection", "first-person-authority", "shoemaker", "privileged-access"],
+  "difficulty": "intermediate",
+  "generated": true
+}

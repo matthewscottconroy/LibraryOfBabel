@@ -1,0 +1,13 @@
+{
+  "question_id": "863493b4-af83-4e80-afa6-aef9182c813d",
+  "chapter": 20,
+  "phase": 3,
+  "kind": "mc",
+  "text": "According to the chapter, balanced homodyne detection — the basic CV measurement — has which set of properties?",
+  "choices": ["Requires dilution-refrigerator cooling and detects at most one photon per pulse", "Operates at room temperature with quantum efficiency above 99% and gigahertz bandwidth", "Measures photon number directly and is the resource that makes a circuit non-Gaussian", "Simultaneously measures x and p with no added noise penalty"],
+  "answer": 1,
+  "explanation": "The book stresses that homodyne detection runs at room temperature with >99% efficiency and GHz bandwidth using ordinary photodiodes. Choice 0 describes cryogenic single-photon counters (the DV world); choice 2 describes photon-number-resolving detection, not homodyne; choice 3 describes heterodyne, which pays a mandatory one-vacuum-unit penalty per quadrature.",
+  "tags": ["homodyne-detection", "measurement", "continuous-variable"],
+  "difficulty": "beginner",
+  "generated": true
+}

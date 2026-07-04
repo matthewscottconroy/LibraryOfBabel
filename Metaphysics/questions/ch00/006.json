@@ -1,0 +1,22 @@
+{
+  "question_id": "f9739ed5-ff16-496b-b540-07d49d9e171b",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In 'Science Without Numbers', what is Hartry Field's response to the Quine-Putnam indispensability argument?",
+  "choices": [
+    "He denies the indispensability premise, arguing mathematics is conservative and that a physical theory (Newtonian mechanics) can be nominalized using only spacetime regions and their relations.",
+    "He grants that mathematics is indispensable but argues, with Maddy, that scientists treat mathematical posits as idealizations they do not literally believe.",
+    "He accepts mathematical objects but argues they are mental constructions rather than mind-independent abstracta.",
+    "He accepts the argument in full and concludes that we are committed to numbers and sets exactly as we are to electrons."
+  ],
+  "answer": 0,
+  "explanation": "Field attacks the second premise (indispensability): he argues mathematics is conservative over nominalist physics and reconstructs Newtonian mechanics with spacetime regions plus betweenness/congruence, quantifying over no numbers. The tempting distractor (option 1) is Maddy's quite different reply, which concedes indispensability and instead appeals to scientific practice and idealization; option 3 is Quine's own conclusion, which Field rejects.",
+  "tags": [
+    "indispensability",
+    "field",
+    "nominalism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

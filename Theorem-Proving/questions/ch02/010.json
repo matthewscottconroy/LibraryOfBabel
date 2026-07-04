@@ -1,0 +1,19 @@
+{
+  "question_id": "66e16568-65b1-450b-ab18-6c2dc68661e5",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A formula of the form Q₁x₁ Q₂x₂ … Qₙxₙ ψ, where each Qᵢ is a quantifier and ψ is quantifier-free (the matrix), is said to be in ___ normal form.",
+  "choices": [
+    "prenex"
+  ],
+  "answer": "prenex",
+  "explanation": "This is prenex normal form: all quantifiers pulled to the front, followed by a quantifier-free matrix. Every first-order formula has a logically equivalent prenex form, and prenex form is the starting point for Skolemization.",
+  "tags": [
+    "prenex-normal-form",
+    "quantifiers",
+    "matrix"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

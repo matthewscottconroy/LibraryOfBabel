@@ -1,0 +1,20 @@
+{
+  "question_id": "d787ec6c-b23d-420b-a792-51661e238cbd",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Because Dummett's anti-realist rejects verification-transcendent truth values, he holds that the law of excluded middle is unwarranted for undecidable statements, and so favors revising classical logic in favor of ___ logic.",
+  "choices": [
+    "intuitionistic"
+  ],
+  "answer": "intuitionistic",
+  "explanation": "Anti-realism ties truth to what could in principle be verified, so for statements we can neither prove nor refute there is no ground to assert 'P or not-P'. Dummett therefore endorses intuitionistic logic, which rejects unrestricted excluded middle and double-negation elimination. This makes his anti-realism a revisionary program in logic, not merely in metaphysics.",
+  "tags": [
+    "anti-realism",
+    "dummett",
+    "intuitionistic-logic",
+    "bivalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

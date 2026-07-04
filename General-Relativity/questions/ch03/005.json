@@ -1,0 +1,21 @@
+{
+  "question_id": "65ef4be4-ce95-4006-b163-0c1e76668e9a",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "By the residue theorem, the contour integral ∮_C f(z) dz of a function meromorphic on and inside a simple closed contour C equals:",
+  "choices": [
+    "0 for every such f",
+    "the sum of the residues at the poles inside C",
+    "2πi times the sum of the residues at the poles inside C",
+    "2πi times the value f(z₀) at the centre of C"
+  ],
+  "answer": 2,
+  "explanation": "The residue theorem states ∮_C f dz = 2πi Σ Res_{z=z_k} f, summed over poles inside C. Dropping the 2πi factor is a common slip; the integral is 0 only when f is holomorphic (no interior poles) by Cauchy's theorem; and 2πi·f(z₀) belongs to the Cauchy integral formula for f(z)/(z − z₀).",
+  "tags": [
+    "complex-analysis",
+    "residues"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "0fcfce2d-da86-4d1b-8f44-c9de4d95a688",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "tf",
+  "text": "Jonathan Haidt's social intuitionist model holds that moral reasoning is typically a post-hoc rationalization of a fast, intuitive/emotional judgment.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: on Haidt's model we arrive at moral verdicts intuitively and then confabulate justifications, as shown by 'moral dumbfounding,' where subjects keep a judgment about a harmless taboo case even after their stated reasons are rebutted. Reasoning mostly plays a rhetorical, after-the-fact role.",
+  "tags": [
+    "haidt",
+    "social-intuitionism",
+    "moral-dumbfounding"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

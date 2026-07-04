@@ -1,0 +1,22 @@
+{
+  "question_id": "4c975ffd-a06b-4ced-aedd-b65790d5a4dd",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Deflationary theories of truth (for example redundancy and minimalist theories) are unified by the claim that:",
+  "choices": [
+    "truth is a substantive relation of correspondence between propositions and facts.",
+    "truth is the opinion on which ideal scientific inquiry is fated to converge.",
+    "truth is constituted by coherence within a comprehensive system of beliefs.",
+    "the truth predicate names no substantive property; the equivalence schema ('<p> is true iff p') captures everything essential about truth."
+  ],
+  "answer": 3,
+  "explanation": "Deflationism holds that 'true' adds no substantive content—to say 'it is true that p' is equivalent to asserting p, and the T-schema exhausts truth's role. Distractor 0 is precisely the substantive correspondence view that deflationists reject as an 'explanatory illusion,' and distractors 1 and 2 are the pragmatist and coherence theories.",
+  "tags": [
+    "deflationism",
+    "redundancy",
+    "minimalism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

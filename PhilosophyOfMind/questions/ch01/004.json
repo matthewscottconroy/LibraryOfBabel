@@ -1,0 +1,23 @@
+{
+  "question_id": "cfc1e9b0-914b-4015-a77d-bdfc528c9964",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Kim's causal exclusion argument pressures non-reductive physicalism by claiming that:",
+  "choices": [
+    "If a distinct mental property causes a physical effect that already has a sufficient physical cause, the effect is systematically overdetermined — which is implausible",
+    "Mental properties cannot supervene on physical properties",
+    "Folk psychology makes no testable predictions",
+    "Zombies are conceivable and therefore metaphysically possible"
+  ],
+  "answer": 0,
+  "explanation": "Kim's worry is that, given causal closure, every physical effect already has a sufficient physical cause; a distinct (non-identical) mental cause would then make the effect overdetermined, and rejecting systematic overdetermination pushes one toward reduction or epiphenomenalism. Option 1 denies supervenience (which non-reductive physicalists accept); options 2 and 3 belong to eliminativism and the zombie argument respectively.",
+  "tags": [
+    "kim",
+    "exclusion-problem",
+    "causal-closure",
+    "overdetermination"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

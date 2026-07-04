@@ -1,0 +1,13 @@
+{
+  "question_id": "6448250e-617e-45c0-9208-3cd9aaa2212e",
+  "chapter": 24,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The book gives the marketing conversion TOPS/W = 2 / E_MAC[pJ]. What energy per MAC corresponds to 20 TOPS/W?",
+  "choices": ["100 fJ/MAC", "1 pJ/MAC", "10 pJ/MAC", "A throughput figure, so no energy per MAC can be defined"],
+  "answer": 0,
+  "explanation": "Solving 20 = 2 / E_MAC[pJ] gives E_MAC = 0.1 pJ = 100 fJ/MAC (the factor of 2 because a MAC counts as two operations). Choice 1 (1 pJ) instead corresponds to 2 TOPS/W; choice 2 (10 pJ) to 0.2 TOPS/W; choice 3 misreads the direct relationship between the two metrics.",
+  "tags": ["tops-per-watt", "metrics", "energy-per-mac"],
+  "difficulty": "beginner",
+  "generated": true
+}

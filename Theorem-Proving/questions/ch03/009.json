@@ -1,0 +1,20 @@
+{
+  "question_id": "9e5f5b42-80e5-47f7-a11b-79e149879ce3",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "blank",
+  "text": "In resolution, resolving the complementary literals of two clauses so as to derive the ___ clause (□) constitutes a refutation, showing the clause set is unsatisfiable.",
+  "choices": [
+    "empty"
+  ],
+  "answer": "empty",
+  "explanation": "Deriving the empty clause □ (a clause with no literals, representing a contradiction) is a resolution refutation and proves the original clause set unsatisfiable. Resolution is refutation-complete: the empty clause is derivable iff the set is unsatisfiable.",
+  "tags": [
+    "resolution",
+    "empty-clause",
+    "refutation",
+    "unsatisfiability"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

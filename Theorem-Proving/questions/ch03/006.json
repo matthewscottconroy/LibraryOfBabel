@@ -1,0 +1,23 @@
+{
+  "question_id": "6facdc30-bcbd-418c-b483-1806b8439a1d",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which option correctly pairs a property of a proof system with its meaning?",
+  "choices": [
+    "Soundness: if Γ ⊨ φ then Γ ⊢ φ",
+    "Completeness: if Γ ⊢ φ then Γ ⊨ φ",
+    "Completeness: if Γ ⊨ φ then Γ ⊢ φ (Gödel 1930 for FOL, via the Henkin construction)",
+    "Cut elimination: every tautology has a proof that uses the cut rule"
+  ],
+  "answer": 2,
+  "explanation": "Completeness is ⊨ ⟹ ⊢ (option 3), proved for first-order logic by Gödel (1930), standardly via Henkin's maximal-consistent-set construction. Options 1 and 2 swap the definitions of soundness and completeness (soundness is ⊢ ⟹ ⊨). Cut elimination (option 4) is about REMOVING cuts, not about cuts being required.",
+  "tags": [
+    "completeness",
+    "soundness",
+    "henkin",
+    "godel"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

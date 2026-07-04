@@ -1,0 +1,19 @@
+{
+  "question_id": "36648fa1-7360-43c4-ac57-946f295a5c28",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Since a photonic spiking network is event-driven with E_total ~ (number of spikes) x (energy per spike), the widely cited energy target for a competitive photonic spiking neuron is less than ___ per spike.",
+  "choices": [
+    "1 fJ"
+  ],
+  "answer": "1 fJ",
+  "explanation": "Present laser-neuron demonstrations sit in the femtojoule-to-picojoule range, with a widely cited goal of less than 1 fJ per spike (plus sub-pJ to pJ for O-E-O conversion). Because energy is spikes times energy-per-spike, sub-fJ dynamic energy per event is the design goal.",
+  "tags": [
+    "neuromorphic",
+    "energy-per-spike",
+    "sub-femtojoule"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

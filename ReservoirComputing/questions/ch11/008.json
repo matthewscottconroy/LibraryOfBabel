@@ -1,0 +1,21 @@
+{
+  "question_id": "09846981-c8d6-45b5-85f8-9fc10acf005e",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The conceptor AND of two sinusoids at different frequencies (near-orthogonal state subspaces) has nearly all singular values close to ___, i.e., it is essentially the null pattern.",
+  "choices": [
+    "0",
+    "zero",
+    "near zero"
+  ],
+  "answer": "0",
+  "explanation": "AND keeps only directions active in BOTH patterns. For patterns at different frequencies the active subspaces are nearly orthogonal, so their intersection is empty and C_p AND C_q is near the zero matrix.",
+  "tags": [
+    "conceptor",
+    "boolean-operations",
+    "and"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

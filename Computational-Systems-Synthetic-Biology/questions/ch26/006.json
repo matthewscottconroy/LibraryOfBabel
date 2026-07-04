@@ -1,0 +1,23 @@
+{
+  "chapter": 26,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is Singularity/Apptainer often preferred over Docker for running containerized bioinformatics tools on shared HPC clusters?",
+  "choices": [
+    "Singularity images are always smaller in file size than the equivalent Docker image",
+    "Singularity cannot pull or convert existing Docker images",
+    "Singularity replaces the need for a workflow manager such as Snakemake",
+    "Singularity does not require root privileges to run containers, unlike Docker"
+  ],
+  "answer": 3,
+  "explanation": "The chapter states plainly that Docker requires root access while Singularity/Apptainer does not, which matters on shared HPC systems where ordinary users cannot be granted root. Image size is not a stated or guaranteed advantage; Singularity can directly pull and convert Docker images via `singularity pull docker://...`, so that claim is false; and Singularity is a container runtime, not a pipeline/workflow manager, so it does not replace Snakemake.",
+  "tags": [
+    "singularity",
+    "apptainer",
+    "docker",
+    "hpc"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "88ba497a-9ae3-43a9-9df7-dac7043fc876"
+}

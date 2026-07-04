@@ -1,0 +1,22 @@
+{
+  "question_id": "4c657c01-3df7-4659-85c9-26fed73880e9",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the RLS update, how is the Kalman gain k computed from the state x and covariance P?",
+  "choices": [
+    "k = P x / (1 + x^T P x)",
+    "k = P x / (1 - x^T P x)",
+    "k = x / (1 + x^T x)",
+    "k = P x * (1 + x^T P x)"
+  ],
+  "answer": 0,
+  "explanation": "esn.py computes k = Px / (1 + x @ Px). The denominator is 1 PLUS the quadratic form (not minus), P appears in both numerator and denominator, and the gain is a normalization (division), not a multiplication by the denominator.",
+  "tags": [
+    "rls",
+    "kalman-gain",
+    "sherman-morrison"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

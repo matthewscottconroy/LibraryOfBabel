@@ -1,0 +1,20 @@
+{
+  "question_id": "50cada83-1c5b-453a-85aa-fad4793d177a",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Over an arbitrary field, every operator is similar to a block-diagonal matrix of companion matrices C(f₁),…,C(f_r) with f₁ | f₂ | ⋯ | f_r; this is the ___ canonical form.",
+  "choices": [
+    "rational",
+    "rational canonical",
+    "Frobenius"
+  ],
+  "answer": "rational",
+  "explanation": "The rational canonical form (Frobenius normal form) classifies operators up to similarity without needing eigenvalues, so it works over any field — unlike Jordan form, which needs the characteristic polynomial to split. The last invariant factor f_r is the minimal polynomial.",
+  "tags": [
+    "canonical-forms",
+    "rational-canonical-form"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

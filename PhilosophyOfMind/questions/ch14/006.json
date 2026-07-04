@@ -1,0 +1,22 @@
+{
+  "question_id": "5aca736b-0c2c-4621-bdae-0260f28af578",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Merleau-Ponty explains the phantom limb by appeal to the body schema, which he understands as:",
+  "choices": [
+    "An accurate internal snapshot of the body's current anatomical state",
+    "A practical, action-oriented grasp of bodily possibilities that can persist unupdated after amputation",
+    "A purely physiological reflex arc in the spinal cord",
+    "A Cartesian ego issuing commands to a mechanical body"
+  ],
+  "answer": 1,
+  "explanation": "The body schema is a practical, action-oriented grasp of what the body can do, not an accurate anatomical snapshot; the phantom limb persists because this action-schema has not updated to the amputation. Merleau-Ponty rejects both the purely physiological (reflex-arc) and the Cartesian ego-commanding-a-machine pictures.",
+  "tags": [
+    "body-schema",
+    "phantom-limb",
+    "merleau-ponty"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "df3150a4-84cc-4c49-ae99-804c3314e9d9",
+  "chapter": 25,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In this chapter's framing, every photonic computing company can be located on a single clarifying axis defined by which two product categories?",
+  "choices": [
+    "Analog control versus digital control",
+    "Optical compute (performing arithmetic) versus optical interconnect (moving bits)",
+    "Classical photonics versus quantum photonics",
+    "Integrated waveguide optics versus free-space optics"
+  ],
+  "answer": 1,
+  "explanation": "The chapter's organizing axis is compute versus interconnect: optical compute performs arithmetic (matrix products, Ising minimization, convolutions), while optical interconnect moves bits (I/O chiplets, interposers, switch fabrics). Analog/digital, classical/quantum, and integrated/free-space are real distinctions but not the single axis the chapter uses to classify companies.",
+  "tags": ["compute-vs-interconnect", "product-categories"],
+  "difficulty": "beginner",
+  "generated": true
+}

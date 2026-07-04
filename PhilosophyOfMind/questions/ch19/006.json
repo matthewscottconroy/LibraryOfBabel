@@ -1,0 +1,23 @@
+{
+  "question_id": "f6c27204-82a0-429d-9fc9-a9ecce95ec65",
+  "chapter": 19,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In the 'reflective equilibrium' method (Rawls), the relationship between intuitions and theory is that...",
+  "choices": [
+    "intuitions are incorrigible data that theory may never revise",
+    "theory is fixed in advance and intuitions about cases are simply ignored",
+    "intuitions supply initial data that a theory must largely explain, while intuitions may themselves be revised until theory and judgments cohere",
+    "only the intuitions of untrained non-experts count as evidence"
+  ],
+  "answer": 2,
+  "explanation": "Reflective equilibrium is a process of mutual adjustment: theories are built to systematize considered intuitions, and intuitions are revised where the best theory demands, aiming at coherence. Option A wrongly treats intuitions as incorrigible, B ignores their evidential role, and D inverts the expertise consideration.",
+  "tags": [
+    "reflective-equilibrium",
+    "rawls",
+    "intuitions",
+    "method"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

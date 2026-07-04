@@ -1,0 +1,20 @@
+{
+  "question_id": "4777925f-8156-4e20-bcaa-ef2484a76f09",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "In Confessions XI, Augustine argues that we do not measure a past event itself (which no longer exists) but rather the present ___ that the event has left in the mind — so that the mind, in measuring time, is really measuring itself.",
+  "choices": [
+    "impression"
+  ],
+  "answer": "impression",
+  "explanation": "The expected answer is impression (Augustine's affectio, the trace or modification a passing event leaves in the soul). Since the event is gone, what we actually measure is this present impression, which is why Augustine concludes 'it is in you, O mind of mine, that I measure time.' The measure of time is thus internal to the soul rather than a property of the external world.",
+  "tags": [
+    "augustine",
+    "measuring-time",
+    "impression",
+    "affectio"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

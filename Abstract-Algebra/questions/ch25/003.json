@@ -1,0 +1,22 @@
+{
+  "question_id": "c2cc8458-a87b-4e3b-91c5-f025688114ef",
+  "chapter": 25,
+  "phase": 8,
+  "kind": "mc",
+  "text": "In the topos $\\mathrm{Sh}(X)$ of sheaves on a topological space $X$, the subobject classifier assigns to an open set $U$ which set of truth values?",
+  "choices": [
+    "The subgroups of the fundamental group $\\pi_1(U)$",
+    "The two-element set $\\{T,F\\}$, exactly as in $\\mathbf{Set}$",
+    "The set of open subsets of $U$",
+    "The set of closed subsets of $U$"
+  ],
+  "answer": 2,
+  "explanation": "The chapter states $\\Omega(U)=\\{\\text{open subsets of }U\\}$ in $\\mathrm{Sh}(X)$, so truth values are open sets and the internal logic is intuitionistic. The two-element $\\{T,F\\}$ classifies in $\\mathbf{Set}$; subgroups classify in $G\\text{-}\\mathbf{Set}$; and it is open, not closed, subsets that appear, matching the open-cover notion of 'locally true.'",
+  "tags": [
+    "topos",
+    "sheaf",
+    "subobject-classifier"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

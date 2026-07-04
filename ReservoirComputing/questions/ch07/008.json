@@ -1,0 +1,20 @@
+{
+  "question_id": "fa0da379-d87a-4a9c-9320-f04a028d007a",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Because Mackey-Glass with τ=17 is only weakly chaotic, the lab reports that its closed-loop prediction matches the true trajectory forever without diverging.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: even weak chaos has sensitive dependence on initial conditions. The lab shows closed-loop predictions diverge after a finite time (the VPT). τ=17 gives a longer VPT than τ=30, but not an infinite one.",
+  "tags": [
+    "mackey-glass",
+    "closed-loop",
+    "chaos"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

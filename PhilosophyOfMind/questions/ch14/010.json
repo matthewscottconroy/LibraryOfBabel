@@ -1,0 +1,20 @@
+{
+  "question_id": "fd3ce04c-7614-4fd7-bbfd-ee967666ff8e",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Sartre's term for the self-deception in which consciousness flees its freedom by pretending to be a fixed thing (a being-in-itself) is ___ (mauvaise foi).",
+  "choices": [
+    "bad faith",
+    "mauvaise foi"
+  ],
+  "answer": "bad faith",
+  "explanation": "Bad faith (mauvaise foi) is Sartre's name for fleeing one's freedom by pretending to have a fixed essence — to be a being-in-itself — as in the over-identified waiter. The expected term is 'bad faith.'",
+  "tags": [
+    "bad-faith",
+    "sartre",
+    "freedom"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

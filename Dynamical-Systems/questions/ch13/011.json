@@ -1,0 +1,19 @@
+{
+  "question_id": "e4009649-34db-4e6e-8fcf-55610a844a95",
+  "chapter": 13,
+  "phase": 6,
+  "kind": "blank",
+  "text": "A topos has finite limits, power objects, and a ___ classifier Omega.",
+  "choices": [
+    "subobject"
+  ],
+  "answer": "subobject",
+  "explanation": "The subobject classifier Omega represents subobjects as maps into Omega, giving the topos its internal higher-order intuitionistic logic; in Set^G it is the set of G-invariant truth values.",
+  "tags": [
+    "topos",
+    "subobject-classifier",
+    "category-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

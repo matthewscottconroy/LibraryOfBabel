@@ -1,0 +1,24 @@
+{
+  "question_id": "705037f6-f5b6-4642-b907-208eca6ae82c",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Zeno's Achilles paradox, swift Achilles gives a tortoise a head start; each time he reaches where the tortoise was, it has crept a little farther on, so he seemingly can never catch it. What is the standard mathematical response to this paradox?",
+  "choices": [
+    "Deny that space and time are infinitely divisible, treating them instead as built from discrete, indivisible units",
+    "The infinitely many 'catching-up' intervals form a convergent series whose total time is finite, so Achilles overtakes the tortoise in a finite time",
+    "Concede that Achilles literally never catches the tortoise, since motion itself is ultimately an illusion",
+    "Point out that at each instant Achilles occupies a space equal to himself and is therefore at rest"
+  ],
+  "answer": 1,
+  "explanation": "The standard mathematical response notes that the successive intervals (100/v, 10/v, 1/v, ...) form a convergent geometric series summing to a finite time, so Achilles catches the tortoise. Option 0 is a genuinely different, discrete-space strategy, not the convergence answer; option 2 simply accepts the Eleatic conclusion Zeno was defending; and option 3 confuses the Achilles with a different Zeno paradox, the Arrow.",
+  "tags": [
+    "zeno",
+    "achilles",
+    "paradox",
+    "convergent-series",
+    "infinity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

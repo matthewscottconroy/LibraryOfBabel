@@ -1,0 +1,13 @@
+{
+  "question_id": "7da5d7cf-7d45-4b48-8f80-39637e706c8e",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Electron-beam lithography is the vehicle for research prototyping, photonic crystals, and inverse-designed geometries. What is its defining trade-off relative to optical projection lithography?",
+  "choices": ["Higher throughput but coarser (~1 micron) resolution", "It needs no vacuum but requires expensive masks", "5-10 nm resolution with zero mask cost, but serial write time (hours per chip) and 10-30 nm stitching errors", "It can pattern only metals, not dielectrics"],
+  "answer": 2,
+  "explanation": "E-beam direct-write reaches 5-10 nm with no mask, ideal for prototypes and inverse-designed shapes, but it writes serially (t = DA/I; hours per chip, weeks per wafer) and suffers 10-30 nm write-field stitching errors that become scattering/phase defects. Choice 0 inverts the trade-off; choice 1 is wrong (e-beam needs high vacuum and uses no mask); choice 3 is false.",
+  "tags": ["e-beam-lithography", "resolution", "throughput"],
+  "difficulty": "beginner",
+  "generated": true
+}

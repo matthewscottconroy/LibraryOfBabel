@@ -1,0 +1,21 @@
+{
+  "question_id": "175d0649-1ce5-417b-a7b4-53a82a2f58ec",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A Turing machine's transition function has which form?",
+  "choices": [
+    "δ: Q × Σ → Q × Σ × {L, R} — from current state and scanned symbol to a new state, a symbol to write, and a head move",
+    "δ: Q → Q — a map from states to states only",
+    "δ: Σ* → {accept, reject} — directly from input strings to a verdict",
+    "δ: ℕ → ℕ — a numeric function on the tape contents"
+  ],
+  "answer": 0,
+  "explanation": "A TM transition δ: Q × Σ → Q × Σ × {L,R} reads the current state and scanned symbol and returns a new state, a symbol to write, and a left/right head movement. Option B ignores the tape; option C describes the machine's overall input–output behavior, not its single-step rule; option D misrepresents the state/alphabet machinery as arithmetic.",
+  "tags": [
+    "turing-machines",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

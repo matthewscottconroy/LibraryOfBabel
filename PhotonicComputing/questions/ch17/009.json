@@ -1,0 +1,19 @@
+{
+  "question_id": "a48d2e93-dda5-4842-bccc-ef94178fe744",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Scanning the relative delay traces the HOM dip; its depth (the visibility V = 1 - 2*P_min) equals the ___ M = |<psi1|psi2>|^2 of the two photons, a direct measure of whether they are truly the same photon.",
+  "choices": [
+    "indistinguishability"
+  ],
+  "answer": "indistinguishability",
+  "explanation": "The HOM visibility equals the indistinguishability M = |<psi1|psi2>|^2; perfectly indistinguishable photons (M = 1) give a dip to zero coincidences. This is the acceptance metric that fault-tolerant photonic sources must push above 99.9%.",
+  "tags": [
+    "hom",
+    "indistinguishability",
+    "visibility"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

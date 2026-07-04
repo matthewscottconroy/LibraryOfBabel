@@ -1,0 +1,22 @@
+{
+  "question_id": "d5683cc2-845d-4994-b1c7-da5ed8439c61",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is the key difference between weak and strong emergence?",
+  "choices": [
+    "Weak emergence involves downward causation, whereas strong emergence does not.",
+    "Weak emergence is incompatible with physicalism, whereas strong emergence is compatible with it.",
+    "Strong emergence is a purely epistemic notion, whereas weak emergence is ontological.",
+    "Strongly emergent properties are not derivable even in principle from a complete lower-level description, whereas weakly emergent properties are derivable in principle but only via complex simulation."
+  ],
+  "answer": 3,
+  "explanation": "Weak emergence (Bedau) is epistemic or computational—derivable in principle but only by simulation, and compatible with physicalism—while strong emergence is ontological: not derivable even in principle, involving novel higher-level causal powers and downward causation. The other options invert exactly these features.",
+  "tags": [
+    "emergence",
+    "supervenience",
+    "bedau"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

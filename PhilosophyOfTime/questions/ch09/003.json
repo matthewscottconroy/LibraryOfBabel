@@ -1,0 +1,18 @@
+{
+  "question_id": "112d2ea9-e301-4913-a82f-bb854c7579d7",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Following Ockham, Fischer argues that divine foreknowledge does not foreclose freedom because God's past knowledge that S will do A is a 'soft fact' about the past. What makes it soft rather than hard?",
+  "choices": [
+    "It was held by a being existing wholly outside time, so it is not genuinely a past fact at all.",
+    "It concerns only what obtained at the earlier time and makes no reference to later events.",
+    "Its truth conditions essentially involve S's future action, so it is counterfactually dependent on what S does later.",
+    "It is only conditionally, not absolutely, necessary, since God's knowing does not causally compel the act."
+  ],
+  "answer": 2,
+  "explanation": "A soft fact is stated in the past tense but has essential reference to later times; because knowledge is factive, the truth of God's past belief depends on S's future action, making it counterfactually dependent on that action and so exempt from the necessity-of-the-past principle. Option B actually defines a hard fact, the opposite. Divine timelessness and the conditional-versus-absolute-necessity distinction are Boethius's separate solutions, not the Ockhamist hard/soft distinction.",
+  "tags": ["theological-fatalism", "foreknowledge", "hard-soft-facts", "ockham"],
+  "difficulty": "advanced",
+  "generated": true
+}

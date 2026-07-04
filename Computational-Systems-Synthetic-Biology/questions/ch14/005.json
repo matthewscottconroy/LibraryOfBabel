@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the Vivarium compositional modeling framework (Agmon et al., 2022), what is a 'Store'?",
+  "choices": [
+    "A named variable (or set of variables) representing shared state that multiple processes can read from and write to",
+    "A computational component with defined inputs and outputs that implements a specific modeling framework, such as an ODE or stochastic simulation",
+    "A tree structure that organizes multiple processes into a hierarchical composite",
+    "A connection specifying which process port maps to which state variable"
+  ],
+  "answer": 0,
+  "explanation": "In Vivarium, a Store holds the named state variables (such as metabolite counts) that multiple Processes share and can both read and modify, enabling different modeling frameworks to interact consistently. Choice 1 actually defines a 'Process,' choice 2 defines a 'Composite,' and choice 3 defines 'Wiring' -- all real Vivarium concepts, but each distinct from a Store.",
+  "tags": [
+    "vivarium",
+    "compositional-modeling",
+    "multiscale-modeling"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "6a736045-2bc4-4a14-9cbf-ad9dd330d00a"
+}

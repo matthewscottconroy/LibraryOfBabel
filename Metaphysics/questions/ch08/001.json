@@ -1,0 +1,22 @@
+{
+  "question_id": "d99bee9a-5d38-468d-a364-8de5deb30060",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Quine's criterion of ontological commitment says that a theory is committed to exactly those entities that:",
+  "choices": [
+    "must be the values of its bound variables when the theory is regimented into canonical first-order logic.",
+    "appear as singular terms in its analytic truths.",
+    "are indispensable to ordinary language as it is actually spoken.",
+    "are fundamental rather than derivative in the grounding hierarchy."
+  ],
+  "answer": 0,
+  "explanation": "For Quine, to be is to be the value of a bound variable: commitment is read off what the regimented first-order theory must quantify over to be true. Singular terms in analytic truths is the neo-Fregean criterion (Wright, Hale), fundamentality is the grounding theorists' reframing (Fine, Schaffer), and ordinary surface grammar is exactly what regimentation is meant to correct.",
+  "tags": [
+    "quine",
+    "ontological-commitment",
+    "regimentation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

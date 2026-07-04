@@ -1,0 +1,22 @@
+{
+  "question_id": "96e60e41-728f-415a-8d1f-5763e12991c9",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Feigenbaum's constant delta ~ 4.669 is universal across:",
+  "choices": [
+    "all systems of ODEs",
+    "linear maps",
+    "Hamiltonian systems",
+    "one-parameter families of unimodal maps"
+  ],
+  "answer": 3,
+  "explanation": "The period-doubling ratio delta ~ 4.6692 is universal for smooth unimodal (single-hump) families, explained by a renormalization fixed point. It is not a property of arbitrary ODEs, linear maps, or Hamiltonian flows.",
+  "tags": [
+    "feigenbaum",
+    "period-doubling",
+    "universality"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

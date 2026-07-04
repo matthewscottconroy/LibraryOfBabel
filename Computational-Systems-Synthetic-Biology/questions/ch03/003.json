@@ -1,0 +1,22 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is the average-case time complexity of a lookup operation in a hash table, assuming a reasonable load factor and few collisions?",
+  "choices": [
+    "O(1)",
+    "O(log n)",
+    "O(n)",
+    "O(n log n)"
+  ],
+  "answer": 0,
+  "explanation": "Hash tables achieve O(1) average-case lookup by computing a hash of the key to jump directly to a bucket. O(log n) is characteristic of balanced binary search trees, O(n) describes the worst case for a hash table with heavy collisions (or a plain linear scan), and O(n log n) is typical of efficient comparison-based sorting, not lookup.",
+  "tags": [
+    "data-structures",
+    "hash-tables",
+    "complexity-analysis"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "811917ca-88b0-4ba9-8e2d-03915ff6f3b2"
+}

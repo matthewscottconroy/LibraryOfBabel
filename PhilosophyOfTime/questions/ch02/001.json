@@ -1,0 +1,18 @@
+{
+  "question_id": "30d68e02-b0e4-4c16-bd5d-b6305f71639d",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Stoic metaphysics, time is classified as one of the four 'incorporeals' (along with sayables, void, and place). To say that time is incorporeal is to say that it:",
+  "choices": [
+    "is real but merely subsists (hyphestanai) rather than fully exists, because it can neither act nor be acted upon",
+    "is entirely unreal, a mere fiction or concept with no foothold in the world",
+    "is a body (soma) of an especially rare and subtle kind, like pneuma",
+    "is a second-order property, an 'accident of accidents' that supervenes on events"
+  ],
+  "answer": 0,
+  "explanation": "For the Stoics the mark of full existence (hyparchein) is the capacity to act or be acted upon; time lacks this causal power, so it merely subsists (hyphestanai) while remaining genuinely real. It is not nothing (the Stoics explicitly rejected an eliminativist view of time) and it is not a body, since 'incorporeal' (asomaton) is precisely the contrary of body. The 'accident of accidents' formulation is the rival Epicurean view, not the Stoic one.",
+  "tags": ["stoics", "incorporeals", "subsistence", "ontology"],
+  "difficulty": "beginner",
+  "generated": true
+}

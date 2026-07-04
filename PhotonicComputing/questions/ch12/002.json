@@ -1,0 +1,18 @@
+{
+  "question_id": "07cdc714-33c0-43b8-9660-70ba9cda9b45",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why must a deep neural network include nonlinear activation functions between its linear layers?",
+  "choices": [
+    "Because linear layers cannot be implemented in optics",
+    "Because otherwise the weights would all become negative",
+    "Because a cascade of linear maps collapses to a single matrix W_eff, giving the network the expressivity of only one layer",
+    "Because nonlinearities reduce the number of MACs required"
+  ],
+  "answer": 2,
+  "explanation": "If f were the identity, W^(L)...W^(1) equals a single W_eff, so depth adds nothing; the nonlinearity is the entire source of a deep network's power. Linear layers are exactly what optics does well (option 0 is backwards), and nonlinearity has nothing to do with weight sign or MAC count.",
+  "tags": ["deep-learning", "nonlinearity", "depth-collapse"],
+  "difficulty": "beginner",
+  "generated": true
+}

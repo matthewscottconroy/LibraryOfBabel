@@ -1,0 +1,20 @@
+{
+  "question_id": "5245ab83-7bf7-49a4-b43c-52805f36a6e2",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In its classical (Cartesian) form, foundationalism demands that basic beliefs be certain, that is, indubitable, incorrigible, and ___ (such that, if the subject is in the relevant state, the belief cannot be false).",
+  "choices": [
+    "infallible"
+  ],
+  "answer": "infallible",
+  "explanation": "Classical foundationalism (Descartes and the early empiricists) required the foundations to be infallible: being in the relevant mental state guarantees the truth of the basic belief. Modest foundationalism later dropped this demand, allowing basic beliefs to be merely prima facie justified and defeasible.",
+  "tags": [
+    "classical-foundationalism",
+    "descartes",
+    "infallibility",
+    "basic-beliefs"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "99c940f8-1e65-4632-a028-00f0e9978157",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Max Black's two-spheres scenario is standardly taken to refute which theory of individuation, and why?",
+  "choices": [
+    "Substratum theory, because two bare particulars would be qualitatively identical and so collapse into one.",
+    "Trope bundle theory, because qualitatively identical tropes would have to be numerically identical.",
+    "The bundle theory of universals, because two qualitatively identical bundles of universals would be one and the same bundle, yet the spheres are two.",
+    "Aristotelian immanent realism, because a universal cannot be wholly present in two spheres at once."
+  ],
+  "answer": 2,
+  "explanation": "Black imagines two indiscernible spheres; a universals-bundle theory identifies each sphere with its bundle of universals, so two identical bundles would be numerically one, contradicting the evident two-ness. The tempting distractor is trope bundle theory (option 1), which in fact escapes the problem precisely because tropes are particulars: the two bundles contain numerically distinct though exactly resembling tropes.",
+  "tags": [
+    "substance",
+    "bundle-theory",
+    "bare-particular"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

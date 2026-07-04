@@ -1,0 +1,20 @@
+{
+  "question_id": "73a2b660-bed5-4297-939e-90408b50bdd2",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Tarski's decidability result rests on the fact that the theory of real-closed fields admits ___ elimination: every formula is provably equivalent to a quantifier-free Boolean combination of polynomial (in)equalities.",
+  "choices": [
+    "quantifier"
+  ],
+  "answer": "quantifier",
+  "explanation": "Quantifier elimination reduces every RCF formula to a quantifier-free combination of polynomial equalities and inequalities, which for a sentence is decided outright — giving both completeness and decidability, inherited by geometry through bi-interpretation.",
+  "tags": [
+    "quantifier-elimination",
+    "real-closed-fields",
+    "tarski",
+    "decidability"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "6d6a7ef9-9a7c-431b-b9b6-2a22efbd0b11",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The axiom 5 (◇φ → □◇φ) corresponds to reflexivity of the accessibility relation.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: axiom 5 corresponds to the Euclidean property (wRv ∧ wRu ⇒ vRu), not reflexivity. Reflexivity is the frame condition for axiom T (□φ → φ). Confusing these two is a common frame-correspondence error.",
+  "tags": [
+    "modal-logic",
+    "frame-correspondence",
+    "axiom-5",
+    "euclidean"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

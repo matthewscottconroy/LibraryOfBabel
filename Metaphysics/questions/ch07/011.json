@@ -1,0 +1,20 @@
+{
+  "question_id": "06700edc-548a-4168-8292-63ac61612f02",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Frankfurt cases are counterexamples to the Principle of ___ Possibilities, which says an agent is morally responsible for an action only if she could have done otherwise.",
+  "choices": [
+    "Alternate",
+    "Alternative"
+  ],
+  "answer": "Alternate",
+  "explanation": "The Principle of Alternate Possibilities (PAP) makes the ability to do otherwise necessary for responsibility. Frankfurt cases undermine it by showing an agent who acts on her own (and is responsible) while a counterfactual intervener guarantees she could not have done otherwise.",
+  "tags": [
+    "pap",
+    "frankfurt-cases",
+    "moral-responsibility"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

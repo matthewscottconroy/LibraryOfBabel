@@ -1,0 +1,18 @@
+{
+  "question_id": "77ef186a-7179-4419-ae2c-ba55ed5ff5c1",
+  "chapter": 24,
+  "phase": 8,
+  "kind": "mc",
+  "text": "By the Upward Lowenheim-Skolem theorem, if a theory $T$ has an infinite model of cardinality $\\kappa$, then:",
+  "choices": [
+    "$T$ has a model of every cardinality $\\lambda \\geq \\kappa$",
+    "$T$ has only countable models",
+    "$T$ is necessarily complete",
+    "$T$ has a unique model up to isomorphism"
+  ],
+  "answer": 0,
+  "explanation": "Upward Lowenheim-Skolem yields models of every cardinality $\\lambda \\geq \\kappa$. This is exactly why no first-order theory can pin an infinite structure down to a unique model up to isomorphism (ruling out the last option). It produces LARGER models, not only countable ones (that is the downward version), and says nothing about completeness.",
+  "tags": ["lowenheim-skolem", "cardinality", "upward"],
+  "difficulty": "intermediate",
+  "generated": true
+}

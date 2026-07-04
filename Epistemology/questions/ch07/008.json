@@ -1,0 +1,21 @@
+{
+  "question_id": "2f782faa-c356-429d-908c-9a28e92bfabf",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "tf",
+  "text": "True or False: The Principle of Indifference determines a unique rational prior in every problem, which is precisely why it is immune to the reference-class (partition) problem.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The Principle of Indifference is notoriously vulnerable to the reference-class or partition problem: the same situation can be carved into different sets of 'equally likely' outcomes -- for example, equal credence to 'black' vs 'white' balls, versus a uniform distribution over the unknown proportion of black balls -- and these partitions yield conflicting priors. These 'paradoxes of indifference' are a principal objection to objective Bayesianism.",
+  "tags": [
+    "principle of indifference",
+    "paradoxes of indifference",
+    "reference class problem",
+    "objective bayesianism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

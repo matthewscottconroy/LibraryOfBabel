@@ -1,0 +1,21 @@
+{
+  "question_id": "37fc9fe7-6475-4619-8b13-d15873c7da55",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of the following sets is uncountable?",
+  "choices": [
+    "ℚ",
+    "ℤ × ℤ",
+    "The set of all finite subsets of ℕ",
+    "𝒫(ℕ)"
+  ],
+  "answer": 3,
+  "explanation": "Cantor's theorem gives |ℕ| < |𝒫(ℕ)|, and in fact |𝒫(ℕ)| = |ℝ|. The other three are countable: ℚ and ℤ×ℤ by zigzag enumeration, and the finite subsets of ℕ as a countable union of countable sets.",
+  "tags": [
+    "cardinality",
+    "countability"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

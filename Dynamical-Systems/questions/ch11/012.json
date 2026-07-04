@@ -1,0 +1,18 @@
+{
+  "question_id": "59b84237-b7d8-4bff-aeb9-79051ebabd07",
+  "chapter": 11,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Renormalization is the operation of '___ in' on a small polynomial-like copy of the map.",
+  "choices": [
+    "zooming"
+  ],
+  "answer": "zooming",
+  "explanation": "Renormalization zooms into a period-n polynomial-like restriction; infinitely renormalizable maps are the hardest case for MLC.",
+  "tags": [
+    "renormalization",
+    "complex-dynamics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

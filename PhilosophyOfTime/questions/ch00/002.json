@@ -1,0 +1,18 @@
+{
+  "question_id": "19a9f43c-0770-4914-9f08-519968042c6b",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "According to Chapter 1, when the book asks “What is time?” in its intended philosophical sense, it is primarily asking:",
+  "choices": [
+    "How time behaves — how it relates to space, velocity, energy, and gravitational fields",
+    "What kind of thing time is — its nature — a question that physics uses time to do but does not itself answer",
+    "How to construct more accurate clocks so that temporal intervals can be measured",
+    "Whether the word “now” is grammatically an indexical of the same kind as “here”"
+  ],
+  "answer": 1,
+  "explanation": "Chapter 1 sharply separates the physics of time (how time behaves) from the philosophical question of its nature (what kind of thing it is), insisting that 'physics uses time; it does not explain it.' Describing time's behavior is exactly the question the book sets aside; clock-building is measurement; and the grammar of 'now' is a narrower Chapter 2 topic, not the central question posed here.",
+  "tags": ["nature-of-time", "physics-vs-philosophy", "conceptual-question", "methodology"],
+  "difficulty": "beginner",
+  "generated": true
+}

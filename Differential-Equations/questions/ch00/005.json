@@ -1,0 +1,20 @@
+{
+  "question_id": "6cef850d-890b-4881-8427-89264129f15c",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The Intermediate Value Theorem guarantees that if f is continuous on [a,b] with f(a) and f(b) of opposite sign, then f has a root in (a,b).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is the sign-change form of the IVT, a consequence of the completeness of R. Continuity is essential: a function with a jump discontinuity can pass from negative to positive values without ever equalling zero.",
+  "tags": [
+    "intermediate-value-theorem",
+    "continuity",
+    "roots"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

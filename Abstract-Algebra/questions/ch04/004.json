@@ -1,0 +1,22 @@
+{
+  "question_id": "b8483027-7a3b-43b5-ab52-455552a38d5c",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Leibniz formula expresses det(A) for an n×n matrix as a signed sum over:",
+  "choices": [
+    "all n! permutations of {1,…,n}",
+    "all 2ⁿ subsets of {1,…,n}",
+    "all n² entries of A",
+    "all pairs of rows of A"
+  ],
+  "answer": 0,
+  "explanation": "det(A) = Σ_{σ∈Sₙ} sgn(σ) ∏ᵢ A_{i,σ(i)}: each permutation picks one entry from every row and column, weighted by its sign. The n! growth is why cofactor/Leibniz evaluation is abandoned for O(n³) row reduction.",
+  "tags": [
+    "determinants",
+    "permutations",
+    "leibniz"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

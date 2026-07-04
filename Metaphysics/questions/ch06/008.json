@@ -1,0 +1,20 @@
+{
+  "question_id": "2270fef5-b826-4a94-b4f6-62ceae7f5bfc",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In 'What Is It Like to Be a Bat?', Nagel argues that a complete, objective, third-person neuroscience of echolocation would still fail to capture what the bat's experience is like from the inside.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Nagel's claim is that subjective facts, tied essentially to a point of view, are not captured by objective third-person description, however complete. Notably he does not conclude substance dualism; his is an epistemological and conceptual point about the objective/subjective gap.",
+  "tags": [
+    "nagel",
+    "consciousness",
+    "qualia"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

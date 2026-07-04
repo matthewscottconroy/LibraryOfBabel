@@ -1,0 +1,13 @@
+{
+  "question_id": "4552717c-afeb-4391-a4c6-b2d48496158e",
+  "chapter": 20,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The chapter states that achievable squeezing is capped by loss rather than by pump power (5% loss limits squeezing to about 13 dB). What is the physical reason loss degrades squeezing?",
+  "choices": ["Loss increases the pump power required exponentially, saturating the amplifier", "Loss shifts the local-oscillator phase, rotating x into p", "Loss converts squeezed light into single photons the homodyne cannot detect", "Loss mixes vacuum fluctuations into the squeezed quadrature, adding eta_loss/2 to its variance"],
+  "answer": 3,
+  "explanation": "A lossy channel admixes vacuum: (dx)^2 becomes (1 - eta)(dx)^2_sq + eta/2, so even a little loss floors the variance and caps squeezing regardless of pump. Choice 0 inverts the message (it is precisely NOT pump-limited); choice 1 describes a phase error, not loss; choice 2 is a DV-style misconception — loss merely replaces signal with vacuum, it does not create Fock states.",
+  "tags": ["squeezing", "loss", "vacuum-noise"],
+  "difficulty": "advanced",
+  "generated": true
+}

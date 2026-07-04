@@ -1,0 +1,22 @@
+# Build manifest for the General Relativity textbook.
+# textbook/ nests unit-NN/chapter-NN/section-N.N/README.md leaves, plus
+# per-chapter back matter (further-reading.md etc.) captured by the recursion.
+#
+# NOTE: a concurrent cleanup is MERGING/REMOVING duplicate unit and chapter
+# directories (e.g. unit-06-electromagnetism vs unit-06-classical-electromagnetism,
+# chapter-10-odes vs chapter-10-ordinary-differential-equations).  While the
+# duplicates exist the recursive walk captures both, so --check still passes.
+title = "General Relativity"
+subtitle = "From Mathematical Foundations to the Frontiers of Gravitation"
+
+front_matter = [
+    "textbook/README.md",
+]
+back_matter = [
+    "textbook/appendix-*.md",
+]
+
+[[sources]]
+root = "textbook"
+recursive = true
+part_level = 1   # unit-01 .. unit-16 become \part

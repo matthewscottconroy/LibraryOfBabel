@@ -1,0 +1,18 @@
+{
+  "question_id": "b100b1a5-8689-4d80-a52c-5210279942b2",
+  "chapter": 19,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the dual-rail encoding used by linear optical quantum computing, a logical qubit is:",
+  "choices": [
+    "Two photons in a single mode",
+    "The intensity level of a classical laser beam",
+    "One photon shared between two modes: |0>_L = |1,0> and |1>_L = |0,1>",
+    "The spin of an electron trapped in a quantum dot"
+  ],
+  "answer": 2,
+  "explanation": "Dual-rail encodes one photon across two modes, so |0>_L = |1,0> and |1>_L = |0,1>; a U(2) mode transformation then acts directly as the single-qubit gate. It uses one photon, not two (choice 0); it is not a classical intensity (choice 1); and photonic qubits here are photon occupancy, not electron spin (choice 3).",
+  "tags": ["dual-rail", "qubit-encoding", "photonic-qubit"],
+  "difficulty": "beginner",
+  "generated": true
+}

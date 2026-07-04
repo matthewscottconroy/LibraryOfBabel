@@ -1,0 +1,21 @@
+{
+  "question_id": "d55e5598-c344-4361-9412-dcc6bb176ea4",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "blank",
+  "text": "For a one-form, ∇_μ α_ν = ∂_μ α_ν − Γ^ρ_μν α_ρ: the Christoffel term for a covariant (lower) index enters with a ___ sign, opposite to the +Γ used for a contravariant (upper) index.",
+  "choices": [
+    "minus",
+    "negative",
+    "−"
+  ],
+  "answer": "minus",
+  "explanation": "The book's rule is +Γ for each contravariant (upper) index and −Γ for each covariant (lower) index, so ∇_μ α_ν = ∂_μ α_ν − Γ^ρ_μν α_ρ while ∇_μ V^ρ = ∂_μ V^ρ + Γ^ρ_μν V^ν. The signs are forced by requiring the Leibniz rule to hold for the scalar α_ν V^ν, whose covariant derivative must equal its ordinary partial derivative. Reversing this sign is a common error the book explicitly warns against.",
+  "tags": [
+    "covariant-derivative",
+    "one-forms",
+    "connection"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

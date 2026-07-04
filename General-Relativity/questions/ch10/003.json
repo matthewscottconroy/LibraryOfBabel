@@ -1,0 +1,21 @@
+{
+  "question_id": "5195ca09-5edf-4e6d-a6b9-b4fbf507ca42",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "This book states that the cross (×) polarization of a gravitational wave is the plus (+) polarization rotated by what angle?",
+  "choices": [
+    "45°",
+    "90°",
+    "180°",
+    "60°"
+  ],
+  "answer": 0,
+  "explanation": "The book says the cross polarization is the plus polarization rotated by 45°, unlike electromagnetic waves whose two polarizations are 90° apart. This 45° relationship is the observable signature of the spin-2 (helicity ±2) nature of the gravitational field. The 90° answer reflects the incorrect electromagnetic analogy.",
+  "tags": [
+    "polarization",
+    "spin-2"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Fatty acid and terpenoid biosynthesis pathways commonly face which cofactor limitation, often addressed by overexpressing glucose-6-phosphate dehydrogenase?",
+  "choices": [
+    "ATP limitation",
+    "NADH limitation",
+    "Coenzyme A (CoA) limitation",
+    "NADPH limitation"
+  ],
+  "answer": 3,
+  "explanation": "Fatty acid and terpenoid synthesis are reductive pathways with high demand for NADPH, most of which comes from the pentose phosphate pathway; overexpressing glucose-6-phosphate dehydrogenase (G6PDH) increases flux through that pathway to generate more NADPH. ATP, NADH, and CoA limitations are real considerations elsewhere in metabolic engineering, but they are not the classic bottleneck this particular strategy is used to address.",
+  "tags": [
+    "cofactor-balancing",
+    "nadph",
+    "pentose-phosphate-pathway"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "cd790a1c-4d6d-4761-a7b4-12e5669c649e"
+}

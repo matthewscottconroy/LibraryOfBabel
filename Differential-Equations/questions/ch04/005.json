@@ -1,0 +1,22 @@
+{
+  "question_id": "42f0a37b-198b-45ff-8639-06791cacaa80",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Fourier series of an even function on [-L, L] contains:",
+  "choices": [
+    "only sine terms",
+    "only the constant term",
+    "only cosine terms (together with the constant)",
+    "equal numbers of sine and cosine terms"
+  ],
+  "answer": 2,
+  "explanation": "An even function pairs with the even basis functions, so its expansion is a cosine series (all sine coefficients vanish); an odd function gives a pure sine series. This symmetry is the basis of the half-range expansions.",
+  "tags": [
+    "even-odd",
+    "cosine-series",
+    "fourier-series"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

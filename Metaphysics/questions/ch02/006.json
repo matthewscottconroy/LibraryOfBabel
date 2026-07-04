@@ -1,0 +1,22 @@
+{
+  "question_id": "5fceba49-fa60-4635-8115-19fe626ca9e4",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Kripke argues that 'Hesperus is Phosphorus', though known only a posteriori, is necessarily true. What does the argument turn on?",
+  "choices": [
+    "Names are rigid designators (same referent in every world), so given the necessity of self-identity and Leibniz's Law, a true identity a = b yields the necessity of a = b.",
+    "'Hesperus' and 'Phosphorus' are synonymous descriptions, which makes the identity analytic and a priori.",
+    "Identity statements are contingent whenever the identity was discovered empirically.",
+    "The necessity is merely epistemic: we simply cannot imagine Hesperus differing from Phosphorus."
+  ],
+  "answer": 0,
+  "explanation": "Because both names rigidly designate Venus, and everything is necessarily self-identical, Leibniz's Law carries the necessity of a = a over to a = b; the appearance of contingency comes from confusing epistemic access with metaphysical possibility. The tempting distractor (option 2) is the contingent-identity view that Kripke's argument is directed against.",
+  "tags": [
+    "necessity-of-identity",
+    "kripke",
+    "rigid-designation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

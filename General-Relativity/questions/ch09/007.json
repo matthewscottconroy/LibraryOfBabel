@@ -1,0 +1,22 @@
+{
+  "question_id": "edffe9a8-b280-4106-bb8c-5595f0ac0ec6",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The book states the maximum energy extractable from an extremal Kerr black hole via the Penrose process is approximately what fraction of its rest-mass energy Mc²?",
+  "choices": [
+    "about 0.7% (comparable to nuclear fusion)",
+    "about 5.7%",
+    "about 42%",
+    "about 29%"
+  ],
+  "answer": 3,
+  "explanation": "The book gives the maximum extractable energy as (1 − 1/√2)Mc² ≈ 29% for an extremal Kerr hole, drawn from its rotational energy at the cost of slowing the spin. The other figures come from accretion, not the Penrose process: 5.7% is the Schwarzschild accretion efficiency, 42% is the extremal-prograde-Kerr accretion efficiency, and 0.7% is nuclear fusion.",
+  "tags": [
+    "kerr",
+    "penrose-process",
+    "energy-extraction"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

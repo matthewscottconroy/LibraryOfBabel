@@ -1,0 +1,18 @@
+{
+  "question_id": "8ff15f25-171a-4555-a6a6-ad3a64cef1b3",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Theaetetus tests three definitions of knowledge in sequence before ending in aporia. Which option lists them in the correct order?",
+  "choices": [
+    "True belief; justified true belief; knowledge as recollection.",
+    "Perception; justified true belief; knowledge of the Forms.",
+    "Clear and distinct perception; demonstration; intuition of first principles.",
+    "Perception; true belief; true belief together with an account (logos)."
+  ],
+  "answer": 3,
+  "explanation": "The dialogue examines, in order, knowledge as perception (aisthesis), as true belief (alethes doxa), and as true belief plus an account (logos), each failing and leaving aporia. Option 1 is tempting but relabels the third proposal with the modern 'justified true belief' formula and imports the Forms, which are not the Theaetetus's third definition.",
+  "tags": ["plato", "theaetetus", "definition of knowledge", "aporia"],
+  "difficulty": "intermediate",
+  "generated": true
+}

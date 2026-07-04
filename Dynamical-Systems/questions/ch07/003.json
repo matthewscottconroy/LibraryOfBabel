@@ -1,0 +1,22 @@
+{
+  "question_id": "b2a63e18-b73d-42ca-8429-cad368b06a81",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Fouche's theorem says the symbolic itinerary of a Lebesgue-typical point of a positive-entropy map is:",
+  "choices": [
+    "eventually periodic",
+    "computable",
+    "Martin-Lof random",
+    "constant"
+  ],
+  "answer": 2,
+  "explanation": "Positive-entropy ergodic maps produce Martin-Lof random itineraries for typical points - the precise sense in which 'chaos generates algorithmic randomness'. Typical orbits are neither periodic nor computable.",
+  "tags": [
+    "fouche-theorem",
+    "martin-lof-randomness",
+    "chaos"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

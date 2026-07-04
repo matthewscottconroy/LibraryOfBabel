@@ -1,0 +1,19 @@
+{
+  "question_id": "fd0e5350-37e9-4e4a-83f8-8f2369180e59",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "McTaggart called the bare, directionless ordering of positions -- one that lacks both the earlier/later direction of the B-series and the changing past/present/future properties of the A-series -- the ___ series.",
+  "choices": [
+    "C"
+  ],
+  "answer": "C",
+  "explanation": "The expected answer is 'C'. The C-series is McTaggart's bare ordering with no temporal direction and no A-properties; he regarded it as the atemporal reality underlying the mere appearance of time. It is not the A-series (which adds past/present/future) nor the B-series (which adds earlier/later direction).",
+  "tags": [
+    "c-series",
+    "mctaggart",
+    "unreality-of-time"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

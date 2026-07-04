@@ -1,0 +1,22 @@
+{
+  "question_id": "a869b4b1-00a3-4ec9-8f9d-4ad8553495a8",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why does the Lorenz system at rho = 28 never settle into steady convection?",
+  "choices": [
+    "The Lorenz system has no fixed points for rho = 28",
+    "The convective fixed points C+/- are stable attractors, so the trajectory oscillates between them periodically",
+    "The dynamics are stochastic, so no steady state can exist",
+    "All three fixed points (the origin C0 and the pair C+/-) are unstable, forcing perpetual aperiodic wandering"
+  ],
+  "answer": 3,
+  "explanation": "At rho = 28 the origin has lost stability and C+/- are unstable spirals, so all three fixed points are unstable and the trajectory can never rest, wandering aperiodically on the strange attractor. C+/- are not stable (option 1), the system does have fixed points, and it is fully deterministic.",
+  "tags": [
+    "lorenz-system",
+    "fixed-points",
+    "instability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "029b13c5-a2e5-41cd-a330-4f9ed38d7600",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A boundary/initial value problem is well-posed in the sense of Hadamard if a solution exists, is unique, and:",
+  "choices": [
+    "is a polynomial",
+    "can be written in closed form",
+    "depends continuously on the data",
+    "is independent of the boundary conditions"
+  ],
+  "answer": 2,
+  "explanation": "Hadamard's third requirement is continuous dependence on the data (stability): small changes in the initial or boundary data produce small changes in the solution. Closed-form solvability is irrelevant, and the solution generally does depend on the boundary conditions.",
+  "tags": [
+    "well-posedness",
+    "hadamard",
+    "pde"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 4,
+  "kind": "mc",
+  "text": "For small tabular biological datasets, such as proteomics or metabolomics panels, why does the chapter recommend random forests over deep learning?",
+  "choices": [
+    "Random forests require specialized GPU acceleration that deep learning cannot use",
+    "Random forests consistently outperform deep learning on small tabular datasets, train in seconds rather than hours, and are more interpretable and robust to overfitting",
+    "Deep learning cannot be mathematically applied to any numeric or tabular data",
+    "Random forests are a specialized type of neural network optimized for image classification"
+  ],
+  "answer": 1,
+  "explanation": "The chapter states that on small tabular datasets, random forests outperform deep learning, train in seconds, offer interpretability through feature importance, and are less prone to overfitting with limited data. Random forests do not require GPUs, deep learning can certainly be applied to tabular data (it simply tends to underperform there with small samples), and random forests are ensembles of decision trees, not neural networks.",
+  "tags": [
+    "machine-learning",
+    "random-forest",
+    "classical-ml"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "731bf26d-7df3-4aba-b5e6-db4d5c199c1e"
+}

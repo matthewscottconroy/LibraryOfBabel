@@ -1,0 +1,18 @@
+{
+  "question_id": "df7b8a5e-ef35-4939-863e-fd81aa438a83",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Lewis's Principal Principle states which connection?",
+  "choices": [
+    "That the objective chance of an event supervenes on the pattern of frequencies in the Humean mosaic.",
+    "That objective chances exist only in genuinely indeterministic worlds governed by non-Humean powers.",
+    "That a rational agent's credence in an outcome, conditional on knowing its objective chance is p (with no inadmissible information), should equal p.",
+    "That the best system must be formulated using only perfectly natural properties."
+  ],
+  "answer": 2,
+  "explanation": "The Principal Principle links objective chance to rational belief: given that the chance of E is p and no inadmissible (future-concerning) information, one's credence in E should be p, which is what keeps chance epistemically relevant. Option 0 states Lewis's separate metaphysical thesis that chances supervene on the mosaic, and option 3 states his naturalness constraint on the Best System; only option 2 is the Principal Principle itself.",
+  "tags": ["chance", "principal-principle", "lewis", "probability"],
+  "difficulty": "intermediate",
+  "generated": true
+}

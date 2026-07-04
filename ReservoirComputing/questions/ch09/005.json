@@ -1,0 +1,22 @@
+{
+  "question_id": "f9d0062e-ea0f-4dc0-a0f9-355f6c9cc522",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "For a reservoir with N features, what are the per-step compute cost and the memory cost of maintaining P in RLS?",
+  "choices": [
+    "O(N^3) per step and O(N^2) memory",
+    "O(N^2) per step and O(N^2) memory",
+    "O(N) per step and O(N) memory",
+    "O(N^2) per step and O(N*T) memory for T training steps"
+  ],
+  "answer": 1,
+  "explanation": "Each RLS step is a matrix-vector product plus a rank-1 update, both O(N^2), and it stores only the N x N matrix P, giving O(N^2) memory independent of T. O(N*T) is batch memory (storing all states); O(N^3) would be re-inverting from scratch.",
+  "tags": [
+    "rls",
+    "complexity",
+    "memory"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

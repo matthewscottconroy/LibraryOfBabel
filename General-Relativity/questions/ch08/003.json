@@ -1,0 +1,13 @@
+{
+  "question_id": "7e141623-20d9-4ee0-ab4f-e6053f5c72bc",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Wheeler summarized the Einstein field equations as a two-way coupling: matter tells spacetime how to curve, and spacetime tells matter how to ___.",
+  "choices": ["move"],
+  "answer": "move",
+  "explanation": "Wheeler's epigram captures the reciprocal content of G_μν = 8πG T_μν/c⁴: the stress-energy tensor T_μν sources the curvature G_μν (matter curves spacetime), and matter in turn follows geodesics of that curved geometry (spacetime tells matter how to move). The word completing the phrase is 'move'.",
+  "tags": ["efe", "wheeler"],
+  "difficulty": "beginner",
+  "generated": true
+}

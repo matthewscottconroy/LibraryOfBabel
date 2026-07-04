@@ -1,0 +1,22 @@
+{
+  "question_id": "db7bd986-e146-4604-bc68-f39ed6d7119f",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the role of the random input mask in the delay reservoir?",
+  "choices": [
+    "It multiplexes the input across virtual nodes (playing the role of W_in), driving each node differently and breaking the symmetry of the ring",
+    "It trains the readout weights online during the forward pass",
+    "It sets the feedback delay length τ and hence the number of nodes",
+    "It removes the nonlinearity so the node behaves linearly"
+  ],
+  "answer": 0,
+  "explanation": "The static random mask (m_i ∈ [−0.5, 0.5] in the lab) projects the scalar input onto the N virtual nodes — the physical analog of the input matrix W_in — so each node is driven differently; without it the ring's nodes would all receive the same input and collapse to identical states. It is not a trainer (option 1), does not set the delay/node count (option 2 — that is fixed by θ and τ), and does not linearize the node (option 3).",
+  "tags": [
+    "physical-rc",
+    "input-mask",
+    "w-in"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

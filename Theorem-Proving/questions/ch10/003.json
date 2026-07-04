@@ -1,0 +1,22 @@
+{
+  "question_id": "8e67240a-fd59-4733-b113-f331bae38d03",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which Curry–Howard pairing is correct?",
+  "choices": [
+    "Disjunction P ∨ Q corresponds to the product type P × Q",
+    "Implication P → Q corresponds to the product type P × Q",
+    "Negation ¬P corresponds to the sum type P + ⊥",
+    "Disjunction P ∨ Q corresponds to the sum type P + Q"
+  ],
+  "answer": 3,
+  "explanation": "Disjunction ∨ corresponds to the sum (coproduct) type +, and a proof injects a proof of one disjunct. Option A is the classic mistake (∨ is +, not ×; × is ∧). Implication is the function type, not × (B); negation ¬P is the function type P → ⊥, not a sum (C).",
+  "tags": [
+    "curry-howard",
+    "sum-type",
+    "disjunction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

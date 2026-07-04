@@ -1,0 +1,21 @@
+{
+  "question_id": "f53e2d3d-13f0-43b6-bbc9-25d878409ab8",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The proof that any two bases of a finite-dimensional space have the same size trades basis vectors one at a time using the ___ lemma.",
+  "choices": [
+    "exchange",
+    "Steinitz exchange",
+    "exchange lemma"
+  ],
+  "answer": "exchange",
+  "explanation": "The Steinitz exchange lemma shows a linearly independent set can be no larger than a spanning set: each independent vector can replace some spanning vector. Applying it in both directions forces any two bases to be equinumerous, making dimension well defined.",
+  "tags": [
+    "vector-spaces",
+    "dimension",
+    "basis"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

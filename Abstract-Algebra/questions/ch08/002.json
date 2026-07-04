@@ -1,0 +1,22 @@
+{
+  "question_id": "0752beb2-324a-439f-a703-86f4bb29addb",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which of the following is NOT a group?",
+  "choices": [
+    "(ℤ, +)",
+    "(ℕ, +)",
+    "(ℚ ∖ {0}, ·)",
+    "(ℤ/5ℤ, +)"
+  ],
+  "answer": 1,
+  "explanation": "ℕ under addition has no inverses: there is no natural number n with 3 + n = 0. The other three satisfy closure, associativity, identity, and inverses.",
+  "tags": [
+    "groups",
+    "axioms",
+    "examples"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "2b7e4a10-8d63-49f5-8c07-1a6b3e0d9f27",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "tf",
+  "text": "According to the synthesis chapter, nervous systems created cognition, which did not exist in any form before neurons evolved.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The synthesis defends the continuity thesis: neural cognition is a special case of biological cognition, and the neural transition specialized and accelerated cognition rather than creating it. On this view cognition is as old as life, existing in pre-neural forms across the tree of life.",
+  "tags": ["continuity-thesis", "neural-special-case", "synthesis"],
+  "difficulty": "intermediate",
+  "generated": true
+}

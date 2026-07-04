@@ -1,0 +1,20 @@
+{
+  "question_id": "48c9a461-dcee-45e2-b5d1-b87705346905",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Complex differentiability at a point is a strictly stronger condition than real differentiability of the corresponding map from R^2 to R^2.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: complex differentiability adds the Cauchy-Riemann constraints on top of real differentiability, forcing the Jacobian to act as multiplication by a complex number (a rotation and scaling). This rigidity is why analytic functions are automatically infinitely differentiable, with no real-variable analogue.",
+  "tags": [
+    "analyticity",
+    "cauchy-riemann",
+    "differentiability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

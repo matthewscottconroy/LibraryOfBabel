@@ -1,0 +1,13 @@
+{
+  "question_id": "5f790446-93ad-4ddf-93ff-3fc87592c3f2",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The fundamental reason a nonlinear activation is hard to implement in optics is that photons essentially do not interact with each other at the low powers that make photonic computing attractive.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: the book states 'the activation is the hard part because photons do not interact.' Material nonlinearities (Kerr, saturable absorption, free-carrier, gain saturation) exist but demand optical powers orders of magnitude above the femtojoule budgets, which is why opto-electronic activation is the pragmatic answer.",
+  "tags": ["activation", "photon-interaction", "nonlinearity"],
+  "difficulty": "beginner",
+  "generated": true
+}

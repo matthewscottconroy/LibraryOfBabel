@@ -1,0 +1,21 @@
+{
+  "question_id": "ae7b1770-b203-41c8-bc09-102e4ab33bc9",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The dihedral group Dₙ decomposes as a semidirect product ℤ/nℤ ⋊ ℤ/2ℤ, where the generator of ℤ/2ℤ acts on ℤ/nℤ by:",
+  "choices": [
+    "inversion, k ↦ −k",
+    "the identity automorphism",
+    "translation, k ↦ k + 1",
+    "squaring, k ↦ 2k"
+  ],
+  "answer": 0,
+  "explanation": "The reflection s conjugates the rotation r to r⁻¹ (srs⁻¹ = r⁻¹), which on ℤ/nℤ is k ↦ −k. A trivial action would give the abelian direct product ℤ/nℤ × ℤ/2ℤ, and k ↦ k+1 is not even an automorphism (it does not fix 0).",
+  "tags": [
+    "semidirect-products",
+    "dihedral"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "2c73beca-552f-4d87-a2ed-06980b978b21",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In the Kalman-filter interpretation of RLS, the matrix P is the posterior ___ of the readout weight vector given the data seen so far.",
+  "choices": [
+    "covariance",
+    "covariance matrix",
+    "variance"
+  ],
+  "answer": "covariance",
+  "explanation": "The RLS section shows RLS is a Kalman filter: P_t is the posterior covariance of the weights, w_t is the posterior mean (MAP estimate), and k_t is the Kalman gain that optimally weights each new observation against the prior.",
+  "tags": [
+    "rls",
+    "kalman-filter",
+    "bayesian"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

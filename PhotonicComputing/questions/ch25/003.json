@@ -1,0 +1,18 @@
+{
+  "question_id": "022d8484-588f-4942-9f9e-e264df2c7640",
+  "chapter": 25,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Lightmatter's flagship product migrated away from its Envise inference accelerator toward which product, making it the cleanest example of the industry's compute-to-interconnect pivot?",
+  "choices": [
+    "PennyLane, a quantum machine-learning software framework",
+    "TeraPHY, an in-package optical I/O chiplet",
+    "Passage, a wafer-scale programmable photonic interposer",
+    "Borealis, a time-multiplexed Gaussian boson sampling machine"
+  ],
+  "answer": 2,
+  "explanation": "Passage is Lightmatter's wafer-scale photonic interposer, the interconnect flagship it pivoted to from the Envise compute accelerator. TeraPHY is Ayar Labs' optical I/O chiplet, PennyLane is Xanadu's software, and Borealis is Xanadu's GBS machine, so the other options are all wrong company-product pairings.",
+  "tags": ["lightmatter", "passage", "the-great-pivot", "interconnect"],
+  "difficulty": "intermediate",
+  "generated": true
+}

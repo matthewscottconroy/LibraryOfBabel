@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which normalization method corrects for both transcript length and library size in a way that keeps values comparable across samples?",
+  "choices": [
+    "Raw counts",
+    "CPM (Counts Per Million)",
+    "TPM (Transcripts Per Million)",
+    "RPKM/FPKM"
+  ],
+  "answer": 2,
+  "explanation": "TPM normalizes for length first and then library size, which keeps the proportions comparable across samples and makes it the right choice for cross-sample visualization. CPM only corrects for library size, RPKM/FPKM normalize in the opposite order which leaves them unsuitable for cross-sample comparison despite superficially looking similar to TPM, and raw counts should be reserved for DE testing tools like DESeq2/edgeR rather than for comparison.",
+  "tags": [
+    "rna-seq",
+    "normalization",
+    "tpm"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "e794a0e8-21a2-401f-94ea-12307b4ef128"
+}

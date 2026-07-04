@@ -1,0 +1,22 @@
+{
+  "question_id": "5cb9a94e-ac38-403c-83de-1e70309b582b",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Berger's theorem (the undecidability of the domino problem) implies the existence of sets of Wang tiles that are:",
+  "choices": [
+    "periodic",
+    "empty",
+    "finite",
+    "aperiodic"
+  ],
+  "answer": 3,
+  "explanation": "Undecidability forces aperiodic tile sets: rules that tile the plane but never periodically. Decidability would follow if every tileable set had a periodic tiling.",
+  "tags": [
+    "berger-theorem",
+    "aperiodic-tiles",
+    "undecidability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "6b21d23d-6a33-4ced-b798-757e4e5997e4",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "To compute Extⁿ_R(M, N) from a projective resolution P• → M, one:",
+  "choices": [
+    "applies Hom_R(−, N) to P• with M deleted, then takes cohomology of the resulting cochain complex",
+    "applies Hom_R(N, −) to the full resolution including M",
+    "tensors P• with N and takes homology",
+    "applies Hom_R(−, N) to the full resolution including M, then takes cohomology"
+  ],
+  "answer": 0,
+  "explanation": "The augmentation M is dropped before applying the functor — otherwise the complex would stay exact in a trivial way and all higher cohomology would vanish. Tensoring P• with N instead computes Tor. Independence from the chosen resolution follows from the comparison theorem.",
+  "tags": [
+    "ext",
+    "resolutions",
+    "derived-functors"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

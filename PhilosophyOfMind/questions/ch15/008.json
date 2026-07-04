@@ -1,0 +1,20 @@
+{
+  "question_id": "3bd40cde-10dc-4af9-8578-a4f9b61be92b",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Craver contrasts mechanistic (constitutive) explanation with covering-law explanation, holding that neuroscience typically explains by identifying mechanisms rather than by subsuming phenomena under laws.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Craver distinguishes mechanistic (constitutive) explanation from covering-law explanation and argues that neuroscience characteristically explains by identifying organized mechanisms of entities and activities rather than by deriving phenomena from general laws.",
+  "tags": [
+    "covering-law",
+    "mechanistic-explanation",
+    "craver"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

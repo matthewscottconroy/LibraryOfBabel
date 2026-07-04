@@ -1,0 +1,20 @@
+{
+  "question_id": "6e0a5810-8465-4cc7-913e-2a840c078886",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The Newtonian gravitational potential Φ satisfies Poisson's equation ∇²Φ = ___ ρ, where ρ is the mass density.",
+  "choices": [
+    "4πG",
+    "4piG"
+  ],
+  "answer": "4πG",
+  "explanation": "The book gives Poisson's equation as ∇²Φ = 4πG ρ, the Newtonian field equation for gravity, with solution Φ = −G∫ρ(r')/|r−r'| d³r'. In the weak-field limit the full Einstein equations reduce to exactly this, with 4πG the gravitational coupling.",
+  "tags": [
+    "newtonian",
+    "poisson-equation",
+    "gravity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

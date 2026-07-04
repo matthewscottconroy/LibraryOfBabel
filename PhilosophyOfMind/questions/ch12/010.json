@@ -1,0 +1,18 @@
+{
+  "question_id": "f229ca38-f950-4b19-81b4-0a31a3c5f9b3",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The ___ theory of memory holds that a present state counts as a genuine memory of an event only if an appropriate causal chain connects it to the original experience.",
+  "choices": [
+    "causal"
+  ],
+  "answer": "causal",
+  "explanation": "On the causal theory of memory, a present state is a genuine memory only if an appropriate causal chain links it to the original experience — which distinguishes remembering from merely imagining or being told about the past. The expected term is 'causal.'",
+  "tags": [
+    "causal-theory",
+    "memory-traces"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

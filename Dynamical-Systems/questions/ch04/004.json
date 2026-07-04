@@ -1,0 +1,22 @@
+{
+  "question_id": "0ce13284-de29-4d13-9ac7-d7b4f7477f27",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The capacity of a binary symmetric channel with crossover probability p is:",
+  "choices": [
+    "1",
+    "1 - h(p)",
+    "h(p)",
+    "p"
+  ],
+  "answer": 1,
+  "explanation": "C = 1 - h(p) where h(p) = -p log p - (1-p) log(1-p) is the binary entropy: the noise costs h(p) bits per use. Capacity h(p) or 1 would ignore or overstate the noise.",
+  "tags": [
+    "binary-symmetric-channel",
+    "capacity",
+    "binary-entropy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

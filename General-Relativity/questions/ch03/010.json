@@ -1,0 +1,20 @@
+{
+  "question_id": "788eace0-2ea5-4d17-b9e4-037ab10deb76",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A topological space is called ___ (the T₂ separation axiom) if any two distinct points possess disjoint open neighbourhoods; the book imposes this on smooth manifolds so that distinct spacetime events are topologically distinguishable.",
+  "choices": [
+    "Hausdorff",
+    "Hausdorff (T₂)",
+    "T₂"
+  ],
+  "answer": "Hausdorff",
+  "explanation": "The Hausdorff (T₂) condition separates distinct points by disjoint open sets; in such spaces limits of sequences are unique and compact subsets are closed. The 'line with two origins' is the standard non-Hausdorff counterexample the book excludes from being a manifold.",
+  "tags": [
+    "topology",
+    "hausdorff"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

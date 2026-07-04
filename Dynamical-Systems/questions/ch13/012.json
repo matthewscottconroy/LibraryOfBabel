@@ -1,0 +1,19 @@
+{
+  "question_id": "4e4b12bb-c8a4-4438-af02-23c58d7babf1",
+  "chapter": 13,
+  "phase": 6,
+  "kind": "blank",
+  "text": "Cocycle ___ (Popa, Zimmer) says that cocycles over certain group actions are cohomologous to homomorphisms.",
+  "choices": [
+    "superrigidity"
+  ],
+  "answer": "superrigidity",
+  "explanation": "Cocycle superrigidity is the rigidity phenomenon underlying the Zimmer program; in HoTT a cocycle being a coboundary is a statement about paths.",
+  "tags": [
+    "cocycle-superrigidity",
+    "zimmer",
+    "rigidity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

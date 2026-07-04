@@ -1,0 +1,22 @@
+{
+  "question_id": "7afe9352-d39d-430d-9c90-ac1fb0d62183",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The memory-nonlinearity tradeoff (Dambre et al. 2012) says that within a reservoir's fixed total capacity budget of N:",
+  "choices": [
+    "linear memory and nonlinear computation add independently, each able to reach N at the same time",
+    "capacity spent on nonlinear processing is capacity taken away from linear memory, since C_linear + C_nonlinear <= N",
+    "increasing nonlinearity simultaneously raises both linear and nonlinear capacity",
+    "the total capacity N can be exceeded by adding more nonlinearity"
+  ],
+  "answer": 1,
+  "explanation": "The total information-processing capacity is conserved at <= N and is split among degrees, so raising nonlinear (degree >= 2) capacity necessarily reduces linear memory C_1 and vice versa. They cannot both reach N at once, more nonlinearity does not boost linear memory, and no amount of nonlinearity lets the total exceed N.",
+  "tags": [
+    "memory-capacity",
+    "memory-nonlinearity-tradeoff",
+    "dambre"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

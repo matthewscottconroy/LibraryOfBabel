@@ -1,0 +1,21 @@
+{
+  "question_id": "3acc6277-e9c9-49ca-844e-ac359cd38bf4",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The book constructs the integers ℤ from ℕ as:",
+  "choices": [
+    "equivalence classes of pairs (a, b) of naturals, with (a, b) ~ (a', b') iff a + b' = a' + b",
+    "Dedekind cuts of ℕ",
+    "equivalence classes of Cauchy sequences of naturals",
+    "pairs (a, b) with (a, b) ~ (a', b') iff a·b' = a'·b"
+  ],
+  "answer": 0,
+  "explanation": "The book builds ℤ as equivalence classes of pairs (a, b) representing 'a − b,' with (a, b) ~ (a', b') iff a + b' = a' + b (the additive cross-relation). Dedekind cuts and Cauchy sequences are the book's constructions of ℝ from ℚ, not ℤ; and the multiplicative relation a·b' = a'·b is the equivalence used to construct ℚ from ℤ (pairs representing a/b).",
+  "tags": [
+    "number-systems",
+    "construction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

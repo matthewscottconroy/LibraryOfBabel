@@ -1,0 +1,13 @@
+{
+  "question_id": "df4df4e4-85a5-41c1-9836-ca000bf73470",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In a photonic crystal with sufficient dielectric contrast, a photonic bandgap opens. What is a photonic bandgap?",
+  "choices": ["A range of frequencies for which no propagating optical modes exist in the crystal", "The energy required to promote an electron across silicon's electronic gap", "A physical air gap etched between two waveguides", "The wavelength band over which the crystal is most transparent"],
+  "answer": 0,
+  "explanation": "A photonic bandgap is a frequency range in which no propagating electromagnetic modes exist, so light there is reflected or cannot propagate in-plane. It is the optical analog of, but distinct from, the electronic bandgap; it is not a literal air gap, and it is the opposite of a transparency window.",
+  "tags": ["photonic-bandgap", "photonic-crystal"],
+  "difficulty": "beginner",
+  "generated": true
+}

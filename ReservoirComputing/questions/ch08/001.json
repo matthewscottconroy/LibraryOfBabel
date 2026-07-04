@@ -1,0 +1,22 @@
+{
+  "question_id": "d33ed2ff-c2d8-4647-8712-84c62777376a",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the hyperparameter chapter, the spectral radius ρ is described primarily as the control for what?",
+  "choices": [
+    "The number of neurons in the reservoir",
+    "The ridge regularization strength of the readout",
+    "The sparsity (fraction of nonzero weights) of W_rec",
+    "The memory timescale — how quickly the reservoir forgets past inputs"
+  ],
+  "answer": 3,
+  "explanation": "Section 8.2 calls ρ the 'master knob' that sets the timescale over which the reservoir forgets (MC_k ∝ ρ^{2k}). Reservoir size is N, regularization is λ, and sparsity is the connectivity p — each a separate hyperparameter.",
+  "tags": [
+    "hyperparameters",
+    "spectral-radius",
+    "memory"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

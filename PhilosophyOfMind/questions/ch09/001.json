@@ -1,0 +1,23 @@
+{
+  "question_id": "2049af75-c45d-4b99-aef9-c359d0680049",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "According to the James-Lange theory of emotion, what is the correct order of events when you encounter a bear and feel fear?",
+  "choices": [
+    "You appraise the bear as dangerous, and this evaluative judgement constitutes the fear",
+    "The perception of the bear and the feeling of fear occur simultaneously via a thalamic relay",
+    "The bodily changes (racing heart, trembling, running) come first, and the fear just is your perception of those bodily changes",
+    "An innate affect program for fear is triggered, producing a universal facial expression"
+  ],
+  "answer": 2,
+  "explanation": "James's provocative claim is that we are 'afraid because we tremble,' not the reverse: emotion is the felt perception of bodily changes, which come first. Option 0 is the cognitive-appraisal rival; option 1 is the Cannon-Bard theory; option 3 is Ekman's basic-emotion/affect-program account.",
+  "tags": [
+    "james-lange",
+    "feeling-theory",
+    "bodily-changes",
+    "emotion"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

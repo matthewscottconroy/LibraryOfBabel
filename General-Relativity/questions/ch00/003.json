@@ -1,0 +1,20 @@
+{
+  "question_id": "cdfd4c3c-9d23-4f4f-bcd2-bfbc37fa675b",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The book claims that strong induction is strictly more powerful than ordinary mathematical induction: some statements provable by strong induction cannot be proved by ordinary induction.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The book states that strong induction is logically equivalent to ordinary induction — 'two names for the same principle.' Strong induction (assuming P(0),...,P(k)) is merely more convenient when P(k+1) depends on earlier cases, not more powerful; anything provable one way is provable the other.",
+  "tags": [
+    "logic",
+    "proof",
+    "induction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

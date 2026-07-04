@@ -1,0 +1,22 @@
+{
+  "question_id": "a8bd8d25-7bbd-4fa4-9a38-1978ecfc2162",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "According to simulation theory (Gordon, Goldman), we understand another person's mind primarily by:",
+  "choices": [
+    "Applying an implicit folk-psychological theory of how mental states cause behavior",
+    "Directly perceiving their mental states in their expressive behavior",
+    "Inferring their mind by analogy from our own single case",
+    "Running our own cognitive and motivational system 'offline' from their perspective"
+  ],
+  "answer": 3,
+  "explanation": "Simulation theory holds that we model others by running our own cognitive/motivational system 'offline,' adopting their perspective, rather than consulting a theory. Applying an implicit theory is theory-theory; directly perceiving mental states in expression is interaction theory; and analogical inference from one's own case is the classical argument from analogy.",
+  "tags": [
+    "simulation-theory",
+    "theory-theory",
+    "mindreading"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

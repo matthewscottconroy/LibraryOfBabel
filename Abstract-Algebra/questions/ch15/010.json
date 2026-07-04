@@ -1,0 +1,19 @@
+{
+  "question_id": "637ec0e6-677d-412c-9ed5-e34a0a85b5b1",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "blank",
+  "text": "For an abelian group A, the second cohomology H²(G, A) classifies group ___ of G by A, i.e. sequences 0 → A → E → G → 1.",
+  "choices": [
+    "extensions",
+    "central extensions"
+  ],
+  "answer": "extensions",
+  "explanation": "A 2-cocycle records the failure of a set-theoretic section G → E to be a homomorphism, and cohomologous cocycles give equivalent extensions; the zero class is the semidirect (or direct) product. H¹ similarly classifies crossed homomorphisms/derivations.",
+  "tags": [
+    "group-cohomology",
+    "extensions"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

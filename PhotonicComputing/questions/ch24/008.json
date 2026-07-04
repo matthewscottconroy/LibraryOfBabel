@@ -1,0 +1,13 @@
+{
+  "question_id": "4124d447-c3e3-4168-ac2d-96789a336b22",
+  "chapter": 24,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: With best current practice, honestly benchmarked photonic accelerators project to about 1000x better energy per delivered MAC than contemporary GPUs on favorable workloads.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False — the honest projection is several-fold, approaching an order of magnitude, better energy per delivered MAC (roughly 13-25 TOPS/W versus about 1.6-2.8 TOPS/W for A100/H100). The 1000x figure is the pitfall of comparing an optical core against a full electronic system, not system against system.",
+  "tags": ["benchmarking", "fair-comparison", "energy-efficiency"],
+  "difficulty": "intermediate",
+  "generated": true
+}

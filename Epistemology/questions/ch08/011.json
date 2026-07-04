@@ -1,0 +1,13 @@
+{
+  "question_id": "0b4ec851-e286-4ac9-a4b7-1181353f462e",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Feminist standpoint epistemology is committed to the relativist thesis that all social standpoints are epistemically on a par, so that no perspective affords better access to social reality than any other.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Standpoint epistemologists explicitly resist relativism: their epistemic-privilege thesis is that some standpoints, particularly those of marginalized groups, afford better and less ideologically distorted access to certain features of social reality, not that all standpoints are equally valid. Harding captures this with 'strong objectivity,' the claim that beginning inquiry from marginalized lives increases objectivity rather than abandoning it.",
+  "tags": ["standpoint-epistemology", "feminist-epistemology", "relativism", "harding"],
+  "difficulty": "intermediate",
+  "generated": true
+}

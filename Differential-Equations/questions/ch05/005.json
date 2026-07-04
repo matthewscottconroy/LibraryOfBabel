@@ -1,0 +1,21 @@
+{
+  "question_id": "8f67aa02-c1ba-40e6-b0d7-fa1bf399fec7",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The maximum principle for the heat equation (without sources) states that the maximum temperature over space-time is attained:",
+  "choices": [
+    "strictly in the interior at late times",
+    "only where the source term is largest",
+    "at the geometric center of the domain",
+    "on the initial time slice or on the spatial boundary"
+  ],
+  "answer": 3,
+  "explanation": "For the source-free heat equation the maximum (and minimum) is attained on the parabolic boundary, that is on the initial data or the spatial boundary, and is never created in the interior. This reflects the smoothing, averaging nature of diffusion and yields uniqueness and stability.",
+  "tags": [
+    "maximum-principle",
+    "heat-equation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

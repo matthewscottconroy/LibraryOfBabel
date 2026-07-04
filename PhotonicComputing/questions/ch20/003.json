@@ -1,0 +1,13 @@
+{
+  "question_id": "fa414667-c6f4-4290-843c-66340398c2a7",
+  "chapter": 20,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The CV analogue of the Gottesman-Knill theorem says that circuits built only from Gaussian states, Gaussian operations, and Gaussian measurements are efficiently classically simulable. What does this imply for achieving a quantum computational advantage?",
+  "choices": ["Squeezing must exceed 15 dB before any Gaussian circuit becomes hard to simulate", "Homodyne detection must be replaced by heterodyne detection", "Some non-Gaussian element — e.g. photon-number-resolving detection, a cubic phase gate, or a GKP ancilla — must be injected", "The circuit must use more than one million entangled modes"],
+  "answer": 2,
+  "explanation": "The no-go result means squeezers, beam splitters, and homodyne alone can never beat a classical computer; a non-Gaussian resource (cubic gate, photon counting, or GKP state) is mandatory. Choice 0 is false — no amount of squeezing makes a purely-Gaussian circuit hard; choice 1 is irrelevant (both are Gaussian measurements); choice 3 confuses entanglement scale with hardness (million-mode cluster states are Gaussian and simulable).",
+  "tags": ["gaussian-no-go", "non-gaussianity", "quantum-advantage"],
+  "difficulty": "intermediate",
+  "generated": true
+}

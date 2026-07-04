@@ -1,0 +1,20 @@
+{
+  "question_id": "5b5e966f-c4c4-49e0-948e-27cc3178037b",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Stage theory (exdurantism), developed by Sider and Hawley, holds that a term like 'this person' denotes a momentary stage, and that persistence over time is analyzed by a temporal-counterpart relation rather than by strict numerical identity.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Unlike worm theory, where 'this person' names the whole four-dimensional worm, stage theory takes the referent to be the current stage and cashes out persistence claims through temporal counterparts, importing Lewis's counterpart apparatus into the temporal dimension.",
+  "tags": [
+    "stage-theory",
+    "exdurantism",
+    "sider"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "a9465db7-a325-4f97-9b09-659c49a99510",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "To show that an argument is invalid, one exhibits a single ___: an interpretation in which all the premises are true but the conclusion is false.",
+  "choices": [
+    "counterexample"
+  ],
+  "answer": "counterexample",
+  "explanation": "A counterexample — one interpretation making every premise true and the conclusion false — suffices to establish invalidity. The chapter emphasizes this black-and-white feature of deductive logic: a lone counterexample refutes any claim of validity.",
+  "tags": [
+    "counterexample",
+    "validity",
+    "refutation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

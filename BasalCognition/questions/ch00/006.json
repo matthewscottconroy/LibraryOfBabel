@@ -1,0 +1,13 @@
+{
+  "question_id": "f6b9d2e7-8a3c-4d1f-8e7b-6c0a3d5f9e82",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Because functional cognition and phenomenal experience are logically independent, evidence that a bacterium senses, integrates, and acts is by itself sufficient to prove that the bacterium has subjective experience.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Precisely because functional and phenomenological claims are logically independent (the explanatory gap), functional evidence alone cannot establish subjective experience. This is why the book adopts principled functional agnosticism: it uses functional vocabulary where functional organization is present while remaining genuinely agnostic, neither asserting nor denying experience, where the evidence is insufficient.",
+  "tags": ["functional-agnosticism", "functional-vs-phenomenal", "explanatory-gap"],
+  "difficulty": "intermediate",
+  "generated": true
+}

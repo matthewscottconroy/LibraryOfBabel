@@ -1,0 +1,22 @@
+{
+  "question_id": "79bbbff1-2c1b-44ba-8292-afe9e89d04f1",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Brenier's theorem says the optimal transport map for quadratic cost is the gradient of a:",
+  "choices": [
+    "convex function",
+    "harmonic function",
+    "linear function",
+    "periodic function"
+  ],
+  "answer": 0,
+  "explanation": "The optimal (quadratic-cost) map equals grad(u) for a convex potential u - a striking structure theorem. Harmonicity, linearity, or periodicity are not implied.",
+  "tags": [
+    "brenier-theorem",
+    "optimal-transport",
+    "convexity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

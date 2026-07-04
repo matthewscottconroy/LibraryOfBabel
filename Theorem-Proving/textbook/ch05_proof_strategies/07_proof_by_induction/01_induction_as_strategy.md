@@ -42,4 +42,4 @@ theorem example_induction (n : ℕ) : 0 + n = n := by
 The `induction n with` tactic splits the goal into base case (`zero`) and step (`succ k h`), where `h : 0 + k = k` is the induction hypothesis.
 
 ## Exercises
-See [problems/ch07_induction/](../../../problems/ch07_induction/)
+See [problems/ch07_induction_and_recursion/](../../../problems/ch07_induction_and_recursion/)

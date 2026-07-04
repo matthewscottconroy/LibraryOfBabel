@@ -1,0 +1,19 @@
+{
+  "question_id": "1978596f-ce17-4f7e-935f-ee73eca9867e",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The ___ Theorem guarantees that every real symmetric matrix has an orthonormal basis of eigenvectors and only real eigenvalues.",
+  "choices": [
+    "Spectral"
+  ],
+  "answer": "Spectral",
+  "explanation": "The real Spectral Theorem states a symmetric matrix is orthogonally diagonalizable: A = Q Lambda Q^T with Q orthogonal and Lambda real diagonal. It underlies principal-axis decompositions and the Sturm-Liouville eigenfunction expansions met later in the course.",
+  "tags": [
+    "spectral-theorem",
+    "symmetric-matrices",
+    "linear-algebra"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "According to the Gibbs free energy criterion (delta-G = delta-H - T*delta-S), which condition indicates that a reaction proceeds spontaneously (is exergonic) at constant temperature and pressure?",
+  "choices": [
+    "delta-G < 0",
+    "delta-G > 0",
+    "delta-G = 0 (equilibrium)",
+    "A negative delta-H regardless of the sign of delta-S or the temperature"
+  ],
+  "answer": 0,
+  "explanation": "A negative delta-G (exergonic) indicates a spontaneous reaction under the Gibbs free energy criterion. delta-G > 0 (endergonic) indicates a non-spontaneous reaction, delta-G = 0 corresponds to equilibrium rather than net spontaneous change, and enthalpy alone does not determine spontaneity because the -T*delta-S term can flip the overall sign, especially at high temperature.",
+  "tags": [
+    "thermodynamics",
+    "gibbs-free-energy",
+    "spontaneity"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "eb7e57d6-8455-4ec5-a944-4aec945c2be7"
+}

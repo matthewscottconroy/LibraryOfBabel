@@ -1,0 +1,22 @@
+{
+  "question_id": "19f671dd-512a-4923-81f2-33a844eb3a6d",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In contemporary metaphysics, grounding is best characterized as:",
+  "choices": [
+    "a diachronic, productive relation by which one event brings another about over time.",
+    "a purely modal covariation: no difference in the grounded without a difference in the ground.",
+    "a synchronic, non-causal relation of metaphysical explanation, one fact obtaining 'in virtue of' another.",
+    "the relation of strict numerical identity between higher- and lower-level facts."
+  ],
+  "answer": 2,
+  "explanation": "Grounding is a non-causal, explanatory 'in virtue of' dependence (the singleton {Socrates} obtains in virtue of Socrates), standardly taken to be irreflexive, asymmetric, and transitive. Causation is diachronic production; supervenience is mere modal covariation that, unlike grounding, does not explain why the covariation holds; and identity would collapse the levels rather than order them.",
+  "tags": [
+    "grounding",
+    "metaphysical-explanation",
+    "fundamentality"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

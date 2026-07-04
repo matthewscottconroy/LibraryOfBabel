@@ -1,0 +1,13 @@
+{
+  "question_id": "9a4d7f21-3e6b-45c8-b013-7f2e9c1a6d84",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "How does cosmopsychism attempt to sidestep the combination problem that troubles micropsychism?",
+  "choices": ["It denies that experience is a fundamental feature of reality", "It restricts experience to systems with high integrated information (phi)", "It claims the micro-experiences of particles simply sum arithmetically into macro-experience", "It treats the universe's unified experience as primary, with individual experiences 'carved from' it rather than assembled from micro-parts"],
+  "answer": 3,
+  "explanation": "Cosmopsychism makes the cosmic experience fundamental and treats individual experiences as carved out of it, reversing the part-to-whole direction of constitution and so avoiding the need to combine micro-experiences. Denying that experience is fundamental abandons panpsychism; the phi restriction is IIT; and arithmetic summation is precisely what the combination problem shows to be inadequate.",
+  "tags": ["cosmopsychism", "micropsychism", "combination-problem"],
+  "difficulty": "advanced",
+  "generated": true
+}

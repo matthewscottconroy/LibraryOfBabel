@@ -1,0 +1,13 @@
+{
+  "question_id": "d2f5b8c3-4e9a-4b7d-8c3f-2a6e9b1d5c48",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Prindle, Suel, and colleagues (2015) showed that Bacillus subtilis biofilms coordinate the metabolism of interior and peripheral cells using long-range traveling waves of membrane depolarization. These waves are propagated by the release and uptake of which ion?",
+  "choices": ["Calcium (Ca2+)", "Sodium (Na+)", "Chloride (Cl-)", "Potassium (K+)"],
+  "answer": 3,
+  "explanation": "The landmark 2015 discovery was a potassium wave: metabolically stressed interior cells open potassium channels, releasing K+ that depolarizes neighbors, which in turn open their channels, propagating the signal and redistributing metabolic resources. It is the clearest evidence of long-range electrical communication in bacterial communities. Calcium waves (option 0) were later characterized by the same lab but were not the 2015 finding; sodium and chloride are not the propagating ion here.",
+  "tags": ["potassium-wave", "biofilm", "electrical-signaling", "suel"],
+  "difficulty": "intermediate",
+  "generated": true
+}

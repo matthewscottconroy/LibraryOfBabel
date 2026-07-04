@@ -1,0 +1,22 @@
+{
+  "question_id": "664fa791-6776-4fe8-938a-24cd62a9e66c",
+  "chapter": 12,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The Collatz conjecture has been verified computationally for all n up to about:",
+  "choices": [
+    "2^10",
+    "2^68",
+    "2^1000",
+    "10^6"
+  ],
+  "answer": 1,
+  "explanation": "As of recent computation every starting value below roughly 2^68 reaches 1, yet no proof covers all n. The other bounds are far too small or unverified.",
+  "tags": [
+    "collatz",
+    "computation",
+    "verification"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

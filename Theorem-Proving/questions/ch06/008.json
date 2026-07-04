@@ -1,0 +1,20 @@
+{
+  "question_id": "9c0f70b1-e1f9-4558-ad56-6b9e4573588a",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: The well-ordering principle for ℕ states that every non-empty subset of ℕ has a greatest element.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The well-ordering principle says every non-empty subset of ℕ has a least (smallest) element, not a greatest one — indeed ℕ itself has no greatest element. This least-element property underlies minimal-counterexample proofs and is equivalent to induction.",
+  "tags": [
+    "well-ordering-principle",
+    "least-element",
+    "natural-numbers"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

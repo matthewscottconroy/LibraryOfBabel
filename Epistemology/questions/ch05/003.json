@@ -1,0 +1,23 @@
+{
+  "question_id": "066e6920-b0b3-4df0-a05e-3f1887287a99",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The correspondence theory of truth holds that a proposition is true if and only if:",
+  "choices": [
+    "it corresponds to a fact — it accurately represents how things stand in a mind-independent reality",
+    "it belongs to the maximally coherent and comprehensive system of beliefs",
+    "the community of inquirers would converge on it at the ideal limit of inquiry",
+    "asserting it is a mere disquotational device that adds nothing to asserting the proposition itself"
+  ],
+  "answer": 0,
+  "explanation": "Correspondence, defended by the early Russell and the Wittgenstein of the Tractatus, treats truth as a substantive relation between a truth-bearer and a worldly fact. Option 1 is the coherence theory; option 2 is Peirce's pragmatism; option 3 is deflationism, which by contrast denies that truth is any substantive relation at all. The theory's standing burdens are to say what facts are and what the correspondence relation consists in.",
+  "tags": [
+    "correspondence",
+    "truth",
+    "russell",
+    "wittgenstein"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

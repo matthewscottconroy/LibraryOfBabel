@@ -1,0 +1,21 @@
+{
+  "question_id": "45356d72-bef3-4a49-a63c-18da76937dd3",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The invariance theorem for Kolmogorov complexity says K is well-defined up to:",
+  "choices": [
+    "a multiplicative factor",
+    "an additive constant",
+    "a logarithmic factor",
+    "nothing - it is exactly universal"
+  ],
+  "answer": 1,
+  "explanation": "Changing the universal machine alters K by at most an additive constant (the length of a translator), so K is machine-independent up to O(1). It is not exact and the discrepancy is not multiplicative or logarithmic.",
+  "tags": [
+    "invariance-theorem",
+    "kolmogorov-complexity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

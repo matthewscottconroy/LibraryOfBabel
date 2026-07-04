@@ -1,0 +1,19 @@
+{
+  "question_id": "ad158255-b1a5-4bd5-8f06-8fcc53ee37e4",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "For every matrix, the row rank equals the column rank.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Row space and column space live in different spaces (Fⁿ vs Fᵐ) yet always share the same dimension, called rank(A); equivalently rank(A) = rank(Aᵀ). This is a genuine theorem, not a definition.",
+  "tags": [
+    "matrices",
+    "rank"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

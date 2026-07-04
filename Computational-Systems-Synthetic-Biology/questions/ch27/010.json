@@ -1,0 +1,19 @@
+{
+  "chapter": 27,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Benjamini & Hochberg's 1995 method for correcting p-values across many simultaneous statistical tests -- used in virtually every differential expression analysis -- controls the ___ (abbreviated FDR).",
+  "choices": [
+    "False Discovery Rate"
+  ],
+  "answer": "False Discovery Rate",
+  "explanation": "Benjamini & Hochberg (1995) introduced the false discovery rate (FDR) procedure, which controls the expected proportion of false positives among all rejected null hypotheses -- essential when testing thousands of genes simultaneously in RNA-seq differential expression analysis. Without FDR correction or a similarly principled multiple-testing method, the number of false positives balloons as more genes are tested at a fixed per-test significance threshold.",
+  "tags": [
+    "benjamini-hochberg",
+    "fdr",
+    "multiple-testing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "d286a3d3-03c0-4fa2-b3b5-584309360053"
+}

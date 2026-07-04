@@ -1,0 +1,21 @@
+{
+  "question_id": "61c5534b-2511-4d49-b997-6b2d811255a5",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The plural comprehension schema is ∃x φ(x) → ∃xx ∀x(x ≺ xx ↔ φ(x)). What is the role of the antecedent ∃x φ(x)?",
+  "choices": [
+    "It ensures φ is a first-order formula",
+    "It restricts φ to set-sized collections",
+    "It guarantees the resulting plurality is nonempty, since by convention pluralities have at least one member",
+    "It blocks the formula φ from mentioning the predicate ≺"
+  ],
+  "answer": 2,
+  "explanation": "By convention every plurality has at least one member, so comprehension forms the xx only when some object actually satisfies φ; the antecedent ∃x φ(x) enforces this nonemptiness. It says nothing about φ's order or 'set-size,' and it is the separate proviso 'xx not free in φ' — not the antecedent — that blocks the self-referential ¬(x ≺ xx).",
+  "tags": [
+    "plural-comprehension",
+    "nonemptiness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

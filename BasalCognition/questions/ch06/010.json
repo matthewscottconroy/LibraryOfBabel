@@ -1,0 +1,19 @@
+{
+  "question_id": "82f4b6d1-9e3c-4a75-8b06-1c9d2e7f4a68",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The mathematical criterion for the evolution of altruism, written rB > C, is known as ___.",
+  "choices": [
+    "Hamilton's rule"
+  ],
+  "answer": "Hamilton's rule",
+  "explanation": "The answer is 'Hamilton's rule'. Here r is the coefficient of relatedness, B the benefit to the recipient, and C the cost to the altruist; altruism can spread when the indirect benefit to shared genes (rB) exceeds the direct cost (C). William Hamilton introduced it in his 1964 papers on the genetical evolution of social behaviour.",
+  "tags": [
+    "hamiltons-rule",
+    "inclusive-fitness",
+    "altruism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

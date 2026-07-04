@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In SciPy's `solve_ivp`, which method is the adaptive-step-size solver used by default and recommended for smooth, non-stiff systems?",
+  "choices": [
+    "BDF",
+    "Radau",
+    "LSODA",
+    "RK45 (Dormand-Prince)"
+  ],
+  "answer": 3,
+  "explanation": "RK45 (Dormand-Prince) adaptively compares fourth- and fifth-order solutions to control step size and error, and it is the default choice in SciPy and MATLAB's ode45 for smooth, non-stiff problems. BDF and Radau are implicit methods built for stiff systems, while LSODA automatically switches between non-stiff and stiff regimes rather than serving as the baseline non-stiff default.",
+  "tags": [
+    "scientific-computing",
+    "ode-solvers",
+    "scipy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "205a23f6-2098-4f39-b200-0df059c48425"
+}

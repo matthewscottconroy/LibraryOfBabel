@@ -1,0 +1,21 @@
+{
+  "question_id": "00a8c7fe-a984-4552-a1a4-dabfc2b0e826",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "If all partial derivatives of f: ℝⁿ → ℝ exist at a point p, then f is necessarily differentiable (has a total derivative) at p.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The book warns that a function can possess all partial derivatives at a point yet fail to be differentiable there, because the partials probe only the coordinate directions while differentiability demands the linear approximation f(p+h) = f(p) + Df(p)h + o(|h|) to hold from every direction. Continuity of the partial derivatives near p is a sufficient extra condition that does guarantee differentiability.",
+  "tags": [
+    "partial-derivatives",
+    "differentiability",
+    "total-derivative",
+    "multivariable-calculus"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

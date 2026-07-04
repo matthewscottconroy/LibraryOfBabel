@@ -1,0 +1,18 @@
+{
+  "question_id": "29f0b013-1e0d-4558-a90c-f50879358497",
+  "chapter": 25,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The venture arms of Intel, NVIDIA, and AMD all invested in Ayar Labs. According to the chapter, what does this 'strategic capital' most reliably signal?",
+  "choices": [
+    "That optical arithmetic will soon displace GPU compute",
+    "That the incumbents expect quantum computing to arrive before classical photonics",
+    "That financial-only investors are chasing a compelling narrative",
+    "The incumbents' own forecast of where photonics enters the computer first, namely optical I/O"
+  ],
+  "answer": 3,
+  "explanation": "Strategic capital chases roadmaps: when the three leading compute vendors back the same optical I/O supplier (Ayar Labs sells interconnect, not compute), it is the incumbents forecasting that photonics enters the computer first as I/O. Option 2 describes financial-only capital, and options 0 and 1 misstate both what Ayar sells and what the investment implies.",
+  "tags": ["ayar-labs", "strategic-capital", "funding", "interconnect"],
+  "difficulty": "intermediate",
+  "generated": true
+}

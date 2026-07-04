@@ -1,0 +1,22 @@
+{
+  "question_id": "19997ec6-5eb5-478f-bc93-d7a88b1b5a94",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Kim's causal exclusion argument turns on four jointly inconsistent principles: the causal efficacy of the mental, the causal closure of the physical, the denial of systematic overdetermination, and which fourth?",
+  "choices": [
+    "The multiple realizability of mental properties.",
+    "The supervenience of the mental on the physical.",
+    "The non-reduction (non-identity) of mental properties to physical properties.",
+    "The conceivability of philosophical zombies."
+  ],
+  "answer": 2,
+  "explanation": "Kim's tetrad is mental causation, physical causal closure, no systematic overdetermination, and non-reduction; these cannot all be true, so the non-reductive physicalist must either reduce the mental (drop non-reduction) or accept epiphenomenalism. Supervenience is assumed by non-reductive physicalism but is not one of the four inconsistent principles, and multiple realizability is the motivation for non-reduction rather than a member of the tetrad.",
+  "tags": [
+    "mental-causation",
+    "kim",
+    "exclusion-argument"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

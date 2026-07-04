@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 4,
+  "kind": "mc",
+  "text": "How is overfitting typically diagnosed while training a neural network?",
+  "choices": [
+    "Both training loss and validation loss remain flat throughout training",
+    "Validation loss decreases faster than training loss",
+    "Training loss increases while validation loss decreases",
+    "Training loss decreases while validation loss increases"
+  ],
+  "answer": 3,
+  "explanation": "Overfitting is diagnosed precisely when training loss keeps decreasing while validation loss begins increasing, showing the model is memorizing training examples rather than generalizing. The other patterns do not match this signature: flat losses suggest underfitting or a converged plateau, and the remaining options describe implausible or reversed relationships between the two loss curves.",
+  "tags": [
+    "machine-learning",
+    "deep-learning",
+    "overfitting"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "0946b2e1-f172-45c1-8f4e-a0ff66c38f2b"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Two genes found in different species that arose from a speciation event (rather than a gene duplication event) and that typically retain the same function are called:",
+  "choices": [
+    "Paralogs",
+    "Xenologs",
+    "Analogs",
+    "Orthologs"
+  ],
+  "answer": 3,
+  "explanation": "Orthologs are homologs that arise via speciation and usually retain the ancestral function across the descendant species. Paralogs instead arise by gene duplication and often diverge in function, xenologs arise via horizontal gene transfer, and 'analogs' describes functionally similar but non-homologous features (convergence), not a type of homolog at all.",
+  "tags": [
+    "homology",
+    "orthologs",
+    "terminology"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "21a88e91-daf6-413e-b839-ce353dc01c42"
+}

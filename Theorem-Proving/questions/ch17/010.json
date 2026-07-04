@@ -1,0 +1,19 @@
+{
+  "question_id": "74313c4b-2719-4eac-9e13-da9285f9a31a",
+  "chapter": 17,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In Kripke's theory, a sentence is called ___ if it has a truth value in the least fixed point, anchoring its truth-talk ultimately in non-semantic fact; the Liar lacks this property.",
+  "choices": [
+    "grounded"
+  ],
+  "answer": "grounded",
+  "explanation": "A sentence is grounded iff it receives a value in the least fixed point, meaning its truth is forced by the non-semantic facts. The Liar is ungrounded (valueless in every fixed point) and paradoxical; the Truthteller is ungrounded but merely underdetermined.",
+  "tags": [
+    "groundedness",
+    "kripke",
+    "fixed-point"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

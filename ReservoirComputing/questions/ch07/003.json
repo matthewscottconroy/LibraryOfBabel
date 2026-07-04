@@ -1,0 +1,22 @@
+{
+  "question_id": "a5459a64-632a-4caa-b8ef-10a204904de7",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the lab's Mackey-Glass generator, what are the standard constants (β, γ, n)?",
+  "choices": [
+    "β=0.2, γ=0.1, n=10",
+    "β=0.1, γ=0.2, n=17",
+    "β=10, γ=28, n=8/3",
+    "β=0.3, γ=0.05, n=1.5"
+  ],
+  "answer": 0,
+  "explanation": "benchmarks.py sets beta, gamma, n = 0.2, 0.1, 10. Option 2 lists Lorenz parameters (10, 28, 8/3); option 3 lists NARMA-10 coefficients; option 1 swaps β/γ and misuses the delay 17 as the exponent.",
+  "tags": [
+    "mackey-glass",
+    "parameters",
+    "dde"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "6e53c573-44b7-481a-9cd0-dfa6ecc983a1",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Quine dismissed second-order logic as '___ in sheep's clothing,' a charge Boolos answered by arguing that plural quantification incurs no such commitment.",
+  "choices": [
+    "set theory"
+  ],
+  "answer": "set theory",
+  "explanation": "Quine's slogan was that second-order logic is 'set theory in sheep's clothing.' Boolos replied that second-order quantifiers can be read as ranging plurally over individuals, so ≺ is provably not ∈ and no sets are incurred — reviving Frege's logicism without the paradox-breeding abstracta.",
+  "tags": [
+    "quine",
+    "set-theory",
+    "boolos"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

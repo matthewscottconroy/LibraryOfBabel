@@ -1,0 +1,19 @@
+{
+  "question_id": "f8b1d4e9-0a5c-4d3f-8e9b-8c2a5d7f1e04",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "When E. coli senses lactose and pre-emptively induces the genes for maltose metabolism, because lactose reliably precedes maltose in the mammalian gut, it is exhibiting ___ switching, a form of anticipation encoded in the architecture of its gene regulatory network.",
+  "choices": [
+    "predictive"
+  ],
+  "answer": "predictive",
+  "explanation": "The answer is 'predictive.' In predictive switching, a cell responds to signal A by preparing for a correlated future signal B. The lactose-to-maltose prediction is evolutionarily encoded in the network, so a single cell performs a form of inference, responding to probable future conditions rather than only present ones.",
+  "tags": [
+    "predictive-switching",
+    "anticipation",
+    "gene-regulation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "0fd91a53-3291-4e45-be34-7a6ccd63a185",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Fodor's modularity thesis holds that the central systems responsible for reasoning and belief fixation are modular in the same way that perceptual input systems are.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Fodor's thesis is precisely that input systems are modular (domain-specific, encapsulated, fast, mandatory) while central systems are NOT modular -- they are isotropic and holistic. The view that modularity goes 'all the way up' is the rival massive-modularity thesis (Sperber, Cosmides, Tooby), which Fodor rejected.",
+  "tags": [
+    "modularity",
+    "central-systems",
+    "massive-modularity",
+    "fodor"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

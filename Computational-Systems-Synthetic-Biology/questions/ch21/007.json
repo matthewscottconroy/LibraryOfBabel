@@ -1,0 +1,20 @@
+{
+  "chapter": 21,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The Biological Weapons Convention (BWC) includes a robust international verification mechanism that allows inspectors to confirm member states' compliance.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: the chapter explicitly states the BWC's key weakness is that it has no verification mechanism, despite prohibiting development, production, and stockpiling of biological weapons among its 183 states parties. The statement claims the opposite of this well-documented gap in the treaty's enforcement.",
+  "tags": [
+    "biosecurity",
+    "international-governance",
+    "bwc"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "ae2a9b21-3a9f-4879-afe0-75e059cf21f7"
+}

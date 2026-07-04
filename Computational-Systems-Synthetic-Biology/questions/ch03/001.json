@@ -1,0 +1,23 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is the time complexity of the Needleman-Wunsch global sequence alignment algorithm for two sequences of length n and m?",
+  "choices": [
+    "O(n+m)",
+    "O(n log n)",
+    "O(2^n)",
+    "O(nm)"
+  ],
+  "answer": 3,
+  "explanation": "Needleman-Wunsch fills an n-by-m dynamic programming matrix one cell at a time using a constant-time recurrence, giving O(nm) time and space complexity. O(n+m) would be far too fast for an algorithm that must consider alignment at every position pair, O(n log n) is characteristic of comparison sorts like mergesort rather than alignment DP, and O(2^n) reflects the exponential brute-force enumeration that dynamic programming is specifically designed to avoid.",
+  "tags": [
+    "dynamic-programming",
+    "sequence-alignment",
+    "big-o",
+    "algorithms"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "a4e0bd6e-d0f4-4233-9e0f-b33bc995b477"
+}

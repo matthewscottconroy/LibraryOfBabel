@@ -1,0 +1,13 @@
+{
+  "question_id": "29ac0589-4a26-42e2-99da-3f57a31a99cf",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The linewidth of a semiconductor laser exceeds the basic Schawlow-Townes value by a factor (1 + α_H²). What is the physical origin of this enhancement?",
+  "choices": ["The cavity photon lifetime is too short", "Spontaneous emission is negligible in semiconductors", "The mirror reflectivity is too high", "Gain fluctuations couple to refractive-index fluctuations through the linewidth-enhancement (Henry) factor α_H ≈ 3–5"],
+  "answer": 3,
+  "explanation": "In semiconductors, carrier-density changes alter both gain and refractive index, so amplitude noise feeds into phase noise; this coupling is the Henry factor α_H ≈ 3–5, giving Δν = Δν_ST(1 + α_H²). Spontaneous emission is precisely what drives the linewidth (not negligible), and neither photon lifetime nor mirror reflectivity produces the (1 + α_H²) term.",
+  "tags": ["schawlow-townes", "linewidth", "henry-factor", "phase-noise"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "c0a1e57f-00ff-4844-8e11-5149e6bc8954",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The spectral theorem guarantees an orthonormal eigenbasis exactly for which operators?",
+  "choices": [
+    "all invertible operators",
+    "all real matrices",
+    "upper-triangular matrices",
+    "normal operators (A A* = A* A)"
+  ],
+  "answer": 3,
+  "explanation": "Normality (commuting with the adjoint) is the precise condition for a unitary diagonalization with orthonormal eigenvectors; it includes Hermitian and unitary operators. Invertibility, realness, or triangular form do not suffice.",
+  "tags": [
+    "spectral-theorem",
+    "normal-operators",
+    "linear-algebra"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

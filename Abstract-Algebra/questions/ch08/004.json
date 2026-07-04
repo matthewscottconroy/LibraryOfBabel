@@ -1,0 +1,22 @@
+{
+  "question_id": "922fc966-2d82-4a27-90a8-d1fe96f94461",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the order of the alternating group A₄?",
+  "choices": [
+    "4",
+    "8",
+    "12",
+    "24"
+  ],
+  "answer": 2,
+  "explanation": "A₄ = ker(sgn) consists of the even permutations, exactly half of S₄, so |A₄| = 4!/2 = 12. In general |Aₙ| = n!/2 for n ≥ 2.",
+  "tags": [
+    "groups",
+    "symmetric-group",
+    "alternating-group"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

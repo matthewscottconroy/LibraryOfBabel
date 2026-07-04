@@ -1,0 +1,13 @@
+{
+  "question_id": "1d8b6a04-2f9c-4e73-8a15-6c0e3b9d7f42",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "A lichen is a composite organism in which a fungus provides a protective structure (the thallus) and a photosynthetic partner, an alga or cyanobacterium, provides fixed carbon.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. The lichen symbiosis pairs a fungus (usually an ascomycete) whose thallus buffers desiccation, UV, and mechanical stress with a photosynthetic partner that supplies carbon the non-photosynthetic fungus cannot make; many lichens also host basidiomycete yeasts and bacterial communities as additional partners.",
+  "tags": ["symbiosis", "lichen", "composite-organism"],
+  "difficulty": "beginner",
+  "generated": true
+}

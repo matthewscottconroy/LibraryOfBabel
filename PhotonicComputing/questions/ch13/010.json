@@ -1,0 +1,19 @@
+{
+  "question_id": "0bfb2f59-ab7a-44ad-99aa-bd183be9713e",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "blank",
+  "text": "A diffractive pixel imposes a phase phi = (2*pi/lambda)*(n-1)*___ , where this material height is the trained parameter frozen into the plate at fabrication.",
+  "choices": [
+    "h"
+  ],
+  "answer": "h",
+  "explanation": "The phase delay of a transmissive pixel is phi = (2*pi/lambda)*(n-1)*h, so the local height h (the material thickness) is the physical degree of freedom that encodes the learned weight.",
+  "tags": [
+    "d2nn",
+    "phase-mask",
+    "material-height"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

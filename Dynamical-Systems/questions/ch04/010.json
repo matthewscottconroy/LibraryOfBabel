@@ -1,0 +1,19 @@
+{
+  "question_id": "f4281c4c-4184-4288-b84d-693b4533c472",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Renyi entropy of order zero, H_0(X), equals the logarithm of the ___ of the support of X.",
+  "choices": [
+    "cardinality",
+    "size"
+  ],
+  "answer": "cardinality",
+  "explanation": "H_0(X) = log |support(X)| counts the number of possible outcomes, ignoring their probabilities; it upper-bounds all higher-order Renyi entropies.",
+  "tags": [
+    "renyi-entropy",
+    "support"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

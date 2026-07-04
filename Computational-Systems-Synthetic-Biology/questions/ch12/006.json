@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The ARACNE algorithm reconstructs gene regulatory networks from expression data using pairwise mutual information (MI). How does ARACNE distinguish direct regulatory edges from indirect ones (e.g., where A only affects C through an intermediate gene B)?",
+  "choices": [
+    "It fits a random forest regression model that predicts each gene's expression from all other genes and uses feature importance as the edge weight",
+    "It applies the Data Processing Inequality: if A leads to B leads to C, then MI(A,C) is less than the minimum of MI(A,B) and MI(B,C), so the weakest edge of the resulting triangle is removed",
+    "It uses gradient boosting to rank candidate transcription-factor-target links roughly ten times faster than an equivalent regression-forest method",
+    "It Z-score normalizes each pair's mutual information against the background distribution of all pairs sharing one of the two genes"
+  ],
+  "answer": 1,
+  "explanation": "ARACNE's core principle is the Data Processing Inequality (DPI): for any indirect chain A to B to C, MI(A,C) cannot exceed the smaller of MI(A,B) and MI(B,C), so the weakest edge in each MI triangle is pruned as likely indirect. Choice 0 describes GENIE3 (random-forest regression), choice 2 describes GRNBoost2 (the gradient-boosting alternative used in SCENIC), and choice 3 describes CLR (Context Likelihood of Relatedness) -- all real but distinct GRN-inference methods from ARACNE.",
+  "tags": [
+    "grn-inference",
+    "aracne",
+    "mutual-information"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "949e5a6a-aac8-420e-b6a9-a33b466f5fe2"
+}

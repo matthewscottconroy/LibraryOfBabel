@@ -1,0 +1,13 @@
+{
+  "question_id": "84aa979d-ec4a-4a80-b0fb-b17fdf50a87f",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Silicon Mach-Zehnder modulators use the plasma dispersion (free-carrier) effect. A typical Vpi*L figure of merit for a silicon PN carrier-depletion phase shifter is about:",
+  "choices": ["0.02 V*mm", "2-3 V*mm", "10-30 V*mm", "500 V*mm"],
+  "answer": 2,
+  "explanation": "Silicon PN depletion modulators have Vpi*L around 10-30 V*mm. 2-3 V*mm is the Pockels-effect value for thin-film lithium niobate (LNOI); 0.02 V*mm is a plasmonic slot modulator; 500 V*mm is unrealistically large. Smaller Vpi*L means a shorter device or lower drive voltage.",
+  "tags": ["plasma-dispersion", "modulator", "vpil"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 9,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In phylogenetics, a taxon lying outside the group of interest, used to root a tree and polarize the direction of character change, is called the ___.",
+  "choices": [
+    "outgroup"
+  ],
+  "answer": "outgroup",
+  "explanation": "The outgroup is chosen from outside the ingroup being studied and provides the reference point needed to root an otherwise unrooted tree and determine the direction (polarity) of evolutionary change. Without an outgroup, methods like neighbor-joining and maximum likelihood produce only an unrooted topology.",
+  "tags": [
+    "outgroup",
+    "tree-rooting",
+    "terminology"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "9cdfbf77-49e1-49d3-8f4a-dd99c4d0cb57"
+}

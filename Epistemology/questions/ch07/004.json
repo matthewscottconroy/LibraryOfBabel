@@ -1,0 +1,20 @@
+{
+  "question_id": "2cc68055-1a32-485f-8283-ffc66afd00d6",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The thesis that a rational agent's credences must conform to the Kolmogorov probability axioms -- non-negativity, normalization (a tautology gets credence 1), and finite additivity -- is called ___.",
+  "choices": [
+    "probabilism"
+  ],
+  "answer": "probabilism",
+  "explanation": "Probabilism is the core Bayesian norm that rational credences obey the probability axioms: non-negativity (cr(P) >= 0), normalization (the credence in a tautology is 1), and finite additivity (cr(P v Q) = cr(P) + cr(Q) for mutually exclusive P, Q). It is standardly defended by the Dutch book argument and by accuracy-dominance (Joyce) arguments.",
+  "tags": [
+    "probabilism",
+    "kolmogorov axioms",
+    "coherence",
+    "normalization"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

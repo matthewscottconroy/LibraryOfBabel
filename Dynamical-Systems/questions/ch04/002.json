@@ -1,0 +1,21 @@
+{
+  "question_id": "7ac3c7e6-e3ca-4dc8-9ed8-4f160c98d04f",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The capacity of a discrete memoryless channel is:",
+  "choices": [
+    "min over p(x) of I(X;Y)",
+    "H(X)",
+    "the maximum of p(x)",
+    "max over p(x) of I(X;Y)"
+  ],
+  "answer": 3,
+  "explanation": "Capacity C = max over input distributions of the mutual information I(X;Y): the largest reliable rate. It is a maximization (not minimization) and not simply an entropy.",
+  "tags": [
+    "channel-capacity",
+    "mutual-information"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

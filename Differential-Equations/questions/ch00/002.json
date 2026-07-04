@@ -1,0 +1,22 @@
+{
+  "question_id": "080b4dc6-97ab-4376-ace4-53bd278818a7",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "By definition, a sequence (a_n) of real numbers is a Cauchy sequence if:",
+  "choices": [
+    "it is bounded and its terms eventually increase",
+    "for every eps>0 there exists N such that |a_n - a_m| < eps whenever n,m >= N",
+    "for every eps>0 there exists N such that |a_{n+1} - a_n| < eps whenever n >= N",
+    "it converges to a rational limit"
+  ],
+  "answer": 1,
+  "explanation": "Cauchy means all sufficiently late terms lie within eps of one another, i.e. |a_n - a_m| < eps for all large n,m. Requiring only consecutive terms to get close is strictly weaker: the harmonic partial sums satisfy it yet diverge. Boundedness/monotonicity and convergence to a rational are neither necessary nor the definition.",
+  "tags": [
+    "cauchy-sequence",
+    "convergence",
+    "sequences"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

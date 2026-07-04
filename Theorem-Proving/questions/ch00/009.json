@@ -1,0 +1,19 @@
+{
+  "question_id": "55f2f72e-eb84-4f12-b707-d0ad14149d17",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The language used to talk *about* another language — for instance, to state that a string of the object language is true — is called the ___.",
+  "choices": [
+    "metalanguage"
+  ],
+  "answer": "metalanguage",
+  "explanation": "The metalanguage is the language in which we describe and ascribe properties (such as truth) to the object language. Tarski's hierarchy stratifies these levels: the truth predicate for level-n sentences lives in the level-(n+1) metalanguage.",
+  "tags": [
+    "metalanguage",
+    "object-language",
+    "tarski"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

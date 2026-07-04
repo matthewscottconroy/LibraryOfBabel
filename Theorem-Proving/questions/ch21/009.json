@@ -1,0 +1,20 @@
+{
+  "question_id": "f4d0b292-b7fa-417e-864f-458b6315415e",
+  "chapter": 21,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Using Leibniz's Law with the property □(a = z), Barcan Marcus and Kripke prove the ___ of identity: from a = b it follows that □(a = b).",
+  "choices": [
+    "necessity"
+  ],
+  "answer": "necessity",
+  "explanation": "The proof establishes the necessity of identity: since □(x=x) holds, substituting via Leibniz's Law gives x=y → □(x=y). Kripke reconciles this with the informativeness of 'Hesperus = Phosphorus' by making it necessary yet a posteriori, names being rigid designators.",
+  "tags": [
+    "necessity-of-identity",
+    "leibniz-law",
+    "rigid-designator",
+    "kripke"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

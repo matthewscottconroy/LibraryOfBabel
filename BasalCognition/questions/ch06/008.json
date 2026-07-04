@@ -1,0 +1,13 @@
+{
+  "question_id": "6d2f8a1e-7c94-4b3d-a802-5e1f9c6b4a37",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The book characterizes the collective intelligence of animal swarms as strongly emergent, meaning genuinely irreducible to any description of the individual components.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The book describes swarm intelligence as weakly emergent: it can be reproduced by agent-based models that implement only individual behavioral rules, so it is in principle predictable from component descriptions given enough computation. Strong emergence would mean genuine irreducibility, which the text explicitly does not claim for animal swarms.",
+  "tags": ["emergence", "weak-emergence", "reductionism"],
+  "difficulty": "advanced",
+  "generated": true
+}

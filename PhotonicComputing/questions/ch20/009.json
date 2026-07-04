@@ -1,0 +1,19 @@
+{
+  "question_id": "0b0bc017-fd9a-4781-8706-a0af68976cec",
+  "chapter": 20,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In Gaussian boson sampling, the probability of a photon-number pattern is proportional to the ___ of a submatrix determined by the Gaussian state — a #P-hard quantity to compute classically.",
+  "choices": [
+    "hafnian"
+  ],
+  "answer": "hafnian",
+  "explanation": "GBS output probabilities are proportional to hafnians of submatrices (the Gaussian-state cousin of the permanent), which are #P-hard to evaluate — this is what underpins the sampling advantage. Permanents, by contrast, govern ordinary Fock-input boson sampling, not GBS.",
+  "tags": [
+    "gaussian-boson-sampling",
+    "hafnian",
+    "complexity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

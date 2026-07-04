@@ -1,0 +1,22 @@
+{
+  "question_id": "61e71e64-5f65-4c87-850f-83e0f0a9c755",
+  "chapter": 25,
+  "phase": 8,
+  "kind": "mc",
+  "text": "In categorical logic, a model of a Lawvere theory $\\mathbb{T}$ in a category $\\mathcal{C}$ is defined to be:",
+  "choices": [
+    "Any functor $\\mathbb{T}\\to\\mathcal{C}$",
+    "A left adjoint to an inclusion $\\mathcal{C}\\hookrightarrow\\mathbb{T}$",
+    "A colimit-preserving functor $\\mathbb{T}\\to\\mathcal{C}$",
+    "A product-preserving functor $\\mathbb{T}\\to\\mathcal{C}$"
+  ],
+  "answer": 3,
+  "explanation": "The chapter defines a model of $\\mathbb{T}$ in $\\mathcal{C}$ as a product-preserving functor $\\mathbb{T}\\to\\mathcal{C}$; preserving finite products is exactly what lets the abstract operations act on genuine tuples. An arbitrary functor need not respect the operations, colimit-preservation is the wrong (dual) condition, and no adjoint to an inclusion is part of the definition.",
+  "tags": [
+    "lawvere-theory",
+    "categorical-logic",
+    "model"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

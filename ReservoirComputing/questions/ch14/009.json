@@ -1,0 +1,22 @@
+{
+  "question_id": "c2b73b36-ed8a-48da-9805-f7222313d466",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In Lab 15 the nonlinear node emulates a Mach–Zehnder modulator, whose response is modeled by the ___ function applied to (feedback + masked input + φ₀).",
+  "choices": [
+    "sin^2",
+    "sin²",
+    "sine squared",
+    "sin squared"
+  ],
+  "answer": "sin^2",
+  "explanation": "The lab implements x = sin²(η·x(t−τ) + ε·mask·u + φ₀) with φ₀ = π/4, i.e. np.sin(...)**2 — the Mach–Zehnder modulator's sin² (intensity) transfer curve. This bounded nonlinearity supplies the required nonlinear mixing of input and delayed feedback; because sin² ∈ [0,1] the state stays bounded and merely saturates rather than diverging at high gain.",
+  "tags": [
+    "physical-rc",
+    "nonlinearity",
+    "mzm"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

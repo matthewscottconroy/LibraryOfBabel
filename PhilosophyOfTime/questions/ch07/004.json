@@ -1,0 +1,18 @@
+{
+  "question_id": "e1607758-723e-415f-8551-12ee481ebced",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The term 'specious present' — the view that the experienced present is not a durationless instant but a brief interval, a 'saddle' with a back and a front — was introduced by E. R. Clay and made famous by which thinker?",
+  "choices": [
+    "Ernst Pöppel",
+    "Edmund Husserl",
+    "William James",
+    "Paul Fraisse"
+  ],
+  "answer": 2,
+  "explanation": "William James made the 'specious present' famous in The Principles of Psychology (1890), describing it as a 'saddle' with a back and a front; the term itself was coined by E. R. Clay in 1882. Pöppel (1978) and Fraisse (1984) later supplied experimental evidence that this window spans roughly two to three seconds, but did not originate the term. Husserl analyzed the 'living present' phenomenologically but is not the source of 'specious present.'",
+  "tags": ["specious-present", "william-james", "psychological-present"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "01787c5f-49ca-4c25-98af-78c94915c2a9",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "How are the ESN readout weights obtained in the first_esn.py pipeline?",
+  "choices": [
+    "By backpropagation through time over all weight matrices",
+    "By ridge regression - a single closed-form linear least-squares solve, not backpropagation through time",
+    "By stochastic gradient descent jointly over W_in, W_rec, and W_out",
+    "By unsupervised k-means clustering of the reservoir states"
+  ],
+  "answer": 1,
+  "explanation": "The readout is fit by ridge regression, a single closed-form least-squares solve; the lab explicitly notes training is 'not backpropagation through time.' SGD over all weights or BPTT would train the reservoir (which ESNs avoid), and k-means is unsupervised and irrelevant.",
+  "tags": [
+    "ridge-regression",
+    "training",
+    "readout"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

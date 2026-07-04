@@ -1,0 +1,18 @@
+{
+  "question_id": "d10a109e-190b-4089-a5c7-a757b7e8d6d3",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A conditional statement P → Q whose antecedent P is false is automatically true regardless of Q; such a conditional is said to be ___ true.",
+  "choices": [
+    "vacuously"
+  ],
+  "answer": "vacuously",
+  "explanation": "When the antecedent P is false, P → Q is true no matter the truth value of Q — this is called vacuous truth (a vacuously true conditional). By contrast, a conditional that is true because its consequent Q is true is called trivially true.",
+  "tags": [
+    "vacuous-truth",
+    "conditional"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

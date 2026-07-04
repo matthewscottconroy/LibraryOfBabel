@@ -1,0 +1,18 @@
+{
+  "question_id": "986055de-b544-4759-af87-4eb3f9910834",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is the decisive advantage of a phase-change-material (PCM) synapse over a thermally tuned microring for holding a weight?",
+  "choices": [
+    "The PCM weight can be updated faster during inference",
+    "The PCM cell amplifies the optical signal as it stores the weight",
+    "The PCM cell is volatile, so it refreshes its weight automatically",
+    "Non-volatility: it holds its state for years at zero static power, whereas a thermally tuned ring dissipates about 1 mW continuously"
+  ],
+  "answer": 3,
+  "explanation": "The book emphasizes non-volatility: the PCM phase persists for years at zero static power, paying its energy cost once at write time (~nJ), whereas a thermally tuned ring pays about 1 mW forever. Choice 2 inverts the key property (PCM is non-volatile), a passive PCM cell attenuates rather than amplifies (choice 1), and update speed is not the cited advantage (choice 0).",
+  "tags": ["pcm-synapse", "non-volatility", "in-memory-computing"],
+  "difficulty": "intermediate",
+  "generated": true
+}

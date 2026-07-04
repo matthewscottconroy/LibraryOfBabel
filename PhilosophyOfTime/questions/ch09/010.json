@@ -1,0 +1,18 @@
+{
+  "question_id": "cb94b069-cf00-4310-8e60-f188c192736b",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Parfit's non-identity problem threatens person-affecting ethics because many large-scale policy choices:",
+  "choices": [
+    "generate obligations to rectify injustices committed before the affected people were born.",
+    "require us to deny bivalence for statements about what future people will do.",
+    "affect which particular people will come to exist, not merely how well already-existing people will fare.",
+    "show that an indefinitely extended human future would eventually become tedious."
+  ],
+  "answer": 2,
+  "explanation": "Because personal identity depends on specific causal circumstances, different policies lead to different people being born, so those who fare badly under a bad policy are not worse off than they would otherwise have been (they would not have existed at all), which is why person-affecting views struggle to locate a victim. Option A describes the separate problem of historical injustice. Denying bivalence belongs to logical fatalism, and the tedium worry is Williams on immortality, neither of which generates the non-identity problem.",
+  "tags": ["parfit", "non-identity", "future-generations", "person-affecting"],
+  "difficulty": "beginner",
+  "generated": true
+}

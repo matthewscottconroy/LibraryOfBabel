@@ -1,0 +1,18 @@
+{
+  "question_id": "edc4e0df-76a4-41a4-b929-ec5f9fe96ed9",
+  "chapter": 17,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Artin-Wedderburn gives $\\mathbb{C}[G]\\cong M_{n_1}(\\mathbb{C})\\times\\cdots\\times M_{n_r}(\\mathbb{C})$ for a finite group $G$. The number $r$ of matrix factors equals:",
+  "choices": [
+    "$|G|$, the order of the group",
+    "the order of the center $Z(G)$",
+    "$\\sum_i n_i$, the sum of the irreducible dimensions",
+    "the number of conjugacy classes of $G$"
+  ],
+  "answer": 3,
+  "explanation": "Each matrix factor corresponds to one irreducible representation, and the number of irreducibles equals the number of conjugacy classes, so $r$ is the class count. Here $|G|=\\sum_i n_i^2$ (not $r$), the order of the center is unrelated in general, and $\\sum_i n_i$ is neither $r$ nor $|G|$.",
+  "tags": ["representations", "artin-wedderburn", "group-algebra"],
+  "difficulty": "intermediate",
+  "generated": true
+}

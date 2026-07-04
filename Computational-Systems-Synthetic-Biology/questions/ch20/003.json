@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 3,
+  "kind": "mc",
+  "text": "During preparation of an E. coli extract-based cell-free system, what is the purpose of the 'run-off reaction' step?",
+  "choices": [
+    "Neutralizing residual antibiotics carried over from the growth media",
+    "Depleting endogenous mRNA left over from the source cells",
+    "Removing genomic DNA fragments through nuclease digestion",
+    "Activating the orthogonal aminoacyl-tRNA synthetase for amber suppression"
+  ],
+  "answer": 1,
+  "explanation": "The run-off reaction depletes endogenous mRNA remaining in the lysate, preventing background translation from native transcripts so signal reflects only the added DNA template. It is not for removing antibiotics or genomic DNA, and amber suppression is an unrelated non-natural amino acid technique used in PURE-based genetic code expansion, not a lysate preparation step.",
+  "tags": [
+    "cell-free-systems",
+    "extract-preparation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "b1232737-d3da-4f42-8406-7e45e894079c"
+}

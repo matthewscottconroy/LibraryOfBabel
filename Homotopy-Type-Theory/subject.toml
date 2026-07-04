@@ -1,0 +1,201 @@
+title = 'HoTT Adaptive Quiz'
+chapters_dir = './chapters'
+system_prompt = """You are an expert quiz question generator for a graduate-level course on Homotopy Type Theory (HoTT). Topics include: dependent types, identity types and path induction, the univalence axiom, higher inductive types (circles, suspensions, pushouts), homotopy levels (contractible, propositions, sets), the Curry-Howard correspondence, synthetic homotopy theory, cubical type theory, simplicial type theory, modal HoTT, and formalisation in Lean 4 and Cubical Agda. Questions test genuine mathematical understanding. Every wrong answer must be plausible to a student with partial understanding."""
+
+[[chapters]]
+index = 0
+phase = 0
+name = 'Logic and Proof'
+file = 'ch00-logic-and-proof/00-introduction.md'
+
+[[chapters]]
+index = 1
+phase = 0
+name = 'Set Theory'
+file = 'ch01-set-theory/00-introduction.md'
+
+[[chapters]]
+index = 2
+phase = 0
+name = 'Abstract Algebra'
+file = 'ch02-abstract-algebra/00-introduction.md'
+
+[[chapters]]
+index = 3
+phase = 0
+name = 'Real Analysis'
+file = 'ch03-real-analysis/00-introduction.md'
+
+[[chapters]]
+index = 4
+phase = 1
+name = 'Proof Theory'
+file = 'ch04-proof-theory/00-introduction.md'
+
+[[chapters]]
+index = 5
+phase = 1
+name = 'Intuitionistic Logic'
+file = 'ch05-intuitionistic-logic/00-introduction.md'
+
+[[chapters]]
+index = 6
+phase = 1
+name = 'Curry-Howard'
+file = 'ch06-curry-howard/00-introduction.md'
+
+[[chapters]]
+index = 7
+phase = 1
+name = 'STLC and System F'
+file = 'ch07-stlc-system-f/00-introduction.md'
+
+[[chapters]]
+index = 8
+phase = 2
+name = 'Dependent Types'
+file = 'ch08-dependent-types/00-introduction.md'
+
+[[chapters]]
+index = 9
+phase = 2
+name = 'Martin-Löf Type Theory'
+file = 'ch09-mltt/00-introduction.md'
+
+[[chapters]]
+index = 10
+phase = 3
+name = 'Category Theory'
+file = 'ch10-category-theory/00-introduction.md'
+
+[[chapters]]
+index = 11
+phase = 3
+name = 'Categorical Logic'
+file = 'ch11-categorical-logic/00-introduction.md'
+
+[[chapters]]
+index = 12
+phase = 3
+name = 'Higher Categories'
+file = 'ch12-higher-categories/00-introduction.md'
+
+[[chapters]]
+index = 13
+phase = 4
+name = 'Topology'
+file = 'ch13-topology/00-introduction.md'
+
+[[chapters]]
+index = 14
+phase = 4
+name = 'Homotopy Theory'
+file = 'ch14-homotopy-theory/00-introduction.md'
+
+[[chapters]]
+index = 15
+phase = 4
+name = 'Simplicial Sets'
+file = 'ch15-simplicial-sets/00-introduction.md'
+
+[[chapters]]
+index = 16
+phase = 5
+name = 'Identity Types'
+file = 'ch16-identity-types/00-introduction.md'
+
+[[chapters]]
+index = 17
+phase = 5
+name = 'H-Levels and Truncations'
+file = 'ch17-h-levels/00-introduction.md'
+
+[[chapters]]
+index = 18
+phase = 5
+name = 'Univalence'
+file = 'ch18-univalence/00-introduction.md'
+
+[[chapters]]
+index = 19
+phase = 5
+name = 'Higher Inductive Types'
+file = 'ch19-higher-inductive-types/00-introduction.md'
+
+[[chapters]]
+index = 20
+phase = 5
+name = 'Synthetic Homotopy Theory'
+file = 'ch20-synthetic-homotopy/00-introduction.md'
+
+[[chapters]]
+index = 21
+phase = 6
+name = 'Lean 4 and Mathlib'
+file = 'ch21-lean4/00-introduction.md'
+
+[[chapters]]
+index = 22
+phase = 6
+name = 'Cubical Agda'
+file = 'ch22-cubical-agda/00-introduction.md'
+
+[[chapters]]
+index = 23
+phase = 7
+name = 'Cubical Type Theory'
+file = 'ch23-cubical-type-theory/00-introduction.md'
+
+[[chapters]]
+index = 24
+phase = 7
+name = 'Simplicial Type Theory'
+file = 'ch24-simplicial-type-theory/00-introduction.md'
+
+[[chapters]]
+index = 25
+phase = 7
+name = 'Modal HoTT'
+file = 'ch25-modal-hott/00-introduction.md'
+
+[[chapters]]
+index = 26
+phase = 8
+name = 'Research Frontiers'
+file = 'ch26-research-frontiers/00-introduction.md'
+
+[[phases]]
+index = 0
+name = 'Phase 0 — Mathematical Foundations'
+
+[[phases]]
+index = 1
+name = 'Phase 1 — Logic and Computation'
+
+[[phases]]
+index = 2
+name = 'Phase 2 — Dependent Types and MLTT'
+
+[[phases]]
+index = 3
+name = 'Phase 3 — Category Theory'
+
+[[phases]]
+index = 4
+name = 'Phase 4 — Topology and Homotopy Theory'
+
+[[phases]]
+index = 5
+name = 'Phase 5 — Core HoTT'
+
+[[phases]]
+index = 6
+name = 'Phase 6 — Proof Assistants'
+
+[[phases]]
+index = 7
+name = 'Phase 7 — Advanced Foundations'
+
+[[phases]]
+index = 8
+name = 'Phase 8 — Research Frontiers'

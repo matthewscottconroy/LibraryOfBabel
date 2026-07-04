@@ -1,0 +1,20 @@
+{
+  "question_id": "f08d29c4-ccb0-4d82-be88-b420eef109a9",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "tf",
+  "text": "For partial correctness, the Hoare triple {P} C {Q} holds if and only if P implies wp(C, Q).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: this is the defining link between Hoare logic and the weakest-precondition calculus. Since wp(C, Q) is the least restrictive precondition guaranteeing Q, any valid precondition P must imply it, turning verification into checking P ⇒ wp(C, Q).",
+  "tags": [
+    "weakest-precondition",
+    "hoare-logic",
+    "verification-condition"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

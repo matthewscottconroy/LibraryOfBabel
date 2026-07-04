@@ -1,0 +1,13 @@
+{
+  "question_id": "de5f3b45-cd3e-422a-ad34-02c727c19c0e",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Mackie refined the regularity theory by analyzing a cause as an Insufficient but Necessary part of an Unnecessary but Sufficient condition for its effect, a mouthful abbreviated as an ___ condition.",
+  "choices": ["INUS", "inus"],
+  "answer": "INUS",
+  "explanation": "The INUS condition captures the idea that real causes are typically non-redundant parts of larger sufficient complexes rather than individually necessary-and-sufficient conditions. It is a sophisticated development within the Humean regularity tradition, not a departure from it toward powers or necessitation.",
+  "tags": ["causation", "mackie", "inus", "regularity-theory"],
+  "difficulty": "beginner",
+  "generated": true
+}

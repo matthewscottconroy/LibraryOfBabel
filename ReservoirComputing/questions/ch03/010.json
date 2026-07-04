@@ -1,0 +1,20 @@
+{
+  "question_id": "9a27b303-bba8-4c4a-b557-701f22b20bb9",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The fixed-point theorem invoked to prove that a uniform contraction implies the ESP is the ___ fixed-point theorem.",
+  "choices": [
+    "Banach",
+    "banach"
+  ],
+  "answer": "Banach",
+  "explanation": "The proof uses the Banach (contraction mapping) fixed-point theorem: if the driven map is a gamma-contraction with gamma < 1 for every input, distances shrink like gamma^t, giving a unique attracting trajectory and hence the ESP.",
+  "tags": [
+    "esp",
+    "contraction",
+    "banach"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

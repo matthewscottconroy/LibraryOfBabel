@@ -1,0 +1,19 @@
+{
+  "question_id": "faf87d54-8309-4b85-bdbf-589a8a242db5",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Deflationists claim that the truth predicate is essentially ___: asserting that 'snow is white' is true says no more than asserting that snow is white, ascending from the sentence to its use and back.",
+  "choices": [
+    "disquotational"
+  ],
+  "answer": "disquotational",
+  "explanation": "Quine's slogan is that 'disquotation is the whole of the concept': the truth predicate serves for semantic ascent and descent and for blind endorsement ('everything Newton said is true'), not to ascribe a substantive property. This is the core commitment of disquotational deflationism.",
+  "tags": [
+    "disquotationalism",
+    "deflationism",
+    "quine"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

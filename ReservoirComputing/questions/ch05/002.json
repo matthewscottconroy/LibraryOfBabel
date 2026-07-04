@@ -1,0 +1,22 @@
+{
+  "question_id": "bea05ddd-37bb-469c-a01d-27f7fb108f7b",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the labs, the per-delay memory MC_k is computed as:",
+  "choices": [
+    "the mean squared error between u_{t-k} and the reservoir's reconstruction",
+    "the spectral radius raised to the power k",
+    "the squared correlation Cov(y_k, u)^2 / (Var(u) * Var(y_k)) between u_{t-k} and the trained reconstruction y_k",
+    "the fraction of neurons whose activation exactly equals u_{t-k}"
+  ],
+  "answer": 2,
+  "explanation": "MC_k is the squared correlation (coefficient of determination R^2) between the delayed input u_{t-k} and the reservoir's optimal linear reconstruction y_k: MC_k = Cov(y_k,u)^2 / (Var(u) Var(y_k)), which lies in [0,1]. It is a normalized correlation, not a raw MSE, not rho^k, and not a neuron count.",
+  "tags": [
+    "memory-capacity",
+    "mc-formula",
+    "r-squared"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

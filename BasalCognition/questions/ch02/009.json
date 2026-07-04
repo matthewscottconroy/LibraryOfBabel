@@ -1,0 +1,19 @@
+{
+  "question_id": "c7e0a3b8-9d4f-4a2c-9b8e-7f1d4a6c0b93",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The small signaling molecules that bacteria produce and release, which accumulate in the environment in proportion to cell density and are detected to trigger density-dependent gene expression, are collectively called ___.",
+  "choices": [
+    "autoinducers"
+  ],
+  "answer": "autoinducers",
+  "explanation": "The answer is 'autoinducers.' The name reflects that the signal induces its own production through positive feedback. Major classes include acyl-homoserine lactones (AHLs) in Gram-negative bacteria, autoinducing peptides (AIPs) in Gram-positives, and AI-2, produced by many species.",
+  "tags": [
+    "autoinducer",
+    "quorum-sensing",
+    "signaling"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

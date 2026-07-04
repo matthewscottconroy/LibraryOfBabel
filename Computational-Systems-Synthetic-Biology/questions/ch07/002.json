@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In bottom-up (shotgun) proteomics, which enzyme is standard for digesting proteins into peptides, cleaving after lysine (K) and arginine (R) residues?",
+  "choices": [
+    "Pepsin",
+    "Chymotrypsin",
+    "Trypsin",
+    "Proteinase K"
+  ],
+  "answer": 2,
+  "explanation": "Trypsin is the standard protease in shotgun proteomics, cleaving C-terminal to lysine and arginine to generate peptides in the 6-25 residue range that are ideal for MS/MS fragmentation and sequencing. Chymotrypsin instead cleaves after aromatic residues, while pepsin and proteinase K are broader-specificity proteases used in other, less standard contexts.",
+  "tags": [
+    "proteomics",
+    "shotgun-proteomics",
+    "trypsin"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "86f86f17-c8b2-49cb-9225-c3d4ffb0fa7c"
+}

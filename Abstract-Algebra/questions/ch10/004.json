@@ -1,0 +1,23 @@
+{
+  "question_id": "1a002f0f-a155-4e14-a10a-a8cbae8f8291",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which chain of implications between classes of integral domains is correct?",
+  "choices": [
+    "Euclidean domain ⇒ PID ⇒ UFD",
+    "UFD ⇒ PID ⇒ Euclidean domain",
+    "PID ⇒ Euclidean domain ⇒ UFD",
+    "Euclidean domain ⇒ UFD ⇒ PID"
+  ],
+  "answer": 0,
+  "explanation": "A Euclidean norm lets one generate any ideal by an element of minimal norm (so ED ⇒ PID), and in a PID the ascending chain and prime = irreducible arguments give unique factorization (PID ⇒ UFD). Neither implication reverses: ℤ[(1+√−19)/2] is a non-Euclidean PID, and ℤ[x] is a UFD but not a PID.",
+  "tags": [
+    "rings",
+    "pid",
+    "ufd",
+    "euclidean-domains"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

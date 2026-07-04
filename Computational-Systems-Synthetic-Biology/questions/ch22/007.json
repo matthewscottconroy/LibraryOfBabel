@@ -1,0 +1,20 @@
+{
+  "chapter": 22,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Vectorized NumPy operations are generally faster than explicit Python for-loops over large arrays because the vectorized operations broadcast and execute in compiled C code.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: the chapter contrasts a slow Python loop with a fast vectorized NumPy expression, noting explicitly that vectorized operations 'broadcast over array; run in C.' This is a core reason to avoid explicit loops over large arrays in numerical Python code.",
+  "tags": [
+    "scientific-computing",
+    "vectorization",
+    "numpy"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "0d42af40-7263-4eae-bb6a-70f7f1cd2c19"
+}

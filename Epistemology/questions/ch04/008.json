@@ -1,0 +1,13 @@
+{
+  "question_id": "b11ce2f3-8bcd-4090-a5fd-500633eab838",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "tf",
+  "text": "True or False: The Pyrrhonist, unlike the Academic skeptic, declines even to assert that knowledge is impossible, on the grounds that such an assertion would itself be a dogmatic claim.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "Pyrrhonism aims at epoché—suspension of judgment—and treats the flat claim 'knowledge is impossible' as itself a dogma, so it withholds even that. The negative-dogmatic thesis that knowledge (in the Stoic sense of infallible apprehension) is impossible is instead the hallmark of the Academic skeptics such as Arcesilaus and Carneades.",
+  "tags": ["pyrrhonism", "academic-skepticism", "epoche", "sextus-empiricus"],
+  "difficulty": "intermediate",
+  "generated": true
+}

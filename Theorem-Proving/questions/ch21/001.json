@@ -1,0 +1,22 @@
+{
+  "question_id": "7df63cfb-bc9b-4a89-86f1-fb89374c2052",
+  "chapter": 21,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Quine's criterion of ontological commitment is captured by the slogan:",
+  "choices": [
+    "To be is to be perceived",
+    "To be is to be the value of a bound variable",
+    "Existence is a perfection",
+    "Whatever is conceivable is possible"
+  ],
+  "answer": 1,
+  "explanation": "Quine's criterion is 'to be is to be the value of a bound variable': a regimented theory is committed to whatever must lie in the range of its quantifiers for its sentences to be true. Option A is Berkeley's idealism, C a premise of the ontological argument, and D a modal principle — none is Quine's criterion.",
+  "tags": [
+    "quine",
+    "ontological-commitment",
+    "quantification"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

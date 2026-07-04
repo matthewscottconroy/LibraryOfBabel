@@ -1,0 +1,19 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "___ entropy, defined as H(X) = -Sum p(x) log p(x), quantifies the uncertainty of a random variable in information theory.",
+  "choices": [
+    "Shannon"
+  ],
+  "answer": "Shannon",
+  "explanation": "Shannon entropy is the foundational information-theoretic measure of uncertainty in a random variable's distribution, and it underlies related quantities such as mutual information and Kullback-Leibler divergence used throughout computational biology. It is distinct from thermodynamic entropy, though the two concepts share mathematical form and historical inspiration.",
+  "tags": [
+    "information-theory",
+    "entropy",
+    "shannon"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "cb3ac716-3f5e-47e1-96d5-81480b16b233"
+}

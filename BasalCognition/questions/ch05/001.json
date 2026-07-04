@@ -1,0 +1,18 @@
+{
+  "question_id": "5d0a3c78-2e9b-4f61-8a47-6c1e0b3d9f25",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which statement correctly describes fungal body organization?",
+  "choices": [
+    "The mushroom is the whole organism, and the underground threads are a separate, unrelated growth",
+    "Hyphae grow uniformly along their entire length, inflating like balloons",
+    "The mycelium is the network of thread-like hyphae, which extend by growth at their tips",
+    "Fungi are built from motile single cells that swim freely through the soil"
+  ],
+  "answer": 2,
+  "explanation": "The fungal body is the mycelium, a branching network of tubular hyphae that grow exclusively at their tips (guided by the Spitzenkorper vesicle cluster); the mushroom is merely the reproductive fruiting body. Hyphae do not elongate along their whole length (choice 1) and are not motile swimming cells (choice 3).",
+  "tags": ["fungal-biology", "mycelium", "hypha"],
+  "difficulty": "beginner",
+  "generated": true
+}

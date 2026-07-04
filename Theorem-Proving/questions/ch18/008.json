@@ -1,0 +1,21 @@
+{
+  "question_id": "10b01e47-2cec-4634-9853-4583422fab7d",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "tf",
+  "text": "The converse of Lagrange's theorem holds in every finite group: if d divides |G|, then G has a subgroup of order d.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Lagrange guarantees only that a subgroup's order divides |G|, not the converse: A₄ has order 12 yet has no subgroup of order 6. So a divisor of |G| need not be realized as the order of a subgroup.",
+  "tags": [
+    "lagrange",
+    "converse",
+    "a4",
+    "subgroups"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

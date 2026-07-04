@@ -1,0 +1,22 @@
+{
+  "question_id": "c0769604-43c7-4856-85e3-a5f520083ca6",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a discrete-time map x_{t+1} = f(x_t), what defines a fixed point x*?",
+  "choices": [
+    "A state x* where the trajectory moves fastest",
+    "A state x* where the Jacobian Df(x*) equals the identity matrix",
+    "A state x* satisfying f(x*) = x*, so it is unchanged under the map",
+    "A state x* satisfying f(x*) = 0, so the vector field vanishes"
+  ],
+  "answer": 2,
+  "explanation": "For a discrete-time map a fixed point satisfies f(x*) = x* - the state maps to itself. f(x*) = 0 (option 3) is the continuous-time equilibrium condition, not the map condition; the Jacobian-identity and 'fastest' options are unrelated.",
+  "tags": [
+    "fixed-point",
+    "discrete-time-map",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

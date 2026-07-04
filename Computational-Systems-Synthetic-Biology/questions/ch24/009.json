@@ -1,0 +1,19 @@
+{
+  "chapter": 24,
+  "phase": 4,
+  "kind": "blank",
+  "text": "___ sampling, combined with WHAM (the weighted histogram analysis method), reconstructs a potential of mean force by applying harmonic restraints at multiple positions along a reaction coordinate and combining the overlapping window distributions.",
+  "choices": [
+    "Umbrella"
+  ],
+  "answer": "Umbrella",
+  "explanation": "Umbrella sampling applies biasing harmonic restraints across a series of windows along a reaction coordinate; WHAM (or MBAR) then combines the overlapping sampled distributions into a single potential of mean force, used in applications such as ion channel permeation or membrane insertion studies.",
+  "tags": [
+    "molecular-dynamics",
+    "enhanced-sampling",
+    "umbrella-sampling"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "0728f308-f1fa-472a-8096-72117fb4bf83"
+}

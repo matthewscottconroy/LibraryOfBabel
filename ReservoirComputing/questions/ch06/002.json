@@ -1,0 +1,22 @@
+{
+  "question_id": "9c6bf2ac-c68a-4eab-9c9c-848283cfeefa",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the lab's NARMA-10 generator, from which distribution is the driving input u(t) drawn?",
+  "choices": [
+    "Uniform on [0, 0.5]",
+    "Uniform on [-1, 1]",
+    "Gaussian with mean 0 and variance 1",
+    "Uniform on [0, 1]"
+  ],
+  "answer": 0,
+  "explanation": "benchmarks.py uses rng.uniform(0.0, 0.5, total) and Appendix E.1 states u(t) ~ U[0, 0.5]. The other ranges are used for other RC tasks (e.g. memory-capacity inputs) but not for NARMA-10.",
+  "tags": [
+    "narma10",
+    "input",
+    "benchmarks"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

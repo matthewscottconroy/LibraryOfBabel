@@ -1,0 +1,18 @@
+{
+  "question_id": "dc49df63-ba16-4f59-b545-71fe4e325c94",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The ___ theorem states that a nonempty compact limit set of a planar flow that contains no equilibrium points must be a periodic orbit.",
+  "choices": [
+    "Poincare-Bendixson"
+  ],
+  "answer": "Poincare-Bendixson",
+  "explanation": "In the plane, the Poincare-Bendixson theorem forces a bounded, equilibrium-free limit set to be a closed orbit, which is why sustained chaos is impossible for two-dimensional autonomous flows. It is the standard tool for proving that limit cycles exist.",
+  "tags": [
+    "poincare-bendixson",
+    "limit-cycles"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

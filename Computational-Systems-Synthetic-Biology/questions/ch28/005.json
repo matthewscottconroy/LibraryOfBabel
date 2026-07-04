@@ -1,0 +1,22 @@
+{
+  "chapter": 28,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In rigorous experimental design, what is the distinction between randomization and blinding?",
+  "choices": [
+    "Randomization assigns subjects/samples to groups to prevent systematic bias; blinding keeps the analyst unaware of group assignment during analysis to prevent unconscious bias",
+    "Randomization and blinding are two names for the same practice: hiding treatment identity from the experimenter",
+    "Randomization requires a vehicle control; blinding requires an isogenic control",
+    "Randomization applies only to computational papers; blinding applies only to wet-lab experiments"
+  ],
+  "answer": 0,
+  "explanation": "Randomization prevents systematic bias in how subjects or samples are allocated to treatment groups, while blinding (ideally double-blind, or at least a blinded analysis when full double-blind is impractical) prevents the analyst's expectations from unconsciously influencing measurement or interpretation -- the two address different sources of bias at different stages. They are not the same practice, are not restricted to computational or wet-lab work specifically, and neither requires a specific control type such as vehicle or isogenic controls.",
+  "tags": [
+    "randomization",
+    "blinding",
+    "experimental-design"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "bb232b82-8b14-4484-98b0-7e588b3235e3"
+}

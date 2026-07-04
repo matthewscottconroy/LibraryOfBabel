@@ -1,0 +1,13 @@
+{
+  "question_id": "80a55751-d1c5-4b9c-9649-d6b931bbb77d",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a plane electromagnetic wave propagating in free space, how are the electric field E, magnetic field B, and wavevector k oriented relative to one another?",
+  "choices": ["E is parallel to k, and B is perpendicular to both", "E and B are parallel to each other and both perpendicular to k", "B is parallel to k, and E oscillates along k", "E, B, and k are mutually perpendicular and form a right-handed set"],
+  "answer": 3,
+  "explanation": "Gauss's law forces k·E₀ = 0 (transversality) and Faraday's law gives B = (k/ω)×E, so E, B, and k are mutually perpendicular and right-handed. A field component along k would violate transversality, and E and B are perpendicular to each other, not parallel.",
+  "tags": ["plane-waves", "transversality", "polarization"],
+  "difficulty": "beginner",
+  "generated": true
+}

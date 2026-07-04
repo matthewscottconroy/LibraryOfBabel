@@ -1,0 +1,23 @@
+{
+  "question_id": "6eac9b01-2666-44d4-a2fc-3ab653232dae",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Unique Readability Theorem guarantees that every well-formed formula:",
+  "choices": [
+    "is either a tautology or a contradiction",
+    "has exactly one parse tree, so its meaning is a determinate function of its syntax",
+    "can be proved from the axioms of the system",
+    "is true in at least one interpretation"
+  ],
+  "answer": 1,
+  "explanation": "Unique readability says each wff has a single parse tree (a unique main connective), so semantics is a well-defined function of syntax. It says nothing about a formula being a tautology/contradiction (option 1), being provable (option 3), or being satisfiable (option 4).",
+  "tags": [
+    "unique-readability",
+    "syntax",
+    "semantics",
+    "wff"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

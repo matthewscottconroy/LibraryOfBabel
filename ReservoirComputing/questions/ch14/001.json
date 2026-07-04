@@ -1,0 +1,22 @@
+{
+  "question_id": "5907c756-d1a5-4eaa-b52d-665e560a00d6",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In physical reservoir computing, which part of the system is trained?",
+  "choices": [
+    "The internal couplings of the physical substrate are optimized by gradient descent",
+    "Both the physical dynamics and the readout are trained jointly",
+    "Only the linear readout is trained (in software); the physical system's own dynamics are left untrained",
+    "Nothing is trained; the output is read directly off the physical system"
+  ],
+  "answer": 2,
+  "explanation": "Physical RC exploits a physical system's intrinsic nonlinear dynamics as the fixed reservoir and trains only a linear readout in software (typically by ridge regression on sampled states). The substrate itself is not optimized (options 0, 1), and a readout must still be fit — the output is not simply the raw physical state (option 3).",
+  "tags": [
+    "physical-rc",
+    "readout",
+    "training"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

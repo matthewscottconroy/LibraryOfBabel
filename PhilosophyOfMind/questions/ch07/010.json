@@ -1,0 +1,21 @@
+{
+  "question_id": "fcb8d18d-d103-42a6-b835-019bd7c0cb15",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Benjamin Libet himself concluded from his experiments that free will is an illusion and that conscious will is entirely epiphenomenal.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: Libet himself did not draw that conclusion - he proposed that conscious will could still 'veto' ('free won't') an action already initiated unconsciously. The stronger epiphenomenalist reading is associated with Daniel Wegner (The Illusion of Conscious Will, 2002), not with Libet.",
+  "tags": [
+    "libet",
+    "free-will",
+    "veto",
+    "wegner"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

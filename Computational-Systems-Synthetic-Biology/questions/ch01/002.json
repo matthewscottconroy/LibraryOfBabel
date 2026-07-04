@@ -1,0 +1,22 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A competitive enzyme inhibitor binds the active site and can be outcompeted by raising the substrate concentration. What is its characteristic effect on the apparent Km and Vmax of the reaction?",
+  "choices": [
+    "Decreases apparent Km; Vmax unchanged",
+    "Increases apparent Km; Vmax unchanged",
+    "Decreases both apparent Km and Vmax",
+    "Decreases Vmax; Km may increase, decrease, or stay the same"
+  ],
+  "answer": 1,
+  "explanation": "Competitive inhibition raises the apparent Km (more substrate is needed to reach half-maximal velocity) while leaving Vmax unchanged, because sufficiently high substrate concentration can outcompete the inhibitor for the active site. Uncompetitive inhibition (binding only the ES complex) decreases both apparent Km and Vmax, and noncompetitive/mixed inhibition decreases Vmax with Km effects that depend on the specific type -- neither matches the competitive pattern.",
+  "tags": [
+    "enzyme-kinetics",
+    "competitive-inhibition",
+    "michaelis-menten"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "ca210443-6ac6-4dd6-b5ff-b589ab876336"
+}

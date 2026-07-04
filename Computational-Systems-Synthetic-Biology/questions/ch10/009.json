@@ -1,0 +1,18 @@
+{
+  "chapter": 10,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The ___ algorithm is an exact stochastic simulation method that draws the time to the next reaction from an exponential distribution and selects which reaction fires with probability proportional to its propensity.",
+  "choices": [
+    "Gillespie"
+  ],
+  "answer": "Gillespie",
+  "explanation": "The Gillespie algorithm (SSA) exactly simulates the chemical master equation by sampling the waiting time to the next reaction as Exponential(a₀) and then choosing which reaction fires with probability a_j/a₀. It is exact, unlike the faster but approximate tau-leaping method, because it resolves every single reaction event.",
+  "tags": [
+    "gillespie-algorithm",
+    "stochastic-simulation"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "d2f74c4c-b3a0-4144-89b8-36ba698576f0"
+}

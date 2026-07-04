@@ -1,0 +1,23 @@
+{
+  "question_id": "17a759d6-a710-40d9-827d-965775cf2d1e",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Kant's 'Copernican revolution' in philosophy consists in the claim that:",
+  "choices": [
+    "Objects of experience must conform to the mind's a priori forms of intuition and categories, rather than the mind simply conforming to objects",
+    "The mind passively mirrors a fully mind-independent reality",
+    "All our ideas are faint copies of prior sense impressions",
+    "The self is nothing but a bundle of perceptions with no unifying subject"
+  ],
+  "answer": 0,
+  "explanation": "Kant reversed the assumption that knowledge must conform to pre-given objects: instead, objects of experience must conform to the mind's own a priori structures (space, time, and the categories). Option 1 is the pre-Kantian 'passive mirror' picture he rejected; option 2 is Hume's empiricism and option 3 is Hume's bundle theory — the very positions the Critique was answering.",
+  "tags": [
+    "kant",
+    "copernican-revolution",
+    "categories",
+    "a-priori"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

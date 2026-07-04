@@ -1,0 +1,19 @@
+{
+  "question_id": "213965b9-be1c-4e20-a734-0c27c023701b",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The union of two subgroups of a group is always a subgroup.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "2ℤ ∪ 3ℤ is not closed: 2 + 3 = 5 lies in neither. In fact H ∪ K is a subgroup only when one of H, K contains the other; the right way to combine subgroups is the generated subgroup ⟨H ∪ K⟩.",
+  "tags": [
+    "groups",
+    "subgroups"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

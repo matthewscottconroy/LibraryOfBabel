@@ -1,0 +1,22 @@
+{
+  "question_id": "e417ab87-5894-4a47-a314-06a834d2ac36",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In plural first-order logic, how is the atomic formula x ≺ xx read?",
+  "choices": [
+    "x is a subset of xx",
+    "x is a member of the set xx",
+    "x is one of the xx",
+    "x is identical to xx"
+  ],
+  "answer": 2,
+  "explanation": "x ≺ xx is read 'x is one of the xx,' relating a single individual to some individuals taken plurally. It is not set membership (∈) — xx is not a set, so 'subset' and 'member of the set' both wrongly reify a set — and it is not identity, since x is just one object among the several xx.",
+  "tags": [
+    "plural-logic",
+    "is-one-of",
+    "notation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

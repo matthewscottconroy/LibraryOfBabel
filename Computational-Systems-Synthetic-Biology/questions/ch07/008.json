@@ -1,0 +1,20 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Target-decoy database searching in proteomics estimates the false discovery rate by matching spectra against a database of known contaminant proteins such as keratin.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Target-decoy searching estimates FDR by searching against a reversed or randomized version of the target protein database, using decoy hits as an estimate of the false match rate, not against a contaminant database. Filtering out contaminants like keratin is a separate quality-control step, distinct from FDR estimation, and is more analogous to CRAPome-style filtering used in interaction proteomics.",
+  "tags": [
+    "proteomics",
+    "fdr",
+    "database-searching"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "128b1dd8-f76c-4329-a9e1-f479559be4b6"
+}

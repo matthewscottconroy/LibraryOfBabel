@@ -411,6 +411,24 @@ The most active areas of formalization research using Cubical Agda (as of 2025):
 
 The field is young. Many of the computations in classical algebraic topology that are still out of reach for synthetic proof assistants will be within reach in the next 5-10 years, as the tools mature and the libraries grow.
 
+## Projects in Cubical Agda
+
+The following projects form a ladder from guided study to original research:
+
+**Project 1 (Foundational, 1 month):** Work through the Cubical Agda library systematically. Reproduce the key results:
+- `π₁(S¹) = ℤ` (the main computation)
+- Function extensionality from the path definition
+- The Mayer-Vietoris sequence for pushouts
+
+**Project 2 (Intermediate, 2-3 months):** Contribute to the Cubical Agda library:
+- Formalize a theorem from the HoTT Book not yet in the library
+- Examples: the Seifert-van Kampen theorem, a specific case of Blakers-Massey, or properties of Eilenberg-MacLane spaces
+
+**Project 3 (Advanced, 3+ months):** Formalize a new result in synthetic homotopy theory:
+- A new homotopy group computation
+- A connectivity result for a new class of HITs
+- The Freudenthal suspension theorem (if not yet in the library)
+
 ## Summary
 
 Cubical Agda provides:

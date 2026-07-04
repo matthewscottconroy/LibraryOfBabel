@@ -1,0 +1,13 @@
+{
+  "question_id": "0451f499-573e-4271-9fe5-6e73d6ea889b",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In modern AI/GPU systems, the classic 'memory wall' has evolved into what problem?",
+  "choices": ["Transistors have become too slow to switch", "The interconnect bottleneck: compute throughput vastly exceeds the bandwidth available to move data between chips and to memory", "Lasers have become too expensive to manufacture", "Software cannot use more than a single core"],
+  "answer": 1,
+  "explanation": "The bottleneck is now moving data, not computing: a GPU may have ~10^15 FLOP/s of compute but far less bandwidth to feed it, so hardware sits idle waiting for data. Transistor speed, laser cost, and single-threaded software are not the defining wall described here.",
+  "tags": ["interconnect-bottleneck", "memory-wall", "ai-systems"],
+  "difficulty": "beginner",
+  "generated": true
+}

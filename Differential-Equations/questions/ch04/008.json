@@ -1,0 +1,18 @@
+{
+  "question_id": "ee4303e0-d1cf-4cc6-9098-bbbe366da8c8",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The ___ theorem states that the Fourier transform of a convolution f * g is the pointwise product of the individual transforms.",
+  "choices": [
+    "convolution"
+  ],
+  "answer": "convolution",
+  "explanation": "The convolution theorem converts the convolution integral into a simple product in frequency space, which is the basis of fast filtering via the FFT. Dually, the transform of a product is the convolution of the transforms.",
+  "tags": [
+    "convolution-theorem",
+    "fourier-transform"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

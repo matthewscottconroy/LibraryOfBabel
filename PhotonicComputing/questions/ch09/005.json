@@ -1,0 +1,13 @@
+{
+  "question_id": "97364d52-7ec7-4a22-bf81-b102022a23cc",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Optical circuit switching (OCS) is attractive for AI data-center networks. Which statement about it is correct?",
+  "choices": ["OCS can buffer photons indefinitely, unlike electronic switches", "OCS reconfigures in nanoseconds, faster than any electronic switch", "OCS is best for short, unpredictable web flows", "OCS routes long-lived 'elephant' flows without OEO conversion at each hop, saving ~10x power, but it cannot buffer photons"],
+  "answer": 3,
+  "explanation": "OCS carries long-lived flows optically end-to-end, avoiding per-hop optical-electrical-optical conversion and saving ~10x switching power, but it fundamentally cannot buffer photons and so needs schedulable traffic. MEMS OCS reconfigures in 5-25 ms (not nanoseconds) and suits predictable elephant flows rather than bursty web traffic.",
+  "tags": ["optical-circuit-switching", "elephant-flows", "data-center"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "89ba54f7-7df7-4e56-a079-95493e42de07",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "According to this book, the lowest (leading) multipole moment whose time variation radiates gravitational waves is the:",
+  "choices": [
+    "monopole",
+    "dipole",
+    "quadrupole",
+    "octupole"
+  ],
+  "answer": 2,
+  "explanation": "The book states there is no monopole radiation (mass conservation) and no dipole radiation (momentum conservation), so the first non-vanishing contribution is the mass quadrupole moment Qⁱʲ. This contrasts with electromagnetism, where accelerating charges give leading dipole radiation. Octupole terms exist but are higher-order and subdominant.",
+  "tags": [
+    "quadrupole",
+    "radiation",
+    "multipole"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

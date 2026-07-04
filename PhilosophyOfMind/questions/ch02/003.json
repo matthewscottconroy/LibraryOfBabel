@@ -1,0 +1,23 @@
+{
+  "question_id": "ff7e2bf3-7eef-48d4-8222-f44a9626a5de",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Frank Jackson's knowledge argument, Mary knows every physical fact about colour vision but has only ever seen black and white. The argument's key claim is that when she first sees red:",
+  "choices": [
+    "She learns nothing new, since she already knew all the facts",
+    "She merely acquires new abilities (to recognize, imagine) but no new propositional knowledge",
+    "She discovers that colour qualia were an illusion all along",
+    "She learns something new — what it is like to see red — implying the complete physical story omitted a fact"
+  ],
+  "answer": 3,
+  "explanation": "Jackson's intuition is that Mary gains new knowledge (what seeing red is like) that was not among the complete physical facts, so physicalism is false. Option 1 is the rival Ability Hypothesis (Lewis/Nemirow) reply; option 0 denies the intuition the argument rests on; option 2 is an illusionist response. The argument's own conclusion is that a phenomenal fact was left out.",
+  "tags": [
+    "knowledge-argument",
+    "mary",
+    "jackson",
+    "qualia"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

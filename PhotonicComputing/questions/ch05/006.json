@@ -1,0 +1,13 @@
+{
+  "question_id": "0da29684-b042-4d51-8244-e38c0a034c39",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Butt-coupling light from a standard single-mode fiber directly into a 450x220 nm silicon waveguide (no mode converter) is catastrophic because of mode-size mismatch. Approximately what is this direct-coupling loss, and what is the standard fix?",
+  "choices": ["~1 dB; no fix is needed", "~3 dB; simply increase the laser power", "~0.18 dB; use a longer fiber", "~22 dB; use an inverse taper (~1-2 dB) or a grating coupler (~0.5-1.5 dB)"],
+  "answer": 3,
+  "explanation": "The ~10 um fiber mode overlaps very poorly with the sub-micron silicon mode, giving about 22 dB loss; inverse tapers (spot-size converters) or grating couplers restore this to 1-2 dB or 0.5-1.5 dB. Raising laser power does not recover coupling efficiency, a longer fiber is irrelevant, and 1 dB or 0.18 dB grossly understate the mismatch penalty.",
+  "tags": ["fiber-chip-coupling", "grating-coupler", "inverse-taper"],
+  "difficulty": "advanced",
+  "generated": true
+}

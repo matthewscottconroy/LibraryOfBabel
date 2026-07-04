@@ -1,0 +1,20 @@
+{
+  "question_id": "045b9c13-82d5-430f-bc5e-5c7e9f72fb33",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Unlike a spatial distance or a time interval taken separately, the quantity Δs² = −c²Δt² + Δx² + Δy² + Δz² has the same value for every inertial observer; it is called the spacetime ___.",
+  "choices": [
+    "interval"
+  ],
+  "answer": "interval",
+  "explanation": "The expected term is 'interval'. The spacetime interval is the invariant of Minkowski spacetime: all inertial observers compute the same value even though they disagree about elapsed time and distance individually. Its sign classifies event pairs as timelike, lightlike, or spacelike, giving a frame-independent causal structure.",
+  "tags": [
+    "minkowski-spacetime",
+    "spacetime-interval",
+    "invariant",
+    "special-relativity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

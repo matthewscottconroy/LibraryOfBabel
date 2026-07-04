@@ -1,0 +1,18 @@
+{
+  "question_id": "75ed2676-ea04-4232-95a6-d60ce1bd0c60",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "According to Miranda Fricker, testimonial injustice occurs when:",
+  "choices": [
+    "a gap in the shared interpretive resources of a community prevents a speaker from making sense of their own social experience.",
+    "a speaker deliberately truncates or softens their own testimony because they anticipate that the audience will be unreceptive or hostile.",
+    "a hearer gives a speaker a deflated credibility judgment owing to an identity prejudice about the speaker's social group.",
+    "a group whose members already possess the relevant concepts is systematically barred from contributing them to shared understanding."
+  ],
+  "answer": 2,
+  "explanation": "Testimonial injustice is a credibility deficit that tracks identity prejudice: the hearer credits the speaker less than the evidence warrants because of prejudice about their race, gender, class, and so on. Option 0 describes hermeneutical injustice; option 1 is Dotson's testimonial smothering; option 3 is Dotson's contributory injustice. Only option 2 captures Fricker's testimonial injustice.",
+  "tags": ["epistemic-injustice", "testimonial-injustice", "fricker", "credibility-deficit"],
+  "difficulty": "beginner",
+  "generated": true
+}

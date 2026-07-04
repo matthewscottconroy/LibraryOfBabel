@@ -1,0 +1,13 @@
+{
+  "question_id": "df42ca9b-f3ca-4b62-85ab-04cc8dc4dc75",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "tf",
+  "text": "If a spectral sequence converges to $H^n$, then it determines $H^n$ completely, including how the graded pieces $E_\\infty^{p,q}$ assemble into $H^n$.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False: convergence recovers only the associated graded pieces $E_\\infty^{p,q}\\cong F^pH^{p+q}/F^{p+1}H^{p+q}$. Reassembling those pieces into $H^n$ is a separate, possibly nontrivial extension problem that the spectral sequence does not resolve on its own.",
+  "tags": ["spectral-sequences", "convergence", "extension-problem"],
+  "difficulty": "intermediate",
+  "generated": true
+}

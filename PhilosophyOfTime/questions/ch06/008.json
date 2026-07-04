@@ -1,0 +1,13 @@
+{
+  "question_id": "5ebaab7c-85d6-438e-b6d5-c792bc49f4e3",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Inside the event horizon of a Schwarzschild black hole, the radial coordinate r effectively becomes timelike, so that reaching the singularity at r = 0 is as unavoidable for an infalling observer as moving forward into the future.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Inside the Schwarzschild radius the roles of the t and r coordinates swap: r becomes timelike and future-directed, so the singularity at r = 0 lies in the observer's future rather than at an avoidable spatial location. The book stresses this is a precise geometrical statement, not a metaphor, illustrating that the spatial versus temporal character of a direction is a local feature of the geometry.",
+  "tags": ["black-holes", "event-horizon", "schwarzschild", "singularity", "general-relativity"],
+  "difficulty": "intermediate",
+  "generated": true
+}

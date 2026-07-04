@@ -1,0 +1,18 @@
+{
+  "question_id": "85ae0238-1ee5-41aa-8be6-81f644da446e",
+  "chapter": 27,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In a shot-noise-limited analog optical operation, gaining one additional bit of precision requires roughly:",
+  "choices": [
+    "Doubling the photon (energy) budget",
+    "Quadrupling the photon (energy) budget",
+    "No change in the photon budget",
+    "A ten-fold increase in operating wavelength"
+  ],
+  "answer": 1,
+  "explanation": "Because SNR scales with detected photon number and the required photon count is about 4 to the power B, each additional bit quadruples the photon (and hence energy) budget, so moving from 4 to 8 bits costs roughly 256 times more light. Doubling understates the exponential cost, while no-change and a wavelength scaling are simply wrong.",
+  "tags": ["precision-energy-tradeoff", "shot-noise", "shannon"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "745c90d1-aa63-45af-a268-e4641529369c",
+  "chapter": 27,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The mature design answer to 'will optics replace electronics?' is not a monolithic photonic computer but ___ integration: a division of labor in which electronics does dense logic and memory, photonics does interconnect and a few linear kernels, and each medium is assigned the task it does best.",
+  "choices": [
+    "heterogeneous"
+  ],
+  "answer": "heterogeneous",
+  "explanation": "The mature answer is heterogeneous integration: electronics for dense logic, memory, and nonlinearity, photonics for interconnect and a few specific linear kernels, quantum photonics for networking and I/O, all co-integrated on shared substrates rather than a monolithic photonic computer.",
+  "tags": [
+    "heterogeneous-integration",
+    "post-silicon",
+    "division-of-labor"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

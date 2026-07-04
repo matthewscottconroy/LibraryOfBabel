@@ -1,0 +1,13 @@
+{
+  "question_id": "62f9f706-a880-4384-a0e2-a22b12b16d47",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the ray-optic model of a silicon (n = 3.48) core / silicon-dioxide (n = 1.44) cladding waveguide, total internal reflection guides light only when the ray's angle of incidence at the core-cladding interface (measured from the surface normal) exceeds the critical angle. What is this critical angle?",
+  "choices": ["90 degrees", "65.5 degrees", "24.5 degrees", "44 degrees"],
+  "answer": 2,
+  "explanation": "The critical angle is theta_c = arcsin(n2/n1) = arcsin(1.44/3.48) = 24.5 degrees. 44 degrees is the critical angle for a silica-to-air interface (arcsin(1/1.44)), a common mix-up; 65.5 degrees is the complement, i.e. the ray angle measured from the interface rather than the normal; 90 degrees would imply no guidance at all.",
+  "tags": ["total-internal-reflection", "critical-angle", "waveguides"],
+  "difficulty": "beginner",
+  "generated": true
+}

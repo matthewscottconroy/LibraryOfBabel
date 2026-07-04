@@ -1,0 +1,20 @@
+{
+  "chapter": 12,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The repressilator is built from three repressor genes connected in a ring, with each gene repressing the next one in the cycle.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: the repressilator (Elowitz & Leibler, 2000) consists of three transcriptional repressors arranged in a cyclic ring topology, where each represses the next gene in the sequence, creating a delayed negative feedback loop capable of sustained oscillation. This ring architecture -- rather than a single autoregulatory gene or a two-gene mutual-repression switch -- is what distinguishes an oscillator from a bistable toggle switch.",
+  "tags": [
+    "repressilator",
+    "oscillators",
+    "network-topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "82cde874-3642-4b41-88c0-b23ede271f6e"
+}

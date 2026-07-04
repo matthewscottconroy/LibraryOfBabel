@@ -1,0 +1,13 @@
+{
+  "question_id": "d36dcd64-0199-41e4-a455-b1bda08b7733",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Germanium is integrated into the silicon photonics platform mainly to provide efficient photodetection at 1550 nm, because silicon itself is transparent (non-absorbing) at that wavelength.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Silicon's transparency at 1550 nm, the very property that makes it a good waveguide, means it cannot detect that light, so epitaxial germanium is added for photodetection. This extra epitaxial step is one of silicon photonics' engineering costs.",
+  "tags": ["germanium", "photodetector", "silicon-photonics"],
+  "difficulty": "beginner",
+  "generated": true
+}

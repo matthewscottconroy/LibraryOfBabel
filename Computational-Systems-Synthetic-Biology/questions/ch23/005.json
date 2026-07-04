@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 4,
+  "kind": "mc",
+  "text": "According to the chapter's discussion of data leakage, what is the most common and serious methodological pitfall in evaluating biological machine learning models?",
+  "choices": [
+    "Using a naive random train/test split so that homologous sequences end up in both sets, inflating measured performance",
+    "Using too many cross-validation folds",
+    "Applying SHAP values to explain a tree-based model",
+    "Using stratified k-fold cross-validation to preserve class balance"
+  ],
+  "answer": 0,
+  "explanation": "Data leakage most commonly arises when a naive random split places homologous sequences in both training and test sets, artificially inflating performance; the recommended fix is splitting by protein family, species, or sequence cluster. Using many CV folds and stratified k-fold CV are legitimate, recommended practices rather than pitfalls, and SHAP is a valid interpretability tool, not a source of leakage.",
+  "tags": [
+    "machine-learning",
+    "data-leakage",
+    "cross-validation"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "45cd9f6f-5954-4184-9ceb-6591eac4e51f"
+}

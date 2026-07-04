@@ -1,0 +1,22 @@
+{
+  "question_id": "cf36b2e2-3afa-40fb-9ae6-bc4983ea6865",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Reasoning from the correlation between my own behavior and my own mental states to the conclusion that similar behavior in others is accompanied by similar mental states is the classical response to the other-minds problem known as:",
+  "choices": [
+    "The argument from analogy",
+    "The private language argument",
+    "Simulation theory",
+    "The false-belief task"
+  ],
+  "answer": 0,
+  "explanation": "This is the argument from analogy, given its classic formulation by J. S. Mill. The private language argument is Wittgenstein's challenge to that picture; simulation theory is an account of the mindreading mechanism; and the false-belief task is an experimental test of theory of mind, not the epistemological response.",
+  "tags": [
+    "argument-from-analogy",
+    "mill",
+    "other-minds"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

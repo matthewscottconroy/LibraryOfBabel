@@ -1,0 +1,13 @@
+{
+  "question_id": "b6d9f2a7-8c3e-4f1b-8a7d-6e0c3f5b9a82",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The minimum biofilm eradication concentration (MBEC) of an antibiotic is typically much higher (often 10 to 1000 times) than the minimum inhibitory concentration (MIC) for the same bacteria grown planktonically.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Killing bacteria embedded in a biofilm requires far higher antibiotic concentrations than killing planktonic cells, because of matrix barriers, metabolic dormancy, and metabolic heterogeneity. This MIC/MBEC gap is a central reason biofilm infections fail treatment at doses effective against planktonic infections.",
+  "tags": ["mbec", "antibiotic-tolerance", "biofilm"],
+  "difficulty": "intermediate",
+  "generated": true
+}

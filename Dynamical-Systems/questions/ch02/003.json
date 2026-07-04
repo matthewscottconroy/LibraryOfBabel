@@ -1,0 +1,21 @@
+{
+  "question_id": "08d04a53-b451-4ec8-a081-25a9d507260a",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A positive largest Lyapunov exponent is the quantitative signature of:",
+  "choices": [
+    "stability",
+    "integrability",
+    "periodicity",
+    "chaos"
+  ],
+  "answer": 3,
+  "explanation": "Exponential divergence of nearby orbits (positive exponent) is the hallmark of chaos. Stable, integrable, or periodic motion has non-positive largest exponent.",
+  "tags": [
+    "lyapunov-exponents",
+    "chaos"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

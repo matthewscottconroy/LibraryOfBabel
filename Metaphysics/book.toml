@@ -1,0 +1,19 @@
+# Build manifest for the Metaphysics textbook.
+# Thirteen NN_* domain directories recurse into NN_Topic/NN_Subtopic/... .
+# Unlike the old build_pdf.py (which only matched ^\d{2}_.*\.md and so dropped
+# the surveys and argument maps), this captures 00-domain-survey.md,
+# 00_introduction.md and ARGUMENT-MAPS.md in every domain.  INDEX.md closes it.
+title = "Metaphysics"
+subtitle = "A Systematic Introduction from Ontology to Metametaphysics"
+
+back_matter = [
+    "INDEX.md",
+]
+exclude = [
+    "README.md",
+]
+
+[[sources]]
+root = "."
+recursive = true
+part_level = 1   # 01_Ontology .. 13_Philosophy_of_Religion become \part

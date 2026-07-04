@@ -1,0 +1,22 @@
+{
+  "question_id": "1a345f42-85d4-4c66-bae3-9ec4e5fb691f",
+  "chapter": 17,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In Tarski's hierarchy of languages L₀ ⊂ L₁ ⊂ L₂ ⊂ ⋯, how is the Liar blocked?",
+  "choices": [
+    "By declaring every self-referential sentence meaningless a priori",
+    "By adopting a three-valued logic with truth-value gaps",
+    "By treating truth as a single univocal predicate",
+    "Each truth predicate Tₙ is typed to apply only to sentences of the lower language Lₙ, so the Liar's fixed-point equation has no solution at any level"
+  ],
+  "answer": 3,
+  "explanation": "The predicate Tₙ applies only to Lₙ-sentences; a Liar λ ↔ ¬Tₙ(⟨λ⟩) would itself lie in Lₙ₊₁, so Tₙ(⟨λ⟩) is ill-formed and the fixed-point equation is unsolvable at every level. Tarski does not blanket-ban self-reference (option 0), stays classical/two-valued rather than three-valued (option 1 is Kripke's route), and the whole point is that truth is STRATIFIED, not univocal (option 2).",
+  "tags": [
+    "tarski-hierarchy",
+    "object-language",
+    "metalanguage"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "75b95e15-0bc8-4401-adf7-9d52f8543998",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Two matrices A and A′ are similar, i.e. A′ = P⁻¹AP for some invertible P. The best interpretation is:",
+  "choices": [
+    "They represent the same linear operator with respect to two different bases",
+    "They represent inverse operators",
+    "They have the same kernel as subspaces of Fⁿ",
+    "They differ only by a permutation of rows"
+  ],
+  "answer": 0,
+  "explanation": "If P is the change-of-basis matrix, then [T] in the new basis is P⁻¹[T]P. Consequently similarity preserves every basis-independent invariant — rank, determinant, trace, characteristic polynomial — though the kernel as a concrete subspace moves to P⁻¹(ker A).",
+  "tags": [
+    "matrices",
+    "similarity",
+    "change-of-basis"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -35,4 +35,4 @@ The blocks-world language of *Language, Proof and Logic* has:
 - **Coq**: `Variable A : Type.` introduces a domain
 
 ## Exercises
-See `problems/ch03_predicate_logic/01_translation_exercises.md`
+See `problems/ch03_first_order_logic/01_translation_exercises.md`

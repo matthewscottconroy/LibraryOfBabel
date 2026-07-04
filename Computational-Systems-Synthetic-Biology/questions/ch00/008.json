@@ -1,0 +1,20 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Feedforward loops in gene regulatory networks come in exactly two distinct wiring types.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "The chapter states that feedforward loops come in 8 distinct types, each with its own dynamics; these are often grouped into broader coherent versus incoherent categories, but that grouping is not the same as there being only two distinct wiring patterns overall. So the claim of 'exactly two' types is false.",
+  "tags": [
+    "graph-theory",
+    "network-motifs",
+    "gene-regulatory-networks"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "f03c2da4-4ebb-43c8-8fc8-8c036156b5ec"
+}

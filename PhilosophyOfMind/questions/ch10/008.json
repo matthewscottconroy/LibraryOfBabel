@@ -1,0 +1,21 @@
+{
+  "question_id": "3f168e11-ad52-4ab1-8fc0-ae8f5e29ea20",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Parfit concludes that personal identity is precisely what matters in survival.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Parfit's signature conclusion is the reverse: identity is NOT what matters. Because psychological continuity can hold without identity (as in fission) and comes in degrees while identity is all-or-nothing, what we should rationally care about is continuity/connectedness (Relation R), not identity as such.",
+  "tags": [
+    "parfit",
+    "what-matters",
+    "relation-r",
+    "reductionism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

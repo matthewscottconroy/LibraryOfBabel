@@ -1,0 +1,20 @@
+{
+  "question_id": "5a5c4070-21d2-4c78-8220-6be451115b59",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The KAM theorem guarantees that all invariant tori of an integrable Hamiltonian survive a small perturbation.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "KAM preserves only tori with sufficiently Diophantine (badly-rational) frequencies; resonant tori are destroyed, and near them motion is very complex (Arnold diffusion). Only a positive-measure set survives, not all.",
+  "tags": [
+    "kam-theorem",
+    "hamiltonian",
+    "invariant-tori"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

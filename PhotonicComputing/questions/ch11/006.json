@@ -1,0 +1,18 @@
+{
+  "question_id": "d49014b8-2b67-47d0-b96a-556557d6e5b0",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why is analog photonic linear algebra 'condition-number sensitive' in a way that floating-point arithmetic is not?",
+  "choices": [
+    "Because a high condition number requires more than N(N-1)/2 MZIs",
+    "Because the thermo-optic coefficient itself scales with the condition number",
+    "Because normalizing singular values by sigma_max attenuates the weak channels until shot noise dominates them, so ill-conditioned matrices lose ENOB on those channels",
+    "Because floating point also loses precision linearly with the condition number"
+  ],
+  "answer": 2,
+  "explanation": "After normalizing by sigma_max, channel i keeps only (sigma_i/sigma_max)^2 of the power, so for kappa >> 1 the weak singular channels are starved of photons, shot noise dominates, and their effective bits collapse. This is a photon-budget effect unique to analog optics; the MZI count stays fixed at N(N-1)/2 and the thermo-optic coefficient is independent of kappa.",
+  "tags": ["svd", "condition-number", "enob", "shot-noise"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "a49c9da9-1653-4f56-8fc0-43ab23cc7d60",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What did the hyperparameter-scan lab conclude when comparing random search (50 samples) with the 80-point grid search on NARMA-10?",
+  "choices": [
+    "Grid search always finds a dramatically better optimum than random search",
+    "Random search failed to find any usable configuration",
+    "Random search reliably found a configuration within ~10% of the grid-search optimum",
+    "Random search needed more evaluations than the grid to match it"
+  ],
+  "answer": 2,
+  "explanation": "The lab observes random search with 50 samples lands within ≈10% of the grid optimum while covering the continuous space more efficiently, because performance depends on only a few dimensions (Bergstra & Bengio 2012). It used fewer evaluations (50 vs 80), not more.",
+  "tags": [
+    "hyperparameters",
+    "random-search",
+    "grid-search"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

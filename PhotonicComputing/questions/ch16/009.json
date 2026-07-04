@@ -1,0 +1,19 @@
+{
+  "question_id": "270e46cc-3359-4dba-a24f-e2b678896e83",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The single most consequential identification in quantum optics is that a mode of the electromagnetic field is mathematically identical to a quantum ___ oscillator, so its ladder operators and number states carry over directly.",
+  "choices": [
+    "harmonic"
+  ],
+  "answer": "harmonic",
+  "explanation": "A field mode is quantized exactly as a harmonic oscillator (one oscillator per mode), which is why a, a-dagger, and the Fock states |n> describe photons.",
+  "tags": [
+    "field-quantization",
+    "harmonic-oscillator",
+    "modes"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

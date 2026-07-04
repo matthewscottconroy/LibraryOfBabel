@@ -1,0 +1,13 @@
+{
+  "question_id": "f4b7d0e5-6a1c-4d9f-8e5b-4c8a1d3f7e60",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The arbitrium system, discovered by Erez et al. (2017) in Bacillus phages, is significant because it demonstrates that:",
+  "choices": ["Bacteriophages communicate with one another using a secreted peptide that reports on prior population activity, and use it to modulate the lysis-lysogeny decision", "Viruses contain miniature neurons that process information", "Temperate phages can only ever replicate lytically, never lysogenically", "The lysis-lysogeny decision is made entirely at random with no molecular basis"],
+  "answer": 0,
+  "explanation": "Arbitrium is effectively 'viral quorum sensing': infecting phages secrete a small peptide that accumulates with lytic activity and is read by later-infecting phages to bias their lysis-versus-lysogeny choice, transmitting population-level information across infections. Viruses have no neurons (option 1); temperate phages can do both lysis and lysogeny (option 2); and while the choice is stochastic, in lambda it is governed by the competing CI repressor and Cro proteins, not pure randomness (option 3).",
+  "tags": ["arbitrium", "viral-cognition", "phage-communication"],
+  "difficulty": "advanced",
+  "generated": true
+}

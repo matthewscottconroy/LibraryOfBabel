@@ -1,0 +1,18 @@
+{
+  "question_id": "7a78f28c-ed72-46a4-a1ac-6995a6ee262e",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Leibniz's relational theory holds that time is:",
+  "choices": [
+    "An independently existing framework that would persist even in a universe with no events",
+    "The order of succession of non-simultaneous things, with nothing over and above events and their relations",
+    "A mode by which each created substance continues to exist through change",
+    "The a priori form of inner sense through which the mind orders its own states"
+  ],
+  "answer": 1,
+  "explanation": "For Leibniz, time is the order of successions — the relational structure among non-simultaneous events — not a self-subsistent container (Fifth Letter to Clarke §4; New Essays II.14). Choice 0 is precisely Newton's absolute time that Leibniz opposed, choice 2 is Descartes's duration-as-mode, and choice 3 is Kant's later doctrine; only choice 1 states the relational view.",
+  "tags": ["leibniz", "relationalism", "order-of-succession", "time"],
+  "difficulty": "beginner",
+  "generated": true
+}

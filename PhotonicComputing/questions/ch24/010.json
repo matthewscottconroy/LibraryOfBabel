@@ -1,0 +1,19 @@
+{
+  "question_id": "d408d2ce-b854-4d68-a91d-ea5a1dd27efd",
+  "chapter": 24,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Reporting a benchmark at peak throughput without stating ___ — the ratio of delivered to peak operations on a named workload — is called astrology; GPUs run 40-70% of it on large GEMMs but only single-digit percent on small kernels.",
+  "choices": [
+    "utilization"
+  ],
+  "answer": "utilization",
+  "explanation": "Utilization = R_delivered / R_peak must be reported or the benchmark is meaningless; peak-for-delivered substitution is a named audit pitfall. Photonic cores have their own utilization discounts, so fair comparison must be delivered-to-delivered on a named workload at stated accuracy.",
+  "tags": [
+    "utilization",
+    "benchmarking",
+    "peak-vs-delivered"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

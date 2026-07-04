@@ -1,0 +1,21 @@
+{
+  "question_id": "3cb2b04c-2415-4722-bc4a-6c9180055cf7",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a predicate R(x,y), which implication between the two quantifier orderings is valid in general?",
+  "choices": [
+    "∀x ∃y R(x,y) implies ∃y ∀x R(x,y)",
+    "∃y ∀x R(x,y) implies ∀x ∃y R(x,y)",
+    "The two statements are always equivalent",
+    "Neither statement ever implies the other"
+  ],
+  "answer": 1,
+  "explanation": "A single y that works for every x in particular supplies, for each x, some y — so ∃y∀x is strictly stronger. The converse fails: R(x,y) meaning 'y = x' on ℝ satisfies ∀x∃y but no single y works for all x.",
+  "tags": [
+    "logic",
+    "quantifiers"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "35c20318-e220-42af-b0d7-8515fdb82f12",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The photonic crystal concept was launched in 1987; the idea of using a periodic dielectric to inhibit spontaneous emission is credited to Eli ___.",
+  "choices": [
+    "Yablonovitch"
+  ],
+  "answer": "Yablonovitch",
+  "explanation": "Eli Yablonovitch's 1987 Physical Review Letters paper proposed periodic dielectric structures to control spontaneous emission; Sajeev John's companion 1987 paper proposed photon localization in disordered dielectrics.",
+  "tags": [
+    "yablonovitch",
+    "photonic-crystal",
+    "history"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

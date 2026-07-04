@@ -1,0 +1,20 @@
+{
+  "chapter": 26,
+  "phase": 4,
+  "kind": "tf",
+  "text": "DVC (Data Version Control) tracks large data files alongside git-versioned code -- via lightweight pointer files committed to git while the actual data is pushed to remote storage -- enabling an exact analysis to be reproduced later.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This accurately describes DVC's workflow: `dvc add` creates a small .dvc pointer file that is committed to git, while `dvc push` sends the actual data to remote storage (S3, GCS, or local), so a specific commit always corresponds to a specific data version. This complements git, which handles code well but is not designed for large binary datasets.",
+  "tags": [
+    "dvc",
+    "data-versioning",
+    "reproducibility"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "4416267a-b077-4243-b088-6fbca92c9ca2"
+}

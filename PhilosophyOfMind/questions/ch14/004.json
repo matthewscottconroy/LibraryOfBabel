@@ -1,0 +1,22 @@
+{
+  "question_id": "e8338543-8fb3-4ffe-8c32-0615a44ae2d4",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Merleau-Ponty uses the brain-injured patient Schneider — who could perform concrete purposive movements but not abstract ones out of context — to illustrate:",
+  "choices": [
+    "That perception is the passive reception of sense-data (empiricism)",
+    "That action is the execution of explicit mental representations (intellectualism)",
+    "Motor intentionality as a distinct, pre-reflective bodily directedness",
+    "The reduction of the lived body to the objective body of physiology"
+  ],
+  "answer": 2,
+  "explanation": "Schneider's selective deficit — neither purely motor nor purely intellectual — reveals motor intentionality as a third, pre-reflective dimension of bodily directedness. Merleau-Ponty invokes the case precisely to reject both empiricism (passive sensation) and intellectualism (explicit representation), and not to reduce the lived body to the objective body.",
+  "tags": [
+    "motor-intentionality",
+    "merleau-ponty",
+    "schneider"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

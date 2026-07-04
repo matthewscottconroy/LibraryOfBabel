@@ -1,0 +1,19 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In ChIP-seq analysis, peaks of the histone modification ___ are characteristic of active gene promoters.",
+  "choices": [
+    "H3K4me3"
+  ],
+  "answer": "H3K4me3",
+  "explanation": "H3K4me3 marks active promoters, while H3K27ac marks active enhancers and broad H3K27me3 domains mark repressed chromatin requiring a different, broad peak-calling mode. Distinguishing these histone marks is essential for correctly interpreting ChIP-seq peak calls.",
+  "tags": [
+    "epigenomics",
+    "chip-seq",
+    "histone-modification"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "70bab637-84fb-42fb-b722-aaf8e0544567"
+}

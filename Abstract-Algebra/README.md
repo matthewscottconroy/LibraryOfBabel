@@ -1,8 +1,28 @@
 # The Structure of Algebra
 
-A textbook covering logic through the Langlands program, paired with a Rust workspace of 54 interactive chapter demos. Each demo runs as a REPL, a scriptable CLI, and a native GUI.
+A textbook covering logic through the Langlands program (~852,000 words), paired
+with a Rust workspace of 54 interactive chapter demos. Each demo runs as a REPL,
+a scriptable CLI, and a native GUI.
 
-The compiled book lives at `book/abstract-algebra.pdf` (1,900 pages).
+No PDF is committed — the book is built from source (see
+[Building the Book](#building-the-book)); build output lands in `output/`, which
+is gitignored.
+
+## The Book and the Curriculum
+
+This project contains two parallel tracks over the same subject:
+
+- **`book/`** — the full **54-chapter** textbook (logic and linear algebra
+  through homological algebra, representation theory, Lie theory, and the
+  Langlands program). This is the deep treatment, and it drives the 54 Rust
+  demos below (one per chapter).
+- **`curriculum/`** — a separate, **condensed 27-chapter** track
+  (`ch01`–`ch27`) that reorganizes and compresses the same material into a
+  single file per chapter. This is what the **adaptive quiz reads**: the book's
+  `subject.toml` points its `chapters_dir` at `curriculum/`.
+
+If you are studying, read `book/`. If you are quizzing, the questions are
+generated from `curriculum/`.
 
 ## Quick Start
 
@@ -26,7 +46,11 @@ cargo run -p gui
 ## Repository Layout
 
 ```
-book/                  Markdown source + build scripts for the PDF
+book/                  Markdown source for the 54-chapter textbook
+curriculum/            Condensed 27-chapter track (ch01–ch27) used by the quiz
+questions/             Generated quiz question bank
+subject.toml           Quiz configuration (points chapters_dir at curriculum/)
+book.toml              Build configuration for tools/build_book.py
 demos/
   common/              Shared library: math, rendering, CLI, REPL
   visualizer/          Standalone render CLI (SVG/DOT/TikZ/ASCII/PNG/JPEG)
@@ -204,9 +228,28 @@ All shared infrastructure lives in `demos/common/src/lib.rs`:
 
 ## Building the Book
 
+The book is built with the shared repository tooling, from the repository root:
+
 ```bash
-cd book
-python3 build-book.py   # requires pandoc and xelatex
+# Build the book (also --html, --markdown, --check); requires pandoc + xelatex
+python3 tools/build_book.py Abstract-Algebra --pdf
 ```
 
-Output: `book/abstract-algebra.pdf`
+Output is written to `Abstract-Algebra/output/`, which is gitignored — no PDF is
+committed.
+
+## Quiz and Validation
+
+Run from the repository root. The quiz draws its questions from the condensed
+`curriculum/` track (see [The Book and the Curriculum](#the-book-and-the-curriculum)).
+
+```bash
+# Take the adaptive quiz
+cd quiz && cargo run -p quiz-cli -- --subject ../Abstract-Algebra
+
+# Validate before opening a PR
+python3 tools/validate.py
+```
+
+See [PROCESS.md](../PROCESS.md) for the full pipeline and
+[CONTRIBUTING.md](../CONTRIBUTING.md) to contribute.

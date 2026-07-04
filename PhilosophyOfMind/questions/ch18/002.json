@@ -1,0 +1,22 @@
+{
+  "question_id": "3d73830a-c723-4f7d-81f9-033ce66e51e0",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "mc",
+  "text": "On Peter Singer's sentientist view, the fundamental ground of moral status is...",
+  "choices": [
+    "rational autonomy and the capacity to set and pursue ends",
+    "membership in a community of mutual recognition and address",
+    "the capacity for suffering and well-being (sentience)",
+    "the possession of an immortal soul"
+  ],
+  "answer": 2,
+  "explanation": "Singer, following Bentham, holds that sentience -- the capacity to suffer and fare well -- grounds moral status, so equal interests get equal weight regardless of species. Rational autonomy is the personhood/Kantian criterion, mutual recognition is the relational account, and the soul view is theological -- all rivals Singer rejects.",
+  "tags": [
+    "sentientism",
+    "singer",
+    "moral-status"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

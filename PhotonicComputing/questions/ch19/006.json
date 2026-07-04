@@ -1,0 +1,18 @@
+{
+  "question_id": "b64a18ac-0382-486c-83c3-cf8520ed2ba4",
+  "chapter": 19,
+  "phase": 3,
+  "kind": "mc",
+  "text": "With only linear optics and photon-number detection (no ancillas), how many of the four Bell states can a Bell-state measurement unambiguously distinguish?",
+  "choices": [
+    "Two of the four, capping the success probability at 1/2",
+    "All four, deterministically",
+    "Three of the four",
+    "None: Bell measurement is impossible with linear optics"
+  ],
+  "answer": 0,
+  "explanation": "Calsamiglia and Luetkenhaus (2001) showed linear optics plus photon counting distinguishes only two Bell states (|Psi+> and |Psi->), capping P_BSM at 1/2; ancilla photons boost this toward 1. A complete deterministic BSM (choice 1) is impossible without ancillas/nonlinearity, and the answer is neither three (choice 2) nor zero (choice 3).",
+  "tags": ["bell-measurement", "linear-optics-bound", "50-percent"],
+  "difficulty": "advanced",
+  "generated": true
+}

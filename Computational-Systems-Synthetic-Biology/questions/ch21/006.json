@@ -1,0 +1,21 @@
+{
+  "chapter": 21,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Responsible Innovation framework described in the chapter consists of four stages. Which sequence correctly represents them?",
+  "choices": [
+    "Fund, Publish, Patent, Commercialize",
+    "Screen, Synthesize, Sequence, Store",
+    "Anticipate, Reflect, Engage, Act",
+    "Contain, Isolate, Decontaminate, Report"
+  ],
+  "answer": 2,
+  "explanation": "The Responsible Innovation framework is Anticipate (project possible consequences before research begins), Reflect (examine values and assumptions), Engage (involve the public and affected communities), and Act (respond to concerns and adjust course). The other sequences describe unrelated processes -- a funding/publishing pipeline, DNA synthesis screening steps, and a biosafety incident-response checklist -- none of which is this ethical framework.",
+  "tags": [
+    "ethics",
+    "responsible-innovation"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "239dd628-945a-4f49-b68c-6e9346477ae5"
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "a7c0e3f8-9b4d-4e2a-9f8c-7d1b4e6a0f93",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Pamela Lyon's ___ approach to cognition begins with what living systems are and need, and derives the cognitive capacities they must have, rather than extending human cognitive concepts downward.",
+  "choices": [
+    "biogenic"
+  ],
+  "answer": "biogenic",
+  "explanation": "The answer is 'biogenic.' Lyon's biogenic approach grounds cognition in the logic of living systems, deriving cognitive capacities from biological imperatives. It is contrasted with the anthropogenic strategy of taking human cognition as the template and extending its concepts to simpler organisms.",
+  "tags": [
+    "biogenic-approach",
+    "lyon",
+    "methodology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

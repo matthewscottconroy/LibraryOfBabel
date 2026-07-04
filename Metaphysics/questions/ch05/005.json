@@ -1,0 +1,18 @@
+{
+  "question_id": "103d69ff-f912-4845-a893-3c3d880aca02",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Leibniz's shift argument against absolute space appeals to which principle to conclude that a universe shifted uniformly in absolute space is no genuinely distinct possibility?",
+  "choices": [
+    "The Principle of Sufficient Reason (backed by the Identity of Indiscernibles): there would be no sufficient reason for God to place the universe in one absolute location rather than another.",
+    "The verification principle: a difference that makes no observable difference is meaningless.",
+    "The principle of the constancy of the speed of light across inertial frames.",
+    "Mach's principle that inertia derives from the total mass distribution of the universe."
+  ],
+  "answer": 0,
+  "explanation": "Leibniz argues that since a uniformly shifted universe is qualitatively identical to the original, the Principle of Sufficient Reason gives God no reason to choose one placement over another (and the Identity of Indiscernibles collapses them into one), so absolute space must be rejected. Option 1 is a later verificationist gloss, not Leibniz's rationalist argument; Clarke's reply was that God's will is itself a sufficient reason.",
+  "tags": ["space", "leibniz", "sufficient-reason", "relationism"],
+  "difficulty": "intermediate",
+  "generated": true
+}

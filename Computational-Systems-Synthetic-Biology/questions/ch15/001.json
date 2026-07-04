@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In a typical E. coli σ70 promoter, what are the consensus sequences and spacing of its two core recognition elements?",
+  "choices": [
+    "A -35 element (TTGACA) and a -10 Pribnow box (TATAAT), separated by a spacer of 17 ± 1 bp",
+    "A -10 element (TTGACA) and a -35 Pribnow box (TATAAT), separated by a spacer of 35 bp",
+    "A Shine-Dalgarno sequence (~AAGG) positioned 7-8 nucleotides upstream of the start codon",
+    "A TATA box positioned 25-30 bp upstream of the transcription start site, as in eukaryotic core promoters"
+  ],
+  "answer": 0,
+  "explanation": "The canonical σ70 promoter has a -35 element (consensus TTGACA) and a -10 Pribnow box (consensus TATAAT), separated by a spacer of 17 ± 1 bp, which is critical for promoter activity. Choice 1 swaps the element names/sequences and gives an incorrect spacer length. Choice 2 describes the ribosome binding site (a translation-level part, not a promoter), and choice 3 describes a eukaryotic RNA polymerase II core promoter element, not a bacterial σ70 promoter.",
+  "tags": [
+    "promoters",
+    "sigma-70",
+    "bacterial-transcription"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "85c636f5-ddce-423b-8f52-c6f279908477"
+}

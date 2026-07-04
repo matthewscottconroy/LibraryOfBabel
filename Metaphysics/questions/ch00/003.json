@@ -1,0 +1,22 @@
+{
+  "question_id": "5fa927d3-d2df-4571-a775-a85c4e66bf57",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "As deployed by Fine and Schaffer, the grounding relation ('B obtains in virtue of A') is best characterized as which of the following?",
+  "choices": [
+    "A species of causal dependence, differing from ordinary causation only in operating instantaneously.",
+    "Mere supervenience: A grounds B just in case there can be no change in B without some change in A.",
+    "A symmetric relation of mutual dependence between two equally fundamental facts.",
+    "A non-causal, explanatory relation that is irreflexive, asymmetric, and transitive, ordering facts from more to less fundamental."
+  ],
+  "answer": 3,
+  "explanation": "Grounding is a real 'in virtue of' explanatory relation, taken to be a strict partial order (irreflexive, asymmetric, transitive) and explicitly distinct from causation and from supervenience. The tempting distractor is supervenience (option 1), which is mere modal covariation and lacks the explanatory directionality that grounding is meant to supply.",
+  "tags": [
+    "grounding",
+    "fundamentality",
+    "fine"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

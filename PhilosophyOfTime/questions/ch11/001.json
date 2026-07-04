@@ -1,0 +1,18 @@
+{
+  "question_id": "b67289c9-7383-4086-9d3b-30c6c64da15f",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In Julian Barbour's timeless interpretation of quantum cosmology, 'Platonia' is:",
+  "choices": [
+    "the space of all possible instantaneous three-dimensional configurations of the universe, each point being a complete 'Now', over which the timeless wavefunction assigns amplitudes",
+    "a privileged foliation of spacetime that restores a frame-independent objective present",
+    "the discrete partially ordered set of events from whose sequential growth smooth spacetime emerges",
+    "the extremely low-entropy boundary condition of the early universe responsible for the thermodynamic arrow"
+  ],
+  "answer": 0,
+  "explanation": "Platonia is Barbour's arena of all possible Nows (instantaneous 3D configurations); the wavefunction assigns amplitudes to Nows but imposes no temporal ordering. Distractor 1 is neo-Lorentzian presentism's privileged frame; distractor 2 is the causal set of Sorkin and colleagues; distractor 3 is the Past Hypothesis behind the thermodynamic arrow — each a distinct position elsewhere in the unit.",
+  "tags": ["barbour", "platonia", "timeless-physics", "quantum-cosmology"],
+  "difficulty": "beginner",
+  "generated": true
+}

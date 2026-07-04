@@ -1,0 +1,13 @@
+{
+  "question_id": "c9e2a5b0-1d6f-4a4c-9b0e-9f3d6a8c2b15",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which statement about resting membrane potentials is correct according to the unit on the intelligent cell?",
+  "choices": ["Only neurons and muscle cells maintain a resting membrane potential", "A resting membrane potential requires gap junctions between cells", "All living cells maintain a resting membrane potential across their membrane", "Membrane potentials exist only during action potentials"],
+  "answer": 2,
+  "explanation": "The unit stresses that membrane potentials are a universal feature of living cells, not a neural specialty, arising from ion gradients set by pumps and selective channel permeability. Option 0 is the neuron-centric misconception the chapter refutes. Gap junctions (option 1) couple cells electrically but are not required for a single cell to have a potential. Option 3 confuses the resting potential with the transient action potential.",
+  "tags": ["bioelectricity", "membrane-potential", "universality"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "22d46b7b-41e9-4abf-a54e-b1dc841e88f5",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Under a coordinate change xⁱ → x̃ʲ(x), how do the components of a covector (one-form) α = α_i dxⁱ transform in this book?",
+  "choices": [
+    "α̃_j = (∂x̃ʲ/∂xⁱ) α_i, the same rule as a contravariant vector.",
+    "α̃_j = (∂xⁱ/∂x̃ʲ) α_i, with the inverse (transpose) Jacobian of the vector rule.",
+    "α̃_j = α_j; covector components are coordinate-invariant.",
+    "α̃_j = (∂x̃ʲ/∂xⁱ)(∂x̃ᵏ/∂xˡ) α_i, with two Jacobian factors."
+  ],
+  "answer": 1,
+  "explanation": "Covectors (lower, covariant indices) transform with the inverse Jacobian ∂xⁱ/∂x̃ʲ, while vectors (upper, contravariant indices) use ∂x̃ʲ/∂xⁱ; because the two matrices are inverses, the pairing α_i vⁱ is an invariant scalar. Choice 0 is the vector (contravariant) rule, choice 2 wrongly asserts invariance of the components, and choice 3 carries the index structure of a (0,2) tensor rather than a single covector.",
+  "tags": [
+    "cotangent-space",
+    "one-forms",
+    "transformation-law"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -34,8 +34,8 @@ Each subsection is written in a conversational textbook tone: intellectually rig
 | 14 | [Other Minds and Social Cognition](14_Other_Minds_and_Social_Cognition/) | The other minds problem, theory of mind, collective intentionality |
 | 15 | [Phenomenology](15_Phenomenology/) | Husserl, Heidegger, Merleau-Ponty, Sartre |
 | 16 | [Philosophy of Neuroscience](16_Philosophy_of_Neuroscience/) | NCC, reduction, neuroethics |
-| 17 | [Animal Minds and Consciousness](17_Animal_Minds_and_Consciousness/) | Animal cognition, pain, moral status |
-| 18 | [Artificial Minds and AI](18_Artificial_Minds_and_AI/) | The Turing test, LLMs, machine consciousness |
+| 17 | [Animal Minds and Consciousness](17_Animal_Minds/) | Animal cognition, pain, moral status |
+| 18 | [Artificial Minds and AI](18_Artificial_Minds/) | The Turing test, LLMs, machine consciousness |
 | 19 | [Ethics and Philosophy of Mind](19_Ethics_and_Philosophy_of_Mind/) | Moral psychology, neuroethics, consciousness and moral status |
 | 20 | [Methodology](20_Methodology/) | Intuitions, thought experiments, naturalism, interdisciplinary connections |
 
@@ -44,3 +44,26 @@ Each subsection is written in a conversational textbook tone: intellectually rig
 Philosophy of mind sits at the intersection of several disciplines — neuroscience, cognitive science, linguistics, computer science, psychology — and this textbook tries to honor that interdisciplinary character without losing its philosophical focus. The central questions driving the field are not merely empirical but conceptual: What is the relationship between mind and body? What is it for a mental state to be *about* something? Is consciousness something over and above physical brain processes? Could a machine ever genuinely think?
 
 These questions have occupied philosophers for millennia and show no signs of being settled. That is not a failure of the field; it is a sign that the questions are genuinely deep. Good philosophy of mind cultivates the ability to hold multiple positions simultaneously, to understand why each has seemed compelling, and to see clearly where the pressure points are.
+
+## Reading Paths
+
+For structured routes through the twenty topics tailored to different
+backgrounds and goals, see **[READING-PATHS.md](READING-PATHS.md)**.
+
+## Commands
+
+Run from the repository root.
+
+```bash
+# Build the book (also --html, --markdown, --check)
+python3 tools/build_book.py PhilosophyOfMind --pdf
+
+# Take the adaptive quiz
+cd quiz && cargo run -p quiz-cli -- --subject ../PhilosophyOfMind
+
+# Validate before opening a PR
+python3 tools/validate.py
+```
+
+See [PROCESS.md](../PROCESS.md) for the full pipeline and
+[CONTRIBUTING.md](../CONTRIBUTING.md) to contribute.

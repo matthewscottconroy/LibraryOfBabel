@@ -1,0 +1,13 @@
+{
+  "question_id": "178a892e-f04a-4761-87e0-7a84e5a22156",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: The most promising near-term photonic network-on-chip application is fine-grained optical routing between individual CPU cores, rather than chiplet-to-chiplet links.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The strongest near-term case is chiplet-to-chiplet (for example, replacing the ~10 mm electrical HBM memory interface with optics), where physics favors optics and 3D bonding keeps integration manageable. Core-to-core optical routing faces severe thermal and integration hurdles and is a longer-term target.",
+  "tags": ["photonic-noc", "chiplet", "hbm"],
+  "difficulty": "intermediate",
+  "generated": true
+}

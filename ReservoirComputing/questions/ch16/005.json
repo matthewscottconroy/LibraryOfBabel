@@ -1,0 +1,23 @@
+{
+  "question_id": "874ef83b-322f-4b11-b811-6d3d9de7d064",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "How is the reservoir trained to produce the gait, and which weights are modified?",
+  "choices": [
+    "FORCE learning with teacher forcing: an online RLS rule updates only the readout W_out, while W_rec and W_in stay fixed",
+    "Backpropagation through time updates W_rec, W_in, and W_out jointly",
+    "Ridge regression on W_rec so the recurrent dynamics themselves become periodic",
+    "Hebbian plasticity applied to the input weights W_in only"
+  ],
+  "answer": 0,
+  "explanation": "force_train_gait feeds the target y*(t-1) as the input (teacher forcing) and applies an RLS (recursive least squares) update to W_out at every step: this is classic FORCE. W_rec and W_in are built once and never trained, exactly as in reservoir computing. Options 1-3 all wrongly modify the recurrent or input weights.",
+  "tags": [
+    "FORCE",
+    "RLS",
+    "readout",
+    "training"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

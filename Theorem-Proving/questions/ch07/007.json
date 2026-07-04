@@ -1,0 +1,19 @@
+{
+  "question_id": "a5259e4c-c317-4099-bcc7-e6996e4f17a8",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: If a ∣ b and a ∣ c, then a divides every integer linear combination mb + nc (for all integers m, n).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True — this is the linearity property of divisibility: b = a·k₁ and c = a·k₂ give mb + nc = a(mk₁ + nk₂), which a divides. It is the workhorse behind gcd and Bézout arguments.",
+  "tags": [
+    "divisibility",
+    "linearity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

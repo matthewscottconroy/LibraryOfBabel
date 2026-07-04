@@ -1,0 +1,23 @@
+{
+  "chapter": 27,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which 2000 Nature paper introduced the repressilator, the first synthetic oscillatory gene network built in a living cell?",
+  "choices": [
+    "Gardner, Cantor & Collins, 'Construction of a genetic toggle switch in Escherichia coli'",
+    "Elowitz & Leibler, 'A synthetic oscillatory network of transcriptional regulators'",
+    "Milo et al., 'Network Motifs: Simple Building Blocks of Complex Networks'",
+    "Alon, 'Network motifs: theory and experimental approaches'"
+  ],
+  "answer": 1,
+  "explanation": "Elowitz & Leibler (2000, Nature) built the repressilator, a ring of three repressor genes producing sustained oscillations -- the first synthetic oscillator demonstrated in living cells. Gardner, Cantor & Collins published the genetic toggle switch (bistability, not oscillation) in the same Nature issue. Milo et al. (2002, Science) defined the statistical framework for network motif detection, and Alon's 2007 review covers motif theory more broadly -- neither built a synthetic oscillator.",
+  "tags": [
+    "repressilator",
+    "elowitz-leibler",
+    "synthetic-biology",
+    "oscillator"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "f87ed46c-088f-4ac6-9f4e-fa95a2d0f68b"
+}

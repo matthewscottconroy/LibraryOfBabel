@@ -1,0 +1,13 @@
+{
+  "question_id": "0d6b3e81-7c95-42a4-8f13-6e2b9c0a7d54",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Ginsburg and Jablonka propose Unlimited Associative Learning (UAL) as:",
+  "choices": ["A technique for optically imaging membrane voltage in living cells", "A measure of integrated information present in any physical system", "A criterion that bacteria and slime molds clearly satisfy", "A proposed evolutionary threshold marking the transition to phenomenal consciousness"],
+  "answer": 3,
+  "explanation": "UAL, the capacity to associate any stimuli with any reinforcers and generalize immediately, is proposed as the evolutionary marker of the transition to phenomenal consciousness. On their account this threshold sits well above the basal systems in this book, so option 2 is wrong; phi (integrated information) and voltage imaging are unrelated concepts.",
+  "tags": ["unlimited-associative-learning", "ginsburg-jablonka", "consciousness-criterion"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "0836ab0a-93f8-4dc5-accb-4806de04b4f5",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Baire Category Theorem states that in a complete metric space, a countable intersection of dense open sets is:",
+  "choices": [
+    "empty",
+    "nowhere dense",
+    "dense",
+    "closed"
+  ],
+  "answer": 2,
+  "explanation": "Baire's theorem guarantees the intersection remains dense, so the space is not a countable union of nowhere-dense sets. This underlies 'generic' (residual) properties in topological dynamics.",
+  "tags": [
+    "baire-category",
+    "topology",
+    "genericity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

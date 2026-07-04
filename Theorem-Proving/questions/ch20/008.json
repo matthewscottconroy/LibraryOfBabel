@@ -1,0 +1,21 @@
+{
+  "question_id": "d537829f-9e6d-4fb6-8458-00dfa8d77758",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In every category, a morphism is an epimorphism if and only if it is surjective on underlying elements.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Epimorphism means right-cancellable, which coincides with surjectivity only in special categories like Set. In Ring the inclusion ℤ ↪ ℚ is an epimorphism yet is far from surjective — a morphism is epi when its image determines everything, not necessarily when it is everything.",
+  "tags": [
+    "epimorphism",
+    "surjective",
+    "ring",
+    "mono-epi"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

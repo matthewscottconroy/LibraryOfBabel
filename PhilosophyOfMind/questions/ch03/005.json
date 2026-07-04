@@ -1,0 +1,23 @@
+{
+  "question_id": "6348a7cb-d02d-484d-b60e-50e003dd37a9",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A central advantage claimed for teleological (biosemantic) theories of content, such as Millikan's, over pure informational theories is that they:",
+  "choices": [
+    "Reduce all mental content to conscious experience",
+    "Avoid any appeal to evolutionary history",
+    "Explain misrepresentation — why a frog's fly-detector tokened by a passing BB pellet counts as an error, a misfiring of what the state is for",
+    "Show that meaning is entirely in the head"
+  ],
+  "answer": 2,
+  "explanation": "Teleological theories fix content by a state's biological function — what it was selected to indicate — so a detector triggered by a BB pellet misrepresents, because BB pellets are not what it is for. Pure informational (covariation) theories struggle here (the disjunction problem). Option 1 is false (teleosemantics centrally uses evolutionary history); options 0 and 3 misdescribe the view.",
+  "tags": [
+    "teleosemantics",
+    "millikan",
+    "misrepresentation",
+    "informational-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

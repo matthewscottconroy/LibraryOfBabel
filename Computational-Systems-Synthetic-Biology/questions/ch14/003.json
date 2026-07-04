@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The mathematical principle of timescale separation (ε·dx/dt = f(x,y); dy/dt = g(x,y), taking ε → 0) underlies which classic simplification used in modeling enzyme kinetics?",
+  "choices": [
+    "The quasi-steady-state approximation, in which the fast-equilibrating enzyme-substrate complex is treated as instantaneous, yielding the Michaelis-Menten rate law",
+    "The Hill equation, which introduces cooperative binding into a ligand dose-response curve",
+    "Zero-order ultrasensitivity, which arises when a kinase and phosphatase both operate near saturation",
+    "The law of mass action, applied directly with no simplifying assumptions"
+  ],
+  "answer": 0,
+  "explanation": "When the enzyme-substrate binding step equilibrates much faster than the catalytic step, the fast variable (the ES complex) can be treated as being at quasi-steady-state, which reduces the full mass-action kinetics to the simpler Michaelis-Menten rate law -- a direct application of timescale separation. The Hill equation (choice 1) introduces cooperativity, a separate concept unrelated to timescale, and zero-order ultrasensitivity (choice 2) is a saturation phenomenon from signaling biology, not a timescale-separation argument. Choice 3 describes the opposite of a simplification -- using full mass-action kinetics without any reduction.",
+  "tags": [
+    "timescale-separation",
+    "quasi-steady-state",
+    "michaelis-menten"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "9b6d00d4-7164-47fc-9a61-eaeaf54f5cd4"
+}

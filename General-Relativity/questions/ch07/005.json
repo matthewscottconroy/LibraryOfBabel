@@ -1,0 +1,22 @@
+{
+  "question_id": "e7ec6248-e2d1-4866-92d5-bccdf031302c",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "According to this book, how many algebraically independent components does the Riemann tensor R_ρσμν have in 4 dimensions?",
+  "choices": [
+    "256, one for each assignment of the four indices in 4D.",
+    "10, the same count as the Ricci tensor.",
+    "20, after imposing the index-pair antisymmetries, pair-exchange symmetry, and the first Bianchi identity.",
+    "6, matching the number of independent 2-planes in 4D."
+  ],
+  "answer": 2,
+  "explanation": "The book reduces the naive 4⁴ = 256 components to 20 using antisymmetry in each index pair, pair-exchange symmetry R_ρσμν = R_μνρσ, and the first (algebraic) Bianchi identity, matching n²(n²−1)/12 = 20 for n = 4. The 256 count ignores all symmetries; 10 is the Ricci tensor's count (the trace part), and the 20 split as 10 Weyl + 10 Ricci, so Riemann carries strictly more information than Ricci in 4D.",
+  "tags": [
+    "curvature",
+    "riemann-tensor",
+    "symmetries"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

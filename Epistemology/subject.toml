@@ -1,0 +1,83 @@
+title = 'Epistemology Adaptive Quiz'
+chapters_dir = './'
+system_prompt = """You are an expert quiz question generator for a graduate-level course on Epistemology. Topics include: the JTB analysis of knowledge, Gettier problems, foundationalism vs coherentism vs reliabilism, internalism vs externalism, sources of knowledge (perception, introspection, memory, testimony, a priori), epistemic closure, skepticism and responses (contextualism, pragmatic encroachment), formal epistemology (Bayesian, Dutch book), social epistemology (testimony, peer disagreement, epistemic injustice), virtue epistemology, and applied epistemology. Questions must demand philosophical precision."""
+
+[[chapters]]
+index = 0
+phase = 0
+name = 'Foundations and Historical Survey'
+file = '01_Foundations_and_Historical_Survey/00-unit-survey.md'
+
+[[chapters]]
+index = 1
+phase = 0
+name = 'The Nature of Knowledge'
+file = '02_The_Nature_of_Knowledge/00-unit-survey.md'
+
+[[chapters]]
+index = 2
+phase = 1
+name = 'Sources of Knowledge'
+file = '03_Sources_of_Knowledge/00-unit-survey.md'
+
+[[chapters]]
+index = 3
+phase = 1
+name = 'Justification and Warrant'
+file = '04_Justification_and_Warrant/00-unit-survey.md'
+
+[[chapters]]
+index = 4
+phase = 2
+name = 'Skepticism'
+file = '05_Skepticism/00-unit-survey.md'
+
+[[chapters]]
+index = 5
+phase = 2
+name = 'Truth and Reality'
+file = '06_Truth_and_Reality/00-unit-survey.md'
+
+[[chapters]]
+index = 6
+phase = 3
+name = 'Philosophy of Mind and Epistemology'
+file = '07_Philosophy_of_Mind/00-unit-survey.md'
+
+[[chapters]]
+index = 7
+phase = 3
+name = 'Formal Epistemology'
+file = '08_Formal_Epistemology/00-unit-survey.md'
+
+[[chapters]]
+index = 8
+phase = 4
+name = 'Social and Political Epistemology'
+file = '09_Social_and_Political_Epistemology/00-unit-survey.md'
+
+[[chapters]]
+index = 9
+phase = 4
+name = 'Applied and Contemporary Epistemology'
+file = '10_Applied_and_Contemporary_Epistemology/00-unit-survey.md'
+
+[[phases]]
+index = 0
+name = 'Phase 0 — Foundations and Nature of Knowledge'
+
+[[phases]]
+index = 1
+name = 'Phase 1 — Sources and Justification'
+
+[[phases]]
+index = 2
+name = 'Phase 2 — Skepticism and Truth'
+
+[[phases]]
+index = 3
+name = 'Phase 3 — Formal and Cognitive Epistemology'
+
+[[phases]]
+index = 4
+name = 'Phase 4 — Social and Applied Epistemology'

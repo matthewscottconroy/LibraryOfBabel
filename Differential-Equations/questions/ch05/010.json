@@ -1,0 +1,22 @@
+{
+  "question_id": "9c036f16-2364-49b6-a552-e5fa227c6c1c",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "For an explicit finite-difference scheme for the wave equation, the CFL condition requires that:",
+  "choices": [
+    "the time step be made as large as possible for efficiency",
+    "the numerical domain of dependence contain the physical one, i.e. c*dt/dx <= 1",
+    "the spatial grid be nonuniform",
+    "the scheme be implicit"
+  ],
+  "answer": 1,
+  "explanation": "The Courant-Friedrichs-Lewy condition c*dt/dx <= 1 requires the numerical domain of dependence to include the physical domain of dependence; otherwise the explicit scheme is unstable no matter how accurate. Von Neumann analysis makes this precise through Fourier modes.",
+  "tags": [
+    "cfl-condition",
+    "von-neumann",
+    "numerical-pde"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

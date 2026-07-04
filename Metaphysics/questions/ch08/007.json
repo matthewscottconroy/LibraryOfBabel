@@ -1,0 +1,22 @@
+{
+  "question_id": "146a8ab8-76c7-43dc-b394-126dafdb277c",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Fine's objection to the modal analysis of essence (P is essential to x iff necessarily, if x exists then x is P) is that:",
+  "choices": [
+    "Socrates is necessarily such that 2+2=4, yet being such that 2+2=4 is intuitively no part of Socrates's essence, so the modal condition counts too much as essential.",
+    "some genuinely essential properties are only contingently possessed by their bearers.",
+    "necessity itself cannot be analysed in terms of possible worlds.",
+    "the essences of things must vary from one possible world to another."
+  ],
+  "answer": 0,
+  "explanation": "Fine's counterexample: since 2+2=4 is a necessary truth, 'necessarily, if Socrates exists then 2+2=4' holds, so the modal analysis wrongly counts it among Socrates's essential properties; essence must therefore be finer-grained than, and explanatorily prior to, necessity. The other options misstate Fine, who holds essential properties are necessarily possessed and keeps essence non-contingent and world-invariant.",
+  "tags": [
+    "fine",
+    "essence",
+    "modality"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

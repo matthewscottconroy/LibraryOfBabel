@@ -1,0 +1,21 @@
+{
+  "question_id": "4f12cc59-0598-40b2-ab73-b6193b28f1fb",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "According to the book, which of the following sets is uncountable?",
+  "choices": [
+    "ℝ, the real numbers",
+    "ℚ, the rational numbers",
+    "ℤ, the integers",
+    "the set of all finite strings over a finite alphabet"
+  ],
+  "answer": 0,
+  "explanation": "The book proves ℝ (in fact [0,1]) is uncountable via Cantor's diagonal argument. ℤ and ℚ are shown to be countably infinite (|ℤ| = |ℚ| = ℵ₀), and the set of finite strings over a finite alphabet is explicitly listed as countably infinite. Density of ℚ in ℝ concerns order, not cardinality, so ℚ is still countable.",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

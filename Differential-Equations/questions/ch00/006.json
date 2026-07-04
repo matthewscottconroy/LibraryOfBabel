@@ -1,0 +1,20 @@
+{
+  "question_id": "3c0f5a0a-0187-45ab-9da0-ffcb85ea9d65",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every bounded sequence of real numbers converges.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The Bolzano-Weierstrass theorem guarantees only a convergent subsequence, not convergence of the whole sequence; a_n = (-1)^n is bounded but does not converge. Monotonicity together with boundedness would force convergence.",
+  "tags": [
+    "bolzano-weierstrass",
+    "sequences",
+    "convergence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

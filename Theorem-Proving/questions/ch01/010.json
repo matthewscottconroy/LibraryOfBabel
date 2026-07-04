@@ -1,0 +1,20 @@
+{
+  "question_id": "d04f21c3-62ae-4355-8253-f263d465d2f8",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A formula written as a conjunction of clauses, where each clause is a disjunction of literals — e.g. (p ∨ ¬q) ∧ (¬p ∨ r) — is said to be in ___ normal form.",
+  "choices": [
+    "conjunctive"
+  ],
+  "answer": "conjunctive",
+  "explanation": "This is Conjunctive Normal Form (CNF): a conjunction (AND) of clauses, each a disjunction (OR) of literals. CNF is the input format SAT solvers expect. Disjunctive Normal Form (DNF), by contrast, is a disjunction of conjunctions of literals.",
+  "tags": [
+    "cnf",
+    "normal-forms",
+    "literals",
+    "clauses"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "d1a87de6-2ccc-4087-ac5e-b7c1744b8f12",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "If A ≠ 0 but A² = 0, then A is diagonalizable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "A² = 0 forces every eigenvalue to be 0, so a diagonalizable such A would be similar to the zero matrix, hence zero. Nonzero nilpotent matrices like [[0,1],[0,0]] are the standard examples of non-diagonalizable operators.",
+  "tags": [
+    "nilpotent",
+    "diagonalization"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

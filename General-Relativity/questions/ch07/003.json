@@ -1,0 +1,22 @@
+{
+  "question_id": "ae2fa0ea-48ee-4e9e-97e5-53b40d2256cc",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In this book the Christoffel symbols of the Levi-Civita connection are expressed in terms of the metric by which formula?",
+  "choices": [
+    "Γ^ρ_μν = g^ρσ (∂_μ g_νσ + ∂_ν g_μσ − ∂_σ g_μν)",
+    "Γ^ρ_μν = ½ g^ρσ (∂_μ g_νσ + ∂_ν g_μσ + ∂_σ g_μν)",
+    "Γ^ρ_μν = ½ (∂_μ g_νρ + ∂_ν g_μρ − ∂_ρ g_μν)",
+    "Γ^ρ_μν = ½ g^ρσ (∂_μ g_νσ + ∂_ν g_μσ − ∂_σ g_μν)"
+  ],
+  "answer": 3,
+  "explanation": "The book's formula is Γ^ρ_μν = ½ g^ρσ (∂_μ g_νσ + ∂_ν g_μσ − ∂_σ g_μν), with the factor ½, the inverse metric g^ρσ raising the index, and the two-plus/one-minus combination of first derivatives. Dropping the ½ (choice 0) or the inverse metric (choice 2), or making all three terms positive (choice 1), fails to give the metric-compatible, torsion-free connection. The single minus sign sits on the term whose derivative index is contracted through g^ρσ, namely −∂_σ g_μν.",
+  "tags": [
+    "connection",
+    "christoffel",
+    "metric"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

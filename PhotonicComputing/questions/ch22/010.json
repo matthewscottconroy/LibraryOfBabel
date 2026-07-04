@@ -1,0 +1,19 @@
+{
+  "question_id": "0443421e-5a20-4e68-9a8d-de1f7a5418c3",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Once metal (and germanium) are on the wafer, all subsequent process steps must stay below about ___ degrees C — the thermal-budget constraint that orders the entire flow (oxidation and LPCVD first, metals and PECVD/ALD last).",
+  "choices": [
+    "400-450"
+  ],
+  "answer": "400-450",
+  "explanation": "The roughly 400-450 degrees C thermal budget after metallization forces the flow's ordering and explains back-end material quirks such as the N-H absorption overtone near 1520 nm in low-temperature nitride. High-temperature steps (thermal oxidation, LPCVD nitride, implant anneals) must all precede metal deposition.",
+  "tags": [
+    "thermal-budget",
+    "process-flow",
+    "fabrication"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

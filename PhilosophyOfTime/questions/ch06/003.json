@@ -1,0 +1,19 @@
+{
+  "question_id": "aae9e7fd-4c6b-4fb6-9327-bb24a5553c26",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In special relativity, the fact that two spatially separated events judged simultaneous in one inertial frame need not be simultaneous in another frame moving relative to it is called the relativity of ___.",
+  "choices": [
+    "simultaneity"
+  ],
+  "answer": "simultaneity",
+  "explanation": "The expected term is 'simultaneity'. The relativity of simultaneity is a direct consequence of the Lorentz transformation and the constancy of the speed of light; it is a genuine feature of spacetime structure, not a measurement artifact, and it is the very premise the Rietdijk-Putnam argument exploits.",
+  "tags": [
+    "special-relativity",
+    "relativity-of-simultaneity",
+    "lorentz-transformation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

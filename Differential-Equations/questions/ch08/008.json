@@ -1,0 +1,19 @@
+{
+  "question_id": "2dc8c9f9-1f00-46b3-bd69-1940b3e448b9",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "blank",
+  "text": "___ spaces measure regularity by requiring a function and its weak derivatives up to some order to lie in an L^p space.",
+  "choices": [
+    "Sobolev"
+  ],
+  "answer": "Sobolev",
+  "explanation": "Sobolev spaces (W^{k,p}, with the Hilbert case H^k = W^{k,2}) are the natural setting for weak formulations of PDEs; the Sobolev embedding and trace theorems convert this integrated regularity into pointwise or boundary information.",
+  "tags": [
+    "sobolev-spaces",
+    "weak-derivative",
+    "regularity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

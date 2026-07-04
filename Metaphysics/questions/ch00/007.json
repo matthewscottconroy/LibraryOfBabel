@@ -1,0 +1,22 @@
+{
+  "question_id": "33de1d1d-8fc6-49c2-b2c8-79f7be8a4709",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Kit Fine's 'The Question of Ontology' reorients the discipline by arguing that the central question is not 'what exists?' but rather which of the following?",
+  "choices": [
+    "Which linguistic framework is the most pragmatically convenient for our purposes.",
+    "What is real, in the sense of belonging to the fundamental furniture of the world, a question the Quinean criterion cannot capture.",
+    "Which entities fall within the range of our quantifiers once our theories are regimented.",
+    "Whether ontological disputes are merely verbal disagreements about how to use the word 'exists'."
+  ],
+  "answer": 1,
+  "explanation": "Fine holds that being is not univocal: quantificational existence comes apart from reality/fundamentality, and the deep question concerns what is real rather than what the quantifier merely ranges over. The tempting distractor (option 2) restates Quine's own criterion, which Fine criticizes as too thin to mark the fundamental/derivative distinction; options 0 and 3 are Carnap's and Hirsch's deflationary views.",
+  "tags": [
+    "metaontology",
+    "fine",
+    "fundamentality"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

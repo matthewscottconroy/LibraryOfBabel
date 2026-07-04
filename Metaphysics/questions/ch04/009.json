@@ -1,0 +1,13 @@
+{
+  "question_id": "2b4a2caf-6a3b-4667-a4a1-7089d2eb2cb9",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "A rigid designator is a term that picks out a different object in each possible world, depending on which object best satisfies an associated description there.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. A rigid designator picks out the same object in every possible world where that object exists; the description given here characterizes a non-rigid designator such as 'the teacher of Alexander,' which can pick out different individuals at different worlds. Kripke's thesis that ordinary names are rigid is what drives his necessity-of-identity and necessary-a-posteriori results.",
+  "tags": ["modality", "rigid-designation", "kripke"],
+  "difficulty": "beginner",
+  "generated": true
+}

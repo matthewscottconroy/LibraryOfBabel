@@ -1,0 +1,13 @@
+{
+  "question_id": "606af745-05f3-4e24-a6e0-582d6289d370",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "On Bird's dispositional essentialism, the laws of nature are metaphysically necessary yet still discovered a posteriori through empirical investigation.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Because a property such as charge just is its dispositional profile, the laws governing it hold in every world where that property exists (metaphysically necessary), yet we learn them empirically, exactly the necessary-a-posteriori structure Kripke identified for 'water is H2O.' What is contingent, for Bird, is only which properties happen to exist, not the laws given those properties.",
+  "tags": ["laws-of-nature", "dispositional-essentialism", "bird", "necessity"],
+  "difficulty": "beginner",
+  "generated": true
+}

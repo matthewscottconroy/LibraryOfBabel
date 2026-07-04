@@ -1,0 +1,13 @@
+{
+  "question_id": "4c8e1d63-2a97-4f0b-9d51-6b3e8a0c7f24",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The book concludes that Physarum's anticipatory slowing in the cold-shock experiments definitively proves it stores a discrete, representational memory of the stimulus, exactly as a neuron would.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The book presents the finding as contested and better explained by entrainment of an internal oscillation than by any discrete, representational storage; Physarum has no synapses or synaptic plasticity. The behavioral observation (slowing at the trained period) is robust, but the strong 'representational memory' interpretation is explicitly not established.",
+  "tags": ["slime-mold", "memory", "epistemics"],
+  "difficulty": "advanced",
+  "generated": true
+}

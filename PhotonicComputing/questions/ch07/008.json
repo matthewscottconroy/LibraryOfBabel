@@ -1,0 +1,13 @@
+{
+  "question_id": "962e4985-5e53-4dcc-b8f1-550073e212b8",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: A surface plasmon polariton has a wavevector smaller than the free-space wavevector, which is why it radiates easily into free space.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The SPP wavevector k_SPP exceeds the free-space wavevector, which is precisely what binds it to the interface as a non-radiating surface mode (and why a prism or grating is needed to couple to it). A wavevector smaller than k0 would describe a radiating, not a bound, mode.",
+  "tags": ["surface-plasmon-polariton", "dispersion-relation", "plasmonics"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "7a53c003-c5ed-4855-92a5-f47485cf9b9b",
+  "chapter": 22,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Modular representation theory studies $k[G]$ for a finite group $G$ precisely in the setting where Maschke's theorem FAILS. That setting is:",
+  "choices": [
+    "$\\mathrm{char}(k) = p > 0$ with $p \\mid |G|$",
+    "$\\mathrm{char}(k) = 0$",
+    "$\\mathrm{char}(k) = p > 0$ with $p \\nmid |G|$",
+    "$G$ infinite and $k = \\mathbb{C}$"
+  ],
+  "answer": 0,
+  "explanation": "The chapter sets $\\mathrm{char}(k)=p>0$ with $p\\mid|G|$; there $k[G]$ is not semisimple and representations need not be completely reducible. In characteristic $0$, or when $p\\nmid|G|$ (exactly Maschke's hypothesis), $k[G]$ IS semisimple. Infiniteness of $G$ is not the issue, since $G$ is finite throughout.",
+  "tags": ["modular-representation-theory", "maschke", "semisimplicity"],
+  "difficulty": "beginner",
+  "generated": true
+}

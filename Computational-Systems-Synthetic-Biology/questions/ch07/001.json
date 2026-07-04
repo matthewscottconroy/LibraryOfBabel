@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which ionization method typically produces singly charged [M + H]+ ions via laser desorption from a co-crystallized matrix, and is commonly coupled with a TOF analyzer?",
+  "choices": [
+    "ESI (Electrospray Ionization), because it produces multiply charged ions",
+    "MALDI (Matrix-Assisted Laser Desorption Ionization)",
+    "Orbitrap analysis, an electrostatic ion trap rather than an ionization method",
+    "Triple quadrupole (QQQ) precursor ion selection, a mass analysis step rather than ionization"
+  ],
+  "answer": 1,
+  "explanation": "MALDI co-crystallizes analyte with a matrix compound and uses a laser pulse to desorb and ionize molecules, typically producing singly charged ions that are well suited to TOF analysis. ESI instead produces multiply charged ions and is paired with liquid chromatography, while the Orbitrap and triple quadrupole are mass analyzers, not ionization sources, so confusing them with an ionization method is a category error.",
+  "tags": [
+    "mass-spectrometry",
+    "ionization",
+    "maldi"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "39556ec8-e190-4034-b4ae-352cc0193d4a"
+}

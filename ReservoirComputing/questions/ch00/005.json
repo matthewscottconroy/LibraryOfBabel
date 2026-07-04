@@ -1,0 +1,22 @@
+{
+  "question_id": "498f8a0d-cbb1-44e8-ab75-dcb5f86f5202",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is the core rho -> memory tradeoff demonstrated in this lab?",
+  "choices": [
+    "Larger rho gives shorter memory but keeps the reservoir far from instability",
+    "The spectral radius rho has no measurable effect on memory length",
+    "Smaller rho gives longer memory at the cost of approaching instability",
+    "Larger rho gives longer memory but pushes the reservoir closer to instability"
+  ],
+  "answer": 3,
+  "explanation": "The lab states larger rho lengthens memory while moving the reservoir toward the stability boundary. The reversed-direction options contradict the measured 1/(1-rho) scaling, and rho clearly does affect memory length.",
+  "tags": [
+    "spectral-radius",
+    "memory-stability-tradeoff",
+    "instability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

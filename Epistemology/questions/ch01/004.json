@@ -1,0 +1,18 @@
+{
+  "question_id": "f775ae66-cd5a-417b-b27e-94e240e6f09c",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Nozick's tracking theory adds the sensitivity condition ('if p were false, S would not believe p'). A notorious consequence is that Nozick is led to deny epistemic closure. Why does sensitivity generate closure failure?",
+  "choices": [
+    "Sensitivity is trivially satisfied by every true belief, so it cannot discriminate known entailments from unknown ones.",
+    "S can be sensitive to an ordinary p (e.g. 'I have hands') yet fail to be sensitive to an entailed q (e.g. 'I am not a handless brain-in-a-vat'), because in the nearest world where q is false S would still believe q.",
+    "Sensitivity requires S to actually deduce every logical consequence of p, and no finite believer can carry out infinitely many deductions.",
+    "Sensitivity is equivalent to the safety condition, and safety is well known to be closed under entailment."
+  ],
+  "answer": 1,
+  "explanation": "In the nearest world where 'I am a brain-in-a-vat' is true, S would still believe he is not one, so the belief in the entailed skeptical denial is insensitive even though the belief in 'I have hands' is sensitive; hence S can know p without knowing a q that p obviously entails. Nozick embraces this failure of transmission as an anti-skeptical result. Option 3 is doubly wrong: sensitivity is roughly the converse of safety, and it is precisely tracking's failure to transmit across entailment that yields the closure denial.",
+  "tags": ["nozick", "sensitivity", "tracking", "closure", "skepticism"],
+  "difficulty": "advanced",
+  "generated": true
+}

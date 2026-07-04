@@ -1,0 +1,20 @@
+{
+  "question_id": "511cabdb-0894-4fde-889b-ef9f52842ad6",
+  "chapter": 16,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: The entropy of a single fair coin flip (two outcomes, each with probability 1/2) is exactly 1 bit.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "H = −(½ log₂ ½ + ½ log₂ ½) = 1 bit. The fair coin is the canonical unit of entropy, which is why the base-2 unit is called the 'bit.' So the statement is true.",
+  "tags": [
+    "fair-coin",
+    "bits",
+    "entropy"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

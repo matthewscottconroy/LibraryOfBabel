@@ -1,0 +1,19 @@
+{
+  "chapter": 11,
+  "phase": 2,
+  "kind": "blank",
+  "text": "___ (MDF) optimization finds metabolite concentrations that maximize the minimum Gibbs free energy drop (ΔrG) across every reaction in a pathway, thereby identifying the thermodynamic bottleneck reaction.",
+  "choices": [
+    "Max-Min Driving Force"
+  ],
+  "answer": "Max-Min Driving Force",
+  "explanation": "Max-Min Driving Force optimization searches over feasible metabolite concentrations to maximize the smallest (least favorable) ΔrG among all reactions in a pathway, ensuring every step is simultaneously thermodynamically feasible and pinpointing whichever reaction is the bottleneck. This differs from simple ΔrG° calculation tools like eQuilibrator, which compute standard free energies but do not optimize concentrations across a whole pathway.",
+  "tags": [
+    "max-min-driving-force",
+    "thermodynamics",
+    "pathway-analysis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "b1c99d49-218e-4358-850f-4abd81b62c1d"
+}

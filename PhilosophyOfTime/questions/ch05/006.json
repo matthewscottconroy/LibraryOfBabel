@@ -1,0 +1,18 @@
+{
+  "question_id": "4c4f762f-641e-4c38-b159-bfaba824f957",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What did Gödel's 1949 solution to Einstein's field equations demonstrate about the topology of time?",
+  "choices": [
+    "That closed timelike curves — trajectories always locally future-directed yet globally looping back to their own starting event — are consistent with general relativity, making temporal topology a contingent physical matter",
+    "That the laws of physics actively prevent the formation of any time loops through quantum gravitational effects",
+    "That time must be discrete at the Planck scale, with spacetime emerging from an underlying causal set",
+    "That the universe had a smooth, boundaryless origin when described in imaginary time"
+  ],
+  "answer": 0,
+  "explanation": "Gödel's rotating-universe solution contains closed timelike curves, showing that CTCs are compatible with Einstein's equations and that temporal topology is physically contingent rather than fixed by logic. Option 1 states Hawking's rival Chronology Protection Conjecture, option 2 is the causal set program, and option 3 is the Hartle-Hawking no-boundary proposal — all distinct claims from this unit.",
+  "tags": ["godel-universe", "closed-timelike-curves", "general-relativity", "time-travel"],
+  "difficulty": "intermediate",
+  "generated": true
+}

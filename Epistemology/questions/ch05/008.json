@@ -1,0 +1,23 @@
+{
+  "question_id": "686b4d1d-8c92-44e5-9361-528f8d2f4e35",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A philosopher who is a coherentist about justification but accepts a correspondence account of truth (as BonJour and Lehrer are usually read) is thereby committed to which of the following?",
+  "choices": [
+    "Coherence among beliefs is what makes a belief true, while correspondence to the world is what justifies it.",
+    "Coherence among a subject's beliefs is what confers justification, while what makes a belief true is how the mind-independent world is.",
+    "Both the truth and the justification of a belief consist in its coherence with the subject's total system of beliefs.",
+    "Neither the truth nor the justification of a belief has any constitutive connection to coherence."
+  ],
+  "answer": 1,
+  "explanation": "The coherence theory of truth (truth just is coherence within a system) must be kept distinct from coherentism about justification (coherence is the source of epistemic support). One can consistently hold the latter while rejecting the former, taking truth to be correspondence — indeed most contemporary coherentists about justification do exactly this. Option 0 inverts the two roles; option 2 conjoins the coherence theory of truth with coherentism; option 3 rejects both.",
+  "tags": [
+    "coherentism",
+    "justification",
+    "truth",
+    "correspondence"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

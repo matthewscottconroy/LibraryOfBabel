@@ -1,0 +1,21 @@
+{
+  "question_id": "8cc3d5a2-23d3-40f5-b976-a6ad63d29a2d",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A set of vectors is orthonormal when:",
+  "choices": [
+    "the vectors are pairwise orthogonal and each has norm 1",
+    "the vectors are pairwise orthogonal",
+    "the vectors are linearly independent and span the space",
+    "every pair of vectors has inner product 1"
+  ],
+  "answer": 0,
+  "explanation": "Orthonormal means ⟨eᵢ, eⱼ⟩ = δᵢⱼ: orthogonality between distinct vectors plus unit length. Orthonormal sets are automatically linearly independent, but need not span.",
+  "tags": [
+    "orthogonality",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

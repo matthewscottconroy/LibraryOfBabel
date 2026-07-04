@@ -1,0 +1,13 @@
+{
+  "question_id": "b1e74d9a-5c36-4a2f-8d19-7e0c6b4a2f83",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The unit concludes that the neural transition was a revolutionary departure that created cognition where none had existed before.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The unit's core insight is continuity: the nervous system did not create cognition but enhanced it, adding speed, specificity, and representation to processes already present in non-neural cells. Neurons use the same ion channels, membrane potentials, and signaling components as other cells; as the text puts it, the brain did not arrive to create cognition, it arrived to elaborate it.",
+  "tags": ["continuity", "core-insight", "neural-transition"],
+  "difficulty": "advanced",
+  "generated": true
+}

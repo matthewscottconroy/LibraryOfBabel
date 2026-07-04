@@ -1,0 +1,13 @@
+{
+  "question_id": "27f900b5-3650-4cea-8c28-c17ecefc6d18",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In a cohomological spectral sequence, each new page is the cohomology of the current page with respect to $d_r$: $E_{r+1}^{p,q}=\\ker(d_r^{p,q})/\\mathrm{im}(d_r^{p-r,q+r-1})$.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: this is the defining recursion of a spectral sequence, so each page is literally the cohomology of the previous one at the spot $(p,q)$. Repeatedly passing to cohomology is what makes the differentials eventually vanish and the pages stabilize to $E_\\infty$.",
+  "tags": ["spectral-sequences", "pages", "cohomology"],
+  "difficulty": "beginner",
+  "generated": true
+}

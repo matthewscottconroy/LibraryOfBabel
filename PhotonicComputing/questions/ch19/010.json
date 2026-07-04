@@ -1,0 +1,19 @@
+{
+  "question_id": "efdbc5cf-3e45-449d-95e2-f33d14cca440",
+  "chapter": 19,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In Gaussian boson sampling, output probabilities are proportional to |Haf(A_S)|^2, where 'Haf' is the ___, a #P-hard matrix function that counts the perfect matchings of a graph.",
+  "choices": [
+    "Hafnian"
+  ],
+  "answer": "Hafnian",
+  "explanation": "Gaussian boson sampling (Hamilton et al., 2017) replaces the permanent with the Hafnian, which counts perfect matchings and is #P-hard (classical cost ~2^(N/2) in detected photon number N); threshold detectors instead give the Torontonian.",
+  "tags": [
+    "gaussian-boson-sampling",
+    "hafnian",
+    "perfect-matchings"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

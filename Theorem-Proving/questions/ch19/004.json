@@ -1,0 +1,23 @@
+{
+  "question_id": "71543510-4d4d-448a-9a29-a34cb353625e",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Tarski's first-order axiomatization of elementary geometry uses a single sort (points) together with how many primitive predicates?",
+  "choices": [
+    "Three: point, line, and plane",
+    "Two: betweenness B(x,y,z) and congruence xy ≡ zw",
+    "One: incidence",
+    "Four: incidence, order, congruence, and continuity"
+  ],
+  "answer": 1,
+  "explanation": "Tarski's system is point-based with exactly two primitive predicates — betweenness B(x,y,z) and segment congruence D(x,y,z,w) — from which collinearity, circles, perpendiculars, and angle congruence are all defined. No separate primitive for lines, planes, or angles is needed; option D lists Hilbert's five axiom groups, not primitives.",
+  "tags": [
+    "tarski",
+    "primitives",
+    "betweenness",
+    "congruence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

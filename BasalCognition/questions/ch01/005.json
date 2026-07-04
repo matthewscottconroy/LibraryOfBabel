@@ -1,0 +1,13 @@
+{
+  "question_id": "a3c6e9f4-5b0d-4e8a-9f4c-3d7b0e2a6f59",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the Dexter et al. (2019) microfluidics study of the single-celled ciliate Stentor coeruleus, which observation was essential for showing the declining contraction response was genuine habituation (learning) rather than fatigue or receptor exhaustion?",
+  "choices": ["The cells stopped contracting permanently and never recovered", "The contraction response grew stronger with each repetition", "Habituation was stimulus-specific (cells habituated to fluid flow still responded to other stimuli) and recovered after a rest period, with dishabituation by a novel strong stimulus", "The cells divided more rapidly after habituating"],
+  "answer": 2,
+  "explanation": "Genuine habituation is defined by stimulus specificity, reversibility with rest, and dishabituation by a novel strong stimulus, all of which Stentor met, ruling out fatigue or receptor saturation. Permanent loss of response (option 0) would instead suggest damage; a strengthening response (option 1) is sensitization, the opposite of habituation; and division rate (option 3) is irrelevant to the criteria.",
+  "tags": ["habituation", "stentor", "cellular-learning"],
+  "difficulty": "intermediate",
+  "generated": true
+}

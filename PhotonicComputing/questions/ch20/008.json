@@ -1,0 +1,13 @@
+{
+  "question_id": "413355e8-95b4-4859-9c40-ba49a649f0e9",
+  "chapter": 20,
+  "phase": 3,
+  "kind": "tf",
+  "text": "True or False: Heterodyne (dual-homodyne) detection measures both quadratures x and p simultaneously at no cost in added noise.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False — simultaneously measuring the conjugate observables x and p forces a mandatory penalty of one added vacuum unit per quadrature, the price for reading both at once. Only single-quadrature homodyne detection avoids this added noise, selecting the measured quadrature via the local-oscillator phase.",
+  "tags": ["heterodyne", "measurement", "uncertainty"],
+  "difficulty": "intermediate",
+  "generated": true
+}

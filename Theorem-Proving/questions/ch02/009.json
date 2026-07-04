@@ -1,0 +1,19 @@
+{
+  "question_id": "70b64423-5685-4b59-b48e-7c6d577f2a91",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A first-order formula that contains no free variables is called a ___ (equivalently, a closed formula).",
+  "choices": [
+    "sentence"
+  ],
+  "answer": "sentence",
+  "explanation": "A formula with no free variables is a sentence (closed formula). Only sentences have a definite truth value in a structure independent of any variable assignment; open formulas (with free variables) are neither true nor false until those variables receive values.",
+  "tags": [
+    "sentence",
+    "closed-formula",
+    "free-variables"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

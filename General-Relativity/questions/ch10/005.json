@@ -1,0 +1,22 @@
+{
+  "question_id": "e3bc698b-c026-40dd-bcac-4d1891fd7e76",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "For a binary in a circular orbit with orbital frequency f_orbital, this book states the emitted gravitational-wave frequency f_GW is:",
+  "choices": [
+    "½ f_orbital",
+    "2 f_orbital",
+    "equal to f_orbital",
+    "4 f_orbital"
+  ],
+  "answer": 1,
+  "explanation": "The book shows the mass quadrupole tensor of a circular binary oscillates at twice the orbital frequency (2Ω), so f_GW = 2 f_orbital. This is why LIGO detects binaries at ~35–150 Hz while they orbit at ~17–75 Hz. It is a quadrupole effect, not the naive equality f_GW = f_orbital.",
+  "tags": [
+    "quadrupole",
+    "binary",
+    "frequency"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

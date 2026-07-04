@@ -1,0 +1,22 @@
+{
+  "question_id": "746fe3d2-f324-4cc1-87ff-ae5fd2931c2d",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Schaffer's priority monism is the thesis that:",
+  "choices": [
+    "only one thing, the cosmos, exists, and tables and people are illusions.",
+    "mereological simples are fundamental and wholes are grounded in their parts.",
+    "existence questions are merely verbal disputes.",
+    "the cosmos as a whole is the one fundamental entity, and its parts (particles, people) genuinely exist but are derivative."
+  ],
+  "answer": 3,
+  "explanation": "Priority monism says the whole (the cosmos) is prior in the grounding order, while its parts exist derivatively. It must be distinguished from existence monism, which denies that the many exist at all; the 'simples are fundamental' option is its rival, priority pluralism (Lewis, Sider).",
+  "tags": [
+    "schaffer",
+    "priority-monism",
+    "grounding"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

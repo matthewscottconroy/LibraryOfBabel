@@ -1,0 +1,20 @@
+{
+  "question_id": "a695467e-14e6-4d25-b927-3b44a19f9c55",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In Hamiltonian mechanics the time evolution of a phase-space function f with no explicit time dependence is given by the Poisson bracket df/dt = {f, ___}; consequently f is conserved when this bracket vanishes.",
+  "choices": [
+    "H",
+    "the Hamiltonian"
+  ],
+  "answer": "H",
+  "explanation": "The book writes df/dt = {f, H} + ∂f/∂t, so with no explicit time dependence df/dt = {f, H}, and f is conserved iff {f, H} = 0. Under Dirac's canonical quantization this Poisson bracket becomes the commutator (1/iℏ)[f̂, Ĥ].",
+  "tags": [
+    "hamiltonian",
+    "poisson-bracket",
+    "conservation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

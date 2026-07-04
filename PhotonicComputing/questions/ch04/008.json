@@ -1,0 +1,13 @@
+{
+  "question_id": "78040fbf-8fe3-4162-91dd-9de99f8ea9e5",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In a conventional (vertically illuminated) photodiode, making the absorber layer thicker improves both the transit-time bandwidth and the quantum efficiency at the same time.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False: a thicker absorber raises quantum efficiency (more photons absorbed) but lengthens carrier transit time, lowering the transit-time-limited bandwidth — a direct tradeoff. The waveguide photodetector geometry is what decouples these, absorbing along the propagation axis while keeping the depletion region thin.",
+  "tags": ["bandwidth-efficiency-tradeoff", "transit-time", "waveguide-detector"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "f1fe71c8-8586-44d8-a811-0825678d6a97",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the lab's washout ablation (N=100, ρ=0.9), how does washout=0 compare with washout=100, and why?",
+  "choices": [
+    "It improves NMSE, because more training data is retained",
+    "It has no measurable effect, because ridge regression removes transients",
+    "It reduces NMSE only for large N, not for small N",
+    "It produces noticeably worse NMSE, because the first steps carry the arbitrary initial state"
+  ],
+  "answer": 3,
+  "explanation": "The lab observes washout=0 is noticeably worse than washout=100: the first ~100 steps still carry the memory of the arbitrary zero initial state and contaminate the training targets, biasing W_out. Retaining corrupted early states does not help.",
+  "tags": [
+    "narma10",
+    "washout",
+    "training"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

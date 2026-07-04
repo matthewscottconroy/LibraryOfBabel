@@ -1,0 +1,23 @@
+{
+  "question_id": "542132bb-6847-4226-ae48-5ebfd2578715",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Skolemization eliminates the existential quantifier in ∀x ∃y P(x, y) by:",
+  "choices": [
+    "deleting ∃y and leaving y as a free variable",
+    "replacing y with a new function symbol applied to the governing universal variables, e.g. P(x, f(x))",
+    "replacing y with a single fresh constant, e.g. P(x, c), in every case",
+    "swapping the quantifiers to ∃y ∀x P(x, y)"
+  ],
+  "answer": 1,
+  "explanation": "Skolemization replaces the existentially quantified variable by a Skolem FUNCTION of the universal variables it depends on: ∀x∃y P(x,y) becomes ∀x P(x, f(x)). A bare constant (option 3) only works when the ∃ lies inside no ∀; leaving y free (option 1) or swapping quantifiers (option 4) changes the meaning. Skolemization preserves satisfiability, not logical equivalence.",
+  "tags": [
+    "skolemization",
+    "quantifiers",
+    "existential",
+    "prenex"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

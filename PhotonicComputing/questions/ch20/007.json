@@ -1,0 +1,13 @@
+{
+  "question_id": "cf554bfa-f428-4ef4-a427-c8886d88bb47",
+  "chapter": 20,
+  "phase": 3,
+  "kind": "tf",
+  "text": "True or False: A CV quantum circuit consisting only of squeezers, beam splitters, phase shifters, and homodyne detection can be efficiently simulated on a classical computer.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True — this is the CV Gottesman-Knill result (Bartlett-Sanders-Braunstein-Nemoto, 2002): an all-Gaussian circuit keeps a positive Wigner function that evolves as a classical probability distribution, so it is efficiently simulable. Injecting a non-Gaussian element (a cubic gate, a GKP state, or photon counting) is what could make it hard.",
+  "tags": ["gaussian-no-go", "classical-simulation"],
+  "difficulty": "beginner",
+  "generated": true
+}

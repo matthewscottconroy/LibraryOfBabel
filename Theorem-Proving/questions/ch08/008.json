@@ -1,0 +1,20 @@
+{
+  "question_id": "f7b734bb-e342-453a-a133-81009d730a2b",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "True or False: Skolem's paradox shows that ZFC is actually inconsistent, because ZFC proves uncountable sets exist yet (by downward Löwenheim–Skolem) has a countable model.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Skolem's paradox is not a contradiction: 'uncountable' is relative to a model. A countable model of ZFC contains a set it internally believes is uncountable because the model lacks the bijection with ω that an outside observer can see. No inconsistency follows — the paradox only shows countability is model-relative.",
+  "tags": [
+    "skolem-paradox",
+    "lowenheim-skolem",
+    "zfc"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

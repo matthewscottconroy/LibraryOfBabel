@@ -1,0 +1,19 @@
+{
+  "question_id": "cbd77dea-3c28-40df-83ff-3ef9078f78a0",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The undecidability of the halting problem is proved by ___, the same self-referential technique Cantor used to prove that the reals are uncountable.",
+  "choices": [
+    "diagonalization"
+  ],
+  "answer": "diagonalization",
+  "explanation": "The proof builds a 'diagonalizer' D that halts on input P iff P does not halt on itself, then feeds D to itself, forcing a contradiction — Cantor's diagonal argument. The expected term is 'diagonalization' (the diagonal argument).",
+  "tags": [
+    "diagonalization",
+    "halting-problem",
+    "cantor"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

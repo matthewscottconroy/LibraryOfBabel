@@ -1,0 +1,18 @@
+{
+  "question_id": "d8b800aa-b7ac-49e3-b5c6-e9e60fb03c87",
+  "chapter": 18,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A detector's system detection efficiency factorizes as eta_SDE = eta_couple * eta_absorb * eta_internal. For a waveguide-integrated SNSPD, which term is solved by traveling-wave evanescent absorption (1 - e^(-alpha*L), ~1 dB/um)?",
+  "choices": [
+    "eta_couple (fiber-to-chip coupling)",
+    "eta_internal (hotspot-to-voltage-pulse conversion)",
+    "The dark-count rate",
+    "eta_absorb (the probability the photon is absorbed in the nanowire)"
+  ],
+  "answer": 3,
+  "explanation": "Running the nanowire along the waveguide lets the mode be absorbed evanescently over its length (1 - e^(-alpha*L)), giving 91-99% on-chip absorption (Pernice 2012); this addresses eta_absorb. Coupling efficiency (choice 0) and internal/hotspot efficiency (choice 1) are separate factors, and dark counts (choice 2) are not part of the SDE product.",
+  "tags": ["snspd", "sde-factorization", "waveguide-integration"],
+  "difficulty": "advanced",
+  "generated": true
+}

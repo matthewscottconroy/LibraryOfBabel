@@ -1,0 +1,22 @@
+{
+  "question_id": "0d66b376-5920-49fd-b1f7-59fd00b58c91",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "According to the lab materials, why is NARMA-10 considered a demanding benchmark?",
+  "choices": [
+    "It has a chaotic attractor that is impossible to predict beyond a few steps",
+    "It requires both roughly 10 steps of memory and a nonlinear interaction of past values",
+    "Its input is high-dimensional, forcing the use of a very large reservoir",
+    "Its targets are discrete symbols that must be classified exactly"
+  ],
+  "answer": 1,
+  "explanation": "The target depends on the full past 10 steps (memory) and on nonlinear products (0.05·y·Σ and 1.5·u·u), so a model must supply both memory AND nonlinearity. NARMA-10 is not chaotic (that is Mackey-Glass/Lorenz), its input is scalar, and its targets are continuous values.",
+  "tags": [
+    "narma10",
+    "memory",
+    "nonlinearity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

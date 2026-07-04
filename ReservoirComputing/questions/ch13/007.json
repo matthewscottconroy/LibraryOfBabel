@@ -1,0 +1,20 @@
+{
+  "question_id": "7667dab0-94a5-4ac6-ac57-b554c12f1751",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "tf",
+  "text": "NVAR replaces the random recurrent reservoir with an explicitly constructed, deterministic feature vector, so its results are reproducible and do not depend on a random seed.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. NVAR's features are computed by direct arithmetic on the observed inputs, with no random matrices, so runs are bit-for-bit reproducible — in contrast to ESNs, whose performance varies with the random initialization seed. Determinism/reproducibility is one of NVAR's cited practical advantages.",
+  "tags": [
+    "nvar",
+    "determinism",
+    "reproducibility"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

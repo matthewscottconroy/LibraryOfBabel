@@ -1,0 +1,19 @@
+{
+  "question_id": "34600c5d-c977-4967-b9a6-26935fa72cff",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "According to the generalized Snell's law, a metasurface steers transmitted light by imposing a spatially varying phase ___ (d(phi)/dx) across its surface.",
+  "choices": [
+    "gradient"
+  ],
+  "answer": "gradient",
+  "explanation": "The generalized Snell's law, n2*sin(theta_t) - n1*sin(theta_i) = (lambda/2*pi)*d(phi)/dx, shows that a transverse phase gradient redirects the transmitted beam. Varying the meta-atom geometry across the surface sets this gradient.",
+  "tags": [
+    "generalized-snells-law",
+    "metasurface",
+    "phase-gradient"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

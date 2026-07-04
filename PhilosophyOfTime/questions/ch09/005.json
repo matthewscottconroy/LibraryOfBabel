@@ -1,0 +1,18 @@
+{
+  "question_id": "1057bf7f-1c4a-418a-9cd4-122794de78fe",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The chapter presents compatibilism and libertarian agent causation as two contrasting responses that each try to preserve agency. How do they differ?",
+  "choices": [
+    "Agent causation treats persons as irreducible substance-causes and requires a genuinely open, indeterministic future, whereas compatibilism analyzes freedom as the right causal relation between one's reasons and one's actions, consistent with determinism.",
+    "Agent causation accepts determinism, whereas compatibilism requires quantum indeterminism to make room for choice.",
+    "Agent causation denies bivalence for future-tense statements, whereas compatibilism affirms it.",
+    "Agent causation locates the harm of unfreedom before the act, whereas compatibilism locates it timelessly."
+  ],
+  "answer": 0,
+  "explanation": "For O'Connor, agent causation makes the person a substance-cause with irreducible causal powers and fits an open, indeterministic future; compatibilism instead locates freedom in a reasons-responsive causal structure that is fully compatible with determinism. Option B reverses the two views' stances on determinism. Bivalence belongs to the sea-battle debate, and ante-mortem versus timeless harm belongs to the location problem about death, not to these free-will responses.",
+  "tags": ["compatibilism", "agent-causation", "libertarianism", "free-will"],
+  "difficulty": "intermediate",
+  "generated": true
+}

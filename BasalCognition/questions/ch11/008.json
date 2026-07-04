@@ -1,0 +1,13 @@
+{
+  "question_id": "5b1e8d40-6c92-4a7f-9d38-1e0b4c7a6f52",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Even a complete functional account of a bacterium's cognition would still leave open the question of whether there is anything it is like to be that bacterium.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. This is Chalmers's hard problem applied to basal cognition: a complete third-person, functional account of a bacterium's sensing, memory, and action still leaves open whether there is any subjective 'what-it-is-like' to being it. Functional cognition and phenomenal experience come apart in principle, which is why the book adopts principled agnosticism.",
+  "tags": ["hard-problem", "phenomenal-consciousness", "chalmers"],
+  "difficulty": "intermediate",
+  "generated": true
+}

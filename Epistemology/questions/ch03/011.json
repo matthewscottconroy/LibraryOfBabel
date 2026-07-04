@@ -1,0 +1,20 @@
+{
+  "question_id": "d34bea0c-a3a7-46a9-acdd-2d52f5223d55",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Conee and Feldman's evidentialism holds that a belief is justified if and only if it ___ the believer's evidence, where that evidence consists entirely of the believer's mental states.",
+  "choices": [
+    "fits"
+  ],
+  "answer": "fits",
+  "explanation": "Evidentialism ties justification to evidential fit: the justified attitude is the one that fits the evidence the subject has. Because that evidence is identified with the believer's mental states, evidentialism is a form of mentalist internalism rather than an externalist view.",
+  "tags": [
+    "evidentialism",
+    "conee-feldman",
+    "mentalism",
+    "evidence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "f2f8036c-2a85-4502-9dcc-ac0c1de7f100",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Beyond grid and random search, ___ optimization fits a Gaussian-process surrogate to past evaluations and picks the next point by maximizing an acquisition function such as expected improvement.",
+  "choices": [
+    "Bayesian",
+    "bayesian"
+  ],
+  "answer": "Bayesian",
+  "explanation": "Section 8.8 describes Bayesian optimization: a GP surrogate models the validation loss and expected improvement (EI) trades off exploration and exploitation to choose the next configuration. It pays off for expensive evaluations and sharp landscapes.",
+  "tags": [
+    "hyperparameters",
+    "bayesian-optimization",
+    "acquisition"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "d08c801b-e6c8-4261-a34b-5ba8c00195da",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A clock moves with speed v through inertial frame S. If Δτ is the proper time between two of its ticks, the coordinate time Δt between those ticks measured in S is:",
+  "choices": [
+    "Δt = Δτ / γ, so the moving clock runs fast",
+    "Δt = Δτ, because time is absolute",
+    "Δt = Δτ / γ², a second-order effect only",
+    "Δt = γ Δτ, so the moving clock runs slow"
+  ],
+  "answer": 3,
+  "explanation": "Time dilation gives Δt = γΔτ with γ = 1/√(1−v²/c²) ≥ 1, so the coordinate time exceeds the proper time — the moving clock runs slow. Choice 1 is the Newtonian assumption of absolute time that SR discards. The proper time Δτ read by the co-moving clock is invariant, while the coordinate time Δt is frame-dependent.",
+  "tags": ["time-dilation", "proper-time", "gamma"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "b1d84e60-3a97-42c5-8e19-0f6b7c2a9d35",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The information-theoretic measure called ___ quantifies directed statistical dependence over time, capturing how much knowing the past of variable X reduces uncertainty about the future of variable Y, and can detect directed information flow without assuming a mechanism.",
+  "choices": [
+    "transfer entropy"
+  ],
+  "answer": "transfer entropy",
+  "explanation": "Transfer entropy measures directed statistical dependence over time, how much the past of X reduces uncertainty about the future of Y beyond Y's own past, letting researchers detect directed information flow in biological systems without assuming a mechanism. That mechanism-agnostic quality makes it especially useful where the underlying mechanisms are unknown.",
+  "tags": [
+    "transfer-entropy",
+    "information-theory",
+    "measurement-problem"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

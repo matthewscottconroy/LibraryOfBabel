@@ -1,0 +1,23 @@
+{
+  "question_id": "2ab674f2-fa66-4e90-835b-f56a87568065",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Putnam's multiple realizability argument is standardly taken to be the decisive objection to which position?",
+  "choices": [
+    "Functionalism",
+    "Substance dualism",
+    "Type identity theory",
+    "Eliminative materialism"
+  ],
+  "answer": 2,
+  "explanation": "Multiple realizability holds that one mental type (pain) can be realized by many different physical types — human C-fibres, octopus neurons, perhaps silicon — so the mental type cannot be identical to any single physical type, which is exactly what type identity theory asserts. It does not target dualism or eliminativism, and Putnam in fact used it to *support* functionalism, not to refute it.",
+  "tags": [
+    "multiple-realizability",
+    "putnam",
+    "identity-theory",
+    "functionalism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "b94f73d4-df3d-42b9-aee3-f9da3dc4d93f",
+  "chapter": 23,
+  "phase": 8,
+  "kind": "mc",
+  "text": "For an ordinal $\\alpha$, its successor $\\alpha + 1$ is defined to be:",
+  "choices": [
+    "$\\{\\alpha\\}$",
+    "$\\mathcal{P}(\\alpha)$",
+    "$\\alpha \\cup \\alpha$",
+    "$\\alpha \\cup \\{\\alpha\\}$"
+  ],
+  "answer": 3,
+  "explanation": "The successor is $\\alpha+1 = \\alpha \\cup \\{\\alpha\\}$, adjoining $\\alpha$ itself as a new greatest element. $\\{\\alpha\\}$ alone is not transitive; $\\mathcal{P}(\\alpha)$ is the power set (used to build $V_{\\alpha+1}$, not the ordinal successor); and $\\alpha \\cup \\alpha = \\alpha$ changes nothing.",
+  "tags": ["ordinals", "successor-ordinal", "von-neumann"],
+  "difficulty": "intermediate",
+  "generated": true
+}

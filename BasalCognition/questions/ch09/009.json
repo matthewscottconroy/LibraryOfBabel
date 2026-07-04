@@ -1,0 +1,19 @@
+{
+  "question_id": "7c9e1b3d-5f7a-4c9e-b1d3-9a1c3e5f7b08",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "blank",
+  "text": "A biological structure with no rigid skeleton — such as an octopus arm, an elephant trunk, or the tongue — in which muscle serves simultaneously as the actuator of movement and as the skeleton, is called a muscular ___.",
+  "choices": [
+    "hydrostat"
+  ],
+  "answer": "hydrostat",
+  "explanation": "In a muscular hydrostat, coordinated muscle contraction generates the rigidity that ordinarily comes from bone, enabling directed movement. The octopus arm is the most-studied example, and its tissue mechanics are integral to the control system rather than a passive medium, making it a rich case of morphological computation.",
+  "tags": [
+    "muscular-hydrostat",
+    "morphological-computation",
+    "octopus"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "d4780f0f-065c-434f-b302-9ac4ed684518",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Thomasson's 'easy ontology' holds that whether ordinary tables exist can be answered only by a deep metaphysical investigation into what is fundamental.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Thomasson's easy ontology says such questions are answered easily, by applying ordinary conceptual/application rules to uncontested facts (there is wood arranged table-wise, so there is a table). It is the heavyweight realist (Sider) who reserves substantive investigation for questions of fundamentality and structure.",
+  "tags": [
+    "thomasson",
+    "easy-ontology",
+    "deflationism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "28f24ea9-d70a-4ab2-8d2b-fe97b69a618c",
+  "chapter": 21,
+  "phase": 3,
+  "kind": "tf",
+  "text": "True or False: Satellite QKD outperforms long-haul fiber over 1,200 km because free space above the atmosphere suffers only diffraction (a polynomial loss) rather than the exponential absorption of fiber.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True — fiber loses roughly 240 dB over 1,200 km exponentially, while free space above the atmosphere suffers only diffraction (a ~30 cm telescope beam spreads to a few meters), tens of dB, a ~10^20 advantage that the Micius satellite exploited for kHz-rate keys. This change in the loss law is why satellites exist.",
+  "tags": ["satellite-qkd", "micius", "diffraction"],
+  "difficulty": "beginner",
+  "generated": true
+}

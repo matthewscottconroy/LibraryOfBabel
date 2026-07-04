@@ -1,0 +1,20 @@
+{
+  "chapter": 17,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Cas12a (Cpf1) recognizes a T-rich PAM (5'-TTTN-3') located 5' of the protospacer and generates a staggered, sticky-end cut, unlike the blunt cut produced by SpCas9.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true and captures the key distinguishing features of Cas12a versus SpCas9: PAM position (5' rather than 3' of the protospacer), PAM sequence (TTTN rather than NGG), and cut geometry (staggered rather than blunt). Cas12a also uniquely processes its own crRNA array from a single transcript, another feature not shared by SpCas9.",
+  "tags": [
+    "cas12a",
+    "pam",
+    "staggered-cut"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "55c34cce-b076-4b0e-af65-d15e5f05c91f"
+}

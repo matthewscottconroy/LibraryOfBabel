@@ -1,0 +1,20 @@
+{
+  "question_id": "93792351-f8c6-47f4-8553-a27b30648876",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "tf",
+  "text": "By the Poincare-Bendixson theorem, chaotic trajectories cannot occur in a smooth autonomous system in the plane.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "In two dimensions the Poincare-Bendixson theorem restricts bounded limit sets to fixed points and closed orbits, so at least three dimensions are needed for a continuous-time system to be chaotic (as in the Lorenz system). Discrete maps, by contrast, can be chaotic in one dimension.",
+  "tags": [
+    "poincare-bendixson",
+    "chaos",
+    "dimension"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "chapter": 21,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Engineering a microbe so it depends on a synthetic amino acid not found in nature -- such that it dies without an external supply of that amino acid -- is a biocontainment strategy known as ___ containment.",
+  "choices": [
+    "auxotrophic"
+  ],
+  "answer": "auxotrophic",
+  "explanation": "Auxotrophic containment creates a dependency on a synthetic nutrient absent from natural environments; without an external supply, the engineered cell dies, though the chapter notes evolution of escape mutants remains a known weakness of this approach.",
+  "tags": [
+    "biocontainment",
+    "auxotrophic-containment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "c7c585e0-3764-4c68-9bc7-4616e3678f31"
+}

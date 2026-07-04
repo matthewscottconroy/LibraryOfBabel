@@ -1,0 +1,19 @@
+{
+  "question_id": "6aa727ab-226d-46b3-85ec-acb0f39a5b6d",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Most binary strings of length n are incompressible, i.e. K(x) is approximately n.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "A counting argument shows there are too few short programs to compress most strings, so the typical n-bit string has K(x) ~ n and is Kolmogorov random.",
+  "tags": [
+    "kolmogorov-complexity",
+    "incompressibility"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

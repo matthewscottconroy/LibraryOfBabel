@@ -1,0 +1,20 @@
+{
+  "question_id": "0ca568bf-f6e4-4d31-b5c7-791d0ff7ccc5",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Because it normalizes out each chaotic system's natural timescale, the Valid Prediction Time (VPT) is conventionally reported in ___ times (the reciprocal of the largest Lyapunov exponent).",
+  "choices": [
+    "Lyapunov",
+    "lyapunov"
+  ],
+  "answer": "Lyapunov",
+  "explanation": "VPT is reported in Lyapunov times, T_VPT^Ly = lambda_1 * T_VPT, so results are comparable across systems. For the Lorenz system one Lyapunov time is tau_L = 1/lambda_max ~ 1.1 time units ~ 55 integration steps at dt=0.02.",
+  "tags": [
+    "VPT",
+    "lyapunov-time",
+    "metric"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

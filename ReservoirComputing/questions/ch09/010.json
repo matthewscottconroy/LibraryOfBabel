@@ -1,0 +1,22 @@
+{
+  "question_id": "12cd62f6-4e70-4299-8c5c-ca2a7f05f334",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the RLS weight update w_t = w_{t-1} + k_t e_t, how is the error e_t defined?",
+  "choices": [
+    "e_t = y*_t - w_t^T x_t, using the already-updated weights",
+    "e_t = w_{t-1}^T x_t - w_t^T x_t, the change in prediction between steps",
+    "e_t = y*_t - w_{t-1}^T x_t, the prediction error using the pre-update weights",
+    "e_t = x_t - y*_t w_{t-1}, the input residual"
+  ],
+  "answer": 2,
+  "explanation": "The error is computed with the current (pre-update) weights: esn.py forms y_pred = w^T x and then error = y_target - y_pred BEFORE updating w. Using post-update weights, a prediction difference, or an input residual all misstate the RLS error term.",
+  "tags": [
+    "rls",
+    "error-signal",
+    "weight-update"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

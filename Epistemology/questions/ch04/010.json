@@ -1,0 +1,20 @@
+{
+  "question_id": "8b0e009b-9ad7-4dd6-aa6a-c1ac064b344c",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In Pyrrhonism, when the arguments and appearances on both sides of a question are found to be of equal weight, the skeptic's characteristic response is ___, the suspension of judgment, which is said to be followed by ataraxia.",
+  "choices": [
+    "epoché"
+  ],
+  "answer": "epoché",
+  "explanation": "Epoché is the suspension of judgment the Pyrrhonist reaches when opposing appearances are equipollent (of equal force), and Sextus reports that ataraxia—tranquility—follows upon it. It contrasts with the Academic skeptic's positive claim that knowledge is impossible, which the Pyrrhonist regards as itself dogmatic.",
+  "tags": [
+    "pyrrhonism",
+    "epoche",
+    "suspension-of-judgment",
+    "sextus-empiricus"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

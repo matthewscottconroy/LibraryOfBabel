@@ -1,0 +1,20 @@
+{
+  "question_id": "61aceb05-9c1c-4fce-a081-742f4eb42d21",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "tf",
+  "text": "For Husserl, retention is simply another name for the ordinary voluntary recollection of past events.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Husserl carefully separates retention from recollection: retention is the immediate, involuntary holding of the just-past as still present-as-past, whereas recollection (secondary memory) is a voluntary act of re-presenting an event that is no longer in the living present.",
+  "tags": [
+    "retention",
+    "recollection",
+    "husserl"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

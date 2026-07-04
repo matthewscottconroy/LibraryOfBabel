@@ -1,0 +1,22 @@
+{
+  "question_id": "9f22a392-038a-4463-a236-a302a988d24b",
+  "chapter": 13,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Applied to dynamics, univalence makes which relation the fundamental equivalence of systems?",
+  "choices": [
+    "measurable isomorphism",
+    "orbit equivalence",
+    "topological conjugacy",
+    "linear conjugacy"
+  ],
+  "answer": 2,
+  "explanation": "Two systems become 'equal' exactly when topologically conjugate, so conjugacy is the native equivalence in a type-theoretic treatment of dynamics.",
+  "tags": [
+    "univalence",
+    "topological-conjugacy",
+    "dynamics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "a6c4aea0-f218-46a4-bed5-6267f1d07f6f",
+  "chapter": 23,
+  "phase": 4,
+  "kind": "blank",
+  "text": "For the all-pass ring resonator, the resonant transmission drops to exactly zero at ___ coupling, the condition where the self-coupling coefficient r equals the round-trip field survival a.",
+  "choices": [
+    "critical"
+  ],
+  "answer": "critical",
+  "explanation": "Critical coupling (a = r) makes the on-resonance transmission vanish because the circulating and coupled fields interfere fully destructively. Both the under-coupled case (a > r) and the over-coupled case (a < r) give nonzero resonant transmission.",
+  "tags": [
+    "ring-resonator",
+    "critical-coupling",
+    "transfer-function"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

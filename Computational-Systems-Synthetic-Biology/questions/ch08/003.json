@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A TM-score above 0.5 between two protein structures is generally interpreted as indicating that the two proteins:",
+  "choices": [
+    "Are unrelated, since a score above 0.5 only indicates similarity above random chance",
+    "Share the same overall fold, typically the same SCOP superfamily",
+    "Have identical amino acid sequences",
+    "Have a poor-quality superposition that should be discarded"
+  ],
+  "answer": 1,
+  "explanation": "A TM-score above 0.5 is the standard threshold for two structures sharing the same overall fold, typically corresponding to the same SCOP superfamily. The 'above random similarity' threshold is actually much lower, around TM-score > 0.17, so option A confuses the two cutoffs. TM-score measures structural similarity independent of sequence identity, and a high score reflects a good, not poor, superposition.",
+  "tags": [
+    "tm-score",
+    "rmsd",
+    "structure-comparison"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "16e702c9-73d5-486b-93b0-a3243c26444b"
+}

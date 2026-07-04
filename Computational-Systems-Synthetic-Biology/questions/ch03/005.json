@@ -1,0 +1,22 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which probabilistic data structure provides space-efficient, approximate set-membership testing and underlies k-mer counting tools such as jellyfish?",
+  "choices": [
+    "MinHash",
+    "Count-Min Sketch",
+    "Bloom filter",
+    "Hash table with open addressing"
+  ],
+  "answer": 2,
+  "explanation": "Bloom filters are explicitly named as the space-efficient, approximate set-membership structure used by jellyfish for k-mer counting. MinHash instead estimates Jaccard similarity between sets (e.g., for genome distance estimation), Count-Min Sketch estimates item frequencies rather than membership, and a standard hash table with open addressing gives exact membership testing at higher memory cost, not approximate.",
+  "tags": [
+    "probabilistic-data-structures",
+    "bloom-filter",
+    "k-mer-counting"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "9c76ca6f-e053-4867-95ce-3780f69fc74c"
+}

@@ -1,0 +1,16 @@
+# Build manifest for the Reservoir Computing textbook.
+# Reproduces the behaviour of the original book/build_pdf.py: book/ holds
+# unit_XX/chapter_YY/section_ZZ/ leaves (introduction.md intros + chapter back
+# matter) plus an appendices/ directory.  labs/ is intentionally NOT part of the
+# PDF.
+title = "Reservoir Computing"
+subtitle = "From First Principles to the Frontier"
+
+front_matter = [
+    "book/preface.md",
+]
+
+[[sources]]
+root = "book"
+recursive = true
+part_level = 1   # unit_01 .. unit_XX and appendices/ become \part

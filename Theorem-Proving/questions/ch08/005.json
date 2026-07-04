@@ -1,0 +1,22 @@
+{
+  "question_id": "c9b230bf-4f17-403e-8281-968cf3f54036",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which statement is the Compactness Theorem for first-order logic?",
+  "choices": [
+    "A theory is complete if and only if it is consistent",
+    "Every satisfiable theory has a finite model",
+    "A theory has a model if and only if it is finite",
+    "A set Γ of sentences is satisfiable if and only if every finite subset of Γ is satisfiable"
+  ],
+  "answer": 3,
+  "explanation": "Compactness states Γ is satisfiable iff every finite subset of Γ is satisfiable. Option B is false (satisfiable theories can force infinite models, e.g. non-standard arithmetic); option C conflates having a model with being finite; option A confuses completeness with consistency. Only D is the theorem.",
+  "tags": [
+    "compactness",
+    "satisfiability",
+    "theorems"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

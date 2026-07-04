@@ -1,0 +1,13 @@
+{
+  "question_id": "700baeec-7bbe-46f8-b4e1-82ed5c7bbfe6",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "tf",
+  "text": "IBM's TrueNorth chip (2014) runs one million neurons in real time while dissipating several hundred watts.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False: TrueNorth's headline achievement was ultra-low power, about 70 mW (a fraction of a watt) for its one million neurons and 256 million synapses, not hundreds of watts. That low-power figure is exactly what made the chip notable.",
+  "tags": ["neuromorphic", "truenorth", "low-power", "hardware"],
+  "difficulty": "intermediate",
+  "generated": true
+}

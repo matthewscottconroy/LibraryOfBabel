@@ -1,0 +1,20 @@
+{
+  "question_id": "8a982e68-e0fe-4faa-b738-bd49eccbfd3b",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "tf",
+  "text": "In Lab 13 the 3-layer DeepESN (3×100 neurons) and the single-ESN baseline (N=300) contain the same total number of reservoir neurons.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The lab deliberately matches capacity: LAYER_SIZES = [100,100,100] gives 300 neurons total, equal to N_SINGLE = 300. This isolates the benefit of DEPTH (a timescale hierarchy) from the trivial benefit of simply adding neurons.",
+  "tags": [
+    "deep-esn",
+    "lab13",
+    "fair-comparison"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

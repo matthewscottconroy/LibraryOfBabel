@@ -1,0 +1,20 @@
+{
+  "chapter": 9,
+  "phase": 1,
+  "kind": "tf",
+  "text": "ASTRAL estimates a species tree from a set of input gene trees by minimizing quartet distance, which helps account for discordance caused by incomplete lineage sorting.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: ASTRAL is a coalescent-aware method that takes individual gene trees and finds the species tree minimizing quartet distance to them, explicitly modeling incomplete lineage sorting via the multi-species coalescent. This makes it well suited to situations of rapid radiation where many gene trees conflict with each other.",
+  "tags": [
+    "astral",
+    "coalescent",
+    "species-tree"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "c5e55ec5-5590-4090-a591-8736f29cc9aa"
+}

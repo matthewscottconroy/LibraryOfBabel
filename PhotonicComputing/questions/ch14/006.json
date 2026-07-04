@@ -1,0 +1,18 @@
+{
+  "question_id": "35ee9e07-df15-4b66-ae45-95be6a8a9933",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why can a non-volatile phase-change-material (PCM) synapse be attractive for deployed fixed-weight inference despite its costly write?",
+  "choices": [
+    "Because its write energy is sub-femtojoule, cheaper than any spike",
+    "Because a write costs about a nanojoule but the weight then holds at zero static power, so for fixed-weight inference the write energy amortizes to nearly nothing",
+    "Because PCM synapses must be rewritten before every spike",
+    "Because PCM continuously draws power to hold its state, guaranteeing stability"
+  ],
+  "answer": 1,
+  "explanation": "A PCM write is relatively expensive (about a nanojoule to crystallize or amorphize the film), but the state is non-volatile and holds at zero static power, so for deployed fixed-weight inference that one-time write amortizes away. The write is nanojoule-scale, not sub-fJ (option 0), the state persists without rewriting (option 2), and it holds at zero, not continuous, power (option 3).",
+  "tags": ["neuromorphic", "pcm", "non-volatile", "energy"],
+  "difficulty": "advanced",
+  "generated": true
+}

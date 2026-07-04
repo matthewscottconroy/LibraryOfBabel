@@ -1,0 +1,22 @@
+{
+  "question_id": "662fc4a7-2dcd-4297-a399-daee31a38328",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Whether the formula ∀x(D(x) → M(x)) is *well-formed* is a question of ___, whereas whether it is *true* is a question of ___. Which pair fills the blanks correctly?",
+  "choices": [
+    "syntax; semantics",
+    "semantics; syntax",
+    "semantics; semantics",
+    "syntax; syntax"
+  ],
+  "answer": 0,
+  "explanation": "Well-formedness depends only on the shape of the string (syntax); truth requires interpreting D and M in a model (semantics). The chapter stresses that well-formedness and tautology-hood are mechanical/syntactic checks, while truth is semantic. The other options reverse or collapse the syntax/semantics distinction.",
+  "tags": [
+    "syntax",
+    "semantics",
+    "wff"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

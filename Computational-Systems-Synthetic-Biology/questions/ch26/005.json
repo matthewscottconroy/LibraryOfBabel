@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the main purpose of using a 'multi-stage build' in a Dockerfile, as shown for the my-biosim image?",
+  "choices": [
+    "To produce a smaller final runtime image by discarding build-only tools and dependencies used to compile or install packages",
+    "To allow the container to run without needing a base operating system image",
+    "To automatically push the resulting image to a container registry",
+    "To grant root permissions inside the container automatically"
+  ],
+  "answer": 0,
+  "explanation": "A multi-stage build uses an initial 'builder' stage with full compilers/build tools to install dependencies, then copies only the needed artifacts into a slim final stage, shrinking the final image. Every container still runs on top of a base OS image, so that is not the purpose; pushing to a registry is a separate explicit `docker push` step; and multi-stage builds have no special relationship to root permissions.",
+  "tags": [
+    "docker",
+    "containerization",
+    "multi-stage-build"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "d22520c6-1dbb-487f-afb1-f39369b56f09"
+}

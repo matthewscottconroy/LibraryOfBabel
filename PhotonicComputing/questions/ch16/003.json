@@ -1,0 +1,18 @@
+{
+  "question_id": "88686fc3-4a50-4a4a-a227-59610b78515e",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which relation is the canonical commutator that underlies the entire ladder-operator algebra of quantum optics?",
+  "choices": [
+    "[a, a-dagger] = 1",
+    "[a, a-dagger] = 0",
+    "[a, a-dagger] = i*hbar",
+    "{a, a-dagger} = 1 (anticommutator)"
+  ],
+  "answer": 0,
+  "explanation": "The bosonic commutator [a, a-dagger] = 1 generates the ladder structure. Choice 1 would make the operators commute (no ladder); i*hbar (choice 2) is the position-momentum commutator, not the dimensionless ladder relation; the anticommutator (choice 3) applies to fermions, not photonic modes.",
+  "tags": ["commutator", "ladder-operators", "bosons"],
+  "difficulty": "intermediate",
+  "generated": true
+}

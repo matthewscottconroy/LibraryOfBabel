@@ -1,0 +1,20 @@
+{
+  "question_id": "8b250f41-fdf1-477b-8933-97c8462d92f8",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The thesis that mental properties supervene on physical properties implies that there can be no mental difference without a physical difference.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Supervenience just is the claim that any two things (or worlds) identical in all physical respects must be identical in all mental respects — i.e. no mental difference without some physical difference. It is weaker than reduction, since it can hold even where type-type mental-physical identities fail, which is why non-reductive physicalists embrace it. The statement is therefore true.",
+  "tags": [
+    "supervenience",
+    "non-reductive-physicalism",
+    "physical-difference"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

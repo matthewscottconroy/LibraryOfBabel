@@ -1,0 +1,18 @@
+{
+  "question_id": "edae137f-d3ef-4901-8b96-d2b5351c03a0",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The argument from hallucination concludes that even in veridical perception the immediate object is a mental item, relying on the premise that a veridical experience and an indistinguishable hallucination share a common mental component. Michael Martin's naive-realist reply:",
+  "choices": [
+    "grants that the two cases are indistinguishable from the inside yet denies they share a common experiential nature, treating the hallucination as merely 'impersonating' genuine perception",
+    "denies that a hallucination could ever be subjectively indistinguishable from a veridical perception",
+    "accepts the common factor but locates it in externally individuated representational content shared by both cases",
+    "concludes that veridical perception, like hallucination, is at bottom the awareness of a sense datum"
+  ],
+  "answer": 0,
+  "explanation": "Martin rejects the common factor principle: indistinguishability is a first-person epistemic relation and does not entail a shared metaphysical kind, so the good case is constituted by the perceived objects while the bad case merely 'impersonates' it. Option 1 misstates disjunctivism, which concedes indistinguishability; option 2 is representationalism, itself a common-factor view; option 3 embraces the sense-datum conclusion the reply is designed to block. Only option 0 is Martin's move.",
+  "tags": ["perception", "argument-from-hallucination", "common-factor", "naive-realism", "martin"],
+  "difficulty": "advanced",
+  "generated": true
+}

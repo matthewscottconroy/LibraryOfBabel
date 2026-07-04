@@ -1,0 +1,22 @@
+{
+  "question_id": "d30f2012-8846-46f1-97c5-c34a9d1f94ea",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "An n-by-n real matrix A is diagonalizable if and only if:",
+  "choices": [
+    "A is symmetric",
+    "det(A) is nonzero",
+    "A has n distinct eigenvalues",
+    "A has n linearly independent eigenvectors"
+  ],
+  "answer": 3,
+  "explanation": "Diagonalizability is precisely the existence of a basis of eigenvectors, i.e. n linearly independent eigenvectors. Symmetry and having n distinct eigenvalues are each sufficient but not necessary (the identity is diagonalizable with a repeated eigenvalue), and invertibility is irrelevant since a singular matrix can still be diagonalizable.",
+  "tags": [
+    "diagonalization",
+    "eigenvectors",
+    "linear-algebra"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

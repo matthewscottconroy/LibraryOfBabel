@@ -1,0 +1,22 @@
+{
+  "question_id": "0747ea79-4fba-41fe-8057-9dda0f3595a4",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The first fundamental form of a surface encodes:",
+  "choices": [
+    "how the surface curves within the ambient space (extrinsic data)",
+    "the intrinsic metric: lengths, angles, and areas measured within the surface",
+    "the Euler characteristic",
+    "the principal curvatures directly"
+  ],
+  "answer": 1,
+  "explanation": "The first fundamental form (the induced metric, with coefficients E, F, G) provides intrinsic measurements of length, angle, and area on the surface. Curvature in the ambient space is captured by the second fundamental form; the principal and Gaussian curvatures combine both, though K alone is recoverable from the first form by the Theorema Egregium.",
+  "tags": [
+    "first-fundamental-form",
+    "metric",
+    "differential-geometry"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "360226af-b7f4-4e83-91d4-d7056339630a",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The theory DLO of dense linear orders without endpoints is ℵ₀-categorical: all of its countable models are isomorphic to (ℚ, <). By Vaught's test this makes DLO a ___ theory, since it decides every sentence.",
+  "choices": [
+    "complete"
+  ],
+  "answer": "complete",
+  "explanation": "κ-categoricity (here ℵ₀-categoricity) together with having no finite models yields completeness by Vaught's test, so DLO is a complete theory: for every sentence φ, DLO ⊢ φ or DLO ⊢ ¬φ. The expected single term is 'complete'.",
+  "tags": [
+    "dlo",
+    "categoricity",
+    "complete-theories"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

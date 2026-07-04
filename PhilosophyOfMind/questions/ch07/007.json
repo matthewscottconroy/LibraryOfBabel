@@ -1,0 +1,22 @@
+{
+  "question_id": "53a0150c-8ddd-4729-8b6f-9f9fc44e8177",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In Libet's experiments, the readiness potential (Bereitschaftspotential) was found to:",
+  "choices": [
+    "Occur simultaneously with the conscious decision to move",
+    "Occur only after the muscle had already moved",
+    "Begin roughly 550 ms before the movement - hundreds of milliseconds before the reported moment of conscious intention (W)",
+    "Be absent during genuinely voluntary movements"
+  ],
+  "answer": 2,
+  "explanation": "Libet found the readiness potential begins about 550 ms before movement, several hundred milliseconds before subjects' reported moment of conscious intention (W, roughly 200 ms before movement), suggesting unconscious preparation precedes awareness of deciding. Options 0, 1, and 3 contradict this timing and the finding that the RP reliably precedes voluntary movement.",
+  "tags": [
+    "libet",
+    "readiness-potential",
+    "free-will"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

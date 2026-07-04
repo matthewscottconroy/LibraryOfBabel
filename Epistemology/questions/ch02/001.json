@@ -1,0 +1,18 @@
+{
+  "question_id": "b7d547de-6325-403e-b071-b1f7e38d74e3",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "According to indirect (representative) realism, the immediate objects of perception are:",
+  "choices": [
+    "mind-independent physical objects, perceived without any mental intermediary",
+    "ways of being appeared to (e.g., sensing 'redly'), not objects of any kind",
+    "mental representations such as sense data, from which the external world is known only mediately",
+    "the physical object itself in veridical cases but a mental item in hallucination, with no element common to the two"
+  ],
+  "answer": 2,
+  "explanation": "Indirect realism posits a three-term structure (subject, mental representation, external object), so the immediate objects of awareness are always mental items like sense data, and the world is known only behind a 'veil of perception'. Option 0 is direct realism, which denies any such intermediary; option 1 is the adverbial theory, which reconstrues apparent objects as modes of sensing; option 3 is disjunctivism, which denies a common element across the good and bad cases. Only option 2 states the representationalist's immediate mental objects.",
+  "tags": ["perception", "indirect-realism", "sense-data", "veil-of-perception"],
+  "difficulty": "beginner",
+  "generated": true
+}

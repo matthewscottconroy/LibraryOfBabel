@@ -1,0 +1,20 @@
+{
+  "question_id": "7daf8ce0-5602-483b-af91-d45245391314",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Omega-limit sets of bounded orbits are closed and invariant.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "For any bounded orbit the omega-limit set of accumulation points is nonempty, closed and invariant, giving the right framework for 'what a typical orbit does eventually'.",
+  "tags": [
+    "omega-limit",
+    "invariant-sets",
+    "topological-dynamics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

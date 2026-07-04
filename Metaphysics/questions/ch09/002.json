@@ -1,0 +1,22 @@
+{
+  "question_id": "146cd6ed-a6d9-40d2-b5ed-101580aa1a58",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "On van Fraassen's constructive empiricism, what attitude does a rational scientist take toward a theory she accepts?",
+  "choices": [
+    "Belief that the theory is true, including everything it says about unobservable entities.",
+    "Belief that the theory is empirically adequate, that is, that what it says about observable things is true, while suspending judgment about unobservables.",
+    "Belief that the theory is merely a calculating instrument that is neither true nor false.",
+    "Belief that the theory is true relative to its paradigm, truth itself being paradigm-relative."
+  ],
+  "answer": 1,
+  "explanation": "For van Fraassen, to accept a theory is to believe only that it is empirically adequate (its observable consequences are true) while remaining agnostic about unobservables; acceptance is thus weaker than belief in truth. Distractor 2 is instrumentalism, which van Fraassen rejects: he construes theories literally and as truth-apt, merely withholding belief about their unobservable posits rather than denying they can be true or false.",
+  "tags": [
+    "constructive-empiricism",
+    "van-fraassen",
+    "anti-realism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "fdec02bb-85cd-44c9-a0fa-756620b0e496",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Every free module is projective.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "To lift a map from a free module through a surjection, lift each basis element (choosing preimages) and extend linearly. The hierarchy is free ⇒ projective ⇒ flat, and over a PID finitely generated projectives are actually free.",
+  "tags": [
+    "modules",
+    "free-modules",
+    "projective"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

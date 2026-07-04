@@ -1,0 +1,18 @@
+{
+  "question_id": "02ad2b4d-251b-4598-bdc9-3443bb0e58b8",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "As the closure principle is deployed in the closure-based skeptical argument, if S knows that P and S knows that P entails Q, then S:",
+  "choices": [
+    "knows, or is at least in a position to know, that Q",
+    "may still fail to know Q, because knowledge does not transmit across known entailment",
+    "knows Q only if Q counts as a relevant alternative in the context",
+    "knows Q only relative to the epistemic standards of the attributor's context"
+  ],
+  "answer": 0,
+  "explanation": "Epistemic closure says that knowledge transmits across known entailment, so knowing P and knowing that P entails Q puts one in a position to know Q. Option 1 states Nozick's denial of closure, option 2 echoes Dretske's relevant-alternatives restriction, and option 3 states the contextualist's relativization of 'knows'—each a way of resisting, rather than stating, the closure principle.",
+  "tags": ["closure", "epistemic-closure", "skeptical-argument", "known-entailment"],
+  "difficulty": "beginner",
+  "generated": true
+}

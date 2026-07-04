@@ -1,0 +1,13 @@
+{
+  "question_id": "b4d7f0a5-6c1e-4f9b-8a5d-4e8c1f3b7a60",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "According to Karl Friston's Free Energy Principle, a living system can minimize variational free energy ('surprise') in two complementary ways. What are they?",
+  "choices": ["By increasing its internal entropy or by decreasing external entropy", "By updating its internal model to match sensory input (perception) or by acting on the world to make sensory input match its predictions (active inference)", "By dividing to produce more cells or by undergoing apoptosis", "By methylating its DNA or by demethylating its DNA"],
+  "answer": 1,
+  "explanation": "The FEP casts perception as belief updating (changing the model to fit the data) and action as active inference (changing the data to fit the model), both minimizing variational free energy. Option 0 garbles the thermodynamic framing; options 2 and 3 name real biological processes (cell division, methylation) that are not the two free-energy-minimizing routes Friston specifies.",
+  "tags": ["free-energy-principle", "active-inference", "friston"],
+  "difficulty": "advanced",
+  "generated": true
+}

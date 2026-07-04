@@ -1,0 +1,21 @@
+{
+  "question_id": "06b32784-5b6e-46ef-8ac8-653b9086f805",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the category Ring, the inclusion ℤ ↪ ℚ is:",
+  "choices": [
+    "an epimorphism that is not surjective",
+    "a monomorphism that is not injective",
+    "an isomorphism",
+    "neither a monomorphism nor an epimorphism"
+  ],
+  "answer": 0,
+  "explanation": "Two ring maps out of ℚ agreeing on ℤ must agree everywhere, since φ(1/n) is forced to be φ(n)⁻¹ — so ℤ ↪ ℚ is right-cancellable (epi) despite missing most of ℚ. This is the standard warning that 'epi' need not mean 'surjective' outside Set-like categories.",
+  "tags": [
+    "category-theory",
+    "epimorphisms"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

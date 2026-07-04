@@ -1,0 +1,18 @@
+{
+  "question_id": "d1a80ffa-a425-49c5-b4aa-3f17fe5f531c",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In the period-doubling cascade, a stable period-n orbit loses stability and gives rise to a stable period-___ orbit.",
+  "choices": [
+    "2n"
+  ],
+  "answer": "2n",
+  "explanation": "Each period-doubling replaces a period-n orbit by a period-2n orbit; the accumulating cascade of doublings (with Feigenbaum scaling) leads to chaos.",
+  "tags": [
+    "period-doubling",
+    "route-to-chaos"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

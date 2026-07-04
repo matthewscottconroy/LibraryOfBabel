@@ -1,0 +1,21 @@
+{
+  "question_id": "64d55557-f0ab-4298-9243-157a40b716de",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "By the complex spectral theorem, an operator on a finite-dimensional complex inner product space admits an orthonormal basis of eigenvectors if and only if it is:",
+  "choices": [
+    "normal (T*T = TT*)",
+    "self-adjoint (T* = T)",
+    "unitary (T* = T⁻¹)",
+    "invertible"
+  ],
+  "answer": 0,
+  "explanation": "Over ℂ, unitary diagonalizability is exactly normality; self-adjoint and unitary operators are special cases. Over ℝ the correct condition becomes self-adjointness — a rotation of ℝ² is normal but has no real eigenvectors.",
+  "tags": [
+    "spectral-theorem",
+    "normal-operators"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

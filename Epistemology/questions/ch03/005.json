@@ -1,0 +1,23 @@
+{
+  "question_id": "4e8c27bb-2888-4fda-a49f-6b20d707696b",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Conee and Feldman's mentalism differs from access internalism in that mentalism holds:",
+  "choices": [
+    "the justifiers can be wholly external facts, such as a process's reliability, provided they cause the belief.",
+    "the believer must always be able, on reflection, to identify which state does the justifying.",
+    "justification is a matter of whether the believer has fulfilled their epistemic duties, understood deontologically.",
+    "justification supervenes on the believer's mental states, which need not be reflectively accessible in order to justify."
+  ],
+  "answer": 3,
+  "explanation": "Mentalism requires justifiers to be mental but not accessible: two subjects in identical mental states are equally justified even if neither can introspect the relevant state. Option (1) states access internalism, the stronger view mentalism deliberately weakens; (0) is externalism; (2) invokes the deontological conception, which is a different axis of the debate.",
+  "tags": [
+    "mentalism",
+    "access-internalism",
+    "internalism",
+    "conee-feldman"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

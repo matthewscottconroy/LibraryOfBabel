@@ -1,0 +1,24 @@
+{
+  "question_id": "7989057d-2850-4351-b261-b88e2cfcb43a",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In Deutsch's (1991) quantum treatment of closed timelike curves, how is the quantum grandfather paradox resolved, and what is the notorious cost of the resolution?",
+  "choices": [
+    "By post-selecting away the paradoxical measurement outcome, which conserves information but must be implemented via quantum teleportation.",
+    "By letting the qubit branch into two Everett worlds, one spin-up and one spin-down, so that no single history is contradictory.",
+    "By requiring the qubit to enter the loop in a mixed state that is a fixed point of the evolution (an equal mixture of spin-up and spin-down), at the cost that information appears to be 'created from nothing.'",
+    "By invoking the weak energy condition to forbid the spin-flip interaction inside the wormhole throat."
+  ],
+  "answer": 2,
+  "explanation": "Deutsch imposes a fixed-point condition on the density matrix: no pure state is self-consistent for a spin-flip loop, but the maximally mixed state (half up, half down) is, so physics selects it. The cost is apparent 'information creation from nothing' and, per Aaronson and Watrous, extravagant computational power. Post-selection (choice 0) is Lloyd et al.'s rival P-CTC model, explicitly designed to AVOID information creation; Everett branching (choice 1) is the many-worlds move, not Deutsch's; and the weak energy condition (choice 3) concerns wormhole throats, not CTC state-consistency.",
+  "tags": [
+    "deutsch",
+    "quantum-ctc",
+    "density-matrix",
+    "mixed-state",
+    "information-creation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

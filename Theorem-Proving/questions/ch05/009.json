@@ -1,0 +1,19 @@
+{
+  "question_id": "52835381-5459-4311-bd71-f5f3da4f6a93",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In the proof of Cantor's theorem, the diagonal set D = {x ∈ A : x ∉ f(x)} shows that the function f : A → 𝒫(A) cannot be a ___ (that is, cannot be onto).",
+  "choices": [
+    "surjection"
+  ],
+  "answer": "surjection",
+  "explanation": "Because D differs from f(y) for every y ∈ A, no element of A maps onto D, so f is not a surjection (not onto). This is exactly why |A| < |𝒫(A)|.",
+  "tags": [
+    "cantors-theorem",
+    "surjection",
+    "diagonalization"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

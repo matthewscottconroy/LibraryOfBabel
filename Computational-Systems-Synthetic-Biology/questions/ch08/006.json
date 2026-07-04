@@ -1,0 +1,22 @@
+{
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which docking approach explicitly models protein side-chain flexibility (induced fit) upon ligand binding, at significantly higher computational cost than rigid-protein docking?",
+  "choices": [
+    "Rigid docking (e.g., AutoDock Vina)",
+    "Flexible ligand / rigid protein docking",
+    "Flexible protein docking (e.g., Glide XP with induced fit, or AutoDock4)",
+    "Virtual screening with hierarchical fast filters"
+  ],
+  "answer": 2,
+  "explanation": "Flexible protein docking, implemented in tools like Glide's XP induced-fit mode or AutoDock4, samples protein side-chain conformations along with the ligand, which is far more computationally expensive but captures induced-fit effects. Rigid docking (AutoDock Vina) and the standard flexible-ligand/rigid-protein approach both hold the protein fixed, and hierarchical virtual screening is a workflow strategy for scaling to large compound libraries, not a flexibility model.",
+  "tags": [
+    "molecular-docking",
+    "induced-fit",
+    "flexible-docking"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "933d9514-3994-486a-bea7-110af4985a33"
+}

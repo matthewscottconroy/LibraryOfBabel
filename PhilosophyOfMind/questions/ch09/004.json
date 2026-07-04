@@ -1,0 +1,23 @@
+{
+  "question_id": "b79571b0-c4d3-4412-bbf7-0b1f70e10f68",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Paul Ekman's basic-emotion theory is best characterised by which claim?",
+  "choices": [
+    "A small set of emotions (e.g., happiness, sadness, fear, disgust, anger, surprise) are universal, biologically based, and expressed in cross-culturally recognised facial expressions",
+    "Emotions are constructed in the moment from core affect and culturally learned concepts, with no universal signatures",
+    "Emotions are evaluative judgements about what matters to one's flourishing",
+    "Emotion is nothing but the perception of bodily changes"
+  ],
+  "answer": 0,
+  "explanation": "Ekman, building on Darwin and Tomkins's affect programs, held that basic emotions are innate universals with recognisable facial expressions, supported by his Fore studies in New Guinea. Option 1 is Barrett's constructed-emotion rival; option 2 is Nussbaum's cognitive theory; option 3 is the James-Lange feeling theory.",
+  "tags": [
+    "ekman",
+    "basic-emotions",
+    "affect-programs",
+    "universality"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

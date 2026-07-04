@@ -1,0 +1,22 @@
+{
+  "question_id": "f32fec3d-8ced-4bab-a15d-45b23f94efc5",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Kane's event-causal libertarianism locates indeterminism in 'self-forming actions' (SFAs). What is the central objection to his view?",
+  "choices": [
+    "That self-forming actions require an immaterial soul.",
+    "That self-forming actions presuppose the falsity of the Principle of Alternate Possibilities.",
+    "That indeterminism at the neural level is ruled out by quantum mechanics.",
+    "That if the outcome of a torn decision is undetermined, it seems a matter of luck rather than something the agent controls."
+  ],
+  "answer": 3,
+  "explanation": "The luck (randomness) objection: if, holding everything prior fixed, a torn decision could have gone either way, the actual outcome looks like chance, which undermines rather than grounds control. Kane replies with 'dual motivation' (both outcomes express the agent's own will). His view needs no soul (that belongs to agent-causation), and it embraces rather than presupposes against indeterminism.",
+  "tags": [
+    "libertarianism",
+    "kane",
+    "luck-objection"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which type of genomic variant is defined as a single base-pair change and is the most common form of genetic variation?",
+  "choices": [
+    "SNP (Single Nucleotide Polymorphism)",
+    "Structural variant (SV)",
+    "Copy number variant (CNV)",
+    "Short tandem repeat (STR) expansion"
+  ],
+  "answer": 0,
+  "explanation": "A SNP is a single base change and is by far the most common type of genomic variation. Structural variants are rearrangements larger than 50 bp, CNVs are large duplications or deletions often exceeding 1 kb, and STR expansions involve changes in the number of repeat units \u2014 all are far less frequent than single-base substitutions.",
+  "tags": [
+    "genomic-variation",
+    "snp"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "4d9812f2-e3b7-497c-8311-be207e590243"
+}

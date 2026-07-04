@@ -1,0 +1,13 @@
+{
+  "question_id": "f7d395a0-0821-42c4-8910-6c745c3e2a6d",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "tf",
+  "text": "The discursive dilemma (List and Pettit) shows that a group deciding each premise by majority vote can be committed to a conclusion that no majority of its members would endorse when voting on the conclusion directly.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. This is precisely the discursive dilemma (a generalization of the doctrinal paradox): premise-wise majority voting can yield a collectively endorsed conclusion that conflicts with conclusion-wise majority voting, even when every individual is internally consistent. List and Pettit use it to argue that group attitudes cannot be a simple summative aggregate of individual attitudes, motivating non-summativism about group agency.",
+  "tags": ["group-epistemology", "discursive-dilemma", "list-pettit", "doctrinal-paradox"],
+  "difficulty": "advanced",
+  "generated": true
+}

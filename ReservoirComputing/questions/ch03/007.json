@@ -1,0 +1,20 @@
+{
+  "question_id": "a0f7bb77-4be5-4705-af5b-776814f386f5",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The echo state property requires that a reservoir driven by a bounded input sequence forgets its initial condition, so its state asymptotically depends only on the input history.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is exactly Definition 2.1: for every input sequence and every pair of initial states, ||X_t(u,x) - X_t(u,x')|| -> 0. State-forgetting makes the reservoir a well-defined nonlinear functional (the echo function) of the input history alone, which is the whole point of the ESP.",
+  "tags": [
+    "esp",
+    "definition",
+    "state-forgetting"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

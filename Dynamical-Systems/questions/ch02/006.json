@@ -1,0 +1,22 @@
+{
+  "question_id": "7cc4a23c-ca3c-44a3-9128-94b4a1379e32",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Pesin's formula for an SRB measure of a C^{1+alpha} diffeomorphism expresses the KS entropy as:",
+  "choices": [
+    "the product of all eigenvalues",
+    "the sum of the positive Lyapunov exponents",
+    "the topological dimension",
+    "zero"
+  ],
+  "answer": 1,
+  "explanation": "Pesin's formula h_mu(f) = sum of positive Lyapunov exponents ties entropy to information production from expanding directions. It is a sum (not product), and is generally nonzero for chaotic SRB measures.",
+  "tags": [
+    "pesin-formula",
+    "entropy",
+    "srb-measure"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

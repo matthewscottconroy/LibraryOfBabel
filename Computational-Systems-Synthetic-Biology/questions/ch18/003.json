@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which of the following resources is specifically known for curated metabolic pathways drawn from the primary experimental literature?",
+  "choices": [
+    "BRENDA",
+    "BiGG",
+    "MetaCyc",
+    "Cas-OFFinder"
+  ],
+  "answer": 2,
+  "explanation": "MetaCyc is the database of curated metabolic pathways compiled from experimental literature. BRENDA instead focuses on enzyme kinetic parameters such as Km, kcat, and inhibitors; BiGG provides standardized reaction and metabolite identifiers linked to genome-scale metabolic models; and Cas-OFFinder is unrelated to metabolic engineering entirely, as it is a CRISPR off-target search tool.",
+  "tags": [
+    "metacyc",
+    "pathway-databases"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "538a6940-b19c-40b5-b634-63160059a254"
+}

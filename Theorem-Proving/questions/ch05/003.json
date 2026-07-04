@@ -1,0 +1,23 @@
+{
+  "question_id": "fbfbd04b-979f-457d-be33-b3d5feae5511",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "How does ZFC block Russell's paradox?",
+  "choices": [
+    "By declaring R = {x : x ∉ x} to be true rather than false",
+    "By replacing unrestricted comprehension with Separation, {x ∈ A : φ(x)}, which only filters an already-existing set A",
+    "By adding an axiom asserting a universal set of all sets",
+    "By forbidding the membership relation ∈ between sets"
+  ],
+  "answer": 1,
+  "explanation": "ZFC uses the Axiom of Separation (restricted comprehension): you may only carve {x ∈ A : φ(x)} out of an existing set A, never collect all x satisfying φ from nothing. Forming Russell's R would require a universal 'set of all sets,' which ZFC never provides. Option C is the opposite of ZFC (there is no universal set), and ∈ certainly still relates sets.",
+  "tags": [
+    "separation",
+    "restricted-comprehension",
+    "zfc",
+    "russells-paradox"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

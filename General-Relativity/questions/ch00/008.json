@@ -1,0 +1,21 @@
+{
+  "question_id": "4b9befaa-f553-466d-9b3e-1237f5613fa6",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The book characterizes ℝ, up to isomorphism, as:",
+  "choices": [
+    "the smallest field containing ℤ",
+    "any ordered field with the Archimedean property",
+    "the unique complete ordered field",
+    "the unique algebraically closed field of characteristic 0"
+  ],
+  "answer": 2,
+  "explanation": "The book states that, up to isomorphism, there is exactly one complete ordered field, and ℝ is it — completeness being the least-upper-bound property. 'The smallest field containing ℤ' is the book's description of ℚ; the algebraically closed field of characteristic 0 (and cardinality |ℝ|) is ℂ; and the Archimedean property alone fails to single out ℝ, since ℚ is also Archimedean yet not complete.",
+  "tags": [
+    "number-systems",
+    "completeness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

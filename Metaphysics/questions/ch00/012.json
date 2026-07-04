@@ -1,0 +1,21 @@
+{
+  "question_id": "ee45e6c0-5d24-4470-98b8-8d45acefed3f",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "E. J. Lowe's ___ ontology recognizes four irreducible categories, substances, kinds, attributes, and modes, arranged in what he calls the ontological square.",
+  "choices": [
+    "four-category",
+    "four category",
+    "four-category ontology"
+  ],
+  "answer": "four-category",
+  "explanation": "Lowe's neo-Aristotelian system treats substances, kinds, attributes, and modes as mutually irreducible, with substances instantiating kinds, attributes characterizing kinds, and modes instantiating attributes. It contrasts with one- or two-category ontologies (such as pure bundle theory) that try to reduce this structure.",
+  "tags": [
+    "lowe",
+    "four-category",
+    "categories"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "85b01ea2-5079-4123-8d80-51f5ec0ff206",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which combination of properties defines an equivalence relation on a set A?",
+  "choices": [
+    "Reflexive, antisymmetric, transitive",
+    "Reflexive, symmetric, transitive",
+    "Irreflexive, symmetric, transitive",
+    "Symmetric and transitive only"
+  ],
+  "answer": 1,
+  "explanation": "Reflexivity, symmetry, and transitivity are exactly the axioms. Swapping symmetry for antisymmetry instead yields a partial order, and symmetry plus transitivity alone cannot force a ∼ a for elements related to nothing.",
+  "tags": [
+    "relations",
+    "equivalence"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,20 @@
+# Build manifest for the Homotopy Type Theory textbook.
+# The build target is chapters/ : 27 chNN-*/ chapter directories, each with
+# 00-introduction.md first, numbered section sub-directories, and chapter back
+# matter (references.md, important-figures.md, applied-exercises.md, ...).
+#
+# NOTE: this book intentionally has TWO navigation paths -- chapters/ (built
+# here) and a parallel book/ tree (NOT built).  A concurrent cleanup is deleting
+# the 27 flat chapters/chNN-*.md files (the chapter directories are canonical);
+# while both exist the recursive walk captures the flat files too.
+title = "Homotopy Type Theory"
+subtitle = "From Dependent Types to Synthetic Homotopy Theory"
+
+front_matter = [
+    "index.md",
+]
+
+[[sources]]
+root = "chapters"
+recursive = true
+part_level = 1   # each chNN-* chapter directory becomes \part

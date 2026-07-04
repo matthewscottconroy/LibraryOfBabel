@@ -1,0 +1,23 @@
+{
+  "question_id": "bce2d253-9160-4f92-8df3-ce228fff7dae",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Wittgenstein's private-language argument contends that:",
+  "choices": [
+    "everyone in fact thinks in a private mental language before translating into public speech",
+    "sensations cannot exist unless they are named",
+    "the meaning of a word is the mental image it calls up in the speaker",
+    "a genuinely private language -- whose terms refer to sensations available only to the speaker -- is impossible, because correct use requires a criterion of correctness that a purely private rule cannot supply"
+  ],
+  "answer": 3,
+  "explanation": "Wittgenstein argues that without a public standard, 'seems right' and 'is right' collapse, so a genuinely private rule/language cannot secure meaning -- a challenge that also presses on any inner Mentalese. Option 0 is close to the LOT view he opposes; option 2 is the mental-image theory of meaning he criticises; option 1 misstates the conclusion.",
+  "tags": [
+    "wittgenstein",
+    "private-language",
+    "rule-following",
+    "meaning"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

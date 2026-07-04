@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the main benefit of applying Numba's `@njit` decorator to a Python function such as a Gillespie SSA step?",
+  "choices": [
+    "It automatically distributes the function across a GPU cluster",
+    "It replaces the stochastic simulation with a deterministic ODE approximation",
+    "It compiles the function in strict no-Python mode to machine code, typically giving a 10 to 100 times speedup over pure Python loops after an initial compilation cost",
+    "It reduces floating-point precision in order to speed up execution"
+  ],
+  "answer": 2,
+  "explanation": "`@njit` forces strict 'no-Python' mode compilation; the first call pays a compilation cost, but subsequent calls run as fast compiled code, typically 10 to 100 times faster than pure Python loops. It does not automatically target GPU clusters (that requires separate tooling), it does not change the underlying stochastic algorithm into a deterministic one, and it does not sacrifice numerical precision to gain speed.",
+  "tags": [
+    "scientific-computing",
+    "performance-engineering",
+    "numba"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "c0172006-12f6-44bf-b0fb-b3807147c606"
+}

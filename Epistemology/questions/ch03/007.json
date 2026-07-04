@@ -1,0 +1,23 @@
+{
+  "question_id": "52b215ae-4503-4ae9-a854-a41244d8a682",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which objection charges that a belief system could be perfectly coherent yet comprehensively false and severed from reality, so that coherence alone cannot connect justification to truth?",
+  "choices": [
+    "The isolation (input) objection.",
+    "The alternative-systems (plurality) objection.",
+    "The generality problem.",
+    "The Myth of the Given."
+  ],
+  "answer": 0,
+  "explanation": "The isolation objection says coherence cuts belief off from the world: an internally consistent fiction could be maximally coherent yet false. The alternative-systems objection is a different worry, that many mutually incompatible systems are each internally coherent; the generality problem and the Myth of the Given target reliabilism and foundationalism respectively.",
+  "tags": [
+    "coherentism",
+    "isolation-objection",
+    "bonjour",
+    "objections"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

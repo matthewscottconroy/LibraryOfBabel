@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the primary advantage of Data-Independent Acquisition (DIA) over Data-Dependent Acquisition (DDA) in proteomics?",
+  "choices": [
+    "DIA requires no chromatographic separation prior to mass spectrometry",
+    "DIA systematically fragments all precursors within defined m/z windows, avoiding the stochastic top-N precursor selection of DDA",
+    "DIA only works with MALDI ionization sources",
+    "DIA eliminates the need for any spectral library or database during data analysis"
+  ],
+  "answer": 1,
+  "explanation": "DIA systematically isolates and fragments every precursor within a series of m/z windows, in contrast to DDA's stochastic selection of the top N most intense precursors, which improves reproducibility and reduces the missing-value problem across runs. DIA still requires LC separation, is not tied to any particular ionization source, and typically still relies on a spectral library (built from DDA runs or predicted in silico) to interpret the resulting composite spectra.",
+  "tags": [
+    "proteomics",
+    "dia",
+    "dda"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "857f8574-29c4-4a77-a912-d2c1606a605a"
+}

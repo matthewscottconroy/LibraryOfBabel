@@ -1,0 +1,20 @@
+{
+  "question_id": "4f1a7a67-16dc-4709-9732-6df34ab70425",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "tf",
+  "text": "True or False: Gödel's Second Incompleteness Theorem states that a consistent theory T strong enough to formalize arithmetic can prove the sentence Con(T) expressing its own consistency.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False — the Second Theorem states the opposite: T ⊬ Con(T); no such consistent theory can prove its own consistency. This is what ended Hilbert's program of establishing consistency by means formalizable within the system (e.g. ZFC cannot prove Con(ZFC)).",
+  "tags": [
+    "second-incompleteness",
+    "consistency",
+    "hilbert-program"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

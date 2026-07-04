@@ -1,0 +1,22 @@
+{
+  "question_id": "6d6037a0-ce6d-4815-ad94-b731066899ae",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is the Leibniz's Law argument that the statue is not identical to the clay that constitutes it?",
+  "choices": [
+    "The statue and the clay occupy different places, so by Leibniz's Law they differ.",
+    "The clay has a property the statue lacks (for example, existing earlier, or being able to survive squashing), so by Leibniz's Law they are not identical.",
+    "The statue is more valuable than the clay, and a difference in value entails numerical distinctness.",
+    "Identity is sortal-relative, so 'same clay' and 'same statue' can never coincide."
+  ],
+  "answer": 1,
+  "explanation": "The clay predates the statue and would survive being squashed while the statue would not; by the Indiscernibility of Identicals these historical and modal differences entail that statue is not identical to clay (the conclusion the Constitution View accepts). The tempting distractor (option 3) is Geach's relative-identity response to the puzzle, not the Leibniz's Law argument that generates it.",
+  "tags": [
+    "constitution",
+    "coincidence",
+    "leibnizs-law"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

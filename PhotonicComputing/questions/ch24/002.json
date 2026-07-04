@@ -1,0 +1,13 @@
+{
+  "question_id": "625b8706-7be6-4e20-b854-c381cbbb2251",
+  "chapter": 24,
+  "phase": 4,
+  "kind": "mc",
+  "text": "An N x N optical multiplier performs N^2 MACs per pass but pays only O(N) conversions at its edges. If the interface tax is about 5 pJ per input-output sample pair, why do small arrays (N = 8) lose before the light is even turned on?",
+  "choices": ["Because small arrays have intrinsically higher optical loss per MAC", "Because the laser wall-plug efficiency falls at small N", "Because the per-MAC interface energy is E_tax/N: about 78 fJ/MAC at N = 64 but 625 fJ/MAC at N = 8 — worse than a mobile NPU", "Because small arrays cannot use wavelength-division multiplexing"],
+  "answer": 2,
+  "explanation": "The conversion tax amortizes as E_tax/N, so a 5 pJ tax gives 625 fJ/MAC at N = 8 (worse than a digital NPU) but only 78 fJ/MAC at N = 64. Choice 0 confuses optical loss with the interface tax; choice 1 is not the mechanism (WPE does not scale this way with N); choice 3 is a real limit but not why the amortization math fails at small N.",
+  "tags": ["amortization", "conversion-tax", "energy-per-mac"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Flux balance analysis using a 'maximize biomass' objective function performs best at predicting fluxes under which condition?",
+  "choices": [
+    "Exponential growth in rich, aerobic medium",
+    "Stationary-phase growth",
+    "Stress-response conditions",
+    "Anaerobic, nutrient-limited stationary phase"
+  ],
+  "answer": 0,
+  "explanation": "The biomass-maximization objective assumes the cell is actively optimizing for growth, an assumption that holds best during exponential growth in rich aerobic medium. It notably fails during stationary phase, stress responses, and other non-growth conditions, where cells are not simply maximizing growth rate, so those conditions are exactly where this objective is least reliable.",
+  "tags": [
+    "fba",
+    "biomass-objective",
+    "growth-conditions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "5b7bcada-490f-445f-b116-a93b38b82688"
+}

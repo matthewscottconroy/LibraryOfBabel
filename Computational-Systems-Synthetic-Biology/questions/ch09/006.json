@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In IQ-TREE2, an ultrafast bootstrap (UFBoot) value of ≥95% is considered roughly comparable in reliability to what standard nonparametric bootstrap value?",
+  "choices": [
+    "≥50%",
+    "≥90%",
+    "≥99%",
+    "≥70%"
+  ],
+  "answer": 3,
+  "explanation": "Ultrafast bootstrap corrects for the bias that makes standard bootstrap conservative, so a UFBoot value of ≥95% is roughly equivalent in reliability to a standard nonparametric bootstrap value of ≥70%, the classic 'reasonably supported' threshold. The other options either overstate (≥90%, ≥99%) or understate (≥50%) the correspondence given in the standard guidance for interpreting UFBoot alongside classical bootstrap.",
+  "tags": [
+    "bootstrap",
+    "ufboot",
+    "iq-tree"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "925a28d2-f2a0-4e8f-afc8-aa24148e54a2"
+}

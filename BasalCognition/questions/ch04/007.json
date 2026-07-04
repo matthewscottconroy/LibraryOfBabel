@@ -1,0 +1,13 @@
+{
+  "question_id": "9e4b0d27-1c8a-4a56-9f30-2d7e5b3c8a14",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Vernalization, the requirement for prolonged winter cold before flowering that is remembered through stable chromatin silencing of the FLC gene, is presented as the clearest and best-characterized example of plant memory.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. In Arabidopsis, cold drives progressive PRC2-mediated H3K27me3 silencing of FLC that is stably maintained through subsequent cell divisions, permitting flowering in spring. The book treats it as the clearest example of adaptive, long-term epigenetic memory implemented entirely without a nervous system.",
+  "tags": ["plant-learning", "vernalization", "flc", "epigenetic-memory"],
+  "difficulty": "beginner",
+  "generated": true
+}

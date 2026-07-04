@@ -1,0 +1,13 @@
+{
+  "question_id": "d5eaf5a4-b477-4a6b-8ce8-0c06a56f2315",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Socrates argues that identifying knowledge with perception, once wedded to Protagoras' claim that 'man is the measure of all things,' collapses into a self-refuting relativism: if every belief is true for whoever holds it, then the belief that Protagoras' doctrine is false is likewise true for those who hold it.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "This is precisely the self-refutation argument in the Theaetetus: Protagorean relativism, which knowledge-as-perception entails, must grant the truth (for them) of its own critics' rejection of it, and so undermines itself. It is among the earliest self-refutation arguments deployed against global relativism.",
+  "tags": ["plato", "theaetetus", "protagoras", "relativism", "self-refutation"],
+  "difficulty": "intermediate",
+  "generated": true
+}

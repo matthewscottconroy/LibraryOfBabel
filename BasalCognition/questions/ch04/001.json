@@ -1,0 +1,18 @@
+{
+  "question_id": "6a2d9f41-3c7b-4e08-9a15-2b8e0d6c3f79",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Plant action potentials differ from animal neuronal action potentials in their ionic basis. What ion fluxes primarily underlie the plant action potential?",
+  "choices": [
+    "Sodium influx and potassium efflux, exactly as in animal neurons",
+    "Calcium influx and chloride efflux",
+    "Proton influx alone, with no other ions involved",
+    "Magnesium influx driven directly by ATP hydrolysis"
+  ],
+  "answer": 1,
+  "explanation": "Plant action potentials are all-or-nothing propagating events based on calcium influx and chloride efflux, in contrast to the sodium/potassium fluxes of animal neurons, and they travel through phloem sieve tubes at roughly 1 to 40 cm/s. The sodium/potassium account (choice 0) describes animal neurons, while proton-only (choice 2) and magnesium-driven (choice 3) mechanisms are not how plant action potentials work.",
+  "tags": ["plant-signaling", "action-potential", "electrical-signaling"],
+  "difficulty": "beginner",
+  "generated": true
+}

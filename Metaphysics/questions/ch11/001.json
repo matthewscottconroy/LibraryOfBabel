@@ -1,0 +1,22 @@
+{
+  "question_id": "276de922-6587-4972-a4ca-6db1a6fa09c5",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The correspondence theory of truth (Russell, Austin) holds that a proposition is true if and only if:",
+  "choices": [
+    "it coheres with a comprehensive, maximally consistent system of beliefs.",
+    "believing it 'works'—it is useful and leads to successful action.",
+    "it corresponds to a fact or state of affairs that obtains in the world.",
+    "asserting it is warranted by our evidence and is verifiable in principle."
+  ],
+  "answer": 2,
+  "explanation": "Correspondence theory makes truth a relation between a truth-bearer and a worldly fact or state of affairs (Aristotle's 'to say of what is that it is'). Distractor 0 is the coherence theory and distractor 1 is the pragmatist theory—rival answers to the very same question that locate truth in internal consistency or practical utility rather than word-world correspondence.",
+  "tags": [
+    "correspondence",
+    "russell",
+    "theories-of-truth"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

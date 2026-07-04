@@ -1,0 +1,23 @@
+{
+  "question_id": "79da01e0-59da-4ac2-85be-618f6413876e",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The 'Myth of the Given' - a Sellarsian worry that is central to McDowell's epistemology of perception - is the charge that:",
+  "choices": [
+    "Bare, non-conceptual sensory 'givens' cannot by themselves justify beliefs, since justification requires standing in the 'space of reasons'",
+    "There are no sensory experiences at all",
+    "Perception is always veridical",
+    "Sense-data are physical objects possessing primary qualities"
+  ],
+  "answer": 0,
+  "explanation": "The Myth of the Given is the charge that bare, non-conceptual sensory 'givens' cannot themselves justify beliefs, because justification is a matter of standing in the 'space of reasons' - a point McDowell takes from Sellars. Options 1-3 misstate it as a denial of experience, a claim of infallibility, or a thesis about sense-data.",
+  "tags": [
+    "myth-of-the-given",
+    "sellars",
+    "mcdowell",
+    "space-of-reasons"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

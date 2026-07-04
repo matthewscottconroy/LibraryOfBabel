@@ -1,0 +1,20 @@
+{
+  "question_id": "98cf2b2b-6868-4cfa-966a-e8517faf695e",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Via the ___ correspondence, natural-deduction proofs correspond to programs (typed λ-terms) and propositions correspond to types.",
+  "choices": [
+    "Curry-Howard"
+  ],
+  "answer": "Curry-Howard",
+  "explanation": "This is the Curry–Howard correspondence (proofs-as-programs, propositions-as-types): intuitionistic natural deduction corresponds to the simply typed λ-calculus. Identified by Howard (1969), it is the theoretical basis of proof assistants such as Lean 4 and Coq.",
+  "tags": [
+    "curry-howard",
+    "natural-deduction",
+    "lambda-calculus",
+    "types"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

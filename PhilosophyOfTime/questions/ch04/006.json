@@ -1,0 +1,18 @@
+{
+  "question_id": "5c123688-3118-46d2-a3c4-2aba4e172758",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "On perdurantism (worm theory), how do ordinary objects persist through time?",
+  "choices": [
+    "By being wholly present at each moment of their existence",
+    "By existing only in the present, so that earlier stages have ceased to exist",
+    "By having distinct temporal parts, or stages, at each moment they exist, just as they have distinct spatial parts across their spatial extent",
+    "By an objective present that illuminates exactly one stage at a time"
+  ],
+  "answer": 2,
+  "explanation": "Perdurantism (worm theory) holds that an object is a four-dimensional whole with a distinct temporal part at each time it exists, mirroring the way it has different spatial parts across space; this dissolves the problem of temporary intrinsics by assigning incompatible properties to different stages. Option 0 states endurantism, its direct rival; option 1 folds in presentism; option 3 imports the moving-spotlight theory. Only option 2 gives the temporal-parts account.",
+  "tags": ["perdurantism", "worm-theory", "endurantism", "persistence"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "8f48cdd0-4085-4a47-8610-b095440af43d",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "At a constrained extremum of f subject to g = c (with grad g nonzero), the gradients satisfy grad f = lambda grad g for some scalar lambda.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is the Lagrange multiplier condition: at a constrained extremum grad f is parallel to grad g, so the level set of f is tangent to the constraint surface. The regularity assumption grad g nonzero is required for the method to apply.",
+  "tags": [
+    "lagrange-multipliers",
+    "constrained-optimization"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

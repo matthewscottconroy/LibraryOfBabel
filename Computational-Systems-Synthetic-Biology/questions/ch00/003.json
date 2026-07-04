@@ -1,0 +1,23 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In metabolic flux modeling, what does the null space of the stoichiometric matrix S represent?",
+  "choices": [
+    "The set of thermodynamically favorable reactions only",
+    "The list of essential genes in the network",
+    "The feasible steady-state flux distributions (the flux cone) satisfying mass balance",
+    "The eigenvector centrality of each metabolite"
+  ],
+  "answer": 2,
+  "explanation": "At steady state S*v = 0, so the null space of S contains exactly the flux vectors v that satisfy mass balance -- this is the feasible flux cone exploited by flux balance analysis (FBA). Thermodynamic favorability is a separate constraint layered on top of the stoichiometric null space, essential genes are identified by simulating reaction knockouts rather than read directly off the null space, and eigenvector centrality is a graph-theory concept for network nodes, unrelated to stoichiometry.",
+  "tags": [
+    "linear-algebra",
+    "null-space",
+    "flux-balance-analysis",
+    "metabolic-modeling"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "b58f522c-c45b-49e8-bc40-5b61eb9c4f44"
+}

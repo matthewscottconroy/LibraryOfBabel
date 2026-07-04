@@ -1,0 +1,22 @@
+{
+  "question_id": "a12c0d5e-0788-46eb-ad73-3204b4e7711c",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the language of differential forms, Green's, Stokes', and the Divergence theorems are all special cases of the single statement:",
+  "choices": [
+    "integral over M of d(omega) = integral over M of omega",
+    "integral over M of d(omega) = integral over the boundary of M of omega",
+    "d(d(omega)) = omega",
+    "integral over the boundary of M of d(omega) = integral over M of omega"
+  ],
+  "answer": 1,
+  "explanation": "The Generalized Stokes' Theorem, integral over M of d(omega) = integral over the boundary of M of omega, unifies the classical integral theorems. The relation d^2 = 0 (not d(d(omega)) = omega) is what encodes curl(grad) = 0 and div(curl) = 0.",
+  "tags": [
+    "differential-forms",
+    "generalized-stokes",
+    "exterior-derivative"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

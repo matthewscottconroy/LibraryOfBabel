@@ -1,0 +1,13 @@
+{
+  "question_id": "c41a1695-d539-4706-b4f1-282a07329813",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Modern 20-span (x80 km) long-haul systems reach OSNR ~ 20-22 dB and run DP-16QAM at ~7 bits/s/Hz. Relative to the nonlinear Shannon limit, they operate within about:",
+  "choices": ["exactly at the limit (0 dB)", "20 dB", "50 dB", "2-3 dB"],
+  "answer": 3,
+  "explanation": "State-of-the-art long-haul links sit within roughly 2-3 dB of the nonlinear Shannon limit. Operating exactly at the limit is impossible with finite-complexity coding, and 20 dB or 50 dB would represent enormous, uncompetitive shortfalls compared with today's near-capacity systems.",
+  "tags": ["osnr", "shannon-limit", "long-haul"],
+  "difficulty": "advanced",
+  "generated": true
+}

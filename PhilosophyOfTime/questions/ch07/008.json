@@ -1,0 +1,20 @@
+{
+  "question_id": "8c095b32-86c8-4bd4-9507-35f18fa58b8f",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Experimental work by Pöppel and Fraisse established that the 'psychological present' — the window within which events are integrated into a single experienced 'now' — spans approximately ___ seconds.",
+  "choices": [
+    "two to three"
+  ],
+  "answer": "two to three",
+  "explanation": "The psychological (or specious) present spans roughly two to three seconds, a window that appears consistent across cultures and sensory modalities and shows up in spontaneous rhythmic tapping, speech phrasing, and musical grouping. It is far longer than the roughly 25-millisecond gamma cycle (the elementary perceptual unit) and far shorter than the twenty-to-thirty-second span over which working memory decays.",
+  "tags": [
+    "psychological-present",
+    "poppel",
+    "fraisse",
+    "time-perception"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

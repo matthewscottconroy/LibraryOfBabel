@@ -1,0 +1,13 @@
+{
+  "question_id": "e3ecb770-684e-4e6a-b31c-dee0980c1b6a",
+  "chapter": 20,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Borealis (2022) encodes its 216 modes as a train of squeezed-light pulses and entangles them using three fiber delay loops. What are the three loop delays, and what do they provide?",
+  "choices": ["Delays of tau, 2tau, and 4tau, giving binary-tree connectivity", "Delays of tau, 6tau, and 36tau, giving programmable couplings at three ranges", "Delays of 36tau, 216tau, and 1296tau, one loop per mode", "A single loop of tau reused 216 times, giving nearest-neighbor coupling only"],
+  "answer": 1,
+  "explanation": "Borealis uses loops of delay tau, 6tau, and 36tau with programmable beam splitters, coupling each pulse to neighbors 1, 6, and 36 time-bins away — a 3D topology unrolled in time. Choice 0 uses the wrong (binary) delays; choice 2 invents per-mode loops (the whole economy is that one source plus three loops replaces thousands of elements); choice 3 keeps only the shortest loop and loses the multi-range programmability.",
+  "tags": ["borealis", "xanadu", "time-multiplexing"],
+  "difficulty": "intermediate",
+  "generated": true
+}

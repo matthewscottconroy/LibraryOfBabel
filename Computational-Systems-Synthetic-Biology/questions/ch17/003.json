@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Using wild-type SpCas9, the blunt double-strand break is generated at what position relative to the PAM?",
+  "choices": [
+    "3 bp upstream (5') of the PAM",
+    "Directly within the PAM sequence itself",
+    "10 bp downstream (3') of the PAM",
+    "At the very 5' end of the spacer, 20 bp from the PAM"
+  ],
+  "answer": 0,
+  "explanation": "SpCas9's HNH and RuvC domains cleave the complementary and non-complementary strands, respectively, producing a blunt double-strand break 3 bp upstream of the PAM. Cas9 does not cut within the PAM sequence itself, and cutting 10 bp downstream of the PAM or exactly at the spacer's distal end do not match the characterized SpCas9 cut site.",
+  "tags": [
+    "crispr-cas9",
+    "double-strand-break",
+    "mechanism"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "4b967ef8-c892-46ed-bd6c-6b1c0cee7969"
+}

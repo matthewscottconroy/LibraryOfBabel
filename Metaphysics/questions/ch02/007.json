@@ -1,0 +1,22 @@
+{
+  "question_id": "0413b690-d3ef-4e65-8ff8-cd83b7a25b25",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A ship has all its planks gradually replaced, while the discarded originals are reassembled into a ship. On Wiggins's sortal-relative account, which requires spatiotemporal continuity, which ship is the original Theseus?",
+  "choices": [
+    "The reassembled ship, because it is built from the numerically original planks.",
+    "Neither ship, because the original ceased to exist the moment its first plank was replaced.",
+    "The continuously repaired ship, because identity for a ship requires spatiotemporal continuity, which it alone preserves.",
+    "Both equally, because 'ship' identity is indeterminate and the question has no answer."
+  ],
+  "answer": 2,
+  "explanation": "Wiggins holds that identity is always identity-as-a-phi and that a ship's persistence requires spatiotemporal continuity, which the continuously repaired ship uniquely preserves; the reassembled ship is a distinct, re-created object. The tempting distractor (option 0) privileges sameness of matter, which is exactly what the continuity criterion rejects. A perdurantist, by contrast, dissolves the puzzle by noting the two ships share earlier temporal stages.",
+  "tags": [
+    "ship-of-theseus",
+    "wiggins",
+    "persistence"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

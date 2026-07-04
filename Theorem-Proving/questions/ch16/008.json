@@ -1,0 +1,20 @@
+{
+  "question_id": "41bd7d28-f00f-4deb-ac32-db9abd03bed3",
+  "chapter": 16,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: A counting argument shows that MOST binary strings of a given length are highly compressible — their Kolmogorov complexity is far below their length.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "The incompressibility theorem shows the opposite: at most 2^(n−c) − 1 of the 2^n strings of length n have C(x) < n − c, so almost every string is INCOMPRESSIBLE (C(x) ≈ its length). Randomness is the generic case and structure the exception, so the statement reverses the truth.",
+  "tags": [
+    "incompressibility",
+    "kolmogorov-complexity",
+    "counting"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

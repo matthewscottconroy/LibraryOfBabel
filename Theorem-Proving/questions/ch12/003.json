@@ -1,0 +1,22 @@
+{
+  "question_id": "ea401b8d-8d97-452b-8b35-aa831699061c",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Hoare assignment axiom, for command x := E and postcondition P, is:",
+  "choices": [
+    "{P} x := E {P[E/x]}",
+    "{P} x := E {P}",
+    "{P[E/x]} x := E {P}",
+    "{P[x/E]} x := E {P}"
+  ],
+  "answer": 2,
+  "explanation": "The assignment axiom is {P[E/x]} x := E {P}: to make P hold afterward, substitute E for x in P to obtain the precondition (it runs backward). Choice 0 substitutes in the postcondition (wrong direction), choice 1 omits substitution, and choice 3 reverses the substitution.",
+  "tags": [
+    "hoare-logic",
+    "assignment-axiom",
+    "substitution"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

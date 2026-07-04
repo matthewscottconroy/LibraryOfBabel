@@ -1,0 +1,23 @@
+{
+  "question_id": "ad856111-8f70-497b-afe3-71b7728c3e99",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The product A × B in a category is characterized by the universal property that:",
+  "choices": [
+    "A × B is just the set of ordered pairs (a, b)",
+    "there are injections A → A × B and B → A × B",
+    "A × B is isomorphic to the coproduct A + B",
+    "for every X with maps f: X → A and g: X → B there is a unique ⟨f,g⟩: X → A × B with π₁∘⟨f,g⟩ = f and π₂∘⟨f,g⟩ = g"
+  ],
+  "answer": 3,
+  "explanation": "The product is defined by its universal property: projections π₁, π₂ through which any pair of maps out of X factors via a unique mediating morphism ⟨f,g⟩. Option A is only the concrete Set construction, not the definition; injections and a mediating map out of the object describe the coproduct (B); products and coproducts differ in general (C).",
+  "tags": [
+    "products",
+    "universal-property",
+    "coproduct",
+    "projections"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

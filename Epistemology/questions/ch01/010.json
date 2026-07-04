@@ -1,0 +1,20 @@
+{
+  "question_id": "39bc1b57-befd-49e1-a016-46db2f439d2b",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "In Sosa's virtue epistemology, a belief that is accurate, adroit, and accurate because adroit, that is, true through the exercise of competence, is called ___.",
+  "choices": [
+    "apt"
+  ],
+  "answer": "apt",
+  "explanation": "Sosa's 'AAA' framework classifies a belief as accurate (true), adroit (manifesting competence), and apt (accurate because adroit). Aptness is the crucial epistemic property: the belief's truth must result from, not merely coincide with, the exercise of cognitive competence, which is exactly what Gettiered beliefs lack.",
+  "tags": [
+    "sosa",
+    "apt-belief",
+    "virtue-epistemology",
+    "aaa"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

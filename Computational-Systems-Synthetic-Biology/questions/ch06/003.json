@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In a droplet-based 10x Genomics scRNA-seq experiment, what is the primary purpose of the Unique Molecular Identifier (UMI) attached to each transcript?",
+  "choices": [
+    "To identify which droplet/cell of origin a transcript came from",
+    "To distinguish original mRNA molecules from PCR amplification duplicates",
+    "To mark the 3' poly-A tail so it can be selectively enriched",
+    "To encode the sequencing lane and flow cell for batch correction"
+  ],
+  "answer": 1,
+  "explanation": "The UMI is a short random tag added to each transcript molecule before PCR amplification, so reads sharing a UMI can be collapsed to a single original molecule, removing PCR duplicate inflation from expression counts. Identifying the cell of origin is instead the job of the 16 bp cell barcode, and UMIs have nothing to do with poly-A enrichment or sequencing lane/batch tracking.",
+  "tags": [
+    "single-cell-rna-seq",
+    "umi",
+    "10x-genomics"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "d172d3f5-fc23-4d64-81bf-1819a62d77af"
+}

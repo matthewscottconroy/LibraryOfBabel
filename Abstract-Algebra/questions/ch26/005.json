@@ -1,0 +1,22 @@
+{
+  "question_id": "2cbaa05f-7f53-4164-b9c1-76f11e67ecff",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "A stable $\\infty$-category is characterized by which property?",
+  "choices": [
+    "Every inner horn has a unique filler",
+    "All morphisms are invertible at every level",
+    "The suspension and loop functors are inverse equivalences",
+    "Colimits distribute over products and descent holds"
+  ],
+  "answer": 2,
+  "explanation": "The chapter defines a stable $\\infty$-category as one in which suspension and loop are inverse equivalences, generalizing triangulated categories (examples: spectra $\\mathrm{Sp}$, derived categories $\\mathcal{D}(R)$). 'All morphisms invertible' describes an $\\infty$-groupoid; 'colimits distribute over products / descent' are the Giraud-style axioms for an $\\infty$-topos; and unique horn fillers describe the nerve of an ordinary category.",
+  "tags": [
+    "stable-infinity-category",
+    "suspension",
+    "spectra"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

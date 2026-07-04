@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A metabolomics feature is identified by matching its accurate mass and MS/MS fragmentation spectrum to a spectral library, but no authentic chemical standard was run alongside the sample to confirm retention time. Under the Metabolomics Standards Initiative confidence levels, this is:",
+  "choices": [
+    "Level 1 \u2014 confirmed identification (matches an authentic chemical standard)",
+    "Level 3 \u2014 putative compound class",
+    "Level 4 \u2014 unknown but reproducibly detected feature",
+    "Level 2 \u2014 putative annotation (library MS/MS match, no standard)"
+  ],
+  "answer": 3,
+  "explanation": "Level 2 corresponds exactly to this scenario: a library MS/MS match provides a putative identification without a co-run authentic standard. Level 1 requires confirmation against an authentic standard run alongside the sample, Level 3 reflects only compound-class-level confidence from spectral similarity, and Level 4 applies to a feature that is reproducibly detected but not annotated to any compound at all.",
+  "tags": [
+    "metabolomics",
+    "metabolite-annotation",
+    "msi-levels"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "681c86ac-599b-4bae-81e7-c4bb1b86b679"
+}

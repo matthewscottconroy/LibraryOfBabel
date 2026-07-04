@@ -1,0 +1,22 @@
+{
+  "question_id": "8ac1ef57-6b7b-41e1-b2c0-a76194517112",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "On the Lorenz task, which NVAR features carry the largest ridge coefficients, and what do they represent?",
+  "choices": [
+    "The constant (bias) term, reflecting the mean of the attractor",
+    "The highest-lag linear terms, reflecting very long memory",
+    "Random features, since all coefficients end up essentially equal",
+    "Quadratic product terms such as x·x, y·y, and x·y, which encode the Lorenz equations' xy and xz nonlinearities"
+  ],
+  "answer": 3,
+  "explanation": "The lab's feature-importance analysis shows the dominant coefficients on quadratic self/cross products (x·x, y·y, x·y) — precisely the monomials that reproduce the xy and xz terms in the Lorenz RHS. The bias (option 0) and highest-lag linear terms (option 1) carry minor weight, and the coefficients are far from uniform (option 2 is false) — that non-uniformity is exactly what makes NVAR interpretable.",
+  "tags": [
+    "nvar",
+    "feature-importance",
+    "interpretability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

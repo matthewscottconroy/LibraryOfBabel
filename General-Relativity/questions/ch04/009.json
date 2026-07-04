@@ -1,0 +1,20 @@
+{
+  "question_id": "e0cf1645-1370-4069-974a-b8f459640af4",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "For motion under a central force F = F(r) r̂, the angular momentum is conserved and the orbit is confined to a plane.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. A central force exerts zero torque, so the angular momentum L is conserved; because L keeps a fixed direction, the motion stays in the plane perpendicular to L. This planar confinement and the constancy of L are what give Kepler's second law of equal areas in equal times.",
+  "tags": [
+    "orbits",
+    "central-force",
+    "angular-momentum"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

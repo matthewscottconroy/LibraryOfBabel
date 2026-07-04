@@ -1,0 +1,13 @@
+{
+  "question_id": "27b237be-2e2c-41c3-b460-4dedf4f6bae6",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Shannon proved that for any transmission rate R below the channel capacity C, arbitrarily reliable communication is achievable given a sufficiently good code.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Shannon's noisy-channel coding theorem guarantees that any rate R < C permits error probability driven arbitrarily low with good coding, while any R > C makes reliable communication impossible. Noise is not the enemy; exceeding capacity is.",
+  "tags": ["shannon-limit", "channel-capacity", "coding-theorem"],
+  "difficulty": "beginner",
+  "generated": true
+}

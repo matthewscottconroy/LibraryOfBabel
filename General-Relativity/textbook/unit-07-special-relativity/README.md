@@ -21,6 +21,10 @@ Special relativity is the arena in which tensor calculus first becomes necessary
 
 ## Chapters in This Unit
 
-- [Chapter 20: The Postulates and Kinematics of Special Relativity](chapter-20-postulates-kinematics/README.md)
-- [Chapter 21: Spacetime Geometry and the Minkowski Metric](chapter-21-spacetime-geometry/README.md)
-- [Chapter 22: Relativistic Dynamics and the Stress-Energy Tensor](chapter-22-relativistic-dynamics/README.md)
+- [Chapter 19: Spacetime and the Minkowski Metric](chapter-19-minkowski/README.md)
+- [Chapter 20: Relativistic Mechanics and the Stress-Energy Tensor](chapter-20-relativistic-mechanics/README.md)
+- [Chapter 22: The Road to Special Relativity](chapter-22-historical-background/README.md)
+- [Chapter 23: The Structure of Spacetime](chapter-23-spacetime-structure/README.md)
+- [Chapter 24: Lorentz Transformations](chapter-24-lorentz-transformations/README.md)
+- [Chapter 25: Four-Vectors and Relativistic Dynamics](chapter-25-four-vectors-dynamics/README.md)
+- [Chapter 26: Relativistic Electrodynamics](chapter-26-relativistic-electrodynamics/README.md)

@@ -1,0 +1,18 @@
+{
+  "question_id": "df1f0b35-9ed7-4233-8706-90e420704c19",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Kripke argues that 'Hesperus is Phosphorus' is necessary a posteriori. What makes the identity necessary?",
+  "choices": [
+    "The statement is analytic, true purely in virtue of the meanings of the two names.",
+    "The reference-fixing descriptions 'the morning star' and 'the evening star' are necessarily co-satisfied.",
+    "'Hesperus' and 'Phosphorus' are rigid designators of the same object (Venus), and identities between co-referring rigid designators hold in every world.",
+    "We can conceive of no epistemically possible world in which the morning star differs from the evening star."
+  ],
+  "answer": 2,
+  "explanation": "Since both names rigidly designate Venus, and everything is necessarily self-identical, 'Hesperus is Phosphorus' is true in every world where the object exists (necessary), even though its truth was discovered empirically (a posteriori). Option 0 is wrong because the identity is not analytic, and option 1 misidentifies the source: the reference-fixing descriptions are non-rigid and vary across worlds, which is exactly what generates the illusion of contingency.",
+  "tags": ["modality", "kripke", "rigid-designation", "necessary-a-posteriori"],
+  "difficulty": "intermediate",
+  "generated": true
+}

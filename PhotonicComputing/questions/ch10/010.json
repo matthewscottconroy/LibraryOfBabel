@@ -1,0 +1,19 @@
+{
+  "question_id": "a842549c-f617-4072-bdbc-a5198943fe93",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In a 4f system the field at the Fourier plane maps back-focal-plane position x' to spatial frequency f_x = ___ , because the lens's quadratic phase cancels that of the Fraunhofer diffraction integral.",
+  "choices": [
+    "x'/(lambda*f)"
+  ],
+  "answer": "x'/(lambda*f)",
+  "explanation": "The exact mapping is f_x = x'/(lambda*f); the lens's quadratic phase exactly cancels the Fraunhofer quadratic phase, making the transform an exact Fourier transform rather than an approximation.",
+  "tags": [
+    "fourier-optics",
+    "spatial-frequency",
+    "diffraction"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

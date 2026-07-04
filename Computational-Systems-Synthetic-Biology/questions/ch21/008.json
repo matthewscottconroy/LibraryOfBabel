@@ -1,0 +1,20 @@
+{
+  "chapter": 21,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Gene drives are generally considered reversible, so an environmental release can be easily undone if unintended ecological consequences occur.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: the chapter states that gene drives are 'by design irreversible,' which is exactly why staged, contained field testing and community consent are emphasized before any open release. The statement incorrectly claims easy reversibility, the opposite of how gene drives are engineered to function.",
+  "tags": [
+    "ethics",
+    "gene-drives",
+    "environmental-release"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "75d02a00-3da5-4739-8ec4-dd45100cd8ff"
+}

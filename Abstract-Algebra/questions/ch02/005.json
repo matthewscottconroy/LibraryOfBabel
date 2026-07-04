@@ -1,0 +1,21 @@
+{
+  "question_id": "a32a0267-0247-4e64-b286-5cc8b3a227ab",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For which cardinalities does a finite field exist?",
+  "choices": [
+    "Every integer n ≥ 2",
+    "Exactly the primes",
+    "Exactly the prime powers pⁿ",
+    "Exactly the powers of 2"
+  ],
+  "answer": 2,
+  "explanation": "For each prime power pⁿ there is a field 𝔽_pⁿ, unique up to isomorphism, and no other sizes occur. Composite non-prime-power moduli fail: ℤ/6ℤ has zero divisors (2·3 = 0), and any finite field is a vector space over its prime subfield 𝔽_p, forcing order pⁿ.",
+  "tags": [
+    "fields",
+    "finite-fields"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

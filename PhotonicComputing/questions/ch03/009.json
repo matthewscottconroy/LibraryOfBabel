@@ -1,0 +1,19 @@
+{
+  "question_id": "5b486cee-4eac-427a-b7bd-3d07bf25a99c",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Below threshold, a laser diode emits mostly incoherent spontaneous emission and behaves essentially like an ___; only above threshold does stimulated emission take over and the output become coherent.",
+  "choices": [
+    "LED"
+  ],
+  "answer": "LED",
+  "explanation": "Below threshold the device produces spontaneous emission just like a light-emitting diode (LED). Only once round-trip gain reaches round-trip loss does stimulated emission dominate, producing the narrow-band, coherent laser output.",
+  "tags": [
+    "laser-threshold",
+    "spontaneous-emission",
+    "led"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

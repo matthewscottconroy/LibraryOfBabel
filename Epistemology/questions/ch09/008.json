@@ -1,0 +1,20 @@
+{
+  "question_id": "8b50598d-c0ca-4164-8f04-e7114298f073",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Rawls's canonical method in moral epistemology, which justifies moral beliefs by mutually adjusting our considered judgments and our moral principles until they cohere - revising either one when they conflict - is called ___.",
+  "choices": [
+    "reflective equilibrium"
+  ],
+  "answer": "reflective equilibrium",
+  "explanation": "Reflective equilibrium is a coherentist, anti-foundationalist method: neither particular judgments nor principles are treated as fixed, and both are revised toward mutual coherence ('wide' reflective equilibrium adds background theories). It contrasts with intuitionism, which grounds moral knowledge in self-evident, non-inferentially known truths rather than in coherence.",
+  "tags": [
+    "moral epistemology",
+    "reflective equilibrium",
+    "rawls",
+    "coherentism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

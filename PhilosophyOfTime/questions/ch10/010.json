@@ -1,0 +1,21 @@
+{
+  "question_id": "bb93a20e-8f8e-4b5f-8cf8-9203527ef125",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Hawking's Chronology Protection Conjecture has been rigorously proved as a mathematical theorem, establishing that quantum effects always prevent the formation of closed timelike curves.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: the book repeatedly stresses that the conjecture remains a conjecture, not a theorem. It is supported by semiclassical calculations (such as the diverging vacuum stress-energy near the Cauchy horizon in Misner space) but has not been proved, and 'softer' divergences have been proposed as possible counterexamples (Klinkhammer 1992). Hawking himself said he 'would not bet on it.'",
+  "tags": [
+    "chronology-protection",
+    "hawking",
+    "cauchy-horizon",
+    "conjecture"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

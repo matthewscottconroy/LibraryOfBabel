@@ -1,0 +1,19 @@
+{
+  "question_id": "3db695bd-5bd9-4c44-951c-be5a955a39d8",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Sider holds that the fundamental predicates, like those of physics, 'carve nature at its ___', picking out genuinely natural, mind-independent features of reality.",
+  "choices": [
+    "joints"
+  ],
+  "answer": "joints",
+  "explanation": "Sider's realism about structure holds that some predicates (mass, charge, spin) carve nature at its joints while others (grue, bleen) do not, and that this naturalness is mind-independent. Deflationists reply that 'more natural' may mean only 'more useful for our purposes' rather than tracking objective structure.",
+  "tags": [
+    "sider",
+    "joint-carving",
+    "structure"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

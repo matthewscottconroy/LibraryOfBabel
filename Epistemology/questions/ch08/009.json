@@ -1,0 +1,18 @@
+{
+  "question_id": "3d366e85-5cd7-4ae3-81e7-69b8c9e90376",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The equal-weight view of peer disagreement (Elga, Christensen, Feldman) recommends that, on discovering that a recognized epistemic peer disagrees with you, you should:",
+  "choices": [
+    "give your peer's conclusion the same evidential weight as your own and revise your credence toward theirs, roughly splitting the difference.",
+    "retain your original credence unchanged, provided your first-order evidence in fact supported your conclusion.",
+    "infer that the two of you were never genuine epistemic peers, since genuine peers do not persist in disagreement.",
+    "attend only to your total first-order evidence about the disputed question and disregard the fact of disagreement as mere noise."
+  ],
+  "answer": 0,
+  "explanation": "The equal-weight version of conciliationism treats the peer's contrary judgment as evidence of the same force as your own, so you move your credence toward theirs (split the difference). Option 1 is the steadfast or right-reasons view (Kelly); option 2 is the Sosa-style claim that apparent peer disagreement usually reveals that the parties were not genuine peers; option 3 mischaracterizes total-evidence views. Only option 0 states the equal-weight recommendation.",
+  "tags": ["peer-disagreement", "conciliationism", "equal-weight-view", "elga"],
+  "difficulty": "beginner",
+  "generated": true
+}

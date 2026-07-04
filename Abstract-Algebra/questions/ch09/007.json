@@ -1,0 +1,20 @@
+{
+  "question_id": "10101714-7415-41ea-9653-9f1ea2b89cb9",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The kernel of any group homomorphism is a normal subgroup of the domain.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "For n ∈ ker φ and any g, φ(gng⁻¹) = φ(g)φ(n)φ(g)⁻¹ = e, so gng⁻¹ ∈ ker φ. Together with the converse (normal subgroups are kernels of projections), this characterizes normality.",
+  "tags": [
+    "homomorphisms",
+    "kernels",
+    "normal-subgroups"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

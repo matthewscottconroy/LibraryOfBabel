@@ -1,0 +1,19 @@
+{
+  "question_id": "6792277b-0784-45f3-b5ae-e81af06f3ef8",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The foundry-designer interface that specifies the layer map, design-rule (DRC) deck, validated pcells with measured performance distributions, and compact models is called the process design kit, or ___.",
+  "choices": [
+    "PDK"
+  ],
+  "answer": "PDK",
+  "explanation": "The PDK (process design kit) is the contract between foundry and designer; its deepest clause is that only PDK components carry guaranteed performance. Every custom polygon carries the designer's own risk on a 4-9 month feedback loop.",
+  "tags": [
+    "pdk",
+    "foundry",
+    "design-rules"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

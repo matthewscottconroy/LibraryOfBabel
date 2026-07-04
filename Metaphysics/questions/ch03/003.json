@@ -1,0 +1,18 @@
+{
+  "question_id": "0684295e-04d1-4920-a9df-06565fde6fe1",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "On the Dretske-Tooley-Armstrong (DTA) account, the lawhood of 'all Fs are Gs' consists in what?",
+  "choices": [
+    "The generalization's earning a place as an axiom or theorem in the deductive system that best balances simplicity and strength.",
+    "The essential dispositional nature of F, which constitutively includes producing G.",
+    "A second-order necessitation relation N holding between the universals F and G, from which the first-order regularity follows.",
+    "The mere truth of the universal generalization, provided it is expressed in purely qualitative predicates."
+  ],
+  "answer": 2,
+  "explanation": "The DTA view makes lawhood a higher-order fact, a necessitation relation N(F,G) between universals that is ontologically additional to, and entails, the first-order regularity. Option 0 is Lewis's Best System Analysis, option 1 is Bird's dispositional essentialism, and option 3 is the naive regularity theory; DTA is defined precisely by positing N over and above any regularity.",
+  "tags": ["laws-of-nature", "dta", "universals", "armstrong"],
+  "difficulty": "intermediate",
+  "generated": true
+}

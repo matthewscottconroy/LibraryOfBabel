@@ -1,0 +1,23 @@
+{
+  "question_id": "d4a6273f-ef1a-48cd-a036-bfe210246ee9",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Newell and Simon's 'physical symbol system hypothesis,' a classic expression of the computational theory of mind, claims that a system is capable of genuine intelligent behaviour if and only if it:",
+  "choices": [
+    "is a biological organism whose intelligence is grounded in evolved, domain-specific modules",
+    "is a physical symbol system that manipulates symbolic structures in ways that preserve their semantic relationships",
+    "is a distributed neural network that represents information as patterns of activation rather than discrete symbols",
+    "is dynamically coupled to a body and environment that partly constitute its cognitive processes"
+  ],
+  "answer": 1,
+  "explanation": "Newell and Simon held that manipulating symbol structures whose formal operations track semantic relations is both necessary and sufficient for intelligence -- the core classical/GOFAI commitment. Option 2 describes the connectionist rival, option 3 the 4E/embodied rival, and option 0 the massive-modularity/evolutionary-psychology alternative; the hypothesis is a claim about symbol manipulation, not biology.",
+  "tags": [
+    "physical-symbol-system",
+    "newell-simon",
+    "computational-theory-of-mind",
+    "gofai"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

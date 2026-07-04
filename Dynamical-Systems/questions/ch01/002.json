@@ -1,0 +1,22 @@
+{
+  "question_id": "7d420196-3729-40f6-afdb-a4fcd3d76dbb",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Under the linear map x -> Ax, the image of the unit sphere is an ellipsoid whose semi-axis lengths are:",
+  "choices": [
+    "the eigenvalues of A",
+    "the trace of A",
+    "the diagonal entries of A",
+    "the singular values of A"
+  ],
+  "answer": 3,
+  "explanation": "The SVD A = U Sigma V^T shows the unit sphere maps to an ellipsoid with semi-axes equal to the singular values (diagonal of Sigma). Eigenvalues govern iteration directions, not the geometric stretch of the sphere.",
+  "tags": [
+    "svd",
+    "linear-algebra",
+    "geometry"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "a216bc66-e9f9-442a-980e-e15b87a75823",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "blank",
+  "text": "A discrete temporal ordering — analogous to the integers, with adjacent moments and nothing between them — implies a smallest indivisible unit of time sometimes called a ___.",
+  "choices": [
+    "chronon"
+  ],
+  "answer": "chronon",
+  "explanation": "The expected answer is 'chronon,' the book's name for the minimal temporal unit of a discrete time. Discrete time, unlike dense or continuous time, posits adjacent moments and a smallest unit, and thereby dissolves Zeno's paradoxes by eliminating infinite divisibility.",
+  "tags": [
+    "discrete-time",
+    "chronon",
+    "order-type",
+    "zeno"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

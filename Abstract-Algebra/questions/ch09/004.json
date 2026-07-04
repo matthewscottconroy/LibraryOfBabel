@@ -1,0 +1,22 @@
+{
+  "question_id": "7f418c38-e405-47a1-bf1e-763695166bde",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which subgroups of G arise as kernels of group homomorphisms out of G?",
+  "choices": [
+    "Exactly the normal subgroups",
+    "All subgroups",
+    "Only the center Z(G)",
+    "Only {e} and G itself"
+  ],
+  "answer": 0,
+  "explanation": "Kernels are always normal (φ(gng⁻¹) = φ(g)e φ(g)⁻¹ = e), and conversely every normal subgroup N is the kernel of the canonical projection G → G/N. This is why normality is exactly the condition needed for quotient groups.",
+  "tags": [
+    "homomorphisms",
+    "normal-subgroups",
+    "kernels"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

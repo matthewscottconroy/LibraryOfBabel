@@ -1,0 +1,21 @@
+{
+  "question_id": "3d54c1cc-73ec-4612-b216-2acc6724a640",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Ext⁰_R(M, N) is naturally isomorphic to:",
+  "choices": [
+    "Hom_R(M, N)",
+    "M ⊗_R N",
+    "0",
+    "N/M"
+  ],
+  "answer": 0,
+  "explanation": "Applying Hom(−, N) to a projective resolution P• → M and taking H⁰ recovers Hom(M, N) by left exactness of Hom. The higher Ext groups then measure the failure of Hom to be exact.",
+  "tags": [
+    "ext",
+    "derived-functors"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

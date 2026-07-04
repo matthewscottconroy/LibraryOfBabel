@@ -1,0 +1,18 @@
+{
+  "question_id": "f19141c9-6c89-4b82-9102-b08feadac325",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the Scholium to the Principia, Newton characterizes absolute, true, and mathematical time as time that:",
+  "choices": [
+    "Is merely the order of succession among non-simultaneous events",
+    "Cannot be conceived at all apart from the succession of ideas in the mind",
+    "In itself, and of its own nature, flows equably (uniformly) without relation to anything external",
+    "Is the form of inner sense, empirically real yet transcendentally ideal"
+  ],
+  "answer": 2,
+  "explanation": "Newton's Scholium defines absolute time as flowing 'equably... without relation to anything external' — an independent framework that would pass even in a universe with no events, matter, or change. Choice 0 is Leibniz's relationalism, choice 1 is the empiricist (Locke/Berkeley) view that our idea of time derives from mental succession, and choice 3 is Kant's transcendental account; all are positions that Newton's absolutism opposed.",
+  "tags": ["newton", "absolute-time", "scholium", "flows-equably"],
+  "difficulty": "beginner",
+  "generated": true
+}

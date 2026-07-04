@@ -1,0 +1,21 @@
+{
+  "question_id": "dd302512-7113-45cb-aaff-640d1c3a1d6c",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A pitchfork bifurcation, as in x' = r x - x^3, is characterized by:",
+  "choices": [
+    "two equilibria colliding and annihilating each other",
+    "one equilibrium losing stability while two new symmetric equilibria appear",
+    "a limit cycle emerging from a focus",
+    "a complex-conjugate eigenvalue pair crossing the imaginary axis"
+  ],
+  "answer": 1,
+  "explanation": "The supercritical pitchfork x' = r x - x^3 has the origin stable for r < 0; at r = 0 it loses stability and two symmetric stable branches at plus or minus sqrt(r) appear. Colliding and annihilating equilibria describe a saddle-node, and a complex pair crossing the axis is a Hopf bifurcation.",
+  "tags": [
+    "pitchfork",
+    "bifurcation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

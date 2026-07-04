@@ -1,0 +1,22 @@
+# Build manifest for the Philosophy of Time textbook.
+# unit-XX/ recurses into chapter-YY/section-ZZ/N-topic.md leaves with per-chapter
+# back matter.  intro.md then intro-expanded.md open each unit.
+#
+# chronological-overview.md and philosophy_of_time_outline.md are deliberately
+# EXCLUDED: the outline is a planning blueprint, not book content.
+title = "The Philosophy of Time"
+subtitle = "A Comprehensive Textbook"
+
+# intro-expanded.md is intro-like and should follow intro.md.
+intro_names = ["intro-expanded.md"]
+
+exclude = [
+    "README.md",
+    "chronological-overview.md",
+    "philosophy_of_time_outline.md",
+]
+
+[[sources]]
+root = "."
+recursive = true
+part_level = 1   # unit-01 .. unit-12 become \part

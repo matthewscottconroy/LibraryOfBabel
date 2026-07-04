@@ -1,0 +1,23 @@
+{
+  "question_id": "bca5f9a4-792c-4f1a-baf7-97ceec92fd51",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Sellars's 'Myth of the Given' is a critique directed against which foundationalist commitment?",
+  "choices": [
+    "The claim that basic beliefs are merely prima facie justified and can be defeated by further evidence.",
+    "The claim that coherence among beliefs can by itself put a believer in contact with the world.",
+    "The idea that there is a stratum of experience that is at once capable of justifying beliefs and yet itself epistemically independent, standing in no need of justification.",
+    "The claim that justification depends on the reliability of the belief-forming process rather than on the believer's evidence."
+  ],
+  "answer": 2,
+  "explanation": "Sellars argued that anything with the conceptual, propositional content needed to justify a belief already stands in the 'space of reasons' and so cannot be epistemically innocent; there is no given that both justifies and is itself self-justified. Option (0) describes modest foundationalism's defeasibility, (1) the isolation objection to coherentism, and (3) the internalist complaint against reliabilism, none of which is the Given.",
+  "tags": [
+    "sellars",
+    "myth-of-the-given",
+    "foundationalism",
+    "space-of-reasons"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

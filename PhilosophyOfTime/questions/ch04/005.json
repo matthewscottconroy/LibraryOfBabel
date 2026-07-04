@@ -1,0 +1,18 @@
+{
+  "question_id": "8b67939c-cb29-45ae-8548-20598d5bff1f",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The truthmaker argument for eternalism presses which question against presentism?",
+  "choices": [
+    "How can the present have any duration if it is a durationless mathematical instant?",
+    "If the past does not exist, what in reality makes true propositions about past events, such as 'Caesar crossed the Rubicon'?",
+    "How can an agent know she is at the leading edge of reality rather than in its interior?",
+    "At what non-trivial rate does the objective present advance through the manifold?"
+  ],
+  "answer": 1,
+  "explanation": "The truthmaker argument holds that every truth needs something in reality to make it true; if the past is literally nothing, past-tensed truths seem ungrounded, whereas eternalism supplies the past event itself (existing tenselessly at its temporal location) as the truthmaker. Option 2 is the growing block's epistemological problem and option 3 is the moving spotlight's rate problem -- objections aimed at other views -- while option 0 concerns the duration of the present, a separate issue.",
+  "tags": ["truthmaker", "eternalism", "presentism", "grounding"],
+  "difficulty": "intermediate",
+  "generated": true
+}

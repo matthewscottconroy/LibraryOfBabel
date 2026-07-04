@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Bacterial chromosomes typically have multiple origins of replication, while eukaryotic chromosomes typically have just one.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This reverses the actual relationship: prokaryotes typically have a single origin of replication (ori), while eukaryotic chromosomes have many origins, which allows their much larger genomes to be replicated within a reasonable time frame.",
+  "tags": [
+    "dna-replication",
+    "origin-of-replication",
+    "prokaryotes-vs-eukaryotes"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "ffdcadbf-0388-455a-ab41-7fc2f1c477a2"
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 17,
+  "phase": 3,
+  "kind": "blank",
+  "text": "JCVI-syn3.0, developed by the Venter group, is a minimal synthetic bacterial genome containing only ___ genes, used to reveal which genes are truly essential for cellular life.",
+  "choices": [
+    "473"
+  ],
+  "answer": "473",
+  "explanation": "JCVI-syn3.0 contains just 473 genes, the smallest genome of any known independently replicating organism, built by iteratively removing non-essential genes to empirically define a minimal essential gene set. This effort followed the Venter group's earlier synthesis of the first synthetic bacterial chromosome in 2010.",
+  "tags": [
+    "genome-synthesis",
+    "jcvi-syn3",
+    "minimal-genome"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "6da70db9-386b-4ede-b265-099c81cd7005"
+}

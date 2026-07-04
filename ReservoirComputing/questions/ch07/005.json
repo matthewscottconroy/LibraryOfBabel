@@ -1,0 +1,22 @@
+{
+  "question_id": "1f4c67d0-8890-42fb-a95d-e27f550ceea9",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The lab finds the closed-loop VPT is shorter than the open-loop VPT. What is the stated reason?",
+  "choices": [
+    "The closed-loop readout uses fewer neurons, lowering capacity",
+    "Prediction errors compound because they are fed back as inputs",
+    "The washout period is skipped in closed-loop mode",
+    "Closed-loop uses a higher VPT threshold than open-loop"
+  ],
+  "answer": 1,
+  "explanation": "In closed loop the ESN's own imperfect output becomes the next input, so errors feed back and compound, causing faster divergence and a shorter Valid Prediction Time. The VPT threshold (0.05) and the reservoir are identical for both modes.",
+  "tags": [
+    "mackey-glass",
+    "closed-loop",
+    "vpt"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

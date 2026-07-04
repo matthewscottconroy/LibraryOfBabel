@@ -1,0 +1,19 @@
+{
+  "question_id": "e97d06e6-a258-4c4a-bfc9-04b737d4064e",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The skeptical worry behind the other-minds problem is dramatized by the philosophical ___: a being physically and behaviorally identical to a conscious person but wholly lacking inner experience.",
+  "choices": [
+    "zombie"
+  ],
+  "answer": "zombie",
+  "explanation": "The philosophical zombie — behaviorally and physically identical to a conscious person yet lacking any inner experience — makes vivid the logical gap between behavioral evidence and consciousness at the heart of the other-minds problem. The expected term is 'zombie.'",
+  "tags": [
+    "philosophical-zombie",
+    "other-minds",
+    "skepticism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -113,6 +113,58 @@ for all $n \geq 1$.
 
 **Why it matters:** The stable homotopy groups of spheres are the "atoms" of homotopy theory. A synthetic development would give new geometric insight into these purely arithmetic invariants.
 
+## Research Directions Beyond the Core Problems
+
+The eight problems above are the named landmarks. Around them lie broader research programs where the landscape is less charted.
+
+### New Type Theory Designs
+
+Beyond CCHM and simplicial TT, several new type theories are under development:
+
+**Displayed type theory (dTT):** (Aagaard, North, Veltri) extends DTT with "displayed" types, designed to make fibered reasoning more natural. Applications to synthetic category theory.
+
+**Multimodal type theory (MTT):** (Gratzer, Kavvos, Nuyts, Birkedal) gives a general framework for modal type theories, encompassing both cohesive HoTT and directed type theories. The open problem: give a full model for MTT that validates all the desired axioms.
+
+**Parametric type theory:** (Nuyts, Vezzosi, Ahman) extends type theory with *parametricity* axioms, enabling internal reasoning about relational parametricity. Applications to program correctness and abstract data types.
+
+**Internal languages of new ∞-toposes:** Different ∞-toposes (equivariant, motivic, $p$-adic) require specialized type theories. The general question: what is the internal language of an ∞-topos with specific properties (e.g., the ∞-topos of $G$-spaces for a group $G$)?
+
+### Proof Theory of HoTT
+
+The proof theory of HoTT (decidability, complexity, proof size) is largely unexplored:
+
+**Decidability of type checking:** Is type checking in cubical type theory decidable? The answer is yes (normalization gives a decision procedure), but the complexity is unknown.
+
+**Proof complexity:** How long must a proof of $\pi_n(S^n) = \mathbb{Z}$ be in HoTT? Are there results that have short classical proofs but only long HoTT proofs?
+
+**Proof mining:** Classical proofs of theorems often contain constructive content that can be extracted (Kreisel's proof mining). For HoTT proofs: is there content in HoTT proofs beyond what is visible classically?
+
+### Connections to Computer Science
+
+**Quotient types and data abstraction:** HITs give a precise meaning to "abstract data types" — types where certain equalities are forced. A queue and a deque may have the same abstract behavior (same quotient) even with different implementations.
+
+**Parametricity via HoTT:** The Reynolds parametricity theorem (every polymorphic function is a natural transformation) has a HoTT interpretation: the identity type in System F is the HoTT path type. This gives a new proof of the theorems of free theorems.
+
+**Observational type theory:** (McBride, Altenkirch, Swierstra) is a type theory where equality is defined *by observation* — two terms are equal if they are observationally indistinguishable. This is closely related to HoTT.
+
+**Denotational semantics via HoTT:** The denotational semantics of a programming language is a functor from syntax (a category) to semantics (types). HoTT gives a natural setting for this: the functor is a map of Segal types, and semantic equivalence is path equality in the target.
+
+**Verified compilation:** Compilers that are proved correct via HoTT proofs. The CompCert project (in Coq) shows this is possible; the next step is using HoTT-specific techniques (univalence, parametricity) to simplify and automate correctness proofs.
+
+**Synthetic domain theory:** Domain theory is the mathematics of computation: domains model recursive types and fixed points. In synthetic domain theory (Hyland, Phoa, Taylor), domains are modeled as types in a category satisfying certain axioms. HoTT offers a new setting, starting from the *lifting monad* $L$: the lifting of a type $A$ is the type $LA :\equiv \|A + \mathbf{1}\|_?$ — elements of $A$ together with a "bottom" element, with suitable continuity conditions. This is a monad for partiality. The open problem: give a full synthetic domain theory in HoTT — define the category of domains, prove the existence of fixed points, and derive the semantics of a programming language with general recursion.
+
+### Connections to Mathematics
+
+**Algebraic K-theory:** K-theory assigns to a ring $R$ a sequence of groups $K_n(R)$ that measure algebraic invariants. In HoTT, K-theory is naturally a sequence of homotopy groups of the K-theory space:
+
+$$K_n(R) :\equiv \pi_n(|BGL(R)^+|)$$
+
+where $BGL(R)^+$ is the Quillen plus-construction on the classifying space of $GL(R)$. In HoTT, $BGL(R)$ can be defined as a HIT, and the plus-construction adds path constructors killing the perfect normal subgroup of $\pi_1$. Open problem: formalize algebraic K-theory in Cubical Agda or Lean 4, starting with $K_0$ (projective modules) and $K_1$ (units of $R$).
+
+**Topological field theories and cobordism:** A TFT assigns algebraic data to manifolds: a vector space to each compact $(n-1)$-manifold and a linear map to each $n$-cobordism. In HoTT, TFTs are functors from the cobordism ∞-category to a symmetric monoidal ∞-category. The fully extended cobordism hypothesis (Lurie 2009) classifies extended TFTs; a synthetic proof in simplicial type theory would be a major achievement:
+
+> *Prove the cobordism hypothesis in simplicial type theory: fully extended $n$-dimensional TFTs valued in a symmetric monoidal ∞-category $\mathcal{C}$ are classified by the $n$-fold dualizable objects in $\mathcal{C}$.*
+
 ## Triage: What to Work On
 
 Some rough guidance on accessibility:

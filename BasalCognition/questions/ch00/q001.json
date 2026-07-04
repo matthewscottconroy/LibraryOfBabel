@@ -1,9 +1,0 @@
-{
-  "chapter": 0, "phase": 0, "kind": "mc",
-  "text": "Which mechanism allows bacteria to perform temporal comparisons when navigating chemical gradients?",
-  "choices": ["Spatial comparison across their cell body length", "Temporal comparison of receptor occupancy over time while swimming", "Receptor clustering at the leading edge only", "Passive diffusion following concentration gradients"],
-  "answer": 1,
-  "explanation": "Bacteria are too small to measure a gradient spatially across their body. Instead, they perform temporal comparisons: while tumbling and running, they compare current receptor occupancy to a short-term memory of recent occupancy encoded in methylation state of chemoreceptors. This allows directed migration up attractant gradients.",
-  "tags": ["chemotaxis", "bacterial-memory", "signal-transduction"],
-  "difficulty": "intermediate"
-}

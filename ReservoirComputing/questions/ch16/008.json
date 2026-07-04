@@ -1,0 +1,20 @@
+{
+  "question_id": "bccc7c45-3af9-4bd9-838d-fa293bd0b9f0",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "blank",
+  "text": "In the reservoir-computing interpretation of the cerebellum, the vast layer of granule cells plays the role of the high-dimensional reservoir, while the ___ cells act as the trained linear readout (with climbing fibers supplying the error signal).",
+  "choices": [
+    "Purkinje",
+    "purkinje"
+  ],
+  "answer": "Purkinje",
+  "explanation": "The Marr-Albus-Ito / reservoir mapping is: granule cells = reservoir (a ~500-fold dimensionality expansion of the mossy-fiber input), Purkinje cells = linear readout, and climbing fibers = teacher/error signal driving LTD at parallel-fiber-to-Purkinje synapses. So the readout cells are the Purkinje cells.",
+  "tags": [
+    "cerebellum",
+    "purkinje",
+    "readout"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

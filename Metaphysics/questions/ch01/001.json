@@ -1,0 +1,22 @@
+{
+  "question_id": "f2565827-32c4-4b26-a7ab-604ceb01c0a4",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The 'One Over Many' argument is offered in support of which conclusion?",
+  "choices": [
+    "There are universals, entities that can be wholly present in many distinct particulars, because distinct things can genuinely be the same way.",
+    "There are only particulars, since apparent sameness is just the application of a shared predicate.",
+    "Properties are particular tropes rather than universals, unified only by resemblance.",
+    "There is a distinct property corresponding to every meaningful predicate whatsoever."
+  ],
+  "answer": 0,
+  "explanation": "The One Over Many infers a shared universal from the premise that numerically distinct particulars can be genuinely the same way (same color, kind). The tempting distractor (option 1) is the predicate-nominalist denial of the argument's second premise, which is a rejection of the argument, not its conclusion.",
+  "tags": [
+    "problem-of-universals",
+    "one-over-many",
+    "realism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

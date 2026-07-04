@@ -1,0 +1,23 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "When an ODE system is linearized around a fixed point using the Jacobian matrix, what property determines whether the fixed point is locally stable?",
+  "choices": [
+    "The determinant of the Jacobian alone",
+    "The sign of the eigenvalues of the Jacobian",
+    "The rank of the Jacobian matrix",
+    "Whether the Jacobian is symmetric"
+  ],
+  "answer": 1,
+  "explanation": "Stability analysis via linearization determines local stability from the sign of the Jacobian's eigenvalues: negative real parts for all eigenvalues means stable, any eigenvalue with a positive real part means unstable. The determinant alone (the product of eigenvalues) cannot distinguish a stable from an unstable configuration with the same sign product, rank concerns degeneracy or singularity rather than stability, and symmetry is unrelated to determining stability.",
+  "tags": [
+    "jacobian",
+    "eigenvalues",
+    "stability-analysis",
+    "ode"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "e302390c-d545-4959-b36b-36ea2c41e465"
+}

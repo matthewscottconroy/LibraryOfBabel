@@ -1,0 +1,22 @@
+{
+  "question_id": "34e4c0bf-b8cb-4d47-ba1f-e2921dcf9602",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "How does full-FORCE differ from standard (readout-only) FORCE?",
+  "choices": [
+    "It trains only the output weights but with a larger aperture",
+    "It removes the feedback loop and trains the readout offline",
+    "It also trains internal recurrent weights (W_int), modifying W, at O(N^3) per step",
+    "It swaps RLS for an LMS gradient rule to reduce cost"
+  ],
+  "answer": 2,
+  "explanation": "Full-FORCE (DePasquale et al. 2018) trains a per-neuron set of internal weights in addition to the readout, using a target network, so the recurrent matrix becomes W + W_int (a rank-N correction) at O(N^3) per step versus FORCE's O(N^2). It keeps the feedback/RLS and does not use LMS or an aperture.",
+  "tags": [
+    "full-force",
+    "internal-weights",
+    "complexity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

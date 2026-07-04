@@ -1,0 +1,21 @@
+{
+  "question_id": "cdb2b51c-9a9d-4f66-a5e7-538f295a4841",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For any eigenvalue λ of an operator on a finite-dimensional space, the relation between geometric multiplicity m_g and algebraic multiplicity m_a is:",
+  "choices": [
+    "1 ≤ m_g ≤ m_a always",
+    "1 ≤ m_a ≤ m_g always",
+    "m_g = m_a always",
+    "m_g + m_a = dim V always"
+  ],
+  "answer": 0,
+  "explanation": "Each eigenvalue has at least one eigenvector, and extending a basis of the eigenspace shows λ divides the characteristic polynomial at least m_g times. Equality m_g = m_a for every eigenvalue is exactly the criterion for diagonalizability.",
+  "tags": [
+    "eigenvalues",
+    "multiplicity"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

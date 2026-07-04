@@ -1,0 +1,22 @@
+{
+  "question_id": "29160f1f-1141-4177-a1c8-4f28465bca6d",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In the arithmetical hierarchy, the complement of the halting problem is ___-complete.",
+  "choices": [
+    "Pi-0-1",
+    "Pi_1^0",
+    "Pi-1-0",
+    "Pi01"
+  ],
+  "answer": "Pi-0-1",
+  "explanation": "The halting problem is Sigma-0-1 (c.e.); its complement is Pi-0-1 complete. Emptiness of 2D SFTs sits at exactly this level.",
+  "tags": [
+    "arithmetical-hierarchy",
+    "computability",
+    "halting-problem"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

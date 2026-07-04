@@ -1,0 +1,18 @@
+{
+  "question_id": "7f111549-21ea-49f3-9b51-9fcdb7b25b7a",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What does Newton's rotating-bucket argument aim to establish?",
+  "choices": [
+    "That the concave surface of the water tracks the water's rotation relative to the bucket.",
+    "That inertia is determined by the distribution of the fixed stars, as Mach's principle holds.",
+    "That the water's concavity tracks absolute rotation (rotation with respect to absolute space), not rotation relative to the bucket or nearby matter.",
+    "That space is merely a system of relations among bodies, with no absolute positions."
+  ],
+  "answer": 2,
+  "explanation": "Newton notes the surface is flat when water and bucket rotate relative to each other but concave when they co-rotate, so the concavity cannot track relative rotation; he concludes it tracks absolute rotation with respect to absolute space. Option 1 is Mach's rival relational diagnosis and option 3 is Leibniz's relationism, the very views the bucket argument is meant to counter.",
+  "tags": ["space", "newton", "bucket-argument", "substantivalism"],
+  "difficulty": "beginner",
+  "generated": true
+}

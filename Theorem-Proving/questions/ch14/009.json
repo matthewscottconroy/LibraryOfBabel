@@ -1,0 +1,18 @@
+{
+  "question_id": "065077ee-8024-4145-a6ef-0a0f059b417f",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In plural predication, a predicate that is true of some things together and of no one of them individually — like 'weigh a ton' said of the rocks — is called a ___ predicate.",
+  "choices": [
+    "collective"
+  ],
+  "answer": "collective",
+  "explanation": "A collective (non-distributive) predicate applies to the objects jointly, unlike a distributive predicate that applies to each one individually. 'The rocks weigh a ton' is collective — no single rock weighs a ton.",
+  "tags": [
+    "collective",
+    "predication"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

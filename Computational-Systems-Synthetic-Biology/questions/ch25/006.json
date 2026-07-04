@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In a metabolite-metabolite graph representation of a metabolic network, why are 'currency metabolites' such as ATP and NADH typically excluded or specially handled?",
+  "choices": [
+    "They cannot be represented as nodes because they participate in multiple compartments",
+    "They are only relevant to bipartite metabolite-reaction graphs, never to metabolite-metabolite graphs",
+    "They participate in so many reactions that they create artificial hubs which dominate and obscure the true network structure",
+    "They are always excluded from genome-scale metabolic models entirely"
+  ],
+  "answer": 2,
+  "explanation": "Because currency metabolites like ATP and NADH participate in a huge number of reactions, connecting them in a metabolite-metabolite graph creates dominating hub nodes that obscure biologically meaningful structure -- the suggested fix is to exclude them or use atom mapping to trace real carbon flow. They are not excluded from genome-scale models generally (they remain essential to flux balance analysis), and the compartment and bipartite-only claims are not the stated reasons.",
+  "tags": [
+    "metabolic-networks",
+    "currency-metabolites",
+    "graph-representation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "dbc06f2a-a13d-45dc-9daf-ef9178c42e00"
+}

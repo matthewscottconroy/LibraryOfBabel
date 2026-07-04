@@ -1,0 +1,18 @@
+{
+  "question_id": "5b0a97ef-ff6e-49b6-93e1-fa3564b54128",
+  "chapter": 22,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In the Schubert decomposition $G/B = \\bigsqcup_{w \\in W} C_w$ of the flag variety, each cell is an affine space $C_w \\cong \\mathbb{A}^d$. The dimension $d$ equals:",
+  "choices": [
+    "$\\ell(w)$, the length of $w$ in the Weyl group",
+    "$|W|$, the order of the Weyl group",
+    "$1$, for every $w$",
+    "$\\dim G$"
+  ],
+  "answer": 0,
+  "explanation": "The chapter gives $C_w \\cong \\mathbb{A}^{\\ell(w)}$, so the cell's dimension is the Coxeter length $\\ell(w)$. $|W|$ counts the cells, not the dimension of one cell; the cells have varying dimensions (not all $1$); and $\\dim G$ is far larger than $\\dim G/B$.",
+  "tags": ["geometric-representation-theory", "flag-variety", "schubert-cells"],
+  "difficulty": "intermediate",
+  "generated": true
+}

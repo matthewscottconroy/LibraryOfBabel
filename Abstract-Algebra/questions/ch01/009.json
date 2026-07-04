@@ -1,0 +1,20 @@
+{
+  "question_id": "70e47709-2bfb-4fce-925f-1c27d63a8428",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A relation that is reflexive, antisymmetric, and transitive is called a ___.",
+  "choices": [
+    "partial order",
+    "partial ordering",
+    "poset"
+  ],
+  "answer": "partial order",
+  "explanation": "Partial orders such as ⊆ on 𝒫(S) or divisibility on ℕ need not make every pair comparable; requiring comparability of all pairs yields a total (linear) order.",
+  "tags": [
+    "relations",
+    "order"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "f3c1f183-4bf0-47fd-99f0-820b4b3384cd",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Preservationism about memory holds that memory can preserve and transmit the justification a belief already possessed, but cannot by itself generate new justification for that belief.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "This correctly states the preservationist (conservative) thesis: memory is a conduit that carries forward the epistemic status conferred by the original source (perception, inference, testimony) and adds no justification of its own, so a belief that was unjustified when formed stays unjustified. The rival generativist view holds instead that the memorial state can itself confer prima facie justification on recall. Since the statement reports preservationism accurately, it is true.",
+  "tags": ["memory", "preservationism", "justification"],
+  "difficulty": "beginner",
+  "generated": true
+}

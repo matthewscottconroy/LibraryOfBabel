@@ -1,0 +1,18 @@
+{
+  "question_id": "d846b17f-a78f-4da9-8fd4-6353ac63cfc1",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Reid's 'brave officer' case (the boy who is flogged, the general who remembers the flogging, and the old general who no longer does) is designed to show that Locke's memory criterion has which specific defect?",
+  "choices": [
+    "That memory fades over time and so is merely an unreliable guide to one's past",
+    "That the criterion is not transitive, even though identity itself must be transitive",
+    "That remembering an action already presupposes the very identity the criterion is meant to constitute",
+    "That the self is only a bundle of perceptions with no genuine unity"
+  ],
+  "answer": 1,
+  "explanation": "The old general is identical to the general (he remembers the battles) and the general to the boy (he remembers the flogging), yet the old general is not identical to the boy (he cannot remember the flogging) — so the criterion yields A=B and B=C but A≠C, violating transitivity. The book stresses that mere unreliability of memory is not the point; the circularity charge is Reid and Butler's separate objection; and the bundle claim is Hume's. This case targets transitivity.",
+  "tags": ["reid", "brave-officer", "transitivity", "locke", "memory-criterion"],
+  "difficulty": "intermediate",
+  "generated": true
+}

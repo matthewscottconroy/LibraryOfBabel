@@ -1,0 +1,21 @@
+{
+  "question_id": "bf470b00-3ea7-49cb-8c9d-f739d57216d0",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Swapping two rows of a square matrix changes its determinant by:",
+  "choices": [
+    "nothing — it is unchanged",
+    "a factor of −1",
+    "a factor of 2",
+    "making it 0"
+  ],
+  "answer": 1,
+  "explanation": "The determinant is an alternating function of the rows, so a transposition of rows negates it. This is also why a matrix with two equal rows has determinant 0.",
+  "tags": [
+    "determinants",
+    "row-operations"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

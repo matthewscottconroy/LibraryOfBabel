@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the standard integration time step for atomistic MD simulations of proteins when bonds involving hydrogen are constrained using LINCS or SHAKE?",
+  "choices": [
+    "2 nanoseconds",
+    "2 picoseconds",
+    "2 femtoseconds",
+    "2 microseconds"
+  ],
+  "answer": 2,
+  "explanation": "The chapter specifies a standard time step of 2 femtoseconds when hydrogen bonds are constrained (extendable to 4 femtoseconds with hydrogen-mass repartitioning; only 1 femtosecond is stable without any constraints). Nanosecond-to-microsecond values are far too large for a single integration step -- those timescales instead describe total simulation duration, not the discrete step size.",
+  "tags": [
+    "molecular-dynamics",
+    "time-step",
+    "integrators"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "38cb28f0-6835-4866-93ca-38499c2452b5"
+}

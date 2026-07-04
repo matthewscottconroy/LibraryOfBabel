@@ -1,0 +1,18 @@
+{
+  "question_id": "e4a0c317-8d2b-4f56-9c08-3b7e1a5d0f29",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Kiers et al. (2011) described mycorrhizal exchange as a 'biological market.' Which finding supports that framing?",
+  "choices": [
+    "Fungi deliver phosphorus at random, regardless of the plant's carbon supply",
+    "Plants treat all fungi identically, sharing carbon uniformly across partners",
+    "A central fungal authority sets a single price for the whole forest",
+    "Fungi preferentially deliver phosphorus to plant partners that supply more carbon, and plants favor fungi that supply more phosphorus"
+  ],
+  "answer": 3,
+  "explanation": "The market framing rests on reciprocal rewards: better-paying partners receive preferential treatment on both sides (more carbon buys more phosphorus and vice versa), consistent with supply and demand without requiring the partners to deliberate. This contradicts random delivery (choice 0), uniform sharing (choice 1), and any central price-setter (choice 2).",
+  "tags": ["symbiosis", "mycorrhiza", "biological-market", "kiers"],
+  "difficulty": "intermediate",
+  "generated": true
+}

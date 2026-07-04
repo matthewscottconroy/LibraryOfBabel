@@ -1,0 +1,21 @@
+{
+  "question_id": "ce8f4dcd-c2a2-4d3e-82f3-43bbcb7b9a3a",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A group G of order 24 acts on a set X, and the orbit of x has 6 elements. What is the order of the stabilizer G_x?",
+  "choices": [
+    "2",
+    "4",
+    "6",
+    "18"
+  ],
+  "answer": 1,
+  "explanation": "Orbit–stabilizer: |G| = |G·x| · |G_x|, so |G_x| = 24/6 = 4. The underlying bijection sends the coset gG_x to the point g·x.",
+  "tags": [
+    "group-actions",
+    "orbit-stabilizer"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

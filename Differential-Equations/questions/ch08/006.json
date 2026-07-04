@@ -1,0 +1,20 @@
+{
+  "question_id": "9a57c03d-3fb8-4d04-b047-e3ce7a07fcb0",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A Hilbert space is an inner product space that is complete with respect to the norm induced by its inner product.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "A Hilbert space is by definition a complete inner product space; completeness (every Cauchy sequence converges) distinguishes it from a general inner product space and enables projection and spectral arguments. The space L^2 is the prototypical example.",
+  "tags": [
+    "hilbert-space",
+    "completeness",
+    "functional-analysis"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

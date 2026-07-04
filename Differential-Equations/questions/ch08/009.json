@@ -1,0 +1,22 @@
+{
+  "question_id": "22a25456-ac6d-41f3-854d-1c525fa79ce0",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The spectral theorem for compact self-adjoint operators on a Hilbert space guarantees:",
+  "choices": [
+    "a continuous spectrum filling an interval",
+    "complex eigenvalues arranged in conjugate pairs",
+    "an orthonormal basis of eigenvectors with real eigenvalues that accumulate only at 0",
+    "that the operator has no eigenvalues at all"
+  ],
+  "answer": 2,
+  "explanation": "A compact self-adjoint operator has an orthonormal eigenbasis with real eigenvalues that can accumulate only at 0, the infinite-dimensional analogue of diagonalizing a symmetric matrix. Applied to Sturm-Liouville problems it yields the complete orthogonal eigenfunction expansions used in Fourier methods.",
+  "tags": [
+    "spectral-theorem",
+    "self-adjoint",
+    "sturm-liouville"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

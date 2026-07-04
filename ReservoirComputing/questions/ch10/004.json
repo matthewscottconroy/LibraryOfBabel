@@ -1,0 +1,21 @@
+{
+  "question_id": "45ccece6-83a4-4a35-b67c-4944e5b0b55f",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The core principle of FORCE is to keep the output error ___ from the very first training step, so the feedback loop never lets errors grow and destabilize the reservoir.",
+  "choices": [
+    "small",
+    "near zero",
+    "close to zero"
+  ],
+  "answer": "small",
+  "explanation": "FORCE holds e(t) approximately 0 at all times via rapid RLS weight updates. Because the output is fed back, keeping the error tiny keeps the closed-loop trajectory near the target so the dynamics never diverge.",
+  "tags": [
+    "force",
+    "error-control",
+    "stability"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "e0c3a9b6-1f47-42d8-8b95-63a1f7c0e2d9",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "tf",
+  "text": "According to Unit XII's 'obligation of consistency,' once we attribute functional cognition to bacteria and plants, we may still assume without argument a sharp ethical discontinuity between cognitive and non-cognitive life.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The obligation of consistency holds the opposite: if we grant functional cognition to bacteria and plants, then a sharp cognitive/non-cognitive boundary in our ethics must be defended, not simply assumed. The discontinuity may still turn out to be defensible, but the argument has to be made rather than taken for granted.",
+  "tags": ["obligation-of-consistency", "ethics", "central-argument"],
+  "difficulty": "beginner",
+  "generated": true
+}

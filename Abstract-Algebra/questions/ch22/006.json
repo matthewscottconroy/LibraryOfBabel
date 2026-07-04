@@ -1,0 +1,18 @@
+{
+  "question_id": "bd83ac3f-abb0-442a-94ee-7aec83788b57",
+  "chapter": 22,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The Kazhdan-Lusztig polynomials $P_{x,w}(q)$ (for $x,w \\in W$) govern, among other things, the multiplicities of simple modules in:",
+  "choices": [
+    "the regular representation of $G$",
+    "Brauer characters",
+    "Verma modules $M(\\lambda)$",
+    "projective indecomposable modules"
+  ],
+  "answer": 2,
+  "explanation": "Per the Kazhdan-Lusztig conjecture (proved 1981), the $P_{x,w}(q)$ control multiplicities of simples in Verma modules, plus the topology of Schubert varieties and characters in characteristic $p$. Brauer characters and projective indecomposables belong to modular representation theory; decomposing the regular representation is ordinary character theory, not KL theory.",
+  "tags": ["geometric-representation-theory", "kazhdan-lusztig", "verma-modules"],
+  "difficulty": "advanced",
+  "generated": true
+}

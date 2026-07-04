@@ -1,0 +1,21 @@
+{
+  "chapter": 21,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is a well-documented weakness of toxin-antitoxin kill-switch biocontainment systems in engineered organisms?",
+  "choices": [
+    "They require continuous refrigeration to remain functional",
+    "They can legally only be used inside BSL-4 facilities",
+    "Evolution frequently inactivates the kill switch because there is strong selection against self-destruction",
+    "They increase the transmissibility of the host organism to other hosts"
+  ],
+  "answer": 2,
+  "explanation": "The chapter notes that evolution frequently inactivates kill switches, since any mutation disabling the toxin-antitoxin circuit is strongly selected for, undermining containment over time -- this is why multi-layered containment is recommended. Kill switches have no special refrigeration or BSL-4-only requirement, and they have nothing to do with increasing transmissibility, which is an unrelated DURC concern about pathogen enhancement.",
+  "tags": [
+    "biocontainment",
+    "kill-switches"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "100e5f99-fc4f-437f-8507-11f414b67049"
+}

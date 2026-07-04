@@ -1,0 +1,13 @@
+{
+  "question_id": "f3a9c1d7-2b84-4e16-9a5c-71d0e4b8f2a3",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In sentience-based ethics as articulated by Peter Singer (following Bentham), what is the morally decisive question to ask about an organism?",
+  "choices": ["Can it reason?", "Can it talk?", "What species does it belong to?", "Can it suffer?"],
+  "answer": 3,
+  "explanation": "Singer, following Bentham, held that the decisive question is 'not, Can they reason? nor, Can they talk? but, Can they suffer?' Sentience, the capacity for aversive experience, is the threshold for moral status. Reasoning and language are explicitly rejected as the criterion, and species membership is dismissed as speciesism.",
+  "tags": ["sentience-based-ethics", "singer", "moral-status"],
+  "difficulty": "beginner",
+  "generated": true
+}

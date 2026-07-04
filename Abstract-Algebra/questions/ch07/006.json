@@ -1,0 +1,21 @@
+{
+  "question_id": "29289f9f-c13e-4fd7-a421-c285e1375659",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which statement about pure (simple) tensors v ⊗ w in V ⊗ W is correct?",
+  "choices": [
+    "They span V ⊗ W, but not every element of V ⊗ W is pure",
+    "Every element of V ⊗ W is a pure tensor",
+    "They form a subspace of V ⊗ W",
+    "A sum of two pure tensors is always pure"
+  ],
+  "answer": 0,
+  "explanation": "General elements are finite sums of pure tensors; e₁ ⊗ f₁ + e₂ ⊗ f₂ cannot be rewritten as a single v ⊗ w (its coefficient matrix has rank 2, while pure tensors give rank 1). The pure tensors form a cone, not a subspace.",
+  "tags": [
+    "tensor-products",
+    "pure-tensors"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

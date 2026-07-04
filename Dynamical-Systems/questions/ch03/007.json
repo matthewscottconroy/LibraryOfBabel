@@ -1,0 +1,22 @@
+{
+  "question_id": "72864f94-f44b-4154-85d2-4e7f0eb28349",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For quadratic maps f_c(z) = z^2 + c, the Mandelbrot set is the set of parameters c for which:",
+  "choices": [
+    "the orbit of the critical point 0 remains bounded",
+    "c is a real number",
+    "the Julia set is empty",
+    "f_c has exactly one fixed point"
+  ],
+  "answer": 0,
+  "explanation": "Membership is decided by the critical orbit: c is in M iff the forward orbit of 0 stays bounded, equivalently the Julia set is connected. It is not restricted to real c and Julia sets are never empty for these maps.",
+  "tags": [
+    "mandelbrot-set",
+    "complex-dynamics",
+    "critical-orbit"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

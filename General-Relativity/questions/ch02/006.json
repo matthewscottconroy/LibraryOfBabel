@@ -1,0 +1,23 @@
+{
+  "question_id": "d2a727f2-c81e-4976-ae5e-12747a176913",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a square matrix A, a scalar λ is an eigenvalue precisely when:",
+  "choices": [
+    "det(A − λI) = 0, i.e. λ is a root of the characteristic polynomial",
+    "Av = λv holds for every vector v",
+    "A − λI is invertible",
+    "λ is a nonzero vector satisfying Av = λv"
+  ],
+  "answer": 0,
+  "explanation": "The book defines eigenvalues as the roots of the characteristic polynomial p(λ) = det(A − λI). The relation Av = λv need only hold for some nonzero eigenvector v, not for every v; and if A − λI were invertible there would be no nonzero solution, so λ could not be an eigenvalue. The last option confuses the eigenvalue (a scalar) with the eigenvector (a nonzero vector).",
+  "tags": [
+    "eigenvalues",
+    "eigenvectors",
+    "characteristic-polynomial",
+    "linear-algebra"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

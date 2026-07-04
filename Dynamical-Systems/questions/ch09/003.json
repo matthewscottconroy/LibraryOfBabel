@@ -1,0 +1,22 @@
+{
+  "question_id": "a3afe0a9-79af-486c-b8cf-f9c139cd03ac",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Weyl's equidistribution theorem: the sequence n*alpha mod 1 is equidistributed in [0,1] if and only if alpha is:",
+  "choices": [
+    "rational",
+    "an integer",
+    "irrational",
+    "zero"
+  ],
+  "answer": 2,
+  "explanation": "Irrationality makes the orbit under the circle rotation R_alpha equidistribute (unique ergodicity). Rational or integer alpha gives finite periodic orbits.",
+  "tags": [
+    "weyl-equidistribution",
+    "circle-rotation",
+    "ergodic"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

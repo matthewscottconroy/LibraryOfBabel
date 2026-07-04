@@ -1,0 +1,19 @@
+{
+  "question_id": "3a0bde8e-498d-4101-a11c-a031a0f2fdb7",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "If k > dim V, then ⋀ᵏV = 0.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Any k vectors with k > n are linearly dependent, and alternation annihilates dependent lists; equivalently C(n,k) = 0. The top nonzero piece ⋀ⁿV is one-dimensional — the determinant line.",
+  "tags": [
+    "exterior-algebra",
+    "dimension"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

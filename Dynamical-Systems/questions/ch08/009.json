@@ -1,0 +1,20 @@
+{
+  "question_id": "ee5970ac-8bdd-48d9-857d-70cdb545a1a2",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Leinster derived Shannon entropy from a category-theoretic universal property.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Leinster (2012) characterized Shannon entropy as the unique operation satisfying natural categorical axioms on finite probability spaces - a conceptual alternative to the Khinchin axioms.",
+  "tags": [
+    "categorical-entropy",
+    "leinster",
+    "information"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

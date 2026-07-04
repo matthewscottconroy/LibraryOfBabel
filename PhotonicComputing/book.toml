@@ -1,0 +1,21 @@
+# Build manifest for the Photonic Computing textbook.
+# book/unit_XX/ recurses into chNN/ (chapter_intro + sNN/ssNN files + chapter
+# back matter), with unit_intro.md opening each unit.
+#
+# NOTE: a concurrent agent is still WRITING several currently zero-byte files
+# (unit_intro.md for units 06-10 and the ch23_nanofabrication files); the builder
+# warns and skips whitespace-only files, so these do not fail --check.
+title = "Photonic Computing"
+subtitle = "From Maxwell's Equations to Neuromorphic Photonics"
+
+front_matter = [
+    "book/README.md",
+]
+back_matter = [
+    "book/appendix-mathematical-methods.md",
+]
+
+[[sources]]
+root = "book"
+recursive = true
+part_level = 1   # unit_01 .. unit_10 become \part

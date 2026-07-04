@@ -1,0 +1,22 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The LuxI/LuxR quorum-sensing system, which uses N-acyl homoserine lactone (AHL) signaling and a positive feedback loop to generate sharp, switch-like activation, is the canonical system described in which organism?",
+  "choices": [
+    "Vibrio fischeri",
+    "Escherichia coli",
+    "Bacillus subtilis",
+    "Saccharomyces cerevisiae"
+  ],
+  "answer": 0,
+  "explanation": "The LuxI/LuxR AHL quorum-sensing system is canonically described in the bioluminescent marine bacterium Vibrio fischeri. E. coli is instead the classic model for the lac operon and chemotaxis, B. subtilis is the classic model for sporulation, and S. cerevisiae is a eukaryotic model organism unrelated to AHL-based quorum sensing.",
+  "tags": [
+    "quorum-sensing",
+    "microbiology",
+    "gene-regulation"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "91b70423-4e51-4e28-bc2b-8e308124263a"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "26133171-972c-4a07-a97c-fcd5d3a96153",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Ext¹_R(M, N) has a concrete interpretation as:",
+  "choices": [
+    "equivalence classes of extensions 0 → N → E → M → 0, with the split extension as the zero element",
+    "the group of homomorphisms M → N",
+    "the submodules of M ⊗ N",
+    "the chain homotopy classes of projective resolutions of M"
+  ],
+  "answer": 0,
+  "explanation": "Extensions are added by the Baer sum, and an extension is trivial in Ext¹ exactly when it splits, i.e. E ≅ N ⊕ M. Thus Ext¹(M, N) = 0 says every extension of M by N splits.",
+  "tags": [
+    "ext",
+    "extensions"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

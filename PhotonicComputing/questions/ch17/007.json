@@ -1,0 +1,13 @@
+{
+  "question_id": "c2c22088-2b8a-42ec-b05b-c8a258d15020",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Because every classical field satisfies g2(0) = 1 + Var(I)/mean(I)^2 >= 1, any observation of g2(0) < 1 rules out all classical descriptions of the light.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. A variance is non-negative (the Cauchy-Schwarz inequality for light), so classical fields cannot dip below g2(0) = 1; antibunching is therefore a rigorous non-classicality witness.",
+  "tags": ["g2", "classical-bound", "antibunching"],
+  "difficulty": "intermediate",
+  "generated": true
+}

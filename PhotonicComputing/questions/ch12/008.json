@@ -1,0 +1,13 @@
+{
+  "question_id": "0614d034-0eb5-4800-9063-1591d5a20e36",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Post-training quantization of neural-network weights to INT8 typically costs more than 10% of classification accuracy, which is why photonic inference is impractical.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False: post-training quantization to INT8 typically costs under 1% accuracy, and 6-8 effective bits suffice for classification. This low-precision tolerance is precisely what matches photonic hardware's 4-9 ENOB and makes photonic inference workable; the claim inverts the small real accuracy cost.",
+  "tags": ["quantization", "inference", "precision"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "d832b0d3-f136-429a-8b2f-fc4a6a2e149f",
+  "chapter": 13,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The Holevo-Schumacher-Westmoreland (HSW) theorem gives the ___ capacity of a quantum channel:",
+  "choices": [
+    "quantum",
+    "zero-error",
+    "entanglement-assisted",
+    "classical"
+  ],
+  "answer": 3,
+  "explanation": "HSW characterizes the classical capacity of a quantum channel as the (regularized) Holevo information. Quantum and entanglement-assisted capacities are governed by different formulas.",
+  "tags": [
+    "hsw-theorem",
+    "classical-capacity",
+    "quantum-channel"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

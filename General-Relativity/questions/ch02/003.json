@@ -1,0 +1,22 @@
+{
+  "question_id": "8008a536-ad17-4137-bce0-70a208fb1aca",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Let g: ℝⁿ → ℝᵐ and f: ℝᵐ → ℝᵏ be differentiable. By the multivariable chain rule, the total derivative of the composition f ∘ g at a point a is:",
+  "choices": [
+    "D(f ∘ g)(a) = Df(a) · Dg(a)",
+    "D(f ∘ g)(a) = Df(g(a)) · Dg(a)",
+    "D(f ∘ g)(a) = Dg(f(a)) · Df(a)",
+    "D(f ∘ g)(a) = Df(g(a)) + Dg(a)"
+  ],
+  "answer": 1,
+  "explanation": "The chain rule states D(f ∘ g)(a) = Df(g(a)) · Dg(a): the outer derivative Df is evaluated at g(a), and the two Jacobians are multiplied as matrices, not added. Writing Df(a) evaluates f at a point in the wrong space, since a lies in the domain of g. The book notes this composition-of-linear-maps rule is exactly the mechanism behind the transformation law for tensor components under coordinate change.",
+  "tags": [
+    "chain-rule",
+    "jacobian",
+    "multivariable-calculus"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

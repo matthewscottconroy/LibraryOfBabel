@@ -1,0 +1,22 @@
+{
+  "question_id": "0c912da7-73f3-4e0a-a0ea-6ea657406f9e",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Ned Block's 'China Brain' (Chinese Nation) thought experiment is designed to show what?",
+  "choices": [
+    "That functional organization is sufficient for genuine understanding, refuting Searle.",
+    "That mental states can be realized in silicon just as well as in carbon.",
+    "That folk psychology is a false theory neuroscience will replace.",
+    "That a system can reproduce the entire functional organization of a brain (one person per neuron) yet plausibly have no phenomenal experience, challenging functionalism."
+  ],
+  "answer": 3,
+  "explanation": "The China Brain duplicates the brain's causal-functional organization but intuitively there is nothing it is like to be it; if functional duplication can leave qualia absent, functional role is not sufficient for consciousness (the absent-qualia objection). Searle's Chinese Room targets understanding/intentionality, a different objection, and silicon realizability is something functionalists actually affirm.",
+  "tags": [
+    "functionalism",
+    "china-brain",
+    "absent-qualia"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

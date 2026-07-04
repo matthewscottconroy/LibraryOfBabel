@@ -1,0 +1,22 @@
+{
+  "question_id": "7d3e6df8-ed50-4a82-97fa-ff7a99dc0c22",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Turing's imitation game (the Turing test) proposes that machine intelligence be assessed by...",
+  "choices": [
+    "measuring the machine's integrated information (Phi)",
+    "whether an interrogator can reliably distinguish the machine from a human in a blind text conversation",
+    "whether the machine's internal processes are biologically implemented",
+    "whether the machine sincerely reports having conscious experiences"
+  ],
+  "answer": 1,
+  "explanation": "Turing replaced 'Can machines think?' with a behavioral, third-person test of conversational indistinguishability, explicitly bracketing inner experience and substrate. Phi is IIT's criterion, biological implementation is Searle's requirement, and self-reported consciousness is exactly what Turing set aside as untestable.",
+  "tags": [
+    "turing-test",
+    "imitation-game",
+    "behavioral-criterion"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

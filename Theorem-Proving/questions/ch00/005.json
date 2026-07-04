@@ -1,0 +1,23 @@
+{
+  "question_id": "cf34f905-b463-40f6-9840-377701a9a540",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "'If Γ ⊨ φ then Γ ⊢ φ' states which property, and what does it assert informally?",
+  "choices": [
+    "Soundness — the proof system never proves falsehoods",
+    "Consistency — no formula and its negation are both provable",
+    "Completeness — everything that is semantically forced is provable",
+    "Decidability — there is an algorithm deciding provability"
+  ],
+  "answer": 2,
+  "explanation": "Completeness is the direction ⊨ ⟹ ⊢: whatever is true in all models is provable. Soundness (option 1) is the converse ⊢ ⟹ ⊨. Consistency (option 2) and decidability (option 4) are entirely different properties.",
+  "tags": [
+    "completeness",
+    "soundness",
+    "provability",
+    "entailment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "a1e03fc9-cd65-4e1c-9bf2-efced3684ec8",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A binary relation ≺ on a set A is well-founded exactly when:",
+  "choices": [
+    "A is finite",
+    "every non-empty subset of A has a ≺-minimal element (equivalently, there is no infinite descending chain)",
+    "≺ is reflexive, symmetric, and transitive",
+    "every element of A has a ≺-successor"
+  ],
+  "answer": 1,
+  "explanation": "Well-foundedness means every non-empty subset has a ≺-minimal element, equivalently that no infinite descending chain a₀ ≻ a₁ ≻ ⋯ exists. Finiteness is sufficient but not necessary (ℕ under < is infinite yet well-founded); option C describes an equivalence relation; and having successors is unrelated.",
+  "tags": [
+    "well-founded",
+    "minimal-element",
+    "descending-chain"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

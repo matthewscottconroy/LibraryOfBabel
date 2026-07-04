@@ -1,0 +1,22 @@
+{
+  "question_id": "aaa753a9-d877-4fe4-9d00-d06fcc052eb3",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Fermat's Little Theorem states that if p is prime and gcd(a, p) = 1, then:",
+  "choices": [
+    "a^p ≡ 1 (mod p)",
+    "a^(p−1) ≡ 0 (mod p)",
+    "a^(p−1) ≡ 1 (mod p)",
+    "a^p ≡ p (mod a)"
+  ],
+  "answer": 2,
+  "explanation": "Fermat's Little Theorem gives a^(p−1) ≡ 1 (mod p) whenever p ∤ a. The related corollary is a^p ≡ a (mod p); option A drops the extra factor of a and is false in general (e.g. 2^3 = 8 ≡ 2 ≠ 1 mod 3). A nonzero residue is never ≡ 0 (option B), and option D is unrelated.",
+  "tags": [
+    "fermats-little-theorem",
+    "modular-arithmetic",
+    "primes"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

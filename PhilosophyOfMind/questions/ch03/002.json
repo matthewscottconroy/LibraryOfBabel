@@ -1,0 +1,23 @@
+{
+  "question_id": "0dd10be2-50cb-4d60-9947-deba9207627a",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "On Searle's distinction between original and derived intentionality, the word 'cat' printed on a page:",
+  "choices": [
+    "Has original, intrinsic intentionality, since it directly refers to cats",
+    "Has no intentionality of any kind",
+    "Has derived intentionality — it is about cats only because language users mean cats by it",
+    "Has exactly the same kind of intentionality as a thought about cats"
+  ],
+  "answer": 2,
+  "explanation": "For Searle, marks and symbols have only derived intentionality: they are 'about' things because minds with original (intrinsic) intentionality interpret them so. A thought about cats, by contrast, has original intentionality. Option 0 conflates the two; option 1 overstates matters (the word does have aboutness, just derived); option 3 denies the very distinction Searle draws.",
+  "tags": [
+    "searle",
+    "derived-intentionality",
+    "original-intentionality",
+    "chinese-room"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

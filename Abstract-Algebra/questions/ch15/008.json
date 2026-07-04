@@ -1,0 +1,19 @@
+{
+  "question_id": "b111f0d4-41d2-4817-ba13-f636be825ee8",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "tf",
+  "text": "For all abelian groups A and B, Torₙ^ℤ(A, B) = 0 whenever n ≥ 2.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Over ℤ every subgroup of a free group is free, so every abelian group has a projective resolution of length 1 — the global dimension of ℤ is 1. Hence only Tor₀ and Tor₁ (and Ext⁰, Ext¹) can be nonzero.",
+  "tags": [
+    "tor",
+    "global-dimension"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

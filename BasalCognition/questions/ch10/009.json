@@ -1,0 +1,19 @@
+{
+  "question_id": "a4c6e8a0-c2e4-4a6e-8a0c-8e0a2c4e6a89",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Andrew Adamatzky's unconventional-computing research famously uses the slime mold ___ polycephalum as a living substrate that can solve mazes and approximate optimal transport networks.",
+  "choices": [
+    "Physarum"
+  ],
+  "answer": "Physarum",
+  "explanation": "Physarum polycephalum is the acellular slime mold whose cytoplasmic flow dynamics implement a form of analog optimization; Adamatzky built 'Physarum machines' around it, and it solves mazes and network problems without training, dataset, or supervisor. Its extraordinarily low power cost (about ten microwatts per cubic centimeter) is also cited as evidence against the necessity of silicon.",
+  "tags": [
+    "physarum",
+    "slime-mold",
+    "unconventional-computing"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "7f0b590f-3005-4170-bc33-b85fcf1c7777",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The lottery paradox and the preface paradox are standardly taken to show which of the following about threshold (Lockean) belief?",
+  "choices": [
+    "Rational threshold belief is not closed under conjunction: an agent can rationally believe each of many propositions while failing to (or rationally declining to) believe their conjunction.",
+    "Credences can never reach any threshold below 1, so binary belief formed from credences is impossible.",
+    "Bayesian conditionalization becomes invalid whenever the number of competing hypotheses is very large.",
+    "Any proposition whose credence exceeds 0.5 must be believed, on pain of probabilistic incoherence."
+  ],
+  "answer": 0,
+  "explanation": "Both paradoxes exploit the fact that belief defined by a credence threshold below 1 fails to be closed under conjunction. In the lottery, each ticket is highly likely to lose (belief-worthy), yet 'every ticket loses' is known to be false. In the preface, an author rationally believes each claim in the book yet rationally believes at least one claim is mistaken. Neither shows that conditionalization fails (option 2) nor that thresholds are unusable (options 1, 3); the moral concerns closure under conjunction.",
+  "tags": [
+    "lottery paradox",
+    "preface paradox",
+    "lockean thesis",
+    "conjunction closure"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

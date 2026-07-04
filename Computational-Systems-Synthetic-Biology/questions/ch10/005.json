@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Compared to the exact Gillespie Stochastic Simulation Algorithm (SSA), tau-leaping achieves roughly a 10–100× speedup by:",
+  "choices": [
+    "Allowing multiple reaction firings (Poisson-distributed counts) within a fixed time interval τ instead of simulating one reaction at a time",
+    "Solving the chemical master equation analytically instead of simulating it",
+    "Ignoring all reactions with low propensity entirely",
+    "Replacing every reaction with a deterministic ODE rate"
+  ],
+  "answer": 0,
+  "explanation": "Tau-leaping advances time in fixed steps τ and draws the number of firings of each reaction from a Poisson distribution with mean a_j·τ, letting many reactions fire per step instead of the single-reaction-per-step approach of exact SSA. It still requires τ to be chosen small enough that propensities don't change much, is an approximation rather than an analytical CME solution, and does not ignore low-propensity reactions or convert the system to deterministic ODEs.",
+  "tags": [
+    "gillespie",
+    "tau-leaping",
+    "stochastic-simulation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "bb15da9b-ff4a-42ab-a9cd-ea6853c225b7"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "bef583fb-7cb5-4552-be62-a7eee776797b",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Let ∼ be an equivalence relation on A. Which statement about equivalence classes [a] and [b] is always true?",
+  "choices": [
+    "[a] ∩ [b] is never empty",
+    "Either [a] = [b] or [a] ∩ [b] = ∅",
+    "Either [a] ⊆ [b] or [b] ⊆ [a], possibly properly",
+    "[a] = [b] holds exactly when a = b"
+  ],
+  "answer": 1,
+  "explanation": "This is the key lemma behind the partition theorem: any common element c gives a ∼ c and b ∼ c, hence a ∼ b and [a] = [b]. Distinct elements can share a class, so [a] = [b] does not force a = b.",
+  "tags": [
+    "relations",
+    "partitions"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

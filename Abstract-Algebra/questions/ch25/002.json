@@ -1,0 +1,22 @@
+{
+  "question_id": "cfb06a93-b65d-45c0-b755-a0fb07a8c38e",
+  "chapter": 25,
+  "phase": 8,
+  "kind": "mc",
+  "text": "In the definition of an elementary topos, the exponential (function object) $B^A$ is characterized as the right adjoint to which functor?",
+  "choices": [
+    "The diagonal functor $\\Delta$",
+    "The forgetful functor to $\\mathbf{Set}$",
+    "The pullback functor $f^*$",
+    "The product functor $-\\times A$"
+  ],
+  "answer": 3,
+  "explanation": "The chapter defines exponentials as 'the function object $B^A$ (right adjoint to $-\\times A$),' i.e. $\\mathrm{Hom}(C\\times A,B)\\cong\\mathrm{Hom}(C,B^A)$. The diagonal functor's right adjoint is the product, not the exponential; pullback functors appear in the chapter only as the maps that preserve finite limits; and a general topos need not have a forgetful functor to $\\mathbf{Set}$.",
+  "tags": [
+    "topos",
+    "exponential",
+    "adjoint"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

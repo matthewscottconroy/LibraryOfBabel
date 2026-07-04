@@ -1,0 +1,19 @@
+{
+  "question_id": "245df210-39b5-4bbd-b028-8ee0a27966c0",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Two solutions of a second-order linear homogeneous ODE are linearly independent on an interval precisely when their ___ is nonzero there.",
+  "choices": [
+    "Wronskian"
+  ],
+  "answer": "Wronskian",
+  "explanation": "The Wronskian W(y1,y2) = y1*y2' - y2*y1' is nonzero exactly when the two solutions form a fundamental set. By Abel's identity the Wronskian is either identically zero or never zero on the interval.",
+  "tags": [
+    "wronskian",
+    "linear-independence",
+    "second-order"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

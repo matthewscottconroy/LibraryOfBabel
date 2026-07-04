@@ -1,0 +1,13 @@
+{
+  "question_id": "c2ee9a39-3b33-43f8-8cc4-94e759f94030",
+  "chapter": 27,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: For a general-purpose photonic computer operating at 4 to 8 bits, squeezed light pushed below the standard quantum limit addresses the bottleneck that actually binds the machine.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. A general-purpose computer at 4 to 8 bits operates far above the standard quantum limit, so squeezing below the SQL addresses a bottleneck that is rarely the one that binds. Squeezing (Caves, 1981) is a genuine resource for metrology and only helps in one quadrature at the cost of the conjugate and of extremely low loss, not for low-precision computing.",
+  "tags": ["squeezing", "standard-quantum-limit", "shot-noise"],
+  "difficulty": "advanced",
+  "generated": true
+}

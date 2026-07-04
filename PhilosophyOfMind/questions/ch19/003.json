@@ -1,0 +1,22 @@
+{
+  "question_id": "ee6a18ca-8244-4dbf-b4d9-98dfcd09dfa9",
+  "chapter": 19,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Nisbett and Wilson's \"Telling More Than We Can Know\" (1977) is standardly cited to support which claim about introspection?",
+  "choices": [
+    "People often accurately report the OUTPUT of a cognitive process while being unaware of, and confabulating, its actual causes",
+    "Introspection gives incorrigible access to the causes of our choices",
+    "Sufficient introspective training can eliminate all reporting error",
+    "Phenomenal consciousness is an illusion"
+  ],
+  "answer": 0,
+  "explanation": "They showed that subjects confabulate reasons -- citing influences that demonstrably had no effect and missing ones that did -- so introspective access to the causes of behavior is unreliable, even though people can report a process's conclusion. Option B is the classical view it refutes, C overstates neurophenomenology's ambitions, and D is an eliminativist thesis they do not argue.",
+  "tags": [
+    "nisbett-wilson",
+    "introspection",
+    "confabulation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

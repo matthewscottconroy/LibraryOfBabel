@@ -1,0 +1,22 @@
+{
+  "question_id": "584b3e1c-8518-4a56-83ea-1fc82979ee15",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The work done by a force field F along a curve C is computed as:",
+  "choices": [
+    "the scalar line integral of the field's magnitude with respect to arc length",
+    "the flux of F across C",
+    "the double integral of F over the region bounded by C",
+    "the vector line integral of F . dr along C"
+  ],
+  "answer": 3,
+  "explanation": "Work (circulation) is the vector line integral of F . dr = integral of (F . T) ds, capturing the component of the field along the direction of travel. The scalar line integral of |F| ds instead computes quantities like mass along a wire, not work.",
+  "tags": [
+    "line-integrals",
+    "work",
+    "circulation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

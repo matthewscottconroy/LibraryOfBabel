@@ -1,0 +1,13 @@
+{
+  "question_id": "a9c2e5f0-1b6d-4e4a-9f0c-9d3b6e8a2f15",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What does quorum sensing allow a population of bacteria to do?",
+  "choices": ["Repair damaged DNA using the RecA/LexA SOS response", "Navigate toward nutrients by biasing a run-and-tumble random walk", "Coordinate gene expression across the population based on cell density, sensed via accumulating autoinducer molecules", "Exchange genetic material directly through conjugation pili"],
+  "answer": 2,
+  "explanation": "Quorum sensing is density-dependent, coordinated gene regulation: cells release autoinducers that build up as the population grows, and above a threshold they trigger synchronized behaviors such as virulence, bioluminescence, or biofilm formation. Option 0 is the SOS DNA-damage response, option 1 is chemotaxis, and option 3 is conjugation, all real bacterial processes but not quorum sensing.",
+  "tags": ["quorum-sensing", "autoinducer", "collective-behavior"],
+  "difficulty": "beginner",
+  "generated": true
+}

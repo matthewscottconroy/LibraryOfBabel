@@ -1,9 +1,0 @@
-{
-  "chapter": 1, "phase": 0, "kind": "mc",
-  "text": "Which of the following correctly states the completeness theorem for propositional logic?",
-  "choices": ["Every formula is either a tautology or a contradiction", "If a formula is a tautology, there exists a proof of it in any complete proof system", "If a formula is a tautology, then it is derivable in natural deduction", "A formula is satisfiable if and only if it has a proof"],
-  "answer": 2,
-  "explanation": "Completeness for propositional logic states: if a formula φ is a tautology (true in every truth-value assignment), then φ is derivable (provable) in the proof system. Together with soundness (all derivable formulas are tautologies), this gives: ⊨φ ↔ ⊢φ. Option C correctly captures this direction. Option B is also nearly correct but any complete proof system is circular. Option D conflates satisfiability with provability.",
-  "tags": ["completeness", "soundness", "propositional-logic", "tautology"],
-  "difficulty": "intermediate"
-}

@@ -1,0 +1,20 @@
+{
+  "question_id": "3a27ce5b-69c5-4bfa-9e16-611f22a67eed",
+  "chapter": 14,
+  "phase": 5,
+  "kind": "blank",
+  "text": "An exact sequence ⋯ → P₂ → P₁ → P₀ → M → 0 in which every Pᵢ is projective is called a projective ___ of M.",
+  "choices": [
+    "resolution",
+    "projective resolution"
+  ],
+  "answer": "resolution",
+  "explanation": "Every module has one: cover M by a free module, cover the kernel, and iterate. By the comparison theorem, any two projective resolutions are chain homotopy equivalent, which is what makes derived functors like Ext and Tor independent of the choice.",
+  "tags": [
+    "resolutions",
+    "projective",
+    "derived-functors"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

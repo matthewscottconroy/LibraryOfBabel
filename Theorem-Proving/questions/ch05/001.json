@@ -1,0 +1,22 @@
+{
+  "question_id": "a7d3b42d-7d1e-46ee-9279-d3652a51e055",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "According to the Axiom of Extensionality, when are two sets A and B equal?",
+  "choices": [
+    "When they have exactly the same elements",
+    "When they have the same number of elements",
+    "When one is a subset of the other",
+    "When they were constructed using the same axioms"
+  ],
+  "answer": 0,
+  "explanation": "Extensionality says A = B iff ∀x(x ∈ A ↔ x ∈ B) — a set's identity is fixed entirely by its members. Having the same number of elements is far weaker (e.g. {1} and {2}); one-way subset inclusion is not equality; and how a set was built is irrelevant to its identity.",
+  "tags": [
+    "extensionality",
+    "zfc",
+    "set-equality"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "9f664281-4747-4f31-9481-c5c5f46ab8d2",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "tf",
+  "text": "The second (column) orthogonality relation implies $\\sum_{\\text{irr }V}|\\chi_V(g)|^2=|G|$ for every $g\\in G$.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False: column orthogonality gives $\\sum_{\\text{irr }V}|\\chi_V(g)|^2=|G|/|C_g|$, where $|C_g|$ is the size of the conjugacy class of $g$. This equals $|G|$ only when $g$ lies in a singleton class (a central element such as $e$); for non-central $g$ the sum is strictly smaller.",
+  "tags": ["character-theory", "orthogonality", "column"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "26bcfd87-704f-4abd-877b-f67bd0e939af",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "How is the conceptor matrix C for a pattern defined, given the state correlation matrix R and aperture alpha?",
+  "choices": [
+    "C = R (R + alpha^-2 I)^-1",
+    "C = R (R - alpha^-2 I)^-1",
+    "C = (R + alpha^-2 I)^-1",
+    "C = alpha^-2 R (R + I)^-1"
+  ],
+  "answer": 0,
+  "explanation": "The conceptor is C = R(R + alpha^-2 I)^-1, as used in the lab and derived in the book. The regularizer +alpha^-2 I keeps the inverse well-defined even when R is singular. The distractors flip the sign, drop the leading R, or misplace alpha.",
+  "tags": [
+    "conceptor",
+    "definition",
+    "aperture"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

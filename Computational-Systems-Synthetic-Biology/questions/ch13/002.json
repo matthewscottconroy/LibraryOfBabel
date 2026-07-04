@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Goldbeter-Koshland model of zero-order ultrasensitivity shows that a single phosphorylation-dephosphorylation cycle can produce a switch-like response with an effective Hill coefficient of roughly 20 to 40, without any cooperative binding. Under what condition does this arise?",
+  "choices": [
+    "When the kinase binds its substrate cooperatively with a Hill coefficient greater than 4",
+    "When ligand-bound receptors are rapidly internalized by clathrin-mediated endocytosis",
+    "When calcium released from the endoplasmic reticulum activates ryanodine receptors in a feed-forward loop",
+    "When both the kinase and the phosphatase are operating near saturation with respect to their substrate (zero-order kinetics)"
+  ],
+  "answer": 3,
+  "explanation": "Zero-order ultrasensitivity requires that both the forward (kinase) and reverse (phosphatase) enzymes be saturated by their substrate, so that small changes in the kinase-to-phosphatase activity ratio produce a sharply switch-like change in the fraction phosphorylated. Cooperative substrate binding (choice 0) is a separate route to ultrasensitivity that this model specifically does not require. Receptor internalization (choice 1) and calcium-induced calcium release (choice 2) describe receptor trafficking and calcium signaling, respectively, not phosphorylation-cycle ultrasensitivity.",
+  "tags": [
+    "zero-order-ultrasensitivity",
+    "goldbeter-koshland",
+    "phosphorylation-cycle"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "440d7fb0-f2ee-4bf3-87fb-fa7263a999ec"
+}

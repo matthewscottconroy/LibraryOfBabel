@@ -1,0 +1,21 @@
+{
+  "chapter": 27,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Doudna & Charpentier's 2012 Science paper on the Cas9 dual-RNA-guided DNA endonuclease was the biochemistry work recognized by the 2020 Nobel Prize.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Doudna & Charpentier's 2012 paper described the biochemical mechanism of the Cas9 dual-RNA-guided endonuclease system, and this foundational work was recognized with the 2020 Nobel Prize in Chemistry. The chapter recommends reading it alongside the 2013 papers (Cong et al., Mali et al.) that first demonstrated CRISPR-Cas9 genome editing in mammalian cells.",
+  "tags": [
+    "crispr",
+    "cas9",
+    "doudna-charpentier",
+    "nobel-prize"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "b5ec75cb-e1d2-48e8-a337-1b1072d0e9be"
+}

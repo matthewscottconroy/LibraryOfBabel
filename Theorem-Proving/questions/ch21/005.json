@@ -1,0 +1,23 @@
+{
+  "question_id": "5b7d7524-0a43-48a7-950f-488e2fcd2490",
+  "chapter": 21,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In the problem of universals, realism and nominalism differ in that:",
+  "choices": [
+    "realism denies abstract objects, while nominalism affirms them",
+    "realism holds there is a single property (a universal) shared by all red things, whereas nominalism admits only particulars",
+    "both deny that properties exist in any sense",
+    "nominalism posits Platonic Forms, while realism posits tropes"
+  ],
+  "answer": 1,
+  "explanation": "Realism about universals affirms one entity — redness — wholly present in each red thing (Plato's Forms, Armstrong), while nominalism admits only particulars, treating 'redness' as a class, a resemblance structure, or a bundle of tropes. Option D swaps the labels (Forms are realist, tropes nominalist), and A and C misstate both views.",
+  "tags": [
+    "universals",
+    "realism",
+    "nominalism",
+    "tropes"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

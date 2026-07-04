@@ -1,0 +1,18 @@
+{
+  "question_id": "05835458-9c15-4d5c-a62a-9b247f5db325",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Diodorus Cronus's Master Argument shows that three propositions cannot all be true together: (1) every true proposition about the past is necessary; (2) the impossible does not follow from the possible; and (3) there is something possible that neither is nor ever will be true. Which of these does Diodorus himself reject?",
+  "choices": [
+    "Premise (3): that there are genuine possibilities which are never actualized.",
+    "Premise (1): that every true proposition about the past is necessary.",
+    "Premise (2): that the impossible does not follow from the possible.",
+    "The principle of bivalence, that every statement is either true or false."
+  ],
+  "answer": 0,
+  "explanation": "Diodorus resolves the inconsistency by rejecting premise (3), denying that there are unrealized possibilities; this yields his definition of the possible as whatever is or will be true, collapsing possibility into actuality. He keeps premises (1) and (2). Bivalence is the principle Aristotle restricts for future contingents, and it is not one of the Master Argument's three premises.",
+  "tags": ["fatalism", "diodorus", "master-argument", "modality"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "acc2237f-bca8-45ab-b342-6948923c57f2",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The ___ correspondence, proposed by Maldacena in 1997, holds that a string theory (with gravity) in a (d+1)-dimensional anti-de Sitter bulk is exactly dual to a conformal field theory (without gravity) living on its d-dimensional boundary.",
+  "choices": [
+    "AdS/CFT"
+  ],
+  "answer": "AdS/CFT",
+  "explanation": "The expected answer is AdS/CFT (anti-de Sitter / conformal field theory), the most mathematically precise realization of holographic duality: the gravitational bulk spacetime is encoded in a lower-dimensional, non-gravitational boundary theory. It is the concrete example behind the claim that bulk spacetime — and hence its temporal structure — is emergent rather than fundamental.",
+  "tags": [
+    "ads-cft",
+    "holography",
+    "maldacena",
+    "emergent-spacetime"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

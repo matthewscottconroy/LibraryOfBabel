@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 2,
+  "kind": "mc",
+  "text": "When combining whole-cell submodels built by different research groups, which standard is specifically designed to represent ODE- and stochastic-reaction-network models in an exchangeable format?",
+  "choices": [
+    "BioPAX (Biological Pathway Exchange), an OWL-based format used primarily to link pathway components to biological databases",
+    "SBML (Systems Biology Markup Language)",
+    "SBO (Systems Biology Ontology), a controlled vocabulary of terms for annotating model elements",
+    "COBRAme, a Python framework specifically for constructing ME-models"
+  ],
+  "answer": 1,
+  "explanation": "SBML (Systems Biology Markup Language) is the standard file format for representing and exchanging ODE- and stochastic-reaction-network models, and it underlies curated repositories such as the BioModels Database. BioPAX (choice 0) serves a related but distinct purpose of linking pathway information to biological databases using an OWL-based ontology, and SBO (choice 2) provides standardized vocabulary terms rather than a model-exchange file format. COBRAme (choice 3) is a software framework for building a specific model type (ME-models), not a general semantic-alignment standard.",
+  "tags": [
+    "sbml",
+    "semantic-alignment",
+    "model-standards"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "bfe57230-0817-4279-8150-ef05249ad381"
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "9d2f57e1-0fca-46a5-b9ba-1ec4f80ad395",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A relation ≺ is well-founded if and only if it admits no infinite ___ chain a₀ ≻ a₁ ≻ a₂ ≻ ⋯.",
+  "choices": [
+    "descending"
+  ],
+  "answer": "descending",
+  "explanation": "Well-foundedness is equivalent to the absence of an infinite descending chain; this is what guarantees that recursive definitions and inductive proofs over ≺ terminate and are valid. The pitfall f(n) = f(n+1) fails precisely because it 'descends' upward rather than downward.",
+  "tags": [
+    "well-founded",
+    "descending-chain",
+    "termination"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

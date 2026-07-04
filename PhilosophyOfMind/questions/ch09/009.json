@@ -1,0 +1,20 @@
+{
+  "question_id": "d3436435-ab94-4eda-a11a-17c4444ee44e",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Cognitive ___ theory (Arnold, Lazarus) holds that which emotion you feel is fixed not by the raw situation or bodily state but by how you evaluate the situation relative to your goals and wellbeing.",
+  "choices": [
+    "appraisal"
+  ],
+  "answer": "appraisal",
+  "explanation": "The term of art is 'appraisal': emotions are responses to the subject's evaluation of a situation's significance, which is why the same event can yield different emotions in different people. This is distinct from mere 'arousal,' which the two-factor theory says needs a cognitive label to become a specific emotion.",
+  "tags": [
+    "appraisal-theory",
+    "lazarus",
+    "arnold",
+    "evaluation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

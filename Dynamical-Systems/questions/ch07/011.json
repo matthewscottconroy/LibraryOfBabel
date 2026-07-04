@@ -1,0 +1,19 @@
+{
+  "question_id": "ad2e0c17-7625-4cb1-b830-40942af1360b",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Positive Lyapunov exponents mean a trajectory produces ___ (in Shannon's sense) as it evolves.",
+  "choices": [
+    "information"
+  ],
+  "answer": "information",
+  "explanation": "Stretching in phase space reveals ever-finer detail of the initial condition, so each step yields new bits: chaos is information production at rate given by the entropy.",
+  "tags": [
+    "information-production",
+    "chaos",
+    "lyapunov"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

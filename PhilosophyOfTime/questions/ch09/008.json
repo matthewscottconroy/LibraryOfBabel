@@ -1,0 +1,18 @@
+{
+  "question_id": "0fd04e83-84dd-4e12-92c7-94dc51e6e18c",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The 'location problem' that arises for the deprivation account of death's badness is the difficulty of specifying:",
+  "choices": [
+    "why death is bad, given that the person who has died undergoes no bad experiences.",
+    "whether the statement that there will be a sea battle tomorrow is true today.",
+    "which particular future people are made worse off by a resource-depleting policy.",
+    "when, and for whom, death is bad, given that after death there is no subject who exists to be harmed."
+  ],
+  "answer": 3,
+  "explanation": "The location problem asks at what time, and to which subject, the harm of death attaches: none of the ante-mortem, moment-of-death, or post-mortem options is fully satisfactory, since after death no subject exists to bear the harm. Option A states what the deprivation account explains (why death is bad), not the timing puzzle. The sea-battle truth-value question belongs to logical fatalism, and the worry about which future people are harmed is Parfit's non-identity problem, both drawn from elsewhere in the unit.",
+  "tags": ["deprivation-account", "location-problem", "death", "harm"],
+  "difficulty": "advanced",
+  "generated": true
+}

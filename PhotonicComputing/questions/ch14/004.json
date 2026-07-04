@@ -1,0 +1,18 @@
+{
+  "question_id": "d3f7132d-2bab-4924-88b2-bee7c9235d69",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Maass's classification, what is the 'third generation' of neural models, and how does it compare to the second generation?",
+  "choices": [
+    "McCulloch-Pitts threshold gates, which are weaker than analog units",
+    "Deep convolutional networks, which are identical to the second generation",
+    "Spiking networks that compute with pulse timing: at least as powerful as second-generation sigmoidal units per unit, and strictly more efficient for temporally coded problems",
+    "Quantum neural networks, which require entanglement"
+  ],
+  "answer": 2,
+  "explanation": "Maass (1997) named spiking networks the third generation and proved they are at least as computationally powerful as second-generation sigmoidal units for the same number of units, and more efficient for temporal codes. McCulloch-Pitts gates are the first generation, convnets are second-generation analog units, and quantum networks are unrelated to this taxonomy.",
+  "tags": ["neuromorphic", "maass", "spiking-networks", "third-generation"],
+  "difficulty": "intermediate",
+  "generated": true
+}

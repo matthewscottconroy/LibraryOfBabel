@@ -1,0 +1,22 @@
+{
+  "question_id": "ebe0ad21-332c-4b49-a967-127d62442285",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "blank",
+  "text": "RLS updates the inverse-correlation matrix P using the ___ formula (a rank-1 update), so no explicit matrix inversion is needed at each step.",
+  "choices": [
+    "Sherman-Morrison",
+    "Sherman-Morrison-Woodbury",
+    "matrix inversion lemma",
+    "Woodbury"
+  ],
+  "answer": "Sherman-Morrison",
+  "explanation": "Both esn.py and the book identify the rank-1 Sherman-Morrison identity (a special case of the Woodbury / matrix-inversion lemma) as the tool that lets P be updated in O(N^2) without ever inverting an N x N matrix.",
+  "tags": [
+    "rls",
+    "sherman-morrison",
+    "matrix-inversion-lemma"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

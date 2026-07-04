@@ -1,0 +1,18 @@
+{
+  "question_id": "08d20b82-602d-4de7-9230-ce4cbf521b2f",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "According to the Mill-Ramsey-Lewis Best System Analysis, a regularity counts as a law of nature if and only if it does what?",
+  "choices": [
+    "Appears as an axiom or theorem in the true deductive system that best balances simplicity and strength.",
+    "Is underwritten by a necessitation relation between the universals it mentions.",
+    "Follows from the essential natures of the natural kinds it concerns.",
+    "Is a true universal generalization whose instances are contiguous in space and time."
+  ],
+  "answer": 0,
+  "explanation": "The BSA distinguishes laws from accidental generalizations by theoretical role: laws belong to the systematization of all particular facts that optimally trades simplicity against strength (with 'fit' added for probabilistic laws). Options 1 and 2 are the anti-Humean rivals (DTA and dispositional essentialism) the BSA explicitly rejects, since Lewis refuses any law-making relation or modal primitive beyond the Humean mosaic.",
+  "tags": ["laws-of-nature", "best-system", "lewis", "humeanism"],
+  "difficulty": "beginner",
+  "generated": true
+}

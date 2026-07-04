@@ -1,0 +1,18 @@
+{
+  "question_id": "d8927511-d7ce-45ef-8192-145161797b6c",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In David Albert's account of the arrow of time, what is the 'Past Hypothesis' and what explanatory work does it do?",
+  "choices": [
+    "The claim that the fundamental dynamical laws are themselves time-asymmetric, building a direction directly into physics",
+    "The postulate that the universe began in a state of extremely low entropy, which — combined with the dynamical laws and the Statistical Postulate — explains why entropy increases toward the future",
+    "The proposal that our present low-entropy universe is a spontaneous thermal fluctuation out of an equilibrium 'heat death' state",
+    "The thesis that past events are overdetermined by their many future traces, which grounds the psychological arrow"
+  ],
+  "answer": 1,
+  "explanation": "Albert's Past Hypothesis is the postulate of a very low-entropy initial state, added to the time-symmetric dynamics and the Statistical Postulate to explain the thermodynamic arrow. Option 0 is false — the laws are time-symmetric, which is precisely why an extra postulate is needed; option 2 is Boltzmann's fluctuation proposal (which invites the Boltzmann Brain reductio); and option 3 is Lewis's asymmetry of overdetermination.",
+  "tags": ["past-hypothesis", "albert", "entropy", "arrow-of-time"],
+  "difficulty": "intermediate",
+  "generated": true
+}

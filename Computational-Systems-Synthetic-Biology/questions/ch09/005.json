@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A gene showing ω (dN/dS) significantly greater than 1 along a particular lineage is best interpreted as evidence for:",
+  "choices": [
+    "Positive (diversifying) selection",
+    "Purifying (negative) selection",
+    "Neutral evolution",
+    "Incomplete lineage sorting"
+  ],
+  "answer": 0,
+  "explanation": "ω > 1 means nonsynonymous substitutions are accumulating faster than synonymous ones, which is the signature of positive/diversifying selection favoring amino acid change. ω < 1 instead indicates purifying selection removing deleterious changes, ω = 1 indicates neutral evolution, and incomplete lineage sorting is an unrelated process concerning discordance between gene and species trees, not a selection signature.",
+  "tags": [
+    "dn-ds",
+    "selection",
+    "molecular-evolution"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "826243ae-7dec-4dc3-b1b0-b5a644eff7f2"
+}

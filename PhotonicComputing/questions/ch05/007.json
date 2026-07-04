@@ -1,0 +1,13 @@
+{
+  "question_id": "a0d979a0-e845-471f-b0c5-7e6d4afa778f",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Standard silicon photonic circuits predominantly use the TE polarization because it offers lower propagation loss and better coupling than TM in high-index-contrast waveguides.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. High-index-contrast silicon waveguides show large TE/TM splitting, and the TE mode is chosen as standard for its lower loss and superior coupling. The TM mode is more weakly confined and generally lossier in these structures.",
+  "tags": ["te-tm-modes", "polarization", "silicon-waveguide"],
+  "difficulty": "beginner",
+  "generated": true
+}

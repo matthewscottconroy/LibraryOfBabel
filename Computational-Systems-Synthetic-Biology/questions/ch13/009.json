@@ -1,0 +1,20 @@
+{
+  "chapter": 13,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Scaffold proteins such as KSR help maintain signaling specificity by co-localizing pathway components, reducing crosstalk between pathways that share components like Ras and Erk.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: scaffold proteins such as KSR and IQGAP physically co-localize the components of a specific signaling cascade, which helps insulate that cascade from other pathways that share overlapping components such as Ras, Erk, or PI3K. This is one of several mechanisms -- alongside compartmentalization, kinetics, amplitude, and combinatorial coding -- that cells use to achieve specific responses despite extensive pathway component sharing.",
+  "tags": [
+    "scaffold-proteins",
+    "signaling-specificity",
+    "crosstalk"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "5dae5146-e386-48c3-badd-6671f65e9ba4"
+}

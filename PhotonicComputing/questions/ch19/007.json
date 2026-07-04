@@ -1,0 +1,13 @@
+{
+  "question_id": "11e75068-39ef-4654-83b2-4c18620ba5e1",
+  "chapter": 19,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Boson sampling is not a universal quantum computer and performs no error correction; it is a purpose-built machine whose only job is to sample from a classically intractable distribution.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. The chapter describes boson sampling as not universal and not error-corrected, a minimal witness that quantum dynamics outruns classical simulation via the #P-hard permanent, rather than a general-purpose computer.",
+  "tags": ["boson-sampling", "non-universal", "sampling"],
+  "difficulty": "intermediate",
+  "generated": true
+}

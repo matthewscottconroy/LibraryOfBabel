@@ -1,0 +1,13 @@
+{
+  "question_id": "e5a8c1d6-7f2b-4c0e-9d6a-5b9f2c4e8d71",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Barandiaran and Moreno's 'minimally cognitive organization' (MCO) framework specifies the necessary conditions for minimal cognition. Which trio does it require?",
+  "choices": ["Neurons, synapses, and a central ganglion", "A genome, ribosomes, and a cell membrane", "Sensation, long-term memory, and verbal report", "Autonomous self-organization (autopoiesis), a sensorimotor loop, and a modulating layer that regulates that loop by integrating information"],
+  "answer": 3,
+  "explanation": "The MCO requires (1) autonomous self-organization, (2) a sensorimotor loop coupling sensors and effectors, and (3) a modulating layer that integrates multiple information sources to regulate the loop. It is deliberately substrate-neutral, so option 0's neural hardware is explicitly NOT required. Option 1 lists generic cell components, not cognitive criteria; option 2 imposes anthropocentric requirements like verbal report.",
+  "tags": ["minimal-cognition", "barandiaran-moreno", "mco"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "14cff189-2202-49a1-be01-2c64ed1865c6",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Dummett's semantic anti-realism holds that:",
+  "choices": [
+    "truth is recognition-transcendent, so every statement is determinately true or false whether or not we could verify it.",
+    "truth cannot outrun what is in principle verifiable, so bivalence (and the law of excluded middle) fails for undecidable statements.",
+    "truth is correspondence to mind-independent facts, secured by Tarski's recursive definition of satisfaction.",
+    "every meaningful sentence must have a truthmaker in the actual world."
+  ],
+  "answer": 1,
+  "explanation": "Dummett ties meaning to assertibility/verification conditions, so a statement no one could in principle verify or refute (e.g., about the exact number of hairs on Caesar's head) is neither true nor false—rejecting bivalence and motivating intuitionist logic. Distractor 0 states the realist position, holding recognition-transcendent truth, that Dummett explicitly opposes.",
+  "tags": [
+    "anti-realism",
+    "dummett",
+    "bivalence"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

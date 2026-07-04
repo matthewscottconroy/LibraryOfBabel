@@ -1,0 +1,20 @@
+{
+  "question_id": "32318dd6-201f-4d85-8b0d-442778701c8e",
+  "chapter": 11,
+  "phase": 5,
+  "kind": "tf",
+  "text": "A quantum direct sum theorem for quantum communication complexity has been proven.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Whether QCC(f^n) = n * QCC(f) (a quantum direct sum theorem) is an open problem; the classical information-complexity proof does not straightforwardly quantize.",
+  "tags": [
+    "quantum-information-complexity",
+    "direct-sum",
+    "open-problem"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

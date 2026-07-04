@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The central constraint in flux balance analysis, S·v = 0, encodes the assumption that:",
+  "choices": [
+    "All reactions operate at their maximum thermodynamic rate",
+    "All reactions in the network are irreversible",
+    "The cell is minimizing total enzyme usage",
+    "Metabolite concentrations are at steady state (production equals consumption for every internal metabolite)"
+  ],
+  "answer": 3,
+  "explanation": "S·v = 0 states that, for every internal metabolite, the net rate of production equals the net rate of consumption, i.e., metabolite pools are at steady state; this is the defining constraint of constraint-based modeling. It says nothing about reactions running at maximal thermodynamic rate or all being irreversible (reversible reactions are common and separately bounded), and minimizing enzyme usage is only one possible optional objective (parsimony FBA), not the meaning of the steady-state constraint itself.",
+  "tags": [
+    "stoichiometric-matrix",
+    "steady-state",
+    "fba"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "b428a245-0608-4771-a20a-447f8b29ebf8"
+}

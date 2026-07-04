@@ -1,0 +1,18 @@
+{
+  "question_id": "d410018c-9be8-44b8-8792-57828df734bf",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "On Hume's regularity theory, causation is 'nothing over and above' what?",
+  "choices": [
+    "A second-order necessitation relation holding between the universals involved in cause and effect.",
+    "Patterns of constant conjunction among event-types, together with the mind's habit of projecting necessity onto them.",
+    "The transfer of a conserved quantity such as energy or momentum from cause to effect.",
+    "Counterfactual dependence of the effect on the cause across the nearest possible worlds."
+  ],
+  "answer": 1,
+  "explanation": "Hume held that we observe only constant conjunction and temporal succession; the supposed 'necessary connection' is a projection of the mind's habit of expectation, not a feature of the world. Option 0 is the anti-Humean DTA view, option 2 is the Salmon-Dowe process theory, and option 3 is Lewis's counterfactual analysis, all rivals that posit exactly the worldly connection Hume denied.",
+  "tags": ["causation", "hume", "regularity-theory"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "773da625-3567-4f72-aa7d-29ab4605cf21",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Every field is an integral domain.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. A field is a commutative ring with 1 ≠ 0 in which every nonzero element is a unit; if ab = 0 with a ≠ 0 then b = a⁻¹ab = 0, so there are no zero divisors — exactly the integral-domain condition. The converse fails: ℤ is an integral domain but not a field.",
+  "tags": [
+    "fields",
+    "integral-domain",
+    "rings"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

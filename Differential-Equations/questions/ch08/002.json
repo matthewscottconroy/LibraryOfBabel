@@ -1,0 +1,22 @@
+{
+  "question_id": "c5d52033-fdc3-4476-97e8-61b3282b125c",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Gauss-Bonnet theorem connects the integral of Gaussian curvature over a closed surface to:",
+  "choices": [
+    "its surface area",
+    "its mean curvature",
+    "its Euler characteristic (the integral of K equals 2*pi times chi)",
+    "its diameter"
+  ],
+  "answer": 2,
+  "explanation": "Gauss-Bonnet ties geometry to topology: the integral of K over a closed surface equals 2*pi*chi, so total curvature depends only on the topological Euler characteristic. For any sphere-like surface chi = 2, giving total curvature 4*pi regardless of shape.",
+  "tags": [
+    "gauss-bonnet",
+    "euler-characteristic",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

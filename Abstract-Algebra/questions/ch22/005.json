@@ -1,0 +1,18 @@
+{
+  "question_id": "f5307241-0c20-4f59-a3f6-8f66c2ba291a",
+  "chapter": 22,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Steinberg's tensor product theorem describes every irreducible module of a reductive algebraic group in characteristic $p$ as:",
+  "choices": [
+    "a direct sum of Verma modules",
+    "always one-dimensional",
+    "induced from a single Borel character",
+    "a tensor product of Frobenius twists of restricted representations"
+  ],
+  "answer": 3,
+  "explanation": "Steinberg's theorem: in characteristic $p$ every irreducible $G$-module is a tensor product of Frobenius twists of restricted representations. Such modules are generally not one-dimensional, are not built from (infinite-dimensional) Verma modules, and are not merely induced Borel characters, which would instead describe principal series.",
+  "tags": ["algebraic-groups", "steinberg-tensor-product", "frobenius-twist"],
+  "difficulty": "advanced",
+  "generated": true
+}

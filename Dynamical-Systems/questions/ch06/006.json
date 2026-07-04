@@ -1,0 +1,22 @@
+{
+  "question_id": "a88577fd-9ee9-4751-bd46-344d2925e3e1",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "For a stationary process the entropy rate h = lim (1/n) H(X_1,...,X_n) also equals:",
+  "choices": [
+    "H(X_1)",
+    "sum of H(X_i)",
+    "lim H(X_n | X_1,...,X_{n-1})",
+    "0"
+  ],
+  "answer": 2,
+  "explanation": "The entropy rate equals the limit of conditional entropies H(X_n | past), which decrease monotonically to h. The single-symbol entropy or a sum over symbols overcounts dependence.",
+  "tags": [
+    "entropy-rate",
+    "conditional-entropy",
+    "stationary-process"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

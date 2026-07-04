@@ -1,0 +1,21 @@
+{
+  "question_id": "4e6d963a-3011-4321-a42b-e7dc80e35062",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Compute Ext¹_ℤ(ℤ/4ℤ, ℤ/6ℤ).",
+  "choices": [
+    "ℤ/2ℤ",
+    "ℤ/12ℤ",
+    "ℤ/24ℤ",
+    "0"
+  ],
+  "answer": 0,
+  "explanation": "Apply Hom(−, ℤ/6ℤ) to the resolution 0 → ℤ →×4 ℤ → ℤ/4ℤ → 0: the cokernel of ℤ/6ℤ →×4 ℤ/6ℤ is ℤ/gcd(4,6)ℤ = ℤ/2ℤ. In general Ext¹_ℤ(ℤ/n, ℤ/m) ≅ ℤ/gcd(m,n)ℤ, matching Tor₁.",
+  "tags": [
+    "ext",
+    "computation"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

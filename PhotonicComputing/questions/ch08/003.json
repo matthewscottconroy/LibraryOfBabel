@@ -1,0 +1,13 @@
+{
+  "question_id": "e3d46e3e-84c6-43d5-9969-df0e7a0a86c5",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "At high SNR, the Shannon-Hartley theorem implies that doubling the bandwidth versus doubling the signal power have very different effects. Which statement is correct?",
+  "choices": ["Doubling bandwidth adds ~1 bit/s/Hz; doubling power doubles capacity", "Doubling bandwidth roughly doubles capacity; doubling power adds only ~1 bit/s/Hz of spectral efficiency", "Both double the capacity equally", "Doubling power halves the capacity"],
+  "answer": 1,
+  "explanation": "Capacity is linear in bandwidth but only logarithmic in power, so doubling B nearly doubles C while doubling power adds just ~1 bit/s/Hz at high SNR. This is why bandwidth is more valuable than power in that regime; the reversed and equal-effect options contradict the logarithmic dependence.",
+  "tags": ["shannon-hartley", "spectral-efficiency", "capacity-scaling"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,12 @@
+# Section 28.3: The Future of the Field
+
+With the fundamental limits (Section 28.1) and the great open problems (Section 28.2) on the table, we can finally ask where the field is going — carefully. An outlook is not a forecast. We will not name years, funding rounds, or products; the honest way to reason about the future of a physics-bound technology is *structurally*, from what the physics rewards and what the economics selects, not by extrapolating a trend line past the last data point. What follows is a set of directions argued from this book's central theses, offered as orientation for anyone deciding whether, and how, to enter the field.
+
+Three ideas organize the outlook. The first is **convergence**: classical photonic computing and quantum photonic computing are today largely separate communities sharing a substrate, and the structural logic points toward hybrid systems that use each for what it does best. The second is **heterogeneous integration**: silicon CMOS scaling is ending, but no single successor technology will replace it. The post-silicon computer will be an assembly of specialized parts — photonic, electronic, magnetic, quantum — each doing the job its physics suits, and photonics' durable place in that assembly can be argued from first principles rather than asserted. The third is **intellectual honesty**: the field's health depends on distinguishing what photonic physics has *demonstrated* from what optical *computing* has been *claimed* to promise, and the most useful advice for a new researcher is built directly from that distinction.
+
+The chapter closes with two subsections. The first develops the convergence thesis and its open central question. The second places photonics in the post-silicon landscape and then steps back to a realistic long view, ending with concrete advice.
+
+- **28.3.1** — *Convergence of Classical and Quantum Photonics*: shared platforms and the hybrid thesis — classical optical pre- and post-processing wrapped around a quantum-coherent core — and the honest open question of whether the combination solves problems neither half could alone.
+- **28.3.2** — *The Post-Silicon Landscape and a Realistic Long View*: photonics' structurally argued role in a heterogeneous, post-CMOS computing world, followed by candid advice for researchers entering the field now.
+
+Throughout, the posture is the one this book has kept from the start: optimistic about the physics, disciplined about the system, and candid about which is which.

@@ -1,0 +1,19 @@
+{
+  "question_id": "c226c9b2-5eb8-4873-bb77-6e88ca199935",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Conditioning cannot increase entropy: H(X|Y) <= H(X).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "On average, side information reduces uncertainty, so H(X|Y) <= H(X), with equality iff X and Y are independent. (Individual conditioning on a value can increase it, but the average cannot.)",
+  "tags": [
+    "conditional-entropy",
+    "information-inequalities"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

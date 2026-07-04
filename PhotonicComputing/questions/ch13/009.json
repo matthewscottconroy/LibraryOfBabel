@@ -1,0 +1,19 @@
+{
+  "question_id": "2e62e754-8eed-4e05-a084-24e1b36b9bf2",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "blank",
+  "text": "On the inference path a D2NN is entirely ___ : nothing along the beam path switches, amplifies, or draws current, so the optical forward pass dissipates essentially zero power.",
+  "choices": [
+    "passive"
+  ],
+  "answer": "passive",
+  "explanation": "The diffractive stack is passive; the slab itself dissipates near-zero power and computes in the sub-nanosecond transit time L*d/c, although the illumination source, input encoder, and output detectors do draw power.",
+  "tags": [
+    "d2nn",
+    "passive",
+    "energy"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

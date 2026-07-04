@@ -1,0 +1,18 @@
+{
+  "question_id": "4338e09b-8be1-441c-bf76-3974412687b6",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Perdurantism analyzes persistence through time in terms of an object's having distinct ___ parts at different times, on analogy with its spatial parts.",
+  "choices": [
+    "temporal"
+  ],
+  "answer": "temporal",
+  "explanation": "Temporal parts (stages) are the hallmark of perdurantism/four-dimensionalism, and they let it solve the problem of temporary intrinsics: a straight t1-stage and a bent t2-stage each have their shape simpliciter, so no single thing bears incompatible properties. Endurantism, by contrast, denies temporal parts.",
+  "tags": [
+    "perdurantism",
+    "temporal-parts"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

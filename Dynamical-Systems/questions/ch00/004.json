@@ -1,0 +1,22 @@
+{
+  "question_id": "79ff8c20-e957-4edd-95fd-8b621b5be141",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "An equilibrium is 'hyperbolic', so Hartman-Grobman applies, precisely when:",
+  "choices": [
+    "all eigenvalues of the linearization are real and distinct",
+    "the equilibrium is Lyapunov stable",
+    "the Jacobian has zero determinant",
+    "no eigenvalue of the linearization lies on the imaginary axis"
+  ],
+  "answer": 3,
+  "explanation": "Hyperbolicity means no eigenvalue has zero real part (none on the imaginary axis), so the flow is topologically conjugate to its linearization. Eigenvalues need not be real; hyperbolic points include unstable saddles; a zero determinant would actually violate hyperbolicity.",
+  "tags": [
+    "hyperbolicity",
+    "hartman-grobman",
+    "linearization"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

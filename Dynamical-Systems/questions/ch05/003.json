@@ -1,0 +1,22 @@
+{
+  "question_id": "d80ba249-c94a-43e2-b767-0745ed292f3f",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "By the Slepian-Wolf theorem, two correlated sources X, Y compressed by separate encoders can achieve the joint sum rate:",
+  "choices": [
+    "H(X) + H(Y)",
+    "H(X) * H(Y)",
+    "H(X,Y)",
+    "H(X) - H(Y)"
+  ],
+  "answer": 2,
+  "explanation": "Separate encoders still reach sum rate H(X,Y) - as if they cooperated - provided R_X >= H(X|Y) and R_Y >= H(Y|X). H(X)+H(Y) would be wasteful whenever X and Y are dependent.",
+  "tags": [
+    "slepian-wolf",
+    "distributed-compression",
+    "network-information"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

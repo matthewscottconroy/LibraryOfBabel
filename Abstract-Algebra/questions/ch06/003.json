@@ -1,0 +1,21 @@
+{
+  "question_id": "8e54fbcc-bc24-455e-a717-201b199885ae",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Applied to a linearly independent list v₁,…,vₙ, the Gram–Schmidt process produces:",
+  "choices": [
+    "an orthonormal list e₁,…,eₙ with span(e₁,…,eₖ) = span(v₁,…,vₖ) for every k",
+    "a list of eigenvectors of the Gram matrix",
+    "an orthogonal list that may contain zero vectors",
+    "an orthonormal basis of the orthogonal complement of the span"
+  ],
+  "answer": 0,
+  "explanation": "At each step Gram–Schmidt subtracts the projections onto the previous vectors and normalizes, preserving all partial spans. Zero vectors would appear only if the input list were dependent; matrix-wise this is exactly the QR decomposition.",
+  "tags": [
+    "gram-schmidt",
+    "orthogonality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

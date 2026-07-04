@@ -1,0 +1,18 @@
+{
+  "question_id": "98732608-b37b-422f-9877-8937a9f5d9bc",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Aquinas introduces the aevum (aeviternity) as a middle mode of duration between tempus and aeternitas. Which kind of being is it primarily designed to characterize?",
+  "choices": [
+    "Angels — beings substantially unchanging in their being but whose activities are successive",
+    "Material creatures subject to growth, change, and corruption",
+    "God, whose life is possessed tota simul, all at once",
+    "Prime matter, the changeless substrate underlying all physical change"
+  ],
+  "answer": 0,
+  "explanation": "The aevum fits beings such as angels, which do not undergo substantial change (unlike creatures in tempus) yet perform successive operations (unlike the tota simul eternity of God). Material, corruptible creatures belong to tempus (choice 1) and God's complete simultaneous life is aeternitas (choice 2); the aevum is precisely the intermediate tier between them. Prime matter (choice 3) is not a subject with a mode of duration of its own.",
+  "tags": ["aquinas", "aevum", "aeviternity", "duration", "angels"],
+  "difficulty": "intermediate",
+  "generated": true
+}

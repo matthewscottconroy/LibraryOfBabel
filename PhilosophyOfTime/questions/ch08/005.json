@@ -1,0 +1,18 @@
+{
+  "question_id": "7ed1c96c-dc47-4a2b-9670-224b21a4a896",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "According to Locke, what does personal identity over time consist in?",
+  "choices": [
+    "The continuity of consciousness, in particular the extension of memory back to past thoughts and actions",
+    "The continuity of the same immaterial soul-substance, whatever consciousness it happens to carry",
+    "The biological continuity of the same living human organism",
+    "The coherence of the story one tells to make one's life intelligible as a whole"
+  ],
+  "answer": 0,
+  "explanation": "Locke holds that identity follows consciousness — 'as far as this consciousness can be extended backwards' — so it consists in memory continuity, not sameness of substance. The prince-and-cobbler case shows he rejects the soul-substance criterion; the organism criterion is Olson's later animalism; and the life-story criterion is MacIntyre and Ricoeur's narrative identity. Only memory continuity is Locke's view.",
+  "tags": ["locke", "memory-criterion", "consciousness", "personal-identity"],
+  "difficulty": "beginner",
+  "generated": true
+}

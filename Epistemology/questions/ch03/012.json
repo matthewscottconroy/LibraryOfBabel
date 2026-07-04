@@ -1,0 +1,20 @@
+{
+  "question_id": "fdda07fe-e693-4667-bf44-7d1f654dfeba",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Mentalists standardly express their view as a supervenience thesis: epistemic justification ___ on the believer's mental states alone, so that any two believers alike in all mental respects are alike in justification.",
+  "choices": [
+    "supervenes"
+  ],
+  "answer": "supervenes",
+  "explanation": "The mentalist slogan is that justification supervenes on the mental: no difference in justification without a difference in mental states. This is why a subject and their mentally identical evil-demon duplicate come out equally justified, since the demon alters only external facts.",
+  "tags": [
+    "mentalism",
+    "supervenience",
+    "internalism",
+    "new-evil-demon"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

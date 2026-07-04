@@ -1,0 +1,22 @@
+{
+  "question_id": "a6942cce-dda3-4dec-9b96-f804426e9ce9",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What distinguishes ontic structural realism (Ladyman, French) from Worrall's epistemic structural realism?",
+  "choices": [
+    "Ontic structural realism claims we can know only the structure of the world while remaining agnostic about the objects instantiating it.",
+    "Ontic structural realism makes the ontological claim that there are no individual objects with intrinsic natures at the fundamental level—only structure exists—whereas the epistemic version is merely a thesis about the limits of our knowledge.",
+    "Ontic structural realism restricts realism to the observable structure of phenomena, whereas the epistemic version extends it to unobservables.",
+    "Ontic structural realism abandons realism about mathematical structure, whereas the epistemic version preserves it."
+  ],
+  "answer": 1,
+  "explanation": "Epistemic structural realism (Worrall) is an epistemic thesis: there are objects, but we know only their structural/relational properties, not their intrinsic natures. Ontic structural realism (Ladyman, French) goes further ontologically: there simply are no individuals underlying the structure—structure is all there is. Distractor 0 states the epistemic view, which is precisely the position ontic structural realism moves beyond.",
+  "tags": [
+    "structural-realism",
+    "ladyman",
+    "worrall"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

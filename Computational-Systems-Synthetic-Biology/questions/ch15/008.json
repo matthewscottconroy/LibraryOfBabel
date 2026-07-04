@@ -1,0 +1,20 @@
+{
+  "chapter": 15,
+  "phase": 3,
+  "kind": "tf",
+  "text": "T7 RNA polymerase is an orthogonal polymerase that transcribes roughly five times faster than native E. coli RNA polymerase, enabling very high expression levels when paired with its cognate promoter.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: T7 RNA polymerase, when paired with a synthetic sigma factor system, is completely orthogonal to host E. coli transcription machinery and transcribes roughly 5 times faster than native E. coli RNA polymerase, which is why it is widely used to drive very high levels of recombinant gene expression.",
+  "tags": [
+    "t7-rnap",
+    "orthogonal-transcription",
+    "sigma-factors"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "4df1533e-cfc8-40e6-a497-74902d4b986c"
+}

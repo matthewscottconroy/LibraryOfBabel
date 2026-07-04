@@ -1,0 +1,13 @@
+{
+  "question_id": "ae05cf96-80c5-4f21-abe2-414f564746db",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Because each matrix element of an MZI mesh depends on many phase shifters, independent per-device phase errors of size sigma compound to a relative output error that grows roughly as sqrt(N(N-1)/2)*sigma.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: mesh error is 'entangled' because every output depends on every shifter, so independent errors add in quadrature to about sqrt(N(N-1)/2)*sigma. This is why uncorrected meshes achieve only ~4-5 bits of matrix fidelity while self-configured ones reach 6-8 bits.",
+  "tags": ["mzi-mesh", "error-propagation", "fidelity"],
+  "difficulty": "intermediate",
+  "generated": true
+}

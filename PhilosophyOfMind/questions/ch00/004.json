@@ -1,0 +1,23 @@
+{
+  "question_id": "b54e9b10-78ac-4a66-b36f-7a3f740a6a62",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Hume's empiricism, what is the correct relationship between impressions and ideas?",
+  "choices": [
+    "Impressions and ideas are two names for the very same mental item",
+    "Ideas are innate, whereas impressions are acquired through the senses",
+    "Ideas are vivid original perceptions and impressions their faint copies",
+    "Impressions are vivid, forceful perceptions; ideas are the fainter copies of impressions"
+  ],
+  "answer": 3,
+  "explanation": "Hume held that impressions are the lively, forceful original perceptions (sensations and emotions) and that ideas are their fainter copies, with every simple idea traceable to a prior impression. Option 2 inverts this order of priority; option 1 contradicts Hume's rejection of innate ideas; option 0 collapses a distinction he insists on.",
+  "tags": [
+    "hume",
+    "impressions",
+    "ideas",
+    "empiricism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

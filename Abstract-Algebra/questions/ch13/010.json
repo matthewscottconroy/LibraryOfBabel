@@ -1,0 +1,20 @@
+{
+  "question_id": "a54ede3f-4828-4679-a1e6-aba74520abb9",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The ___ embedding theorem states that every small abelian category embeds fully faithfully (and exactly) into a category of modules R-Mod.",
+  "choices": [
+    "Freyd-Mitchell",
+    "Freyd Mitchell",
+    "Mitchell"
+  ],
+  "answer": "freyd-mitchell",
+  "explanation": "The Freyd–Mitchell theorem justifies proving diagram lemmas (snake, five) by chasing elements as if the objects were modules, then transporting the result to any abelian category — such as sheaves of abelian groups, where objects have no global elements.",
+  "tags": [
+    "category-theory",
+    "abelian-categories"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

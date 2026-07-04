@@ -1,0 +1,20 @@
+{
+  "question_id": "4c7f1a9e-2b83-4d6a-9f05-8c3e1d7a4b69",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In Aplysia, the cellular mechanism of ___, a decrease in neurotransmitter release from sensory neuron terminals with repeated stimulation, was the first molecular explanation of a learning process in any organism.",
+  "choices": [
+    "habituation"
+  ],
+  "answer": "habituation",
+  "explanation": "The answer is 'habituation', the simplest form of non-associative learning (a declining response to repeated stimulation). Eric Kandel's work on the Aplysia gill-withdrawal reflex traced it to reduced transmitter release, distinguishing it from sensory adaptation and effector fatigue and providing the first cellular account of a learning process.",
+  "tags": [
+    "habituation",
+    "aplysia",
+    "kandel",
+    "learning"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

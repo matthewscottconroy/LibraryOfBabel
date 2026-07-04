@@ -1,0 +1,22 @@
+{
+  "question_id": "3490a891-0896-45c8-a734-2a828927d86b",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Shannon-McMillan-Breiman theorem is essentially the Asymptotic Equipartition Property applied to:",
+  "choices": [
+    "independent variables only",
+    "stationary ergodic processes / dynamical systems",
+    "finite groups",
+    "linear maps"
+  ],
+  "answer": 1,
+  "explanation": "SMB extends the AEP from i.i.d. sources to all stationary ergodic processes, giving -(1/n) log P(X_1..X_n) -> h. It is proved via Birkhoff's ergodic theorem.",
+  "tags": [
+    "shannon-mcmillan-breiman",
+    "aep",
+    "ergodic"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "2c4b1fa7-1ce8-4c1d-a142-3029c7ca734c",
+  "chapter": 23,
+  "phase": 4,
+  "kind": "mc",
+  "text": "When choosing between eigenmode expansion (EME) and the beam propagation method (BPM), which statement correctly distinguishes them?",
+  "choices": ["BPM is bidirectional and captures reflections; EME is one-way", "EME cost grows with device length; BPM cost is length-independent", "EME is bidirectional (captures reflections) and its cost is set by mode/section count rather than length; BPM makes a one-way paraxial approximation and cannot model reflections or resonators", "Both fail at low index contrast and are used only for high-contrast sharp bends"],
+  "answer": 2,
+  "explanation": "EME cascades scattering matrices bidirectionally, so a uniform region is a free phase matrix (cost independent of length), while BPM marches a one-way paraxial envelope and cannot handle reflections, resonators, high index contrast, or sharp bends. Choice 0 swaps the two; choice 1 is backwards (EME cost is length-independent); choice 3 inverts BPM's regime, which is long, low-contrast, reflection-free structures.",
+  "tags": ["eme", "bpm", "mode-propagation"],
+  "difficulty": "intermediate",
+  "generated": true
+}

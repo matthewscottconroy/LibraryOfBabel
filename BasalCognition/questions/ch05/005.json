@@ -1,0 +1,18 @@
+{
+  "question_id": "7b2d1f85-0c6a-4e39-8b47-5a1e9c3d2f06",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In a mycorrhizal symbiosis, what is the basic exchange between the fungus and the plant?",
+  "choices": [
+    "The plant gives the fungus water while the fungus gives the plant oxygen",
+    "Both partners simply exchange genetic material",
+    "The fungus delivers mineral nutrients such as phosphorus and nitrogen; the plant supplies photosynthetic carbon (sugars)",
+    "The fungus digests the plant's roots for food and gives nothing in return"
+  ],
+  "answer": 2,
+  "explanation": "Mycorrhizae, present in roughly 80 to 90 percent of land plant species, are mutualisms: the fungus supplies mineral nutrients (especially phosphorus and nitrogen) gathered by its far-reaching hyphae, and the plant supplies photosynthetically fixed carbon. It is not an oxygen-for-water swap (choice 0), a gene exchange (choice 1), or one-sided parasitism (choice 3).",
+  "tags": ["symbiosis", "mycorrhiza", "nutrient-exchange"],
+  "difficulty": "beginner",
+  "generated": true
+}

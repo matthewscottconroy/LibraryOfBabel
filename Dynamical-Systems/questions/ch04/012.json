@@ -1,0 +1,20 @@
+{
+  "question_id": "06aad001-f878-4643-83a5-a74b2b223a77",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Shannon's source coding theorem says an i.i.d. source of entropy H can be compressed to, but not below, ___ bits per symbol.",
+  "choices": [
+    "H",
+    "H(X)"
+  ],
+  "answer": "H",
+  "explanation": "The entropy H is the exact compression limit: rate H + epsilon is achievable with vanishing error, while any rate below H fails. This is the operational meaning of entropy.",
+  "tags": [
+    "source-coding",
+    "entropy",
+    "compression-limit"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

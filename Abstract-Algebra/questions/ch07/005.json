@@ -1,0 +1,21 @@
+{
+  "question_id": "37f2f724-3c59-4d65-8c5d-36dbbc4403e1",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For vectors v₁, …, vₖ in V, the wedge product v₁ ∧ ⋯ ∧ vₖ is nonzero in ⋀ᵏV if and only if:",
+  "choices": [
+    "v₁, …, vₖ are linearly independent",
+    "v₁, …, vₖ span V",
+    "each vᵢ is nonzero",
+    "k equals dim V"
+  ],
+  "answer": 0,
+  "explanation": "A dependence lets one vᵢ be rewritten in terms of the others, and alternation then kills the product; conversely an independent list extends to a basis, where e_{i₁} ∧ ⋯ ∧ e_{iₖ} is a basis element of ⋀ᵏV. The wedge is thus a coordinate-free independence detector.",
+  "tags": [
+    "exterior-algebra",
+    "linear-independence"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

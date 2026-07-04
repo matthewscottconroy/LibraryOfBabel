@@ -1,0 +1,22 @@
+{
+  "question_id": "42a5f338-4c86-4c92-8407-cef9057530e0",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Let R = {x | x ∉ x}, so that R ∈ R ⇔ R ∉ R. What does Russell's paradox establish about naive set theory?",
+  "choices": [
+    "Some sets legitimately contain themselves as elements",
+    "Unrestricted comprehension — forming {x | P(x)} for every predicate P — is inconsistent",
+    "The collection of all sets is countable",
+    "Set membership fails to be a well-defined relation"
+  ],
+  "answer": 1,
+  "explanation": "The contradiction shows that not every predicate carves out a set: the naive comprehension axiom must be abandoned. Axiomatic set theory (ZFC) replaces it with separation, which only forms subsets of an already-given set.",
+  "tags": [
+    "sets",
+    "paradox",
+    "foundations"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

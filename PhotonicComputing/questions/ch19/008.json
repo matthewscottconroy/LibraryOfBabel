@@ -1,0 +1,13 @@
+{
+  "question_id": "42299fc5-c8db-4248-ae43-ed8b0891a656",
+  "chapter": 19,
+  "phase": 3,
+  "kind": "tf",
+  "text": "A deterministic two-qubit CNOT gate can be implemented directly with linear optics alone, using only beam splitters and phase shifters and no measurement.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Because photons do not interact, no linear-optical circuit gives a deterministic two-qubit gate, the 'no-interaction problem.' Entangling gates require measurement-induced nonlinearity (KLM), which makes them probabilistic (for example the NS gate at 1/4).",
+  "tags": ["cnot", "no-interaction-problem", "linear-optics"],
+  "difficulty": "beginner",
+  "generated": true
+}

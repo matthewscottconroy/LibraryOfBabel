@@ -1,0 +1,22 @@
+{
+  "question_id": "dd3e1787-97a9-4ff8-a6ff-343f7080e5e1",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In lab 11, what spectral radius rho is used for the large FORCE reservoir, placing it in the chaotic regime?",
+  "choices": [
+    "1.2",
+    "0.95",
+    "0.9",
+    "0.5"
+  ],
+  "answer": 0,
+  "explanation": "force_pattern.py sets RHO_LARGE = 1.2, which is greater than 1 (chaotic). 0.9 and 0.95 are typical stable-ESN values used elsewhere in the labs, and 0.5 is strongly contracting.",
+  "tags": [
+    "force",
+    "spectral-radius",
+    "lab-config"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

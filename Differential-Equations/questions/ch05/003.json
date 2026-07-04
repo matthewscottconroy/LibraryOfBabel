@@ -1,0 +1,18 @@
+{
+  "question_id": "aa50cc0a-df3f-43d4-989e-acfecdd63224",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The standard technique that seeks product solutions u(x,t) = X(x) T(t) to reduce a linear PDE to ordinary differential equations is called ___ of variables.",
+  "choices": [
+    "separation"
+  ],
+  "answer": "separation",
+  "explanation": "Separation of variables converts a linear PDE with compatible boundary conditions into an eigenvalue problem for X plus an ODE for T; superposition then assembles the solution as an eigenfunction (Fourier) series.",
+  "tags": [
+    "separation-of-variables",
+    "pde-methods"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

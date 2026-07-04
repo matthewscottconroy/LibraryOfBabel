@@ -1,0 +1,18 @@
+{
+  "question_id": "c1a8fee2-aa2e-43fb-a2dd-1009615a8afe",
+  "chapter": 26,
+  "phase": 4,
+  "kind": "mc",
+  "text": "For photonic computing, what is the primary value of a dissipative Kerr soliton microcomb?",
+  "choices": [
+    "It performs matrix multiplication directly in the frequency domain",
+    "It provides an all-optical nonlinearity for activation functions",
+    "It stores optical bits non-volatilely between computations",
+    "It replaces a rack of individually stabilized lasers with one pump laser and one ring, supplying many exactly-spaced, phase-locked WDM channels"
+  ],
+  "answer": 3,
+  "explanation": "The microcomb is above all a component substitution: one pump laser plus one microresonator can replace a rack of stabilized lasers and supply the dozens of exactly-spaced, mutually coherent WDM carriers a tensor core consumes. It does not itself perform the matrix multiply, supply the nonlinearity, or store bits; those remain separate parts of the system.",
+  "tags": ["frequency-comb", "kerr-soliton", "wdm", "component-substitution"],
+  "difficulty": "beginner",
+  "generated": true
+}

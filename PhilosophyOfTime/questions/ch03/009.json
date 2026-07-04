@@ -1,0 +1,20 @@
+{
+  "question_id": "6090ab42-9922-45e7-8a0e-de3e89f7f637",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Newton contrasts absolute, true, and mathematical time with the sensible, external measure of duration by means of motion, which he calls relative, apparent, and ___ time.",
+  "choices": [
+    "common"
+  ],
+  "answer": "common",
+  "explanation": "Newton's fourfold contrast pairs 'absolute, true, and mathematical' time with 'relative, apparent, and common' time — the observable, measurable durations (an hour, a day, a year) used as practical standards. The expected word is 'common.' Newton does not deny relative/common time; he insists it is only an approximation to the true absolute time.",
+  "tags": [
+    "newton",
+    "relative-time",
+    "common-time",
+    "measurement"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "bc33fa7f-41e1-489c-999c-d21313233b36",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The elastic scattering of light from microscopic density fluctuations, which scales as λ⁻⁴ and sets the ~0.14 dB/km fundamental loss floor of silica fiber near 1550 nm, is called ___ scattering.",
+  "choices": [
+    "Rayleigh"
+  ],
+  "answer": "Rayleigh",
+  "explanation": "Rayleigh scattering is elastic (no frequency shift) and its λ⁻⁴ dependence dominates the fiber loss minimum around 1550–1570 nm. Raman and Brillouin scattering, by contrast, are inelastic and shift the frequency by phonon energies.",
+  "tags": [
+    "rayleigh-scattering",
+    "fiber-loss",
+    "scattering"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

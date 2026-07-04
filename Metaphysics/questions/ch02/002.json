@@ -1,0 +1,22 @@
+{
+  "question_id": "ce947b23-42be-41ed-b4e6-70a5d2d4d416",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which statement correctly distinguishes the Indiscernibility of Identicals from the Identity of Indiscernibles?",
+  "choices": [
+    "The Indiscernibility of Identicals (if x = y then they share all properties) is a logical truth; the Identity of Indiscernibles (if x and y share all properties then x = y) is a disputed metaphysical thesis.",
+    "The Indiscernibility of Identicals says that qualitatively identical things are numerically identical, and its converse is universally accepted.",
+    "Both principles are theorems of standard first-order logic with identity.",
+    "Both are substantive metaphysical claims, and Leibniz himself rejected each of them."
+  ],
+  "answer": 0,
+  "explanation": "The Indiscernibility of Identicals runs from identity to shared properties and is provable in first-order logic with identity; the Identity of Indiscernibles, its converse, is the contested claim that indiscernibles must be identical, famously pressured by Black's two spheres. The tempting distractor (option 1) simply swaps the two directions.",
+  "tags": [
+    "leibnizs-law",
+    "identity-of-indiscernibles",
+    "logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

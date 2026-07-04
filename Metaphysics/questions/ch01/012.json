@@ -1,0 +1,20 @@
+{
+  "question_id": "59963526-d7f4-4e71-bb24-1f65f52676b6",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "On the bundle theory, the properties (or tropes) that make up a single concrete object are held together by the relation of ___, roughly co-location in the same region.",
+  "choices": [
+    "compresence",
+    "co-presence"
+  ],
+  "answer": "compresence",
+  "explanation": "Compresence is the relation that binds a bundle of co-located properties or tropes into one object. The compresence problem is that treating compresence as itself a further trope threatens a regress, which is why bundle theorists often take it as a primitive formal relation.",
+  "tags": [
+    "bundle-theory",
+    "compresence",
+    "tropes"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

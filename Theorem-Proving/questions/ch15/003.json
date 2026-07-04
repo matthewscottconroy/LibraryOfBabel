@@ -1,0 +1,21 @@
+{
+  "question_id": "fbb730df-9c52-46cf-9515-8bbaa72c7842",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which property does the overlap relation O(x,y) ≡ ∃z(P(z,x) ∧ P(z,y)) FAIL to have?",
+  "choices": [
+    "Reflexivity",
+    "Symmetry",
+    "Transitivity",
+    "It fails all three"
+  ],
+  "answer": 2,
+  "explanation": "Overlap is reflexive (x is a common part of itself, by M1) and symmetric, but not transitive: the left half of a rod overlaps its middle third, the middle third overlaps the right half, yet the two halves are disjoint. So only transitivity fails.",
+  "tags": [
+    "overlap",
+    "transitivity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

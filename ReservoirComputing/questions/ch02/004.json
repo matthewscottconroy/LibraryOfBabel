@@ -1,0 +1,21 @@
+{
+  "question_id": "57cd6bdf-4062-4ea0-b2e3-fbdaf5d64aec",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The initial reservoir states discarded before training - so that collected states reflect the input history rather than the arbitrary initial state x0 - are called the ___ period.",
+  "choices": [
+    "washout",
+    "wash-out",
+    "transient"
+  ],
+  "answer": "washout",
+  "explanation": "The washout period is the number of initial steps dropped so states depend on recent input rather than x0; its required length scales roughly as -log(epsilon)/log(rho). Including those states causes inconsistent training and poor generalization.",
+  "tags": [
+    "washout",
+    "state-collection",
+    "initial-conditions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,24 @@
+{
+  "question_id": "456582e9-9fc8-4623-99fe-d51f1dbb8494",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In the Beltrami–Klein and Poincaré disk models of hyperbolic geometry, through a point not on a given line there pass:",
+  "choices": [
+    "no parallel lines at all",
+    "exactly one parallel line",
+    "exactly two parallel lines",
+    "infinitely many parallel lines"
+  ],
+  "answer": 3,
+  "explanation": "The hyperbolic parallel axiom says at least two — hence infinitely many — lines through the point miss the given line, and the disk models make this visible (open chords, or boundary-perpendicular arcs). 'No parallels at all' describes elliptic geometry; 'exactly one' is the Euclidean/Playfair case.",
+  "tags": [
+    "hyperbolic",
+    "models",
+    "beltrami-klein",
+    "poincare",
+    "parallels"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

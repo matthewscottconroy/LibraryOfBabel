@@ -1,0 +1,20 @@
+{
+  "question_id": "b716a75e-2e69-4b03-a59b-e0fd58261bd1",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "blank",
+  "text": "For an Anosov or Axiom A system, the topological entropy equals the logarithm of the Perron-Frobenius eigenvalue of the ___ matrix of its Markov coding.",
+  "choices": [
+    "transition",
+    "transfer"
+  ],
+  "answer": "transition",
+  "explanation": "The topological entropy of the coding SFT is log of the Perron root of the 0-1 transition matrix, a computable quantity from the Markov partition.",
+  "tags": [
+    "topological-entropy",
+    "transition-matrix",
+    "perron-frobenius"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

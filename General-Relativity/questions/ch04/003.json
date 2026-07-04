@@ -1,0 +1,22 @@
+{
+  "question_id": "6e75570d-e842-4009-85d6-2fc4f466cdfd",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Hamiltonian is obtained from the Lagrangian by the Legendre transform H = p·q̇ − L. For a standard system (kinetic energy quadratic in the velocities, plus a potential), H equals:",
+  "choices": [
+    "T − V, the kinetic minus potential energy",
+    "the action S = ∫L dt",
+    "T + V, the total energy expressed in terms of (q, p)",
+    "the generalized force ∂L/∂q"
+  ],
+  "answer": 2,
+  "explanation": "Applying the Legendre transform to L = T − V with a standard quadratic kinetic term gives H = T + V, the total energy written in terms of positions and momenta. T − V is the Lagrangian itself, not H. H is a function on phase space, whereas the action is a functional of an entire path.",
+  "tags": [
+    "hamiltonian",
+    "legendre-transform",
+    "energy"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

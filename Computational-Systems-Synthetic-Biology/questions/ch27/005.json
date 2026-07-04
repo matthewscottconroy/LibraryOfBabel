@@ -1,0 +1,22 @@
+{
+  "chapter": 27,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Karr et al.'s (2012, Cell) whole-cell computational model -- the first to predict phenotype from genotype for an entire organism -- was built for which organism?",
+  "choices": [
+    "Mycoplasma genitalium",
+    "Escherichia coli",
+    "Saccharomyces cerevisiae",
+    "Bacillus subtilis"
+  ],
+  "answer": 0,
+  "explanation": "Karr et al. built the first whole-cell model for Mycoplasma genitalium, chosen for its minimal genome, integrating 28 submodels to predict phenotype from genotype. E. coli, S. cerevisiae, and B. subtilis are all major model organisms used elsewhere in systems biology (e.g., FBA models, whole-genome sequencing), but none was the organism modeled in this landmark whole-cell paper -- M. genitalium's small genome made comprehensive mechanistic modeling computationally tractable.",
+  "tags": [
+    "whole-cell-model",
+    "karr-2012",
+    "mycoplasma-genitalium"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "d3c46828-9943-402e-9f0e-4d6226a99467"
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "fb5d21f2-e263-4c70-bda2-ff5bcdf42dc0",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Brentano's thesis holds that the 'mark of the mental' — what distinguishes mental from physical phenomena — is:",
+  "choices": [
+    "Phenomenal consciousness (what-it-is-like-ness)",
+    "Intentionality (directedness upon, or 'aboutness' of, an object)",
+    "Privileged first-person access",
+    "Causal efficacy"
+  ],
+  "answer": 1,
+  "explanation": "Brentano claimed every mental phenomenon exhibits 'intentional inexistence' — directedness upon an object — and that no physical phenomenon does, making intentionality the mark of the mental. Option 0 is a rival candidate mark favoured in consciousness studies, and options 2 and 3 name other proposed features, but Brentano's specific thesis is about intentionality/aboutness.",
+  "tags": [
+    "brentano",
+    "intentionality",
+    "mark-of-the-mental",
+    "aboutness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

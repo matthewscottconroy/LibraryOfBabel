@@ -1,0 +1,22 @@
+{
+  "question_id": "ebe3f91a-f1dc-44b9-9a3e-7ed15191ecbe",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The linear system dx/dt = Ax is asymptotically stable if and only if:",
+  "choices": [
+    "every eigenvalue of A has negative real part",
+    "every eigenvalue of A has modulus < 1",
+    "det(A) < 0",
+    "tr(A) < 0"
+  ],
+  "answer": 0,
+  "explanation": "For continuous-time linear flow, e^{tA} decays iff the whole spectrum lies in the open left half-plane. Modulus < 1 is the discrete-time (map) criterion; det/trace conditions are only partial checks that fail in general dimension.",
+  "tags": [
+    "linear-systems",
+    "stability",
+    "eigenvalues"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

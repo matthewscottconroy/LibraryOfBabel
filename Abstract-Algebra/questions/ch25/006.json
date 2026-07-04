@@ -1,0 +1,22 @@
+{
+  "question_id": "b43dd050-5785-445e-8545-74cce13aca01",
+  "chapter": 25,
+  "phase": 8,
+  "kind": "mc",
+  "text": "For a geometric theory $\\mathbb{T}$, the classifying topos $\\mathrm{Set}[\\mathbb{T}]$ is characterized, for every topos $\\mathcal{E}$, by which correspondence?",
+  "choices": [
+    "Objects of $\\mathcal{E}$ correspond to points of $\\mathrm{Set}[\\mathbb{T}]$",
+    "Subobjects in $\\mathcal{E}$ correspond to open sets of $\\mathrm{Set}[\\mathbb{T}]$",
+    "Topos morphisms $\\mathcal{E}\\to\\mathrm{Set}[\\mathbb{T}]$ correspond to models of $\\mathbb{T}$ in $\\mathcal{E}$",
+    "Functors $\\mathrm{Set}[\\mathbb{T}]\\to\\mathcal{E}$ correspond to models of $\\mathbb{T}$ in $\\mathbf{Set}$"
+  ],
+  "answer": 2,
+  "explanation": "The defining universal property is 'Topos morphisms $\\mathcal{E}\\to\\mathrm{Set}[\\mathbb{T}]\\cong$ models of $\\mathbb{T}$ in $\\mathcal{E}$,' so the classifying topos represents all models of $\\mathbb{T}$. The other options reverse the direction of the morphisms or swap 'models in $\\mathcal{E}$' for unrelated data such as points, subobjects, or models in $\\mathbf{Set}$.",
+  "tags": [
+    "classifying-topos",
+    "geometric-theory",
+    "universal-property"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

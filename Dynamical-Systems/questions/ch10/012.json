@@ -1,0 +1,19 @@
+{
+  "question_id": "2bf9f1c2-1e44-4b8d-9fd1-d71d63f179ab",
+  "chapter": 10,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The Foreman-Rudolph-Weiss theorem shows that no countable list of ___ can classify all ergodic systems up to isomorphism.",
+  "choices": [
+    "invariants"
+  ],
+  "answer": "invariants",
+  "explanation": "Non-Borelness of the isomorphism relation means no countable family of Borel invariants (entropy, spectrum, mixing, ...) suffices to distinguish all ergodic MPTs.",
+  "tags": [
+    "foreman-rudolph-weiss",
+    "invariants",
+    "classification"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

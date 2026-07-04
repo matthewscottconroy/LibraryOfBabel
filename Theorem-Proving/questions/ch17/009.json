@@ -1,0 +1,19 @@
+{
+  "question_id": "30e1c690-e15a-4110-a088-1a0f6e66ac9a",
+  "chapter": 17,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Tarski's solution stratifies truth using an object language and a richer ___ in which the truth predicate for the object language is defined.",
+  "choices": [
+    "metalanguage"
+  ],
+  "answer": "metalanguage",
+  "explanation": "Truth for the object language L is defined only in a richer metalanguage M, which contains L's syntax plus a predicate True_L. No language defines its own truth; this object/metalanguage split is Tarski's core device.",
+  "tags": [
+    "metalanguage",
+    "tarski",
+    "object-language"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

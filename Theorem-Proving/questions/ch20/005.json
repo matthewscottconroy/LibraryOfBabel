@@ -1,0 +1,23 @@
+{
+  "question_id": "9ab510c9-6c86-41d3-9fc1-1bfea825cb50",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Yoneda lemma states that for a locally small category C, an object A, and a functor F: C → Set, there is a bijection:",
+  "choices": [
+    "Hom(A, B) ≅ Hom(B, A) for all B",
+    "F(A) ≅ F(B) whenever A ≅ B",
+    "Nat(Hom(A, −), F) ≅ F(A), natural in A and F",
+    "Nat(F, G) ≅ Hom(F, G) for all functors F, G"
+  ],
+  "answer": 2,
+  "explanation": "Yoneda gives Nat(Hom(A,−), F) ≅ F(A), the bijection sending a natural transformation α to α_A(id_A); everything is forced by where id_A goes. Its embedding corollary — A ≅ B iff Hom(−,A) ≅ Hom(−,B) — says an object is determined by its morphisms to all others. The other options are not the lemma.",
+  "tags": [
+    "yoneda",
+    "natural-transformation",
+    "hom-functor",
+    "embedding"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

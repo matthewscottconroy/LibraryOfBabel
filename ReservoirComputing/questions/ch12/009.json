@@ -1,0 +1,21 @@
+{
+  "question_id": "042ffb25-597e-4dc3-976c-4ebe9fdd8548",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In the Lab 13 power-spectrum analysis, the fast bottom layer (Layer 1) shows a dominant spectral peak near the ___ Hz fast oscillation of the input signal.",
+  "choices": [
+    "50",
+    "50 Hz",
+    "50.0"
+  ],
+  "answer": "50",
+  "explanation": "The lab sets F_FAST = 50.0 Hz and F_SLOW = 5 Hz. Layer 1's high leak rate (α=1.0) lets it track the rapid carrier, so its power spectrum peaks near 50 Hz, while Layer 3 (α=0.1) retains mainly the 5 Hz modulation — the timescale hierarchy made visible in frequency.",
+  "tags": [
+    "deep-esn",
+    "power-spectrum",
+    "lab13"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

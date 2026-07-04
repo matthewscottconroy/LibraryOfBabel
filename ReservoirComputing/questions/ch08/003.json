@@ -1,0 +1,22 @@
+{
+  "question_id": "a02ecf1d-34c1-46ab-aa77-3e2c041d3e89",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The leak-rate lab describes α as a 'temporal zoom lens.' What is the recommended way to choose it?",
+  "choices": [
+    "Match α so the effective time constant τ_eff ≈ the task's timescale",
+    "Always set α = 1 regardless of the task",
+    "Set α as small as possible to maximize memory",
+    "Set α equal to the spectral radius ρ"
+  ],
+  "answer": 0,
+  "explanation": "leak_rate_effect.py and Section 8.4 recommend matching τ_eff = 1/(α(1−ρ)) to the task timescale (α* ≈ 1/(T_0(1−ρ))). Very small α over-smooths and misses fast fluctuations; α=1 is only the maximally-responsive default, not always optimal.",
+  "tags": [
+    "hyperparameters",
+    "leak-rate",
+    "timescale"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "c5d09bfa-efad-4606-b512-2a55017949a2",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which of the following characterizes projective modules?",
+  "choices": [
+    "P is a direct summand of a free module",
+    "P is a submodule of a free module",
+    "P is a quotient of a free module",
+    "P has no torsion elements"
+  ],
+  "answer": 0,
+  "explanation": "The lifting property is equivalent to splitting off from a free module: choose a surjection F ↠ P from a free module and lift the identity of P. 'Quotient of free' is vacuous (every module is one), and over ℤ the submodule/torsion-free conditions are strictly weaker: ℚ is torsion-free but not projective.",
+  "tags": [
+    "modules",
+    "projective",
+    "free-modules"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

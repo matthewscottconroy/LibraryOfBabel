@@ -1,0 +1,21 @@
+{
+  "question_id": "d80b97ab-3e98-4b25-88f2-11c68a7b0483",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the Jordan canonical form of an operator T, the number of Jordan blocks with eigenvalue λ equals:",
+  "choices": [
+    "dim ker(T − λI), the geometric multiplicity",
+    "the algebraic multiplicity of λ",
+    "the multiplicity of λ as a root of the minimal polynomial",
+    "the size of the largest block for λ"
+  ],
+  "answer": 0,
+  "explanation": "Each Jordan block J_k(λ) contributes exactly one independent eigenvector, so blocks are counted by dim E_λ. The algebraic multiplicity is the SUM of the block sizes for λ, and the multiplicity of λ in the minimal polynomial is the size of the LARGEST block.",
+  "tags": [
+    "jordan-form",
+    "multiplicity"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

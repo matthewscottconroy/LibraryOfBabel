@@ -1,0 +1,19 @@
+{
+  "question_id": "6da30569-88ff-4ff0-ac0f-70efdbde3f66",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Shannon's channel coding theorem allows reliable communication at any rate R, even R greater than the capacity C.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Reliable communication (error probability -> 0) is possible only for R < C; for R > C the block error probability is bounded away from 0. Capacity is a sharp threshold.",
+  "tags": [
+    "channel-coding-theorem",
+    "capacity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,24 @@
+{
+  "question_id": "23615d5d-ab60-45e9-9d30-4af023921e1a",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Aristotle's analysis in Physics IV, what is the ontological status of the 'now' (to nun)?",
+  "choices": [
+    "It is the smallest indivisible unit of time, an atomic instant out of which longer stretches of time are built up",
+    "It is a short but genuine duration - the felt present, with a beginning, a middle, and an end",
+    "It is not a part of time but a limit or boundary of temporal intervals, analogous to a point on a line, which both divides past from future and joins them",
+    "It is a single, fixed instant identical at every moment, in which past and future permanently coincide"
+  ],
+  "answer": 2,
+  "explanation": "Aristotle treats the now as a boundary, not a part: like a geometric point on a line it has no duration, yet it both divides past from future and connects them into a continuous whole. Option 0 is the discrete, atomic-time view Aristotle rejects (time is not composed of instants); option 1 makes the now a duration, which he denies; option 3 ignores that the now is type-identical (always 'the present') but token-different (a new moment at each time).",
+  "tags": [
+    "aristotle",
+    "the-now",
+    "to-nun",
+    "continuity",
+    "limit"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

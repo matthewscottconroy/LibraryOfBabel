@@ -1,0 +1,21 @@
+{
+  "question_id": "0feef07c-a0a7-4b5a-9273-0df4b53f92b7",
+  "chapter": 12,
+  "phase": 6,
+  "kind": "blank",
+  "text": "For classically chaotic systems, the energy-gap distribution follows the ___ ensemble of random matrix theory.",
+  "choices": [
+    "GUE",
+    "Gaussian Unitary",
+    "Gaussian Unitary Ensemble"
+  ],
+  "answer": "GUE",
+  "explanation": "The Gaussian Unitary Ensemble governs level spacings of chaotic quantum systems, in contrast to the Poisson spacings of integrable systems.",
+  "tags": [
+    "gue",
+    "random-matrix",
+    "quantum-chaos"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

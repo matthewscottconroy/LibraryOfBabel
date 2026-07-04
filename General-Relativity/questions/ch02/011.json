@@ -1,0 +1,20 @@
+{
+  "question_id": "190dc80a-add2-42ab-ba02-aa60864f63c9",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "By Sylvester's law of inertia, a non-degenerate symmetric bilinear form can be diagonalized to diag(±1, …, ±1); the pair (p, q) counting its positive and negative diagonal entries is called its ___, an invariant of the form.",
+  "choices": [
+    "signature"
+  ],
+  "answer": "signature",
+  "explanation": "The signature (p, q) — the numbers of +1's and −1's after diagonalization — is invariant by Sylvester's law of inertia, independent of the diagonalizing basis. For the Minkowski metric it is (1, 3) or (3, 1) depending on convention. It is not the determinant or the rank, although for a non-degenerate form on ℝⁿ one always has p + q = n.",
+  "tags": [
+    "signature",
+    "bilinear-form",
+    "quadratic-form",
+    "linear-algebra"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "98604312-c405-484c-98f2-2ced02fcb94b",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Bézout's identity asserts that for integers a and b there exist integers x, y such that ax + by equals:",
+  "choices": [
+    "gcd(a, b) — the smallest positive integer expressible as ax + by",
+    "lcm(a, b)",
+    "the product a·b",
+    "1, for every a and b"
+  ],
+  "answer": 0,
+  "explanation": "Bézout's identity says ax + by can be made to equal gcd(a, b), which is precisely the smallest positive value of the linear form ax + by. It equals 1 for all a, b only when a and b are coprime, not in general, and it never gives the lcm or the product.",
+  "tags": [
+    "bezout",
+    "gcd",
+    "linear-combination"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

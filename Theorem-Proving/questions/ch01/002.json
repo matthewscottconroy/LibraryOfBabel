@@ -1,0 +1,23 @@
+{
+  "question_id": "f2677522-da97-482f-9307-f03549413f25",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In propositional logic, a formula that is false under *every* truth assignment is called:",
+  "choices": [
+    "a tautology",
+    "satisfiable",
+    "a contradiction (equivalently, unsatisfiable)",
+    "a contingency"
+  ],
+  "answer": 2,
+  "explanation": "A contradiction (unsatisfiable formula) is false under every assignment. A tautology (option 1) is true under every assignment; satisfiable (option 2) means true under at least one; a contingency (option 4) is true under some assignments and false under others.",
+  "tags": [
+    "contradiction",
+    "unsatisfiable",
+    "tautology",
+    "satisfiable"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

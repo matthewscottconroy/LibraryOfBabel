@@ -1,0 +1,19 @@
+{
+  "chapter": 20,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Cell-free protein synthesis reactions are self-replicating, meaning a single reaction mixture can be propagated indefinitely without adding fresh extract or purified components.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: the chapter explicitly lists 'not self-replicating' as a disadvantage of cell-free systems, since each new reaction must be reconstituted from extract or purified parts rather than growing and dividing on its own. This lack of self-replication is precisely why cell-free systems are limited to hour-scale reactions rather than ongoing fermentation.",
+  "tags": [
+    "cell-free-systems",
+    "limitations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "ebaf105e-eb19-461f-8771-3f4ecff3ad76"
+}

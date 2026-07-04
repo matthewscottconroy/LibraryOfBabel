@@ -1,0 +1,22 @@
+{
+  "question_id": "47e13801-abd5-455e-a709-50bf16baef30",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Gauss map G(x) = {1/x} (fractional part) generates the ___ expansion of x:",
+  "choices": [
+    "decimal",
+    "binary",
+    "continued fraction",
+    "Taylor"
+  ],
+  "answer": 2,
+  "explanation": "Iterating the Gauss map peels off successive partial quotients, giving the continued fraction expansion; its invariant Gauss measure yields Khintchine's constant a.e.",
+  "tags": [
+    "gauss-map",
+    "continued-fractions",
+    "ergodic-number-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

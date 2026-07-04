@@ -1,0 +1,18 @@
+{
+  "question_id": "8a2882fe-1be6-4d17-959f-fa3808138951",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Parfit uses the fission case (each brain hemisphere transplanted into a different body, each successor fully psychologically continuous with the original) chiefly to argue for which conclusion?",
+  "choices": [
+    "That the survivor is determinately whichever person receives the left hemisphere",
+    "That each of us is fundamentally a biological organism, so fission cannot really occur",
+    "That identity is not what matters in survival; what matters is Relation R, which can hold without numerical identity",
+    "That personal identity is constituted by the narrative unity of a life"
+  ],
+  "answer": 2,
+  "explanation": "Because both successors are equally continuous with the original, none can be singled out as the strictly identical one, yet the person clearly survives in the way we care about — so Parfit concludes that what matters is Relation R (psychological continuity and connectedness with the right cause), not identity. Choosing the left-hemisphere recipient is the arbitrary answer he rejects; animalism treats fission as impossible rather than as revealing Relation R; and narrative identity is a different tradition.",
+  "tags": ["parfit", "fission", "relation-r", "what-matters", "personal-identity"],
+  "difficulty": "advanced",
+  "generated": true
+}

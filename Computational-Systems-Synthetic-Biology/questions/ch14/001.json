@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The first whole-cell computational model (Karr et al., 2012, Science) simulated which organism, and why was this organism chosen?",
+  "choices": [
+    "Escherichia coli, chosen because of its extensively curated genome-scale metabolic model",
+    "Mycoplasma genitalium, the smallest known self-replicating organism (525 genes), whose small genome made comprehensive integration of cellular submodels tractable",
+    "Saccharomyces cerevisiae, chosen as the simplest eukaryotic model organism",
+    "Mycoplasma genitalium, chosen because it was the first organism to have its genome sequenced"
+  ],
+  "answer": 1,
+  "explanation": "Karr et al. modeled Mycoplasma genitalium specifically because, as the smallest known free-living, self-replicating organism (525 genes), its limited complexity made it feasible to integrate 28 submodels covering its cellular processes -- a task that still took 128 person-years. E. coli (choice 0) is a much larger, more complex organism used instead for more limited ME-models, not the first whole-cell model, and yeast (choice 2) is a eukaryote not discussed in this context. Choice 3 names the correct organism but the wrong justification -- genome sequencing order was not the reason it was chosen.",
+  "tags": [
+    "whole-cell-model",
+    "mycoplasma-genitalium",
+    "karr-2012"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "776f7ef4-0276-4e50-8d00-586a0e97a509"
+}

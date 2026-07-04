@@ -1,0 +1,19 @@
+{
+  "question_id": "c767a595-2853-43e5-b872-a6a1a5587459",
+  "chapter": 18,
+  "phase": 3,
+  "kind": "blank",
+  "text": "A single-photon avalanche diode (SPAD) is reverse-biased above its breakdown voltage so that one photo-generated carrier triggers a self-sustaining avalanche; this above-breakdown operating mode is called ___ mode.",
+  "choices": [
+    "Geiger"
+  ],
+  "answer": "Geiger",
+  "explanation": "Operating an avalanche diode above breakdown, where a single carrier ignites a runaway avalanche, is Geiger mode; the diode must then be quenched to reset. This is how SPADs achieve single-photon sensitivity.",
+  "tags": [
+    "spad",
+    "geiger-mode",
+    "detectors"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

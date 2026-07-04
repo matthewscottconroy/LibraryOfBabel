@@ -1,0 +1,23 @@
+{
+  "question_id": "22031295-1876-4942-8417-385820af3b39",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The chapter carefully distinguishes Γ ⊢ φ from Γ ⊨ φ. Which statement is correct?",
+  "choices": [
+    "⊢ is semantic (true in all models); ⊨ is syntactic (has a derivation)",
+    "⊢ and ⊨ mean the same thing once the language is fixed",
+    "⊢ means φ is a tautology; ⊨ means φ is satisfiable",
+    "⊢ is syntactic (there is a formal derivation); ⊨ is semantic (true in all models where Γ holds)"
+  ],
+  "answer": 3,
+  "explanation": "⊢ is the syntactic derivability relation (a proof exists) and ⊨ is the semantic entailment relation (truth in all models). Option 1 swaps them; option 2 denies the very distinction that soundness and completeness are needed to bridge; option 3 mislabels both relations.",
+  "tags": [
+    "provability",
+    "entailment",
+    "syntax",
+    "semantics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

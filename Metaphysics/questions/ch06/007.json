@@ -1,0 +1,22 @@
+{
+  "question_id": "c3fc3c9b-ca08-4843-942a-95e56e070df0",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In contemporary panpsychism, the 'combination problem' is the challenge of explaining what?",
+  "choices": [
+    "How the micro-experiences of fundamental particles combine to yield the single, unified consciousness of a macro-subject such as a human.",
+    "How non-conscious neural matter could ever give rise to consciousness at all.",
+    "How an immaterial soul could causally interact with the physical brain.",
+    "How one and the same mental state can be realized in different physical substrates."
+  ],
+  "answer": 0,
+  "explanation": "If each micro-entity has its own experience, panpsychism must explain how many micro-subjects sum into one unified macro-subject (the subject-summing problem) and how micro-qualities yield macro-qualities. The 'non-conscious matter' option is the emergence problem panpsychism was meant to avoid, soul-brain interaction is substance dualism's problem, and the last option is multiple realizability.",
+  "tags": [
+    "panpsychism",
+    "combination-problem",
+    "consciousness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

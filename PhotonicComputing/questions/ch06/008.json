@@ -1,0 +1,13 @@
+{
+  "question_id": "11f03153-eac2-4f1a-b0cb-addc4a546190",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Silicon nitride (Si3N4) waveguides suffer from strong two-photon absorption at 1550 nm, which limits their use in high-power applications.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Si3N4 has a large ~5 eV bandgap and therefore shows no two-photon absorption at 1550 nm, which, together with ultra-low loss down to 0.001 dB/cm, is exactly why it excels at high-power tasks like Kerr frequency combs. It is silicon, not silicon nitride, that suffers two-photon absorption above ~10 mW.",
+  "tags": ["silicon-nitride", "two-photon-absorption", "beyond-silicon"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which logic gate is described as 'functionally complete,' meaning any Boolean function can be constructed from copies of that gate alone?",
+  "choices": [
+    "AND",
+    "OR",
+    "NOR",
+    "NOT"
+  ],
+  "answer": 2,
+  "explanation": "NOR is functionally complete: any Boolean function can be built from NOR gates alone, which is why it is highlighted as the most powerful basic gate for genetic circuit design. AND, OR, and NOT are each useful individually, but none of them alone is functionally complete (for example, NOT alone cannot reproduce AND/OR combinations, and AND/OR without negation cannot express every Boolean function).",
+  "tags": [
+    "logic-gates",
+    "nor-gate",
+    "boolean-logic"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "b2b4e133-5dbd-4a61-a7d1-bee32ae3a9fb"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does the Elowitz-Leibler repressilator require an odd number of repressors (three, in the original design) arranged in a closed ring?",
+  "choices": [
+    "An odd number of repressive steps around the loop produces net negative feedback, a prerequisite (with nonlinearity and delay) for sustained oscillation",
+    "An even number of repressors would exceed standard plasmid cloning capacity",
+    "Odd numbers of repressors reduce metabolic burden on the host cell",
+    "Odd numbers of repressors are required so that dCas9 can multiplex several sgRNAs"
+  ],
+  "answer": 0,
+  "explanation": "An odd number of repressive (inverting) links around a closed loop yields net negative feedback overall, which combined with sufficient nonlinearity (high Hill coefficient) and a time delay (from protein synthesis) is a requirement for sustained oscillations; an even number would instead create net positive feedback, favoring bistability rather than oscillation. Cloning capacity and metabolic burden are unrelated to the odd/even repressor count, and dCas9 multiplexing is a feature of CRISPR-based logic gates, not a requirement of oscillator topology.",
+  "tags": [
+    "repressilator",
+    "oscillators",
+    "negative-feedback"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "8219bdf1-2b1d-4f1d-9da3-f50db900f8b1"
+}

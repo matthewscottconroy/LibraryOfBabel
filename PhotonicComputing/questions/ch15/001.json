@@ -1,0 +1,18 @@
+{
+  "question_id": "3385058f-5a7e-42e8-894c-42d2bc2c0506",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Nahmias et al. (2013) showed that a semiconductor laser with a saturable-absorber section, biased just below threshold, maps rigorously onto which neuron model?",
+  "choices": [
+    "The Hodgkin-Huxley conductance model with four coupled variables",
+    "The McCulloch-Pitts binary threshold unit",
+    "The leaky integrate-and-fire (LIF) model",
+    "The continuous-valued perceptron"
+  ],
+  "answer": 2,
+  "explanation": "The chapter states Nahmias et al. (2013) proved the two-section saturable-absorber laser maps rigorously onto the LIF equations, with the optical field as the fast variable and carrier density as the slow recovery variable. Hodgkin-Huxley is a more detailed model not the one claimed; McCulloch-Pitts and the perceptron are non-spiking, non-dynamical units that cannot capture excitable spiking.",
+  "tags": ["excitable-lasers", "lif", "photonic-neurons"],
+  "difficulty": "beginner",
+  "generated": true
+}

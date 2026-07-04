@@ -1,0 +1,20 @@
+{
+  "question_id": "25602263-3501-49d0-b3f2-2440a07deb5f",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Kant argues that time is empirically real yet transcendentally ideal: it is the a priori form of ___ sense, valid for all objects of possible experience but not a property of things in themselves.",
+  "choices": [
+    "inner"
+  ],
+  "answer": "inner",
+  "explanation": "For Kant, time is the a priori form of inner sense — the structure through which the mind represents its own states, and thereby all appearances — which makes it empirically real yet transcendentally ideal (Critique A34/B50, A35/B52). The expected word is 'inner.' Space, by contrast, is the form of outer sense, whereas time conditions all appearances whatsoever.",
+  "tags": [
+    "kant",
+    "form-of-inner-sense",
+    "transcendental-ideality",
+    "empirical-reality"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

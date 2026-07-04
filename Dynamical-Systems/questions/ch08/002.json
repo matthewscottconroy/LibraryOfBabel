@@ -1,0 +1,22 @@
+{
+  "question_id": "6205b2de-72fd-4ea7-b2be-859d3ea50c83",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Maxwell's demon paradox is resolved by recognizing that thermodynamic cost is incurred when the demon:",
+  "choices": [
+    "measures molecular velocities",
+    "opens the trapdoor",
+    "erases its memory",
+    "lets the gas do work"
+  ],
+  "answer": 2,
+  "explanation": "The demon's memory fills with data; erasing it to reset costs at least kT ln 2 per bit (Landauer), restoring the second law. Measurement itself can in principle be done reversibly.",
+  "tags": [
+    "maxwells-demon",
+    "landauer",
+    "second-law"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

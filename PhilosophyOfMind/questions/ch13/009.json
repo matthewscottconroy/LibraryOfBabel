@@ -1,0 +1,20 @@
+{
+  "question_id": "250242d6-dad6-45b7-a332-def61fa1402d",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In Husserl's phenomenology, the immediate, non-inferential act by which I apprehend another as an 'alter ego' or other subject is called ___ (empathy).",
+  "choices": [
+    "Einfühlung",
+    "empathy"
+  ],
+  "answer": "Einfühlung",
+  "explanation": "Husserl's term is Einfühlung ('feeling-into,' empathy): an immediate analogical apperception of the other as an alter ego, contrasted with inference from behavior. The expected answer is 'Einfühlung' (empathy).",
+  "tags": [
+    "einfuhlung",
+    "empathy",
+    "husserl"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

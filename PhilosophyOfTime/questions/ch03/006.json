@@ -1,0 +1,18 @@
+{
+  "question_id": "d0e5cc8d-a9dc-48a1-98ac-373db13c39f0",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the Leibniz-Clarke correspondence, which principle does Leibniz deploy when he argues that, if time were absolute, there could be no reason why God created the whole universe at one moment rather than one year earlier, with everything else unchanged?",
+  "choices": [
+    "The Principle of Sufficient Reason",
+    "The empiricist copy principle, that every idea traces to a prior impression",
+    "Mach's Principle, that inertia is fixed by the totality of matter in the universe",
+    "The schema of causality, that events follow one another according to a rule"
+  ],
+  "answer": 0,
+  "explanation": "Leibniz argues from the Principle of Sufficient Reason: an absolute time would let the entire universe be shifted to a different absolute moment with no discernible difference and hence no sufficient reason for its actual location, which the PSR forbids (Fifth Letter to Clarke §§4–6). Choice 1 is Hume's copy principle and choice 3 is Kant's schematized category, both from other thinkers; Mach's Principle (choice 2) concerns the relational grounding of inertia, not this temporal-location argument.",
+  "tags": ["leibniz", "principle-of-sufficient-reason", "absolute-time", "leibniz-clarke"],
+  "difficulty": "advanced",
+  "generated": true
+}

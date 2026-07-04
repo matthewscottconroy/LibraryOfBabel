@@ -1,0 +1,13 @@
+{
+  "question_id": "9de79a45-82a8-4f3f-ad7e-865a8049c3a3",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "tf",
+  "text": "In causal set theory's sequential growth dynamics (Rideout and Sorkin), the accretion of each new element is a form of objective 'becoming' — a genuine transition from non-existence to existence — giving the theory a natural affinity with the growing-block view rather than the eternal block universe.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. In the preferred causal set dynamics the partial order grows element by element, each addition a genuine coming-to-be, which the book presents as a physical realization of the growing block (past and present real, future not yet real). This contrasts sharply with the block universe, in which all events exist tenselessly with no growth or becoming.",
+  "tags": ["causal-sets", "becoming", "growing-block", "sorkin"],
+  "difficulty": "intermediate",
+  "generated": true
+}

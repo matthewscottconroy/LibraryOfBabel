@@ -1,0 +1,18 @@
+{
+  "question_id": "8c3981bf-a2d1-4f79-a46e-8abb869013ad",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does optical fan-out to N synapses scale better than electronic fan-out in a neuromorphic system?",
+  "choices": [
+    "Because optical fan-out charges N wire capacitors faster than electronics can",
+    "Because electronic fan-out is limited only by the speed of light",
+    "Because optics fans out by consuming more bandwidth per branch",
+    "Because electronic fan-out must charge N wire capacitances (RC- and energy-limited, worsening with N), while optics splits passively and WDM carries N channels on one waveguide, spending power (~P0/N per branch) rather than bandwidth"
+  ],
+  "answer": 3,
+  "explanation": "Electronic fan-out to N targets means driving N wire capacitances, an RC- and energy-limited operation that worsens with N; optically a single output splits passively and WDM lets one waveguide carry N wavelength channels, so fan-out costs optical power (~P0/N per branch) rather than bandwidth. Optics does not 'charge capacitors' (option 0) and it trades power, not bandwidth (option 2).",
+  "tags": ["neuromorphic", "wdm", "fan-out", "broadcast-and-weight"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "be7d720f-edcd-4311-a866-4c4a32212f25",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The ER = EPR conjecture (Maldacena and Susskind, 2013) proposes that:",
+  "choices": [
+    "erasing one bit of information requires dissipating a minimum of k_B T ln 2 of heat into the environment",
+    "the entanglement entropy of an evaporating black hole follows the Page curve whenever the evolution is unitary",
+    "an Einstein-Rosen bridge (wormhole) connecting two entangled black holes is the very same object as the EPR entanglement between them",
+    "the wavefunction of the universe satisfies a constraint equation that contains no time parameter"
+  ],
+  "answer": 2,
+  "explanation": "ER = EPR identifies the geometric wormhole connection (Einstein-Rosen bridge) with quantum entanglement (EPR), implying that spacetime connectivity is constituted by entanglement. The distractors are other genuine results from this unit — Landauer's principle, Page's curve for black-hole radiation, and the Wheeler-DeWitt equation — none of which is what ER = EPR asserts.",
+  "tags": ["er-epr", "wormholes", "entanglement", "maldacena-susskind"],
+  "difficulty": "beginner",
+  "generated": true
+}

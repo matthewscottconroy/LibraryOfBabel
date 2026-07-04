@@ -1,0 +1,19 @@
+{
+  "question_id": "69680909-d226-4874-b7b1-ca9fc4182244",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The Kullback-Leibler divergence D(p||q) = sum p log(p/q) is always greater than or equal to ___, with equality iff p = q.",
+  "choices": [
+    "0",
+    "zero"
+  ],
+  "answer": "0",
+  "explanation": "By Gibbs' inequality the relative entropy is nonnegative and vanishes only when the distributions coincide; this underlies the data-processing inequality.",
+  "tags": [
+    "kl-divergence",
+    "information-inequalities"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "8b43a5cb-afbb-458f-9306-e3442e13c4c0",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Hume analyzed the causal relation into three components: constant conjunction, contiguity, and temporal ___ — the requirement that the cause be earlier than the effect.",
+  "choices": [
+    "priority"
+  ],
+  "answer": "priority",
+  "explanation": "The expected answer is 'priority.' For Hume the third component is temporal priority, that the cause is earlier than the effect. Crucially he treats this as a contingent, empirically discovered feature rather than a conceptual truth, which is what leaves room for the later debates over simultaneous causation and backward causation.",
+  "tags": [
+    "hume",
+    "causation",
+    "temporal-priority",
+    "constant-conjunction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

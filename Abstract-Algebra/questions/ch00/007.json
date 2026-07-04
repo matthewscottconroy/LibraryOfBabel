@@ -1,0 +1,19 @@
+{
+  "question_id": "010cad2d-ab53-40d1-a67f-f6853199c48b",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "An implication P ⇒ Q is logically equivalent to its converse Q ⇒ P.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Only the contrapositive ¬Q ⇒ ¬P is equivalent to P ⇒ Q; the converse can differ, e.g. when P is false and Q is true. 'If n > 5 then n > 2' is true while its converse fails at n = 3.",
+  "tags": [
+    "logic",
+    "implication"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

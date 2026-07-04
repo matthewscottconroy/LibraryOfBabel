@@ -1,0 +1,19 @@
+{
+  "question_id": "c6a529db-a64a-4dc5-a655-e1778f35b0e4",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "blank",
+  "text": "For a group G acting on a set X, the set G·x = {g·x : g ∈ G} is called the ___ of x.",
+  "choices": [
+    "orbit",
+    "orbit of x"
+  ],
+  "answer": "orbit",
+  "explanation": "Orbits are the equivalence classes of the relation 'reachable by the action', so they partition X. Their sizes are governed by orbit–stabilizer: |G·x| = [G : G_x].",
+  "tags": [
+    "group-actions",
+    "orbits"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

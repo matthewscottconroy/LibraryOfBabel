@@ -1,0 +1,21 @@
+{
+  "question_id": "5919dd20-e647-44c1-8ab5-26990c9694a9",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: The Continuum Hypothesis is a theorem of ZFC — it can be proved from the ZFC axioms.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. CH is independent of ZFC: Gödel (1938) showed it is consistent with ZFC, and Cohen (1963), using forcing, showed its negation is also consistent. So CH can be neither proved nor refuted from ZFC.",
+  "tags": [
+    "continuum-hypothesis",
+    "independence",
+    "zfc",
+    "forcing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

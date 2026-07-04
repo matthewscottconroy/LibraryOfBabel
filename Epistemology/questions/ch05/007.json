@@ -1,0 +1,20 @@
+{
+  "question_id": "d1df9435-710f-440f-89e5-de378729f378",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In Crispin Wright's pluralism about truth, the property a statement has when it is assertible on some state of information and would remain assertible no matter how that information were improved or enlarged is called ___.",
+  "choices": [
+    "superassertibility"
+  ],
+  "answer": "superassertibility",
+  "explanation": "Wright introduces superassertibility as a truth property that is available in every domain but may be the only truth property in areas such as ethics, where there are arguably no mind-independent facts beyond ideal warranted assertibility. In domains with mind-independent facts, such as physics, truth may additionally be correspondence — which is why, for Wright, realism debates turn on which richer property a domain supports.",
+  "tags": [
+    "pluralism",
+    "wright",
+    "superassertibility",
+    "truth"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

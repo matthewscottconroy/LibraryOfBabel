@@ -1,0 +1,18 @@
+{
+  "question_id": "f8000ac1-1a5a-4959-92f3-7775781e27ce",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The fraction of a guided mode's optical power that resides within the waveguide core, denoted by the symbol Gamma, is called the ___ factor.",
+  "choices": [
+    "confinement"
+  ],
+  "answer": "confinement",
+  "explanation": "The confinement factor Gamma = (integral of |E|^2 over the core) / (integral over all space) sets the effective modal gain or loss in an active waveguide; for a 450x220 nm silicon strip at 1550 nm it is about 0.8.",
+  "tags": [
+    "confinement-factor",
+    "waveguide-modes"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

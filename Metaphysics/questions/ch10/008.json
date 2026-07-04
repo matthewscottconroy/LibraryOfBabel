@@ -1,0 +1,20 @@
+{
+  "question_id": "c580a18f-c9a1-44d2-b6b2-4c497f728fd0",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Van Inwagen's own answer to the Special Composition Question is that composition occurs if and only if the activity of the objects constitutes a life, so that the only composite objects are living organisms.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Van Inwagen's organicism restricts composition to cases where the xs' activity constitutes a life; on his view there are living organisms and simples, but tables and other artifacts are not genuine composite objects. This is his restricted 'middle' answer, positioned between nihilism and universalism.",
+  "tags": [
+    "van-inwagen",
+    "organicism",
+    "composition"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

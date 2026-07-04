@@ -1,0 +1,22 @@
+{
+  "question_id": "99a3d01a-8668-4279-bc05-ccd7c8e50c46",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which statement about uniform continuity is correct?",
+  "choices": [
+    "Uniform continuity is a weaker condition than ordinary continuity",
+    "f(x) = x^2 is uniformly continuous on all of R",
+    "Every function continuous on an open interval (a,b) is uniformly continuous there",
+    "Every function continuous on a closed bounded interval [a,b] is uniformly continuous"
+  ],
+  "answer": 3,
+  "explanation": "By the Heine-Cantor theorem, continuity on a compact set [a,b] upgrades to uniform continuity. Uniform continuity is stronger, not weaker, than continuity; x^2 fails it on R because the required delta must shrink as x grows; and continuity on an open interval need not be uniform (e.g. 1/x on (0,1)).",
+  "tags": [
+    "uniform-continuity",
+    "heine-cantor",
+    "continuity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

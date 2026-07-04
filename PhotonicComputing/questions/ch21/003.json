@@ -1,0 +1,13 @@
+{
+  "question_id": "7879aeba-8e24-43bc-9b8e-086f403fa338",
+  "chapter": 21,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Weak coherent pulses have Poissonian photon statistics, so some pulses contain two or more photons, enabling the photon-number-splitting (PNS) attack. How does the decoy-state method defeat it?",
+  "choices": ["By interleaving pulses of different intensities; since Eve cannot tell a signal photon from a decoy photon, comparing their measured yields bounds the single-photon contribution and exposes PNS", "By using only pulses that contain exactly one photon, eliminating multiphoton events", "By amplifying the signal so multiphoton pulses dominate and drown out Eve", "By encoding in continuous quadratures so photon number is undefined"],
+  "answer": 0,
+  "explanation": "Decoy-state QKD randomly varies the intensity (mu, nu, 0); because Eve cannot distinguish a decoy photon from a signal photon, any intensity-dependent anomaly in the yields exposes PNS and restores the rate to O(eta). Choice 1 is impossible with attenuated lasers (Poissonian statistics cannot be made purely single-photon); choice 2 makes the attack worse; choice 3 describes CV-QKD, a different protocol.",
+  "tags": ["decoy-states", "pns-attack", "qkd"],
+  "difficulty": "intermediate",
+  "generated": true
+}

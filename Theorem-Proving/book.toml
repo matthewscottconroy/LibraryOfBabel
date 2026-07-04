@@ -1,0 +1,27 @@
+# Build manifest for "Formal Logic and Theorem Proving".
+# textbook/ holds ch01..ch22 chapter directories (README/chapter-overview intro +
+# numbered section sub-directories); problems/ is included as an appendix part.
+# proofs/ is intentionally excluded (worked Lean/Coq proofs, not prose).
+#
+# NOTE: a concurrent agent is CREATING the ch01..ch13 chapter README.md files;
+# until they exist those chapters have only chapter-overview.md.  Part injection
+# still gives every chapter a heading, so build --check passes regardless.
+title = "Formal Logic and Theorem Proving"
+subtitle = "From Propositional Logic to Categorical Foundations"
+
+# chapter-overview.md is the current per-chapter intro (until README.md lands).
+intro_names = ["chapter-overview.md"]
+
+back_matter = [
+    "textbook/appendix-*.md",
+]
+
+[[sources]]
+root = "textbook"
+recursive = true
+part_level = 1   # ch01 .. ch22 become \part
+
+[[sources]]
+root = "problems"
+recursive = true
+part_level = 1   # each problem set chapter becomes an appendix \part

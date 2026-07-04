@@ -1,0 +1,19 @@
+{
+  "question_id": "d2953611-03f6-4691-85bd-51a3bf90a9de",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Every group of order 6 is abelian.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "S₃ (equivalently D₃) is a non-abelian group of order 6. The abelian conclusion does hold for orders p and p² — for 6 = 2·3 the Sylow analysis instead yields exactly two groups: ℤ/6ℤ and S₃.",
+  "tags": [
+    "classification",
+    "symmetric-group"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,23 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which statement correctly distinguishes the metabolic roles of NAD+/NADH from NADP+/NADPH?",
+  "choices": [
+    "NADP+/NADPH functions mainly in catabolism, while NAD+/NADH functions mainly in anabolism",
+    "NAD+/NADH functions mainly as an electron carrier in catabolism, while NADP+/NADPH functions mainly as an electron donor in anabolism",
+    "Both cofactors are used interchangeably in catabolic and anabolic pathways with no functional distinction",
+    "NAD+/NADH plays no role in glycolysis or the TCA cycle"
+  ],
+  "answer": 1,
+  "explanation": "NAD+/NADH is the electron carrier used in catabolic pathways such as glycolysis, the TCA cycle, and beta-oxidation, while NADP+/NADPH is the electron donor used in anabolic pathways such as fatty acid synthesis and the pentose phosphate pathway. This division keeps catabolic and anabolic redox pools separate; the reversed pairing, a claim of interchangeability, and the claim that NADH is absent from glycolysis/TCA are all incorrect.",
+  "tags": [
+    "coenzymes",
+    "nad",
+    "nadp",
+    "metabolism"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "9dd9f181-ac06-4050-ac72-cb6270aa984b"
+}

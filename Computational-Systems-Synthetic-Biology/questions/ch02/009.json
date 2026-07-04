@@ -1,0 +1,19 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "In bacteriophage biology, the alternative to the lytic cycle -- in which the phage genome integrates into the host chromosome and is passively replicated as a prophage -- is called the ___ cycle.",
+  "choices": [
+    "lysogenic"
+  ],
+  "answer": "lysogenic",
+  "explanation": "The lysogenic cycle involves integration of the phage genome into the host chromosome as a dormant prophage, which can later be induced to enter the lytic cycle. Lambda phage's CI/Cro genetic switch is the canonical example of the decision between lytic and lysogenic fates.",
+  "tags": [
+    "bacteriophage",
+    "lysogenic-cycle",
+    "phage-biology"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "9a82fe09-5ece-436c-9cd9-b473aff209f4"
+}

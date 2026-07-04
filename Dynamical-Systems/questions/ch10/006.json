@@ -1,0 +1,22 @@
+{
+  "question_id": "4b3016b7-3ff2-41d1-98fb-0563200abc92",
+  "chapter": 10,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Whether every countable group is sofic is currently:",
+  "choices": [
+    "proven true",
+    "proven false",
+    "decidable by a known algorithm",
+    "an open problem"
+  ],
+  "answer": 3,
+  "explanation": "No non-sofic group is known and all standard classes are sofic, yet no proof that every group is sofic exists - arguably the central open question in geometric group theory here.",
+  "tags": [
+    "sofic-groups",
+    "open-problem",
+    "geometric-group-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "418eacfe-adce-48cf-b146-d99055673a3a",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "blank",
+  "text": "A widely used NCC paradigm in which a different image is shown to each eye and conscious perception alternates while sensory input stays constant is called ___.",
+  "choices": [
+    "binocular rivalry"
+  ],
+  "answer": "binocular rivalry",
+  "explanation": "Binocular rivalry presents a different image to each eye so that conscious perception alternates while physical stimulation is held constant, letting researchers isolate activity that tracks conscious content. The expected term is 'binocular rivalry.'",
+  "tags": [
+    "binocular-rivalry",
+    "ncc",
+    "paradigm"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

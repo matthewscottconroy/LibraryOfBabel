@@ -1,0 +1,21 @@
+{
+  "question_id": "01807735-ae63-4920-8211-bf41d6b477d0",
+  "chapter": 14,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Does the short exact sequence 0 → ℤ →×2 ℤ → ℤ/2ℤ → 0 split?",
+  "choices": [
+    "No — a splitting would need an element of order 2 in ℤ, but ℤ is torsion-free",
+    "Yes — every short exact sequence of abelian groups splits",
+    "Yes — ℤ/2ℤ is a free ℤ-module",
+    "No — because the map ×2 is not injective"
+  ],
+  "answer": 0,
+  "explanation": "A right splitting s: ℤ/2ℤ → ℤ would send the generator to an element x with 2x = 0 and x ≠ 0 (else g∘s ≠ id) — impossible in ℤ. Equivalently ℤ ≇ ℤ ⊕ ℤ/2ℤ. This nonzero class generates Ext¹(ℤ/2ℤ, ℤ) ≅ ℤ/2ℤ.",
+  "tags": [
+    "exact-sequences",
+    "splitting"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

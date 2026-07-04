@@ -1,0 +1,22 @@
+{
+  "question_id": "20762c4d-861f-4cb4-9e34-d11de197338a",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A period-doubling (flip) bifurcation, the route to chaos in the logistic map, occurs when:",
+  "choices": [
+    "A pair of complex eigenvalues crosses the imaginary axis (as in a Hopf bifurcation)",
+    "A Floquet multiplier crosses +1, annihilating a pair of fixed points",
+    "A Floquet multiplier of the orbit crosses -1",
+    "The determinant of the Jacobian passes through zero"
+  ],
+  "answer": 2,
+  "explanation": "The text states a period-doubling (flip) bifurcation happens when one of the orbit's Floquet multipliers crosses -1. Crossing +1 is the saddle-node case (option 1), and a complex pair crossing the imaginary axis is a Hopf bifurcation (option 0).",
+  "tags": [
+    "period-doubling",
+    "flip-bifurcation",
+    "logistic-map"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

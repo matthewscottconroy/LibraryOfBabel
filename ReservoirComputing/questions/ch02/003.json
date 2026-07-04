@@ -1,0 +1,20 @@
+{
+  "question_id": "0f2594fe-f3cc-4811-bf59-64514d2c52d1",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In the leaky-integrator ESN, setting the leak rate alpha = 1 recovers the vanilla ESN update with no explicit leak.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "With alpha = 1 the update (1-alpha)x_t + alpha*tanh(...) reduces to x_{t+1} = tanh(W_rec x_t + W_in u_{t+1} + b), the original vanilla ESN with no leaking term. The statement is true.",
+  "tags": [
+    "leaky-integrator",
+    "leak-rate",
+    "vanilla-esn"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

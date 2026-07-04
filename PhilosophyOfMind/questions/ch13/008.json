@@ -1,0 +1,20 @@
+{
+  "question_id": "dbbfeeba-bba2-44c4-b80b-27baa85c6fdb",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Wittgenstein's private language argument holds that a word for a purely private inner state, with no connection to public criteria, would be incoherent.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. On Wittgenstein's argument, a term for a purely private state with no tie to public criteria could not be checked for correct use, so it could not have a determinate meaning; the sense of mental terms is bound up with public criteria and shared practices.",
+  "tags": [
+    "wittgenstein",
+    "private-language-argument",
+    "criteria"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "c0734e41-1478-4311-a5dd-5d8a3319f8f4",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Fine argues against the modal account of essence using the observation that Socrates is necessarily a member of {Socrates}. What conclusion does he draw?",
+  "choices": [
+    "Essence should be defined as the collection of properties a thing has in every possible world where it exists.",
+    "Some properties a thing has necessarily are not part of its essence, so essence cannot be reduced to de re necessity; the direction of explanation runs from essence to modality.",
+    "Set membership is essential to Socrates, showing that mathematical properties are among a person's essential properties.",
+    "Since {Socrates} depends on Socrates for its existence, Socrates and his singleton must share exactly the same essence."
+  ],
+  "answer": 1,
+  "explanation": "Fine's point is that belonging to {Socrates} is necessary for Socrates but no part of what Socrates is; it flows from the nature of the set, not the man. So necessity is broader than essence and cannot analyze it, and essence is instead the ground of the relevant necessities. Option 0 is precisely the modal account Fine rejects, and option 2 draws the opposite of his intended lesson.",
+  "tags": ["modality", "essence", "fine", "grounding"],
+  "difficulty": "advanced",
+  "generated": true
+}

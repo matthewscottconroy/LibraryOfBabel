@@ -1,0 +1,22 @@
+{
+  "question_id": "b82f8390-d1fa-4b27-b9c5-c973a61f512a",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "If the characteristic equation of a constant-coefficient ODE a y'' + b y' + c y = 0 has a repeated real root r, a fundamental set of solutions is:",
+  "choices": [
+    "e^{rx} and e^{-rx}",
+    "cos(rx) and sin(rx)",
+    "e^{rx} and e^{2rx}",
+    "e^{rx} and x*e^{rx}"
+  ],
+  "answer": 3,
+  "explanation": "A double root r gives only one exponential e^{rx}; a second independent solution is x*e^{rx}, obtained by reduction of order. The other options correspond to distinct real roots or to complex roots, neither of which occurs for a repeated real root.",
+  "tags": [
+    "characteristic-equation",
+    "repeated-roots",
+    "second-order"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

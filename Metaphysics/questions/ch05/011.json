@@ -1,0 +1,13 @@
+{
+  "question_id": "28b6ebe6-1a12-40ec-918c-1969a8418955",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Lewis defines time travel as a divergence between external time and the traveller's ___ time, the time measured by the aging of their body and the sequence of their experiences along their worldline.",
+  "choices": ["personal", "personal time"],
+  "answer": "personal",
+  "explanation": "Lewis distinguishes external time (the objective B-series order of events) from personal time (proper time along the traveller's worldline), and defines time travel as their divergence in direction, so the traveller ages forward in personal time while moving backward in external time. This lets him treat a time traveller as a four-dimensional worm with an unusually shaped worldline.",
+  "tags": ["time", "time-travel", "lewis", "personal-time"],
+  "difficulty": "intermediate",
+  "generated": true
+}

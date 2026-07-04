@@ -1,0 +1,22 @@
+{
+  "question_id": "133c6dae-6f14-44e1-85b9-fb20de7d8fe2",
+  "chapter": 17,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Curry's paradox (from κ ↔ (T⟨κ⟩ → 0=1)) is significant because it shows that:",
+  "choices": [
+    "the paradox requires the law of excluded middle",
+    "a contradiction can be derived using only the T-schema, conditional rules, and contraction — with no negation at all",
+    "self-reference is impossible in arithmetic",
+    "only three-valued logics can avoid inconsistency"
+  ],
+  "answer": 1,
+  "explanation": "Curry's derivation reaches absurdity (0=1) using the T-schema, →-introduction, modus ponens, and contraction — crucially with NO negation or falsity. This shows semantic paradox is not fundamentally about negation, and it constrains paraconsistent (glut) solutions, which tame negation-inconsistency but must still block Curry by rejecting contraction or detachment.",
+  "tags": [
+    "curry-paradox",
+    "contraction",
+    "negation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

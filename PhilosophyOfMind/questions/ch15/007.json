@@ -1,0 +1,20 @@
+{
+  "question_id": "81301980-2187-43f0-8541-4830d26bc32d",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Even a complete map of the neural correlates of consciousness would, by itself, resolve the hard problem of why those neural processes are accompanied by experience.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. A complete NCC map would tell us which neural processes correlate with consciousness but not why they are accompanied by experience at all; correlation is not explanation, so the hard problem would remain untouched.",
+  "tags": [
+    "ncc",
+    "hard-problem",
+    "consciousness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

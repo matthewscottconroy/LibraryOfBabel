@@ -1,0 +1,19 @@
+{
+  "question_id": "cb598e99-8105-41ea-a0fc-ebb9ef64de14",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The number of distinct left cosets of a subgroup H in G is called the ___ of H in G, written [G:H].",
+  "choices": [
+    "index"
+  ],
+  "answer": "index",
+  "explanation": "Lagrange's theorem reads |G| = |H|·[G:H] for finite G: the cosets partition G into [G:H] pieces of equal size |H|.",
+  "tags": [
+    "groups",
+    "cosets",
+    "index"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

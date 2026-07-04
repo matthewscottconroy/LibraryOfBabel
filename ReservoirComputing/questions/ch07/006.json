@@ -1,0 +1,22 @@
+{
+  "question_id": "a7199bc9-86be-4565-a26e-1b1a30a0b04e",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "How does increasing τ from 17 to 30 affect the Valid Prediction Time (VPT), according to the lab?",
+  "choices": [
+    "VPT increases, because larger τ adds more memory",
+    "VPT is unchanged, because VPT depends only on reservoir size",
+    "VPT decreases, because τ=30 is more chaotic with a shorter predictability horizon",
+    "VPT becomes infinite, because the signal becomes periodic"
+  ],
+  "answer": 2,
+  "explanation": "The lab observes τ=17 (weakly chaotic) gives a longer VPT than τ=30 (more chaotic): larger τ shortens the predictability horizon (1/λ_max, where λ_max grows with τ). More chaos makes prediction harder, not easier.",
+  "tags": [
+    "mackey-glass",
+    "tau",
+    "vpt"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "8706282e-0097-4ebe-892f-6cd4bca11966",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The gauge condition ∂^μ h̄_μν = 0 that this book uses to reduce the linearized field equations to a wave equation is called the ___ gauge.",
+  "choices": [
+    "Lorenz"
+  ],
+  "answer": "Lorenz",
+  "explanation": "The book calls ∂^μ h̄_μν = 0 the Lorenz gauge, the general-relativistic analog of the electromagnetic Lorenz gauge ∂^μ A_μ = 0. In this gauge the linearized Einstein equations become □h̄_μν = −16πG T_μν/c⁴. (The spelling is Lorenz, after Ludvig Lorenz — distinct from the transverse-traceless gauge fixed afterward.)",
+  "tags": [
+    "lorenz-gauge",
+    "linearized-gr"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

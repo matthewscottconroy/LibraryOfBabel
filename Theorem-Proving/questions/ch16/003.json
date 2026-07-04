@@ -1,0 +1,21 @@
+{
+  "question_id": "a439cbdf-6a4a-453e-9a94-70d86882579c",
+  "chapter": 16,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The quantity −log₂ p_i attached to a single outcome x_i is called its:",
+  "choices": [
+    "mutual information",
+    "channel capacity",
+    "surprisal (self-information)",
+    "redundancy"
+  ],
+  "answer": 2,
+  "explanation": "−log₂ p_i is the surprisal (self-information) of outcome x_i — rarer outcomes surprise more — and entropy is its expectation. Mutual information measures shared information between two variables, channel capacity is a maximum transmission rate, and redundancy is the gap between actual and maximal entropy.",
+  "tags": [
+    "surprisal",
+    "self-information"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

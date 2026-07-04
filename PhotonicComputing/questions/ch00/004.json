@@ -1,0 +1,13 @@
+{
+  "question_id": "da841b27-3d17-4d2f-8e83-24e155c058db",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A plane wave in vacuum has peak electric-field amplitude E₀. What is its time-averaged intensity (irradiance)?",
+  "choices": ["I = ε₀ c E₀²", "I = ½ ε₀ c E₀²", "I = 2 ε₀ c E₀²", "I = ¼ ε₀ c E₀²"],
+  "answer": 1,
+  "explanation": "Time-averaging the Poynting vector over one cycle gives I = ½ ε₀ c E₀² = E₀²/(2Z₀), with Z₀ ≈ 377 Ω. The factor of ½ comes from ⟨cos²(ωt)⟩ = ½; dropping it (choice 0) or using 2 or ¼ are exactly the factor-of-two power errors the text warns against.",
+  "tags": ["poynting-vector", "intensity", "plane-waves"],
+  "difficulty": "intermediate",
+  "generated": true
+}

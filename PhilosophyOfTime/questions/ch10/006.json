@@ -1,0 +1,23 @@
+{
+  "question_id": "c7ec8e4f-9ad3-4dbf-9ef5-236a4502482d",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "According to Lewis, what is wrong with the branching-timelines (many-worlds) 'solution' to the grandfather paradox?",
+  "choices": [
+    "It is logically inconsistent, because the traveler must both exist and fail to exist.",
+    "It does not solve the paradox but changes the subject: arriving in the past of a different branch is inter-universe travel, not travel to one's own past.",
+    "It is ruled out because the Everettian many-worlds interpretation has been experimentally refuted.",
+    "It succeeds completely, showing that the grandfather paradox was never a real problem for backward time travel."
+  ],
+  "answer": 1,
+  "explanation": "Lewis's pointed objection is that the branching model substitutes inter-universe travel for backward time travel: the traveler kills her counterpart's grandfather in another branch, not her own grandfather in her own past, so it bypasses rather than answers the question. The branching story is internally consistent, so choice 0 is wrong; his objection is conceptual, not an appeal to any experimental refutation of many-worlds (choice 2); and he denies it is a genuine solution to single-timeline time travel (choice 3).",
+  "tags": [
+    "branching",
+    "many-worlds",
+    "lewis",
+    "changes-the-subject"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

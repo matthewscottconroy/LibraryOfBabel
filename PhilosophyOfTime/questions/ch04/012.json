@@ -1,0 +1,20 @@
+{
+  "question_id": "aff7a13d-737c-4455-867a-9e2a16d45cfd",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The B-theoretic strategy that gives the tensed sentence 'E is present', uttered at time t, the truth condition 'E is simultaneous with this utterance' (that is, 'E occurs at t'), eliminating any appeal to objective A-properties, is called the ___ analysis of tense.",
+  "choices": [
+    "token-reflexive"
+  ],
+  "answer": "token-reflexive",
+  "explanation": "The expected answer is 'token-reflexive'. This analysis (from Reichenbach, developed by Mellor) fixes the truth conditions of tensed statements by relating the event to the token utterance or its time, so no mind-independent pastness, presentness, or futurity is required. It contrasts with the A-theorist's view that 'now' tracks an objectively present time.",
+  "tags": [
+    "token-reflexive",
+    "b-theory",
+    "tense",
+    "indexical"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 14,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In multi-scale modeling of biological systems, properties of the whole system that cannot be predicted from its individual components alone -- such as cell-cycle timing arising from interacting oscillators and checkpoints -- are called ___ properties.",
+  "choices": [
+    "emergent"
+  ],
+  "answer": "emergent",
+  "explanation": "Emergent properties arise from the interactions among a system's components rather than from any single component in isolation -- examples include cell cycle timing (from interacting oscillators and checkpoints), cell polarity (from Turing-like mechanisms), and bet-hedging phenotypic diversity (from stochastic switching). Whole-cell and multi-scale models are specifically valuable because they provide a rigorous, mechanistic way to study how such emergent behaviors arise from lower-level interactions.",
+  "tags": [
+    "emergent-properties",
+    "multiscale-modeling",
+    "whole-cell-model"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "0c8d796d-a441-4db6-a4f1-47c0f37d1b7a"
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "4694186c-f8d0-4e1d-85fd-81efe00d5b93",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the lab, why does the N=50 reservoir often fail to sustain the pattern autonomously while N=500 succeeds?",
+  "choices": [
+    "N=50 has too large a spectral radius to converge during training",
+    "N=50 lacks the dimensionality for the target to be a linear combination of reservoir states",
+    "N=50 makes the covariance P singular so RLS cannot run",
+    "N=50 is trained with a smaller forgetting factor"
+  ],
+  "answer": 1,
+  "explanation": "The lab's key insight is that a reservoir must be large enough for the target trajectory to be expressible as a linear combination of reservoir states; N=50 often lacks that dimensionality. Both sizes share rho = 1.2 and the identical RLS procedure, so spectral radius, P, and forgetting factor are not the cause.",
+  "tags": [
+    "force",
+    "reservoir-size",
+    "dimensionality"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

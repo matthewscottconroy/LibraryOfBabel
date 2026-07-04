@@ -1,0 +1,20 @@
+{
+  "question_id": "2e656089-e362-4fdc-932f-fa1d781c8ad7",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In Nagarjuna's Madhyamaka, the doctrine of the ___ distinguishes conventional truth (samvrti-satya) from ultimate truth (paramartha-satya), and it is what keeps the conclusion that time is empty of intrinsic nature from collapsing into nihilism.",
+  "choices": [
+    "two truths"
+  ],
+  "answer": "two truths",
+  "explanation": "The expected answer is the two truths doctrine. Time is conventionally real (it operates effectively in ordinary life) yet ultimately empty of intrinsic, self-standing nature; holding both levels together is what prevents Madhyamaka from becoming the nihilistic denial that time is anything at all. It should not be conflated with emptiness (sunyata) itself, which is the claim the two-truths framework qualifies.",
+  "tags": [
+    "nagarjuna",
+    "madhyamaka",
+    "two-truths",
+    "emptiness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

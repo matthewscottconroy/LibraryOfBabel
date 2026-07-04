@@ -1,0 +1,19 @@
+{
+  "question_id": "cf969a92-0f76-4048-b4a2-e95db6db0a2a",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Without nonlinear activations, the product of all the layer weight matrices W^(L)...W^(1) collapses to a single ___ matrix (W_eff), so the network has the expressivity of just one layer.",
+  "choices": [
+    "effective"
+  ],
+  "answer": "effective",
+  "explanation": "With f equal to the identity, W^(L)...W^(1) equals a single effective matrix W_eff, so depth adds no expressivity; the nonlinearity is what gives a deep network its power.",
+  "tags": [
+    "deep-learning",
+    "depth-collapse",
+    "linearity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "d44d6a65-ed2e-449f-a853-2aff09ab2c79",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "___ dualism accepts that there is only one kind of substance (physical) but holds that some of its properties — phenomenal properties — are irreducibly non-physical.",
+  "choices": [
+    "property"
+  ],
+  "answer": "property",
+  "explanation": "Property dualism (defended by Chalmers, and by Jackson during his knowledge-argument period) posits one substance with two kinds of properties, in contrast with substance dualism, which posits two kinds of substance. The expected word is 'property.'",
+  "tags": [
+    "property-dualism",
+    "substance-dualism",
+    "phenomenal-properties",
+    "chalmers"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

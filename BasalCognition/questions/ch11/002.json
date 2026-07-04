@@ -1,0 +1,13 @@
+{
+  "question_id": "b7e21c9a-4f65-4d3b-8c17-92a4f0e6d5b1",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Paul Taylor's biocentric ethics grounds the inherent worth of an organism in which of the following?",
+  "choices": ["Its capacity to feel pain and pleasure", "Its role in maintaining ecosystem stability", "Its being a teleological center of life with a good of its own", "Its possession of a nervous system"],
+  "answer": 2,
+  "explanation": "For Taylor, every living thing is a 'teleological center of life' with a good of its own, and that alone confers inherent worth, without requiring sentience. Grounding worth in the capacity to feel pain is the rival sentience-based view; grounding it in ecosystem stability is Leopold's land ethics; a nervous system is not a biocentric criterion at all.",
+  "tags": ["biocentric-ethics", "taylor", "moral-consideration"],
+  "difficulty": "beginner",
+  "generated": true
+}

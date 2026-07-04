@@ -1,0 +1,22 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In shotgun metagenomics, which tool assigns taxonomy to reads using exact k-mer matching against a reference database, rather than a curated set of marker genes?",
+  "choices": [
+    "MetaPhlAn3",
+    "HUMAnN3",
+    "MEGAHIT",
+    "Kraken2"
+  ],
+  "answer": 3,
+  "explanation": "Kraken2 performs taxonomic classification via exact k-mer matching against a reference database. MetaPhlAn3 instead relies on marker-gene-based profiling, HUMAnN3 estimates functional pathway abundance rather than taxonomy, and MEGAHIT is a metagenome assembler, not a taxonomic classifier.",
+  "tags": [
+    "metagenomics",
+    "taxonomic-profiling",
+    "kraken2"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "c568e8f2-5f58-47ec-9e63-76dcd8069774"
+}

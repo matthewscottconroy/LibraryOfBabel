@@ -1,0 +1,13 @@
+{
+  "question_id": "9c1f7a04-3e68-4b2d-81a9-5f0c7e3b6a18",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Channelrhodopsin-2 (ChR2), the primary tool of modern optogenetics, originated as:",
+  "choices": ["A synthetic protein designed from scratch by directed evolution", "A genetically encoded voltage indicator built for imaging neurons", "A photosensory protein in the unicellular alga Chlamydomonas that mediates phototaxis", "A signaling component of the E. coli chemotaxis pathway"],
+  "answer": 2,
+  "explanation": "ChR2 is a blue-light-gated cation channel from the alga Chlamydomonas reinhardtii, where it drives phototaxis, a basal cognitive behavior, before being borrowed by neuroscience. It was discovered in nature rather than designed by directed evolution; it is an actuator, not a voltage indicator (a GEVI); and it is unrelated to the E. coli chemotaxis pathway.",
+  "tags": ["optogenetics", "channelrhodopsin", "emerging-technologies"],
+  "difficulty": "beginner",
+  "generated": true
+}

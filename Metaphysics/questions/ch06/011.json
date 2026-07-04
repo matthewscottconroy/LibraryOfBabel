@@ -1,0 +1,20 @@
+{
+  "question_id": "d666f5f9-00fc-4bd7-b0dd-9570f0b1967e",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Non-reductive physicalists hold that the mental ___ on the physical: there can be no mental difference without some physical difference, even though mental properties are not identical to physical ones.",
+  "choices": [
+    "supervenes",
+    "supervene"
+  ],
+  "answer": "supervenes",
+  "explanation": "Supervenience is the covariance thesis (no mental change without physical change) that lets non-reductive physicalists affirm dependence while denying identity. It is weaker than reduction: it states that the mental covaries with the physical but does not by itself explain why, which is why grounding is often invoked to do the explanatory work.",
+  "tags": [
+    "supervenience",
+    "physicalism",
+    "non-reductive"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

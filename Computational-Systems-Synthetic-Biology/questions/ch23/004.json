@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the self-attention formula Attention(Q, K, V) = softmax(QK^T / sqrt(d_k)) V used in Transformers, what is the key architectural advantage over RNNs?",
+  "choices": [
+    "Attention requires strictly sequential processing, one position at a time",
+    "Attention can only be computed after the entire RNN hidden state has been unrolled",
+    "Every position can attend to every other position in parallel, removing the sequential bottleneck of RNNs",
+    "Attention eliminates the need for any training data"
+  ],
+  "answer": 2,
+  "explanation": "Self-attention allows every position to directly attend to every other position simultaneously, enabling parallel computation and removing the sequential bottleneck that limits RNNs and LSTMs on long sequences. Option 0 actually describes RNN behavior rather than the Transformer advantage, option 1 incorrectly makes attention dependent on RNN unrolling, and option 3 is not meaningful since Transformers still require large training datasets.",
+  "tags": [
+    "machine-learning",
+    "transformers",
+    "self-attention"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "cbe4f1ea-a75f-4f98-a467-f77dcc49ee16"
+}

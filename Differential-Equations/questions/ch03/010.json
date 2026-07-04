@@ -1,0 +1,22 @@
+{
+  "question_id": "e7885a68-ac94-4124-917c-5fab26dc85dd",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Frobenius method seeks a solution of the form y = x^r times a power series about x = 0 when x = 0 is:",
+  "choices": [
+    "an ordinary point",
+    "a regular singular point",
+    "an irregular singular point",
+    "a point at infinity"
+  ],
+  "answer": 1,
+  "explanation": "Frobenius applies at a regular singular point, where x*p(x) and x^2*q(x) are analytic; the exponent r is fixed by the indicial equation. At an ordinary point an ordinary power series (r = 0) suffices, and at an irregular singular point the method generally fails.",
+  "tags": [
+    "frobenius",
+    "regular-singular-point",
+    "series-solutions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

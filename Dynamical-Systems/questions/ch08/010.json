@@ -1,0 +1,19 @@
+{
+  "question_id": "e2b171f9-480e-43a0-9774-9cd1b6b6d50d",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In the thermodynamic formalism, the equilibrium measure maximizing the pressure P(phi) - the dynamical analogue of the canonical ensemble - is the ___ state.",
+  "choices": [
+    "Gibbs"
+  ],
+  "answer": "Gibbs",
+  "explanation": "For a potential phi = -beta E, the pressure-maximizing measure is the Gibbs state, connecting hyperbolic ergodic theory to statistical mechanics.",
+  "tags": [
+    "gibbs-state",
+    "thermodynamic-formalism",
+    "pressure"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "f6bda1cb-a082-44fa-a0e1-d672e6636f11",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the leaky-integrator ESN used in these labs, which weights are adapted during training?",
+  "choices": [
+    "W_rec and W_in are trained by backpropagation through time; W_out is left fixed",
+    "All three of W_rec, W_in, and W_out are optimized jointly",
+    "Only the readout W_out, via ridge regression; W_rec, W_in, and the bias b stay fixed random matrices",
+    "Only W_rec, which is rescaled every epoch to keep the spectral radius below 1"
+  ],
+  "answer": 2,
+  "explanation": "The defining feature of reservoir computing is that only the linear readout W_out is trained (here by ridge regression, W_out = Y X^T (X X^T + lambda I)^-1). W_rec, W_in and b are drawn randomly once and never updated, so options mentioning backprop or joint training of the recurrent/input weights describe conventional RNN training, not an ESN. W_rec is rescaled once at construction (not per epoch) and is not a trainable parameter.",
+  "tags": [
+    "esn",
+    "training",
+    "readout"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

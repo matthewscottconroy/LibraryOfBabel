@@ -1,0 +1,22 @@
+{
+  "question_id": "277bcfa1-7ad3-4f05-9d30-d7e0e810b892",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What does the DeepESN readout receive as input for its ridge-regression fit?",
+  "choices": [
+    "Only the final (top) layer's state vector",
+    "The concatenation of the state vectors from all three layers",
+    "Only the first (bottom) layer's state vector",
+    "The element-wise average of the three layer states"
+  ],
+  "answer": 1,
+  "explanation": "The readout is trained on the concatenation of every layer's states, giving it simultaneous access to the fast (layer 1) and slow (layer 3) representations. Reading only the top or bottom layer (options 0, 2) discards half the timescale hierarchy; averaging (option 3) would destroy the per-layer features rather than let the readout weight them independently.",
+  "tags": [
+    "deep-esn",
+    "readout",
+    "concatenation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

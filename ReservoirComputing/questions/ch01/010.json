@@ -1,0 +1,21 @@
+{
+  "question_id": "cef03d98-2949-4eca-a01a-c327d4689cce",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The logistic-map period-doubling cascade converges geometrically at the universal Feigenbaum constant delta ~ ___ (same for any smooth unimodal map with a quadratic maximum).",
+  "choices": [
+    "4.6692",
+    "4.669",
+    "4.669201609102990"
+  ],
+  "answer": "4.6692",
+  "explanation": "The successive bifurcation gaps shrink by the Feigenbaum ratio delta = (r_n - r_{n-1})/(r_{n+1} - r_n) -> 4.6692..., a universal constant independent of the specific unimodal map.",
+  "tags": [
+    "feigenbaum-constant",
+    "period-doubling",
+    "universality"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

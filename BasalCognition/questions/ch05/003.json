@@ -1,0 +1,18 @@
+{
+  "question_id": "8f3c1d06-9a2e-4b57-8c19-4d7b0e2a6f38",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Mark Fricker's quantitative work on mycelial networks provides strong evidence for functional intelligence in fungi because it shows the networks do what?",
+  "choices": [
+    "Occupy a near-Pareto-optimal region of the efficiency-robustness-cost trade-off via local reinforcement and pruning",
+    "Contain a central controller that plans the entire network in advance",
+    "Grow purely at random, with no relationship to transport efficiency",
+    "Connect nodes only by the single cheapest tree, with no redundancy at all"
+  ],
+  "answer": 0,
+  "explanation": "Fricker's image analysis of real mycelia showed they reach near-Pareto-optimal solutions to the efficiency-robustness-cost trade-off through distributed local rules (reinforce high-flow cords, prune low-flow hyphae) with no central controller (choice 1). The networks are neither random (choice 2) nor a bare minimum-cost tree lacking redundancy (choice 3).",
+  "tags": ["fungal-intelligence", "network-optimization", "fricker", "pareto"],
+  "difficulty": "intermediate",
+  "generated": true
+}

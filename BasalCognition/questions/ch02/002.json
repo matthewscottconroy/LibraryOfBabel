@@ -1,0 +1,13 @@
+{
+  "question_id": "b0d3f6a1-2c7e-4f5b-8a1d-0e4c7f9b3a26",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The dominant bacterial signal transduction architecture, the two-component system (TCS), consists of which two elements?",
+  "choices": ["A sensor histidine kinase that autophosphorylates upon detecting a signal, and a response regulator that receives the phosphoryl group and alters gene expression", "A seven-transmembrane G-protein-coupled receptor and a heterotrimeric G-protein", "A ligand-gated calcium channel and a calmodulin sensor", "A nuclear hormone receptor that binds DNA directly upon ligand binding"],
+  "answer": 0,
+  "explanation": "A two-component system pairs a sensor histidine kinase (which autophosphorylates when it detects an environmental signal) with a response regulator (which is phosphorylated and then activates or represses target genes). Its modular design let evolution diversify sensors and outputs. GPCRs (option 1) and nuclear hormone receptors (option 3) are eukaryotic architectures, and a ligand-gated channel with calmodulin (option 2) is not the canonical bacterial TCS.",
+  "tags": ["two-component-system", "signal-transduction", "histidine-kinase"],
+  "difficulty": "beginner",
+  "generated": true
+}

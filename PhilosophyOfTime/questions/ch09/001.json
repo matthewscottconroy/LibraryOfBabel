@@ -1,0 +1,18 @@
+{
+  "question_id": "f51d68a5-47c1-4b7f-90d1-098dda2bd8c9",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In De Interpretatione 9, Aristotle worries that if the statement 'there will be a sea battle tomorrow' is already determinately true or false today, then the future event is thereby necessitated. What is his own response to this worry?",
+  "choices": [
+    "He accepts the necessity and concludes that deliberation is a performative illusion.",
+    "He denies that the principle of bivalence applies to future contingent statements, so such a statement is neither determinately true nor determinately false now.",
+    "He redefines possibility so that only what is or will actually be the case counts as possible.",
+    "He argues that a timeless God apprehends the outcome, dissolving the appearance of necessity."
+  ],
+  "answer": 1,
+  "explanation": "Aristotle's solution is to deny bivalence for future contingents: a statement about a genuinely open future event is 'indefinite,' neither determinately true nor false, mirroring the openness of the event. Option A is the fatalist conclusion he wants to block, not his view. Collapsing possibility into actuality is Diodorus Cronus's move, and appealing to a timeless God is Boethius's response to theological fatalism, so neither is Aristotle's logical solution.",
+  "tags": ["fatalism", "aristotle", "bivalence", "future-contingents"],
+  "difficulty": "beginner",
+  "generated": true
+}

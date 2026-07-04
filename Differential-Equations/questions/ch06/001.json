@@ -1,0 +1,21 @@
+{
+  "question_id": "f06944a8-0563-4b1d-8ee6-1ed5dfd657db",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "For f = u + i v to be complex-differentiable (analytic), the Cauchy-Riemann equations require:",
+  "choices": [
+    "u_x = -v_y and u_y = v_x",
+    "u_x = v_y and u_y = -v_x",
+    "u_x = v_x and u_y = v_y",
+    "only that u_xx + u_yy = 0"
+  ],
+  "answer": 1,
+  "explanation": "The Cauchy-Riemann equations are u_x = v_y and u_y = -v_x (with the partials continuous). They force u and v to be harmonic conjugates. Laplace's equation for each part is a consequence of analyticity, not the differentiability condition itself.",
+  "tags": [
+    "cauchy-riemann",
+    "analyticity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "6329b56d-e894-4b42-84bd-4a1d8bfbc268",
+  "chapter": 24,
+  "phase": 8,
+  "kind": "blank",
+  "text": "In an $\\mathcal{L}$-structure $\\mathcal{M}$, the non-empty set $M$ on which every constant, function, and relation symbol is interpreted is called the ___ (also called the universe).",
+  "choices": ["domain", "universe"],
+  "answer": "domain",
+  "explanation": "The underlying non-empty set of a structure is its domain (or universe); the interpretations of the language's symbols all live on it. The 'signature' or 'language' is the collection of symbols, not the set they act on, and a 'theory' is a set of sentences, so neither is the domain.",
+  "tags": ["structures", "domain", "interpretation"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 26,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The free, GitHub-integrated repository that automatically archives a project's releases and assigns each a persistent, citable DOI is called ___.",
+  "choices": [
+    "Zenodo"
+  ],
+  "answer": "Zenodo",
+  "explanation": "Zenodo offers free, unlimited archiving with native GitHub integration that automatically creates an archived snapshot (with a DOI) whenever a new release is published, making code, data, and models permanently citable. Figshare provides broadly similar DOI-based archiving but is commercially backed and is not the tool described as free/unlimited with native GitHub release integration.",
+  "tags": [
+    "zenodo",
+    "data-archiving",
+    "doi",
+    "reproducibility"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "fe2c0d9a-39e7-4b5a-990c-38268307232c"
+}

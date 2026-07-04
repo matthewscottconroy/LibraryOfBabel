@@ -1,0 +1,19 @@
+{
+  "question_id": "b8d1f4a9-0c5e-4f3b-8a9d-8e2c5f7b1a04",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Schroedinger argued that living systems maintain their improbable internal order by feeding on ___, the low-entropy, energy-rich material they take in, while expelling high-entropy material, so that the second law of thermodynamics is never violated.",
+  "choices": [
+    "negentropy"
+  ],
+  "answer": "negentropy",
+  "explanation": "The answer is 'negentropy' (negative entropy). A living system imports low-entropy, ordered material and exports high-entropy material, locally maintaining order while increasing the total entropy of the universe. This is why maintaining life requires continual sensing and work, and why no second-law violation occurs.",
+  "tags": [
+    "negentropy",
+    "thermodynamics",
+    "schrodinger"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

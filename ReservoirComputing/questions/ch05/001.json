@@ -1,0 +1,21 @@
+{
+  "question_id": "e1992671-a365-4078-bf9e-c2c04ad705ff",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Jaeger's (2002) bound on the total linear memory capacity of a size-N reservoir with a linear readout states that:",
+  "choices": [
+    "MC <= N, the reservoir size",
+    "MC <= N^2, the square of the reservoir size",
+    "MC is unbounded and grows with the training length",
+    "MC <= rho * N, scaling with the spectral radius"
+  ],
+  "answer": 0,
+  "explanation": "Jaeger's theorem bounds the total linear memory capacity by the number of neurons: MC = sum_k MC_k <= N. Intuitively each neuron can store at most one 'memory unit'. The bound is N, not N^2 or rho*N, and it is finite regardless of how long you train (the labs verify MC <= N empirically).",
+  "tags": [
+    "memory-capacity",
+    "jaeger-bound"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

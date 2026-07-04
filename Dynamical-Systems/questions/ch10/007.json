@@ -1,0 +1,22 @@
+{
+  "question_id": "e679bd82-f4ad-44fb-a0d8-7f90ca1d90ae",
+  "chapter": 10,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The Zimmer program concerns smooth actions on compact manifolds of:",
+  "choices": [
+    "finite groups",
+    "higher-rank lattices (e.g. SL(n,Z), n >= 3)",
+    "the trivial group",
+    "free groups only"
+  ],
+  "answer": 1,
+  "explanation": "Zimmer's conjecture predicts that higher-rank lattices cannot act nontrivially in dimensions below the rank; Brown-Fisher-Hurtado proved it for cocompact lattices in SL(n,R), n >= 3.",
+  "tags": [
+    "zimmer-program",
+    "higher-rank-lattices",
+    "rigidity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "68e6ca97-24d2-4f93-807c-4eb0ded0e5a9",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the standard linear model assumed by Western philosophy and classical physics, temporal positions are ordered so as to be isomorphic to which mathematical structure?",
+  "choices": [
+    "The real number line — a single total order that is transitive, asymmetric, irreflexive, and contains no loops",
+    "A circle (the 1-sphere S¹), so that traveling far enough toward the future brings you back to the past",
+    "A branching tree with a unique past but multiple possible future continuations",
+    "The integers, in which every moment has an immediate successor and an immediate predecessor"
+  ],
+  "answer": 0,
+  "explanation": "The linear model treats time as isomorphic to the real number line: one loopless, total ordering. The circle (option 1) is circular time and the tree (option 2) is branching time — both rival topologies — while the integers (option 3) describe a discrete order-type, a separate question about local structure rather than the standard linear picture.",
+  "tags": ["topology", "linear-time", "temporal-order"],
+  "difficulty": "beginner",
+  "generated": true
+}

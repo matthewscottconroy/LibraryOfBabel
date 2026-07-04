@@ -1,0 +1,13 @@
+{
+  "question_id": "fa65be41-13f9-4c96-b98d-54b7a91e57e5",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The dynamic energy to send a bit over an electrical wire is set by charging its capacitance, E = (1/2)C*V^2. How does this energy scale with wire length and drive voltage?",
+  "choices": ["Independent of length; linear in voltage", "Quadratic in length; linear in voltage", "Linear in length (through capacitance); quadratic in voltage", "Independent of both length and voltage"],
+  "answer": 2,
+  "explanation": "Wire capacitance grows with length, so energy is linear in length, and the V^2 term makes it quadratic in voltage. Lowering V_DD helps quadratically but erodes noise margin; the other options misstate one or both dependencies.",
+  "tags": ["electrical-interconnect", "energy-per-bit", "capacitance"],
+  "difficulty": "beginner",
+  "generated": true
+}

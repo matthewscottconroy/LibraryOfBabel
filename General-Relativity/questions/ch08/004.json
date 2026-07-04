@@ -1,0 +1,13 @@
+{
+  "question_id": "9361d421-e487-4a41-869d-076ed6b0faac",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The equivalence principle holds only locally: in a sufficiently small freely falling frame gravity disappears, but over an extended region tidal forces reveal genuine spacetime curvature that cannot be transformed away by any choice of frame.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "This is true. In a small enough free-fall frame there exist normal coordinates with g_μν(p) = η_μν and Γ^ρ_μν(p) = 0, so locally physics is that of special relativity. Over a finite region the second derivatives of the metric — the Riemann curvature — produce tidal (differential) accelerations that no change of frame can remove, which is the unmistakable signature of real gravity versus a mere accelerated frame.",
+  "tags": ["equivalence-principle", "tidal-forces", "curvature"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "6799c461-247d-43c8-a0d8-66cad8c19b2d",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The spontaneous-emission rate A₂₁ scales as ω³, which is one reason lasers are harder to build at visible wavelengths than in the infrared for similar gain cross-sections.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: A₂₁ = (ℏω³/π²c³)B₂₁, so spontaneous emission grows rapidly with frequency and competes more strongly with stimulated emission at shorter wavelengths. This ω³ scaling is exactly why short-wavelength lasing is comparatively difficult.",
+  "tags": ["einstein-coefficients", "spontaneous-emission", "frequency-scaling"],
+  "difficulty": "intermediate",
+  "generated": true
+}

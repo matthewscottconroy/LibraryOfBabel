@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Retrobiosynthesis, used to design novel biosynthetic pathways, is best described as...",
+  "choices": [
+    "Forward simulation of flux through a genome-scale model to predict growth rate",
+    "Working backward from the target molecule to available precursors, identifying gaps versus the chassis organism's native reactions",
+    "Randomly diversifying an enzyme's active site via error-prone PCR to expand its substrate range",
+    "Directly measuring intracellular metabolite concentrations by LC-MS to infer pathway flux"
+  ],
+  "answer": 1,
+  "explanation": "Retrobiosynthesis works backward from the desired target molecule, tracing precursor requirements back to central metabolism and identifying which reactions are missing in the chassis organism, analogous to retrosynthesis in organic chemistry. Forward flux simulation describes flux balance analysis rather than retrobiosynthesis; error-prone PCR is a directed-evolution diversity-generation method; and LC-MS metabolite measurement is an analytical technique, not a pathway-design strategy.",
+  "tags": [
+    "retrobiosynthesis",
+    "pathway-design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "dfcf9085-5042-4ccd-ab83-fd800f542cc8"
+}

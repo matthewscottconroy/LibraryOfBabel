@@ -1,0 +1,19 @@
+{
+  "question_id": "97853cc3-5422-4682-a922-991dcd3a3eeb",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Proof by contrapositive proves P → Q by instead proving ¬Q → ¬P, justified by the classical equivalence (P → Q) ≡ (¬Q → ¬P).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. This is exactly the contrapositive strategy and its justification; the two implications are logically equivalent, so proving one proves the other. It is distinct from proving the converse Q → P, which is not equivalent to P → Q.",
+  "tags": [
+    "contrapositive",
+    "equivalence"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

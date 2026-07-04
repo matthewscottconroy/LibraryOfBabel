@@ -1,0 +1,18 @@
+{
+  "question_id": "b0c218d2-649e-4b70-b985-d21ebab5ec5f",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is the zero-delay second-order coherence g2(0) of thermal (chaotic) light?",
+  "choices": [
+    "g2(0) = 1",
+    "g2(0) = 2",
+    "g2(0) = 0",
+    "g2(0) = 0.5"
+  ],
+  "answer": 1,
+  "explanation": "Thermal light is bunched with g2(0) = 2, the effect Hanbury Brown and Twiss discovered in 1956. Coherent/laser light gives g2(0) = 1 (choice 0), a single-photon Fock state gives 0 (choice 2), and 0.5 is not a canonical value (choice 3).",
+  "tags": ["g2", "thermal-light", "photon-statistics"],
+  "difficulty": "beginner",
+  "generated": true
+}

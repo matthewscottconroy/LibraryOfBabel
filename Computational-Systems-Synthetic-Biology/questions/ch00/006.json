@@ -1,0 +1,23 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which multiple-testing correction procedure controls the false discovery rate (FDR) and is described as standard practice in genomics, in contrast to a more conservative family-wise-error-rate method?",
+  "choices": [
+    "Bonferroni correction",
+    "Benjamini-Hochberg procedure",
+    "Maximum likelihood estimation",
+    "Bayesian model comparison via Bayes factors"
+  ],
+  "answer": 1,
+  "explanation": "The Benjamini-Hochberg procedure controls the false discovery rate and is explicitly noted as standard practice in genomics, where thousands of hypotheses are often tested at once. Bonferroni instead controls the family-wise error rate and is the more conservative method being contrasted. Maximum likelihood estimation is a parameter-fitting technique, and Bayes factors are used for Bayesian model comparison -- neither is a multiple-testing correction procedure.",
+  "tags": [
+    "statistics",
+    "multiple-testing",
+    "false-discovery-rate",
+    "genomics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "aa60731c-c1b4-4cad-adfa-784ff441e4c4"
+}

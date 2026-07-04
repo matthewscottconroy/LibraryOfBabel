@@ -1,0 +1,23 @@
+{
+  "question_id": "95565edf-8ef4-4eb9-8049-c8c1e049cff0",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the formula ∀x (P(x) → Q(x, z)), which variables are free, and is it a sentence?",
+  "choices": [
+    "x is free; it is a sentence",
+    "both x and z are bound; it is a sentence",
+    "z is free; it is not a sentence (a sentence has no free variables)",
+    "neither variable is free; it is a sentence"
+  ],
+  "answer": 2,
+  "explanation": "x is bound by ∀x, but z occurs free (no quantifier binds it), so the formula has a free variable and is therefore not a sentence. A sentence (closed formula) has no free variables, so the options calling it a sentence (1, 2, 4) are wrong because of the free z.",
+  "tags": [
+    "free-variables",
+    "bound-variables",
+    "sentence",
+    "quantifiers"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

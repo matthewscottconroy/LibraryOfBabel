@@ -1,0 +1,18 @@
+{
+  "question_id": "3c2a2711-2d9e-4d90-8964-158464e8f8af",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A photonic excitable-laser neuron can spike at gigahertz rates. Compared with a biological neuron, this is roughly:",
+  "choices": [
+    "Eight orders of magnitude faster",
+    "About the same speed",
+    "Two orders of magnitude faster",
+    "Eight orders of magnitude slower"
+  ],
+  "answer": 0,
+  "explanation": "The chapter states GHz spiking is roughly eight orders of magnitude faster than a biological neuron, whose membrane time constant is about 10 ms. 'About the same' and 'two orders' badly understate the gap, and 'slower' reverses the comparison entirely.",
+  "tags": ["excitable-lasers", "speed", "photonic-neurons"],
+  "difficulty": "beginner",
+  "generated": true
+}

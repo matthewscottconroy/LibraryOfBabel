@@ -1,0 +1,20 @@
+{
+  "question_id": "1ef7e6ff-42e2-475f-80d3-10be17201b3f",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "tf",
+  "text": "A harmonic function equals its average over any sphere centered at a point of its domain (the mean value property).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Solutions of Laplace's equation satisfy the mean value property: the value at the center equals the average over surrounding spheres or circles. This immediately implies the maximum principle, so harmonic functions attain their extrema on the boundary.",
+  "tags": [
+    "harmonic-functions",
+    "mean-value-property",
+    "laplace"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

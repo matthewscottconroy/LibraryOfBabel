@@ -1,0 +1,19 @@
+{
+  "question_id": "f8dea2df-f579-4edc-bbd3-f637e393e19d",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "det(A + B) = det(A) + det(B) holds for all square matrices A and B.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "det is linear in each ROW separately, not in the whole matrix: already det(I₂ + I₂) = 4 while det(I₂) + det(I₂) = 2. Expanding det(A+B) row by row produces 2ⁿ mixed terms, not two.",
+  "tags": [
+    "determinants",
+    "multilinearity"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

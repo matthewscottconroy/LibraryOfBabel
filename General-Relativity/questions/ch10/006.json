@@ -1,0 +1,22 @@
+{
+  "question_id": "9a9106cc-81e7-4809-895d-a7574f590a7e",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "This book quotes the peak gravitational-wave strain h from GW150914, as measured at Earth, to be of order:",
+  "choices": [
+    "~10⁻²¹",
+    "~10⁻¹¹",
+    "~10⁻³",
+    "~10⁻⁴³"
+  ],
+  "answer": 0,
+  "explanation": "The book gives a dimensionless strain h ~ 10⁻²¹ for GW150914, producing δL = ½hL ~ 2×10⁻¹⁸ m over LIGO's 4 km arms — about 1/500 of a proton diameter. The strain is a fractional length change δL/L, hence dimensionless, and is extraordinarily small.",
+  "tags": [
+    "strain",
+    "ligo",
+    "gw150914"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

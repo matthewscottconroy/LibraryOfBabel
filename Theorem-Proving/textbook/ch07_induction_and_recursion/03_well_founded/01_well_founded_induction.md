@@ -139,4 +139,4 @@ Well-foundedness is not just a technical convenience — it reflects a deep trut
 In constructive mathematics and type theory, well-founded recursion is what gives recursive definitions their *meaning*. A function defined by recursion on a well-founded order is guaranteed to have a unique value at every input — otherwise it would be undefined at elements in a descending chain that never bottoms out.
 
 ## Exercises
-See [problems/ch07_induction/03_well_founded_exercises.md](../../../problems/ch07_induction/03_well_founded_exercises.md)
+See [problems/ch07_induction_and_recursion/03_well_founded_exercises.md](../../../problems/ch07_induction_and_recursion/03_well_founded_exercises.md)

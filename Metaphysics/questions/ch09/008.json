@@ -1,0 +1,19 @@
+{
+  "question_id": "f315d527-3758-4507-849b-b46a6d46d8b6",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "tf",
+  "text": "According to van Fraassen's constructive empiricism, the scientist should positively deny that unobservable entities such as electrons exist.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Constructive empiricism counsels agnosticism, not denial: van Fraassen holds that we cannot know whether electrons exist, so we should suspend judgment rather than assert they do not exist. Positive denial of unobservables would be a stronger, dogmatic position that he explicitly disavows.",
+  "tags": [
+    "constructive-empiricism",
+    "van-fraassen"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "52285acb-6743-4825-ba1e-d5fbe09a8796",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "tf",
+  "text": "The double-dual map V → V** is a natural transformation, whereas the isomorphisms V ≅ V* for finite-dimensional V cannot be chosen naturally.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "v ↦ (f ↦ f(v)) needs no choices and commutes with all linear maps, giving a natural transformation Id ⇒ (−)**. Any V ≅ V* depends on a basis or bilinear form, and no family of such isomorphisms is natural (V ↦ V* is contravariant). This example motivated Eilenberg and Mac Lane to invent category theory.",
+  "tags": [
+    "category-theory",
+    "natural-transformations",
+    "duality"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

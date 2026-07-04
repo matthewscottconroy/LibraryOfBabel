@@ -1,0 +1,22 @@
+{
+  "question_id": "a91284ba-8476-4e8e-ab3e-027ef01923a7",
+  "chapter": 11,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Quantum fingerprinting solves the Equality problem using how many qubits, versus Omega(n) classical bits?",
+  "choices": [
+    "O(n)",
+    "O(log n)",
+    "O(sqrt n)",
+    "O(1)"
+  ],
+  "answer": 1,
+  "explanation": "Buhrman-Cleve-Watrous-de Wolf give an O(log n)-qubit protocol for Equality, an exponential saving over the Omega(n) classical bound.",
+  "tags": [
+    "quantum-communication",
+    "fingerprinting",
+    "equality"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

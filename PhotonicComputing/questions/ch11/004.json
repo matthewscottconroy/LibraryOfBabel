@@ -1,0 +1,18 @@
+{
+  "question_id": "e516fba9-2457-40cd-8368-7a8b0dae1160",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Using the SVD W = U*Sigma*V-dagger, how is a general (non-unitary) matrix realized in an MZI processor?",
+  "choices": [
+    "By a single unitary mesh, since every matrix is unitary",
+    "As mesh (V-dagger) then diagonal attenuators (Sigma) then mesh (U), with singular values normalized by sigma_max and the global scale restored electronically",
+    "By inserting optical amplifiers between MZIs to realize singular values greater than 1",
+    "By running one mesh backward to invert the matrix"
+  ],
+  "answer": 1,
+  "explanation": "SVD factors W into two unitary meshes and a diagonal scaling stage; because passive optics cannot amplify, singular values are normalized by sigma_max (attenuation only) and the overall scale is restored in electronics. Not every matrix is unitary (option 0), passive meshes provide no gain (option 2), and running a mesh backward yields the transpose/adjoint, not a general W (option 3).",
+  "tags": ["svd", "non-unitary", "mzi-mesh"],
+  "difficulty": "intermediate",
+  "generated": true
+}

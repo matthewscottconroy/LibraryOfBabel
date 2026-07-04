@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Keasling group's high-titer artemisinic acid production pathway (mevalonate pathway to amorphadiene to artemisinic acid) was engineered to completion, including the CYP71AV1 oxidation steps, primarily in which host organism?",
+  "choices": [
+    "Escherichia coli only",
+    "Bacillus subtilis",
+    "Saccharomyces cerevisiae",
+    "Pichia pastoris"
+  ],
+  "answer": 2,
+  "explanation": "The complete high-titer pathway, reaching about 25 g/L artemisinic acid, was engineered into Saccharomyces cerevisiae (baker's yeast), which has an endogenous mevalonate pathway well suited to terpenoid production; E. coli was used only for partial-pathway proof-of-concept work. Bacillus subtilis and Pichia pastoris were not the hosts used in this landmark case study.",
+  "tags": [
+    "artemisinin",
+    "keasling",
+    "yeast-engineering"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "72890816-6100-4d88-82e7-476b45939598"
+}

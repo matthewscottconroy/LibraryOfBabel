@@ -1,0 +1,23 @@
+{
+  "question_id": "4a84d3b4-503c-43ce-bab9-f337064cf254",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "To prove φ → ψ by →-introduction in natural deduction, one:",
+  "choices": [
+    "proves φ and proves ψ separately, then pairs them",
+    "derives ⊥ from φ and concludes ¬φ",
+    "assumes φ as a hypothesis, derives ψ, then discharges the assumption of φ",
+    "applies modus ponens to φ and ψ"
+  ],
+  "answer": 2,
+  "explanation": "→-introduction assumes the antecedent φ, derives ψ under that assumption, then DISCHARGES (cancels) the hypothesis to conclude φ → ψ. Option 1 describes ∧-introduction, option 2 describes ¬-introduction, and option 4 misapplies modus ponens (which is an elimination, not introduction, rule).",
+  "tags": [
+    "natural-deduction",
+    "implication",
+    "introduction-rules",
+    "hypothesis-discharge"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "45d315d7-87c7-4a16-beb9-3768a53d61fa",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Fodor's 'asymmetric dependence' account solves the disjunction problem by holding that 'horse' means horse (not horse-or-cow) because:",
+  "choices": [
+    "Cow-caused 'horse' tokens depend on horse-caused 'horse' tokens, but not vice versa",
+    "Horses cause 'horse' tokens more frequently than cows do",
+    "The symbol 'horse' was biologically selected to detect horses",
+    "'horse' carries Shannon information about horses during the learning period"
+  ],
+  "answer": 0,
+  "explanation": "Fodor's asymmetric-dependence theory says 'horse' means horse because the cow-caused error-tokens depend on the horse-to-'horse' law, while that law does not depend on the cow-caused tokens; remove the horse law and the cow-tokens vanish, but not vice versa. Option 1 is a crude frequency account, option 2 is teleosemantics, and option 3 is Dretske's informational semantics - the rival naturalistic responses to the disjunction problem.",
+  "tags": [
+    "asymmetric-dependence",
+    "disjunction-problem",
+    "fodor"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

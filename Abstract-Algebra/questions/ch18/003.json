@@ -1,0 +1,18 @@
+{
+  "question_id": "6b53092b-0a10-4bc1-82a2-a6732b92388b",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The first orthogonality relation states that for irreducible complex representations $V,W$, the inner product $\\langle\\chi_V,\\chi_W\\rangle$ equals:",
+  "choices": [
+    "$\\dim V$ if $V\\cong W$, and $0$ otherwise",
+    "$|G|$ if $V\\cong W$, and $0$ otherwise",
+    "$1$ for all irreducible $V,W$",
+    "$1$ if $V\\cong W$, and $0$ otherwise"
+  ],
+  "answer": 3,
+  "explanation": "Irreducible characters are orthonormal: $\\langle\\chi_V,\\chi_W\\rangle=1$ when $V\\cong W$ and $0$ otherwise. The $\\frac{1}{|G|}$ normalization in $\\langle\\chi,\\psi\\rangle=\\frac{1}{|G|}\\sum_g\\chi(g)\\overline{\\psi(g)}$ is exactly what makes the value $1$ rather than $\\dim V$ or $|G|$; and distinct irreducibles are orthogonal, so it is not identically $1$.",
+  "tags": ["character-theory", "orthogonality", "irreducible"],
+  "difficulty": "intermediate",
+  "generated": true
+}

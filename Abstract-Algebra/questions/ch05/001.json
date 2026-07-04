@@ -1,0 +1,21 @@
+{
+  "question_id": "f2960ca5-5c46-4e2d-a8f4-a31841fa74f8",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the definition of an eigenvector of a linear operator T, the vector v must satisfy:",
+  "choices": [
+    "Tv = λv for some scalar λ, with v ≠ 0",
+    "Tv = λv for some scalar λ, with v allowed to be 0",
+    "Tv = v",
+    "Tv ⊥ v"
+  ],
+  "answer": 0,
+  "explanation": "Eigenvectors are required to be nonzero: since T(0) = λ·0 for every scalar λ, allowing v = 0 would make every scalar an eigenvalue. Tv = v is only the special case λ = 1.",
+  "tags": [
+    "eigenvalues",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

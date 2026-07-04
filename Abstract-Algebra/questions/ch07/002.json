@@ -1,0 +1,21 @@
+{
+  "question_id": "471139d7-5d71-44b4-9307-e6fc233a80e3",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The dual space V* of an F-vector space V consists of:",
+  "choices": [
+    "all linear maps V → F",
+    "all invertible linear maps V → V",
+    "all bilinear maps V × V → F",
+    "all subspaces of V of codimension 1"
+  ],
+  "answer": 0,
+  "explanation": "V* = 𝓛(V, F) is the space of linear functionals (covectors). For finite-dimensional V a choice of basis gives the dual basis e^i with e^i(e_j) = δᵢⱼ, so dim V* = dim V.",
+  "tags": [
+    "dual-space",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

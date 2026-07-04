@@ -1,0 +1,18 @@
+{
+  "question_id": "3d190b52-6a2c-4f81-90e7-4c83a15d2f60",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Skeptical theism (Wykstra, Bergmann) responds to Rowe's evidential argument from evil by attacking which specific inference?",
+  "choices": [
+    "The inference from 'the universe is finely tuned' to 'the universe was designed,' on the ground that a multiverse could account for the tuning.",
+    "The inference from 'God is omnipotent' to 'God can do the logically impossible,' on the ground that omnipotence ranges only over the coherently possible.",
+    "The inference from 'we see no justifying reason for this suffering' to 'there is no justifying reason,' on the ground that God's reasons may lie beyond our cognitive grasp.",
+    "The inference from 'belief in God lacks argumentative support' to 'belief in God is irrational,' on the ground that theism can be properly basic."
+  ],
+  "answer": 2,
+  "explanation": "Skeptical theism targets Rowe's 'no-see-um' step—from not seeing a justifying good to there being none—invoking Wykstra's CORNEA to argue our cognitive limits make that inference unreliable. Distractor 3 is Plantinga's Reformed epistemology, a distinct response aimed at evidentialism about religious belief rather than at Rowe's inference from gratuitous evil.",
+  "tags": ["problem-of-evil", "skeptical-theism", "cornea", "rowe"],
+  "difficulty": "advanced",
+  "generated": true
+}

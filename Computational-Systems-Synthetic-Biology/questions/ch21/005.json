@@ -1,0 +1,21 @@
+{
+  "chapter": 21,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Wang et al. (2016) demonstrated a particularly robust biocontainment strategy in E. coli. What did it involve?",
+  "choices": [
+    "A single auxotrophic mutation blocking synthesis of one amino acid",
+    "A five-layer, multi-layered biocontainment system combining several orthogonal containment mechanisms simultaneously",
+    "A CRISPR-based gene drive restricted to a single laboratory strain",
+    "A protocol requiring all culturing to occur inside a BSL-4 pressure suit"
+  ],
+  "answer": 1,
+  "explanation": "Wang et al. (2016) is cited for demonstrating five-layer biocontainment in E. coli, stacking multiple orthogonal mechanisms so that failure of any single layer does not compromise overall containment. A single auxotrophic mutation is a weaker one-layer approach prone to escape mutants, gene drives are a distinct environmental-release technology, and BSL-4 protocols concern physical facility containment rather than genetic biocontainment engineering.",
+  "tags": [
+    "biocontainment",
+    "multi-layered-containment"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "de474c44-a3d7-44ef-ae63-fd7de73f22e4"
+}

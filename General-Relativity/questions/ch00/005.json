@@ -1,0 +1,19 @@
+{
+  "question_id": "64f2b5ef-317a-4986-ba69-b3597173f145",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The book calls a function f: A → B ___ (onto) when ∀b ∈ B, ∃a ∈ A with f(a) = b — that is, every element of the codomain is achieved.",
+  "choices": [
+    "surjective",
+    "onto"
+  ],
+  "answer": "surjective",
+  "explanation": "The book defines surjective (onto) as the condition ∀b ∈ B ∃a ∈ A, f(a) = b, so every codomain element is an image. This differs from injective (distinct inputs give distinct outputs) and from bijective (both injective and surjective at once).",
+  "tags": [
+    "set-theory",
+    "functions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

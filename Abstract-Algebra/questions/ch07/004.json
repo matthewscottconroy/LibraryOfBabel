@@ -1,0 +1,21 @@
+{
+  "question_id": "cd61902f-2c8a-418d-a2d4-21e4060caaa1",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For dim V = 4, what is the dimension of the exterior power ⋀²V?",
+  "choices": [
+    "4",
+    "6",
+    "8",
+    "16"
+  ],
+  "answer": 1,
+  "explanation": "A basis is {eᵢ ∧ eⱼ : i < j}, giving C(4,2) = 6. In general dim ⋀ᵏV = C(n,k), which vanishes for k > n — wedging more vectors than the dimension always gives 0.",
+  "tags": [
+    "exterior-algebra",
+    "dimension"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

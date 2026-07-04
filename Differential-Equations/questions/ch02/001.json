@@ -1,0 +1,22 @@
+{
+  "question_id": "4eb045e4-a11d-4b72-9fe9-e6331ce478c2",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For any twice-continuously-differentiable vector field F, the identity div(curl F) equals:",
+  "choices": [
+    "the Laplacian of F",
+    "curl F",
+    "0",
+    "grad(div F)"
+  ],
+  "answer": 2,
+  "explanation": "The divergence of a curl is identically zero: div(curl F) = 0. Likewise curl(grad f) = 0. Both identities reflect the fact that applying the exterior derivative twice gives zero (d^2 = 0).",
+  "tags": [
+    "vector-identities",
+    "divergence",
+    "curl"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

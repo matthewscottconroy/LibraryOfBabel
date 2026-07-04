@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "CRISPRi (dCas9 combined with a targeting sgRNA) represses gene expression primarily through which mechanism?",
+  "choices": [
+    "Catalytic cleavage of the target DNA strand by the dCas9 nuclease domain",
+    "Recruitment of a VP64 or VPR transcriptional activation domain to the target promoter",
+    "Steric blockade of RNA polymerase elongation, with Rho-dependent termination occurring when the coding strand is targeted",
+    "Base-pairing of the sgRNA directly with the target mRNA to trigger RNase-mediated mRNA degradation, similar to a small regulatory RNA"
+  ],
+  "answer": 2,
+  "explanation": "CRISPRi represses transcription by using dCas9-sgRNA to sterically block RNA polymerase, and when the coding strand is targeted, this can additionally trigger Rho-dependent termination of the stalled polymerase. Choice 0 is a common but incorrect conflation of CRISPRi with CRISPR/Cas9 gene editing -- dCas9 is deliberately catalytically dead and cannot cleave DNA. Choice 1 instead describes CRISPRa (CRISPR activation), which uses dCas9 fused to activation domains such as VP64 or VPR to increase, not decrease, expression. Choice 3 describes the mechanism of Hfq-dependent small regulatory RNAs, which act post-transcriptionally on mRNA -- a distinct regulatory layer from CRISPRi's DNA-level action.",
+  "tags": [
+    "crispri",
+    "dcas9",
+    "transcriptional-repression"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "d918538c-fa98-4ffd-8f69-2428930750c8"
+}

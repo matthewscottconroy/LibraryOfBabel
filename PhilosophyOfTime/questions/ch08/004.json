@@ -1,0 +1,18 @@
+{
+  "question_id": "a5562866-696b-45b8-9892-a93045d1c8e3",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Hobbes's variant of the Ship of Theseus, the ship reassembled from all the original planks (Ship B) has its strongest claim to be the original on the basis of which criterion?",
+  "choices": [
+    "Continuous spatiotemporal history in the harbor",
+    "Functional continuity as the ship used for the annual voyage",
+    "Causal-historical continuity through gradual, uninterrupted repair",
+    "Material identity — being composed of the very same planks arranged in the same way"
+  ],
+  "answer": 3,
+  "explanation": "Ship B consists of exactly the original planks in their original arrangement, so its claim rests on material identity. The other three options — spatiotemporal, functional, and causal-historical continuity — are precisely the criteria that favor Ship A, the continuously maintained ship in the harbor. The puzzle is sharp because these criteria, normally aligned, here point to two different ships.",
+  "tags": ["ship-of-theseus", "hobbes", "material-identity", "persistence"],
+  "difficulty": "intermediate",
+  "generated": true
+}

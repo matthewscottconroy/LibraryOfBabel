@@ -1,0 +1,23 @@
+{
+  "question_id": "4f98df59-85e7-429d-92b5-d2e8ed954ca4",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Nozick's 'experience machine' thought experiment is standardly deployed as an objection to...",
+  "choices": [
+    "psychological-continuity theories of personal identity",
+    "hedonism about well-being (the view that well-being consists solely in pleasant experience)",
+    "compatibilism about free will",
+    "the mind-brain identity theory"
+  ],
+  "answer": 1,
+  "explanation": "If we would decline a machine guaranteeing maximally pleasant experiences, we apparently value things beyond felt pleasure -- reality, actually doing and being certain things -- which tells against hedonism about well-being. The thought experiment is not aimed at personal-identity theories, compatibilism, or the identity theory of mind.",
+  "tags": [
+    "experience-machine",
+    "nozick",
+    "hedonism",
+    "well-being"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "ee2f6b12-e2d0-492d-88b9-f0073df32c4c",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The 'thinking animal' (or 'too many thinkers') argument is used to support animalism. How does it run?",
+  "choices": [
+    "Since animals cannot think, you are not an animal but a psychological subject",
+    "There is a human animal in your chair that thinks; if you were a subject distinct from that animal, there would be two thinkers sharing your thoughts, so the simpler view is that you are the animal",
+    "Because your cells are wholly replaced over time, no animal persists, so identity must be psychological",
+    "Since fission produces two thinkers, thought cannot ground identity"
+  ],
+  "answer": 1,
+  "explanation": "The argument presses that positing a person distinct from the co-located, equally-thinking organism yields an absurd overcrowding of thinkers; identifying the person with the animal dissolves it. Option 0 denies animals think, which the argument affirms; option 2 is a bodily-change worry animalism actually answers (life, not matter, persists); option 3 misapplies the fission case.",
+  "tags": [
+    "thinking-animal",
+    "too-many-thinkers",
+    "animalism",
+    "olson"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

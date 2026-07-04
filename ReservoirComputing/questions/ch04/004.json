@@ -1,0 +1,21 @@
+{
+  "question_id": "ca2a656e-e289-41a2-a3aa-776b9ae87a38",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Using the linear estimate tau_mem ~ 1/(1 - rho) with leak rate alpha = 1, a reservoir with rho = 0.9 has an effective memory horizon of about:",
+  "choices": [
+    "1 step",
+    "90 steps",
+    "10 steps",
+    "100 steps"
+  ],
+  "answer": 2,
+  "explanation": "tau_mem ~ 1/(1 - 0.9) = 1/0.1 = 10 steps, matching the ~10-step dependency of NARMA-10 (hence rho ~ 0.9 is a good match). 100 steps corresponds to rho = 0.99, 1 step to very small rho, and '90 steps' is a distractor from misreading 0.9*100.",
+  "tags": [
+    "spectral-radius",
+    "memory-timescale"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "86d275a5-438e-4e30-b60d-756d350deadb",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Tom Regan's rights-based animal ethics differs from Peter Singer's chiefly in that Regan grounds moral status in...",
+  "choices": [
+    "the capacity to suffer, aggregated within a utilitarian calculus of interests",
+    "membership in the biological species Homo sapiens",
+    "being a 'subject-of-a-life' with inherent value that cannot be traded off against aggregate utility",
+    "the possession of language and Kantian rational autonomy"
+  ],
+  "answer": 2,
+  "explanation": "Regan grounds status in being a subject-of-a-life (beliefs, desires, memory, a welfare), which confers inherent value resisting utilitarian trade-offs. The first option is Singer/Bentham's sentience utilitarianism; species membership is what both reject as speciesism; language and rationality is the personhood criterion Bentham set aside with 'Can they suffer?'",
+  "tags": [
+    "moral-status",
+    "regan",
+    "subject-of-a-life"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

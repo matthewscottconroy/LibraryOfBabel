@@ -1,0 +1,13 @@
+{
+  "question_id": "fe03b0bb-de04-4223-abd4-37d5b11ceff6",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "tf",
+  "text": "According to the book, two events that are simultaneous in one inertial frame are, in general, not simultaneous in another frame moving relative to the first (unless the events occur at the same spatial location).",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "This is the relativity of simultaneity, which the book calls the most counterintuitive aspect of SR. Simultaneity is frame-dependent; only when two events share the same spatial location do all frames agree they are simultaneous. It resolves the ladder and twin 'paradoxes' and is the origin of length contraction.",
+  "tags": ["simultaneity", "lorentz", "frame-dependence"],
+  "difficulty": "beginner",
+  "generated": true
+}

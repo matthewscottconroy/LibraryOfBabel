@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why must long-range electrostatic interactions in MD simulations typically be handled with Particle Mesh Ewald (PME) rather than a simple distance cutoff?",
+  "choices": [
+    "Coulomb interactions decay only as 1/r, too slowly to truncate accurately, so PME splits the calculation into real-space and reciprocal-space sums for roughly O(N log N) efficiency",
+    "PME is required only for coarse-grained simulations using MARTINI beads",
+    "Simple distance cutoffs are more accurate than PME for every kind of system",
+    "Electrostatic interactions decay exponentially, so a cutoff of about 2 angstroms is always sufficient"
+  ],
+  "answer": 0,
+  "explanation": "Coulomb interactions decay slowly, as 1/r, so naive truncation introduces significant artifacts; PME implements the Ewald sum efficiently by splitting it into short-range real-space and long-range reciprocal-space components, reducing cost from about O(N^1.5) to O(N log N). PME is standard for atomistic (not just coarse-grained) simulations, simple cutoffs are generally less accurate for charged or polar systems, and electrostatics do not decay exponentially.",
+  "tags": [
+    "molecular-dynamics",
+    "electrostatics",
+    "pme"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "a40b3647-5abb-4d0a-8f60-97264cde36fc"
+}

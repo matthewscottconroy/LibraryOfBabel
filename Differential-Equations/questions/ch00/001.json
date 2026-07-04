@@ -1,0 +1,22 @@
+{
+  "question_id": "fc291614-3fb9-49b2-9412-014979451be2",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The completeness axiom that distinguishes the real numbers from the rationals states that:",
+  "choices": [
+    "Between any two distinct real numbers there lies a rational number",
+    "Every Cauchy sequence of rational numbers converges to a rational number",
+    "Every nonempty set of reals that is bounded above has a least upper bound in R",
+    "Every bounded sequence of reals is monotone"
+  ],
+  "answer": 2,
+  "explanation": "The completeness (least-upper-bound) axiom says every nonempty bounded-above set of reals has a supremum in R; this is exactly what Q lacks. The statement about Cauchy sequences of rationals is false, since such a sequence can converge to an irrational like sqrt(2). Density of Q and the false monotonicity claim are unrelated properties.",
+  "tags": [
+    "completeness",
+    "real-numbers",
+    "supremum"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

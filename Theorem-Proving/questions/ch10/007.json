@@ -1,0 +1,22 @@
+{
+  "question_id": "53bb2d47-65d2-401e-b2d9-6d1df85eee6d",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The simply typed lambda calculus (with only arrow types) corresponds, under Curry–Howard, to which logic?",
+  "choices": [
+    "classical first-order logic",
+    "full second-order logic",
+    "the implicational fragment of minimal/intuitionistic propositional logic",
+    "modal logic S5"
+  ],
+  "answer": 2,
+  "explanation": "STLC corresponds exactly to the implication fragment of minimal/intuitionistic propositional logic: λ-abstraction is →-introduction, application is →-elimination, and strong normalization is cut elimination. System F, not STLC, corresponds to second-order logic (B); classical logic (A) needs extra principles like LEM; S5 (D) is unrelated.",
+  "tags": [
+    "curry-howard",
+    "simply-typed-lambda-calculus",
+    "intuitionistic-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

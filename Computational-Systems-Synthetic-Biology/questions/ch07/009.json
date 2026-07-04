@@ -1,0 +1,19 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In tandem mass spectrometry of peptides, C-terminal fragment ions are called ___ ions, while N-terminal fragments are called b-ions.",
+  "choices": [
+    "y-ions"
+  ],
+  "answer": "y-ions",
+  "explanation": "y-ions retain the C-terminus of the peptide after backbone fragmentation, while b-ions retain the N-terminus; together, the ladder of b- and y-ion masses allows the amino acid sequence to be read directly from the fragmentation spectrum.",
+  "tags": [
+    "mass-spectrometry",
+    "tandem-ms",
+    "fragment-ions"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "e240019a-e7db-432e-bb86-02b238bdec9b"
+}

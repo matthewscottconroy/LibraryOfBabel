@@ -1,0 +1,22 @@
+{
+  "question_id": "7ed6dc48-cecf-4446-84cc-0dd16f8822c1",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For torque-free rotation of a rigid body with distinct principal moments I₁ < I₂ < I₃, the tennis-racket (intermediate-axis) theorem states that steady rotation is:",
+  "choices": [
+    "stable about all three principal axes",
+    "unstable about all three principal axes",
+    "stable about the smallest- and largest-moment axes, but unstable about the intermediate axis",
+    "stable only about the intermediate-moment axis"
+  ],
+  "answer": 2,
+  "explanation": "The book's tennis-racket theorem says torque-free rotation about the smallest (I₁) and largest (I₃) principal axes is stable, whereas rotation about the intermediate axis (I₂) is unstable and makes the body tumble. Rotation is therefore neither uniformly stable nor uniformly unstable, and the intermediate axis is precisely the unstable one — the opposite of the last option.",
+  "tags": [
+    "rigid-body",
+    "euler-equations",
+    "stability"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

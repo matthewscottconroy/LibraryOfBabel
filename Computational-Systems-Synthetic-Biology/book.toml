@@ -1,0 +1,34 @@
+# Build manifest for the Computational Systems & Synthetic Biology curriculum.
+# curriculum/ nests tier -> unit -> chapter -> section -> subsection with intro.md
+# for directory intros and content.md for leaves.  The tier capstones, bridges,
+# glossary and resources sit at the book root; the seven "cathedrals" are
+# capstone projects (overview.md first).
+title = "Computational Systems and Synthetic Biology"
+subtitle = "A Tiered Curriculum from Bedrock to Research"
+
+# overview.md is the intro file inside cathedrals/.
+intro_names = ["overview.md"]
+
+front_matter = [
+    "learning-sequence.md",
+]
+back_matter = [
+    "tier-0-bedrock-capstone.md",
+    "tier-0-to-tier-1-bridge.md",
+    "tier-1-bioinformatics-capstone.md",
+    "tier-1-to-tier-2-bridge.md",
+    "tier-2-systems-biology-capstone.md",
+    "tier-2-to-tier-3-bridge.md",
+    "tier-3-synthetic-biology-capstone.md",
+    "glossary.md",
+    "resources.md",
+]
+
+[[sources]]
+root = "curriculum"
+recursive = true
+part_level = 1   # tier-0 .. tier-5 become \part
+
+[[sources]]
+root = "cathedrals"
+recursive = true

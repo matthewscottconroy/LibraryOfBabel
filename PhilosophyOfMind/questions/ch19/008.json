@@ -1,0 +1,20 @@
+{
+  "question_id": "343d7baa-4a99-42cb-a51c-81b779d26ea3",
+  "chapter": 19,
+  "phase": 6,
+  "kind": "tf",
+  "text": "Dennett's heterophenomenology takes subjects' introspective reports at face value as infallible descriptions of their inner experience.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: heterophenomenology treats reports as data about what subjects believe about their experience, to be interpreted, precisely NOT as transparent or infallible windows on inner reality. Taking reports at face value is the classical introspectionist stance Dennett rejects.",
+  "tags": [
+    "heterophenomenology",
+    "dennett",
+    "introspection"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

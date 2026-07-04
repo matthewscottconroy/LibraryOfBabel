@@ -1,0 +1,13 @@
+{
+  "question_id": "e1a4c7d2-3f8b-4c6e-9d2a-1b5f8c0e4d37",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Michael Levin's concept of the 'cognitive light cone' refers to:",
+  "choices": ["The wavelength range of light a photoreceptor cell can absorb", "The spatial and temporal scale over which an agent's goal-directed actions are coherent", "The cone cells of the retina responsible for color vision", "The maximum speed at which an action potential can propagate"],
+  "answer": 1,
+  "explanation": "Levin defines the cognitive light cone as the spatiotemporal scale over which a system can pursue coherent goals: micrometers and milliseconds for a bacterium, kilometers and years for a human. He argues bioelectric signaling and gap-junctional coupling expand the light cone of multicellular collectives beyond what individual cells could achieve. The other options are literal 'light' or 'cone' distractors with no connection to the concept.",
+  "tags": ["cognitive-light-cone", "levin", "bioelectricity"],
+  "difficulty": "intermediate",
+  "generated": true
+}

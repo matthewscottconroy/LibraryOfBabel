@@ -1,0 +1,18 @@
+{
+  "question_id": "4e8b925d-666f-421e-9da7-2fef8ecda8fc",
+  "chapter": 17,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Specifying a representation of $G$ on $V$ over $k$ is the same data as making $V$ a module over:",
+  "choices": [
+    "the field $k$",
+    "the group $GL(V)$",
+    "the endomorphism ring $\\mathrm{End}_k(V)$",
+    "the group algebra $k[G]$"
+  ],
+  "answer": 3,
+  "explanation": "The key insight of the chapter is that a representation is exactly a left $k[G]$-module, via $g\\cdot v=\\rho(g)(v)$. Every vector space is already a $k$-module, so that choice carries no group data; $GL(V)$ is a group, not a ring to take modules over; and $\\mathrm{End}_k(V)$ is the target of the associated ring homomorphism, not the ring $V$ is a module over here.",
+  "tags": ["representations", "group-algebra", "module"],
+  "difficulty": "beginner",
+  "generated": true
+}

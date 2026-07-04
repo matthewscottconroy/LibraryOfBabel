@@ -1,0 +1,22 @@
+{
+  "question_id": "127f7758-ac04-47f2-917a-a51d4efdfb30",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In Jackson's knowledge argument, Mary learns all physical facts about colour in a black-and-white room, then sees red. The 'ability hypothesis' (Lewis, Nemirow) replies that Mary:",
+  "choices": [
+    "learns a new non-physical fact, so physicalism is false.",
+    "gains no new propositional knowledge but new abilities to recognize, imagine, and remember red, so no non-physical fact is learned.",
+    "already knew what red looks like, so on seeing it she learns nothing whatever.",
+    "acquires a new phenomenal concept that refers to an old physical fact under a new mode of presentation."
+  ],
+  "answer": 1,
+  "explanation": "The ability hypothesis concedes Mary gains something but reconstrues it as know-how (recognizing, imagining, remembering) rather than knowledge of a new fact, blocking the anti-physicalist conclusion. 'Learns a new non-physical fact' is Jackson's own dualist reading (the argument's conclusion), while the 'new phenomenal concept' reply is the distinct phenomenal concept strategy of Loar and Papineau.",
+  "tags": [
+    "knowledge-argument",
+    "mary",
+    "qualia"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

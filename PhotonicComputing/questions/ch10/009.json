@@ -1,0 +1,19 @@
+{
+  "question_id": "cbfcee1e-ece9-427a-8d09-5f95b6034187",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Optical correlators built from 4f processors were first developed in the ___ (decade) for character recognition and pattern matching, predating the phrase 'photonic computing' by decades.",
+  "choices": [
+    "1960s"
+  ],
+  "answer": "1960s",
+  "explanation": "The chapter states optical correlation systems using 4f processors were developed in the 1960s (VanderLugt's 1964 paper is foundational) for character recognition and pattern matching, before the FFT algorithm matured and Moore's Law accelerated digital processing.",
+  "tags": [
+    "fourier-optics",
+    "history",
+    "optical-correlation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

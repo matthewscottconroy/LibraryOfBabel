@@ -1,0 +1,18 @@
+{
+  "question_id": "fda81023-35d6-435b-bed2-5fd41df843da",
+  "chapter": 27,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Landauer's principle sets the cost of erasing one bit at about 3 x 10^-21 J at room temperature. Where does a real photonic (or digital) multiply-accumulate sit relative to this floor?",
+  "choices": [
+    "Right at the floor; photonic MACs already operate at the Landauer limit",
+    "Below the floor, because lossless unitary optics is reversible",
+    "Exactly one order of magnitude above it",
+    "About 8 to 10 orders of magnitude above it, dominated by data conversion, laser, and interconnect costs"
+  ],
+  "answer": 3,
+  "explanation": "A real MAC dissipates on the order of 0.1 to 1 pJ, some 8 to 10 orders of magnitude above the roughly 3 x 10^-21 J Landauer floor, with the gap dominated by data conversion, laser overhead, and interconnect, not thermodynamics. Machines are nowhere near the floor, do not sit below it, and the gap is far larger than a single order of magnitude.",
+  "tags": ["landauer-limit", "energy", "fundamental-limits"],
+  "difficulty": "intermediate",
+  "generated": true
+}

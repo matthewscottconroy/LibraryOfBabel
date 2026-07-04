@@ -1,0 +1,22 @@
+{
+  "question_id": "694a60c7-f135-4c85-a945-74d160c11509",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Lewis's argument from temporary intrinsics uses temporal parts to explain how:",
+  "choices": [
+    "two objects can be composed of exactly the same simples at a time.",
+    "composition is restricted to objects whose parts constitute a life.",
+    "a persisting object can bear incompatible properties (being straight on Monday and bent on Tuesday) without contradiction, because distinct temporal parts bear the incompatible properties.",
+    "an object retains numerical identity precisely by having all of its parts essentially."
+  ],
+  "answer": 2,
+  "explanation": "The temporary intrinsics problem is that one enduring thing seemingly has incompatible intrinsic properties (straight and bent); perdurantism resolves it by assigning straightness simpliciter to the Monday-stage and bentness simpliciter to the Tuesday-stage, which are distinct temporal parts. The other options describe unrelated mereological debates (coincidence, organicism, mereological essentialism).",
+  "tags": [
+    "four-dimensionalism",
+    "temporal-parts",
+    "temporary-intrinsics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

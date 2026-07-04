@@ -1,0 +1,20 @@
+{
+  "question_id": "3a5aa08b-dd7e-4b1d-a738-bc56a5faf6d5",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Frans de Waal argues that 'anthropodenial' -- refusing on principle to attribute human-like characteristics to animals -- is itself a form of bias rather than a neutral scientific default.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "De Waal treats anthropomorphism and anthropodenial as symmetrical biases: the former over-attributes human-like experience, the latter systematically under-attributes it to preserve a sharp human/animal boundary. Given evolutionary continuity he regards anthropodenial as empirically implausible for closely related species, so the statement is true.",
+  "tags": [
+    "de-waal",
+    "anthropodenial",
+    "anthropomorphism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

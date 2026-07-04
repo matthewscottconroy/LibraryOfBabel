@@ -1,0 +1,19 @@
+{
+  "question_id": "5f0c9a37-6b21-4e84-93d5-7a2f1c0b8e64",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Michael Levin's principle of ___ cognition holds that the same cognitive algorithms are instantiated at every level of biological organization, from subcellular to colony, differing in implementation, speed, and integration rather than in logical kind.",
+  "choices": [
+    "scale-free"
+  ],
+  "answer": "scale-free",
+  "explanation": "Scale-free cognition is Levin's proposal that the same sense-integrate-act algorithms recur at every level of organization (subcellular, cellular, tissue, organ, organism, colony), changing in physical substrate but not in logical structure. It dissolves the apparent gap between 'simple' and 'complex' cognition.",
+  "tags": [
+    "scale-free-cognition",
+    "levin",
+    "synthesis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

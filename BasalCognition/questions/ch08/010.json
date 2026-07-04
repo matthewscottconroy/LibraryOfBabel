@@ -1,0 +1,19 @@
+{
+  "question_id": "5c7e9b1d-3f5a-4c7e-b9d1-6a8c0e2f4b89",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Pamela Lyon's 2006 approach to minimal cognition, named to contrast with 'neurogenic' views and arguing that the criteria used to attribute cognition to animals apply equally to bacteria, is called the ___ approach.",
+  "choices": [
+    "biogenic"
+  ],
+  "answer": "biogenic",
+  "explanation": "The biogenic approach places the floor of cognition at least as low as bacterial chemotaxis: if behavioral and functional criteria (integration of signals, flexible goal-directed response) make animals cognitive, those same criteria make bacteria cognitive, differing in degree rather than kind. It is explicitly opposed to neurocentrism, the assumption that nervous systems are necessary for cognition.",
+  "tags": [
+    "biogenic-approach",
+    "minimal-cognition",
+    "lyon"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

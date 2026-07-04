@@ -1,0 +1,22 @@
+{
+  "question_id": "55c1567c-f85c-4959-a219-68bef2b49df9",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Tarski's theorem characterizes the models of General Extensional Mereology (GEM) as exactly:",
+  "choices": [
+    "arbitrary partial orders",
+    "complete Boolean algebras with the bottom (zero) element removed",
+    "complete lattices possessing both a top and a bottom element",
+    "atomic Boolean algebras only"
+  ],
+  "answer": 1,
+  "explanation": "Tarski (1935) showed GEM's models are precisely complete Boolean algebras with the bottom element deleted — the excised zero being the absent null individual. Plain partial orders are only models of the weak system M; GEM keeps no bottom (option 2 wrong); and GEM is neutral on atomicity, so it is not restricted to atomic algebras (option 3 wrong).",
+  "tags": [
+    "tarski",
+    "boolean-algebra",
+    "gem"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "8a3d6c1f-9b25-4e7c-a904-3d1f7b8e6c52",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "blank",
+  "text": "A complete map of all the neurons and their synaptic connections in a nervous system, first produced for C. elegans by White et al. (1986), is called a ___.",
+  "choices": [
+    "connectome"
+  ],
+  "answer": "connectome",
+  "explanation": "The answer is 'connectome'. The C. elegans connectome mapped all 302 neurons and their synaptic connections, but it describes only the anatomical substrate; understanding behavior also requires knowing synaptic strengths, neuromodulatory state, and the dynamics of neural activity.",
+  "tags": [
+    "connectome",
+    "c-elegans",
+    "white-1986"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

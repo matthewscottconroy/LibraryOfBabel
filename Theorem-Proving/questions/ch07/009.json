@@ -1,0 +1,19 @@
+{
+  "question_id": "d935d718-a522-4572-9b50-702fe459ede6",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "By definition, a ≡ b (mod m) means that m divides the difference ___.",
+  "choices": [
+    "a − b"
+  ],
+  "answer": "a − b",
+  "explanation": "Congruence modulo m is defined by m ∣ (a − b); equivalently, a and b leave the same remainder on division by m. This is an equivalence relation whose classes form ℤ/mℤ.",
+  "tags": [
+    "congruence",
+    "modular-arithmetic",
+    "definition"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

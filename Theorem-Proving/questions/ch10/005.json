@@ -1,0 +1,19 @@
+{
+  "question_id": "b7358e94-d9b0-4fe7-9482-12aec6256549",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The computation step of the lambda calculus is ___: (λx. e) t → e[t/x], substituting the argument t for the bound variable x in the body.",
+  "choices": [
+    "β-reduction"
+  ],
+  "answer": "β-reduction",
+  "explanation": "β-reduction is the fundamental computation rule, (λx.e) t → e[t/x], using capture-avoiding substitution. By contrast α-renaming just renames bound variables and η concerns extensionality. The expected term is 'β-reduction' (beta-reduction).",
+  "tags": [
+    "beta-reduction",
+    "lambda-calculus",
+    "substitution"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

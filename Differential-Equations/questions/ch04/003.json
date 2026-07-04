@@ -1,0 +1,19 @@
+{
+  "question_id": "37a062e8-e0c8-4569-9fa8-36506b449b47",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "blank",
+  "text": "___ identity states that the sum of the squares of the Fourier coefficients equals the mean square (energy) of the function.",
+  "choices": [
+    "Parseval's"
+  ],
+  "answer": "Parseval's",
+  "explanation": "Parseval's identity expresses conservation of energy between a function and its spectrum and is the Fourier-series form of the Pythagorean theorem in the infinite-dimensional space L^2. Its integral-transform analogue is Plancherel's theorem.",
+  "tags": [
+    "parseval",
+    "energy",
+    "fourier-series"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

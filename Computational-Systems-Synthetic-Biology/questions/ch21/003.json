@@ -1,0 +1,21 @@
+{
+  "chapter": 21,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which of the following is one of the seven categories of Dual-Use Research of Concern (DURC) defined by the NSABB and NIH?",
+  "choices": [
+    "Research reasonably anticipated to enhance the transmissibility of a pathogen",
+    "Research that improves diagnostic test turnaround time",
+    "Research that reduces the manufacturing cost of an existing therapeutic",
+    "Research that increases public availability of vaccine formulations"
+  ],
+  "answer": 0,
+  "explanation": "Enhancing pathogen transmissibility is explicitly one of the seven DURC categories of concern, alongside enhancing virulence, increasing resistance to therapeutics, altering host range, evading detection, enabling weaponization, or disrupting ecosystems. Improving diagnostics, reducing costs, and expanding vaccine access are beneficial research goals, not concerning dual-use categories.",
+  "tags": [
+    "biosecurity",
+    "durc"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "44166c80-ddee-42da-9eb1-66c9904a3fa7"
+}

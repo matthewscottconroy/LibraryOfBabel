@@ -1,0 +1,22 @@
+{
+  "question_id": "66f18f62-39e2-4f75-8fe3-9a76e52ff3fa",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "By the book's rule for negating quantified statements, ¬(∀x P(x)) is equivalent to:",
+  "choices": [
+    "∀x ¬P(x)",
+    "∃x ¬P(x)",
+    "∃x P(x)",
+    "¬∃x ¬P(x)"
+  ],
+  "answer": 1,
+  "explanation": "The book gives ¬(∀x P(x)) ≡ ∃x ¬P(x): swap ∀ to ∃ and negate the predicate, producing a counterexample. The book explicitly flags ∀x ¬P(x) ('for none') as the classic 'not all means none' error; ∃x P(x) forgets to negate the predicate; and ¬∃x ¬P(x) is equivalent to the original ∀x P(x).",
+  "tags": [
+    "logic",
+    "quantifiers",
+    "negation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

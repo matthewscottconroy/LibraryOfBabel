@@ -1,0 +1,23 @@
+{
+  "question_id": "8babd9f3-13ad-491e-8233-f04e4ffdaa97",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Davidson's anomalous monism is best characterized as which combination of claims?",
+  "choices": [
+    "Mental and physical are distinct substances that causally interact",
+    "Mental states will eventually be eliminated in favour of neural states",
+    "Mental types are strictly identical to physical types via bridge laws",
+    "Every mental event is token-identical to some physical event, yet there are no strict psychophysical laws"
+  ],
+  "answer": 3,
+  "explanation": "Anomalous monism is 'monism' (each mental event token is identical to some physical event) plus 'anomalism' (no strict laws connect mental and physical descriptions). Option 2 is the reductive type-identity view with bridge laws that Davidson denies; option 0 is Cartesian interactionism; option 1 is eliminativism. The distinctive move is token identity without type reduction.",
+  "tags": [
+    "davidson",
+    "anomalous-monism",
+    "token-identity",
+    "psychophysical-laws"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

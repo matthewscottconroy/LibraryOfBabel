@@ -1,0 +1,13 @@
+{
+  "question_id": "cfc2bcd9-91f2-4c5b-84d0-dcce7b8e2119",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Compared with direct detection, what does balanced coherent (homodyne) detection provide?",
+  "choices": ["A 3 dB SNR improvement plus cancellation of laser relative-intensity noise (RIN) in the balanced subtraction", "Complete elimination of shot noise", "Operation without any local-oscillator laser", "A 10 dB SNR improvement but added RIN"],
+  "answer": 0,
+  "explanation": "Mixing the signal with a strong local oscillator gives SNR_coherent = RP_s/(eB) versus RP_s/(2eB) for direct detection — a 3 dB gain — and the balanced pair subtracts common-mode laser RIN. It does not remove shot noise (it is shot-noise limited), and it fundamentally requires a phase-coherent local-oscillator laser.",
+  "tags": ["coherent-detection", "homodyne", "rin", "snr"],
+  "difficulty": "advanced",
+  "generated": true
+}

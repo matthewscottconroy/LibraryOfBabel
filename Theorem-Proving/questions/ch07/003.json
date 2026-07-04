@@ -1,0 +1,22 @@
+{
+  "question_id": "05636594-f1c9-4caf-807c-be2018fad88d",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Euclid's proof of the infinitude of primes forms N = p₁p₂···p_k + 1 from a finite list of primes. What is the correct conclusion about N?",
+  "choices": [
+    "N is always prime",
+    "N has a prime factor not in the list, since N leaves remainder 1 when divided by each p_i",
+    "N is divisible by every p_i in the list",
+    "N is composite and equals the next prime after p_k"
+  ],
+  "answer": 1,
+  "explanation": "N ≡ 1 (mod p_i) for each listed prime, so no p_i divides N; yet N > 1 must have some prime factor, which is therefore a new prime. Crucially N itself need not be prime (the common misreading in option A), and it is certainly not divisible by the listed primes.",
+  "tags": [
+    "euclid",
+    "infinitude-of-primes",
+    "primes"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

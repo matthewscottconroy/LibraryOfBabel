@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Catalysts increase the rate of a reaction by lowering its activation energy, without changing the overall thermodynamics (delta-G or Keq) of the reaction.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Catalysts, including enzymes, provide an alternative reaction pathway with lower activation energy so equilibrium is reached faster, but they do not change the free energy difference between reactants and products or the equilibrium constant. This matches the chapter's explicit statement that catalysts affect kinetics, not thermodynamics.",
+  "tags": [
+    "catalysis",
+    "kinetics",
+    "activation-energy"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "57949c71-9d48-47ce-9c90-76e42e5e1ff4"
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "7ed9b6e6-eac2-4a4d-b2dd-3905f75fe8dd",
+  "chapter": 23,
+  "phase": 8,
+  "kind": "blank",
+  "text": "An ordinal $\\kappa$ that cannot be put in bijection with any strictly smaller ordinal is called a ___.",
+  "choices": ["cardinal"],
+  "answer": "cardinal",
+  "explanation": "By definition a cardinal is an ordinal not equinumerous with any smaller ordinal, so it serves as a canonical 'size.' Not every ordinal is a cardinal: $\\omega+1$ is in bijection with the smaller ordinal $\\omega$, hence is not a cardinal. 'Limit' and 'successor' describe a different classification of ordinals.",
+  "tags": ["cardinals", "ordinals", "bijection"],
+  "difficulty": "beginner",
+  "generated": true
+}

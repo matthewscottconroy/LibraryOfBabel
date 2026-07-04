@@ -1,0 +1,21 @@
+{
+  "question_id": "b7f4cb75-aabb-4155-82b5-82d6eafa851a",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In the predictive-processing framework, 'active inference' is the idea that an organism can reduce prediction error by acting on the world to make sensory input match its predictions, not only by revising its predictions.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Predictive processing allows two routes to minimise prediction error: update the generative model to fit the input (perception), or change the world through action so the input fits the model (active inference). This is why Clark treats action and perception as deeply interconnected rather than as separate input and output stages.",
+  "tags": [
+    "active-inference",
+    "predictive-processing",
+    "prediction-error",
+    "clark"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

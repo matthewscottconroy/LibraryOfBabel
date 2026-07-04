@@ -1,0 +1,13 @@
+{
+  "question_id": "6c0b9e42-7a13-4f8d-95e1-2b6a4c8d1f70",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Within panpsychist frameworks, the 'combination problem' refers to the difficulty of explaining:",
+  "choices": ["Why consciousness emerges only in sufficiently complex brains", "How many micro-experiences combine to form a single unified macro-experience", "How the universe's single experience divides into individual minds", "Why any physical process is accompanied by experience at all"],
+  "answer": 1,
+  "explanation": "The combination problem asks how the many micro-experiences posited by panpsychism combine into one unified macro-experience (how roughly 10^27 particles' micro-feels become a single conscious moment). Why any experience arises at all is the hard/emergence problem; emergence-only-in-brains is emergentism; and the universe's experience dividing into individuals is cosmopsychism's mirror-image decombination problem.",
+  "tags": ["panpsychism", "combination-problem", "philosophy-of-mind"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "7c0902f3-ff1e-47d6-ac2f-c327c57db668",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "According to the chapter, increasing the input scaling σ_in pushes reservoir neurons toward which regime?",
+  "choices": [
+    "The purely linear regime, where tanh(a) ≈ a",
+    "The saturated, nonlinear regime of the tanh activation",
+    "A regime with larger spectral radius and longer memory",
+    "A regime with more reservoir neurons"
+  ],
+  "answer": 1,
+  "explanation": "Large σ_in makes the pre-activation |a| large, driving tanh toward ±1 (saturation) and activating nonlinearity. Small σ_in keeps neurons near the linear regime. Increasing σ_in actually reduces effective memory (ρ_eff ≈ ḡ(σ_in)·ρ), the opposite of option 2.",
+  "tags": [
+    "hyperparameters",
+    "input-scaling",
+    "nonlinearity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

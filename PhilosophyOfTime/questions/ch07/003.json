@@ -1,0 +1,13 @@
+{
+  "question_id": "77397141-8569-4a26-ae70-59b91eb7e349",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "tf",
+  "text": "For Husserl, retention is a species of memory: it is a separate representational act that re-presents the just-past note before the mind.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "This is false. Husserl insists that 'retention is not memory': retention involves no separate act and no re-presentation, but is a direct, non-representational holding of the just-past within the living present — a form of intuition. What the statement describes is recollection (secondary memory), the distinct representational act that brings a past event back before the mind. Collapsing the two erases exactly the distinction Husserl draws.",
+  "tags": ["husserl", "retention", "recollection", "phenomenology"],
+  "difficulty": "intermediate",
+  "generated": true
+}

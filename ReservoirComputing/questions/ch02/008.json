@@ -1,0 +1,22 @@
+{
+  "question_id": "a1fef795-4be7-48ce-a0f6-9538f9582393",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "During construction, how is the raw recurrent matrix rescaled to a target spectral radius rho?",
+  "choices": [
+    "Divide every entry by the reservoir size N",
+    "Compute rho0 = max|eig(W_tilde)|, then set W_rec = (rho / rho0) * W_tilde",
+    "Subtract the mean of the entries so the matrix has zero trace",
+    "Normalize each row so its entries sum to rho"
+  ],
+  "answer": 1,
+  "explanation": "Construction computes rho0, the largest eigenvalue magnitude of the raw matrix, then rescales W_rec = (rho/rho0)*W_tilde so that rho(W_rec) = rho exactly (scaling all weights scales all eigenvalues). Dividing by N, zero-centering the trace, or row-normalizing do not set the spectral radius.",
+  "tags": [
+    "reservoir-construction",
+    "spectral-radius",
+    "rescaling"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "61bdc88e-f14a-405d-b9a8-4106610e8585",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which statement best captures the key structural difference between testimonial and hermeneutical injustice as Fricker draws it?",
+  "choices": [
+    "Testimonial injustice is always structural and blameless, whereas hermeneutical injustice is always traceable to a single culpable hearer.",
+    "Both are failures located at the moment of testimony, differing only in whether racial or gendered prejudice is the operative bias.",
+    "Testimonial injustice concerns credibility excess, whereas hermeneutical injustice concerns credibility deficit.",
+    "Testimonial injustice can be an individual wrong at the moment of testimony, whereas hermeneutical injustice is paradigmatically structural and operates earlier, at the level of shared interpretive resources."
+  ],
+  "answer": 3,
+  "explanation": "Fricker distinguishes the two by locus and structure: testimonial injustice can be a single hearer's prejudiced credibility deficit at the point of uptake, while hermeneutical injustice is paradigmatically structural and prior, lying in gaps in the collective conceptual resources with no individual necessarily culpable. Option 0 reverses which form is structural; option 1 denies the difference; option 2 confuses the deficit/excess pair with the testimonial/hermeneutical distinction. Only option 3 is correct.",
+  "tags": ["epistemic-injustice", "testimonial-injustice", "hermeneutical-injustice", "fricker"],
+  "difficulty": "advanced",
+  "generated": true
+}

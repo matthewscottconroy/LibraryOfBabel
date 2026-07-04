@@ -1,0 +1,13 @@
+{
+  "question_id": "07b9cc4b-2014-4fec-aa6d-0199c2a83ccc",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Thin-film lithium niobate (LNOI) modulators outperform silicon plasma-dispersion modulators for high-speed data encoding mainly because the Pockels effect is:",
+  "choices": ["A pure, linear refractive-index change that is low-loss and essentially chirp-free (alpha_H ~ 0)", "A carrier-based effect that adds optical loss and chirp, just like silicon", "Usable only below about 1 GHz", "Dependent on resistive thermal tuning"],
+  "answer": 0,
+  "explanation": "The Pockels effect changes index linearly with applied field without injecting or depleting carriers, so it adds essentially no loss or chirp and supports >100 GHz bandwidth. Adding loss and chirp describes silicon's plasma dispersion (the opposite); LNOI is not bandwidth-limited to 1 GHz and does not rely on thermal tuning for modulation.",
+  "tags": ["lnoi", "pockels-effect", "modulator"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "e636c1a7-1d83-4425-8e65-86bb8e849f2b",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Because trajectory error grows exponentially, the predictability horizon grows only logarithmically with measurement precision, so improving precision by a factor of 10 adds only about one Lyapunov time of forecast.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "With error ~ e^{lambda t}, the horizon T ~ (1/lambda) ln(delta/epsilon) grows logarithmically in precision, so a 10x better measurement buys only ln(10)/lambda, roughly one extra Lyapunov time. The statement is true.",
+  "tags": [
+    "predictability-horizon",
+    "lyapunov-time",
+    "sensitive-dependence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

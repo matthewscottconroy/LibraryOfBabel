@@ -1,0 +1,13 @@
+{
+  "question_id": "9e0c0e89-3a2e-476e-80e1-8c45bba54182",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Light of wavelength λ passes through a circular aperture of diameter D. At what angle does the first zero of the Airy diffraction pattern occur?",
+  "choices": ["sin θ = λ/D", "sin θ = D/(1.22 λ)", "sin θ = 1.22 λ/D", "sin θ = 2 λ/D"],
+  "answer": 2,
+  "explanation": "For a circular aperture the far-field pattern is an Airy disk with its first zero at sin θ = 1.22 λ/D, the factor 1.22 coming from the first zero of the relevant Bessel function. The plain λ/D result is for a single slit (a sinc pattern), and the inverted or doubled forms are dimensionally or numerically wrong.",
+  "tags": ["diffraction", "airy-disk", "fourier-optics", "resolution"],
+  "difficulty": "intermediate",
+  "generated": true
+}

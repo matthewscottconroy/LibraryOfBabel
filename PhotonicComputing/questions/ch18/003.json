@@ -1,0 +1,18 @@
+{
+  "question_id": "8c91fc69-7a31-47ba-a028-fb8d298c3fa9",
+  "chapter": 18,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An n-photon protocol succeeds at a rate proportional to eta^n. Why does this make fractions-of-a-percent detector efficiency worth years of engineering?",
+  "choices": [
+    "Because eta^n grows with n, so more photons are always better regardless of eta",
+    "Because at n = 20, raising eta from 0.5 to 0.98 improves the success rate by a factor of about 10^6",
+    "Because the success rate scales only linearly with eta, so small gains are minor",
+    "Because eta^n is independent of the number of photons"
+  ],
+  "answer": 1,
+  "explanation": "The exponential eta^n means at n = 20 photons, going from eta = 0.5 to 0.98 multiplies the yield by about 10^6, far more than any clock-rate gain. The scaling is exponential in n, not linear (choice 2) or independent of n (choice 3); and for eta < 1 more photons actually suppress the rate (choice 0 is backwards).",
+  "tags": ["eta-n-scaling", "loss", "efficiency"],
+  "difficulty": "intermediate",
+  "generated": true
+}

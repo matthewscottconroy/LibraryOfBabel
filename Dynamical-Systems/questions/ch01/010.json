@@ -1,0 +1,19 @@
+{
+  "question_id": "061a2615-50bb-41b8-9b25-860f8e76f14e",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "By the Arzela-Ascoli theorem, a family in C[0,1] is relatively compact iff it is uniformly bounded and ___.",
+  "choices": [
+    "equicontinuous"
+  ],
+  "answer": "equicontinuous",
+  "explanation": "Uniform boundedness plus equicontinuity characterize precompact families of continuous functions, converting pointwise control into uniform convergence of a subsequence.",
+  "tags": [
+    "arzela-ascoli",
+    "compactness",
+    "function-spaces"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

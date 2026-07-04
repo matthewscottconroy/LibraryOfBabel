@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 4,
+  "kind": "mc",
+  "text": "According to the chapter, which of the following best distinguishes Nextflow from Snakemake for bioinformatics pipelines?",
+  "choices": [
+    "Snakemake cannot use containers, while Nextflow requires Docker for every process",
+    "Snakemake only supports R scripts, while Nextflow only supports shell commands",
+    "Nextflow is better suited to cloud platforms with stronger containerization, while Snakemake is more Pythonic and favored for HPC/SLURM environments",
+    "Nextflow cannot automatically infer a DAG of task dependencies, unlike Snakemake"
+  ],
+  "answer": 2,
+  "explanation": "The chapter contrasts Nextflow's cloud-oriented design (AWS Batch, Google Cloud) and strong containerization with Snakemake's Pythonic, readable syntax that is well-suited to HPC/SLURM clusters. Snakemake does support containers via a `container:` directive, so that option is false; both tools can execute shell commands or scripts in any language, so the language restriction is false; and both frameworks automatically build an execution DAG from input/output dependencies, so that option is false too.",
+  "tags": [
+    "snakemake",
+    "nextflow",
+    "workflow-management"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "e39e930c-9bc2-4b3d-9fc3-3b257f689830"
+}

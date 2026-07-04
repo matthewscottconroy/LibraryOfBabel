@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The phenomenon where two highly divergent lineages are incorrectly grouped together in a parsimony analysis, regardless of their true evolutionary relationship, is called:",
+  "choices": [
+    "Incomplete lineage sorting",
+    "Long branch attraction",
+    "Gene tree/species tree discordance",
+    "Horizontal gene transfer"
+  ],
+  "answer": 1,
+  "explanation": "Long branch attraction is a well-known inconsistency of maximum parsimony under certain conditions, where highly divergent (long-branch) lineages are artifactually grouped together. Incomplete lineage sorting and horizontal gene transfer are both biological sources of gene tree/species tree discordance, an unrelated phenomenon caused by real evolutionary processes rather than a statistical artifact of the parsimony method itself.",
+  "tags": [
+    "maximum-parsimony",
+    "long-branch-attraction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "52e8c38a-54f7-45a6-85ae-4bd2f4403413"
+}

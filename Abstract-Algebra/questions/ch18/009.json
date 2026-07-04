@@ -1,0 +1,13 @@
+{
+  "question_id": "a7afe0ac-5588-4086-b020-9587527a9eba",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "blank",
+  "text": "By the first orthogonality relation the irreducible characters form a basis of $\\mathrm{Cl}(G)$, so the number of irreducible complex representations of $G$ equals the number of ___ of $G$.",
+  "choices": ["conjugacy classes"],
+  "answer": "conjugacy classes",
+  "explanation": "The irreducible characters are orthonormal and span the class functions, whose dimension is the number of conjugacy classes; hence there are exactly that many irreducibles. This is also why a character table is square, with rows and columns both indexed by the conjugacy classes.",
+  "tags": ["character-theory", "conjugacy-classes", "irreducibles"],
+  "difficulty": "intermediate",
+  "generated": true
+}

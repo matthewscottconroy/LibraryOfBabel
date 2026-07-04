@@ -1,0 +1,20 @@
+{
+  "question_id": "b67c2e97-50d7-44c0-9a8c-60e9edfba905",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The ethical view, associated with MacAskill and Ord, that because the number of potential future people vastly exceeds those now alive, improving humanity's long-run trajectory is among our most important moral priorities, is called ___.",
+  "choices": [
+    "longtermism"
+  ],
+  "answer": "longtermism",
+  "explanation": "The expected answer is 'longtermism.' In its strong form (Greaves and MacAskill), it holds that the expected long-run effects of our actions are the most important determinant of their moral value. It rests on combining the astronomical scale of the future with the rejection of pure time preference, so that future welfare counts fully per person.",
+  "tags": [
+    "longtermism",
+    "existential-risk",
+    "future-generations",
+    "macaskill"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "5ccdffa0-c2de-4e13-93f7-dc850ee69eb4",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "An R-module possessing a basis — a subset through which every element has a unique expression as a finite R-linear combination — is called ___.",
+  "choices": [
+    "free",
+    "a free module",
+    "free module"
+  ],
+  "answer": "free",
+  "explanation": "Free modules Rⁿ play the role of Fⁿ in linear algebra, but over general rings most modules are not free: ℤ/nℤ over ℤ has no basis since every element has torsion.",
+  "tags": [
+    "modules",
+    "free-modules",
+    "basis"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

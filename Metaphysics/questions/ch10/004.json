@@ -1,0 +1,22 @@
+{
+  "question_id": "c763d980-931b-4e78-97dd-2ab20915c56e",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The argument from vagueness for universalism (Lewis, Sider) reasons that:",
+  "choices": [
+    "since ordinary objects exist and nihilism denies them, composition sometimes occurs but not always.",
+    "since the same parts cannot compose two objects, coincident objects are impossible.",
+    "since objects have their parts essentially, composition is fixed and cannot be vague.",
+    "since existence and composition cannot be vague and any restricted answer would require a vague or arbitrarily sharp cutoff, composition must be unrestricted."
+  ],
+  "answer": 3,
+  "explanation": "The Lewis-Sider argument turns on rejecting ontological vagueness: a restricted answer implies either a vague or an implausibly sharp cutoff to when composition occurs, so if there is no vagueness in what exists, composition must be unrestricted. Distractor 1 is the extensionality/coincidence argument, an entirely different line of reasoning.",
+  "tags": [
+    "vagueness",
+    "universalism",
+    "sider"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "7ad917b6-1b05-4b0a-a2d9-98cdeac8cd36",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Tulving's memory-systems framework distinguishes episodic, semantic, and procedural memory as functionally and neurologically distinct systems.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Tulving's framework distinguishes episodic (personally experienced events), semantic (general facts), and procedural (skills) memory, proposing them as genuinely distinct systems supported by neuropsychological dissociations rather than points on a single continuum.",
+  "tags": [
+    "tulving",
+    "memory-systems",
+    "procedural-memory"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

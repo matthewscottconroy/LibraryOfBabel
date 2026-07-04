@@ -1,0 +1,21 @@
+{
+  "question_id": "5bd78d7e-8c4e-491c-b7da-bed74e5508f0",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a function f: R^2 -> R, which implication is correct?",
+  "choices": [
+    "If f is differentiable at a point, then both partial derivatives exist there",
+    "If both partial derivatives exist at a point, then f is differentiable there",
+    "If both partial derivatives exist at a point, then f is continuous there",
+    "If all directional derivatives exist at a point, then f is differentiable there"
+  ],
+  "answer": 0,
+  "explanation": "Differentiability implies existence of all partial derivatives (and continuity). The converses fail: partial derivatives can exist where f is discontinuous (e.g. xy/(x^2+y^2)), and even every directional derivative can exist at a point where f is not differentiable. Continuity of the partials is what guarantees differentiability.",
+  "tags": [
+    "differentiability",
+    "partial-derivatives"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "30c6bbf1-41be-4f0a-b1f2-d184f0342705",
+  "chapter": 26,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A suspended graphene monolayer absorbs a fixed roughly 2.3% of normally incident light, essentially independent of wavelength. This universal value equals:",
+  "choices": [
+    "pi times the fine-structure constant (pi times alpha)",
+    "The square of the material's refractive index",
+    "Half the system's numerical aperture",
+    "The Landauer bound k_B T ln 2 in electron-volts"
+  ],
+  "answer": 0,
+  "explanation": "A graphene monolayer's approximately 2.3% absorption equals pi times the fine-structure constant alpha (about 1/137), a universal, wavelength-flat value flowing from the gapless Dirac spectrum and the universal sheet optical conductivity. It is not set by refractive index, numerical aperture, or the Landauer thermodynamic bound.",
+  "tags": ["2d-materials", "graphene", "fine-structure-constant", "absorption"],
+  "difficulty": "intermediate",
+  "generated": true
+}

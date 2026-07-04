@@ -1,0 +1,20 @@
+{
+  "question_id": "5d794f81-e0fe-4371-9f67-e16acfa4214d",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "blank",
+  "text": "For a Kerr black hole to have an event horizon rather than a naked ring singularity, the book requires the spin to satisfy a ≤ GM/c², equivalently the angular-momentum bound |J| ≤ ___.",
+  "choices": [
+    "GM²/c",
+    "GM^2/c"
+  ],
+  "answer": "GM²/c",
+  "explanation": "Horizons exist only where Δ = r² − r_s r + a² = 0 has real roots, which requires a ≤ GM/c². Since a = J/(Mc), this is the extremal bound |J| ≤ GM²/c; at equality (extremal Kerr) the inner and outer horizons merge at r_+ = r_- = GM/c², and beyond it the ring singularity would be naked.",
+  "tags": [
+    "kerr",
+    "extremal-limit",
+    "cosmic-censorship"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

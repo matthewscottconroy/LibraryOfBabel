@@ -1,0 +1,22 @@
+{
+  "question_id": "03641fbf-a6ed-4b10-ba1c-57c857554e90",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Boyd's homeostatic property cluster (HPC) theory of natural kinds differs from Kripke-Putnam essentialism chiefly in that HPC:",
+  "choices": [
+    "denies that there are any natural kinds, treating all classification as merely conventional.",
+    "holds that kind membership requires a single microstructural essence shared by every member.",
+    "locates kind membership in a cluster of co-occurring properties sustained by an underlying homeostatic mechanism, with no single property necessary and sufficient for membership.",
+    "applies only to chemical kinds such as water and gold, and not to biological species."
+  ],
+  "answer": 2,
+  "explanation": "Boyd's HPC theory replaces a single defining essence with a cluster of properties held together by a homeostatic mechanism, allowing variation and borderline cases—which is why it fits biological species that lack microstructural essences. Distractor 1 states Kripke-Putnam essentialism (water is necessarily H2O), the view HPC is designed to avoid, and distractor 3 reverses HPC's central application, since it was developed precisely for species.",
+  "tags": [
+    "natural-kinds",
+    "homeostatic-property-cluster",
+    "boyd"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

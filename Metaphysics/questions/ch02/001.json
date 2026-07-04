@@ -1,0 +1,21 @@
+{
+  "question_id": "c6262773-6b72-4cf6-bb8b-2dc4245d87c0",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Two brand-new coins struck from the same die are exactly alike in size, metal, and design. What is their relationship?",
+  "choices": [
+    "They are numerically identical but qualitatively distinct.",
+    "They are qualitatively identical but numerically distinct.",
+    "They are both numerically and qualitatively identical, since identity just is exact similarity.",
+    "They are neither numerically nor qualitatively identical."
+  ],
+  "answer": 1,
+  "explanation": "Qualitative identity is exact similarity; numerical identity is being one and the same object. The coins are two objects (numerically distinct) that share all their qualities (qualitatively identical). The tempting distractor (option 2) conflates the two notions, which is the very confusion the distinction is designed to prevent.",
+  "tags": [
+    "numerical-identity",
+    "qualitative-identity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

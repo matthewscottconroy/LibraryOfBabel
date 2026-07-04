@@ -1,0 +1,21 @@
+{
+  "question_id": "f723f22b-4cae-40ce-912a-e50d7f674bd4",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In Chalmers' zombie argument, a philosophical zombie is a physical and functional duplicate of a conscious human that nonetheless lacks phenomenal consciousness.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "A philosophical zombie is by definition an atom-for-atom, functionally identical duplicate that lacks any 'what it is like' — behaviourally indistinguishable but experientially 'dark.' Chalmers argues that their conceivability, if it tracks possibility, shows phenomenal facts are not necessitated by physical facts. The definition given is exactly right, so the statement is true.",
+  "tags": [
+    "zombies",
+    "conceivability",
+    "chalmers",
+    "phenomenal-consciousness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The chapter recommends a minimum of three biological replicates per condition for RNA-seq differential expression, with six or more recommended to detect moderate effect sizes.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Biological replicates are independent samples such as different animals or cultures, and the guidance is a minimum of three per condition, with six or more needed for adequate power to detect moderate effects; technical replicates of the same RNA are generally considered unnecessary with modern library prep protocols.",
+  "tags": [
+    "experimental-design",
+    "replicates",
+    "rna-seq"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "0bb29cda-1f27-4c84-8824-537779e7526f"
+}

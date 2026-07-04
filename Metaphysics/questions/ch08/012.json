@@ -1,0 +1,19 @@
+{
+  "question_id": "cf36cfd4-bf22-4065-8c80-6988e8679ede",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "For Fine, an object's essence is given by its real ___, a statement of what the object is from which its necessary properties flow; essence is thus prior to, and not reducible to, de re necessity.",
+  "choices": [
+    "definition"
+  ],
+  "answer": "definition",
+  "explanation": "Fine revives the Aristotelian notion of real definition: the essence of a thing states what it is, and its necessary properties are explained by that essence rather than the other way around. This is the core of his claim that essence is more fundamental than, and cannot be reduced to, modal (necessity) notions.",
+  "tags": [
+    "fine",
+    "real-definition",
+    "essence"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

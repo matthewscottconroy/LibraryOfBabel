@@ -1,0 +1,13 @@
+{
+  "question_id": "975b98ef-bd74-4496-a4ca-527be87da7a8",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: In photonic chip production, fiber-chip coupling, packaging, and testing routinely consume more engineering effort and product cost than the photonic die itself.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True — the chapter's refrain is 'budget systems, not chips': active alignment, fiber attach, and thousands of electrical escapes make packaging and test the cost center, frequently exceeding the die. This is a central theme of Section 23.4.",
+  "tags": ["packaging", "cost", "testing"],
+  "difficulty": "beginner",
+  "generated": true
+}

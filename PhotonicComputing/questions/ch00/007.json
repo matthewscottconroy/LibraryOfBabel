@@ -1,0 +1,13 @@
+{
+  "question_id": "0e6bc6b4-1cdf-480e-a5a6-a327d1716b9f",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Maxwell predicted electromagnetic waves theoretically, and this prediction was confirmed experimentally by Heinrich Hertz about twenty-three years later.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: Maxwell's 1865 identification of light as an EM wave was a theoretical prediction (that 1/√(μ₀ε₀) equals the measured speed of light), later confirmed by Hertz's generation and detection of radio waves. It was not an empirical discovery made first in the lab.",
+  "tags": ["history", "maxwells-equations", "hertz"],
+  "difficulty": "beginner",
+  "generated": true
+}

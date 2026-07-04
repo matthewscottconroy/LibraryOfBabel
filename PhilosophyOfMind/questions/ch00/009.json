@@ -1,0 +1,20 @@
+{
+  "question_id": "b71edf93-f819-4c27-ae8d-9f2e230bb66d",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Berkeley's idealism is captured by the Latin phrase 'esse est ___' — to be is to be perceived.",
+  "choices": [
+    "percipi"
+  ],
+  "answer": "percipi",
+  "explanation": "Berkeley's slogan 'esse est percipi' ('to be is to be perceived') holds that for sensible things, existence just consists in being perceived, so there is no mind-independent material substance. The expected term is 'percipi.'",
+  "tags": [
+    "berkeley",
+    "idealism",
+    "esse-est-percipi",
+    "immaterialism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

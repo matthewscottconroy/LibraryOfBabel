@@ -1,0 +1,20 @@
+{
+  "question_id": "bb7be1a5-a625-498d-b668-64866c9ef14f",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "blank",
+  "text": "By the duality principle of category theory, reversing all arrows turns the notion of a product into that of a ___ (and terminal objects into initial ones).",
+  "choices": [
+    "coproduct"
+  ],
+  "answer": "coproduct",
+  "explanation": "Dualizing (reversing arrows and composition order) sends products to coproducts, monos to epis, and terminal objects to initial ones; the coproduct A + B carries injections and the dual universal property. In Set the coproduct is the disjoint union.",
+  "tags": [
+    "duality",
+    "coproduct",
+    "product",
+    "opposite-category"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

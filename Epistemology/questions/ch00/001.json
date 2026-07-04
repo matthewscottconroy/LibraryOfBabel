@@ -1,0 +1,18 @@
+{
+  "question_id": "69f509f7-5957-4822-8951-b4edeb035227",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Plato's Meno, the 'paradox of inquiry' threatens the very possibility of learning. What is the core dilemma it poses?",
+  "choices": [
+    "If a belief is true, no further justification is needed; if it is false, no justification can rescue it, so justification does no work.",
+    "Knowledge requires certainty, but the senses are always fallible, so no empirical claim can ever be known.",
+    "If you already know what you seek, inquiry is unnecessary; and if you do not know it, you could not recognize the answer even upon finding it.",
+    "Every demonstration needs prior premises, which need their own demonstration, generating an infinite regress."
+  ],
+  "answer": 2,
+  "explanation": "Meno's paradox turns on recognition: inquiry looks pointless whether or not you already possess the target, since without some prior cognitive grasp you could not identify the answer as the answer. Option 3 states Aristotle's regress problem for demonstration, a distinct worry about justifying premises rather than about how inquiry can begin.",
+  "tags": ["plato", "meno", "paradox of inquiry", "ancient"],
+  "difficulty": "beginner",
+  "generated": true
+}

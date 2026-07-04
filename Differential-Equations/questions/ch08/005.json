@@ -1,0 +1,22 @@
+{
+  "question_id": "6dd1d6c0-a208-40f1-b9aa-64220190adb6",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A fundamental solution of a linear differential operator L is a distribution E satisfying:",
+  "choices": [
+    "L E = the Dirac delta",
+    "L E = 0",
+    "L E = 1",
+    "E equals L inverse evaluated pointwise"
+  ],
+  "answer": 0,
+  "explanation": "A fundamental solution solves L E = delta; convolving it with data f then yields a solution of L u = f via u = E * f, which is exactly the role of a Green's function. Solutions of L E = 0 are homogeneous solutions, not fundamental solutions.",
+  "tags": [
+    "fundamental-solution",
+    "greens-function",
+    "distributions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

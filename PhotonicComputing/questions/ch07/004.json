@@ -1,0 +1,13 @@
+{
+  "question_id": "bebb6fe8-4c88-4fbf-ae33-4f37cde7311e",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A photonic-crystal slow-light waveguide with slowdown factor S = c/vg promises nonlinear enhancement scaling as S^2. Why is the realized benefit much smaller than S^2 in practical devices?",
+  "choices": ["The group velocity actually increases near the band edge", "Slow light functions only in vacuum", "The S enhancement applies only to linear absorption", "Disorder-induced backscattering loss also scales as S^2, largely canceling the gain"],
+  "answer": 3,
+  "explanation": "Fabrication disorder produces backscattering loss that grows as S^2, offsetting the S^2 nonlinear enhancement, so real devices operate only at S ~ 10-30. The group velocity decreases (not increases) near the band edge, slow light is a guided-mode effect rather than a vacuum one, and the S^2 boost applies to the nonlinear interaction, not linear absorption alone.",
+  "tags": ["slow-light", "group-velocity", "photonic-crystal-waveguide"],
+  "difficulty": "intermediate",
+  "generated": true
+}

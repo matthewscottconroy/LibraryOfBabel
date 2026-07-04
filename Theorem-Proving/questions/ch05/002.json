@@ -1,0 +1,22 @@
+{
+  "question_id": "8491941b-521d-46b2-8092-59299ad2f357",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Russell's paradox arises from the set R = {x : x ∉ x}. What contradiction does it produce?",
+  "choices": [
+    "R is simultaneously finite and infinite",
+    "R equals its own power set",
+    "R ∈ R if and only if R ∉ R",
+    "R has no elements yet is non-empty"
+  ],
+  "answer": 2,
+  "explanation": "Asking whether R (the set of all sets that are not members of themselves) belongs to itself yields R ∈ R ⟺ R ∉ R, an outright contradiction, showing that unrestricted comprehension is inconsistent. The other options are not what the paradox derives.",
+  "tags": [
+    "russells-paradox",
+    "naive-set-theory",
+    "comprehension"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

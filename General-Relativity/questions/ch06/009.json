@@ -1,0 +1,13 @@
+{
+  "question_id": "eb162f5a-a290-44d7-93e6-7d513d8f1cfd",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In the book's modern convention, the 'relativistic mass' m_rel = γm is the fundamental Lorentz-invariant quantity and is the source of gravity in general relativity.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The book uses the rest mass m as the invariant (a Lorentz scalar satisfying p_μp^μ = −m²c²) and writes E = γmc², noting that 'relativistic mass' γm is deprecated because F = m_rel·a fails to hold directionally. Moreover, in GR the source of gravity is the stress-energy tensor T^μν, not any notion of mass.",
+  "tags": ["rest-mass", "relativistic-mass", "invariant-mass"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -20,4 +20,4 @@ A binary tree with n internal nodes has n+1 leaves.
 (applications to add)
 
 ## Exercises
-See `problems/ch07_induction/`
+See `problems/ch07_induction_and_recursion/`

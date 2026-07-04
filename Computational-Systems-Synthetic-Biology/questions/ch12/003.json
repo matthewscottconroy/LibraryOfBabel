@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the coherent type-1 feed-forward loop (C1-FFL), X activates Y, X activates Z, and Y also activates Z (AND logic at Z). What dynamical behavior does this topology produce?",
+  "choices": [
+    "A transient pulse of Z expression that decays back to baseline even while X remains present, detecting fold-change in X",
+    "Bistability with hysteresis between two alternative stable expression states of Z",
+    "Perfect adaptation of Z to a persistent level of X, via integral feedback control",
+    "A sign-sensitive delay: activation of Z is delayed until the X signal is sustained, filtering out brief ON pulses, while deactivation of Z is fast"
+  ],
+  "answer": 3,
+  "explanation": "The C1-FFL is the classic 'sign-sensitive delay' motif: because both the direct path (X to Z) and indirect path (X to Y to Z) must be active to turn Z on, a brief pulse of X does not give Y time to accumulate, filtering transient noise; loss of X removes activation immediately, so OFF-switching is fast. Choice 0 describes the incoherent type-1 FFL, not the coherent type. Choice 1 describes positive feedback loops, and choice 2 describes an adaptation circuit such as E. coli chemotaxis -- neither is a property of feed-forward loops.",
+  "tags": [
+    "feedforward-loop",
+    "c1-ffl",
+    "network-motifs"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "c497c427-8bad-4200-b51b-d1af0381319b"
+}

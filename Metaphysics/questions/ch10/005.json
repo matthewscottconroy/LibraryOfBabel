@@ -1,0 +1,22 @@
+{
+  "question_id": "84a39b1d-7600-4ba7-b6fb-725050fbe79a",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In classical extensional mereology, the principle of the uniqueness of composition (mereological extensionality) entails that:",
+  "choices": [
+    "every object must have at least one atomic (partless) proper part.",
+    "no two distinct objects can have exactly the same proper parts.",
+    "parthood is intransitive across functional levels of organization.",
+    "a whole can possess emergent properties not fixed by the properties of its parts."
+  ],
+  "answer": 1,
+  "explanation": "Extensionality (derivable from strong supplementation together with fusion) says that sameness of proper parts implies identity, so distinct coincident objects sharing all their parts are impossible—which is exactly what generates the statue/clay puzzle. Distractor 0 is false because classical mereology is consistent with atomless gunk and does not require atoms.",
+  "tags": [
+    "extensionality",
+    "classical-mereology",
+    "uniqueness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

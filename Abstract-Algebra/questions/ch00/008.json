@@ -1,0 +1,20 @@
+{
+  "question_id": "d94a1668-2209-4756-b546-e0e11bc43eea",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In classical logic, P ⇒ Q is automatically true whenever P is false — the phenomenon of vacuous truth.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "P ⇒ Q ≡ ¬P ∨ Q, so a false hypothesis makes the disjunction true regardless of Q. This is why every statement of the form '∀x ∈ ∅, P(x)' holds vacuously.",
+  "tags": [
+    "logic",
+    "implication",
+    "vacuous-truth"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "964e7f5a-4487-4b34-b45b-6e7643168b14",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In his Essay Concerning Human Understanding, Locke locates personal identity over time in:",
+  "choices": [
+    "the persistence of the same immaterial soul or substance",
+    "the continuity of consciousness, and in particular memory -- being able to remember one's earlier experiences",
+    "the continuous life of the same human organism",
+    "the narrative one constructs to make one's life cohere"
+  ],
+  "answer": 1,
+  "explanation": "Locke deliberately separated the identity of the person (continuity of consciousness/memory) from the identity of substance (the soul), so that identity could persist without a persisting soul. Option 0 is the substance view Locke rejected; option 2 is animalism; option 3 is the later narrative account (Schechtman).",
+  "tags": [
+    "locke",
+    "memory-criterion",
+    "consciousness",
+    "personal-identity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

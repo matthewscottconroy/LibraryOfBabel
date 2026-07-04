@@ -32,4 +32,4 @@ Avoid by α-renaming bound variables before substitution.
 - **Haskell**: lambda calculus capture-avoiding substitution is the same phenomenon
 
 ## Exercises
-See `problems/ch03_predicate_logic/01_translation_exercises.md`
+See `problems/ch03_first_order_logic/01_translation_exercises.md`

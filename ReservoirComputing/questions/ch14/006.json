@@ -1,0 +1,22 @@
+{
+  "question_id": "66450176-6e3e-41e8-adf0-b9a0443510fc",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The single-node delay-feedback reservoir is functionally equivalent to which reservoir topology?",
+  "choices": [
+    "A fully random, all-to-all connected ESN",
+    "A feedforward multilayer perceptron",
+    "A ring reservoir with cyclic nearest-neighbor coupling (node i driven by node i−1)",
+    "A symmetric Hopfield associative memory"
+  ],
+  "answer": 2,
+  "explanation": "In the discrete-map limit, virtual node i is driven by node i−1 (and node 0 by node N−1 of the previous step via the delay), i.e. a ring / cyclic-coupling reservoir (Rodan & Tino). The delay line physically realizes the ring's recurrent connection. It is NOT dense all-to-all (option 0), not feedforward (option 1), and not a symmetric-weight Hopfield net (option 3).",
+  "tags": [
+    "physical-rc",
+    "ring-reservoir",
+    "topology"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

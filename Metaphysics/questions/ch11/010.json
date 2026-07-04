@@ -1,0 +1,20 @@
+{
+  "question_id": "b1849481-701c-4991-beb2-d275fe75c02e",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "On the classical correspondence theory, a true proposition corresponds to a ___ (or state of affairs) that obtains in the world.",
+  "choices": [
+    "fact",
+    "facts"
+  ],
+  "answer": "fact",
+  "explanation": "The correspondence theory's worldly relatum is a fact or state of affairs: 'the cat is on the mat' is true because the fact of the cat's being on the mat obtains. Russell's logical atomism and the early Wittgenstein's picture theory make such facts the fundamental truth-relata, whereas deflationists deny that positing facts adds anything substantive.",
+  "tags": [
+    "correspondence",
+    "facts",
+    "theories-of-truth"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

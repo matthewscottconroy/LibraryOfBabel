@@ -1,0 +1,18 @@
+{
+  "question_id": "9af6e6ed-9307-46b5-9ee1-fdf358738a7f",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In Descartes's metaphysics, how is the duration of a created thing best characterized?",
+  "choices": [
+    "As a mode of substance — the way any created substance persists insofar as it continues to exist",
+    "As an absolute container that flows equably without relation to anything external",
+    "As the order of succession among non-simultaneous events, with nothing over and above them",
+    "As the a priori form of inner sense supplied by the cognizing mind"
+  ],
+  "answer": 0,
+  "explanation": "Descartes treats duration as a mode by which any created substance continues to exist (Principles I.55–57); it is a real feature of substances, not a separate entity, and 'time' is merely the abstract measure by which durations are compared. Choice 1 is Newton's absolute time, choice 2 is Leibniz's relational order, and choice 3 is Kant's later doctrine of inner sense — none of which is Descartes's account of duration.",
+  "tags": ["descartes", "duration", "substance", "modes"],
+  "difficulty": "beginner",
+  "generated": true
+}

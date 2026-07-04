@@ -1,0 +1,18 @@
+{
+  "question_id": "d8f361dc-a7ae-412f-a452-b2dee536952e",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "On Ted Sider's stage theory, what does an ordinary object-term such as 'the cat' refer to?",
+  "choices": [
+    "The four-dimensional temporal worm composed of all the cat's temporal parts across its whole existence",
+    "A wholly present three-dimensional object that has no temporal parts",
+    "The instantaneous (or short-duration) temporal stage that exists at the present moment",
+    "An immaterial substance that persists unchanged beneath the cat's changing properties"
+  ],
+  "answer": 2,
+  "explanation": "Sider separates ontology (four-dimensional spacetime and stages) from semantics, holding that 'the cat' denotes the present momentary stage, with claims about the cat's past and future made true by its temporal counterparts. The whole-worm option is worm theory, which Sider explicitly contrasts with stage theory; the wholly-present option is endurantism; and the persisting-substance option is a soul/substance view. Only the present-stage reading is stage theory.",
+  "tags": ["stage-theory", "sider", "temporal-counterparts", "perdurantism"],
+  "difficulty": "intermediate",
+  "generated": true
+}

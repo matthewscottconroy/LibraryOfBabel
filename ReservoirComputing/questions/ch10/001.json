@@ -1,0 +1,22 @@
+{
+  "question_id": "34c97c09-52d7-415a-a886-0687c62e0642",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What distinguishes FORCE learning from standard ESN readout training?",
+  "choices": [
+    "FORCE trains the recurrent weights by backpropagation while the readout stays fixed",
+    "FORCE uses offline batch ridge regression with no feedback loop",
+    "FORCE freezes the readout and adapts only the input weights",
+    "FORCE trains the readout online with RLS while feeding the output back into the reservoir during training"
+  ],
+  "answer": 3,
+  "explanation": "FORCE trains only the readout, online with RLS, but with an output-to-reservoir feedback loop active throughout training. Standard ESN training is offline ridge with no feedback; FORCE does not use backprop and does not train the recurrent or input weights.",
+  "tags": [
+    "force",
+    "output-feedback",
+    "rls"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

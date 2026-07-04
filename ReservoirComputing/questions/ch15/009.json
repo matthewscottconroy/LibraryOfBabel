@@ -1,0 +1,22 @@
+{
+  "question_id": "f0862cbe-a204-4d47-9c76-5c7f0c2ff0b1",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The lab also predicts Lorenz from the x-component alone, using the delay vector [x(t), x(t-1), x(t-2)]. Takens' theorem gives a sufficient embedding dimension d >= 2*d_A + 1. For the Lorenz attractor (d_A ~ 2.05), what does this bound give, and why does the 3-dimensional delay embedding still work?",
+  "choices": [
+    "d >= 2; the bound is exactly met by the two extra delays",
+    "d >= 6, but the bound is only sufficient (not tight), so lower-dimensional embeddings such as d=3 generically still succeed",
+    "d >= 6, and any embedding below d=6 is guaranteed to fail",
+    "d >= 11, so the delay embedding cannot work and the lab's result is coincidental"
+  ],
+  "answer": 1,
+  "explanation": "2*2.05 + 1 = 5.1, so Takens guarantees an embedding for d >= 6. But this is a sufficient (worst-case, generic) condition, not a necessary one; in practice d=3 (or even 2) reconstructs the Lorenz attractor, which is why the lab's 3-delay x-only embedding attains a VPT close to full observation. Options 2 and 3 wrongly treat the bound as necessary/tight; option 0 miscomputes the bound.",
+  "tags": [
+    "takens",
+    "delay-embedding",
+    "partial-observation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

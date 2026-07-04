@@ -1,0 +1,23 @@
+{
+  "question_id": "340444d4-247c-45c3-a6da-c7ca35ca34be",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The type identity theory of Place and Smart claims that mental state types are identical to brain state types. On this view, the identity of pain with (say) C-fibre firing is:",
+  "choices": [
+    "An a priori conceptual truth knowable by analysing the meaning of 'pain'",
+    "A contingent, empirical identity discovered by science, like 'water is H₂O'",
+    "A mere correlation, with pain and C-fibre firing remaining distinct items",
+    "A useful metaphor, since mental states are not literally physical"
+  ],
+  "answer": 1,
+  "explanation": "Place and Smart modelled psychophysical identities on contingent scientific identities such as 'lightning is electrical discharge' or 'water is H₂O' — discovered a posteriori, not known by conceptual analysis. Option 0 mistakes it for an analytic truth; option 2 describes the dualist 'correlation' picture the theory rejects; option 3 denies the literal identity that is the theory's whole point.",
+  "tags": [
+    "identity-theory",
+    "place",
+    "smart",
+    "contingent-identity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

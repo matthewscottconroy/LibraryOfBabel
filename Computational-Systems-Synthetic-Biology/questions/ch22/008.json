@@ -1,0 +1,20 @@
+{
+  "chapter": 22,
+  "phase": 4,
+  "kind": "tf",
+  "text": "The Radau method in SciPy is an explicit Runge-Kutta method best suited for non-stiff problems, similar in purpose to RK45.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: Radau is described as an implicit Runge-Kutta method that is very accurate for stiff problems, not an explicit method for non-stiff systems. The statement swaps Radau's actual implicit/stiff role for RK45's explicit/non-stiff role, which is incorrect.",
+  "tags": [
+    "scientific-computing",
+    "ode-solvers",
+    "stiffness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "23995301-2925-4466-8f82-ca1e15b5e7ef"
+}

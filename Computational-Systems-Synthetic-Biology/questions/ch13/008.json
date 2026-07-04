@@ -1,0 +1,20 @@
+{
+  "chapter": 13,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In PC12 cells, transient ERK activation in response to EGF drives sustained differentiation, whereas sustained ERK activation in response to NGF drives only transient proliferation.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false -- the outcomes are reversed. In PC12 cells, EGF produces transient ERK activation and drives proliferation, while NGF produces sustained ERK activation (via a Rap1 -> B-Raf pathway) and drives differentiation. This classic result (Bhalla & Iyengar, 1999) demonstrates that the duration of a signal, not just its identity or the concentration of ligand, can determine cell fate.",
+  "tags": [
+    "signal-duration",
+    "erk-signaling",
+    "cell-fate"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "b3b1e217-1ddf-41f6-bf97-4993b36c6f6a"
+}

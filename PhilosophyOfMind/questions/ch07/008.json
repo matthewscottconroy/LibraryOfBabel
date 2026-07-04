@@ -1,0 +1,23 @@
+{
+  "question_id": "706f7381-cd7e-4378-a1be-ef18e4a44582",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Harry Frankfurt's hierarchical (source) account locates free will in:",
+  "choices": [
+    "The falsity of determinism",
+    "The agent's capacity to have done otherwise",
+    "The causation of the action by the agent as a substance",
+    "Acting from a first-order desire that the agent endorses with a second-order desire (identifies with)"
+  ],
+  "answer": 3,
+  "explanation": "Frankfurt's hierarchical compatibilism locates freedom in acting from a first-order desire that one endorses with a second-order desire - a will one identifies with - rather than in alternative possibilities. Option 1 is the leeway/PAP condition Frankfurt actually attacks, option 0 is incompatibilism, and option 2 is agent-causation; each is a rival account of freedom.",
+  "tags": [
+    "frankfurt",
+    "compatibilism",
+    "hierarchical-desires",
+    "free-will"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

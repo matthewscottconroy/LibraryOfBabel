@@ -1,0 +1,22 @@
+{
+  "question_id": "c1374441-9806-463b-a6ce-557498a524cf",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "How many elements does a 3-dimensional vector space over the field 𝔽₂ have?",
+  "choices": [
+    "3",
+    "6",
+    "8",
+    "9"
+  ],
+  "answer": 2,
+  "explanation": "Choosing a basis identifies the space with 𝔽₂³, whose elements are the 2·2·2 = 8 coordinate triples. In general an n-dimensional space over 𝔽_q has qⁿ elements.",
+  "tags": [
+    "vector-spaces",
+    "finite-fields",
+    "counting"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

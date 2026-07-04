@@ -1,0 +1,19 @@
+{
+  "question_id": "cd920ca4-46d9-43a1-91ed-da07a18ce950",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In 2022, ___ demonstrated free-space MEMS optical circuit switching at production data-center scale, reaching 91.7% demand satisfaction while using about one-tenth the switching power of the best electronic alternative.",
+  "choices": [
+    "Google"
+  ],
+  "answer": "Google",
+  "explanation": "Google's 2022 deployment of free-space MEMS OCS in the spine layer was the first large-scale production validation of optical circuit switching, matching electronic demand satisfaction (91.7% vs 91.4%) at about one-tenth the switching power.",
+  "tags": [
+    "optical-circuit-switching",
+    "google",
+    "data-center"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

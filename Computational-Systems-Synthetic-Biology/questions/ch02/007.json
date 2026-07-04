@@ -1,0 +1,20 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Cyclin-CDK complexes drive transitions between cell cycle phases, and tumor suppressors such as p53 and Rb help regulate checkpoints including the G1/S restriction point.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Cyclin-CDK complexes drive each cell cycle transition, and tumor suppressor proteins like p53 and Rb, together with oncogenes, form the network logic controlling checkpoints such as the G1/S restriction point, G2/M, and the spindle assembly checkpoint. This statement directly reflects the chapter's description of cell cycle control.",
+  "tags": [
+    "cell-cycle",
+    "cyclin-cdk",
+    "checkpoints"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "bb6ba2ca-570a-4202-8452-1a5e3579c427"
+}

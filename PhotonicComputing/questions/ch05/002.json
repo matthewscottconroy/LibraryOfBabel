@@ -1,0 +1,13 @@
+{
+  "question_id": "1d20fc5d-91ee-4651-a091-734ec5bd720d",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For a step-index optical fiber, single-mode operation requires the normalized frequency (V-number, V = 2*pi*d*NA/lambda) to satisfy which condition?",
+  "choices": ["V < 2.405", "V > 2.405", "V < 1", "V = 2*pi"],
+  "answer": 0,
+  "explanation": "A step-index fiber supports only the fundamental mode when V < 2.405, the first zero of the Bessel function J0. V > 2.405 is the multimode regime (the swapped inequality). V < 1 is arbitrary and far stricter than required, and V = 2*pi is not a cutoff condition.",
+  "tags": ["optical-fiber", "single-mode", "v-number"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "6d2ff9d7-a57f-4672-b43f-77521000f228",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In IIR-filter language, the echo state property corresponds to which condition?",
+  "choices": [
+    "The filter's zeros all lie outside the unit circle",
+    "The feedforward taps h_k sum to exactly 1",
+    "All of the reservoir's 'poles' lie inside the unit circle (rho(W_rec) < 1 for linear reservoirs)",
+    "At least one pole lies exactly on the unit circle"
+  ],
+  "answer": 2,
+  "explanation": "The reading equates the ESP with placing the reservoir's poles inside the unit circle, i.e. rho(W_rec) < 1 for linear reservoirs, making the ESN a stable nonlinear IIR filter. Poles on or outside the circle give marginal or unstable behavior, and the tap-sum and zeros conditions are unrelated to the ESP.",
+  "tags": [
+    "echo-state-property",
+    "poles",
+    "iir-filter"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

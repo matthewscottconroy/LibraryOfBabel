@@ -1,0 +1,13 @@
+{
+  "question_id": "8a3ce4bb-93d3-4008-b86b-0f7eb3e1ac88",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "tf",
+  "text": "In WDM broadcast-and-weight, reading a microring's drop and through ports with a balanced photodetector pair yields a signed effective weight in the range [-1, +1], enabling both excitation and inhibition.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. The book gives the effective weight w_i proportional to eta_drop minus eta_through, in [-1, +1], produced by balanced detection of the drop and through ports. That difference measurement is exactly what makes signed (excitatory AND inhibitory) weights possible.",
+  "tags": ["broadcast-and-weight", "balanced-detection", "signed-weights"],
+  "difficulty": "intermediate",
+  "generated": true
+}

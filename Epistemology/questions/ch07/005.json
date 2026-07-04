@@ -1,0 +1,23 @@
+{
+  "question_id": "cf624478-45f5-4e7e-8fb0-b51ef30455a3",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which expression correctly states Bayes' theorem for the posterior credence in a hypothesis H given evidence E?",
+  "choices": [
+    "P(H|E) = P(E|H) x P(E) / P(H)",
+    "P(H|E) = P(H) x P(E) / P(E|H)",
+    "P(H|E) = P(H) / P(E)",
+    "P(H|E) = P(E|H) x P(H) / P(E)"
+  ],
+  "answer": 3,
+  "explanation": "Bayes' theorem is P(H|E) = P(E|H) x P(H) / P(E): the posterior equals the likelihood times the prior, divided by the marginal probability of the evidence. Option 0 swaps the prior P(H) with the evidence term P(E); option 1 divides by the likelihood instead of multiplying by it; option 2 drops the likelihood entirely. Only option 3 is the correct rearrangement of the definition of conditional probability.",
+  "tags": [
+    "bayes theorem",
+    "posterior",
+    "likelihood",
+    "prior"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

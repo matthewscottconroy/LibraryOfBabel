@@ -1,0 +1,18 @@
+{
+  "question_id": "eb3d26cf-f343-4731-9ed0-32754df26166",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The ___ operator, written as the divergence of the gradient, appears in the heat, wave, and Laplace equations.",
+  "choices": [
+    "Laplacian"
+  ],
+  "answer": "Laplacian",
+  "explanation": "The Laplacian, Lap(f) = div(grad f) = f_xx + f_yy + f_zz, is the divergence of the gradient. Functions with zero Laplacian are called harmonic.",
+  "tags": [
+    "laplacian",
+    "differential-operators"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

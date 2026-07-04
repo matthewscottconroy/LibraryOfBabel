@@ -9,10 +9,10 @@ A complete self-study curriculum for homotopy type theory (HoTT), from mathemati
 This repository contains everything needed to develop genuine research-level mastery of HoTT and use it for automated theorem proving and foundational research:
 
 - **A fully scaffolded book** in `book/` — 9 units, 27 chapters, each with content sections, exercises (25–35 per chapter), important thinkers, annotated references, thought experiments, and real-world applications, written in vivid Putnam-style prose
-- **27 textbook-quality chapters** in `chapters/` (original flat + subdirectory structure)
+- **27 textbook-quality chapters** in `chapters/`, each a directory of section files
 - **A master curriculum document** with primary texts, proof assistant exercises, and phase milestones
-- **A navigation index** linking all chapters with reading-order recommendations
-- **Two quiz programs** — a standalone script and a full adaptive application
+- **A navigation index** and `NAVIGATION.md` linking the `book/` and `chapters/` views
+- **The adaptive quiz** — via the shared Rust workspace at the repository root, plus a legacy standalone `quiz.py`
 - **41 interactive Rust REPL demos** — one per topic, each a stateful sandbox for hands-on exploration
 
 The curriculum is designed for someone who wants to reach the research frontier: contributing to Cubical Agda, Mathlib4, or Rzk; working on open problems like Brunerie's number; or developing new type-theoretic tools for automated reasoning.
@@ -36,42 +36,49 @@ Homotopy-Type-Theory/
 │   └── unit-09-research-frontiers/
 ├── curriculum.md          # Master 8-phase study plan with texts and milestones
 ├── index.md               # Navigation index for all 27 chapters
-├── quiz.py                # Standalone quiz script (loads from questions/ JSON bank)
-├── quiz_app/              # Full adaptive quiz application (see quiz_app/README.md)
+├── NAVIGATION.md          # Dual-navigation guide across book/ and chapters/
+├── subject.toml           # Quiz configuration (chapters, phases, prompt, model)
+├── book.toml              # Build configuration for tools/build_book.py
+├── quiz.py                # Legacy standalone Python quiz (loads questions/ JSON)
 ├── questions/             # 1,400+ JSON question bank (27 chapters × 3 difficulties)
 ├── demos/                 # 41 interactive Rust REPL sandboxes (one per HoTT topic)
 │   ├── run_rust.sh        # Rust demo launcher (bash demos/run_rust.sh)
 │   ├── run.py             # Python demo launcher (python3 demos/run.py)
 │   └── <topic>/           # Each crate: cargo run --bin <topic>
-└── chapters/
-    ├── ch00-logic-and-proof.md
-    ├── ch01-set-theory.md
-    ├── ch02-abstract-algebra.md
-    ├── ch03-real-analysis.md
-    ├── ch04-proof-theory.md
-    ├── ch05-intuitionistic-logic.md
-    ├── ch06-curry-howard.md
-    ├── ch07-stlc-system-f.md
-    ├── ch08-dependent-types.md
-    ├── ch09-mltt.md
-    ├── ch10-category-theory.md
-    ├── ch11-categorical-logic.md
-    ├── ch12-higher-categories.md
-    ├── ch13-topology.md
-    ├── ch14-homotopy-theory.md
-    ├── ch15-simplicial-sets.md
-    ├── ch16-identity-types.md
-    ├── ch17-h-levels.md
-    ├── ch18-univalence.md
-    ├── ch19-higher-inductive-types.md
-    ├── ch20-synthetic-homotopy.md
-    ├── ch21-lean4.md
-    ├── ch22-cubical-agda.md
-    ├── ch23-cubical-type-theory.md
-    ├── ch24-simplicial-type-theory.md
-    ├── ch25-modal-hott.md
-    └── ch26-research-frontiers.md
+└── chapters/              # 27 chapters, each a directory of section files
+    ├── ch00-logic-and-proof/
+    ├── ch01-set-theory/
+    ├── ch02-abstract-algebra/
+    ├── ch03-real-analysis/
+    ├── ch04-proof-theory/
+    ├── ch05-intuitionistic-logic/
+    ├── ch06-curry-howard/
+    ├── ch07-stlc-system-f/
+    ├── ch08-dependent-types/
+    ├── ch09-mltt/
+    ├── ch10-category-theory/
+    ├── ch11-categorical-logic/
+    ├── ch12-higher-categories/
+    ├── ch13-topology/
+    ├── ch14-homotopy-theory/
+    ├── ch15-simplicial-sets/
+    ├── ch16-identity-types/
+    ├── ch17-h-levels/
+    ├── ch18-univalence/
+    ├── ch19-higher-inductive-types/
+    ├── ch20-synthetic-homotopy/
+    ├── ch21-lean4/
+    ├── ch22-cubical-agda/
+    ├── ch23-cubical-type-theory/
+    ├── ch24-simplicial-type-theory/
+    ├── ch25-modal-hott/
+    └── ch26-research-frontiers/
 ```
+
+The quiz is the shared Rust workspace at the repository root (`quiz/`); this book
+has no per-book quiz application of its own. The `chapters/` entries are
+directories (one per chapter); `book/` holds the same material in the unit →
+chapter → section hierarchy.
 
 ---
 
@@ -192,20 +199,41 @@ curriculum.md   →  eight-phase plan with primary texts and milestones
 index.md        →  chapter-by-chapter navigation with reading paths by background
 ```
 
-### Quick quiz (no setup)
+### Build the book
+
+From the repository root:
+
+```bash
+# Build the book (also --html, --markdown, --check)
+python3 tools/build_book.py Homotopy-Type-Theory --pdf
+```
+
+### Adaptive quiz
+
+The quiz is the shared Rust workspace at the repository root:
+
+```bash
+# Take the adaptive quiz
+cd quiz && cargo run -p quiz-cli -- --subject ../Homotopy-Type-Theory
+```
+
+Generating new questions calls the Claude API and needs `ANTHROPIC_API_KEY`;
+see [PROCESS.md](../PROCESS.md#question-bank-generation).
+
+### Legacy standalone quiz (no setup)
+
+A self-contained Python quiz that reads the same `questions/` bank still ships
+for offline use:
 
 ```bash
 python3 quiz.py
 ```
 
-### Adaptive quiz with Claude integration
+### Validate before a PR
 
 ```bash
-export ANTHROPIC_API_KEY=your_key_here   # optional but enables AI-generated questions
-python3 -m quiz_app
+python3 tools/validate.py
 ```
-
-See [quiz_app/README.md](quiz_app/README.md) for full documentation.
 
 ### Interactive Rust demos (hands-on exploration)
 
@@ -233,7 +261,8 @@ python3 demos/run.py
 
 The curriculum is self-contained. Phase 0 assumes only mathematical maturity at the level of an advanced undergraduate (comfort with writing proofs, basic familiarity with sets and functions). Everything else is developed from scratch.
 
-For the quiz application: Python 3.10+ and, optionally, an Anthropic API key.
+For the quiz: a Rust toolchain (the shared `quiz/` workspace), or Python 3.10+
+for the legacy `quiz.py`. Generating new questions needs an Anthropic API key.
 
 For proof assistant work:
 - **Lean 4**: install via [elan](https://github.com/leanprover/elan)

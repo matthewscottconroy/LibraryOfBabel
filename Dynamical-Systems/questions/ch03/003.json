@@ -1,0 +1,22 @@
+{
+  "question_id": "e9a6f3cd-6fc6-4f30-b322-c1c24779b498",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The normal form of the saddle-node bifurcation is:",
+  "choices": [
+    "dx/dt = mu - x^2",
+    "dx/dt = mu x",
+    "dx/dt = mu x - x^3",
+    "dx/dt = -x^3"
+  ],
+  "answer": 0,
+  "explanation": "dx/dt = mu - x^2 is the codimension-1 saddle-node: two equilibria for mu > 0 that collide and annihilate at mu = 0. The cubic form is the pitchfork; mu x is transcritical/linear.",
+  "tags": [
+    "saddle-node",
+    "normal-form",
+    "bifurcation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

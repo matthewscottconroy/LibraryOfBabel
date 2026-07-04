@@ -1,0 +1,18 @@
+{
+  "question_id": "2a77a920-ee60-4de3-a4c9-fea33fda854d",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "How are the dream argument and the evil-demon hypothesis best understood within Descartes' project in the Meditations?",
+  "choices": [
+    "As methodological devices of hyperbolic doubt, heuristics for isolating what is genuinely indubitable, rather than sincere sceptical conclusions Descartes endorses.",
+    "As sincere sceptical conclusions: Descartes finally holds that we cannot know an external world exists.",
+    "As empirical hypotheses about the causes of perceptual error, to be confirmed by further observation.",
+    "As demonstrations that the senses are wholly reliable once God's existence has been secured."
+  ],
+  "answer": 0,
+  "explanation": "Descartes wields hyperbolic doubt instrumentally: whatever can be doubted is set aside so that what survives, the cogito, stands out as indubitable. The dream and demon are heuristics for locating the indubitable, so option 1 mistakes his method for his conclusion; Descartes is not a sincere global sceptic.",
+  "tags": ["descartes", "method of doubt", "evil demon", "dream argument", "skepticism"],
+  "difficulty": "intermediate",
+  "generated": true
+}

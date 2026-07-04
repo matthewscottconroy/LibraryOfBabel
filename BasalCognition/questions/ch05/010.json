@@ -1,0 +1,20 @@
+{
+  "question_id": "b6f13d08-5c2a-4e79-9a04-2d8b7e1c0f53",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Dawkins's concept that a parasite's genes can express themselves in the body and behavior of its host, so that the manipulated zombie-ant behavior is really a phenotypic expression of the fungus's genome, is called the ___.",
+  "choices": [
+    "extended phenotype"
+  ],
+  "answer": "extended phenotype",
+  "explanation": "The answer is the extended phenotype. Dawkins (1982) argued that gene effects can reach beyond the organism's own body; the Ophiocordyceps-directed ant behavior is part of the fungus's extended phenotype, even though the cognitive computation of navigation is still carried out by the ant's own nervous system.",
+  "tags": [
+    "symbiosis",
+    "extended-phenotype",
+    "dawkins",
+    "distributed-cognition"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

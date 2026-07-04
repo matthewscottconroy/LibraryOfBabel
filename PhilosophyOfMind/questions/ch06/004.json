@@ -1,0 +1,22 @@
+{
+  "question_id": "bcdba1e4-6294-4582-8b84-151f932676b5",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Disjunctivism about perception (Hinton, Snowdon, McDowell) is defined by its denial of:",
+  "choices": [
+    "The existence of the external world",
+    "That hallucination can ever be subjectively indistinguishable from perception",
+    "The 'common factor' - a mental element shared by veridical perception and a matching hallucination",
+    "That veridical perception ever puts us in contact with objects"
+  ],
+  "answer": 2,
+  "explanation": "Disjunctivism denies the 'common factor' - the mental element supposedly shared by a veridical perception and a matching hallucination - holding instead that these are fundamentally different kinds of state. Option 0 is idealism, option 1 misstates the view (disjunctivists grant subjective indistinguishability), and option 3 is the reverse of their direct-realist commitment.",
+  "tags": [
+    "disjunctivism",
+    "common-factor",
+    "direct-realism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

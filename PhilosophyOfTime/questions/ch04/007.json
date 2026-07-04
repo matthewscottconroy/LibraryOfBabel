@@ -1,0 +1,18 @@
+{
+  "question_id": "6d162193-52cf-470f-bd74-c3a7f3657346",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Craig Bourne's epistemological objection to the growing block theory contends that:",
+  "choices": [
+    "The theory cannot supply a truthmaker for any proposition about the future",
+    "Relativizing pastness to times generates a vicious infinite regress",
+    "The present cannot advance at any non-trivial rate without a second time dimension",
+    "An agent at the leading edge cannot tell that she is present rather than located in the already-completed interior of the block"
+  ],
+  "answer": 3,
+  "explanation": "On the growing block, past events remain real, so a past person-stage would have experiences indistinguishable from those at the genuine leading edge; Bourne argues the theory therefore cannot explain how anyone knows she is present rather than embedded in the block's interior. Option 1 is McTaggart's regress and option 2 is the moving spotlight's rate problem -- objections to other positions -- while option 0 misstates the worry as being about future truthmakers rather than self-location.",
+  "tags": ["growing-block", "bourne", "epistemological-problem", "a-theory"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "46f51791-144b-4602-8e1c-0b5bba797ae2",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For a source emitting n equally likely symbols, the Shannon entropy H(X) = -sum(p_i log2 p_i) reaches its maximum value of:",
+  "choices": ["0 bits", "1 bit", "log2(n) bits", "n bits"],
+  "answer": 2,
+  "explanation": "Entropy is maximized for a uniform distribution, giving log2(n) bits per symbol. H = 0 corresponds to a certain (zero-surprise) outcome; 1 bit is the maximum only for n = 2; n bits confuses the number of symbols with the information they carry.",
+  "tags": ["shannon-entropy", "information-theory"],
+  "difficulty": "beginner",
+  "generated": true
+}

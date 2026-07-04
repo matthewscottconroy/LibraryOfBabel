@@ -1,0 +1,21 @@
+{
+  "question_id": "a9e9cfe7-7f22-4b55-a015-116ff7c8fa69",
+  "chapter": 16,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Shannon entropy of a discrete random variable X with outcome probabilities p_i is defined as:",
+  "choices": [
+    "Σ_i p_i log₂ p_i",
+    "−Σ_i p_i log₂ p_i",
+    "Σ_i p_i²",
+    "−Σ_i log₂ p_i"
+  ],
+  "answer": 1,
+  "explanation": "H(X) = −Σ_i p_i log₂ p_i, the expected surprisal, with the minus sign making it non-negative (since log₂ p_i ≤ 0). Option 0 drops the sign (giving a non-positive quantity); option 2 is a collision/Rényi-style sum, not Shannon entropy; option 3 omits the probability weights p_i.",
+  "tags": [
+    "shannon-entropy",
+    "definition"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "b18ae7bc-b520-4d8f-927b-3c42337ffeb1",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What does the VanderLugt filter compute optically, and how is the filter formed?",
+  "choices": [
+    "The pointwise product of two images, using a mask invented by Goodman in 2005",
+    "The cross-correlation of an input with a stored reference, using a holographically recorded filter H = f-hat* (VanderLugt, 1964)",
+    "The 2D discrete cosine transform of the input for image compression",
+    "The eigenvalues of the input image's covariance matrix"
+  ],
+  "answer": 1,
+  "explanation": "A holographically recorded matched filter equal to the conjugate spectrum f-hat*, placed at the Fourier plane, produces the cross-correlation (f star g) at the output, as VanderLugt showed in 1964. Goodman wrote the standard Fourier-optics textbook but did not invent the correlator, and a DCT or eigenvalue computation is unrelated to the matched-filter operation.",
+  "tags": ["fourier-optics", "vanderlugt", "optical-correlation"],
+  "difficulty": "intermediate",
+  "generated": true
+}

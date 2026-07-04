@@ -1,0 +1,20 @@
+{
+  "question_id": "90b3fc21-2b7f-49a9-8c10-a3a05cea0c02",
+  "chapter": 25,
+  "phase": 8,
+  "kind": "blank",
+  "text": "A Grothendieck topos is a category equivalent to the category of sheaves $\\mathrm{Sh}(\\mathcal{C},J)$ on a ___.",
+  "choices": [
+    "site",
+    "Grothendieck site"
+  ],
+  "answer": "site",
+  "explanation": "The chapter defines a Grothendieck topos as a category equivalent to $\\mathrm{Sh}(\\mathcal{C},J)$, the sheaves on a site: a category $\\mathcal{C}$ equipped with a Grothendieck topology $J$. A bare topological space is only the special case $\\mathcal{O}(X)$; the general definition requires a site.",
+  "tags": [
+    "grothendieck-topos",
+    "site",
+    "sheaf"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

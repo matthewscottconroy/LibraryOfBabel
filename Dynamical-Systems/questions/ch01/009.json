@@ -1,0 +1,20 @@
+{
+  "question_id": "8f698d02-1d77-4a61-ae05-c595aaaadab2",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Every smooth vector field on the 2-torus T^2 must have at least one equilibrium (zero).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "By Poincare-Hopf the sum of indices equals chi(T^2) = 0, so a nowhere-vanishing field exists (e.g. a constant flow). On the sphere, where chi = 2, a zero is forced instead.",
+  "tags": [
+    "poincare-hopf",
+    "torus",
+    "vector-fields"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

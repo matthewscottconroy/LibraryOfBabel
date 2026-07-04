@@ -1,0 +1,201 @@
+title = 'Computational Systems and Synthetic Biology Adaptive Quiz'
+chapters_dir = './curriculum'
+system_prompt = """You are an expert quiz question generator for a graduate-level course on Computational Systems and Synthetic Biology. Topics include: gene regulatory networks, Boolean models of gene circuits, differential equation models of molecular dynamics, oscillators (repressilator, toggle switch), synthetic circuits, CRISPR systems, metabolic engineering, flux balance analysis, eigenvalue stability analysis, RNA-seq and differential expression, PCA of expression data, mass spectrometry, Ramachandran plots, MAPK signalling cascades, and knock-out flux analysis. Questions test quantitative reasoning and mechanistic understanding."""
+
+[[chapters]]
+index = 0
+phase = 0
+name = 'Mathematics'
+file = 'tier-0-bedrock/0.1-mathematics.md'
+
+[[chapters]]
+index = 1
+phase = 0
+name = 'Chemistry'
+file = 'tier-0-bedrock/0.2-chemistry.md'
+
+[[chapters]]
+index = 2
+phase = 0
+name = 'Biology'
+file = 'tier-0-bedrock/0.3-biology.md'
+
+[[chapters]]
+index = 3
+phase = 0
+name = 'Computer Science'
+file = 'tier-0-bedrock/0.4-computer-science.md'
+
+[[chapters]]
+index = 4
+phase = 1
+name = 'Sequence Analysis'
+file = 'tier-1-bioinformatics/1.1-sequence-analysis.md'
+
+[[chapters]]
+index = 5
+phase = 1
+name = 'Genomics'
+file = 'tier-1-bioinformatics/1.2-genomics.md'
+
+[[chapters]]
+index = 6
+phase = 1
+name = 'Transcriptomics'
+file = 'tier-1-bioinformatics/1.3-transcriptomics.md'
+
+[[chapters]]
+index = 7
+phase = 1
+name = 'Proteomics and Metabolomics'
+file = 'tier-1-bioinformatics/1.4-proteomics-metabolomics.md'
+
+[[chapters]]
+index = 8
+phase = 1
+name = 'Structural Bioinformatics'
+file = 'tier-1-bioinformatics/1.5-structural-bioinformatics.md'
+
+[[chapters]]
+index = 9
+phase = 1
+name = 'Phylogenetics'
+file = 'tier-1-bioinformatics/1.6-phylogenetics.md'
+
+[[chapters]]
+index = 10
+phase = 2
+name = 'Mathematical Modeling'
+file = 'tier-2-systems-biology/2.1-mathematical-modeling.md'
+
+[[chapters]]
+index = 11
+phase = 2
+name = 'Metabolic Modeling'
+file = 'tier-2-systems-biology/2.2-metabolic-modeling.md'
+
+[[chapters]]
+index = 12
+phase = 2
+name = 'Gene Regulatory Networks'
+file = 'tier-2-systems-biology/2.3-gene-regulatory-networks.md'
+
+[[chapters]]
+index = 13
+phase = 2
+name = 'Signaling Networks'
+file = 'tier-2-systems-biology/2.4-signaling-networks.md'
+
+[[chapters]]
+index = 14
+phase = 2
+name = 'Multiscale and Whole-Cell'
+file = 'tier-2-systems-biology/2.5-multiscale-wholecell.md'
+
+[[chapters]]
+index = 15
+phase = 3
+name = 'Genetic Parts and Devices'
+file = 'tier-3-synthetic-biology/3.1-genetic-parts-devices.md'
+
+[[chapters]]
+index = 16
+phase = 3
+name = 'Genetic Circuit Design'
+file = 'tier-3-synthetic-biology/3.2-genetic-circuit-design.md'
+
+[[chapters]]
+index = 17
+phase = 3
+name = 'Genome Editing'
+file = 'tier-3-synthetic-biology/3.3-genome-editing.md'
+
+[[chapters]]
+index = 18
+phase = 3
+name = 'Metabolic Engineering'
+file = 'tier-3-synthetic-biology/3.4-metabolic-engineering.md'
+
+[[chapters]]
+index = 19
+phase = 3
+name = 'Directed Evolution'
+file = 'tier-3-synthetic-biology/3.5-directed-evolution.md'
+
+[[chapters]]
+index = 20
+phase = 3
+name = 'Cell-Free Systems'
+file = 'tier-3-synthetic-biology/3.6-cell-free-systems.md'
+
+[[chapters]]
+index = 21
+phase = 3
+name = 'Biosafety and Ethics'
+file = 'tier-3-synthetic-biology/3.7-biosafety-ethics.md'
+
+[[chapters]]
+index = 22
+phase = 4
+name = 'Scientific Computing'
+file = 'tier-4-computational-tools/4.1-scientific-computing.md'
+
+[[chapters]]
+index = 23
+phase = 4
+name = 'Machine Learning in Biology'
+file = 'tier-4-computational-tools/4.2-machine-learning-biology.md'
+
+[[chapters]]
+index = 24
+phase = 4
+name = 'Molecular Dynamics'
+file = 'tier-4-computational-tools/4.3-molecular-dynamics.md'
+
+[[chapters]]
+index = 25
+phase = 4
+name = 'Network Analysis'
+file = 'tier-4-computational-tools/4.4-network-analysis.md'
+
+[[chapters]]
+index = 26
+phase = 4
+name = 'Software Engineering for Research'
+file = 'tier-4-computational-tools/4.5-software-engineering-research.md'
+
+[[chapters]]
+index = 27
+phase = 5
+name = 'Foundational Papers'
+file = 'tier-5-literature-research/5.1-foundational-papers.md'
+
+[[chapters]]
+index = 28
+phase = 5
+name = 'Research Craft'
+file = 'tier-5-literature-research/5.2-research-craft.md'
+
+[[phases]]
+index = 0
+name = 'Tier 0 — Bedrock (Math, Chemistry, Biology, CS)'
+
+[[phases]]
+index = 1
+name = 'Tier 1 — Bioinformatics'
+
+[[phases]]
+index = 2
+name = 'Tier 2 — Systems Biology'
+
+[[phases]]
+index = 3
+name = 'Tier 3 — Synthetic Biology'
+
+[[phases]]
+index = 4
+name = 'Tier 4 — Computational Tools'
+
+[[phases]]
+index = 5
+name = 'Tier 5 — Literature and Research'

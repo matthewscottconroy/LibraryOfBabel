@@ -1,0 +1,22 @@
+{
+  "question_id": "918f0f43-b857-4c44-903a-93447798f783",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In this book, an atlas {(U_α, φ_α)} on a topological manifold is called a smooth (C^∞) atlas precisely when which condition holds?",
+  "choices": [
+    "Each chart map φ_α is a linear isomorphism of U_α onto ℝⁿ.",
+    "Every point of the manifold lies in exactly one chart U_α.",
+    "All transition maps φ_β ∘ φ_α⁻¹ are C^∞ diffeomorphisms of open subsets of ℝⁿ.",
+    "The manifold is compact and can be covered by a single global chart."
+  ],
+  "answer": 2,
+  "explanation": "The book defines a smooth atlas as one whose transition maps φ_β ∘ φ_α⁻¹ are all C^∞ diffeomorphisms between open subsets of ℝⁿ; a smooth manifold then carries a maximal such atlas. Charts are homeomorphisms, not required to be linear, and they routinely overlap, which is exactly why the compatibility of the overlaps is what must be smooth. Requiring a single global chart would exclude S² and most manifolds of interest.",
+  "tags": [
+    "smooth-manifolds",
+    "charts",
+    "atlas"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

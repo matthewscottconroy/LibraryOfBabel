@@ -1,0 +1,22 @@
+{
+  "question_id": "8d65c445-4fbd-4d29-8975-8e385e886b60",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The finding (Hassabis and colleagues) that patients with hippocampal amnesia are also impaired at imagining novel future or fictional scenarios is used to support which claim?",
+  "choices": [
+    "Episodic memory is simply the retrieval of a discrete stored engram",
+    "Semantic and episodic memory form a single undifferentiated system",
+    "Memory is a storehouse whose contents imagination cannot share",
+    "Episodic memory and future imagination draw on a common constructive system"
+  ],
+  "answer": 3,
+  "explanation": "The memory-imagination overlap indicates that remembering and imagining share a common constructive (simulation) system, the view developed by Michaelian and Schacter. This tells against the archival/trace picture of memory as retrieval of a discrete engram; it neither collapses the semantic-episodic distinction nor states the separate causal-theory requirement.",
+  "tags": [
+    "simulation-theory",
+    "constructive-memory",
+    "hippocampus"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

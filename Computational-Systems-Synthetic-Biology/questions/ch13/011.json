@@ -1,0 +1,19 @@
+{
+  "chapter": 13,
+  "phase": 2,
+  "kind": "blank",
+  "text": "T cell activation requires the co-incidence of two signals -- TCR engagement and CD28 co-stimulation -- which is mathematically implemented as a(n) ___ gate, where the output is proportional to the product of the two input signals.",
+  "choices": [
+    "AND"
+  ],
+  "answer": "AND",
+  "explanation": "This is AND-gate logic: T cell activation (and similarly, B cell activation and mTORC1 activation) requires two coincident inputs, mathematically modeled as a multiplicative interaction (output proportional to signal_A times signal_B) so that either signal alone is insufficient. Sharp AND-gate switching additionally requires threshold nonlinearities on each individual input.",
+  "tags": [
+    "and-gate",
+    "signal-integration",
+    "t-cell-activation"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "8e5cf896-71c7-41d3-8b4a-49b96dcf7077"
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "b3d9b061-bfc6-4c32-a967-ef85086f1256",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In a first-quadrant cohomological spectral sequence, the differential $d_r$ on the $E_r$ page maps $E_r^{p,q}$ to:",
+  "choices": [
+    "$E_r^{p+r,q-r+1}$",
+    "$E_r^{p+1,q}$",
+    "$E_r^{p-r,q+r-1}$",
+    "$E_r^{p+r-1,q-r}$"
+  ],
+  "answer": 0,
+  "explanation": "By definition $d_r$ sends $E_r^{p,q}$ to $E_r^{p+r,q-r+1}$: right by $r$, down by $r-1$, raising total degree by $1$. A map to $E_r^{p+1,q}$ is a double-complex horizontal differential, not $d_r$; $E_r^{p-r,q+r-1}$ is the source of the incoming $d_r$ (arrow reversed); and $E_r^{p+r-1,q-r}$ simply has the wrong bidegree.",
+  "tags": ["spectral-sequences", "differential", "bidegree"],
+  "difficulty": "beginner",
+  "generated": true
+}

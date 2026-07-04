@@ -1,0 +1,18 @@
+{
+  "question_id": "0facb530-b82e-41b9-b794-aae5d05e8543",
+  "chapter": 25,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Co-packaged optics (CPO) is called the commercial 'beachhead' for photonics inside the computer. Roughly what energy-per-bit change does moving from faceplate pluggables into the ASIC package deliver at 51.2 Tb/s switch scale?",
+  "choices": [
+    "From about 5 pJ/bit down to about 1 pJ/bit",
+    "No energy improvement; CPO only reduces latency",
+    "From about 50 pJ/bit down to about 25 pJ/bit",
+    "From about 12 to 15 pJ/bit down to about 5 pJ/bit, roughly halving switch optics power"
+  ],
+  "answer": 3,
+  "explanation": "Faceplate pluggables run at roughly 12 to 15 pJ/bit; co-packaging the transceiver in the ASIC package drops this to about 5 pJ/bit, roughly halving switch optics power at 51.2 Tb/s and removing the painful electrical trace at 100+ Gb/s per lane. The other options invert or fabricate the figures, and CPO's benefit is energy, not merely latency.",
+  "tags": ["co-packaged-optics", "cpo", "energy-per-bit"],
+  "difficulty": "advanced",
+  "generated": true
+}

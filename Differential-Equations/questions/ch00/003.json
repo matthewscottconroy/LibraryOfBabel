@@ -1,0 +1,18 @@
+{
+  "question_id": "76f49524-5ace-4b24-b104-dcd20958afd5",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The ___ property of the real numbers states that for every real x there exists a natural number n with n > x.",
+  "choices": [
+    "Archimedean"
+  ],
+  "answer": "Archimedean",
+  "explanation": "The Archimedean property asserts the naturals are unbounded above in R, so some n exceeds any given real x; equivalently 1/n -> 0. It is used, for example, to prove that a rational lies between any two reals.",
+  "tags": [
+    "archimedean-property",
+    "real-numbers"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

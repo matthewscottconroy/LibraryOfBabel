@@ -1,0 +1,13 @@
+{
+  "question_id": "53e8cc59-cd60-4e90-9a39-a5b6d1d6d79c",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "tf",
+  "text": "A lens computes the 2D Fourier transform of an image essentially in the time it takes light to cross a focal length (nanoseconds for a 10 cm lens), for any input image and with no programming.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: the book states a lens performs the 2D transform in the light-transit time and for any image content without programming, versus roughly 10 microseconds for a CPU FFT of a 1000x1000 image. The parallelism and instantaneity are exactly what make the lens the original 'photonic computer.'",
+  "tags": ["fourier-optics", "lens", "parallelism"],
+  "difficulty": "beginner",
+  "generated": true
+}

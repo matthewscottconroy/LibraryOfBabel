@@ -1,0 +1,18 @@
+{
+  "question_id": "a16f0b6e-5643-4535-8950-c677c62e7c73",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the in-situ backpropagation of Hughes et al. (2018), the gradient with respect to each phase shifter is proportional to what, and what makes the backward pass implement the transpose?",
+  "choices": [
+    "Proportional to |e_fwd|^2, with a circulator implementing the transpose",
+    "Proportional to Re[e_fwd*e_adj], with wavelength multiplexing implementing the transpose",
+    "Proportional to the thermo-optic coefficient, with the transpose computed electronically",
+    "Proportional to Im[e_fwd*e_adj], where the adjoint (error) field is injected backward into the output ports and network reciprocity implements W-transpose*delta automatically"
+  ],
+  "answer": 3,
+  "explanation": "Hughes et al. (2018) showed the phase-shifter gradient is proportional to Im[e_fwd*e_adj]; injecting the error field backward and exploiting the network's reciprocity realizes the transpose physically, giving backprop at light speed (demonstrated by Pai et al. 2023). It uses the imaginary part (not |e|^2 or the real part), and reciprocity, not a circulator, WDM, or electronics, supplies the transpose.",
+  "tags": ["in-situ-training", "backpropagation", "hughes-2018", "adjoint"],
+  "difficulty": "advanced",
+  "generated": true
+}

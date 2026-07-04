@@ -1,0 +1,18 @@
+{
+  "question_id": "c1d7a390-2b6e-4e83-9a4f-51b8c0d2e7f6",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the Tero et al. (2010) Tokyo rail experiment, oat flakes marked the major towns and Physarum was placed at Tokyo. How did the resulting Physarum network compare to the real rail system?",
+  "choices": [
+    "It was comparable in efficiency, fault tolerance, and cost, sometimes slightly exceeding the human design on efficiency and robustness",
+    "It was far denser and more costly, wastefully connecting every node directly to every other node",
+    "It failed to reach the outlying towns, forming only a small local cluster near Tokyo",
+    "It produced a single straight line that ignored the geographic obstacles entirely"
+  ],
+  "answer": 0,
+  "explanation": "The Physarum network closely matched the actual Tokyo network on efficiency (mean shortest-path length), fault tolerance, and total cost, and in some respects slightly outperformed the engineered system on efficiency and robustness. Salt patches represented obstacles it avoided, so it respected geography (not choice 3) and did connect the towns (not choice 2) without building an exhaustive, costly all-to-all network (not choice 1).",
+  "tags": ["slime-mold", "tokyo-rail", "network-optimization"],
+  "difficulty": "intermediate",
+  "generated": true
+}

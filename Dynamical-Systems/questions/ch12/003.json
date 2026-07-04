@@ -1,0 +1,22 @@
+{
+  "question_id": "65361222-736b-4de9-b5a6-63195957e38f",
+  "chapter": 12,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Extended to the 2-adic integers Z_2, the Collatz map preserves which measure?",
+  "choices": [
+    "Lebesgue measure on R",
+    "the counting measure",
+    "Haar measure on Z_2",
+    "no invariant measure"
+  ],
+  "answer": 2,
+  "explanation": "On Z_2 the Collatz map is a measure-preserving bijection for the 2-adic Haar measure, and it is ergodic there; this is Lagarias's 2-adic viewpoint.",
+  "tags": [
+    "collatz",
+    "2-adic",
+    "haar-measure"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "f19770bb-6838-499f-bbd0-cf4ea6e2918a",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Lovelock's theorem (1971) explains why the left-hand side of the Einstein field equations takes its particular form. What does the theorem establish?",
+  "choices": [
+    "That gravitational waves carry exactly two polarization states",
+    "That the cosmological constant Λ must be exactly zero",
+    "That in 4 spacetime dimensions, G_μν (up to a term Λ g_μν) is the only symmetric, divergence-free rank-2 tensor built from the metric and its first two derivatives",
+    "That the Schwarzschild metric is the unique spherically symmetric asymptotically flat vacuum solution"
+  ],
+  "answer": 2,
+  "explanation": "Lovelock's theorem states that in four spacetime dimensions the only symmetric, divergence-free, rank-2 tensor built from g_μν and its first two derivatives is α G_μν + Λ g_μν. This uniqueness is why the Einstein tensor (with an optional cosmological term) is essentially forced as the geometric side. The unique spherical vacuum solution is Birkhoff's theorem, and the two-polarization count is a separate degrees-of-freedom result — neither is Lovelock's theorem, and Λ is permitted, not forbidden.",
+  "tags": ["efe", "lovelock", "uniqueness"],
+  "difficulty": "intermediate",
+  "generated": true
+}

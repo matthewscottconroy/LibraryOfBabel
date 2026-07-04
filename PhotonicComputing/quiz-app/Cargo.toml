@@ -1,3 +1,0 @@
-[workspace]
-members = ["quiz-core", "quiz-cli", "quiz-tui", "quiz-web"]
-resolver = "2"

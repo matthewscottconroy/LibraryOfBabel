@@ -1,0 +1,20 @@
+{
+  "question_id": "5766ffbc-cfb4-4512-ac4c-57ab3ed1c8e0",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The later Greek phrase used to summarize Heraclitus' doctrine of universal flux, meaning 'everything flows,' is '___.'",
+  "choices": [
+    "panta rhei"
+  ],
+  "answer": "panta rhei",
+  "explanation": "'Panta rhei' ('everything flows') is the traditional summary of Heraclitus' flux doctrine. The book notes that the phrase does not actually appear in the surviving fragments and is a later formulation (reported in Simplicius); it nonetheless captures the river fragments' claim that all things are in constant change.",
+  "tags": [
+    "heraclitus",
+    "flux",
+    "panta-rhei",
+    "pre-socratics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

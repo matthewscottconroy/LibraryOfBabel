@@ -1,0 +1,21 @@
+{
+  "question_id": "38d368f6-4fda-45fc-814a-8143c8bceee0",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Hume reported that when he looked inward he could never catch an impression of a simple, persisting 'self' -- only particular perceptions -- and concluded that the self is a bundle of perceptions.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Hume's bundle theory denies any impression of a self distinct from the sequence of perceptions; the sense of a unified persisting self is a fiction the imagination imposes on closely connected perceptions. He also confessed in the Treatise's appendix that he could not fully explain what unifies the bundle.",
+  "tags": [
+    "hume",
+    "bundle-theory",
+    "self",
+    "perceptions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Under the affine gap penalty model, what is the cost of a single gap of length L?",
+  "choices": [
+    "gap_length \u00d7 gap_extend, with no fixed opening cost",
+    "gap_open + (gap_length \u2212 1) \u00d7 gap_extend",
+    "gap_open \u00d7 gap_length \u00d7 gap_extend",
+    "d \u00d7 gap_length, where d is a single fixed per-residue cost"
+  ],
+  "answer": 1,
+  "explanation": "The affine model charges a one-time gap_open cost plus a per-residue gap_extend cost for the remaining (L-1) positions, reflecting that a single indel event typically opens a run of gaps. The last option describes the simpler linear penalty model (cost = d \u00d7 L), and the other two options invent multiplicative formulas that don't correspond to either the linear or affine model used by the Gotoh algorithm.",
+  "tags": [
+    "gap-penalties",
+    "affine-gaps",
+    "gotoh"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "a9835eb1-7b2a-4435-9e61-d615673c8330"
+}

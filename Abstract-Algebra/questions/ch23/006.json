@@ -1,0 +1,18 @@
+{
+  "question_id": "355d2dc6-a860-4704-8aca-e0db1dc98f14",
+  "chapter": 23,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Cohen's 1963 forcing argument established which relative-consistency result?",
+  "choices": [
+    "$\\mathrm{Con}(\\mathrm{ZF}) \\Rightarrow \\mathrm{Con}(\\mathrm{ZF}+\\mathrm{AC}+\\mathrm{GCH})$",
+    "that CH is provable in ZFC",
+    "$\\mathrm{Con}(\\mathrm{ZF}) \\Rightarrow \\mathrm{Con}(\\mathrm{ZF}+\\mathrm{AC}+\\neg\\mathrm{CH})$",
+    "that ZFC is inconsistent"
+  ],
+  "answer": 2,
+  "explanation": "Cohen used forcing to prove $\\mathrm{Con}(\\mathrm{ZF}) \\Rightarrow \\mathrm{Con}(\\mathrm{ZFC}+\\neg\\mathrm{CH})$, so CH is NOT provable from ZFC. The first option is Godel's constructible-universe result (the complementary half, giving consistency of GCH). Together they make CH independent, and both results assume, rather than refute, the consistency of ZFC.",
+  "tags": ["forcing", "continuum-hypothesis", "independence"],
+  "difficulty": "advanced",
+  "generated": true
+}

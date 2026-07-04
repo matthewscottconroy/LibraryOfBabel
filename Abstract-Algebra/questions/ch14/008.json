@@ -1,0 +1,20 @@
+{
+  "question_id": "2931b195-d52f-42db-8e45-4a47d3d63453",
+  "chapter": 14,
+  "phase": 5,
+  "kind": "tf",
+  "text": "A short exact sequence of chain complexes 0 → A• → B• → C• → 0 induces a long exact sequence in homology.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "⋯ → Hₙ(A) → Hₙ(B) → Hₙ(C) →∂→ Hₙ₋₁(A) → ⋯, with the connecting map ∂ built by the snake lemma. This long exact sequence is the central computational engine of homological algebra and algebraic topology.",
+  "tags": [
+    "exact-sequences",
+    "long-exact-sequence",
+    "homology"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

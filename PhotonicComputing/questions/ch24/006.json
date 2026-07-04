@@ -1,0 +1,13 @@
+{
+  "question_id": "546d23f2-c956-491e-b482-921be45afff1",
+  "chapter": 24,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Co-design partitions tasks by comparative advantage — linear algebra to photonics, nonlinearity and memory to electronics. If photonics accelerates the linear 90% of a workload by 100x, what caps the end-to-end speedup?",
+  "choices": ["100x, the full accelerator speedup", "About 9x, by Amdahl's law, because the un-accelerated 10% comes to dominate", "1x, because the conversions cancel all benefit", "90x, proportional to the accelerated fraction"],
+  "answer": 1,
+  "explanation": "Amdahl's law gives speedup <= 1 / (0.1 + 0.9/100), which is about 9x, no matter how fast the linear part runs. Choice 0 ignores the serial remainder; choice 2 is too pessimistic; choice 3 misapplies the fraction — speedup is bounded by the un-accelerated part, not proportional to the accelerated part.",
+  "tags": ["amdahl", "co-design", "speedup"],
+  "difficulty": "advanced",
+  "generated": true
+}

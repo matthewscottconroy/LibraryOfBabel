@@ -1,0 +1,20 @@
+{
+  "question_id": "c04e61d6-e17c-4e83-a1cb-3ebd2c6f2f2d",
+  "chapter": 13,
+  "phase": 6,
+  "kind": "tf",
+  "text": "Synthetic ergodic theory inside HoTT is a fully completed, closed subject.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Proving ergodic theorems synthetically inside HoTT - without set-theoretic measure theory - is an open research direction, building on real-cohesion but far from complete.",
+  "tags": [
+    "synthetic-ergodic-theory",
+    "hott",
+    "open-problem"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

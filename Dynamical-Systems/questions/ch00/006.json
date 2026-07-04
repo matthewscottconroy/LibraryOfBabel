@@ -1,0 +1,22 @@
+{
+  "question_id": "54f56f48-35c6-4bce-b117-ff45a3e3adc6",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Arnold's geometric view, the ODE dx/dt = f(x) is best understood as:",
+  "choices": [
+    "a vector field generating a flow (a one-parameter group of diffeomorphisms)",
+    "a single solution curve",
+    "a static probability density",
+    "an algebraic equation with finitely many roots"
+  ],
+  "answer": 0,
+  "explanation": "The vector field f assigns a velocity at each point; its solution is the flow Phi_t, a one-parameter group with f as infinitesimal generator. It is not a single curve, a density, or an algebraic equation.",
+  "tags": [
+    "flows",
+    "vector-fields",
+    "geometric-view"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

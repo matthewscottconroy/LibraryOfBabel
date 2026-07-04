@@ -1,0 +1,22 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which substitution matrix is most appropriate for aligning two protein sequences that are highly divergent (only distantly related)?",
+  "choices": [
+    "BLOSUM80",
+    "BLOSUM62",
+    "PAM1",
+    "BLOSUM50"
+  ],
+  "answer": 3,
+  "explanation": "BLOSUM50 is derived from more divergent alignment blocks, so lower-numbered BLOSUM matrices are the right choice for distant relatives, while BLOSUM80 is built for closely related sequences and BLOSUM62 is the general-purpose default. PAM1 represents only 1 accepted mutation per 100 residues, making it suited to very closely related sequences, not divergent ones \u2014 the PAM numbering scale runs the opposite direction from BLOSUM's.",
+  "tags": [
+    "substitution-matrices",
+    "blosum",
+    "pam"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "d2f300c9-0d63-4c02-908b-170abc3fa592"
+}

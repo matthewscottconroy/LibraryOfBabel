@@ -1,0 +1,20 @@
+{
+  "question_id": "6747f28c-291e-46e5-b1c1-cfd2fcebca40",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "tf",
+  "text": "For an ergodic system, the atom of the n-th partition refinement containing x has measure approximately e^{-n h_mu(T)}.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is the geometric content of Shannon-McMillan-Breiman: refinement atoms shrink at the exponential rate given by the KS entropy, the dynamical AEP.",
+  "tags": [
+    "shannon-mcmillan-breiman",
+    "ks-entropy",
+    "aep"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "1a2186a3-44eb-49ee-8de6-cd91e6c70735",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What does the Boyd-Chua (1985) theorem guarantee, providing the theoretical license for reservoir computing?",
+  "choices": [
+    "Only linear time-invariant functionals can be approximated, and only by linear reservoirs",
+    "Any causal, time-invariant fading-memory functional can be approximated to arbitrary accuracy by a finite-dimensional driven dynamical system plus a readout",
+    "Fading-memory functionals can be approximated only if the recurrent weights are trained by gradient descent",
+    "Approximation always requires an infinite-dimensional state, ruling out practical reservoirs"
+  ],
+  "answer": 1,
+  "explanation": "Boyd-Chua extends Stone-Weierstrass to functionals: any causal, time-invariant fading-memory functional is approximable to within any epsilon by a finite-dimensional driven system with a readout. It is not restricted to linear functionals, needs no training of the recurrent dynamics, and requires only finite (not infinite) state dimension.",
+  "tags": [
+    "boyd-chua",
+    "approximation-theorem",
+    "fading-memory"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "32cb48e9-6f85-403f-8511-bf4820ea5fae",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Over the natural numbers with R(x, y) meaning 'x < y', which of the following is correct?",
+  "choices": [
+    "∃y ∀x (x < y) is true; ∀x ∃y (x < y) is false",
+    "both sentences are true",
+    "both sentences are false",
+    "∀x ∃y (x < y) is true; ∃y ∀x (x < y) is false"
+  ],
+  "answer": 3,
+  "explanation": "∀x ∃y (x < y) is true (given n, take the witness y = n+1). ∃y ∀x (x < y) is false (no natural number exceeds every natural number). The valid implication runs ∃y∀x ⟹ ∀x∃y, never the reverse, so options 1, 2, and 3 mis-evaluate at least one sentence.",
+  "tags": [
+    "nested-quantifiers",
+    "quantifier-order",
+    "satisfaction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

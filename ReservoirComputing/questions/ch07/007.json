@@ -1,0 +1,20 @@
+{
+  "question_id": "220857a7-19e7-4b9a-9c2c-61488af1c2be",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In the lab, the ESN's open-loop (1-step-ahead) NMSE on Mackey-Glass is very small — the network essentially learns a smooth interpolation of the signal.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: the lab notes the 1-step open-loop NMSE should be very small because Mackey-Glass is smooth, so one-step prediction is easy. The difficulty appears only in multi-step closed-loop generation.",
+  "tags": [
+    "mackey-glass",
+    "open-loop",
+    "nmse"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

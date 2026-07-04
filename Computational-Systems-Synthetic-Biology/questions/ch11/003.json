@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "iJO1366, one of the most widely used genome-scale metabolic models, reconstructs the metabolism of which organism?",
+  "choices": [
+    "Saccharomyces cerevisiae (yeast8)",
+    "Homo sapiens (Recon3D)",
+    "Escherichia coli K-12",
+    "A human gut microbiome community (AGORA2)"
+  ],
+  "answer": 2,
+  "explanation": "iJO1366 is a genome-scale reconstruction of Escherichia coli K-12 with 1366 genes and 2583 reactions, making it the most studied bacterial GEM. Saccharomyces cerevisiae is instead represented by the yeast8 consensus reconstruction, human metabolism by Recon3D, and gut-microbiome communities by the AGORA2 collection of models.",
+  "tags": [
+    "genome-scale-models",
+    "e-coli",
+    "gems"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "9511befb-dd23-4b85-9dbc-5db6d284402d"
+}

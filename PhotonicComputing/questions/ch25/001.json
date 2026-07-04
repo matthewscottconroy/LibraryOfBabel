@@ -1,0 +1,18 @@
+{
+  "question_id": "0ed78ded-2707-4921-94bb-99437d6ee86e",
+  "chapter": 25,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The founding of both Lightmatter and Lightelligence traces directly to which 2017 demonstration?",
+  "choices": [
+    "The coherent nanophotonic neural network of Shen et al. at MIT",
+    "The monolithic 45 nm CMOS photonics of Atabaki et al.",
+    "PsiQuantum's fusion-based quantum computing proposal",
+    "Xanadu's Gaussian boson sampling on the X8 chip"
+  ],
+  "answer": 0,
+  "explanation": "The 2017 coherent nanophotonic neural network [Shen et al., Nature Photonics] is described as the founding document of the photonic AI industry, spawning Lightmatter and Lightelligence from different authors of the same paper. Atabaki's 45 nm CMOS photonics (2018) is the lineage behind Ayar Labs, not these two; PsiQuantum and Xanadu are quantum-photonics companies with unrelated origins.",
+  "tags": ["industry", "lightmatter", "lightelligence", "history"],
+  "difficulty": "beginner",
+  "generated": true
+}

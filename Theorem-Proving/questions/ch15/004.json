@@ -1,0 +1,21 @@
+{
+  "question_id": "1d4132be-ed82-4807-86b1-ae55a7c37a7c",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What does the Weak Supplementation principle, PP(x,y) → ∃z(P(z,y) ∧ ¬O(z,x)), rule out?",
+  "choices": [
+    "Objects with infinitely many parts",
+    "Atoms",
+    "Scattered fusions",
+    "A whole that has exactly one proper part and no remainder"
+  ],
+  "answer": 3,
+  "explanation": "WSP demands that whenever x is a proper part of y, some part of y is disjoint from x — a remainder — which forbids the pathological model where y has a single proper part and nothing else. It does not ban infinite parthood, atoms, or scattered fusions, all of which classical mereology permits.",
+  "tags": [
+    "weak-supplementation",
+    "remainder"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

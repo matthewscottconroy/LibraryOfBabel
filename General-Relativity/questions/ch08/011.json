@@ -1,0 +1,13 @@
+{
+  "question_id": "a79c525f-63df-4c03-91f9-f4b8895dd931",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In general relativity, a freely falling body subject to no non-gravitational forces moves along a ___ of spacetime, the curved-space generalization of a straight line.",
+  "choices": ["geodesic"],
+  "answer": "geodesic",
+  "explanation": "The GR law of motion is the geodesic equation ẍ^μ + Γ^μ_νρ ẋ^ν ẋ^ρ = 0, which defines a geodesic — a curve that parallel-transports its own tangent vector and (for timelike paths) maximizes proper time. This replaces Newton's second law for gravitational motion: gravity is not a force but is encoded in the Christoffel symbols Γ^μ_νρ built from the metric.",
+  "tags": ["geodesic", "law-of-motion"],
+  "difficulty": "beginner",
+  "generated": true
+}

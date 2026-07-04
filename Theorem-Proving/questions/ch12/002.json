@@ -1,0 +1,23 @@
+{
+  "question_id": "50e8298e-5a07-4cd0-af3c-ba2339811cc7",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What does total correctness [P] C [Q] guarantee that partial correctness {P} C {Q} does not?",
+  "choices": [
+    "That Q implies P",
+    "That C terminates whenever P holds",
+    "That P is the weakest precondition",
+    "That the postcondition Q holds if C terminates"
+  ],
+  "answer": 1,
+  "explanation": "Total correctness adds the termination guarantee: whenever P holds, C halts AND Q holds. Choice 3 is exactly what partial correctness already provides, so it is not the distinguishing feature. Choices 0 and 2 are unrelated to the partial/total distinction.",
+  "tags": [
+    "hoare-logic",
+    "total-correctness",
+    "partial-correctness",
+    "termination"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "e48bfbfe-ae9a-482f-ae5b-5bad4d326cb7",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Kripke semantics, when is □φ true at a world w?",
+  "choices": [
+    "When φ is true at w itself",
+    "When φ is true at some world accessible from w",
+    "When φ is true at every world accessible from w",
+    "When φ is true at no world accessible from w"
+  ],
+  "answer": 2,
+  "explanation": "□φ (necessity) is true at w iff φ holds at every R-accessible world. Choice 1 is the clause for ◇φ (possibility), which needs only one accessible world. Choice 0 ignores accessibility entirely, and choice 3 describes ¬◇φ.",
+  "tags": [
+    "modal-logic",
+    "kripke-semantics",
+    "necessity",
+    "box"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

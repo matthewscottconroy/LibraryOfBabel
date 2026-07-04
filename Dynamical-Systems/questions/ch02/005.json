@@ -1,0 +1,22 @@
+{
+  "question_id": "97f755ab-2108-4ab8-a84c-ad8e0dd11fe2",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A compact invariant set is hyperbolic when its tangent bundle splits as E^s (+) E^u with:",
+  "choices": [
+    "uniform contraction on E^s and uniform expansion on E^u",
+    "rotation on both subspaces",
+    "all Lyapunov exponents equal to zero",
+    "E^s = E^u"
+  ],
+  "answer": 0,
+  "explanation": "Hyperbolicity is uniform contraction in the stable direction and expansion in the unstable direction. Zero exponents or equal/rotating subspaces describe non-hyperbolic (e.g. elliptic) behaviour.",
+  "tags": [
+    "hyperbolic-sets",
+    "stable-unstable",
+    "dynamics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

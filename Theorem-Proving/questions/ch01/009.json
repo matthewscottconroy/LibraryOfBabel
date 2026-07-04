@@ -1,0 +1,19 @@
+{
+  "question_id": "6ba9c8aa-5ea3-4c36-8e51-e4d749084606",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The ___ theorem for propositional logic states that an infinite set of formulas Γ is satisfiable if and only if every finite subset of Γ is satisfiable.",
+  "choices": [
+    "compactness"
+  ],
+  "answer": "compactness",
+  "explanation": "This is the compactness theorem, proved by a König's-lemma argument on the tree of partial truth assignments. It has deep consequences, including the existence of non-standard models discussed in later chapters.",
+  "tags": [
+    "compactness",
+    "satisfiability",
+    "propositional-logic"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "71e0a9c3-5d24-4b8f-96a1-3c7e0f2b8d51",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the frontiers unit, what distinguishes nociception from pain?",
+  "choices": ["Nociception occurs only in neural systems, whereas pain occurs in all organisms", "Pain is the detection of noxious stimuli, and nociception adds subjective experience", "Nociception is the detection of noxious stimuli plus avoidance behavior, while pain additionally involves subjective experience of the noxious state", "They are synonyms with no meaningful distinction"],
+  "answer": 2,
+  "explanation": "Nociception is the detection of tissue-damaging stimuli plus avoidance; pain is nociception plus the subjective experience of the noxious state. Option 1 reverses the definitions, option 0 mislocates where each occurs, and option 3 wrongly equates them. The distinction matters because non-neural organisms may show nociception that is 'dark,' i.e., without pain.",
+  "tags": ["nociception", "pain", "consciousness-problem"],
+  "difficulty": "beginner",
+  "generated": true
+}

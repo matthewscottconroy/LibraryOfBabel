@@ -1,0 +1,20 @@
+{
+  "chapter": 14,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Because fast cellular processes equilibrate much more quickly than slow ones, timescale separation allows fast variables to be treated as if they are at quasi-steady-state relative to the slower variables.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true and is the core principle behind timescale separation: as the ratio of fast to slow timescales becomes extreme, the fast variable can be approximated as always being at its steady-state value given the current (slowly changing) value of the slow variable. This principle underlies simplifications such as the Michaelis-Menten approximation for enzyme kinetics and the treatment of fast ion-channel gates in Hodgkin-Huxley-type models.",
+  "tags": [
+    "timescale-separation",
+    "quasi-steady-state",
+    "multiscale-modeling"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "ff597cf2-e752-4457-aab1-27780463742c"
+}

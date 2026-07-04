@@ -1,0 +1,22 @@
+{
+  "question_id": "e5a3c906-db8d-4780-a350-ed0e15a23b5d",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the RLS approach to training an ESN, which weights are updated online, one sample at a time?",
+  "choices": [
+    "Both the reservoir recurrent weights W_rec and the readout weights W_out",
+    "The reservoir recurrent weights W_rec only; the readout is left random",
+    "Only the readout weights W_out; the reservoir weights stay fixed",
+    "The input weights W_in and recurrent weights W_rec jointly"
+  ],
+  "answer": 2,
+  "explanation": "RLS is still a reservoir-computing method: the random reservoir (W_rec, W_in) is frozen and only the linear readout W_out is adapted, just done online instead of by batch ridge regression. The distractors all describe training reservoir weights, which RLS never does.",
+  "tags": [
+    "rls",
+    "readout",
+    "reservoir-computing"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

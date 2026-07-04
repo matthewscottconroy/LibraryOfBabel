@@ -1,0 +1,18 @@
+{
+  "question_id": "c828352d-1401-4e9d-9256-0a19b5af5e62",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which of the following is one of the four maximally entangled two-qubit Bell states?",
+  "choices": [
+    "|Phi+> = (|00> + |11>)/sqrt(2)",
+    "|00> + |11> written as a product of two single-qubit superpositions",
+    "((|0> + |1>)/sqrt(2)) tensor ((|0> + |1>)/sqrt(2))",
+    "(|01> + |10>) with no normalization"
+  ],
+  "answer": 0,
+  "explanation": "|Phi+> = (|00> + |11>)/sqrt(2) is a Bell state: normalized and non-factorable. Choice 2 is a product (separable) state, not entangled; choices 1 and 3 are unnormalized (missing the 1/sqrt(2)), and choice 1 wrongly implies the state factorizes.",
+  "tags": ["bell-states", "entanglement", "two-qubit"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "6383804e-159e-4da4-abcc-d4b22e7ab804",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The ___ Mapping Theorem asserts that any simply connected proper subdomain of the complex plane is conformally equivalent to the open unit disk.",
+  "choices": [
+    "Riemann"
+  ],
+  "answer": "Riemann",
+  "explanation": "The Riemann Mapping Theorem guarantees a biholomorphic (conformal) bijection from any simply connected proper open subset of C onto the unit disk. It is a pure existence result; the map is usually not explicit, though Schwarz-Christoffel handles polygonal domains.",
+  "tags": [
+    "riemann-mapping-theorem",
+    "conformal-mapping"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

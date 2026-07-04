@@ -1,0 +1,21 @@
+{
+  "question_id": "18b61e9b-d901-49e2-839a-492a55321c3b",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The total linear memory capacity of a reservoir is bounded above by the number of ___ in the reservoir.",
+  "choices": [
+    "neurons",
+    "neuron",
+    "N"
+  ],
+  "answer": "neurons",
+  "explanation": "Jaeger's bound is MC <= N, where N is the reservoir size (number of neurons). Each neuron contributes at most one unit of linear memory, so the count of neurons caps the total memory capacity.",
+  "tags": [
+    "memory-capacity",
+    "jaeger-bound",
+    "reservoir-size"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

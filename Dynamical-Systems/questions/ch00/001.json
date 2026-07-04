@@ -1,0 +1,22 @@
+{
+  "question_id": "0a2f60c9-0001-4ed2-90b6-bf22cc386f72",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A fixed point x* of a 1D ODE dx/dt = f(x) is asymptotically stable if and only if:",
+  "choices": [
+    "f(x*) = 0",
+    "f'(x*) < 0",
+    "f'(x*) > 0",
+    "f'(x*) = 0"
+  ],
+  "answer": 1,
+  "explanation": "f(x*) = 0 is necessary (but not sufficient) for x* to be a fixed point. Asymptotic stability requires small perturbations to decay, which by linearisation holds when f'(x*) < 0. When f'(x*) > 0 the point is unstable; when it equals 0 the linearisation is inconclusive.",
+  "tags": [
+    "fixed-points",
+    "stability",
+    "linearisation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

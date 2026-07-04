@@ -1,0 +1,20 @@
+{
+  "question_id": "279562a1-fb06-47d7-bdd1-57f4bc777159",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Pereboom's hard incompatibilism holds that the free will required for basic-desert moral responsibility is incompatible both with determinism and with the kind of indeterminism our best physics provides.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Pereboom argues that determinism precludes the relevant free will, and that event-causal indeterminism only adds luck, while agent-causation is empirically unlikely; hence hard incompatibilism. He nonetheless retains forward-looking, non-retributive responsibility practices in place of basic desert.",
+  "tags": [
+    "hard-incompatibilism",
+    "pereboom",
+    "basic-desert"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

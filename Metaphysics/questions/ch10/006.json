@@ -1,0 +1,22 @@
+{
+  "question_id": "e2552943-9eb5-482a-9cfb-0894d4b13d98",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Lynne Rudder Baker's constitution view resolves the statue/clay puzzle by holding that:",
+  "choices": [
+    "the statue is strictly identical to the lump of clay, since they share all their parts.",
+    "neither the statue nor the lump really exists, since composition never occurs.",
+    "the statue and the lump are distinct four-dimensional worms that merely share a present temporal part.",
+    "the statue and the lump are distinct objects standing in a non-identity 'constitution' relation, so mereological extensionality must be rejected."
+  ],
+  "answer": 3,
+  "explanation": "Baker holds that constitution is a real relation distinct from identity: the clay constitutes but is not identical to the statue (they differ in modal and historical properties), which requires denying that sameness of parts entails identity. Distractor 2 is the rival four-dimensionalist solution, which keeps extensionality by distinguishing temporal parts rather than positing a sui generis constitution relation.",
+  "tags": [
+    "constitution",
+    "baker",
+    "coincidence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

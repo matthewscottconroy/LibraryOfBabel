@@ -1,0 +1,22 @@
+{
+  "question_id": "1d134bdf-bb07-4a43-876c-9f4d0c189959",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "An $\\mathbb{E}_\\infty$-ring is a ring object in the $\\infty$-category of spectra. Which spectrum does the chapter single out as the 'absolute' base ring?",
+  "choices": [
+    "$H\\mathbb{Z}$, the Eilenberg-MacLane spectrum",
+    "$\\mathrm{ku}$, the complex K-theory spectrum",
+    "$\\mathrm{TMF}$, topological modular forms",
+    "$\\mathbb{S}$, the sphere spectrum"
+  ],
+  "answer": 3,
+  "explanation": "The chapter names the sphere spectrum $\\mathbb{S}$ as the 'absolute' base ring of stable homotopy theory. $H\\mathbb{Z}$ instead recovers classical algebra, $\\mathrm{ku}$ is complex K-theory, and $\\mathrm{TMF}$ is topological modular forms, all cited as examples of $\\mathbb{E}_\\infty$-rings but none as the absolute base.",
+  "tags": [
+    "e-infinity-ring",
+    "spectra",
+    "sphere-spectrum"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

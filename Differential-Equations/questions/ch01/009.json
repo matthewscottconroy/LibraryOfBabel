@@ -1,0 +1,21 @@
+{
+  "question_id": "41aed97b-1502-4b17-a76c-0c2f28ba3332",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For vectors a and b in R^3, the magnitude |a x b| equals:",
+  "choices": [
+    "|a||b| cos(theta), the scalar projection of a onto b",
+    "|a||b| sin(theta), the area of the parallelogram they span",
+    "a . b, a scalar",
+    "|a|^2 + |b|^2, by the Pythagorean theorem"
+  ],
+  "answer": 1,
+  "explanation": "The cross-product magnitude |a x b| = |a||b| sin(theta) equals the area of the parallelogram spanned by a and b, and the vector itself is perpendicular to both. The expression |a||b| cos(theta) is the dot product, a scalar, not the cross-product magnitude.",
+  "tags": [
+    "cross-product",
+    "vectors"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

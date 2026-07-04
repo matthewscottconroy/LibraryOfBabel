@@ -1,0 +1,13 @@
+{
+  "question_id": "29102196-f933-4e77-bd8e-4f05e958e195",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a Fabry-Pérot resonator with mirror (power) reflectivity R, how does the finesse depend on R?",
+  "choices": ["F = π√R/(1−R); higher R gives higher finesse and narrower resonance peaks", "F = (1−R)/(π√R); higher R gives lower finesse", "F = πR/(1+R); finesse is independent of R", "F = c/(2nL); the finesse equals the free spectral range"],
+  "answer": 0,
+  "explanation": "The finesse is F = π√R/(1−R), so as R → 1 the finesse diverges and the resonance peaks narrow (more round trips, longer photon lifetime). Choice 1 inverts the dependence, choice 2 has the wrong form, and choice 3 confuses finesse with the free spectral range c/(2n_gL).",
+  "tags": ["fabry-perot", "finesse", "resonators"],
+  "difficulty": "intermediate",
+  "generated": true
+}

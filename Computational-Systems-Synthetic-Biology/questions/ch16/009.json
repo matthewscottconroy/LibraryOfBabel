@@ -1,0 +1,18 @@
+{
+  "chapter": 16,
+  "phase": 3,
+  "kind": "blank",
+  "text": "CELLO (Nielsen et al., 2016) automates the ___ step of circuit engineering, converting a Boolean function (given as a truth table or Verilog-like HDL) into DNA sequences built from characterized genetic gates.",
+  "choices": [
+    "Design"
+  ],
+  "answer": "Design",
+  "explanation": "CELLO automates the Design step of the DBTL cycle: given a desired Boolean function, it searches a library of characterized transcription-factor gates, assigns them to the abstract logic gates, and outputs DNA sequences implementing the circuit. Build, Test, and Learn still require physical DNA assembly, wet-lab measurement, and model comparison, which CELLO does not perform.",
+  "tags": [
+    "cello",
+    "automated-design"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "a634ecae-f974-4834-b48d-cf08ee27457d"
+}

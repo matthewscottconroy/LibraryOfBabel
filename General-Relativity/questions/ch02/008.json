@@ -1,0 +1,21 @@
+{
+  "question_id": "c9f2ce8a-8098-42d5-92e0-a7987a453905",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In ℝ³, the curl of any gradient vanishes: ∇ × (∇f) = 0 for every smooth scalar field f.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The book lists ∇ × (∇f) = 0 as a key vector identity, a 3D manifestation of d² = 0 in exterior algebra, following from the equality of mixed partials (Clairaut's theorem). Its companion identity is ∇ · (∇ × F) = 0, the divergence of a curl, which also expresses d² = 0.",
+  "tags": [
+    "curl",
+    "gradient",
+    "vector-identities",
+    "vector-calculus"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

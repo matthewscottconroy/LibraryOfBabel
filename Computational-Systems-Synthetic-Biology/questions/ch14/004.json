@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 2,
+  "kind": "mc",
+  "text": "ME-models (Metabolism and Expression models) extend standard genome-scale metabolic models (GEMs) by adding which key constraint?",
+  "choices": [
+    "Total ATP production is capped at the theoretical maximum yield from complete glucose oxidation",
+    "Gene expression is modeled as a Boolean on/off function of transcription-factor states",
+    "Total protein synthesis is limited by ribosome capacity and elongation rate, making ribosomes and RNA polymerase explicit finite resources",
+    "Metabolite diffusion is modeled explicitly using partial differential equations in three-dimensional space"
+  ],
+  "answer": 2,
+  "explanation": "ME-models add the constraint that total protein synthesis cannot exceed ribosome capacity times elongation rate, treating ribosomes and RNA polymerase as explicit, finite resources that must be allocated -- unlike standard GEMs, which assume these resources are unlimited. This produces growth-rate-dependent proteome allocation trade-offs, such as investing more in ribosomes at fast growth and more in scavenging enzymes at slow growth. Boolean gene expression (choice 1) describes a completely different modeling framework used for gene regulatory networks, not ME-models. Choices 0 and 3 describe constraints or spatial detail not discussed as the defining feature of ME-models.",
+  "tags": [
+    "me-models",
+    "genome-scale-models",
+    "proteome-allocation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "e0ae6aa8-9459-44d5-a0c1-f705f40e8641"
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 25,
+  "phase": 4,
+  "kind": "tf",
+  "text": "In community detection evaluation, a modularity score of Q > 0.3 is generally considered reasonable, while Q > 0.6 indicates strong community structure.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This matches the thresholds used to interpret modularity Q: values above 0.3 are considered reasonable evidence of community structure, and values above 0.6 indicate strong structure. These thresholds help distinguish real modular organization from partitions found in random or weakly-structured networks.",
+  "tags": [
+    "modularity",
+    "community-detection",
+    "evaluation"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "02a25266-8d10-4f05-83d2-48dc56ae63e8"
+}

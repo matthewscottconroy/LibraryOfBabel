@@ -1,0 +1,20 @@
+{
+  "question_id": "ad64b49a-5873-4ddc-b43f-e647aa80f1df",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "On the connectionist (PDP) approach, information is stored as discrete, type-distinct symbols manipulated by explicit rules, exactly as in the classical architecture.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: it describes the classical symbolic architecture, not connectionism. In connectionist (PDP) networks information is carried by distributed patterns of activation across many units with adjustable weights, not by discrete, type-distinct symbols manipulated by explicit rules.",
+  "tags": [
+    "connectionism",
+    "distributed-representation",
+    "classical-architecture"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

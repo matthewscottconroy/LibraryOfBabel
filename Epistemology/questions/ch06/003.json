@@ -1,0 +1,13 @@
+{
+  "question_id": "f1b88f3d-f777-46cc-9878-97af6fb531ee",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Brentano's thesis holds that intentionality — the 'aboutness' or directedness of mental states toward objects — is the mark of the mental, distinguishing mental phenomena from physical phenomena.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "This is precisely Brentano's claim in Psychology from an Empirical Standpoint (1874): every mental phenomenon exhibits directedness toward a content or object, whereas physical phenomena are not about anything. A striking feature is intentional inexistence — the intentional object (Pegasus, a feared monster) need not exist for the state to be directed at it.",
+  "tags": ["intentionality", "brentano", "mark of the mental", "aboutness"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "0857ee3d-e880-4380-91ed-21e997cb2c92",
+  "chapter": 13,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In LTL, the operator asserting 'φ holds at the immediately following state' (π, i ⊨ · φ iff π, i+1 ⊨ φ) is written with the single letter ___ .",
+  "choices": [
+    "X"
+  ],
+  "answer": "X",
+  "explanation": "X ('next') is defined by π,i ⊨ Xφ iff π,i+1 ⊨ φ. It refers to just the one next state, distinguishing it from F (eventually) and G (always), which quantify over many future states.",
+  "tags": [
+    "ltl",
+    "next",
+    "temporal-operators"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

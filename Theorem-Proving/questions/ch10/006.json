@@ -1,0 +1,22 @@
+{
+  "question_id": "93f30c87-37a9-4f86-8810-d9bf3d7c13f3",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the STLC application rule, from Γ ⊢ f : σ → τ and Γ ⊢ a : σ we may conclude:",
+  "choices": [
+    "Γ ⊢ f a : σ → τ",
+    "Γ ⊢ f a : τ",
+    "Γ ⊢ a f : σ",
+    "Γ, f : σ ⊢ a : τ"
+  ],
+  "answer": 1,
+  "explanation": "Application (→E, the modus-ponens rule): if f : σ → τ and a : σ, then f a : τ. Option A keeps the arrow type, forgetting the argument is consumed; option C reverses the application order; option D garbles the typing context. Under Curry–Howard this rule is exactly modus ponens.",
+  "tags": [
+    "typing-judgment",
+    "application-rule",
+    "simply-typed-lambda-calculus"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

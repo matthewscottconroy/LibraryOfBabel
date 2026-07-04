@@ -1,0 +1,13 @@
+{
+  "question_id": "24e7b0c9-8d15-4a3f-9612-c5b8e0a7d3f1",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Galen Strawson's 'realistic monism' argues for panpsychism on the grounds that:",
+  "choices": ["Consciousness is undeniably real, so if physicalism is true it must be a physical property, making phenomenal properties a genuine and plausibly fundamental feature of the physical world", "Consciousness is an illusion produced by neural information processing", "Only biological systems that possess neurons can be conscious", "Phenomenal experience requires an immaterial soul distinct from matter"],
+  "answer": 0,
+  "explanation": "Strawson reasons that consciousness is undeniably real, and if physicalism is true then consciousness must be physical; since there is no obvious threshold at which experience switches on, the most parsimonious view is that phenomenal properties are fundamental and pervasive. The other options describe eliminativism (illusion), neuro-chauvinism (neurons only), and dualism (immaterial soul), all of which Strawson rejects.",
+  "tags": ["strawson", "panpsychism", "physicalism"],
+  "difficulty": "advanced",
+  "generated": true
+}

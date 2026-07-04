@@ -1,0 +1,19 @@
+{
+  "chapter": 19,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Directed evolution mutation rates (roughly 10^-4 to 10^-1 per bp) are typically far lower than natural evolution's spontaneous mutation rate (roughly 10^-9 per bp per generation), which is why directed evolution requires many more generations to find improved variants.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false and reverses the actual comparison: directed evolution deliberately uses much higher mutation rates (roughly 10^-4 to 10^-1 per bp) than natural evolution's spontaneous rate (about 10^-9 per bp per generation), which is precisely why directed evolution can find improved variants in days to months rather than the millions of years natural evolution typically requires. The statement's causal conclusion about needing more generations is therefore also backwards.",
+  "tags": [
+    "mutation-rate",
+    "natural-vs-directed-evolution"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "45cc26ef-245d-4536-bbb1-8dae8f6b259e"
+}

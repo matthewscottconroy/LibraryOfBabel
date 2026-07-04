@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A fixed point of a dynamical system dx/dt = f(x) is classified as (linearly) stable when the Jacobian's eigenvalues satisfy:",
+  "choices": [
+    "At least one eigenvalue has positive real part",
+    "All eigenvalues are purely imaginary (Re(λ) = 0)",
+    "The Jacobian determinant equals zero",
+    "All eigenvalues have negative real part"
+  ],
+  "answer": 3,
+  "explanation": "Linear stability requires every eigenvalue of the Jacobian evaluated at the fixed point to have negative real part, so small perturbations decay back to the fixed point. At least one positive real part instead makes the point unstable, purely imaginary eigenvalues mark the borderline Hopf bifurcation condition rather than guaranteed stability, and a zero determinant indicates a degenerate (non-hyperbolic) fixed point, not stability per se.",
+  "tags": [
+    "stability-analysis",
+    "jacobian",
+    "eigenvalues"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "5858ba29-e75d-40eb-a404-b0082eafaa71"
+}

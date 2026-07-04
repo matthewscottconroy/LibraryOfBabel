@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In machine learning-guided directed evolution (MLDE), the Upper Confidence Bound (UCB) acquisition function proposes the next variant to test by...",
+  "choices": [
+    "Always proposing the variant with the single highest model-predicted fitness, ignoring uncertainty",
+    "Combining the predicted mean fitness with a weighted measure of prediction uncertainty (mean + k times uncertainty) to balance exploration and exploitation",
+    "Randomly sampling variants uniformly across all of sequence space",
+    "Selecting only variants identical to the current best-characterized variant"
+  ],
+  "answer": 1,
+  "explanation": "UCB explicitly combines the surrogate model's predicted mean fitness with a scaled uncertainty term (mean + k times uncertainty), and the tunable parameter k controls the balance between exploring uncertain regions and exploiting known-good ones. Always choosing the highest predicted fitness with no uncertainty term describes the 'greedy' strategy rather than UCB; uniform random sampling ignores the surrogate model entirely; and restricting proposals to variants identical to the current best would not explore any new sequence space at all.",
+  "tags": [
+    "mlde",
+    "acquisition-functions",
+    "upper-confidence-bound"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "4b0ccddd-84d3-4e89-b568-1ed8f6baf61b"
+}

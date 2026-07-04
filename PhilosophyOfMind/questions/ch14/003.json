@@ -1,0 +1,22 @@
+{
+  "question_id": "3517e59c-7b01-4a15-b611-826ae55b16ac",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "For Heidegger, a hammer being used transparently in skilled work — without becoming an object of explicit attention — exemplifies the mode of being he calls:",
+  "choices": [
+    "Present-at-hand (Vorhandenheit)",
+    "Being-in-itself (l'en-soi)",
+    "The natural attitude",
+    "Ready-to-hand (Zuhandenheit)"
+  ],
+  "answer": 3,
+  "explanation": "Transparent, absorbed use of equipment exemplifies the ready-to-hand (Zuhandenheit). Present-at-hand (Vorhandenheit) is the contrasting mode that arises when a tool breaks down and becomes a mere object; being-in-itself is Sartre's category for things; and the natural attitude belongs to Husserl's method.",
+  "tags": [
+    "ready-to-hand",
+    "heidegger",
+    "being-in-the-world"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

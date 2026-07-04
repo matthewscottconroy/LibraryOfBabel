@@ -1,0 +1,23 @@
+{
+  "question_id": "bafd3dd2-7af1-4e6e-8595-8032b98d9255",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Buddhist doctrine of anatta (no-self) claims that:",
+  "choices": [
+    "there is a permanent, unchanging self underlying the flow of experience",
+    "the self is an immaterial soul that survives bodily death",
+    "what we call the self is only a conventional designation for a stream of causally connected mental and physical events -- there is no substantial, persisting self",
+    "each person is constituted by the narrative they tell about their life"
+  ],
+  "answer": 2,
+  "explanation": "Anatta analyses the person into the five aggregates (skandhas) and finds no abiding self over and above the causally linked stream -- a view the book links to Hume's bundle theory and Parfit's reductionism. Option 0 is exactly what anatta denies; option 1 is the substance-soul view; option 3 is the narrative account.",
+  "tags": [
+    "anatta",
+    "no-self",
+    "buddhism",
+    "skandhas"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

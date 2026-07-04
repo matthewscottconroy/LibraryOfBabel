@@ -1,0 +1,13 @@
+{
+  "question_id": "a2f9c07d-8b41-4e63-95d8-0a1c6f4b7e29",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is the 'anthropocentric baseline' described as a systematic source of error in basal cognition research?",
+  "choices": ["It uses human cognitive capacities as the standard, systematically underestimating systems that compute differently and overestimating those that merely look humanlike", "It assumes that all organisms are conscious by default", "It relies exclusively on information-theoretic measures such as transfer entropy", "It ignores the behavior of neural systems entirely"],
+  "answer": 0,
+  "explanation": "The anthropocentric baseline is the implicit use of human cognition as the reference point, which underestimates systems that compute unlike us and overestimates systems that superficially resemble human behavior. It is not an assumption that all organisms are conscious (option 1); it is independent of information theory (option 2) and does not ignore neural systems (option 3).",
+  "tags": ["anthropocentric-baseline", "measurement-problem", "criteria"],
+  "difficulty": "intermediate",
+  "generated": true
+}

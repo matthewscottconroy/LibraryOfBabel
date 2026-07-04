@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "PSI-BLAST uses a single fixed BLOSUM62 matrix throughout all search iterations and never updates its scoring based on prior results.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. PSI-BLAST builds a position-specific scoring matrix (PSSM) from the results of an initial search and then iteratively re-searches the database with the updated PSSM, which is precisely what allows it to detect distantly related, remote homologs that a single fixed matrix would miss.",
+  "tags": [
+    "blast",
+    "psi-blast",
+    "pssm"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "6be53efd-7a58-4a4a-abe8-9717e1f93d34"
+}

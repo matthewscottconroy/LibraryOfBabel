@@ -1,0 +1,13 @@
+{
+  "question_id": "6ae21595-a821-44e9-b309-f5e9557317bd",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Maxwell's equations predict that electromagnetic waves travel through vacuum at a speed set entirely by two fundamental constants. Which expression gives that speed?",
+  "choices": ["c = μ₀ε₀", "c = √(μ₀ε₀)", "c = 1/√(μ₀ε₀)", "c = 1/(μ₀ε₀)"],
+  "answer": 2,
+  "explanation": "Taking the curl of Faraday's law and substituting the Ampère-Maxwell law yields a wave equation whose speed is c = 1/√(μ₀ε₀) ≈ 2.998×10⁸ m/s. The forms √(μ₀ε₀) and μ₀ε₀ have the wrong dimensions, and 1/(μ₀ε₀) equals c², not c.",
+  "tags": ["maxwells-equations", "speed-of-light", "wave-equation"],
+  "difficulty": "beginner",
+  "generated": true
+}

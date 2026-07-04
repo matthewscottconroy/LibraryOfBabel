@@ -1,0 +1,19 @@
+{
+  "question_id": "aea3b820-b42d-45f3-8a25-616c8c205e7d",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "blank",
+  "text": "GEM's unrestricted ___ schema asserts that every satisfiable condition φ(x) has a mereological sum: an object that is the least upper bound of the φ-things under parthood.",
+  "choices": [
+    "fusion"
+  ],
+  "answer": "fusion",
+  "explanation": "The unrestricted fusion schema, ∃x φ(x) → ∃z Fu(z,φ), asserts that every instantiated condition has a fusion (mereological sum) — the least upper bound of the φ-satisfiers under parthood. This licenses even scattered fusions and, with M1–M3 and SSP, gives GEM.",
+  "tags": [
+    "fusion",
+    "mereological-sum",
+    "gem"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

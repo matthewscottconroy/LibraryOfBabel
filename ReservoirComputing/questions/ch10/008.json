@@ -1,0 +1,21 @@
+{
+  "question_id": "f89af1d0-c702-4259-9a9e-d3a374c44cda",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "For a scalar output, FORCE changes the effective recurrent matrix W_eff = W_rec + w_fb * w_out^T by a perturbation of rank ___.",
+  "choices": [
+    "1",
+    "one",
+    "rank-1"
+  ],
+  "answer": "1",
+  "explanation": "The feedback-times-readout term w_fb * w_out^T is an outer product, hence rank-1 (rank at most K for K outputs). This low-rank change reshapes the task-relevant subspace while leaving the high-dimensional random dynamics largely intact.",
+  "tags": [
+    "force",
+    "low-rank",
+    "effective-weights"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

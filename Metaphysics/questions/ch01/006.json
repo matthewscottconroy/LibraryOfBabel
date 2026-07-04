@@ -1,0 +1,22 @@
+{
+  "question_id": "b99e060c-d58c-4d35-8671-781d709114f7",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Armstrong objects that resemblance nominalism secretly reintroduces a universal. What is the objection, and how does Rodriguez-Pereyra reply?",
+  "choices": [
+    "Objection: resemblance classes are abstract objects; reply: they can be replaced by mereological sums.",
+    "Objection: resemblance admits of degrees; reply: the degrees can be ranked by paradigms.",
+    "Objection: the resemblance holding between each pair is one and the same repeatable relation, hence a universal; reply: resemblance is a primitive relation, and being primitive is not the same as being a recurring universal.",
+    "Objection: resemblance is anthropocentric; reply: resemblance holds mind-independently."
+  ],
+  "answer": 2,
+  "explanation": "Armstrong argues that if RESEMBLANCE recurs, type-identical, across every resembling pair, it is itself a universal, so the nominalist has smuggled one in. Rodriguez-Pereyra replies by distinguishing a primitive relation from a universal, denying that a primitive relation must be a single recurring entity. The tempting distractor (option 3) states the anthropocentrism objection, which targets predicate nominalism, not this one.",
+  "tags": [
+    "resemblance-nominalism",
+    "regress",
+    "rodriguez-pereyra"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

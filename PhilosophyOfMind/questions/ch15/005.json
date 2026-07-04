@@ -1,0 +1,22 @@
+{
+  "question_id": "d98f2684-bc78-45cb-8924-b2ad1ea782f1",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The methodological problem of 'reverse inference' in neuroimaging is:",
+  "choices": [
+    "Inferring the level of brain activation from a known cognitive process (forward inference)",
+    "Deriving higher-level psychological laws from neural laws plus bridge laws",
+    "Inferring a specific cognitive process from activation of a region that many processes engage",
+    "The thesis that one function can be realized by many substrates"
+  ],
+  "answer": 2,
+  "explanation": "Reverse inference infers a specific cognitive process from a region's activation even though the region is engaged by many processes (low selectivity), making the inference merely probabilistic. Forward inference runs the other way; deriving laws via bridge laws is Nagelian reduction; and one-function-many-substrates is multiple realizability.",
+  "tags": [
+    "reverse-inference",
+    "neuroimaging",
+    "fmri"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

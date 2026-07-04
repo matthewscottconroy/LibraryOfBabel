@@ -1,0 +1,22 @@
+{
+  "question_id": "9359583f-ebf5-4618-96a3-346b71329176",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "To prove that a property P holds for every element of an inductively defined type (e.g. lists or binary trees) by structural induction, what must you show?",
+  "choices": [
+    "Only that P holds for the largest element",
+    "That P holds for one example of each type",
+    "That P holds for each constructor, assuming P for the immediate sub-components (the inductive hypothesis)",
+    "That the type is finite, then check every element"
+  ],
+  "answer": 2,
+  "explanation": "Structural induction proves P for each constructor case (e.g. leaf/node, nil/cons), assuming P for the substructures used to build the element. There is no 'largest element,' one example per type is not a proof, and inductive types are generally infinite, so exhaustive checking is impossible.",
+  "tags": [
+    "structural-induction",
+    "inductive-types",
+    "constructors"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

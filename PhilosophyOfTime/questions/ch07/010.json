@@ -1,0 +1,18 @@
+{
+  "question_id": "48ba97be-7725-4701-a181-245b454e6fff",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Neuroimaging and patient studies of 'mental time travel' (remembering the past and imagining the future) most strongly support which conclusion?",
+  "choices": [
+    "Future imagination is handled by prefrontal cortex alone, while episodic memory is handled by the hippocampus alone",
+    "Imagining the future is simply episodic memory run in reverse, drawing on no shared neural machinery",
+    "Both draw on a shared 'core network' including the hippocampus, so hippocampal damage impairs both episodic recall and vivid future imagining",
+    "Only humans can represent the past, whereas future planning is widely shared across mammals and has no special neural basis"
+  ],
+  "answer": 2,
+  "explanation": "Studies converge on a shared 'core network' — notably the hippocampus, medial prefrontal, posterior cingulate, and lateral temporal-parietal regions — active in both episodic recollection and future imagining; patients with hippocampal damage (Hassabis et al. 2007) produce sparse, fragmented imagined future scenes as well as impaired memory, indicating a common 'scene construction' capacity. Choice 1 wrongly segregates the two into separate regions; choice 2 denies the shared machinery (the book stresses future imagining is not merely memory 'in reverse'); choice 4 garbles the comparative-cognition debate, in which food-caching corvids are candidate non-human mental time travelers.",
+  "tags": ["mental-time-travel", "episodic-memory", "core-network", "neuroscience"],
+  "difficulty": "intermediate",
+  "generated": true
+}

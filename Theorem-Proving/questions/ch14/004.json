@@ -1,0 +1,22 @@
+{
+  "question_id": "0b136b1f-f494-42d1-a22f-0dcc4866fb33",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Boolos proved that plural logic is expressively equivalent to which system, via the translation X ↦ xx and X(t) ↦ t ≺ xx?",
+  "choices": [
+    "Full second-order logic (with relation variables), with no further assumptions",
+    "First-order logic with identity",
+    "Zermelo–Fraenkel set theory",
+    "Monadic second-order logic"
+  ],
+  "answer": 3,
+  "explanation": "The translation maps each monadic second-order variable X to a plural variable xx and each atom X(t) to t ≺ xx, giving equivalence with MONADIC second-order logic. Full second-order logic (quantifying over relations) is reached only with an added pairing function, not automatically; and plural logic is meant to be ontologically far weaker than ZF, not equivalent to it.",
+  "tags": [
+    "second-order-logic",
+    "expressive-power",
+    "boolos"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

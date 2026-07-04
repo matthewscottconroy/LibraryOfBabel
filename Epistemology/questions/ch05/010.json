@@ -1,0 +1,23 @@
+{
+  "question_id": "da263690-4b1e-44cb-81fb-b906d6731ad3",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Alethic (truth) pluralism, as developed by Crispin Wright and Michael Lynch, is best characterized as the view that:",
+  "choices": [
+    "no statement in any domain is ever determinately true or false, since bivalence universally fails",
+    "a single substantive property, correspondence to fact, constitutes truth in every domain of discourse",
+    "'is true' is merely a device of disquotation and endorsement that ascribes no property whatever",
+    "truth is a single functional role that can be realized by different properties in different domains of discourse"
+  ],
+  "answer": 3,
+  "explanation": "Pluralism answers the 'scope problem' — correspondence fits physics but strains for ethics or mathematics — by holding that truth is one functional role (fixed by the platitudes) with domain-specific realizers, e.g. correspondence for the physical and superassertibility for the moral. Option 1 is the monist correspondence view pluralism rejects; option 2 is deflationism; option 0 wrongly conflates pluralism with a global denial of bivalence, which pluralism does not assert.",
+  "tags": [
+    "pluralism",
+    "lynch",
+    "wright",
+    "truth"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

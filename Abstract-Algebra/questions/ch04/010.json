@@ -1,0 +1,20 @@
+{
+  "question_id": "407ddc71-3dd9-4c07-bda8-03ce3470032e",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The Cayley–Hamilton theorem states that every square matrix satisfies its own ___ polynomial.",
+  "choices": [
+    "characteristic",
+    "characteristic polynomial"
+  ],
+  "answer": "characteristic",
+  "explanation": "p_A(λ) = det(λI − A) and p_A(A) = 0. One payoff: Aⁿ (and A⁻¹ when det A ≠ 0) can be rewritten as a polynomial in A of degree < n; note the 'proof' that substitutes A directly into det(λI − A) is a classic fallacy.",
+  "tags": [
+    "determinants",
+    "characteristic-polynomial",
+    "cayley-hamilton"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

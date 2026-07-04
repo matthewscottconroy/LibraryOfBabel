@@ -1,0 +1,13 @@
+{
+  "question_id": "20605c19-4bdd-4383-936d-29c26f60612f",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Salmon distinguishes a genuine causal process, which transmits a conserved quantity, from a mere ___, such as a shadow moving across a wall or a spot of light sweeping a screen, which transmits nothing and can even move faster than light.",
+  "choices": ["pseudo-process", "pseudoprocess", "pseudo process"],
+  "answer": "pseudo-process",
+  "explanation": "A pseudo-process merely moves without transmitting energy, momentum, or any conserved quantity, so it can exceed light speed and carries no causal influence, unlike a genuine causal process. Dowe later refined this into the conserved quantity theory, on which causal processes are world-lines possessing conserved quantities and causal interactions are exchanges of them.",
+  "tags": ["causation", "salmon", "process-theory", "conserved-quantity"],
+  "difficulty": "intermediate",
+  "generated": true
+}

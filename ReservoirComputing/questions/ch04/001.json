@@ -1,0 +1,22 @@
+{
+  "question_id": "29f3d7c6-7a91-43f5-b6b4-e7943709e30f",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The spectral radius rho(W_rec) of a reservoir is defined as:",
+  "choices": [
+    "the largest singular value of W_rec",
+    "the largest absolute value among the (possibly complex) eigenvalues of W_rec",
+    "the average absolute value of the entries of W_rec",
+    "the sum of the absolute eigenvalues of W_rec"
+  ],
+  "answer": 1,
+  "explanation": "By definition rho(W_rec) = max_i |lambda_i|, the maximum modulus over the eigenvalues (complex ones come in conjugate pairs, so rho is real and nonnegative). The largest singular value is the spectral NORM ||W_rec||_2 (a different, larger quantity for non-normal matrices); an entry average and an eigenvalue sum are unrelated to rho.",
+  "tags": [
+    "spectral-radius",
+    "definition",
+    "eigenvalues"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

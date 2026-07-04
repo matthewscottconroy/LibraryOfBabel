@@ -1,0 +1,22 @@
+{
+  "question_id": "e3ac27e4-b426-4479-8d55-de105a4998dc",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Stokes' theorem relates the surface integral of curl F over an oriented surface S to:",
+  "choices": [
+    "the line integral of F around the boundary curve of S",
+    "the volume integral of div F over the region enclosed by S",
+    "the flux of F itself through S",
+    "the line integral of curl F around the boundary of S"
+  ],
+  "answer": 0,
+  "explanation": "Stokes' theorem states that the flux of curl F through S equals the circulation of F around the boundary curve: integral over S of (curl F . dS) = integral around boundary of (F . dr). The volume-integral statement is instead the Divergence Theorem.",
+  "tags": [
+    "stokes-theorem",
+    "curl",
+    "circulation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

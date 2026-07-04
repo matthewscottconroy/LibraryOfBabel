@@ -1,0 +1,19 @@
+{
+  "question_id": "5b59bd31-5929-4168-a0c3-82664b9ca12c",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The circle rotation R_alpha(x) = x + alpha mod 1 is ergodic with respect to Lebesgue measure if and only if alpha is ___.",
+  "choices": [
+    "irrational"
+  ],
+  "answer": "irrational",
+  "explanation": "Irrationality makes every orbit equidistribute (unique ergodicity); a rational alpha gives only periodic orbits and is not ergodic.",
+  "tags": [
+    "circle-rotation",
+    "ergodicity",
+    "irrational"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

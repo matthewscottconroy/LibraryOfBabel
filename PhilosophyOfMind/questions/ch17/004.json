@@ -1,0 +1,23 @@
+{
+  "question_id": "6ad25cb9-799e-4e46-a825-dfbc722a460d",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A striking implication of Integrated Information Theory (IIT) for artificial systems is that...",
+  "choices": [
+    "any system that passes the Turing test is thereby conscious",
+    "consciousness depends only on behavioral competence, not on architecture",
+    "silicon can never realize consciousness under any architecture whatsoever",
+    "purely feedforward networks have essentially zero Phi and so are not conscious, however sophisticated their behavior"
+  ],
+  "answer": 3,
+  "explanation": "On IIT, consciousness is integrated information (Phi), and feedforward networks such as most deep-learning systems have essentially zero Phi regardless of performance, while recurrent systems can have high Phi. IIT concerns intrinsic causal structure, not behavior (against A and B), and it is substrate-neutral, so C mischaracterizes it (that is closer to Searle's biological naturalism).",
+  "tags": [
+    "iit",
+    "tononi",
+    "machine-consciousness",
+    "feedforward"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

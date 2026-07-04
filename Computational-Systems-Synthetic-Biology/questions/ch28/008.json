@@ -1,0 +1,20 @@
+{
+  "chapter": 28,
+  "phase": 5,
+  "kind": "tf",
+  "text": "The chapter recommends the 3-2-1 backup rule for research data: three copies of the data, on two different media types, with one copy stored offsite.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The 3-2-1 rule is stated directly in the Data Management section: keep three copies of data, across two different media types, with at least one copy offsite, protecting against both media failure and localized disasters such as a single lab flood or hardware failure.",
+  "tags": [
+    "data-management",
+    "backups",
+    "research-habits"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "e76fc0b7-731e-4f65-9d3a-b96feea5a91f"
+}

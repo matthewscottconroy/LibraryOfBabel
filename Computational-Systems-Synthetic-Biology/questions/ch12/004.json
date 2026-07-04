@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The incoherent type-1 feed-forward loop (I1-FFL) -- where X activates both Y and Z, but Y represses Z -- is best characterized as a:",
+  "choices": [
+    "Sign-sensitive delay element that filters out short pulses of X and only responds to sustained input",
+    "Pulse generator that produces transient expression of Z and detects fold-change in X rather than its absolute level",
+    "Bistable switch that requires cooperative positive feedback to maintain two stable states",
+    "Ring oscillator requiring three sequential repressive interactions and a time delay"
+  ],
+  "answer": 1,
+  "explanation": "In the I1-FFL, X's direct activation of Z is rapid, while the indirect repression through Y builds up more slowly, so Z rises transiently and then falls even though X persists -- a pulse generator that responds to the fold-change in X rather than its steady level. Choice 0 describes the coherent type-1 FFL, its topological opposite. Choice 2 describes a positive-feedback bistable switch, and choice 3 describes a repressilator-style ring oscillator, both entirely different network topologies from a three-node feed-forward loop.",
+  "tags": [
+    "feedforward-loop",
+    "i1-ffl",
+    "fold-change-detection"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "d86a24c3-1874-44f6-aa28-36b81f1800b9"
+}

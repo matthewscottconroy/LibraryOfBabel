@@ -1,0 +1,23 @@
+{
+  "question_id": "e4f80e3e-da91-4334-9200-a5a3d6bcd534",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Donald Davidson defended a strong 'linguistic requirement' on thought. What did he argue?",
+  "choices": [
+    "To have beliefs at all one must have language, because having beliefs requires the concept of belief (including beliefs about others' beliefs), and the resources for that are linguistic",
+    "Natural language is merely the expression of a prior, innate Mentalese",
+    "Pre-linguistic infants and many animals clearly possess full propositional thought",
+    "Thought is fundamentally imagistic and spatial rather than linguistic"
+  ],
+  "answer": 0,
+  "explanation": "Davidson tied genuine propositional attitudes to possessing the concept of belief, which he held requires language -- a view the book flags as controversial for seeming to deny thought to infants and animals. Option 2 is the opposing view (and the standard objection to Davidson); option 1 is Fodor's LOT; option 3 is the imagistic/nonverbal-thought position.",
+  "tags": [
+    "davidson",
+    "thought-requires-language",
+    "propositional-attitudes",
+    "belief"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

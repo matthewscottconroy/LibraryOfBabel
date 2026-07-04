@@ -1,0 +1,22 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which DNA double-strand break repair pathway uses the sister chromatid as a template and is therefore high-fidelity, in contrast to the error-prone pathway that directly ligates broken ends?",
+  "choices": [
+    "Non-homologous end joining (NHEJ)",
+    "Mismatch repair (MMR)",
+    "Nucleotide excision repair (NER)",
+    "Homologous recombination (HR)"
+  ],
+  "answer": 3,
+  "explanation": "Homologous recombination repairs double-strand breaks using the sister chromatid as a template, making it high-fidelity, in contrast to non-homologous end joining (NHEJ), which ligates broken ends directly without a template and is error-prone. Mismatch repair corrects replication errors such as base mismatches, and nucleotide excision repair removes bulky adducts like UV lesions -- neither addresses double-strand breaks the way HR/NHEJ do.",
+  "tags": [
+    "dna-repair",
+    "double-strand-breaks",
+    "homologous-recombination"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "b8a588ab-253b-4808-b4ab-47a52a4c643a"
+}

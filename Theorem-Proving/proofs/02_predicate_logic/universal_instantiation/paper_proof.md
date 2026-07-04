@@ -20,4 +20,4 @@ Proof of: ∀x P(x) ⊢ P(t) for any term t
 (applications to add)
 
 ## Exercises
-See `problems/ch03_predicate_logic/`
+See `problems/ch03_first_order_logic/`

@@ -1,0 +1,23 @@
+{
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In an AlphaFold2 prediction, two well-folded domains connected by a flexible linker would typically show which combination of confidence metrics?",
+  "choices": [
+    "High pLDDT within each domain, but high PAE (predicted aligned error) between the domains",
+    "Low pLDDT throughout both domains and low PAE between them",
+    "High pLDDT throughout and low PAE between domains, indicating a fixed relative orientation",
+    "Low pLDDT within domains but high inter-domain PAE"
+  ],
+  "answer": 0,
+  "explanation": "Each domain folds confidently and independently, so per-residue pLDDT is high within each domain, while the flexible linker means AlphaFold2 cannot confidently place one domain relative to the other, producing high inter-domain PAE. Low pLDDT throughout would instead suggest both domains themselves are poorly modeled or disordered, and low inter-domain PAE (option C) is what you would see for a rigid, confidently-oriented multi-domain protein, not a flexible one.",
+  "tags": [
+    "alphafold2",
+    "plddt",
+    "pae",
+    "confidence-metrics"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "51ae79ae-fdd4-486d-be11-e9896c190f1c"
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "f44e7a1d-8082-4249-a095-dc6c5942d991",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Putnam's multiple realizability argument is standardly directed against which thesis, and on what grounds?",
+  "choices": [
+    "Against eliminative materialism, on the grounds that folk-psychological posits fail to map onto neural kinds.",
+    "Against substance dualism, on the grounds that an immaterial mind could not be realized in matter.",
+    "Against functionalism, on the grounds that one and the same function could not be realized by different physical systems.",
+    "Against type-identity theory, on the grounds that a mental type like pain can be realized by different physical state types across species, so it is not identical to any single one of them."
+  ],
+  "answer": 3,
+  "explanation": "Multiple realizability attacks type-identity: if octopuses and hypothetical silicon aliens can feel pain without C-fibers, pain is not identical to C-fiber stimulation. Crucially the argument supports functionalism rather than opposing it, so option 2 inverts the actual relation. It is also distinct from the knowledge argument, which targets physicalism via an epistemic premise rather than via facts about realization.",
+  "tags": ["multiple realizability", "type identity", "putnam", "functionalism"],
+  "difficulty": "intermediate",
+  "generated": true
+}

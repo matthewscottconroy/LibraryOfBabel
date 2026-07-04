@@ -1,0 +1,23 @@
+{
+  "question_id": "4b10d174-11b5-452a-af21-f9dacf3efed2",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "David Marr's influential methodology for the computational study of vision analyses a cognitive capacity at three levels. Which trio names those levels?",
+  "choices": [
+    "Sensory, associative, and motor",
+    "Syntactic, semantic, and pragmatic",
+    "Personal, subpersonal, and neural",
+    "Computational, algorithmic, and implementational"
+  ],
+  "answer": 3,
+  "explanation": "Marr distinguished the computational level (what problem is being solved and why), the algorithmic level (which representations and procedures solve it), and the implementational level (how it is physically realised). The other triads are genuine distinctions in other contexts (e.g., syntax/semantics/pragmatics in the study of language) but are not Marr's levels of analysis.",
+  "tags": [
+    "marr",
+    "levels-of-analysis",
+    "computational-level",
+    "vision"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

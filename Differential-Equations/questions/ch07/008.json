@@ -1,0 +1,19 @@
+{
+  "question_id": "ad488ed8-a9f1-4ba6-be73-d2145adcb3e7",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "blank",
+  "text": "A ___ map reduces the study of a periodic orbit in a continuous flow to the iteration of a discrete map on a lower-dimensional cross-section.",
+  "choices": [
+    "Poincare"
+  ],
+  "answer": "Poincare",
+  "explanation": "The Poincare (return) map records successive crossings of a trajectory through a transverse section, turning a continuous flow into a discrete map whose fixed points correspond to periodic orbits. It bridges the discrete and continuous halves of the subject.",
+  "tags": [
+    "poincare-map",
+    "periodic-orbits",
+    "flows"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

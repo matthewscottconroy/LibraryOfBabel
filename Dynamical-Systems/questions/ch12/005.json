@@ -1,0 +1,22 @@
+{
+  "question_id": "ab3a1a91-9821-4bd2-ab02-7425fe215822",
+  "chapter": 12,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Quantum computation is best described as which kind of dynamics?",
+  "choices": [
+    "dissipative",
+    "linear / unitary",
+    "stochastic",
+    "chaotic in the Lyapunov sense"
+  ],
+  "answer": 1,
+  "explanation": "A quantum state evolves by unitary operators |psi_t> = U_t...U_1|psi_0>: linear, norm-preserving dynamics. It is not dissipative, stochastic, or classically chaotic.",
+  "tags": [
+    "quantum-computing",
+    "unitary-dynamics",
+    "linear"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

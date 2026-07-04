@@ -1,0 +1,18 @@
+{
+  "chapter": 16,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The Elowitz and Leibler oscillator built from three repressors (TetR, cI, and LacI) arranged in a cyclic negative feedback loop, each repressing the next in the ring, is called the ___.",
+  "choices": [
+    "repressilator"
+  ],
+  "answer": "repressilator",
+  "explanation": "This synthetic oscillator is called the repressilator (Elowitz & Leibler, 2000), the founding example of an engineered genetic oscillator built from three repressors in a closed inhibitory ring. Its period is a few hours, and later work (e.g., Stricker et al. 2008, Danino et al. 2010) improved its robustness and synchronization across cell populations.",
+  "tags": [
+    "repressilator",
+    "oscillators"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "d8a39455-a58a-4093-838d-16e36d023915"
+}

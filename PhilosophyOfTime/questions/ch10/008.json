@@ -1,0 +1,24 @@
+{
+  "question_id": "baffd78d-1fdd-43d3-b57e-816560084609",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which set consists of exact solutions to Einstein's field equations that the book presents as containing closed timelike curves (CTCs)?",
+  "choices": [
+    "Godel's rotating universe, the interior of the Kerr metric, and the van Stockum / Tipler rotating cylinder.",
+    "The Schwarzschild black hole, the Einstein-Rosen bridge, and flat Minkowski spacetime.",
+    "The Casimir effect, the Hafele-Keating atomic-clock experiment, and special-relativistic time dilation.",
+    "The Friedmann-Lemaitre expanding universe, de Sitter space, and the Penrose singularity theorem."
+  ],
+  "answer": 0,
+  "explanation": "The book lists Godel's 1949 rotating universe, the interior of the Kerr metric for rotating black holes, and the van Stockum (1937) / Tipler (1974) rotating cylinder as GR solutions containing CTCs. The Schwarzschild solution and its non-traversable Einstein-Rosen bridge contain no CTCs, and flat Minkowski spacetime is causally well behaved (choice 1). The Casimir effect, Hafele-Keating, and special-relativistic dilation (choice 2) concern exotic matter and mild forward time travel, not CTC-bearing geometries, and the choice-3 cosmologies do not contain CTCs.",
+  "tags": [
+    "ctc",
+    "godel",
+    "kerr",
+    "tipler",
+    "general-relativity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

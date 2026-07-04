@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A Hopf bifurcation, marking the onset of sustained oscillations in a dynamical system, occurs when:",
+  "choices": [
+    "Two real fixed points collide and annihilate each other",
+    "A pair of complex-conjugate eigenvalues crosses the imaginary axis (Re(λ) = 0)",
+    "The system's Jacobian becomes symmetric",
+    "The steady-state concentration reaches exactly zero"
+  ],
+  "answer": 1,
+  "explanation": "A Hopf bifurcation occurs precisely when a complex-conjugate eigenvalue pair crosses the imaginary axis (Re(λ) = 0, Im(λ) ≠ 0), switching a fixed point between stable and unstable spiral and giving birth to a limit cycle. Two real fixed points colliding describes a saddle-node bifurcation instead, and Jacobian symmetry or the concentration hitting zero are not the defining condition for a Hopf bifurcation.",
+  "tags": [
+    "hopf-bifurcation",
+    "oscillations",
+    "bifurcation-theory"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "efbf9dd8-0630-4629-8114-e84bf9c736d9"
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "422f1b3e-7497-41fa-b200-e0cbdeb2a8b7",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In standard quantum mechanics time is not represented by a self-adjoint operator (a quantum observable) but instead appears as an external ___ against which the state evolves.",
+  "choices": [
+    "parameter"
+  ],
+  "answer": "parameter",
+  "explanation": "The expected word is 'parameter'. Time enters the Schrödinger equation as an external parameter, not as an observable like position or momentum, a point sharpened by Pauli's theorem: no self-adjoint time operator can be canonically conjugate to a Hamiltonian that is bounded below. This asymmetric treatment of time and space becomes acute in the problem of time in quantum gravity.",
+  "tags": [
+    "quantum-mechanics",
+    "time-parameter",
+    "pauli-theorem",
+    "observable"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

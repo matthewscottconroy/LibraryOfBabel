@@ -1,0 +1,22 @@
+{
+  "question_id": "f4ce40b7-23ac-45e9-a143-76efc8d9ed2e",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Quine's slogan 'to be is to be the value of a bound variable' expresses which criterion of ontological commitment?",
+  "choices": [
+    "A theory is committed to whatever fundamental entities ground the derivative entities it mentions.",
+    "A theory is committed to whatever objects are named by the singular terms it employs.",
+    "A theory is committed to exactly those entities that must lie in the range of its bound variables when it is regimented in first-order predicate logic.",
+    "A theory is committed only to those entities whose existence is settled internally, once a linguistic framework has been adopted."
+  ],
+  "answer": 2,
+  "explanation": "Quine reads commitment off the existential quantifiers of a theory's best first-order regimentation. The tempting distractor is the name-based criterion (option 2): Quine held that singular terms are eliminable via Russellian paraphrase, so commitment is carried by bound variables, not by names.",
+  "tags": [
+    "ontological-commitment",
+    "quine",
+    "first-order-logic"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

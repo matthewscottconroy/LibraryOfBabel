@@ -1,0 +1,20 @@
+{
+  "question_id": "36533914-a520-4acf-a1c5-40cc4dce5369",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Under a change of variables x = T(u) in a multiple integral, the integrand is multiplied by the absolute value of the determinant of the Jacobian matrix of T.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The change-of-variables theorem introduces |det DT|, the Jacobian determinant, as the local volume-scaling factor. The absolute value is essential because volume is positive regardless of whether the map preserves or reverses orientation.",
+  "tags": [
+    "change-of-variables",
+    "jacobian",
+    "integration"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

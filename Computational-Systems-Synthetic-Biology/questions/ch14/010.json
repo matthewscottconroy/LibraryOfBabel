@@ -1,0 +1,19 @@
+{
+  "chapter": 14,
+  "phase": 2,
+  "kind": "blank",
+  "text": "___ models (implemented in tools such as NetLogo, Mesa, and CompuCell3D) represent individual cells or organisms explicitly, and are especially useful when spatial effects and cell-to-cell variation matter, such as in tumor growth or biofilm formation.",
+  "choices": [
+    "Agent-based"
+  ],
+  "answer": "Agent-based",
+  "explanation": "Agent-based models explicitly represent individual cells, bacteria, or organisms as separate computational agents following behavioral rules, which is essential when spatial position and individual variability matter -- for example, in tumor growth, biofilm formation, or immune cell dynamics. Frameworks like NetLogo, Mesa, and CompuCell3D all implement this modeling paradigm, though they differ in their target applications and underlying spatial representations (patch-based, grid/continuous space, and Cellular Potts, respectively).",
+  "tags": [
+    "agent-based-modeling",
+    "netlogo",
+    "compucell3d"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "10ce29ed-b694-41e7-bde6-96f6ac4e67db"
+}

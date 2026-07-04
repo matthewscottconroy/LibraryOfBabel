@@ -1,0 +1,21 @@
+{
+  "question_id": "0e7b75ca-48a3-4ecb-a531-44aebd0af894",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Divergence Theorem states that the outward flux of F through a closed surface equals:",
+  "choices": [
+    "the line integral of F around a boundary curve",
+    "the volume integral of curl F over the enclosed region",
+    "the volume integral of div F over the enclosed region",
+    "the surface area of the closed surface"
+  ],
+  "answer": 2,
+  "explanation": "Gauss's Divergence Theorem equates outward flux through a closed surface to the integral of the divergence over the enclosed volume. The curl version is not even dimensionally sensible here (curl is a vector), and flux is unrelated to raw surface area.",
+  "tags": [
+    "divergence-theorem",
+    "flux"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

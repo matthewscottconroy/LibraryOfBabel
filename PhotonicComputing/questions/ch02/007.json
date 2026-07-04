@@ -1,0 +1,13 @@
+{
+  "question_id": "272b22ef-0380-4659-ba6c-cf1744a15ffb",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Spontaneous emission and stimulated emission are entirely independent processes, with no fundamental relationship between their rates.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False: Einstein showed they are linked by A₂₁ = (ℏω³/π²c³)B₂₁. In the QED picture, spontaneous emission is stimulated emission driven by vacuum fluctuations, so the two are inseparable rather than independent.",
+  "tags": ["einstein-coefficients", "spontaneous-emission", "stimulated-emission"],
+  "difficulty": "beginner",
+  "generated": true
+}

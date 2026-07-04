@@ -1,0 +1,20 @@
+{
+  "question_id": "d37b82bf-a66e-4b97-a210-a7f693d23c83",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "At a critical point where ∇f = 0, the nature of the extremum (minimum, maximum, or saddle) is classified by the signs of the eigenvalues of the ___ matrix of second partial derivatives.",
+  "choices": [
+    "Hessian",
+    "Hessian matrix"
+  ],
+  "answer": "Hessian",
+  "explanation": "The Hessian matrix [∂²f/∂xⁱ∂xʲ] is symmetric by Clairaut's theorem; at a critical point, all-positive eigenvalues give a local minimum, all-negative a maximum, and mixed signs a saddle point — the second derivative test. The Jacobian (first derivatives) vanishes at a critical point and therefore cannot make this classification.",
+  "tags": [
+    "hessian",
+    "second-derivative-test",
+    "multivariable-calculus"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

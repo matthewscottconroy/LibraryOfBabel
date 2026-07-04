@@ -1,0 +1,20 @@
+{
+  "question_id": "cbad4ed9-2519-4aab-b6b6-1848b7bd3f07",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "blank",
+  "text": "This book's counting of gauge conditions on the symmetric amplitude A_μν leaves ___ independent physical polarization states for a gravitational wave.",
+  "choices": [
+    "two",
+    "2"
+  ],
+  "answer": "two",
+  "explanation": "Starting from the 10 components of the symmetric A_μν, the Lorenz gauge and the residual transverse-traceless gauge freedom remove the unphysical components, leaving exactly two physical, gauge-invariant polarizations — the plus and cross modes. The other components are pure gauge (coordinate) effects that can be transformed away.",
+  "tags": [
+    "polarization",
+    "tt-gauge",
+    "degrees-of-freedom"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

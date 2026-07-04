@@ -1,0 +1,13 @@
+{
+  "question_id": "f22ac6f0-9584-497e-ac16-9b6a54cc5fa5",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "blank",
+  "text": "Under $\\chi_V+\\chi_W=\\chi_{V\\oplus W}$ and $\\chi_V\\cdot\\chi_W=\\chi_{V\\otimes W}$, the irreducible characters generate a commutative ring called the ___ $R(G)$.",
+  "choices": ["character ring", "representation ring"],
+  "answer": "character ring",
+  "explanation": "These operations make the span of the irreducible characters into the character ring $R(G)$, the Grothendieck ring of the representation category: addition comes from direct sums and multiplication from tensor products. For compact Lie groups this is the representation ring, e.g. $R(U(1))=\\mathbb{Z}[t,t^{-1}]$.",
+  "tags": ["character-theory", "character-ring", "grothendieck-ring"],
+  "difficulty": "advanced",
+  "generated": true
+}

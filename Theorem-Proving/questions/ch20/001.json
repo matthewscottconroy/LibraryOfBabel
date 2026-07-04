@@ -1,0 +1,23 @@
+{
+  "question_id": "bbb66fce-497f-4fc8-8da3-3d562b062a2f",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A category consists of objects and morphisms with a composition operation. Which equations must composition satisfy?",
+  "choices": [
+    "Commutativity: g∘f = f∘g",
+    "The unit laws (id_B∘f = f = f∘id_A) and associativity (h∘(g∘f) = (h∘g)∘f)",
+    "Every morphism has a two-sided inverse",
+    "Hom(A,B) is nonempty for all objects A, B"
+  ],
+  "answer": 1,
+  "explanation": "The category axioms are exactly the unit laws and associativity of composition; nothing else is assumed. Composition need not be commutative (it is usually not even defined in both orders), morphisms need not be invertible (those are isomorphisms), and Hom-sets may be empty.",
+  "tags": [
+    "categories",
+    "axioms",
+    "composition",
+    "associativity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

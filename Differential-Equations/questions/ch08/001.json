@@ -1,0 +1,22 @@
+{
+  "question_id": "4854bf6e-fc8d-4086-93cf-7dec67b97d00",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Gauss's Theorema Egregium states that Gaussian curvature:",
+  "choices": [
+    "depends on how the surface is embedded in R^3",
+    "is intrinsic, determined by the first fundamental form (the metric) alone",
+    "is always zero for compact surfaces",
+    "equals the mean curvature"
+  ],
+  "answer": 1,
+  "explanation": "The Remarkable Theorem shows Gaussian curvature K is intrinsic: it can be computed from the first fundamental form (lengths and angles) without reference to the embedding, which is why a flat sheet (K = 0) cannot be wrapped onto a sphere (K > 0) without distortion. Mean curvature, by contrast, is extrinsic.",
+  "tags": [
+    "gauss-egregium",
+    "gaussian-curvature",
+    "differential-geometry"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "fbfd0df4-eb2f-45d9-a649-7156d9a8fe53",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In classical mereology, the single object composed of any given plurality of objects taken together is called their mereological ___.",
+  "choices": [
+    "sum",
+    "fusion"
+  ],
+  "answer": "sum",
+  "explanation": "The mereological sum (or fusion) of some things is the object that overlaps exactly what overlaps at least one of them. In classical mereology strong supplementation makes this fusion unique, so 'the sum' of a given plurality is well defined.",
+  "tags": [
+    "fusion",
+    "sum",
+    "classical-mereology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

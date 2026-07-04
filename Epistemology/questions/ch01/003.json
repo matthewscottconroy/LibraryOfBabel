@@ -1,0 +1,18 @@
+{
+  "question_id": "c749f8aa-c9f9-498b-94d0-9583668019f5",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Goldman's 1967 causal theory analyzes knowledge as requiring an appropriate causal connection between the fact that p and S's belief that p. Which objection identifies a class of knowledge the theory struggles to accommodate?",
+  "choices": [
+    "It cannot explain perceptual knowledge, because perception involves no causal contact between object and believer.",
+    "It collapses into the no-false-lemmas view, since every causal chain must contain a false intermediate belief.",
+    "It entails that the truth-conditions of knowledge attributions shift with the attributor's conversational standards.",
+    "It cannot easily accommodate mathematical knowledge, since necessary truths do not stand in causal relations to beliefs."
+  ],
+  "answer": 3,
+  "explanation": "Abstract, necessarily true propositions such as those of mathematics do not cause anything, so the causal theory struggles to explain how we know them; Goldman's appeal to causal processes of proof and instruction only attenuates the causal requirement. Perceptual knowledge (option 0) is in fact the theory's paradigm success case. Option 2 describes contextualism, a distinct semantic thesis about the word 'knows,' not an objection to the causal theory.",
+  "tags": ["causal-theory", "goldman", "mathematical-knowledge", "necessary-truths"],
+  "difficulty": "intermediate",
+  "generated": true
+}

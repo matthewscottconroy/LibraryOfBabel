@@ -1,0 +1,22 @@
+{
+  "question_id": "c323c0d9-dfb5-458d-8f5a-8b151db9ccf6",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In closed-loop (autonomous) forecasting, the mode this chapter uses to measure Valid Prediction Time, how is the ESN driven after training?",
+  "choices": [
+    "The network's own predicted state is fed back in as the next input, so it evolves as an autonomous dynamical system",
+    "The true Lorenz state is supplied as the input at every step, so teacher forcing continues indefinitely",
+    "The recurrent weights W_rec are re-solved by ridge regression at each new step",
+    "The reservoir state is reset to zero before every prediction step"
+  ],
+  "answer": 0,
+  "explanation": "Closed-loop evaluation feeds the reservoir's own output back as the next input (u_hat_t = W_out x_{t-1}), turning the trained ESN into a fully autonomous system, which is why forecasts eventually diverge and VPT is finite. Option 1 describes open-loop / teacher forcing; W_rec is never trained (option 2); the reservoir carries its state forward and is not reset (option 3).",
+  "tags": [
+    "closed-loop",
+    "autonomous",
+    "prediction"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

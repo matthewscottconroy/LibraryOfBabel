@@ -1,0 +1,22 @@
+{
+  "question_id": "5eaf66ed-db42-4129-87d6-1a1e2bbf1a1d",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "If f = u + i v is analytic, then its real and imaginary parts u and v are:",
+  "choices": [
+    "linear functions",
+    "constant",
+    "harmonic (they satisfy Laplace's equation)",
+    "always positive"
+  ],
+  "answer": 2,
+  "explanation": "Differentiating the Cauchy-Riemann equations shows u_xx + u_yy = 0 and likewise for v, so both parts are harmonic and are harmonic conjugates of each other. This links complex analysis to two-dimensional potential theory. They need not be linear or constant.",
+  "tags": [
+    "harmonic-functions",
+    "analyticity",
+    "cauchy-riemann"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

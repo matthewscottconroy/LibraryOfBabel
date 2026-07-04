@@ -1,0 +1,21 @@
+{
+  "question_id": "f26aafb7-b2c3-4c54-a01e-d947feeac7f6",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "An attractor that is bounded yet has a positive Lyapunov exponent and fractal (non-integer) dimension - like the Lorenz attractor (dimension ~ 2.06) - is called a ___ attractor.",
+  "choices": [
+    "strange",
+    "chaotic",
+    "fractal"
+  ],
+  "answer": "strange",
+  "explanation": "The text defines a strange attractor as one that is neither a fixed point, limit cycle, nor torus, exhibits sensitive dependence (lambda_max > 0), and typically has fractal dimension - exactly the Lorenz attractor.",
+  "tags": [
+    "strange-attractor",
+    "fractal-dimension",
+    "lorenz"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "ab77fcde-624f-4caa-95a5-173891d2a97a",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "In the second-order Taylor expansion of a function of several variables, the symmetric matrix of second partial derivatives is called the ___ matrix.",
+  "choices": [
+    "Hessian"
+  ],
+  "answer": "Hessian",
+  "explanation": "The Hessian collects the second partials and governs the quadratic term of the Taylor expansion; its definiteness classifies critical points via the second-derivative test. By Clairaut's theorem it is symmetric when the second partials are continuous.",
+  "tags": [
+    "hessian",
+    "taylor-series",
+    "optimization"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "58267762-4e89-4720-b8c3-cc28deef8548",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "A module M is called ___ when the functor − ⊗_R M preserves all exact sequences.",
+  "choices": [
+    "flat",
+    "a flat module"
+  ],
+  "answer": "flat",
+  "explanation": "Tensoring is always right exact; flatness demands that it also preserve injections. Free ⇒ projective ⇒ flat, and the failure of flatness is measured by the derived functor Tor: ℚ is flat over ℤ while ℤ/nℤ is not.",
+  "tags": [
+    "modules",
+    "flat",
+    "tensor-products",
+    "exactness"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "0442f9e0-4202-4b77-b813-0fce251fa91b",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "On Locke's empiricist account, our idea of duration is derived from:",
+  "choices": [
+    "A pure a priori intuition that precedes and conditions all experience",
+    "An absolute time that God constitutes through his infinite duration and omnipresence",
+    "The intuitive grasp of things in their necessity, sub specie aeternitatis",
+    "Reflection on the succession of ideas as they come and go in our own minds"
+  ],
+  "answer": 3,
+  "explanation": "Locke grounds the idea of duration in reflection on the constant succession of ideas passing through the mind (Essay II.14.3) — an inner, empirical source, not any external independent framework. Choice 0 is Kant's a priori intuition, choice 1 is the Newtonian God-constituted absolute time, and choice 2 is Spinoza's eternity; these are precisely the non-empiricist alternatives that Locke's derivation-from-experience rejects.",
+  "tags": ["locke", "empiricism", "succession-of-ideas", "duration"],
+  "difficulty": "intermediate",
+  "generated": true
+}

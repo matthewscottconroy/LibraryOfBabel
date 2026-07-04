@@ -1,0 +1,19 @@
+{
+  "question_id": "f608ff2c-d3e4-45bd-bc9f-795559309142",
+  "chapter": 21,
+  "phase": 3,
+  "kind": "blank",
+  "text": "A quantum repeater stores heralded entanglement in a quantum ___ so that segments can wait to be connected by entanglement swapping; the book calls this component the pacing technology of the entire quantum internet.",
+  "choices": [
+    "memory"
+  ],
+  "answer": "memory",
+  "explanation": "The quantum memory holds entanglement until neighboring links succeed; no platform yet meets all six requirements at once (efficiency, storage time, matched bandwidth, multimode capacity, telecom compatibility, and fidelity), which makes it the bottleneck. It is distinct from the swapping operation, which is a Bell measurement.",
+  "tags": [
+    "quantum-memory",
+    "repeaters",
+    "quantum-internet"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

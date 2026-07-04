@@ -1,0 +1,18 @@
+{
+  "question_id": "8529a4de-1270-4cbb-9db8-a99fc86450a8",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A proof by mathematical induction has two parts: the ___ case, in which one proves P(0), and the inductive step, in which one proves P(n) → P(n+1).",
+  "choices": [
+    "base"
+  ],
+  "answer": "base",
+  "explanation": "The base case establishes the property at the starting value (P(0)); omitting it is a classic error (as in the all-horses-are-the-same-color fallacy), since the inductive step alone proves nothing without a foundation to build on.",
+  "tags": [
+    "base-case",
+    "mathematical-induction"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

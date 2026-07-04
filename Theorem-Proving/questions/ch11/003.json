@@ -1,0 +1,23 @@
+{
+  "question_id": "3dac9acb-9b59-4d82-891f-f6a4b7e61519",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The axiom T (□φ → φ) corresponds to which property of the accessibility relation R?",
+  "choices": [
+    "Transitivity",
+    "Reflexivity",
+    "Symmetry",
+    "The Euclidean property"
+  ],
+  "answer": 1,
+  "explanation": "T ('what is necessary is true') is valid exactly on reflexive frames (wRw for all w): since w sees itself, □φ forces φ at w. Transitivity corresponds to axiom 4, symmetry to axiom B, and the Euclidean property to axiom 5.",
+  "tags": [
+    "modal-logic",
+    "frame-correspondence",
+    "axiom-t",
+    "reflexivity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

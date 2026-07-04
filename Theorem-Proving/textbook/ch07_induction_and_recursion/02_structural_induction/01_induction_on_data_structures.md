@@ -42,4 +42,4 @@ See `textbook/ch07_induction_and_recursion/04_recursion/03_recursion_in_haskell.
 Both handle structural induction automatically via the `induction` tactic.
 
 ## Exercises
-See `problems/ch07_induction/03_structural_induction_problems.md`
+See `problems/ch07_induction_and_recursion/03_structural_induction_problems.md`

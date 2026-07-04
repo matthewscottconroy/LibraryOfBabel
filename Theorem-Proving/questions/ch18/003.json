@@ -1,0 +1,22 @@
+{
+  "question_id": "308541c7-db96-4934-8651-a4a6329f20da",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Lagrange's theorem states that for a finite group G with a subgroup H ≤ G:",
+  "choices": [
+    "|H| divides |G|",
+    "|G| divides |H|",
+    "every divisor of |G| is the order of some subgroup of G",
+    "G has a subgroup of every prime order"
+  ],
+  "answer": 0,
+  "explanation": "Lagrange's theorem says the order of a subgroup divides the order of the group, |H| | |G|, proved by partitioning G into cosets of equal size |H|. Option B reverses the divisibility. Options C and D assert forms of the (false) converse of Lagrange — A₄ has order 12 but no subgroup of order 6.",
+  "tags": [
+    "lagrange",
+    "cosets",
+    "subgroups"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

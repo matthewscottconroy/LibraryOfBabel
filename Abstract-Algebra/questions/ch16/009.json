@@ -1,0 +1,13 @@
+{
+  "question_id": "d5d98fb0-82fc-448b-8fa4-4167f9376fc7",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The Kunneth short exact sequence computes $H_n(A\\otimes B)$ from the tensor products $H_p(A)\\otimes H_q(B)$ together with a correction term built from the derived functor ___.",
+  "choices": ["Tor", "Tor_1"],
+  "answer": "Tor",
+  "explanation": "The Kunneth formula reads $0\\to\\bigoplus H_p(A)\\otimes H_q(B)\\to H_n(A\\otimes B)\\to\\bigoplus\\mathrm{Tor}_1(H_p(A),H_q(B))\\to 0$, so the correction term is a Tor group (specifically $\\mathrm{Tor}_1$). It is not $\\mathrm{Ext}$ (which governs universal-coefficient cohomology) and not an ordinary tensor product.",
+  "tags": ["spectral-sequences", "kunneth", "tor"],
+  "difficulty": "beginner",
+  "generated": true
+}

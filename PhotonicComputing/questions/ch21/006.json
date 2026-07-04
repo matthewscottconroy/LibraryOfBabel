@@ -1,0 +1,13 @@
+{
+  "question_id": "add57a98-1398-446f-9b84-d3729f886740",
+  "chapter": 21,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Twin-field QKD beats the PLOB bound at long distance, achieving a rate that scales as the square root of the channel transmittance. What is the origin of this sqrt(eta) scaling?",
+  "choices": ["It uses quantum repeaters with quantum memories at each node", "Alice and Bob each send dim phase-locked fields to an untrusted midpoint where they interfere, so only one photon need survive half the path — giving sqrt(eta) instead of eta", "It amplifies the signal at the midpoint with a phase-sensitive amplifier", "It encodes many bits per photon using high-dimensional states"],
+  "answer": 1,
+  "explanation": "In TF-QKD a single detector click at the untrusted midpoint heralds a key bit, and because only one photon must traverse half the distance the rate scales as sqrt(eta), overtaking PLOB beyond a few hundred km (record: 1,002 km). Choice 0 confuses it with repeaters — TF-QKD needs no quantum memory; choice 2 would violate no-cloning; choice 3 is a different idea that does not change the loss scaling.",
+  "tags": ["twin-field-qkd", "plob-bound", "rate-scaling"],
+  "difficulty": "advanced",
+  "generated": true
+}

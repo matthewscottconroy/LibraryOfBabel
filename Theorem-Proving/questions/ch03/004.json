@@ -1,0 +1,22 @@
+{
+  "question_id": "5701dc70-0f5d-433d-9c86-da7aa5b831c8",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Gentzen's sequent calculus, the sequent Γ ⊢ Δ (with Γ, Δ finite sequences of formulas) intuitively means:",
+  "choices": [
+    "assuming all formulas in Γ, at least one formula in Δ holds",
+    "assuming all formulas in Γ, all formulas in Δ hold",
+    "at least one formula in Γ implies all of Δ",
+    "Γ and Δ are logically equivalent"
+  ],
+  "answer": 0,
+  "explanation": "The standard reading of Γ ⊢ Δ is: if every formula in Γ holds (conjunction on the left), then at least one formula in Δ holds (disjunction on the right). The 'all of Δ' reading (option 2) and options 3 and 4 misstate this left-conjunction / right-disjunction semantics.",
+  "tags": [
+    "sequent-calculus",
+    "sequents",
+    "gentzen"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

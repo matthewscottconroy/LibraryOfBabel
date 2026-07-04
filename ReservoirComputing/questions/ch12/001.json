@@ -1,0 +1,22 @@
+{
+  "question_id": "a78e7100-a59b-454e-bc58-4873281583ce",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the Lab 13 DeepESN (3 layers of 100 neurons), what leak rates are assigned to layers 1, 2, and 3?",
+  "choices": [
+    "α = 0.1, 0.3, 1.0 (increasing with depth)",
+    "α = 0.5, 0.5, 0.5 (equal across all layers)",
+    "α = 1.0, 0.3, 0.1 (decreasing with depth)",
+    "α = 0.9, 0.95, 0.99 (matching the spectral radii)"
+  ],
+  "answer": 2,
+  "explanation": "The lab sets LEAK_RATES = [1.0, 0.3, 0.1], so the leak rate DECREASES with depth: the fast bottom layer forgets quickly, the slow top layer integrates over a long window. Option 0 reverses the order; option 1 (equal rates) would collapse the hierarchy back to shallow behavior; option 3 lists the spectral radii SPEC_RADII = [0.9, 0.95, 0.99], not the leak rates.",
+  "tags": [
+    "deep-esn",
+    "leak-rate",
+    "lab13"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

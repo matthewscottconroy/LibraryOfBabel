@@ -1,0 +1,20 @@
+{
+  "question_id": "727b7520-95b2-4e72-9fd7-4d67996ceae6",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Rejecting the ideal of a detached 'view from nowhere,' standpoint theorists develop the thesis that all knowledge is knowledge from somewhere, from some particular social perspective. This thesis is called ___.",
+  "choices": [
+    "situated knowledge"
+  ],
+  "answer": "situated knowledge",
+  "explanation": "Situated knowledge is the thesis that all knowing is done from some social location, against the 'view from nowhere' ideal of a perspectiveless objectivity. It underwrites standpoint theory without collapsing into relativism: granting that knowledge is situated is compatible with holding, as Harding does, that some situations (for example marginalized standpoints) yield epistemically better access to social reality. It should be distinguished from the stronger epistemic-privilege thesis itself.",
+  "tags": [
+    "standpoint-epistemology",
+    "situated-knowledge",
+    "feminist-epistemology",
+    "view-from-nowhere"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "b5ed3c6d-e446-4c08-b11e-cf4c119efd4c",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which delay value τ does the lab treat as the standard, weakly-chaotic Mackey-Glass benchmark?",
+  "choices": [
+    "10",
+    "30",
+    "0.2",
+    "17"
+  ],
+  "answer": 3,
+  "explanation": "The lab uses TAU_VALUES=[17, 30]; τ=17 is labelled 'weakly chaotic' (the standard case) and τ=30 'more chaotic'. n=10 is the exponent, β=0.2 is a rate constant — neither is the delay.",
+  "tags": [
+    "mackey-glass",
+    "tau",
+    "benchmarks"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

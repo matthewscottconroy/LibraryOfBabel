@@ -1,0 +1,18 @@
+{
+  "question_id": "ab3736de-2adb-446b-a79a-1e3745631c24",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is the general structure common to Gettier's 1963 counterexamples that shows justified true belief is not sufficient for knowledge?",
+  "choices": [
+    "S justifiably infers a true proposition from a justified but false lemma, so S's belief is true only by luck rather than because of the supporting evidence.",
+    "S believes a true proposition but has no justification whatsoever for it, so the belief is a mere lucky guess.",
+    "S holds a well-justified belief that turns out to be false, showing that justification does not guarantee truth.",
+    "S fails to believe a proposition that is both true and well justified, so the belief condition goes unmet."
+  ],
+  "answer": 0,
+  "explanation": "In each Gettier case S validly and justifiably infers a truth q from a justified proposition p that is in fact false; q happens to be true, but for reasons unconnected to S's evidence, so the true belief is only accidentally true. All three JTB conditions are met yet knowledge is absent. Option 1 describes a mere lucky guess (no justification at all) and option 2 describes an ordinary justified false belief, neither of which is the Gettier structure.",
+  "tags": ["gettier", "false-lemma", "epistemic-luck", "jtb"],
+  "difficulty": "intermediate",
+  "generated": true
+}

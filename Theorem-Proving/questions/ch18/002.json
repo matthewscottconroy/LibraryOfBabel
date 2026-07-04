@@ -1,0 +1,23 @@
+{
+  "question_id": "06ee63fc-c08a-4525-9b7d-136066e8126e",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which of the following groups is NOT abelian?",
+  "choices": [
+    "(ℤ, +)",
+    "(ℤ/12ℤ, +)",
+    "D₄, the symmetry group of the square",
+    "(ℚ*, ×)"
+  ],
+  "answer": 2,
+  "explanation": "D₄ has eight elements (four rotations, four reflections), and a rotation followed by a reflection differs from the reflection followed by the rotation, so it is non-abelian. (ℤ,+), (ℤ/12ℤ,+), and (ℚ*,×) are all commutative and hence abelian.",
+  "tags": [
+    "groups",
+    "abelian",
+    "d4",
+    "examples"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

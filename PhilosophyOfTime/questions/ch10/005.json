@@ -1,0 +1,23 @@
+{
+  "question_id": "782136a7-53a7-4771-a6ed-b17898fae919",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A time traveler carries a copy of Hamlet back to 1600; Shakespeare copies and publishes it; the traveler later acquires the published play and carries it back, so the play is never actually composed by anyone. What does the book identify as the distinctive feature that makes this a genuinely puzzling bootstrap paradox, as opposed to a mere logical contradiction?",
+  "choices": [
+    "It is logically inconsistent, and therefore proves that backward time travel is impossible.",
+    "It violates the consistency constraint, since the traveler could simply choose not to hand over the manuscript.",
+    "It requires a branching timeline in which a numerically different Shakespeare writes the play.",
+    "It forms an ontological causal loop that is logically consistent but explanatorily incomplete: nothing within the loop explains why the information has the content it has rather than some other content."
+  ],
+  "answer": 3,
+  "explanation": "The book stresses that the bootstrap case is not a contradiction (choice 0): the loop is perfectly consistent, yet explanatorily incomplete, because the information circulates with no external origin and nothing explains why it is Hamlet rather than anything else. It does not violate the consistency constraint (choice 1); consistent loops are exactly what Novikov's principle permits. And it is a single-timeline phenomenon, not a branching one (choice 2), which would be a different scenario altogether.",
+  "tags": [
+    "bootstrap-paradox",
+    "causal-loop",
+    "information-problem",
+    "ontological-loop"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

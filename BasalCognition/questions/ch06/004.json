@@ -1,0 +1,13 @@
+{
+  "question_id": "4e7c2a9b-8f16-4d3e-a70c-5b9d1e8f2c46",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In honeybee nest-site selection, what event triggers scout bees to stop dancing and begin the piping and stop signals that launch the swarm?",
+  "choices": ["The queen personally inspects and approves the site", "Pheromone concentration at the candidate site reaches a peak", "The number of scouts at a preferred site exceeds a threshold (a quorum)", "Every scout in the swarm has visited the site at least once"],
+  "answer": 2,
+  "explanation": "Quorum sensing is the mechanism: when scouts detect that the number of like-minded scouts at a site exceeds a threshold (roughly fifteen), they shift from recruiting to signaling departure. The queen plays no evaluative role, bees do not use accumulating pheromone to mark nest sites in this process, and consensus does not require every scout to have visited the site.",
+  "tags": ["quorum-sensing", "honeybee", "decision-making"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "2a974467-0e27-47d3-9846-8523f829a903",
+  "chapter": 17,
+  "phase": 6,
+  "kind": "blank",
+  "text": "By Schur's lemma, for irreducible representations $V$ and $W$ the space $\\mathrm{Hom}_G(V,W)$ is zero unless $V$ and $W$ are ___.",
+  "choices": ["isomorphic", "equivalent"],
+  "answer": "isomorphic",
+  "explanation": "Schur's lemma says any $G$-map between irreducibles is either $0$ or an isomorphism, so $\\mathrm{Hom}_G(V,W)=0$ whenever $V\\not\\cong W$. When they are isomorphic (over $\\mathbb{C}$) the Hom space is $1$-dimensional, spanned by the scalar multiples of an isomorphism.",
+  "tags": ["representations", "schur-lemma", "hom-space"],
+  "difficulty": "intermediate",
+  "generated": true
+}

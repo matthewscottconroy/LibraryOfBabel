@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The MAPK cascade (growth factor -> receptor -> RAS -> RAF -> MEK -> ERK) is described as providing strong signal amplification. What is the mechanistic basis for this amplification?",
+  "choices": [
+    "Each activated kinase can phosphorylate and activate many downstream kinase molecules, so the number of active molecules multiplies at each tier of the cascade",
+    "Each ligand-receptor binding event triggers clathrin-mediated endocytosis, which concentrates signaling molecules inside endosomes",
+    "Zero-order ultrasensitivity in the receptor-ligand binding step raises the effective Hill coefficient to between 20 and 40",
+    "Scaffold proteins such as KSR sequester all cascade components into a single static complex that blocks any downstream activation"
+  ],
+  "answer": 0,
+  "explanation": "Amplification in a kinase cascade arises because each activated kinase molecule can phosphorylate many substrate molecules, so the number of activated molecules grows at each successive tier. Receptor endocytosis (choice 1) is a trafficking mechanism related to signal termination and spatial control, not amplification. Zero-order ultrasensitivity (choice 2) is real in phosphorylation cycles but produces switch-like sensitivity rather than multi-tier amplification, and it is not a property of the receptor-ligand binding step. Scaffold proteins (choice 3) organize pathway components to preserve specificity; they do not block activation.",
+  "tags": [
+    "mapk-cascade",
+    "signal-amplification",
+    "kinase-cascade"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "ef1324ac-cab7-42b8-b865-04ab01dcf0f7"
+}

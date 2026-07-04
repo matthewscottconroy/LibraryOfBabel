@@ -1,0 +1,20 @@
+{
+  "chapter": 14,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The Karr et al. (2012) whole-cell model of Mycoplasma genitalium took only a few person-months to build, and has since been extended into an equally complete whole-cell model of E. coli.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: building the M. genitalium whole-cell model actually took approximately 128 person-years, reflecting the enormous effort of integrating 28 submodels and estimating their parameters. A comparably complete whole-cell model of the much larger and more complex E. coli genome does not yet exist in this material -- E. coli has instead been the subject of more limited ME-models (metabolism and expression models), which are not the same as a full whole-cell model.",
+  "tags": [
+    "whole-cell-model",
+    "karr-2012",
+    "modeling-limitations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "7ec7ec33-a576-42fd-af0c-740d1db15c15"
+}

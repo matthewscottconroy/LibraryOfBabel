@@ -1,0 +1,23 @@
+{
+  "question_id": "f1b13046-43c6-4ddd-9fcc-2318f80569a5",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which statement about the decidability and complexity of propositional logic is correct?",
+  "choices": [
+    "Propositional validity is undecidable, just like first-order validity",
+    "Propositional logic is decidable (truth tables always terminate), and Cook proved SAT is NP-complete",
+    "SAT is known to be solvable in polynomial time",
+    "Propositional logic is only semi-decidable"
+  ],
+  "answer": 1,
+  "explanation": "Truth tables give a terminating decision procedure, so propositional logic is decidable, and Cook (1971) proved that SAT (CNF satisfiability) is NP-complete. It is first-order logic — not propositional logic — that is only semi-decidable (options 1 and 4). Whether SAT ∈ P is the open P = NP question, so option 3 is not known.",
+  "tags": [
+    "decidability",
+    "sat",
+    "np-complete",
+    "cook"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

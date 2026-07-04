@@ -1,0 +1,18 @@
+{
+  "question_id": "3d770441-d442-49ce-aff2-85c477e8b8f2",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Locke's classic account locates a person's identity over time in which of the following?",
+  "choices": [
+    "Biological continuity of the human organism, so a person persists exactly as long as the animal does.",
+    "Psychological continuity, paradigmatically continuity of memory linking later experiences to earlier ones.",
+    "The persistence of an immaterial soul or Cartesian self underlying the changing mental life.",
+    "Overlapping chains of psychological connectedness whose holding comes in degrees and, ultimately, is 'not what matters.'"
+  ],
+  "answer": 1,
+  "explanation": "For Locke, sameness of person consists in memory-based psychological continuity, not sameness of substance. Option 0 is Olson's animalism (the biological criterion), option 2 is the non-reductionist soul theory Locke explicitly sets aside, and option 3 is Parfit's reductionist development, which adds that identity comes in degrees and is not what prudentially matters — a refinement of, but not the same as, Locke's memory criterion.",
+  "tags": ["personal identity", "locke", "psychological continuity", "animalism", "memory"],
+  "difficulty": "beginner",
+  "generated": true
+}

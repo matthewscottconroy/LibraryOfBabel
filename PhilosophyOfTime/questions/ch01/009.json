@@ -1,0 +1,21 @@
+{
+  "question_id": "6344865f-9ec0-420c-84d0-18723d285130",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "True or False: For Plato in the Timaeus, time is ontologically inferior to eternity - a created, moving image that depends upon, and only imperfectly approximates, an unchanging eternal model.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true. In the Timaeus the eternal model (the realm of Being) is the original, while time belongs to the realm of Becoming; the temporal cosmos is a copy that depends on the eternal for its existence and never fully attains it. Plato draws ontological, epistemic, and evaluative asymmetries that all rank eternity above time.",
+  "tags": [
+    "plato",
+    "timaeus",
+    "eternity",
+    "being-becoming"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

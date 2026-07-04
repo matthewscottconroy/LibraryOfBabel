@@ -1,0 +1,22 @@
+{
+  "question_id": "cebeb8b8-f3ca-41e4-8adb-79415fb1847b",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The 'common kind assumption', which disjunctivism rejects, states that:",
+  "choices": [
+    "A veridical perception and a subjectively indistinguishable hallucination are experiences of the same fundamental kind",
+    "All perception is of mind-independent physical objects",
+    "Sense-data are themselves physical objects",
+    "Hallucinations have no phenomenal character at all"
+  ],
+  "answer": 0,
+  "explanation": "The common kind assumption says a veridical perception and an indistinguishable hallucination are experiences of the same fundamental kind; the argument from hallucination relies on it, and disjunctivism (McDowell, Hinton) rejects it. Options 1-3 are unrelated theses - direct realism, a category error about sense-data, and a denial of hallucinatory phenomenology.",
+  "tags": [
+    "common-kind-assumption",
+    "argument-from-hallucination",
+    "disjunctivism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

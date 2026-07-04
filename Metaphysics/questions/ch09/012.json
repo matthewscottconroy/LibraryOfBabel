@@ -1,0 +1,19 @@
+{
+  "question_id": "95eaeba4-e6d5-4bee-b677-6aaca1418788",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In Nagel's model of reduction, a higher-level theory reduces to a lower-level theory when its laws are derivable from the lower-level laws together with ___ laws connecting the vocabularies of the two theories.",
+  "choices": [
+    "bridge"
+  ],
+  "answer": "bridge",
+  "explanation": "Nagelian reduction requires connectability plus derivability: bridge laws link each higher-level predicate to lower-level predicates (e.g., temperature to mean molecular kinetic energy), so that the higher-level laws follow logically. The multiple realizability argument attacks precisely the assumption that strict, non-disjunctive bridge laws are available.",
+  "tags": [
+    "reduction",
+    "nagel",
+    "bridge-laws"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

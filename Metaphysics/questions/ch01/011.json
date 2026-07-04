@@ -1,0 +1,21 @@
+{
+  "question_id": "0f00e74e-88c2-4fd4-b4fd-e65f65056fa2",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A primitive, non-qualitative 'thisness' that makes an individual the very individual it is, posited by Duns Scotus and defended by Adams and Plantinga, is called a ___.",
+  "choices": [
+    "haecceity",
+    "haecceitas",
+    "thisness"
+  ],
+  "answer": "haecceity",
+  "explanation": "A haecceity is a primitive individual essence that grounds an object's identity independently of its qualitative profile, and so can distinguish qualitative duplicates. It figures in both the individuation debate and modal (transworld) individuation, and is structurally akin to what the bare particular provides.",
+  "tags": [
+    "haecceity",
+    "individuation",
+    "thisness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

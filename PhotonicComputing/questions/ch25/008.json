@@ -1,0 +1,13 @@
+{
+  "question_id": "4fbea292-6edb-4cd8-85a4-3484eb1e5dc7",
+  "chapter": 25,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: Luminous Computing survived the mid-2020s because it narrowly scoped a single, incrementally adoptable product rather than attempting too much at once.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Luminous Computing is the chapter's canonical case of vertical overreach: it attempted optical compute, memory access, packaging scale-up, and a software stack simultaneously and pre-revenue, raising about $115M before winding down around 2023 to 2024. The survivors, not Luminous, are the ones defined by a single narrowly scoped product.",
+  "tags": ["luminous-computing", "failure-mode", "vertical-overreach"],
+  "difficulty": "advanced",
+  "generated": true
+}

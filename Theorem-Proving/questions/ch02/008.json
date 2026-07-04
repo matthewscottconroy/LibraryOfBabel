@@ -1,0 +1,21 @@
+{
+  "question_id": "af66b66f-a163-4595-98fd-33cfb9e669fe",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Like propositional logic, first-order logic is decidable: there is an algorithm that decides, for any sentence, whether it is valid.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. By the Church–Turing result (1936), first-order validity is undecidable. FOL is only SEMI-decidable: a valid sentence will eventually be recognized, but the procedure may run forever on non-valid ones. Propositional logic is decidable, but FOL is not.",
+  "tags": [
+    "decidability",
+    "semi-decidable",
+    "church-turing",
+    "first-order-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

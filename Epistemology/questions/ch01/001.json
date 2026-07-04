@@ -1,0 +1,18 @@
+{
+  "question_id": "a9f21da8-9b49-417f-ba24-150a9965ed00",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "On the classical (JTB) analysis, knowledge is justified true belief. How does the analysis characterize the logical relationship among its three conditions?",
+  "choices": [
+    "Each condition is jointly necessary but individually insufficient, so knowledge requires only that at least two of the three hold.",
+    "Truth and belief are necessary, while justification is merely sufficient and may be dropped without loss.",
+    "The three conditions are individually necessary and jointly sufficient for knowledge.",
+    "Justification alone is both necessary and sufficient, with truth and belief following from it."
+  ],
+  "answer": 2,
+  "explanation": "The classical analysis holds that truth, belief, and justification are each individually necessary (one cannot know a falsehood, cannot know what one does not believe, and mere lucky true belief is not knowledge) and that together they are jointly sufficient. Gettier's achievement was to leave the necessity of the three conditions intact while refuting the sufficiency claim. Option 1 misdescribes justification, which the tradition treats as necessary, not as a merely optional sufficient extra.",
+  "tags": ["jtb", "classical-analysis", "knowledge", "necessary-and-sufficient"],
+  "difficulty": "beginner",
+  "generated": true
+}

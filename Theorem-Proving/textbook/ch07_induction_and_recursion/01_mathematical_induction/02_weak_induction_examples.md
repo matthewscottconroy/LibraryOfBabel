@@ -57,4 +57,4 @@ theorem geom_sum (r : ℝ) (hr : r ≠ 1) (n : ℕ) :
 ```
 
 ## Exercises
-See [problems/ch07_induction/01_weak_induction_exercises.md](../../../problems/ch07_induction/01_weak_induction_exercises.md)
+See [problems/ch07_induction_and_recursion/01_weak_induction_exercises.md](../../../problems/ch07_induction_and_recursion/01_weak_induction_exercises.md)

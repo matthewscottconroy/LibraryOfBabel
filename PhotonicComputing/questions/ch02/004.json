@@ -1,0 +1,13 @@
+{
+  "question_id": "91e4f7e6-5521-4bc0-a45e-c69bcda56a0c",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The second-order nonlinear susceptibility χ⁽²⁾ (which enables second-harmonic generation and the Pockels effect) is exactly zero in which materials?",
+  "choices": ["Lithium niobate (LiNbO₃)", "Gallium arsenide (GaAs)", "Centrosymmetric materials such as crystalline silicon and amorphous silica", "Only in gases, never in solids"],
+  "answer": 2,
+  "explanation": "χ⁽²⁾ vanishes in any material with inversion (centrosymmetric) symmetry, including silicon and silica — which is why they show no Pockels effect. LiNbO₃ and GaAs lack inversion symmetry and have large χ⁽²⁾; the effect is not restricted to gases.",
+  "tags": ["nonlinear-optics", "chi2", "centrosymmetry", "pockels-effect"],
+  "difficulty": "intermediate",
+  "generated": true
+}

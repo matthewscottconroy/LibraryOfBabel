@@ -1,0 +1,18 @@
+{
+  "question_id": "a75f4fb7-22b0-4da9-9466-231f46e82722",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Two indistinguishable photons enter opposite ports of a 50/50 beam splitter (input |1,1>). What does the Hong-Ou-Mandel effect predict at the outputs?",
+  "choices": [
+    "They always exit through separate ports, giving maximal coincidences",
+    "Each photon independently splits 50/50, giving |1,1> half the time",
+    "They bunch: |1,1> becomes (i/sqrt(2))(|2,0> + |0,2>) and the coincidence rate drops to zero",
+    "They annihilate each other and no photons emerge"
+  ],
+  "answer": 2,
+  "explanation": "Destructive interference of the both-transmit and both-reflect two-photon amplitudes forces the photons to leave together: |1,1> becomes (i/sqrt(2))(|2,0> + |0,2>), so coincidences vanish. Choice 0 is the opposite (distinguishable-particle) behavior; choice 1 ignores interference; photons are not destroyed (choice 3), they bunch.",
+  "tags": ["hom", "beam-splitter", "two-photon-interference"],
+  "difficulty": "intermediate",
+  "generated": true
+}

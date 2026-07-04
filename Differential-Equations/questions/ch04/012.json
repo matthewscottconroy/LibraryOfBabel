@@ -1,0 +1,22 @@
+{
+  "question_id": "f99dd673-3130-4d93-9aeb-a5cee351a66b",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "When separating variables in cylindrical coordinates, the role played by sines and cosines in Cartesian problems is instead played by:",
+  "choices": [
+    "Legendre polynomials",
+    "Hermite polynomials",
+    "Bessel functions",
+    "Chebyshev polynomials"
+  ],
+  "answer": 2,
+  "explanation": "Cylindrical geometry produces Bessel's equation, so Bessel functions form the orthogonal basis, with the Hankel transform as the corresponding integral transform. Legendre polynomials and spherical harmonics arise instead in spherical coordinates.",
+  "tags": [
+    "bessel-functions",
+    "hankel-transform",
+    "separation-of-variables"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

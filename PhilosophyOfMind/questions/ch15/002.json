@@ -1,0 +1,22 @@
+{
+  "question_id": "094267da-3a94-46c0-9594-26ef8d3c2650",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The multiple realizability argument (Putnam) is standardly taken to block Nagelian intertheoretic reduction because it undermines:",
+  "choices": [
+    "The existence of the brain as a physical object",
+    "The claim that mental states depend on physical states at all",
+    "The possibility of systematic bridge laws linking psychological kinds to neural kinds",
+    "The reliability of the BOLD signal in fMRI"
+  ],
+  "answer": 2,
+  "explanation": "If a mental kind is realized by indefinitely many physical kinds, no biconditional bridge law can pair it with a single neural kind, which blocks Nagelian reduction. Multiple realizability does not deny the brain's existence, does not deny that mental states depend on physical states (it is compatible with physicalism), and says nothing about fMRI reliability.",
+  "tags": [
+    "multiple-realizability",
+    "bridge-laws",
+    "reduction"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

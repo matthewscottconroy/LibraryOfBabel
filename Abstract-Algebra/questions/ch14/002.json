@@ -1,0 +1,21 @@
+{
+  "question_id": "2876d0f8-e980-449c-9e49-82df1a037e1f",
+  "chapter": 14,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The n-th homology of a chain complex (C•, d) is defined as:",
+  "choices": [
+    "ker(dₙ) / im(dₙ₊₁)",
+    "im(dₙ₊₁) / ker(dₙ)",
+    "Cₙ / ker(dₙ)",
+    "ker(dₙ) ∩ im(dₙ₊₁)"
+  ],
+  "answer": 0,
+  "explanation": "Homology is cycles modulo boundaries. Hₙ = 0 says every cycle is a boundary — the complex is exact at Cₙ — so homology precisely measures the failure of exactness.",
+  "tags": [
+    "homology",
+    "chain-complexes"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

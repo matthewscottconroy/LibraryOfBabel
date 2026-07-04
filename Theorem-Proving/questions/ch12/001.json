@@ -1,0 +1,22 @@
+{
+  "question_id": "dc946c20-c027-485a-b2a5-02a086e12a23",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Hoare triple {P} C {Q}, interpreted as partial correctness, asserts:",
+  "choices": [
+    "C always terminates, regardless of P",
+    "If P holds before C, then C is guaranteed to terminate",
+    "C terminates and Q holds, whenever P holds initially",
+    "If P holds before C and C terminates, then Q holds afterward"
+  ],
+  "answer": 3,
+  "explanation": "Partial correctness makes termination a hypothesis: Q is guaranteed only if C terminates, and it says nothing about whether C does. Choice 2 describes total correctness [P] C [Q], which additionally demands termination; choices 0 and 1 assert termination unconditionally.",
+  "tags": [
+    "hoare-logic",
+    "partial-correctness",
+    "hoare-triple"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

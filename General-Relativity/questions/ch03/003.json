@@ -1,0 +1,21 @@
+{
+  "question_id": "cf446a50-39ba-45d8-9dc5-ff0a1b328aab",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Writing f = u + iv with z = x + iy, the book states f is holomorphic precisely when u and v satisfy the Cauchy-Riemann equations, namely:",
+  "choices": [
+    "∂u/∂x = −∂v/∂y and ∂u/∂y = ∂v/∂x",
+    "∂u/∂x = ∂v/∂y and ∂u/∂y = −∂v/∂x",
+    "∂u/∂x = ∂u/∂y and ∂v/∂x = ∂v/∂y",
+    "∂²u/∂x² + ∂²u/∂y² = 0 and ∂²v/∂x² + ∂²v/∂y² = 0"
+  ],
+  "answer": 1,
+  "explanation": "The Cauchy-Riemann equations ∂u/∂x = ∂v/∂y and ∂u/∂y = −∂v/∂x force the difference quotient defining f'(z) to agree from all directions in ℂ. The last option states that u and v are harmonic (∇²u = 0), which is a consequence of holomorphy, not the defining equations; the first has the signs reversed.",
+  "tags": [
+    "complex-analysis",
+    "cauchy-riemann"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

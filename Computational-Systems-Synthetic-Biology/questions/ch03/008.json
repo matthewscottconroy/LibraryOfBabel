@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In Docker, multi-stage builds are primarily used to increase the final image size in order to bundle more debugging tools.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Multi-stage builds exist to minimize the final image size by discarding build-time dependencies and intermediate artifacts, not to increase it. Layer caching is the separate Docker feature that speeds up efficient rebuilds; bundling extra debugging tools into a production image runs counter to the stated purpose of multi-stage builds.",
+  "tags": [
+    "docker",
+    "containerization",
+    "reproducible-research"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "f2bb6c9c-8bfb-47f7-8aec-4216583153da"
+}

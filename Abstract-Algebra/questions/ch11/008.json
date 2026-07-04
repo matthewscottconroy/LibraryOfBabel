@@ -1,0 +1,20 @@
+{
+  "question_id": "ab8cdd56-7922-4c34-bf40-06e622532e97",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "ℚ is a free ℤ-module.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Any two rationals a/b and c/d satisfy the dependence (bc)(a/b) − (da)(c/d) = 0, so a basis could have at most one element — but ℚ is not cyclic (it is divisible, ℤ is not). ℚ is nevertheless flat over ℤ, illustrating flat ⇏ free.",
+  "tags": [
+    "modules",
+    "free-modules",
+    "rationals"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

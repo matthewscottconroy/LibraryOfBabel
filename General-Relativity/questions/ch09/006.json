@@ -1,0 +1,22 @@
+{
+  "question_id": "e2ebe6ad-9879-4718-9fad-e89e8bfc82d9",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the book's treatment of the Kerr black hole, inside the ergosphere the time Killing vector ∂_t becomes spacelike. The physical consequence is that:",
+  "choices": [
+    "an observer can still hover at rest relative to the distant stars",
+    "the observer has necessarily crossed the event horizon and can never escape",
+    "no observer can remain static; every observer must co-rotate with the hole",
+    "the Kretschmann curvature scalar necessarily diverges there"
+  ],
+  "answer": 2,
+  "explanation": "With g_tt > 0 inside the ergosphere, staying at fixed (r, θ, φ) is impossible, so frame dragging forces every observer to co-rotate with the black hole. Crucially the ergosphere lies OUTSIDE the outer event horizon r_+ (they touch only at the poles), so observers can still enter and leave it — that is what enables the Penrose process — and the curvature there remains finite.",
+  "tags": [
+    "kerr",
+    "ergosphere",
+    "frame-dragging"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

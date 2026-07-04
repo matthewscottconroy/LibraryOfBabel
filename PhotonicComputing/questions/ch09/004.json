@@ -1,0 +1,13 @@
+{
+  "question_id": "069b0d55-743a-4749-9c72-b4d090704547",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Co-packaged optics (CPO) reduces interconnect energy mainly by:",
+  "choices": ["Shortening the electrical path from ~100 mm faceplate traces (~1 pJ/bit SerDes) to ~1 mm package traces (~100 fJ/bit)", "Cooling the transceiver laser to cryogenic temperatures", "Replacing photons with electrons in the link", "Raising the supply voltage to drive longer traces"],
+  "answer": 0,
+  "explanation": "CPO moves the optical engine next to the switch ASIC, collapsing the energy-hungry electrical SerDes path from ~100 mm to ~1 mm and cutting that dominant component about 10x. It does not use cryogenics, keeps photons for transport, and raising voltage would increase (not reduce) energy.",
+  "tags": ["co-packaged-optics", "energy-per-bit", "serdes"],
+  "difficulty": "intermediate",
+  "generated": true
+}

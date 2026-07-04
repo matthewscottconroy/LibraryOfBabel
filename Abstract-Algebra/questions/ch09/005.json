@@ -1,0 +1,21 @@
+{
+  "question_id": "2e694782-a88f-41eb-8e65-e17f67ed94b4",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Using the class equation, one proves that every group of order p² (p prime) is:",
+  "choices": [
+    "abelian",
+    "cyclic",
+    "simple",
+    "centerless"
+  ],
+  "answer": 0,
+  "explanation": "The class equation forces |Z(G)| > 1 for any p-group. If |Z(G)| were p, then G/Z(G) would be cyclic of order p, which forces G abelian — a contradiction — so Z(G) = G. Note 'cyclic' overreaches: ℤ/pℤ × ℤ/pℤ has order p² but is not cyclic.",
+  "tags": [
+    "class-equation",
+    "p-groups"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "0896aed8-365f-49e9-8225-40f640227689",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "By the Hartman-Grobman theorem, near a hyperbolic equilibrium the nonlinear flow is topologically conjugate to its linearization.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is exactly the Hartman-Grobman statement: a homeomorphism matches nonlinear and linear orbits near a hyperbolic equilibrium, so the linearization captures the local qualitative picture.",
+  "tags": [
+    "hartman-grobman",
+    "conjugacy"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

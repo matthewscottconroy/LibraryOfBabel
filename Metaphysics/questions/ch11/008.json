@@ -1,0 +1,20 @@
+{
+  "question_id": "91c59163-dc86-4aa8-a8ad-b608d54dd467",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Truthmaker necessitarianism is the thesis that if an entity T is a truthmaker for a proposition p, then T's existence metaphysically necessitates the truth of p.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Necessitarianism (Armstrong) holds that truthmaking is a necessary relation: necessarily, if the truthmaker exists then the proposition is true, so there is no world containing T in which p is false. This is distinct from maximalism, which is the further claim that every truth has some truthmaker.",
+  "tags": [
+    "truthmaker",
+    "necessitarianism",
+    "armstrong"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

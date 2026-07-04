@@ -1,0 +1,20 @@
+{
+  "question_id": "e0d3c6b9-1a48-4f27-8b3d-9c5a2e7f0146",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The transmission of the ciliate cortex's row pattern and orientation from mother cell to daughter cell independently of the DNA sequence, demonstrated by Beisson and Sonneborn (1965), is called ___ inheritance.",
+  "choices": [
+    "cortical"
+  ],
+  "answer": "cortical",
+  "explanation": "The answer is cortical. Existing cortical structures serve as physical templates for assembling new ones in the same position and orientation during division, making cortical inheritance the clearest known example of purely structural, non-genomic inheritance in any organism.",
+  "tags": [
+    "ciliates",
+    "cortical-inheritance",
+    "epigenetics",
+    "sonneborn"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "UPGMA tree-building assumes a constant molecular clock across all lineages. What property does this assumption force onto the resulting tree?",
+  "choices": [
+    "It produces an ultrametric tree in which all tips are equidistant from the root",
+    "It produces an unrooted tree with no molecular clock assumption",
+    "It requires specifically the GTR substitution model",
+    "It minimizes the total number of evolutionary changes (parsimony)"
+  ],
+  "answer": 0,
+  "explanation": "Because UPGMA assumes every lineage accumulates change at the same constant rate, all tips end up equidistant from the root, producing an ultrametric tree. An unrooted tree with no clock assumption instead describes neighbor-joining; UPGMA is a clustering method that works on any pairwise distance matrix and does not require GTR specifically; and minimizing evolutionary changes describes maximum parsimony, a completely different optimality criterion.",
+  "tags": [
+    "upgma",
+    "molecular-clock",
+    "tree-building"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "8b2ce93e-9cfc-4c2d-9d7d-7eb9bb4c2472"
+}

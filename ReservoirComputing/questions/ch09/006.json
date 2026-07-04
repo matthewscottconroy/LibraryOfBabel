@@ -1,0 +1,22 @@
+{
+  "question_id": "06c22de7-dda3-44c0-b087-77fbeaa5feea",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The RLS objective weights past errors by a forgetting factor (mu in the text, lambda_f in the lab). What does choosing a value below 1 do?",
+  "choices": [
+    "It weights all samples equally, recovering ordinary least squares",
+    "It forces the reservoir weights to slowly drift over time",
+    "It down-weights recent samples to stabilize the estimate",
+    "It weights recent samples more than older ones, enabling tracking of non-stationary statistics"
+  ],
+  "answer": 3,
+  "explanation": "The factor mu^(t-s) exponentially discounts older data, so mu < 1 emphasizes recent samples and lets the readout track drifting/non-stationary statistics. mu = 1 gives equal weighting (ordinary LS); it never touches the reservoir weights; and it up-weights recent, not older, data.",
+  "tags": [
+    "rls",
+    "forgetting-factor",
+    "non-stationary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

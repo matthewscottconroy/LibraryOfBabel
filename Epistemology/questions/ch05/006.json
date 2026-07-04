@@ -1,0 +1,23 @@
+{
+  "question_id": "0d94799a-e3df-40ed-8782-c11da2ae3cef",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is distinctive of Paul Horwich's minimalism about truth?",
+  "choices": [
+    "Truth is a substantive relation of correspondence between a proposition and its truthmaker.",
+    "Truth is warranted assertibility under the idealized epistemic conditions available to an ideal inquirer.",
+    "The set of all instances of the equivalence schema 'the proposition that p is true iff p' exhausts the nature of truth.",
+    "Truth is realized by correspondence in the physical domain and by superassertibility in the moral domain."
+  ],
+  "answer": 2,
+  "explanation": "Horwich's minimalism takes the (unproblematic) instances of the equivalence schema, applied to propositions, to say everything there is to say about truth: there is a property of truth, but a minimal, non-explanatory one. Option 0 is correspondence; option 1 is Dummettian anti-realism; option 3 is truth pluralism. Minimalism also differs from Quine's disquotationalism, which takes sentences rather than propositions as the bearers of truth.",
+  "tags": [
+    "deflationism",
+    "minimalism",
+    "horwich",
+    "t-schema"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

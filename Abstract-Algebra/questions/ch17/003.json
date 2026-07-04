@@ -1,0 +1,18 @@
+{
+  "question_id": "b56512c9-8699-4109-949f-70c5e13b23a6",
+  "chapter": 17,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Maschke's theorem guarantees that every representation of a finite group $G$ over a field $k$ is completely reducible provided:",
+  "choices": [
+    "$\\mathrm{char}(k)\\nmid|G|$",
+    "$k$ is algebraically closed",
+    "$G$ is abelian",
+    "$\\mathrm{char}(k)\\mid|G|$"
+  ],
+  "answer": 0,
+  "explanation": "Maschke's proof averages a projection as $\\bar p=\\frac{1}{|G|}\\sum_{g} g\\,p\\,g^{-1}$, which requires dividing by $|G|$, hence $\\mathrm{char}(k)\\nmid|G|$. Algebraic closure and abelianness are irrelevant to complete reducibility, and $\\mathrm{char}(k)\\mid|G|$ is exactly the modular case where the theorem FAILS.",
+  "tags": ["representations", "maschke", "complete-reducibility"],
+  "difficulty": "intermediate",
+  "generated": true
+}

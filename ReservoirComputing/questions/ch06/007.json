@@ -1,0 +1,20 @@
+{
+  "question_id": "7978ca1a-3466-45b7-8f62-48dc6d590437",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "tf",
+  "text": "For the NARMA-10 benchmark, a lower NMSE indicates better prediction performance.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "NMSE = MSE/Var(y): a perfect predictor gives 0 and predicting the mean gives 1, so lower is better. Jaeger (2002) reports NMSE ≈ 0.004 (for N=200) as an excellent result.",
+  "tags": [
+    "narma10",
+    "nmse",
+    "metric"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

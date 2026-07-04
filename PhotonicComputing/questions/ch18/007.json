@@ -1,0 +1,13 @@
+{
+  "question_id": "5e5ba221-1878-465b-a660-8469c9e9bca9",
+  "chapter": 18,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Despite their excellent performance, SNSPDs require cryogenic cooling, typically operating at about 0.8 to 4 K.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. The chapter states SNSPDs' one major cost is 0.8-4 K operation; they are superconducting devices and must be held below their critical temperature.",
+  "tags": ["snspd", "cryogenics", "detectors"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "b5a652fc-e362-422b-8e9d-47155d3af97b",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The variational principle relates topological and metric entropy by:",
+  "choices": [
+    "h_top(f) = inf over mu of h_mu(f)",
+    "h_top(f) = 0",
+    "h_top(f) = h_mu(f) for every mu",
+    "h_top(f) = sup over mu of h_mu(f)"
+  ],
+  "answer": 3,
+  "explanation": "h_top is the supremum of KS entropies over all invariant measures; the maximizer is the measure of maximal entropy. It is a supremum, not an infimum, and generally exceeds a given h_mu.",
+  "tags": [
+    "variational-principle",
+    "topological-entropy",
+    "ks-entropy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "d0c44a93-4b82-470e-87b0-e4e54636a4ea",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A ℤ-module is exactly the same thing as:",
+  "choices": [
+    "an abelian group",
+    "a vector space over ℚ",
+    "a ring",
+    "a cyclic group"
+  ],
+  "answer": 0,
+  "explanation": "The ℤ-action is forced by additivity: n·m = m + ⋯ + m (n times), so specifying a ℤ-module adds nothing beyond the abelian group structure. This is why the structure theorem over the PID ℤ specializes to the fundamental theorem of finitely generated abelian groups.",
+  "tags": [
+    "modules",
+    "abelian-groups"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

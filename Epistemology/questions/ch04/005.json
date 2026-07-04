@@ -1,0 +1,18 @@
+{
+  "question_id": "38bba376-69a0-4017-a3f1-5f6dee086afd",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "How does the contextualist treatment of the skeptical paradox (Cohen, DeRose) differ from Nozick's response?",
+  "choices": [
+    "It denies the closure principle while holding fixed a single, invariant meaning for 'know'",
+    "It retains closure in every context and instead lets the truth-conditions of 'know' shift with the attributor's standards, so the skeptic's conclusion and ordinary knowledge claims are each true in their own context",
+    "It maintains that the brain-in-a-vat scenario fails to be a relevant alternative in every context whatsoever",
+    "It concedes that we lack all knowledge of the external world but insists this has no practical consequences"
+  ],
+  "answer": 1,
+  "explanation": "Contextualism keeps closure valid in every context—Cohen lists the closure premise as true in any context—and dissolves the paradox by relativizing the meaning of 'know' to the attributor's standards. Nozick, by contrast, holds 'know' invariant and sacrifices closure (option 0). Option 2 misdescribes Dretske's relevant-alternatives view as fully context-invariant, and option 3 is a concessive response, not contextualism.",
+  "tags": ["contextualism", "derose", "cohen", "skeptical-paradox", "closure"],
+  "difficulty": "advanced",
+  "generated": true
+}

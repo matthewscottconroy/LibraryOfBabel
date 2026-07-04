@@ -1,0 +1,20 @@
+{
+  "question_id": "ddbcb1d4-d904-42a2-9455-8bf4e8cf85f2",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The 'map and the territory' example shows that ___ alone is insufficient for representation: the very same spatial structure could be used as wallpaper or kindling, so a system that uses the structure to guide cognition is also required.",
+  "choices": [
+    "structural isomorphism",
+    "isomorphism"
+  ],
+  "answer": "structural isomorphism",
+  "explanation": "The map-and-territory case shows that structural isomorphism (mere sharing of structure) is insufficient for representation, because the same structure could serve non-representational uses; representation requires a system that interprets or uses the structure. The expected phrase is 'structural isomorphism'.",
+  "tags": [
+    "structural-isomorphism",
+    "maps",
+    "representation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

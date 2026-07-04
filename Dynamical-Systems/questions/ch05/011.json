@@ -1,0 +1,19 @@
+{
+  "question_id": "7ce561f0-be3d-4b44-979a-c0d331af81cf",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Strong subadditivity of von Neumann entropy states S(AB) + S(BC) >= S(B) + S(___).",
+  "choices": [
+    "ABC"
+  ],
+  "answer": "ABC",
+  "explanation": "The Lieb-Ruskai inequality S(AB) + S(BC) >= S(B) + S(ABC) is the deepest entropy inequality in quantum information and implies monotonicity of relative entropy under channels.",
+  "tags": [
+    "strong-subadditivity",
+    "von-neumann-entropy",
+    "quantum-information"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

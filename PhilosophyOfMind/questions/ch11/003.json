@@ -1,0 +1,23 @@
+{
+  "question_id": "05b30991-1aa8-4212-a0db-c0a101f27318",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which finding is offered as evidence for weak linguistic relativity?",
+  "choices": [
+    "Children the world over pass false-belief tasks at roughly the same age",
+    "Chess masters recognise strong moves without explicit calculation",
+    "Russian, which has separate basic terms for light blue (goluboy) and dark blue (siniy), yields faster discrimination of colours that cross that category boundary than English does",
+    "Patients with ventromedial prefrontal damage make poor real-life decisions"
+  ],
+  "answer": 2,
+  "explanation": "The Russian blues result (like absolute-vs-relative spatial frames, and Piraha number) shows a language's categories influencing performance on a non-linguistic task -- the hallmark of weak relativity. Option 1 is evidence for nonverbal/tacit thought; options 0 and 3 belong to theory-of-mind and emotion-and-reasoning research, not linguistic relativity.",
+  "tags": [
+    "linguistic-relativity",
+    "color",
+    "russian-blues",
+    "boroditsky"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

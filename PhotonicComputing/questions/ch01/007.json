@@ -1,0 +1,13 @@
+{
+  "question_id": "004148ee-56fd-4606-b83d-dde4145a3a68",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A thin converging lens produces, in its back focal plane, the spatial Fourier transform of the field in its front focal plane.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: this is the central result of Fourier optics and the physical basis of 4f processors and diffractive neural networks that perform matrix operations optically. The far-field (Fraunhofer) diffraction pattern is a spatial Fourier transform, and a lens brings that far field to its focal plane.",
+  "tags": ["fourier-optics", "lens", "diffraction"],
+  "difficulty": "beginner",
+  "generated": true
+}

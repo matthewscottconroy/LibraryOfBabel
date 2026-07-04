@@ -1,0 +1,18 @@
+{
+  "question_id": "ba99ac15-77a0-484a-b621-4f31083ba2b5",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In a GST phase-change synapse, the RESET operation (crystalline to amorphous) is achieved by:",
+  "choices": [
+    "A long, moderate-power pulse that holds the film near 150-200 C to let atoms order",
+    "A continuous low DC bias that slowly crystallizes the film",
+    "A short, intense pulse that briefly melts the film (above ~600 C) followed by a rapid quench that freezes it disordered",
+    "Cooling the film below room temperature to freeze the lattice"
+  ],
+  "answer": 2,
+  "explanation": "RESET amorphizes by a short, intense melt-quench pulse (above ~600 C then rapid quench), which lowers absorption and raises the weight. Choice 0 describes SET (crystallization at ~150-200 C); choices 1 and 3 are not the described mechanisms, since crystallization needs heating above the crystallization temperature, not a low DC bias or cooling.",
+  "tags": ["pcm-synapse", "set-reset", "switching-physics"],
+  "difficulty": "beginner",
+  "generated": true
+}

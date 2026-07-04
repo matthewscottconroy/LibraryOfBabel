@@ -1,0 +1,18 @@
+{
+  "question_id": "100b7470-86a3-46a5-895b-1fda092e197b",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "G.E. Moore's reply to the closure-based skeptical argument is best described as:",
+  "choices": [
+    "rejecting the closure conditional, so that knowing I have hands does not require knowing I am not a brain in a vat",
+    "holding that the skeptic's conclusion and my ordinary knowledge claim are each true, but only in their own contexts",
+    "arguing that a genuine envatted brain could not so much as formulate the hypothesis that it is one",
+    "accepting the closure conditional but running it in reverse: because I do know I have hands, I thereby know I am not a brain in a vat"
+  ],
+  "answer": 3,
+  "explanation": "Moore keeps premise 1 (closure) but treats his knowledge that he has hands as more credible than the skeptic's premise 2, so he applies modus tollens in reverse to conclude that he knows he is not a BIV. This is distinct from Nozick's denial of closure (option 0), contextualism (option 1), and Putnam's semantic self-refutation argument (option 2).",
+  "tags": ["moore", "neo-moorean", "closure", "common-sense"],
+  "difficulty": "intermediate",
+  "generated": true
+}

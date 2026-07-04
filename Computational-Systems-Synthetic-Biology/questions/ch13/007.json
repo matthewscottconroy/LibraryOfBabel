@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In E. coli chemotaxis, the system achieves near-perfect (exact) adaptation to a persistent, constant attractant concentration. What mechanism is responsible?",
+  "choices": [
+    "An incoherent feedforward loop in which the output depends only on the fold-change in ligand and never on the receptor's methylation history",
+    "Scaffold proteins such as KSR co-localizing pathway components to physically block CheA from ever phosphorylating CheB",
+    "Integral feedback control implemented by antagonistic receptor methylation (CheR) and demethylation (CheB), which returns tumbling behavior to its original baseline regardless of the steady-state attractant level",
+    "Zero-order ultrasensitivity in CheA autophosphorylation that resets the response after every flagellar tumble"
+  ],
+  "answer": 2,
+  "explanation": "E. coli chemotaxis achieves exact adaptation through integral feedback: CheR continuously methylates (activates) receptors while CheB, activated by the same kinase (CheA) that drives tumbling, continuously demethylates them, so that at any fixed attractant concentration the system integrates the error until tumbling frequency returns to baseline. An incoherent feedforward loop (choice 0) is mentioned as an alternative theoretical route to adaptation, but it is not the mechanism used by the chemotaxis methylation system, which explicitly relies on methylation history. Scaffold-protein sequestration (choice 1) and zero-order ultrasensitivity (choice 3) are real concepts from other parts of signaling biology, but neither describes the chemotaxis adaptation mechanism.",
+  "tags": [
+    "adaptation",
+    "integral-feedback",
+    "chemotaxis"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "264f2120-4e51-4ddc-bbbe-116df7875320"
+}

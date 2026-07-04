@@ -1,0 +1,22 @@
+{
+  "question_id": "4fc8811c-8c52-47c2-916d-fe88d8057af6",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "As the parameter r increases in the logistic map f(x) = r x (1 - x), the route to chaos proceeds via:",
+  "choices": [
+    "a cascade of period-doubling bifurcations (period 1, 2, 4, 8, ...)",
+    "a single jump directly from a fixed point to chaos",
+    "the simultaneous loss of all periodic orbits",
+    "a stable limit cycle that persists for every r"
+  ],
+  "answer": 0,
+  "explanation": "The logistic map undergoes successive period-doubling bifurcations that accumulate near r = 3.5699, beyond which chaos appears. The ratios of successive bifurcation intervals converge to the universal Feigenbaum constant, about 4.669.",
+  "tags": [
+    "logistic-map",
+    "period-doubling",
+    "route-to-chaos"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

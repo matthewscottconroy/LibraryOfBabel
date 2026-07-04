@@ -1,0 +1,191 @@
+title = 'Photonic Computing Adaptive Quiz'
+chapters_dir = './book'
+system_prompt = """You are an expert quiz question generator for a graduate-level course on Photonic Computing. Topics include: waveguides and modes, Mach-Zehnder interferometers, electro-optic modulators, photodetectors, silicon photonics, optical interconnects (WDM), photonic matrix-vector multipliers, optical neural networks, nonlinear optics, quantum photonics, photonic reservoir computing, neuromorphic photonics, and systems integration. Questions must test engineering trade-offs and physical principles."""
+
+[[chapters]]
+index = 0
+phase = 0
+name = 'Maxwells Equations'
+file = 'unit_01_nature_of_light/ch01_maxwells_equations/chapter_intro.md'
+
+[[chapters]]
+index = 1
+phase = 0
+name = 'Wave Optics'
+file = 'unit_01_nature_of_light/ch02_wave_optics/chapter_intro.md'
+
+[[chapters]]
+index = 2
+phase = 0
+name = 'Light Matter Interaction'
+file = 'unit_01_nature_of_light/ch03_light_matter_interaction/chapter_intro.md'
+
+[[chapters]]
+index = 3
+phase = 0
+name = 'Laser Physics'
+file = 'unit_02_the_laser/ch04_laser_physics/chapter_intro.md'
+
+[[chapters]]
+index = 4
+phase = 0
+name = 'Photodetectors'
+file = 'unit_02_the_laser/ch05_photodetectors/chapter_intro.md'
+
+[[chapters]]
+index = 5
+phase = 1
+name = 'Waveguides And Fiber'
+file = 'unit_03_guided_wave_photonics/ch06_waveguides_and_fiber/chapter_intro.md'
+
+[[chapters]]
+index = 6
+phase = 1
+name = 'Silicon Photonics'
+file = 'unit_03_guided_wave_photonics/ch07_silicon_photonics/chapter_intro.md'
+
+[[chapters]]
+index = 7
+phase = 1
+name = 'Photonic Crystals And Metamaterials'
+file = 'unit_03_guided_wave_photonics/ch08_photonic_crystals_and_metamaterials/chapter_intro.md'
+
+[[chapters]]
+index = 8
+phase = 1
+name = 'Information Theory'
+file = 'unit_04_information_and_communications/ch09_information_theory/chapter_intro.md'
+
+[[chapters]]
+index = 9
+phase = 1
+name = 'Optical Interconnects'
+file = 'unit_04_information_and_communications/ch10_optical_interconnects/chapter_intro.md'
+
+[[chapters]]
+index = 10
+phase = 2
+name = 'Fourier Optics Computing'
+file = 'unit_05_classical_photonic_computing/ch11_fourier_optics_computing/chapter_intro.md'
+
+[[chapters]]
+index = 11
+phase = 2
+name = 'Matrix Vector Multiplication'
+file = 'unit_05_classical_photonic_computing/ch12_matrix_vector_multiplication/chapter_intro.md'
+
+[[chapters]]
+index = 12
+phase = 2
+name = 'Photonic Neural Networks'
+file = 'unit_05_classical_photonic_computing/ch13_photonic_neural_networks/chapter_intro.md'
+
+[[chapters]]
+index = 13
+phase = 2
+name = 'Diffractive Neural Networks'
+file = 'unit_05_classical_photonic_computing/ch14_diffractive_neural_networks/chapter_intro.md'
+
+[[chapters]]
+index = 14
+phase = 3
+name = 'Neuromorphic Concepts'
+file = 'unit_06_neuromorphic_photonics/ch15_neuromorphic_concepts/chapter_intro.md'
+
+[[chapters]]
+index = 15
+phase = 3
+name = 'Photonic Neurons And Synapses'
+file = 'unit_06_neuromorphic_photonics/ch16_photonic_neurons_and_synapses/chapter_intro.md'
+
+[[chapters]]
+index = 16
+phase = 3
+name = 'Quantum Mechanics Foundations'
+file = 'unit_07_quantum_photonics/ch17_quantum_mechanics_foundations/chapter_intro.md'
+
+[[chapters]]
+index = 17
+phase = 3
+name = 'Quantum Optics'
+file = 'unit_07_quantum_photonics/ch18_quantum_optics/chapter_intro.md'
+
+[[chapters]]
+index = 18
+phase = 3
+name = 'Single Photon Devices'
+file = 'unit_07_quantum_photonics/ch19_single_photon_devices/chapter_intro.md'
+
+[[chapters]]
+index = 19
+phase = 3
+name = 'Linear Optical Quantum Computing'
+file = 'unit_07_quantum_photonics/ch20_linear_optical_quantum_computing/chapter_intro.md'
+
+[[chapters]]
+index = 20
+phase = 3
+name = 'Continuous Variable QC'
+file = 'unit_07_quantum_photonics/ch21_continuous_variable_qc/chapter_intro.md'
+
+[[chapters]]
+index = 21
+phase = 3
+name = 'Quantum Communication'
+file = 'unit_07_quantum_photonics/ch22_quantum_communication/chapter_intro.md'
+
+[[chapters]]
+index = 22
+phase = 4
+name = 'Nanofabrication'
+file = 'unit_08_fabrication_and_tools/ch23_nanofabrication/chapter_intro.md'
+
+[[chapters]]
+index = 23
+phase = 4
+name = 'Simulation Tools'
+file = 'unit_08_fabrication_and_tools/ch24_simulation_tools/chapter_intro.md'
+
+[[chapters]]
+index = 24
+phase = 4
+name = 'Co Design And Benchmarking'
+file = 'unit_09_benchmarking/ch25_co_design_and_benchmarking/chapter_intro.md'
+
+[[chapters]]
+index = 25
+phase = 4
+name = 'Industry And Ecosystem'
+file = 'unit_10_frontiers/ch26_industry_and_ecosystem/chapter_intro.md'
+
+[[chapters]]
+index = 26
+phase = 4
+name = 'Research Frontiers'
+file = 'unit_10_frontiers/ch27_research_frontiers/chapter_intro.md'
+
+[[chapters]]
+index = 27
+phase = 4
+name = 'Outlook'
+file = 'unit_10_frontiers/ch28_outlook/chapter_intro.md'
+
+[[phases]]
+index = 0
+name = 'Phase 0 — Foundations of Light and Lasers'
+
+[[phases]]
+index = 1
+name = 'Phase 1 — Guided-Wave Photonics and Communications'
+
+[[phases]]
+index = 2
+name = 'Phase 2 — Classical Photonic Computing'
+
+[[phases]]
+index = 3
+name = 'Phase 3 — Neuromorphic and Quantum Photonics'
+
+[[phases]]
+index = 4
+name = 'Phase 4 — Fabrication, Benchmarking, and Frontiers'

@@ -1,0 +1,18 @@
+{
+  "question_id": "9c73598d-4440-4791-8555-a9f493645b2d",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The leaky integrate-and-fire (LIF) neuron models the cell membrane as what?",
+  "choices": [
+    "A lossless inductor that stores the spike energy",
+    "A leaky capacitor charged by the input current, with tau_m*dV/dt = -(V - V_rest) + R*I(t)",
+    "A nonlinear oscillator that always fires periodically",
+    "A memoryless digital comparator"
+  ],
+  "answer": 1,
+  "explanation": "LIF treats the membrane as a leaky RC capacitor that integrates input current toward V_infinity with a leak e^{-t/tau_m} and fires when V reaches V_th. It has memory (the integration), is not an inductor, does not oscillate autonomously, and keeps sub-threshold dynamics rather than being a memoryless comparator.",
+  "tags": ["neuromorphic", "lif", "integrate-and-fire"],
+  "difficulty": "beginner",
+  "generated": true
+}

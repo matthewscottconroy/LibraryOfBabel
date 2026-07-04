@@ -1,0 +1,13 @@
+{
+  "question_id": "6ce237dc-4b6f-4d15-b3b7-3caa3872e8e9",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Because gravity in general relativity is a genuine force, the geodesic equation of motion ẍ^μ + Γ^μ_νρ ẋ^ν ẋ^ρ = 0 must depend explicitly on the mass of the falling body, just as Newton's second law does.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "This is false on both counts the book stresses. Gravity in GR is not a force but the curvature of spacetime, and free fall is force-free geodesic motion. The geodesic equation contains no reference to the particle's mass at all, which is precisely why every body falls identically in a given spacetime — the equivalence principle expressed geometrically.",
+  "tags": ["geodesic", "equivalence-principle"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "16b0446c-c830-4ac9-9ae4-bf995d8db77a",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "On C.D. Broad's growing block theory, the future and the present are real, while the past has ceased to exist.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "The statement inverts the growing-block view. Broad's growing block holds that the past and present are real while the future is not yet real, with the present as the leading edge of an ever-accumulating block. The version described -- future and present real, past gone -- corresponds to no theory in the unit, so the statement is false.",
+  "tags": ["growing-block", "broad", "a-theory", "ontology"],
+  "difficulty": "intermediate",
+  "generated": true
+}

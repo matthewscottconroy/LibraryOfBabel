@@ -1,9 +1,0 @@
-{
-  "chapter": 3, "phase": 1, "kind": "mc",
-  "text": "The Picard-Lindelöf theorem guarantees existence and uniqueness of a solution to y' = f(x,y), y(x0)=y0 on an interval around x0 when:",
-  "choices": ["f is continuous on a rectangle containing (x0, y0)", "f is continuous and Lipschitz in y on a rectangle containing (x0, y0)", "f is twice continuously differentiable near (x0, y0)", "f is analytic near (x0, y0)"],
-  "answer": 1,
-  "explanation": "The Picard-Lindelöf theorem requires f to be continuous (ensuring existence) AND Lipschitz in y on a rectangle around the initial condition (ensuring uniqueness). Mere continuity gives the Peano existence theorem but not uniqueness. Lipschitz in y means there exists L > 0 such that |f(x,y1)-f(x,y2)| ≤ L|y1-y2|, which prevents trajectories from merging.",
-  "tags": ["existence-uniqueness", "Picard-Lindeloef", "Lipschitz"],
-  "difficulty": "intermediate"
-}

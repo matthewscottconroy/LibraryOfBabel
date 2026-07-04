@@ -1,0 +1,13 @@
+{
+  "question_id": "d39effbd-5aa5-4157-bf8b-5867b3aca938",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The term 'neuromorphic' was coined by Carver Mead in the late 1980s, for using the physics of analog subthreshold VLSI transistors to emulate, rather than numerically simulate, the operations of neural tissue.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: Mead coined 'neuromorphic' (late 1980s, crystallized in his 1990 paper), proposing analog subthreshold VLSI to emulate neural operations directly in device physics, a lineage of silicon neuron circuits later surveyed by Indiveri and colleagues.",
+  "tags": ["neuromorphic", "mead", "history"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "ba016937-b445-4809-a3a5-19781366f46d",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A Hamiltonian system with n independent, Poisson-commuting integrals of motion is called ___ (Liouville-Arnold).",
+  "choices": [
+    "integrable",
+    "completely integrable"
+  ],
+  "answer": "integrable",
+  "explanation": "Liouville-Arnold integrability foliates phase space into invariant n-tori carrying linear (quasi-periodic) flow. KAM studies what remains of this structure under perturbation.",
+  "tags": [
+    "integrable",
+    "liouville-arnold",
+    "hamiltonian"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

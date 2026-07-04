@@ -1,0 +1,20 @@
+{
+  "question_id": "e033ff3f-8438-4a3b-9f47-57911f18e584",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Lewis treats a time traveler who meets her younger self as a four-dimensional 'person-worm' whose distinct temporal parts (stages) are co-present at a single external time. The metaphysics of persistence on which objects have distinct temporal parts existing at different times is called ___.",
+  "choices": [
+    "perdurantism"
+  ],
+  "answer": "perdurantism",
+  "explanation": "The expected answer is perdurantism (four-dimensionalism), the view that persisting objects have distinct temporal parts; it handles the meeting-yourself case cleanly, since the 30-year stage and the 70-year stage are numerically distinct parts of one worm and can be spatially co-present without contradiction. Its rival, endurantism (three-dimensionalism), holds that the object is wholly present at each time and therefore faces the problem of one thing being wholly present in two places at once.",
+  "tags": [
+    "perdurantism",
+    "temporal-parts",
+    "meeting-yourself",
+    "persistence"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

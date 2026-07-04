@@ -1,0 +1,22 @@
+{
+  "question_id": "c25a0afb-4a29-44e3-90a0-f5145ce103f3",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Rice's theorem states that:",
+  "choices": [
+    "every non-trivial property of the behavior (the function or language computed) of a program is undecidable",
+    "every property of a program's source-code syntax is undecidable",
+    "no program can print its own source code",
+    "every decidable problem is also semi-decidable"
+  ],
+  "answer": 0,
+  "explanation": "Rice's theorem: any non-trivial property of the partial function (behavior) computed by a program is undecidable, proved by reduction from HALT. Option B is false — syntactic properties such as 'does the source have five lines?' are decidable; Rice concerns semantic/behavioral properties. Option C is refuted by quines (recursion theorem); option D, though true, is not Rice's theorem.",
+  "tags": [
+    "rice-theorem",
+    "undecidability",
+    "reductions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,115 @@
+title = 'Dynamical Systems Adaptive Quiz'
+chapters_dir = './'
+system_prompt = """You are an expert quiz question generator for a graduate-level course on Dynamical Systems and Chaos. Topics include: phase portraits, stability, nullclines, limit cycles, Hopf bifurcations, saddle-node and pitchfork bifurcations, period-doubling route to chaos, Lyapunov exponents, the Lorenz system, strange attractors, fractal dimension, Turing instability, reaction-diffusion equations, synchronisation (Kuramoto model), coupled oscillators, complex network dynamics, and information-theoretic complexity measures. Questions test deep conceptual understanding."""
+
+[[chapters]]
+index = 0
+phase = 0
+name = 'ODE Fundamentals'
+file = 'part-i-foundations/README.md'
+
+[[chapters]]
+index = 1
+phase = 0
+name = 'Geometric Methods'
+file = 'part-i-foundations/README.md'
+
+[[chapters]]
+index = 2
+phase = 1
+name = 'Classical Nonlinear Systems'
+file = 'part-ii-dynamical-systems/README.md'
+
+[[chapters]]
+index = 3
+phase = 1
+name = 'Limit Cycles and Oscillators'
+file = 'part-ii-dynamical-systems/README.md'
+
+[[chapters]]
+index = 4
+phase = 2
+name = 'Bifurcation Theory'
+file = 'part-iii-information-theory/README.md'
+
+[[chapters]]
+index = 5
+phase = 2
+name = 'Routes to Chaos'
+file = 'part-iii-information-theory/README.md'
+
+[[chapters]]
+index = 6
+phase = 3
+name = 'Strange Attractors'
+file = 'part-iv-bridges/README.md'
+
+[[chapters]]
+index = 7
+phase = 3
+name = 'Fractal Geometry'
+file = 'part-iv-bridges/README.md'
+
+[[chapters]]
+index = 8
+phase = 4
+name = 'Pattern Formation'
+file = 'part-v-foundations/README.md'
+
+[[chapters]]
+index = 9
+phase = 4
+name = 'Turing Instabilities'
+file = 'part-v-foundations/README.md'
+
+[[chapters]]
+index = 10
+phase = 5
+name = 'Synchronisation'
+file = 'part-vi-frontiers/README.md'
+
+[[chapters]]
+index = 11
+phase = 5
+name = 'Coupled Oscillator Networks'
+file = 'part-vi-frontiers/README.md'
+
+[[chapters]]
+index = 12
+phase = 6
+name = 'Complex Networks'
+file = 'part-vii-connections/README.md'
+
+[[chapters]]
+index = 13
+phase = 6
+name = 'Applications and Frontiers'
+file = 'part-vii-connections/README.md'
+
+[[phases]]
+index = 0
+name = 'Phase 0 — ODE Foundations'
+
+[[phases]]
+index = 1
+name = 'Phase 1 — Nonlinear Dynamics'
+
+[[phases]]
+index = 2
+name = 'Phase 2 — Bifurcations and Chaos'
+
+[[phases]]
+index = 3
+name = 'Phase 3 — Strange Attractors and Fractals'
+
+[[phases]]
+index = 4
+name = 'Phase 4 — Pattern Formation'
+
+[[phases]]
+index = 5
+name = 'Phase 5 — Synchronisation and Networks'
+
+[[phases]]
+index = 6
+name = 'Phase 6 — Complex Systems'

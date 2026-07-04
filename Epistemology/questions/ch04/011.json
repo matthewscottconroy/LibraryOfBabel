@@ -1,0 +1,20 @@
+{
+  "question_id": "5f61ae1d-9633-4d28-9910-23b1ef55efae",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In Agrippa's Five Modes, the mode of ___ objects that halting the regress of justification by positing a basic, unproven claim is merely an arbitrary assumption.",
+  "choices": [
+    "hypothesis"
+  ],
+  "answer": "hypothesis",
+  "explanation": "The mode of hypothesis charges that stopping the justificatory regress by simply positing a foundational claim is arbitrary and unsupported. It works alongside the modes of infinite regress and circularity—together the core of Agrippa's trilemma—to argue that no claim can be rationally grounded.",
+  "tags": [
+    "agrippa",
+    "trilemma",
+    "pyrrhonism",
+    "regress"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

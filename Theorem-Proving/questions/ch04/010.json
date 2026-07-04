@@ -1,0 +1,19 @@
+{
+  "question_id": "e47cbfe6-65bd-4f74-ad82-b52bf543ec53",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "To prove a biconditional P ↔ Q one proves two implications: the forward direction P → Q and its ___, the implication Q → P.",
+  "choices": [
+    "converse"
+  ],
+  "answer": "converse",
+  "explanation": "A biconditional P ↔ Q holds iff both P → Q and Q → P hold, and Q → P is the converse of P → Q. Proving only one of the two directions is the most common error in biconditional proofs.",
+  "tags": [
+    "biconditional",
+    "converse",
+    "iff"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "58bdf4e0-b2c0-49e4-aa93-17384544914f",
+  "chapter": 17,
+  "phase": 6,
+  "kind": "blank",
+  "text": "Maschke's theorem shows that for a finite group $G$ with $\\mathrm{char}(k)\\nmid|G|$ the group algebra $k[G]$ is a ___ ring, so Artin-Wedderburn expresses it as a product of matrix algebras.",
+  "choices": ["semisimple"],
+  "answer": "semisimple",
+  "explanation": "Complete reducibility of every module is exactly the statement that $k[G]$ is a semisimple ring; Artin-Wedderburn then gives $k[G]\\cong\\prod_i M_{n_i}(D_i)$. Over $\\mathbb{C}$ each division ring $D_i=\\mathbb{C}$, yielding $\\mathbb{C}[G]\\cong\\prod_i M_{n_i}(\\mathbb{C})$ with $\\sum_i n_i^2=|G|$.",
+  "tags": ["representations", "semisimple", "artin-wedderburn"],
+  "difficulty": "advanced",
+  "generated": true
+}

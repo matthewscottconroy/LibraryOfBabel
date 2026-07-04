@@ -1,0 +1,18 @@
+{
+  "question_id": "769c8103-4c42-4f72-83f5-4188e8273cea",
+  "chapter": 18,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In a single-photon source, the Purcell effect is exploited to:",
+  "choices": [
+    "Enhance the emitter's spontaneous-emission rate into the desired cavity mode, raising the collectable fraction beta and shortening the lifetime",
+    "Slow the emitter down so photons are emitted less often",
+    "Cool the quantum dot to its ground state",
+    "Convert the photon's wavelength to 1550 nm"
+  ],
+  "answer": 0,
+  "explanation": "The Purcell effect (F_P = (3/4pi^2)(lambda/n)^3 Q/V) speeds emission into the resonant cavity mode; beta = F_P/(F_P+1) saturates quickly (F_P = 10 gives beta = 0.91), and the shortened lifetime also boosts indistinguishability and rate. It accelerates, not slows, emission (choice 1); it is not a cooling (choice 2) or wavelength-conversion (choice 3) mechanism.",
+  "tags": ["purcell-effect", "beta-factor", "cavity-qed"],
+  "difficulty": "beginner",
+  "generated": true
+}

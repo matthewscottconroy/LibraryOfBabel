@@ -1,0 +1,22 @@
+{
+  "question_id": "a20d74d5-bc09-4cb8-92c1-e6c288cdf7ba",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the Hoare while rule  {I ∧ B} C {I} ⟹ {I} while B do C {I ∧ ¬B},  what is I?",
+  "choices": [
+    "A loop invariant: a predicate re-established by each execution of the body",
+    "The loop's termination measure (the variant)",
+    "The negation of the loop guard B",
+    "The weakest precondition of the entire program"
+  ],
+  "answer": 0,
+  "explanation": "I is the loop invariant: true before the loop and preserved by every iteration of body C, so that on exit I ∧ ¬B holds. Choice 1 describes the variant used for termination (total correctness), a separate ingredient; choice 2 is merely ¬B; choice 3 confuses the invariant with wp.",
+  "tags": [
+    "hoare-logic",
+    "loop-invariant",
+    "while-rule"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

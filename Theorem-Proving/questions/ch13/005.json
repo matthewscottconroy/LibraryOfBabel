@@ -1,0 +1,23 @@
+{
+  "question_id": "b4947c24-77c8-4325-b3bc-6235d75a2112",
+  "chapter": 13,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Clarke–Emerson–Sistla CTL model-checking algorithm runs in time:",
+  "choices": [
+    "Exponential in the size of the model |M|",
+    "PSPACE, exactly as for LTL",
+    "O(|M| · |φ|), polynomial in model and formula size",
+    "Constant time, independent of the model"
+  ],
+  "answer": 2,
+  "explanation": "CTL model checking is polynomial: O(|M| · |φ|) via the bottom-up labeling algorithm. This contrasts with LTL model checking, which is PSPACE-complete (choice 1) and exponential in formula size. The polynomial cost is what made CTL model checking practical.",
+  "tags": [
+    "ctl",
+    "model-checking",
+    "complexity",
+    "labeling-algorithm"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "f265d006-cf50-45eb-96fe-c32062e95525",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The universal ___ constant, about 4.669, describes the geometric rate at which successive period-doubling bifurcation intervals shrink.",
+  "choices": [
+    "Feigenbaum"
+  ],
+  "answer": "Feigenbaum",
+  "explanation": "Feigenbaum's constant (about 4.6692) is universal across smooth unimodal maps, an early instance of universality in nonlinear dynamics explained by renormalization. A second constant, about 2.5029, rescales the state variable.",
+  "tags": [
+    "feigenbaum",
+    "universality",
+    "period-doubling"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

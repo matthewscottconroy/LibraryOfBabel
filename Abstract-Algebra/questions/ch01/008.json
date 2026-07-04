@@ -1,0 +1,19 @@
+{
+  "question_id": "fcc4a43d-3cf9-418d-b4e2-8a5170854436",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "There exists a bijection between ℕ and ℚ.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "ℚ is countably infinite: arrange fractions in a grid indexed by numerator and denominator, then traverse diagonals skipping repeats. Cardinality is blind to the dense ordering of ℚ.",
+  "tags": [
+    "cardinality",
+    "countability"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

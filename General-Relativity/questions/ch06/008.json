@@ -1,0 +1,18 @@
+{
+  "question_id": "a1335ea4-8664-4e82-8351-5928d5c1423e",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The book stresses that length contraction L = L₀/γ is a direct consequence of which fact?",
+  "choices": [
+    "A real physical compression of the moving rod by molecular forces",
+    "The rod's proper length L₀ changing with speed",
+    "Time dilation acting on the atoms inside the rod",
+    "The relativity of simultaneity — measuring both ends at the same time is frame-dependent"
+  ],
+  "answer": 3,
+  "explanation": "Measuring a length requires locating both ends simultaneously, and simultaneity is frame-dependent; this is why L = L₀/γ. The book emphasizes the rod is not physically compressed (choice 0 is the discarded aether-era interpretation) and its rest/proper length L₀ is unchanged (choice 1). Length contraction and time dilation are two aspects of one geometric fact.",
+  "tags": ["length-contraction", "simultaneity", "proper-length"],
+  "difficulty": "intermediate",
+  "generated": true
+}

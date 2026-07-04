@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In prime editing, what is the specific purpose of the additional sgRNA used in the PE3 system?",
+  "choices": [
+    "It recruits a second reverse transcriptase molecule to increase RT processivity",
+    "It nicks the non-edited strand, biasing mismatch repair to use the edited strand as the template and increasing editing efficiency",
+    "It replaces the pegRNA's primer binding site to allow larger insertions",
+    "It inhibits mismatch repair directly by binding MLH1"
+  ],
+  "answer": 1,
+  "explanation": "PE3 adds a second sgRNA that nicks the non-edited (complementary) strand; this nick biases the cell's mismatch repair machinery to resolve the resulting heteroduplex using the edited strand as the template, increasing editing efficiency roughly 3-fold (at the cost of a modest increase in indels). PE3 does not add a second reverse transcriptase or change the PBS, and directly inhibiting mismatch repair via a dominant-negative MLH1 is instead the mechanism used in PE5, not PE3.",
+  "tags": [
+    "prime-editing",
+    "pe3",
+    "mismatch-repair"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "4bd770cc-b5b9-40c8-ad84-844a9347877c"
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "defb48f5-8043-4c6f-9d27-c94f074e4afe",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Finding a loop invariant for the Hoare while rule is a fully mechanical step that can always be automated.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: discovering the loop invariant is the creative part of program verification and cannot be automated in general (it is the analogue of choosing an induction hypothesis). Once the invariant is supplied, the surrounding wp calculation becomes mechanical, but finding it is not.",
+  "tags": [
+    "hoare-logic",
+    "loop-invariant",
+    "automation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "118cf217-6b69-4172-bf74-83f0ca7e4e67",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "According to the connectivity section, the network topology (Erdos-Renyi vs small-world vs scale-free) is a primary hyperparameter that matters more than ρ and σ_in.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: Section 8.6 classifies connectivity/topology as a secondary hyperparameter — structured topologies typically beat Erdos-Renyi by <10% and only task-specifically. The primary knobs ρ and σ_in matter far more and should be tuned first.",
+  "tags": [
+    "hyperparameters",
+    "connectivity",
+    "topology"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "681bd13f-2168-43a7-aef2-5b229746cfd3",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is the defining property of an autoconceptor relative to the standard (batch) conceptor?",
+  "choices": [
+    "It updates C incrementally online via matrix gradient descent and converges to the same offline conceptor R(R + alpha^-2 I)^-1",
+    "It modifies the reservoir's recurrent weights online to store the pattern",
+    "It replaces the aperture with a learned per-neuron length scale",
+    "It stores each pattern as a fixed-point attractor instead of a subspace"
+  ],
+  "answer": 0,
+  "explanation": "An autoconceptor does online gradient descent on the same convex objective and converges (under Robbins-Monro conditions) to the batch conceptor R(R + alpha^-2 I)^-1. The reservoir weights are never modified, which is why there is no catastrophic forgetting. Per-neuron length scales belong to ARD/GP readouts; conceptors store subspaces, not fixed points.",
+  "tags": [
+    "conceptor",
+    "autoconceptor",
+    "online-learning"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

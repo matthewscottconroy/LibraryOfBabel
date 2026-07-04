@@ -1,0 +1,21 @@
+{
+  "question_id": "b2c3f3cd-6778-47c8-b3eb-959f57d802db",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "According to the Representational Theory of Mind (RTM), mental processes are best understood as:",
+  "choices": [
+    "Direct sensorimotor engagement with environmental affordances that bypasses any inner states",
+    "Dispositions to behave, with no internal states that stand for anything",
+    "Causal processes operating over internal representations that carry content",
+    "Processes describable only by differential equations, never in terms of content"
+  ],
+  "answer": 2,
+  "explanation": "RTM holds that cognition consists in causal processes defined over internal representations that carry content (states that are 'about' things). Option 1 is the enactivist/Gibsonian view and option 2 is behaviourism, both of which deny contentful inner states; the last option describes the dynamical-systems (van Gelder) alternative that tries to explain cognition without representations. Only the third option states RTM's core commitment.",
+  "tags": [
+    "rtm",
+    "mental-representation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

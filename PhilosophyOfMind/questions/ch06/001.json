@@ -1,0 +1,21 @@
+{
+  "question_id": "d6543078-402a-45b2-9033-e4ad52933d92",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "According to classical sense-data theory (Russell, Moore, Price, Ayer), the immediate objects of perceptual awareness are:",
+  "choices": [
+    "External physical objects themselves",
+    "Sensorimotor contingencies that the perceiver has mastered",
+    "Nothing at all - perception is a bare relation with no object",
+    "Mind-dependent entities ('sense-data') bearing exactly the qualities experience presents"
+  ],
+  "answer": 3,
+  "explanation": "Sense-data theory holds that the immediate objects of awareness are mind-dependent sense-data bearing exactly the qualities experience presents (the oval look of a tilted coin), with physical objects only inferred as their cause. Option 0 is direct realism, option 1 is enactivism, and option 2 is closer to adverbialism; only the last states the sense-datum view.",
+  "tags": [
+    "sense-data",
+    "indirect-realism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

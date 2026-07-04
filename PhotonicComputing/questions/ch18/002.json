@@ -1,0 +1,18 @@
+{
+  "question_id": "fb46b158-388d-405b-be0e-dca949766417",
+  "chapter": 18,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which single-photon detector is now the most mature, reaching system detection efficiencies above 98%, timing jitter of a few to ~15 ps, and dark counts below 1 count per second?",
+  "choices": [
+    "The superconducting nanowire single-photon detector (SNSPD)",
+    "The silicon photomultiplier (SiPM) at room temperature",
+    "The vacuum photomultiplier tube (PMT)",
+    "The pn photodiode operated in linear (non-avalanche) mode"
+  ],
+  "answer": 0,
+  "explanation": "SNSPDs deliver over 98% system detection efficiency, ~few to 15 ps jitter, and under 1 count per second dark counts; the chapter calls them the most mature component in quantum photonics (at the cost of 0.8-4 K operation). PMTs and SiPMs have far lower efficiency and higher noise at 1550 nm, and a plain photodiode in linear mode cannot resolve single photons.",
+  "tags": ["snspd", "detectors", "efficiency"],
+  "difficulty": "beginner",
+  "generated": true
+}

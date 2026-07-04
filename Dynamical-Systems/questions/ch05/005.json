@@ -1,0 +1,22 @@
+{
+  "question_id": "44549268-3159-4a24-9f34-af3d13c9b1e3",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Cramer-Rao bound states that any unbiased estimator satisfies Var(theta-hat) >=",
+  "choices": [
+    "I(theta)",
+    "0",
+    "n",
+    "I(theta)^{-1}"
+  ],
+  "answer": 3,
+  "explanation": "The variance is bounded below by the inverse Fisher information I(theta)^{-1}; efficient estimators attain it. The bound is the inverse (not I(theta) itself), and 0 is vacuous.",
+  "tags": [
+    "cramer-rao",
+    "fisher-information",
+    "estimation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

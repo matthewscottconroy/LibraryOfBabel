@@ -1,0 +1,13 @@
+{
+  "question_id": "c7853a4a-cfc0-4c01-8fab-758727b00708",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In a silicon-on-insulator waveguide, light in the silicon core (n₁ = 3.48) meets the SiO₂ cladding (n₂ = 1.44). What is the critical angle for total internal reflection, measured from the normal?",
+  "choices": ["65.5°", "41.8°", "24.5°", "90°"],
+  "answer": 2,
+  "explanation": "θ_c = arcsin(n₂/n₁) = arcsin(1.44/3.48) ≈ 24.5°. The value 65.5° is its complement (measured from the interface rather than the normal), 41.8° is the critical angle for a glass–air interface (n ≈ 1.5), and 90° would wrongly imply reflection only at grazing incidence.",
+  "tags": ["total-internal-reflection", "critical-angle", "waveguides", "boundary-conditions"],
+  "difficulty": "intermediate",
+  "generated": true
+}

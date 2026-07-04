@@ -1,0 +1,22 @@
+{
+  "question_id": "c7a5b31d-3a05-43cb-8998-f9cf5f22f84c",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The most frequently cited objection to the argument from analogy is that:",
+  "choices": [
+    "It presupposes the truth of Cartesian dualism",
+    "It generalizes from a single case — one's own — to all other minds",
+    "It denies the existence of qualia",
+    "It confuses episodic with semantic memory"
+  ],
+  "answer": 1,
+  "explanation": "The standard objection is the single-case (N=1) problem: the analogy generalizes from one instance, my own, to all other minds, an unusually narrow inductive base. It does not require assuming dualism, does not deny qualia, and has nothing to do with the episodic/semantic distinction.",
+  "tags": [
+    "argument-from-analogy",
+    "single-case-objection",
+    "other-minds"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "b5b75963-c58f-4a8e-a083-17bfabcd0af8",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The book's formal fading-memory definition uses a weighting sequence w with w_k > 0 and w_k -> 0; the natural geometric class is exponentially decaying weights w_k = ___ for some rho in (0,1).",
+  "choices": [
+    "rho^k",
+    "ρ^k",
+    "rho**k"
+  ],
+  "answer": "rho^k",
+  "explanation": "The book gives the natural exponentially-decaying weighting sequence as w_k = rho^k with rho in (0,1), corresponding to memory that decays geometrically with lag k.",
+  "tags": [
+    "fading-memory",
+    "weighting-sequence",
+    "exponential-decay"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

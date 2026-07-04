@@ -1,0 +1,20 @@
+{
+  "question_id": "b6f38bd5-3693-474e-afec-3da34743dfc8",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The view running from Locke through Parfit, on which a later person is the same person as an earlier one in virtue of overlapping chains of memories, beliefs, and intentions, is called the ___ theory of personal identity.",
+  "choices": [
+    "psychological continuity"
+  ],
+  "answer": "psychological continuity",
+  "explanation": "Psychological continuity theory grounds identity in overlapping chains of psychological connectedness (Parfit's refinement of Locke's memory criterion). It is standardly contrasted with the biological/animalist criterion (same organism) and with the further-fact/soul view.",
+  "tags": [
+    "psychological-continuity",
+    "locke",
+    "parfit",
+    "personal-identity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

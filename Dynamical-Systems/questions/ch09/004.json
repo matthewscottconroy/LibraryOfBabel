@@ -1,0 +1,22 @@
+{
+  "question_id": "ad9fbd20-eba3-426c-97bb-10d89716ea34",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Furstenberg's correspondence principle connects sets of positive upper density in the integers to:",
+  "choices": [
+    "prime numbers only",
+    "Julia sets",
+    "graph colorings",
+    "measure-preserving systems"
+  ],
+  "answer": 3,
+  "explanation": "It translates a positive-density set into a positive-measure set in a measure-preserving system, so multiple-recurrence yields Szemeredi's theorem on arithmetic progressions.",
+  "tags": [
+    "furstenberg-correspondence",
+    "ergodic-ramsey",
+    "multiple-recurrence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

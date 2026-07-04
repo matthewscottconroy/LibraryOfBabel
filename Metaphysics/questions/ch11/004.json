@@ -1,0 +1,22 @@
+{
+  "question_id": "51f05382-8bf0-47e9-a99b-65c74e1cc384",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The problem of negative existentials (e.g., 'there are no unicorns') is a challenge for truthmaker maximalism because:",
+  "choices": [
+    "no positive entity's existence seems to necessitate the truth, prompting Armstrong to posit a higher-order 'totality' state of affairs as its truthmaker.",
+    "negative existentials are strictly meaningless and so are neither true nor false.",
+    "the correspondence theory has no way to define the truth predicate recursively.",
+    "they show that truth is merely disquotational and therefore needs no truthmaker at all."
+  ],
+  "answer": 0,
+  "explanation": "Maximalism says every truth has a truthmaker, but 'there are no unicorns' has no obvious positive worldly correlate—any actual entity could coexist with a unicorn—so Armstrong introduces a higher-order totality fact (that the actual things are all the things) to do the work. Distractor 3 states the deflationist's response to the puzzle, not the reason it is a problem for the maximalist.",
+  "tags": [
+    "truthmaker",
+    "negative-existentials",
+    "armstrong"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

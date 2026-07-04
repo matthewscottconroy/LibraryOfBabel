@@ -1,0 +1,19 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The classical population-genetics equation p^2 + 2pq + q^2 = 1, used as a baseline for detecting selection or drift in allele frequencies, is known as ___ equilibrium.",
+  "choices": [
+    "Hardy-Weinberg"
+  ],
+  "answer": "Hardy-Weinberg",
+  "explanation": "Hardy-Weinberg equilibrium describes the expected genotype frequencies (p^2, 2pq, q^2) in a population that is not evolving at a given locus, providing the baseline against which deviations due to selection, drift, or other evolutionary forces are detected.",
+  "tags": [
+    "population-genetics",
+    "hardy-weinberg",
+    "evolutionary-biology"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "bf71e7f5-11da-4be3-91fc-ca039b0717f3"
+}

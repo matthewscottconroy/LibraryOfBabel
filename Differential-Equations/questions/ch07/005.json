@@ -1,0 +1,21 @@
+{
+  "question_id": "444fed3c-8cc6-453e-8a73-e530259148ca",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A positive largest Lyapunov exponent indicates:",
+  "choices": [
+    "a stable fixed point",
+    "a periodic orbit",
+    "convergence to equilibrium",
+    "exponential divergence of nearby trajectories, i.e. chaos"
+  ],
+  "answer": 3,
+  "explanation": "The largest Lyapunov exponent measures the average exponential rate at which infinitesimally close trajectories separate; positivity signals chaos. Zero corresponds to marginal or quasiperiodic behavior and a negative value to convergence (a stable fixed point or cycle).",
+  "tags": [
+    "lyapunov-exponents",
+    "chaos"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

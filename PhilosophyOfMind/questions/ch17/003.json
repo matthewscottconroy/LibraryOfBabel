@@ -1,0 +1,22 @@
+{
+  "question_id": "d6b3ccf1-e6a8-4a03-b8ba-ecec41b626fa",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "To the 'Systems Reply' (the person does not understand Chinese, but the whole system does), Searle's own rejoinder is that...",
+  "choices": [
+    "a robot body with sensorimotor links would supply the missing understanding",
+    "simulating every neuron of a Chinese speaker's brain would produce understanding",
+    "the person could internalize the entire system -- memorizing all the rules and symbols -- and still not understand Chinese",
+    "the system has high integrated information and is therefore conscious"
+  ],
+  "answer": 2,
+  "explanation": "Searle answers the Systems Reply by internalizing the system: the person memorizes the rulebook and symbols and works outdoors, thereby BECOMING the whole system, yet still understands no Chinese. The other options are the Robot Reply, the Brain-Simulator Reply, and an IIT consideration, none of which is his response to the Systems Reply.",
+  "tags": [
+    "chinese-room",
+    "systems-reply",
+    "searle"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

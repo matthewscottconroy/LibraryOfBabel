@@ -1,0 +1,20 @@
+{
+  "question_id": "0e71f34a-a8e3-422e-a584-65efd5bfb1ec",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A spanning set of a vector space V that is also linearly independent is called a ___; for a finite-dimensional V, every such set has the same number of elements, namely dim(V).",
+  "choices": [
+    "basis"
+  ],
+  "answer": "basis",
+  "explanation": "A basis is a linearly independent spanning set (equivalently, a minimal spanning set or a maximal independent set). A spanning set on its own may be redundant and larger than a basis, while an independent set on its own may fail to span. The invariance of the cardinality of a basis is exactly what makes the dimension well defined.",
+  "tags": [
+    "basis",
+    "dimension",
+    "spanning-set",
+    "linear-algebra"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "748f63cb-9589-429e-98f1-b55699fe575f",
+  "chapter": 10,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Orbit equivalence of two actions requires a measure-space isomorphism phi that maps:",
+  "choices": [
+    "fixed points to fixed points",
+    "Gamma-orbits onto Lambda-orbits",
+    "the groups isomorphically",
+    "every measure to Lebesgue"
+  ],
+  "answer": 1,
+  "explanation": "Orbit equivalence asks only that orbits be sent to orbits (forgetting the group elements), making it coarser than conjugacy but finer than mere measure isomorphism.",
+  "tags": [
+    "orbit-equivalence",
+    "ergodic-theory",
+    "measured-group-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

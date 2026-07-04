@@ -1,0 +1,23 @@
+{
+  "question_id": "5007ae49-9e75-48a1-ad10-bc0b871f128c",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Bayesian epistemology, a *credence* is best characterized as which of the following?",
+  "choices": [
+    "A binary attitude: an agent either believes a proposition or does not.",
+    "A qualitative ranking of propositions from 'certain' to 'doubtful' with no numerical value.",
+    "A degree of belief, represented as a real number in the interval [0, 1] measuring how confident an agent is that a proposition is true.",
+    "The objective physical chance that a proposition is true, holding independently of any agent's opinion."
+  ],
+  "answer": 2,
+  "explanation": "A credence is a graded degree of belief modeled as a real number in [0, 1], where 0 is certainty of falsehood and 1 is certainty of truth. This contrasts with the classical binary notion of full belief (option 0). It is a subjective doxastic state, not an objective chance (option 3), though Lewis's Principal Principle says credences should defer to known chances.",
+  "tags": [
+    "credences",
+    "degrees of belief",
+    "binary belief",
+    "bayesian epistemology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

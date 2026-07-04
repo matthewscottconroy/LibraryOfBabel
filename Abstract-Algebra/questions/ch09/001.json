@@ -1,0 +1,21 @@
+{
+  "question_id": "e1a6efa0-9cf9-4680-9c65-734522767ed9",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The First Isomorphism Theorem states that for a group homomorphism φ: G → H:",
+  "choices": [
+    "G/ker φ ≅ im φ",
+    "G/im φ ≅ ker φ",
+    "ker φ ≅ im φ",
+    "G/ker φ ≅ H"
+  ],
+  "answer": 0,
+  "explanation": "The map g·ker φ ↦ φ(g) is a well-defined isomorphism from the quotient onto the image. Note im φ can be a proper subgroup of H, so G/ker φ ≅ H only when φ is surjective.",
+  "tags": [
+    "homomorphisms",
+    "isomorphism-theorems"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

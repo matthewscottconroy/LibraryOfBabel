@@ -1,0 +1,18 @@
+{
+  "question_id": "1fb1f37a-83fe-4574-84da-f4e693a7868d",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the Hanbury Brown-Twiss setup, why is the light split onto TWO detectors rather than measured with one?",
+  "choices": [
+    "To double the total photon count rate",
+    "Because a single detector cannot register single photons at all",
+    "To measure first-order coherence g1 instead of g2",
+    "To defeat single-detector dead time and afterpulsing, making the tau-to-zero correlation accessible"
+  ],
+  "answer": 3,
+  "explanation": "Splitting onto two detectors lets a coincidence at zero delay be recorded despite each detector's dead time and afterpulsing, so g2(tau-to-0) becomes measurable and the cross-correlation equals the input auto-correlation. HBT measures g2, not g1 (choice 2); the goal is correlation access, not raw count rate (choice 0); single detectors do register photons (choice 1).",
+  "tags": ["hbt", "g2", "coincidence-detection"],
+  "difficulty": "intermediate",
+  "generated": true
+}

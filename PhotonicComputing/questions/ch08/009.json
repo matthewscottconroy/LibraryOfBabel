@@ -1,0 +1,19 @@
+{
+  "question_id": "b7af32d9-cc9e-4be3-973d-6fe984caa001",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The 1948 Bell System Technical Journal paper 'A Mathematical Theory of Communication', which founded information theory, was written by Claude ___.",
+  "choices": [
+    "Shannon"
+  ],
+  "answer": "Shannon",
+  "explanation": "Claude Shannon's 1948 paper defined entropy and channel capacity, establishing the field of information theory and the capacity limit that bears his name.",
+  "tags": [
+    "shannon",
+    "information-theory",
+    "history"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

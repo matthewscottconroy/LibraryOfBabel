@@ -1,0 +1,18 @@
+{
+  "question_id": "743486e5-0f23-468a-a991-2eb423ae9b0b",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The wave equation ∂²u/∂t² = c²∇²u is the prototype ___ PDE, the class for which information propagates at finite speed along characteristics (the light-cone directions x ± ct = const).",
+  "choices": [
+    "hyperbolic"
+  ],
+  "answer": "hyperbolic",
+  "explanation": "With discriminant B² − AC > 0 the wave equation is hyperbolic; its characteristics x ± ct = const are the propagation directions, giving the finite domain of dependence and domain of influence that express causality. Elliptic (Laplace) and parabolic (heat) equations are the other two classes.",
+  "tags": [
+    "pde",
+    "wave-equation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

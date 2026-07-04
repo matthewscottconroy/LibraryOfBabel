@@ -1,0 +1,22 @@
+{
+  "question_id": "50c20e58-561f-482f-a56c-1fa7ad964260",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An isolated singularity z0 of f is a pole of order m when the Laurent series about z0:",
+  "choices": [
+    "has no negative-power terms",
+    "has infinitely many negative-power terms",
+    "has finitely many negative-power terms, the lowest being (z - z0)^(-m)",
+    "converges only at z0"
+  ],
+  "answer": 2,
+  "explanation": "A pole of order m has a finite principal part terminating at (z - z0)^(-m). No negative powers means a removable singularity; infinitely many negative powers means an essential singularity (with Casorati-Weierstrass/Picard behavior nearby).",
+  "tags": [
+    "poles",
+    "singularities",
+    "laurent-series"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

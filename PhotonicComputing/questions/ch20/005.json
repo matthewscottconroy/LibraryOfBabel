@@ -1,0 +1,13 @@
+{
+  "question_id": "9e1346a5-0527-4888-b518-a4586e96262d",
+  "chapter": 20,
+  "phase": 3,
+  "kind": "mc",
+  "text": "GKP (Gottesman-Kitaev-Preskill) states encode a qubit as a grid of quadrature spikes in an oscillator. Why is the optical squeezing record of 15 dB described as a roadmap milestone rather than a curiosity?",
+  "choices": ["Because homodyne detection cannot work below 15 dB of squeezing", "Because 15 dB is the exact point at which Gaussian circuits become classically hard", "Because GKP states require of order 10 dB or more of squeezing to reach fault-tolerance thresholds", "Because two-mode squeezing needs 15 dB to produce any EPR correlation"],
+  "answer": 2,
+  "explanation": "GKP fault tolerance demands roughly 10 dB or more of squeezing (thresholds cluster near 10 dB with analog decoding, up to 20.5 dB in early estimates), so the 15 dB record marks real progress toward that budget. Choice 0 is false (homodyne works at any squeezing); choice 1 misstates the no-go (squeezing amount never makes a Gaussian circuit hard); choice 3 is wrong because EPR correlations appear for any r > 0, tightening as e^(-2r).",
+  "tags": ["gkp", "squeezing", "fault-tolerance"],
+  "difficulty": "advanced",
+  "generated": true
+}

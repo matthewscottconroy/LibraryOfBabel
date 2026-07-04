@@ -1,0 +1,18 @@
+{
+  "question_id": "cd268683-9aa1-4c73-a8c0-8cf4be94e2bf",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "On Nozick's tracking account, what explains how I can know that I have hands and yet not know that I am not a handless brain in a vat?",
+  "choices": [
+    "In the ordinary context 'know' expresses a less demanding relation than it does once the skeptic raises the stakes",
+    "The brain-in-a-vat scenario is simply not a relevant alternative that I am required to rule out",
+    "My belief that I have hands is sensitive—were I handless I would not so believe—whereas my belief that I am not a vatted brain is insensitive, since even as such a brain I would still believe I am not one",
+    "If I were envatted, my word 'brain' would fail to refer to real brains, so the hypothesis undermines itself"
+  ],
+  "answer": 2,
+  "explanation": "Nozick's sensitivity condition requires that in the nearest world where the believed proposition is false, the subject does not believe it. The hands-belief meets this, but the not-a-BIV belief does not (in the nearest BIV world one still believes one is not a BIV), so closure fails. Option 0 is contextualism, option 1 is Dretske's relevant-alternatives reply, and option 3 is Putnam's semantic argument—three different anti-skeptical strategies.",
+  "tags": ["nozick", "sensitivity", "tracking", "denial-of-closure"],
+  "difficulty": "intermediate",
+  "generated": true
+}

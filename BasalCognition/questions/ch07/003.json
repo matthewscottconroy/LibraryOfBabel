@@ -1,0 +1,13 @@
+{
+  "question_id": "5b8e2d1a-7f39-4c60-9d84-2a1e6c9f3b75",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which best describes the organization of the nervous system in cnidarians such as Hydra?",
+  "choices": ["A centralized brain with paired ganglia", "A diffuse nerve net of neurons distributed through the body wall, with no central brain", "A single ladder-like ventral nerve cord", "A myelinated spinal cord with dorsal roots"],
+  "answer": 1,
+  "explanation": "Cnidarians have a nerve net: neurons distributed diffusely through the body wall with no centralized ganglion or brain, so signals spread through the network in all directions. Centralized brains, ganglionated nerve cords, and myelinated spinal cords are features of more derived bilaterian nervous systems, not the basal cnidarian nerve net.",
+  "tags": ["nerve-net", "hydra", "cnidaria"],
+  "difficulty": "beginner",
+  "generated": true
+}

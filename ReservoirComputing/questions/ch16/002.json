@@ -1,0 +1,22 @@
+{
+  "question_id": "5f5b6ca1-5c08-4e68-816c-4fa174d623ea",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The lab trains the reservoir to drive a quadruped in a trot. How many output channels does it generate, and what do they represent?",
+  "choices": [
+    "1 channel: a single global gait phase",
+    "4 channels: one hip angle per leg",
+    "16 channels: hip, knee, ankle, and toe per leg",
+    "8 channels: a hip and a knee angle for each of the four legs"
+  ],
+  "answer": 3,
+  "explanation": "make_gait returns 8 columns: FL_hip, FL_knee, FR_hip, FR_knee, RL_hip, RL_knee, RR_hip, RR_knee, i.e. a hip (primary) and a knee (secondary) signal for each of the 4 legs. The knees use the second harmonic (2*omega) at half amplitude. Options 0 and 1 undercount; option 2 invents ankle/toe joints the lab does not model.",
+  "tags": [
+    "gait",
+    "outputs",
+    "trot"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

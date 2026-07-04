@@ -1,0 +1,18 @@
+{
+  "question_id": "e48ae1a0-2322-48a7-963e-5cf94a04e257",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "For an input field placed at its front focal plane, what mathematical operation does a thin converging lens perform on that field at the back focal plane?",
+  "choices": [
+    "It computes the 2D spatial autocorrelation of the input field",
+    "It computes the spatial gradient (derivative) of the input field",
+    "It computes the exact 2D spatial Fourier transform of the input field",
+    "It convolves the input with a fixed Gaussian point-spread function"
+  ],
+  "answer": 2,
+  "explanation": "A lens's quadratic phase exactly cancels the quadratic phase of the Fraunhofer diffraction integral, so the back-focal-plane field is the exact 2D Fourier transform of the front-focal-plane field, with spatial frequencies f_x = x'/(lambda*f). Autocorrelation and convolution are properties of a full 4f system, not of a single lens, and a lens does not differentiate the field.",
+  "tags": ["fourier-optics", "lens", "fourier-transform"],
+  "difficulty": "beginner",
+  "generated": true
+}

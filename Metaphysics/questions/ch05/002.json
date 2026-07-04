@@ -1,0 +1,18 @@
+{
+  "question_id": "d4b0edd1-35a1-46dc-9877-0af2666af87a",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "McTaggart's argument for the unreality of time turns on which alleged defect of the A-series?",
+  "choices": [
+    "The A-series presupposes absolute simultaneity, which special relativity refutes.",
+    "Every event must be past, present, and future (incompatible properties), and the natural repair of relativizing them to times reintroduces the A-series, launching a vicious regress.",
+    "The A-series cannot order events that are simultaneous with one another.",
+    "The B-series is incoherent because 'earlier than' is not a genuine relation."
+  ],
+  "answer": 1,
+  "explanation": "McTaggart argues the A-series is essential to time yet self-contradictory: each event has all three mutually exclusive A-properties, and analyzing this away as 'past at one time, future at another' presupposes a further A-series, generating a vicious regress. Option 0 imports a different, relativity-based objection to the A-theory; McTaggart's argument (1908) is a purely logical one that predates and is independent of special relativity.",
+  "tags": ["time", "mctaggart", "unreality-of-time", "a-series"],
+  "difficulty": "intermediate",
+  "generated": true
+}

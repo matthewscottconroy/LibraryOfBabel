@@ -1,0 +1,22 @@
+{
+  "question_id": "32cde2b8-190f-4ff8-aaa5-7f8efe41787c",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which gauge condition is manifestly Lorentz covariant and reduces Maxwell's equations to four decoupled wave equations □A^μ = μ₀J^μ?",
+  "choices": [
+    "Coulomb gauge, ∇·A = 0",
+    "Temporal gauge, A^0 = 0",
+    "Axial gauge, A^3 = 0",
+    "Lorenz gauge, ∂_μ A^μ = 0"
+  ],
+  "answer": 3,
+  "explanation": "The Lorenz gauge ∂_μ A^μ = 0 (equivalently ∇·A + (1/c²)∂φ/∂t = 0) is covariant and turns Maxwell's equations into □A^μ = μ₀J^μ. The Coulomb gauge ∇·A = 0 is convenient but not covariant; the temporal and axial gauges merely set one component to zero and are used in quantization schemes.",
+  "tags": [
+    "maxwell",
+    "gauge",
+    "lorenz-gauge"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

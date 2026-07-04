@@ -1,0 +1,21 @@
+{
+  "question_id": "a9c111ba-5888-4724-9567-4397202dc3c3",
+  "chapter": 21,
+  "phase": 5,
+  "kind": "tf",
+  "text": "On the Kant–Frege analysis, existence is not a property of individuals but a second-order notion: to say that tigers exist is to say the concept 'tiger' is instantiated (∃x Tiger(x)).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Frege construed existence as the instantiation of a concept — 'the denial of the number zero to a concept' — expressed by the quantifier, a property of properties. This is why 'a exists' is logically awkward while 'Fs exist' is not, and why the ontological argument's use of existence as a predicate misfires.",
+  "tags": [
+    "existence",
+    "frege",
+    "second-order",
+    "quantifier"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Biological systems predominantly use D-amino acids and L-sugars in their macromolecules.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Biology is chiefly built from L-amino acids and D-sugars, the reverse of what this statement claims. This distinction matters because enzymes, ribosomes, and other chiral binding sites are stereospecific and generally only recognize one chiral form efficiently.",
+  "tags": [
+    "stereochemistry",
+    "chirality",
+    "amino-acids"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "39af2396-2591-4ead-9fb2-1bd7a666d0dd"
+}

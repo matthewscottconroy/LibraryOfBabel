@@ -1,0 +1,20 @@
+{
+  "question_id": "bd8d51ec-d9b0-45ad-beaa-4a3332e662e8",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Compatibilism is the view that free will and determinism can both be true.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: compatibilism is precisely the thesis that free will and determinism can both be true - that the freedom worth wanting does not require indeterminism. It is the majority view among philosophers, defended from Hume through Frankfurt, Wolf, Fischer, and Dennett.",
+  "tags": [
+    "compatibilism",
+    "free-will",
+    "determinism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

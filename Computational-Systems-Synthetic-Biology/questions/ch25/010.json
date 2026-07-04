@@ -1,0 +1,19 @@
+{
+  "chapter": 25,
+  "phase": 4,
+  "kind": "blank",
+  "text": "A subgraph pattern that recurs in a network far more often than expected in randomized networks of the same degree sequence (assessed via a z-score) is called a network ___.",
+  "choices": [
+    "motif"
+  ],
+  "answer": "motif",
+  "explanation": "Such statistically overrepresented subgraph patterns are called network motifs; examples in E. coli's regulatory network include the feedforward loop and bi-fan. The z-score compares the real count of a subgraph to its average count in an ensemble of randomized networks that preserve the degree sequence (the configuration model), with a z-score above about 2 used as the threshold for overrepresentation.",
+  "tags": [
+    "network-motifs",
+    "z-score",
+    "randomization"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "f094a6c4-a137-487b-a475-f5bc739963a6"
+}

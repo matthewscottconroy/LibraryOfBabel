@@ -1,0 +1,22 @@
+{
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why do explicit ODE solvers, such as Euler or RK4, struggle when applied to stiff biological systems?",
+  "choices": [
+    "Stability requires a step size smaller than roughly 2 divided by the largest eigenvalue, which is set by the fastest process, forcing tiny steps throughout the simulation even after fast dynamics have settled",
+    "They require an analytically known Jacobian matrix before they can run at all",
+    "They are mathematically incapable of representing nonlinear reaction terms",
+    "They can only be applied to systems with a single spatial dimension"
+  ],
+  "answer": 0,
+  "explanation": "Explicit method stability is governed by the fastest eigenvalue of the system, forcing step sizes small enough to resolve fast transients throughout the whole simulation, even long after those transients have decayed, wasting enormous numbers of steps. Explicit solvers do not require a Jacobian at all (that requirement applies to implicit stiff solvers), they can represent nonlinear terms just fine, and dimensionality is unrelated to stiffness.",
+  "tags": [
+    "scientific-computing",
+    "stiffness",
+    "explicit-methods"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "4da0c4f9-e846-458b-ab1d-d29234800d45"
+}

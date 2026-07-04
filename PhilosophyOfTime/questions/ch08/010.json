@@ -1,0 +1,20 @@
+{
+  "question_id": "0f42b5f8-53a9-46e1-9c1f-3fe898b210cb",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Perdurantism holds that what persists is not any single momentary stage but the four-dimensional ___ — the whole entity composed of all of an object's temporal parts, analogous to how a snake is extended through space.",
+  "choices": [
+    "temporal worm"
+  ],
+  "answer": "temporal worm",
+  "explanation": "The expected answer is 'temporal worm.' On perdurantism (four-dimensionalism), ordinary object-terms refer to the temporal worm composed of temporal parts (time-slices), just as a spatial worm like a snake is composed of spatial parts. The individual momentary slices are its temporal parts or stages, not the whole persisting object.",
+  "tags": [
+    "perdurantism",
+    "temporal-worm",
+    "four-dimensionalism",
+    "temporal-parts"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

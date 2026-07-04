@@ -1,0 +1,21 @@
+{
+  "question_id": "e44693c1-580e-4914-8522-d4f7cbfed911",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the book's distance-free definition, a map f: X → Y between topological spaces is continuous if and only if:",
+  "choices": [
+    "the image f(U) of every open set U ⊆ X is open in Y",
+    "the preimage f⁻¹(V) of every open set V ⊆ Y is open in X",
+    "the image of every compact subset of X is compact in Y",
+    "f maps every Cauchy sequence to a Cauchy sequence"
+  ],
+  "answer": 1,
+  "explanation": "The topological definition is that f⁻¹(V) is open in X for every open V ⊆ Y (equivalently, preimages of closed sets are closed), generalizing the ε-δ definition. Requiring images of open sets to be open defines an open map, not a continuous one; preserving compactness is a consequence of continuity, not its definition.",
+  "tags": [
+    "topology",
+    "continuity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

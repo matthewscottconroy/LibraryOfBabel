@@ -1,0 +1,19 @@
+{
+  "question_id": "e22bb5f9-e963-4e44-b9ac-4a46e8552832",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In the dominant photonic SNN wiring scheme, each neuron emits at a distinct wavelength onto a shared bus and a bank of microring weights implements the synaptic weighted sum; this WDM architecture is called ___-and-weight.",
+  "choices": [
+    "broadcast"
+  ],
+  "answer": "broadcast",
+  "explanation": "The scheme is broadcast-and-weight: all wavelengths are broadcast on a shared bus, weighted by microrings at each receiver, and summed by balanced photodetection.",
+  "tags": [
+    "broadcast-and-weight",
+    "wdm",
+    "architecture"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

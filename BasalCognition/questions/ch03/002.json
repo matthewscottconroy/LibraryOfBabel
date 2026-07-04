@@ -1,0 +1,18 @@
+{
+  "question_id": "8b2e4d17-0a3c-4f52-8d19-6c7b1e9f2a04",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The book stresses that when Physarum 'solves' a maze with food at the entrance and exit, it does NOT do so by searching. What actually produces the shortest-path solution?",
+  "choices": [
+    "The plasmodium evaluates each candidate path, holds them in memory, and selects the best one",
+    "Individual nuclei vote on the preferred route by migrating toward it",
+    "A central pacemaker region computes the optimal path and directs tube growth",
+    "The plasmodium first occupies all paths, then flow reinforcement thickens high-flow tubes and prunes low-flow ones"
+  ],
+  "answer": 3,
+  "explanation": "Physarum spreads through the whole maze and then flow reinforcement (governed by Hagen-Poiseuille dynamics) thickens tubes carrying more flow while draining those carrying less, so the shortest path is selected by competitive self-organization. There is no search, no stored comparison of paths (choice 0), no nuclear voting (choice 1), and crucially no command center or pacemaker (choice 2) in the plasmodium.",
+  "tags": ["slime-mold", "maze-solving", "flow-reinforcement"],
+  "difficulty": "intermediate",
+  "generated": true
+}

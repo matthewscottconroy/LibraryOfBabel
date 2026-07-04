@@ -1,0 +1,19 @@
+{
+  "question_id": "f5feb424-8f92-448f-9458-50ededb00253",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "D. C. Williams calls a particular property-instance, for example the redness of this single tomato, a ___, which he describes as an 'abstract particular'.",
+  "choices": [
+    "trope"
+  ],
+  "answer": "trope",
+  "explanation": "A trope is Williams's abstract particular: abstract because it is a property-aspect isolated from a full concretum, particular because it is numerically unique rather than shared. Bundles of compresent tropes make up concrete objects, and classes of exactly resembling tropes replace universals.",
+  "tags": [
+    "trope-theory",
+    "williams",
+    "abstract-particular"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

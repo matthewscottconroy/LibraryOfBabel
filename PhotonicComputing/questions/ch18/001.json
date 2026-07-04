@@ -1,0 +1,18 @@
+{
+  "question_id": "ac819fac-b808-48d5-a2a5-cd94ece06e14",
+  "chapter": 18,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The three figures of merit that grade a single-photon source (the 'source trilemma') are:",
+  "choices": [
+    "Wavelength, polarization, and beam diameter",
+    "Efficiency, dark-count rate, and timing jitter",
+    "Gain, bandwidth, and noise figure",
+    "Brightness (efficiency eta), purity (g2(0)), and indistinguishability (HOM visibility M)"
+  ],
+  "answer": 3,
+  "explanation": "A source is judged on brightness/efficiency, purity g2(0) (below 0.01 for quantum computing), and indistinguishability M. Choice 1 lists detector metrics; choices 0 and 2 are generic optical/amplifier specs, not the source trilemma.",
+  "tags": ["single-photon-sources", "trilemma", "figures-of-merit"],
+  "difficulty": "beginner",
+  "generated": true
+}

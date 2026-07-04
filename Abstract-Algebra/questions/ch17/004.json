@@ -1,0 +1,18 @@
+{
+  "question_id": "256f1051-fe20-46b6-8592-f07d9bf0e200",
+  "chapter": 17,
+  "phase": 6,
+  "kind": "mc",
+  "text": "By Schur's lemma over $\\mathbb{C}$, if $V$ is irreducible then any $G$-map (intertwiner) $T:V\\to V$ must be:",
+  "choices": [
+    "the zero map, and nothing else",
+    "any invertible $\\mathbb{C}$-linear map",
+    "a scalar $\\lambda\\cdot\\mathrm{id}_V$ for some $\\lambda\\in\\mathbb{C}$",
+    "a permutation matrix"
+  ],
+  "answer": 2,
+  "explanation": "Over an algebraically closed field, $T$ has an eigenvalue $\\lambda$, and $T-\\lambda\\,\\mathrm{id}$ is a $G$-map with nonzero kernel, so by irreducibility it vanishes: thus $T=\\lambda\\,\\mathrm{id}_V$. The zero map is only the $\\lambda=0$ special case; a generic invertible map need not commute with the $G$-action; and 'permutation matrix' is unmotivated.",
+  "tags": ["representations", "schur-lemma", "irreducible"],
+  "difficulty": "intermediate",
+  "generated": true
+}

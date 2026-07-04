@@ -1,0 +1,20 @@
+{
+  "question_id": "61a102c5-a120-496f-8a02-478e3b8cbf22",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "In the folk conception of time laid out in Chapter 2, the past is felt to be ___ — what has happened cannot be changed — while the future is felt to be genuinely open and available for deliberation and choice.",
+  "choices": [
+    "fixed"
+  ],
+  "answer": "fixed",
+  "explanation": "The book lists 'the past is fixed; the future is open' as a core feature of the folk conception, one that underwrites our practices of regret, historical record, and moral accountability. The intended contrast word is 'fixed' (the unchangeable past), set against the 'open' future.",
+  "tags": [
+    "folk-conception",
+    "fixity-of-past",
+    "open-future",
+    "temporal-asymmetry"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

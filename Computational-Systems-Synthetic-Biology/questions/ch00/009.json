@@ -1,0 +1,19 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The ___ matrix captures the second-order partial derivatives of a function and is used to characterize local curvature, such as in optimization or around an energy landscape.",
+  "choices": [
+    "Hessian"
+  ],
+  "answer": "Hessian",
+  "explanation": "The Hessian matrix collects all second-order partial derivatives of a scalar-valued function and describes local curvature, which is used in optimization to classify critical points (minima, maxima, saddle points). This is distinct from the Jacobian, which collects first-order partial derivatives and is used for linearizing systems, not for second-order curvature.",
+  "tags": [
+    "multivariable-calculus",
+    "hessian",
+    "optimization"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "88a58aae-31cc-4846-8052-cb8b1c3dfbf1"
+}

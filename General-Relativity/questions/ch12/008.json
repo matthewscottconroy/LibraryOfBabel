@@ -1,0 +1,20 @@
+{
+  "question_id": "37c1995b-aa8c-4cb4-be18-c805f2af67fc",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The maximal analytic extension of the Schwarzschild metric, which reveals the white hole, a second asymptotic exterior region, and that the r = 0 singularity is spacelike, is expressed in ___ coordinates (T_K, X_K).",
+  "choices": [
+    "Kruskal",
+    "Kruskal-Szekeres",
+    "Kruskal–Szekeres"
+  ],
+  "answer": "Kruskal",
+  "explanation": "The book uses Kruskal (Kruskal-Szekeres) coordinates (T_K, X_K) as the maximal extension: the horizon r = r_s becomes the 45° null lines T_K = ±X_K, the singularity r = 0 becomes the spacelike hyperbolae T_K² − X_K² = e, and four regions (exterior, black hole, white hole, second exterior) appear. The Penrose diagram is its conformal compactification.",
+  "tags": [
+    "penrose-diagram",
+    "kruskal"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

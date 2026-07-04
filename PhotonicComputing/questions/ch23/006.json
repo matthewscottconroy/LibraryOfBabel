@@ -1,0 +1,13 @@
+{
+  "question_id": "d8a9dde4-10f8-483c-84a4-99b2396bbd04",
+  "chapter": 23,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the photonic design hierarchy, why is each component reduced to a frequency-dependent scattering (S-parameter) matrix?",
+  "choices": ["Because S-parameters can describe only lossless devices", "Because scattering matrices sample the optical carrier at 193 THz directly", "Because the S-matrix is extracted once from a rigorous simulation, then reused as a cheap compact model when composing thousands of components in a circuit simulator", "Because they remove the need for any rigorous electromagnetic simulation"],
+  "answer": 2,
+  "explanation": "Extracting S(lambda) once from a broadband FDTD run yields a reusable compact model, so thousands can be composed at negligible cost in a SPICE-like circuit simulator — the heart of compact-model thinking. Choice 0 is false (S-parameters describe lossy devices too); choice 1 is backwards (baseband envelopes avoid sampling the carrier); choice 3 inverts it — the S-matrix is derived FROM a rigorous simulation.",
+  "tags": ["s-parameters", "compact-model", "circuit-simulation"],
+  "difficulty": "intermediate",
+  "generated": true
+}

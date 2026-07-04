@@ -1,0 +1,19 @@
+{
+  "question_id": "3a7d0e91-2c84-4f6b-95a7-b1e6c0d84f39",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Every human neuron depends on ATP produced by mitochondria, which descend from ancient bacterial ___ internalized by ancestral eukaryotic cells roughly 1.5 to 2 billion years ago.",
+  "choices": [
+    "endosymbionts"
+  ],
+  "answer": "endosymbionts",
+  "explanation": "Mitochondria descend from bacterial endosymbionts taken up by ancestral eukaryotic cells around 1.5 to 2 billion years ago, so every act of human neural cognition depends on ATP supplied by these ancient bacterial partners. This is a concrete sense in which the eukaryotic cell, including each neuron, is a biological composite.",
+  "tags": [
+    "endosymbiosis",
+    "mitochondria",
+    "composite-self"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

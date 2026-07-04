@@ -1,0 +1,19 @@
+{
+  "question_id": "05413ad2-32cf-4430-bd9a-44737870c33d",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "An orthogonal set of nonzero vectors is linearly independent.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "If Σ aᵢvᵢ = 0, taking the inner product with vⱼ kills every term except aⱼ‖vⱼ‖², forcing aⱼ = 0. This is why orthonormal bases are found by orthogonalizing, never the reverse.",
+  "tags": [
+    "orthogonality",
+    "linear-independence"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

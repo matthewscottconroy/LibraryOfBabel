@@ -1,0 +1,20 @@
+{
+  "question_id": "2b6f8c10-7e3a-4d95-8a04-1f5b9e2c6d37",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The 18-amino-acid wound peptide hormone discovered by Pearce et al. (1991) in Solanaceous plants such as tomato, which travels through the phloem to trigger the jasmonate defense cascade in distant tissues, is called ___.",
+  "choices": [
+    "systemin"
+  ],
+  "answer": "systemin",
+  "explanation": "The answer is systemin. Its discovery established that plants use peptide hormones for long-distance defensive signaling: produced at wound sites, systemin moves through the phloem and activates the jasmonate pathway systemically, coordinating the whole-plant response to herbivory.",
+  "tags": [
+    "plant-signaling",
+    "systemin",
+    "wound-response",
+    "jasmonate"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

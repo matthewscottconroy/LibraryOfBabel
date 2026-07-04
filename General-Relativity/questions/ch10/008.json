@@ -1,0 +1,20 @@
+{
+  "question_id": "bdec515c-c21e-4179-a539-df360a081067",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "tf",
+  "text": "This book states that gravitational waves propagate at the speed of light c.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The dispersion relation ω = c|k|, following from the null wave 4-vector (k_μ k^μ = 0), means gravitational waves travel at c. The book notes GW170817's multimessenger observation confirmed |v_GW − c|/c < 10⁻¹⁵, consistent with propagation at the speed of light and unlike Newtonian gravity's instantaneous action at a distance.",
+  "tags": [
+    "speed-of-light",
+    "gw170817",
+    "propagation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

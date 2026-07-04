@@ -1,0 +1,18 @@
+{
+  "question_id": "985a9b9f-c358-49f8-93d8-28c84ace77a6",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "To say that a proposition is knowable a priori is to say that its justification:",
+  "choices": [
+    "requires observation or experiment to confirm, as in the natural sciences",
+    "depends on the vividness and confidence one feels when entertaining the belief",
+    "guarantees that the proposition is a necessary truth, true in all possible worlds",
+    "is independent of sensory experience, resting on reason, reflection, or conceptual understanding"
+  ],
+  "answer": 3,
+  "explanation": "A priori justification is warrant independent of experience, paradigmatically the truths of logic and mathematics, known by reasoning rather than observation. Option 0 describes a posteriori justification; option 1 confuses justification with the psychology of felt confidence; option 2 conflates the epistemic notion of apriority with the metaphysical notion of necessity, which Kripke showed can come apart (the necessary a posteriori and the contingent a priori). Only option 3 gives the epistemic sense of a priori.",
+  "tags": ["a-priori", "reason", "necessity", "logic"],
+  "difficulty": "beginner",
+  "generated": true
+}

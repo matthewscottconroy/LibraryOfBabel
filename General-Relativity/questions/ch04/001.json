@@ -1,0 +1,21 @@
+{
+  "question_id": "8e7d3df5-0e2e-43ed-8c22-af62f920bb0d",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In Lagrangian mechanics, the Lagrangian L of a system is defined as which combination of the kinetic energy T and the potential energy V?",
+  "choices": [
+    "L = T − V (kinetic minus potential energy)",
+    "L = T + V (the total energy)",
+    "L = V − T (potential minus kinetic energy)",
+    "L = T·V (the product of kinetic and potential energy)"
+  ],
+  "answer": 0,
+  "explanation": "The book defines the Lagrangian as L = T − V, a scalar function of the generalized coordinates and velocities. The sum T + V is the total energy, which is the Hamiltonian H rather than L, so that distractor confuses L with H. Nature selects the path that makes the action S = ∫L dt stationary.",
+  "tags": [
+    "lagrangian",
+    "action"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

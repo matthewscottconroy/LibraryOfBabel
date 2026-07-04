@@ -1,0 +1,22 @@
+{
+  "question_id": "35f16254-2956-4c94-a0fe-60b355ba0d5c",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For a planar linear system x' = A x, if the eigenvalues of A are real and of opposite sign, the equilibrium at the origin is a:",
+  "choices": [
+    "stable node",
+    "center",
+    "saddle point",
+    "spiral (focus)"
+  ],
+  "answer": 2,
+  "explanation": "Real eigenvalues of opposite sign produce a saddle: attracting along one eigendirection and repelling along the other, hence unstable. Two negative real eigenvalues give a stable node, purely imaginary eigenvalues give a center, and complex eigenvalues with nonzero real part give a spiral.",
+  "tags": [
+    "phase-plane",
+    "equilibria",
+    "eigenvalues"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

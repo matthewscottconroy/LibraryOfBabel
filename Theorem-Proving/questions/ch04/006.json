@@ -1,0 +1,22 @@
+{
+  "question_id": "12b1ac4b-2322-429f-820b-5a9a2b1145e9",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A student writes a 'proof by contradiction' of φ that assumes ¬φ but never actually uses that assumption anywhere in the argument. What does the chapter's heuristic say about this?",
+  "choices": [
+    "It is invalid, because contradiction proofs must invoke classical logic",
+    "It is really a direct proof of φ in disguise and should be rewritten as one",
+    "It only works when φ is an existence statement",
+    "It actually proves ¬φ rather than φ"
+  ],
+  "answer": 1,
+  "explanation": "The chapter's heuristic: a proof by contradiction that never uses its negation hypothesis is a direct proof in disguise — the derivation of φ came from the other premises alone, so the idle ¬φ assumption should be dropped. The argument is perfectly valid (not invalid), it proves φ (not ¬φ), and this holds regardless of whether φ is an existence claim.",
+  "tags": [
+    "proof-by-contradiction",
+    "direct-proof",
+    "proof-hygiene"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

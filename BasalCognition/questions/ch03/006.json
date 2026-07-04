@@ -1,0 +1,18 @@
+{
+  "question_id": "2d6f8a01-9c3b-4e17-8a4d-7b0e5f2c1a93",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Dexter, Prabakaran and Gunawardena (2019) reinvestigation of Stentor avoidance behavior with modern video tracking mainly concluded what about Jennings' hierarchy?",
+  "choices": [
+    "It fully refuted Jennings, showing Stentor has only a single fixed reflex",
+    "It proved the sequence is a rigid, deterministic escalation identical in every cell and trial",
+    "It showed Stentor exhibits the hierarchy only after explicit training",
+    "It confirmed the core behaviors but found the ordering less rigid, better described as a repertoire of responses with shifting probabilities"
+  ],
+  "answer": 3,
+  "explanation": "The 2019 study confirmed that Stentor performs bending, ciliary reversal, contraction, and detachment, supporting Jennings' core observation, but found the order variable across and within cells, i.e. a probabilistic repertoire rather than a strict deterministic escalation. It did not refute the behaviors (choice 0), prove rigid determinism (choice 1), or show the hierarchy requires training (choice 2).",
+  "tags": ["ciliates", "stentor", "gunawardena", "reappraisal"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "chapter": 28,
+  "phase": 5,
+  "kind": "tf",
+  "text": "According to the chapter, biological replicates capture measurement variability only, while technical replicates capture true biological variability and are required for valid statistical inference.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This statement reverses the two definitions: BIOLOGICAL replicates (independent samples, organisms, or cultures) capture true biological variability and are what is required for valid statistical inference, while TECHNICAL replicates (repeated measurement of the same sample) capture only measurement or instrument variability. Mistaking technical replicates for biological ones when computing statistics is explicitly flagged as an error to avoid.",
+  "tags": [
+    "biological-replicates",
+    "technical-replicates",
+    "statistics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "a445f35c-0e77-435f-b3df-65d88095e949"
+}

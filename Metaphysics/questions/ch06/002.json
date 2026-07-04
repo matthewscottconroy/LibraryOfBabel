@@ -1,0 +1,22 @@
+{
+  "question_id": "ea997888-d276-4ae5-8b85-eb977c85a09e",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "On the type-identity theory of Place and Smart, the claim 'pain is C-fibre firing' is best understood as which sort of claim?",
+  "choices": [
+    "An analytic truth, knowable a priori by analysing the meaning of the word 'pain'.",
+    "A contingent, empirical (a posteriori) identity, on the model of 'water is H2O' or 'lightning is electrical discharge'.",
+    "A mere correlation: pain is reliably caused by, but remains distinct from, C-fibre firing.",
+    "A claim that the term 'pain' is defective and should be eliminated by a mature neuroscience."
+  ],
+  "answer": 1,
+  "explanation": "Place ('Is Consciousness a Brain Process?', 1956) and Smart held the mind-brain identity to be synthetic and contingent, discovered empirically like water = H2O, not knowable by conceptual analysis. 'Mere correlation' is the dualist/epiphenomenalist picture the identity theory rejects, and elimination is the Churchlands' later eliminative materialism.",
+  "tags": [
+    "type-identity",
+    "place-smart",
+    "physicalism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

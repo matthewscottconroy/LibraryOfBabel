@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which of the following is NOT an advantage of cell-free protein synthesis systems compared to cell-based expression?",
+  "choices": [
+    "Fast design-build-test cycle: design to test in about 4 to 8 hours versus days for cell transformation",
+    "Toxic reaction products can be tolerated without killing the system",
+    "Self-replicating, allowing indefinite scale-up without reconstituting new reagents",
+    "Sensors and measurement devices can be added directly into the open reaction"
+  ],
+  "answer": 2,
+  "explanation": "Cell-free systems are explicitly not self-replicating -- every new reaction must be reconstituted from extract or purified components, which the chapter lists as a disadvantage rather than an advantage. The other three options are genuine advantages: a fast design-build-test cycle, tolerance of toxic products since there is no living cell to kill, and the ability to add sensors directly to the open reaction.",
+  "tags": [
+    "cell-free-systems",
+    "advantages-disadvantages"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "18077fb2-4223-400b-a89b-74234bdd8ff0"
+}

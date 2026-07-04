@@ -1,0 +1,20 @@
+{
+  "question_id": "b8c88574-d1c6-417c-b915-c72b8d787abb",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "tf",
+  "text": "A standard ESN requires a stable reservoir (spectral radius < 1), but FORCE can train a chaotic reservoir with spectral radius > 1.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The FORCE-vs-ESN comparison states standard ESN readout training assumes rho < 1, while FORCE works on chaotic reservoirs (the lab uses rho = 1.2; Sussillo & Abbott used 1.5), harnessing their rich dynamics.",
+  "tags": [
+    "force",
+    "spectral-radius",
+    "chaos"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "6f2c9a1e-4d78-4b3a-9e06-2f8c1d7b5a94",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Sponges, which lack neurons entirely, can still propagate signals and coordinate behaviors such as closing their oscula through epithelial conduction.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Epithelial conduction propagates electrical or chemical signals through epithelial cells without neurons; in sponges it coordinates osculum closure in response to disturbance. Sally Leys's work on glass sponge electrical signaling established that such pre-neural coordination is real, demonstrating that coordinated signaling across a body does not require neurons.",
+  "tags": ["epithelial-conduction", "sponges", "sally-leys"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "b3a23303-2278-4de5-ae7e-a6a1ab62e0a7",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Lebesgue measure on R^n is translation invariant.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Translation invariance is a defining property of Lebesgue measure: the measure of a set is unchanged by shifting it, which is what makes it the natural volume on R^n.",
+  "tags": [
+    "lebesgue-measure",
+    "measure-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

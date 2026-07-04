@@ -1,0 +1,18 @@
+{
+  "question_id": "1ab59924-c511-4813-848c-293e47801753",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The book writes the mass-shell condition p_μ p^μ = −m²c². Which relation is the equivalent statement of this Lorentz invariant?",
+  "choices": [
+    "E = pc for every particle",
+    "E² = (pc)² + (mc²)²",
+    "E = mc² + ½mv² for every particle",
+    "E = mc² for every particle regardless of momentum"
+  ],
+  "answer": 1,
+  "explanation": "Expanding p_μp^μ = −(E/c)² + |p|² = −m²c² gives E² = (pc)² + (mc²)², the energy-momentum relation. Choice 0 (E = pc) holds only for massless particles (m = 0) and choice 3 (E = mc²) only at rest (p = 0); choice 2 is merely the low-speed approximation E ≈ mc² + ½mv². Here m is the invariant rest mass, the same in all frames.",
+  "tags": ["energy-momentum", "four-momentum", "invariant-mass"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "2083e5b1-b3ad-4378-90fd-5085239a117c",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The contraction-mapping proof in the ESN chapter establishes which condition as SUFFICIENT for the ESP under any bounded input?",
+  "choices": [
+    "The spectral radius rho(W_rec) < 1, which is also necessary in the nonlinear case",
+    "The largest singular value (spectral norm) ||W_rec||_2 = sigma_max(W_rec) < 1",
+    "The trace of W_rec being less than 1",
+    "The leak rate alpha < 1, regardless of W_rec"
+  ],
+  "answer": 1,
+  "explanation": "The Banach/contraction argument bounds the map's Lipschitz constant by (1-alpha) + alpha*||W_rec||_2, which is < 1 exactly when the spectral norm ||W_rec||_2 = sigma_max(W_rec) < 1 (the leak rate cancels out, so option D is wrong). This singular-value condition is sufficient but conservative. Option A confuses it with the weaker spectral-radius rule and wrongly calls rho<1 necessary in the nonlinear case; the trace is unrelated to contractivity.",
+  "tags": [
+    "esp",
+    "sufficient-condition",
+    "spectral-norm"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

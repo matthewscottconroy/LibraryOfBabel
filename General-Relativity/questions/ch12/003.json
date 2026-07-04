@@ -1,0 +1,19 @@
+{
+  "question_id": "d9f4b2ef-8ca6-4696-9607-9cd6bcb827a8",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "tf",
+  "text": "In the book's ADM formulation, the lapse α and shift βⁱ are gauge variables that encode coordinate freedom and carry no physical information.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The book states the lapse and shift are gauge variables encoding coordinate freedom; the genuine physical degrees of freedom are carried by γ_ij and its conjugate momentum K_ij. This is exactly why numerical relativity is free to impose slicing (1+log lapse) and shift (Gamma-driver) conditions without changing the physics.",
+  "tags": [
+    "adm",
+    "gauge"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "4d3be307-ee71-403b-b2e0-2e39d8d840f1",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Agent-causal libertarianism, as Chisholm develops it, holds that a free action is:",
+  "choices": [
+    "caused by whichever of the agent's desires is strongest at the moment of action.",
+    "probabilistically caused by the agent's reasons via quantum indeterminacy.",
+    "immanently caused by the agent as a substance, in a way not itself caused by prior events, and so distinct from event ('transeunt') causation.",
+    "not caused at all, but merely rendered intelligible by the agent's reasons."
+  ],
+  "answer": 2,
+  "explanation": "Chisholm's immanent (agent) causation has the agent-as-substance originate the action without being caused to do so, contrasting with event-event ('transeunt') causation. Probabilistic causation via quantum indeterminacy is Kane's event-causal libertarianism, 'not caused at all' is non-causal libertarianism (Goetz, McCann), and the 'strongest desire' picture is broadly Humean/compatibilist.",
+  "tags": [
+    "libertarianism",
+    "agent-causation",
+    "chisholm"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

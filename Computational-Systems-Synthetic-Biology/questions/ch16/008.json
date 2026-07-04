@@ -1,0 +1,19 @@
+{
+  "chapter": 16,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Retroactivity describes the phenomenon in which an upstream genetic circuit changes the behavior of a downstream circuit, but downstream circuits never affect upstream dynamics.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false and reverses the actual direction: retroactivity specifically describes how a downstream circuit (e.g., its binding sites titrating away an upstream transcription factor) changes the dynamics of the upstream circuit that drives it, analogous to a low-impedance electronic load dropping the output voltage of an amplifier. Upstream-to-downstream signaling is the normal, intended direction of information flow in a circuit, not what the term retroactivity refers to.",
+  "tags": [
+    "retroactivity",
+    "circuit-loading"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "58ccb02c-5a9c-49b3-97f6-2fd3470853c0"
+}

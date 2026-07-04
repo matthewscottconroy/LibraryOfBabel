@@ -1,0 +1,20 @@
+{
+  "question_id": "97f65af5-6b1f-450a-a798-5f19e6cdc90d",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Increasing the spectral radius toward 1 lengthens the reservoir's memory but moves it closer to losing the echo state property.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: this is the core memory-vs-stability tradeoff. Larger rho makes the memory kernel rho^k decay more slowly (longer memory), but as rho -> 1 the reservoir approaches the ESP boundary where dynamics stop contracting; beyond rho = 1 the ESP is generally lost.",
+  "tags": [
+    "spectral-radius",
+    "memory-stability-tradeoff",
+    "esp"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

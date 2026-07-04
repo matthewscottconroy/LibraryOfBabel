@@ -1,0 +1,22 @@
+{
+  "question_id": "a1e937f2-5bc3-497d-9b81-490bbcba6268",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "By a well-founded-induction argument, why does the Euclidean algorithm gcd(a, b) = gcd(b, a mod b) (for b ≠ 0) terminate?",
+  "choices": [
+    "Because a mod b < b, so the second argument strictly decreases and cannot descend forever",
+    "Because a and b are always prime",
+    "Because gcd(a, b) is always 1",
+    "Because the first argument a strictly increases each step"
+  ],
+  "answer": 0,
+  "explanation": "Each recursive call replaces (a, b) with (b, a mod b), and since 0 ≤ a mod b < b the second argument strictly decreases; because < on ℕ is well-founded, no infinite descent is possible and the algorithm halts. The inputs need not be prime, the gcd need not be 1, and nothing depends on a increasing.",
+  "tags": [
+    "well-founded",
+    "termination",
+    "euclidean-algorithm"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

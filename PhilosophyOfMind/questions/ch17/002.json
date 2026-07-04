@@ -1,0 +1,22 @@
+{
+  "question_id": "b989d3e8-5ee7-4903-a5df-1ee19be3363a",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The central claim of Searle's Chinese Room argument (1980) is that...",
+  "choices": [
+    "syntax (formal symbol manipulation) is not by itself sufficient for semantics (understanding)",
+    "machines are physically incapable of processing natural language at all",
+    "the human brain is literally just a digital computer running a program",
+    "behavioral indistinguishability from a human guarantees genuine understanding"
+  ],
+  "answer": 0,
+  "explanation": "Searle argues that running the right program is pure syntax and never yields genuine understanding or semantics: the person in the room produces fluent Chinese while understanding nothing. The last option is the Turing view Searle attacks; he does not deny language processing, and he denies (not asserts) that the brain is merely a computer.",
+  "tags": [
+    "chinese-room",
+    "searle",
+    "syntax-semantics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

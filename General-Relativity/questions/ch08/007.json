@@ -1,0 +1,13 @@
+{
+  "question_id": "3ed132dc-5713-4070-b46f-e3988c260f99",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Requiring the field equations G_μν = κ T_μν to reproduce Poisson's equation ∇²Φ = 4πGρ in the weak-field, slow-motion limit fixes the coupling constant to κ = ___.",
+  "choices": ["8πG/c⁴", "8πG/c^4"],
+  "answer": "8πG/c⁴",
+  "explanation": "In the Newtonian limit the 00-equation gives −∇²h_00 = κ T_00 with T_00 ≈ ρc² and h_00 = −2Φ/c², so ∇²Φ = κρc⁴/2. Matching this to Poisson's equation ∇²Φ = 4πGρ forces κ = 8πG/c⁴. This is exactly the constant appearing in G_μν = 8πG T_μν/c⁴.",
+  "tags": ["newtonian-limit", "efe", "coupling-constant"],
+  "difficulty": "intermediate",
+  "generated": true
+}

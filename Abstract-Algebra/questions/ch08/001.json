@@ -1,0 +1,22 @@
+{
+  "question_id": "d14133ae-bb09-4225-b946-7b988311d863",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A finite group G has order 15. Which of the following can NOT be the order of an element of G?",
+  "choices": [
+    "3",
+    "5",
+    "6",
+    "15"
+  ],
+  "answer": 2,
+  "explanation": "By Lagrange's theorem the order of an element (the size of the cyclic subgroup it generates) divides |G| = 15, and 6 ∤ 15. The divisors 1, 3, 5, 15 are the only possible element orders.",
+  "tags": [
+    "groups",
+    "lagrange",
+    "order"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

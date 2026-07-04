@@ -1,0 +1,20 @@
+{
+  "question_id": "842c4297-45ef-480e-aa3c-4c3d4d0cc38d",
+  "chapter": 13,
+  "phase": 6,
+  "kind": "tf",
+  "text": "Mathlib has formalized the Birkhoff ergodic theorem.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The Birkhoff ergodic theorem is part of Lean's Mathlib library, an example of dynamical-systems mathematics verified by a proof assistant.",
+  "tags": [
+    "mathlib",
+    "birkhoff",
+    "formalization"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

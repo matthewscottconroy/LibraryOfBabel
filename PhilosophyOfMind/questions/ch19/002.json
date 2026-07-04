@@ -1,0 +1,23 @@
+{
+  "question_id": "79c4c7e3-8280-4ca1-9697-0643a45b6e53",
+  "chapter": 19,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The experimental-philosophy movement was launched by Weinberg, Nichols, and Stich's (2001) finding that...",
+  "choices": [
+    "philosophers' intuitions are always more reliable than laypeople's",
+    "introspective reports about the causes of one's behavior are frequently confabulated",
+    "philosophical zombies are metaphysically impossible",
+    "intuitions about Gettier-style knowledge cases varied across cultural groups"
+  ],
+  "answer": 3,
+  "explanation": "Weinberg, Nichols, and Stich reported cross-cultural variation in epistemic (Gettier) intuitions, challenging the evidential authority of intuitions as guides to universal conceptual truths. Option A is the restrictionist reply (Williamson/Sosa), B is Nisbett and Wilson's result, and C is a substantive metaphysical claim, not a survey finding.",
+  "tags": [
+    "experimental-philosophy",
+    "weinberg-nichols-stich",
+    "intuitions",
+    "gettier"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "1428f2ae-3166-448e-aeb5-0b034ca344cf",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Tor₀^R(M, N) is naturally isomorphic to:",
+  "choices": [
+    "M ⊗_R N",
+    "Hom_R(M, N)",
+    "0",
+    "M ⊕ N"
+  ],
+  "answer": 0,
+  "explanation": "The zeroth left derived functor of a right-exact functor is the functor itself: tensoring a projective resolution of M with N and taking H₀ gives M ⊗_R N. Higher Tor measures the failure of ⊗ to preserve injections.",
+  "tags": [
+    "tor",
+    "derived-functors"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

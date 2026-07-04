@@ -1,0 +1,22 @@
+{
+  "question_id": "fd10ed4a-204a-42df-b04a-25ce66375fce",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What distinguishes an ideal I of a ring R from a mere subring?",
+  "choices": [
+    "Absorption: rI ⊆ I and Ir ⊆ I for every r ∈ R",
+    "Closure of I under multiplication of its own elements",
+    "Containing the multiplicative identity 1",
+    "Being closed under addition"
+  ],
+  "answer": 0,
+  "explanation": "An ideal must swallow multiplication by ARBITRARY ring elements, not just its own — that is exactly what makes the quotient multiplication (r+I)(s+I) = rs+I well defined. An ideal containing 1 would absorb everything and be all of R.",
+  "tags": [
+    "rings",
+    "ideals",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

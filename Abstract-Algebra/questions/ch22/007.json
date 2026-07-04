@@ -1,0 +1,13 @@
+{
+  "question_id": "2e5b490f-517d-4d00-9a10-539d9c5c116d",
+  "chapter": 22,
+  "phase": 7,
+  "kind": "tf",
+  "text": "As the parameter $q \\to 1$, the quantum group $U_q(\\mathfrak{sl}_2)$ degenerates to the classical universal enveloping algebra $\\mathcal{U}(\\mathfrak{sl}_2)$.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "The chapter shows $\\frac{q^H - q^{-H}}{q - q^{-1}} \\to H$ as $q \\to 1$, so the $q$-deformed relation $[E,F]=\\frac{q^H-q^{-H}}{q-q^{-1}}$ collapses to the classical $[E,F]=H$. This is exactly why $U_q(\\mathfrak{g})$ is called a $q$-deformation of $\\mathcal{U}(\\mathfrak{g})$.",
+  "tags": ["quantum-groups", "q-deformation", "enveloping-algebra"],
+  "difficulty": "beginner",
+  "generated": true
+}

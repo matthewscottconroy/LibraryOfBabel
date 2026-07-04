@@ -1,0 +1,19 @@
+{
+  "question_id": "5e30fa37-0b3b-423b-889c-92c92bd7b455",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "blank",
+  "text": "For a subshift with word-complexity function p(n), the topological entropy equals lim (1/n) log ___.",
+  "choices": [
+    "p(n)"
+  ],
+  "answer": "p(n)",
+  "explanation": "Topological entropy is the exponential growth rate of the number of length-n words, h_top = lim (1/n) log p(n).",
+  "tags": [
+    "word-complexity",
+    "topological-entropy",
+    "subshift"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

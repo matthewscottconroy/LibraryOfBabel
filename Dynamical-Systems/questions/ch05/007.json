@@ -1,0 +1,22 @@
+{
+  "question_id": "1f987133-a9c9-4527-977b-f838f9bf809a",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Holevo bound chi is an upper bound on the:",
+  "choices": [
+    "quantum capacity",
+    "classical capacity of a quantum channel",
+    "entanglement of formation",
+    "channel fidelity"
+  ],
+  "answer": 1,
+  "explanation": "Holevo information upper-bounds how much classical information an ensemble of quantum states can convey; the HSW theorem shows it is achievable. It concerns classical, not quantum, capacity.",
+  "tags": [
+    "holevo-bound",
+    "classical-capacity",
+    "quantum-channel"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

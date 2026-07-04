@@ -1,0 +1,20 @@
+{
+  "question_id": "9a4fab52-d81f-4709-8f56-6a7e2fcf6caf",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Rosenthal's view that a mental state becomes conscious in virtue of being the object of a suitable thought about that very state is called the ___ thought theory of consciousness.",
+  "choices": [
+    "higher-order"
+  ],
+  "answer": "higher-order",
+  "explanation": "Higher-order thought (HOT) theory holds that a first-order state is conscious because it is represented by a suitable higher-order thought about it; states lacking such a representation remain unconscious. The expected phrase is 'higher-order,' and Rosenthal is its best-known defender.",
+  "tags": [
+    "higher-order-thought",
+    "rosenthal",
+    "consciousness",
+    "meta-representation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

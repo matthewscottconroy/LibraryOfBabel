@@ -1,0 +1,20 @@
+{
+  "question_id": "f44c6fac-3d23-4747-adab-117ba3177067",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Indirect realism implies that we know the external world only through mental representations that stand between us and it, a predicament summed up in the metaphor of the ___ of perception.",
+  "choices": [
+    "veil"
+  ],
+  "answer": "veil",
+  "explanation": "The 'veil of perception' names the representationalist predicament: if the immediate objects of awareness are always mental (ideas, sense data), the mind-independent world lies behind a screen of representations and must be inferred, which is precisely what invites external-world skepticism. Direct realism and disjunctivism reject the veil by placing us in unmediated contact with objects in the good case. The expected term is 'veil'.",
+  "tags": [
+    "perception",
+    "indirect-realism",
+    "veil-of-perception",
+    "skepticism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

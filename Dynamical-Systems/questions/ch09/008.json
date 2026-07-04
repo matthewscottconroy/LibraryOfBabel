@@ -1,0 +1,20 @@
+{
+  "question_id": "feaa8fdb-5dd8-4752-bc0e-57dcbe10e6c0",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "tf",
+  "text": "The circle rotation R_alpha is ergodic with respect to Lebesgue measure if and only if alpha is irrational.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Irrational rotations are uniquely ergodic (Lebesgue is the only invariant measure and orbits equidistribute); rational rotations decompose into periodic orbits and are not ergodic.",
+  "tags": [
+    "circle-rotation",
+    "ergodicity",
+    "irrational"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

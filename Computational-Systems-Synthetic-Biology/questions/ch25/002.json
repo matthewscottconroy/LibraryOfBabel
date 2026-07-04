@@ -1,0 +1,22 @@
+{
+  "chapter": 25,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which network centrality measure defines a node's importance recursively -- as high when its neighbors are also high-importance nodes -- analogous to Google's PageRank?",
+  "choices": [
+    "Betweenness centrality",
+    "Eigenvector centrality",
+    "Closeness centrality",
+    "Degree centrality"
+  ],
+  "answer": 1,
+  "explanation": "Eigenvector centrality defines a node's importance in terms of the importance of its neighbors, the same recursive principle underlying Google PageRank. Betweenness centrality instead measures how often a node lies on shortest paths between other node pairs (bottleneck-ness). Closeness centrality measures average distance to all other nodes, and degree centrality simply counts direct neighbors -- neither incorporates neighbor importance.",
+  "tags": [
+    "centrality",
+    "eigenvector-centrality",
+    "pagerank"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "30906c23-f89f-4a67-b1b3-c0dec61f89f1"
+}

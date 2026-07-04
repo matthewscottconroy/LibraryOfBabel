@@ -1,0 +1,22 @@
+{
+  "question_id": "8abe4dad-af69-48bb-8de4-2deb05b0b5ea",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Birkhoff's ergodic theorem states that, for an ergodic measure-preserving system, time averages converge to:",
+  "choices": [
+    "zero",
+    "the space average integral f d(mu)",
+    "the maximum of f",
+    "infinity"
+  ],
+  "answer": 1,
+  "explanation": "For ergodic systems the time average along almost every orbit equals the space average integral f d(mu) - the rigorous form of 'time average = space average'.",
+  "tags": [
+    "birkhoff",
+    "ergodic-theorem",
+    "time-average"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

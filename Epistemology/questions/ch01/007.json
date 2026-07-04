@@ -1,0 +1,18 @@
+{
+  "question_id": "96cbb6a3-f93e-427c-b852-11e1a917ade7",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Epistemic contextualism (Cohen, DeRose, Lewis) makes a distinctive claim about the word 'knows.' What is that claim?",
+  "choices": [
+    "Whether S knows p depends on the practical stakes S faces, so two subjects with the same evidence can differ in what they know.",
+    "Knowledge is an unanalyzable mental state, and 'knows' picks out the most general factive stative attitude.",
+    "The truth-conditions of 'S knows that p' vary with the epistemic standards operative in the attributor's context.",
+    "'Knows' is univocal and invariant, and any apparent variation reflects mere looseness or exaggeration in ordinary speech."
+  ],
+  "answer": 2,
+  "explanation": "Contextualism is a semantic thesis: the extension of 'knows' shifts with the attributor's conversational standards, so one and the same attribution can be true in a low-standards context and false in a high-standards one. Option 0 states subject-sensitive invariantism / pragmatic encroachment, which locates the sensitivity in the subject's stakes rather than in the meaning of 'knows.' Option 1 is Williamson's knowledge-first view, and option 3 is classical invariantism.",
+  "tags": ["contextualism", "cohen", "derose", "lewis", "pragmatic-encroachment"],
+  "difficulty": "beginner",
+  "generated": true
+}

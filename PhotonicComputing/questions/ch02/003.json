@@ -1,0 +1,13 @@
+{
+  "question_id": "f6f9c2ad-c37b-41a7-a0b9-7a2c13917930",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why is population inversion impossible in a two-level system under steady resonant optical pumping?",
+  "choices": ["Stimulated emission does not occur in a two-level system", "Because B₁₂ = B₂₁, pumping can at best equalize the populations (N₂/N₁ → 1) but never invert them", "Spontaneous emission is far too slow to matter", "The pump photons carry the wrong energy for the transition"],
+  "answer": 1,
+  "explanation": "Since stimulated absorption and emission have equal rates (B₁₂ = B₂₁), increasing pump intensity drives N₂/N₁ toward 1 but never above it, so no inversion. Stimulated emission does occur and resonant pump photons have the right energy; the barrier is the symmetry of the two rates, which three- and four-level schemes evade.",
+  "tags": ["population-inversion", "two-level-system", "einstein-coefficients"],
+  "difficulty": "intermediate",
+  "generated": true
+}

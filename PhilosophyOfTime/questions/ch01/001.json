@@ -1,0 +1,23 @@
+{
+  "question_id": "bd36ed4a-b633-4608-a808-9949deaa7354",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Heraclitus held that 'everything flows' - reality is in constant change. Yet he insisted this universal flux is not mere chaos. What, according to Heraclitus, gives the flux its order and intelligibility?",
+  "choices": [
+    "The Logos - an immanent rational principle of measure and proportion that governs all change",
+    "The One - a single, unchanging Being behind which all change is only appearance",
+    "Eternal, unchanging atoms whose rearrangements merely produce the look of change",
+    "A divine craftsman who fashioned time as a moving image of eternity"
+  ],
+  "answer": 0,
+  "explanation": "Heraclitus paired radical flux with rational order: change occurs 'according to the Logos,' the immanent measure that keeps the sun within its bounds and holds opposites in unity. The unchanging One belongs to Parmenides, who denied change altogether; permanent atoms are the Atomists' device; and the moving image of eternity fashioned by a craftsman is Plato's Timaeus. Only the Logos is Heraclitus' own answer.",
+  "tags": [
+    "heraclitus",
+    "logos",
+    "flux",
+    "pre-socratics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

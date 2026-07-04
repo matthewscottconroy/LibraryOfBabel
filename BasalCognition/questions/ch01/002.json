@@ -1,0 +1,13 @@
+{
+  "question_id": "d0f3b6c1-2e7a-4b5d-8c1f-0a4e7b9d3c26",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A bistable signaling switch that remains in its 'on' state even after the activating signal has been removed gives the cell a simple form of what?",
+  "choices": ["Anticipation of future signals", "Chemotaxis", "Programmed cell death", "Molecular memory, because the current state reflects the cell's history (hysteresis)"],
+  "answer": 3,
+  "explanation": "Bistable switches exhibit hysteresis: two cells in identical current conditions can be in different states depending on their histories, so the persistent 'on' state is a molecular memory of a past signal. Anticipation (option 0) is predictive switching, a different phenomenon. Chemotaxis (option 1) is directed movement, and programmed cell death (option 2) is apoptosis; neither is what a latching bistable switch provides.",
+  "tags": ["bistability", "hysteresis", "molecular-memory"],
+  "difficulty": "beginner",
+  "generated": true
+}

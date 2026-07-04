@@ -1,0 +1,13 @@
+{
+  "question_id": "e3b71d9c-5a26-4f8e-9b04-2c6d1a7e3f95",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In haplodiploid species such as honeybees, a worker is related to her full sisters by a coefficient of r = 0.75, which is higher than her relatedness to her own potential offspring (r = 0.5).",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Haplodiploidy produces r = 0.75 among full sisters, closer than any other natural relationship and higher than the r = 0.5 to one's own offspring. By Hamilton's rule (rB > C), this unusually high relatedness helps explain why sterile workers can gain more inclusive fitness by rearing sisters than by reproducing themselves.",
+  "tags": ["haplodiploidy", "relatedness", "kin-selection"],
+  "difficulty": "intermediate",
+  "generated": true
+}

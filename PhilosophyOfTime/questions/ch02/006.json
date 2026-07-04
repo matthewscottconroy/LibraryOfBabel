@@ -1,0 +1,18 @@
+{
+  "question_id": "37505db6-affb-4970-a1ad-79dcded07b03",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Augustine's 'threefold present,' the present of past things, the present of present things, and the present of future things correspond, respectively, to which three activities of the soul?",
+  "choices": [
+    "Sensation, imagination, and reason",
+    "Procession, remaining, and return",
+    "Memory, attention (direct awareness), and expectation",
+    "Retention, primal impression, and protention"
+  ],
+  "answer": 2,
+  "explanation": "Augustine locates all three 'times' within the soul: the past is present as memory, the present as attention or direct awareness, and the future as expectation. Choice 1 borrows Neoplatonic emanation vocabulary (procession/return), while choice 3 is Husserl's later phenomenological terminology, which captures a structurally similar insight but is not Augustine's own threefold analysis.",
+  "tags": ["augustine", "threefold-present", "memory", "expectation", "attention"],
+  "difficulty": "beginner",
+  "generated": true
+}

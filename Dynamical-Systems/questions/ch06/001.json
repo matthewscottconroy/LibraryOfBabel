@@ -1,0 +1,22 @@
+{
+  "question_id": "df9cbe7f-1a38-49b6-85c5-7812d5ebfae2",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Kolmogorov-Sinai entropy h_mu(T) is defined as the supremum over finite partitions P of:",
+  "choices": [
+    "the static entropy H(P)",
+    "the entropy rate h_mu(T,P)",
+    "the integral of f",
+    "the topological entropy"
+  ],
+  "answer": 1,
+  "explanation": "h_mu(T) = sup_P h_mu(T,P), where h_mu(T,P) is the per-step entropy of the refining partitions. The static H(P) or the topological entropy are different quantities.",
+  "tags": [
+    "ks-entropy",
+    "generating-partition",
+    "ergodic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

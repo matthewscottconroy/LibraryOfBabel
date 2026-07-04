@@ -1,0 +1,18 @@
+{
+  "question_id": "4d5f2be6-6730-4f4b-85f3-fe2430bbbe0d",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the crucial premise in Putnam's argument that the sentence 'I am a brain in a vat' is self-refuting?",
+  "choices": [
+    "In the nearest world in which I am envatted, I would not believe that I am envatted",
+    "The brain-in-a-vat scenario is too far-fetched to be a relevant alternative in ordinary contexts",
+    "Because reference is fixed partly by causal connection to one's environment, an envatted brain's word 'brain' would refer to its simulated brain-images, not to real brains",
+    "The word 'know' is context-sensitive, so an envatted brain speaks falsely only by high standards"
+  ],
+  "answer": 2,
+  "explanation": "Putnam relies on semantic externalism: since reference depends on causal contact with the environment, an envatted brain's term 'brain' would pick out its computational analog rather than real brains, so its utterance 'I am a brain in a vat' could not express (or make true) the intended thought. Options 0, 1, and 3 are the sensitivity, relevant-alternatives, and contextualist strategies respectively, none of which turns on a theory of reference.",
+  "tags": ["putnam", "semantic-externalism", "brain-in-a-vat", "self-refutation"],
+  "difficulty": "advanced",
+  "generated": true
+}

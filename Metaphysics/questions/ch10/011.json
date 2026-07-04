@@ -1,0 +1,19 @@
+{
+  "question_id": "5b3f10a4-d062-4ad5-8f93-48e73957b925",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Chisholm's doctrine of mereological ___ holds that every object has each of its parts necessarily, so that it cannot survive the gain or loss of any part.",
+  "choices": [
+    "essentialism"
+  ],
+  "answer": "essentialism",
+  "explanation": "Mereological essentialism (Chisholm) makes composition essential: an object could not have had different parts and is destroyed by any change of parts. It thereby avoids puzzles like the problem of the many, but at the cost of denying that ordinary objects persist through ordinary material change.",
+  "tags": [
+    "mereological-essentialism",
+    "chisholm",
+    "parts"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

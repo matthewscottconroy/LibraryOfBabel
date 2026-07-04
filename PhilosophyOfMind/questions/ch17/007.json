@@ -1,0 +1,20 @@
+{
+  "question_id": "9eef2249-4673-4c73-ba49-1c22a08548ed",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Turing intended the imitation game as a test for machine consciousness and inner experience.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: Turing deliberately bracketed consciousness as unanswerable and proposed a purely behavioral test of conversational indistinguishability. The consciousness objection is one he acknowledged and set aside, not the target his test was meant to settle.",
+  "tags": [
+    "turing-test",
+    "consciousness",
+    "behaviorism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

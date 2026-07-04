@@ -1,0 +1,21 @@
+{
+  "question_id": "51a71887-22fe-4fe1-ab44-251e0ad25f67",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which of the following is NOT a field?",
+  "choices": [
+    "ℂ",
+    "ℤ",
+    "𝔽₇ = ℤ/7ℤ",
+    "ℚ(√2)"
+  ],
+  "answer": 1,
+  "explanation": "In ℤ only ±1 have multiplicative inverses, so the nonzero elements fail to form a group under multiplication. ℤ/7ℤ is a field because 7 is prime, and ℚ(√2) = {a + b√2 : a,b ∈ ℚ} is a field extension of ℚ.",
+  "tags": [
+    "fields",
+    "examples"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

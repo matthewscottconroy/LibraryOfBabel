@@ -1,0 +1,22 @@
+{
+  "question_id": "67abcf80-bab4-40ee-b124-e8a033e7f6d0",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Among all distributions satisfying moment constraints E[f_i(X)] = a_i, the maximum-entropy distribution belongs to the:",
+  "choices": [
+    "uniform family",
+    "exponential family p(x) proportional to exp(sum lambda_i f_i(x))",
+    "Gaussian family only",
+    "Bernoulli family"
+  ],
+  "answer": 1,
+  "explanation": "Jaynes' principle yields an exponential-family (Gibbs) form exp(sum lambda_i f_i)/Z. Uniform is the special no-constraint case; Gaussian arises only for a variance constraint on the reals.",
+  "tags": [
+    "maximum-entropy",
+    "exponential-family",
+    "jaynes"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

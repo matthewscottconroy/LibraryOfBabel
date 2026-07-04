@@ -1,0 +1,19 @@
+{
+  "question_id": "cb5597a6-7257-4795-81d5-a35febe686dc",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In a charge-free region (ρ = 0), Poisson's equation ∇²φ = −ρ/ε₀ reduces to ∇²φ = 0, which is called ___'s equation.",
+  "choices": [
+    "Laplace",
+    "Laplace's"
+  ],
+  "answer": "Laplace",
+  "explanation": "With ρ = 0, Poisson's equation becomes ∇²φ = 0 — Laplace's equation, the governing equation for the potential in vacuum. Its harmonic-function solutions underpin the uniqueness theorems of electrostatics.",
+  "tags": [
+    "electrostatics",
+    "laplace"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

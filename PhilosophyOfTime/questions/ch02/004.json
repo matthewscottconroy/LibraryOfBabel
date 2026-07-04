@@ -1,0 +1,18 @@
+{
+  "question_id": "049cdbc0-68c2-4ee3-94fc-db4e359fb48e",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Thomas Nagel challenges Lucretius's symmetry argument. What is the core of Nagel's objection to the claimed symmetry between prenatal and posthumous non-existence?",
+  "choices": [
+    "Dying is typically painful, so death is bad in a way that the prenatal void is not",
+    "The prenatal period is in fact shorter than the posthumous period, so the two are not truly symmetric",
+    "We really do dread the prenatal void, so the argument's second premise is simply false",
+    "Death deprives an already-existing subject of goods it would otherwise have had, whereas prenatal non-existence deprives no one, since the subject did not yet exist"
+  ],
+  "answer": 3,
+  "explanation": "Nagel's deprivation account locates death's badness in the goods it forecloses for a specific person who existed, whereas prenatal non-existence deprives no one because there was as yet no subject to be deprived — so the two periods are not evaluatively symmetric. Nagel explicitly grants that dying need not be painful (choice 0) and that we do not in fact regret the prenatal period (choice 2), and his objection does not turn on the relative lengths of the two periods (choice 1).",
+  "tags": ["lucretius", "symmetry-argument", "nagel", "deprivation-account", "death"],
+  "difficulty": "advanced",
+  "generated": true
+}

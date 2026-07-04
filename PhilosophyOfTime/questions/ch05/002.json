@@ -1,0 +1,18 @@
+{
+  "question_id": "8bcd9d7b-aee4-415c-8363-9cb376fe8b24",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Topologically circular time — in which the timeline wraps around and loops back to its own beginning — is most famously associated in philosophy with which doctrine?",
+  "choices": [
+    "Kant's antinomy of time",
+    "Nietzsche's doctrine of the Eternal Return",
+    "Hawking's Chronology Protection Conjecture",
+    "Belnap's branching space-times"
+  ],
+  "answer": 1,
+  "explanation": "The book links circular time to Nietzsche's Eternal Return (ewige Wiederkehr) from The Gay Science and Thus Spoke Zarathustra. Kant's antinomy (option 0) concerns whether time has a beginning; the Chronology Protection Conjecture (option 2) is Hawking's proposal that physics forbids closed timelike curves; and Belnap's branching space-times (option 3) formalize branching, not circular, time.",
+  "tags": ["circular-time", "nietzsche", "eternal-return", "topology"],
+  "difficulty": "beginner",
+  "generated": true
+}

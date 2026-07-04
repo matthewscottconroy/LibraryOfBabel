@@ -1,0 +1,21 @@
+{
+  "question_id": "d2b002da-4cc3-4697-bb93-39a4ea2a3f4e",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "tf",
+  "text": "True or False: The Dutch book argument for probabilism is a synchronic coherence argument, showing that an agent whose credences violate the probability axioms is committed to accepting a set of bets that together guarantee a sure loss.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The synchronic Dutch book argument, due to Ramsey and de Finetti, shows that incoherent credences at a single time expose the agent to a combination of bets each deemed fair yet jointly guaranteeing a net loss, giving a pragmatic justification for probabilism. A separate diachronic Dutch book argument targets agents who plan to update by some rule other than conditionalization.",
+  "tags": [
+    "dutch book",
+    "probabilism",
+    "coherence",
+    "synchronic"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

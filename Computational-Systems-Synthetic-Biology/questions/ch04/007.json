@@ -1,0 +1,20 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The Burrows-Wheeler Transform underlies the FM-index used by fast short-read aligners such as BWA and Bowtie2.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The Burrows-Wheeler Transform is a reversible string transformation that enables a compressed FM-index, allowing O(m) pattern search for a query of length m, which is exactly how BWA and Bowtie2 achieve fast alignment against large reference genomes.",
+  "tags": [
+    "read-mapping",
+    "bwt",
+    "fm-index"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "d83b7e4c-833b-44c8-8fcb-022c9f8958e4"
+}

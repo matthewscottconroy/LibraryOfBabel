@@ -1,0 +1,21 @@
+{
+  "question_id": "4639166e-e226-4ab6-a3c8-1eeca577f4af",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Substituting E = −∇φ into Gauss's law ∇·E = ρ/ε₀ yields which equation for the electrostatic potential φ?",
+  "choices": [
+    "Laplace's equation ∇²φ = 0, valid everywhere",
+    "Poisson's equation ∇²φ = −ρ/ε₀",
+    "The wave equation ∇²φ = (1/c²)∂²φ/∂t²",
+    "Ampère's law ∇×B = μ₀J"
+  ],
+  "answer": 1,
+  "explanation": "With E = −∇φ, Gauss's law becomes −∇²φ = ρ/ε₀, i.e. Poisson's equation ∇²φ = −ρ/ε₀, the fundamental equation of electrostatics. Laplace's equation is only the special case ρ = 0 in vacuum; the wave equation and Ampère's law belong to time-dependent and magnetostatic contexts respectively.",
+  "tags": [
+    "electrostatics",
+    "poisson"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

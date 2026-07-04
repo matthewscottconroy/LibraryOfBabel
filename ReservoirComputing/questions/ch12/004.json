@@ -1,0 +1,22 @@
+{
+  "question_id": "54c6e0a8-3c35-469f-943b-f4f18a8efda1",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why does the single ESN struggle on the multi-timescale envelope task while the DeepESN succeeds?",
+  "choices": [
+    "A single reservoir has one characteristic effective timescale, so it cannot simultaneously track the fast oscillation and the slow envelope; the stacked layers supply multiple timescales",
+    "The single ESN cannot be trained by ridge regression, whereas the deep stack can",
+    "The deep ESN has far more reservoir neurons (3000 vs 300) than the single ESN",
+    "The single ESN violates the echo state property, while the deep ESN satisfies it"
+  ],
+  "answer": 0,
+  "explanation": "A shallow reservoir shares one effective time constant across all neurons, forcing a compromise between tracking the 50 Hz carrier and the 5 Hz envelope; the deep stack of decreasing-α layers separates the timescales. Both models use ridge regression (option 1 false) and both satisfy the ESP (option 3 false). Crucially, the deep net does NOT have more neurons: 3×100 = 300 = N_SINGLE (option 2 false); the gain is from depth/timescales, not size.",
+  "tags": [
+    "deep-esn",
+    "multi-timescale",
+    "motivation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

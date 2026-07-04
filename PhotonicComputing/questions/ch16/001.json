@@ -1,0 +1,18 @@
+{
+  "question_id": "6b6a4462-4097-47af-be60-361d03854337",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The creation (raising) operator a-dagger acts on a number state |n> as:",
+  "choices": [
+    "a-dagger|n> = sqrt(n) |n-1>",
+    "a-dagger|n> = n |n+1>",
+    "a-dagger|n> = sqrt(n) |n+1>",
+    "a-dagger|n> = sqrt(n+1) |n+1>"
+  ],
+  "answer": 3,
+  "explanation": "The book gives a-dagger|n> = sqrt(n+1)|n+1> (and a|n> = sqrt(n)|n-1>). Choice 0 is the annihilation operator's action; choices 1 and 2 use the wrong prefactor (n or sqrt(n) instead of sqrt(n+1)).",
+  "tags": ["ladder-operators", "fock-states", "harmonic-oscillator"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "bf8b6916-e812-4774-92f0-b17246bf7e87",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "tf",
+  "text": "According to the book's Shapiro time delay, a radar signal passing near the Sun arrives earlier than it would in flat spacetime.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The Shapiro effect is a time delay: the signal takes longer and arrives later, not earlier. The book's excess is Δt = (2GM/c³)ln(4r_E r_P/b²), giving about 248 μs of extra delay for a Venus signal at superior conjunction, confirmed to 0.002% by Cassini.",
+  "tags": [
+    "classical-tests",
+    "shapiro-delay"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "7a8a63b6-2f0f-44e2-910d-d2ddf72564dc",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the Liénard–Wiechert fields of a moving point charge, the acceleration (radiation) field that transports energy to infinity falls off with distance R from the retarded source position as:",
+  "choices": [
+    "1/R (the radiation field)",
+    "1/R², like the Coulomb/velocity field",
+    "1/R³, like a static dipole field",
+    "independent of R (constant)"
+  ],
+  "answer": 0,
+  "explanation": "The acceleration field is proportional to 1/R, so the power through a sphere (area ∝ R² times |E|² ∝ 1/R²) stays finite as R→∞ and energy escapes to infinity. The velocity (Coulomb) field falls as 1/R² and stays attached to the charge, carrying no net energy away; 1/R³ is the static dipole falloff.",
+  "tags": [
+    "radiation",
+    "lienard-wiechert",
+    "far-field"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

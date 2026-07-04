@@ -1,0 +1,19 @@
+{
+  "question_id": "14606b5e-2ca2-4aaf-bde9-39dc7e17761f",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In ZFC the ordered pair (a, b) is standardly encoded as the set {{a}, {a, b}}, an encoding known as the ___ ordered pair.",
+  "choices": [
+    "Kuratowski"
+  ],
+  "answer": "Kuratowski",
+  "explanation": "The Kuratowski encoding (a, b) = {{a}, {a, b}} lets ordered pairs — and hence relations, functions, and Cartesian products — be defined purely from sets, and it correctly satisfies (a, b) = (c, d) iff a = c and b = d.",
+  "tags": [
+    "kuratowski",
+    "ordered-pair",
+    "relations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

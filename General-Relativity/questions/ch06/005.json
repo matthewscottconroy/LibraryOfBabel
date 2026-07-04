@@ -1,0 +1,13 @@
+{
+  "question_id": "fde2cdc8-1ec8-4a19-8dd6-c5effd862cd8",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In the (−,+,+,+) signature used throughout this book, the Minkowski metric is η_μν = diag(−1, +1, +1, ___).",
+  "choices": ["+1", "1"],
+  "answer": "+1",
+  "explanation": "The book uses signature (−,+,+,+): the single time component carries −1 and each of the three spatial components carries +1, so η_μν = diag(−1,+1,+1,+1). The opposite sign on the time direction versus the spatial directions is the source of all the distinctive effects of special relativity.",
+  "tags": ["minkowski", "signature", "metric"],
+  "difficulty": "beginner",
+  "generated": true
+}

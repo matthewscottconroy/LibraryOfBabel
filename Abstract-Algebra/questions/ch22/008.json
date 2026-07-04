@@ -1,0 +1,13 @@
+{
+  "question_id": "be686f8c-b984-427b-a4d6-0019f2c07405",
+  "chapter": 22,
+  "phase": 7,
+  "kind": "tf",
+  "text": "The local Langlands correspondence for $GL_n(\\mathbb{Q}_p)$ matches irreducible smooth representations of $GL_n(\\mathbb{Q}_p)$ with representations of a finite symmetric group.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "It is FALSE: the correspondence (Harris-Taylor, 2001) matches those smooth representations with $n$-dimensional representations of the Galois group $\\mathrm{Gal}(\\bar{\\mathbb{Q}}_p/\\mathbb{Q}_p)$, not a symmetric group. Symmetric groups arise in classical Schur-Weyl duality, which is unrelated to this arithmetic correspondence.",
+  "tags": ["langlands-program", "local-langlands", "galois-representations"],
+  "difficulty": "intermediate",
+  "generated": true
+}

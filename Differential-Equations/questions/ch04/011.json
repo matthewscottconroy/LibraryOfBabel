@@ -1,0 +1,19 @@
+{
+  "question_id": "f0e0e0fc-d603-4727-95b1-a354502bd855",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The Fourier transform is extended to objects such as the Dirac delta by working in the space of tempered ___.",
+  "choices": [
+    "distributions"
+  ],
+  "answer": "distributions",
+  "explanation": "Tempered distributions (continuous linear functionals on Schwartz space) allow one to transform objects like the delta, constants, and complex exponentials that are not integrable. For instance the transform of the delta is 1 and the transform of 1 is the delta.",
+  "tags": [
+    "tempered-distributions",
+    "fourier-transform",
+    "dirac-delta"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

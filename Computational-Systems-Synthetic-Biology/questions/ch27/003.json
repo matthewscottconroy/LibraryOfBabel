@@ -1,0 +1,22 @@
+{
+  "chapter": 27,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Milo et al.'s 2002 Science paper 'Network Motifs: Simple Building Blocks of Complex Networks' is best known for which contribution?",
+  "choices": [
+    "Demonstrating the repressilator's oscillatory dynamics using ODE simulations",
+    "Deriving zero-order ultrasensitivity in covalent modification cycles",
+    "Introducing the original statistical framework for detecting network motifs, applied across E. coli, yeast, neural, and web networks",
+    "Proposing the Watts-Strogatz small-world network model"
+  ],
+  "answer": 2,
+  "explanation": "Milo et al. (2002) introduced the original statistical framework -- comparing subgraph counts to randomized networks with the same degree sequence -- for identifying overrepresented network motifs, and applied it broadly to gene regulation, yeast, neural, and web networks. Repressilator dynamics were modeled by Elowitz & Leibler, zero-order ultrasensitivity was derived by Goldbeter & Koshland (1981), and the small-world model is due to Watts & Strogatz, not Milo et al.",
+  "tags": [
+    "network-motifs",
+    "milo-2002",
+    "statistical-framework"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "363b05f0-d760-4b4f-81ed-5175d6a63e4b"
+}

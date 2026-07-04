@@ -1,0 +1,22 @@
+{
+  "question_id": "6d4db9d9-e4a1-4b0f-be1c-58ac42ed31c1",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "As rho increases toward 1 (staying below the ESP boundary), the reservoir's linear memory capacity:",
+  "choices": [
+    "stays constant, because MC depends only on N and not on rho",
+    "decreases toward zero, because the reservoir becomes unstable",
+    "increases without bound, eventually exceeding N",
+    "increases and saturates near its upper bound N"
+  ],
+  "answer": 3,
+  "explanation": "Higher rho lengthens memory, so MC rises as rho -> 1^- and approaches (but never exceeds) the Jaeger bound MC <= N; the sweep shows MC saturating near N. MC clearly depends on rho (not just N), does not collapse until rho passes 1 and the ESP is lost, and can never exceed N.",
+  "tags": [
+    "spectral-radius",
+    "memory-capacity",
+    "jaeger-bound"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

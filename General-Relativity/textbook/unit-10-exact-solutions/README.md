@@ -20,7 +20,9 @@ The exact solutions of GR are not merely mathematical curiosities. They describe
 
 ## Chapters in This Unit
 
-- [Chapter 31: The Schwarzschild Solution](chapter-31-schwarzschild/README.md)
-- [Chapter 32: Black Holes and Event Horizons](chapter-32-black-holes/README.md)
-- [Chapter 33: The Kerr Solution and Rotating Black Holes](chapter-33-kerr/README.md)
-- [Chapter 34: Cosmological Solutions: FLRW](chapter-34-flrw/README.md)
+- [Chapter 38: The Schwarzschild Solution](chapter-38-schwarzschild/README.md)
+- [Chapter 39: Classical Tests of General Relativity](chapter-39-classical-tests/README.md)
+- [Chapter 40: Black Holes — The Schwarzschild Solution](chapter-40-black-holes-schwarzschild/README.md)
+- [Chapter 41: The Reissner-Nordström Solution](chapter-41-reissner-nordstrom/README.md)
+- [Chapter 42: Kerr Rotating Black Holes](chapter-42-kerr-rotating-black-holes/README.md)
+- [Chapter 43: Other Exact Solutions](chapter-43-other-solutions/README.md)

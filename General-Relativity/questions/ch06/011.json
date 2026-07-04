@@ -1,0 +1,18 @@
+{
+  "question_id": "0e2de55f-14f8-41ec-ac23-d98ac77878e5",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the covariant formulation, the electromagnetic field tensor F_μν = ∂_μ A_ν − ∂_ν A_μ is best described as:",
+  "choices": [
+    "A symmetric (0,2)-tensor with 10 independent components",
+    "A 4-vector with one component for each Maxwell equation",
+    "An antisymmetric (0,2)-tensor with 6 independent components encoding E and B",
+    "A Lorentz scalar equal to 2(B² − E²/c²)"
+  ],
+  "answer": 2,
+  "explanation": "Because F_μν = −F_νμ is antisymmetric, a 4×4 antisymmetric tensor has 4·3/2 = 6 independent components — exactly the 3 components of E plus the 3 of B. Choice 0 describes a symmetric tensor such as η_μν or T^μν; choice 3 is the invariant F_μν F^μν = 2(B²−E²/c²), a scalar built from F rather than F itself. The homogeneous Maxwell equations ∂_[λ F_μν] = 0 then follow automatically from F = dA.",
+  "tags": ["field-tensor", "electrodynamics", "antisymmetric"],
+  "difficulty": "advanced",
+  "generated": true
+}

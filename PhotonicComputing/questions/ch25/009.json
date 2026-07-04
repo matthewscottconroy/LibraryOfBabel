@@ -1,0 +1,19 @@
+{
+  "question_id": "71bed31c-4ccb-4059-bd1e-fceca1073660",
+  "chapter": 25,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The US foundry whose Fotonix platform offers monolithic RF-CMOS plus photonics on 300 mm wafers, and which serves as the manufacturing partner for PsiQuantum, Lightmatter, and Ayar Labs, is ___.",
+  "choices": [
+    "GlobalFoundries"
+  ],
+  "answer": "GlobalFoundries",
+  "explanation": "GlobalFoundries' Fotonix platform (monolithic RF-CMOS plus photonics on 300 mm wafers) is the named manufacturing partner for PsiQuantum, Lightmatter, and Ayar Labs, illustrating that no photonic startup owns its own fab.",
+  "tags": [
+    "foundry",
+    "globalfoundries",
+    "manufacturing"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

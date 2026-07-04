@@ -1,0 +1,22 @@
+{
+  "question_id": "e54fa35d-b87f-4f76-9d39-468d4c5e1430",
+  "chapter": 17,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In Kripke's least fixed-point theory of truth, what is the status of the Liar sentence?",
+  "choices": [
+    "It is valueless — a truth-value gap that receives no value in any fixed point",
+    "It is true in the least fixed point",
+    "It is false in the least fixed point",
+    "It is both true and false"
+  ],
+  "answer": 0,
+  "explanation": "Kripke uses a partial, three-valued (Strong Kleene) truth predicate; the Liar falls into a truth-value GAP, receiving no value in the least fixed point — indeed in no fixed point, since any value would refute itself. It is not assigned true, false, or (this is a gap, not a glut) both.",
+  "tags": [
+    "kripke",
+    "fixed-point",
+    "truth-value-gap"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "f5078d24-adca-43db-bb27-afd32f0a0aa8",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The character $\\chi_V$ of a representation $(\\rho,V)$ of $G$ is defined by $\\chi_V(g)=$",
+  "choices": [
+    "$\\det(\\rho(g))$",
+    "$\\dim_k V$, the same for every $g$",
+    "$\\mathrm{tr}(\\rho(g))$",
+    "$\\mathrm{rank}(\\rho(g))$"
+  ],
+  "answer": 2,
+  "explanation": "The character is the trace of the representing operator, $\\chi_V(g)=\\mathrm{tr}(\\rho(g))$. The determinant gives a different, $1$-dimensional character; $\\dim_k V$ is only the value $\\chi_V(e)$; and the rank of the invertible $\\rho(g)$ is always $\\dim V$, so it carries no information.",
+  "tags": ["character-theory", "character", "trace"],
+  "difficulty": "beginner",
+  "generated": true
+}

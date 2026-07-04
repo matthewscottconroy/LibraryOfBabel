@@ -1,0 +1,22 @@
+{
+  "question_id": "4beb5660-a22a-4af9-9374-52023682e80f",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is the degree [ℚ(√2) : ℚ]?",
+  "choices": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "answer": 1,
+  "explanation": "The minimal polynomial of √2 over ℚ is x² − 2 (irreducible by Eisenstein at 2), and [F(α):F] equals the degree of the minimal polynomial. A basis is {1, √2}.",
+  "tags": [
+    "field-extensions",
+    "degree",
+    "minimal-polynomial"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

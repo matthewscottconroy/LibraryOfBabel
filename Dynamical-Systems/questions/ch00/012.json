@@ -1,0 +1,21 @@
+{
+  "question_id": "bba92f38-7e8e-4cf1-9eac-19819a721511",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The theorem guaranteeing a unique fixed point of a contraction on a complete metric space is the ___ theorem.",
+  "choices": [
+    "Banach fixed point",
+    "Banach fixed-point",
+    "contraction mapping"
+  ],
+  "answer": "Banach fixed point",
+  "explanation": "Completeness makes the iterates of a contraction a convergent Cauchy sequence; the contraction property forces the limit to be the unique fixed point. It underlies Picard-Lindelof and the stable manifold theorem.",
+  "tags": [
+    "banach-fixed-point",
+    "contraction",
+    "completeness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

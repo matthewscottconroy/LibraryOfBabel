@@ -1,0 +1,22 @@
+{
+  "question_id": "91b54010-7c08-4a7a-bdd9-03ad70492ffa",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The contrapositive of the implication P → Q is:",
+  "choices": [
+    "Q → P (its converse)",
+    "¬P → ¬Q (its inverse)",
+    "P → ¬Q",
+    "¬Q → ¬P"
+  ],
+  "answer": 3,
+  "explanation": "The contrapositive of P → Q is ¬Q → ¬P, and it is logically equivalent to the original. Q → P is the converse and ¬P → ¬Q is the inverse; neither is equivalent to P → Q (they are equivalent only to each other). Confusing the contrapositive with the converse is a classic error.",
+  "tags": [
+    "contrapositive",
+    "converse",
+    "inverse"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

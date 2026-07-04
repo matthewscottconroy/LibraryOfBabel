@@ -1,0 +1,20 @@
+{
+  "question_id": "8a556ae3-2861-4ea2-a34f-7c4346bae7a6",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "For A ∈ M_{m×n}(F), the null space and the row space are both subspaces of Fⁿ, and their dimensions add up to ___.",
+  "choices": [
+    "n",
+    "the number of columns"
+  ],
+  "answer": "n",
+  "explanation": "dim(row space) = rank(A) = r and dim(null space) = n − r, so the sum is n. This is rank–nullity read through the four fundamental subspaces; the column space and left null space similarly split m.",
+  "tags": [
+    "matrices",
+    "rank",
+    "fundamental-subspaces"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

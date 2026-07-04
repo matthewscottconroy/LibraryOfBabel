@@ -1,0 +1,18 @@
+{
+  "question_id": "436074b3-9918-437d-a293-ade13fc6523d",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "By Noether's theorem, the time-translation symmetry of a system's laws (the laws being the same today as yesterday) corresponds to the conservation of which quantity?",
+  "choices": [
+    "Linear momentum",
+    "Angular momentum",
+    "Energy",
+    "Electric charge"
+  ],
+  "answer": 2,
+  "explanation": "Noether's theorem pairs each continuous symmetry with a conserved quantity, and time-translation symmetry yields conservation of energy. Linear momentum corresponds instead to spatial-translation symmetry and angular momentum to rotational symmetry, so options 0 and 1 name the wrong symmetry; electric-charge conservation follows from an internal gauge symmetry rather than a spacetime symmetry.",
+  "tags": ["noether-theorem", "time-translation-symmetry", "conservation-of-energy", "newtonian"],
+  "difficulty": "intermediate",
+  "generated": true
+}

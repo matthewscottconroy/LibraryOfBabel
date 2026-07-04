@@ -1,0 +1,21 @@
+{
+  "question_id": "bb632e08-9b1d-435e-a19e-e1d098dbac5c",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "In Kripke semantics, ◇φ is true at a world w if and only if there exists at least one world v accessible from w at which φ is true.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: this is exactly the satisfaction clause for possibility, M,w ⊨ ◇φ iff ∃v (wRv and M,v ⊨ φ). It is the existential dual of □φ, whose clause quantifies universally over all accessible worlds.",
+  "tags": [
+    "modal-logic",
+    "kripke-semantics",
+    "possibility",
+    "diamond"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

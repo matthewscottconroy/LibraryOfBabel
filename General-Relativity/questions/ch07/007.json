@@ -1,0 +1,22 @@
+{
+  "question_id": "50bd09cd-e031-4b76-972d-0da7ac8d9599",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which equation is the affinely parametrized geodesic equation (parameter τ) as written in this book?",
+  "choices": [
+    "d²xᵘ/dτ² + Γᵘ_νρ (dxᵛ/dτ)(dxᵖ/dτ) = 0",
+    "d²xᵘ/dτ² = 0 in every coordinate system.",
+    "d²xᵘ/dτ² + Rᵘ_νρσ (dxᵛ/dτ)(dxᵖ/dτ) = 0",
+    "d²xᵘ/dτ² − Γᵘ_νρ (dxᵛ/dτ)(dxᵖ/dτ) = 0"
+  ],
+  "answer": 0,
+  "explanation": "The book writes the geodesic (auto-parallel) equation as d²xᵘ/dτ² + Γᵘ_νρ (dxᵛ/dτ)(dxᵖ/dτ) = 0, equivalently ∇_γ̇ γ̇ = 0. It reduces to d²xᵘ/dτ² = 0 only in normal coordinates where Γ vanishes at the point, not in every system (choice 1). The Riemann tensor governs geodesic deviation, not the geodesic itself (choice 2), and the connection term carries a plus sign (choice 3 has the wrong sign).",
+  "tags": [
+    "geodesics",
+    "geodesic-equation",
+    "connection"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "8aad4a0e-f45a-4e92-ba5a-cac378568690",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Standard single-mode fiber (SMF-28) has its zero-dispersion wavelength near 1310 nm, yet long-haul systems operate at 1550 nm. What is the chromatic dispersion of SMF-28 at 1550 nm?",
+  "choices": ["0 ps/(nm*km)", "-17 ps/(nm*km)", "0.18 ps/(nm*km)", "17 ps/(nm*km)"],
+  "answer": 3,
+  "explanation": "SMF-28 exhibits about +17 ps/(nm*km) of anomalous chromatic dispersion at 1550 nm. 0 ps/(nm*km) confuses 1550 nm with the zero-dispersion wavelength (1310 nm); -17 has the wrong sign (that regime lies below the zero-dispersion wavelength); 0.18 confuses dispersion with the fiber's loss figure of 0.18 dB/km.",
+  "tags": ["chromatic-dispersion", "smf-28", "optical-fiber"],
+  "difficulty": "intermediate",
+  "generated": true
+}

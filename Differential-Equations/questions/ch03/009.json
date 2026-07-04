@@ -1,0 +1,18 @@
+{
+  "question_id": "39422e39-b1c6-4b81-81f7-f426ea83c46a",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The ___ transform converts a linear constant-coefficient ODE with given initial conditions into an algebraic equation by turning differentiation into multiplication by s.",
+  "choices": [
+    "Laplace"
+  ],
+  "answer": "Laplace",
+  "explanation": "The Laplace transform uses L{f'} = s*F(s) - f(0), so a differential equation becomes algebraic in F(s); inverting recovers the solution. It handles discontinuous and impulsive forcing (Heaviside step, Dirac delta) with particular ease.",
+  "tags": [
+    "laplace-transform",
+    "ivp"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

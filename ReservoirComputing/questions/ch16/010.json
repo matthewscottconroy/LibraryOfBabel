@@ -1,0 +1,23 @@
+{
+  "question_id": "f6d70eb4-7cff-4003-9b84-4ee3b6d86f4f",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The book links reservoir CPGs to motor neuroscience. Which pairing correctly matches an empirical finding with its reservoir-computing model?",
+  "choices": [
+    "Place cells (O'Keefe) paired with a ridge-regression readout of the Lorenz attractor",
+    "Churchland et al. (2012) rotational population dynamics in motor cortex paired with the Sussillo & Abbott (2009) FORCE-trained recurrent network that reproduces those rotations with only its readout trained",
+    "Cerebellar climbing fibers paired with the fixed random input weights W_in of an ESN",
+    "Working-memory persistent activity paired with a reservoir whose spectral radius is far below 1"
+  ],
+  "answer": 1,
+  "explanation": "Churchland et al. (2012) found rotational dynamics in motor-cortex population activity; Sussillo & Abbott (2009) showed a FORCE-trained RNN (recurrent weights fixed, only the readout learned) reproduces such rotations, which is the reservoir link. Option 2 is wrong (climbing fibers are the error/teacher signal, not W_in); option 3 is wrong (persistent working memory needs rho ~ 1, near marginal stability, not far below 1); option 0 pairs unrelated items.",
+  "tags": [
+    "motor-cortex",
+    "churchland",
+    "sussillo",
+    "FORCE"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

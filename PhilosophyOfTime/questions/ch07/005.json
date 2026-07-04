@@ -1,0 +1,18 @@
+{
+  "question_id": "5d7abd15-fe7b-4b19-b779-4ae9904c879d",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "For Heidegger, authentic temporality is a unified structure of three 'ecstases.' Which ecstasis does he treat as primary, and how does he characterize it?",
+  "choices": [
+    "The present, understood as the knife-edge 'now' of clock time from which past and future are measured",
+    "The future, understood as anticipatory being-toward-death — 'running ahead' to one's ownmost possibility",
+    "The having-been, understood as the nostalgic recollection of one's personal past",
+    "The present, understood as the primal impression that anchors retention and protention"
+  ],
+  "answer": 1,
+  "explanation": "For Heidegger the primary ecstasis is the future as anticipatory resoluteness: 'running ahead' (Vorlaufen) toward death, one's ownmost possibility. The present as the clock-time 'now' (choice 1) is 'vulgar time,' derivative rather than primary. The having-been is a genuine ecstasis but consists in resolutely 'taking over' one's thrownness, which Heidegger explicitly contrasts with nostalgic return (choice 3). Choice 4 imports Husserl's primal-impression structure, which Heidegger's existential analysis moves beyond.",
+  "tags": ["heidegger", "temporality", "being-toward-death", "ecstases"],
+  "difficulty": "intermediate",
+  "generated": true
+}

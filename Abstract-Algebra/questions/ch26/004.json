@@ -1,0 +1,22 @@
+{
+  "question_id": "714ef14b-7766-40be-805f-bde8b198baa0",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "In the hierarchy of homotopy levels ($n$-types) in HoTT, which level consists of exactly the 'sets' where classical mathematics lives?",
+  "choices": [
+    "$(-1)$-types",
+    "$1$-types",
+    "$\\infty$-types",
+    "$0$-types"
+  ],
+  "answer": 3,
+  "explanation": "The chapter states 'Sets in HoTT are exactly the 0-types,' characterized by $\\mathrm{Id}(a,b)$ being a proposition for all $a,b$. $(-1)$-types are propositions, $1$-types are groupoids, and $\\infty$-types carry arbitrary higher homotopy, so none of these is the level of sets.",
+  "tags": [
+    "hott",
+    "n-types",
+    "homotopy-levels"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

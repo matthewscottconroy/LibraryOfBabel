@@ -1,0 +1,22 @@
+{
+  "question_id": "5f99bd26-357d-477f-ba90-4e279bb1bdc7",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The n distinct n-th roots of unity are located:",
+  "choices": [
+    "all on the real axis",
+    "at the origin, with multiplicity n",
+    "on a single vertical line",
+    "equally spaced on the unit circle"
+  ],
+  "answer": 3,
+  "explanation": "The n-th roots of unity are exp(2*pi*i*k/n) for k = 0, ..., n-1: equally spaced points on the unit circle forming a regular n-gon (via de Moivre's theorem). For n > 1 they sum to zero.",
+  "tags": [
+    "roots-of-unity",
+    "de-moivre",
+    "polar-form"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

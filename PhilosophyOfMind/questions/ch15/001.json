@@ -1,0 +1,22 @@
+{
+  "question_id": "bedb27ee-4b53-4a9e-8563-0eab1960e548",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "As defined by Crick and Koch (1990), a neural correlate of consciousness (NCC) is:",
+  "choices": [
+    "The whole brain, since it is necessary for any consciousness at all",
+    "The minimal set of neural events/mechanisms jointly sufficient for a specific conscious percept",
+    "A demonstration that a neural state is strictly identical to a conscious state",
+    "The algorithmic level of Marr's three-level framework"
+  ],
+  "answer": 1,
+  "explanation": "Crick and Koch define an NCC as the minimal set of neural events jointly sufficient for a specific conscious percept. Naming the whole brain is uninformative (the text rejects it); correlation is explicitly not identity or explanation; and the algorithmic level belongs to Marr's framework, not the NCC definition.",
+  "tags": [
+    "ncc",
+    "crick-koch",
+    "consciousness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

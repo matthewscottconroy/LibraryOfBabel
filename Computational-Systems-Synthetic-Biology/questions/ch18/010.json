@@ -1,0 +1,19 @@
+{
+  "chapter": 18,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In the artemisinic acid engineering project, the key rate-limiting enzyme of the yeast mevalonate pathway that was overexpressed to increase flux is ___.",
+  "choices": [
+    "HMG-CoA reductase"
+  ],
+  "answer": "HMG-CoA reductase",
+  "explanation": "HMG-CoA reductase catalyzes a key committed and rate-limiting step of the mevalonate pathway. Overexpressing it was one of the critical engineering steps, alongside introducing amorphadiene synthase and CYP71AV1, that enabled high-titer artemisinic acid production in engineered yeast.",
+  "tags": [
+    "mevalonate-pathway",
+    "hmg-coa-reductase",
+    "artemisinin"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "4a5d55b2-b084-4f12-88cc-2935d658529d"
+}

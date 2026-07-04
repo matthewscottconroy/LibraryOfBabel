@@ -1,0 +1,23 @@
+{
+  "chapter": 25,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In protein-protein interaction network terminology, a 'party hub' is best described as a protein that...",
+  "choices": [
+    "Interacts with different partners at different times or in different cellular contexts",
+    "Interacts with most or all of its partners simultaneously, often as part of a stable core complex",
+    "Has the highest betweenness centrality in the interactome",
+    "Was identified only through yeast two-hybrid (Y2H) screening"
+  ],
+  "answer": 1,
+  "explanation": "Party hubs interact with most of their partners at the same time, typically as components of stable multi-protein complexes. The first option instead describes a 'date hub,' which interacts with different partners in different contexts or at different times. Betweenness centrality is a distinct topological measure unrelated to the date/party hub distinction, and the date/party classification is independent of which experimental method identified the interaction.",
+  "tags": [
+    "ppi-networks",
+    "hub-proteins",
+    "date-hub",
+    "party-hub"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "07dae894-56ef-43ca-8493-31c4e136ff51"
+}

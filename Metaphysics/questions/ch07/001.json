@@ -1,0 +1,22 @@
+{
+  "question_id": "b8204a04-5eff-4df8-bca0-449a7a85ddd1",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Van Inwagen's Consequence Argument concludes which of the following?",
+  "choices": [
+    "If determinism is true, then since our actions are the consequences of the laws of nature and the remote past, neither of which is up to us, our actions are not up to us either.",
+    "Moral responsibility does not require that the agent could have done otherwise.",
+    "Free will requires a special kind of agent causation not reducible to event causation.",
+    "The reactive attitudes make the truth of determinism irrelevant to responsibility."
+  ],
+  "answer": 0,
+  "explanation": "The Consequence Argument is the canonical incompatibilist argument: the past and the laws are not up to us, and by the transfer (Beta) principle neither are their determined consequences, our actions. The 'could have done otherwise not required' claim is Frankfurt's conclusion, agent causation is the libertarian positive view, and the reactive-attitudes line is Strawson's.",
+  "tags": [
+    "consequence-argument",
+    "van-inwagen",
+    "incompatibilism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "1df212ba-117f-4198-aaac-374824215b03",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "tf",
+  "text": "True or False: Under the Curry–Howard correspondence for dependent types, the dependent sum type Σx:A. B(x) corresponds to the universal quantifier ∀x:A. B(x).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False — the correspondence is swapped. The dependent product (Π-type) Πx:A. B(x) corresponds to the universal quantifier ∀; the dependent sum (Σ-type) corresponds to the existential quantifier ∃ — a witness a : A paired with evidence of B(a).",
+  "tags": [
+    "dependent-types",
+    "pi-type",
+    "sigma-type",
+    "curry-howard"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

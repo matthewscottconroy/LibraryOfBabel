@@ -1,0 +1,19 @@
+{
+  "question_id": "c3517cd4-36ec-4f2a-9705-e90b59c6d521",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The principle that if two things are identical they must share all of their properties — used in objections to the identity theory — is known as Leibniz's Law, or the indiscernibility of ___.",
+  "choices": [
+    "identicals"
+  ],
+  "answer": "identicals",
+  "explanation": "Leibniz's Law, the 'indiscernibility of identicals,' says that if A = B then every property of A is a property of B. Opponents of type identity argue that mental and neural states differ in some property (e.g. spatial location or privileged access), so they cannot be identical. The expected word is 'identicals.'",
+  "tags": [
+    "leibnizs-law",
+    "indiscernibility-of-identicals",
+    "identity-theory"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

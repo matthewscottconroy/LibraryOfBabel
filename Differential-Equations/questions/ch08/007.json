@@ -1,0 +1,19 @@
+{
+  "question_id": "fefba2ff-3709-4987-b401-3d21dc629110",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Every function that is differentiable in the classical sense also possesses a weak (distributional) derivative, and the two agree.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: the weak derivative generalizes the classical one through integration by parts, and they coincide whenever the classical derivative exists and is integrable. The weak notion additionally assigns derivatives to non-smooth functions, which is what Sobolev spaces exploit.",
+  "tags": [
+    "weak-derivative",
+    "sobolev-spaces"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "7b4a86dd-f135-4880-87de-9bdf7803bc08",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A subshift of finite type corresponds, in information-theoretic terms, to a:",
+  "choices": [
+    "finite-order Markov source",
+    "i.i.d. source",
+    "continuous source",
+    "Gaussian source"
+  ],
+  "answer": 0,
+  "explanation": "The finite forbidden-word constraints of an SFT are exactly the memory of a finite-order Markov source. Sofic (hidden Markov) sources are the strictly larger class.",
+  "tags": [
+    "sft",
+    "markov-source",
+    "symbolic-information"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "1666da69-076d-44ef-93a9-fa9fcb3b0270",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "On Lewis's definition, why does relativistic time dilation, such as a traveler who ages only one year while ten years pass on Earth, already count as a (mild) case of time travel?",
+  "choices": [
+    "Because the traveler physically reverses direction in external time during the high-speed journey.",
+    "Because achieving the effect requires a closed timelike curve, exactly as backward time travel does.",
+    "Because the traveler's personal time (one year) diverges in rate from external time (ten years), which is precisely the discrepancy Lewis's definition requires.",
+    "Because it sets up a bootstrap loop in which the traveler's later self causes her own earlier journey."
+  ],
+  "answer": 2,
+  "explanation": "Forward time travel occurs when personal time runs slower than external time, so aging one year while ten elapse externally satisfies Lewis's discrepancy condition; this is the experimentally confirmed Hafele-Keating effect. It involves no reversal of direction in external time (choice 0), which is the more radical backward case where personal and external time diverge in direction rather than merely rate. It needs no closed timelike curve (choice 1), only ordinary velocity-based dilation, and no self-causing loop (choice 3), which belongs to bootstrap paradoxes.",
+  "tags": [
+    "relativistic-dilation",
+    "forward-time-travel",
+    "personal-time",
+    "lewis"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

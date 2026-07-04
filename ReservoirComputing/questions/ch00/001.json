@@ -1,0 +1,22 @@
+{
+  "question_id": "1f3a89b1-d529-425a-9f51-08337a0dd4fc",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the fading-memory lab, what does 'fading memory' mean for a reservoir?",
+  "choices": [
+    "The reservoir stores every past input with equal weight, like a perfect archive",
+    "The reservoir's state depends only on the single most recent input",
+    "The reservoir's current state is influenced more strongly by recent inputs than by distant past ones",
+    "The reservoir gradually forgets how to compute its trained readout weights"
+  ],
+  "answer": 2,
+  "explanation": "Fading memory means the influence of past inputs decays with lag, so recent inputs dominate the current state. Equal weighting (option 0) is the 'archive' the reading rejects as non-computational; dependence on only the newest input and 'forgetting the readout' are not what the term denotes.",
+  "tags": [
+    "fading-memory",
+    "reservoir-state",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

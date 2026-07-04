@@ -1,0 +1,23 @@
+{
+  "question_id": "93224039-8fb8-42ef-bf8f-ca1025d9c2f3",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Joshua Greene's dual-process theory interprets the contrast between people's judgments in the trolley 'switch' case and the 'footbridge' case as evidence that...",
+  "choices": [
+    "characteristically deontological judgments (rejecting the footbridge push) are driven by automatic emotional responses, while utilitarian judgments are more deliberative",
+    "both judgments are outputs of pure practical reason operating without emotion",
+    "utilitarian judgments are emotional gut reactions and deontological judgments are the rational ones",
+    "moral judgment is fixed entirely by cultural convention with no cognitive processing involved"
+  ],
+  "answer": 0,
+  "explanation": "Greene found greater emotional engagement and neural activation in the up-close footbridge case, reading deontological intuitions as emotional gut reactions and utilitarian judgments as controlled and deliberative. Option C reverses his mapping, B ignores the emotional process he documents, and D denies the dual-process cognition entirely.",
+  "tags": [
+    "greene",
+    "dual-process",
+    "trolley-problem",
+    "moral-psychology"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

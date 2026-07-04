@@ -1,0 +1,13 @@
+{
+  "question_id": "7d4c2301-8891-43b1-a43a-abb3b5d617e4",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Functional (defect) yield follows Y = exp(-A * D), with A the die area and D the defect density. An 8 cm^2 reticle-scale photonic processor at D = 0.3 per cm^2 yields only about 9%. What architectural response does this motivate?",
+  "choices": ["Increasing the die area to average out defects", "Chiplets and redundant/reroutable meshes, rather than betting on one large defect-free die", "Switching from silicon to III-V substrates", "Running more MPW shuttles to sample lot-to-lot variation"],
+  "answer": 1,
+  "explanation": "Yield collapses exponentially with area (exp(-0.3*8) is about 9%), so large monolithic photonic processors are impractical, motivating chiplets and reroutable/redundant meshes. Choice 0 makes yield worse; choice 2 does not address defect density (III-V has its own defects); choice 3 concerns parametric statistics across lots, not functional defect yield of one die.",
+  "tags": ["yield", "defect-density", "chiplets"],
+  "difficulty": "advanced",
+  "generated": true
+}

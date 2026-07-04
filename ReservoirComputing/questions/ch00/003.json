@@ -1,0 +1,20 @@
+{
+  "question_id": "192e9345-adc3-44d0-aedf-cb23eb5bbaba",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "For linear reservoirs the effective memory time grows roughly as 1/(1-rho), so it increases sharply as the spectral radius rho approaches 1.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Both the README and the lab print a theoretical memory time of 1/(1-rho), which diverges as rho -> 1, meaning larger rho gives longer memory. The statement is therefore true.",
+  "tags": [
+    "spectral-radius",
+    "memory-scaling",
+    "linear-reservoir"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

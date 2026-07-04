@@ -1,0 +1,19 @@
+{
+  "question_id": "93de3d73-7f84-4dea-a05f-3e84347defc6",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "blank",
+  "text": "Harry Frankfurt calls a being that has only first-order desires, with no reflective higher-order volitions about which desires should move it, a ___.",
+  "choices": [
+    "wanton"
+  ],
+  "answer": "wanton",
+  "explanation": "The answer is wanton. A wanton acts on whatever first-order desire is strongest without caring which desire constitutes its will; for Frankfurt the capacity for higher-order volitions is what distinguishes persons from wantons and grounds free will.",
+  "tags": [
+    "frankfurt",
+    "wanton",
+    "free-will"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "cdb00e7a-431a-40d2-ad6f-ee36a6c00f58",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Because electromagnetic waves are transverse, the electric field of a plane wave oscillates parallel to the direction of propagation.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False: transverse means the field oscillates perpendicular to the propagation direction, since Gauss's law in free space requires k·E₀ = 0. It is precisely this transversality that makes polarization a usable degree of freedom in photonics.",
+  "tags": ["transversality", "polarization", "plane-waves"],
+  "difficulty": "intermediate",
+  "generated": true
+}

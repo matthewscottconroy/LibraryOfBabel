@@ -1,0 +1,21 @@
+{
+  "question_id": "5ab048a9-83b9-494a-ada2-a546a5d7a437",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "An operator T is diagonalizable if and only if its minimal polynomial m_T:",
+  "choices": [
+    "splits into distinct linear factors over F",
+    "equals the characteristic polynomial",
+    "is irreducible over F",
+    "has degree equal to dim V"
+  ],
+  "answer": 0,
+  "explanation": "Diagonalizability is equivalent to m_T having no repeated roots (and all roots in F): each Jordan block of size k forces a factor (λ − λ₀)ᵏ in m_T. Note m_T = p_T instead characterizes cyclic operators — a single companion block.",
+  "tags": [
+    "minimal-polynomial",
+    "diagonalization"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

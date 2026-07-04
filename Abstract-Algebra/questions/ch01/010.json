@@ -1,0 +1,20 @@
+{
+  "question_id": "65b74ff4-b217-4c61-87af-6c5c661a4613",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Zorn's lemma: if every ___ in a non-empty partially ordered set P has an upper bound in P, then P contains a maximal element.",
+  "choices": [
+    "chain",
+    "totally ordered subset"
+  ],
+  "answer": "chain",
+  "explanation": "A chain is a totally ordered subset. Verifying the chain condition — usually by taking unions — is the crux of every Zorn argument, from bases of vector spaces to maximal ideals and algebraic closures.",
+  "tags": [
+    "zorn",
+    "order",
+    "axiom-of-choice"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

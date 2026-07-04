@@ -1,0 +1,21 @@
+{
+  "question_id": "bc77b67a-b04c-4a0a-b63b-5854a22d3cc0",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In AGM belief revision theory, the ___ identity defines revision in terms of the other two operations: to revise a belief set K by E, first contract by not-E and then expand by E.",
+  "choices": [
+    "Levi"
+  ],
+  "answer": "Levi",
+  "explanation": "The Levi identity defines revision as contraction followed by expansion: K*E = (K ÷ ¬E) + E. One first gives up ¬E (and whatever else forces it) to restore consistency with E, then adds E. AGM's three operations are expansion, contraction, and revision; the Levi identity reduces revision to the other two, while its converse, the Harper identity, recovers contraction from revision.",
+  "tags": [
+    "agm",
+    "levi identity",
+    "belief revision",
+    "contraction",
+    "expansion"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

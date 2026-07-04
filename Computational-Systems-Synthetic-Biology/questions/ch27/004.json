@@ -1,0 +1,23 @@
+{
+  "chapter": 27,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which pair of findings established and then experimentally validated flux balance analysis (FBA) as a predictive tool for bacterial metabolism?",
+  "choices": [
+    "Karr et al. (2012) built a whole-cell model; Jumper et al. (2021) validated it with AlphaFold",
+    "Smith & Waterman (1981) introduced local alignment; Altschul et al. (1990) implemented BLAST",
+    "Goldbeter & Koshland (1981) derived ultrasensitivity; Ferrell & Machleder (1998) confirmed it experimentally",
+    "Varma & Palsson (1994) showed FBA quantitatively predicts E. coli growth; Ibarra, Edwards & Palsson (2002) showed adaptive laboratory evolution drives E. coli toward the FBA-predicted optimal growth rate"
+  ],
+  "answer": 3,
+  "explanation": "Varma & Palsson (1994) first showed that stoichiometric flux balance models could quantitatively predict E. coli growth and by-product secretion, establishing constraint-based modeling; Ibarra, Edwards & Palsson (2002) then showed that E. coli evolved via adaptive laboratory evolution toward the growth rate FBA had predicted to be optimal, experimentally validating the approach. The other pairings each combine two real papers, but not ones that establish and validate FBA -- they instead concern whole-cell modeling and AlphaFold, sequence alignment, and ultrasensitivity/bistability, respectively.",
+  "tags": [
+    "flux-balance-analysis",
+    "palsson",
+    "varma-palsson",
+    "adaptive-laboratory-evolution"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "fc61a712-d109-4c4d-bd2e-d04a9127216d"
+}

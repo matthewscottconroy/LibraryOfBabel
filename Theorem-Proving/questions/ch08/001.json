@@ -1,0 +1,22 @@
+{
+  "question_id": "8d4331b9-6fd0-4f2e-92df-a2119a38bde0",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In model theory, what does a first-order structure (model) M for a language L consist of?",
+  "choices": [
+    "A set of axioms together with all their logical consequences",
+    "A non-empty domain together with interpretations of every constant, function, and relation symbol of L",
+    "A deductive system of inference rules for deriving theorems",
+    "A countable collection of sentences closed under provability"
+  ],
+  "answer": 1,
+  "explanation": "A structure is a non-empty domain |M| plus an interpretation of each constant (an element), each n-ary function symbol (a function on the domain), and each n-ary relation symbol (a relation on the domain). Options A and D describe a theory (a set of sentences), not a structure; option C describes a proof system, which is syntactic rather than semantic.",
+  "tags": [
+    "first-order-structures",
+    "model",
+    "semantics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

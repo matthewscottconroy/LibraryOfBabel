@@ -1,0 +1,18 @@
+{
+  "question_id": "2a560627-4719-4b1d-be6d-386abb38ac2d",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Bird's dispositional essentialism and the DTA account both reject Humeanism but differ sharply on the modal status of laws. Which statement captures the difference?",
+  "choices": [
+    "Both hold that laws are metaphysically necessary, disagreeing only about whether they are known a priori or a posteriori.",
+    "For DTA the laws are metaphysically necessary, whereas for dispositional essentialism they are merely contingent regularities.",
+    "Both hold that laws are contingent, locating the contingency in the Humean mosaic rather than in any necessitation relation.",
+    "For dispositional essentialism the laws are metaphysically necessary given which properties exist, whereas for DTA the necessitation relation N is contingent, so the same universals could have obeyed different laws."
+  ],
+  "answer": 3,
+  "explanation": "For Bird a property just is its dispositional profile, so the laws follow necessarily from what the properties are; for DTA, N(F,G) is an extra contingent relation, so the very same universals could have stood in different necessitation relations and obeyed different laws. Option 1 exactly reverses the two positions, and option 0 misses that DTA treats laws as contingent, not necessary.",
+  "tags": ["laws-of-nature", "dispositional-essentialism", "bird", "dta"],
+  "difficulty": "advanced",
+  "generated": true
+}

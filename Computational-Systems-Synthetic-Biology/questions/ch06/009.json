@@ -1,0 +1,19 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The pseudo-alignment tool ___ uses k-mer equivalence classes and provides extremely fast transcript-level RNA-seq quantification without producing a BAM file.",
+  "choices": [
+    "kallisto"
+  ],
+  "answer": "kallisto",
+  "explanation": "kallisto uses k-mer equivalence classes to rapidly assign reads to transcripts without full alignment, making it much faster than BAM-based counting tools like featureCounts. Salmon is a similar pseudo-alignment tool but uses a different probabilistic model rather than k-mer equivalence classes.",
+  "tags": [
+    "rna-seq",
+    "pseudo-alignment",
+    "kallisto"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "e92d9838-c1b9-4c09-afaf-7cfafbcf4dd4"
+}

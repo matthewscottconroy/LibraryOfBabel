@@ -1,0 +1,23 @@
+{
+  "question_id": "1d02850d-b8d9-495d-b90c-048aa4663c17",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Animalism, defended by Eric Olson and Peter van Inwagen, holds that:",
+  "choices": [
+    "we are fundamentally human organisms, so our identity over time is the biological continuity of the same animal",
+    "we are bundles of perceptions with no underlying subject",
+    "we persist just in case our psychology is continuous, wherever it is realised",
+    "the self is a narrative construction that organises a life into a story"
+  ],
+  "answer": 0,
+  "explanation": "For the animalist you ARE the organism; you persist as long as that animal's life continues, even through severe psychological loss. Option 1 is Hume's bundle theory; option 2 is the psychological-continuity view animalism opposes; option 3 is the narrative account.",
+  "tags": [
+    "animalism",
+    "olson",
+    "biological-continuity",
+    "organism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

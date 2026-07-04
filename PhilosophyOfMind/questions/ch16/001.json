@@ -1,0 +1,22 @@
+{
+  "question_id": "ccae2de4-41c8-41fa-821a-26943ca5ea5b",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Thomas Nagel's \"What Is It Like to Be a Bat?\" (1974) is standardly taken to argue what about consciousness?",
+  "choices": [
+    "That bats lack genuine experience because echolocation is merely a sensory reflex",
+    "That the subjective character of experience cannot be captured by any objective, third-person physical description",
+    "That we can fully know a bat's experience by studying its neurophysiology in enough detail",
+    "That consciousness is identical to a functional role realizable in any species whatever"
+  ],
+  "answer": 1,
+  "explanation": "Nagel holds that there is 'something it is like' to be a bat whose subjective character escapes objective physical description; the point is the reality plus the epistemic inaccessibility of experience. He does not deny that bats have experience, does not claim neuroscience captures it, and is not defending functionalism.",
+  "tags": [
+    "nagel",
+    "subjectivity",
+    "phenomenal-consciousness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

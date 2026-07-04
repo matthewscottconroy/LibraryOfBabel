@@ -1,0 +1,21 @@
+{
+  "question_id": "3c5bd9c1-fe1b-4826-b568-ef411290f8e8",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "blank",
+  "text": "In the lab's trot gait the two diagonal leg pairs alternate: FL and RR move in phase, while the FR+RL diagonal is driven in ___ (a half-cycle, pi, out of phase) with them.",
+  "choices": [
+    "antiphase",
+    "anti-phase",
+    "antiphase (pi out of phase)"
+  ],
+  "answer": "antiphase",
+  "explanation": "In a trot the diagonal pairs alternate. The lab codes fr_hip = sin(omega*t + pi) and rl_hip = sin(omega*t + pi), a phase offset of pi (half a cycle) relative to fl_hip and rr_hip = sin(omega*t), i.e. antiphase. This produces the alternating-diagonal foot-contact pattern.",
+  "tags": [
+    "trot",
+    "phase",
+    "gait"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

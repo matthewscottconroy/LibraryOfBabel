@@ -1,0 +1,20 @@
+{
+  "question_id": "f0494deb-8ab7-41d8-a7f6-0439c1cb13e7",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "On a region that is not simply connected, a vector field with zero curl must still be conservative.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Simple connectivity is precisely the topological hypothesis that lets curl-free imply conservative. The standard counterexample is F = (-y, x)/(x^2 + y^2) on the punctured plane: its curl is zero, yet the loop integral around the origin is 2*pi, not zero.",
+  "tags": [
+    "simply-connected",
+    "conservative-fields",
+    "curl"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

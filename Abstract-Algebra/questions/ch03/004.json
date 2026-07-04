@@ -1,0 +1,21 @@
+{
+  "question_id": "8a2d2af5-b6d2-41a7-86be-ee506dd6f619",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The matrix product formula (AB)ᵢⱼ = Σₖ AᵢₖBₖⱼ is designed precisely so that:",
+  "choices": [
+    "the matrix of a composition of linear maps is the product of their matrices",
+    "det(AB) = det(A)det(B)",
+    "matrix multiplication becomes commutative",
+    "(AB)ᵀ = AᵀBᵀ"
+  ],
+  "answer": 0,
+  "explanation": "With bases chosen, [T ∘ S] = [T]·[S]; chasing where basis vectors go forces exactly the row-by-column formula. Multiplicativity of det is a consequence, not the motivation, multiplication is not commutative, and transposition reverses order: (AB)ᵀ = BᵀAᵀ.",
+  "tags": [
+    "matrices",
+    "composition"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

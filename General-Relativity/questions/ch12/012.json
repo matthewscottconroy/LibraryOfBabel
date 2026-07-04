@@ -1,0 +1,21 @@
+{
+  "question_id": "f6ad7bd6-765b-4d44-af9c-f6dc5fc68631",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the book's Newman-Penrose null tetrad (ℓ, n, m, m̄), all four basis vectors are null. The only nonvanishing inner products among them are:",
+  "choices": [
+    "ℓ·n = −1 and m·m̄ = +1 (all others zero)",
+    "ℓ·n = +1 and m·m̄ = −1 (all others zero)",
+    "ℓ·ℓ = −1 and n·n = +1 (all others zero)",
+    "ℓ·m = −1 and n·m̄ = +1 (all others zero)"
+  ],
+  "answer": 0,
+  "explanation": "The book gives ℓ·ℓ = n·n = m·m = m̄·m̄ = 0, with the only nonzero cross-normalizations ℓ·n = −1 and m·m̄ = +1, yielding g^{μν} = −ℓ^μ n^ν − n^μ ℓ^ν + m^μ m̄^ν + m̄^μ m^ν. Reversing those signs, or claiming ℓ or n are non-null, or pairing ℓ with m, all contradict the tetrad conditions.",
+  "tags": [
+    "newman-penrose",
+    "null-tetrad"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

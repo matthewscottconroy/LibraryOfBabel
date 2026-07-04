@@ -1,0 +1,18 @@
+{
+  "question_id": "d424d733-b85f-4e74-93c1-1106278d3eac",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "For a massive particle the book defines the 4-velocity u^μ = dx^μ/dτ = γ(c, v). What is its norm u_μ u^μ = η_μν u^μ u^ν?",
+  "choices": [
+    "0, because the 4-velocity is null",
+    "−c², a constant, so u^μ is always timelike",
+    "+c², a constant, so u^μ is always spacelike",
+    "γ²c², which depends on the particle's speed"
+  ],
+  "answer": 1,
+  "explanation": "Computing η_μν u^μ u^ν = γ²(−c² + v²) = −c² in the (−,+,+,+) convention; the norm is the constant −c², so the 4-velocity is always timelike and future-pointing. Choice 0 confuses it with a photon's null tangent vector k^μ (k_μk^μ = 0), for which no 4-velocity is defined. The magnitude does not depend on the particle's speed.",
+  "tags": ["four-velocity", "norm", "timelike"],
+  "difficulty": "intermediate",
+  "generated": true
+}

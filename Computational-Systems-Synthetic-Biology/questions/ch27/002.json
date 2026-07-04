@@ -1,0 +1,23 @@
+{
+  "chapter": 27,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The first synthetic bistable genetic switch (the 'genetic toggle switch') in E. coli, demonstrating engineered cellular memory, was published by which group?",
+  "choices": [
+    "Gardner, Cantor & Collins (2000, Nature)",
+    "Ferrell & Machleder (1998, Science)",
+    "Danino et al. (2010, Nature)",
+    "Nielsen et al. (2016, Science)"
+  ],
+  "answer": 0,
+  "explanation": "Gardner, Cantor & Collins (2000) built the first synthetic genetic toggle switch, a bistable circuit able to switch between two stable states -- a demonstration of engineered cellular memory. It appeared in the same Nature issue as Elowitz & Leibler's repressilator paper. Ferrell & Machleder (1998) demonstrated natural (not synthetic) bistability in Xenopus oocyte cell-fate switching; Danino et al. (2010) built synchronized genetic clocks via quorum sensing; and Nielsen et al. (2016) introduced automated circuit design (CELLO), not the toggle switch.",
+  "tags": [
+    "toggle-switch",
+    "gardner-collins",
+    "bistability",
+    "synthetic-biology"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "6e6bb78f-d541-490b-ab4e-f36f6a5ee224"
+}

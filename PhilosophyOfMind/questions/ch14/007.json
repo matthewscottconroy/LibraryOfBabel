@@ -1,0 +1,20 @@
+{
+  "question_id": "7ddf5ac2-c621-4113-b545-6a81865a2290",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Heidegger's 'being-in-the-world' means that Dasein is fundamentally a detached subject that must build a bridge to an external world.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. 'Being-in-the-world' is deliberately anti-Cartesian: Dasein is always already engaged in a meaningful world, so there is no prior world-less subject that must reach out to make contact with an external world.",
+  "tags": [
+    "being-in-the-world",
+    "heidegger",
+    "anti-cartesian"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "39e397ca-c77c-4c2a-8455-e8526cd2e314",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The unique solution of dx/dt = Ax with x(0) = x0 is x(t) = ___ x0, the matrix exponential acting on the initial state.",
+  "choices": [
+    "e^{tA}",
+    "exp(tA)",
+    "e^{At}"
+  ],
+  "answer": "e^{tA}",
+  "explanation": "The matrix exponential e^{tA} = sum (tA)^n/n! solves the linear system exactly, and its behaviour is governed by the Jordan form of A.",
+  "tags": [
+    "matrix-exponential",
+    "linear-systems"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

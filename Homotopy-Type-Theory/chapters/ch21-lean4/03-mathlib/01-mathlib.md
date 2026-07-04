@@ -303,4 +303,23 @@ example : Nat.Prime 17 := by decide
 
 **6. The Mathlib Zulip.** The Mathlib community on Zulip (leanprover.zulipchat.com) is active and helpful. If you can't find a theorem, ask there — the answer is usually either "it's called X" or "it doesn't exist yet, want to contribute it?"
 
+## Contributing to Mathlib
+
+Once you can find your way around the library, contributing back is the natural next step.
+
+**The contribution process:**
+
+1. Find a theorem that Mathlib is missing (use `exact?` — if it can't find it, it might not exist)
+2. Open an issue or check existing issues on GitHub
+3. Write the theorem and proof, following Mathlib's style guide
+4. Submit a pull request and address reviewer feedback
+
+**Style guide highlights:**
+
+- Name theorems following the convention: `Namespace.adjective_noun_property`
+- Use `simp` lemmas with the `@[simp]` attribute for standard simplifications
+- Write docstrings for all public declarations
+- Use the `gcongr` tactic for congruence goals
+- Prefer `rintro`, `obtain`, `rcases` over manual destructions
+
 Mathlib is the single most powerful tool for formalizing classical mathematics. For our HoTT curriculum, it provides the algebraic, topological, and categorical background that HoTT rests on — and it does so with the full precision of machine-checked proofs.

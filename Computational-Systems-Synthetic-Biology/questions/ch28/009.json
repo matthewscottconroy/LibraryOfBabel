@@ -1,0 +1,19 @@
+{
+  "chapter": 28,
+  "phase": 5,
+  "kind": "blank",
+  "text": "bioRxiv is the platform where most biology ___ appear, often 6-18 months before formal peer-reviewed publication.",
+  "choices": [
+    "preprints"
+  ],
+  "answer": "preprints",
+  "explanation": "bioRxiv hosts preprints -- manuscripts posted before or independent of peer review -- and biology preprints often appear there 6-18 months ahead of the peer-reviewed version, though they should be read critically since conclusions may still change during review.",
+  "tags": [
+    "preprints",
+    "biorxiv",
+    "literature"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "8e002bb6-6b20-43c4-9130-82cd79141e63"
+}

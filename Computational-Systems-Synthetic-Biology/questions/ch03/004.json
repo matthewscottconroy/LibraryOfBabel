@@ -1,0 +1,22 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Burrows-Wheeler transform, which enables fast and memory-efficient short-read alignment, is the algorithmic basis of which widely used aligners?",
+  "choices": [
+    "BLAST and DIAMOND",
+    "BWA and bowtie2",
+    "GATK and Picard",
+    "Needleman-Wunsch and Smith-Waterman implementations generically"
+  ],
+  "answer": 1,
+  "explanation": "The chapter states directly that the Burrows-Wheeler transform is the basis of BWA and bowtie2 alignment, which use it (via the FM-index) for compressed, fast substring search against a reference genome. BLAST/DIAMOND instead rely on seed-and-extend heuristics with different indexing schemes, and GATK/Picard are variant-calling and BAM-processing toolkits rather than BWT-based aligners; Needleman-Wunsch/Smith-Waterman are dynamic-programming alignment algorithms, not transform-based indexing methods.",
+  "tags": [
+    "burrows-wheeler-transform",
+    "sequence-alignment",
+    "bioinformatics-tools"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "3e057700-fb49-4d84-b8d8-31a018347d62"
+}

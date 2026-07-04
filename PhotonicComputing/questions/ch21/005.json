@@ -1,0 +1,13 @@
+{
+  "question_id": "e044f9bf-009a-4aae-aa30-f358dd75da8e",
+  "chapter": 21,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Measurement-device-independent QKD (MDI-QKD) removes all detector side-channel attacks such as detector blinding. How is its architecture arranged?",
+  "choices": ["Alice keeps all detectors in a shielded vault that Eve cannot physically access", "Detectors are replaced entirely by homodyne receivers that are immune to blinding", "Alice and Bob are both transmitters, sending weak decoy-state pulses to an untrusted relay that performs a Bell-state measurement and publicly announces the outcome", "Each photon is measured twice and the two results are compared to detect tampering"],
+  "answer": 2,
+  "explanation": "MDI-QKD makes both parties transmitters and hands all detection to an untrusted middle relay performing a Bell-state measurement; the relay learns nothing about the key even if Eve owns it, removing every detector side channel (it reached 404 km in fiber). Choice 0 (shielding) does not address the protocol; choice 1 describes CV-QKD; choice 3 would require copying a photon, which no-cloning forbids.",
+  "tags": ["mdi-qkd", "detector-attacks", "bell-measurement"],
+  "difficulty": "advanced",
+  "generated": true
+}

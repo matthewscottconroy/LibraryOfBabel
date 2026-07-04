@@ -1,0 +1,20 @@
+{
+  "question_id": "066f435f-2be1-4978-a7bb-41174502e225",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "tf",
+  "text": "For Heidegger, the present-at-hand (theoretical, object-directed) mode of encountering things is derivative, emerging when smooth ready-to-hand engagement breaks down.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Heidegger holds that the present-at-hand mode is derivative, arising when absorbed ready-to-hand coping is disrupted (the tool breaks or goes missing); the detached, contemplative subject confronting objects is a secondary rather than fundamental mode.",
+  "tags": [
+    "present-at-hand",
+    "heidegger",
+    "ready-to-hand"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

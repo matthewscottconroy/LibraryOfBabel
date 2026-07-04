@@ -1,0 +1,18 @@
+{
+  "question_id": "11f60708-50c1-4123-acdf-227982516d85",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "On Hume's reductionism about testimony, a hearer's justification for believing what a speaker asserts:",
+  "choices": [
+    "is a basic entitlement that holds by default unless specific defeaters are present",
+    "reduces to the hearer's own experience-based inductive evidence that testimony is generally reliable",
+    "derives from the speaker's a priori entitlement to be understood when sincerely asserting content",
+    "cannot be had at all, since testimony transmits belief but never justification"
+  ],
+  "answer": 1,
+  "explanation": "Humean (global) reductionism treats testimonial justification as derived: we observe a correlation between testimony and fact and rely on it inductively, so testimony's credit reduces to perception-and-memory-based induction, and thereby inherits the problem of induction. Option 0 is Reidian anti-reductionism (default trust with the burden on distrust); option 2 is Burge's a priori entitlement, a different anti-reductionist route; option 3 is a skeptical thesis Hume does not hold. Only option 1 captures reductionism.",
+  "tags": ["testimony", "reductionism", "hume", "induction"],
+  "difficulty": "intermediate",
+  "generated": true
+}

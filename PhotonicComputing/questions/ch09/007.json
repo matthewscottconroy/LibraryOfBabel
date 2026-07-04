@@ -1,0 +1,13 @@
+{
+  "question_id": "b0c8a7f5-328e-491a-a212-03b539d73a9a",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Because of the skin effect, a copper trace's loss rises with frequency (R proportional to sqrt(f)), whereas optical fiber loss is essentially independent of the modulation frequency.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. The skin effect makes conductor resistance grow as sqrt(f), so copper reaches ~40 dB/m by 100 GHz and needs equalization or repeaters, while fiber attenuation is flat across the whole modulation band. This frequency-independence is a key optical advantage.",
+  "tags": ["skin-effect", "electrical-interconnect", "bandwidth"],
+  "difficulty": "beginner",
+  "generated": true
+}

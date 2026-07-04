@@ -1,0 +1,20 @@
+{
+  "question_id": "e26365b2-1980-46fb-af0b-120ddb74288c",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Anscombe holds that an agent's knowledge of what she is intentionally doing is 'practical' and ___ : I know I am raising my arm not by observing it but by doing it.",
+  "choices": [
+    "non-observational",
+    "nonobservational"
+  ],
+  "answer": "non-observational",
+  "explanation": "For Anscombe, the agent's knowledge of what she is intentionally doing is practical and non-observational: I know I am raising my arm not by watching it happen but by doing it. The expected phrase is 'non-observational'.",
+  "tags": [
+    "practical-knowledge",
+    "anscombe",
+    "non-observational"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

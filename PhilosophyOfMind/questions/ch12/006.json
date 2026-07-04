@@ -1,0 +1,22 @@
+{
+  "question_id": "adc21d08-20f2-411e-bed3-3f275672f8df",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "William James's 'specious present' (1890) is best described as:",
+  "choices": [
+    "The instantaneous, knife-edge physical 'now'",
+    "The voluntary recollection of a recently past event",
+    "A brief experienced duration — a 'saddle-back' — given as a single present",
+    "The objective time studied by physics and history"
+  ],
+  "answer": 2,
+  "explanation": "James's specious present is a brief experienced duration (a 'saddle-back' of a few seconds) that spans the just-past and just-arriving yet is given as one unified 'now.' It is perceptual rather than voluntary recollection, and it is explicitly distinguished from the instantaneous objective/physical present.",
+  "tags": [
+    "specious-present",
+    "james",
+    "temporal-experience"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

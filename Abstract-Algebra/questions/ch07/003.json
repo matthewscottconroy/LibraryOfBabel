@@ -1,0 +1,21 @@
+{
+  "question_id": "1cfa51d6-d4dd-42dd-b639-8229a9d637ac",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The universal property of the tensor product states that bilinear maps V × W → U correspond exactly to:",
+  "choices": [
+    "linear maps V ⊗ W → U",
+    "bilinear maps V ⊗ W → U",
+    "linear maps V × W → U",
+    "linear maps U → V ⊗ W"
+  ],
+  "answer": 0,
+  "explanation": "Every bilinear B: V × W → U factors uniquely as B(v,w) = B̃(v ⊗ w) with B̃ linear on V ⊗ W. The tensor product converts bilinearity into linearity, and this property determines V ⊗ W up to unique isomorphism.",
+  "tags": [
+    "tensor-products",
+    "universal-property"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

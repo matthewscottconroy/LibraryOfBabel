@@ -1,0 +1,21 @@
+{
+  "question_id": "4dad0c1d-57e8-4cf3-9c2a-f3c36d6ba6a7",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Mutual information can be written as:",
+  "choices": [
+    "H(X) + H(Y)",
+    "H(X,Y)",
+    "H(X) - H(X|Y)",
+    "H(X|Y)"
+  ],
+  "answer": 2,
+  "explanation": "I(X;Y) = H(X) - H(X|Y) = H(X) + H(Y) - H(X,Y): the reduction in uncertainty about X from knowing Y. The joint or conditional entropies alone are not the mutual information.",
+  "tags": [
+    "mutual-information",
+    "conditional-entropy"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

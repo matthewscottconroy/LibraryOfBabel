@@ -1,0 +1,22 @@
+{
+  "question_id": "aad0dd05-a219-4cb8-8648-f77e96bdb44f",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In NVAR, which part is actually trained from data?",
+  "choices": [
+    "Only the linear readout weights W_out, via ridge regression (the feature map is fixed and deterministic)",
+    "The delay embedding and the readout, jointly by gradient descent",
+    "The recurrent reservoir weights, via backpropagation through time",
+    "Every polynomial coefficient is set by hand, with no data-driven fitting"
+  ],
+  "answer": 0,
+  "explanation": "Exactly as for an ESN, only the linear readout W_out is trained — here by ridge regression on the explicit polynomial features. The feature map itself is fixed and deterministic (no learning). There is no reservoir to backpropagate through (option 2), the delays/degree are hyperparameters not gradient-trained (option 1), and the coefficients ARE fit to data by ridge, not hand-set (option 3).",
+  "tags": [
+    "nvar",
+    "training",
+    "ridge"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

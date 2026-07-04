@@ -1,0 +1,19 @@
+{
+  "question_id": "d9c37d37-d1e5-440c-9df3-6fd7d35cd3f4",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Levine's name for the phenomenon that a physical account of a mental state leaves unexplained why it feels the way it does, unlike the intelligible reduction of water to H2O, is the ___ gap.",
+  "choices": [
+    "explanatory"
+  ],
+  "answer": "explanatory",
+  "explanation": "Levine (1983) called this the explanatory gap: 'water is H2O' renders water's behaviour intelligible, but 'pain is C-fibre firing' does not let us see why that state should feel painful. Levine took the gap to be epistemic and resisted Chalmers's stronger conclusion that qualia are therefore non-physical.",
+  "tags": [
+    "explanatory-gap",
+    "levine",
+    "consciousness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

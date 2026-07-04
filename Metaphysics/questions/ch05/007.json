@@ -1,0 +1,18 @@
+{
+  "question_id": "afa3b4e1-e93a-4ecd-a12e-135c156c3b71",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why is special relativity widely thought to threaten presentism?",
+  "choices": [
+    "Because it entails that only the present moment exists, which presentists deny.",
+    "Because time dilation proves that clocks in motion objectively run fast rather than slow.",
+    "Because the relativity of simultaneity denies any objectively privileged, frame-independent present, whereas presentism requires a unique objective present.",
+    "Because it shows directly that past and future events do not exist."
+  ],
+  "answer": 2,
+  "explanation": "Special relativity makes simultaneity frame-relative with no physically privileged frame, so there is no unique objective 'now,' yet presentism holds that exactly one present moment is real, generating the conflict. Option 3 states a presentist-friendly conclusion (and is not what SR shows), while option 0 misdescribes SR; standard presentist replies posit a hidden privileged frame (neo-Lorentzian) or make the present frame-relative.",
+  "tags": ["time", "special-relativity", "presentism", "simultaneity"],
+  "difficulty": "intermediate",
+  "generated": true
+}

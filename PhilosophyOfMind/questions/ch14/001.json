@@ -1,0 +1,22 @@
+{
+  "question_id": "a9ba6c22-04e4-4386-a528-fb2506bab690",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Husserl's epoché (the phenomenological reduction) consists in:",
+  "choices": [
+    "Denying that the external world exists (metaphysical idealism)",
+    "Bracketing or suspending the natural attitude's assumption of the world's independent existence",
+    "Reducing psychology to neuroscience",
+    "Inferring the existence of other minds by analogy"
+  ],
+  "answer": 1,
+  "explanation": "The epoché brackets or suspends the natural attitude's tacit commitment to the world's independent existence so that we can describe how things appear to consciousness. It is explicitly not a denial that the world exists (Husserl is not thereby an idealist), not a reduction to neuroscience, and not an inference to other minds.",
+  "tags": [
+    "epoche",
+    "phenomenological-reduction",
+    "husserl"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

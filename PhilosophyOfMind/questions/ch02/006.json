@@ -1,0 +1,23 @@
+{
+  "question_id": "6a71d434-7642-4817-932f-57047ac09b1e",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Thomas Nagel's 'What Is It Like to Be a Bat?' (1974) argues that:",
+  "choices": [
+    "The subjective character of experience — what it is like for the organism — cannot be captured by objective, third-person physical description",
+    "Bats lack consciousness because they navigate by echolocation",
+    "Bats have exactly the same experiences that humans do",
+    "A complete neuroscience of the bat's brain would fully capture what it is like to be a bat"
+  ],
+  "answer": 0,
+  "explanation": "Nagel's claim is that an organism is conscious if there is 'something it is like' to be it, and that this subjective point of view eludes objective, third-person methods which abstract away from any particular perspective. Option 1 misreads him (echolocation is his example of an alien phenomenology, not evidence of its absence); options 2 and 3 contradict his central thesis.",
+  "tags": [
+    "nagel",
+    "what-is-it-like",
+    "subjectivity",
+    "bat"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "b8cf0628-bb9b-4999-a707-088b7034c073",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The reservoir-size section describes 'diminishing returns' with N. Which statement best captures the cost-performance tradeoff it gives?",
+  "choices": [
+    "Doubling N halves the training cost, so always use the largest N possible",
+    "Performance keeps improving linearly forever, with no plateau",
+    "Larger N always overfits, so the smallest reservoir is optimal",
+    "Beyond N≈100–500 gains are small while the readout cost grows as N³, favoring moderate N"
+  ],
+  "answer": 3,
+  "explanation": "Section 8.5: capacity is bounded by N and doubling N roughly doubles it, but practical gains plateau by N≈100–500 while the O(N³) ridge solve makes doubling N cost ~8×. Going N=100→1000 costs ~1000× for <10% gain, so moderate N is favored.",
+  "tags": [
+    "hyperparameters",
+    "reservoir-size",
+    "cost"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

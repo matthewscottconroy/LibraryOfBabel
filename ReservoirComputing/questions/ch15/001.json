@@ -1,0 +1,22 @@
+{
+  "question_id": "dffe273d-f905-4c5f-a596-a8297995546c",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The lab builds its training data from the classic chaotic Lorenz system via lorenz_rk4. Which set of parameter values (sigma, rho, beta) puts the system on its canonical strange attractor?",
+  "choices": [
+    "sigma = 28, rho = 10, beta = 8/3",
+    "sigma = 1, rho = 1, beta = 1",
+    "sigma = 10, rho = 28, beta = 8/3",
+    "sigma = 10, rho = 8/3, beta = 28"
+  ],
+  "answer": 2,
+  "explanation": "The canonical chaotic Lorenz parameters are sigma=10, rho=28, beta=8/3 (the defaults in lorenz_rk4 and the values stated in the book). Option 0 swaps sigma and rho; option 3 mislabels rho and beta; option 1 (all ones) is not chaotic because rho is far below the onset of chaos. At the canonical values the attractor has fractal dimension ~2.05 and lambda_max ~0.906.",
+  "tags": [
+    "lorenz",
+    "parameters",
+    "chaos"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

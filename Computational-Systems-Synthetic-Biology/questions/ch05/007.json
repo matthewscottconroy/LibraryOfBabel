@@ -1,0 +1,20 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "GATK's HaplotypeCaller performs local de novo assembly around candidate variant regions and genotypes using a PairHMM probabilistic likelihood model.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. HaplotypeCaller reassembles the local region around candidate variants into candidate haplotypes and then computes genotype likelihoods using a PairHMM model of the probability of observing the reads given each candidate genotype, and it outputs a GVCF for later joint genotyping.",
+  "tags": [
+    "variant-calling",
+    "gatk",
+    "haplotypecaller"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "27f27a88-48a5-4e93-947a-43a013750c61"
+}

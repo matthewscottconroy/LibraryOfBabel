@@ -1,0 +1,13 @@
+{
+  "question_id": "c11d75f7-d50a-4af0-ae59-d10ac301bca5",
+  "chapter": 18,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Every leading single-photon source relies on the strong-coupling (vacuum Rabi) regime of cavity QED, while the Purcell effect is used only for gates.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False, the roles are reversed. The book states 'Purcell is for sources, strong coupling is for gates': leading single-photon sources are weak-coupling Purcell devices, whereas strong coupling and photon blockade enable deterministic photon-photon gates.",
+  "tags": ["purcell-effect", "strong-coupling", "cavity-qed"],
+  "difficulty": "intermediate",
+  "generated": true
+}

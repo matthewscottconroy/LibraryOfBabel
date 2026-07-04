@@ -1,0 +1,20 @@
+{
+  "question_id": "11f03f0c-77aa-445c-b06c-6d6477e14568",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Eliminative materialists such as the Churchlands argue that ___, our commonsense framework of beliefs, desires, and other propositional attitudes, is a radically false theory that a mature neuroscience will replace, much as chemistry discarded phlogiston.",
+  "choices": [
+    "folk psychology"
+  ],
+  "answer": "folk psychology",
+  "explanation": "Eliminativism treats folk psychology as an empirical theory (the 'theory-theory') whose posits may name nothing real, on a par with phlogiston or caloric. This distinguishes it sharply from the identity theory, which would preserve beliefs and desires by identifying them with brain states rather than eliminating them outright.",
+  "tags": [
+    "eliminative materialism",
+    "folk psychology",
+    "churchland",
+    "physicalism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

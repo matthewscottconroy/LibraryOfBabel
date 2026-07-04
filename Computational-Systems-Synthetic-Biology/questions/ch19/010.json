@@ -1,0 +1,19 @@
+{
+  "chapter": 19,
+  "phase": 3,
+  "kind": "blank",
+  "text": "___ is the structure-guided recombination method that selects crossover points in loops or linkers between structural elements, rather than at points of sequence homology, to preserve protein folding while recombining sequences from parent genes.",
+  "choices": [
+    "SCHEMA"
+  ],
+  "answer": "SCHEMA",
+  "explanation": "SCHEMA uses protein structural information to choose recombination breakpoints that minimize disruptive contacts, placing crossovers in loops and linkers between structural elements; Romero et al. (2013) used this approach to build a SCHEMA-designed cytochrome P450 library. This distinguishes SCHEMA from simple homology-based DNA shuffling, which recombines at points of sequence similarity regardless of the underlying structural context.",
+  "tags": [
+    "schema",
+    "structure-guided-recombination",
+    "protein-engineering"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "6a4df227-2319-499f-969e-95f79597c1a3"
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "c3954644-0dec-4b85-9820-0bbbfa083ae0",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "tf",
+  "text": "According to the chapter, Ramsey, Sidgwick, and Rawls each defended pure time preference, the discounting of future welfare simply because it lies further in the future, as rationally justified.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "This is false. All three condemned pure time preference as indefensible: Ramsey called it 'ethically indefensible' and a product of 'weakness of the imagination,' Sidgwick held that the time at which a person exists cannot affect the value of their happiness, and Rawls held that the discount rate must be zero. Their shared ground is that temporal location, like spatial location, is morally arbitrary.",
+  "tags": ["discounting", "pure-time-preference", "intergenerational-ethics", "ramsey"],
+  "difficulty": "beginner",
+  "generated": true
+}

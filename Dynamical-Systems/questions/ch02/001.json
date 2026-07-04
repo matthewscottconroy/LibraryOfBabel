@@ -1,0 +1,22 @@
+{
+  "question_id": "7cf514bf-954c-4b41-846d-ed8d1480dfef",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In Devaney's definition of chaos, which property is actually a consequence of the other two (topological transitivity plus dense periodic orbits)?",
+  "choices": [
+    "sensitive dependence on initial conditions",
+    "topological transitivity",
+    "dense periodic orbits",
+    "minimality"
+  ],
+  "answer": 0,
+  "explanation": "A theorem (Banks et al.) shows transitivity plus dense periodic points force sensitive dependence, so it is not an independent axiom. Transitivity and dense periodics are the two assumed ingredients; minimality is unrelated.",
+  "tags": [
+    "devaney-chaos",
+    "sensitive-dependence",
+    "topological-dynamics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

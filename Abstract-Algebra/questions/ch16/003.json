@@ -1,0 +1,18 @@
+{
+  "question_id": "336dfad8-6c23-4eee-a887-24dde843e4df",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "When one writes $E_r^{p,q}\\Rightarrow H^{p+q}$, what does the $E_\\infty$ page actually compute about the target $H^n$?",
+  "choices": [
+    "$E_\\infty^{p,q}\\cong H^{p+q}$ on the nose",
+    "$E_\\infty^{p,q}\\cong F^pH^{p+q}/F^{p+1}H^{p+q}$, the associated graded of a filtration",
+    "$H^{p+q}\\cong\\bigoplus_p E_\\infty^{p,q}$ as a direct sum, always",
+    "$E_2^{p,q}\\cong H^{p+q}$"
+  ],
+  "answer": 1,
+  "explanation": "Convergence recovers only the associated graded pieces $E_\\infty^{p,q}\\cong F^pH^{p+q}/F^{p+1}H^{p+q}$, never $H^{p+q}$ 'on the nose', because reassembling those pieces into $H^n$ is a possibly nontrivial extension problem. That same extension problem is exactly why $H^n$ need not split as $\\bigoplus_p E_\\infty^{p,q}$, and $E_2$ is only the input page, generally altered by later differentials.",
+  "tags": ["spectral-sequences", "convergence", "associated-graded"],
+  "difficulty": "advanced",
+  "generated": true
+}

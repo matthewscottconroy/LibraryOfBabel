@@ -1,0 +1,18 @@
+{
+  "question_id": "a3523556-c4d3-465b-852c-2baf9a6f8715",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "blank",
+  "text": "An object whose every part has further proper parts — an atomless object that divides forever — is called ___ (David Lewis's term).",
+  "choices": [
+    "gunk"
+  ],
+  "answer": "gunk",
+  "explanation": "Gunk is Lewis's term for an atomless object, every part of which has proper parts all the way down; the nonempty regular open subsets of ℝ ordered by inclusion form a model. It contrasts with atoms, which have no proper parts at all.",
+  "tags": [
+    "gunk",
+    "atomism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

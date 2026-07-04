@@ -1,0 +1,19 @@
+{
+  "question_id": "3febf44e-55a0-443d-9aac-ac0d744c3578",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The chapter proves that the characteristic of an integral domain is either 0 or ___.",
+  "choices": [
+    "prime"
+  ],
+  "answer": "prime",
+  "explanation": "If char(R) = n = ab with 1 < a,b < n, then (a·1)(b·1) = n·1 = 0 in the domain, forcing a·1 = 0 or b·1 = 0 and contradicting minimality of n; hence the characteristic must be 0 or prime.",
+  "tags": [
+    "characteristic",
+    "integral-domain",
+    "rings"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

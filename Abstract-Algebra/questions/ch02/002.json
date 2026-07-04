@@ -1,0 +1,21 @@
+{
+  "question_id": "97680bf8-c2df-4a40-90e3-136166f894a8",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which subset of ℝ³ is a subspace?",
+  "choices": [
+    "{(x,y,z) : x + y + z = 1}",
+    "{(x,y,z) : x + y + z = 0}",
+    "{(x,y,z) : xy = 0}",
+    "{(x,y,z) : x, y, z ≥ 0}"
+  ],
+  "answer": 1,
+  "explanation": "The plane x + y + z = 0 passes through the origin and is closed under addition and scalar multiplication. The plane x+y+z = 1 misses 0; the set xy = 0 is not closed under addition ((1,0,0)+(0,1,0) = (1,1,0) leaves it); the octant is not closed under multiplication by −1.",
+  "tags": [
+    "vector-spaces",
+    "subspaces"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

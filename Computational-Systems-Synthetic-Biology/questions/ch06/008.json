@@ -1,0 +1,20 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "UMAP distances between clusters in a 2D embedding accurately represent true global distances between cell populations, making UMAP an appropriate standalone quantitative measure of population similarity.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. UMAP is known to distort global distances even though it preserves local neighborhood structure well, so it should be used for visualization only, with quantitative distance comparisons validated using PCA space instead. Treating UMAP embeddings as ground truth for global similarity is a common analysis pitfall.",
+  "tags": [
+    "dimensionality-reduction",
+    "umap",
+    "single-cell-rna-seq"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "1823619b-8c7c-4e40-84ae-1f5361e968f4"
+}

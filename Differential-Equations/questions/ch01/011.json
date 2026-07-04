@@ -1,0 +1,21 @@
+{
+  "question_id": "0f4403bd-a035-4070-b16b-76ca5c72826d",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Implicit Function Theorem guarantees that F(x,y) = 0 defines y as a smooth function of x near a point where F = 0, provided that:",
+  "choices": [
+    "the partial derivative dF/dy is nonzero there",
+    "the partial derivative dF/dx is nonzero there",
+    "F is bounded near the point",
+    "the gradient of F is zero there"
+  ],
+  "answer": 0,
+  "explanation": "Solving for y requires the derivative with respect to the variable being solved for, dF/dy nonzero, which makes the relevant block of the Jacobian invertible. If instead grad F = 0 the theorem gives no conclusion; dF/dx enters only the resulting slope dy/dx = -F_x/F_y, not the solvability.",
+  "tags": [
+    "implicit-function-theorem",
+    "jacobian"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

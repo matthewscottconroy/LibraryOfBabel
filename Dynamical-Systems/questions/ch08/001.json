@@ -1,0 +1,22 @@
+{
+  "question_id": "8ba9f735-928e-471e-bbe0-4a583c5d854f",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Landauer's principle states that erasing one bit of information dissipates at least:",
+  "choices": [
+    "kT",
+    "kT ln 2",
+    "ln 2",
+    "0"
+  ],
+  "answer": 1,
+  "explanation": "Logically irreversible erasure costs at least kT ln 2 of heat per bit, tying Shannon information to thermodynamic entropy. Reversible operations, in principle, cost nothing.",
+  "tags": [
+    "landauer-principle",
+    "thermodynamics",
+    "information"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

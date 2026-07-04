@@ -1,0 +1,18 @@
+{
+  "question_id": "7292c3a4-cafd-4080-8cbe-11766b49e14f",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Optical loss un-squeezes light, with an asymptotic ceiling S_max = -10*log10(1 - eta). Roughly how much total loss caps achievable squeezing at about 13 dB?",
+  "choices": [
+    "About 50% loss",
+    "About 25% loss",
+    "About 5% loss",
+    "Loss has no effect on squeezing"
+  ],
+  "answer": 2,
+  "explanation": "The book states 5% loss caps squeezing at 13 dB (and the 15 dB record required total loss below ~2.5%), because vacuum admitted by loss refills the squeezed quadrature. Larger losses (25%, 50%) would cap squeezing far lower; loss is in fact the dominant limitation, so choice 3 is wrong.",
+  "tags": ["squeezing", "loss-fragility", "decibel"],
+  "difficulty": "advanced",
+  "generated": true
+}

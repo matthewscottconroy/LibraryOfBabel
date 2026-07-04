@@ -1,0 +1,19 @@
+{
+  "question_id": "75efc217-695c-4f42-8775-ec147fccee7f",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Every finite field extension is algebraic.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "If [E:F] = n, the powers 1, α, α², …, αⁿ of any α ∈ E are n+1 vectors in an n-dimensional space, hence linearly dependent — that dependence is a polynomial killing α. The converse fails: the algebraic closure of ℚ is an infinite algebraic extension.",
+  "tags": [
+    "field-extensions",
+    "algebraic"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "6769c583-3e48-4f11-9291-c882e7908f4f",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the structure of a direct proof of a conditional statement P → Q?",
+  "choices": [
+    "Assume ¬Q and derive ¬P",
+    "Assume P and derive Q through valid inferences",
+    "Assume ¬(P → Q) and derive a contradiction",
+    "Assume Q and derive P"
+  ],
+  "answer": 1,
+  "explanation": "A direct proof assumes the antecedent P and derives the consequent Q — the →I (implication-introduction) rule. Assuming ¬Q to reach ¬P is proof by contrapositive; assuming the negation to reach ⊥ is proof by contradiction; assuming Q to derive P proves the converse, a different and generally non-equivalent statement.",
+  "tags": [
+    "direct-proof",
+    "conditional",
+    "natural-deduction"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

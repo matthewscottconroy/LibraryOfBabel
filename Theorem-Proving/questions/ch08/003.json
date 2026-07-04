@@ -1,0 +1,19 @@
+{
+  "question_id": "2f1e563f-f424-4131-bed6-95bfe07e7d5f",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "True or False: If two structures are isomorphic (M ≅ N), then they are elementarily equivalent — they satisfy exactly the same first-order sentences.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Isomorphic structures satisfy exactly the same first-order sentences, so isomorphism implies elementary equivalence. The converse fails: elementarily equivalent structures need not be isomorphic — the standard model of PA and a non-standard model agree on every sentence yet are not isomorphic.",
+  "tags": [
+    "isomorphism",
+    "elementary-equivalence"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

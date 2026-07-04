@@ -1,0 +1,22 @@
+{
+  "chapter": 28,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In the IMRaD structure of a research article, which section characteristically ends with a sentence such as 'Here we show/demonstrate/report...'?",
+  "choices": [
+    "Methods",
+    "Discussion",
+    "Introduction",
+    "Results"
+  ],
+  "answer": 2,
+  "explanation": "The Introduction builds from the biological question and knowledge gap to a final sentence stating the paper's core claim ('Here we show...'). Methods documents reproducible experimental detail instead, Results presents findings in figure-driven order without this framing sentence, and Discussion interprets results and relates them to the literature rather than announcing the finding for the first time.",
+  "tags": [
+    "imrad",
+    "scientific-writing",
+    "introduction"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "4a0f24e2-fe3e-4baf-aeef-3596287fae1e"
+}

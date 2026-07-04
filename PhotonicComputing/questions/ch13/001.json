@@ -1,0 +1,18 @@
+{
+  "question_id": "ebc2c4f4-89f2-459a-ab01-651f44e7e208",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In a diffractive deep neural network (D2NN), where do the learned weights physically reside after training?",
+  "choices": [
+    "In electronic memory that is read out during each inference",
+    "Frozen into the physical relief (material height, hence phase) of passive transmissive layers, set once at fabrication",
+    "In actively tuned phase shifters clocked at gigahertz",
+    "In the wavelength of the illumination laser"
+  ],
+  "answer": 1,
+  "explanation": "A D2NN is trained in a computer and its weights are frozen into the material height at each pixel (phase = 2*pi*(n-1)*h/lambda) of passive plates, so nothing switches during inference. Active phase shifters and electronic memory describe the integrated networks of earlier chapters, and the laser wavelength is a fixed operating condition, not a weight.",
+  "tags": ["d2nn", "passive", "phase-mask", "weights"],
+  "difficulty": "beginner",
+  "generated": true
+}

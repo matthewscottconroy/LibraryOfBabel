@@ -1,0 +1,21 @@
+{
+  "question_id": "1305e930-1600-46ce-bde7-1bfc620e696e",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The strong Sapir-Whorf claim that language wholly determines thought -- so that thoughts inexpressible in one's language cannot be thought -- is today the well-supported consensus among researchers.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The strong (determinism) version is generally regarded as false; Whorf's flagship Hopi-time claim was largely debunked. Only the weak version -- that language influences but does not determine thought -- has received modest empirical support.",
+  "tags": [
+    "sapir-whorf",
+    "linguistic-determinism",
+    "hopi",
+    "relativity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

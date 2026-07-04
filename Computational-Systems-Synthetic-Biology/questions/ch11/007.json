@@ -1,0 +1,20 @@
+{
+  "chapter": 11,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In flux balance analysis, the feasible flux space defined by S·v = 0 together with the bounds v_min ≤ v ≤ v_max forms a convex polytope.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: the steady-state equality constraints combined with the linear upper and lower flux bounds define a convex polytope in flux space, which is exactly why flux balance analysis can be solved efficiently as a linear program. Convexity guarantees that any local optimum found is also the global optimum.",
+  "tags": [
+    "convex-polytope",
+    "flux-constraints",
+    "fba"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "edbd4ea1-50ea-4037-8ba1-139d4062f88d"
+}

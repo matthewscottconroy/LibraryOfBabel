@@ -1,0 +1,20 @@
+{
+  "question_id": "fa3f2ef9-4d03-4c79-9b37-1dd8864ef7da",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Benacerraf's epistemological challenge to Platonism holds that if numbers and other abstract objects are non-spatiotemporal and causally inert, it becomes difficult to explain how we could have knowledge of them.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Benacerraf's dilemma sets a causal constraint on knowledge against the causal inertness of abstracta, threatening the Platonist's epistemology. This is precisely why the challenge targets Platonism rather than nominalism, which posits no such causally isolated entities.",
+  "tags": [
+    "abstract-objects",
+    "benacerraf",
+    "platonism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

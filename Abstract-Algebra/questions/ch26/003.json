@@ -1,0 +1,22 @@
+{
+  "question_id": "8e4ba9ad-e27f-4b20-976d-68cd9a7b5fcc",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The Univalence Axiom of HoTT, $\\mathrm{IsEquiv}(e)\\simeq\\mathrm{Id}_{\\mathcal{U}}(A,B)$, is captured by which slogan?",
+  "choices": [
+    "Every proposition is decidable (excluded middle holds)",
+    "Isomorphic (equivalent) types are identical",
+    "Every type is a set (a $0$-type)",
+    "All functions are computable"
+  ],
+  "answer": 1,
+  "explanation": "Univalence says an equivalence $A\\simeq B$ is the same as an identification $A=B$ in the universe: 'isomorphic types are identical.' Excluded middle and computability are separate matters (Univalence is in fact non-constructive as an axiom), and 'every type is a set' contradicts HoTT, whose higher types carry nontrivial homotopy.",
+  "tags": [
+    "hott",
+    "univalence",
+    "equivalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

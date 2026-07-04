@@ -1,0 +1,20 @@
+{
+  "question_id": "d6982dc8-0d63-483e-b056-8d194e4eb8b5",
+  "chapter": 10,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Every non-amenable group has a unique action up to orbit equivalence.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Uniqueness of the OE class is special to amenable groups (Dye). Non-amenable groups typically have many, even a continuum of, non-orbit-equivalent actions.",
+  "tags": [
+    "orbit-equivalence",
+    "non-amenable",
+    "rigidity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

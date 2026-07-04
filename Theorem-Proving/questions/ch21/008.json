@@ -1,0 +1,22 @@
+{
+  "question_id": "cf3afaa5-a7d6-465c-bc93-33b53afe5cbf",
+  "chapter": 21,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Kit Fine ('Essence and Modality', 1994) argues that essence is correctly defined as de re necessity: x is essentially F just in case necessarily, if x exists then Fx.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Fine argues the reverse — the modal account is extensionally wrong. Socrates is necessarily a member of {Socrates}, so the modal definition would make that membership part of his essence, which it is not. Essence is finer-grained (hyperintensional) than necessity, and modal facts should instead be grounded in essences.",
+  "tags": [
+    "fine",
+    "essence",
+    "de-re-modality",
+    "grounding",
+    "hyperintensional"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "3c9e0a17-6b4d-4f82-9a05-1e8c2b7d0f64",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Adamatzky's (2022) claim that fungal electrical spiking constitutes a 'language' of up to about 50 words was met with skepticism. What is the central scientific objection described in the book?",
+  "choices": [
+    "The electrical recordings themselves were shown to be fabricated",
+    "A Zipf-law distribution is ubiquitous and, without demonstrated semantic content or a responsive receiver, does not establish communication",
+    "Fungi were found to produce no measurable electrical activity at all",
+    "The spikes were far too fast to be biological, indicating equipment noise"
+  ],
+  "answer": 1,
+  "explanation": "Critics accepted the measurements but rejected the interpretive leap: Zipf's law arises from many non-linguistic processes (city sizes, earthquake magnitudes), and calling the signals 'language' would additionally require semantic content, a receiver whose behavior is changed, and conventional encoding, none of which were shown. The data were not alleged to be fabricated (choice 0), fungi do spike (choice 2), and the spikes are slow, lasting seconds to minutes, not too fast (choice 3).",
+  "tags": ["fungal-computing", "adamatzky", "language-hypothesis", "zipf"],
+  "difficulty": "advanced",
+  "generated": true
+}

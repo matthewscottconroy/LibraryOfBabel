@@ -1,0 +1,19 @@
+{
+  "chapter": 21,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The ___ Report (2004), titled 'Biotechnology Research in an Age of Terrorism,' is the foundational policy document that defined the dual-use research dilemma and led to the creation of the NSABB.",
+  "choices": [
+    "Fink"
+  ],
+  "answer": "Fink",
+  "explanation": "The Fink Report (2004) is explicitly named as the foundational DURC policy document, and it directly led to the establishment of the National Science Advisory Board for Biosecurity (NSABB).",
+  "tags": [
+    "biosecurity",
+    "durc",
+    "fink-report"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "e84e5c57-708c-4b0d-9902-238cb69c6a03"
+}

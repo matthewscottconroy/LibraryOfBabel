@@ -1,0 +1,21 @@
+{
+  "question_id": "0cb0caca-294c-4e48-8cf7-d2a779071a0b",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the book's point-set topology, a topological space X is defined to be compact when:",
+  "choices": [
+    "X is closed and bounded as a subset of ℝⁿ",
+    "every Cauchy sequence in X converges to a point of X",
+    "X cannot be written as the disjoint union of two non-empty open sets",
+    "every open cover of X has a finite subcover"
+  ],
+  "answer": 3,
+  "explanation": "The book defines compactness intrinsically: every open cover {U_α} of X admits a finite subcover. 'Closed and bounded' is only the Heine-Borel characterization, special to ℝⁿ; convergence of every Cauchy sequence is completeness (compact vs complete); the disjoint-open-sets condition is connectedness.",
+  "tags": [
+    "topology",
+    "compactness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

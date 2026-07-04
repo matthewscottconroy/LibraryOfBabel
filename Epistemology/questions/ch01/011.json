@@ -1,0 +1,20 @@
+{
+  "question_id": "a1513c25-7eb8-476d-8ae7-04cf75c7505b",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Process reliabilism must fix the level of description at which a belief-forming process is individuated (e.g. 'vision' versus 'vision in fake-barn county'); the lack of a principled level is called the ___ problem.",
+  "choices": [
+    "generality"
+  ],
+  "answer": "generality",
+  "explanation": "The generality problem observes that any token belief-forming process instantiates many process types at different levels of generality, which differ in reliability, and reliabilism supplies no principled way to fix the relevant level. Because the verdict on whether a belief is reliably formed depends on that choice, the theory risks indeterminacy.",
+  "tags": [
+    "reliabilism",
+    "generality-problem",
+    "goldman",
+    "process-individuation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

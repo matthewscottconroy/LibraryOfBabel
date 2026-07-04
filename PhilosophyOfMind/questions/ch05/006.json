@@ -1,0 +1,22 @@
+{
+  "question_id": "9ebcfd2e-d065-4ea8-a3ba-da33cfd3613f",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The core lesson Searle draws from the Chinese Room is that:",
+  "choices": [
+    "Computers can never pass the Turing test",
+    "The person in the room genuinely understands Chinese after all",
+    "Understanding requires a non-physical soul",
+    "Syntactic symbol manipulation (running the right program) is not sufficient for semantics/understanding"
+  ],
+  "answer": 3,
+  "explanation": "Searle's Chinese Room is meant to show that running the right program - pure syntactic symbol manipulation - is not sufficient for semantics/understanding. Option 1 contradicts the argument (the man precisely does not understand), option 0 misstates it as a claim about the Turing test, and option 2 attributes to Searle a dualism he rejects (he holds understanding requires biological causal powers, not a soul).",
+  "tags": [
+    "chinese-room",
+    "searle",
+    "syntax-semantics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

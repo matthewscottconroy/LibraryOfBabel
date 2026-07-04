@@ -1,0 +1,13 @@
+{
+  "question_id": "7c6ae174-97b7-451f-9411-c3336cc1e5c0",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In a dispersive medium, which statement correctly distinguishes phase velocity from group velocity?",
+  "choices": ["Phase velocity v_p = ω/k is the speed of a surface of constant phase; group velocity v_g = dω/dk is the speed of energy and information transport", "Phase velocity is dω/dk, while group velocity is ω/k", "They are always equal, even in a dispersive medium", "The group velocity is always greater than c in any medium"],
+  "answer": 0,
+  "explanation": "By definition v_p = ω/k (constant-phase surface) and v_g = dω/dk (envelope, energy, and information). Choice 1 swaps the two formulas; choice 2 is false because dispersion (n depending on ω) makes them differ; and while v_p can exceed c near a resonance, v_g being always > c is not generally true.",
+  "tags": ["phase-velocity", "group-velocity", "dispersion"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "fc9aefe5-3970-4f6b-8ce4-dc024538a8c2",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In epistemic logic, the KK principle (positive introspection) is captured by Axiom 4: KaP -> KaKaP (if a knows P, then a knows that a knows P). Which property of the accessibility relation corresponds to Axiom 4?",
+  "choices": [
+    "Reflexivity -- every world is accessible from itself.",
+    "Symmetry -- if world w' is accessible from w, then w is accessible from w'.",
+    "Transitivity -- if w' is accessible from w and w'' is accessible from w', then w'' is accessible from w.",
+    "Seriality -- every world has at least one world accessible from it."
+  ],
+  "answer": 2,
+  "explanation": "Axiom 4 (positive introspection, the 'KK' principle) corresponds to transitivity of the accessibility relation. Reflexivity corresponds to Axiom T (factivity, KaP -> P); the Euclidean property corresponds to Axiom 5 (negative introspection); seriality corresponds to Axiom D. The KK principle is philosophically contested -- Williamson argues it fails because knowledge requires a margin for error.",
+  "tags": [
+    "epistemic logic",
+    "kk principle",
+    "positive introspection",
+    "accessibility relation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

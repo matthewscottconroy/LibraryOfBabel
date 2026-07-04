@@ -1,0 +1,13 @@
+{
+  "question_id": "e7fa9f64-bf3f-4b51-825e-766f21adc8c6",
+  "chapter": 24,
+  "phase": 8,
+  "kind": "blank",
+  "text": "An ___ on an index set $I$ is a maximal filter; equivalently, for every subset $A \\subseteq I$ either $A$ or its complement $I \\setminus A$ belongs to it.",
+  "choices": ["ultrafilter"],
+  "answer": "ultrafilter",
+  "explanation": "A maximal filter is an ultrafilter, characterized by the dichotomy that for each $A \\subseteq I$ exactly one of $A$, $I \\setminus A$ is a member, which is the property that drives Los's theorem. A plain filter (closed under supersets and finite intersections) need not have this maximality, and an ideal is the dual notion.",
+  "tags": ["ultrafilter", "filter", "index-set"],
+  "difficulty": "intermediate",
+  "generated": true
+}

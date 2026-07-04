@@ -1,0 +1,23 @@
+{
+  "question_id": "d4594d8d-b9a0-4a4f-a86b-57e4faa19e5b",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "System S5 is sound and complete with respect to the class of frames in which R is:",
+  "choices": [
+    "an arbitrary relation",
+    "a preorder (reflexive and transitive only)",
+    "an equivalence relation (reflexive, symmetric, and transitive)",
+    "a serial relation only"
+  ],
+  "answer": 2,
+  "explanation": "S5 = K + T + 4 + 5 is characterized by equivalence-relation frames. Choice 1 (preorder) characterizes S4, not S5. Arbitrary relations give the base system K, and mere seriality gives KD (deontic).",
+  "tags": [
+    "modal-logic",
+    "s5",
+    "modal-systems",
+    "equivalence-relation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

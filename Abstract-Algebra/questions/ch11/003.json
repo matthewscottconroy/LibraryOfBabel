@@ -1,0 +1,22 @@
+{
+  "question_id": "83d567bf-20e1-4a1b-917e-e58d433f83b0",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Giving an F[x]-module structure on a finite-dimensional F-vector space V amounts to choosing:",
+  "choices": [
+    "a linear operator T: V → V, with x acting as T",
+    "a basis of V",
+    "a polynomial whose roots lie in V",
+    "an inner product on V"
+  ],
+  "answer": 0,
+  "explanation": "Once x acts as a linear map T, any polynomial p(x) must act as p(T), and conversely any T defines such an action. Under this dictionary, submodules are T-invariant subspaces, and the structure theorem yields the rational and Jordan canonical forms.",
+  "tags": [
+    "modules",
+    "polynomial-rings",
+    "linear-operators"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

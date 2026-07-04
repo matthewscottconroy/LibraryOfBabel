@@ -1,0 +1,19 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A Python language construct that uses the yield keyword to produce values lazily, one at a time, useful for iterating over datasets too large to fit in memory, is called a ___.",
+  "choices": [
+    "generator"
+  ],
+  "answer": "generator",
+  "explanation": "A generator is a Python construct built with the yield keyword that produces values lazily on demand rather than computing and storing an entire sequence in memory at once, making it well suited to processing large biological datasets such as genome-scale sequence files.",
+  "tags": [
+    "python",
+    "generators",
+    "iterators"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "0a1ef005-668d-4fb1-8978-b4d7c482ffa1"
+}

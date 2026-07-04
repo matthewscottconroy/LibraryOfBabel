@@ -1,0 +1,20 @@
+{
+  "chapter": 25,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Small-world networks are characterized by high clustering coefficients combined with long average shortest path lengths relative to a random graph of the same size.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This statement is false: small-world networks combine high clustering with a SHORT average path length relative to random graphs, not a long one. That combination -- high local clustering plus efficient global connectivity -- is the defining feature of the Watts-Strogatz small-world model, and most biological networks display this property.",
+  "tags": [
+    "small-world",
+    "clustering-coefficient",
+    "path-length"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "6a6cd0b0-2e63-44c1-a118-455a6ec5ee8f"
+}

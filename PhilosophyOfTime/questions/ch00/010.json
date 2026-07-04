@@ -1,0 +1,20 @@
+{
+  "question_id": "b8e9ef01-6ad1-4380-99b7-326b98f2ea38",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Augustine does not stop at posing the puzzle; his own positive answer — the first great phenomenological account of time in Western philosophy — is that time is a ___, a stretching or extension of the soul.",
+  "choices": [
+    "distentio animi"
+  ],
+  "answer": "distentio animi",
+  "explanation": "The book gives Augustine's proposed answer as the distentio animi, the 'distension of the mind,' on which past, present, and future are modes of attention — memory, attention, and anticipation. This is distinct from his more famous statement of the problem ('if no one asks me, I know...'); the blank asks specifically for his positive solution.",
+  "tags": [
+    "augustine",
+    "distentio-animi",
+    "phenomenology",
+    "time-consciousness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

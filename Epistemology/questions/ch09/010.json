@@ -1,0 +1,21 @@
+{
+  "question_id": "af802c39-34e4-47d0-b13e-261093ce2160",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "tf",
+  "text": "According to W. K. Clifford's 'ethics of belief,' it is epistemically and morally permissible to believe a proposition on insufficient evidence when the choice between hypotheses is forced, live, and momentous.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: it describes William James's 'will to believe,' the reply to Clifford, not Clifford's own view. Clifford's thesis is the unconditional evidentialist prohibition: 'it is wrong always, everywhere, and for anyone, to believe anything upon insufficient evidence.' James introduces the forced-live-momentous conditions precisely to carve out an exception Clifford would reject.",
+  "tags": [
+    "religious epistemology",
+    "evidentialism",
+    "clifford",
+    "james"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

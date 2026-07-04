@@ -1,0 +1,23 @@
+{
+  "question_id": "6cedbfdd-e75a-405d-b6ec-0ce76333e8bd",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The 'strong' and 'weak' versions of the Sapir-Whorf hypothesis differ in that:",
+  "choices": [
+    "the strong version says language merely influences thought, while the weak version says it fully determines thought",
+    "the strong version (linguistic determinism) says language determines thought and makes some thoughts impossible without the relevant categories, while the weak version (linguistic relativity) says language only influences or biases thought",
+    "the strong version concerns grammar while the weak version concerns vocabulary",
+    "the strong version is empirically supported while the weak version has been refuted"
+  ],
+  "answer": 1,
+  "explanation": "Strong = linguistic determinism (language fixes the limits of thought); weak = linguistic relativity (language makes some thoughts easier or more habitual). Option 0 reverses the two; option 2 is not the distinction; option 3 inverts the evidence -- the strong version is generally rejected while the weak version has modest support.",
+  "tags": [
+    "sapir-whorf",
+    "linguistic-determinism",
+    "linguistic-relativity",
+    "strong-weak"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

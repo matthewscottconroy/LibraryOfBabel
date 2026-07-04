@@ -1,0 +1,13 @@
+{
+  "question_id": "207d667a-22a3-4d2d-ad79-338ad429019e",
+  "chapter": 23,
+  "phase": 8,
+  "kind": "tf",
+  "text": "Godel proved that the Continuum Hypothesis is provable from the axioms of ZF.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "FALSE. Godel (1938) showed via the constructible universe $L$ that CH is CONSISTENT with ZF, i.e. cannot be DISPROVED, not that it is provable. Cohen (1963) later showed CH cannot be proved either, so CH is independent of ZFC. Consistency of CH is not the same as provability of CH.",
+  "tags": ["continuum-hypothesis", "godel", "constructible-universe"],
+  "difficulty": "intermediate",
+  "generated": true
+}

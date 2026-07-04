@@ -1,0 +1,23 @@
+{
+  "chapter": 25,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the E. coli transcriptional regulatory network, which two subgraph patterns are highlighted as the canonical, statistically overrepresented network motifs?",
+  "choices": [
+    "Feedback loop and dense overlapping regulon (DOR)",
+    "Chain motif and clique",
+    "Star topology and ring motif",
+    "Feedforward loop (FFL) and bi-fan"
+  ],
+  "answer": 3,
+  "explanation": "The feedforward loop (FFL) and the bi-fan (two transcription factors co-regulating two genes) are identified as the most statistically significant motifs discovered in the E. coli gene regulatory network. Dense overlapping regulons are a real but distinct higher-order combinatorial structure, not one of the two canonical motifs paired here, and chain motifs, cliques, star topologies, and ring motifs are not the patterns highlighted as significantly overrepresented.",
+  "tags": [
+    "network-motifs",
+    "feedforward-loop",
+    "bi-fan",
+    "e-coli"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "8f87679d-f691-4474-9c48-5da480c8bab8"
+}

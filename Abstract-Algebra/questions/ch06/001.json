@@ -1,0 +1,21 @@
+{
+  "question_id": "ef33c5fe-2c07-41b4-9f18-b0c4494bbc39",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Cauchy–Schwarz inequality states that in any inner product space:",
+  "choices": [
+    "|⟨u, v⟩| ≤ ‖u‖ · ‖v‖",
+    "|⟨u, v⟩| ≥ ‖u‖ · ‖v‖",
+    "|⟨u, v⟩| ≤ ‖u‖ + ‖v‖",
+    "⟨u, v⟩ = ‖u‖ · ‖v‖ always"
+  ],
+  "answer": 0,
+  "explanation": "Cauchy–Schwarz bounds the inner product by the product of norms, with equality exactly when u and v are proportional. It is the engine behind the triangle inequality and the definition of angles.",
+  "tags": [
+    "inner-products",
+    "cauchy-schwarz"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

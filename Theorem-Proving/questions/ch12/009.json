@@ -1,0 +1,21 @@
+{
+  "question_id": "45bb4240-b9bd-4e28-b51d-3cb0678825d4",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Both Lean 4 and Coq are built on the same dependent type theory, whose standard three-letter acronym is ___ .",
+  "choices": [
+    "CIC"
+  ],
+  "answer": "CIC",
+  "explanation": "Lean 4 and Coq both implement the Calculus of Inductive Constructions (CIC): dependent Π- and Σ-types, inductive types with recursors, and a universe hierarchy Prop : Type₀ : Type₁ : ⋯.",
+  "tags": [
+    "proof-assistants",
+    "cic",
+    "dependent-types",
+    "lean",
+    "coq"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

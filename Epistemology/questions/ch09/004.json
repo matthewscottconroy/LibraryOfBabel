@@ -1,0 +1,20 @@
+{
+  "question_id": "5e511ffd-b985-46c1-bbb4-456e0fccd51b",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Because a scientific hypothesis confronts the 'tribunal of experience' only bundled together with auxiliary assumptions, a failed prediction never conclusively refutes any single hypothesis on its own; this holist point about testing is known as the ___ thesis.",
+  "choices": [
+    "Duhem-Quine"
+  ],
+  "answer": "Duhem-Quine",
+  "explanation": "The Duhem-Quine thesis holds that hypotheses face experience only in conjunction with auxiliaries, so the 'blame' for an anomaly can always be relocated (as when a Uranus anomaly yielded Neptune but a similar Mercury anomaly yielded the never-found Vulcan). This underwrites underdetermination and blocks the Popperian idea that a single observation cleanly falsifies a lone hypothesis.",
+  "tags": [
+    "philosophy of science",
+    "duhem-quine",
+    "underdetermination",
+    "auxiliary hypotheses"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

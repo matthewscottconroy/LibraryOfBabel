@@ -1,0 +1,22 @@
+{
+  "question_id": "bdab0e38-1eac-4a7b-b76d-1725ab6b68e8",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Frankfurt-style cases (Jones acts on his own while the counterfactual intervener Black stands ready) are designed to refute which thesis?",
+  "choices": [
+    "The thesis of determinism.",
+    "The Principle of Alternate Possibilities: that moral responsibility requires the ability to do otherwise.",
+    "The causal closure of the physical.",
+    "The claim that reasons can be the causes of actions."
+  ],
+  "answer": 1,
+  "explanation": "In a Frankfurt case Jones deliberates and acts on his own, but Black would have intervened had he wavered, so Jones is responsible yet could not have done otherwise, refuting the Principle of Alternate Possibilities. The cases target PAP specifically, not determinism (Frankfurt was a compatibilist); closure and reasons-as-causes are unrelated.",
+  "tags": [
+    "frankfurt-cases",
+    "pap",
+    "moral-responsibility"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

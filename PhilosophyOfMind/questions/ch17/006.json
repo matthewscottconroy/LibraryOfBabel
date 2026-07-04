@@ -1,0 +1,23 @@
+{
+  "question_id": "f3bc2942-5047-4529-8aca-bac50cea811a",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The symbol-grounding problem (Harnad) and the 'stochastic parrots' critique (Bender, Gebru, et al., 2021) both press which objection to attributing understanding to a text-manipulating AI?",
+  "choices": [
+    "The system's symbols are not grounded in its own perceptual and causal relationship to the world, so it inherits meaning only from human-produced text",
+    "The system violates Goedel's incompleteness theorem",
+    "The system cannot store enough canned responses to win a table-lookup test",
+    "The system is feedforward and therefore has zero integrated information"
+  ],
+  "answer": 0,
+  "explanation": "Both arguments hold that genuine meaning requires grounding in the representer's own connection to the world; an LLM's tokens are 'about' things only derivatively, via the humans who wrote its training text. Goedel is Turing's mathematical objection, table-lookup is Block's Blockhead, and feedforward Phi is IIT, all distinct points.",
+  "tags": [
+    "symbol-grounding",
+    "harnad",
+    "stochastic-parrots",
+    "intentionality"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

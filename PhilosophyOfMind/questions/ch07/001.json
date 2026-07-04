@@ -1,0 +1,22 @@
+{
+  "question_id": "bf12cf9c-cdf1-45ff-a443-b8a4586dfe60",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Davidson's central thesis in 'Actions, Reasons, and Causes' (1963) is that:",
+  "choices": [
+    "The reason for which an agent acts is also a cause of the action",
+    "Reasons explain actions but never cause them",
+    "Actions are uncaused, wholly free events",
+    "Only bodily movements, not reasons, can explain behaviour"
+  ],
+  "answer": 0,
+  "explanation": "Davidson argued that the reason for which one acts is a cause of the action: what distinguishes the reason that explains from a reason one merely has is that the former actually caused the behaviour. Option 1 is the anti-causalist view (Anscombe/Ryle) he opposed, option 2 is libertarian, and option 3 is behaviourist.",
+  "tags": [
+    "davidson",
+    "reasons-as-causes",
+    "causal-theory-of-action"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -51,4 +51,4 @@ theorem size_le_pow (t : Tree α) : size t ≤ 2^(height t + 1) - 1 := by
 ```
 
 ## Exercises
-See [problems/ch07_induction/02_structural_induction_exercises.md](../../../problems/ch07_induction/02_structural_induction_exercises.md)
+See [problems/ch07_induction_and_recursion/02_structural_induction_exercises.md](../../../problems/ch07_induction_and_recursion/02_structural_induction_exercises.md)

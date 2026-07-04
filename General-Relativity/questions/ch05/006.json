@@ -1,0 +1,22 @@
+{
+  "question_id": "5acda758-8b8a-4bfb-aaa9-a8cf16fc9bc0",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The energy flux (energy per unit area per unit time) carried by the electromagnetic field is given by the Poynting vector:",
+  "choices": [
+    "S = ε₀E²/2",
+    "S = B²/(2μ₀)",
+    "S = (1/μ₀) E×B",
+    "S = ε₀ E×B"
+  ],
+  "answer": 2,
+  "explanation": "The Poynting vector S = (1/μ₀) E×B gives the directional energy flux of the field. The expressions ε₀E²/2 and B²/(2μ₀) are scalar energy densities, not fluxes, and ε₀ E×B has the wrong prefactor — the correct coefficient is 1/μ₀.",
+  "tags": [
+    "maxwell",
+    "poynting",
+    "energy"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

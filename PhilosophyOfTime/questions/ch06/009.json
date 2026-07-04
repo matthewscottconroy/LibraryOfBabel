@@ -1,0 +1,18 @@
+{
+  "question_id": "426cf02e-b418-4b11-960a-fe91c9fb0f63",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In David Albert's account, what is the 'Past Hypothesis' invoked to explain the thermodynamic arrow of time?",
+  "choices": [
+    "The postulate that the fundamental microscopic laws are themselves time-asymmetric.",
+    "The postulate that the macrostate of the universe near its beginning was one of very low entropy.",
+    "The assumption that two molecules' velocities are uncorrelated before they collide (molecular chaos).",
+    "The claim that the total entropy of any isolated system is exactly conserved over time."
+  ],
+  "answer": 1,
+  "explanation": "The Past Hypothesis is Albert's brute posit that the early universe was in an extremely low-entropy macrostate; combined with the Statistical Postulate it grounds entropy increase toward the future. Option 0 is false because the whole puzzle is that the micro-laws are time-symmetric; option 2 names Boltzmann's Stosszahlansatz, which the book criticizes for illegitimately smuggling in time asymmetry; option 3 simply denies the Second Law.",
+  "tags": ["past-hypothesis", "entropy", "thermodynamic-arrow", "albert", "thermodynamics"],
+  "difficulty": "intermediate",
+  "generated": true
+}

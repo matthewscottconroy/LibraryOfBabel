@@ -1,0 +1,22 @@
+{
+  "question_id": "2afdb4cc-b219-48b9-8542-ab7dcbe4bd98",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Lewis's problem of temporary intrinsics presses the endurantist to explain how one wholly present thing can be straight at t1 and bent at t2. Which is NOT one of the three standard endurantist responses?",
+  "choices": [
+    "Index the properties to times, so the ball has being-straight-at-t1 and being-bent-at-t2.",
+    "Adopt presentism, so only the present shape is instantiated and incompatible shapes are never co-instantiated.",
+    "Treat the shapes as had relative to times (adverbialism), so the ball is straight-ly at t1 and bent-ly at t2.",
+    "Deny that shape is intrinsic at all, holding that being straight is really a relation to Napoleon."
+  ],
+  "answer": 3,
+  "explanation": "The three endurantist responses Lewis considers are time-indexing the property, presentism, and relations-to-times/adverbialism; his own preferred solution is temporal parts. Option 3 is not among them and simply misdescribes intrinsicality. Lewis's actual complaint against the genuine responses (options 0 and 2) is that they make an intrinsic property relational.",
+  "tags": [
+    "temporary-intrinsics",
+    "lewis",
+    "endurantism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

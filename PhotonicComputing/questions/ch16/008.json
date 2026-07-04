@@ -1,0 +1,13 @@
+{
+  "question_id": "24fec1ef-d595-4d74-86c6-e5cdc803aab1",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Like the coherent state, a single-photon Fock state |1> has a Wigner function that is non-negative everywhere in phase space.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The Fock state |1> has a Wigner function that goes negative, with W(0,0) = -2/pi, a genuine signature of non-classicality. Only Gaussian pure states (like the coherent state) have everywhere non-negative Wigner functions, by Hudson's theorem.",
+  "tags": ["wigner-function", "fock-state", "nonclassicality"],
+  "difficulty": "intermediate",
+  "generated": true
+}

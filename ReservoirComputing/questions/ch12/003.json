@@ -1,0 +1,22 @@
+{
+  "question_id": "d0d77ce5-f918-4ff0-a745-d552357b88db",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "For a leaky-integrator layer with leak rate α and spectral radius ρ, the effective memory time constant is approximately:",
+  "choices": [
+    "τ_eff ≈ α (1 − ρ)",
+    "τ_eff ≈ α / ρ",
+    "τ_eff ≈ 1 / (α · ρ)",
+    "τ_eff ≈ 1 / (α (1 − ρ))"
+  ],
+  "answer": 3,
+  "explanation": "The chapter derives τ_eff ≈ 1/(α(1−ρ)): smaller α (slower forgetting) OR larger ρ (closer to marginal stability) both lengthen memory. Option 0 is the reciprocal (that expression is the low-pass cutoff frequency ω_c, not the time constant). Options 1 and 2 do not reduce to the correct dependence and predict memory shrinking as ρ→1, the opposite of the true behavior.",
+  "tags": [
+    "deep-esn",
+    "time-constant",
+    "memory"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

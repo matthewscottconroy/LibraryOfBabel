@@ -1,0 +1,22 @@
+{
+  "question_id": "9a2e5efc-1e8e-4cd8-93c5-5f4063b70a52",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In Lab 15, at what feedback gain η is NARMA-10 NMSE minimized, and what happens beyond η ≈ 1.0?",
+  "choices": [
+    "Minimized near η ≈ 0.1; beyond 1.0 it keeps improving",
+    "Minimized near η ≈ 1.5; below 1.0 the system is unusable",
+    "Minimized at η = 0; any feedback hurts performance",
+    "Minimized near η ≈ 0.8–0.9; beyond η ≈ 1.0 the system saturates and performance degrades"
+  ],
+  "answer": 3,
+  "explanation": "The lab reports best NMSE near η ≈ 0.8–0.9 — the 'edge of stability', where the loop has long fading memory yet still separates inputs. Past η ≈ 1.0 the sin² node saturates and accuracy falls off. With η = 0 (option 2) there is no memory at all, so performance is poor, contradicting the other options.",
+  "tags": [
+    "physical-rc",
+    "feedback-gain",
+    "lab15"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

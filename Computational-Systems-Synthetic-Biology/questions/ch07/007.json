@@ -1,0 +1,20 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The Orbitrap mass analyzer achieves resolving power up to 500,000 and mass accuracy under 1 ppm by trapping ions in an electrostatic field and measuring the frequency of their image current as they rotate.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Ions are trapped in an electrostatic field around a central electrode, and the frequency of their orbital rotation, which is proportional to m/z, is detected via image current, giving the Orbitrap its industry-leading resolving power and sub-ppm mass accuracy.",
+  "tags": [
+    "mass-spectrometry",
+    "orbitrap",
+    "mass-analyzer"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "fdccf771-4094-4173-90be-ef80e9c9b4a0"
+}

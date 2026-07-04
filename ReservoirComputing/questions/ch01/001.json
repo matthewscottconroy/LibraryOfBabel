@@ -1,0 +1,22 @@
+{
+  "question_id": "280ad91e-f5ac-4bbc-99b6-9ae4082e96c3",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What are the canonical parameter values of the Lorenz system used in the lab and text?",
+  "choices": [
+    "sigma = 10, rho = 28, beta = 8/3",
+    "sigma = 28, rho = 10, beta = 3/8",
+    "sigma = 10, rho = 8/3, beta = 28",
+    "sigma = 16, rho = 45.92, beta = 4"
+  ],
+  "answer": 0,
+  "explanation": "Section 4.2 and lorenz_phase_portrait.py both use sigma = 10 (Prandtl number), rho = 28 (Rayleigh number), beta = 8/3. The other options permute or invent values; swapping sigma and rho (option 1) is a common slip.",
+  "tags": [
+    "lorenz-system",
+    "parameters",
+    "canonical-values"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

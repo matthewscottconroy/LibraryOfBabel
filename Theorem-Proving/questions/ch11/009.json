@@ -1,0 +1,20 @@
+{
+  "question_id": "9c834a7b-636d-45a9-aa08-7bab0915f1a8",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The modal system that is sound and complete with respect to frames where R is a preorder (reflexive and transitive) is called ___ .",
+  "choices": [
+    "S4"
+  ],
+  "answer": "S4",
+  "explanation": "S4 = K + T + 4 is sound and complete for preorder (reflexive, transitive) frames. Adding axiom 5 to reach equivalence-relation frames yields S5.",
+  "tags": [
+    "modal-logic",
+    "s4",
+    "modal-systems",
+    "preorder"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

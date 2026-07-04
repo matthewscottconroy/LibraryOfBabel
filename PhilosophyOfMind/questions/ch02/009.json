@@ -1,0 +1,19 @@
+{
+  "question_id": "a89ae02a-3a07-4f30-864a-e53b8cfe2988",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The intrinsic, subjective qualitative properties of experience — the redness of red or the painfulness of pain — are standardly called ___.",
+  "choices": [
+    "qualia"
+  ],
+  "answer": "qualia",
+  "explanation": "'Qualia' (singular 'quale') are the intrinsic phenomenal qualities of experience — what it is like to undergo them. They are the target of the hard problem, the knowledge argument, and the explanatory gap. The expected term is 'qualia.'",
+  "tags": [
+    "qualia",
+    "phenomenal-consciousness",
+    "what-it-is-like"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

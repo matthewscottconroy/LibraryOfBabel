@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 3,
+  "kind": "mc",
+  "text": "'Reciprocal sign epistasis' between two mutations A and B specifically requires that...",
+  "choices": [
+    "A and B are each individually beneficial on the wild-type background, and combining them is beneficial by an even larger, non-additive amount",
+    "Only one mutation's effect changes sign depending on the other's presence (e.g., A is beneficial alone but deleterious once B is present), while the reverse is not true for B",
+    "Each single mutation (A alone, or B alone) is deleterious relative to the wild type, but the double mutant (A+B) is fitter than the wild type, producing two fitness peaks separated by a valley that blocks simple stepwise hill-climbing",
+    "A and B are located in different genes on different chromosomes, so their combined effect can only be measured after a genetic cross"
+  ],
+  "answer": 2,
+  "explanation": "Reciprocal sign epistasis requires that each mutation's fitness effect flips sign depending on whether the other mutation is present: both single mutants are worse than the wild type, yet the double mutant is better than the wild type, creating two fitness peaks (wild type and the double mutant) separated by a valley of low-fitness single mutants that cannot be crossed by successive individually-beneficial steps. Option 2 instead describes ordinary, non-reciprocal sign epistasis (only one mutation's sign depends on the other); simple positive or magnitude epistasis (option 1) does not create any valley at all; and physical chromosome location (option 4) is unrelated to the statistical definition of epistasis.",
+  "tags": [
+    "epistasis",
+    "fitness-landscape",
+    "reciprocal-sign-epistasis"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "af6e9549-21f2-4052-a8e3-e57b4223fa84"
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "7bda16b2-f2c4-4038-9923-1cdb3326e717",
+  "chapter": 27,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the status of optical random-access memory (RAM) in photonic computing?",
+  "choices": [
+    "Optical RAM already matches DRAM in both density and rewrite endurance",
+    "Quantum optical memories serve directly as a photonic computer's working memory",
+    "Phase-change optical memory offers effectively unlimited rewrite endurance",
+    "There is no true photonic RAM; storage means volatile delay lines, short-lived cavities, or slow phase-change materials, so memory stays electronic"
+  ],
+  "answer": 3,
+  "explanation": "There is no photonic equivalent of RAM: the options are volatile delay lines, short-lived resonant cavities, or non-volatile but slow phase-change materials (endurance only about 10^6 to 10^9 writes), so every practical photonic computer keeps its memory in electronics. PCM endurance is far from unlimited, and quantum optical memories buffer single photons, a different job, not a classical working set.",
+  "tags": ["photonic-memory", "optical-ram", "open-problems"],
+  "difficulty": "beginner",
+  "generated": true
+}

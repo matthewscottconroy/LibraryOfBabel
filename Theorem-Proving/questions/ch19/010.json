@@ -1,0 +1,20 @@
+{
+  "question_id": "30b00de4-672e-4194-bed0-d7a7475d9e56",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Whereas Hilbert's continuity axiom quantifies over arbitrary sets of points (second-order), Tarski replaces it with a first-order ___ (one axiom per pair of formulas) that quantifies only over definable cuts.",
+  "choices": [
+    "schema"
+  ],
+  "answer": "schema",
+  "explanation": "Tarski's continuity is an axiom schema — like Separation in ZF or Induction in PA — with one instance per pair of first-order formulas, ranging only over definable Dedekind cuts. This surrenders Hilbert's categoricity but makes the theory a genuine first-order theory subject to completeness and decidability.",
+  "tags": [
+    "tarski",
+    "continuity-schema",
+    "categoricity",
+    "first-order"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

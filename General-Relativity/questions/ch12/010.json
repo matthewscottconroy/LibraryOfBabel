@@ -1,0 +1,21 @@
+{
+  "question_id": "1626a908-87d5-44d6-93be-5339b84c0e5d",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the Newman-Penrose formalism, the Weyl scalar that encodes outgoing gravitational radiation at large r (falling off as r⁻¹, and equal to the s = −2 Teukolsky variable) is:",
+  "choices": [
+    "Ψ₀",
+    "Ψ₄",
+    "Ψ₂",
+    "Ψ₁"
+  ],
+  "answer": 1,
+  "explanation": "The book identifies Ψ₄ as the outgoing gravitational radiation (falling as r⁻¹) and the s = −2 Teukolsky perturbation. Ψ₀ and Ψ₁ describe ingoing radiation (falling faster), while Ψ₂ is the Coulomb-like part encoding the mass and angular momentum (r⁻³) and is the only nonzero scalar for Schwarzschild/Kerr.",
+  "tags": [
+    "newman-penrose",
+    "weyl-scalars"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

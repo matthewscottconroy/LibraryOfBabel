@@ -1,0 +1,22 @@
+{
+  "question_id": "be35c87c-92bf-4c19-8918-50fc4fbe317b",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "By the Perron-Frobenius theorem, a matrix with strictly positive entries has a largest-modulus eigenvalue that is:",
+  "choices": [
+    "zero",
+    "a complex number with positive imaginary part",
+    "a positive simple eigenvalue with a positive eigenvector",
+    "equal to the trace of the matrix"
+  ],
+  "answer": 2,
+  "explanation": "Perron-Frobenius gives a unique real positive dominant eigenvalue (the Perron root), simple, with a strictly positive eigenvector. This underlies topological entropy of SFTs and PageRank.",
+  "tags": [
+    "perron-frobenius",
+    "spectral",
+    "nonnegative-matrices"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

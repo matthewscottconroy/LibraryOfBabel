@@ -1,0 +1,22 @@
+{
+  "question_id": "a77e1e93-83f6-46ea-8271-6174993d69af",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Poincare-Hopf theorem says the sum of the indices of a vector field on a compact manifold M equals:",
+  "choices": [
+    "the number of equilibria",
+    "the Euler characteristic chi(M)",
+    "the dimension of M",
+    "zero, always"
+  ],
+  "answer": 1,
+  "explanation": "Poincare-Hopf equates the index sum to chi(M). It is zero only when chi(M) = 0 (e.g. the torus); on the sphere chi = 2, forcing a zero of every vector field.",
+  "tags": [
+    "poincare-hopf",
+    "topology",
+    "index"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

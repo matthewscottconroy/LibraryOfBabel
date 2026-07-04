@@ -1,0 +1,21 @@
+{
+  "question_id": "a21b7f6a-c4ba-41c9-bc73-1c022a514a3e",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "tf",
+  "text": "One of Walter Cannon's objections to the James-Lange theory is that the same visceral/autonomic changes accompany many different emotions, so bodily feedback is too undifferentiated to distinguish, say, fear from anger.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Cannon argued that autonomic responses are too undifferentiated (and too slow) to account for the variety and speed of emotional experience, and that emotion can be elicited centrally even without bodily feedback. This is a central plank of the Cannon-Bard critique of James-Lange.",
+  "tags": [
+    "cannon-bard",
+    "james-lange",
+    "autonomic-arousal",
+    "critique"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

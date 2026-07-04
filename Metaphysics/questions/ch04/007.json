@@ -1,0 +1,18 @@
+{
+  "question_id": "2ea8b628-37d6-4736-940a-0738e52d742c",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The naive conceivability-to-possibility inference says that if P is conceivable then P is possible. Why do Kripke-style cases such as 'water is not H2O' make trouble for it?",
+  "choices": [
+    "Because such scenarios are epistemically conceivable (no contradiction is obvious) yet metaphysically impossible, since water is necessarily H2O.",
+    "Because such scenarios are strictly inconceivable, showing that conceivability was never a guide to possibility at all.",
+    "Because they are both conceivable and possible, thereby confirming the naive inference.",
+    "Because conceivability, properly understood, entails necessity rather than mere possibility."
+  ],
+  "answer": 0,
+  "explanation": "We can conceive, in the sense of finding no obvious contradiction, of water not being H2O, yet if water is necessarily H2O this is metaphysically impossible, so bare (prima facie) conceivability is not a reliable guide to possibility. This motivates Chalmers's refinement to ideal conceivability, under which the scenario's impossibility becomes apparent; option 2 mistakenly treats the scenario as genuinely possible.",
+  "tags": ["modality", "conceivability", "chalmers", "modal-epistemology"],
+  "difficulty": "beginner",
+  "generated": true
+}

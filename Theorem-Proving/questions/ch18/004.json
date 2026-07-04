@@ -1,0 +1,23 @@
+{
+  "question_id": "d8b2d732-1e82-4997-aa92-c8742f433ccb",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "For a group homomorphism φ: G → H, which statement is correct?",
+  "choices": [
+    "The kernel of φ is a subgroup of the codomain H",
+    "The kernel of φ is always a normal subgroup of G, and G/ker φ ≅ im φ",
+    "φ is injective if and only if ker φ = G",
+    "The image of φ is always a normal subgroup of H"
+  ],
+  "answer": 1,
+  "explanation": "Kernels are always normal in the domain G, and the first isomorphism theorem gives G/ker φ ≅ im φ. The kernel is a subgroup of G (not H), so A is wrong; φ is injective iff ker φ is trivial ({e}), not all of G, so C is wrong; the image need not be normal in H, so D is wrong.",
+  "tags": [
+    "kernel",
+    "normal-subgroup",
+    "homomorphism",
+    "first-isomorphism-theorem"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

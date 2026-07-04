@@ -1,0 +1,19 @@
+{
+  "question_id": "0a15bd2c-4f24-459b-9a88-dc97dd81015b",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "To say that two things are qualitatively identical is just to say that they are numerically identical, that is, one and the same thing.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Qualitative identity is exact similarity (sharing all qualities), which numerically distinct things such as two duplicate spheres can possess. Numerical identity is being literally one object. Conflating the two is the error the distinction is meant to guard against.",
+  "tags": [
+    "numerical-identity",
+    "qualitative-identity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

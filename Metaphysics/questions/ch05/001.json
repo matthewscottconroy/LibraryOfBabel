@@ -1,0 +1,18 @@
+{
+  "question_id": "4cd4714b-1f03-41cc-8435-6d4b3b1be471",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In McTaggart's terminology, the A-series orders events by which properties, and the B-series by which relation?",
+  "choices": [
+    "The A-series orders events by past/present/future; the B-series orders them by the earlier-than/later-than relation.",
+    "The A-series orders events by earlier-than/later-than; the B-series orders them by past/present/future.",
+    "The A-series orders events by simultaneity; the B-series orders them by causal priority.",
+    "The A-series orders events by their spatial location; the B-series by their temporal location."
+  ],
+  "answer": 0,
+  "explanation": "For McTaggart the A-series runs past-present-future (positions that change, and that A-theorists take to be fundamental), while the B-series is the permanent ordering by earlier-than and later-than. Option 1 simply swaps the two series; the point to fix is that the A-series carries the tensed, changing A-properties.",
+  "tags": ["time", "mctaggart", "a-series", "b-series"],
+  "difficulty": "beginner",
+  "generated": true
+}

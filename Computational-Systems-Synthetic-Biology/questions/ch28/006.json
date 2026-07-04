@@ -1,0 +1,22 @@
+{
+  "chapter": 28,
+  "phase": 5,
+  "kind": "mc",
+  "text": "For visualizing the distribution of a continuous measurement across a small number of samples, which plot type does the chapter recommend over a bar chart with error bars?",
+  "choices": [
+    "Pie chart",
+    "Stacked area chart",
+    "3D bar chart",
+    "Violin plot or beeswarm plot"
+  ],
+  "answer": 3,
+  "explanation": "For small-n distributions, violin plots or beeswarm plots show the actual shape and spread of the data rather than collapsing it to a single mean and error bar, which can hide bimodality, outliers, or skew. Pie charts are recommended only for parts-of-a-whole (and bar charts are preferred even there), while stacked area charts and 3D bar charts are not recommended at all -- 3D effects in particular are flagged as chartjunk under the data-ink ratio principle.",
+  "tags": [
+    "figure-design",
+    "data-visualization",
+    "tufte"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "1ad1c183-4a5c-4222-9225-e5349e48a527"
+}

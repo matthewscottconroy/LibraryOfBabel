@@ -1,0 +1,13 @@
+{
+  "question_id": "d6f9b2c7-8e3a-4b1d-8c7f-6a0e3b5d9c82",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Allostasis, unlike classical homeostasis, involves predictively adjusting the set points of regulated variables in anticipation of expected demands (for example, the pre-dawn rise in cortisol before waking).",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Allostasis, proposed by Sterling and Eyer, is 'stability through change': set points are proactively shifted in anticipation of upcoming demands, as with anticipatory heart-rate increases before exercise or the morning cortisol peak. Classical homeostasis instead reactively defends fixed set points through negative feedback.",
+  "tags": ["allostasis", "homeostasis", "prediction"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "a2ffb122-48a4-4a10-9a93-3e39d8fc28f8",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A generalized coordinate that does not appear in the Lagrangian is called ___ (or ignorable), and its conjugate momentum p = ∂L/∂q̇ is conserved.",
+  "choices": [
+    "cyclic",
+    "ignorable"
+  ],
+  "answer": "cyclic",
+  "explanation": "The book calls a coordinate absent from L 'cyclic' or 'ignorable.' Because ∂L/∂q = 0, the Euler-Lagrange equation gives ṗ = 0, so the conjugate momentum is conserved — for instance, angular momentum from a cyclic azimuthal angle φ in a central potential.",
+  "tags": [
+    "lagrangian",
+    "cyclic-coordinate",
+    "conservation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

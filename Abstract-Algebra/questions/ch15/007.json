@@ -1,0 +1,19 @@
+{
+  "question_id": "21933fc1-b08d-4c2e-915a-04948cdf2f37",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "tf",
+  "text": "If P is a projective module, then Extⁿ_R(P, N) = 0 for all n ≥ 1 and every module N.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "0 → P → P → 0 (identity augmentation) is already a projective resolution of length 0, so the derived complex has nothing in higher degrees. Conversely, Ext¹(M, −) = 0 forces every surjection onto M to split, making M projective.",
+  "tags": [
+    "ext",
+    "projective"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

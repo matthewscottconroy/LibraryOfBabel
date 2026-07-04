@@ -1,0 +1,20 @@
+{
+  "question_id": "eab31be5-229d-4b6d-8a8d-a174f8d6f98a",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which induction principle is used to prove properties of all finite trees?",
+  "choices": [
+    "Mathematical induction",
+    "Strong induction",
+    "Structural induction",
+    "Well-founded induction"
+  ],
+  "answer": 2,
+  "explanation": "Structural induction follows the recursive structure of the data type.",
+  "tags": [
+    "induction"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

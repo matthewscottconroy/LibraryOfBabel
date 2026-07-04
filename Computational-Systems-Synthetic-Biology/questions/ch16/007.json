@@ -1,0 +1,19 @@
+{
+  "chapter": 16,
+  "phase": 3,
+  "kind": "tf",
+  "text": "An AND gate can be implemented in a genetic circuit via protein-fragment complementation, in which two halves of a transcription factor, each fused to a dimerization domain, reconstitute active function only when both inputs are present.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: protein-fragment complementation is one of the described implementations of an AND gate, where two inactive TF halves fused to dimerization domains only combine into an active transcription factor when both corresponding inputs are expressed. The other AND-gate implementations mentioned are sequential promoters and two-input operator sites, but protein-fragment complementation is a valid, distinct third method.",
+  "tags": [
+    "and-gate",
+    "protein-complementation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "cf1a4147-b3fe-439c-8126-acce86661999"
+}

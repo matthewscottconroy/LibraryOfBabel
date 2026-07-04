@@ -24,7 +24,7 @@ The **discovery of accelerating expansion** (Riess et al. 1998; Perlmutter et al
 
 ## Chapters in This Unit
 
-- [Chapter 38: The FLRW Metric and Friedmann Equations](chapter-38-flrw-dynamics/README.md)
-- [Chapter 39: The Thermal History of the Universe](chapter-39-thermal-history/README.md)
-- [Chapter 40: Inflation and the Early Universe](chapter-40-inflation/README.md)
-- [Chapter 41: Dark Energy, Dark Matter, and the ΛCDM Model](chapter-41-lambda-cdm/README.md)
+- [Chapter 47: The Friedmann-Lemaître-Robertson-Walker Metric and Cosmological Dynamics](chapter-47-flrw-friedmann/README.md)
+- [Chapter 48: The Standard Cosmological Model ($\Lambda$CDM)](chapter-48-cosmological-models/README.md)
+- [Chapter 49: The Hot Big Bang](chapter-49-hot-big-bang/README.md)
+- [Chapter 50: Cosmic Inflation](chapter-50-inflation/README.md)

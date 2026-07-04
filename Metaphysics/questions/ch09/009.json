@@ -1,0 +1,19 @@
+{
+  "question_id": "561ccbc2-c4d0-47dc-97c5-7c2ed500e26a",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Worrall's structural realism is motivated by the observation that Fresnel's equations for light were retained as limiting cases within Maxwell's theory even though Fresnel's ether ontology was abandoned.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Worrall's central example is that the mathematical structure (Fresnel's equations) survived the transition to Maxwell while the ether was discarded, motivating realism about structure together with agnosticism about the underlying objects. This continuity of structure across theory change is the core case for epistemic structural realism.",
+  "tags": [
+    "structural-realism",
+    "worrall"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

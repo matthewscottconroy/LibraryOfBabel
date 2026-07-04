@@ -74,6 +74,8 @@ theorem reverse_reverse (l : List α) : l.reverse.reverse = l
 
 *Hint:* You'll need the lemma `List.reverse_append`.
 
+**Exercise 2.6 (Metaprogramming).** Write a custom Lean 4 tactic `group_simp` that applies the group axioms to simplify group expressions. Start with the `macro` form (expanding to a `simp` call with the group axiom lemmas), then try the `elab` form for finer control.
+
 ---
 
 ## Section 3: Mathlib
@@ -153,6 +155,8 @@ example (n m : Nat) : Prop := n = m
 2. Write down its exact statement in Lean 4.
 3. Identify the key lemmas used in its proof (look at the proof dependencies).
 4. How does this relate to the fundamental group $\pi_1(S^1) = \mathbb{Z}$? (Hint: the Brouwer fixed-point theorem for dimension 2 can be proved using the fact that $\pi_1(S^1) \neq 0$.)
+
+**Exercise 4.6.** Formalize the Schröder-Bernstein theorem from scratch in Lean 4 (without using the Mathlib version, `Set.schroeder_bernstein`). Compare your statement and proof with Mathlib's when you are done.
 
 ---
 

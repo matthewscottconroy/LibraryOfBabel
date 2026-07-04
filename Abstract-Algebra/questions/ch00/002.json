@@ -1,0 +1,21 @@
+{
+  "question_id": "40c1860e-f31a-42a9-8a58-1b90a8900ad5",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is the power set 𝒫(∅) of the empty set?",
+  "choices": [
+    "∅",
+    "{∅}",
+    "{{∅}}",
+    "{∅, {∅}}"
+  ],
+  "answer": 1,
+  "explanation": "𝒫(A) collects all subsets of A, and ∅ has exactly one subset — ∅ itself — so 𝒫(∅) = {∅}, a one-element set. By contrast, {∅, {∅}} is 𝒫({∅}).",
+  "tags": [
+    "sets",
+    "power-set"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

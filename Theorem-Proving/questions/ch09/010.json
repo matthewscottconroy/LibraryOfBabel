@@ -1,0 +1,19 @@
+{
+  "question_id": "5d5f9429-dd1a-4e9f-8d60-35e20b44340c",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "blank",
+  "text": "___ is the technique of encoding formulas and proofs as natural numbers, which turns provability itself into an arithmetic predicate so that arithmetic can talk about its own syntax.",
+  "choices": [
+    "Gödel numbering"
+  ],
+  "answer": "Gödel numbering",
+  "explanation": "Gödel numbering assigns a unique natural number ⌜φ⌝ to each formula or proof (classically via prime factorization), so that 'the formula with number n is provable' becomes an arithmetic statement Provable(n). This self-reference machinery underlies both incompleteness theorems. The expected phrase is 'Gödel numbering'.",
+  "tags": [
+    "godel-numbering",
+    "provability",
+    "incompleteness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

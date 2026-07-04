@@ -1,0 +1,22 @@
+{
+  "question_id": "0cc9c9ec-1e95-4cdc-977a-3dc3089a84cc",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Ground Mereology M axiomatizes the parthood relation P as a partial order. Which trio of properties does this comprise?",
+  "choices": [
+    "Reflexivity, symmetry, transitivity",
+    "Irreflexivity, asymmetry, transitivity",
+    "Reflexivity, antisymmetry, transitivity",
+    "Reflexivity, antisymmetry, connectedness"
+  ],
+  "answer": 2,
+  "explanation": "M consists of M1 reflexivity (∀x P(x,x)), M2 antisymmetry, and M3 transitivity — exactly the axioms of a partial order. Symmetry would make parthood an equivalence relation; irreflexivity/asymmetry describe PROPER parthood PP, not P; and connectedness (comparability) is not required.",
+  "tags": [
+    "ground-mereology",
+    "partial-order",
+    "axioms"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

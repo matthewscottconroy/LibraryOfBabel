@@ -1,0 +1,22 @@
+{
+  "question_id": "6d2b6259-5457-4be8-9938-395f6f86ebba",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A standard objection to the coherence theory of truth is that:",
+  "choices": [
+    "it cannot explain why '\"snow is white\" is true' is equivalent to 'snow is white.'",
+    "it wrongly makes truth depend on correspondence to sui generis facts.",
+    "it entails that truth is recognition-transcendent and mind-independent.",
+    "multiple mutually incompatible belief systems can each be internally coherent, so coherence fails to single out a unique set of truths."
+  ],
+  "answer": 3,
+  "explanation": "The plurality objection: since more than one comprehensive system can be internally coherent while contradicting another, coherence alone cannot determine which system is the true one. Distractor 2 is backwards, since coherentism makes truth internal to a belief system rather than recognition-transcendent, and distractor 1 misattributes a correspondence commitment to a theory designed to avoid it.",
+  "tags": [
+    "coherence",
+    "objections",
+    "theories-of-truth"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

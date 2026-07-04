@@ -1,0 +1,22 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which data structure represents k-mer overlaps as a directed graph and forms the core structure used by many modern genome assembly algorithms?",
+  "choices": [
+    "de Bruijn graph",
+    "Suffix tree",
+    "Binary search tree",
+    "Adjacency matrix of a hash table"
+  ],
+  "answer": 0,
+  "explanation": "The de Bruijn graph represents each k-mer's overlaps as edges in a directed graph and is explicitly named as the core data structure for sequence assembly. Suffix trees are instead used for fast exact-match indexing and search rather than assembly graph construction, a binary search tree organizes ordered comparable keys for O(log n) search, and 'adjacency matrix of a hash table' is not a standard structure at all.",
+  "tags": [
+    "genome-assembly",
+    "de-bruijn-graph",
+    "graph-algorithms"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "362150c7-2420-4368-a36b-35dd3f5cfff2"
+}

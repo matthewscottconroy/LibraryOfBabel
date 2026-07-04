@@ -1,0 +1,21 @@
+{
+  "question_id": "b0bdfefb-3341-4760-a042-0c6f8af960b9",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The von Neumann entropy of a density matrix rho is:",
+  "choices": [
+    "-Tr(rho log rho)",
+    "Tr(rho^2)",
+    "-sum p log p only for classical p",
+    "Tr(rho)"
+  ],
+  "answer": 0,
+  "explanation": "S(rho) = -Tr(rho log rho) generalizes Shannon entropy to quantum states via the eigenvalues of rho. Tr(rho^2) is the purity and Tr(rho) = 1 always.",
+  "tags": [
+    "von-neumann-entropy",
+    "quantum-information"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

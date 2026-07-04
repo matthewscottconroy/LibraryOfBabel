@@ -1,0 +1,22 @@
+{
+  "question_id": "ea6d48fb-f1de-4d2d-9df7-9216458c7ec4",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Laudan's pessimistic meta-induction against scientific realism proceeds by:",
+  "choices": [
+    "showing that the correspondence relation between a theory and the facts generates an infinite regress.",
+    "arguing that empirically equivalent theories are underdetermined by all possible evidence.",
+    "inducing from a historical list of successful-but-now-rejected theories (phlogiston, caloric, the ether) that our current successful theories likely also have non-referring central posits.",
+    "showing that the observable/unobservable distinction is too vague to bear epistemic weight."
+  ],
+  "answer": 2,
+  "explanation": "The pessimistic meta-induction is an inductive generalization over the historical record: many past theories were empirically successful yet their central terms (phlogiston, caloric, the ether) do not refer, so success does not track truth. Distractor 3 is a genuine objection but it targets van Fraassen's observable/unobservable line (Churchland), not realism via the history of theory change.",
+  "tags": [
+    "pessimistic-meta-induction",
+    "laudan",
+    "anti-realism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

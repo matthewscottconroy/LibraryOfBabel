@@ -1,0 +1,21 @@
+{
+  "question_id": "c8eeceb4-0803-4ca6-9ab8-14271a3aeec6",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Yoneda lemma identifies the natural transformations Nat(Hom(A, −), F), for F: 𝒞 → Set, with:",
+  "choices": [
+    "the set F(A)",
+    "the set Hom(A, A)",
+    "the set of objects of 𝒞",
+    "the set F(Hom(A, A))"
+  ],
+  "answer": 0,
+  "explanation": "A natural transformation η is determined by the single element η_A(id_A) ∈ F(A), and every element arises this way. Consequence: the Yoneda embedding A ↦ Hom(A, −) is fully faithful — an object is determined by the maps out of (or into) it.",
+  "tags": [
+    "category-theory",
+    "yoneda"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

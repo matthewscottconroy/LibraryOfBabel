@@ -1,0 +1,20 @@
+{
+  "question_id": "fe2d993e-e489-4527-b19a-b9272aefc9e0",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Thomas Reid argued against the empiricist 'way of ideas' that positing ideas or sense-data as intermediaries between mind and world leads to skepticism, and that we instead perceive external objects directly.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: Reid attacked the empiricist 'way of ideas' (Descartes-Locke-Hume), arguing that treating ideas/sense-data as intermediaries leads to skepticism about the external world, and that perception is instead direct awareness of external objects. His view anticipates contemporary direct realism and disjunctivism.",
+  "tags": [
+    "reid",
+    "direct-realism",
+    "way-of-ideas"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

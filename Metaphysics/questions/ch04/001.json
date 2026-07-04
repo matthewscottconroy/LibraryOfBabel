@@ -1,0 +1,18 @@
+{
+  "question_id": "8d1a078c-acbe-47a0-bdec-4ddd7d02e3c7",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "'Necessarily, the number of planets is greater than seven' is naturally read as de dicto, while 'the number nine is necessarily greater than seven' is de re. What distinguishes the de re reading?",
+  "choices": [
+    "Necessity is predicated of a thing (the number nine) with respect to a property it has, not of a proposition taken as a whole.",
+    "Necessity is predicated of the proposition, or dictum, as a whole, rather than of any object.",
+    "The claim is knowable a priori, whereas de dicto claims are always a posteriori.",
+    "The claim quantifies over possible worlds, whereas de dicto claims do not."
+  ],
+  "answer": 0,
+  "explanation": "De re ('of the thing') necessity attributes a modal property to an object itself (nine could not have failed to exceed seven), whereas de dicto ('of the saying') necessity attributes necessity to a whole proposition. Option 1 states the de dicto reading, and option 2 wrongly ties the distinction to the a priori/a posteriori axis, which Kripke showed is independent of the de re/de dicto distinction.",
+  "tags": ["modality", "de-re", "de-dicto"],
+  "difficulty": "beginner",
+  "generated": true
+}

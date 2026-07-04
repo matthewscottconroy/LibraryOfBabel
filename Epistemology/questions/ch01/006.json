@@ -1,0 +1,18 @@
+{
+  "question_id": "b268eb28-f0db-4728-a207-a668da7a8857",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Zagzebski argues that Gettier problems are 'inescapable' for a certain class of analyses, which motivates virtue epistemology. Which analysis does virtue epistemology, via Sosa's notion of apt belief, offer in response?",
+  "choices": [
+    "Knowledge is belief that is accurate because adroit, i.e. true through the exercise of the believer's competence, treated as a unified achievement rather than as true belief plus a separable further condition.",
+    "Knowledge is true belief produced by a reliable belief-forming process, where the reliability is a mind-independent fact the believer need not be able to access.",
+    "Knowledge is true belief from which every false lemma has been excised from the chain of supporting inference.",
+    "Knowledge is true belief whose truth-conditions vary with the epistemic standards salient in the attributor's context."
+  ],
+  "answer": 0,
+  "explanation": "Zagzebski's point is that any analysis treating knowledge as true belief plus an independent positive condition can be Gettiered, because the condition can be satisfied while the truth remains lucky; virtue epistemology answers by making knowledge an integrated achievement, accuracy attained because of (through) competence, which is Sosa's 'apt' belief. Option 1 correctly states process reliabilism, precisely the kind of true-belief-plus-separable-condition view Zagzebski says stays Gettierable. Options 2 and 3 state the no-false-lemmas view and contextualism.",
+  "tags": ["virtue-epistemology", "sosa", "zagzebski", "apt-belief", "reliabilism"],
+  "difficulty": "advanced",
+  "generated": true
+}

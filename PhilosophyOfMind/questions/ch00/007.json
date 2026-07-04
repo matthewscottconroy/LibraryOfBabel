@@ -1,0 +1,21 @@
+{
+  "question_id": "e0b286f4-75ff-42df-85fe-ab8e3a129a3b",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Aristotle's hylomorphism treats the soul as the form of a living body rather than as a separate substance that merely inhabits the body.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "In De Anima the soul is the form (morphe) of a natural body having the capacity for life — not a Platonic separate substance imprisoned in the body. Aristotle compares asking whether soul and body are one to asking whether the wax and its shape are one. Because the soul is not a distinct substance, hylomorphism avoids the Cartesian interaction problem, so the statement is true.",
+  "tags": [
+    "aristotle",
+    "hylomorphism",
+    "soul",
+    "de-anima"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

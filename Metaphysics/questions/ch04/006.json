@@ -1,0 +1,18 @@
+{
+  "question_id": "f81f94ae-bd14-49b8-8eed-b70d54282336",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Kripke's 'standard meter' case is a specimen of the contingent a priori. Why is 'Stick S is one meter long' contingent?",
+  "choices": [
+    "Because it can be known only through empirical measurement of the stick.",
+    "Because 'one meter' is a rigid designator of the stick's length in every possible world.",
+    "Because the meaning of 'one meter' could not have been otherwise, given the stipulation that introduces it.",
+    "Because stick S could have had a different length; had it been manufactured differently, it would not have been one meter long."
+  ],
+  "answer": 3,
+  "explanation": "The claim is a priori because it follows from the reference-fixing stipulation alone, but contingent because the stick is an ordinary physical object that could have had a different length. Option 0 mistakes it for a posteriori, and option 1 confuses the rigidity of 'one meter' with the contingency of the stick's actual length, which is what the contingency actually concerns.",
+  "tags": ["modality", "contingent-a-priori", "kripke", "reference-fixing"],
+  "difficulty": "intermediate",
+  "generated": true
+}

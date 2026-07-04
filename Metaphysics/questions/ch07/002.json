@@ -1,0 +1,22 @@
+{
+  "question_id": "c897f9dd-b65a-4dd8-8cfb-56ad4c760adf",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Classical (conditional-analysis) compatibilism, associated with Hume, Moore, and Ayer, analyses 'S could have done otherwise' as which of the following?",
+  "choices": [
+    "S's action was uncaused by any prior event.",
+    "There is a possible world with the same laws and the same past in which S does otherwise.",
+    "S would have done otherwise if S had chosen (or wanted) to do otherwise.",
+    "S has an agent-causal power to originate a new causal chain."
+  ],
+  "answer": 2,
+  "explanation": "The conditional (hypothetical) analysis renders 'could have done otherwise' as a counterfactual about what S would have done given a different choice, which can be true even under determinism. 'Uncaused action' and 'agent-causal power' are libertarian, and the 'same laws and past' gloss is closer to Lewis's local-miracle reading than to the classical conditional analysis.",
+  "tags": [
+    "compatibilism",
+    "conditional-analysis",
+    "could-have-done-otherwise"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

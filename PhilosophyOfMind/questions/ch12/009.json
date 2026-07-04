@@ -1,0 +1,19 @@
+{
+  "question_id": "73028815-c12a-42d7-ac9b-8d01053ed94b",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In Husserl's tripartite structure of the living present — primal impression, retention, and ___ — the third phase is the anticipatory presence of what is immediately about to arrive.",
+  "choices": [
+    "protention"
+  ],
+  "answer": "protention",
+  "explanation": "The three phases of Husserl's living present are the primal impression (the now), retention (the just-past held as past), and protention (the anticipatory presence of the immediately upcoming). The expected term is 'protention.'",
+  "tags": [
+    "protention",
+    "husserl",
+    "time-consciousness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

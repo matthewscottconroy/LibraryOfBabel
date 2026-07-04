@@ -1,0 +1,23 @@
+{
+  "question_id": "f6daaa9a-3d92-4669-a380-833feba5c275",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the Timaeus, how does Plato famously define time (chronos)?",
+  "choices": [
+    "As a moving image of eternity, proceeding according to number",
+    "As the number of motion with respect to before and after",
+    "As the rational measure, or Logos, of an ever-changing fire",
+    "As the empty void in which eternal atoms move and recombine"
+  ],
+  "answer": 0,
+  "explanation": "At Timaeus 37d Plato defines time as 'a moving image of eternity, proceeding according to number' - the Demiurge's numbered, cyclical likeness of the changeless eternal model. Option 1 is Aristotle's later definition in the Physics; option 2 is Heraclitus' Logos; option 3 is the Atomists' void. Only the first is Plato's.",
+  "tags": [
+    "plato",
+    "timaeus",
+    "moving-image",
+    "eternity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

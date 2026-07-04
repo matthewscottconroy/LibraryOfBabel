@@ -1,0 +1,18 @@
+{
+  "question_id": "ad265049-434f-4e80-b235-1d8f0c352bd7",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The dimension of the space $\\mathrm{Cl}(G)$ of complex class functions on $G$ equals:",
+  "choices": [
+    "$|G|$, the order of the group",
+    "the number of conjugacy classes of $G$",
+    "the number of irreducible characters, which exceeds the number of conjugacy classes",
+    "$\\sum_i(\\dim V_i)^2$"
+  ],
+  "answer": 1,
+  "explanation": "A class function is constant on conjugacy classes, so the indicator functions of the classes form a basis and $\\dim\\mathrm{Cl}(G)$ is the number of conjugacy classes. Using $|G|$ overcounts (that is $\\dim\\mathbb{C}[G]$); the number of irreducible characters equals -- rather than exceeds -- the number of classes; and $\\sum_i(\\dim V_i)^2=|G|$.",
+  "tags": ["character-theory", "class-functions", "conjugacy-classes"],
+  "difficulty": "intermediate",
+  "generated": true
+}

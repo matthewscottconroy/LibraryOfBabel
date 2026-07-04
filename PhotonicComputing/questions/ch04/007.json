@@ -1,0 +1,13 @@
+{
+  "question_id": "a6fa7e19-b32d-4329-a9a7-4a02ab6d0995",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The maximum responsivity of an ideal (η = 1) photodiode at 1550 nm is about 1.25 A/W.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: R_max = eλ/(hc) with η = 1 gives ≈ 1.25 A/W at 1550 nm, and real Ge-on-Si detectors reach ~0.8–1.0 A/W. Responsivity rises with wavelength (up to the absorption cutoff) because each longer-wavelength photon carries less energy, yielding more electrons per watt.",
+  "tags": ["responsivity", "quantum-efficiency", "ge-on-si"],
+  "difficulty": "beginner",
+  "generated": true
+}

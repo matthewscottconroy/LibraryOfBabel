@@ -1,0 +1,20 @@
+{
+  "question_id": "7a269ef5-45f8-4670-9edd-658d70da7d73",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In the spectral-radius sweep plots, the vertical line marking the theoretical echo-state-property boundary is drawn at rho = ___.",
+  "choices": [
+    "1",
+    "1.0"
+  ],
+  "answer": "1",
+  "explanation": "rho = 1 is the ESP / edge-of-stability boundary: below it the linearized reservoir contracts (ESP holds), above it the origin is unstable and the ESP is generally lost. The sweep code draws a dashed vertical line at rho = 1, and empirically NMSE starts degrading just before it.",
+  "tags": [
+    "spectral-radius",
+    "esp-boundary",
+    "edge-of-chaos"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

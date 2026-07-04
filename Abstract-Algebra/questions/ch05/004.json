@@ -1,0 +1,21 @@
+{
+  "question_id": "c0c9d31e-98d9-4286-8684-ec3fc7502bd0",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "An n×n matrix over F whose characteristic polynomial has n distinct roots in F is necessarily:",
+  "choices": [
+    "diagonalizable",
+    "invertible",
+    "symmetric",
+    "similar to a single Jordan block"
+  ],
+  "answer": 0,
+  "explanation": "Eigenvectors for distinct eigenvalues are linearly independent, so n distinct eigenvalues yield an eigenbasis. Invertibility can still fail — 0 may be one of the distinct eigenvalues — and a single n×n Jordan block is the extreme opposite: one eigenvalue, one eigenvector line.",
+  "tags": [
+    "diagonalization",
+    "eigenvalues"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

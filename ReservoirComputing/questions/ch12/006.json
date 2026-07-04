@@ -1,0 +1,22 @@
+{
+  "question_id": "68ee8f66-3af7-4d50-8fa3-d42cd2df2f6c",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "With EQUAL leak rates α at every layer, how does the effective time constant at layer ℓ scale with depth?",
+  "choices": [
+    "τ^(ℓ) ≈ α / ℓ  (decreases with depth)",
+    "τ^(ℓ) ≈ ℓ / α  (grows linearly with depth)",
+    "τ^(ℓ) ≈ (1/α)^ℓ  (grows exponentially with depth)",
+    "τ^(ℓ) ≈ 1 / α  (the same at every layer)"
+  ],
+  "answer": 1,
+  "explanation": "For equal α the layer-ℓ impulse response is a negative-binomial (Pascal) kernel whose center of mass is ≈ ℓ/α, so the time constant grows LINEARLY with depth (an arithmetic hierarchy). Option 3 ignores the deepening memory. Exponential growth (option 2) requires geometrically DECREASING leak rates α_ℓ = α_1 r^(ℓ−1), not equal rates. Option 0 has the dependence backwards.",
+  "tags": [
+    "deep-esn",
+    "timescale-hierarchy",
+    "depth-scaling"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

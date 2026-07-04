@@ -1,0 +1,13 @@
+{
+  "question_id": "295250b7-4509-427b-989c-ab45bd39ecaf",
+  "chapter": 21,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In quantum key distribution, what role does the no-cloning theorem play?",
+  "choices": ["It allows Alice to make backup copies of the key for error correction", "It guarantees that photons travel at exactly two-thirds the speed of light in fiber", "It lets optical amplifiers regenerate quantum signals every 80 km", "It forbids copying an unknown quantum state, so an eavesdropper cannot duplicate photons and any information gain causes detectable disturbance"],
+  "answer": 3,
+  "explanation": "No-cloning (Wootters-Zurek) forbids duplicating an unknown state, so Eve cannot copy-and-forward a photon; any information she extracts disturbs the states and shows up as errors. Choice 0 inverts it (no one, including Alice, can copy an unknown state); choice 1 is an unrelated propagation fact; choice 2 is exactly what no-cloning forbids — quantum signals cannot be amplified around loss.",
+  "tags": ["no-cloning", "qkd", "security"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "f3d2e2cb-71dd-434e-b95d-7b6984a0bdd7",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A single CW pump laser feeding a high-Q microring can generate a broadband coherent optical frequency comb via cascaded four-wave mixing; the stable state that yields a sech²-shaped comb spectrum is called a dissipative Kerr ___.",
+  "choices": [
+    "soliton"
+  ],
+  "answer": "soliton",
+  "explanation": "The dissipative Kerr soliton (DKS) is a stable, self-organized pulse circulating in the ring that produces a coherent, evenly spaced frequency comb. Such combs supply many wavelength channels from one pump for WDM photonic matrix processing.",
+  "tags": [
+    "kerr-comb",
+    "dissipative-soliton",
+    "frequency-comb",
+    "wdm"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

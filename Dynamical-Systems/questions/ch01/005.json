@@ -1,0 +1,22 @@
+{
+  "question_id": "80f8faba-decc-4e97-b4c2-1aa686c3d0bb",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a metric space, compactness is equivalent to:",
+  "choices": [
+    "every sequence has a convergent subsequence",
+    "the space is bounded",
+    "the space is complete",
+    "the space is connected"
+  ],
+  "answer": 0,
+  "explanation": "In metric spaces compactness coincides with sequential compactness (every sequence has a convergent subsequence) and with 'every open cover has a finite subcover'. Boundedness, completeness, or connectedness alone do not imply compactness.",
+  "tags": [
+    "compactness",
+    "metric-spaces",
+    "analysis"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

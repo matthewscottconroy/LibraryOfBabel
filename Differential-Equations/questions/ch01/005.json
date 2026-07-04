@@ -1,0 +1,22 @@
+{
+  "question_id": "ce48d9db-8d80-47b9-95f4-84a77c454574",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "At a critical point of f(x,y), if the Hessian determinant D = f_xx f_yy - (f_xy)^2 satisfies D > 0 and f_xx < 0, the point is a:",
+  "choices": [
+    "saddle point",
+    "local minimum",
+    "degenerate point requiring higher-order analysis",
+    "local maximum"
+  ],
+  "answer": 3,
+  "explanation": "D > 0 with f_xx < 0 makes the Hessian negative definite, so the critical point is a local maximum. D > 0 with f_xx > 0 gives a minimum, D < 0 gives a saddle, and D = 0 is inconclusive.",
+  "tags": [
+    "second-derivative-test",
+    "hessian",
+    "optimization"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

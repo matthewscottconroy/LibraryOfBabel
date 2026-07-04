@@ -1,0 +1,21 @@
+{
+  "question_id": "14a1dd53-e4b0-4eed-a5ad-fbe7596a3406",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The directional derivative of a differentiable function f in the direction of a unit vector u is:",
+  "choices": [
+    "the cross product of grad f with u",
+    "the Hessian of f applied to u",
+    "the dot product grad f . u",
+    "the magnitude |grad f|, independent of u"
+  ],
+  "answer": 2,
+  "explanation": "For a differentiable function, D_u f = grad f . u. It is maximized (giving |grad f|) when u aligns with the gradient, but for a general direction it is the projection grad f . u. The cross product and Hessian are the wrong operations.",
+  "tags": [
+    "directional-derivative",
+    "gradient"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

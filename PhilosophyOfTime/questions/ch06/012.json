@@ -1,0 +1,18 @@
+{
+  "question_id": "324aa67d-664d-4d4e-a8f0-e9e5b4982765",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Wheeler-DeWitt equation of canonical quantum gravity takes the form Ĥ|Ψ⟩ = 0. Why is this the source of the 'problem of time'?",
+  "choices": [
+    "Because it predicts that the direction of time reverses at the Planck scale.",
+    "Because it is simply the ordinary Schrödinger equation applied to the whole universe.",
+    "Because it contains no time-derivative term, so the state of the universe appears static ('frozen') and evolution must be recovered as emergent, approximate, or relational.",
+    "Because it requires a metaphysically preferred frame of absolute simultaneity, reviving Newton's absolute time."
+  ],
+  "answer": 2,
+  "explanation": "Ĥ|Ψ⟩ = 0 has no time-derivative, so the wavefunction of the universe is static, the 'frozen dynamics' at the heart of the problem of time, forcing time to be recovered as emergent or relational (as in Barbour's Platonia or the Page-Wootters mechanism). Option 1 is wrong because the Schrödinger equation does have the d/dt term the Wheeler-DeWitt equation lacks; options 0 and 3 describe features the equation does not have.",
+  "tags": ["wheeler-dewitt", "problem-of-time", "frozen-dynamics", "quantum-gravity", "emergent-time"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -18,7 +18,5 @@ The global structure of spacetime — its causal structure, topology, and bounda
 
 ## Chapters in This Unit
 
-- [Chapter 50: Causal Structure and Penrose Diagrams](chapter-50-causal-structure/README.md)
-- [Chapter 51: Raychaudhuri's Equation and Focusing](chapter-51-raychaudhuri/README.md)
-- [Chapter 52: Energy Conditions](chapter-52-energy-conditions/README.md)
-- [Chapter 53: The Penrose and Hawking Singularity Theorems](chapter-53-singularity-theorems/README.md)
+- [Chapter 59: Trapped Surfaces and Singularity Theorems](chapter-59-trapped-surfaces-singularities/README.md)
+- [Chapter 60: Global Methods in General Relativity](chapter-60-global-methods/README.md)

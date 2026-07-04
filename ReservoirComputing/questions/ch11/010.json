@@ -1,0 +1,22 @@
+{
+  "question_id": "3494e512-40ec-4b17-abf7-17e629d890d0",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "How does conceptor pattern-storage capacity compare with a classical Hopfield network?",
+  "choices": [
+    "Both conceptors and Hopfield store about 0.14N patterns as fixed points",
+    "Conceptors store fewer patterns because each needs a full N x N matrix",
+    "Conceptors store patterns as fixed points, while Hopfield stores them as subspaces",
+    "Conceptors store patterns as subspaces with capacity sum_k rank(C_k) <= N, exceeding Hopfield's ~0.14N fixed-point capacity"
+  ],
+  "answer": 3,
+  "explanation": "Conceptors store patterns as subspaces, so K patterns fit as long as the ranks sum to at most N, allowing K >> 0.14N for low-dimensional patterns. Classical Hopfield stores fixed points with ~0.14N capacity. The other options invert the storage mechanism or the capacity comparison.",
+  "tags": [
+    "conceptor",
+    "capacity",
+    "hopfield"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

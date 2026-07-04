@@ -1,0 +1,18 @@
+{
+  "question_id": "582f9837-61fe-4990-a3da-b1a672304b57",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Ned Block's 'China brain' (or 'Chinese nation') case imagines a whole population collectively realizing the functional organization of a human brain. What is it meant to show?",
+  "choices": [
+    "That functional organization is insufficient even for access consciousness — information poised for reasoning and report.",
+    "That multiple realizability is false, since a population could not realize any mental states whatsoever.",
+    "That folk psychology is a false theory destined for elimination by a mature neuroscience.",
+    "That a system can satisfy the functional definition of mental states yet plausibly lack phenomenal consciousness — there is nothing it is like to be it — so functionalism fails for qualia."
+  ],
+  "answer": 3,
+  "explanation": "The China brain is an absent-qualia objection: the homunculi-headed system meets the functional specification but intuitively has no phenomenal consciousness. Block grants that functionalism can capture access consciousness, so option 0 misstates his view, and the case in fact relies on multiple realizability rather than refuting it, so option 1 is wrong. The precise target is phenomenal consciousness, not access consciousness or folk psychology.",
+  "tags": ["china brain", "block", "functionalism", "absent qualia", "phenomenal consciousness"],
+  "difficulty": "advanced",
+  "generated": true
+}

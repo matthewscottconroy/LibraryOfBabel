@@ -1,0 +1,21 @@
+{
+  "question_id": "1ed7cd7d-cc6e-4ede-b22b-49753e937acd",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "How is proper parthood PP(x,y) defined in classical mereology?",
+  "choices": [
+    "P(x,y) ∧ x ≠ y",
+    "P(x,y) ∨ x = y",
+    "P(x,y) ∧ P(y,x)",
+    "∃z(P(z,x) ∧ P(z,y))"
+  ],
+  "answer": 0,
+  "explanation": "PP(x,y) ≡ P(x,y) ∧ x ≠ y — a part that is not the whole itself (given antisymmetry this equals P(x,y) ∧ ¬P(y,x)). Option 1 defines an improper part (part-or-equal); option 2 (P both ways) forces identity by antisymmetry; option 3 is the definition of overlap O(x,y).",
+  "tags": [
+    "proper-part",
+    "definition"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

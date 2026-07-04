@@ -1,0 +1,19 @@
+{
+  "chapter": 15,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Promoter strength in synthetic biology is often reported in units of ___ (Polymerases Per Second), the standard measure of transcription initiation rate, analogous to RIPS for translation initiation.",
+  "choices": [
+    "PoPS"
+  ],
+  "answer": "PoPS",
+  "explanation": "PoPS (Polymerases Per Second) is the standard unit for reporting promoter strength as a rate of transcription initiation, paralleling RIPS (Ribosomes Initiated Per Second), which reports translational strength. Both units were promoted by the iGEM Registry and BioBrick standardization efforts, though absolute values remain context-dependent, since surrounding sequence can still affect measured expression.",
+  "tags": [
+    "pops",
+    "promoter-strength",
+    "measurement-standards"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "16de3c77-7a8a-44f4-97ec-b21a7f8feeec"
+}

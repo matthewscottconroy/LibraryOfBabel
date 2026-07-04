@@ -1,0 +1,22 @@
+{
+  "question_id": "8f7e0b37-d8d5-4c26-a234-db99f764e01e",
+  "chapter": 13,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The path quantifiers A ('for all paths') and E ('there exists a path') are characteristic of which logic?",
+  "choices": [
+    "LTL (Linear Temporal Logic)",
+    "CTL (Computation Tree Logic)",
+    "Propositional logic",
+    "Hoare logic"
+  ],
+  "answer": 1,
+  "explanation": "A and E are the branching-time path quantifiers of CTL, which reasons over the computation tree. LTL is linear — it reasons about a single trace and has no path quantifiers. Propositional and Hoare logic have no temporal path quantifiers at all.",
+  "tags": [
+    "ctl",
+    "path-quantifiers",
+    "branching-time"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

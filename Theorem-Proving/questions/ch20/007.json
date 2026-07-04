@@ -1,0 +1,20 @@
+{
+  "question_id": "fcc05145-905d-4754-9527-64f62dbcbc1e",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In a category, a morphism f: A → B is an isomorphism when there exists g: B → A such that g∘f = id_A and f∘g = id_B.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. This is the definition of isomorphism — a two-sided inverse under composition. It is a purely element-free notion; in Set it coincides with being a bijection, but the definition uses only composition and identity morphisms.",
+  "tags": [
+    "isomorphism",
+    "morphisms",
+    "definition"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

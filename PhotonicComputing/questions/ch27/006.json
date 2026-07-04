@@ -1,0 +1,18 @@
+{
+  "question_id": "adf88e48-0d43-4c70-9aa6-f4b8e316e46d",
+  "chapter": 27,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The optical energy per multiply-accumulate in an N x N mesh amortizes as 1/N, yet the 'converter wall' still dominates large problems. Why?",
+  "choices": [
+    "The DAC/ADC, laser, and calibration costs are paid once per input/output and do not amortize with N",
+    "The optical propagation loss grows as N squared",
+    "Lasers become dramatically less efficient as N grows",
+    "The Landauer floor rises with matrix size"
+  ],
+  "answer": 0,
+  "explanation": "A single pass through the mesh performs N-squared products, so the optical energy per MAC falls as 1/N, but the DAC and ADC per data element, the laser power, and the calibration overhead are paid once per input or output and do not amortize, so past a modest size the converters dominate. Optical loss does not scale as N-squared, laser efficiency is not N-dependent, and the Landauer floor is fixed.",
+  "tags": ["converter-wall", "amortization", "energy-accounting"],
+  "difficulty": "intermediate",
+  "generated": true
+}

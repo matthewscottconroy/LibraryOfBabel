@@ -1,0 +1,20 @@
+{
+  "question_id": "88a6fdbe-20a7-4286-bb7f-cff78e3b9505",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "When the echo state property holds, the reservoir asymptotically ___ its initial conditions.",
+  "choices": [
+    "forgets",
+    "forget",
+    "loses"
+  ],
+  "answer": "forgets",
+  "explanation": "The ESP is formally state-forgetting: trajectories from any two initial states converge under the same input, so the influence of the starting state fades away and only the input history determines the state.",
+  "tags": [
+    "esp",
+    "state-forgetting"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

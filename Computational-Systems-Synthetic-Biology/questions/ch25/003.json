@@ -1,0 +1,23 @@
+{
+  "chapter": 25,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which statement accurately distinguishes the Leiden algorithm from Louvain for community detection in biological networks?",
+  "choices": [
+    "Leiden minimizes the description length of a random walk instead of optimizing modularity",
+    "Leiden iteratively deletes the edge with highest betweenness centrality until modules are isolated",
+    "Leiden corrects Louvain's tendency to produce badly-connected communities, giving higher-quality partitions",
+    "Leiden requires a bipartite graph representation and cannot be applied to unipartite networks"
+  ],
+  "answer": 2,
+  "explanation": "Leiden was developed specifically to correct a known flaw in Louvain -- the possibility of producing internally disconnected or badly connected communities -- making it the preferred choice for high-quality community detection. Minimizing random-walk description length instead describes Infomap, and iteratively removing high-betweenness edges describes Girvan-Newman. Leiden has no bipartite-only restriction.",
+  "tags": [
+    "community-detection",
+    "leiden",
+    "louvain",
+    "modularity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "a9da4e6e-91bd-4e1f-a1c9-5efe75a6c934"
+}

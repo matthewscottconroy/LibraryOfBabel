@@ -1,0 +1,20 @@
+{
+  "question_id": "f9939d2a-4480-4fb0-967e-e138a5dffa04",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Armstrong is an a priori realist about universals: he holds that which universals exist can be settled by conceptual analysis alone, independently of empirical science.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Armstrong is an a posteriori, scientific realist: which universals there are is discovered by mature science, not by a priori reflection. His view is often called scientific realism about universals for exactly this reason.",
+  "tags": [
+    "armstrong",
+    "scientific-realism",
+    "universals"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "6a682f9e-af52-4170-aeac-c90e87ebf8ba",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Martha Nussbaum's neo-Stoic theory in Upheavals of Thought treats emotions as mere bodily feelings devoid of evaluative content.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Nussbaum treats emotions as eudaimonistic judgements -- evaluative cognitions about how things bearing on one's own flourishing are going (e.g., grief as the judgement that something of great worth has been lost). Treating emotions as contentless feelings is the feeling-theory view she explicitly opposes.",
+  "tags": [
+    "nussbaum",
+    "cognitive-theory",
+    "eudaimonistic-judgment",
+    "evaluation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

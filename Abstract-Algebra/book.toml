@@ -1,0 +1,19 @@
+# Build manifest for the Abstract Algebra textbook.
+# Content lives under book/ as part-XX/ chapter/ N.N-section/ N.N.N-subsection.md,
+# with _index.md providing each directory's intro.  Replaces book/build-book.py.
+title = "Abstract Algebra"
+subtitle = "From the Language of Mathematics to Lie Theory"
+
+# 00-preface.md then 00-master-toc.md open the book; notation-guide.md closes it.
+front_matter = [
+    "book/00-preface.md",
+    "book/00-master-toc.md",
+]
+back_matter = [
+    "book/notation-guide.md",
+]
+
+[[sources]]
+root = "book"
+recursive = true
+part_level = 1   # part-01 .. part-11 directories become \part

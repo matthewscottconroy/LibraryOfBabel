@@ -1,0 +1,15 @@
+# Build manifest for the Epistemology textbook.
+# Ten NN_* domain directories recurse into Unit_XX/Chapter_XX/... .  Within any
+# directory 00-unit-survey.md sorts first (00-*.md intro) and essay-questions.md
+# naturally sorts last.
+title = "Epistemology"
+subtitle = "A Systematic Survey of the Theory of Knowledge"
+
+front_matter = [
+    "reading-paths.md",
+]
+
+[[sources]]
+root = "."
+recursive = true
+part_level = 1   # 01_Foundations .. 10_Applied become \part

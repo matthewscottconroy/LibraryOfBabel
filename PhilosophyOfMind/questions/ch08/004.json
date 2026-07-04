@@ -1,0 +1,23 @@
+{
+  "question_id": "5ddb115a-64ac-4346-b28d-575f9c70b573",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Clark and Chalmers' 'parity principle,' the core of their extended-mind argument, states that:",
+  "choices": [
+    "if a part of the world does a job that we would count as cognitive were it done in the head, then that part of the world is part of the cognitive process",
+    "mental states are identical to brain states of one specific physical type",
+    "the body, not just the brain, is the seat of all genuine cognition",
+    "two functionally identical systems must share all the same phenomenal states"
+  ],
+  "answer": 0,
+  "explanation": "The parity principle says location should not matter: functional role, not being inside the skull, is what makes a process cognitive -- so Otto's notebook can be part of his memory. Option 1 is the type-identity theory; option 2 is embodied cognition; option 3 is a functionalist thesis about qualia, not the parity principle.",
+  "tags": [
+    "parity-principle",
+    "extended-mind",
+    "clark-chalmers",
+    "otto"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

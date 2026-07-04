@@ -1,0 +1,22 @@
+{
+  "question_id": "5b62a03a-1003-43ed-9434-bcaeb6718bb7",
+  "chapter": 19,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The 'Knobe effect' in experimental philosophy is the finding that...",
+  "choices": [
+    "knowledge intuitions are identical across all cultures tested",
+    "people judge a foreseen side-effect to be brought about 'intentionally' when it is harmful but not when it is beneficial, so moral valence shapes intentionality attribution",
+    "moral judgments are computed entirely by pure practical reason",
+    "zombies are positively conceivable but not metaphysically possible"
+  ],
+  "answer": 1,
+  "explanation": "Knobe found an asymmetry: the chairman who knowingly harms the environment is judged to act intentionally, while the one who knowingly helps it is not, showing our concept of intentional action carries an evaluative dimension. The other options misstate x-phi results or belong to different debates (rationalism; the conceivability/possibility distinction).",
+  "tags": [
+    "knobe-effect",
+    "intentional-action",
+    "experimental-philosophy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

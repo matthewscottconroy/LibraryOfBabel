@@ -1,0 +1,19 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Treating individual cells from scRNA-seq as independent replicates in differential expression testing inflates p-values; the recommended fix is to aggregate cells per sample into a ___ approach before applying DESeq2 or edgeR.",
+  "choices": [
+    "pseudo-bulk"
+  ],
+  "answer": "pseudo-bulk",
+  "explanation": "The pseudo-bulk approach sums or averages single-cell counts up to the sample level, restoring the correct number of independent biological replicates before applying standard bulk tools like DESeq2 or edgeR. Treating thousands of individual cells as independent observations severely inflates significance and produces many false positive genes.",
+  "tags": [
+    "single-cell-rna-seq",
+    "differential-expression",
+    "pseudo-bulk"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "90a41dd6-2d12-4fbc-92fb-38c62b1c7b03"
+}

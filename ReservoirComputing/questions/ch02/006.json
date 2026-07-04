@@ -1,0 +1,22 @@
+{
+  "question_id": "9e377f3d-c8a1-486b-a6d7-0322e7b49261",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the NARMA-10 lab, what happens when the ridge regularization is effectively removed (ridge_alpha ~ 0)?",
+  "choices": [
+    "Lower training error but higher test error - a textbook case of overfitting",
+    "Lower test error, because regularization always hurts accuracy",
+    "No change, since the readout is linear either way",
+    "The reservoir loses the echo state property and becomes chaotic"
+  ],
+  "answer": 0,
+  "explanation": "Setting ridge_alpha ~ 0 makes the readout ordinary least squares, which typically fits the training set better but generalizes worse - higher test NMSE, the classic overfitting signature. Regularization does not always hurt, does change the linear solution, and does not affect the (fixed) reservoir dynamics.",
+  "tags": [
+    "regularization",
+    "overfitting",
+    "narma-10"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

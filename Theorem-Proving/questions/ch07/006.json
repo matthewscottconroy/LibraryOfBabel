@@ -1,0 +1,22 @@
+{
+  "question_id": "cde513ad-5b08-4e97-9dc4-d0f63e5d5909",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the Fundamental Theorem of Arithmetic, existence of a prime factorization is proved by strong induction. Which lemma is the key to proving its uniqueness?",
+  "choices": [
+    "The pigeonhole principle",
+    "The division algorithm's uniqueness of remainder",
+    "Fermat's Little Theorem",
+    "Euclid's lemma: if a prime p divides ab, then p divides a or p divides b"
+  ],
+  "answer": 3,
+  "explanation": "Uniqueness of prime factorization rests on Euclid's lemma (p ∣ ab ⟹ p ∣ a or p ∣ b), itself a consequence of Bézout's identity; it forces any two factorizations of n to match prime-by-prime. The division algorithm and strong induction supply existence, not uniqueness, and Fermat's theorem and the pigeonhole principle play no role here.",
+  "tags": [
+    "fundamental-theorem-of-arithmetic",
+    "euclids-lemma",
+    "unique-factorization"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

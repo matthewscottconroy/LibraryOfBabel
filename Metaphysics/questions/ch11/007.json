@@ -1,0 +1,22 @@
+{
+  "question_id": "6714a2f7-7175-4a20-beda-fddf4241c201",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "On the contrast the text draws, Quine's disquotationalism differs from Horwich's minimalism in that:",
+  "choices": [
+    "Quine takes the primary truth-bearers to be sentences, whereas Horwich takes them to be language-independent propositions.",
+    "Quine takes truth to be a substantive property, whereas Horwich takes it to be merely redundant.",
+    "Quine accepts the T-schema, whereas Horwich rejects it.",
+    "Quine is at bottom a correspondence theorist, whereas Horwich is a coherence theorist."
+  ],
+  "answer": 0,
+  "explanation": "Both are deflationary, but Quine's disquotationalism is framed for the sentences of one's own language ('Snow is white' is true iff snow is white), which raises a parochialism worry, whereas Horwich's minimalism takes propositions as the primary truth-bearers to avoid it. Distractor 2 is wrong because both theories are built around the equivalence (T-)schema.",
+  "tags": [
+    "disquotationalism",
+    "minimalism",
+    "quine-horwich"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

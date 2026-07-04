@@ -1,0 +1,22 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the key algorithmic difference between the Smith-Waterman and Needleman-Wunsch recursions?",
+  "choices": [
+    "Needleman-Wunsch runs in O(nm) time while Smith-Waterman runs in O(n+m)",
+    "Smith-Waterman requires a substitution matrix while Needleman-Wunsch does not",
+    "Smith-Waterman floors negative scores at zero (local reset), while Needleman-Wunsch does not",
+    "Smith-Waterman uses affine gap penalties while Needleman-Wunsch is restricted to linear penalties"
+  ],
+  "answer": 2,
+  "explanation": "Smith-Waterman uses the same recursion as Needleman-Wunsch but resets any negative running score to zero, letting traceback start from the highest-scoring cell to find local regions of similarity. Both algorithms are O(nm) in time, both can use any substitution matrix, and the choice of linear vs. affine gap penalties is an independent modeling decision that applies to either algorithm.",
+  "tags": [
+    "sequence-alignment",
+    "smith-waterman",
+    "local-alignment"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "39b59289-6d19-4444-b8e4-1ba9191d9211"
+}

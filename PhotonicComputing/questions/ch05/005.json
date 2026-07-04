@@ -1,0 +1,13 @@
+{
+  "question_id": "2ddfbe98-4cdd-45fd-9731-4514c0b6a029",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The nonlinear parameter gamma of a 450x220 nm silicon strip waveguide (~290 W^-1 m^-1) is roughly 5000x larger than that of standard single-mode fiber. What is the primary reason?",
+  "choices": ["Silicon's linear refractive index is 5000x larger than glass", "The silicon waveguide has much lower propagation loss", "Its mode is confined to an effective area (~0.14 um^2) hundreds of times smaller than SMF's (~85 um^2), and silicon's n2 is also larger", "The silicon waveguide is much longer than a fiber span"],
+  "answer": 2,
+  "explanation": "gamma = n2*omega/(c*A_eff), so the ~600x smaller effective mode area of the silicon strip plus its larger nonlinear index n2 drive gamma up by ~5000x. Silicon's linear index (3.48) is only ~2.4x that of glass, not 5000x; loss and length do not appear in gamma at all.",
+  "tags": ["nonlinear-fiber", "effective-area", "silicon-waveguide"],
+  "difficulty": "intermediate",
+  "generated": true
+}

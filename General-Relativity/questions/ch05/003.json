@@ -1,0 +1,21 @@
+{
+  "question_id": "280f0e38-3b14-4495-a2ae-2db4e8aee3a9",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Maxwell added the displacement current term μ₀ε₀ ∂E/∂t to Ampère's law. What inconsistency does this term repair?",
+  "choices": [
+    "It makes ∇·B = 0 hold for time-varying fields",
+    "It cancels the curl of E appearing in Faraday's law",
+    "It makes Ampère's law consistent with charge conservation ∂ρ/∂t + ∇·J = 0",
+    "It removes the need to postulate magnetic monopoles"
+  ],
+  "answer": 2,
+  "explanation": "Taking the divergence of the static ∇×B = μ₀J forces ∇·J = 0, which contradicts continuity whenever ρ changes in time. Adding μ₀ε₀ ∂E/∂t and using ∇·E = ρ/ε₀ restores ∂ρ/∂t + ∇·J = 0. The fix concerns charge conservation, not monopoles or Faraday's law.",
+  "tags": [
+    "maxwell",
+    "displacement-current"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

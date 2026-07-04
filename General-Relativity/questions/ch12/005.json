@@ -1,0 +1,21 @@
+{
+  "question_id": "e4da0077-619a-4c47-ba80-1ac228ca0a87",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the Einstein-Hilbert action S = c⁴/(16πG) ∫ R√−g d⁴x, the scalar R that serves as the gravitational Lagrangian density is the:",
+  "choices": [
+    "Ricci scalar R = g^{μν} R_{μν}",
+    "Riemann tensor R^ρ_σμν",
+    "Ricci tensor R_{μν}",
+    "cosmological constant Λ"
+  ],
+  "answer": 0,
+  "explanation": "The book gives R = g^{μν} R_{μν}, the Ricci scalar, as the Einstein-Hilbert Lagrangian density (times √−g). The Riemann and Ricci tensors are not scalars and cannot serve as the Lagrangian, and Λ is a separate constant added as (R − 2Λ). By Lovelock's theorem R is the unique choice giving second-order field equations in 4D.",
+  "tags": [
+    "action-principle",
+    "ricci-scalar"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

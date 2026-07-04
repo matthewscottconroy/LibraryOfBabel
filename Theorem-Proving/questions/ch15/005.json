@@ -1,0 +1,21 @@
+{
+  "question_id": "9d8e05a6-4359-4894-bcf6-8c65fe6b2b97",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Adding Strong Supplementation (SSP) to Ground Mereology yields Extensional Mereology, whose central theorem is that:",
+  "choices": [
+    "every object is an atom",
+    "composite objects with the same proper parts are identical",
+    "parthood is symmetric",
+    "there is a null individual that is part of everything"
+  ],
+  "answer": 1,
+  "explanation": "SSP yields the extensionality theorem: objects that have proper parts and share all their proper parts are identical — the mereological analogue of set-theoretic extensionality. The 'have proper parts' proviso is needed since distinct atoms vacuously share none; and classical mereology proves there is NO null individual.",
+  "tags": [
+    "strong-supplementation",
+    "extensionality"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

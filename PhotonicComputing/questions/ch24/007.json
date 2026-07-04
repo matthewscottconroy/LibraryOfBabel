@@ -1,0 +1,13 @@
+{
+  "question_id": "aaada72d-19f2-4113-9ba0-ebcdadb00ac3",
+  "chapter": 24,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: The absence of any practical optical SRAM or DRAM — no way to store weights or activations in light — is described as one of the field's deepest limitations, keeping memory firmly in the electronic domain.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True — the book calls the lack of photonic memory the field's deepest limitation; weights and activations must live in electronic SRAM/DRAM, and DRAM access alone costs about 1 nJ per 64-bit word. Memory is a task where electronics wins decisively.",
+  "tags": ["optical-memory", "electronics-wins", "limitations"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "a9da3649-881c-41ef-ab6d-d6edd8e677c0",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Section 37.1 asks whether spacetime's emergence from a non-spatiotemporal substrate is strong or weak. What is the working assumption of the theoretical-physics community, and on what grounds?",
+  "choices": [
+    "Strong emergence, because spacetime is ontologically additional to the substrate, just as Chalmers argues consciousness is",
+    "Weak emergence, because spatiotemporal structure is taken to be in-principle derivable from the substrate, as temperature and pressure are from microphysics",
+    "Neither, because dualities like AdS/CFT are merely notational, on a par with expressing temperature in Celsius versus Fahrenheit",
+    "Strong emergence, because the Ryu-Takayanagi relation cannot in principle be derived from the boundary theory"
+  ],
+  "answer": 1,
+  "explanation": "The standard assumption is weak emergence: like temperature or pressure, spacetime is held to be in-principle derivable from the substrate, with AdS/CFT and the Ryu-Takayanagi formula as the worked examples. Strong emergence (ontologically additional, in-principle underivable) is Chalmers's claim about consciousness and is explicitly not the working hypothesis; Huggett and Wuthrich also argue the duality is substantive, not mere notation.",
+  "tags": ["emergence", "weak-emergence", "strong-emergence", "spacetime", "chalmers"],
+  "difficulty": "intermediate",
+  "generated": true
+}

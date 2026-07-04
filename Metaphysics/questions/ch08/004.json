@@ -1,0 +1,22 @@
+{
+  "question_id": "e86e16e4-c2b5-4581-864d-36271a223229",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Sider's heavyweight realism holds that ontological disputes are substantive because:",
+  "choices": [
+    "ordinary conceptual rules together with uncontested empirical facts settle them easily.",
+    "reality has a mind-independent structure, and there is a most natural, joint-carving meaning of the quantifier ('Ontologese') in which the questions can be posed.",
+    "the meaning of the quantifier varies freely across equally good languages.",
+    "external existence questions are merely practical choices among frameworks."
+  ],
+  "answer": 1,
+  "explanation": "Sider (Writing the Book of the World) argues that some notions carve nature at its joints and that there is a privileged, structural quantifier ('Ontologese'), so what exists has a determinate, non-conventional answer. The 'easy' conceptual-rules view is Thomasson, free-varying quantifiers is Hirsch, and practical framework choice is Carnap, all deflationary rivals Sider rejects.",
+  "tags": [
+    "sider",
+    "joint-carving",
+    "realism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

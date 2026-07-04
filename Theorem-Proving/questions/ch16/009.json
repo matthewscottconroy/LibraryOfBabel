@@ -1,0 +1,18 @@
+{
+  "question_id": "81075730-6b04-489f-a806-2404fa7b32e5",
+  "chapter": 16,
+  "phase": 4,
+  "kind": "blank",
+  "text": "When Shannon entropy is computed with logarithms to base 2, its value is measured in units called ___.",
+  "choices": [
+    "bits"
+  ],
+  "answer": "bits",
+  "explanation": "Base-2 logarithms give entropy in bits; the natural logarithm gives nats and base 10 gives hartleys. One fair coin flip carries exactly one bit.",
+  "tags": [
+    "bits",
+    "units"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "4a7c2e90-1b6d-4830-9f45-8c3e0b2d7a16",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The mushrooms we notice are only reproductive fruiting bodies; the main, mostly hidden body of a fungus is the network of hyphae called the ___.",
+  "choices": [
+    "mycelium"
+  ],
+  "answer": "mycelium",
+  "explanation": "The answer is mycelium, the branching mass of hyphae threading through soil or wood where the fungus feeds, transports resources, and (in this unit's framing) 'thinks.' A single mycelium, such as the Armillaria ostoyae individual in Oregon spanning about 9.6 square kilometers, can be among the largest organisms on Earth.",
+  "tags": [
+    "fungal-biology",
+    "mycelium"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

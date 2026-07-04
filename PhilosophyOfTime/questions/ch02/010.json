@@ -1,0 +1,20 @@
+{
+  "question_id": "52367e36-2e74-4d89-a31f-2e4fbb2ad229",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Augustine's term for the nature of temporal existence — the 'stretching' or 'distension' of the soul between memory and expectation, with attention connecting them — is the Latin phrase ___.",
+  "choices": [
+    "distentio animi"
+  ],
+  "answer": "distentio animi",
+  "explanation": "The expected answer is distentio animi ('distension of the soul'), Augustine's positive account of time in Confessions XI.26.33: the soul is stretched between memory and expectation, and this is what gives the experienced present its felt 'thickness,' in contrast to the durationless present of strict analysis.",
+  "tags": [
+    "augustine",
+    "distentio-animi",
+    "soul",
+    "confessions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

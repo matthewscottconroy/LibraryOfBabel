@@ -1,0 +1,13 @@
+{
+  "question_id": "fe3dd67a-fe9d-4c93-9cd4-1e385bdfc3b5",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The invariant time elapsed on a clock carried along a worldline, given by dτ = √(−ds²)/c = dt/γ, is called the ___ time.",
+  "choices": ["proper"],
+  "answer": "proper",
+  "explanation": "Proper time dτ = √(−ds²)/c = dt√(1−v²/c²) is measured by a co-moving clock and is frame-independent — all observers agree on its value. It is distinct from coordinate time t, which depends on the frame. The straight (inertial) worldline between two events maximizes proper time.",
+  "tags": ["proper-time", "invariant", "worldline"],
+  "difficulty": "beginner",
+  "generated": true
+}

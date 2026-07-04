@@ -1,0 +1,22 @@
+{
+  "question_id": "27ea4e0c-4a4b-489c-bcc3-b60a3f910921",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The multiple realizability argument (Putnam, Fodor) is standardly taken to show that:",
+  "choices": [
+    "higher-level kinds such as pain lack strict Nagelian bridge laws to physical kinds, because one and the same higher-level property is realized by heterogeneous physical states.",
+    "mental properties are identical to their physical realizers, vindicating the type-identity theory.",
+    "the special sciences reduce to physics via disjunctive bridge laws that pick out genuine natural kinds.",
+    "every physical event has a sufficient physical cause, so mental properties are epiphenomenal."
+  ],
+  "answer": 0,
+  "explanation": "If pain is realized by C-fibers in humans, other structures in octopuses, and possibly silicon circuits, then no single physical predicate is necessary and sufficient for pain, so the strict biconditional bridge law Nagelian reduction requires fails. Distractor 3 is Kim's causal exclusion argument—a distinct challenge that presupposes multiple realizability rather than being what the argument establishes.",
+  "tags": [
+    "reduction",
+    "multiple-realizability",
+    "fodor"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

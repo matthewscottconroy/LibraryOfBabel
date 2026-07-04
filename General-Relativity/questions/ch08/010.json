@@ -1,0 +1,18 @@
+{
+  "question_id": "7f6492eb-0f2e-4799-8d90-e99239ca3933",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The cosmological constant can be added to the field equations as G_μν + Λ g_μν = 8πG T_μν/c⁴. Why is this addition consistent with local energy-momentum conservation ∇_μ T^μν = 0?",
+  "choices": [
+    "Because metric compatibility gives ∇_μ g^μν = 0, so the Λ g_μν term is automatically divergence-free, exactly like G_μν",
+    "Because Λ is chosen small enough that its divergence is negligible in practice",
+    "Because g_μν is antisymmetric, so Λ g_μν drops out of the conservation law",
+    "Because the cosmological constant only affects the trace of the equations, not their divergence"
+  ],
+  "answer": 0,
+  "explanation": "Metric compatibility of the Levi-Civita connection means ∇_μ g^μν = 0, so Λ g_μν is identically divergence-free, just as G_μν is divergence-free by the contracted Bianchi identity. Taking the covariant divergence of both sides therefore still yields ∇_μ T^μν = 0. The consistency is exact, not approximate; g_μν is symmetric, not antisymmetric; and this is why Lovelock's theorem admits precisely the combination α G_μν + Λ g_μν.",
+  "tags": ["cosmological-constant", "bianchi", "conservation"],
+  "difficulty": "advanced",
+  "generated": true
+}

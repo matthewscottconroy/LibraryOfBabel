@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In saturation mutagenesis, an NNK degenerate codon is used at a target position because it...",
+  "choices": [
+    "Encodes only positively charged amino acids",
+    "Encodes all 20 amino acids using 32 possible codons, while including only 1 stop codon",
+    "Eliminates all stop codons while encoding exactly 20 codon combinations",
+    "Encodes only the wild-type amino acid and its closest chemical analogs"
+  ],
+  "answer": 1,
+  "explanation": "NNK (N = any of the 4 bases, K = G or T) reduces codon redundancy while still encoding all 20 amino acids across 32 possible codon combinations, with only 1 stop codon (TAG), which makes it efficient for building saturation mutagenesis libraries. It does not restrict to charged residues, it does not reduce to exactly 20 codons total (it uses 32), and it is not limited to the wild-type residue and close analogs -- the entire point is complete randomization at that position.",
+  "tags": [
+    "saturation-mutagenesis",
+    "nnk-codon",
+    "degenerate-codons"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "1f156c61-72ae-4646-8a55-d5d1e0a4ae5e"
+}

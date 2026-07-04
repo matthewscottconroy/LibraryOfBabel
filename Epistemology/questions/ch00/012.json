@@ -1,0 +1,20 @@
+{
+  "question_id": "6fe1665c-5cac-4845-a332-a5925911bf65",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "In 'Two Dogmas of Empiricism' (1951), Quine attacks the ___ distinction, arguing that no principled, theory-neutral line divides truths that hold by meaning from truths that hold by fact.",
+  "choices": [
+    "analytic-synthetic"
+  ],
+  "answer": "analytic-synthetic",
+  "explanation": "Quine's target is the analytic-synthetic distinction: the notion of analyticity, he argues, rests on synonymy, which itself presupposes analyticity, so the distinction lacks non-circular foundations. This is one of the two 'dogmas'; the other is reductionism, the claim that each statement is confirmable by a determinate range of experience.",
+  "tags": [
+    "quine",
+    "two dogmas",
+    "analytic-synthetic",
+    "naturalized epistemology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

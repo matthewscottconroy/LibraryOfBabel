@@ -1,0 +1,22 @@
+{
+  "question_id": "c60e3df7-73de-4a22-a3a1-1a951c7fbbdb",
+  "chapter": 11,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The MLC conjecture concerns the local connectivity of the:",
+  "choices": [
+    "Julia set",
+    "Mandelbrot set",
+    "Fatou set",
+    "Cantor middle-thirds set"
+  ],
+  "answer": 1,
+  "explanation": "MLC asks whether the Mandelbrot set is locally connected; a positive answer would give a complete combinatorial model of the quadratic family. Julia/Fatou sets are the dynamical, not parameter, objects.",
+  "tags": [
+    "mlc-conjecture",
+    "mandelbrot-set",
+    "complex-dynamics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

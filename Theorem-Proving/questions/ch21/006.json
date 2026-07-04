@@ -1,0 +1,23 @@
+{
+  "question_id": "6e3967bd-9400-4fc6-a854-c006c4c3b26d",
+  "chapter": 21,
+  "phase": 5,
+  "kind": "mc",
+  "text": "David Lewis's modal realism (On the Plurality of Worlds, 1986) holds that possible worlds are:",
+  "choices": [
+    "maximal consistent sets of propositions — abstract objects",
+    "useful fictions with no ontological status",
+    "concrete, spatiotemporally isolated universes, as real as the actual world",
+    "mental constructions in the mind of God"
+  ],
+  "answer": 2,
+  "explanation": "Lewis's modal realism takes possible worlds to be concrete, spatiotemporally isolated universes exactly as real as ours — the actual world being merely the one we inhabit — which provokes the 'incredulous stare.' Option A is ersatzism (Plantinga, Adams, Stalnaker); the fictionalist and theistic readings (B, D) are not Lewis's view.",
+  "tags": [
+    "modal-realism",
+    "lewis",
+    "possible-worlds",
+    "ersatzism"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "f39e46c4-706e-474b-ab8f-d712e463c496",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A Hopf bifurcation gives birth, from an equilibrium, to a:",
+  "choices": [
+    "saddle point",
+    "limit cycle (periodic orbit)",
+    "strange attractor",
+    "heteroclinic cycle"
+  ],
+  "answer": 1,
+  "explanation": "At a Hopf bifurcation a complex-conjugate pair of eigenvalues crosses the imaginary axis and a small-amplitude periodic orbit (limit cycle) is born. It is the primary mechanism for oscillation onset in flows.",
+  "tags": [
+    "hopf-bifurcation",
+    "limit-cycle",
+    "oscillators"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

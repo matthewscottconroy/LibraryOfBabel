@@ -1,0 +1,13 @@
+{
+  "question_id": "a1c4e7f2-3b8d-4e6a-9c2f-1d5b8e0a4f37",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The functional definition of cognition used throughout this book identifies a three-part 'SIA' architecture as the minimal structure of any cognitive process. What are its three components?",
+  "choices": ["Perceiving, reasoning, and speaking", "Sensing, integrating, and acting", "Stimulus, response, and reward", "Encoding, storing, and retrieving"],
+  "answer": 1,
+  "explanation": "The book defines cognition functionally as the sensing-integrating-acting (SIA) triad: detecting relevant signals, combining them (possibly with stored information), and producing behavior directed by that combined assessment. 'Perceiving-reasoning-speaking' describes anthropocentric higher cognition; 'stimulus-response-reward' is behaviorist conditioning; 'encoding-storing-retrieving' is the memory-systems model, only one facet of cognition.",
+  "tags": ["functional-cognition", "sia-triad", "definition"],
+  "difficulty": "beginner",
+  "generated": true
+}

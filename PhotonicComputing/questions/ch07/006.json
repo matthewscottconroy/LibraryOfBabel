@@ -1,0 +1,13 @@
+{
+  "question_id": "188580bc-2ae5-4b3e-ac6a-a2bf964618bc",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "At 1550 nm, surface plasmon polaritons propagate only ~50 um on gold (~300 um on silver). Together with the confinement-loss tradeoff, this implies that plasmonics is:",
+  "choices": ["Ideal for long-haul optical fiber links", "Completely lossless when silver is used", "Able to beat silicon waveguides for meter-scale on-chip routing", "Best suited to very short devices where sub-wavelength confinement outweighs the loss, such as 10-20 um slot modulators"],
+  "answer": 3,
+  "explanation": "Ohmic metal loss makes long plasmonic paths nonviable, so plasmonics wins only in short structures where extreme confinement pays off, e.g. 10-20 um slot modulators with Vpi*L < 0.01 V*mm. Silver is lower-loss but not lossless, and plasmonics cannot compete for long-haul fiber or meter-scale routing.",
+  "tags": ["plasmonics", "surface-plasmon-polariton", "confinement-loss-tradeoff"],
+  "difficulty": "advanced",
+  "generated": true
+}

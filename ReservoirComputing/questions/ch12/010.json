@@ -1,0 +1,22 @@
+{
+  "question_id": "fae3b5c3-838f-469b-acd4-0545844bb7aa",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In the DeepESN cascade, the ___ of layer ℓ is fed as the input to layer ℓ+1 (with layer 1 receiving the external input u_t).",
+  "choices": [
+    "state",
+    "states",
+    "state vector",
+    "hidden state"
+  ],
+  "answer": "state",
+  "explanation": "Layers are stacked so that layer ℓ's state vector x_t^(ℓ) drives layer ℓ+1 (with the convention x_t^(0) = u_t). Because each layer sees the already-smoothed state of the one below, upper layers inherit progressively slower dynamics — the mechanism that produces the emergent timescale hierarchy.",
+  "tags": [
+    "deep-esn",
+    "architecture",
+    "stacking"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

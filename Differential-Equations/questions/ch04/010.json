@@ -1,0 +1,21 @@
+{
+  "question_id": "c06ab209-1580-41a2-a702-1b87921298f5",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "As the period of a periodic function tends to infinity, the Fourier series passes to the Fourier transform because:",
+  "choices": [
+    "the discrete frequencies merge into a continuous spectrum and the sum becomes an integral",
+    "the coefficients all tend to zero and the function becomes constant",
+    "the function is forced to become even",
+    "orthogonality is lost in the limit"
+  ],
+  "answer": 0,
+  "explanation": "Letting L grow spaces the harmonics n*pi/L infinitesimally, so the discrete sum over n becomes an integral over a continuous frequency (the Fourier integral theorem). Orthogonality persists as a delta-function relation rather than being lost.",
+  "tags": [
+    "fourier-integral",
+    "series-to-transform"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

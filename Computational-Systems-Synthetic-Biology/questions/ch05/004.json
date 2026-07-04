@@ -1,0 +1,22 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which pair of tools performs \"ab initio\" gene prediction \u2014 inferring gene structure from statistical models rather than direct transcript or protein evidence?",
+  "choices": [
+    "Trinity and StringTie",
+    "AUGUSTUS and GeneMark",
+    "MAKER and BRAKER",
+    "InterProScan and BLAST"
+  ],
+  "answer": 1,
+  "explanation": "AUGUSTUS and GeneMark use Hidden Markov Models of gene structure (codon usage, splice sites, start/stop codons) without requiring RNA-seq or homology evidence, which is the definition of ab initio prediction. Trinity and StringTie build evidence-based transcript assemblies from RNA-seq reads, MAKER and BRAKER are pipelines that integrate ab initio predictions with RNA-seq and/or protein homology evidence, and InterProScan/BLAST are functional annotation tools applied after genes have already been predicted.",
+  "tags": [
+    "genome-annotation",
+    "ab-initio",
+    "gene-prediction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "cdeffc4b-d831-42ad-932f-eac20c8486af"
+}

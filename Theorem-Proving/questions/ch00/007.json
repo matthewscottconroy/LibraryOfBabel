@@ -1,0 +1,20 @@
+{
+  "question_id": "9f787331-1171-4204-bca1-84fc9b690f69",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "An argument can be valid even though all of its premises are false and its conclusion is false, because validity concerns the argument's form rather than the actual truth of its statements.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The chapter's example 'All fish can fly; salmon are fish; therefore salmon can fly' is valid yet has false premises and a false conclusion. Validity only requires that IF the premises were true the conclusion would have to be; it is about form, not actual truth.",
+  "tags": [
+    "validity",
+    "soundness",
+    "arguments"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

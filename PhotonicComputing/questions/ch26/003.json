@@ -1,0 +1,18 @@
+{
+  "question_id": "405d6c52-4366-47bb-8fd1-762aee03e835",
+  "chapter": 26,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What cautionary lesson does 'simulated bifurcation' (Goto et al., 2019) teach about benchmarking photonic Ising machines?",
+  "choices": [
+    "Photonic Ising machines are provably faster than any classical algorithm",
+    "Analog optics can reach 16-bit precision cheaply",
+    "A purely classical GPU/FPGA algorithm, inspired by the CIM's own nonlinear dynamics, matches or exceeds many photonic demonstrations on the very same instances",
+    "Simulated bifurcation requires a cryogenic quantum annealer to run"
+  ],
+  "answer": 2,
+  "explanation": "Simulated bifurcation is a classical algorithm inspired by the CIM's own dynamics that runs on GPUs and FPGAs and matches or beats many photonic Ising demonstrations on identical instances, enforcing the discipline of comparing against the best classical heuristic with a time-to-target metric. The other options invert this lesson or wrongly place the algorithm on quantum hardware.",
+  "tags": ["ising-machine", "benchmarking", "simulated-bifurcation", "baselines"],
+  "difficulty": "advanced",
+  "generated": true
+}

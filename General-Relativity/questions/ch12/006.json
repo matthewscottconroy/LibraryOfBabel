@@ -1,0 +1,21 @@
+{
+  "question_id": "b6f5bf4d-0e34-4a6d-9fe5-fe2583768837",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The book adds the Gibbons-Hawking-York term S_GHY = c⁴/(8πG) ∫_∂M K√|h| d³x to the Einstein-Hilbert action in order to:",
+  "choices": [
+    "introduce the cosmological constant Λ into the field equations",
+    "make the action invariant under diffeomorphisms",
+    "obtain a well-posed variational problem requiring only δg^{μν} = 0 on the boundary ∂M",
+    "convert the metric variation into the Palatini (first-order) variation"
+  ],
+  "answer": 2,
+  "explanation": "The book explains that the Einstein-Hilbert action's second derivatives produce boundary terms that survive unless ∂_α δg^{μν} also vanishes on ∂M; the GHY term (with K the trace of the boundary's extrinsic curvature) cancels them so that only δg^{μν} = 0 is needed. It does not supply Λ, is not the source of diffeomorphism invariance, and is distinct from the Palatini approach.",
+  "tags": [
+    "action-principle",
+    "gibbons-hawking-york"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "1d51ebde-236d-4009-b9e1-50aba33eb355",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Fricker's canonical example of hermeneutical injustice is the plight of women who suffered what we now call 'sexual harassment' before that concept existed. It illustrates hermeneutical injustice because:",
+  "choices": [
+    "a gap in the community's shared interpretive resources left them unable to name and adequately make sense of their own experience.",
+    "individual hearers deflated the women's credibility because of sexist prejudice about their reliability as witnesses.",
+    "the women in fact possessed the relevant concept but were structurally excluded from contributing it to public discourse.",
+    "the women were granted more credibility than the evidence warranted, distorting the credibility economy in their favour."
+  ],
+  "answer": 0,
+  "explanation": "Hermeneutical injustice is a structural, pre-testimonial wrong: the collective hermeneutical resource lacks a concept (here 'sexual harassment'), so the harmed group cannot adequately interpret or communicate its own experience. Option 1 is testimonial injustice (a credibility deficit at the moment of uptake); option 2 is Dotson's contributory injustice; option 3 is credibility excess rather than deficit. Only option 0 states the hermeneutical gap.",
+  "tags": ["epistemic-injustice", "hermeneutical-injustice", "fricker", "conceptual-resources"],
+  "difficulty": "beginner",
+  "generated": true
+}

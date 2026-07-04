@@ -1,0 +1,19 @@
+{
+  "question_id": "e4424bba-8b30-4885-8d64-9f2ba1322b90",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Husserl's term for the pre-theoretical world of everyday practical experience that science presupposes and abstracts from is the ___.",
+  "choices": [
+    "lifeworld",
+    "life-world"
+  ],
+  "answer": "lifeworld",
+  "explanation": "Husserl's 'lifeworld' (Lebenswelt) is the pre-theoretical world of everyday practical experience that scientific understanding presupposes and abstracts from. The expected term is 'lifeworld.'",
+  "tags": [
+    "lifeworld",
+    "husserl"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "19734d69-b9ee-4a77-a32b-b2c9f87a86f1",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The min-entropy (Renyi entropy of order infinity) of X equals:",
+  "choices": [
+    "-log max_x p(x)",
+    "log of the support size",
+    "the Shannon entropy",
+    "0"
+  ],
+  "answer": 0,
+  "explanation": "H_infinity(X) = -log max_x p(x) is governed by the most likely outcome and controls extractable randomness. Log-support-size is H_0; Shannon is H_1.",
+  "tags": [
+    "renyi-entropy",
+    "min-entropy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -35,4 +35,4 @@ individual. It is always present in standard FOL (FOL with equality).
 - **Python**: predicates are Python functions returning bool; relations are sets of tuples
 
 ## Exercises
-See `problems/ch03_predicate_logic/01_translation_exercises.md`
+See `problems/ch03_first_order_logic/01_translation_exercises.md`

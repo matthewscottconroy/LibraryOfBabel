@@ -1,0 +1,20 @@
+{
+  "question_id": "d1f97a27-947b-4daa-97f0-f664f1a6a26e",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In Husserl's analysis of the living present, the phase directed toward the about-to-come — a pre-reflective, 'empty' anticipatory reaching toward what is imminently arriving — is called ___.",
+  "choices": [
+    "protention"
+  ],
+  "answer": "protention",
+  "explanation": "Protention is Husserl's term for the forward-facing, 'empty' intentionality of the living present; when the anticipated event arrives, the protention is 'filled' and becomes a primal impression, which then sinks into retention. It is distinct from retention (which holds the just-past) and from the primal impression (the now-phase), and it is not a conscious prediction or considered expectation.",
+  "tags": [
+    "husserl",
+    "protention",
+    "living-present",
+    "phenomenology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 2,
+  "kind": "mc",
+  "text": "How many submodels were integrated in the Karr et al. (2012) whole-cell model, and how did they communicate with one another?",
+  "choices": [
+    "5 submodels, unified into a single system of ordinary differential equations",
+    "28 submodels, each running independently with no shared state between them",
+    "100 submodels, one for each Gene Ontology functional category",
+    "28 submodels, communicating through shared cellular state variables such as metabolite concentrations, protein counts, and DNA state, updated at each time step"
+  ],
+  "answer": 3,
+  "explanation": "The model integrated 28 submodels, each using the mathematical framework best suited to its process (for example, FBA for metabolism, kinetic models for transcription), and these submodels communicated by reading and writing shared cellular state variables at each simulation time step. It was not a single unified ODE system (choice 0) -- one key lesson of the project was that different processes needed different mathematical frameworks. The submodels also were not independent (choice 1); consistent communication through shared state was described as the hardest part of the project. Choice 2 states an invented and incorrect submodel count and organizing principle.",
+  "tags": [
+    "whole-cell-model",
+    "karr-2012",
+    "submodel-integration"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "13ba453c-6e74-4932-89ed-b4bfbbb2a376"
+}

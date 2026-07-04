@@ -1,0 +1,13 @@
+{
+  "question_id": "48f90a42-d20f-43a3-8d58-a97f8c5ee2f5",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Four-wave mixing is strongest far from the zero-dispersion wavelength, which is why SMF-28 operating at 1550 nm with 100 GHz channel spacing is severely limited by FWM.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Four-wave mixing is phase-matched and therefore strongest NEAR the zero-dispersion wavelength. Because SMF-28 has substantial dispersion (~17 ps/(nm*km)) at 1550 nm, phase matching is broken and FWM is negligible at 100 GHz spacing.",
+  "tags": ["four-wave-mixing", "nonlinear-fiber", "dispersion"],
+  "difficulty": "intermediate",
+  "generated": true
+}

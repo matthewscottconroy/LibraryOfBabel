@@ -1,0 +1,23 @@
+{
+  "question_id": "b9b2bd55-da08-4a6f-be8d-4b12f894bce6",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which statement correctly distinguishes probabilism from conditionalization?",
+  "choices": [
+    "Probabilism is a synchronic constraint requiring credences at a single time to obey the probability axioms; conditionalization is a diachronic rule prescribing how credences should change over time upon learning evidence.",
+    "Probabilism is the diachronic rule for updating on new evidence, whereas conditionalization is the synchronic requirement that one's credences be coherent at a given time.",
+    "Both are diachronic rules: probabilism governs updating on certain evidence and conditionalization governs updating on uncertain evidence.",
+    "Both are synchronic constraints; they are simply two names for the requirement that an agent's credences sum to 1."
+  ],
+  "answer": 0,
+  "explanation": "Probabilism is a synchronic coherence norm: at any single time an agent's credences must satisfy the Kolmogorov axioms. Conditionalization is a diachronic norm: on learning E, one's new credence in H should equal the old conditional credence cr_old(H|E). Option 1 reverses the two; option 2 confuses conditionalization with Jeffrey conditionalization (the rule for uncertain evidence); option 3 collapses both into mere normalization.",
+  "tags": [
+    "probabilism",
+    "conditionalization",
+    "synchronic",
+    "diachronic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

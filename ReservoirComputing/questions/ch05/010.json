@@ -1,0 +1,19 @@
+{
+  "question_id": "638b90b2-427f-4003-8c2d-10faa04d6f74",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "By the memory-nonlinearity tradeoff, capacity a reservoir spends on ___ computation is capacity that is no longer available for linear memory.",
+  "choices": [
+    "nonlinear",
+    "non-linear"
+  ],
+  "answer": "nonlinear",
+  "explanation": "The total capacity budget (<= N) is shared between linear memory (degree-1) and nonlinear (degree >= 2) processing. Because the budget is conserved, every unit devoted to nonlinear computation is subtracted from the linear memory capacity, which is why a purely linear reservoir maximizes MC.",
+  "tags": [
+    "memory-capacity",
+    "memory-nonlinearity-tradeoff"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

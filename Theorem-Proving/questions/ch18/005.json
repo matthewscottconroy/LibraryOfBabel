@@ -1,0 +1,23 @@
+{
+  "question_id": "676ed0d2-26d6-41ec-968e-20cd90874403",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is ℤ/6ℤ not a field?",
+  "choices": [
+    "It is not commutative",
+    "It has no multiplicative identity",
+    "It has zero divisors: [2]·[3] = [0] with [2], [3] ≠ [0]",
+    "6 is prime, so the field construction fails"
+  ],
+  "answer": 2,
+  "explanation": "ℤ/nℤ is a field exactly when n is prime; for composite n = 6 = 2·3 the nonzero classes [2] and [3] satisfy [2]·[3] = [0], so they are zero divisors and ℤ/6ℤ is not even an integral domain. It is commutative, does have identity [1], and 6 is composite (not prime), so the other options are false.",
+  "tags": [
+    "rings",
+    "fields",
+    "zero-divisors",
+    "modular-arithmetic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

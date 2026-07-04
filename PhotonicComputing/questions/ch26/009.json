@@ -1,0 +1,19 @@
+{
+  "question_id": "54423bff-8595-45c8-8330-616d96a652c4",
+  "chapter": 26,
+  "phase": 4,
+  "kind": "blank",
+  "text": "By exploiting the enormous time-slot count of a fast fiber ring, Honjo et al. (2021) demonstrated a coherent Ising machine with ___ spins, a scale no superconducting quantum annealer approaches.",
+  "choices": [
+    "100,000"
+  ],
+  "answer": "100,000",
+  "explanation": "The 2021 demonstration reached a 100,000-spin coherent Ising machine, a spin count no superconducting quantum annealer approaches, though whether that scale yields a genuine computational advantage over the best classical heuristic is a separate, open question.",
+  "tags": [
+    "ising-machine",
+    "coherent-ising-machine",
+    "scaling"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

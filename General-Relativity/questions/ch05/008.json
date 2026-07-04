@@ -1,0 +1,19 @@
+{
+  "question_id": "4ceddf16-9f4f-4ba9-9840-29d716d62518",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The magnetic part of the Lorentz force, qv×B, does no work on a charged particle because it is always perpendicular to the velocity.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Since qv×B is perpendicular to v, the force has no component along the motion, so it does no work and cannot change the particle's kinetic energy — it only bends the trajectory. This is why a uniform B produces circular motion at constant speed with cyclotron frequency ω_c = qB/m.",
+  "tags": [
+    "magnetostatics",
+    "lorentz-force"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

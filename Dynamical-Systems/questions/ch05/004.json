@@ -1,0 +1,22 @@
+{
+  "question_id": "7ad25e7c-1631-4fbc-8597-6a765b012567",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In information geometry, the Fisher information matrix plays the role of the:",
+  "choices": [
+    "symplectic form",
+    "Riemannian metric on the manifold of distributions",
+    "potential energy",
+    "Hamiltonian"
+  ],
+  "answer": 1,
+  "explanation": "Fisher information is the natural Riemannian metric on statistical manifolds, measuring distinguishability of nearby distributions. It is not a symplectic form or an energy function.",
+  "tags": [
+    "fisher-information",
+    "information-geometry",
+    "riemannian-metric"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

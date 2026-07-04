@@ -1,0 +1,20 @@
+{
+  "question_id": "cd05a348-b96b-4157-a25d-e8d71232ce66",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The 2014 chatbot ___, presented as a 13-year-old Ukrainian boy, was controversially reported to have 'passed' the Turing test by fooling about 33% of judges.",
+  "choices": [
+    "Eugene Goostman",
+    "Eugene"
+  ],
+  "answer": "Eugene Goostman",
+  "explanation": "The answer is Eugene Goostman. Its persona (a young non-native English speaker) gave cover for limited knowledge and imperfect English, and most researchers viewed its success as clever self-presentation and judge confusion rather than genuine intelligence.",
+  "tags": [
+    "turing-test",
+    "eugene-goostman",
+    "chatbot"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

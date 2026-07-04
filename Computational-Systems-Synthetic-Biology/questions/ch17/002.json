@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which statement correctly distinguishes the two major double-strand break repair pathways exploited by CRISPR-Cas9 genome editing?",
+  "choices": [
+    "HDR is the default, fast, error-prone pathway active in any cell-cycle phase, while NHEJ requires a homology template and is restricted to S/G2 phase",
+    "NHEJ is the default, fast, error-prone pathway active in most cell-cycle phases, while HDR requires a homology template and predominates in S/G2 phase",
+    "Both NHEJ and HDR require an exogenous homology template and differ only in speed",
+    "NHEJ exclusively introduces precise point mutations, whereas HDR always creates frameshift indels"
+  ],
+  "answer": 1,
+  "explanation": "NHEJ is the default, error-prone repair mechanism that produces insertions/deletions (indels) and is active across most cell-cycle phases, while HDR requires a homology donor (plasmid, ssODN, or sister chromatid) and predominates in S/G2 when a repair template is available. Option A reverses the two pathways' defining properties; option C is wrong because NHEJ requires no template at all; and option D reverses which pathway produces indels (NHEJ) versus precise edits (HDR).",
+  "tags": [
+    "nhej",
+    "hdr",
+    "dna-repair"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "3bfe3e7d-0678-4ae8-b4a6-8383e6748a49"
+}

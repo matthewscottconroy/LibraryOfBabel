@@ -1,58 +1,40 @@
 # Boolos's Plural Quantification
 
-George Boolos (1984, 1985) developed plural logic as a response to a philosophical puzzle about second-order logic and its apparent commitment to Platonic abstract objects (sets, classes, properties).
+George Boolos launched plural logic as a research programme in two papers: *To Be Is to Be a Value of a Variable (or to Be Some Values of Some Variables)* (1984) and *Nominalist Platonism* (1985). His target was a philosophical puzzle about **second-order logic** and its apparent commitment to Platonic abstract objects. Second-order logic quantifies over the *subsets* (and relations) of the domain; on the standard reading those subsets are set-like entities, so second-order quantification looks like disguised set theory — Quine's verdict that it is "set theory in sheep's clothing." Boolos's response was that a large and important part of second-order quantification is really *plural* quantification over ordinary individuals, which commits us to no sets at all.
 
-## The Geach-Kaplan Sentence
+## Formalizing the Geach–Kaplan Sentence
 
-Peter Geach observed that some English sentences resist first-order formalization:
+The test case is "some critics admire only one another," which the previous section showed to be first-order-inexpressible without a set variable. In the plural language it is written with no set variable and no abstract object:
+$$\exists xx\,\Bigl[\underbrace{\exists x\,(x \prec xx)}_{\text{nonempty}} \;\land\; \underbrace{\forall x\,(x \prec xx \to \mathrm{Critic}(x))}_{\text{all critics}} \;\land\; \underbrace{\forall x\,\forall y\,\bigl(x \prec xx \land \mathrm{Admires}(x,y) \to y \prec xx \land x \neq y\bigr)}_{\text{admire only others of them}}\Bigr].$$
+In words: there are some things $xx$ such that at least one of them exists, each of them is a critic, and whenever one of them admires someone, that someone is again one of them and distinct from the admirer. Every quantifier ranges over the original domain of people; the plural quantifier $\exists xx$ ranges over *pluralities of people*. No set, class, or property appears. This is Boolos's paradigm: what looked like ineliminable second-order (set) quantification is captured by plural quantification over the very individuals the sentence was always about.
 
-> "Some critics admire only one another."
+## The Language PFO$^+$
 
-A first-order attempt requires introducing a set-variable, quantifying over sets. Boolos argued this is wrong — English speakers use this sentence without any concept of sets. The correct formalization is plural:
+**Plural first-order logic** extends the first-order language $\mathcal{L}$ of Chapter 3. To the singular variables, function and predicate symbols, connectives, and singular quantifiers we add:
 
-```
-∃xx [∃x (x ≺ xx) ∧ ∀x (x ≺ xx → Critic(x)) ∧
-     ∀x∀y (x ≺ xx ∧ Admires(x,y) → y ≺ xx ∧ x ≠ y)]
-```
+- **Plural variables** $xx, yy, zz, \dots$
+- The **logical predicate** $x \prec xx$ (a singular term on the left, a plural variable on the right), read "$x$ is one of the $xx$";
+- **Plural quantifiers** $\exists xx$ and $\forall xx$.
 
-"There are some xx such that: at least one of them exists; each of them is a critic; and for any of them x, if x admires y, then y is one of them and x ≠ y."
+**Formation rules.** If $t$ is a singular term and $xx$ a plural variable, $t \prec xx$ is an atomic formula. If $\phi$ is a formula, so are $\exists xx\,\phi$ and $\forall xx\,\phi$ (binding $xx$). The system with plural *predicates* taking plural terms as arguments — needed for collective predication like $W(rr)$ — is called PFO$^+$; the fragment with $\prec$ as the only device relating the two sorts is **PFO**.
 
-No sets. No abstract objects. Just individuals quantified plurally.
+A grammatical fact does real logical work here. The predicate $\prec$ is **singular on the left, plural on the right**. Consequently "$xx \prec xx$" is *not well-formed*: one cannot ask whether a plurality is one of itself. As we will see in the [proof-theory section](../02_formal_system/01_pfo_and_proof_theory.md), this single type restriction is what blocks the plural analogue of Russell's paradox at the level of syntax, before any axiom is even stated.
 
-## The Formal Language PFO
+## The Ontological-Innocence Thesis
 
-Plural First-Order Logic (PFO) extends FOL with:
+Boolos's central philosophical claim:
 
-**Syntax**:
-- Plural variables: xx, yy, ...
-- Plural quantifiers: ∃xx, ∀xx
-- Membership predicate: x ≺ xx
-- (Optionally) plural predicates: plural terms as arguments
+> **Ontological Innocence (Boolos 1984).** Plural quantification incurs no ontological commitment beyond the individuals in the range of the singular quantifiers. To say "there are some sets that are all and only the non-self-membered sets" is to commit oneself to those sets, not to any further object — no *set of* them, no class, no plurality-as-entity.
 
-**Semantics**: Interpret plural variables as *pluralities* — non-empty collections of individuals from the domain. But these "collections" are not set-theoretic objects; they are merely the individuals themselves, referred to plurally.
+The argument is a contrast in what the two quantifiers posit. Singular $\exists x\,\phi(x)$ says an *object* satisfies $\phi$; its witness is a member of the domain. Plural $\exists xx\,\phi(xx)$ says there are *some things* that jointly satisfy $\phi$; its "witness" is not one more object but several of the objects already there, referred to together. On Quine's own criterion — to be is to be the value of a (bound) variable — the values of a plural variable are just individuals, taken several at a time, so being *some values of* a plural variable is no additional way of being. Hence the paper's title. The intended contrast is with the set-theoretic reading, on which $\exists X$ ranges over set-objects and so does inflate the ontology.
 
-## Comprehension for Plurals
+Innocence is what makes plurals philosophically powerful, and it is also the thesis most contested by later writers (Resnik, Parsons, Linnebo); the [expressive-power section](../02_formal_system/02_expressive_power.md) weighs the objections. But its intended payoff is already visible: *if* plural quantification is innocent, then the expressive strength it shares with second-order logic is bought for free.
 
-A key axiom schema: for any condition φ(x) with a free singular variable x, if some x satisfies φ, then there are some xx that are exactly the φ-things:
+## Innocence Meets Power: The Link to Neo-Logicism
 
-```
-∃x φ(x) → ∃xx ∀x (x ≺ xx ↔ φ(x))
-```
+Boolos coupled innocence with a striking expressive claim, proved in Section 4: **monadic second-order logic is interpretable in plural logic**, by translating each monadic second-order variable $X$ to a plural variable $xx$ and each atom $X(t)$ to $t \prec xx$. Second-order quantification over subsets becomes plural quantification over individuals. If that translation preserves meaning *and* plurals are innocent, then a debate at the foundations of logic is reframed: second-order logic may be **genuine logic** after all, not concealed set theory, because it can be read as committing us only to the individuals we already accept.
 
-This is analogous to separation in set theory — but without creating a set object, just acknowledging a plurality.
+This matters for **neo-logicism** — the program of Frege, revived by Crispin Wright and Bob Hale, of deriving arithmetic from logic plus definitions. Frege's own system collapsed into Russell's paradox through its commitment to extensions (courses-of-values, essentially sets). If the second-order logic that neo-logicism needs can be given an ontologically innocent plural reading, then arithmetic might reduce to *logic proper*, vindicating Frege's ambition without the paradox-breeding abstract objects. Whether plural comprehension is itself "pure logic" or a substantive existence assumption in disguise is the crux of that debate — and the question we take up once the formal system is on the table.
 
-## Expressive Power
-
-PFO has the same expressive power as *monadic second-order logic* (MSO) — second-order logic where set quantifiers range only over sets of individuals (not sets of sets, relations, etc.).
-
-This is stronger than FOL:
-- PFO can define finiteness (a property not expressible in FOL by Löwenheim-Skolem)
-- PFO can characterize the natural numbers categorically (unlike FOL, which has non-standard models)
-
-Yet PFO is arguably more ontologically innocent than full second-order logic: it adds no abstract objects to the domain, only plural ways of referring to the existing individuals.
-
-## Philosophical Significance
-
-Boolos's work opened a debate: is second-order logic logic, or set theory in disguise? If plural interpretations give second-order logic an ontologically innocent reading, perhaps it is genuinely logic — not a commitment to abstract objects.
-
-This connects to *neo-logicism*: the project (Hale, Wright) of showing that mathematics reduces to logic plus definitions. If plural logic is "pure logic," and arithmetic reduces to plural logic, then arithmetic is logic — a vindication of Frege's original program without its paradoxes.
+## Exercises
+See [problems/ch15_plural_logic/](../../../problems/ch15_plural_logic/)

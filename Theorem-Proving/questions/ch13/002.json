@@ -1,0 +1,23 @@
+{
+  "question_id": "5ba9c61f-0436-4b6f-8b2c-72655138f132",
+  "chapter": 13,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which LTL operator expresses 'φ eventually holds at some future point'?",
+  "choices": [
+    "F φ",
+    "G φ",
+    "X φ",
+    "□ φ"
+  ],
+  "answer": 0,
+  "explanation": "F ('finally/eventually') asserts φ holds at some position j ≥ i; it is defined as ⊤ U φ. G is 'always' and X is 'next'. □ is the generic modal necessity operator (analogous to G/always), not the LTL eventually operator.",
+  "tags": [
+    "ltl",
+    "temporal-operators",
+    "eventually",
+    "finally"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

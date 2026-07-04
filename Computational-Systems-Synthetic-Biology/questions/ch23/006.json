@@ -1,0 +1,22 @@
+{
+  "chapter": 23,
+  "phase": 4,
+  "kind": "mc",
+  "text": "ESM-2 protein language models are trained using which objective, and on what kind of data?",
+  "choices": [
+    "Reinforcement learning from human feedback on solved protein structures",
+    "Contrastive learning between paired ligand and protein structures",
+    "Supervised regression directly on experimentally measured folding free energies",
+    "A masked language model objective predicting masked residues, trained on hundreds of millions of sequences from databases like UniRef and UniProt"
+  ],
+  "answer": 3,
+  "explanation": "ESM-2 is trained with a masked language model objective, predicting masked residues across large protein sequence databases such as UniRef/UniProt, producing per-residue embeddings that capture structural context, evolutionary conservation, and function. It is not trained via reinforcement learning from human feedback, contrastive ligand-protein learning, or direct supervised regression on folding free energies -- those describe different technique families entirely.",
+  "tags": [
+    "machine-learning",
+    "protein-language-models",
+    "esm-2"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "8a39839a-4f90-4795-a716-d4fe15ca2f85"
+}

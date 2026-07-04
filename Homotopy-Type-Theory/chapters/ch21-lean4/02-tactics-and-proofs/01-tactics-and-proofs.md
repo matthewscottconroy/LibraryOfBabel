@@ -361,6 +361,38 @@ theorem all_goals_example (P Q : Prop) (hp : P) (hq : Q) : P ∧ Q ∧ P := by
 
 `assumption` closes a goal if it's already a hypothesis in context.
 
+## Tactic Writing: Lean 4 Metaprogramming
+
+The tactics above are not built into the kernel — they are written in Lean 4 itself, using its metaprogramming system. You can extend the tactic language with your own tactics.
+
+The simplest route is the macro system, which expands new syntax into existing tactics:
+
+```lean
+-- A simple custom tactic using macros
+macro "myTactic" : tactic => `(tactic| simp; ring)
+
+-- Use it
+example (n : Nat) : n + 0 = n := by myTactic
+```
+
+For tactics that need to inspect the proof state, use the `elab` interface, which gives full programmatic access to goals and terms:
+
+```lean
+import Lean.Elab.Tactic
+
+open Lean.Elab.Tactic
+
+-- A tactic that tries `rfl` then `simp`
+elab "try_rfl_then_simp" : tactic => do
+  let goal ← getMainGoal
+  try
+    closeMainGoal (← mkAppM `rfl #[])
+  catch _ =>
+    evalTactic (← `(tactic| simp))
+```
+
+This macro-by-reflection design — where the object language and the meta-language are the same — is one of Lean 4's distinctive features. Writing a new tactic or decision procedure (for example, a tactic automating group-theory calculations, a normalization procedure for Σ/Π types, or an integration with an external SAT/SMT solver) is a genuine research-level project.
+
 ## Where This Connects to HoTT
 
 In type-theoretic terms, every tactic is constructing a term:

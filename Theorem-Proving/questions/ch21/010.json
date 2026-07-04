@@ -1,0 +1,21 @@
+{
+  "question_id": "0b8c6820-d495-4ce3-89a5-b85599d36de3",
+  "chapter": 21,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Formalizing essentialism requires ___ modality — where the box governs an open position bound from outside, as in ∃x □Fx — as opposed to the de dicto □∃x Fx.",
+  "choices": [
+    "de re"
+  ],
+  "answer": "de re",
+  "explanation": "De re modality attaches necessity to an object through an externally bound variable (∃x □Fx), which is what essentialist claims like 'Socrates is necessarily human' require. Quine was skeptical of the de re, but Kripke's rigid designation rehabilitated it by making 'necessarily F' of an object well-defined across worlds.",
+  "tags": [
+    "de-re",
+    "de-dicto",
+    "modality",
+    "essentialism",
+    "quine"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "7df57ec7-d825-4ae6-aa8a-1362582010b8",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Parfit's technical term for what actually matters in survival -- psychological connectedness and continuity, which can hold in degrees and can branch -- is '___.'",
+  "choices": [
+    "Relation R"
+  ],
+  "answer": "Relation R",
+  "explanation": "Because Relation R (unlike identity) can obtain to two successors at once and admits of degree, Parfit argues it, not numerical identity, is what grounds rational anticipation and self-concern -- a practically revisionary conclusion. Distinguish it from strict numerical identity, which is one-one and all-or-nothing.",
+  "tags": [
+    "relation-r",
+    "parfit",
+    "psychological-continuity",
+    "what-matters"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,201 @@
+title = 'Abstract Algebra Adaptive Quiz'
+chapters_dir = './curriculum'
+system_prompt = """You are an expert quiz question generator for a graduate-level course on Abstract Algebra. Topics include: propositional logic, set theory, fields, vector spaces, linear maps, determinants, eigentheory, group theory (Sylow, Galois), ring theory, module theory, category theory, homological algebra (Ext, Tor), representation theory, character theory, Lie groups and algebras, root systems, and highest weight theory. Questions must test deep mathematical understanding. Distractors must represent plausible misconceptions."""
+
+[[chapters]]
+index = 0
+phase = 0
+name = 'Logic, Sets, and Proof'
+file = 'ch01-logic-sets-proof.md'
+
+[[chapters]]
+index = 1
+phase = 0
+name = 'Relations, Functions, Cardinality'
+file = 'ch02-relations-functions-cardinality.md'
+
+[[chapters]]
+index = 2
+phase = 1
+name = 'Fields and Vector Spaces'
+file = 'ch03-fields-and-vector-spaces.md'
+
+[[chapters]]
+index = 3
+phase = 1
+name = 'Linear Maps and Matrices'
+file = 'ch04-linear-maps-and-matrices.md'
+
+[[chapters]]
+index = 4
+phase = 1
+name = 'Determinants and Multilinear Forms'
+file = 'ch05-determinants-and-multilinear-forms.md'
+
+[[chapters]]
+index = 5
+phase = 1
+name = 'Eigentheory and Canonical Forms'
+file = 'ch06-eigentheory-and-canonical-forms.md'
+
+[[chapters]]
+index = 6
+phase = 1
+name = 'Inner Product Spaces'
+file = 'ch07-inner-product-spaces.md'
+
+[[chapters]]
+index = 7
+phase = 1
+name = 'Multilinear Algebra and Tensors'
+file = 'ch08-multilinear-algebra-tensors.md'
+
+[[chapters]]
+index = 8
+phase = 2
+name = 'Group Theory Foundations'
+file = 'ch09-group-theory-foundations.md'
+
+[[chapters]]
+index = 9
+phase = 2
+name = 'Group Theory Structure'
+file = 'ch10-group-theory-structure.md'
+
+[[chapters]]
+index = 10
+phase = 3
+name = 'Ring Theory'
+file = 'ch11-ring-theory.md'
+
+[[chapters]]
+index = 11
+phase = 3
+name = 'Module Theory'
+file = 'ch12-module-theory.md'
+
+[[chapters]]
+index = 12
+phase = 3
+name = 'Field Theory and Galois'
+file = 'ch13-field-theory-galois.md'
+
+[[chapters]]
+index = 13
+phase = 4
+name = 'Category Theory'
+file = 'ch14-category-theory.md'
+
+[[chapters]]
+index = 14
+phase = 5
+name = 'Homological Algebra Basics'
+file = 'ch15-homological-algebra-basics.md'
+
+[[chapters]]
+index = 15
+phase = 5
+name = 'Derived Functors'
+file = 'ch16-derived-functors.md'
+
+[[chapters]]
+index = 16
+phase = 5
+name = 'Spectral Sequences'
+file = 'ch17-spectral-sequences.md'
+
+[[chapters]]
+index = 17
+phase = 6
+name = 'Representations of Finite Groups'
+file = 'ch18-representations-finite-groups.md'
+
+[[chapters]]
+index = 18
+phase = 6
+name = 'Character Theory'
+file = 'ch19-character-theory.md'
+
+[[chapters]]
+index = 19
+phase = 7
+name = 'Lie Groups and Algebras'
+file = 'ch20-lie-groups-algebras.md'
+
+[[chapters]]
+index = 20
+phase = 7
+name = 'Semisimple Lie Algebras'
+file = 'ch21-semisimple-lie-algebras.md'
+
+[[chapters]]
+index = 21
+phase = 7
+name = 'Highest Weight Theory'
+file = 'ch22-highest-weight-theory.md'
+
+[[chapters]]
+index = 22
+phase = 7
+name = 'Advanced Representation Theory'
+file = 'ch23-advanced-representation-theory.md'
+
+[[chapters]]
+index = 23
+phase = 8
+name = 'Set Theory and Logic'
+file = 'ch24-set-theory-logic.md'
+
+[[chapters]]
+index = 24
+phase = 8
+name = 'Model Theory'
+file = 'ch25-model-theory.md'
+
+[[chapters]]
+index = 25
+phase = 8
+name = 'Category Theory (Foundations)'
+file = 'ch26-category-theory-foundation.md'
+
+[[chapters]]
+index = 26
+phase = 8
+name = 'Topos and Homotopy Type Theory'
+file = 'ch27-topos-homotopy-type-theory.md'
+
+[[phases]]
+index = 0
+name = 'Phase 0 — Mathematical Foundations'
+
+[[phases]]
+index = 1
+name = 'Phase 1 — Linear Algebra'
+
+[[phases]]
+index = 2
+name = 'Phase 2 — Group Theory'
+
+[[phases]]
+index = 3
+name = 'Phase 3 — Rings, Modules, and Fields'
+
+[[phases]]
+index = 4
+name = 'Phase 4 — Category Theory'
+
+[[phases]]
+index = 5
+name = 'Phase 5 — Homological Algebra'
+
+[[phases]]
+index = 6
+name = 'Phase 6 — Representation Theory'
+
+[[phases]]
+index = 7
+name = 'Phase 7 — Lie Theory'
+
+[[phases]]
+index = 8
+name = 'Phase 8 — Foundations and Logic'

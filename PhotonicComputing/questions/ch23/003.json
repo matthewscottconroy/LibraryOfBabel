@@ -1,0 +1,13 @@
+{
+  "question_id": "6137ff29-2220-456a-9b0d-5d43f1a1b080",
+  "chapter": 23,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The finite element method (FEM) with edge (Nedelec) elements is most valued in photonics for which task?",
+  "choices": ["Broadband time-domain scattering from large structures", "Sampling the 193 THz optical carrier directly", "Modeling reflections in long, low-contrast tapers", "The 2D waveguide mode solve — computing n_eff, n_g, polarization, and loss quickly"],
+  "answer": 3,
+  "explanation": "FEM's dominant photonic use is the 2D mode solve: a small sparse eigenproblem giving n_eff, n_g, polarization, and loss in a fraction of a second, three to four orders of magnitude cheaper than a 3D FDTD, and the source of every compact model's dispersion. Choice 0 is FDTD's job; choice 1 is wrong (circuit simulators use complex baseband to avoid sampling the carrier); choice 2 is BPM's territory.",
+  "tags": ["fem", "mode-solver", "effective-index"],
+  "difficulty": "beginner",
+  "generated": true
+}

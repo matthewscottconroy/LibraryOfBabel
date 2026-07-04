@@ -1,0 +1,20 @@
+{
+  "question_id": "adc1b737-24f6-491a-8a0c-044e4f9f53ff",
+  "chapter": 25,
+  "phase": 8,
+  "kind": "tf",
+  "text": "The internal logic of an arbitrary elementary topos is always classical, so the law of excluded middle holds in every topos.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: the chapter stresses that a general topos has intuitionistic internal logic in which excluded middle may fail; only Boolean toposes (such as $\\mathbf{Set}$ or $G\\text{-}\\mathbf{Set}$) are classical. Sheaf toposes $\\mathrm{Sh}(X)$ are the standard counterexamples, with open sets serving as truth values.",
+  "tags": [
+    "topos",
+    "internal-logic",
+    "intuitionistic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

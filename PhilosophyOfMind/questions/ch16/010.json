@@ -1,0 +1,18 @@
+{
+  "question_id": "678bfec7-304a-416d-9501-0102eee84d10",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Donald Griffin founded the field of ___, which combines naturalistic ethological observation with cognitive science to study animal minds in their natural settings.",
+  "choices": [
+    "cognitive ethology"
+  ],
+  "answer": "cognitive ethology",
+  "explanation": "The answer is cognitive ethology. Griffin (who also discovered bat echolocation) argued in The Question of Animal Awareness (1976) that animals have rich mental lives investigable by combining ethology's naturalistic, evolutionary methods with cognitive science.",
+  "tags": [
+    "cognitive-ethology",
+    "griffin"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "96948e62-b972-4b6c-b78f-8479dfd84bb3",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The book's glossary calls a specific element of the domain for which predicate P fails, thereby disproving a universal statement ∀x P(x), a ___.",
+  "choices": [
+    "counterexample"
+  ],
+  "answer": "counterexample",
+  "explanation": "Per the book, a counterexample is a specific domain element for which P fails, which disproves ∀x P(x). It is the dual of a witness — a specific element for which P holds, which proves ∃x P(x). Supplying a witness would establish an existential, not refute a universal.",
+  "tags": [
+    "logic",
+    "quantifiers"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

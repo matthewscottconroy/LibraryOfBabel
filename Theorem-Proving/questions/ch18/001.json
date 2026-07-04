@@ -1,0 +1,22 @@
+{
+  "question_id": "b163c468-a07b-4371-b2cb-7af73f37063a",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The theory of groups over the signature (·, ⁻¹, e) consists of universally quantified equations. Which property is NOT one of the group axioms (G1–G3)?",
+  "choices": [
+    "Associativity: (x·y)·z = x·(y·z)",
+    "Identity: e·x = x and x·e = x",
+    "Inverses: x⁻¹·x = e and x·x⁻¹ = e",
+    "Commutativity: x·y = y·x"
+  ],
+  "answer": 3,
+  "explanation": "The three group axioms are associativity (G1), the identity laws (G2), and the inverse laws (G3); commutativity is not required. A group that additionally satisfies x·y = y·x is called abelian, so commutativity is an extra property, not part of the definition of a group.",
+  "tags": [
+    "groups",
+    "axioms",
+    "abelian"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

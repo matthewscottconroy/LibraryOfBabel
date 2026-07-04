@@ -1,0 +1,687 @@
+#!/usr/bin/env python3
+r"""
+build_book.py — one config-driven builder for every textbook in this repo.
+
+Each book directory carries a ``book.toml`` manifest describing where its
+content lives and how to order it.  This single script replaces the ~14 drifted
+per-book ``build_pdf.py`` / ``generate_*.py`` scripts that used to live beside
+each book.
+
+Manifest schema (``<BookDir>/book.toml``)
+-----------------------------------------
+    title        = "Book Title"           # required
+    author       = "..."                  # optional
+    subtitle     = "..."                  # optional
+    intro_names  = ["overview.md", ...]   # optional; ADDED to the defaults below
+    front_matter = ["preface.md", ...]    # optional; ordered, globs allowed
+    back_matter  = ["epilogue.md", "appendices/*.md"]  # optional; ordered, globs
+    exclude      = ["README.md", "**/scratch.md"]      # optional; globs
+
+    [[sources]]
+    root       = "book"     # directory (relative to the book dir) to walk
+    recursive  = true       # default true; false = only the root's own files
+    part_level = 1           # optional: directory depth that becomes a LaTeX \part
+
+`front_matter`, `back_matter`, `exclude`, and `intro_names` are top-level keys
+and MUST appear before the first ``[[sources]]`` table (a TOML requirement).
+
+Ordering
+--------
+Within any directory the children are ordered as:
+    1. intro-like files (README.md, intro.md, _index.md, 00-*.md, ...) first,
+       in the priority order of the intro-name list, then
+    2. everything else (files and sub-directories interleaved) by a natural
+       numeric sort that understands "chapter-2" < "chapter-10", "1.2" < "1.10".
+
+Modes
+-----
+    --check          report content .md not captured by the manifest and any
+                     manifest entry that matches no files; exit non-zero on
+                     problems.  Zero-byte / whitespace-only files only warn.
+    --markdown OUT   write the assembled markdown (no pandoc needed).
+    --html OUT       render HTML via pandoc.
+    --pdf OUT        render PDF via pandoc (xelatex if available, else pdflatex).
+    --chapters N-M   restrict to parts / top-level sections N..M (fast testing).
+
+Outputs default to ``<BookDir>/output/`` (which is gitignored).
+"""
+
+from __future__ import annotations
+
+import argparse
+import fnmatch
+import os
+import re
+import shutil
+import subprocess
+import sys
+import tempfile
+import tomllib
+from pathlib import Path
+
+# --------------------------------------------------------------------------- #
+# Defaults
+# --------------------------------------------------------------------------- #
+
+# Intro-like file names (globs).  Files matching an EARLIER entry sort before a
+# LATER one, so keep the canonical names first.  Books may add to this via
+# `intro_names` in their manifest.
+DEFAULT_INTRO_NAMES = [
+    "README.md",
+    "_index.md",
+    "index.md",
+    "intro.md",
+    "introduction.md",
+    "00_introduction.md",
+    "chapter_intro.md",
+    "unit_intro.md",
+    "chapter-intro.md",
+    "unit-intro.md",
+    "00-*.md",
+    "00_*.md",
+]
+
+# Directory names never walked for content, wherever they appear in the tree.
+DEFAULT_SKIP_DIRS = {
+    ".git", ".github", ".claude", ".idea", ".vscode",
+    "node_modules", "target", "__pycache__", ".ipynb_checkpoints",
+    "output", "questions", "quiz-app", "tools",
+}
+
+HEADING_RE = re.compile(r"^(#{1,6})([ \t])", re.MULTILINE)
+_NAT_RE = re.compile(r"(\d+)")
+
+
+# --------------------------------------------------------------------------- #
+# Ordering primitives
+# --------------------------------------------------------------------------- #
+
+def natural_key(name: str):
+    """Natural sort key: 'chapter-2' < 'chapter-10', '1.2' < '1.10'.
+
+    Splits on digit runs; even positions are lowercased text, odd positions are
+    integers.  Both operands always share that alternating shape, so tuple
+    comparison never compares an int against a str.
+    """
+    parts = _NAT_RE.split(name)
+    return [int(p) if i % 2 else p.lower() for i, p in enumerate(parts)]
+
+
+def intro_priority(name: str, intro_globs: list[str]):
+    """Return the index of the first intro glob that matches `name`, else None."""
+    for i, pat in enumerate(intro_globs):
+        if fnmatch.fnmatch(name, pat):
+            return i
+    return None
+
+
+def child_sort_key(name: str, intro_globs: list[str]):
+    """Sort key placing intro-like files first (by priority), then natural."""
+    p = intro_priority(name, intro_globs)
+    if p is not None:
+        return (0, p, natural_key(name))
+    return (1, 0, natural_key(name))
+
+
+def ordered_children(directory: Path, intro_globs: list[str]) -> list[Path]:
+    """Immediate children of `directory`, intro-first then natural sort."""
+    try:
+        entries = list(directory.iterdir())
+    except OSError:
+        return []
+    return sorted(entries, key=lambda p: child_sort_key(p.name, intro_globs))
+
+
+# --------------------------------------------------------------------------- #
+# Manifest
+# --------------------------------------------------------------------------- #
+
+class Manifest:
+    def __init__(self, book_dir: Path, data: dict):
+        self.book_dir = book_dir
+        self.title = data.get("title", book_dir.name)
+        self.author = data.get("author")
+        self.subtitle = data.get("subtitle")
+        self.sources = data.get("sources", [])
+        self.front_matter = data.get("front_matter", [])
+        self.back_matter = data.get("back_matter", [])
+        self.exclude = data.get("exclude", [])
+        self.intro_globs = DEFAULT_INTRO_NAMES + list(data.get("intro_names", []))
+
+    @classmethod
+    def load(cls, book_dir: Path) -> "Manifest":
+        toml_path = book_dir / "book.toml"
+        with toml_path.open("rb") as fh:
+            data = tomllib.load(fh)
+        return cls(book_dir, data)
+
+    # -- glob expansion ---------------------------------------------------- #
+
+    def _expand(self, patterns: list[str]) -> tuple[list[Path], list[str]]:
+        """Expand file globs relative to the book dir.
+
+        Returns (ordered unique existing files, patterns that matched nothing).
+        """
+        out: list[Path] = []
+        seen: set[Path] = set()
+        empty: list[str] = []
+        for pat in patterns:
+            matches = sorted(
+                (p for p in self.book_dir.glob(pat) if p.is_file()),
+                key=lambda p: natural_key(p.name),
+            )
+            if not matches:
+                empty.append(pat)
+                continue
+            for m in matches:
+                r = m.resolve()
+                if r not in seen:
+                    seen.add(r)
+                    out.append(m)
+        return out, empty
+
+    def front_files(self):
+        return self._expand(self.front_matter)
+
+    def back_files(self):
+        return self._expand(self.back_matter)
+
+    def is_excluded(self, rel_posix: str) -> bool:
+        for pat in self.exclude:
+            if fnmatch.fnmatch(rel_posix, pat):
+                return True
+        return False
+
+
+# --------------------------------------------------------------------------- #
+# Collection
+# --------------------------------------------------------------------------- #
+
+class Entry:
+    """A single emitted file plus the context needed to place it."""
+    __slots__ = ("path", "depth", "part_dir")
+
+    def __init__(self, path: Path, depth: int, part_dir: Path | None):
+        self.path = path
+        self.depth = depth
+        self.part_dir = part_dir
+
+
+def _skip_dir(name: str) -> bool:
+    return name in DEFAULT_SKIP_DIRS or name.startswith(".")
+
+
+def collect_source(
+    root: Path,
+    recursive: bool,
+    part_level: int | None,
+    manifest: Manifest,
+    handled: set[Path],
+) -> list[Entry]:
+    """Walk one source root, returning ordered Entry objects.
+
+    `handled` is the set of resolved paths already emitted as front/back matter;
+    such files are skipped here so they are never emitted twice.
+    """
+    entries: list[Entry] = []
+
+    def walk(directory: Path, depth: int):
+        for child in ordered_children(directory, manifest.intro_globs):
+            if child.is_dir():
+                if _skip_dir(child.name):
+                    continue
+                if recursive:
+                    walk(child, depth + 1)
+            elif child.is_file() and child.suffix == ".md":
+                rel = child.relative_to(manifest.book_dir).as_posix()
+                if manifest.is_excluded(rel):
+                    continue
+                if child.resolve() in handled:
+                    continue
+                part_dir = _part_dir_for(child, root, part_level)
+                entries.append(Entry(child, depth, part_dir))
+
+    walk(root, 0)
+    return entries
+
+
+def _part_dir_for(file: Path, root: Path, part_level: int | None) -> Path | None:
+    """The ancestor directory of `file` at `part_level` depth below `root`."""
+    if not part_level:
+        return None
+    rel_parts = file.relative_to(root).parts  # includes filename
+    if len(rel_parts) <= part_level:
+        return None
+    return root.joinpath(*rel_parts[:part_level])
+
+
+def all_content_md(root: Path) -> list[Path]:
+    """Every .md under `root`, skipping default-excluded directories."""
+    out: list[Path] = []
+
+    def walk(directory: Path):
+        try:
+            children = list(directory.iterdir())
+        except OSError:
+            return
+        for child in children:
+            if child.is_dir():
+                if not _skip_dir(child.name):
+                    walk(child)
+            elif child.is_file() and child.suffix == ".md":
+                out.append(child)
+
+    walk(root)
+    return out
+
+
+# --------------------------------------------------------------------------- #
+# Markdown transformation
+# --------------------------------------------------------------------------- #
+
+def strip_yaml_front_matter(text: str) -> str:
+    if not text.startswith("---"):
+        return text
+    end = text.find("\n---", 3)
+    if end == -1:
+        return text
+    return text[end + 4:].lstrip("\n")
+
+
+def shift_headings(text: str, shift: int) -> str:
+    if shift <= 0:
+        return text
+
+    def _repl(m):
+        return "#" * min(len(m.group(1)) + shift, 6) + m.group(2)
+
+    return HEADING_RE.sub(_repl, text)
+
+
+def part_title(part_dir: Path, intro_globs: list[str]) -> str:
+    """Human title for a \\part: the intro file's first H1, else the dir name."""
+    for child in ordered_children(part_dir, intro_globs):
+        if child.is_file() and intro_priority(child.name, intro_globs) is not None:
+            try:
+                for line in child.read_text(encoding="utf-8").splitlines():
+                    m = re.match(r"^#\s+(.*)$", line)
+                    if m:
+                        return m.group(1).strip()
+            except OSError:
+                pass
+            break
+    name = re.sub(r"^\d+[-_.]*", "", part_dir.name)
+    name = name.replace("-", " ").replace("_", " ").strip()
+    return name.title() if name else part_dir.name
+
+
+def read_content(path: Path) -> str | None:
+    """Read a file; return None (with a warning) if empty/whitespace-only."""
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError as exc:
+        print(f"  WARNING: cannot read {path}: {exc}", file=sys.stderr)
+        return None
+    if not text.strip():
+        return None
+    return text
+
+
+# --------------------------------------------------------------------------- #
+# Assembly
+# --------------------------------------------------------------------------- #
+
+def yaml_metadata(m: Manifest) -> str:
+    lines = ["---", f'title: "{m.title}"']
+    if m.subtitle:
+        lines.append(f'subtitle: "{m.subtitle}"')
+    if m.author:
+        lines.append(f'author: "{m.author}"')
+    lines += [
+        'date: "2026"',
+        "documentclass: book",
+        "classoption:",
+        "  - 11pt",
+        "  - openany",
+        "geometry:",
+        "  - top=1in",
+        "  - bottom=1in",
+        "  - left=1.25in",
+        "  - right=1in",
+        "toc: true",
+        "toc-depth: 2",
+        "numbersections: true",
+        "colorlinks: true",
+        "linkcolor: NavyBlue",
+        "urlcolor: NavyBlue",
+        "---",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def assemble(m: Manifest, chapter_range=None):
+    """Return (combined_markdown, stats) for the whole book."""
+    front, front_empty = m.front_files()
+    back, back_empty = m.back_files()
+    handled = {p.resolve() for p in front} | {p.resolve() for p in back}
+
+    body_entries: list[Entry] = []
+    source_entries: list[list[Entry]] = []
+    for spec in m.sources:
+        root = (m.book_dir / spec["root"]).resolve()
+        recursive = spec.get("recursive", True)
+        part_level = spec.get("part_level")
+        if not root.exists():
+            source_entries.append([])
+            continue
+        ent = collect_source(root, recursive, part_level, m, handled)
+        ent = _apply_chapter_range(ent, root, part_level, chapter_range)
+        source_entries.append(ent)
+        body_entries.extend(ent)
+
+    parts: list[str] = [yaml_metadata(m)]
+    stats = {"files": 0, "chars": 0, "skipped_empty": 0}
+
+    def emit(path: Path, shift: int):
+        text = read_content(path)
+        if text is None:
+            stats["skipped_empty"] += 1
+            print(f"  WARNING: empty file skipped: "
+                  f"{path.relative_to(m.book_dir)}", file=sys.stderr)
+            return
+        text = strip_yaml_front_matter(text)
+        text = shift_headings(text, shift)
+        rel = path.relative_to(m.book_dir)
+        parts.append(f"\n\n<!-- === {rel} === -->\n\n")
+        parts.append(text.strip())
+        parts.append("\n")
+        stats["files"] += 1
+        stats["chars"] += len(text)
+
+    # Front matter
+    for f in front:
+        emit(f, 0)
+
+    # Body, with \part dividers at part boundaries
+    current_part: Path | None = None
+    for ent in body_entries:
+        if ent.part_dir is not None and ent.part_dir != current_part:
+            current_part = ent.part_dir
+            title = part_title(current_part, m.intro_globs)
+            parts.append(f"\n\n# {title}\n\n")
+        emit(ent.path, ent.depth)
+
+    # Back matter
+    for f in back:
+        emit(f, 0)
+
+    stats["front_empty"] = front_empty
+    stats["back_empty"] = back_empty
+    stats["source_entries"] = source_entries
+    return "".join(parts), stats
+
+
+def _apply_chapter_range(entries, root, part_level, chapter_range):
+    """Restrict entries to parts / top-level dirs N..M (1-based, inclusive)."""
+    if not chapter_range:
+        return entries
+    lo, hi = chapter_range
+    level = part_level if part_level else 1
+
+    # Ordinal of each grouping directory, in first-appearance order.
+    order: dict[Path, int] = {}
+
+    def group_of(path: Path):
+        rel = path.relative_to(root).parts
+        if len(rel) <= level:
+            return None
+        return root.joinpath(*rel[:level])
+
+    counter = 0
+    for e in entries:
+        g = group_of(e.path)
+        if g is not None and g not in order:
+            counter += 1
+            order[g] = counter
+
+    out = []
+    for e in entries:
+        g = group_of(e.path)
+        if g is None:
+            continue
+        if lo <= order[g] <= hi:
+            out.append(e)
+    return out
+
+
+# --------------------------------------------------------------------------- #
+# --check
+# --------------------------------------------------------------------------- #
+
+def run_check(m: Manifest) -> int:
+    front, front_empty = m.front_files()
+    back, back_empty = m.back_files()
+    handled = {p.resolve() for p in front} | {p.resolve() for p in back}
+
+    captured: set[Path] = set(handled)
+    empty_sources: list[str] = []
+    empty_manifest_globs: list[str] = list(front_empty) + list(back_empty)
+
+    for spec in m.sources:
+        root = (m.book_dir / spec["root"]).resolve()
+        if not root.exists():
+            empty_sources.append(spec["root"] + "  (missing directory)")
+            continue
+        ent = collect_source(
+            root, spec.get("recursive", True), spec.get("part_level"), m, handled
+        )
+        if not ent:
+            empty_sources.append(spec["root"] + "  (no markdown captured)")
+        for e in ent:
+            captured.add(e.path.resolve())
+
+    # Every content .md under any source that is neither captured nor excluded.
+    uncaptured: list[Path] = []
+    empty_files: list[Path] = []
+    for spec in m.sources:
+        root = (m.book_dir / spec["root"]).resolve()
+        if not root.exists():
+            continue
+        for md in all_content_md(root):
+            rp = md.resolve()
+            rel = md.relative_to(m.book_dir).as_posix()
+            if m.is_excluded(rel):
+                continue
+            # Empty files are always censused (warned) and never counted as a
+            # coverage failure, whether or not the manifest captures them.
+            try:
+                if not md.read_text(encoding="utf-8").strip():
+                    empty_files.append(md)
+                    continue
+            except OSError:
+                pass
+            if rp in captured:
+                continue
+            uncaptured.append(md)
+
+    # ------------------------------------------------------------------ #
+    print(f"=== {m.book_dir.name} : build --check ===")
+    print(f"  captured files : {len(captured)}")
+
+    problems = 0
+    if uncaptured:
+        problems += len(uncaptured)
+        print(f"  UNCAPTURED content ({len(uncaptured)}):")
+        for p in sorted(uncaptured):
+            print(f"    - {p.relative_to(m.book_dir)}")
+    if empty_manifest_globs:
+        problems += len(empty_manifest_globs)
+        print(f"  MANIFEST GLOBS MATCHING NOTHING ({len(empty_manifest_globs)}):")
+        for g in empty_manifest_globs:
+            print(f"    - {g}")
+    if empty_sources:
+        problems += len(empty_sources)
+        print(f"  EMPTY / MISSING SOURCES ({len(empty_sources)}):")
+        for s in empty_sources:
+            print(f"    - {s}")
+    if empty_files:
+        print(f"  zero-byte / whitespace-only (warned, skipped) "
+              f"({len(empty_files)}):")
+        for p in sorted(empty_files):
+            print(f"    ~ {p.relative_to(m.book_dir)}")
+
+    if problems == 0:
+        print("  OK: all content captured.")
+        return 0
+    print(f"  FAIL: {problems} problem(s).")
+    return 1
+
+
+# --------------------------------------------------------------------------- #
+# pandoc back-ends
+# --------------------------------------------------------------------------- #
+
+def _pandoc_available() -> bool:
+    return shutil.which("pandoc") is not None
+
+
+def _latex_engine() -> str | None:
+    for eng in ("xelatex", "pdflatex", "lualatex"):
+        if shutil.which(eng):
+            return eng
+    return None
+
+
+def build_markdown(combined: str, out: Path) -> bool:
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(combined, encoding="utf-8")
+    kb = out.stat().st_size / 1024
+    print(f"  wrote {out}  ({kb:,.0f} KB)")
+    return True
+
+
+def _run_pandoc(combined: str, out: Path, to_pdf: bool, engine: str | None,
+                title: str) -> bool:
+    out.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+        "w", suffix=".md", encoding="utf-8", delete=False
+    ) as fh:
+        fh.write(combined)
+        tmp = fh.name
+    try:
+        cmd = [
+            "pandoc", tmp,
+            "--from", "markdown+tex_math_dollars+raw_tex+pipe_tables"
+                      "+fenced_code_blocks+smart",
+            "--top-level-division=part",
+            "--toc", "--toc-depth=2", "--number-sections",
+            "--highlight-style=tango",
+            "--metadata", f"title={title}",
+            "--output", str(out),
+        ]
+        if to_pdf:
+            cmd += ["--to", "pdf", f"--pdf-engine={engine}"]
+        else:
+            cmd += ["--to", "html5", "--standalone", "--mathjax"]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode != 0:
+            sys.stderr.write("\n--- pandoc stderr (tail) ---\n")
+            sys.stderr.write("\n".join(result.stderr.splitlines()[-40:]) + "\n")
+            return False
+    finally:
+        os.unlink(tmp)
+    mb = out.stat().st_size / 1_000_000
+    print(f"  wrote {out}  ({mb:.1f} MB)")
+    return True
+
+
+# --------------------------------------------------------------------------- #
+# CLI
+# --------------------------------------------------------------------------- #
+
+def parse_range(s: str):
+    if "-" in s:
+        lo, hi = s.split("-", 1)
+        return int(lo), int(hi)
+    n = int(s)
+    return n, n
+
+
+def find_book_dir(arg: str | None) -> Path:
+    if arg:
+        p = Path(arg).resolve()
+        if p.is_file() and p.name == "book.toml":
+            return p.parent
+        return p
+    return Path.cwd()
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(
+        description="Config-driven textbook builder (reads book.toml).",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=__doc__,
+    )
+    ap.add_argument("book", nargs="?", default=None,
+                    help="Book directory or its book.toml (default: cwd)")
+    ap.add_argument("--check", action="store_true",
+                    help="Report content not captured by the manifest.")
+    ap.add_argument("--markdown", metavar="OUT", nargs="?", const="",
+                    help="Write assembled markdown (default: output/<book>.md).")
+    ap.add_argument("--html", metavar="OUT", nargs="?", const="",
+                    help="Render HTML via pandoc.")
+    ap.add_argument("--pdf", metavar="OUT", nargs="?", const="",
+                    help="Render PDF via pandoc.")
+    ap.add_argument("--chapters", metavar="N-M",
+                    help="Restrict to parts/top-level sections N..M.")
+    args = ap.parse_args()
+
+    book_dir = find_book_dir(args.book)
+    toml_path = book_dir / "book.toml"
+    if not toml_path.exists():
+        sys.exit(f"ERROR: no book.toml in {book_dir}")
+
+    m = Manifest.load(book_dir)
+
+    if args.check:
+        return run_check(m)
+
+    if args.markdown is None and args.html is None and args.pdf is None:
+        # Default action: --check.
+        return run_check(m)
+
+    chapter_range = parse_range(args.chapters) if args.chapters else None
+    combined, stats = assemble(m, chapter_range)
+    print(f"  assembled {stats['files']} files, {stats['chars']:,} chars"
+          + (f", {stats['skipped_empty']} empty skipped"
+             if stats["skipped_empty"] else ""))
+
+    out_dir = book_dir / "output"
+    slug = book_dir.name.lower().replace(" ", "-")
+    ok = True
+
+    if args.markdown is not None:
+        out = Path(args.markdown) if args.markdown else out_dir / f"{slug}.md"
+        ok = build_markdown(combined, out) and ok
+
+    if args.html is not None:
+        if not _pandoc_available():
+            sys.exit("ERROR: pandoc not found (needed for --html).")
+        out = Path(args.html) if args.html else out_dir / f"{slug}.html"
+        ok = _run_pandoc(combined, out, False, None, m.title) and ok
+
+    if args.pdf is not None:
+        if not _pandoc_available():
+            sys.exit("ERROR: pandoc not found (needed for --pdf).")
+        engine = _latex_engine()
+        if not engine:
+            sys.exit("ERROR: no LaTeX engine (xelatex/pdflatex) for --pdf.")
+        out = Path(args.pdf) if args.pdf else out_dir / f"{slug}.pdf"
+        ok = _run_pandoc(combined, out, True, engine, m.title) and ok
+
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,0 +1,20 @@
+{
+  "question_id": "70139c08-a1ef-4bff-8d7d-ec91f4ae6503",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The 'chauvinism' objection to functionalism is the worry that functionalism attributes mental states too liberally - for example, to thermostats or to the nation of China.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False - that description is the liberalism objection (attributing minds too widely). Chauvinism is the opposite worry: that tying mental states to specifically human or folk-psychological roles wrongly denies minds to genuinely different systems. The statement swaps the two objections.",
+  "tags": [
+    "chauvinism",
+    "liberalism",
+    "functionalism"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "c09ed60c-b5d3-4d1d-bb51-d289c057d8b7",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "This book attributes the 45° relationship between the + and × polarizations (patterns that rotate by twice the rotation angle) to the graviton being:",
+  "choices": [
+    "a massless spin-0 particle",
+    "a massless spin-1 particle",
+    "a massless spin-2 particle",
+    "a massive spin-½ particle"
+  ],
+  "answer": 2,
+  "explanation": "The book states the polarization patterns transform with phase e^(±2iψ) (helicity ±2) under rotation about the propagation direction — the signature of a spin-2 field — and calls the graviton a massless spin-2 boson. A spin-1 field (the photon) transforms with e^(±iψ), giving polarizations 90° apart. The doubling of the rotation angle is precisely the spin-2 hallmark.",
+  "tags": [
+    "spin-2",
+    "polarization",
+    "graviton"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

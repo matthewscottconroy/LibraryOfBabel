@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Calcium oscillations can emerge from IP3-induced calcium release. What property of the IP3 receptor (IP3R) makes such oscillations possible?",
+  "choices": [
+    "Ca²⁺ has a bell-shaped (biphasic) effect on IP3R -- activating it at low concentrations and inhibiting it at high concentrations -- creating a feedback loop",
+    "IP3 directly opens ryanodine receptors located on the plasma membrane",
+    "Calmodulin permanently sequesters all free cytoplasmic calcium, preventing any further release from internal stores",
+    "SERCA pumps intrinsically oscillate their pumping rate independent of cytoplasmic calcium concentration"
+  ],
+  "answer": 0,
+  "explanation": "IP3R exhibits a bell-shaped dependence on calcium -- low Ca²⁺ potentiates its opening while high Ca²⁺ inhibits it -- creating the calcium-induced calcium release (CICR) feedback that can generate regular oscillations at intermediate IP3 levels. Ryanodine receptors (choice 1) are activated by cytoplasmic calcium itself, not directly by IP3, and reside on the ER membrane, not the plasma membrane. Calmodulin (choice 2) is a calcium-activated effector protein, not a permanent calcium sink, and SERCA pumps (choice 3) maintain the resting calcium gradient but do not autonomously oscillate -- their activity depends on the calcium concentration they are pumping against.",
+  "tags": [
+    "calcium-signaling",
+    "ip3-receptor",
+    "oscillations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "f595e450-fa6f-4db5-b058-472d6ad4d439"
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "f2b5d8e3-4a9c-4d7f-8e3b-2c6a9d1f5e48",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the bacterial CRISPR-Cas immune system, how is a 'memory' of a past viral infection physically recorded in the cell?",
+  "choices": ["A short 'spacer' sequence of the invader's DNA is integrated into the CRISPR array in the genome", "The methylation state of the cell's chemoreceptors is altered", "A stable depolarization of the membrane potential is maintained", "Virus-specific antibodies are synthesized and stored"],
+  "answer": 0,
+  "explanation": "CRISPR-Cas records infections by having Cas1/Cas2 integrate a fragment of invader DNA as a new spacer in the genomic array; on re-infection the spacer is transcribed into a guide RNA that directs Cas cleavage of matching DNA. It is the most literal form of biological memory. Methylation (option 1) underlies chemotaxis adaptation, not immune memory; membrane potential (option 2) is bioelectric signaling; and bacteria do not make antibodies (option 3), which are a vertebrate adaptive-immune mechanism.",
+  "tags": ["crispr", "molecular-memory", "immune-memory"],
+  "difficulty": "intermediate",
+  "generated": true
+}

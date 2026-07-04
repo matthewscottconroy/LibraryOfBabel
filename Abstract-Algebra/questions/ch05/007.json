@@ -1,0 +1,19 @@
+{
+  "question_id": "0d35d83d-6929-4850-a679-97c84df5a1ad",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Similar matrices have the same characteristic polynomial.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "det(λI − P⁻¹AP) = det(P⁻¹(λI − A)P) = det(λI − A) by multiplicativity of det. Hence eigenvalues, trace, and determinant are all invariants of the underlying operator, independent of basis.",
+  "tags": [
+    "similarity",
+    "characteristic-polynomial"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "2e9f2424-d2d2-43a7-b426-b86b79be5aa9",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Using SBP = D^2/(lambda*f), estimate the space-bandwidth product (independent pixels) of a 4f system with D = 25 mm, f = 100 mm, and lambda = 633 nm.",
+  "choices": [
+    "About 10^4 pixels",
+    "About 10^6 pixels",
+    "About 10^12 pixels",
+    "About 10^8 pixels"
+  ],
+  "answer": 3,
+  "explanation": "SBP = D^2/(lambda*f) gives roughly 10^4 independent samples per dimension, so about 10^4 x 10^4 = 10^8 total pixels, the fundamental capacity limit. The 10^4 answer is the per-dimension count mistaken for the total, while 10^6 and 10^12 come from wrong exponents.",
+  "tags": ["fourier-optics", "space-bandwidth-product", "capacity"],
+  "difficulty": "intermediate",
+  "generated": true
+}

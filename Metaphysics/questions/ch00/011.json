@@ -1,0 +1,19 @@
+{
+  "question_id": "29a7b275-0d52-4fe8-9cd8-68ea9d562350",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "In Aristotle's Categories, concrete individuals such as this particular horse or this particular man are called ___ substances, whereas their species and genera are secondary substances.",
+  "choices": [
+    "primary"
+  ],
+  "answer": "primary",
+  "explanation": "Primary substances are the ultimate subjects of predication (the individual horse or man); secondary substances are the species and genera (horse, animal) predicated of them. This ranking expresses Aristotle's immanent realism, on which individuals are ontologically basic and universals exist only in them.",
+  "tags": [
+    "aristotle",
+    "categories",
+    "substance"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

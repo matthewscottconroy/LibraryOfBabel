@@ -1,0 +1,19 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The proximity-labeling technique that fuses a promiscuous biotin ligase to a bait protein, biotinylating nearby proteins within about a 10 nm radius for later streptavidin capture, is called ___ (or its faster variant, TurboID).",
+  "choices": [
+    "BioID"
+  ],
+  "answer": "BioID",
+  "explanation": "BioID fuses a promiscuous biotin ligase to a bait protein so that proteins within roughly a 10 nm radius become biotinylated in living cells, after which streptavidin pulldown and mass spectrometry identify the labeled interactors. Its key advantage over AP-MS is the ability to capture transient and membrane-associated interactions that classical pulldowns often miss.",
+  "tags": [
+    "interaction-proteomics",
+    "bioid",
+    "proximity-labeling"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "cd501890-50a4-498a-922f-cb62cca40b1e"
+}

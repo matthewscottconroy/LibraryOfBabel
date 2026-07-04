@@ -1,0 +1,19 @@
+{
+  "question_id": "ee73807a-65d2-4f0f-a66b-a87b9976e81f",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The factor rho^2 sin(phi) appearing in the spherical-coordinate volume element dV = rho^2 sin(phi) d(rho) d(phi) d(theta) is the absolute value of the ___ determinant of the coordinate transformation.",
+  "choices": [
+    "Jacobian"
+  ],
+  "answer": "Jacobian",
+  "explanation": "The Jacobian determinant of the spherical transformation is rho^2 sin(phi), which converts (rho, phi, theta) volume into Cartesian volume. Omitting this factor is a common error when setting up triple integrals in spherical coordinates.",
+  "tags": [
+    "spherical-coordinates",
+    "jacobian",
+    "integration"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

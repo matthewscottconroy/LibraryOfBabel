@@ -1,0 +1,22 @@
+{
+  "chapter": 20,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A paper-based toehold-switch diagnostic, such as the Zika virus test developed by Pardee and colleagues, produces a colorimetric signal through which mechanism?",
+  "choices": [
+    "Patient-sample trigger RNA binds and opens the toehold switch's hairpin structure, exposing the ribosome binding site and enabling translation of a reporter such as LacZ",
+    "CRISPR-Cas9 directly cleaves the patient's genomic DNA on the paper strip",
+    "PCR-amplified viral DNA is visualized under UV light on the paper",
+    "Antibodies in the patient sample bind gold nanoparticles to produce a color shift"
+  ],
+  "answer": 0,
+  "explanation": "Toehold switches are RNA riboregulators whose hairpin sequesters the ribosome binding site; a complementary trigger RNA from the sample unwinds the hairpin, exposing the RBS and permitting translation of a colorimetric reporter like LacZ. The other options describe different diagnostic technologies (CRISPR-based detection, PCR with UV visualization, and antibody-gold lateral-flow assays), none of which is the toehold-switch mechanism described in this chapter.",
+  "tags": [
+    "cell-free-systems",
+    "biosensors",
+    "toehold-switch"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "03445f55-83cc-4ebe-8774-84db699943ec"
+}

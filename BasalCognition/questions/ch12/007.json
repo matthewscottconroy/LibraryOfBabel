@@ -1,0 +1,13 @@
+{
+  "question_id": "e83c1b9f-0a56-4d27-9b48-6c1e0a3f7d92",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Because phenomenal consciousness is a first-person phenomenon, no third-person measurement of a system's physical properties can by itself determine whether that system has subjective experience.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Phenomenal consciousness is first-person, whereas science is a third-person enterprise, so no external measurement of physical or functional properties can by itself settle whether there is subjective experience. This structural limit is precisely why the consciousness problem resists resolution for non-reporting, non-neural organisms.",
+  "tags": ["consciousness-problem", "third-person-science", "hard-problem"],
+  "difficulty": "beginner",
+  "generated": true
+}

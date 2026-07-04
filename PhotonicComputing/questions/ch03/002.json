@@ -1,0 +1,13 @@
+{
+  "question_id": "782875e3-61a9-4823-a03d-d3e445611133",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A laser reaches threshold when:",
+  "choices": ["the pump power first exceeds the output power", "spontaneous emission first exceeds stimulated emission", "the round-trip optical gain equals the total round-trip loss", "the gain medium becomes 100% inverted"],
+  "answer": 2,
+  "explanation": "Threshold is defined by round-trip gain = round-trip loss (Γg_th = α_i + α_m), the point where a circulating field neither grows nor decays. Below threshold spontaneous emission dominates (LED-like); full inversion is not required, and comparing pump to output power is not the threshold criterion.",
+  "tags": ["laser-threshold", "gain", "loss"],
+  "difficulty": "beginner",
+  "generated": true
+}

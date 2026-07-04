@@ -1,0 +1,22 @@
+{
+  "chapter": 19,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is the key distinction between 'selection' and 'screening' in directed evolution?",
+  "choices": [
+    "Screening tests 10^8-10^12 variants at once, while selection is limited to 10^3-10^6",
+    "Selection and screening are interchangeable terms for the same experimental process",
+    "Selection requires only that survival or growth is linked to the desired property, enabling far higher throughput than screening, which requires measuring each variant individually",
+    "Screening can only be used for nucleic acid aptamers, while selection is used only for proteins"
+  ],
+  "answer": 2,
+  "explanation": "Selection links the desired property directly to survival or growth, allowing extremely high throughput (10^8-10^12 variants), whereas screening requires an individual assay per variant and is typically limited to roughly 10^3-10^6 variants (unless combined with FACS or droplet microfluidics), though it yields richer quantitative information per variant. Option 1 reverses the actual throughput numbers, option 2 [interchangeable] is simply incorrect, and option 4 is wrong because both selection-like enrichment (e.g., phage display, SELEX) and screening are applied broadly across both proteins and nucleic acids, not split along that line.",
+  "tags": [
+    "selection-vs-screening",
+    "throughput",
+    "directed-evolution"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "cac3a9f4-12e0-44b5-8620-d366554a39f6"
+}

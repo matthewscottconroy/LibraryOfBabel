@@ -1,0 +1,22 @@
+{
+  "question_id": "e0ef0bc4-7c93-4951-820f-2c457702c473",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Ned Block's terminology, a mental state is 'access-conscious' (A-conscious) when:",
+  "choices": [
+    "There is something it is like to be in that state",
+    "Its content is poised and available for reasoning, verbal report, and the rational control of action",
+    "It is represented by a suitable higher-order thought",
+    "It carries a high value of integrated information (Φ)"
+  ],
+  "answer": 1,
+  "explanation": "For Block, A-consciousness is functional availability — content poised for reasoning, report, and behavioural control — whereas P-consciousness is the 'what it is like,' i.e. option 0. Option 2 is Rosenthal's higher-order-thought account of what makes a state conscious, and option 3 is IIT's criterion. Block's point is that A- and P-consciousness are distinct and can in principle come apart.",
+  "tags": [
+    "access-consciousness",
+    "phenomenal-consciousness",
+    "block"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

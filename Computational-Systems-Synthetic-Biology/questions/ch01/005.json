@@ -1,0 +1,22 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is the approximate standard free energy of hydrolysis (delta-G degree') of ATP, the cell's central energy currency?",
+  "choices": [
+    "-30.5 kJ/mol",
+    "+30.5 kJ/mol",
+    "-305 kJ/mol",
+    "-3.05 kJ/mol"
+  ],
+  "answer": 0,
+  "explanation": "ATP hydrolysis has a standard free energy change of approximately -30.5 kJ/mol, a moderately negative (exergonic) value well-suited for driving coupled endergonic reactions such as biosynthesis and active transport. A positive sign would make hydrolysis non-spontaneous (incorrect, since ATP hydrolysis is exergonic), while -305 kJ/mol and -3.05 kJ/mol are off by an order of magnitude in opposite directions from the correct value.",
+  "tags": [
+    "atp",
+    "bioenergetics",
+    "thermodynamics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "b694bcdb-eeaa-4ef1-b08d-ec8bd7da8f85"
+}

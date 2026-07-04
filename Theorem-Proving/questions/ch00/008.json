@@ -1,0 +1,21 @@
+{
+  "question_id": "709edeca-5722-4bab-b400-a6591ed480dc",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "In Tarski's stratification, the object language contains its own truth predicate that correctly ascribes truth to its own sentences, and this is what blocks the Liar paradox.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The object language L₀ specifically CANNOT talk about its own truth; the truth predicate True₀ lives in the metalanguage L₁ and applies only to lower-level sentences. It is exactly this stratification — a sentence may ascribe truth only to lower levels — that blocks the Liar, which would require applying the truth predicate at its own level.",
+  "tags": [
+    "object-language",
+    "metalanguage",
+    "tarski",
+    "liar-paradox"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "139452be-be03-42f4-b010-17c3d62e6a6e",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Provability logic GL, in which □φ is read as 'φ is provable in Peano Arithmetic', is obtained by adding which axiom?",
+  "choices": [
+    "The T axiom □φ → φ",
+    "Löb's axiom □(□φ → φ) → □φ",
+    "The 5 axiom ◇φ → □◇φ",
+    "The B axiom φ → □◇φ"
+  ],
+  "answer": 1,
+  "explanation": "GL is defined by adding Löb's axiom □(□φ → φ) → □φ; it is arithmetically sound and complete for PA-provability (Solovay) and encodes Gödel's second incompleteness theorem. The distractors are the classic alethic axioms (T↔reflexive, 5↔Euclidean, B↔symmetric) belonging to systems like T, S4, and S5.",
+  "tags": [
+    "modal-logic",
+    "provability-logic",
+    "gl",
+    "lob-axiom"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

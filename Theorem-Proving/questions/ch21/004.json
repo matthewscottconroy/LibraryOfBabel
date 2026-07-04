@@ -1,0 +1,23 @@
+{
+  "question_id": "67bfed7d-6eae-4a31-9179-3eeb0b82e943",
+  "chapter": 21,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In the statue puzzle, Lumpl (the clay) can survive being squashed into a ball but Goliath (the statue) cannot. Applying the contrapositive of Leibniz's Law, this shows:",
+  "choices": [
+    "Lumpl ≠ Goliath, so the clay constitutes but is not identical to the statue",
+    "the statue and the clay are strictly identical",
+    "Leibniz's Law must be rejected",
+    "modal properties do not exist"
+  ],
+  "answer": 0,
+  "explanation": "Since Lumpl has a modal property (possibly survives flattening) that Goliath lacks, the contrapositive of Leibniz's Law yields Lumpl ≠ Goliath — 'constitution without identity.' This is the puzzle's standard reading; identity, rejecting the Law, or denying modal properties are the costly moves one adopts only to avoid the conclusion.",
+  "tags": [
+    "necessity-of-identity",
+    "leibniz-law",
+    "constitution",
+    "statue-clay"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

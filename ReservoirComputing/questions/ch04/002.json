@@ -1,0 +1,22 @@
+{
+  "question_id": "7be3512d-15fb-4831-bfbe-35c4975c25bd",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "To give a reservoir a target spectral radius rho_target, the ESN code first builds a random matrix W and then:",
+  "choices": [
+    "multiplies W by rho_target / rho(W), preserving its structure while setting the spectral radius exactly to rho_target",
+    "adds rho_target to every diagonal entry of W",
+    "clips each eigenvalue of W individually to rho_target",
+    "retrains W by gradient descent until rho(W) equals rho_target"
+  ],
+  "answer": 0,
+  "explanation": "The standard rescaling is W_rec = (rho_target / rho(W)) * W, where rho(W) = max|eigvals(W)|. Multiplying by a scalar multiplies every eigenvalue by that scalar, so the new spectral radius is exactly rho_target while the sparsity pattern and relative structure are untouched. No diagonal shift, per-eigenvalue clipping, or gradient training is involved.",
+  "tags": [
+    "spectral-radius",
+    "reservoir-construction",
+    "rescaling"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

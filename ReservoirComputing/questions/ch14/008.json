@@ -1,0 +1,20 @@
+{
+  "question_id": "0f4e3fb2-b154-4fb6-b0a2-b81b401af69e",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Increasing the number of virtual nodes N improves NARMA-10 accuracy without limit, so more nodes are always strictly better.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The lab's N sweep (25, 50, 100, 200, 400) shows NMSE improving only up to a saturation point, with diminishing returns thereafter — and more virtual nodes require a smaller θ, trading off against processing speed. Accuracy does not keep improving indefinitely.",
+  "tags": [
+    "physical-rc",
+    "virtual-nodes",
+    "saturation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

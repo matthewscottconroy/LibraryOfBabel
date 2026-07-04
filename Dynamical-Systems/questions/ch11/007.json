@@ -1,0 +1,22 @@
+{
+  "question_id": "c57966a3-ed4a-411f-9d47-1bb79d16f58d",
+  "chapter": 11,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A quadratic map f_c is renormalizable if, for some period n >= 2, the map f_c^n restricted near 0 is:",
+  "choices": [
+    "linear",
+    "polynomial-like",
+    "constant",
+    "an isometry"
+  ],
+  "answer": 1,
+  "explanation": "Renormalizability means f_c^n behaves like a lower-degree polynomial (polynomial-like in the Douady-Hubbard sense) on a small neighborhood, allowing a 'zoom-in' self-similar analysis.",
+  "tags": [
+    "renormalization",
+    "polynomial-like",
+    "complex-dynamics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

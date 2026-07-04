@@ -1,0 +1,22 @@
+{
+  "question_id": "442c714a-a6c0-406f-b528-19aa528fd889",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Peter van Inwagen's 'Special Composition Question' asks:",
+  "choices": [
+    "Under what conditions do some objects compose (become parts of) a further object?",
+    "Whether an object can survive the gradual replacement of all its parts over time.",
+    "Whether two distinct objects can occupy exactly the same place at the same time.",
+    "Whether every object is composed of mereological atoms or is infinitely divisible."
+  ],
+  "answer": 0,
+  "explanation": "The Special Composition Question asks when some xs compose a y—the general conditions under which composition occurs. Distractor 2 is the coincidence problem and distractor 3 is the atomism-versus-gunk question; both are distinct mereological issues, not the SCQ itself.",
+  "tags": [
+    "special-composition-question",
+    "van-inwagen",
+    "composition"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

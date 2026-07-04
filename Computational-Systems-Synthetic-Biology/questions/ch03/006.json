@@ -1,0 +1,22 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which file format is used to store called genetic variants (such as SNPs and indels) relative to a reference genome?",
+  "choices": [
+    "BED",
+    "VCF",
+    "GFF3/GTF",
+    "SAM/BAM"
+  ],
+  "answer": 1,
+  "explanation": "VCF (Variant Call Format) is specifically designed to store variant calls such as SNPs and indels. BED stores generic genomic intervals or regions, GFF3/GTF store gene and feature annotations, and SAM/BAM store aligned sequencing reads -- all real bioinformatics formats, but none designed specifically for variant calls.",
+  "tags": [
+    "file-formats",
+    "vcf",
+    "variant-calling"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "dbb6ae3a-f169-43cb-bd34-4bf6f0c7a8a1"
+}

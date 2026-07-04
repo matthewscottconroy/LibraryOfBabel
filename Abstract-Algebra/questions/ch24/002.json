@@ -1,0 +1,18 @@
+{
+  "question_id": "8f1bd620-e54c-4071-859f-3d731c5b55be",
+  "chapter": 24,
+  "phase": 8,
+  "kind": "mc",
+  "text": "In the first-order language of groups $\\{e, \\cdot, {}^{-1}\\}$, the identity symbol $e$ is classified as a:",
+  "choices": [
+    "relation symbol",
+    "variable",
+    "constant symbol",
+    "quantifier"
+  ],
+  "answer": 2,
+  "explanation": "$e$ names a fixed element, so it is a constant symbol; $\\cdot$ is a binary function symbol and ${}^{-1}$ a unary function symbol. Relation symbols (like $<$ or $\\in$) interpret as relations, not elements; variables range over the domain; and quantifiers $\\forall, \\exists$ are logical symbols, not part of the signature.",
+  "tags": ["first-order-language", "signature", "constant-symbol"],
+  "difficulty": "beginner",
+  "generated": true
+}

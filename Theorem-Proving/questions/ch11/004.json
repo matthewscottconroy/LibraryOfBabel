@@ -1,0 +1,23 @@
+{
+  "question_id": "b7e21ea0-4591-40d2-a88b-4ab6582b9655",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which modal axiom corresponds to transitivity of the accessibility relation?",
+  "choices": [
+    "T: □φ → φ",
+    "B: φ → □◇φ",
+    "5: ◇φ → □◇φ",
+    "4: □φ → □□φ"
+  ],
+  "answer": 3,
+  "explanation": "Axiom 4 (□φ → □□φ, 'iterated necessities collapse') is valid exactly on transitive frames. T corresponds to reflexivity, B to symmetry, and 5 to the Euclidean property; a common error is matching 4 to reflexivity instead of transitivity.",
+  "tags": [
+    "modal-logic",
+    "frame-correspondence",
+    "axiom-4",
+    "transitivity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

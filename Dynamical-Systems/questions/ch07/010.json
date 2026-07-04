@@ -1,0 +1,19 @@
+{
+  "question_id": "a56bfe1b-79d5-41f5-8416-5f326c6fdc68",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Ramanujan graphs are expanders achieving the optimal ___ gap.",
+  "choices": [
+    "spectral"
+  ],
+  "answer": "spectral",
+  "explanation": "Ramanujan graphs meet the Alon-Boppana bound on the second eigenvalue, giving the largest possible spectral gap and hence optimal expansion.",
+  "tags": [
+    "ramanujan-graphs",
+    "spectral-gap",
+    "expanders"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

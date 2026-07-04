@@ -1,0 +1,18 @@
+{
+  "question_id": "afb89753-960e-4ce8-921d-458cbced942c",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which option correctly matches each temporal ontology to what it says exists?",
+  "choices": [
+    "Presentism: all times exist; Eternalism: only the present exists; Growing block: past and present exist.",
+    "Presentism: past and present exist; Eternalism: only the present exists; Growing block: all times exist.",
+    "Presentism: present and future exist; Eternalism: only the present exists; Growing block: only the past exists.",
+    "Presentism: only the present exists; Eternalism: all times (past, present, future) exist equally; Growing block: the past and present exist, but not the future."
+  ],
+  "answer": 3,
+  "explanation": "Presentism holds only the present is real; eternalism (the block universe) holds past, present, and future are equally real; the growing block holds the past and present exist while the future does not yet. Option 0 swaps presentism and eternalism, which is the most common confusion in this area.",
+  "tags": ["time", "presentism", "eternalism", "growing-block"],
+  "difficulty": "beginner",
+  "generated": true
+}

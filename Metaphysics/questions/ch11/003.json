@@ -1,0 +1,22 @@
+{
+  "question_id": "24005b30-8813-4590-8d35-582b58f5850f",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which claim correctly distinguishes Peirce's account of truth from James's?",
+  "choices": [
+    "Peirce identifies truth with what is useful for the individual to believe, while James identifies it with the limit of inquiry.",
+    "Peirce identifies truth with the opinion on which inquiry is fated to converge at the ideal limit, while James identifies it with what 'works' or 'pays' in practice.",
+    "Peirce defends a correspondence theory, while James defends a coherence theory.",
+    "Peirce rejects bivalence, while James accepts recognition-transcendent truth."
+  ],
+  "answer": 1,
+  "explanation": "For Peirce, truth is the final settled opinion the community of inquirers is fated to reach at the ideal limit (a regulative ideal with a realist dimension); for James, truth is what is useful and verifiable-in-practice for the believer. Distractor 0 reverses the two—indeed Peirce renamed his own view 'pragmaticism' to distance it from James's utility-based account.",
+  "tags": [
+    "pragmatism",
+    "peirce",
+    "james"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

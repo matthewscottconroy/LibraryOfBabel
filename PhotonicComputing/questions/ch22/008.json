@@ -1,0 +1,13 @@
+{
+  "question_id": "a2bd27af-e27b-414a-b0fb-458533190dc4",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: Edge couplers (inverse tapers) can be tested anywhere on the wafer surface before dicing, while grating couplers require a polished facet and work only at the die edge.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False — this reverses the two schemes. Grating couplers diffract light vertically and enable wafer-scale test anywhere on the die; edge couplers need an optical-quality facet at the die perimeter and tighter alignment. Grating couplers are -2 to -4 dB and narrowband; edge couplers are 0.5-2 dB and broadband.",
+  "tags": ["grating-coupler", "edge-coupler", "packaging"],
+  "difficulty": "intermediate",
+  "generated": true
+}

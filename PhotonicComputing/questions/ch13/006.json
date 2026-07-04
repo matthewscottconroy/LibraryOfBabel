@@ -1,0 +1,18 @@
+{
+  "question_id": "afa5bd56-1e37-4c80-a18d-71b731d32869",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why do terahertz D2NNs tolerate ordinary mechanical alignment while visible and metasurface designs demand nanometer control?",
+  "choices": [
+    "Because tolerances scale with wavelength: a lambda/10 budget is ~75 micrometers at 0.4 THz but only ~53 nm at 532 nm, a ~1400x difference",
+    "Because terahertz light does not diffract",
+    "Because visible photons carry less energy, making them noisier",
+    "Because metasurfaces are always 3D-printed while plastic plates are not"
+  ],
+  "answer": 0,
+  "explanation": "Alignment and fabrication tolerances are fractions of a wavelength, so the same lambda/10 budget is ~75 micrometers at 0.4 THz versus ~53 nm at 532 nm, and this ~1400x wavelength ratio is why long-wavelength networks tolerate mechanical alignment. Terahertz light does diffract (that is the whole mechanism), and photon energy/noise and fabrication method are not the reason.",
+  "tags": ["d2nn", "fabrication-tolerance", "wavelength", "sim-to-real"],
+  "difficulty": "intermediate",
+  "generated": true
+}

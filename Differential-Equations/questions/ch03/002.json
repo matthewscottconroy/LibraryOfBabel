@@ -1,0 +1,22 @@
+{
+  "question_id": "08347e77-9226-4610-aadc-9606ecec2be8",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The differential equation y'' + sin(y) = 0 is best classified as:",
+  "choices": [
+    "first-order and linear",
+    "second-order and linear",
+    "second-order and nonlinear",
+    "first-order and nonlinear"
+  ],
+  "answer": 2,
+  "explanation": "The highest derivative present is y'', so the equation is second order; the term sin(y) is a nonlinear function of the dependent variable, so it is nonlinear. Linearity would require y and its derivatives to appear to the first power with coefficients depending on x alone.",
+  "tags": [
+    "classification",
+    "order",
+    "linearity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

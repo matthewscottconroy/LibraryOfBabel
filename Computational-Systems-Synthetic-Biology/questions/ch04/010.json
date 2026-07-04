@@ -1,0 +1,19 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The ___ algorithm extends dynamic programming sequence alignment to efficiently handle affine gap penalties in O(nm) time.",
+  "choices": [
+    "Gotoh"
+  ],
+  "answer": "Gotoh",
+  "explanation": "The Gotoh algorithm modifies the standard DP recursion with extra state matrices tracking whether a gap is being opened or extended, allowing affine gap penalties to be computed without the higher time complexity a naive implementation would require. This makes affine-penalty alignment practical at the same O(nm) complexity as simple linear-penalty alignment.",
+  "tags": [
+    "gap-penalties",
+    "gotoh-algorithm",
+    "dynamic-programming"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "d6dc85f9-d213-426d-82f9-b1d5ca1f2f30"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "b6edd2a0-da95-4aad-8bfe-d25b6eaa6e34",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Antonio Damasio's ___ hypothesis (Descartes' Error, 1994) holds that fast emotional signals from the body guide decision-making, so that patients with ventromedial prefrontal damage reason poorly in real life despite intact intelligence.",
+  "choices": [
+    "somatic marker",
+    "somatic marker hypothesis"
+  ],
+  "answer": "somatic marker",
+  "explanation": "Damasio's somatic-marker hypothesis makes emotion constitutive of good practical reasoning rather than opposed to it -- the opposite of Descartes' picture of pure disembodied reason. It is a modern descendant of the James-Lange emphasis on bodily feedback, extended to decision-making via the ventromedial prefrontal cortex.",
+  "tags": [
+    "somatic-marker",
+    "damasio",
+    "vmpfc",
+    "emotion-and-reason"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

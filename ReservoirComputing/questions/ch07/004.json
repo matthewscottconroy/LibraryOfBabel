@@ -1,0 +1,22 @@
+{
+  "question_id": "b9d7a75e-5f1e-4e26-aa6f-2cbdfb058fc9",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the lab, what distinguishes closed-loop (autonomous) prediction from open-loop (teacher-forced) prediction?",
+  "choices": [
+    "Closed-loop retrains W_out at every step; open-loop trains it once",
+    "Closed-loop uses a larger reservoir than open-loop",
+    "Closed-loop feeds the ESN's own prediction back as the next input; open-loop uses the true value",
+    "Closed-loop discards the washout period; open-loop keeps it"
+  ],
+  "answer": 2,
+  "explanation": "closed_loop_predict warms up the reservoir, then feeds each output y_t back as the next input u_t, running autonomously. Open-loop (esn.predict) uses the true test inputs at every step. Neither retrains W_out at test time; reservoir size and washout are unchanged.",
+  "tags": [
+    "mackey-glass",
+    "closed-loop",
+    "prediction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

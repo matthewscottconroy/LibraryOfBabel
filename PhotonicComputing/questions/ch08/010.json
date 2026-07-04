@@ -1,0 +1,19 @@
+{
+  "question_id": "93d7a527-29ad-45ff-96bc-08308f1f44d7",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Forward error correction lets a link run at a pre-FEC bit error rate of 10^-3 to 10^-4 yet deliver 10^-15 post-FEC; a 20% soft-decision LDPC code provides a net coding ___ of about 9-10 dB.",
+  "choices": [
+    "gain"
+  ],
+  "answer": "gain",
+  "explanation": "Net coding gain measures how much the required SNR (or OSNR) is relaxed by the code; 20% SD-LDPC gives ~9-10 dB, versus ~6 dB for 7% hard-decision FEC. This gain is what lets systems operate close to the Shannon limit.",
+  "tags": [
+    "fec",
+    "ldpc",
+    "net-coding-gain"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

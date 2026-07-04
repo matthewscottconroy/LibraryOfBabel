@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which limitation applies specifically to cell-free expression and would NOT apply to an equivalent cell-based (in vivo) experiment?",
+  "choices": [
+    "Inability to model cell growth dynamics or predict promoter strength effects that depend on chromosome copy number",
+    "Inability to tolerate toxic reaction products",
+    "A mandatory multi-day cell transformation step before any measurement can be taken",
+    "Complete absence of transcription or translation machinery in the reaction"
+  ],
+  "answer": 0,
+  "explanation": "Because cell-free reactions contain no dividing cells, they cannot model growth dynamics, long-term genetic stability, or promoter behavior tied to chromosome copy number -- limitations explicitly listed for cell-free but not applicable to living cells. Toxic-product tolerance is actually an advantage of cell-free (not a shared limitation), the lengthy transformation step is a cell-based drawback that cell-free avoids, and cell-free reactions by definition do contain transcription/translation machinery, whether extracted or reconstituted.",
+  "tags": [
+    "cell-free-systems",
+    "limitations"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "f8f8466a-c3e7-47b2-8d2a-42c6abf9d3aa"
+}

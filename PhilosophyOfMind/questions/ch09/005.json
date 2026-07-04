@@ -1,0 +1,23 @@
+{
+  "question_id": "c4001dcb-7ddd-4689-820e-a22cd2408e6e",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A phobic subject keeps feeling intense fear of a spider she sincerely judges to be harmless. This phenomenon -- emotion persisting in direct conflict with the subject's own considered judgement -- is standardly used to object to which theory?",
+  "choices": [
+    "The James-Lange feeling theory",
+    "Basic-emotion theory",
+    "The pure judgement (cognitive/evaluative) theory that identifies an emotion with an evaluative judgement",
+    "The Schachter-Singer two-factor theory"
+  ],
+  "answer": 2,
+  "explanation": "This is the recalcitrance objection: if fear just IS the judgement 'this is dangerous,' then dropping that judgement should dissolve the fear -- but it does not, so emotion cannot simply be identical to an evaluative judgement. It targets strong cognitivism (e.g., a strict reading of Nussbaum), not the feeling, basic-emotion, or two-factor theories, which already allow emotion to diverge from considered judgement.",
+  "tags": [
+    "recalcitrance",
+    "judgment-theory",
+    "cognitivism",
+    "phobia"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

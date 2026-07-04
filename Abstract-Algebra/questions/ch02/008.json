@@ -1,0 +1,19 @@
+{
+  "question_id": "1b4b54be-f1c7-46ac-ba64-252eda4c809e",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In a vector space over a field, if a·v = 0 with scalar a ≠ 0, then v = 0.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Multiply by a⁻¹, which exists since a ≠ 0 in a field: v = 1·v = (a⁻¹a)·v = a⁻¹·(a·v) = a⁻¹·0 = 0. Over a mere ring this argument breaks down, which is one way modules differ from vector spaces.",
+  "tags": [
+    "vector-spaces",
+    "axioms"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

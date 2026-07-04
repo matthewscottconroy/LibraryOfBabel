@@ -1,0 +1,22 @@
+{
+  "question_id": "7245d00a-5bf7-49d3-b444-992d23480526",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the Bayesian-readouts chapter, how does a Gaussian-process readout with a linear kernel k(r,r') = sigma_w^2 * r^T r' relate to ridge regression?",
+  "choices": [
+    "Its predictive mean differs from ridge because GPs are nonparametric",
+    "Its predictive mean equals the ridge solution with lambda = sigma_n^2 / sigma_w^2, and it additionally yields a predictive variance",
+    "It reduces to the LMS gradient rule when the observation noise is small",
+    "It requires O(N^3) inference in the number of neurons N, unlike ridge"
+  ],
+  "answer": 1,
+  "explanation": "For a linear kernel the GP is Bayesian ridge regression: the predictive mean coincides exactly with the ridge solution (with lambda = sigma_n^2/sigma_w^2), and the GP adds a calibrated predictive variance that ridge lacks. The mean does not differ, it is not LMS, and GP cost is O(T^3) in samples, not O(N^3) in neurons.",
+  "tags": [
+    "bayesian-readout",
+    "gaussian-process",
+    "ridge-regression"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

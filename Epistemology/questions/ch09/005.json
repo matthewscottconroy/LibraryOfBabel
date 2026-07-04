@@ -1,0 +1,20 @@
+{
+  "question_id": "dbe3fd7d-0df6-4f97-af7e-fdda2e057617",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Hempel's ___ arises because 'All ravens are black' is logically equivalent to 'All non-black things are non-ravens,' so that observing a green apple - a non-black non-raven - appears to confirm the hypothesis about ravens.",
+  "choices": [
+    "raven paradox"
+  ],
+  "answer": "raven paradox",
+  "explanation": "The paradox pits the equivalence condition (logically equivalent hypotheses are confirmed by the same evidence) against the intuition that a green apple tells us nothing about ravens. Bayesians reply that the apple does confirm 'All ravens are black,' but to a vanishingly small degree, dissolving the air of paradox while preserving the equivalence condition. It is a problem for confirmation theory, not a case of falsification or underdetermination.",
+  "tags": [
+    "philosophy of science",
+    "confirmation",
+    "raven paradox",
+    "hempel"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

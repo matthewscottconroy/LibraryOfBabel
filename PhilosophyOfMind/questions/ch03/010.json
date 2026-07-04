@@ -1,0 +1,20 @@
+{
+  "question_id": "44cf8dd0-5fec-494d-847b-6d087da7d2ff",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Frege distinguished the reference (Bedeutung) of an expression from its ___ (Sinn) — its mode of presentation — which is why 'Hesperus' and 'Phosphorus' differ in cognitive value even though they name the same planet.",
+  "choices": [
+    "sense"
+  ],
+  "answer": "sense",
+  "explanation": "Frege's 'sense' (Sinn) is the mode of presentation of a referent; 'Hesperus' and 'Phosphorus' share a reference (Venus) but differ in sense, which is why 'Hesperus is Phosphorus' is informative and why attitude contexts are referentially opaque. The expected word is 'sense.'",
+  "tags": [
+    "frege",
+    "sense-reference",
+    "opacity",
+    "propositional-attitudes"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

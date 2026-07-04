@@ -1,0 +1,22 @@
+{
+  "question_id": "858313b7-e8b1-4c62-b3d7-01cc912ca646",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "You want to refute the universally quantified claim 'for all n, P(n).' What suffices?",
+  "choices": [
+    "Proving that P(n) fails for infinitely many n",
+    "Proving ¬P(n) for a single arbitrary (variable) n",
+    "Exhibiting one specific n for which P(n) is false — a counterexample",
+    "Showing that P(n) holds for some n"
+  ],
+  "answer": 2,
+  "explanation": "A universal ∀n P(n) is refuted by a single explicit counterexample — one concrete n with ¬P(n) — because its negation is ∃n ¬P(n). You need not find infinitely many. Proving ¬P(n) for an arbitrary n would establish ∀n ¬P(n), which is stronger than required; and showing P holds for some n confuses refuting the claim with confirming an instance.",
+  "tags": [
+    "counterexample",
+    "disproof",
+    "universal-quantifier"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

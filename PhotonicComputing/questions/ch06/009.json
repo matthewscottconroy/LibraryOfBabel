@@ -1,0 +1,19 @@
+{
+  "question_id": "19fc8f8a-d6e7-460d-9815-40678ea09399",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Because silicon's indirect bandgap prevents efficient lasing, on-chip light is supplied by heterogeneously integrating a ___ compound semiconductor (such as InP) onto the silicon.",
+  "choices": [
+    "III-V"
+  ],
+  "answer": "III-V",
+  "explanation": "III-V semiconductors such as InP have direct bandgaps and provide optical gain, so they are bonded or grown on silicon to form on-chip lasers and amplifiers. Silicon alone cannot lase.",
+  "tags": [
+    "iii-v",
+    "heterogeneous-integration",
+    "on-chip-laser"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

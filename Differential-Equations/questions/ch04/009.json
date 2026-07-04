@@ -1,0 +1,22 @@
+{
+  "question_id": "15c028ee-8ca2-4f52-9721-ec5904b8efa3",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Fast Fourier Transform computes the discrete Fourier transform of N points in:",
+  "choices": [
+    "order N^2 operations",
+    "order N log N operations",
+    "order N operations",
+    "order N^3 operations"
+  ],
+  "answer": 1,
+  "explanation": "The FFT's divide-and-conquer factorization reduces the naive order N^2 DFT to order N log N, a decisive speedup for signal processing. It is not linear time; the log N factor comes from the recursion depth.",
+  "tags": [
+    "fft",
+    "dft",
+    "complexity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

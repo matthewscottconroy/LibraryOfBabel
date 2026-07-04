@@ -1,0 +1,19 @@
+{
+  "question_id": "c9cc9bf0-dcca-4cd6-b6f7-9bd9de8b8bb8",
+  "chapter": 19,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In the measurement-based (one-way) model of Raussendorf and Briegel, computation proceeds entirely by adaptive single-qubit measurements consuming a pre-built, highly entangled resource called a ___ state.",
+  "choices": [
+    "cluster"
+  ],
+  "answer": "cluster",
+  "explanation": "The one-way computer consumes a cluster (graph) state by adaptive single-qubit measurements, with feed-forward correcting the Pauli byproducts; a 2D cluster state is universal.",
+  "tags": [
+    "cluster-state",
+    "measurement-based",
+    "one-way"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

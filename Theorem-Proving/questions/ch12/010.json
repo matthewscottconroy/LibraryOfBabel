@@ -1,0 +1,20 @@
+{
+  "question_id": "c3d8cbc4-5c42-4ff4-b84b-3b93378a68c1",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Hoare logic is sound and, by ___'s theorem (1978), relatively complete — complete provided the assertion language can express all weakest preconditions.",
+  "choices": [
+    "Cook"
+  ],
+  "answer": "Cook",
+  "explanation": "Cook (1978) proved the relative completeness of Hoare logic: it is complete relative to an oracle for the assertion theory, because completeness requires the assertion language to express weakest preconditions. That expressiveness requirement is why the result is 'relative' rather than absolute.",
+  "tags": [
+    "hoare-logic",
+    "completeness",
+    "cook-theorem",
+    "relative-completeness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

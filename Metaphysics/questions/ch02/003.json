@@ -1,0 +1,22 @@
+{
+  "question_id": "1281e69d-fe05-4b71-beaf-4463c2493eff",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is the core claim of perdurantism (four-dimensionalism) about how objects persist through time?",
+  "choices": [
+    "Objects are wholly present at each moment they exist and have no temporal parts.",
+    "Only the present moment exists, so persistence is a succession of wholly present objects.",
+    "Objects persist by having distinct temporal parts (stages) at different times, just as they have spatial parts at different places.",
+    "Ordinary objects do not really persist; there are only simples arranged object-wise."
+  ],
+  "answer": 2,
+  "explanation": "Perdurantism holds that an object is a four-dimensional whole composed of temporal parts, one at each time it exists. The tempting distractor (option 0) states endurantism (three-dimensionalism), the direct rival, on which the object is wholly present at each moment with no temporal parts at all.",
+  "tags": [
+    "perdurantism",
+    "temporal-parts",
+    "persistence"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

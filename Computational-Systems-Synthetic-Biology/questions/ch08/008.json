@@ -1,0 +1,20 @@
+{
+  "chapter": 8,
+  "phase": 1,
+  "kind": "tf",
+  "text": "TM-score is generally preferred over RMSD when comparing proteins of very different lengths because TM-score is length-normalized.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: TM-score explicitly normalizes for protein length, whereas RMSD can be artificially inflated by long, flexible regions and does not correct for differences in protein size. This makes TM-score more robust than RMSD specifically when comparing proteins of different lengths.",
+  "tags": [
+    "tm-score",
+    "rmsd",
+    "structure-comparison"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "f0037fba-7ca8-4f32-ace3-0ecf9d0ece7c"
+}

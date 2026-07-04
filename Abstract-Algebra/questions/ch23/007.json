@@ -1,0 +1,13 @@
+{
+  "question_id": "31cd002e-80ae-49ca-aeb1-cd8e3c9ff169",
+  "chapter": 23,
+  "phase": 8,
+  "kind": "tf",
+  "text": "The Axiom of Foundation (Regularity) implies that no set can be a member of itself.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "Foundation says every non-empty set has an $\\in$-minimal element; applied to $\\{x\\}$ this forces $x \\cap \\{x\\} = \\emptyset$, so $x \\notin x$. Thus self-membership $x \\in x$ is impossible in ZFC, exactly the pathology the axiom is designed to eliminate.",
+  "tags": ["foundation-axiom", "regularity", "self-membership"],
+  "difficulty": "beginner",
+  "generated": true
+}

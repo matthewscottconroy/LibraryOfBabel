@@ -1,0 +1,20 @@
+{
+  "question_id": "025b8ae9-cf95-4543-a069-b202b65cb4d0",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Grounding is standardly taken to be non-causal: it is a relation of synchronic metaphysical explanation, not the diachronic production of one event by another.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Grounding (Fine, Schaffer, Rosen) is a species of non-causal, 'in virtue of' explanation, for example a conjunction obtaining in virtue of its conjuncts. It is explicitly distinguished from causation, which relates distinct events across time.",
+  "tags": [
+    "grounding",
+    "causation",
+    "metaphysical-explanation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

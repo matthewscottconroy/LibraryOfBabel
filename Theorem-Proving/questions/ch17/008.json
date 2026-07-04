@@ -1,0 +1,20 @@
+{
+  "question_id": "37695a18-8ebe-4086-84c1-e7082fb7ba5a",
+  "chapter": 17,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: Unlike the Liar, the Truthteller ('this sentence is true') yields no contradiction; it is consistent but underdetermined — nothing settles its truth value.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Diagonalizing on Tr(x) gives τ ↔ T⟨τ⟩; assuming it true is stable and assuming it false is stable, so no contradiction arises, but its value is underdetermined. In Kripke's terms the Truthteller is ungrounded yet not paradoxical, valued differently across fixed points — the mirror image of the overdetermined Liar. So true.",
+  "tags": [
+    "truthteller",
+    "liar",
+    "underdetermined"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "96f6ae68-15af-43cb-afa3-87eb42285668",
+  "chapter": 14,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The defining condition on the boundary maps of a chain complex ⋯ → Cₙ → Cₙ₋₁ → ⋯ is:",
+  "choices": [
+    "d ∘ d = 0, i.e. dₙ₋₁ ∘ dₙ = 0 for all n",
+    "each dₙ is injective",
+    "each dₙ is surjective",
+    "d ∘ d = id"
+  ],
+  "answer": 0,
+  "explanation": "'The boundary of a boundary is zero' gives im(dₙ₊₁) ⊆ ker(dₙ), which is exactly what makes homology Hₙ = ker dₙ / im dₙ₊₁ well defined. Exactness is the stronger condition im = ker.",
+  "tags": [
+    "chain-complexes",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

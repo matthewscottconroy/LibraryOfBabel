@@ -1,0 +1,22 @@
+{
+  "question_id": "663baf41-7a50-4c04-9a84-d1cb539dd984",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In ethics, the distinction between a 'moral patient' and a 'moral agent' is best captured by which contrast?",
+  "choices": [
+    "A moral patient acts rightly whereas a moral agent acts wrongly",
+    "A moral patient is always human whereas a moral agent is always non-human",
+    "A moral patient possesses rationality whereas a moral agent possesses only sentience",
+    "A moral patient is an entity that can be wronged or benefited (has moral status); a moral agent is one that can be held responsible for its actions"
+  ],
+  "answer": 3,
+  "explanation": "A moral patient is something toward which we have obligations because it can be harmed or benefited; a moral agent is something answerable for what it does. Infants and many animals are patients without being full agents. The other options confuse the distinction with right/wrong action, species, or invert the sentience/rationality mapping.",
+  "tags": [
+    "moral-patient",
+    "moral-agent",
+    "moral-status"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

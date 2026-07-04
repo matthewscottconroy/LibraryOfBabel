@@ -1,0 +1,18 @@
+{
+  "chapter": 10,
+  "phase": 2,
+  "kind": "blank",
+  "text": "A ___ bifurcation occurs when two fixed points (one stable, one an unstable saddle) collide and annihilate as a parameter changes, and is the mechanism underlying bistability with two stable states separated by an unstable saddle.",
+  "choices": [
+    "saddle-node"
+  ],
+  "answer": "saddle-node",
+  "explanation": "A saddle-node bifurcation is exactly this collision-and-annihilation event between a stable and an unstable (saddle) fixed point; before the collision, the system can be bistable with two stable states separated by the saddle, a common model for irreversible cell-fate commitment. This is distinct from a Hopf bifurcation (which creates oscillations, not bistability) or a pitchfork bifurcation (which requires a symmetric system splitting one stable point into two).",
+  "tags": [
+    "saddle-node-bifurcation",
+    "bistability"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "2c12cd4e-4212-4d86-ab70-52a900672032"
+}

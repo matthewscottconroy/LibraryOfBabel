@@ -1,0 +1,21 @@
+{
+  "chapter": 21,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which biosafety level (BSL) is required for handling agents such as Ebola, Marburg, and smallpox -- pathogens causing life-threatening disease with no available vaccine or treatment?",
+  "choices": [
+    "BSL-2",
+    "BSL-3",
+    "BSL-1",
+    "BSL-4"
+  ],
+  "answer": 3,
+  "explanation": "BSL-4 is reserved for agents like Ebola, Marburg, Lassa, and smallpox that pose a high risk of life-threatening disease with no vaccine or treatment, requiring a full-body positive-pressure suit or class III biosafety cabinet. BSL-1 covers minimal-risk agents like E. coli K-12, BSL-2 covers moderate-risk agents such as Salmonella, and BSL-3 covers serious inhalation risks like M. tuberculosis or SARS-CoV-2 -- all lower containment tiers than what these agents require.",
+  "tags": [
+    "biosafety",
+    "bsl-levels"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "45a236b1-7a9d-41fe-a494-c270e11cfdf1"
+}

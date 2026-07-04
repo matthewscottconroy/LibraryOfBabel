@@ -1,0 +1,18 @@
+{
+  "question_id": "4065d922-3658-4dff-b224-9c77769a0992",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Epicurus calls time an 'accident of accidents' (symbebekos symbebekoton). What does this phrase imply about time's ontological status?",
+  "choices": [
+    "Time is an incorporeal that subsists alongside bodies as a genuine, objective cosmic interval",
+    "Time is a second-order property of events (motions, rests, changes), which are themselves accidents of bodies, so it cannot exist without events",
+    "Time is an absolute container that flows uniformly whether or not any events occur",
+    "Time is the number of motion with respect to before and after, requiring a soul to count it"
+  ],
+  "answer": 1,
+  "explanation": "Ordinary accidents belong directly to bodies, but for Epicurus time is an accident of the events bodies undergo — one level further removed — making it doubly derivative and inseparable from change. The subsisting-incorporeal view (choice 0) is the rival Stoic position; the absolute self-flowing container (choice 2) is Newton's view, which the relational Epicurean account explicitly opposes; and choice 3 is Aristotle's definition of time.",
+  "tags": ["epicurus", "accident-of-accidents", "relational-time", "ontology"],
+  "difficulty": "intermediate",
+  "generated": true
+}

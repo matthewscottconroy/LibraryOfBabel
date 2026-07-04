@@ -1,0 +1,18 @@
+{
+  "question_id": "f7b1f257-3dda-49f3-8a31-5ccc49a02f9e",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What plays the role of the synapses (the inter-layer connectivity) in a diffractive neural network?",
+  "choices": [
+    "Metal wires patterned between the layers",
+    "Electronic multipliers placed at each pixel",
+    "Optical fibers connecting corresponding pixels of adjacent layers",
+    "Free-space diffraction (Rayleigh-Sommerfeld propagation), which couples every pixel to every pixel of the next layer with no physical wiring"
+  ],
+  "answer": 3,
+  "explanation": "Each pixel imposes a local phase, then diffraction spreads its contribution across the entire next layer, realizing an all-to-all (fully connected) map from a single passive slab, with connectivity supplied 'for free' by physics. There are no wires, electronic multipliers, or fibers on the inference path.",
+  "tags": ["d2nn", "diffraction", "connectivity", "rayleigh-sommerfeld"],
+  "difficulty": "beginner",
+  "generated": true
+}

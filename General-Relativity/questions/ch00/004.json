@@ -1,0 +1,21 @@
+{
+  "question_id": "362e7c7a-1b5e-47f7-8923-bf766d7c7248",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The book defines an equivalence relation on a set A as a relation that is:",
+  "choices": [
+    "reflexive, antisymmetric, and transitive",
+    "symmetric and transitive only",
+    "reflexive and symmetric only",
+    "reflexive, symmetric, and transitive"
+  ],
+  "answer": 3,
+  "explanation": "The book defines an equivalence relation as reflexive, symmetric, and transitive (canonical example: equality), and its classes partition A. 'Reflexive, antisymmetric, transitive' is the book's definition of a partial order, not an equivalence relation; the other two options drop a required property (transitivity or reflexivity).",
+  "tags": [
+    "set-theory",
+    "relations"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

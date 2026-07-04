@@ -1,0 +1,22 @@
+{
+  "question_id": "f222a7f5-e893-45df-8b10-3db2be63e452",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Morgan's Canon (C. Lloyd Morgan, 1894) is best characterized as which kind of principle?",
+  "choices": [
+    "A principle of parsimony: do not interpret an animal's behavior in terms of a higher psychological faculty if a lower one will suffice",
+    "A metaphysical thesis that non-human animals never have any conscious experiences",
+    "A methodological rule to attribute the richest possible mental life to animals by default",
+    "The behaviorist claim that all behavior is exhaustively explained by stimulus-response conditioning"
+  ],
+  "answer": 0,
+  "explanation": "Morgan's Canon is a parsimony rule about interpreting behavior at the lowest adequate psychological level; crucially it does not forbid higher attributions, only requires that evidence warrant them. The second overreads it into a denial of consciousness; the third is its opposite (anthropomorphic liberality); the fourth is Watson/Skinner behaviorism.",
+  "tags": [
+    "morgans-canon",
+    "parsimony",
+    "anthropomorphism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

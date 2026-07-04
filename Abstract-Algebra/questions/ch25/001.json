@@ -1,0 +1,22 @@
+{
+  "question_id": "36608d80-9c9a-4e29-b09b-3e6efe5e879f",
+  "chapter": 25,
+  "phase": 8,
+  "kind": "mc",
+  "text": "In an elementary topos the subobject classifier $\\Omega$ is the 'object of truth values.' In the topos $\\mathbf{Set}$, what is $\\Omega$?",
+  "choices": [
+    "The two-element set $\\{0,1\\}$ (true/false)",
+    "The empty set $\\varnothing$",
+    "The terminal object $1$ (a one-element set)",
+    "The natural number object $\\mathbb{N}$"
+  ],
+  "answer": 0,
+  "explanation": "In $\\mathbf{Set}$ every subobject $A\\hookrightarrow B$ is the preimage of 'true' under a characteristic map $B\\to\\{0,1\\}$, so $\\Omega=\\{0,1\\}$ carries the two classical truth values. The empty set classifies nothing; the terminal object $1$ is the source of the map $\\top:1\\to\\Omega$, not $\\Omega$ itself; and $\\mathbb{N}$ is the separate natural number object.",
+  "tags": [
+    "topos",
+    "subobject-classifier",
+    "set"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

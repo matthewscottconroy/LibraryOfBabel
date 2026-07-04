@@ -1,0 +1,13 @@
+{
+  "question_id": "dd650357-512d-46e4-9ec0-32dbec7eeff3",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Presentism is the thesis that only present things exist: the past has ceased to exist and the future does not yet exist.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "This is the standard formulation of presentism (Zimmerman's 'everything is present'), on which reality is exhausted by what is currently the case. It contrasts with eternalism (all times exist) and the growing block (past and present exist, future does not). The statement accurately states presentism, so it is true.",
+  "tags": ["presentism", "a-theory", "ontology", "present"],
+  "difficulty": "beginner",
+  "generated": true
+}

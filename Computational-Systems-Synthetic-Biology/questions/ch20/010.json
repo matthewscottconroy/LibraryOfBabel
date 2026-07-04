@@ -1,0 +1,19 @@
+{
+  "chapter": 20,
+  "phase": 3,
+  "kind": "blank",
+  "text": "A synthetic RNA hairpin that sequesters the ribosome binding site until a complementary trigger RNA binds and unfolds it, enabling translation of a reporter gene, is called a ___ switch.",
+  "choices": [
+    "toehold"
+  ],
+  "answer": "toehold",
+  "explanation": "Toehold switches are the RNA-based riboregulator technology used in cell-free paper diagnostics for pathogens such as Zika virus and SARS-CoV-2, producing a visible readout only when the target trigger RNA is present.",
+  "tags": [
+    "cell-free-systems",
+    "biosensors",
+    "toehold-switch"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "76bef105-6b38-4838-93b1-0146f799fd04"
+}

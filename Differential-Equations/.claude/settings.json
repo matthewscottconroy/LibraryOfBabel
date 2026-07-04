@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python tutor.py --help)",
-      "Bash(python -c ' *)",
-      "Bash(.venv/bin/python -c ' *)"
-    ]
-  }
-}

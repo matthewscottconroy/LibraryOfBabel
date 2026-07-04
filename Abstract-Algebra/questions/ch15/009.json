@@ -1,0 +1,19 @@
+{
+  "question_id": "addc89e0-bd71-4337-a661-bf1cf182d681",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "blank",
+  "text": "H⁰(G, M) = M^G = {m ∈ M : gm = m for all g ∈ G} is the submodule of G-___ of M.",
+  "choices": [
+    "invariants",
+    "fixed points"
+  ],
+  "answer": "invariants",
+  "explanation": "Group cohomology Hⁿ(G, M) = Extⁿ_{ℤ[G]}(ℤ, M) is the derived functor of the invariants functor M ↦ M^G. Higher cohomology measures the failure of taking invariants to be exact.",
+  "tags": [
+    "group-cohomology",
+    "invariants"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

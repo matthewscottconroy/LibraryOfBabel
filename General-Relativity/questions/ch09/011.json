@@ -1,0 +1,19 @@
+{
+  "question_id": "6acf67e9-a3f9-4adc-b576-c04a89cb7ae0",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In the Reissner-Nordström solution, the inner horizon at r_− — where determinism breaks down and infalling radiation is infinitely blueshifted — is called the ___ horizon.",
+  "choices": [
+    "Cauchy",
+    "inner Cauchy"
+  ],
+  "answer": "Cauchy",
+  "explanation": "The book calls the inner horizon r_− the Cauchy horizon: the domain of dependence of any initial-data surface does not extend past it, and infalling radiation is infinitely blueshifted there (Strong Cosmic Censorship suggests it is unstable). The outer horizon r_+ is the ordinary event horizon.",
+  "tags": [
+    "reissner-nordstrom",
+    "cauchy-horizon"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

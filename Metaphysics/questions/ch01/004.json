@@ -1,0 +1,22 @@
+{
+  "question_id": "addef3f4-4b85-4f79-8119-7f4f3796cfb6",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Bradley's regress argues that instantiation, the tie between a particular a and a universal F, requires a further relation to connect them, and another to connect that, without end. Which response-and-defender pairing is correct?",
+  "choices": [
+    "Rodriguez-Pereyra: the regress shows universals must be replaced by resemblance classes.",
+    "Armstrong: the regress is benign because it is an infinite series of distinct new entities that do no harm.",
+    "Fine: instantiation is a relation like any other and does require an external relation to ground it.",
+    "Armstrong: instantiation is a non-relational 'internal tie' that holds in virtue of its relata and needs no further grounding."
+  ],
+  "answer": 3,
+  "explanation": "Armstrong stops the regress by denying that instantiation is a further relation at all: it is an internal tie fixed by its relata. The tempting distractor (option 1) misassigns to Armstrong the reply that is actually Lewis's (the regress is a harmless series of truths, not new entities), while Fine's real reply is that the predicational nexus is primitive and sui generis.",
+  "tags": [
+    "bradleys-regress",
+    "instantiation",
+    "armstrong"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

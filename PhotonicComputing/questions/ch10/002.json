@@ -1,0 +1,18 @@
+{
+  "question_id": "fec432b2-d354-4b41-b333-51c729a84fe8",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What operation does the classic two-lens 4f optical processor implement on an input image?",
+  "choices": [
+    "Coherent linear spatial filtering: the output is the input convolved with the impulse response of the Fourier-plane mask",
+    "A nonlinear thresholding of the image intensity",
+    "An optical analog-to-digital conversion of the image",
+    "Amplification of the image by stimulated emission"
+  ],
+  "answer": 0,
+  "explanation": "The first lens Fourier transforms the input, a mask at the Fourier plane multiplies the spectrum, and the second lens inverse-transforms, yielding the input convolved with the mask's impulse response, i.e. any linear translation-invariant operation. It is passive and linear, so it performs no thresholding, no digitization, and provides no gain.",
+  "tags": ["fourier-optics", "4f-processor", "spatial-filtering"],
+  "difficulty": "beginner",
+  "generated": true
+}

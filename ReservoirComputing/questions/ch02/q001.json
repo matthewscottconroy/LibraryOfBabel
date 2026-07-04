@@ -1,9 +1,0 @@
-{
-  "chapter": 2, "phase": 0, "kind": "mc",
-  "text": "In an Echo State Network, why are the input-to-reservoir weights W_in and the reservoir-to-reservoir weights W typically kept fixed after initialisation?",
-  "choices": ["Training both W_in and W simultaneously is computationally intractable", "Only the readout weights W_out need to be trained, making the system a linear regression problem", "Reservoir weights must be sparse to satisfy the echo state property", "Fixed weights ensure the reservoir operates in the edge-of-chaos regime automatically"],
-  "answer": 1,
-  "explanation": "The key insight of ESNs is to only train the readout weights W_out via linear regression (e.g. ridge regression), while the reservoir weights remain fixed. This avoids the backpropagation-through-time problems of trained RNNs. The fixed recurrent weights project inputs into a high-dimensional nonlinear feature space; the readout merely finds a linear combination of these features — a convex optimisation with a unique global solution.",
-  "tags": ["ESN", "training", "readout", "ridge-regression"],
-  "difficulty": "intermediate"
-}

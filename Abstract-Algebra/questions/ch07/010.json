@@ -1,0 +1,21 @@
+{
+  "question_id": "b0425b37-e821-4281-b0a3-ad1ad157921f",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A linear map T on an n-dimensional space V acts on the one-dimensional top exterior power ⋀ⁿV as multiplication by the scalar ___.",
+  "choices": [
+    "det(T)",
+    "det T",
+    "the determinant of T",
+    "determinant of T"
+  ],
+  "answer": "det(t)",
+  "explanation": "⋀ⁿT sends e₁ ∧ ⋯ ∧ eₙ to Te₁ ∧ ⋯ ∧ Teₙ = det(T)·(e₁ ∧ ⋯ ∧ eₙ). This is the coordinate-free definition of the determinant and instantly yields det(ST) = det(S)det(T).",
+  "tags": [
+    "exterior-algebra",
+    "determinant"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "452f96e0-ddf6-436d-a210-184aacfe560f",
+  "chapter": 21,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The quantum key distribution protocol using four polarization states drawn from two conjugate bases was proposed in 1984 by Charles Bennett and Gilles ___.",
+  "choices": [
+    "Brassard"
+  ],
+  "answer": "Brassard",
+  "explanation": "BB84 is named for Bennett and Brassard, who introduced it in Bangalore in 1984. Ekert, by contrast, independently proposed the entanglement-based E91 protocol in 1991, deriving security from a Bell/CHSH violation rather than from conjugate-basis encoding.",
+  "tags": [
+    "bb84",
+    "history",
+    "brassard"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

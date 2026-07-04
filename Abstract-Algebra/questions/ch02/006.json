@@ -1,0 +1,21 @@
+{
+  "question_id": "1312d4ab-b18f-4eff-9d9d-81b2aba6b7a1",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which statement about linear independence is correct?",
+  "choices": [
+    "Any set containing the zero vector is linearly dependent",
+    "A set is independent as soon as no vector is a scalar multiple of another",
+    "An infinite set is independent if at least one finite subset is independent",
+    "The union of two independent sets is independent"
+  ],
+  "answer": 0,
+  "explanation": "1·0 = 0 is a nontrivial dependence, so 0 can never belong to an independent set. Pairwise checks do not suffice — (1,0), (0,1), (1,1) are pairwise non-proportional yet dependent — and independence of an infinite set requires EVERY finite subset to be independent.",
+  "tags": [
+    "vector-spaces",
+    "linear-independence"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

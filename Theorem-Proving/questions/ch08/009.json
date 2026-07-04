@@ -1,0 +1,22 @@
+{
+  "question_id": "42fc39cb-270d-4e76-8f52-11d89c8bd8f4",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "By Vaught's test, which condition guarantees that a countable theory T with no finite models is complete?",
+  "choices": [
+    "T has at least two non-isomorphic countable models",
+    "T is κ-categorical for some infinite cardinal κ (exactly one model of size κ up to isomorphism)",
+    "T is decidable",
+    "T has a finite axiomatization"
+  ],
+  "answer": 1,
+  "explanation": "Vaught's theorem: a countable theory with no finite models that is κ-categorical for some infinite κ is complete — otherwise a sentence φ and its negation would each have a model of size κ (by Löwenheim–Skolem), contradicting categoricity. Option A is the opposite situation; decidability (C) and finite axiomatizability (D) are neither necessary nor sufficient for completeness here.",
+  "tags": [
+    "vaught",
+    "categoricity",
+    "complete-theories"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

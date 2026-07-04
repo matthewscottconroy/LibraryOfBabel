@@ -1,0 +1,18 @@
+{
+  "question_id": "82d126e0-ce6a-4069-9c24-117ded95c9ef",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The two-party model in which Alice holds x, Bob holds y, and they jointly compute f(x,y) studies ___ complexity.",
+  "choices": [
+    "communication"
+  ],
+  "answer": "communication",
+  "explanation": "Communication complexity measures the minimum bits exchanged; information complexity (a lower bound on it) underlies direct-sum theorems and circuit lower bounds.",
+  "tags": [
+    "communication-complexity",
+    "theoretical-cs"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

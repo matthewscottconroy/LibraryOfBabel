@@ -1,0 +1,22 @@
+{
+  "question_id": "f6e205ef-4f86-472e-834b-9f82f764dbad",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Boolos's 'ontological innocence' thesis about plural quantification claims that:",
+  "choices": [
+    "plural quantification commits us to no objects beyond the individuals already in the range of the singular quantifiers",
+    "pluralities are a new kind of abstract object, merely cheaper than sets",
+    "every plurality is identical to the set of its members",
+    "plural logic quantifies over properties rather than objects"
+  ],
+  "answer": 0,
+  "explanation": "Innocence says the values of a plural variable are just individuals taken several at a time, so ∃xx adds no new object — no set, class, or plurality-as-entity — to the ontology. Each distractor smuggles in a new entity (a plurality-object, a set, or a property), which is exactly what the thesis denies.",
+  "tags": [
+    "ontological-innocence",
+    "boolos",
+    "ontology"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

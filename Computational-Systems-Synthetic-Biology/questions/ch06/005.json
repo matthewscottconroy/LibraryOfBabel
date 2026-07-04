@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In RNA velocity analysis (e.g., scVelo), what does a high ratio of unspliced to spliced transcript reads for a gene in a given cell suggest?",
+  "choices": [
+    "The gene is being actively transcribed and its expression is predicted to increase",
+    "The gene is being degraded and its expression is predicted to decrease",
+    "The cell is a doublet containing two different cell types",
+    "The sequencing library has excessive intronic contamination requiring re-sequencing"
+  ],
+  "answer": 0,
+  "explanation": "A high unspliced-to-spliced ratio indicates active ongoing transcription of that gene, which RNA velocity interprets as a prediction that expression will increase; a low ratio instead indicates degradation and predicted decrease. This ratio is a biological signal about transcriptional dynamics, not a diagnostic for doublets or a technical contamination artifact.",
+  "tags": [
+    "rna-velocity",
+    "single-cell-rna-seq",
+    "scvelo"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "28f15fce-7b5d-440f-b632-260c7d0a6686"
+}

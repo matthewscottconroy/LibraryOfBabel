@@ -1,0 +1,19 @@
+{
+  "question_id": "481d616b-80d9-450e-90b0-11c1f2e6b6da",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Varying the Einstein-Hilbert action S = c⁴/(16πG) ∫ R√−g d⁴x with respect to the metric yields the ___ field equations.",
+  "choices": [
+    "Einstein",
+    "Einstein's"
+  ],
+  "answer": "Einstein",
+  "explanation": "The book shows that requiring δS/δg^{μν} = 0 for the Einstein-Hilbert action gives R_{μν} − ½ g_{μν} R + Λ g_{μν} = 0, i.e. Einstein's field equations; including S_matter gives G_{μν} + Λ g_{μν} = (8πG/c⁴) T_{μν}. This is Hilbert's 1915 variational derivation.",
+  "tags": [
+    "action-principle",
+    "einstein-equations"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "3ca28d31-e4a4-4af8-a4f1-17e2f6329df0",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Thomas Reid's 'brave officer' objection targets Locke's memory criterion. Using the boy flogged for stealing, the young officer who remembers the flogging, and the old general who remembers the officer's valour but not the flogging, what does it purport to show?",
+  "choices": [
+    "That memories are frequently false and so cannot be trusted as evidence of the past",
+    "That the brain, not memory, is what actually carries identity",
+    "That the memory criterion violates the transitivity of identity: the general is identical to the officer and the officer to the boy, yet the general is not identical to the boy",
+    "That personal identity is a matter of degree rather than all-or-nothing"
+  ],
+  "answer": 2,
+  "explanation": "Identity is transitive (if A=B and B=C then A=C), but the memory relation can fail transitivity -- the general is linked to the boy only through an intermediate stage he no longer remembers. Option 0 is the false-memory worry (Loftus), a different objection; option 1 states a rival criterion, not Reid's point; option 3 is Parfit's thesis, not Reid's.",
+  "tags": [
+    "reid",
+    "brave-officer",
+    "transitivity",
+    "memory-criterion"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

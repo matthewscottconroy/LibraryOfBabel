@@ -1,0 +1,20 @@
+{
+  "question_id": "8a482a52-a081-41ef-87cf-597b597f89b6",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The principle that if x is identical to y then whatever is true of x is true of y (they share all their properties) is standardly called ___'s Law.",
+  "choices": [
+    "Leibniz",
+    "Leibniz's",
+    "Leibnitz"
+  ],
+  "answer": "Leibniz",
+  "explanation": "This is Leibniz's Law, the Indiscernibility of Identicals, a theorem of first-order logic with identity. Its contrapositive is the chief test for non-identity: if a has a property b lacks, then a is not b. It should not be confused with its converse, the disputed Identity of Indiscernibles.",
+  "tags": [
+    "leibnizs-law",
+    "identity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "c33f62ae-1684-430d-9030-3806e27189ed",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What distinguishes 'embedded' cognition from 'extended' cognition within the 4E framework?",
+  "choices": [
+    "Embedded cognition claims the mind reaches into the environment, while extended cognition denies any environmental role",
+    "Embedded and extended cognition are simply two names for the same Clark-Chalmers thesis",
+    "Embedded cognition holds that cognitive processes depend heavily on environmental scaffolding but still occur in the brain, whereas extended cognition holds they literally include environmental elements as constituents",
+    "Embedded cognition is a form of substance dualism, while extended cognition is physicalist"
+  ],
+  "answer": 2,
+  "explanation": "The embedded view is the more conservative one: the brain does the cognizing but leans essentially on external scaffolding (notebooks, calendars); the extended view is the radical constitutive claim that the external resource is literally part of the cognitive process. Option 0 reverses the two; option 1 conflates them; option 3 misdescribes both, which are naturalistic.",
+  "tags": [
+    "embedded-cognition",
+    "extended-cognition",
+    "4e",
+    "scaffolding"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

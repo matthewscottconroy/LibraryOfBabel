@@ -1,0 +1,19 @@
+{
+  "question_id": "b0b8c1f5-277d-419f-b5c4-ee23234b4ba0",
+  "chapter": 11,
+  "phase": 5,
+  "kind": "blank",
+  "text": "A positive answer to MLC would provide a complete ___ description of the Mandelbrot set.",
+  "choices": [
+    "combinatorial"
+  ],
+  "answer": "combinatorial",
+  "explanation": "Local connectivity would let every parameter be described by a combinatorial kneading sequence, fixing the topology of the Mandelbrot set combinatorially.",
+  "tags": [
+    "mlc-conjecture",
+    "combinatorial",
+    "mandelbrot-set"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

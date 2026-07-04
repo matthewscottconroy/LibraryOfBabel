@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the lac/lacUV5 inducible promoter system, how does IPTG induce gene expression?",
+  "choices": [
+    "IPTG is metabolized into allolactose, which is the only molecule capable of binding and inactivating LacI",
+    "IPTG binds directly to the -10 promoter element, physically recruiting RNA polymerase",
+    "IPTG binds the LacI repressor, causing a conformational change that reduces LacI-DNA affinity roughly 1000-fold and releases the repressor from the operator",
+    "IPTG activates AraC, which then binds the I1 and I2 sites to activate the promoter"
+  ],
+  "answer": 2,
+  "explanation": "IPTG binds LacI directly and triggers a conformational change that drops its DNA-binding affinity approximately 1000-fold, releasing LacI from the operator and permitting transcription. IPTG is valued as a research tool precisely because it is not metabolized (choice 0 is incorrect) -- it is a synthetic, non-metabolizable analog of the natural inducer allolactose, not a precursor to it. Choice 1 misattributes the mechanism to direct promoter binding rather than repressor inactivation, and choice 3 describes an entirely different system (arabinose/AraC), not the lac system.",
+  "tags": [
+    "lac-operon",
+    "inducible-promoters",
+    "iptg"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "ade4b71d-6a8d-4a5c-847e-75420e6d8241"
+}

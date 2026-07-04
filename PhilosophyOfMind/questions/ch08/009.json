@@ -1,0 +1,21 @@
+{
+  "question_id": "f72d1f16-5396-4a3a-9766-c2b9cdbd4ee0",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The persistence of the Muller-Lyer illusion -- the two lines still look unequal even after you have measured them and know they are equal -- is Fodor's stock illustration of the ___ of perceptual modules.",
+  "choices": [
+    "informational encapsulation",
+    "encapsulation"
+  ],
+  "answer": "informational encapsulation",
+  "explanation": "Encapsulation means a module computes over only the information within its own domain (here, the retinal pattern), sealed off from relevant background knowledge such as your belief that the lines are equal. The answer is 'informational encapsulation,' distinct from domain specificity (what a module takes as input) and mandatoriness (that it runs automatically).",
+  "tags": [
+    "informational-encapsulation",
+    "muller-lyer",
+    "modularity",
+    "fodor"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

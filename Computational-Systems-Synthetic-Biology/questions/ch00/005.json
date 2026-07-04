@@ -1,0 +1,23 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which discrete probability distribution is highlighted for modeling gene expression counts and the arrival of rare, discrete events such as mutations or binding events?",
+  "choices": [
+    "Exponential distribution",
+    "Gaussian (normal) distribution",
+    "Poisson distribution",
+    "Binomial distribution"
+  ],
+  "answer": 2,
+  "explanation": "The chapter specifically calls out the Poisson distribution for gene expression counts and the Poisson process for modeling the arrival of rare events like mutations or binding events. The exponential distribution instead models the continuous waiting time between such events (not the count itself), the Gaussian models continuous, symmetric, unbounded data, and the binomial models a fixed number of independent yes/no trials -- a related but distinct discrete case.",
+  "tags": [
+    "probability-distributions",
+    "poisson",
+    "gene-expression",
+    "stochastic-processes"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "05cead36-cba3-4925-aa57-48e1cbca7849"
+}

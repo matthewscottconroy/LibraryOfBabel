@@ -1,0 +1,19 @@
+{
+  "chapter": 28,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The tool at connectedpapers.com that builds a visual graph of related papers around a seed paper -- surfacing classic foundational work and recent developments -- is called ___.",
+  "choices": [
+    "Connected Papers"
+  ],
+  "answer": "Connected Papers",
+  "explanation": "Connected Papers builds a visual similarity graph seeded from one paper, helping researchers quickly identify foundational classics and recent related developments without manually tracing citation chains. This differs from Semantic Scholar, which focuses more on citation-network exploration and AI-generated summaries rather than a visual map format.",
+  "tags": [
+    "connected-papers",
+    "literature-mapping",
+    "literature-review"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "21042c96-1238-4b5d-8217-b7b95825ed05"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "366e5a19-3a44-44f0-baa1-25afbb29d2f8",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A natural transformation η between functors F, G: 𝒞 → 𝒟 consists of:",
+  "choices": [
+    "a morphism η_A: F(A) → G(A) for each object A, such that G(f) ∘ η_A = η_B ∘ F(f) for every f: A → B",
+    "a morphism η_f for each morphism f of 𝒞",
+    "a single morphism F → G in the category 𝒞",
+    "an isomorphism F(A) ≅ G(A) for each object A, with no further condition"
+  ],
+  "answer": 0,
+  "explanation": "The components η_A must make every naturality square commute — that is what rules out arbitrary, choice-dependent maps. The double-dual embedding V → V** is natural; a family of isomorphisms V ≅ V* chosen basis-by-basis is not.",
+  "tags": [
+    "category-theory",
+    "natural-transformations"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

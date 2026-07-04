@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Using a Cas9 D10A nickase with two offset sgRNAs targeting opposite strands (paired nickases) reduces off-target editing by what mechanism?",
+  "choices": [
+    "It doubles the effective PAM requirement, eliminating off-target binding entirely",
+    "It shortens the guide RNA from 20 nt to 17-18 nt",
+    "A double-strand break only forms when both nicks occur near each other, so an isolated off-target single nick is simply repaired without causing a mutation",
+    "It converts Cas9 into a base editor that no longer creates any strand break"
+  ],
+  "answer": 2,
+  "explanation": "Paired nickases require two proximal, offset nicks (one per strand, from two separate sgRNA-guided sites) to generate a DSB; an off-target site would need two independent, adjacent off-target nicking events to cause damage, which is statistically rare, giving a 50- to 1500-fold reduction in off-target activity. This strategy does not eliminate the PAM requirement, it is a separate technique from guide truncation (which shortens the guide to 17-18 nt), and it is not the same mechanism as base editing.",
+  "tags": [
+    "off-target-effects",
+    "paired-nickases",
+    "cas9-d10a"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "738f4ec7-40e6-4abd-b21c-89af4eb4a628"
+}

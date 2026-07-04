@@ -1,0 +1,22 @@
+{
+  "chapter": 21,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is the role of an Institutional Biosafety Committee (IBC)?",
+  "choices": [
+    "An international body that screens gene synthesis orders against pathogen databases",
+    "A local committee that registers recombinant DNA experiments and approves protocols before work begins",
+    "A federal law-enforcement unit that inspects community biology labs",
+    "A funding agency that awards grants specifically for gain-of-function research"
+  ],
+  "answer": 1,
+  "explanation": "IBCs are required at institutions conducting recombinant DNA research receiving NIH funding; they register experiments, approve protocols before work starts, and confirm training and PPE requirements are met. Gene synthesis screening is instead performed by DNA synthesis companies and consortia like IGSC, community lab outreach is handled separately (e.g., by the FBI), and IBCs do not themselves fund research.",
+  "tags": [
+    "biosafety",
+    "ibc",
+    "nih-guidelines"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "930844be-ac28-4ed3-a325-1de5cb6c97a2"
+}

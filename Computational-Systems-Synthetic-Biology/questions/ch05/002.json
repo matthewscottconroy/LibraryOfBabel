@@ -1,0 +1,22 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the GATK Best Practices germline variant calling pipeline, which step comes immediately after alignment (BWA-MEM2) and before base quality score recalibration (BQSR)?",
+  "choices": [
+    "Joint genotyping with GenotypeGVCFs",
+    "Variant quality score recalibration (VQSR)",
+    "HaplotypeCaller local re-assembly",
+    "Mark duplicates (Picard MarkDuplicates)"
+  ],
+  "answer": 3,
+  "explanation": "The standard pipeline order is: alignment, then mark duplicates, then BQSR, then HaplotypeCaller variant calling, then joint genotyping, then VQSR/hard filtering. HaplotypeCaller and joint genotyping happen only after BQSR has corrected systematic sequencing errors, and VQSR is one of the final steps applied to the called variants, not something performed before recalibration.",
+  "tags": [
+    "variant-calling",
+    "gatk",
+    "pipeline"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "332fd529-60e6-498f-9f14-3e36500aa265"
+}

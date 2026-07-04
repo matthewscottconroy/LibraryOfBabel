@@ -1,0 +1,13 @@
+{
+  "question_id": "20bb630c-6b91-428e-a623-b5baa029d499",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Photonic-crystal defect cavities reach the highest Purcell factors in solid-state photonics because they combine ultra-high Q with:",
+  "choices": ["A very large mode volume that spreads light over many wavelengths", "A metallic mirror coating around the defect", "An ultra-small mode volume on the order of (lambda/n)^3", "Operation only at cryogenic temperatures"],
+  "answer": 2,
+  "explanation": "The Purcell factor scales as Q/V, so an ultra-small mode volume ~(lambda/n)^3 combined with Q > 10^6 gives F_P ~ 10^4-10^5. A large mode volume would reduce the Purcell factor; the cavity uses the dielectric bandgap rather than metal mirrors, and it works at room temperature.",
+  "tags": ["purcell-factor", "cavity", "mode-volume"],
+  "difficulty": "intermediate",
+  "generated": true
+}

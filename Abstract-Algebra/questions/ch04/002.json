@@ -1,0 +1,21 @@
+{
+  "question_id": "c36b538b-0083-4e8f-816e-44ae3a21ee31",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The determinant of an upper triangular matrix equals:",
+  "choices": [
+    "the sum of its diagonal entries",
+    "the product of its diagonal entries",
+    "always 1",
+    "the product of its nonzero entries"
+  ],
+  "answer": 1,
+  "explanation": "In the Leibniz expansion only the identity permutation avoids the zeros below the diagonal, leaving ∏ᵢ Aᵢᵢ. This underlies the efficient algorithm: row-reduce to triangular form, tracking swaps and scalings, then multiply the diagonal.",
+  "tags": [
+    "determinants",
+    "computation"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

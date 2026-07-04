@@ -1,0 +1,13 @@
+{
+  "question_id": "8a75907a-ea56-4410-ae2d-c1bc4a8ff74e",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The no-cloning theorem states that no unitary can copy an arbitrary unknown quantum state, which is why a quantum signal cannot be noiselessly amplified and QKD links cannot use ordinary amplifiers.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. No-cloning (an unknown state cannot be duplicated) directly forbids quantum amplifiers and repeater-by-amplification, and underlies QKD security, exactly as stated in the chapter.",
+  "tags": ["no-cloning", "amplification", "qkd"],
+  "difficulty": "beginner",
+  "generated": true
+}

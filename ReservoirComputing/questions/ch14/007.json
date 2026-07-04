@@ -1,0 +1,20 @@
+{
+  "question_id": "99381f31-5043-4950-ab2d-89ac86f51707",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "tf",
+  "text": "In the single-node delay reservoir, the total loop delay τ equals the number of virtual nodes N times the inter-node interval θ (τ = N·θ).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The delay interval is partitioned into N equal sub-intervals of width θ, so τ = N·θ (in Lab 15, θ = 1). Choosing a smaller θ (or longer τ) packs in more virtual nodes; this relation is what turns one physical node into an N-dimensional reservoir.",
+  "tags": [
+    "physical-rc",
+    "virtual-nodes",
+    "delay"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

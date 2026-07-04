@@ -1,0 +1,19 @@
+{
+  "question_id": "3592221f-a020-4fac-9bdd-15fa4612b336",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The total linear memory capacity of an N-neuron reservoir can never exceed N, regardless of the spectral radius or training length.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: Jaeger's bound MC = sum_k MC_k <= N holds for any ESN with a linear readout because the N-dimensional state can carry at most N independent linear memory units. Raising rho or training longer redistributes memory across delays but cannot push the total past N.",
+  "tags": [
+    "memory-capacity",
+    "jaeger-bound"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

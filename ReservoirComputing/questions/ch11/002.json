@@ -1,0 +1,20 @@
+{
+  "question_id": "f83bcac6-2d27-47ef-8cde-2ed665d98ee5",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "A conceptor is a symmetric positive-semidefinite matrix whose eigenvalues all lie in the interval [0,1).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Each eigenvalue is d_i = sigma_i^2 / (sigma_i^2 + alpha^-2), which lies in [0,1). Thus C is symmetric PSD with 0 <= C <= I in the PSD order: a soft projection onto the pattern's state subspace.",
+  "tags": [
+    "conceptor",
+    "eigenvalues",
+    "psd"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

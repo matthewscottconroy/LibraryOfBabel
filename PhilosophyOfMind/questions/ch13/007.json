@@ -1,0 +1,19 @@
+{
+  "question_id": "38461530-331b-4fa3-abc2-126f49e7533b",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "tf",
+  "text": "The claim that mirror neurons are the direct and complete neural basis of empathy, language, and theory of mind is now regarded as well-established and uncontroversial.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. This sweeping claim is widely regarded as overhyped; sober assessments note that a neuron's firing during both action execution and observation does not by itself fix what cognitive function it serves, so grand conclusions about empathy, language, and theory of mind outran the evidence.",
+  "tags": [
+    "mirror-neurons",
+    "overhyping"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

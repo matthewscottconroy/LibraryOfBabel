@@ -1,0 +1,20 @@
+{
+  "chapter": 24,
+  "phase": 4,
+  "kind": "tf",
+  "text": "The Verlet and velocity Verlet integrators are time-reversible and conserve energy in the NVE ensemble, making them numerically stable choices for MD integration.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: the chapter states that the Verlet algorithm is time-reversible and energy-conserving in the NVE ensemble and is numerically stable, while velocity Verlet is an equivalent formulation storing positions and velocities at the same time step, used in engines such as NAMD and OpenMM.",
+  "tags": [
+    "molecular-dynamics",
+    "integrators",
+    "verlet"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "4469311c-6253-4668-8bdb-f62a4db67b9d"
+}

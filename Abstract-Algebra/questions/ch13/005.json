@@ -1,0 +1,22 @@
+{
+  "question_id": "1010dbbb-4ee2-459d-ad0e-e987e69d86d7",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "From the categorical viewpoint, why is − ⊗_R M right exact?",
+  "choices": [
+    "It is a left adjoint (to Hom_R(M, −)), and left adjoints preserve colimits, in particular cokernels",
+    "It is a right adjoint, and right adjoints preserve limits",
+    "Tensoring preserves injections for every module M",
+    "Because M can always be chosen free"
+  ],
+  "answer": 0,
+  "explanation": "The tensor–hom adjunction Hom(A ⊗ M, B) ≅ Hom(A, Hom(M, B)) makes − ⊗ M a left adjoint, and left adjoints preserve all colimits, hence cokernels and right exactness. Preservation of injections is precisely flatness, which fails in general (ℤ/nℤ over ℤ).",
+  "tags": [
+    "category-theory",
+    "adjoints",
+    "exactness"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "b4547622-171e-479a-be77-0a463b44a47f",
+  "chapter": 26,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Free-space optical processors offer on the order of a million parallel channels, yet their sustained throughput is ultimately capped by what?",
+  "choices": [
+    "The speed of light propagating across the apparatus",
+    "The frame rate of the SLM and camera interfaces (kilohertz up to about 10^4 frames per second)",
+    "The number of waveguides that fit on the chip",
+    "The Landauer thermodynamic bound on erasure"
+  ],
+  "answer": 1,
+  "explanation": "The million-channel space-bandwidth product is gated by the frame rate of the SLM and camera, so the honest figure of merit is channel count times frame rate, an optoelectronic interface property. Light's propagation is not the bottleneck, free-space systems have no waveguides to count, and Landauer's bound is irrelevant to this throughput ceiling.",
+  "tags": ["free-space", "space-bandwidth-product", "frame-rate", "interfaces"],
+  "difficulty": "intermediate",
+  "generated": true
+}

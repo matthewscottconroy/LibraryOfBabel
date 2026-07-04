@@ -1,0 +1,21 @@
+{
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "According to standard homology-modeling guidelines, below approximately what target-template sequence identity does modeling enter the unreliable 'twilight zone'?",
+  "choices": [
+    "50%",
+    "40%",
+    "10%",
+    "30%"
+  ],
+  "answer": 3,
+  "explanation": "Below about 30% sequence identity, homology modeling enters the 'twilight zone' where alignment errors make models unreliable, and below 20% identity ('night zone') ab initio/deep-learning structure prediction is preferred instead. Thresholds of 50% and 40% are too conservative since good models are routinely built well below those identities, while 10% is already deep in the night zone, past the twilight-zone boundary.",
+  "tags": [
+    "homology-modeling",
+    "sequence-identity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "c9e53520-b717-40d9-8c04-ca8838241505"
+}

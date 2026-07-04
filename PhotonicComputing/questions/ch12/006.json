@@ -1,0 +1,18 @@
+{
+  "question_id": "e2277c0d-2db9-4e99-99a5-2116be0d75bd",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why do the QK-transpose and AV products in transformer attention break the 'weight-stationary' assumption most photonic accelerators rely on?",
+  "choices": [
+    "Because the softmax cannot be computed in optics at all",
+    "Because the projections Q = X*W_Q are dynamic while the attention products are static",
+    "Because attention inherently requires 64-bit precision",
+    "Because QK-transpose and AV multiply activations by activations (both operands computed at runtime), so a weight-stationary mesh would have to reload its matrix every token, hitting the microsecond weight-update wall"
+  ],
+  "answer": 3,
+  "explanation": "The projections are weight-stationary (static W), but QK-transpose and AV have both operands generated at runtime, so a mesh holding static weights would need to reload at the token rate, far faster than the microsecond update speed. Softmax does stay electronic but that is not the weight-stationary issue (option 0), option 1 reverses which stage is dynamic, and precision is not the barrier (option 2).",
+  "tags": ["transformers", "attention", "weight-stationary"],
+  "difficulty": "intermediate",
+  "generated": true
+}

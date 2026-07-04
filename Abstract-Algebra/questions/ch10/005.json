@@ -1,0 +1,23 @@
+{
+  "question_id": "a2696484-519c-4d83-9e27-7014b103f2dc",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In ℤ[√−5] one has 6 = 2 · 3 = (1 + √−5)(1 − √−5). What does this show?",
+  "choices": [
+    "ℤ[√−5] is not a UFD: 6 has two essentially different factorizations into irreducibles",
+    "6 is a unit in ℤ[√−5]",
+    "ℤ[√−5] has zero divisors",
+    "2 is prime but not irreducible in ℤ[√−5]"
+  ],
+  "answer": 0,
+  "explanation": "All four factors are irreducible (norm arguments) and 2 is not an associate of 1 ± √−5, so factorization into irreducibles is not unique. Equivalently 2 is irreducible but NOT prime: it divides the product (1+√−5)(1−√−5) = 6 without dividing either factor.",
+  "tags": [
+    "rings",
+    "ufd",
+    "irreducible",
+    "prime"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

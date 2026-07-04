@@ -1,0 +1,13 @@
+{
+  "question_id": "c9f3a8fe-1a15-419f-b175-d67ac730b963",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "tf",
+  "text": "Every character is a class function: $\\chi_V(hgh^{-1})=\\chi_V(g)$ for all $g,h\\in G$.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: because trace is invariant under conjugation, $\\chi_V(hgh^{-1})=\\mathrm{tr}(\\rho(h)\\rho(g)\\rho(h)^{-1})=\\mathrm{tr}(\\rho(g))=\\chi_V(g)$. Hence every character is constant on conjugacy classes, i.e. a class function.",
+  "tags": ["character-theory", "class-function", "conjugation"],
+  "difficulty": "beginner",
+  "generated": true
+}

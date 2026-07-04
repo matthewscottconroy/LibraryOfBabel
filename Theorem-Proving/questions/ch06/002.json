@@ -1,0 +1,22 @@
+{
+  "question_id": "f709093e-410b-44e4-96e6-e110d87e475d",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "When proving P(k+1), how does the induction hypothesis in strong (complete) induction differ from that in weak induction?",
+  "choices": [
+    "It assumes P(m) holds for all m ≤ k, not merely P(k)",
+    "It assumes P(k+1) and derives P(k)",
+    "It drops the base case entirely",
+    "It assumes P(m) only for m > k"
+  ],
+  "answer": 0,
+  "explanation": "Strong (complete / course-of-values) induction assumes the entire history {P(m) : m ≤ k} rather than just the immediate predecessor P(k) — a stronger hypothesis useful when the recursion reaches back more than one step (as with Fibonacci bounds). It does not run backward, still uses a base case, and never assumes larger values.",
+  "tags": [
+    "strong-induction",
+    "complete-induction",
+    "induction-hypothesis"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

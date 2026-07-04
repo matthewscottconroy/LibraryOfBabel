@@ -1,0 +1,22 @@
+{
+  "question_id": "9abd6ae9-09be-4fb6-aae3-6b93414f519d",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Fourier coefficients can be computed independently by projection because the basis functions {1, cos(nx), sin(nx)} are:",
+  "choices": [
+    "linearly dependent",
+    "mutually orthogonal under the L^2 inner product (integral of the product over a period)",
+    "all equal to 1 in norm",
+    "eigenfunctions of multiplication by x"
+  ],
+  "answer": 1,
+  "explanation": "Orthogonality (the integral over a period of the product of distinct basis functions is zero) lets each coefficient be found separately as a projection. The basis functions are not normalized (cos(nx) has norm sqrt(pi) on [-pi, pi]), and they are eigenfunctions of the second-derivative operator, not of multiplication by x.",
+  "tags": [
+    "orthogonality",
+    "fourier-coefficients",
+    "inner-product"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

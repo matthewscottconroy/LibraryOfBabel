@@ -1,0 +1,22 @@
+{
+  "question_id": "dfb0968c-127c-4f5d-910c-a26d620be4bb",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a linear map T: V -> W with V finite-dimensional, the rank-nullity theorem states:",
+  "choices": [
+    "dim(ker T) + dim(im T) = dim V",
+    "dim(ker T) = dim(im T)",
+    "dim(im T) = dim W",
+    "dim(ker T) + dim(im T) = dim W"
+  ],
+  "answer": 0,
+  "explanation": "Nullity (dimension of the kernel) plus rank (dimension of the image) equals the dimension of the domain V. Options using dim W confuse the codomain with the domain; the image is a subspace of W but its size is governed by V. Kernel and image dimensions are generally unequal.",
+  "tags": [
+    "rank-nullity",
+    "linear-maps",
+    "linear-algebra"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "ca2a59ad-5306-4a8e-bc81-22250f57a54a",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The effective number of bits of an analog photonic processor follows from the signal-to-noise ratio as ENOB ≈ (SNR(dB) − 1.76)/___.",
+  "choices": [
+    "6.02"
+  ],
+  "answer": "6.02",
+  "explanation": "The standard conversion ENOB ≈ (SNR(dB) − 1.76)/6.02 comes from the ideal-quantizer SNR formula (6.02 dB per bit). Current analog photonic processors reach only ~5–8 effective bits, limited by shot noise, thermal noise, laser RIN, and modulator nonlinearity.",
+  "tags": [
+    "enob",
+    "snr",
+    "precision",
+    "analog-photonics"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

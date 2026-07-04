@@ -1,0 +1,22 @@
+{
+  "question_id": "953c8095-65f5-4c15-8cc1-22bd582e3f9b",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Taylor's theorem about x = a, the Lagrange form of the remainder after the degree-n term is:",
+  "choices": [
+    "f^{(n)}(c)/n! * (x-a)^n for some c between a and x",
+    "f^{(n+1)}(a)/(n+1)! * (x-a)^{n+1}",
+    "f^{(n+1)}(c)/(n+1)! * (x-a)^{n+1} for some c between a and x",
+    "f^{(n+1)}(c)/n! * (x-a)^{n+1} for some c between a and x"
+  ],
+  "answer": 2,
+  "explanation": "The Lagrange remainder evaluates the (n+1)-st derivative at an intermediate point c and carries (n+1)! with (x-a)^{n+1}. Option 1 is merely the n-th term of the series, option 2 wrongly evaluates the derivative at a, and option 4 uses the wrong factorial n! instead of (n+1)!.",
+  "tags": [
+    "taylor-theorem",
+    "lagrange-remainder",
+    "differentiation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

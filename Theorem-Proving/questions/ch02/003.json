@@ -1,0 +1,23 @@
+{
+  "question_id": "4aa5292a-6b06-4564-ad20-936189d6e812",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A first-order structure (model) 𝓜 for a signature σ must specify all of the following EXCEPT:",
+  "choices": [
+    "a non-empty domain M (the universe)",
+    "a formal proof of each axiom of the theory",
+    "an interpretation of each function symbol as a function on the domain",
+    "an interpretation of each relation symbol as a subset of Mⁿ"
+  ],
+  "answer": 1,
+  "explanation": "A structure consists of a non-empty domain together with interpretations of the constant, function, and relation symbols — it supplies SEMANTICS, not proofs. A formal proof (option 2) belongs to the syntactic/proof-theoretic side, so it is not part of a structure; the other three are exactly what a structure provides.",
+  "tags": [
+    "structures",
+    "models",
+    "interpretation",
+    "semantics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

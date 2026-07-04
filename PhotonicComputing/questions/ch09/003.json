@@ -1,0 +1,13 @@
+{
+  "question_id": "7c5a8605-e9e8-477f-a611-43518ccfbaf0",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "According to Miller's analysis of optical interconnect energy, the fundamental minimum energy per bit is on the order of:",
+  "choices": ["1 pJ/bit", "1 fJ/bit", "1 nJ/bit", "1 aJ/bit"],
+  "answer": 1,
+  "explanation": "Miller's fundamental floor is ~1 fJ/bit; today's systems sit at 500-1500 fJ/bit, the gap driven mainly by laser efficiency and ring thermal control. ~1 pJ/bit is the electrical-wire figure, ~1 aJ is the single-photon energy alone (before receiver and component overheads), and ~1 nJ is far too large.",
+  "tags": ["miller-limit", "energy-per-bit", "optical-interconnect"],
+  "difficulty": "intermediate",
+  "generated": true
+}

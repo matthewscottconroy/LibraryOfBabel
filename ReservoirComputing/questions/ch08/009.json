@@ -1,0 +1,21 @@
+{
+  "question_id": "ac1796b8-4710-4c59-a0ee-97c195e5820f",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Bergstra and Bengio showed that ___, which samples hyperparameter configurations at random, is competitive with (and often more efficient than) grid search when only a few hyperparameters matter.",
+  "choices": [
+    "random search",
+    "Random search",
+    "random-search"
+  ],
+  "answer": "random search",
+  "explanation": "Sections 8.1/8.8 and the lab cite Bergstra & Bengio (2012): because the loss has low effective dimensionality, random search covers the important 1–2 dimensions as densely as a 1-D scan, so 50–100 samples rival grids of hundreds to thousands of points.",
+  "tags": [
+    "hyperparameters",
+    "random-search",
+    "optimization"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

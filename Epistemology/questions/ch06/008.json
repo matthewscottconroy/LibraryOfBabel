@@ -1,0 +1,18 @@
+{
+  "question_id": "fedfa901-e6b5-4b45-a7ee-d39aad7c8adf",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "According to Lewis and Nemirow's 'ability hypothesis' reply to the knowledge argument, what does Mary acquire when she first sees red?",
+  "choices": [
+    "New abilities — to recognize, imagine, and remember red — that is, know-how rather than any new propositional (know-that) fact.",
+    "A new phenomenal concept that picks out a physical property under a distinctive mode of presentation.",
+    "Knowledge of a genuinely new, non-physical fact, which refutes physicalism.",
+    "Knowledge of a matter she could deduce a priori from the physical facts she already possessed."
+  ],
+  "answer": 0,
+  "explanation": "The ability hypothesis says Mary gains practical know-how, not a new item of propositional knowledge, so the argument's inference from 'learns something' to 'learns a new fact' fails. Option 1 is the rival phenomenal-concept strategy (a new concept of an old physical property, the natural mutual distractor here), option 2 is Jackson's original anti-physicalist conclusion, and option 3 is a deducibility claim no party to the debate accepts. Both option 0 and option 1 are physicalist-friendly, but they locate Mary's gain differently: know-how versus a new concept.",
+  "tags": ["ability hypothesis", "phenomenal concept strategy", "knowledge argument", "lewis", "qualia"],
+  "difficulty": "intermediate",
+  "generated": true
+}

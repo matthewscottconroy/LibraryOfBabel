@@ -1,0 +1,18 @@
+{
+  "question_id": "4213986f-29dc-49e0-a4cc-c2ff456f6211",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Functionalism individuates a mental state such as pain primarily by which feature?",
+  "choices": [
+    "Its causal or functional role — its relations to sensory inputs, behavioral outputs, and other mental states.",
+    "The specific physical (neural) state type that realizes it, such as C-fiber stimulation.",
+    "Whether it is accompanied by a higher-order thought representing the subject as being in it.",
+    "Its intrinsic, private phenomenal character — the 'what it is like' of the experience."
+  ],
+  "answer": 0,
+  "explanation": "For functionalism, what makes a state a pain is what it does, not what it is made of, which is why pain can be multiply realized. Option 1 is the type-identity theory, option 2 is a higher-order theory of consciousness, and option 3 grounds mental states in qualia. All are real positions, but each denies the functionalist's core claim that the functional role is what individuates the state.",
+  "tags": ["functionalism", "functional role", "multiple realizability", "philosophy of mind"],
+  "difficulty": "beginner",
+  "generated": true
+}

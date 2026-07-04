@@ -1,0 +1,19 @@
+{
+  "chapter": 26,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The modern Python packaging configuration file that follows the PEP 517/518 standard and declares the build backend, project metadata, and dependencies (replacing older setup.py-centric builds) is called ___.",
+  "choices": [
+    "pyproject.toml"
+  ],
+  "answer": "pyproject.toml",
+  "explanation": "pyproject.toml is the standardized configuration file that declares a package's build system (e.g., hatchling), metadata, required and optional dependencies, and console-script entry points in one place. It is the modern replacement for relying solely on an imperative setup.py, and it is shown in the chapter's my-biosim package example.",
+  "tags": [
+    "python-packaging",
+    "pyproject-toml",
+    "reproducibility"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "73bcd6b1-b39f-4bd1-889e-3c25c7a69fe9"
+}

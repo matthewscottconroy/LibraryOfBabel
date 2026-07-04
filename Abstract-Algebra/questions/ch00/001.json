@@ -1,0 +1,22 @@
+{
+  "question_id": "101bc65d-8486-4792-b283-7907c7d1465b",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which formula is logically equivalent to the negation ¬(P ⇒ Q)?",
+  "choices": [
+    "¬P ∧ Q",
+    "P ∧ ¬Q",
+    "¬P ∨ ¬Q",
+    "¬P ⇒ ¬Q"
+  ],
+  "answer": 1,
+  "explanation": "Since P ⇒ Q ≡ ¬P ∨ Q, De Morgan plus double negation give ¬(P ⇒ Q) ≡ P ∧ ¬Q: the hypothesis holds while the conclusion fails. This is exactly the shape a counterexample to an implication must take.",
+  "tags": [
+    "logic",
+    "negation",
+    "implication"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

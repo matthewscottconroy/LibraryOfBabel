@@ -1,0 +1,22 @@
+{
+  "question_id": "3b163748-cf0c-47ea-a5f3-657954c4e8db",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Mackey-Glass system used in the lab is generated from what kind of equation?",
+  "choices": [
+    "A partial differential equation in one spatial dimension",
+    "A delay differential equation (DDE)",
+    "A discrete-time linear autoregressive recurrence",
+    "A system of three coupled ordinary differential equations"
+  ],
+  "answer": 1,
+  "explanation": "benchmarks.py and Appendix E.3 define dx/dt = β·x(t−τ)/(1+x(t−τ)^n) − γ·x(t): a delay differential equation, since the derivative depends on a past value x(t−τ). The 3-coupled-ODE option describes Lorenz; the 1D PDE describes Kuramoto-Sivashinsky.",
+  "tags": [
+    "mackey-glass",
+    "dde",
+    "definition"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

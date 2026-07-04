@@ -1,0 +1,22 @@
+{
+  "question_id": "a2af7b02-35e9-4fba-be3f-67a412a279fe",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The book locates the event horizon of a Schwarzschild black hole at the Schwarzschild radius r_s. What is the book's formula for r_s?",
+  "choices": [
+    "r_s = GM/c²",
+    "r_s = 2GM/c²",
+    "r_s = GM/(2c²)",
+    "r_s = 2GM/c⁴"
+  ],
+  "answer": 1,
+  "explanation": "The book gives r_s = 2GM/c² — about 3 km for the Sun and about 9 mm for the Earth. The quantity GM/c² is only half this (it equals r_s/2, the degenerate horizon of an extremal Kerr or Reissner-Nordström hole), and 2GM/c⁴ has the wrong dimensions for a length.",
+  "tags": [
+    "schwarzschild",
+    "event-horizon",
+    "schwarzschild-radius"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

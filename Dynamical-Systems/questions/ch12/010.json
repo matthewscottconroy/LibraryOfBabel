@@ -1,0 +1,19 @@
+{
+  "question_id": "f1756820-183f-48b8-9679-ba5c261c7aac",
+  "chapter": 12,
+  "phase": 6,
+  "kind": "blank",
+  "text": "The Collatz parity sequence b_k(n) = parity(T^k(n)) lives in {0,1}^N and its closure forms a ___.",
+  "choices": [
+    "subshift"
+  ],
+  "answer": "subshift",
+  "explanation": "The set of parity sequences is a shift-invariant subset of the binary sequence space - a subshift whose topological entropy and forbidden words are open questions.",
+  "tags": [
+    "collatz",
+    "symbolic-dynamics",
+    "subshift"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

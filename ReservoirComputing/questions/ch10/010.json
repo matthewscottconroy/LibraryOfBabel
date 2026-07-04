@@ -1,0 +1,22 @@
+{
+  "question_id": "e1715f8e-b4d6-4298-98d8-04f87d193ad9",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The 'what networks learn' section says a successful FORCE-trained network organizes its closed-loop dynamics around the periodic target as a:",
+  "choices": [
+    "stable limit cycle (a 'backbone' attractor) with negative Lyapunov exponents transverse to the target trajectory",
+    "single globally attracting fixed point at the origin",
+    "chaotic attractor identical to the untrained reservoir, left unchanged",
+    "full-rank rewrite of W that erases the random reservoir dynamics"
+  ],
+  "answer": 0,
+  "explanation": "FORCE sculpts a stable limit cycle around the target, with negative transverse Lyapunov exponents so perturbations decay back to it, via a LOW-rank perturbation that leaves the high-dimensional random dynamics largely intact. It is not a fixed point, not unchanged chaos, and not a full-rank rewrite.",
+  "tags": [
+    "force",
+    "attractor",
+    "dynamics"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

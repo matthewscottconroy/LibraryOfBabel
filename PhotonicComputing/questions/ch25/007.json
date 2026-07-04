@@ -1,0 +1,13 @@
+{
+  "question_id": "b46afc6c-e34d-4a2e-9d03-77ea832788ee",
+  "chapter": 25,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: By 2021, PsiQuantum had raised more private capital (roughly $665M) than most of the photonic AI sector combined.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. The chapter states PsiQuantum had raised roughly $665M by 2021, more than most of the photonic AI sector combined, later supplemented by government partnerships in Australia and the US, because a discontinuous fault-tolerant prize attracts the largest single rounds.",
+  "tags": ["psiquantum", "funding", "quantum-photonics"],
+  "difficulty": "beginner",
+  "generated": true
+}

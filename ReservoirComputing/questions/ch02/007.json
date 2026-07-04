@@ -1,0 +1,20 @@
+{
+  "question_id": "ac35ce39-c6dd-490e-b8a4-e38bda6d435d",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A sufficient condition for the echo state property is that the recurrent matrix has spectral radius rho(W_rec) < 1, which makes the reservoir forget its initial state.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Jaeger's sufficient condition for the ESP is rho(W_rec) < 1, which renders the reservoir map contractive so any two trajectories merge and the initial state is forgotten. The statement is true (it is sufficient, though not strictly necessary).",
+  "tags": [
+    "echo-state-property",
+    "spectral-radius",
+    "contractivity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

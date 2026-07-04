@@ -1,0 +1,19 @@
+{
+  "question_id": "0e33921c-5d65-45c7-8806-de2c8c4cb00d",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Block's 'China Brain' (the nation of China wired to mirror a brain's functional organization) is designed to show that such a system could replicate the full functional organization yet have ___ qualia - no phenomenal experience at all.",
+  "choices": [
+    "absent"
+  ],
+  "answer": "absent",
+  "explanation": "Block's China Brain is an absent-qualia argument: it aims to show functional organization could be perfectly replicated while phenomenal experience is wholly absent. The expected word is 'absent', to be contrasted with inverted qualia, where qualia are present but systematically swapped.",
+  "tags": [
+    "absent-qualia",
+    "china-brain",
+    "block"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

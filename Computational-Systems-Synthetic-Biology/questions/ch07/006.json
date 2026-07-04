@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In 13C metabolic flux analysis, what is the key distinction between an isotopologue and an isotopomer?",
+  "choices": [
+    "Isotopologues differ in the position of labeled atoms; isotopomers differ only in the total count of labeled atoms",
+    "Isotopologues and isotopomers are interchangeable terms for the same concept",
+    "Isotopologues differ in total number of heavy atoms and are measured by MS; isotopomers share the same heavy-atom count but differ in position, distinguished by NMR",
+    "Isotopologues can only be measured by NMR, and isotopomers only by mass spectrometry"
+  ],
+  "answer": 2,
+  "explanation": "Isotopologues are molecules with the same molecular formula but a different number of heavy atoms, which mass spectrometry can resolve by mass; isotopomers share the same formula and the same heavy-atom count but differ in which positions carry the label, which requires NMR to distinguish since MS cannot tell position-isomers apart by mass alone. The first option swaps these definitions, the second wrongly claims they are synonyms, and the last option reverses which technique measures which property.",
+  "tags": [
+    "metabolomics",
+    "metabolic-flux-analysis",
+    "isotope-labeling"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "d46de1e9-8bdd-41e5-bb28-57a62fe651a9"
+}

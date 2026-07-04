@@ -1,0 +1,13 @@
+{
+  "question_id": "566b65c4-b7c0-4b9d-9375-ece75f5227a4",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The founding D2NN was demonstrated by Lin et al. (2018) at UCLA using 3D-printed dielectric layers operating at terahertz frequencies.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: Lin, Rivenson, Ozcan and colleagues (2018, Science) introduced the diffractive deep neural network using 3D-printed dielectric plates at terahertz, the founding demonstration of all-optical D2NN inference that organizes the whole chapter.",
+  "tags": ["d2nn", "lin-2018", "ucla", "terahertz"],
+  "difficulty": "beginner",
+  "generated": true
+}

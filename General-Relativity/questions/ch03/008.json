@@ -1,0 +1,19 @@
+{
+  "question_id": "0f27c507-5831-4685-9ce5-d063bee157a0",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "According to the Heine-Borel theorem as stated in the book, a subset of ℝⁿ is compact if and only if it is closed and bounded.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is exactly the Heine-Borel characterization the book gives for ℝⁿ. The equivalence is special to finite-dimensional ℝⁿ: in a general metric space compactness is equivalent to being complete and totally bounded, not merely closed and bounded.",
+  "tags": [
+    "topology",
+    "compactness"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

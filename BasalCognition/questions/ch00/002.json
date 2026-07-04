@@ -1,0 +1,13 @@
+{
+  "question_id": "b2d5f8a3-4c9e-4f7b-8a3d-2e6c9f1b5a48",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A simple thermostat maintains a set temperature through negative feedback, yet most people deny it is cognitive. In the book's framework, what does this show about goal-directedness?",
+  "choices": ["Thermostats actually lack any form of negative feedback", "Goal-directedness requires conscious intention, which thermostats lack", "Only living systems can display goal-directed behavior", "Goal-directedness (in the cybernetic sense) is necessary but not sufficient for cognition; features like flexible means, integrated information, and nested goals are also required"],
+  "answer": 3,
+  "explanation": "Following Wiener, goal-directedness is fully mechanistic (negative feedback) and is present in a thermostat, so it cannot be the whole story. The book argues cognition needs sophisticated goal-directedness: complex reference states, flexible means, hierarchical goals, and integration of multiple signals. Option 0 is false (a thermostat is the paradigm feedback device); option 1 wrongly reintroduces consciousness (goal-directedness needs no intention); option 2 is false, since non-living thermostats are goal-directed.",
+  "tags": ["goal-directedness", "cybernetics", "wiener"],
+  "difficulty": "intermediate",
+  "generated": true
+}

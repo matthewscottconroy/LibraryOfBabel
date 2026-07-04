@@ -1,0 +1,19 @@
+{
+  "question_id": "6c0b04e9-550b-4650-b5e1-780adb3df3ba",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The physicalist reply to the knowledge and zombie arguments which holds that we refer to our experiences using special recognitional concepts, conceptually independent of physical concepts yet co-referring with physical states, is the ___ concept strategy.",
+  "choices": [
+    "phenomenal"
+  ],
+  "answer": "phenomenal",
+  "explanation": "The phenomenal concept strategy (Loar, Papineau, Shoemaker) explains the explanatory/epistemic gap as a feature of our concepts: phenomenal concepts pick out physical properties by direct acquaintance, so the gap is conceptual rather than metaphysical. Levine's rejoinder is that this explains why the concepts differ but not why those physical states have any phenomenal character at all.",
+  "tags": [
+    "phenomenal-concepts",
+    "physicalism",
+    "consciousness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

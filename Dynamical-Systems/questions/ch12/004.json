@@ -1,0 +1,22 @@
+{
+  "question_id": "0ec60b73-6eb5-42d9-ab45-3da17d19c11a",
+  "chapter": 12,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The 'average' Collatz step multiplies the value by (1/2)(3/2) =",
+  "choices": [
+    "3/4",
+    "4/3",
+    "1",
+    "3/2"
+  ],
+  "answer": 0,
+  "explanation": "Half even steps (times 1/2) and half odd steps (times about 3/2) give a geometric-mean factor 3/4 < 1, heuristically explaining the downward drift consistent with the conjecture.",
+  "tags": [
+    "collatz",
+    "average-drift",
+    "ergodic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

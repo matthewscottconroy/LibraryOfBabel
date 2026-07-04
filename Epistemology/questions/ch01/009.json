@@ -1,0 +1,13 @@
+{
+  "question_id": "99ef0213-bb50-4e84-bfa0-fa0db5e923d5",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "True or False: On Williamson's knowledge-first program, knowledge is an unanalyzable primitive, the most general factive mental state, and justification is to be explained in terms of knowledge rather than the reverse.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Williamson denies that knowledge decomposes into belief, truth, and a further condition; he treats it as the most general factive stative attitude and reverses the traditional order of explanation, so that a belief counts as justified roughly when it is produced by a process that would typically yield knowledge. This same primacy grounds his knowledge norm of assertion (assert only what you know).",
+  "tags": ["knowledge-first", "williamson", "primitive", "factive-mental-state"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "c14ea6c8-5797-42e6-8783-3dd91964c921",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Kant classifies '7 + 5 = 12' as synthetic a priori. Which pair of features is he thereby ascribing to that judgment?",
+  "choices": [
+    "Analytic (true purely by containment of concepts) and a posteriori (justified through experience).",
+    "Analytic (true purely by containment of concepts) and a priori (justified independently of experience).",
+    "Synthetic (the predicate adds content not already contained in the subject) and a priori (justified independently of experience).",
+    "Synthetic (the predicate adds content not already contained in the subject) and a posteriori (justified through experience)."
+  ],
+  "answer": 2,
+  "explanation": "The judgment is synthetic because the concept of 12 is not contained in the concepts of 7, 5, and addition (it must be constructed), yet a priori because its justification does not rest on counting objects in experience. Option 1 is the empiricist alignment Kant rejects, treating every a priori truth as analytic, which would make arithmetic merely definitional and empty of content.",
+  "tags": ["kant", "synthetic a priori", "analytic-synthetic", "a priori"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,26 @@
+# Build manifest for "Basal Cognition: Intelligence Before the Brain".
+# Content lives at the book root as unit-XX/chapter-XX/ (README + section-*.md +
+# chapter back-matter files).  Replaces generate_textbook_pdf.py; the appendices
+# are auto-globbed so appendix-f (which the old hardcoded a-e list missed) is
+# included.  Part injection is per unit.
+title = "Basal Cognition: Intelligence Before the Brain"
+subtitle = "From Molecular Sensing to the Origins of Mind"
+
+front_matter = [
+    "preface.md",
+    "introduction.md",
+]
+back_matter = [
+    "epilogue.md",
+    "appendices/*.md",   # a, b, c, d, e AND f
+    "bibliography.md",
+]
+exclude = [
+    "README.md",
+    "OUTLINE.md",
+]
+
+[[sources]]
+root = "."
+recursive = true
+part_level = 1   # unit-01 .. unit-13 become \part

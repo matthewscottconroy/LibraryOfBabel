@@ -1,0 +1,21 @@
+{
+  "question_id": "a47cb0f3-7da1-4725-9b36-b04ca8f44457",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For an electric dipole oscillating at angular frequency ω with fixed amplitude p₀, the time-averaged radiated power scales with frequency as:",
+  "choices": [
+    "P ∝ ω² (quadratic)",
+    "P ∝ ω⁴ (fourth power)",
+    "P ∝ ω (linear)",
+    "P ∝ ω⁶ (sixth power)"
+  ],
+  "answer": 1,
+  "explanation": "The dipole power P = μ₀ω⁴p₀²/(12πc) scales as ω⁴ because the power is proportional to the square of the second time derivative of p, and each time derivative brings a factor ω. This ω⁴ law is exactly Rayleigh scattering, explaining why the sky is blue. The ω⁶ scaling instead belongs to electric quadrupole radiation (third time derivative of Q).",
+  "tags": [
+    "radiation",
+    "dipole"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

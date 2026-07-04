@@ -1,0 +1,23 @@
+{
+  "question_id": "10aac8e1-8a3c-4345-abf1-e07f255ea6b9",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In propositional resolution, deriving the *empty clause* □ from a set of clauses Γ shows that:",
+  "choices": [
+    "Γ is a tautology",
+    "every clause in Γ is a single literal",
+    "Γ is satisfiable, and □ names a satisfying assignment",
+    "Γ is unsatisfiable (resolution refutation is complete)"
+  ],
+  "answer": 3,
+  "explanation": "Resolution is refutation-complete: the empty clause is derivable from Γ iff Γ is unsatisfiable. The empty clause represents a contradiction — not a tautology (option 1) or a satisfying assignment (option 3) — and has nothing to do with clauses being single literals (option 2).",
+  "tags": [
+    "resolution",
+    "empty-clause",
+    "unsatisfiability",
+    "refutation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

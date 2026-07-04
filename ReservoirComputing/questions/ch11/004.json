@@ -1,0 +1,20 @@
+{
+  "question_id": "b612e4de-fef5-46ca-8613-076134cb86c0",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In C = R (R + alpha^-2 I)^-1, the parameter alpha is called the ___, and it controls how sharply the conceptor projects.",
+  "choices": [
+    "aperture",
+    "aperture parameter"
+  ],
+  "answer": "aperture",
+  "explanation": "alpha is the aperture. Larger alpha pushes C toward a hard projection onto the pattern's active subspace; smaller alpha shrinks C toward 0, suppressing activity more strongly.",
+  "tags": [
+    "conceptor",
+    "aperture",
+    "terminology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

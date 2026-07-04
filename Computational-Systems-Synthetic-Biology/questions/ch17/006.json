@@ -1,0 +1,22 @@
+{
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the Lambda Red recombineering system used for precise E. coli chromosome edits, which protein protects linear donor DNA from degradation by the host RecBCD nuclease?",
+  "choices": [
+    "Beta",
+    "Exo",
+    "Cas9",
+    "Gam"
+  ],
+  "answer": 3,
+  "explanation": "Gam inhibits the host RecBCD nuclease, protecting linear DNA such as introduced oligonucleotides from degradation. Beta is the ssDNA annealing protein that anneals donor DNA to its complementary genomic target, Exo is the 5' to 3' exonuclease that generates single-stranded DNA overhangs from double-stranded DNA, and Cas9 is not part of the Lambda Red system at all, though the two can be combined in CRISPR-assisted recombineering.",
+  "tags": [
+    "lambda-red",
+    "recombineering",
+    "gam-beta-exo"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "b0138355-d824-4286-bcf5-6298f3626d11"
+}

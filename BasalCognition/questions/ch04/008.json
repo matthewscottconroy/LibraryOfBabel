@@ -1,0 +1,13 @@
+{
+  "question_id": "40c8b1e9-5a2d-4f73-8b16-9c0e3a7d2f68",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Taiz et al. (2019) endorsed Baluska's proposal that the root apex is literally a brain-like information-processing center.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Taiz and colleagues were prominent critics of the plant neurobiology program: they argued the root apex is a growth zone whose sensory integration is not mechanistically special, and that the 'brain' metaphor and neural vocabulary overclaim. It was Baluska, Mancuso, and Trewavas who advanced the root-brain / plant-neurobiology position.",
+  "tags": ["plant-cognition", "controversy", "root-brain", "taiz"],
+  "difficulty": "advanced",
+  "generated": true
+}

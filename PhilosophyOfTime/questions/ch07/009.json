@@ -1,0 +1,18 @@
+{
+  "question_id": "ea61f34f-5b0d-4c5c-a60b-a2d338c3d536",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The 'filled duration illusion' is standardly stated as: a filled interval is judged longer than an equal empty one. Empirical work complicates this. Which statement best captures the prospective/retrospective asymmetry?",
+  "choices": [
+    "A filled interval feels long both in the moment and in retrospect, because more clock-pulses accumulate and more events are encoded",
+    "A filled interval tends to feel short in the moment (attention is drawn away from time) but long in retrospect (many events were encoded in memory)",
+    "A filled interval tends to feel long in the moment but short in retrospect, because arousal speeds the internal clock while the memory then fades",
+    "Prospective and retrospective estimates coincide, since both are computed by counting accumulated pacemaker pulses"
+  ],
+  "answer": 1,
+  "explanation": "Prospective and retrospective estimation rely on different mechanisms. Prospectively, an engaging (filled) interval draws attention away from time, so the attentional gate lets fewer pulses accumulate and it feels short; retrospectively, the many events encoded make it be remembered as long — the familiar 'where did the week go?' pattern. Choice 3 describes the empty-interval pattern (long in the moment, short in retrospect); choice 4 is wrong because retrospective estimates draw on the number of remembered events/segments, not on pulse counts.",
+  "tags": ["filled-duration-illusion", "prospective", "retrospective", "time-perception"],
+  "difficulty": "advanced",
+  "generated": true
+}

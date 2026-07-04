@@ -1,0 +1,19 @@
+{
+  "question_id": "f1abeea1-779b-44ed-857f-ed3a638f5ebc",
+  "chapter": 12,
+  "phase": 6,
+  "kind": "blank",
+  "text": "The Schrodinger equation i*hbar |psi-dot> = H|psi> is a ___ dynamical system on Hilbert space.",
+  "choices": [
+    "Hamiltonian"
+  ],
+  "answer": "Hamiltonian",
+  "explanation": "With H self-adjoint, the evolution e^{-iHt/hbar} is a one-parameter unitary group - the quantum analogue of a symplectic Hamiltonian flow.",
+  "tags": [
+    "schrodinger",
+    "hamiltonian",
+    "quantum-dynamics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

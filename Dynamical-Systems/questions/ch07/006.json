@@ -1,0 +1,22 @@
+{
+  "question_id": "585da6fb-0021-4c33-8160-babc8800754f",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Shearer's lemma is an entropy inequality bounding the joint entropy in terms of the:",
+  "choices": [
+    "eigenvalues of a matrix",
+    "Lyapunov exponents",
+    "entropies of marginal projections",
+    "fractal dimensions"
+  ],
+  "answer": 2,
+  "explanation": "Shearer's lemma bounds log|F| (or joint entropy) using entropies of sub-collections that cover each coordinate; it powers Loomis-Whitney-type and combinatorial bounds.",
+  "tags": [
+    "shearer-lemma",
+    "entropy-method",
+    "combinatorics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

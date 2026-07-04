@@ -1,0 +1,22 @@
+{
+  "question_id": "472e2664-6ed0-4151-a533-fce890084fe4",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why can a 27-feature NVAR match a 500-neuron ESN on Lorenz prediction?",
+  "choices": [
+    "Because the ESN's 500 neurons are mostly dead and contribute nothing",
+    "Because NVAR uses double precision while the ESN uses single precision",
+    "Because the Lorenz dynamics are low-dimensional with quadratic nonlinearities, so degree-2 monomials of recent inputs capture the one-step map almost exactly",
+    "Because NVAR is trained for many more epochs than the ESN"
+  ],
+  "answer": 2,
+  "explanation": "Lorenz lives on a low-dimensional attractor (fractal dim ≈ 2.05) and its ODE has quadratic terms (xy, xz); at small Δt the one-step map is nearly a degree-2 polynomial, which NVAR's monomials represent directly. The ESN must approximate the same structure with many random projections. Precision (option 1) and epochs (option 3, ridge is a one-shot solve) are irrelevant; option 0 overstates — the ESN's features are redundant, not dead.",
+  "tags": [
+    "nvar",
+    "parameter-efficiency",
+    "lorenz"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

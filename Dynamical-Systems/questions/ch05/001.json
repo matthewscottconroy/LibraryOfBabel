@@ -1,0 +1,21 @@
+{
+  "question_id": "229b1dac-e94e-4c13-879a-709771b83e4b",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Kolmogorov complexity K(x) of a string x is:",
+  "choices": [
+    "the length of the shortest program that outputs x on a universal Turing machine",
+    "the Shannon entropy of x",
+    "the number of 1s in x",
+    "always equal to the length of x"
+  ],
+  "answer": 0,
+  "explanation": "K(x) is the shortest-program length reproducing x - an individual, distribution-free measure of information. It is not an entropy of a distribution, and most (not all) strings satisfy K(x) ~ |x|.",
+  "tags": [
+    "kolmogorov-complexity",
+    "algorithmic-information"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

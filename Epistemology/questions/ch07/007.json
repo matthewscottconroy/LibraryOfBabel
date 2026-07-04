@@ -1,0 +1,23 @@
+{
+  "question_id": "e98092e2-7fdc-4038-8488-904bda852443",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which of the following most accurately characterizes *objective* Bayesianism about prior probabilities?",
+  "choices": [
+    "Any prior credence function that is coherent (satisfies the probability axioms) is rationally permissible; there is no further constraint on which prior to adopt.",
+    "Priors are epistemically irrelevant, because given enough shared evidence, conditionalization washes out all differences between agents' priors.",
+    "Priors should be chosen so as to maximize the agent's expected monetary payoff when betting.",
+    "There are rational constraints beyond coherence that single out a privileged prior -- for example, the Principle of Indifference or the maximum-entropy rule."
+  ],
+  "answer": 3,
+  "explanation": "Objective Bayesianism (Jaynes, Williamson) holds that coherence is not sufficient: rational priors are further constrained, ideally to a unique 'uninformative' prior via the Principle of Indifference or maximum entropy. Option 0 correctly states *subjective* (personalist) Bayesianism, its chief rival. Option 1 describes the convergence/washing-out result that subjectivists invoke for comfort; option 2 confuses an epistemic prior with a prudential betting strategy.",
+  "tags": [
+    "objective bayesianism",
+    "subjective bayesianism",
+    "priors",
+    "maximum entropy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

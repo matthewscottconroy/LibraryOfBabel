@@ -1,0 +1,23 @@
+{
+  "question_id": "5e387df8-8b24-4bfd-9955-8763a86759f5",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In first-order logic, which of the following is a *term* (as opposed to a formula)?",
+  "choices": [
+    "f(x, c), where f is a binary function symbol and c a constant",
+    "R(x, y), where R is a binary relation symbol",
+    "∀x P(x)",
+    "P(x) → Q(x)"
+  ],
+  "answer": 0,
+  "explanation": "Terms are variables, constants, and function symbols applied to terms, so f(x, c) is a term (it names an object). R(x, y) is an atomic FORMULA (it denotes a truth value), and ∀xP(x) and P(x)→Q(x) are formulas. Terms name objects; formulas make claims.",
+  "tags": [
+    "terms",
+    "function-symbols",
+    "atomic-formula",
+    "syntax"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

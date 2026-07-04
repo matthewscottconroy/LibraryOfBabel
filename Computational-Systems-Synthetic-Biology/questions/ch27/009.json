@@ -1,0 +1,19 @@
+{
+  "chapter": 27,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The dynamic-programming algorithm that finds the optimal LOCAL alignment between two sequences (as opposed to Needleman-Wunsch's global alignment) is called the ___ algorithm.",
+  "choices": [
+    "Smith-Waterman"
+  ],
+  "answer": "Smith-Waterman",
+  "explanation": "The Smith-Waterman algorithm (1981) formulates local sequence alignment as a dynamic programming problem, finding the best-matching subsequence rather than aligning entire sequences end to end. Needleman-Wunsch (1970), by contrast, is the earlier dynamic-programming algorithm for global alignment; the local/global distinction is foundational to modern search tools such as BLAST.",
+  "tags": [
+    "smith-waterman",
+    "sequence-alignment",
+    "dynamic-programming"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "68f33f22-800c-4385-b04a-1f471de0cd97"
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "383ef2e8-b03e-427f-b5fc-b238d2718274",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "System F (the polymorphic lambda calculus of Girard–Reynolds) extends the simply typed lambda calculus with:",
+  "choices": [
+    "dependent types, in which types may mention values",
+    "general recursion via a fix operator",
+    "identity types and the univalence axiom",
+    "universal quantification over types (∀α. A) with type abstraction Λα.t and type application t [A]"
+  ],
+  "answer": 3,
+  "explanation": "System F adds type variables and universal quantification over types, ∀α.A, with term-level type abstraction Λα.t and type application t [A]; it corresponds to second-order logic. Dependent types (A) are the further Π/Σ extension, not System F; System F is still strongly normalizing so it has no general fix (B); identity types and univalence (C) belong to homotopy type theory.",
+  "tags": [
+    "system-f",
+    "polymorphism",
+    "second-order-logic"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

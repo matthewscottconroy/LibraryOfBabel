@@ -1,0 +1,18 @@
+{
+  "question_id": "3ddadf35-7a10-426f-9e5f-b4cdc7addcf7",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Earman-Norton hole argument is presented as a challenge to which view, and what is its threatened consequence?",
+  "choices": [
+    "Relationism about spacetime; the consequence is that spacetime could not curve or carry gravitational waves.",
+    "Manifold substantivalism (spacetime points have intrinsic identities); the consequence is a radical indeterminism, since diffeomorphic models agreeing outside a 'hole' can differ inside it.",
+    "The B-theory of time; the consequence is that the block universe is incompatible with general relativity.",
+    "Presentism; the consequence is that the present moment cannot be defined globally."
+  ],
+  "answer": 1,
+  "explanation": "The hole argument shows that if manifold points have intrinsic (haecceitistic) identities, two diffeomorphic models identical outside the hole yet differing inside are distinct physical possibilities the field equations cannot decide between, yielding radical indeterminism. The standard escape is 'sophisticated substantivalism,' which denies points any identity beyond their structural roles; option 0 misidentifies the target, since it is substantivalism, not relationism, under threat.",
+  "tags": ["space", "hole-argument", "substantivalism", "earman-norton"],
+  "difficulty": "advanced",
+  "generated": true
+}

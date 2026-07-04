@@ -1,0 +1,22 @@
+{
+  "question_id": "e3b7c901-f661-43ee-810b-6b96c581e932",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In Husserl's analysis of intentionality, the 'noema' is:",
+  "choices": [
+    "The intentional act of consciousness (perceiving, judging)",
+    "The real physical object existing in the world",
+    "The object precisely as it is meant or presented to consciousness",
+    "The transcendental ego that remains after the reduction"
+  ],
+  "answer": 2,
+  "explanation": "The noema is the object precisely as it is meant or presented to consciousness (its mode of givenness), paralleling Fregean sense. The noesis is the act itself; the real worldly object is distinct from the noema; and the transcendental ego is the pure subject of experience, not the intended content.",
+  "tags": [
+    "noema",
+    "intentionality",
+    "husserl"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

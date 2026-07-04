@@ -1,0 +1,21 @@
+{
+  "question_id": "101f20b5-97c2-45ac-959f-176cdfe677ec",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Using the Grassberger-Procaccia algorithm, the lab expects the correlation dimension D_2 of the Lorenz attractor to be approximately ___ (and a faithful ESN prediction should reproduce it to within about 0.1).",
+  "choices": [
+    "2.05",
+    "2.0",
+    "2.06"
+  ],
+  "answer": "2.05",
+  "explanation": "The Lorenz attractor's correlation dimension is ~2.05 (Grassberger & Procaccia 1983); the lab prints 'expected ~ 2.05 for Lorenz' and treats agreement within ~0.1 as success. This fractional (non-integer) value is the fingerprint of a strange attractor whose sheet-like structure lives in 3-D space.",
+  "tags": [
+    "correlation-dimension",
+    "grassberger-procaccia",
+    "attractor"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

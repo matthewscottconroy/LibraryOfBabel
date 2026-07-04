@@ -1,0 +1,13 @@
+{
+  "question_id": "9a1d6f38-2c7e-4b90-8d5a-4f0e1b6c3a29",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the classic 'double bridge' experiment (Goss et al., 1989), why do ant colonies reliably converge on the shorter of two paths between the nest and a food source?",
+  "choices": ["Individual ants directly measure and compare the two path lengths", "The queen directs foragers onto the shorter path", "Longer paths evaporate pheromone faster and actively repel ants", "Ants returning by the shorter path reinforce it more frequently, so its pheromone builds up through positive feedback"],
+  "answer": 3,
+  "explanation": "The shorter path yields faster round trips, so it is reinforced more often; positive feedback then amplifies this small initial advantage until the shorter path dominates. No ant measures path length directly, there is no central direction from the queen, and evaporation is uniform negative feedback rather than a length-dependent repellent.",
+  "tags": ["double-bridge", "positive-feedback", "path-optimization"],
+  "difficulty": "intermediate",
+  "generated": true
+}

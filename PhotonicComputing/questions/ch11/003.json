@@ -1,0 +1,18 @@
+{
+  "question_id": "aa1103df-7c87-426a-86a7-820c789f929a",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which statement correctly contrasts the Reck (1994) and Clements (2016) decompositions of an N x N unitary?",
+  "choices": [
+    "Reck's mesh is rectangular with depth N; Clements' is triangular with depth 2N-3",
+    "Both require N^2 MZIs but differ only in operating wavelength",
+    "Clements uses far fewer MZIs than Reck for the same unitary",
+    "Reck's is a triangular mesh (depth 2N-3, 1994); Clements' is a rectangular mesh (depth N, 2016) with balanced path lengths, now the standard"
+  ],
+  "answer": 3,
+  "explanation": "Both use the same N(N-1)/2 MZIs, but Clements' rectangular layout roughly halves the depth to N (vs Reck's 2N-3) and balances path lengths, reducing loss imbalance, which is why it is the modern standard. Option 0 swaps the two geometries, option 2 wrongly claims a different device count, and option 1 is wrong about both the count and the role of wavelength.",
+  "tags": ["mzi-mesh", "reck", "clements", "decomposition"],
+  "difficulty": "intermediate",
+  "generated": true
+}

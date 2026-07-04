@@ -1,0 +1,13 @@
+{
+  "question_id": "373f3d41-c720-4212-9acf-c4102b80f641",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "On the B-theory of time, the tensed properties past, present, and future are objective, non-relational features that events possess independently of any observer.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The B-theory holds that the only fundamental temporal relations are the tenseless earlier-than/later-than relations, and it treats 'past,' 'present,' and 'future' as indexical, perspectival descriptions, so that 'now' works like 'here.' The view described is the A-theory, which the B-theorist explicitly opposes.",
+  "tags": ["time", "b-theory", "tenseless", "mctaggart"],
+  "difficulty": "beginner",
+  "generated": true
+}

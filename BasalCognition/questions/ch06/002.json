@@ -1,0 +1,13 @@
+{
+  "question_id": "c2e8b47a-9d13-4f6c-8a05-1e7b3c9f2d64",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In ant pheromone-trail systems, what acts as the negative feedback that keeps a colony from remaining committed to a depleted food source?",
+  "choices": ["Pheromone evaporation", "Recruitment of additional foragers", "Commands issued by the queen", "The waggle dance"],
+  "answer": 0,
+  "explanation": "Pheromone evaporation is the negative feedback: trails that are not reinforced by returning foragers fade, so the colony abandons routes to exhausted food. Recruitment is the positive feedback rather than negative; the queen does not direct foraging; and the waggle dance is a honeybee behavior, not part of the ant trail system.",
+  "tags": ["negative-feedback", "pheromone", "ant-colony"],
+  "difficulty": "beginner",
+  "generated": true
+}

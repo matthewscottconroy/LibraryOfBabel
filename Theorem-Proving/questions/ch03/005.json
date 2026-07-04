@@ -1,0 +1,23 @@
+{
+  "question_id": "332f8ea5-7de8-4b25-b4f0-373997d7fc40",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The semantic tableau method proves that φ is valid by:",
+  "choices": [
+    "deriving φ from the axioms using modus ponens",
+    "assuming ¬φ and showing every branch of the resulting tree closes (each contains some ψ and ¬ψ)",
+    "constructing a single model in which φ is true",
+    "converting φ to CNF and applying resolution until no clauses remain"
+  ],
+  "answer": 1,
+  "explanation": "Tableaux are refutation-based: to show φ is valid, assume ¬φ and expand; if every branch closes (each holds a formula and its negation), then ¬φ is unsatisfiable and φ is valid. An open branch instead yields a countermodel. Option 1 is a Hilbert proof, option 3 confuses validity with mere satisfiability, and option 4 is resolution.",
+  "tags": [
+    "semantic-tableaux",
+    "refutation",
+    "validity",
+    "countermodel"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

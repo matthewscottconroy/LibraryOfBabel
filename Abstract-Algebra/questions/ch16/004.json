@@ -1,0 +1,18 @@
+{
+  "question_id": "b5675348-a241-4ffe-9712-b09cf7e0c2a5",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The 5-term exact sequence $0\\to H^1(Q,M^N)\\to H^1(G,M)\\to H^1(N,M)^Q\\to H^2(Q,M^N)\\to H^2(G,M)$ extracted from the low-degree terms of the LHS spectral sequence is called the:",
+  "choices": [
+    "long exact sequence of a pair",
+    "universal coefficient sequence",
+    "Kunneth short exact sequence",
+    "inflation-restriction exact sequence"
+  ],
+  "answer": 3,
+  "explanation": "This low-degree 5-term sequence is the inflation-restriction exact sequence in group cohomology (its first map is inflation, its third is restriction). The long exact sequence of a pair and the universal coefficient theorem arise from different constructions, and the Kunneth sequence relates the homology of a tensor product, not extensions of groups.",
+  "tags": ["spectral-sequences", "inflation-restriction", "group-cohomology"],
+  "difficulty": "intermediate",
+  "generated": true
+}

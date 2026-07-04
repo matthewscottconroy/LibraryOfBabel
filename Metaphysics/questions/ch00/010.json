@@ -1,0 +1,19 @@
+{
+  "question_id": "f2956586-0dec-48c7-8b7c-8afb515d0061",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Carnap distinguished internal questions, asked within a linguistic framework, from ___ questions about whether to adopt the framework at all; the latter he regarded as merely practical, not factual.",
+  "choices": [
+    "external"
+  ],
+  "answer": "external",
+  "explanation": "For Carnap, internal questions have straightforward answers within a framework, whereas external questions about adopting the framework are pragmatic choices, not factual claims about reality. Quine rejected this internal/external boundary, which is why the distinction is central to their dispute.",
+  "tags": [
+    "carnap",
+    "deflationism",
+    "metaontology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "e63adddb-283c-4281-a57e-f1391e913b8f",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Johnson (thermal) noise current in a receiver front end is ⟨i²_thermal⟩ = 4k_B TB/R_F. Which change reduces this thermal noise?",
+  "choices": ["Decreasing the feedback resistance R_F", "Increasing the temperature T", "Increasing the feedback resistance R_F (at the cost of bandwidth)", "Increasing the incident optical power"],
+  "answer": 2,
+  "explanation": "Because thermal noise is inversely proportional to R_F, a larger feedback resistor lowers it — improving SNR but reducing bandwidth (the classic TIA tradeoff). Decreasing R_F or raising T increases the noise, and optical power affects the signal and shot noise, not this thermal term.",
+  "tags": ["johnson-noise", "thermal-noise", "tia", "feedback-resistance"],
+  "difficulty": "intermediate",
+  "generated": true
+}

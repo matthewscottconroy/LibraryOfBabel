@@ -1,0 +1,20 @@
+{
+  "question_id": "8268134e-bb68-46c5-a9e8-26d99576efd8",
+  "chapter": 25,
+  "phase": 8,
+  "kind": "tf",
+  "text": "A presheaf $F$ on a topological space $X$ is a functor $F:\\mathcal{O}(X)^{op}\\to\\mathbf{Set}$ assigning to each open set $U$ a set $F(U)$ of sections together with restriction maps.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is exactly the chapter's definition of a presheaf; the 'op' records that restriction goes from larger opens to smaller ones. A presheaf becomes a sheaf only after additionally imposing the gluing axiom, but that extra condition is not required merely to be a presheaf.",
+  "tags": [
+    "sheaf",
+    "presheaf",
+    "functor"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "5f3b2d74-4c8e-41a9-b7d2-6e01f9a35c48",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Plantinga's Reformed epistemology holds that belief in God can be \"properly basic.\" What is its central objection to the evidentialist demand that theism must be supported by argument?",
+  "choices": [
+    "That the sheer amount of evil in the world is itself evidence against theism, so the demand for evidence backfires on the evidentialist.",
+    "That religious language is a self-authenticating 'language game' with its own internal criteria, immune to external evidential standards.",
+    "That one should believe in God because the expected payoff of belief dominates that of unbelief under uncertainty.",
+    "That classical foundationalism is self-refuting and arbitrarily excludes beliefs—like memory and other minds—that we rationally hold without inferring them from evidence."
+  ],
+  "answer": 3,
+  "explanation": "Plantinga argues classical foundationalism fails by its own standard and arbitrarily bars properly basic beliefs (memory, other minds, the external world); belief in God, produced by the sensus divinitatis, can be basic in the same way. Distractor 2 is Pascal's Wager, a prudential case for believing, not a claim about the rationality of basic belief; distractor 1 is Wittgensteinian fideism (Phillips).",
+  "tags": ["religious-epistemology", "reformed-epistemology", "properly-basic", "plantinga"],
+  "difficulty": "advanced",
+  "generated": true
+}

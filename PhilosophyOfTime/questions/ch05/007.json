@@ -1,0 +1,13 @@
+{
+  "question_id": "6d3f32c2-056c-4a31-948d-e6ec6007223c",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "tf",
+  "text": "According to the book, the macroscopic thermodynamic arrow of time is explained by the CP violation (a small time-reversal asymmetry) observed in the weak nuclear force.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "This is false. The book notes that although CP violation is a genuine but tiny time-reversal asymmetry detected in the decay of kaons and B-mesons, it plays no known role in the macroscopic asymmetries of thermodynamics, psychology, and cosmology. The leading account of the thermodynamic arrow appeals instead to entropy increase and the low-entropy Past Hypothesis.",
+  "tags": ["time-reversal-symmetry", "cp-violation", "thermodynamic-arrow"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "2a2db24b-41c0-4181-af1b-e40181fcd7a0",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the ridge-regularization section, what happens as λ is made too small (λ→0) versus too large (λ→∞)?",
+  "choices": [
+    "Too small → OLS that overfits noise (high variance); too large → weights shrink to 0 (underfit)",
+    "Too small → weights shrink to 0; too large → overfits training noise",
+    "Both extremes give identical, minimal test error",
+    "λ only affects training speed, not the bias-variance tradeoff"
+  ],
+  "answer": 0,
+  "explanation": "Section 8.7: λ→0 recovers ordinary least squares, which memorizes noise (high variance); λ→∞ drives ŵ→0 (maximum bias, underfitting). The optimal λ*>0 balances the two. Option 1 reverses the two limits.",
+  "tags": [
+    "hyperparameters",
+    "regularization",
+    "bias-variance"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "1c50e449-7120-496f-960c-51976b5860b3",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Two beams can form a stable interference pattern only if they share the same frequency, the same polarization, and a stable relative phase. This overall property of a light field is called ___.",
+  "choices": [
+    "coherence"
+  ],
+  "answer": "coherence",
+  "explanation": "Coherence is the property that permits sustained interference; temporal coherence sets the usable bandwidth and spatial coherence sets the beam's transverse phase correlation. A laser is highly coherent, whereas a thermal source (lamp, LED) is largely incoherent.",
+  "tags": [
+    "coherence",
+    "interference"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

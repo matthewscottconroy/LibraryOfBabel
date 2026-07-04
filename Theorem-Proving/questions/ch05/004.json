@@ -1,0 +1,23 @@
+{
+  "question_id": "a90e50a7-c2f8-4319-ad2f-fb7970de0475",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Cantor's theorem states that |A| < |𝒫(A)| for every set A. Its proof shows that no function f: A → 𝒫(A) can be surjective by exhibiting which set?",
+  "choices": [
+    "The empty set ∅",
+    "The union ⋃A of all elements of A",
+    "The image f(A) ⊆ 𝒫(A)",
+    "The diagonal set D = {x ∈ A : x ∉ f(x)}"
+  ],
+  "answer": 3,
+  "explanation": "The diagonal set D = {x ∈ A : x ∉ f(x)} is a subset of A (so D ∈ 𝒫(A)) that differs from every value f(y): if y ∈ D then y ∉ f(y), and if y ∉ D then y ∈ f(y), so f(y) ≠ D always. Hence f is not onto. The other sets do not produce the diagonal contradiction.",
+  "tags": [
+    "cantors-theorem",
+    "diagonalization",
+    "power-set",
+    "cardinality"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

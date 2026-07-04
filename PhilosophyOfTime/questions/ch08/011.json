@@ -1,0 +1,20 @@
+{
+  "question_id": "19632dbc-3d02-4ecc-972b-3447b272becb",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "blank",
+  "text": "To answer Reid's circularity objection, Shoemaker introduces ___: a memory-like state that has the inside, first-person character of episodic memory but does not presuppose that the rememberer is numerically identical to the original experiencer.",
+  "choices": [
+    "quasi-memory"
+  ],
+  "answer": "quasi-memory",
+  "explanation": "The expected answer is 'quasi-memory' (q-memory). By stripping the identity assumption out of ordinary memory, Shoemaker lets neo-Lockeans define psychological continuity without presupposing the identity they aim to analyze. Ordinary memory, by contrast, already assumes the rememberer is the person who had the experience — the very assumption Reid and Butler said made Locke's account circular.",
+  "tags": [
+    "shoemaker",
+    "quasi-memory",
+    "circularity",
+    "neo-lockean"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

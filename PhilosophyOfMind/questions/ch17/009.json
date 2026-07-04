@@ -1,0 +1,19 @@
+{
+  "question_id": "34e7a944-1716-4473-9e67-05e14cc390f6",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Searle's compressed slogan for the Chinese Room is that ___ is not sufficient for semantics.",
+  "choices": [
+    "syntax"
+  ],
+  "answer": "syntax",
+  "explanation": "The answer is syntax. Searle's thesis is that formal symbol manipulation (syntax) can never by itself constitute meaning or understanding (semantics), no matter how sophisticated the program.",
+  "tags": [
+    "chinese-room",
+    "syntax-semantics",
+    "searle"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

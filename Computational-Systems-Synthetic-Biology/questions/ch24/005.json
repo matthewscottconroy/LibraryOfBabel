@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A researcher wants a fast estimate of protein-ligand binding free energy directly from an existing MD trajectory, and is willing to accept errors of roughly 2 to 5 kcal/mol. Which method should they use?",
+  "choices": [
+    "Free Energy Perturbation (FEP) with multiple lambda-window simulations",
+    "Steered MD combined with the Jarzynski equality",
+    "Replica Exchange MD across a temperature ladder",
+    "MM-PBSA or MM-GBSA post-processing of the existing trajectory"
+  ],
+  "answer": 3,
+  "explanation": "MM-PBSA/MM-GBSA are post-processing methods that estimate binding free energy directly from existing trajectory frames (combining MM energy, implicit solvation, and an entropy estimate), trading accuracy for speed with typical errors of about 2 to 5 kcal/mol. FEP is more accurate (about 1 kcal/mol error) but requires many new simulations of non-physical intermediate states rather than reusing one trajectory, while REMD and steered MD/Jarzynski address enhanced sampling and pulling-based free energy profiles, not quick post-hoc binding estimates from a single trajectory.",
+  "tags": [
+    "molecular-dynamics",
+    "free-energy",
+    "mm-pbsa"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "c0ebb324-64ba-4b08-8716-337b545ac7fc"
+}

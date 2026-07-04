@@ -1,0 +1,23 @@
+{
+  "question_id": "b791da13-c609-4357-a495-d2942a8a652e",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "On Dummett's reconstruction of the realism/anti-realism debate about a given domain, the disagreement is sharpened into a disagreement over whether:",
+  "choices": [
+    "the principle of bivalence holds for that domain — whether every statement in it is determinately either true or false, independently of our capacity to recognize which",
+    "the objects that the domain talks about are concrete spatiotemporal particulars or abstract entities",
+    "the true statements of that domain all cohere with one another within a single system",
+    "the statements of that domain possess truthmakers drawn from a fundamental level of reality"
+  ],
+  "answer": 0,
+  "explanation": "Dummett recasts realism as the acceptance of bivalence together with evidence-transcendent truth, and anti-realism as its denial for undecidable statements — turning a metaphysical dispute into one about the semantics of the domain. Options 1 and 3 concern the metaphysics of objects and truthmakers, which Dummett deliberately sets aside; option 2 describes the coherence theory of truth, a separate view about the nature of truth rather than about bivalence.",
+  "tags": [
+    "anti-realism",
+    "dummett",
+    "bivalence",
+    "realism"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

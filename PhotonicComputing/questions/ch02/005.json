@@ -1,0 +1,13 @@
+{
+  "question_id": "30a6a969-1074-4b4f-8534-874b57e59356",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Silicon has a Kerr index n₂ roughly 230× larger than silica, yet Si₃N₄ is often preferred for Kerr-effect photonic processing at 1550 nm. Why?",
+  "choices": ["Silicon suffers strong two-photon absorption (nonlinear figure of merit ≈ 0.4 < 1), while Si₃N₄ has essentially no TPA at 1550 nm", "Si₃N₄ has a much larger n₂ than silicon", "Silicon is opaque at 1550 nm", "Si₃N₄ has a much larger χ⁽²⁾ than silicon"],
+  "answer": 0,
+  "explanation": "Silicon's large χ⁽³⁾ is accompanied by two-photon absorption at 1550 nm, giving a figure of merit n₂/(λβ_TPA) ≈ 0.4 < 1 that limits nonlinear processing; Si₃N₄ has negligible TPA (FOM ≫ 1). Silicon is actually transparent at 1550 nm, Si₃N₄'s n₂ is smaller (not larger), and χ⁽²⁾ is irrelevant to the Kerr (χ⁽³⁾) effect.",
+  "tags": ["kerr-effect", "two-photon-absorption", "figure-of-merit", "silicon-nitride"],
+  "difficulty": "intermediate",
+  "generated": true
+}

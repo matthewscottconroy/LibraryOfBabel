@@ -1,0 +1,22 @@
+{
+  "question_id": "9d6de59d-ce12-4689-8563-c61887f1ab18",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "If the characteristic roots are alpha +/- i*beta with beta nonzero, the general real solution of the homogeneous equation is:",
+  "choices": [
+    "e^{alpha x}(C1 cos(beta x) + C2 sin(beta x))",
+    "C1 e^{alpha x} + C2 e^{beta x}",
+    "e^{beta x}(C1 cos(alpha x) + C2 sin(alpha x))",
+    "C1 cos(alpha*beta x) + C2 sin(alpha*beta x)"
+  ],
+  "answer": 0,
+  "explanation": "Complex conjugate roots alpha +/- i*beta give e^{alpha x}(C1 cos(beta x) + C2 sin(beta x)): the real part alpha sets exponential growth or decay and the imaginary part beta sets the oscillation frequency. The other options swap the roles of alpha and beta or wrongly treat the roots as real.",
+  "tags": [
+    "complex-roots",
+    "oscillation",
+    "second-order"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 28,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A researcher measures the same RNA sample three times on the same sequencer to assess machine precision. These are examples of which kind of replicate?",
+  "choices": [
+    "Technical replicates",
+    "Biological replicates",
+    "Isogenic controls",
+    "Vehicle controls"
+  ],
+  "answer": 0,
+  "explanation": "Measuring the identical sample multiple times captures only measurement variability, the definition of a technical replicate -- and modern instruments are often precise enough that technical replicates add little statistical value. Biological replicates instead require independent biological samples (different cultures, organisms, or patients) and are what statistical inference about biological effects actually requires. Isogenic and vehicle controls are experimental-design concepts unrelated to repeated measurement of the same sample.",
+  "tags": [
+    "biological-replicates",
+    "technical-replicates",
+    "experimental-design"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "4d12a559-c0bc-481b-a7fb-3772fd145a42"
+}

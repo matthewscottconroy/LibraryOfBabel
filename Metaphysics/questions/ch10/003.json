@@ -1,0 +1,22 @@
+{
+  "question_id": "f24c0d23-bfc3-4194-b489-1e31a56a4fe6",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Mereological universalism (unrestricted composition), defended by Lewis and Sider, holds that:",
+  "choices": [
+    "only living organisms are genuine composite objects.",
+    "composition occurs whenever the parts are in contact or fastened together.",
+    "for any non-empty plurality of objects, however scattered or gerrymandered, there exists their mereological fusion.",
+    "whether composition occurs is always a brute, inexplicable matter of fact."
+  ],
+  "answer": 2,
+  "explanation": "Universalism gives a fully general 'always' answer to the SCQ: any objects at all have a fusion, even the sum of your nose and the Eiffel Tower. Distractor 3 is Markosian's brutal composition, a restricted view on which composition facts are brute and unexplained, not universalism's principled, exceptionless claim.",
+  "tags": [
+    "universalism",
+    "lewis",
+    "sider"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

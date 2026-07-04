@@ -1,0 +1,22 @@
+{
+  "question_id": "76bd980b-9753-4ac7-986d-8639793c6ef4",
+  "chapter": 11,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Smooth min-entropy recovers the Shannon entropy in the ___ limit.",
+  "choices": [
+    "i.i.d.",
+    "iid",
+    "asymptotic",
+    "IID"
+  ],
+  "answer": "i.i.d.",
+  "explanation": "In the i.i.d. (asymptotic) regime the smooth min-entropy per symbol tends to the Shannon entropy, reconciling one-shot and classical information theory.",
+  "tags": [
+    "smooth-min-entropy",
+    "iid-limit",
+    "one-shot"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

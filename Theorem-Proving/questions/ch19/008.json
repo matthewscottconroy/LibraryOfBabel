@@ -1,0 +1,21 @@
+{
+  "question_id": "5a1e1a76-f4f5-4a2a-bf67-65f1633eadf6",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Because it is soaked in the continuum, the first-order theory of elementary Euclidean geometry is incomplete and undecidable, exactly as Gödel's theorems make arithmetic.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Tarski proved the opposite: elementary Euclidean geometry is consistent, complete, and decidable, because it is bi-interpretable with real-closed fields, which admit quantifier elimination. Richness in the continuum does not cause incompleteness — only the ability to interpret arithmetic does.",
+  "tags": [
+    "tarski",
+    "decidability",
+    "completeness",
+    "godel"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

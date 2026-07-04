@@ -1,0 +1,19 @@
+{
+  "chapter": 22,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The Python library ___ compiles functions just-in-time to XLA for CPU, GPU, or TPU execution and provides automatic differentiation tools such as `grad`, `jacfwd`, and `jacrev`, making it useful for gradient-based parameter estimation and neural ODEs.",
+  "choices": [
+    "JAX"
+  ],
+  "answer": "JAX",
+  "explanation": "JAX provides `jax.jit` for XLA compilation across hardware backends along with automatic differentiation, which the chapter highlights for parameter estimation, neural ODE training, and fast likelihood evaluation in Monte Carlo inference.",
+  "tags": [
+    "scientific-computing",
+    "jax",
+    "automatic-differentiation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "6503dac5-3e65-4ee4-8e26-6445d751ead7"
+}

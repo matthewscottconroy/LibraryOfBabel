@@ -1,0 +1,22 @@
+{
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In bacterial transcription networks, negative autoregulation (NAR) — where a transcription factor represses its own gene — is the most common regulatory motif. Compared to an unregulated gene with the same steady-state level, what dynamical consequence does NAR have?",
+  "choices": [
+    "Slower response time and increased cell-to-cell variability in protein levels",
+    "Bistability with two stable steady states and hysteresis",
+    "Faster response time to steady state and reduced cell-to-cell noise",
+    "Sustained oscillations with a period of approximately 24 hours"
+  ],
+  "answer": 2,
+  "explanation": "NAR speeds up the approach to steady state (roughly 2-fold for a Hill coefficient of 1) and reduces cell-to-cell variability, which is why it is the most common bacterial motif. Slower response and higher variability (choice 0) actually describe positive autoregulation, and bistability/hysteresis (choice 1) requires positive feedback with cooperativity, not negative feedback. A ~24-hour oscillation (choice 3) describes the circadian clock's delayed negative feedback loop, not a simple single-gene autoregulatory motif.",
+  "tags": [
+    "negative-autoregulation",
+    "network-motifs",
+    "gene-regulatory-networks"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "0b57047a-b699-415e-9782-7f132e9604a0"
+}

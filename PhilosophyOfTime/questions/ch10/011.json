@@ -1,0 +1,20 @@
+{
+  "question_id": "912bbe45-77d7-46d6-a356-5fdfdd8c90a7",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Echeverria, Klinkhammer, and Thorne's billiard-ball model of a wormhole time machine shows that for generic initial conditions there exist MULTIPLE self-consistent trajectories. Because the laws plus the initial data therefore fail to fix a unique outcome, the Novikov self-consistency principle implies a surprising form of ___ in spacetimes with closed timelike curves.",
+  "choices": [
+    "indeterminism"
+  ],
+  "answer": "indeterminism",
+  "explanation": "The expected answer is indeterminism. The book emphasizes that self-consistency is only a selection principle, not a uniqueness principle: multiple self-consistent billiard-ball solutions satisfy the very same initial data, so something further (perhaps quantum randomness) must select the actual one. This is neither ordinary determinism, since the initial conditions do not fix the future, nor any logical inconsistency, since each individual solution is fully consistent; it is a novel, holistic constraint on entire histories.",
+  "tags": [
+    "novikov",
+    "indeterminism",
+    "billiard-ball",
+    "self-consistency"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

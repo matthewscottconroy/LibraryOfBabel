@@ -1,0 +1,21 @@
+{
+  "question_id": "0ca7928d-a3dd-4d6e-93c3-a4acc3b9452e",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A functor F: 𝒞 → 𝒟 is required to preserve:",
+  "choices": [
+    "identity morphisms and composition",
+    "all limits and colimits",
+    "injectivity and surjectivity of maps",
+    "nothing — it is just an assignment of objects"
+  ],
+  "answer": 0,
+  "explanation": "The functor axioms are F(id_A) = id_{F(A)} and F(g ∘ f) = F(g) ∘ F(f). Preservation of limits or of mono/epi properties is extra structure enjoyed only by special functors (e.g. right adjoints preserve limits).",
+  "tags": [
+    "category-theory",
+    "functors"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

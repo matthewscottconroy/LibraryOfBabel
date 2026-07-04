@@ -1,0 +1,18 @@
+{
+  "question_id": "260ab46f-0d4f-4087-9000-83367e2b5cb9",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "On Margaret Gilbert's joint commitment account of group belief, a group believes that p when:",
+  "choices": [
+    "a strict majority of the group's members each individually believe that p.",
+    "every member of the group believes that p and each knows that the others believe it too.",
+    "its members are jointly committed to believe that p as a body, whether or not any individual member privately believes p.",
+    "the belief that p can be reached by majority voting on each premise even where this conflicts with majority voting on the conclusion."
+  ],
+  "answer": 2,
+  "explanation": "Gilbert's non-summativism treats group belief as a performative joint commitment to uphold p 'as a body'; this can hold even when no member privately believes p, which is why it is not reducible to members' individual beliefs. Options 0 and 1 are summative (majority and unanimity) readings; option 3 describes the List and Pettit discursive dilemma, a distinct point about aggregation procedures. Only option 2 states Gilbert's account.",
+  "tags": ["group-epistemology", "non-summativism", "gilbert", "joint-commitment"],
+  "difficulty": "intermediate",
+  "generated": true
+}

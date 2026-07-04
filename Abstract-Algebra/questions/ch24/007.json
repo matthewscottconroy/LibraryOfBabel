@@ -1,0 +1,13 @@
+{
+  "question_id": "059c4db7-d541-44eb-82ab-5c027689f982",
+  "chapter": 24,
+  "phase": 8,
+  "kind": "tf",
+  "text": "Godel's Completeness Theorem asserts that $T \\models \\sigma$ if and only if $T \\vdash \\sigma$ (semantic entailment coincides with syntactic provability).",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "The Completeness Theorem equates semantics ($\\models$, true in all models of $T$) with syntax ($\\vdash$, formally derivable), and it is what makes the Compactness Theorem follow. It must not be confused with the Incompleteness theorems, which concern true-but-unprovable sentences within a single fixed theory.",
+  "tags": ["completeness-theorem", "godel", "syntax-semantics"],
+  "difficulty": "intermediate",
+  "generated": true
+}

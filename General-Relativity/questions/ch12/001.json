@@ -1,0 +1,21 @@
+{
+  "question_id": "f2eaa4b2-7764-43a4-ba05-c1d9ece1360a",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In this book's ADM 3+1 decomposition, the function α that fixes how much proper time elapses per unit coordinate time along the normal to the slice Σ_t is the:",
+  "choices": [
+    "shift vector βⁱ",
+    "lapse function α",
+    "spatial 3-metric γ_ij",
+    "extrinsic curvature K_ij"
+  ],
+  "answer": 1,
+  "explanation": "The book defines the lapse α as how much proper time elapses per unit coordinate time along the normal n^μ. The shift βⁱ instead encodes how the spatial coordinates shift between slices; γ_ij is the induced 3-metric on Σ_t; and K_ij is the extrinsic curvature measuring how the slice bends in spacetime. Both α and βⁱ are gauge variables.",
+  "tags": [
+    "adm",
+    "lapse-shift"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "569b9fc3-9925-43a6-a6bb-1dd33ab29def",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The largest Lyapunov exponent lambda characterizes how nearby orbits separate: two orbits starting a distance epsilon apart grow to distance approximately:",
+  "choices": [
+    "epsilon + lambda t",
+    "epsilon * e^{lambda t}",
+    "epsilon * t^lambda",
+    "epsilon * lambda^t"
+  ],
+  "answer": 1,
+  "explanation": "In the Lyapunov regime separation grows exponentially, epsilon e^{lambda t}. Linear or power growth would correspond to zero exponent (non-chaotic) behaviour.",
+  "tags": [
+    "lyapunov-exponents",
+    "chaos",
+    "separation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

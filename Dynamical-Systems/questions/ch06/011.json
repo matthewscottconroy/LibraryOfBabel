@@ -1,0 +1,19 @@
+{
+  "question_id": "f8462b30-edf4-4188-a12e-cb8f4e0c3396",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "blank",
+  "text": "By Ornstein's theorem, KS entropy is a complete isomorphism invariant for ___ shifts.",
+  "choices": [
+    "Bernoulli"
+  ],
+  "answer": "Bernoulli",
+  "explanation": "Two Bernoulli shifts are measurably isomorphic iff they have equal entropy - entropy completely classifies them, a landmark of ergodic theory.",
+  "tags": [
+    "ornstein-theorem",
+    "bernoulli-shift",
+    "ks-entropy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

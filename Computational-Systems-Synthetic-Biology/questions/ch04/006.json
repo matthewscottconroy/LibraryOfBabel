@@ -1,0 +1,22 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which genome assembly strategy represents reads as edges connecting (k-1)-mer nodes and reconstructs the sequence by finding an Eulerian path?",
+  "choices": [
+    "de Bruijn graph assembly",
+    "Overlap-Layout-Consensus (OLC)",
+    "Reference-guided scaffolding",
+    "Hierarchical BAC-by-BAC shotgun sequencing"
+  ],
+  "answer": 0,
+  "explanation": "De Bruijn graph assembly decomposes reads into k-mers, uses (k-1)-mers as nodes and k-mers as edges, and solves the tractable, polynomial-time Eulerian path problem \u2014 the basis of tools like SPAdes and Velvet. Overlap-Layout-Consensus instead builds a graph with reads as nodes and overlaps as edges, requiring the NP-hard Hamiltonian path problem, which is why de Bruijn graphs scale better for the huge volumes of short reads.",
+  "tags": [
+    "genome-assembly",
+    "de-bruijn-graph",
+    "eulerian-path"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "efdf3d55-16fa-4569-8347-afedbd668e66"
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "7508e326-25e4-4bc5-9a3b-0161db90145c",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Unger's problem of the ___ observes that, because a cloud has no sharp boundary, there are countless equally good candidate collections of droplets, threatening to turn the one cloud into a multitude.",
+  "choices": [
+    "many"
+  ],
+  "answer": "many",
+  "explanation": "The problem of the many (Unger 1980) arises because, for each borderline droplet, there is a distinct candidate object with an equal claim to be the cloud, so there seem to be many clouds where we expected one. Universalists accept the many overlapping objects and pick one as salient in context; nihilists deny that any collection composes a cloud at all.",
+  "tags": [
+    "problem-of-the-many",
+    "unger",
+    "vagueness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

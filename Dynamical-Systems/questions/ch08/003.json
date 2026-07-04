@@ -1,0 +1,22 @@
+{
+  "question_id": "f255bb60-2e5b-47cf-95b9-1d3c5e130272",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Categorically, a discrete dynamical system (X, f) is a:",
+  "choices": [
+    "algebra for a monad",
+    "coalgebra for the identity endofunctor",
+    "limit of a diagram",
+    "natural transformation"
+  ],
+  "answer": 1,
+  "explanation": "A system (X, f: X -> X) is a coalgebra for F = Id (more generally f: X -> F(X)); coalgebraic bisimilarity is the matching notion of equivalence. It is not an algebra or a limit.",
+  "tags": [
+    "category-theory",
+    "coalgebra",
+    "dynamics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

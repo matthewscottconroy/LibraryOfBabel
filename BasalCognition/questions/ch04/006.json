@@ -1,0 +1,18 @@
+{
+  "question_id": "3a7c1e60-9d4b-4f28-8c05-6e2b0a7d1f93",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why did the Jiang et al. (2018) replication weaken the 'habituation' (learning) interpretation of the Mimosa drop response?",
+  "choices": [
+    "It found that Mimosa never reduces its folding response at all",
+    "It showed the response is controlled by dedicated neurons in the pulvinus",
+    "It found the reduced folding largely recovered after an overnight rest, more consistent with sensory adaptation or fatigue",
+    "It demonstrated that the folding response is a fixed, purely genetic trait"
+  ],
+  "answer": 2,
+  "explanation": "Genuine habituation should persist after rest, yet Jiang et al. found near-full recovery of folding after 12 to 24 hours and also failed to replicate the high-cost versus low-cost environment effect, pointing toward sensory adaptation or fatigue rather than learning. They did observe reduced folding during the series (so not choice 0), plants have no neurons (choice 1), and the issue concerns mechanism, not a genetic trait (choice 3).",
+  "tags": ["plant-learning", "mimosa", "replication", "sensory-adaptation"],
+  "difficulty": "advanced",
+  "generated": true
+}

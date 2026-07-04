@@ -1,0 +1,18 @@
+{
+  "question_id": "8a6746f4-bc1a-480b-a120-6b479e809531",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Einstein tensor G_μν that appears on the left-hand side of the field equations is defined as:",
+  "choices": [
+    "R^ρ_σμν, the full Riemann curvature tensor",
+    "R_μν, the Ricci tensor by itself",
+    "g_μν R, the metric times the Ricci scalar",
+    "R_μν − ½ g_μν R"
+  ],
+  "answer": 3,
+  "explanation": "The Einstein tensor is G_μν = R_μν − ½ g_μν R, a specific combination of the Ricci tensor R_μν and the Ricci scalar R. It is not the Ricci tensor alone, nor the full Riemann tensor R^ρ_σμν. The trace-reversal term −½ g_μν R is precisely what makes G_μν divergence-free (∇_μ G^μν = 0) via the contracted Bianchi identity, which is required so that T_μν can be conserved.",
+  "tags": ["efe", "einstein-tensor"],
+  "difficulty": "beginner",
+  "generated": true
+}

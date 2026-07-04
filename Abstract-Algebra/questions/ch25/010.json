@@ -1,0 +1,20 @@
+{
+  "question_id": "896910c6-893c-44ed-97ea-768334c07158",
+  "chapter": 25,
+  "phase": 8,
+  "kind": "blank",
+  "text": "In Lawvere's structural set theory (ETCS), elements are not primitive: an element of a set $X$ is defined as a morphism $1\\to X$ out of the ___ object $1$.",
+  "choices": [
+    "terminal",
+    "final"
+  ],
+  "answer": "terminal",
+  "explanation": "ETCS takes functions as primitive and derives elements as maps $1\\to X$ from the terminal object $1$ (the one-element set). This structural viewpoint replaces the material membership relation $\\in$ of ZFC.",
+  "tags": [
+    "etcs",
+    "structural-set-theory",
+    "terminal-object"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

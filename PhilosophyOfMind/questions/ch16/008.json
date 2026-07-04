@@ -1,0 +1,20 @@
+{
+  "question_id": "284b8cb9-aeae-4efb-90ac-fa6337a3a053",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "tf",
+  "text": "As presented in the text, Morgan's Canon strictly forbids ever attributing higher mental faculties to animals.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: the Canon does not forbid attributions of higher mental capacities, it requires that they be warranted by evidence that cannot be explained at a lower level. Reading it as a blanket prohibition is precisely the over-application critics warn against.",
+  "tags": [
+    "morgans-canon",
+    "parsimony",
+    "methodology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

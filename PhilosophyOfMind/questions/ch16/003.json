@@ -1,0 +1,22 @@
+{
+  "question_id": "83a30c87-5e23-4559-9566-0819a1f2bfa9",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Gordon Gallup's mirror (mark) test is designed to provide behavioral evidence for which capacity?",
+  "choices": [
+    "Theory of mind, i.e. attributing beliefs to other agents",
+    "Episodic-like memory for the 'what, where, when' of past events",
+    "A form of self-recognition or self-awareness",
+    "Numerical cognition and the ability to compare set sizes"
+  ],
+  "answer": 2,
+  "explanation": "An animal that uses a mirror to inspect a dye mark on its own body, rather than treating the reflection as a conspecific, is credited with self-recognition; great apes, dolphins, elephants, and magpies pass. The other options name distinct capacities (mindreading, memory, number) that the mark test is not built to assess.",
+  "tags": [
+    "mirror-test",
+    "gallup",
+    "self-recognition"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

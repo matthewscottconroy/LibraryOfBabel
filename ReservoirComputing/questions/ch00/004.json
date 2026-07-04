@@ -1,0 +1,22 @@
+{
+  "question_id": "65798cf6-54c2-432d-b972-3250100965c9",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The spectral radii compared in the lab's cross-correlation analysis (RHO_VALUES) are 0.1, 0.5, 0.9, and ___.",
+  "choices": [
+    "0.99",
+    "1.0",
+    "0.95",
+    "0.9"
+  ],
+  "answer": "0.99",
+  "explanation": "RHO_VALUES in fading_memory.py is [0.1, 0.5, 0.9, 0.99]; the fourth, near-critical value is 0.99. Values such as 1.0 or 0.95 are not part of that list (1.1 appears only in the separate formal-FM test set).",
+  "tags": [
+    "spectral-radius",
+    "lab-config",
+    "rho-values"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

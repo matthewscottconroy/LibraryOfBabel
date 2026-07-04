@@ -1,0 +1,19 @@
+{
+  "question_id": "77cb738c-7e53-4107-832c-6e103c378fa8",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "tf",
+  "text": "In the Schwarzschild metric, the radial coordinate r is the areal radius: a sphere at coordinate value r has surface area 4πr², and it is not in general the proper distance from the center.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The book defines r geometrically by A = 4πr², so it is the area-radius, not a ruler distance. The proper radial distance ∫dr/√(1−r_s/r) is strictly larger than the coordinate difference r₂−r₁ because of the positive spatial curvature.",
+  "tags": [
+    "schwarzschild",
+    "area-radius"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

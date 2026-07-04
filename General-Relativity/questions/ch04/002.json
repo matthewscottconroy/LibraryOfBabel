@@ -1,0 +1,22 @@
+{
+  "question_id": "91b104fd-054d-450b-b9ee-b833589857b6",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "By Hamilton's principle (the principle of stationary action), the physical trajectory between fixed endpoints is the path for which the action S = ∫L dt is:",
+  "choices": [
+    "always a strict minimum",
+    "stationary (δS = 0)",
+    "always a strict maximum",
+    "identically equal to zero"
+  ],
+  "answer": 1,
+  "explanation": "The book stresses that the action is stationary (δS = 0) — 'not minimum, stationary.' Demanding that the first variation vanish for fixed endpoints yields the Euler-Lagrange equations. The path is often, but not always, a minimum, so 'strict minimum/maximum' are wrong, and the value of S need not be zero.",
+  "tags": [
+    "lagrangian",
+    "action",
+    "variational-principle"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

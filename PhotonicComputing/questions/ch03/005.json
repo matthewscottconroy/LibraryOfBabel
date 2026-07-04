@@ -1,0 +1,13 @@
+{
+  "question_id": "1bc216f0-7176-4da9-86e8-c6cea440600c",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why is a VCSEL inherently single-longitudinal-mode?",
+  "choices": ["Its gain medium has an unusually narrow gain bandwidth", "Its very short (~1–2 μm) cavity gives a free spectral range (~50–100 THz) larger than the gain bandwidth", "It uses an external fiber Bragg grating for feedback", "It can only lase at cryogenic temperatures"],
+  "answer": 1,
+  "explanation": "A VCSEL's ~1–2 μm cavity makes the longitudinal-mode spacing (FSR ~50–100 THz) exceed the gain bandwidth, so only one longitudinal mode can lase. The gain bandwidth is not especially narrow, and VCSELs use monolithic DBR mirrors (R > 99%) rather than an external grating; they operate at room temperature.",
+  "tags": ["vcsel", "longitudinal-modes", "free-spectral-range"],
+  "difficulty": "intermediate",
+  "generated": true
+}

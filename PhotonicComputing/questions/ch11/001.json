@@ -1,0 +1,18 @@
+{
+  "question_id": "fddc08fe-7fb3-4090-95fd-f602ccb4e0a5",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "How many Mach-Zehnder interferometers are required for a mesh that can implement an arbitrary N x N unitary matrix?",
+  "choices": [
+    "N^2",
+    "N(N-1)/2",
+    "2N - 3",
+    "N*log2(N)"
+  ],
+  "answer": 1,
+  "explanation": "A universal N x N unitary mesh uses N(N-1)/2 MZIs, matching the parameter dimension of the group U(N) exactly. N^2 overcounts (that is the number of real matrix entries), 2N-3 is the depth of the Reck triangular mesh (not the device count), and N*log2(N) is an FFT-style scaling that does not apply.",
+  "tags": ["mzi-mesh", "unitary", "reck-clements"],
+  "difficulty": "beginner",
+  "generated": true
+}

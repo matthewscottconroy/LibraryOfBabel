@@ -1,0 +1,20 @@
+{
+  "question_id": "0406d467-df9d-435d-9b91-9a7cfbf4c6ac",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In the lab's perturbation test, a strong state perturbation makes the reservoir CPG drift into a different rhythm from which it cannot return to the original gait, showing that the trained pattern is only marginally stable rather than a true attractor.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The lab shows the opposite: after a noise burst is injected into the state, the output's distance from the limit cycle decays and the original gait resumes within about one cycle. This basin of attraction, recovery to the same rhythm, is exactly what makes the trained pattern a genuine limit-cycle CPG, mirroring biological pattern generators.",
+  "tags": [
+    "limit-cycle",
+    "perturbation",
+    "basin-of-attraction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

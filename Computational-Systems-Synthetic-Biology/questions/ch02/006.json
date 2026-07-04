@@ -1,0 +1,22 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In molecular evolution, a dN/dS ratio (omega) greater than 1 for a protein-coding gene indicates which process?",
+  "choices": [
+    "Purifying (negative) selection",
+    "Strictly neutral evolution",
+    "Positive (diversifying) selection",
+    "Genetic drift dominating entirely over selection"
+  ],
+  "answer": 2,
+  "explanation": "omega > 1 means nonsynonymous substitutions accumulate faster than synonymous ones, the signature of positive/diversifying selection favoring amino-acid-changing mutations. omega < 1 indicates purifying selection removing deleterious changes, and omega = 1 is the expectation under strictly neutral evolution; the dN/dS statistic is interpreted as a selection signature relative to that neutral baseline, not as a direct measure of drift.",
+  "tags": [
+    "molecular-evolution",
+    "dn-ds-ratio",
+    "natural-selection"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "9bb40f7d-3bcb-4ad7-b3b4-dced66c8f549"
+}

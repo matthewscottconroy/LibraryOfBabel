@@ -1,0 +1,20 @@
+{
+  "question_id": "0c4d731a-e0e7-4170-aa14-0e70c5a2b9f5",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "tf",
+  "text": "In its original formulation, the Univalence Axiom is constructive and carries computational content on its own.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: the chapter says HoTT with Univalence is 'not constructive in original formulations - Univalence is an axiom with no computational content.' Cubical type theory (Cohen-Coquand-Huber-Mortberg, 2016) was created precisely to make Univalence derivable and computational via an interval type.",
+  "tags": [
+    "univalence",
+    "cubical-type-theory",
+    "constructive"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

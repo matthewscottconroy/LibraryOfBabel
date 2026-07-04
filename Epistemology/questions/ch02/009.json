@@ -1,0 +1,13 @@
+{
+  "question_id": "a9fc921f-51d9-4ca0-afe9-71c08d0a3f79",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In the doctrine of privileged access, the transparency thesis (that all of one's mental states are introspectively accessible) and the infallibility thesis (that one cannot be mistaken about the states one does access) are equivalent claims that stand or fall together.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "Transparency and infallibility are distinct and logically independent: transparency could fail (some states, such as unconscious or dispositional ones, are inaccessible) while infallibility still holds for the states that are accessed, or transparency could hold while infallibility fails (one accesses a state yet mischaracterizes it). Because they can come apart in either direction, they are not equivalent, so the statement is false.",
+  "tags": ["introspection", "privileged-access", "transparency", "infallibility"],
+  "difficulty": "intermediate",
+  "generated": true
+}

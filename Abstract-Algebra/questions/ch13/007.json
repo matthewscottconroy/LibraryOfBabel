@@ -1,0 +1,19 @@
+{
+  "question_id": "c0574014-be71-4571-be92-5afdd98ab0c6",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A group is the same thing as a category with exactly one object in which every morphism is invertible.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The morphisms of the single object are the group elements, composition is the group operation, and the identity morphism is the identity element. Dropping invertibility gives a monoid; allowing many objects gives a groupoid.",
+  "tags": [
+    "category-theory",
+    "groups"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

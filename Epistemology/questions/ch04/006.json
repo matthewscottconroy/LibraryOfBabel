@@ -1,0 +1,18 @@
+{
+  "question_id": "5b59e87f-0ff4-43e9-a1bc-0900a3749caf",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In David Lewis's 'Elusive Knowledge,' the Rule of Attention accounts for the force of skepticism by holding that:",
+  "choices": [
+    "a possibility that is explicitly attended to or mentioned thereby becomes relevant and must be eliminated, so raising the brain-in-a-vat scenario destroys the knowledge one would otherwise have",
+    "a belief counts as knowledge only if it would track the truth across the nearest possible worlds",
+    "a subject must rule out only those alternatives made salient by the practical stakes they actually face",
+    "the reference of 'brain' is fixed by the subject's causal contact with the environment"
+  ],
+  "answer": 0,
+  "explanation": "Lewis analyzes knowledge as the elimination of every uneliminated possibility, subject to a Rule of Attention: merely attending to a possibility (such as the BIV) makes it relevant, so it must now be eliminated—which cannot be done, and knowledge slips away. Option 1 is Nozick's tracking, option 2 is pragmatic encroachment / subject-sensitive invariantism, and option 3 is Putnam's semantic externalism.",
+  "tags": ["lewis", "contextualism", "rule-of-attention", "elusive-knowledge"],
+  "difficulty": "intermediate",
+  "generated": true
+}

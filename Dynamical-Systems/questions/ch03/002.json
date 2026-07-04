@@ -1,0 +1,22 @@
+{
+  "question_id": "e6515a88-a189-4c50-b6af-1e5030baff02",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Whether a Hopf bifurcation is supercritical or subcritical is determined by the sign of:",
+  "choices": [
+    "the trace of the Jacobian",
+    "the parameter value mu",
+    "the first Lyapunov coefficient l1",
+    "the determinant"
+  ],
+  "answer": 2,
+  "explanation": "The first Lyapunov coefficient l1 fixes the criticality: l1 < 0 gives a stable (supercritical) cycle, l1 > 0 an unstable (subcritical) one. The trace/determinant/parameter set when eigenvalues cross, not the criticality.",
+  "tags": [
+    "hopf-bifurcation",
+    "first-lyapunov-coefficient",
+    "criticality"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

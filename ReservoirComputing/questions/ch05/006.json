@@ -1,0 +1,22 @@
+{
+  "question_id": "80e660e8-bc4a-4bcc-adfd-4507734c97b5",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For a single linear neuron with recurrent weight w (so rho = |w|), the exact total memory capacity is:",
+  "choices": [
+    "MC = 1, independent of w",
+    "MC = 1/(1 - w^2), which diverges as w -> 1",
+    "MC = w^2 = rho^2",
+    "MC = N = 1 regardless of w"
+  ],
+  "answer": 2,
+  "explanation": "For N = 1, MC_k = (1 - w^2) w^(2k), and summing the geometric series gives MC = (1-w^2) * w^2/(1-w^2) = w^2 = rho^2, a clean value in [0,1). It is not constant at 1, does not diverge (the (1-w^2) prefactor cancels the divergence), and only equals the bound N=1 in the limit w -> 1, not for all w.",
+  "tags": [
+    "memory-capacity",
+    "scalar-case",
+    "geometric-series"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

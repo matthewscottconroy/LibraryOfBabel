@@ -1,0 +1,23 @@
+{
+  "question_id": "1edb1010-c941-4d74-8dcd-5adc34fe5d0b",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Schachter and Singer's two-factor theory (1962), an emotion is the joint product of which two factors?",
+  "choices": [
+    "A basic-emotion affect program and a universal facial expression",
+    "Undifferentiated physiological arousal and a cognitive label that interprets that arousal",
+    "A eudaimonistic judgement and a felt bodily perturbation",
+    "A somatic marker and a ventromedial-prefrontal evaluation"
+  ],
+  "answer": 1,
+  "explanation": "In the epinephrine experiment the same drug-induced arousal was felt as euphoria or anger depending on the social context supplying the cognitive label -- arousal gives intensity, the label gives quality. Option 0 is Ekman's basic-emotion view; option 2 blends Nussbaum with feeling theory; option 3 uses Damasio's somatic-marker vocabulary, a different framework.",
+  "tags": [
+    "schachter-singer",
+    "two-factor-theory",
+    "arousal",
+    "cognitive-label"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

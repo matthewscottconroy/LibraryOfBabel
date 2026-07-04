@@ -1,0 +1,13 @@
+{
+  "question_id": "ba3b8597-306b-44fb-af63-c61f4574a404",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Regarding the shot noise ⟨i²_shot⟩ = 2eI_ph B in an optical receiver, which statement is correct?",
+  "choices": ["It can be eliminated by using a lower-noise transimpedance amplifier", "It is an irreducible quantum noise floor from the discreteness of photons and electrons; it cannot be removed by better circuit design", "It scales as the square of the bandwidth", "It is independent of the photocurrent"],
+  "answer": 1,
+  "explanation": "Shot noise arises from the discrete, random arrival of photons and electrons, making it a fundamental quantum floor that no amplifier can remove — only lower bandwidth or higher signal power improves the SNR. It scales linearly with both photocurrent I_ph and bandwidth B, so 'independent of photocurrent' and 'square of bandwidth' are both wrong.",
+  "tags": ["shot-noise", "quantum-limit", "receiver-noise"],
+  "difficulty": "intermediate",
+  "generated": true
+}

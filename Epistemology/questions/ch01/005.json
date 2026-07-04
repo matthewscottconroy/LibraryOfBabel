@@ -1,0 +1,18 @@
+{
+  "question_id": "af791591-03cf-4dc1-a852-74c3d61af8f1",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Sosa, Williamson, and Pritchard defend a safety condition on knowledge. Which statement correctly formulates safety, as opposed to the neighboring sensitivity condition?",
+  "choices": [
+    "If p were false, S would not believe p; that is, S's belief is absent in the nearest world where p fails.",
+    "S's belief that p is caused by the fact that p through a non-deviant causal chain.",
+    "S can rule out every alternative to p, whether or not that alternative is relevant in the context.",
+    "In nearby possible worlds where S forms the belief in the same way, p is true; that is, the belief could not easily have been false."
+  ],
+  "answer": 3,
+  "explanation": "Safety holds that in all (or nearly all) nearby worlds where S believes p by the same method, p is true; equivalently, the belief could not easily have been false. Option 0 states sensitivity, safety's near-converse, correctly, but that is the wrong answer to this question. Option 1 is Goldman's causal theory, and option 2 misstates the relevant-alternatives view by dropping its central restriction to relevant alternatives.",
+  "tags": ["safety", "sensitivity", "sosa", "williamson", "pritchard"],
+  "difficulty": "intermediate",
+  "generated": true
+}

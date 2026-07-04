@@ -1,0 +1,18 @@
+{
+  "question_id": "5e468421-35be-4f46-b147-2257bfbb671a",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why is Kerr-based all-optical logic impractical in silicon at telecom wavelengths?",
+  "choices": [
+    "Silicon is opaque at 1550 nm, so no light propagates through the waveguide",
+    "The Kerr coefficient (n2) of silicon is exactly zero",
+    "Two-photon absorption removes the light before the Kerr phase shift can build up; silicon's nonlinear FOM (~7.7e-7) is about six orders of magnitude below the ~0.08 threshold",
+    "Silicon's thermo-optic coefficient exactly cancels the Kerr effect at room temperature"
+  ],
+  "answer": 2,
+  "explanation": "At the fluences needed for Kerr bistability, silicon's large two-photon absorption absorbs the photons first, and its figure of merit n2/(lambda*beta_TPA) is about 7.7e-7, roughly six orders of magnitude below the ~0.08 needed. Silicon is transparent (not opaque) at 1550 nm and has a nonzero Kerr coefficient, so the barrier is TPA, not opacity, a null nonlinearity, or thermo-optics.",
+  "tags": ["optical-logic", "two-photon-absorption", "kerr", "silicon"],
+  "difficulty": "advanced",
+  "generated": true
+}

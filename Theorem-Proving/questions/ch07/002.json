@@ -1,0 +1,22 @@
+{
+  "question_id": "c750dd09-a963-48b4-b492-ff936727b4a0",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Division Algorithm states that for integers a and b with b > 0 there exist unique integers q and r with a = bq + r and:",
+  "choices": [
+    "0 ≤ r ≤ b",
+    "1 ≤ r < b",
+    "−b < r < b",
+    "0 ≤ r < b"
+  ],
+  "answer": 3,
+  "explanation": "The remainder is constrained by 0 ≤ r < b (it may be 0 but is strictly less than b), which is exactly what makes q and r unique. Allowing r = b (option A) or negative r (option C) destroys uniqueness; requiring r ≥ 1 (option B) wrongly excludes the case b ∣ a, where r = 0.",
+  "tags": [
+    "division-algorithm",
+    "quotient",
+    "remainder"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

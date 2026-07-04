@@ -1,0 +1,23 @@
+{
+  "question_id": "7b6e5e0d-4e24-46f8-bc6c-b827f41e9bc8",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The ESN's closed-loop Lorenz forecast is accurate for a few Lyapunov times and then diverges from the true trajectory. What is the fundamental reason the prediction eventually fails, no matter how good the model is?",
+  "choices": [
+    "Ridge regression gradually forgets W_out during the autonomous rollout",
+    "Sensitive dependence on initial conditions: the positive Lyapunov exponent amplifies any tiny error exponentially",
+    "The reservoir loses the echo state property as soon as the external input is removed",
+    "tanh saturation clips every output to +/-1 after a fixed number of steps"
+  ],
+  "answer": 1,
+  "explanation": "The Lorenz system is chaotic (lambda_max ~ 0.906 > 0): infinitesimal differences between prediction and truth grow exponentially, so pointwise divergence after a few Lyapunov times is unavoidable, which is exactly what VPT quantifies. W_out is fixed after training (option 0); the echo state property concerns input-driven state convergence, not forecast divergence (option 2); tanh saturation is not the mechanism (option 3).",
+  "tags": [
+    "chaos",
+    "lyapunov",
+    "divergence",
+    "VPT"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

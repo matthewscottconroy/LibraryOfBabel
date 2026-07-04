@@ -1,0 +1,22 @@
+{
+  "question_id": "c3964b12-1a23-45ad-88f2-1406a2a21952",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Schaffer's priority monism, defended in 'On What Grounds What', holds which of the following?",
+  "choices": [
+    "There exists exactly one object, the cosmos, and all talk of its parts is strictly false.",
+    "The cosmos is the one fundamental, ungrounded whole; its many parts exist but are derivative, grounded in the whole.",
+    "The smallest physical simples are fundamental, and every larger thing is grounded in them.",
+    "Reality has multiple mutually irreducible fundamental categories with no single ground floor."
+  ],
+  "answer": 1,
+  "explanation": "Priority monism makes the whole cosmos the one basic entity, while granting that its parts exist but only derivatively. The tempting distractor (option 0) is existence monism, which denies that the parts exist at all; Schaffer explicitly affirms the parts and holds only that they are posterior, so priority monism must be distinguished from existence monism. Options 2 and 3 state Sider's atomism and Fine's pluralism respectively.",
+  "tags": [
+    "grounding",
+    "priority-monism",
+    "schaffer"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

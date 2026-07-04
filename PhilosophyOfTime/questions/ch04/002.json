@@ -1,0 +1,18 @@
+{
+  "question_id": "e045255f-3b0f-488b-8b76-e51000278b37",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "According to McTaggart, what is distinctive about the B-series relations earlier-than, simultaneous-with, and later-than?",
+  "choices": [
+    "They are permanent and tenseless: if E1 is earlier than E2, that holds timelessly and never changes",
+    "They continually change, as what is future becomes present and then past",
+    "They require an objectively moving present in order to order events",
+    "They hold only in the present moment and cease to exist as time passes"
+  ],
+  "answer": 0,
+  "explanation": "B-series relations are permanent and tenseless: that the Battle of Hastings is earlier than the French Revolution holds timelessly and never alters. Option 1 describes the A-series, whose properties change as the present moves; option 2 imports the moving-spotlight A-theory; option 3 states presentism. Only option 0 captures the fixed, tenseless character McTaggart assigned to the B-series.",
+  "tags": ["b-series", "tenseless", "mctaggart", "permanent-relations"],
+  "difficulty": "beginner",
+  "generated": true
+}

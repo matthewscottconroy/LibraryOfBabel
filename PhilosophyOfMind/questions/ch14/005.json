@@ -1,0 +1,22 @@
+{
+  "question_id": "4365f0e2-8b9b-4930-9f21-b56a02c02be1",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Sartre characterizes consciousness (being-for-itself) as:",
+  "choices": [
+    "A nihilating structure that is never coincident with itself, and is therefore condemned to be free",
+    "A dense, self-identical thing like a stone (being-in-itself)",
+    "A collection of immanent mental contents (noemata) housed within the mind",
+    "A ready-to-hand item within a referential totality of equipment"
+  ],
+  "answer": 0,
+  "explanation": "For Sartre consciousness is being-for-itself: a nihilating structure never simply identical with itself and therefore 'condemned to be free.' Being-in-itself (the dense, self-identical stone) is the mode of things; he rejects immanent noemata housed in the mind; and ready-to-hand equipment is Heidegger's category, not Sartre's account of consciousness.",
+  "tags": [
+    "being-for-itself",
+    "sartre",
+    "nothingness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

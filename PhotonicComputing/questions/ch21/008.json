@@ -1,0 +1,13 @@
+{
+  "question_id": "d381336b-5a64-4d47-b536-dcf08da21097",
+  "chapter": 21,
+  "phase": 3,
+  "kind": "tf",
+  "text": "True or False: In a quantum repeater chain, entanglement swapping improves the fidelity of the distributed entanglement, so no purification step is needed.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False — fidelity multiplies down the chain, roughly F' = F^2 per swap (two 95% pairs give about 90%), so entanglement degrades with each swap. Entanglement purification (BBPSSW/DEJMPS) is therefore mandatory, trading extra copies and two-way classical communication for higher fidelity.",
+  "tags": ["entanglement-swapping", "purification", "repeaters"],
+  "difficulty": "intermediate",
+  "generated": true
+}

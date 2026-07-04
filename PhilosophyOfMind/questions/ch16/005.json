@@ -1,0 +1,22 @@
+{
+  "question_id": "b7d943b4-a4c1-4733-a25f-43c174ad2a33",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In Krupenye, Call, and colleagues' (2016) anticipatory-looking study, great apes' gaze anticipated that a returning agent would search where it had last SEEN an object hidden, even though the object had since been moved. Skeptics resist the 'genuine false-belief' reading mainly because...",
+  "choices": [
+    "the apes could be tracking behavioral or spatiotemporal regularities rather than representing the agent's belief",
+    "great apes are physically unable to follow another agent's gaze direction",
+    "the result has never been replicated in any form",
+    "anticipatory looking is a purely reflexive eye movement with no cognitive component at all"
+  ],
+  "answer": 0,
+  "explanation": "The core worry is that sophisticated behavior-reading (where the agent tends to look, spatiotemporal cues) could produce the same anticipatory gaze without genuine belief attribution, the 'minimal vs. full theory of mind' issue. Apes do follow gaze, the study was replicated with variation, and anticipatory looking is treated as a meaningful implicit measure.",
+  "tags": [
+    "theory-of-mind",
+    "false-belief",
+    "krupenye-call"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

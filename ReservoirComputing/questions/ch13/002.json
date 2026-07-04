@@ -1,0 +1,22 @@
+{
+  "question_id": "131e8823-63ef-4397-8277-2828234c30ee",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the Lab 14 / Gauthier Lorenz setup (d=3, history [u_t, u_{t-1}], degree 2), what is the total NVAR feature dimension D?",
+  "choices": [
+    "9",
+    "27",
+    "54",
+    "500"
+  ],
+  "answer": 1,
+  "explanation": "The lagged input is 6-dimensional (3 variables × 2 time steps): 6 linear terms plus C(7,2)=21 unique quadratic products give D = 6 + 21 = 27, matching Gauthier et al. Table 1. 54 is the larger d=3, 2-extra-delay case; 500 is the ESN reservoir size N; 9 counts only linear terms for three delays.",
+  "tags": [
+    "nvar",
+    "feature-dimension",
+    "lorenz"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

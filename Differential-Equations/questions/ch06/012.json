@@ -1,0 +1,22 @@
+{
+  "question_id": "31b529dc-6672-4608-bea5-1aee4271eb6f",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Conformal maps are characterized by the property that they:",
+  "choices": [
+    "preserve areas but not angles",
+    "reverse orientation",
+    "map straight lines only to straight lines",
+    "preserve angles between curves wherever the derivative is nonzero"
+  ],
+  "answer": 3,
+  "explanation": "A holomorphic map with nonzero derivative is conformal: it preserves angles and orientation locally. Mobius transformations, a key family, map the class of circles-and-lines to itself (not lines to lines only) and are angle-preserving.",
+  "tags": [
+    "conformal-mapping",
+    "mobius",
+    "angle-preservation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "96b120a3-8832-4f3c-aeee-0dfafda8215a",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Silicon is an efficient laser gain medium, so III-V materials are unnecessary for building light sources directly on a silicon photonic chip.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False: silicon's indirect bandgap makes it a poor light emitter, so it cannot lase efficiently. On-chip sources therefore rely on heterogeneous integration, wafer-bonding III-V gain material (InP, GaAs) to the silicon and coupling evanescently into the waveguide.",
+  "tags": ["silicon-photonics", "heterogeneous-integration", "iii-v"],
+  "difficulty": "intermediate",
+  "generated": true
+}

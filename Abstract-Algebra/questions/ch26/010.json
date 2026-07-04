@@ -1,0 +1,19 @@
+{
+  "question_id": "265407af-d7f3-4a1c-b7f3-9585fc5d5bf5",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "blank",
+  "text": "Cubical type theory gives a constructive model of Univalence by introducing an ___ type $\\mathbb{I}$ with endpoints $0$ and $1$, so that a path $a=b$ is a function $\\mathbb{I}\\to A$.",
+  "choices": [
+    "interval"
+  ],
+  "answer": "interval",
+  "explanation": "The chapter describes cubical type theory as introducing 'an interval type $\\mathbb{I}$ with endpoints $0,1$,' modeling a path as a function $\\mathbb{I}\\to A$ hitting those endpoints. This structural machinery makes Univalence derivable rather than a non-computational axiom.",
+  "tags": [
+    "cubical-type-theory",
+    "interval-type",
+    "univalence"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

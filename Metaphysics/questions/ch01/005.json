@@ -1,0 +1,22 @@
+{
+  "question_id": "cc0f3e94-acd6-4b67-ac86-ef524f26519c",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Armstrong's mature ontology, what is the fundamental category, and how do particulars and universals relate to it?",
+  "choices": [
+    "States of affairs (such as a's being F) are fundamental; particulars and universals are abstractions from them and never exist independently.",
+    "Bare particulars are fundamental; universals are constructed from them by abstraction.",
+    "Uninstantiated universals are fundamental; particulars are their imperfect shadows.",
+    "Resemblance classes are fundamental; states of affairs are convenient logical fictions."
+  ],
+  "answer": 0,
+  "explanation": "Armstrong's dictum, 'no universal without particulars that instantiate it; no particular without universals it instantiates', makes the state of affairs the basic unit and the truthmaker for 'a is F'. The tempting distractor (option 2) is Platonism, which Armstrong rejects: he countenances no uninstantiated universals, and neither particular nor universal exists on its own outside states of affairs.",
+  "tags": [
+    "armstrong",
+    "states-of-affairs",
+    "universals"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

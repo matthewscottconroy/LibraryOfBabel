@@ -1,0 +1,18 @@
+{
+  "question_id": "a41510dd-9d97-4e96-97b3-4d62277fafe5",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Two assassins shoot simultaneously; assassin A's bullet kills the victim while assassin B's bullet, though in flight, arrives too late. Why is this early-preemption case a problem for Lewis's simple counterfactual analysis of causation?",
+  "choices": [
+    "Because the victim's death does not counterfactually depend on A's shot (had A not shot, B's bullet would still have killed the victim), yet A is the actual cause.",
+    "Because both shots overdetermine the death, so neither assassin can be assigned any causal responsibility at all.",
+    "Because the death counterfactually depends on B's shot rather than A's, wrongly identifying B as the cause.",
+    "Because counterfactual dependence is intransitive, so no causal chain from A to the death can be constructed."
+  ],
+  "answer": 0,
+  "explanation": "In early preemption the effect fails to counterfactually depend on the actual cause: had A not fired, the preempted backup B would have produced the same effect, so the simple test wrongly denies that A caused the death. Option 1 describes symmetric overdetermination, a distinct case; the trouble here is precisely that there is a determinate actual cause (A) the counterfactual test misses.",
+  "tags": ["causation", "counterfactuals", "preemption", "lewis"],
+  "difficulty": "intermediate",
+  "generated": true
+}

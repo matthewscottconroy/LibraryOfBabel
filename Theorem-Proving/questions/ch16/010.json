@@ -1,0 +1,19 @@
+{
+  "question_id": "27544a45-4d85-4094-8a34-ae870f4fcb2c",
+  "chapter": 16,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Shannon's source coding theorem gives entropy its operational meaning: H(X) is exactly the optimal rate, in bits per symbol, for the lossless ___ of an i.i.d. source.",
+  "choices": [
+    "compression"
+  ],
+  "answer": "compression",
+  "explanation": "The source coding theorem states that H(X) is the optimal lossless compression rate — no code beats entropy, and codes approaching it exist (via Kraft/Huffman). This ties the abstract measure to the concrete task of data compression.",
+  "tags": [
+    "source-coding",
+    "compression",
+    "shannon"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -57,4 +57,4 @@ termination_by l.length
 ```
 
 ## Exercises
-See [problems/ch07_induction/03_well_founded_exercises.md](../../../problems/ch07_induction/03_well_founded_exercises.md)
+See [problems/ch07_induction_and_recursion/03_well_founded_exercises.md](../../../problems/ch07_induction_and_recursion/03_well_founded_exercises.md)

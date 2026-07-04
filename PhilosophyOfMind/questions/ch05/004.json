@@ -1,0 +1,22 @@
+{
+  "question_id": "a12b4a22-56dd-49b1-a29b-4a0b61ecc6fc",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "On Lewis's analytic (Ramsey-Lewis) functionalism, the functional roles that define mental terms are derived from:",
+  "choices": [
+    "The platitudes of common-sense 'folk psychology', Ramsified by replacing mental terms with variables",
+    "The empirical laws discovered by scientific cognitive psychology",
+    "The state-table of a Turing machine",
+    "The evolutionary/biological functions of neural states"
+  ],
+  "answer": 0,
+  "explanation": "Analytic (Ramsey-Lewis) functionalism derives functional roles a priori from the platitudes of folk psychology, Ramsified by replacing each mental term with a variable. Option 1 is psychofunctionalism (empirical psychology), option 2 is machine functionalism, and option 3 is teleofunctionalism; Lewis's distinctive move is the conceptual, folk-theoretic derivation.",
+  "tags": [
+    "analytic-functionalism",
+    "ramsey-lewis",
+    "lewis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

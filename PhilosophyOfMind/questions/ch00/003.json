@@ -1,0 +1,23 @@
+{
+  "question_id": "a6a342da-78ea-4b1b-8878-3e1980a93520",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which post-Cartesian view holds that mind and body never truly interact, and that God, on the occasion of a mental event, directly produces the corresponding bodily event (and vice versa)?",
+  "choices": [
+    "Malebranche's occasionalism",
+    "Leibniz's pre-established harmony",
+    "Spinoza's dual-aspect theory",
+    "Berkeley's immaterialism"
+  ],
+  "answer": 0,
+  "explanation": "Occasionalism (Malebranche) makes God the perpetual intermediary who acts on the 'occasion' of each mental or bodily event, so finite things never genuinely cause one another. Leibniz's pre-established harmony instead has God synchronize mind and body once at creation, like two clocks, with no ongoing intervention. Spinoza dissolves the problem by making mind and body two attributes of one substance, and Berkeley denies matter exists at all.",
+  "tags": [
+    "malebranche",
+    "occasionalism",
+    "interaction-problem",
+    "god"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

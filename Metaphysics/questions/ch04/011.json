@@ -1,0 +1,13 @@
+{
+  "question_id": "6ccd4f2c-f6db-4b07-b167-6e4fcc38ede2",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The system of modal logic widely accepted as the correct logic of metaphysical modality, in which whatever is possible is necessarily possible, is called ___.",
+  "choices": ["S5", "s5"],
+  "answer": "S5",
+  "explanation": "S5 adds the characteristic axiom that possibility is non-contingent (possibly-P entails necessarily-possibly-P), and is standardly taken to govern metaphysical necessity by Kripke, Plantinga, and Lewis alike. The weaker system S4 secures only that the necessary is necessarily necessary; the distinctively S5 axiom is the more contested addition.",
+  "tags": ["modality", "modal-logic", "s5"],
+  "difficulty": "intermediate",
+  "generated": true
+}

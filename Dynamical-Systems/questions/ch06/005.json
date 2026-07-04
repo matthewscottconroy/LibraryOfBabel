@@ -1,0 +1,22 @@
+{
+  "question_id": "300f94de-f533-40a1-abf4-e3ac7bff6ac2",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Lempel-Ziv algorithm asymptotically achieves, for any stationary ergodic source, the:",
+  "choices": [
+    "entropy rate h",
+    "zero rate",
+    "topological entropy",
+    "channel capacity"
+  ],
+  "answer": 0,
+  "explanation": "Lempel-Ziv is universal: without knowing the distribution it compresses to the entropy rate h in the limit. It does not depend on knowing h and does not reach zero rate.",
+  "tags": [
+    "lempel-ziv",
+    "universal-coding",
+    "entropy-rate"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

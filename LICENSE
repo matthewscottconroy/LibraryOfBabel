@@ -1,0 +1,94 @@
+LibraryOfBabel — License
+
+============================================================
+PLAIN-LANGUAGE INTENT (controls in case of any ambiguity)
+============================================================
+
+The textbooks, curricula, quizzes, question banks, labs, and all other
+educational content in this repository are meant to be FREE, forever, for
+everyone. This license exists to guarantee three things:
+
+  1. FREE TO USE AND SHARE. Anyone may read, copy, distribute, and adapt this
+     material at no cost.
+
+  2. NO ONE MAY PROFIT FROM IT. The material — and anything built from it —
+     may NOT be used for commercial advantage or monetary compensation. You
+     may not sell it, put it behind a paywall, gate it behind paid
+     advertising, bundle it into a paid product or course, or otherwise charge
+     for access to it or to derivatives of it.
+
+  3. IT STAYS FREE. Any adaptation or derivative you distribute must be
+     released under these same terms, so it can never be captured and made
+     unfree by a downstream party. Credit must be given to this project.
+
+If any interpretation of the formal license below would permit charging money
+for, or otherwise commercially profiting from, this material or works derived
+from it, that interpretation is rejected: the intent above governs.
+
+============================================================
+FORMAL LICENSE
+============================================================
+
+Copyright (c) 2026 the LibraryOfBabel authors.
+
+This work — including every textbook, its prose, exercises, solutions,
+question banks, curricula, labs, and accompanying software (the quiz
+application under `quiz/` and the tooling under `tools/`) — is licensed under
+the
+
+    Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+    License (CC BY-NC-SA 4.0).
+
+You are free to:
+
+  * Share  — copy and redistribute the material in any medium or format.
+  * Adapt  — remix, transform, and build upon the material.
+
+The licensor cannot revoke these freedoms as long as you follow the license
+terms.
+
+Under the following terms:
+
+  * Attribution (BY) — You must give appropriate credit to the LibraryOfBabel
+    project, provide a link to this license, and indicate if changes were
+    made. You may do so in any reasonable manner, but not in any way that
+    suggests the licensor endorses you or your use.
+
+  * NonCommercial (NC) — You may NOT use the material, or any material derived
+    from it, for commercial purposes. A commercial purpose is one primarily
+    intended for or directed toward commercial advantage or monetary
+    compensation.
+
+  * ShareAlike (SA) — If you remix, transform, or build upon the material, you
+    must distribute your contributions under this same license (CC BY-NC-SA
+    4.0) as the original.
+
+  * No additional restrictions — You may not apply legal terms or
+    technological measures that legally restrict others from doing anything
+    the license permits.
+
+The complete, authoritative legal code of CC BY-NC-SA 4.0 — which is
+incorporated here by reference and forms the binding terms of this license —
+is published by Creative Commons at:
+
+    https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+A human-readable summary (not a substitute for the legal code) is at:
+
+    https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+------------------------------------------------------------
+NOTE ON THE SOFTWARE
+------------------------------------------------------------
+
+The accompanying software (the Rust quiz application in `quiz/` and the Python
+tooling in `tools/`) is provided under the same NonCommercial terms as the
+educational content above, and additionally WITHOUT WARRANTY OF ANY KIND,
+express or implied, including but not limited to the warranties of
+merchantability, fitness for a particular purpose, and noninfringement. In no
+event shall the authors be liable for any claim, damages, or other liability
+arising from, out of, or in connection with the software or its use.
+
+If you wish to reuse the software specifically under conventional
+open-source terms for a NON-commercial purpose, or to discuss any use not
+permitted above, contact the project maintainers.

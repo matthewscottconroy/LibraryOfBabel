@@ -1,0 +1,21 @@
+{
+  "question_id": "9606975e-0051-42c4-bd69-1ff33e6cc9c7",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Process reliabilism requires that, for a belief to be justified, the believer have reflective access to the fact that the belief-forming process is reliable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: reliabilism is externalist, so justification turns on the process's actual reliability regardless of whether the believer can access, or even conceive of, that reliability. The demand for reflective access to one's justifiers belongs instead to access internalism, reliabilism's rival.",
+  "tags": [
+    "reliabilism",
+    "externalism",
+    "access-internalism",
+    "internalism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

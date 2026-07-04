@@ -1,0 +1,22 @@
+{
+  "question_id": "4df5afbf-456a-44fd-bc48-f3e7bee61422",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Near a jump discontinuity, the partial sums of a Fourier series exhibit the Gibbs phenomenon, meaning:",
+  "choices": [
+    "they converge uniformly to the function",
+    "they converge to the left-hand limit of the function",
+    "the overshoot disappears as more terms are added",
+    "they overshoot the jump by a fixed fraction (about 9 percent) that does not vanish as N grows"
+  ],
+  "answer": 3,
+  "explanation": "The Gibbs overshoot near a jump stays at roughly 9 percent of the jump height no matter how many terms are used; the spike narrows but does not shrink. Consequently the convergence there is not uniform, and at the jump itself the series converges to the average of the one-sided limits.",
+  "tags": [
+    "gibbs-phenomenon",
+    "convergence",
+    "fourier-series"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

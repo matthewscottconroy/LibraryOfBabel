@@ -1,0 +1,21 @@
+{
+  "question_id": "ab6fbba9-d61e-4e64-a83b-701f0ba30921",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The book gives the general-relativistic deflection of a light ray grazing the Sun as about 1.75″. How does this compare with the value from the equivalence-principle / 'Newtonian falling photon' argument alone?",
+  "choices": [
+    "It equals the Newtonian (equivalence-principle-only) value",
+    "It is half the Newtonian value",
+    "It is exactly twice the Newtonian value of about 0.875″",
+    "It is about ten times the Newtonian value"
+  ],
+  "answer": 2,
+  "explanation": "The GR result δφ = 4GM/(bc²) = 1.749″ is exactly twice the 'Newtonian'/EP-only prediction of 0.875″. Eddington's 1919 eclipse expedition measured about 1.75″, confirming the full GR value and ruling out the half-value. The extra factor of two comes from the curvature of space, which the naive falling-photon argument omits.",
+  "tags": [
+    "classical-tests",
+    "light-deflection"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

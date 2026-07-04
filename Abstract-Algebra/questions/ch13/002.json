@@ -1,0 +1,21 @@
+{
+  "question_id": "458144d8-4a89-4e49-85c6-9761cf2f3fed",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which of the following is NOT part of the definition of a category?",
+  "choices": [
+    "Every morphism has an inverse",
+    "Composition of morphisms is associative",
+    "Every object has an identity morphism",
+    "Morphisms with matching source and target can be composed"
+  ],
+  "answer": 0,
+  "explanation": "Categories require only associative composition with identities; invertibility of every morphism is the special case of a groupoid. A one-object category with all morphisms invertible is precisely a group.",
+  "tags": [
+    "category-theory",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

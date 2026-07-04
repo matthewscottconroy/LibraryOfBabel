@@ -1,0 +1,23 @@
+{
+  "question_id": "866c4a69-3d26-4c69-86aa-1812cc6f425c",
+  "chapter": 21,
+  "phase": 5,
+  "kind": "mc",
+  "text": "On Russell's theory of descriptions, the sentence 'Pegasus does not exist' is analyzed as:",
+  "choices": [
+    "an assertion about a nonexistent object, Pegasus, that has attenuated being",
+    "meaningless, since 'Pegasus' fails to refer",
+    "¬∃x Pegasizes(x), which is true and commits us to nothing",
+    "necessarily false, since every name must denote"
+  ],
+  "answer": 2,
+  "explanation": "Russell recasts the name as a predicate and reads the negative existential as ¬∃x Pegasizes(x) — true, meaningful, and committed to no object. This 'shaves Plato's beard' without Meinong's realm of nonexistent objects (A), and does not make the sentence meaningless or false (B, D).",
+  "tags": [
+    "russell",
+    "descriptions",
+    "negative-existentials",
+    "meinong"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

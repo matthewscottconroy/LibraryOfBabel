@@ -1,0 +1,23 @@
+{
+  "question_id": "0c0e0911-baf6-4f6b-a89e-dd9f1ff8379d",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "On Goldman's process reliabilism, a belief is justified if and only if:",
+  "choices": [
+    "it fits the evidence, which consists entirely of the believer's mental states.",
+    "it is produced or sustained by a cognitive process that reliably tends to yield true rather than false beliefs, whether or not the believer knows the process is reliable.",
+    "the believer can, on reflection, access the grounds that make the belief justified.",
+    "it belongs to the most comprehensive and explanatorily powerful system of beliefs available to the believer."
+  ],
+  "answer": 1,
+  "explanation": "Reliabilism is externalist: justification is fixed by the objective, truth-conducive reliability of the producing process, and no reflective access to that reliability is required. Option (0) states Conee and Feldman's evidentialism, (2) states access internalism, and (3) states BonJour's coherentism, each a rival that locates justification elsewhere.",
+  "tags": [
+    "reliabilism",
+    "goldman",
+    "externalism",
+    "process-reliabilism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

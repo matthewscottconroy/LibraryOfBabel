@@ -1,0 +1,19 @@
+{
+  "question_id": "21d2a1af-2cf9-4df8-86c4-4d17cd8e26f1",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In the Appeltant et al. (2011) time-multiplexed reservoir, a single nonlinear node with delayed feedback emulates a whole network by defining N ___ nodes spaced theta = tau/N apart within the delay loop.",
+  "choices": [
+    "virtual"
+  ],
+  "answer": "virtual",
+  "explanation": "The scheme time-multiplexes N virtual nodes into a delay loop of length tau at spacing theta = tau/N (with theta about 0.2 times the node response time), so one physical nonlinear element emulates an entire recurrent network.",
+  "tags": [
+    "reservoir-computing",
+    "delay-line",
+    "virtual-nodes"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

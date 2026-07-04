@@ -1,0 +1,18 @@
+{
+  "question_id": "a2d67af3-fa58-42ca-bd9f-98794826d391",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A measurement yields g2(0) < 1 (antibunching). What does this establish?",
+  "choices": [
+    "The light is non-classical: no classical field can produce g2(0) < 1",
+    "The light is simply very dim laser light",
+    "The detector is faulty, since g2(0) can never be below 1",
+    "The light is thermal"
+  ],
+  "answer": 0,
+  "explanation": "Antibunching g2(0) < 1 is a strict non-classicality witness: every classical field obeys g2(0) >= 1, so a sub-unity value requires a non-classical state such as a single emitter. Dim laser light still has g2(0) = 1 (choice 1); the value is physically allowed, not an artifact (choice 2); thermal light has g2(0) = 2 (choice 3).",
+  "tags": ["antibunching", "nonclassicality", "g2"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "59079762-bd78-4ecd-bd01-480dfc241ad3",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "blank",
+  "text": "A gravitational wave has two independent polarization states, denoted plus (+) and ___.",
+  "choices": [
+    "cross",
+    "×"
+  ],
+  "answer": "cross",
+  "explanation": "The book denotes the two polarizations plus (h_+) and cross (h_×). The cross polarization is the plus polarization rotated by 45°. These are the only two physical, gauge-invariant degrees of freedom of a gravitational wave in the transverse-traceless gauge.",
+  "tags": [
+    "polarization",
+    "cross"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

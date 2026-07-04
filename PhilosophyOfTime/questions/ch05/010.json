@@ -1,0 +1,18 @@
+{
+  "question_id": "0d0db2d6-9d45-4f59-9d8b-955b49719330",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is Reichenbach's 'conjunctive fork,' and how did he use it to characterize the direction of time?",
+  "choices": [
+    "A pair of simultaneous, independently sufficient causes of one effect, showing that the effect need not counterfactually depend on either cause",
+    "A trajectory that loops back through spacetime, correlating an event with its own causal past",
+    "A structure in which two correlated but separated events are explained by a common cause in their past rather than a common effect in their future — an asymmetry Reichenbach took to constitute the direction of time",
+    "A time-symmetric description in which advanced and retarded electromagnetic waves jointly determine radiation"
+  ],
+  "answer": 2,
+  "explanation": "Reichenbach's conjunctive fork is 'open' toward the future: correlations between separated events trace back to a common cause in the past, and this asymmetry, he argued, constitutes time's direction (the past is the direction of common causes). Option 0 describes causal overdetermination, option 1 describes a closed timelike curve, and option 3 describes the Wheeler-Feynman absorber theory — each a distinct notion from this unit.",
+  "tags": ["reichenbach", "conjunctive-fork", "causal-theory", "direction-of-time"],
+  "difficulty": "advanced",
+  "generated": true
+}

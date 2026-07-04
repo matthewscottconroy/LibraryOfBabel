@@ -1,0 +1,20 @@
+{
+  "question_id": "cb2dc098-e623-4971-a8f7-d86e46d1dc2a",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "tf",
+  "text": "True or False: the Christoffel symbols Γ^ρ_μν are the components of a type (1,2) tensor field.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The book stresses that Christoffel symbols are not a tensor: under a coordinate change they acquire an inhomogeneous second-derivative term (∂²xσ/∂x̃ᵘ∂x̃ᵛ) beyond the tensorial part. This is exactly why they can be made to vanish at any single point in normal coordinates yet be nonzero elsewhere, which is impossible for a genuine tensor (a tensor that vanishes in one frame vanishes in all). The tensor built from derivatives of Γ is the Riemann curvature tensor.",
+  "tags": [
+    "tensors",
+    "christoffel",
+    "transformation-law"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

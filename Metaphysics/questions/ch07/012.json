@@ -1,0 +1,19 @@
+{
+  "question_id": "878638d7-d7b6-4e08-8a47-054f4e8c2fa6",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Pereboom's four-case argument is a ___ argument: it claims there is no morally relevant difference between an agent covertly programmed by neuroscientists and an ordinary agent whose character was formed by genetics and environment in a deterministic world.",
+  "choices": [
+    "manipulation"
+  ],
+  "answer": "manipulation",
+  "explanation": "The manipulation argument presses that if the manipulated agent (Plum, Case 1) is not responsible, and no principled difference separates that case from ordinary determined action (Case 4), then no determined agent is responsible. Compatibilists reply by seeking a relevant difference, such as ownership of a reasons-responsive mechanism formed through normal development.",
+  "tags": [
+    "manipulation-argument",
+    "pereboom",
+    "incompatibilism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

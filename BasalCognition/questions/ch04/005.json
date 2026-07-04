@@ -1,0 +1,18 @@
+{
+  "question_id": "d5b18a03-2f6c-4e94-8b7a-0c3e9f1d6a25",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In Gagliano et al.'s (2014) contested Mimosa pudica experiment, what was the key behavioral observation?",
+  "choices": [
+    "Plants grew toward a fan they had learned to associate with light",
+    "Repeatedly dropped plants showed progressively less leaflet folding",
+    "Plants required prolonged winter cold before they could flower",
+    "Wounded plants released volatiles that primed the defenses of their neighbors"
+  ],
+  "answer": 1,
+  "explanation": "Mimosa plants dropped repeatedly (about 15 cm, roughly 60 times) showed progressively less protective leaflet folding, which Gagliano interpreted as habituation. The fan-and-light Y-maze (choice 0) is the separate 2016 pea associative-learning study, the cold requirement is vernalization (choice 2), and neighbor priming is VOC-mediated communication (choice 3).",
+  "tags": ["plant-learning", "mimosa", "habituation", "gagliano"],
+  "difficulty": "beginner",
+  "generated": true
+}

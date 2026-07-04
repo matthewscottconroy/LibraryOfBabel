@@ -1,0 +1,22 @@
+{
+  "question_id": "b6e626e9-22a6-4945-8498-5a47ed28dd25",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Anscombe's point with the agent who is 'pumping water' (and thereby unknowingly poisoning the inhabitants) is that:",
+  "choices": [
+    "Intentions never cause actions",
+    "All actions are ultimately unintentional",
+    "Practical knowledge is derived from observation of one's own movements",
+    "One and the same event can be intentional under one description and unintentional under another"
+  ],
+  "answer": 3,
+  "explanation": "Anscombe's water-pumping case shows that intentionality is description-relative: the same event is intentional under 'pumping water' yet not under 'poisoning the inhabitants' if the agent is ignorant of the poison. Options 0 and 1 are anti-causalist or absurd over-statements, and option 2 inverts her claim that practical knowledge is non-observational.",
+  "tags": [
+    "anscombe",
+    "intention-under-a-description",
+    "action"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

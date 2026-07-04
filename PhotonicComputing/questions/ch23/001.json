@@ -1,0 +1,13 @@
+{
+  "question_id": "a7d89ee5-3ba7-463d-86b9-31333643bb9e",
+  "chapter": 23,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the defining virtue of finite-difference time-domain (FDTD) simulation compared with frequency-domain solvers?",
+  "choices": ["It recovers the full transmission and reflection spectrum across the entire band from a single time-domain run", "It solves each wavelength independently for higher accuracy", "It requires no boundary conditions", "It is exact only for eigenmode (waveguide index) problems"],
+  "answer": 0,
+  "explanation": "Exciting with a short Gaussian pulse and accumulating a running DFT at flux monitors yields the whole spectrum in one run — the opposite of frequency-domain solvers, which repeat the solve at every wavelength. Choice 1 describes frequency-domain solvers; choice 2 is false (FDTD needs PML boundaries); choice 3 describes FEM's strength (mode solving), not FDTD.",
+  "tags": ["fdtd", "broadband", "numerical-methods"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "6e477b71-c996-496f-ad7b-de75badfc369",
+  "chapter": 17,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The diagonal lemma guarantees that for any formula ψ(x) in a theory representing its own syntax, there is a sentence λ such that:",
+  "choices": [
+    "ψ(⟨λ⟩) is provably false",
+    "λ is not expressible in the language",
+    "T ⊢ λ ↔ ψ(⟨λ⟩)",
+    "ψ(x) must have no free variables"
+  ],
+  "answer": 2,
+  "explanation": "The diagonal (fixed-point) lemma yields a sentence λ with T ⊢ λ ↔ ψ(⟨λ⟩) — λ 'says of itself' that it satisfies ψ. Applying it to ψ(x) := ¬Tr(x) produces the formal Liar and drives Tarski's theorem. The other options misstate the guaranteed equivalence.",
+  "tags": [
+    "diagonal-lemma",
+    "self-reference",
+    "fixed-point"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

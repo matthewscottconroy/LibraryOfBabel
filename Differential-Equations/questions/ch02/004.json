@@ -1,0 +1,21 @@
+{
+  "question_id": "df652512-78c9-4256-a7e8-df83d1a721cc",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Green's theorem equates the line integral of (P dx + Q dy) around a positively oriented simple closed curve C to the double integral over the enclosed region D of:",
+  "choices": [
+    "(P_x + Q_y) dA",
+    "(P_x - Q_y) dA",
+    "(Q_y - P_x) dA",
+    "(Q_x - P_y) dA"
+  ],
+  "answer": 3,
+  "explanation": "Green's theorem gives the circulation form: the line integral equals the double integral of (Q_x - P_y), the scalar curl of (P,Q). The combination (P_x + Q_y) is the divergence, which belongs to the flux (normal) form, and the sign or ordering in the other options is wrong.",
+  "tags": [
+    "greens-theorem",
+    "line-integrals"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "731d1c8e-c127-4b73-b1a9-c2987540c2f3",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "tf",
+  "text": "In a deep ESN, the recurrent weight matrices of every layer are trained by backpropagation together with the readout.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. As in a single-layer ESN, all recurrent and inter-layer matrices are randomly initialized and left FIXED; only the linear readout is trained (here by ridge regression on the concatenated states). That fixed-reservoir property is exactly what makes reservoir training cheap.",
+  "tags": [
+    "deep-esn",
+    "training",
+    "fixed-reservoir"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

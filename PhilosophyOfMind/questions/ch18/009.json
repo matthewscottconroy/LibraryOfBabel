@@ -1,0 +1,19 @@
+{
+  "question_id": "ec49fb81-86b3-49c1-92a4-9f237cb27348",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "blank",
+  "text": "Bentham's dictum on the moral status of animals is: 'The question is not, Can they reason? nor, Can they talk? but, Can they ___?'",
+  "choices": [
+    "suffer"
+  ],
+  "answer": "suffer",
+  "explanation": "The answer is suffer. Bentham makes the capacity for suffering, rather than reason or speech, the criterion for moral consideration -- the foundation Singer builds on in arguing against speciesism.",
+  "tags": [
+    "bentham",
+    "sentience",
+    "moral-status"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

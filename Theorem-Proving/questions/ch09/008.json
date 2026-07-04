@@ -1,0 +1,22 @@
+{
+  "question_id": "e72cabc5-fe3f-4454-8f81-c54f9a3f285e",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The diagonal lemma (fixed-point lemma) guarantees that for any formula φ(x) with one free variable, there is a sentence ψ such that:",
+  "choices": [
+    "T ⊢ ψ and T ⊢ ¬ψ",
+    "T ⊢ ψ ↔ φ(⌜ψ⌝), i.e. ψ 'says' of itself that it has property φ",
+    "φ(x) is decidable",
+    "ψ is provable if and only if φ is a tautology"
+  ],
+  "answer": 1,
+  "explanation": "The diagonal lemma yields a self-referential ψ with T ⊢ ψ ↔ φ(⌜ψ⌝) — ψ asserts of its own Gödel number that φ holds. Applying it to ¬Provable(x) produces the Gödel sentence. Option A would make T inconsistent; options C and D misstate the lemma, which is about self-reference, not decidability or tautologousness.",
+  "tags": [
+    "diagonal-lemma",
+    "self-reference",
+    "godel-numbering"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

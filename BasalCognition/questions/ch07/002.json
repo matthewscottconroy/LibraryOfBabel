@@ -1,0 +1,13 @@
+{
+  "question_id": "f71c4a9e-2d63-4b8f-8c15-9e0a3d7b2f64",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The discovery that postsynaptic scaffold proteins such as Shank and Homer are present in sponges, which have no synapses, is best interpreted as evidence that:",
+  "choices": ["Sponges secretly possess synapses that had escaped detection", "Neurons first evolved within sponges", "The molecular toolkit for building the synapse predates the synapse itself", "These scaffold proteins are nonfunctional evolutionary relics in sponges"],
+  "answer": 2,
+  "explanation": "Sakarya et al. (2007) showed the postsynaptic scaffold predates the animal kingdom, supporting the view that the synapse was assembled from pre-existing molecular components rather than invented wholesale. Sponges genuinely lack synapses and neurons, and the proteins are functional signaling components in sponges, not relics.",
+  "tags": ["postsynaptic-density", "sakarya", "synapse-evolution", "sponges"],
+  "difficulty": "intermediate",
+  "generated": true
+}

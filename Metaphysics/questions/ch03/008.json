@@ -1,0 +1,13 @@
+{
+  "question_id": "f26dc764-2582-465d-a66f-142642b172db",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "On the DTA theory of laws, the necessitation relation N(F, G) is fully reducible to, and analyzable in terms of, the first-order regularity that all Fs are Gs.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The DTA account insists that N(F,G) is an irreducible second-order relation between universals that entails the regularity but is not analyzable in terms of it, and that irreducibility is exactly what separates DTA from every regularity theory. Lewis's 'inference problem' presses the opposite worry: that nothing explains how such an unreduced relation could entail a regularity among particulars.",
+  "tags": ["laws-of-nature", "dta", "inference-problem"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "a30061a6-41ec-4f8c-8d45-255d716bf777",
+  "chapter": 13,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The property F G p ('eventually p holds forever') is:",
+  "choices": [
+    "Expressible in CTL but not in LTL",
+    "Expressible in neither LTL nor CTL",
+    "A safety property",
+    "Expressible in LTL but not in CTL"
+  ],
+  "answer": 3,
+  "explanation": "F G p is a canonical LTL formula (the 'persistence' pattern) that CTL cannot express, because it constrains a single path rather than the branching structure. Choice 0 has it backwards — AG(EF p) is the CTL-but-not-LTL example. F G p is a liveness-style property, not safety.",
+  "tags": [
+    "ltl",
+    "ctl",
+    "expressiveness",
+    "persistence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

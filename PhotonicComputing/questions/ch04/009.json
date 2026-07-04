@@ -1,0 +1,19 @@
+{
+  "question_id": "eb251da8-3d3e-4ee9-af91-bac5f2e6717f",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The standard receiver front-end circuit that converts a photodiode's output current into a voltage — trading feedback resistance against bandwidth — is the ___ amplifier.",
+  "choices": [
+    "transimpedance"
+  ],
+  "answer": "transimpedance",
+  "explanation": "The transimpedance amplifier (TIA) sets the current-to-voltage gain via its feedback resistor R_F, where a larger R_F lowers noise but reduces bandwidth (R_F · f_3dB² = A/2πC_T). It is the standard interface between the detector and downstream digital processing.",
+  "tags": [
+    "tia",
+    "transimpedance-amplifier",
+    "receiver-circuits"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

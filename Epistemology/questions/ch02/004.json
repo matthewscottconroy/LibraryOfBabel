@@ -1,0 +1,20 @@
+{
+  "question_id": "2dc7d85b-e54c-4f00-ac9e-412bbb8bd066",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Thomas Reid held that we have a natural, rational disposition to accept what others sincerely tell us; he called this the principle of ___.",
+  "choices": [
+    "credulity"
+  ],
+  "answer": "credulity",
+  "explanation": "Reid paired the principle of credulity (the disposition to believe testimony) with the principle of veracity (the disposition to tell the truth); together they make testimony a basic source on which trust is the default and distrust bears the burden of proof. This anti-reductionist stance contrasts sharply with Hume's demand for prior inductive grounds before testimony may be trusted. The expected term is 'credulity'.",
+  "tags": [
+    "testimony",
+    "anti-reductionism",
+    "reid",
+    "credulity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

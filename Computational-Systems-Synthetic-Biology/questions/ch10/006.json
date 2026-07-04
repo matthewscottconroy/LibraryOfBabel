@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the two-state (ON/OFF) promoter model of bursty gene expression, a high koff/kon ratio (promoter mostly OFF) leads to:",
+  "choices": [
+    "A Fano factor close to 1 (Poisson-like mRNA statistics)",
+    "A perfectly deterministic mRNA level with zero variance",
+    "Negative mRNA copy numbers, which is biologically meaningless",
+    "A Fano factor greater than 1 (super-Poissonian, 'bursty' mRNA statistics)"
+  ],
+  "answer": 3,
+  "explanation": "When koff/kon is high, the promoter spends most of its time OFF and only occasionally switches ON to fire off bursts of transcription, producing super-Poissonian variance and a Fano factor greater than 1. A Fano factor near 1 instead corresponds to the opposite regime (low koff/kon, promoter mostly ON, more Poisson-like firing); mRNA counts are never negative or noise-free in this stochastic model.",
+  "tags": [
+    "fano-factor",
+    "bursty-transcription",
+    "stochastic-gene-expression"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "c83cb5f1-e936-4ec0-b628-e6e48ca740a7"
+}

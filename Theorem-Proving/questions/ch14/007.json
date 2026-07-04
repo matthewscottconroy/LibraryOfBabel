@@ -1,0 +1,19 @@
+{
+  "question_id": "a742775d-75ba-4841-87fb-5c62e6f36cfc",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: The Geach–Kaplan sentence 'Some critics admire only one another' cannot be expressed in first-order logic in the vocabulary {Critic, Admires} without quantifying over a set.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Kaplan showed, by a Löwenheim–Skolem-style argument, that no first-order sentence in {Critic, Admires} alone is equivalent to it; capturing it needs a second-order/set quantifier — or, in plural logic, the plural quantifier ∃xx. So the statement is true.",
+  "tags": [
+    "geach-kaplan",
+    "expressive-power"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

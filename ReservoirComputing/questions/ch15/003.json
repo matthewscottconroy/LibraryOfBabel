@@ -1,0 +1,20 @@
+{
+  "question_id": "22537d8b-9e71-4ac6-8de1-4beb458a3d42",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In the ESN used for Lorenz prediction, only the readout matrix W_out is learned (via ridge regression); the recurrent weights W_rec and input weights W_in remain fixed random matrices.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is the defining feature of reservoir computing and of the lab's EchoStateNetwork: W_rec and W_in are constructed once (random, with W_rec rescaled to the target spectral radius) and never trained. Only W_out is fit, by ridge regression on the collected reservoir states after washout.",
+  "tags": [
+    "training",
+    "readout",
+    "ridge-regression"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

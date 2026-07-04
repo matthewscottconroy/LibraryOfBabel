@@ -1,0 +1,13 @@
+{
+  "question_id": "37bea6ea-305b-4e53-8e92-305027d9e7d3",
+  "chapter": 20,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is the key practical advantage of squeezed light, the basic resource of continuous-variable (CV) quantum computing, compared with the single photons of discrete-variable approaches?",
+  "choices": ["It is produced deterministically by a parametric amplifier — every pump pulse yields squeezed vacuum with no heralding or post-selection", "It requires cryogenic single-photon detectors but delivers higher-fidelity gates", "It carries quantum information in discrete photon-number states that are immune to loss", "It can be amplified without limit by an erbium-doped fiber amplifier"],
+  "answer": 0,
+  "explanation": "Squeezed light emerges from a parametric down-converter deterministically on every pump pulse, unlike probabilistic single-photon sources — the CV paradigm's central advantage. Choice 1 is wrong because homodyne readout uses room-temperature photodiodes, not cryogenic counters; choice 2 inverts the truth (CV encodes in continuous quadratures and is loss-sensitive); choice 3 is forbidden by no-cloning, since amplification injects noise.",
+  "tags": ["continuous-variable", "squeezed-light", "cv-vs-dv"],
+  "difficulty": "beginner",
+  "generated": true
+}

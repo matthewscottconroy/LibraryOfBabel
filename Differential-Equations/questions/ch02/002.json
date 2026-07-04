@@ -1,0 +1,22 @@
+{
+  "question_id": "15bd0c3b-580b-498b-b785-0e035558ed6a",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A C^1 vector field F on a simply connected region is conservative if and only if:",
+  "choices": [
+    "its divergence is zero",
+    "its curl is zero (curl F = 0)",
+    "its Laplacian is zero",
+    "it is a unit vector field"
+  ],
+  "answer": 1,
+  "explanation": "On a simply connected domain, curl-free (curl F = 0) is equivalent to conservative (F = grad phi). Divergence-free means solenoidal/incompressible, a different condition. Simple connectivity is essential: on a punctured plane a curl-free field can fail to be conservative.",
+  "tags": [
+    "conservative-fields",
+    "curl",
+    "potential"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

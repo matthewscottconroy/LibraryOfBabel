@@ -1,0 +1,21 @@
+{
+  "question_id": "576176b4-3352-4739-b545-59eee71cb466",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Because ∇·B = 0 everywhere, the magnetic field can always be written in terms of a vector potential A as:",
+  "choices": [
+    "B = ∇×A",
+    "B = −∇φ",
+    "B = ∇·A",
+    "B = ∂A/∂t"
+  ],
+  "answer": 0,
+  "explanation": "A divergence-free field is the curl of some vector potential, so B = ∇×A; this automatically guarantees ∇·B = 0 because the divergence of a curl vanishes. B = −∇φ describes the electrostatic field E, ∇·A is a scalar, and ∂A/∂t is only part of E in the time-dependent case.",
+  "tags": [
+    "magnetostatics",
+    "vector-potential"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

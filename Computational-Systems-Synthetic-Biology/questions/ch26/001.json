@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is SBML, and why is it significant for computational systems biology?",
+  "choices": [
+    "A standard XML format for representing biochemical models, enabling models to be validated, shared, and simulated across different software tools",
+    "A rule-based simulator for combinatorial complexity in receptor signaling",
+    "A workflow manager for orchestrating bioinformatics pipelines on HPC clusters",
+    "A Python package template following the pyproject.toml specification"
+  ],
+  "answer": 0,
+  "explanation": "SBML (Systems Biology Markup Language) is the standard XML exchange format for biochemical models, letting a model built in one tool be validated, shared, and simulated in another such as roadrunner or COPASI. The 'rule-based simulator' description instead matches BioNetGen, the 'workflow manager' description matches Snakemake or Nextflow, and the 'Python package template' description is unrelated to model exchange entirely.",
+  "tags": [
+    "sbml",
+    "model-exchange",
+    "systems-biology-standards"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "26230632-f72b-4a51-a98b-cae88d3af865"
+}

@@ -1,0 +1,18 @@
+{
+  "chapter": 8,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The ___ plot displays the φ (phi) and ψ (psi) backbone dihedral angles of each residue and is used to assess whether a protein structure's backbone conformations fall within sterically allowed regions.",
+  "choices": [
+    "Ramachandran"
+  ],
+  "answer": "Ramachandran",
+  "explanation": "The Ramachandran plot plots φ and ψ dihedral angles against each other; residues falling outside the allowed/favored regions are flagged as outliers and contribute to quality metrics like the MolProbity score. It is one of the standard tools for assessing stereochemical quality of a solved or predicted structure.",
+  "tags": [
+    "ramachandran-plot",
+    "structure-quality"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "d5f32e51-8171-41fa-b93b-c01cd221dcdd"
+}

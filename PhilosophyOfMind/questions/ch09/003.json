@@ -1,0 +1,23 @@
+{
+  "question_id": "3f1f066e-c7d6-4b37-b445-0c0e845577b0",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "On Richard Lazarus's appraisal theory, what makes anger the specific emotion it is (rather than fear or guilt)?",
+  "choices": [
+    "A distinctive autonomic signature shared by all humans",
+    "A high-arousal, negative-valence point in a two-dimensional affect space",
+    "The perception of bodily trembling and muscular readiness",
+    "Its distinctive 'core relational theme' -- appraising a demeaning offence by another agent whom one can hold responsible"
+  ],
+  "answer": 3,
+  "explanation": "Lazarus individuates emotions by their core relational themes: anger = a blameworthy wrong done to me, fear = an uncertain threat, guilt = my own moral transgression. Option 0 is basic-emotion theory; option 1 is Barrett's core-affect view; option 2 is the James-Lange feeling account.",
+  "tags": [
+    "lazarus",
+    "appraisal-theory",
+    "core-relational-theme",
+    "anger"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

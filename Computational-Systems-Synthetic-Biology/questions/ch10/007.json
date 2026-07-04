@@ -1,0 +1,20 @@
+{
+  "chapter": 10,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The standard Michaelis-Menten quasi-steady-state approximation is valid when the initial enzyme concentration is much greater than the initial substrate concentration ([E]₀ >> [S]₀).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: the quasi-steady-state approximation is actually valid in the opposite regime, when enzyme is in catalytic excess relative to substrate, i.e., [E]₀ << [S]₀, the typical situation for an enzyme turning over its substrate. If enzyme were in large excess over substrate instead, the QSSA derivation underlying v = Vmax[S]/(Km+[S]) would not hold.",
+  "tags": [
+    "michaelis-menten",
+    "qssa",
+    "enzyme-kinetics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "e2574098-ea4d-4064-9774-1b3101dbff7f"
+}

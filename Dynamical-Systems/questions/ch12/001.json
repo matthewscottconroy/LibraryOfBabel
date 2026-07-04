@@ -1,0 +1,22 @@
+{
+  "question_id": "35fcfa6b-f4ea-487f-9aed-603d75f412af",
+  "chapter": 12,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The Collatz map is T(n) = n/2 for even n and, for odd n, T(n) =",
+  "choices": [
+    "3n",
+    "3n + 1",
+    "n + 1",
+    "2n + 1"
+  ],
+  "answer": 1,
+  "explanation": "For odd n the Collatz rule is 3n + 1; the conjecture is that iterating T from any positive integer eventually reaches 1. The other rules are not the Collatz map.",
+  "tags": [
+    "collatz",
+    "definition",
+    "discrete-dynamics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

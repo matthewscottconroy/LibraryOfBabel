@@ -18,6 +18,6 @@ where Q_{ij} is the quadrupole moment tensor of the system. This formula predict
 
 ## Chapters in This Unit
 
-- [Chapter 35: Linearized GR and Gravitational Wave Solutions](chapter-35-linearized-gr/README.md)
-- [Chapter 36: Generation of Gravitational Waves](chapter-36-generation/README.md)
-- [Chapter 37: Detection and Gravitational Wave Astronomy](chapter-37-detection/README.md)
+- [Chapter 44: Linearized General Relativity and Gravitational Waves](chapter-44-linearized-gr/README.md)
+- [Chapter 45: Sources of Gravitational Waves](chapter-45-gw-sources/README.md)
+- [Chapter 46: Gravitational Wave Detection](chapter-46-gw-detection/README.md)

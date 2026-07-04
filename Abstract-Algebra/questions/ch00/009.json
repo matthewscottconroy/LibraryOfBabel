@@ -1,0 +1,19 @@
+{
+  "question_id": "34020f4d-e5f5-49f4-8361-5b3411e35b28",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A proposition that is true under every possible assignment of truth values is called a ___.",
+  "choices": [
+    "tautology",
+    "logical truth"
+  ],
+  "answer": "tautology",
+  "explanation": "A tautology's truth table shows only T's; a contradiction shows only F's, and a contingent proposition shows both. Every valid rule of inference, such as modus ponens, corresponds to a tautology.",
+  "tags": [
+    "logic",
+    "tautology"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

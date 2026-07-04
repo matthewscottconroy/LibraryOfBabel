@@ -1,0 +1,13 @@
+{
+  "question_id": "ab419eee-374e-49e3-906f-96e961721f53",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Pancharatnam-Berry (geometric) phase metasurfaces impose phase by rotating identical anisotropic meta-atoms, and this geometric phase is essentially wavelength-independent (broadband).",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Rotating a half-wave-plate-like element by angle alpha imparts a geometric phase of plus or minus 2*alpha to the circular polarization components, set by the path on the Poincare sphere rather than any material resonance, so it is broadband. The trade-off is that it requires circularly polarized input and converts the polarization state.",
+  "tags": ["pancharatnam-berry", "geometric-phase", "metasurface"],
+  "difficulty": "beginner",
+  "generated": true
+}

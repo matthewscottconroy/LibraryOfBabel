@@ -1,0 +1,19 @@
+{
+  "question_id": "3b4411f8-d97a-4ed5-80a8-8e02a315e944",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The subspace E_λ = ker(λI − T), consisting of all eigenvectors for λ together with 0, is called the ___ of λ.",
+  "choices": [
+    "eigenspace",
+    "eigenspace of λ"
+  ],
+  "answer": "eigenspace",
+  "explanation": "E_λ is nontrivial exactly when λ is an eigenvalue, and its dimension is the geometric multiplicity. T is diagonalizable iff V is the direct sum of its eigenspaces.",
+  "tags": [
+    "eigenvalues",
+    "eigenspace"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

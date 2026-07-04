@@ -1,0 +1,22 @@
+{
+  "question_id": "5a49b11d-7d4d-4b9f-a7ef-a134db5da68b",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In an echo state network, which of the three weight matrices W_in, W_rec, W_out are actually trained?",
+  "choices": [
+    "All three matrices W_in, W_rec, and W_out are trained by backpropagation",
+    "W_in and W_rec are trained; W_out is fixed at random",
+    "W_rec and W_out are trained; W_in is fixed at random",
+    "Only the readout W_out is trained; W_in and W_rec stay at their random initialization"
+  ],
+  "answer": 3,
+  "explanation": "The defining simplification of the ESN is that only the linear readout W_out is trained (by ridge regression), while the input weights W_in and recurrent weights W_rec are drawn randomly and held fixed. The other options all wrongly train the input and/or recurrent weights.",
+  "tags": [
+    "esn",
+    "trained-weights",
+    "readout"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "3d9a7f2c-6b18-4e5d-9a02-7c4f1b8e6d39",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What are choanoflagellates, and why are they important for understanding the origin of nervous systems?",
+  "choices": ["A group of sponges that possess the first true neurons", "The closest living single-celled relatives of animals, whose genomes contain many signaling, adhesion, and even synaptic genes", "Early cnidarians that pioneered the nerve net", "The direct ancestors of ctenophores"],
+  "answer": 1,
+  "explanation": "Choanoflagellates are the closest known living relatives of animals; Nicole King's genomic work showed they already carry many genes for cell-cell signaling, adhesion, and even synaptic function, indicating the molecular toolkit was assembled before animals arose. They are not sponges, not cnidarians, and are relatives rather than the specific ancestor of ctenophores.",
+  "tags": ["choanoflagellate", "nicole-king", "molecular-precursors"],
+  "difficulty": "beginner",
+  "generated": true
+}

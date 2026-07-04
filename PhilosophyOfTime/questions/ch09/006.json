@@ -1,0 +1,18 @@
+{
+  "question_id": "1f85bbd4-2f60-4dd1-acbb-41b801ac0d9a",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Epicurus's claim that 'death is nothing to us' depends most directly on which assumption about welfare?",
+  "choices": [
+    "That death is bad because it deprives one of the goods one would otherwise have enjoyed.",
+    "That what is good or bad for a person is constituted entirely by their experiences (the experiential account of welfare).",
+    "That events occurring after a person's death can retroactively harm the ante-mortem person.",
+    "That pre-natal and post-mortem non-existence are structurally symmetric."
+  ],
+  "answer": 1,
+  "explanation": "Epicurus reasons that harm requires an experiencing subject, the dead experience nothing, and so death cannot harm the one who dies, which presupposes the experiential account of welfare. Option A is the deprivation account, the leading rival to Epicurus. Posthumous harm (option C) is the Pitcher and Feinberg view that rejects his premise, and the symmetry of the two non-existences (option D) is Lucretius's distinct argument, not the premise of Epicurus's own no-subject argument.",
+  "tags": ["epicurus", "death", "experiential-welfare", "no-subject"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "77e4bbe3-34c9-40c3-9122-1984d83d288f",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "For Lewis, 'actual' is an indexical term picking out the world of the speaker, whereas for Plantinga the actual world is metaphysically special because it is the unique maximal state of affairs that obtains.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. This is exactly the contrast the text draws: Lewisian actuality is indexical (every world's inhabitants truly call their own world 'actual'), while Plantingan actuality is absolute, since the actual world alone obtains and obtaining is not a mere indexical label. The two agree that possible-worlds talk is indispensable but disagree fundamentally on the status of actuality.",
+  "tags": ["modality", "actualism", "lewis", "plantinga"],
+  "difficulty": "intermediate",
+  "generated": true
+}

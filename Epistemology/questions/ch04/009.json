@@ -1,0 +1,13 @@
+{
+  "question_id": "625ac27c-a237-4c14-afc0-35b9751b2270",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "tf",
+  "text": "True or False: The closure-based skeptical argument and the underdetermination-based skeptical argument rest on one and the same principle, namely epistemic closure.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "They are distinct argumentative structures. The closure-based argument runs through the closure principle (if I know I have hands, I know I am not a BIV), whereas the underdetermination-based argument appeals to an underdetermination principle: because the skeptical scenario is evidentially indistinguishable from the ordinary one, my evidence fails to favor the ordinary hypothesis over its skeptical rival, so I do not know.",
+  "tags": ["closure", "underdetermination", "skeptical-argument", "evidence"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "43361791-2cfc-47d6-9f18-36e2f329169f",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The Levi-Civita connection is the unique torsion-free connection that is compatible with the ___, meaning ∇_ρ g_μν = 0.",
+  "choices": [
+    "metric",
+    "metric tensor",
+    "the metric"
+  ],
+  "answer": "metric",
+  "explanation": "Metric compatibility, ∇_ρ g_μν = 0, together with vanishing torsion, uniquely fixes the Levi-Civita connection and its Christoffel symbols. Compatibility means the metric is covariantly constant, so parallel transport preserves inner products (lengths and angles). This is the connection used throughout general relativity.",
+  "tags": [
+    "connection",
+    "levi-civita",
+    "metric-compatibility"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

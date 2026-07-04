@@ -1,0 +1,22 @@
+{
+  "question_id": "029b317a-e7f5-4934-8951-5bf9ad166c24",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the category of dynamical systems, a morphism phi: (X,f) -> (Y,g) is a map satisfying:",
+  "choices": [
+    "phi composed with f = g composed with phi (equivariance)",
+    "phi = identity",
+    "f = g",
+    "phi is a homeomorphism"
+  ],
+  "answer": 0,
+  "explanation": "Morphisms are equivariant (semiconjugating) maps phi f = g phi, the dynamical analogue of group homomorphisms. They need not be identities or homeomorphisms.",
+  "tags": [
+    "category-theory",
+    "equivariance",
+    "morphisms"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

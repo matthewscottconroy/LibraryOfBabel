@@ -1,0 +1,18 @@
+{
+  "question_id": "5aab082a-5184-4ed7-bde8-0359669f5163",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Taking the trace of the Einstein field equations shows that the effective gravitational source for a perfect fluid in GR is:",
+  "choices": [
+    "the pressure p alone",
+    "the energy density ε alone, exactly as in Newtonian gravity",
+    "the rest-mass density ρ_0 alone",
+    "ε + 3p, so that pressure contributes positively to gravity"
+  ],
+  "answer": 3,
+  "explanation": "The trace of G_μν = 8πG T_μν/c⁴ reveals that gravity for a perfect fluid is sourced by ε + 3p, not by ε (or ρ) alone — in GR, pressure gravitates. This is why the very pressure that supports a neutron star also adds to its gravitational pull, as captured by the Tolman-Oppenheimer-Volkoff equation. The purely Newtonian view that only the density sources the field is the misconception the book warns against.",
+  "tags": ["stress-energy", "perfect-fluid", "pressure"],
+  "difficulty": "advanced",
+  "generated": true
+}

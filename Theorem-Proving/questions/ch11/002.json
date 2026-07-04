@@ -1,0 +1,23 @@
+{
+  "question_id": "4a30cb75-0e2d-4df0-b4ee-40c6fd6adc5c",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The modal operators □ and ◇ are duals. Which equivalence expresses this duality?",
+  "choices": [
+    "◇φ ≡ ¬□¬φ",
+    "◇φ ≡ □¬φ",
+    "◇φ ≡ ¬□φ",
+    "◇φ ≡ □φ"
+  ],
+  "answer": 0,
+  "explanation": "Possibility is 'not necessarily not': ◇φ ≡ ¬□¬φ (equivalently □φ ≡ ¬◇¬φ). Choices 1 and 2 drop or misplace a negation, and choice 3 collapses the two operators, which are in general distinct.",
+  "tags": [
+    "modal-logic",
+    "duality",
+    "box",
+    "diamond"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

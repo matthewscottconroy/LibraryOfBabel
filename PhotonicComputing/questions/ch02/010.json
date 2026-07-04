@@ -1,0 +1,20 @@
+{
+  "question_id": "e37268d8-b487-4b95-85c3-62b3c32e3fa3",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "In spontaneous parametric down-conversion (SPDC), a χ⁽²⁾ process, one pump photon splits into two photons that conserve energy and momentum: the signal photon and the ___ photon.",
+  "choices": [
+    "idler"
+  ],
+  "answer": "idler",
+  "explanation": "SPDC converts a single pump photon into a correlated signal–idler pair, the primary source of entangled photons for quantum photonics. Because it is a second-order process, it occurs only in non-centrosymmetric χ⁽²⁾ materials and requires phase matching.",
+  "tags": [
+    "spdc",
+    "chi2",
+    "entangled-photons",
+    "quantum-photonics"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

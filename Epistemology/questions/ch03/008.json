@@ -1,0 +1,21 @@
+{
+  "question_id": "3ce6d600-b5cc-49a4-8d32-c4dd23cd7c62",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Klein's infinitism holds that the regress of reasons is not vicious because justification requires only that a further, non-repeating reason be available at each step, not that the believer actually complete an infinite chain.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is Klein's central move: he separates the process of reasoning from justification, holding that a belief is justified if the reasoner could supply the next reason when challenged. That 'availability' requirement is why he thinks finite minds are not barred from having infinitely extensible justification.",
+  "tags": [
+    "infinitism",
+    "klein",
+    "regress-problem",
+    "availability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "18c143d9-1eb4-4cc2-befa-2d2e3560c67f",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Because a conceptor satisfies C <= I in the PSD order, inserting it into the reservoir loop can only increase the effective spectral radius, making recall less stable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is backwards. Since C <= I, applying it REDUCES the effective spectral radius, which helps stability (though it does not guarantee it for complex targets). The conceptor damps, rather than amplifies, the dynamics.",
+  "tags": [
+    "conceptor",
+    "stability",
+    "spectral-radius"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

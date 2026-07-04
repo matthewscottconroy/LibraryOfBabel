@@ -1,0 +1,19 @@
+{
+  "question_id": "e7a0c3d8-9f4b-4c2e-9d8a-7b1f4c6e0d93",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Adjacent cells can be directly coupled into a tissue-wide bioelectric network by intercellular channels, formed from connexins in vertebrates, that allow ions and small molecules to pass between cytoplasms. These channels are called ___ junctions.",
+  "choices": [
+    "gap"
+  ],
+  "answer": "gap",
+  "explanation": "The answer is 'gap.' Gap junctions provide direct cytoplasmic continuity between cells, letting ions, second messengers, and small metabolites pass and electrically coupling cells into a network. Their regulated permeability lets tissues reconfigure the topology of bioelectric communication during development.",
+  "tags": [
+    "gap-junctions",
+    "bioelectricity",
+    "coupling"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

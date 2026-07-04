@@ -1,0 +1,13 @@
+{
+  "question_id": "0d7f8f08-b7fc-4ebb-a354-9cb13e27563b",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "According to the Reck/Clements decomposition, how many Mach-Zehnder interferometers are needed to implement an arbitrary N×N unitary matrix on optical fields?",
+  "choices": ["N² MZIs", "2N MZIs", "N log N MZIs", "N(N−1)/2 MZIs"],
+  "answer": 3,
+  "explanation": "The Reck/Clements theorem decomposes any N×N unitary into N(N−1)/2 MZIs, matching the number of independent 2×2 rotations. N² would count all matrix entries rather than the independent rotations, while 2N and N log N understate the required hardware.",
+  "tags": ["mach-zehnder", "unitary", "photonic-neural-networks", "reck-clements"],
+  "difficulty": "intermediate",
+  "generated": true
+}

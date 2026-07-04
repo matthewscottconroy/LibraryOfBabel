@@ -1,0 +1,23 @@
+{
+  "question_id": "9cf307e7-c18e-40d0-8159-4adbeb22fb76",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Fodor contrasts encapsulated input modules with the central systems responsible for belief fixation and reasoning. Which feature of central systems does he claim makes them resistant to scientific study?",
+  "choices": [
+    "They are domain-specific and process only one kind of input",
+    "They operate mandatorily and cannot be switched off",
+    "They deliver only shallow, stereotyped outputs",
+    "They are isotropic and holistic -- in principle any belief can be relevant to the evaluation of any other"
+  ],
+  "answer": 3,
+  "explanation": "Fodor calls central cognition isotropic (Quinean/holistic): unlike an encapsulated module, belief fixation can draw on anything you know, which makes it computationally unbounded and, he argues, scientifically intractable. Options 0, 1, and 2 (domain specificity, mandatory operation, shallow outputs) are all properties of modular INPUT systems -- exactly what central systems lack.",
+  "tags": [
+    "central-systems",
+    "isotropy",
+    "fodor",
+    "modularity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

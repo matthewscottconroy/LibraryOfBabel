@@ -1,0 +1,22 @@
+{
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which quantitative proteomics strategy mixes \"light\" and \"heavy\" isotope-labeled cell populations BEFORE sample processing, eliminating variability introduced during handling, at the cost of requiring live cells?",
+  "choices": [
+    "SILAC",
+    "TMT (Tandem Mass Tags)",
+    "iTRAQ",
+    "Label-free quantification (LFQ)"
+  ],
+  "answer": 0,
+  "explanation": "SILAC metabolically incorporates heavy isotope-labeled amino acids into live, growing cells, so light and heavy samples can be combined before any processing, removing handling-related variation, though it is limited to systems where cells can be metabolically labeled. TMT and iTRAQ instead chemically label peptides after digestion, well after any processing variability has already occurred, and LFQ involves no labeling at all and consequently has the highest run-to-run variation of the group.",
+  "tags": [
+    "quantitative-proteomics",
+    "silac",
+    "isotope-labeling"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "52e2b584-8ddd-4e83-9e20-e7b44a8763c3"
+}

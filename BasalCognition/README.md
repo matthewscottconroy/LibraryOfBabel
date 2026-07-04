@@ -60,4 +60,40 @@ The goal is not to convince you that basal cognition is real. The goal is to giv
 
 ## A Note on Citations
 
-Non-common-knowledge claims are cited throughout the text. A full bibliography appears at the end of each chapter, and a consolidated reference list appears in Appendix D. Where empirical claims are contested or based on preliminary findings, this is noted explicitly in the text.
+Non-common-knowledge claims are cited throughout the text. A full bibliography appears at the end of each chapter, and a consolidated reference list appears in [bibliography.md](bibliography.md). Where empirical claims are contested or based on preliminary findings, this is noted explicitly in the text.
+
+## Navigating the Book
+
+The manuscript is organized as front matter, thirteen unit directories
+(`unit-01-first-principles/` … `unit-13-frontiers/`), an epilogue, and a set of
+appendices.
+
+- **Start here:** [OUTLINE.md](OUTLINE.md) — the full structural map of units,
+  chapters, and sections.
+- **Front matter:** [preface.md](preface.md), [introduction.md](introduction.md).
+- **Appendices** ([appendices/](appendices/)):
+  - [A — Key Researchers](appendices/appendix-a-key-researchers.md)
+  - [B — Timeline](appendices/appendix-b-timeline.md)
+  - [C — Glossary](appendices/appendix-c-glossary.md)
+  - [D — Further Reading](appendices/appendix-d-further-reading.md)
+  - [E — Research Groups](appendices/appendix-e-research-groups.md)
+  - [F — Index](appendices/appendix-f-index.md)
+- **Back matter:** [epilogue.md](epilogue.md), [bibliography.md](bibliography.md).
+
+## Commands
+
+Run from the repository root.
+
+```bash
+# Build the book (also --html, --markdown, --check)
+python3 tools/build_book.py BasalCognition --pdf
+
+# Take the adaptive quiz
+cd quiz && cargo run -p quiz-cli -- --subject ../BasalCognition
+
+# Validate before opening a PR
+python3 tools/validate.py
+```
+
+See [PROCESS.md](../PROCESS.md) for the full pipeline and
+[CONTRIBUTING.md](../CONTRIBUTING.md) to contribute.

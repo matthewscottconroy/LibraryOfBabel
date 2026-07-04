@@ -1,0 +1,22 @@
+{
+  "question_id": "dc172555-d10f-4afe-88d9-41a2767d150f",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "On Harry Frankfurt's hierarchical (mesh) theory, an agent has freedom of the will when which condition holds?",
+  "choices": [
+    "Her action is undetermined by any prior state.",
+    "Her action-producing mechanism is moderately reasons-responsive.",
+    "She could have chosen otherwise given the actual past and laws.",
+    "The first-order desire that actually moves her is one she wants to be moved by, in accord with her second-order volition."
+  ],
+  "answer": 3,
+  "explanation": "Frankfurt locates freedom of will in a mesh between levels: having the effective first-order desire one wants to have, endorsed by a second-order volition; the unwilling addict lacks this mesh. Reasons-responsiveness is Fischer and Ravizza's criterion, and the 'could have chosen otherwise' and 'undetermined' options are exactly what Frankfurt's compatibilism denies are required.",
+  "tags": [
+    "frankfurt",
+    "mesh-theory",
+    "compatibilism"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

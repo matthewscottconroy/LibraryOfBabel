@@ -1,0 +1,18 @@
+{
+  "question_id": "6a1e29c1-2063-4e3e-bd3d-8251c0cb1193",
+  "chapter": 27,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why has no demonstrated all-optical switch become the long-sought 'photonic transistor'?",
+  "choices": [
+    "Optical switches are too fast to synchronize with surrounding electronics",
+    "Photons cannot be detected at telecom wavelengths",
+    "No demonstrated switch simultaneously meets Miller's criteria (cascadability, fan-out gain, input-output isolation, level restoration) at low energy",
+    "All-optical logic would violate the Landauer bound"
+  ],
+  "answer": 2,
+  "explanation": "No demonstrated all-optical switch simultaneously satisfies Miller's checklist (cascadability, fan-out gain, input-output isolation, logic-level restoration, low switching energy), because weak optical nonlinearities force either many photons (high energy) or a high-Q cavity (slow, narrowband, temperature-sensitive). The other options misdiagnose the obstacle, and optical logic does not violate the Landauer bound.",
+  "tags": ["photonic-transistor", "miller-criteria", "nonlinearity", "open-problems"],
+  "difficulty": "advanced",
+  "generated": true
+}

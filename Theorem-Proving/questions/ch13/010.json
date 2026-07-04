@@ -1,0 +1,20 @@
+{
+  "question_id": "444d900b-1d72-452d-9948-8dc84cc78e50",
+  "chapter": 13,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In the Vardi–Wolper automata-theoretic approach to LTL model checking, the negated formula is translated into a ___ automaton, an ω-automaton that accepts infinite words visiting an accepting state infinitely often.",
+  "choices": [
+    "Büchi"
+  ],
+  "answer": "Büchi",
+  "explanation": "A Büchi automaton is an ω-automaton on infinite words whose acceptance condition is 'some accepting state is visited infinitely often'. The product of the Kripke structure with the Büchi automaton for ¬φ is searched for an accepting (lasso) run, which would be a counterexample.",
+  "tags": [
+    "ltl",
+    "model-checking",
+    "buchi-automaton",
+    "vardi-wolper"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

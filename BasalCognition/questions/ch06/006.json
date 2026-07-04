@@ -1,0 +1,13 @@
+{
+  "question_id": "1c6a9e42-3f8d-4a1b-8e75-9d0c4b2f7a63",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "How does the response threshold model explain division of labor in ant colonies without any central controller?",
+  "choices": ["Workers differ in their thresholds for task-related stimuli, so more workers engage a task as its demand signal rises", "The queen assigns each worker a permanent task", "Rigid genetic castes fix each worker's single lifelong task", "Workers switch tasks at random to ensure every job gets covered"],
+  "answer": 0,
+  "explanation": "Each worker has a characteristic stimulus threshold; low-threshold workers perform a task at modest demand, and higher-threshold workers join only when the demand signal is strong, so allocation self-adjusts to conditions. The queen does not direct labor, allocation is dynamic rather than a rigid lifelong genetic caste assignment, and the process is demand-driven rather than random.",
+  "tags": ["response-threshold", "division-of-labor", "self-organization"],
+  "difficulty": "intermediate",
+  "generated": true
+}

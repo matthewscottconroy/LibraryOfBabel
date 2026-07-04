@@ -1,0 +1,22 @@
+{
+  "question_id": "446b7758-ed66-4816-bbb8-e10d09294b18",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What primarily distinguishes psychofunctionalism from analytic functionalism is that psychofunctionalism holds the defining functional roles are:",
+  "choices": [
+    "Knowable a priori by conceptual analysis alone",
+    "Given entirely by folk-psychological platitudes",
+    "Empirical - specified by scientific psychology, which may revise or replace folk categories",
+    "Fixed by the states of a Turing machine table"
+  ],
+  "answer": 2,
+  "explanation": "Psychofunctionalism (Fodor, Armstrong) holds the defining roles are empirical, fixed by scientific psychology, which may revise or replace folk categories - whereas analytic functionalism treats them as a priori folk-psychological platitudes. Options 0 and 1 describe analytic functionalism, and option 3 describes machine functionalism.",
+  "tags": [
+    "psychofunctionalism",
+    "analytic-functionalism",
+    "fodor"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

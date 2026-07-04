@@ -1,0 +1,21 @@
+{
+  "question_id": "4ac6ecab-c498-42f1-ad94-604c49c71d79",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A linear map T: ℝ⁵ → ℝ³ is surjective. What is dim ker T?",
+  "choices": [
+    "0",
+    "2",
+    "3",
+    "5"
+  ],
+  "answer": 1,
+  "explanation": "Rank–nullity: rank T + nullity T = dim ℝ⁵ = 5. Surjectivity gives rank T = 3, so nullity T = 5 − 3 = 2.",
+  "tags": [
+    "linear-maps",
+    "rank-nullity"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "3ed4ed32-63dd-40b2-9df6-add58001c4d5",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "tf",
+  "text": "J. L. Mackie's moral error theory counts as a version of moral realism, since it holds that our moral judgments are made true by objective moral facts.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Error theory is an anti-realist view: it agrees that moral statements are truth-apt (they purport to describe objective moral facts) but holds that they are systematically false because no such facts exist. Moral realism, by contrast, affirms that there are objective moral facts that make some moral claims true.",
+  "tags": [
+    "moral-realism",
+    "error-theory",
+    "anti-realism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

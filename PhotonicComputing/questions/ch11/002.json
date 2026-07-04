@@ -1,0 +1,18 @@
+{
+  "question_id": "be634552-6233-4129-8db1-11aa9f96d44f",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A single Mach-Zehnder interferometer acts on its two input optical amplitudes as which kind of operation?",
+  "choices": [
+    "A nonlinear activation function",
+    "An incoherent sum of optical powers",
+    "A programmable 2x2 unitary transformation set by two phase angles",
+    "An optical-to-electrical conversion"
+  ],
+  "answer": 2,
+  "explanation": "An MZI maps two input amplitudes to two output amplitudes via a 2x2 unitary parameterized by two phases, which is the building block of the mesh. It is linear (not an activation), works on coherent amplitudes (not an incoherent power sum), and is entirely optical (no O/E conversion).",
+  "tags": ["mzi", "unitary", "2x2-gate"],
+  "difficulty": "beginner",
+  "generated": true
+}

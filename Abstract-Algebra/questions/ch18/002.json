@@ -1,0 +1,18 @@
+{
+  "question_id": "16a4b14e-92a7-4515-8572-8d274aac9b92",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "mc",
+  "text": "For a representation $V$ of $G$, the character value at the identity, $\\chi_V(e)$, equals:",
+  "choices": [
+    "$\\dim V$, the degree of the representation",
+    "$1$, for every representation",
+    "$|G|$",
+    "$0$"
+  ],
+  "answer": 0,
+  "explanation": "Since $\\rho(e)$ is the identity operator, $\\chi_V(e)=\\mathrm{tr}(\\mathrm{id}_V)=\\dim V$. It equals $1$ only for $1$-dimensional representations; $|G|$ is the dimension of the regular representation, not a general character value; and $0$ contradicts $\\mathrm{tr}(\\mathrm{id})=\\dim V>0$.",
+  "tags": ["character-theory", "dimension", "identity"],
+  "difficulty": "beginner",
+  "generated": true
+}

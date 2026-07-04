@@ -1,0 +1,13 @@
+{
+  "question_id": "5455d9f4-969d-42e5-8ede-df76a7ccb180",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the classical Lorentz oscillator model of a dielectric's optical response, each atom is treated as:",
+  "choices": ["a free electron subject to no restoring force", "a bound electron behaving as a driven, damped harmonic oscillator", "a fixed permanent dipole that cannot move", "a two-level quantum system"],
+  "answer": 1,
+  "explanation": "The Lorentz model represents a bound electron as a driven, damped harmonic oscillator: m ẍ + mγẋ + mω₀²x = −eE. A free electron with no restoring force (ω₀ = 0) is the separate Drude model; a fixed dipole cannot respond; and the two-level system is the quantum (not classical) picture.",
+  "tags": ["lorentz-oscillator", "dispersion", "susceptibility"],
+  "difficulty": "beginner",
+  "generated": true
+}

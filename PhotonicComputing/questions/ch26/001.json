@@ -1,0 +1,18 @@
+{
+  "question_id": "92735414-35f1-44ea-97ca-54fd5ff66daa",
+  "chapter": 26,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the coherent Ising machine (CIM), each Ising spin is physically encoded in what?",
+  "choices": [
+    "The binary phase (0 or pi) of a degenerate optical parametric oscillator",
+    "The amplitude of a single photon",
+    "The polarization state of a laser pulse",
+    "The wavelength of a frequency-comb line"
+  ],
+  "answer": 0,
+  "explanation": "A CIM spin is the binary phase (0 or pi) of a degenerate optical parametric oscillator, which becomes phase-bistable above threshold, mapping the two phases to the spin values plus and minus one. The robustness comes precisely from using phase (protected by the parametric process's Z2 symmetry), not amplitude, polarization, or comb-line wavelength.",
+  "tags": ["ising-machine", "coherent-ising-machine", "opo"],
+  "difficulty": "beginner",
+  "generated": true
+}

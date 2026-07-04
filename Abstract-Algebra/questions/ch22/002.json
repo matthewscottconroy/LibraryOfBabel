@@ -1,0 +1,18 @@
+{
+  "question_id": "c29356c4-b858-4550-80a4-200723f9209a",
+  "chapter": 22,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A block $B_i$ of the group algebra $k[G]$ is said to have defect $0$ when its associated defect group $D_i$ is:",
+  "choices": [
+    "a full Sylow $p$-subgroup of $G$",
+    "the trivial group $\\{e\\}$",
+    "all of $G$",
+    "a Borel subgroup of $G$"
+  ],
+  "answer": 1,
+  "explanation": "A block of defect $0$ has $D_i=\\{e\\}$ and contains a unique simple module. A full Sylow $p$-subgroup is the FULL-defect (most complex) case. The defect group is always a $p$-subgroup, so it is not all of $G$ in general; 'Borel subgroup' is a Lie-group notion irrelevant to finite-group blocks.",
+  "tags": ["modular-representation-theory", "blocks", "defect-group"],
+  "difficulty": "beginner",
+  "generated": true
+}

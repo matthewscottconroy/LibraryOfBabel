@@ -1,0 +1,22 @@
+{
+  "question_id": "34bf0f8b-178f-4a57-8c6c-064ad1f7da44",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Green-Tao theorem states that the primes contain:",
+  "choices": [
+    "a bounded gap infinitely often",
+    "arbitrarily long arithmetic progressions",
+    "a geometric progression",
+    "no arithmetic progressions of length 4"
+  ],
+  "answer": 1,
+  "explanation": "Green and Tao proved the primes contain arithmetic progressions of every finite length, using Furstenberg-style ergodic machinery plus additive combinatorics.",
+  "tags": [
+    "green-tao",
+    "primes",
+    "arithmetic-progressions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

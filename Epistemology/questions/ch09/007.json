@@ -1,0 +1,23 @@
+{
+  "question_id": "3c573383-9965-4b20-95db-40ef8ccbc86a",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Ethical intuitionism (Ross, Audi) characterizes basic moral knowledge as:",
+  "choices": [
+    "self-evident and known non-inferentially - grasped by rational insight without being derived from other beliefs, on the model of a priori knowledge.",
+    "justified by its coherence with our other moral and non-moral beliefs, reached by mutually adjusting particular judgments and general principles.",
+    "not truth-apt at all, since moral utterances merely express attitudes or emotions rather than describe any facts.",
+    "a construction out of what fully rational agents would agree to, so that there are no mind-independent moral facts waiting to be grasped."
+  ],
+  "answer": 0,
+  "explanation": "Intuitionism holds that some moral propositions (for example, that cruelty is wrong) are self-evident and known directly, without inference, structurally like a priori insight. Coherentist reflective equilibrium (1) is the rival justificatory structure; expressivism (2) denies that moral claims are truth-apt; and constructivism (3) makes moral facts procedure-dependent rather than objects of non-inferential rational insight.",
+  "tags": [
+    "moral epistemology",
+    "intuitionism",
+    "self-evidence",
+    "non-inferential justification"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

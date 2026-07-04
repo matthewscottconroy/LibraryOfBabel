@@ -1,0 +1,22 @@
+{
+  "question_id": "c9ad6b6a-b802-4634-853f-e12a7d2364eb",
+  "chapter": 13,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Homotopy type theory (HoTT) is the internal language of:",
+  "choices": [
+    "Banach spaces",
+    "infinity-toposes",
+    "Hilbert spaces",
+    "measure spaces"
+  ],
+  "answer": 1,
+  "explanation": "HoTT is the type-theoretic internal language of infinity-toposes, incorporating homotopy at the foundational level. It is not tied to Banach/Hilbert/measure spaces.",
+  "tags": [
+    "hott",
+    "infinity-topos",
+    "foundations"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

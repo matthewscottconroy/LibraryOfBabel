@@ -1,0 +1,18 @@
+{
+  "question_id": "572293d3-8768-4226-90f3-935b1e1256f1",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Squeezed light is a non-classical resource because it:",
+  "choices": [
+    "Has zero photons and therefore no noise at all",
+    "Reduces the noise in one quadrature below the vacuum (shot-noise) level, at the cost of increased noise in the conjugate quadrature",
+    "Reduces the noise in BOTH quadratures simultaneously below the vacuum level",
+    "Amplifies both quadratures equally above the vacuum level"
+  ],
+  "answer": 1,
+  "explanation": "Squeezing redistributes vacuum noise: delta-X1 = e^(-r)/2 falls below the vacuum value 1/2 while delta-X2 = e^(+r)/2 rises, preserving the uncertainty product. Reducing both quadratures below vacuum (choice 2) would violate the uncertainty principle; choices 0 and 3 misdescribe squeezed vacuum, which contains photons and is not symmetric amplification.",
+  "tags": ["squeezing", "quadrature-noise", "shot-noise"],
+  "difficulty": "beginner",
+  "generated": true
+}

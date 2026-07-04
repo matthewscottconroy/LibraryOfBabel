@@ -1,0 +1,13 @@
+{
+  "question_id": "82b61614-a3c5-4ddf-b929-45178a534f46",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What happens to the carrier density N and the output power of a diode laser as the pump current increases above threshold?",
+  "choices": ["The carrier density clamps at its threshold value while output power rises linearly with (I − I_th)", "The carrier density keeps rising while the output power saturates", "The laser reverts to spontaneous-emission (LED) behavior", "The output power rises quadratically with current"],
+  "answer": 0,
+  "explanation": "Above threshold the gain is clamped to equal the loss, so N pins at N_th and extra injected carriers convert to stimulated photons: P_out = η_d(ℏω/e)(I − I_th), a linear law. The carrier density does not keep rising, the device does not revert to LED behavior, and the LI curve is linear rather than quadratic.",
+  "tags": ["gain-clamping", "slope-efficiency", "li-curve"],
+  "difficulty": "intermediate",
+  "generated": true
+}

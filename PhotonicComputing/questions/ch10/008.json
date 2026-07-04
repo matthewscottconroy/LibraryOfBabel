@@ -1,0 +1,13 @@
+{
+  "question_id": "af4f18e3-80f6-462f-b4ec-ccdff0582aee",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Incoherent optical processing systems can directly implement complex-valued matched filters with arbitrary phase, which is why MZI-mesh neural networks are built with incoherent light.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False on both counts: incoherent systems operate on intensities and are restricted to non-negative impulse responses, so they cannot realize complex/phase filters, and MZI-mesh neural networks in fact require coherent light. Complex matched filters (including phase) need coherent processing.",
+  "tags": ["fourier-optics", "coherent-vs-incoherent", "matched-filter"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "40d90a41-b710-46d7-a32e-8c05282bb2e8",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The lab summarizes chaotic-forecast quality with the ___, the number of steps before the normalized prediction error first exceeds a threshold (default 0.05).",
+  "choices": [
+    "Valid Prediction Time",
+    "valid prediction time",
+    "VPT"
+  ],
+  "answer": "Valid Prediction Time",
+  "explanation": "valid_prediction_time in metrics.py returns the first step at which the normalized squared error exceeds the threshold (default 0.05 = 5% of signal variance). The lab abbreviates it VPT.",
+  "tags": [
+    "mackey-glass",
+    "vpt",
+    "metric"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

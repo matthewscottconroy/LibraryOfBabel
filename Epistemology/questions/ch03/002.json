@@ -1,0 +1,23 @@
+{
+  "question_id": "dd5b58dc-94b9-4c75-9211-20242db2cfea",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "According to foundationalism, how is the regress of justification halted?",
+  "choices": [
+    "Some beliefs are basic, justified non-inferentially by something like experience rather than by further beliefs, and they terminate the regress.",
+    "Every belief is justified by its coherence with the rest of the believer's holistic web, and no belief is justified on its own.",
+    "For any challenge to a belief, a further non-repeating reason is always available to the reasoner, so the regress is benign.",
+    "No belief is ever genuinely justified, so the rational response to the regress is to suspend judgment."
+  ],
+  "answer": 0,
+  "explanation": "Foundationalism terminates the regress by positing basic, non-inferentially justified beliefs whose justification derives from experience rather than from other beliefs. Option (1) states coherentism, which denies basic beliefs and locates justification in holistic mutual support; (2) states Klein's infinitism; (3) states the Pyrrhonian skeptical response.",
+  "tags": [
+    "foundationalism",
+    "basic-beliefs",
+    "non-inferential-justification",
+    "regress-problem"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

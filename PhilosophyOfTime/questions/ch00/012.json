@@ -1,0 +1,20 @@
+{
+  "question_id": "b88ee845-65c7-425e-ae89-03c82b2001e8",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "In the grammar of time, tense locates an event relative to a reference point such as the moment of utterance, whereas ___ characterizes the internal temporal structure of an event — whether it is completed (perfective), ongoing (imperfective), or habitual.",
+  "choices": [
+    "aspect"
+  ],
+  "answer": "aspect",
+  "explanation": "The book distinguishes tense (where an event is located in time) from aspect (how the event is shaped in time — perfective/completed versus imperfective/ongoing, habitual, and so on). The intended word is 'aspect'; it is precisely the category the passage contrasts with tense, so answering 'tense' would collapse the very distinction being drawn.",
+  "tags": [
+    "grammatical-tense",
+    "aspect",
+    "time-in-language",
+    "morphology"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

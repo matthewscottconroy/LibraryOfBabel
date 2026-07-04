@@ -1,0 +1,21 @@
+{
+  "question_id": "7d64bbe7-054a-4f8c-9d1d-ce21b5379dc5",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The utilitarian tradition from Bentham to Singer holds that the morally relevant criterion for moral status is ___ -- the capacity for pleasure and pain -- not rationality or language.",
+  "choices": [
+    "sentience",
+    "the capacity to suffer"
+  ],
+  "answer": "sentience",
+  "explanation": "The answer is sentience. Bentham's dictum 'The question is not, Can they reason? ... but, Can they suffer?' makes the capacity for suffering, not rationality or speech, the basis of moral consideration, which Singer develops into his critique of speciesism.",
+  "tags": [
+    "sentience",
+    "singer",
+    "bentham",
+    "moral-status"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

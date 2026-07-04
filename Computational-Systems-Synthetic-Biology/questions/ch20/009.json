@@ -1,0 +1,18 @@
+{
+  "chapter": 20,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The most defined cell-free translation system, reconstituted entirely from individually purified components rather than crude cell lysate, is called the ___ system.",
+  "choices": [
+    "PURE"
+  ],
+  "answer": "PURE",
+  "explanation": "PURE is fully reconstituted from purified ribosomes, aminoacyl-tRNA synthetases, translation factors, tRNAs, and T7 RNA polymerase, making it completely defined with no unknown components, unlike crude E. coli extract-based systems.",
+  "tags": [
+    "cell-free-systems",
+    "pure-system"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "de437c77-7dca-41d3-ab12-65c768dc7027"
+}

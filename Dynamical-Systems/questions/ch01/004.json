@@ -1,0 +1,22 @@
+{
+  "question_id": "deeb289c-790d-4bc6-9fe6-8c0166ff91f7",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Radon-Nikodym derivative d(mu)/d(nu) exists (for sigma-finite measures) precisely when:",
+  "choices": [
+    "mu and nu are mutually singular",
+    "mu is absolutely continuous with respect to nu",
+    "mu equals nu",
+    "nu is a finite measure"
+  ],
+  "answer": 1,
+  "explanation": "Absolute continuity mu << nu (nu(A) = 0 implies mu(A) = 0) is exactly the hypothesis giving a density d(mu)/d(nu). Mutual singularity is the opposite situation, and equality/finiteness are neither necessary nor sufficient.",
+  "tags": [
+    "radon-nikodym",
+    "measure-theory",
+    "density"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "faf1c3b5-320c-48b2-b68a-d0a2cb3cef45",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Lucretius's argument that we should not fear posthumous non-existence, because it mirrors the pre-natal non-existence we do not lament, is known as the ___ argument.",
+  "choices": [
+    "symmetry"
+  ],
+  "answer": "symmetry",
+  "explanation": "The expected answer is 'symmetry.' Lucretius's symmetry argument in De Rerum Natura III holds that pre-natal and post-mortem non-existence are structurally symmetric periods of non-experience, so fearing only the latter is irrational. Nagel replies that the symmetry is illusory, since death deprives an existing person of goods they could still have had, whereas pre-natal non-existence deprives no one.",
+  "tags": [
+    "lucretius",
+    "symmetry-argument",
+    "death",
+    "prenatal-nonexistence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

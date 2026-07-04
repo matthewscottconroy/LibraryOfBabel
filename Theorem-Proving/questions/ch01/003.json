@@ -1,0 +1,23 @@
+{
+  "question_id": "97b6a5c4-d058-44b0-81b2-06f65d26c410",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The chapter notes that one two-input connective is *functionally complete* — every Boolean function can be built from it alone. Which one?",
+  "choices": [
+    "→ (material implication)",
+    "↔ (biconditional)",
+    "NAND, i.e. ¬(φ ∧ ψ) (the Sheffer stroke)",
+    "∧ (conjunction)"
+  ],
+  "answer": 2,
+  "explanation": "NAND (the Sheffer stroke) is functionally complete: every Boolean function is expressible using NAND alone, which is why NAND gates are the universal building block of digital circuits. None of →, ↔, or ∧ is complete by itself — each maps all-true inputs to true, so none can even express ¬.",
+  "tags": [
+    "functional-completeness",
+    "nand",
+    "sheffer-stroke",
+    "connectives"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

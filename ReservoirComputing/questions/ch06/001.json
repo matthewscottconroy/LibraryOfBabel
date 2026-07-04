@@ -1,0 +1,22 @@
+{
+  "question_id": "5178447b-e509-4826-95df-9093d3a8e2cc",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the NARMA-10 benchmark, what does the acronym 'NARMA' stand for?",
+  "choices": [
+    "Normalized Autoregressive Markov Approximation",
+    "Noisy Adaptive Recurrent Memory Array",
+    "Nonlinear AutoRegressive Moving Average",
+    "Neural Autoregressive Manifold Alignment"
+  ],
+  "answer": 2,
+  "explanation": "The lab's benchmarks.py and Appendix E.1 both define NARMA as the Nonlinear AutoRegressive Moving Average; the '10' is its order (dependence on the past 10 steps). The other expansions are plausible-sounding but do not appear in the sources.",
+  "tags": [
+    "narma10",
+    "definition",
+    "benchmarks"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

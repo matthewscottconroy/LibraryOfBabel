@@ -1,0 +1,13 @@
+{
+  "question_id": "41222c7f-8933-4345-b9a9-0cb82f64d280",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Optical STDP in a PCM synapse is a global, supervised learning rule that requires backpropagation through the entire network.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Optical STDP is local and unsupervised (Hebbian): pre/post pulse coincidence at the PCM synapse sets the weight via SET/RESET. It is surrogate-gradient (BPTT) training that is global, supervised, and backprop-based, and that method runs offline in software rather than on-chip.",
+  "tags": ["stdp", "learning-rules", "hebbian"],
+  "difficulty": "beginner",
+  "generated": true
+}

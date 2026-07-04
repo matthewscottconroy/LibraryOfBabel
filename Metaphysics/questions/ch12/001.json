@@ -1,0 +1,18 @@
+{
+  "question_id": "a3f5c1e0-7b42-4d19-9c6a-2e8f14b0d573",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which argument for God's existence reasons that everything that begins to exist has a cause, that the universe began to exist, and therefore that the universe has a cause?",
+  "choices": [
+    "The Leibnizian contingency argument, which infers a necessary being from the Principle of Sufficient Reason applied to the contingent universe.",
+    "The modal ontological argument, which infers God's existence a priori from the mere possibility of a maximally great being.",
+    "The kalam cosmological argument, which infers a first cause from the universe's having a beginning in time.",
+    "The fine-tuning argument, which infers a designer from the improbability of life-permitting physical constants."
+  ],
+  "answer": 2,
+  "explanation": "The kalam turns on the universe's temporal beginning: whatever begins to exist has a cause, the universe began to exist, so it has a cause. The tempting distractor is the Leibnizian contingency argument, but it does not require a beginning at all—it applies even to an eternal universe, inferring a necessary being from contingency and the PSR.",
+  "tags": ["cosmological-argument", "kalam", "arguments-for-god"],
+  "difficulty": "beginner",
+  "generated": true
+}

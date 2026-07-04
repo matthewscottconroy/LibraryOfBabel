@@ -1,0 +1,20 @@
+{
+  "question_id": "8542badd-2fcb-46d6-b0d1-549615a5d6ee",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Joseph Levine's ___ names the epistemic problem that even if pain is identical to C-fiber stimulation, we still cannot explain why that neural state feels the way it does, unlike 'water = H₂O,' which does render water's behavior intelligible.",
+  "choices": [
+    "explanatory gap"
+  ],
+  "answer": "explanatory gap",
+  "explanation": "The explanatory gap is epistemic rather than immediately metaphysical: it need not refute physicalism, but it shows our physical and phenomenal concepts are too different for the identity to be intelligible in the way chemical identities are. It should be distinguished from Chalmers's hard problem, which draws a stronger metaphysical conclusion from the same felt gap.",
+  "tags": [
+    "explanatory gap",
+    "levine",
+    "hard problem",
+    "consciousness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

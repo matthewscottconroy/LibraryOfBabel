@@ -1,0 +1,18 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The ratio kcat/Km, which reflects how efficiently an enzyme converts substrate to product, is known as the enzyme's ___ constant.",
+  "choices": [
+    "specificity"
+  ],
+  "answer": "specificity",
+  "explanation": "kcat/Km is called the specificity constant because it measures catalytic efficiency, especially at low, non-saturating substrate concentrations, and can be used to compare how well an enzyme discriminates between competing substrates. It combines both turnover (kcat) and apparent affinity (1/Km) into a single efficiency measure.",
+  "tags": [
+    "enzyme-kinetics",
+    "specificity-constant"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "86c49eea-3d77-4d0d-98df-c76b805911d0"
+}

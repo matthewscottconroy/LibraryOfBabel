@@ -1,0 +1,31 @@
+# 24.2.2 Photonic SPICE
+
+The transfer- and scattering-matrix machinery of the previous subsection composes a *chain* by hand. A real photonic processor is not a chain but an arbitrary graph — thousands of components wired in a topology with splits, joins, and feedback loops. Solving that graph is the job of a **photonic circuit simulator**, the direct analogue of SPICE in electronics, and it is the tool on which system-scale photonic computing design actually runs.
+
+## Nodal Analysis with Optical Amplitudes
+
+SPICE solves an electronic circuit by writing Kirchhoff's laws at every node and solving the resulting system for the node voltages. A photonic circuit simulator does the structurally identical thing, but the quantity flowing on each connection is a **complex optical wave amplitude** — carrying magnitude *and* phase, and in general resolved per wavelength, per waveguide mode, and per polarization. A **netlist** lists the components (each a compact scattering-parameter model from Section 24.2.1) and the connectivity between their ports. The simulator then enforces continuity at every internal connection and solves for the amplitudes everywhere. Two analysis modes matter.
+
+**Frequency-domain (scattering) analysis** is the optical AC sweep. At a fixed wavelength, the constraint that outgoing amplitudes equal the neighbors' incoming amplitudes, plus each component's $\mathbf{b}=S\mathbf{a}$ relation, assembles into one large *sparse* linear system $M(\omega)\,\mathbf{x}=\mathbf{s}$ whose unknowns $\mathbf{x}$ are the port amplitudes. Solving it yields the steady-state field everywhere, and sweeping the wavelength traces the full transmission spectrum. Because $M$ is sparse — each component couples only to its neighbors — the solve is cheap.
+
+**Time-domain analysis** is needed when signals are modulated, when there is dynamics or feedback, or when nonlinearity and laser behavior enter. Here each component is represented by its impulse response — a finite- or infinite-impulse-response digital filter approximating its frequency-dependent $S$ — and optical signals are marched through the network as sampled waveforms. This is what produces an eye diagram at a receiver or the transient of a switching mesh.
+
+## The Complex-Envelope Trick
+
+A naïve time-domain simulation would have to sample the $\sim$193 THz optical carrier, demanding femtosecond steps and defeating the whole purpose. It never does. Photonic simulators use the **complex baseband envelope**: the fast carrier $e^{-i\omega_0 t}$ is factored out and only the slowly varying modulation envelope is sampled, at a rate set by the *signal* bandwidth (tens of GHz), not the carrier. Optical phase is tracked *relative to the carrier*, which is exactly what interference between two arms of an interferometer depends on. A 10 GBaud data stream is thus simulated with sampling on the order of tens of GHz — a factor of $\sim10^4$ fewer samples than the carrier would force.
+
+## Worked Example: Why the Circuit Layer Exists
+
+Consider simulating the transmission of a 64×64 Mach-Zehnder mesh (Clements topology: 2016 MZIs, 4032 phase shifters, plus waveguide interconnects — on the order of $10^4$ ports). In the frequency domain this is a single sparse linear solve of dimension $P\sim10^4$ per wavelength; sparse factorization costs well under a second, so a 1000-point spectral sweep completes in seconds on a laptop. The *same* mesh by FDTD is not merely slow but infeasible: at hundreds of micrometers on a side it would demand $\gtrsim10^{10}$ Yee cells, beyond any single machine. The circuit abstraction does not make the rigorous simulation faster — it replaces an impossible computation with a trivial one, at the cost of one compact-model extraction per *distinct* component type (a handful of FDTD runs, reused thousands of times). This trade — pay once per component, compose for free — is the entire economic basis of photonic design automation.
+
+## The Tool Landscape
+
+**Ansys Lumerical INTERCONNECT** is the commercial standard: frequency- and time-domain analysis, tight coupling to Lumerical FDTD and MODE for automated compact-model extraction, and support for foundry **compact model libraries (CMLs)** — PDK-linked, measurement-validated models that carry the statistical parameters needed for the Monte Carlo analysis of the next subsection. **Luceda IPKISS** (with its Caphe circuit engine) integrates schematic capture, circuit simulation, and layout in one Python framework, so that the simulated circuit and the drawn mask stay in sync. In the open-source world, **SAX** (a JAX-based, differentiable S-matrix simulator in the gdsfactory ecosystem) and **simphony** provide frequency-domain circuit simulation for free.
+
+## Differentiable Circuit Simulation
+
+A development with particular weight for photonic computing is the **differentiable** circuit simulator. **Photontorch** (Laporte, Dambre & Bienstman, *Scientific Reports*, 2019) recasts a photonic circuit as a sparse recurrent network inside PyTorch, so that automatic differentiation propagates gradients backward through the entire optical system. SAX does the same through JAX. The consequence is direct: the parameters of a photonic circuit — phase-shifter settings, coupling ratios — can be *trained by gradient descent* against a target response, exactly as a neural network's weights are. This is how a Mach-Zehnder mesh is programmed to implement a desired unitary despite fabrication error, and how a photonic neural network is trained in simulation before being loaded onto hardware. The circuit simulator stops being only a verification tool and becomes an optimization engine — the bridge to the inverse-design methods of Section 24.3.
+
+## Where Circuit Simulation Stops
+
+A compact model is only as good as its extraction. Effects the model did not capture — an unanticipated back-reflection, a coupling between components that were assumed isolated, a thermal gradient that detunes a whole region — are invisible to the circuit simulator, because they live below its level of abstraction. This is why circuit simulation never fully replaces field simulation but sits above it, and why the full-stack flow of the next subsection deliberately re-injects the physics that compact models omit: electronics, heat, and statistical process variation.

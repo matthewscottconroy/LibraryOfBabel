@@ -1,0 +1,21 @@
+{
+  "question_id": "8f7d7c4c-8202-413c-a643-9225a3131726",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In Lorenz gauge each component of the 4-potential obeys □A^μ = μ₀J^μ, where the operator □ = ∇² − (1/c²)∂²/∂t² is called the ___.",
+  "choices": [
+    "d'Alembertian",
+    "d'Alembert operator",
+    "wave operator"
+  ],
+  "answer": "d'Alembertian",
+  "explanation": "The operator □ = ∇² − (1/c²)∂²/∂t² is the d'Alembertian, the spacetime wave operator. Writing □A^μ = μ₀J^μ shows each potential component satisfies a sourced wave equation — the covariant form used in radiation theory, and the same flat-space wave operator that reappears in linearized GR.",
+  "tags": [
+    "maxwell",
+    "lorenz-gauge",
+    "dalembertian"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

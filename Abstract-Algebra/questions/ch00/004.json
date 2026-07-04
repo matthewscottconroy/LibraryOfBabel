@@ -1,0 +1,22 @@
+{
+  "question_id": "483fff51-e520-4fcb-b44f-38263ffa7741",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is the correct negation of the convergence statement ∀ε>0 ∃N∈ℕ ∀n≥N, |aₙ − L| < ε?",
+  "choices": [
+    "∃ε>0 ∀N∈ℕ ∃n≥N, |aₙ − L| ≥ ε",
+    "∀ε>0 ∃N∈ℕ ∀n≥N, |aₙ − L| ≥ ε",
+    "∃ε>0 ∃N∈ℕ ∀n≥N, |aₙ − L| ≥ ε",
+    "∀ε>0 ∀N∈ℕ ∃n≥N, |aₙ − L| > ε"
+  ],
+  "answer": 0,
+  "explanation": "Negation flips each quantifier (∀↔∃) and negates the innermost predicate: some ε > 0 defeats every candidate N, meaning beyond any N some term still sits at distance ≥ ε from L. The domain restrictions ε > 0 and n ≥ N are not negated.",
+  "tags": [
+    "logic",
+    "quantifiers",
+    "negation"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

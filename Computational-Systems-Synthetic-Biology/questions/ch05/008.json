@@ -1,0 +1,19 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "A closed pan-genome means that sequencing additional strains continues to reveal large numbers of previously unseen genes, so the accessory genome keeps growing indefinitely.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. That description applies to an open pan-genome. A closed pan-genome is the opposite: as more strains are sequenced, few or no new genes are found, meaning the accessory gene pool has essentially been fully sampled.",
+  "tags": [
+    "comparative-genomics",
+    "pan-genome"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "88756334-ec1c-4a04-8b32-496b3e5ff8dd"
+}

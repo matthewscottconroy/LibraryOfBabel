@@ -1,0 +1,18 @@
+{
+  "question_id": "07d61cf4-1e37-4037-8f2c-f7b9ec58f990",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Recent work using the 'island formula' (Almheiri and collaborators, 2019-2020) is significant for the black hole information paradox because it:",
+  "choices": [
+    "supplies a full quantum-gravity derivation proving that Hawking's original calculation contained an arithmetic mistake",
+    "shows that information is genuinely lost, so black-hole evaporation is non-unitary after all",
+    "explains in detail the mechanism by which information physically escapes the horizon, closing the 'information-getting-out' problem",
+    "reproduces the Page curve — semiclassically, via entropy contributions from interior 'islands' — indicating information is preserved, though how it escapes remains unsolved"
+  ],
+  "answer": 3,
+  "explanation": "The island formula recovers the Page curve by counting interior 'island' contributions to the radiation's entropy, strong evidence that evaporation is unitary and information preserved. But the book stresses it is a semiclassical (not full quantum-gravity) result, and the 'information-getting-out' mechanism is still not understood — so the options claiming a full derivation, information loss, or a solved escape mechanism all misstate its status.",
+  "tags": ["black-hole-information-paradox", "island-formula", "page-curve", "unitarity"],
+  "difficulty": "advanced",
+  "generated": true
+}

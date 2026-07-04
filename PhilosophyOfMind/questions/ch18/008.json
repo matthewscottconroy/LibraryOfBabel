@@ -1,0 +1,20 @@
+{
+  "question_id": "be9e9737-c2cf-4e88-9319-e487907122b4",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "tf",
+  "text": "On Frankfurt's hierarchical theory, an unwilling addict who takes the drug while sincerely willing at the higher order not to want it thereby exercises full free will.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: the unwilling addict's effective first-order desire conflicts with the second-order volition he endorses, so his will is not one he can call his own, which is precisely a failure of free will on Frankfurt's account. Freedom requires that the will moving you be the one you endorse at the higher order.",
+  "tags": [
+    "frankfurt",
+    "free-will",
+    "higher-order-desire"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

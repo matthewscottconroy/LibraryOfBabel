@@ -1,0 +1,22 @@
+{
+  "question_id": "e0c29bec-b481-40a6-b750-b8cbfb499652",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The downward Löwenheim–Skolem theorem states that:",
+  "choices": [
+    "every finite theory has an infinite model",
+    "if a countable theory has a finite model, it has a countable model",
+    "if a countable theory has an infinite model, then it has a countable (infinite) model",
+    "every theory with an uncountable model has a largest model"
+  ],
+  "answer": 2,
+  "explanation": "Downward Löwenheim–Skolem: a countable theory with an infinite model has a countable model, built as a countable elementary substructure via Skolem functions. Option B misstates the hypothesis (it requires an infinite model); options A and D are unrelated fabrications. The upward direction, by contrast, yields models of every larger infinite cardinality.",
+  "tags": [
+    "lowenheim-skolem",
+    "cardinality",
+    "theorems"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

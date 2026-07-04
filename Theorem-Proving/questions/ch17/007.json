@@ -1,0 +1,20 @@
+{
+  "question_id": "de242f58-759d-47d1-8b35-a342aa2c3459",
+  "chapter": 17,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: Tarski's theorem shows how to define a truth predicate for a language WITHIN that same language.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Tarski proved the OPPOSITE — truth for a language is undefinable within that language (a semantically closed language is inconsistent); an adequate truth definition can be given only in a richer metalanguage one level up. So the statement is false.",
+  "tags": [
+    "tarski",
+    "undefinability",
+    "metalanguage"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

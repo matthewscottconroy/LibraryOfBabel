@@ -1,0 +1,22 @@
+{
+  "question_id": "8570414c-fa99-469f-a524-3cdc40a64d1b",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Endel Tulving's taxonomy classifies your knowledge that 'Paris is the capital of France' — held without any recollection of when or where you learned it — as which type of memory?",
+  "choices": [
+    "Episodic memory",
+    "Procedural memory",
+    "Autonoetic memory",
+    "Semantic memory"
+  ],
+  "answer": 3,
+  "explanation": "Semantic memory is decontextualized, atemporal factual knowledge held without any recollection of the learning episode. Episodic memory is memory for personally experienced events indexed to a time and place; procedural memory is skill/know-how; and 'autonoetic' names the self-in-time awareness that marks episodic memory, not a memory type in Tulving's threefold scheme.",
+  "tags": [
+    "episodic-memory",
+    "semantic-memory",
+    "tulving"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

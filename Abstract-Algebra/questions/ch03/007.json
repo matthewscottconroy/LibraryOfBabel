@@ -1,0 +1,19 @@
+{
+  "question_id": "35d9632a-9209-4cad-b6b8-2030d6b44ca8",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Every linear map T satisfies T(0) = 0.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "T(0) = T(0 + 0) = T(0) + T(0), and cancelling gives T(0) = 0. This gives a quick test: any map with T(0) ≠ 0, such as a translation, cannot be linear.",
+  "tags": [
+    "linear-maps",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

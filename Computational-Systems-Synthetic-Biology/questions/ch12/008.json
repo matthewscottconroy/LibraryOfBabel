@@ -1,0 +1,20 @@
+{
+  "chapter": 12,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Positive autoregulation (PAR) generally produces a faster response time to steady state than an unregulated gene.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: PAR is slower than an unregulated gene, producing a 'memory effect,' while it is negative autoregulation (NAR) that speeds up the response to steady state (by roughly a factor of two for a Hill coefficient of 1). PAR's hallmark dynamical features are a slower response, increased cell-to-cell variability, and the potential for bistable, switch-like behavior with sufficient cooperativity.",
+  "tags": [
+    "positive-autoregulation",
+    "negative-autoregulation",
+    "response-time"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "3bf2d042-0b7a-430c-ac72-1af468e42e1c"
+}

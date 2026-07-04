@@ -1,0 +1,22 @@
+{
+  "question_id": "6e7ae8df-952b-4fb3-869d-09e34c1bac32",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The heat, wave, and Laplace equations are the canonical examples respectively of:",
+  "choices": [
+    "hyperbolic, elliptic, and parabolic PDEs",
+    "elliptic, parabolic, and hyperbolic PDEs",
+    "parabolic, hyperbolic, and elliptic PDEs",
+    "parabolic, elliptic, and hyperbolic PDEs"
+  ],
+  "answer": 2,
+  "explanation": "The heat equation u_t = k*u_xx is parabolic, the wave equation u_tt = c^2*u_xx is hyperbolic, and Laplace's equation is elliptic. The type is set by the discriminant of the second-order part and determines the appropriate boundary and initial data.",
+  "tags": [
+    "classification",
+    "canonical-forms",
+    "pde-types"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "ad3b2174-9558-4241-9b05-b6658c8a897e",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Plato's proposed answer to Meno's paradox is the theory of ___, on which learning is the soul's recovery of knowledge it possessed before birth.",
+  "choices": [
+    "recollection"
+  ],
+  "answer": "recollection",
+  "explanation": "Plato answers the paradox with the theory of recollection (anamnesis): the soul had prior acquaintance with the Forms, and learning is recovering that suppressed knowledge, dramatized by Socrates eliciting a geometry proof from the unlettered slave boy. The canonical English term is 'recollection.'",
+  "tags": [
+    "plato",
+    "meno",
+    "recollection",
+    "anamnesis",
+    "innatism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

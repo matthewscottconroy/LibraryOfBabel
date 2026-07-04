@@ -1,0 +1,22 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Watson-Crick base pairing within B-form DNA, how many hydrogen bonds form between guanine and cytosine compared to adenine and thymine?",
+  "choices": [
+    "G-C forms 2 hydrogen bonds; A-T forms 3",
+    "Both base pairs form exactly 3 hydrogen bonds",
+    "G-C forms 4 hydrogen bonds; A-T forms 2",
+    "G-C forms 3 hydrogen bonds; A-T forms 2"
+  ],
+  "answer": 3,
+  "explanation": "Guanine and cytosine pair through 3 hydrogen bonds, while adenine and thymine pair through 2, which is why GC-rich DNA regions have higher melting temperatures. Swapping the counts, claiming both pairs have 3 bonds, or inflating the G-C count to 4 all misstate the well-established base-pairing chemistry.",
+  "tags": [
+    "dna-structure",
+    "base-pairing",
+    "watson-crick"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "8a081086-ac04-4f2c-b460-1614f866085a"
+}

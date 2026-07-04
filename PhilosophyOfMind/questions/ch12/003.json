@@ -1,0 +1,22 @@
+{
+  "question_id": "4f9e1cdd-2fdf-4afc-ad11-f13b57e06e52",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Frederic Bartlett's experiments with the folk tale 'The War of the Ghosts' (1932) chiefly supported which model of memory?",
+  "choices": [
+    "The constructive (reconstructive) model, on which memories are rebuilt from fragments plus schemas",
+    "The storehouse (archival) model, on which memories are stored and retrieved intact",
+    "The causal theory, on which memory requires an appropriate causal chain to the event",
+    "The thesis that semantic memory develops before episodic memory"
+  ],
+  "answer": 0,
+  "explanation": "Bartlett's subjects systematically distorted the unfamiliar tale toward their own cultural schemas ('effort after meaning'), supporting the constructive/reconstructive model over the storehouse model. The causal theory concerns what makes a state a memory at all rather than how it is retrieved, and Bartlett offered no developmental claim about semantic preceding episodic memory.",
+  "tags": [
+    "bartlett",
+    "reconstructive-memory",
+    "schema"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

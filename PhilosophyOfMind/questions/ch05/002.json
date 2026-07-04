@@ -1,0 +1,22 @@
+{
+  "question_id": "38ad55f5-d8ab-47a7-9125-03ac0fcdfe7a",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The argument from multiple realizability, central to Putnam's case for functionalism, concludes that:",
+  "choices": [
+    "Mental states are simply behavioural dispositions",
+    "Only carbon-based brains can have genuine minds",
+    "Mental states do not really exist",
+    "A mental type such as pain cannot be identical to any single physical/neural type, since it can be realized in humans, octopuses, or silicon"
+  ],
+  "answer": 3,
+  "explanation": "Putnam's multiple-realizability argument observes that pain can be realized in human neurons, octopus neurons, or silicon, so it cannot be identical to any one physical type - which refutes type identity and motivates functionalism. Option 0 is behaviourism, option 1 is Searle-style biological chauvinism, and option 2 is eliminativism; none states the argument's actual conclusion.",
+  "tags": [
+    "multiple-realizability",
+    "putnam",
+    "identity-theory"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

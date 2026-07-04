@@ -1,0 +1,18 @@
+{
+  "question_id": "fac0aebf-ed61-45c8-8707-ebec57ac8ac7",
+  "chapter": 17,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The decomposition of the regular representation over $\\mathbb{C}$ yields which dimension formula, where $n_i=\\dim V_i$ ranges over the irreducibles?",
+  "choices": [
+    "$|G|=\\sum_i n_i$",
+    "$|G|=\\sum_i n_i^2$",
+    "$|G|=\\prod_i n_i$",
+    "$|G|=r$, the number of irreducibles"
+  ],
+  "answer": 1,
+  "explanation": "Each irreducible $V_i$ appears in $\\mathbb{C}[G]$ with multiplicity $n_i=\\dim V_i$, so $|G|=\\dim\\mathbb{C}[G]=\\sum_i n_i\\cdot n_i=\\sum_i n_i^2$. The unsquared sum and the product are simply the wrong combination, and $r$ counts conjugacy classes, not $|G|$.",
+  "tags": ["representations", "regular-representation", "dimension-formula"],
+  "difficulty": "beginner",
+  "generated": true
+}

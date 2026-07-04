@@ -1,0 +1,13 @@
+# validate-exceptions.toml
+#
+# Allowlist of validation failures that are CURRENTLY EXPECTED (e.g. because a
+# book's content is still being authored).  tools/validate.py downgrades any
+# matching failure from "unexpected" (fails CI) to "expected" (reported, but
+# does not affect the exit code).
+#
+# Each exception matches on: book (or "*"), check (one of subject_toml,
+# questions, build_check, links, zero_byte, or "*"), and a glob `pattern` tested
+# against the failure detail (usually a file path).  Every entry MUST carry a
+# `reason`.  Remove entries as the underlying work lands.
+#
+# (Currently empty: all 14 books pass with no allowlisted exceptions.)

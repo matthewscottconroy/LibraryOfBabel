@@ -1,0 +1,20 @@
+{
+  "question_id": "c2ccd868-72a6-4b52-a714-80c4eb61cd18",
+  "chapter": 12,
+  "phase": 6,
+  "kind": "tf",
+  "text": "A classically integrable system exhibits GUE (random-matrix) energy-level statistics in the semiclassical limit.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Integrable systems show Poisson level statistics (Berry-Tabor); GUE statistics are the signature of classically chaotic systems.",
+  "tags": [
+    "quantum-chaos",
+    "level-statistics",
+    "integrable"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

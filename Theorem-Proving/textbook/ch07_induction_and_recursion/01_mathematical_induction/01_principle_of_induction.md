@@ -109,4 +109,4 @@ This is the **recursion theorem** for $\mathbb{N}$: such definitions always prod
 In functional programming, this is *primitive recursion* — the computational analog of mathematical induction.
 
 ## Exercises
-See [problems/ch07_induction/01_weak_induction_exercises.md](../../../problems/ch07_induction/01_weak_induction_exercises.md)
+See [problems/ch07_induction_and_recursion/01_weak_induction_exercises.md](../../../problems/ch07_induction_and_recursion/01_weak_induction_exercises.md)

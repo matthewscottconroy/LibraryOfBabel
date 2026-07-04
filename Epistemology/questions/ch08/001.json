@@ -1,0 +1,18 @@
+{
+  "question_id": "8535cdfb-cd28-41f7-a8cf-84d66f4c847c",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the epistemology of testimony, the reductionist position associated with Hume treats testimonial justification as derivative. Which statement best expresses reductionism about testimony?",
+  "choices": [
+    "Testimony is a basic epistemic source with its own positive justificatory force, and the rational default is to trust a speaker unless one possesses specific defeaters.",
+    "A hearer's testimonial justification reduces to perception- and memory-based justification: one is justified only insofar as one has non-testimonial evidence for the testifier's reliability.",
+    "Testimony preserves and transmits content from speaker to hearer, so the hearer is entitled to accept what is said as a constitutive norm of rational communication.",
+    "Because no individual could assemble the vast body of evidence needed to ground all their testimonial beliefs, trust in testimony must be treated as epistemically basic."
+  ],
+  "answer": 1,
+  "explanation": "Reductionism (Hume; Elizabeth Fricker's local reductionism) holds that testimonial justification is parasitic on perception and memory, requiring independent evidence of the speaker's reliability. Option 0 states anti-reductionism (Reid, Coady); option 3 is Coady's empirical argument for treating testimony as basic; option 2 is Burge's transmission and content-preservation view. Only option 1 states the reductionist thesis itself.",
+  "tags": ["testimony", "reductionism", "anti-reductionism", "hume"],
+  "difficulty": "intermediate",
+  "generated": true
+}

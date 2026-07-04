@@ -1,0 +1,20 @@
+{
+  "question_id": "218ba2ac-c70f-4c51-a30b-c2c79c427f50",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In this ESN implementation, only the readout weights W_out are trained (via ridge regression); the reservoir weights W_rec and W_in stay fixed as random matrices.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: esn.py builds W_rec and W_in randomly (rescaled to ρ and σ_in) and never updates them; only fit() solves for W_out via ridge regression. Training just the readout is the defining feature of reservoir computing.",
+  "tags": [
+    "hyperparameters",
+    "training",
+    "readout"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

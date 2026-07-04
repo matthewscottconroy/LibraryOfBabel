@@ -1,0 +1,19 @@
+{
+  "question_id": "ff804324-9b00-4763-9529-f3cd65f05d67",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "If a composition g ∘ f is injective, then f must be injective.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "If f(a) = f(b), then g(f(a)) = g(f(b)), so injectivity of g ∘ f forces a = b. Note that g itself need not be injective — only its behaviour on the image of f matters.",
+  "tags": [
+    "functions",
+    "composition"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

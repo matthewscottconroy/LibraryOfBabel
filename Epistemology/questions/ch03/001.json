@@ -1,0 +1,23 @@
+{
+  "question_id": "5df4619c-eff8-4d3d-a6c5-0cbc888d4fa0",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The regress argument about the structure of justification issues in a trilemma known as Agrippa's (or the Munchhausen) trilemma. What are its three horns?",
+  "choices": [
+    "Deduction, induction, and abduction, the three species of inferential support.",
+    "Internalism, externalism, and a hybrid combining the two.",
+    "Foundationalism, coherentism, and infinitism, the three structural theories of justification.",
+    "An infinite regress of reasons, a circle of reasons, or termination in an unjustified (merely assumed) belief."
+  ],
+  "answer": 3,
+  "explanation": "The trilemma says any chain of reasons must either run on infinitely, loop back on itself circularly, or halt at a belief that is simply assumed, each horn appearing unacceptable. Option (2) is the key distractor: foundationalism, coherentism, and infinitism are the structural responses to the trilemma, not its horns.",
+  "tags": [
+    "regress-problem",
+    "agrippas-trilemma",
+    "munchhausen-trilemma",
+    "structure-of-justification"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

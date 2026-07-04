@@ -1,0 +1,20 @@
+{
+  "question_id": "a7b1f129-a922-4381-874d-4eac2a6f1d62",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Analytical (logical) behaviourism is the view that mental states are inner brain states that cause behaviour.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Logical behaviourism analyses mental states as dispositions to behave, not as inner causes of behaviour. Identifying mental states with inner brain states is the type-identity theory (Place, Smart), which arose precisely because behaviourism could not capture the intrinsic felt character of experience.",
+  "tags": [
+    "behaviorism",
+    "identity-theory",
+    "physicalism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

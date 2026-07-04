@@ -1,0 +1,23 @@
+{
+  "question_id": "4ae31837-7200-4495-91f3-d077581d84ec",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The 'no-miracles' argument is the principal positive argument for scientific realism. What does it claim?",
+  "choices": [
+    "The predictive and technological success of mature science would be an inexplicable miracle unless its theories were at least approximately true, so approximate truth is the best explanation of that success.",
+    "Science need only aim at empirical adequacy - getting the observable phenomena right - so belief in unobservable entities is unnecessary and goes beyond the evidence.",
+    "Because many past successful theories were later abandoned as false, we should expect that today's successful theories will likewise turn out to be false.",
+    "Any finite body of evidence is compatible with multiple incompatible theories, so evidence alone cannot single out one theory as the true one."
+  ],
+  "answer": 0,
+  "explanation": "The no-miracles argument (Putnam) is an inference to the best explanation: only the approximate truth of theories explains why they yield novel, precise predictions and working technology. Option 1 is van Fraassen's constructive empiricism, the anti-realist rival that explains success without truth; option 2 is Laudan's pessimistic meta-induction and option 3 is underdetermination, both of which are objections to realism rather than the no-miracles argument itself.",
+  "tags": [
+    "philosophy of science",
+    "scientific realism",
+    "no-miracles argument",
+    "inference to the best explanation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

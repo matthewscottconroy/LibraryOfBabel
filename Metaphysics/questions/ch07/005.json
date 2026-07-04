@@ -1,0 +1,22 @@
+{
+  "question_id": "d28df075-f4ba-4488-afce-90b5158f73b5",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Fischer and Ravizza argue that moral responsibility requires guidance control rather than regulative control. Guidance control is:",
+  "choices": [
+    "acting from one's own, moderately reasons-responsive mechanism, whether or not alternatives are open.",
+    "the ability to do otherwise, to take a genuinely different path, preserved even under determinism.",
+    "an agent-causal power to originate action independently of prior events.",
+    "the mesh between one's first-order desires and second-order volitions."
+  ],
+  "answer": 0,
+  "explanation": "Fischer and Ravizza concede that determinism removes regulative control (the ability to do otherwise) but argue responsibility needs only guidance control: ownership of a moderately reasons-responsive mechanism. Regulative control is precisely what they deny is necessary; the mesh is Frankfurt's account and agent-causation is libertarian.",
+  "tags": [
+    "reasons-responsiveness",
+    "fischer-ravizza",
+    "compatibilism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "c122ebe6-2cdb-42bb-b71a-7831209d87c3",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The identity ‖u + v‖² + ‖u − v‖² = 2‖u‖² + 2‖v‖² is the ___ law, and a norm arises from an inner product exactly when it holds.",
+  "choices": [
+    "parallelogram",
+    "parallelogram law"
+  ],
+  "answer": "parallelogram",
+  "explanation": "Expanding both sides via bilinearity proves the identity in any inner product space; conversely (Jordan–von Neumann) a norm satisfying it comes from an inner product recovered by the polarization identity. The sup-norm on ℝ² fails it, so it is not an inner product norm.",
+  "tags": [
+    "inner-products",
+    "norm",
+    "parallelogram"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

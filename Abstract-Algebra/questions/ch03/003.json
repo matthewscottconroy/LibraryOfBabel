@@ -1,0 +1,22 @@
+{
+  "question_id": "78803ee5-a0be-4a15-b065-be38f6681104",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Let V be finite-dimensional and T: V → V linear. Which statement is FALSE in general?",
+  "choices": [
+    "T injective implies T surjective",
+    "T surjective implies T injective",
+    "rank T + nullity T = dim V",
+    "ker T ∩ im T = {0}"
+  ],
+  "answer": 3,
+  "explanation": "For the nilpotent map T(x,y) = (y,0), the kernel and the image both equal the x-axis, so their intersection is a whole line. The first two follow from rank–nullity when domain and codomain have equal dimension, and the third is rank–nullity itself.",
+  "tags": [
+    "linear-maps",
+    "rank-nullity",
+    "kernel"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

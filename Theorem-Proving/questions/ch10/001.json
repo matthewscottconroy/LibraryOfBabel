@@ -1,0 +1,22 @@
+{
+  "question_id": "ae548ec2-e5e6-4075-a709-a402f74ccdd5",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Under the Curry–Howard correspondence, a proof of a proposition P corresponds to:",
+  "choices": [
+    "a term (program) of type P",
+    "a truth-table row that makes P true",
+    "a natural number encoding P",
+    "a model in which P holds"
+  ],
+  "answer": 0,
+  "explanation": "Curry–Howard identifies propositions with types and proofs with terms/programs: a proof of P is a term t : P, and type-checking is proof verification. Option B is a semantic (truth-table) notion, option D is model-theoretic, and option C is Gödel numbering — none is the proofs-as-programs identification.",
+  "tags": [
+    "curry-howard",
+    "propositions-as-types",
+    "proofs-as-programs"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

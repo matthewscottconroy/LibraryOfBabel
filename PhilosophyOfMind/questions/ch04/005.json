@@ -1,0 +1,21 @@
+{
+  "question_id": "e21766d7-46d8-455f-9afe-8192cbd0f793",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Fodor's 'concept nativism', his response to a regress about learning primitive concepts, commits him to the striking claim that:",
+  "choices": [
+    "All concepts are learned by hypothesis-testing from sensory experience",
+    "Most concepts, even AIRPLANE, are innate and merely 'triggered' by experience rather than learned from it",
+    "Concepts are distributed activation patterns with no discrete identity",
+    "Concepts are constituted by their inferential role in a web of belief"
+  ],
+  "answer": 1,
+  "explanation": "To block a regress in concept learning, Fodor 'bites the bullet': primitive concepts are innate and merely triggered by experience (the concept AIRPLANE was available before airplanes existed), not learned from it. Option 0 is the empiricist learning view Fodor rejects, option 2 is connectionism, and option 3 is inferential/conceptual-role semantics - all rivals to his nativism.",
+  "tags": [
+    "concept-nativism",
+    "fodor"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

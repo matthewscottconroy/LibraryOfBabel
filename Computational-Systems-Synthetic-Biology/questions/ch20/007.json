@@ -1,0 +1,19 @@
+{
+  "chapter": 20,
+  "phase": 3,
+  "kind": "tf",
+  "text": "In the PURE system, non-natural amino acids can be incorporated by introducing an orthogonal aminoacyl-tRNA synthetase/tRNA pair that suppresses the amber (UAG) stop codon.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true and matches the chapter's description of non-natural amino acid incorporation: an orthogonal aaRS/tRNA pair reads through the UAG amber codon, allowing incorporation of amino acids bearing azide groups, fluorescent labels, or crosslinkers for genetic code expansion.",
+  "tags": [
+    "cell-free-systems",
+    "non-natural-amino-acids"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "907afbbe-4b94-4ae0-a907-6a5c3fcc64cb"
+}

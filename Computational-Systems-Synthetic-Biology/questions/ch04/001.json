@@ -1,0 +1,22 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Needleman-Wunsch algorithm is designed to solve which alignment problem?",
+  "choices": [
+    "Global end-to-end alignment of two full sequences",
+    "Local alignment restricted to the best-scoring subregion",
+    "Multiple sequence alignment across a gene family",
+    "Heuristic seed-and-extend database search"
+  ],
+  "answer": 0,
+  "explanation": "Needleman-Wunsch is the classic dynamic-programming algorithm for global alignment, aligning two sequences end-to-end with gap penalties at both edges. Local alignment restricted to a subregion is Smith-Waterman, multiple sequence alignment is a distinct problem solved by tools like MUSCLE/MAFFT, and seed-and-extend heuristics describe BLAST rather than an exact DP method.",
+  "tags": [
+    "sequence-alignment",
+    "needleman-wunsch",
+    "global-alignment"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "0912407a-7a91-4aae-aec5-8beb735bf2d1"
+}

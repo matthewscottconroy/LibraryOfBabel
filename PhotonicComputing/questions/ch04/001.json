@@ -1,0 +1,13 @@
+{
+  "question_id": "554ad2d1-be6c-4e64-9b9e-3a6698a8cfeb",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The responsivity R of a photodiode (photocurrent produced per unit optical power) is given by:",
+  "choices": ["R = ηe/(ℏω) = ηeλ/(hc)", "R = ℏω/(ηe)", "R = η hc/(eλ)", "R = ηe/(k_B T)"],
+  "answer": 0,
+  "explanation": "Each absorbed photon of energy ℏω yields at most one electron of charge e, scaled by quantum efficiency η, giving R = ηe/(ℏω) = ηeλ/(hc). Choices 1 and 2 are inverted (units of W/A), and k_B T (thermal energy) plays no role in the photon-to-electron conversion.",
+  "tags": ["responsivity", "quantum-efficiency", "photodiode"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "885964c8-d962-4039-9c68-82007f126fec",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "tf",
+  "text": "According to the chapter, the block universe (eternalism) establishes that future events exist, but it does not by itself establish that those events were causally determined by prior events.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "This is true. The chapter distinguishes the ontological claim that future events exist (which eternalism supports) from the causal claim that they were necessitated by earlier events (which it does not), noting with Mellor that the block universe 'says nothing about causation.' Inferring fatalism from the mere existence of future events is the spurious reasoning the chapter warns against, since eternalism is compatible with genuine indeterminism.",
+  "tags": ["block-universe", "eternalism", "fatalism", "causation"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "c459d111-46c3-41b8-b34f-11dd81dfe601",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Hume reports that whenever he enters most intimately into what he calls himself he stumbles on some particular perception and never catches himself without one, and he concludes that the self is a bundle of perceptions rather than a persisting mental substance.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "This is true and closely follows Hume's Treatise I.iv.6: he 'never can catch myself at any time without a perception' and concludes the mind is 'nothing but a bundle or collection of different perceptions.' Because introspection yields no impression of a persisting self, Hume denies a unified mental substance and offers the bundle theory.",
+  "tags": ["hume", "bundle-theory", "impression", "self"],
+  "difficulty": "beginner",
+  "generated": true
+}

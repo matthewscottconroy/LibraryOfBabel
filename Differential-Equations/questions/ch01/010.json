@@ -1,0 +1,22 @@
+{
+  "question_id": "4b7e40de-6e81-48dc-b19c-8b0d1be0956b",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a curve parametrized by arc length, the curvature kappa is defined as:",
+  "choices": [
+    "the arc length between two nearby points",
+    "the torsion of the curve",
+    "the magnitude |T'(s)| of the derivative of the unit tangent vector",
+    "the dot product T . N of the tangent and normal vectors"
+  ],
+  "answer": 2,
+  "explanation": "With arc-length parametrization, kappa = |dT/ds| measures how fast the unit tangent turns. Torsion measures out-of-plane twisting, a distinct quantity, and T . N = 0 always because the Frenet frame is orthonormal.",
+  "tags": [
+    "curvature",
+    "frenet-serret",
+    "curves"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

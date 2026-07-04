@@ -1,0 +1,20 @@
+{
+  "question_id": "494612aa-5504-4412-937b-2fb7e7ab9e9a",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A finite impulse response (FIR) filter remembers exactly K past inputs and is always stable, whereas an IIR filter's impulse response decays exponentially but never reaches exactly zero.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The FIR/IIR reading states an FIR filter's impulse response dies to zero in exactly K steps (finite memory, always stable), while an IIR filter's decays exponentially yet never reaches exactly zero. The statement is true.",
+  "tags": [
+    "fir-iir",
+    "filters",
+    "impulse-response"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

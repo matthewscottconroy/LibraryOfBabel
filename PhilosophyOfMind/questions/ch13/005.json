@@ -1,0 +1,22 @@
+{
+  "question_id": "bc37f4a8-b9d6-44c0-b9a0-0187f73eb815",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the Sally-Anne false-belief task (Baron-Cohen, Leslie, and Frith, 1985), Sally puts her marble in her basket and leaves; Anne then moves it to her own box; Sally returns. A child who correctly passes the task predicts that Sally will look for the marble:",
+  "choices": [
+    "In Anne's box, where the marble actually is now",
+    "In her own basket, where she left it and still believes it to be",
+    "In a random location, indicating no theory of mind",
+    "In both locations at once"
+  ],
+  "answer": 1,
+  "explanation": "Passing requires attributing a false belief to Sally: she looks in her own basket, where she left the marble and still believes it to be, not in Anne's box where it now is. Answering 'Anne's box' (reality) is the characteristic failure that young children and many autistic children give; the other options misdescribe the competence being tested.",
+  "tags": [
+    "false-belief-task",
+    "sally-anne",
+    "theory-of-mind"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

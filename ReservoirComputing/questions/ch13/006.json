@@ -1,0 +1,22 @@
+{
+  "question_id": "ddde063e-7844-49ab-89d9-7774f7da6138",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Truncated at a finite history and degree, NVAR is mathematically equivalent to which classical construction?",
+  "choices": [
+    "A truncated Volterra series (equivalently, ridge regression with a polynomial kernel on lagged inputs)",
+    "A random Fourier-feature approximation of the RBF kernel",
+    "A Kalman filter with a linear Gaussian state-space model",
+    "A principal-component analysis of reservoir states"
+  ],
+  "answer": 0,
+  "explanation": "NVAR with history k and degree d is exactly a Volterra series truncated at order d over a (k+1)-step window; its readout equals kernel ridge regression with the polynomial kernel (c + φ·φ')^d. The random-Fourier/RBF picture (option 1) describes the ESN's random-feature approximation, the complementary view — not NVAR. Options 2 and 3 are unrelated linear/statistical tools.",
+  "tags": [
+    "nvar",
+    "volterra",
+    "kernel"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

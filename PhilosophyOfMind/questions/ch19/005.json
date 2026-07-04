@@ -1,0 +1,22 @@
+{
+  "question_id": "29dc0adc-b537-4863-87dd-1e5cada09511",
+  "chapter": 19,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Quine's \"Epistemology Naturalized\" (1969) makes which radical methodological proposal?",
+  "choices": [
+    "Epistemology should become a chapter of empirical psychology, studying how humans actually form beliefs",
+    "Epistemology should be pursued purely a priori, wholly independent of natural science",
+    "The normative question of justification is the only legitimate epistemological question",
+    "Philosophy of mind should defer entirely to Husserlian phenomenology"
+  ],
+  "answer": 0,
+  "explanation": "Quine urged replacing the foundationalist project of justification with an empirical account of belief-formation -- epistemology as 'a chapter of psychology.' Option B is the traditional rationalism he rejects, C is the normative project he wants to naturalize away, and D is unrelated; critics charge that his program drops the normative dimension entirely.",
+  "tags": [
+    "quine",
+    "naturalism",
+    "naturalized-epistemology"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

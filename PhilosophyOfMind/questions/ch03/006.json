@@ -1,0 +1,23 @@
+{
+  "question_id": "026d84bc-0a60-44ce-b0ac-142e0eab68e0",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Given semantic externalism, why do philosophers like Fodor introduce a notion of 'narrow content'?",
+  "choices": [
+    "To argue that all content is wide and environment-dependent",
+    "To deny that mental states have any content at all",
+    "To show that Oscar and Twin Oscar differ psychologically after all",
+    "To isolate a component of content that supervenes on the subject's in-the-head state, so psychology can group Oscar and Twin Oscar together"
+  ],
+  "answer": 3,
+  "explanation": "Narrow content is the internally-determined component that Oscar and Twin Oscar share, proposed so that psychology can generalize over molecule-for-molecule duplicates despite differences in wide (referential) content. Option 0 abandons the project; option 1 is eliminativism about content; option 2 is the opposite of narrow content's motivation, since the duplicates are meant to match psychologically.",
+  "tags": [
+    "narrow-content",
+    "wide-content",
+    "fodor",
+    "externalism"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

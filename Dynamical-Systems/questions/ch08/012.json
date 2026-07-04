@@ -1,0 +1,19 @@
+{
+  "question_id": "270fbdf3-c362-41ab-b849-47659df3e447",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Landauer's bound is precisely what couples Shannon information to ___ entropy.",
+  "choices": [
+    "thermodynamic"
+  ],
+  "answer": "thermodynamic",
+  "explanation": "Landauer's kT ln 2 per erased bit identifies information-theoretic entropy with thermodynamic entropy, not merely by analogy but by physical cost.",
+  "tags": [
+    "landauer",
+    "thermodynamic-entropy",
+    "information"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

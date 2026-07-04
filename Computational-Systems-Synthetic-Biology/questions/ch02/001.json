@@ -1,0 +1,23 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which ribosome type is characteristic of eukaryotic cells, in contrast to the 70S ribosomes found in bacteria?",
+  "choices": [
+    "70S",
+    "80S",
+    "50S (the large bacterial subunit)",
+    "30S (the small bacterial subunit)"
+  ],
+  "answer": 1,
+  "explanation": "Eukaryotic cells have 80S ribosomes (assembled from 60S and 40S subunits), whereas bacteria have 70S ribosomes (assembled from 50S and 30S subunits). 70S itself is the bacterial value, not eukaryotic, and 50S/30S are subunits of the bacterial ribosome rather than a whole-ribosome sedimentation coefficient.",
+  "tags": [
+    "cell-biology",
+    "ribosomes",
+    "prokaryotes",
+    "eukaryotes"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "185b9536-0dc5-463a-83a1-dc1168b0c02e"
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "a7c3e18f-4d92-4b06-9e5a-8f1c2d3b6e40",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Jennings (1906) described a graded avoidance sequence in the sessile ciliate Stentor coeruleus. Which ordering reflects his escalating hierarchy from least to most disruptive?",
+  "choices": [
+    "Detachment and swimming away first, then contraction, then bending",
+    "Contraction first, then bending, with detachment never occurring",
+    "Bending away, then reversing the oral cilia, then contraction, then detachment and swimming away",
+    "Immediate detachment on first contact, with no intermediate responses"
+  ],
+  "answer": 2,
+  "explanation": "Jennings reported escalation from the cheapest to the most disruptive response: bend away, reverse the oral cilia, contract (repeatedly), and finally detach and swim off, escalating only when the irritant persists. The reversed order (choice 0), a truncated sequence lacking detachment (choice 1), and immediate detachment (choice 3) all misrepresent the try-cheapest-first logic of the hierarchy.",
+  "tags": ["ciliates", "stentor", "behavioral-hierarchy", "jennings"],
+  "difficulty": "beginner",
+  "generated": true
+}

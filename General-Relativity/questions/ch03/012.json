@@ -1,0 +1,19 @@
+{
+  "question_id": "1fa09091-6a6f-4a28-a2e4-cc096b21fd04",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "For two solutions y₁, y₂ of a second-order linear homogeneous ODE, the ___ W = y₁y₂' − y₂y₁' vanishes identically if and only if the solutions are linearly dependent.",
+  "choices": [
+    "Wronskian"
+  ],
+  "answer": "Wronskian",
+  "explanation": "The Wronskian W(y₁, y₂) = y₁y₂' − y₂y₁' detects linear dependence: by Abel's theorem it satisfies W' = −P(x)W, so it is either identically zero (dependent solutions) or nowhere zero (independent). It also appears in the variation-of-parameters formula for the particular solution of an inhomogeneous linear ODE.",
+  "tags": [
+    "ode",
+    "wronskian",
+    "linear-systems"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

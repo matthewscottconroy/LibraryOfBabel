@@ -1,0 +1,20 @@
+{
+  "question_id": "cd5be650-cc25-4f5b-bd73-0566a211d092",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Strong induction and weak (ordinary) induction are equivalent in logical power — anything provable by one is provable by the other.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Each principle can be derived from the other, so they prove exactly the same theorems; strong induction is simply more convenient when a proof of P(k+1) needs several earlier values rather than just P(k).",
+  "tags": [
+    "strong-induction",
+    "weak-induction",
+    "equivalence"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

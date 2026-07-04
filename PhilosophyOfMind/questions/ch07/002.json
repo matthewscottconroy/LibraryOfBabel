@@ -1,0 +1,21 @@
+{
+  "question_id": "87137729-4cf2-4f65-bc9e-776431062bcb",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Arthur Danto introduced the notion of a 'basic action' in order to:",
+  "choices": [
+    "Prove that free will is an illusion",
+    "Show that all actions are ultimately reflexes",
+    "Halt a regress by identifying actions not performed by doing anything else",
+    "Deny that intentions ever cause actions"
+  ],
+  "answer": 2,
+  "explanation": "Danto introduced 'basic actions' - actions not performed by doing anything else - to stop a regress (I raise my arm, but not by first doing something more basic). Options 0, 1, and 3 misattribute to the notion claims about free will, reflexes, or a denial of mental causation.",
+  "tags": [
+    "basic-action",
+    "danto"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

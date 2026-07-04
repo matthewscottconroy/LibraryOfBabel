@@ -1,0 +1,19 @@
+{
+  "question_id": "619727f9-f54a-43d8-894b-f5b7273b5801",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The Second Law of Thermodynamics, in its standard statement, holds that in an isolated system entropy never ___ over time (it either increases or stays the same).",
+  "choices": [
+    "decreases"
+  ],
+  "answer": "decreases",
+  "explanation": "The expected answer is 'decreases': the Second Law states that the entropy of an isolated system never decreases (ΔS ≥ 0), with equality only for reversible processes. This one-directional tendency toward higher-entropy states is the thermodynamic arrow of time, which the book treats as the most physically fundamental of the macroscopic arrows.",
+  "tags": [
+    "second-law",
+    "entropy",
+    "thermodynamic-arrow"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

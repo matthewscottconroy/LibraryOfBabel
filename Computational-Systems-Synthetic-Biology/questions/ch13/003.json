@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The simple receptor-ligand binding equilibrium (Receptor + Ligand <-> RL) produces an occupancy fraction theta = [L] / (Kd + [L]). What kind of dose-response curve does this represent, and what is required for receptor binding alone to become ultrasensitive?",
+  "choices": [
+    "It is already switch-like because occupancy saturates at high ligand concentration; no further modification is needed",
+    "It is a hyperbolic Hill function with n = 1; cooperative binding (n > 1) is required for the receptor alone to produce a switch-like response",
+    "It is a sigmoidal curve with an effective Hill coefficient near 20-40, similar to zero-order ultrasensitivity",
+    "It is bistable, producing two alternative stable occupancy states depending on initial conditions"
+  ],
+  "answer": 1,
+  "explanation": "Simple bimolecular binding gives a hyperbolic curve, equivalent to a Hill function with n=1, which is graded rather than switch-like; achieving ultrasensitivity from the receptor itself requires cooperative binding (n > 1). Saturating at high concentration (choice 0) is a property of any hyperbolic curve and does not by itself make a response switch-like around a threshold. Choice 2 describes the very different zero-order ultrasensitivity mechanism in phosphorylation cycles, and choice 3 describes bistability, which requires feedback, not simple equilibrium binding.",
+  "tags": [
+    "receptor-ligand-binding",
+    "hill-function",
+    "ultrasensitivity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "c9263a33-c2fc-4557-be24-5e34fe1281b8"
+}

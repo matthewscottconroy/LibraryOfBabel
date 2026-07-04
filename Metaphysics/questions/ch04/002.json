@@ -1,0 +1,18 @@
+{
+  "question_id": "8883698a-0300-4aa3-aaab-06a6472c9242",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "On David Lewis's modal realism, what are possible worlds?",
+  "choices": [
+    "Maximal consistent sets of propositions existing as abstract objects.",
+    "Maximal possible states of affairs that exist necessarily but do not obtain.",
+    "Concrete spatiotemporal systems, as real as the actual world and differing only in being spatiotemporally isolated from it.",
+    "Useful fictions, so that modal claims are true only 'according to the fiction' of a plurality of worlds."
+  ],
+  "answer": 2,
+  "explanation": "Lewis's modal realism holds that other possible worlds are concrete realities, maximal spatiotemporally connected systems every bit as real as ours, with 'actual' functioning merely as an indexical for the world one inhabits. Option 1 is Plantinga's actualism (worlds as states of affairs), option 0 is Adams's propositional ersatzism, and option 3 is Rosen's modal fictionalism, all actualist rivals that deny Lewis's concrete plurality.",
+  "tags": ["modality", "possible-worlds", "modal-realism", "lewis"],
+  "difficulty": "beginner",
+  "generated": true
+}

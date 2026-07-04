@@ -1,0 +1,20 @@
+{
+  "question_id": "23f28534-555a-490b-9508-4bc1ed45a3ce",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "tf",
+  "text": "A factor map between subshifts of finite type is information-lossless if and only if it preserves topological entropy.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "An entropy-preserving factor map is generically invertible (information-lossless); a strict entropy drop signals genuine merging of symbols and loss of information.",
+  "tags": [
+    "factor-map",
+    "entropy",
+    "information-lossless"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

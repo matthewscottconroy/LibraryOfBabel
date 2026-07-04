@@ -1,0 +1,19 @@
+{
+  "chapter": 18,
+  "phase": 3,
+  "kind": "tf",
+  "text": "In two-stage (dynamic) metabolic engineering, quorum-sensing circuits can be used to automatically switch a culture from a growth-supporting gene expression program to a production-supporting one once cell density crosses a threshold.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: quorum-sensing switches detect population density via accumulation of a signal molecule such as AHL and flip promoter activity once a density threshold is reached, allowing resources to shift from growth to production automatically without manual intervention. This is a central strategy in dynamic metabolic engineering because exponential growth and product formation otherwise compete for the same cellular resources.",
+  "tags": [
+    "dynamic-metabolic-engineering",
+    "quorum-sensing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "c18a1aef-b488-471c-ae74-71f977673dcb"
+}

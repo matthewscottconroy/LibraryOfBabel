@@ -1,0 +1,21 @@
+{
+  "question_id": "def25c62-0cb1-421e-b5da-f8b715baee6e",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The book classifies isolated singularities by the principal part of the Laurent series. An essential singularity at z₀ is the case where the principal part:",
+  "choices": [
+    "has infinitely many non-zero terms",
+    "has finitely many terms, the lowest being 1/(z − z₀)^m",
+    "is identically zero",
+    "consists of the single term c₋₁/(z − z₀)"
+  ],
+  "answer": 0,
+  "explanation": "An essential singularity has a principal part with infinitely many non-zero negative-power terms; by Picard's great theorem f then attains every complex value (with at most one exception) infinitely often in any punctured neighbourhood. A finite principal part ending at 1/(z − z₀)^m is a pole of order m, a vanishing principal part is a removable singularity, and a lone c₋₁/(z − z₀) is a simple pole.",
+  "tags": [
+    "complex-analysis",
+    "singularities"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

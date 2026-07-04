@@ -1,0 +1,20 @@
+{
+  "question_id": "87621e81-16f5-42b9-9cf0-cc10bed2565e",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The principle of the causal closure of the physical states that every physical event which has a cause has a non-physical (mental) cause.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Causal closure states the opposite: every physical event that has a cause has a sufficient *physical* cause, so no non-physical cause need be invoked. This principle is the main scientific pressure against interactionist dualism, since it appears to leave no causal work for an immaterial mind. The statement inverts the principle, so it is false.",
+  "tags": [
+    "causal-closure",
+    "physicalism",
+    "mental-causation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

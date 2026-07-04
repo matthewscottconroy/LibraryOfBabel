@@ -1,0 +1,21 @@
+{
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Flux Variability Analysis (FVA) is used to determine:",
+  "choices": [
+    "The single optimal flux distribution that maximizes biomass",
+    "The minimum and maximum flux through each reaction consistent with a given (near-)optimal objective value",
+    "The thermodynamic feasibility (ΔrG) of each reaction",
+    "The isotope labeling pattern expected from ¹³C-glucose feeding"
+  ],
+  "answer": 1,
+  "explanation": "FVA scans each reaction to find its minimum and maximum possible flux while still achieving at least some specified fraction of the optimal objective value, revealing essential, flexible, and coupled reactions as well as alternative optimal solutions. Finding the single optimal flux distribution is instead just standard FBA, ΔrG feasibility is the domain of thermodynamic tools like eQuilibrator, and isotope labeling patterns are the subject of ¹³C metabolic flux analysis, not FVA.",
+  "tags": [
+    "flux-variability-analysis",
+    "fba"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "642587d1-a2c3-4e7e-b168-e9f6cc668d23"
+}

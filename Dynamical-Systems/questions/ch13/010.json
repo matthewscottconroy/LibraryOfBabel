@@ -1,0 +1,19 @@
+{
+  "question_id": "8d68ddb0-2a12-4c8d-821a-912ae1631f9b",
+  "chapter": 13,
+  "phase": 6,
+  "kind": "blank",
+  "text": "In HoTT, the axiom asserting that (A = B) is equivalent to (A equivalent to B) is the ___ axiom.",
+  "choices": [
+    "univalence"
+  ],
+  "answer": "univalence",
+  "explanation": "Univalence, due to Voevodsky, is the defining principle making equal types and equivalent types interchangeable, central to the homotopical interpretation.",
+  "tags": [
+    "univalence",
+    "hott",
+    "foundations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "7e0cc7bc-ca7e-4f05-885c-287d5db66e7b",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Under which truth values of φ and ψ is the material conditional φ → ψ *false*?",
+  "choices": [
+    "when φ is false and ψ is true",
+    "when both φ and ψ are false",
+    "whenever φ and ψ have different truth values",
+    "only when φ is true and ψ is false"
+  ],
+  "answer": 3,
+  "explanation": "φ → ψ is false in exactly one case: a true antecedent with a false consequent. When the antecedent is false the conditional is vacuously true, ruling out options 1 and 2. Option 3 describes when ↔ (not →) is false.",
+  "tags": [
+    "material-conditional",
+    "connectives",
+    "truth-tables"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

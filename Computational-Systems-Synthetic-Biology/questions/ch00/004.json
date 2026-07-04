@@ -1,0 +1,22 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which theorem provides the mathematical foundation for updating a prior belief into a posterior probability after observing data, underlying all of Bayesian inference?",
+  "choices": [
+    "The Central Limit Theorem",
+    "The Law of Large Numbers",
+    "The Chapman-Kolmogorov equation",
+    "Bayes' theorem"
+  ],
+  "answer": 3,
+  "explanation": "Bayes' theorem relates the prior, likelihood, and posterior probabilities and is explicitly described as foundational for all Bayesian inference. The Central Limit Theorem describes how sample means approach a normal distribution, the Law of Large Numbers describes convergence of sample averages to the expected value, and the Chapman-Kolmogorov equation relates multi-step transition probabilities in Markov chains -- none of these perform a prior-to-posterior update.",
+  "tags": [
+    "probability",
+    "bayesian-inference",
+    "bayes-theorem"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "4e0808c0-ac7c-499e-aea3-d77f88846212"
+}

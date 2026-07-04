@@ -1,0 +1,13 @@
+{
+  "question_id": "e6cd2cbe-3f7c-43f3-9a49-0daf52842829",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The evil-demon hypothesis and the dream argument have exactly the same sceptical reach: like the dream argument, the demon leaves mathematical truths such as 2 + 2 = 4 untouched.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "This is false. Descartes escalates to the evil demon precisely because, unlike the dream argument (which he thought left arithmetic intact), the demon can corrupt even our clearest mathematical and logical intuitions. Because it targets reason itself, the demon has strictly greater sceptical reach than the dream argument.",
+  "tags": ["descartes", "evil demon", "dream argument", "skepticism"],
+  "difficulty": "beginner",
+  "generated": true
+}

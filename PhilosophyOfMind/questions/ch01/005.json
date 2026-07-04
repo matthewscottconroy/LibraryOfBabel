@@ -1,0 +1,23 @@
+{
+  "question_id": "1bf9fff3-930e-4d62-9005-45f8514eade9",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Eliminative materialism, as defended by the Churchlands, holds that folk psychology (belief, desire, and the rest) is:",
+  "choices": [
+    "A true theory that reduces smoothly to neuroscience",
+    "A radically false theory whose posits will be eliminated — not reduced — by a mature neuroscience",
+    "A useful fiction that is nonetheless literally true of immaterial minds",
+    "Identical in meaning to neuroscientific vocabulary"
+  ],
+  "answer": 1,
+  "explanation": "The Churchlands argue folk psychology is a false empirical theory whose entities (like phlogiston) will be replaced, not reduced, by neuroscience — they simply do not refer. Option 0 describes reductive physicalism; option 3 describes an analytic reduction they reject; option 2 is a dualist/fictionalist reading. Elimination is defined precisely by contrast with reduction.",
+  "tags": [
+    "eliminative-materialism",
+    "churchland",
+    "folk-psychology",
+    "reduction"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

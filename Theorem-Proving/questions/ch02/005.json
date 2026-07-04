@@ -1,0 +1,23 @@
+{
+  "question_id": "f57b3e24-2919-4537-b404-80624507e01b",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a *sentence* φ (no free variables) and a structure 𝓜, how does the truth of φ in 𝓜 depend on the variable assignment s?",
+  "choices": [
+    "It depends critically on s; different assignments can flip φ between true and false",
+    "φ can only be evaluated after Skolemizing away all quantifiers",
+    "It is independent of s: 𝓜, s ⊨ φ holds for some s iff it holds for every s",
+    "s must map every variable to the same domain element"
+  ],
+  "answer": 2,
+  "explanation": "For a sentence the assignment s is irrelevant: 𝓜, s ⊨ φ holds for some s iff it holds for every s, which is why we may write 𝓜 ⊨ φ without mentioning s. Free variables (absent here) are what make truth assignment-dependent, so option 1 is wrong; options 2 and 4 are not requirements of the satisfaction definition.",
+  "tags": [
+    "satisfaction",
+    "tarski",
+    "sentence",
+    "variable-assignment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

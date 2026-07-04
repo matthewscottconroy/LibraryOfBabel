@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "For a Hill function f(X) = Xⁿ/(Kⁿ+Xⁿ) describing transcriptional activation, what does a Hill coefficient of n = 1 correspond to?",
+  "choices": [
+    "A perfect step-function switch (n = ∞ behavior)",
+    "A sigmoidal, ultrasensitive response (n > 1 behavior)",
+    "A hyperbolic response equivalent to Michaelis-Menten saturation",
+    "No dependence of the response on X at all"
+  ],
+  "answer": 2,
+  "explanation": "With n = 1, the Hill function reduces to X/(K+X), a hyperbolic saturation curve mathematically identical in form to Michaelis-Menten kinetics. A step-function switch instead requires n → ∞, a sigmoidal ultrasensitive response requires n > 1, and 'no dependence on X' is not true for any finite positive n, since the function still increases monotonically with X.",
+  "tags": [
+    "hill-function",
+    "cooperativity",
+    "gene-regulation"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "4a86a1ed-8708-433c-8c70-8d72dbe05e34"
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "9533a752-5245-4b3e-8a9a-f4651b5fa988",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "For a one-dimensional map x_{n+1} = f(x_n), a fixed point x* is linearly stable when:",
+  "choices": [
+    "|f'(x*)| > 1",
+    "f'(x*) = 1",
+    "|f'(x*)| < 1",
+    "f(x*) = 0"
+  ],
+  "answer": 2,
+  "explanation": "Near x*, perturbations are scaled by f'(x*) at each step, so |f'(x*)| < 1 contracts them (stable) while |f'(x*)| > 1 repels them (unstable). The value |f'(x*)| = 1 is the marginal case where a bifurcation typically occurs. f(x*) = 0 is unrelated, since a fixed point satisfies f(x*) = x*.",
+  "tags": [
+    "fixed-points",
+    "stability",
+    "iterated-maps"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

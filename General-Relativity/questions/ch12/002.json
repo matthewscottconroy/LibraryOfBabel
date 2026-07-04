@@ -1,0 +1,21 @@
+{
+  "question_id": "6f9853cd-230b-4a6e-81e2-0a59e8f867d6",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the ADM formalism the tensor K_ij = −(1/2α)(∂_t γ_ij − 𝓛_β γ_ij), which measures how the spatial slice Σ_t curves within the surrounding four-dimensional spacetime and is the momentum conjugate to γ_ij, is the:",
+  "choices": [
+    "intrinsic Ricci scalar ³R of the slice",
+    "lapse function α",
+    "shift vector βⁱ",
+    "extrinsic curvature K_ij"
+  ],
+  "answer": 3,
+  "explanation": "The book identifies K_ij as the extrinsic curvature — how the spatial slice bends in the surrounding spacetime — and calls it the conjugate momentum to γ_ij. The intrinsic curvature ³R is built from γ_ij alone on the slice; α and βⁱ are gauge variables that carry no physical degrees of freedom.",
+  "tags": [
+    "adm",
+    "extrinsic-curvature"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

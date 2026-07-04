@@ -1,0 +1,23 @@
+{
+  "question_id": "ea76b2cd-41e4-4d87-938f-befb5c984006",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Following his argument on the 'Way of Truth,' what does Parmenides conclude about the nature of reality?",
+  "choices": [
+    "Reality is an ever-living fire, kindling and going out in measured cycles",
+    "Reality is a swarm of permanent atoms moving through a genuinely real void",
+    "Reality is one, continuous, and unchanging - a timeless Being to which 'was' and 'will be' do not apply, so change, plurality, and time are mere appearance",
+    "Reality is a created cosmos that images an eternal model through numbered, cyclical motion"
+  ],
+  "answer": 2,
+  "explanation": "Parmenides reasons that since non-being cannot be thought or spoken, nothing can come to be or pass away; genuine Being is one, continuous, and unchanging, existing in an eternal 'is' without 'was' or 'will be.' Change, plurality, and time therefore belong only to the deceptive 'Way of Seeming.' The fire-cycles are Heraclitus', the atoms-and-void are the Atomists', and the numbered image of eternity is Plato's.",
+  "tags": [
+    "parmenides",
+    "being",
+    "eleatics",
+    "change"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

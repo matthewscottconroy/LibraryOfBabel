@@ -1,0 +1,20 @@
+{
+  "question_id": "997a7bac-faea-4710-9869-84acdc50090e",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "blank",
+  "text": "Under the Curry-Howard correspondence at the heart of Martin-Lof type theory, propositions are identified with ___.",
+  "choices": [
+    "types",
+    "type"
+  ],
+  "answer": "types",
+  "explanation": "The chapter lists as a core idea 'Propositions are types (Curry-Howard correspondence),' so a proof is just a term inhabiting the corresponding type. This identification is what lets type theory serve simultaneously as a logic and as a programming language.",
+  "tags": [
+    "curry-howard",
+    "type-theory",
+    "propositions-as-types"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

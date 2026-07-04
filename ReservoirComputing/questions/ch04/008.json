@@ -1,0 +1,20 @@
+{
+  "question_id": "581f71cc-cef3-47cd-93a8-86f4ef65719e",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Because higher spectral radius always improves performance, the optimal rho is task-independent and equals exactly 1.0 for every task.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: the optimal rho is task-dependent. Tasks with long-range dependencies favor rho near 0.9-0.99, whereas fast-changing / short-memory tasks are best with much smaller rho (e.g. 0.5-0.9). Empirically the NARMA-10 sweep peaks near 0.8-0.95, and performance actually degrades slightly before rho reaches 1, so rho = 1.0 is not a universal optimum.",
+  "tags": [
+    "spectral-radius",
+    "task-dependence",
+    "hyperparameter-tuning"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

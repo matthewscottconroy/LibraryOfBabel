@@ -1,0 +1,19 @@
+{
+  "question_id": "42a8915d-f1b1-4294-a298-fd58338895a2",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The Shannon-McMillan-Breiman theorem follows from the ___ ergodic theorem applied to the conditional information function.",
+  "choices": [
+    "Birkhoff"
+  ],
+  "answer": "Birkhoff",
+  "explanation": "Birkhoff's pointwise theorem applied to f(x) = -log P(x_0 | past) yields the a.s. convergence of -(1/n) log P(X_1..X_n) to the entropy rate.",
+  "tags": [
+    "birkhoff",
+    "shannon-mcmillan-breiman",
+    "ergodic"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

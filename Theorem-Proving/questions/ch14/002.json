@@ -1,0 +1,22 @@
+{
+  "question_id": "8f31d567-f455-44b1-9e50-13a9e2181d4a",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which sentence requires a COLLECTIVE (non-distributive) predication that first-order logic cannot capture with a simple universal quantifier?",
+  "choices": [
+    "The students surrounded the building",
+    "The books are heavy (each book is heavy)",
+    "Every critic is admired by someone",
+    "Each rock is grey"
+  ],
+  "answer": 0,
+  "explanation": "'The students surrounded the building' is collective — true of the students together though no single student surrounded it, so it resists the ∀x(...) paraphrase. The others distribute down to individuals (each book heavy, each critic admired, each rock grey), all expressible with ordinary first-order universal quantification.",
+  "tags": [
+    "distributive",
+    "collective",
+    "predication"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

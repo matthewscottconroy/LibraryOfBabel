@@ -1,0 +1,22 @@
+{
+  "question_id": "5c941345-2cc4-414a-a912-87c8ba457d67",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "On Tulving's account, the 'autonoetic consciousness' that distinguishes episodic memory refers to which of the following?",
+  "choices": [
+    "Awareness of impersonal general facts about the world (noetic consciousness)",
+    "The immediate, non-thematic retention of a just-past note",
+    "The self-referential awareness of re-experiencing one's own past in subjective time",
+    "Procedural, non-conscious knowledge of how to perform a skill"
+  ],
+  "answer": 2,
+  "explanation": "Autonoetic consciousness is the self-referential awareness of re-experiencing one's own past in subjective time ('mental time travel'), which Tulving takes to be constitutive of episodic memory. Awareness of impersonal facts is merely noetic consciousness (semantic memory); retention of a just-past note is Husserl's category; and procedural know-how lacks experiential self-reference altogether.",
+  "tags": [
+    "autonoetic-consciousness",
+    "episodic-memory",
+    "tulving"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

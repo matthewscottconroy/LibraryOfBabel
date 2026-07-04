@@ -1,0 +1,18 @@
+{
+  "question_id": "8a8b1d07-0497-4b5e-b4c2-bf935637792b",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "mc",
+  "text": "For $H\\leq G$ and an $H$-representation $W$, the dimension of the induced representation $\\mathrm{Ind}_H^G W$ is:",
+  "choices": [
+    "$[G:H]\\cdot\\dim W$",
+    "$\\dim W$, unchanged",
+    "$|G|\\cdot\\dim W$",
+    "$|H|\\cdot\\dim W$"
+  ],
+  "answer": 0,
+  "explanation": "Since $\\mathrm{Ind}_H^G W=k[G]\\otimes_{k[H]}W$ and $k[G]$ is free of rank $[G:H]$ over $k[H]$, the dimension is $[G:H]\\cdot\\dim W$. Restriction is what leaves the dimension unchanged; $|G|\\cdot\\dim W$ would be tensoring over $k$; and $|H|\\cdot\\dim W$ confuses the index $[G:H]$ with the subgroup order.",
+  "tags": ["character-theory", "induced-representation", "dimension"],
+  "difficulty": "beginner",
+  "generated": true
+}

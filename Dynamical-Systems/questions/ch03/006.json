@@ -1,0 +1,22 @@
+{
+  "question_id": "0a549609-b28a-496f-ba75-aba6e030ca57",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A subshift of finite type (SFT) is specified by a:",
+  "choices": [
+    "single periodic sequence",
+    "smooth potential function",
+    "finite transition (adjacency) matrix",
+    "positive Lyapunov exponent"
+  ],
+  "answer": 2,
+  "explanation": "An SFT is defined by finitely many allowed transitions, encoded in a 0-1 transition matrix. Its topological entropy is log of that matrix's Perron root.",
+  "tags": [
+    "subshift-of-finite-type",
+    "symbolic-dynamics",
+    "transition-matrix"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

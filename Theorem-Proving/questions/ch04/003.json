@@ -1,0 +1,22 @@
+{
+  "question_id": "4907ae4b-0b10-430c-b3bb-60dbdedc6bbe",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the standard proof that √2 is irrational, which strategy is used and what is assumed at the outset?",
+  "choices": [
+    "Proof by contradiction: assume √2 = p/q in lowest terms and derive a contradiction",
+    "Direct proof: assume √2 is irrational and derive p/q",
+    "Proof by contrapositive: assume √2 is rational in order to prove it is rational",
+    "Proof by cases: split first on whether p is even or odd"
+  ],
+  "answer": 0,
+  "explanation": "The classic argument is by contradiction (reductio): assume √2 = p/q in lowest terms, then derive that p and q are both even, contradicting 'lowest terms.' Option B is incoherent (you cannot assume the very thing you want to prove as a direct-proof hypothesis). Parity is used inside the proof, but the overarching strategy is contradiction, not an initial case split, and it is not framed as a contrapositive.",
+  "tags": [
+    "proof-by-contradiction",
+    "reductio",
+    "irrationality"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

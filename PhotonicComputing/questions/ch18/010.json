@@ -1,0 +1,19 @@
+{
+  "question_id": "10e77a0a-4fee-4c33-9344-33c8d5ae0e44",
+  "chapter": 18,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In the Jaynes-Cummings model, the two lowest dressed states are split by the vacuum Rabi splitting, whose energy equals ___ (expressed through the emitter-cavity coupling g).",
+  "choices": [
+    "2g"
+  ],
+  "answer": "2g",
+  "explanation": "The dressed-state splitting is 2g*sqrt(n+1); for the lowest doublet (n = 0) this is the vacuum Rabi splitting 2g (in energy, 2*hbar*g). Resolving this splitting is the spectral signature of strong coupling.",
+  "tags": [
+    "jaynes-cummings",
+    "vacuum-rabi-splitting",
+    "cavity-qed"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

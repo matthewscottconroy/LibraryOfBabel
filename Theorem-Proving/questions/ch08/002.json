@@ -1,0 +1,22 @@
+{
+  "question_id": "ace69bc2-f979-4f98-bce9-769b42cc8f23",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Two structures M and N are elementarily equivalent (M ≡ N) exactly when:",
+  "choices": [
+    "there is a bijection between their domains",
+    "there is a structure-preserving homomorphism from M to N",
+    "they satisfy exactly the same first-order sentences",
+    "they have the same cardinality"
+  ],
+  "answer": 2,
+  "explanation": "Elementary equivalence M ≡ N means M ⊨ φ iff N ⊨ φ for every first-order sentence φ. A mere bijection (A) or equal cardinality (D) need not preserve truth of sentences; an arbitrary homomorphism (B) preserves structure but not all first-order formulas (only isomorphisms and elementary embeddings do). Only agreeing on every sentence defines ≡.",
+  "tags": [
+    "elementary-equivalence",
+    "satisfaction",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

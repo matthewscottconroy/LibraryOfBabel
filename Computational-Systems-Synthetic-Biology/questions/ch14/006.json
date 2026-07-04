@@ -1,0 +1,22 @@
+{
+  "chapter": 14,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Cellular Potts Model (Glazier-Graner-Hogeweg), as implemented in tools like CompuCell3D, evolves cell shapes toward lower total energy while still allowing some energetically unfavorable moves. What algorithm accomplishes this?",
+  "choices": [
+    "Gradient descent, which deterministically accepts only moves that strictly decrease the total energy",
+    "Gillespie's stochastic simulation algorithm, which samples exact reaction waiting times for well-mixed chemical kinetics",
+    "The Metropolis algorithm, which accepts energy-lowering moves and probabilistically accepts some energy-raising moves due to thermal fluctuation",
+    "A maximum matching algorithm that identifies the minimum set of driver nodes needed to control the system"
+  ],
+  "answer": 2,
+  "explanation": "The Cellular Potts Model uses the Metropolis algorithm: moves that lower the total energy (surface energy plus volume/area constraint terms) are always accepted, while energetically unfavorable moves are accepted with a probability related to a simulated temperature, allowing the system to escape local energy minima. Gradient descent (choice 0) would be purely deterministic and could get stuck in local minima. Gillespie's algorithm (choice 1) is designed for simulating well-mixed stochastic chemical reactions, not spatial cell-shape dynamics, and maximum matching (choice 3) is an unrelated graph-theoretic technique used for network controllability analysis.",
+  "tags": [
+    "cellular-potts-model",
+    "compucell3d",
+    "agent-based-modeling"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "e7cf7201-fd82-4e41-97db-d052d1833e26"
+}

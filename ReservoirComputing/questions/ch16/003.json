@@ -1,0 +1,20 @@
+{
+  "question_id": "a380a695-118f-4c55-b384-291eaad976b8",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Unlike a standard ESN tuned for the echo state property (rho < 1), the CPG lab deliberately builds a supra-critical reservoir with spectral radius above 1 (rho = 1.25).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The lab sets RHO = 1.25, described in the code as 'above stability: chaotic reservoir'. A rho > 1 reservoir has intrinsic, self-sustaining (chaotic) dynamics that FORCE can sculpt into a stable target rhythm, the opposite of the rho < 1 fading-memory regime used for ordinary input-driven tasks.",
+  "tags": [
+    "spectral-radius",
+    "supra-critical",
+    "FORCE"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

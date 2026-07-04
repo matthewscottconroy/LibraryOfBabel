@@ -1,0 +1,18 @@
+{
+  "question_id": "03347e7f-b70d-4c19-baef-61ec6b9ea00c",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Frobenius reciprocity is the identity:",
+  "choices": [
+    "$\\langle\\mathrm{Ind}_H^G W,V\\rangle_G=\\langle\\mathrm{Res}_H^G W,V\\rangle_H$",
+    "$\\langle\\mathrm{Ind}_H^G W,V\\rangle_G=\\langle W,V\\rangle_H$",
+    "$\\langle\\mathrm{Ind}_H^G W,V\\rangle_G=\\langle W,\\mathrm{Res}_H^G V\\rangle_H$",
+    "$\\langle\\mathrm{Res}_H^G W,V\\rangle_H=\\langle W,\\mathrm{Ind}_H^G V\\rangle_G$"
+  ],
+  "answer": 2,
+  "explanation": "Frobenius reciprocity says $\\langle\\mathrm{Ind}_H^G W,V\\rangle_G=\\langle W,\\mathrm{Res}_H^G V\\rangle_H$, expressing that induction is left adjoint to restriction. The first distractor applies $\\mathrm{Res}$ to the $H$-representation $W$ (ill-typed); the second drops $\\mathrm{Res}$ entirely; and the last swaps the roles, wrongly making restriction the left adjoint.",
+  "tags": ["character-theory", "frobenius-reciprocity", "induction"],
+  "difficulty": "intermediate",
+  "generated": true
+}

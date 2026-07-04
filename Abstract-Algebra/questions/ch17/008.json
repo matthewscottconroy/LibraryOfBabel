@@ -1,0 +1,13 @@
+{
+  "question_id": "923cd76b-cd41-4263-b357-a72255757aaf",
+  "chapter": 17,
+  "phase": 6,
+  "kind": "tf",
+  "text": "The dimension (also called the degree) of a representation $\\rho:G\\to GL(V)$ is $\\dim_k V$.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True: the dimension, or degree, of $\\rho$ is defined to be $\\dim_k V$, the dimension of the representation space. Choosing a basis identifies $GL(V)\\cong GL_n(k)$ with $n=\\dim_k V$, so each $g$ acts by an $n\\times n$ invertible matrix.",
+  "tags": ["representations", "dimension", "degree"],
+  "difficulty": "beginner",
+  "generated": true
+}

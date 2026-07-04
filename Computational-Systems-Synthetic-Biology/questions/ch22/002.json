@@ -1,0 +1,21 @@
+{
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What makes an ODE system 'stiff'?",
+  "choices": [
+    "The system has more than three coupled equations",
+    "The system cannot be solved analytically in closed form",
+    "Different components evolve on very different timescales, producing a ratio between fastest and slowest timescales that can reach 10^6 or more",
+    "The system exhibits chaotic, unpredictable long-term behavior"
+  ],
+  "answer": 2,
+  "explanation": "Stiffness arises when a system mixes fast transients (such as enzyme-substrate complex formation) with slow dynamics (such as gene expression or growth), yielding a large stiffness ratio between the fastest and slowest processes. The number of equations, analytical solvability, and chaos are distinct properties -- a system can be stiff regardless of its size, and chaos is an unrelated dynamical phenomenon.",
+  "tags": [
+    "scientific-computing",
+    "stiffness"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "6e2f4496-d2c5-4291-96ce-df89fb0dab09"
+}

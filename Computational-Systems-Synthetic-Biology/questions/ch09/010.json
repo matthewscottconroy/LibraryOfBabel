@@ -1,0 +1,19 @@
+{
+  "chapter": 9,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The ___ test compares the ratio of nonsynonymous to synonymous polymorphism within a species (Pn/Ps) to the same ratio for divergence between species (Dn/Ds) to detect departures from neutral evolution.",
+  "choices": [
+    "McDonald-Kreitman"
+  ],
+  "answer": "McDonald-Kreitman",
+  "explanation": "The McDonald-Kreitman test contrasts within-species polymorphism (Pn/Ps) with between-species divergence (Dn/Ds); under strict neutrality these ratios should be equal, and an excess of nonsynonymous divergence signals positive selection, quantified by the neutrality index α. This differs from dN/dS branch or site models (PAML, HyPhy), which use divergence data alone without polymorphism data.",
+  "tags": [
+    "mcdonald-kreitman",
+    "selection",
+    "molecular-evolution"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "8b8eeb3f-6265-43a5-a081-67a41e86732e"
+}

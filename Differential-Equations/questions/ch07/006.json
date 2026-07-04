@@ -1,0 +1,20 @@
+{
+  "question_id": "6baf5b6e-6e12-49e7-ac10-c6c1176141fb",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The Lorenz system is the classic example of a strange attractor: a bounded fractal set on which trajectories wander chaotically without ever repeating.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The Lorenz attractor is a strange attractor: trajectories are confined to a fractal set of zero volume, are aperiodic, and show sensitive dependence on initial conditions. It arose from a truncated model of atmospheric convection.",
+  "tags": [
+    "lorenz-system",
+    "strange-attractor",
+    "chaos"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

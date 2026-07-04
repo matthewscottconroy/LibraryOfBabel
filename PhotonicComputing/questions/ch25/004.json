@@ -1,0 +1,18 @@
+{
+  "question_id": "5dbf428d-7c6b-4439-8fcb-49ab9e929f6b",
+  "chapter": 25,
+  "phase": 4,
+  "kind": "mc",
+  "text": "PsiQuantum's fusion-based architecture handles photon loss as an erasure error. Why is that choice strategically important?",
+  "choices": [
+    "Erasure errors require no error correction at all",
+    "Erasure lets the machine run at room temperature without single-photon detectors",
+    "Erasure errors enjoy a much higher correction threshold (of order 10% per photon) than general gate errors (about 1%)",
+    "Erasure converts the machine from a discrete-variable to a continuous-variable encoding"
+  ],
+  "answer": 2,
+  "explanation": "In fusion-based quantum computation the dominant error is photon loss, and treating it as a heralded erasure gives correction thresholds of order 10% per photon versus roughly 1% for general gate errors, a far more forgiving budget. Erasure still requires correction (not option 0), does not remove the need for cryogenic SNSPDs, and does not change the discrete-variable encoding.",
+  "tags": ["psiquantum", "fusion-based", "erasure", "quantum-photonics"],
+  "difficulty": "intermediate",
+  "generated": true
+}

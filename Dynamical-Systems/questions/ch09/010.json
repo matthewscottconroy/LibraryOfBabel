@@ -1,0 +1,19 @@
+{
+  "question_id": "e135e43c-b865-474c-af6a-71702aea3b21",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The relative entropy H(rho || gamma) is a ___ function for the Fokker-Planck equation, decreasing monotonically to zero at equilibrium.",
+  "choices": [
+    "Lyapunov"
+  ],
+  "answer": "Lyapunov",
+  "explanation": "Relative entropy acts as a Lyapunov functional whose monotone decay (quantified by the log-Sobolev inequality) drives convergence to the Gibbs equilibrium density.",
+  "tags": [
+    "relative-entropy",
+    "fokker-planck",
+    "lyapunov-functional"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

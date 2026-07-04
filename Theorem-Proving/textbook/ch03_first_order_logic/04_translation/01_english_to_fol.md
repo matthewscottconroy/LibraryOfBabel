@@ -34,4 +34,4 @@ the ambiguities that natural language leaves open.
 - ∃y(Human(y) ∧ ∀x(Dog(x) → Loves(x,y))) — some human is loved by all dogs
 
 ## Exercises
-See `problems/ch03_predicate_logic/01_translation_exercises.md`
+See `problems/ch03_first_order_logic/01_translation_exercises.md`

@@ -1,0 +1,22 @@
+{
+  "question_id": "07bb467d-9afd-411d-a870-fba258b30659",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "According to the neuroscience section, what is the main objection to FORCE as a biological learning rule for motor cortex?",
+  "choices": [
+    "It must modify recurrent synapses, which biological neurons cannot do",
+    "It converges far too slowly to match real animal motor learning",
+    "It predicts fixed-point dynamics, contradicting M1's observed rotational dynamics",
+    "It requires a global, moment-by-moment supervised error signal e(t) that has no identified source in M1"
+  ],
+  "answer": 3,
+  "explanation": "The standard objection is that RLS needs the target output at every millisecond (a global supervised error) with no known M1 substrate. Standard FORCE does NOT modify recurrent weights; it converges quickly (real learning is slower); and it actually REPRODUCES M1 rotational dynamics rather than contradicting them.",
+  "tags": [
+    "force",
+    "neuroscience",
+    "biological-plausibility"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

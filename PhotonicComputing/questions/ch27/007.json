@@ -1,0 +1,13 @@
+{
+  "question_id": "08e04b92-d5f6-4a12-88f0-73288bca69a5",
+  "chapter": 27,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: Energy per operation in digital CMOS accelerators has improved by roughly 40% per year over the past decade, making the electronic baseline a moving target against which any photonic advantage must be measured.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. The chapter stresses that digital CMOS energy per operation has fallen roughly 40% per year over the past decade, so a photonic advantage quoted against a frozen electronic baseline is misleading; the incumbent keeps improving and must be compared as a moving target.",
+  "tags": ["digital-baseline", "benchmarking", "moving-target"],
+  "difficulty": "beginner",
+  "generated": true
+}

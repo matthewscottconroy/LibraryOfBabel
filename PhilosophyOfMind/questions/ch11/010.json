@@ -1,0 +1,20 @@
+{
+  "question_id": "39ce04bc-ba17-41e5-9750-c4d0ed95b21f",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The property whereby the meaning of a complex representation is determined by the meanings of its constituents and the way they are combined -- so that 'John loves Mary' and 'Mary loves John' differ in meaning -- is called ___.",
+  "choices": [
+    "compositionality"
+  ],
+  "answer": "compositionality",
+  "explanation": "Compositionality (together with systematicity) is the feature Fodor and Pylyshyn argue requires a language-like, constituent-structured medium of thought and which they charge connectionist networks cannot straightforwardly capture. It is distinct from mere productivity (the capacity to generate indefinitely many thoughts).",
+  "tags": [
+    "compositionality",
+    "systematicity",
+    "fodor-pylyshyn",
+    "constituent-structure"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "1f9a4c72-6b3e-4d80-8a29-5c7f0b1e3d64",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Mousavi et al. (2013) showed that a family of plant genes homologous to animal ionotropic glutamate receptors is required for what process?",
+  "choices": [
+    "Propagation of electrical wound signals from one leaf to another",
+    "Sensing gravity via amyloplast sedimentation in statocytes",
+    "Producing the airborne signal methyl jasmonate",
+    "Silencing the FLC gene during vernalization"
+  ],
+  "answer": 0,
+  "explanation": "Plant GLUTAMATE RECEPTOR-LIKE (GLR) genes act as ligand-gated calcium channels and mediate leaf-to-leaf electrical wound signaling, the strongest molecular link between plant electrical signaling and animal synaptic machinery. Gravity sensing relies on amyloplasts (choice 1), methyl jasmonate is a jasmonate derivative (choice 2), and FLC silencing is a Polycomb-based chromatin process (choice 3).",
+  "tags": ["plant-signaling", "glutamate-receptor", "wound-signaling", "glr"],
+  "difficulty": "intermediate",
+  "generated": true
+}

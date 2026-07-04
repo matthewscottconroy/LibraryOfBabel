@@ -1,0 +1,18 @@
+{
+  "question_id": "6592c01a-d8d5-4a59-9196-d54cfb07e409",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Roughly how much faster is a spike from a photonic (excitable-laser) neuron than a biological spike?",
+  "choices": [
+    "About 10 times faster",
+    "About 100 times faster",
+    "About 8 orders of magnitude faster: a biological spike lasts ~1 ms while an excitable-laser spike is ~1-10 ps",
+    "They occur at essentially the same speed"
+  ],
+  "answer": 2,
+  "explanation": "A biological spike is about 1 ms while an excitable semiconductor-laser neuron produces ~1-10 ps spikes, roughly eight orders of magnitude faster (Nahmias et al. 2013). The physical basis is fast optical dynamics (photon lifetime ~ps, carrier lifetime ~ns), so the gap is far larger than 10x or 100x.",
+  "tags": ["neuromorphic", "photonic-speed", "excitable-laser", "nahmias-2013"],
+  "difficulty": "beginner",
+  "generated": true
+}

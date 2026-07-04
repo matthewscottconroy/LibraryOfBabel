@@ -1,0 +1,20 @@
+{
+  "question_id": "657dc697-795c-40be-8996-2ff23f060455",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The evolutionary-psychology thesis (Cosmides and Tooby) that the whole mind -- not just peripheral input systems -- is composed of many domain-specific, innate modules, with no domain-general central processor, is known as ___.",
+  "choices": [
+    "massive modularity"
+  ],
+  "answer": "massive modularity",
+  "explanation": "Massive modularity extends Fodor's modularity 'all the way up,' denying a general-purpose central reasoner. Fodor himself rejected it, holding that genuinely central processes (planning, belief revision) are isotropic and non-modular. It is thus distinct from Fodor's own thesis, which restricts modularity to input systems.",
+  "tags": [
+    "massive-modularity",
+    "cosmides-tooby",
+    "evolutionary-psychology",
+    "modularity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

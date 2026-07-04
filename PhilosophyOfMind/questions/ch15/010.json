@@ -1,0 +1,20 @@
+{
+  "question_id": "8b69a660-3c53-4d8f-ac11-386ee7af83bc",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "blank",
+  "text": "In Nagel's model of intertheoretic reduction, the biconditional statements connecting the terms of the reduced theory to those of the reducing theory (e.g., 'M = N') are called ___.",
+  "choices": [
+    "bridge laws",
+    "bridge principles"
+  ],
+  "answer": "bridge laws",
+  "explanation": "In Nagel's model, bridge laws (bridge principles) are the biconditionals connecting the reduced theory's terms to the reducing theory's terms, required to derive the higher-level laws; the multiple realizability argument attacks their availability. The expected term is 'bridge laws.'",
+  "tags": [
+    "bridge-laws",
+    "nagel",
+    "reduction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

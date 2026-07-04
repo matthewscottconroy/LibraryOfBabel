@@ -1,0 +1,20 @@
+{
+  "question_id": "8831c012-e9bd-46e6-abb8-1684f17600b8",
+  "chapter": 25,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Xanadu pursues the continuous-variable route, where its own architectural blueprint identifies the generation of ___ states (a bosonic code, abbreviation of Gottesman-Kitaev-Preskill) as the acknowledged hardest step toward fault tolerance.",
+  "choices": [
+    "GKP"
+  ],
+  "answer": "GKP",
+  "explanation": "Gottesman-Kitaev-Preskill (GKP) state generation is named in Xanadu's blueprint as the acknowledged hardest step toward continuous-variable fault tolerance, the CV analog of PsiQuantum's photon-loss problem.",
+  "tags": [
+    "xanadu",
+    "continuous-variable",
+    "gkp",
+    "quantum-photonics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

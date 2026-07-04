@@ -1,0 +1,20 @@
+{
+  "chapter": 10,
+  "phase": 2,
+  "kind": "tf",
+  "text": "A classic Turing pattern requires the inhibitor to diffuse faster than the activator (D_v >> D_u).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: Turing pattern formation requires an activator-inhibitor pair where the inhibitor diffuses much faster than the activator, alongside a homogeneous steady state that is stable without diffusion but destabilized once diffusion is added. This differential-diffusion condition is what allows local activation with long-range inhibition, producing stripes or spots.",
+  "tags": [
+    "turing-pattern",
+    "reaction-diffusion",
+    "pattern-formation"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "30d05e93-3cfb-4a91-b2c7-1f1f520e71f3"
+}

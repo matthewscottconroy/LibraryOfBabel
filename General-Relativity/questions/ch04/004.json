@@ -1,0 +1,22 @@
+{
+  "question_id": "4ddc5b63-9fbe-4a3d-ab35-590af704803c",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the central-force problem the radial motion is governed by the effective potential V_eff(r) = V(r) + ℓ²/(2mr²). The added term ℓ²/(2mr²) represents:",
+  "choices": [
+    "the gravitational potential energy of the two bodies",
+    "the total mechanical energy of the orbit",
+    "a relativistic correction predicted by general relativity",
+    "the centrifugal barrier arising from conserved angular momentum"
+  ],
+  "answer": 3,
+  "explanation": "The book identifies ℓ²/(2mr²) as the centrifugal (angular-momentum) term that reduces the 2D problem to 1D radial motion; for ℓ ≠ 0 it forms a barrier preventing r → 0. V(r) is the separate gravitational term, not this one. The GR correction is a distinct term −GMℓ²/(c²r³), and the total energy E is a constant of the motion rather than a potential.",
+  "tags": [
+    "orbits",
+    "effective-potential",
+    "central-force"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

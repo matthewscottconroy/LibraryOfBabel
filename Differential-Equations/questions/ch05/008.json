@@ -1,0 +1,19 @@
+{
+  "question_id": "4a7846f7-2ab6-484f-b3b7-d3c0188fd3bc",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "blank",
+  "text": "For first-order PDEs, the ___ are the curves along which the equation reduces to an ODE and information propagates.",
+  "choices": [
+    "characteristics"
+  ],
+  "answer": "characteristics",
+  "explanation": "The method of characteristics propagates the solution along characteristic curves; when these curves cross, smooth data can develop a shock (whose speed is fixed by the Rankine-Hugoniot condition). This geometric picture underlies hyperbolic PDE theory.",
+  "tags": [
+    "method-of-characteristics",
+    "shocks",
+    "first-order-pde"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

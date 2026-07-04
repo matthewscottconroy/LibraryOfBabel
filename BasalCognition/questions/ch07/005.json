@@ -1,0 +1,13 @@
+{
+  "question_id": "27e1b9d4-8a35-4f6e-9c07-1b4d8e2a6f93",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Suppose molecular phylogenetics places ctenophores as the sister group to all other animals, with the non-neural sponges positioned closer to bilaterians. What is the most parsimonious implication for nervous system evolution?",
+  "choices": ["Nervous systems arose independently in ctenophores and in the ancestor of the remaining neural animals (polyphyly)", "All animal nervous systems are homologous, descending from a single origin (monophyly)", "Sponges must have secondarily lost a fully formed nervous system", "Ctenophores must be derived descendants of cnidarians"],
+  "answer": 0,
+  "explanation": "If the neuron-less sponges branch between ctenophores and the other neural animals, the simplest reading is that neurons evolved twice, once in ctenophores and once in the cnidarian-plus-bilaterian lineage (polyphyly). Monophyly is the competing hypothesis this topology argues against; positing sponge loss of a nervous system is less parsimonious; and this topology places ctenophores basal to, not derived from, cnidarians.",
+  "tags": ["polyphyly", "monophyly", "phylogenetics", "nervous-system-origin"],
+  "difficulty": "advanced",
+  "generated": true
+}

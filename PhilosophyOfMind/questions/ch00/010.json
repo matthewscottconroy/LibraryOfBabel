@@ -1,0 +1,21 @@
+{
+  "question_id": "611b7ead-5bd0-44eb-805c-239a0a45a95d",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Plato's Republic divides the soul into three parts: reason, spirit, and ___ — the part responsible for bodily desires such as hunger and thirst.",
+  "choices": [
+    "appetite",
+    "appetitive"
+  ],
+  "answer": "appetite",
+  "explanation": "Plato's tripartite soul comprises reason (the rational part), spirit (the spirited part), and appetite (the appetitive part), which is the seat of bodily desire. The expected answer is 'appetite'; reason and spirit are the other two parts.",
+  "tags": [
+    "plato",
+    "tripartite-soul",
+    "appetite",
+    "republic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

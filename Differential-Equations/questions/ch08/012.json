@@ -1,0 +1,22 @@
+{
+  "question_id": "dafe5e65-d1c5-4eba-8a8a-7d9911d59105",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "For a linear operator between normed spaces, boundedness is equivalent to:",
+  "choices": [
+    "continuity",
+    "invertibility",
+    "compactness",
+    "self-adjointness"
+  ],
+  "answer": 0,
+  "explanation": "For linear maps, being bounded (norm of T x at most C times norm of x) is equivalent to being continuous, a foundational fact of functional analysis. Compactness and self-adjointness are strictly stronger or special properties, and boundedness says nothing about invertibility.",
+  "tags": [
+    "bounded-operators",
+    "continuity",
+    "functional-analysis"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

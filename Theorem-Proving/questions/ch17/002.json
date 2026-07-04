@@ -1,0 +1,22 @@
+{
+  "question_id": "49164a22-6d3c-4732-9ea9-5a57a931b0f0",
+  "chapter": 17,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What did Tarski's 1933 theorem establish about truth?",
+  "choices": [
+    "It gave the first explicit definition of truth within arithmetic itself",
+    "It proved that truth and provability coincide",
+    "No consistent theory extending Robinson arithmetic can define its own truth predicate",
+    "Truth can be defined, but only for finite languages"
+  ],
+  "answer": 2,
+  "explanation": "Tarski's undefinability theorem proves that no consistent theory extending Q contains a truth predicate for its own language — truth is UNDEFINABLE within the language, not defined there. Option 0 inverts the result; truth and provability come apart (provability IS definable, truth is not), refuting option 1; and the limitation concerns expressive strength, not finiteness.",
+  "tags": [
+    "tarski",
+    "undefinability",
+    "truth-predicate"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

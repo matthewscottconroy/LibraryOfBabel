@@ -1,0 +1,18 @@
+{
+  "question_id": "18680dac-6054-4607-b000-229fc44b731a",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is David Lewis's problem of temporary intrinsics?",
+  "choices": [
+    "The puzzle of how one persisting object can have incompatible intrinsic properties (e.g., being straight, then bent) at different times without instantiating contradictory properties",
+    "The puzzle of how two numerically distinct ships can be built from exactly the same planks arranged in the same way",
+    "The puzzle of how the self can be a genuine unity when introspection reveals only a succession of distinct perceptions",
+    "The puzzle of how psychological continuity can hold between one earlier person and two distinct later persons"
+  ],
+  "answer": 0,
+  "explanation": "The problem of temporary intrinsics is that one and the same persisting object seems to instantiate incompatible intrinsic properties (straight at one time, bent at another), which threatens contradiction because a single thing cannot have contradictory properties. The reassembled-ship option is the Ship of Theseus (material-identity) puzzle, the succession-of-perceptions option is Hume's problem of the unity of the bundle, and the one-earlier-to-two-later option is the fission/reduplication problem — each a distinct puzzle from this unit.",
+  "tags": ["temporary-intrinsics", "lewis", "persistence", "intrinsic-properties"],
+  "difficulty": "beginner",
+  "generated": true
+}

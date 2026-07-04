@@ -1,0 +1,18 @@
+{
+  "question_id": "92f20c1b-b0d0-4951-8f9d-87491701fc24",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Frank Jackson's knowledge argument, Mary knows every physical fact about color vision from inside a black-and-white room. What is the argument's route to the conclusion that physicalism is false?",
+  "choices": [
+    "Mental types can be realized by different neural states in different creatures, so mental types are not physical types.",
+    "On first seeing red Mary learns something new, namely what it is like to see red, so she did not already know all the facts and some facts are non-physical.",
+    "A physical duplicate of Mary who entirely lacks phenomenal consciousness is conceivable, and therefore metaphysically possible.",
+    "Talk of 'seeing red' belongs to folk psychology, which a mature neuroscience will ultimately eliminate."
+  ],
+  "answer": 1,
+  "explanation": "The knowledge argument turns on an epistemic premise: complete physical knowledge omits knowledge of what experience is like, so not every fact is physical. Option 0 is the multiple realizability argument (which targets type-identity, not physicalism as such), option 2 is the separate zombie/conceivability argument, and option 3 is eliminativism. Each is a real position in the debate, but none is Jackson's line of reasoning.",
+  "tags": ["knowledge argument", "mary", "jackson", "qualia", "physicalism"],
+  "difficulty": "intermediate",
+  "generated": true
+}

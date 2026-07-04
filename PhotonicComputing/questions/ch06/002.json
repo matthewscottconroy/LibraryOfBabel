@@ -1,0 +1,13 @@
+{
+  "question_id": "f27bc626-fa64-4e10-a240-d46e33ab6447",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why can silicon not serve as an efficient on-chip laser source?",
+  "choices": ["It is opaque at 1550 nm", "Its refractive index is too low to confine light", "It has an indirect bandgap, so radiative recombination is very inefficient", "It has no thermo-optic effect"],
+  "answer": 2,
+  "explanation": "Silicon's indirect bandgap forces radiative recombination to involve a phonon, making it a very poor light emitter that cannot lase efficiently, so III-V materials must be integrated for gain. Silicon is actually transparent at 1550 nm, has a high index (3.48), and has a strong thermo-optic effect, so the other options are false.",
+  "tags": ["indirect-bandgap", "iii-v-integration", "on-chip-laser"],
+  "difficulty": "beginner",
+  "generated": true
+}

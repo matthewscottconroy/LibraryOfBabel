@@ -1,0 +1,18 @@
+{
+  "question_id": "439d3dec-1fed-49f0-9917-484f25e4413a",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Two events have a timelike separation. According to the book, this means:",
+  "choices": [
+    "ds² < 0, a massive particle can travel between them, and their time ordering is absolute",
+    "ds² > 0, no signal can connect them, and their time ordering is frame-dependent",
+    "ds² = 0, and only a light ray can connect them",
+    "ds² < 0, but the two events are causally disconnected"
+  ],
+  "answer": 0,
+  "explanation": "For timelike separation ds² < 0 (in the −+++ convention) the spatial separation is less than c times the temporal separation, so a massive particle can connect the events and all observers agree on their time ordering. Choice 1 describes spacelike separation (ds² > 0) and choice 2 describes null separation (ds² = 0). The classification is Lorentz-invariant.",
+  "tags": ["causality", "timelike", "interval"],
+  "difficulty": "beginner",
+  "generated": true
+}

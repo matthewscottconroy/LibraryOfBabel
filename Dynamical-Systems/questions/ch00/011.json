@@ -1,0 +1,20 @@
+{
+  "question_id": "8dbc3edc-3395-453b-8044-6a1b44a4f2d1",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The Poincare-Bendixson theorem implies deterministic chaos is impossible for continuous flows in dimension ___.",
+  "choices": [
+    "2",
+    "two"
+  ],
+  "answer": "2",
+  "explanation": "In the plane, bounded orbits have omega-limit sets that are equilibria, periodic orbits, or homoclinic/heteroclinic connections, leaving no room for chaos; at least three dimensions are needed.",
+  "tags": [
+    "poincare-bendixson",
+    "chaos",
+    "dimension"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

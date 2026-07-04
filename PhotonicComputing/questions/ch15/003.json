@@ -1,0 +1,18 @@
+{
+  "question_id": "b690dcb5-ece0-433c-b510-e9abd9f58378",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the laser-neuron rate equations, excitability arises from a separation of timescales. Which identification is correct?",
+  "choices": [
+    "The carrier density is the fast variable (photon lifetime) and the optical field is the slow variable (carrier lifetime)",
+    "The optical field is the fast variable (photon lifetime ~ps) and the carrier density is the slow recovery variable (carrier lifetime ~ns)",
+    "Both field and carriers evolve on the same picosecond timescale",
+    "The refractory period is set by the fast photon lifetime"
+  ],
+  "answer": 1,
+  "explanation": "The book gives the photon lifetime tau_p ~ ps as the fast timescale (optical field) and the carrier lifetime tau_s ~ ns as the slow recovery timescale (carrier density), with ratio tau_s/tau_p ~ 10^2-10^3. Choice 0 swaps the roles; choice 2 denies the required separation; and the refractory recovery is set by the slow carrier lifetime, not the fast photon lifetime, so choice 3 is wrong.",
+  "tags": ["rate-equations", "excitability", "timescales"],
+  "difficulty": "intermediate",
+  "generated": true
+}

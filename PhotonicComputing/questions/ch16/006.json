@@ -1,0 +1,18 @@
+{
+  "question_id": "bd80896a-0eaa-4170-8e77-c73627a80318",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the CHSH inequality, local hidden-variable theories obey |S| <= 2. What is the maximum value quantum mechanics allows (the Tsirelson bound)?",
+  "choices": [
+    "|S| = 2 (quantum mechanics cannot exceed the classical bound)",
+    "|S| = 4",
+    "|S| = 3",
+    "|S| = 2*sqrt(2) is about 2.83"
+  ],
+  "answer": 3,
+  "explanation": "The Tsirelson bound is 2*sqrt(2) is about 2.83, attained at measurement angles (0, 45; 22.5, 67.5) degrees. |S| = 2 is the classical LHV limit (choice 0), |S| = 4 is the algebraic maximum quantum mechanics does NOT reach (choice 1), and 3 is not a special bound (choice 2).",
+  "tags": ["chsh", "tsirelson", "bell-inequality"],
+  "difficulty": "advanced",
+  "generated": true
+}

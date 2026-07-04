@@ -1,0 +1,21 @@
+{
+  "question_id": "005b3b2d-65cb-4a20-8886-a0361d0ff55b",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A function f: A → B is injective precisely when:",
+  "choices": [
+    "f(a) = f(b) implies a = b",
+    "every b ∈ B has at least one preimage",
+    "f(A) = B",
+    "a = b implies f(a) = f(b)"
+  ],
+  "answer": 0,
+  "explanation": "Injectivity says distinct inputs give distinct outputs, i.e. f(a) = f(b) ⇒ a = b. The two middle options describe surjectivity, and 'a = b implies f(a) = f(b)' is well-definedness, which every function satisfies.",
+  "tags": [
+    "functions",
+    "injectivity"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

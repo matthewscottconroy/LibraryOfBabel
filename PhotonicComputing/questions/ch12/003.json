@@ -1,0 +1,18 @@
+{
+  "question_id": "525246fc-8aa4-4a42-ac03-246531378a96",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The pragmatic photonic activation is opto-electronic (O-E-O). Why is its overhead acceptable?",
+  "choices": [
+    "Because O-E-O conversion is completely energy-free",
+    "Because all-optical activations are actually cheaper per event",
+    "Because activations are O(N) while the matrix multiply is O(N^2), so the ~0.5-5 pJ, ~100 ps O-E-O cost per neuron is negligible at large N, and O-E-O also restores signal levels and gain",
+    "Because photons interact strongly, making electronic conversion unnecessary"
+  ],
+  "answer": 2,
+  "explanation": "The optics does the O(N^2) matrix work while O-E-O crossings scale only as O(N), so their per-neuron cost becomes asymptotically negligible at large N, and O-E-O supplies the gain and cascadability all-optical schemes lack. O-E-O is not energy-free (option 0), the point is scaling rather than per-event cost (option 1), and photons famously do NOT interact strongly (option 3).",
+  "tags": ["activation", "opto-electronic", "oeo"],
+  "difficulty": "intermediate",
+  "generated": true
+}

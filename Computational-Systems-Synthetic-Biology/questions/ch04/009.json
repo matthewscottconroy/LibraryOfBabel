@@ -1,0 +1,18 @@
+{
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In BLAST, the expected number of alignments with a given score that would arise purely by chance against a database of that size is called the ___.",
+  "choices": [
+    "E-value"
+  ],
+  "answer": "E-value",
+  "explanation": "The E-value quantifies how many chance alignments of that score or better would be expected given the database and query size, computed as E = Kmn·e^(-λS). Smaller E-values indicate stronger evidence of true homology rather than random chance.",
+  "tags": [
+    "blast",
+    "e-value"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "cc45a63a-b640-4029-babd-e3ad4071e47d"
+}

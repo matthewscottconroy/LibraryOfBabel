@@ -1,0 +1,20 @@
+{
+  "question_id": "e37c7001-b4d8-4f73-85f9-c0b172a7aa3a",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Ricoeur distinguishes idem-identity (numerical and qualitative sameness) from ___, the selfhood that consists in keeping one's word and remaining faithful to one's commitments; narrative identity mediates between the two.",
+  "choices": [
+    "ipse-identity"
+  ],
+  "answer": "ipse-identity",
+  "explanation": "The expected answer is 'ipse-identity.' For Ricoeur, ipse-identity is the dynamic, ethical identity of a self constituted through fidelity to commitments (keeping one's word), as contrasted with idem-identity, the numerical and qualitative sameness that analytic accounts emphasize. Narrative identity mediates between idem and ipse.",
+  "tags": [
+    "ricoeur",
+    "ipse-identity",
+    "narrative-identity",
+    "idem-identity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

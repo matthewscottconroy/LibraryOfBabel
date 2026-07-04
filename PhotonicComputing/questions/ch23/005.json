@@ -1,0 +1,13 @@
+{
+  "question_id": "7130edb9-703f-4b0b-8ea4-6841fe928b9a",
+  "chapter": 23,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The adjoint method is the engine of inverse design because it computes the gradient of an objective F with respect to every design variable using how many electromagnetic simulations?",
+  "choices": ["One simulation per design variable (finite differences)", "Two simulations — one forward, one adjoint — with cost independent of the number of design variables", "N simulations, one per wavelength, then averaged", "A single forward simulation, from which all gradients read off directly"],
+  "answer": 1,
+  "explanation": "The adjoint method gets dF/d-epsilon at every point from just a forward run and an adjoint run (same solver, source at the output monitor), with cost independent of the number of variables — which is what lets an optimizer tune 10^5 pixels. Choice 0 is the finite-difference cost the adjoint method avoids; choice 2 confuses wavelength sampling with the gradient; choice 3 is wrong — one forward run alone cannot yield the gradient without the adjoint solve.",
+  "tags": ["adjoint-method", "inverse-design", "gradient"],
+  "difficulty": "advanced",
+  "generated": true
+}

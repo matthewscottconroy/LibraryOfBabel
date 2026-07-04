@@ -1,0 +1,22 @@
+{
+  "question_id": "873e3fc5-b8c0-4519-982d-8d0906e689f8",
+  "chapter": 16,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The chain rule for entropy states that the joint entropy H(X,Y) equals:",
+  "choices": [
+    "H(X) + H(Y∣X)",
+    "H(X) · H(Y)",
+    "H(X) + H(Y)",
+    "H(X) − H(Y∣X)"
+  ],
+  "answer": 0,
+  "explanation": "H(X,Y) = H(X) + H(Y∣X): the joint uncertainty is the uncertainty of X plus the expected remaining uncertainty of Y given X. H(X)+H(Y) holds only when X and Y are independent; the product and difference forms are not valid identities.",
+  "tags": [
+    "chain-rule",
+    "joint-entropy",
+    "conditional-entropy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

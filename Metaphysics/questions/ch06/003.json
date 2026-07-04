@@ -1,0 +1,22 @@
+{
+  "question_id": "81980370-e9c8-47e6-a98e-1ae4b125f0c3",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Putnam's multiple realizability argument is standardly taken to refute which position?",
+  "choices": [
+    "Functionalism, on the ground that functional states cannot be realized in silicon.",
+    "Token identity theory, on the ground that it denies mental events are physical events.",
+    "Type identity theory, because a mental type such as pain can be realized by different physical types in humans, octopuses, and hypothetical Martians.",
+    "Eliminative materialism, because it shows that folk psychology is indispensable."
+  ],
+  "answer": 2,
+  "explanation": "If pain were identical to a single physical type (C-fibre firing), creatures lacking that type could not be in pain; but pain seems realizable across diverse substrates, so mental types are not identical to physical types. Functionalism is the view that accommodates multiple realizability rather than its target, and token identity survives because it never asserted type-type identity.",
+  "tags": [
+    "multiple-realizability",
+    "functionalism",
+    "putnam"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

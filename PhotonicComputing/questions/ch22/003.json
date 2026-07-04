@@ -1,0 +1,13 @@
+{
+  "question_id": "0d63eb6e-a218-452d-8f09-7633e26a9482",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A real silicon strip waveguide loses 1-3 dB/cm even though bulk crystalline silicon is nearly lossless at 1550 nm. What is the dominant origin of this propagation loss?",
+  "choices": ["Free-carrier absorption in the silicon core", "Rayleigh scattering from the crystalline lattice", "Two-photon absorption at telecom wavelengths", "Lithography- and etch-induced sidewall roughness (Payne-Lacey scattering) — a fabrication property, not a material one"],
+  "answer": 3,
+  "explanation": "Waveguide loss comes almost entirely from 1-3 nm RMS sidewall roughness left by lithography and etching, scaling as alpha proportional to sigma^2 via the Payne-Lacey relation; loss is a fabrication property. Choice 0 (free carriers) matters only in doped/active regions; choice 1 (bulk Rayleigh) is negligible in crystalline Si; choice 2 (two-photon absorption) matters only at high optical intensity, not for linear loss.",
+  "tags": ["waveguide-loss", "sidewall-roughness", "etching"],
+  "difficulty": "intermediate",
+  "generated": true
+}

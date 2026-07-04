@@ -1,0 +1,21 @@
+{
+  "question_id": "5cb35404-27d8-4514-8be2-a424e1df701c",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The singular values of a matrix A are defined as:",
+  "choices": [
+    "the square roots of the eigenvalues of A*A",
+    "the eigenvalues of A",
+    "the absolute values of the eigenvalues of A",
+    "the diagonal entries of A"
+  ],
+  "answer": 0,
+  "explanation": "A*A is positive semidefinite, so its eigenvalues are ≥ 0 and have well-defined square roots σ₁ ≥ σ₂ ≥ ⋯ ≥ 0. Singular values coincide with |eigenvalues| only for normal matrices — e.g. [[0,1],[0,0]] has both eigenvalues 0 but singular values 1 and 0.",
+  "tags": [
+    "svd",
+    "singular-values"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

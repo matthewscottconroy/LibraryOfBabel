@@ -1,0 +1,21 @@
+{
+  "question_id": "5664e3dc-6448-4053-b8d4-0249d1c8dd69",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Compute ℤ/4ℤ ⊗_ℤ ℤ/6ℤ.",
+  "choices": [
+    "ℤ/2ℤ",
+    "ℤ/12ℤ",
+    "ℤ/24ℤ",
+    "0"
+  ],
+  "answer": 0,
+  "explanation": "ℤ/mℤ ⊗_ℤ ℤ/nℤ ≅ ℤ/gcd(m,n)ℤ, and gcd(4,6) = 2. Intuitively, in the tensor product one can move integers across ⊗, so 1⊗1 is killed by both 4 and 6, hence by gcd(4,6) = 2.",
+  "tags": [
+    "modules",
+    "tensor-products"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

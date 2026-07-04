@@ -1,0 +1,22 @@
+{
+  "question_id": "db7d9782-1385-43f4-a1a2-9f8945139e32",
+  "chapter": 12,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Because unitary evolution is an isometry, the Lyapunov exponents of quantum dynamics are:",
+  "choices": [
+    "all strictly positive",
+    "of mixed sign",
+    "infinite",
+    "all zero"
+  ],
+  "answer": 3,
+  "explanation": "Isometries preserve distances, so there is no exponential separation of states: all Lyapunov exponents vanish. Quantum chaos is therefore diagnosed spectrally, not via exponents.",
+  "tags": [
+    "quantum-chaos",
+    "lyapunov-exponents",
+    "unitary"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

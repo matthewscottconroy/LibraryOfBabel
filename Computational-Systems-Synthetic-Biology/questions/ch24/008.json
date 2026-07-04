@@ -1,0 +1,20 @@
+{
+  "chapter": 24,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Coarse-grained force fields like MARTINI map roughly one bead to one heavy atom, making simulations only marginally faster than fully atomistic MD.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false on both counts: MARTINI maps approximately four heavy atoms to a single bead, not one-to-one, and this coarse-graining yields simulations that are roughly 100 to 1000 times faster than atomistic MD, far more than a marginal speedup.",
+  "tags": [
+    "molecular-dynamics",
+    "coarse-grained",
+    "martini"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "920ba432-1bc0-4c40-93a3-ce43d708914f"
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "eb605f4c-64cc-4460-af9c-ecba8c604c6c",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "How does the book characterize the current scholarly verdict on Whorf's claim that Hopi is a “timeless” language lacking grammatical tense?",
+  "choices": [
+    "It is now the firmly established consensus, confirming the strong version of linguistic relativity",
+    "It was largely refuted by Malotki, who documented extensive temporal resources in Hopi; the strong Sapir-Whorf hypothesis has very few defenders",
+    "It was confirmed by Malotki but reinterpreted as evidence for cyclical rather than linear time",
+    "It is accepted for Hopi specifically but rejected for every other language studied"
+  ],
+  "answer": 1,
+  "explanation": "The book reports that Malotki's meticulous study found extensive temporal vocabulary and grammar in Hopi — 'Hopi is not a timeless language' — and that the strong Sapir-Whorf hypothesis now has very few defenders. The distractors invert this verdict, or wrongly claim Malotki confirmed (rather than refuted) Whorf.",
+  "tags": ["hopi", "whorf", "sapir-whorf", "linguistic-relativity", "tense"],
+  "difficulty": "intermediate",
+  "generated": true
+}

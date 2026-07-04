@@ -1,0 +1,13 @@
+{
+  "question_id": "a85d4d3b-ba58-4150-a419-33ff73732474",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "tf",
+  "text": "A passive diffractive layer can implement an arbitrary complex-valued weight matrix, including gain (amplification) at each pixel.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False: a passive layer cannot amplify, so its transmission is phase-only (t = e^{i*phi}), far less flexible than an arbitrary complex weight. This constraint is precisely why depth (more phase layers) is needed to buy expressivity; providing gain would require an active medium.",
+  "tags": ["d2nn", "passivity", "phase-only", "gain"],
+  "difficulty": "intermediate",
+  "generated": true
+}

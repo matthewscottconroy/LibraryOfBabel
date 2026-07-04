@@ -1,0 +1,21 @@
+{
+  "question_id": "499a3506-55d3-47f6-9635-f4c4bf5d9079",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Unlike a standard ESN, NVAR has no transient reservoir state to discard, so it needs no reservoir ___ before prediction can begin.",
+  "choices": [
+    "washout",
+    "warmup",
+    "warm-up"
+  ],
+  "answer": "washout",
+  "explanation": "Because the features are a direct function of the current and past inputs, prediction can start as soon as k+1 samples are available — there is no initial-condition transient to wash out. Eliminating the washout/warm-up (and hyperparameters like ρ that govern it) is a hallmark advantage of NVAR over the ESN.",
+  "tags": [
+    "nvar",
+    "washout",
+    "no-warmup"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -91,7 +91,7 @@ Cubical type theory has a natural categorical semantics: *cubical sets*.
 
 **Types are fibrant cubical sets.** In the CCHM model, each type $A$ in context $\Gamma$ is interpreted as a fibrant presheaf over the cube category. The Kan condition for $A$ corresponds to the composition operation `hcomp`.
 
-**The universe.** The universe $\mathsf{Type}$ is the fibrant cubical set of "small" fibrant cubical sets. The Glue type corresponds to a specific construction in this fibrant universe.
+**The universe.** The universe $\mathsf{Type}$ is the fibrant cubical set of "small" fibrant cubical sets — the *Hofmann-Streicher universe* construction, adapted to the fibrant setting. The Glue type corresponds to a specific construction in this fibrant universe.
 
 **Univalence in the model.** The path space of the universe between two types $A$ and $B$ is the type of equivalences $A \simeq B$. This is a theorem about the model (not an axiom), and it corresponds to the type-theoretic fact that `ua` constructs a path in the universe.
 

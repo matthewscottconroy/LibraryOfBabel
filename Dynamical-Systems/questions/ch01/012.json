@@ -1,0 +1,20 @@
+{
+  "question_id": "12c2f1a3-05df-4fb6-a6ff-ef98031be7f4",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "For a planar closed curve, the signed number of times a vector field rotates as you traverse it once is the ___ number.",
+  "choices": [
+    "winding",
+    "index"
+  ],
+  "answer": "winding",
+  "explanation": "The winding (index) number is a topological invariant counting rotations of the field along the curve; index sums relate to equilibria via Poincare-Hopf.",
+  "tags": [
+    "winding-number",
+    "index",
+    "topology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

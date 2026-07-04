@@ -1,0 +1,13 @@
+{
+  "question_id": "2d7da004-41a9-414c-9f7c-6dec8c99f03a",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In Chalmers's conceivability argument against physicalism, a being physically and functionally identical to a human but wholly lacking phenomenal consciousness is called a philosophical ___.",
+  "choices": ["zombie", "zombies"],
+  "answer": "zombie",
+  "explanation": "The zombie is ideally positively conceivable, Chalmers argues, and thus primarily possible, which he takes to show that phenomenal consciousness is not a priori entailed by the physical facts. Physicalist replies (the phenomenal concepts strategy, illusionism) grant that the conceivability is real but locate its source in the structure of our concepts rather than in any genuine modal fact.",
+  "tags": ["modality", "zombie-argument", "chalmers", "conceivability"],
+  "difficulty": "advanced",
+  "generated": true
+}

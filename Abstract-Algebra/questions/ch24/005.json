@@ -1,0 +1,18 @@
+{
+  "question_id": "b7f34394-5cbb-4e17-aa69-c77f0f2510c3",
+  "chapter": 24,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Los's theorem says the ultraproduct $\\prod_{i} \\mathcal{M}_i / \\mathcal{U}$ satisfies a formula $\\phi$ if and only if:",
+  "choices": [
+    "every factor $\\mathcal{M}_i$ satisfies $\\phi$",
+    "at least one factor $\\mathcal{M}_i$ satisfies $\\phi$",
+    "the set $\\{i \\mid \\mathcal{M}_i \\models \\phi\\}$ belongs to the ultrafilter $\\mathcal{U}$",
+    "$\\phi$ is a logical tautology"
+  ],
+  "answer": 2,
+  "explanation": "Los's theorem: the ultraproduct models $\\phi$ iff $\\{i \\mid \\mathcal{M}_i \\models \\phi\\} \\in \\mathcal{U}$, i.e. 'almost all' factors as measured by $\\mathcal{U}$ satisfy it. Requiring all factors is too strong and requiring one is too weak; a tautology would hold in every structure and misses the ultrafilter's role entirely.",
+  "tags": ["ultraproducts", "los-theorem", "ultrafilter"],
+  "difficulty": "intermediate",
+  "generated": true
+}

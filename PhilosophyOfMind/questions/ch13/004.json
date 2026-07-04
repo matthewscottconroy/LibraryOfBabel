@@ -1,0 +1,22 @@
+{
+  "question_id": "1c87af0a-5535-41ca-a6c1-aba32e6e1ca0",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Mirror neurons were first discovered in the early 1990s by Rizzolatti's group at Parma while recording from which region of the macaque brain?",
+  "choices": [
+    "Broca's area (area 44)",
+    "Primary visual cortex (V1)",
+    "Premotor area F5",
+    "The claustrum"
+  ],
+  "answer": 2,
+  "explanation": "The Parma group recorded mirror neurons in macaque premotor area F5, where the same neurons fired during executed and observed grasping. Broca's area is the human homolog of F5 (a tempting distractor) but not the macaque recording site; V1 is early visual cortex; and the claustrum is a Crick-Koch NCC candidate, unrelated to the discovery.",
+  "tags": [
+    "mirror-neurons",
+    "rizzolatti",
+    "area-f5"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

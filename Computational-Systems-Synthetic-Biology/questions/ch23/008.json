@@ -1,0 +1,20 @@
+{
+  "chapter": 23,
+  "phase": 4,
+  "kind": "tf",
+  "text": "UMAP preserves true global distances between all points in addition to local neighborhood structure, so distances measured in UMAP space can be interpreted quantitatively.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: the chapter explicitly warns that 'distances in UMAP space are not meaningful; only topology/neighborhood' is preserved. The statement incorrectly claims that UMAP distances are quantitatively meaningful at the global level, contradicting this explicit warning.",
+  "tags": [
+    "machine-learning",
+    "umap",
+    "dimensionality-reduction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "77dd1ba5-62ad-4b6e-b80f-666e6def5fb8"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which statement correctly describes the Neighbor-Joining (NJ) method?",
+  "choices": [
+    "It assumes a strict molecular clock and produces an ultrametric, rooted tree",
+    "It is a Bayesian method that samples tree topologies via MCMC",
+    "It uses a Q-matrix correction, does not assume a molecular clock, and produces an unrooted tree",
+    "It guarantees recovery of the globally optimal maximum-likelihood tree"
+  ],
+  "answer": 2,
+  "explanation": "Neighbor-joining uses a Q-matrix that accounts for total branch length to iteratively join the pair with minimum corrected distance, does not assume a molecular clock, and outputs an unrooted tree in O(n³) time. It is not a Bayesian/MCMC method (that describes MrBayes or BEAST2), and as a fast distance-based heuristic it has no guarantee of finding the globally optimal maximum-likelihood tree.",
+  "tags": [
+    "neighbor-joining",
+    "tree-building"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "a41ad6bc-49f1-4300-90fc-cc3756b2af66"
+}

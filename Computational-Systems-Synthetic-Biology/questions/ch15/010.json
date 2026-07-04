@@ -1,0 +1,19 @@
+{
+  "chapter": 15,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The ___ element (derived from the hammerhead or HDV ribozyme family) is a self-cleaving RNA insulator placed in the 5' UTR that creates a defined mRNA 5' end independent of the upstream promoter, normalizing expression across different promoter contexts.",
+  "choices": [
+    "RiboJ"
+  ],
+  "answer": "RiboJ",
+  "explanation": "RiboJ is a self-cleaving ribozyme insulator that removes the influence of upstream transcriptional context by generating a consistent, defined 5' mRNA end regardless of which promoter drives transcription. This addresses the broader context-dependence problem in synthetic biology, where a genetic part's measured expression can otherwise vary depending on its neighboring sequences.",
+  "tags": [
+    "riboj",
+    "insulators",
+    "ribozymes"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "39472ea6-fead-416b-ad11-b2c6b608ad2b"
+}

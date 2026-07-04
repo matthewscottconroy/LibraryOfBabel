@@ -1,0 +1,13 @@
+{
+  "question_id": "e3a6c9d4-5f0b-4c8e-9d4a-3b7f0c2e6d59",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Many quorum-sensing-controlled behaviors (secreted digestive enzymes, biofilm matrix, secreted toxins) are treated as 'public goods.' Why does this framing predict an evolutionary vulnerability for quorum-sensing populations?",
+  "choices": ["Public goods cannot diffuse away from the cell that produces them", "Producing public goods is metabolically free, so overproduction wastes nothing", "Non-producing 'cheater' cells can exploit the shared resource without paying its production cost, gaining a relative fitness advantage", "Public goods are always toxic to the bacteria that produce them"],
+  "answer": 2,
+  "explanation": "A public good is individually costly but collectively beneficial, so 'cheaters' that stop producing it while still consuming it gain a relative fitness advantage, threatening cooperation (the framework developed in the social-evolution work of Stuart West and colleagues). Option 0 is false, since diffusibility is exactly what makes the good shareable; option 1 is false, because production is costly (the crux of the problem); and option 3 is false, as such goods are not generally toxic to producers.",
+  "tags": ["public-goods", "cheaters", "social-evolution"],
+  "difficulty": "advanced",
+  "generated": true
+}

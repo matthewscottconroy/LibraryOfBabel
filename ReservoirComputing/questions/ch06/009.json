@@ -1,0 +1,21 @@
+{
+  "question_id": "a2988fb3-3fdd-4485-a5c1-5b73f93d8336",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In the lab's metrics module, the error measure defined as mean squared error divided by the variance of the target, MSE/Var(y), is abbreviated ___.",
+  "choices": [
+    "NMSE",
+    "nmse",
+    "normalized mean squared error"
+  ],
+  "answer": "NMSE",
+  "explanation": "metrics.py defines nmse = mean((y_true−y_pred)**2)/var(y_true) = MSE/Var. NRMSE is its square root. The NARMA-10 lab and appendix report this NMSE (Jaeger 2002 reference ≈ 0.004).",
+  "tags": [
+    "narma10",
+    "nmse",
+    "metric"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

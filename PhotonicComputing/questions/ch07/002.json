@@ -1,0 +1,13 @@
+{
+  "question_id": "d204faa4-9000-4ff7-ab22-056b791c1c92",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Photonic band structure rests on Bloch's theorem, which is the direct optical analog of which result from solid-state physics?",
+  "choices": ["The photoelectric effect", "The electronic band structure E_n(k) of an electron in a periodic crystal potential", "The Pauli exclusion principle", "Ohm's law"],
+  "answer": 1,
+  "explanation": "Bloch modes H_nk(r) = exp(i k.r) u_nk(r) in a periodic dielectric are the photonic counterpart of electronic Bloch states, giving a band structure omega_n(k) analogous to E_n(k). The photoelectric effect, Pauli exclusion, and Ohm's law describe entirely different physics.",
+  "tags": ["blochs-theorem", "band-structure", "photonic-crystal"],
+  "difficulty": "beginner",
+  "generated": true
+}

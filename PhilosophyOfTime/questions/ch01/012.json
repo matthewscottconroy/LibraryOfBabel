@@ -1,0 +1,20 @@
+{
+  "question_id": "02fbba7a-d6d3-4027-be25-6f21e804b51b",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "In Physics IV.14, Aristotle raises the question of whether, since time is the number of motion and number requires a counter, time could exist at all without a ___ to count it.",
+  "choices": [
+    "soul"
+  ],
+  "answer": "soul",
+  "explanation": "Aristotle asks whether there could be time without a soul (or intellect) to do the counting: if number requires a counter and only a soul counts, then time as counted number seems to depend on soul - though he hedges that the before-and-after substrate of motion could exist without soul. The passage anticipates later debates over temporal idealism. The expected answer is 'soul.'",
+  "tags": [
+    "aristotle",
+    "mind-dependence",
+    "soul",
+    "physics-iv-14"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

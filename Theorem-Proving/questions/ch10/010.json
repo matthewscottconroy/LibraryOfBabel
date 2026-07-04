@@ -1,0 +1,19 @@
+{
+  "question_id": "c177cfa8-b38b-4f56-9d8c-8472be017e62",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The Π-type Πx:A. B(x), whose return type B(x) varies with the argument value x, is the canonical example of a ___ type — one that mentions a value. The running textbook example is Vector α n.",
+  "choices": [
+    "dependent"
+  ],
+  "answer": "dependent",
+  "explanation": "A dependent type is a type that depends on a value (e.g. Vector α n depends on the length n). The Π-type Πx:A. B(x) is the dependent function type; when B is constant it collapses to the ordinary arrow A → B. The expected word is 'dependent'.",
+  "tags": [
+    "dependent-types",
+    "pi-type",
+    "vectors"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

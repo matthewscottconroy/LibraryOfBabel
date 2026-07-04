@@ -1,0 +1,18 @@
+{
+  "question_id": "3cc03193-93be-4ae1-b990-9edcf0577663",
+  "chapter": 17,
+  "phase": 6,
+  "kind": "mc",
+  "text": "A representation of a group $G$ over a field $k$ is, by definition:",
+  "choices": [
+    "a ring homomorphism $G\\to\\mathrm{End}_k(V)$",
+    "a group homomorphism $\\rho:G\\to GL(V)$ for a $k$-vector space $V$",
+    "an arbitrary $k$-linear map $V\\to V$",
+    "a group isomorphism $G\\to GL(V)$"
+  ],
+  "answer": 1,
+  "explanation": "A representation is a group homomorphism $\\rho:G\\to GL(V)$ sending each $g$ to an invertible linear map. The equivalent ring-homomorphism packaging is $k[G]\\to\\mathrm{End}_k(V)$ (from the group algebra, not from $G$ itself); a bare $k$-linear map forgets the group action; and demanding an isomorphism is too strong, since many representations (e.g. the trivial one) are far from injective.",
+  "tags": ["representations", "definition", "homomorphism"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,10 @@
+# Build manifest for the Differential Equations textbook.
+# book/ nests part (00_Foundations .. 08_Advanced_Topics) -> Unit_XX ->
+# Chapter_XX -> NN_Section/README.md leaves, with solutions.md alongside.
+title = "Differential Equations"
+subtitle = "From Multivariable Calculus to Advanced Topics"
+
+[[sources]]
+root = "book"
+recursive = true
+part_level = 1   # 00_Foundations .. 08_Advanced_Topics become \part

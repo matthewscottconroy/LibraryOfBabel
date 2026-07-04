@@ -1,0 +1,19 @@
+{
+  "question_id": "2f128721-6641-413f-a1e8-472f04cf142d",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In group epistemology, the deflationary view that a group believes p if and only if a sufficient proportion of its members individually believe p, so that group belief is nothing more than the aggregate of individual beliefs, is called ___.",
+  "choices": [
+    "summativism"
+  ],
+  "answer": "summativism",
+  "explanation": "Summativism is the deflationary thesis that group belief just is a suitable function of the beliefs of individual members, adding no new ontology. Its rival, non-summativism (Gilbert, Pettit), holds that group belief is a distinct phenomenon of joint commitment or acceptance not reducible to members' beliefs. The discursive dilemma is standardly deployed against simple summative aggregation.",
+  "tags": [
+    "group-epistemology",
+    "summativism",
+    "collective-belief"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

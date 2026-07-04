@@ -1,0 +1,22 @@
+{
+  "question_id": "e2a6541f-fe0c-4134-bb82-841c06d8e9ff",
+  "chapter": 25,
+  "phase": 8,
+  "kind": "mc",
+  "text": "According to the chapter's table of key theorems, Diaconescu's theorem states that in a topos:",
+  "choices": [
+    "Every monomorphism is a pullback of $\\top:1\\to\\Omega$",
+    "The axiom of choice (epimorphisms split) implies the internal logic is Boolean",
+    "Every topos admits a surjective Boolean cover",
+    "Coherent toposes classify coherent theories"
+  ],
+  "answer": 1,
+  "explanation": "Diaconescu's theorem is listed as 'AC in a topos $\\Rightarrow$ Boolean logic,' so the axiom of choice forces classical (Boolean) internal logic. Option 0 merely restates the defining property of the subobject classifier; option 2 is Barr's theorem; and option 3 is the comparison theorem, each a separate entry in the same table.",
+  "tags": [
+    "topos",
+    "diaconescu",
+    "axiom-of-choice"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

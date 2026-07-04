@@ -1,0 +1,21 @@
+{
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the Design-Build-Test-Learn (DBTL) cycle used in synthetic biology, which step involves assembling DNA and transforming it into a host cell?",
+  "choices": [
+    "Design",
+    "Build",
+    "Test",
+    "Learn"
+  ],
+  "answer": 1,
+  "explanation": "The Build step physically assembles the designed DNA construct and transforms or transfects it into the host cell. Design specifies the desired function and models it mathematically before any DNA exists. Test measures circuit behavior (e.g., via flow cytometry) after the construct is built, and Learn compares that data to predictions to refine the next design iteration.",
+  "tags": [
+    "dbtl-cycle",
+    "circuit-design-workflow"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "3b7f3a8b-c752-4fa0-8e5b-61b4cc3c9a77"
+}

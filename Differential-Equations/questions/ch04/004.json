@@ -1,0 +1,22 @@
+{
+  "question_id": "84fc9de9-4ad8-46a5-ab76-c59c0f17e1e2",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "At a jump discontinuity x0 of a piecewise-smooth function, the Fourier series converges to:",
+  "choices": [
+    "the average of the one-sided limits, (f(x0+) + f(x0-))/2",
+    "the right-hand limit f(x0+)",
+    "positive infinity",
+    "zero"
+  ],
+  "answer": 0,
+  "explanation": "Dirichlet's pointwise convergence theorem gives the midpoint of the jump, (f(x0+) + f(x0-))/2, at a discontinuity of a piecewise-smooth function; at points of continuity the series converges to f(x). It does not diverge.",
+  "tags": [
+    "pointwise-convergence",
+    "dirichlet",
+    "fourier-series"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

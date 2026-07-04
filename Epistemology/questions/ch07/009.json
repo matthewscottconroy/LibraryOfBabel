@@ -1,0 +1,20 @@
+{
+  "question_id": "19347ccd-d46c-413b-83ba-bca215e6c9bf",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The ___ thesis holds that an agent believes a proposition p (in the binary, full-belief sense) if and only if their credence in p exceeds some threshold t.",
+  "choices": [
+    "Lockean"
+  ],
+  "answer": "Lockean",
+  "explanation": "The Lockean thesis links credence to binary belief: believe p iff cr(p) > t for some threshold t < 1. It runs into the lottery and preface paradoxes, which show that threshold belief is not closed under conjunction -- one may rationally believe of each lottery ticket that it loses (each credence above threshold) yet not believe the conjunction that every ticket loses.",
+  "tags": [
+    "lockean thesis",
+    "threshold belief",
+    "credence",
+    "binary belief"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

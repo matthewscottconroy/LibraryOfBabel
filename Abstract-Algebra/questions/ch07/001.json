@@ -1,0 +1,21 @@
+{
+  "question_id": "7e217529-fad5-46f1-8d93-add7ab62f1d2",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "If dim V = 3 and dim W = 4, what is dim(V ⊗ W)?",
+  "choices": [
+    "7",
+    "12",
+    "64",
+    "81"
+  ],
+  "answer": 1,
+  "explanation": "If {eᵢ} and {fⱼ} are bases, the products eᵢ ⊗ fⱼ form a basis of V ⊗ W, so the dimension multiplies: 3 · 4 = 12. Contrast with the direct sum, whose dimension adds to 7.",
+  "tags": [
+    "tensor-products",
+    "dimension"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

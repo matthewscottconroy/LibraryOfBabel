@@ -1,0 +1,23 @@
+{
+  "question_id": "a2374d7e-4d51-41b8-80c1-c98f39ba890e",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "On Popper's falsificationism, what demarcates a genuinely scientific theory from a non-scientific one?",
+  "choices": [
+    "It can be conclusively verified by accumulating a sufficient number of confirming observations.",
+    "It is in principle falsifiable - it forbids some possible observation, so that some conceivable result could refute it.",
+    "It is supported by enumerative induction from many observed instances to a universal generalization.",
+    "The evidence raises its probability, so that its posterior probability exceeds its prior probability."
+  ],
+  "answer": 1,
+  "explanation": "Popper's demarcation criterion is falsifiability: a scientific theory makes risky predictions and rules something out, so an observation could in principle refute it, whereas theories compatible with any outcome (his example: Freudian psychoanalysis) are unscientific. Verificationism (0) and inductivism (2) are precisely the approaches Popper rejected, and Bayesian confirmation (3) is a distinct probabilistic account of how evidence bears on hypotheses.",
+  "tags": [
+    "philosophy of science",
+    "falsificationism",
+    "popper",
+    "demarcation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

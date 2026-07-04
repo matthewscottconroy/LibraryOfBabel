@@ -1,0 +1,18 @@
+{
+  "question_id": "3f9a1c2b-7d4e-4a61-9b8c-2e5f0a1d3c47",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the study of Physarum polycephalum, the term 'plasmodium' refers to which life stage?",
+  "choices": [
+    "A colony of genetically distinct amoebae cooperating through chemical signals",
+    "A dormant, thick-walled spore capable of surviving for years",
+    "A single continuous membrane enclosing a common cytoplasm shared by thousands to millions of nuclei",
+    "A multicellular body in which each nucleus is walled off inside its own cell"
+  ],
+  "answer": 2,
+  "explanation": "The plasmodium is the multinucleate, single-membrane feeding and problem-solving stage: millions of nuclei share one continuous cytoplasm, so it is neither a conventional single cell nor a true multicellular organism. It is not a colony of distinct cells (choice 0) nor a walled multicellular body (choice 3), and the spore (choice 1) is a separate dormant stage of the life cycle.",
+  "tags": ["slime-mold", "physarum", "plasmodium"],
+  "difficulty": "beginner",
+  "generated": true
+}

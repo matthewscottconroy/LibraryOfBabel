@@ -1,0 +1,19 @@
+{
+  "question_id": "680e2661-6661-4181-91a1-e2c5d3aab521",
+  "chapter": 10,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Popa's cocycle rigidity leads to OE-___: for suitable rigid groups, orbit equivalence implies isomorphism.",
+  "choices": [
+    "superrigidity"
+  ],
+  "answer": "superrigidity",
+  "explanation": "OE-superrigidity means the orbit structure remembers the full action; Popa established it via deformation-rigidity for w-rigid / property (T) groups.",
+  "tags": [
+    "popa",
+    "oe-superrigidity",
+    "deformation-rigidity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

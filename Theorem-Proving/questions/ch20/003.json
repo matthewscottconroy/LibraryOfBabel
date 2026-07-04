@@ -1,0 +1,22 @@
+{
+  "question_id": "2968fff8-07df-4169-8346-b61b96718567",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A contravariant functor F: C → D acts on a morphism f: A → B by producing:",
+  "choices": [
+    "a morphism F(f): F(A) → F(B) with F(g∘f) = F(g)∘F(f)",
+    "a morphism F(f): F(B) → F(A) with F(g∘f) = F(f)∘F(g)",
+    "the identity morphism on F(A)",
+    "a natural transformation between two functors"
+  ],
+  "answer": 1,
+  "explanation": "A contravariant functor reverses arrows: f: A → B is sent to F(f): F(B) → F(A), and composition order flips, F(g∘f) = F(f)∘F(g) — equivalently it is a covariant functor on C^op. Option A is the covariant law; the paradigm contravariant functor is Hom(−, A), acting by precomposition.",
+  "tags": [
+    "functors",
+    "contravariant",
+    "variance"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "57c1d52e-d379-44ae-af42-31b82be4ad8f",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "How does the lab quantify the 'effective memory time' of a reservoir?",
+  "choices": [
+    "The lag at which the cross-correlation first exceeds its peak value",
+    "The lag at which the mean absolute cross-correlation first drops below 1/e of its peak value",
+    "The lag at which the cross-correlation first reaches exactly zero",
+    "The total number of reservoir neurons averaged over in the analysis"
+  ],
+  "answer": 1,
+  "explanation": "effective_memory_time() returns the first lag k where the mean absolute cross-correlation falls below its peak divided by e. Reaching exactly zero (option 2) or exceeding the peak (option 0) is not the criterion, and it is independent of the neuron count.",
+  "tags": [
+    "effective-memory-time",
+    "cross-correlation",
+    "1-over-e"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

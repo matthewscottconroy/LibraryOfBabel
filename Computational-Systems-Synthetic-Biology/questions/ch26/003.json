@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is rule-based modeling with a tool like BioNetGen preferred over manually specifying species and reactions in SBML for systems like EGFR signaling?",
+  "choices": [
+    "It is required because SBML cannot represent phosphorylation reactions",
+    "It avoids the combinatorial explosion of manually enumerating every binding/phosphorylation state as a separate species and reaction",
+    "It eliminates the need for kinetic rate constants such as kon, koff, and kphos",
+    "It only applies to metabolic networks, not to signaling networks"
+  ],
+  "answer": 1,
+  "explanation": "Rule-based modeling with BioNetGen automatically generates all the species and reactions implied by a small set of binding/modification rules, avoiding the need to manually enumerate every combinatorial state such as every phosphorylation pattern of a multi-site receptor. SBML can represent phosphorylation once the states are enumerated, so that is not the reason; rate constants like kon, koff, and kphos are still required inputs; and the chapter's example (EGFR receptor signaling) is itself a signaling network, not a metabolic one.",
+  "tags": [
+    "bionetgen",
+    "rule-based-modeling",
+    "combinatorial-complexity"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "95a6afcd-d27a-48a0-b6a3-7c52d731c940"
+}

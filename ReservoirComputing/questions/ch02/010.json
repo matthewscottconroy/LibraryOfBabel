@@ -1,0 +1,21 @@
+{
+  "question_id": "9c457272-53f0-4a0d-aaf5-7bae14192d46",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The leaky integrator is derived by forward-Euler discretizing the rate model tau*x_dot = -x + W_rec f(x) + W_in u + b; the leak rate is defined as alpha = ___ (Euler step over membrane time constant).",
+  "choices": [
+    "Δt/τ",
+    "dt/tau",
+    "delta_t/tau"
+  ],
+  "answer": "Δt/τ",
+  "explanation": "Forward-Euler discretization of tau*x_dot = -x + ... with step size Delta t yields the leaky update with leak rate alpha = Delta t / tau, which must lie in (0, 1]. It is the ratio of the integration step to the membrane time constant tau.",
+  "tags": [
+    "leaky-integrator",
+    "euler-discretization",
+    "leak-rate"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

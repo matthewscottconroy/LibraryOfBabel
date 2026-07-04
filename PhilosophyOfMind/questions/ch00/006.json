@@ -1,0 +1,23 @@
+{
+  "question_id": "bc68050b-9c36-4c79-a4ab-7bc0c01a8130",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "According to the James–Lange theory of emotion, what is the correct order of events when you see a bear and feel afraid?",
+  "choices": [
+    "The perception causes fear, which then causes bodily changes such as running",
+    "The bodily changes (running, racing heart) come first, and the felt emotion just is the perception of those bodily changes",
+    "Fear and the bodily changes occur simultaneously as independent effects of the perception",
+    "The emotion is a purely cognitive judgment, independent of any bodily state"
+  ],
+  "answer": 1,
+  "explanation": "James (with Lange) inverted the commonsense order: we do not run because we are afraid; we feel afraid because we perceive our own bodily responses such as running and a pounding heart. Option 0 states exactly the commonsense view James rejected; option 2 is closer to the later Cannon–Bard theory; option 3 is a purely cognitive theory of emotion he did not hold.",
+  "tags": [
+    "james",
+    "james-lange",
+    "emotion",
+    "bodily-changes"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

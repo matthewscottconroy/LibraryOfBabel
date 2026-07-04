@@ -1,0 +1,20 @@
+{
+  "chapter": 23,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Random forests provide an out-of-bag (OOB) error estimate that functions as a built-in form of cross-validation, without requiring a separate held-out validation set.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: because each tree is trained on a bootstrap sample, the data points excluded from that sample ('out-of-bag') can be used to estimate generalization error, giving random forests a built-in cross-validation mechanism, as stated explicitly in the chapter.",
+  "tags": [
+    "machine-learning",
+    "random-forest",
+    "cross-validation"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "716d8c10-69a5-4f25-830d-96eba1eb66b1"
+}

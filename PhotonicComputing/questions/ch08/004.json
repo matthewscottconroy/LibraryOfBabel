@@ -1,0 +1,13 @@
+{
+  "question_id": "25d81ea7-839f-49f2-8234-c2a50558ac7c",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In a dual-polarization coherent optical system, which modulation format delivers a spectral efficiency of about 8 bits/s/Hz (requiring roughly 16 dB SNR)?",
+  "choices": ["OOK", "DP-QPSK", "PAM4", "DP-16QAM"],
+  "answer": 3,
+  "explanation": "DP-16QAM carries 4 bits/symbol over two polarizations for about 8 bits/s/Hz at ~16 dB SNR, and is the basis of 400G coherent links. OOK is ~1 bit/s/Hz, PAM4 ~2, and DP-QPSK ~4 bits/s/Hz, all lower.",
+  "tags": ["modulation-formats", "qam", "spectral-efficiency"],
+  "difficulty": "intermediate",
+  "generated": true
+}

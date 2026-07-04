@@ -1,0 +1,13 @@
+{
+  "question_id": "df051251-55f5-4fb3-9266-3e63f330c762",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "tf",
+  "text": "On Olson's animalism, a brain transplant carries the person along with the transplanted brain, because the person is essentially the psychology that the brain implements.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "This is false. Animalism holds that you are the human organism, so in a brain transplant you remain with the (now brain-damaged) original body, while the recipient body is not you. The claim that the person 'goes with the brain' is the widespread intuition that animalism is charged with violating — the brain-transplant objection — not what animalism itself asserts.",
+  "tags": ["olson", "animalism", "brain-transplant", "biological-criterion"],
+  "difficulty": "intermediate",
+  "generated": true
+}

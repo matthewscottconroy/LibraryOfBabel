@@ -1,0 +1,21 @@
+{
+  "chapter": 24,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What physical law does molecular dynamics numerically integrate to generate atomic trajectories?",
+  "choices": [
+    "The Schrodinger equation for electron wavefunctions",
+    "Newton's equations of motion (F = ma), using forces derived from a potential energy function",
+    "The diffusion equation for concentration gradients",
+    "Maxwell's equations for electromagnetic fields"
+  ],
+  "answer": 1,
+  "explanation": "MD numerically integrates F_i = m_i times a_i = -dV/dr_i, the classical Newtonian equations of motion, using forces derived from the force field's potential energy function. The Schrodinger equation underlies quantum-chemical methods rather than classical MD, the diffusion equation governs continuum PDE models of concentration, and Maxwell's equations describe electromagnetism, not classical atomic motion.",
+  "tags": [
+    "molecular-dynamics",
+    "newtons-equations"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "aca26ce6-19f4-4e32-82eb-8b39a4cfaef0"
+}

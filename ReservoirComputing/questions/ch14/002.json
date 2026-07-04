@@ -1,0 +1,22 @@
+{
+  "question_id": "9aadd40f-e7be-42b6-920c-9780ffcb5a41",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The chapter lists four necessary conditions for a good physical reservoir. Which set is correct?",
+  "choices": [
+    "Nonlinearity, high dimensionality, fading memory, and separation",
+    "Nonlinearity, high dimensionality, fading memory, and reproducibility",
+    "Linearity, low dimensionality, perfect (non-fading) memory, and periodicity",
+    "Differentiability, sparsity, time-reversal symmetry, and quantization"
+  ],
+  "answer": 0,
+  "explanation": "The four conditions are nonlinearity, high dimensionality, fading memory (the echo state property), and separation (distinct inputs → distinct states). Option 1 swaps the fourth for 'reproducibility' — a practical nicety, not one of the four requirements. Option 2 negates each essential property, and option 3 lists unrelated attributes.",
+  "tags": [
+    "physical-rc",
+    "four-conditions",
+    "good-reservoir"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

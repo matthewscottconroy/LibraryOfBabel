@@ -1,0 +1,22 @@
+{
+  "question_id": "5efa341b-a037-4576-bc2e-24d3a3199644",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is the central disagreement between Platonic (ante rem) and Aristotelian (in re) realism about universals?",
+  "choices": [
+    "Whether universals are concrete or abstract; Platonism says concrete, Aristotelianism says abstract.",
+    "Whether universals can exist uninstantiated; Platonism allows uninstantiated universals, while immanent realism holds a universal exists only in its instances.",
+    "Whether there are any universals at all; Platonists affirm them and Aristotelians deny them.",
+    "Whether resemblance among particulars is primitive; Platonists say yes, Aristotelians say no."
+  ],
+  "answer": 1,
+  "explanation": "For Platonism, triangularity exists even if nothing is triangular; immanent realism (Aristotle, Armstrong) holds a universal exists only where instantiated. The tempting distractor (option 2) confuses this intra-realist dispute with the realism/nominalism debate, but both Platonists and Aristotelians are realists about universals.",
+  "tags": [
+    "realism",
+    "platonism",
+    "aristotelianism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

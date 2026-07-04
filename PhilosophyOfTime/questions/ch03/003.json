@@ -1,0 +1,18 @@
+{
+  "question_id": "2534ec28-4910-475d-9625-b6b40e294814",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For Spinoza, ordinary 'time' — the flow from past to future and the perspectival 'now' — belongs to which of his three kinds of knowledge?",
+  "choices": [
+    "Reason (the second kind), which grasps the common notions and their necessary connections",
+    "Imagination (the first kind), which is inadequate, confused, and the source of error",
+    "Intuitive knowledge (the third kind), which grasps things sub specie aeternitatis",
+    "None — for Spinoza the flowing 'now' is a fully adequate feature of the eternal order"
+  ],
+  "answer": 1,
+  "explanation": "Spinoza classes ordinary 'time' — the flowing 'now' that divides a past that is gone from a future that approaches — as a product of imagination, the first and inadequate kind of knowledge (Ethics II.44). Duration, the genuine persistence of finite modes, is real, but the 'flow' is an imaginative addition; reason and intuitive knowledge (choices 0 and 2) instead grasp things as necessary and non-perspectival, so they are not the source of the 'now.'",
+  "tags": ["spinoza", "imagination", "duration", "kinds-of-knowledge"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "70b55ae9-62e9-4a70-bbe8-38952cf5be91",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the Zorn's-lemma proof that every vector space has a basis, Zorn's lemma is applied to which poset?",
+  "choices": [
+    "All subspaces of V, ordered by inclusion",
+    "All spanning sets of V, ordered by inclusion",
+    "All linearly independent subsets of V, ordered by inclusion",
+    "All finite subsets of V, ordered by cardinality"
+  ],
+  "answer": 2,
+  "explanation": "Chains of independent sets are bounded above by their union — any finite dependence would already occur in one member of the chain — so Zorn gives a maximal independent set B. Maximality forces B to span: otherwise adjoining a vector outside span(B) would keep independence.",
+  "tags": [
+    "zorn",
+    "axiom-of-choice",
+    "vector-spaces"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

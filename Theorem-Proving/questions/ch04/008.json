@@ -1,0 +1,20 @@
+{
+  "question_id": "7a138bbb-3437-462a-b94a-03b092aa7f04",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "True or False: Exhibiting a single value x for which P(x) holds is sufficient to prove the universal statement ∀x P(x).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. One confirming example proves only the existential ∃x P(x), not the universal ∀x P(x); a universal requires an argument covering every x (typically a proof about an arbitrary x). A single example does, however, suffice to disprove a universal, serving as a counterexample — the reverse situation.",
+  "tags": [
+    "universal-quantifier",
+    "existential",
+    "counterexample"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

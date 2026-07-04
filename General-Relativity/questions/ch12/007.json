@@ -1,0 +1,21 @@
+{
+  "question_id": "cc096f11-6904-453b-accf-2a3ca13c3b55",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the Penrose diagram of Minkowski spacetime, i⁰ is spatial infinity and i⁺ is future timelike infinity. The place where all outgoing radial light rays (null geodesics) end is:",
+  "choices": [
+    "future timelike infinity i⁺",
+    "spatial infinity i⁰",
+    "past null infinity 𝓘⁻",
+    "future null infinity 𝓘⁺"
+  ],
+  "answer": 3,
+  "explanation": "The book labels 𝓘⁺ (future null infinity, 'scri-plus') as where outgoing null geodesics end, while 𝓘⁻ is where incoming null geodesics begin. Massive particles instead end at i⁺ (future timelike infinity) and spacelike geodesics end at i⁰ (spatial infinity); massive particles cannot reach 𝓘±.",
+  "tags": [
+    "penrose-diagram",
+    "null-infinity"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

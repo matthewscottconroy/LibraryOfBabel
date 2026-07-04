@@ -1,0 +1,13 @@
+{
+  "question_id": "86deb05b-57f6-46b9-b27b-9c3f2d4a74e6",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "How does a distributed-feedback (DFB) laser achieve single-frequency operation?",
+  "choices": ["By using an extremely short cavity so that only one longitudinal mode fits in the gain band", "By cooling the device to cryogenic temperatures", "By incorporating a Bragg grating (typically with a quarter-wave phase shift) that provides wavelength-selective feedback", "By using two independent gain media at different wavelengths"],
+  "answer": 2,
+  "explanation": "A DFB laser embeds a Bragg grating (Λ = mλ_B/2n_eff) along the cavity; a quarter-wave phase shift selects a single mode at the stopband center, giving SMSR > 40 dB. The short-cavity single-mode mechanism describes a VCSEL, not a DFB, and cryogenic cooling or dual gain media are not how DFBs select a mode.",
+  "tags": ["dfb-laser", "bragg-grating", "single-frequency"],
+  "difficulty": "intermediate",
+  "generated": true
+}

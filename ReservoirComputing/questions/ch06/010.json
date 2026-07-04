@@ -1,0 +1,20 @@
+{
+  "question_id": "87c140c0-2f50-414a-9bf9-edb20436fb30",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "NARMA-10 is a 10th-order task: the summation term Σ y(t−k) for k=0..9 depends on the previous ___ consecutive values of y.",
+  "choices": [
+    "10",
+    "ten"
+  ],
+  "answer": "10",
+  "explanation": "The sum runs over y(t), y(t−1), …, y(t−9): exactly 10 consecutive past values. This 10-step dependence is why the benchmark requires about 10 steps of memory.",
+  "tags": [
+    "narma10",
+    "order",
+    "memory"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

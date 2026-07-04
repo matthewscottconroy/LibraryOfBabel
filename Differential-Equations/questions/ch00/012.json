@@ -1,0 +1,22 @@
+{
+  "question_id": "5296df9c-ce94-4678-9957-37fab316be93",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A square matrix fails to be diagonalizable precisely when:",
+  "choices": [
+    "it has at least one eigenvalue equal to zero",
+    "some eigenvalue has geometric multiplicity strictly less than its algebraic multiplicity",
+    "it has a pair of complex-conjugate eigenvalues",
+    "its determinant equals its trace"
+  ],
+  "answer": 1,
+  "explanation": "A matrix is defective exactly when, for some eigenvalue, the number of independent eigenvectors (geometric multiplicity) is less than the algebraic multiplicity, so nontrivial Jordan blocks appear. A zero eigenvalue only signals singularity, complex eigenvalues still permit diagonalization over C, and det equalling trace is coincidental.",
+  "tags": [
+    "jordan-form",
+    "diagonalization",
+    "multiplicity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "2e460215-dfd7-4dd0-bcc5-be2166568361",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A module M is flat if and only if:",
+  "choices": [
+    "Tor₁^R(M, N) = 0 for every module N",
+    "Ext¹_R(M, N) = 0 for every module N",
+    "M ⊗_R N = 0 for every module N",
+    "Tor₀^R(M, N) = 0 for every module N"
+  ],
+  "answer": 0,
+  "explanation": "Vanishing of Tor₁ against everything already forces all higher Tor to vanish, so − ⊗ M is exact. The Ext¹ condition instead characterizes projective modules; projective ⇒ flat but not conversely (ℚ over ℤ is flat, not projective).",
+  "tags": [
+    "tor",
+    "flat",
+    "modules"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

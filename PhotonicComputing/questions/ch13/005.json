@@ -1,0 +1,18 @@
+{
+  "question_id": "a90cb276-6b09-40b3-9e06-7fe136f9f925",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The space-bandwidth product caps the neuron count, which scales as lambda^-2. Roughly how many independent neurons does a 6 cm aperture (NA = 0.4) hold at 0.4 THz versus at 500 nm?",
+  "choices": [
+    "About 10^6 at both, independent of wavelength",
+    "About 9e9 at 0.4 THz vs about 4e3 at 500 nm (terahertz holds more)",
+    "About 40,000 at both wavelengths",
+    "About 4e3 at 0.4 THz vs about 9e9 at 500 nm, because capacity grows as lambda^-2"
+  ],
+  "answer": 3,
+  "explanation": "Because diffraction forbids pixels finer than about lambda/(2*NA), the independent-neuron count ~(2A*NA/lambda)^2 scales as lambda^-2; the same 6 cm aperture holds ~4e3 neurons at 0.4 THz but ~9e9 at 500 nm. Option 1 reverses the scaling (shorter wavelength holds more), and options 0 and 2 wrongly make capacity wavelength-independent (40,000 is the Lin 2018 per-layer pixel count, not the SBP cap).",
+  "tags": ["d2nn", "space-bandwidth-product", "wavelength-scaling", "kulce-2021"],
+  "difficulty": "intermediate",
+  "generated": true
+}

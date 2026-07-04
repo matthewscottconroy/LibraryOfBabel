@@ -1,0 +1,23 @@
+{
+  "question_id": "8fc5190e-f906-4591-a463-a4b2dd05cdf0",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In Euclid's Proposition I.1 (constructing an equilateral triangle on a segment), the logical gap is the unjustified step that:",
+  "choices": [
+    "the base segment AB can be drawn",
+    "all radii of a circle are equal",
+    "the two constructed circles actually intersect at a point",
+    "equals added to equals give equals"
+  ],
+  "answer": 2,
+  "explanation": "The gap is the assumption that the two circles intersect — no postulate guarantees it, and over the rational plane ℚ² the circles pass through each other without meeting a rational point, so I.1 fails. This exposes a missing continuity principle. The other steps are licensed by Postulate 1, Definition 15 (radii), and Common Notion 1.",
+  "tags": [
+    "euclid",
+    "continuity",
+    "proposition-i1",
+    "gaps"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

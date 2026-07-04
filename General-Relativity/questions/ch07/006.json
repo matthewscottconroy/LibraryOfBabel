@@ -1,0 +1,22 @@
+{
+  "question_id": "1d1b87e1-a549-4ae2-be0e-228d7836ae83",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In this book's conventions, the Ricci scalar R is obtained from the Ricci tensor R_μν in which way?",
+  "choices": [
+    "R = R^ρ_σμν, by relabelling the rank-4 Riemann tensor with two indices.",
+    "R = R_μν R^μν, the full contraction of the Ricci tensor with itself.",
+    "R = ∂_μ R^μ_ν, the divergence of the Ricci tensor.",
+    "R = g^μν R_μν, the metric trace of the Ricci tensor."
+  ],
+  "answer": 3,
+  "explanation": "The Ricci scalar is the metric trace R = g^μν R_μν = R^μ_μ, a single number, while the Ricci tensor is itself the contraction R_μν = R^ρ_μρν of the Riemann tensor. Choice 0 confuses the scalar with the rank-4 Riemann tensor, choice 1 (R_μν R^μν) is a different curvature invariant, and choice 2 is not a curvature scalar. This R is the one entering the Einstein tensor G_μν = R_μν − ½ g_μν R.",
+  "tags": [
+    "curvature",
+    "ricci-scalar",
+    "contraction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "740720de-83a7-4997-b745-12069329abcb",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Besides an optional constant term, the NVAR feature vector is built from which two components?",
+  "choices": [
+    "Random reservoir states passed through a tanh nonlinearity",
+    "The eigenvalues and eigenvectors of a random recurrent matrix",
+    "Fourier coefficients of the input and their random phases",
+    "A linear part (time-delayed copies of the inputs) and a nonlinear part (polynomial products of those delayed inputs)"
+  ],
+  "answer": 3,
+  "explanation": "NVAR builds its features EXPLICITLY: a linear part (a time-delay embedding [u_t, u_{t-k}, ...]) plus nonlinear monomials (e.g. quadratic products) of those delayed inputs, and a constant. There is no random reservoir (option 0), no recurrent matrix to decompose (option 1), and no Fourier/random-feature map (option 2 — that description fits the ESN's random-feature view, not NVAR).",
+  "tags": [
+    "nvar",
+    "feature-construction",
+    "delay-embedding"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "e717a4ae-a91f-4c26-87db-828c8ebbcab8",
+  "chapter": 15,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: General Extensional Mereology (GEM) contains a null individual — a 'mereological empty object' that is part of every object, exactly analogous to the empty set ∅.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Classical mereology admits NO null individual; even Weak Supplementation refutes one in any domain with more than one object. This is a central contrast with set theory, where ∅ exists and is unique — corresponding to the bottom element Tarski's theorem deletes. So the statement is false.",
+  "tags": [
+    "null-individual",
+    "empty-set",
+    "supplementation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

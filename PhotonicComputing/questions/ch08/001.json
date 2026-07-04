@@ -1,0 +1,13 @@
+{
+  "question_id": "0ef468a7-f8d1-4028-a9be-43c28c3db284",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Shannon-Hartley theorem gives the capacity of a bandwidth-limited channel with additive white Gaussian noise as:",
+  "choices": ["C = B log2(1 + SNR)", "C = B * SNR", "C = SNR * log2(B)", "C = B / log2(SNR)"],
+  "answer": 0,
+  "explanation": "The capacity is C = B*log2(1 + SNR) bits/s, where B is bandwidth and SNR is the signal-to-noise ratio. The other forms misplace B and SNR: capacity grows only logarithmically with SNR, not linearly, and it scales linearly (not inversely or logarithmically) with bandwidth.",
+  "tags": ["shannon-hartley", "channel-capacity", "information-theory"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "12da0120-5d33-4307-8fad-9705d6449606",
+  "chapter": 13,
+  "phase": 6,
+  "kind": "mc",
+  "text": "The topos of G-sets, Set^G, is the natural categorical setting for studying:",
+  "choices": [
+    "random matrices",
+    "dynamical systems with G-symmetry (group actions)",
+    "fractals",
+    "partial differential equations"
+  ],
+  "answer": 1,
+  "explanation": "Objects of Set^G are sets with a G-action, i.e. dynamical systems with G-symmetry; its internal logic is automatically G-equivariant. It is not about random matrices or PDEs.",
+  "tags": [
+    "topos",
+    "g-sets",
+    "group-actions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

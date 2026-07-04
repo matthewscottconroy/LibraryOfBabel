@@ -1,0 +1,13 @@
+{
+  "question_id": "9a4b7c2e-6f18-4d53-8c09-1e3a5b7d2f6c",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Choanoflagellates, with their single flagellum surrounded by a collar of microvilli, are described as the closest known single-celled relatives of the animals.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Choanoflagellates are the closest unicellular relatives of animals; their collar-and-flagellum feeding apparatus mirrors the choanocytes (collar cells) of sponges, and their genomes carry homologs of animal cell-signaling and synaptic proteins, marking the bridge from the protist world to the animal world.",
+  "tags": ["flagellates", "choanoflagellates", "animal-origins"],
+  "difficulty": "beginner",
+  "generated": true
+}

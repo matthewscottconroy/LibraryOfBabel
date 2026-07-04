@@ -1,0 +1,19 @@
+{
+  "chapter": 12,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The ___ oscillator is a minimal three-node negative-feedback model (X activates Y, Y activates Z, Z represses X) that requires a high Hill coefficient (n > 8) to sustain oscillations, and is used as a simple teaching model related to the circadian clock.",
+  "choices": [
+    "Goodwin"
+  ],
+  "answer": "Goodwin",
+  "explanation": "The Goodwin oscillator is the classic minimal model of a negative feedback loop with delay (via the intermediate node Y) producing sustained oscillations, requiring strong nonlinearity (a steep Hill coefficient greater than about 8) since it lacks additional stabilizing feedback loops. It is used pedagogically to illustrate the general principle that negative feedback plus sufficient delay and nonlinearity can generate oscillation, a principle also embodied in more detailed models like the Goldbeter-Leloup and Kim-Forger circadian clock models.",
+  "tags": [
+    "goodwin-oscillator",
+    "circadian-clock",
+    "oscillators"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "5683701d-bc07-4f94-8ad2-55d40fff47d6"
+}

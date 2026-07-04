@@ -1,0 +1,23 @@
+{
+  "question_id": "85516fd3-d509-42a9-baf2-19adb9cde695",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The chapter grants that a highly reliable large language model might satisfy a functionalist condition on knowledge, yet argues it plausibly still fails to know what it accurately reports. What is the chapter's reason?",
+  "choices": [
+    "In reality such models hallucinate so frequently that the truth condition on knowledge is rarely met.",
+    "Its true outputs derive from statistical patterns in its training data rather than from accessing and evaluating evidence, so it lacks the justification - and arguably the understanding - that traditional knowledge requires.",
+    "Only beings with phenomenal consciousness can have knowledge, and language models are not conscious.",
+    "Knowledge can be transmitted only through human testimony, so a machine's outputs can neither constitute nor convey knowledge."
+  ],
+  "answer": 1,
+  "explanation": "The chapter concedes a reliable model may clear a functionalist or reliability bar but argues it still lacks the internalized justificatory reasons - and arguably the understanding - constitutive of traditional knowledge, because it tracks statistical regularities rather than weighing evidence. Option 0 contradicts the case's stipulated reliability; option 2 substitutes a consciousness criterion the chapter does not adopt; and option 3 over-restricts testimony to human speakers.",
+  "tags": [
+    "ai epistemology",
+    "machine knowledge",
+    "justification",
+    "reliabilism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "469ac0dc-b5b4-4c63-8405-998a614ff812",
+  "chapter": 19,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What makes boson sampling a credible demonstration that quantum dynamics outruns classical simulation?",
+  "choices": [
+    "It is a universal, error-corrected quantum computer",
+    "Its output amplitudes are permanents of submatrices, and the permanent is #P-hard, so efficient classical sampling would collapse the polynomial hierarchy",
+    "Its amplitudes are determinants, which are exponentially hard to compute",
+    "It can factor large integers faster than Shor's algorithm"
+  ],
+  "answer": 1,
+  "explanation": "Boson-sampling amplitudes are matrix permanents, which are #P-hard (Valiant, 1979); Aaronson and Arkhipov (2011) showed efficient classical sampling would collapse the polynomial hierarchy. It is explicitly NOT universal or error-corrected (choice 0); determinants (fermionic scattering) are easy, O(n^3) (choice 2); and it does not run Shor/factoring (choice 3).",
+  "tags": ["boson-sampling", "permanent", "aaronson-arkhipov"],
+  "difficulty": "intermediate",
+  "generated": true
+}

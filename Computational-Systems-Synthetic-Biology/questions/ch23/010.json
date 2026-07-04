@@ -1,0 +1,19 @@
+{
+  "chapter": 23,
+  "phase": 4,
+  "kind": "blank",
+  "text": "___ (SHapley Additive exPlanations) is a model interpretability technique that can be applied to tree-based models through a TreeExplainer to quantify how much each feature contributes to an individual prediction.",
+  "choices": [
+    "SHAP"
+  ],
+  "answer": "SHAP",
+  "explanation": "SHAP values, grounded in cooperative game theory's Shapley values, quantify each feature's contribution to a specific prediction and are commonly applied to random forest or other tree-based models using `shap.TreeExplainer`.",
+  "tags": [
+    "machine-learning",
+    "interpretability",
+    "shap"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "cff48b10-a1aa-4da9-a02c-e3e27502cf70"
+}

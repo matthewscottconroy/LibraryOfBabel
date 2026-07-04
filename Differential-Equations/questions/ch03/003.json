@@ -1,0 +1,21 @@
+{
+  "question_id": "5a1816b4-936b-4afa-bcf2-489a83ff959e",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For the linear first-order ODE y' + P(x) y = Q(x), the integrating factor is:",
+  "choices": [
+    "the antiderivative of P",
+    "e raised to the negative integral of P dx",
+    "e raised to the integral of Q dx",
+    "e raised to the integral of P dx"
+  ],
+  "answer": 3,
+  "explanation": "Multiplying by mu = exp(integral of P dx) makes the left side the exact derivative (mu*y)', so mu*y = integral of mu*Q dx. The exponent must be +integral of P (not negative), and it depends on P, the coefficient of y, not on the forcing term Q.",
+  "tags": [
+    "integrating-factor",
+    "linear-first-order"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "93d80c89-cf6f-4e27-9ead-e263555c5eed",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A stack of L phase-only diffractive layers with no optical nonlinearity between them is mathematically what, and where does its only nonlinearity come from?",
+  "choices": [
+    "A genuinely deep nonlinear network, because each phase layer is nonlinear",
+    "A quadratic network, because the phase is squared at every layer",
+    "A single complex-linear operator M; the only nonlinearity is the |.|^2 intensity measurement at the output detector",
+    "A random projection followed by a trained optical softmax"
+  ],
+  "answer": 2,
+  "explanation": "Phase-only layers are linear, so L of them compose to one complex-linear map M = H_d*diag(t^L)...diag(t^1); no nonlinearity acts until the detector applies |.|^2 at the output. This is why a D2NN needs no optical nonlinearity to classify (the magnitude-squared supplies the decision surface) yet has bounded capacity. Phase multiplication is linear, and there is no optical softmax.",
+  "tags": ["d2nn", "linearity", "intensity-detection", "capacity"],
+  "difficulty": "advanced",
+  "generated": true
+}

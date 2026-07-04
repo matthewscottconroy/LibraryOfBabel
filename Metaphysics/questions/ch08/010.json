@@ -1,0 +1,20 @@
+{
+  "question_id": "75e8f38a-8a65-466e-b345-e3c1b803a29b",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Following Carnap, Hirsch and Thomasson defend ___ about ontology: the view that ontological disputes are not deep factual questions about mind-independent reality but turn on the choice of framework or language.",
+  "choices": [
+    "deflationism",
+    "anti-realism"
+  ],
+  "answer": "deflationism",
+  "explanation": "Deflationism (ontological anti-realism), defended by Carnap, Hirsch, and Thomasson, treats hard ontological questions as trivial, verbal, or framework-relative. It opposes the heavyweight realism of Sider, Schaffer, and Fine, who hold that ontology tracks mind-independent structure.",
+  "tags": [
+    "deflationism",
+    "carnap",
+    "metaontology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

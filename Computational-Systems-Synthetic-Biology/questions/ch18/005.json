@@ -1,0 +1,22 @@
+{
+  "chapter": 18,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In strain optimization, what is the purpose of algorithms like Optknock combined with MOMA (Minimization of Metabolic Adjustment)?",
+  "choices": [
+    "Optknock predicts knockout combinations that couple growth to production, while MOMA predicts the flux redistribution that results immediately after the knockout",
+    "Optknock designs sgRNA libraries for genome-wide CRISPR screens, while MOMA analyzes the resulting sequencing data",
+    "Optknock performs error-prone PCR mutagenesis on a target enzyme, while MOMA sorts the resulting variants by FACS",
+    "Optknock predicts protein structures for enzyme engineering, while MOMA predicts their thermostability"
+  ],
+  "answer": 0,
+  "explanation": "Optknock uses flux balance analysis to identify gene knockout combinations that force growth to be coupled with product formation, and MOMA predicts how flux redistributes immediately after a knockout by assuming minimal adjustment from the wild-type flux distribution, rather than assuming the cell instantly re-optimizes. The other options describe unrelated tools and techniques -- CRISPR screen design and analysis (a role played by tools like Mageck), directed-evolution mutagenesis and FACS sorting, and structure or stability prediction -- none of which is what Optknock or MOMA actually do.",
+  "tags": [
+    "optknock",
+    "moma",
+    "flux-balance-analysis"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "8eee96e6-7a4a-4898-b323-8a653b0e2aec"
+}

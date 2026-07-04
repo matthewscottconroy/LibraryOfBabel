@@ -1,0 +1,18 @@
+{
+  "question_id": "b562bec8-3a81-4704-9ba1-62e41c9c4630",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The skeptical argument '(1) if I know I have hands, then I know I am not a handless brain in a vat; (2) I do not know that I am not a handless brain in a vat; (3) therefore I do not know that I have hands' is formally valid because it instantiates:",
+  "choices": [
+    "modus ponens applied to premise 2",
+    "modus tollens applied to the closure conditional in premise 1",
+    "affirming the consequent of the closure conditional",
+    "disjunctive syllogism over the two hypotheses"
+  ],
+  "answer": 1,
+  "explanation": "Premise 1 is the closure conditional 'if I know I have hands, then I know I am not a BIV.' Premise 2 denies its consequent, so by modus tollens the antecedent is denied, yielding the conclusion. Moore accepts the very same conditional but runs the modus tollens in the opposite direction, denying premise 2 rather than the ordinary knowledge claim.",
+  "tags": ["cartesian-skepticism", "closure", "modus-tollens", "brain-in-a-vat"],
+  "difficulty": "beginner",
+  "generated": true
+}

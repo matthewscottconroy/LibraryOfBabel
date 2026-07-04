@@ -1,0 +1,21 @@
+{
+  "question_id": "cf8274ea-5559-4086-9afc-2cc55080ddd6",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Gentzen's cut-elimination theorem implies that sequent-calculus proofs can be put in a form with the subformula property: every formula occurring in the proof is a subformula of some formula in the end-sequent.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Cut elimination removes the 'detour' through intermediate lemmas, and cut-free proofs enjoy the subformula property, which drastically constrains proof search. This is a central consequence of Gentzen's 1935 theorem.",
+  "tags": [
+    "cut-elimination",
+    "subformula-property",
+    "sequent-calculus",
+    "gentzen"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

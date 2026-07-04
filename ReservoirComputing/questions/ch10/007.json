@@ -1,0 +1,20 @@
+{
+  "question_id": "9e805af7-c097-459d-ac10-2648c88f0eaa",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "tf",
+  "text": "During FORCE training the reservoir input is the network's own previous output, and in the autonomous phase the input is the true target signal.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is reversed. Training is teacher-forced, feeding the previous TARGET y*(t-1) as input; the autonomous phase feeds back the network's OWN previous output. (See force_train versus autonomous_run in force_pattern.py.)",
+  "tags": [
+    "force",
+    "teacher-forcing",
+    "autonomous"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

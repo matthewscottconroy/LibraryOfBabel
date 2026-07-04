@@ -1,0 +1,22 @@
+{
+  "question_id": "fffb930d-6e5c-4d93-8bf5-8e8fdce005cc",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In Husserl's analysis of internal time-consciousness, 'retention' is best characterized as:",
+  "choices": [
+    "A voluntary act of re-presenting (recollecting) a past experience",
+    "The immediate presence of the just-past as just-past, not an act of recall",
+    "The anticipatory presence of what is immediately about to arrive",
+    "The primal impression of the current instant"
+  ],
+  "answer": 1,
+  "explanation": "Retention is the immediate, non-thematic presence of the just-past AS just-past — I am still experientially present to the note without recalling it. Husserl sharply separates it from recollection (a voluntary re-presenting of a past event), from protention (anticipation of the upcoming), and from the primal impression (the now itself).",
+  "tags": [
+    "retention",
+    "husserl",
+    "time-consciousness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

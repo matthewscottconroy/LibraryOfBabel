@@ -1,0 +1,22 @@
+{
+  "question_id": "223ac53e-8884-445f-a1a2-eb0d321cb30d",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "A quasi-category (the Joyal-Lurie model of an $(\\infty,1)$-category) is defined as a simplicial set satisfying which condition?",
+  "choices": [
+    "Every outer horn ($\\Lambda^n_0$ or $\\Lambda^n_n$) admits a filler",
+    "Every map from the boundary $\\partial\\Delta^n$ extends to $\\Delta^n$",
+    "Every inner horn $\\Lambda^n_k$ with $0<k<n$ admits a filler $\\Delta^n\\to\\mathcal{C}$",
+    "Every simplex above dimension $1$ is degenerate"
+  ],
+  "answer": 2,
+  "explanation": "The chapter defines a quasi-category by the inner horn filling condition: for $0<k<n$, every inner horn $\\Lambda^n_k\\to\\mathcal{C}$ has a filler $\\Delta^n\\to\\mathcal{C}$, so compositions exist but only up to homotopy. Filling the outer horns ($k=0,n$) is the stronger condition defining an $\\infty$-groupoid; extending every boundary or forcing degeneracy are unrelated to the definition.",
+  "tags": [
+    "infinity-category",
+    "quasi-category",
+    "horn-filling"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

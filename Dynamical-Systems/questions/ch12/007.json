@@ -1,0 +1,22 @@
+{
+  "question_id": "2574e9cc-458c-4b18-bdc6-071ddddcdd74",
+  "chapter": 12,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Quantum chaos is diagnosed through the ___ of the energy spectrum:",
+  "choices": [
+    "level statistics (GUE versus Poisson)",
+    "fractal dimension",
+    "period-doubling",
+    "winding number"
+  ],
+  "answer": 0,
+  "explanation": "Classically chaotic quantum systems show random-matrix (GUE) level-spacing statistics, while integrable ones show Poisson statistics (Berry-Tabor / Bohigas-Giannoni-Schmit).",
+  "tags": [
+    "quantum-chaos",
+    "level-statistics",
+    "random-matrix"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

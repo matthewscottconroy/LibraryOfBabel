@@ -1,0 +1,18 @@
+{
+  "question_id": "be2505b0-1ef7-4fb2-a775-4f565605c48e",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why is photonic true-time-delay (TTD) required for wideband phased-array beamforming above roughly 10% fractional bandwidth?",
+  "choices": [
+    "Electronic phase shifters implement a frequency-independent delay, which causes beam squint",
+    "Photonic TTD digitizes the RF signal faster than any electronic ADC",
+    "Electronic phase shifters cannot drive more than two antenna elements",
+    "Electronic phase shifters impose a frequency-dependent delay (beam squint) for wideband signals, whereas photonic TTD gives a true frequency-independent delay"
+  ],
+  "answer": 3,
+  "explanation": "A fixed phase shift corresponds to a delay that varies with frequency, so different frequencies steer to different angles (squint) over wide bandwidths; photonic TTD (e.g. dispersive fiber) provides a genuine frequency-independent time delay, the only viable approach above ~10% fractional bandwidth at mm-wave. Option 0 swaps the property (phase shifters are NOT frequency-independent), and TTD is a delay element, not an ADC or an element-count limitation.",
+  "tags": ["microwave-photonics", "true-time-delay", "beam-squint"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "ad23481f-74fc-4e79-a6f3-4ec867b1780e",
+  "chapter": 24,
+  "phase": 8,
+  "kind": "tf",
+  "text": "The ordered field $\\mathbb{R}$ can be characterized up to isomorphism by its first-order theory.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "FALSE. By the upward Lowenheim-Skolem theorem, $\\mathrm{Th}(\\mathbb{R})$ has models of every cardinality $\\geq |\\mathbb{R}|$, so no first-order theory pins $\\mathbb{R}$ down up to isomorphism; only the second-order completeness axiom does. Indeed the nonstandard reals ${}^*\\mathbb{R} \\equiv \\mathbb{R}$ are elementarily equivalent yet non-isomorphic.",
+  "tags": ["lowenheim-skolem", "second-order-logic", "categoricity"],
+  "difficulty": "advanced",
+  "generated": true
+}

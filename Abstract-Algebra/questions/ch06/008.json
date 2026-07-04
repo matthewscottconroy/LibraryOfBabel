@@ -1,0 +1,19 @@
+{
+  "question_id": "62ca0897-46fa-4df6-b210-3c1eb78c68ae",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "For every subspace W of a finite-dimensional inner product space V, one has V = W ⊕ W⊥.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Every v splits uniquely as proj_W(v) + (v − proj_W(v)) with the second piece in W⊥, and W ∩ W⊥ = {0} by positive definiteness. This orthogonal decomposition is what makes orthogonal projection — and least squares — work.",
+  "tags": [
+    "orthogonality",
+    "direct-sum"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

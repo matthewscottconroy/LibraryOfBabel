@@ -1,0 +1,18 @@
+{
+  "question_id": "1b6d4e79-8c30-42af-b514-9e07a3f2c6d8",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In Plantinga's modal ontological argument, which single premise carries the entire disputed weight, so that granting it yields God's existence in S5?",
+  "choices": [
+    "The premise that a maximally great being, if it exists in any possible world, exists in every possible world—which follows directly from building necessary existence into maximal greatness.",
+    "The premise that it is possible that a maximally great being exists—that the concept is coherent and instantiated in at least one possible world.",
+    "The modal principle that whatever is necessary is actual, taking us from necessary existence to actual existence.",
+    "The premise that existence is a perfection which, added to the concept of the greatest conceivable being, entails that it exists."
+  ],
+  "answer": 1,
+  "explanation": "The whole burden falls on P1, mere possibility; once it is granted, the S5 axiom (possibly-necessarily P entails necessarily P) converts possible necessary existence into actual necessary existence. Option 0 states the uncontroversial P2, which just unpacks the definition of maximal greatness; option 3 is the Anselmian/Cartesian 'existence is a perfection' premise Kant attacked, which the modal version deliberately avoids.",
+  "tags": ["ontological-argument", "modal", "plantinga", "s5"],
+  "difficulty": "intermediate",
+  "generated": true
+}

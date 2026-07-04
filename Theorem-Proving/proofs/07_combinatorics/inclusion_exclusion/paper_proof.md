@@ -20,4 +20,4 @@ Proof by induction on n; the general Bonferroni inequalities.
 (applications to add)
 
 ## Exercises
-See `problems/ch07_induction/`
+See `problems/ch07_induction_and_recursion/`

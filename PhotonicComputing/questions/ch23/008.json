@@ -1,0 +1,13 @@
+{
+  "question_id": "58118507-f32a-4405-9c99-75265570c556",
+  "chapter": 23,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: A trained deep-learning surrogate model is always cheaper than the electromagnetic solver it replaces, so it pays off for any design task.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False — a surrogate only pays off once it is queried more than its own training cost of roughly 10^3 to 10^5 simulations, so it wins only when the base simulation is expensive and the design space is scanned many times. For a one-off device, running the solver or adjoint optimization directly is cheaper; deep learning caches physics, it does not create it for free.",
+  "tags": ["deep-learning", "surrogate-model", "inverse-design"],
+  "difficulty": "intermediate",
+  "generated": true
+}

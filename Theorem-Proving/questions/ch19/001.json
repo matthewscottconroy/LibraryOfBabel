@@ -1,0 +1,22 @@
+{
+  "question_id": "549d3e9d-9551-42e9-8252-1d6beb2a9cbd",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Playfair's axiom, the standard modern replacement for Euclid's fifth postulate, states:",
+  "choices": [
+    "Through a point not on a given line there is at most one line parallel to it",
+    "Through a point not on a given line there are at least two parallels",
+    "Any two distinct lines meet in exactly one point",
+    "All right angles are equal to one another"
+  ],
+  "answer": 0,
+  "explanation": "Playfair's axiom — 'through a point not on a given line there is at most one parallel' — is equivalent to Euclid's fifth postulate over neutral geometry. Option B is the hyperbolic parallel axiom, option D is Euclid's fourth postulate, and option C fails even in Euclidean geometry (parallels never meet).",
+  "tags": [
+    "euclid",
+    "parallel-postulate",
+    "playfair"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "1b967dcd-bf29-4b24-82c2-6361175a8701",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Hirsch's quantifier variance implies that the dispute between a mereological universalist ('there is an object composed of the Eiffel Tower and your shoe') and a nihilist ('there is no such object') is:",
+  "choices": [
+    "a substantive disagreement to be settled by discovering reality's genuine joints.",
+    "a genuine dispute in which the nihilist turns out to be correct.",
+    "a dispute merely about which framework is more pragmatically useful, with no truth-values in play.",
+    "merely verbal: each uses 'there is' with a different but equally legitimate meaning, and each speaks truly in her own language."
+  ],
+  "answer": 3,
+  "explanation": "For Hirsch the existential quantifier is not univocal; universalist and nihilist talk past one another, each true in her own language, so the debate is verbal. Settling it by 'reality's joints' is Sider's realist rejoinder (there is a most natural quantifier); Hirsch neither crowns the nihilist nor reduces the matter to mere pragmatic utility, since both languages are fully true.",
+  "tags": [
+    "hirsch",
+    "quantifier-variance",
+    "verbal-dispute"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "1513f2b6-4a7a-48b0-8480-f615271fda76",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Landauer's principle states that erasing one bit of information necessarily dissipates at least ___ of heat into the environment (about 3 x 10^-21 joules at room temperature), which is why the book says 'information is physical.'",
+  "choices": [
+    "k_B T ln 2"
+  ],
+  "answer": "k_B T ln 2",
+  "explanation": "The expected answer is k_B T ln 2 (Boltzmann's constant times temperature times the natural log of 2). Erasing a bit reduces its Shannon entropy by one bit, and that reduction must be compensated by an entropy increase — heat — in the environment. The cost attaches specifically to logically irreversible erasure; reversible computation that erases no bits can in principle avoid it.",
+  "tags": [
+    "landauer",
+    "information-is-physical",
+    "entropy",
+    "erasure"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,23 @@
+{
+  "chapter": 23,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Before running UMAP or t-SNE on a high-dimensional single-cell gene expression dataset, what preprocessing step does the chapter recommend?",
+  "choices": [
+    "Apply PCA first and run UMAP or t-SNE on the top 30 to 50 principal components",
+    "Run DBSCAN clustering first to remove all outlier cells",
+    "Convert all expression values to z-scores and skip any further dimensionality reduction",
+    "Apply a random forest to hand-select the top 30 to 50 genes"
+  ],
+  "answer": 0,
+  "explanation": "The chapter explicitly states to 'always use PCA before UMAP/t-SNE; UMAP/t-SNE on top 30-50 PCs,' which reduces noise and computational cost before non-linear embedding. DBSCAN is a clustering method rather than a recommended preprocessing step here, z-scoring alone does not reduce dimensionality, and random-forest feature selection is not the pipeline described for this workflow.",
+  "tags": [
+    "machine-learning",
+    "dimensionality-reduction",
+    "pca",
+    "umap"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "b2271905-2c8f-42f9-b071-0c36f9cc0b73"
+}

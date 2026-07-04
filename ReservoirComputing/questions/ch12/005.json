@@ -1,0 +1,22 @@
+{
+  "question_id": "a3b4a77d-1ef0-4ccd-a102-1e75b1966ef5",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the linearized (cascade) analysis, each successive DeepESN layer acts on the layer below as what kind of filter?",
+  "choices": [
+    "A high-pass filter that removes slow trends",
+    "A band-pass filter centered on the fast oscillation",
+    "A low-pass filter with a progressively lower cutoff frequency",
+    "An all-pass filter that changes only phase, not magnitude"
+  ],
+  "answer": 2,
+  "explanation": "Each leaky layer is a first-order IIR low-pass filter with cutoff ω_c ≈ α(1−ρ); stacking them forms a cascade whose composite cutoff drops with depth, so upper layers see only low-frequency content. A high-pass or band-pass filter (options 0, 1) would suppress the slow envelope the top layer is meant to preserve; an all-pass filter (option 3) would not perform the temporal integration at all.",
+  "tags": [
+    "deep-esn",
+    "low-pass",
+    "transfer-function"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

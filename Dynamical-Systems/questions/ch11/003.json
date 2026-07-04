@@ -1,0 +1,22 @@
+{
+  "question_id": "9a7c9eb7-5058-4833-b12c-b23f8b5e6331",
+  "chapter": 11,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In the second-order coding rate R_n ~ C - sqrt(V/n) * Q^{-1}(epsilon), the quantity V is the channel:",
+  "choices": [
+    "capacity",
+    "entropy",
+    "dispersion",
+    "bandwidth"
+  ],
+  "answer": 2,
+  "explanation": "V, the channel dispersion, is the variance of the information density and governs the sqrt(n) backoff from capacity at finite block length (Polyanskiy-Poor-Verdu).",
+  "tags": [
+    "second-order-rate",
+    "channel-dispersion",
+    "finite-blocklength"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

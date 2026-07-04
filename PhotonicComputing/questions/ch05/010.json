@@ -1,0 +1,19 @@
+{
+  "question_id": "6eb5c5be-c728-4b65-826c-907c319ca9cf",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In an erbium-doped fiber amplifier the erbium metastable (upper-level) lifetime is about ___ milliseconds, slow enough that the amplifier shows transient gain excursions when WDM channels are added or dropped.",
+  "choices": [
+    "10"
+  ],
+  "answer": "10",
+  "explanation": "The ~10 ms upper-level lifetime makes EDFA gain dynamics slow, causing transient surviving-channel power swings during add/drop events. This slow response is why EDFAs need gain-control loops in reconfigurable networks.",
+  "tags": [
+    "edfa",
+    "optical-amplifier",
+    "gain-dynamics"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

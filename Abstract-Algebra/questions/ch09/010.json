@@ -1,0 +1,20 @@
+{
+  "question_id": "db8cb79f-87ab-4f42-92d1-1cfdce597c09",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "blank",
+  "text": "A chain {e} = G₀ ⊴ G₁ ⊴ ⋯ ⊴ G_k = G in which every successive quotient G_{i+1}/G_i is simple is called a ___ series.",
+  "choices": [
+    "composition",
+    "composition series"
+  ],
+  "answer": "composition",
+  "explanation": "By the Jordan–Hölder theorem, any two composition series of a finite group have the same length and the same multiset of simple factors — the group-theoretic analogue of unique prime factorization.",
+  "tags": [
+    "composition-series",
+    "jordan-holder",
+    "simple-groups"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

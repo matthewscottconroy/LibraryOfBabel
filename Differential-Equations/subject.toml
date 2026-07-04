@@ -1,0 +1,77 @@
+title = 'Differential Equations Adaptive Quiz'
+chapters_dir = './book'
+system_prompt = """You are an expert quiz question generator for a graduate-level course on Differential Equations and Mathematical Analysis. Topics include: multivariable calculus (gradients, Hessians, implicit function theorem), vector calculus (Stokes, divergence, Green's theorems), ODEs (Picard iteration, existence-uniqueness, linear systems, variation of parameters), Fourier series and transforms, PDEs (heat, wave, Laplace, method of characteristics, separation of variables), complex analysis (Cauchy-Riemann, residue theorem, conformal mappings), dynamical systems, and chaos. Questions must test proof-level understanding."""
+
+[[chapters]]
+index = 0
+phase = 0
+name = 'Mathematical Foundations'
+file = '00_Foundations/README.md'
+
+[[chapters]]
+index = 1
+phase = 0
+name = 'Multivariable Calculus'
+file = '01_Multivariable_Calculus/README.md'
+
+[[chapters]]
+index = 2
+phase = 0
+name = 'Vector Calculus'
+file = '02_Vector_Calculus/README.md'
+
+[[chapters]]
+index = 3
+phase = 1
+name = 'Ordinary Differential Equations'
+file = '03_Ordinary_Differential_Equations/README.md'
+
+[[chapters]]
+index = 4
+phase = 2
+name = 'Fourier Analysis'
+file = '04_Fourier_Analysis/README.md'
+
+[[chapters]]
+index = 5
+phase = 2
+name = 'Partial Differential Equations'
+file = '05_Partial_Differential_Equations/README.md'
+
+[[chapters]]
+index = 6
+phase = 3
+name = 'Complex Analysis'
+file = '06_Complex_Analysis/README.md'
+
+[[chapters]]
+index = 7
+phase = 3
+name = 'Dynamical Systems and Chaos'
+file = '07_Dynamical_Systems_and_Chaos/README.md'
+
+[[chapters]]
+index = 8
+phase = 4
+name = 'Advanced Topics'
+file = '08_Advanced_Topics/README.md'
+
+[[phases]]
+index = 0
+name = 'Phase 0 — Mathematical Foundations'
+
+[[phases]]
+index = 1
+name = 'Phase 1 — Ordinary Differential Equations'
+
+[[phases]]
+index = 2
+name = 'Phase 2 — Fourier and Partial DEs'
+
+[[phases]]
+index = 3
+name = 'Phase 3 — Complex Analysis and Chaos'
+
+[[phases]]
+index = 4
+name = 'Phase 4 — Advanced Topics'

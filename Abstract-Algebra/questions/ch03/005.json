@@ -1,0 +1,22 @@
+{
+  "question_id": "5252b5aa-0363-459b-a8ff-9f5fa2206e71",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Suppose A, B ∈ Mₙ(F) satisfy AB = Iₙ. Which conclusion is correct?",
+  "choices": [
+    "BA = Iₙ automatically: a one-sided inverse of a square matrix is two-sided",
+    "BA = Iₙ only when A is also assumed invertible",
+    "BA can differ from Iₙ, just as for linear maps on infinite-dimensional spaces",
+    "BA = Iₙ holds over ℝ and ℂ but can fail over finite fields"
+  ],
+  "answer": 0,
+  "explanation": "AB = I makes L_B injective (Bx = 0 ⇒ x = ABx = 0), so by rank–nullity B is invertible, and A = (AB)B⁻¹ = B⁻¹, giving BA = I. Finite-dimensionality is essential: on F[x] the composition (d/dx) ∘ (integration) is the identity, but the reverse composition kills constants.",
+  "tags": [
+    "matrices",
+    "invertibility",
+    "rank-nullity"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

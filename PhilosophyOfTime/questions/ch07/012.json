@@ -1,0 +1,18 @@
+{
+  "question_id": "fd95efd0-c6f4-492b-9094-1a9e9a3b8815",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "On the 'no-passage' view defended by Callender and Prosser, what explains our vivid sense that time flows?",
+  "choices": [
+    "The asymmetry between our representations of past and future (rich memory versus open anticipation), itself grounded in physical asymmetries — not any objective flow",
+    "A primitive, irreducible rate at which the objective 'NOW' advances along the temporal sequence",
+    "A property of presentness that genuinely moves along an otherwise block-like manifold, illuminating each moment in turn",
+    "The distension of the soul into a present-of-the-past, a present-of-the-present, and a present-of-the-future"
+  ],
+  "answer": 0,
+  "explanation": "The no-passage view (Callender 2017; Prosser 2016) denies objective passage and explains the experience via the memory-anticipation asymmetry — we hold determinate memories of the past but only open anticipations of the future — an asymmetry itself grounded in the world's entropic and causal asymmetries. Choices 2 and 3 are Skow's realist responses (a primitive rate of passage; the moving spotlight), which affirm rather than debunk objective passage; choice 4 is Augustine's distentio animi, a phenomenological account of time, not an explanation of why passage seems real though (on this view) it is not.",
+  "tags": ["passage", "no-passage-view", "callender", "prosser", "illusion"],
+  "difficulty": "advanced",
+  "generated": true
+}

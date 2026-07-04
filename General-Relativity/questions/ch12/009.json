@@ -1,0 +1,19 @@
+{
+  "question_id": "91bef712-cf71-4d83-a140-cecdf52f8421",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "tf",
+  "text": "In the book's Penrose diagram of the maximally extended Schwarzschild spacetime, the r = 0 singularity is timelike — it appears as vertical lines that an infalling observer can always maneuver to avoid.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The book stresses that the Schwarzschild singularity is spacelike, appearing as horizontal lines in the Penrose/Kruskal diagram and lying in the future of every interior observer; it is therefore unavoidable — 'in the future, not to the right'. A timelike, avoidable singularity is precisely the misconception the diagram corrects.",
+  "tags": [
+    "penrose-diagram",
+    "spacelike-singularity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

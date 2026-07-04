@@ -1,0 +1,21 @@
+{
+  "question_id": "2344000f-7991-4bc2-9511-e9d3082580f6",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The 'argument from illusion' (e.g., the straight stick that looks bent in water) supports sense-data theory by claiming that:",
+  "choices": [
+    "Physical objects change their real shape when placed in water",
+    "Since what we are directly aware of has a property (bentness) the physical object lacks, the immediate object of awareness must be a mind-dependent sense-datum",
+    "Illusions never actually occur",
+    "Perception is direct and unmediated even in cases of illusion"
+  ],
+  "answer": 1,
+  "explanation": "The argument runs: in illusion what we are directly aware of has a property (bentness) the physical stick lacks, so the immediate object must be a mind-dependent sense-datum - and by generalization this holds even in veridical cases. Option 0 misdescribes the physics, option 2 denies that illusions occur, and option 3 is the direct-realist conclusion the argument opposes.",
+  "tags": [
+    "argument-from-illusion",
+    "sense-data"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

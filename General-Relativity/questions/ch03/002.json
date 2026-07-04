@@ -1,0 +1,21 @@
+{
+  "question_id": "f14b124a-3d58-4bbf-a01f-007be6c12fcb",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For the second-order linear PDE A ∂²u/∂x² + 2B ∂²u/∂x∂y + C ∂²u/∂y² + (lower-order terms) = 0, the book classifies the equation as hyperbolic when the discriminant B² − AC is:",
+  "choices": [
+    "less than 0",
+    "equal to 0",
+    "greater than 0",
+    "equal to A + C"
+  ],
+  "answer": 2,
+  "explanation": "The book uses the discriminant B² − AC: negative gives elliptic (Laplace), zero gives parabolic (heat), and positive gives hyperbolic. The prototype wave equation has A = 1, C = −1, B = 0, so B² − AC = 1 > 0, hence hyperbolic, and disturbances propagate along the characteristics.",
+  "tags": [
+    "pde",
+    "classification"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "f437be01-5e23-49fa-8435-c20af15b577b",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A finite covering of a hyperbolic set by rectangles respecting the stable/unstable foliation is a ___ partition, enabling symbolic coding.",
+  "choices": [
+    "Markov"
+  ],
+  "answer": "Markov",
+  "explanation": "Markov partitions let a hyperbolic system be coded by a subshift of finite type, the bridge to symbolic dynamics and information theory.",
+  "tags": [
+    "markov-partition",
+    "symbolic-coding",
+    "hyperbolic"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

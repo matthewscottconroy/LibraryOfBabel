@@ -48,4 +48,4 @@ theorem factorial_pos : ∀ n : ℕ, 0 < factorial n := by
 ```
 
 ## Exercises
-See [problems/ch07_induction/](../../../problems/ch07_induction/)
+See [problems/ch07_induction_and_recursion/](../../../problems/ch07_induction_and_recursion/)

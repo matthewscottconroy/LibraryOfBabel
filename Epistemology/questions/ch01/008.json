@@ -1,0 +1,13 @@
+{
+  "question_id": "b94f9464-9240-4284-bbad-e2fa0fd0a371",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "True or False: The no-false-lemmas condition (Harman), added to JTB, successfully handles the fake-barn (barn-facade) case, because that case turns on a false intermediate belief in the subject's reasoning.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. In the fake-barn case the subject forms the belief 'there is a barn' directly from perceiving a genuine barn, with no false lemma anywhere in the reasoning, yet intuitively lacks knowledge because of the surrounding facades. The case therefore shows that no-false-lemmas is not sufficient to rule out all Gettier-style failures: here the luck is environmental rather than inferential.",
+  "tags": ["no-false-lemmas", "harman", "fake-barns", "epistemic-luck"],
+  "difficulty": "intermediate",
+  "generated": true
+}

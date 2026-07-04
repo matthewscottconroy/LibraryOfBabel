@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which energy regeneration system is described as the most common, providing roughly 4 hours of ATP regeneration in cell-free reactions?",
+  "choices": [
+    "Oxidative phosphorylation with reconstituted membranes",
+    "Phosphoenolpyruvate (PEP)",
+    "Maltose or maltodextrin",
+    "Creatine phosphate / creatine kinase (CP/CK)"
+  ],
+  "answer": 3,
+  "explanation": "Creatine phosphate/creatine kinase (CP/CK) is identified as the most common energy regeneration system, typically sustaining reactions for about 4 hours. PEP is described as clean but expensive, maltose/maltodextrin supports longer but more complex reactions, and oxidative phosphorylation with membranes is renewable yet technically demanding -- none of these is labeled the most common choice.",
+  "tags": [
+    "cell-free-systems",
+    "energy-regeneration"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "0bcac0e5-c020-4287-9569-4a52c3666acf"
+}

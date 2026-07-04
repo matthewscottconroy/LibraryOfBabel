@@ -1,0 +1,18 @@
+{
+  "question_id": "4e4fce40-f11b-4dfa-9fa9-502a41ebf3ad",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In reservoir computing, what is actually trained, and what property must the reservoir satisfy?",
+  "choices": [
+    "Only a linear readout is trained; the reservoir must satisfy the echo-state property (fading memory, spectral radius rho < 1)",
+    "All recurrent weights are trained by backpropagation-through-time; rho must exceed 1",
+    "Only the input weights are trained; the readout is fixed at random",
+    "The reservoir is trained while the readout is fixed"
+  ],
+  "answer": 0,
+  "explanation": "A reservoir fixes the high-dimensional nonlinear recurrent network at random and trains only the linear readout by ridge regression; the echo-state property (spectral radius rho < 1) guarantees fading memory. This turns fabrication variation into the network itself. Options 1 and 3 wrongly train the reservoir, and option 2 reverses which part is learned.",
+  "tags": ["reservoir-computing", "echo-state", "readout"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "f888c88d-95df-4b92-93dd-9cd8a3c2c8ad",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The adverbial theory (Ducasse, Chisholm) analyses 'I sense a red sense-datum' as 'I am appeared to ___' - replacing the inner object with a manner or adverb of sensing.",
+  "choices": [
+    "redly",
+    "red-ly"
+  ],
+  "answer": "redly",
+  "explanation": "Adverbialism reconstrues 'I sense a red sense-datum' as 'I am appeared to redly', treating the redness as a manner (adverb) of sensing rather than an inner object, thereby avoiding ontological commitment to sense-data. (Its chief difficulty is the 'many-properties problem'.) The expected word is 'redly'.",
+  "tags": [
+    "adverbialism",
+    "ducasse-chisholm"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

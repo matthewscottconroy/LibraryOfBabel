@@ -1,0 +1,23 @@
+{
+  "question_id": "e493de7d-c3c9-48a9-b374-49fad71d0541",
+  "chapter": 18,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In the enhancement debate, Michael Sandel and Julian Savulescu are opposed in which way?",
+  "choices": [
+    "Sandel defends a positive duty to enhance, while Savulescu invokes 'giftedness' against enhancement",
+    "Both hold that any enhancement is simply impermissible",
+    "Sandel objects that enhancement erodes the good of 'giftedness,' while Savulescu argues for 'procreative beneficence,' a duty to select the child expected to have the best life",
+    "Both ground their positions in Nozick's experience machine"
+  ],
+  "answer": 2,
+  "explanation": "Sandel's giftedness argument warns that the drive to master and design traits erodes openness and unconditional acceptance; Savulescu's procreative beneficence makes selecting the best-expected-life child a positive obligation, directly challenging Sandel. Option A reverses the two thinkers, and B and D misstate both positions.",
+  "tags": [
+    "neuroethics",
+    "sandel",
+    "savulescu",
+    "enhancement"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

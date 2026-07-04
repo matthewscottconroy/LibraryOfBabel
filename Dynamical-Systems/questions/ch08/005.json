@@ -1,0 +1,22 @@
+{
+  "question_id": "2bce93da-db8f-418b-a4d5-bbc7ce87c65b",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Reversible computation, in which no bit is ever erased, in principle requires:",
+  "choices": [
+    "zero heat dissipation",
+    "maximal heat dissipation",
+    "kT ln 2 per gate",
+    "infinite energy"
+  ],
+  "answer": 0,
+  "explanation": "Since Landauer's cost is tied only to erasure, logically reversible computation (e.g. with Fredkin/Toffoli gates) can in principle dissipate no heat.",
+  "tags": [
+    "reversible-computation",
+    "landauer",
+    "thermodynamics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

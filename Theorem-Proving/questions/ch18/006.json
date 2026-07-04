@@ -1,0 +1,24 @@
+{
+  "question_id": "99b34201-7e41-4143-b501-41aae6811afe",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The chapter draws a 'decidability map' for first-order theories of algebraic structures. Which pairing is correct?",
+  "choices": [
+    "The theory of abelian groups is decidable (Szmielew), while the full first-order theory of groups is undecidable (Tarski)",
+    "The theory of abelian groups is undecidable, while the full theory of groups is decidable",
+    "Both the theory of groups and the theory of abelian groups are undecidable",
+    "Th(ℝ; +, ·, ≤) is undecidable, while Th(ℤ; +, ·) is decidable"
+  ],
+  "answer": 0,
+  "explanation": "Szmielew (1955) proved the first-order theory of abelian groups decidable, whereas Tarski showed the full first-order theory of groups undecidable — commutativity marks the boundary. Option D reverses the real/integer situation: RCF = Th(ℝ;+,·,≤) is decidable (Tarski) while Th(ℤ;+,·) is undecidable.",
+  "tags": [
+    "decidability",
+    "abelian-groups",
+    "szmielew",
+    "tarski",
+    "rcf"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "e288574a-08c8-4017-b915-d63597f9e579",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "An object 1 in a category C is called terminal when:",
+  "choices": [
+    "for every object A there is exactly one morphism A → 1",
+    "for every object A there is exactly one morphism 1 → A",
+    "it has no incoming morphisms",
+    "it is isomorphic to every other object"
+  ],
+  "answer": 0,
+  "explanation": "A terminal object 1 receives exactly one morphism from every object A (A → 1). Option B describes the dual notion, an initial object (a unique arrow 1 → A out of it). In Set every singleton is terminal and ∅ is initial.",
+  "tags": [
+    "terminal",
+    "initial",
+    "universal-property",
+    "duality"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

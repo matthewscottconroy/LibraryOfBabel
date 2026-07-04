@@ -1,0 +1,21 @@
+{
+  "chapter": 20,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What best describes the composition of the PURE cell-free translation system?",
+  "choices": [
+    "Crude E. coli lysate with endogenous mRNA depleted by a run-off reaction",
+    "A fully reconstituted system assembled from individually purified components: ribosomes, aminoacyl-tRNA synthetases, translation factors, tRNAs, and RNA polymerase",
+    "Only ribosomes and mRNA, relying on residual native polymerase activity",
+    "Lyophilized whole cells that are rehydrated with a patient sample"
+  ],
+  "answer": 1,
+  "explanation": "PURE is built entirely from individually purified components rather than crude lysate, which is exactly what makes it 'completely defined' with no unknown background components. Option 0 describes an extract-based system, not PURE; option 2 omits nearly all of PURE's required machinery; and option 3 describes a diagnostic paper-based application concept, not the PURE system's actual composition.",
+  "tags": [
+    "cell-free-systems",
+    "pure-system"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "e901a05f-6cd0-4908-97d7-a206b4f1a205"
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "de880bc7-7227-4920-8252-fc0ebc08f724",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "For a d-regular expander graph, strong expansion is guaranteed by a large:",
+  "choices": [
+    "spectral gap",
+    "determinant",
+    "diameter",
+    "genus"
+  ],
+  "answer": 0,
+  "explanation": "The gap between the first and second adjacency eigenvalues controls expansion; larger gap means better mixing/expansion. Ramanujan graphs achieve the optimal gap.",
+  "tags": [
+    "expander-graphs",
+    "spectral-gap",
+    "mixing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

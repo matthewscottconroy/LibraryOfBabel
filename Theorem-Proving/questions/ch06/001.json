@@ -1,0 +1,23 @@
+{
+  "question_id": "3045e4c6-0251-4666-b5e2-d1326e5cb975",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The principle of (weak) mathematical induction proves ∀n ∈ ℕ, P(n) by establishing which two things?",
+  "choices": [
+    "P(0) and P(1)",
+    "P(n) for one arbitrary n, and P(n+1) unconditionally",
+    "That the set {n : ¬P(n)} is infinite, then a contradiction",
+    "The base case P(0), and the inductive step ∀n (P(n) → P(n+1))"
+  ],
+  "answer": 3,
+  "explanation": "Weak induction needs a base case P(0) and an inductive step showing P(n) → P(n+1) for every n; together they yield ∀n P(n). Proving only P(0) and P(1) covers just two values; the inductive step is conditional (you assume P(n)), not unconditional; and option C describes a different, minimal-counterexample style of argument.",
+  "tags": [
+    "mathematical-induction",
+    "weak-induction",
+    "base-case",
+    "inductive-step"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

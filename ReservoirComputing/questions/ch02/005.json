@@ -1,0 +1,22 @@
+{
+  "question_id": "b429453e-c226-4bf1-b977-f78ec722bf90",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which equation is the leaky-integrator ESN state update used in esn.py?",
+  "choices": [
+    "x_{t+1} = tanh(W_out x_t + W_in u_{t+1})",
+    "x_{t+1} = alpha*x_t + (1-alpha)*tanh(W_rec x_t + W_in u_{t+1} + b)",
+    "x_{t+1} = (1-alpha)*x_t + alpha*tanh(W_rec x_t + W_in u_{t+1} + b)",
+    "x_{t+1} = (1-alpha)*x_t + alpha*(W_rec x_t + W_in u_{t+1} + b)"
+  ],
+  "answer": 2,
+  "explanation": "The leaky-integrator update is x_{t+1} = (1-alpha)x_t + alpha*tanh(W_rec x_t + W_in u_{t+1} + b). Option 1 swaps the alpha and (1-alpha) weights, option 3 drops the tanh nonlinearity, and option 0 wrongly puts the readout W_out inside the state update.",
+  "tags": [
+    "leaky-integrator",
+    "update-equation",
+    "tanh"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

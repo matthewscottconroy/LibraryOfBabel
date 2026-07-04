@@ -1,0 +1,18 @@
+{
+  "question_id": "c1740af9-5e2b-4a83-91d7-0b6c3e8149a2",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The standard contemporary resolution of the paradox of the stone (\"Can God create a stone too heavy for him to lift?\") holds that:",
+  "choices": [
+    "creating a stone that an omnipotent being cannot lift is not a genuine task at all, like drawing a round square, so failing to do it is no limit on omnipotence.",
+    "God can do absolutely anything, including the logically impossible, so God can both create such a stone and then lift it.",
+    "omnipotence should be given up in favor of the view that God merely 'lures' creatures toward the good without coercive power.",
+    "God's inability to sin already shows that omnipotence is compatible with there being some things God cannot do."
+  ],
+  "answer": 0,
+  "explanation": "The standard modal resolution restricts omnipotence to intrinsically possible states of affairs; a stone too heavy for an omnipotent being to lift is an incoherent description—no task at all—so it sets no limit on power. Distractor 1 is Descartes's universal possibilism (God can do even the logically impossible), a real but widely rejected view, not the standard resolution.",
+  "tags": ["divine-attributes", "omnipotence", "stone-paradox"],
+  "difficulty": "intermediate",
+  "generated": true
+}

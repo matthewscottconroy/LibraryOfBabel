@@ -1,0 +1,13 @@
+{
+  "question_id": "46c213b6-0213-4f8d-a9d7-d5076c0dd488",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Current photonic matrix processors can update their weights as fast as they perform a matrix-vector product, which makes them ideal engines for on-chip training.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False: weight update is the unsolved bottleneck. Thermo-optic tuning takes microseconds to 100 microseconds and PCM writes take microseconds to milliseconds with limited endurance, far slower than the ~10-100 ps optical transit. Thus these are inference accelerators with quasi-static weights, and training remains electronic.",
+  "tags": ["weight-update", "inference", "quasi-static"],
+  "difficulty": "beginner",
+  "generated": true
+}

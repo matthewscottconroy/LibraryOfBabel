@@ -1,0 +1,18 @@
+{
+  "question_id": "cf8ee2f0-afdb-40df-948a-c98de0bdf428",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "For a short exact sequence $1\\to N\\to G\\to Q\\to 1$ and a $G$-module $M$, the $E_2$ page of the Lyndon-Hochschild-Serre spectral sequence is:",
+  "choices": [
+    "$H^p(N,H^q(Q,M))$",
+    "$H^p(G,H^q(N,M))$",
+    "$H^p(Q,H^q(N,M))$",
+    "$H^p(Q,M)\\otimes H^q(N,M)$"
+  ],
+  "answer": 2,
+  "explanation": "The LHS spectral sequence reads $E_2^{p,q}=H^p(Q,H^q(N,M))\\Rightarrow H^{p+q}(G,M)$: the outer cohomology is over the quotient $Q$ and the inner over the normal subgroup $N$. Swapping $N$ and $Q$ or using $G$ itself is wrong, and the tensor-product form is a Kunneth-style expression, not the LHS $E_2$ page.",
+  "tags": ["spectral-sequences", "lyndon-hochschild-serre", "group-cohomology"],
+  "difficulty": "beginner",
+  "generated": true
+}

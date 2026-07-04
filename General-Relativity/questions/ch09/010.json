@@ -1,0 +1,19 @@
+{
+  "question_id": "86116009-3cb7-4aae-b5f6-3de6d82d69d7",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In the Schwarzschild geometry, the unstable circular orbit for photons at r = 3GM/c² = 1.5 r_s is called the ___.",
+  "choices": [
+    "photon sphere",
+    "photon-sphere"
+  ],
+  "answer": "photon sphere",
+  "explanation": "The book names the unstable circular null geodesic at r = 3GM/c² = 1.5 r_s the photon sphere; its image is the bright ring around a black hole's shadow. It is distinct from the ISCO at 6GM/c², which is the innermost stable orbit for massive particles.",
+  "tags": [
+    "schwarzschild",
+    "photon-sphere"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

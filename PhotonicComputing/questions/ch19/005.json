@@ -1,0 +1,18 @@
+{
+  "question_id": "812ed494-7344-48a8-8e4b-ef512b059bdf",
+  "chapter": 19,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why is photon loss called the 'easy' error for dual-rail photonic qubits?",
+  "choices": [
+    "Because lost photons are automatically replaced by the vacuum port",
+    "Because loss never actually affects the computation",
+    "Because in dual rail both |0>_L and |1>_L carry exactly one photon, so a loss leaves vacuum, a located (heralded) erasure whose correction thresholds far exceed those of unlocated Pauli errors",
+    "Because photon loss is a Pauli-X error that is trivial to correct"
+  ],
+  "answer": 2,
+  "explanation": "Since both logical states carry one photon, losing it yields detectable vacuum, a located erasure, and erasure thresholds (~50% on the surface code) dwarf Pauli thresholds (~11%). Loss is not auto-replaced (choice 0), does affect the qubit (choice 1), and is an erasure rather than a Pauli-X error (choice 3).",
+  "tags": ["photon-loss", "erasure", "error-correction"],
+  "difficulty": "beginner",
+  "generated": true
+}

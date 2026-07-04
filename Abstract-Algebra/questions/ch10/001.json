@@ -1,0 +1,22 @@
+{
+  "question_id": "21ca4265-4cc5-4389-a87c-0492a65804ce",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The quotient ring ℝ[x]/(x² + 1) is isomorphic to:",
+  "choices": [
+    "ℂ",
+    "ℝ × ℝ",
+    "ℝ",
+    "the zero ring"
+  ],
+  "answer": 0,
+  "explanation": "Modding out by (x²+1) forces x² = −1, so the coset of x behaves exactly like i: elements a + bx multiply like complex numbers. Since x²+1 is irreducible over ℝ, the ideal is maximal and the quotient is a field.",
+  "tags": [
+    "rings",
+    "quotient-rings",
+    "ideals"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

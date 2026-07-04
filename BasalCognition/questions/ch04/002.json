@@ -1,0 +1,18 @@
+{
+  "question_id": "b3e7c015-8d2a-4f69-9c04-1a5b7e2d6f38",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "How does a plant 'variation potential' differ from a plant action potential?",
+  "choices": [
+    "It is a faster, all-or-nothing electrical spike strictly confined to the phloem",
+    "It is identical in mechanism to an animal neuronal action potential",
+    "It is a slow, graded depolarization driven by hydraulic pressure changes in the xylem",
+    "It is a purely chemical signal with no electrical component at all"
+  ],
+  "answer": 2,
+  "explanation": "The variation potential is a slow, graded depolarization driven by a xylem pressure (hydraulic) wave that activates mechanosensitive channels, so it is not the all-or-nothing, electrically stereotyped phloem action potential (choice 0). It is not mechanistically identical to an animal action potential (choice 1), and it does have an electrical component (choice 3).",
+  "tags": ["plant-signaling", "variation-potential", "xylem"],
+  "difficulty": "intermediate",
+  "generated": true
+}

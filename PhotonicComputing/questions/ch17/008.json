@@ -1,0 +1,13 @@
+{
+  "question_id": "0c1b6566-9345-4e34-8f0d-03e7cfb7edf9",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The Hong-Ou-Mandel dip arises because the two photons physically collide and repel one another at the beam splitter.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. Photons do not interact. The HOM dip is destructive interference of two-photon probability amplitudes (both-transmit plus both-reflect summing to zero); measurement, not any force between photons, produces the effect.",
+  "tags": ["hom", "interference", "no-interaction"],
+  "difficulty": "beginner",
+  "generated": true
+}

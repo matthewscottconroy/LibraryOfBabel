@@ -1,0 +1,18 @@
+{
+  "question_id": "2ef66b25-cd98-4870-a510-6ba85cee4dbb",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Causal ___ is the thesis that the complete state of the world at any time, together with the laws of nature, fixes a unique future.",
+  "choices": [
+    "determinism"
+  ],
+  "answer": "determinism",
+  "explanation": "Causal determinism holds that the past plus the laws uniquely fix every later state (Laplace's demon). It must be distinguished from fatalism (outcomes fixed regardless of what one does) and from mere predictability, since a deterministic system can be chaotic and practically unpredictable.",
+  "tags": [
+    "determinism",
+    "free-will"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

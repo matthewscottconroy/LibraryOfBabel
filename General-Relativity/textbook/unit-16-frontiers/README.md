@@ -22,9 +22,7 @@ This final unit surveys the frontier — the open problems and active research d
 
 ## Chapters in This Unit
 
-- [Chapter 54: Numerical Relativity](chapter-54-numerical-relativity/README.md)
-- [Chapter 55: Post-Newtonian Gravity and Precision Tests](chapter-55-post-newtonian/README.md)
-- [Chapter 56: Black Hole Thermodynamics and Information](chapter-56-bh-thermodynamics/README.md)
-- [Chapter 57: Loop Quantum Gravity](chapter-57-lqg/README.md)
-- [Chapter 58: String Theory and AdS/CFT](chapter-58-string-adscft/README.md)
-- [Chapter 59: The Future of Gravitational Wave Astronomy](chapter-59-gw-future/README.md)
+- [Chapter 61: Numerical Relativity](chapter-61-numerical-relativity/README.md)
+- [Chapter 62: Modified Gravity](chapter-62-modified-gravity/README.md)
+- [Chapter 63: Approaches to Quantum Gravity](chapter-63-quantum-gravity/README.md)
+- [Chapter 64: Open Problems and Future Directions](chapter-64-open-problems/README.md)

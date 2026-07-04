@@ -1,0 +1,23 @@
+{
+  "question_id": "890b72d9-96f2-41cf-a48b-73903f87ee20",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "According to the coherence theory of truth, a belief is true if and only if:",
+  "choices": [
+    "it corresponds to an independently existing fact or state of affairs in a mind-independent world",
+    "it coheres with a sufficiently comprehensive, mutually supporting, and consistent system of beliefs",
+    "acting on it reliably leads to successful outcomes and satisfies our cognitive needs",
+    "the equivalence schema '“snow is white” is true iff snow is white' holds for it, and nothing more need be said"
+  ],
+  "answer": 1,
+  "explanation": "The coherence theory, rooted in British Idealism (Bradley, Bosanquet), makes truth a matter of a belief's fitting harmoniously into a maximally coherent system rather than of matching an external fact. Option 0 states the rival correspondence theory; option 2 states James's pragmatist 'what works' account; option 3 states deflationism. Coherence here means more than bare consistency: mutual support and explanatory connectedness as well.",
+  "tags": [
+    "coherence",
+    "truth",
+    "bradley",
+    "idealism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

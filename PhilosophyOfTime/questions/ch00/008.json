@@ -1,0 +1,13 @@
+{
+  "question_id": "99254b95-8c82-4ad0-9b4e-c4e92bc82c05",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "According to the book, physics treats time as a parameter (the variable t) that it uses successfully, yet the equations by themselves do not settle whether there is an objective “now” or whether the past and future are equally real.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "This restates the book's claim that 'physics uses time; it does not explain it' — the variable t functions whatever the answers to those metaphysical questions turn out to be. Because the physics is neutral among such interpretations, the statement is true as the book presents it.",
+  "tags": ["physics-vs-philosophy", "underdetermination", "nature-of-time"],
+  "difficulty": "intermediate",
+  "generated": true
+}

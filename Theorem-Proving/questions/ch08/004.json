@@ -1,0 +1,19 @@
+{
+  "question_id": "546358c4-55ef-42bc-ad43-131bee003051",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The satisfaction relation is written M ⊨ φ. Read aloud it says that the structure M ___ the sentence φ, i.e. φ is true in M.",
+  "choices": [
+    "satisfies"
+  ],
+  "answer": "satisfies",
+  "explanation": "M ⊨ φ is read 'M satisfies φ' (equivalently 'φ is true in M'), defined by Tarski's inductive clauses over the connectives and quantifiers. The word for this semantic relation is 'satisfies'.",
+  "tags": [
+    "satisfaction",
+    "tarski",
+    "notation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

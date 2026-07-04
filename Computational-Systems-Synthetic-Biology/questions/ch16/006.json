@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the retroactivity framework (Del Vecchio et al.), which strategy inserts a buffering stage, such as a phosphorylation-dephosphorylation cycle, between an upstream circuit and its downstream load?",
+  "choices": [
+    "Truncating the guide RNA spacer to 17-18 nt",
+    "Adding degradation tags only to the downstream target protein",
+    "An insulation device",
+    "Switching to a two-input operator promoter"
+  ],
+  "answer": 2,
+  "explanation": "An insulation device, such as a phosphorylation-dephosphorylation amplifier stage, sits between circuit stages and buffers the upstream part from the loading effect of the downstream target, directly counteracting retroactivity. Truncated guide RNAs are a strategy for reducing CRISPR off-target effects, not retroactivity; degradation tags reduce steady-state titration but are a separate mitigation from insulation; and two-input operator promoters are an AND-gate implementation, unrelated to retroactivity mitigation.",
+  "tags": [
+    "retroactivity",
+    "insulation-device",
+    "circuit-loading"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "60a36821-c5a8-4ac7-9994-23ce32b4fa2a"
+}

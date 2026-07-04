@@ -1,0 +1,21 @@
+{
+  "question_id": "978eadda-b6c8-473b-a964-15bafa30370e",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Deflationary theories of truth (such as Horwich's minimalism and Quine's disquotationalism) hold that 'is true' does not express a substantive property whose hidden nature awaits metaphysical analysis.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is the core deflationary claim: the truth predicate has a logical and expressive function — enabling generalization and endorsement — but does not name a deep property, so there is no metaphysics of truth to uncover. This directly contrasts with the correspondence theory, which treats truth as a substantive relation between propositions and facts.",
+  "tags": [
+    "deflationism",
+    "truth",
+    "minimalism",
+    "disquotationalism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "fabf653d-97a6-4c4d-af5f-61d24e96a77d",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For an n×n matrix A and a scalar c, det(cA) equals:",
+  "choices": [
+    "c · det(A)",
+    "cⁿ · det(A)",
+    "c² · det(A)",
+    "|c| · det(A)"
+  ],
+  "answer": 1,
+  "explanation": "cA rescales each of the n rows by c, and multilinearity extracts one factor of c per row. For instance det(2I₃) = 8, not 2 — the volume of a cube doubles in every dimension.",
+  "tags": [
+    "determinants",
+    "multilinearity"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

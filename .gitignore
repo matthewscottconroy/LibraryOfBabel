@@ -49,3 +49,9 @@ Thumbs.db
 
 # VS Code
 .vscode/
+
+# Generated book output (combined md, PDFs)
+output/
+
+# Claude Code local settings
+.claude/

@@ -1,0 +1,20 @@
+{
+  "question_id": "767b1257-5254-47da-b278-feb3513eb465",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Plancherel's theorem states that the Fourier transform preserves the L^2 norm, so the integral of |f|^2 equals the integral of |f-hat|^2.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Plancherel's theorem makes the Fourier transform a unitary map on L^2, preserving energy between the spatial and frequency representations. It is the continuous-spectrum analogue of Parseval's identity for Fourier series.",
+  "tags": [
+    "plancherel",
+    "fourier-transform",
+    "l2"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

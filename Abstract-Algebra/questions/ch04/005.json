@@ -1,0 +1,22 @@
+{
+  "question_id": "bbf78c48-e6d2-4435-a28d-2633daf40650",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which triple of axioms uniquely characterizes det: Mₙₓₙ(F) → F?",
+  "choices": [
+    "Multilinear in the rows; alternating; det(I) = 1",
+    "Additive, det(A+B) = det(A)+det(B); alternating; det(I) = 1",
+    "Multiplicative on products; linear in the first row; det(I) = 1",
+    "Multilinear in the rows; symmetric under row swaps; det(I) = 1"
+  ],
+  "answer": 0,
+  "explanation": "Row-multilinearity, alternation, and normalization pin down det uniquely; multiplicativity det(AB) = det(A)det(B) is then a theorem. The determinant is emphatically not additive, and symmetry under swaps would contradict alternation.",
+  "tags": [
+    "determinants",
+    "axioms",
+    "multilinearity"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

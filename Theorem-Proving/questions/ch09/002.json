@@ -1,0 +1,22 @@
+{
+  "question_id": "558bae5f-5cca-4087-b2b9-06fb39d3dd2b",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A set L is decidable (recursive) rather than merely semi-decidable (recursively enumerable) exactly when:",
+  "choices": [
+    "L is infinite",
+    "L is the domain of some partial computable function",
+    "both L and its complement L̄ are semi-decidable",
+    "L is recognized by a Turing machine that may run forever on non-members"
+  ],
+  "answer": 2,
+  "explanation": "The key theorem: L is decidable iff both L and its complement are semi-decidable. Options B and D describe only semi-decidability (r.e.), where the machine may diverge on non-members; option A is irrelevant to decidability. A decider must always halt with the correct verdict, which is exactly what having both L and L̄ r.e. provides.",
+  "tags": [
+    "decidable",
+    "semi-decidable",
+    "recursively-enumerable"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

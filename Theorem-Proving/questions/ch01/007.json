@@ -1,0 +1,21 @@
+{
+  "question_id": "5370d844-60b3-45f1-8865-1e689a59a695",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The completeness theorem for propositional logic states that if φ is a tautology (⊨ φ) then φ is derivable (⊢ φ); combined with soundness, this yields ⊨ φ if and only if ⊢ φ.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Completeness is ⊨ ⟹ ⊢, and soundness is the converse ⊢ ⟹ ⊨, so together they give the equivalence ⊨ φ ↔ ⊢ φ. The chapter proves completeness via the Lindenbaum–Tarski construction (every consistent set is satisfiable).",
+  "tags": [
+    "completeness",
+    "soundness",
+    "tautology",
+    "provability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

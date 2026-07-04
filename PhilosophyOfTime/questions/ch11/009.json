@@ -1,0 +1,13 @@
+{
+  "question_id": "7b54ddbb-ff56-49f7-98ee-5bb192de2ed0",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "tf",
+  "text": "According to Chapter 38, it is settled physics that Shannon (informational) entropy and thermodynamic entropy are literally the same physical quantity, with no remaining philosophical dispute.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The book notes the two formulas are formally identical up to units and choice of logarithm base, but says explicitly that whether they are 'the same thing' remains contested. Jaynes's maximum-entropy view says yes; a second view holds they are merely formally analogous but physically distinct (one has units of joules per kelvin, the other is dimensionless); a third says they converge only through Landauer's principle. The identity is therefore not settled.",
+  "tags": ["shannon-entropy", "thermodynamic-entropy", "information", "arrow-of-time"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "c324deb0-93be-429a-85d0-90d86c9c729f",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the book's account of the “two-way street” between philosophy and physics, Leibniz's critique of Newton's absolute time is the paradigm example of which direction of influence?",
+  "choices": [
+    "Physics settling a question philosophy could not, by directly measuring time dilation",
+    "Philosophy and physics being wholly independent enterprises that never constrain one another",
+    "Phenomenology correcting the equations of physics from the first-person point of view",
+    "Philosophy constraining physics — a conceptual critique later vindicated by Einstein's elimination of a preferred temporal frame"
+  ],
+  "answer": 3,
+  "explanation": "The book presents Leibniz's Principle-of-Sufficient-Reason argument against absolute time as the paradigm of philosophy informing physics, noting it was 'mathematically vindicated by Einstein two centuries later' when special relativity removed the preferred frame Newton required. The other options reverse the direction (physics informing philosophy), deny any interaction, or wrongly credit phenomenology.",
+  "tags": ["leibniz", "newton", "two-way-street", "philosophy-informs-physics", "absolute-time"],
+  "difficulty": "intermediate",
+  "generated": true
+}

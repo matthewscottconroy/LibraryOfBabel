@@ -1,0 +1,22 @@
+{
+  "question_id": "1bed100a-7d5b-4555-9cb7-85d9e30bf522",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the input-driven (skew-product) view, what condition makes a reservoir exhibit generalized synchronization / the echo state property?",
+  "choices": [
+    "All conditional Lyapunov exponents of the driven reservoir are negative, so its state converges to a function of the input history independent of initial conditions",
+    "The driver and the reservoir must obey identical equations of motion",
+    "The conditional Lyapunov exponents of the reservoir are positive",
+    "The reservoir state feeds back and drives the input signal in a two-way coupling"
+  ],
+  "answer": 0,
+  "explanation": "Generalized synchronization / the ESP holds when all conditional Lyapunov exponents are negative (Pecora-Carroll), so the driven reservoir contracts to a function of the input history and forgets its initial state. GS explicitly does NOT require identical equations (option 1), needs negative not positive exponents (option 2), and the skew-product coupling is one-way driver -> reservoir (option 3).",
+  "tags": [
+    "generalized-synchronization",
+    "echo-state-property",
+    "conditional-lyapunov"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

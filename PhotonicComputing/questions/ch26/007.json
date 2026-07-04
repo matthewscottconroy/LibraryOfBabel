@@ -1,0 +1,13 @@
+{
+  "question_id": "ed9cff91-51e8-4929-a1ad-03f77be90834",
+  "chapter": 26,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: In this chapter's framing, graphene and TMD devices are primarily modulators and detectors that attack the optical interfaces, rather than matrix engines that perform the arithmetic.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. The section's thesis is that 2D-material devices are modulators, detectors, and emitters, the electrical-to-optical and optical-to-electrical interfaces that dominate a photonic accelerator's cost, not the matrix engines; they change the cost of getting data in and out, while the weighted sums still happen in a passive mesh or by WDM.",
+  "tags": ["2d-materials", "graphene", "interfaces", "modulators-detectors"],
+  "difficulty": "beginner",
+  "generated": true
+}

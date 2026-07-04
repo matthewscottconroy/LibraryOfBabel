@@ -1,0 +1,20 @@
+{
+  "question_id": "d35c6e45-f402-48cc-94b0-6738f5bb4862",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Spinoza's phrase for the highest, intuitive knowledge that grasps things in their necessary connection to the whole of reality, stripped of all temporal and perspectival qualification, is 'sub specie ___.'",
+  "choices": [
+    "aeternitatis"
+  ],
+  "answer": "aeternitatis",
+  "explanation": "The full phrase is 'sub specie aeternitatis' — 'under the aspect of eternity' — Spinoza's characterization of the third kind of knowledge (Ethics V.29), which represents things not as occurring 'now' or 'then' but as necessarily occupying their place in the eternal causal order. The expected word is 'aeternitatis.'",
+  "tags": [
+    "spinoza",
+    "eternity",
+    "sub-specie-aeternitatis",
+    "intuitive-knowledge"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

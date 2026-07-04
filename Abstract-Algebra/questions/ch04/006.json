@@ -1,0 +1,22 @@
+{
+  "question_id": "a29c414f-51d8-4812-af14-3f544215bb32",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For a square matrix A, the product A · adj(A) of A with its adjugate equals:",
+  "choices": [
+    "det(A) · Iₙ",
+    "Iₙ",
+    "A⁻¹",
+    "tr(A) · Iₙ"
+  ],
+  "answer": 0,
+  "explanation": "The cofactor identity A·adj(A) = det(A)·I holds for every square matrix, invertible or not. When det(A) ≠ 0 it yields the closed formula A⁻¹ = adj(A)/det(A), the source of Cramer's rule.",
+  "tags": [
+    "determinants",
+    "adjugate",
+    "inverse"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

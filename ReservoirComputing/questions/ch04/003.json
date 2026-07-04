@@ -1,0 +1,22 @@
+{
+  "question_id": "b9b994c5-d411-47e2-9fc3-2d980d9ab768",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the NARMA-10 spectral-radius sweep, why is the test-NMSE curve U-shaped in rho?",
+  "choices": [
+    "NMSE is minimized at rho = 0 and increases monotonically with rho",
+    "Small rho gives too little memory for the 10-step dependency, while rho > 1 loses the ESP so the dynamics diverge",
+    "Small rho diverges immediately while large rho always generalizes best",
+    "The curve is U-shaped only because the code caps NMSE at 10"
+  ],
+  "answer": 1,
+  "explanation": "NARMA-10 depends on the past ~10 inputs. When rho is too small (< 0.5) the reservoir's memory horizon is far shorter than 10 steps, so error is high; when rho > 1 the ESP is lost and trajectories diverge, so error is high again. The minimum sits near rho ~ 0.8-0.95. rho = 0 has essentially no memory (not the optimum), large rho does NOT generalize best, and the NMSE cap only prevents diverged values from dominating the plot, it does not create the U-shape.",
+  "tags": [
+    "spectral-radius",
+    "narma",
+    "memory-stability-tradeoff"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

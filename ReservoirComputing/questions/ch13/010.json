@@ -1,0 +1,19 @@
+{
+  "question_id": "d86041be-b0d3-4e26-a1f4-99c0a57d9409",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Viewed as kernel machines, NVAR performs EXACT regression with a ___ kernel, whereas an ESN performs approximate regression with an implicit random-feature kernel.",
+  "choices": [
+    "polynomial"
+  ],
+  "answer": "polynomial",
+  "explanation": "NVAR's explicit monomial feature map corresponds exactly to the degree-d polynomial kernel (c + φ·φ')^d — a finite, exact Mercer expansion. The ESN instead uses random projections that only approximate a smooth (RBF-like) shift-invariant kernel, with error O(N^{-1/2}) by the Rahimi–Recht theorem. Exact-polynomial vs approximate-random is the core distinction between the two methods.",
+  "tags": [
+    "nvar",
+    "polynomial-kernel",
+    "kernel-connection"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

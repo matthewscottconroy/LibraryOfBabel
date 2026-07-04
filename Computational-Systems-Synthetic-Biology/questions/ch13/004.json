@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which G-protein α-subunit pathway activates PLCβ to generate IP3 and DAG, ultimately releasing Ca²⁺ and activating PKC?",
+  "choices": [
+    "Gαs",
+    "Gαi",
+    "Gαq",
+    "Gβγ"
+  ],
+  "answer": 2,
+  "explanation": "Gαq activates phospholipase C-beta (PLCβ), producing IP3 and DAG, which respectively trigger ER calcium release and, together with calcium, activate PKC. Gαs instead stimulates adenylyl cyclase to raise cAMP and activate PKA, while Gαi inhibits adenylyl cyclase, lowering cAMP. Gβγ signals through different effectors such as PI3K and certain ion channels, not PLCβ.",
+  "tags": [
+    "gpcr",
+    "g-protein-signaling",
+    "second-messengers"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "24d1951e-a959-46bd-8822-229f69cf356d"
+}

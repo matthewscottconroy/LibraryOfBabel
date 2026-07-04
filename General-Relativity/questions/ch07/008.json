@@ -1,0 +1,20 @@
+{
+  "question_id": "1397675a-30bd-42cb-8886-4ede28dc772a",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "tf",
+  "text": "True or False: on a pseudo-Riemannian manifold, the Levi-Civita connection is the unique connection that is both torsion-free (Γ^ρ_μν = Γ^ρ_νμ) and metric-compatible (∇_ρ g_μν = 0).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. This is the fundamental theorem of (pseudo-)Riemannian geometry stated in the book: a metric determines exactly one torsion-free, metric-compatible connection, whose Christoffel symbols are fixed by the metric. A manifold admits infinitely many connections in general, but these two conditions select a single one. Metric compatibility makes parallel transport preserve lengths and angles, and torsion-freedom gives the symmetry Γ^ρ_μν = Γ^ρ_νμ.",
+  "tags": [
+    "connection",
+    "levi-civita",
+    "metric-compatibility"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What does a high RMSF (root-mean-square fluctuation) value at a particular residue indicate during trajectory analysis?",
+  "choices": [
+    "That residue is part of a rigid secondary structure element",
+    "That residue is highly flexible, typically found in loop regions",
+    "The overall protein is undergoing global unfolding",
+    "The simulation has not yet reached thermal equilibrium"
+  ],
+  "answer": 1,
+  "explanation": "RMSF measures per-residue positional fluctuation over the trajectory; a high RMSF indicates flexible regions such as loops, while a low RMSF indicates rigid regions like secondary structure elements -- the opposite of option 0. Global unfolding is better tracked with metrics like RMSD or radius of gyration trending upward over time, and equilibration is assessed via energy, temperature, and pressure stability rather than a single residue's RMSF.",
+  "tags": [
+    "molecular-dynamics",
+    "trajectory-analysis",
+    "rmsf"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "5fac50d9-c460-4cb7-8d38-3090218c53cf"
+}

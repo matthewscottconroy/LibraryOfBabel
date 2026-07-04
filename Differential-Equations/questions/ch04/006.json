@@ -1,0 +1,19 @@
+{
+  "question_id": "bde6b2b8-bb41-4fe4-a04b-960ba715240e",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The Fourier transform turns differentiation in x into multiplication by a constant times the frequency variable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Because d/dx corresponds to multiplication by 2*pi*i*xi, differentiation becomes an algebraic multiplication in frequency space; this is precisely why the transform linearizes constant-coefficient differential equations. Integration correspondingly becomes division.",
+  "tags": [
+    "fourier-transform",
+    "differentiation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

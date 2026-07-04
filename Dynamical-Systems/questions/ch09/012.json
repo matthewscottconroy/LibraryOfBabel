@@ -1,0 +1,20 @@
+{
+  "question_id": "3e78a5e0-84f8-46eb-89e7-50a58ef61354",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "blank",
+  "text": "For almost every x, the geometric mean of the continued-fraction partial quotients converges to ___'s constant (about 2.685).",
+  "choices": [
+    "Khintchine",
+    "Khinchin"
+  ],
+  "answer": "Khintchine",
+  "explanation": "Khintchine's constant is the a.e. limit of the geometric mean of partial quotients under the Gauss map, a consequence of Birkhoff's theorem for the Gauss measure.",
+  "tags": [
+    "khintchine-constant",
+    "continued-fractions",
+    "birkhoff"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "a13352e8-d3c1-45c1-9e2f-5b1566a6b49f",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "tf",
+  "text": "On Lewis's resolution of the grandfather paradox, when the time traveler fails to kill her grandfather the failure is explained by ordinary causal factors (the gun jams, she hesitates, a passer-by intervenes) rather than by any special 'protection' of the timeline.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is Lewis's central point: the self-consistency of the single spacetime is not a separate intervening law but simply a feature of the one fixed history, so each failure has a mundane causal explanation. Lewis is emphatic that no supernatural or magical force prevents the killing; the consistency constraint operates through ordinary causal mechanisms rather than by violating them. Hence the statement is true.",
+  "tags": [
+    "grandfather-paradox",
+    "consistency-constraint",
+    "lewis",
+    "can-but-wont"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

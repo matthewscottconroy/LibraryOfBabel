@@ -1,0 +1,23 @@
+{
+  "question_id": "e4cfd5be-af98-4f5c-8560-8a82fe140a90",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The chapter uses the matrix [[0, 10], [0, 0]] to illustrate that:",
+  "choices": [
+    "a matrix can have spectral radius rho = 0 while its spectral norm sigma_max = 10, so the spectral-norm condition is overly conservative",
+    "the spectral radius always equals the largest singular value for triangular matrices",
+    "raising the connectivity pushes the spectral radius above the spectral norm",
+    "a spectral radius above 1 guarantees the ESP fails for every bounded input"
+  ],
+  "answer": 0,
+  "explanation": "This nilpotent matrix has both eigenvalues equal to 0 (rho = 0) but sigma_max = 10, so ||W||_2 < 1 would reject it even though it trivially satisfies the ESP (W^2 = 0). It shows the gap rho <= sigma_max for non-normal matrices and why the spectral-norm rule is overcautious. It does not show rho = sigma_max (they differ here), says nothing about connectivity, and actually demonstrates the OPPOSITE of option D (large sigma_max/rho need not break the ESP).",
+  "tags": [
+    "esp",
+    "gelfand",
+    "spectral-radius",
+    "nilpotent"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

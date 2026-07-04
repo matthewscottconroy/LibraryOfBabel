@@ -1,0 +1,19 @@
+{
+  "question_id": "ba2bf7e1-9e02-4133-aac0-9875b75812cc",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Liouville's theorem states that a bounded entire function must be constant.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "A function analytic on all of C (entire) that is also bounded has vanishing derivative everywhere, by the Cauchy estimates, hence is constant. This yields a short proof of the Fundamental Theorem of Algebra.",
+  "tags": [
+    "liouville",
+    "entire-functions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

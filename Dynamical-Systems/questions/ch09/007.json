@@ -1,0 +1,22 @@
+{
+  "question_id": "8ce8f172-da7b-48e1-ad8f-853b995542af",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The Foreman-Rudolph-Weiss theorem shows that the isomorphism relation for ergodic measure-preserving transformations is:",
+  "choices": [
+    "Borel",
+    "not Borel",
+    "finite",
+    "trivial"
+  ],
+  "answer": 1,
+  "explanation": "The relation is analytic but not Borel, so no countable list of Borel invariants can classify all ergodic systems - a sharp limit on classification.",
+  "tags": [
+    "foreman-rudolph-weiss",
+    "borel-reducibility",
+    "classification"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

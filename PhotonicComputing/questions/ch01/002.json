@@ -1,0 +1,13 @@
+{
+  "question_id": "b374e243-b2e5-4c2d-823a-dd780a347dcc",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The fringe visibility of a two-beam interference pattern is V = 2√(I₁I₂)/(I₁+I₂). Maximum visibility (V = 1) requires that:",
+  "choices": ["the two beams have orthogonal polarizations", "one beam is much stronger than the other", "the two beams have equal intensities", "the two beams have different frequencies"],
+  "answer": 2,
+  "explanation": "V = 2√(I₁I₂)/(I₁+I₂) reaches its maximum of 1 only when I₁ = I₂. Orthogonal polarizations or different frequencies destroy interference entirely (V → 0), and a large intensity imbalance drives V well below 1.",
+  "tags": ["interference", "visibility", "fringes"],
+  "difficulty": "beginner",
+  "generated": true
+}

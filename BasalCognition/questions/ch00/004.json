@@ -1,0 +1,13 @@
+{
+  "question_id": "d4f7b0c5-6e1a-4b9d-8c5f-4a8e1b3d7c60",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "David Chalmers distinguished the 'hard problem' of consciousness from the 'easy problems.' Which of the following is the hard problem?",
+  "choices": ["Explaining why any physical or functional processing is accompanied by subjective experience at all", "Explaining how the brain selectively attends to some stimuli and not others", "Explaining how information is stored in and retrieved from memory", "Explaining how a person produces a verbal report about their internal states"],
+  "answer": 0,
+  "explanation": "The hard problem is why functional processing is accompanied by phenomenal experience ('something it is like'). Options 1, 2, and 3 are precisely the 'easy problems' Chalmers identified (attention, memory, verbal report), which are tractable in principle by functional and empirical methods. This distinction is why functional evidence about non-neural organisms does not by itself settle whether they have experience.",
+  "tags": ["hard-problem", "consciousness", "chalmers"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "4a5377b6-e1ad-4b30-88f2-0c0db57da784",
+  "chapter": 22,
+  "phase": 7,
+  "kind": "blank",
+  "text": "The group algebra $k[G]$ decomposes as a product $B_1 \\times B_2 \\times \\cdots \\times B_r$ of indecomposable two-sided ideals called ___.",
+  "choices": ["blocks", "block"],
+  "answer": "blocks",
+  "explanation": "The indecomposable two-sided ideal summands of $k[G]$ are its blocks, each carrying an associated defect group that controls its representation theory. They are not the simple modules or the projective indecomposables (which live INSIDE a block) but the ring-level direct factors themselves.",
+  "tags": ["modular-representation-theory", "blocks", "group-algebra"],
+  "difficulty": "beginner",
+  "generated": true
+}

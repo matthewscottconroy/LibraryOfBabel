@@ -1,0 +1,19 @@
+{
+  "question_id": "b4c5f89f-c7c7-4cc7-b335-419fee688d9c",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "det(AB) = det(A) · det(B) for all square matrices A and B of the same size.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Multiplicativity is a cornerstone theorem: fixing B, the function A ↦ det(AB) is multilinear and alternating in the rows of A, so it must be det(A)·det(B). It gives det(A⁻¹) = det(A)⁻¹ and the similarity invariance det(P⁻¹AP) = det(A).",
+  "tags": [
+    "determinants",
+    "multiplicativity"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

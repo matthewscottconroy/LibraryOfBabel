@@ -1,0 +1,20 @@
+{
+  "question_id": "3f5e0ac6-2580-4b06-ba47-8f2c29d4eb9e",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In the book's Petrov classification, both Schwarzschild and Kerr are algebraically special of Petrov type ___ (their four principal null directions coincide in two pairs, and only Ψ₂ is nonzero).",
+  "choices": [
+    "D",
+    "type D",
+    "Type D"
+  ],
+  "answer": "D",
+  "explanation": "The book states Schwarzschild and Kerr are Petrov type D, where the principal spinors coincide in two pairs (α = β, γ = δ) so that only Ψ₂ ≠ 0. By contrast, gravitational waves far from their source are type N, where all four principal directions coincide.",
+  "tags": [
+    "newman-penrose",
+    "petrov-classification"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

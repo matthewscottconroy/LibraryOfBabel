@@ -1,0 +1,20 @@
+{
+  "question_id": "26522e82-0c1e-49d0-acb0-f56bad2084ad",
+  "chapter": 10,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Sofic entropy of a Z-action coincides with its Kolmogorov-Sinai entropy.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Because Z is amenable and sofic, Bowen's sofic entropy reduces to the classical KS entropy there, so the theory genuinely generalizes the amenable case.",
+  "tags": [
+    "sofic-entropy",
+    "ks-entropy",
+    "amenable"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

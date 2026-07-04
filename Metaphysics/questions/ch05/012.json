@@ -1,0 +1,13 @@
+{
+  "question_id": "79a71aa9-2738-4d5a-893f-bb855b754e63",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A self-consistent causal ___, in which (say) the text of Shakespeare's plays circulates from future to past and back with no external origin, is the core of the bootstrap paradox.",
+  "choices": ["loop", "causal loop"],
+  "answer": "loop",
+  "explanation": "The bootstrap paradox involves a closed causal loop that is logically consistent (unlike the grandfather paradox) but troubling because the information has no ultimate origin, pressuring the Principle of Sufficient Reason and the standard assumption that grounding is asymmetric and well-founded. Lewis treats the loop as a brute possibility; critics such as Schaffer argue that circular dependence is metaphysically impossible even if logically coherent.",
+  "tags": ["time", "time-travel", "bootstrap-paradox", "causal-loop"],
+  "difficulty": "advanced",
+  "generated": true
+}

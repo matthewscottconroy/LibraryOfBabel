@@ -1,0 +1,18 @@
+{
+  "question_id": "4ac21244-e85b-479c-a91e-822c8203d06e",
+  "chapter": 23,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Which ZFC axiom guarantees that for a set $x$ and a formula $\\phi$, the collection $\\{z \\in x \\mid \\phi(z)\\}$ is itself a set?",
+  "choices": [
+    "Power Set",
+    "Separation",
+    "Replacement",
+    "Pairing"
+  ],
+  "answer": 1,
+  "explanation": "Separation (a schema, one instance per $\\phi$) forms the definable subset $\\{z \\in x \\mid \\phi(z)\\}$ of an EXISTING set $x$. Power Set produces $\\mathcal{P}(x)$; Replacement returns the image of a set under a functional formula (possibly larger than $x$); Pairing builds $\\{x,y\\}$. Only Separation carves out definable subsets.",
+  "tags": ["zfc-axioms", "separation", "axiom-schema"],
+  "difficulty": "intermediate",
+  "generated": true
+}

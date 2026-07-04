@@ -1,0 +1,20 @@
+{
+  "question_id": "df8dbcbd-6e26-484e-bfdb-55c60f2f38a6",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The free group functor Set → Grp is ___ adjoint to the forgetful functor Grp → Set.",
+  "choices": [
+    "left",
+    "left adjoint"
+  ],
+  "answer": "left",
+  "explanation": "Hom_Grp(F(S), G) ≅ Hom_Set(S, U(G)): a homomorphism out of a free group is freely determined by where the generators go. Free/forgetful pairs are the prototype of adjunctions, with 'free' always on the left.",
+  "tags": [
+    "category-theory",
+    "adjoints",
+    "free-objects"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

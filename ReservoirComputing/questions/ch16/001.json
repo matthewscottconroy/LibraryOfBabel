@@ -1,0 +1,22 @@
+{
+  "question_id": "c5518b20-fe55-487c-90ec-647776e9ed93",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A central pattern generator (CPG) is the biological motif the lab reproduces. What defines a CPG?",
+  "choices": [
+    "A circuit that amplifies a rhythmic sensory input into a larger motor output",
+    "A neural circuit that produces rhythmic motor output (e.g. locomotion, breathing) without requiring any rhythmic or sensory input",
+    "A feedback controller that needs continuous proprioceptive input to stay in time",
+    "A supervised classifier that labels gait phases from camera images"
+  ],
+  "answer": 1,
+  "explanation": "A CPG generates rhythmic output autonomously: no rhythmic drive or sensory feedback is required (Ijspeert 2008). The lab shows a trained reservoir sustaining a gait rhythm with zero external input. Options 0 and 2 wrongly make the rhythm depend on external or sensory input; option 3 is unrelated to rhythm generation.",
+  "tags": [
+    "CPG",
+    "rhythm",
+    "locomotion"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

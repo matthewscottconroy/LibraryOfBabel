@@ -1,0 +1,22 @@
+{
+  "question_id": "e547a0e0-dff4-4253-9d0f-a3998479e00d",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the single-node delay reservoir (Appeltant 2011), how are the N virtual nodes created?",
+  "choices": [
+    "By fabricating N separate physical nonlinear nodes and wiring them together",
+    "By time-multiplexing a single nonlinear node — sampling its state at N points spaced by an interval θ along the delay loop",
+    "By running N independent copies of the system in parallel",
+    "By adding N random matrices to the feedback path"
+  ],
+  "answer": 1,
+  "explanation": "One nonlinear node plus a delay loop is time-multiplexed: the delay τ is divided into N sub-intervals of width θ (τ = N·θ), and the node's state sampled at those N points becomes the N virtual-node values. This is the whole point — avoiding N physical nodes (option 0) or N parallel systems (option 2). There are no random matrices in the loop (option 3); diversity comes from the input mask.",
+  "tags": [
+    "physical-rc",
+    "virtual-nodes",
+    "time-multiplexing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

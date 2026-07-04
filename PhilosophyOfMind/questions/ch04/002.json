@@ -1,0 +1,22 @@
+{
+  "question_id": "b33a8863-064e-4fb8-958a-64f4e3161b20",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Fodor's Language of Thought (LOT) hypothesis holds that thinking consists in:",
+  "choices": [
+    "The manipulation of sentence-like symbols ('Mentalese') with compositional syntax and semantics",
+    "The activation of distributed patterns across networks, with no discrete symbols",
+    "The exercise of embodied sensorimotor skills",
+    "Dispositions to produce sentences in a public natural language"
+  ],
+  "answer": 0,
+  "explanation": "Fodor's LOT hypothesis says thought is computation over 'Mentalese' - sentence-like symbols with compositional syntax and semantics. Option 1 is connectionism (distributed activation, no discrete symbols), option 2 is enactivism, and option 3 is a behaviourist/natural-language view; LOT is distinct from all three in positing an inner formal language.",
+  "tags": [
+    "language-of-thought",
+    "mentalese",
+    "fodor"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

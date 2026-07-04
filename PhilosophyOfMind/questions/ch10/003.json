@@ -1,0 +1,23 @@
+{
+  "question_id": "d88f0717-3b94-4472-8385-0f92d19ac3c4",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Parfit's fission case, your two brain hemispheres are transplanted into two different bodies, each waking with your psychology. Parfit's own conclusion is that:",
+  "choices": [
+    "you survive as exactly one of the two people, though we cannot know which",
+    "you die, because neither successor has any of what matters in survival",
+    "the case shows that bodily, not psychological, continuity constitutes identity",
+    "since you cannot be identical to two distinct people yet both have what matters, identity is not what matters -- psychological continuity (Relation R) is"
+  ],
+  "answer": 3,
+  "explanation": "Fission gives you everything that matters (full psychological continuity) twice over, yet strict identity fails because identity is one-one. Parfit concludes we should stop caring about identity as such and care about Relation R. Options 0 and 1 are resolutions Parfit rejects; option 2 is the animalist response, not Parfit's.",
+  "tags": [
+    "parfit",
+    "fission",
+    "relation-r",
+    "what-matters"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "21f741bc-6ba0-43de-bf6e-ba0d563e1959",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The block universe view (eternalism) is best characterized by which claim?",
+  "choices": [
+    "All times -- past, present, and future -- are equally real, and 'now' is merely indexical, like 'here'",
+    "Only what is present exists; the past has ceased to exist and the future does not yet exist",
+    "The past and present are real but the future is not, and reality grows as new events occur",
+    "All times exist, but exactly one is objectively present, and which one that is moves"
+  ],
+  "answer": 0,
+  "explanation": "Eternalism holds that all times are equally real in a four-dimensional block, with 'now' functioning as an indexical that picks out the speaker's temporal location, just as 'here' picks out a spatial one. Option 1 is presentism, option 2 is the growing-block view, and option 3 is the moving-spotlight theory -- three rival A-theoretic positions, each of which denies either the equal reality of all times or the merely perspectival status of the present.",
+  "tags": ["eternalism", "block-universe", "indexical", "b-theory"],
+  "difficulty": "beginner",
+  "generated": true
+}

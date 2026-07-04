@@ -1,0 +1,22 @@
+{
+  "question_id": "41bc34ec-ee1f-49bb-979a-05aacf4bbbfe",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "To evaluate the integral over the whole real line of cos(x)/(1 + x^2) by residues, one typically:",
+  "choices": [
+    "closes the contour in the lower half-plane and uses a residue at x = 1",
+    "writes cos(x) = Re(e^{ix}), closes in the upper half-plane, and uses Jordan's lemma to kill the arc",
+    "expands cos(x) as a Taylor series and integrates term by term",
+    "uses only the residue at infinity"
+  ],
+  "answer": 1,
+  "explanation": "One replaces cos(x) by the real part of e^{iz}, so the integrand decays in the upper half-plane; Jordan's lemma sends the semicircular arc's contribution to zero, leaving 2*pi*i times the residue at z = i. Closing in the lower half-plane fails because e^{iz} blows up there.",
+  "tags": [
+    "residue-theorem",
+    "jordans-lemma",
+    "improper-integrals"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "199e9f05-ff06-403d-a66a-1e3b08d2f21c",
+  "chapter": 23,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Russell's paradox shows that the naive collection $R = \\{x \\mid x \\notin x\\}$ cannot be a set, because assuming it is a set forces:",
+  "choices": [
+    "$R \\in R \\Leftrightarrow R \\notin R$",
+    "$R = \\emptyset$",
+    "$R$ to be uncountable",
+    "$R \\subsetneq R$"
+  ],
+  "answer": 0,
+  "explanation": "Asking whether $R \\in R$ yields the contradiction $R \\in R \\Leftrightarrow R \\notin R$. ZFC resolves this by making $R$ a proper class rather than a set (Separation only carves subsets from an existing set). $R=\\emptyset$ and uncountability are irrelevant, and $R \\subsetneq R$ is impossible for any set.",
+  "tags": ["russell-paradox", "proper-class", "naive-set-theory"],
+  "difficulty": "beginner",
+  "generated": true
+}

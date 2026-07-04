@@ -1,0 +1,19 @@
+{
+  "question_id": "e4ca56c6-c81f-4580-baf5-6c3449b6aa4a",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In contemporary versions of the correspondence theory, the entity in the world whose existence makes a given proposition true — for example, the fact that snow is white for the proposition that snow is white — is called its ___.",
+  "choices": [
+    "truthmaker"
+  ],
+  "answer": "truthmaker",
+  "explanation": "Truthmaker theory (Armstrong and others) reconstrues correspondence as a relation between a truth-bearer and a truthmaker: for every truth there is some entity whose existence necessitates it. This shifts the debate away from the elusive 'correspondence relation' toward the question of which entities (facts, states of affairs, tropes) serve as truthmakers, and it generates the well-known puzzles about negative and general truths.",
+  "tags": [
+    "correspondence",
+    "truthmaker",
+    "armstrong"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

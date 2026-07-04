@@ -1,0 +1,19 @@
+{
+  "question_id": "8366008b-e424-42ec-b79d-eef6d811d9ad",
+  "chapter": 19,
+  "phase": 6,
+  "kind": "blank",
+  "text": "Francisco Varela's ___ program seeks to address the hard problem by placing first-person phenomenological description and third-person neuroscience under 'reciprocal constraint.'",
+  "choices": [
+    "neurophenomenology"
+  ],
+  "answer": "neurophenomenology",
+  "explanation": "The answer is neurophenomenology. Varela proposed that disciplined first-person reports and neuroscientific measurements should mutually constrain and inform each other, rather than one being reduced to or eliminated by the other.",
+  "tags": [
+    "neurophenomenology",
+    "varela",
+    "reciprocal-constraint"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

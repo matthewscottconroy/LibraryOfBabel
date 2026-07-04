@@ -1,0 +1,20 @@
+{
+  "question_id": "ec9347b5-df1b-4e3f-ba45-e2645d5175c2",
+  "chapter": 19,
+  "phase": 6,
+  "kind": "blank",
+  "text": "The thought experiment in which a scientist who knows all the physical facts about colour yet seems to learn something new when she first sees red is called ___.",
+  "choices": [
+    "Mary's Room",
+    "the knowledge argument"
+  ],
+  "answer": "Mary's Room",
+  "explanation": "The answer is Mary's Room (the knowledge argument). It is used to argue that phenomenal knowledge -- what it is like to see red -- is not reducible to physical knowledge, and the text treats it as a model of a well-constructed intuition-pumping thought experiment.",
+  "tags": [
+    "marys-room",
+    "knowledge-argument",
+    "thought-experiment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

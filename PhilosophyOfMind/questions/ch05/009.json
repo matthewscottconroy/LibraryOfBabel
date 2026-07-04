@@ -1,0 +1,20 @@
+{
+  "question_id": "8eb37c14-461c-4b48-811b-ff2164daa2dd",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Functionalism is standardly classified as a form of non-reductive physicalism, combining token physicalism with the denial that mental types are identical to physical types.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: functionalism combines token physicalism (each state-token is physical) with type non-identity (the mental type is not identical to any single physical type), which is exactly the non-reductive physicalist position. This is precisely why functionalism is compatible with multiple realizability.",
+  "tags": [
+    "non-reductive-physicalism",
+    "token-identity",
+    "functionalism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

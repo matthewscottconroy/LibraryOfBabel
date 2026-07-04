@@ -1,0 +1,22 @@
+{
+  "question_id": "72fdfb4a-a33a-4a36-89a2-f3eb1071dacb",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the memory-capacity lab, how does the per-delay profile MC_k change as rho goes from 0.5 to 0.99?",
+  "choices": [
+    "At rho = 0.5 MC_k decays rapidly (memory at short delays); at rho = 0.99 it decays slowly, spreading memory over many delays",
+    "At rho = 0.5 MC_k is flat, while at rho = 0.99 it is a single sharp spike",
+    "MC_k is identical for both, because total MC is bounded by N",
+    "At rho = 0.5 MC_k decays slowly, while at rho = 0.99 it decays rapidly"
+  ],
+  "answer": 0,
+  "explanation": "Since MC_k ~ rho^(2k), a small rho (0.5) makes memory decay quickly and stay concentrated at short delays with total MC well below N, whereas rho = 0.99 decays slowly, spreading appreciable memory across many delays so total MC approaches N. Option D reverses this direction; the bound MC <= N does not make the profiles equal.",
+  "tags": [
+    "memory-capacity",
+    "spectral-radius",
+    "mc-profile"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

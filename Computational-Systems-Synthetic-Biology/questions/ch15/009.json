@@ -1,0 +1,20 @@
+{
+  "chapter": 15,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Toehold switches function by having the trigger RNA sequester the ribosome binding site in a hairpin, which is then released only when the target mRNA is degraded by RNase E.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false on two counts: it is the toehold switch RNA itself (not the trigger RNA) that forms the hairpin sequestering the RBS and start codon, and release occurs when the trigger RNA base-pairs with an exposed linear toehold region and unfolds the hairpin -- not through RNase E-mediated degradation. This trigger-induced conformational unfolding is what exposes the RBS and allows translation to begin, making toehold switches programmable, cell-free-compatible biosensors.",
+  "tags": [
+    "toehold-switches",
+    "regulatory-rna",
+    "synthetic-riboregulators"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "31ac7be3-5406-4b5e-a6f3-f5baac3f690a"
+}

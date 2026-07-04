@@ -1,0 +1,20 @@
+{
+  "question_id": "ee8e2f90-ce69-4669-b834-e0009d22e312",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The lab compares the ESN against a naive ___ baseline, defined by predicting y_pred(t) = y_true(t−1) — simply repeating the previous value.",
+  "choices": [
+    "persistence",
+    "persistence baseline"
+  ],
+  "answer": "persistence",
+  "explanation": "The lab sets y_persist = u_test (which equals y_true shifted by one step) as the persistence baseline. It does reasonably well on 1-step prediction but degrades badly under closed-loop operation, setting a lower bound for 'useful' prediction.",
+  "tags": [
+    "mackey-glass",
+    "persistence",
+    "baseline"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "731c6cff-20a7-4ad3-a921-91bbb461a0b2",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "This book defines a tangent vector at p as a derivation of C^∞(M): a linear map v : C^∞(M) → ℝ satisfying which Leibniz-type rule?",
+  "choices": [
+    "v(fg) = f(p) v(g) + g(p) v(f)",
+    "v(fg) = v(f) v(g)",
+    "v(fg) = f(p) g(p) v(f + g)",
+    "v(f + g) = v(f) v(g)"
+  ],
+  "answer": 0,
+  "explanation": "A derivation at p is linear and obeys the product (Leibniz) rule v(fg) = f(p) v(g) + g(p) v(f), evaluating the undifferentiated factor at p. This coordinate-free definition yields the basis ∂/∂xⁱ|_p with components vⁱ = v(xⁱ). The multiplicative forms v(fg) = v(f) v(g) or v(f+g) = v(f) v(g) describe algebra homomorphisms, not derivations, and violate linearity.",
+  "tags": [
+    "tangent-space",
+    "derivation",
+    "vectors"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

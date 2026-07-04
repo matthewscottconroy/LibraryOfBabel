@@ -1,0 +1,21 @@
+{
+  "question_id": "43f070bc-dff6-4db2-a818-4fff8f1d7ac6",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An attractor of a dynamical system is an invariant set that:",
+  "choices": [
+    "attracts an open set of nearby initial conditions (its basin) as time increases",
+    "repels all nearby trajectories",
+    "must be a single fixed point",
+    "necessarily has positive volume"
+  ],
+  "answer": 0,
+  "explanation": "An attractor is an invariant set toward which trajectories from an open neighborhood (its basin of attraction) converge as time increases. Attractors may be fixed points, limit cycles, tori, or strange (fractal) sets, the last of which have zero volume, so the positive-volume claim is false.",
+  "tags": [
+    "attractors",
+    "invariant-sets"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "0f8ea8cf-b585-451f-8db8-8c712dbb45d4",
+  "chapter": 23,
+  "phase": 8,
+  "kind": "mc",
+  "text": "A set $\\alpha$ is an ordinal exactly when it is well-ordered by $\\in$ and, in addition, is:",
+  "choices": [
+    "transitive: $x \\in \\alpha \\Rightarrow x \\subseteq \\alpha$",
+    "finite",
+    "a cardinal",
+    "closed under complementation"
+  ],
+  "answer": 0,
+  "explanation": "The chapter defines an ordinal as a transitive set that is well-ordered by $\\in$. Ordinals need not be finite ($\\omega$ is infinite); every cardinal is an ordinal but not conversely (e.g. $\\omega+1$ is an ordinal that is not a cardinal); and complementation is not a well-defined operation here.",
+  "tags": ["ordinals", "transitive-set", "well-ordering"],
+  "difficulty": "beginner",
+  "generated": true
+}

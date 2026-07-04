@@ -1,0 +1,21 @@
+{
+  "question_id": "8e95d6b2-865a-46e0-9536-96bf6f79763c",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Cantor's Theorem, as stated in the book, asserts that for any set A (including infinite sets):",
+  "choices": [
+    "|A| = |𝒫(A)|",
+    "|𝒫(A)| < |A|",
+    "|A| = 2^(|A|) only when A is finite",
+    "|A| < |𝒫(A)|"
+  ],
+  "answer": 3,
+  "explanation": "The book states Cantor's Theorem as |A| < |𝒫(A)|: the power set is strictly larger than A, even for infinite sets, proved via the diagonal set D = {a ∈ A : a ∉ f(a)}. Equality |A| = |𝒫(A)| is impossible because no surjection A → 𝒫(A) exists; the inequality goes A < 𝒫(A), not the reverse; and the strict inequality holds for all A, not only finite sets.",
+  "tags": [
+    "set-theory",
+    "cardinality"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

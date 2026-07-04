@@ -1,0 +1,20 @@
+{
+  "question_id": "4791cc06-4820-4462-861d-8c3ce1736b74",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Morris and Thorne (1988) showed that holding open the throat of a traversable wormhole requires exotic matter, matter with negative energy density that violates the ___, which states that the energy density measured by any observer must be non-negative.",
+  "choices": [
+    "weak energy condition"
+  ],
+  "answer": "weak energy condition",
+  "explanation": "The expected answer is the weak energy condition (WEC), which requires non-negative energy density for every observer; keeping a wormhole throat open against collapse demands matter that violates it. All known classical matter satisfies the WEC, and the quantum Casimir effect shows only localized violations whose scaling to wormhole quantities is an open question. The book names the weak energy condition specifically here, distinguishing it from the related but distinct strong and null energy conditions.",
+  "tags": [
+    "wormhole",
+    "exotic-matter",
+    "weak-energy-condition",
+    "morris-thorne"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

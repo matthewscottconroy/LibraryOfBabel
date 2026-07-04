@@ -1,0 +1,13 @@
+{
+  "question_id": "b8d34f1a-6e29-4c7b-9051-3a7e6d2f8b1c",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Seeley draws a precise parallel between honeybee swarm decision-making and neural decision-making. Which swarm behavior is analogous to the mutual inhibition between competing neural populations in the brain?",
+  "choices": ["The waggle dance advertising a site", "The 'stop signal' delivered by scouts committed to one site to scouts dancing for a competing site", "Pheromone evaporation on the comb", "The behavioral fatigue that eventually ends a scout's dancing"],
+  "answer": 1,
+  "explanation": "The stop signal, a brief vibratory signal that pauses a rival's dance, implements mutual inhibition between scout populations advocating different sites, mirroring how competing neural populations suppress one another. The waggle dance is the excitatory recruitment signal, evaporation is an ant-trail mechanism, and behavioral fatigue is negative feedback but not the between-site inhibition Seeley likens to mutual inhibition.",
+  "tags": ["stop-signal", "mutual-inhibition", "neural-parallel", "honeybee"],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,23 @@
+{
+  "question_id": "ba408818-0c6e-47db-ac3d-a7cecdd1d4ab",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "mc",
+  "text": "An adjunction F ⊣ G between functors F: C → D and G: D → C is a natural bijection of the form:",
+  "choices": [
+    "Hom_D(FA, B) ≅ Hom_C(A, GB), natural in A and B",
+    "Hom_C(A, B) ≅ Hom_D(FA, FB)",
+    "F∘G = id_D and G∘F = id_C",
+    "Hom_D(FA, B) ≅ Hom_C(GB, A)"
+  ],
+  "answer": 0,
+  "explanation": "An adjunction F ⊣ G ('F left adjoint to G') is precisely the natural bijection Hom_D(FA, B) ≅ Hom_C(A, GB). It is weaker than an equivalence (C would require the composites to be identities), and the free–forgetful pair Grp/Set is the paradigm. Option D places the hom-set on the wrong side.",
+  "tags": [
+    "adjunctions",
+    "left-adjoint",
+    "free-forgetful",
+    "unit-counit"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

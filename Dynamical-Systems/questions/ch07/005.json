@@ -1,0 +1,22 @@
+{
+  "question_id": "313ad19b-fb50-496c-875f-37afdcdafeb5",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The emptiness problem for two-dimensional subshifts of finite type (Wang tiles) is:",
+  "choices": [
+    "decidable in polynomial time",
+    "undecidable (Pi-0-1 complete)",
+    "always trivially nonempty",
+    "NP-complete"
+  ],
+  "answer": 1,
+  "explanation": "Berger proved the 2D domino problem undecidable (Pi-0-1 complete), equivalent to the halting problem, which forces the existence of aperiodic tile sets. The 1D case, by contrast, is decidable.",
+  "tags": [
+    "undecidability",
+    "2d-sft",
+    "wang-tiles"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

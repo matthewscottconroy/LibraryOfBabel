@@ -1,0 +1,18 @@
+{
+  "question_id": "96449014-cf5e-4442-b690-a2008ada2454",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The 'bilking argument' is the most influential objection to backward causation. What does it purport to show?",
+  "choices": [
+    "That backward causation is incoherent by definition, since a cause must be temporally prior to its effect",
+    "That any time-symmetric treatment of radiation must invoke advanced waves that violate the conservation of energy",
+    "That backward causation would generate a grandfather-style logical contradiction and so is outright impossible",
+    "That if a later event E caused an earlier event C, an agent could observe whether C had occurred and then bring about E only on occasions when C had not — systematically decoupling E from C and severing the alleged causal link"
+  ],
+  "answer": 3,
+  "explanation": "The bilking argument turns on the agent's ability to check the earlier effect C and then choose E so as to break the correlation, suggesting backward causation cannot be a stable feature of the world. Option 0 asserts the very conceptual-necessity thesis that Hume and Dummett reject (Dummett holds backward causation is coherent); option 1 misdescribes the Wheeler-Feynman theory; and option 2 conflates bilking with the separate grandfather paradox of time travel.",
+  "tags": ["backward-causation", "bilking-argument", "dummett", "causation"],
+  "difficulty": "advanced",
+  "generated": true
+}

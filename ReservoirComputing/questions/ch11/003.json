@@ -1,0 +1,22 @@
+{
+  "question_id": "d488be55-aad6-4d7d-a5e2-e32a929d9961",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Boolean NOT of a conceptor C is defined as:",
+  "choices": [
+    "C^-1",
+    "-C",
+    "I + C",
+    "I - C"
+  ],
+  "answer": 3,
+  "explanation": "NOT(C) = I - C (lab not_conceptor and the Boolean-operations section). It flips each singular value d_i to 1 - d_i, giving a soft projection onto the complementary subspace. It is not a matrix inverse or a plain negation.",
+  "tags": [
+    "conceptor",
+    "boolean-operations",
+    "not"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

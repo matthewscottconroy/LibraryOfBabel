@@ -1,0 +1,19 @@
+{
+  "question_id": "7323f190-6196-4e7a-8f61-4bc38f976703",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The Euclidean algorithm reduces a gcd computation using the identity gcd(a, b) = gcd(b, ___) for b ≠ 0, terminating when the second argument reaches 0.",
+  "choices": [
+    "a mod b"
+  ],
+  "answer": "a mod b",
+  "explanation": "Replacing (a, b) with (b, a mod b) shrinks the second argument (since a mod b < b) until it hits 0, at which point gcd(a, 0) = a is the answer; this runs in O(log min(a, b)) steps.",
+  "tags": [
+    "euclidean-algorithm",
+    "gcd",
+    "modular-arithmetic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

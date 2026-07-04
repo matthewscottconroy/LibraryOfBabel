@@ -1,0 +1,19 @@
+{
+  "question_id": "5d4b7d72-93ae-4032-99f1-0fc75fa9b7d9",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "tf",
+  "text": "True or False: In the simply typed lambda calculus, every well-typed term is strongly normalizing — every reduction sequence terminates.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True — strong normalization holds for STLC: every well-typed term reduces to a normal form and no reduction sequence is infinite. This is exactly why non-terminating terms such as Ω = (λx. x x)(λx. x x) and the Y combinator are untypable in STLC, at the cost of Turing-completeness.",
+  "tags": [
+    "simply-typed-lambda-calculus",
+    "strong-normalization"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

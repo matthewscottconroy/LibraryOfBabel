@@ -1,0 +1,20 @@
+{
+  "question_id": "ab0053de-f2e1-4a37-ade8-ee0bd2dfe13a",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Compatibilism is the view that free will exists only if determinism is false.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. That describes metaphysical libertarianism/incompatibilism. Compatibilism is precisely the view that free will and moral responsibility are compatible with determinism, with freedom understood as, for example, reasons-responsiveness or acting on desires one endorses, not as the falsity of determinism.",
+  "tags": [
+    "compatibilism",
+    "determinism",
+    "incompatibilism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "71a51084-782d-4953-a094-9bedf5a81e18",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The van Cittert-Zernike theorem relates the ___ coherence of light from an extended incoherent source to the Fourier transform of the source's intensity distribution.",
+  "choices": [
+    "spatial"
+  ],
+  "answer": "spatial",
+  "explanation": "The van Cittert-Zernike theorem describes spatial (transverse) coherence, giving a spatial coherence length l_c = λ/θ_s set by the source's angular size. Temporal coherence, by contrast, is governed by the source bandwidth via the Wiener-Khinchin theorem.",
+  "tags": [
+    "coherence",
+    "spatial-coherence",
+    "van-cittert-zernike"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

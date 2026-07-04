@@ -1,0 +1,21 @@
+{
+  "question_id": "f3cdf3b1-a082-4de4-8da4-15f05347e205",
+  "chapter": 16,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Mutual information I(X;Y) equals zero exactly when:",
+  "choices": [
+    "X and Y are identical",
+    "X is uniform",
+    "Y is deterministic",
+    "X and Y are independent"
+  ],
+  "answer": 3,
+  "explanation": "I(X;Y) = H(X) − H(X∣Y) is non-negative and vanishes precisely when X and Y are independent — knowing one says nothing about the other. If X and Y were identical, I would be maximal (= H(X)); mere uniformity of X or determinism of Y does not by itself force I to zero.",
+  "tags": [
+    "mutual-information",
+    "independence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

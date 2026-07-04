@@ -1,0 +1,13 @@
+{
+  "question_id": "2c8f0a41-7e19-4b6d-83a2-5d14f9c0e6b7",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "tf",
+  "text": "On the Boethian response to the foreknowledge problem, God's knowing your future free actions does not threaten your freedom, because a timeless God does not know them from a temporal vantage point earlier than the actions but instead \"sees\" all events in a single eternal present.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True. Boethius holds God is outside time, so God's belief is not a fixed past fact prior to your action, and the premise that generates the incompatibility argument fails. This differs from Molinism, which instead preserves freedom by appeal to God's 'middle knowledge' of counterfactuals of creaturely freedom.",
+  "tags": ["divine-attributes", "foreknowledge", "eternity", "boethius"],
+  "difficulty": "intermediate",
+  "generated": true
+}

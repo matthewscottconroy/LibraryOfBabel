@@ -1,0 +1,20 @@
+{
+  "question_id": "73354163-5fba-4f28-8acd-c206a0d91891",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Brentano held that intentionality (directedness on an object) is exhibited by mental and physical phenomena alike.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Brentano's thesis is precisely that intentionality marks off the mental from the physical: every mental phenomenon is directed on an object and no physical phenomenon is. Attributing intentionality to physical phenomena as well contradicts the 'mark of the mental' claim, so the statement is false.",
+  "tags": [
+    "brentano",
+    "intentionality",
+    "mark-of-the-mental"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

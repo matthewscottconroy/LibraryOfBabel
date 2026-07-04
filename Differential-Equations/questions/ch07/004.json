@@ -1,0 +1,22 @@
+{
+  "question_id": "eb3a7a60-242c-4a0e-af80-f8823149fa1d",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The hallmark of chaos that makes long-term prediction impossible is:",
+  "choices": [
+    "periodicity of all orbits",
+    "sensitive dependence on initial conditions (exponential separation of nearby trajectories)",
+    "convergence of all trajectories to a single fixed point",
+    "linearity of the evolution rule"
+  ],
+  "answer": 1,
+  "explanation": "Chaos is marked by sensitive dependence: nearby initial conditions separate exponentially (a positive Lyapunov exponent), so tiny uncertainties are amplified and defeat long-term prediction even though the system is deterministic. Chaos requires nonlinearity.",
+  "tags": [
+    "chaos",
+    "sensitive-dependence",
+    "lyapunov"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "bdaeeefe-58eb-4684-ad5b-dd8c953945bf",
+  "chapter": 9,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the correct status of the halting problem HALT = {⟨P,x⟩ : P halts on x}?",
+  "choices": [
+    "It is decidable, but only in exponential time",
+    "It is undecidable: no algorithm decides it for all inputs",
+    "It is decidable for Turing machines but not for real computers",
+    "It is an open problem whether it is decidable"
+  ],
+  "answer": 1,
+  "explanation": "Turing (1936) proved HALT is undecidable — no algorithm correctly answers 'does P halt on x?' for all P and x. It is not merely 'hard' (A) nor open (D); undecidability is a proven impossibility, not a complexity bound. By the Church–Turing thesis this applies to any model of computation, including real computers (contra C).",
+  "tags": [
+    "halting-problem",
+    "undecidability",
+    "turing"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

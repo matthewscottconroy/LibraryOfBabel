@@ -1,0 +1,22 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the Hill equation v = Vmax[S]^n / (K0.5^n + [S]^n), what does a Hill coefficient n > 1 indicate?",
+  "choices": [
+    "Negative cooperativity, producing a more graded response",
+    "Strictly hyperbolic Michaelis-Menten kinetics with no cooperativity",
+    "Positive cooperativity, producing an ultrasensitive, switch-like response",
+    "Zero-order kinetics, independent of substrate concentration"
+  ],
+  "answer": 2,
+  "explanation": "A Hill coefficient n > 1 indicates positive cooperativity: binding of one ligand increases the affinity for subsequent ligands, producing a steep, switch-like (ultrasensitive) response curve. Negative cooperativity would give n < 1, ordinary Michaelis-Menten hyperbolic kinetics corresponds to n = 1, and zero-order kinetics describes a rate that is independent of substrate concentration, an unrelated kinetic regime.",
+  "tags": [
+    "cooperativity",
+    "hill-equation",
+    "allostery"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "d4c6f103-6065-4e8e-a3ea-e2d49f7d812e"
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "8fb2c05b-35ac-4b23-9765-c2b77407b387",
+  "chapter": 11,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The natural proofs barrier (Razborov-Rudich) obstructs circuit lower bounds provided there exist strong:",
+  "choices": [
+    "error-correcting codes",
+    "pseudorandom generators",
+    "expander graphs",
+    "sorting networks"
+  ],
+  "answer": 1,
+  "explanation": "If strong pseudorandom generators exist, any 'natural' (constructive and large) property cannot separate P/poly, so most entropy/counting lower bounds cannot resolve P vs NP.",
+  "tags": [
+    "natural-proofs",
+    "pseudorandom-generators",
+    "circuit-complexity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

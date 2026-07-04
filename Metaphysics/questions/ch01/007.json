@@ -1,0 +1,22 @@
+{
+  "question_id": "d0686eec-3bc2-444c-883c-e5ad49a10530",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "On Lewis's distinction between sparse (natural) and abundant properties, which claim is correct?",
+  "choices": [
+    "There is exactly one property per object and none corresponding to predicates.",
+    "Abundant properties correspond to every predicate however gerrymandered, while sparse properties are the elite few that carve nature at its joints.",
+    "Sparse properties are mental constructions, whereas abundant properties are physical.",
+    "'Sparse' and 'abundant' are simply two names for the very same class of entities."
+  ],
+  "answer": 1,
+  "explanation": "Abundant properties are as numerous as predicates (including 'grue' and disjunctive predicates), while sparse or natural properties (mass, charge, spin) ground objective similarity, laws, and causation. The tempting distractor (option 3) collapses a distinction Lewis draws precisely to separate genuine joint-carving properties from mere shadows of predicates.",
+  "tags": [
+    "sparse-properties",
+    "abundant-properties",
+    "lewis"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

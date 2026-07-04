@@ -1,0 +1,18 @@
+{
+  "question_id": "906f9b64-716d-468f-8389-ce3c2181d1ad",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "According to endurantism (three-dimensionalism), how does an object persist through time?",
+  "choices": [
+    "By having a distinct temporal part at each moment, which together compose a four-dimensional whole",
+    "By being wholly present at each moment of its existence, without having any temporal parts",
+    "By being an instantaneous stage that stands in a temporal counterpart relation to earlier and later stages",
+    "By never really persisting at all, since 'sameness over time' is a fiction the mind projects onto distinct things"
+  ],
+  "answer": 1,
+  "explanation": "Endurantism holds that an object is wholly present at every moment it exists, with no temporal parts — which is why it is called three-dimensionalism. The temporal-parts option describes perdurantism (the four-dimensional temporal-worm view); the counterpart-relation option describes Sider's stage theory; and the 'fiction' option is a Humean deflationism about identity. Only wholly-present persistence is endurantism.",
+  "tags": ["endurantism", "three-dimensionalism", "persistence", "perdurantism"],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "47ea575f-d4b5-473c-8d31-0626067b6198",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Princess Elisabeth of Bohemia's 1643 challenge to Descartes's substance dualism pressed which problem?",
+  "choices": [
+    "The interaction problem: how an unextended, immaterial soul could move a physical body, given that every intelligible model of causation seemed to require contact or extension.",
+    "The problem that the cogito establishes only that thinking is occurring, not that a persisting thinking self exists.",
+    "The problem of whether non-human animals, lacking rational souls, could nonetheless feel pain.",
+    "The problem of how the idea of a perfect God could arise in a finite, imperfect mind."
+  ],
+  "answer": 0,
+  "explanation": "Elisabeth pressed the interaction problem: a res cogitans with no extension or surface has no way to make contact with res extensa, and any mechanism one imagines uses physical concepts, implicitly conceding the mind is physical. The 'thinking self' worry is a later Lichtenberg-style objection to the cogito, not Elisabeth's; her question was specifically about mind-body causal interaction.",
+  "tags": [
+    "dualism",
+    "descartes",
+    "interaction-problem"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

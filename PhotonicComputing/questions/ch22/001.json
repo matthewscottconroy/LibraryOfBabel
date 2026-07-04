@@ -1,0 +1,13 @@
+{
+  "question_id": "d8248ceb-8c61-4d89-bcac-e27d28efceb4",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Projection lithography resolves features down to CD = k1 * lambda / NA. Given that silicon photonics features are 100-500 nm, why has every major photonics foundry standardized on 193 nm deep-UV (ArF) scanners rather than EUV?",
+  "choices": ["Because photonics' 100-500 nm features sit comfortably within 193 nm DUV resolution (dry ~100 nm, immersion ~40 nm), so EUV buys nothing", "Because EUV light cannot expose standard photoresist", "Because 193 nm light has lower photon energy and causes less damage", "Because EUV steppers can pattern only metals, not silicon"],
+  "answer": 0,
+  "explanation": "DUV at 193 nm already resolves ~100 nm (dry) to ~40 nm (immersion), far finer than photonics' relaxed 100-500 nm features, so the enormous expense of EUV is unnecessary. Choices 1, 3, and 2 are false claims about the physics — EUV works and is used in leading-edge CMOS logic; it is simply overkill and costly for photonic dimensions.",
+  "tags": ["lithography", "duv", "rayleigh-criterion"],
+  "difficulty": "beginner",
+  "generated": true
+}

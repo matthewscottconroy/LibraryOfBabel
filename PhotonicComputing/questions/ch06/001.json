@@ -1,0 +1,13 @@
+{
+  "question_id": "2d60c067-67be-4356-9dc8-6f886bf94705",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The industry-standard thickness of the silicon device layer used for silicon photonic integrated circuits at 1550 nm is:",
+  "choices": ["45 nm", "220 nm", "2 um", "450 nm"],
+  "answer": 1,
+  "explanation": "The 220 nm silicon-on-insulator device layer is the photonics standard, balancing single-mode operation, high confinement (~0.8), and manageable two-photon absorption. 45 nm is an advanced CMOS transistor node; 2 um is the buried-oxide (BOX) thickness; 450 nm is the standard single-mode strip width, not the layer thickness.",
+  "tags": ["soi", "220nm", "silicon-photonics-platform"],
+  "difficulty": "beginner",
+  "generated": true
+}

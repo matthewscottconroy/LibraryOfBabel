@@ -1,0 +1,13 @@
+{
+  "question_id": "7a5ba9b2-68db-4c1e-9213-ff171b17b987",
+  "chapter": 21,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The PLOB bound caps the secret-key rate of any repeaterless QKD protocol at roughly 1.44 eta bits per channel use. At an attenuation of 0.2 dB/km, why does this make 1,000 km of direct transmission hopeless?",
+  "choices": ["Because polarization drift scrambles the key faster than it can be corrected", "Because the no-cloning theorem forbids sending more than one bit per photon", "Because 1,000 km exceeds the coherence length of any laser", "Because eta is about 10^-20 at 1,000 km, so even a 10 GHz single-photon source delivers roughly one photon per three centuries"],
+  "answer": 3,
+  "explanation": "Loss is exponential — eta = 10^(-alpha L/10) reaches about 10^-20 at 1,000 km — so the surviving photon flux collapses to roughly one photon per three centuries, making direct QKD absurd and motivating repeaters and satellites. Choice 0 is a real but secondary engineering issue, not the PLOB wall; choice 1 misstates no-cloning; choice 2 confuses channel loss with laser coherence.",
+  "tags": ["plob-bound", "rate-distance", "fiber-loss"],
+  "difficulty": "intermediate",
+  "generated": true
+}

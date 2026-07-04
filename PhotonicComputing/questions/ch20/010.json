@@ -1,0 +1,19 @@
+{
+  "question_id": "e8a5189a-f152-4485-a14b-c049e0bd5501",
+  "chapter": 20,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In PennyLane's differentiable quantum programming, the ___ rule computes exact hardware gradients as d_theta f = (1/2)[f(theta + pi/2) - f(theta - pi/2)], using the quantum device itself rather than finite differences.",
+  "choices": [
+    "parameter-shift"
+  ],
+  "answer": "parameter-shift",
+  "explanation": "The parameter-shift rule yields exact analytic gradients of a QNode expectation value by evaluating the circuit at symmetrically shifted parameters — central to differentiable quantum programming. It is not a finite-difference approximation and runs on real hardware; CV versions exist for Gaussian gates with quadratic observables.",
+  "tags": [
+    "pennylane",
+    "parameter-shift",
+    "differentiable-programming"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

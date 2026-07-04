@@ -1,0 +1,22 @@
+{
+  "question_id": "f5392ac4-5999-4236-8ca4-3e3cd4b8642c",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The 'no-miracles argument' for scientific realism, associated with Putnam and Boyd, holds which of the following?",
+  "choices": [
+    "The approximate truth of our best theories is the best explanation of their novel predictive success, which would otherwise be an inexplicable miracle.",
+    "The aim of science is empirical adequacy, so we should accept theories as saving the phenomena without believing their claims about unobservables.",
+    "Because many past successful theories had non-referring central terms, our current successful theories are probably also false.",
+    "For any theory there are empirically equivalent rivals, so the evidence can never determine which theory is true."
+  ],
+  "answer": 0,
+  "explanation": "The no-miracles argument is an inference to the best explanation from science's novel predictive success to the approximate truth of its theories (Putnam's 'only philosophy that doesn't make the success of science a miracle'). The tempting distractor is constructive empiricism, which is the anti-realist rival that replaces truth with mere empirical adequacy rather than explaining success by truth.",
+  "tags": [
+    "scientific-realism",
+    "no-miracles-argument",
+    "putnam"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

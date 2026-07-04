@@ -1,0 +1,21 @@
+{
+  "question_id": "a26fae0a-6fbe-458a-bf98-6e1e8bd3de3b",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the book's notation, the contrapositive of the implication P → Q is:",
+  "choices": [
+    "Q → P",
+    "¬P → ¬Q",
+    "¬Q → ¬P",
+    "P ∧ ¬Q"
+  ],
+  "answer": 2,
+  "explanation": "The book defines the contrapositive of P → Q as ¬Q → ¬P and states it is logically equivalent to the original. Q → P is the converse, which the book warns is NOT logically equivalent in general; ¬P → ¬Q is the inverse; and P ∧ ¬Q is the negation of the implication (¬(P → Q) ≡ P ∧ ¬Q), not its contrapositive.",
+  "tags": [
+    "logic",
+    "proof"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

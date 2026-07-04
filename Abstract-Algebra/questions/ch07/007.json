@@ -1,0 +1,19 @@
+{
+  "question_id": "68a1a360-0a75-4889-9f2a-8e3704733cac",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "For finite-dimensional V, the map ι: V → V** defined by ι(v)(f) = f(v) is an isomorphism.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "ι is injective (a nonzero vector admits a functional not vanishing on it) and dim V** = dim V* = dim V, so it is an isomorphism. Unlike V ≅ V*, it requires no choice of basis — this is the sense in which double duality is canonical.",
+  "tags": [
+    "dual-space",
+    "double-dual"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

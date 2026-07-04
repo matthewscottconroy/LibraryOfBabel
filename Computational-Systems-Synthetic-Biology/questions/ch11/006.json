@@ -1,0 +1,22 @@
+{
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The GECKO method extends genome-scale metabolic models by:",
+  "choices": [
+    "Incorporating enzyme kcat values and a constraint on total enzyme usage (proteome allocation)",
+    "Adding Boolean gene-regulatory rules that switch reactions on or off over time (rFBA)",
+    "Coupling flux balance analysis to dynamic equations for extracellular metabolites over time (dynamic FBA)",
+    "Combining multiple organism-specific models into a shared community model (SteadyCom/micom)"
+  ],
+  "answer": 0,
+  "explanation": "GECKO reformulates each reaction in enzyme-catalyzed form using kcat values and adds a constraint on total enzyme usage, capturing proteome allocation and predicting enzyme saturation. Boolean regulatory switching is rFBA's contribution, coupling FBA to time-varying extracellular metabolite dynamics is dynamic FBA (dFBA), and stacking multiple organisms' GEMs with a shared compartment describes community modeling approaches like SteadyCom or micom, all distinct extensions from GECKO.",
+  "tags": [
+    "gecko",
+    "enzyme-constraints",
+    "proteome-allocation"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "cd7cd574-ae26-48df-acac-ca7168be8c88"
+}

@@ -1,0 +1,22 @@
+{
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Under the quasi-steady-state assumption (d[ES]/dt ≈ 0) applied to the full mechanism E + S ⇌ ES → E + P, the Michaelis constant Km is defined as:",
+  "choices": [
+    "(k₋₁ + kcat) / k₁",
+    "k₁ / (k₋₁ + kcat)",
+    "kcat / k₁",
+    "k₁ · k₋₁ / kcat"
+  ],
+  "answer": 0,
+  "explanation": "Setting d[ES]/dt ≈ 0 in the full mechanism and solving for the steady-state [ES] gives v = Vmax[S]/(Km+[S]) with Km = (k₋₁ + kcat)/k₁, combining the ES dissociation rate and the catalytic rate relative to the association rate. The inverted form, kcat/k₁ alone, and k₁·k₋₁/kcat are not the algebraically correct combination that falls out of the steady-state derivation.",
+  "tags": [
+    "michaelis-menten",
+    "enzyme-kinetics",
+    "qssa"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "140ef3fd-0afe-4cfc-8b7f-3555b21a7b58"
+}

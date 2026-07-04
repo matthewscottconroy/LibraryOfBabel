@@ -1,0 +1,19 @@
+{
+  "chapter": 19,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Error-prone PCR often substitutes Mn2+ for Mg2+ to destabilize Watson-Crick base pairing and reduce polymerase fidelity, introducing random point mutations across the amplified gene.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: using Mn2+ instead of Mg2+ is a standard way to lower the fidelity of Taq or similar polymerases, along with imbalanced dNTP concentrations or dedicated low-fidelity polymerases such as Mutazyme II, in order to generate a library of randomly mutated gene variants. Mutation rate is typically tuned to about 1-3 amino acid changes per gene so that most variants remain foldable and testable.",
+  "tags": [
+    "error-prone-pcr",
+    "mutagenesis"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "08a6cfff-895e-40b1-8508-f23803d8701c"
+}

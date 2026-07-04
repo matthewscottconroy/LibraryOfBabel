@@ -1,0 +1,20 @@
+{
+  "chapter": 11,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Flux balance analysis (FBA) predicts absolute intracellular fluxes with the same resolution as ¹³C metabolic flux analysis, making ¹³C-MFA unnecessary for resolving parallel pathways.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: FBA only predicts an optimal flux distribution under an assumed objective and cannot distinguish between parallel pathways carrying equivalent net stoichiometry, such as glycolysis versus the pentose phosphate pathway. ¹³C-MFA is specifically needed to provide absolute, quantitative flux measurements in exactly these cases where FBA's optimization-based predictions are insufficient.",
+  "tags": [
+    "fba",
+    "13c-mfa",
+    "flux-resolution"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "2621974e-9edd-498d-8b22-02b797f4c8c5"
+}

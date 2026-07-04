@@ -1,0 +1,22 @@
+{
+  "question_id": "b7ad95af-5c4c-464c-90bb-33e96029941d",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Shaun Gallagher's 'interaction theory' of social cognition claims that in most everyday encounters we understand others:",
+  "choices": [
+    "By directly perceiving their mental states in embodied expression and interaction, prior to theory or simulation",
+    "By applying a tacit folk-psychological theory of mind",
+    "By running an offline simulation of their perspective",
+    "By analogical inference from our own single case"
+  ],
+  "answer": 0,
+  "explanation": "Interaction theory (Gallagher, with Zahavi) holds that social understanding is primarily direct, embodied perception of others in expression and interaction, more basic than either theorizing or simulating. Applying a tacit theory is theory-theory; offline simulation is simulation theory; analogical inference is the classical argument from analogy — the three approaches interaction theory rejects as primary.",
+  "tags": [
+    "interaction-theory",
+    "gallagher",
+    "direct-social-perception"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

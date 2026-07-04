@@ -1,0 +1,19 @@
+{
+  "chapter": 9,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Neighbor-joining produces a rooted tree by default, since the method assumes a molecular clock.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false: neighbor-joining produces an unrooted tree and explicitly does not assume a molecular clock; that clock assumption instead belongs to UPGMA, which does produce a rooted, ultrametric tree. An NJ tree must be rooted afterward using an outgroup or the midpoint method.",
+  "tags": [
+    "neighbor-joining",
+    "tree-rooting"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "cb4bc368-604f-4fdf-a891-9258f4292017"
+}

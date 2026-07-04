@@ -1,0 +1,19 @@
+{
+  "question_id": "6f8a0adc-6d79-4d1e-88a8-d19560f85fc4",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Surrogate-gradient learning confronts the fact that the spike function S = Theta(V - V_th) has a derivative that is zero almost everywhere; in the backward pass only, the derivative of this non-differentiable ___ step function is replaced by a smooth surrogate such as the fast-sigmoid derivative.",
+  "choices": [
+    "Heaviside"
+  ],
+  "answer": "Heaviside",
+  "explanation": "Theta denotes the Heaviside step function, whose derivative vanishes almost everywhere; surrogate-gradient methods (Neftci et al. 2019; Zenke and Ganguli 2018) substitute a smooth surrogate derivative in the backward pass so that backpropagation-through-time can train the SNN.",
+  "tags": [
+    "surrogate-gradient",
+    "heaviside",
+    "bptt"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

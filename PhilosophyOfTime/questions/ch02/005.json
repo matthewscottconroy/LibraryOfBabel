@@ -1,0 +1,18 @@
+{
+  "question_id": "5ebfe1b2-4865-4000-9482-67c14739d55e",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Plotinus's three-tiered ontology (the One, Intellect, Soul), which hypostasis has eternity (aion) as its mode of being — a life that is complete, all together, and without succession?",
+  "choices": [
+    "The One (to Hen)",
+    "Intellect (Nous)",
+    "Soul (Psyche)",
+    "The physical cosmos"
+  ],
+  "answer": 1,
+  "explanation": "Intellect grasps all the Forms at once in a single undivided act, and this 'all together' (homou) completeness just is Plotinian eternity (aion). The One is beyond being and thought — temporal categories do not even apply to it, so it is not 'eternal' in the technical aion sense; Soul, by contrast, is discursive and sequential and is precisely the hypostasis that generates time; and the cosmos is temporal because it is animated by Soul.",
+  "tags": ["plotinus", "hypostases", "intellect", "eternity", "aion"],
+  "difficulty": "beginner",
+  "generated": true
+}

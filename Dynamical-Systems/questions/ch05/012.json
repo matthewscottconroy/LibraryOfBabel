@@ -1,0 +1,21 @@
+{
+  "question_id": "a218459d-80c3-4f59-8524-b2852f8d41d1",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In the dually flat geometry of exponential families, the divergence that behaves like a squared distance is the ___ divergence.",
+  "choices": [
+    "KL",
+    "Kullback-Leibler",
+    "relative entropy"
+  ],
+  "answer": "KL",
+  "explanation": "The KL divergence is the canonical divergence of the dually flat structure; it generalizes squared Euclidean distance and drives the EM algorithm's alternating projections.",
+  "tags": [
+    "kl-divergence",
+    "information-geometry",
+    "dually-flat"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

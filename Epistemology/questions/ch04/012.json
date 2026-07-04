@@ -1,0 +1,20 @@
+{
+  "question_id": "f89c1805-efba-4fb8-a126-59fdbec1695d",
+  "chapter": 4,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Dretske's relevant-alternatives theory holds that knowing that P requires ruling out only the ___ alternatives, so that the brain-in-a-vat hypothesis—not being one of them in ordinary contexts—need not be eliminated.",
+  "choices": [
+    "relevant"
+  ],
+  "answer": "relevant",
+  "explanation": "On Dretske's view, knowledge requires eliminating only the alternatives that are relevant in the context, not every logically possible one; since the BIV scenario is not a relevant alternative in ordinary contexts, failing to rule it out does not defeat ordinary knowledge. This blocks the skeptical argument by restricting closure to relevant alternatives.",
+  "tags": [
+    "dretske",
+    "relevant-alternatives",
+    "closure",
+    "brain-in-a-vat"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

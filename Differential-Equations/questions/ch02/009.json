@@ -1,0 +1,19 @@
+{
+  "question_id": "6cfc8623-ea19-4c43-8d90-0ad0ba85307d",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The surface integral of F . n over an oriented surface S measures the ___ of the field through the surface.",
+  "choices": [
+    "flux"
+  ],
+  "answer": "flux",
+  "explanation": "Flux is the net rate at which the field crosses the surface, with sign determined by the chosen orientation (the unit normal n). Reversing the orientation flips the sign of the flux.",
+  "tags": [
+    "flux",
+    "surface-integrals",
+    "orientation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

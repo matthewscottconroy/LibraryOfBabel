@@ -1,0 +1,22 @@
+{
+  "question_id": "31cf606d-0ba6-45e4-85e7-1192f59b3030",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a discrete-time system, when is a fixed point stable according to the eigenvalues of its Jacobian J?",
+  "choices": [
+    "When all eigenvalues satisfy Re(lambda_k) < 0 (left half-plane)",
+    "When all eigenvalues satisfy |lambda_k| < 1 (inside the unit circle)",
+    "When all eigenvalues satisfy |lambda_k| > 1 (outside the unit circle)",
+    "When the determinant of the Jacobian is exactly zero"
+  ],
+  "answer": 1,
+  "explanation": "In discrete time a fixed point is stable iff every Jacobian eigenvalue lies strictly inside the unit circle, |lambda_k| < 1 (equivalently rho(J) < 1). Re(lambda_k) < 0 (option 0) is the continuous-time criterion; |lambda| > 1 is instability; det(J) = 0 is a degenerate, non-hyperbolic case.",
+  "tags": [
+    "stability",
+    "eigenvalues",
+    "spectral-radius"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

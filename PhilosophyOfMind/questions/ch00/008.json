@@ -1,0 +1,21 @@
+{
+  "question_id": "09800b85-963b-4acb-8a50-6d35dee83549",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Locke's doctrine of the mind as a tabula rasa asserts that the mind comes furnished at birth with innate ideas that experience later activates.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This reverses Locke's actual view. His Essay opens by attacking innate ideas: the mind is a 'blank slate' (tabula rasa) with no innate content, and all ideas derive from sensation and reflection. The notion that innate ideas are merely 'activated' by experience belongs to the rationalist tradition Locke opposed, so the statement is false.",
+  "tags": [
+    "locke",
+    "tabula-rasa",
+    "innate-ideas",
+    "empiricism"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

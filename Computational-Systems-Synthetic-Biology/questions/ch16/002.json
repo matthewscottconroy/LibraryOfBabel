@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the Hill function transfer curve f(x) = alpha*x^n / (K^n + x^n) used to model a genetic part's input-output behavior, increasing the Hill coefficient n primarily makes the response...",
+  "choices": [
+    "Higher in maximum output level (alpha)",
+    "More switch-like, i.e. a steeper transition near the threshold",
+    "Leakier at zero input (higher basal expression)",
+    "Responsive at a lower half-maximal input concentration (K)"
+  ],
+  "answer": 1,
+  "explanation": "The Hill coefficient n governs the steepness and cooperativity of the transfer function: a larger n produces a sharper, more switch-like (ultrasensitive) transition around the threshold K. It does not set the maximum output level, which is the separate parameter alpha; it does not increase basal leaky expression; and it does not by itself shift the half-maximal threshold K, which is a distinct parameter from n.",
+  "tags": [
+    "hill-function",
+    "transfer-function",
+    "modeling"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "40b8d5d4-b377-4fb6-a722-87115b562842"
+}

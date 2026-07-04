@@ -1,0 +1,23 @@
+{
+  "question_id": "7127f076-2a66-4bd0-9c47-e70c2f620e7b",
+  "chapter": 13,
+  "phase": 3,
+  "kind": "mc",
+  "text": "According to the LTL semantics, when does π, i ⊨ φ U ψ ('φ until ψ') hold?",
+  "choices": [
+    "When ψ holds at position i and φ holds at every later position",
+    "When φ holds at every position from i onward and ψ never holds",
+    "When φ and ψ both hold at position i",
+    "When there is some j ≥ i with ψ true at j, and φ true at all positions k with i ≤ k < j"
+  ],
+  "answer": 3,
+  "explanation": "Until requires a future witness j where ψ holds, with φ holding continuously up to (but not necessarily including) j. Choice 0 swaps the roles of φ and ψ. Choice 1 describes G φ with ψ failing (strong until requires ψ to eventually hold). Choice 2 ignores the 'until' structure entirely.",
+  "tags": [
+    "ltl",
+    "until",
+    "semantics",
+    "temporal-operators"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

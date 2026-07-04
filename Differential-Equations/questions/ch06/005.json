@@ -1,0 +1,21 @@
+{
+  "question_id": "03df8d2f-8221-4680-a912-db0da5b7ddb1",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The Cauchy integral formula expresses the value of an analytic f inside a contour C as:",
+  "choices": [
+    "f(a) = (1/(2*pi*i)) times the contour integral of f(z)/(z - a) dz",
+    "f(a) = the contour integral of f(z)*(z - a) dz",
+    "f(a) = (1/(2*pi*i)) times the contour integral of f(z) dz",
+    "f(a) = the sum of the residues of f"
+  ],
+  "answer": 0,
+  "explanation": "The Cauchy integral formula, f(a) = (1/(2*pi*i)) * integral of f(z)/(z - a) dz, recovers interior values from boundary data; differentiating under the integral yields every derivative as an integral, showing analytic functions are infinitely differentiable.",
+  "tags": [
+    "cauchy-integral-formula",
+    "contour-integration"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

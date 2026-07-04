@@ -1,0 +1,18 @@
+{
+  "question_id": "2be1344b-9804-4b91-95c2-179abb916487",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "McTaggart notes that every event must be past, present, and future -- an apparent contradiction. Why does relativizing these to different times (E is future at t1, present at t2, past at t3) fail to remove the contradiction?",
+  "choices": [
+    "Because the B-series relations among t1, t2, and t3 are themselves constantly changing",
+    "Because presentism entails that t1 and t3 do not exist, leaving the relativization without a truthmaker",
+    "Because the times t1, t2, and t3 must each themselves be past, present, and future, so the same contradiction reappears one level up, generating a vicious regress",
+    "Because special relativity denies that there is any objective fact about which time is present"
+  ],
+  "answer": 2,
+  "explanation": "McTaggart grants the reply but observes that saying E is future/present/past AT t1, t2, t3 just re-describes those times with A-properties -- and each of t1, t2, t3 must in turn be past, present, and future, so the contradiction recurs endlessly. That is why the regress is vicious rather than harmless. Option 0 misdescribes B-relations (which are permanent), while options 1 and 3 substitute presentism and relativity for McTaggart's own reasoning.",
+  "tags": ["mctaggart", "regress", "a-series", "unreality-of-time"],
+  "difficulty": "intermediate",
+  "generated": true
+}

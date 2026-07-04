@@ -1,0 +1,19 @@
+{
+  "question_id": "75810c29-8bfd-44ca-84b8-97ac3c290924",
+  "chapter": 27,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Because the shot-noise photon cost grows as 4 to the power B (quadrupling per bit), analog optics is cheap at ___ precision and punishingly expensive at high precision, which is why photonic machine-learning accelerators converge on 4-to-8-bit inference workloads.",
+  "choices": [
+    "low"
+  ],
+  "answer": "low",
+  "explanation": "Analog optics is cheap at low precision and punishingly expensive (about 4 times per bit) at high precision, so photonic accelerators deliberately target 4-to-8-bit inference, the regime where the optical energy-per-operation advantage survives; ask for 16 or 32 bits and the shot-noise floor forecloses the advantage.",
+  "tags": [
+    "precision-energy-tradeoff",
+    "low-precision",
+    "inference"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

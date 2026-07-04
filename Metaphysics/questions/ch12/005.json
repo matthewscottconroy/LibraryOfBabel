@@ -1,0 +1,18 @@
+{
+  "question_id": "e47c1b82-6d09-4e35-a7b1-3f8024c5e916",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In answering Mackie's logical problem of evil, Plantinga insists that his free will defense is a defense, not a theodicy. What does this distinction amount to?",
+  "choices": [
+    "A defense identifies the greater good—soul-making—for which God actually permits suffering, while a theodicy merely establishes logical consistency.",
+    "A defense concedes that God and evil are logically incompatible but argues the incompatibility is bearable, while a theodicy denies the incompatibility.",
+    "A defense addresses only natural evil, while a theodicy addresses only moral evil caused by free agents.",
+    "A defense shows only that God and evil are logically consistent by supplying a merely possible reason, while a theodicy claims to identify God's actual reason for permitting evil."
+  ],
+  "answer": 3,
+  "explanation": "A defense aims only at consistency, so it needs merely a possible reason (e.g., transworld depravity); a theodicy makes the stronger claim of giving God's actual justifying reason (e.g., Hick's soul-making). Distractor 0 reverses the two definitions and mislabels soul-making, which is a theodicy of Hick's, not Plantinga's defense.",
+  "tags": ["problem-of-evil", "free-will-defense", "plantinga"],
+  "difficulty": "intermediate",
+  "generated": true
+}

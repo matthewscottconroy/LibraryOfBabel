@@ -1,0 +1,18 @@
+{
+  "question_id": "f297879f-c0ca-4176-95e7-b71fde8257bc",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The book describes the “container view,” on which time is a medium that would still exist and flow even if no events occurred. Whose account of time does it give as the paradigm of this view?",
+  "choices": [
+    "Leibniz's, on which time is nothing but the network of relations among events",
+    "McTaggart's, on which the A-series is more fundamental than the B-series",
+    "Newton's absolute time, which “flows equably without relation to anything external”",
+    "Husserl's, on which time is constituted through retention and protention"
+  ],
+  "answer": 2,
+  "explanation": "The book names Newton's absolute time — which 'flows equably without relation to anything external' — as the paradigm container (absolute) view. Leibniz is offered as the paradigm of the opposing relational view, while McTaggart's A/B-series and Husserl's retention/protention belong to different debates in the unit.",
+  "tags": ["container-view", "absolute-time", "newton", "relational-view", "leibniz"],
+  "difficulty": "beginner",
+  "generated": true
+}

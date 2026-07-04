@@ -1,0 +1,19 @@
+{
+  "question_id": "f2a4c6e8-0b2d-4f6a-8c4e-9b1d3f5a7c08",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In Levin's account of development and regeneration, the property of reaching the same correct final anatomical state from different starting conditions and by different routes — the cybernetic hallmark of genuine goal-directedness, explained by attractor dynamics — is called ___.",
+  "choices": [
+    "equifinality"
+  ],
+  "answer": "equifinality",
+  "explanation": "Equifinality is reaching the same endpoint from varied initial states, as when planaria regenerate correct anatomy from many different fragments. A fixed mechanical program cannot do this (changing the start changes the outcome), so equifinality is treated as the signature of goal-directedness, produced by a stable attractor drawing the system toward the target state.",
+  "tags": [
+    "equifinality",
+    "levin",
+    "goal-directedness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

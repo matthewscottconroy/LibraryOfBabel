@@ -1,0 +1,18 @@
+{
+  "question_id": "f54d0ad7-c790-4e25-84ca-9995372943ad",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the diffractive layer model U^{l+1} = H_d * diag(t^l) * U^l, which part is learned and which is fixed by physics?",
+  "choices": [
+    "Only the diagonal transmission diag(t^l) is trained; the propagation/connectivity operator H_d is fixed by physics",
+    "Only H_d is trained; the transmission diag(t^l) is fixed",
+    "Both H_d and the transmission are trained jointly",
+    "Neither is trained; the whole network is random"
+  ],
+  "answer": 0,
+  "explanation": "A diffractive layer is a fixed dense off-diagonal connectivity H_d (the diffraction integral) times a trained diagonal transmission diag(t^l); only the diagonal (the pixel phases) is learned, while H_d is set by geometry and wavelength. The connectivity is supplied for free, so training it is neither possible nor necessary.",
+  "tags": ["d2nn", "training", "diffraction-operator"],
+  "difficulty": "intermediate",
+  "generated": true
+}

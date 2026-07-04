@@ -1,0 +1,21 @@
+# Build manifest for the Dynamical Systems textbook.
+# Content lives at the book root as part-*/chNN-*/ chapter DIRECTORIES
+# (index.md first, then content, plus exercises.md and notes.md).
+#
+# NOTE: a concurrent cleanup is DELETING the 43 flat part-*/chNN-*.md files
+# (the chapter directories are canonical).  While both exist the recursive walk
+# captures the flat files too, so --check still passes; they vanish post-cleanup.
+title = "Dynamical Systems"
+subtitle = "Foundations, Information Theory, and Frontiers"
+
+back_matter = [
+    "curriculum.md",   # optional appendix / roadmap
+]
+exclude = [
+    "README.md",
+]
+
+[[sources]]
+root = "."
+recursive = true
+part_level = 1   # part-i .. part-vii become \part

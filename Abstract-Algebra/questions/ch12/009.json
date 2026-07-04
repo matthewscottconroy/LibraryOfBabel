@@ -1,0 +1,19 @@
+{
+  "question_id": "c4f30c83-aed3-498d-bd98-253edbf95480",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The unique monic irreducible polynomial in F[x] of least degree having α as a root is the ___ polynomial of α over F.",
+  "choices": [
+    "minimal",
+    "minimal polynomial"
+  ],
+  "answer": "minimal",
+  "explanation": "It generates the kernel of the evaluation map F[x] → F(α), so F(α) ≅ F[x]/(min_{F,α}) and [F(α):F] = deg(min_{F,α}). Irreducibility follows since the quotient is a domain (indeed a field).",
+  "tags": [
+    "field-extensions",
+    "minimal-polynomial"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

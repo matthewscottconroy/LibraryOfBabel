@@ -1,0 +1,18 @@
+{
+  "question_id": "dbd91288-a24f-4eb7-9514-9d281fc259bf",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does GSST (Ge2Sb2Se4Te1) enable longer cascaded synapse chains than canonical GST (Ge2Sb2Te5)?",
+  "choices": [
+    "GSST is engineered to be low-loss in BOTH amorphous and crystalline states while keeping a large index contrast, so per-cell insertion loss stays low; GST's crystalline state is strongly absorbing",
+    "GSST crystallizes faster, so signals spend less time in the lossy state",
+    "GSST stores more bits per cell, so fewer cells are needed",
+    "GSST is amplitude-modulating while GST is phase-modulating, giving GSST lower loss"
+  ],
+  "answer": 0,
+  "explanation": "GSST is low-loss in both states with a large index contrast, so cascaded cells accumulate little insertion loss, whereas GST's crystalline phase is strongly absorbing and limits chain length. Choice 3 reverses the modulation roles (GSST is phase-dominated, GST amplitude/absorptive); switching speed (1) and bit-depth (2) are not the cascadability mechanism.",
+  "tags": ["gst-gsst", "cascadability", "materials"],
+  "difficulty": "advanced",
+  "generated": true
+}

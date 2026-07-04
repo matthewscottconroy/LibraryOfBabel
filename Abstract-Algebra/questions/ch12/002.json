@@ -1,0 +1,22 @@
+{
+  "question_id": "6dc870fd-31b2-48b2-b333-5bce479a10f5",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Given fields F ⊆ K ⊆ E with [K:F] = 2 and [E:K] = 3, what is [E:F]?",
+  "choices": [
+    "5",
+    "6",
+    "8",
+    "Cannot be determined"
+  ],
+  "answer": 1,
+  "explanation": "The tower law gives [E:F] = [E:K]·[K:F] = 3·2 = 6: multiplying a K-basis of E by an F-basis of K produces an F-basis of E. Multiplicativity of degree is the workhorse of field theory.",
+  "tags": [
+    "field-extensions",
+    "tower-law",
+    "degree"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "aebcbecc-7b30-4618-a9ad-93ca7303909f",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Rietdijk-Putnam argument uses the relativity of simultaneity to argue for which metaphysical conclusion?",
+  "choices": [
+    "Eternalism, the block universe: all past, present, and future events are equally real.",
+    "Presentism: only the present moment is real, while past and future events do not exist.",
+    "The growing block: the past and present are real but the future is genuinely open.",
+    "Conventionalism about simultaneity: clock synchronization is a free stipulation with no fact of the matter."
+  ],
+  "answer": 0,
+  "explanation": "Rietdijk (1966) and Putnam (1967) argued that because an event simultaneous with you in your frame can lie in another observer's past, and reality must be frame-independent, all events are equally real: eternalism, the block universe. The argument is aimed against presentism (option 1), not for it; Stein's causal reply resembles a growing-block openness of the future (option 2) but is a response to the argument, not its conclusion; Reichenbach's conventionalism (option 3) is a distinct debate about synchronization.",
+  "tags": ["rietdijk-putnam", "eternalism", "block-universe", "presentism", "relativity-of-simultaneity"],
+  "difficulty": "advanced",
+  "generated": true
+}

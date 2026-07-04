@@ -1,0 +1,22 @@
+{
+  "question_id": "dea4b073-563c-4010-97f8-ec4e9464d769",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why is the general quintic equation not solvable by radicals?",
+  "choices": [
+    "Its Galois group S₅ is not a solvable group",
+    "Degree-5 polynomials can fail to have roots in ℂ",
+    "S₅ contains no element of order 5",
+    "ℚ is not algebraically closed"
+  ],
+  "answer": 0,
+  "explanation": "Abel–Ruffini via Galois: a polynomial is solvable by radicals iff its Galois group is solvable, and S₅ is not — its only composition factors are ℤ/2ℤ and the non-abelian simple group A₅. Every complex polynomial of degree 5 still HAS five roots; they just cannot be expressed by radicals in general.",
+  "tags": [
+    "galois-theory",
+    "solvability",
+    "abel-ruffini"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

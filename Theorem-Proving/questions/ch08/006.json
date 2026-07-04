@@ -1,0 +1,22 @@
+{
+  "question_id": "2081296a-b9a2-495c-b874-370ed9a7ba6e",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Add to Peano Arithmetic a new constant c together with the infinitely many axioms c ≠ 0̄, c ≠ 1̄, c ≠ 2̄, …. What does the Compactness Theorem let us conclude about this extended theory?",
+  "choices": [
+    "It is satisfiable, so PA has a non-standard model containing an element greater than every standard numeral",
+    "It is unsatisfiable, because c cannot differ from every numeral",
+    "It proves PA is inconsistent",
+    "Its only model is the standard model ℕ"
+  ],
+  "answer": 0,
+  "explanation": "Every finite subset uses only finitely many axioms c ≠ n̄, and is satisfied by ℕ interpreting c as a large enough number; by compactness the whole theory has a model — a non-standard model of PA with an 'infinite' element. Options B and C are wrong precisely because finite satisfiability holds; option D contradicts the existence of the new element c that differs from all numerals.",
+  "tags": [
+    "compactness",
+    "non-standard-models",
+    "peano-arithmetic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

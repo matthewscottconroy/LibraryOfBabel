@@ -1,0 +1,22 @@
+{
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Ligand binding to a receptor tyrosine kinase (RTK) typically triggers which sequence of molecular events?",
+  "choices": [
+    "GDP-GTP exchange on a Gα subunit, followed by dissociation of Gα-GTP from Gβγ",
+    "A conformational change in an IP3 receptor on the endoplasmic reticulum membrane, releasing calcium",
+    "Direct binding of the ligand to an intracellular nuclear receptor, followed by receptor dimerization and DNA binding",
+    "Ligand-induced receptor dimerization, transautophosphorylation of the activation loop, and recruitment of SH2-domain proteins to the resulting phosphotyrosines"
+  ],
+  "answer": 3,
+  "explanation": "RTK activation proceeds through ligand-induced dimerization of two receptor monomers, transautophosphorylation of each other's activation loops, and recruitment of SH2-domain-containing proteins to the newly created phosphotyrosines, which then activate downstream pathways such as RAS-MAPK and PI3K-AKT. Choice 0 describes GPCR signaling, an entirely different receptor class that uses heterotrimeric G proteins rather than intrinsic kinase activity. Choice 1 describes IP3-induced calcium release, and choice 2 describes nuclear hormone receptor signaling -- both distinct receptor mechanisms unrelated to RTK activation.",
+  "tags": [
+    "receptor-tyrosine-kinase",
+    "rtk",
+    "signal-transduction"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "c4487433-3dcf-46d6-add5-df80e7cabbd2"
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "000578fe-fa42-4da4-aca8-0d7e638ece73",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The lab sets LAMBDA_MAX = 0.906 for the Lorenz system at dt = 0.02. Roughly how long is one Lyapunov time, expressed in both physical time and integration steps?",
+  "choices": [
+    "~ 0.02 time units ~ 1 step",
+    "~ 9.06 time units ~ 453 steps",
+    "~ 0.5 time units ~ 25 steps",
+    "~ 1.1 time units ~ 55 steps"
+  ],
+  "answer": 3,
+  "explanation": "tau_L = 1/lambda_max = 1/0.906 ~ 1.10 time units; at dt=0.02 that is ~55 integration steps (LYAPUNOV_STEPS in the lab). Option 0 is merely dt; option 1 wrongly multiplies by lambda_max instead of inverting it; option 2 is arbitrary.",
+  "tags": [
+    "lyapunov-time",
+    "dt",
+    "lorenz"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "16ca70fe-c47d-4ed5-b709-e8248baff971",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "A nonzero commutative ring with 1 and no zero divisors is called an integral ___.",
+  "choices": [
+    "domain"
+  ],
+  "answer": "domain",
+  "explanation": "In an integral domain ab = 0 forces a = 0 or b = 0, which yields cancellation: ac = bc with c ≠ 0 implies a = b. ℤ is the prototype; ℤ/6ℤ fails because 2·3 = 0.",
+  "tags": [
+    "rings",
+    "integral-domains"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

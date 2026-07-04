@@ -1,0 +1,20 @@
+{
+  "question_id": "f30b4c46-a0c3-4962-9d25-0d62d0fac843",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "tf",
+  "text": "ℤ[x] is a principal ideal domain.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "The ideal (2, x) — polynomials with even constant term — is not principal: a single generator would have to divide both 2 and x, forcing it to be ±1, but (2,x) ≠ ℤ[x]. ℤ[x] is nevertheless a UFD by Gauss's theorem, showing UFD does not imply PID.",
+  "tags": [
+    "rings",
+    "pid",
+    "polynomial-rings"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

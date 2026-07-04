@@ -1,0 +1,19 @@
+{
+  "question_id": "7d8cf5f1-74bc-436b-94ee-7b8726a9f744",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "___ theorem states that if the second partial derivatives of f are continuous, then the mixed partials are equal: f_xy = f_yx.",
+  "choices": [
+    "Clairaut's"
+  ],
+  "answer": "Clairaut's",
+  "explanation": "Clairaut's theorem (also called Schwarz's theorem) guarantees equality of mixed partials when they are continuous. Without that continuity hypothesis there are counterexamples where f_xy and f_yx differ at a point.",
+  "tags": [
+    "clairaut",
+    "mixed-partials",
+    "partial-derivatives"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

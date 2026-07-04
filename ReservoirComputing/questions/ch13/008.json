@@ -1,0 +1,20 @@
+{
+  "question_id": "fbc8a195-c5e1-4732-a2ac-2294dbfb8cbe",
+  "chapter": 13,
+  "phase": 4,
+  "kind": "tf",
+  "text": "On the high-dimensional Kuramoto–Sivashinsky task, a degree-2 NVAR is more parameter-efficient than an ESN because its feature count stays small.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. For KS with n=64, degree-2 NVAR already needs D ≈ 8384 features (and far more with higher degree/history), and the optimal kernels there are not low-degree polynomials. This is a regime where the ESN wins — e.g. Pathak et al. reach ~8 Lyapunov times with N=2400 neurons. NVAR's advantage is confined to LOW-dimensional, polynomial-structured systems.",
+  "tags": [
+    "nvar",
+    "curse-of-dimensionality",
+    "nvar-vs-esn"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

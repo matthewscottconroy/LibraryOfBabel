@@ -1,0 +1,22 @@
+{
+  "question_id": "95385d0b-3fca-4e94-b7bb-2392648d1d03",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "On Carnap's distinction, the question 'Do numbers really exist?' asked from outside all linguistic frameworks is:",
+  "choices": [
+    "an internal question with a trivially affirmative answer.",
+    "a substantive theoretical question about mind-independent reality.",
+    "an external question, which is not a genuine theoretical question but a practical matter of whether to adopt a framework.",
+    "strictly meaningless nonsense, exactly as the logical positivists said of all metaphysics."
+  ],
+  "answer": 2,
+  "explanation": "Carnap treats external existence questions as practical questions about framework adoption, assessed pragmatically, not as factual claims with objective answers; the internal question ('are there primes greater than a million?') is the trivially answerable one. The 'strictly meaningless' reading overstates Carnap, who reinterprets external questions as practical rather than dismissing them outright.",
+  "tags": [
+    "carnap",
+    "internal-external",
+    "deflationism"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

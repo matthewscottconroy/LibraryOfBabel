@@ -1,0 +1,22 @@
+{
+  "question_id": "f4aaf238-e3e4-4c6e-8972-fa6d39b6e85a",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why is rho(W_rec) < 1 described as 'sufficient but not necessary' for the ESP of a tanh reservoir?",
+  "choices": [
+    "Because the leak rate can cancel any spectral radius, making the condition meaningless",
+    "Because for large-amplitude inputs the tanh derivative grows above 1, expanding the state",
+    "Because rho < 1 is in fact neither necessary nor sufficient; only the trace matters",
+    "Because tanh saturation drives derivatives toward 0, shrinking the effective Lipschitz constant, so the ESP can still hold when rho > 1 under strong inputs"
+  ],
+  "answer": 3,
+  "explanation": "When strong inputs push neurons into saturation, tanh'(z) = 1 - tanh^2(z) drops well below 1, so the effective contraction can be < 1 even though rho(W_rec) > 1 (the chapter's x_{t+1}=tanh(2x_t+u_t) example has rho=2 yet the ESP holds). Option B inverts the fact: tanh' never exceeds 1, it only shrinks. The leak rate cancels out of the ESP condition, and rho<1 IS sufficient (necessary/sufficient only in the linear case), so A and C are wrong.",
+  "tags": [
+    "esp",
+    "saturation",
+    "necessary-vs-sufficient"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

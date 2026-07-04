@@ -1,0 +1,13 @@
+{
+  "question_id": "1d8f4a63-9c07-42e5-b6a9-3e7c15f0a8d2",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The concept of 'interests without subjects,' central to biocentric approaches to non-neural life, holds that:",
+  "choices": ["Organisms can be harmed or benefited (have a good of their own) even without phenomenal experience", "An organism's interests belong to the ecosystem rather than to the individual", "Only conscious subjects can genuinely have interests", "Interests are illusory projections made by human observers"],
+  "answer": 0,
+  "explanation": "'Interests without subjects' is the idea that an organism can be better or worse off, can flourish or be harmed, without having phenomenal experience, so its moral claims need not wait on resolving the hard problem. Option 2 is exactly the sentience-based view the concept rejects; the ecosystem-ownership and illusory-projection options misstate it.",
+  "tags": ["interests-without-subjects", "welfare", "plant-ethics"],
+  "difficulty": "intermediate",
+  "generated": true
+}

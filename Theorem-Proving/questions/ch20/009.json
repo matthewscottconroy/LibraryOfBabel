@@ -1,0 +1,20 @@
+{
+  "question_id": "b0a7e3c1-4901-46bd-81e3-b34291348ae7",
+  "chapter": 20,
+  "phase": 5,
+  "kind": "blank",
+  "text": "A monad on a category C consists of an endofunctor T, a unit η: id → T, and a natural transformation μ: T∘T → T called the ___ (also known as 'join').",
+  "choices": [
+    "multiplication"
+  ],
+  "answer": "multiplication",
+  "explanation": "The natural transformation μ: T∘T → T is the multiplication (or 'join'); together with the unit η it satisfies the monoid-like unit and associativity laws — a monad is 'a monoid in the category of endofunctors.'",
+  "tags": [
+    "monads",
+    "multiplication",
+    "unit",
+    "endofunctor"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

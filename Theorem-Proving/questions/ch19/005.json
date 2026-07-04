@@ -1,0 +1,24 @@
+{
+  "question_id": "2615e897-d376-4ed8-b5ea-f79e7c5132dc",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "mc",
+  "text": "According to the chapter, the deep reason elementary geometry (RCF) is decidable while arithmetic is not is that:",
+  "choices": [
+    "geometry has fewer axioms than arithmetic",
+    "geometry is second-order while arithmetic is first-order",
+    "the integers ℤ are not first-order definable in a real-closed field, so it cannot interpret arithmetic",
+    "geometric proofs never appeal to infinity"
+  ],
+  "answer": 2,
+  "explanation": "By quantifier elimination, every definable subset of the line in a real-closed field is semialgebraic (a finite union of points and intervals), but ℤ is infinite and discrete, so no formula defines it. Without ℤ one cannot interpret arithmetic, build Gödel codes, or diagonalize — 'geometry is decidable precisely because it cannot count.' It is not a matter of axiom count, logical order, or infinity.",
+  "tags": [
+    "decidability",
+    "godel",
+    "real-closed-fields",
+    "definability",
+    "semialgebraic"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

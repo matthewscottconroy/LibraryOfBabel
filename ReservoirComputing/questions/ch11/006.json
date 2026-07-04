@@ -1,0 +1,22 @@
+{
+  "question_id": "5b31eecf-13f4-4b28-a320-e2799a4e4313",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "During conceptor-based autonomous recall in the lab (no external input), how is the reservoir state updated?",
+  "choices": [
+    "x_t = tanh(C W_rec x_{t-1})",
+    "x_t = C tanh(W_rec x_{t-1})",
+    "x_t = tanh(W_rec x_{t-1}) + C",
+    "x_t = W_rec tanh(C x_{t-1})"
+  ],
+  "answer": 1,
+  "explanation": "recall_with_conceptor applies C AFTER the nonlinearity: x = C @ tanh(W_rec @ x). The conceptor gates the newly computed state onto the pattern's subspace. Applying C inside the tanh or adding it are misconceptions.",
+  "tags": [
+    "conceptor",
+    "recall",
+    "reservoir-update"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

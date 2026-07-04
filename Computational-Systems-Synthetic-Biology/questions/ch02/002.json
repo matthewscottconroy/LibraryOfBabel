@@ -1,0 +1,22 @@
+{
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In bacterial DNA replication, which enzyme removes the RNA primers laid down by primase?",
+  "choices": [
+    "DNA polymerase I",
+    "DNA polymerase III",
+    "Helicase",
+    "Ligase"
+  ],
+  "answer": 0,
+  "explanation": "DNA polymerase I removes RNA primers and fills the resulting gaps with DNA in bacteria. DNA polymerase III is the main replicative enzyme that extends the new strand, helicase unwinds the double helix ahead of the fork, and ligase seals the remaining nicks in the sugar-phosphate backbone after gap-filling -- none of these remove primers.",
+  "tags": [
+    "dna-replication",
+    "enzymes",
+    "molecular-biology"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "2cdee7de-b42e-4a29-ad2d-98610480207b"
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "791fa65a-b98f-4b24-9c64-283458fa83f0",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Fodor's productivity argument holds that because we can entertain an unbounded number of novel thoughts using finitely many concepts, thought must have a generative, combinatorial structure.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True: the productivity argument holds that since we can think indefinitely many novel thoughts (e.g., about 17,342 grains of sand) from a finite stock of concepts, thought must have a generative, combinatorial structure - exactly what a formal language (LOT) supplies. It is the companion of the systematicity argument.",
+  "tags": [
+    "productivity",
+    "language-of-thought",
+    "fodor"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

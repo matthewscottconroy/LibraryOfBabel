@@ -1,0 +1,18 @@
+{
+  "chapter": 17,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The engineered RNA molecule that fuses crRNA and tracrRNA into a single ~100-nt transcript guiding Cas9 to its target is called the ___.",
+  "choices": [
+    "sgRNA"
+  ],
+  "answer": "sgRNA",
+  "explanation": "This fusion molecule is the single guide RNA (sgRNA), combining the crRNA (which provides target specificity via its 20-nt spacer) and the tracrRNA (needed for Cas9 scaffold binding) into one convenient engineered transcript. This simplifies guide design and delivery compared to the native bacterial dual-RNA (crRNA + tracrRNA) system.",
+  "tags": [
+    "sgrna",
+    "crispr-components"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "c512a08f-1de5-48f2-8e6c-564f99bf44ab"
+}

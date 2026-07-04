@@ -1,0 +1,22 @@
+{
+  "question_id": "7043988d-1f1d-4152-b12a-68c1140fc6c2",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the conceptor C = R (R + alpha^-2 I)^-1, what happens as the aperture alpha -> infinity?",
+  "choices": [
+    "C -> R, the raw correlation matrix",
+    "C -> 0, suppressing all reservoir activity",
+    "C -> I, imposing no constraint on the reservoir dynamics",
+    "C -> the orthogonal projector onto the null space of R"
+  ],
+  "answer": 2,
+  "explanation": "As alpha -> infinity, alpha^-2 -> 0, so C -> R R^-1 = I and the conceptor has no effect. The opposite limit alpha -> 0 gives C -> 0 (all activity suppressed); C never equals R itself nor a null-space projector.",
+  "tags": [
+    "conceptor",
+    "aperture",
+    "limits"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

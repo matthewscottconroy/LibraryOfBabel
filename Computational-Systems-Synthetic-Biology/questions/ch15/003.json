@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The genetic toggle switch (Gardner, Cantor & Collins, 2000) is cited as a key application of which inducible bacterial promoter system, in which anhydrotetracycline (aTc) relieves transcriptional repression?",
+  "choices": [
+    "The lac/lacUV5 system (LacI repressing the lac promoter, induced by IPTG)",
+    "The tet system (TetR repressing PLtetO-1, induced by anhydrotetracycline)",
+    "The ara (arabinose) system (AraC regulating pBAD)",
+    "CRISPRi (dCas9 paired with a targeting sgRNA)"
+  ],
+  "answer": 1,
+  "explanation": "The tet system -- in which TetR represses the PLtetO-1 promoter until the non-antibiotic inducer anhydrotetracycline (aTc) relieves repression -- is specifically noted as the system used in the classic genetic toggle switch. The lac system (choice 0) and the arabinose system (choice 2) are both real inducible bacterial promoter systems, but are associated with IPTG induction and a bimodal AraC-dependent response, respectively, not this toggle switch citation. CRISPRi (choice 3) is a DNA-targeting repression technology that relies on dCas9/sgRNA rather than a small-molecule-responsive transcription factor.",
+  "tags": [
+    "tet-system",
+    "toggle-switch",
+    "inducible-promoters"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "0aae7b9f-3bed-4c0b-8c22-55cd681c1cd1"
+}

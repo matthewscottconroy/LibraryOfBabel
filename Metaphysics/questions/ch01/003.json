@@ -1,0 +1,22 @@
+{
+  "question_id": "a4d615c3-beff-4c4a-a89c-550738fa0efc",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "On D. C. Williams's trope theory, how is an ordinary 'universal' such as redness accounted for?",
+  "choices": [
+    "As an immanent universal wholly and identically present in each red thing.",
+    "As a Platonic form in which the red things participate from a separate realm.",
+    "As the resemblance class of exactly resembling redness-tropes, each trope being a particular property-instance.",
+    "As the extension of the predicate 'red', fixed by linguistic convention."
+  ],
+  "answer": 2,
+  "explanation": "For Williams a concrete object is a bundle of compresent tropes, and 'redness' is nothing but the class of exactly resembling redness-tropes, which are particulars, not a shared entity. The tempting distractor (option 0) is Aristotelian realism, which trope theory rejects: no numerically identical universal is shared; each redness is its own distinct particular.",
+  "tags": [
+    "trope-theory",
+    "williams",
+    "universals"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

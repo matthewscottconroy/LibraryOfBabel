@@ -1,0 +1,18 @@
+{
+  "chapter": 11,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The ___ matrix (denoted S), with metabolites as rows and reactions as columns, encodes the stoichiometric coefficient of every metabolite in every reaction and is the central data structure of constraint-based metabolic modeling.",
+  "choices": [
+    "stoichiometric"
+  ],
+  "answer": "stoichiometric",
+  "explanation": "The stoichiometric matrix S has one row per metabolite and one column per reaction, with entries S_ij giving the stoichiometric coefficient (positive if produced, negative if consumed, zero if uninvolved) of metabolite i in reaction j. It underlies the steady-state constraint S·v = 0 that defines the feasible flux space in FBA and related constraint-based methods.",
+  "tags": [
+    "stoichiometric-matrix",
+    "constraint-based-modeling"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "691afd8c-742a-47c9-9c4a-95d39f8ef3b6"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Singular value decomposition (SVD) is described as the mathematical foundation underlying principal component analysis (PCA) and dimensionality reduction techniques.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "SVD is explicitly listed as the foundation of PCA and dimensionality reduction: PCA can be computed by applying SVD to a mean-centered data matrix, with the resulting singular vectors giving the principal components. This is a direct, correct linear-algebra fact rather than a common misconception.",
+  "tags": [
+    "linear-algebra",
+    "svd",
+    "pca",
+    "dimensionality-reduction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "4abaae6e-b0c8-41d0-baaf-d62d98b41735"
+}

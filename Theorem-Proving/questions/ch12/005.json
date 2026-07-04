@@ -1,0 +1,22 @@
+{
+  "question_id": "9a9b7cce-0440-4be2-9335-1b539821e7f0",
+  "chapter": 12,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Using Dijkstra's weakest-precondition calculus, what is wp(x := x + 1, x > 5)?",
+  "choices": [
+    "x > 6",
+    "x > 4",
+    "x > 5",
+    "x < 4"
+  ],
+  "answer": 1,
+  "explanation": "wp(x := E, Q) = Q[E/x], so substitute x+1 for x in (x > 5): (x+1) > 5, i.e. x > 4. To guarantee x > 5 after incrementing, you need x > 4 beforehand. Choice 2 forgets to substitute; choices 0 and 3 shift in the wrong direction.",
+  "tags": [
+    "weakest-precondition",
+    "predicate-transformer",
+    "assignment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

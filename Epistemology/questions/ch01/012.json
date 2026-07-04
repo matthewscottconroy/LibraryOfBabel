@@ -1,0 +1,20 @@
+{
+  "question_id": "f4349a0d-a5db-4840-a60a-d56dc72e5f63",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Gilbert Ryle distinguished propositional knowledge (knowing-that) from ability knowledge, which he called knowing-___.",
+  "choices": [
+    "how"
+  ],
+  "answer": "how",
+  "explanation": "Ryle's distinction separates knowing that a proposition is true from knowing how to carry out an activity, such as how to ride a bicycle. Intellectualists like Stanley and Williamson argue that knowing-how is ultimately a species of knowing-that (propositional knowledge held under a practical mode of presentation), whereas anti-intellectualists hold that it is an irreducible practical ability.",
+  "tags": [
+    "knowing-how",
+    "ryle",
+    "intellectualism",
+    "stanley-williamson"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

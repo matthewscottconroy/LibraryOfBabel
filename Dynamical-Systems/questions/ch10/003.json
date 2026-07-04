@@ -1,0 +1,22 @@
+{
+  "question_id": "66fb7bad-18ce-4ddb-8d55-982d627ef4a9",
+  "chapter": 10,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Gaboriau introduced which quantities as orbit-equivalence invariants?",
+  "choices": [
+    "l2-Betti numbers",
+    "eigenvalues",
+    "Lyapunov exponents",
+    "the genus"
+  ],
+  "answer": 0,
+  "explanation": "Gaboriau's l2-Betti numbers are OE-invariants that, for example, distinguish the free groups F_r and F_s for different r. Eigenvalues or Lyapunov exponents are not OE-invariants.",
+  "tags": [
+    "gaboriau",
+    "l2-betti-numbers",
+    "orbit-equivalence"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "cef37477-6b1d-4e24-bc6e-5619950b05c0",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Tyler Burge's arthritis thought experiment extends externalism to social factors: the content of a subject's thoughts can depend on the linguistic practices of their community, even holding the subject's internal states fixed.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Burge's 'Individualism and the Mental' argues that a patient who thinks 'I have arthritis in my thigh' has a different thought content in a community whose word 'arthritis' is used differently, even with internal states held fixed — so content depends partly on social-linguistic practice. This is exactly social externalism, so the statement is true.",
+  "tags": [
+    "burge",
+    "social-externalism",
+    "content",
+    "community"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

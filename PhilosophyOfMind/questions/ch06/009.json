@@ -1,0 +1,20 @@
+{
+  "question_id": "23888f55-235d-4b02-ae06-4af87685682b",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Naive direct realism easily accommodates illusions and perceptual variability, which is why it is the mainstream contemporary position.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: naive direct realism notoriously struggles with illusions and perceptual variability (the stick that looks bent, colours under different lighting), which is why theorists move to critical/sophisticated direct realism or to disjunctivism. Its inability to handle non-veridical cases is its central weakness, not a strength.",
+  "tags": [
+    "naive-realism",
+    "direct-realism",
+    "argument-from-illusion"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

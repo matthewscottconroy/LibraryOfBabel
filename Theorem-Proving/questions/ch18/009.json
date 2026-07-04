@@ -1,0 +1,19 @@
+{
+  "question_id": "0bb7f3de-9aed-4897-8e00-b39a5d40166b",
+  "chapter": 18,
+  "phase": 5,
+  "kind": "blank",
+  "text": "A subgroup N ≤ G satisfying gng⁻¹ ∈ N for all g ∈ G and n ∈ N is called a ___ subgroup; these are exactly the subgroups by which one can form a quotient group.",
+  "choices": [
+    "normal"
+  ],
+  "answer": "normal",
+  "explanation": "Normality (gng⁻¹ ∈ N) is precisely the condition that makes the quotient group G/N well defined under (gN)(hN) = (gh)N, and kernels of homomorphisms are always normal.",
+  "tags": [
+    "normal-subgroup",
+    "quotient-group",
+    "kernel"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

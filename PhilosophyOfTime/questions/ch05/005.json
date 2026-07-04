@@ -1,0 +1,13 @@
+{
+  "question_id": "6dc6ba9a-dfe5-4393-b26f-679b5293b5b0",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The book endorses Hawking's analogy that asking what happened 'before' the Big Bang is like asking what lies north of the North Pole — a question with no well-formed meaning within the framework of classical spacetime.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "This is true. The book describes the Big Bang as the earliest boundary of classical spacetime rather than a moment with a genuine 'before,' invoking Hawking's North Pole analogy to show the 'before' question is ill-formed within classical general relativity. Whether some quantum-gravity regime lies beyond that boundary remains an open question.",
+  "tags": ["big-bang", "temporal-boundaries", "cosmology", "hawking"],
+  "difficulty": "beginner",
+  "generated": true
+}

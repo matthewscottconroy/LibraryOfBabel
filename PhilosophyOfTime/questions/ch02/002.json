@@ -1,0 +1,18 @@
+{
+  "question_id": "8a87d7c6-e20f-4fcf-8f71-a16c4599c646",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Chrysippus argued that the present, strictly analyzed, is a durationless limit rather than a positive interval. Which premise most directly forces this conclusion?",
+  "choices": [
+    "Time is composed of indivisible temporal atoms, and the present is the smallest such atom",
+    "Only the past and the future are real, while the present is a useful fiction",
+    "Any positive interval divides into a part already past and a part still future, so no positive interval is wholly present",
+    "The soul cannot consciously register any interval shorter than the specious present"
+  ],
+  "answer": 2,
+  "explanation": "Because the Stoics treated time as a continuum with no minimal unit, any candidate duration for 'the present' splits into a past half and a future half, leaving only a durationless boundary — a point with position but no magnitude. Temporal atomism (choice 0) is exactly what the Stoics denied, and Chrysippus in fact held that only the present exists in the strict sense (choice 1 inverts his view). The specious present (choice 3) is a later psychological notion, not the ground of his argument.",
+  "tags": ["chrysippus", "present", "temporal-continuity", "durationless-instant"],
+  "difficulty": "intermediate",
+  "generated": true
+}

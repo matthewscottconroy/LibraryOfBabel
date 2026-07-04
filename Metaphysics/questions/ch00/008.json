@@ -1,0 +1,19 @@
+{
+  "question_id": "f5d675fd-1150-44f1-b55e-72028ffb4840",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Grounding, as used by contemporary neo-Aristotelians, is standardly taken to be irreflexive, asymmetric, and transitive, and to be identical to the relation of causal dependence.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. The first part is correct (grounding is a strict partial order), but grounding is explicitly distinguished from causation, as well as from supervenience and logical entailment. It is a non-causal, synchronic 'in virtue of' relation, so the identification with causal dependence makes the statement false.",
+  "tags": [
+    "grounding",
+    "causation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

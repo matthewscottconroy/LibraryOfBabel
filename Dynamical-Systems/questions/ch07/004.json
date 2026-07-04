@@ -1,0 +1,22 @@
+{
+  "question_id": "c8305128-084d-42b1-b84f-8e864e8c7215",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The information production rate of a chaotic map equals its:",
+  "choices": [
+    "topological dimension",
+    "period",
+    "fractal dimension",
+    "sum of positive Lyapunov exponents"
+  ],
+  "answer": 3,
+  "explanation": "By Pesin's formula the entropy (information production) equals the total expansion rate, the sum of positive Lyapunov exponents. Dimension or period do not measure information generation.",
+  "tags": [
+    "information-production",
+    "lyapunov-exponents",
+    "pesin"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

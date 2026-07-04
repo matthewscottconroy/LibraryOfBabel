@@ -1,0 +1,22 @@
+{
+  "question_id": "8454f9f1-882d-4066-a36e-d4cdab9bb1d7",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why does the CPG lab choose a supra-critical (rho = 1.25) reservoir instead of a sub-critical (rho < 1) one, even though the latter guarantees the echo state property?",
+  "choices": [
+    "A rho < 1 reservoir would violate ridge regression's assumptions and fail to converge",
+    "Only rho > 1 keeps the reservoir linear, which FORCE requires",
+    "A sub-critical reservoir has fading memory and relaxes to rest with no input, so it cannot self-sustain a rhythm; the rho > 1 reservoir supplies intrinsic, self-sustaining dynamics that FORCE sculpts into the target gait",
+    "rho > 1 is needed so the eight readout channels stay mutually orthogonal"
+  ],
+  "answer": 2,
+  "explanation": "For autonomous generation there is no external input, so a fading-memory (rho < 1) reservoir would simply decay to rest and produce no rhythm. A supra-critical reservoir has its own persistent (chaotic) activity; FORCE stabilizes and shapes that activity into a target limit cycle, which is the lab's stated key insight. Option 1 is false (rho > 1 makes the dynamics more nonlinear/chaotic, not linear); options 0 and 3 are fabricated rationales.",
+  "tags": [
+    "spectral-radius",
+    "self-sustaining",
+    "FORCE"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

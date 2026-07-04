@@ -1,0 +1,19 @@
+{
+  "question_id": "a5c19e73-2b6d-4e08-9f14-7d3a8c2b6e51",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The conceptual framework, associated especially with E. O. Wilson, that treats a eusocial colony as a single organism-level entity in which individual insects function like cells or organs is called the ___.",
+  "choices": [
+    "superorganism"
+  ],
+  "answer": "superorganism",
+  "explanation": "The answer is 'superorganism'. It captures the high functional integration of eusocial colonies, but it is contested because colony members have distinct genomes (unlike the genetically identical cells of a true organism) and engage in ongoing within-colony conflict.",
+  "tags": [
+    "superorganism",
+    "eusociality",
+    "key-concepts"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

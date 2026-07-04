@@ -1,0 +1,13 @@
+{
+  "question_id": "daa2ae4e-8542-40ac-8c83-3667c83c738c",
+  "chapter": 24,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the worked 64 x 64 accelerator, the choice of phase-shifter technology is said to outweigh every optical innovation combined. What is the contrast being drawn?",
+  "choices": ["Non-volatile weights are always slower but more efficient", "Thermo-optic tuning draws no static power once the phase is set", "The laser dominates the budget, so the phase-shifter choice is negligible", "Thermo-optic holding (about 30 W static, ~732 fJ/MAC, 2.3 TOPS/W) can drop the system below an H100, while non-volatile weights (~1 fJ/MAC hold, ~156 fJ/MAC total, ~13 TOPS/W) put it several-fold above"],
+  "answer": 3,
+  "explanation": "Static thermo-optic hold consumes about 30 W (732 fJ/MAC, 2.3 TOPS/W) and can single-handedly sink the system below a GPU, whereas non-volatile (PCM/MEMS) weights hold at roughly 1 fJ/MAC, giving about 156 fJ/MAC total and ~13 TOPS/W. Choice 0 misses the point (the issue is static hold power, not speed); choice 1 is false — thermo-optic shifters draw power continuously to hold a phase; choice 2 contradicts the stated dominance of the weight-hold term.",
+  "tags": ["thermo-optic", "non-volatile-weights", "static-power"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "263f6836-9098-4a0e-9785-fb9563e2dc6c",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "On the Machamer-Darden-Craver (MDC) account, a mechanism consists of:",
+  "choices": [
+    "Laws from which the phenomenon is deductively derived (the covering-law model)",
+    "Bridge laws connecting the vocabularies of two theories",
+    "A single localized brain region responsible for the whole function",
+    "Entities and activities, organized spatially and temporally, that produce the phenomenon"
+  ],
+  "answer": 3,
+  "explanation": "On the MDC account a mechanism is a set of entities and activities, organized spatially and temporally, that produce the phenomenon to be explained. Deriving the phenomenon from laws is the rival covering-law model; bridge laws belong to Nagelian reduction; and a single localized region is neither necessary nor what 'mechanism' means.",
+  "tags": [
+    "mechanistic-explanation",
+    "machamer-darden-craver"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

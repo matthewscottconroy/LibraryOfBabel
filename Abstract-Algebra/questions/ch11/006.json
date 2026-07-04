@@ -1,0 +1,22 @@
+{
+  "question_id": "79e4b427-0ae0-45ac-9404-2e13e31a180e",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Applying the structure theorem for finitely generated modules over a PID with R = F[x], acting on V through a linear operator T, yields:",
+  "choices": [
+    "the rational canonical form of T (and Jordan form when F is algebraically closed)",
+    "the Gram–Schmidt orthogonalization of V",
+    "the singular value decomposition of T",
+    "the characteristic polynomial as a product of quadratics"
+  ],
+  "answer": 0,
+  "explanation": "V ≅ ⊕ F[x]/(fᵢ) with f₁ | f₂ | ⋯ gives the invariant factors, i.e. companion-matrix blocks (RCF); the primary decomposition over an algebraically closed field gives Jordan blocks. With R = ℤ the same theorem classifies finitely generated abelian groups.",
+  "tags": [
+    "modules",
+    "structure-theorem",
+    "canonical-forms"
+  ],
+  "difficulty": "intermediate",
+  "generated": false
+}

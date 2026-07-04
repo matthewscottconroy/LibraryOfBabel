@@ -1,0 +1,23 @@
+{
+  "question_id": "a237ba28-ade7-48c0-9740-82c012cb0ea1",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Peirce's pragmatist theory of truth identifies the truth of a proposition with:",
+  "choices": [
+    "whatever an individual finds expedient, satisfying, or beneficial to believe",
+    "the ideal outcome on which a community of inquirers would converge at the end of sustained rational inquiry",
+    "an isomorphism between the structure of the proposition and the structure of an atomic fact",
+    "its membership in the Absolute, the single all-embracing system of experience"
+  ],
+  "answer": 1,
+  "explanation": "For Peirce, truth is the ideal limit of inquiry — the belief that would survive indefinitely prolonged, rational investigation — an objective notion, since inquiry is answerable to how things are. Option 0 is closer to James's 'what works' pragmatism (and its individualist caricature); option 2 is Russell's structural correspondence; option 3 is Bradley's idealist coherence theory.",
+  "tags": [
+    "pragmatism",
+    "peirce",
+    "truth",
+    "inquiry"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

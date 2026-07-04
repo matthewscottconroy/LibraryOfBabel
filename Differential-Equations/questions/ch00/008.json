@@ -1,0 +1,18 @@
+{
+  "question_id": "7ffec50b-ed54-498d-91fa-9420feef8b99",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The ___ Theorem states that if f is continuous on [a,b] and differentiable on (a,b), then there is a point c in (a,b) with f'(c) = (f(b)-f(a))/(b-a).",
+  "choices": [
+    "Mean Value"
+  ],
+  "answer": "Mean Value",
+  "explanation": "This is the Mean Value Theorem: geometrically, some tangent line is parallel to the secant joining the endpoints. It follows from Rolle's theorem and underlies error estimates and monotonicity tests.",
+  "tags": [
+    "mean-value-theorem",
+    "differentiation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "54b89358-89ab-4d29-89ca-0d6b0f8157e1",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which statement about a finite group G is FALSE in general?",
+  "choices": [
+    "The order of every subgroup divides |G|",
+    "The order of every element divides |G|",
+    "For every divisor d of |G|, G has a subgroup of order d",
+    "a^|G| = e for every a ∈ G"
+  ],
+  "answer": 2,
+  "explanation": "The converse of Lagrange's theorem fails: A₄ has order 12 but no subgroup of order 6. Partial converses do hold — Cauchy's theorem for prime divisors, and Sylow's theorem for maximal prime powers.",
+  "tags": [
+    "groups",
+    "lagrange",
+    "sylow"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "0217aa7e-07c3-44eb-af52-8a81f795ccb4",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The quantity ‖v‖ = √⟨v, v⟩ is called the ___ induced by the inner product.",
+  "choices": [
+    "norm",
+    "length"
+  ],
+  "answer": "norm",
+  "explanation": "Positive definiteness guarantees the square root is defined and vanishes only at v = 0. The norm then satisfies the triangle inequality via Cauchy–Schwarz, making V a metric space.",
+  "tags": [
+    "inner-products",
+    "norm"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

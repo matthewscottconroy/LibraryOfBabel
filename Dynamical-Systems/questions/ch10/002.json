@@ -1,0 +1,22 @@
+{
+  "question_id": "8b309cd7-0dcf-41e1-bb15-bc107c1601a8",
+  "chapter": 10,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Dye's theorem states that all free ergodic actions of countably infinite amenable groups are:",
+  "choices": [
+    "mutually singular",
+    "all non-ergodic",
+    "orbit equivalent to one another",
+    "never orbit equivalent"
+  ],
+  "answer": 2,
+  "explanation": "For amenable groups there is a single orbit-equivalence class (the hyperfinite relation), so orbits carry no information about the group. Non-amenable groups can have many classes.",
+  "tags": [
+    "dye-theorem",
+    "amenable",
+    "orbit-equivalence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "7c273ff0-fae3-4236-acd7-eb060d679b34",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Phase-change materials such as GST and GSST enable non-volatile photonic weight storage because, once switched between amorphous and crystalline states, they retain that state indefinitely at ___ power.",
+  "choices": [
+    "zero"
+  ],
+  "answer": "zero",
+  "explanation": "PCM cells hold their amorphous or crystalline phase, and thus their optical state, with no standby power, giving non-volatile analog weight storage of about 5 bits. This is the basis of the Feldmann et al. 2021 photonic tensor-core demonstration.",
+  "tags": [
+    "phase-change-materials",
+    "non-volatile",
+    "photonic-computing"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

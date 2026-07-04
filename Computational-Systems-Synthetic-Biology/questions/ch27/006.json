@@ -1,0 +1,22 @@
+{
+  "chapter": 27,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Barab\u00e1si & Albert's 1999 Science paper 'Emergence of Scaling in Random Networks' is significant because it...",
+  "choices": [
+    "Introduced the Watts-Strogatz model interpolating between regular lattices and random graphs",
+    "Defined modularity Q as a metric for evaluating community detection",
+    "Introduced the Louvain algorithm for large-scale community detection",
+    "Proposed preferential attachment as a mechanism generating scale-free networks, helping explain why hub proteins are common and evolutionarily persistent"
+  ],
+  "answer": 3,
+  "explanation": "Barab\u00e1si & Albert proposed the preferential-attachment growth mechanism ('rich get richer') that generates scale-free, power-law degree distributions, motivating why a small number of highly connected hub proteins tend to arise and persist in evolving biological networks. The Watts-Strogatz small-world model is a separate contribution not from this paper, and modularity Q and the Louvain algorithm are community-detection concepts introduced by different, later work.",
+  "tags": [
+    "barabasi-albert",
+    "scale-free-networks",
+    "preferential-attachment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "887f6c35-2d02-4937-80e9-da05bb2e9bc3"
+}

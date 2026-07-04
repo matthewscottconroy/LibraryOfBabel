@@ -1,0 +1,18 @@
+{
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The pH at which exactly 50% of a molecule's ionizable groups are protonated is called its ___.",
+  "choices": [
+    "pKa"
+  ],
+  "answer": "pKa",
+  "explanation": "By definition, the pKa of an ionizable group is the pH at which the protonated and deprotonated forms are present in equal (50/50) concentration, as captured in the Henderson-Hasselbalch equation. Knowing amino acid side-chain pKa values is essential for predicting protein charge state and behavior at physiological pH.",
+  "tags": [
+    "acid-base-chemistry",
+    "pka"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "f68a81d4-eea1-41ad-a5c3-05a1c7efe24f"
+}

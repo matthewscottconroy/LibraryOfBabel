@@ -1,0 +1,13 @@
+{
+  "question_id": "96088891-c363-4f26-9e1a-aa8342e7bf38",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "tf",
+  "text": "According to the book, the time asymmetry of the Second Law of Thermodynamics derives from a time-asymmetry built into the fundamental laws of mechanics themselves.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False. The fundamental laws of mechanics are, to excellent approximation, time-symmetric, as Loschmidt's reversibility objection shows; the thermodynamic asymmetry instead traces to the special low-entropy initial condition of the universe (the Past Hypothesis). Boltzmann's H-theorem only appeared to derive the asymmetry from mechanics because it quietly assumed time-asymmetric initial conditions through the molecular-chaos assumption.",
+  "tags": ["second-law", "loschmidt", "time-symmetry", "past-hypothesis", "thermodynamics"],
+  "difficulty": "advanced",
+  "generated": true
+}

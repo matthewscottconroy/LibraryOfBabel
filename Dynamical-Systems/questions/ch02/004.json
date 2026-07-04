@@ -1,0 +1,22 @@
+{
+  "question_id": "c882ee00-013f-4595-95ca-976130e08123",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The invariant set of the Smale horseshoe is topologically conjugate to:",
+  "choices": [
+    "a single periodic orbit",
+    "an irrational rotation",
+    "the full two-sided shift on two symbols",
+    "a gradient flow"
+  ],
+  "answer": 2,
+  "explanation": "Stretch-and-fold produces a Cantor set on which the dynamics realizes every bi-infinite binary sequence, i.e. the full 2-shift. Rotations and gradient flows are non-chaotic.",
+  "tags": [
+    "smale-horseshoe",
+    "symbolic-dynamics",
+    "hyperbolic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

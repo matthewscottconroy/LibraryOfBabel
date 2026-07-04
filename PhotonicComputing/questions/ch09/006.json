@@ -1,0 +1,13 @@
+{
+  "question_id": "d9be3ff4-0710-4f99-86a1-1bbd8a3cc548",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The core motivation for photonic network-on-chip is bandwidth density. A 500x220 nm silicon waveguide carrying 64 WDM channels x 100 Gbps reaches ~2 Tbps/um, versus ~20 Gbps/um for a differential electrical pair. This is roughly a:",
+  "choices": ["2x advantage", "10x advantage", "100x advantage", "no real advantage"],
+  "answer": 2,
+  "explanation": "About 2 Tbps/um versus 20 Gbps/um is a ~100x bandwidth-density advantage, and it comes from WDM multiplexing many wavelengths in one waveguide. 2x and 10x understate it, and the advantage is real and robust, unlike the 'no advantage' option.",
+  "tags": ["photonic-noc", "bandwidth-density", "wdm"],
+  "difficulty": "advanced",
+  "generated": true
+}

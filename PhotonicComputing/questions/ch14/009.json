@@ -1,0 +1,20 @@
+{
+  "question_id": "6bc7897a-fdf3-4d53-a885-36ccb9ca1da6",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Because a semiconductor laser biased near threshold has a fast photon field and a slow carrier population, its two-timescale excitable dynamics map naturally onto the ___-Nagumo model of an excitable neuron.",
+  "choices": [
+    "FitzHugh"
+  ],
+  "answer": "FitzHugh",
+  "explanation": "The FitzHugh-Nagumo system (a fast voltage-like activator plus a slow recovery inhibitor) captures the geometry of excitability and matches the fast-photon/slow-carrier dynamics of a near-threshold laser, which is why excitable lasers behave like FitzHugh-Nagumo/LIF neurons.",
+  "tags": [
+    "neuromorphic",
+    "fitzhugh-nagumo",
+    "excitability",
+    "laser-neuron"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "e9fd62ff-9780-4fec-9e77-19e7a0f16bd6",
+  "chapter": 16,
+  "phase": 5,
+  "kind": "blank",
+  "text": "A spectral sequence is said to ___ at $E_2$ when all differentials $d_r$ vanish for $r\\geq 2$, so that $E_2=E_\\infty$.",
+  "choices": ["degenerate", "collapse"],
+  "answer": "degenerate",
+  "explanation": "When every $d_r=0$ for $r\\geq 2$ the pages never change past $E_2$, giving $E_2=E_\\infty$; the chapter calls this degenerating (or collapsing) at $E_2$. This is the most convenient case, since the input page then already delivers the associated graded of the answer.",
+  "tags": ["spectral-sequences", "degeneration", "collapse"],
+  "difficulty": "intermediate",
+  "generated": true
+}

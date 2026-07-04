@@ -1,0 +1,21 @@
+{
+  "question_id": "aa1d2953-a9df-4c73-bb6e-7b3a4a2a7c04",
+  "chapter": 13,
+  "phase": 3,
+  "kind": "tf",
+  "text": "LTL and CTL are comparable in expressive power, with CTL strictly subsuming LTL.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: LTL and CTL are incomparable. F G p is expressible in LTL but not CTL, while AG(EF p) is expressible in CTL but not LTL. Neither subsumes the other; it is CTL* that strictly subsumes both.",
+  "tags": [
+    "ltl",
+    "ctl",
+    "expressiveness",
+    "ctl-star"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

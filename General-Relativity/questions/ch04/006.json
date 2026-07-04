@@ -1,0 +1,22 @@
+{
+  "question_id": "f0864fbd-8207-421c-8316-0c0b4a9fc99d",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "General relativity adds the term −GMℓ²/(c²r³) to the Newtonian effective potential, giving Δφ = 6πGM/(c²a(1−e²)) per orbit. For Mercury this secular advance of the perihelion is:",
+  "choices": [
+    "531 arcseconds per century, already accounted for by the other planets",
+    "43 arcseconds per century, matching the residual Le Verrier could not explain",
+    "574 arcseconds per century, the total observed precession",
+    "zero — the correction only shifts the orbital period"
+  ],
+  "answer": 1,
+  "explanation": "The book's formula Δφ = 6πGM/(c²a(1−e²)) gives about 43 arcsec/century for Mercury — exactly Le Verrier's unexplained residual. The ~531 arcsec/century is the Newtonian planetary contribution and ~574 arcsec/century is the total observed precession; GR supplies only the leftover 43. Because the extra term breaks orbit closure, it does not merely rescale the period.",
+  "tags": [
+    "orbits",
+    "general-relativity",
+    "perihelion-precession"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

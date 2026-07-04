@@ -1,0 +1,21 @@
+{
+  "question_id": "ac0dcca4-25eb-41d3-a826-386e4a5753ff",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Ockham argues that divine foreknowledge does not threaten human freedom because a statement like 'God knew long ago that you would act thus' is not a hard past fact but a ___ past fact — one whose truth depends on what you will freely do.",
+  "choices": [
+    "soft"
+  ],
+  "answer": "soft",
+  "explanation": "The expected answer is soft. Ockham distinguishes hard past facts (entirely about the past, e.g. 'Caesar crossed the Rubicon') from soft past facts, whose truth depends on future events. Because God's foreknowledge is a soft fact, it is not 'fixed' in the way that would rule out doing otherwise, so foreknowledge and freedom remain compatible.",
+  "tags": [
+    "ockham",
+    "foreknowledge",
+    "soft-facts",
+    "future-contingents",
+    "freedom"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "4c785cac-1f36-4c1b-aeca-4cd28b2675cf",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The ~0.18 dB/km attenuation minimum of silica fiber near 1550 nm sits at the crossover of two wavelength-dependent loss mechanisms. Which two?",
+  "choices": ["OH absorption (falling) and macrobending loss (rising)", "Rayleigh scattering (falling as 1/lambda^4) and infrared absorption (rising above ~1700 nm)", "Two-photon absorption (falling) and Rayleigh scattering (rising)", "Free-carrier absorption and hydroxyl (OH) absorption"],
+  "answer": 1,
+  "explanation": "Rayleigh scattering falls steeply as 1/lambda^4 with increasing wavelength while infrared (multiphonon) absorption rises steeply above ~1700 nm; their crossover produces the loss minimum near 1550 nm. OH absorption is a removable peak at 1383 nm, not a floor; two-photon and free-carrier absorption are nonlinear or semiconductor effects irrelevant to passive silica attenuation.",
+  "tags": ["fiber-attenuation", "rayleigh-scattering", "optical-fiber"],
+  "difficulty": "intermediate",
+  "generated": true
+}

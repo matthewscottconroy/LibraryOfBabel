@@ -1,0 +1,19 @@
+{
+  "question_id": "59bb8b4b-2b2c-454a-ab1f-ce624a7b222f",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In a ___ bifurcation, with normal form x' = r + x^2, two equilibria are created or destroyed as they collide when the parameter crosses zero.",
+  "choices": [
+    "saddle-node"
+  ],
+  "answer": "saddle-node",
+  "explanation": "The saddle-node (fold) bifurcation x' = r + x^2 has two equilibria at plus or minus sqrt(-r) for r < 0 that merge at r = 0 and vanish for r > 0, the basic mechanism by which fixed points appear or disappear. Unlike the transcritical and pitchfork cases, no equilibrium persists through the bifurcation.",
+  "tags": [
+    "saddle-node",
+    "bifurcation",
+    "normal-form"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,9 +1,0 @@
-{
-  "chapter": 0, "phase": 0, "kind": "tf",
-  "text": "Bacterial adaptation to a constant chemical stimulus requires the methylation of chemoreceptors by CheR.",
-  "choices": ["True", "False"],
-  "answer": 0,
-  "explanation": "True. During adaptation, the methyltransferase CheR adds methyl groups to chemoreceptors that are persistently occupied by ligand. This restores the receptor to its pre-stimulation signalling level, allowing the bacterium to sense further changes in concentration — the molecular basis of adaptation and short-term memory.",
-  "tags": ["chemotaxis", "methylation", "adaptation"],
-  "difficulty": "beginner"
-}

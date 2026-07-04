@@ -1,0 +1,21 @@
+{
+  "chapter": 18,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In metabolic engineering, the 'TRY' metrics used to evaluate a production strain stand for which three quantities?",
+  "choices": [
+    "Toxicity, Robustness, Yield",
+    "Titer, Rate, Yield",
+    "Titer, Redox balance, Yeast-compatibility",
+    "Turnover, Rate, Y-factor"
+  ],
+  "answer": 1,
+  "explanation": "TRY stands for Titer (product concentration in the culture), Rate (volumetric productivity), and Yield (product per unit substrate) -- the three core metrics for the commercial viability of an engineered strain, which often trade off against one another. The other options substitute plausible-sounding but incorrect terms that are not what TRY denotes.",
+  "tags": [
+    "try-metrics",
+    "titer-rate-yield"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "32d0de4e-df8a-4710-924d-fa76ad5b5ca1"
+}

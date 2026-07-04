@@ -1,0 +1,13 @@
+{
+  "question_id": "51221cd8-299e-4a0b-8593-31dd7f315e77",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In responding to Leibniz's Identity of Indiscernibles argument, Clarke (on Newton's behalf) implicitly appeals to haecceitism — the view that two worlds differing only in their absolute temporal location are numerically distinct even though qualitatively identical.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "This is true. Clarke resists the Identity of Indiscernibles by holding that there are primitive facts about which particular moments events occupy — a 'thisness' not reducible to qualitative properties — so two qualitatively identical worlds can still differ in absolute temporal location. Leibniz, by contrast, rejects haecceitism and insists that all facts about a thing reduce to its intrinsic qualitative properties.",
+  "tags": ["leibniz-clarke", "identity-of-indiscernibles", "haecceitism", "absolute-time"],
+  "difficulty": "advanced",
+  "generated": true
+}

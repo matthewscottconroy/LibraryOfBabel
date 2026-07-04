@@ -1,0 +1,23 @@
+{
+  "question_id": "46173447-fcf2-429f-aa48-6232c0c47e89",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Dedekind's recursion theorem guarantees that the equations f(0) = c and f(n+1) = g(n, f(n)) determine:",
+  "choices": [
+    "infinitely many different functions f",
+    "a function only if g is itself primitive recursive",
+    "a relation that need not be single-valued",
+    "a unique total function f : ℕ → A"
+  ],
+  "answer": 3,
+  "explanation": "The recursion theorem shows these equations define exactly one total function f : ℕ → A, dissolving the apparent circularity of 'defining f in terms of f' by building f as the union of compatible finite approximations. The solution is unique (not many), total, and single-valued, and g need not be primitive recursive.",
+  "tags": [
+    "recursion-theorem",
+    "dedekind",
+    "primitive-recursion",
+    "uniqueness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

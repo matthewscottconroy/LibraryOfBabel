@@ -1,0 +1,19 @@
+{
+  "question_id": "3d5f7a9c-1e3b-4d5f-8a9c-1b3d5f7a9c29",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The sensory monitoring of the body's own internal physiological state — heart rate, respiration, gut state, metabolic and inflammatory status — processed especially in the anterior insula and central to emotional feeling, is called ___.",
+  "choices": [
+    "interoception"
+  ],
+  "answer": "interoception",
+  "explanation": "Interoception tracks the internal milieu (contrast with proprioception, which senses body position, and exteroception, which senses the external world). It is treated as a genuine form of information processing about the body, not merely a supply of raw signals for brain-based cognition, and underpins emotional experience and the sense of bodily self.",
+  "tags": [
+    "interoception",
+    "somatic-cognition",
+    "insula"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

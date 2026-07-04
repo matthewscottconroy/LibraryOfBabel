@@ -1,0 +1,19 @@
+{
+  "question_id": "bd2dd1e4-f237-4a30-b70a-255aa23365c8",
+  "chapter": 23,
+  "phase": 4,
+  "kind": "blank",
+  "text": "FDTD integrates Maxwell's two curl equations on Kane ___'s staggered grid, with E components on cell edges and H components on cell faces, offset by half a step in time.",
+  "choices": [
+    "Yee"
+  ],
+  "answer": "Yee",
+  "explanation": "The Yee cell (Kane Yee, 1966) staggers E and H in both space and time to give an explicit, second-order-accurate leapfrog update that parallelizes almost perfectly. This staggering is the foundation of the entire FDTD algorithm.",
+  "tags": [
+    "yee-cell",
+    "fdtd",
+    "grid"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

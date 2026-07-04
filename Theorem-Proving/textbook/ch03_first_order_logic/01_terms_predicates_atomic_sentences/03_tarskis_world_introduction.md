@@ -36,4 +36,4 @@ implements a simple blocks-world model checker.
 3. Building a counterexample world refutes a proposed logical law
 
 ## Exercises
-See `problems/ch03_predicate_logic/02_tarskis_world_problems.md`
+See `problems/ch03_first_order_logic/02_tarskis_world_problems.md`

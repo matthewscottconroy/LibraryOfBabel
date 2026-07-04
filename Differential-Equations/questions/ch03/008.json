@@ -1,0 +1,19 @@
+{
+  "question_id": "a8f978b7-32fe-42fd-977c-a0a0e06a51c5",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Undamped forcing of a linear oscillator exactly at its natural frequency produces resonance, with the solution amplitude growing without bound in time.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "When the forcing frequency equals the natural frequency and there is no damping, the particular solution contains a t times sine/cosine term whose amplitude grows linearly in time; this is resonance. Any positive damping bounds the response and shifts the peak (practical resonance).",
+  "tags": [
+    "resonance",
+    "forced-vibrations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "d579ec46-8b23-4a22-b2e3-0de600aa2e40",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In this chapter's terminology, a *sound* argument is one that:",
+  "choices": [
+    "merely has a true conclusion",
+    "is persuasive to a rational audience",
+    "is valid and, in addition, has all true premises",
+    "has at least one true premise"
+  ],
+  "answer": 2,
+  "explanation": "Soundness = validity together with all premises true; a sound argument's conclusion is therefore guaranteed true. Having a true conclusion (option 1) or being persuasive (option 2) does not make an argument sound, and soundness requires ALL premises true, not just one (option 4).",
+  "tags": [
+    "soundness",
+    "validity",
+    "arguments"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

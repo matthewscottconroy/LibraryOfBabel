@@ -1,0 +1,20 @@
+{
+  "question_id": "66259c55-c100-472e-b828-e114b1a0ff93",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "blank",
+  "text": "In the disagreement literature, two agents count as epistemic ___ with respect to a question when they are equals in both the evidence bearing on it and their competence or reliability in assessing that evidence.",
+  "choices": [
+    "peers"
+  ],
+  "answer": "peers",
+  "explanation": "An epistemic peer, relative to some question, is one's equal in the relevant evidence and in epistemic competence or reliability. The peer-disagreement debate concerns the rational response specifically when a recognized peer disagrees, as opposed to an acknowledged expert (to whom one might defer) or a novice (whom one might discount). That idealization is what makes the disagreement evidentially puzzling.",
+  "tags": [
+    "peer-disagreement",
+    "epistemic-peer",
+    "evidence",
+    "competence"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

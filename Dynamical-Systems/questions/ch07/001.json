@@ -1,0 +1,22 @@
+{
+  "question_id": "eef5111c-50bd-4610-a2b5-fba38f8635ff",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In the symbolic-dynamics / information-theory dictionary, a sofic shift (a factor of an SFT) corresponds to a:",
+  "choices": [
+    "i.i.d. source",
+    "hidden Markov source",
+    "noiseless channel",
+    "Bernoulli shift"
+  ],
+  "answer": 1,
+  "explanation": "Sofic shifts are exactly the outputs of hidden Markov models: a Markov chain read through a state-labelling map. SFTs correspond to plain finite-order Markov sources.",
+  "tags": [
+    "sofic-shift",
+    "hidden-markov",
+    "symbolic-information"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

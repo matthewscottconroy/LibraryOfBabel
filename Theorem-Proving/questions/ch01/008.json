@@ -1,0 +1,21 @@
+{
+  "question_id": "b2f0d3ad-52bc-45a7-933c-662bba4a8075",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The Tseitin transformation converts any formula into a *logically equivalent* CNF formula whose size is linear in the original.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False in one crucial respect: Tseitin introduces fresh auxiliary variables, so the resulting CNF is only *satisfiability-equivalent* (equisatisfiable), NOT logically equivalent, to the original — though it is indeed linear in size. Claiming full logical equivalence is the error; the naive distributive CNF conversion is logically equivalent but can blow up exponentially.",
+  "tags": [
+    "tseitin",
+    "cnf",
+    "equisatisfiability",
+    "normal-forms"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

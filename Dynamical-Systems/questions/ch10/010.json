@@ -1,0 +1,20 @@
+{
+  "question_id": "e4508c7c-a9fb-4501-a2e0-d67af2356f7b",
+  "chapter": 10,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Bowen extended Ornstein's theorem: over a sofic group, Bernoulli shifts with base measures of different entropy are ___.",
+  "choices": [
+    "non-isomorphic",
+    "not isomorphic"
+  ],
+  "answer": "non-isomorphic",
+  "explanation": "Sofic entropy distinguishes such Bernoulli shifts, generalizing Ornstein's entropy classification into the non-amenable setting.",
+  "tags": [
+    "bowen",
+    "bernoulli-shift",
+    "sofic-entropy"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

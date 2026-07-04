@@ -1,0 +1,20 @@
+{
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "NumPy achieves significant speedups over pure Python loops primarily by vectorizing operations across arrays, and looping explicitly over array elements in Python is discouraged.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The chapter explicitly recommends avoiding Python loops over arrays and vectorizing operations instead, noting that vectorization with NumPy can yield 10-100x speedups compared to explicit Python-level looping over array elements.",
+  "tags": [
+    "numpy",
+    "vectorization",
+    "performance"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "89242179-0586-4d2c-b49d-76ff81bd898f"
+}

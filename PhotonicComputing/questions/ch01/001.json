@@ -1,0 +1,13 @@
+{
+  "question_id": "beabf5f7-d33d-4ff6-baf4-e241b9a5d687",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Two coherent light waves of intensities I₁ and I₂ overlap with a relative phase difference Δφ. What is the resulting total intensity?",
+  "choices": ["I = I₁ + I₂ (intensities simply add)", "I = I₁ + I₂ + 2√(I₁I₂) cos Δφ", "I = I₁ + I₂ − 2√(I₁I₂)", "I = (I₁ + I₂) cos Δφ"],
+  "answer": 1,
+  "explanation": "Superposing the fields and squaring gives I = I₁ + I₂ + 2√(I₁I₂) cos Δφ; the last term is the interference term. Intensities add directly (choice 0) only for incoherent light; the other forms drop the phase dependence or the correct cross-term.",
+  "tags": ["interference", "superposition", "coherence"],
+  "difficulty": "beginner",
+  "generated": true
+}

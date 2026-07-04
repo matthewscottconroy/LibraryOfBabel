@@ -1,0 +1,13 @@
+{
+  "question_id": "88d2328e-2b70-4407-817a-94b6ca77634e",
+  "chapter": 22,
+  "phase": 7,
+  "kind": "blank",
+  "text": "Beyond being an associative algebra, $U_q(\\mathfrak{g})$ carries the structure of a ___ algebra, equipped with a comultiplication, a counit, and an antipode.",
+  "choices": ["Hopf"],
+  "answer": "Hopf",
+  "explanation": "A comultiplication, counit, and antipode are exactly the extra maps that make $U_q(\\mathfrak{g})$ a Hopf algebra, the proper framework for 'groups in the tensor-category sense.' A mere associative algebra or Lie algebra lacks these structures.",
+  "tags": ["quantum-groups", "hopf-algebra", "antipode"],
+  "difficulty": "intermediate",
+  "generated": true
+}

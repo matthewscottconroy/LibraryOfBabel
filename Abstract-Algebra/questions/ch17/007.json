@@ -1,0 +1,13 @@
+{
+  "question_id": "22a2e843-e7dd-4abe-b143-c06062f4ea21",
+  "chapter": 17,
+  "phase": 6,
+  "kind": "tf",
+  "text": "Over a field $k$ with $\\mathrm{char}(k)\\mid|G|$, every representation of the finite group $G$ is still completely reducible.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False: this is the modular case, where Maschke's averaging argument breaks down because one cannot divide by $|G|$. For instance, $\\mathbb{Z}/2\\mathbb{Z}$ over $\\mathbb{F}_2$ has a 2-dimensional representation that is not a direct sum of irreducibles.",
+  "tags": ["representations", "maschke", "modular"],
+  "difficulty": "advanced",
+  "generated": true
+}

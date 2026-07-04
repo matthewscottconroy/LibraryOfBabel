@@ -1,0 +1,23 @@
+{
+  "question_id": "a8f5f919-cdcb-428c-9686-d13888ce2fa3",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For Democritus and the Atomists, what is the ultimate status of the change we observe in ordinary objects (growth, decay, the burning of wood)?",
+  "choices": [
+    "It is genuine change in fundamental reality, since the atoms themselves continually come to be and pass away",
+    "It is the measured cycling of an ever-living fire, governed by the Logos",
+    "It is a moving image of an eternal, changeless model, fashioned by a divine craftsman",
+    "It is only the rearrangement of permanent, unchanging atoms in the void; nothing fundamental comes to be or passes away"
+  ],
+  "answer": 3,
+  "explanation": "The Atomists explain macroscopic change as the combination and separation of eternal, indestructible atoms moving through the void - the atoms never change, only their configurations do. Option 0 contradicts the atom's defining permanence; option 1 is Heraclitus' fire-and-Logos; option 2 is Plato's moving image of eternity. Only option 3 states the atomist view.",
+  "tags": [
+    "democritus",
+    "atomism",
+    "void",
+    "change"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "89f585f0-04f5-4a69-925c-cb54d9b0c436",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For a differentiable map f: ℝⁿ → ℝᵐ, the Jacobian matrix that represents the total derivative Df(p) in standard coordinates is:",
+  "choices": [
+    "the m×n matrix with (i,j) entry ∂fⁱ/∂xʲ",
+    "the n×n matrix with (i,j) entry ∂²f/∂xⁱ∂xʲ",
+    "the 1×n row vector (∂f/∂x¹, …, ∂f/∂xⁿ)",
+    "the n×m matrix with (i,j) entry ∂fⱼ/∂xᵢ"
+  ],
+  "answer": 0,
+  "explanation": "The book defines the Jacobian of f: ℝⁿ → ℝᵐ as the m×n matrix [∂fⁱ/∂xʲ], the matrix of the total derivative Df(p) in standard coordinates. The n×n matrix of second partials is the Hessian, and the 1×n row of first partials is the gradient (only the special case m = 1). The n×m 'transpose' shape wrongly swaps the input and output dimensions.",
+  "tags": [
+    "jacobian",
+    "total-derivative",
+    "multivariable-calculus"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

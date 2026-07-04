@@ -1,0 +1,18 @@
+{
+  "question_id": "0d4b4840-a503-4dfb-ab82-15f8c3c3c8e6",
+  "chapter": 8,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In Newtonian gravity the source of the field is the mass density ρ (Poisson's equation ∇²Φ = 4πGρ). When gravity becomes geometry in GR, what replaces ρ as the source of spacetime curvature?",
+  "choices": [
+    "The Newtonian potential Φ itself",
+    "The stress-energy tensor T_μν, encoding energy density, momentum density, and stress",
+    "The Ricci scalar R",
+    "The mass density ρ, unchanged from Newtonian gravity"
+  ],
+  "answer": 1,
+  "explanation": "In GR the source on the right-hand side of G_μν = 8πG T_μν/c⁴ is the full stress-energy tensor T_μν, which includes not just rest-mass energy density but momentum density and stress (pressure and shear). Mass density ρ alone is the Newtonian source and is incomplete in GR. The potential Φ and the Ricci scalar R describe the geometry, not the matter source.",
+  "tags": ["efe", "stress-energy", "source"],
+  "difficulty": "beginner",
+  "generated": true
+}

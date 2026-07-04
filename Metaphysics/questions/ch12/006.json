@@ -1,0 +1,19 @@
+{
+  "question_id": "f0a92d13-4b8e-4176-9d5c-8a61e2074bf3",
+  "chapter": 12,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Whereas Mackie argues that God and evil are logically incompatible, Rowe argues only that the amount and distribution of apparently gratuitous suffering makes God's existence improbable. Rowe's version is called the ___ problem of evil.",
+  "choices": [
+    "evidential"
+  ],
+  "answer": "evidential",
+  "explanation": "Rowe's argument is evidential: it treats suffering (the fawn dying in the forest fire) as strong evidence against theism without claiming a formal contradiction. This contrasts with Mackie's logical problem, which asserts outright inconsistency among God's omnipotence, goodness, and the existence of evil.",
+  "tags": [
+    "problem-of-evil",
+    "evidential-problem",
+    "rowe"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

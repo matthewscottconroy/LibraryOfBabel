@@ -1,0 +1,18 @@
+{
+  "question_id": "9c33a9eb-c349-4592-8614-d3c36ecbf31b",
+  "chapter": 23,
+  "phase": 8,
+  "kind": "mc",
+  "text": "The Continuum Hypothesis (CH) is the assertion that:",
+  "choices": [
+    "$2^{\\aleph_0} = \\aleph_0$",
+    "$2^{\\aleph_0} = \\aleph_1$",
+    "$2^{\\aleph_0} = \\aleph_2$",
+    "$\\aleph_1 = \\aleph_0$"
+  ],
+  "answer": 1,
+  "explanation": "CH states $2^{\\aleph_0} = \\aleph_1$: there is no cardinal strictly between $|\\mathbb{N}|$ and $|\\mathbb{R}|$. $2^{\\aleph_0}=\\aleph_0$ is false by Cantor's theorem; $2^{\\aleph_0}=\\aleph_2$ is one way CH can FAIL (consistent with ZFC by forcing); and $\\aleph_1=\\aleph_0$ contradicts $\\aleph_1$ being the least uncountable cardinal.",
+  "tags": ["continuum-hypothesis", "cardinal-arithmetic", "aleph"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "chapter": 23,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The clustering algorithm that requires no pre-specified number of clusters, discovers arbitrary-shaped clusters, and labels points in low-density regions as outliers is called ___.",
+  "choices": [
+    "DBSCAN"
+  ],
+  "answer": "DBSCAN",
+  "explanation": "DBSCAN (Density-Based Spatial Clustering of Applications with Noise) defines clusters as dense regions separated by sparse regions, using the eps and minPts parameters, and naturally treats low-density points as outliers without needing a predefined cluster count.",
+  "tags": [
+    "machine-learning",
+    "clustering",
+    "dbscan"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "d4ea5897-c79f-4a38-bf6e-4823374375ba"
+}

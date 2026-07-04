@@ -1,0 +1,22 @@
+{
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Besides having roughly symmetric repressor strengths, what additional condition is necessary for bistability in the Gardner-Cantor-Collins genetic toggle switch?",
+  "choices": [
+    "A third repressor forming a closed ring",
+    "An orthogonal T7 RNA polymerase driving both promoters",
+    "A high-copy-number plasmid backbone exceeding 100 copies",
+    "Cooperativity: a Hill coefficient greater than 1 for at least one repressor"
+  ],
+  "answer": 3,
+  "explanation": "Bistability also requires sufficient nonlinearity, i.e. a Hill coefficient greater than 1 for at least one repressor, so that the two nullclines intersect three times (two stable states and one unstable state). A third repressor forming a ring describes the repressilator oscillator, not the two-repressor toggle switch. An orthogonal T7 system and plasmid copy number can affect absolute expression levels but are not the defining mathematical condition for bistability.",
+  "tags": [
+    "toggle-switch",
+    "bistability",
+    "cooperativity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "4d702ef1-4c17-4085-b462-10ab23918838"
+}

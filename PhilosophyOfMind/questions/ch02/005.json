@@ -1,0 +1,23 @@
+{
+  "question_id": "801ae397-c5c6-4590-813e-e3df3183187c",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which statement correctly matches each theory of consciousness with what it primarily explains?",
+  "choices": [
+    "Both Global Workspace Theory and IIT are versions of higher-order thought theory",
+    "Global Workspace Theory identifies consciousness with Φ, and IIT with global broadcasting",
+    "Global Workspace Theory (Baars/Dehaene) explains access via global broadcasting, while Integrated Information Theory (Tononi) identifies consciousness with integrated information Φ",
+    "Higher-order theories deny that access and phenomenality can be distinguished"
+  ],
+  "answer": 2,
+  "explanation": "GWT holds that information becomes conscious when broadcast in a global workspace accessible to many subsystems — an account aimed at access — whereas IIT identifies consciousness with a system's integrated information (Φ). Option 1 swaps the two theories; options 0 and 3 misdescribe the higher-order framework. Each theory targets a different explanandum.",
+  "tags": [
+    "global-workspace",
+    "iit",
+    "tononi",
+    "dehaene"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

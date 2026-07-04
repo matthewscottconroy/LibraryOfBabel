@@ -1,0 +1,22 @@
+{
+  "question_id": "c7706fb8-f777-4154-aabb-20fea44675c0",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For integers a and b (a ≠ 0), the statement 'a divides b' (written a ∣ b) means:",
+  "choices": [
+    "a / b is an integer",
+    "a < b and a shares a digit with b",
+    "there exists an integer k such that b = a·k",
+    "b divided by a leaves a remainder equal to a"
+  ],
+  "answer": 2,
+  "explanation": "By definition a ∣ b holds iff there is an integer k with b = a·k. Option A ('a / b is an integer') actually expresses b ∣ a — the opposite direction. Option D misdescribes division, since a ∣ b corresponds to remainder 0, not remainder a.",
+  "tags": [
+    "divisibility",
+    "definition",
+    "integers"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,18 @@
+{
+  "question_id": "d78777c8-f9f4-420c-a2c9-026b76b17c97",
+  "chapter": 18,
+  "phase": 3,
+  "kind": "mc",
+  "text": "For a heralded SPDC source with mean pair number mu per pulse, the heralded purity is g2_h(0) is about 2*mu/(1+mu). What fundamental trade-off does this express?",
+  "choices": [
+    "Higher indistinguishability requires colder detectors",
+    "Brighter sources are automatically purer",
+    "Purity (low g2) forces a dim pump: pushing mu down for purity caps the per-pulse firing probability near ~0.5%, trading brightness for purity",
+    "Purity and brightness are independent and can both be maximized freely"
+  ],
+  "answer": 2,
+  "explanation": "Because g2_h is about 2*mu, demanding g2 < 0.01 forces mu (and hence the per-pulse photon rate) very low, the brightness-purity trade-off intrinsic to all parametric sources. Choices 1 and 3 deny the trade-off; choice 0 concerns indistinguishability/dephasing, a different axis.",
+  "tags": ["spdc", "heralding", "brightness-purity-tradeoff"],
+  "difficulty": "intermediate",
+  "generated": true
+}

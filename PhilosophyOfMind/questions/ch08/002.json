@@ -1,0 +1,23 @@
+{
+  "question_id": "5b288539-5e74-4ec0-ac1b-3d9055ec5c5d",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In their 1988 critique 'Connectionism and Cognitive Architecture,' Fodor and Pylyshyn argue that connectionist networks fail to explain the systematicity of thought -- the fact that anyone who can think 'John loves Mary' can think 'Mary loves John.' Their point is that connectionist networks:",
+  "choices": [
+    "can never be trained to process any novel sentence at all",
+    "explain systematicity better than classical systems because they generalise from data",
+    "at best explain systematicity as an accidental by-product of training rather than as a structural guarantee of the architecture",
+    "presuppose an innate Mentalese and so beg the question against empiricism"
+  ],
+  "answer": 2,
+  "explanation": "Fodor and Pylyshyn concede a network might happen to handle 'Mary loves John' after training, but nothing in a distributed representation makes systematicity necessary -- it is not guaranteed by constituent structure as in a compositional classical system. Option 0 overstates the claim (networks can process novel inputs); option 1 inverts the argument; option 3 confuses this with the separate concept-nativism debate.",
+  "tags": [
+    "systematicity",
+    "fodor-pylyshyn",
+    "connectionism",
+    "compositionality"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

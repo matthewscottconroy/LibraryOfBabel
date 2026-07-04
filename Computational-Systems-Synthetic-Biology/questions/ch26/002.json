@@ -1,0 +1,22 @@
+{
+  "chapter": 26,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the primary advantage of writing a systems biology model in Antimony rather than directly in raw SBML XML?",
+  "choices": [
+    "It executes simulations faster than compiled SBML models",
+    "It automatically generates all possible molecular species for combinatorial signaling networks",
+    "It removes the need for specifying any kinetic rate laws",
+    "It provides human-readable syntax for defining a model, which can then be exported to SBML for distribution"
+  ],
+  "answer": 3,
+  "explanation": "Antimony's main advantage is that it is compact and human-readable compared to raw SBML XML, and tools like tellurium can load an Antimony model and export it to SBML for archiving and sharing. Simulation speed depends on the execution engine (e.g., roadrunner), not the modeling language; automatically generating combinatorial species is what BioNetGen's rule-based approach does, not Antimony; and Antimony models still require kinetic rate laws to be written out explicitly.",
+  "tags": [
+    "antimony",
+    "sbml",
+    "model-readability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "857fd4d1-bfaf-4ea1-a5f1-9b4a0059a143"
+}

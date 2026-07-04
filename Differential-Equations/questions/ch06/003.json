@@ -1,0 +1,18 @@
+{
+  "question_id": "ba89d90e-7e02-4b6e-825b-d7f8d012db46",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "blank",
+  "text": "___ theorem states that the contour integral of an analytic function around a closed curve in a simply connected domain is zero.",
+  "choices": [
+    "Cauchy's"
+  ],
+  "answer": "Cauchy's",
+  "explanation": "Cauchy's theorem (Cauchy-Goursat), which says the closed contour integral of an analytic function vanishes in a simply connected region, is the engine of complex analysis. From it flow the integral formula, Liouville's theorem, and the residue calculus.",
+  "tags": [
+    "cauchy-theorem",
+    "contour-integral"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

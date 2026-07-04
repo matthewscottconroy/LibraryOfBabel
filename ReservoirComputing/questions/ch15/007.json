@@ -1,0 +1,20 @@
+{
+  "question_id": "929f8d9d-03c4-42a8-bb44-72e1d7b7649b",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Once the ESN's closed-loop forecast diverges pointwise from the true Lorenz trajectory, the autonomous reservoir also loses the attractor's long-term statistics and collapses to a fixed point, so nothing useful remains after the valid prediction time.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Short-term pointwise accuracy and long-term 'climate' are distinct properties. Even after trajectories separate, the autonomous ESN still reproduces the Lorenz attractor's statistics, e.g. correlation dimension D_2 ~ 2.05, correct power spectrum, and a positive Lyapunov exponent (Lu et al. 2017; the lab's Grassberger-Procaccia check). A genuine collapse to a fixed point would instead signal that the reservoir failed to learn the climate.",
+  "tags": [
+    "attractor",
+    "climate",
+    "correlation-dimension"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

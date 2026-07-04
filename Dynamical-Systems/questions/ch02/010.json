@@ -1,0 +1,18 @@
+{
+  "question_id": "2d1e6dbd-746d-4d47-bcf2-a5561a4190ca",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A topological dynamical system in which every orbit is dense is called ___.",
+  "choices": [
+    "minimal"
+  ],
+  "answer": "minimal",
+  "explanation": "Minimality means the whole space is the only nonempty closed invariant set, equivalently every orbit is dense; irrational rotations are the prototypical example.",
+  "tags": [
+    "minimality",
+    "topological-dynamics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

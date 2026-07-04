@@ -1,0 +1,19 @@
+{
+  "question_id": "353a3035-c57c-4bbf-823d-f94e1c3a536f",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The coefficient of (z - z0)^(-1) in the Laurent expansion of f about an isolated singularity z0 is called the ___ of f at z0.",
+  "choices": [
+    "residue"
+  ],
+  "answer": "residue",
+  "explanation": "The residue is the coefficient a_{-1} of the Laurent series; the residue theorem sums 2*pi*i times these residues over the enclosed singularities to evaluate a contour integral. Only the (z - z0)^(-1) term survives integration around the singularity.",
+  "tags": [
+    "residue",
+    "laurent-series",
+    "singularities"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

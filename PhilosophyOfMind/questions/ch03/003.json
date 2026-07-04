@@ -1,0 +1,23 @@
+{
+  "question_id": "b2a81918-6f0c-45a9-b80a-0be1055c2c51",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The moral Putnam draws from the Twin Earth thought experiment — Earth 'water' is H₂O, Twin Earth 'water' is XYZ, and Oscar and Twin Oscar are molecule-for-molecule identical — is that:",
+  "choices": [
+    "Oscar and Twin Oscar mean exactly the same thing by 'water'",
+    "Meaning is wholly fixed by the speaker's internal psychological state",
+    "Water turns out not to be H₂O after all",
+    "'Meanings ain't in the head' — mental content is partly constituted by the external environment"
+  ],
+  "answer": 3,
+  "explanation": "Because Oscar and Twin Oscar are internally identical yet their term 'water' refers to different substances (H₂O vs XYZ), meaning cannot be fixed by what is in the head alone — that is semantic externalism. Option 1 is the internalism Putnam refutes; option 0 denies the difference in reference the case establishes; option 2 misstates the chemistry rather than the moral.",
+  "tags": [
+    "putnam",
+    "twin-earth",
+    "externalism",
+    "narrow-content"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

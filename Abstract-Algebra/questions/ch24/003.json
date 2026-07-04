@@ -1,0 +1,18 @@
+{
+  "question_id": "88463fda-ddae-4439-a8d2-4f8f05f4a396",
+  "chapter": 24,
+  "phase": 8,
+  "kind": "mc",
+  "text": "Structures $\\mathcal{M}$ and $\\mathcal{N}$ are elementarily equivalent ($\\mathcal{M} \\equiv \\mathcal{N}$) precisely when:",
+  "choices": [
+    "$\\mathrm{Th}(\\mathcal{M}) = \\mathrm{Th}(\\mathcal{N})$, i.e. they satisfy the same first-order sentences",
+    "they are isomorphic",
+    "they have the same cardinality",
+    "one elementarily embeds into the other"
+  ],
+  "answer": 0,
+  "explanation": "By definition $\\mathcal{M} \\equiv \\mathcal{N}$ means $\\mathrm{Th}(\\mathcal{M}) = \\mathrm{Th}(\\mathcal{N})$. Isomorphism implies elementary equivalence but is strictly stronger, since upward Lowenheim-Skolem produces elementarily equivalent, non-isomorphic models. Equal cardinality is neither necessary nor sufficient, and an elementary embedding is a map rather than this equivalence relation.",
+  "tags": ["elementary-equivalence", "theory-of-a-structure", "isomorphism"],
+  "difficulty": "beginner",
+  "generated": true
+}

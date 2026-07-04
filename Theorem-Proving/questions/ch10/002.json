@@ -1,0 +1,22 @@
+{
+  "question_id": "80b7e38e-0b9f-44c3-ae20-f97639256d48",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Under Curry–Howard, the conjunction P ∧ Q corresponds to which type?",
+  "choices": [
+    "the sum type P + Q",
+    "the function type P → Q",
+    "the product type P × Q",
+    "the empty type ⊥"
+  ],
+  "answer": 2,
+  "explanation": "Conjunction P ∧ Q corresponds to the product (pair) type P × Q — a proof of the conjunction is a pair of proofs. The sum type P + Q (A) is disjunction P ∨ Q; the function type (B) is implication; the empty type (D) is falsity ⊥. A common error is swapping which of ∧/∨ maps to ×/+.",
+  "tags": [
+    "curry-howard",
+    "product-type",
+    "conjunction"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

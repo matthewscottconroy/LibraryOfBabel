@@ -1,0 +1,19 @@
+{
+  "question_id": "11c988ef-a207-4957-a726-2d883317fb9c",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In the wavelength-multiplexed broadcast-and-weight approach, the drop fraction of a detuned add-drop ___ sets each synaptic weight magnitude, and a balanced photodetector extends the weight to signed values in [-1, 1].",
+  "choices": [
+    "microring"
+  ],
+  "answer": "microring",
+  "explanation": "A detuned add-drop microring resonator acts as an analog multiplier: its drop transmission sets |w|, and balanced detection of the drop versus through ports makes the weight signed. All wavelengths then sum automatically in the photocurrent.",
+  "tags": [
+    "wdm",
+    "microring",
+    "broadcast-and-weight"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

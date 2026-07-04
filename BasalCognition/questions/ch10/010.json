@@ -1,0 +1,19 @@
+{
+  "question_id": "4e6b8d0f-2a4c-4e6b-b0f2-0a2c4e6b8d0a",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The first synthetic gene circuit to generate sustained oscillations in protein levels in E. coli, built by Elowitz and Leibler (2000) from three genes arranged so each represses the next in a cycle, is called the ___.",
+  "choices": [
+    "repressilator"
+  ],
+  "answer": "repressilator",
+  "explanation": "In the repressilator, gene A represses B, B represses C, and C represses A, producing periodic oscillations. It was the first demonstration that gene regulatory networks could be rationally designed to implement a specified dynamic behavior, helping found synthetic biology and establishing genetic circuits as a cognitive-engineering platform (alongside the genetic toggle switch, which stores one bit of memory).",
+  "tags": [
+    "repressilator",
+    "synthetic-biology",
+    "elowitz"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

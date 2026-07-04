@@ -1,0 +1,21 @@
+{
+  "question_id": "d5b04038-40b7-4aa1-98a7-a643cd6fc8e9",
+  "chapter": 6,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Sinai's generator theorem says that for a generating partition P, the KS entropy h_mu(T) equals:",
+  "choices": [
+    "0",
+    "H(P)",
+    "h_mu(T,P)",
+    "the topological entropy"
+  ],
+  "answer": 2,
+  "explanation": "If P generates the sigma-algebra, the supremum defining KS entropy is attained at P: h_mu(T) = h_mu(T,P). This makes the entropy computable from one good partition.",
+  "tags": [
+    "sinai-generator-theorem",
+    "ks-entropy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

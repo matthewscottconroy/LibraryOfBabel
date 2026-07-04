@@ -1,0 +1,23 @@
+{
+  "question_id": "546e3853-38c4-4d4d-9e32-5221cfd24867",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Williamson's knowledge-first program defends the knowledge norm of assertion. Which statement gives the norm together with its main supporting consideration?",
+  "choices": [
+    "Assert P only if P is true; supported by the claim that asserting a falsehood is always criticizable regardless of the speaker's epistemic position.",
+    "Assert P only if you justifiably believe P; supported by cases in which a reasonable but false assertion still seems beyond reproach.",
+    "Assert P only if you know P; supported by the aptness of the challenge 'How do you know?' and the infelicity of Moorean assertions such as 'P, but I don't know that P.'",
+    "Assert P only if you believe P; supported by the sincerity condition that an assertion expresses the speaker's own belief."
+  ],
+  "answer": 2,
+  "explanation": "For Williamson, assertion is constitutively governed by knowledge: a speaker who asserts P without knowing it is criticizable ('I didn't know it, I was guessing'), and Moore-paradoxical assertions are infelicitous because asserting P represents oneself as knowing P. The truth norm (0), justified-belief norm (1), and belief norm (3) are the principal rivals that Williamson argues are either too weak or face counterexamples the knowledge norm handles naturally.",
+  "tags": [
+    "knowledge-first",
+    "williamson",
+    "norm of assertion",
+    "moorean paradox"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

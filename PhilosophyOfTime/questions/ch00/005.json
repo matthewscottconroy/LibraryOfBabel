@@ -1,0 +1,18 @@
+{
+  "question_id": "923929fb-a39e-4c03-8dbf-14854377ba53",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In discussing the Aboriginal Australian Dreaming (Altyerre), what does the book identify as the key point distinguishing it from the Western linear model of time?",
+  "choices": [
+    "The founding creative time is not simply past but continuously present — it underlies the present rather than preceding it in a linear sequence",
+    "It grammatically divides time into recent past, remote past, and evidential subcategories marked on the verb",
+    "It treats time as an absolute container that flows equably without relation to anything external",
+    "It holds that only the future is real, with the past and present being unreal"
+  ],
+  "answer": 0,
+  "explanation": "The book stresses that the Dreaming is 'continuously present' and 'underlies rather than precedes' the present, breaking the linear assumption that past and present are mutually exclusive. The other options describe grammatical-tense subcategories (the Hopi/tense discussion), Newton's absolute time, and a position no framework in the unit actually holds.",
+  "tags": ["dreamtime", "indigenous-frameworks", "non-western-time", "linear-time"],
+  "difficulty": "intermediate",
+  "generated": true
+}

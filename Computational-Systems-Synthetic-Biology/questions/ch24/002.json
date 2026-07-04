@@ -1,0 +1,22 @@
+{
+  "chapter": 24,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In a standard molecular dynamics force field, which term models van der Waals interactions between non-bonded atoms?",
+  "choices": [
+    "The harmonic bond-stretching term",
+    "The Coulombic electrostatics term",
+    "The Lennard-Jones potential",
+    "The torsional (dihedral) potential"
+  ],
+  "answer": 2,
+  "explanation": "The Lennard-Jones potential, of the form epsilon times [(sigma/r)^12 - 2(sigma/r)^6], models van der Waals interactions between non-bonded atoms. The harmonic bond and torsional terms describe bonded interactions, while the Coulombic term captures electrostatics rather than van der Waals forces.",
+  "tags": [
+    "molecular-dynamics",
+    "force-fields",
+    "lennard-jones"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "3578b768-f431-4e3e-97a6-87be209ee7c2"
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "1d3ab378-1524-4998-9e17-0968fbf44055",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Tarski intended his semantic conception of truth — with its material adequacy condition, the T-schema — to be a fully metaphysical version of the correspondence theory of truth.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "This is false. Tarski's definition is immanent to a particular language and is fixed by the requirement that a theory of truth entail every instance of the T-schema ('S' is true iff S); it takes no stand on the metaphysics of facts or of a correspondence relation. That neutrality is precisely why both deflationists and correspondence theorists have each claimed the T-schema in support of their opposed positions.",
+  "tags": [
+    "tarski",
+    "t-schema",
+    "deflationism",
+    "correspondence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

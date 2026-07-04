@@ -1,0 +1,18 @@
+{
+  "question_id": "5a6b19f7-9c5e-4595-9af3-30e143bf0468",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Franz Brentano identified a puzzle of temporal awareness using the example of hearing a melody. What exactly is the puzzle he pinpointed?",
+  "choices": [
+    "How the just-elapsed notes remain present to us as the temporal context of current hearing, rather than as objects of recollection",
+    "How the brain physically stores the acoustic properties of tones in long-term memory",
+    "How we manage to recall, years later, a melody we once heard, through an act of secondary memory",
+    "How a durationless present instant could contain an entire completed melody all at once"
+  ],
+  "answer": 0,
+  "explanation": "Brentano's puzzle is the intimate question of how the just-preceding notes are present to me 'not as objects of recollection, but as the temporal context within which I am currently perceiving.' It is not the general problem of how memory works (choice 3 conflates it with recollection, which Brentano explicitly set aside), nor a neural-storage question (choice 2). Choice 4 inverts the puzzle: precisely because the notes arrive successively and cannot be heard at one instant, the question is how they are held together as a unity.",
+  "tags": ["brentano", "melody", "time-consciousness", "phenomenology"],
+  "difficulty": "beginner",
+  "generated": true
+}

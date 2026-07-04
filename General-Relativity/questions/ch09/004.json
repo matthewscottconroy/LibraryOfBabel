@@ -1,0 +1,22 @@
+{
+  "question_id": "32a1da90-44c7-4179-8768-3c338b0512f6",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Birkhoff's theorem states that the Schwarzschild metric is the unique spherically symmetric vacuum solution. According to the book, an important corollary is that:",
+  "choices": [
+    "a pulsating spherical star emits strong monopole gravitational radiation",
+    "there is no monopole gravitational radiation",
+    "the exterior field depends on the star's detailed internal density profile",
+    "spherically symmetric collapse cannot produce a black hole"
+  ],
+  "answer": 1,
+  "explanation": "Because even a pulsating spherical star has a static Schwarzschild exterior, there is no monopole gravitational radiation — the book's stated corollary. This is the GR analog of Gauss's law / Newton's shell theorem: the exterior field depends only on the total mass M, not on the internal profile. Spherically symmetric collapse does in fact form a Schwarzschild black hole.",
+  "tags": [
+    "schwarzschild",
+    "birkhoff",
+    "gravitational-waves"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

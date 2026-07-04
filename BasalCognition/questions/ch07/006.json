@@ -1,0 +1,13 @@
+{
+  "question_id": "d4a86f1c-3b29-4e7d-8a50-9c1f6b3e2d87",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Given that non-neural organisms already sense, integrate, and act, the chapter identifies the most obvious cognitive contribution added by nervous systems as:",
+  "choices": ["The invention of sensing where none had existed", "The invention of memory where none had existed", "Speed, providing fast signaling for temporally demanding tasks such as predator evasion and prey pursuit", "The complete elimination of chemical signaling"],
+  "answer": 2,
+  "explanation": "The chapter names speed as the most obvious addition: neural conduction is dramatically faster than chemical diffusion, opening the ecological domain of rapid interactions like escaping a predator strike. Sensing, memory, and chemical signaling all predate neurons, so nervous systems enhanced rather than invented them, and the book stresses continuity rather than replacement.",
+  "tags": ["neural-advantage", "speed", "continuity"],
+  "difficulty": "intermediate",
+  "generated": true
+}

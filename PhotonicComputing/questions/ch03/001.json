@@ -1,0 +1,13 @@
+{
+  "question_id": "b42c90d6-fe8b-43e1-a4d7-e59e989770bb",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why can a laser not be built from a simple two-level atom under resonant optical pumping?",
+  "choices": ["Two-level atoms do not exhibit stimulated emission", "Because stimulated absorption and emission have equal rates (B₁₂ = B₂₁), pumping can at most equalize the populations, never invert them", "Two-level atoms are unable to absorb pump photons", "The optical cavity cannot resonate with a two-level transition"],
+  "answer": 1,
+  "explanation": "With B₁₂ = B₂₁, the best a resonant pump can do is drive N₂/N₁ → 1, so inversion (N₂ > N₁) is thermodynamically forbidden. Stimulated emission and absorption both occur; the obstacle is the equality of the rates, which three- and four-level schemes circumvent by using distinct pump and laser transitions.",
+  "tags": ["population-inversion", "two-level-system", "laser-threshold"],
+  "difficulty": "beginner",
+  "generated": true
+}

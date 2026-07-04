@@ -1,0 +1,13 @@
+{
+  "question_id": "eddcf57b-d6eb-41f9-a365-fd062e376e9b",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Increasing the quality factor Q of a ring or Fabry-Pérot resonator increases the modulation bandwidth available from that resonator.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "False: high Q means a long photon lifetime and a narrow linewidth, which limits how fast the resonator can be modulated. This is the fundamental Q-versus-bandwidth tradeoff, so raising Q reduces (not increases) the modulation bandwidth.",
+  "tags": ["resonators", "q-factor", "bandwidth", "modulation"],
+  "difficulty": "intermediate",
+  "generated": true
+}

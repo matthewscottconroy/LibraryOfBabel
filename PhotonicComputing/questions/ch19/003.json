@@ -1,0 +1,18 @@
+{
+  "question_id": "aa5eddfb-e54c-4928-b8f6-fafe86e6ea71",
+  "chapter": 19,
+  "phase": 3,
+  "kind": "mc",
+  "text": "The KLM nonlinear-sign (NS) gate flips the sign of only the two-photon amplitude (alpha_2|2> becomes -alpha_2|2>). Using ancilla photons and post-selection, its success probability is:",
+  "choices": [
+    "1/4",
+    "1 (deterministic)",
+    "1/2",
+    "1/16"
+  ],
+  "answer": 0,
+  "explanation": "The heralded NS gate succeeds with probability 1/4 (Knill, Laflamme and Milburn, 2001). It is not deterministic (choice 1); 1/2 is the linear-optics Bell-measurement bound (choice 2); and 1/16 is the success probability of the KLM CZ built from two NS gates, not the NS gate itself (choice 3).",
+  "tags": ["ns-gate", "klm", "success-probability"],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "85bdfab7-a226-4398-bfe9-3cc1273bb688",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "For a zero-input ESN in the large-N limit the maximal Lyapunov exponent is lambda_max = ln rho(W_rec) + <ln|tanh'|>. Near rho = 1 with small inputs this implies:",
+  "choices": [
+    "lambda_max diverges to +infinity, so the reservoir is always chaotic",
+    "lambda_max ~ ln rho, so the edge of chaos (lambda_max = 0) coincides with rho ~ 1",
+    "lambda_max ~ -rho, so larger rho always means faster forgetting",
+    "lambda_max is independent of rho and set only by the input scaling"
+  ],
+  "answer": 1,
+  "explanation": "With small inputs |tanh'| ~ 1 so <ln|tanh'|> ~ 0, leaving lambda_max ~ ln rho(W_rec). The critical point lambda_max = 0 (edge of chaos, perturbations neither grow nor decay) then falls exactly at rho = 1, reproducing the spectral-radius rule. lambda_max stays finite, larger rho gives lambda_max closer to 0 (slower, not faster forgetting), and it clearly depends on rho, ruling out the other options.",
+  "tags": [
+    "esp",
+    "edge-of-chaos",
+    "lyapunov"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

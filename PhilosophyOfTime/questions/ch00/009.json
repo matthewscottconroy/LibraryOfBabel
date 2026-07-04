@@ -1,0 +1,13 @@
+{
+  "question_id": "4841b281-453b-43e9-9fc4-147d5a84b9c4",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The book endorses the strong Sapir-Whorf hypothesis, concluding that speakers of tenseless languages are literally unable to distinguish before from after or past from future.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "This is false: the book says the strong Sapir-Whorf hypothesis (that language determines thought) has very few defenders, and that 'the Whorfian dream of a language whose speakers cannot distinguish before and after ... has not been vindicated.' Every language has resources for expressing basic temporal distinctions, so the book rejects the strong claim rather than endorsing it.",
+  "tags": ["sapir-whorf", "linguistic-relativity", "tense", "language"],
+  "difficulty": "beginner",
+  "generated": true
+}

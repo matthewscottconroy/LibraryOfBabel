@@ -1,0 +1,23 @@
+{
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which type of bifurcation describes oscillatory behavior (a stable limit cycle) emerging from a steady state as a system parameter crosses a critical value?",
+  "choices": [
+    "Hopf bifurcation",
+    "Saddle-node bifurcation",
+    "Pitchfork bifurcation",
+    "Transcritical bifurcation"
+  ],
+  "answer": 0,
+  "explanation": "A Hopf bifurcation occurs when a complex-conjugate pair of eigenvalues crosses the imaginary axis, causing a fixed point to lose stability and a limit cycle to emerge -- exactly the oscillatory behavior described. A saddle-node bifurcation instead creates or destroys pairs of fixed points (producing bistability), a pitchfork bifurcation involves symmetry breaking into multiple new fixed points, and a transcritical bifurcation exchanges stability between two fixed points that persist across the parameter range -- none of these produce oscillations.",
+  "tags": [
+    "bifurcation-theory",
+    "ode",
+    "stability",
+    "dynamical-systems"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "dcb6a2e7-3fbb-474f-b7d3-58b72efe3b3c"
+}

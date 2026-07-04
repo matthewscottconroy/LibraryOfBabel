@@ -1,0 +1,20 @@
+{
+  "question_id": "69977572-edae-46c6-9b3e-35ccbd42a1c0",
+  "chapter": 7,
+  "phase": 3,
+  "kind": "blank",
+  "text": "In Ricoeur's account of mimesis, the configurational act (mise en intrigue) by which a narrative weaves diverse events and characters into a unified, followable whole with a beginning, middle, and end is called ___.",
+  "choices": [
+    "emplotment"
+  ],
+  "answer": "emplotment",
+  "explanation": "Emplotment (mise en intrigue) is Ricoeur's term for the configurational act at the heart of mimesis II (configuration), which transforms a mere sequence of events into a narrative whole. It is his practical response to the 'aporia of time' — the irreducible tension between subjective (Augustinian) and objective (Aristotelian) time — which narrative negotiates rather than dissolves. It is not prefiguration (mimesis I) or refiguration (mimesis III), the phases that flank it.",
+  "tags": [
+    "ricoeur",
+    "narrative",
+    "emplotment",
+    "mimesis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

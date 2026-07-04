@@ -1,0 +1,22 @@
+{
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Riboswitches regulate gene expression via ligand-induced conformational changes between an aptamer domain and an expression platform. Which ligand-to-outcome pairing below is correct?",
+  "choices": [
+    "SAM (S-adenosylmethionine) binding to the SAM-I riboswitch switches translation OFF by sequestering the Shine-Dalgarno sequence in a hairpin",
+    "Adenine binding to the add A-riboswitch switches translation OFF by sequestering the start codon",
+    "TPP binding to the thi box riboswitch switches translation ON, making it the most widespread riboswitch mechanism in bacteria",
+    "Cyclic di-GMP binding to the GEMM riboswitch has no effect on gene expression, serving only as a passive structural sensor"
+  ],
+  "answer": 0,
+  "explanation": "The SAM-I riboswitch is a translation-OFF switch: SAM binding stabilizes a hairpin that sequesters the Shine-Dalgarno sequence, blocking ribosome access. Choice 1 has the add adenine riboswitch backwards -- ligand binding actually stabilizes the open structure and switches translation ON, not off. Choice 2 similarly reverses the TPP/thi-box riboswitch, which is translation-OFF (though it is correctly described as the most widespread riboswitch class). Choice 3 is wrong because the GEMM (cyclic di-GMP) riboswitch actively controls translation or transcription of its downstream gene rather than acting as a passive, non-regulatory sensor.",
+  "tags": [
+    "riboswitches",
+    "regulatory-rna",
+    "aptamers"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "3a1e6b9d-2185-4139-b145-1235295f06bb"
+}

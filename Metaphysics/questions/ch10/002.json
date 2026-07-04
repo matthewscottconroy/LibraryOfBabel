@@ -1,0 +1,22 @@
+{
+  "question_id": "68fad9bf-3beb-4bc1-b91d-f7fe5a2a81c0",
+  "chapter": 10,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Mereological nihilism is the view that:",
+  "choices": [
+    "for any objects whatsoever, there exists a further object that is their mereological sum.",
+    "composition never occurs; there are no composite objects, only mereological simples (so there is no table, only 'simples arranged tablewise').",
+    "composition occurs only when the activity of the parts constitutes a life.",
+    "an object has all of its parts essentially and so cannot survive the loss of any part."
+  ],
+  "answer": 1,
+  "explanation": "Nihilism denies that any plurality composes a further thing, so strictly only simples exist and 'there is a table' is paraphrased as 'there are simples arranged tablewise.' Distractor 0 is its opposite (universalism) and distractor 2 is van Inwagen's restricted organicism, both of which affirm at least some composition.",
+  "tags": [
+    "nihilism",
+    "composition",
+    "simples"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

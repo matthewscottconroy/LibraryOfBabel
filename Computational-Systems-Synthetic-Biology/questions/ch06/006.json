@@ -1,0 +1,22 @@
+{
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which RNA-seq aligner is described as \"splice-aware,\" builds a splice junction database in a two-pass mode, and requires substantial RAM (~30 Gb for human)?",
+  "choices": [
+    "BWA-MEM2",
+    "STAR",
+    "Bowtie2",
+    "minimap2"
+  ],
+  "answer": 1,
+  "explanation": "STAR is the splice-aware aligner that builds a junction database in its first pass and re-aligns using discovered junctions in its second pass, at the cost of high RAM usage (~30 Gb for a human genome). BWA-MEM2 and Bowtie2 are standard for genomic DNA and ChIP-seq/ATAC-seq respectively but are not splice-aware, and minimap2 is designed for long-read mapping rather than short-read RNA-seq splice alignment.",
+  "tags": [
+    "read-alignment",
+    "star",
+    "splice-aware"
+  ],
+  "difficulty": "intermediate",
+  "generated": true,
+  "question_id": "be737a6d-e4e6-4841-a9ba-2c2b867314f8"
+}

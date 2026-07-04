@@ -1,0 +1,21 @@
+{
+  "question_id": "eb7d3ad1-ffe8-41c9-8a83-296bb41aee2e",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "According to Global Workspace Theory, phenomenal consciousness is identical to the quantity of integrated information (Φ) in a system.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "That identity claim belongs to Integrated Information Theory, not Global Workspace Theory. GWT holds that a state is conscious when its information is globally broadcast to many consuming subsystems — an access-based account — while Φ is Tononi's measure in IIT. The statement misattributes IIT's central thesis to GWT, so it is false.",
+  "tags": [
+    "global-workspace",
+    "iit",
+    "phi",
+    "dehaene"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

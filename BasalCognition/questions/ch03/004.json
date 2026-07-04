@@ -1,0 +1,18 @@
+{
+  "question_id": "5e0b9c34-1f7a-4d28-8b6e-3a9c2f14d0b7",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "After Physarum was trained with cold shocks every 60 minutes and the shocks then stopped, it spontaneously slowed at roughly 60-minute intervals for a few cycles. What mechanism did Saigusa et al. (2008) propose for this apparent anticipation?",
+  "choices": [
+    "Storage of a discrete time-stamp in specialized memory nuclei",
+    "Entrainment of the internal cytoplasmic-streaming oscillation to the stimulus period, which persists after the stimulus ceases",
+    "A heritable genetic mutation selected for during the training period",
+    "Classical conditioning that linked cold to an unrelated chemical cue"
+  ],
+  "answer": 1,
+  "explanation": "The proposed mechanism is entrainment: the periodic cold shocks phase-locked the intrinsic streaming oscillation to the 60-minute period, and that oscillation kept running (like a pushed pendulum or a struck tuning fork) after the shocks stopped. This is dynamical rather than a discrete stored time-stamp (choice 0), it is not a genetic change (choice 2), and it is not associative conditioning to a separate cue (choice 3).",
+  "tags": ["slime-mold", "anticipation", "entrainment", "memory"],
+  "difficulty": "advanced",
+  "generated": true
+}

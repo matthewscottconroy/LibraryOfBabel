@@ -1,0 +1,21 @@
+{
+  "question_id": "e5daaca3-e33c-427c-95a8-8f00951c7e78",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The Schröder–Bernstein theorem concludes |A| = |B| from which hypothesis?",
+  "choices": [
+    "A surjection A → B together with a surjection B → A",
+    "An injection A → B together with an injection B → A",
+    "An injection A → B alone",
+    "A bijection between 𝒫(A) and 𝒫(B)"
+  ],
+  "answer": 1,
+  "explanation": "Two injections in opposite directions suffice to construct an explicit bijection, with no appeal to the axiom of choice. The two-surjections version also yields |A| = |B|, but extracting injections from surjections requires choice.",
+  "tags": [
+    "cardinality",
+    "schroder-bernstein"
+  ],
+  "difficulty": "advanced",
+  "generated": false
+}

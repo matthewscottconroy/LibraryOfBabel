@@ -1,0 +1,13 @@
+{
+  "question_id": "9bd6dc66-00bc-4607-8e94-7aa4a0422b63",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Boethius defines eternity as merely unlimited temporal duration — existing at all times with no beginning and no end — which is why an endlessly enduring (sempiternal) being counts as genuinely eternal.",
+  "choices": ["True", "False"],
+  "answer": 1,
+  "explanation": "This is false. Boethius defines eternity as the 'complete, simultaneous, and perfect possession of unlimited life,' and the decisive phrase tota simul (all at once) is exactly what distinguishes genuine, atemporal eternity from mere sempiternity. A sempiternal being exists at all times but at any moment still has parts of its life past and parts future, so it lacks the all-at-once character and does not count as eternal.",
+  "tags": ["boethius", "eternity", "sempiternity", "tota-simul"],
+  "difficulty": "intermediate",
+  "generated": true
+}

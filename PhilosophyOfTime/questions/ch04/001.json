@@ -1,0 +1,18 @@
+{
+  "question_id": "5aa24f3f-d152-41db-a0e6-f36cc2cbf415",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In McTaggart's framework, the A-series orders events by which set of temporal characterizations?",
+  "choices": [
+    "Earlier-than, simultaneous-with, and later-than",
+    "Past, present, and future",
+    "A bare, directionless sequence with no earlier/later direction",
+    "Fixed tenseless dates assigned by clock and calendar"
+  ],
+  "answer": 1,
+  "explanation": "The A-series orders events by the monadic properties past, present, and future -- properties that change as time passes, so that one and the same event is first future, then present, then past. Option 0 names the B-series relations, which are permanent and tenseless; option 2 describes the C-series, a bare directionless ordering; option 3 describes fixed tenseless dates, again a B-series notion. Only the A-series uses the changing properties past/present/future.",
+  "tags": ["a-series", "b-series", "mctaggart", "temporal-becoming"],
+  "difficulty": "beginner",
+  "generated": true
+}

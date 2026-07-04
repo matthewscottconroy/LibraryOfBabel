@@ -1,0 +1,22 @@
+{
+  "question_id": "df38d687-0d63-48e2-8b28-045cf981add5",
+  "chapter": 13,
+  "phase": 6,
+  "kind": "mc",
+  "text": "For G = Z, the topos of G-sets is the type theory of:",
+  "choices": [
+    "a single invertible map (a discrete dynamical system)",
+    "a group of rotations",
+    "a measure space",
+    "a Hilbert space"
+  ],
+  "answer": 0,
+  "explanation": "A Z-action is exactly one invertible transformation and its iterates, so Set^Z is the internal logic of a single invertible discrete dynamical system.",
+  "tags": [
+    "topos",
+    "z-action",
+    "discrete-dynamics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,13 @@
+{
+  "question_id": "51f6b530-4f5c-422e-9336-072312e5938f",
+  "chapter": 21,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In BB84, if an eavesdropper performs the intercept-resend attack — measuring every photon in a randomly guessed basis and resending her result — what quantum bit error rate (QBER) does she introduce?",
+  "choices": ["0%, because resending an identical photon leaves no trace", "11%, exactly the abort threshold", "25%", "50%, since half the photons are lost"],
+  "answer": 2,
+  "explanation": "When Eve guesses the wrong basis (probability 1/2) and Bob's basis then happens to match Alice's, his outcome is random, giving (1/2)(1/2) = 25% QBER — a blazing alarm against the ~1-3% of a clean system. Choice 1 is the security abort threshold (11%), not the attack's induced error; choice 0 ignores basis mismatch; choice 3 confuses error rate with photon loss.",
+  "tags": ["bb84", "intercept-resend", "qber"],
+  "difficulty": "beginner",
+  "generated": true
+}

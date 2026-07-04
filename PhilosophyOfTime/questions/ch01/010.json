@@ -1,0 +1,23 @@
+{
+  "question_id": "5d037014-7d9e-4209-8ce4-f17da65060fd",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Aristotle defines time in the Physics as 'the number of motion with respect to before and after.' On this account, why is time NOT simply identical to motion or change itself?",
+  "choices": [
+    "Because time is an absolute substance existing independently of any motion, like an empty container",
+    "Because different motions can be faster or slower, whereas time is the single, uniform measure by which motions are counted",
+    "Because time is a moving image of eternity, while motion belongs merely to the changing cosmos",
+    "Because each motion carries its own private time, so that times are many even though we speak of one motion"
+  ],
+  "answer": 1,
+  "explanation": "Aristotle distinguishes time from motion by noting that motions vary in speed (one can be faster or slower) while time does not; time is the number or measure by which we count how much motion has occurred. Option 0 describes Newtonian absolute time, which the book explicitly contrasts with Aristotle's relational account; option 2 is Plato's definition; option 3 denies the single, universal time that Aristotle in fact insists upon (one time numbers all motions).",
+  "tags": [
+    "aristotle",
+    "time-and-motion",
+    "number",
+    "physics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

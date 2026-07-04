@@ -1,0 +1,20 @@
+{
+  "question_id": "f653d3b7-068d-4edc-9d71-37daf109e420",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Zeno's ___ paradox argues that at every instant a moving projectile occupies a space exactly equal to itself and is thus at rest; if time is composed of such instants, it never moves.",
+  "choices": [
+    "arrow"
+  ],
+  "answer": "arrow",
+  "explanation": "This is the Arrow paradox, which targets the composition of time out of durationless instants: if the projectile is at rest at every instant and time is made of instants, it never moves. Aristotle replies that the now is a limit rather than a part, so time is not simply composed of instants. (The Dichotomy and Achilles, by contrast, exploit infinite divisibility rather than the instant.)",
+  "tags": [
+    "zeno",
+    "arrow",
+    "instant",
+    "paradox"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

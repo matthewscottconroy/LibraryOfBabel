@@ -1,0 +1,13 @@
+{
+  "question_id": "9c3f6a8d-1e47-4b2c-8f95-6d0b3e1a7c48",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Leonid Moroz's central chemical evidence for an independent evolutionary origin of the ctenophore nervous system is that ctenophores:",
+  "choices": ["Have no neurons or synapses of any kind", "Possess larger, more centralized brains than cnidarians", "Use exactly the same neurotransmitters as vertebrates", "Lack serotonin, dopamine, and GABA and instead rely on a distinct repertoire including L-glutamate"],
+  "answer": 3,
+  "explanation": "Moroz found ctenophores lack serotonin, dopamine, norepinephrine, GABA, and the classical neuropeptides used across cnidarians and bilaterians, relying instead on L-glutamate and a distinct set of peptides, a chemical distinctiveness consistent with independent origin. Ctenophores do have neurons and synapses, do not have larger brains than cnidarians, and their transmitter set differs from that of vertebrates.",
+  "tags": ["ctenophore", "moroz", "neurotransmitters", "independent-origin"],
+  "difficulty": "intermediate",
+  "generated": true
+}

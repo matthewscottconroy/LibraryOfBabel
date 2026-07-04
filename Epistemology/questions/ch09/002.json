@@ -1,0 +1,23 @@
+{
+  "question_id": "5ef3405e-ec15-4452-b3ec-cba503325c90",
+  "chapter": 9,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Laudan's pessimistic meta-induction challenges scientific realism by arguing that:",
+  "choices": [
+    "scientific theories should be accepted only as empirically adequate and never believed as true about unobservable entities.",
+    "the empirical success of science would be a miracle unless its mature theories were at least approximately true.",
+    "the history of science is full of once-successful theories, such as phlogiston and caloric, that were later judged false and non-referring, so by induction today's successful theories are probably also false.",
+    "only the mathematical structure of theories, not their claims about particular entities, is preserved across scientific revolutions."
+  ],
+  "answer": 2,
+  "explanation": "The pessimistic meta-induction runs an induction over the history of science: because many predictively successful theories were later abandoned as false, the realist inference from present success to approximate truth is undercut. Option 1 states the no-miracles argument, which pulls in the opposite direction; option 0 is constructive empiricism; option 3 is Worrall's structural realism, a position crafted to reconcile the no-miracles argument with the meta-induction.",
+  "tags": [
+    "philosophy of science",
+    "anti-realism",
+    "pessimistic meta-induction",
+    "laudan"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

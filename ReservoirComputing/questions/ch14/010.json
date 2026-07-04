@@ -1,0 +1,20 @@
+{
+  "question_id": "b539306e-8a75-4c2d-805e-8045bdbd2d3a",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "blank",
+  "text": "A delay reservoir works best near the 'edge of stability', with feedback gain η just below the ___ threshold — analogous to a spectral radius just below 1 in a digital ESN.",
+  "choices": [
+    "oscillation",
+    "instability"
+  ],
+  "answer": "oscillation",
+  "explanation": "The framework describes optimal operation with the loop gain just below the onset of self-oscillation: dissipative enough for fading memory, yet sensitive enough to separate inputs. This maps onto the digital ESN's ρ just below 1 — the same memory-vs-separation trade-off at the critical point.",
+  "tags": [
+    "physical-rc",
+    "edge-of-stability",
+    "feedback-gain"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

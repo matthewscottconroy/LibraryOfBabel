@@ -1,0 +1,22 @@
+{
+  "question_id": "edad46a9-1cd0-47d4-ab04-214b135f2887",
+  "chapter": 11,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Shannon's counting argument shows that most n-bit Boolean functions require circuits of size:",
+  "choices": [
+    "Omega(2^n / n)",
+    "O(n)",
+    "O(n^2)",
+    "O(log n)"
+  ],
+  "answer": 0,
+  "explanation": "There are far more functions than small circuits, so almost all require size Omega(2^n / n). Yet the best explicit lower bound remains only about 5n.",
+  "tags": [
+    "counting-argument",
+    "circuit-complexity",
+    "boolean-functions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

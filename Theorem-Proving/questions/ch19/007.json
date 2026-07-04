@@ -1,0 +1,21 @@
+{
+  "question_id": "bdf63a6a-ae5d-473c-8e5d-9172d4bd65ec",
+  "chapter": 19,
+  "phase": 5,
+  "kind": "tf",
+  "text": "The independence of Euclid's parallel postulate was the first clear mathematical independence proof, and its model-theoretic method later served as the template for the independence of the Axiom of Choice and the Continuum Hypothesis.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Building consistent non-Euclidean models (Beltrami, Klein, Poincaré) showed the postulate independent of neutral geometry — the first such proof — and the same 'exhibit a model on each side' method was later used by Gödel and Cohen for AC and CH.",
+  "tags": [
+    "independence",
+    "parallel-postulate",
+    "models",
+    "continuum-hypothesis"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

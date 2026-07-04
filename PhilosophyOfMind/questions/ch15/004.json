@@ -1,0 +1,22 @@
+{
+  "question_id": "79d4a85a-8d7d-4440-b560-860dd675061e",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Craver distinguishes constitutive from etiological explanation. Explaining long-term memory by identifying the synaptic changes that memory consists in is an example of:",
+  "choices": [
+    "Constitutive explanation",
+    "Etiological explanation",
+    "Covering-law (deductive-nomological) explanation",
+    "Reverse inference"
+  ],
+  "answer": 0,
+  "explanation": "Explaining a phenomenon by what it consists in (the synaptic changes memory is made of) is constitutive explanation. Etiological explanation cites the causal history that produced it; covering-law explanation subsumes it under general laws; and reverse inference is a neuroimaging inference pattern — none of which is the 'consists in' relation.",
+  "tags": [
+    "constitutive-explanation",
+    "etiological-explanation",
+    "craver"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

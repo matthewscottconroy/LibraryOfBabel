@@ -16,6 +16,7 @@ This unit also introduces **Noether's theorem** — the profound connection betw
 
 ## Chapters in This Unit
 
-- [Chapter 14: Newtonian Mechanics Reviewed](chapter-14-newtonian-mechanics/README.md)
-- [Chapter 15: Lagrangian Mechanics and the Calculus of Variations](chapter-15-lagrangian-mechanics/README.md)
-- [Chapter 16: Hamiltonian Mechanics and Symplectic Geometry](chapter-16-hamiltonian-mechanics/README.md)
+- [Chapter 14: Newtonian Mechanics and the Problem of Gravity](chapter-14-newtonian-mechanics/README.md)
+- [Chapter 15: Lagrangian and Hamiltonian Mechanics](chapter-15-lagrangian/README.md)
+- [Chapter 16: Orbital Mechanics and the Precession of Perihelion](chapter-16-orbits/README.md)
+- [Chapter 17: Rigid Body Dynamics and Continuum Mechanics](chapter-17-rigid-body-continuum/README.md)

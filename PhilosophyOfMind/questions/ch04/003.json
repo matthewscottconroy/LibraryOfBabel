@@ -1,0 +1,18 @@
+{
+  "question_id": "cfb0fb93-a8bd-4094-8c5e-a807125939b4",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Fodor argues that the fact that anyone who can think JOHN LOVES MARY can also think MARY LOVES JOHN illustrates the ___ of thought, which he takes to require a combinatorial representational medium.",
+  "choices": [
+    "systematicity"
+  ],
+  "answer": "systematicity",
+  "explanation": "Systematicity is the fact that the capacity to think certain thoughts comes in packages: anyone able to think JOHN LOVES MARY can think MARY LOVES JOHN, because the thoughts share recombinable constituents. Fodor distinguishes this from productivity (the sheer unboundedness of thinkable thoughts); the expected term is 'systematicity'.",
+  "tags": [
+    "systematicity",
+    "fodor"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

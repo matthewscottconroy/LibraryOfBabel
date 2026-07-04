@@ -1,0 +1,13 @@
+{
+  "question_id": "c5f79a1d-9ce6-4b15-a54b-aa348a178148",
+  "chapter": 23,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: A perfectly matched layer (PML) is an artificial absorber that terminates a finite simulation grid as if it opened onto infinite space, preventing spurious reflections off the domain boundary.",
+  "choices": ["True", "False"],
+  "answer": 0,
+  "explanation": "True — Berenger's PML absorbs outgoing radiation with reflections below -60 dB when properly graded, so a finite grid mimics open space. Without it, boundary reflections corrupt any radiating or scattering simulation; a misconfigured (too thin or too abrupt) PML is a leading source of spurious artifacts.",
+  "tags": ["pml", "boundary-conditions", "fdtd"],
+  "difficulty": "beginner",
+  "generated": true
+}

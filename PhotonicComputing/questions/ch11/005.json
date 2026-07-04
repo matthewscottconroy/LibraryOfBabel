@@ -1,0 +1,18 @@
+{
+  "question_id": "9549c3ca-f5d3-4fd6-8816-094fc4e437fe",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In the landmark Shen et al. (2017) MIT experiment, what vowel-classification accuracy did the on-chip photonic neural network reach compared with the digital baseline?",
+  "choices": [
+    "76.7% photonic vs 91.7% digital, using 56 thermo-optic MZIs",
+    "91.7% photonic vs 76.7% digital",
+    "About 99% photonic, exactly matching digital",
+    "About 50% photonic, at chance level"
+  ],
+  "answer": 0,
+  "explanation": "Shen et al. (2017) used 56 thermo-optic MZIs implementing SVD-programmed 4x4 layers and reached 76.7% accuracy versus 91.7% for digital, a roughly 15-point gap attributed to phase-encoding error and detection noise. Option 1 reverses the two numbers; the photonic result neither matched digital (option 2) nor collapsed to chance (option 3).",
+  "tags": ["shen-2017", "photonic-neural-network", "experiment"],
+  "difficulty": "intermediate",
+  "generated": true
+}

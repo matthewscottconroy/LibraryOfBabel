@@ -1,0 +1,18 @@
+{
+  "question_id": "f8fa3cd5-a357-4aa5-8f51-b1cde79a8d31",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "According to the book, what precise property distinguishes a continuous temporal order (modeled on the real numbers) from a merely dense one (modeled on the rational numbers)?",
+  "choices": [
+    "Continuity requires that time have adjacent moments, whereas a dense order never does",
+    "Continuity requires a smallest temporal unit, whereas a dense order is infinitely divisible",
+    "Continuity adds completeness — every bounded Cauchy sequence converges to a limit within the ordering — filling the gaps a dense order might leave",
+    "Continuity makes time only partially ordered, whereas a dense order is totally ordered"
+  ],
+  "answer": 2,
+  "explanation": "Both dense and continuous orders are infinitely divisible, with no adjacent moments and no smallest unit; the difference is completeness — continuous time (the reals) fills every gap so that all bounded Cauchy sequences converge within it, whereas a dense-but-incomplete order (the rationals) can leave 'holes.' Options 0 and 1 wrongly import discreteness features, and option 3 confuses this with the total-versus-partial-order distinction.",
+  "tags": ["continuous-time", "dense-time", "completeness", "order-type"],
+  "difficulty": "intermediate",
+  "generated": true
+}

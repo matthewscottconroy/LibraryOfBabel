@@ -1,0 +1,18 @@
+{
+  "question_id": "2c0d5b53-7af9-40b2-a374-d682402a2ac2",
+  "chapter": 26,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In every large-scale coherent Ising machine demonstrated to date, where is the spin-spin coupling term (the sum of J_ij times c_j) actually computed?",
+  "choices": [
+    "Optically, by direct interference among the OPO pulses",
+    "In an electronic FPGA via a digital multiply-accumulate, with DAC/ADC conversion, using measurement feedback",
+    "In a phase-change-material crossbar array",
+    "In a superconducting quantum annealer coupled to the ring"
+  ],
+  "answer": 1,
+  "explanation": "The celebrated 'optical' Ising machine performs its defining coupling operation in an electronic FPGA via measurement feedback, so its throughput and energy are set by the electronics (homodyne detection, DAC/ADC, and an O(N^2) accumulation per round trip), not by the light. Optical delay-line interference fixes only hardwired topologies; PCM crossbars and quantum annealers are unrelated architectures.",
+  "tags": ["ising-machine", "measurement-feedback", "fpga", "interfaces"],
+  "difficulty": "intermediate",
+  "generated": true
+}

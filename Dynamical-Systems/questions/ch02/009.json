@@ -1,0 +1,20 @@
+{
+  "question_id": "511db83c-de9f-4955-93a1-e2910660cd3a",
+  "chapter": 2,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Deterministic chaos can occur in a one-dimensional autonomous continuous-time flow dx/dt = f(x).",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "A 1D autonomous flow is monotone between fixed points, so orbits are eventually monotone with no oscillation or chaos; continuous-time chaos needs at least three dimensions.",
+  "tags": [
+    "chaos",
+    "dimension",
+    "flows"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

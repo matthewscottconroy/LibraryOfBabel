@@ -1,0 +1,19 @@
+{
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "In Hi-C chromatin architecture analysis, self-interacting chromatin domains identified from genome-wide contact maps are called Topologically Associating Domains, commonly abbreviated ___.",
+  "choices": [
+    "TADs"
+  ],
+  "answer": "TADs",
+  "explanation": "TADs (Topologically Associating Domains) are self-interacting chromatin regions identified from Hi-C contact maps, distinct from the larger-scale A/B compartments (active vs. inactive chromatin) and from CTCF/cohesin-anchored loops, which represent different levels of genome organization.",
+  "tags": [
+    "epigenomics",
+    "hi-c",
+    "chromatin-architecture"
+  ],
+  "difficulty": "advanced",
+  "generated": true,
+  "question_id": "f17f5c8e-e5c3-4257-9180-b650e321946a"
+}

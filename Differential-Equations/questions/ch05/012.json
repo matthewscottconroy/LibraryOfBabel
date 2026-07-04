@@ -1,0 +1,22 @@
+{
+  "question_id": "5b1b42b2-c73c-46ec-be14-9ae0002d1a84",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The Korteweg-de Vries equation is notable for admitting solitons, which are:",
+  "choices": [
+    "localized traveling waves that preserve their shape and survive collisions",
+    "waves that always steepen into shocks",
+    "solutions that decay exponentially to zero everywhere",
+    "purely linear superpositions of sinusoids"
+  ],
+  "answer": 0,
+  "explanation": "KdV solitons balance nonlinear steepening against dispersion, so they travel without changing shape and re-emerge unchanged after interacting, a hallmark of the equation's complete integrability. Burgers' equation, which lacks dispersion, is the one that forms shocks.",
+  "tags": [
+    "kdv",
+    "solitons",
+    "nonlinear-pde"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

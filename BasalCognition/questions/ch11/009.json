@@ -1,0 +1,19 @@
+{
+  "question_id": "8f2c6a10-4b73-49e5-a8c1-0d5f3e9b7a26",
+  "chapter": 11,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The term ___, coined by Lynn Margulis, refers to a host organism together with all of its associated microbial symbionts, considered as a single unit of biological organization.",
+  "choices": [
+    "holobiont"
+  ],
+  "answer": "holobiont",
+  "explanation": "A holobiont is a host plus all its associated microbial symbionts (bacteria, archaea, viruses, fungi, protists) treated as one biological unit. Coined by Margulis, the concept dissolves the self/other boundary and makes the microbial contribution to host cognition scientifically tractable.",
+  "tags": [
+    "holobiont",
+    "margulis",
+    "self"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

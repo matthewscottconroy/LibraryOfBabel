@@ -1,0 +1,20 @@
+{
+  "question_id": "0f5a0bea-b547-4a2e-bf6f-0a612736b904",
+  "chapter": 6,
+  "phase": 2,
+  "kind": "tf",
+  "text": "In the NARMA-10 lab, increasing the reservoir size N drives the test NMSE up (worse) because larger reservoirs overfit the task.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False: the lab observes NMSE decreases roughly as 1/N because more neurons add nonlinear approximation capacity. There are diminishing returns, but larger N does not make NARMA-10 worse — ridge regularization (λ=1e-6) controls overfitting.",
+  "tags": [
+    "narma10",
+    "reservoir-size",
+    "scaling"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

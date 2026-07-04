@@ -1,0 +1,20 @@
+{
+  "question_id": "737f94d7-bd74-4139-8bc8-a2f9f7b74d8f",
+  "chapter": 14,
+  "phase": 4,
+  "kind": "tf",
+  "text": "True or False: In plural logic there is a universal plurality (some things that include absolutely everything), and correspondingly there is also a universal set of which everything is a member.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "There is a universal plurality — P-Comp on φ(x) := (x = x) yields some things that include everything — but there is NO universal set (Chapter 6). The plural 'collection of everything' is unproblematic precisely because it is no object; asserting a matching universal set is the specific error, since ≺ is not ∈.",
+  "tags": [
+    "universal-plurality",
+    "sets",
+    "comprehension"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

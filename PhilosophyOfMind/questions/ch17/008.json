@@ -1,0 +1,20 @@
+{
+  "question_id": "0ba1b5bf-0274-4a6a-b3ca-f4e519f3f8c5",
+  "chapter": 17,
+  "phase": 5,
+  "kind": "tf",
+  "text": "According to Integrated Information Theory, standard large feedforward deep-learning systems would have essentially zero Phi and thus would not be conscious.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is true: IIT holds that feedforward architectures carry essentially zero integrated information, so on IIT today's largely feedforward deep networks are not conscious despite impressive behavior. Recurrent architectures with genuine feedback are what could raise Phi.",
+  "tags": [
+    "iit",
+    "feedforward",
+    "machine-consciousness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

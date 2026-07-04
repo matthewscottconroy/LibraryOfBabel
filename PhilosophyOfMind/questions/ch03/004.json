@@ -1,0 +1,23 @@
+{
+  "question_id": "c352edfc-fae9-4e8f-a494-686a02ff64fa",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "'Ralph believes the tallest spy is dangerous,' read de dicto, means:",
+  "choices": [
+    "Ralph believes, of whoever uniquely satisfies the description 'the tallest spy,' that they are dangerous — without necessarily knowing who that is",
+    "There is a specific person, the tallest spy, of whom Ralph believes that he is dangerous",
+    "Ralph is representing himself in a first-personal (de se) way",
+    "'Tallest spy' can be freely replaced by any co-referring term without changing the truth value"
+  ],
+  "answer": 0,
+  "explanation": "On the de dicto reading the description falls within the scope of 'believes': Ralph believes that whoever is the tallest spy is dangerous, even if he cannot identify the person. Option 1 is the de re reading (a specific individual); option 2 is the de se (first-person); option 3 describes the substitutivity that holds in transparent de re contexts, not in opaque de dicto ones.",
+  "tags": [
+    "de-dicto",
+    "de-re",
+    "propositional-attitudes",
+    "opacity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "dadfd963-1b9e-4e4d-8b77-3d7b03f70f0e",
+  "chapter": 26,
+  "phase": 4,
+  "kind": "blank",
+  "text": "The field's most persuasive topological-photonics application, demonstrated by Bandres et al. (2018) with a topologically trivial control device built into the experiment for comparison, is the topological insulator ___.",
+  "choices": [
+    "laser"
+  ],
+  "answer": "laser",
+  "explanation": "The topological insulator laser (Bandres et al., 2018) is the field's most persuasive application precisely because the experiment includes a topologically trivial control that the topological device beats, with protection enforcing single-mode lasing over a large gain area that would otherwise support many competing modes.",
+  "tags": [
+    "topological-photonics",
+    "topological-laser",
+    "applications"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

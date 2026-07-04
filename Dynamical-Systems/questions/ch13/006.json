@@ -1,0 +1,22 @@
+{
+  "question_id": "9008807d-959b-4cc6-9588-f6fe5cd49335",
+  "chapter": 13,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Which theorem of ergodic theory has been formally verified in a proof assistant?",
+  "choices": [
+    "the Birkhoff ergodic theorem, in Lean/Mathlib",
+    "none has ever been formalized",
+    "only in Microsoft Excel",
+    "only in MATLAB"
+  ],
+  "answer": 0,
+  "explanation": "Mathlib (Lean 4) contains a formal proof of the Birkhoff ergodic theorem, with work on entropy and mixing ongoing. Proof assistants, not spreadsheets or MATLAB, do formalization.",
+  "tags": [
+    "lean",
+    "mathlib",
+    "formalization"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

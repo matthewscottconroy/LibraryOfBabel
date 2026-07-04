@@ -1,0 +1,20 @@
+{
+  "question_id": "5a14daae-4a20-47ae-b41c-10930cffc8a5",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "tf",
+  "text": "A supercritical Hopf bifurcation (first Lyapunov coefficient l1 < 0) produces a stable limit cycle.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "With l1 < 0 the bifurcating periodic orbit exists on the side where the equilibrium is unstable and is itself stable - the supercritical case.",
+  "tags": [
+    "hopf-bifurcation",
+    "stability",
+    "limit-cycle"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "e8b52704-3d9a-417e-aefa-b7690fa43a2e",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "blank",
+  "text": "William James's term for the brief interval of roughly two to three seconds that is experienced as an extended 'now' -- a 'saddle-back' rather than a knife-edge -- is the ___ present.",
+  "choices": [
+    "specious"
+  ],
+  "answer": "specious",
+  "explanation": "The expected answer is 'specious'. James coined 'specious present' for the experienced, temporally extended now (his 'saddle-back'), within which a sequence of notes or syllables is perceived as co-present. It is 'specious' because it presents as simultaneous what is strictly a temporal sequence; it contrasts with the durationless mathematical instant.",
+  "tags": [
+    "specious-present",
+    "william-james",
+    "temporal-experience",
+    "phenomenology"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

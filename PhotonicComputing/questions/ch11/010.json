@@ -1,0 +1,19 @@
+{
+  "question_id": "a60de236-b68b-4077-a63d-20ee87d77e19",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Because detected photons per symbol set a shot-noise-limited SNR = n-bar, every additional bit of ENOB costs ___ dB more optical energy per symbol.",
+  "choices": [
+    "6"
+  ],
+  "answer": "6",
+  "explanation": "One extra bit doubles the required amplitude resolution, and with shot-noise-limited SNR = n-bar this is a factor of about 4 in optical power, i.e. 6 dB per bit. This precision-energy tradeoff is why photonic processors deliver only about 4-8 ENOB.",
+  "tags": [
+    "enob",
+    "shot-noise",
+    "precision-energy-tradeoff"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

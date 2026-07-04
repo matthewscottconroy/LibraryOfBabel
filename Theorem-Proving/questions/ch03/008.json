@@ -1,0 +1,21 @@
+{
+  "question_id": "3007d509-52e4-4e25-b4f1-49ef71277438",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Removing the classical rule of double-negation elimination from natural deduction still leaves the law of excluded middle φ ∨ ¬φ provable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Without double-negation elimination (RAA) one obtains INTUITIONISTIC natural deduction, in which the law of excluded middle φ ∨ ¬φ is not provable (nor is ¬¬φ → φ). It is precisely the classical rule that restores excluded middle.",
+  "tags": [
+    "intuitionistic-logic",
+    "excluded-middle",
+    "natural-deduction",
+    "classical-logic"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

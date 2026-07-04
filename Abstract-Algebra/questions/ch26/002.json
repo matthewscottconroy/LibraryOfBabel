@@ -1,0 +1,22 @@
+{
+  "question_id": "053e7a52-b79d-46f0-b80b-a6f44e253bea",
+  "chapter": 26,
+  "phase": 8,
+  "kind": "mc",
+  "text": "In homotopy type theory, the identity type $\\mathrm{Id}_A(a,b)$ is interpreted geometrically as:",
+  "choices": [
+    "The path space of paths from $a$ to $b$ in $A$",
+    "The Cartesian product of $a$ and $b$",
+    "The function type $a\\to b$",
+    "The universe $\\mathcal{U}$ of all types"
+  ],
+  "answer": 0,
+  "explanation": "HoTT reads $\\mathrm{Id}_A(a,b)$ as the path space between $a$ and $b$, making $A$ a homotopy type with paths, paths-of-paths, and so on. It is neither a product nor a function type between the terms, and it is not the universe $\\mathcal{U}$, which is instead where Univalence compares whole types.",
+  "tags": [
+    "hott",
+    "identity-type",
+    "path-space"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

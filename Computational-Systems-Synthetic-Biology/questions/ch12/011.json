@@ -1,0 +1,19 @@
+{
+  "chapter": 12,
+  "phase": 2,
+  "kind": "blank",
+  "text": "In Boolean network models of gene regulation, the ___ update scheme updates every gene's state simultaneously at each time step, in contrast to asynchronous updating, which updates one gene at a time in random or priority order.",
+  "choices": [
+    "synchronous"
+  ],
+  "answer": "synchronous",
+  "explanation": "Synchronous updating applies each gene's Boolean update rule to all genes at once at every discrete time step, which is computationally simple but can produce artifacts not seen in real biology. Asynchronous updating, which changes one gene at a time based on random or priority-based order, is often considered to better capture the fact that real biochemical events do not happen in perfect lockstep.",
+  "tags": [
+    "boolean-networks",
+    "synchronous-update",
+    "gene-regulatory-networks"
+  ],
+  "difficulty": "beginner",
+  "generated": true,
+  "question_id": "59228efd-4119-4ecf-ad5d-ba2e49d189c9"
+}

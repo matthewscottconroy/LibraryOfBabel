@@ -1,0 +1,22 @@
+{
+  "question_id": "80fa52db-f67c-4c78-a3b2-69d495d45bae",
+  "chapter": 15,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Contemporary neuroimaging has revised the classical Broca-Wernicke model of language by showing that language processing is:",
+  "choices": [
+    "Confined entirely to Broca's area",
+    "Distributed across an extensive cortical network rather than localized to two discrete regions",
+    "Localized in the right hemisphere in most right-handers",
+    "Entirely subcortical, carried out in the basal ganglia"
+  ],
+  "answer": 1,
+  "explanation": "Large-scale imaging shows language is distributed across an extensive cortical network, revising the classical two-region localization. It is not confined to Broca's area, not right-hemisphere-dominant in most people, and not an entirely subcortical function.",
+  "tags": [
+    "localization",
+    "distributed-processing",
+    "language"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

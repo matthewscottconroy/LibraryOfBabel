@@ -1,0 +1,19 @@
+{
+  "question_id": "4dfe661e-262d-4194-bc99-46e18ccaf25a",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "tf",
+  "text": "In Hamiltonian mechanics the Hamiltonian is defined as H = T − V, the kinetic minus the potential energy.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. H = T − V is the Lagrangian; for a standard system the Hamiltonian is H = T + V, the total energy expressed in terms of (q, p) via the Legendre transform H = p·q̇ − L. Confusing the sign — L = T − V versus H = T + V — is a common error.",
+  "tags": [
+    "hamiltonian",
+    "energy"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

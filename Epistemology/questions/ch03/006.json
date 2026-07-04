@@ -1,0 +1,23 @@
+{
+  "question_id": "7d0dadce-9545-4a54-9f37-e1fbe9402460",
+  "chapter": 3,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The new evil demon problem and the reliable-clairvoyant (Norman) case are both objections to reliabilism, yet they pull in opposite directions. How?",
+  "choices": [
+    "Both conclude that reliability is necessary but not sufficient for justification.",
+    "The demon case shows reliability is sufficient, while the clairvoyant case shows it is necessary.",
+    "The demon case suggests reliability is not necessary, since the deceived duplicate seems justified though unreliable, while the clairvoyant case suggests reliability is not sufficient, since Norman is reliable yet seems unjustified.",
+    "The demon case illustrates the generality problem, while the clairvoyant case illustrates the swamping problem."
+  ],
+  "answer": 2,
+  "explanation": "In the new evil demon case a duplicate whose processes are reliable in our world but who is deceived seems as justified as we are, so reliability looks unnecessary; in the clairvoyant case Norman's belief is reliably produced yet, lacking any reason to trust the faculty, seems unjustified, so reliability looks insufficient. Option (3) names two genuine but distinct reliabilist problems (generality, swamping) that are not what these two cases show.",
+  "tags": [
+    "new-evil-demon",
+    "clairvoyance",
+    "reliabilism",
+    "objections"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

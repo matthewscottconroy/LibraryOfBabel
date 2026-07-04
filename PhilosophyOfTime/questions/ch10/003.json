@@ -1,0 +1,23 @@
+{
+  "question_id": "63322542-11bb-4773-a114-3edae04002ac",
+  "chapter": 10,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Lewis resolves the grandfather paradox by distinguishing two senses of 'can.' In what sense does he grant that the time traveler CAN kill her grandfather, while maintaining that she nonetheless fails?",
+  "choices": [
+    "She can kill him in every sense, but a timeline-protecting force physically restrains her arm at the decisive moment.",
+    "She can kill him in the ability sense (she has the means, knowledge, and opportunity), but she will not, because the self-consistency of the single spacetime guarantees that some ordinary causal factor defeats every attempt.",
+    "She cannot kill him in any sense, because the past is metaphysically sealed and she can never actually arrive in it.",
+    "She can kill him and does, but this merely spawns a fresh branch of the timeline in which her own history is left untouched."
+  ],
+  "answer": 1,
+  "explanation": "Lewis argues that ability claims are context-sensitive: holding fixed only her capacities, knowledge, and means, she 'can' kill him; holding fixed the whole consistent history (which includes her own existence), she 'won't.' The failure comes through ordinary causes, the gun jams or she hesitates, not a magical protective force, which Lewis explicitly denies (choice 0). She does genuinely arrive in the one real past, so choice 2 misstates his single-timeline view, and he rejects the branching escape (choice 3) as changing the subject.",
+  "tags": [
+    "grandfather-paradox",
+    "lewis",
+    "can-but-wont",
+    "consistency-constraint"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

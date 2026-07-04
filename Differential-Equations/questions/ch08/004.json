@@ -1,0 +1,22 @@
+{
+  "question_id": "c0fa11d5-243d-4b7c-a3d0-8add050b991e",
+  "chapter": 8,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the theory of distributions, the derivative of the Heaviside step function H(x) is:",
+  "choices": [
+    "zero everywhere",
+    "H(x) itself",
+    "the sign function",
+    "the Dirac delta"
+  ],
+  "answer": 3,
+  "explanation": "Every distribution is infinitely differentiable, and H' equals the Dirac delta in the distributional sense, verified by integration by parts against a test function. This makes rigorous the physicists' rule that differentiating a unit jump yields a unit impulse.",
+  "tags": [
+    "distributions",
+    "dirac-delta",
+    "weak-derivative"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

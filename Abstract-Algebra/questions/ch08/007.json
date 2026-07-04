@@ -1,0 +1,19 @@
+{
+  "question_id": "88a02917-b4b5-4787-8f7e-a4ad07c086ef",
+  "chapter": 8,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Every subgroup of an abelian group is normal.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Normality asks gHg⁻¹ = H; when everything commutes, ghg⁻¹ = h for all h, so the condition is automatic. Non-abelian groups are where normality becomes a real restriction.",
+  "tags": [
+    "groups",
+    "normal-subgroups"
+  ],
+  "difficulty": "beginner",
+  "generated": false
+}

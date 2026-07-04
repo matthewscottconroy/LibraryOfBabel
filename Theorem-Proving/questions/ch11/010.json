@@ -1,0 +1,20 @@
+{
+  "question_id": "82f69035-11e0-432c-9e07-6246d5e5d0cf",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Frame correspondence: the modal axiom 5 (◇φ → □◇φ) is valid exactly on frames whose accessibility relation is ___ (the first-order condition wRv ∧ wRu ⇒ vRu).",
+  "choices": [
+    "Euclidean"
+  ],
+  "answer": "Euclidean",
+  "explanation": "Axiom 5 corresponds to the Euclidean property: if wRv and wRu then vRu. Combined with reflexivity (T) and transitivity (4), this yields an equivalence relation, characterizing S5.",
+  "tags": [
+    "modal-logic",
+    "frame-correspondence",
+    "axiom-5",
+    "euclidean"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

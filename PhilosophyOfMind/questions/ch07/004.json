@@ -1,0 +1,22 @@
+{
+  "question_id": "a90a7e01-15c7-4f1b-9370-6b2b19cc1631",
+  "chapter": 7,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The 'deviant (wayward) causal chain' problem, illustrated by Davidson's nervous climber, shows that:",
+  "choices": [
+    "Reasons are never causes of action",
+    "A belief-desire pair can cause the very movement it rationalizes, yet the result still fails to be an intentional action",
+    "All mental causation is impossible",
+    "There are no genuinely basic actions"
+  ],
+  "answer": 1,
+  "explanation": "The deviant-causal-chain problem (Davidson's climber, so unnerved by the thought of loosening his grip that his hand trembles and he lets go) shows that a belief-desire pair can cause the very movement it rationalizes without the result being an intentional action - so 'caused by reasons' needs a 'right kind of causation' clause. Option 0 abandons the causal theory entirely, and options 2 and 3 are unrelated over-generalizations.",
+  "tags": [
+    "deviant-causal-chain",
+    "davidson",
+    "causal-theory-of-action"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

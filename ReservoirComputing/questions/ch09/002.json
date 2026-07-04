@@ -1,0 +1,20 @@
+{
+  "question_id": "cd31079e-818e-4829-894d-46eb5bdc0bba",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Online RLS and offline batch ridge regression converge to the same least-squares solution.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "Both the lab README and esn.py state that RLS converges to the same ridge/least-squares solution as batch training; RLS simply reaches it incrementally, one sample at a time, rather than solving the normal equations once.",
+  "tags": [
+    "rls",
+    "ridge-regression",
+    "convergence"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "675ee56b-41d9-4bbe-a3ec-4581eb8f59e1",
+  "chapter": 5,
+  "phase": 2,
+  "kind": "tf",
+  "text": "According to the heat equation, a localized initial temperature instantly affects the temperature everywhere, implying infinite propagation speed.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The heat kernel is a Gaussian that is strictly positive for all x at any time t > 0, so disturbances spread with infinite speed, a mathematically definite (if physically idealized) feature of parabolic equations. The wave equation instead has finite propagation speed c.",
+  "tags": [
+    "heat-kernel",
+    "infinite-speed",
+    "heat-equation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

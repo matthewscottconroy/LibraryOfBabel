@@ -1,0 +1,23 @@
+{
+  "question_id": "bf74c2b3-cbee-4484-aecc-77d28bba8023",
+  "chapter": 11,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Fodor's analysis of the structure of concepts led him to a notoriously 'radical' conclusion about concept acquisition. What was it?",
+  "choices": [
+    "All concepts are learned from perceptual experience by abstraction",
+    "Most lexical concepts -- even ones like CARBURETOR or MICROWAVE -- are innate, merely triggered rather than learned, because unstructured primitive concepts cannot be learned by definition",
+    "Concepts are prototypes, stored as statistical summaries of experienced instances",
+    "Concepts are patterns of sensorimotor activation grounded in the body"
+  ],
+  "answer": 1,
+  "explanation": "Because Fodor held that most concepts are primitive (unstructured), and that learning a concept requires assembling it from simpler ones, he inferred that primitive concepts must be innate -- radical concept nativism, widely treated as a reductio yet resting on an unanswered challenge about concept learning. Option 0 is concept empiricism; option 2 is prototype theory; option 3 is Barsalou's grounded cognition -- all rivals to Fodor's nativism.",
+  "tags": [
+    "radical-concept-nativism",
+    "fodor",
+    "concept-acquisition",
+    "innate"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

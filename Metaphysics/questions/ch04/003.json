@@ -1,0 +1,18 @@
+{
+  "question_id": "8530ddde-1418-4622-93a9-0c8c991f2318",
+  "chapter": 4,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Lewis analyzes 'Humphrey might have won the election' using counterpart theory. On this analysis the claim is true if and only if what holds?",
+  "choices": [
+    "Humphrey himself exists in another possible world and wins the election there.",
+    "Some individual who is a counterpart of Humphrey (resembling him closely enough in the relevant respects) wins the election in some world.",
+    "The proposition that Humphrey wins is a member of some maximal consistent set of propositions.",
+    "In the closest world where Humphrey runs, he wins."
+  ],
+  "answer": 1,
+  "explanation": "Because Lewis rejects transworld identity (no concrete individual is part of two spatiotemporally isolated worlds), the modal claim is made true by a counterpart: an individual in another world who is suitably qualitatively similar to Humphrey and who wins there. Option 0 asserts the very transworld identity Lewis denies, so it is the tempting but incorrect reading; the winner is Humphrey's counterpart, not Humphrey.",
+  "tags": ["modality", "counterpart-theory", "lewis", "transworld-identity"],
+  "difficulty": "intermediate",
+  "generated": true
+}

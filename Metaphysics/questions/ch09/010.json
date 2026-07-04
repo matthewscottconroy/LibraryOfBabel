@@ -1,0 +1,18 @@
+{
+  "question_id": "a27b0dcb-dec3-43ce-89dd-a764700be34d",
+  "chapter": 9,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Van Fraassen holds that the aim of science is not truth about unobservables but empirical ___, the accurate representation of all observable phenomena.",
+  "choices": [
+    "adequacy"
+  ],
+  "answer": "adequacy",
+  "explanation": "Empirical adequacy is van Fraassen's replacement for truth as the aim of science: a theory is empirically adequate when everything it says about observables is true (it 'saves the phenomena'). Belief is proportioned to empirical adequacy, with agnosticism about the unobservable structure of the models.",
+  "tags": [
+    "constructive-empiricism",
+    "empirical-adequacy"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "89fda94e-71a5-4230-8c2c-b29bae0a8e5f",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "For dx/dt = Ax where A has a size-k Jordan block for a purely imaginary eigenvalue (Re lambda = 0), solutions:",
+  "choices": [
+    "stay bounded for all time",
+    "grow polynomially like t^{k-1}",
+    "decay to zero",
+    "force the eigenvalue to be real"
+  ],
+  "answer": 1,
+  "explanation": "A nontrivial Jordan block contributes terms t^{k-1} e^{lambda t}; with Re lambda = 0 the magnitude grows like t^{k-1}, so the marginal equilibrium is actually unstable. Only simple (diagonalizable) eigenvalues on the axis give bounded solutions.",
+  "tags": [
+    "jordan-form",
+    "matrix-exponential",
+    "stability"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

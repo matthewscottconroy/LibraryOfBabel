@@ -13,6 +13,8 @@ Manifest schema (``<BookDir>/book.toml``)
     author       = "..."                  # optional
     subtitle     = "..."                  # optional
     intro_names  = ["overview.md", ...]   # optional; ADDED to the defaults below
+    outro_names  = ["exercises.md", ...]  # optional; per-directory back matter,
+                                          #   sorted last in the order given
     front_matter = ["preface.md", ...]    # optional; ordered, globs allowed
     back_matter  = ["epilogue.md", "appendices/*.md"]  # optional; ordered, globs
     exclude      = ["README.md", "**/scratch.md"]      # optional; globs
@@ -22,8 +24,9 @@ Manifest schema (``<BookDir>/book.toml``)
     recursive  = true       # default true; false = only the root's own files
     part_level = 1           # optional: directory depth that becomes a LaTeX \part
 
-`front_matter`, `back_matter`, `exclude`, and `intro_names` are top-level keys
-and MUST appear before the first ``[[sources]]`` table (a TOML requirement).
+`front_matter`, `back_matter`, `exclude`, `intro_names`, and `outro_names` are
+top-level keys and MUST appear before the first ``[[sources]]`` table (a TOML
+requirement).
 
 Ordering
 --------
@@ -31,7 +34,14 @@ Within any directory the children are ordered as:
     1. intro-like files (README.md, intro.md, _index.md, 00-*.md, ...) first,
        in the priority order of the intro-name list, then
     2. everything else (files and sub-directories interleaved) by a natural
-       numeric sort that understands "chapter-2" < "chapter-10", "1.2" < "1.10".
+       numeric sort that understands "chapter-2" < "chapter-10", "1.2" < "1.10",
+       then
+    3. outro-like files, in the priority order of the outro-name list.
+
+Rule 3 exists because a chapter's back matter is named for what it is, not for
+where it belongs: `exercises.md` and `further_reading.md` sort before `s01_*.md`
+alphabetically, which silently puts the exercises ahead of the sections they
+examine.  There is no default outro list — a book opts in via `outro_names`.
 
 Modes
 -----
@@ -107,29 +117,45 @@ def natural_key(name: str):
     return [int(p) if i % 2 else p.lower() for i, p in enumerate(parts)]
 
 
-def intro_priority(name: str, intro_globs: list[str]):
-    """Return the index of the first intro glob that matches `name`, else None."""
-    for i, pat in enumerate(intro_globs):
+def glob_priority(name: str, globs: list[str]):
+    """Return the index of the first glob that matches `name`, else None."""
+    for i, pat in enumerate(globs):
         if fnmatch.fnmatch(name, pat):
             return i
     return None
 
 
-def child_sort_key(name: str, intro_globs: list[str]):
-    """Sort key placing intro-like files first (by priority), then natural."""
-    p = intro_priority(name, intro_globs)
+def intro_priority(name: str, intro_globs: list[str]):
+    """Back-compat alias: position of `name` in the intro-name list, or None."""
+    return glob_priority(name, intro_globs)
+
+
+def child_sort_key(name: str, intro_globs: list[str], outro_globs: list[str] = ()):
+    """Sort key: intro-like first, then natural, then outro-like.
+
+    An intro match wins over an outro match, so a name appearing in both lists
+    sorts to the front rather than silently to the back.
+    """
+    p = glob_priority(name, intro_globs)
     if p is not None:
         return (0, p, natural_key(name))
+    p = glob_priority(name, list(outro_globs))
+    if p is not None:
+        return (2, p, natural_key(name))
     return (1, 0, natural_key(name))
 
 
-def ordered_children(directory: Path, intro_globs: list[str]) -> list[Path]:
-    """Immediate children of `directory`, intro-first then natural sort."""
+def ordered_children(
+    directory: Path, intro_globs: list[str], outro_globs: list[str] = ()
+) -> list[Path]:
+    """Immediate children of `directory`, intro-first, natural, outro-last."""
     try:
         entries = list(directory.iterdir())
     except OSError:
         return []
-    return sorted(entries, key=lambda p: child_sort_key(p.name, intro_globs))
+    return sorted(
+        entries, key=lambda p: child_sort_key(p.name, intro_globs, outro_globs)
+    )
 
 
 # --------------------------------------------------------------------------- #
@@ -147,6 +173,8 @@ class Manifest:
         self.back_matter = data.get("back_matter", [])
         self.exclude = data.get("exclude", [])
         self.intro_globs = DEFAULT_INTRO_NAMES + list(data.get("intro_names", []))
+        # No defaults: a book that does not opt in keeps the previous ordering.
+        self.outro_globs = list(data.get("outro_names", []))
 
     @classmethod
     def load(cls, book_dir: Path) -> "Manifest":
@@ -226,7 +254,9 @@ def collect_source(
     entries: list[Entry] = []
 
     def walk(directory: Path, depth: int):
-        for child in ordered_children(directory, manifest.intro_globs):
+        for child in ordered_children(
+            directory, manifest.intro_globs, manifest.outro_globs
+        ):
             if child.is_dir():
                 if _skip_dir(child.name):
                     continue

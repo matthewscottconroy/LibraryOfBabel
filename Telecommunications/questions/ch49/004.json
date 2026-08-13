@@ -1,0 +1,22 @@
+{
+  "question_id": "9e82d6f5-127e-4937-83fe-887611880b5c",
+  "chapter": 49,
+  "phase": 4,
+  "kind": "mc",
+  "text": "MPLS's original justification — faster lookup than longest-prefix match — evaporated. Why did it survive?",
+  "choices": [
+    "Vendor lock-in",
+    "Traffic engineering (paths can be placed with reserved bandwidth) and VPNs (stacked labels separate customers with overlapping private space)",
+    "It is required by BGP",
+    "It supports IPv6 better"
+  ],
+  "answer": 1,
+  "explanation": "MPLS is what happens when an industry that abandoned circuits discovers it wanted some of their properties after all. Fast reroute brings sub-50 ms protection to packet networks, closing the gap with SONET.",
+  "tags": [
+    "mpls",
+    "traffic-engineering",
+    "vpn"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

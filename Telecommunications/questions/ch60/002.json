@@ -1,0 +1,22 @@
+{
+  "question_id": "024be829-fe3c-4ede-9346-32d031babdec",
+  "chapter": 60,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why do TLS VPNs traverse networks that IPsec cannot?",
+  "choices": [
+    "They are faster",
+    "They run over TCP or UDP 443 and are indistinguishable from HTTPS, so any network permitting web browsing permits them",
+    "They use less bandwidth",
+    "They require no authentication"
+  ],
+  "answer": 1,
+  "explanation": "IPsec is frequently blocked on hotel and public Wi-Fi. The cost of TLS VPNs in TCP mode is TCP-over-TCP meltdown from interacting retransmission timers, which is why UDP mode is strongly preferable.",
+  "tags": [
+    "tls-vpn",
+    "openvpn",
+    "nat-traversal"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

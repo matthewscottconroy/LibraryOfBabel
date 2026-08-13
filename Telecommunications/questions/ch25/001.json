@@ -1,0 +1,22 @@
+{
+  "question_id": "81880253-0332-455d-ac03-b59b8d3e852d",
+  "chapter": 25,
+  "phase": 2,
+  "kind": "mc",
+  "text": "For 192.168.10.70/27, what is the broadcast address?",
+  "choices": [
+    "192.168.10.63",
+    "192.168.10.95",
+    "192.168.10.96",
+    "192.168.10.127"
+  ],
+  "answer": 1,
+  "explanation": "The /27 mask octet is 224, so the block size is 256-224 = 32 and boundaries fall at 0, 32, 64, 96. Address .70 is in the block starting at .64, so the broadcast is one below the next boundary: .95. Usable hosts are .65 to .94.",
+  "tags": [
+    "subnetting",
+    "broadcast-address",
+    "block-size"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

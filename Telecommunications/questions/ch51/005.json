@@ -1,0 +1,20 @@
+{
+  "question_id": "880ccc22-04ec-4470-bd93-dc828f2f3596",
+  "chapter": 51,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A CDN can reduce latency by far more than any QoS policy, because it attacks propagation delay rather than queueing delay.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. QoS can shave a few milliseconds of queueing; moving content 8,000 km closer removes 150 ms of propagation, which Chapter 3 identified as otherwise irreducible. Caching and anycast have done more for perceived Internet performance than every QoS mechanism deployed.",
+  "tags": [
+    "cdn",
+    "anycast",
+    "latency"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

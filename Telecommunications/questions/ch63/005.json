@@ -1,0 +1,20 @@
+{
+  "question_id": "ef601955-e0b2-4b24-84cd-a773ba00f387",
+  "chapter": 63,
+  "phase": 5,
+  "kind": "tf",
+  "text": "A SPAN port can drop frames under load, and should be the first thing doubted when a capture shows impossible loss.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Mirroring several ports onto one can exceed the mirror port's capacity, and the switch drops mirrored frames in preference to production traffic. A network tap does not have this failure mode.",
+  "tags": [
+    "span",
+    "tap",
+    "capture"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

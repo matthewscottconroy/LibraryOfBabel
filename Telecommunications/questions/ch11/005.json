@@ -1,0 +1,22 @@
+{
+  "question_id": "17cf4cd6-e00a-4945-8851-6272706ec3d0",
+  "chapter": 11,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Erlang's blocking formula answers which question?",
+  "choices": [
+    "How fast a circuit can carry data",
+    "How many circuits an exchange needs so the probability of blocking is acceptably small",
+    "How much a call should cost",
+    "How long a call will last"
+  ],
+  "answer": 1,
+  "explanation": "Erlang founded queueing theory at the Copenhagen Telephone Company to size trunk groups. The answer is never one circuit per subscriber, and the gap between that and the actual answer is the same statistical multiplexing gain that packet switching would later claim as its founding argument.",
+  "tags": [
+    "erlang",
+    "blocking",
+    "capacity-planning"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "eb722053-97e0-465b-9655-fcdc4034044a",
+  "chapter": 37,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why is AIMD — additive increase, multiplicative decrease — the right control law?",
+  "choices": [
+    "It is the simplest to implement",
+    "Chiu and Jain proved in 1989 that among simple linear schemes it converges to a fair and efficient allocation",
+    "It was the only one available",
+    "It minimises latency"
+  ],
+  "answer": 1,
+  "explanation": "The choice was not arbitrary; there is a proof behind it. The resulting sawtooth is what anyone who has watched a TCP throughput graph will recognise.",
+  "tags": [
+    "aimd",
+    "fairness",
+    "chiu-jain"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

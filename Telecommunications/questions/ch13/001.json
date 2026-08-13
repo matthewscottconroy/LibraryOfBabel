@@ -1,0 +1,22 @@
+{
+  "question_id": "cad24c4f-afc8-4f3a-a727-579d4fb5b485",
+  "chapter": 13,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which of the classical LAN/WAN distinctions has NOT eroded since 1980?",
+  "choices": [
+    "Speed",
+    "Cost per bit",
+    "Latency",
+    "Ownership of the cable"
+  ],
+  "answer": 2,
+  "explanation": "Wide-area links are now often faster than building fabric, bandwidth costs have collapsed, and cloud connectivity blurs ownership. Propagation delay is fixed by the speed of light: Chicago to Frankfurt was about 35 ms one way in 1980 and will be in 2075.",
+  "tags": [
+    "lan-wan",
+    "latency",
+    "propagation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

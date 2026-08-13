@@ -1,0 +1,22 @@
+{
+  "question_id": "a3eb6693-1fba-4804-8097-a8a114ecc8b5",
+  "chapter": 9,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What limits multimode fibre to shorter distances than single-mode?",
+  "choices": [
+    "Higher attenuation per kilometre",
+    "Modal dispersion — light takes multiple paths of different lengths, spreading each pulse",
+    "It cannot carry infrared wavelengths",
+    "Its connectors have higher loss"
+  ],
+  "answer": 1,
+  "explanation": "A multimode core is wide enough to support many propagation paths, so a pulse launched together arrives spread in time, limiting how closely pulses can be spaced. Single-mode fibre has a core narrow enough to support one path and is therefore the long-haul choice.",
+  "tags": [
+    "multimode",
+    "modal-dispersion",
+    "fibre"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

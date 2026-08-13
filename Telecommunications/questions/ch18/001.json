@@ -1,0 +1,22 @@
+{
+  "question_id": "1e97b9a3-b86f-4233-a5ba-63dd14b9d387",
+  "chapter": 18,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why is a Layer 2 loop catastrophic where a Layer 3 loop is merely wasteful?",
+  "choices": [
+    "Layer 2 frames are larger",
+    "An Ethernet frame has no hop count, so a looping frame circulates forever and every circuit multiplies it",
+    "Switches are slower than routers",
+    "Layer 2 has no error detection"
+  ],
+  "answer": 1,
+  "explanation": "The IP header has a TTL precisely so a routing loop kills a packet after a bounded number of hops. Ethernet, designed in 1980 for a single shared cable where loops were physically impossible, has no field to decrement. Within a second there are millions of copies and MAC tables thrash.",
+  "tags": [
+    "broadcast-storm",
+    "ttl",
+    "spanning-tree"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "4658872d-4a51-4284-bf2f-3ca44b3d965e",
+  "chapter": 5,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why is twisted pair twisted?",
+  "choices": [
+    "To make the cable more flexible",
+    "So that interference couples nearly equally into both conductors of a pair and cancels in the differential receiver",
+    "To increase the cable's bandwidth",
+    "To reduce the cable's capacitance"
+  ],
+  "answer": 1,
+  "explanation": "A differential receiver reads the difference between the two conductors. Twisting ensures external interference induces almost the same voltage in both, so the difference is unaffected. Different pairs in one jacket use different twist rates so they do not couple into each other.",
+  "tags": [
+    "twisted-pair",
+    "crosstalk",
+    "common-mode"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

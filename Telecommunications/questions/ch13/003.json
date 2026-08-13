@@ -1,0 +1,22 @@
+{
+  "question_id": "34fa3438-1739-4ee0-8434-5f4235c09916",
+  "chapter": 13,
+  "phase": 1,
+  "kind": "mc",
+  "text": "An application performs 20 round trips per operation. It is fine on the LAN and unusable over a WAN with plenty of bandwidth. Why?",
+  "choices": [
+    "The WAN link is oversubscribed",
+    "20 round trips at 35 ms each is 700 ms of pure latency, and no amount of bandwidth reduces it",
+    "The WAN drops packets",
+    "The application is single-threaded"
+  ],
+  "answer": 1,
+  "explanation": "This is the durable form of the LAN/WAN distinction. Count round trips first, then consider bandwidth — a chatty protocol is a latency problem wearing a bandwidth costume, and the fix is protocol change or caching, not a bigger circuit.",
+  "tags": [
+    "round-trips",
+    "latency",
+    "wan"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

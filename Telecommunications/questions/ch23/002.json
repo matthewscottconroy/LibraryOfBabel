@@ -1,0 +1,22 @@
+{
+  "question_id": "9cf04ab9-6d46-4975-b691-2f37ce8c6227",
+  "chapter": 23,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why did IPv6 remove router fragmentation entirely?",
+  "choices": [
+    "To save header space",
+    "Because it is stateful and expensive at the destination, multiplies effective loss, hides transport headers from firewalls, and interacts badly with NAT and ECMP",
+    "Because MTUs are now uniform",
+    "Because IPv6 packets are always small"
+  ],
+  "answer": 1,
+  "explanation": "Only the source may fragment; routers send ICMP Packet Too Big instead. This makes Path MTU Discovery mandatory rather than optional, which is why blocking ICMPv6 breaks IPv6 outright rather than merely degrading it.",
+  "tags": [
+    "fragmentation",
+    "ipv6",
+    "pmtud"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

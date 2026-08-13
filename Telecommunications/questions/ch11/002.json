@@ -1,0 +1,22 @@
+{
+  "question_id": "8a28d020-82ea-4dc4-aa30-bf9d6fa90aed",
+  "chapter": 11,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Almon Strowger, an undertaker, invented the automatic telephone exchange in 1888 because:",
+  "choices": [
+    "He wanted to reduce his telephone bill",
+    "He believed the local operator was diverting his calls to a competitor",
+    "He was commissioned by Bell Telephone",
+    "He needed faster call setup for emergency services"
+  ],
+  "answer": 1,
+  "explanation": "The operator's spouse worked for a competing undertaker. Strowger's response was to design, patent and manufacture a switch that removed the human from the process — a hundred years of infrastructure originating in a grudge, and the origin of dial-pulse signalling.",
+  "tags": [
+    "strowger",
+    "pstn",
+    "history"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

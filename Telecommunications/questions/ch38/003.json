@@ -1,0 +1,22 @@
+{
+  "question_id": "6cf1aeff-2be2-4bbe-a0d3-95b14ef39af6",
+  "chapter": 38,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why can you not create a CNAME at a zone apex?",
+  "choices": [
+    "Registrars forbid it",
+    "A CNAME may not coexist with other records at the same name, and the apex must carry NS and SOA records",
+    "It would create a loop",
+    "CNAMEs only work for subdomains"
+  ],
+  "answer": 1,
+  "explanation": "This is why providers offer non-standard ALIAS or ANAME records. It is exactly the kind of fact that makes sense once and is otherwise memorised wrongly.",
+  "tags": [
+    "cname",
+    "zone-apex",
+    "dns"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

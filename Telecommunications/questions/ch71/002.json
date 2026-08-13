@@ -1,0 +1,22 @@
+{
+  "question_id": "2689a529-b03b-4a41-b31c-4b9426ec15b3",
+  "chapter": 71,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which requirements question is most often omitted and should constrain the design heavily?",
+  "choices": [
+    "What is the budget?",
+    "Who will operate it? — a sophisticated design the available staff cannot operate will be misconfigured within a year",
+    "What is the growth expectation?",
+    "What must not happen?"
+  ],
+  "answer": 1,
+  "explanation": "Design for the team you have. If that means a simpler architecture with less theoretical elegance, that is the correct engineering answer rather than a compromise.",
+  "tags": [
+    "requirements",
+    "operability",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

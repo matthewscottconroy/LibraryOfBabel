@@ -1,0 +1,22 @@
+{
+  "question_id": "d6f2f2e6-e22f-4985-8a9b-f34686ec5867",
+  "chapter": 56,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Derive the CIA triad from what an adversary can do to a channel.",
+  "choices": [
+    "Confidentiality, integrity, availability are arbitrary categories",
+    "Listen, alter, prevent — defeating each gives confidentiality, integrity and availability, and the list is exhaustive because there is nothing else you can do to a channel",
+    "They come from a government standard",
+    "They correspond to the three OSI transport services"
+  ],
+  "answer": 1,
+  "explanation": "The completeness is why the triad has survived as a framework, and it is a much better reason to believe it than its appearance on a syllabus. Authentication and non-repudiation are mechanisms serving these ends, not additional ends.",
+  "tags": [
+    "cia-triad",
+    "threat-model",
+    "security"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

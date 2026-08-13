@@ -1,0 +1,22 @@
+{
+  "question_id": "a20957fb-c6f0-44b9-ac76-8e145ca52606",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Compute the bandwidth-delay product for a 1 Gb/s path with a 100 ms round-trip time.",
+  "choices": [
+    "1.25 MB",
+    "12.5 MB",
+    "100 MB",
+    "125 MB"
+  ],
+  "answer": 1,
+  "explanation": "BDP = 10^9 b/s x 0.1 s = 10^8 bits = 12.5 MB. That is the data that must be in flight to keep the path full, and therefore the receive window a single TCP stream needs. It far exceeds the unscaled 16-bit TCP window of 65,535 bytes, so window scaling is mandatory here.",
+  "tags": [
+    "bandwidth-delay-product",
+    "window",
+    "tcp"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "a9c9d885-e041-421f-a48a-729e51d08ffb",
+  "chapter": 70,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What does quantum key distribution NOT provide?",
+  "choices": [
+    "Detection of eavesdropping",
+    "Data transmission, faster-than-light anything, or authentication — QKD without an authenticated classical channel is defeated by an on-path attacker",
+    "Security based on physics",
+    "Satellite operation"
+  ],
+  "answer": 1,
+  "explanation": "It also requires special hardware, does not survive optical amplification, and is limited to a few hundred kilometres without quantum repeaters. Post-quantum cryptography — classical algorithms standardised by NIST in 2024 — is the answer that will actually be deployed.",
+  "tags": [
+    "qkd",
+    "post-quantum",
+    "assessment"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

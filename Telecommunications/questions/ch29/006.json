@@ -1,0 +1,22 @@
+{
+  "question_id": "74a5db1f-0af3-486e-ad25-fa5a86c4d1d8",
+  "chapter": 29,
+  "phase": 2,
+  "kind": "mc",
+  "text": "For a branch office with a single link to head office, what is the professionally correct routing configuration?",
+  "choices": [
+    "OSPF, for future-proofing",
+    "BGP, to express policy",
+    "A static default route",
+    "RIP, for simplicity"
+  ],
+  "answer": 2,
+  "explanation": "There is exactly one way out; there is nothing to compute. For every small office, most branch sites, and the customer edge of many enterprises, static routing plus a default route is the correct and professional answer, and treating it as a beginner's tool is a mistake.",
+  "tags": [
+    "static-routing",
+    "default-route",
+    "design"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

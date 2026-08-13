@@ -1,0 +1,22 @@
+{
+  "question_id": "c828d386-b9a1-4e29-adfd-e937a9c42a6f",
+  "chapter": 60,
+  "phase": 4,
+  "kind": "mc",
+  "text": "State the split tunnelling tradeoff honestly.",
+  "choices": [
+    "It is always correct",
+    "It solves the capacity and performance problem of routing all traffic through a concentrator, at the cost that the device is simultaneously on the corporate network and the open Internet",
+    "It is always wrong",
+    "It only affects DNS"
+  ],
+  "answer": 1,
+  "explanation": "Routing every remote worker's Microsoft 365 traffic through a VPN concentrator and back out is tromboning applied to the entire workforce — which caused the widely-reported VPN capacity crises of March 2020.",
+  "tags": [
+    "split-tunnelling",
+    "vpn",
+    "tromboning"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

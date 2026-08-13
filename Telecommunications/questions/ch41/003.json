@@ -1,0 +1,22 @@
+{
+  "question_id": "7dd2189d-e5ee-4e84-b373-9da1d159479b",
+  "chapter": 41,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A quarter-wave antenna for 2.4 GHz is approximately how long?",
+  "choices": [
+    "1.5 cm",
+    "3.1 cm",
+    "8.3 cm",
+    "12.5 cm"
+  ],
+  "answer": 1,
+  "explanation": "Wavelength is c/f = 12.5 cm, so a quarter wave is about 3.1 cm. At 900 MHz it is 8.3 cm — the whip on a car roof — and at 28 GHz it is 2.7 mm, which is what makes mmWave phased arrays with dozens of elements practical.",
+  "tags": [
+    "antenna",
+    "wavelength",
+    "mmwave"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

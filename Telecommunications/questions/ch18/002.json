@@ -1,0 +1,22 @@
+{
+  "question_id": "9d3738fa-9964-4692-a0cd-ae2f225aebdb",
+  "chapter": 18,
+  "phase": 1,
+  "kind": "mc",
+  "text": "If bridge priorities are left at their defaults, which switch becomes the root bridge?",
+  "choices": [
+    "The fastest switch",
+    "The one with the most ports",
+    "The one with the lowest MAC address, which correlates with manufacturing date — usually the oldest switch",
+    "The one closest to the core"
+  ],
+  "answer": 2,
+  "explanation": "The oldest switch in the building, likely the least capable and quite possibly in a cupboard, now carries all inter-switch traffic. Setting the root bridge explicitly is one of the highest-value five-minute configuration tasks in enterprise networking, and it is skipped constantly.",
+  "tags": [
+    "spanning-tree",
+    "root-bridge",
+    "defaults"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

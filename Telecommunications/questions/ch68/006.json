@@ -1,0 +1,22 @@
+{
+  "question_id": "0728b82d-949b-4c5f-8f72-7761d5ecfea2",
+  "chapter": 68,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Under the shared responsibility model, where do most publicly reported cloud breaches originate?",
+  "choices": [
+    "Provider infrastructure compromise",
+    "Customer misconfiguration — storage left public, security groups permitting the world, credentials committed to a repository",
+    "Hypervisor escapes",
+    "Physical data centre intrusion"
+  ],
+  "answer": 1,
+  "explanation": "That distribution should shape where effort is spent. The provider secures the infrastructure OF the cloud; you secure what you put IN it.",
+  "tags": [
+    "shared-responsibility",
+    "cloud-security",
+    "misconfiguration"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

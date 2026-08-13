@@ -1,0 +1,22 @@
+{
+  "question_id": "f8ba01bf-063a-47df-b43a-e1adeef8d410",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A path has an 80 ms round-trip time and 1% packet loss. A single TCP stream achieves about 15 Mb/s on a 1 Gb/s circuit that is 25% utilised. What is the binding constraint?",
+  "choices": [
+    "Insufficient bandwidth — upgrade the circuit",
+    "Packet loss, which caps single-stream TCP throughput by the inverse square root of the loss rate",
+    "The circuit is oversubscribed at peak",
+    "A duplex mismatch on the far end"
+  ],
+  "answer": 1,
+  "explanation": "The Mathis relation gives throughput proportional to (MSS/RTT) x 1/sqrt(p). At 1% loss with a 1,460-byte MSS and 80 ms RTT, the ceiling is around 15 Mb/s regardless of link capacity. Upgrading the circuit changes nothing; finding the source of the loss does.",
+  "tags": [
+    "packet-loss",
+    "mathis",
+    "tcp-throughput"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

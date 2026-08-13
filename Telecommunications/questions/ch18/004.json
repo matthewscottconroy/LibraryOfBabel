@@ -1,0 +1,20 @@
+{
+  "question_id": "9f399fba-c6c4-4897-b895-6f3ae549bd87",
+  "chapter": 18,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Link aggregation lets a single TCP flow use the combined bandwidth of all bundled links.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. A LAG hashes each flow onto one member link to preserve packet ordering, so a single flow is limited to one link's rate. Aggregation increases aggregate capacity and resilience, not single-flow throughput — a distinction that disappoints people who bundle two links to speed up one backup job.",
+  "tags": [
+    "link-aggregation",
+    "lacp",
+    "hashing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

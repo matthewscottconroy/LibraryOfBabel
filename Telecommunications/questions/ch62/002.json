@@ -1,0 +1,22 @@
+{
+  "question_id": "79a6a85c-23c0-4db9-a872-b86ab4877777",
+  "chapter": 62,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What is the highest-yield question to ask at the start of an incident?",
+  "choices": [
+    "Who is affected?",
+    "When did it last work, and what changed between then and now?",
+    "How urgent is it?",
+    "Has anyone rebooted?"
+  ],
+  "answer": 1,
+  "explanation": "Since most unplanned outages are caused by planned changes, the change log is the highest-yield evidence available. Duplicating the problem, where possible, is the other essential step — a fault you cannot reproduce is one you cannot confirm you have fixed.",
+  "tags": [
+    "methodology",
+    "change-log",
+    "evidence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

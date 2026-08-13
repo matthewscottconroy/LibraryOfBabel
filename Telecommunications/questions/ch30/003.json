@@ -1,0 +1,22 @@
+{
+  "question_id": "32eabd94-6ec9-4335-bedd-653e1b0f646e",
+  "chapter": 30,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Dijkstra's algorithm was, by his own account, worked out in about twenty minutes. Where?",
+  "choices": [
+    "At a blackboard in his university",
+    "In a cafe in Amsterdam, over coffee with his fiancee",
+    "During a conference presentation",
+    "In a letter to a colleague"
+  ],
+  "answer": 1,
+  "explanation": "Published in 1959. Its use in OSPF is what gives link state its loop-free-by-construction property within an area: all routers compute from the same database and therefore reach consistent conclusions.",
+  "tags": [
+    "dijkstra",
+    "ospf",
+    "link-state"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

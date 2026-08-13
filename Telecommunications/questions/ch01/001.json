@@ -1,0 +1,22 @@
+{
+  "question_id": "08d24772-721b-43e9-b07e-98fc6f3fea3b",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "How many bits are required to uniquely identify one of 100 items?",
+  "choices": [
+    "6",
+    "7",
+    "8",
+    "10"
+  ],
+  "answer": 1,
+  "explanation": "log2(100) = 6.64, so 7 bits are needed, giving 128 identifiers of which 28 are wasted. Six bits provide only 64 identifiers, which is insufficient. This is the same arithmetic that determines how many host bits a subnet needs.",
+  "tags": [
+    "information-theory",
+    "logarithm",
+    "bits"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

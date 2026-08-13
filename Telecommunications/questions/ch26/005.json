@@ -1,0 +1,20 @@
+{
+  "question_id": "8fe29475-6435-47c6-8635-8d9cc0449059",
+  "chapter": 26,
+  "phase": 2,
+  "kind": "tf",
+  "text": "100.64.0.0/10 is carrier-grade NAT space, and seeing it on a home connection means the subscriber does not have a public address.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. RFC 6598 reserved it for providers to use between customers and their own NAT. It is increasingly visible on residential and mobile connections, and it surprises people who expect a public address and find they cannot port-forward at all.",
+  "tags": [
+    "cgnat",
+    "rfc-6598",
+    "address-exhaustion"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

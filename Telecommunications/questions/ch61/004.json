@@ -1,0 +1,22 @@
+{
+  "question_id": "ef3f5ff5-1c6b-4978-9d2f-7aa952b0008e",
+  "chapter": 61,
+  "phase": 4,
+  "kind": "mc",
+  "text": "How do SYN cookies defeat a SYN flood?",
+  "choices": [
+    "By rate-limiting SYN packets",
+    "By encoding the necessary state into the sequence number, so no server-side state is allocated until the handshake completes",
+    "By blocking the attacker's addresses",
+    "By reducing the backlog queue"
+  ],
+  "answer": 1,
+  "explanation": "A SYN flood exhausts state rather than bandwidth. Encoding the state into a value the client must echo back removes the resource the attack was consuming — an elegant piece of engineering worth studying.",
+  "tags": [
+    "syn-flood",
+    "syn-cookies",
+    "dos"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

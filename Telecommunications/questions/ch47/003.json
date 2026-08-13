@@ -1,0 +1,22 @@
+{
+  "question_id": "2f0b8787-731c-429d-aeef-96a39488fd8b",
+  "chapter": 47,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why does an Internet exchange point change peering economics?",
+  "choices": [
+    "It provides free transit",
+    "One connection to a shared fabric permits peering with everyone present, instead of a separate cable to each of forty peers",
+    "It guarantees latency",
+    "It provides address space"
+  ],
+  "answer": 1,
+  "explanation": "An IXP port plus forty peering sessions is dramatically cheaper than the equivalent transit, which is why the decision to peer or buy is made on a spreadsheet rather than on principle.",
+  "tags": [
+    "ixp",
+    "peering",
+    "economics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

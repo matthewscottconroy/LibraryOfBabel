@@ -1,0 +1,22 @@
+{
+  "question_id": "391af99b-a9bd-49d9-a729-9032ffd40fd0",
+  "chapter": 71,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What must a defensible design justification contain?",
+  "choices": [
+    "A vendor recommendation",
+    "A decision, the specific requirement or number that drove it, the alternative considered, and the condition under which the answer would change",
+    "A cost estimate",
+    "A reference to a standard"
+  ],
+  "answer": 1,
+  "explanation": "'We chose X rather than Y because...' where the reason is traceable to a stated requirement, a computed number, or an explicit tradeoff — not a preference or a habit. The last element is what makes a document useful to whoever inherits it.",
+  "tags": [
+    "design-justification",
+    "documentation",
+    "engineering"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

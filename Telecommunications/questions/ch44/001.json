@@ -1,0 +1,22 @@
+{
+  "question_id": "92a3e331-fede-4785-a936-533f31cd6cdb",
+  "chapter": 44,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An administrator raises every access point to maximum transmit power to improve coverage. Give the strongest reason this makes things worse.",
+  "choices": [
+    "It shortens hardware life",
+    "Clients transmit at far lower power, so they associate from distances at which their own transmissions do not arrive cleanly — an asymmetric, broken link showing full bars",
+    "It violates regulations",
+    "It increases power consumption"
+  ],
+  "answer": 1,
+  "explanation": "Three further effects compound: every access point becomes interference for the others, cells overlap so clients stop roaming, and clients that cling to a distant AP run at low rates and consume airtime everyone else is waiting for.",
+  "tags": [
+    "transmit-power",
+    "wlan-design",
+    "asymmetry"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

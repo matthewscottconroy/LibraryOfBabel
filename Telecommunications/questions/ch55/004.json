@@ -1,0 +1,22 @@
+{
+  "question_id": "8211274c-0dc4-47b8-89e5-a61b3cce8f23",
+  "chapter": 55,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Distinguish RPO from RTO.",
+  "choices": [
+    "They are the same",
+    "RPO is how much data may be lost, measured in time; RTO is how long restoration may take",
+    "RPO is for hardware, RTO for software",
+    "RTO is the backup frequency"
+  ],
+  "answer": 1,
+  "explanation": "They are independent and cost money differently — RPO is largely a replication cost, RTO largely standby capacity and rehearsal. Uniform targets across all systems are a sign that nobody did the analysis.",
+  "tags": [
+    "rpo",
+    "rto",
+    "disaster-recovery"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

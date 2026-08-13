@@ -1,0 +1,22 @@
+{
+  "question_id": "ffb439b7-7490-467a-9cf9-8c24b74b2092",
+  "chapter": 68,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What makes a cloud subnet 'public'?",
+  "choices": [
+    "A configuration flag on the subnet",
+    "Its route table has a default route pointing at an internet gateway — it is routing, with no special property",
+    "It uses public IP addresses",
+    "It is in a specific availability zone"
+  ],
+  "answer": 1,
+  "explanation": "Understanding this removes most of the mystery from cloud network design, and it is the same longest-prefix-match forwarding the rest of the book describes.",
+  "tags": [
+    "vpc",
+    "routing",
+    "internet-gateway"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

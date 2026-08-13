@@ -1,0 +1,22 @@
+{
+  "question_id": "9db0f6aa-8887-420b-9f5b-29266de57ac5",
+  "chapter": 31,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In February 2008, Pakistan Telecom made YouTube globally unreachable for about two hours. How?",
+  "choices": [
+    "A denial of service attack",
+    "They advertised a MORE SPECIFIC prefix for YouTube's space, and longest-prefix match made routers worldwide prefer it",
+    "They cut a submarine cable",
+    "They poisoned DNS"
+  ],
+  "answer": 1,
+  "explanation": "An attempt at domestic blocking escaped to their upstream provider and propagated globally. The mechanism was entirely ordinary routing behaviour applied to an advertisement nobody had authorised, which is BGP's founding assumption failing.",
+  "tags": [
+    "bgp-hijack",
+    "longest-prefix-match",
+    "incident"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

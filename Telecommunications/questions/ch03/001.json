@@ -1,0 +1,22 @@
+{
+  "question_id": "70701bde-36ef-419d-859f-ca690bfddc61",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A telephone channel has 3,100 Hz of bandwidth and an SNR of 30 dB. What is its Shannon capacity?",
+  "choices": [
+    "About 6.2 kb/s",
+    "About 31 kb/s",
+    "About 56 kb/s",
+    "About 93 kb/s"
+  ],
+  "answer": 1,
+  "explanation": "30 dB is a linear ratio of 1,000, so C = 3,100 x log2(1001) = 3,100 x 9.97 = about 31 kb/s. V.34 modems achieved 28.8 and later 33.6 kb/s on good lines — right against the bound, which is why analog modem speeds stopped improving despite enormous commercial pressure.",
+  "tags": [
+    "shannon-capacity",
+    "snr",
+    "modem"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

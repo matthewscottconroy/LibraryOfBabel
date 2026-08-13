@@ -1,0 +1,20 @@
+{
+  "question_id": "3ef2e28a-8df5-4d8e-ad5d-c12f7979cc72",
+  "chapter": 37,
+  "phase": 3,
+  "kind": "tf",
+  "text": "QUIC eliminates head-of-line blocking across multiplexed streams, which HTTP/2 over TCP could not.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. HTTP/2 multiplexed many requests over one TCP connection, so one lost packet stalled all of them. QUIC's streams are independent, so a loss affects only the stream it belongs to.",
+  "tags": [
+    "quic",
+    "head-of-line-blocking",
+    "http2"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

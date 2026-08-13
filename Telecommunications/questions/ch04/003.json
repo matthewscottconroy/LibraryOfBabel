@@ -1,0 +1,22 @@
+{
+  "question_id": "603f4bfb-1e21-4ad5-a750-1031ea60f476",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A digital repeater regenerates a signal; an analog amplifier boosts it. What is the consequence?",
+  "choices": [
+    "The amplifier is faster",
+    "The repeater discards accumulated noise by re-deciding each symbol, while the amplifier amplifies signal and noise together",
+    "The repeater requires more power",
+    "There is no practical difference over short distances"
+  ],
+  "answer": 1,
+  "explanation": "Regeneration re-decides which discrete value was sent and emits a clean signal; noise does not accumulate across hops. Amplification scales everything present, so noise compounds — which is why a transcontinental analog call sounded the way it did and a digital one does not.",
+  "tags": [
+    "regeneration",
+    "amplification",
+    "noise"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

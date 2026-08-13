@@ -1,0 +1,20 @@
+{
+  "question_id": "e18aa2b2-2038-42c7-b519-211d4137f0ec",
+  "chapter": 20,
+  "phase": 1,
+  "kind": "tf",
+  "text": "TCP cannot distinguish a packet lost to congestion from one lost to radio interference, and this is a consequence of layering rather than a bug.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The abstraction that makes TCP portable also hides why a packet was lost. TCP assumes congestion and slows down, which is correct on a wire and wrong on a lossy wireless link. The layer below knows the answer and has no way to say it.",
+  "tags": [
+    "layering-cost",
+    "information-hiding",
+    "tcp"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

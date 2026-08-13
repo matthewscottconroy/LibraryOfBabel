@@ -1,0 +1,22 @@
+{
+  "question_id": "6670567a-ef89-43e1-9a63-9ca002c157a2",
+  "chapter": 69,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why does declarative configuration make drift detectable automatically?",
+  "choices": [
+    "It logs every change",
+    "The file is the truth — a statement of what the device must be — so drift is simply a non-empty diff",
+    "It prevents manual changes",
+    "It requires version control"
+  ],
+  "answer": 1,
+  "explanation": "The configuration in version control stops being a record of the device and becomes the source from which the device is generated, which is the natural destination of the change-management practices.",
+  "tags": [
+    "drift",
+    "declarative",
+    "source-of-truth"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

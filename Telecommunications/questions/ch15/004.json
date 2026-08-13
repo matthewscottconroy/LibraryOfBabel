@@ -1,0 +1,22 @@
+{
+  "question_id": "c91ff1cc-7f05-42f6-9c78-5b8fb58a8c95",
+  "chapter": 15,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In '10GBASE-SR', what does each part mean?",
+  "choices": [
+    "10 Gb/s, broadband, short reach",
+    "10 Gb/s, baseband signalling, short-reach multimode fibre",
+    "10 metres, baseband, single-mode",
+    "10 Gb/s, baseband, single-mode redundant"
+  ],
+  "answer": 1,
+  "explanation": "The pattern is rate, BASE for baseband, then a suffix for the medium and reach: SR short-reach multimode, LR long-reach single-mode, T twisted pair. Being able to read the name saves looking up a table.",
+  "tags": [
+    "ethernet-standards",
+    "naming",
+    "fibre"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "24f9300a-6e45-4dd9-ac90-359286d1f1de",
+  "chapter": 22,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Order the encapsulation of an HTTP request from the application down.",
+  "choices": [
+    "Frame, packet, segment, data",
+    "Data, segment, packet, frame",
+    "Packet, frame, segment, data",
+    "Segment, data, frame, packet"
+  ],
+  "answer": 1,
+  "explanation": "The application's data is wrapped in a TCP header to make a segment, then an IP header to make a packet, then an Ethernet header and FCS to make a frame. Using frame, packet, segment and datagram strictly is worth the discipline: 'the switch dropped the packet' is imprecise, and imprecision costs time in a diagnostic conversation.",
+  "tags": [
+    "encapsulation",
+    "pdu",
+    "terminology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "ef94a77b-c1e8-496a-8b1c-dc8f92f6e558",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Enabling compression on a WAN accelerator for TLS-encrypted traffic will reduce the bytes transmitted.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Ciphertext is designed to be statistically indistinguishable from random, which means maximum entropy, which by the source coding theorem means it cannot be compressed. The CPU is spent for no gain. This is also why compression must be applied before encryption, never after.",
+  "tags": [
+    "entropy",
+    "compression",
+    "encryption"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

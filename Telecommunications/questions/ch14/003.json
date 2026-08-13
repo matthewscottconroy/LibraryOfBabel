@@ -1,0 +1,22 @@
+{
+  "question_id": "f412f040-33ba-4688-8cac-7969b231afd7",
+  "chapter": 14,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Give three independent reasons why data is chopped into frames rather than sent as one long transmission.",
+  "choices": [
+    "Encryption, compression, and routing",
+    "Fairness on a shared medium, limiting the cost of a single error, and providing boundaries the receiver can find",
+    "Cost, speed, and reliability",
+    "Standards compliance only"
+  ],
+  "answer": 1,
+  "explanation": "A long transmission monopolises a shared medium, forces retransmission of everything on a single bit error, and gives the receiver no punctuation in a continuous voltage stream. Framing addresses all three at once.",
+  "tags": [
+    "framing",
+    "error-recovery",
+    "fairness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

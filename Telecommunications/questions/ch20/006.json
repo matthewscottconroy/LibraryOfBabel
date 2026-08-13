@@ -1,0 +1,22 @@
+{
+  "question_id": "aca3265e-4f96-49e0-b2cc-62d85dcd7c0d",
+  "chapter": 20,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why do DPDK, RDMA and kernel bypass exist?",
+  "choices": [
+    "To improve security",
+    "They are admissions that layering's per-boundary copy and context-switch cost is sometimes intolerable",
+    "To support IPv6",
+    "To simplify application code"
+  ],
+  "answer": 1,
+  "explanation": "Each boundary crossing costs a copy, a context switch, or both. High-performance networking spends considerable effort bypassing layers, which is a purchase: capability bought with future flexibility.",
+  "tags": [
+    "layering-cost",
+    "kernel-bypass",
+    "performance"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

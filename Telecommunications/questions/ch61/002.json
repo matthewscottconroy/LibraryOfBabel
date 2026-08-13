@@ -1,0 +1,22 @@
+{
+  "question_id": "4ac7cee9-5ba1-454d-b5b6-6377126a8155",
+  "chapter": 61,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What would universal BCP 38 source address validation eliminate?",
+  "choices": [
+    "All malware",
+    "Reflection and amplification attacks, which all require forged source addresses",
+    "Phishing",
+    "Ransomware"
+  ],
+  "answer": 1,
+  "explanation": "It is twenty-six years old, would remove an entire attack class, and remains incompletely deployed — a useful case study in why security improvements requiring universal cooperation do not happen.",
+  "tags": [
+    "bcp38",
+    "spoofing",
+    "amplification"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

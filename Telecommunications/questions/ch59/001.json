@@ -1,0 +1,22 @@
+{
+  "question_id": "8e8b4274-56f3-4ee9-b0a8-8f83060ef297",
+  "chapter": 59,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A firewall rule is present, correct, and has no effect. Where do you look?",
+  "choices": [
+    "At the rule's syntax",
+    "Upward in the list — evaluation stops at the first match, so a broader deny above it shadows it",
+    "At the interface configuration",
+    "At the routing table"
+  ],
+  "answer": 1,
+  "explanation": "Hit counters make this immediate: a rule with zero hits after a week is either unnecessary or shadowed. Order matters, and it is the single most common ACL error.",
+  "tags": [
+    "acl",
+    "rule-order",
+    "shadowing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

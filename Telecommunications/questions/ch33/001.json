@@ -1,0 +1,22 @@
+{
+  "question_id": "5891329b-b95f-4a6e-b2be-0e92c1b9e6fe",
+  "chapter": 33,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A ping to a host fails. What does that prove?",
+  "choices": [
+    "The host is down",
+    "Almost nothing — firewalls, rate limits and host policy all commonly block ICMP",
+    "The route is missing",
+    "DNS is broken"
+  ],
+  "answer": 1,
+  "explanation": "'It doesn't ping' is not a diagnosis. Prefer a test that exercises what you actually care about: if you need to know whether a web service works, connect to port 443. A SUCCESSFUL ping, by contrast, proves a great deal — bidirectional Layer 3 reachability and a live stack.",
+  "tags": [
+    "ping",
+    "icmp",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

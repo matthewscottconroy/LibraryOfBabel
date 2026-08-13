@@ -1,0 +1,22 @@
+{
+  "question_id": "d50c9fd7-7892-4f07-92d2-880db2d7ea50",
+  "chapter": 24,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is 192.168.10.70 as a 32-bit integer, conceptually?",
+  "choices": [
+    "Four separate numbers",
+    "One number, presented in four decimal groups purely for human legibility",
+    "A hierarchical name",
+    "A hardware identifier"
+  ],
+  "answer": 1,
+  "explanation": "Dotted decimal is a costume over a 32-bit integer, and the costume actively obstructs the one operation that matters — masking off a prefix — because the dots fall in places with no significance once prefixes stopped landing on octet boundaries in 1993.",
+  "tags": [
+    "ipv4",
+    "dotted-decimal",
+    "notation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

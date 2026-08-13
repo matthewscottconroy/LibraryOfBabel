@@ -1,0 +1,19 @@
+{
+  "question_id": "7f604ee8-df47-4740-90ab-4ed4ac654484",
+  "chapter": 24,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The subnet mask 255.255.255.224 is equivalent to /27.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. 224 is 11100000, so the mask has 24 + 3 = 27 leading ones. Converting between the two forms instantly, in both directions, requires only the nine legal octet values.",
+  "tags": [
+    "subnet-mask",
+    "cidr-notation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

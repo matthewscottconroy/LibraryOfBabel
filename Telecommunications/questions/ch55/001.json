@@ -1,0 +1,22 @@
+{
+  "question_id": "9b2cb2ed-c3d2-4dcd-aa58-e18b87b5f5cb",
+  "chapter": 55,
+  "phase": 4,
+  "kind": "mc",
+  "text": "How much downtime per year does 99.999% availability permit?",
+  "choices": [
+    "52.6 minutes",
+    "5.26 minutes",
+    "31.6 seconds",
+    "8.77 hours"
+  ],
+  "answer": 1,
+  "explanation": "Including all planned maintenance — which defeats most claims immediately, since an organisation rebooting firewalls quarterly has already spent the entire annual budget several times over.",
+  "tags": [
+    "availability",
+    "nines",
+    "downtime"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

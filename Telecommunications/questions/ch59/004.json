@@ -1,0 +1,22 @@
+{
+  "question_id": "c2ad79bb-3b09-4793-aca1-9e20335c9435",
+  "chapter": 59,
+  "phase": 4,
+  "kind": "mc",
+  "text": "State the honest cost of TLS inspection.",
+  "choices": [
+    "Only performance",
+    "Every inspected session's security depends on the firewall's TLS implementation, which has historically been worse than browsers'; it breaks pinning and creates a single point where all plaintext exists",
+    "Only legal risk",
+    "It cannot inspect HTTP/2"
+  ],
+  "answer": 1,
+  "explanation": "Several inspection products have been found downgrading cipher suites and failing to validate upstream certificates, reintroducing vulnerabilities the endpoints had fixed. The defensible position is selective inspection with documented exclusions.",
+  "tags": [
+    "tls-inspection",
+    "ngfw",
+    "tradeoff"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

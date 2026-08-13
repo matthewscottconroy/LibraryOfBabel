@@ -1,0 +1,22 @@
+{
+  "question_id": "dceef1ad-7946-41cb-a810-1bb27bdf9f76",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is 192.168.10.70 ANDed with 255.255.255.224?",
+  "choices": [
+    "192.168.10.0",
+    "192.168.10.64",
+    "192.168.10.70",
+    "192.168.10.96"
+  ],
+  "answer": 1,
+  "explanation": "The last octet 70 is 01000110 and the mask octet 224 is 11100000. ANDing preserves the top three bits: 01000000 = 64. So the network address is 192.168.10.64. This single operation, performed in hardware for every forwarded packet, is the fundamental operation of IP networking.",
+  "tags": [
+    "bitwise-and",
+    "subnet-mask",
+    "binary"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "b48c2238-2940-4010-b974-3d408d9d8bc1",
+  "chapter": 37,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does QUIC encrypt almost all of its transport metadata?",
+  "choices": [
+    "To improve performance",
+    "Deliberately, to prevent middleboxes from ossifying the protocol as they ossified TCP — at the cost of blinding operators",
+    "To comply with regulation",
+    "Because UDP requires it"
+  ],
+  "answer": 1,
+  "explanation": "TCP's extensibility was strangled by middleboxes that discarded unknown options and packets with unfamiliar bits set — which is why ECN took a decade to become usable. QUIC's designers chose to prevent that, and the argument about the operational cost is live.",
+  "tags": [
+    "quic",
+    "ossification",
+    "middleboxes"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

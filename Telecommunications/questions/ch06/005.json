@@ -1,0 +1,20 @@
+{
+  "question_id": "ebffe329-72ab-4076-a446-2ebcf87fcd08",
+  "chapter": 6,
+  "phase": 0,
+  "kind": "tf",
+  "text": "AC-coupled media containing transformers or capacitors require a DC-balanced line code.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. A transformer or capacitor cannot pass a sustained DC level, so a long run of identical symbols decays rather than being received cleanly. DC balance — equal numbers of ones and zeros over any window — is one of the two things a line code buys, alongside transition density for clock recovery.",
+  "tags": [
+    "dc-balance",
+    "ac-coupling",
+    "line-coding"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

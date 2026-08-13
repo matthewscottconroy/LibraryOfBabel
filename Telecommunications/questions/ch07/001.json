@@ -1,0 +1,22 @@
+{
+  "question_id": "680f7cc9-a6a8-403c-9e09-3f1a7b62e6e4",
+  "chapter": 7,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why must a radio signal be modulated onto a carrier rather than transmitted at baseband?",
+  "choices": [
+    "Baseband signals are illegal in most jurisdictions",
+    "An efficient antenna is a substantial fraction of a wavelength, and baseband wavelengths are kilometres long",
+    "Baseband signals cannot be encrypted",
+    "Carriers reduce noise"
+  ],
+  "answer": 1,
+  "explanation": "A 3 kHz baseband signal has a 100 km wavelength, so a quarter-wave antenna would be 25 km tall. Moving it to 900 MHz gives a 33 cm wavelength and an 8.3 cm antenna. The second, independent reason is that modulation permits frequency-division multiplexing.",
+  "tags": [
+    "modulation",
+    "antenna",
+    "wavelength"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

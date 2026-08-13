@@ -1,0 +1,22 @@
+{
+  "question_id": "57362236-b98c-498c-8c26-dde3e28795f7",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Without window scaling, what is the maximum single-stream TCP throughput on a path with a 500 ms round-trip time?",
+  "choices": [
+    "About 1.05 Mb/s",
+    "About 5.2 Mb/s",
+    "About 10.5 Mb/s",
+    "It depends on the link's capacity"
+  ],
+  "answer": 0,
+  "explanation": "Throughput = window / RTT = 65,535 x 8 bits / 0.5 s = about 1.05 Mb/s. Notice the calculation never mentions the link's capacity, because capacity is not involved. This is what Cheshire's 'It's the Latency, Stupid' was pointing at, and it is why GEO satellite links need performance-enhancing proxies.",
+  "tags": [
+    "window-scaling",
+    "bandwidth-delay-product",
+    "satellite"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

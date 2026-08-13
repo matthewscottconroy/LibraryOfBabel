@@ -1,0 +1,22 @@
+{
+  "question_id": "f7af61e8-cdc1-4cce-a7f1-7bd540420075",
+  "chapter": 35,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A DNS query and response over UDP costs two packets and one round trip. Over TCP?",
+  "choices": [
+    "Two packets, one round trip",
+    "Three packets, one round trip",
+    "Seven packets and at least two round trips, counting handshake and teardown",
+    "The same, since DNS is small"
+  ],
+  "answer": 2,
+  "explanation": "At the scale DNS operates the difference is enormous. If a UDP reply is lost, the application simply asks again — a retransmission scheme costing zero bytes of protocol machinery.",
+  "tags": [
+    "udp",
+    "dns",
+    "round-trips"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "2b5c0ff8-0c14-4dd0-9e89-d5581e2cba19",
+  "chapter": 52,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A single person who understands the addressing plan or the firewall policy is an availability risk in the same category as a single power feed.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and it should be treated as one. The single point of knowledge is one of the four classic documentation failures, alongside stale documentation, undocumented incident changes, and purpose-based labels.",
+  "tags": [
+    "bus-factor",
+    "documentation",
+    "risk"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

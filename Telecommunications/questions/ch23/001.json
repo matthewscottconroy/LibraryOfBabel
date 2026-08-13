@@ -1,0 +1,22 @@
+{
+  "question_id": "a8725a60-f512-43a1-b6d0-c9166e001120",
+  "chapter": 23,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Give the strongest justification for IP's best-effort service model.",
+  "choices": [
+    "It was easier to implement",
+    "IP must run over every network technology, and the most it can promise universally is what the weakest constituent can provide",
+    "It reduces header size",
+    "It improves security"
+  ],
+  "answer": 1,
+  "explanation": "There are three arguments and they compound: the end-to-end argument makes network reliability redundant for correctness, the lowest-common-denominator argument makes it impossible to promise, and statelessness is what lets routers scale and survive reboots.",
+  "tags": [
+    "best-effort",
+    "ip",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

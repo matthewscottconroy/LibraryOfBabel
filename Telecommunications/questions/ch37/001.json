@@ -1,0 +1,22 @@
+{
+  "question_id": "cb9a4402-4e1c-4bd0-8621-6c4ce7f788e7",
+  "chapter": 37,
+  "phase": 3,
+  "kind": "mc",
+  "text": "In October 1986 the LBL-Berkeley link fell from 32 kb/s to 40 b/s. What happened?",
+  "choices": [
+    "A hardware failure",
+    "Congestion collapse: queues filled, senders retransmitted, retransmissions added load, and the fraction of capacity carrying useful data collapsed",
+    "A routing loop",
+    "A denial of service attack"
+  ],
+  "answer": 1,
+  "explanation": "The critical property is that it is stable — it does not recover when load decreases, because the retransmissions sustain it. The original TCP had no defence because its designers had not distinguished overwhelming a receiver from overwhelming the network.",
+  "tags": [
+    "congestion-collapse",
+    "tcp",
+    "history"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

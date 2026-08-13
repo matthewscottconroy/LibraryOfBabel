@@ -1,0 +1,22 @@
+{
+  "question_id": "c05c96e3-0046-4f70-9416-22a98489f005",
+  "chapter": 12,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the statistical multiplexing example, 100 users at 5% activity are served by a 20 Mb/s link with what approximate overflow probability?",
+  "choices": [
+    "About 1 in 10",
+    "About 1 in 1,000",
+    "Under 1 in 10 million",
+    "Exactly zero"
+  ],
+  "answer": 2,
+  "explanation": "The binomial calculation with n=100, p=0.05 gives a probability under 10^-6 that more than 20 users are simultaneously active. One fifth of the circuit-switched capacity, essentially the same service — and that factor, compounded at every level of aggregation, is why packet switching won.",
+  "tags": [
+    "statistical-multiplexing",
+    "binomial",
+    "capacity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

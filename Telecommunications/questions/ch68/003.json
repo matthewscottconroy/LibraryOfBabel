@@ -1,0 +1,22 @@
+{
+  "question_id": "6fa913a2-8743-4501-a8de-83aebdb2b42b",
+  "chapter": 68,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is VPC peering non-transitive?",
+  "choices": [
+    "A technical limitation",
+    "Deliberately — it prevents accidental transit, exactly as in the peering-versus-transit distinction between autonomous systems",
+    "To reduce cost",
+    "Because of address overlap"
+  ],
+  "answer": 1,
+  "explanation": "If A peers with B and B peers with C, A cannot reach C. This is why transit gateways exist and why any design with more than a handful of VPCs needs a hub.",
+  "tags": [
+    "vpc-peering",
+    "transit-gateway",
+    "architecture"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "d775d206-63e9-45df-afff-d7459bbbc643",
+  "chapter": 71,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Producing a design is not difficult; producing a design you can defend against someone asking 'why not the other thing?' is the skill.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and it is what distinguishes an engineer from a configurator. A competent person with a catalogue can produce a design in an afternoon; stating the tradeoffs rather than hiding them is the harder and more valuable work.",
+  "tags": [
+    "design",
+    "defence",
+    "engineering"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

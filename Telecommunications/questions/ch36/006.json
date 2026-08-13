@@ -1,0 +1,22 @@
+{
+  "question_id": "a78c913c-e6d5-40bc-a684-7900b4300fd1",
+  "chapter": 36,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does a TCP connection stall after transferring exactly 64 KB on a long path?",
+  "choices": [
+    "The application closed the socket",
+    "The window scale option was stripped by a middlebox, so the two ends disagree about the scale factor",
+    "The MTU is too small",
+    "The route changed"
+  ],
+  "answer": 1,
+  "explanation": "Window scaling is negotiated only in the SYN, and some old firewalls and load balancers remove unknown TCP options. The result is not a clean failure but a connection that stalls mysteriously at the unscaled window size.",
+  "tags": [
+    "window-scaling",
+    "middlebox",
+    "diagnosis"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

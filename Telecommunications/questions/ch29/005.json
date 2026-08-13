@@ -1,0 +1,20 @@
+{
+  "question_id": "991b725d-b38b-4d05-b353-c62067ace845",
+  "chapter": 29,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Static routing has no attack surface from route injection, because it accepts no information from neighbours.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and it is a genuine and underrated advantage. A dynamic routing protocol accepts information from neighbours, and a protocol that accepts information can be lied to. For a stub site with one link out, running a protocol to discover a fact you already know is ceremony.",
+  "tags": [
+    "static-routing",
+    "security",
+    "stub-network"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "a807d066-97af-484c-80a9-5586e87d9b81",
+  "chapter": 42,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is DFS and why do many administrators avoid DFS channels?",
+  "choices": [
+    "A security feature; it is slow",
+    "Dynamic Frequency Selection requires devices to vacate a channel on detecting radar; a false detection moves the access point mid-shift, and some clients have handled it badly",
+    "A power-saving mode; it reduces range",
+    "A routing protocol; it is complex"
+  ],
+  "answer": 1,
+  "explanation": "Avoiding DFS discards over half the available 5 GHz spectrum, which is a real cost. Client handling has improved substantially, and in a congested environment reconsidering the avoidance is often worthwhile.",
+  "tags": [
+    "dfs",
+    "5ghz",
+    "radar"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

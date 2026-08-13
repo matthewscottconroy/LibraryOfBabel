@@ -1,0 +1,20 @@
+{
+  "question_id": "08cc7361-5569-4fa8-bd61-d00feec0c4ac",
+  "chapter": 41,
+  "phase": 3,
+  "kind": "tf",
+  "text": "MIMO turns multipath from a problem into an asset by using the independent propagation paths as independent channels.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and it is one of the more elegant reversals in the field. Historically multipath was purely destructive, causing fading when copies arrived out of phase. MIMO's spatial streams are why Wi-Fi rates rose faster than Shannon's single-channel curve would allow.",
+  "tags": [
+    "mimo",
+    "multipath",
+    "wireless"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

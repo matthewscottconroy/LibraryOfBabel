@@ -1,0 +1,22 @@
+{
+  "question_id": "402e1cda-5c1e-4938-987f-32ae817417f6",
+  "chapter": 20,
+  "phase": 1,
+  "kind": "mc",
+  "text": "With m applications and n network technologies, what does a shared abstraction change?",
+  "choices": [
+    "Nothing measurable",
+    "m x n implementations become m + n",
+    "m + n becomes m x n",
+    "It halves the work"
+  ],
+  "answer": 1,
+  "explanation": "Each application is written once against the abstraction and each network implemented once to provide it. The strategic difference is larger than the arithmetic: innovation at either end no longer requires permission or coordination from the other.",
+  "tags": [
+    "layering",
+    "abstraction",
+    "m-times-n"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

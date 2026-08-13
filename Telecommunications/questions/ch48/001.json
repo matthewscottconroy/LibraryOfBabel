@@ -1,0 +1,22 @@
+{
+  "question_id": "f4cbc164-6e84-4cd1-802d-eb6831559deb",
+  "chapter": 48,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is the last mile the most expensive kilometre of any network?",
+  "choices": [
+    "The equipment costs more",
+    "It serves exactly one building, so its cost is borne entirely by that customer and does not fall with scale",
+    "Regulation is heaviest there",
+    "It requires the highest bandwidth"
+  ],
+  "answer": 1,
+  "explanation": "Every other segment amortises across many customers. This single economic fact explains why every access technology in the chapter is an attempt to avoid building a new last mile by extracting more from infrastructure that already exists.",
+  "tags": [
+    "last-mile",
+    "economics",
+    "access-networks"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

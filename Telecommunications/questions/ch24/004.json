@@ -1,0 +1,22 @@
+{
+  "question_id": "a59eb4cc-d444-4725-956f-519122e43204",
+  "chapter": 24,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why does classful addressing still matter in 2026, thirty-three years after its abolition?",
+  "choices": [
+    "Some networks still use it",
+    "It shapes equipment defaults, some routing protocol auto-summarisation, the way RFC 1918 ranges are described, and the language engineers still speak",
+    "IPv6 reintroduced it",
+    "It is required for BGP"
+  ],
+  "answer": 1,
+  "explanation": "Type an address into many devices and they suggest a mask based on its class; accept it without thinking and you have a /8 where you wanted a /24. Know it well enough to recognise it when a device does something surprising, and never reason from it.",
+  "tags": [
+    "classful",
+    "defaults",
+    "history"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

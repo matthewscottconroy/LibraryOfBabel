@@ -1,0 +1,22 @@
+{
+  "question_id": "ed688273-928b-411a-bfdd-404559b038ce",
+  "chapter": 8,
+  "phase": 0,
+  "kind": "mc",
+  "text": "100 users each need 1 Mb/s when active and are active 5% of the time. What capacity does circuit switching require to serve all of them?",
+  "choices": [
+    "5 Mb/s",
+    "20 Mb/s",
+    "100 Mb/s",
+    "It depends on the switching technology"
+  ],
+  "answer": 2,
+  "explanation": "Circuit switching reserves capacity for the duration of each session, so serving all 100 simultaneously requires 100 Mb/s — idle 95% of the time. Statistical multiplexing over a 20 Mb/s link serves the same population with an overflow probability under one in ten million.",
+  "tags": [
+    "circuit-switching",
+    "statistical-multiplexing",
+    "capacity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

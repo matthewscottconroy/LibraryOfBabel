@@ -1,0 +1,22 @@
+{
+  "question_id": "fb9096f7-6d97-49f5-8093-24c81418a8d1",
+  "chapter": 40,
+  "phase": 3,
+  "kind": "mc",
+  "text": "SFTP and FTPS are frequently confused. What is the relationship?",
+  "choices": [
+    "They are the same protocol",
+    "SFTP is a subsystem of SSH on port 22; FTPS is FTP wrapped in TLS — unrelated protocols with similar names",
+    "FTPS is the successor to SFTP",
+    "SFTP is FTP over TLS"
+  ],
+  "answer": 1,
+  "explanation": "This is why port 22 appears twice in the port table. Knowing the relationship prevents both firewall misconfiguration and a common interview stumble.",
+  "tags": [
+    "sftp",
+    "ftps",
+    "file-transfer"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

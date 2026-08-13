@@ -1,0 +1,22 @@
+{
+  "question_id": "dd90a863-6b46-4273-9c3a-2c9359396c84",
+  "chapter": 14,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the EtherType value for IPv4?",
+  "choices": [
+    "0x0806",
+    "0x0800",
+    "0x86DD",
+    "0x8100"
+  ],
+  "answer": 1,
+  "explanation": "0x0800 is IPv4, 0x0806 is ARP, 0x86DD is IPv6 and 0x8100 marks an 802.1Q VLAN tag. The EtherType is the self-describing type field that tells the receiver how to interpret the payload — the physical implementation of layering.",
+  "tags": [
+    "ethertype",
+    "framing",
+    "layering"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "1018568b-dd3d-430e-ad0c-7f22a9704c91",
+  "chapter": 58,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Zero trust's premise is that network location confers no trust, so every request is authenticated and authorised on its own merits.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The perimeter model fails because applications moved to the cloud, users moved out of the office, and an attacker who gets inside faces no further obstacles. Its main difficulties are that it is a multi-year programme, legacy applications cannot participate, and the identity provider becomes a consequential single point of failure.",
+  "tags": [
+    "zero-trust",
+    "perimeter",
+    "architecture"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

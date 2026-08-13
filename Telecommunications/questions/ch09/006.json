@@ -1,0 +1,22 @@
+{
+  "question_id": "91057ec7-928d-4582-abe2-dbb8b4f50d83",
+  "chapter": 9,
+  "phase": 0,
+  "kind": "mc",
+  "text": "2.5GBASE-T and 5GBASE-T (802.3bz, 2016) exist primarily to serve what purpose?",
+  "choices": [
+    "To support new data centre fabrics",
+    "To extract multi-gigabit rates from the enormous installed base of Cat5e and Cat6 cable, avoiding replacement",
+    "To reduce power consumption",
+    "To support longer distances than 100 m"
+  ],
+  "answer": 1,
+  "explanation": "The world contains an enormous quantity of Category 5e, and replacing it building by building is prohibitively expensive. Using PAM-4 and heavy DSP, 802.3bz reaches 2.5 and 5 Gb/s over the same 100 m — a direct illustration that a medium's properties are a function of the current manufacturing art.",
+  "tags": [
+    "802.3bz",
+    "cat5e",
+    "copper"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

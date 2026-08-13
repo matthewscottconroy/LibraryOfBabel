@@ -1,0 +1,20 @@
+{
+  "question_id": "6c1700fc-2051-42cd-9e7d-ba5681707fb7",
+  "chapter": 56,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Accepting a risk is a legitimate engineering decision provided it is explicit and documented.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The four responses are mitigate, transfer, accept and avoid, and all are legitimate. The failure is not accepting a risk but accepting it silently and later claiming nobody knew.",
+  "tags": [
+    "risk",
+    "acceptance",
+    "governance"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

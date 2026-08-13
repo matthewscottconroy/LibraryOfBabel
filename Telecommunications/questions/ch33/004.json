@@ -1,0 +1,22 @@
+{
+  "question_id": "950b8511-5021-4ecd-90f8-3ce600925920",
+  "chapter": 33,
+  "phase": 2,
+  "kind": "mc",
+  "text": "ICMP Type 3 Code 3 — Port Unreachable — proves what?",
+  "choices": [
+    "The network is down",
+    "The whole path works and the packet arrived; nothing is listening on that UDP port",
+    "The host is behind a firewall",
+    "The route is asymmetric"
+  ],
+  "answer": 1,
+  "explanation": "It is diagnostically valuable precisely because it eliminates the entire path as a suspect and localises the fault to the service. Classic Unix traceroute uses exactly this to detect arrival at the destination.",
+  "tags": [
+    "icmp",
+    "port-unreachable",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

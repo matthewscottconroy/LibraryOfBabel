@@ -1,0 +1,22 @@
+{
+  "question_id": "0b182f80-bef9-4127-a726-99b69ad8db1a",
+  "chapter": 27,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which IPv6 address type is automatically configured on every interface, always, and never routed?",
+  "choices": [
+    "Global unicast (2000::/3)",
+    "Unique local (fd00::/8)",
+    "Link-local (fe80::/10)",
+    "Multicast (ff00::/8)"
+  ],
+  "answer": 2,
+  "explanation": "Link-local addresses are present on every IPv6 interface regardless of other configuration, which means routing protocols can form neighbour relationships before any global addressing exists. A single interface normally holds several addresses simultaneously, which surprises people arriving from IPv4.",
+  "tags": [
+    "ipv6",
+    "link-local",
+    "addressing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

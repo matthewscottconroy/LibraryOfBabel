@@ -1,0 +1,22 @@
+{
+  "question_id": "633fba76-f303-4090-a354-d3601239a08b",
+  "chapter": 12,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why did AT&T tell Baran his design would not work?",
+  "choices": [
+    "The mathematics was demonstrably wrong",
+    "It was genuinely impractical with 1964 technology, and it implied the network they had perfected was the wrong shape",
+    "It violated federal regulations",
+    "It required more copper than existed"
+  ],
+  "answer": 1,
+  "explanation": "Both halves matter. The design was ahead of the available technology, and accepting it would have required admitting that eighty years of circuit-switching investment pointed in the wrong direction. Institutional resistance and genuine technical objection were entangled.",
+  "tags": [
+    "baran",
+    "att",
+    "history"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

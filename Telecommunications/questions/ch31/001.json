@@ -1,0 +1,22 @@
+{
+  "question_id": "7e88a178-e13b-467a-a8b6-5a71b5917e29",
+  "chapter": 31,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why is BGP a path vector protocol rather than distance vector or link state?",
+  "choices": [
+    "Path vector is faster to compute",
+    "Carrying the full AS path allows loop detection without trusting anyone — a router discards any advertisement containing its own AS number",
+    "It uses less memory",
+    "It was the only option available in 1989"
+  ],
+  "answer": 1,
+  "explanation": "In an environment of conflicting interests and absent trust you cannot assume neighbours are honest or even correct. Recognising your own name in a path requires no trust and no global view, which is exactly what an inter-domain protocol needs.",
+  "tags": [
+    "bgp",
+    "path-vector",
+    "loop-detection"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

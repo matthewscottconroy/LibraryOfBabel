@@ -1,0 +1,22 @@
+{
+  "question_id": "77893b1f-a703-4106-b2c0-a834d5ba27a1",
+  "chapter": 42,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Derive why 2.4 GHz has only three non-overlapping channels.",
+  "choices": [
+    "Regulation permits only three",
+    "Channels are spaced 5 MHz apart but a transmission occupies about 22 MHz, so centres must differ by five channel numbers: 1, 6, 11",
+    "Only three channels are licensed",
+    "Hardware supports only three"
+  ],
+  "answer": 1,
+  "explanation": "Twenty-two does not fit in five. Deriving the rule rather than memorising it means it generalises — you can work out the equivalent for any channel width and spacing, including 40 and 80 MHz channels.",
+  "tags": [
+    "channels",
+    "2.4ghz",
+    "overlap"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

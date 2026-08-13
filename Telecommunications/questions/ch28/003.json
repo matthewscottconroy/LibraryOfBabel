@@ -1,0 +1,22 @@
+{
+  "question_id": "e786d423-fb53-412b-acb2-bd872c43cc83",
+  "chapter": 28,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Distinguish the control plane from the data plane.",
+  "choices": [
+    "They are the same thing",
+    "The control plane decides what the table contains, in software over milliseconds; the data plane uses it, in hardware at line rate",
+    "Control plane is management access; data plane is user traffic",
+    "Control plane is Layer 2; data plane is Layer 3"
+  ],
+  "answer": 1,
+  "explanation": "The separation is why a router can run an expensive OSPF recalculation while forwarding at full speed, and why a control-plane failure often leaves traffic flowing while the network slowly becomes wrong.",
+  "tags": [
+    "control-plane",
+    "data-plane",
+    "forwarding"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

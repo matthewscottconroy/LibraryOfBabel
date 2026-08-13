@@ -1,0 +1,22 @@
+{
+  "question_id": "934ffd9c-7c60-4fd9-b8aa-f2c2f14bc33e",
+  "chapter": 8,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What distinguishes statistical multiplexing from the four physical multiplexing techniques?",
+  "choices": [
+    "It is faster",
+    "It allocates capacity on demand rather than dividing a resource in advance, gaining efficiency at the cost of any guarantee",
+    "It only works over fibre",
+    "It requires no addressing"
+  ],
+  "answer": 1,
+  "explanation": "FDM, TDM, CDMA and WDM all partition a resource in advance. Statistical multiplexing gives the channel to whoever currently has something to send, which is enormously more efficient for bursty traffic and cannot promise anything about the service any user will receive.",
+  "tags": [
+    "statistical-multiplexing",
+    "packet-switching",
+    "guarantees"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

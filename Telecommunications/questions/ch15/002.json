@@ -1,0 +1,22 @@
+{
+  "question_id": "970d828f-e099-4bf7-a89a-5ef05c17db43",
+  "chapter": 15,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What two things did Metcalfe add to ALOHA to produce CSMA/CD?",
+  "choices": [
+    "Encryption and error correction",
+    "Listen before transmitting, and listen while transmitting to detect collisions",
+    "Addressing and framing",
+    "Acknowledgements and retransmission"
+  ],
+  "answer": 1,
+  "explanation": "Carrier sense avoids starting into a busy medium and lifts utilisation from 18% to well over 90%. Collision detection aborts a doomed frame immediately rather than wasting its full duration. Neither is possible on a radio channel, which is why Wi-Fi uses collision avoidance instead.",
+  "tags": [
+    "csma-cd",
+    "metcalfe",
+    "carrier-sense"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

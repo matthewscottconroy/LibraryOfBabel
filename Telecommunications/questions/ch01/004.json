@@ -1,0 +1,22 @@
+{
+  "question_id": "20abe7e3-751e-4e64-9780-f594d8efc022",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A subnet mask is written as 255.255.208.0. What is wrong with it?",
+  "choices": [
+    "Nothing — it is a valid mask",
+    "208 is not a contiguous run of ones followed by zeros, so the mask is invalid",
+    "Masks may not contain values above 192 in the third octet",
+    "It is valid but only for Class B networks"
+  ],
+  "answer": 1,
+  "explanation": "208 is 11010000 — ones, then a zero, then a one. A valid mask must be all ones followed by all zeros, which permits only nine octet values (0, 128, 192, 224, 240, 248, 252, 254, 255). RFC 4632 requires contiguity; 208 is most likely a typo for 192 or 224.",
+  "tags": [
+    "subnet-mask",
+    "contiguous-mask",
+    "binary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

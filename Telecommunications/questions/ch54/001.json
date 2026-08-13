@@ -1,0 +1,21 @@
+{
+  "question_id": "90edb59a-e81d-47d5-878c-f36d8d324a39",
+  "chapter": 54,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What causes most unplanned outages?",
+  "choices": [
+    "Hardware failure",
+    "Planned changes made deliberately by competent people following a process",
+    "Attacks",
+    "Capacity exhaustion"
+  ],
+  "answer": 1,
+  "explanation": "This is consistent across organisations and industries. Accepting it makes the problem tractable: make fewer changes at once, know precisely what changed, be able to reverse it quickly, and test the reversal before you need it.",
+  "tags": [
+    "change-management",
+    "outages"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

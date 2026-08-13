@@ -1,0 +1,22 @@
+{
+  "question_id": "31a87315-63ac-4ca4-8f57-beeafc113c54",
+  "chapter": 49,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why do a T1 (1.544 Mb/s) and an E1 (2.048 Mb/s) differ?",
+  "choices": [
+    "Different modulation schemes",
+    "A genuine historical divergence: 24 DS0s plus framing versus 30 DS0s plus signalling, standardised in different regions",
+    "T1 is older technology",
+    "E1 uses fibre"
+  ],
+  "answer": 1,
+  "explanation": "The incompatibility has real consequences for international circuits and persists in carrier price lists today. Both are built from the same 64 kb/s DS0, which derives from Nyquist plus a quantisation decision.",
+  "tags": [
+    "t1",
+    "e1",
+    "digital-hierarchy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "3f1d7b9e-f128-4640-852a-8b74a168743a",
+  "chapter": 65,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Duplex mismatch throughput gets WORSE as offered load increases. Why is that diagnostic?",
+  "choices": [
+    "It is not diagnostic",
+    "Most performance problems degrade gracefully under load; this one collapses, which is the opposite and is characteristic",
+    "It indicates congestion",
+    "It indicates a routing loop"
+  ],
+  "answer": 1,
+  "explanation": "The full-duplex end transmits whenever it likes; the half-duplex end interprets simultaneous transmission as a collision and backs off. Under light load it is nearly invisible. The counter fingerprint is late collisions on the half-duplex end.",
+  "tags": [
+    "duplex-mismatch",
+    "late-collisions",
+    "diagnosis"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

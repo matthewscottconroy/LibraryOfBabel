@@ -1,0 +1,22 @@
+{
+  "question_id": "29953b65-3608-4d05-9fce-3439260ea099",
+  "chapter": 38,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which single test distinguishes a caching problem from a record problem?",
+  "choices": [
+    "ping the domain",
+    "Query the authoritative server directly with dig @ns1.example.com and compare with your resolver's answer",
+    "Restart the resolver",
+    "Check the SOA serial only"
+  ],
+  "answer": 1,
+  "explanation": "If they differ, it is caching. If they agree and are wrong, it is the record. That one comparison eliminates half the possibilities in a few seconds.",
+  "tags": [
+    "dig",
+    "dns",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "58d75be0-f407-4302-b88b-d5739c29d527",
+  "chapter": 69,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Separate AIOps capabilities that exist from those that are aspirational.",
+  "choices": [
+    "Everything claimed works today",
+    "Anomaly detection against a learned baseline, event correlation and capacity forecasting work; autonomous remediation of novel faults and reliable root cause analysis for unseen problems do not",
+    "None of it works",
+    "Only forecasting works"
+  ],
+  "answer": 1,
+  "explanation": "Networks are heterogeneous, sparsely labelled and consequential to get wrong, which is close to the worst combination for current machine learning. Automate the mechanical, keep human judgement on the consequential.",
+  "tags": [
+    "aiops",
+    "machine-learning",
+    "assessment"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

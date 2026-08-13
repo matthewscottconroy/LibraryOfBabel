@@ -1,0 +1,20 @@
+{
+  "question_id": "481a0ec1-fc8e-40f6-abe7-91e73ee8015b",
+  "chapter": 33,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Blocking all ICMP at a firewall is a sound security practice.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. It breaks Path MTU Discovery, producing connections that establish and then hang. For IPv6 it is worse: router fragmentation was removed, so ICMPv6 Packet Too Big is mandatory and blocking it breaks IPv6 outright. RFC 4890 specifies which types must be permitted.",
+  "tags": [
+    "icmp",
+    "firewall",
+    "pmtud"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

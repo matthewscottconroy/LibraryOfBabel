@@ -1,0 +1,22 @@
+{
+  "question_id": "367f32f3-acb9-41fb-86fd-350888db50c2",
+  "chapter": 7,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A measured constellation diagram shows points smeared into arcs around the origin. What does that indicate?",
+  "choices": [
+    "Amplitude compression in the transmitter",
+    "Phase noise",
+    "Additive white Gaussian noise only",
+    "A frequency offset"
+  ],
+  "answer": 1,
+  "explanation": "Rotation about the origin without radial spreading is a phase error; noise would spread points in all directions equally, and amplitude compression would pull the outer points inward radially. Reading a constellation's distortion pattern is a direct diagnostic in cable and satellite work.",
+  "tags": [
+    "constellation",
+    "phase-noise",
+    "diagnosis"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

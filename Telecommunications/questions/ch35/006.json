@@ -1,0 +1,22 @@
+{
+  "question_id": "38bffd3e-3087-42b2-a832-2fac22d5010e",
+  "chapter": 35,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why must multicast applications use UDP?",
+  "choices": [
+    "UDP is more efficient",
+    "There is no single peer to acknowledge, so a reliable transport is not merely wasteful but incoherent",
+    "Multicast routers cannot forward TCP",
+    "TCP does not support IPv6 multicast"
+  ],
+  "answer": 1,
+  "explanation": "Reliability requires acknowledgement from a specific peer; a one-to-many transmission has no such peer. Every multicast application therefore uses UDP and builds whatever reliability it needs at the application layer.",
+  "tags": [
+    "multicast",
+    "udp",
+    "reliability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

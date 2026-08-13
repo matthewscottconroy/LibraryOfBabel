@@ -1,0 +1,22 @@
+{
+  "question_id": "ee13dd8e-32c3-4432-868d-33381ec5a412",
+  "chapter": 64,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A host can reach some remote destinations and not others. What is the most likely cause?",
+  "choices": [
+    "A firewall rule",
+    "A wrong subnet mask, which makes the local-or-remote decision correct for some addresses and wrong for others",
+    "A DNS problem",
+    "A duplex mismatch"
+  ],
+  "answer": 1,
+  "explanation": "This symptom is so characteristic that recognising it is worth more than most of the failure catalogue. The second candidate is a specific missing route.",
+  "tags": [
+    "subnet-mask",
+    "selective-connectivity",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "572f2f06-4209-4b7d-b41a-404d84c7141b",
+  "chapter": 48,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Every GEO satellite internet provider deploys performance-enhancing proxies that terminate TCP locally.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and it follows directly from the bandwidth-delay product: a single TCP stream with a 64 KB window achieves about 1 Mb/s at 500 ms RTT regardless of the link's capacity. The proxy spoofs acknowledgements so the sender does not stall.",
+  "tags": [
+    "satellite",
+    "pep",
+    "bandwidth-delay-product"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

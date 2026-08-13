@@ -1,0 +1,22 @@
+{
+  "question_id": "b738c753-23fd-4d5b-b339-e26ae8a7fe0e",
+  "chapter": 64,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Interface counters show giants. What is a common cause at an administrative boundary?",
+  "choices": [
+    "A failing transceiver",
+    "An 802.1Q tag the far end did not expect, pushing frames to 1,522 bytes",
+    "Congestion",
+    "A routing loop"
+  ],
+  "answer": 1,
+  "explanation": "Equipment that does not expect tagged frames reports them as giants or baby giants and may discard them — a classic and maddening failure where two administrative domains meet.",
+  "tags": [
+    "giants",
+    "802.1q",
+    "counters"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

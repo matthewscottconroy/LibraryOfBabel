@@ -1,0 +1,22 @@
+{
+  "question_id": "e563b2b6-7bfa-4f37-9c36-9a755a9be37d",
+  "chapter": 32,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What architectural change did NAT make to the Internet, as a side effect?",
+  "choices": [
+    "It made the Internet faster",
+    "It converted a network of peers into a network of clients and servers, since ordinary users can consume services but not offer them",
+    "It improved routing convergence",
+    "It enabled encryption"
+  ],
+  "answer": 1,
+  "explanation": "There is no translation entry until an internal host creates one, so unsolicited inbound packets have nowhere to go. Port forwarding, STUN, TURN, ICE and every video-calling application's NAT traversal machinery exist because of this.",
+  "tags": [
+    "nat",
+    "peer-to-peer",
+    "architecture"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

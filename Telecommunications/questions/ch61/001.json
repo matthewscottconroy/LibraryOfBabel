@@ -1,0 +1,22 @@
+{
+  "question_id": "cef4cba4-67db-4707-b7e9-70b213891fd7",
+  "chapter": 61,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What do MAC flooding, ARP spoofing, VLAN hopping, rogue DHCP and STP attacks have in common?",
+  "choices": [
+    "They all require physical access to a switch",
+    "Each exploits a protocol designed to be helpful and trusting on a local segment, and each mitigation is a free switch feature that is off by default",
+    "They all target Layer 3",
+    "They are all defeated by encryption"
+  ],
+  "answer": 1,
+  "explanation": "Port security, DAI, native VLAN hygiene, DHCP snooping and BPDU Guard would eliminate all five, cost nothing but configuration time, and are absent from a large proportion of production networks.",
+  "tags": [
+    "layer-2-attacks",
+    "hardening",
+    "access-layer"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

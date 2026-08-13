@@ -1,0 +1,22 @@
+{
+  "question_id": "e28b61b0-9a3a-47a5-bd82-3f702222a194",
+  "chapter": 70,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What is the most reliable test to apply to any claim about a future networking technology?",
+  "choices": [
+    "Does it improve performance?",
+    "What does adoption cost, who bears it, who benefits, and can it be adopted incrementally by one party at a time?",
+    "Is it standardised?",
+    "Do major vendors support it?"
+  ],
+  "answer": 1,
+  "explanation": "IPv6 answers those questions badly and has taken thirty years. Ethernet answered them well at every step and is everywhere. Watch the economics, not the specifications.",
+  "tags": [
+    "adoption",
+    "economics",
+    "prediction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

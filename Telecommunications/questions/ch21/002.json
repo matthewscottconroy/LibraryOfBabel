@@ -1,0 +1,22 @@
+{
+  "question_id": "9dcf7e46-b300-4539-ba97-630903ca6d20",
+  "chapter": 21,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why did the OSI protocol suite fail while its model survived?",
+  "choices": [
+    "The model was better designed than the protocols",
+    "It was specified before implementation, was expensive and complex, arrived after TCP/IP had the installed base, and included layers nobody needed",
+    "Governments banned it",
+    "It could not support Ethernet"
+  ],
+  "answer": 1,
+  "explanation": "TCP/IP was specified by people who had already built it and came free with Berkeley Unix. The IETF's 'rough consensus and running code' is a direct statement of the difference. Layers 5 and 6 have almost no counterpart in deployed systems.",
+  "tags": [
+    "osi",
+    "history",
+    "standards"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "214bb493-6d71-454a-a86c-b660e7c6255f",
+  "chapter": 12,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the essential difference between datagram and virtual-circuit packet switching?",
+  "choices": [
+    "Datagrams are larger",
+    "Datagrams are routed independently at each hop; virtual circuits establish a path first and label packets to follow it",
+    "Virtual circuits are unencrypted",
+    "Datagrams cannot cross network boundaries"
+  ],
+  "answer": 1,
+  "explanation": "IP is the datagram model and won the Internet; X.25, Frame Relay, ATM and MPLS are virtual-circuit models and won inside carriers, because carriers wanted the traffic engineering and guarantees that a placed path permits.",
+  "tags": [
+    "datagram",
+    "virtual-circuit",
+    "ip"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

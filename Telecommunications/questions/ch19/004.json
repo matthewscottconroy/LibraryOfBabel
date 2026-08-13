@@ -1,0 +1,22 @@
+{
+  "question_id": "bcadadfa-c4f6-4710-a398-7e9aad6f5f86",
+  "chapter": 19,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Adding an 802.1Q tag makes a maximum-size frame how large?",
+  "choices": [
+    "1,518 bytes",
+    "1,522 bytes",
+    "1,526 bytes",
+    "9,000 bytes"
+  ],
+  "answer": 1,
+  "explanation": "Four bytes are inserted between the source address and the EtherType, taking a maximum frame from 1,518 to 1,522. Equipment that does not expect this reports the frames as giants or baby giants and may discard them — a classic and maddening failure at an administrative boundary.",
+  "tags": [
+    "802.1q",
+    "frame-size",
+    "giants"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

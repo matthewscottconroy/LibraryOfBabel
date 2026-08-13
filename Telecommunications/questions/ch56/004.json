@@ -1,0 +1,22 @@
+{
+  "question_id": "40a5ca85-4219-4d13-b1ee-c8a452729ac5",
+  "chapter": 56,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is segmentation specifically the countermeasure to ransomware's business model?",
+  "choices": [
+    "It encrypts data at rest",
+    "Ransomware requires lateral movement to find data worth encrypting and backups worth destroying, and segmentation makes each step expensive",
+    "It prevents phishing",
+    "It blocks command and control"
+  ],
+  "answer": 1,
+  "explanation": "Segmentation does not prevent the initial compromise; it changes the compromise from a catastrophe into an incident, which is the most valuable thing the network layer contributes to security.",
+  "tags": [
+    "ransomware",
+    "segmentation",
+    "lateral-movement"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

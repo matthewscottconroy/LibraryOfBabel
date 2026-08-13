@@ -1,0 +1,22 @@
+{
+  "question_id": "1e0b8f21-9e2a-4aaf-baf4-807fbaf832d5",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A ping reports rtt min/avg/max/mdev = 41.2/48.3/312.6/29.1 ms. What does avg minus min estimate?",
+  "choices": [
+    "The propagation delay",
+    "The typical queueing delay along the path",
+    "The transmission delay of the packet",
+    "The processing delay in the destination host"
+  ],
+  "answer": 1,
+  "explanation": "The minimum approximates the path's irreducible delay, because the fastest packet in the sample queued least. The difference between average and minimum therefore estimates typical queueing. This single subtraction resolves more arguments than any tool in the diagnostic chapters.",
+  "tags": [
+    "latency",
+    "queueing-delay",
+    "ping"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

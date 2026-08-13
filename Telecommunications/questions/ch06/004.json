@@ -1,0 +1,22 @@
+{
+  "question_id": "4d8048cc-25f4-4cea-ac2f-c7d19edd438b",
+  "chapter": 6,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Moving from NRZ (2 levels) to PAM-4 (4 levels) doubles the bits per symbol. What is the cost?",
+  "choices": [
+    "Nothing measurable",
+    "Roughly 9.5 dB more SNR required for the same error rate, because the levels are a third as far apart",
+    "The symbol rate must double",
+    "It only works over fibre"
+  ],
+  "answer": 1,
+  "explanation": "Four levels in the same voltage range means one third the spacing between adjacent levels, requiring substantially better SNR. Modern high-speed copper accepts this because bandwidth is the binding constraint and SNR is recoverable through equalisation and forward error correction.",
+  "tags": [
+    "pam4",
+    "snr",
+    "multilevel-signalling"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

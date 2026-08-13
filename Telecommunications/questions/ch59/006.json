@@ -1,0 +1,22 @@
+{
+  "question_id": "6a8bdb71-609f-418d-8b2e-2a48ed3175a5",
+  "chapter": 59,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the sensible deployment order for microsegmentation?",
+  "choices": [
+    "Enforce immediately, then monitor",
+    "Monitor first using flow data, then alert on violations, then enforce",
+    "Enforce on servers, then workstations",
+    "Buy the product, then discover requirements"
+  ],
+  "answer": 1,
+  "explanation": "Projects fail when the organisation does not know what talks to what. Enforcing first produces an outage and a cancelled project; discovery is the prerequisite.",
+  "tags": [
+    "microsegmentation",
+    "deployment",
+    "flow-data"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

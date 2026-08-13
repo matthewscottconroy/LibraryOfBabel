@@ -1,0 +1,20 @@
+{
+  "question_id": "e8458679-91ad-4d23-a948-596d0a157884",
+  "chapter": 11,
+  "phase": 1,
+  "kind": "tf",
+  "text": "SS7's security model assumed a small number of mutually trusting carriers, which is why SS7-based attacks against SMS two-factor authentication remain viable.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. When only a handful of national carriers could reach the signalling network, authentication seemed unnecessary. Deregulation and interconnection multiplied the participants without changing the assumption, and the consequence is a live attack surface today.",
+  "tags": [
+    "ss7",
+    "security",
+    "sms"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

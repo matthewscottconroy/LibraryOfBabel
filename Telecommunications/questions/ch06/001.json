@@ -1,0 +1,22 @@
+{
+  "question_id": "c8d028a2-23bb-440c-9ad5-7a2c086a8f09",
+  "chapter": 6,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why can a receiver not simply use its own clock to sample an incoming bit stream?",
+  "choices": [
+    "Clocks are too expensive to include in receivers",
+    "Separate crystals differ by tens of parts per million, so the sampling point drifts by a full bit within thousands of bits",
+    "The transmitter's clock is encrypted",
+    "Clock signals cannot travel over copper"
+  ],
+  "answer": 1,
+  "explanation": "A typical crystal is accurate to about +/-50 ppm, which at 1 Gb/s means the sampling point drifts a full bit period after roughly twenty thousand bits. The clock must therefore be recovered from transitions in the data itself, which is why a long run of identical bits is a problem.",
+  "tags": [
+    "clock-recovery",
+    "line-coding",
+    "drift"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

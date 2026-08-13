@@ -1,0 +1,22 @@
+{
+  "question_id": "d79fd410-ca0c-4605-99df-340442c87a91",
+  "chapter": 31,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is an autonomous system?",
+  "choices": [
+    "A single physical network",
+    "A set of networks under one administrative and routing policy — a policy boundary, not a technical one",
+    "One organisation's equipment",
+    "A geographic region"
+  ],
+  "answer": 1,
+  "explanation": "Within an AS, run whatever interior protocol you like; nobody outside can see it. Between autonomous systems, run BGP. That division is the architectural statement behind the whole interior/exterior gateway protocol split.",
+  "tags": [
+    "autonomous-system",
+    "bgp",
+    "policy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

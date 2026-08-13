@@ -1,0 +1,22 @@
+{
+  "question_id": "86f5065f-98a6-4cdd-8ce4-702484b8ac7e",
+  "chapter": 17,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A host at 192.168.10.70/27 wants to send to 192.168.10.100. Which address does it ARP for?",
+  "choices": [
+    "192.168.10.100",
+    "Its default gateway",
+    "Both",
+    "Neither — it uses DNS"
+  ],
+  "answer": 1,
+  "explanation": "With a /27 mask, .70 is in the 64-95 block and .100 is in the 96-127 block, so the destination is remote. The host ARPs for its default gateway and sends the frame there with the IP destination still set to .100. This off-subnet case is the one students most often get wrong.",
+  "tags": [
+    "arp",
+    "local-remote",
+    "subnet-mask"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

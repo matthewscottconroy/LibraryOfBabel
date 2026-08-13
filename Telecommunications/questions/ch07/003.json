@@ -1,0 +1,22 @@
+{
+  "question_id": "1b28646b-88f3-4799-b972-35a9299b6e77",
+  "chapter": 7,
+  "phase": 0,
+  "kind": "mc",
+  "text": "How many bits per symbol does 256-QAM carry?",
+  "choices": [
+    "4",
+    "6",
+    "8",
+    "16"
+  ],
+  "answer": 2,
+  "explanation": "log2(256) = 8 bits per symbol. Each additional bit per symbol requires roughly 3 dB more SNR, which is why a client walking away from an access point steps down the constellation ladder — 4096-QAM to 1024-QAM to 256-QAM and onward — trading rate for noise immunity.",
+  "tags": [
+    "qam",
+    "constellation",
+    "bits-per-symbol"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

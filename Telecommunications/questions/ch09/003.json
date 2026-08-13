@@ -1,0 +1,22 @@
+{
+  "question_id": "aa672d53-c622-4d8a-8eb3-628e29008898",
+  "chapter": 9,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Charles Kao argued in 1966 that fibre's 1,000 dB/km attenuation was not a property of glass. What was it?",
+  "choices": [
+    "A measurement error",
+    "Impurities — principally iron, copper and hydroxyl contamination",
+    "The wavelength being used",
+    "Bending losses in the test apparatus"
+  ],
+  "answer": 1,
+  "explanation": "Kao argued pure silica should manage 20 dB/km, and spent years persuading glass manufacturers to make purer glass. Corning succeeded in 1970; modern single-mode fibre achieves about 0.17 dB/km at 1550 nm. He received the Nobel Prize in 2009.",
+  "tags": [
+    "fibre",
+    "attenuation",
+    "kao"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

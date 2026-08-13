@@ -1,0 +1,22 @@
+{
+  "question_id": "553d0964-5256-47be-81ab-7d15eb171eb1",
+  "chapter": 29,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Ten networks that must all reach each other require how many static route statements in the worst case?",
+  "choices": [
+    "10",
+    "45",
+    "90",
+    "100"
+  ],
+  "answer": 2,
+  "explanation": "n(n-1) = 90 directional statements distributed across the devices. Ten is manageable and forty networks is not — and the failure mode is not impossibility but inconsistency, where someone updates seven of the nine routers that needed a change.",
+  "tags": [
+    "static-routing",
+    "scaling",
+    "administration"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

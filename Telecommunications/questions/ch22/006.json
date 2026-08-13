@@ -1,0 +1,22 @@
+{
+  "question_id": "d308bbba-bfaf-4914-8f73-08cdfea11a40",
+  "chapter": 22,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A 39-byte HTTP request over TCP/IPv4/Ethernet produces a frame of what size?",
+  "choices": [
+    "59 bytes",
+    "79 bytes",
+    "97 bytes",
+    "113 bytes"
+  ],
+  "answer": 2,
+  "explanation": "39 + 20 (TCP) = 59-byte segment; + 20 (IP) = 79-byte packet; + 14 (Ethernet header) + 4 (FCS) = 97-byte frame. Each layer treats the layer above as opaque payload, and the EtherType is the marker that lets the receiver undo it.",
+  "tags": [
+    "encapsulation",
+    "overhead",
+    "framing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "9e877a38-6864-4951-9395-722d312e4ca3",
+  "chapter": 27,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why were EUI-64-derived interface identifiers replaced by RFC 8981 privacy extensions?",
+  "choices": [
+    "They were computationally expensive",
+    "A device's address contained its hardware identity and followed it between networks, making it trivially trackable",
+    "They collided too often",
+    "They were incompatible with DHCPv6"
+  ],
+  "answer": 1,
+  "explanation": "Embedding the MAC address in the IPv6 address meant the same identifier appeared wherever the device went. Randomised, periodically rotating identifiers are now default behaviour on every major operating system.",
+  "tags": [
+    "ipv6",
+    "privacy",
+    "eui-64"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

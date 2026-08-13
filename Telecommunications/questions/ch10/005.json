@@ -1,0 +1,22 @@
+{
+  "question_id": "ca2c52a9-eb68-4014-a63c-4d2586a67f82",
+  "chapter": 10,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why do hierarchical designs scale where flat ones do not?",
+  "choices": [
+    "Hierarchical designs use faster equipment",
+    "They bound broadcast domain size, table sizes and failure blast radius at each level",
+    "They require fewer cables",
+    "They are easier to draw"
+  ],
+  "answer": 1,
+  "explanation": "Hierarchy allows summarisation and containment: a fault or a broadcast is confined to one region rather than affecting everything. The same idea appears in subnetting, OSPF areas, the DNS tree and leaf-spine fabrics — it is one idea wearing different clothes.",
+  "tags": [
+    "hierarchy",
+    "scaling",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

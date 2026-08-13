@@ -1,0 +1,22 @@
+{
+  "question_id": "30fdb53d-3c37-4a5d-a41b-50d16ad44d77",
+  "chapter": 56,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which threat actor is the actual threat to most organisations?",
+  "choices": [
+    "State actors",
+    "Opportunists scanning the entire Internet for known vulnerabilities, who neither know nor care who you are",
+    "Malicious insiders",
+    "Hacktivists"
+  ],
+  "answer": 1,
+  "explanation": "They are the overwhelming majority of attempts and are defeated by patching, not exposing management interfaces, and not using default credentials. Most organisations under-invest in defeating this and over-invest elsewhere.",
+  "tags": [
+    "threat-actors",
+    "opportunists",
+    "hygiene"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

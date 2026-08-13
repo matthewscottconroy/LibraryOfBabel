@@ -1,0 +1,22 @@
+{
+  "question_id": "aebf7278-9311-431c-9fb0-888f6a9b0d8a",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A fibre route between two cities is 6,600 km. Using a propagation velocity of 204 km/ms, what is the minimum possible round-trip time, before any equipment does anything?",
+  "choices": [
+    "16 ms",
+    "32 ms",
+    "65 ms",
+    "130 ms"
+  ],
+  "answer": 2,
+  "explanation": "One way is 6,600 / 204 = 32.4 ms; a round trip is twice that, about 65 ms. Choosing 32 ms confuses one-way with round-trip delay — the single most common error in this calculation. No amount of money reduces this figure; it is set by the refractive index of glass.",
+  "tags": [
+    "propagation-delay",
+    "latency",
+    "speed-of-light"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

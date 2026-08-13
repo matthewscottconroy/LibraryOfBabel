@@ -1,0 +1,22 @@
+{
+  "question_id": "b92d694f-6061-4a99-af8f-5d9e603c4070",
+  "chapter": 7,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What problem does OFDM primarily solve?",
+  "choices": [
+    "Encryption of the radio link",
+    "Multipath: splitting one fast channel into many slow subcarriers makes each symbol long compared with the delay spread",
+    "Regulatory power limits",
+    "Antenna size"
+  ],
+  "answer": 1,
+  "explanation": "A single high-rate carrier has symbols short enough that reflections arriving late overlap the next symbol. Hundreds of low-rate subcarriers give each symbol a long duration, and a cyclic prefix absorbs the remaining delay spread. This is why every modern high-rate radio system converged on it.",
+  "tags": [
+    "ofdm",
+    "multipath",
+    "cyclic-prefix"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

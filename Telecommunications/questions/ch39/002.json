@@ -1,0 +1,22 @@
+{
+  "question_id": "f409804c-1e30-402b-b645-3999d7c01f64",
+  "chapter": 39,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Clients on the subnet containing the DHCP server work; clients on every other subnet get APIPA addresses. What is missing?",
+  "choices": [
+    "The default gateway",
+    "A DHCP relay agent (ip helper-address) on the other subnets' routers",
+    "The DNS server option",
+    "A trunk link"
+  ],
+  "answer": 1,
+  "explanation": "Routers do not forward broadcasts, so a server on one subnet cannot hear clients on another. Someone troubleshooting the failing subnet finds nothing wrong with it, because nothing is wrong with it.",
+  "tags": [
+    "dhcp-relay",
+    "apipa",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

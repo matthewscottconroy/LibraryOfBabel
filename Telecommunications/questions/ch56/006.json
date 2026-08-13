@@ -1,0 +1,22 @@
+{
+  "question_id": "1a7376d3-50c9-4df9-bfdd-2d1d36a92791",
+  "chapter": 56,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which layer of the attack surface do network engineers most often ignore?",
+  "choices": [
+    "Application",
+    "Transport",
+    "Physical — an unlocked comms room with a spare port bypasses every logical control",
+    "Data link"
+  ],
+  "answer": 2,
+  "explanation": "It is assumed to be facilities' problem. The human layer is the other one, and the overwhelming majority of successful compromises begin with a person being persuaded to do something rather than with a protocol weakness.",
+  "tags": [
+    "attack-surface",
+    "physical-security",
+    "social-engineering"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

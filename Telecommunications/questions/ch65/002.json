@@ -1,0 +1,22 @@
+{
+  "question_id": "5c93a98b-89e9-4501-866a-b09fc84ead5e",
+  "chapter": 65,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A single iperf3 stream is slow but sixteen parallel streams saturate the link. What does that rule out?",
+  "choices": [
+    "Packet loss",
+    "A bandwidth problem — the path has capacity; the limit is per-stream, meaning window, latency or loss",
+    "A duplex mismatch",
+    "A DNS problem"
+  ],
+  "answer": 1,
+  "explanation": "This one comparison is the fastest way to eliminate an entire family of causes and to redirect the investigation toward the bandwidth-delay product or the loss rate.",
+  "tags": [
+    "iperf3",
+    "parallel-streams",
+    "bandwidth-delay-product"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

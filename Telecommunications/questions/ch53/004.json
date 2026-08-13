@@ -1,0 +1,22 @@
+{
+  "question_id": "d0313d20-c844-418c-bc56-d5db1714d98a",
+  "chapter": 53,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why must monitoring use 64-bit interface counters?",
+  "choices": [
+    "They are more accurate",
+    "A 32-bit octet counter on a 10 Gb/s interface wraps in about three seconds at full rate, producing nonsense",
+    "32-bit counters are deprecated",
+    "IPv6 requires them"
+  ],
+  "answer": 1,
+  "explanation": "A system silently using the 32-bit counters produces impossible traffic spikes on fast links — a genuinely confusing artefact that looks like a network event and is a measurement bug.",
+  "tags": [
+    "snmp",
+    "counter-wrap",
+    "monitoring"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

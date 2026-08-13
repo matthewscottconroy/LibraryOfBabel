@@ -1,0 +1,21 @@
+{
+  "question_id": "16358945-b427-4e4f-b990-196c04db6cb1",
+  "chapter": 28,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why is the default route not a special case in the forwarding algorithm?",
+  "choices": [
+    "It is special-cased in hardware",
+    "0.0.0.0/0 has a prefix length of zero, so it matches everything and loses to any other match",
+    "It is only used when the table is empty",
+    "It is a Layer 2 construct"
+  ],
+  "answer": 1,
+  "explanation": "It is the shortest possible prefix and wins only when nothing else does. Understanding this removes the mystery from default routing and from cloud 'public subnets', which are simply subnets whose route table has a default route to an internet gateway.",
+  "tags": [
+    "default-route",
+    "longest-prefix-match"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

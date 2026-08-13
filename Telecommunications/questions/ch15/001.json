@@ -1,0 +1,22 @@
+{
+  "question_id": "86b36d46-25a0-4e78-94c8-b615817463c4",
+  "chapter": 15,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the maximum channel utilisation of pure ALOHA?",
+  "choices": [
+    "18.4%",
+    "36.8%",
+    "50%",
+    "63.2%"
+  ],
+  "answer": 0,
+  "explanation": "1/(2e) = 0.184. Slotted ALOHA doubles it to 1/e = 0.368 by aligning transmissions to slot boundaries. Abramson knew the figure and built the system anyway, because the alternative cost money and this cost nothing.",
+  "tags": [
+    "aloha",
+    "utilisation",
+    "medium-access"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

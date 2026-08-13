@@ -1,0 +1,20 @@
+{
+  "question_id": "817c4c74-2ea6-4811-bfb6-d49648acffd3",
+  "chapter": 47,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Not every RFC is a standard.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The series includes Proposed Standards, Internet Standards, Best Current Practices, Informational, Experimental, Historic, and the annual April Fools publications. Most of what you use daily is Proposed Standard, because advancement is laborious and nobody bothers once something works.",
+  "tags": [
+    "rfc",
+    "standards",
+    "ietf"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "83c06c0d-7e2c-4029-88a5-85d3e5147639",
+  "chapter": 50,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which factor most often decides whether direct cloud interconnect is justified?",
+  "choices": [
+    "Latency",
+    "Egress charges, which are frequently the deciding term and should be modelled before designing",
+    "Encryption requirements",
+    "Vendor preference"
+  ],
+  "answer": 1,
+  "explanation": "Consistent latency and predictable throughput matter, but the arithmetic that usually settles it is the per-gigabyte egress cost difference against the circuit's monthly cost.",
+  "tags": [
+    "direct-connect",
+    "egress",
+    "cost"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

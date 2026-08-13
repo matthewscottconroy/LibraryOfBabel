@@ -1,0 +1,20 @@
+{
+  "question_id": "60eb2585-8a51-47c0-966c-c279ce8ed0e8",
+  "chapter": 65,
+  "phase": 5,
+  "kind": "tf",
+  "text": "The correct diagnostic for bufferbloat is latency measured under load rather than on an idle link.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and it is why the problem went unnoticed for two decades: every idle-link measurement looked fine. Latency under load can rise from 20 ms to over a second on an affected connection.",
+  "tags": [
+    "bufferbloat",
+    "measurement",
+    "latency"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

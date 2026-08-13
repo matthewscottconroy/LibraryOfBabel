@@ -1,0 +1,20 @@
+{
+  "question_id": "152fe3da-bfde-4d37-9cf3-5af2f159e1a1",
+  "chapter": 36,
+  "phase": 3,
+  "kind": "tf",
+  "text": "A connection attempt that receives a RST and one that times out are the same diagnosis.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False, and the distinction is worth internalising. A RST means a machine answered and actively refused — the path works and nothing is listening. A timeout means nothing answered — a firewall may be dropping silently, or the host may be unreachable. Different diagnoses, different next steps.",
+  "tags": [
+    "rst",
+    "timeout",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

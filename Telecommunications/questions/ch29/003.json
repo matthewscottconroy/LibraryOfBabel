@@ -1,0 +1,22 @@
+{
+  "question_id": "dc82acb9-daa0-4442-b84e-a8b7be8701c4",
+  "chapter": 29,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A floating static route is configured with an administrative distance of 200. When is it used?",
+  "choices": [
+    "Always, since 200 is high priority",
+    "Only when the primary route with a better (lower) AD is withdrawn from the table",
+    "Only during business hours",
+    "Only for multicast traffic"
+  ],
+  "answer": 1,
+  "explanation": "Its worse AD keeps it out of the table while the primary is present. The caveat that matters: it only helps if the primary actually withdraws — if the interface stays up because the failure is beyond the first hop, the backup never activates, which is what IP SLA tracking is for.",
+  "tags": [
+    "floating-static",
+    "failover",
+    "administrative-distance"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

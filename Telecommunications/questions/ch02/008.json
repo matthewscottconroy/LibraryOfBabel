@@ -1,0 +1,22 @@
+{
+  "question_id": "2bad89d2-e322-42d3-87f3-94f3c8bbd907",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A voice call sends a 160-byte payload every 20 ms over Ethernet with IP, UDP and RTP headers. Roughly what fraction of the wire time is overhead?",
+  "choices": [
+    "About 5%",
+    "About 15%",
+    "About 33%",
+    "About 50%"
+  ],
+  "answer": 2,
+  "explanation": "160 bytes of payload rides inside 238 bytes on the wire (20 bytes gap and preamble, 18 Ethernet header and FCS, 40 bytes of IP+UDP+RTP). Efficiency is 160/238 = 67%, so about a third is overhead. This is why 'calls per circuit' is never the codec bitrate divided into the link rate.",
+  "tags": [
+    "overhead",
+    "voip",
+    "goodput"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

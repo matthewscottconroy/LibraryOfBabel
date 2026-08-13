@@ -1,0 +1,22 @@
+{
+  "question_id": "1e0b325f-16a6-4825-857f-3188b6effbf7",
+  "chapter": 70,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What is TSN, in this book's terms?",
+  "choices": [
+    "A new Ethernet speed",
+    "Bounded latency and zero congestion loss added to Ethernet — the packet-versus-circuit argument returning for industrial control, automotive and professional audio",
+    "A security protocol",
+    "A cloud service"
+  ],
+  "answer": 1,
+  "explanation": "Scheduled traffic, time synchronisation and frame preemption. Whether it stays specialised or becomes general is genuinely open: the book's pattern suggests general-purpose absorbs specialised, and the counterargument is that hard real-time may be one of the things that cannot be absorbed.",
+  "tags": [
+    "tsn",
+    "deterministic-networking",
+    "real-time"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

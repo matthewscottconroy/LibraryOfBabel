@@ -1,0 +1,22 @@
+{
+  "question_id": "99634f5a-d53c-40de-85e6-c94d6156fb7e",
+  "chapter": 17,
+  "phase": 1,
+  "kind": "mc",
+  "text": "An ARP cache entry shows 'incomplete' and ping reports 'Destination Host Unreachable' generated locally. What does this indicate?",
+  "choices": [
+    "The remote host's firewall is blocking ICMP",
+    "ARP resolution failed — the target did not answer on the local segment",
+    "A routing loop",
+    "DNS resolution failed"
+  ],
+  "answer": 1,
+  "explanation": "The host has an address, a route, a cable and a link light, and simply cannot resolve the hardware address. ARP has no failure notification, so the signature is a locally-generated unreachable and an incomplete cache entry. Recognising this saves hours.",
+  "tags": [
+    "arp",
+    "incomplete",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

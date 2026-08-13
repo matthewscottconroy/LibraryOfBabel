@@ -1,0 +1,22 @@
+{
+  "question_id": "b527d1ba-3dcd-4c7d-b9c1-9b9f5dd54dfd",
+  "chapter": 63,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why does iperf3 with default options often mislead?",
+  "choices": [
+    "It uses UDP by default",
+    "A single ten-second TCP stream measures a single stream for ten seconds, not the path's capacity — parallel streams and longer durations are needed",
+    "It requires root",
+    "It only tests one direction"
+  ],
+  "answer": 1,
+  "explanation": "On a long path a single stream is limited by the bandwidth-delay product and by its own loss response. -P for parallel streams, -u for jitter and loss, -R for reverse, -t for duration.",
+  "tags": [
+    "iperf3",
+    "throughput",
+    "measurement"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

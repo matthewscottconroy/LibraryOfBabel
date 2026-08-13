@@ -1,0 +1,22 @@
+{
+  "question_id": "a8745081-8ffb-48f2-9d85-526dd09c71aa",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A Wi-Fi client associated to an access point operates in which duplex mode?",
+  "choices": [
+    "Full duplex, because modern Wi-Fi supports simultaneous send and receive",
+    "Half duplex, because a radio cannot listen on its own frequency while transmitting",
+    "Simplex, because the access point controls all transmissions",
+    "Full duplex on 5 GHz and half duplex on 2.4 GHz"
+  ],
+  "answer": 1,
+  "explanation": "A transmitting radio's own signal at its antenna overwhelms anything it is trying to hear, so it cannot receive while transmitting on the same frequency. Every Wi-Fi link is fundamentally half duplex regardless of its advertised rate, which is a large part of why real throughput is far below the number on the box.",
+  "tags": [
+    "duplex",
+    "wireless",
+    "half-duplex"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

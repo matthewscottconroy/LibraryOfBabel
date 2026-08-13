@@ -1,0 +1,19 @@
+{
+  "question_id": "a419d70c-6b7d-421a-a3ee-84f5ee37803d",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Four bits — exactly one hexadecimal digit, and half a byte — is called a ___.",
+  "choices": [
+    "nibble",
+    "nybble"
+  ],
+  "answer": "nibble",
+  "explanation": "A nibble is four bits and maps to exactly one hex digit, which is the entire reason hexadecimal is the standard notation for machine data. Two nibbles make one byte, so byte-aligned data is hex-aligned data and a packet dump can be read without counting.",
+  "tags": [
+    "nibble",
+    "hexadecimal"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

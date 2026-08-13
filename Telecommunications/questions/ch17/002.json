@@ -1,0 +1,22 @@
+{
+  "question_id": "eadab90c-7367-4ef4-9437-f268d0e76859",
+  "chapter": 17,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why does ARP have no authentication?",
+  "choices": [
+    "It was an oversight",
+    "It was designed in 1982 for a network of mutually trusting research institutions, where it was a reasonable assumption",
+    "Authentication would make it too slow",
+    "It does have authentication, which is usually disabled"
+  ],
+  "answer": 1,
+  "explanation": "RFC 826 is four pages long and works. Any station may reply to any request and any station may send an unsolicited reply that receivers cache — which is the basis of ARP spoofing today. The mitigations, Dynamic ARP Inspection and DHCP snooping, are add-ons rather than protocol features.",
+  "tags": [
+    "arp",
+    "security",
+    "arp-spoofing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "814b42f9-f909-43cd-9e47-5a1d3fd2ba52",
+  "chapter": 21,
+  "phase": 1,
+  "kind": "tf",
+  "text": "ARP fits cleanly into the OSI model at Layer 2.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. ARP sits between Layers 2 and 3 and belongs to neither — it is carried directly in Ethernet frames but resolves Layer 3 addresses. It is conventionally called 'Layer 2.5'. MPLS and TLS occupy similarly awkward positions.",
+  "tags": [
+    "osi",
+    "arp",
+    "layer-2.5"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

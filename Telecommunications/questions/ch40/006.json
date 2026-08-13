@@ -1,0 +1,22 @@
+{
+  "question_id": "5d024656-a9ab-402c-aa40-44f2359bc1b2",
+  "chapter": 40,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Trace a cold-start web page load. Which protocols are involved, in order?",
+  "choices": [
+    "DNS, HTTP, TLS",
+    "DHCP, ARP, DNS, TCP, TLS, HTTP",
+    "ARP, DNS, HTTP",
+    "TCP, TLS, HTTP only"
+  ],
+  "answer": 1,
+  "explanation": "Six protocols and at least three round trips before a single byte of content moves. Counting those round trips is why connection reuse, DNS caching, TLS session resumption and QUIC's 0-RTT resumption all exist.",
+  "tags": [
+    "encapsulation",
+    "round-trips",
+    "synthesis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

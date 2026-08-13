@@ -1,0 +1,20 @@
+{
+  "question_id": "3833ab5e-aaa7-4a1f-b72d-937c25103e42",
+  "chapter": 60,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A traditional VPN grants network access rather than application access, so a compromised remote device has whatever the network permits.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and in a flat network that is everything. This all-or-nothing property, together with untrusted home devices and applications that are no longer inside, is why ZTNA is displacing the VPN model for new deployments.",
+  "tags": [
+    "vpn",
+    "ztna",
+    "zero-trust"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "7a065d6c-3eb6-499b-be38-c7de589a129a",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A 32-bit field is stored on a little-endian machine as the bytes 50 00 00 00. A big-endian reader interprets the low 16 bits as a TCP port. What does the reader report?",
+  "choices": [
+    "Port 80",
+    "Port 20480",
+    "Port 5000",
+    "Port 0"
+  ],
+  "answer": 1,
+  "explanation": "The sender intended 0x0050 = 80. Read with the bytes in the opposite order, 0x5000 = 20480. The failure produces a structurally valid but semantically absurd value rather than an error — which is why endianness bugs are hard to find, and why network byte order (big-endian) is mandatory in all Internet headers.",
+  "tags": [
+    "endianness",
+    "network-byte-order",
+    "ports"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "af644957-7453-4ae0-853e-3089628095cf",
+  "chapter": 27,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Compress 2001:0db8:0000:0000:0000:ff00:0042:8329 per RFC 5952.",
+  "choices": [
+    "2001:db8:0:0:0:ff00:42:8329",
+    "2001:db8::ff00:42:8329",
+    "2001:0db8::ff00:0042:8329",
+    "2001:db8:::ff00:42:8329"
+  ],
+  "answer": 1,
+  "explanation": "Drop leading zeros in each group, then replace the longest run of all-zero groups with :: — once only, since two would be ambiguous. RFC 5952 also requires lowercase and requires :: to be used where it can be, so that text comparison and log searching work.",
+  "tags": [
+    "ipv6",
+    "rfc-5952",
+    "notation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

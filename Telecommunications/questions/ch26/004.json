@@ -1,0 +1,22 @@
+{
+  "question_id": "dc94063c-fc24-4f61-8db9-2140e903b317",
+  "chapter": 26,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why does IPv6 have no broadcast address?",
+  "choices": [
+    "It was an oversight",
+    "The designers concluded broadcast was a mistake and replaced it with scoped multicast groups",
+    "IPv6 networks are too large",
+    "Broadcast is handled by the router"
+  ],
+  "answer": 1,
+  "explanation": "Every host must process every broadcast, interrupting its CPU regardless of relevance. IPv6 uses well-known multicast groups such as ff02::1 (all nodes) and ff02::2 (all routers) so that only interested hosts are disturbed.",
+  "tags": [
+    "ipv6",
+    "broadcast",
+    "multicast"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

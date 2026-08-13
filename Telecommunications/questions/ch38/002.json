@@ -1,0 +1,22 @@
+{
+  "question_id": "65801432-9301-4047-9c53-7ec275c8d4fe",
+  "chapter": 38,
+  "phase": 3,
+  "kind": "mc",
+  "text": "During recursive resolution, what does a root server return for www.example.com?",
+  "choices": [
+    "The IP address",
+    "A referral to the com. servers",
+    "An error",
+    "The authoritative answer from example.com"
+  ],
+  "answer": 1,
+  "explanation": "Each server answers only the next step — exactly hop-by-hop forwarding applied to a namespace instead of an address space. Distinguishing a referral from an authoritative answer is the vocabulary that makes DNS discussions comprehensible.",
+  "tags": [
+    "dns",
+    "referral",
+    "recursion"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

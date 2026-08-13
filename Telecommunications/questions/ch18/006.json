@@ -1,0 +1,22 @@
+{
+  "question_id": "2e94b258-4cd7-4ecc-af98-63cc46548031",
+  "chapter": 18,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Radia Perlman's spanning tree algorithm reduces a graph with cycles to what?",
+  "choices": [
+    "A ring",
+    "A subgraph that reaches every node with no cycles, with redundant links blocked but available",
+    "A full mesh",
+    "A star centred on the fastest switch"
+  ],
+  "answer": 1,
+  "explanation": "Physical redundancy is retained and logically disabled; if an active link fails, a blocked port is unblocked. She solved it in about a week and wrote a poem about it, which is printed in the original paper.",
+  "tags": [
+    "spanning-tree",
+    "perlman",
+    "redundancy"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

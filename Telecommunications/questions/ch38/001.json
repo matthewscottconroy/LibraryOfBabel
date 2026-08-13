@@ -1,0 +1,22 @@
+{
+  "question_id": "3613844f-c7f0-41cb-9918-32d2059c8e08",
+  "chapter": 38,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What were the three ideas in Mockapetris's 1983 design?",
+  "choices": [
+    "Encryption, compression, replication",
+    "Hierarchy, delegation, and caching",
+    "Redundancy, load balancing, failover",
+    "Recursion, iteration, and forwarding"
+  ],
+  "answer": 1,
+  "explanation": "Hierarchy makes names decomposable; delegation means no server anywhere holds the complete database; caching means the root servers are consulted astonishingly rarely. Together they have survived forty-three years of growth by nine orders of magnitude without structural change.",
+  "tags": [
+    "dns",
+    "hierarchy",
+    "delegation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "d5b018bc-cc55-40aa-b883-94f423437b15",
+  "chapter": 65,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What is the first question in any performance investigation?",
+  "choices": [
+    "Which application is affected?",
+    "Is it bandwidth, latency, or loss?",
+    "When did it start?",
+    "How many users are affected?"
+  ],
+  "answer": 1,
+  "explanation": "These are independent quantities with independent causes and independent remedies, and 'slow' maps onto all three. Determining which one you have eliminates most of the possibilities in three measurements.",
+  "tags": [
+    "performance",
+    "triage",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

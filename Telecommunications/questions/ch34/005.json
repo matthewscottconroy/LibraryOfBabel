@@ -1,0 +1,21 @@
+{
+  "question_id": "ce552c94-518c-4b5d-aed3-7e7684739ee2",
+  "chapter": 34,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which port range do clients choose from?",
+  "choices": [
+    "0-1023",
+    "1024-49151",
+    "49152-65535, though Linux defaults to 32768-60999",
+    "Any port at random"
+  ],
+  "answer": 2,
+  "explanation": "The IANA dynamic range is 49152-65535, but operating systems differ — Linux uses /proc/sys/net/ipv4/ip_local_port_range, commonly 32768-60999. The discrepancy occasionally matters when writing firewall rules for return traffic.",
+  "tags": [
+    "ephemeral-ports",
+    "port-ranges"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

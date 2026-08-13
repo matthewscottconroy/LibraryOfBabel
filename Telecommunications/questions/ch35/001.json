@@ -1,0 +1,21 @@
+{
+  "question_id": "04ab5024-d71e-4016-af66-e5ab9af5a447",
+  "chapter": 35,
+  "phase": 3,
+  "kind": "mc",
+  "text": "How large is the UDP header?",
+  "choices": [
+    "4 bytes",
+    "8 bytes",
+    "20 bytes",
+    "40 bytes"
+  ],
+  "answer": 1,
+  "explanation": "Four fields: source port, destination port, length, checksum. RFC 768 is three pages, one of which is mostly a diagram. UDP is what you get when you take IP, add the one thing genuinely missing — process addressing — and stop.",
+  "tags": [
+    "udp",
+    "header"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

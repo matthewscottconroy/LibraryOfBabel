@@ -1,0 +1,22 @@
+{
+  "question_id": "89384746-6b1f-4426-8b1a-95cb245250b3",
+  "chapter": 32,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the user-visible effect of carrier-grade NAT?",
+  "choices": [
+    "Slower browsing",
+    "No inbound connections at all, shared public addresses, and degraded gaming, VPN and peer-to-peer performance",
+    "Loss of IPv6 support",
+    "Higher latency to DNS"
+  ],
+  "answer": 1,
+  "explanation": "The subscriber sits behind two layers of translation using 100.64.0.0/10 space and shares a public address with hundreds of others. CGNAT is where NAT's costs become visible to end users rather than only to engineers, and it is one of the more effective arguments for IPv6.",
+  "tags": [
+    "cgnat",
+    "address-exhaustion",
+    "ipv6"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

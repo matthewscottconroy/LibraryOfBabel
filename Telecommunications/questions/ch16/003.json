@@ -1,0 +1,22 @@
+{
+  "question_id": "8a42f36c-e2f5-4acc-92c8-5ad5abcb3cbc",
+  "chapter": 16,
+  "phase": 1,
+  "kind": "mc",
+  "text": "MAC flooding fills a switch's address table with fabricated addresses. What is the effect?",
+  "choices": [
+    "The switch reboots",
+    "The switch, unable to learn, floods every frame to every port — degrading itself to a hub and restoring eavesdropping",
+    "Legitimate frames are dropped",
+    "The spanning tree reconverges"
+  ],
+  "answer": 1,
+  "explanation": "The attack does not break the switch; it degrades it to an earlier, weaker design. A surprising number of network attacks have that shape. The mitigation is port security, limiting learned addresses per port.",
+  "tags": [
+    "mac-flooding",
+    "cam-overflow",
+    "port-security"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

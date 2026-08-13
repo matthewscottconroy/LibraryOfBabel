@@ -1,0 +1,22 @@
+{
+  "question_id": "a2982fc8-6eb9-42ef-8341-1d5d70bbf0e8",
+  "chapter": 39,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A conference space with high device turnover suffers pool exhaustion. What is the most likely cause?",
+  "choices": [
+    "Too few switch ports",
+    "Lease duration set far too long for the turnover rate",
+    "A rogue DHCP server",
+    "A relay misconfiguration"
+  ],
+  "answer": 1,
+  "explanation": "An eight-day lease in a space where devices appear for two hours holds addresses long after the device has gone. Existing clients are fine and new ones fail, which is the distinguishing symptom.",
+  "tags": [
+    "pool-exhaustion",
+    "lease-time",
+    "dhcp"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

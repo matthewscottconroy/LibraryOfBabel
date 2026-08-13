@@ -1,0 +1,22 @@
+{
+  "question_id": "02551a4f-d66c-4104-a75a-abf3433ac099",
+  "chapter": 10,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Twelve computers each cabled to a central hub. What is the topology?",
+  "choices": [
+    "Star, both physically and logically",
+    "Physically a star, logically a bus",
+    "Bus, both physically and logically",
+    "Mesh"
+  ],
+  "answer": 1,
+  "explanation": "The cabling radiates from one point, so physically it is a star. A hub is an electrical repeater that copies every signal to every port, so every station hears every transmission — logically identical to a shared coaxial bus, with collisions and CSMA/CD. Replacing the hub with a switch changes nothing physical and everything logical.",
+  "tags": [
+    "physical-vs-logical",
+    "hub",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

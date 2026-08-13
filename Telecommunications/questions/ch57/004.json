@@ -1,0 +1,22 @@
+{
+  "question_id": "8657b9f0-a74d-4314-8474-e64dd74d6a6a",
+  "chapter": 57,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Diffie-Hellman gives two parties a shared secret. What does it NOT give them?",
+  "choices": [
+    "Confidentiality",
+    "Any assurance of WHO they share it with — an on-path attacker can perform two exchanges and relay between them",
+    "Forward secrecy",
+    "Sufficient key length"
+  ],
+  "answer": 1,
+  "explanation": "Key exchange without authentication is defeated trivially, which is why certificates exist: to bind a public key to an identity by someone you already trust.",
+  "tags": [
+    "diffie-hellman",
+    "authentication",
+    "mitm"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

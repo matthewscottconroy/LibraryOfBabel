@@ -1,0 +1,22 @@
+{
+  "question_id": "c0cf4145-056f-4d80-b259-3fcb41381e89",
+  "chapter": 34,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What identifies a TCP connection uniquely?",
+  "choices": [
+    "The destination port",
+    "The five-tuple: protocol, source address, source port, destination address, destination port",
+    "The source IP address",
+    "The sequence number"
+  ],
+  "answer": 1,
+  "explanation": "Four connections from one browser to one server share four of the five and are distinguished by source port. Seeing connections as five-tuples explains NAT's port rewriting, stateful firewall tables, ECMP hashing, and why QUIC needed connection IDs.",
+  "tags": [
+    "five-tuple",
+    "socket",
+    "tcp"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "a6a95523-364a-4cca-8e4a-e996565ca8f4",
+  "chapter": 14,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What are the first 24 bits of a MAC address?",
+  "choices": [
+    "A checksum",
+    "The Organisationally Unique Identifier, purchased from the IEEE",
+    "A sequence number",
+    "The VLAN identifier"
+  ],
+  "answer": 1,
+  "explanation": "The OUI identifies the manufacturer; the remaining 24 bits are that manufacturer's serial number. Looking up an OUI from a capture tells you what kind of device sent a frame, which is a genuinely useful diagnostic when a rogue device appears.",
+  "tags": [
+    "oui",
+    "mac-address",
+    "ieee"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

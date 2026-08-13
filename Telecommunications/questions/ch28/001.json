@@ -1,0 +1,22 @@
+{
+  "question_id": "e18c5a2e-8ee1-4bd8-923a-b79c8e447f4c",
+  "chapter": 28,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A routing table contains 10.0.0.0/8 via A, 10.1.0.0/16 via B, 10.1.5.0/24 via C, and 0.0.0.0/0 via D. Where does a packet for 10.1.5.42 go?",
+  "choices": [
+    "Via A",
+    "Via B",
+    "Via C",
+    "Via D"
+  ],
+  "answer": 2,
+  "explanation": "All four entries match, and the router uses the longest prefix — the most specific. This rule permits a general rule plus exceptions, which is exactly what makes hierarchical addressing and aggregation possible.",
+  "tags": [
+    "longest-prefix-match",
+    "forwarding",
+    "routing-table"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

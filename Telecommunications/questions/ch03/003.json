@@ -1,0 +1,22 @@
+{
+  "question_id": "323fcc5f-c376-4ff1-a678-7bed11855d27",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is the thermal noise floor per hertz at room temperature (290 K)?",
+  "choices": [
+    "-114 dBm/Hz",
+    "-140 dBm/Hz",
+    "-174 dBm/Hz",
+    "-200 dBm/Hz"
+  ],
+  "answer": 2,
+  "explanation": "kT at 290 K is 4.00e-21 W/Hz, which is -174 dBm/Hz. For a given bandwidth, add 10log10(B): a 20 MHz channel has a thermal floor of about -101 dBm, and a real receiver's noise figure adds another 4-10 dB on top.",
+  "tags": [
+    "thermal-noise",
+    "noise-floor",
+    "dbm"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

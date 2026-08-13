@@ -1,0 +1,20 @@
+{
+  "question_id": "2e779ed8-537b-42f2-a490-2c21961b2a7b",
+  "chapter": 14,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Ethernet's 64-byte minimum frame size encodes the speed of light and the maximum length of a coaxial cable specified in 1980.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. A station must still be transmitting when a collision from the far end reaches it, so the frame must occupy the wire for at least one round trip on the longest permitted segment. That cable has not been manufactured for decades and the constraint is still enforced by the switch on your desk.",
+  "tags": [
+    "minimum-frame",
+    "collision-detection",
+    "history"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

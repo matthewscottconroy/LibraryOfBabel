@@ -1,0 +1,22 @@
+{
+  "question_id": "4ecc5f75-f874-48c3-8106-e7901375c246",
+  "chapter": 63,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which single test distinguishes an MTU problem from everything else?",
+  "choices": [
+    "traceroute",
+    "Comparing ping -s 1400 with a small ping",
+    "nmap -sS",
+    "iperf3 -u"
+  ],
+  "answer": 1,
+  "explanation": "If small packets succeed and large ones fail, the path MTU is below expectations and the ICMP message reporting it is being blocked. Ten seconds, and it is the fastest route to the PMTUD black hole diagnosis.",
+  "tags": [
+    "mtu",
+    "ping",
+    "pmtud"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

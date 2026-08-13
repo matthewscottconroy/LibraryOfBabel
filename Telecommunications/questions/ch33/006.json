@@ -1,0 +1,22 @@
+{
+  "question_id": "e1c1215d-9358-46aa-8c94-2f188f536b92",
+  "chapter": 33,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A traceroute shows `* * *` at hop 4 and normal responses at hops 5 through 12. What does that mean?",
+  "choices": [
+    "Hop 4 is down",
+    "Hop 4 is configured not to send Time Exceeded, or is rate-limiting it — the path is fine",
+    "There is a routing loop at hop 4",
+    "The packet was fragmented"
+  ],
+  "answer": 1,
+  "explanation": "Asterisks are not failures. If subsequent hops respond, traffic is passing through hop 4 without difficulty. Reading traceroute correctly is what prevents incorrect escalations to transit providers.",
+  "tags": [
+    "traceroute",
+    "icmp-rate-limiting",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

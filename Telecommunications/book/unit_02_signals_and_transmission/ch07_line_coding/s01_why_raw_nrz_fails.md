@@ -1,0 +1,159 @@
+# 7.1 Why Raw NRZ Fails
+
+The obvious way to put bits on a wire is to hold a voltage high for a `1` and low
+for a `0`, for one bit period each. This is **non-return-to-zero**, NRZ, and it is
+what everyone invents when asked.
+
+It is also what 10 Gigabit Ethernet uses over fibre, so it is not wrong. It is
+merely insufficient on its own, for two distinct reasons that this section
+quantifies.
+
+## Problem one: the receiver's clock drifts
+
+To read a bit stream the receiver must sample once per bit, at the right instant.
+At 1 Gb/s that is one billion samples per second, each within a window of about
+1 nanosecond.
+
+The transmitter's clock and the receiver's clock are separate crystal oscillators
+in separate boxes. No two crystals run at exactly the same rate.
+
+**The arithmetic.** A commodity crystal is specified to ±50 parts per million
+(ppm), and ±100 ppm is common in cheap equipment. Suppose transmitter and receiver
+differ by 50 ppm — well within specification.
+
+$$\text{drift per bit} = 50 \times 10^{-6} \text{ bit periods}$$
+
+After *n* bits the accumulated drift is 50 × 10⁻⁶ × *n* bit periods. The receiver
+misreads when the drift approaches half a bit period, so:
+
+$$n_{\text{max}} = \frac{0.5}{50 \times 10^{-6}} = 10{,}000 \text{ bits}$$
+
+**Ten thousand bits.** At 1 Gb/s that is 10 microseconds. At 10 Gb/s it is
+1 microsecond. A single maximum-size Ethernet frame is 12,000 bits, so the receiver
+cannot get through one frame without resynchronising.
+
+There is no separate clock wire. There never is: a clock line would double the
+cable cost, and at gigabit rates it would arrive skewed relative to the data
+anyway, because no two conductors have identical propagation delay. So the clock
+must be **recovered from the data**.
+
+**Clock recovery** works by watching transitions. Each edge in the received signal
+tells the receiver where a bit boundary was, and a phase-locked loop uses that
+information to keep its sampling point centred. Every transition is a correction.
+
+And now the problem is visible: **a long run of identical bits contains no
+transitions.** Send `00000000000000...` in NRZ and the receiver sees a flat line
+with no information about timing at all. After ten thousand such bits it has lost
+track, and when the data finally changes it may have miscounted the run's length —
+producing not one wrong bit but a shift in everything that follows.
+
+Real data contains long runs. A file of zeros, a run of ASCII spaces, an idle
+period, a compressed block that happens to produce a run — all ordinary, and all
+fatal to raw NRZ.
+
+## Problem two: DC balance
+
+The second problem is physical rather than logical.
+
+Most transmission paths cannot pass a sustained DC level. The reason is that they
+contain **transformers** or **capacitors**:
+
+- Ethernet interfaces are transformer-coupled, for electrical isolation — so that a
+  fault or a lightning surge on the cable does not reach the host's electronics,
+  and so that two devices at different ground potentials can be connected safely.
+  This isolation is a safety requirement, not an optional refinement.
+- Optical receivers are typically AC-coupled through a capacitor.
+- Many amplifier stages are AC-coupled to avoid having to match DC operating
+  points.
+
+A transformer transfers energy only when the field is *changing*. A capacitor
+passes only changing voltage. Apply a constant level to either and the output
+decays toward zero with a time constant set by the component.
+
+So a long run of `1`s in NRZ does not arrive as a sustained high level. It arrives
+as a level that starts high and **droops**, and after enough bit periods it has
+drooped past the decision threshold and the receiver starts reading `0`s.
+
+This is **baseline wander**, and it is why DC balance — roughly equal numbers of
+`1`s and `0`s over any short window — is a requirement rather than a nicety.
+
+## What a line code must therefore provide
+
+Putting the two together, a line code must guarantee:
+
+1. **Bounded run length** — a transition at least every *n* bits, for some small
+   *n*, so that clock recovery never loses lock.
+2. **DC balance** — the running sum of the signal stays bounded, so the AC-coupled
+   path does not droop.
+
+And ideally, since these are not free:
+
+3. **Low overhead** — spend as little of the channel's capacity as possible on
+   the guarantees.
+4. **Error detection** — some codes get this cheaply, since invalid patterns can be
+   recognised.
+5. **Control symbols** — patterns distinguishable from any data, useful for marking
+   frame boundaries.
+
+The tension between (1)/(2) and (3) is the whole of this chapter, and the way the
+industry resolved it changed dramatically as speeds rose.
+
+## Where raw NRZ *is* used, and why that is consistent
+
+10GBASE-R uses NRZ on the wire. So does much of PCI Express. This is not a
+contradiction.
+
+The trick is **scrambling**: before transmission, the data is XORed with a
+pseudorandom sequence generated by a linear feedback shift register whose state
+both ends can reproduce. The receiver XORs with the same sequence to recover the
+data.
+
+Scrambled data looks random. Random data has transitions at a healthy density and
+is DC balanced *on average*, so scrambling gives you properties (1) and (2)
+**statistically** rather than by construction.
+
+That distinction matters. A block code like 4B/5B *guarantees* a transition within
+a bounded number of bits. A scrambler makes long runs *improbable* — with a
+64B/66B scrambler the probability of a 66-bit run is astronomically small, but it
+is not zero, and a pathological input pattern chosen adversarially can defeat it.
+
+The industry accepted a statistical guarantee at high speeds because the
+alternative — 25% overhead — became unaffordable. §7.3 traces that decision.
+
+## The overhead ladder, previewed
+
+| Code | Used by | Overhead | Efficiency | Guarantee |
+|---|---|---|---|---|
+| Manchester | 10BASE-T | 100% | 50% | By construction |
+| 4B/5B | 100BASE-TX, FDDI | 25% | 80% | By construction |
+| 8B/10B | 1000BASE-X, PCIe, SATA | 25% | 80% | By construction |
+| 64B/66B | 10GBASE-R and above | 3.1% | 96.9% | Statistical (scrambled) |
+| 256B/257B | 200G/400G Ethernet | 0.4% | 99.6% | Statistical |
+
+Read that table as a history of a changing constraint. In 1983 bandwidth on a
+10 Mb/s coaxial segment was not the scarce resource and reliable clock recovery
+was, so spending half the wire was reasonable. By 2002, halving a 10 Gb/s link's
+effective rate was unthinkable, and the engineering went into making a statistical
+guarantee strong enough to rely on.
+
+## What breaks here
+
+**A link that works with normal traffic and fails when transferring a file of
+zeros.** Almost extinct now, and it was a real phenomenon on early systems with
+inadequate coding. It survives as a class of test pattern: standards specify
+"killer packets" whose bit patterns stress the scrambler deliberately.
+
+**A link whose error rate rises after a long idle period.** Clock recovery losing
+lock during idle. Modern standards transmit an idle pattern precisely to prevent
+this — the wire is never actually silent.
+
+**Baseline wander on a long run**, visible on an oscilloscope as the eye's centre
+drifting vertically. Diagnostic of an AC-coupling time constant that is too short
+for the code in use, or of a code inadequate for the path.
+
+> **Network+ note.** N10-009 does not examine line codes. It does expect the
+> Ethernet standard names, and knowing that the `4B/5B` and `8B/10B` in older
+> documentation refers to this mechanism prevents confusion. The durable point is
+> that **encoding overhead is why a 1 Gb/s link does not carry 1 Gb/s of data on
+> the wire** — 1000BASE-X actually signals at 1.25 Gbaud to carry 1 Gb/s, and that
+> 25% is 8B/10B.

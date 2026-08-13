@@ -1,0 +1,22 @@
+{
+  "question_id": "a1f7840c-8c74-45fa-a969-eaea809850cf",
+  "chapter": 6,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Manchester encoding guarantees a transition in every bit period. What does it cost?",
+  "choices": [
+    "Nothing — it is free",
+    "Half the channel's capacity: it is 50% efficient",
+    "25% overhead",
+    "It requires four voltage levels"
+  ],
+  "answer": 1,
+  "explanation": "Manchester needs two signal transitions per bit, so it consumes twice the bandwidth for the same data rate — 50% efficiency. That was an acceptable trade for 10BASE-T in 1983 and unthinkable at 10 Gb/s, which is why the efficiency ladder runs to 64B/66B at 96.9%.",
+  "tags": [
+    "manchester",
+    "efficiency",
+    "line-coding"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

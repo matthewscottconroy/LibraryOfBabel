@@ -1,0 +1,22 @@
+{
+  "question_id": "eb41216b-44fc-4190-a449-614f9c62def2",
+  "chapter": 67,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What was genuinely right about the SDN argument?",
+  "choices": [
+    "Centralised control is always better",
+    "A traditional control plane is distributed by NECESSITY rather than by design, and distribution costs per-device configuration, transient inconsistency, and only local optimisation",
+    "Network hardware would be commoditised",
+    "OpenFlow was the correct abstraction"
+  ],
+  "answer": 1,
+  "explanation": "Distribution was the engineering constraint of 1989, not the goal. A controller with a complete view can compute globally optimal paths, verify policy before applying it, and reconfigure atomically — and that argument has not been refuted.",
+  "tags": [
+    "sdn",
+    "control-plane",
+    "architecture"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

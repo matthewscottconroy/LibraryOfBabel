@@ -1,0 +1,22 @@
+{
+  "question_id": "fc23b55d-ee57-40f3-88f5-65aafda34314",
+  "chapter": 35,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why is TCP's reliability actively harmful for a voice call?",
+  "choices": [
+    "TCP is too slow to establish",
+    "A packet retransmitted after its playout deadline cannot be used, so the retransmission spends bandwidth and adds delay to deliver something that will be discarded, while head-of-line blocking holds up what follows",
+    "TCP cannot carry audio",
+    "Voice codecs require broadcast"
+  ],
+  "answer": 1,
+  "explanation": "This is the cleanest example in the book of a 'better' guarantee being the wrong choice. UDP simply loses the packet, the codec conceals the gap, and the call continues.",
+  "tags": [
+    "udp",
+    "voip",
+    "head-of-line-blocking"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

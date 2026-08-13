@@ -1,0 +1,22 @@
+{
+  "question_id": "0c92acbd-4aa7-45da-b623-7ee2e718e0ad",
+  "chapter": 69,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Name the four deficiencies of CLI-based configuration management.",
+  "choices": [
+    "Slow, error-prone, expensive, unpopular",
+    "No record, no review, no testing, no reproducibility",
+    "No encryption, no logging, no backup, no monitoring",
+    "No vendor support, no documentation, no training, no tooling"
+  ],
+  "answer": 1,
+  "explanation": "In every other part of the software industry, changing production without review or testing would be considered extraordinary. Infrastructure as code applies that discipline to network configuration.",
+  "tags": [
+    "automation",
+    "iac",
+    "cli"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

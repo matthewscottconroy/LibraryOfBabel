@@ -1,0 +1,20 @@
+{
+  "question_id": "00567d98-774d-4bca-a244-b95188ab91d3",
+  "chapter": 34,
+  "phase": 3,
+  "kind": "tf",
+  "text": "A port number is a convention rather than a constraint, so scanning for services by port number gives an incomplete picture.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Nothing prevents a web server on 8443 or SSH on 2222. This matters for security assessment and for firewall design, and it is why next-generation firewalls identify applications independently of port.",
+  "tags": [
+    "ports",
+    "convention",
+    "security"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

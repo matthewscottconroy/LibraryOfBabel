@@ -1,0 +1,22 @@
+{
+  "question_id": "62a59bfb-ca88-450e-b44a-6e334acf9c3b",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A channel's '3 dB bandwidth' is the frequency range over which the output power stays within 3 dB of its maximum. What does 3 dB correspond to?",
+  "choices": [
+    "Half the power",
+    "One tenth the power",
+    "Twice the power",
+    "One quarter the power"
+  ],
+  "answer": 0,
+  "explanation": "-3 dB is a factor of 0.5 in power, the conventional half-power point. The convention is arbitrary but universal, and reading it off a frequency-response curve is the standard way a channel's usable bandwidth is quoted.",
+  "tags": [
+    "bandwidth",
+    "decibel",
+    "3db"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "44201f10-7758-42ab-a1c1-32b1a6f384bb",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Baseband signalling occupies the frequency range from DC upward, which is why a baseband medium cannot be shared by frequency-division multiplexing without modulation.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. A baseband signal cannot be moved in frequency without modulation, so all baseband transmitters would occupy the same band. This is exactly why wired Ethernet uses baseband line coding on a dedicated pair and radio uses modulation onto a carrier.",
+  "tags": [
+    "baseband",
+    "broadband",
+    "multiplexing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

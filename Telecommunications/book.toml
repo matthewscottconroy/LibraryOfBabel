@@ -1,0 +1,33 @@
+# Build manifest for the Telecommunications textbook.
+#
+# Layout: book/unit_NN_<slug>/chNN_<slug>/{chapter_intro.md, sNN_<slug>.md,
+# exercises.md, important_concepts.md, important_researchers.md,
+# further_reading.md}, with unit_intro.md opening each unit and an appendices/
+# directory at the end.
+#
+# labs/, tools/, project/ and instructor/ are companion assets and are
+# deliberately NOT part of the PDF; they are excluded from the build by living
+# outside the `book` source root.
+title = "Telecommunications"
+subtitle = "From Signals to the Internet, Built from First Principles"
+
+front_matter = [
+    "book/README.md",
+    "book/preface.md",
+]
+
+# Chapter back matter, in the order a chapter should close. Without this the
+# build sorts each chapter directory alphabetically, which puts exercises.md and
+# further_reading.md ahead of s01_*.md — the exercises before the sections they
+# examine, and the reading list before the reading.
+outro_names = [
+    "exercises.md",
+    "important_concepts.md",
+    "important_researchers.md",
+    "further_reading.md",
+]
+
+[[sources]]
+root = "book"
+recursive = true
+part_level = 1   # unit_01 .. unit_14 and appendices/ become \part

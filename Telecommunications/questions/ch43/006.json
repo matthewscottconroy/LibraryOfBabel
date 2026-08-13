@@ -1,0 +1,22 @@
+{
+  "question_id": "cc867d34-98f2-4b67-8435-6b42a90c250f",
+  "chapter": 43,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which of MIMO, MU-MIMO and OFDMA helps a SINGLE client the most?",
+  "choices": [
+    "MU-MIMO",
+    "OFDMA",
+    "MIMO, by giving that client multiple spatial streams",
+    "All three equally"
+  ],
+  "answer": 2,
+  "explanation": "MIMO multiplies a single client's rate through spatial streams. MU-MIMO and OFDMA serve several clients in one transmission opportunity, improving aggregate efficiency in dense environments rather than one client's peak rate.",
+  "tags": [
+    "mimo",
+    "mu-mimo",
+    "ofdma"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

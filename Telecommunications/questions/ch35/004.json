@@ -1,0 +1,22 @@
+{
+  "question_id": "3d50b3ea-9c6e-4b5e-8650-fe65df710929",
+  "chapter": 35,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does QUIC run over UDP rather than directly over IP?",
+  "choices": [
+    "UDP is faster than IP",
+    "UDP is a way to get a datagram through the world's middleboxes to a specific process; QUIC implements everything else itself in userspace",
+    "IP does not support encryption",
+    "Routers cannot forward raw IP"
+  ],
+  "answer": 1,
+  "explanation": "From QUIC's perspective UDP is not a transport at all. Building on UDP means the transport can be updated by shipping a userspace library rather than changing every kernel on the Internet.",
+  "tags": [
+    "quic",
+    "udp",
+    "deployment"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

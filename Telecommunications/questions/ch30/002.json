@@ -1,0 +1,22 @@
+{
+  "question_id": "47e23e57-be65-4ee9-b2e0-3089c7187462",
+  "chapter": 30,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why can split horizon not completely solve count-to-infinity?",
+  "choices": [
+    "It is not implemented correctly in most routers",
+    "It prevents a route being advertised back to the neighbour it came from, but loops involving three or more routers are unaffected",
+    "It only works with RIP",
+    "It requires holddown timers"
+  ],
+  "answer": 1,
+  "explanation": "Split horizon, poison reverse and holddown each address part of the problem and none solves it, because a complete solution is not available within the distance-vector framework. RIP's answer is to define 16 hops as infinity and give up.",
+  "tags": [
+    "split-horizon",
+    "count-to-infinity",
+    "rip"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

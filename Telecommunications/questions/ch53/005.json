@@ -1,0 +1,22 @@
+{
+  "question_id": "3f193a2f-2002-41ef-97ec-ff4e9baa7470",
+  "chapter": 53,
+  "phase": 4,
+  "kind": "mc",
+  "text": "An interface counter says a link is at 90%. What question does it not answer, and what does?",
+  "choices": [
+    "Whether it is up; ping",
+    "What is ON it; flow records (NetFlow/IPFIX/sFlow)",
+    "Its speed; the interface configuration",
+    "Its errors; syslog"
+  ],
+  "answer": 1,
+  "explanation": "Flow data turns 'the circuit is full' into 'the circuit is full because one host is uploading to a cloud storage service' — a statement someone can act on. It also carries real privacy considerations and should be governed accordingly.",
+  "tags": [
+    "netflow",
+    "flow-records",
+    "monitoring"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

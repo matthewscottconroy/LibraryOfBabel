@@ -1,0 +1,22 @@
+{
+  "question_id": "dd9350d9-c8eb-4878-9209-f433d7ec59c3",
+  "chapter": 67,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Distinguish control plane from data plane failure symptoms.",
+  "choices": [
+    "They are identical",
+    "A control-plane failure often leaves traffic flowing on the last known table while the network slowly becomes wrong; a data-plane failure stops traffic immediately",
+    "Control-plane failures stop traffic instantly",
+    "Data-plane failures affect only management access"
+  ],
+  "answer": 1,
+  "explanation": "This is also why pinging a router's own interface measures its CPU rather than its forwarding performance — a measurement artefact that generates many false alarms.",
+  "tags": [
+    "control-plane",
+    "data-plane",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

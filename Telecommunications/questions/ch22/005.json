@@ -1,0 +1,22 @@
+{
+  "question_id": "ed09520a-06d8-4d28-8da6-548f2e946540",
+  "chapter": 22,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Cerf and Kahn's 1974 design assumed almost nothing about the constituent networks. Why?",
+  "choices": [
+    "To reduce header size",
+    "Because the three networks being joined had different packet sizes, error characteristics and administrators who would not change",
+    "To support encryption",
+    "Because routers were slow"
+  ],
+  "answer": 1,
+  "explanation": "They did not try to make the networks the same; they proposed a gateway and a common packet format, with each network carrying it by whatever internal means it liked. Assuming almost nothing is what let IP later run over Wi-Fi, LTE and everything since without amendment.",
+  "tags": [
+    "cerf-kahn",
+    "internetworking",
+    "gateway"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

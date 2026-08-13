@@ -1,0 +1,22 @@
+{
+  "question_id": "23755d85-8a5c-4ca5-a677-9cfaa3425ee4",
+  "chapter": 29,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the central weakness of static routing?",
+  "choices": [
+    "It is slow",
+    "It does not react: if the next hop becomes unreachable, the route stays and traffic is black-holed with no notification",
+    "It cannot express metrics",
+    "It requires expensive equipment"
+  ],
+  "answer": 1,
+  "explanation": "The router forwards toward a dead neighbour indefinitely and nothing tells anyone. Floating static routes and object tracking are the partial answers, and the tracking matters because a route only withdraws if the interface goes down.",
+  "tags": [
+    "static-routing",
+    "black-hole",
+    "failure"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

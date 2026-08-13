@@ -1,0 +1,22 @@
+{
+  "question_id": "390cd030-2d46-4c34-89dc-53aebeed4974",
+  "chapter": 58,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The 2013 Target breach began with correctly authenticated contractor credentials that reached the payment network. Which control failed?",
+  "choices": [
+    "Authentication",
+    "Authorization",
+    "Accounting",
+    "Encryption"
+  ],
+  "answer": 1,
+  "explanation": "Authentication worked exactly as designed — the identity was established correctly. Authorization was the failure: a refrigeration contractor's credentials should not have reached a payment network. Systems that authenticate perfectly and authorise terribly are extremely common.",
+  "tags": [
+    "authorization",
+    "least-privilege",
+    "breach"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

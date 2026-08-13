@@ -1,0 +1,21 @@
+{
+  "question_id": "7d182f8b-c922-4921-ab1e-396706f6c7c3",
+  "chapter": 62,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What distinguishes testing a theory from acting on it?",
+  "choices": [
+    "Testing is faster",
+    "A test is an observation that would DISTINGUISH this theory from others; an action fixes the problem if the theory happens to be right",
+    "Testing requires approval",
+    "There is no difference"
+  ],
+  "answer": 1,
+  "explanation": "A test whose result you can predict tells you nothing. Choose the test that eliminates the most possibilities, not the one that confirms your suspicion.",
+  "tags": [
+    "methodology",
+    "hypothesis-testing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

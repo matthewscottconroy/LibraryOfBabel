@@ -1,0 +1,21 @@
+{
+  "question_id": "37e36eef-6edf-4052-8c42-95ad2bb5073e",
+  "chapter": 39,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What are the four DHCP messages, in order?",
+  "choices": [
+    "Request, Offer, Accept, Confirm",
+    "Discover, Offer, Request, Acknowledge",
+    "Solicit, Advertise, Request, Reply",
+    "Hello, Offer, Bind, Commit"
+  ],
+  "answer": 1,
+  "explanation": "DORA. The client has no address, so DISCOVER is broadcast from 0.0.0.0; REQUEST is also broadcast so that other servers learn their offers were declined and can release the addresses they tentatively reserved.",
+  "tags": [
+    "dhcp",
+    "dora"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

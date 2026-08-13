@@ -1,0 +1,22 @@
+{
+  "question_id": "6c797a92-871c-4c93-b98f-48d73d28e18c",
+  "chapter": 68,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which network design decision in cloud has a direct and frequently surprising financial consequence?",
+  "choices": [
+    "Choosing instance sizes",
+    "Egress and cross-availability-zone data charges, which can exceed the compute cost of the architecture",
+    "Selecting a region",
+    "Naming conventions"
+  ],
+  "answer": 1,
+  "explanation": "It is one of the few places where a network engineer's design choice appears directly on a finance report, and it should be modelled before designing rather than discovered afterwards.",
+  "tags": [
+    "egress",
+    "cloud-cost",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

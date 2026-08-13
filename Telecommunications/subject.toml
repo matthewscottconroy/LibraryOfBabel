@@ -1,0 +1,462 @@
+title = "Telecommunications Adaptive Quiz"
+chapters_dir = "./book"
+model = "claude-sonnet-5"
+system_prompt = """You are an expert quiz question generator for a first-principles course in Telecommunications and Computer Networking, pitched at undergraduates and CompTIA Network+ (N10-009) candidates. The book builds strictly in dependency order: information and bits, signals and impairments, encoding and modulation, multiplexing, transmission media, topologies, circuit vs packet switching, Ethernet framing and switching, ARP, spanning tree, VLANs, layering and the OSI/TCP-IP models, IPv4 addressing and subnetting/CIDR/VLSM, IPv6, forwarding and longest-prefix match, static and dynamic routing, BGP, NAT, ICMP, ports and sockets, UDP, TCP, congestion control and QUIC, DNS, DHCP, application protocols, radio fundamentals, Wi-Fi, cellular, IoT radio, Internet architecture, access and carrier networks, QoS and CDNs, network operations and monitoring, security and cryptography, systematic troubleshooting, virtualization and overlays, SDN, cloud networking, automation, and network design.
+
+Questions must test reasoning rather than recall wherever possible: given a frame, an address, a routing table, a capture, or a symptom, ask what happens next and why. Subnetting questions must be solvable by binary reasoning, not by memorised charts. Distractors must be genuine student misconceptions (confusing broadcast with collision domains, bandwidth with throughput, a mask with a gateway, latency with loss), never filler. Use only real standards, real dates, and real people."""
+
+[[chapters]]
+index = 0
+phase = 0
+name = "What Networks Are For"
+file = "unit_01_information_and_communication/ch01_what_networks_are_for/chapter_intro.md"
+
+[[chapters]]
+index = 1
+phase = 0
+name = "Bits, Bytes, and Bases"
+file = "unit_01_information_and_communication/ch02_bits_bytes_and_bases/chapter_intro.md"
+
+[[chapters]]
+index = 2
+phase = 0
+name = "The Measures of a Network"
+file = "unit_01_information_and_communication/ch03_the_measures_of_a_network/chapter_intro.md"
+
+[[chapters]]
+index = 3
+phase = 0
+name = "Shannon's Limit"
+file = "unit_01_information_and_communication/ch04_shannons_limit/chapter_intro.md"
+
+[[chapters]]
+index = 4
+phase = 0
+name = "Signals in Time and Frequency"
+file = "unit_02_signals_and_transmission/ch05_signals_in_time_and_frequency/chapter_intro.md"
+
+[[chapters]]
+index = 5
+phase = 0
+name = "Impairments"
+file = "unit_02_signals_and_transmission/ch06_impairments/chapter_intro.md"
+
+[[chapters]]
+index = 6
+phase = 0
+name = "Line Coding"
+file = "unit_02_signals_and_transmission/ch07_line_coding/chapter_intro.md"
+
+[[chapters]]
+index = 7
+phase = 0
+name = "Modulation"
+file = "unit_02_signals_and_transmission/ch08_modulation/chapter_intro.md"
+
+[[chapters]]
+index = 8
+phase = 0
+name = "Multiplexing"
+file = "unit_02_signals_and_transmission/ch09_multiplexing/chapter_intro.md"
+
+[[chapters]]
+index = 9
+phase = 0
+name = "Transmission Media"
+file = "unit_02_signals_and_transmission/ch10_transmission_media/chapter_intro.md"
+
+[[chapters]]
+index = 10
+phase = 1
+name = "Topologies"
+file = "unit_03_sharing_infrastructure/ch11_topologies/chapter_intro.md"
+
+[[chapters]]
+index = 11
+phase = 1
+name = "Circuit Switching and the PSTN"
+file = "unit_03_sharing_infrastructure/ch12_circuit_switching_and_the_pstn/chapter_intro.md"
+
+[[chapters]]
+index = 12
+phase = 1
+name = "Packet Switching"
+file = "unit_03_sharing_infrastructure/ch13_packet_switching/chapter_intro.md"
+
+[[chapters]]
+index = 13
+phase = 1
+name = "LANs, WANs, and the Internet"
+file = "unit_03_sharing_infrastructure/ch14_lans_wans_and_the_internet/chapter_intro.md"
+
+[[chapters]]
+index = 14
+phase = 1
+name = "Frames and Hardware Addresses"
+file = "unit_04_local_delivery_ethernet/ch15_frames_and_hardware_addresses/chapter_intro.md"
+
+[[chapters]]
+index = 15
+phase = 1
+name = "Ethernet"
+file = "unit_04_local_delivery_ethernet/ch16_ethernet/chapter_intro.md"
+
+[[chapters]]
+index = 16
+phase = 1
+name = "Switches"
+file = "unit_04_local_delivery_ethernet/ch17_switches/chapter_intro.md"
+
+[[chapters]]
+index = 17
+phase = 1
+name = "ARP"
+file = "unit_04_local_delivery_ethernet/ch18_arp/chapter_intro.md"
+
+[[chapters]]
+index = 18
+phase = 1
+name = "Loops and Spanning Tree"
+file = "unit_04_local_delivery_ethernet/ch19_loops_and_spanning_tree/chapter_intro.md"
+
+[[chapters]]
+index = 19
+phase = 1
+name = "VLANs"
+file = "unit_04_local_delivery_ethernet/ch20_vlans/chapter_intro.md"
+
+[[chapters]]
+index = 20
+phase = 1
+name = "Why Layering Exists"
+file = "unit_05_layering/ch21_why_layering_exists/chapter_intro.md"
+
+[[chapters]]
+index = 21
+phase = 1
+name = "The OSI Model"
+file = "unit_05_layering/ch22_the_osi_model/chapter_intro.md"
+
+[[chapters]]
+index = 22
+phase = 1
+name = "TCP/IP and Encapsulation"
+file = "unit_05_layering/ch23_tcp_ip_and_encapsulation/chapter_intro.md"
+
+[[chapters]]
+index = 23
+phase = 2
+name = "The Internet Protocol"
+file = "unit_06_addressing_the_internet/ch24_the_internet_protocol/chapter_intro.md"
+
+[[chapters]]
+index = 24
+phase = 2
+name = "IPv4 Addresses and Masks"
+file = "unit_06_addressing_the_internet/ch25_ipv4_addresses_and_masks/chapter_intro.md"
+
+[[chapters]]
+index = 25
+phase = 2
+name = "Subnetting, CIDR, and VLSM"
+file = "unit_06_addressing_the_internet/ch26_subnetting_cidr_and_vlsm/chapter_intro.md"
+
+[[chapters]]
+index = 26
+phase = 2
+name = "Address Plans in Practice"
+file = "unit_06_addressing_the_internet/ch27_address_plans_in_practice/chapter_intro.md"
+
+[[chapters]]
+index = 27
+phase = 2
+name = "IPv6"
+file = "unit_06_addressing_the_internet/ch28_ipv6/chapter_intro.md"
+
+[[chapters]]
+index = 28
+phase = 2
+name = "Forwarding and Longest-Prefix Match"
+file = "unit_07_routing/ch29_forwarding_and_longest_prefix/chapter_intro.md"
+
+[[chapters]]
+index = 29
+phase = 2
+name = "Static Routing"
+file = "unit_07_routing/ch30_static_routing/chapter_intro.md"
+
+[[chapters]]
+index = 30
+phase = 2
+name = "Dynamic Routing"
+file = "unit_07_routing/ch31_dynamic_routing/chapter_intro.md"
+
+[[chapters]]
+index = 31
+phase = 2
+name = "BGP and Autonomous Systems"
+file = "unit_07_routing/ch32_bgp_and_autonomous_systems/chapter_intro.md"
+
+[[chapters]]
+index = 32
+phase = 2
+name = "NAT and PAT"
+file = "unit_07_routing/ch33_nat_and_pat/chapter_intro.md"
+
+[[chapters]]
+index = 33
+phase = 2
+name = "ICMP and the Diagnostic Path"
+file = "unit_07_routing/ch34_icmp_and_the_diagnostic_path/chapter_intro.md"
+
+[[chapters]]
+index = 34
+phase = 3
+name = "Ports and Process Multiplexing"
+file = "unit_08_transport_and_services/ch35_ports_and_process_multiplexing/chapter_intro.md"
+
+[[chapters]]
+index = 35
+phase = 3
+name = "UDP"
+file = "unit_08_transport_and_services/ch36_udp/chapter_intro.md"
+
+[[chapters]]
+index = 36
+phase = 3
+name = "TCP"
+file = "unit_08_transport_and_services/ch37_tcp/chapter_intro.md"
+
+[[chapters]]
+index = 37
+phase = 3
+name = "Congestion Control and Modern Transports"
+file = "unit_08_transport_and_services/ch38_congestion_control_and_modern_transports/chapter_intro.md"
+
+[[chapters]]
+index = 38
+phase = 3
+name = "DNS"
+file = "unit_08_transport_and_services/ch39_dns/chapter_intro.md"
+
+[[chapters]]
+index = 39
+phase = 3
+name = "DHCP"
+file = "unit_08_transport_and_services/ch40_dhcp/chapter_intro.md"
+
+[[chapters]]
+index = 40
+phase = 3
+name = "The Application Protocol Zoo"
+file = "unit_08_transport_and_services/ch41_the_application_protocol_zoo/chapter_intro.md"
+
+[[chapters]]
+index = 41
+phase = 3
+name = "Radio from First Principles"
+file = "unit_09_wireless/ch42_radio_from_first_principles/chapter_intro.md"
+
+[[chapters]]
+index = 42
+phase = 3
+name = "Spectrum and Channels"
+file = "unit_09_wireless/ch43_spectrum_and_channels/chapter_intro.md"
+
+[[chapters]]
+index = 43
+phase = 3
+name = "Wi-Fi"
+file = "unit_09_wireless/ch44_wifi/chapter_intro.md"
+
+[[chapters]]
+index = 44
+phase = 3
+name = "WLAN Design and Troubleshooting"
+file = "unit_09_wireless/ch45_wlan_design_and_troubleshooting/chapter_intro.md"
+
+[[chapters]]
+index = 45
+phase = 3
+name = "Cellular"
+file = "unit_09_wireless/ch46_cellular/chapter_intro.md"
+
+[[chapters]]
+index = 46
+phase = 3
+name = "Short-Range and IoT Radio"
+file = "unit_09_wireless/ch47_short_range_and_iot_radio/chapter_intro.md"
+
+[[chapters]]
+index = 47
+phase = 4
+name = "Internet Architecture"
+file = "unit_10_networks_at_distance/ch48_internet_architecture/chapter_intro.md"
+
+[[chapters]]
+index = 48
+phase = 4
+name = "The Last Mile"
+file = "unit_10_networks_at_distance/ch49_the_last_mile/chapter_intro.md"
+
+[[chapters]]
+index = 49
+phase = 4
+name = "Carrier and Optical Transport"
+file = "unit_10_networks_at_distance/ch50_carrier_and_optical_transport/chapter_intro.md"
+
+[[chapters]]
+index = 50
+phase = 4
+name = "Enterprise WAN Evolution"
+file = "unit_10_networks_at_distance/ch51_enterprise_wan_evolution/chapter_intro.md"
+
+[[chapters]]
+index = 51
+phase = 4
+name = "QoS and Content Delivery"
+file = "unit_10_networks_at_distance/ch52_qos_and_content_delivery/chapter_intro.md"
+
+[[chapters]]
+index = 52
+phase = 4
+name = "Documentation and IPAM"
+file = "unit_11_operations/ch53_documentation_and_ipam/chapter_intro.md"
+
+[[chapters]]
+index = 53
+phase = 4
+name = "Monitoring and Telemetry"
+file = "unit_11_operations/ch54_monitoring_and_telemetry/chapter_intro.md"
+
+[[chapters]]
+index = 54
+phase = 4
+name = "Configuration and Change Management"
+file = "unit_11_operations/ch55_configuration_and_change_management/chapter_intro.md"
+
+[[chapters]]
+index = 55
+phase = 4
+name = "Availability and Recovery"
+file = "unit_11_operations/ch56_availability_and_recovery/chapter_intro.md"
+
+[[chapters]]
+index = 56
+phase = 4
+name = "Threat Models and the CIA Triad"
+file = "unit_12_security/ch57_threat_models_and_the_cia_triad/chapter_intro.md"
+
+[[chapters]]
+index = 57
+phase = 4
+name = "Cryptography for Network Engineers"
+file = "unit_12_security/ch58_cryptography_for_network_engineers/chapter_intro.md"
+
+[[chapters]]
+index = 58
+phase = 4
+name = "Authentication, Authorization, Accounting"
+file = "unit_12_security/ch59_authentication_authorization_accounting/chapter_intro.md"
+
+[[chapters]]
+index = 59
+phase = 4
+name = "Firewalls, ACLs, and Segmentation"
+file = "unit_12_security/ch60_firewalls_acls_and_segmentation/chapter_intro.md"
+
+[[chapters]]
+index = 60
+phase = 4
+name = "VPNs and Secure Remote Access"
+file = "unit_12_security/ch61_vpns_and_secure_remote_access/chapter_intro.md"
+
+[[chapters]]
+index = 61
+phase = 4
+name = "Attacks on the Stack"
+file = "unit_12_security/ch62_attacks_on_the_stack/chapter_intro.md"
+
+[[chapters]]
+index = 62
+phase = 5
+name = "The Methodology"
+file = "unit_13_troubleshooting/ch63_the_methodology/chapter_intro.md"
+
+[[chapters]]
+index = 63
+phase = 5
+name = "The Toolbox"
+file = "unit_13_troubleshooting/ch64_the_toolbox/chapter_intro.md"
+
+[[chapters]]
+index = 64
+phase = 5
+name = "Failure Modes, Layer by Layer"
+file = "unit_13_troubleshooting/ch65_failure_modes_layer_by_layer/chapter_intro.md"
+
+[[chapters]]
+index = 65
+phase = 5
+name = "Performance Problems"
+file = "unit_13_troubleshooting/ch66_performance_problems/chapter_intro.md"
+
+[[chapters]]
+index = 66
+phase = 5
+name = "Virtualization and Overlays"
+file = "unit_14_modern_and_future/ch67_virtualization_and_overlays/chapter_intro.md"
+
+[[chapters]]
+index = 67
+phase = 5
+name = "SDN and Programmable Networks"
+file = "unit_14_modern_and_future/ch68_sdn_and_programmable_networks/chapter_intro.md"
+
+[[chapters]]
+index = 68
+phase = 5
+name = "Cloud Networking"
+file = "unit_14_modern_and_future/ch69_cloud_networking/chapter_intro.md"
+
+[[chapters]]
+index = 69
+phase = 5
+name = "Automation and Infrastructure as Code"
+file = "unit_14_modern_and_future/ch70_automation_and_infrastructure_as_code/chapter_intro.md"
+
+[[chapters]]
+index = 70
+phase = 5
+name = "The Frontier"
+file = "unit_14_modern_and_future/ch71_the_frontier/chapter_intro.md"
+
+[[chapters]]
+index = 71
+phase = 5
+name = "Network Design: The Synthesis"
+file = "unit_14_modern_and_future/ch72_network_design_synthesis/chapter_intro.md"
+
+[[phases]]
+index = 0
+name = "Foundations of Information and Signals"
+
+[[phases]]
+index = 1
+name = "Sharing Infrastructure and Local Delivery"
+
+[[phases]]
+index = 2
+name = "Addressing and Routing"
+
+[[phases]]
+index = 3
+name = "Transport, Services, and Wireless"
+
+[[phases]]
+index = 4
+name = "Wide Area, Operations, and Security"
+
+[[phases]]
+index = 5
+name = "Diagnosis, Modern Practice, and Design"

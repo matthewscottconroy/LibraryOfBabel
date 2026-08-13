@@ -1,0 +1,22 @@
+{
+  "question_id": "16735d0d-bfc6-4a25-9124-11195090a917",
+  "chapter": 52,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why are three separate network diagrams standard practice rather than one?",
+  "choices": [
+    "Regulatory requirement",
+    "Each answers a different question — what is plugged into what, what talks to what in which segment, and how traffic gets between segments — and separating them is what makes each maintainable",
+    "Software limitations",
+    "To distribute work among teams"
+  ],
+  "answer": 1,
+  "explanation": "One diagram containing everything becomes unreadable, impossible to keep current, and answers no question well. The physical diagram is the one you want at 03:14 and carries no IP addresses at all.",
+  "tags": [
+    "documentation",
+    "diagrams",
+    "operations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

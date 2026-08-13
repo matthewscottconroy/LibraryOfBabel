@@ -1,0 +1,20 @@
+{
+  "question_id": "6f662359-568a-46ae-ae80-bcd58e47c4c5",
+  "chapter": 10,
+  "phase": 1,
+  "kind": "tf",
+  "text": "A VXLAN overlay can create a logical Ethernet segment spanning three data centres that share no cables at all.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and it is the systematic exploitation of the gap between physical and logical topology. The same gap underlies VLANs, MPLS label-switched paths, and the whole modern practice of network virtualisation.",
+  "tags": [
+    "overlay",
+    "logical-topology",
+    "vxlan"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

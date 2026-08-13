@@ -1,0 +1,20 @@
+{
+  "question_id": "2b41602e-8dad-4edc-ae0f-9833b1eb5079",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A link may contain amplifiers, repeaters and a thousand kilometres of fibre and still be a single link.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. A link is a channel connecting nodes with no intervening forwarding decision. Amplifiers and repeaters regenerate a signal without inspecting an address or choosing an output, so they do not end the link. The moment a device makes a forwarding decision, one link ends and another begins.",
+  "tags": [
+    "link",
+    "topology",
+    "forwarding"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

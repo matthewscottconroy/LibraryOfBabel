@@ -1,0 +1,20 @@
+{
+  "question_id": "8680123d-550c-4e0a-a92e-8722abeed1f4",
+  "chapter": 12,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Store-and-forward operation means a switch or router receives an entire frame and verifies it before forwarding.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and the trade is latency against error propagation: store-and-forward adds one frame time of delay per hop but never forwards a corrupted frame. Cut-through forwards after reading the destination address, which is faster and propagates errors.",
+  "tags": [
+    "store-and-forward",
+    "cut-through",
+    "latency"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

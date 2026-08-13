@@ -1,0 +1,22 @@
+{
+  "question_id": "4f59a353-6bc9-4343-9dfe-a0ea9f5191d7",
+  "chapter": 43,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Explain the 802.11 performance anomaly.",
+  "choices": [
+    "Faster clients slow down over time",
+    "A slow client occupies the shared medium far longer to move the same data, and during that time nobody else can transmit — so the slowest client degrades everyone",
+    "Access points prioritise older clients",
+    "Beacon frames consume most of the airtime"
+  ],
+  "answer": 1,
+  "explanation": "A legacy device at 6 Mb/s takes a hundred times the airtime of a modern one at 600 Mb/s for the same bytes. This is why disabling low data rates is standard practice in dense deployments.",
+  "tags": [
+    "performance-anomaly",
+    "airtime",
+    "legacy-rates"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

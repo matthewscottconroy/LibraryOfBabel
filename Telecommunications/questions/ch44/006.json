@@ -1,0 +1,22 @@
+{
+  "question_id": "f8bdd5a2-e22e-4c53-aa27-460bcc35f3cb",
+  "chapter": 44,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is the correct remedy for a sticky client holding a weak association?",
+  "choices": [
+    "Increase the access point's power",
+    "Reduce power so the old AP becomes genuinely unusable, disable low data rates, and enable 802.11k/v so the client knows where to go",
+    "Replace the client's driver",
+    "Add a second SSID"
+  ],
+  "answer": 1,
+  "explanation": "Raising power makes stickiness worse by extending the range at which a distant AP remains tolerable. The remedies all work by making the bad choice clearly bad, since you cannot make the decision for the client.",
+  "tags": [
+    "sticky-client",
+    "roaming",
+    "wlan-design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "527dfbcf-380e-4cb7-a56a-fcb5665a5b47",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of these is a node but NOT a host?",
+  "choices": [
+    "A network printer",
+    "An unmanaged switch",
+    "A laptop running a web server",
+    "A smartphone on Wi-Fi"
+  ],
+  "answer": 1,
+  "explanation": "A host originates or consumes messages — it is where the application lives. A switch exists to move other devices' frames and is therefore a node that is not a host. The printer, laptop and phone all originate and consume traffic of their own.",
+  "tags": [
+    "host",
+    "node",
+    "terminology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

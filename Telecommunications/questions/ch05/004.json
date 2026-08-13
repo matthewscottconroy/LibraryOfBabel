@@ -1,0 +1,22 @@
+{
+  "question_id": "6284f640-2bf6-45fb-8f57-b68d9a3fc46d",
+  "chapter": 5,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Late collisions appear on one end of a link. What are the two possible causes?",
+  "choices": [
+    "Congestion or a bad cable",
+    "A duplex mismatch, or a segment that exceeds the maximum length",
+    "A routing loop or a spanning tree reconvergence",
+    "An MTU mismatch or a wrong VLAN"
+  ],
+  "answer": 1,
+  "explanation": "A late collision is one detected after the first 64 bytes, which by design should be impossible on a correctly configured segment. It means either the segment is longer than the standard permits, or one end is half duplex while the other is full — and in modern networks it is almost always the second.",
+  "tags": [
+    "late-collisions",
+    "duplex-mismatch",
+    "diagnosis"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "938d3924-2814-43e9-91cc-f3e78ea7a0f2",
+  "chapter": 70,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why do higher frequencies mean smaller cells and therefore more sites?",
+  "choices": [
+    "Regulatory limits",
+    "Path loss rises with frequency and absorption increases, so coverage per site falls — making high rates a civil engineering and planning problem rather than a radio one",
+    "Antennas become too large",
+    "Interference increases"
+  ],
+  "answer": 1,
+  "explanation": "Terahertz communication research is real and its practical range is measured in metres. The physics constrains 6G tightly, whatever the marketing says.",
+  "tags": [
+    "6g",
+    "mmwave",
+    "propagation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

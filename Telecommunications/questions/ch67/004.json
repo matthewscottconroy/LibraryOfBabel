@@ -1,0 +1,22 @@
+{
+  "question_id": "16bc4cfd-cb63-47fc-8937-cb73ad955e26",
+  "chapter": 67,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What does a P4 program describe?",
+  "choices": [
+    "Which entries are in the forwarding table",
+    "How the forwarding PIPELINE works — what headers exist and how they are processed",
+    "The routing protocol configuration",
+    "The controller's policy"
+  ],
+  "answer": 1,
+  "explanation": "A conventional ASIC understands a fixed set of protocols decided at silicon design time. Programmability decouples protocol support from hardware refresh: a new encapsulation format becomes a software update rather than a three-year silicon cycle.",
+  "tags": [
+    "p4",
+    "programmable-pipeline",
+    "asic"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

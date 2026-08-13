@@ -1,0 +1,22 @@
+{
+  "question_id": "0be75447-c3b0-450c-b48b-43531162e950",
+  "chapter": 11,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What did a reserved circuit guarantee that a packet network does not?",
+  "choices": [
+    "Encryption of the conversation",
+    "Guaranteed bandwidth, constant delay, in-order delivery, and admission control",
+    "Lower cost per minute",
+    "Compatibility with digital equipment"
+  ],
+  "answer": 1,
+  "explanation": "The busy signal is admission control made audible: an honest 'no' delivered before you invested effort. Every one of those four properties is something the Internet does not provide, and something some part of the modern industry is currently trying to reintroduce.",
+  "tags": [
+    "circuit-switching",
+    "guarantees",
+    "admission-control"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

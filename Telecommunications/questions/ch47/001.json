@@ -1,0 +1,22 @@
+{
+  "question_id": "9ed85081-2454-4bc3-847a-cf67d9856400",
+  "chapter": 47,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is the tier-1/2/3 pyramid a misleading picture of the modern Internet?",
+  "choices": [
+    "Tier 1 networks no longer exist",
+    "Content moved: a majority of consumer traffic now comes from a few large sources that peer directly with access networks or host caches inside them, never touching a transit backbone",
+    "BGP replaced it",
+    "IPv6 changed the topology"
+  ],
+  "answer": 1,
+  "explanation": "The Internet flattened. Latency to popular content is far lower than geography suggests, and a larger share of traffic depends on fewer organisations than at any point in its history — which is a genuine resilience question.",
+  "tags": [
+    "internet-architecture",
+    "peering",
+    "cdn"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

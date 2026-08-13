@@ -1,0 +1,22 @@
+{
+  "question_id": "b9f29dd2-964c-46c6-bd42-86c5c649b37b",
+  "chapter": 48,
+  "phase": 4,
+  "kind": "mc",
+  "text": "DSL extracts megabits from telephone copper designed for 3.4 kHz of voice. How?",
+  "choices": [
+    "It compresses the voice signal",
+    "The copper itself passes megahertz; the telephone EQUIPMENT was the limit, so different equipment uses frequencies the telephone never touched",
+    "It uses a second pair",
+    "It converts to fibre at the exchange"
+  ],
+  "answer": 1,
+  "explanation": "ADSL puts voice below 4 kHz and data above it, so both share the line and the splitter is the entire integration cost. The constraint is attenuation, which rises with both frequency and distance — hence the DSL distance table.",
+  "tags": [
+    "dsl",
+    "attenuation",
+    "access"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

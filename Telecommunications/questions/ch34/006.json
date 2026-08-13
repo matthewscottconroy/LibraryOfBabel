@@ -1,0 +1,22 @@
+{
+  "question_id": "2e6597ef-aad8-4dd3-81ef-3dce446dff36",
+  "chapter": 34,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A socket in TIME-WAIT appears in `ss` output. What does it indicate?",
+  "choices": [
+    "A hung connection that should be killed",
+    "Normal TCP teardown behaviour, held so that delayed duplicate segments cannot corrupt a new connection on the same five-tuple",
+    "A failed connection attempt",
+    "A port scan in progress"
+  ],
+  "answer": 1,
+  "explanation": "TIME_WAIT is a normal part of connection close and alarms people who have not met it. It exists so that a stale segment from the old connection cannot be mistaken for data on a new one reusing the same tuple.",
+  "tags": [
+    "time-wait",
+    "tcp",
+    "teardown"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

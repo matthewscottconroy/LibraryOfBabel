@@ -1,0 +1,20 @@
+{
+  "question_id": "d60d07e2-28af-4c61-bcac-d8852ef30321",
+  "chapter": 43,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Capturing the WPA2 four-way handshake permits an offline dictionary attack against the passphrase.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, which is why passphrase length matters enormously and why WPA3's SAE replaced the mechanism with one that is not offline-attackable. The KRACK vulnerability of 2017 attacked the handshake's state machine rather than its cryptography — protocols fail at their state machines at least as often as at their algorithms.",
+  "tags": [
+    "wpa2",
+    "four-way-handshake",
+    "krack"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

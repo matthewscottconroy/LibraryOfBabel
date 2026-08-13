@@ -1,0 +1,20 @@
+{
+  "question_id": "9d319588-5cc2-4546-8c06-2b6c62aa23a4",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The bit pattern 11000000 10101000 00001010 01000110 has an intrinsic meaning that can be determined by inspection.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Under an agreement that this is an IPv4 address it is 192.168.10.70; as an unsigned big-endian integer it is 3,232,238,150; as four ASCII characters it is mostly unprintable. Meaning comes from a shared agreement about how to read the bits, never from the bits alone — which is why a mismatched agreement produces confident nonsense rather than an error.",
+  "tags": [
+    "encoding",
+    "interpretation",
+    "agreement"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

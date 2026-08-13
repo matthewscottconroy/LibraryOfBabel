@@ -1,0 +1,21 @@
+{
+  "question_id": "fd889814-3bd0-42de-a016-4e7a6e6873e5",
+  "chapter": 44,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A user reports Wi-Fi is slow. Which four categories exhaust the possible causes?",
+  "choices": [
+    "Cable, switch, router, server",
+    "Signal, noise, airtime, or client",
+    "Bandwidth, latency, jitter, loss",
+    "Hardware, software, firmware, configuration"
+  ],
+  "answer": 1,
+  "explanation": "Establishing which of the four you have is the whole diagnostic procedure, and each has a completely different remedy. Users never say 'my SNR is inadequate'; translating the complaint into one of these four is the skill.",
+  "tags": [
+    "wlan-troubleshooting",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "ecd0bcfc-81db-473a-97b8-953e8e93cf0a",
+  "chapter": 64,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Distinguish the three outcomes of `nc -zv host port`.",
+  "choices": [
+    "They are equivalent",
+    "Connected means the path is open and the service is listening; refused means the path is open and nothing is listening; timeout means something is silently dropping",
+    "Only connected and failed exist",
+    "Timeout always means the host is down"
+  ],
+  "answer": 1,
+  "explanation": "Three different diagnoses with three different next steps. Treating 'connection failed' as one symptom is the error, and the RST-versus-timeout distinction is exactly this.",
+  "tags": [
+    "port-testing",
+    "rst",
+    "timeout"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

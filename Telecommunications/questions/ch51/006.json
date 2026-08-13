@@ -1,0 +1,22 @@
+{
+  "question_id": "060d1528-0ed8-4157-aaac-021d0fd2b296",
+  "chapter": 51,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which DSCP value is conventionally used for voice?",
+  "choices": [
+    "CS0 (0)",
+    "AF41 (34)",
+    "EF (46)",
+    "CS7 (56)"
+  ],
+  "answer": 2,
+  "explanation": "Expedited Forwarding, DSCP 46, is served by a priority queue — which must always be rate-limited, because an unpoliced priority queue can starve everything else.",
+  "tags": [
+    "dscp",
+    "ef",
+    "voice"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

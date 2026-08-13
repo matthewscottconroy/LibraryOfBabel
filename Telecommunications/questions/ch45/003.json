@@ -1,0 +1,22 @@
+{
+  "question_id": "98e261ce-3b0a-440f-aa1b-3711b3dd0e73",
+  "chapter": 45,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Name the three architectural advantages of cellular over Wi-Fi.",
+  "choices": [
+    "Higher power, better antennas, more spectrum",
+    "Licensed spectrum, scheduled rather than contended access, and network-controlled mobility",
+    "Encryption, authentication, and billing",
+    "Lower latency, higher throughput, better range"
+  ],
+  "answer": 1,
+  "explanation": "These explain the performance difference more than the radio technology does. A cellular base station assigns transmission opportunities with knowledge of everyone's queue and channel quality; Wi-Fi's CSMA/CA is a polite free-for-all.",
+  "tags": [
+    "cellular",
+    "scheduling",
+    "licensed-spectrum"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

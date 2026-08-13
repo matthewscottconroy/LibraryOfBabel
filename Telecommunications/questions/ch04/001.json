@@ -1,0 +1,22 @@
+{
+  "question_id": "2ee668f0-9e49-4ba8-a3d6-cae13ced404b",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why does a long cable round off the corners of a square wave?",
+  "choices": [
+    "The voltage decays exponentially along the cable",
+    "A square wave is a sum of a fundamental plus odd harmonics; the cable attenuates high frequencies more, removing the harmonics that make the corners",
+    "The cable's resistance limits the current at sharp edges",
+    "Reflections from the far end cancel the edges"
+  ],
+  "answer": 1,
+  "explanation": "In the frequency domain the answer is a subtraction: the sharp corners ARE the high harmonics, and a band-limited channel removes them. This is why the frequency-domain view explains what the time-domain view merely displays.",
+  "tags": [
+    "fourier",
+    "frequency-domain",
+    "bandwidth"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

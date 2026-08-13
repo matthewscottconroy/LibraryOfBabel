@@ -1,0 +1,22 @@
+{
+  "question_id": "308cda8d-a9f2-404d-9cac-77d5ee226233",
+  "chapter": 50,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why does the remote-worker case make a perimeter model irrelevant rather than merely inadequate?",
+  "choices": [
+    "Remote workers use different protocols",
+    "If the user is not on your network and the application is not in your data centre, there is no perimeter for traffic to cross",
+    "VPNs are insecure",
+    "Home networks are faster"
+  ],
+  "answer": 1,
+  "explanation": "Security must attach to identity and device rather than to location, which is what zero trust means as an architecture rather than a slogan.",
+  "tags": [
+    "zero-trust",
+    "remote-work",
+    "perimeter"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

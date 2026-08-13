@@ -1,0 +1,22 @@
+{
+  "question_id": "091a643f-c441-49b4-9928-0c7d68af94f3",
+  "chapter": 19,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A trunk has native VLAN 1 at one end and native VLAN 99 at the other. What happens?",
+  "choices": [
+    "The trunk fails to come up",
+    "Untagged frames from VLAN 1 are placed into VLAN 99, silently merging two broadcast domains",
+    "All traffic is dropped",
+    "Spanning tree blocks the port"
+  ],
+  "answer": 1,
+  "explanation": "There is no error; there is simply connectivity that should not exist, which is worse than an outage because nobody notices. The same native-VLAN provision enables the double-tagging VLAN hopping attack.",
+  "tags": [
+    "native-vlan",
+    "mismatch",
+    "vlan-hopping"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

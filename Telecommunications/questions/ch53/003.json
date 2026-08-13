@@ -1,0 +1,22 @@
+{
+  "question_id": "f0f68f5d-4be7-46c1-8e53-aa90d3671d7e",
+  "chapter": 53,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is wrong with SNMPv2c in a modern network?",
+  "choices": [
+    "It is too slow",
+    "Authentication is a community string sent in cleartext, so anyone who can capture a packet can read your inventory and, if it is read-write, reconfigure your equipment",
+    "It cannot read 64-bit counters",
+    "It is incompatible with IPv6"
+  ],
+  "answer": 1,
+  "explanation": "The default strings are public and private and remain in use on production equipment with dispiriting frequency. v3 adds authentication and encryption; the reason it is often not used is that it is more work to configure, which is not a good reason.",
+  "tags": [
+    "snmp",
+    "snmpv3",
+    "security"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

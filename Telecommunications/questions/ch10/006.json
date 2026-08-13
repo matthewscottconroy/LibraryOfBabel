@@ -1,0 +1,22 @@
+{
+  "question_id": "cfc1f067-bd18-46b6-a9f8-6ae2bc88c76a",
+  "chapter": 10,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In a three-tier design, which layer's failure has the largest blast radius?",
+  "choices": [
+    "Access",
+    "Distribution",
+    "Core",
+    "They are equivalent"
+  ],
+  "answer": 2,
+  "explanation": "The core aggregates everything, so its failure affects the most users — which is why core devices are the ones designed with redundant supervisors, redundant power and non-disruptive upgrades. An access switch failure affects one closet's worth of users.",
+  "tags": [
+    "three-tier",
+    "blast-radius",
+    "design"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

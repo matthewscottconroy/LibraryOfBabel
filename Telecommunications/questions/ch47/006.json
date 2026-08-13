@@ -1,0 +1,22 @@
+{
+  "question_id": "ed34e83d-31c9-495c-b439-effbc8b32048",
+  "chapter": 47,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What does 'rough consensus and running code' mean in practice?",
+  "choices": [
+    "Decisions are made by vote of members",
+    "No formal membership or voting; a working group chair judges consensus, and specifications that have been implemented and tested are strongly preferred over those merely designed",
+    "Code must be open source",
+    "Standards require unanimous agreement"
+  ],
+  "answer": 1,
+  "explanation": "Dave Clark's 1992 formulation. The preference for running code is precisely the difference that decided OSI's fate, and it is why the IETF's output interoperates.",
+  "tags": [
+    "ietf",
+    "rough-consensus",
+    "standards"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

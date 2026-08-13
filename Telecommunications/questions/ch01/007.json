@@ -1,0 +1,22 @@
+{
+  "question_id": "1c7612b2-bb56-48d6-82b7-41c055499810",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "UTF-8 is described as self-synchronising. What does that buy?",
+  "choices": [
+    "It can be decoded without knowing the byte order",
+    "Dropping into the middle of a stream, you can find the next character boundary by examining at most a few bytes",
+    "It automatically detects and corrects transmission errors",
+    "It guarantees that all characters occupy the same number of bytes"
+  ],
+  "answer": 1,
+  "explanation": "Continuation bytes always begin with the bits 10 and lead bytes never do, so a decoder that starts mid-stream can resynchronise within a few bytes. Compare Baudot's shift codes, where one corrupted shift character misinterprets everything after it — an unbounded corruption from a single lost bit.",
+  "tags": [
+    "utf-8",
+    "self-synchronising",
+    "encoding"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

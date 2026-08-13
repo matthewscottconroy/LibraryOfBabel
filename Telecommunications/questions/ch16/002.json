@@ -1,0 +1,22 @@
+{
+  "question_id": "a5086bde-632c-4dfe-b9cf-1227b8978730",
+  "chapter": 16,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A switch breaks up which kind of domain?",
+  "choices": [
+    "Broadcast domains",
+    "Collision domains",
+    "Both",
+    "Neither"
+  ],
+  "answer": 1,
+  "explanation": "Each switch port is its own collision domain, which is why full duplex became possible and collisions vanished. A switch floods broadcasts out every port by construction, so an entire switched network is one broadcast domain until a router or a VLAN stops it.",
+  "tags": [
+    "collision-domain",
+    "broadcast-domain",
+    "switching"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

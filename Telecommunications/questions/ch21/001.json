@@ -1,0 +1,22 @@
+{
+  "question_id": "f6b0d1fb-3a67-42ec-98b5-b679ea931ebe",
+  "chapter": 21,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which OSI layer does a router principally operate at?",
+  "choices": [
+    "2",
+    "3",
+    "4",
+    "7"
+  ],
+  "answer": 1,
+  "explanation": "A router forwards on Layer 3 logical addresses and makes decisions between networks. A switch operates at Layer 2 on hardware addresses; a stateful firewall tracks Layer 4 connections; a proxy or NGFW inspects Layer 7 content.",
+  "tags": [
+    "osi",
+    "router",
+    "layer-3"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

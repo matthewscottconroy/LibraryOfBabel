@@ -1,0 +1,21 @@
+{
+  "question_id": "4d9356ba-2f5f-4626-8be4-a536999a49d7",
+  "chapter": 8,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which multiplexing technique gives each conversation the whole channel in turn, for a brief slot?",
+  "choices": [
+    "FDM",
+    "TDM",
+    "CDMA",
+    "WDM"
+  ],
+  "answer": 1,
+  "explanation": "Time-division multiplexing allocates rigid, clock-driven time slots — the architecture of the entire digital telephone network, from the DS0 through T1 and E1 up into SONET. FDM divides frequency, CDMA divides by code, WDM divides by wavelength.",
+  "tags": [
+    "tdm",
+    "multiplexing"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

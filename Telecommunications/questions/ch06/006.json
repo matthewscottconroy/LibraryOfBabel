@@ -1,0 +1,22 @@
+{
+  "question_id": "9ba7c64d-4702-4f44-b7c0-2f8d8c9fcfb3",
+  "chapter": 6,
+  "phase": 0,
+  "kind": "mc",
+  "text": "8B/10B encoding includes a mechanism called running disparity. What is it for?",
+  "choices": [
+    "Error correction",
+    "Maintaining DC balance by tracking the accumulated excess of ones over zeros and choosing between two encodings",
+    "Compressing the data stream",
+    "Detecting the start of a frame"
+  ],
+  "answer": 1,
+  "explanation": "Each 8-bit input maps to one of two 10-bit outputs with opposite disparity; the encoder tracks the running imbalance and picks the one that corrects it. The spare code space also provides control symbols that cannot occur in data, which is how frame boundaries are marked.",
+  "tags": [
+    "8b10b",
+    "running-disparity",
+    "dc-balance"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

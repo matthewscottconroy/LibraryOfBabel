@@ -1,0 +1,22 @@
+{
+  "question_id": "2f043462-1b9d-42d0-a0e8-be1d286575ac",
+  "chapter": 41,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does 5 GHz have shorter range than 2.4 GHz at equal power?",
+  "choices": [
+    "It penetrates walls worse, and that is the main effect",
+    "Free-space path loss contains 20log10(f), so doubling the frequency costs 6 dB, and the antenna's effective aperture shrinks with wavelength",
+    "5 GHz radios transmit at lower power",
+    "Regulations limit 5 GHz range"
+  ],
+  "answer": 1,
+  "explanation": "Material absorption does increase with frequency and is a real secondary effect, but the primary reason is the frequency term in the path loss formula. Getting this right matters when you are explaining a survey result.",
+  "tags": [
+    "fspl",
+    "frequency",
+    "wireless"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

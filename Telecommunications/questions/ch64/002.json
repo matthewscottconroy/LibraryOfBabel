@@ -1,0 +1,22 @@
+{
+  "question_id": "4da24c52-212b-499f-b346-7dbc54c2b014",
+  "chapter": 64,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Link is up and no traffic passes at all. Which layer, and what are the candidates?",
+  "choices": [
+    "Layer 1; cable or transceiver",
+    "Layer 2 — wrong VLAN, err-disabled port, spanning tree blocking, 802.1X failure, or a forced speed/duplex mismatch",
+    "Layer 3; wrong gateway",
+    "Layer 4; a blocked port"
+  ],
+  "answer": 1,
+  "explanation": "Nothing above Layer 2 produces 'up but completely silent', and all five candidates are visible in one show interface and one show vlan.",
+  "tags": [
+    "layer-2",
+    "diagnosis",
+    "symptom-index"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

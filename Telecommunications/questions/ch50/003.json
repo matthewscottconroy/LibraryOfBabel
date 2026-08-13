@@ -1,0 +1,22 @@
+{
+  "question_id": "6535da49-978c-4af4-9afb-c39c1540958d",
+  "chapter": 50,
+  "phase": 4,
+  "kind": "mc",
+  "text": "State honestly what SD-WAN does NOT provide.",
+  "choices": [
+    "Encryption",
+    "An SLA on the public Internet — measuring paths and choosing the best is not a carrier committing to a latency figure",
+    "Central management",
+    "Application-aware routing"
+  ],
+  "answer": 1,
+  "explanation": "When every available path is congested, SD-WAN chooses the least bad one. For most traffic that is sufficient; for a small class of applications it is not, and the honest design keeps a dedicated circuit for those.",
+  "tags": [
+    "sd-wan",
+    "sla",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

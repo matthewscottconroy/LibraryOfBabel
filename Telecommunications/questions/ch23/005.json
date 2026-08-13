@@ -1,0 +1,20 @@
+{
+  "question_id": "a72480a8-aec5-4dfa-8a5f-7bd1d0007c1a",
+  "chapter": 23,
+  "phase": 2,
+  "kind": "tf",
+  "text": "A firewall cannot see port numbers in IP fragments after the first, which has produced a long history of evasion attacks.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Only the first fragment carries the transport header, so a stateless filter has nothing to match on for the rest. This is one of several reasons IPv6 abolished router fragmentation.",
+  "tags": [
+    "fragmentation",
+    "firewall",
+    "security"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

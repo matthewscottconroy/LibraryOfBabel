@@ -1,0 +1,22 @@
+{
+  "question_id": "4ee56753-4f67-491c-bf9d-f23a6fd17d99",
+  "chapter": 67,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Give the strongest reason the OpenFlow vision did not displace traditional networking.",
+  "choices": [
+    "It was technically flawed",
+    "The controller is a consequential single point of failure, scale is genuinely hard, the installed base works, vendors adapted, and OpenFlow's flow-table abstraction was too low-level",
+    "Vendors blocked it",
+    "It could not support IPv6"
+  ],
+  "answer": 1,
+  "explanation": "Distributed protocols degrade gracefully; a network whose devices cannot forward without a controller has a severe new failure mode. Controller high availability is solvable and adds exactly the complexity the pitch promised to remove.",
+  "tags": [
+    "openflow",
+    "sdn",
+    "failure-modes"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

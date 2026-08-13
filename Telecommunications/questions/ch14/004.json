@@ -1,0 +1,22 @@
+{
+  "question_id": "ffa19060-ea15-44f9-9e2c-26cf0afe1701",
+  "chapter": 14,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A CRC-32 check fails on a received Ethernet frame. What does the receiver do?",
+  "choices": [
+    "Requests retransmission of that frame",
+    "Corrects the error using the CRC",
+    "Discards the frame silently and increments an error counter",
+    "Forwards it with an error flag set"
+  ],
+  "answer": 2,
+  "explanation": "The CRC provides detection, not correction, and Ethernet has no link-layer retransmission. The frame is discarded and a counter incremented; recovery, if any, is the transport layer's job. This is why reading interface counters is the way to find a marginal cable.",
+  "tags": [
+    "crc",
+    "error-detection",
+    "counters"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

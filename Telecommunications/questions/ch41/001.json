@@ -1,0 +1,22 @@
+{
+  "question_id": "7a0a3a65-115c-4cd8-9003-4d23b24546ba",
+  "chapter": 41,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Doubling the distance of a radio link costs how much additional path loss?",
+  "choices": [
+    "3 dB",
+    "6 dB",
+    "10 dB",
+    "20 dB"
+  ],
+  "answer": 1,
+  "explanation": "FSPL contains 20log10(d), so doubling d adds 20log10(2) = 6 dB — at any frequency. Each doubling of range therefore costs a quadrupling of power, which is why extending coverage by transmit power is so unrewarding.",
+  "tags": [
+    "fspl",
+    "path-loss",
+    "link-budget"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

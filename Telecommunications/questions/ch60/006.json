@@ -1,0 +1,22 @@
+{
+  "question_id": "e975a7b1-3f14-4552-b202-4c690c6b0436",
+  "chapter": 60,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Besides security, what does a tunnel frequently exist to provide?",
+  "choices": [
+    "Compression",
+    "Connectivity the underlying network would not give — private addresses across a network that would drop them, IPv6 across IPv4, or Ethernet across a routed network",
+    "Load balancing",
+    "Caching"
+  ],
+  "answer": 1,
+  "explanation": "Separating the security purpose from the connectivity purpose clarifies design discussions considerably, because the two are often conflated and have different requirements.",
+  "tags": [
+    "tunnelling",
+    "overlay",
+    "vpn"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

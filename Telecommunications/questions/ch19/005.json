@@ -1,0 +1,20 @@
+{
+  "question_id": "41141dc4-e56d-496f-ac99-bda2a68777d1",
+  "chapter": 19,
+  "phase": 1,
+  "kind": "tf",
+  "text": "The double-tagging VLAN hopping attack is mitigated by setting the native VLAN to an unused ID and never using VLAN 1.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, together with tagging the native VLAN explicitly and disabling dynamic trunking on access ports. Three commands defeat a thirty-year-old attack that still works against default configurations.",
+  "tags": [
+    "vlan-hopping",
+    "native-vlan",
+    "hardening"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

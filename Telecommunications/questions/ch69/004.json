@@ -1,0 +1,22 @@
+{
+  "question_id": "235e7be5-e2dc-44a8-8022-f1e30309aa82",
+  "chapter": 69,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What does NETCONF provide that screen scraping does not?",
+  "choices": [
+    "Vendor independence",
+    "Transactions: either the whole change applies or none does, eliminating the half-configured device an interrupted script produces",
+    "Faster execution",
+    "Encryption"
+  ],
+  "answer": 1,
+  "explanation": "Screen scraping works with every device ever made and breaks when output formats change between firmware versions. A great deal of production automation is still screen scraping, and there is no shame in it.",
+  "tags": [
+    "netconf",
+    "transactions",
+    "automation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "ac349bb5-360c-4f83-948d-5b5225a21f91",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which view of a signal makes a channel's distortion easiest to reason about?",
+  "choices": [
+    "Time domain, because it shows the actual waveform",
+    "Frequency domain, because a channel is characterised by what it does to each frequency",
+    "Neither — distortion must be measured empirically",
+    "Both are equally informative"
+  ],
+  "answer": 1,
+  "explanation": "Attenuation, distortion, dispersion, filtering and bandwidth are all statements about frequency response. Once you are looking at the spectrum, each becomes arithmetic rather than mystery.",
+  "tags": [
+    "frequency-domain",
+    "distortion"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

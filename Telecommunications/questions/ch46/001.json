@@ -1,0 +1,22 @@
+{
+  "question_id": "06e36bcc-0a2b-4332-920f-31d94edb4a3f",
+  "chapter": 46,
+  "phase": 3,
+  "kind": "mc",
+  "text": "State the trilemma governing IoT radio design.",
+  "choices": [
+    "Cost, size, weight",
+    "Range, rate and power efficiency — you get approximately two",
+    "Security, speed, simplicity",
+    "Frequency, bandwidth, modulation"
+  ],
+  "answer": 1,
+  "explanation": "LoRaWAN buys 10 km range and ten-year battery life by accepting a few hundred bits per second. BLE buys years of battery and megabit rates by accepting ten metres. NFC dispenses with the battery entirely by accepting four centimetres.",
+  "tags": [
+    "iot",
+    "trilemma",
+    "lpwan"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

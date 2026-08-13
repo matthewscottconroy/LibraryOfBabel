@@ -1,0 +1,22 @@
+{
+  "question_id": "d286ac69-010a-41c5-a7ba-c02a634ddbea",
+  "chapter": 31,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why did Facebook remain unreachable for six hours in October 2021?",
+  "choices": [
+    "A data centre fire",
+    "They withdrew the BGP routes to their own DNS servers, which also removed the internal tooling and physical access systems their engineers needed",
+    "A DDoS attack",
+    "A submarine cable cut"
+  ],
+  "answer": 1,
+  "explanation": "A maintenance error withdrew the routes; the resulting outage disabled the systems required to fix it. It is a case study in shared fate: the recovery path depended on the thing that had failed.",
+  "tags": [
+    "bgp",
+    "outage",
+    "shared-fate"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

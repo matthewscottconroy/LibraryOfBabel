@@ -1,0 +1,21 @@
+{
+  "question_id": "4c586d1f-5155-4d70-b374-4f7fb6d05763",
+  "chapter": 44,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A 400-seat lecture theatre has excellent signal everywhere and unusable Wi-Fi. What kind of design problem is this?",
+  "choices": [
+    "Coverage",
+    "Capacity — too many clients contending for a shared half-duplex medium",
+    "Interference from outside",
+    "A cabling fault"
+  ],
+  "answer": 1,
+  "explanation": "Capacity design divides the client population across more access points, uses narrower channels to maximise channel reuse, and turns power DOWN so cells stay small. A coverage design gives it one powerful AP and fails completely.",
+  "tags": [
+    "capacity-vs-coverage",
+    "wlan-design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

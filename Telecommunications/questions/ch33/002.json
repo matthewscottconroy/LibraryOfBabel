@@ -1,0 +1,22 @@
+{
+  "question_id": "424c3b76-6c66-4760-ae31-b585fabe0555",
+  "chapter": 33,
+  "phase": 2,
+  "kind": "mc",
+  "text": "How does traceroute work?",
+  "choices": [
+    "It queries each router's management interface",
+    "It sends packets with incrementing TTL values; each router that decrements TTL to zero returns ICMP Time Exceeded, revealing itself",
+    "It uses BGP looking glasses",
+    "It reads the routing table of the destination"
+  ],
+  "answer": 1,
+  "explanation": "Each router identifies itself purely as a side effect of the loop-prevention mechanism. Implementations differ — classic Unix uses UDP to high ports, Windows uses ICMP Echo, and -T uses TCP SYN, which is often the only variant that gets through a firewall.",
+  "tags": [
+    "traceroute",
+    "ttl",
+    "icmp"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

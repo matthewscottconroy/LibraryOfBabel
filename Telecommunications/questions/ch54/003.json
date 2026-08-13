@@ -1,0 +1,21 @@
+{
+  "question_id": "7fd0665c-a669-4cbd-9e2e-6a0b3fd01ceb",
+  "chapter": 54,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What distinguishes a real rollback plan from an aspirational one?",
+  "choices": [
+    "Its length",
+    "It has been tested and timed, rather than merely written",
+    "Management approval",
+    "Inclusion in the change record"
+  ],
+  "answer": 1,
+  "explanation": "A great many rollback plans are discovered to be fiction at the moment they are needed, most commonly because the backup was never verified restorable or because the reversal requires a reboot nobody accounted for.",
+  "tags": [
+    "rollback",
+    "change-management"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

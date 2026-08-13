@@ -1,0 +1,22 @@
+{
+  "question_id": "af26fd72-41da-4d7e-b812-2daf0dfb6d8e",
+  "chapter": 40,
+  "phase": 3,
+  "kind": "mc",
+  "text": "SPF, DKIM and DMARC are all implemented as what?",
+  "choices": [
+    "SMTP extensions",
+    "DNS TXT records",
+    "TLS certificate extensions",
+    "IMAP headers"
+  ],
+  "answer": 1,
+  "explanation": "Which is why the DNS record types matter here: mail authentication is published in DNS and verified by the receiving server. SPF states which hosts may send, DKIM provides a cryptographic signature, and DMARC states the policy and requests reporting.",
+  "tags": [
+    "spf",
+    "dkim",
+    "dmarc"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

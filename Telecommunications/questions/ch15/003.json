@@ -1,0 +1,22 @@
+{
+  "question_id": "eb3bc41e-35b9-4dc9-9e37-ce2aa5698722",
+  "chapter": 15,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Token Ring was deterministic and Ethernet was not. Why did Ethernet win?",
+  "choices": [
+    "Token Ring was technically inferior",
+    "Ethernet was cheaper, good enough once switching removed the pathological cases, and kept its interface stable while replacing its implementation entirely",
+    "IBM withdrew from the market",
+    "Token Ring could not support more than 100 stations"
+  ],
+  "answer": 1,
+  "explanation": "The frame format of 1983 is the frame format of 2026, while the medium, coding, topology, arbitration, duplex model and speed have all been thrown away and rebuilt. Standardise the interface, not the mechanism — a lesson that generalises far beyond networking.",
+  "tags": [
+    "ethernet",
+    "token-ring",
+    "interfaces"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

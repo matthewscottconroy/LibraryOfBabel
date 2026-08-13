@@ -1,0 +1,22 @@
+{
+  "question_id": "dd5ea7b3-1911-45cd-a525-45d854e7cc1c",
+  "chapter": 59,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why does a stateless filter permitting outbound HTTP create a weakness?",
+  "choices": [
+    "It cannot match on ports",
+    "It must also permit inbound packets from port 80 to the ephemeral range — a rule broad enough that an attacker need only source traffic from port 80",
+    "It blocks DNS",
+    "It cannot handle IPv6"
+  ],
+  "answer": 1,
+  "explanation": "This is exactly what stateful inspection was invented to fix: the firewall records the five-tuple when an internal host initiates, and permits only return traffic matching an existing entry.",
+  "tags": [
+    "stateless-filter",
+    "stateful-inspection",
+    "acl"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

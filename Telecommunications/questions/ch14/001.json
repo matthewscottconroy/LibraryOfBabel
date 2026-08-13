@@ -1,0 +1,22 @@
+{
+  "question_id": "6cf3a965-e321-4335-9d6b-f1eaa43a7452",
+  "chapter": 14,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why is a MAC address space of 2^48 not enough to make MAC addresses usable globally?",
+  "choices": [
+    "The space is nearly exhausted",
+    "MAC addresses are flat, so no rule summarises a group of them and any device must learn each individually",
+    "They can be spoofed",
+    "They are only 48 bits, and IPv6 needs 128"
+  ],
+  "answer": 1,
+  "explanation": "Flatness, not size, is the problem. Two adjacent MAC addresses may be on opposite sides of the planet, so aggregation is impossible and every forwarding device must know each address individually — which bounds table size and therefore broadcast domain size.",
+  "tags": [
+    "mac-address",
+    "flat-addressing",
+    "aggregation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

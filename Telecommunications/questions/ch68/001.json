@@ -1,0 +1,22 @@
+{
+  "question_id": "a00ee9eb-cd0d-4f78-951d-b673625cfe53",
+  "chapter": 68,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A cloud security group is stateful; a network ACL is not. What is the practical consequence?",
+  "choices": [
+    "Security groups are faster",
+    "A security group permitting inbound 443 automatically permits return traffic; a network ACL requires an explicit rule for the ephemeral range in the other direction",
+    "Network ACLs are deprecated",
+    "Security groups apply per subnet"
+  ],
+  "answer": 1,
+  "explanation": "Forgetting the return rule on a network ACL is one of the most common cloud networking faults. The two exist because they operate at different scopes and one is a defence-in-depth layer for the other.",
+  "tags": [
+    "security-group",
+    "network-acl",
+    "stateful"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "7afbc4e8-245f-4ae6-b1f1-5a4b4f4b96b7",
+  "chapter": 44,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which survey type tells you what a user will actually experience?",
+  "choices": [
+    "Predictive",
+    "Passive",
+    "Active — associating and measuring throughput, loss and roaming behaviour",
+    "All three equally"
+  ],
+  "answer": 2,
+  "explanation": "Predictive models from a floor plan; passive listens and shows what exists; only active measures the experience. The most-skipped practice is surveying with the building POPULATED, because human bodies absorb 2.4 and 5 GHz measurably.",
+  "tags": [
+    "site-survey",
+    "wlan-design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

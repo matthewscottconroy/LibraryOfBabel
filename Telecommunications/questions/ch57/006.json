@@ -1,0 +1,22 @@
+{
+  "question_id": "19b8141c-fdb1-4985-8821-357e85dd11cb",
+  "chapter": 57,
+  "phase": 4,
+  "kind": "mc",
+  "text": "TLS 1.3's changes were almost entirely removals. Why?",
+  "choices": [
+    "To improve performance only",
+    "Each removal corresponds to a specific published attack — BEAST, CRIME, POODLE, Lucky13, FREAK, Logjam, DROWN",
+    "To reduce implementation size",
+    "To simplify certification"
+  ],
+  "answer": 1,
+  "explanation": "It also cut the handshake from two round trips to one, with optional zero round-trip resumption — the recurring theme that round trips are the expensive thing. Knowing the attack history is what makes 'why is this option gone' answerable.",
+  "tags": [
+    "tls13",
+    "attacks",
+    "protocol-design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

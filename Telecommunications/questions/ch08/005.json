@@ -1,0 +1,20 @@
+{
+  "question_id": "0b3b4983-899a-459e-87e6-e781c36e7a1b",
+  "chapter": 8,
+  "phase": 0,
+  "kind": "tf",
+  "text": "The cost of a communications link is dominated by the path rather than by the capacity, which is why multiplexing is an economic necessity.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Digging a trench costs the same for one fibre or 144; a submarine cable's terminal electronics are a small fraction of the ships and permits. Since the marginal cost of capacity once the path exists is near zero, every generation has re-solved the problem of getting more conversations onto paths already paid for.",
+  "tags": [
+    "economics",
+    "multiplexing",
+    "infrastructure"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

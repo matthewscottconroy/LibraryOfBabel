@@ -1,0 +1,22 @@
+{
+  "question_id": "e7a34f6f-b2e0-4def-bd38-8154237bad56",
+  "chapter": 21,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What does a vendor mean by a 'Layer 7 firewall'?",
+  "choices": [
+    "A firewall with seven rules",
+    "One that inspects application content, not merely addresses and ports",
+    "A firewall that operates at the physical layer",
+    "Marketing with no technical content"
+  ],
+  "answer": 1,
+  "explanation": "The name is accurate: it identifies applications independently of port number and makes decisions from Layer 7 content. That capability requires TLS inspection to be useful on modern traffic, which is a genuine tradeoff rather than a free feature.",
+  "tags": [
+    "firewall",
+    "layer-7",
+    "ngfw"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

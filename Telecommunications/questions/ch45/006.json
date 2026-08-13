@@ -1,0 +1,22 @@
+{
+  "question_id": "e0bf8812-2687-4ac9-9f91-a8ccb2be9596",
+  "chapter": 45,
+  "phase": 3,
+  "kind": "mc",
+  "text": "When is private cellular a better answer than Wi-Fi?",
+  "choices": [
+    "Whenever budget allows",
+    "In environments with moving machinery, large outdoor areas or hard reliability requirements, where contention-based access struggles",
+    "For office desk connectivity",
+    "Only for public safety networks"
+  ],
+  "answer": 1,
+  "explanation": "Factories, ports and mines deploy it precisely to buy licensed spectrum, scheduled access and managed mobility. For a carpeted office with dense desks, Wi-Fi remains cheaper and adequate.",
+  "tags": [
+    "private-5g",
+    "industrial",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

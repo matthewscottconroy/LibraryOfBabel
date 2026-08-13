@@ -1,0 +1,22 @@
+{
+  "question_id": "65c73a1e-4431-4939-869e-624d8c2a99c4",
+  "chapter": 23,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A packet's TTL field was originally intended as what, and is universally implemented as what?",
+  "choices": [
+    "Seconds; a hop count",
+    "A hop count; seconds",
+    "A priority; a hop count",
+    "A checksum; a hop count"
+  ],
+  "answer": 0,
+  "explanation": "RFC 791 describes it in time units; every implementation decrements it once per router. It is loop insurance — an IP routing loop kills the packet after a bounded number of hops — and it is the mechanism traceroute exploits.",
+  "tags": [
+    "ttl",
+    "hop-count",
+    "loop-prevention"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

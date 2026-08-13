@@ -1,0 +1,22 @@
+{
+  "question_id": "233ac720-ec4b-4e67-9c60-723ff84c7cbb",
+  "chapter": 50,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What was an enterprise actually buying when it paid a premium for MPLS?",
+  "choices": [
+    "Higher bandwidth",
+    "A contractual SLA covering availability, latency and packet loss — a promise, not capacity",
+    "Encryption",
+    "Faster provisioning"
+  ],
+  "answer": 1,
+  "explanation": "Chapter 13's account of what packet switching gave up explains exactly why the promise was worth a price premium that was sometimes ten times per megabit.",
+  "tags": [
+    "mpls",
+    "sla",
+    "wan"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

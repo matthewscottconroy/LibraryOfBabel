@@ -1,0 +1,22 @@
+{
+  "question_id": "5ebc66c5-1f77-4779-8f9d-74944bc808d1",
+  "chapter": 57,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is hybrid encryption — asymmetric to establish a key, symmetric for the data — universal?",
+  "choices": [
+    "Regulatory requirement",
+    "Asymmetric solves key distribution but is two to three orders of magnitude slower, so it is used only to agree a symmetric key",
+    "Symmetric ciphers are insecure alone",
+    "It provides forward secrecy automatically"
+  ],
+  "answer": 1,
+  "explanation": "TLS, IPsec, SSH and WireGuard all follow this pattern, and recognising it makes each protocol's structure predictable rather than novel.",
+  "tags": [
+    "hybrid-encryption",
+    "tls",
+    "key-exchange"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "daa5cf8d-d863-4be9-9910-3ff2d2d4d433",
+  "chapter": 55,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A backup component that has never been exercised is of unknown status.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. A standby firewall whose configuration drifted will fail over into a broken state; a generator that has not been load-tested will not start. Deliberate, scheduled failover testing is uncomfortable, is the reason it is skipped, and is the only way to know.",
+  "tags": [
+    "failover-testing",
+    "redundancy",
+    "operations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

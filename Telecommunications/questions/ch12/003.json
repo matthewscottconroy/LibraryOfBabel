@@ -1,0 +1,22 @@
+{
+  "question_id": "1db9cf5a-d1f8-47ad-be39-d121c71706b2",
+  "chapter": 12,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which guarantee did packet switching abandon that modern engineering repeatedly tries to buy back?",
+  "choices": [
+    "Addressing",
+    "Bounded, predictable latency and reserved bandwidth",
+    "Error detection",
+    "Routing"
+  ],
+  "answer": 1,
+  "explanation": "MPLS traffic engineering, IntServ and DiffServ, data-centre lossless Ethernet, time-sensitive networking and 5G network slicing are all attempts to reintroduce, for some traffic, a property circuit switching provided for all traffic.",
+  "tags": [
+    "guarantees",
+    "qos",
+    "network-slicing"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

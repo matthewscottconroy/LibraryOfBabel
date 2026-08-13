@@ -1,0 +1,22 @@
+{
+  "question_id": "be8e875e-fafe-4421-acaf-7b80e4d503c1",
+  "chapter": 58,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is TACACS+ preferred over RADIUS for administrative access to network devices?",
+  "choices": [
+    "It is faster",
+    "It encrypts the whole payload and separates authentication from authorisation, enabling per-command authorisation",
+    "It uses UDP",
+    "It supports more vendors"
+  ],
+  "answer": 1,
+  "explanation": "RADIUS encrypts only the password field, uses MD5, and runs over UDP. For network access control it remains ubiquitous; for device administration the per-command authorisation is genuinely valuable.",
+  "tags": [
+    "tacacs",
+    "radius",
+    "device-administration"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

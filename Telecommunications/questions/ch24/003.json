@@ -1,0 +1,22 @@
+{
+  "question_id": "f02f2e8e-ff88-4123-aa13-072364a4d431",
+  "chapter": 24,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A host has a wrong subnet mask. What is the characteristic symptom?",
+  "choices": [
+    "No connectivity at all",
+    "Connectivity to some destinations and not others, with no error message",
+    "Slow but working connectivity",
+    "DNS failures only"
+  ],
+  "answer": 1,
+  "explanation": "The mask determines the local-or-remote decision per destination, so a wrong one is right for some addresses and wrong for others. You can reach half your own subnet and not the other half, or the Internet but not the printer. Recognising this signature immediately is a mark of experience.",
+  "tags": [
+    "subnet-mask",
+    "diagnosis",
+    "selective-connectivity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

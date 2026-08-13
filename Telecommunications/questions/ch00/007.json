@@ -1,0 +1,19 @@
+{
+  "question_id": "22b6ae3c-180f-4b29-a102-596a755dc787",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "The component of Shannon's 1948 communication model that represents unwanted energy added in transit, and which is a thermodynamic guarantee rather than a malfunction, is the ___ source.",
+  "choices": [
+    "noise",
+    "noise source"
+  ],
+  "answer": "noise",
+  "explanation": "Noise is one of the six components and is unavoidable: any conductor above absolute zero generates thermal noise. It cannot be designed away, only designed around, and Chapter 4 quantifies exactly how much capacity it costs.",
+  "tags": [
+    "shannon-model",
+    "noise"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

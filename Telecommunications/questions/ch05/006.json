@@ -1,0 +1,22 @@
+{
+  "question_id": "eb0ab9f3-65ae-47a3-821f-f7a57e6e2ba1",
+  "chapter": 5,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which noise source is the dominant practical killer on copper links in industrial environments?",
+  "choices": [
+    "Thermal noise",
+    "Impulse noise from motors, switching and lightning",
+    "Shot noise",
+    "Quantisation noise"
+  ],
+  "answer": 1,
+  "explanation": "Thermal noise sets the theoretical floor but is small and predictable. Impulse noise is large, brief and unpredictable, and it is what actually corrupts frames near heavy machinery — which is why shielded cable and fibre are specified in those environments.",
+  "tags": [
+    "impulse-noise",
+    "emi",
+    "industrial"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

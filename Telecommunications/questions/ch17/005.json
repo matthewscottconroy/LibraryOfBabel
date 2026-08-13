@@ -1,0 +1,20 @@
+{
+  "question_id": "a1c6f384-72ec-46fa-a8b1-63ed7b734258",
+  "chapter": 17,
+  "phase": 1,
+  "kind": "tf",
+  "text": "ARP is carried directly in Ethernet frames with EtherType 0x0806, not inside IP.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and necessarily so: ARP must work before IP communication is possible. This is why it fits the OSI model badly and is usually called 'Layer 2.5' with some embarrassment — a good early illustration that layering is a useful model rather than a law of nature.",
+  "tags": [
+    "arp",
+    "ethertype",
+    "layering"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "767d1eb5-7ecd-44bc-9d70-93e8f1aeac53",
+  "chapter": 9,
+  "phase": 0,
+  "kind": "tf",
+  "text": "802.3bt Power over Ethernet can deliver up to 90 W at the source, which frequently decides a media choice that would otherwise favour fibre.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. An access point, camera or telephone at the end of a copper run needs no local outlet; the same device on fibre needs an electrician. This consideration is absent from most older treatments and routinely decides real installations.",
+  "tags": [
+    "poe",
+    "media-selection",
+    "power"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

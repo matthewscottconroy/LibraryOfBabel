@@ -1,0 +1,20 @@
+{
+  "question_id": "fe503a73-c92c-4386-a6e8-3b178224610b",
+  "chapter": 30,
+  "phase": 2,
+  "kind": "tf",
+  "text": "An OSPF area whose subnets cannot be summarised into one or two prefixes defeats the purpose of having the area.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. It leaks full detail across the boundary, which is the cost areas exist to avoid. This is the practical link between the address plan and the routing design, and it is the thing most often got wrong in real networks — usually because the address plan was written years earlier by someone not thinking about OSPF.",
+  "tags": [
+    "ospf",
+    "summarisation",
+    "address-planning"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

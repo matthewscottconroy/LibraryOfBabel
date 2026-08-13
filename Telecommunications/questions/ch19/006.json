@@ -1,0 +1,22 @@
+{
+  "question_id": "8900e0f0-fece-4398-a998-34d91fdb50c4",
+  "chapter": 19,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which inter-VLAN routing method uses subinterfaces on a single physical router link?",
+  "choices": [
+    "Switched virtual interfaces",
+    "Routed ports",
+    "Router-on-a-stick",
+    "Layer 3 EtherChannel"
+  ],
+  "answer": 2,
+  "explanation": "Router-on-a-stick carries all VLANs over one tagged trunk to a router with a subinterface per VLAN. It is simple and the single link is a bottleneck and a single point of failure, which is why a Layer 3 switch with SVIs is the usual choice above the smallest scale.",
+  "tags": [
+    "inter-vlan-routing",
+    "router-on-a-stick",
+    "svi"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

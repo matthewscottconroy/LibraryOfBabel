@@ -1,0 +1,22 @@
+{
+  "question_id": "16aeb329-2994-4401-a044-59b237f8e3ff",
+  "chapter": 47,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What does 95th-percentile billing mean for transit?",
+  "choices": [
+    "You pay for 95% of your traffic",
+    "Brief spikes are free and sustained load is not — the top 5% of measurement samples are discarded",
+    "You are billed 95% of the list price",
+    "Availability must exceed 95%"
+  ],
+  "answer": 1,
+  "explanation": "Understanding the billing convention changes traffic engineering decisions: shifting a backup job to a quiet period can materially reduce the bill without any capacity change.",
+  "tags": [
+    "transit",
+    "billing",
+    "peering"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

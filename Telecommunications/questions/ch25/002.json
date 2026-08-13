@@ -1,0 +1,22 @@
+{
+  "question_id": "f72832f2-33fc-447c-abaa-eaa8d0744dfc",
+  "chapter": 25,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A subnet must hold 500 hosts. What is the smallest sufficient prefix?",
+  "choices": [
+    "/22",
+    "/23",
+    "/24",
+    "/25"
+  ],
+  "answer": 1,
+  "explanation": "2^9 - 2 = 510, which is sufficient; 2^8 - 2 = 254 is not. Nine host bits means a /23. Choosing /22 works but wastes 522 addresses, and in a plan with many subnets that waste compounds.",
+  "tags": [
+    "subnetting",
+    "host-count",
+    "prefix-selection"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

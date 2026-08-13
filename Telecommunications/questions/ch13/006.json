@@ -1,0 +1,22 @@
+{
+  "question_id": "b5556ae8-2b41-4ca3-a873-ebe4360a864a",
+  "chapter": 13,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which scope category is dominated by RF contention rather than by cabling or provider relationships?",
+  "choices": [
+    "WAN",
+    "MAN",
+    "LAN, in its wireless form",
+    "CAN"
+  ],
+  "answer": 2,
+  "explanation": "The useful skill is reading off which parameters bind rather than classifying into boxes. A warehouse WLAN is constrained by shared half-duplex spectrum; a metropolitan fibre ring by provider diversity and duct availability. Both are 'networks' and they are different engineering problems.",
+  "tags": [
+    "scope",
+    "wlan",
+    "design"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

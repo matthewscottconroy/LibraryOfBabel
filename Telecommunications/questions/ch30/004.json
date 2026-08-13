@@ -1,0 +1,22 @@
+{
+  "question_id": "ad35bcf0-0208-4826-bb2e-b1b76b521beb",
+  "chapter": 30,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why does OSPF divide a network into areas?",
+  "choices": [
+    "To improve security",
+    "Because every router in an area holds every LSA and runs Dijkstra over all of them, which becomes uncomfortable at a few hundred routers",
+    "To support multiple vendors",
+    "Because BGP requires it"
+  ],
+  "answer": 1,
+  "explanation": "Areas apply Chapter 26's aggregation argument to topology rather than to addresses: full detail within, summaries across the boundary, all connecting through area 0. This is why address planning and area design must be done together.",
+  "tags": [
+    "ospf",
+    "areas",
+    "summarisation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "91a39363-45c6-4b03-93a6-4f98174d6978",
+  "chapter": 28,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A host can reach hosts on its own subnet but nothing beyond it. What should you check first?",
+  "choices": [
+    "The DNS server",
+    "The default gateway — its presence in the routing table, and whether it is reachable",
+    "The subnet mask",
+    "The switch's MAC table"
+  ],
+  "answer": 1,
+  "explanation": "Local works and remote fails is the signature of a missing or unreachable default gateway. If SOME remote destinations work and others do not, suspect the mask instead — that distinction between the two symptoms is the diagnostic content.",
+  "tags": [
+    "default-gateway",
+    "diagnosis",
+    "routing"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

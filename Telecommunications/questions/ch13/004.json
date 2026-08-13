@@ -1,0 +1,20 @@
+{
+  "question_id": "5e5432ef-bd24-4fa1-8f7d-043ac93e3e93",
+  "chapter": 13,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Convergence — voice, video and data on one packet fabric — was resisted by telephone engineers who had correct reasons and an incorrect prediction.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. They were right that voice had requirements a best-effort network did not meet, and wrong about the trajectory: the general-purpose substrate improved faster than the specialised one. The same pattern recurs in Units XIV's virtualisation story.",
+  "tags": [
+    "convergence",
+    "voip",
+    "history"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

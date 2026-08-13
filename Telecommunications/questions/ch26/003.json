@@ -1,0 +1,22 @@
+{
+  "question_id": "e253c78c-d543-4534-923f-4d3bdda6db42",
+  "chapter": 26,
+  "phase": 2,
+  "kind": "mc",
+  "text": "One address, many hosts, and routing delivers to the nearest. Which is this?",
+  "choices": [
+    "Unicast",
+    "Broadcast",
+    "Multicast",
+    "Anycast"
+  ],
+  "answer": 3,
+  "explanation": "Anycast is a routing trick rather than an addressing feature — nothing in the packet is special. It is how the DNS root servers, public resolvers like 1.1.1.1 and every CDN edge work, and its failover happens at BGP speed rather than DNS speed.",
+  "tags": [
+    "anycast",
+    "routing",
+    "cdn"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

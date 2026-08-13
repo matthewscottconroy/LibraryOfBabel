@@ -1,0 +1,22 @@
+{
+  "question_id": "4da59a4a-3108-444d-b56f-0c0ce19343bc",
+  "chapter": 17,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why do two address systems — MAC and IP — both exist, when neither can be eliminated?",
+  "choices": [
+    "Historical accident",
+    "MAC addressing is flat and needs no administration, which is right locally; IP addressing is hierarchical and aggregatable, which is required globally",
+    "For redundancy",
+    "MAC is for hardware and IP is for software"
+  ],
+  "answer": 1,
+  "explanation": "Flat addressing means plug in a device and it works with a unique address and no assignment — exactly the right trade for one building. It cannot be made to work globally because it cannot be summarised. ARP exists solely to reconcile the two.",
+  "tags": [
+    "addressing",
+    "flat-vs-hierarchical",
+    "arp"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

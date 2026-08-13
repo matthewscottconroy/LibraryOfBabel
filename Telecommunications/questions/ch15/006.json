@@ -1,0 +1,22 @@
+{
+  "question_id": "02f5c0dd-c291-4191-b96d-c816def1e86d",
+  "chapter": 15,
+  "phase": 1,
+  "kind": "mc",
+  "text": "802.3bt Type 4 PoE delivers how much power at the powered device?",
+  "choices": [
+    "12.95 W",
+    "25.5 W",
+    "51 W",
+    "71.3 W"
+  ],
+  "answer": 3,
+  "explanation": "Type 4 provides 90 W at the source and 71.3 W at the device after cable losses. The four steps are 802.3af (12.95 W at the device), 802.3at (25.5 W), 802.3bt Type 3 (51 W) and Type 4 (71.3 W). Budgeting a switch requires the source figure and the device count.",
+  "tags": [
+    "poe",
+    "802.3bt",
+    "power-budget"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

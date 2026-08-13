@@ -1,0 +1,22 @@
+{
+  "question_id": "fbec9bc9-594f-4a97-aad3-c7fbf37dd43e",
+  "chapter": 30,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the essential difference between distance vector and link state?",
+  "choices": [
+    "Distance vector is faster",
+    "Distance vector routers know only distances and directions from neighbours; link state routers each hold a complete map of the area and compute shortest paths themselves",
+    "Link state uses hop count",
+    "Distance vector supports more routers"
+  ],
+  "answer": 1,
+  "explanation": "A distance vector router navigates by signposts and cannot verify a neighbour's claim, which produces count-to-infinity. A link state router has a map, so it can see that a path loops — and the information needed to detect the loop is exactly what distance vector throws away.",
+  "tags": [
+    "distance-vector",
+    "link-state",
+    "routing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

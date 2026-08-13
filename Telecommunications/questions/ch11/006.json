@@ -1,0 +1,22 @@
+{
+  "question_id": "ad161924-0cd9-431d-8673-433eed94b9ca",
+  "chapter": 11,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Digitisation was the single largest improvement in the telephone network's history. Why?",
+  "choices": [
+    "It reduced the cost of switches",
+    "It permitted regeneration rather than amplification, so noise stopped accumulating over distance",
+    "It allowed calls to be encrypted",
+    "It halved the bandwidth per call"
+  ],
+  "answer": 1,
+  "explanation": "An amplified analog signal carries its accumulated noise forward and compounds it; a regenerated digital signal is re-decided at each hop and emerges clean. This is what made transcontinental calls sound like local ones, and it produced the 64 kb/s DS0.",
+  "tags": [
+    "digitisation",
+    "regeneration",
+    "pcm"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

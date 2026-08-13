@@ -1,0 +1,22 @@
+{
+  "question_id": "e8f7793c-22e9-442b-b5c5-b7c5524c3ad0",
+  "chapter": 26,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A client reports an address of 169.254.13.7. What does that tell you immediately?",
+  "choices": [
+    "The network is using a public range",
+    "DHCP did not answer — the host self-assigned a link-local address",
+    "The DNS server is unreachable",
+    "The default gateway is wrong"
+  ],
+  "answer": 1,
+  "explanation": "APIPA is a diagnosis, not a configuration. Check, in order: is the DHCP server running, is the relay configured on this subnet's router, is the scope exhausted, and is the client on the VLAN you think it is.",
+  "tags": [
+    "apipa",
+    "link-local",
+    "dhcp"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

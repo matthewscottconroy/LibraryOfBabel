@@ -4,7 +4,7 @@ A repository of long-form textbooks, each paired with an adaptive quiz and a
 repeatable pipeline for generating accurate, pedagogically sound learning
 material on demand.
 
-The project has two goals. The first is the content itself: fourteen
+The project has two goals. The first is the content itself: fifteen
 book-length treatments of hard subjects, from abstract algebra to the
 philosophy of time, written to take a motivated reader from first principles to
 the research frontier. The second is the *process* — a cultivated workflow for
@@ -33,6 +33,7 @@ same format.
 | [PhilosophyOfTime](PhilosophyOfTime/) | The metaphysics and physics of time; 12 units, 39 chapters | ~505K | Complete |
 | [PhotonicComputing](PhotonicComputing/) | Computing with light, from Maxwell to quantum photonics; 28 chapters, 10 units | — | Complete |
 | [ReservoirComputing](ReservoirComputing/) | Reservoir computing from first principles; 10 units + 17 labs | ~446K | Complete |
+| [Telecommunications](Telecommunications/) | Networking in dependency order — signals to Internet; 14 units, 72 chapters, labs + tools + project | ~860K | Complete |
 | [Theorem-Proving](Theorem-Proving/) | Interactive theorem proving; 22 chapters, proofs in Lean/Coq/Python | — | Complete |
 
 A dash in the word column means the book is complete but not yet word-counted.

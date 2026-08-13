@@ -1,0 +1,22 @@
+{
+  "question_id": "cf1820aa-092b-4c17-89a0-84d642da448d",
+  "chapter": 36,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A capture shows three duplicate ACKs in a row. What does that indicate and what happens next?",
+  "choices": [
+    "A retransmission timeout; the connection resets",
+    "A gap in the sequence space; fast retransmit triggers without waiting for the RTO timer",
+    "A window update",
+    "A keepalive exchange"
+  ],
+  "answer": 1,
+  "explanation": "Three duplicate ACKs are the standard threshold. Fast retransmit is much less damaging than an RTO expiry, which backs off exponentially — recognising the difference in a capture tells you how badly a path is losing.",
+  "tags": [
+    "duplicate-ack",
+    "fast-retransmit",
+    "tcp"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

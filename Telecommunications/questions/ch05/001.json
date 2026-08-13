@@ -1,0 +1,22 @@
+{
+  "question_id": "0039a2ca-3527-4217-916a-be9acb083e86",
+  "chapter": 5,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which impairment is identified by being proportional to distance and worse at high frequencies on copper?",
+  "choices": [
+    "Impulse noise",
+    "Attenuation",
+    "Crosstalk",
+    "Jitter"
+  ],
+  "answer": 1,
+  "explanation": "Attenuation rises with both distance and frequency on copper, which means it does not merely shrink a signal but reshapes it by removing high harmonics. That frequency dependence is what limits cable category performance and produces the DSL distance table.",
+  "tags": [
+    "attenuation",
+    "copper",
+    "frequency-dependence"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

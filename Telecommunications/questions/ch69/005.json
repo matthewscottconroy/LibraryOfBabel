@@ -1,0 +1,20 @@
+{
+  "question_id": "7e19d250-5731-4f94-9afb-bbce1ddbccba",
+  "chapter": 69,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Network configuration changes can be tested against a virtualised model of the real topology before deployment.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and it is the step most unfamiliar to network engineers and most valuable. Containerised or virtualised network operating systems allow the actual change to be applied to a model and its effect on reachability verified — moving changes from 'we think this will work' to 'we tested that this works'.",
+  "tags": [
+    "ci-cd",
+    "testing",
+    "simulation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

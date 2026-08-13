@@ -1,0 +1,22 @@
+{
+  "question_id": "5d8c008b-1f52-440b-b0e5-a575ed0216f4",
+  "chapter": 67,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Where did SDN genuinely win, and what do those environments have in common?",
+  "choices": [
+    "Enterprise LANs; low cost",
+    "Data centre fabrics, wide-area traffic engineering, and SD-WAN — all cases where one organisation controls everything and the optimisation benefit is measurable",
+    "Service provider cores; regulation",
+    "Wireless networks; spectrum efficiency"
+  ],
+  "answer": 1,
+  "explanation": "Google's B4 runs its inter-data-centre WAN at close to 100% utilisation against the 30-40% typical of traditionally engineered networks. It struggled in heterogeneous, incrementally grown, multi-vendor environments — which describes most enterprise networks.",
+  "tags": [
+    "sdn",
+    "b4",
+    "sd-wan"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

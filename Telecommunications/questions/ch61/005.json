@@ -1,0 +1,20 @@
+{
+  "question_id": "c4495f8c-b3cd-4373-9632-5c3e3b9df313",
+  "chapter": 61,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A volumetric attack exceeding your circuit's capacity cannot be mitigated by any equipment you own.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The circuit is full before your firewall sees anything. Mitigation must happen upstream — a scrubbing service or a provider with capacity — which is a commercial arrangement made in advance, not a technical response made during an incident.",
+  "tags": [
+    "ddos",
+    "volumetric",
+    "scrubbing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

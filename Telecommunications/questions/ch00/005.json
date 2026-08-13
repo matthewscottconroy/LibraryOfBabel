@@ -1,0 +1,21 @@
+{
+  "question_id": "6d949415-f980-4ee1-9284-7d2293a0083d",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A protocol specification defines only the format of the messages exchanged. What is missing?",
+  "choices": [
+    "Nothing — format is what a protocol is",
+    "Semantics and timing: what the fields mean and in what sequence messages may be sent",
+    "Only the error-handling procedures",
+    "Only the encryption requirements"
+  ],
+  "answer": 1,
+  "explanation": "A protocol is an agreement on syntax (format), semantics (meaning and obligations), and timing (the permitted sequence, i.e. the state machine). A specification with only the first is a data structure. Most of TCP's complexity lives in the third clause, not the first.",
+  "tags": [
+    "protocol",
+    "syntax-semantics-timing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

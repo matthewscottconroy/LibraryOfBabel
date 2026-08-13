@@ -1,0 +1,22 @@
+{
+  "question_id": "1f8e7a8b-976a-4f50-a31c-bad20e12caa0",
+  "chapter": 5,
+  "phase": 0,
+  "kind": "mc",
+  "text": "An interface shows steadily incrementing CRC errors on a link that is up at full speed. What class of fault does this indicate?",
+  "choices": [
+    "Congestion in the upstream router",
+    "A physical-layer problem — cable, connector, EMI or a failing transceiver",
+    "A routing loop",
+    "An MTU mismatch"
+  ],
+  "answer": 1,
+  "explanation": "A CRC error means the frame arrived corrupted, which is a physical-layer symptom and not a congestion one. Congestion produces output drops, not CRC errors. This is the counter that catches a marginal cable that passes a continuity test and still caps TCP throughput.",
+  "tags": [
+    "crc-errors",
+    "physical-layer",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

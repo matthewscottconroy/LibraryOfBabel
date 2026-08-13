@@ -1,0 +1,20 @@
+{
+  "question_id": "4ea6a958-070a-4368-abd2-40625e4c0bc3",
+  "chapter": 70,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Building networks for machine learning training clusters is a workload unlike anything in the earlier chapters, because the slowest link determines the speed of the entire job.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Thousands of accelerators exchange gradients in a tightly synchronised pattern, so a single congested path stalls everything. This has driven RDMA over Converged Ethernet, lossless fabrics with priority flow control, and in-network aggregation on programmable switches.",
+  "tags": [
+    "ml-networking",
+    "rdma",
+    "lossless-ethernet"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

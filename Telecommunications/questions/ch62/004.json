@@ -1,0 +1,22 @@
+{
+  "question_id": "a3630e2f-4120-4eca-a2b8-089563ef8919",
+  "chapter": 62,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which troubleshooting approach do experienced engineers use most, and what does it require?",
+  "choices": [
+    "Bottom-up; a cable tester",
+    "Follow-the-path; knowledge of the topology, which is what documentation is for",
+    "Top-down; application logs",
+    "Divide and conquer; a packet capture"
+  ],
+  "answer": 1,
+  "explanation": "It finds faults the layered methods miss because the fault is BETWEEN two things that are each individually fine. Divide-and-conquer is the sensible default; follow-the-path is what you graduate to.",
+  "tags": [
+    "methodology",
+    "follow-the-path",
+    "documentation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

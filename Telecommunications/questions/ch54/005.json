@@ -1,0 +1,20 @@
+{
+  "question_id": "b8b18f3d-b921-455c-bad0-3eb7287f18a1",
+  "chapter": 54,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A backup you have not restored is not a backup.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True — it is a hope with a filename. Configuration backups should be automatic, versioned, stored off the device, and restore-tested on a schedule. Version control is the natural home: the diff between last week and today answers 'what changed', which is the first question of every incident.",
+  "tags": [
+    "backups",
+    "version-control",
+    "operations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

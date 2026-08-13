@@ -1,0 +1,20 @@
+{
+  "question_id": "528a1aac-e810-4b39-8c13-bc955273061b",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A traceroute showing 40% loss at hop 6 and 0% loss at hops 7 through 15 indicates a fault at hop 6.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Routers rate-limit ICMP responses about themselves to protect their control plane. Loss that does not propagate to subsequent hops is a measurement artefact, not a fault — traffic passing through hop 6 is demonstrably fine, as proved by the clean results beyond it. Only loss that persists through later hops is real.",
+  "tags": [
+    "traceroute",
+    "icmp-rate-limiting",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

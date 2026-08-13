@@ -1,0 +1,20 @@
+{
+  "question_id": "53e7b045-f338-4a45-992e-e91f7a290b17",
+  "chapter": 5,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Modal dispersion is the reason multimode fibre is limited to shorter distances than single-mode.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. In multimode fibre, light takes multiple paths of different lengths through the core, so a pulse launched together arrives spread out. That spreading limits how closely pulses can be spaced, and therefore the distance-bandwidth product. Single-mode fibre supports one path and does not suffer it.",
+  "tags": [
+    "dispersion",
+    "multimode",
+    "fibre"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

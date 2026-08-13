@@ -1,0 +1,20 @@
+{
+  "question_id": "8067fdb9-7dd9-4276-be16-67b5e3d435df",
+  "chapter": 28,
+  "phase": 2,
+  "kind": "tf",
+  "text": "A packet's return path may traverse entirely different networks from its outbound path.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and it is routine on the Internet. Nothing requires symmetry. This makes traceroute output harder to interpret than people assume, and it breaks stateful firewalls that see only one direction of a conversation.",
+  "tags": [
+    "asymmetric-routing",
+    "forwarding",
+    "firewall"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

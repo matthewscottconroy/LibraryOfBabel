@@ -1,0 +1,22 @@
+{
+  "question_id": "c22b30af-7d22-402c-86c0-06d6df0cf360",
+  "chapter": 18,
+  "phase": 1,
+  "kind": "mc",
+  "text": "How does Rapid Spanning Tree achieve convergence in seconds rather than fifty?",
+  "choices": [
+    "It uses faster CPUs",
+    "It recognises which ports connect to hosts rather than switches, and transitions those to forwarding immediately",
+    "It disables loop prevention on access ports",
+    "It elects multiple root bridges"
+  ],
+  "answer": 1,
+  "explanation": "A port with a single host cannot create a loop, so the classic timers — set conservatively for 1980s network diameters — were guarding against a case that almost never arises in a modern access layer. Edge ports plus proposal/agreement handshaking do the rest.",
+  "tags": [
+    "rstp",
+    "convergence",
+    "portfast"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "fa122682-d80d-4486-bf6e-aaa32fb11de8",
+  "chapter": 22,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why is the Internet's protocol architecture drawn as an hourglass?",
+  "choices": [
+    "Because traffic flows in both directions",
+    "Many applications above and many link technologies below, with exactly one protocol at the waist",
+    "Because it was designed in the 1970s",
+    "To show the passage of time"
+  ],
+  "answer": 1,
+  "explanation": "'Everything over IP, and IP over everything.' A new link technology needs only to carry IP; a new application needs only to run over IP. Neither has to ask permission — and this is also why IPv6 has taken thirty years, because the waist is the hardest thing to change.",
+  "tags": [
+    "hourglass",
+    "ip",
+    "architecture"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

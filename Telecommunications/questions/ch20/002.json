@@ -1,0 +1,22 @@
+{
+  "question_id": "934bea7e-a92d-4b19-b9df-ae5a5fa3b9a7",
+  "chapter": 20,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Distinguish a service, an interface and a protocol.",
+  "choices": [
+    "They are synonyms",
+    "Service is what a layer offers upward; interface is how it is requested; protocol is the agreement between peers at the same layer on different machines",
+    "Service is hardware, interface is software, protocol is a standard",
+    "Protocol is what a layer offers upward"
+  ],
+  "answer": 1,
+  "explanation": "Services and interfaces run vertically within one machine; protocols run horizontally between machines. Confusing a protocol with an interface is a reliable source of muddle when reading standards.",
+  "tags": [
+    "service",
+    "interface",
+    "protocol"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

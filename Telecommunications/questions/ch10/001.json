@@ -1,0 +1,22 @@
+{
+  "question_id": "489ac072-e32a-419a-b1cf-41d343cdfd29",
+  "chapter": 10,
+  "phase": 1,
+  "kind": "mc",
+  "text": "How many links are needed to connect 50 nodes in a full mesh?",
+  "choices": [
+    "50",
+    "1,225",
+    "2,450",
+    "2,500"
+  ],
+  "answer": 1,
+  "explanation": "n(n-1)/2 = 50 x 49 / 2 = 1,225 links, and each node needs 49 interfaces. The quadratic growth is why full mesh is unaffordable at any scale, and every other topology is a way of buying some fraction of its resilience at a fraction of its cost.",
+  "tags": [
+    "topology",
+    "full-mesh",
+    "combinatorics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

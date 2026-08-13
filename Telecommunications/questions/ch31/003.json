@@ -1,0 +1,22 @@
+{
+  "question_id": "5629dd60-55eb-49e1-89a6-fbd3beeb93b0",
+  "chapter": 31,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What distinguishes peering from transit?",
+  "choices": [
+    "Peering is faster",
+    "In peering, two networks exchange traffic between their own customers only, usually without payment; transit carries a customer's traffic to and from the entire Internet, for a fee",
+    "Peering is unencrypted",
+    "Transit is only for large networks"
+  ],
+  "answer": 1,
+  "explanation": "A peer that begins advertising its other peers' or providers' routes is committing a route leak. The distinction is commercial and is enforced by advertisement policy rather than by anything in the protocol.",
+  "tags": [
+    "peering",
+    "transit",
+    "bgp"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

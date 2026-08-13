@@ -1,0 +1,22 @@
+{
+  "question_id": "441030ab-398c-4e31-83b0-185e20515695",
+  "chapter": 33,
+  "phase": 2,
+  "kind": "mc",
+  "text": "An SSH connection establishes, shows a banner, then freezes on the first large output. `ping` works but `ping -s 1400` does not. Diagnose it.",
+  "choices": [
+    "A congested link",
+    "A PMTUD black hole — the path MTU is below 1500 and the ICMP Fragmentation Needed message is being blocked",
+    "A routing loop",
+    "A duplex mismatch"
+  ],
+  "answer": 1,
+  "explanation": "Small packets get through and large ones vanish silently. The correct fix is to permit ICMP Type 3 Code 4; the pragmatic workaround is MSS clamping at the tunnel endpoint, which does not depend on anyone else's firewall policy.",
+  "tags": [
+    "pmtud",
+    "black-hole",
+    "mtu"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

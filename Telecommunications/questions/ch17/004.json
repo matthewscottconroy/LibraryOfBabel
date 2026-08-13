@@ -1,0 +1,22 @@
+{
+  "question_id": "8aea9a98-3dff-44c4-bb66-93bed9ba161c",
+  "chapter": 17,
+  "phase": 1,
+  "kind": "mc",
+  "text": "IPv6's Neighbor Discovery replaced ARP's broadcast with what?",
+  "choices": [
+    "Unicast to a well-known address",
+    "Multicast to the solicited-node group, so uninterested hosts are not interrupted",
+    "A centralised registry",
+    "DNS lookups"
+  ],
+  "answer": 1,
+  "explanation": "NDP also integrates router discovery, prefix advertisement and address autoconfiguration into one mechanism, and offers an optional cryptographic authentication extension (SEND) that almost nobody deploys — a recurring pattern in retrofitted security.",
+  "tags": [
+    "ndp",
+    "ipv6",
+    "multicast"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

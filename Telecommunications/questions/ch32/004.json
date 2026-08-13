@@ -1,0 +1,20 @@
+{
+  "question_id": "b2916709-6505-492d-b4c2-c34d8a56e4e3",
+  "chapter": 32,
+  "phase": 2,
+  "kind": "tf",
+  "text": "NAT is a firewall.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. It applies no policy, inspects nothing, and does not restrict outbound traffic. An internal host that initiates a connection to an attacker creates a translation entry and the attacker has a bidirectional channel — which is how most modern malware works. NAT provides incidental protection against unsolicited inbound traffic and nothing more.",
+  "tags": [
+    "nat",
+    "firewall",
+    "security"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

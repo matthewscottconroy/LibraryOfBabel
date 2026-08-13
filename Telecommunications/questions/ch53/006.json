@@ -1,0 +1,20 @@
+{
+  "question_id": "81478a50-58e0-4acf-b108-861e85082f26",
+  "chapter": 53,
+  "phase": 4,
+  "kind": "tf",
+  "text": "An alert that nobody acts on is worse than no alert at all.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. It consumes attention, trains people to ignore the channel, and provides false assurance. Alert fatigue is the mechanism by which real incidents are missed. Every alert must have an action; if the answer is 'nothing, it clears itself', it is a graph, not an alert.",
+  "tags": [
+    "alerting",
+    "alert-fatigue",
+    "operations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

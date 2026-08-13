@@ -1,0 +1,22 @@
+{
+  "question_id": "77da6804-34d9-48e0-b633-2bad26fbaa69",
+  "chapter": 27,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why is every IPv6 subnet a /64?",
+  "choices": [
+    "To simplify routing tables",
+    "SLAAC generates a 64-bit interface identifier, and a fixed subnet size eliminates host-count arithmetic within a site",
+    "Because IPv6 addresses are 128 bits",
+    "To match IPv4's /24 convention"
+  ],
+  "answer": 1,
+  "explanation": "Nobody needs 18 quintillion hosts on a LAN. The /64 exists so autoconfiguration works and so that site-internal work becomes allocation rather than arithmetic — which is the real, undersold gift of IPv6 to an operator.",
+  "tags": [
+    "ipv6",
+    "slaac",
+    "subnet-size"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

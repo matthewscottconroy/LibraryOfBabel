@@ -1,0 +1,22 @@
+{
+  "question_id": "63df9b39-a881-4fe6-9d7e-48e8cdf20a5a",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A source emits four symbols with probabilities 0.5, 0.25, 0.125, 0.125. What is its entropy?",
+  "choices": [
+    "1.0 bits/symbol",
+    "1.75 bits/symbol",
+    "2.0 bits/symbol",
+    "4.0 bits/symbol"
+  ],
+  "answer": 1,
+  "explanation": "H = -(0.5log0.5 + 0.25log0.25 + 0.125log0.125 x 2) = 0.5 + 0.5 + 0.375 + 0.375 = 1.75 bits. A fixed 2-bit code wastes 0.25 bits per symbol; a variable-length code assigning 1, 2, 3 and 3 bits achieves exactly 1.75 and cannot be beaten.",
+  "tags": [
+    "entropy",
+    "source-coding",
+    "compression"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

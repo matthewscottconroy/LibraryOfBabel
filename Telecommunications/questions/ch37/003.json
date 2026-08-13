@@ -1,0 +1,22 @@
+{
+  "question_id": "a225e892-8bb8-42e3-85ce-6fb13cb24611",
+  "chapter": 37,
+  "phase": 3,
+  "kind": "mc",
+  "text": "TCP infers congestion from packet loss. When is that inference wrong?",
+  "choices": [
+    "Never",
+    "On a lossy wireless link, where loss is caused by interference and slowing down does not help",
+    "On fibre links",
+    "When the window is large"
+  ],
+  "answer": 1,
+  "explanation": "It is exactly the layering cost predicted earlier: the layer that knows why the packet was lost has no way to say so. Two decades of research went into this mismatch, and BBR's abandonment of loss as the signal is one response.",
+  "tags": [
+    "congestion-signal",
+    "wireless",
+    "layering"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "71398628-123b-4b09-ae16-adade5fff023",
+  "chapter": 55,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What problem does an FHRP such as VRRP solve?",
+  "choices": [
+    "Routing loops",
+    "A host has exactly one default gateway address and no mechanism to change it, so the gateway router is a single point of failure",
+    "Load balancing across links",
+    "Spanning tree convergence"
+  ],
+  "answer": 1,
+  "explanation": "Two or more routers share a virtual IP and virtual MAC; if the active one fails, a standby takes over both and hosts notice nothing — not even an ARP change. A common design error is putting the FHRP active router and the spanning tree root on different devices.",
+  "tags": [
+    "vrrp",
+    "fhrp",
+    "first-hop-redundancy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

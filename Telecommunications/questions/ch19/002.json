@@ -1,0 +1,22 @@
+{
+  "question_id": "d205f885-9dfb-4a50-b08d-08abb678be7b",
+  "chapter": 19,
+  "phase": 1,
+  "kind": "mc",
+  "text": "How many bits does the 802.1Q VLAN ID field use, and how many VLANs are usable?",
+  "choices": [
+    "8 bits, 254 usable",
+    "12 bits, 4,094 usable",
+    "16 bits, 65,534 usable",
+    "24 bits, 16 million usable"
+  ],
+  "answer": 1,
+  "explanation": "Twelve bits gives 4,096 values, of which 0 and 4095 are reserved. That felt generous in 1998 and became a hard wall for cloud providers hosting tens of thousands of tenants — which is precisely why VXLAN's VNI is 24 bits with 16.7 million segments.",
+  "tags": [
+    "802.1q",
+    "vlan-id",
+    "vxlan"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

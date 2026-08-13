@@ -1,0 +1,22 @@
+{
+  "question_id": "7e5973c5-b936-4704-8eca-7ad60e84a930",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why is hexadecimal used for machine data rather than decimal?",
+  "choices": [
+    "Because 16 is a power of 2, so one hex digit is exactly four bits and conversion is a lookup",
+    "Because hexadecimal is more compact than decimal for large numbers",
+    "Because early computers could not perform decimal arithmetic",
+    "Because it avoids ambiguity with negative numbers"
+  ],
+  "answer": 0,
+  "explanation": "16 = 2^4, so hex digit boundaries coincide exactly with bit boundaries and two hex digits are exactly one byte. Decimal is not a power of two, so decimal digits do not align with bits and conversion requires real arithmetic. Compactness is a side benefit, not the reason.",
+  "tags": [
+    "hexadecimal",
+    "nibble",
+    "byte"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

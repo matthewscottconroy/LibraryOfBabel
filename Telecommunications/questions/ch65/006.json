@@ -1,0 +1,22 @@
+{
+  "question_id": "4efc605c-4426-4062-8be4-2ec845ebcd98",
+  "chapter": 65,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A tunnel reduces the usable MTU. Which fix does not depend on anyone else's firewall policy?",
+  "choices": [
+    "Permitting ICMP Type 3 Code 4",
+    "Clamping the TCP MSS at the tunnel endpoint",
+    "Increasing the tunnel MTU",
+    "Disabling the DF bit"
+  ],
+  "answer": 1,
+  "explanation": "Permitting the ICMP message is the correct fix and requires cooperation you may not get. MSS clamping is the pragmatic workaround carriers use because it works regardless of what any third party filters.",
+  "tags": [
+    "mss-clamping",
+    "mtu",
+    "tunnel"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

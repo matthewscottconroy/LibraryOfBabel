@@ -1,0 +1,22 @@
+{
+  "question_id": "f9ce4ece-706f-48ab-9e47-009945438d1f",
+  "chapter": 13,
+  "phase": 1,
+  "kind": "mc",
+  "text": "An internetwork requires a lowest-common-denominator service model. Why?",
+  "choices": [
+    "To simplify router design",
+    "Because the only guarantees available across every constituent network are those the weakest can provide",
+    "To reduce header overhead",
+    "Because of regulatory requirements"
+  ],
+  "answer": 1,
+  "explanation": "IP is best-effort not because best-effort is desirable but because it is the most that can be promised universally. A radio link with 20% frame loss cannot guarantee delivery at any price, and IP must run over it.",
+  "tags": [
+    "internetwork",
+    "best-effort",
+    "lowest-common-denominator"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

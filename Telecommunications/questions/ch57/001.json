@@ -1,0 +1,22 @@
+{
+  "question_id": "c7c9b06b-5033-423c-9a7f-e533d2078c62",
+  "chapter": 57,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is 'do not implement cryptography' the chapter's first instruction?",
+  "choices": [
+    "It is legally restricted",
+    "Cryptographic code that is subtly wrong produces output indistinguishable from correct output — it encrypts, it decrypts, tests pass, and there is no symptom",
+    "It is computationally expensive",
+    "Libraries are always faster"
+  ],
+  "answer": 1,
+  "explanation": "Every other bug in this book announces itself eventually. A cryptographic mistake looks exactly like success, right up until someone who knows what they are doing reads your ciphertext in an afternoon.",
+  "tags": [
+    "cryptography",
+    "implementation",
+    "risk"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

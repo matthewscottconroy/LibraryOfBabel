@@ -1,0 +1,22 @@
+{
+  "question_id": "e3d8106d-5670-47d5-94e3-5051838ea290",
+  "chapter": 7,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A sinusoidal carrier has exactly three parameters that can be varied. Which are they?",
+  "choices": [
+    "Amplitude, frequency, phase",
+    "Amplitude, wavelength, power",
+    "Frequency, phase, bandwidth",
+    "Amplitude, phase, polarisation"
+  ],
+  "answer": 0,
+  "explanation": "s(t) = A cos(2*pi*f*t + phi) is fully described by amplitude, frequency and phase, so there are exactly three primitive keying schemes: ASK, FSK and PSK. Every modulation scheme in existence, including 4096-QAM, is a combination of these plus the use of multiple carriers.",
+  "tags": [
+    "modulation",
+    "ask-fsk-psk",
+    "carrier"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "7c2ce12a-fcc7-4486-bd64-36dc186e0039",
+  "chapter": 23,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which IPv4 header field tells the receiver how to interpret the payload?",
+  "choices": [
+    "Version",
+    "Type of Service",
+    "Protocol",
+    "Identification"
+  ],
+  "answer": 2,
+  "explanation": "The Protocol field is the self-describing type marker one layer up from the EtherType: 6 means TCP, 17 UDP, 1 ICMP. The Version field distinguishes IPv4 from IPv6 before any other parsing.",
+  "tags": [
+    "ip-header",
+    "protocol-field",
+    "layering"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

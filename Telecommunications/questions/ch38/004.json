@@ -1,0 +1,22 @@
+{
+  "question_id": "89d6eae1-0581-4ff6-8666-6d814966bd4e",
+  "chapter": 38,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why is a DNS problem so often mistaken for something else?",
+  "choices": [
+    "DNS errors are not logged",
+    "It is on the critical path for everything and is architecturally invisible — the symptom is 'the website is down' or 'email is broken'",
+    "DNS servers rarely fail",
+    "Resolvers hide errors"
+  ],
+  "answer": 1,
+  "explanation": "Caching also makes failures non-deterministic: some users have the old answer and are fine, others have expired and are not. The symptom is intermittent and appears to correlate with nothing.",
+  "tags": [
+    "dns",
+    "diagnosis",
+    "caching"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "31c9c78a-b204-4b15-ae93-73814583e011",
+  "chapter": 57,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Any certificate authority your browser trusts can issue a valid certificate for any domain name.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and it is a structural weakness rather than an incidental one. The DigiNotar compromise in 2011 produced fraudulent Google certificates used against Iranian users and destroyed the CA as a business. Certificate Transparency and CAA records are the partial mitigations.",
+  "tags": [
+    "pki",
+    "certificate-authority",
+    "diginotar"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

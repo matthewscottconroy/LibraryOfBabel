@@ -1,0 +1,22 @@
+{
+  "question_id": "c46b2dfe-9d66-4c91-858f-039a91b3a6c7",
+  "chapter": 48,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the architectural difference between DSL and DOCSIS that produces different complaint patterns?",
+  "choices": [
+    "DOCSIS is faster",
+    "A DSL line is dedicated to one subscriber; a DOCSIS segment is shared among 100-500 homes, so performance depends on neighbours' usage",
+    "DSL is symmetric",
+    "DOCSIS uses fibre"
+  ],
+  "answer": 1,
+  "explanation": "This is why cable subscribers recognise the 'slow at 8 p.m.' complaint and DSL subscribers do not. It is statistical multiplexing with its gains and its visible consequence.",
+  "tags": [
+    "docsis",
+    "dsl",
+    "shared-medium"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "1aefd8a1-f6f8-4775-9853-4bcdd79b83d9",
+  "chapter": 6,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is the overhead of 64B/66B encoding?",
+  "choices": [
+    "25%",
+    "12.5%",
+    "3.1%",
+    "0.4%"
+  ],
+  "answer": 2,
+  "explanation": "66 bits are transmitted for every 64 bits of data, so overhead is 2/64 = 3.1% and efficiency is 96.9%. Compare 8B/10B's 25%. The move from block substitution to scrambling with a small sync header is how high-speed Ethernet reclaimed the capacity Manchester spent.",
+  "tags": [
+    "64b66b",
+    "overhead",
+    "efficiency"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "b8c2c299-f2e7-48e3-861c-998e9770005f",
+  "chapter": 71,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why are the requirements a client volunteers usually the wrong ones?",
+  "choices": [
+    "Clients are not technical",
+    "They state solutions and slogans — 'gigabit to the desktop', 'five nines' — rather than requirements, and the engineer's job is to get behind them",
+    "Clients understate their budget",
+    "Requirements change too quickly"
+  ],
+  "answer": 1,
+  "explanation": "Useful answers come from asking who communicates with whom about what, what breaks the business if it stops and for how long, and what the growth expectation is over what period.",
+  "tags": [
+    "requirements",
+    "elicitation",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "cefbdda3-a0d4-45ee-a1bb-442d8dae8039",
+  "chapter": 32,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why must NAT translate ports as well as addresses?",
+  "choices": [
+    "To improve security",
+    "If two internal hosts contact the same server, address alone cannot distinguish the return traffic",
+    "To support IPv6",
+    "To reduce header size"
+  ],
+  "answer": 1,
+  "explanation": "Two hosts that happen to choose the same source port are given different translated ports, making the return traffic unambiguous. This is Port Address Translation, and it is what everyone means by NAT in practice.",
+  "tags": [
+    "nat",
+    "pat",
+    "port-translation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

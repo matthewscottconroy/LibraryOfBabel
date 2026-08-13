@@ -1,0 +1,22 @@
+{
+  "question_id": "2228146e-7324-4a5e-a405-56ae5d0aa3a8",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In the Shannon-Hartley theorem, what does doubling the transmit power (+3 dB) buy at high SNR?",
+  "choices": [
+    "Double the capacity",
+    "One additional bit per symbol per hertz",
+    "A 41% increase in capacity",
+    "Nothing at all"
+  ],
+  "answer": 1,
+  "explanation": "Capacity is logarithmic in SNR, so at high SNR each doubling of power adds log2(2) = 1 bit/symbol/Hz. Going from 30 to 33 dB takes you from about 10 to about 11 bits/Hz — a 10% gain for double the power. Capacity is linear in bandwidth, which is why the industry chases spectrum rather than watts.",
+  "tags": [
+    "shannon-hartley",
+    "snr",
+    "power"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

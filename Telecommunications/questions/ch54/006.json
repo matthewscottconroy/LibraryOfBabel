@@ -1,0 +1,22 @@
+{
+  "question_id": "dba2efd8-c5e2-440d-8614-799edfd5825d",
+  "chapter": 54,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the defensible firmware policy position?",
+  "choices": [
+    "Always run the newest release",
+    "A regular cadence for routine updates, an expedited path for critical security fixes with a stated maximum delay, and running a release that has been in the field long enough for its problems to be found by someone else",
+    "Never upgrade unless something breaks",
+    "Upgrade only at end of support"
+  ],
+  "answer": 1,
+  "explanation": "Upgrading risks new defects and requires an outage; not upgrading leaves known vulnerabilities, and network equipment vulnerabilities are frequently pre-authentication and remotely exploitable. Neither extreme is defensible.",
+  "tags": [
+    "firmware",
+    "patching",
+    "risk"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

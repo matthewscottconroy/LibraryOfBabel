@@ -1,0 +1,22 @@
+{
+  "question_id": "0ccee26e-095e-4286-82c1-50a901bc20d1",
+  "chapter": 52,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which asset inventory field turns documentation into planning?",
+  "choices": [
+    "Purchase price",
+    "End-of-support date",
+    "Serial number",
+    "Physical location"
+  ],
+  "answer": 1,
+  "explanation": "An inventory without EOL dates cannot answer the only strategic question anyone asks of it. Given five-to-seven-year support windows, annual budget cycles and months of procurement, discovering that your core switches went out of support last quarter is a problem with no fast solution.",
+  "tags": [
+    "inventory",
+    "eol",
+    "lifecycle"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

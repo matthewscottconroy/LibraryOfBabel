@@ -1,0 +1,22 @@
+{
+  "question_id": "8b122edc-0372-47bb-8682-40614895adf5",
+  "chapter": 26,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the single most-skipped convention in an address plan?",
+  "choices": [
+    "Documenting the gateway address",
+    "Leaving deliberate gaps for growth",
+    "Recording the VLAN ID",
+    "Specifying the DHCP range"
+  ],
+  "answer": 1,
+  "explanation": "A plan that packs subnets perfectly against each other has no room for the site that grows, and renumbering a live subnet is genuinely disruptive. Space in RFC 1918 ranges is free; disruption is not.",
+  "tags": [
+    "address-planning",
+    "growth",
+    "documentation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

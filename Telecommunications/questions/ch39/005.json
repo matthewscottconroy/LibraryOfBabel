@@ -1,0 +1,19 @@
+{
+  "question_id": "9e414a22-af2a-4b37-8b1f-4b3dbe6795dd",
+  "chapter": 39,
+  "phase": 3,
+  "kind": "tf",
+  "text": "A client begins renewing its lease at 50% of the lease duration, which is why a brief DHCP server outage is usually invisible.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, with a further attempt at 87.5%. The client keeps its address and continues working; only clients arriving during the outage are affected.",
+  "tags": [
+    "dhcp",
+    "lease-renewal"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

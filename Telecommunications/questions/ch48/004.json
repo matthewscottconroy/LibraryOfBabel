@@ -1,0 +1,22 @@
+{
+  "question_id": "f6f2d096-aa80-47b1-8efa-608d2af6863e",
+  "chapter": 48,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is PON downstream traffic encrypted?",
+  "choices": [
+    "Regulatory requirement",
+    "The head end broadcasts to all subscribers on the split, so every subscriber physically receives every other subscriber's frames",
+    "To prevent ISP eavesdropping",
+    "To compress the signal"
+  ],
+  "answer": 1,
+  "explanation": "A passive optical splitter has no electronics and cannot filter. Upstream, terminals transmit in assigned time slots and must be range-calibrated because each is a different distance from the head end.",
+  "tags": [
+    "pon",
+    "gpon",
+    "encryption"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

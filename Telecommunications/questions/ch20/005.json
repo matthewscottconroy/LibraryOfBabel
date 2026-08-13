@@ -1,0 +1,22 @@
+{
+  "question_id": "4c83d2da-d251-4a65-a08e-9c98525cc1f0",
+  "chapter": 20,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why is the shipping container a good analogy for layering?",
+  "choices": [
+    "Because containers are stackable",
+    "Because standardising one interface — dimensions and corner fittings — made the contents irrelevant to every crane, lorry and ship",
+    "Because containers are cheap",
+    "Because ships are like networks"
+  ],
+  "answer": 1,
+  "explanation": "McLean's insight was about the interface, with a deliberate refusal to standardise anything on either side of it. Loading cost fell from about $5.86 per ton to $0.16 — not an improvement but a different industry.",
+  "tags": [
+    "layering",
+    "interfaces",
+    "analogy"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

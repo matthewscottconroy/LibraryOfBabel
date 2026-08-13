@@ -1,0 +1,20 @@
+{
+  "question_id": "34052866-e0cb-4555-b6fd-5fcfb5c13b06",
+  "chapter": 35,
+  "phase": 3,
+  "kind": "tf",
+  "text": "A UDP request can be forged to appear to come from a victim, so that the large reply is sent to the victim instead of the attacker.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True — this is reflection with amplification. UDP is not authenticated and the source address can be spoofed. DNS gives roughly 28-54x, NTP monlist up to 557x, and memcached up to 51,000x, which produced the 1.35 Tb/s attack on GitHub in 2018.",
+  "tags": [
+    "amplification",
+    "spoofing",
+    "ddos"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

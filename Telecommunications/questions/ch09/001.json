@@ -1,0 +1,22 @@
+{
+  "question_id": "82b6963b-cd0f-4cdf-9753-614ac33fe31e",
+  "chapter": 9,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A 240 m run is needed between two buildings across a yard containing three-phase machinery. Which medium is most appropriate?",
+  "choices": [
+    "Cat6a UTP",
+    "Cat8 shielded twisted pair",
+    "Single-mode or multimode fibre",
+    "Coaxial cable"
+  ],
+  "answer": 2,
+  "explanation": "240 m exceeds the 100 m limit for all twisted-pair Ethernet regardless of category, and fibre is immune to the electromagnetic interference the machinery produces. The one consideration against it is that fibre cannot deliver power, so any device at the far end needs local electricity.",
+  "tags": [
+    "media-selection",
+    "fibre",
+    "distance"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

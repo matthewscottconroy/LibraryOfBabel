@@ -1,0 +1,20 @@
+{
+  "question_id": "364fc447-a638-439a-817b-912e543df0c0",
+  "chapter": 44,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The client, not the access point, decides when to roam.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and it explains why roaming problems are so often unfixable from the infrastructure side — the decision logic lives in a driver written by the client's manufacturer. 802.11k, v and r let the infrastructure help, but not decide.",
+  "tags": [
+    "roaming",
+    "802.11k",
+    "sticky-client"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

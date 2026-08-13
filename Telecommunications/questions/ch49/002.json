@@ -1,0 +1,22 @@
+{
+  "question_id": "1428cb86-d4e6-49b6-8650-fcbc04929d93",
+  "chapter": 49,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What made DWDM economic?",
+  "choices": [
+    "Cheaper lasers",
+    "The erbium-doped fibre amplifier, which amplifies a whole band optically — all 96 wavelengths at once, without converting to electrical and back",
+    "Government subsidy",
+    "Improved fibre purity alone"
+  ],
+  "answer": 1,
+  "explanation": "Before the EDFA, every wavelength would have needed its own regenerator every 40 km. It is also why the C-band is the C-band: erbium's gain happens to sit there.",
+  "tags": [
+    "dwdm",
+    "edfa",
+    "optical"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

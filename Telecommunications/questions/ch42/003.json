@@ -1,0 +1,22 @@
+{
+  "question_id": "25bc7225-b8c2-4786-b73c-9abe4df14f0f",
+  "chapter": 42,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why was the 2.4 GHz ISM band available for unlicensed use in 1985?",
+  "choices": [
+    "It was reserved for future expansion",
+    "It was regarded as spectral wasteland — set aside for equipment generating radio energy as a by-product, notably microwave ovens",
+    "It had the best propagation characteristics",
+    "It was donated by a manufacturer"
+  ],
+  "answer": 1,
+  "explanation": "Nobody with a licence wanted it. Michael Marcus has described the decision as making rubbish land available to anyone willing to build on it, and what was built on it was Wi-Fi, Bluetooth and Zigbee.",
+  "tags": [
+    "ism-band",
+    "spectrum",
+    "history"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

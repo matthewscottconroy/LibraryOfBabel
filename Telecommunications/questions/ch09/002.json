@@ -1,0 +1,22 @@
+{
+  "question_id": "ab63f0f8-0b7a-4588-8a18-4453cad19d79",
+  "chapter": 9,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why is installing the best cable you can properly terminate usually the correct default?",
+  "choices": [
+    "Better cable has lower latency",
+    "Installation labour dominates material cost, and the one thing you will not want to do in six years is pull it again",
+    "Higher categories are more resistant to theft",
+    "Building codes require it"
+  ],
+  "answer": 1,
+  "explanation": "The labour to pull cable through a building is identical whether it is Cat5e or Cat6a; the material difference is pence per metre. This is one of the few places where 'buy the better one' is genuinely the right engineering answer rather than laziness.",
+  "tags": [
+    "cabling",
+    "cost",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "50d7b094-1022-445e-84da-924f858e605f",
+  "chapter": 46,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why should a wireless site survey account for building sensors and BLE beacons?",
+  "choices": [
+    "They consume switch ports",
+    "Zigbee and BLE occupy 2.4 GHz alongside Wi-Fi, so a dense sensor deployment is part of your noise floor",
+    "They interfere with 5 GHz",
+    "They require their own VLAN"
+  ],
+  "answer": 1,
+  "explanation": "A survey that ignores non-Wi-Fi 2.4 GHz occupancy will mispredict, and a Wi-Fi analyser cannot see them at all — a spectrum analyser is required.",
+  "tags": [
+    "survey",
+    "interference",
+    "2.4ghz"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

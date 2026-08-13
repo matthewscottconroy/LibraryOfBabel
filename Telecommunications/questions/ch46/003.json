@@ -1,0 +1,22 @@
+{
+  "question_id": "3152d9b7-6bb9-416c-9ea5-8c2788dd4909",
+  "chapter": 46,
+  "phase": 3,
+  "kind": "mc",
+  "text": "How is a passive NFC tag powered?",
+  "choices": [
+    "A printed battery",
+    "By inductive coupling in the reader's near field — which is why range is a few centimetres",
+    "By ambient RF harvesting from Wi-Fi",
+    "By the card reader's data signal only"
+  ],
+  "answer": 1,
+  "explanation": "At a few centimetres the reader and tag are in each other's near field rather than exchanging propagating waves. This is why a contactless card, passport chip and inventory tag need no battery, and why '4 cm' is a weaker security guarantee than it sounds against a large antenna.",
+  "tags": [
+    "nfc",
+    "near-field",
+    "rfid"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

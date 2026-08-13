@@ -1,0 +1,22 @@
+{
+  "question_id": "79825f5e-96de-4155-a379-7a91f5b7eb57",
+  "chapter": 50,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is tromboning and why does it matter now?",
+  "choices": [
+    "A routing loop",
+    "Backhauling cloud-destined traffic to a central data centre and out again, adding latency to precisely the traffic most sensitive to it",
+    "A form of load balancing",
+    "A cabling topology"
+  ],
+  "answer": 1,
+  "explanation": "It made sense when everything lived in the data centre. Now that most traffic is cloud-destined, it consumes an expensive circuit carrying traffic that was never going to the data centre — which is the core argument for local breakout.",
+  "tags": [
+    "tromboning",
+    "sd-wan",
+    "cloud"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

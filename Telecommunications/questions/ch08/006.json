@@ -1,0 +1,22 @@
+{
+  "question_id": "fb4dcc7a-9edc-4b19-aa60-4059478776ee",
+  "chapter": 8,
+  "phase": 0,
+  "kind": "mc",
+  "text": "DWDM puts 80-96 wavelengths on a single fibre pair. Which technique is this?",
+  "choices": [
+    "Time-division multiplexing applied to light",
+    "Frequency-division multiplexing applied to light",
+    "Code-division multiplexing applied to light",
+    "Statistical multiplexing applied to light"
+  ],
+  "answer": 1,
+  "explanation": "Different wavelengths are different frequencies, so WDM is FDM for light — each channel occupies its own slice of optical spectrum and all transmit simultaneously. The erbium-doped fibre amplifier, which amplifies the whole band at once, is what made it economic.",
+  "tags": [
+    "dwdm",
+    "fdm",
+    "optical"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "08694e58-c454-4cb8-912d-3d68b51d77f1",
+  "chapter": 55,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why does a hot equipment cabinet perform measurably worse before it fails?",
+  "choices": [
+    "Fans consume bandwidth",
+    "Thermal noise rises with temperature, degrading receiver SNR, and heat is the primary cause of electronic ageing",
+    "Firmware throttles on temperature only",
+    "It does not — only failure matters"
+  ],
+  "answer": 1,
+  "explanation": "Chapter 4's kTB is a direct link between the physical plant and link performance. Environmental monitoring — temperature, humidity, water, door contacts — is cheap and routinely absent.",
+  "tags": [
+    "cooling",
+    "thermal-noise",
+    "physical-plant"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

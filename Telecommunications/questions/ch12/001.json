@@ -1,0 +1,22 @@
+{
+  "question_id": "34461102-cb44-456a-8427-35c297680ef6",
+  "chapter": 12,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Baran and Davies arrived independently at packet switching from different motivations. What were they?",
+  "choices": [
+    "Cost and speed",
+    "Survivability under nuclear attack (Baran) and efficiency for bursty terminal traffic (Davies)",
+    "Security and reliability",
+    "Standardisation and interoperability"
+  ],
+  "answer": 1,
+  "explanation": "Baran needed a network with no essential node, so no path could be pre-established and each unit of data had to carry its own destination. Davies needed to avoid reserving capacity for bursty traffic, so capacity could not be reserved and each unit had to contend. Different requirement, identical mechanism.",
+  "tags": [
+    "baran",
+    "davies",
+    "packet-switching"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

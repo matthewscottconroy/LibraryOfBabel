@@ -1,0 +1,22 @@
+{
+  "question_id": "656eeb63-0711-4e68-912a-90c7f13e2099",
+  "chapter": 41,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Two towers have clear line of sight and the link performs poorly. What should you check?",
+  "choices": [
+    "The transmit power",
+    "The Fresnel zone — an ellipsoid around the direct path must also be clear, and an obstruction intruding into it causes loss",
+    "The cable length",
+    "The antenna polarisation only"
+  ],
+  "answer": 1,
+  "explanation": "'We can see the other tower, why doesn't it work' is a genuine and common question. Trees growing into the Fresnel zone is a classic slow degradation over years.",
+  "tags": [
+    "fresnel-zone",
+    "line-of-sight",
+    "link-budget"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,157 @@
+# Telecommunications
+
+*From Signals to the Internet, Built from First Principles*
+
+A textbook that builds computer networking in dependency order rather than
+textbook order: information, then signals, then media, then sharing a medium,
+then local delivery, then — only then — layering, then global addressing,
+routing, transport, services, wireless, wide area, operations, security,
+diagnosis, and design.
+
+The organising question, asked seventy-two times in seventy-two registers:
+
+> **How do we get information from one process on one computer to another
+> process on another computer — reliably, efficiently, securely, and at scale?**
+
+Every concept appears because it answers part of that question. Nothing appears
+because a syllabus expects it.
+
+## Two deliberate departures
+
+**The OSI model is Unit V, not Chapter 1.** Layering is a solution, and a
+solution presented before its problem is a list to be memorised. By Unit V the
+reader has personally hit four distinct problems that layering solves, and the
+seven layers arrive as a relief rather than an initiation rite.
+
+**Troubleshooting is a thread, not a unit.** Every chapter closes with the
+failure modes its mechanism makes possible. Unit XIII formalises a method the
+reader has been using for twelve units.
+
+## Who it is for
+
+No networking background is assumed; binary is built from scratch in Chapter 2.
+Written for undergraduates meeting networks for the first time, for CompTIA
+Network+ (N10-009) candidates — every objective is mapped in
+[Appendix D](book/appendices/appendix_d_network_plus_crosswalk.md) — and for
+working technicians who learned the commands and never the reasons.
+
+Network+ vocabulary is introduced in marked boxes *after* each derivation, never
+before it. That ordering is the book's central pedagogical wager.
+
+## Where to start
+
+Read **[book/README.md](book/README.md)** first: the audience, the notation
+conventions, the apparatus, and how to use the book. Then the
+**[preface](book/preface.md)**, which starts with a signal fire and ends with
+the reason history is load-bearing in this field.
+
+The complete structural map is the
+**[master outline](telecommunications_book_outline.md)**, which also carries the
+VOICE SPEC the prose is written to.
+
+## Structure
+
+| Unit | Chapters | Theme | Status |
+|------|----------|-------|--------|
+| I | 1–4 | The signal and the symbol: information, bits, measurement, Shannon's limit | **Complete** |
+| II | 5–10 | Making bits travel: signals, impairments, coding, modulation, multiplexing, media | **Complete** |
+| III | 11–14 | Many machines, one infrastructure: topologies, circuits, packets, scope | **Complete** |
+| IV | 15–20 | Local delivery: frames, Ethernet, switching, ARP, spanning tree, VLANs | **Complete** |
+| V | 21–23 | The idea of layers: why, OSI, TCP/IP and encapsulation | **Complete** |
+| VI | 24–28 | Addressing the world: IP, masks, subnetting/CIDR/VLSM, address plans, IPv6 | **Complete** |
+| VII | 29–34 | Finding the way: forwarding, static, dynamic, BGP, NAT, ICMP | **Complete** |
+| VIII | 35–41 | Reaching the application: ports, UDP, TCP, congestion, DNS, DHCP, the zoo | **Complete** |
+| IX | 42–47 | Networking without wires: radio, spectrum, Wi-Fi, WLAN design, cellular, IoT | **Complete** |
+| X | 48–52 | Networks at distance: Internet architecture, last mile, optical, WAN, QoS/CDN | **Complete** |
+| XI | 53–56 | Operating a network: documentation, monitoring, change, availability | **Complete** |
+| XII | 57–62 | Securing a network: threat models, crypto, AAA, firewalls, VPNs, attacks | **Complete** |
+| XIII | 63–66 | Diagnosis: methodology, toolbox, failure modes, performance | **Complete** |
+| XIV | 67–72 | Modern and future: overlays, SDN, cloud, automation, frontier, design | **Complete** |
+| — | A–F | Appendices: subnetting reference, ports, standards bodies, Network+ crosswalk, glossary, timeline | **Complete** |
+
+**Status.** **Complete.** All 14 unit introductions, all 72 chapters and all six
+appendices are written in full — every section, with exercises, important
+concepts, the people, and further reading — together with the companion tools,
+labs, project and instructor materials. Roughly 860,000 words.
+
+Every numeric claim in the prose was checked against a computation before it was
+written, and `tools/checkrefs.py` verifies the cross-references, the chapter
+directory structure and the exercise labelling on every run.
+
+## Companion assets
+
+| Directory | Contents |
+|---|---|
+| **[tools/](tools/)** | Runnable Python: subnet calculator and drill generator, performance and link-budget arithmetic, and simulations reproducing the book's numerical arguments |
+| **[labs/](labs/)** | Fifteen hands-on labs, one per course week, assessed on the debrief rather than the outcome |
+| **[project/](project/)** | The semester-long Network Design and Technical Justification project, in staged deliverables with rubrics |
+| **[instructor/](instructor/)** | Fifteen-week schedule, exam blueprints, and retrieval quizzes |
+
+## Commands
+
+Run from the repository root.
+
+```bash
+# Build the book (also --html, --markdown, --check)
+python3 tools/build_book.py Telecommunications --pdf
+
+# Take the adaptive quiz
+cd quiz && cargo run -p quiz-cli -- --subject ../Telecommunications
+
+# Validate before opening a PR
+python3 tools/validate.py --book Telecommunications
+```
+
+The book's own tools run directly:
+
+```bash
+cd Telecommunications/tools
+python3 netcalc.py subnet 192.168.10.70/27 --binary
+python3 subnet_practice.py --sheet 20 --answers
+python3 perfcalc.py bdp --rate 1G --rtt 100
+python3 simnet.py statmux
+```
+
+And one that checks the manuscript rather than the subject matter:
+
+```bash
+cd Telecommunications
+python3 tools/checkrefs.py --verbose
+```
+
+`checkrefs.py` verifies that every `Chapter N §N.M` cross-reference names a
+chapter that exists and a section that exists *within it*, that chapter numbers
+and section prefixes agree, that no chapter directory on disk is missing from
+`subject.toml` (a near-miss slug produces a directory the build sweeps up and
+the quiz config never sees), and that exercise labelling is consistent
+book-wide. Chapters not yet drafted are reported rather than flagged, so it is
+usable while the book is in progress. Run it alongside `validate.py` before any
+commit that touches prose.
+
+It also prints a **topic review** count. A reference can resolve perfectly and
+still name the wrong chapter — `stateful firewall (Chapter 58)` is valid syntax
+and points at the cryptography chapter. `TOPIC_OWNERS` in `checkrefs.py` maps
+topic words to the chapters that own them, and any reference sitting beside a
+word another chapter owns is listed under `--verbose`. Only topics with a single
+unambiguous owner are listed: cross-cutting words (VLAN, IPv6, DNS, NAT, TLS)
+appear legitimately beside almost any reference and produced four times as many
+false positives as findings, so they are deliberately absent. The remaining
+entries still include legitimate cases ("DOCSIS uses OFDM (Chapter 8)"), so
+these are reported for a human to read and never fail the run.
+
+## Notation
+
+Rates in bits (`Mb/s`), storage in bytes (`MB`); decimal SI prefixes for rates,
+IEC binary (`GiB`) where memory is meant; *frame* at L2, *packet* at L3,
+*segment*/*datagram* at L4, held strictly; `dB` for ratios and `dBm` for absolute
+power; network byte order throughout. Examples use the RFC 5737 and RFC 3849
+documentation ranges — no example contains a real routable address belonging to
+someone else. The full table is in [book/README.md](book/README.md).
+
+## License
+
+Inherits the repository's [CC BY-NC-SA 4.0](../LICENSE) — free to read, share and
+adapt; no commercial use; adaptations stay equally free.
+
+See [PROCESS.md](../PROCESS.md) for the generation pipeline and
+[CONTRIBUTING.md](../CONTRIBUTING.md) to contribute.

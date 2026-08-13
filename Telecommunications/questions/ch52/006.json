@@ -1,0 +1,22 @@
+{
+  "question_id": "408f1ec3-92ab-44bc-9f79-45c9a93dff9a",
+  "chapter": 52,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What specific error does IPAM prevent that a spreadsheet plan does not?",
+  "choices": [
+    "Wrong subnet masks",
+    "A static address assigned from inside a DHCP pool, producing an intermittent conflict weeks later when the pool reaches that address",
+    "Routing loops",
+    "VLAN mismatches"
+  ],
+  "answer": 1,
+  "explanation": "Integration with DNS and DHCP guarantees the three records are consistent by construction rather than by discipline. At small scale a spreadsheet is genuinely adequate and pretending otherwise is affectation.",
+  "tags": [
+    "ipam",
+    "address-conflict",
+    "dhcp"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

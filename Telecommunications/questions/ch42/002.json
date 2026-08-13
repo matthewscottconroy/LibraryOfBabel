@@ -1,0 +1,22 @@
+{
+  "question_id": "334f9d99-f8a3-4b3c-b113-a15f939f3352",
+  "chapter": 42,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why is putting an access point on channel 3 to 'avoid' neighbours on 1 and 6 worse than sharing channel 1 with them?",
+  "choices": [
+    "Channel 3 is not permitted in most regions",
+    "Two networks on the same channel can hear each other and take turns under CSMA/CA; partially overlapping networks cannot decode each other, so neither defers and both corrupt each other's frames",
+    "Channel 3 has lower power limits",
+    "There is no difference"
+  ],
+  "answer": 1,
+  "explanation": "Co-channel interference costs throughput; adjacent-channel interference costs the link. This is one of the most common well-intentioned mistakes in wireless deployment.",
+  "tags": [
+    "adjacent-channel",
+    "co-channel",
+    "csma-ca"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

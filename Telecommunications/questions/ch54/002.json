@@ -1,0 +1,22 @@
+{
+  "question_id": "ed1e42da-0df6-4c31-a09e-b751e56655dd",
+  "chapter": 54,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is a device's configuration described as an accumulated liability rather than an asset?",
+  "choices": [
+    "It costs money to store",
+    "It grows monotonically, nothing removes it by default, its rationale is undocumented, and each layer of exception makes the next change harder to reason about",
+    "It becomes obsolete",
+    "It is difficult to back up"
+  ],
+  "answer": 1,
+  "explanation": "A ten-year-old firewall policy contains rules referencing decommissioned servers that nobody dares remove because nobody knows what would break. Hit counters, golden configurations and periodic review with a defined removal process are the countermeasures.",
+  "tags": [
+    "configuration-drift",
+    "technical-debt",
+    "operations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

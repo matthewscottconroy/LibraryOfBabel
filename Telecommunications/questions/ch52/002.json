@@ -1,0 +1,22 @@
+{
+  "question_id": "5772bd7c-4bce-41a6-ae81-4b74ea10dbd4",
+  "chapter": 52,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why should cable labels encode location rather than purpose?",
+  "choices": [
+    "Location labels are shorter",
+    "Purpose changes and location does not: 'A-3-14 to B-1-07' is still correct in five years; 'Accounts printer' will be wrong within eighteen months and will actively mislead",
+    "Regulations require it",
+    "Purpose labels are harder to print"
+  ],
+  "answer": 1,
+  "explanation": "A stale label is worse than none because it is trusted. The same principle governs documentation generally, and the fix is a review trigger tied to the change process rather than to a calendar.",
+  "tags": [
+    "labelling",
+    "documentation",
+    "operations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

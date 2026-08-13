@@ -1,0 +1,22 @@
+{
+  "question_id": "d45c2b01-7d34-4f52-91eb-841c1085dc2e",
+  "chapter": 51,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why must QoS marking have a trust boundary?",
+  "choices": [
+    "To comply with standards",
+    "If any host can mark its own traffic EF, every host eventually will, and the priority queue becomes the default queue",
+    "To support IPv6",
+    "Because DSCP is only six bits"
+  ],
+  "answer": 1,
+  "explanation": "The standard design marks at the access edge — trusting an IP phone, re-marking or clearing everything from a workstation — and trusts markings thereafter. That decision must be made explicitly and is routinely forgotten.",
+  "tags": [
+    "dscp",
+    "trust-boundary",
+    "qos"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

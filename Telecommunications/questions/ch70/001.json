@@ -1,0 +1,22 @@
+{
+  "question_id": "55c74384-6a42-4833-809d-7dcc22b6c51b",
+  "chapter": 70,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What is the consistent pattern in failed predictions about networking's future?",
+  "choices": [
+    "Technologists are pessimistic",
+    "Technologists overestimate how fast infrastructure changes and underestimate how much economics and installed base determine outcomes",
+    "Standards bodies move too slowly",
+    "Vendors suppress innovation"
+  ],
+  "answer": 1,
+  "explanation": "A technically superior system requiring everyone to change simultaneously loses to an inferior one adoptable incrementally. This is the lesson of Ethernet, OSI, IPv6 and OpenFlow alike.",
+  "tags": [
+    "prediction",
+    "adoption",
+    "economics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

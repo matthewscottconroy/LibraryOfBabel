@@ -1,0 +1,20 @@
+{
+  "question_id": "af724d97-b172-4fad-af7f-e79853f966ac",
+  "chapter": 68,
+  "phase": 5,
+  "kind": "tf",
+  "text": "You cannot capture packets in a cloud VPC the way you would on a switch you own.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. There is no SPAN port on a switch you do not own; providers offer traffic mirroring and flow logs, which are more limited and more expensive than tcpdump on a mirror port. Multicast, broadcast and arbitrary Layer 2 adjacency are generally unavailable too.",
+  "tags": [
+    "cloud",
+    "packet-capture",
+    "limitations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

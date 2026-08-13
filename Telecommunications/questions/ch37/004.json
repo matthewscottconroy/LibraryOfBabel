@@ -1,0 +1,22 @@
+{
+  "question_id": "04083cec-03c6-426d-9c8e-676a3be41470",
+  "chapter": 37,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What does BBR measure instead of loss?",
+  "choices": [
+    "Queue depth",
+    "The path's bottleneck bandwidth and its minimum round-trip time, pacing to match",
+    "Router CPU utilisation",
+    "The receiver's advertised window"
+  ],
+  "answer": 1,
+  "explanation": "The argument is that loss-based control must fill queues before it detects anything — it has to cause the problem to discover it — and therefore guarantees bufferbloat. BBR aims to sit at the bandwidth-delay product rather than above it.",
+  "tags": [
+    "bbr",
+    "bufferbloat",
+    "congestion-control"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

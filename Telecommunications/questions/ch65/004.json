@@ -1,0 +1,22 @@
+{
+  "question_id": "89d3ccc7-c46d-49da-9a75-7152569d836b",
+  "chapter": 65,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why did adding larger buffers to network equipment make interactive performance worse?",
+  "choices": [
+    "Larger buffers are slower to access",
+    "TCP uses loss as its congestion signal; a large buffer hides congestion by queueing instead of dropping, so the window keeps growing and every packet is delayed by the full queue depth",
+    "They increased power consumption",
+    "They caused fragmentation"
+  ],
+  "answer": 1,
+  "explanation": "The observable result is that a large upload makes an unrelated video call unusable on a connection with plenty of capacity. AQM — CoDel, FQ-CoDel, PIE, CAKE — drops based on how long a packet has been queued rather than on queue occupancy.",
+  "tags": [
+    "bufferbloat",
+    "aqm",
+    "codel"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

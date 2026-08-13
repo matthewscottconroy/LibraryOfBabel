@@ -1,0 +1,22 @@
+{
+  "question_id": "7f229541-3bcf-46af-99a9-bac4c208e162",
+  "chapter": 36,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Distinguish flow control from congestion control.",
+  "choices": [
+    "They are the same mechanism",
+    "Flow control protects the RECEIVER via the advertised window; congestion control protects the NETWORK via a separate congestion window",
+    "Flow control is for UDP",
+    "Congestion control operates at Layer 3"
+  ],
+  "answer": 1,
+  "explanation": "They are independent, with independent windows, and students conflate them constantly. Congestion control was not in the original TCP at all; it was added in 1988 after the network collapsed.",
+  "tags": [
+    "flow-control",
+    "congestion-control",
+    "tcp"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

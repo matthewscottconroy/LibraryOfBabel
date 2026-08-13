@@ -1,0 +1,22 @@
+{
+  "question_id": "7e408d39-a961-4f73-b8cb-818882ebb44c",
+  "chapter": 66,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is the VXLAN Network Identifier 24 bits?",
+  "choices": [
+    "To align with IPv6",
+    "802.1Q's 12 bits gives 4,094 usable VLANs, which cloud providers hosting tens of thousands of tenants exhausted in practice",
+    "For checksum alignment",
+    "To match the MAC address OUI"
+  ],
+  "answer": 1,
+  "explanation": "24 bits gives 16.7 million segments. This is a clean example of a design decision that was correct for its era being invalidated purely by a change in scale.",
+  "tags": [
+    "vxlan",
+    "vni",
+    "scaling"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

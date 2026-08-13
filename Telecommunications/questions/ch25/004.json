@@ -1,0 +1,22 @@
+{
+  "question_id": "2e80ae9b-fee2-4b1e-8d6c-335b203188d5",
+  "chapter": 25,
+  "phase": 2,
+  "kind": "mc",
+  "text": "In VLSM, why must you allocate largest-first?",
+  "choices": [
+    "It is a convention only",
+    "Allocating small subnets first fragments the space so a later large subnet cannot be placed even though enough total addresses remain",
+    "Routers require it",
+    "Largest subnets are more important"
+  ],
+  "answer": 1,
+  "explanation": "It is exactly the memory allocation problem and has exactly the same solution. The second discipline is alignment: keep each site's subnets contiguous and aligned so the site can be advertised as one prefix.",
+  "tags": [
+    "vlsm",
+    "allocation",
+    "fragmentation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

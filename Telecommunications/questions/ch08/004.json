@@ -1,0 +1,22 @@
+{
+  "question_id": "b53a0869-72a3-4bdf-8414-56985f68d518",
+  "chapter": 8,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A T1 carries 24 DS0 channels; an E1 carries 30 plus signalling. Why is a T1 1.544 Mb/s?",
+  "choices": [
+    "24 x 64 kb/s exactly",
+    "24 x 64 kb/s plus 8 kb/s of framing",
+    "24 x 56 kb/s plus overhead",
+    "It is an arbitrary standard rate"
+  ],
+  "answer": 1,
+  "explanation": "24 x 64,000 = 1,536,000, plus one framing bit per 193-bit frame at 8,000 frames per second = 8,000 b/s, giving 1,544,000 b/s. The T1/E1 divergence is a genuine historical accident with real consequences for international circuits, and it persists in carrier price lists today.",
+  "tags": [
+    "t1",
+    "e1",
+    "digital-hierarchy"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

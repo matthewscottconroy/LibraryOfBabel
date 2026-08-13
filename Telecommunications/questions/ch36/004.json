@@ -1,0 +1,22 @@
+{
+  "question_id": "810dbce9-0805-4024-ad7e-f50d1f5672d7",
+  "chapter": 36,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A capture shows TCP Zero Window. Where is the problem?",
+  "choices": [
+    "The network is congested",
+    "The receiving APPLICATION is not reading fast enough — the network is innocent",
+    "The sender's window is misconfigured",
+    "A middlebox stripped an option"
+  ],
+  "answer": 1,
+  "explanation": "The receiver advertises no buffer space because the application above has not consumed what has arrived. Recognising this saves a great deal of time spent investigating a network that is working perfectly.",
+  "tags": [
+    "zero-window",
+    "flow-control",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "79432e7b-2b1a-4b86-9335-179cfaeb82b9",
+  "chapter": 62,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A user reports 'the VPN is broken'. What is the actual observation?",
+  "choices": [
+    "The VPN is broken",
+    "'I cannot open the file share' — the report contains a hypothesis presented as an observation",
+    "The network is down",
+    "Authentication failed"
+  ],
+  "answer": 1,
+  "explanation": "Anchoring on the reporter's diagnosis can waste an hour. Separating what was observed from what was inferred is the first move, and it applies to colleagues' reports as much as to users'.",
+  "tags": [
+    "anchoring",
+    "methodology",
+    "bias"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "00a0f7d3-fc2b-4779-9970-b82cbc01a503",
+  "chapter": 55,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why does naive redundancy arithmetic overstate availability?",
+  "choices": [
+    "The formula is wrong",
+    "Components that share a fate are not independent — same circuit, same rack, same duct, same firmware version, same substation",
+    "It ignores maintenance windows",
+    "Vendors overstate MTBF"
+  ],
+  "answer": 1,
+  "explanation": "The discipline is to enumerate shared fate explicitly for each redundant pair, and the answer is usually something addressable at low cost: different circuits, different ducts, staggered firmware versions.",
+  "tags": [
+    "redundancy",
+    "shared-fate",
+    "availability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

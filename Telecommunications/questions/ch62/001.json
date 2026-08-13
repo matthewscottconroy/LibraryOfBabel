@@ -1,0 +1,22 @@
+{
+  "question_id": "e9deda2f-fa32-467a-81eb-cb503396183c",
+  "chapter": 62,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is 'evidence before hypothesis' the central discipline of troubleshooting?",
+  "choices": [
+    "It is faster",
+    "Acting on an untested hypothesis changes the system, destroying the evidence that would have identified the real cause and adding a variable",
+    "It is required by CompTIA",
+    "It reduces documentation effort"
+  ],
+  "answer": 1,
+  "explanation": "The engineer who reboots, replaces the cable and restarts the service — and finds the problem gone — has learned nothing, cannot prevent recurrence, and may have introduced a second fault.",
+  "tags": [
+    "methodology",
+    "evidence",
+    "troubleshooting"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "7457f3a8-4a3a-4bf2-91d7-4dc42dbb9069",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "High-frequency trading firms spent tens of millions laying microwave links between Chicago and New Jersey along a route already served by fibre. What were they buying?",
+  "choices": [
+    "Greater bandwidth than fibre could provide",
+    "Lower latency, because radio through air propagates faster than light through glass",
+    "Redundancy against fibre cuts",
+    "Freedom from the ISP's traffic shaping"
+  ],
+  "answer": 1,
+  "explanation": "Air has a refractive index of essentially 1.0 while fibre is about 1.468, so a microwave path propagates roughly 45% faster than the same distance of glass. They were buying the difference between c and c/1.468 — a few milliseconds — and microwave carries far less bandwidth than fibre, so it was purely a latency purchase.",
+  "tags": [
+    "latency",
+    "propagation-delay",
+    "microwave"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

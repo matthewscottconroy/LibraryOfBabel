@@ -1,0 +1,22 @@
+{
+  "question_id": "8c90348b-106c-4576-b917-d537a5e04aa2",
+  "chapter": 24,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Given only the address 192.168.10.70, can you determine which bits are network and which are host?",
+  "choices": [
+    "Yes, from the leading bits",
+    "No — the boundary is external information carried by the subnet mask",
+    "Yes, from the last octet",
+    "Only for private addresses"
+  ],
+  "answer": 1,
+  "explanation": "Under classful addressing until 1993 the address encoded its own boundary; CIDR abolished that. The mask is not an address and not a gateway — it is an operator, the thing you AND with an address to extract its network.",
+  "tags": [
+    "subnet-mask",
+    "cidr",
+    "classful"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

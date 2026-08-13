@@ -1,0 +1,22 @@
+{
+  "question_id": "2d76cfff-f91a-46da-8531-df5d1f62ee52",
+  "chapter": 18,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which feature should be enabled on an access port to prevent a rogue switch from becoming root?",
+  "choices": [
+    "PortFast alone",
+    "BPDU Guard",
+    "Port security",
+    "DHCP snooping"
+  ],
+  "answer": 1,
+  "explanation": "BPDU Guard errdisables a port that receives a BPDU, on the principle that an access port should never see one. PortFast alone speeds transition without protecting against this. Root Guard is the related feature for ports where a switch is expected but should not be root.",
+  "tags": [
+    "bpdu-guard",
+    "access-port",
+    "hardening"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

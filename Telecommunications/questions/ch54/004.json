@@ -1,0 +1,21 @@
+{
+  "question_id": "9ffdf74c-70a4-44cf-9cbf-1c800d96db39",
+  "chapter": 54,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why do standard and emergency change categories make a change process bearable?",
+  "choices": [
+    "They reduce paperwork for management",
+    "A process that treats a port description edit like a core routing change will be circumvented, and a circumvented process protects nothing",
+    "They are required by ITIL",
+    "They speed up approvals"
+  ],
+  "answer": 1,
+  "explanation": "Standard changes are pre-approved, low-risk, well-rehearsed operations. Emergency changes bypass approval and must be documented retrospectively without exception.",
+  "tags": [
+    "change-control",
+    "process"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

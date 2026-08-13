@@ -1,0 +1,22 @@
+{
+  "question_id": "6d49cbab-4064-410e-97c1-ee53a32bb2a5",
+  "chapter": 66,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why does a routed leaf-spine fabric need an overlay at all?",
+  "choices": [
+    "For encryption",
+    "Virtual machines expect to move between hosts without changing IP address, but every rack being its own routed subnet would require renumbering",
+    "To support IPv6",
+    "To reduce MTU overhead"
+  ],
+  "answer": 1,
+  "explanation": "Live migration, high availability and clustering all assume the machine stays in the same subnet. VXLAN provides a Layer 2 segment spanning racks that are physically separated by routing.",
+  "tags": [
+    "overlay",
+    "vxlan",
+    "live-migration"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

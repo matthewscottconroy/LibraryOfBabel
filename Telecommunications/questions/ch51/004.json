@@ -1,0 +1,22 @@
+{
+  "question_id": "f2b135d8-ba52-479a-8947-e54cfaff8fc1",
+  "chapter": 51,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Contrast policing with shaping, and give the rule of thumb.",
+  "choices": [
+    "They are identical",
+    "Policing drops or re-marks excess; shaping buffers and releases it smoothly. Shape what you send, police what you receive",
+    "Policing buffers, shaping drops",
+    "Shaping is only for inbound traffic"
+  ],
+  "answer": 1,
+  "explanation": "Shaping outbound to about 95% of the carrier's contracted rate moves the queue from the carrier's device — where you have no visibility or control — into your own, where your policy decides what gets dropped. It is one of the highest-value configurations in branch networking.",
+  "tags": [
+    "policing",
+    "shaping",
+    "qos"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

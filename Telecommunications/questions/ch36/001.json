@@ -1,0 +1,22 @@
+{
+  "question_id": "09c794b0-e3e9-4043-a499-fa2282eceb09",
+  "chapter": 36,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does TCP's handshake take three messages rather than two?",
+  "choices": [
+    "To exchange encryption keys",
+    "Two messages leave the initiator unaware that its response arrived; three close the loop so both parties know both parties know, and both initial sequence numbers are confirmed",
+    "To measure the round-trip time",
+    "To negotiate the MTU"
+  ],
+  "answer": 1,
+  "explanation": "The second reason is the subtler one: without confirming both ISNs, a delayed duplicate of an old SYN could establish a connection with stale state. ISNs are also randomised (RFC 6528) because predictable ones allowed connection spoofing.",
+  "tags": [
+    "tcp",
+    "three-way-handshake",
+    "isn"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

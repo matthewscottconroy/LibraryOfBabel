@@ -1,0 +1,22 @@
+{
+  "question_id": "73e3330a-fe8b-49a3-b77b-a450c5f9bd06",
+  "chapter": 63,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What is the difference between a cable continuity tester and a certifier?",
+  "choices": [
+    "Price only",
+    "A tester proves the wires are connected; a certifier measures attenuation, crosstalk, return loss and delay skew against the category specification",
+    "Certifiers only work on fibre",
+    "Testers are for copper, certifiers for fibre"
+  ],
+  "answer": 1,
+  "explanation": "The gap between the two instruments is where a great many intermittent faults live: a cable that passes continuity, links up, works at 1 Gb/s and fails at 10.",
+  "tags": [
+    "cable-testing",
+    "certifier",
+    "physical-layer"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

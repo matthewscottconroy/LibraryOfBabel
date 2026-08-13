@@ -1,0 +1,22 @@
+{
+  "question_id": "9c14d73d-7b60-4342-a173-a7e9e588557c",
+  "chapter": 30,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why can link state express 'a four-hop gigabit path beats a two-hop 10 Mb/s path' when RIP cannot?",
+  "choices": [
+    "Link state routers are faster",
+    "Cost can reflect bandwidth rather than hop count, so the metric measures the thing that matters",
+    "RIP does not support multiple paths",
+    "Link state uses BGP attributes"
+  ],
+  "answer": 1,
+  "explanation": "RIP's metric is hop count, which treats all links as equal and is therefore systematically wrong on heterogeneous networks. OSPF's cost is derived from interface bandwidth, which is one of several reasons it displaced RIP.",
+  "tags": [
+    "metric",
+    "ospf",
+    "rip"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

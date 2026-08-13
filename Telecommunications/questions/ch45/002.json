@@ -1,0 +1,22 @@
+{
+  "question_id": "a5d71e44-6371-4204-8275-19da4b9bd930",
+  "chapter": 45,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What was the significant transition at 2G?",
+  "choices": [
+    "Higher data rates",
+    "Digitisation — permitting regeneration, compression, and encryption, and improving capacity three- to fivefold from voice compression alone",
+    "The move to packet switching",
+    "The introduction of LTE"
+  ],
+  "answer": 1,
+  "explanation": "It is the same transition the wired network made, replayed. GSM also introduced the SIM card, separating subscriber identity from handset — an idea so obviously right in retrospect that its absence elsewhere is hard to credit.",
+  "tags": [
+    "2g",
+    "gsm",
+    "digitisation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

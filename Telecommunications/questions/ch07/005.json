@@ -1,0 +1,20 @@
+{
+  "question_id": "069f79fe-10c9-4d25-b052-ad61752a07e2",
+  "chapter": 7,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Rate adaptation in Wi-Fi — your connection getting slower as you walk away from the access point — is the radio choosing a smaller constellation.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. As SNR falls, the receiver can no longer distinguish densely packed constellation points, so the radio steps down to fewer bits per symbol. It is tracking Shannon's capacity curve downward in real time, several times a second.",
+  "tags": [
+    "rate-adaptation",
+    "constellation",
+    "snr"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "0e78ba8c-bf2d-4936-a31e-5f8e26a9691d",
+  "chapter": 49,
+  "phase": 4,
+  "kind": "mc",
+  "text": "SONET rings achieved protection switching in under what time?",
+  "choices": [
+    "500 ms",
+    "200 ms",
+    "50 ms",
+    "5 ms"
+  ],
+  "answer": 2,
+  "explanation": "Fast enough that a telephone call does not drop and a human does not perceive it. That was a design requirement met in 1988, and Ethernet-based networks took until the 2010s to approach it — spanning tree originally took 30-50 seconds.",
+  "tags": [
+    "sonet",
+    "protection-switching",
+    "availability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

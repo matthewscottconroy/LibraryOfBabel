@@ -1,0 +1,22 @@
+{
+  "question_id": "9f2ab085-f7d6-4f19-a0e7-3abb58b19ee6",
+  "chapter": 28,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What does a router do with a packet after forwarding it?",
+  "choices": [
+    "Records it for accounting",
+    "Forgets it entirely — forwarding is stateless with respect to conversations",
+    "Waits for an acknowledgement",
+    "Caches it in case of retransmission"
+  ],
+  "answer": 1,
+  "explanation": "Statelessness is what allows a router to handle millions of simultaneous flows in hardware with no per-flow memory, and to reboot without disrupting conversations. It is the direct operational payoff of the end-to-end argument.",
+  "tags": [
+    "stateless",
+    "forwarding",
+    "scaling"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

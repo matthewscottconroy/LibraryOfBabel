@@ -1,0 +1,22 @@
+{
+  "question_id": "3b80a0ef-0278-4679-bad5-bedf4d0ec733",
+  "chapter": 24,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What operation does a host perform to decide whether a destination is local?",
+  "choices": [
+    "It consults DNS",
+    "It ANDs both its own address and the destination with its own mask and compares the results",
+    "It sends an ARP request and waits",
+    "It checks the routing table only"
+  ],
+  "answer": 1,
+  "explanation": "Same result means local — ARP for the destination directly. Different result means remote — ARP for the default gateway and send the frame there with the IP destination unchanged. This decision is made for every packet, and it is why the mask is not bureaucratic.",
+  "tags": [
+    "local-remote",
+    "bitwise-and",
+    "arp"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

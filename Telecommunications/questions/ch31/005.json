@@ -1,0 +1,20 @@
+{
+  "question_id": "27166afc-0d6b-4454-bfd8-b18d62149d86",
+  "chapter": 31,
+  "phase": 2,
+  "kind": "tf",
+  "text": "RPKI origin validation, route object filtering and maximum-prefix limits would prevent most historical BGP incidents, and remain incompletely deployed.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The 2019 Verizon route leak was preventable by standard customer filtering that had not been applied. Security improvements requiring universal cooperation are the hardest kind to deploy, which is a pattern worth recognising.",
+  "tags": [
+    "rpki",
+    "route-leak",
+    "bgp-security"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

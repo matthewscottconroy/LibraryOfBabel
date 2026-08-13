@@ -1,0 +1,22 @@
+{
+  "question_id": "36312b1e-a0de-4f4f-a15b-70289e452355",
+  "chapter": 39,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An access point boots, gets an address, and then does nothing. What is the most likely missing DHCP option?",
+  "choices": [
+    "Option 6 (DNS)",
+    "Option 43 or 150 — vendor-specific information telling it where its controller or configuration lives",
+    "Option 51 (lease time)",
+    "Option 15 (domain name)"
+  ],
+  "answer": 1,
+  "explanation": "The address is the least interesting thing DHCP delivers. Options 43, 60, 66, 67 and 150 are the ones people meet unexpectedly when deploying phones, access points and network-booting devices.",
+  "tags": [
+    "dhcp-options",
+    "option-43",
+    "provisioning"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

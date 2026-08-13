@@ -1,0 +1,22 @@
+{
+  "question_id": "8e28d675-7d42-44fa-ae43-4020afce6aca",
+  "chapter": 23,
+  "phase": 2,
+  "kind": "mc",
+  "text": "The DSCP field occupies part of which original IPv4 header byte?",
+  "choices": [
+    "Version and IHL",
+    "Type of Service",
+    "Flags",
+    "Time to Live"
+  ],
+  "answer": 1,
+  "explanation": "RFC 2474 redefined the vague Type of Service byte as the six-bit Differentiated Services Code Point plus two bits now used for ECN. All modern IP quality of service depends on it.",
+  "tags": [
+    "dscp",
+    "tos",
+    "qos"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

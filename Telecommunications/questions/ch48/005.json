@@ -1,0 +1,22 @@
+{
+  "question_id": "34544069-886f-4149-b347-4127ce418bfd",
+  "chapter": 48,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the minimum possible round-trip time to a geostationary satellite at 35,786 km?",
+  "choices": [
+    "119 ms",
+    "238 ms",
+    "477 ms",
+    "1 second"
+  ],
+  "answer": 2,
+  "explanation": "119 ms each way ground-to-satellite, doubled for satellite-to-ground, doubled again for the return: about 477 ms. It is the speed of light over 71,572 km and no operator will ever improve it — which is why LEO constellations fly two orders of magnitude lower.",
+  "tags": [
+    "satellite",
+    "geo",
+    "latency"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "97d2edda-6ff1-4548-a141-5e4df5f0aa19",
+  "chapter": 58,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the practical argument for least privilege?",
+  "choices": [
+    "Compliance requirements",
+    "Blast radius: an attacker who compromises a credential gets what that credential could do, and most catastrophic breaches are cases where the answer was 'anything, anywhere'",
+    "It reduces licence costs",
+    "It simplifies auditing"
+  ],
+  "answer": 1,
+  "explanation": "The difference between a contained incident and a catastrophe was decided years earlier by someone granting broad access because it was easier. Privilege creep is the practical enemy, and periodic access review is the unglamorous countermeasure.",
+  "tags": [
+    "least-privilege",
+    "blast-radius",
+    "authorization"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

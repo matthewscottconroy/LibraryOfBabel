@@ -1,0 +1,22 @@
+{
+  "question_id": "cea3b469-6bbd-4baa-9395-23918dae58b6",
+  "chapter": 43,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Stations A and C can both reach access point B but not each other. What problem is this and what is the mitigation?",
+  "choices": [
+    "Co-channel interference; change channel",
+    "The hidden node problem; RTS/CTS, since the CTS from B is audible to both",
+    "A roaming failure; enable 802.11r",
+    "A duplex mismatch; disable autonegotiation"
+  ],
+  "answer": 1,
+  "explanation": "Carrier sense fails because the relevant question is whether the medium is busy AT THE RECEIVER and the sender can only observe it at the sender. RTS/CTS costs two extra frames, which is why it is normally enabled only above a size threshold.",
+  "tags": [
+    "hidden-node",
+    "rts-cts",
+    "csma-ca"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

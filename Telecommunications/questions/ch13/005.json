@@ -1,0 +1,22 @@
+{
+  "question_id": "41b62ecc-7540-44d5-a11f-ac91e43bcb52",
+  "chapter": 13,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What are the four requirements of an internetwork?",
+  "choices": [
+    "Speed, reliability, security, cost",
+    "A universal address space, a device that joins networks, a lowest-common-denominator service, and a way for independent networks to exchange reachability",
+    "Switches, routers, firewalls, and load balancers",
+    "IPv4, IPv6, TCP, and UDP"
+  ],
+  "answer": 1,
+  "explanation": "Each maps to a chapter: IP addressing, the router, best-effort delivery, and BGP. The last is why the Internet has no off switch and no owner — reachability is exchanged bilaterally with no central authority.",
+  "tags": [
+    "internetwork",
+    "architecture",
+    "requirements"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

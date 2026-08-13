@@ -1,0 +1,20 @@
+{
+  "question_id": "77ea140b-4f42-4e87-b4fd-d0c88b55deb7",
+  "chapter": 46,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The Mirai botnet demonstrated that IoT devices inside a network perimeter are frequently its weakest component.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. In 2016 it assembled hundreds of thousands of cameras and recorders with unchangeable default credentials and generated attacks exceeding 1 Tb/s. The network-level answer is segmentation, and IoT is now the most common justification for microsegmentation in enterprise design.",
+  "tags": [
+    "mirai",
+    "iot-security",
+    "segmentation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

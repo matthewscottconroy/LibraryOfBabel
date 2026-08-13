@@ -1,0 +1,22 @@
+{
+  "question_id": "5e5fd0a0-1acf-4c2f-8696-f6d08efb6388",
+  "chapter": 43,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does Wi-Fi use collision avoidance rather than collision detection?",
+  "choices": [
+    "Avoidance is more efficient",
+    "A radio cannot listen while it transmits — its own signal at the antenna overwhelms anything else — so detection is physically unavailable",
+    "Detection requires a wired backbone",
+    "Standards bodies chose it arbitrarily"
+  ],
+  "answer": 1,
+  "explanation": "Because the sender cannot tell whether the frame arrived, every unicast frame is explicitly acknowledged at the MAC layer. That acknowledgement is a major overhead and is why Wi-Fi's efficiency is structurally lower than Ethernet's.",
+  "tags": [
+    "csma-ca",
+    "half-duplex",
+    "acknowledgement"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

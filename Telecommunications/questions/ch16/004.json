@@ -1,0 +1,22 @@
+{
+  "question_id": "01292590-903a-432a-8c8a-0334a75693e3",
+  "chapter": 16,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Compare store-and-forward with cut-through switching.",
+  "choices": [
+    "Cut-through is always better",
+    "Store-and-forward verifies the FCS before forwarding, adding one frame time of latency but never propagating corruption",
+    "Store-and-forward is required for VLANs",
+    "Cut-through cannot be used above 1 Gb/s"
+  ],
+  "answer": 1,
+  "explanation": "Cut-through forwards after reading the destination address, giving sub-microsecond latency, and will happily forward a frame that turns out to be corrupt. The choice is a latency-against-error-propagation trade, and low-latency trading fabrics make it differently from enterprise access switches.",
+  "tags": [
+    "store-and-forward",
+    "cut-through",
+    "latency"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

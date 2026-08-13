@@ -1,0 +1,22 @@
+{
+  "question_id": "639f10e7-5ef6-4029-9e1c-f308c6e86f32",
+  "chapter": 47,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Where do IP addresses come from?",
+  "choices": [
+    "ICANN allocates directly to end users",
+    "IANA allocates to five regional Internet registries, which allocate to local registries and end users under regionally-set policy",
+    "ISPs create them as needed",
+    "IETF assigns them by RFC"
+  ],
+  "answer": 1,
+  "explanation": "The delegation chain mirrors DNS's structure and for the same reasons. With the IPv4 free pool empty, allocations now come from transfer markets and reclaimed space, and WHOIS/RDAP records who holds what.",
+  "tags": [
+    "iana",
+    "rir",
+    "address-allocation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

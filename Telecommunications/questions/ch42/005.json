@@ -1,0 +1,20 @@
+{
+  "question_id": "e2e3a475-ef94-4163-9cbf-2150bfab9937",
+  "chapter": 42,
+  "phase": 3,
+  "kind": "tf",
+  "text": "The 6 GHz band contains no legacy devices at all, because only Wi-Fi 6E and 7 clients can use it.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and it mandates WPA3. Roughly 1,200 MHz of new unlicensed spectrum, uncrowded and free of legacy rate compatibility burdens — the most significant change to the wireless landscape in twenty years, limited chiefly by having the shortest range of the three bands.",
+  "tags": [
+    "6ghz",
+    "wifi-6e",
+    "spectrum"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

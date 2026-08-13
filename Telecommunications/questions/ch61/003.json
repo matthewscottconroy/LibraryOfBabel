@@ -1,0 +1,22 @@
+{
+  "question_id": "523b744e-71ca-480b-8b39-3b299b7a23a9",
+  "chapter": 61,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A memcached server reachable from the Internet offers what approximate amplification factor?",
+  "choices": [
+    "10x",
+    "54x",
+    "557x",
+    "Up to 51,000x"
+  ],
+  "answer": 3,
+  "explanation": "Which produced the 1.35 Tb/s attack on GitHub in February 2018. DNS gives roughly 28-54x and NTP monlist up to 557x. Every one of these attacks requires source address spoofing.",
+  "tags": [
+    "amplification",
+    "memcached",
+    "ddos"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "3f64bfc6-e52e-4701-ae87-d33b02d47e98",
+  "chapter": 34,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why must port numbers exist?",
+  "choices": [
+    "To identify the protocol version",
+    "A packet arriving at a machine running dozens of network programs is correctly delivered and completely ambiguous without one",
+    "For firewall rules",
+    "To support NAT"
+  ],
+  "answer": 1,
+  "explanation": "The IP header identifies the host and contains nothing that could distinguish one process from another. Sixteen bits in the transport header naming the endpoint solves this and nothing else — port 53 learned after feeling that problem is a number with somewhere to live.",
+  "tags": [
+    "ports",
+    "multiplexing",
+    "sockets"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

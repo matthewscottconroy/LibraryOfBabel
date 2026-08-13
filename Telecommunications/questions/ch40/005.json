@@ -1,0 +1,20 @@
+{
+  "question_id": "a2e5d769-aa75-4466-b9f2-d016f5a1f05a",
+  "chapter": 40,
+  "phase": 3,
+  "kind": "tf",
+  "text": "HTTP/3 uses port 443 over UDP rather than TCP.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. HTTP/3 is HTTP over QUIC, and QUIC runs on UDP. The port number is unchanged, which occasionally surprises people writing firewall rules who permit TCP 443 and find HTTP/3 blocked — clients then fall back to TCP, so the symptom is subtle.",
+  "tags": [
+    "http3",
+    "quic",
+    "udp"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "c10c2895-b19b-44bf-81a4-292fa36f05bd",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Wildman Whitehouse applied 2,000 volts to the 1858 Atlantic cable to push signals through faster. Why could this never have worked, even if the insulation had survived?",
+  "choices": [
+    "The cable's resistance was too high for any voltage to overcome",
+    "The limitation was intersymbol interference from the cable's capacitance, which more voltage makes taller rather than sharper",
+    "The receivers of the era could not detect signals above 1,000 volts",
+    "Seawater grounding dissipated any additional power applied"
+  ],
+  "answer": 1,
+  "explanation": "Thomson's law of squares described the real constraint: capacitance smears each pulse in time so successive pulses overlap. Raising the voltage scales the smeared pulse up without narrowing it, so the overlap is unchanged. The fix was a more sensitive receiver and a slower signalling rate, which is what Thomson supplied.",
+  "tags": [
+    "intersymbol-interference",
+    "attenuation",
+    "signal-integrity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

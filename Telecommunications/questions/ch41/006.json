@@ -1,0 +1,22 @@
+{
+  "question_id": "8a622fad-3c95-4493-9444-cfbd23acafd2",
+  "chapter": 41,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why must a link budget be compared against receiver sensitivity AT THE DESIRED DATA RATE?",
+  "choices": [
+    "Sensitivity does not vary",
+    "Sensitivity is far better for low modulations than for high ones, so a link that 'works' may be working at a twentieth of the expected rate",
+    "Data rate does not affect sensitivity",
+    "Only transmit power matters"
+  ],
+  "answer": 1,
+  "explanation": "Quoting a single sensitivity figure hides the fact that 4096-QAM needs perhaps 40 dB of SNR while BPSK needs a few. A link with adequate margin for the lowest rate and none for the highest is a link that connects and disappoints.",
+  "tags": [
+    "sensitivity",
+    "link-budget",
+    "modulation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

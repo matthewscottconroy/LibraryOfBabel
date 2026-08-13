@@ -1,0 +1,21 @@
+{
+  "question_id": "2ae61dc8-0e6f-4c0e-98b5-f4b63a061c98",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What actually distinguishes an analog signal from a digital one?",
+  "choices": [
+    "Analog signals are smooth waves; digital signals are square",
+    "Whether the set of meaningful values is continuous or discrete — a property of the agreement, not of the waveform",
+    "Analog signals carry voice; digital signals carry data",
+    "Digital signals are immune to noise"
+  ],
+  "answer": 1,
+  "explanation": "Every signal on every wire is a continuous physical quantity. What makes one digital is an agreement that only a discrete set of values is meaningful, which is what permits perfect regeneration rather than amplification of accumulated noise.",
+  "tags": [
+    "analog-digital",
+    "regeneration"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

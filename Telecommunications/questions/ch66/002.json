@@ -1,0 +1,22 @@
+{
+  "question_id": "6bb64bb3-17d9-4b13-8f99-4a06be626d39",
+  "chapter": 66,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In a leaf-spine fabric, how many hops separate any two servers?",
+  "choices": [
+    "One",
+    "Exactly two — up to a spine and down to a leaf",
+    "Three",
+    "It varies with rack position"
+  ],
+  "answer": 1,
+  "explanation": "Uniform, predictable latency regardless of which racks are involved. The fabric is routed rather than switched, with ECMP across every spine, so spanning tree does not run and no purchased capacity is idle.",
+  "tags": [
+    "leaf-spine",
+    "ecmp",
+    "topology"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

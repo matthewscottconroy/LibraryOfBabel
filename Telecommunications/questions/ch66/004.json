@@ -1,0 +1,22 @@
+{
+  "question_id": "e9ba15c9-d1d3-4f7b-b197-8ed0a370d50f",
+  "chapter": 66,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What did EVPN replace, and what is the parallel?",
+  "choices": [
+    "Spanning tree; the same as RSTP",
+    "Flood-and-learn; it is the distance-vector versus link-state argument again — learn by observation and flooding, or distribute knowledge explicitly",
+    "OSPF; the same as IS-IS",
+    "DHCP; the same as SLAAC"
+  ],
+  "answer": 1,
+  "explanation": "Explicit distribution wins for the same reasons: it scales, converges faster, and does not depend on flooding a network that is expensive to flood. BGP is now used inside data centres far more than between autonomous systems.",
+  "tags": [
+    "evpn",
+    "bgp",
+    "control-plane"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "556dc426-03f5-4ce6-96d0-b9e6934188e7",
+  "chapter": 69,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What does idempotence buy in declarative automation?",
+  "choices": [
+    "Faster execution",
+    "Running the tool twice changes nothing the second time, which makes it safe to run repeatedly and therefore safe to run continuously",
+    "Smaller configuration files",
+    "Vendor independence"
+  ],
+  "answer": 1,
+  "explanation": "An imperative script assumes a starting state; run it against a device where the object already exists and behaviour depends on the device. A declarative tool determines current state, computes the difference, and applies only what is needed.",
+  "tags": [
+    "idempotence",
+    "declarative",
+    "ansible"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

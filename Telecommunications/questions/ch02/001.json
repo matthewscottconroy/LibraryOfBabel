@@ -1,0 +1,22 @@
+{
+  "question_id": "f9542470-c7e8-47b7-9f5d-f52ca460abf9",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A 1 Gb/s Ethernet link carries maximum-size frames with 1,460-byte TCP payloads over IPv4. What is the approximate maximum goodput?",
+  "choices": [
+    "1,000 Mb/s",
+    "949 Mb/s",
+    "870 Mb/s",
+    "800 Mb/s"
+  ],
+  "answer": 1,
+  "explanation": "Each 1,460-byte payload rides inside 1,538 bytes on the wire once the interframe gap (12), preamble and SFD (8), Ethernet header (14), IP header (20), TCP header (20) and FCS (4) are counted. 1460/1538 = 0.9493, so 949 Mb/s. A gigabit link measuring ~940 Mb/s with iperf3 is a perfect link, not a degraded one.",
+  "tags": [
+    "goodput",
+    "overhead",
+    "efficiency"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

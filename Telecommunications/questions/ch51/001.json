@@ -1,0 +1,22 @@
+{
+  "question_id": "b4b1a35a-9f48-48ed-9fec-c5e97d72fb63",
+  "chapter": 51,
+  "phase": 4,
+  "kind": "mc",
+  "text": "State the single most important limitation of QoS.",
+  "choices": [
+    "It only works on Ethernet",
+    "It does not create bandwidth; it decides who suffers",
+    "It requires MPLS",
+    "It cannot prioritise voice"
+  ],
+  "answer": 1,
+  "explanation": "If a link is persistently oversubscribed, QoS lets you choose which traffic degrades. An engineer who deploys it to fix a link that is simply too small has bought a more sophisticated description of the same problem.",
+  "tags": [
+    "qos",
+    "prioritisation",
+    "capacity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

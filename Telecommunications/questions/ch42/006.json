@@ -1,0 +1,22 @@
+{
+  "question_id": "9a8c5e89-9786-4c27-91b3-0e6d3f97ceeb",
+  "chapter": 42,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A Wi-Fi analyser shows nothing on a channel and the link still performs badly. What should you reach for?",
+  "choices": [
+    "A cable tester",
+    "A spectrum analyser, which shows everything radiating rather than only Wi-Fi",
+    "A different access point",
+    "An OTDR"
+  ],
+  "answer": 1,
+  "explanation": "A microwave oven appears as a broad hump on a duty cycle synchronised to mains frequency; a video sender as a constant narrow carrier; a cordless phone as frequency hopping. A Wi-Fi analyser is blind to all of them.",
+  "tags": [
+    "spectrum-analyser",
+    "interference",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

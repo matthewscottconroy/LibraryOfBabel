@@ -1,0 +1,22 @@
+{
+  "question_id": "29ea70e4-429d-4c6c-b336-0f17ea30aec9",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A channel of bandwidth B can carry at most how many symbols per second without intersymbol interference?",
+  "choices": [
+    "B",
+    "2B",
+    "B log2(M)",
+    "B/2"
+  ],
+  "answer": 1,
+  "explanation": "Nyquist's 1924 result: the maximum symbol rate is 2B baud. A channel passing frequencies up to B cannot produce transitions faster than a sinusoid at B, and one cycle contains two independent excursions. Combined with bits-per-symbol, this gives C = 2B log2(M) — correct but incomplete, since it places no limit on M.",
+  "tags": [
+    "nyquist",
+    "symbol-rate",
+    "bandwidth"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

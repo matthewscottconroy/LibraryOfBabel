@@ -1,0 +1,22 @@
+{
+  "question_id": "5047c0ec-ef9e-4af6-a794-d1be91d73b50",
+  "chapter": 29,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Administrative distance arbitrates between what?",
+  "choices": [
+    "Routes within one protocol",
+    "Different route sources — static beats OSPF beats RIP",
+    "Interfaces on the same router",
+    "Packets of different priority"
+  ],
+  "answer": 1,
+  "explanation": "Administrative distance chooses between protocols; metric chooses between routes within one protocol. Metrics from different protocols are not comparable at all, since OSPF cost and RIP hop count measure different things in different units.",
+  "tags": [
+    "administrative-distance",
+    "metric",
+    "route-selection"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

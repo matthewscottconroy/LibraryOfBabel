@@ -1,0 +1,22 @@
+{
+  "question_id": "a67d3891-e4ff-45c6-8a78-0dc95a3491c5",
+  "chapter": 34,
+  "phase": 3,
+  "kind": "mc",
+  "text": "A service listens on 127.0.0.1:5432 rather than 0.0.0.0:5432. What is the difference?",
+  "choices": [
+    "None — they are equivalent",
+    "Loopback-only means it is unreachable from the network entirely; 0.0.0.0 means reachable from any interface",
+    "127.0.0.1 is faster",
+    "0.0.0.0 is IPv6 only"
+  ],
+  "answer": 1,
+  "explanation": "That single line of `ss` output is the difference between an exposed database and a safe one, and it is visible nowhere else. Reading listening sockets is a troubleshooting skill and a security review skill simultaneously.",
+  "tags": [
+    "listening-sockets",
+    "exposure",
+    "ss"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

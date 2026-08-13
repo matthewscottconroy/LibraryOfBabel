@@ -1,0 +1,20 @@
+{
+  "question_id": "d258f2b2-f4c6-4bc6-89c3-e7e35c05e449",
+  "chapter": 38,
+  "phase": 3,
+  "kind": "tf",
+  "text": "Lowering a record's TTL after publishing a wrong record shortens the time until the fix reaches everyone.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "False. Resolvers already hold the record with the old, long TTL and will not re-query until it expires. The professional habit is to lower TTLs several days BEFORE a planned change and restore them afterwards.",
+  "tags": [
+    "ttl",
+    "dns",
+    "change-management"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

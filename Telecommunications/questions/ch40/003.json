@@ -1,0 +1,22 @@
+{
+  "question_id": "ec6e0e2a-9441-4373-9de9-b1ee0df7c540",
+  "chapter": 40,
+  "phase": 3,
+  "kind": "mc",
+  "text": "SIP and RTP take different paths and use different transports. Why?",
+  "choices": [
+    "Historical accident",
+    "Signalling wants reliability; media wants timeliness, and a late voice packet is useless — so they have different requirements",
+    "To avoid firewall rules",
+    "To support encryption"
+  ],
+  "answer": 1,
+  "explanation": "This is exactly the separation SS7 introduced in the 1970s, replayed. The engineers who designed SIP knew what they were reimplementing.",
+  "tags": [
+    "sip",
+    "rtp",
+    "signalling"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "9ead1cdf-674a-485b-971b-e3057d31eb88",
+  "chapter": 63,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is dig strongly preferred over nslookup?",
+  "choices": [
+    "It is faster",
+    "It shows the actual DNS response — flags, authority section, TTL, and which server answered — while nslookup shows a summary and hides exactly what you need",
+    "nslookup is deprecated",
+    "dig supports IPv6"
+  ],
+  "answer": 1,
+  "explanation": "dig +trace walks the delegation from the root, which is the tool that distinguishes a broken delegation from a broken record.",
+  "tags": [
+    "dig",
+    "nslookup",
+    "dns"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

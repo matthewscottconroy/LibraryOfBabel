@@ -1,0 +1,20 @@
+{
+  "question_id": "f6f7d644-8651-4cd8-858b-b8f22190e930",
+  "chapter": 67,
+  "phase": 5,
+  "kind": "tf",
+  "text": "The genuinely valuable part of intent-based networking is continuous verification that the network does what the policy says.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True — that addresses configuration drift directly and is a real capability. The overstated part is automatic translation from natural-language business intent to correct configuration; current systems work within constrained domains with well-defined primitives.",
+  "tags": [
+    "intent-based-networking",
+    "verification",
+    "drift"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

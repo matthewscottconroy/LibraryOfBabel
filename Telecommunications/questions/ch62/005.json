@@ -1,0 +1,20 @@
+{
+  "question_id": "7032c964-a220-4b70-8abb-8cc600c4d0bc",
+  "chapter": 62,
+  "phase": 5,
+  "kind": "tf",
+  "text": "The most valuable field in an incident record is what made the problem hard to find, and it is the field almost no template includes.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. It is the field that generates an improvement — a missing alert, an out-of-date diagram, an undocumented dependency. A record saying 'restarted the service, resolved' is worthless.",
+  "tags": [
+    "documentation",
+    "incident-record",
+    "learning"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

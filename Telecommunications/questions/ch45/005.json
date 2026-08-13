@@ -1,0 +1,20 @@
+{
+  "question_id": "cf788003-234a-48e5-a4e4-d31fe90624a0",
+  "chapter": 45,
+  "phase": 3,
+  "kind": "tf",
+  "text": "4G removed the circuit-switched voice core entirely, making voice an application over IP.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. VoLTE is voice as an application, exactly like everything else. After a century, the telephone network became an application running on a packet network — convergence completed for mobile.",
+  "tags": [
+    "lte",
+    "volte",
+    "convergence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

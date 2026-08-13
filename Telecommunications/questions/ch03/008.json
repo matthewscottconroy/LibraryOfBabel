@@ -1,0 +1,22 @@
+{
+  "question_id": "1bcef0f1-4428-4eb9-a05e-2ac36dbf2a33",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A vendor claims a 2x2 802.11ax access point delivers 'up to 1.2 Gb/s', and a customer measures 340 Mb/s from a laptop 4 m away. What is the most likely explanation?",
+  "choices": [
+    "The access point is faulty and should be replaced",
+    "The advertised figure is a PHY rate at ideal SNR with maximum streams and channel width, before protocol overhead and half-duplex operation",
+    "The laptop's Ethernet driver is misconfigured",
+    "Interference from a neighbouring network"
+  ],
+  "answer": 1,
+  "explanation": "Advertised wireless rates are physical-layer rates under ideal conditions. Real throughput is typically 40-60% of the PHY rate at good signal, before accounting for the client's stream count, the negotiated channel width, guard interval, MAC acknowledgement overhead and the fact that Wi-Fi is half duplex. 340 Mb/s is unremarkable, not defective.",
+  "tags": [
+    "phy-rate",
+    "throughput",
+    "wireless"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

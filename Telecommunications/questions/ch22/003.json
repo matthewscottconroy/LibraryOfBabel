@@ -1,0 +1,22 @@
+{
+  "question_id": "2155c7d2-4c58-450e-a59f-8d387e0b74f7",
+  "chapter": 22,
+  "phase": 1,
+  "kind": "mc",
+  "text": "State the end-to-end argument.",
+  "choices": [
+    "All functions should be implemented in the network",
+    "A function should be implemented at the endpoints, and placed in the network only as a justifiable performance optimisation",
+    "Encryption belongs at the network layer",
+    "Reliability requires acknowledgements at every hop"
+  ],
+  "answer": 1,
+  "explanation": "Saltzer, Reed and Clark's 1981 paper. Reliable file transfer requires end-to-end verification regardless of what the network guarantees, since the disk or the application may fail — so the network's version is redundant for correctness and justified only if it makes things faster.",
+  "tags": [
+    "end-to-end",
+    "architecture",
+    "saltzer"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

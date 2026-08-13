@@ -1,0 +1,20 @@
+{
+  "question_id": "884d2a6d-a0fa-4019-92df-3f4c510e0f68",
+  "chapter": 25,
+  "phase": 2,
+  "kind": "tf",
+  "text": "CIDR was introduced in 1993 in response to an emergency: the routing table was growing faster than router memory and Class B space was nearly exhausted.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. CIDR addressed both at once — allocation on any bit boundary stopped the waste of giving a Class B to an organisation needing 300 addresses, and aggregation held the routing table down. It bought roughly a decade; NAT bought the rest.",
+  "tags": [
+    "cidr",
+    "exhaustion",
+    "history"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

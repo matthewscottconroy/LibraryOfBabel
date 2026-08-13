@@ -1,0 +1,22 @@
+{
+  "question_id": "2f440a1f-2c88-48fe-96f6-b01ead86e728",
+  "chapter": 25,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why does RFC 3021 permit /31 on point-to-point links?",
+  "choices": [
+    "To save router memory",
+    "There is exactly one possible recipient, so no broadcast address is needed and both addresses are usable",
+    "Because /30 is deprecated",
+    "To support IPv6 transition"
+  ],
+  "answer": 1,
+  "explanation": "The usual -2 removes the network and broadcast addresses, which would leave a /31 with zero usable hosts. On a link with one peer, broadcast is meaningless. Using /31 instead of /30 halves the address consumption of router interconnects across a large network.",
+  "tags": [
+    "rfc-3021",
+    "point-to-point",
+    "subnetting"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

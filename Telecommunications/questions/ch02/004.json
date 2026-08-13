@@ -1,0 +1,22 @@
+{
+  "question_id": "786f8631-5cdf-4d1e-995d-a7956240ab02",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which latency component is the ONLY one that grows with offered load?",
+  "choices": [
+    "Propagation",
+    "Transmission",
+    "Processing",
+    "Queueing"
+  ],
+  "answer": 3,
+  "explanation": "Propagation depends on distance and medium; transmission on packet size and link rate; processing on the device's work per packet. Only queueing depends on other people's traffic, and it grows non-linearly — as rho/(1-rho) — which is why raising utilisation from 50% to 90% multiplies queueing delay ninefold.",
+  "tags": [
+    "latency-components",
+    "queueing",
+    "utilisation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

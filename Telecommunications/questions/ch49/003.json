@@ -1,0 +1,22 @@
+{
+  "question_id": "9f4f82da-a288-4919-bfeb-f37af6a04a90",
+  "chapter": 49,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Coherent detection with DSP transformed long-haul economics. Why?",
+  "choices": [
+    "It increased transmit power",
+    "Chromatic dispersion could be compensated electronically in the receiver rather than optically in the line, so existing routes could be upgraded by replacing only the terminal equipment",
+    "It eliminated the need for amplifiers",
+    "It reduced fibre attenuation"
+  ],
+  "answer": 1,
+  "explanation": "Recovering phase as well as amplitude also permits QAM constellations at optical frequencies. It is a direct instance of a medium's properties being a function of the current manufacturing art.",
+  "tags": [
+    "coherent-detection",
+    "dsp",
+    "dwdm"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

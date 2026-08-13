@@ -1,0 +1,22 @@
+{
+  "question_id": "274adbbe-d5b8-46f5-a2de-de23f825c612",
+  "chapter": 46,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is the key difference between Zigbee and Thread, given that both use 802.15.4 radios?",
+  "choices": [
+    "Thread is faster",
+    "Thread carries IPv6 directly over 6LoWPAN, making every device a routable IP node; Zigbee defined its own application layer",
+    "Zigbee supports mesh and Thread does not",
+    "Thread is proprietary"
+  ],
+  "answer": 1,
+  "explanation": "Zigbee devices from different vendors frequently could not interoperate despite sharing a radio, which is the lesson that standardising the radio is insufficient. Matter is the application layer built on top of Thread, Wi-Fi and Ethernet to fix exactly that.",
+  "tags": [
+    "thread",
+    "zigbee",
+    "matter"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

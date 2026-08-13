@@ -1,0 +1,22 @@
+{
+  "question_id": "f6ea5322-8cbf-42e4-9c74-566c81815a2a",
+  "chapter": 43,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Where did Wi-Fi's rate improvements from 2 Mb/s to 46 Gb/s come from?",
+  "choices": [
+    "Faster processors alone",
+    "Wider channels, denser modulation, more spatial streams, and less overhead — only spatial streams being a fundamentally new physical idea",
+    "New spectrum only",
+    "Better error correction only"
+  ],
+  "answer": 1,
+  "explanation": "Wider channels and denser modulation are Shannon's curve applied; less overhead is protocol engineering. MIMO is the genuinely new idea, and it is not on Shannon's single-channel curve at all because each stream is effectively a separate channel.",
+  "tags": [
+    "wifi",
+    "mimo",
+    "capacity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

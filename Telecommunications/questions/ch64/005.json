@@ -1,0 +1,20 @@
+{
+  "question_id": "2267f5e4-da6d-475b-a855-b0b594412532",
+  "chapter": 64,
+  "phase": 5,
+  "kind": "tf",
+  "text": "A native VLAN mismatch on a trunk produces no error, merely connectivity that should not exist.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and that is worse than an outage because nobody notices. Two broadcast domains are silently merged. The four common VLAN faults — wrong access VLAN, native mismatch, missing from the allowed list, and missing routing — each produce a distinct partial symptom.",
+  "tags": [
+    "native-vlan",
+    "vlan",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

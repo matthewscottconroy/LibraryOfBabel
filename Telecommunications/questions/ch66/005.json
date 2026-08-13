@@ -1,0 +1,20 @@
+{
+  "question_id": "c690d741-8fa4-4136-9f2f-8e7dea5ceadf",
+  "chapter": 66,
+  "phase": 5,
+  "kind": "tf",
+  "text": "In a well-consolidated data centre, a substantial fraction of all switching happens in software inside hypervisors, on devices the network team may not administer or monitor.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Virtual switches forward between VMs on the same host without any frame reaching a physical wire. This is a genuine visibility gap and one of the arguments for microsegmentation enforced at the hypervisor.",
+  "tags": [
+    "virtual-switch",
+    "visibility",
+    "hypervisor"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

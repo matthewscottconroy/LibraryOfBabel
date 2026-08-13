@@ -1,0 +1,20 @@
+{
+  "question_id": "f25a3de2-6b66-4c62-abe4-5551621b81d5",
+  "chapter": 22,
+  "phase": 1,
+  "kind": "tf",
+  "text": "NAT, deep packet inspection and transparent proxies are controversial because they violate the principle that made the architecture extensible.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Each narrows the set of applications that can be invented without permission, which is not an aesthetic objection but a structural one. QUIC encrypts its transport metadata specifically to prevent middleboxes from ossifying it further.",
+  "tags": [
+    "end-to-end",
+    "nat",
+    "middleboxes"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

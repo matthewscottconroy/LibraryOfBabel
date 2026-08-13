@@ -1,0 +1,22 @@
+{
+  "question_id": "35ca3afa-96fe-49b7-8136-fad166493201",
+  "chapter": 16,
+  "phase": 1,
+  "kind": "mc",
+  "text": "State the switch algorithm.",
+  "choices": [
+    "Forward every frame to every port",
+    "Learn the source address against the ingress port; forward by destination if known; flood if not",
+    "Consult a routing table for each frame",
+    "Broadcast until an acknowledgement returns"
+  ],
+  "answer": 1,
+  "explanation": "Learn from the source, forward by the destination, flood when you do not know. Three sentences, and everything else in enterprise switching — spanning tree, VLANs, port security — is elaboration on them.",
+  "tags": [
+    "switching",
+    "mac-table",
+    "flooding"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

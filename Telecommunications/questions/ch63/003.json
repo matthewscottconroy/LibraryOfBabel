@@ -1,0 +1,22 @@
+{
+  "question_id": "0198fd61-4ad1-4ab5-adc9-2900dd9cdf96",
+  "chapter": 63,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What does a packet capture provide that no other tool does?",
+  "choices": [
+    "Historical trend data",
+    "Ground truth — what actually crossed the wire, against which every claim can be checked",
+    "Automated alerting",
+    "Configuration backup"
+  ],
+  "answer": 1,
+  "explanation": "'The server never received the request' and 'the server received it and did not reply' are different problems with different owners, and a capture distinguishes them in seconds where a discussion can consume a day.",
+  "tags": [
+    "packet-capture",
+    "tcpdump",
+    "wireshark"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "e45767a5-4ef8-48ec-aa6f-b84e730b04cf",
+  "chapter": 32,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why can IPsec AH not traverse NAT at all?",
+  "choices": [
+    "It uses a reserved port",
+    "AH authenticates the outer IP header, which is exactly what NAT modifies",
+    "It is encrypted",
+    "NAT devices block IP protocol 51"
+  ],
+  "answer": 1,
+  "explanation": "The authentication check fails by construction. ESP, which protects the payload rather than the outer header, works — and NAT-T encapsulates it in UDP 4500 because many NAT devices cannot track IP protocol 50 either.",
+  "tags": [
+    "ipsec",
+    "ah",
+    "nat-traversal"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

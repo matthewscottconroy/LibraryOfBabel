@@ -1,0 +1,19 @@
+{
+  "question_id": "3b3bf4cd-b6c2-4447-845d-a7667f0538ab",
+  "chapter": 49,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Roughly 99% of intercontinental data traffic travels over submarine cables rather than satellites.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True — satellites carry a small fraction of a percent. The Internet is a set of glass fibres on the ocean floor, and the maps are public and worth looking at.",
+  "tags": [
+    "submarine-cables",
+    "internet-infrastructure"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "7993de12-bd67-4139-a529-c95c528a1f6d",
+  "chapter": 21,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which two OSI layers are largely vestigial in modern TCP/IP stacks?",
+  "choices": [
+    "1 and 2",
+    "3 and 4",
+    "5 and 6",
+    "6 and 7"
+  ],
+  "answer": 2,
+  "explanation": "Session and presentation functions were absorbed into applications and libraries. Their absence is not an oversight in your understanding; it is a known limitation of the map, and two of the seven layers were, in practice, wrong.",
+  "tags": [
+    "osi",
+    "session-layer",
+    "presentation-layer"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

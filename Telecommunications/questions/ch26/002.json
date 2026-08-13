@@ -1,0 +1,22 @@
+{
+  "question_id": "857b07d3-89a9-416b-a073-7cb82589828b",
+  "chapter": 26,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why is choosing an unusual slice of 10.0.0.0/8 worth money later?",
+  "choices": [
+    "It performs better",
+    "Overlapping private space after a merger has no clean solution except renumbering or double NAT",
+    "Unusual ranges are harder to attack",
+    "It reduces routing table size"
+  ],
+  "answer": 1,
+  "explanation": "10/8 is enormous and free, so people use it casually — and then merge with a company that did the same and discover both built on 10.1.0.0/16. The decision costs nothing today and is the sort of judgement a plan document should record along with its reasoning.",
+  "tags": [
+    "rfc-1918",
+    "merger",
+    "address-planning"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

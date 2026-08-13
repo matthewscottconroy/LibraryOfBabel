@@ -1,0 +1,22 @@
+{
+  "question_id": "20f90301-2340-48ef-b8ba-ad802945a7b5",
+  "chapter": 20,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Ethernet has a CRC, IP has a header checksum, TCP has a checksum, TLS has a MAC. What does this illustrate?",
+  "choices": [
+    "Excellent defence in depth",
+    "Duplicated function — a genuine cost of layering, which IPv6 addressed by removing the IP header checksum entirely",
+    "A design error in TCP",
+    "That checksums are unreliable"
+  ],
+  "answer": 1,
+  "explanation": "Four integrity mechanisms on the same bytes, because each layer was designed not to trust the others. The IPv6 designers concluded the IP header checksum was waste, since Layer 2 and Layer 4 both check anyway — a rare instance of a standards body removing something.",
+  "tags": [
+    "layering-cost",
+    "checksum",
+    "ipv6"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "d9ddf0ea-83b1-4ac9-881f-3d1bd50735d9",
+  "chapter": 58,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which second factor resists phishing structurally rather than merely making it harder?",
+  "choices": [
+    "SMS codes",
+    "Authenticator app codes",
+    "Hardware security keys using FIDO2/WebAuthn, because the key checks the origin",
+    "Email one-time links"
+  ],
+  "answer": 2,
+  "explanation": "A user cannot be tricked into authenticating to a lookalike site because the key simply will not respond to the wrong origin. SMS is defeated by SIM swapping and SS7 interception; app codes can be relayed by a convincing proxy.",
+  "tags": [
+    "mfa",
+    "fido2",
+    "phishing"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

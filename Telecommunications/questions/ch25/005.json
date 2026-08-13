@@ -1,0 +1,22 @@
+{
+  "question_id": "a0801209-8ebc-481d-b7fe-6fd034cbdf79",
+  "chapter": 25,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Can 198.51.100.0/24, 198.51.101.0/24, 198.51.102.0/24 and 198.51.103.0/24 be summarised into one prefix?",
+  "choices": [
+    "No — they are separate networks",
+    "Yes, as 198.51.100.0/22",
+    "Yes, as 198.51.100.0/23",
+    "Only with a routing protocol that supports it"
+  ],
+  "answer": 1,
+  "explanation": "The four are contiguous and aligned on a 4x /24 boundary, so 22 leading bits are common: 198.51.100.0/22. Aggregation requires both contiguity and alignment, which is why address plans must be designed for summarisation from the start.",
+  "tags": [
+    "summarisation",
+    "cidr",
+    "aggregation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

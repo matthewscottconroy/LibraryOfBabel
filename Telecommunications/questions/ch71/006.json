@@ -1,0 +1,22 @@
+{
+  "question_id": "b5a3d928-fda2-451c-afbe-5e01a9e09ba2",
+  "chapter": 71,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In the derivation order, what constrains capacity planning?",
+  "choices": [
+    "The budget alone",
+    "The traffic analysis, plus the utilisation headroom the queueing curve requires — targeting 60-70% peak rather than 95%",
+    "The vendor's port density",
+    "The number of users only"
+  ],
+  "answer": 1,
+  "explanation": "Each design stage constrains the next: sites and connectivity, then topology, then media, then capacity, then addressing, then segmentation, then services, then wireless, then security, then operations.",
+  "tags": [
+    "capacity-planning",
+    "design",
+    "queueing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

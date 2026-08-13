@@ -1,0 +1,22 @@
+{
+  "question_id": "309695b7-98f6-439f-a22e-25e8381e367c",
+  "chapter": 59,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Traffic works in one direction and is dropped in the other, and everything appears correctly configured. What should you suspect?",
+  "choices": [
+    "A duplex mismatch",
+    "Asymmetric routing breaking stateful inspection — the firewall must see both directions to maintain state",
+    "An MTU problem",
+    "A DNS misconfiguration"
+  ],
+  "answer": 1,
+  "explanation": "It is one of the most confusing faults in networking precisely because both the routing and the firewall policy are individually correct. The other classic stateful symptom is an idle SSH session dying after an hour, which is a connection-table timeout.",
+  "tags": [
+    "asymmetric-routing",
+    "stateful-firewall",
+    "diagnosis"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

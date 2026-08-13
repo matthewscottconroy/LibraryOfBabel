@@ -1,0 +1,22 @@
+{
+  "question_id": "6b377776-39a5-41a9-88ce-8cf8a51a213a",
+  "chapter": 11,
+  "phase": 1,
+  "kind": "mc",
+  "text": "SS7 moved call-setup signalling onto a separate packet network in the 1970s. What is the modern parallel?",
+  "choices": [
+    "BGP separating routing from forwarding",
+    "SIP carrying signalling while RTP carries media on a different path",
+    "TLS separating handshake from data",
+    "MPLS separating labels from addresses"
+  ],
+  "answer": 1,
+  "explanation": "SIP and RTP replicate exactly the separation SS7 introduced: control travels one way with reliability requirements, media travels another with timeliness requirements, and they use different transports for that reason. The engineers who designed SIP knew what they were reimplementing.",
+  "tags": [
+    "ss7",
+    "sip",
+    "signalling"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

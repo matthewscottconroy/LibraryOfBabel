@@ -1,0 +1,22 @@
+{
+  "question_id": "f9410f33-cc99-40cb-a705-0ee02c67bf72",
+  "chapter": 39,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Someone plugs a home router into the network backwards, so its LAN port faces the corporate network. What happens?",
+  "choices": [
+    "Nothing — the port will not link",
+    "Clients randomly receive addresses from the wrong subnet with the wrong gateway, depending on which server replied first",
+    "The switch shuts the port down automatically",
+    "All DHCP stops working"
+  ],
+  "answer": 1,
+  "explanation": "This is one of the purest examples of an intermittent, non-reproducible fault with a completely deterministic cause. DHCP snooping — designating trusted ports and dropping server messages from all others — is the mitigation.",
+  "tags": [
+    "rogue-dhcp",
+    "dhcp-snooping",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

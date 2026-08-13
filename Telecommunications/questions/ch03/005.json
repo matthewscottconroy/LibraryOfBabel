@@ -1,0 +1,22 @@
+{
+  "question_id": "f06206c4-6b37-4657-817b-4ed78d07ddf3",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why is the telephone network's DS0 exactly 64 kb/s?",
+  "choices": [
+    "It was chosen arbitrarily for administrative convenience",
+    "8,000 samples/s (Nyquist for a 3.4 kHz signal, with filter headroom) x 8 bits per sample",
+    "It is the maximum an analog local loop can carry",
+    "It matches the T1 rate divided by 24"
+  ],
+  "answer": 1,
+  "explanation": "Telephone speech is band-limited to about 3.4 kHz, so Nyquist requires at least 6.8 kHz sampling; 8 kHz was chosen to leave a transition band for realisable anti-aliasing filters. Eight bits per sample gives 8,000 x 8 = 64,000 b/s. The T1 rate is derived from the DS0, not the other way round.",
+  "tags": [
+    "nyquist-sampling",
+    "ds0",
+    "pcm"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "e510b24a-dd09-453f-a2a3-480a39edf176",
+  "chapter": 32,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What does NAT give up that Chapter 24 identified as valuable?",
+  "choices": [
+    "Addressing",
+    "Statelessness — the router must now remember every active translation",
+    "Longest-prefix match",
+    "Best-effort delivery"
+  ],
+  "answer": 1,
+  "explanation": "A device that loses its translation table breaks every connection through it simultaneously. This is why NAT and stateful firewall high-availability pairs must synchronise state, and why testing that synchronisation is a real operational requirement.",
+  "tags": [
+    "nat",
+    "state",
+    "high-availability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

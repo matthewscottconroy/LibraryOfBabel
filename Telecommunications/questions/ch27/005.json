@@ -1,0 +1,20 @@
+{
+  "question_id": "f222c71c-2603-43b2-80c7-3c21c9afa709",
+  "chapter": 27,
+  "phase": 2,
+  "kind": "tf",
+  "text": "SLAAC allows a host to configure a routable address with no server present at all.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. The host sends a Router Solicitation to ff02::2, a router replies with a Router Advertisement containing the /64 prefix, and the host generates its own interface identifier and verifies uniqueness with Duplicate Address Detection. No DHCP server, no lease database, no scope exhaustion.",
+  "tags": [
+    "slaac",
+    "ipv6",
+    "autoconfiguration"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

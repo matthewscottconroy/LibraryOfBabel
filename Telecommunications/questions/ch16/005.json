@@ -1,0 +1,20 @@
+{
+  "question_id": "c8a4e765-c0bf-4972-a2ff-404d3cee1561",
+  "chapter": 16,
+  "phase": 1,
+  "kind": "tf",
+  "text": "A switch reporting low average utilisation can still be dropping frames.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. Microbursts — brief periods at line rate — overflow egress buffers while a five-minute average shows a quiet link. Head-of-line blocking and shallow buffers produce the same result. Output drop counters, not utilisation graphs, reveal it.",
+  "tags": [
+    "microbursts",
+    "buffers",
+    "output-drops"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

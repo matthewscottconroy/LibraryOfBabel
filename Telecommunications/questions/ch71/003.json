@@ -1,0 +1,22 @@
+{
+  "question_id": "a049e4ac-9d42-4911-b13b-14dfd202af78",
+  "chapter": 71,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why must addressing, segmentation, routing and security be designed together?",
+  "choices": [
+    "To save time",
+    "An address plan ignoring routing produces a network that cannot summarise; a segmentation scheme designed after addressing produces VLANs whose subnets cannot be expressed as a sensible firewall policy",
+    "Regulatory requirement",
+    "They use the same tools"
+  ],
+  "answer": 1,
+  "explanation": "These are the mistakes that are cheap to avoid at design time and enormously expensive to correct later, and they are made constantly because the four are usually done by different people at different times.",
+  "tags": [
+    "design",
+    "addressing",
+    "segmentation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

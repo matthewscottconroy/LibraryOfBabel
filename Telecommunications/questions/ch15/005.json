@@ -1,0 +1,19 @@
+{
+  "question_id": "4200978c-9a0d-4304-812e-6980753d3918",
+  "chapter": 15,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Autonegotiation has been reliable for two decades, and hard-coding one end of a link is a common cause of duplex mismatch rather than a cure for it.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True. When one end is hard-coded, the autonegotiating end receives no negotiation partner and falls back to half duplex by the standard's rules. Both administrators believe they configured correctly and the link comes up. Let both ends negotiate.",
+  "tags": [
+    "autonegotiation",
+    "duplex-mismatch"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

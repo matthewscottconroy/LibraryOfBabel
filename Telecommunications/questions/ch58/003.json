@@ -1,0 +1,22 @@
+{
+  "question_id": "a3572e82-2de1-48b5-ac48-6adddc8a38b1",
+  "chapter": 58,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is MAC authentication bypass not a security control?",
+  "choices": [
+    "It is too slow",
+    "MAC addresses are trivially spoofed, so MAB is an inventory control rather than a security one",
+    "It requires a certificate",
+    "It only works on wireless"
+  ],
+  "answer": 1,
+  "explanation": "It exists because printers, cameras and building controllers cannot do 802.1X. Deploying it is often unavoidable; describing it as security is not.",
+  "tags": [
+    "mab",
+    "802.1x",
+    "nac"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

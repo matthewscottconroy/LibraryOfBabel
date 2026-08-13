@@ -1,0 +1,22 @@
+{
+  "question_id": "9a820397-3a71-4117-851f-982e0dd8b0d1",
+  "chapter": 66,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What traffic shift made three-tier data centre designs unsuitable?",
+  "choices": [
+    "An increase in total volume",
+    "North-south to east-west: one user request now triggers dozens of internal service calls, so server-to-server traffic dwarfs traffic to users",
+    "The move to IPv6",
+    "Increased use of encryption"
+  ],
+  "answer": 1,
+  "explanation": "Two servers in adjacent racks had to traverse access, distribution and core — three hops up and three down — while spanning tree blocked half the available links. The topology was optimised for a pattern that no longer existed.",
+  "tags": [
+    "east-west",
+    "leaf-spine",
+    "data-centre"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

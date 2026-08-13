@@ -1,0 +1,22 @@
+{
+  "question_id": "47beef8f-b714-4f50-b675-b68be72a9378",
+  "chapter": 16,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A MAC table entry ages out after 300 seconds of silence. What is the consequence for a device that has been quiet?",
+  "choices": [
+    "It becomes unreachable",
+    "Frames for it are flooded until it next transmits",
+    "Its VLAN assignment is lost",
+    "Its ARP cache is cleared"
+  ],
+  "answer": 1,
+  "explanation": "Ageing means a silent device is forgotten and frames addressed to it are flooded to every port until it speaks again. This is normally harmless and is occasionally the explanation for a puzzling traffic pattern or an unexpected security exposure.",
+  "tags": [
+    "mac-ageing",
+    "flooding",
+    "switching"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "10f98e77-1e4e-4cc4-8e96-0044af6722c0",
+  "chapter": 21,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Ping by address succeeds; ping by name fails. How many OSI layers does this single observation exonerate?",
+  "choices": [
+    "Two",
+    "Four",
+    "Six",
+    "None"
+  ],
+  "answer": 2,
+  "explanation": "Layers 1 through 6 are demonstrably working — the packet reached the destination and returned. The fault is name resolution at Layer 7. One test, six layers eliminated. This bisection is the model's lasting value and the reason it outlived its protocols.",
+  "tags": [
+    "osi",
+    "diagnosis",
+    "bisection"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

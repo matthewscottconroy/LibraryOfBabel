@@ -1,0 +1,21 @@
+{
+  "question_id": "08830c1a-8ed1-4cc9-b31f-dad3624efdcd",
+  "chapter": 53,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is 'is the network slow?' unanswerable without a baseline?",
+  "choices": [
+    "Monitoring tools are unreliable",
+    "The question is comparative and there is nothing to compare against — slow relative to what?",
+    "Users exaggerate",
+    "Latency varies naturally"
+  ],
+  "answer": 1,
+  "explanation": "The baseline must be collected before you need it, during the period when everything is fine and nobody is asking. The value is in the shape over time, not the absolute figures.",
+  "tags": [
+    "baseline",
+    "monitoring"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

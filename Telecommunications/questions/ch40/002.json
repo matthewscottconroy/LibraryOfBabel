@@ -1,0 +1,22 @@
+{
+  "question_id": "ec7710f9-8b00-4c23-a75f-9ccbc5d23123",
+  "chapter": 40,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Clock skew of several minutes is causing failures. Name three things it breaks that do not look like clock problems.",
+  "choices": [
+    "DNS, DHCP and ARP",
+    "Kerberos ticket validation, TLS certificate validity checks, and multi-factor authentication codes",
+    "Routing, switching and NAT",
+    "Only logging"
+  ],
+  "answer": 1,
+  "explanation": "Log correlation becomes impossible too, which matters precisely when you are investigating. This is why NTP deserves more respect than it gets and why a time source is infrastructure rather than a nicety.",
+  "tags": [
+    "ntp",
+    "clock-skew",
+    "kerberos"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "750714dd-6e87-46fb-948a-08e6c749c32c",
+  "chapter": 19,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is a VLAN, stated precisely?",
+  "choices": [
+    "A group of ports with the same speed",
+    "A broadcast domain, so traffic between VLANs must be routed",
+    "A security policy applied to a switch",
+    "A virtual cable between two switches"
+  ],
+  "answer": 1,
+  "explanation": "Creating a VLAN creates a broadcast domain, and traffic between VLANs must be routed exactly as if they were physically separate networks — because logically they are. Failing to internalise this produces the most common VLAN misconfiguration: VLANs created, ports assigned, and no routing configured.",
+  "tags": [
+    "vlan",
+    "broadcast-domain",
+    "inter-vlan-routing"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

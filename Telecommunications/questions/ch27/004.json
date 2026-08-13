@@ -1,0 +1,22 @@
+{
+  "question_id": "ad0306cf-3c54-4637-b65d-585af97df2ef",
+  "chapter": 27,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Give the structural reason IPv6 deployment has taken thirty years.",
+  "choices": [
+    "The protocol is badly designed",
+    "It is not backwards compatible, so adopting it alone reaches nothing new; NAT relieved the pressure; and the waist of the hourglass is the hardest thing to change",
+    "Vendors refused to implement it",
+    "IPv4 addresses have not actually run out"
+  ],
+  "answer": 1,
+  "explanation": "There was never a moment when adopting IPv6 alone let you reach anything you could not already reach, so you had to run both — more work, no immediate benefit. A problem made survivable is a problem that does not get solved.",
+  "tags": [
+    "ipv6",
+    "transition",
+    "incentives"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

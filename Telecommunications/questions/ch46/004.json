@@ -1,0 +1,22 @@
+{
+  "question_id": "2506d00d-1e4b-4740-b6a3-3c3384201158",
+  "chapter": 46,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why is LoRaWAN's duty-cycle regulation a hard design constraint?",
+  "choices": [
+    "It limits the number of gateways",
+    "In Europe a device may transmit only 1% of the time in the 868 MHz band, which bounds how much any device can ever say",
+    "It restricts the modulation used",
+    "It requires operator licensing"
+  ],
+  "answer": 1,
+  "explanation": "The constraint is regulatory rather than technical and it shapes application design: a sensor cannot simply increase its reporting rate when something interesting happens. NB-IoT, in licensed spectrum, has no such limit but requires a subscription.",
+  "tags": [
+    "lorawan",
+    "duty-cycle",
+    "regulation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

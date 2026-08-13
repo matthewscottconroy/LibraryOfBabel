@@ -1,0 +1,22 @@
+{
+  "question_id": "07457664-b329-4298-a206-1f1d3b958c7a",
+  "chapter": 51,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Where in a network does QoS matter?",
+  "choices": [
+    "Everywhere, uniformly",
+    "Where congestion actually occurs — typically a WAN edge, and almost nowhere inside a non-blocking data centre fabric",
+    "Only at the core",
+    "Only on wireless links"
+  ],
+  "answer": 1,
+  "explanation": "Deploying it where the bottleneck is not adds configuration complexity for no benefit. On a 20 Mb/s branch circuit carrying voice it is essential.",
+  "tags": [
+    "qos",
+    "design",
+    "congestion"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

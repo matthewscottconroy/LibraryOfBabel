@@ -1,0 +1,22 @@
+{
+  "question_id": "ad16bbbb-7c21-45cb-9325-716ea938845c",
+  "chapter": 60,
+  "phase": 4,
+  "kind": "mc",
+  "text": "WireGuard has no cryptographic agility — one cipher suite, no negotiation. Why is that a design strength?",
+  "choices": [
+    "It is faster to implement",
+    "Nothing to downgrade and nothing to misconfigure: configurability is an attack surface, and every negotiable parameter can be negotiated badly",
+    "It reduces licensing cost",
+    "It simplifies key management"
+  ],
+  "answer": 1,
+  "explanation": "About 4,000 lines of code against hundreds of thousands for IPsec/IKE — small enough to audit, and it has been. If a primitive is broken, the protocol version changes rather than the configuration.",
+  "tags": [
+    "wireguard",
+    "agility",
+    "protocol-design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "64388fd2-9f0a-45dd-af52-98d5ec7f4a7c",
+  "chapter": 59,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A false positive in an IDS generates an alert; a false positive in an IPS generates an outage.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "True, and that difference determines where each belongs and how aggressively each should be tuned. An IDS observes a copy of traffic; an IPS sits in the path and blocks.",
+  "tags": [
+    "ids",
+    "ips",
+    "deployment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

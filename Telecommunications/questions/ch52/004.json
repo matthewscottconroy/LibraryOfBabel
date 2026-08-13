@@ -1,0 +1,22 @@
+{
+  "question_id": "82558cf5-7307-4ddd-af75-58d9c5a55736",
+  "chapter": 52,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the test of a good runbook?",
+  "choices": [
+    "It is under two pages",
+    "Someone competent but unfamiliar can execute it at 03:00 without waking anyone",
+    "It has been reviewed by management",
+    "It covers every possible failure"
+  ],
+  "answer": 1,
+  "explanation": "Most runbooks fail that test because they were written by the person who already knew, who therefore omitted everything obvious to them. Write it DURING the first incident, while the gaps are visible.",
+  "tags": [
+    "runbook",
+    "operations",
+    "documentation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

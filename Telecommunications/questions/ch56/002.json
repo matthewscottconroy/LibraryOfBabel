@@ -1,0 +1,22 @@
+{
+  "question_id": "c708559d-f409-494c-bb23-fa41a6b0776a",
+  "chapter": 56,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is a checksum insufficient for integrity against an adversary?",
+  "choices": [
+    "Checksums are too short",
+    "Anyone who alters the data can recompute the checksum; a checksum detects accident, not intent",
+    "Checksums are optional",
+    "Checksums only cover the header"
+  ],
+  "answer": 1,
+  "explanation": "Integrity against intent requires a cryptographic MAC or signature keyed with a secret the adversary does not have. This is the difference between error detection and authentication, and confusing them produces real design errors.",
+  "tags": [
+    "integrity",
+    "mac",
+    "checksum"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

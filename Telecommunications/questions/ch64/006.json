@@ -1,0 +1,22 @@
+{
+  "question_id": "eb74bd1a-78c6-43ed-9e32-488a418c5347",
+  "chapter": 64,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which fibre fault is by a wide margin the most common?",
+  "choices": [
+    "A broken strand",
+    "A dirty or damaged connector",
+    "Bend radius violation",
+    "Wavelength mismatch"
+  ],
+  "answer": 1,
+  "explanation": "Which is why cleaning kits exist and why an optical power meter comparing received light against the loss budget is the standard diagnostic. Transmit/receive reversal is the other common and trivially fixed one.",
+  "tags": [
+    "fibre",
+    "connectors",
+    "diagnosis"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -35,6 +35,8 @@ $$\text{collisions appear after roughly } 2^{n/2} \text{ attempts for an } n\tex
 | **SHA-256** | 256 | $2^{128}$ — **infeasible** |
 | SHA-512, SHA-3 | 512 | more so |
 
+![The birthday bound computed: collision probability against hashes tried, for 128- and 160-bit digests. The curve is essentially zero and then essentially one — the transition sits at $2^{n/2}$, and moving from a 128-bit to a 160-bit digest buys five orders of magnitude, not a different shape.](../../figures/birthday_bound.svg){width=90%}
+
 ### MD5 and SHA-1 are broken
 
 And "broken" means specifically: collision resistance has failed.

@@ -70,6 +70,8 @@ $$\text{single-stream throughput} \le \frac{\text{window}}{\text{RTT}}$$
 A 64 KB window on an 80 ms path gives 6.6 Mb/s on a 10 Gb/s link. Adding bandwidth changes
 nothing.
 
+![The window/RTT ceiling for four window sizes, log–log. The 10 Gb/s link appears only as the grey line along the top; everywhere below it, throughput is set by the window and the round trip, which is why upgrading the circuit so often changes nothing.](../../figures/window_rtt.svg){width=90%}
+
 Loss, and the Mathis relationship (Chapter 38 §38.2):
 
 $$\text{throughput} \approx \frac{\mathrm{MSS} \times C}{\mathrm{RTT}\sqrt{p}}, \qquad C = \sqrt{3/2}$$

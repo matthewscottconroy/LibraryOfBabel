@@ -43,6 +43,8 @@ it is the answer.
 > age of the universe — and the energy required to run the counter alone exceeds what is
 > available.
 
+![Exhaustive key search at $10^{18}$ keys per second. The scale is logarithmic, so the straight line is exponential growth: DES's 56 bits fall in under a second, and 128 bits sit thirteen orders of magnitude above the age of the universe. Key length is the one place in security where a small number settles an argument.](../../figures/keyspace.svg){width=90%}
+
 **So why does AES-256 exist?** Two honest reasons and one poor one.
 
 **Quantum computing.** Grover's algorithm halves the effective key length (§58.4), so

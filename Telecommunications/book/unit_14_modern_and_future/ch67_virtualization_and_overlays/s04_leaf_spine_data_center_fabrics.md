@@ -59,6 +59,8 @@ Every leaf connects to every spine. Nothing connects leaf to leaf or spine to sp
 > 12.5% of the bisection bandwidth and nothing else — no failover, no reconvergence beyond
 > ECMP dropping a next hop, and no outage.
 
+![A four-spine fabric with the four equal-cost paths between two leaves drawn in colour. ECMP spreads flows across all of them simultaneously — the fabric has no standby links, and a spine failure subtracts a path instead of triggering a failover.](../../figures/leaf_spine.svg){width=95%}
+
 ## Routed to the leaf
 
 The critical design change, and it is what makes the rest possible.

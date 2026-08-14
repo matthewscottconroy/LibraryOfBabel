@@ -23,6 +23,8 @@ An organisation that reboots its firewalls quarterly for patching (Chapter 55 §
 already spent its annual budget several times over on planned work, before anything has
 failed.
 
+![The nines ladder on a log scale: each step divides the annual downtime budget by ten, and the dashed line marks where the budget stops being big enough for a human to respond — the boundary the section's cost table walks across.](../../figures/nines.svg){width=85%}
+
 And the honest response to "we need five nines" is a question: does the target exclude
 planned maintenance? If it does, it is a different and much weaker claim, and it should be
 stated as one — "99.999% excluding scheduled windows" is achievable and is not what the

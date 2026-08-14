@@ -709,9 +709,222 @@ def cell_reuse():
     f.save("cell_reuse.svg")
 
 
+# ========================================================================= #
+# 17. The availability ladder (Ch 56 §56.1)
+# ========================================================================= #
+def nines():
+    f = Fig(720, 440, margin=(58, 24, 46, 74))
+    f.ylog = True
+    f.xlim, f.ylim = (1.7, 6.3), (0.3, 1e6)
+    f.axes([2, 3, 4, 5, 6],
+           [1, 60, 1440, 10080, 525960 / 12, 525960],
+           xtick_labels=["99%", "99.9%", "99.99%", "99.999%", "99.9999%"],
+           ytick_labels=["1 min", "1 hour", "1 day", "1 week", "1 month",
+                         "1 year"],
+           xlabel="availability target",
+           ylabel="downtime budget per year",
+           title="Each nine divides the downtime budget by ten")
+    ns = np.array([2, 3, 4, 5, 6])
+    mins = 525960 * 10.0 ** (-ns.astype(float))  # minutes/year allowed down
+    f.path(ns, mins, color=BLUE, w=2.4)
+    labels = ["3.65 days", "8.76 hours", "52.6 min", "5.26 min", "31.6 sec"]
+    for n, m, lab in zip(ns, mins, labels):
+        f.dot(n, m, r=5, color=BLUE)
+        f.dtext(n + 0.06, m * 2.1, lab, size=13.5, anchor="start", weight="bold")
+    # the human/automation boundary the section argues for
+    f.dline(1.7, 43.2 * 12, 6.3, 43.2 * 12, color=RED, w=1.4, dash="6,5")
+    f.dtext(6.2, 43.2 * 12 * 2.4, "a person can be woken and log in",
+            size=13, color=RED, anchor="end")
+    f.dtext(6.2, 43.2 * 12 / 2.4, "only automation acts this fast",
+            size=13, color=RED, anchor="end")
+    f.save("nines.svg")
+
+
+# ========================================================================= #
+# 18. Percentiles beat averages (Ch 54 §54.1)
+# ========================================================================= #
+def latency_percentiles():
+    rng = np.random.default_rng(54)
+    # body: log-normal around ~18 ms; tail: a second, slower mode.
+    body = rng.lognormal(math.log(18), 0.32, 9500)
+    tail = rng.lognormal(math.log(240), 0.55, 500)
+    lat = np.concatenate([body, tail])
+
+    f = Fig(720, 420, margin=(58, 24, 46, 62))
+    f.xlog = True
+    f.xlim, f.ylim = (5, 2000), (0, 1.0)
+    # histogram in log-spaced bins, normalised to peak 1
+    edges = np.logspace(math.log10(5), math.log10(2000), 70)
+    hist, _ = np.histogram(lat, bins=edges)
+    hist = hist / hist.max()
+    f.axes([10, 30, 100, 300, 1000], [],
+           xtick_labels=["10 ms", "30 ms", "100 ms", "300 ms", "1 s"],
+           xlabel="response latency (log scale)",
+           ylabel="how often",
+           title="The mean hides the tail; the tail is the complaints")
+    for x0, x1, h in zip(edges[:-1], edges[1:], hist):
+        X0, X1 = f._tx(x0), f._tx(x1)
+        Y0, Y1 = f._ty(0), f._ty(float(h) * 0.92)
+        f.raw(f'<rect x="{X0:.1f}" y="{Y1:.1f}" width="{max(X1 - X0 - 0.6, 0.5):.1f}" '
+              f'height="{Y0 - Y1:.1f}" fill="{BLUE}" opacity="0.55"/>')
+    marks = [(float(np.percentile(lat, 50)), "p50", INK, 0.99),
+             (float(lat.mean()), "mean", TEAL, 0.90),
+             (float(np.percentile(lat, 95)), "p95", ORANGE, 0.99),
+             (float(np.percentile(lat, 99)), "p99", RED, 0.99)]
+    for x, lab, color, ytop in marks:
+        f.dline(x, 0, x, ytop - 0.06, color=color, w=1.8, dash="5,4")
+        f.dtext(x, ytop, f"{lab}: {x:.0f} ms", size=13.5, color=color,
+                weight="bold")
+    f.dtext(300, 0.55, "the mean has barely moved;", size=13.5, anchor="start")
+    f.dtext(300, 0.48, "every complaint lives here", size=13.5, anchor="start")
+    f.save("latency_percentiles.svg")
+
+
+# ========================================================================= #
+# 19. The birthday bound (Ch 58 §58.3)
+# ========================================================================= #
+def birthday_bound():
+    f = Fig(720, 420, margin=(58, 24, 46, 62))
+    f.xlog = True
+    f.xlim, f.ylim = (1e15, 1e29), (0, 1.05)
+    f.axes([1e15, 1e19, 1e23, 1e27], [0, 0.5, 1.0],
+           xtick_labels=["10¹⁵", "10¹⁹", "10²³", "10²⁷"],
+           xlabel="hashes computed (log scale)",
+           ylabel="probability of a collision",
+           title="Collisions arrive at 2ⁿᐟ², not 2ⁿ")
+    k = np.logspace(15, 29, 400)
+    for bits, color in ((128, RED), (160, BLUE)):
+        p = 1 - np.exp(-(k.astype(float) ** 2) / (2.0 * (2.0 ** bits)))
+        f.path(k, p, color=color, w=2.4)
+        half = 2.0 ** (bits / 2)
+        f.dline(half, 0, half, 0.393, color=color, w=1.2, dash="4,4")
+        f.dot(half, 0.393, r=4.5, color=color)
+    f.dtext(2.4e15, 0.97, "128-bit digest:", size=13.5, color=RED, anchor="start", weight="bold")
+    f.dtext(2.4e15, 0.90, "coin-flip odds at 2⁶⁴ tries", size=13.5, color=RED, anchor="start")
+    f.dtext(3.2e24, 0.30,
+            '160-bit: 50/50 at 2<tspan dy="-5" font-size="10">80</tspan>',
+            size=13.5, color=BLUE, anchor="start")
+    f.dtext(8e28, 0.06, "SHA-256's 2¹²⁸ is ten orders of magnitude past the right edge →",
+            size=13, anchor="end")
+    f.save("birthday_bound.svg")
+
+
+# ========================================================================= #
+# 20. Brute force vs key length (Ch 58 §58.1)
+# ========================================================================= #
+def keyspace():
+    f = Fig(720, 440, margin=(58, 24, 46, 80))
+    f.ylog = True
+    f.xlim, f.ylim = (40, 270), (1e-12, 1e60)
+    f.axes([56, 80, 112, 128, 192, 256],
+           [1e-9, 1, 3.2e7, 3.2e13],
+           xtick_labels=["56", "80", "112", "128", "192", "256"],
+           ytick_labels=["1 ns", "1 s", "1 year", "10⁶ years"],
+           xlabel="key length (bits)",
+           ylabel="time to try every key",
+           title="Exhaustive search at 10¹⁸ keys per second")
+    bits = np.linspace(40, 270, 200)
+    secs = 2.0 ** bits / 1e18
+    f.path(bits, secs, color=BLUE, w=2.4)
+    # reference line: the age of the universe (1.38e10 years = 4.4e17 s)
+    f.dline(40, 4.4e17, 270, 4.4e17, color=GRAY, w=1.2, dash="6,5")
+    f.dtext(42, 4.4e17 * 12, "the age of the universe", size=13, color=GRAY,
+            anchor="start")
+    pts = [(56, "DES — under a second here (1998's crack took 56 hours)"),
+           (80, "80-bit — ~38,000 years"),
+           (128, "AES-128 — 10¹³ years: 800× the age of the universe"),
+           (256, "AES-256 — 10⁵² years")]
+    for b, lab in pts:
+        s = 2.0 ** b / 1e18
+        f.dot(b, s, r=5, color=RED)
+        anchor = "start" if b < 200 else "end"
+        dx = 6 if b < 200 else -6
+        f.dtext(b + dx, s * 3e2 if b < 200 else s / 8e3, lab, size=13,
+                anchor=anchor, weight="bold" if b == 128 else "normal")
+    f.dtext(100, 2e-7, "each added bit doubles the work —", size=13.5,
+            anchor="start")
+    f.dtext(100, 2e-9, "the straight line is exponential growth on a log scale",
+            size=13.5, anchor="start")
+    f.save("keyspace.svg")
+
+
+# ========================================================================= #
+# 21. Leaf–spine: every path equal, every link forwarding (Ch 67 §67.4)
+# ========================================================================= #
+def leaf_spine():
+    f = Fig(720, 400, margin=(0, 0, 0, 0))
+    f.text(360, 34, "Four equal-cost paths, and a spine failure costs 25%, "
+           "not a failover", size=17.5, weight="bold")
+    spines = [(180 + i * 120, 100) for i in range(4)]
+    leaves = [(90 + i * 108, 280) for i in range(6)]
+    # all links, faint
+    for sx, sy in spines:
+        for lx, ly in leaves:
+            f.line(sx, sy + 22, lx, ly - 22, GRAY, 1.1, opacity=0.55)
+    # the four equal-cost paths leaf2 -> leaf5
+    src, dst = leaves[1], leaves[4]
+    for (sx, sy), color in zip(spines, (BLUE, TEAL, ORANGE, RED)):
+        f.line(src[0], src[1] - 22, sx, sy + 22, color, 2.6)
+        f.line(sx, sy + 22, dst[0], dst[1] - 22, color, 2.6)
+    for (x, y), name in zip(spines, ("spine 1", "spine 2", "spine 3", "spine 4")):
+        f.raw(f'<rect x="{x-46}" y="{y-22}" width="92" height="44" rx="6" '
+              f'fill="white" stroke="{INK}" stroke-width="1.6"/>')
+        f.text(x, y + 5, name, size=14.5, weight="bold")
+    for i, (x, y) in enumerate(leaves):
+        emph = i in (1, 4)
+        f.raw(f'<rect x="{x-40}" y="{y-22}" width="80" height="44" rx="6" '
+              f'fill="{"#eef3f8" if emph else "white"}" stroke="{INK}" '
+              f'stroke-width="{2.2 if emph else 1.6}"/>')
+        f.text(x, y + 5, f"leaf {i+1}", size=14.5,
+               weight="bold" if emph else "normal")
+    for (x, y) in (leaves[1], leaves[4]):
+        f.text(x, y + 44, "servers", size=13, color=GRAY)
+    f.text(360, 356, "ECMP hashes each flow onto one of the coloured paths — "
+           "all links forward, none stands by idle", size=14)
+    f.text(360, 378, "losing any one spine removes one path: capacity drops to 3/4 "
+           "and nothing else happens", size=14, color=RED)
+    f.save("leaf_spine.svg")
+
+
+# ========================================================================= #
+# 22. The window/RTT ceiling (Ch 66 §66.1)
+# ========================================================================= #
+def window_rtt():
+    f = Fig(720, 430, margin=(58, 24, 46, 66))
+    f.xlog = f.ylog = True
+    f.xlim, f.ylim = (1, 400), (1, 3e4)
+    f.axes([1, 10, 100], [1, 10, 100, 1000, 1e4],
+           xtick_labels=["1 ms", "10 ms", "100 ms"],
+           ytick_labels=["1", "10", "100", "1,000", "10,000"],
+           xlabel="round-trip time (log scale)",
+           ylabel="max single-stream throughput (Mb/s)",
+           title="Throughput ≤ window ÷ RTT — the link speed never appears")
+    rtt = np.logspace(0, math.log10(400), 300)  # ms
+    f.dline(1, 1e4, 400, 1e4, color=GRAY, w=1.6, dash="7,5")
+    f.dtext(1.25, 1.45e4, "the 10 Gb/s link itself", size=13, color=GRAY,
+            anchor="start")
+    for kb, color, lab in ((64, RED, "64 KB window"),
+                           (256, ORANGE, "256 KB"),
+                           (1024, TEAL, "1 MB"),
+                           (16384, BLUE, "16 MB")):
+        thr = np.minimum(kb * 1024 * 8 / (rtt / 1e3) / 1e6, 1e4)
+        f.path(rtt, thr, color=color, w=2.4)
+        y0 = min(kb * 1024 * 8 / (1.3 / 1e3) / 1e6, 1e4)
+        f.dtext(1.35, y0 * 0.62 if y0 < 1e4 else 6.2e3, lab, size=13.5,
+                color=color, anchor="start")
+    # the worked example from the text: 64 KB at 80 ms = 6.6 Mb/s
+    f.dot(80, 64 * 1024 * 8 / 0.08 / 1e6, r=5.5, color=RED)
+    f.dtext(72, 3.4, "the text's example: 64 KB at 80 ms", size=13.5,
+            anchor="end", weight="bold")
+    f.dtext(72, 2.1, "= 6.6 Mb/s on a 10 Gb/s link", size=13.5, anchor="end")
+    f.save("window_rtt.svg")
+
+
 ALL = [fourier_square, queueing_delay, shannon_capacity, constellations,
        eye_diagram, fiber_attenuation, ofdm_subcarriers, tcp_cwnd, mathis,
-       fspl, fresnel, erlang, aloha, mcs_ladder, bufferbloat, cell_reuse]
+       fspl, fresnel, erlang, aloha, mcs_ladder, bufferbloat, cell_reuse,
+       nines, latency_percentiles, birthday_bound, keyspace, leaf_spine,
+       window_rtt]
 
 if __name__ == "__main__":
     print(f"writing {len(ALL)} figures to {OUT}")

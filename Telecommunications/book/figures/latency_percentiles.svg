@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Georgia, 'Times New Roman', serif">
+<rect width="720" height="420" fill="white"/>
+<text x="379.0" y="32.0" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1a1a2e" text-anchor="middle" font-weight="bold" style="">The mean hides the tail; the tail is the complaints</text>
+<line x1="135.3" y1="374.0" x2="135.3" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="135.3" y1="374.0" x2="135.3" y2="379.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="135.3" y="396.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">10 ms</text>
+<line x1="251.6" y1="374.0" x2="251.6" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="251.6" y1="374.0" x2="251.6" y2="379.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="251.6" y="396.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">30 ms</text>
+<line x1="379.0" y1="374.0" x2="379.0" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="379.0" y1="374.0" x2="379.0" y2="379.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="379.0" y="396.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">100 ms</text>
+<line x1="495.3" y1="374.0" x2="495.3" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="495.3" y1="374.0" x2="495.3" y2="379.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="495.3" y="396.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">300 ms</text>
+<line x1="622.7" y1="374.0" x2="622.7" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="622.7" y1="374.0" x2="622.7" y2="379.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="622.7" y="396.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">1 s</text>
+<line x1="62.0" y1="374.0" x2="696.0" y2="374.0" stroke="#1a1a2e" stroke-width="1.5" opacity="1.0"/>
+<line x1="62.0" y1="374.0" x2="62.0" y2="58.0" stroke="#1a1a2e" stroke-width="1.5" opacity="1.0"/>
+<text x="379.0" y="410.0" font-family="Georgia, 'Times New Roman', serif" font-size="15.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">response latency (log scale)</text>
+<text x="16.0" y="216.0" font-family="Georgia, 'Times New Roman', serif" font-size="15.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="" transform="rotate(-90 16.0 216.0)">how often</text>
+<rect x="62.0" y="374.0" width="8.6" height="0.0" fill="#23527c" opacity="0.55"/>
+<rect x="71.2" y="373.5" width="8.6" height="0.5" fill="#23527c" opacity="0.55"/>
+<rect x="80.4" y="372.4" width="8.6" height="1.6" fill="#23527c" opacity="0.55"/>
+<rect x="89.6" y="369.3" width="8.6" height="4.7" fill="#23527c" opacity="0.55"/>
+<rect x="98.8" y="368.2" width="8.6" height="5.8" fill="#23527c" opacity="0.55"/>
+<rect x="107.9" y="363.3" width="8.6" height="10.7" fill="#23527c" opacity="0.55"/>
+<rect x="117.1" y="347.1" width="8.6" height="26.9" fill="#23527c" opacity="0.55"/>
+<rect x="126.3" y="333.1" width="8.6" height="40.9" fill="#23527c" opacity="0.55"/>
+<rect x="135.5" y="308.1" width="8.6" height="65.9" fill="#23527c" opacity="0.55"/>
+<rect x="144.7" y="274.3" width="8.6" height="99.7" fill="#23527c" opacity="0.55"/>
+<rect x="153.9" y="217.0" width="8.6" height="157.0" fill="#23527c" opacity="0.55"/>
+<rect x="163.1" y="175.8" width="8.6" height="198.2" fill="#23527c" opacity="0.55"/>
+<rect x="172.3" y="139.0" width="8.6" height="235.0" fill="#23527c" opacity="0.55"/>
+<rect x="181.4" y="113.8" width="8.6" height="260.2" fill="#23527c" opacity="0.55"/>
+<rect x="190.6" y="83.3" width="8.6" height="290.7" fill="#23527c" opacity="0.55"/>
+<rect x="199.8" y="103.0" width="8.6" height="271.0" fill="#23527c" opacity="0.55"/>
+<rect x="209.0" y="134.9" width="8.6" height="239.1" fill="#23527c" opacity="0.55"/>
+<rect x="218.2" y="159.9" width="8.6" height="214.1" fill="#23527c" opacity="0.55"/>
+<rect x="227.4" y="212.0" width="8.6" height="162.0" fill="#23527c" opacity="0.55"/>
+<rect x="236.6" y="256.5" width="8.6" height="117.5" fill="#23527c" opacity="0.55"/>
+<rect x="245.8" y="287.5" width="8.6" height="86.5" fill="#23527c" opacity="0.55"/>
+<rect x="255.0" y="319.6" width="8.6" height="54.4" fill="#23527c" opacity="0.55"/>
+<rect x="264.1" y="341.9" width="8.6" height="32.1" fill="#23527c" opacity="0.55"/>
+<rect x="273.3" y="358.6" width="8.6" height="15.4" fill="#23527c" opacity="0.55"/>
+<rect x="282.5" y="363.6" width="8.6" height="10.4" fill="#23527c" opacity="0.55"/>
+<rect x="291.7" y="369.9" width="8.6" height="4.1" fill="#23527c" opacity="0.55"/>
+<rect x="300.9" y="371.0" width="8.6" height="3.0" fill="#23527c" opacity="0.55"/>
+<rect x="310.1" y="372.4" width="8.6" height="1.6" fill="#23527c" opacity="0.55"/>
+<rect x="319.3" y="374.0" width="8.6" height="0.0" fill="#23527c" opacity="0.55"/>
+<rect x="328.5" y="373.5" width="8.6" height="0.5" fill="#23527c" opacity="0.55"/>
+<rect x="337.7" y="373.2" width="8.6" height="0.8" fill="#23527c" opacity="0.55"/>
+<rect x="346.8" y="372.6" width="8.6" height="1.4" fill="#23527c" opacity="0.55"/>
+<rect x="356.0" y="372.9" width="8.6" height="1.1" fill="#23527c" opacity="0.55"/>
+<rect x="365.2" y="372.4" width="8.6" height="1.6" fill="#23527c" opacity="0.55"/>
+<rect x="374.4" y="373.7" width="8.6" height="0.3" fill="#23527c" opacity="0.55"/>
+<rect x="383.6" y="371.5" width="8.6" height="2.5" fill="#23527c" opacity="0.55"/>
+<rect x="392.8" y="371.3" width="8.6" height="2.7" fill="#23527c" opacity="0.55"/>
+<rect x="402.0" y="371.3" width="8.6" height="2.7" fill="#23527c" opacity="0.55"/>
+<rect x="411.2" y="367.7" width="8.6" height="6.3" fill="#23527c" opacity="0.55"/>
+<rect x="420.3" y="366.0" width="8.6" height="8.0" fill="#23527c" opacity="0.55"/>
+<rect x="429.5" y="368.0" width="8.6" height="6.0" fill="#23527c" opacity="0.55"/>
+<rect x="438.7" y="364.1" width="8.6" height="9.9" fill="#23527c" opacity="0.55"/>
+<rect x="447.9" y="366.0" width="8.6" height="8.0" fill="#23527c" opacity="0.55"/>
+<rect x="457.1" y="365.2" width="8.6" height="8.8" fill="#23527c" opacity="0.55"/>
+<rect x="466.3" y="365.8" width="8.6" height="8.2" fill="#23527c" opacity="0.55"/>
+<rect x="475.5" y="364.7" width="8.6" height="9.3" fill="#23527c" opacity="0.55"/>
+<rect x="484.7" y="364.4" width="8.6" height="9.6" fill="#23527c" opacity="0.55"/>
+<rect x="493.9" y="366.0" width="8.6" height="8.0" fill="#23527c" opacity="0.55"/>
+<rect x="503.0" y="365.2" width="8.6" height="8.8" fill="#23527c" opacity="0.55"/>
+<rect x="512.2" y="368.8" width="8.6" height="5.2" fill="#23527c" opacity="0.55"/>
+<rect x="521.4" y="367.1" width="8.6" height="6.9" fill="#23527c" opacity="0.55"/>
+<rect x="530.6" y="370.2" width="8.6" height="3.8" fill="#23527c" opacity="0.55"/>
+<rect x="539.8" y="370.2" width="8.6" height="3.8" fill="#23527c" opacity="0.55"/>
+<rect x="549.0" y="371.5" width="8.6" height="2.5" fill="#23527c" opacity="0.55"/>
+<rect x="558.2" y="372.6" width="8.6" height="1.4" fill="#23527c" opacity="0.55"/>
+<rect x="567.4" y="371.3" width="8.6" height="2.7" fill="#23527c" opacity="0.55"/>
+<rect x="576.6" y="372.9" width="8.6" height="1.1" fill="#23527c" opacity="0.55"/>
+<rect x="585.7" y="372.6" width="8.6" height="1.4" fill="#23527c" opacity="0.55"/>
+<rect x="594.9" y="373.2" width="8.6" height="0.8" fill="#23527c" opacity="0.55"/>
+<rect x="604.1" y="373.2" width="8.6" height="0.8" fill="#23527c" opacity="0.55"/>
+<rect x="613.3" y="373.7" width="8.6" height="0.3" fill="#23527c" opacity="0.55"/>
+<rect x="622.5" y="373.7" width="8.6" height="0.3" fill="#23527c" opacity="0.55"/>
+<rect x="631.7" y="374.0" width="8.6" height="0.0" fill="#23527c" opacity="0.55"/>
+<rect x="640.9" y="373.7" width="8.6" height="0.3" fill="#23527c" opacity="0.55"/>
+<rect x="650.1" y="373.7" width="8.6" height="0.3" fill="#23527c" opacity="0.55"/>
+<rect x="659.2" y="374.0" width="8.6" height="0.0" fill="#23527c" opacity="0.55"/>
+<rect x="668.4" y="374.0" width="8.6" height="0.0" fill="#23527c" opacity="0.55"/>
+<rect x="677.6" y="374.0" width="8.6" height="0.0" fill="#23527c" opacity="0.55"/>
+<rect x="686.8" y="374.0" width="8.6" height="0.0" fill="#23527c" opacity="0.55"/>
+<line x1="199.1" y1="374.0" x2="199.1" y2="80.1" stroke="#1a1a2e" stroke-width="1.8" stroke-dasharray="5,4" opacity="1.0"/>
+<text x="199.1" y="61.2" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="bold" style="">p50: 18 ms</text>
+<line x1="258.8" y1="374.0" x2="258.8" y2="108.6" stroke="#2e7d6f" stroke-width="1.8" stroke-dasharray="5,4" opacity="1.0"/>
+<text x="258.8" y="89.6" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#2e7d6f" text-anchor="middle" font-weight="bold" style="">mean: 32 ms</text>
+<line x1="311.1" y1="374.0" x2="311.1" y2="80.1" stroke="#b0722a" stroke-width="1.8" stroke-dasharray="5,4" opacity="1.0"/>
+<text x="311.1" y="61.2" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#b0722a" text-anchor="middle" font-weight="bold" style="">p95: 53 ms</text>
+<line x1="520.5" y1="374.0" x2="520.5" y2="80.1" stroke="#a63d40" stroke-width="1.8" stroke-dasharray="5,4" opacity="1.0"/>
+<text x="520.5" y="61.2" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#a63d40" text-anchor="middle" font-weight="bold" style="">p99: 381 ms</text>
+<text x="495.3" y="200.2" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="start" font-weight="normal" style="">the mean has barely moved;</text>
+<text x="495.3" y="222.3" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="start" font-weight="normal" style="">every complaint lives here</text>
+</svg>

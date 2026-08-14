@@ -22,6 +22,11 @@ Manifest schema (``<BookDir>/book.toml``)
                                           #   as chapter=0/section=1/...
     header_includes = ["..."]             # optional; raw LaTeX blocks for the
                                           #   PDF preamble (via header-includes)
+    mainfont     = "Noto Serif"           # optional; xelatex body font.  The
+                                          #   default Latin Modern silently
+                                          #   drops Greek and box-drawing glyphs
+    monofont     = "Noto Sans Mono"       # optional; code/diagram font
+    monofontoptions = ["Scale=0.82"]      # optional; fontspec options
     lift_intros  = false                  # optional; see "Intro lifting" below
     front_matter_shift = 0                # optional; heading shift for front
                                           #   matter (1 = emit as chapters)
@@ -203,6 +208,9 @@ class Manifest:
         self.numbersections = bool(data.get("numbersections", True))
         self.toc_depth = int(data.get("toc_depth", 2))
         self.header_includes = list(data.get("header_includes", []))
+        self.mainfont = data.get("mainfont")
+        self.monofont = data.get("monofont")
+        self.monofontoptions = list(data.get("monofontoptions", []))
         self.lift_intros = bool(data.get("lift_intros", False))
         self.front_matter_shift = int(data.get("front_matter_shift", 0))
 
@@ -441,6 +449,14 @@ def yaml_metadata(m: Manifest) -> str:
         "linkcolor: NavyBlue",
         "urlcolor: NavyBlue",
     ]
+    if m.mainfont:
+        lines.append(f'mainfont: "{m.mainfont}"')
+    if m.monofont:
+        lines.append(f'monofont: "{m.monofont}"')
+    if m.monofontoptions:
+        lines.append("monofontoptions:")
+        for opt in m.monofontoptions:
+            lines.append(f'  - "{opt}"')
     if m.header_includes:
         lines.append("header-includes:")
         for block in m.header_includes:
@@ -492,6 +508,10 @@ def assemble(m: Manifest, chapter_range=None):
         if drop_h1:
             text = strip_first_h1(text)
         text = shift_headings(text, shift)
+        # Image links are written relative to their source file so they render
+        # on GitHub; the assembled document resolves them from the source root
+        # (see --resource-path), so strip the ../ prefixes.
+        text = re.sub(r"\]\((?:\.\./)+figures/", "](figures/", text)
         rel = path.relative_to(m.book_dir)
         parts.append(f"\n\n<!-- === {rel} === -->\n\n")
         parts.append(text.strip())
@@ -661,9 +681,19 @@ def build_markdown(combined: str, out: Path) -> bool:
     return True
 
 
+def _source_roots(m: Manifest) -> list[Path]:
+    """Directories images resolve against: the book dir and each source root."""
+    roots = [m.book_dir]
+    for spec in m.sources:
+        r = (m.book_dir / spec.get("root", ".")).resolve()
+        if r.exists():
+            roots.append(r)
+    return roots
+
+
 def _run_pandoc(combined: str, out: Path, to_pdf: bool, engine: str | None,
                 title: str, numbersections: bool = True,
-                toc_depth: int = 2) -> bool:
+                toc_depth: int = 2, resource_paths: list[Path] = ()) -> bool:
     out.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.NamedTemporaryFile(
         "w", suffix=".md", encoding="utf-8", delete=False
@@ -677,6 +707,9 @@ def _run_pandoc(combined: str, out: Path, to_pdf: bool, engine: str | None,
                       "+fenced_code_blocks+smart",
             "--top-level-division=part",
             "--toc", f"--toc-depth={toc_depth}",
+            *(["--resource-path",
+               os.pathsep.join(str(p) for p in resource_paths)]
+              if resource_paths else []),
             *(["--number-sections"] if numbersections else []),
             "--highlight-style=tango",
             "--metadata", f"title={title}",
@@ -685,7 +718,10 @@ def _run_pandoc(combined: str, out: Path, to_pdf: bool, engine: str | None,
         if to_pdf:
             cmd += ["--to", "pdf", f"--pdf-engine={engine}"]
         else:
-            cmd += ["--to", "html5", "--standalone", "--mathjax"]
+            # --embed-resources inlines referenced images (the SVG figures)
+            # so the single output file works from anywhere.
+            cmd += ["--to", "html5", "--standalone", "--embed-resources",
+                    "--mathjax"]
         result = subprocess.run(cmd, capture_output=True, text=True)
         if result.returncode != 0:
             sys.stderr.write("\n--- pandoc stderr (tail) ---\n")
@@ -772,7 +808,8 @@ def main() -> int:
             sys.exit("ERROR: pandoc not found (needed for --html).")
         out = Path(args.html) if args.html else out_dir / f"{slug}.html"
         ok = _run_pandoc(combined, out, False, None, m.title,
-                         m.numbersections, m.toc_depth) and ok
+                         m.numbersections, m.toc_depth,
+                         _source_roots(m)) and ok
 
     if args.pdf is not None:
         if not _pandoc_available():
@@ -782,7 +819,8 @@ def main() -> int:
             sys.exit("ERROR: no LaTeX engine (xelatex/pdflatex) for --pdf.")
         out = Path(args.pdf) if args.pdf else out_dir / f"{slug}.pdf"
         ok = _run_pandoc(combined, out, True, engine, m.title,
-                         m.numbersections, m.toc_depth) and ok
+                         m.numbersections, m.toc_depth,
+                         _source_roots(m)) and ok
 
     return 0 if ok else 1
 

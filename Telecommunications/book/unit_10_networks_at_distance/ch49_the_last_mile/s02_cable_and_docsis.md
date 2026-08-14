@@ -73,7 +73,7 @@ plant, which is why the asymmetry has proved so durable.
 | **2.0** | 2001 | 40 Mb/s | **30 Mb/s** | better upstream modulation |
 | **3.0** | 2006 | **~1.4 Gb/s** | ~200 Mb/s | **channel bonding** |
 | **3.1** | 2013 | **10 Gb/s** | **1–2 Gb/s** | **OFDM, LDPC, 4096-QAM** |
-| **4.0** | 2017 | 10 Gb/s | **6 Gb/s** | **full duplex / extended spectrum** |
+| **4.0** | 2020 | 10 Gb/s | **6 Gb/s** | **full duplex / extended spectrum** |
 
 Channel bonding (3.0) is the significant one architecturally. A single 6 MHz QAM-256
 channel carries about 43 Mb/s raw — arithmetic worth doing once:

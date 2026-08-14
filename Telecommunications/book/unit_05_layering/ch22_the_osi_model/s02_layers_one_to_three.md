@@ -8,27 +8,27 @@ the correct order and the opposite of how the subject is usually taught.
 
 **What it does:** move bits between two directly connected points.
 
-**Unit:** the **bit**. (Sometimes "symbol" — Chapter 6 §6.2 explains why they are not
+**Unit:** the **bit**. (Sometimes "symbol" — Chapter 4 §4.2 explains why they are not
 the same thing, and why the distinction matters for every rate calculation.)
 
 **Everything at Layer 1:**
 
 | Concern | Chapter |
 |---|---|
-| Voltage, current, optical power levels | 5, 8 |
-| Line coding — NRZ, Manchester, 4B/5B, PAM-4 | 6 |
-| Modulation — ASK, FSK, PSK, QAM, OFDM | 7 |
-| Connectors, pinouts, cable specifications | 8 |
-| Bit rate, symbol rate, baud | 6 |
-| Attenuation, noise, interference, crosstalk | 5, 8 |
-| Distance limits | 8, 16 |
-| Clock recovery and synchronisation | 6 |
+| Voltage, current, optical power levels | 5, 10 |
+| Line coding — NRZ, Manchester, 4B/5B, PAM-4 | 7 |
+| Modulation — ASK, FSK, PSK, QAM, OFDM | 8 |
+| Connectors, pinouts, cable specifications | 10 |
+| Bit rate, symbol rate, baud | 4 |
+| Attenuation, noise, interference, crosstalk | 6 |
+| Distance limits | 6, 10 |
+| Clock recovery and synchronisation | 7 |
 
 **Devices:** cables, connectors, repeaters, hubs, transceivers, media converters,
 patch panels, antennas.
 
 **Key idea:** Layer 1 has no idea what the bits mean. It carries a stream of
-symbols. Chapter 6's line codes exist to make the stream recoverable — self-clocking,
+symbols. Chapter 7's line codes exist to make the stream recoverable — self-clocking,
 DC-balanced — not to make it meaningful.
 
 **Its faults:** cable damage, wrong cable type, exceeded distance, bad connector,
@@ -49,7 +49,7 @@ starts there.
 | Framing — where a frame starts and ends | 15 |
 | MAC addressing, 48-bit, flat | 15 |
 | Error **detection** — the FCS, CRC-32 | 15 |
-| Medium access control — CSMA/CD, CSMA/CA | 9, 10 |
+| Medium access control — CSMA/CD, CSMA/CA | 16, 44 |
 | Switching, learning, flooding | 17 |
 | Address resolution (ARP, awkwardly) | 18 |
 | Loop prevention — spanning tree | 19 |
@@ -89,13 +89,13 @@ problems, ARP failures, switching loops, frame errors from a Layer 1 problem.
 |---|---|
 | IP addressing, hierarchical | 24, 25 |
 | Subnetting, CIDR, VLSM | 26 |
-| Routing and forwarding | 30, 31, 32 |
-| Longest-prefix match | 30 |
+| Routing and forwarding | 29, 31, 32 |
+| Longest-prefix match | 29 |
 | TTL and loop mitigation | 24 |
 | Fragmentation and reassembly | 24 |
-| ICMP | 33 |
+| ICMP | 34 |
 | NAT | 33 |
-| IPv6 | 28, 29 |
+| IPv6 | 28 |
 
 **Devices:** routers, Layer 3 switches, firewalls (in part).
 

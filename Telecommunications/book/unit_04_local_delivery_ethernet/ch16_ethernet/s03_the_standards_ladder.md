@@ -1,6 +1,6 @@
 # 16.3 The Standards Ladder
 
-Forty-three years, a factor of forty thousand in speed, and one unchanged frame
+Forty-three years, a factor of eighty thousand in speed, and one unchanged frame
 format. This section is about what changed, what did not, and the question the
 chapter exists to answer.
 

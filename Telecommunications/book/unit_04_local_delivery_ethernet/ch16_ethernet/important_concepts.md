@@ -56,7 +56,7 @@ the recently successful station has a small window and tends to win again, the
 
 CSMA/CD does not run on modern networks *(§16.2, §16.4)* — Every switch port is
 its own collision domain with one device, full duplex, nothing to collide with. The
-mechanism was **removed** from the standard above 1 Gb/s in 802.3-2015. What survives
+mechanism was **never specified** above 1 Gb/s at all. What survives
 is the 64-byte minimum, and a collision counter is now a fault indication.
 
 **Reading standard names** *(§16.3)* — rate, `BASE` for baseband, then medium and

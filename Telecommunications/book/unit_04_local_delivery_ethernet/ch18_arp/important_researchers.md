@@ -30,8 +30,8 @@ a transition mechanism that should have had an expiry date.
 Conflict Detection* — the formalisation of what gratuitous ARP had been used for
 informally. ACD specifies exactly how a host should probe before claiming an address
 and how it should behave on discovering a conflict, replacing a folk practice with a
-specification. Cheshire also created **Zeroconf/Bonjour** and co-authored the
-bufferbloat work (Chapter 13); his consistent interest is in networks that work
+specification. Cheshire also created **Zeroconf/Bonjour** and has campaigned publicly
+against bufferbloat (Chapter 13); his consistent interest is in networks that work
 without configuration, which is the same interest that produced IPv6's SLAAC.
 
 **Thomas Narten, Erik Nordmark, William Simpson and Hesham Soliman.** The authors of
@@ -67,10 +67,9 @@ why security mechanisms fail to deploy — that the party who must act is rarely
 party who is harmed — is the clearest general statement of the pattern this chapter
 illustrates twice.
 
-**Vasil Sadovnikov, Alberto Ornaghi and Marco Valleri.** Authors of `arpspoof` (part
-of Dug Song's dsniff suite, 1999) and `ettercap` (2001) respectively — the tools that
-turned ARP spoofing from a theoretical observation into something any student could do
-in an afternoon. Their effect on the field was substantial and largely positive: the
+**Alberto Ornaghi and Marco Valleri.** Authors of `ettercap` (2001), which with Dug
+Song's `arpspoof` (from the dsniff suite, 1999) turned ARP spoofing from a
+theoretical observation into something any student could do in an afternoon. Their effect on the field was substantial and largely positive: the
 existence of trivially usable attack tooling is what forced switch vendors to
 implement Dynamic ARP Inspection and what made "the LAN is a trust boundary" an
 untenable position.

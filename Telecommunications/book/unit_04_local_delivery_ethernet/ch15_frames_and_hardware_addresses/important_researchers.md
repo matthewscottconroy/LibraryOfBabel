@@ -9,8 +9,8 @@ the guarantees in §15.4 are guarantees rather than statistics.
 
 He spent most of his career at the University of Hawaii, where he was also a
 distinguished scholar of the Japanese language and wrote a Japanese-English character
-dictionary. His *Error-Correcting Codes* (1961, with E. J. Weldon) was the standard
-text for a generation.
+dictionary. His *Error-Correcting Codes* (1961; second edition with
+E. J. Weldon) was the standard text for a generation.
 
 **Daniel T. Brown.** Peterson's co-author on the 1961 CRC paper, and generally
 uncredited in the shorthand "Peterson's CRC".
@@ -63,7 +63,7 @@ frames, so the upper layer must supply the real length. That IP does is why a
 of a layer being designed to not depend on a property the layer below happens to
 have.
 
-**Bram Cohen, and more relevantly the authors of the 802.11 privacy work.** MAC
+**The 802.11 privacy researchers.** MAC
 randomisation as described in §15.2 emerged from research demonstrating that
 retail analytics firms were tracking individuals through public spaces by passively
 logging probe requests. The IEEE 802.11aq and later work, and Apple's and Google's

@@ -13,13 +13,16 @@ answer — a position the industry took thirty years to adopt with leaf-spine
 (Chapter 67 §67.4). Her *Interconnections* is the book on which and when to bridge
 versus route.
 
-**Mark Kempf.** Led the engineering at Kalpana, the company that produced the first
-Ethernet switch — the EtherSwitch EPS-2001, in 1990. Kalpana's insight was that
-bridging in hardware at low cost per port changed the *unit* of what you attached:
-segments became stations. They also introduced **cut-through** switching, trading
-error containment for latency, which is §17.4's specialist mode.
+**Mark Kempf.** DEC engineer who designed the **LANBridge 100** (1986), the first
+commercial transparent Ethernet bridge — the learn/forward/flood algorithm of
+§17.2, implemented for the first time in a product stations did not know existed.
 
-Cisco acquired Kalpana in 1994, and the product line became the Catalyst series.
+**Kalpana**, founded by Vinod Bhardwaj, produced the first Ethernet *switch* — the
+EtherSwitch, in 1990. Kalpana's insight was that bridging in hardware at low cost
+per port changed the *unit* of what you attached: segments became stations. They
+also introduced **cut-through** switching, trading error containment for latency,
+which is §17.4's specialist mode. Cisco acquired Kalpana in 1994 and folded the
+products into the Catalyst line.
 
 **Bob Metcalfe (b. 1946) and the 3Com/Grand Junction line.** Grand Junction Networks
 produced early fast Ethernet switching and was acquired by Cisco in 1995; 3Com,
@@ -49,10 +52,10 @@ blocking discussion is his subject, and essentially every serious switch built s
 implements what his group analysed. He later co-founded the OpenFlow work
 (Chapter 68).
 
-**Sundar Iyer and Balaji Prabhakar.** Their work with McKeown on buffer sizing
-challenged the long-standing bandwidth-delay-product rule of thumb, arguing that a
-router carrying many flows needs far less buffer than the classical rule specifies —
-by a factor of √*n* for *n* flows. The practical consequence is §17.4's observation
+**Guido Appenzeller, Isaac Keslassy and Nick McKeown.** Their 2004 paper *Sizing
+Router Buffers* challenged the long-standing bandwidth-delay-product rule of thumb,
+showing that a router carrying many flows needs far less buffer than the classical
+rule specifies — smaller by a factor of √*n* for *n* flows. The practical consequence is §17.4's observation
 that switch buffers are small deliberately, and the theoretical consequence fed
 directly into the bufferbloat discussion.
 

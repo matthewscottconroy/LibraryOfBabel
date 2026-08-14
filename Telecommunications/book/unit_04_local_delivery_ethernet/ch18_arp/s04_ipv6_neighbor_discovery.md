@@ -58,7 +58,8 @@ from the target address by a fixed rule:
    ff02::1:ff  ++  the low-order 24 bits of the target address
 ```
 
-So a host at `2001:db8::1:2:3:4` joins `ff02::1:ff02:0304`.
+So a host at `2001:db8::1:2:3:4` — whose low 24 bits are `03:00:04` — joins
+`ff02::1:ff03:4`.
 
 Every IPv6 interface automatically joins the solicited-node group for each of its
 addresses. When a host needs to resolve an address, it computes that group and sends
@@ -88,10 +89,10 @@ Host A (`2001:db8::a`, `aa:aa:aa:aa:aa:aa`) resolves `2001:db8::1:2:3:4`.
 
 | Layer | Field | Value |
 |---|---|---|
-| Ethernet | Destination | `33:33:ff:02:03:04` ← multicast, hardware-filtered |
+| Ethernet | Destination | `33:33:ff:03:00:04` ← multicast, hardware-filtered |
 | Ethernet | EtherType | `0x86DD` (IPv6) |
 | IPv6 | Source | `fe80::…` (A's link-local) |
-| IPv6 | Destination | `ff02::1:ff02:0304` |
+| IPv6 | Destination | `ff02::1:ff03:4` |
 | IPv6 | Hop limit | **255** |
 | ICMPv6 | Type | 135 |
 | ICMPv6 | Target | `2001:db8::1:2:3:4` |

@@ -184,8 +184,9 @@ on it (Chapter 17 §17.3), operating **full duplex** with separate paths for eac
 direction. There is nobody to collide with. Carrier sense is unnecessary; collision
 detection is meaningless; backoff never happens.
 
-The mechanism was formally **removed** from the standard in IEEE 802.3-2015 for
-speeds above 1 Gb/s — it is not merely unused, it is no longer specified.
+Above 1 Gb/s the mechanism was never specified at all — 10 Gigabit Ethernet
+(802.3ae, 2002) and everything since is full-duplex only, so CSMA/CD is not
+merely unused there; it does not exist in the standard.
 
 What survives is the fossil: the **64-byte minimum frame**, still enforced,
 determined by the round trip on a coaxial cable that has not been manufactured in

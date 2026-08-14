@@ -14,13 +14,13 @@ This layer is real, is implemented, and is Unit VIII's subject. Its concerns:
 
 | Concern | Chapter |
 |---|---|
-| Port numbers — identifying processes | 34 |
-| Connection establishment and teardown | 36 |
-| Reliability — acknowledgements and retransmission | 36 |
-| Ordering | 36 |
-| Flow control — protecting the receiver | 36 |
-| Congestion control — protecting the network | 36 |
-| Segmentation to fit the path MTU | 24, 36 |
+| Port numbers — identifying processes | 35 |
+| Connection establishment and teardown | 37 |
+| Reliability — acknowledgements and retransmission | 37 |
+| Ordering | 37 |
+| Flow control — protecting the receiver | 37 |
+| Congestion control — protecting the network | 38 |
+| Segmentation to fit the path MTU | 24, 37 |
 
 **The two protocols:**
 
@@ -116,10 +116,10 @@ communicate, not the software with the buttons.
 | SMTP, IMAP, POP3 | mail | 41 |
 | FTP, SFTP, TFTP | file transfer | 41 |
 | SSH, Telnet | remote access | 41 |
-| SNMP | management | 53 |
+| SNMP | management | 54 |
 | NTP | time | 41 |
 | LDAP | directory | 41 |
-| SIP, RTP | voice and video | 56 |
+| SIP, RTP | voice and video | 41 |
 
 ## The honest assessment
 

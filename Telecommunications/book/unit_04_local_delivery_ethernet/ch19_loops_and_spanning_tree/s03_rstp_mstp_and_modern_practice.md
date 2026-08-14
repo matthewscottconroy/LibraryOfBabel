@@ -4,7 +4,7 @@ Fifty seconds of outage was tolerable in 1985 and intolerable by 1998. This sect
 covers what replaced classic STP, what a competent configuration looks like today, and
 the small set of features that actually prevent outages.
 
-## RSTP — 802.1w (1998, folded into 802.1D-2004)
+## RSTP — 802.1w (2001, folded into 802.1D-2004)
 
 **Rapid Spanning Tree Protocol.** Same tree, same election, same tie-breakers.
 Different convergence — **under a second** in the common cases, against 30–50.

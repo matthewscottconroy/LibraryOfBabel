@@ -1,6 +1,6 @@
 # Chapter 20 — The People
 
-**W. Paul Sherer and the IEEE 802.1Q working group (1995–1998).** VLANs existed as
+**The IEEE 802.1Q working group (1995–1998).** VLANs existed as
 vendor-proprietary mechanisms for several years before standardisation — Cisco's ISL,
 3Com's, Cabletron's, each incompatible with the others. A VLAN that could not cross a
 multi-vendor boundary was of sharply limited use, and the committee's work was

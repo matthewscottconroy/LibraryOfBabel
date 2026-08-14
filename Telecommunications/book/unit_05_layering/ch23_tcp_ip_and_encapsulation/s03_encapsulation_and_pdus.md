@@ -144,7 +144,7 @@ So the host ARPs for `192.168.1.1` — not for `203.0.113.10` — and builds the
 
 ### Step 5 — Physical layer
 
-The frame is encoded — 4B/5B or 64B/66B depending on the rate (Chapter 6) — a preamble
+The frame is encoded — 4B/5B or 64B/66B depending on the rate (Chapter 7) — a preamble
 and start-frame delimiter are prepended, and the symbols go on the wire.
 
 **On the wire: 178 + 8 (preamble/SFD) + 12 (interframe gap) = 198 byte-times.**

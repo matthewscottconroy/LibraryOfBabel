@@ -24,8 +24,8 @@ So:
   are still enforced.
 
 IEEE 802.3x standardised full duplex in 1997, and it is why §16.3 could say that
-CSMA/CD does not run on a modern network. The mechanism was formally removed from
-the standard for speeds above 1 Gb/s in 802.3-2015.
+CSMA/CD does not run on a modern network. Above 1 Gb/s the standard never
+specified half-duplex operation at all.
 
 **And it dissolved Token Ring's argument.** Chapter 16 §16.3 noted that Token Ring's
 advantage was deterministic access under contention. Full duplex switched Ethernet

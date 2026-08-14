@@ -151,7 +151,7 @@ On a modern switched network with full duplex everywhere:
 
 - There is **one collision domain per port**, each containing exactly two interfaces.
 - **No collision is possible** in any of them.
-- **CSMA/CD does not run** and was removed from the standard above 1 Gb/s.
+- **CSMA/CD does not run** and was never specified above 1 Gb/s.
 - The count is arithmetically correct and operationally uninteresting.
 
 **Broadcast domains remain entirely relevant**, because broadcasts are a protocol

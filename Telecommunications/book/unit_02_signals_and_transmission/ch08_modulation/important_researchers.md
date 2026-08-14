@@ -27,7 +27,7 @@ suits afterwards. The superheterodyne architecture — mixing a received signal 
 to a fixed intermediate frequency before filtering — is the direct ancestor of the
 quadrature down-conversion in §8.2.
 
-**Robert W. Chang (1930–2012).** Bell Labs researcher who in 1966 patented the
+**Robert W. Chang.** Bell Labs researcher who in 1966 patented the
 principle of transmitting simultaneously on multiple overlapping orthogonal
 subcarriers — OFDM, twenty-nine years before it appeared in a consumer product. The
 patent (US 3,488,445) describes the technique essentially as used today. It was

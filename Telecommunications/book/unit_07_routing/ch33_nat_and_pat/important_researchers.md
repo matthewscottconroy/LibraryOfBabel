@@ -60,9 +60,10 @@ reading for the careful enumeration of which NAT behaviours permit it and which 
 peers into a network of clients, and that the applications which adapted did so by
 centralising.
 
-**Dan Wing and Alain Durand.** Much of the **CGNAT** and IPv6 transition work, including
-**RFC 6598** (the `100.64.0.0/10` allocation) and the analyses of what carrier-grade NAT
-costs.
+**Alain Durand and the transition working groups.** Much of the **CGNAT** and IPv6
+transition work — Durand's **DS-Lite** (RFC 6333), and alongside it the shared address
+space of **RFC 6598** (the `100.64.0.0/10` allocation) and the analyses of what
+carrier-grade NAT costs.
 
 RFC 6598's justification is worth reading because it is an admission: a fourth private
 range was needed because providers had run out of addresses and could not use RFC 1918

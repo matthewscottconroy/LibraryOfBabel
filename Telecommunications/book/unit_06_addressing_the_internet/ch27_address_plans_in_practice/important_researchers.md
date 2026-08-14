@@ -1,6 +1,6 @@
 # Chapter 27 — The People
 
-**Yakov Rekhter (1953–2023), Robert Moskowitz, Daniel Karrenberg, Geert Jan de Groot and
+**Yakov Rekhter, Robert Moskowitz, Daniel Karrenberg, Geert Jan de Groot and
 Eliot Lear.** Authors of **RFC 1918** (1996), *Address Allocation for Private Internets*.
 
 The document is short and its reasoning is worth reading directly, because it is

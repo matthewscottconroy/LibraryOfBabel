@@ -1,6 +1,6 @@
 # Chapter 32 — The People
 
-**Yakov Rekhter (1953–2023), Kirk Lougheed and Susan Hares.** BGP, and the famous origin
+**Yakov Rekhter, Kirk Lougheed and Susan Hares.** BGP, and the famous origin
 story: **Rekhter and Lougheed sketched the protocol on three paper napkins** at an IETF
 meeting in 1989. It was published as RFC 1105 and became known as the **"three napkin
 protocol"**.

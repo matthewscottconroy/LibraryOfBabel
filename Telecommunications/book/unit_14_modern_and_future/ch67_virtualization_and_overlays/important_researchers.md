@@ -1,6 +1,6 @@
 # Chapter 67 — The People
 
-**Charles Clos (1904–1980).** Bell Labs, 1953 — and the topology this chapter is built on.
+**Charles Clos.** Bell Labs, 1953 — and the topology this chapter is built on.
 
 Clos's paper "A Study of Non-Blocking Switching Networks" answered a telephone problem: how
 to connect $N$ inputs to $N$ outputs without a full $N \times N$ crossbar, whose cost grows as

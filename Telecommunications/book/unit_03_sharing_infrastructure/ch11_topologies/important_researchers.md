@@ -61,7 +61,7 @@ technical: commodity components in a regular topology beat specialised component
 a hierarchy, provided the topology gives you enough paths. Vahdat went on to lead
 much of Google's network infrastructure work.
 
-**Charles Clos (1904–1998).** French engineer at Bell Labs whose 1953 paper *A Study
+**Charles Clos.** French engineer at Bell Labs whose 1953 paper *A Study
 of Non-blocking Switching Networks* described how to build a large switching fabric
 from smaller crossbar elements arranged in stages, with a proof of the conditions
 under which it is non-blocking. Written for telephone exchanges, and it is the

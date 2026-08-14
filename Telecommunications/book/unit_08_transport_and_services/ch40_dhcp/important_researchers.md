@@ -23,7 +23,7 @@ inheritance is why a BOOTP relay works for DHCP unchanged.
 the observation that *"the Net interprets censorship as damage and routes around it"* —
 which is a comment on Chapter 29's forwarding model, from someone who had built part of it.
 
-**Ralph Droms (1955–2023).** **DHCP** — RFC 1531 (1993), and the definitive **RFC 2131**
+**Ralph Droms.** **DHCP** — RFC 1531 (1993), and the definitive **RFC 2131**
 (1997), which he authored and then chaired the working group for.
 
 **The contribution is the lease.** BOOTP had solved configuration delivery; **Droms solved

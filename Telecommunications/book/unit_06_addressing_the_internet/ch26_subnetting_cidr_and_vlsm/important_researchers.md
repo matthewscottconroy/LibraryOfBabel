@@ -29,7 +29,7 @@ renumbering**. This remains unsolved in IPv4 and in IPv6, and it is why organisa
 that can obtain provider-independent space do so, and why those that cannot rely on NAT
 (Chapter 33) to insulate themselves.
 
-**Yakov Rekhter (1953–2023)**, separately, is one of the most consequential people in
+**Yakov Rekhter**, separately, is one of the most consequential people in
 this book — BGP, MPLS, VPN architectures, and the address allocation architecture. He
 worked at IBM, Cisco and Juniper across four decades, and the routing half of the modern
 Internet is substantially his.

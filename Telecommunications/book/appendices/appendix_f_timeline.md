@@ -119,7 +119,7 @@ good revision exercise: nearly every entry should prompt a mechanism.
 | 2018 | **1.35 Tb/s memcached amplification attack on GitHub**, February. TLS 1.3 (RFC 8446). 802.3bt 90 W PoE | 58, 62 |
 | 2019 | 5G NR commercial launch. Verizon route leak takes down large parts of the web, June | 32, 46 |
 | 2020 | 6 GHz opened for unlicensed use (US), April. WireGuard merged into Linux. Remote work reshapes the enterprise WAN | 43, 51, 61 |
-| 2021 | **QUIC standardised (RFC 9000).** Wi-Fi 6 certification. Global BGP table passes 1M IPv4 prefixes. Facebook's six-hour BGP self-withdrawal, October | 32, 38, 44 |
+| 2021 | **QUIC standardised (RFC 9000).** Wi-Fi 6E certification begins. Global BGP table passes 1M prefixes (IPv4 and IPv6 combined). Facebook's six-hour BGP self-withdrawal, October | 32, 38, 44 |
 | 2022 | Matter 1.0 released. RFC 9293 consolidates TCP | 37, 47 |
 | 2024 | **Wi-Fi 7 (802.11be).** NIST standardises post-quantum cryptography | 44, 71 |
 

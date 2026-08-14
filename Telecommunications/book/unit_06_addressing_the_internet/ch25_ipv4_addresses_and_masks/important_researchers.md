@@ -44,7 +44,7 @@ the BGP scaling work of Chapter 32. **Vince Fuller** later worked on LISP and on
 locator/identifier separation problem, which is the same problem CIDR addressed one
 layer up.
 
-**Yakov Rekhter (1953–2023).** Co-author of RFC 1518 (the CIDR address allocation
+**Yakov Rekhter.** Co-author of RFC 1518 (the CIDR address allocation
 architecture) and of **BGP** itself (Chapter 32). His contribution here is the
 **provider-based allocation** argument: that addresses should be allocated by providers
 from their own blocks, so that customer networks aggregate into the provider's

@@ -13,40 +13,40 @@ was designed. Equipment will reach end of support. Firmware vulnerabilities will
 published. Someone will make a change at 22:00 that seems minor. A cable will be
 disconnected by a cleaner. The person who understood the addressing scheme will leave.
 
-**The total cost of a network is dominated by its operation, and the operational cost
-is dominated by how well it was documented and how disciplined its changes are.**
+The total cost of a network is dominated by its operation, and the operational cost
+is dominated by how well it was documented and how disciplined its changes are.
 That is not an inspiring statement and it is true, and this unit is deliberately
 expanded beyond what an introductory syllabus usually contains, because operations is
 19% of the Network+ blueprint and considerably more than 19% of the actual job.
 
 ## The four questions
 
-**"What do we have, and how is it connected?"** (Chapter 53.) Documentation, diagrams
+"What do we have, and how is it connected?" (Chapter 53.) Documentation, diagrams
 at three levels of abstraction, inventory, cable maps, and address management. The
 unglamorous answer to most incidents is that somebody could not find out what was
 supposed to be true.
 
-**"Is it working, and how would we know?"** (Chapter 54.) Monitoring, baselines,
+"Is it working, and how would we know?" (Chapter 54.) Monitoring, baselines,
 SNMP, syslog, flow records, and streaming telemetry. Also — and this receives more
 attention here than is usual — **alert design**, because a monitoring system that
 generates alerts nobody reads is worse than none at all: it consumes effort and
 provides false assurance.
 
-**"How do we change it without breaking it?"** (Chapter 55.) Configuration
+"How do we change it without breaking it?" (Chapter 55.) Configuration
 management, change control, firmware lifecycle, backups, and drift detection. The
 overwhelming majority of unplanned outages are caused by planned changes, and this is
 so consistently true across every organisation that measures it that it should be
 treated as a law rather than an observation.
 
-**"What happens when it breaks anyway?"** (Chapter 56.) Availability arithmetic,
+"What happens when it breaks anyway?" (Chapter 56.) Availability arithmetic,
 redundancy and its failure modes, first-hop protection, the physical plant, and
 disaster recovery with RPO and RTO defined properly.
 
 ## The recurring theme
 
 One idea threads through all four chapters, and it is the most useful thing in the
-unit: **the value of an operational practice is measured by how much it reduces the
-cost of the next incident.**
+unit: the value of an operational practice is measured by how much it reduces the
+cost of the next incident.
 
 Documentation is not virtue. It is a cache: work done once, in calm conditions, so
 that it does not have to be done repeatedly under pressure. A network diagram that is

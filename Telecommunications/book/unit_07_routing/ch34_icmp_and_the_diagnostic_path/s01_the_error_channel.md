@@ -9,17 +9,17 @@ appears throughout this book.
 
 ## What it is
 
-**Internet Control Message Protocol**, RFC 792, 1981. Postel again, and again a document
+Internet Control Message Protocol, RFC 792, 1981. Postel again, and again a document
 that has never been revised.
 
-**It carries control and error messages for IP**, and its position is awkward in a way
+It carries control and error messages for IP, and its position is awkward in a way
 worth stating precisely:
 
 - It is **carried inside IP** — protocol number **1** — so it sits above IP
 - It is **part of IP** — a router implementing IP must implement ICMP (RFC 1122 says so)
 - It reports on IP's operation, so it is IP's **control plane**
 
-**IP's control plane travelling inside IP's data plane.** Chapter 22 §22.2 places it at
+IP's control plane travelling inside IP's data plane. Chapter 22 §22.2 places it at
 Layer 3; Chapter 21 §21.4 explains why the placement is uncomfortable.
 
 **It is not a transport protocol.** There are no ports, no connections, no reliability.
@@ -39,21 +39,21 @@ An ICMP message is a single datagram, sent once, and if it is lost nobody retrie
 +---------------------------------------------------------------+
 ```
 
-**Four bytes of header, then a payload that depends on the type.**
+Four bytes of header, then a payload that depends on the type.
 
-**The last row is the important one.** An error message carries **a copy of the packet
-that caused it** — its IP header plus the first 8 bytes of its payload.
+**The last row is the important one.** An error message carries a copy of the packet
+that caused it — its IP header plus the first 8 bytes of its payload.
 
-**Why 8 bytes?** Because for TCP and UDP that is enough to include **the source and
-destination ports** — which is exactly what the sender needs to work out **which of its
-connections** the error refers to.
+**Why 8 bytes?** Because for TCP and UDP that is enough to include the source and
+destination ports — which is exactly what the sender needs to work out which of its
+connections the error refers to.
 
-**This is a deliberate layer violation, and it is necessary.** An ICMP error arriving at a
+This is a deliberate layer violation, and it is necessary. An ICMP error arriving at a
 host is useless unless the host can attribute it to a socket, and attributing it requires
-reading the transport header of the original packet out of the ICMP payload. **A Layer 3
-message carrying enough Layer 4 information to be actionable.**
+reading the transport header of the original packet out of the ICMP payload. A Layer 3
+message carrying enough Layer 4 information to be actionable.
 
-It also means **NAT must rewrite inside the ICMP payload** (Chapter 33 §33.3) — the
+It also means NAT must rewrite inside the ICMP payload (Chapter 33 §33.3) — the
 embedded header contains translated addresses, and if the NAT does not fix them the error
 is unattributable. Implementations that get this wrong produce path-MTU black holes that
 appear only across the NAT.
@@ -70,12 +70,12 @@ appear only across the NAT.
 | 12 | Parameter Problem | a malformed header field |
 | 13 / 14 | Timestamp Request / Reply | largely disabled; leaks information |
 
-**Types 0, 3, 8 and 11 are the ones to know**, and between them they cover essentially all
+Types 0, 3, 8 and 11 are the ones to know, and between them they cover essentially all
 practical use.
 
 ### Type 3 — Destination Unreachable, by code
 
-**The type whose codes are the diagnosis**, and they are worth memorising because each
+The type whose codes are the diagnosis, and they are worth memorising because each
 names a different fault at a different layer:
 
 | Code | Meaning | Diagnosis |
@@ -88,26 +88,26 @@ names a different fault at a different layer:
 | 9 / 10 | Communication administratively prohibited | **a firewall said no, and admitted it** |
 | 13 | Communication administratively filtered | same |
 
-**Read the code, not just the type.** "Destination unreachable" is not a diagnosis; **code
-1 means the host is absent and code 3 means the host is present and not listening**, and
+**Read the code, not just the type.** "Destination unreachable" is not a diagnosis; code
+1 means the host is absent and code 3 means the host is present and not listening, and
 those are entirely different problems.
 
-**Code 4 is the one this book has referred to repeatedly.** It is the mechanism of path MTU
+Code 4 is the one this book has referred to repeatedly. It is the mechanism of path MTU
 discovery, and §34.4 covers what happens when it is filtered.
 
-**Codes 9, 10 and 13 are a firewall being polite.** A firewall that sends them tells you it
+Codes 9, 10 and 13 are a firewall being polite. A firewall that sends them tells you it
 dropped your packet; a firewall that drops silently tells you nothing. §34.2 develops why
 the difference matters.
 
 ## Rate limiting
 
-**Routers generate ICMP sparingly**, and this shapes what you can conclude from its
+Routers generate ICMP sparingly, and this shapes what you can conclude from its
 absence.
 
 RFC 1812 requires rate limiting, and typical defaults are a few messages per second per
 destination. The reasons are sound:
 
-- **Generating ICMP is a control-plane task** (Chapter 29 §29.1) — the CPU, not the
+- Generating ICMP is a control-plane task (Chapter 29 §29.1) — the CPU, not the
   forwarding hardware
 - Without limits, a flood of undeliverable packets becomes a flood of ICMP, **amplifying
   the problem**
@@ -115,15 +115,15 @@ destination. The reasons are sound:
 
 **The diagnostic consequence is large:**
 
-> **A router that does not reply is not necessarily a router that dropped your packet.**
+> A router that does not reply is not necessarily a router that dropped your packet.
 
-`traceroute` showing `* * *` at a hop almost always means that router is **rate-limiting
-or declining to generate ICMP**, while forwarding traffic perfectly (Chapter 24 §24.4).
+`traceroute` showing `* * *` at a hop almost always means that router is rate-limiting
+or declining to generate ICMP, while forwarding traffic perfectly (Chapter 24 §24.4).
 Enormous amounts of time are wasted by people who read stars as loss.
 
 ## Why filtering all ICMP is wrong
 
-**One of the most persistent bad practices in network security**, and it is worth
+One of the most persistent bad practices in network security, and it is worth
 addressing directly because it appears in real firewall policies constantly.
 
 **The reasoning behind it:** ICMP can be used for reconnaissance (ping sweeps), for covert
@@ -140,11 +140,11 @@ channels (data in echo payloads), and historically for attacks (Smurf, Ping of D
 | Type 0/8 | You cannot verify basic reachability |
 
 **The first row is the serious one.** Chapter 24 §24.3's black hole is caused by exactly
-this, it is common, and **the symptom looks nothing like a firewall problem** — which is
+this, it is common, and the symptom looks nothing like a firewall problem — which is
 why it costs so much time.
 
 **And in IPv6 it is fatal.** ICMPv6 carries NDP, router discovery and address resolution
-(Chapter 18 §18.4), so **blocking ICMPv6 breaks IPv6 entirely.** RFC 4890 exists to say
+(Chapter 18 §18.4), so blocking ICMPv6 breaks IPv6 entirely. RFC 4890 exists to say
 which types must pass.
 
 **The correct policy:**
@@ -163,7 +163,7 @@ which types must pass.
 | Types 13–18 | information leaks, no modern use |
 | Unrestricted echo inbound | reconnaissance, and it is a reasonable trade |
 
-> **Rate-limit ICMP. Do not block it. And never block type 3 code 4.**
+> Rate-limit ICMP. Do not block it. And never block type 3 code 4.
 
 ## ICMPv6
 
@@ -177,7 +177,7 @@ separate protocols in IPv4:
 | **Router discovery** | ICMP router discovery, rarely used | **ICMPv6 — RA/RS** |
 | **Multicast group management** | **IGMP** (its own protocol) | **ICMPv6 — MLD** |
 
-**Three protocols folded into one**, which is why ICMPv6 is load-bearing in a way ICMP
+Three protocols folded into one, which is why ICMPv6 is load-bearing in a way ICMP
 never was.
 
 **The types:**
@@ -192,10 +192,10 @@ never was.
 | **133–137** | **NDP** — RS, RA, NS, NA, Redirect (Chapter 18 §18.4) |
 
 **Note type 2.** IPv6 gave "packet too big" its own type rather than burying it as a code,
-which reflects how important PMTUD became once **routers were forbidden to fragment**
+which reflects how important PMTUD became once routers were forbidden to fragment
 (Chapter 24 §24.3). In IPv6 the source *must* discover the path MTU; there is no fallback.
 
-**Under 128 is an error; 128 and above is informational** — a clean split that IPv4's
+Under 128 is an error; 128 and above is informational — a clean split that IPv4's
 numbering lacks.
 
 ## What breaks here
@@ -209,13 +209,13 @@ fault.**
 **A connection failing slowly instead of quickly.** ICMP errors filtered, so a refusal
 became a timeout.
 
-**IPv6 not working at all after a firewall change.** ICMPv6 blocked. RFC 4890.
+IPv6 not working at all after a firewall change. ICMPv6 blocked. RFC 4890.
 
-**An ICMP error that cannot be attributed to a connection.** NAT did not rewrite the
+An ICMP error that cannot be attributed to a connection. NAT did not rewrite the
 embedded header.
 
 > **Network+ note.** Objective 1.4 expects ICMP. Over-learn: **it is IP protocol 1**;
-> **type 8 echo request, type 0 echo reply, type 11 time exceeded, type 3 destination
-> unreachable**; **the type 3 codes, especially 4 (fragmentation needed) and 3 (port
-> unreachable)**; and **blocking all ICMP breaks path MTU discovery, and breaks IPv6
-> entirely.** The type numbers are examined directly.
+> type 8 echo request, type 0 echo reply, type 11 time exceeded, type 3 destination
+> unreachable; the type 3 codes, especially 4 (fragmentation needed) and 3 (port
+> unreachable); and blocking all ICMP breaks path MTU discovery, and breaks IPv6
+> entirely. The type numbers are examined directly.

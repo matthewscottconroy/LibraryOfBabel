@@ -15,14 +15,14 @@ IPv4's despite carrying addresses four times the size:
 | **Broadcast** | Every use replaced by multicast |
 | Variable header length | Fixed 40 bytes; no IHL field needed |
 
-**Each removal is an application of the end-to-end argument** (Chapter 23 §23.4), and
+Each removal is an application of the end-to-end argument (Chapter 23 §23.4), and
 together they make IPv6 forwarding cheaper per packet than IPv4 despite the larger
 addresses. This is not widely appreciated and it is one of the better arguments for the
 protocol.
 
 Deering has been notably candid about what was underestimated. His public position — that
-**the transition difficulty was badly misjudged, and backward incompatibility was the
-central cost** — is unusually honest for a protocol's architect, and §28.1's account
+the transition difficulty was badly misjudged, and backward incompatibility was the
+central cost — is unusually honest for a protocol's architect, and §28.1's account
 follows him.
 
 **Robert Hinden (b. 1949).** Deering's co-author on the IPv6 specification and the
@@ -52,21 +52,21 @@ adopting an OSI protocol after winning that argument (Chapter 22) was unthinkabl
 The choice of a clean redesign over a compatible-but-compromised one is the decision
 §28.1 examines, and it is genuinely arguable in both directions.
 
-**Thomas Narten, Erik Nordmark, William Simpson and Hesham Soliman.** NDP (RFC 4861),
-covered in Chapter 18's notes. **Neighbour Unreachability Detection is the contribution
-with the largest operational consequence** — it is why an IPv6 host recovers from a dead
+Thomas Narten, Erik Nordmark, William Simpson and Hesham Soliman. NDP (RFC 4861),
+covered in Chapter 18's notes. Neighbour Unreachability Detection is the contribution
+with the largest operational consequence — it is why an IPv6 host recovers from a dead
 first hop without VRRP.
 
 **Susan Thomson, Thomas Narten and Tatuya Jinmei.** **RFC 4862**, SLAAC. The mechanism of
 §28.3, and the most distinctive thing IPv6 does.
 
-Its ambition is worth stating: **a network with no servers, no configuration and no
-administrator should give every host a working global address and a default route.** It
+Its ambition is worth stating: a network with no servers, no configuration and no
+administrator should give every host a working global address and a default route. It
 achieves this, and the achievement is diminished only by the RDNSS gap — for a decade,
 SLAAC gave you everything except the ability to resolve a name, which meant nothing
 worked.
 
-**The gap is instructive**: a mechanism that is 95% complete can be 0% useful, and the
+The gap is instructive: a mechanism that is 95% complete can be 0% useful, and the
 missing 5% took until RFC 8106 in 2017.
 
 **Thomas Narten and Richard Draves.** **RFC 3041**, later **RFC 4941** — privacy
@@ -74,35 +74,35 @@ addresses. The response to the EUI-64 tracking problem of §28.3.
 
 What is notable is the **timeline**: EUI-64 was specified in 1998, the privacy concern
 was raised almost immediately, RFC 3041 appeared in **2001**, and privacy addresses
-became the default across operating systems over the following decade. **A privacy
+became the default across operating systems over the following decade. A privacy
 problem identified early, addressed by a standard within three years, and deployed by
-default** — which is a far better record than most of this book's security stories, and
+default — which is a far better record than most of this book's security stories, and
 worth noting as a counterexample.
 
 **Fernando Gont.** RFC 7217 (stable-privacy addresses), RFC 8064, and a great deal of
-IPv6 security analysis. His work on **IPv6 in operational security** — the attack surface
+IPv6 security analysis. His work on IPv6 in operational security — the attack surface
 of NDP, the rogue RA problem, extension header abuse — is the most systematic that
 exists, and §28.4's security-gap argument follows his framing.
 
-His repeated point is that **IPv6 is not more or less secure than IPv4; it is
+His repeated point is that IPv6 is not more or less secure than IPv4; it is
 differently secure, and organisations that have not analysed the difference are exposed
-by default** — because IPv6 is on whether or not they deployed it.
+by default — because IPv6 is on whether or not they deployed it.
 
 **Dan Wing and Andrew Yourtchenko.** **RFC 6555**, Happy Eyeballs, later **RFC 8305**.
 
 The contribution is small in specification terms and enormous in effect. Before it, a
-site with a broken AAAA record was unreachable for IPv6-capable users, so **publishing a
-AAAA record was a risk** — which meant content providers would not, which meant there was
+site with a broken AAAA record was unreachable for IPv6-capable users, so publishing a
+AAAA record was a risk — which meant content providers would not, which meant there was
 nothing to reach over IPv6, which meant nobody deployed it.
 
-**Happy Eyeballs broke that deadlock** by making broken IPv6 cost 250 ms instead of
+Happy Eyeballs broke that deadlock by making broken IPv6 cost 250 ms instead of
 everything. World IPv6 Launch in June 2012 — when major content providers enabled IPv6
 permanently — was feasible because of it.
 
-> **Sometimes the unblocking contribution is not the protocol but the thing that makes
-> deploying the protocol safe to try.**
+> Sometimes the unblocking contribution is not the protocol but the thing that makes
+> deploying the protocol safe to try.
 
-**Marcelo Bagnulo, Philip Matthews, Iljitsch van Beijnum and Andrew Sullivan.** NAT64
+Marcelo Bagnulo, Philip Matthews, Iljitsch van Beijnum and Andrew Sullivan. NAT64
 (RFC 6146) and DNS64 (RFC 6147) — the mechanisms that let an IPv6-only network reach the
 IPv4 Internet, and therefore the mechanisms that made IPv6-only deployment possible at
 all.
@@ -111,7 +111,7 @@ all.
 Byrne was at T-Mobile US and drove the deployment, which is why the carrier has run an
 IPv6-only mobile core since 2014.
 
-**464XLAT is the most successful IPv6 transition mechanism by user count**, running on
+464XLAT is the most successful IPv6 transition mechanism by user count, running on
 hundreds of millions of handsets, and almost nobody outside the field has heard of it.
 
 **Geoff Huston (b. 1954).** Again. His IPv6 adoption measurements are the source of every

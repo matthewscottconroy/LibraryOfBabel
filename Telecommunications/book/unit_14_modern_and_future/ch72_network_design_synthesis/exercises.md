@@ -136,8 +136,8 @@ under uncertainty with incomplete information. What do they share, and where do 
 
 ## D. Design
 
-**These five are the chapter's real assessment. Each should produce a document of the shape
-§72.4 describes, and the decision record and the limits section are what is being assessed.**
+These five are the chapter's real assessment. Each should produce a document of the shape
+§72.4 describes, and the decision record and the limits section are what is being assessed.
 
 **D1.** Design the complete network for a 220-person professional services firm on three floors
 of one building, with an office of 15 in another city, a cloud-first application strategy, one
@@ -166,7 +166,7 @@ made, record that as a finding.
 
 ## E. Troubleshoot
 
-**These are design failures rather than operational ones.**
+These are design failures rather than operational ones.
 
 **E1.** A design meets every stated requirement and the client rejects it. Give four possible
 causes and the elicitation question that addresses each.

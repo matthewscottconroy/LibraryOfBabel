@@ -25,24 +25,24 @@ HOST : 10.1.0.5 : UCLA-CCN : IBM-3033 : OS/MVS : TCP/TELNET :
 3. Everyone else **downloaded it by FTP**, periodically
 4. Your machine consulted its local copy
 
-**And it worked well for over a decade**, which is worth acknowledging. For a few hundred
+And it worked well for over a decade, which is worth acknowledging. For a few hundred
 hosts administered by people who all knew each other, a central file is simple, correct,
 and easy to reason about.
 
-**Its descendant is still on your machine** — `/etc/hosts`, or
+Its descendant is still on your machine — `/etc/hosts`, or
 `C:\Windows\System32\drivers\etc\hosts` — and it is still consulted **before** DNS, which
 is occasionally very useful and occasionally the cause of a fault nobody can find.
 
 ## The four ways it broke
 
-**Each one maps directly onto a DNS design decision**, which is why this history is worth
+Each one maps directly onto a DNS design decision, which is why this history is worth
 knowing.
 
 ### 1. Traffic
 
 **Every host on the Internet downloaded the entire file, repeatedly.**
 
-As the network grew, the file grew, **and the number of machines downloading it grew** — so
+As the network grew, the file grew, and the number of machines downloading it grew — so
 the load on SRI-NIC rose with the *product* of the two.
 
 By 1982 a single machine was serving the whole Internet's naming, and the growth was
@@ -57,7 +57,7 @@ visibly unsustainable.
 **One flat namespace, and everyone wanted the obvious names.**
 
 Two universities both wanting the host `ORION` had to negotiate — through SRI-NIC, by
-telephone. **As the network grew, every good name was taken**, and there was no principled
+telephone. As the network grew, every good name was taken, and there was no principled
 way to allocate them.
 
 > **A flat namespace has no way to delegate authority over parts of itself.**
@@ -70,7 +70,7 @@ neither institution needs the other's permission.
 **Everyone had a different copy.**
 
 You downloaded the file on Tuesday; a host was added on Wednesday; you could not reach it
-until you downloaded again. **There was no way to know your copy was stale**, and no way to
+until you downloaded again. There was no way to know your copy was stale, and no way to
 learn about a change without re-fetching everything.
 
 **DNS's answer: query on demand**, so you always ask for what you need when you need it,
@@ -81,7 +81,7 @@ bounded too.
 
 **One organisation approved every name on the Internet.**
 
-Slow, and — more fundamentally — **it did not scale as a *human* process.** Feinler's team
+Slow, and — more fundamentally — it did not scale as a *human* process. Feinler's team
 was not the constraint because they were slow; they were the constraint because **there is
 no number of people who can approve every name for a global network.**
 
@@ -95,7 +95,7 @@ no number of people who can approve every name for a global network.**
 **Paul Mockapetris, at USC/ISI, 1983.** RFCs 882 and 883, revised in 1987 as **RFC 1034**
 (concepts) and **RFC 1035** (implementation) — which are still the specification.
 
-**Four ideas, and each answers one of the four failures above:**
+Four ideas, and each answers one of the four failures above:
 
 | Idea | Answers |
 |---|---|
@@ -131,7 +131,7 @@ have **no single point of failure** — while still producing one authoritative 
 - **the root** — the trailing dot that is almost always omitted
 
 **`www.example.com.`** — with the final dot — is the **fully qualified domain name**, and
-the dot is the root. **Most software adds it for you**, which is why you rarely see it and
+the dot is the root. Most software adds it for you, which is why you rarely see it and
 why it occasionally matters (§39.2's search domains).
 
 **The tree's properties are the design:**
@@ -150,7 +150,7 @@ permission** — you edit your own zone.
 > §31.4's OSPF areas: hierarchy is what makes a large system's state tractable, and
 > delegation is what makes its administration tractable.**
 
-**Two different problems — state and authority — solved by the same structure**, and DNS is
+Two different problems — state and authority — solved by the same structure, and DNS is
 the clearest example in this book because it solves both simultaneously and visibly.
 
 ## Zones versus domains
@@ -159,7 +159,7 @@ the clearest example in this book because it solves both simultaneously and visi
 
 **A domain** is a subtree of the namespace — **everything under a name.**
 
-**A zone** is **the part of a domain that one server is authoritative for**, excluding
+**A zone** is the part of a domain that one server is authoritative for, excluding
 anything delegated away.
 
 ```
@@ -179,7 +179,7 @@ anything delegated away.
 > **The domain `example.com` includes `build.eng.example.com`. The zone `example.com` does
 > not.**
 
-**A zone is an administrative unit; a domain is a naming unit.** The zone stops where
+A zone is an administrative unit; a domain is a naming unit. The zone stops where
 delegation begins, and the boundary is created by an **NS record** (§39.3).
 
 ## Case, and other properties
@@ -191,7 +191,7 @@ are the same name.
 randomises the case of its query, and a valid response must echo it exactly — **adding
 entropy against spoofing** (§39.4) at no protocol cost.
 
-**Labels are limited to 63 characters**, and a full name to **255**.
+Labels are limited to 63 characters, and a full name to **255**.
 
 **Internationalised names** are encoded into ASCII with **Punycode** (RFC 3492):
 `münchen.de` becomes `xn--mnchen-3ya.de`. **Which created a security problem** —
@@ -200,7 +200,7 @@ display Punycode when a name mixes scripts suspiciously.
 
 ## What DNS is used for beyond names
 
-**Worth flagging early, because it explains the record types of §39.3:**
+Worth flagging early, because it explains the record types of §39.3:
 
 - **Mail routing** — MX records
 - **Service discovery** — SRV records; how a client finds an LDAP or SIP server
@@ -221,7 +221,7 @@ display Punycode when a name mixes scripts suspiciously.
 Before a browser can open a TCP connection, before TLS, before HTTP — **a name must
 resolve.** Which makes DNS:
 
-**The most common cause of "the network is broken"** (Chapter 22 §22.4). `ping 8.8.8.8`
+The most common cause of "the network is broken" (Chapter 22 §22.4). `ping 8.8.8.8`
 working while `ping google.com` fails identifies it in two commands, and a very large share
 of reported network faults are exactly this.
 

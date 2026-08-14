@@ -1,16 +1,16 @@
 # 62.4 Defence in Depth and Hardening
 
-**The unit's closing argument, and a checklist you can actually apply.**
+The unit's closing argument, and a checklist you can actually apply.
 
 ## Defence in depth, stated precisely
 
-**The phrase is used loosely to mean "several security products".** **What it actually means is
-narrower and more useful:**
+The phrase is used loosely to mean "several security products". What it actually means is
+narrower and more useful:
 
 > **No single control failure should result in compromise.**
 
-**Which is a statement about independence, and it is Chapter 56 §56.2's shared-fate argument
-applied to security controls.**
+Which is a statement about independence, and it is Chapter 56 §56.2's shared-fate argument
+applied to security controls.
 
 | | |
 |---|---|
@@ -18,28 +18,28 @@ applied to security controls.**
 | **Independent** | **and they must not share a failure mode** |
 | **Diverse** | **different mechanisms, so one class of flaw does not defeat all of them** |
 
-**The shared-fate question applies exactly as it did to redundancy:**
+The shared-fate question applies exactly as it did to redundancy:
 
-**Three firewalls from one vendor with one vulnerability are one firewall.** **Two controls
-managed by the same compromised administrator account are one control.** **Detection and
-prevention that both depend on the same signature feed are one control.**
+Three firewalls from one vendor with one vulnerability are one firewall. Two controls
+managed by the same compromised administrator account are one control. Detection and
+prevention that both depend on the same signature feed are one control.
 
-**And the honest qualification:** **diversity has real costs** — **more products, more expertise,
-more integration, more to go wrong** — **and "defence in depth" is frequently used to justify
+**And the honest qualification:** diversity has real costs — more products, more expertise,
+more integration, more to go wrong — and "defence in depth" is frequently used to justify
 buying another product rather than to assess whether the controls you have are actually
-independent.**
+independent.
 
-**The useful exercise:** **for each of your controls, ask what single event defeats it, and see
-how many of the answers are the same event.**
+**The useful exercise:** for each of your controls, ask what single event defeats it, and see
+how many of the answers are the same event.
 
 ## Assume breach
 
-**The corollary, and it changes what you build.**
+The corollary, and it changes what you build.
 
-> **Every control eventually fails.** **The question is not whether an attacker gets in, but
-> what they reach and how quickly you notice.**
+> **Every control eventually fails.** The question is not whether an attacker gets in, but
+> what they reach and how quickly you notice.
 
-**Which is why the highest-value controls in this unit are not preventive:**
+Which is why the highest-value controls in this unit are not preventive:
 
 | Control | Kind | What it does when prevention has failed |
 |---|---|---|
@@ -50,14 +50,14 @@ how many of the answers are the same event.**
 | **Offline backups** (Chapter 56 §56.4) | **recovery** | **decides the ransomware outcome** |
 | **Tested recovery** (Chapter 56) | recovery | **converts a catastrophe into an outage** |
 
-**Chapter 57 §57.1's data supports this:** **the median time to detection is weeks or months, and
-a significant share of breaches are reported by a third party.** **You are not going to catch the
-intrusion; you are trying to limit and detect what follows.**
+**Chapter 57 §57.1's data supports this:** the median time to detection is weeks or months, and
+a significant share of breaches are reported by a third party. You are not going to catch the
+intrusion; you are trying to limit and detect what follows.
 
 ## The device hardening checklist
 
-**Applicable to switches, routers, firewalls and wireless controllers.** **Every item prevents
-something specific in this unit.**
+Applicable to switches, routers, firewalls and wireless controllers. Every item prevents
+something specific in this unit.
 
 ### Management plane
 
@@ -115,17 +115,17 @@ something specific in this unit.**
      on port security and BPDU guard violations
 ```
 
-> **Every line is one command or two.** **The reason estates are not hardened is not difficulty;
-> it is that nothing breaks when these are absent** (Chapter 55 §55.1's invisibility argument),
-> **and nobody is thanked for the incident that did not happen** (Chapter 55 §55.1 again).
+> **Every line is one command or two.** The reason estates are not hardened is not difficulty;
+> it is that nothing breaks when these are absent (Chapter 55 §55.1's invisibility argument),
+> and nobody is thanked for the incident that did not happen (Chapter 55 §55.1 again).
 
-**Which is the argument for automating it** (Chapter 70): **a hardening standard that is a
-template applied by a tool is a standard that is actually deployed**, and **a hardening standard
-in a wiki is a document.**
+Which is the argument for automating it (Chapter 70): a hardening standard that is a
+template applied by a tool is a standard that is actually deployed, and a hardening standard
+in a wiki is a document.
 
 ## Where to spend, in order
 
-**The unit's practical conclusion, ordered by effect per pound.**
+The unit's practical conclusion, ordered by effect per pound.
 
 | | Control | Addresses |
 |---|---|---|
@@ -140,59 +140,59 @@ in a wiki is a document.**
 | **9** | **802.1X** | Ch 59 §59.2 — **more work, and it is dynamic segmentation** |
 | **10** | **Everything else** | |
 
-> **Items 1 to 4 are cheap, certain and unglamorous, and an organisation that has done only
+> Items 1 to 4 are cheap, certain and unglamorous, and an organisation that has done only
 > those has changed its outcomes more than one that has bought three products and skipped
-> them.** **This ordering is not what the security market sells and it is what the incident data
-> supports.**
+> them. This ordering is not what the security market sells and it is what the incident data
+> supports.
 
 ## What this unit has argued
 
-**Six chapters, and the through-line is worth stating.**
+Six chapters, and the through-line is worth stating.
 
-**The properties are three and the list is complete** (Chapter 57). **Everything else is a
-mechanism.**
+The properties are three and the list is complete (Chapter 57). Everything else is a
+mechanism.
 
-**The cryptography works and the deployments fail** (Chapter 58). **Nonces, certificate
-validation, key management and implementation — never the cipher.**
+The cryptography works and the deployments fail (Chapter 58). Nonces, certificate
+validation, key management and implementation — never the cipher.
 
-**Authentication is not authorization, and the second fails more often** (Chapter 59).
+Authentication is not authorization, and the second fails more often (Chapter 59).
 
-**Default deny, and the control must be where the traffic actually passes** (Chapter 60).
+Default deny, and the control must be where the traffic actually passes (Chapter 60).
 
-**A tunnel grants network access, and network access is the thing being reconsidered**
+A tunnel grants network access, and network access is the thing being reconsidered
 (Chapter 61).
 
-**And the attacks are old, were documented before deployment, and remain effective because the
-fixes cost someone other than the beneficiary** (Chapter 62; Chapter 57 §57.4's BCP 38).
+And the attacks are old, were documented before deployment, and remain effective because the
+fixes cost someone other than the beneficiary (Chapter 62; Chapter 57 §57.4's BCP 38).
 
-> **The uncomfortable summary: almost nothing in this unit is new.** **Bellovin enumerated the
-> protocol attacks in 1989. Saltzer and Schroeder gave the design principles in 1975.**
-> **The gap between what is known and what is deployed is where security work actually
-> happens**, and it is an organisational and economic gap rather than a technical one.
+> **The uncomfortable summary: almost nothing in this unit is new.** Bellovin enumerated the
+> protocol attacks in 1989. Saltzer and Schroeder gave the design principles in 1975.
+> The gap between what is known and what is deployed is where security work actually
+> happens, and it is an organisational and economic gap rather than a technical one.
 
 ## What breaks here
 
-**Three products from one vendor described as defence in depth.** **One vulnerability defeats
-all three.** Ask what single event defeats each control.
+Three products from one vendor described as defence in depth. One vulnerability defeats
+all three. Ask what single event defeats each control.
 
-**A hardening standard in a wiki.** **It is a document.** Automate it.
+**A hardening standard in a wiki.** It is a document. Automate it.
 
-**Controls deployed and nothing instrumented.** Chapter 57 §57.4 — **a control with no detection
-is a control you are trusting.**
+**Controls deployed and nothing instrumented.** Chapter 57 §57.4 — a control with no detection
+is a control you are trusting.
 
-**An organisation with an EDR product, a NGFW and no MFA.** **Items 1 to 4 were skipped.**
+An organisation with an EDR product, a NGFW and no MFA. Items 1 to 4 were skipped.
 
-**Detection that depends on the same signature feed as prevention.** **Not independent.**
+Detection that depends on the same signature feed as prevention. **Not independent.**
 
 **A hardened perimeter and a flat interior.** **Assume breach.** The interior is where the
 compromise will be.
 
-**Everything hardened and the backups reachable with domain credentials.** Chapter 57 §57.1
-step 5, **and it is the one that decides the outcome.**
+Everything hardened and the backups reachable with domain credentials. Chapter 57 §57.1
+step 5, and it is the one that decides the outcome.
 
 > **Network+ note.** Objective 4.3 covers hardening directly, and this section is the
-> consolidated list. Over-learn: **change default credentials, disable unused ports and
+> consolidated list. Over-learn: change default credentials, disable unused ports and
 > services, use secure protocols (SSH not Telnet, SNMPv3 not v2c), apply patches, implement port
-> security, DHCP snooping, DAI and BPDU guard, and separate the management network.**
+> security, DHCP snooping, DAI and BPDU guard, and separate the management network.
 > **Defence in depth means layered independent controls.** This section and §57.4 together cover
 > the whole objective.

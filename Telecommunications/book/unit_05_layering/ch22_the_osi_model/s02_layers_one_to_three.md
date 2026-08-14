@@ -27,18 +27,18 @@ the same thing, and why the distinction matters for every rate calculation.)
 **Devices:** cables, connectors, repeaters, hubs, transceivers, media converters,
 patch panels, antennas.
 
-**Key idea:** Layer 1 has **no idea what the bits mean**. It carries a stream of
+**Key idea:** Layer 1 has no idea what the bits mean. It carries a stream of
 symbols. Chapter 6's line codes exist to make the stream recoverable — self-clocking,
 DC-balanced — not to make it meaningful.
 
 **Its faults:** cable damage, wrong cable type, exceeded distance, bad connector,
-interference, dirty fibre, failed transceiver, no power. **Layer 1 faults are the most
-common faults in networking and the cheapest to check**, which is why §22.4's method
+interference, dirty fibre, failed transceiver, no power. Layer 1 faults are the most
+common faults in networking and the cheapest to check, which is why §22.4's method
 starts there.
 
 ## Layer 2 — Data Link
 
-**What it does:** deliver frames between devices **on the same network segment**.
+**What it does:** deliver frames between devices on the same network segment.
 
 **Unit:** the **frame**.
 
@@ -71,8 +71,8 @@ Ethernet II framing with an EtherType displaced LLC for almost everything (Chapt
 §15.3), so LLC survives mainly in 802.11 and in exam questions.
 
 **Key idea:** Layer 2 delivers **on one link**. It has no concept of a network beyond
-the segment, no routing, and — critically — **no way to reach anything a frame cannot
-be addressed to directly**. That limitation is what Layer 3 exists to remove.
+the segment, no routing, and — critically — no way to reach anything a frame cannot
+be addressed to directly. That limitation is what Layer 3 exists to remove.
 
 **Its faults:** duplex mismatch, wrong VLAN, spanning-tree blocking, MAC table
 problems, ARP failures, switching loops, frame errors from a Layer 1 problem.
@@ -113,9 +113,9 @@ Layer 1 moves bits along a wire. Layer 2 groups them into frames and delivers th
 device **on that wire**. Layer 3 carries packets **across many wires**, using Layer 2
 on each one in turn.
 
-Which is exactly the traced example of Chapter 18 §18.1: **one packet, many frames**.
+Which is exactly the traced example of Chapter 18 §18.1: one packet, many frames.
 The IP header rides unchanged from source to destination while a new Layer 2 header is
-built and discarded at every hop. **Layer 3 is end-to-end; Layer 2 is hop-by-hop.**
+built and discarded at every hop. Layer 3 is end-to-end; Layer 2 is hop-by-hop.
 
 ## The address correspondence
 
@@ -146,8 +146,8 @@ most questions about which layer is responsible for what.
 | Load balancer | **4 or 7** | depends entirely on the load balancer |
 | **NAT** | **3, and 4** | rewrites addresses *and* ports |
 
-The awkward rows are §21.4's subject. **They are awkward because the model is a
-description, not a constraint** — and being able to say *why* something does not fit is
+The awkward rows are §21.4's subject. They are awkward because the model is a
+description, not a constraint — and being able to say *why* something does not fit is
 better understanding than being able to assign it a number.
 
 ## What breaks here
@@ -162,11 +162,11 @@ break broadcast domains, and does not know what an IP address is.
 
 **Assuming Layer 3 provides reliability.** It provides none, deliberately.
 
-**Assuming a wireless access point is Layer 1** because radio is Layer 1. The radio is
+Assuming a wireless access point is Layer 1 because radio is Layer 1. The radio is
 Layer 1; the access point makes forwarding decisions on MAC addresses and is Layer 2.
 
 > **Network+ note.** Objective 1.1 examines this constantly, most often as "at which
 > layer does device X operate?" or "at which layer does protocol Y operate?" Over-learn
 > the device table and the address table. The three most-missed items are **the access
-> point (Layer 2, not 1)**, **the Layer 3 switch (Layer 3, despite the name)**, and
-> **ARP (does not fit; answer Layer 2 if forced)**.
+> point (Layer 2, not 1)**, the Layer 3 switch (Layer 3, despite the name), and
+> ARP (does not fit; answer Layer 2 if forced).

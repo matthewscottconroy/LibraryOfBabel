@@ -5,7 +5,7 @@ proposes a mechanism its authors describe as a **short-term measure**, it catalo
 architectural damage the mechanism causes with unusual candour, and it recommends it
 anyway.
 
-**Thirty-two years later it is on essentially every network on Earth**, and IPv6 — the
+Thirty-two years later it is on essentially every network on Earth, and IPv6 — the
 permanent solution it was meant to buy time for — is at roughly half of Internet traffic.
 
 ## The problem it solved
@@ -50,7 +50,7 @@ address rather than 10,000. Across the Internet, NAT plus RFC 1918 removed deman
 billions of addresses.
 
 **The measured effect:** exhaustion arrived at IANA in **February 2011** rather than the
-late 1990s. **NAT and CIDR together bought roughly fifteen years.**
+late 1990s. NAT and CIDR together bought roughly fifteen years.
 
 ## The terminology
 
@@ -66,7 +66,7 @@ Cisco's four terms, which are examined and which confuse everyone once:
 **The pattern:** *inside/outside* says **whose address it is**; *local/global* says **which
 side of the NAT you are standing on.**
 
-**"Inside local" and "inside global" are the pair that matters** — they are the two ends of
+"Inside local" and "inside global" are the pair that matters — they are the two ends of
 the translation, and the other two are usually identical to each other because most NAT
 only translates one side.
 
@@ -101,7 +101,7 @@ is fragile**, because it disappears the moment the side effect changes.
 | **Anything that establishes an outbound connection** | ✗ |
 | Data exfiltration | ✗ |
 
-**Nearly every modern attack begins with an outbound connection**, which NAT permits
+Nearly every modern attack begins with an outbound connection, which NAT permits
 without inspection.
 
 ### NAT is not security
@@ -109,7 +109,7 @@ without inspection.
 Following directly: an organisation that treats "we are behind NAT" as a security posture
 has no security posture. **The firewall provides the security.** Chapter 58 covers what a
 firewall actually does, and the distinction is the same one Chapter 20 §20.1 made about
-VLANs: **NAT creates a boundary; it does not enforce anything at it.**
+VLANs: NAT creates a boundary; it does not enforce anything at it.
 
 ### NAT is not required for privacy
 
@@ -166,7 +166,7 @@ connection through it dies**, because the table that mapped them is gone.
 
 **For NAT:**
 
-- **The alternative was running out of addresses in 1998**, before IPv6 existed
+- The alternative was running out of addresses in 1998, before IPv6 existed
 - The Internet grew by three orders of magnitude anyway
 - Billions of devices connected that otherwise could not have
 - It was deployable **immediately, unilaterally, by anyone**, with no coordination —

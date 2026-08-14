@@ -21,7 +21,7 @@ neighbour state machine), §12 (LSAs) and §16 (the SPF calculation). The state 
 §10 is what §31.3's diagnostic table summarises, and reading it once makes the stuck-state
 diagnoses obvious rather than memorised.
 
-**RFC 5340 — Coltun, R. et al. (2008). *OSPF for IPv6* (OSPFv3).**
+RFC 5340 — Coltun, R. et al. (2008). *OSPF for IPv6* (OSPFv3).
 What had to change, and why IS-IS did not need an equivalent.
 
 **RFC 7868 — Savage, D. et al. (2016). *Cisco's EIGRP.***
@@ -43,11 +43,11 @@ Precomputing the backup next hop.
 
 ## Books
 
-**Moy, J. (1998). *OSPF: Anatomy of an Internet Routing Protocol.* Addison-Wesley.**
+Moy, J. (1998). *OSPF: Anatomy of an Internet Routing Protocol.* Addison-Wesley.
 **By the protocol's author**, and unusually candid about what he would change. The best
 explanation of *why* OSPF is shaped as it is.
 
-**Doyle, J. & Carroll, J. (2005). *Routing TCP/IP, Volume 1*, 2nd ed. Cisco Press.**
+Doyle, J. & Carroll, J. (2005). *Routing TCP/IP, Volume 1*, 2nd ed. Cisco Press.
 **The reference for this unit.** Chapters 4–9 cover RIP, EIGRP and OSPF in depth with
 worked convergence examples and the failure modes. Chapter 5's treatment of
 count-to-infinity is better than this one.
@@ -57,7 +57,7 @@ Chapters 12–14 on routing, from someone who designed one of the two link-state
 Her comparison of IS-IS and OSPF is the fair one, written by the person with the most
 reason to be unfair.
 
-**White, R., Slice, D. & Retana, A. (2005). *Optimal Routing Design.* Cisco Press.**
+White, R., Slice, D. & Retana, A. (2005). *Optimal Routing Design.* Cisco Press.
 The design half of §31.4 — areas, summarisation, convergence tuning — with the reasoning
 rather than the rules.
 
@@ -73,7 +73,7 @@ implementations of RIP, OSPF, IS-IS and BGP. **Containerlab** makes a ten-router
 a single YAML file.
 
 **Exercise F1 is the one to do first:** four routers running RIP, break a link, capture the
-updates, and **watch the metric count to infinity.** Nothing else makes §31.2 real. It
+updates, and watch the metric count to infinity. Nothing else makes §31.2 real. It
 takes about ten minutes to build and eight minutes to observe.
 
 **Then F2:** the same topology with OSPF, and measure convergence. Then add BFD and
@@ -84,7 +84,7 @@ argument of this unit in one table you produced yourself.**
 an adjacency in each of the eight ways in §31.3's checklist and confirm the symptom each
 time.
 
-**Create an MTU mismatch on purpose** and watch the adjacency stick at ExStart. This is
+Create an MTU mismatch on purpose and watch the adjacency stick at ExStart. This is
 the single most-diagnosed OSPF fault, and having seen it once you will recognise it
 instantly.
 
@@ -108,9 +108,9 @@ Objective 2.2 expects routing protocols, their categories and their characterist
 Eight things worth over-learning:
 
 1. **Distance vector exchanges distances; link state floods topology.**
-2. **RIP: hop count, max 15, 16 = unreachable, 30 s updates, AD 120.**
-3. **OSPF: link state, cost from bandwidth, AD 110, `224.0.0.5`, hello 10 / dead 40.**
-4. **EIGRP: advanced distance vector, AD 90 internal / 170 external, DUAL.**
+2. RIP: hop count, max 15, 16 = unreachable, 30 s updates, AD 120.
+3. OSPF: link state, cost from bandwidth, AD 110, `224.0.0.5`, hello 10 / dead 40.
+4. EIGRP: advanced distance vector, AD 90 internal / 170 external, DUAL.
 5. **The five loop-prevention mechanisms**: split horizon, poison reverse, route
    poisoning, holddown, triggered updates.
 6. **Area 0 is the backbone**; every area connects to it; inter-area traffic passes

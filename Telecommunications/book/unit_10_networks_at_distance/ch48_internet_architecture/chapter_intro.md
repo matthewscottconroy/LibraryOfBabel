@@ -52,7 +52,7 @@ worth understanding because it means brief spikes are free and sustained load is
 routes everywhere and everyone's routes to you.
 
 **Peering** is a lateral relationship, usually settlement-free. Two networks exchange
-traffic **between their own customers only**. Neither pays. Both save transit fees on
+traffic between their own customers only. Neither pays. Both save transit fees on
 that traffic. Crucially, a peer does not provide transit *through* itself to third
 parties, and a peer that begins doing so — accidentally, usually through a
 configuration error — is committing the route leak of Chapter 32 §32.4.

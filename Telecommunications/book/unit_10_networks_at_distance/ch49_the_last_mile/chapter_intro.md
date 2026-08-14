@@ -1,7 +1,7 @@
 # Chapter 49 — The Last Mile
 
 The most expensive kilometre of any network is the last one, and it is expensive for
-a reason that no technology fixes: **it cannot be shared.**
+a reason that no technology fixes: it cannot be shared.
 
 Every other segment of a network serves many customers. A submarine cable serves
 millions; a metro fibre ring serves thousands; a neighbourhood distribution serves
@@ -53,7 +53,7 @@ designed for 750 MHz or more of downstream television — vastly more bandwidth 
 telephone copper. **DOCSIS** uses some of those television channels for data.
 
 The architectural difference from DSL matters and is worth being precise about.
-**A DSL line is dedicated to one subscriber; a DOCSIS segment is shared** among
+A DSL line is dedicated to one subscriber; a DOCSIS segment is shared among
 perhaps 100–500 homes on the same coaxial branch. Chapter 9's statistical multiplexing
 applies, with its gains and its consequence: performance depends on your neighbours'
 usage, which is the origin of the "slow at 8 p.m." complaint that cable subscribers
@@ -73,8 +73,8 @@ optical networking** shares one fibre among many subscribers using a purely opti
 splitter — no power, no electronics, no maintenance — typically 1:32 or 1:64.
 
 Downstream, the head end broadcasts to everyone and each terminal ignores what is not
-addressed to it, which means **downstream traffic is encrypted, because every
-subscriber physically receives every other subscriber's frames.** Upstream, terminals
+addressed to it, which means downstream traffic is encrypted, because every
+subscriber physically receives every other subscriber's frames. Upstream, terminals
 transmit in assigned time slots, which is Chapter 9's TDM applied to light, with the
 extra complication that each subscriber is a different distance from the head end and
 must be range-calibrated so that its slot arrives at the right moment.

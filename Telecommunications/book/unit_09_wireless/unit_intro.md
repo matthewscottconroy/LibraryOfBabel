@@ -7,7 +7,7 @@ reliable, full-duplex path between two endpoints.
 
 Radio is not that, in four specific ways, and this unit is about each of them.
 
-**The medium is shared and nobody owns it.** Your access point and your neighbour's
+The medium is shared and nobody owns it. Your access point and your neighbour's
 occupy the same physical space and the same frequencies, and there is no negotiation
 between them, no arbiter, and often no awareness. A microwave oven, a wireless
 security camera, and a badly shielded lighting ballast are all participants in your
@@ -28,7 +28,7 @@ behind a wall, and not at all in the lift. Chapter 4's capacity formula is not a
 abstraction here; it is the thing your device is tracking, in real time, several
 times a second, by walking up and down the constellation ladder of Chapter 8 §8.3.
 
-**Radio does not respect walls, and it does not respect property lines.** Anyone
+Radio does not respect walls, and it does not respect property lines. Anyone
 within range can hear every frame. On a wired network, physical access is a
 meaningful security boundary; on a wireless network it is not, and encryption is
 therefore not an enhancement but a structural requirement. Chapter 44's four-way
@@ -77,8 +77,8 @@ Matter; LoRaWAN and NB-IoT and the range/rate/power trilemma; NFC and RFID.
 
 ## The number that runs the unit
 
-If you take one thing from Unit IX, take this: **the useful quantity is not signal
-strength but signal-to-noise ratio**, and both terms are in dBm, and the arithmetic is
+If you take one thing from Unit IX, take this: the useful quantity is not signal
+strength but signal-to-noise ratio, and both terms are in dBm, and the arithmetic is
 subtraction.
 
 A client at −65 dBm against a −95 dBm noise floor has 30 dB of SNR and will run at a

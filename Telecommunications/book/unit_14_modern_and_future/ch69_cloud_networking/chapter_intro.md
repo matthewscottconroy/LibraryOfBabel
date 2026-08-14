@@ -3,8 +3,8 @@
 Here is the most useful thing to know before starting this chapter, and it will save
 you a great deal of time:
 
-> **Cloud networking is the networking you already know, with different names and an
-> API instead of a console cable.**
+> Cloud networking is the networking you already know, with different names and an
+> API instead of a console cable.
 
 A VPC is a routed network with an address plan. A subnet is a subnet. A route table is
 a route table. A security group is a stateful firewall rule set. An internet gateway is
@@ -17,9 +17,9 @@ learned "how to click the buttons in the console" without those chapters will be
 the moment something does not work — which is the situation a great many people are
 actually in, and it is why this book put those chapters where it did.
 
-What is genuinely different is not the concepts. It is three things: **the network is
-described in a document rather than cabled**, **the failure domains are explicit and
-named**, and **you cannot capture packets in the way you are used to**. Those three
+What is genuinely different is not the concepts. It is three things: the network is
+described in a document rather than cabled, the failure domains are explicit and
+named, and you cannot capture packets in the way you are used to. Those three
 differences shape everything in this chapter.
 
 ## The models, stated precisely
@@ -63,14 +63,14 @@ because the mapping is the fastest route to competence:
 
 Two of those repay attention.
 
-**Security groups are stateful; network ACLs are not.** A security group permitting
+Security groups are stateful; network ACLs are not. A security group permitting
 inbound port 443 automatically permits the return traffic (Chapter 60 §60.2). A network
 ACL does not — you must permit the ephemeral port range in the other direction, and
 forgetting this is one of the most common cloud networking faults. The two mechanisms
 exist because they operate at different scopes and one is a defence-in-depth layer for
 the other.
 
-**"Public subnet" is not a property of the subnet.** It means a subnet whose route
+"Public subnet" is not a property of the subnet. It means a subnet whose route
 table has a default route pointing at an internet gateway. There is no flag; it is
 routing, exactly as Chapter 29 describes. Understanding that removes most of the
 mystery from cloud network design.
@@ -92,8 +92,8 @@ lower egress costs.
 people. Traffic into a cloud provider is typically free; traffic out is charged per
 gigabyte, and traffic between availability zones is often charged too. An architecture
 that moves data across zones casually can produce a bill substantially larger than the
-compute it runs, and this is a **network design decision with a direct financial
-consequence** — which is unusual and worth knowing, because it is one of the few places
+compute it runs, and this is a network design decision with a direct financial
+consequence — which is unusual and worth knowing, because it is one of the few places
 where a network engineer's choice appears directly on a finance report.
 
 The non-transitivity of peering is the other structural fact: if A peers with B and B
@@ -106,12 +106,12 @@ gateways exist and why any design with more than a handful of VPCs needs a hub.
 §69.4's honest section, because these are the differences that catch experienced
 engineers.
 
-**You cannot capture packets the way you are used to.** There is no SPAN port on a
+You cannot capture packets the way you are used to. There is no SPAN port on a
 switch you do not own. Providers offer traffic mirroring services and flow logs, and
 they are more limited and more expensive than `tcpdump` on a mirror port. Chapter 64's
 capture-based diagnosis needs adaptation.
 
-**You cannot traceroute meaningfully through much of it.** The underlying network is
+You cannot traceroute meaningfully through much of it. The underlying network is
 abstracted; intermediate hops are frequently invisible.
 
 **Some things are simply not exposed.** Multicast, broadcast, and arbitrary Layer 2
@@ -119,7 +119,7 @@ adjacency generally are not available, because the underlying implementation is 
 routed overlay (Chapter 67). Applications that assume Layer 2 behaviour — some
 clustering software, some legacy licence servers — do not lift and shift.
 
-**The abstractions leak under load** in ways that are documented poorly, and instance
+The abstractions leak under load in ways that are documented poorly, and instance
 network performance is frequently tied to instance size in ways that are not obvious
 until measured.
 

@@ -1,140 +1,140 @@
 # Chapter 34 — Important Concepts
 
-**ICMP is IP's error channel** *(§34.1)* — RFC 792, 1981, never revised. **IP protocol
-1**, carried inside IP, part of IP, reporting on IP: **IP's control plane travelling
-inside IP's data plane.** No ports, no connections, no reliability — a single datagram, sent
+ICMP is IP's error channel *(§34.1)* — RFC 792, 1981, never revised. IP protocol
+1, carried inside IP, part of IP, reporting on IP: IP's control plane travelling
+inside IP's data plane. No ports, no connections, no reliability — a single datagram, sent
 once, never retried.
 
-**An error carries a copy of the offending packet** *(§34.1)* — Its IP header plus **the
-first 8 bytes of payload**, which for TCP and UDP is **exactly enough to include the
-ports** — so the sender can attribute the error to a connection. **A deliberate and
-necessary layer violation**, and the reason NAT must rewrite inside the ICMP payload.
+An error carries a copy of the offending packet *(§34.1)* — Its IP header plus the
+first 8 bytes of payload, which for TCP and UDP is exactly enough to include the
+ports — so the sender can attribute the error to a connection. A deliberate and
+necessary layer violation, and the reason NAT must rewrite inside the ICMP payload.
 
-**The four types to know** *(§34.1)* — **8** echo request, **0** echo reply, **11** time
+The four types to know *(§34.1)* — **8** echo request, **0** echo reply, **11** time
 exceeded, **3** destination unreachable.
 
-**Read the code, not just the type** *(§34.1)* — **Code 0** no route; **code 1** route
-exists and **ARP failed**; **code 3** host up and **nothing listening**; **code 4
-fragmentation needed** — the PMTUD mechanism; **codes 9/10/13** a firewall admitting it
-dropped the packet. **Code 1 and code 3 are entirely different problems.**
+Read the code, not just the type *(§34.1)* — **Code 0** no route; **code 1** route
+exists and **ARP failed**; **code 3** host up and **nothing listening**; code 4
+fragmentation needed — the PMTUD mechanism; codes 9/10/13 a firewall admitting it
+dropped the packet. Code 1 and code 3 are entirely different problems.
 
-**Rate limiting shapes what silence means** *(§34.1)* — RFC 1812 requires it, generating
-ICMP is a **control-plane** task, and unlimited generation would amplify a flood. **So a
-router that does not reply is not a router that dropped your packet.**
+Rate limiting shapes what silence means *(§34.1)* — RFC 1812 requires it, generating
+ICMP is a **control-plane** task, and unlimited generation would amplify a flood. So a
+router that does not reply is not a router that dropped your packet.
 
-**Blocking all ICMP is wrong** *(§34.1)* — It breaks **PMTUD** (the serious one),
-traceroute, and fast failure. **In IPv6 it is fatal**, because ICMPv6 carries NDP, router
-discovery and MLD. **Rate-limit ICMP; do not block it; and never block type 3 code 4.**
+Blocking all ICMP is wrong *(§34.1)* — It breaks **PMTUD** (the serious one),
+traceroute, and fast failure. In IPv6 it is fatal, because ICMPv6 carries NDP, router
+discovery and MLD. Rate-limit ICMP; do not block it; and never block type 3 code 4.
 
-**ICMPv6 absorbed three protocols** *(§34.1)* — Errors and echo, **ARP's job (NDP)**,
-**router discovery**, and **IGMP's job (MLD)** are all ICMPv6. **Type 2 is Packet Too Big,
-a top-level type rather than a code**, reflecting that IPv6 forbids router fragmentation
+ICMPv6 absorbed three protocols *(§34.1)* — Errors and echo, **ARP's job (NDP)**,
+**router discovery**, and **IGMP's job (MLD)** are all ICMPv6. Type 2 is Packet Too Big,
+a top-level type rather than a code, reflecting that IPv6 forbids router fragmentation
 and PMTUD is the only mechanism. Under 128 is an error; 128+ is informational.
 
-**Ping** *(§34.2)* — Type 8 out, type 0 back, payload echoed unchanged. **Mike Muuss, one
-evening in December 1983**, named after sonar; the "Packet InterNet Groper" backronym came
+**Ping** *(§34.2)* — Type 8 out, type 0 back, payload echoed unchanged. Mike Muuss, one
+evening in December 1983, named after sonar; the "Packet InterNet Groper" backronym came
 later and he disliked it.
 
-**What a successful ping proves** *(§34.2)* — Layers 1–3 work **in both directions**, the
-host's stack is alive, and **a return path exists**. **It does not prove any service runs,
-any port is open, that TCP will get through, or that performance is adequate.**
+What a successful ping proves *(§34.2)* — Layers 1–3 work **in both directions**, the
+host's stack is alive, and a return path exists. It does not prove any service runs,
+any port is open, that TCP will get through, or that performance is adequate.
 *"I can ping it so the network is fine"* is one of the most common wrong statements in
 operations.
 
-**What a failed ping proves** *(§34.2)* — **Almost nothing.** ICMP is commonly filtered,
-and **Windows blocks inbound echo by default** — so a perfectly healthy Windows server does
-not answer. **A successful ping is strong evidence; a failed ping is weak evidence.**
+What a failed ping proves *(§34.2)* — **Almost nothing.** ICMP is commonly filtered,
+and Windows blocks inbound echo by default — so a perfectly healthy Windows server does
+not answer. A successful ping is strong evidence; a failed ping is weak evidence.
 
-**`arping` when ping fails** *(§34.2)* — Layer 2 only, no IP, no ICMP, rarely filtered.
-**Success proves the host is there and the fault is above Layer 2.**
+`arping` when ping fails *(§34.2)* — Layer 2 only, no IP, no ICMP, rarely filtered.
+Success proves the host is there and the fault is above Layer 2.
 
-**Read four things in ping output** *(§34.2)* — **The resolved address** (DNS ran first;
+Read four things in ping output *(§34.2)* — **The resolved address** (DNS ran first;
 an unexpected answer is the fault); **`ttl=`** (hop count and OS fingerprint);
-**`icmp_seq`** (gaps mean loss, disorder means multiple paths); and **`mdev`** — **the
-jitter, which the average hides and which is what breaks real-time traffic.**
+**`icmp_seq`** (gaps mean loss, disorder means multiple paths); and **`mdev`** — the
+jitter, which the average hides and which is what breaks real-time traffic.
 
-**`ping -M do -s N`** *(§34.2, §34.4)* — Sets DF and payload size. **The path MTU binary
-search**, and the diagnosis for §34.4.
+`ping -M do -s N` *(§34.2, §34.4)* — Sets DF and payload size. The path MTU binary
+search, and the diagnosis for §34.4.
 
-**Answer versus silence** *(§34.2)* — **"Destination host unreachable" is an answer** from
-a router that could not deliver; **"request timed out" is silence.** An answer is far more
-useful. And **"network is unreachable" is generated by your own host before any packet is
-sent** — a local routing fault (Chapter 29 §29.4).
+**Answer versus silence** *(§34.2)* — "Destination host unreachable" is an answer from
+a router that could not deliver; "request timed out" is silence. An answer is far more
+useful. And "network is unreachable" is generated by your own host before any packet is
+sent — a local routing fault (Chapter 29 §29.4).
 
-**A ping sweep finds hosts that answer ping** *(§34.2)* — Not hosts, and certainly not
+A ping sweep finds hosts that answer ping *(§34.2)* — Not hosts, and certainly not
 allocations.
 
-**Traceroute's trick** *(§34.3)* — Van Jacobson, 1987. **Deliberately cause errors at a
-controlled distance and read the source addresses of the complaints.** TTL was a safety
+**Traceroute's trick** *(§34.3)* — Van Jacobson, 1987. Deliberately cause errors at a
+controlled distance and read the source addresses of the complaints. TTL was a safety
 mechanism and nobody had thought to use it as a probe.
 
-**How it knows it arrived** *(§34.3)* — The destination replies with a **different message
-type**: Unix's UDP probes draw **port unreachable**; Windows' ICMP probes draw **echo
-reply**; `-T`'s TCP SYN draws **SYN-ACK or RST**.
+How it knows it arrived *(§34.3)* — The destination replies with a different message
+type: Unix's UDP probes draw port unreachable; Windows' ICMP probes draw echo
+reply; `-T`'s TCP SYN draws SYN-ACK or RST.
 
-**Use `-T` when traceroute shows nothing** *(§34.3)* — **The single most useful line in the
-section.** Firewalls routinely drop unsolicited UDP to high ports while permitting
+Use `-T` when traceroute shows nothing *(§34.3)* — The single most useful line in the
+section. Firewalls routinely drop unsolicited UDP to high ports while permitting
 TCP/443, so `traceroute -T -p 443` traces the path your real traffic takes.
 
-**`* * *` means no reply, not no path** *(§34.3)* — Rate limiting or policy. **Stars
-followed by working hops prove that router forwards fine**, because the later replies
+`* * *` means no reply, not no path *(§34.3)* — Rate limiting or policy. Stars
+followed by working hops prove that router forwards fine, because the later replies
 traversed it.
 
-**Intermediate latency is not path latency** *(§34.3)* — It is the round trip to that
-router's **control plane**, which treats ICMP generation as lowest priority. **A high
-figure at one hop with lower figures after it is normal and means nothing.** Only the final
+Intermediate latency is not path latency *(§34.3)* — It is the round trip to that
+router's **control plane**, which treats ICMP generation as lowest priority. A high
+figure at one hop with lower figures after it is normal and means nothing. Only the final
 hop describes the path.
 
-**The reverse path is invisible** *(§34.3)* — Every measurement is a round trip whose
-return half takes its own route. **High latency at a hop may be caused by the return path
-from it**, and you cannot tell.
+The reverse path is invisible *(§34.3)* — Every measurement is a round trip whose
+return half takes its own route. High latency at a hop may be caused by the return path
+from it, and you cannot tell.
 
-**ECMP scatters the path** *(§34.3)* — Three probes at one hop may show three routers, and
+ECMP scatters the path *(§34.3)* — Three probes at one hop may show three routers, and
 the displayed path may be a composite no packet ever took. **`paris-traceroute`** holds the
 flow constant.
 
 **MPLS hides hops** *(§34.3)* — A provider's whole backbone may appear as one hop.
 
-**`mtr`'s rule** *(§34.3)* — **Loss at one hop that does not appear at later hops is not
-real loss** — it is that router rate-limiting its own ICMP. **If it were dropping traffic,
-every hop after it would show at least as much.** This resolves the majority of
+**`mtr`'s rule** *(§34.3)* — Loss at one hop that does not appear at later hops is not
+real loss — it is that router rate-limiting its own ICMP. If it were dropping traffic,
+every hop after it would show at least as much. This resolves the majority of
 "traceroute shows packet loss" reports.
 
-**PMTUD depends entirely on one message arriving** *(§34.4)* — Send with DF, get **type 3
-code 4** back with the MTU, cache it, retransmit. **DF is set on essentially all modern TCP
-traffic**, so this is how every large transfer works.
+PMTUD depends entirely on one message arriving *(§34.4)* — Send with DF, get type 3
+code 4 back with the MTU, cache it, retransmit. DF is set on essentially all modern TCP
+traffic, so this is how every large transfer works.
 
 **The black hole** *(§34.4)* — ICMP blocked, the sender never told, the same oversized
-packet retransmitted until the connection times out. **Nobody is told anything.**
+packet retransmitted until the connection times out. Nobody is told anything.
 
-**The symptom** *(§34.4)* — **Small things work; large things hang.** Ping works, SSH logs
+**The symptom** *(§34.4)* — Small things work; large things hang. Ping works, SSH logs
 in, `scp` stalls; the page loads and the images do not; the handshake completes and the
 first full-size segment does not. **The connection establishes**, so it looks like an
 application fault — and people check the application, the server, and the wrong team's
 ticket queue.
 
-**Diagnosing it takes two minutes** *(§34.4)* — `ping -M do -s 1472`, binary search
-downward, or `tracepath`. **If 1472 fails and 1372 succeeds, the path MTU is between 1400
-and 1500 and the ICMP is blocked.**
+Diagnosing it takes two minutes *(§34.4)* — `ping -M do -s 1472`, binary search
+downward, or `tracepath`. If 1472 fails and 1372 succeeds, the path MTU is between 1400
+and 1500 and the ICMP is blocked.
 
-**The fixes in order** *(§34.4)* — (1) **Stop blocking type 3 code 4** — the correct fix,
-and the "ICMP is a security risk" objection does not apply to this code. (2) **MSS
-clamping** — a layer violation, universal on VPN gateways, and **TCP only**. (3) Lower the
+The fixes in order *(§34.4)* — (1) Stop blocking type 3 code 4 — the correct fix,
+and the "ICMP is a security risk" objection does not apply to this code. (2) MSS
+clamping — a layer violation, universal on VPN gateways, and TCP only. (3) Lower the
 endpoint MTU — blunt, penalises everything. (4) **PLPMTUD** (`tcp_mtu_probing=1`) —
-robust, because it uses no ICMP at all, and **QUIC does its own for exactly this reason.**
+robust, because it uses no ICMP at all, and QUIC does its own for exactly this reason.
 
-**Small MTUs come from tunnels, and they compound** *(§34.4)* — PPPoE 1492, GRE 1476,
+Small MTUs come from tunnels, and they compound *(§34.4)* — PPPoE 1492, GRE 1476,
 IPsec ~1440, VXLAN 1450, WireGuard 1420. A VXLAN inside IPsec over PPPoE leaves under 1400,
-each layer configured by a different team. **Jumbo frames on the underlay is the
-data-centre answer**, and this — not large-transfer efficiency — is the operationally
+each layer configured by a different team. Jumbo frames on the underlay is the
+data-centre answer, and this — not large-transfer efficiency — is the operationally
 important reason for them.
 
-**IPv6 is worse and better** *(§34.4)* — **Worse**: routers must not fragment, so PMTUD is
-the only mechanism with no fallback. **Better**: RFC 4890 is well known, and **blocking
-ICMPv6 produces no IPv6 at all rather than a subtle black hole** — which is at least easy
+IPv6 is worse and better *(§34.4)* — **Worse**: routers must not fragment, so PMTUD is
+the only mechanism with no fallback. **Better**: RFC 4890 is well known, and blocking
+ICMPv6 produces no IPv6 at all rather than a subtle black hole — which is at least easy
 to diagnose.
 
 **The checklist** *(§34.4)* — Test 1472 with DF; binary search; `tracepath`; identify the
 tunnel; fix the filtering if you control it; otherwise clamp MSS at a boundary you do
-control; and consider `tcp_mtu_probing` as insurance. **The first two steps take two
-minutes and identify the fault with certainty.**
+control; and consider `tcp_mtu_probing` as insurance. The first two steps take two
+minutes and identify the fault with certainty.

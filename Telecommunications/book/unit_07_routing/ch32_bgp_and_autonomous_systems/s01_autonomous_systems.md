@@ -15,7 +15,7 @@ This section is about the boundary where interior routing stops applying.
 RFC 1930's phrasing, and every word is doing work.
 
 **Single routing policy** — not single owner, not single technology, not single location.
-An AS is defined by **who decides where its traffic goes.**
+An AS is defined by who decides where its traffic goes.
 
 **The consequences:**
 
@@ -43,9 +43,9 @@ objectives.
 
 **The 16-bit space exhausted**, exactly as IPv4 did and for the same reason — an
 allocation sized for a smaller world. The 32-bit extension was deployed from 2007 and,
-unlike IPv6, **transitioned successfully within a few years**.
+unlike IPv6, transitioned successfully within a few years.
 
-**Why it worked where IPv6 did not** is worth noticing: AS numbers are used only by BGP
+Why it worked where IPv6 did not is worth noticing: AS numbers are used only by BGP
 speakers — a few tens of thousands of organisations, all of them technically sophisticated
 and all of them motivated — rather than by every device on Earth. **AS 23456 (`AS_TRANS`)
 was reserved as a placeholder** so that old speakers could carry a 32-bit path in a
@@ -73,13 +73,13 @@ providers:
 | Internet exchanges | the fabric operators |
 | Research and government networks | JANET, Internet2, national research networks |
 
-**You need an AS number when you multihome** — when you connect to two or more providers
+You need an AS number when you multihome — when you connect to two or more providers
 and want to control which is used. With one provider you take their addresses and their
 default route, and BGP would be pointless (Chapter 30 §30.1).
 
 The requirement is exactly:
 
-> **You need an AS and BGP when there is a decision to make that only you should make.**
+> You need an AS and BGP when there is a decision to make that only you should make.
 
 ## IGP versus EGP
 
@@ -115,7 +115,7 @@ Four reasons, each fatal on its own.
 **OSPF would choose A**, because 2 < 4. **You may well want B**, because A costs
 $8,000/month more and adequate is adequate.
 
-**Or the reverse for your latency-sensitive traffic**, and both simultaneously depending on
+Or the reverse for your latency-sensitive traffic, and both simultaneously depending on
 the destination.
 
 **There is no metric that expresses "cheaper", "contractually preferred", "not through a
@@ -134,10 +134,10 @@ be assumed careless.**
 ### 3. The scale is different in kind
 
 An OSPF area holds hundreds of routes and every router computes over the full topology.
-**The global table holds ~950,000 prefixes and changes thousands of times per second.**
+The global table holds ~950,000 prefixes and changes thousands of times per second.
 
 Flooding a link-state database of that size, globally, is not merely expensive — it is
-impossible. **Nothing can hold the Internet's topology**, and no protocol that requires it
+impossible. Nothing can hold the Internet's topology, and no protocol that requires it
 can work.
 
 ### 4. Policy must be expressible and hidden
@@ -146,7 +146,7 @@ You need to say *"prefer A for this, B for that, and never accept a route to my 
 prefixes from anyone"* — and you need to do it **without revealing your commercial
 arrangements** to the neighbours you are choosing between.
 
-**Interior protocols advertise everything to everyone**, which is exactly wrong here.
+Interior protocols advertise everything to everyone, which is exactly wrong here.
 
 ## What BGP is instead
 
@@ -165,7 +165,7 @@ arrangements** to the neighbours you are choosing between.
 **Two of those deserve emphasis now.**
 
 **Neighbours are configured by hand.** BGP has no hello, no discovery, no automatic
-adjacency. **You must know who you are peering with, and so must they** — which is
+adjacency. You must know who you are peering with, and so must they — which is
 appropriate for a relationship that is usually contractual, and it is the one place where
 BGP's trust model is sound by construction.
 
@@ -196,7 +196,7 @@ The AS graph is not a hierarchy, though it is often drawn as one.
         └───────┘ └───────┘
 ```
 
-**A Tier 1 network is defined by what it does not do:** it **buys transit from nobody**,
+A Tier 1 network is defined by what it does not do: it **buys transit from nobody**,
 and reaches the entire Internet through settlement-free peering with the other Tier 1s.
 There are roughly a dozen, and membership is a commercial fact rather than a technical
 one.
@@ -222,7 +222,7 @@ decides*.
 and §32.2's algorithm has latency nowhere in it.
 
 **Assuming a shorter AS path is better.** An AS may be one router or ten thousand
-kilometres of fibre. **AS path length is a proxy for nothing physical.**
+kilometres of fibre. AS path length is a proxy for nothing physical.
 
 **Leaking a private AS number.** Strip it at the boundary.
 

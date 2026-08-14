@@ -16,7 +16,7 @@ point at 23 dBm. Raising the AP's power extends the range at which the client ca
 associates from a distance at which its own transmissions do not arrive cleanly, and
 the link is asymmetric and broken — showing full bars.
 
-**Every AP is now interference for every other AP.** With three non-overlapping
+Every AP is now interference for every other AP. With three non-overlapping
 2.4 GHz channels (Chapter 43 §43.2), APs must reuse them. Higher power means each AP
 is heard further, which means more APs share each channel's airtime under CSMA/CA
 (Chapter 44 §44.2), which means everyone waits longer. Aggregate capacity falls.
@@ -26,7 +26,7 @@ tolerable. Powerful APs remain tolerable far beyond where they are *good*, so cl
 cling to a distant AP at a low data rate — and by the performance anomaly of
 Chapter 44, a client at 6 Mb/s consumes airtime that everyone else is waiting for.
 
-The correct answer is nearly the opposite: **more access points at lower power**.
+The correct answer is nearly the opposite: more access points at lower power.
 Smaller cells, cleaner boundaries, more aggressive roaming, more total spectrum
 reused. It costs more in hardware and it is the design that works.
 
@@ -70,8 +70,8 @@ validating a deployment and for diagnosing an existing one.
 **Active** — associating and measuring actual throughput, loss and roaming behaviour.
 The only one that tells you what a user will experience.
 
-The most important survey practice, and the most often skipped: **survey with the
-building populated**. Human bodies absorb 2.4 and 5 GHz measurably (Chapter 42 §42.4).
+The most important survey practice, and the most often skipped: survey with the
+building populated. Human bodies absorb 2.4 and 5 GHz measurably (Chapter 42 §42.4).
 A lecture theatre surveyed empty on a Sunday and deployed to a full house on Monday
 is a well-documented way to be surprised.
 
@@ -107,15 +107,15 @@ dragging the cell down.
 movement; check for coverage holes at cell boundaries; check whether both bands are
 configured consistently.
 
-**"It works in the morning and not the afternoon."** Load, or a scheduled interference
+"It works in the morning and not the afternoon." Load, or a scheduled interference
 source. Check channel utilisation over time. Check for a microwave.
 
-**"It works on my phone but not my laptop."** A client-side difference: supported
+"It works on my phone but not my laptop." A client-side difference: supported
 bands, DFS channel support, driver, or antenna count. Establish which before touching
 the infrastructure.
 
-The general procedure, which is Chapter 63's method applied here: **establish whether
-the problem is signal, noise, airtime, or client** — those four exhaust the space, and
+The general procedure, which is Chapter 63's method applied here: establish whether
+the problem is signal, noise, airtime, or client — those four exhaust the space, and
 each has a different remedy.
 
 ## By the end you will be able to

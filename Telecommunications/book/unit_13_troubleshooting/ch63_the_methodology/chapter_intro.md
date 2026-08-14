@@ -14,8 +14,8 @@ Aviation's discipline of *aviate, navigate, communicate* — and its insistence 
 under pressure you follow a method rather than your instincts — exists because
 instincts under pressure are unreliable in specific, predictable ways. Network
 troubleshooting is not aviation and nobody dies, but the cognitive failure modes are
-identical, and the response is the same: **have a method, and use it precisely when
-you feel least inclined to.**
+identical, and the response is the same: have a method, and use it precisely when
+you feel least inclined to.
 
 ## The failure modes a method prevents
 
@@ -29,7 +29,7 @@ you pointed at the firewall and then found evidence.
 **Recency bias.** The last three problems were DNS, so this is DNS.
 
 **Changing multiple things at once.** Under pressure, you restart the service, clear
-the ARP cache and reseat the cable. It works. **You now do not know what was wrong**,
+the ARP cache and reseat the cable. It works. You now do not know what was wrong,
 cannot prevent recurrence, and cannot write a useful record.
 
 **Acting before observing.** Rebooting destroys the state that would have identified
@@ -47,7 +47,7 @@ CompTIA's methodology, which N10-009 examines, and which §63.2 derives from the
 failure modes above rather than presenting as a list to memorise.
 
 **1. Identify the problem.** Gather information, question users, identify symptoms,
-determine what changed, and — critically — **duplicate the problem if possible.** A
+determine what changed, and — critically — duplicate the problem if possible. A
 fault you cannot reproduce is a fault you cannot confirm you have fixed.
 
 The most valuable question, and it is asked far too rarely: *when did it last work?*
@@ -60,14 +60,14 @@ gathering evidence. Question the obvious. Consider multiple approaches — top-d
 bottom-up, divide-and-conquer.
 
 **3. Test the theory.** If confirmed, proceed. If not, establish a new theory or
-escalate. **Testing means an observation that would distinguish this theory from
-others**, not an action that would fix it if the theory is right.
+escalate. Testing means an observation that would distinguish this theory from
+others, not an action that would fix it if the theory is right.
 
-**4. Establish a plan of action**, including the side effects and the rollback.
+4. Establish a plan of action, including the side effects and the rollback.
 
 **5. Implement the solution or escalate.**
 
-**6. Verify full system functionality**, and implement preventive measures. "Full"
+6. Verify full system functionality, and implement preventive measures. "Full"
 matters: fixing one user's access while breaking another's is a common outcome of a
 hurried fix.
 
@@ -112,8 +112,8 @@ A record that says "restarted the service, resolved" is worthless. A record that
 > circuit *degraded*, so we learned about it from users.*
 
 — is worth an hour of anyone's time, because the last sentence generates an
-improvement. **The most valuable field in an incident record is what made it hard to
-find**, and it is the field almost no template includes.
+improvement. The most valuable field in an incident record is what made it hard to
+find, and it is the field almost no template includes.
 
 ## By the end you will be able to
 

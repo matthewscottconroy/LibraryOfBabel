@@ -1,7 +1,7 @@
 # 34.2 Ping and Echo
 
 `ping` is the first command anyone learns and the one whose results are most often
-over-interpreted. This section is about **what a successful ping actually proves** — which
+over-interpreted. This section is about what a successful ping actually proves — which
 is less than people assume — and what each failure mode means.
 
 ## The exchange
@@ -16,16 +16,16 @@ Two messages.
 **The payload is arbitrary and is echoed back unchanged.** Typically 56 bytes of pattern
 data, which with the 8-byte ICMP header gives the familiar **64 bytes** in Linux output.
 
-**The header carries an identifier and a sequence number**, so that multiple concurrent
+The header carries an identifier and a sequence number, so that multiple concurrent
 pings can be told apart and so that replies can be matched to requests.
 
 ## The name
 
-**Mike Muuss wrote `ping` in December 1983**, in an evening, at the US Army Ballistic
+Mike Muuss wrote `ping` in December 1983, in an evening, at the US Army Ballistic
 Research Laboratory, to debug a network problem.
 
 He named it after sonar — you emit a pulse and listen for the echo, and the time tells you
-the distance. **The backronym "Packet InterNet Groper" was invented later**, and Muuss
+the distance. The backronym "Packet InterNet Groper" was invented later, and Muuss
 disliked it.
 
 His program is on every operating system ever shipped since. He died in a car accident in
@@ -106,7 +106,7 @@ PING example.com (93.184.216.34) 56(84) bytes of data.
 rtt min/avg/max/mdev = 87.9/88.1/88.4/0.2 ms
 ```
 
-**Four things to read, and most people read only the last:**
+Four things to read, and most people read only the last:
 
 **The resolved address.** `ping` did DNS first. **If it resolves to something unexpected,
 you have found the fault before sending a packet.**
@@ -119,7 +119,7 @@ paths** — ECMP (Chapter 29 §29.3), or something stranger.
 
 **`mdev` — the jitter.** 0.2 ms here, which is very stable. **A low average with a high
 mdev is worse than a slightly higher average that is consistent**, for anything real-time
-(Chapter 66 §66.1). **The average alone hides the problem**, and this is the most-ignored figure
+(Chapter 66 §66.1). The average alone hides the problem, and this is the most-ignored figure
 in the output.
 
 ## Diagnosing with the options
@@ -144,17 +144,17 @@ ping -t 5 host
 ping -D host
 ```
 
-**`ping -M do -s N` is the one to learn** (Chapter 24 §24.3). It sets DF and a payload
+`ping -M do -s N` is the one to learn (Chapter 24 §24.3). It sets DF and a payload
 size, so a binary search finds the path MTU — and it is the diagnosis for §34.4's black
 hole.
 
 **On Windows:** `ping -f -l 1472 host` sets DF and size; `ping -t` is continuous (**not**
-TTL, which is `-i`). **The flags mean different things on the two platforms**, and mixing
+TTL, which is `-i`). The flags mean different things on the two platforms, and mixing
 them up is a small, common irritation.
 
 ## What the errors mean
 
-**The distinctions here are the diagnostic value**, and they map directly onto §34.1's
+The distinctions here are the diagnostic value, and they map directly onto §34.1's
 codes:
 
 | Output | ICMP | Meaning |
@@ -170,7 +170,7 @@ codes:
 **Two pairs are worth separating carefully.**
 
 **"Host unreachable" versus "timed out".** The first is an *answer* — a router told you it
-could not deliver. The second is *silence*. **An answer is far more useful**, because it
+could not deliver. The second is *silence*. An answer is far more useful, because it
 tells you a router was reached and where the delivery failed.
 
 **"Network is unreachable" versus everything else.** That message is generated **by your
@@ -191,7 +191,7 @@ fping -a -g 192.168.1.0/24
 segments, and anything with a host firewall will not answer.
 
 **A ping sweep finds hosts that answer ping.** It does not find hosts. Chapter 27 §27.4's
-point about IPAM applies — **it also does not find allocations**, so a range that is
+point about IPAM applies — it also does not find allocations, so a range that is
 allocated and idle looks free.
 
 ## Continuous ping during a change
@@ -212,10 +212,10 @@ experience.
 
 ## What breaks here
 
-**"I can ping it so the network is fine."** Ping proves Layer 3. Nearly all faults are
+"I can ping it so the network is fine." Ping proves Layer 3. Nearly all faults are
 above it.
 
-**"I can't ping it so it's down."** Windows blocks echo by default, and firewalls filter
+"I can't ping it so it's down." Windows blocks echo by default, and firewalls filter
 it constantly. Use `arping`, or test the port.
 
 **Concluding from a ping sweep that a range is free.** It finds responders, not

@@ -1,7 +1,7 @@
 # 38.4 QUIC and HTTP/3
 
 QUIC is the largest change to Internet transport since TCP, it carries a substantial
-fraction of the world's web traffic, and **it exists because TCP could not be changed.**
+fraction of the world's web traffic, and it exists because TCP could not be changed.
 
 That last clause is the important one, and it is the culmination of an argument this book
 has been building since Chapter 21.
@@ -15,7 +15,7 @@ has been building since Chapter 21.
 **Middleboxes inspect and modify TCP** (Chapter 21 §21.4), and they were built to
 understand the TCP of the year they shipped.
 
-**Honda et al. measured this in 2011** by attempting to deploy new TCP options across the
+Honda et al. measured this in 2011 by attempting to deploy new TCP options across the
 real Internet. The findings:
 
 - **A meaningful fraction of paths stripped unknown TCP options**
@@ -40,7 +40,7 @@ anything requiring a client-side kernel change at all.**
 
 ### 3. Head-of-line blocking is architectural
 
-**HTTP/2 multiplexes many streams over one TCP connection** — a genuine improvement over
+HTTP/2 multiplexes many streams over one TCP connection — a genuine improvement over
 HTTP/1.1's six parallel connections.
 
 **And TCP does not know the streams exist.** A single lost packet blocks **every** stream
@@ -89,7 +89,7 @@ than all of it.
 | **In user space** | the kernel — ships with the application, updates with it |
 | **Streams in the transport** | head-of-line blocking — QUIC knows the streams exist |
 
-**And a fourth choice compounds the first:** **QUIC encrypts almost all of its header**, so
+**And a fourth choice compounds the first:** QUIC encrypts almost all of its header, so
 middleboxes **cannot** inspect it, **cannot** modify it, and **cannot** ossify it. Only the
 minimum needed for routing is visible.
 
@@ -109,11 +109,11 @@ minimum needed for routing is visible.
    stream C ──▶ ▓▓▓▓▓▓▓▓▓▓        → delivered
 ```
 
-**This is the thing TCP structurally cannot do**, and it is why HTTP/3 exists.
+This is the thing TCP structurally cannot do, and it is why HTTP/3 exists.
 
 ### A faster handshake
 
-**TCP + TLS 1.3 requires two round trips** before application data — one for TCP's SYN
+TCP + TLS 1.3 requires two round trips before application data — one for TCP's SYN
 exchange, one for TLS.
 
 **QUIC combines them into one**, because the transport and cryptographic handshakes are the
@@ -126,17 +126,17 @@ same handshake:
 | **QUIC, first connection** | **1** |
 | **QUIC, resumed (0-RTT)** | **0** |
 
-**0-RTT sends application data in the very first packet**, using keys cached from a previous
+0-RTT sends application data in the very first packet, using keys cached from a previous
 connection.
 
 **With a caveat that matters:** 0-RTT data is **replayable** — an attacker who captures it
-can send it again. **So it is safe only for idempotent requests**, and the protocol requires
+can send it again. So it is safe only for idempotent requests, and the protocol requires
 applications to know the difference. **A GET is fine; a POST that charges a credit card is
 not.**
 
 ### Connection migration
 
-**A QUIC connection is identified by a Connection ID, not by the five-tuple** (Chapter 35
+A QUIC connection is identified by a Connection ID, not by the five-tuple (Chapter 35
 §35.2).
 
 **So changing IP address does not break it.** A phone moving from Wi-Fi to cellular keeps
@@ -146,7 +146,7 @@ restart.**
 **TCP cannot do this**, because the connection *is* the five-tuple. Change any field and it
 is a different connection.
 
-**This is a genuine capability TCP has no path to**, and on mobile networks it is
+This is a genuine capability TCP has no path to, and on mobile networks it is
 substantial.
 
 ### Encryption is not optional
@@ -159,7 +159,7 @@ version for a middlebox to learn to parse, so there is no version to freeze.
 ## HTTP/3
 
 **HTTP semantics over QUIC.** The methods, headers and status codes are unchanged from
-HTTP/2 — **what changes is what carries them.**
+HTTP/2 — what changes is what carries them.
 
 | | HTTP/1.1 | HTTP/2 | HTTP/3 |
 |---|---|---|---|
@@ -187,13 +187,13 @@ change at one layer forces changes above it.
 | Cloudflare, Google, Meta, Akamai, Fastly | all serve it |
 | **Share of web traffic** | **roughly 25–30% and rising** |
 
-**Why so much faster than IPv6** (Chapter 28 §28.1)? Because **the deploying party benefits
+Why so much faster than IPv6 (Chapter 28 §28.1)? Because **the deploying party benefits
 immediately**:
 
-- A site enabling HTTP/3 **gets faster page loads for its own users today**
+- A site enabling HTTP/3 gets faster page loads for its own users today
 - It **needs nobody else's cooperation** — clients already support it, and the fallback to
   HTTP/2 is automatic
-- **No coordination, no flag day, no network effect to wait for**
+- No coordination, no flag day, no network effect to wait for
 
 > **QUIC is the counter-example that proves Chapter 28's point.** IPv6's benefit is
 > entirely a network effect and it took thirty years; QUIC's benefit is immediate and
@@ -204,31 +204,31 @@ immediately**:
 **Honest, because they are real.**
 
 **CPU.** User-space processing and per-packet encryption cost more than kernel TCP with
-hardware offload. **QUIC has historically used 2–3× the CPU per byte**, though the gap is
+hardware offload. QUIC has historically used 2–3× the CPU per byte, though the gap is
 closing with offload support and better implementations.
 
 **No hardware offload, yet.** TCP benefits from decades of NIC offloads (Chapter 21 §21.3);
 QUIC is only beginning to.
 
-**Operational opacity.** **You cannot inspect QUIC on the wire.** Middleboxes that
+**Operational opacity.** You cannot inspect QUIC on the wire. Middleboxes that
 performed useful functions — traffic classification, some security inspection, performance
 monitoring — cannot. **This is deliberate**, and it is a genuine loss for network operators
 alongside a genuine gain for users.
 
 **Debugging changed.** No `tcpdump` analysis of the transport; you need endpoint logging
-(**qlog**) or the keys. **Chapter 64's toolbox needs different tools.**
+(**qlog**) or the keys. Chapter 64's toolbox needs different tools.
 
 **UDP is sometimes blocked or throttled.** Some networks rate-limit UDP or block UDP/443
-outright. **The fallback to TCP is automatic and works**, so the failure is invisible —
+outright. The fallback to TCP is automatic and works, so the failure is invisible —
 which means a network blocking UDP/443 makes its users' browsing slower and nobody
 notices.
 
 ## What this means for the model
 
-**QUIC does not fit the layer model** (Chapter 22 §22.3), deliberately:
+QUIC does not fit the layer model (Chapter 22 §22.3), deliberately:
 
-- It is a **transport protocol inside a transport protocol**
-- It merges **transport, security and part of the session layer**
+- It is a transport protocol inside a transport protocol
+- It merges transport, security and part of the session layer
 - It lives in **user space**, so the kernel/application boundary is in a new place
 - It is **application-specific enough** that HTTP/3 and QUIC were designed together
 

@@ -12,7 +12,7 @@ The distinction people conflate, stated as two questions:
 | **Administrative distance** | *How much do I trust the **source** of this route?* | **between** protocols |
 | **Metric** | *How good is this **path**, according to that protocol?* | **within** one protocol |
 
-**They are answered in that order**, and only after longest-prefix match has already
+They are answered in that order, and only after longest-prefix match has already
 decided that both routes are equally specific.
 
 ```
@@ -22,7 +22,7 @@ decided that both routes are equally specific.
    4. ECMP                    ← if still tied
 ```
 
-**A /24 learned from RIP beats a /16 learned from a directly-connected interface.**
+A /24 learned from RIP beats a /16 learned from a directly-connected interface.
 Specificity is not overridden by trust — which surprises people, and follows directly
 from §29.3.
 
@@ -64,7 +64,7 @@ paths involved.
 **eBGP is 20 and iBGP is 200.** The same protocol, at opposite ends of the scale, and the
 reason is Chapter 32's: an eBGP route came from **another organisation** and is
 authoritative about that organisation's networks; an iBGP route was **relayed within your
-own AS** and your IGP almost certainly knows a better path to the same place. **Trust the
+own AS and your IGP almost certainly knows a better path to the same place. Trust the
 outsider about the outside; trust yourself about the inside.**
 
 **255 means unusable.** Setting a route's AD to 255 is a way of configuring a route
@@ -85,7 +85,7 @@ the wrong answer.
 
 ## Metric
 
-**How good the path is, in whatever units the protocol uses.** The units differ so
+How good the path is, in whatever units the protocol uses. The units differ so
 completely that comparing across protocols is meaningless:
 
 | Protocol | Metric | Range |
@@ -96,7 +96,7 @@ completely that comparing across protocols is meaningless:
 | **EIGRP** | composite: bandwidth, delay, (load, reliability) | large numbers |
 | **BGP** | **no single metric** — a policy sequence | Chapter 32 §32.2 |
 
-**RIP's hop count is the clearest illustration of why a metric can be wrong.**
+RIP's hop count is the clearest illustration of why a metric can be wrong.
 
 ```
    A ──── 1 Gb/s ──── B ──── 1 Gb/s ──── C ──── 1 Gb/s ──── D
@@ -123,11 +123,11 @@ with a reference of **100 Mb/s** — chosen in 1991, when 100 Mb/s was fast.
 | **10 Gb/s** | **1** |
 | **100 Gb/s** | **1** |
 
-**Everything at 100 Mb/s and above costs 1**, because the cost is an integer and cannot
+Everything at 100 Mb/s and above costs 1, because the cost is an integer and cannot
 go below it. So OSPF cannot distinguish a 100 Mb/s link from a 100 Gb/s one, which is a
 serious defect in any modern network.
 
-**The fix, and it must be applied identically on every router:**
+The fix, and it must be applied identically on every router:
 
 ```
 router ospf 1
@@ -136,7 +136,7 @@ router ospf 1
 
 Now 100 Mb/s costs 1000, 1 Gb/s costs 100, 10 Gb/s costs 10 and 100 Gb/s costs 1.
 
-**A mismatched reference bandwidth is a classic and horrible fault**: different routers
+A mismatched reference bandwidth is a classic and horrible fault: different routers
 compute different costs for the same links, so their shortest-path calculations disagree,
 and traffic takes paths nobody intended — with every router individually behaving
 correctly. Chapter 31 §31.4 returns to it.
@@ -182,14 +182,14 @@ it is one of the more common causes of "the routing protocol isn't working".
 ```
 
 Traffic to `10.5.1.50` goes **via B**, despite RIP's terrible administrative distance and
-hop count. **Specificity is decided first and is not overridden.**
+hop count. Specificity is decided first and is not overridden.
 
 ## Load balancing
 
 When AD *and* metric tie, both routes install and traffic is shared — ECMP (Chapter 29
 §29.3). Hashed per flow, so **one conversation takes one path.**
 
-**EIGRP additionally supports *unequal-cost* load balancing** via its `variance` command,
+EIGRP additionally supports *unequal-cost* load balancing via its `variance` command,
 which installs routes up to *n* times the best metric and shares traffic in inverse
 proportion. It is unique among common protocols, it is genuinely useful where links
 differ in capacity, and it is used far less than it might be because the resulting
@@ -216,7 +216,7 @@ Routing Protocol is "ospf 1"
   Distance: (default is 110)
 ```
 
-**`show ip protocols` is the command for "what is running and what does it believe".**
+`show ip protocols` is the command for "what is running and what does it believe".
 
 ## What breaks here
 
@@ -225,7 +225,7 @@ Look for the static.
 
 **RIP choosing an obviously terrible path.** Hop count. Use a better protocol.
 
-**OSPF treating a 10 Gb/s link as equal to a 100 Mb/s one.** Default reference bandwidth.
+OSPF treating a 10 Gb/s link as equal to a 100 Mb/s one. Default reference bandwidth.
 Change it — **on every router**.
 
 **Two routers disagreeing about the best path, both correct.** Mismatched OSPF reference

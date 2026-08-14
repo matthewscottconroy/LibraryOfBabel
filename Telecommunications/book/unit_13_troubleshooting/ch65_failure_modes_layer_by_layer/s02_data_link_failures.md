@@ -1,17 +1,17 @@
 # 65.2 Data Link Failures
 
-**Layer 1 is up. Frames are not going where they should.** **This section is the catalogue**,
-and the unifying property is that **almost all of these faults produce "it has an address and
-cannot reach anything" or "it works for some destinations and not others."**
+Layer 1 is up. Frames are not going where they should. This section is the catalogue,
+and the unifying property is that almost all of these faults produce "it has an address and
+cannot reach anything" or "it works for some destinations and not others."
 
 ## Wrong VLAN
 
-**The commonest Layer 2 fault, and it presents as a Layer 3 or a DHCP problem.**
+The commonest Layer 2 fault, and it presents as a Layer 3 or a DHCP problem.
 
-> **A device on the wrong VLAN sees the wrong DHCP server, or none.** **"No IP address" is very
-> often a VLAN problem, not a DHCP problem** (Chapter 20 §20.3).
+> A device on the wrong VLAN sees the wrong DHCP server, or none. "No IP address" is very
+> often a VLAN problem, not a DHCP problem (Chapter 20 §20.3).
 
-**The symptoms, in order of how the user reports them:**
+The symptoms, in order of how the user reports them:
 
 | Report | Actual |
 |---|---|
@@ -31,9 +31,9 @@ cannot reach anything" or "it works for some destinations and not others."**
    Voice VLAN: 240
 ```
 
-**And the mismatch to look for is between the operational mode and what you expected**, not
-between the configuration and the documentation — **the documentation is frequently the thing
-that is wrong.**
+And the mismatch to look for is between the operational mode and what you expected, not
+between the configuration and the documentation — the documentation is frequently the thing
+that is wrong.
 
 ## Trunk problems
 
@@ -46,24 +46,24 @@ that is wrong.**
    ! VLAN 40 exists at both ends and is not in the list
 ```
 
-> **The symptom is that VLAN 40 works within each switch and not between them**, which looks
+> The symptom is that VLAN 40 works within each switch and not between them, which looks
 > like a routing problem and is not.
 
-**And the allowed list is the thing most often forgotten when a VLAN is added** — **the VLAN is
-created on both switches, the ports are configured, and nobody updated the trunk.**
+And the allowed list is the thing most often forgotten when a VLAN is added — the VLAN is
+created on both switches, the ports are configured, and nobody updated the trunk.
 
 ### Native VLAN mismatch
 
-**Each end tags differently, so untagged frames land in different VLANs.**
+Each end tags differently, so untagged frames land in different VLANs.
 
 | | |
 |---|---|
 | **Switch A native VLAN 1** | untagged frames → VLAN 1 |
 | **Switch B native VLAN 99** | **the same frames → VLAN 99** |
 
-**The symptoms:** **CDP or LLDP reports a native VLAN mismatch explicitly** (which is the easy
-case), **and spanning tree may block, and traffic in the native VLAN crosses into the wrong
-one** — **which is Chapter 62 §62.1's double-tagging vector, arriving accidentally.**
+**The symptoms:** CDP or LLDP reports a native VLAN mismatch explicitly (which is the easy
+case), and spanning tree may block, and traffic in the native VLAN crosses into the wrong
+one — which is Chapter 62 §62.1's double-tagging vector, arriving accidentally.
 
 ### Mode mismatch
 
@@ -75,8 +75,8 @@ one** — **which is Chapter 62 §62.1's double-tagging vector, arriving acciden
 | **`dynamic auto`** | **`dynamic auto`** | **neither initiates — the link stays access** |
 | `dynamic desirable` | `dynamic auto` | becomes a trunk |
 
-**The `auto`/`auto` case is worth knowing** because **it produces a link that works for one VLAN
-and silently fails for the rest**, and the configuration looks correct at both ends.
+The `auto`/`auto` case is worth knowing because it produces a link that works for one VLAN
+and silently fails for the rest, and the configuration looks correct at both ends.
 
 ## Spanning tree
 
@@ -106,35 +106,35 @@ and silently fails for the rest**, and the configuration looks correct at both e
              from GigabitEthernet1/0/13
 ```
 
-> **The topology change counter is the single most useful spanning tree diagnostic.** **1,847
-> changes with the last one 42 seconds ago names the port** — **and a port generating topology
+> **The topology change counter is the single most useful spanning tree diagnostic.** 1,847
+> changes with the last one 42 seconds ago names the port — and a port generating topology
 > changes is a port that is flapping, or a port without PortFast where devices connect and
-> disconnect.**
+> disconnect.
 
-**And "the root is not where it should be" is a design problem that presents as a performance
-one** (Chapter 56 §56.2's FHRP alignment): **traffic crosses the inter-switch link twice, and
-nothing is broken.**
+And "the root is not where it should be" is a design problem that presents as a performance
+one (Chapter 56 §56.2's FHRP alignment): traffic crosses the inter-switch link twice, and
+nothing is broken.
 
 ## Duplex mismatch
 
-**Chapter 66 §66.2 treats it properly. Its Layer 2 signature:**
+Chapter 66 §66.2 treats it properly. Its Layer 2 signature:
 
-> **One side full duplex, the other half.** **The full-duplex side transmits whenever it likes;
-> the half-duplex side detects that as a collision.**
+> **One side full duplex, the other half.** The full-duplex side transmits whenever it likes;
+> the half-duplex side detects that as a collision.
 
 | On the half-duplex side | On the full-duplex side |
 |---|---|
 | **Late collisions** | **CRC errors, runts** |
 | Collisions | FCS errors |
 
-**The symptom is performance, not failure:** **the link works, small transfers are fine, and
-throughput collapses under load** — **frequently to a few per cent of the link rate.**
+**The symptom is performance, not failure:** the link works, small transfers are fine, and
+throughput collapses under load — frequently to a few per cent of the link rate.
 
-**And it is now rare and not extinct.** **Auto-negotiation works; the fault occurs where one
-side is forced and the other is not**, because **a forced side does not participate in
-negotiation and the auto side falls back to half duplex.**
+And it is now rare and not extinct. Auto-negotiation works; the fault occurs where one
+side is forced and the other is not, because a forced side does not participate in
+negotiation and the auto side falls back to half duplex.
 
-> **The rule: both sides auto, or both sides forced identically. Never one of each.**
+> The rule: both sides auto, or both sides forced identically. Never one of each.
 
 ## MAC address table
 
@@ -145,20 +145,20 @@ negotiation and the auto side falls back to half duplex.**
 | **A MAC flapping between two ports** | **a loop** — and the log will say so explicitly |
 | **All traffic flooding** | **table exhaustion** (Chapter 62 §62.1) **or a topology change ageing the table** |
 
-**MAC flapping messages are unambiguous and are the fastest loop diagnosis available:**
+MAC flapping messages are unambiguous and are the fastest loop diagnosis available:
 
 ```
    %SW_MATM-4-MACFLAP_NOTIF: Host 00:1a:2b:3c:4d:5e in vlan 20 is
    flapping between port Gi1/0/13 and port Gi1/0/24
 ```
 
-> **Two ports, one MAC, alternating** — **there is a path between those two ports that should
-> not exist.** **This message identifies a loop faster than any topology analysis**, and it is
+> **Two ports, one MAC, alternating** — there is a path between those two ports that should
+> not exist. This message identifies a loop faster than any topology analysis, and it is
 > frequently ignored because it is a level-4 informational message.
 
 ## Port security and 802.1X
 
-**Faults created by the controls of Chapter 59 and Chapter 62.**
+Faults created by the controls of Chapter 59 and Chapter 62.
 
 | Symptom | Cause |
 |---|---|
@@ -171,7 +171,7 @@ negotiation and the auto side falls back to half duplex.**
 
 ## ARP and neighbour discovery
 
-**Chapter 18's mechanism, as a fault** (Chapter 64 §64.2's states).
+Chapter 18's mechanism, as a fault (Chapter 64 §64.2's states).
 
 | Symptom | Cause |
 |---|---|
@@ -181,12 +181,12 @@ negotiation and the auto side falls back to half duplex.**
 | **Gratuitous ARP storms** | **a clustering product, a failover event, or an attack** |
 | **IPv6 hosts with only link-local** | **no Router Advertisement** — the RA is blocked or the router is not sending |
 
-**And proxy ARP deserves a mention because it produces baffling behaviour:**
+And proxy ARP deserves a mention because it produces baffling behaviour:
 
-> **A router answering ARP for addresses that are not its own makes a wrongly-masked host work
-> anyway**, which **hides the actual fault and produces a network where the mask can be wrong
-> for years without symptom** — **until proxy ARP is disabled, or a device that does not do it
-> is installed, and then everything breaks at once.**
+> A router answering ARP for addresses that are not its own makes a wrongly-masked host work
+> anyway, which hides the actual fault and produces a network where the mask can be wrong
+> for years without symptom — until proxy ARP is disabled, or a device that does not do it
+> is installed, and then everything breaks at once.
 
 ## The diagnostic sequence
 
@@ -200,40 +200,40 @@ negotiation and the auto side falls back to half duplex.**
    7.  Is 802.1X or port security involved?       show authentication / port-security
 ```
 
-> **Steps 1 and 2 resolve the majority.** **"Which VLAN is it in, and has the switch seen its
-> MAC?" answers most Layer 2 complaints in ten seconds**, and both are read-only.
+> **Steps 1 and 2 resolve the majority.** "Which VLAN is it in, and has the switch seen its
+> MAC?" answers most Layer 2 complaints in ten seconds, and both are read-only.
 
 ## What breaks here
 
-**"No IP address" after a desk move.** **The VLAN, not DHCP.**
+**"No IP address" after a desk move.** The VLAN, not DHCP.
 
-**A VLAN that works within a building and not between buildings.** **The trunk's allowed list.**
+A VLAN that works within a building and not between buildings. The trunk's allowed list.
 
-**A link that works for one VLAN only, with correct-looking configuration at both ends.**
-**`dynamic auto` at both ends — neither initiated.**
+A link that works for one VLAN only, with correct-looking configuration at both ends.
+`dynamic auto` at both ends — neither initiated.
 
-**Devices taking 45 seconds to work after connecting.** **No PortFast.**
+Devices taking 45 seconds to work after connecting. **No PortFast.**
 
 **Brief outages across an entire VLAN, repeatedly.** **Topology changes** — read the counter and
 the port it names.
 
-**Throughput at 3% of the link rate, with the link healthy.** **Duplex mismatch.** Late
+Throughput at 3% of the link rate, with the link healthy. **Duplex mismatch.** Late
 collisions on one side, CRC on the other.
 
 **A MAC flapping between two ports.** **A loop.** The log message names both ports.
 
-**A port that disables whenever a specific user connects.** **Port security, and their docking
-station presents extra MAC addresses.**
+A port that disables whenever a specific user connects. Port security, and their docking
+station presents extra MAC addresses.
 
-**A host with a wrong subnet mask that works.** **Proxy ARP is covering for it**, and it will
+A host with a wrong subnet mask that works. Proxy ARP is covering for it, and it will
 break later for an unrelated reason.
 
 **IPv6 hosts with only link-local addresses.** **No RA** — the router is not sending, or RA
 Guard is blocking it (Chapter 62 §62.1).
 
-> **Network+ note.** Objective 5.2 and 5.3. Over-learn: **VLAN misconfiguration prevents
-> communication and is a common cause of "no address"**; **native VLAN mismatch and allowed-VLAN
+> **Network+ note.** Objective 5.2 and 5.3. Over-learn: VLAN misconfiguration prevents
+> communication and is a common cause of "no address"; **native VLAN mismatch and allowed-VLAN
 > omissions break trunks**; **duplex mismatch causes late collisions and poor performance**;
-> **switching loops cause broadcast storms and MAC table instability**; and **spanning tree
+> switching loops cause broadcast storms and MAC table instability; and **spanning tree
 > blocks redundant paths.** The VLAN-versus-DHCP misattribution is examined and is the single
 > most useful thing in this section.

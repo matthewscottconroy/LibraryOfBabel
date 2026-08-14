@@ -15,7 +15,7 @@ full advertised window**, which is what pre-1988 TCP did and what caused §38.1'
 
 $$\text{cwnd} \leftarrow \text{cwnd} + \text{MSS} \quad \text{for every ACK received}$$
 
-**Which doubles the window every round trip**, because a window's worth of segments
+Which doubles the window every round trip, because a window's worth of segments
 produces a window's worth of ACKs:
 
 | RTT | `cwnd` (segments) | Bytes in flight |
@@ -31,7 +31,7 @@ produces a window's worth of ACKs:
 **Ten round trips to reach 14 MB in flight.** On a 100 ms path that is one second.
 
 **The initial window matters more than it looks.** It was 1 segment originally, then 2–4,
-and **RFC 6928 (2013) raised it to 10** after Google measured that most web transfers were
+and RFC 6928 (2013) raised it to 10 after Google measured that most web transfers were
 short enough that slow start dominated their entire lifetime. **A 10-segment initial window
 delivers ~14 KB in the first round trip** — enough for many complete responses — and it
 measurably improved page-load times across the Internet.
@@ -47,7 +47,7 @@ measurably improved page-load times across the Internet.
 
 $$\text{cwnd} \leftarrow \text{cwnd} + \frac{\text{MSS}^2}{\text{cwnd}} \quad \text{per ACK}$$
 
-**Which works out to roughly one MSS per round trip** — linear growth instead of
+Which works out to roughly one MSS per round trip — linear growth instead of
 exponential.
 
 ```
@@ -81,7 +81,7 @@ $$\begin{aligned}
 
 ### Why this converges to fairness
 
-**Chiu and Jain proved it in 1989**, and the argument is worth seeing because the result is
+Chiu and Jain proved it in 1989, and the argument is worth seeing because the result is
 not obvious.
 
 **Consider two flows sharing a link.** Plot their windows against each other:
@@ -98,10 +98,10 @@ not obvious.
      └────────────╲──────▶  Flow A's window
 ```
 
-**Additive increase moves the point along a 45° line** — both flows gain the same amount,
+Additive increase moves the point along a 45° line — both flows gain the same amount,
 so the *difference* between them is unchanged.
 
-**Multiplicative decrease moves the point toward the origin along a line through it** —
+Multiplicative decrease moves the point toward the origin along a line through it —
 both flows halve, so the *ratio* is unchanged and **the absolute difference shrinks.**
 
 **Repeating: the difference shrinks on every decrease and never grows.** The point spirals
@@ -117,7 +117,7 @@ approximation of it.
 
 ## The sawtooth
 
-**The resulting behaviour, and it is what a TCP connection looks like:**
+The resulting behaviour, and it is what a TCP connection looks like:
 
 ```
    cwnd
@@ -133,11 +133,11 @@ approximation of it.
 **Two consequences worth stating:**
 
 **Average utilisation is about 75%.** The window oscillates between *W* and *W*/2, averaging
-0.75*W*. **A single TCP flow cannot fully use a link** — and this is by design, because the
+0.75*W*. A single TCP flow cannot fully use a link — and this is by design, because the
 headroom is what allows other flows to start.
 
 **TCP needs loss.** The sawtooth requires a loss to turn the corner. **A path with zero loss
-gives TCP no signal to stop growing**, so it grows until it causes loss. **This is why a
+gives TCP no signal to stop growing, so it grows until it causes loss. This is why a
 network with no packet loss is a network that is not being used**, and it is Chapter 24
 §24.1's argument in mechanical form.
 
@@ -154,15 +154,15 @@ network with no packet loss is a network that is not being used**, and it is Cha
 **Reno's improvement is fast recovery** (Chapter 37 §37.3): duplicate ACKs prove packets
 are still flowing, so the path is lossy rather than broken — **halve rather than restart.**
 
-**NewReno fixes Reno's failure with multiple losses**, where Reno exits recovery on the
+NewReno fixes Reno's failure with multiple losses, where Reno exits recovery on the
 first partial ACK and takes a timeout for the second loss.
 
-**A timeout is always treated as severe** — `cwnd` to 1 and slow start again — because a
+A timeout is always treated as severe — `cwnd` to 1 and slow start again — because a
 timeout means *nothing* got through, which is a much worse signal than a single loss.
 
 ## The Mathis equation
 
-**The formula that quantifies how badly loss hurts**, and it is one of the most useful in
+The formula that quantifies how badly loss hurts, and it is one of the most useful in
 this book.
 
 $$\text{throughput} \approx \frac{\text{MSS}}{\text{RTT}} \times \frac{C}{\sqrt{p}}$$
@@ -175,7 +175,7 @@ where *p* is the loss probability and *C* ≈ 1.22 for the standard AIMD sawtoot
 throughput — it divides it by √2 ≈ 1.41. **Which sounds gentle until you look at the
 absolute numbers.**
 
-**Throughput is inversely proportional to RTT.** **A long path is penalised twice** — once
+**Throughput is inversely proportional to RTT.** A long path is penalised twice — once
 because each round trip takes longer, and again because the recovery from each loss takes
 longer.
 
@@ -194,11 +194,11 @@ longer.
 > **One per cent loss caps a single TCP flow at about 1.4 Mb/s on a 100 ms path, regardless
 > of whether the link is 100 Mb/s or 100 Gb/s.**
 
-**Read the top row again.** Even at **one loss in a million packets**, a single standard
+**Read the top row again.** Even at one loss in a million packets, a single standard
 TCP flow on a 100 ms path is limited to **142 Mb/s** — a seventh of a gigabit link. **Loss
 rates that sound negligible are not.**
 
-**This is why "the link is not full so the network is fine" is wrong.** A link at 10%
+This is why "the link is not full so the network is fine" is wrong. A link at 10%
 utilisation with 0.1% loss will not carry a fast transfer, and the loss is the reason.
 
 **And it explains Chapter 24 §24.3's fragmentation argument concretely:** three fragments
@@ -214,11 +214,11 @@ $$p \le \left(\frac{1.22 \times \text{MSS}}{\text{RTT} \times \text{throughput}}
 
 **One loss in five billion packets.**
 
-**That is far below the error rate of real hardware**, and it means **standard Reno/NewReno
+That is far below the error rate of real hardware, and it means **standard Reno/NewReno
 cannot fill a modern long fat path at all.** Recovering from a single loss would take
 **over an hour** of linear growth — about 43,000 round trips.
 
-**This is the problem CUBIC was built to solve**, and it is §38.3's subject.
+This is the problem CUBIC was built to solve, and it is §38.3's subject.
 
 ## Reading it live
 
@@ -251,13 +251,13 @@ watch -n0.5 "ss -tni 'dst 203.0.113.10' | grep -o 'cwnd:[0-9]*'"
 
 ## What breaks here
 
-**A transfer that never reaches full speed on a long path.** Slow start takes many round
+A transfer that never reaches full speed on a long path. Slow start takes many round
 trips; on a 300 ms path, reaching a large window takes seconds.
 
 **Throughput capped well below the link rate with low utilisation.** Loss. Apply the Mathis
 equation before blaming bandwidth.
 
-**A 10 Gb/s path achieving 100 Mb/s with a standard algorithm.** Reno/NewReno cannot fill
+A 10 Gb/s path achieving 100 Mb/s with a standard algorithm. Reno/NewReno cannot fill
 a long fat pipe. Use CUBIC or BBR (§38.3).
 
 **Every flow getting an equal share except the long-distance one.** RTT bias, structural.

@@ -3,7 +3,7 @@
 Four mechanisms that between them account for Wi-Fi's throughput rising three orders of
 magnitude while its spectrum allocation rose by one.
 
-**They are frequently confused with each other**, and the distinctions are worth being
+They are frequently confused with each other, and the distinctions are worth being
 precise about.
 
 ## The four, distinguished
@@ -15,13 +15,13 @@ precise about.
 | **OFDMA** | **frequency** | **several clients simultaneously** |
 | **Beamforming** | — | **one client, better** |
 
-> **MIMO is spatial multiplexing. OFDMA is frequency multiplexing. Beamforming is not
-> multiplexing at all** — it improves one link rather than creating parallel ones.
+> MIMO is spatial multiplexing. OFDMA is frequency multiplexing. Beamforming is not
+> multiplexing at all — it improves one link rather than creating parallel ones.
 
 ## SU-MIMO — spatial streams
 
 **Chapter 42 §42.4's mechanism.** Several antennas at both ends, several independent paths,
-**several simultaneous data streams on the same frequency.**
+several simultaneous data streams on the same frequency.
 
 **The notation:**
 
@@ -31,11 +31,11 @@ precise about.
    Tx  Rx  spatial streams
 ```
 
-**A 4×4:3 radio has four transmit and four receive chains and supports three streams** —
+A 4×4:3 radio has four transmit and four receive chains and supports three streams —
 more antennas than streams is common, because the extra chains improve diversity and
 beamforming.
 
-**And the streams are limited by the weaker end:**
+And the streams are limited by the weaker end:
 
 $$\text{streams} = \min(N_{\text{tx streams}},\ N_{\text{rx streams}})$$
 
@@ -50,16 +50,16 @@ $$\text{streams} = \min(N_{\text{tx streams}},\ N_{\text{rx streams}})$$
 > **An 8×8 access point talking to a 2-stream laptop delivers 2 streams.** The extra chains
 > help through beamforming and diversity, and **do not multiply that client's throughput.**
 
-**Which is why access-point stream counts beyond about four give diminishing returns for
-throughput** — and why the marketing figures of §44.1 assume client hardware that does not
+Which is why access-point stream counts beyond about four give diminishing returns for
+throughput — and why the marketing figures of §44.1 assume client hardware that does not
 exist.
 
 ## MU-MIMO — several clients at once
 
 **The step from 802.11ac.**
 
-**SU-MIMO gives one client several streams. MU-MIMO gives several clients one or more streams
-each, simultaneously, on the same channel.**
+SU-MIMO gives one client several streams. MU-MIMO gives several clients one or more streams
+each, simultaneously, on the same channel.
 
 ```
    SU-MIMO:
@@ -71,37 +71,37 @@ each, simultaneously, on the same channel.**
          ══ 1 stream  ══▶ client C  ┘
 ```
 
-**How it works:** the access point knows the channel to each client — **the channel state
-information** — and **constructs transmissions that arrive correctly at one client and cancel
-at the others.** Spatial separation used as a multiplexing dimension.
+**How it works:** the access point knows the channel to each client — the channel state
+information — and constructs transmissions that arrive correctly at one client and cancel
+at the others. Spatial separation used as a multiplexing dimension.
 
-**Its requirements are demanding, and they are why the practical benefit is smaller than
-advertised:**
+Its requirements are demanding, and they are why the practical benefit is smaller than
+advertised:
 
 **Clients must be spatially separated.** Two clients in the same place have nearly the same
-channel, **so the transmissions cannot be separated** and MU-MIMO gives nothing.
+channel, so the transmissions cannot be separated and MU-MIMO gives nothing.
 
 **Channel state information must be current.** It is obtained by **sounding** — the access
-point sends a sounding frame and clients report what they received. **The information goes
-stale as anything moves**, so sounding must repeat, **and the sounding itself costs
-airtime.**
+point sends a sounding frame and clients report what they received. The information goes
+stale as anything moves, so sounding must repeat, and the sounding itself costs
+airtime.
 
 **Client support is required and was slow.** 802.11ac had **downlink MU-MIMO only**; 802.11ax
 added **uplink**, which is harder because the clients must be synchronised.
 
-**The honest assessment:** **MU-MIMO helps in specific conditions — several spatially
-separated clients with sustained traffic — and does nothing in many real situations.** It is
+**The honest assessment:** MU-MIMO helps in specific conditions — several spatially
+separated clients with sustained traffic — and does nothing in many real situations. It is
 not the general throughput multiplier the marketing suggested, and Wi-Fi 6's OFDMA addresses
 the common case better.
 
 ## OFDMA — the Wi-Fi 6 change
 
-**The most important addition in 802.11ax**, and it is a change of philosophy rather than a
+The most important addition in 802.11ax, and it is a change of philosophy rather than a
 faster radio.
 
 ### The problem
 
-**Before OFDMA, a transmission uses the whole channel.**
+Before OFDMA, a transmission uses the whole channel.
 
 ```
    Time →
@@ -113,13 +113,13 @@ faster radio.
    └──────────────────────────────────────┘
 ```
 
-**And most Wi-Fi frames are small** — acknowledgements, sensor readings, keystrokes, control
-traffic. **Giving an 80 MHz channel to a 64-byte frame wastes almost all of it**, and the
+And most Wi-Fi frames are small — acknowledgements, sensor readings, keystrokes, control
+traffic. Giving an 80 MHz channel to a 64-byte frame wastes almost all of it, and the
 per-frame overhead of §44.2 is paid in full each time.
 
 ### The mechanism
 
-**Divide the channel into Resource Units and give several clients one each, simultaneously.**
+Divide the channel into Resource Units and give several clients one each, simultaneously.
 
 ```
    Frequency ↑
@@ -130,8 +130,8 @@ per-frame overhead of §44.2 is paid in full each time.
                           Time →
 ```
 
-**Resource unit sizes** are defined in subcarriers — 26, 52, 106, 242, 484, 996 — so **a
-20 MHz channel can serve up to nine clients simultaneously** with the smallest units.
+**Resource unit sizes** are defined in subcarriers — 26, 52, 106, 242, 484, 996 — so a
+20 MHz channel can serve up to nine clients simultaneously with the smallest units.
 
 **What it buys:**
 
@@ -142,12 +142,12 @@ per-frame overhead of §44.2 is paid in full each time.
 | Latency in dense cells | rises with client count | **much flatter** |
 | Efficiency with mixed traffic | poor | **substantially better** |
 
-> **OFDMA does not make any single client faster. It makes many clients less expensive to
-> serve**, which is exactly the problem in a dense deployment.
+> OFDMA does not make any single client faster. It makes many clients less expensive to
+> serve, which is exactly the problem in a dense deployment.
 
 **And it is scheduled rather than contended.** The access point **allocates** resource units
-via a trigger frame, **so uplink transmissions from several clients are coordinated rather
-than competing** — which removes contention overhead for those transmissions entirely.
+via a trigger frame, so uplink transmissions from several clients are coordinated rather
+than competing — which removes contention overhead for those transmissions entirely.
 
 **This is a genuine architectural change:** 802.11 moves, for the first time, from purely
 distributed contention toward **central scheduling**, in the direction cellular has always
@@ -155,7 +155,7 @@ worked (Chapter 46 §46.3).
 
 ### OFDMA versus MU-MIMO
 
-**Both serve several clients at once, and they are complementary:**
+Both serve several clients at once, and they are complementary:
 
 | | OFDMA | MU-MIMO |
 |---|---|---|
@@ -165,14 +165,14 @@ worked (Chapter 46 §46.3).
 | Client density | **helps most when high** | needs separation |
 | Overhead | trigger frames | **sounding** |
 
-**They can be combined** — MU-MIMO within an OFDMA resource unit — and Wi-Fi 6 does.
+They can be combined — MU-MIMO within an OFDMA resource unit — and Wi-Fi 6 does.
 
 ## Beamforming
 
 **Not multiplexing. Improving one link.**
 
-**Several antennas transmit the same signal with controlled phase offsets**, so the copies
-**add constructively at the intended receiver** and less so elsewhere.
+Several antennas transmit the same signal with controlled phase offsets, so the copies
+add constructively at the intended receiver and less so elsewhere.
 
 ```
    Without:                    With beamforming:
@@ -183,24 +183,24 @@ worked (Chapter 46 §46.3).
       ↘ ↓ ↙                          ↘
 ```
 
-**Typically 3–5 dB of gain toward the client** — which by Chapter 42 §42.3's arithmetic is
+Typically 3–5 dB of gain toward the client — which by Chapter 42 §42.3's arithmetic is
 worth a substantial fraction of the range, or a higher MCS at the same range.
 
 **Two kinds:**
 
 **Implicit** — the access point infers the channel from frames it receives from the client.
-**Requires nothing of the client** and is less accurate.
+Requires nothing of the client and is less accurate.
 
 **Explicit** — the access point sounds the channel and the client **reports back** what it
-received. **More accurate, and requires client support.** This is what 802.11ac and later
+received. More accurate, and requires client support. This is what 802.11ac and later
 standardise, and it is the same channel information MU-MIMO needs.
 
-**Beamforming is why a modern access point can have eight antennas and three streams:** the
-extra chains are not carrying more data, **they are shaping the beam.**
+Beamforming is why a modern access point can have eight antennas and three streams: the
+extra chains are not carrying more data, they are shaping the beam.
 
 ## The full modulation picture
 
-**Bringing together Chapter 8's modulation, Chapter 42's SNR and §44.1's MCS:**
+Bringing together Chapter 8's modulation, Chapter 42's SNR and §44.1's MCS:
 
 | Modulation | Bits/symbol | Constellation points | SNR needed | Realistic range |
 |---|---|---|---|---|
@@ -212,15 +212,15 @@ extra chains are not carrying more data, **they are shaping the beam.**
 | **1024-QAM** | **10** | 1024 | **~35 dB** | **very near** |
 | **4096-QAM** | **12** | **4096** | **~40 dB** | **metres** |
 
-**Each step up doubles the constellation points and adds about 6 dB to the SNR
-requirement**, because the points are packed twice as densely and the noise margin halves.
+Each step up doubles the constellation points and adds about 6 dB to the SNR
+requirement, because the points are packed twice as densely and the noise margin halves.
 
 > **4096-QAM requires 40 dB SNR.** With a −95 dBm noise floor that means a signal of
-> **−55 dBm** — **a client a few metres from the access point in a clean environment.**
+> **−55 dBm** — a client a few metres from the access point in a clean environment.
 
-**Which is the honest answer to "why don't I get Wi-Fi 7 speeds":** the highest modulations
-are usable in a small fraction of the coverage area, and **the average client is running
-somewhere in the 64-QAM to 256-QAM range.**
+Which is the honest answer to "why don't I get Wi-Fi 7 speeds": the highest modulations
+are usable in a small fraction of the coverage area, and the average client is running
+somewhere in the 64-QAM to 256-QAM range.
 
 ## Putting the throughput together
 
@@ -246,11 +246,11 @@ $$\text{rate} = \underbrace{\text{channel width}}_{\times 1..16} \times \underbr
    ÷ number of active clients sharing it
 ```
 
-**And the last line is the one people forget.** **Wi-Fi is a shared medium** (§44.2) — thirty
+And the last line is the one people forget. Wi-Fi is a shared medium (§44.2) — thirty
 active clients on that access point get roughly **16 Mb/s each**, before contention overhead.
 
-> **A datasheet claiming 9.6 Gb/s, a real client achieving 480 Mb/s alone, and 16 Mb/s in a
-> busy room, are all the same access point.** Every step of that reduction is legitimate and
+> A datasheet claiming 9.6 Gb/s, a real client achieving 480 Mb/s alone, and 16 Mb/s in a
+> busy room, are all the same access point. Every step of that reduction is legitimate and
 > predictable, and being able to walk through it is what separates a capacity estimate from a
 > guess.
 
@@ -262,11 +262,11 @@ rather than efficiency.
 **MU-MIMO not helping.** Clients are not spatially separated, or the traffic is not sustained
 enough for sounding to pay for itself.
 
-**An 8-stream access point not delivering 8 streams.** No client has 8. Expected.
+An 8-stream access point not delivering 8 streams. No client has 8. Expected.
 
 **Never reaching the top MCS.** SNR. It requires a client very close to the access point.
 
-**Throughput halving when a second client becomes active.** Shared medium. Expected, and it
+Throughput halving when a second client becomes active. Shared medium. Expected, and it
 is what capacity planning is for (Chapter 45 §45.3).
 
 **Beamforming not enabled.** Some clients do not support explicit sounding; check whether
@@ -274,6 +274,6 @@ implicit is available.
 
 > **Network+ note.** Objective 2.4 expects MIMO and MU-MIMO. Over-learn: **MIMO uses several
 > antennas for several spatial streams**; **MU-MIMO serves several clients simultaneously**;
-> **OFDMA divides the channel in frequency so several clients share one transmission**; and
-> **beamforming directs energy toward a client rather than creating parallel streams.** The
+> OFDMA divides the channel in frequency so several clients share one transmission; and
+> beamforming directs energy toward a client rather than creating parallel streams. The
 > MIMO/MU-MIMO/OFDMA distinction is examined and commonly confused.

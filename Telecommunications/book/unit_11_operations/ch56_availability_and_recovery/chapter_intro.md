@@ -14,8 +14,8 @@ into a budget.
 | 99.999% | 5.26 min | 26 sec | 6 sec |
 | 99.9999% | 31.6 sec | 2.6 sec | 0.6 sec |
 
-Five nines is **5.26 minutes of downtime per year, including all planned
-maintenance**. That single clause defeats most claims immediately: an organisation
+Five nines is 5.26 minutes of downtime per year, including all planned
+maintenance. That single clause defeats most claims immediately: an organisation
 that reboots its firewalls quarterly for patching has already spent its entire annual
 budget, several times over, on planned work.
 
@@ -35,7 +35,7 @@ The naive model of redundancy is that two components fail independently, so if e
 availability *A*, the pair has 1 − (1 − *A*)². Two devices at 99% give 99.99%.
 
 The model is wrong in practice, and the reason is the most important idea in this
-chapter: **components that share a fate are not independent.**
+chapter: components that share a fate are not independent.
 
 Two power supplies fed from the same circuit. Two switches in the same rack, on the
 same UPS, cooled by the same unit. Two fibres in the same duct — a common failure, and
@@ -49,8 +49,8 @@ what could take out both? The answer is usually something, and often something
 addressable at low cost — different circuits, different ducts, staggered firmware
 versions, different vendors for a critical pair.
 
-§56.2 also covers the failure that redundancy itself introduces: **the failover that
-does not work.** A backup component that has never been exercised is of unknown
+§56.2 also covers the failure that redundancy itself introduces: the failover that
+does not work. A backup component that has never been exercised is of unknown
 status. A standby firewall whose configuration drifted from the primary will fail over
 into a broken state. A generator that has not been load-tested will not start. The
 practice that fixes this is deliberate, scheduled failover testing — which is

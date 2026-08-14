@@ -1,8 +1,8 @@
 # Chapter 61 — VPNs and Secure Remote Access
 
-The idea is simple enough to state in one sentence: **take a packet, encrypt it, and
+The idea is simple enough to state in one sentence: take a packet, encrypt it, and
 put it inside another packet addressed to a device that will decrypt it and forward
-the original.**
+the original.
 
 That is tunnelling, and a virtual private network is tunnelling plus cryptography.
 Everything else in this chapter is the specifics of how the encryption is negotiated,
@@ -17,7 +17,7 @@ different ones.
 think of. Traffic crossing the public Internet is readable by every network it
 traverses; encryption makes it useless to them.
 
-**Connectivity that the underlying network would not provide.** A tunnel can carry
+Connectivity that the underlying network would not provide. A tunnel can carry
 private RFC 1918 addresses across a network that would drop them, or IPv6 across an
 IPv4-only path, or Ethernet frames across a routed network (Chapter 67's overlays).
 This is often the real reason a tunnel exists, and it has nothing to do with security.
@@ -33,7 +33,7 @@ complexity that is largely deserved and mostly attributable to the number of cho
 it presents.
 
 Two protocols. **AH** provides authentication and integrity but not encryption, and it
-authenticates the outer IP header — which means **AH cannot traverse NAT at all**,
+authenticates the outer IP header — which means AH cannot traverse NAT at all,
 since NAT modifies exactly what AH is protecting (Chapter 33 §33.3). It is
 consequently almost never used. **ESP** provides encryption, integrity and
 authentication of the payload, and is what everyone deploys.
@@ -68,7 +68,7 @@ makes UDP mode strongly preferable.
 argument as much as a product. Its properties are a deliberate rejection of IPsec's
 flexibility:
 
-- **About 4,000 lines of code**, against IPsec/IKE implementations in the hundreds of
+- About 4,000 lines of code, against IPsec/IKE implementations in the hundreds of
   thousands. Small enough to audit, and it has been.
 - **No cryptographic agility.** One cipher suite — ChaCha20, Poly1305, Curve25519,
   BLAKE2s — with no negotiation. Nothing to downgrade, nothing to misconfigure, and if
@@ -78,8 +78,8 @@ flexibility:
 - **Stateless-feeling roaming.** Peers are identified by public key rather than
   address, so a client moving between networks simply continues.
 
-The design lesson, which generalises well beyond VPNs: **configurability is an attack
-surface.** Every negotiable parameter is a parameter that can be negotiated badly, and
+The design lesson, which generalises well beyond VPNs: configurability is an attack
+surface. Every negotiable parameter is a parameter that can be negotiated badly, and
 the history of TLS's downgrade attacks (Chapter 58 §58.4) is the same lesson learned
 expensively.
 
@@ -111,7 +111,7 @@ that the device is simultaneously on the corporate network and the open Internet
 §61.4 treats this as the real tradeoff it is rather than pretending either position is
 obviously right.
 
-The direction of travel is **zero trust network access** (Chapter 59 §59.4): grant
+The direction of travel is zero trust network access (Chapter 59 §59.4): grant
 access to a specific application, for a specific authenticated user, on a device whose
 posture has been checked, without ever placing that device on the network. The
 practical position for most organisations is a hybrid — ZTNA for the applications that

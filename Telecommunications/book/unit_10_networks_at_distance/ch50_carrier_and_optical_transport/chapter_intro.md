@@ -19,8 +19,8 @@ plant they run on.
 ## Why this layer looks different
 
 Enterprise networking optimises for flexibility and cost. Carrier transport optimises
-for two things that barely feature in Units IV through VIII: **availability measured
-in nines**, and **capacity per fibre**.
+for two things that barely feature in Units IV through VIII: availability measured
+in nines, and **capacity per fibre**.
 
 The availability requirement produced SONET/SDH's most distinctive feature. A SONET
 ring is built from two counter-rotating fibre paths, and when a fibre is cut the
@@ -64,14 +64,14 @@ Chapter 9's frequency-division multiplexing to light.
 A fibre carries one wavelength. It also carries a second wavelength, and a third,
 each modulated independently, all sharing the same glass without interacting. The
 standard grid (ITU-T G.694.1) specifies 50 GHz or 100 GHz spacing in the C-band around
-1550 nm, giving **80 to 96 channels** on one fibre pair. At 400 Gb/s per channel, that
+1550 nm, giving 80 to 96 channels on one fibre pair. At 400 Gb/s per channel, that
 is 30–40 Tb/s on a single pair, and flexible-grid systems with higher-order modulation
 push beyond it.
 
 Two enabling technologies deserve naming, because without them DWDM would be
 impractical.
 
-**The erbium-doped fibre amplifier** (David Payne's group at Southampton, and
+The erbium-doped fibre amplifier (David Payne's group at Southampton, and
 Bell Labs, 1987) amplifies light *as light*, without converting to electrical and
 back. Crucially it amplifies a whole band at once — all ninety-six wavelengths
 simultaneously, in one device. Before the EDFA, every wavelength would have needed its
@@ -79,7 +79,7 @@ own regenerator every 40 km, and the economics would have been impossible. The E
 why long-haul optical networking exists, and it is the reason the C-band is the C-band
 — erbium's gain happens to sit there.
 
-**Coherent detection with digital signal processing** (from around 2008) recovers the
+Coherent detection with digital signal processing (from around 2008) recovers the
 optical signal's phase as well as its amplitude, permitting the QAM constellations of
 Chapter 8 §8.3 at optical frequencies, and permitting chromatic dispersion to be
 compensated **electronically** in the receiver rather than optically in the line. That
@@ -113,8 +113,8 @@ enterprise WAN product for two decades, and Chapter 51 covers its displacement.
 **Fast reroute**, which brings sub-50 ms protection to packet networks and closes the
 gap with SONET.
 
-The lesson worth extracting: **MPLS is what happens when an industry that abandoned
-circuits discovers it wanted some of their properties after all.** It will not be the
+The lesson worth extracting: MPLS is what happens when an industry that abandoned
+circuits discovers it wanted some of their properties after all. It will not be the
 last time in this book.
 
 ## By the end you will be able to

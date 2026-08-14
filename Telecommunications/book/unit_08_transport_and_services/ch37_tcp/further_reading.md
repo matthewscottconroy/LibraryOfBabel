@@ -13,7 +13,7 @@ forty-one years did and did not alter.
 
 **Jacobson, V. (1988). "Congestion Avoidance and Control." *ACM SIGCOMM*.**
 **Read this.** The RTT estimator of §37.3 is in the appendix; the congestion control is
-Chapter 38's. **Among the most consequential papers in computing**, and it is readable.
+Chapter 38's. Among the most consequential papers in computing, and it is readable.
 
 **Karn, P. & Partridge, C. (1987). "Improving Round-Trip Time Estimates in Reliable
 Transport Protocols." *ACM SIGCOMM*.**
@@ -30,7 +30,7 @@ Acknowledgment Options.***
 SACK. Short, and the mechanism is obvious once stated — which is the mark of a good
 extension.
 
-**RFC 5681 — Allman, M., Paxson, V. & Blanton, E. (2009). *TCP Congestion Control.***
+RFC 5681 — Allman, M., Paxson, V. & Blanton, E. (2009). *TCP Congestion Control.*
 Fast retransmit and fast recovery, specified. (The congestion control proper is Chapter 38.)
 
 **RFC 8985 — Cheng, Y., Cardwell, N., Dukkipati, N. & Jha, P. (2021). *The RACK-TLP Loss
@@ -38,7 +38,7 @@ Detection Algorithm for TCP.***
 **The modern replacement for duplicate-ACK counting.** Read §2 for the motivation — the
 measured impact of tail loss is the interesting part.
 
-**RFC 6528 — Gont, F. & Bellovin, S. (2012). *Defending against Sequence Number Attacks.***
+RFC 6528 — Gont, F. & Bellovin, S. (2012). *Defending against Sequence Number Attacks.*
 The ISN generation of §37.1, **twenty-three years after Bellovin described the
 vulnerability.**
 
@@ -46,16 +46,16 @@ vulnerability.**
 Retransmission Timer.***
 Jacobson's estimator, specified normatively, including the 1-second minimum.
 
-**RFC 896 — Nagle, J. (1984). *Congestion Control in IP/TCP Internetworks.***
+RFC 896 — Nagle, J. (1984). *Congestion Control in IP/TCP Internetworks.*
 Nagle's algorithm, and the congestion problem as it appeared before Jacobson.
 
-**RFC 813 — Clark, D. (1982). *Window and Acknowledgement Strategy in TCP.***
+RFC 813 — Clark, D. (1982). *Window and Acknowledgement Strategy in TCP.*
 Silly window syndrome and the receiver-side fix.
 
 ## Books
 
 **Stevens, W. R. (1994). *TCP/IP Illustrated, Volume 1*, chapters 17–24.**
-**The reference for this chapter, and probably the best technical exposition in the field.**
+The reference for this chapter, and probably the best technical exposition in the field.
 Every mechanism, with real captures, explained by someone who clearly enjoyed it. Chapters
 21 (timeout and retransmission) and 22 (persist timer) are the ones to read twice.
 
@@ -66,7 +66,7 @@ after another seventeen years.
 
 **Wright, G. & Stevens, W. R. (1995). *TCP/IP Illustrated, Volume 2: The
 Implementation*.**
-The 4.4BSD source, annotated line by line. **If you want to know what actually happens**,
+The 4.4BSD source, annotated line by line. If you want to know what actually happens,
 this is it — and much of the code is recognisable in every derivative stack since.
 
 **Stevens, W. R., Fenner, B. & Rudoff, A. (2003). *UNIX Network Programming, Volume 1*,
@@ -74,14 +74,14 @@ this is it — and much of the code is recognisable in every derivative stack si
 The application side: `TCP_NODELAY`, `SO_LINGER`, `SO_REUSEADDR`, and the socket options
 that produce §37.4 and §37.5's behaviours.
 
-**Peterson, L. & Davie, B. *Computer Networks: A Systems Approach*, chapter 5.**
+Peterson, L. & Davie, B. *Computer Networks: A Systems Approach*, chapter 5.
 Good on *why* the mechanisms are as they are, with the sliding window built up from first
 principles. Freely available online.
 
 ## Applied
 
 **Capture a complete connection** (exercise F1). Handshake, data, teardown. **Annotate every
-packet by hand** and verify the `+1` rules for SYN and FIN. **This is the single most
+packet by hand and verify the `+1` rules for SYN and FIN. This is the single most
 valuable exercise in the chapter**, and it takes twenty minutes.
 
 ```bash
@@ -115,7 +115,7 @@ sysctl -w net.ipv4.tcp_window_scaling=1
 tc qdisc del dev lo root
 ```
 
-**The two numbers you produce are §37.4's argument**, and having produced them yourself you
+The two numbers you produce are §37.4's argument, and having produced them yourself you
 will never again mistake this fault for a network problem.
 
 **Reproduce the Nagle stall** (exercise F3). Two small writes per request, measure the
@@ -139,15 +139,15 @@ window and a tail-loss stall, requiring each to be identified from the capture a
 ## For the certification-minded
 
 Objective 1.4 expects TCP, the three-way handshake, flow control and the comparison with
-UDP. **The handshake is examined directly and frequently.**
+UDP. The handshake is examined directly and frequently.
 
 Eight things worth over-learning:
 
 1. **SYN, SYN-ACK, ACK** — and that **SYN consumes a sequence number**, hence the `+1`.
-2. **The acknowledgement number is the next byte expected**, not the last byte received.
+2. The acknowledgement number is the next byte expected, not the last byte received.
 3. **Three duplicate ACKs trigger fast retransmit.**
 4. **Flow control protects the receiver; congestion control protects the network.**
-5. **The receiver advertises a window in every ACK**, and **throughput ≤ window ÷ RTT**.
+5. The receiver advertises a window in every ACK, and **throughput ≤ window ÷ RTT**.
 6. **Teardown is four packets** — FIN, ACK, FIN, ACK — and **FIN also consumes a sequence
    number**.
 7. **RST means abort**; after a SYN it means **nothing is listening**.
@@ -159,11 +159,11 @@ Expect a packet-sequence question requiring you to fill in acknowledgement numbe
 
 And the four operational facts worth more than the objective:
 
-**5 Mb/s on a fast long path with no loss is window scaling missing.** Capture the SYN.
+5 Mb/s on a fast long path with no loss is window scaling missing. Capture the SYN.
 
 **A zero window is the receiving application, not the network.**
 
 **CLOSE-WAIT accumulating is a missing `close()` in code.**
 
-**A consistent 200 ms per transaction is Nagle meeting delayed ACK.** Set `TCP_NODELAY`
+A consistent 200 ms per transaction is Nagle meeting delayed ACK. Set `TCP_NODELAY`
 or combine the writes.

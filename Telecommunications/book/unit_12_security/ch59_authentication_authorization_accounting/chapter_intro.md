@@ -29,7 +29,7 @@ reuse, phishing and disclosure at scale via breaches of other systems.
 Requires physical possession, and is why theft is the attack rather than guessing.
 
 **Something you are** — fingerprint, face, iris. Convenient, and carrying a permanent
-liability: **you cannot revoke a fingerprint.** A compromised password is changed in
+liability: you cannot revoke a fingerprint. A compromised password is changed in
 seconds; a compromised biometric template is compromised for life. This is a genuine
 argument for treating biometrics as a convenience layer over a revocable credential
 rather than as a credential in themselves.
@@ -60,8 +60,8 @@ EAP frames — the device has link, and no network.
 matters: EAP-TLS uses certificates on both sides and is the strongest; PEAP and
 EAP-TTLS tunnel a password-based method inside TLS; EAP-MD5 is broken and should never
 appear. §59.2 covers the deployment realities, including the two that consume most of
-the effort: **certificate distribution** to every device, and **what to do about
-devices that cannot do 802.1X** — printers, cameras, building controllers — for which
+the effort: **certificate distribution** to every device, and what to do about
+devices that cannot do 802.1X — printers, cameras, building controllers — for which
 MAC authentication bypass is the usual answer, with the honest acknowledgement that
 MAC addresses are trivially spoofed and MAB is therefore a inventory control rather
 than a security control.
@@ -109,7 +109,7 @@ moved out of the office, so they are not inside either. And the model's core
 assumption — that inside is safe — means that an attacker who gets in faces no further
 obstacles, which is exactly the lateral movement that turns a foothold into a breach.
 
-Zero trust's premise: **there is no inside.** Every request is authenticated and
+Zero trust's premise: there is no inside. Every request is authenticated and
 authorised on its own merits, regardless of origin. Network location confers no trust.
 The practical components are strong identity, device posture assessment,
 per-application access rather than network access, continuous verification rather than

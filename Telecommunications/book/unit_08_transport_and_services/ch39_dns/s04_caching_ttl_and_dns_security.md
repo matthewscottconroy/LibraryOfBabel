@@ -8,7 +8,7 @@ design shows its age most sharply.
 
 **Every record carries a time-to-live**: *how long a resolver may cache this answer.*
 
-**It is a promise from the zone's operator to the world**, and it is the only mechanism
+It is a promise from the zone's operator to the world, and it is the only mechanism
 controlling how quickly a change propagates.
 
 | TTL | Change propagates in | Query load | Typical use |
@@ -19,11 +19,11 @@ controlling how quickly a change propagates.
 | 86400 s | **1 day** | very low | stable records |
 | 172800 s | 2 days | minimal | **NS and delegation records** |
 
-**The trade is direct: a shorter TTL costs query volume and buys agility.**
+The trade is direct: a shorter TTL costs query volume and buys agility.
 
 ### The migration procedure
 
-**The standard technique, and getting the order right is the whole thing:**
+The standard technique, and getting the order right is the whole thing:
 
 ```
    Day -2:  lower the TTL from 3600 to 60
@@ -37,7 +37,7 @@ controlling how quickly a change propagates.
 > at the moment of the change achieves nothing — caches already hold the old record with
 > the old, long TTL, and will keep it.
 
-**This is the most useful operational fact in the chapter**, and forgetting it turns a
+This is the most useful operational fact in the chapter, and forgetting it turns a
 five-minute migration into an eight-hour one during which half the world reaches the old
 address.
 
@@ -49,7 +49,7 @@ address.
 **Which produces a distinctive fault:** you create a record that did not exist, and **it
 does not work for the negative-cache duration** even though the zone is correct.
 
-**Everything looks right at the authoritative server and wrong everywhere else**, and the
+Everything looks right at the authoritative server and wrong everywhere else, and the
 only remedy is waiting. **Keep the SOA minimum modest** — 300 to 900 seconds — precisely so
 this window is short.
 
@@ -60,17 +60,17 @@ this window is short.
 **Some resolvers impose a minimum** (ignoring very short TTLs to reduce load) or a
 **maximum** (capping very long ones). **Browsers cache separately** and historically
 ignored TTLs entirely — Chrome caches for about a minute regardless. **Operating systems
-cache**, and Java historically cached DNS **forever** by default, which caused a great many
+cache, and Java historically cached DNS forever** by default, which caused a great many
 production incidents.
 
-**So a TTL is a request, not a guarantee** — the same shape as Chapter 20 §20.2's QoS
+So a TTL is a request, not a guarantee — the same shape as Chapter 20 §20.2's QoS
 marking, and worth remembering when a migration does not propagate as predicted.
 
 ## The security problem
 
 **DNS as designed has no authentication of any kind.**
 
-**A response is believed because it arrived and matched a query.** The matching is:
+A response is believed because it arrived and matched a query. The matching is:
 
 | Field | Entropy |
 |---|---|
@@ -78,10 +78,10 @@ marking, and worth remembering when a migration does not propagate as predicted.
 | Question name and type | must match |
 | **Source port** | originally **fixed**; now randomised |
 
-**With a fixed source port, an attacker needs only to guess a 16-bit ID** — 65,536
+With a fixed source port, an attacker needs only to guess a 16-bit ID — 65,536
 possibilities, and they can send many forged responses.
 
-**If a forged response arrives before the real one and the ID matches, it is cached** — and
+If a forged response arrives before the real one and the ID matches, it is cached — and
 **every client using that resolver is sent to the attacker's address until the TTL
 expires.**
 
@@ -109,17 +109,17 @@ to wait for the TTL to expire to try again. Slow, and largely impractical.
 **So a successful forgery does not poison one name — it poisons the entire zone's
 delegation**, redirecting *everything* under `example.com`.
 
-**And the attacker gets unlimited attempts**, because every new nonsense name is a fresh
+And the attacker gets unlimited attempts, because every new nonsense name is a fresh
 cache miss with a fresh query ID to guess.
 
 > **Kaminsky turned cache poisoning from a slow, one-shot attack into one that succeeds in
 > seconds and takes the whole domain.**
 
-**The coordinated response in July 2008** — patches released simultaneously by every major
+The coordinated response in July 2008 — patches released simultaneously by every major
 DNS vendor before disclosure — is one of the largest coordinated security efforts in
 Internet history.
 
-**The fix was source port randomisation**, adding **~16 bits** of entropy:
+The fix was source port randomisation, adding **~16 bits** of entropy:
 
 $$2^{16} \times 2^{16} = 2^{32} \approx 4.3 \times 10^{9} \text{ combinations}$$
 
@@ -164,16 +164,16 @@ impossible, and Kaminsky said so at the time. **0x20 encoding** (§39.1) adds a 
    www.example.com  A  93.184.216.34   + RRSIG
 ```
 
-**Each level vouches for the next**, and the root's key is the one thing a validator must
+Each level vouches for the next, and the root's key is the one thing a validator must
 know in advance.
 
-**The root was signed in July 2010**, in a ceremony with multiple witnesses and physical
+The root was signed in July 2010, in a ceremony with multiple witnesses and physical
 key shares — deliberately theatrical, because the whole system's trust rests on that one
 key.
 
 ### Why deployment stalled
 
-**Signed zones are perhaps 5–10% of the total**, and validation is more common than signing
+Signed zones are perhaps 5–10% of the total, and validation is more common than signing
 because large public resolvers do it.
 
 **The reasons are the ones this book keeps arriving at:**
@@ -182,7 +182,7 @@ because large public resolvers do it.
 validating resolvers, of which there were few; validating protects your users from signed
 zones, of which there were few.
 
-**Operationally dangerous.** **An expired signature makes your domain vanish** for every
+**Operationally dangerous.** An expired signature makes your domain vanish for every
 validating resolver — a harder failure than not signing at all. Several large organisations
 have taken themselves offline this way.
 
@@ -195,13 +195,13 @@ outage.
 the answer is still plaintext and unauthenticated — **which is where most users' actual
 exposure is.**
 
-**That last point is why encrypted transport has moved faster than DNSSEC.**
+That last point is why encrypted transport has moved faster than DNSSEC.
 
 ## Encrypted DNS
 
 **A different problem: DNSSEC authenticates; it does not conceal.**
 
-**Every query you make is visible to your network, your ISP, and anyone on the path** — and
+Every query you make is visible to your network, your ISP, and anyone on the path — and
 the list of names you look up is a detailed record of what you do.
 
 | | Transport | Port | Character |
@@ -211,12 +211,12 @@ the list of names you look up is a detailed record of what you do.
 | **DoQ** — DNS over QUIC | QUIC | 853 | lower latency |
 | **DNSCrypt** | custom | varies | pre-standard, still used |
 
-**DoT and DoH differ in one respect that generated enormous argument:**
+DoT and DoH differ in one respect that generated enormous argument:
 
-**DoT is on its own port**, so a network operator can see that DNS is happening, can
+DoT is on its own port, so a network operator can see that DNS is happening, can
 require their own resolver, and can block it.
 
-**DoH is on 443 and looks like HTTPS**, so **the network cannot distinguish it from any
+DoH is on 443 and looks like HTTPS, so **the network cannot distinguish it from any
 other web traffic** — which is precisely the point for a user evading surveillance or
 censorship, and precisely the problem for an enterprise that needs DNS visibility for
 security monitoring, or for a school applying content filtering.
@@ -230,7 +230,7 @@ security monitoring, or for a school applying content filtering.
 | Prevents on-path tampering | **Centralises DNS in a few large providers** |
 | | Breaks split-horizon and internal name resolution |
 
-**Browsers shipping DoH enabled by default**, sending queries to a resolver of the
+Browsers shipping DoH enabled by default, sending queries to a resolver of the
 *browser's* choosing rather than the network's, was the flashpoint — and the resolution has
 mostly been **canary domains** (a network can publish a record signalling "do not use DoH
 here") and enterprise policy controls.
@@ -243,19 +243,19 @@ here") and enterprise policy controls.
 **DNS failures are unusually consequential, because everything depends on them.**
 
 **Dyn, October 2016.** A Mirai-botnet DDoS against a large managed DNS provider took
-**Twitter, Spotify, Reddit, GitHub, Netflix and many others offline simultaneously** —
-because they shared a DNS provider. **None of their own infrastructure failed.**
+Twitter, Spotify, Reddit, GitHub, Netflix and many others offline simultaneously —
+because they shared a DNS provider. None of their own infrastructure failed.
 
 **The lesson is concentration risk:** a dependency shared by many services is a single
 point of failure for all of them, and it is invisible until it fails. **Use two DNS
 providers for anything that matters.**
 
 **Facebook, October 2021.** A configuration change withdrew the BGP routes to Facebook's
-own DNS servers. **The DNS servers were healthy and unreachable**, so every Facebook
+own DNS servers. The DNS servers were healthy and unreachable, so every Facebook
 property became unresolvable worldwide for six hours.
 
 **And the failure compounded:** internal tools depended on the same DNS, badge readers
-depended on internal tools, **and engineers could not enter the building** to fix it.
+depended on internal tools, and engineers could not enter the building to fix it.
 
 > **A dependency you did not know you had is still a dependency.** Facebook's is the
 > canonical example, and it is worth asking of your own systems: *what breaks if DNS
@@ -300,7 +300,7 @@ dig -x 93.184.216.34
 | **4. Is the delegation correct?** | `dig +trace name` |
 | **5. Is it my resolver specifically?** | `dig name @8.8.8.8` |
 
-**Steps 2 and 5 together localise almost everything**: right at the authority and wrong at
+Steps 2 and 5 together localise almost everything: right at the authority and wrong at
 your resolver means caching or a resolver problem; wrong at the authority means the zone.
 
 ```bash
@@ -317,7 +317,7 @@ rndc flush                       # BIND
 
 **A new record that does not work.** Negative caching. Wait out the SOA minimum.
 
-**Everything worked until the certificate expired — or the DNSSEC signature did.** A
+Everything worked until the certificate expired — or the DNSSEC signature did. A
 signature expiry makes the domain vanish for validating resolvers.
 
 **One resolver giving a different answer from another.** Caching, or split-horizon, or a
@@ -327,7 +327,7 @@ poisoned cache.
 
 **Everything down because one provider was attacked.** Concentration risk. Use two.
 
-**Unable to fix an outage because the tools depend on the broken thing.** Ask this question
+Unable to fix an outage because the tools depend on the broken thing. Ask this question
 before the outage.
 
 > **Network+ note.** Objective 1.6 expects DNS caching and TTL; objective 4.2 expects DNS

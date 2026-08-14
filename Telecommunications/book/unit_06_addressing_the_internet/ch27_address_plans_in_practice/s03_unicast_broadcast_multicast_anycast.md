@@ -28,7 +28,7 @@ behind most of the modern Internet's performance and resilience.
 
 The default. One source, one destination, one copy.
 
-**Everything in Chapters 24–26 is unicast**, and roughly 95% of Internet traffic is.
+Everything in Chapters 24–26 is unicast, and roughly 95% of Internet traffic is.
 
 **The cost:** sending the same data to *n* recipients requires *n* copies traversing the
 network. For a video stream to 10,000 viewers, that is 10,000 streams — which is why
@@ -48,7 +48,7 @@ multicast and CDNs both exist.
 | Older NetBIOS name resolution | same bootstrap problem |
 | Wake-on-LAN | the target is powered off and has no state |
 
-**Every case is a bootstrap problem**: something must be found before enough is known to
+Every case is a bootstrap problem: something must be found before enough is known to
 address it directly (Chapter 18 §18.2).
 
 **Its limits:**
@@ -94,7 +94,7 @@ Multicast IP maps to a multicast MAC address by a fixed rule:
 ```
 
 **Note: 23 bits, not 24.** The 24-bit IP group field is one bit larger than the space
-available, so **32 different multicast IP addresses map to the same MAC address**.
+available, so 32 different multicast IP addresses map to the same MAC address.
 
 The consequence is real: a host subscribed to one group may receive frames for another
 that happens to collide, and must discard them in software. Rare, and worth knowing when
@@ -169,7 +169,7 @@ no geolocation database and no DNS trickery.
 **Load distribution.** Traffic spreads across instances by network topology.
 
 **DDoS resilience.** An attack is absorbed by the instance nearest the attacker rather
-than concentrating. **This is anycast's most valuable property** and the reason every
+than concentrating. This is anycast's most valuable property and the reason every
 serious DDoS mitigation service is built on it.
 
 **Failure handling.** An instance that fails withdraws its route, and traffic moves to the
@@ -178,7 +178,7 @@ routing protocol is the failover mechanism.
 
 ### The catch
 
-**Anycast works cleanly for stateless, short exchanges and awkwardly for stateful ones.**
+Anycast works cleanly for stateless, short exchanges and awkwardly for stateful ones.
 
 A routing change mid-connection sends subsequent packets to a **different instance**,
 which has no knowledge of the connection state and will reset it.
@@ -190,7 +190,7 @@ which has no knowledge of the connection state and will reset it.
 | **Long TCP connections** | **risky** — a route change resets them |
 | Long-lived sessions, uploads | avoid, or handle the resets explicitly |
 
-**Which is why DNS is anycast's canonical application** — it is exactly the stateless,
+Which is why DNS is anycast's canonical application — it is exactly the stateless,
 single-exchange, latency-sensitive case anycast serves perfectly.
 
 For TCP, providers mitigate by keeping routing stable, by using consistent hashing at the

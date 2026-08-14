@@ -1,7 +1,7 @@
 # Chapter 64 — The Toolbox
 
 Every tool in this chapter answers a question. The skill is not operating the tools —
-they are simple — but knowing **which question you are asking**, and therefore which
+they are simple — but knowing which question you are asking, and therefore which
 tool will answer it and what its answer licenses you to conclude.
 
 That framing matters because the commonest error with these tools is
@@ -17,8 +17,8 @@ consolidation of Chapter 34 with the emphasis on interpretation.
 
 The points worth restating because they are the ones misapplied daily:
 
-**`ping` failing proves almost nothing** — firewalls, rate limits and host policy all
-block ICMP routinely (Chapter 34 §34.2). **`ping` succeeding proves a great deal** —
+`ping` failing proves almost nothing — firewalls, rate limits and host policy all
+block ICMP routinely (Chapter 34 §34.2). `ping` succeeding proves a great deal —
 bidirectional Layer 3 reachability and a live stack — and proves nothing about any
 application.
 
@@ -31,8 +31,8 @@ single most useful habit in the chapter.
 problem from everything else in one test, and it is the fastest route to diagnosing the
 PMTUD black hole of Chapter 34 §34.4.
 
-**Traceroute's intermediate hops lie about themselves and tell the truth about the
-path.** Loss or latency at hop *n* that does not persist at hop *n+1* is ICMP rate
+Traceroute's intermediate hops lie about themselves and tell the truth about the
+path. Loss or latency at hop *n* that does not persist at hop *n+1* is ICMP rate
 limiting, not a fault. Only loss that propagates is real.
 
 **`mtr` beats both** for intermittent problems, because it runs continuously and shows
@@ -43,14 +43,14 @@ like and what a single traceroute cannot show.
 
 §64.2 covers `dig`, `nslookup`, `host`, and the address-inspection commands.
 
-**`dig` is strongly preferred over `nslookup`** and it is worth saying why: `dig`
+`dig` is strongly preferred over `nslookup` and it is worth saying why: `dig`
 shows you the actual DNS response — the flags, the authority section, the TTL, which
 server answered — while `nslookup` shows a summary and hides exactly the details you
 need. `dig +trace` walks the delegation from the root (Chapter 39 §39.2), which is the
 tool that distinguishes a broken delegation from a broken record.
 
-The technique that resolves most DNS incidents in one step: **query the authoritative
-server directly** (`dig @ns1.example.com www.example.com`) and compare with what your
+The technique that resolves most DNS incidents in one step: query the authoritative
+server directly (`dig @ns1.example.com www.example.com`) and compare with what your
 resolver returns. If they differ, it is caching. If they agree and are wrong, it is the
 record. That single comparison eliminates half the possibilities.
 
@@ -63,8 +63,8 @@ Chapter 18 §18.3 failure and is diagnostic on sight.
 §64.3 covers `tcpdump` and Wireshark, and it is the chapter's most important section
 because capture is the tool that ends arguments.
 
-Every other tool gives you a summary or an inference. A capture gives you **what
-actually crossed the wire**, which is the ground truth against which every claim can be
+Every other tool gives you a summary or an inference. A capture gives you what
+actually crossed the wire, which is the ground truth against which every claim can be
 checked. "The server never received the request" and "the server received it and did
 not reply" are different problems with different owners, and a capture distinguishes
 them in seconds where a discussion can consume a day.
@@ -108,7 +108,7 @@ that scanning networks you do not administer is at best rude and frequently unla
   cable will carry gigabit — that requires a **certifier**, which measures attenuation,
   crosstalk, return loss and delay skew against the category's specification. The gap
   between these two instruments is where a great many intermittent faults live.
-- A **tone generator and probe** finds which cable in a bundle is which.
+- A tone generator and probe finds which cable in a bundle is which.
 - An **optical power meter** measures received light in dBm and compares it against the
   budget of Chapter 10 §10.3, which is how a dirty connector is found.
 - An **OTDR** locates a fault along a fibre by distance, which is how you avoid

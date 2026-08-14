@@ -8,8 +8,8 @@ Yesterday? Last month? The day it was installed? Some notion of what it ought to
 
 Without a **baseline**, every performance question is unanswerable and every
 performance discussion is an exchange of impressions. This is the chapter's first and
-most important point, and it has an inconvenient corollary: **the baseline must be
-collected before you need it**, during the period when everything is fine and nobody
+most important point, and it has an inconvenient corollary: the baseline must be
+collected before you need it, during the period when everything is fine and nobody
 is asking. The moment you need one is the moment it is too late to start.
 
 ## What a baseline actually is
@@ -82,14 +82,14 @@ Correlation requires accurate time, which requires NTP, which is why Chapter 41 
 insisted that clock skew is a networking problem. Log entries from two devices whose
 clocks differ by four minutes cannot be sequenced, and sequencing is the entire point.
 
-§54.3 also covers the discipline of **log levels in production**: debug-level logging
+§54.3 also covers the discipline of log levels in production: debug-level logging
 generates volume that overwhelms storage and, on some platforms, the device's own CPU,
 and there are documented outages caused by logging configuration alone.
 
 ## Flow records: the question counters cannot answer
 
-An interface counter tells you a link is at 90%. It does not tell you **what is on
-it**, and that is almost always the next question.
+An interface counter tells you a link is at 90%. It does not tell you what is on
+it, and that is almost always the next question.
 
 **NetFlow** (and its standardised successor **IPFIX**, and the sampling-based
 **sFlow**) records metadata per flow: the five-tuple, byte and packet counts, start
@@ -113,20 +113,20 @@ industry is going and adoption is uneven.
 The most important page in the chapter, and the one most often absent from treatments
 of this subject.
 
-**An alert nobody acts on is worse than no alert.** It consumes attention, it trains
+An alert nobody acts on is worse than no alert. It consumes attention, it trains
 people to ignore the channel, and it provides false assurance that the system is being
 watched. Alert fatigue is not a soft problem; it is the mechanism by which real
 incidents are missed, and it has a documented role in several serious outages.
 
 The rules §54.4 develops:
 
-- **Alert on symptoms users experience**, not on every threshold. "Users cannot reach
+- Alert on symptoms users experience, not on every threshold. "Users cannot reach
   the application" beats "CPU is 81%."
-- **Every alert must have an action.** If the answer to "what do I do about this" is
+- Every alert must have an action. If the answer to "what do I do about this" is
   "nothing, it clears itself," it is not an alert. It is a graph.
-- **Alert on trend and duration**, not on instantaneous values. A link at 95% for five
+- Alert on trend and duration, not on instantaneous values. A link at 95% for five
   minutes is worth knowing; a link at 95% for two seconds is a backup starting.
-- **Review alerts that fired and were ignored**, monthly, and delete or fix them. This
+- Review alerts that fired and were ignored, monthly, and delete or fix them. This
   is the single practice that keeps a monitoring system trustworthy.
 
 ## By the end you will be able to

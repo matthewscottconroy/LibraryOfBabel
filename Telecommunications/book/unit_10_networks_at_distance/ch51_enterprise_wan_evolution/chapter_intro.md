@@ -11,7 +11,7 @@ warehousing application in AWS, a video conferencing service, a security gateway
 operated by a third party, and — occasionally, for one legacy system nobody has
 replaced — the corporate data centre.
 
-**The traffic that used to define the WAN is now a small minority of it.** Everything
+The traffic that used to define the WAN is now a small minority of it. Everything
 in this chapter follows from that change, and the technologies form a coherent story
 of an industry adapting to it rather than a list of products.
 
@@ -79,7 +79,7 @@ while a backup transfer takes the other; and a new site is configured centrally 
 than by sending an engineer.
 
 What it does not deliver, and §51.2 is explicit about this because vendors are not:
-**an SLA on the public Internet.** Measuring paths and choosing the best one is not
+an SLA on the public Internet. Measuring paths and choosing the best one is not
 the same as a carrier committing to a latency figure. When every available path is
 congested, SD-WAN chooses the least bad one. For most traffic that is entirely
 sufficient; for a small class of applications it is not, and the honest design keeps

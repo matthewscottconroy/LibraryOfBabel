@@ -14,7 +14,7 @@ determines which protocol you troubleshoot:
 | **Reading, downloading** | **POP3** | pull | 110, 995 |
 | **Reading, server-resident** | **IMAP** | pull | 143, 993 |
 
-> **SMTP pushes mail toward its destination. POP3 and IMAP pull it from where it landed.**
+> SMTP pushes mail toward its destination. POP3 and IMAP pull it from where it landed.
 > They are not alternatives to each other; every mail system uses SMTP plus one of the
 > other two.
 
@@ -46,7 +46,7 @@ S: 250 OK queued as ABC123
 
 **Text, line-oriented, and readable** — the same shape as HTTP (§41.1), from the same era.
 
-**The three ports are three different jobs**, and confusing them causes real problems:
+The three ports are three different jobs, and confusing them causes real problems:
 
 | Port | Purpose | Notes |
 |---|---|---|
@@ -62,16 +62,16 @@ hours and blacklisted within days.
 
 **The detail that explains most mail forensics.**
 
-**`MAIL FROM` and `RCPT TO` are the *envelope*** — what SMTP uses to route the message.
+`MAIL FROM` and `RCPT TO` are the *envelope* — what SMTP uses to route the message.
 
-**`From:` and `To:` in the message are *headers*** — text, displayed to the user, **and
+`From:` and `To:` in the message are *headers* — text, displayed to the user, **and
 entirely independent of the envelope.**
 
 > **A message can be addressed to one person on the envelope and display another in the
 > headers, and nothing in SMTP prevents it.** This is the mechanism behind essentially all
 > mail spoofing.
 
-**And it is why bounce messages go to the envelope sender** while replies go to the header
+And it is why bounce messages go to the envelope sender while replies go to the header
 `From:` — they are different fields with different purposes.
 
 ### The anti-spoofing trio
@@ -104,7 +104,7 @@ _dmarc.example.com.  TXT  "v=DMARC1; p=reject; rua=mailto:reports@example.com"
 ```
 
 **And it adds the crucial piece: alignment.** DMARC requires that the domain SPF or DKIM
-validated **matches the domain in the `From:` header the user sees** — which closes the
+validated matches the domain in the `From:` header the user sees — which closes the
 envelope/header gap above.
 
 | Policy | Effect |
@@ -127,10 +127,10 @@ arrangement somebody depended on.
 | Server storage | minimal | substantial |
 | Offline | naturally | with caching |
 
-**IMAP won because people have several devices**, and POP3 survives where a single client
+IMAP won because people have several devices, and POP3 survives where a single client
 downloads everything and server storage is expensive.
 
-**Both should be used only over TLS** — 993 and 995, or STARTTLS on 143 and 110.
+Both should be used only over TLS — 993 and 995, or STARTTLS on 143 and 110.
 
 ## LDAP — 389 and 636
 
@@ -150,16 +150,16 @@ model and discarded the protocol stack.
      └── ou=Computers
 ```
 
-**A Distinguished Name is the full path**, read from the leaf:
+A Distinguished Name is the full path, read from the leaf:
 `uid=alice,ou=People,dc=example,dc=com`
 
 **The operations:** `bind` (authenticate), `search`, `compare`, `add`, `modify`, `delete`.
 
 **Its dominant use is authentication.** An application binds to the directory with the
-user's credentials; **success means the password was right.** Which is why LDAP is the
+user's credentials; success means the password was right. Which is why LDAP is the
 authentication back-end for a very large fraction of enterprise software.
 
-**Active Directory is LDAP plus Kerberos plus DNS**, and Chapter 39 §39.3's SRV records are
+Active Directory is LDAP plus Kerberos plus DNS, and Chapter 39 §39.3's SRV records are
 how a client finds a domain controller.
 
 > **LDAP over 389 without TLS sends the bind password in clear text.** Use **LDAPS (636)**
@@ -185,9 +185,9 @@ than it appears to.
    delay  =  (t4 - t1) - (t3 - t2)
 ```
 
-**The offset calculation assumes the path is symmetric** — that the outbound and return
+The offset calculation assumes the path is symmetric — that the outbound and return
 delays are equal. **When they are not** — an asymmetric route (Chapter 32 §32.2), a
-congested direction — **the offset is wrong by half the asymmetry**, and NTP has no way to
+congested direction — the offset is wrong by half the asymmetry, and NTP has no way to
 detect it.
 
 **This is NTP's fundamental limitation**, and it is why NTP achieves milliseconds rather
@@ -207,11 +207,11 @@ generally.
    Stratum 16: unsynchronised
 ```
 
-**Each level adds error.** In practice **stratum 2 or 3 is entirely adequate** for anything
+**Each level adds error.** In practice stratum 2 or 3 is entirely adequate for anything
 that is not a measurement instrument.
 
-**And NTP consults several servers deliberately** — it discards outliers and averages the
-rest, because **a single server that is confidently wrong is worse than no server.** Mills's
+And NTP consults several servers deliberately — it discards outliers and averages the
+rest, because a single server that is confidently wrong is worse than no server. Mills's
 remark applies: *a man with one clock knows what time it is; a man with two is never sure.*
 
 ### Why time matters more than it looks
@@ -229,7 +229,7 @@ remark applies: *a man with one clock knows what time it is; a man with two is n
 | Distributed databases | conflict resolution corrupted |
 | Billing and audit | disputes that cannot be resolved |
 
-**The Kerberos row is the one that produces the most dramatic failure:** **a domain member
+The Kerberos row is the one that produces the most dramatic failure: **a domain member
 whose clock drifts more than five minutes cannot authenticate at all**, and the error
 message rarely mentions time.
 
@@ -259,24 +259,24 @@ MS Name/IP address     Stratum Poll Reach LastRx Last sample
 ^- ntp3.example.com          3   10   377    89   +9.4ms
 ```
 
-**`^*` is the selected source; `^+` is a usable alternative; `^-` is excluded** as an
-outlier. **`Reach 377` is octal — eight consecutive successful polls**, which is what you
+`^*` is the selected source; `^+` is a usable alternative; `^-` is excluded as an
+outlier. `Reach 377` is octal — eight consecutive successful polls, which is what you
 want to see.
 
 **Design guidance:**
 
-- **Internal servers synchronise from a small number of trusted internal sources**, which
+- Internal servers synchronise from a small number of trusted internal sources, which
   synchronise externally — a hierarchy, not everything reaching the Internet
-- **Use at least three upstream sources**, so an outlier can be identified
+- Use at least three upstream sources, so an outlier can be identified
 - **`pool.ntp.org`** for general use; **vendor pools** (`time.google.com`,
   `time.cloudflare.com`) are also good and use leap smearing
 - **Firewall NTP** — Chapter 36 §36.4's amplification, and **`monlist` was a 557×
   amplifier** until it was removed
 - **Monitor clock offset** as a first-class metric
 
-**And NTP has authentication** — symmetric keys, or **NTS (Network Time Security, RFC 8915)**
+**And NTP has authentication** — symmetric keys, or NTS (Network Time Security, RFC 8915)
 which is TLS-based and is the modern answer. **Largely undeployed**, and the risk is real:
-**an attacker who can move your clock can make an expired certificate valid.**
+an attacker who can move your clock can make an expired certificate valid.
 
 ## What breaks here
 

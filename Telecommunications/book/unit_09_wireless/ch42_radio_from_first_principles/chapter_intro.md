@@ -71,10 +71,10 @@ use repeatedly:
 
 $$\text{FSPL(dB)} = 32.45 + 20\log_{10} f_{\text{MHz}} + 20\log_{10} d_{\text{km}}$$
 
-Two consequences fall straight out of the logarithms. **Doubling the distance costs
-6 dB**, always, at any frequency — which means each doubling of range costs a
+Two consequences fall straight out of the logarithms. Doubling the distance costs
+6 dB, always, at any frequency — which means each doubling of range costs a
 quadrupling of power, and is why range extension by transmit power is so unrewarding.
-And **doubling the frequency also costs 6 dB**, which is the fundamental reason
+And doubling the frequency also costs 6 dB, which is the fundamental reason
 5 GHz has shorter range than 2.4 GHz, and 6 GHz shorter still, and mmWave is measured
 in hundreds of metres.
 
@@ -99,7 +99,7 @@ which is one of the more elegant reversals in the field.
 
 **Absorption**, which is strongly material-dependent: plasterboard costs perhaps
 3 dB, a brick wall 10–15 dB, reinforced concrete 20–30 dB, and a lift shaft
-effectively infinite. **The human body absorbs 2.4 and 5 GHz well** — a room full of
+effectively infinite. The human body absorbs 2.4 and 5 GHz well — a room full of
 people is measurably worse than an empty one, which is why a lecture theatre that
 surveys perfectly on a Sunday fails on Monday morning.
 
@@ -117,9 +117,9 @@ though you can see the far end. §42.4 gives the formula and works an example, b
   receiver's requirement *at the desired data rate* — sensitivity for the lowest
   modulation is far better than for the highest, so a link that "works" may be
   working at a twentieth of the expected rate.
-- **Forgetting the Fresnel zone**, and building a link that degrades in rain or when
+- Forgetting the Fresnel zone, and building a link that degrades in rain or when
   the trees grow.
-- **Designing from a survey taken in an empty building.**
+- Designing from a survey taken in an empty building.
 
 ## By the end you will be able to
 

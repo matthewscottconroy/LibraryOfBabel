@@ -6,7 +6,7 @@ dashboard is the colour it should be. Every service responds.
 And the users say it is slow.
 
 This is the hardest class of problem in networking, and it is hard for a structural
-reason: **the tests that detect faults do not detect degradation.** A binary check —
+reason: the tests that detect faults do not detect degradation. A binary check —
 is it up? — cannot distinguish 940 Mb/s from 94 Mb/s, and a system that is working
 badly passes every test designed to find systems that are not working.
 
@@ -51,8 +51,8 @@ load this is nearly invisible. Under load it is catastrophic — throughput coll
 a small fraction of the link rate, and gets *worse* as offered load increases, which is
 the opposite of most performance problems and is diagnostic in itself.
 
-The fingerprint is unambiguous and lives in the counters: **late collisions on the
-half-duplex end**, alignment and CRC errors on both. A late collision — one detected
+The fingerprint is unambiguous and lives in the counters: late collisions on the
+half-duplex end, alignment and CRC errors on both. A late collision — one detected
 after the first 64 bytes — is never normal on a correctly configured link, and its
 presence means either a duplex mismatch or a segment that exceeds the maximum length.
 
@@ -65,7 +65,7 @@ cure.
 §66.3 consolidates the material from Chapter 24 §24.3 and Chapter 34 §34.4, because
 this is where it is applied.
 
-The signature, worth memorising: **small packets work, large packets do not.** The
+The signature, worth memorising: small packets work, large packets do not. The
 connection establishes — the handshake is small — and then hangs on the first
 substantial transfer. SSH shows its banner and freezes. A web page's headers arrive and
 the body does not. A file copy starts at zero bytes and stops.
@@ -99,7 +99,7 @@ failure.
 Memory got cheap, so device vendors added large buffers, reasoning that a bigger
 buffer means fewer drops and fewer drops means better performance.
 
-But Chapter 38 established that **TCP uses loss as its congestion signal.** A large
+But Chapter 38 established that TCP uses loss as its congestion signal. A large
 buffer does not prevent congestion; it *hides* it. Packets that would have been dropped
 are instead queued — for hundreds of milliseconds, sometimes seconds — and TCP,
 receiving no loss signal, keeps increasing its window. The queue grows until it finally
@@ -107,8 +107,8 @@ overflows, by which time every packet crossing that link, including packets from
 completely unrelated latency-sensitive flows, is delayed by the full depth of the
 queue.
 
-The observable result is familiar to everyone: **a large upload makes an unrelated
-video call unusable**, on a connection with plenty of capacity, and the effect
+The observable result is familiar to everyone: a large upload makes an unrelated
+video call unusable, on a connection with plenty of capacity, and the effect
 disappears the moment the upload finishes. Latency under load, measured properly,
 can rise from 20 ms to over a second.
 
@@ -119,7 +119,7 @@ on queue occupancy, keeping latency bounded regardless of buffer size. FQ-CoDel 
 the default on Linux and in most consumer router firmware, and it is one of the more
 satisfying instances of a research result reaching deployment.
 
-The lesson worth generalising: **more buffer is not better buffer.** A buffer's job is
+The lesson worth generalising: more buffer is not better buffer. A buffer's job is
 to absorb bursts, not to store a backlog, and the diagnostic that reveals the
 difference is latency measured *under load* rather than on an idle link.
 

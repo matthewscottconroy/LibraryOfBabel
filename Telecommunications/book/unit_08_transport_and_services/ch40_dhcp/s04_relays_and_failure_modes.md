@@ -50,10 +50,10 @@ selects the scope for `10.1.10.0/24`. **Without it the server would have no idea
 subnet the client is on**, because the packet arrived from the relay rather than from the
 client's segment.
 
-**And it is why the relay must be the router *on the client's subnet*** — the address it
+And it is why the relay must be the router *on the client's subnet* — the address it
 inserts must be one the server can map to a scope.
 
-**A missing or wrong scope for a `giaddr` value produces a distinctive symptom:** the server
+A missing or wrong scope for a `giaddr` value produces a distinctive symptom: the server
 receives the request, has no matching scope, and **silently ignores it.** The client gets
 nothing, and the server's logs — if you look — say so explicitly.
 
@@ -66,17 +66,17 @@ nothing, and the server's logs — if you look — say so explicitly.
 | **Circuit ID** | **the switch port** the client is on |
 | **Remote ID** | the switch's identity |
 
-**Which lets a server assign based on physical location** — useful for service providers
+Which lets a server assign based on physical location — useful for service providers
 assigning by subscriber line, and for enterprises assigning by port.
 
-**It is also what DHCP snooping uses** to build its binding table (below), and it is why
+It is also what DHCP snooping uses to build its binding table (below), and it is why
 snooping and Dynamic ARP Inspection (Chapter 18 §18.3) fit together.
 
 ### `ip helper-address` forwards more than DHCP
 
 **A Cisco quirk worth knowing**, because it surprises people.
 
-**`ip helper-address` forwards eight UDP broadcast services by default**, not just DHCP:
+`ip helper-address` forwards eight UDP broadcast services by default, not just DHCP:
 
 | Port | Service |
 |---|---|
@@ -87,7 +87,7 @@ snooping and Dynamic ARP Inspection (Chapter 18 §18.3) fit together.
 | 137/138 | NetBIOS |
 | 49 | TACACS |
 
-**So configuring a helper for DHCP also forwards NetBIOS broadcasts to the same server** —
+So configuring a helper for DHCP also forwards NetBIOS broadcasts to the same server —
 usually harmless, occasionally a surprising traffic source.
 
 ```
@@ -118,7 +118,7 @@ recognised.
 
 **The first and last deserve emphasis.**
 
-**Wrong VLAN is the commonest enterprise cause**, and it is invisible from the client: the
+Wrong VLAN is the commonest enterprise cause, and it is invisible from the client: the
 link is up, the port is fine, and the client is simply in a broadcast domain where no
 server or relay exists.
 
@@ -137,7 +137,7 @@ check.**
 | **One subnet** | **the relay**, or the scope for that `giaddr` |
 | **Everything** | **the server**, or the path to it |
 
-**This single question eliminates most of the search space**, and it should be the first
+This single question eliminates most of the search space, and it should be the first
 thing asked.
 
 ### Pool exhaustion
@@ -147,7 +147,7 @@ thing asked.
 **The causes:**
 
 - **Genuine growth** — more devices than planned
-- **Leases too long for the churn** — a guest network with 8-day leases holds addresses for
+- Leases too long for the churn — a guest network with 8-day leases holds addresses for
   a week after each visitor leaves
 - **A device requesting many addresses** — a misbehaving client, or a **DHCP starvation
   attack** (below)
@@ -157,21 +157,21 @@ the lease is immediate and reversible**, which makes it the right first move.
 
 ### Rogue DHCP servers
 
-**The attack, and the accident — and the accident is more common.**
+The attack, and the accident — and the accident is more common.
 
 **There is no authentication in DHCP.** A client believes whichever server answers first
-(§40.2), and **anything on the segment can be a server.**
+(§40.2), and anything on the segment can be a server.
 
 **The accidental cases:**
 
-- A home router plugged in as a switch — **and it is serving DHCP on its LAN ports**
+- A home router plugged in as a switch — and it is serving DHCP on its LAN ports
 - A virtualisation host with a NAT network bridged to the physical one
 - A Windows machine with internet connection sharing
 - A test lab device connected to the production network
 
 **The malicious case is the same mechanism used deliberately:** answer first, supply
-**your own address as the gateway**, and every packet the victim sends off-subnet passes
-through you. **A man-in-the-middle established by answering a broadcast.**
+your own address as the gateway, and every packet the victim sends off-subnet passes
+through you. A man-in-the-middle established by answering a broadcast.
 
 **The symptoms are distinctive:**
 
@@ -200,7 +200,7 @@ DISCOVER and REQUEST; only a trusted port may send OFFER and ACK.
 > **DHCP snooping is one line per switch plus one trusted port**, and it eliminates an
 > entire class of both accident and attack.
 
-**And it builds the binding table** — MAC, IP, VLAN, port, lease — **which Dynamic ARP
+And it builds the binding table — MAC, IP, VLAN, port, lease — **which Dynamic ARP
 Inspection depends on** (Chapter 18 §18.3). **This is why DAI without DHCP snooping drops
 everything**: there is no table to validate against.
 
@@ -211,7 +211,7 @@ port security bounds the MAC addresses.
 
 ### Duplicate addresses despite DHCP
 
-**A static address inside the pool** (§40.3), and a client that does not perform the
+A static address inside the pool (§40.3), and a client that does not perform the
 ARP check.
 
 **The symptom is intermittent** — it appears only when the pool reaches that address, which
@@ -221,13 +221,13 @@ may be months after the static was configured.
 
 ### The slow failure
 
-**§40.2's renewal timers mean a DHCP outage is invisible for hours.**
+§40.2's renewal timers mean a DHCP outage is invisible for hours.
 
 **Running hosts renew at T1 and, failing that, continue happily.** **Only booting hosts and
 new arrivals fail**, so the first report comes from whoever restarts a machine — often the
 morning after.
 
-> **A DHCP server can be down for half a lease time before anyone notices**, which is why
+> A DHCP server can be down for half a lease time before anyone notices, which is why
 > it needs monitoring rather than complaint-driven discovery.
 
 ## The diagnostic sequence
@@ -259,7 +259,7 @@ tcpdump -i eth0 -nn port 67 or port 68
 three causes, and the server's log says explicitly whether it saw the request and what it
 did.
 
-**And the server's log is the most under-used DHCP diagnostic** — it reports "no free
+And the server's log is the most under-used DHCP diagnostic — it reports "no free
 leases", "unknown network segment for giaddr", and every DISCOVER it declined, in plain
 text.
 
@@ -271,7 +271,7 @@ text.
 
 **`169.254.x.x` everywhere.** The server, or the path to it.
 
-**"It works if I release and renew."** PortFast missing.
+"It works if I release and renew." PortFast missing.
 
 **Addresses from an unexpected range.** A rogue DHCP server. Enable snooping.
 

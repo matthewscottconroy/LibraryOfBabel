@@ -61,16 +61,16 @@ some of them:
 - Link light on → Layer 1 is probably fine.
 - `ping` to the gateway succeeds → Layers 1, 2 and 3 work locally.
 - `ping` to a public address succeeds → routing and NAT work.
-- `ping` by name fails while `ping` by address succeeds → **everything below Layer 7
-  works, and the fault is name resolution.** One test, six layers eliminated.
+- `ping` by name fails while `ping` by address succeeds → everything below Layer 7
+  works, and the fault is name resolution. One test, six layers eliminated.
 - TCP connects but the application fails → Layers 1 through 4 are fine.
 
 Each observation halves the space. Six or seven well-chosen tests will locate almost
 any fault, which is a dramatically better strategy than trying likely causes in order
 of familiarity.
 
-The corollary, which §63.3 develops: **choose the test that eliminates the most, not
-the test that confirms your suspicion.** A test whose result you can predict tells you
+The corollary, which §63.3 develops: choose the test that eliminates the most, not
+the test that confirms your suspicion. A test whose result you can predict tells you
 nothing. The valuable test is the one you genuinely do not know the answer to.
 
 ## What this unit assumes

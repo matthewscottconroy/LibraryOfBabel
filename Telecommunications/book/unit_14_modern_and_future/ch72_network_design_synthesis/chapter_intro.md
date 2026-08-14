@@ -3,8 +3,8 @@
 Everything converges here.
 
 Seventy-one chapters have built mechanisms. This one asks the question that a working
-network engineer is actually paid to answer: **given a set of requirements, what should
-we build, and why that rather than something else?**
+network engineer is actually paid to answer: given a set of requirements, what should
+we build, and why that rather than something else?
 
 The second half of that question is the chapter's real subject. Producing *a* design is
 not difficult; a competent person with a catalogue can produce a design in an
@@ -15,8 +15,8 @@ configurator.
 
 ## Requirements, and the questions nobody asks
 
-§72.1 covers elicitation, and its central claim is that **most bad networks are the
-result of bad requirements rather than bad engineering.**
+§72.1 covers elicitation, and its central claim is that most bad networks are the
+result of bad requirements rather than bad engineering.
 
 The requirements a client volunteers are the wrong ones. They say "we need gigabit to
 the desktop" and "we need five nines," which are solutions and slogans rather than
@@ -40,7 +40,7 @@ headcount will be rebuilt in three years.
 **Who will operate it?** This is the question most often omitted and it should
 constrain the design heavily. A sophisticated design that the available staff cannot
 operate will be misconfigured within a year and will fail in ways nobody can diagnose.
-**Design for the team you have**, and if that means a simpler architecture with less
+Design for the team you have, and if that means a simpler architecture with less
 theoretical elegance, that is the correct engineering answer, not a compromise.
 
 **What must not happen?** Regulatory constraints, data residency, segregation
@@ -55,7 +55,7 @@ life of the network.
 §72.2 and §72.3 work the derivation, and the point of the ordering is that each stage
 constrains the next.
 
-**Sites and their connectivity** — from geography and the WAN options of Chapter 51.
+Sites and their connectivity — from geography and the WAN options of Chapter 51.
 **Topology** — from Chapter 11's hierarchy or Chapter 67's fabric, chosen by traffic
 pattern and scale. **Media** — from Chapter 10's decision procedure, driven by
 distance, environment, rate and whether the far end needs power. **Capacity** — from
@@ -68,8 +68,8 @@ coverage-or-capacity determination. **Security** — designed in rather than add
 **Operations** — monitoring, documentation and change process from Unit XI, specified
 as part of the design and not left as an exercise.
 
-The discipline §72.3 insists on is that **addressing, segmentation, routing and
-security are one design, not four.** An address plan that ignores the routing design
+The discipline §72.3 insists on is that addressing, segmentation, routing and
+security are one design, not four. An address plan that ignores the routing design
 produces a network that cannot summarise (Chapter 31 §31.4). A segmentation scheme
 designed after addressing produces VLANs whose subnets cannot be expressed as a
 sensible firewall policy. These are the mistakes that are cheap to avoid at design time

@@ -42,13 +42,13 @@ distribution — you can publish your public key on a billboard — at the cost 
 two to three orders of magnitude slower than symmetric.
 
 So the universal pattern, and it is worth stating explicitly because it explains the
-structure of every protocol in Chapters 59 through 61: **use asymmetric cryptography
-to establish a symmetric key, then use symmetric cryptography for the data.** TLS does
+structure of every protocol in Chapters 59 through 61: use asymmetric cryptography
+to establish a symmetric key, then use symmetric cryptography for the data. TLS does
 this. IPsec does this. SSH does this. WireGuard does this.
 
 **Hash functions.** A one-way transformation from arbitrary input to a fixed-length
 digest. Fast, deterministic, infeasible to reverse, and infeasible to find two inputs
-with the same digest. SHA-256 and SHA-3 are current; **MD5 and SHA-1 are broken** for
+with the same digest. SHA-256 and SHA-3 are current; MD5 and SHA-1 are broken for
 collision resistance — practical collisions have been demonstrated for both — and
 their continued presence in production systems is a real finding.
 
@@ -102,7 +102,7 @@ client performs: signature chain, validity dates, revocation status, hostname ma
 and key usage.
 
 It also covers the model's genuine weaknesses honestly, because they are structural
-rather than incidental. **Any CA can issue a certificate for any name.** Your browser
+rather than incidental. Any CA can issue a certificate for any name. Your browser
 trusts several hundred roots, operated in many jurisdictions, and a compromise or
 coercion of any one of them produces a certificate your browser will accept. This has
 happened — the DigiNotar compromise in 2011 produced fraudulent certificates for
@@ -120,8 +120,8 @@ most often and because its design is a case study in learning from failure.
 
 TLS 1.3 (RFC 8446, 2018) removed a great deal: static RSA key exchange, all
 non-AEAD ciphers, compression, renegotiation, MD5 and SHA-1, and the CBC constructions
-that produced a decade of padding-oracle attacks. **The changes are almost entirely
-removals**, each corresponding to a specific published attack — BEAST, CRIME, POODLE,
+that produced a decade of padding-oracle attacks. The changes are almost entirely
+removals, each corresponding to a specific published attack — BEAST, CRIME, POODLE,
 Lucky13, FREAK, Logjam, DROWN — and knowing that history is what makes "why is this
 option gone" answerable.
 

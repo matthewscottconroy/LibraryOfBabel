@@ -9,7 +9,7 @@ damage — broken end-to-end addressing, protocols carrying addresses in payload
 of inbound reachability — and then recommends deployment anyway, because the alternative
 was exhaustion before a replacement existed.
 
-**They were right about all of it**, including the part they got wrong: they expected the
+They were right about all of it, including the part they got wrong: they expected the
 long-term solution to arrive in time.
 
 **Paul Francis** went on to substantial work on Internet architecture, including PIP —
@@ -52,7 +52,7 @@ duration of every relayed call.
 **Bryan Ford, Pyda Srisuresh and Dan Kegel.** *Peer-to-Peer Communication Across Network
 Address Translators* (USENIX 2005) — the systematic treatment of hole punching.
 
-**Their paper is what made peer-to-peer possible across NAT at all**, and it is worth
+Their paper is what made peer-to-peer possible across NAT at all, and it is worth
 reading for the careful enumeration of which NAT behaviours permit it and which do not.
 §33.3's table is theirs.
 
@@ -64,7 +64,7 @@ centralising.
 **RFC 6598** (the `100.64.0.0/10` allocation) and the analyses of what carrier-grade NAT
 costs.
 
-**RFC 6598's justification is worth reading** because it is an admission: a fourth private
+RFC 6598's justification is worth reading because it is an admission: a fourth private
 range was needed because providers had run out of addresses and could not use RFC 1918
 without colliding with their own customers. **The document exists to solve a problem
 created by the previous workaround**, which is how workarounds accumulate.
@@ -78,7 +78,7 @@ pretend the Internet would have grown without it.
 practical experience of NAT for billions of people is a $30 box that does PAT, DHCP, a
 firewall, and a wireless access point, and mostly works without configuration.
 
-**That it works at all is a real achievement**, and the failures in this chapter —
+That it works at all is a real achievement, and the failures in this chapter —
 hairpinning not implemented, UPnP opening holes, symmetric NAT defeating hole punching,
 ALGs that corrupt traffic — are the seams of an enormously complex compromise implemented
 cheaply, at scale, by people under commercial pressure. **Understanding the compromise is

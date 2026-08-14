@@ -16,17 +16,17 @@ followed.
 Fifteen years later, the enterprise network in your building is almost certainly not
 running an OpenFlow controller, and most network engineers have never configured one.
 
-This chapter takes that seriously, because **understanding why a well-argued idea did
+This chapter takes that seriously, because understanding why a well-argued idea did
 not arrive as promised is more instructive than either the original pitch or a
-dismissal**, and because the idea's genuine successes are substantial and are not the
+dismissal, and because the idea's genuine successes are substantial and are not the
 ones that were predicted.
 
 ## What was actually right
 
 The core observation was correct and remains so.
 
-A traditional network's control plane is **distributed by necessity rather than by
-design**. Every router runs OSPF and computes its own shortest-path tree because there
+A traditional network's control plane is distributed by necessity rather than by
+design. Every router runs OSPF and computes its own shortest-path tree because there
 was no practical alternative in 1989 — no controller could have been reliable enough or
 fast enough. Distribution was the engineering constraint, not the goal.
 
@@ -47,7 +47,7 @@ been refuted.
 §68.2 gives the honest account, and the reasons are worth having because they recur
 whenever a centralised architecture is proposed.
 
-**The controller is a single point of failure of an unusually consequential kind.**
+The controller is a single point of failure of an unusually consequential kind.
 Distributed protocols degrade; if a router loses contact with its neighbours, the rest
 of the network continues. A network whose devices cannot forward without a controller
 has a new and severe failure mode. Controller high availability is solvable and it is
@@ -93,8 +93,8 @@ environment is ideal: one owner, known demands, and the ability to defer traffic
 by a wide margin — central policy, distributed enforcement, and an obvious cost
 justification.
 
-The pattern in all three: **SDN succeeded where one organisation controls everything
-and the optimisation benefit is measurable.** It struggled where the environment is
+The pattern in all three: SDN succeeded where one organisation controls everything
+and the optimisation benefit is measurable. It struggled where the environment is
 heterogeneous, incrementally grown and multi-vendor — which describes most enterprise
 networks.
 

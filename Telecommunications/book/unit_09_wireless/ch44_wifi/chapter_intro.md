@@ -41,8 +41,8 @@ The "Wi-Fi *n*" numbering was introduced by the Wi-Fi Alliance in 2018 because
 consumers could not be expected to know whether `ac` was newer than `n`. It was a
 sensible decision applied retroactively, which is why Wi-Fi 4 is from 2009.
 
-Every headline rate in that table is a **PHY rate under ideal conditions with maximum
-streams and maximum channel width**. Chapter 4 §4.4 and Chapter 3 §3.1 both explain
+Every headline rate in that table is a PHY rate under ideal conditions with maximum
+streams and maximum channel width. Chapter 4 §4.4 and Chapter 3 §3.1 both explain
 why real throughput is 40–60% of it at best, and a two-stream laptop on an 80 MHz
 channel gets a fraction of a number quoted for an eight-stream access point on 320
 MHz. §44.1 does the arithmetic explicitly, because the gap between the box and the
@@ -51,21 +51,21 @@ measurement is the single most common source of "faulty" wireless equipment.
 ## Why CSMA/CA and not CSMA/CD
 
 Ethernet detects collisions (Chapter 16 §16.2). Wi-Fi cannot, for a reason that is
-purely physical: **a radio cannot listen while it transmits.** Its own signal at the
+purely physical: a radio cannot listen while it transmits. Its own signal at the
 antenna is perhaps a hundred billion times stronger than a distant station's, so
 there is nothing to hear over it. Collision *detection* is unavailable.
 
 So 802.11 uses collision **avoidance**: listen before transmitting; if the medium is
 busy, wait; when it goes idle, wait a further random backoff before transmitting, so
 that two stations that were both waiting do not both start at once. And because the
-sender cannot tell whether the frame arrived, **every unicast frame is
-acknowledged** — an explicit ACK from the receiver, at the MAC layer, for every
+sender cannot tell whether the frame arrived, every unicast frame is
+acknowledged — an explicit ACK from the receiver, at the MAC layer, for every
 single frame.
 
 That acknowledgement is a major overhead and it is why Wi-Fi's efficiency is
 structurally lower than Ethernet's. It also creates a subtle performance property
 worth knowing: because the medium is shared and half duplex, and every frame costs an
-ACK, **the slowest client on an access point degrades everyone**. A legacy device
+ACK, the slowest client on an access point degrades everyone. A legacy device
 transmitting at 6 Mb/s occupies the medium for far longer than a modern one moving
 the same data at 600 Mb/s, and during that time nobody else can transmit. This is the
 "performance anomaly" of 802.11, and it is why disabling low data rates is standard
@@ -81,8 +81,8 @@ between them, or simply distance. A listens, hears nothing, and transmits. C lis
 hears nothing (because A is inaudible to it), and transmits. Both frames collide at
 B. Neither A nor C has any way to know.
 
-Carrier sense fails because **the relevant question is whether the medium is busy at
-the receiver, and the sender can only observe it at the sender.**
+Carrier sense fails because the relevant question is whether the medium is busy at
+the receiver, and the sender can only observe it at the sender.
 
 The mechanism for this is **RTS/CTS**: A sends a short Request to Send; B replies with
 a Clear to Send, which *C can hear*; C therefore defers. The exchange costs two extra

@@ -50,7 +50,7 @@ the wrong places.
 **Opportunists** scanning the entire Internet for known vulnerabilities. They do not
 know or care who you are. They are the overwhelming majority of attempts, and they are
 defeated by patching, by not exposing management interfaces, and by not using default
-credentials. **Most organisations' actual threat is this one**, and most organisations
+credentials. Most organisations' actual threat is this one, and most organisations
 under-invest in defeating it while over-investing elsewhere.
 
 **Criminal enterprises**, principally ransomware, which is a business with a business
@@ -85,8 +85,8 @@ risky thing). All four are legitimate. Acceptance in particular is a valid engin
 decision when it is *explicit and documented* — the failure is not accepting a risk,
 it is accepting it silently and later claiming nobody knew.
 
-The proportionality test that §57.3 offers: **the cost of the control should not
-exceed the expected loss it prevents.** A £50,000 control for a risk with an expected
+The proportionality test that §57.3 offers: the cost of the control should not
+exceed the expected loss it prevents. A £50,000 control for a risk with an expected
 annual loss of £2,000 is not prudence but innumeracy, and defending that position to a
 finance director is a skill worth developing, because it is how security budgets are
 actually won.
@@ -107,8 +107,8 @@ doubles as a review of Units II through X, and it is the map for Chapter 62.
 
 Two observations from that table.
 
-The last row is not a joke and is not an afterthought. **The overwhelming majority of
-successful compromises begin with a human being persuaded to do something**, not with
+The last row is not a joke and is not an afterthought. The overwhelming majority of
+successful compromises begin with a human being persuaded to do something, not with
 a protocol weakness. Every technical control in this unit protects a system whose most
 reliable entry point is an email.
 

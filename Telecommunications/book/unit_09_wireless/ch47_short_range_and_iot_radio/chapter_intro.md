@@ -95,7 +95,7 @@ a large antenna has repeatedly extended that range in published research.
 
 Two reasons beyond completeness.
 
-**These devices are on your network and they are the weakest thing on it.** A camera,
+These devices are on your network and they are the weakest thing on it. A camera,
 a sensor gateway, a smart lock and a building management controller are all computers
 running old firmware that will never be patched, frequently with hardcoded
 credentials, sitting inside your perimeter. The Mirai botnet in 2016 assembled

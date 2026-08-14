@@ -26,11 +26,11 @@ Everything in this chapter descends from that observation.
 stated.
 
 Every **leaf** switch (top of rack) connects to every **spine** switch. Nothing
-connects leaf to leaf or spine to spine. The consequence: **every server is exactly
-two hops from every other server** — up to a spine, down to a leaf — so latency is
+connects leaf to leaf or spine to spine. The consequence: every server is exactly
+two hops from every other server — up to a spine, down to a leaf — so latency is
 uniform and predictable regardless of which racks are involved.
 
-The critical design change is that the fabric is **routed rather than switched**.
+The critical design change is that the fabric is routed rather than switched.
 Layer 3 all the way to the leaf, with **equal-cost multipath** distributing flows
 across every spine. Spanning tree does not run, no links are blocked, and all of the
 purchased capacity is in use — which is the direct answer to the three-tier design's
@@ -43,8 +43,8 @@ oversubscription arithmetic that determines how many uplinks a leaf needs.
 ## The problem this creates
 
 Routing to the leaf solves the traffic problem and breaks something applications
-depend on: **virtual machines expect to move between hosts without changing IP
-address.** Live migration, high availability and clustering all assume the machine
+depend on: virtual machines expect to move between hosts without changing IP
+address. Live migration, high availability and clustering all assume the machine
 stays in the same subnet. But if every rack is its own routed subnet, moving a VM to
 another rack means renumbering it, which defeats the purpose.
 

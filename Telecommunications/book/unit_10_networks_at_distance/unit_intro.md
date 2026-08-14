@@ -35,12 +35,12 @@ protection, DWDM multiplying a fibre's capacity by ninety-six, MPLS's label swit
 — which is Chapter 13's virtual circuit idea, rebuilt on packet infrastructure — and
 the submarine cables that are the physical Internet.
 
-**How does an organisation connect its own sites?** (Chapter 51.) The enterprise WAN,
+How does an organisation connect its own sites? (Chapter 51.) The enterprise WAN,
 from leased lines through Frame Relay and MPLS to SD-WAN and direct cloud
 interconnect, tracking a thirty-year shift in what a branch office actually needs to
 reach.
 
-**And how do we make a shared network behave when it matters?** (Chapter 52.) Quality
+And how do we make a shared network behave when it matters? (Chapter 52.) Quality
 of service, and the honest account of what it can and cannot do — plus the other half
 of the answer, which is not to send the traffic across the distance at all. Caching,
 CDNs and anycast move the content to the user, and they have done more for perceived
@@ -51,7 +51,7 @@ Internet performance than every QoS mechanism ever deployed.
 One idea runs through the whole unit and is worth having in advance, because it
 explains decisions that look irrational from a purely technical view.
 
-**The cost of a communications link is overwhelmingly in the path, not the capacity.**
+The cost of a communications link is overwhelmingly in the path, not the capacity.
 Chapter 9 stated this; here is where it determines everything.
 
 Digging a trench costs the same for one fibre or 144. Laying a submarine cable costs
@@ -59,7 +59,7 @@ several hundred million dollars in ships and permits, and the terminal electroni
 that decide whether it carries 10 Tb/s or 250 Tb/s are a small fraction of that. A
 cell tower costs the same whether it serves ten subscribers or a thousand.
 
-Therefore: **capacity is cheap and paths are expensive**, and the entire industry's
+Therefore: capacity is cheap and paths are expensive, and the entire industry's
 structure follows. It is why upgrades are electronics-only wherever possible. It is
 why incumbents with existing copper and duct have an advantage that no amount of
 technical superiority overcomes. It is why "just run fibre to it" is a sentence that

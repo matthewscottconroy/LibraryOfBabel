@@ -41,8 +41,8 @@ default gateway. *Mitigation:* DHCP snooping with trusted ports.
 one and traffic reroutes through you — or simply collapses. *Mitigation:* BPDU Guard
 and Root Guard.
 
-Notice the shape common to all five: **each exploits a protocol that was designed to
-be helpful and trusting on a local segment.** And notice that every mitigation is a
+Notice the shape common to all five: each exploits a protocol that was designed to
+be helpful and trusting on a local segment. And notice that every mitigation is a
 switch feature that exists, is free, is off by default, and is configured in one or
 two lines. Access-layer hardening is among the highest-value security work available,
 and it is skipped constantly.
@@ -66,8 +66,8 @@ and prompted a coordinated multi-vendor patch, and the deeper fix — DNSSEC —
 partially deployed.
 
 **On-path attacks** (the term the industry now uses in preference to
-"man-in-the-middle") in their various forms, and the general defence: **authenticated
-encryption end to end**. An attacker who can read and modify traffic can do neither
+"man-in-the-middle") in their various forms, and the general defence: authenticated
+encryption end to end. An attacker who can read and modify traffic can do neither
 usefully if the traffic is authenticated, which is why the answer to "is public Wi-Fi
 safe" is now "yes, for anything using TLS properly."
 
@@ -109,8 +109,8 @@ completes — an elegant piece of engineering worth studying.
 requests that happen to be expensive to serve. The hardest to defend, because there is
 nothing anomalous about any individual request.
 
-The defence, honestly stated: **you cannot absorb a large volumetric attack on your
-own connection.** If the attack exceeds your circuit capacity, the circuit is full
+The defence, honestly stated: you cannot absorb a large volumetric attack on your
+own connection. If the attack exceeds your circuit capacity, the circuit is full
 before your equipment sees anything, and no firewall helps. Mitigation must happen
 upstream, which means a scrubbing service or a provider with capacity — and that is a
 commercial arrangement made in advance, not a technical response made during an
@@ -121,8 +121,8 @@ incident.
 §62.4 assembles the defensive posture, layer by layer, and gives the hardening
 checklist that Chapter 72's design chapter will expect you to apply.
 
-The framing worth keeping: **every mitigation in this chapter is cheap, and almost
-none of them are enabled by default.** Port security, DHCP snooping, DAI, BPDU Guard,
+The framing worth keeping: every mitigation in this chapter is cheap, and almost
+none of them are enabled by default. Port security, DHCP snooping, DAI, BPDU Guard,
 disabling unused ports, changing default credentials, disabling unused services, SNMPv3
 instead of v2c, management on a separate VLAN, and BCP 38 filtering — that list would
 eliminate most of the attacks in this chapter, costs nothing but configuration time,

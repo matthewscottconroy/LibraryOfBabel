@@ -57,7 +57,7 @@ modern network. *(Ch 16, 17)*
 **Congestion control** — Protects the **network** from a sender. Distinct from flow
 control, which protects the **receiver**. *(Ch 38)*
 
-**Control plane / data plane** — Deciding what the forwarding table contains, versus
+Control plane / data plane — Deciding what the forwarding table contains, versus
 using it. Software and hardware, seconds and nanoseconds. *(Ch 29, 68)*
 
 **CRC** — Cyclic Redundancy Check. Ethernet's error *detection*; a failed frame is
@@ -116,7 +116,7 @@ Requires ephemeral key exchange; mandatory in TLS 1.3. *(Ch 58)*
 **Fragmentation** — Splitting an IP packet for a link with a smaller MTU. Router
 fragmentation removed in IPv6. *(Ch 24)*
 
-**Frame / packet / segment / datagram** — The PDU at Layer 2 / Layer 3 / TCP / UDP.
+Frame / packet / segment / datagram — The PDU at Layer 2 / Layer 3 / TCP / UDP.
 Used strictly in this book. *(Ch 23)*
 
 **FSPL** — Free-space path loss. 32.45 + 20log f(MHz) + 20log d(km). Doubling either

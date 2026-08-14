@@ -20,19 +20,19 @@ lets you reason about it.
 
 Three rules. Two things about them cause most of the errors in this chapter.
 
-**Order matters, and evaluation stops at the first match.** A permit rule below a deny
+Order matters, and evaluation stops at the first match. A permit rule below a deny
 rule that covers the same traffic is dead. This produces the classic symptom of a rule
 that is present, correct, and has no effect — and the diagnosis is to look *upward* in
 the list, not at the rule itself. Hit counters, where available, make this immediate:
 a rule with zero hits after a week is either unnecessary or shadowed.
 
-**There is an implicit deny at the end**, whether or not you write it. Anything not
+There is an implicit deny at the end, whether or not you write it. Anything not
 explicitly permitted is dropped. This is the correct default — a security control
 should fail closed — and it means that adding a service requires adding a rule, which
 is the point.
 
 The related error, and it is worth stating because it is committed constantly:
-**firewall rules are directional, and traffic is bidirectional.** A stateless filter
+firewall rules are directional, and traffic is bidirectional. A stateless filter
 permitting outbound HTTP must also permit the return traffic, which means permitting
 inbound packets from port 80 to your ephemeral range — a rule broad enough that an
 attacker need only source their traffic from port 80 to walk through it. That
@@ -85,8 +85,8 @@ trust a CA controlled by the firewall.
 
 What that buys: visibility into content, malware detection, data loss prevention.
 
-What it costs: **every inspected session's security now depends on the firewall's TLS
-implementation**, which has historically been worse than the browsers' — several
+What it costs: every inspected session's security now depends on the firewall's TLS
+implementation, which has historically been worse than the browsers' — several
 inspection products have been found downgrading cipher suites, failing to validate
 upstream certificates, and reintroducing vulnerabilities the endpoints had fixed. It
 also breaks certificate pinning, it creates a single point at which all of an
@@ -115,9 +115,9 @@ backup system.
 
 Segmentation makes each step expensive. If the workstation VLAN cannot reach the
 server VLAN except through specific permitted services, an attacker on a workstation
-must find a way through rather than simply connecting. **Segmentation does not prevent
+must find a way through rather than simply connecting. Segmentation does not prevent
 the initial compromise. It changes the compromise from a catastrophe into an
-incident**, and that is the most valuable thing the network layer contributes to
+incident, and that is the most valuable thing the network layer contributes to
 security.
 
 The chapter covers the progression: VLANs (Chapter 20) as the coarse mechanism; DMZs

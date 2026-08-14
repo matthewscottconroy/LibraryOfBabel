@@ -9,7 +9,7 @@ fast as it can, gets most of the capacity. The voice call, which sends a small p
 every twenty milliseconds, waits behind the backup's packets in the queue and arrives
 late and jittery. The web page is somewhere in between.
 
-**Fairness has produced a bad outcome**, and this is not a malfunction. It is what
+Fairness has produced a bad outcome, and this is not a malfunction. It is what
 happens when a mechanism with no knowledge of purpose allocates a resource among
 purposes that differ enormously in their sensitivity to delay.
 
@@ -31,7 +31,7 @@ telephone call becomes unusable — but it is a prioritisation tool, not a capac
 tool. An engineer who deploys QoS to fix a link that is simply too small has bought
 themselves a more sophisticated description of the same problem.
 
-The corollary, which §52.1 states plainly: **QoS matters where congestion happens.**
+The corollary, which §52.1 states plainly: QoS matters where congestion happens.
 Inside a data centre with a non-blocking fabric, it does almost nothing. On a 20 Mb/s
 branch circuit carrying voice, it is essential. Deploy it where the bottleneck is,
 and do not deploy it elsewhere, where it adds configuration complexity for no benefit.
@@ -56,8 +56,8 @@ dangerous, because a priority queue with no policer can starve everything else, 
 is always rate-limited. **Weighted fair queueing** and its variants give each class a
 guaranteed share while allowing unused capacity to be borrowed.
 
-The critical operational point, and it is where most QoS deployments fail: **marking
-must be trusted, and trust must have a boundary.** If any host can mark its own
+The critical operational point, and it is where most QoS deployments fail: marking
+must be trusted, and trust must have a boundary. If any host can mark its own
 traffic EF, every host eventually will, and the priority queue becomes the default
 queue. The standard design marks at the access edge — trusting an IP phone's marking,
 re-marking or clearing everything from a workstation — and trusts markings thereafter.
@@ -77,7 +77,7 @@ produces a sawtooth that averages well below the policed rate.
 **Shaping** enforces a rate by **buffering** traffic above it and releasing it
 smoothly. Kinder to TCP, and it costs memory and adds delay.
 
-The rule of thumb: **shape traffic you send, police traffic you receive.** Shaping
+The rule of thumb: shape traffic you send, police traffic you receive. Shaping
 outbound to slightly below the carrier's contracted rate is standard practice, because
 it moves the queue from the carrier's device — where you have no visibility and no
 control over the discipline — into your own, where your QoS policy can decide what
@@ -86,14 +86,14 @@ branch networking, and it is why the shaper is usually set to about 95% of the
 circuit rate.
 
 §52.3 also covers buffer sizing, which connects directly to Chapter 66's bufferbloat:
-**a bigger buffer is not a better buffer.** A large buffer converts loss into delay,
+a bigger buffer is not a better buffer. A large buffer converts loss into delay,
 and for interactive traffic delay is the thing you were trying to avoid.
 
 ## The other answer
 
 §52.4 makes the argument that has done more for perceived Internet performance than
-every QoS mechanism ever deployed: **do not send the data across the distance at
-all.**
+every QoS mechanism ever deployed: do not send the data across the distance at
+all.
 
 **Caching** keeps a copy near the user. **Content delivery networks** industrialise
 this — thousands of points of presence worldwide, each holding copies of popular

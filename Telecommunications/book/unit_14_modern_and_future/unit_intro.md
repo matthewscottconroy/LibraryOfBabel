@@ -39,9 +39,9 @@ something you describe in a template and someone else operates.
 One pattern runs through this unit, and it is worth naming because it will recur in
 whatever comes after the technologies described here.
 
-**A specialised, expensive, physical thing is replaced by a general-purpose,
+A specialised, expensive, physical thing is replaced by a general-purpose,
 programmable, software thing — which is initially worse in every technical respect and
-wins anyway, because it can be changed faster.**
+wins anyway, because it can be changed faster.
 
 This has already happened several times in this book. Packet switching replaced circuit
 switching (Chapter 13) despite offering no guarantees. Ethernet replaced Token Ring
@@ -71,7 +71,7 @@ subnets, route tables, gateways and security groups — which are Chapters 26, 2
 under different names, and recognising that is the fastest way to learn them; hybrid
 connectivity; and cloud-native load balancing and service mesh.
 
-**Chapter 70 — Automation and Infrastructure as Code.** Why the CLI does not scale;
+Chapter 70 — Automation and Infrastructure as Code. Why the CLI does not scale;
 APIs, NETCONF, RESTCONF, YANG and gNMI; Ansible and Terraform and declarative state;
 CI/CD for network configuration; and an honest assessment of AIOps.
 
@@ -92,8 +92,8 @@ not change. The seven-step troubleshooting method will still work.
 This unit ages fast. Some technology described here as current will be superseded
 within a few years, and the specific products certainly will be.
 
-It is written accordingly: the emphasis throughout is on **the problem each technology
-solves and the tradeoff it makes**, because those persist even when the implementation
+It is written accordingly: the emphasis throughout is on the problem each technology
+solves and the tradeoff it makes, because those persist even when the implementation
 does not. VXLAN may be displaced; the problem of extending a Layer 2 segment across a
 routed network will not be. OpenFlow largely was displaced; the argument about where
 the control plane belongs continues.

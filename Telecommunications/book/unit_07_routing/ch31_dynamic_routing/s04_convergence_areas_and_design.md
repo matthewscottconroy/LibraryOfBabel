@@ -7,7 +7,7 @@ do.
 
 ## Convergence
 
-**What must happen between a link failing and traffic flowing again:**
+What must happen between a link failing and traffic flowing again:
 
 | Step | Time |
 |---|---|
@@ -25,7 +25,7 @@ do.
 | Tuned timers (hello 1 s, dead 3 s) | ~3 seconds |
 | **BFD** | **under 1 second**, often ~150 ms |
 
-**The gap between the first and second rows is the entire problem of §30.3**, restated for
+The gap between the first and second rows is the entire problem of §30.3, restated for
 dynamic routing. If the interface goes down, OSPF knows at once. If the far end dies while
 the local interface stays up — which is what happens with any switch or media converter in
 between — **OSPF waits 40 seconds.**
@@ -53,7 +53,7 @@ router ospf 1
  bfd all-interfaces
 ```
 
-**Sub-second detection with a purpose-built mechanism**, leaving OSPF's own timers relaxed.
+Sub-second detection with a purpose-built mechanism, leaving OSPF's own timers relaxed.
 Chapter 30's notes give the reasoning: **failure detection should not be an accident of a
 routing protocol's hello timer.**
 
@@ -66,7 +66,7 @@ as RSTP's alternate port (Chapter 19 §19.3).
 
 ## Why areas exist
 
-**Link state's cost is that every router in the flooding domain:**
+Link state's cost is that every router in the flooding domain:
 
 - holds **every LSA**
 - runs **Dijkstra over the whole topology**
@@ -99,7 +99,7 @@ Dijkstra over it.
 **Between areas:** **summaries only.** An Area Border Router advertises *"I can reach
 10.1.0.0/16 at cost 20"* into the backbone — a **distance-vector-style** statement.
 
-**So OSPF is link state within an area and distance vector between them**, which is a
+So OSPF is link state within an area and distance vector between them, which is a
 detail that explains several of its behaviours and is rarely stated plainly.
 
 **What areas buy:**
@@ -115,7 +115,7 @@ detail that explains several of its behaviours and is rarely stated plainly.
 **no SPF computation at all**, because they never knew that link existed. They see only a
 summary, and the summary usually does not change.
 
-**This is exactly Chapter 26 §26.3's aggregation argument** — *isolating change matters
+This is exactly Chapter 26 §26.3's aggregation argument — *isolating change matters
 more than reducing table size* — applied to the control plane instead of the data plane.
 
 ## The area rules
@@ -124,7 +124,7 @@ more than reducing table size* — applied to the control plane instead of the d
 
 Area 0 is the **backbone**, and all inter-area traffic passes through it.
 
-**Rule 2 — inter-area traffic goes Area X → Area 0 → Area Y.** Never directly, even if a
+Rule 2 — inter-area traffic goes Area X → Area 0 → Area Y. Never directly, even if a
 physical link exists.
 
 **Rule 3 — Area 0 must be contiguous.** A split backbone splits the network.
@@ -168,7 +168,7 @@ thing: *how do I get out?* Giving it the full external table is pure waste.
    Totally stubby:              1 route
 ```
 
-**A stub area cannot contain an ASBR**, because it must not carry Type 5 LSAs — which is
+A stub area cannot contain an ASBR, because it must not carry Type 5 LSAs — which is
 what NSSA exists for.
 
 ## Route summarisation
@@ -190,7 +190,7 @@ router ospf 1
 > Area 1 is invisible outside it, because the /16 summary stays up as long as anything
 > inside it is up.
 
-**This is the strongest argument for summarisation and it is not the table size.** It
+This is the strongest argument for summarisation and it is not the table size. It
 converts a network where every change propagates globally into one where changes are
 contained — and Chapter 26 §26.4's insistence on planning addresses hierarchically exists
 precisely so this is possible. **A network whose addressing does not aggregate cannot
@@ -208,7 +208,7 @@ The received wisdom, with the reasoning:
 **50 routers per area.** Soft, widely repeated, and directionally right. Modern hardware
 handles far more; the binding constraint is churn, not CPU.
 
-**Design areas around the physical topology**, not the organisation chart. An area is a
+Design areas around the physical topology, not the organisation chart. An area is a
 flooding domain, and flooding follows links.
 
 **Summarise at every area boundary.** This is what areas are *for*, and an area design
@@ -216,7 +216,7 @@ without summarisation gets the database reduction and not the churn containment.
 
 **Make branch areas totally stubby.**
 
-**Put the backbone where the traffic is** — the core, not an arbitrary site.
+Put the backbone where the traffic is — the core, not an arbitrary site.
 
 **Configure router IDs explicitly** (§31.3).
 
@@ -236,7 +236,7 @@ router ospf 1
  redistribute static subnets route-map ONLY-THESE
 ```
 
-**Two mutual redistribution points between two protocols creates a loop** — routes learned
+Two mutual redistribution points between two protocols creates a loop — routes learned
 from A are redistributed into B, carried around, and redistributed back into A with a
 better metric than the original. **The routing equivalent of a switching loop
 (Chapter 19)**, and it is the most damaging configuration error in this chapter.
@@ -274,7 +274,7 @@ or tagging.
 advertised. Add a discard route.
 
 > **Network+ note.** Objective 2.2 expects OSPF areas and convergence. Over-learn:
-> **Area 0 is the backbone and every area must connect to it**; **inter-area traffic
+> Area 0 is the backbone and every area must connect to it; **inter-area traffic
 > passes through Area 0**; **an ABR joins areas and an ASBR joins OSPF to another
 > protocol**; **stub areas block external routes**; and **convergence time is dominated by
 > failure detection.** The area rules are examined directly.

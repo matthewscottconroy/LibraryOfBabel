@@ -1,7 +1,7 @@
 # 31.3 Link State, OSPF and Dijkstra
 
 Distance vector fails because a router believes numbers it cannot examine. Link state
-fixes it by **giving every router the whole map** and letting each compute its own paths.
+fixes it by giving every router the whole map and letting each compute its own paths.
 
 The change is not an improvement to distance vector. It is a different answer to the
 question *"what should a router know?"*
@@ -24,9 +24,9 @@ question *"what should a router know?"*
    links, and pass on what you hear from others.
 3. **Run Dijkstra** on the resulting database to compute the shortest path to everything.
 
-**Every router ends with an identical database** — the same map — and each independently
+Every router ends with an identical database — the same map — and each independently
 computes the tree rooted at itself. Because every router computes from the same data, they
-agree. **Consensus by identical computation**, which is exactly the property that made
+agree. Consensus by identical computation, which is exactly the property that made
 Perlman's spanning tree work (Chapter 19 §19.2).
 
 ## Dijkstra's algorithm
@@ -35,7 +35,7 @@ Edsger Dijkstra, 1956, published 1959. He devised it in about twenty minutes at 
 Amsterdam, to demonstrate the power of a new computer, and it is the algorithm your
 router runs several times a second.
 
-**The method — build a tree of shortest paths outward from yourself:**
+The method — build a tree of shortest paths outward from yourself:
 
 ```
    1. Put yourself in the tree at cost 0. All others: cost ∞.
@@ -77,10 +77,10 @@ Computing from **A**:
 | E | 8 | A–B–D–E | **B** |
 
 **Note C.** At step 1 the direct A–C link costs 4, and A–B–D–C would cost 2+1+3 = 6. The
-direct path wins. **The algorithm considers both and keeps the better** — which is exactly
+direct path wins. The algorithm considers both and keeps the better — which is exactly
 what distance vector cannot reliably do, because it never sees the alternatives.
 
-**A router installs only the next hop**, not the whole path. It computes the path in order
+A router installs only the next hop, not the whole path. It computes the path in order
 to know which neighbour to use, then discards everything but the first step (Chapter 29
 §29.1).
 
@@ -90,7 +90,7 @@ affordable.
 
 ## OSPF
 
-**Open Shortest Path First** — "open" because it was deliberately not proprietary, in
+Open Shortest Path First — "open" because it was deliberately not proprietary, in
 contrast to Cisco's IGRP.
 
 | | |
@@ -104,7 +104,7 @@ contrast to Cisco's IGRP.
 | Hello | 10 s on broadcast links, 30 s on non-broadcast |
 | Dead | **4 × hello** — 40 s |
 
-**It runs directly on IP**, with no transport layer, so it implements its own
+It runs directly on IP, with no transport layer, so it implements its own
 acknowledgement and retransmission — which is Chapter 21's layering argument seen from the
 other side: OSPF needs reliability with different properties than TCP's, so it builds its
 own.
@@ -127,7 +127,7 @@ machine is examinable:
 | Loading | Requesting the LSAs I lack |
 | **Full** | **Databases synchronised** |
 
-**Stuck states are diagnostic**, and this is the practical value of knowing the machine:
+Stuck states are diagnostic, and this is the practical value of knowing the machine:
 
 | Stuck at | Almost certainly |
 |---|---|
@@ -144,14 +144,14 @@ nowhere obvious, this is one of the most frequently-diagnosed OSPF problems.
 **Adjacency requirements**, all of which must match:
 
 - **Area ID**
-- **Hello and dead intervals**
+- Hello and dead intervals
 - **Authentication** (type and key)
 - **Stub area flags**
 - **MTU**
 - **Subnet and mask** — the interfaces must be on a common subnet
 - **Unique router IDs**
 
-**A checklist worth memorising**, because "the adjacency won't come up" is answered by
+A checklist worth memorising, because "the adjacency won't come up" is answered by
 walking it.
 
 ### The DR and BDR
@@ -160,11 +160,11 @@ On a broadcast segment with *n* routers, full-mesh adjacencies would be:
 
 $$\frac{n(n-1)}{2}$$
 
-**Ten routers on a VLAN would need 45 adjacencies**, each flooding to each other — an
+Ten routers on a VLAN would need 45 adjacencies, each flooding to each other — an
 enormous waste on a medium where one transmission reaches everyone.
 
-**So OSPF elects a Designated Router.** Everyone forms a full adjacency **with the DR
-only**, and the DR relays. Adjacencies drop from *n(n−1)/2* to *n−1*.
+**So OSPF elects a Designated Router.** Everyone forms a full adjacency with the DR
+only, and the DR relays. Adjacencies drop from *n(n−1)/2* to *n−1*.
 
 A **Backup DR** is elected too, fully adjacent and ready, so the DR's failure does not
 require a new election and a full resynchronisation.
@@ -172,15 +172,15 @@ require a new election and a full resynchronisation.
 **Election:** highest **priority** (default 1; **0 means never**), then highest **router
 ID**.
 
-**And it is not pre-emptive** — a new router with a better priority does **not** take over
+And it is not pre-emptive — a new router with a better priority does **not** take over
 from a working DR. Which surprises people, and is deliberate: pre-emption would cause a
 database resynchronisation for no benefit.
 
-**Set priority 0 on routers that should never be DR**, and set the DR deliberately on the
+Set priority 0 on routers that should never be DR, and set the DR deliberately on the
 routers with capacity. Leaving it to the router-ID lottery has the same character as
 leaving the spanning-tree root to the MAC address lottery (Chapter 19 §19.3).
 
-**Non-DR routers stay at Two-Way with each other**, which is why that state is normal
+Non-DR routers stay at Two-Way with each other, which is why that state is normal
 rather than a fault.
 
 ### Router ID
@@ -193,7 +193,7 @@ A 32-bit number identifying the router, chosen in this order:
 
 **Configure it explicitly.** If it is derived from an interface and that interface's
 address changes — or the interface goes down before OSPF starts — the router ID changes,
-**every adjacency resets, and the whole area recomputes.** Chapter 27 §27.4's loopback
+every adjacency resets, and the whole area recomputes. Chapter 27 §27.4's loopback
 convention exists partly for this.
 
 ### LSA types
@@ -209,7 +209,7 @@ The database's contents. The examinable ones:
 | **5** | External LSA | **redistributed** routes, from an ASBR | the whole domain |
 | 7 | NSSA External | externals in a not-so-stubby area | within an NSSA |
 
-**Types 1 and 2 stay in their area. Type 3 crosses. Type 5 goes everywhere.** That
+Types 1 and 2 stay in their area. Type 3 crosses. Type 5 goes everywhere. That
 distinction is what makes areas work, and §31.4 develops it.
 
 ## Configuring it
@@ -231,14 +231,14 @@ interface GigabitEthernet0/1
  ip ospf message-digest-key 1 md5 <key>
 ```
 
-**`network` uses a wildcard mask** (Chapter 25 §25.3), which catches people constantly —
+`network` uses a wildcard mask (Chapter 25 §25.3), which catches people constantly —
 `0.0.255.255`, not `255.255.0.0`.
 
-**`passive-interface default` then selectively enabling** is the right pattern: it is
+`passive-interface default` then selectively enabling is the right pattern: it is
 safer to opt interfaces in than to remember to opt them out, and an OSPF hello on a user
 VLAN is both a leak and an attack surface.
 
-**The modern `ip ospf <process> area <n>` form on the interface** is clearer than
+The modern `ip ospf <process> area <n>` form on the interface is clearer than
 `network` statements and is what new configurations should use.
 
 ## Verifying
@@ -271,7 +271,7 @@ MTU, router ID uniqueness.
 **The whole area recomputing for no reason.** A router ID changed. Configure it
 explicitly.
 
-**OSPF adjacency forming with a device you do not control.** No authentication, and no
+OSPF adjacency forming with a device you do not control. No authentication, and no
 `passive-interface`.
 
 > **Network+ note.** Objective 2.2 expects OSPF as a link-state protocol. Over-learn:

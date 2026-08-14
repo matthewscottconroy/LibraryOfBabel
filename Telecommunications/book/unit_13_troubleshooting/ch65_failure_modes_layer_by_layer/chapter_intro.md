@@ -38,7 +38,7 @@ chapter. Second candidate: a specific missing route.
 Check, in order: is the DHCP server running, is the relay configured on this subnet's
 router, is the scope exhausted, is the client on the VLAN you think it is.
 
-**`ping` by address works, by name does not.** Everything below Layer 7 is working.
+`ping` by address works, by name does not. Everything below Layer 7 is working.
 This is DNS, and one test eliminated six layers.
 
 **Connects, then hangs on large transfers.** PMTUD black hole (Chapter 34 §34.4).
@@ -87,9 +87,9 @@ mode mismatch, and simple transmit/receive reversal.
 **Wrong access VLAN** — the port works perfectly, in the wrong broadcast domain.
 **Native VLAN mismatch** on a trunk — two segments silently merged (Chapter 20 §20.3),
 with no error and connectivity that should not exist.
-**VLAN missing from a trunk's allowed list** — works locally on each switch, fails
+VLAN missing from a trunk's allowed list — works locally on each switch, fails
 between them, which is a confusing partial symptom.
-**Spanning tree blocking an unexpected port** — usually because the root bridge was
+Spanning tree blocking an unexpected port — usually because the root bridge was
 elected by default (Chapter 19 §19.3) and is the oldest switch in the building.
 
 Plus MAC table exhaustion, port security violations placing a port in err-disabled

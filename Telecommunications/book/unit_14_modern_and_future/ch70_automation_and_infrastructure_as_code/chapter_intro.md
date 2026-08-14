@@ -26,8 +26,8 @@ to copy a configuration whose provenance is unknown.
 
 Compare how software has been developed since roughly 2005: source in version control,
 changes proposed as reviewable diffs, automated tests before merge, deployment by
-pipeline, and a complete history of what changed and why. **Infrastructure as code is
-the application of that discipline to network configuration**, and it is the natural
+pipeline, and a complete history of what changed and why. Infrastructure as code is
+the application of that discipline to network configuration, and it is the natural
 destination of the practices in Chapter 55.
 
 ## Imperative and declarative
@@ -45,8 +45,8 @@ difference, and applies only what is needed. Running it twice changes nothing th
 time — the property called **idempotence**, and it is what makes automation safe to run
 repeatedly and therefore safe to run continuously.
 
-Declarative configuration also gives you something imperative cannot: **the file is the
-truth.** Not a record of what you did to the device, but a statement of what the device
+Declarative configuration also gives you something imperative cannot: the file is the
+truth. Not a record of what you did to the device, but a statement of what the device
 must be. Drift from it (Chapter 55 §55.1) becomes detectable automatically, because
 drift is simply a non-empty diff.
 
@@ -96,7 +96,7 @@ software:
 ```
 
 The step that is unfamiliar to most network engineers and most valuable is
-**automated testing before deployment**. Network configuration can be tested: syntax
+automated testing before deployment. Network configuration can be tested: syntax
 validation, policy checks ("no rule may permit any-to-any"), and — most powerfully —
 simulation in a virtual lab using containerised or virtualised network operating
 systems, where the actual change is applied to a model of the real topology and its
@@ -119,7 +119,7 @@ addresses the alert fatigue problem directly. Capacity forecasting from historic
 trends — straightforward and useful. Natural-language assistance for configuration
 syntax and log interpretation — increasingly good.
 
-**What does not work yet, whatever is claimed.** Autonomous remediation of novel
+What does not work yet, whatever is claimed. Autonomous remediation of novel
 faults. Reliable root cause analysis for problems the system has not seen. Anything
 requiring an understanding of business context. Networks are heterogeneous, sparsely
 labelled, and consequential to get wrong, which is close to the worst combination for

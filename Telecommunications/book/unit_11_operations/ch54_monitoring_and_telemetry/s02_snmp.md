@@ -1,13 +1,13 @@
 # 54.2 SNMP
 
-**Thirty-five years old, insecure by default, architecturally awkward, and still doing most of
-the world's device monitoring.** It is worth understanding properly, including the parts that
+Thirty-five years old, insecure by default, architecturally awkward, and still doing most of
+the world's device monitoring. It is worth understanding properly, including the parts that
 are wrong.
 
 ## The model
 
-**A managed device runs an agent. A manager asks it for values. The values live in a
-hierarchical namespace.**
+A managed device runs an agent. A manager asks it for values. The values live in a
+hierarchical namespace.
 
 ```
    ┌─────────┐  GET / GETNEXT / GETBULK (UDP 161)   ┌────────┐
@@ -27,13 +27,13 @@ hierarchical namespace.**
 | **TRAP** | agent → manager | **unsolicited; fire and forget** |
 | **INFORM** (v2c+) | agent → manager | **a trap that is acknowledged** |
 
-**The TRAP/INFORM distinction matters.** **A trap is UDP with no acknowledgement**, so **a trap
-lost in transit is simply lost** — and the loss is most likely precisely when the network is in
-trouble. **INFORM retransmits until acknowledged.** **Use INFORM for anything you care about.**
+**The TRAP/INFORM distinction matters.** A trap is UDP with no acknowledgement, so a trap
+lost in transit is simply lost — and the loss is most likely precisely when the network is in
+trouble. INFORM retransmits until acknowledged. Use INFORM for anything you care about.
 
 ## MIBs and OIDs
 
-**A MIB is a schema. An OID is an address in it.**
+A MIB is a schema. An OID is an address in it.
 
 ```
    1.3.6.1.2.1.2.2.1.10.5
@@ -59,11 +59,11 @@ trouble. **INFORM retransmits until acknowledged.** **Use INFORM for anything yo
 | **1.3.6.1.2.1.31** | **ifXTable** | **the 64-bit counters — use these** |
 | **1.3.6.1.4.1.\<n>** | **enterprises** | **vendor-specific; `n` is the vendor's number** |
 
-**Enterprise numbers are IANA registrations** (Chapter 48 §48.3) — **9 is Cisco, 2636 Juniper,
-2011 Huawei, 8072 Net-SNMP** — and **a MIB file is what translates a vendor OID into a name.**
+Enterprise numbers are IANA registrations (Chapter 48 §48.3) — 9 is Cisco, 2636 Juniper,
+2011 Huawei, 8072 Net-SNMP — and a MIB file is what translates a vendor OID into a name.
 
-**Without the MIB you get numbers; with it you get names.** **Loading vendor MIBs into the
-monitoring system is a tedious task that is worth doing once**, because otherwise every
+Without the MIB you get numbers; with it you get names. Loading vendor MIBs into the
+monitoring system is a tedious task that is worth doing once, because otherwise every
 vendor-specific alert reads as a numeric string that nobody can interpret at 03:00.
 
 ## The security problem, stated plainly
@@ -76,12 +76,12 @@ vendor-specific alert reads as a numeric string that nobody can interpret at 03:
 
 > **A community string is a password sent in cleartext in every request.** Anyone who can
 > capture a packet can read your entire device inventory — **interface names, addresses,
-> topology, serial numbers, software versions** — **and if the string is read-write, reconfigure
-> your equipment.**
+> topology, serial numbers, software versions** — and if the string is read-write, reconfigure
+> your equipment.
 
-**The default strings are `public` (read) and `private` (read-write)**, and **they remain in use
-on production equipment with dispiriting frequency.** **Internet-facing devices with `public`
-are found by scanning constantly**, and the information they disclose is exactly what an
+The default strings are `public` (read) and `private` (read-write), and they remain in use
+on production equipment with dispiriting frequency. Internet-facing devices with `public`
+are found by scanning constantly, and the information they disclose is exactly what an
 attacker wants first (Chapter 62).
 
 **SNMPv3's security model:**
@@ -92,10 +92,10 @@ attacker wants first (Chapter 62).
 | `authNoPriv` | **authenticated, not encrypted** |
 | **`authPriv`** | **authenticated and encrypted — use this** |
 
-**The reason v3 is often not deployed is that it is more work to configure** — per-user
+The reason v3 is often not deployed is that it is more work to configure — per-user
 credentials, engine IDs, and a configuration that differs more between vendors than v2c's does.
-**That is not a good reason**, and the mitigation if v3 is genuinely impractical is
-**restricting SNMP to a management VRF or ACL from the monitoring system's address only**, plus
+That is not a good reason, and the mitigation if v3 is genuinely impractical is
+restricting SNMP to a management VRF or ACL from the monitoring system's address only, plus
 **read-only communities, always**.
 
 > **There is essentially no legitimate use for SNMP read-write in 2026.** Configuration is done
@@ -103,12 +103,12 @@ credentials, engine IDs, and a configuration that differs more between vendors t
 
 ## Counters wrap
 
-**The artefact that produces impossible readings, and it is worth understanding because the
-symptom is confusing.**
+The artefact that produces impossible readings, and it is worth understanding because the
+symptom is confusing.
 
-**SNMP counters are unsigned integers that increment and roll over.** **The monitoring system
-computes a rate from the difference between two polls** — **and if the counter wrapped more than
-once between polls, the difference is meaningless.**
+SNMP counters are unsigned integers that increment and roll over. The monitoring system
+computes a rate from the difference between two polls — and if the counter wrapped more than
+once between polls, the difference is meaningless.
 
 | Counter | Interface rate | **Wraps in** |
 |---|---|---|
@@ -118,23 +118,23 @@ once between polls, the difference is meaningless.**
 | **64-bit** (`ifHCInOctets`) | 10 Gb/s | **468 years** |
 | 64-bit | 100 Gb/s | **47 years** |
 
-> **A 32-bit octet counter on a 10 Gb/s interface wraps in about three seconds at line rate.**
+> A 32-bit octet counter on a 10 Gb/s interface wraps in about three seconds at line rate.
 > Polling every five minutes therefore produces **a number with no relationship to reality.**
 
-**The symptom is a graph with impossible spikes** — negative rates, or rates far above the
-interface's capacity — **appearing intermittently and only on fast links.**
+The symptom is a graph with impossible spikes — negative rates, or rates far above the
+interface's capacity — appearing intermittently and only on fast links.
 
-**The fix is to use `ifXTable`'s 64-bit high-capacity counters**, and **a monitoring system that
+The fix is to use `ifXTable`'s 64-bit high-capacity counters, and a monitoring system that
 silently falls back to the 32-bit ones on a device that supports both is a monitoring system
-producing nonsense.** **Check which your system is using.**
+producing nonsense. Check which your system is using.
 
-**And note the second-order problem:** **64-bit counters are only available over SNMPv2c and
-above.** **A device polled with v1 cannot provide them**, which is a practical reason to
+**And note the second-order problem:** 64-bit counters are only available over SNMPv2c and
+above. A device polled with v1 cannot provide them, which is a practical reason to
 abandon v1 entirely.
 
 ## Polling has a resolution floor
 
-**The architectural limitation, and the reason streaming telemetry exists.**
+The architectural limitation, and the reason streaming telemetry exists.
 
 $$\text{polling load} = \frac{\text{objects}}{\text{interval}}$$
 
@@ -145,64 +145,64 @@ $$\text{polling load} = \frac{\text{objects}}{\text{interval}}$$
 | **10,000 interfaces** | **10 s** | **1,000** |
 | 10,000 interfaces | 1 s | **10,000 — not feasible** |
 
-**And the load falls on the device's control-plane CPU**, which is frequently modest.
-**Aggressive SNMP polling has caused outages** — a device spending its CPU answering the
-monitoring system rather than processing routing updates. **This is a real failure mode and it
-is embarrassing when it happens.**
+And the load falls on the device's control-plane CPU, which is frequently modest.
+Aggressive SNMP polling has caused outages — a device spending its CPU answering the
+monitoring system rather than processing routing updates. This is a real failure mode and it
+is embarrassing when it happens.
 
-**Mitigations:** **GETBULK rather than repeated GETNEXT**; **poll only the objects you use**
+**Mitigations:** GETBULK rather than repeated GETNEXT; poll only the objects you use
 (the default templates fetch a great deal nobody looks at); **stagger polls** rather than
-querying every device on the minute; **and accept a longer interval for things that change
-slowly.**
+querying every device on the minute; and accept a longer interval for things that change
+slowly.
 
-> **Polling every five minutes cannot see a thirty-second event, and polling every ten seconds
-> across a large estate is a substantial load.** **That tension is what §54.4's streaming
-> telemetry was invented to resolve**, and it is the honest reason SNMP is being replaced rather
+> Polling every five minutes cannot see a thirty-second event, and polling every ten seconds
+> across a large estate is a substantial load. That tension is what §54.4's streaming
+> telemetry was invented to resolve, and it is the honest reason SNMP is being replaced rather
 > than any elegance argument.
 
 ## What SNMP is still good at
 
-**A fair assessment, because the criticism above is one-sided.**
+A fair assessment, because the criticism above is one-sided.
 
 **Universality.** **Everything supports it** — switches, routers, firewalls, UPSs, printers,
-environmental sensors, PDUs. **No other management protocol comes close**, and a monitoring
+environmental sensors, PDUs. No other management protocol comes close, and a monitoring
 system that speaks SNMP can monitor equipment its authors never saw.
 
-**Simplicity.** **A GET is one packet.** No session, no state, no schema negotiation.
+**Simplicity.** A GET is one packet. No session, no state, no schema negotiation.
 
-**Maturity.** **Every tool supports it, every MIB is documented, and the failure modes are
-known.**
+**Maturity.** Every tool supports it, every MIB is documented, and the failure modes are
+known.
 
-**Which is why it will still be in service in twenty years**, alongside whatever replaces it —
-**exactly as Chapter 50 §50.1's T1 circuits are.**
+Which is why it will still be in service in twenty years, alongside whatever replaces it —
+exactly as Chapter 50 §50.1's T1 circuits are.
 
 ## What breaks here
 
 **Impossible traffic spikes on a fast link.** **32-bit counter wrap.** Use `ifXTable`.
 
-**A device stops responding to polls under load.** **Control-plane CPU exhausted**, possibly by
+A device stops responding to polls under load. **Control-plane CPU exhausted**, possibly by
 the polling itself. Reduce the object set and the frequency.
 
-**Interface indexes changing after a reboot.** **`ifIndex` is not guaranteed persistent.** Graphs
+**Interface indexes changing after a reboot.** `ifIndex` is not guaranteed persistent. Graphs
 attach to the wrong interface and history is lost. **Enable index persistence** where the
 platform supports it, or key on `ifName` instead.
 
-**A trap that was never received.** **Traps are UDP and unacknowledged.** Use INFORM for
-anything important, **and never rely on traps alone for detecting a device being down** —
-a device that has lost power cannot send a trap saying so. **Polling detects absence; traps
-cannot.**
+**A trap that was never received.** Traps are UDP and unacknowledged. Use INFORM for
+anything important, and never rely on traps alone for detecting a device being down —
+a device that has lost power cannot send a trap saying so. Polling detects absence; traps
+cannot.
 
-**Alerts arriving as numeric OIDs.** **The vendor MIB is not loaded.** Tedious, one-off,
+**Alerts arriving as numeric OIDs.** The vendor MIB is not loaded. Tedious, one-off,
 worth doing.
 
-**SNMP working from one management station and not another.** **A community or v3 credential
-restricted by ACL**, which is correct behaviour and looks like a fault.
+SNMP working from one management station and not another. A community or v3 credential
+restricted by ACL, which is correct behaviour and looks like a fault.
 
-**Community strings found in a configuration backup in version control.** **They are
+Community strings found in a configuration backup in version control. **They are
 cleartext.** Chapter 55 §55.4 — and this is a real and common disclosure.
 
-> **Network+ note.** Objective 3.1 covers SNMP directly. Over-learn: **SNMP uses UDP 161 for
-> polling and 162 for traps**; **a MIB defines the objects and an OID identifies one**; **v1 and
-> v2c use community strings in cleartext, v3 adds authentication and encryption**; **a trap is
-> device-initiated and a poll is manager-initiated**; and **an SNMP walk retrieves a subtree.**
+> **Network+ note.** Objective 3.1 covers SNMP directly. Over-learn: SNMP uses UDP 161 for
+> polling and 162 for traps; a MIB defines the objects and an OID identifies one; v1 and
+> v2c use community strings in cleartext, v3 adds authentication and encryption; a trap is
+> device-initiated and a poll is manager-initiated; and **an SNMP walk retrieves a subtree.**
 > The port numbers and the v3 security point are examined regularly.

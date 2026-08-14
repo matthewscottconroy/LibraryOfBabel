@@ -29,7 +29,7 @@ multi-second delay whenever IPv6 was broken — the client:
 
 **This is why broken IPv6 stopped being catastrophic for users.** Before Happy Eyeballs,
 a site with a black-holed AAAA record was unreachable for anyone with IPv6; afterwards it
-was 250 ms slower. **The mechanism that made IPv6 deployment safe to attempt** — and
+was 250 ms slower. The mechanism that made IPv6 deployment safe to attempt — and
 therefore, arguably, the mechanism that unblocked adoption.
 
 **Dual-stack's costs**, stated plainly:
@@ -42,7 +42,7 @@ therefore, arguably, the mechanism that unblocked adoption.
 | **You still need IPv4 addresses** | so it does not solve exhaustion at all |
 
 That last row is the reason dual-stack is a transition strategy and not a destination.
-**It buys nothing in address terms** — which is precisely why mobile carriers skipped it.
+It buys nothing in address terms — which is precisely why mobile carriers skipped it.
 
 ## NAT64 and DNS64
 
@@ -81,7 +81,7 @@ hypothetical; a significant amount of software embeds addresses.
 
 ## 464XLAT — how mobile actually works
 
-**The fix for NAT64's literal-address problem**, and the mechanism running on hundreds of
+The fix for NAT64's literal-address problem, and the mechanism running on hundreds of
 millions of phones.
 
 ```
@@ -135,8 +135,8 @@ Carrying IPv6 inside IPv4, for islands of IPv6 separated by IPv4-only networks.
 **6to4's failure is instructive.** It was automatic and required no configuration, which
 sounds ideal. But it relied on **anonymous public relays** at `192.88.99.1`, so traffic
 went through whichever relay was nearest — with no accountability, frequently
-asymmetric paths, and no way to diagnose a failure. **RFC 7526 deprecated it in 2015**,
-and the lesson is that **a mechanism with no accountable operator has no one to fix it.**
+asymmetric paths, and no way to diagnose a failure. RFC 7526 deprecated it in 2015,
+and the lesson is that a mechanism with no accountable operator has no one to fix it.
 
 **Tunnel brokers** (Hurricane Electric's `tunnelbroker.net` remains the best known) are
 still genuinely useful for **learning** — they give you real routable IPv6 in about ten
@@ -144,7 +144,7 @@ minutes on a network that has none, which is the fastest way to get hands-on.
 
 ## What does not exist: NAT66
 
-**There is no IPv6 NAT in the IPv4 sense, and this is deliberate.**
+There is no IPv6 NAT in the IPv4 sense, and this is deliberate.
 
 The two reasons for IPv4 NAT were address conservation — irrelevant with 2¹²⁸ — and
 accidental security, which was never NAT's job (Chapter 33 §33.3).
@@ -181,7 +181,7 @@ path nobody is filtering.
 
 1. **Deploy IPv6 properly**, with equivalent security policy. Best.
 2. **Block it deliberately** at every boundary, and monitor for it. Acceptable.
-3. **Ignore it.** **You have an unmonitored, unfiltered network path.** Not acceptable,
+3. **Ignore it.** You have an unmonitored, unfiltered network path. Not acceptable,
    and it is where most organisations are.
 
 **The audit is short:** does your firewall have IPv6 rules matching its IPv4 rules? Does
@@ -204,7 +204,7 @@ where **many parties must coordinate**, which is the enterprise LAN.
 
 That is §28.1's incentive argument, visible in the deployment statistics.
 
-**AWS began charging for public IPv4 addresses in February 2024** — around $43 per
+AWS began charging for public IPv4 addresses in February 2024 — around $43 per
 address per year. That single pricing change moved more workloads to IPv6 in a year than
 the preceding decade of advocacy, and it is the clearest evidence for §28.1's claim that
 **cost is the argument that works.**

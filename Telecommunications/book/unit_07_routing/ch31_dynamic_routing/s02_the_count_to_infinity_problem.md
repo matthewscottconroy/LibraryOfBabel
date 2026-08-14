@@ -87,7 +87,7 @@ is called *counting to infinity* because without a cap **the process does not te
 the routers would increment indefinitely, and for the entire time, **traffic loops.**
 
 **RIP's "infinity" is 16.** That is what the 15-hop maximum is for: it is not a design
-choice about network size, it is **the point at which the algorithm gives up.**
+choice about network size, it is the point at which the algorithm gives up.
 
 $$\text{time to converge} = 16 \times 30\text{ s} \approx \textbf{8 minutes}$$
 
@@ -114,14 +114,14 @@ Four, and they are partial. Their partiality is the point.
 
 ### 1. Split horizon
 
-**Never advertise a route back out the interface you learned it on.**
+Never advertise a route back out the interface you learned it on.
 
-`B` learned the network from `A`, so **`B` does not tell `A` about it at all.** The
+`B` learned the network from `A`, so `B` does not tell `A` about it at all. The
 reflection cannot happen, and the two-router loop is prevented outright.
 
 **Effective, cheap, and universal** — every distance-vector implementation does it.
 
-**And it does not fix loops involving three or more routers**, because the route can
+And it does not fix loops involving three or more routers, because the route can
 return by a different interface than the one it left by. §31.2's ring example below shows
 it.
 
@@ -134,7 +134,7 @@ than silence: it does not merely fail to offer a route, it **actively denies hav
 
 **Why bother, if plain split horizon already prevents it?** Because silence is ambiguous.
 A router that hears nothing may be hearing nothing because the neighbour has no route, or
-because an update was lost. **An explicit "unreachable" removes the ambiguity**, and it
+because an update was lost. An explicit "unreachable" removes the ambiguity, and it
 propagates the bad news actively rather than waiting for a timeout.
 
 **The cost is update size** — every route is advertised on every interface, some as
@@ -142,7 +142,7 @@ poison — which on a large table is significant.
 
 ### 3. Route poisoning
 
-**When a route fails, advertise it immediately at metric 16** rather than simply removing
+When a route fails, advertise it immediately at metric 16 rather than simply removing
 it and letting neighbours time it out.
 
 **Bad news travels fast.** Without poisoning, `B` learns the network is gone only when its
@@ -164,20 +164,20 @@ believing one restarts the loop. So refuse to believe anything for long enough t
 stale information has drained.
 
 **It works, and the cost is severe.** A route that fails and genuinely recovers is
-ignored for three minutes. **Holddown trades convergence speed for stability**, and it is
+ignored for three minutes. Holddown trades convergence speed for stability, and it is
 the crudest of the four fixes — the same "wait long enough for uncertainty to clear"
 reasoning as classic spanning tree's timers (Chapter 19 §19.2), with the same drawback.
 
 ### 5. Triggered updates
 
-**Send an update immediately on a change, rather than waiting for the 30-second timer.**
+Send an update immediately on a change, rather than waiting for the 30-second timer.
 
 Reduces the window in which stale information circulates. **Combined with poisoning,
 this is what makes RIP tolerable rather than merely functional.**
 
 ## Why the fixes are not enough
 
-**Split horizon prevents two-router loops. It does not prevent loops around a ring.**
+Split horizon prevents two-router loops. It does not prevent loops around a ring.
 
 ```
         A ──── B
@@ -188,12 +188,12 @@ this is what makes RIP tolerable rather than merely functional.**
 `A` has the network. `A` fails.
 
 - `B` learned it from `A`, so does not tell `A` — split horizon holds.
-- **`C` also learned it from `A`**, and `C` tells `B`, because `C` did not learn it *from
+- `C` also learned it from `A`, and `C` tells `B`, because `C` did not learn it *from
   B*.
 - `B` believes `C`. `B` tells `A`, because `B` learned this one from `C`.
 - **Loop.**
 
-**Every fix is a heuristic against a specific reflection pattern**, and a large enough
+Every fix is a heuristic against a specific reflection pattern, and a large enough
 topology has a pattern none of them cover. Holddown catches most of what escapes, at the
 cost of three minutes of unnecessary outage.
 
@@ -201,7 +201,7 @@ cost of three minutes of unnecessary outage.
 > problem properly.** No amount of heuristic prevents a router from believing a route it
 > cannot examine.
 
-**This is the argument for link state**, and it is why §31.3 is a different approach
+This is the argument for link state, and it is why §31.3 is a different approach
 rather than a better distance vector.
 
 ## How the successors solve it properly
@@ -212,7 +212,7 @@ rather than a better distance vector.
 | **BGP** (path vector) | Every advertisement carries the **full list of AS numbers**. A router that sees its own AS in the path **rejects the route**. Provenance, made explicit. |
 | **EIGRP** (DUAL) | Garcia-Luna-Aceves's algorithm. A router accepts a route only if the neighbour's distance to the destination is **strictly less than its own** — the *feasibility condition* — which guarantees the neighbour is not routing through it. **Loop-free at every instant, not merely after convergence.** |
 
-**EIGRP's feasibility condition is the elegant one**, and it is worth stating precisely
+EIGRP's feasibility condition is the elegant one, and it is worth stating precisely
 because it solves the problem with a single arithmetic test rather than a set of
 heuristics:
 
@@ -222,7 +222,7 @@ where **RD** is the neighbour's reported distance to the destination and **FD** 
 own current best. If the neighbour is closer than you are, **it cannot be routing through
 you**, because if it were, its distance would include yours and would therefore be larger.
 
-**One inequality, replacing split horizon, poison reverse and holddown**, with no timers
+One inequality, replacing split horizon, poison reverse and holddown, with no timers
 and no waiting. DUAL is why EIGRP converges in under a second where RIP takes minutes.
 
 ## What breaks here
@@ -232,7 +232,7 @@ it; it resolves when the count reaches infinity.
 
 **Metrics climbing steadily in `debug ip rip`.** Counting to infinity, in progress.
 
-**A route that failed and recovered, still unreachable for three minutes.** Holddown.
+A route that failed and recovered, still unreachable for three minutes. Holddown.
 Working as designed, and the reason people dislike RIP.
 
 **A loop that split horizon should have prevented.** Three or more routers in a ring.

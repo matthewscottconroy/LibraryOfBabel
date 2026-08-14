@@ -68,8 +68,8 @@ it sounds. Two networks on the same channel can hear each other and will politel
 take turns under CSMA/CA (Chapter 44 §44.2) — sharing the capacity, but sharing it
 in an orderly way. Two networks on *partially* overlapping channels cannot decode
 each other, so neither defers; they simply raise each other's noise floor and corrupt
-each other's frames. **Co-channel interference costs you throughput; adjacent-channel
-interference costs you the link.** Putting an access point on channel 3 "to avoid the
+each other's frames. Co-channel interference costs you throughput; adjacent-channel
+interference costs you the link. Putting an access point on channel 3 "to avoid the
 neighbours on 1 and 6" is therefore actively worse than sharing channel 1 with them,
 and it is one of the most common well-intentioned mistakes in the field.
 
@@ -95,7 +95,7 @@ client devices historically handled DFS channels badly enough that many
 administrators avoid them entirely. That avoidance discards over half the available
 5 GHz spectrum, which is a real cost, and §43.3 discusses when to reconsider it.
 
-**The 6 GHz band** was opened for unlicensed use in the US in April 2020 and
+The 6 GHz band was opened for unlicensed use in the US in April 2020 and
 progressively elsewhere, adding roughly 1,200 MHz — more than doubling the total
 unlicensed spectrum available. It is currently uncrowded, contains no legacy devices
 at all (only Wi-Fi 6E and 7 clients can use it), and mandates WPA3. It is the most

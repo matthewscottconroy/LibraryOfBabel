@@ -15,7 +15,7 @@ Every byte TCP sends carries a **sequence number** (§37.2), and the two directi
 independent — each side numbers its own stream. **So before any data flows, each side must
 tell the other its starting number and be sure the other received it.**
 
-**And that is harder than it sounds**, because the network may duplicate, delay and
+And that is harder than it sounds, because the network may duplicate, delay and
 reorder. A connection request from an hour ago could arrive now.
 
 ## The exchange
@@ -45,7 +45,7 @@ exchange leaves the server's sequence number unacknowledged — the server would
 whether the client received its SYN-ACK.
 
 **Why not four?** Because the server's acknowledgement of the client's SYN and its own SYN
-travel in the same packet. **The middle packet does two jobs**, which is why the count is
+travel in the same packet. The middle packet does two jobs, which is why the count is
 odd.
 
 > **The handshake is a mutual agreement about two numbers, and three messages is the
@@ -53,7 +53,7 @@ odd.
 
 ## The `+1`
 
-**The acknowledgement is `x+1`, not `x`**, and this is examined and is worth understanding
+The acknowledgement is `x+1`, not `x`, and this is examined and is worth understanding
 rather than memorising.
 
 **SYN consumes one sequence number**, despite carrying no data. So does FIN (§37.5).
@@ -76,15 +76,15 @@ predict the server's next ISN**, and predicting it enables **blind spoofing**:
 
 1. The attacker sends a SYN **spoofing a trusted client's address**
 2. The server's SYN-ACK goes **to the trusted client**, not the attacker
-3. **The attacker cannot see it — but if they can predict `y`, they do not need to**
+3. The attacker cannot see it — but if they can predict `y`, they do not need to
 4. They send the third ACK with `ack=y+1`, and **the connection is established from an
    address they do not control**
 
-**This is the attack Kevin Mitnick used against Tsutomu Shimomura in December 1994**, and
+This is the attack Kevin Mitnick used against Tsutomu Shimomura in December 1994, and
 it is the most famous demonstration of why a protocol's random-looking numbers must
 actually be random.
 
-**Bellovin had described the vulnerability in 1989** (Chapter 24's notes) — five years
+Bellovin had described the vulnerability in 1989 (Chapter 24's notes) — five years
 before it was used publicly.
 
 ### The fix
@@ -96,8 +96,8 @@ $$\text{ISN} = M + F(\text{src IP}, \text{src port}, \text{dst IP}, \text{dst po
 where *M* is a timer and *F* is a cryptographic hash. **Unpredictable without the secret,
 and deterministic for a given tuple**, which preserves the old-connection protection below.
 
-**This is why the handshake provides weak authentication as a side effect** (Chapter 36
-§36.4): **an off-path attacker cannot complete it**, because they cannot guess `y`. UDP has
+This is why the handshake provides weak authentication as a side effect (Chapter 36
+§36.4): an off-path attacker cannot complete it, because they cannot guess `y`. UDP has
 no equivalent, which is why UDP spoofing is trivial and TCP spoofing is not.
 
 **It is weak** — an on-path attacker sees `y` and can do as they like — but it eliminates
@@ -115,22 +115,22 @@ much of the connection's behaviour:
 | **SACK permitted** | selective acknowledgement is supported | §37.3 |
 | **Timestamps** | RTT measurement and PAWS | §37.3 |
 
-**All of these are negotiated once, in the handshake, and cannot be changed afterwards.**
+All of these are negotiated once, in the handshake, and cannot be changed afterwards.
 
 **Which has a consequence worth stating:** if the SYN or SYN-ACK is modified or stripped by
-a middlebox, **the connection runs without that feature for its entire life.** A middlebox
+a middlebox, the connection runs without that feature for its entire life. A middlebox
 that strips the window-scale option limits the connection to 64 KB in flight forever
 (§37.4), and the symptom is a connection that works and is inexplicably slow.
 
-**This is Chapter 21 §21.4's ossification**, and it is why QUIC encrypts its handshake.
+This is Chapter 21 §21.4's ossification, and it is why QUIC encrypts its handshake.
 
 ### MSS, and why it is not the MTU
 
-**MSS is the largest *payload* a segment may carry** — it excludes the TCP and IP headers.
+MSS is the largest *payload* a segment may carry — it excludes the TCP and IP headers.
 
 $$\text{MSS} = \text{MTU} - 20\ (\text{IP}) - 20\ (\text{TCP}) = 1500 - 40 = \mathbf{1460}$$
 
-**Each side announces what it is willing to receive**, and **the smaller of the two
+Each side announces what it is willing to receive, and **the smaller of the two
 values is used** in each direction. It is not negotiated in the sense of agreement — each
 side simply states a limit and the other respects it.
 
@@ -139,13 +139,13 @@ how a VPN gateway prevents PMTUD black holes without touching the endpoints.
 
 ## SYN flood
 
-**The handshake's cost is asymmetric, and that asymmetry is an attack.**
+The handshake's cost is asymmetric, and that asymmetry is an attack.
 
-**When a server receives a SYN, it must allocate state** — a Transmission Control Block
+When a server receives a SYN, it must allocate state — a Transmission Control Block
 holding the sequence numbers, the negotiated options, and timers — and hold it while
 waiting for the third packet.
 
-**An attacker sends many SYNs and never completes any of them:**
+An attacker sends many SYNs and never completes any of them:
 
 ```
    Attacker ── SYN ──▶ Server   allocates state, sends SYN-ACK, waits
@@ -156,7 +156,7 @@ waiting for the third packet.
 
 **The backlog fills, and legitimate connections are refused.**
 
-**The attacker's cost is one packet; the server's cost is state held for a timeout.**
+The attacker's cost is one packet; the server's cost is state held for a timeout.
 And with a spoofed source, the SYN-ACKs go to innocent third parties.
 
 **Visible in the socket table** (Chapter 35 §35.4) as many sockets in `SYN-RECV`.
@@ -206,7 +206,7 @@ $ tcpdump -nn -S 'tcp[tcpflags] & (tcp-syn|tcp-ack) != 0'
 
 **`[S]`, `[S.]`, `[.]`** — SYN, SYN-ACK, ACK. (`tcpdump` writes ACK as `.`)
 
-**`ack 1043208216` is `seq 1043208215 + 1`** — the `+1` for SYN.
+`ack 1043208216` is `seq 1043208215 + 1` — the `+1` for SYN.
 
 **`wscale 7`** — window scale of 2⁷ = 128, so the real window is the field × 128 (§37.4).
 **Both sides offered it, so it is in effect.**
@@ -226,8 +226,8 @@ $ tcpdump -nn -S 'tcp[tcpflags] & (tcp-syn|tcp-ack) != 0'
 | **Repeated SYNs, no reply** | retransmission — the standard backoff is 1, 2, 4, 8… seconds |
 | SYN-ACK with **no options** | a middlebox stripped them; the connection will underperform |
 
-**The first two are Chapter 22 §22.4's distinction**, and it is the highest-value
-observation in this section: **a RST is an answer and silence is a firewall.**
+The first two are Chapter 22 §22.4's distinction, and it is the highest-value
+observation in this section: a RST is an answer and silence is a firewall.
 
 ## What breaks here
 

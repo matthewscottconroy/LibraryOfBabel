@@ -1,6 +1,6 @@
 # 45.3 Capacity versus Coverage
 
-**Two different design problems that require opposite answers**, and confusing them is why so
+Two different design problems that require opposite answers, and confusing them is why so
 many wireless deployments are adequate in empty rooms and useless in full ones.
 
 ## The two questions
@@ -23,36 +23,36 @@ many wireless deployments are adequate in empty rooms and useless in full ones.
 
 **The counter-intuitive result**, and it follows from three facts already established.
 
-**1. Wi-Fi is a shared medium** (Chapter 44 §44.2). **An access point's capacity is divided
-among its active clients**, so halving the clients per access point doubles each client's
+1. Wi-Fi is a shared medium (Chapter 44 §44.2). An access point's capacity is divided
+among its active clients, so halving the clients per access point doubles each client's
 share.
 
-**2. Smaller cells mean better signal** (Chapter 42 §42.3), so clients run at **higher MCS**
-(Chapter 44 §44.1) — **which means each transfer occupies the medium for less time**, and the
+2. Smaller cells mean better signal (Chapter 42 §42.3), so clients run at **higher MCS**
+(Chapter 44 §44.1) — which means each transfer occupies the medium for less time, and the
 cell's total capacity rises more than proportionally.
 
 **3. Airtime fairness** (Chapter 44 §44.2). Removing distant, slow clients from a cell
 removes the ones consuming disproportionate airtime.
 
 **The three compound.** Doubling the access points does not merely halve the clients per
-access point — **it also raises the rate at which each is served.**
+access point — it also raises the rate at which each is served.
 
-**And the cost of getting it wrong in the other direction:**
+And the cost of getting it wrong in the other direction:
 
-**More power does not add capacity.** It enlarges the cell, so **more clients share it**,
-**and it increases co-channel overlap** so neighbouring cells contend more (Chapter 43
-§43.4). **Raising power in a dense deployment makes it worse**, reliably.
+**More power does not add capacity.** It enlarges the cell, so more clients share it,
+and it increases co-channel overlap so neighbouring cells contend more (Chapter 43
+§43.4). Raising power in a dense deployment makes it worse, reliably.
 
-> **In capacity design, transmit power should be reduced, not raised** — often to the
+> In capacity design, transmit power should be reduced, not raised — often to the
 > minimum the coverage target permits.
 
 ## Estimating capacity
 
-**The arithmetic, and it is the part usually skipped.**
+The arithmetic, and it is the part usually skipped.
 
 ### Step 1 — how many clients
 
-**Not devices owned. Devices actively using the network simultaneously.**
+Not devices owned. Devices actively using the network simultaneously.
 
 | Space | Typical concurrent devices |
 |---|---|
@@ -63,8 +63,8 @@ access point — **it also raises the rate at which each is served.**
 | Hotel room | 3–5 |
 
 **And "active" needs defining.** A phone in a pocket associated and idle costs beacons and
-occasional traffic; **a laptop streaming video costs airtime continuously.** Most estimates
-use **20–40% of associated devices actively transmitting** at any moment.
+occasional traffic; a laptop streaming video costs airtime continuously. Most estimates
+use 20–40% of associated devices actively transmitting at any moment.
 
 ### Step 2 — how much each needs
 
@@ -78,13 +78,13 @@ use **20–40% of associated devices actively transmitting** at any moment.
 | 4K streaming | 15–25 Mb/s |
 | Large file transfer | as much as available |
 
-**Voice is the interesting row: negligible bandwidth and stringent latency and jitter
-requirements** (Chapter 41 §41.4). **Capacity planning for voice is about airtime and
-contention, not about megabits.**
+Voice is the interesting row: negligible bandwidth and stringent latency and jitter
+requirements (Chapter 41 §41.4). Capacity planning for voice is about airtime and
+contention, not about megabits.
 
 ### Step 3 — what an access point delivers
 
-**Chapter 44 §44.4's reduction, and use the realistic figure:**
+Chapter 44 §44.4's reduction, and use the realistic figure:
 
 | Band and width | Realistic aggregate |
 |---|---|
@@ -94,10 +94,10 @@ contention, not about megabits.**
 | 5 GHz, 80 MHz | ~350 Mb/s |
 | 6 GHz, 80 MHz | ~400 Mb/s |
 
-**These are aggregate across all clients on that radio**, not per client, and they already
+These are aggregate across all clients on that radio, not per client, and they already
 account for protocol overhead.
 
-**Use the narrower figures in dense designs** — because §43.2's argument says you will be
+Use the narrower figures in dense designs — because §43.2's argument says you will be
 using narrow channels.
 
 ### Worked: a lecture theatre
@@ -115,11 +115,11 @@ using narrow channels.
    By throughput:                  180 / 200      = 1 AP
 ```
 
-**And one access point is obviously wrong**, which is the point of the next constraint.
+And one access point is obviously wrong, which is the point of the next constraint.
 
 ### Step 4 — the client-count limit
 
-**Throughput is not the binding constraint in dense environments. Client count is.**
+Throughput is not the binding constraint in dense environments. Client count is.
 
 | Clients per radio | Behaviour |
 |---|---|
@@ -128,9 +128,9 @@ using narrow channels.
 | **50** | **contention becomes significant** |
 | **> 70** | **degraded regardless of bandwidth** |
 
-**Because CSMA/CA's contention overhead rises with the number of contending stations**
-(Chapter 16 §16.1's ALOHA analysis, Chapter 44 §44.2's efficiency), **and every additional
-client adds beacon-response, probe and management traffic.**
+Because CSMA/CA's contention overhead rises with the number of contending stations
+(Chapter 16 §16.1's ALOHA analysis, Chapter 44 §44.2's efficiency), and every additional
+client adds beacon-response, probe and management traffic.
 
 **Redoing the lecture theatre:**
 
@@ -148,33 +148,33 @@ client adds beacon-response, probe and management traffic.**
 > **Ten access points, not one.** The throughput arithmetic said one and **the client-count
 > arithmetic says ten**, and the client count wins.
 
-**This is the single most important idea in capacity design**, and it is why lecture theatres,
+This is the single most important idea in capacity design, and it is why lecture theatres,
 auditoria and stadiums have far more access points than their area suggests.
 
 ## Making cells small
 
-**Having decided you need small cells, the mechanisms:**
+Having decided you need small cells, the mechanisms:
 
 **Reduce transmit power.** To the minimum that meets the coverage target — often 8–14 dBm
 rather than the maximum.
 
-**Raise the minimum basic rate** (Chapter 44 §44.2). **The better lever**, because it shrinks
-the cell without creating uplink asymmetry, **and it excludes the slow distant clients that
-consume airtime.** 12 or 24 Mb/s is typical.
+Raise the minimum basic rate (Chapter 44 §44.2). **The better lever**, because it shrinks
+the cell without creating uplink asymmetry, and it excludes the slow distant clients that
+consume airtime. 12 or 24 Mb/s is typical.
 
-**Use directional antennas.** In a lecture theatre, **patch antennas aimed at seating
-sections** cover the seats and not each other — which is far better than omnis that all
+**Use directional antennas.** In a lecture theatre, patch antennas aimed at seating
+sections cover the seats and not each other — which is far better than omnis that all
 overlap.
 
 **Narrow the channels** (Chapter 43 §43.2). 20 or 40 MHz, so there are enough channels for
 ten access points not to contend.
 
-**Disable 2.4 GHz on most of them** (Chapter 43 §43.3). With three channels, ten 2.4 GHz
-radios in one room is unworkable — **enable it on two, for legacy and IoT.**
+Disable 2.4 GHz on most of them (Chapter 43 §43.3). With three channels, ten 2.4 GHz
+radios in one room is unworkable — enable it on two, for legacy and IoT.
 
-**And under-floor or seat-back mounting** in auditoria: access points beneath the seating,
+And under-floor or seat-back mounting in auditoria: access points beneath the seating,
 covering upward into a small section, with the seats and bodies providing isolation between
-cells. **Unusual, expensive, and the standard approach for large venues.**
+cells. Unusual, expensive, and the standard approach for large venues.
 
 ## The two designs compared
 
@@ -192,45 +192,45 @@ cells. **Unusual, expensive, and the standard approach for large venues.**
 | Minimum rate | low, for range | **high, to shrink cells** |
 | 2.4 GHz | **enabled** — scanners need it | **mostly disabled** |
 
-**Nearly every parameter is opposite**, and both designs are correct for their purpose.
+Nearly every parameter is opposite, and both designs are correct for their purpose.
 
 ## Special cases
 
-**Voice** — the requirement is not bandwidth but **consistent coverage and fast roaming**
-(§45.2). **−67 dBm everywhere, 20% overlap, 802.11r enabled**, and cells sized so a handset
+**Voice** — the requirement is not bandwidth but consistent coverage and fast roaming
+(§45.2). −67 dBm everywhere, 20% overlap, 802.11r enabled, and cells sized so a handset
 never runs at a low rate.
 
-**Location tracking** — needs **at least three access points hearing every point** at
+**Location tracking** — needs at least three access points hearing every point at
 usable signal, which frequently means more access points than either coverage or capacity
 would require, placed for geometry rather than for either.
 
-**High-density outdoor** — stadiums and arenas. **Under-seat or overhead directional
-mounting, very small cells, and often 2.4 GHz disabled entirely.**
+**High-density outdoor** — stadiums and arenas. Under-seat or overhead directional
+mounting, very small cells, and often 2.4 GHz disabled entirely.
 
-**IoT at scale** — many devices, tiny traffic. **Client count is the whole constraint**;
+**IoT at scale** — many devices, tiny traffic. Client count is the whole constraint;
 bandwidth is irrelevant. **TWT** (Chapter 44 §44.1) helps substantially.
 
 ## What breaks here
 
-**A room that works empty and fails when full.** Coverage design applied to a capacity
+A room that works empty and fails when full. Coverage design applied to a capacity
 problem.
 
 **Adding power to fix a busy area.** It enlarges the cell and adds contention. **Do the
 opposite.**
 
-**One access point per room regardless of occupancy.** Area-based design.
+One access point per room regardless of occupancy. Area-based design.
 
-**Ten access points in a theatre, all at maximum power, all overlapping.** Small cells were
+Ten access points in a theatre, all at maximum power, all overlapping. Small cells were
 not actually created — power and channel width were not reduced.
 
-**Good throughput measured by one tester and complaints from users.** One client alone gets
+Good throughput measured by one tester and complaints from users. One client alone gets
 the whole cell; sixty do not. **Test under load.**
 
 **Everything sized correctly and voice still poor.** Roaming (§45.2), or interference
 (Chapter 43 §43.4) — capacity is not the only failure mode.
 
 > **Network+ note.** Objective 2.4 expects capacity and coverage considerations. Over-learn:
-> **coverage design wants large cells and capacity design wants small ones**; **in dense
-> environments the access-point count is determined by client count, not area**; **reducing
+> coverage design wants large cells and capacity design wants small ones; in dense
+> environments the access-point count is determined by client count, not area; **reducing
 > transmit power increases capacity**; and **25–40 clients per radio is the working target.**
 > The "more APs at lower power" answer is counter-intuitive and examined.

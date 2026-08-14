@@ -1,6 +1,6 @@
 # 45.4 Diagnosing Wireless Complaints
 
-**Users make four complaints about wireless**, and each maps to a small set of causes that
+Users make four complaints about wireless, and each maps to a small set of causes that
 this unit has established. This section is the procedure.
 
 ## The four complaints
@@ -26,12 +26,12 @@ this unit has established. This section is the procedure.
 | **Everyone, everywhere** | **infrastructure** — controller, RADIUS, DHCP, uplink |
 | Everyone, intermittently | interference, or a scheduled event |
 
-**This is Chapter 40 §40.4's question applied to wireless**, and it eliminates most of the
+This is Chapter 40 §40.4's question applied to wireless, and it eliminates most of the
 search space before you have touched a tool.
 
 ## "I can't connect"
 
-**Work the association stages** (Chapter 44 §44.3), because each fails distinctly.
+Work the association stages (Chapter 44 §44.3), because each fails distinctly.
 
 ```
    1. Is the SSID visible?
@@ -50,31 +50,31 @@ search space before you have touched a tool.
         No  → VLAN, firewall, captive portal
 ```
 
-**Step 4 is the one to check early.** `169.254.x.x` (Chapter 27 §27.2) says the client
-associated fine and DHCP did not answer — **and the causes are Chapter 40 §40.4's, not
-wireless ones.**
+Step 4 is the one to check early. `169.254.x.x` (Chapter 27 §27.2) says the client
+associated fine and DHCP did not answer — and the causes are Chapter 40 §40.4's, not
+wireless ones.
 
-**And step 3's enterprise case is worth separating:** the client says "incorrect password" for
-**a wrong passphrase, a RADIUS timeout, an expired certificate, a wrong username, and a
-certificate the client does not trust.** **The client cannot distinguish them and the RADIUS
-log can**, which is where to look.
+And step 3's enterprise case is worth separating: the client says "incorrect password" for
+a wrong passphrase, a RADIUS timeout, an expired certificate, a wrong username, and a
+certificate the client does not trust. The client cannot distinguish them and the RADIUS
+log can, which is where to look.
 
 **The specific cases worth knowing:**
 
-**An IoT device that cannot join a network laptops use.** Usually: **it is 2.4 GHz only** and
-the SSID is 5 GHz; or **PMF is required** and it does not support 802.11w; or **the minimum
-data rate excludes it** (Chapter 44 §44.2); or it cannot do WPA3.
+An IoT device that cannot join a network laptops use. Usually: it is 2.4 GHz only and
+the SSID is 5 GHz; or **PMF is required** and it does not support 802.11w; or the minimum
+data rate excludes it (Chapter 44 §44.2); or it cannot do WPA3.
 
-**A device that connects at home and not at work.** Enterprise authentication, or a captive
+A device that connects at home and not at work. Enterprise authentication, or a captive
 portal it cannot present.
 
 **A client that connects and immediately disconnects.** Often authentication succeeding and
-authorisation failing — **check the RADIUS accounting records**, which will show the
+authorisation failing — check the RADIUS accounting records, which will show the
 disconnect reason.
 
 ## "It's slow"
 
-**The complaint with the most possible causes, and the one where measurement matters most.**
+The complaint with the most possible causes, and the one where measurement matters most.
 
 **Measure four things, in this order:**
 
@@ -97,37 +97,37 @@ disconnect reason.
 
 > **The last row is the important one.** Signal good, noise low, no retries, medium quiet —
 > **and the user says it is slow.** **The problem is upstream**: the WAN link, DNS
-> (Chapter 39), the server, or the application. **Wireless is where complaints arrive, not
-> where they originate.**
+> (Chapter 39), the server, or the application. Wireless is where complaints arrive, not
+> where they originate.
 
-**And this is worth saying to users and to management**, because wireless is blamed for a
+And this is worth saying to users and to management, because wireless is blamed for a
 great deal it did not cause.
 
-**Two further checks when the four numbers are ambiguous:**
+Two further checks when the four numbers are ambiguous:
 
 **What rate is the client actually using?** (Chapter 44 §44.1's MCS.) A client at MCS 2 with
 good RSSI has an SNR problem the RSSI is hiding.
 
 **Is one client consuming the airtime?** (Chapter 44 §44.2.) `iw dev wlan0 station dump` or
-the controller's per-client rate view. **One device at 6 Mb/s explains a whole cell.**
+the controller's per-client rate view. One device at 6 Mb/s explains a whole cell.
 
 ## "It keeps dropping"
 
 **Four causes, and they are distinguishable.**
 
-**Roaming** (§45.2) — the drops correlate with movement. **Check whether the client is sticky
-or whether roams are slow**, and whether the VLAN changes at that point.
+**Roaming** (§45.2) — the drops correlate with movement. Check whether the client is sticky
+or whether roams are slow, and whether the VLAN changes at that point.
 
 **Deauthentication frames** (Chapter 44 §44.3) — capture and filter
-`wlan.fc.type_subtype == 12`. **An attack, a misbehaving controller, or aggressive client
-load-balancing.**
+`wlan.fc.type_subtype == 12`. An attack, a misbehaving controller, or aggressive client
+load-balancing.
 
-**Power saving** (Chapter 44 §44.3) — the device appears to drop and is asleep. **Slow first
-packet then fast is normal.**
+**Power saving** (Chapter 44 §44.3) — the device appears to drop and is asleep. Slow first
+packet then fast is normal.
 
-**DFS radar events** (Chapter 43 §43.1) — **everyone on one channel drops simultaneously**,
-and the access point logs a channel change. **Distinctive, and frequently mystifying until you
-know about it.**
+**DFS radar events** (Chapter 43 §43.1) — everyone on one channel drops simultaneously,
+and the access point logs a channel change. Distinctive, and frequently mystifying until you
+know about it.
 
 | Symptom | Cause |
 |---|---|
@@ -139,10 +139,10 @@ know about it.**
 
 ## "It works here and not there"
 
-**The most tractable complaint**, because it is a coverage question and coverage is
+The most tractable complaint, because it is a coverage question and coverage is
 measurable.
 
-**Walk it with a survey tool** and find the boundary. Then:
+Walk it with a survey tool and find the boundary. Then:
 
 | Finding | Remedy |
 |---|---|
@@ -152,7 +152,7 @@ measurable.
 | A dead spot under an AP | **the antenna null** (Ch 42 §42.2) |
 | Poor in a specific room only | construction — check the walls, and check for foil insulation or low-E glass |
 
-**And the specific case of a room that is worse than its neighbours** is nearly always
+And the specific case of a room that is worse than its neighbours is nearly always
 **construction**: a plant room with metal walls, a lift lobby, a room with foil-backed
 insulation, or a modern glazed meeting room (Chapter 42 §42.1).
 
@@ -173,19 +173,19 @@ netsh wlan show interfaces
 netsh wlan show wlanreport        # a very good HTML report of recent connections
 ```
 
-**`netsh wlan show wlanreport` is underused** — it produces a graphical timeline of every
-connection, disconnection and its reason over the last three days, **which answers "it keeps
-dropping" without any capture.**
+`netsh wlan show wlanreport` is underused — it produces a graphical timeline of every
+connection, disconnection and its reason over the last three days, which answers "it keeps
+dropping" without any capture.
 
-**And on the infrastructure side**, the controller holds what you need: per-client RSSI and
+And on the infrastructure side, the controller holds what you need: per-client RSSI and
 SNR history, per-AP client counts and utilisation, retry rates, roaming events, and RRM
-decisions. **Look there before capturing.**
+decisions. Look there before capturing.
 
 ## The complaint that is not wireless
 
-**Worth a section of its own**, because it is common.
+Worth a section of its own, because it is common.
 
-**When the four measurements are all good and users still complain:**
+When the four measurements are all good and users still complain:
 
 | Check | For |
 |---|---|
@@ -195,14 +195,14 @@ decisions. **Look there before capturing.**
 | **The client** | CPU, disk, other software |
 | **A captive portal** | expired session |
 
-> **The single most useful diagnostic is: does it happen on the wired network too?** If yes,
+> The single most useful diagnostic is: does it happen on the wired network too? If yes,
 > wireless is exonerated in one test, and the search moves to where the problem actually is.
 
 ## What breaks here
 
-**Assuming a slow complaint is a coverage problem.** Measure before adding access points.
+Assuming a slow complaint is a coverage problem. Measure before adding access points.
 
-**Adding access points for a capacity problem without reducing power.** §45.3.
+Adding access points for a capacity problem without reducing power. §45.3.
 
 **Chasing a wireless fault that is DNS.** Test on wired.
 
@@ -210,10 +210,10 @@ decisions. **Look there before capturing.**
 
 **Blaming the network for a client's driver.** One user, one device, everywhere they go.
 
-**Not asking "how many people, and where" first.** It eliminates most causes for free.
+Not asking "how many people, and where" first. It eliminates most causes for free.
 
 > **Network+ note.** Objective 5.4 is wireless troubleshooting and **this section is directly
-> examined.** Over-learn: **the four measurements — RSSI, SNR, retries, utilisation — and
-> what each combination indicates**; **good signal with poor performance means interference**;
-> **a client that associates and gets no address has a DHCP problem**; and **DFS events
-> disconnect everyone on a channel at once.**
+> examined.** Over-learn: the four measurements — RSSI, SNR, retries, utilisation — and
+> what each combination indicates; **good signal with poor performance means interference**;
+> a client that associates and gets no address has a DHCP problem; and DFS events
+> disconnect everyone on a channel at once.

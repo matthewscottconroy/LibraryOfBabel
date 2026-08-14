@@ -50,7 +50,7 @@ serving these ends, not additional ends.)
 
 ## What the unit contains
 
-**Chapter 57 — Threat Models and the CIA Triad.** The derivation above; who attacks
+Chapter 57 — Threat Models and the CIA Triad. The derivation above; who attacks
 networks and what they want; risk and proportionate defence; and an enumeration of the
 attack surface layer by layer, which doubles as a review of Units II through X.
 
@@ -69,7 +69,7 @@ and the implicit deny; stateful inspection and what statefulness costs; NGFW, ID
 and TLS inspection's genuine tradeoff; and segmentation from DMZs to
 microsegmentation.
 
-**Chapter 61 — VPNs and Secure Remote Access.** The tunnel idea; IPsec in detail;
+Chapter 61 — VPNs and Secure Remote Access. The tunnel idea; IPsec in detail;
 TLS VPNs and WireGuard; split tunnelling and the post-2020 remote access reality.
 
 **Chapter 62 — Attacks on the Stack.** A systematic walk back down through the layers,
@@ -88,7 +88,7 @@ This is easy to state, tedious to implement, and the single most effective limit
 blast radius. Most catastrophic breaches involve an account or a device with far more
 access than its job required.
 
-**Security is a property of a system, not a product.** There is no appliance that
+Security is a property of a system, not a product. There is no appliance that
 makes a network secure. There are appliances that address specific threats within a
 design that considered them, and there are appliances deployed to satisfy an auditor
 that address nothing. The difference is whether someone did the analysis of
@@ -104,6 +104,6 @@ The correct disposition is proportionate. Most networks are not targeted by
 sophisticated adversaries; most compromises are opportunistic, exploit known
 vulnerabilities in unpatched systems, and would have been prevented by basic hygiene —
 patching, segmentation, least privilege, multi-factor authentication, and monitoring
-that someone reads. **Do the ordinary things well before doing the exotic things at
-all.** An organisation with unpatched edge devices and a flat network does not need a
+that someone reads. Do the ordinary things well before doing the exotic things at
+all. An organisation with unpatched edge devices and a flat network does not need a
 better firewall; it needs to do the work it already knows about.

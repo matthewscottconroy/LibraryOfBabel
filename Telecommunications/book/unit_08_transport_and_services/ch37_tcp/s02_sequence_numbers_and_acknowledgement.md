@@ -45,7 +45,7 @@ as:
 - 300 reads of 1
 - any other division
 
-**The application must frame its own messages**, and the standard approaches are:
+The application must frame its own messages, and the standard approaches are:
 
 | Method | Used by |
 |---|---|
@@ -133,10 +133,10 @@ sender learns everything it needed. **The acknowledgement is self-repairing.**
    ACK can only say:  1001
 ```
 
-**The receiver has bytes 2001–3000 and no way to say so.** The sender knows only that 1001
+The receiver has bytes 2001–3000 and no way to say so. The sender knows only that 1001
 is missing — not that anything after it arrived.
 
-**Without more information the sender might retransmit everything from 1001 onward**,
+Without more information the sender might retransmit everything from 1001 onward,
 including data the receiver already holds. **This is "go-back-N", and it wastes an entire
 window on one loss.**
 
@@ -144,7 +144,7 @@ window on one loss.**
 
 **Selective Acknowledgement**, RFC 2018, negotiated in the handshake (§37.1).
 
-**A SACK option lists the blocks that *have* arrived**, alongside the cumulative ACK:
+A SACK option lists the blocks that *have* arrived, alongside the cumulative ACK:
 
 ```
    ACK 1001,  SACK [2001–3000]
@@ -154,7 +154,7 @@ window on one loss.**
 
 **So the sender retransmits only 1001–2000.**
 
-**The improvement is large on lossy or high-bandwidth-delay paths**, where a window may
+The improvement is large on lossy or high-bandwidth-delay paths, where a window may
 hold hundreds of segments and losing one should not mean resending all of them.
 
 **SACK is universally supported and universally enabled.** If a capture shows it absent,
@@ -166,10 +166,10 @@ sender learn that its retransmission was unnecessary and adjust.
 
 ## Duplicate ACKs and fast retransmit
 
-**The mechanism that recovers from loss without waiting for a timer** (§37.3), and it
+The mechanism that recovers from loss without waiting for a timer (§37.3), and it
 falls out of cumulative acknowledgement.
 
-**When a receiver gets an out-of-order segment, it re-sends the same ACK:**
+When a receiver gets an out-of-order segment, it re-sends the same ACK:
 
 ```
    Sender:                        Receiver:              ACK sent:
@@ -180,13 +180,13 @@ falls out of cumulative acknowledgement.
    seq 5000               ──▶     out of order!          ACK 2000  ← duplicate
 ```
 
-**Three duplicate ACKs — four identical ACKs in total — is TCP's loss signal.**
+Three duplicate ACKs — four identical ACKs in total — is TCP's loss signal.
 
 **Why three?** Because **reordering also produces duplicate ACKs** (Chapter 29 §29.3's
 ECMP). One or two duplicates is more likely reordering than loss; **three is the threshold
 chosen to distinguish them**, and it has held up remarkably well.
 
-**On receiving them, the sender retransmits immediately** without waiting for the
+On receiving them, the sender retransmits immediately without waiting for the
 retransmission timer — which is **fast retransmit**, and it is the difference between
 recovering in one RTT and recovering in a timeout (§37.3).
 
@@ -204,13 +204,13 @@ recovering in one RTT and recovering in a timeout (§37.3).
 | 100 Gb/s | **~0.34 seconds** |
 
 **The hazard:** a segment delayed in the network could arrive after the sequence space has
-wrapped, **and be accepted as valid current data.**
+wrapped, and be accepted as valid current data.
 
-**PAWS — Protection Against Wrapped Sequence numbers** (RFC 7323) solves it using the
+PAWS — Protection Against Wrapped Sequence numbers (RFC 7323) solves it using the
 **timestamp option**: every segment carries a timestamp, and a segment whose timestamp is
 older than the connection's current one is discarded regardless of its sequence number.
 
-**Which is why the timestamp option matters** beyond RTT measurement, and why disabling it
+Which is why the timestamp option matters beyond RTT measurement, and why disabling it
 on a fast link is unwise.
 
 ## Reading it
@@ -245,7 +245,7 @@ survived the handshake.
 **Sequence numbers that look wrong in a capture.** `tcpdump` shows relative numbers by
 default. Use `-S`.
 
-**A connection failing on a very fast link after a few seconds.** Sequence wraparound
+A connection failing on a very fast link after a few seconds. Sequence wraparound
 without PAWS. Enable timestamps.
 
 **Retransmission of data the receiver already has.** No SACK, so the sender is guessing.

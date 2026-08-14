@@ -9,11 +9,11 @@ is what it buys and what it costs.
 service 1892), built by an undertaker who believed the operator was diverting his
 calls. A stepping selector advanced by dial pulses. Variants ran into the 1990s.
 
-**Dial pulsing as a protocol** *(§12.1)* — Interrupting loop current a defined
+Dial pulsing as a protocol *(§12.1)* — Interrupting loop current a defined
 number of times, with specified make/break ratios and inter-digit timing: syntax,
 semantics and timing, and the first protocol most people ever used.
 
-**Crossbar and common control** *(§12.1)* — Separating the switching **matrix** from
+Crossbar and common control *(§12.1)* — Separating the switching **matrix** from
 the **control** that selects a path through it. Path selection can then consider the
 whole matrix rather than a single predetermined route, control logic is shared and
 can therefore be more capable, and reliability improves. Stored-program control
@@ -34,7 +34,7 @@ in copper to virtually every building in the developed world and already paid fo
 The reason DSL exists and the single most consequential piece of infrastructure in
 this book.
 
-**Regeneration versus amplification, in its original setting** *(§12.2)* — Analog
+Regeneration versus amplification, in its original setting *(§12.2)* — Analog
 amplification compounds noise across spans, so quality fell with distance; digital
 regeneration discards it, making quality **independent of distance**. The largest
 single improvement in the network's history.
@@ -52,7 +52,7 @@ the DS0, and every voice codec since is measured against it.
 8,000 frames/s = **1.544 Mb/s**. Deployed 1962, using existing copper with repeaters
 at the loading-coil spacing.
 
-**Robbed-bit signalling and the 56 kb/s figure** *(§12.2)* — T1 originally stole the
+Robbed-bit signalling and the 56 kb/s figure *(§12.2)* — T1 originally stole the
 least significant bit of every sixth frame for supervision. Inaudible in voice,
 fatal to data, so a data channel used 7 bits: 8,000 × 7 = **56 kb/s**. This is the
 origin of a number that pervades older networking material.
@@ -62,24 +62,24 @@ origin of a number that pervades older networking material.
 robbed-bit signalling and its channels are clear 64 kb/s by design.
 
 **In-band signalling** *(§12.3)* — Control information on the same channel as the
-conversation. Natural, economical, and structurally flawed: **users can reach the
-control channel**.
+conversation. Natural, economical, and structurally flawed: users can reach the
+control channel.
 
-**The 2,600 Hz vulnerability** *(§12.3)* — Whistling the trunk-idle tone made the
+The 2,600 Hz vulnerability *(§12.3)* — Whistling the trunk-idle tone made the
 far exchange release while the local one kept billing state, after which
 multi-frequency digits routed a free call. The **blue box** automated it. The
 general principle: *if control information travels on the same channel as user data,
 users can generate control information* — the same class as SQL injection, XSS,
 format-string attacks and stack smashing.
 
-**SS7** *(§12.3)* — Common channel signalling from 1975: a **separate packet-switched
-network** carrying call setup, routing and management. **SSP** (exchange), **STP**
+**SS7** *(§12.3)* — Common channel signalling from 1975: a separate packet-switched
+network carrying call setup, routing and management. SSP (exchange), **STP**
 (signalling router), **SCP** (database). Bought immunity to phreaking, much faster
 setup, trunks not held during ringing, and the database lookups that made toll-free
 numbers, portability, caller ID and roaming possible.
 
-**The telephone network's control plane was packet-switched twenty years before its
-data plane** *(§12.3)*.
+The telephone network's control plane was packet-switched twenty years before its
+data plane *(§12.3)*.
 
 **The SIP/RTP parallel** *(§12.3)* — Signalling negotiates and media carries, on
 different paths with different requirements and different transports. SIP and RTP
@@ -102,16 +102,16 @@ seconds.
 
 **Erlang B** *(§12.4)* — Blocking probability for a lost-calls-cleared system, with
 the recurrence *B*(*n*,*A*) = *A·B*(*n*−1,*A*) / (*n* + *A·B*(*n*−1,*A*)),
-*B*(0,*A*) = 1. **Ten erlangs needs eighteen circuits for better than 1%
-blocking** — not ten, and not hundreds.
+*B*(0,*A*) = 1. Ten erlangs needs eighteen circuits for better than 1%
+blocking — not ten, and not hundreds.
 
-**Where the curve bends** *(§12.4)* — Blocking falls sharply up to about 1% and then
+Where the curve bends *(§12.4)* — Blocking falls sharply up to about 1% and then
 flattens. Grade-of-service targets sit at the knee because beyond it you pay
 substantially for improvements nobody perceives.
 
 **Trunking efficiency** *(§12.4)* — Larger groups are dramatically more efficient at
 the same grade of service: 1 erlang needs 5 circuits (20% utilisation), 100 erlangs
-needs 117 (85%). Hence **combining trunk groups saves real money**, and splitting
+needs 117 (85%). Hence combining trunk groups saves real money, and splitting
 them for administrative convenience is an invisible waste.
 
 **Erlang C** *(§12.4)* — For systems where blocked demand **queues** rather than

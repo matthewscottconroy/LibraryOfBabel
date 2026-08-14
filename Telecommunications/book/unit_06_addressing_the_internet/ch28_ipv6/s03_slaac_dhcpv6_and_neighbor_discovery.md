@@ -16,7 +16,7 @@ is address **assignment**.
 | **DHCPv6 stateless** | SLAAC | **only** DNS and other options |
 | Static | a person | everything |
 
-**They are not alternatives so much as ingredients**, and most real deployments use two
+They are not alternatives so much as ingredients, and most real deployments use two
 at once.
 
 ## SLAAC
@@ -36,7 +36,7 @@ equivalent and is IPv6's most distinctive feature.
    7. Install the default route            = the RA's source (a link-local address)
 ```
 
-**Steps 1, 2 and 7 need no server of any kind.** The host has a working link-local
+Steps 1, 2 and 7 need no server of any kind. The host has a working link-local
 address and a default gateway from a router that was not configured to serve anybody.
 
 > **A host with no DHCP server, no configuration and no administrator gets a working
@@ -61,7 +61,7 @@ address and a default gateway from a router that was not configured to serve any
    Address:        fe80::21b:21ff:fe3c:4d5e
 ```
 
-**`ff:fe` in the middle of an interface ID is the EUI-64 signature**, and it is
+`ff:fe` in the middle of an interface ID is the EUI-64 signature, and it is
 instantly recognisable in a capture.
 
 **And it is a privacy disaster.** The MAC address is embedded, so **the low 64 bits of a
@@ -94,7 +94,7 @@ networks. The best of both, and increasingly the default.
 
 **The operational consequence:** *"which address is this host using?"* has no single
 answer, and firewall rules or ACLs written against a specific address will break when it
-rotates. **Filter on the /64, not on the address.**
+rotates. Filter on the /64, not on the address.
 
 ## Router Advertisements
 
@@ -112,7 +112,7 @@ The messages SLAAC depends on, and they carry more than a prefix.
 
 ### The flag matrix
 
-**This is the part that confuses everyone**, and it is worth a table:
+This is the part that confuses everyone, and it is worth a table:
 
 | M | O | A | Host behaviour |
 |---|---|---|---|
@@ -126,9 +126,9 @@ The messages SLAAC depends on, and they carry more than a prefix.
 servers.** RA carried the prefix and the gateway and nothing else, so a pure-SLAAC network
 gave hosts a working address and no name resolution — which meant nothing worked.
 
-The result was that **DHCPv6 was required even when SLAAC handled addressing**, purely
+The result was that DHCPv6 was required even when SLAAC handled addressing, purely
 for DNS. RFC 8106's **RDNSS option** closed the gap, and support is now good — but not
-universal, and **Android has never implemented DHCPv6 at all**, on the deliberate
+universal, and Android has never implemented DHCPv6 at all, on the deliberate
 position that SLAAC plus RDNSS is the right design.
 
 **Which produces a real operational trap:** a network using stateful DHCPv6 works for
@@ -157,7 +157,7 @@ with DHCPv6 and no RAs gives hosts addresses and no route.
 
 **DUID instead of MAC.** A **DHCP Unique Identifier**, generated once per *machine* and
 intended to be stable across interfaces and reinstalls. In principle better; in practice
-it means a DHCPv6 reservation is keyed on something **you cannot read off a label**, and
+it means a DHCPv6 reservation is keyed on something you cannot read off a label, and
 a machine that is reimaged may present a new DUID and get a different address.
 
 **IPv4 reservations are keyed on the MAC address, which is printed on the device. IPv6
@@ -181,12 +181,12 @@ A router asks its upstream not for an address but for a **prefix**:
 **The home router receives a /56 and subnets it.** Every device on every internal segment
 gets a **globally routable address**, with no NAT anywhere.
 
-**This is what IPv6 is actually for**, and it is worth pausing on. The IPv4 home is one
+This is what IPv6 is actually for, and it is worth pausing on. The IPv4 home is one
 address with NAT hiding everything behind it. The IPv6 home is **256 subnets of globally
 addressable devices**. Every peer-to-peer application, every inbound connection, every
 protocol broken by NAT (Chapter 21 §21.4) simply works.
 
-**What replaces NAT's accidental security is the firewall**, which is where it belonged
+What replaces NAT's accidental security is the firewall, which is where it belonged
 all along — and the default on every consumer IPv6 router is to permit outbound and deny
 inbound, which gives the same protection without the address mangling.
 
@@ -200,7 +200,7 @@ inbound, which gives the same protection without the address mangling.
 | Servers | **Static**, always. You want a known address in DNS. |
 | Point-to-point links | Static /127 (RFC 6164) or link-local only |
 
-**The most common enterprise choice is SLAAC + stateless DHCPv6**: hosts autoconfigure
+The most common enterprise choice is SLAAC + stateless DHCPv6: hosts autoconfigure
 addresses, DHCPv6 supplies DNS and domain search, and everything works including Android.
 
 **Servers are always static.** The same as IPv4, for the same reason.

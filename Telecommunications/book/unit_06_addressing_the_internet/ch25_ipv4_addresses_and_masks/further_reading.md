@@ -6,7 +6,7 @@
 Where the classes are defined. Read it to see how little space the design had to work
 with, and judge it accordingly.
 
-**RFC 950 — Mogul, J. & Postel, J. (1985). *Internet Standard Subnetting Procedure.***
+RFC 950 — Mogul, J. & Postel, J. (1985). *Internet Standard Subnetting Procedure.*
 The subnet mask as an explicit object. Eighteen pages, and the moment the class became
 redundant even though nobody said so for another eight years.
 
@@ -30,7 +30,7 @@ Links.***
 Three pages explaining why a /30 on a point-to-point link wastes half its addresses, and
 what to do instead. Widely supported and widely unused.
 
-**RFC 1918 — Rekhter, Y. et al. (1996). *Address Allocation for Private Internets.***
+RFC 1918 — Rekhter, Y. et al. (1996). *Address Allocation for Private Internets.*
 The private ranges. Chapter 27 covers them; read it here to see the classful fossil in
 `172.16.0.0/12` for yourself.
 
@@ -39,7 +39,7 @@ The private ranges. Chapter 27 covers them; read it here to see the classful fos
 **Stevens, W. R. (1994). *TCP/IP Illustrated, Volume 1*, chapter 3.**
 Addressing and masks, with the arithmetic worked properly.
 
-**Doyle, J. & Carroll, J. (2005). *Routing TCP/IP, Volume 1*, 2nd ed. Cisco Press.**
+Doyle, J. & Carroll, J. (2005). *Routing TCP/IP, Volume 1*, 2nd ed. Cisco Press.
 **The best treatment of addressing and subnetting for people who will configure real
 networks.** Chapter 2's binary and mask material is thorough, and the exercises are
 harder and better than most.
@@ -76,7 +76,7 @@ exactly that computation.
 
 **Lab 13** in this book's [labs/](../../../labs/) directory builds a deliberate mask
 mismatch between two hosts on one segment, captures the ARP traffic from both sides, and
-documents the asymmetric symptom set. **It is the fastest way to make §25.3 permanent.**
+documents the asymmetric symptom set. It is the fastest way to make §25.3 permanent.
 
 ## Practice, specifically
 
@@ -91,7 +91,7 @@ cases **speed matters more than method**. The path:
    writing binary.
 
 Step 3 is the one people skip, and skipping it produces someone who can pass an exam and
-cannot debug an unusual mask. **Do the binary first, then earn the shortcut.**
+cannot debug an unusual mask. Do the binary first, then earn the shortcut.
 
 ## For the certification-minded
 
@@ -102,14 +102,14 @@ named cause.
 Seven things worth over-learning:
 
 1. **The mask octet table**, cold.
-2. **Usable hosts = 2^h − 2**, and why.
-3. **Network address = all host bits zero; broadcast = all host bits one.**
+2. Usable hosts = 2^h − 2, and why.
+3. Network address = all host bits zero; broadcast = all host bits one.
 4. **The classful ranges**: A 1–126, B 128–191, C 192–223, D 224–239, E 240–255,
    **127 loopback**.
 5. **The three RFC 1918 ranges**, including `172.16.0.0/12` — and that `172.32.x.x` is
    **not** private, which is the standard distractor.
 6. **`169.254.x.x` means DHCP failed.**
-7. **A /30 gives two usable addresses** and is the point-to-point convention.
+7. A /30 gives two usable addresses and is the point-to-point convention.
 
 And the operational one that is worth more than several of those: **when connectivity is
 selective or one-way between hosts on the same segment, compare the masks first.** It

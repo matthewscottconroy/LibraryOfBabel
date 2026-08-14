@@ -3,7 +3,7 @@
 Ask any operations team what causes their outages and the honest answer, in
 organisation after organisation and industry after industry, is the same:
 
-**Most unplanned outages are caused by planned changes.**
+Most unplanned outages are caused by planned changes.
 
 Not hardware failure. Not attacks. Not capacity. Changes — made deliberately, by
 competent people, following a process, that turned out to have a consequence nobody
@@ -49,8 +49,8 @@ management support because their benefit is invisible and their cost is not.
 §55.2 covers the process, and takes seriously the objection that change control is
 bureaucracy — because badly implemented, it is.
 
-The distinguishing question for any element of a change process is: **does this reduce
-the probability of an unnoticed failure, or the time to recover from one?** Elements
+The distinguishing question for any element of a change process is: does this reduce
+the probability of an unnoticed failure, or the time to recover from one? Elements
 that do neither are ceremony.
 
 A change record that survives that test contains:
@@ -65,7 +65,7 @@ A change record that survives that test contains:
   plan reading "restore from backup" is not a plan until someone has timed it.
 - **The window**, and who is available.
 
-The last item deserves emphasis: **the rollback must be tested, not merely written.**
+The last item deserves emphasis: the rollback must be tested, not merely written.
 A great many rollback plans are discovered to be fiction at the moment they are
 needed, most commonly because the backup was never verified restorable or because the
 reversal requires a reboot nobody accounted for.
@@ -97,15 +97,15 @@ upgrading leaves known vulnerabilities in place, and network equipment vulnerabi
 are frequently pre-authentication and remotely exploitable — the class of defect that
 gets an organisation on the news. The defensible position is a defined policy: a
 regular maintenance cadence for routine updates, an expedited path for critical
-security fixes with a stated maximum delay, and — importantly — **not running the
-newest release** but the one that has been in the field long enough for its problems
+security fixes with a stated maximum delay, and — importantly — not running the
+newest release but the one that has been in the field long enough for its problems
 to have been found by someone else.
 
 ## Backups
 
 §55.4's central point is short and is the one people learn expensively:
 
-> **A backup you have not restored is not a backup. It is a hope with a filename.**
+> A backup you have not restored is not a backup. It is a hope with a filename.
 
 Configuration backups should be automatic, versioned, stored off the device, and
 restore-tested on a schedule. Version control is the natural home — the diff between

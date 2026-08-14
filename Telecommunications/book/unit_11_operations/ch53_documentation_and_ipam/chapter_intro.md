@@ -11,7 +11,7 @@ single highest-leverage operational investment available — because its entire 
 realised at exactly the moments when thinking is hardest and mistakes are most
 expensive.
 
-The framing that makes it worth doing: **documentation is a cache.** It is work
+The framing that makes it worth doing: documentation is a cache. It is work
 performed once, calmly, with the equipment in front of you and the reasoning fresh, so
 that it does not have to be performed repeatedly under pressure by people who lack
 that context. Like any cache it has a hit rate and a staleness problem, and both are
@@ -23,17 +23,17 @@ The most common documentation mistake is drawing one diagram containing everythi
 It becomes unreadable, it is impossible to keep current, and it answers no question
 well. The standard practice is three, each answering a different question.
 
-**The physical diagram (L1)** answers *what is plugged into what?* Devices, their
+The physical diagram (L1) answers *what is plugged into what?* Devices, their
 locations, ports, cable types and identifiers, patch panel positions, and the length
 and route of anything that leaves a room. This is the one you want at 03:14. It has no
 IP addresses on it and no VLANs; it is about copper, glass and rack units.
 
-**The logical diagram (L2)** answers *what talks to what, and in which segment?*
+The logical diagram (L2) answers *what talks to what, and in which segment?*
 VLANs, trunk links, spanning tree topology with the root bridge and blocked ports
 identified, link aggregation groups. This one may bear little resemblance to the
 physical layout, which is exactly Chapter 11 §11.3's point.
 
-**The routed diagram (L3)** answers *how does traffic get between segments?*
+The routed diagram (L3) answers *how does traffic get between segments?*
 Subnets and their prefixes, gateway addresses, routing protocols and areas, WAN
 circuits with their providers and reference numbers, firewalls and their zones.
 
@@ -53,7 +53,7 @@ purpose — purpose changes, location does not. A label reading `A-3-14 → B-1-
 still correct in five years; a label reading `Accounts printer` will be wrong within
 eighteen months and will actively mislead.
 
-**Port and patch records**, mapping wall outlet to patch panel position to switch
+Port and patch records, mapping wall outlet to patch panel position to switch
 port. This is the record that turns "which port is this device on" from a
 twenty-minute exercise into a lookup, and it is what makes port-based security and
 tracing practical.
@@ -110,7 +110,7 @@ technical skill in this book.
 - **The undocumented change** made during an incident and never recorded, which becomes
   the mystery in the next incident.
 - **Purpose-based labels** that go wrong silently when purposes change.
-- **The single point of knowledge** — one person who understands the addressing, the
+- The single point of knowledge — one person who understands the addressing, the
   firewall policy, or why that odd static route exists. This is an availability risk
   in the same category as a single power feed, and it should be treated as one.
 

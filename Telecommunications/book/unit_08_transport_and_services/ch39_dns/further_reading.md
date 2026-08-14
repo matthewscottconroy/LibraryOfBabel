@@ -2,44 +2,44 @@
 
 ## Primary sources
 
-**RFC 1034 — Mockapetris, P. (1987). *Domain Names — Concepts and Facilities.***
-**RFC 1035 — Mockapetris, P. (1987). *Domain Names — Implementation and Specification.***
+RFC 1034 — Mockapetris, P. (1987). *Domain Names — Concepts and Facilities.*
+RFC 1035 — Mockapetris, P. (1987). *Domain Names — Implementation and Specification.*
 **The specification, unchanged in its essentials for thirty-eight years.** RFC 1034 is the
-readable one — **read §2 for the design rationale**, which states the four HOSTS.TXT
+readable one — read §2 for the design rationale, which states the four HOSTS.TXT
 failures in the author's own words.
 
-**RFC 2181 — Elz, R. & Bush, R. (1997). *Clarifications to the DNS Specification.***
+RFC 2181 — Elz, R. & Bush, R. (1997). *Clarifications to the DNS Specification.*
 The corrections that fifteen years of implementation experience produced, including the
-CNAME and MX rules of §39.3. **Short, and it settles a great many arguments.**
+CNAME and MX rules of §39.3. Short, and it settles a great many arguments.
 
-**RFC 2308 — Andrews, M. (1998). *Negative Caching of DNS Queries.***
+RFC 2308 — Andrews, M. (1998). *Negative Caching of DNS Queries.*
 Why a newly-created record does not work immediately. Four pages.
 
 **RFC 6891 — Damas, J., Graff, M. & Vixie, P. (2013). *Extension Mechanisms for DNS
 (EDNS0).***
 Escaping the 512-byte limit — and read **RFC 9715 (2025)** alongside it, which recommends
-retreating to ~1,232 bytes because of fragmentation. **The two together are a complete arc.**
+retreating to ~1,232 bytes because of fragmentation. The two together are a complete arc.
 
-**RFC 4033 / 4034 / 4035 — Arends, R. et al. (2005). *DNS Security Extensions.***
+RFC 4033 / 4034 / 4035 — Arends, R. et al. (2005). *DNS Security Extensions.*
 DNSSEC. **RFC 4033 is the overview** and is the one to read; the others are for
 implementers.
 
 **RFC 7858 (DoT) and RFC 8484 (DoH).**
-Encrypted transport. **RFC 8484's §8 on privacy considerations** is the honest treatment of
+Encrypted transport. RFC 8484's §8 on privacy considerations is the honest treatment of
 what DoH does and does not achieve, written by its authors.
 
 **RFC 9460 — Schwartz, B., Bishop, M. & Nygren, E. (2023). *Service Binding and Parameter
 Specification via the DNS (SVCB and HTTPS RRs).***
-**The standard answer to the apex-CNAME problem**, plus protocol hints that save a round
+The standard answer to the apex-CNAME problem, plus protocol hints that save a round
 trip. Worth knowing about; adoption is now substantial.
 
-**Kaminsky, D. (2008). "Black Ops 2008: It's The End Of The Cache As We Know It."**
+Kaminsky, D. (2008). "Black Ops 2008: It's The End Of The Cache As We Know It."
 Black Hat presentation. The attack, explained by its discoverer, after the coordinated
-patch. **The disclosure timeline is as instructive as the attack.**
+patch. The disclosure timeline is as instructive as the attack.
 
 ## Books
 
-**Liu, C. & Albitz, P. (2006). *DNS and BIND*, 5th ed. O'Reilly.**
+Liu, C. & Albitz, P. (2006). *DNS and BIND*, 5th ed. O'Reilly.
 **The reference.** Dated in its BIND specifics and correct in everything conceptual. The
 zone-file, delegation and troubleshooting chapters are the best available treatment.
 
@@ -120,7 +120,7 @@ misconfigured resolver on an isolated network.
 
 ## For the certification-minded
 
-**Objective 1.6 is DNS and it is examined heavily** — record types especially. Objective
+Objective 1.6 is DNS and it is examined heavily — record types especially. Objective
 4.2 expects DNS poisoning.
 
 **The record types are the largest memorisation item:**
@@ -139,11 +139,11 @@ misconfigured resolver on an isolated network.
 
 Six more things worth over-learning:
 
-1. **DNS uses UDP/53, and TCP/53 for large responses and zone transfers.**
+1. DNS uses UDP/53, and TCP/53 for large responses and zone transfers.
 2. **The stub asks recursively; the resolver queries iteratively.**
 3. **Root → TLD → authoritative.**
-4. **TTL controls caching**, and **lower it before a migration, not during.**
-5. **A zone is what a server is authoritative for; a domain is the whole subtree.**
+4. **TTL controls caching**, and lower it before a migration, not during.
+5. A zone is what a server is authoritative for; a domain is the whole subtree.
 6. **DNSSEC provides authenticity and integrity, not confidentiality.**
 
 The most-missed items are **the MX preference direction** (lower wins) and
@@ -151,10 +151,10 @@ The most-missed items are **the MX preference direction** (lower wins) and
 
 And the three operational facts worth more than the objective:
 
-**`ping 8.8.8.8` works and `ping google.com` does not** — this is DNS, it is one of the
+`ping 8.8.8.8` works and `ping google.com` does not — this is DNS, it is one of the
 commonest reported "network" faults, and two commands identify it.
 
-**Lower the TTL before the change and wait out the old one.** Forgetting this turns a
+Lower the TTL before the change and wait out the old one. Forgetting this turns a
 five-minute migration into an eight-hour one.
 
 **Use two DNS providers for anything that matters.** Dyn 2016 is the argument, and it is

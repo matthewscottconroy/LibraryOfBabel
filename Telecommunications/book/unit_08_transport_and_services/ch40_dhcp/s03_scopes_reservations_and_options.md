@@ -5,7 +5,7 @@ option catalogue is how a great deal of enterprise infrastructure is quietly con
 
 ## The scope
 
-**A scope is one subnet's pool**, plus everything a client on it should be told.
+A scope is one subnet's pool, plus everything a client on it should be told.
 
 ```
    Subnet:        10.1.5.0/24
@@ -19,8 +19,8 @@ option catalogue is how a great deal of enterprise infrastructure is quietly con
    Lease:         8 days
 ```
 
-**The layout follows Chapter 27 §27.4's convention**, and the reason for the exclusions is
-the same: **a DHCP pool must not overlap anything assigned by hand.**
+The layout follows Chapter 27 §27.4's convention, and the reason for the exclusions is
+the same: a DHCP pool must not overlap anything assigned by hand.
 
 **Which is the single most common DHCP misconfiguration.** A server given a static address
 inside the pool will eventually collide with a leased client — **and the failure is
@@ -54,7 +54,7 @@ static range and any new static device must be squeezed in.
 
 > **The device is configured for DHCP. The *server* guarantees which address it gets.**
 
-**This is almost always better than configuring the device statically**, and the reason is
+This is almost always better than configuring the device statically, and the reason is
 management:
 
 | | Static on the device | DHCP reservation |
@@ -73,7 +73,7 @@ routers, and anything that must work when DHCP does not.
 
 **Two cautions:**
 
-**A reservation must be inside a range the server controls**, and platforms differ on
+A reservation must be inside a range the server controls, and platforms differ on
 whether it may be inside the dynamic pool. **Keeping reservations in their own excluded
 block is cleaner** and avoids the question.
 
@@ -105,10 +105,10 @@ do not rely on reservations.
 
 ### Option 55 explains a common confusion
 
-**The client sends a list of what it wants; the server returns only those.**
+The client sends a list of what it wants; the server returns only those.
 
-**So an option configured on the server may never reach a device** — because that device
-never asked for it. **`ipconfig getpacket` on macOS or a capture is how you find out**, and
+So an option configured on the server may never reach a device — because that device
+never asked for it. `ipconfig getpacket` on macOS or a capture is how you find out, and
 "the option is configured but the phone does not have it" is usually this.
 
 ### Options 43 and 60 — how devices self-configure
@@ -133,7 +133,7 @@ format the vendor defines.
 > **This is why an access point unboxed and plugged in finds its controller.** The switch
 > port gives it a VLAN, DHCP gives it an address and option 43 tells it where to go.
 
-**And it is why "the new AP will not join" is usually a DHCP question**, not a wireless one.
+And it is why "the new AP will not join" is usually a DHCP question, not a wireless one.
 
 ### Option 121 — classless static routes
 
@@ -142,18 +142,18 @@ format the vendor defines.
 **DHCP gives one default gateway (option 3).** A client needing an additional route — to a
 VPN range, a management network, a partner subnet — has no way to learn it.
 
-**Option 121 supplies a list of prefix-and-gateway pairs**, so a client can be given
+Option 121 supplies a list of prefix-and-gateway pairs, so a client can be given
 specific routes alongside its default.
 
 **Two cautions:**
 
-**RFC 3442 says that if option 121 is present, option 3 should be ignored** — so a static
+RFC 3442 says that if option 121 is present, option 3 should be ignored — so a static
 route list must include the default route explicitly, or the client will have none. **This
 catches people.**
 
 **Support varies.** Windows and Linux honour it; some embedded devices do not.
 
-**Option 249 is Microsoft's pre-standard equivalent**, and many servers are configured to
+Option 249 is Microsoft's pre-standard equivalent, and many servers are configured to
 send both.
 
 ## Failover and redundancy
@@ -176,13 +176,13 @@ its share.
 **The conventional split is 80/20** — the primary holds most of the pool and the secondary
 enough to cover an outage.
 
-**Simple, requires no coordination, and wastes pool capacity**: neither server can use the
+Simple, requires no coordination, and wastes pool capacity: neither server can use the
 other's addresses, so the effective pool is smaller than the range.
 
 ### DHCP failover — the proper approach
 
-**RFC 3074's protocol, implemented by ISC DHCP, Kea and Windows Server.** The two servers
-**share the pool and synchronise lease state**, so either can serve any address and both
+RFC 3074's protocol, implemented by ISC DHCP, Kea and Windows Server. The two servers
+share the pool and synchronise lease state, so either can serve any address and both
 know what is leased.
 
 | Mode | Behaviour |
@@ -195,11 +195,11 @@ clients.
 
 ### The Kea model
 
-**ISC's replacement for the original ISC DHCP server**, which reached end of life in 2022.
-**Kea stores leases in a database** — MySQL, PostgreSQL, or memory — which makes redundancy
+ISC's replacement for the original ISC DHCP server, which reached end of life in 2022.
+Kea stores leases in a database — MySQL, PostgreSQL, or memory — which makes redundancy
 a database problem rather than a protocol one, and makes the lease table queryable.
 
-**Worth knowing about if you are choosing a server today**, because ISC DHCP is no longer
+Worth knowing about if you are choosing a server today, because ISC DHCP is no longer
 maintained and a great deal of documentation still assumes it.
 
 ## Configuration, concretely
@@ -241,7 +241,7 @@ an IOS quirk that catches people.
 
 ## Monitoring
 
-**DHCP's slow failure mode (§40.2) means it needs deliberate monitoring**, because nobody
+DHCP's slow failure mode (§40.2) means it needs deliberate monitoring, because nobody
 notices for hours.
 
 **What to watch:**
@@ -254,7 +254,7 @@ notices for hours.
 | **Lease churn** | a spike suggests something is looping |
 | **Rogue server detection** | §40.4 |
 
-**Pool utilisation deserves an alert at 80%**, because the remedy — widening the pool or
+Pool utilisation deserves an alert at 80%, because the remedy — widening the pool or
 shortening the lease — takes planning, and the failure is total for new clients.
 
 ## What breaks here

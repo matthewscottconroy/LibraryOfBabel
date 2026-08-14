@@ -56,7 +56,7 @@ circuit for bursty data traffic was wasteful, and moved to statistical multiplex
 3G is where the mobile Internet begins, and where the industry's revenue model began
 its shift from minutes to bytes.
 
-**4G / LTE (2009–)** — **all-IP**. The circuit-switched voice core is removed
+4G / LTE (2009–) — **all-IP**. The circuit-switched voice core is removed
 entirely; voice becomes VoLTE, an application over IP, exactly like everything else.
 OFDMA (Chapter 8 §8.4) replaces CDMA on the air interface. This is convergence
 (Chapter 14 §14.4) completed for mobile: after a century, the telephone network has

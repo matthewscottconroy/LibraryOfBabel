@@ -4,11 +4,11 @@
 ICMP, published alongside RFC 791 (IP) and never revised.
 
 **The design decision worth noting** is the one in §34.1: an error message carries the
-offending packet's IP header **plus the first 8 bytes of payload**. That number is not
+offending packet's IP header plus the first 8 bytes of payload. That number is not
 arbitrary — it is exactly enough to include a TCP or UDP port pair, and therefore exactly
 enough for the sender to attribute the error to a socket.
 
-**It is a layer violation, chosen deliberately, in 1981**, because the alternative was an
+It is a layer violation, chosen deliberately, in 1981, because the alternative was an
 error channel whose messages could not be acted upon. Chapter 21 §21.4's argument that
 violations happen where the boundary costs more than it is worth, in its earliest form.
 
@@ -19,7 +19,7 @@ He named it after sonar: emit a pulse, listen for the echo, and the delay tells 
 distance. **The backronym "Packet InterNet Groper" was applied later by someone else, and
 he disliked it.**
 
-**His own account is characteristically unpretentious** — he wanted to find out where the
+His own account is characteristically unpretentious — he wanted to find out where the
 packets were going, wrote a small program, and thought no more about it. It has shipped
 with every operating system since, and is plausibly the most-executed network program in
 history.
@@ -31,13 +31,13 @@ essential infrastructure began as somebody solving their own immediate problem.
 **Van Jacobson (b. 1950).** **`traceroute`**, 1987, and it is his third appearance in this
 book after TCP congestion control (Chapter 38) and header compression (Chapter 21).
 
-**The insight is the reason it belongs in a chapter about diagnostics:** TTL existed as a
+The insight is the reason it belongs in a chapter about diagnostics: TTL existed as a
 safety mechanism to contain loops (Chapter 24 §24.4), and Jacobson noticed it could be
 used as a **probe** — that deliberately causing a failure at a controlled distance and
 reading the complaint would map the path.
 
 **Nobody had done it because TTL was understood as protection rather than as an
-instrument.** The recurring pattern in Jacobson's work is that he **builds the measuring
+instrument. The recurring pattern in Jacobson's work is that he builds the measuring
 device first**, and the understanding follows from what it shows: `traceroute`, `tcpdump`,
 `pathchar`, and the instrumentation that led to the congestion-control work.
 
@@ -74,10 +74,10 @@ behaving well would be broken by middleboxes.
 **Ed Davies and Janos Mohacsi.** **RFC 4890** (2007), *Recommendations for Filtering ICMPv6
 Messages in Firewalls*.
 
-**The document exists because people kept breaking IPv6** by applying IPv4 firewall habits
+The document exists because people kept breaking IPv6 by applying IPv4 firewall habits
 to a protocol where ICMP is load-bearing. It lists, type by type, what must pass and why.
 
-**It is the most useful firewall document in this book**, and the fact that it needed to be
+It is the most useful firewall document in this book, and the fact that it needed to be
 written is a comment on how deeply the "block all ICMP" reflex was embedded.
 
 **Steve Bellovin (b. 1951).** For the counter-argument, made carefully. His work with
@@ -94,6 +94,6 @@ comes up in your own organisation.
 traceroute into something that answers a question neither could: **is this hop actually
 losing traffic, or is it merely declining to talk about itself?**
 
-**The per-hop loss column, read with §34.3's rule**, resolves more false alarms than any
+The per-hop loss column, read with §34.3's rule, resolves more false alarms than any
 other single piece of output in network operations. **A modest tool that removed a whole
 category of wasted effort.**

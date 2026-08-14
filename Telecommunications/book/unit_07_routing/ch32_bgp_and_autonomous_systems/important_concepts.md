@@ -80,7 +80,7 @@ router, applied to iBGP. Peer on **loopbacks** so a session survives any single 
 failure.
 
 The four load-bearing configuration lines *(§32.2)* — **outbound prefix-list** (the
-single most important line in BGP), **inbound prefix-list**, **`maximum-prefix`**, and
+most important line in BGP), **inbound prefix-list**, **`maximum-prefix`**, and
 **`next-hop-self`** — without which iBGP routes are present and unusable.
 
 **Transit versus peering** *(§32.3)* — **Transit**: one pays, and receives **everything**.

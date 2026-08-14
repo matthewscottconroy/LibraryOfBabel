@@ -46,7 +46,7 @@ streams and maximum channel width. Chapter 4 §4.4 and Chapter 3 §3.1 both expl
 why real throughput is 40–60% of it at best, and a two-stream laptop on an 80 MHz
 channel gets a fraction of a number quoted for an eight-stream access point on 320
 MHz. §44.1 does the arithmetic explicitly, because the gap between the box and the
-measurement is the single most common source of "faulty" wireless equipment.
+measurement is the most common source of "faulty" wireless equipment.
 
 ## Why CSMA/CA and not CSMA/CD
 

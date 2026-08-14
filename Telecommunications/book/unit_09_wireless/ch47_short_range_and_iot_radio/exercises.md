@@ -14,7 +14,7 @@ principle behind BLE's battery life.
 
 **A5.** State the frame size, data rate and bands of IEEE 802.15.4.
 
-**A6.** Give the single most significant architectural difference between Zigbee and Thread.
+**A6.** Give the most significant architectural difference between Zigbee and Thread.
 
 **A7.** What is Matter, in one sentence, and name the transports it runs over.
 

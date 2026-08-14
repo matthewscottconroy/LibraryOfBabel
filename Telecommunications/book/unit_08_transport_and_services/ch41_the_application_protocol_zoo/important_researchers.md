@@ -65,7 +65,7 @@ everywhere.
 
 SMTP's store-and-forward design was right for its era — intermittently connected hosts,
 relaying through intermediates — and its complete absence of sender authentication is the
-single most expensive omission in this book. Every anti-spam mechanism since is a
+most expensive omission in this book. Every anti-spam mechanism since is a
 retrofit onto a protocol that assumes the sender is honest.
 
 **Marshall Rose (b. 1961).** **POP3** and **SNMP** — Chapter 22's notes cover his OSI work.

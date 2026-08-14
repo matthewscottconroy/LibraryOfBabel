@@ -96,7 +96,7 @@ will feel uncomfortably familiar.
 
 ## Tools that support the method
 
-**A scratch file.** The single most valuable tool in this chapter (§63.4), and it is a text
+**A scratch file.** The most valuable tool in this chapter (§63.4), and it is a text
 editor.
 
 **`script`** (Unix) — records an entire terminal session to a file, including timestamps with

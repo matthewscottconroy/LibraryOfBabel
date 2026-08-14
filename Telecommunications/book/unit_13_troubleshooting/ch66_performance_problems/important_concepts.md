@@ -7,7 +7,7 @@ adding bandwidth addresses one of the three.
 
 Run the ping while the throughput test runs *(§66.1, §66.4)* — Latency on an idle link is
 the propagation; latency under load is the queueing, and the difference between the two is
-the single most informative measurement in this chapter.
+the most informative measurement in this chapter.
 
 A 64 KB window on an 80 ms path gives 6.6 Mb/s on a 10 Gb/s link *(§66.1)* — The window,
 not the link. Adding bandwidth changes nothing.

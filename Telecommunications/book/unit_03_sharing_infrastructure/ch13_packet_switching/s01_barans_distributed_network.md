@@ -149,7 +149,7 @@ on requirements before design is this, in miniature.
 
 **Modest redundancy in the right topology beats extensive redundancy in the wrong
 one.** Three or four links per node, distributed, beats a heavily protected
-hierarchy. This is the single most useful result in the reports and it is directly
+hierarchy. This is the most useful result in the reports and it is directly
 applicable to designing any network today.
 
 **A technically sound proposal that requires an incumbent to obsolete itself will be

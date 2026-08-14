@@ -195,7 +195,7 @@ When the four measurements are all good and users still complain:
 | **The client** | CPU, disk, other software |
 | **A captive portal** | expired session |
 
-> The single most useful diagnostic is: does it happen on the wired network too? If yes,
+> The most useful diagnostic is: does it happen on the wired network too? If yes,
 > wireless is exonerated in one test, and the search moves to where the problem actually is.
 
 ## What breaks here

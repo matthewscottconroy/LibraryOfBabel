@@ -79,7 +79,7 @@ centre turning over £40,000 an hour, the same step saves £315,000 and is obvio
 
 > The number that decides the design is the cost of an hour, and it is a business figure
 > rather than a technical one. **An engineer who designs without it is guessing**, and asking
-> for it is the single most useful question at the start of an availability discussion.
+> for it is the most useful question at the start of an availability discussion.
 
 Frequently the correct answer is three nines with a fast, rehearsed recovery, and saying so
 is better engineering than delivering four nines that nobody needed.

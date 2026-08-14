@@ -6,7 +6,7 @@ twenty minutes is expensive.
 
 ## Labelling: encode location, not purpose
 
-The single most important rule in this section, and it is counter-intuitive.
+The most important rule in this section, and it is counter-intuitive.
 
 > **Label by location. Never by purpose.**
 
@@ -82,7 +82,7 @@ And it is what makes several other things practical:
 - **Decommissioning** — finding and reclaiming the ports of removed equipment, which otherwise
   never happens
 
-> The MAC-address-table-to-physical-outlet path is the single most common operational
+> The MAC-address-table-to-physical-outlet path is the most common operational
 > lookup in an access network, and this record is what makes it possible without walking.
 
 ## Rack elevations

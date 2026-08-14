@@ -98,7 +98,7 @@ difference between five minutes and two hours.
 
 **FRRouting or BIRD in containers**, for a lab. **Exercise F3** — three ASes, implement
 the valley-free rule with communities, then deliberately leak and watch it be prevented —
-is the single most instructive BGP exercise available, and it costs nothing.
+is the most instructive BGP exercise available, and it costs nothing.
 
 **Lab 20** in this book's [labs/](../../../labs/) directory builds a five-AS topology with
 customer, peer and provider relationships, implements valley-free policy, then stages both

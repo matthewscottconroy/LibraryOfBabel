@@ -105,7 +105,7 @@ clearly.
 Exercises 13.9–13.11 and for watching the multiplexing gain grow with population
 size.
 
-**`simnet.py queue`** — the ρ/(1−ρ) table, which is the single most useful output in
+**`simnet.py queue`** — the ρ/(1−ρ) table, which is the most useful output in
 the toolset for capacity-planning conversations.
 
 ## For the certification-minded

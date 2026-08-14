@@ -10,7 +10,7 @@ order avoids the common failure of choosing a medium and then justifying it.
 
 ### 1. How far?
 
-The single most eliminating question, because distance limits are hard.
+The most eliminating question, because distance limits are hard.
 
 | Distance | What survives |
 |---|---|

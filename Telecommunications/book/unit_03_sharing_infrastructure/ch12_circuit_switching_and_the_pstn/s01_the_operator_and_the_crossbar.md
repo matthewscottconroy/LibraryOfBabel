@@ -145,7 +145,7 @@ prefigures the dynamic routing of Chapter 31 by decades.
 
 ## The local loop, and why it still matters
 
-The dedicated pair from the exchange to the premises is the single most
+The dedicated pair from the exchange to the premises is the most
 consequential piece of infrastructure in this book, for a reason that has nothing
 to do with telephony.
 

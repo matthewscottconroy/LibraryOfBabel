@@ -81,7 +81,7 @@ principles. Freely available online.
 ## Applied
 
 **Capture a complete connection** (exercise F1). Handshake, data, teardown. **Annotate every
-packet by hand and verify the `+1` rules for SYN and FIN. This is the single most
+packet by hand and verify the `+1` rules for SYN and FIN. This is the most
 valuable exercise in the chapter**, and it takes twenty minutes.
 
 ```bash

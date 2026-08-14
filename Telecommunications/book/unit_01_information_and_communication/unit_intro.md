@@ -26,7 +26,7 @@ Chapter 2 builds the bit from nothing: what it means for information to be
 *counted*, why binary is not an arbitrary convention, and why hexadecimal exists
 even though nobody has sixteen fingers. Chapter 3 gives us the measurements —
 bandwidth, throughput, latency, jitter, loss — and, more importantly, teaches us
-to stop confusing them, because the single most common error in network
+to stop confusing them, because the most common error in network
 diagnosis is treating a latency problem as a bandwidth problem and buying a
 bigger pipe that changes nothing.
 

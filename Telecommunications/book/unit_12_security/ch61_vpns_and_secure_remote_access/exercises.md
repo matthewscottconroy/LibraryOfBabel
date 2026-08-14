@@ -35,7 +35,7 @@ prefer.
 **A15.** Why is a full-tunnel deployment approximately six times the bandwidth of a split-tunnel
 one?
 
-**A16.** What is the single commonest initial access route into organisations with a VPN?
+**A16.** What is the commonest initial access route into organisations with a VPN?
 
 ## B. Apply
 

@@ -43,7 +43,7 @@ the collector route messages sensibly.
 
 ## Centralise
 
-The single most important thing in this section.
+The most important thing in this section.
 
 ```
    Without central logging:              With:

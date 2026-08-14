@@ -105,8 +105,7 @@ RIP's hop count is the clearest illustration of why a metric can be wrong.
 ```
 
 **RIP chooses the satellite link.** One hop beats three, and RIP cannot see that one hop
-is fifteen thousand times slower. Chapter 31 §31.1 develops this; it is the single
-strongest argument against distance-vector metrics and it is why OSPF's cost is derived
+is fifteen thousand times slower. Chapter 31 §31.1 develops this; it is the strongest argument against distance-vector metrics and it is why OSPF's cost is derived
 from bandwidth.
 
 **OSPF's cost** is, by default:

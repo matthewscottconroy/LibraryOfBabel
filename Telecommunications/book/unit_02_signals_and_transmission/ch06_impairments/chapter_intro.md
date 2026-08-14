@@ -91,7 +91,7 @@ how maximum cable lengths are actually derived.
 noise sources that dominate in practice.
 
 §6.3 covers distortion and dispersion, deriving intersymbol interference properly
-and explaining eye diagrams — the single most informative measurement in
+and explaining eye diagrams — the most informative measurement in
 high-speed signalling.
 
 §6.4 covers crosstalk and interference, including why twisting works, what NEXT

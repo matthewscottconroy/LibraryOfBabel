@@ -267,7 +267,7 @@ cheapest possible check.
 
 **TLS inspection.** An enterprise middlebox decrypting traffic must install its own root CA
 on every client and issue certificates on the fly. It works, it breaks certificate
-pinning, and it makes the inspection device the single most security-critical thing on the
+pinning, and it makes the inspection device the most security-critical thing on the
 network — because it holds a key that can impersonate any site.
 
 ## What breaks here

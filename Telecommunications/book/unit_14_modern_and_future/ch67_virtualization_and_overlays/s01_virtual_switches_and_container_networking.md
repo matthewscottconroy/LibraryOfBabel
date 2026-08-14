@@ -37,7 +37,7 @@ it has ACLs, it counts traffic, and it is configured.
 
 > Two virtual machines on the same host communicating with each other generate traffic that
 > never reaches a physical switch, a physical cable, or any monitoring you have deployed
-> (Chapter 54 §54.4). The visibility gap this creates is the single most important operational
+> (Chapter 54 §54.4). The visibility gap this creates is the most important operational
 > consequence of virtualisation for a network engineer.
 
 And it is why microsegmentation (Chapter 60 §60.4) is enforced at the virtual switch:

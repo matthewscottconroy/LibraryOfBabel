@@ -21,7 +21,7 @@ interactive application on it has become unusable — video calls break up, SSH 
 unbearable, web pages take seconds to start, and the user says "the internet is slow" while a
 speed test reports full rate.
 
-That gap between idle and loaded latency is bufferbloat, and it is the single most common
+That gap between idle and loaded latency is bufferbloat, and it is the most common
 unrecognised performance fault on consumer and small-branch links.
 
 ## Why it happens
@@ -152,7 +152,7 @@ choice at a rate-limited edge.
 The `bandwidth` parameter is the shaper (Chapter 52 §52.3): set it to about 95% of the
 actual rate, so the queue forms in your device rather than in the carrier's.
 
-> One line, and it is the single most effective networking configuration change available to
+> One line, and it is the most effective networking configuration change available to
 > most people. A domestic connection going from 800 ms of loaded latency to 15 ms is
 > routine, and **almost nobody makes it.**
 

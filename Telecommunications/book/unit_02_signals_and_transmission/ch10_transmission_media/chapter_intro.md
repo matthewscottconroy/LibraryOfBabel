@@ -49,7 +49,7 @@ three-phase machinery in it, and the budget is limited" — and the answer requi
 you to weigh distance against interference against cost against future-proofing
 against who will terminate it.
 
-The single most common failure in that decision, worth flagging before we start:
+The most common failure in that decision, worth flagging before we start:
 **installation cost dominates material cost, and material cost dominates the
 difference between cable grades.** The labour to pull a cable through a building is
 the same whether the cable is Cat5e or Cat6a. The difference in material cost is a

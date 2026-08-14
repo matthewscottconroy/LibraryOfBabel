@@ -33,7 +33,7 @@ The recurring shape throughout this book: a sound protocol with a permitted down
 on a battery, and about 102 payload bytes after MAC header and security. Every design
 decision in Zigbee and Thread follows from that number.
 
-Choosing 802.15.4 channel 15, 20, 25 or 26 is the single most effective reliability
+Choosing 802.15.4 channel 15, 20, 25 or 26 is the most effective reliability
 measure *(§47.2)* — They sit between Wi-Fi 1, 6 and 11. More effective than any other
 change you can make in a building with Wi-Fi.
 

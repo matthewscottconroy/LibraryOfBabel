@@ -1,7 +1,7 @@
 # 9.4 Code-Division and Wavelength-Division Multiplexing
 
 Two remaining techniques. One divides by a mathematical property rather than a
-physical one; the other is FDM applied to light and is the single most economically
+physical one; the other is FDM applied to light and is the most economically
 important multiplexing technology in existence.
 
 ## Code-division multiplexing
@@ -75,7 +75,7 @@ Two caveats worth stating, because the story is often inflated. Frequency hoppin
 **not** the same thing as CDMA — hopping is a spread-spectrum technique, and
 direct-sequence CDMA is a different one, though both fall under the spread-spectrum
 family. And the patent was one of several contemporaneous ideas rather than a
-uniquely originating one. What is genuinely remarkable is that two people entirely
+uniquely originating one. What is remarkable is that two people entirely
 outside the field produced a sound and well-specified design that the professionals
 ignored, and that the pattern of ignoring it took fifty years to correct.
 
@@ -129,7 +129,7 @@ the terminal electronics are a small fraction of it.
 
 WDM means a fibre laid in 2001 for 10 Gb/s carries 38 Tb/s today **with no change to
 the glass** — only the equipment at the ends. That is a capacity increase of nearly
-four thousand times on infrastructure already paid for, and it is the single largest
+four thousand times on infrastructure already paid for, and it is the largest
 reason bandwidth prices collapsed between 1995 and 2015.
 
 It is also why "just lay more fibre" is rarely the answer to a capacity problem:

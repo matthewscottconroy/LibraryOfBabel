@@ -101,7 +101,7 @@ argument empirical rather than asserted.
 Objective 2.4 expects frequency bands, channels and interference, and this chapter is
 examined heavily.
 
-The single most certain question: how many non-overlapping channels are there in
+The most certain question: how many non-overlapping channels are there in
 2.4 GHz? Three — 1, 6 and 11.
 
 Eight more things worth over-learning:

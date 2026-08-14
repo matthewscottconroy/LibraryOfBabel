@@ -67,7 +67,7 @@ denominator and is the honest measure in any shared medium.
 
 **Shannon–Hartley theorem** *(§4.4)* — *C* = *B* log₂(1 + SNR) bits per second.
 Below *C*, arbitrarily reliable communication is achievable; above it, impossible.
-The single most important formula in telecommunications.
+The most important formula in telecommunications.
 
 **Linear in bandwidth, logarithmic in SNR** *(§4.4)* — The formula's key structural
 fact. Doubling bandwidth roughly doubles capacity; doubling power (+3 dB) buys one

@@ -7,7 +7,7 @@ An address plan is a document. It is a durable artefact that will outlive the
 person who wrote it, that will be consulted by people who were not in the room, and
 that — if it is any good — will still make sense when the organisation has three
 times as many sites and a cloud presence that nobody anticipated. Producing one is
-the deliverable of Week 6 of the semester project, and it is the single most
+the deliverable of Week 6 of the semester project, and it is the most
 common piece of design work a network engineer is actually asked to do.
 
 ## Private space, and the RFC that shaped the modern Internet
@@ -107,7 +107,7 @@ project will be graded against:
 
 The convention that matters most and is most often skipped: **leave gaps
 deliberately.** A plan that packs subnets perfectly against each other has no room
-for the site that grows, and renumbering a live subnet is a genuinely disruptive
+for the site that grows, and renumbering a live subnet is a disruptive
 operation. Space in 10/8 is free; disruption is not.
 
 ## By the end you will be able to

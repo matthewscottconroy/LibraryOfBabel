@@ -214,7 +214,7 @@ dig +trace www.example.com
 ```
 
 **This performs the iterative walk step by step and prints every referral.** It is the
-single most instructive DNS command, and running it once makes this whole section
+most instructive DNS command, and running it once makes this whole section
 concrete.
 
 ## The size problem

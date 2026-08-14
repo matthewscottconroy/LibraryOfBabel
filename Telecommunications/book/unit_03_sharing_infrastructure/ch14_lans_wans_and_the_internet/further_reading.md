@@ -4,7 +4,7 @@
 
 **Clark, D. D. (1988). "The Design Philosophy of the DARPA Internet Protocols."
 *ACM SIGCOMM Computer Communication Review* 18(4): 106–114.**
-**The single most useful document in this chapter's reading list.** Clark lists the
+**The most useful document in this chapter's reading list.** Clark lists the
 architecture's goals in priority order — survivability first, accountability last —
 and explains what was traded for what. Eight pages, no mathematics, and it explains
 more about why the Internet is bad at the things it is bad at than any other source.
@@ -99,7 +99,7 @@ genuinely unsolved problem in many jurisdictions.
 **Trace your own organisation's traffic.** Chapter 54 §54.4's flow data, aggregated
 by destination, answers §14.3's design question — *where does the traffic actually
 go* — and the answer is frequently not what the network was designed for. This is
-the single most useful exercise in the chapter.
+the most useful exercise in the chapter.
 
 **`perfcalc.py latency`** in this book's [tools/](../../../tools/) directory, for
 exercise B1 of Chapter 14's round-trip arithmetic.

@@ -113,12 +113,12 @@ Where most exploitation actually happens, and it is largely outside this book's 
 with three exceptions that are squarely networking.
 
 **DNS** (Chapter 39). Cache poisoning, hijacked registrar accounts, and DNS as an
-exfiltration channel. DNS is the single most attractive target in the stack, because
+exfiltration channel. DNS is the most attractive target in the stack, because
 controlling name resolution controls where traffic goes, without touching routing.
 
 **Credential attacks against network services.** SSH, RDP, VPN portals and management
 interfaces facing the Internet, attacked continuously by §57.1's opportunists. MFA is the
-single most effective control available, and it is the one that most reliably prevents the
+most effective control available, and it is the one that most reliably prevents the
 initial access step of §57.1's ransomware chain.
 
 **Protocol abuse of management planes.** SNMP with default communities (Chapter 54 §54.2),
@@ -184,7 +184,7 @@ where the compromised laptop is.
 **BCP 38 not deployed.** You are contributing to everyone else's problem, and it is
 inexpensive.
 
-**Management interfaces on public addresses.** The single largest opportunistic exposure,
+**Management interfaces on public addresses.** The largest opportunistic exposure,
 and it is found within minutes.
 
 **A control deployed with no detection.** You are trusting it. Instrument it.

@@ -50,7 +50,7 @@ capacity than before; find it.
 grows ten times more slowly than a 20 ms one. CUBIC's growth depends on elapsed time, so
 a long path recovers at the same wall-clock rate as a short one.
 
-> **CUBIC removed TCP's structural bias against long paths**, which is the single most
+> **CUBIC removed TCP's structural bias against long paths**, which is the most
 > important thing about it.
 
 **It is still loss-based.** CUBIC infers congestion from loss exactly as Reno does — it

@@ -1,6 +1,6 @@
 # 12.2 Digitisation and the T-Carrier
 
-The single largest improvement in the telephone network's history, and the source
+The largest improvement in the telephone network's history, and the source
 of numbers that still appear in carrier contracts.
 
 ## The problem digitisation solved

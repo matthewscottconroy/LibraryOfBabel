@@ -71,7 +71,7 @@ subnets, route tables, gateways and security groups — which are Chapters 26, 2
 under different names, and recognising that is the fastest way to learn them; hybrid
 connectivity; and cloud-native load balancing and service mesh.
 
-Chapter 70 — Automation and Infrastructure as Code. Why the CLI does not scale;
+**Chapter 70 — Automation and Infrastructure as Code.** Why the CLI does not scale;
 APIs, NETCONF, RESTCONF, YANG and gNMI; Ansible and Terraform and declarative state;
 CI/CD for network configuration; and an honest assessment of AIOps.
 

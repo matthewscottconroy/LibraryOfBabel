@@ -57,7 +57,7 @@ A server whose web service has crashed pings perfectly.
 "the host is down" is long: a firewall dropping ICMP (extremely common, and the
 default on Windows hosts not joined to a domain); a router rate-limiting ICMP; a
 security policy prohibiting echo; a host configured not to respond. **"It doesn't
-ping" is not a diagnosis**, and treating it as one is the single most common
+ping" is not a diagnosis**, and treating it as one is the most common
 beginner error in network troubleshooting.
 
 The corollary that experienced engineers internalise: prefer a test that exercises
@@ -122,7 +122,7 @@ maddening:
 > the body never does. `ping` works; `ping -s 1400` does not.
 
 The cause is almost always a firewall administrator who blocked all ICMP on the
-theory that ICMP is a security risk. It is a genuinely bad idea, it is still
+theory that ICMP is a security risk. It is a bad idea, it is still
 extremely common, and RFC 4890 exists specifically to tell people which ICMP types
 must be permitted. For IPv6 it is worse, because IPv6 removed router fragmentation
 entirely (Chapter 24 §24.3) and therefore *depends* on ICMPv6 Packet Too Big — a

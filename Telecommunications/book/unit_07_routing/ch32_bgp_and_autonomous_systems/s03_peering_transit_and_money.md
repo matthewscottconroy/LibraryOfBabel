@@ -52,7 +52,7 @@ customers.
 
 ## The valley-free rule
 
-**The single most important principle in inter-domain routing**, and it follows entirely
+**The most important principle in inter-domain routing**, and it follows entirely
 from the money.
 
 Classify every neighbour as **customer**, **peer**, or **provider**. Then:

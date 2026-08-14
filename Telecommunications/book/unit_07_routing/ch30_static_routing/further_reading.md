@@ -44,7 +44,7 @@ Chapter 5 onward for the formal treatment of route selection and metrics.
 **Build a four-router lab.** **FRRouting** or **BIRD** in containers, or **Containerlab**,
 or GNS3. Free, and this chapter is not really learnable without it.
 
-**The single most valuable exercise** (F1): configure a four-router diamond with static
+**The most valuable exercise** (F1): configure a four-router diamond with static
 routes only, break the middle link, and time how long connectivity stays broken. The
 answer is "until you fix it by hand", and experiencing that once is worth more than the
 argument in §30.4.

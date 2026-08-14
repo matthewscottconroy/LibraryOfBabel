@@ -74,7 +74,7 @@ compute. Not obscure it — the adversary sees every message — but genuinely c
 derive it, because doing so requires solving the discrete logarithm problem.
 
 §58.2 works it through with small numbers so you can follow the arithmetic yourself.
-It takes ten minutes and it is one of the genuinely delightful results in applied
+It takes ten minutes and it is one of the delightful results in applied
 mathematics.
 
 The consequence that matters operationally is **forward secrecy**: if a fresh

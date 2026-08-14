@@ -108,5 +108,5 @@ and most deployments are mid-band NSA.
 **Air latency is not end-to-end latency.** A 1 ms radio does not help if the application is
 100 ms away.
 
-Private cellular is genuinely right for some industrial sites and wrong for offices. The
+Private cellular is right for some industrial sites and wrong for offices. The
 deciding factors are area, mobility at speed, and whether determinism is actually required.

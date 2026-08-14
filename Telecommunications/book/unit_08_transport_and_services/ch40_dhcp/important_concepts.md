@@ -72,7 +72,7 @@ machine the next morning. DHCP needs monitoring rather than complaint-driven dis
 **INFORM** *(§40.2)* — A statically-addressed host asking for the **other** options — DNS,
 domain, NTP, proxy — with no address and no lease.
 
-A pool must not overlap anything assigned by hand *(§40.3)* — The single most common
+A pool must not overlap anything assigned by hand *(§40.3)* — The most common
 DHCP misconfiguration, and the failure is delayed: a pool configured in January produces a
 duplicate in June when it reaches that address.
 

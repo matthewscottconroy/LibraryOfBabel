@@ -161,7 +161,7 @@ utilisation near 100% where a conventionally-engineered WAN runs at 30–40%.
 
 **Service provider transport.** ONOS and similar, for optical and packet transport control —
 where the number of devices is modest, the changes are infrequent and central optimisation is
-genuinely valuable (Chapter 50 §50.3's wavelength assignment is an optimisation problem).
+valuable (Chapter 50 §50.3's wavelength assignment is an optimisation problem).
 
 And research and education networks, which have both the appetite and the tolerance.
 

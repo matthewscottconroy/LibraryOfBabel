@@ -105,7 +105,7 @@ $$\frac{65{,}535 \times 8}{\text{RTT}}$$
 > On a gigabit intercontinental path, an unscaled TCP connection achieves about
 > 5 Mb/s — half a per cent of the link — **and it is not the network's fault.**
 
-This is the single most important performance fact in this chapter, and it is why the
+This is the most important performance fact in this chapter, and it is why the
 next mechanism exists.
 
 ## Window scaling

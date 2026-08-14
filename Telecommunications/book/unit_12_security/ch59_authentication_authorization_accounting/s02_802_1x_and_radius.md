@@ -62,7 +62,7 @@ The critical caveat applies to every password-based method:
 > is the default on a distressing number of clients and the path of least resistance for
 > whoever set it up.
 
-Which is the single most common 802.1X misconfiguration, and its consequence is that an
+Which is the most common 802.1X misconfiguration, and its consequence is that an
 attacker with a laptop and a Wi-Fi card in the car park collects credentials.
 
 **The correct client configuration specifies:** the CA that must have issued the server
@@ -205,7 +205,7 @@ network, TACACS+ for who may configure the devices. They are not competitors.
 log before anything else.
 
 **Credentials harvested from a car park.** PEAP with server certificate validation
-disabled. The single most common misconfiguration.
+disabled. The most common misconfiguration.
 
 **A RADIUS outage disconnecting the whole estate.** Re-authentication timers too aggressive,
 and no session retention. Design the failure mode.

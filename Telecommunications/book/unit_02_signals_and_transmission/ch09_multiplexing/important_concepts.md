@@ -111,7 +111,7 @@ it, DWDM is economically impossible. It also fixes the C-band's location: erbium
 gain sits at 1530–1565 nm.
 
 **WDM's economic consequence** *(§9.4)* — A fibre laid in 2001 for 10 Gb/s carries
-tens of terabits today with **no change to the glass**. This is the single largest
+tens of terabits today with **no change to the glass**. This is the largest
 reason bandwidth prices collapsed, and why lighting another wavelength beats laying
 new fibre until the fibre is full.
 

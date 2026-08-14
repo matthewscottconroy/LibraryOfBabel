@@ -10,7 +10,7 @@ every signal on every wire is physically continuous.
 
 **Regeneration** *(§5.1)* — Deciding which discrete value was sent and emitting a
 fresh clean signal. The output is not a better copy but a *new* signal, so noise
-does not accumulate across hops. The single largest advantage of digital
+does not accumulate across hops. The largest advantage of digital
 transmission and the reason Chapter 12 calls digitisation the telephone network's
 biggest improvement.
 

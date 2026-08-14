@@ -26,7 +26,7 @@ because it was the only one everybody could implement.
 
 > SNMPv3 (1998) eventually supplied what v2 could not agree on, by which time **v2c was
 > everywhere and worked.** A security model that arrives ten years after the deployment is a
-> security model that will not be deployed, and this is the single clearest example of that
+> security model that will not be deployed, and this is the clearest example of that
 > pattern in the book.
 
 **Marshall T. Rose.** The MIB structure, SMI, and much of what makes SNMP navigable — and,

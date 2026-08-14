@@ -97,7 +97,7 @@ interface Vlan20
 ip routing
 ```
 
-The `ip routing` line is essential and is the single most commonly forgotten line in
+The `ip routing` line is essential and is the most commonly forgotten line in
 this entire configuration. **Without it the switch has interfaces in both VLANs and
 will not route between them**, and the symptom — everything works within each VLAN,
 nothing works between them, and the configuration looks correct — is confusing out of

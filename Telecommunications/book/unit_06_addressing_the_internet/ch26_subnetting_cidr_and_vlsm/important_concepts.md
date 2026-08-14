@@ -98,7 +98,7 @@ VLSM requires a classless routing protocol *(§26.4)* — The protocol must carr
 mask. RIPv1 and IGRP do not; RIPv2, EIGRP, OSPF, IS-IS and BGP do. This is the whole
 technical requirement.
 
-**Allocate largest first** *(§26.4)* — The single most common VLSM mistake is doing it
+**Allocate largest first** *(§26.4)* — The most common VLSM mistake is doing it
 in any other order. A /25 has only two valid starting positions in a /24; a /30 has
 sixty-four. Large blocks have few valid starting positions; small blocks fit almost
 anywhere — so place the constrained things first. The same principle as memory

@@ -25,7 +25,7 @@ channel's capacity in Chapter 4.
 times a power of the base determined by position. Identical in decimal, binary and
 hexadecimal; only the base changes.
 
-**Octet place values** *(§2.2)* — 128, 64, 32, 16, 8, 4, 2, 1. The single most
+**Octet place values** *(§2.2)* — 128, 64, 32, 16, 8, 4, 2, 1. The most
 useful row of numbers in network engineering. Memorise it.
 
 **Contiguous subnet mask** *(§2.2)* — A mask in which all 1 bits precede all 0

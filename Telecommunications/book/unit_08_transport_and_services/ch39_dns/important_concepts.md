@@ -95,8 +95,7 @@ NS records exist in two places *(§39.3)* — The parent (creating the delegatio
 child (the authoritative list). When they disagree, resolution is unpredictable.
 
 **The trailing dot** *(§39.3)* — A name without one has `$ORIGIN` appended, so
-`www.example.com` in a zone file becomes **`www.example.com.example.com.`** — the single
-most common zone-file mistake.
+`www.example.com` in a zone file becomes **`www.example.com.example.com.`** — the most common zone-file mistake.
 
 **Zone transfers** *(§39.3)* — AXFR (full), IXFR (incremental), NOTIFY. **Over TCP.** An
 open AXFR hands an attacker your complete network map — restrict by address and

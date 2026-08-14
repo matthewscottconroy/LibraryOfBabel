@@ -167,7 +167,7 @@ everything ends — which is a genuine and large improvement over the alternativ
 
 **And what it costs:**
 
-> **The identity provider becomes the single most critical system you operate.** If it is
+> **The identity provider becomes the most critical system you operate.** If it is
 > unavailable, nobody can log in to anything. If it is compromised, everything is
 > compromised.
 

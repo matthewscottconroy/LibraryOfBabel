@@ -107,7 +107,7 @@ to one member.
 Four 1 Gb/s links bundled do **not** give one file transfer 4 Gb/s. They give it
 1 Gb/s, and give *aggregate* capacity of 4 Gb/s across many conversations.
 
-This is the single most common misunderstanding of aggregation, and it produces real
+This is the most common misunderstanding of aggregation, and it produces real
 disappointment: a backup job between two servers over a 4 Gb/s bundle runs at 1 Gb/s,
 and everything is working exactly as designed.
 

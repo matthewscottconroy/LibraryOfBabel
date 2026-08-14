@@ -1,7 +1,7 @@
 # 8.2 Phase and Quadrature
 
 §8.1 concluded that phase is the most useful parameter. This section develops the
-framework that makes phase tractable, and it is the single most important
+framework that makes phase tractable, and it is the most important
 conceptual tool in radio engineering.
 
 ## The problem with thinking about phase directly

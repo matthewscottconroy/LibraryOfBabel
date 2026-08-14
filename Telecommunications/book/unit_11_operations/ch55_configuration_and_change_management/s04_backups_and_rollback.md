@@ -108,7 +108,7 @@ and target configurations and applies only what is needed. Vastly better than pa
 old configuration back, which frequently leaves the additions in place because pasting adds;
 it does not remove.
 
-> This is the single most common rollback failure: pasting the previous configuration back
+> This is the most common rollback failure: pasting the previous configuration back
 > and finding that the change is still there, because the previous configuration does not
 > contain the negation of what was added.
 

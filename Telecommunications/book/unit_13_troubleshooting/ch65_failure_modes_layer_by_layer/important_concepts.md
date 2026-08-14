@@ -57,7 +57,7 @@ VLAN is added.
 works for one VLAN, and silently fails for the rest, with correct-looking configuration at both
 ends.
 
-The topology change counter is the single most useful spanning tree diagnostic *(§65.2)* —
+The topology change counter is the most useful spanning tree diagnostic *(§65.2)* —
 "1,847 changes, last 42 seconds ago, from Gi1/0/13" names the port, and a port generating
 topology changes is flapping or lacks PortFast.
 

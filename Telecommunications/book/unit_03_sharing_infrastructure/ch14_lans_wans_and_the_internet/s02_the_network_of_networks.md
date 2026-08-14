@@ -2,7 +2,7 @@
 
 The word *Internet* is a contraction of **internetwork**, and the contraction has
 obscured what the original word meant. This section recovers it, because the
-construction it names is the single most important architectural idea in this book.
+construction it names is the most important architectural idea in this book.
 
 ## The construction
 
@@ -139,7 +139,7 @@ IPv4-only host, so adopting it alone reaches nothing new.
 
 Two honest observations.
 
-**The lowest-common-denominator service is genuinely weak**, and every guarantee any
+**The lowest-common-denominator service is weak**, and every guarantee any
 application needs must be rebuilt at the edges. TCP is eighty-five pages of
 specification (Chapter 37) reimplementing reliability that a circuit provided for
 free, and it is reimplemented in every operating system.

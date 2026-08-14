@@ -58,7 +58,7 @@ anything else at these distances.
 
 ## DWDM: the multiplication
 
-The single most important technology in this chapter, and a direct application of
+The most important technology in this chapter, and a direct application of
 Chapter 9's frequency-division multiplexing to light.
 
 A fibre carries one wavelength. It also carries a second wavelength, and a third,

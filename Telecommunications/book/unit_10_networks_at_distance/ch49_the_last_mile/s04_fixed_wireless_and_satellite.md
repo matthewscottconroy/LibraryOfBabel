@@ -29,7 +29,7 @@ Its constraints are the ones Chapter 42 predicts:
 commissioned in February may fail in May.
 
 **Weather.** Rain fade is negligible below about 6 GHz and severe above 20 GHz, which is
-the single largest argument against mmWave for anything needing reliability.
+the largest argument against mmWave for anything needing reliability.
 
 **Shared spectrum.** Unlicensed operation means your neighbour's network is your noise
 floor (Chapter 43 §43.4), and it degrades as the area develops. Licensed or CBRS-shared

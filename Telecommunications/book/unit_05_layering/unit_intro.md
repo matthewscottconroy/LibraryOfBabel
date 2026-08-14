@@ -83,7 +83,7 @@ have already built; what each layer actually does; and OSI as a diagnostic tool.
 
 **Chapter 23 — TCP/IP and Encapsulation.** Cerf and Kahn's paper; the four-layer
 model; encapsulation traced through one real HTTP request from application byte to
-electrical signal and back; and the end-to-end argument — a 1981 paper that
+electrical signal and back; and the end-to-end argument — the paper that
 explains more about why the Internet is shaped the way it is than any other single
 document.
 

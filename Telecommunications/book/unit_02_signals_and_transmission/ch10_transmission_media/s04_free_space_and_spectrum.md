@@ -85,7 +85,7 @@ sites, and a diverse backup path that does not share a duct with the primary
 ## What it costs
 
 **No guarantee of availability.** Unlicensed spectrum's performance depends on your
-neighbours, and neighbours change. This is the single largest difference from
+neighbours, and neighbours change. This is the largest difference from
 cable, and it makes SLAs on unlicensed links essentially unofferable.
 
 **Weather.** Rain attenuates significantly above about 10 GHz — **rain fade** — and

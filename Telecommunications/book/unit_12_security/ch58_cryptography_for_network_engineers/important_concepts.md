@@ -50,7 +50,7 @@ because that is the discrete logarithm problem.
 Diffie–Hellman gives you a shared secret with somebody, and does not tell you with whom
 *(§58.2)* — A man in the middle runs the exchange twice, and every message is well-formed and
 the mathematics is correct. Understanding that secrecy and identity are two separate
-problems is the single most clarifying idea in applied cryptography.
+problems is the most clarifying idea in applied cryptography.
 
 Forward secrecy: an adversary who records today and obtains the key in three years reads
 everything — unless the exchange was ephemeral *(§58.2)* — "Record now, decrypt later" is the

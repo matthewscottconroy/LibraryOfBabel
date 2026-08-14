@@ -119,7 +119,7 @@ built and discarded at every hop. Layer 3 is end-to-end; Layer 2 is hop-by-hop.
 
 ## The address correspondence
 
-The single most useful table in the model, and worth memorising:
+The most useful table in the model, and worth memorising:
 
 | Layer | Address | Scope | Structure | Changes per hop? |
 |---|---|---|---|---|

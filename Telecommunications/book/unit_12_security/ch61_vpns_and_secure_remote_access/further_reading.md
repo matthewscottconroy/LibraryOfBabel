@@ -95,7 +95,7 @@ and is instructive to run.
 kernel-versus-userspace performance argument.
 
 `ping -M do -s` (Linux) / **`ping -f -l`** (Windows) — **F3.** MTU bisection, and it is the
-single most useful tunnel diagnostic there is.
+most useful tunnel diagnostic there is.
 
 **`ip tcp adjust-mss`** or `iptables -t mangle --clamp-mss-to-pmtu` — **the fix.**
 

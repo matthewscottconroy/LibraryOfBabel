@@ -49,7 +49,7 @@ Setting aside the bands, the air interface has real advances:
 and it also tolerates the higher Doppler and phase noise of mmWave.
 
 **Massive MIMO.** 64, 128 or 256 antenna elements at the base station, with beamforming per
-user (Chapter 44 §44.4). At mid-band this is the single largest capacity contributor —
+user (Chapter 44 §44.4). At mid-band this is the largest capacity contributor —
 it allows spatial reuse within a cell, serving many users simultaneously on the same
 frequency in different directions.
 

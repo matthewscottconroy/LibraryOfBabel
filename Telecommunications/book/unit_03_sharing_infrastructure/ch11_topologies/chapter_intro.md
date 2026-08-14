@@ -58,7 +58,7 @@ Replace the hub with a switch and the physical topology is unchanged — same
 cables, same star — while the logical topology becomes a set of point-to-point
 links. Collisions vanish. The bandwidth is no longer shared. **Nothing about the
 cabling changed and everything about the network's behaviour did.** This is the
-single most important thing in the chapter, and Chapter 17 explains the mechanism.
+most important thing in the chapter, and Chapter 17 explains the mechanism.
 
 The same distinction recurs throughout the book. A VLAN (Chapter 20) creates a
 logical topology unrelated to the physical one. A VXLAN overlay (Chapter 67)

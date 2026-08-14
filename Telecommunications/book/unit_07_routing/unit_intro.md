@@ -6,7 +6,7 @@ organisation controls, operated by parties with conflicting commercial interests
 without any central authority and without any component holding a complete picture.
 
 That the Internet does this successfully, billions of times per second, is the
-single most impressive fact about it, and it is worth being briefly astonished
+most impressive fact about it, and it is worth being briefly astonished
 before we take it apart.
 
 ## The decision

@@ -13,7 +13,7 @@ all — it is a published list that everyone chose to follow, sustained for fort
 
 **RFC 1700** (1994), *Assigned Numbers*, was Postel's compendium of every registry: port
 numbers, protocol numbers, EtherTypes, hardware types. It ran to 230 pages and was for
-years the single most-consulted document in networking.
+years the most-consulted document in networking.
 
 **When Postel died in 1998**, the transition of IANA's functions to an institution took
 years, because it emerged that one person had been doing something requiring an

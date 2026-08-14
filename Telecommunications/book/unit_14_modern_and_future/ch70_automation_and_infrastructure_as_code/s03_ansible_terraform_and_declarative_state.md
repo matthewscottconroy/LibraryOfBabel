@@ -116,7 +116,7 @@ And `plan` shows what will change before it changes.
 ```
 
 > **`terraform plan` is Chapter 55 §55.2's change record, generated automatically and
-> accurately.** **It is the single most valuable feature**, because it converts "what will this
+> accurately.** **It is the most valuable feature**, because it converts "what will this
 > change do?" from a judgement into a computation — and a plan showing an unexpected
 > destruction has caught more errors than any review process.
 

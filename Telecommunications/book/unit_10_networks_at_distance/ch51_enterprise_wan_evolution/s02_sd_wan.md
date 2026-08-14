@@ -116,7 +116,7 @@ presence which applies firewall, URL filtering, malware inspection and data-loss
 and then goes on to its destination.
 
 > SASE moves the security stack from forty branch appliances to a provider's edge, which is
-> genuinely the right architecture for a distributed organisation and makes that provider a
+> the right architecture for a distributed organisation and makes that provider a
 > single point of failure and a single point of trust. Chapter 59 develops the identity
 > question this raises.
 

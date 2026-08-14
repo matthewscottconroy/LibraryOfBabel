@@ -105,7 +105,7 @@ consequences are directly examinable:
 - **Channel width affects throughput** — more subcarriers, more capacity, and more
   noise admitted (Chapter 4 §4.4 and Chapter 43 §43.3).
 
-The single most transferable idea for practical work is §8.3's: **SNR determines
+The most transferable idea for practical work is §8.3's: **SNR determines
 which modulation a radio can use, and modulation determines the rate.** Signal
 strength alone determines neither, which is why Chapter 45's troubleshooting
 procedure asks about noise before it asks about signal.

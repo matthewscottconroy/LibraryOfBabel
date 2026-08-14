@@ -106,7 +106,7 @@ containerlab / GNS3 / EVE-NG — for the FHRP and failover labs.
 `tcpdump` with timestamps, or Wireshark's I/O graph — F4 measures a real failover from
 packets rather than from the protocol's own claims, and the two frequently differ.
 
-Metered PDUs with SNMP — **per-outlet power measurement.** The single most useful
+Metered PDUs with SNMP — **per-outlet power measurement.** The most useful
 environmental instrument after a temperature sensor, and it makes B8's arithmetic real.
 
 **Inexpensive environmental sensors** — temperature, humidity and water detection with SNMP or

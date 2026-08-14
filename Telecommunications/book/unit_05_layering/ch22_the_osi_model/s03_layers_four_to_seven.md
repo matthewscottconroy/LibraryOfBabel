@@ -157,7 +157,7 @@ layer** covering OSI 5, 6 and 7, and it is the more accurate description of what
 
 Two reasons, and they are practical rather than architectural.
 
-**"Layer 7" is genuinely useful vocabulary.** A "Layer 7 firewall" or "Layer 7 load
+**"Layer 7" is useful vocabulary.** A "Layer 7 firewall" or "Layer 7 load
 balancer" means something precise and important: a device that reads and acts on
 **application protocol content**, not merely addresses and ports. There is no better
 short way to say that.

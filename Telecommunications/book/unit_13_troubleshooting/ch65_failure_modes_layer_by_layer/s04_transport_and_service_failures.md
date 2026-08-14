@@ -95,7 +95,7 @@ Chapter 64 §64.2 covers the tooling; this is the symptom catalogue.
 | **Fails after a record change** | **the TTL** — and it was not lowered in advance |
 | **`SERVFAIL` on a valid name** | **DNSSEC validation failure**, or an upstream problem |
 
-> The single most useful DNS diagnostic remains `dig @<resolver>` against each configured
+> The most useful DNS diagnostic remains `dig @<resolver>` against each configured
 > resolver individually, because **an aggregate test hides which one is broken.**
 
 ## Certificates and time

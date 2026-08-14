@@ -95,7 +95,7 @@ and a `CLOSE-WAIT` leak and diagnoses each from the socket table alone.
 Objective 1.4 is ports and protocols, and it is among the most heavily examined
 objectives on the test. Objective 5.5 expects `netstat`.
 
-The port table is the single largest piece of pure memorisation in the certification.
+The port table is the largest piece of pure memorisation in the certification.
 Learn it cold:
 
 | | | | |

@@ -116,7 +116,7 @@ between.
 
 | | Cause | Note |
 |---|---|---|
-| **1** | **A dirty connector** | **the single most common fibre fault** — and it takes ten seconds to check with a scope (Chapter 64 §64.4) |
+| **1** | **A dirty connector** | **the most common fibre fault** — and it takes ten seconds to check with a scope (Chapter 64 §64.4) |
 | **2** | **A bend exceeding the minimum radius** | **a cable tie pulled tight, or a fibre routed round a sharp corner** |
 | **3** | **The wrong fibre type** | **single-mode transceiver into multimode fibre, or the reverse** |
 | **4** | **Wavelength mismatch** | **1310 nm optic against a 1550 nm one** — no light at all |

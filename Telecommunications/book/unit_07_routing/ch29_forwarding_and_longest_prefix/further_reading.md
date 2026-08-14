@@ -59,8 +59,7 @@ hardware properly.
 
 ## Applied
 
-**Read your own routing table** and account for every entry — exercise F1, and the single
-most useful thing in this list. `ip route`, `route print`, `netstat -rn`.
+**Read your own routing table** and account for every entry — exercise F1, and the most useful thing in this list. `ip route`, `route print`, `netstat -rn`.
 
 **`ip route get <destination>`.** Learn this now. It performs the real lookup including
 policy rules and reports what would actually happen, which is different from what reading

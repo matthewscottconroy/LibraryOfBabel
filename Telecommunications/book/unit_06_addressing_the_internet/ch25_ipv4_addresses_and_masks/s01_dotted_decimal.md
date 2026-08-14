@@ -2,7 +2,7 @@
 
 An IPv4 address is a **32-bit unsigned integer**. Everything else is presentation.
 
-This section establishes that fact firmly, because the single largest obstacle to
+This section establishes that fact firmly, because the largest obstacle to
 learning subnetting is that people learn the dots first and the integer never.
 
 ## The integer

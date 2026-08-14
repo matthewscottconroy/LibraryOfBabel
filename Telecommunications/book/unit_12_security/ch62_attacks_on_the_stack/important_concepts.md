@@ -34,7 +34,7 @@ Deploying IPv6 without RA Guard is deploying rogue DHCP with no snooping *(§62.
 Router Advertisement on a user port is an attack or an accident, and any Linux machine with
 forwarding enabled produces one.
 
-BPDU Guard plus PortFast is the single most valuable Layer 2 hardening measure *(§62.1)* —
+BPDU Guard plus PortFast is the most valuable Layer 2 hardening measure *(§62.1)* —
 The lowest bridge ID wins and anyone may claim it, so an attacker becomes root — and so does
 a small unmanaged switch someone plugged into two wall sockets. It stops the attack and the
 far more common accident.

@@ -87,7 +87,7 @@ second:
   is flapping between port Gi0/1 and port Gi0/2
 ```
 
-**That log message is a loop until proven otherwise.** It is the single most
+**That log message is a loop until proven otherwise.** It is the most
 diagnostic line in this chapter. Even unicast forwarding now fails, because the table
 is wrong more often than it is right.
 

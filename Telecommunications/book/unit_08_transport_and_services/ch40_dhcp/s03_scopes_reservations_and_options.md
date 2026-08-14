@@ -22,7 +22,7 @@ A scope is one subnet's pool, plus everything a client on it should be told.
 The layout follows Chapter 27 §27.4's convention, and the reason for the exclusions is
 the same: a DHCP pool must not overlap anything assigned by hand.
 
-**Which is the single most common DHCP misconfiguration.** A server given a static address
+**Which is the most common DHCP misconfiguration.** A server given a static address
 inside the pool will eventually collide with a leased client — **and the failure is
 intermittent, because it only occurs when the pool reaches that address.** A pool
 configured in January can produce a duplicate in June.

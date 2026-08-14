@@ -200,7 +200,7 @@ Three guards, and each addresses a different case:
 | **Root Guard** | **towards other switches** | **a superior BPDU** — a neighbour becoming root |
 | **Loop Guard** | **non-designated ports** | **a port transitioning to forwarding when BPDUs stop** |
 
-BPDU Guard plus PortFast on every access port is the baseline, and it is the single most
+BPDU Guard plus PortFast on every access port is the baseline, and it is the most
 valuable Layer 2 hardening measure — it stops both the attack and the far more common
 accident.
 

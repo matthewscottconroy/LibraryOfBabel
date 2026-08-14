@@ -252,5 +252,5 @@ fault above the link immediately.
 > **Network+ note.** Objective 1.4 expects NDP as ARP's IPv6 counterpart and
 > objective 2.3 expects SLAAC. Worth over-learning: **NDP uses ICMPv6, not a separate
 > EtherType**; **NS/NA replace ARP request/reply**; **multicast, not broadcast**; and
-> **blocking ICMPv6 breaks IPv6**. The last is examined and is also the single most
+> **blocking ICMPv6 breaks IPv6**. The last is examined and is also the most
 > common real-world IPv6 deployment mistake.

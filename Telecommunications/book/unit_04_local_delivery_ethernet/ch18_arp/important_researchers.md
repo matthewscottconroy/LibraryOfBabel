@@ -53,7 +53,7 @@ people can diagnose — is visible in DAD's design.
 **Tuomas Aura.** Microsoft Research, and the inventor of **cryptographically
 generated addresses** (RFC 3972): binding an IPv6 address to a public key by making
 the interface identifier a hash of it, so that ownership can be proven by signature
-with no certificate authority anywhere. It is a genuinely beautiful idea — the address
+with no certificate authority anywhere. It is a beautiful idea — the address
 *is* the credential — and it is the foundation of SEND.
 
 Its near-total non-deployment is worth sitting with. The mechanism is sound, the

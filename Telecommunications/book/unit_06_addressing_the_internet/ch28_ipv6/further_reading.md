@@ -135,7 +135,7 @@ Eight things worth over-learning:
 4. **EUI-64 inserts `ff:fe` and flips the 7th bit.**
 5. **IPv6 has no broadcast** — `ff02::1` replaces it.
 6. **DHCPv6 uses ports 546/547** and **never provides a default gateway** — it always
-   comes from the RA. The single most examined IPv6 operational fact.
+   comes from the RA. The most examined IPv6 operational fact.
 7. **Dual-stack, tunnelling and NAT64/DNS64** as the three transition approaches, and
    **dual-stack does not solve address exhaustion.**
 8. **`fe80::` is normal in IPv6**, unlike IPv4's `169.254.x.x`.

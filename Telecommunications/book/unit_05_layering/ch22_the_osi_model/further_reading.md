@@ -76,7 +76,7 @@ what healthy output looks like at every layer — `ip link`, `ip addr`, `ip rout
 `ip neigh`, `ss -tlnp`, `dig`. **You cannot recognise abnormal without knowing
 normal**, and the time to learn it is not during an outage.
 
-**`arping`.** Chapter 18's tool, and the single most useful command in §22.4's Layer 2
+**`arping`.** Chapter 18's tool, and the most useful command in §22.4's Layer 2
 step. Use it once deliberately so you remember it exists.
 
 **`mtr`** rather than `traceroute`, for continuous per-hop loss and latency. It answers

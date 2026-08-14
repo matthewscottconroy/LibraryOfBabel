@@ -136,7 +136,7 @@ Any protocol that does work before authenticating has the SYN flood's shape *(§
 The server allocates memory in response to an unauthenticated packet. SYN cookies' answer
 — encode the state in the sequence number and hold none — is the general remedy.
 
-DNS is the single most attractive target in the stack *(§57.4)* — Controlling name
+DNS is the most attractive target in the stack *(§57.4)* — Controlling name
 resolution controls where traffic goes, without touching routing.
 
 The human row decides most incidents *(§57.4)* — The overwhelming majority of successful

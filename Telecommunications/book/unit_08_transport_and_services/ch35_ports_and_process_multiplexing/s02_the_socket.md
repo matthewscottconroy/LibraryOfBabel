@@ -209,7 +209,7 @@ Get-NetTCPConnection      # PowerShell
 | How many, and in what states? | `ss -s`, `ss -tan` |
 | Is something exhausting a resource? | count `TIME-WAIT` (Chapter 37 §37.5) |
 
-**`ss -tlnp` is the single most useful command in this chapter.** *"Is anything actually
+**`ss -tlnp` is the most useful command in this chapter.** *"Is anything actually
 listening?"* is the question that resolves a large share of "the service is down" reports,
 and it takes one line.
 

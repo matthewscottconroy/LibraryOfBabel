@@ -60,8 +60,7 @@ shaped two decades of application design.
 
 **Inbound connections are impossible without configuration.** There is no
 translation entry until an internal host creates one, so an unsolicited packet from
-outside has nowhere to go. This is why port forwarding exists, and it is the single
-biggest change NAT made to the Internet: it converted a network of peers into a
+outside has nowhere to go. This is why port forwarding exists, and it is the biggest change NAT made to the Internet: it converted a network of peers into a
 network of clients and servers, in which ordinary users can consume services but
 cannot offer them. That is an architectural change of the first magnitude, achieved
 as a side effect of an addressing workaround.

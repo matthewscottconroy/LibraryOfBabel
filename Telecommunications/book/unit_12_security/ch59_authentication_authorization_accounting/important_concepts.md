@@ -50,7 +50,7 @@ Before authentication the port forwards only EAP frames *(§59.2)* — Link ligh
 else. No DHCP, no ARP, no traffic. EAPOL works before addressing does.
 
 PEAP protects the password only if the client validates the server certificate — and it
-usually does not *(§59.2)* — The single most common 802.1X misconfiguration, and its
+usually does not *(§59.2)* — The most common 802.1X misconfiguration, and its
 consequence is an attacker with a laptop in the car park collecting credentials. The correct
 client configuration names the CA, names the expected server, and refuses to prompt — because
 a prompt saying "not trusted, continue?" will be accepted.

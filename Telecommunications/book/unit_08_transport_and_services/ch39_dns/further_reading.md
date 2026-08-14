@@ -64,7 +64,7 @@ dig +trace www.example.com
 dig +trace mail.eng.example.co.uk
 ```
 
-**Watching the referrals descend the tree is the single most instructive thing in this
+**Watching the referrals descend the tree is the most instructive thing in this
 chapter**, and it takes ten seconds.
 
 **The diagnostic sequence of §39.4**, learned as a habit:

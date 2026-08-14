@@ -106,7 +106,7 @@ and silently fails for the rest, and the configuration looks correct at both end
              from GigabitEthernet1/0/13
 ```
 
-> **The topology change counter is the single most useful spanning tree diagnostic.** 1,847
+> **The topology change counter is the most useful spanning tree diagnostic.** 1,847
 > changes with the last one 42 seconds ago names the port — and a port generating topology
 > changes is a port that is flapping, or a port without PortFast where devices connect and
 > disconnect.

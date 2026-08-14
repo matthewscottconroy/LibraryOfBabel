@@ -53,7 +53,7 @@ curve analogue.
 
 **Deployment took two decades.** Patents, unfamiliarity, and the difficulty of implementing
 curve arithmetic safely all delayed it, and elliptic curves became mainstream only when
-mobile devices made RSA's key sizes genuinely painful.
+mobile devices made RSA's key sizes painful.
 
 **Daniel J. Bernstein (b. 1971).** Curve25519, Ed25519, ChaCha20, Poly1305, NaCl — and a
 design philosophy.

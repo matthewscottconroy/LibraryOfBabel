@@ -105,7 +105,7 @@ Each sees the other's transmissions as **raised noise floor**, not as a signal t
 So a deployment using channels 1, 3, 5, 7, 9, 11 — which sounds like more channels —
 performs substantially worse than one using 1, 6, 11.
 
-This is the single most common wireless configuration error, and it comes from the
+This is the most common wireless configuration error, and it comes from the
 reasonable-sounding belief that using more of the band must be better.
 
 ## Channel width — the capacity trade

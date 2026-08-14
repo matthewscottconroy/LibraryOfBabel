@@ -68,7 +68,7 @@ analog call in 1930 required careful engineering and sounded like it.
 
 **Digitisation** solves that: sample at 8 kHz, quantise to 8 bits, and now the
 signal can be *regenerated* rather than amplified, perfectly, indefinitely. This is
-the single largest improvement in the network's history and it produced the DS0.
+the largest improvement in the network's history and it produced the DS0.
 
 **Time-division multiplexing** then packs 24 or 30 of those DS0s onto one physical
 circuit, giving the T1 and E1, and the digital hierarchy grows upward from there

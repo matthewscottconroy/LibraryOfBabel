@@ -32,7 +32,7 @@ active fraction, demand per application, and the client-count constraint that bi
 throughput does.
 
 His observation that client count rather than bandwidth determines access-point count is
-the single most consequential idea in modern WLAN design, and it is why lecture theatres and
+the most consequential idea in modern WLAN design, and it is why lecture theatres and
 stadiums look the way they do.
 
 Jim Vajda, Jennifer Minella, and the practitioner community. Much of what this chapter

@@ -1,7 +1,7 @@
 # 28.3 SLAAC, DHCPv6 and Neighbor Discovery
 
 IPv4 hosts get their addresses from DHCP or from a person. IPv6 offers three mechanisms,
-they can be combined, and the resulting matrix is the single most confusing part of IPv6
+they can be combined, and the resulting matrix is the most confusing part of IPv6
 operations.
 
 This section sorts it out. NDP itself was covered in Chapter 18 §18.4; here the concern

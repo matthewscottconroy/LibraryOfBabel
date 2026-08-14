@@ -74,7 +74,7 @@ fragments the way they do.
 
 **Decode a header by hand.** Capture a packet, dump it in hex (`tcpdump -X`), and work
 through all twenty bytes before checking against Wireshark. **Exercise F1**, and it is
-the single most valuable exercise in this chapter — after doing it three times you can
+the most valuable exercise in this chapter — after doing it three times you can
 read a header in a capture when the tools are unhelpful.
 
 **`ping -M do -s N`** — the path MTU binary search. Learn this before you need it; the

@@ -50,7 +50,7 @@ serving these ends, not additional ends.)
 
 ## What the unit contains
 
-Chapter 57 — Threat Models and the CIA Triad. The derivation above; who attacks
+**Chapter 57 — Threat Models and the CIA Triad.** The derivation above; who attacks
 networks and what they want; risk and proportionate defence; and an enumeration of the
 attack surface layer by layer, which doubles as a review of Units II through X.
 
@@ -69,7 +69,7 @@ and the implicit deny; stateful inspection and what statefulness costs; NGFW, ID
 and TLS inspection's genuine tradeoff; and segmentation from DMZs to
 microsegmentation.
 
-Chapter 61 — VPNs and Secure Remote Access. The tunnel idea; IPsec in detail;
+**Chapter 61 — VPNs and Secure Remote Access.** The tunnel idea; IPsec in detail;
 TLS VPNs and WireGuard; split tunnelling and the post-2020 remote access reality.
 
 **Chapter 62 — Attacks on the Stack.** A systematic walk back down through the layers,
@@ -84,7 +84,7 @@ firewall will be bypassed but what happens next, and the answer should not be
 breach.
 
 **Least privilege.** Every entity gets the minimum access required for its function.
-This is easy to state, tedious to implement, and the single most effective limiter of
+This is easy to state, tedious to implement, and the most effective limiter of
 blast radius. Most catastrophic breaches involve an account or a device with far more
 access than its job required.
 

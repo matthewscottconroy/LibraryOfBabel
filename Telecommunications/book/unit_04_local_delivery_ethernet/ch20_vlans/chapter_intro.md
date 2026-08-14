@@ -30,7 +30,7 @@ The consequence to hold onto:
 > separate networks — because logically, they are.**
 
 That last clause is the one students most often fail to internalise, and it is the
-source of the single most common VLAN misconfiguration: creating the VLANs,
+source of the most common VLAN misconfiguration: creating the VLANs,
 assigning the ports, and then being surprised that nothing can reach anything,
 because no routing was configured. §20.4 is about the several ways to supply it.
 

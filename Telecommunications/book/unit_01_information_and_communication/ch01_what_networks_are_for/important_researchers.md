@@ -3,7 +3,7 @@
 **Claude Elwood Shannon (1916–2001).** American mathematician and engineer.
 His 1937 MIT master's thesis, *A Symbolic Analysis of Relay and Switching
 Circuits*, showed that Boolean algebra could describe electrical switching
-circuits — arguably the single most useful master's thesis ever written, and the
+circuits — arguably the most useful master's thesis ever written, and the
 foundation of all digital logic design. His 1948 *A Mathematical Theory of
 Communication*, published in the *Bell System Technical Journal*, created
 information theory in essentially finished form: the bit as a unit, entropy as a

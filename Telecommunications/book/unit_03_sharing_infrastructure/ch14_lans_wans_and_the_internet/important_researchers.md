@@ -34,7 +34,7 @@ architect through the 1980s. Co-author of the end-to-end paper (Chapter 23), aut
 of the "rough consensus and running code" formulation (Chapter 48 §48.4), and — more
 relevant here — of *The Design Philosophy of the DARPA Internet Protocols* (1988),
 which lists the architecture's goals **in priority order** and explains what was
-traded against what. It is the single most useful document for understanding why the
+traded against what. It is the most useful document for understanding why the
 Internet is the way it is, and its ranking of goals (survivability high,
 accountability last) explains a great deal about what the architecture is bad at.
 

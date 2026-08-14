@@ -167,7 +167,7 @@ Four honest reasons.
 every certification uses the numbering. Not knowing it is a communication failure, not
 an intellectual position.
 
-**2. It is a diagnostic instrument.** §22.4 is the payoff, and it is genuinely the most
+**2. It is a diagnostic instrument.** §22.4 is the payoff, and it is the most
 effective general troubleshooting method in this book. The seven layers give an ordered
 checklist that reduces an unbounded problem to seven bounded ones.
 

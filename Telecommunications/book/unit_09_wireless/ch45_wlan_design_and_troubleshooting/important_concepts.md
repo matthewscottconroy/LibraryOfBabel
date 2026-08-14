@@ -91,7 +91,7 @@ Raising power in a dense deployment reliably makes it worse *(§45.3)* — Large
 more clients sharing, and more co-channel overlap so neighbouring cells contend more.
 Power should be reduced, often to the minimum the coverage target permits.
 
-Client count binds, not throughput *(§45.3)* — The single most important idea in
+Client count binds, not throughput *(§45.3)* — The most important idea in
 capacity design. A 350-seat theatre needs about 2 access points by throughput and 18 by
 client count, and the client count wins — because CSMA/CA's contention overhead rises
 with the number of contending stations and every client adds management traffic.

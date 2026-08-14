@@ -2,7 +2,7 @@
 
 `0.0.0.0/0` is the shortest prefix that exists, matches every address, and therefore
 loses to every other route. That combination makes it the *route of last resort*, and it
-is the single most consequential entry in most routing tables.
+is the most consequential entry in most routing tables.
 
 ## The idea
 

@@ -35,12 +35,12 @@ protection, DWDM multiplying a fibre's capacity by ninety-six, MPLS's label swit
 — which is Chapter 13's virtual circuit idea, rebuilt on packet infrastructure — and
 the submarine cables that are the physical Internet.
 
-How does an organisation connect its own sites? (Chapter 51.) The enterprise WAN,
+**How does an organisation connect its own sites?** (Chapter 51.) The enterprise WAN,
 from leased lines through Frame Relay and MPLS to SD-WAN and direct cloud
 interconnect, tracking a thirty-year shift in what a branch office actually needs to
 reach.
 
-And how do we make a shared network behave when it matters? (Chapter 52.) Quality
+**And how do we make a shared network behave when it matters?** (Chapter 52.) Quality
 of service, and the honest account of what it can and cannot do — plus the other half
 of the answer, which is not to send the traffic across the distance at all. Caching,
 CDNs and anycast move the content to the user, and they have done more for perceived

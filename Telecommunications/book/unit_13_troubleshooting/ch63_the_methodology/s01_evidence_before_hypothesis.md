@@ -209,5 +209,5 @@ to which destination.
 > **Network+ note.** Objective 5.1 covers the methodology and the exam takes it seriously.
 > Over-learn: **gather information and identify symptoms before theorising**; **question users
 > and determine what changed**; **duplicate the problem if possible**; and **do not change
-> multiple things at once.** The "what changed?" question is examined and is the single most
+> multiple things at once.** The "what changed?" question is examined and is the most
 > productive question in practice.

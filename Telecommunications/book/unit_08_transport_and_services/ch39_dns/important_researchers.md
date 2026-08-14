@@ -90,7 +90,7 @@ more than fifteen years — RFC 2065 in 1997, substantially revised as RFC 4033�
 operational problem — a zone could not be updated without re-signing everything — and it had
 to be substantially rebuilt. Getting cryptographic key management right for a hierarchical
 system with independent operators at every level took the working group over a decade, and
-the result is genuinely hard to operate, which is why §39.4's adoption figures are what they
+the result is hard to operate, which is why §39.4's adoption figures are what they
 are.
 
 Verisign, ICANN and the root key ceremony participants. The July 2010 root signing.

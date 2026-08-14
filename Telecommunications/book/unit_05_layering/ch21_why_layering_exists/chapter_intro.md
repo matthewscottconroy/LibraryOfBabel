@@ -43,7 +43,7 @@ and the *strategic* difference is larger than the arithmetic suggests: in the fi
 world, innovation at either end requires permission and coordination from the
 other; in the second, it does not. This is why you can invent a new application
 today and deploy it over networks whose owners have never heard of you, and it is
-the single most important structural property of the Internet.
+the most important structural property of the Internet.
 
 ## What a layer actually is
 

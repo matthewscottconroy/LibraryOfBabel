@@ -78,7 +78,7 @@ sawtooth. Take MSS = 1,460 bytes, RTT = 80 ms:
 | 3% | ~1.0 Mb/s |
 
 **One percent loss caps a single TCP stream at under 2 Mb/s on an 80 ms path,
-regardless of whether the link is 100 Mb/s or 100 Gb/s.** This is the single most
+regardless of whether the link is 100 Mb/s or 100 Gb/s.** This is the most
 useful table in the chapter. It explains why a link that monitoring reports as
 "99% healthy" can be delivering a fraction of a per cent of its capacity, and why
 the answer to "we have 1% loss but the link is only 30% utilised" is not "so it's

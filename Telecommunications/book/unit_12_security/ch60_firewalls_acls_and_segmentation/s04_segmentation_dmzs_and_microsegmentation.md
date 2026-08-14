@@ -216,7 +216,7 @@ actually permit — a rule permitting SMB between every segment defeats the desi
 added because file sharing broke.
 
 A backup server in the same segment as the servers it backs up, with domain credentials.
-Chapter 57 §57.1 step 5. This is the single most valuable segment to create.
+Chapter 57 §57.1 step 5. This is the most valuable segment to create.
 
 **PCI scope including the entire network.** **Flat.** Segmentation reduces it, and the assessment
 saving pays for the work.

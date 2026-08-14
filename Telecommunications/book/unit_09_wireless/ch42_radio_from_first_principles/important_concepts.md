@@ -53,7 +53,7 @@ power into a smaller solid angle. A bare bulb versus the same bulb in a spotligh
 
 Higher-gain omnis flatten the pattern *(§42.2)* — A 9 dBi omni has a null directly
 above and below it, so a ceiling-mounted one may cover the far end of the floor and not the
-room beneath. The single most useful antenna fact for indoor design, and it surprises
+room beneath. The most useful antenna fact for indoor design, and it surprises
 people.
 
 Gain and beamwidth are inversely related *(§42.2)* — A 24 dBi dish has a beam a few

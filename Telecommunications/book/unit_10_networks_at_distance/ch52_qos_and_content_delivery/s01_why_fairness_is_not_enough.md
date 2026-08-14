@@ -70,7 +70,7 @@ almost nothing — 90 kb/s out of 10 Mb/s is under 1% — and it transforms the 
 
 > **QoS does not create bandwidth. It decides who suffers.**
 
-This is the single most important idea in the chapter, and it is routinely ignored.
+This is the most important idea in the chapter, and it is routinely ignored.
 
 If a link is persistently oversubscribed, QoS lets you choose which traffic degrades. That
 is genuinely valuable. It is much better that the backup slows than that every telephone call

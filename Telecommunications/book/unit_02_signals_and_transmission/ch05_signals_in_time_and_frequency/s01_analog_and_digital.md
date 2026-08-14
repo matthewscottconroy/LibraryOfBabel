@@ -39,7 +39,7 @@ and so is 4.7, and so is 3.9. The receiver's job is not to measure but to
 
 ## Why the decision is everything
 
-That difference — measure versus decide — produces the single most consequential
+That difference — measure versus decide — produces the most consequential
 property in this book.
 
 An analog receiver measures. It cannot distinguish signal from noise, because it
@@ -100,7 +100,7 @@ slightly damaged ones, and why the diagnostic techniques in Unit XIII look for
 error *counters* rather than for quality measurements. There is no "quality" to
 measure. There are correct decisions and incorrect ones.
 
-It is also the reason Chapter 12 identifies digitisation as the single largest
+It is also the reason Chapter 12 identifies digitisation as the largest
 improvement in the telephone network's history, and why Chapter 6's impairments
 matter in a very specific way: they do not degrade your signal a little, they eat
 into the margin between where you are and where the decisions start going wrong.

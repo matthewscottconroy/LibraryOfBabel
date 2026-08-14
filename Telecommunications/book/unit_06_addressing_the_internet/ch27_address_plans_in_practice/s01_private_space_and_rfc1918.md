@@ -59,7 +59,7 @@ So: give them addresses that are unique **locally**, and translate at the bounda
 
 **The effect was profound.** IPv4 exhaustion, projected for the late 1990s, arrived at
 IANA in **2011** and at the regional registries between 2011 and 2020. **RFC 1918 plus
-NAT bought roughly fifteen years**, and it is the single largest reason IPv6's transition
+NAT bought roughly fifteen years**, and it is the largest reason IPv6's transition
 has been so slow: the crisis that was supposed to force it was deferred past the point
 where anyone felt urgency.
 

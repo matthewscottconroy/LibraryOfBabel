@@ -89,7 +89,7 @@ Which is why a high-gain omni mounted on a ceiling in a two-storey building may 
 far end of the floor and not the room directly beneath it — and why access points in
 multi-storey buildings usually want *lower* gain, not higher.
 
-This surprises people, and it is the single most useful antenna fact for indoor design.
+This surprises people, and it is the most useful antenna fact for indoor design.
 
 ### Directional
 

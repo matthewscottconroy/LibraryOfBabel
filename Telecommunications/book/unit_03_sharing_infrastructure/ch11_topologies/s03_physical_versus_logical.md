@@ -42,7 +42,7 @@ possible because there is nobody to collide with.
 That is a set of **point-to-point links**, logically. Not a bus at all.
 
 **Nothing about the cabling changed and everything about the network's behaviour
-did.** This is the single most important observation in the chapter, and it is why
+did.** This is the most important observation in the chapter, and it is why
 replacing a hub with a switch produces an order-of-magnitude improvement that no
 cable change could deliver.
 
@@ -143,7 +143,7 @@ collision domain; a switched star has one per port. The cabling does not tell yo
 which.
 
 **Assuming same switch means same network.** VLANs make this false, and it is the
-single most common surprise for people meeting VLANs for the first time.
+most common surprise for people meeting VLANs for the first time.
 
 **Producing one diagram.** It will be either unreadably dense or silently wrong
 about one of the three layers.

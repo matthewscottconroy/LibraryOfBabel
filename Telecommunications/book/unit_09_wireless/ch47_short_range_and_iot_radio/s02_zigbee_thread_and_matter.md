@@ -24,7 +24,7 @@ The 127-byte frame is the constraint that shapes everything above it, and §47.2
 6LoWPAN discussion is entirely a consequence of it.
 
 Its 2.4 GHz channels are 11–26, and — usefully — channels 15, 20, 25 and 26 sit between
-Wi-Fi's 1, 6 and 11 (Chapter 43 §43.2). Choosing one of those is the single most effective
+Wi-Fi's 1, 6 and 11 (Chapter 43 §43.2). Choosing one of those is the most effective
 thing you can do for Zigbee or Thread reliability in a building with Wi-Fi.
 
 ## Zigbee

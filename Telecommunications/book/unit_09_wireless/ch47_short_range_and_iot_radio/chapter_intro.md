@@ -101,7 +101,7 @@ running old firmware that will never be patched, frequently with hardcoded
 credentials, sitting inside your perimeter. The Mirai botnet in 2016 assembled
 hundreds of thousands of such devices and generated attacks exceeding 1 Tb/s. The
 network-level answer is segmentation — Chapter 20's VLANs and Chapter 60's
-microsegmentation — and IoT is the single most common justification for both in
+microsegmentation — and IoT is the most common justification for both in
 modern enterprise design.
 
 **They share the spectrum.** Zigbee and BLE occupy 2.4 GHz alongside Wi-Fi. A dense

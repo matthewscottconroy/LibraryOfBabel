@@ -123,7 +123,7 @@ F7 uses one, and there is no shortage — AWS's 2017 S3 outage (a typo in a runb
 command), Facebook's 2021 BGP withdrawal (a configuration change plus a tooling failure that
 locked out remediation), Cloudflare's several, and Google's various.
 
-The Facebook 2021 incident is the single most instructive for this chapter: a change with
+The Facebook 2021 incident is the most instructive for this chapter: a change with
 an unanticipated blast radius, an audit tool that failed to catch it, and a rollback path that
 depended on the thing that had failed. All three of §55.2's elements, failing together.
 

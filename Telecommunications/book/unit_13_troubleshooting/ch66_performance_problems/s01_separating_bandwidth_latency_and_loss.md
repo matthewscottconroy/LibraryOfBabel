@@ -54,7 +54,7 @@ can be done:
 
 > **Run the ping while the throughput test is running.** Latency measured on an idle link
 > tells you the propagation; latency measured under load tells you the queueing — and the
-> difference between the two is the single most informative measurement in this chapter
+> difference between the two is the most informative measurement in this chapter
 > (§66.4).
 
 ## The bandwidth trap
@@ -118,7 +118,7 @@ Which localises the delay to one of five places in one command:
 | **`ttfb` minus the handshake** | **the server's processing time** |
 | **`total` minus `ttfb`** | **the transfer — bandwidth or loss** |
 
-> This is the single most useful command in this chapter for a web complaint, and it takes
+> This is the most useful command in this chapter for a web complaint, and it takes
 > five seconds. A `ttfb` of 2.9 seconds with an 83 ms connect time is a server problem, stated
 > as a measurement.
 

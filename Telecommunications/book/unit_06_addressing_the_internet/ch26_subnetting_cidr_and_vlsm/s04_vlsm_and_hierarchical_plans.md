@@ -74,7 +74,7 @@ Five steps. Follow them in order; the order is what prevents fragmentation.
 
 ### Step 1 — List every requirement, largest first
 
-**Sorting descending is the critical step**, and doing it out of order is the single most
+**Sorting descending is the critical step**, and doing it out of order is the most
 common VLSM mistake.
 
 | Segment | Hosts | +2 | Round up | Prefix |

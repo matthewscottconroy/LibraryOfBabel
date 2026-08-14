@@ -176,7 +176,7 @@ The specific difficulty: two networks, and a fault in either presents in the oth
 ```
 
 > **Steps 1 and 2 resolve most overlay faults**, and **step 2 in particular** — because the
-> overlay's MTU problem is the single commonest overlay fault and it presents as an application
+> overlay's MTU problem is the commonest overlay fault and it presents as an application
 > problem three layers up.
 
 **And the tooling gap is real:** `traceroute` inside an overlay shows one hop, because the

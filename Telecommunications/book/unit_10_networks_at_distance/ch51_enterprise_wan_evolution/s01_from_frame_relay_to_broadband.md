@@ -197,7 +197,7 @@ MPLS is not dead, and predictions of its death have been wrong for a decade.
 
 - Applications with a genuine latency or jitter guarantee requirement — trading, some
   industrial control, some healthcare
-- Sites where the alternative is genuinely poor — rural sites where broadband is 10 Mb/s
+- Sites where the alternative is poor — rural sites where broadband is 10 Mb/s
   and unreliable
 - **Regulatory requirements** that prohibit traffic traversing the public Internet
 - As one underlay among several in an SD-WAN, which is the commonest outcome: MPLS for

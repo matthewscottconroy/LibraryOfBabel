@@ -65,7 +65,7 @@ share does not waste it. Statistical multiplexing with a floor under each tenant
 FQ-CoDel and CAKE target delay and need no classification *(§52.2, §52.3)* — On a small
 edge link they frequently outperform a carefully built DSCP policy, and they cannot be
 defeated by a host marking its own traffic — which sidesteps the trust-boundary problem
-entirely. Under-taught, and the single most effective configuration change available to most
+entirely. Under-taught, and the most effective configuration change available to most
 people.
 
 A policer and a shaper differ only in what happens to a non-conforming packet *(§52.3)* —

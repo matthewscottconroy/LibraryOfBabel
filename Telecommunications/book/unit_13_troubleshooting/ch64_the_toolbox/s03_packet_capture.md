@@ -22,7 +22,7 @@ tool.
 
 ## Where to capture
 
-The single most important decision, and getting it wrong wastes the exercise.
+The most important decision, and getting it wrong wastes the exercise.
 
 ```
    Client ──── Switch A ──── Router ──── Firewall ──── Switch B ──── Server

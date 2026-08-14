@@ -116,7 +116,7 @@ Whether that exchange should be free is the argument, and §48.2 works through i
    64 bytes from 203.0.113.9: time=3.1 ms      ← a cache 4 km away
 
    $ ping some-small-site.example.org
-   64 bytes from 198.51.100.7: time=147 ms     ← genuinely across an ocean
+   64 bytes from 198.51.100.7: time=147 ms     ← across an ocean
 ```
 
 Two sites that "are on the Internet" can differ by fifty times in latency, and the

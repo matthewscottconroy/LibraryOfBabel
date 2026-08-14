@@ -1,7 +1,7 @@
 # 3.4 The Bandwidth–Delay Product
 
 We now have the pieces to explain the mystery from Chapter 1's diagnostic exercise
-and Cheshire's essay, and to derive the single most useful formula in network
+and Cheshire's essay, and to derive the most useful formula in network
 performance work.
 
 ## The pipe metaphor, cashed out

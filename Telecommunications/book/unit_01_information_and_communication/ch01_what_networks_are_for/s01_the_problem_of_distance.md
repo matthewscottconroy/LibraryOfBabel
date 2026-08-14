@@ -47,7 +47,7 @@ number that further engineering will improve.
 
 ## The floor you cannot get under
 
-That last point deserves emphasis, because it produces the single most persistent
+That last point deserves emphasis, because it produces the most persistent
 misunderstanding in network engineering.
 
 Light in vacuum travels at 299,792,458 metres per second, exactly, by definition

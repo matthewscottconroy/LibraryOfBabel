@@ -145,8 +145,7 @@ The correct answer is **two summaries**: `192.168.5.0/24` + `192.168.6.0/23` +
 
 ## Hierarchy — why plans are designed for this
 
-Aggregation works only if the addressing was **planned** to allow it. This is the single
-strongest argument for designing an address plan before deploying, and it is what §26.4
+Aggregation works only if the addressing was **planned** to allow it. This is the strongest argument for designing an address plan before deploying, and it is what §26.4
 develops.
 
 ```

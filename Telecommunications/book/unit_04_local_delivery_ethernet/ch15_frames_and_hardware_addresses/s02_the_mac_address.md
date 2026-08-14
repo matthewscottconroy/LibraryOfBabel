@@ -167,4 +167,4 @@ and eavesdropping becomes possible.
 > **Network+ note.** Objective 1.4 expects MAC addressing and the OUI. Two things
 > to over-learn: **an odd first byte means multicast**, which is immediately useful
 > in a capture; and **flat addressing does not scale**, which is the reason IP
-> exists and the single most useful idea in this section.
+> exists and the most useful idea in this section.

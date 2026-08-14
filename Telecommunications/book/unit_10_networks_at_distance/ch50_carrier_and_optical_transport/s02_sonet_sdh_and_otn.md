@@ -198,7 +198,7 @@ at these distances:
 > twenty-five years.
 
 **§50.3 makes the argument concretely.** For now: FEC is the reason a modern coherent system
-crosses an ocean without electrical regeneration, and it is the single largest reason OTN
+crosses an ocean without electrical regeneration, and it is the largest reason OTN
 displaced SONET.
 
 **OTN also does what SONET did well:** six levels of **tandem connection monitoring**, so a

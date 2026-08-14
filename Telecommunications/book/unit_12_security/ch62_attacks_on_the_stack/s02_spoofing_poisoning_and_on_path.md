@@ -11,7 +11,7 @@ Chapter 24 §24.2: the source address is asserted by the sender and verified by 
 
 | | |
 |---|---|
-| **Reflection and amplification** | §62.3 — **the single largest use** |
+| **Reflection and amplification** | §62.3 — **the largest use** |
 | **Bypassing address-based access control** | **which is why source IP is not authentication** |
 | **Blind injection into a session** | **hard, and possible where sequence numbers are guessable** |
 | **Attribution failure** | **the traffic appears to come from an innocent party** |

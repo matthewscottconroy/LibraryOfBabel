@@ -124,7 +124,7 @@ extra steps**, and it is a very common misconfiguration.
 
 - **No business model.** A provider carrying multicast bears cost and receives no
   revenue; the sender saves the bandwidth.
-- **Inter-domain complexity.** MSDP and inter-domain PIM are genuinely hard to operate.
+- **Inter-domain complexity.** MSDP and inter-domain PIM are hard to operate.
 - **No congestion control.** A multicast sender has no feedback from receivers and
   cannot slow down.
 - **Security.** Anyone can join a group; anyone can send to one.

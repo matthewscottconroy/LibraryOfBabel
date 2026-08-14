@@ -72,7 +72,7 @@ How it knows it arrived *(§34.3)* — The destination replies with a different 
 type: Unix's UDP probes draw port unreachable; Windows' ICMP probes draw echo
 reply; `-T`'s TCP SYN draws SYN-ACK or RST.
 
-Use `-T` when traceroute shows nothing *(§34.3)* — The single most useful line in the
+Use `-T` when traceroute shows nothing *(§34.3)* — The most useful line in the
 section. Firewalls routinely drop unsolicited UDP to high ports while permitting
 TCP/443, so `traceroute -T -p 443` traces the path your real traffic takes.
 

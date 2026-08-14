@@ -58,7 +58,7 @@ Its value is that it makes an argument quantitative. "Loss hurts throughput" is 
 statement anyone can make; "0.01% loss caps a 100 ms flow at 14 Mb/s regardless of link
 capacity" ends a discussion.
 
-It is the single most useful formula in this book for operational work, and Chapter 3
+It is the most useful formula in this book for operational work, and Chapter 3
 §3.3, Chapter 15 §15.4, Chapter 24 §24.3 and Chapter 66 all rest on it.
 
 **Sangtae Ha, Injong Rhee and Lisong Xu.** **CUBIC** (2008), from North Carolina State

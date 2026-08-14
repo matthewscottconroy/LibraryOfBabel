@@ -60,7 +60,7 @@ mtr host                     # Continuous, both loss and latency.
 > **When `traceroute` shows nothing and the service works, use `-T` to the port you
 > actually care about.**
 
-**This is the single most useful thing in this section.** A firewall permitting TCP/443
+**This is the most useful thing in this section.** A firewall permitting TCP/443
 and dropping UDP is entirely normal, and `traceroute -T -p 443` traces **the path your
 actual traffic takes**, through the filters your actual traffic passes.
 

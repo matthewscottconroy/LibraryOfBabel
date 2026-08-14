@@ -39,7 +39,7 @@ With $p = 23$ you can solve it by trying seven values; with a 3072-bit prime you
 > Two parties who have never met, communicating entirely over a channel an adversary is
 > recording in full, arrive at a shared secret the adversary cannot compute. Not obscure —
 > the adversary sees every message — but genuinely cannot derive. It is one of the
-> genuinely delightful results in applied mathematics, and it takes ten minutes to verify by
+> delightful results in applied mathematics, and it takes ten minutes to verify by
 > hand.
 
 ## The critical limitation
@@ -66,7 +66,7 @@ identity.
 
 > Every real protocol — TLS, IPsec, SSH, WireGuard — combines an unauthenticated key exchange
 > with an authentication mechanism, and understanding that they are two separate problems is
-> the single most clarifying idea in applied cryptography.
+> the most clarifying idea in applied cryptography.
 
 ## Forward secrecy
 

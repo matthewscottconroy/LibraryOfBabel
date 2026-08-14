@@ -123,7 +123,7 @@ sources, cool the front end, or — in a shared medium — remove the interferer
 In practice the second lever is usually cheaper and is usually the one ignored.
 An administrator facing poor Wi-Fi reaches for transmit power; the productive
 question is almost always what raised the noise floor. Chapter 45 develops this
-into a diagnostic procedure, and it is the single most transferable idea in Unit IX.
+into a diagnostic procedure, and it is the most transferable idea in Unit IX.
 
 ## What breaks here
 

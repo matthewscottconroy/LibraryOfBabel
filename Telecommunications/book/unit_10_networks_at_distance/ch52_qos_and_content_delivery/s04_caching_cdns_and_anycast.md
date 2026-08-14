@@ -226,4 +226,4 @@ anycast does not have this failure mode, which is one of its main advantages.
 > users**; anycast advertises one address from many locations and routing selects the
 > nearest; caching reduces load on the origin and latency for the user; and **load
 > balancing distributes requests across servers.** The anycast concept is examined and is
-> genuinely worth understanding rather than memorising.
+> worth understanding rather than memorising.

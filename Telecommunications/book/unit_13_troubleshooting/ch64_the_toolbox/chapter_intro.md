@@ -25,7 +25,7 @@ application.
 **Read all five numbers.** `min` approximates the path's irreducible delay; `avg −
 min` estimates queueing; `max` reveals excursions; `mdev` proxies jitter; and the loss
 percentage is the one everyone reads. Chapter 3 §3.3 made this point and it is the
-single most useful habit in the chapter.
+most useful habit in the chapter.
 
 **Vary the packet size.** `ping -s 1400` versus `ping -s 64` distinguishes an MTU
 problem from everything else in one test, and it is the fastest route to diagnosing the

@@ -146,7 +146,7 @@ And the failure mode is Chapter 24 §24.3's and Chapter 66 §66.3's:
 
 **The mechanism:** the sender's packet is too large for the tunnel; the tunnel endpoint should
 send an ICMP "Fragmentation Needed"; and something filters ICMP (Chapter 60 §60.1) so the
-sender never learns. This is the PMTUD black hole, and it is the single most common tunnel
+sender never learns. This is the PMTUD black hole, and it is the most common tunnel
 problem.
 
 **The remedies, in order of preference:**

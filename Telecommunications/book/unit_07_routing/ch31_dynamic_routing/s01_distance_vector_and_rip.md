@@ -177,7 +177,7 @@ network.
 |---|---|
 | **EIGRP** | Advanced distance vector, with DUAL — loop-free by construction, converges fast |
 | **BGP** | **Path vector** — distance vector carrying the full path, which fixes the loop problem |
-| **Babel, AODV, Batman** | Mesh and ad-hoc protocols, where simplicity and low state genuinely matter |
+| **Babel, AODV, Batman** | Mesh and ad-hoc protocols, where simplicity and low state matter |
 
 BGP is distance vector's most important descendant, and the Internet runs on it. The
 addition of an explicit path — the thing §31.1's limitation identified as missing — turned

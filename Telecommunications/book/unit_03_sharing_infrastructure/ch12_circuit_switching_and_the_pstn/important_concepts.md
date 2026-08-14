@@ -31,7 +31,7 @@ inter-exchange routing, in production from the 1950s, prefiguring Chapter 31.
 
 **The local loop** *(§12.1)* — A dedicated pair from exchange to premises, present
 in copper to virtually every building in the developed world and already paid for.
-The reason DSL exists and the single most consequential piece of infrastructure in
+The reason DSL exists and the most consequential piece of infrastructure in
 this book.
 
 Regeneration versus amplification, in its original setting *(§12.2)* — Analog

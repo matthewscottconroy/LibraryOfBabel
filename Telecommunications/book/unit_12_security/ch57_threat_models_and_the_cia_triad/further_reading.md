@@ -70,7 +70,7 @@ completeness check — most organisations are heavy on Protect and thin on Detec
 and the framework makes that visible.
 
 **CIS Critical Security Controls (v8).**
-The single most useful prioritised list available, and Implementation Group 1 is
+The most useful prioritised list available, and Implementation Group 1 is
 approximately §57.1's "defeat the opportunists" list. Start here if you need a programme and
 have no time.
 

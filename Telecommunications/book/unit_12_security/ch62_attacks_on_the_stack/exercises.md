@@ -81,7 +81,7 @@ DNS ANY (54×), NTP monlist (556×), memcached (51,000×).
 (b) What would RTBH achieve, and what would it cost?
 (c) A 400 Mb/s application-layer attack begins instead. Assess the same defences.
 
-**B6.** For each attack, state the layer, the mechanism and the single most effective
+**B6.** For each attack, state the layer, the mechanism and the most effective
 mitigation:
 
 (a) An attacker receives all traffic on a VLAN

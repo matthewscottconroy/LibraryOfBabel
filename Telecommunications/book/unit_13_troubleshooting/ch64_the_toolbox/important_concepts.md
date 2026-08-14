@@ -107,7 +107,7 @@ Tell someone before scanning *(§64.4)* — Unauthorised scanning is a criminal 
 many jurisdictions, and an unannounced internal scan wastes the security team's day.
 
 The fibre inspection scope is the highest-value physical tool per pound *(§64.4)* — A dirty
-connector is the single most common fibre fault, presenting as attenuation, intermittent
+connector is the most common fibre fault, presenting as attenuation, intermittent
 errors or a link that will not come up — all diagnosed expensively by every other means and in
 ten seconds by looking. And `show interface transceiver` gives the Rx power for free;
 compare it against the optic's sensitivity.

@@ -34,7 +34,7 @@ and the reason independent implementations interoperate.
 
 **RFC 1958 — Carpenter, B. (1996). *Architectural Principles of the Internet.***
 The architecture stated as principles rather than protocols. Includes the observation
-that **the end-to-end argument is the single most important principle** and that
+that **the end-to-end argument is the most important principle** and that
 constant change is the only constant.
 
 **Clark, D. et al. (2002). "Tussle in Cyberspace: Defining Tomorrow's Internet."
@@ -68,7 +68,7 @@ working beat specified and complete.
 ## Applied
 
 **Wireshark, on a single HTTP request.** Expand every layer and account for every byte
-against §23.3's arithmetic. This is exercise F3 and it is the single most valuable
+against §23.3's arithmetic. This is exercise F3 and it is the most valuable
 practical exercise in this unit — **encapsulation stops being a diagram the moment you
 watch it happen.**
 

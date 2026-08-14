@@ -153,8 +153,7 @@ secrets, PSKs, password hashes. A repository of network configurations is a high
 protected far less carefully than the devices. A secret committed once is in the history
 forever, and rotating it is nearly always easier than rewriting history.
 
-Pasting the old configuration back does not remove what was added *(§55.4)* — The single
-most common rollback failure. Use `configure replace`, `rollback`, `load override` — a
+Pasting the old configuration back does not remove what was added *(§55.4)* — The most common rollback failure. Use `configure replace`, `rollback`, `load override` — a
 mechanism that computes the difference and applies only what is needed.
 
 Back up the controllers with the same seriousness as the devices *(§55.4)* — A wireless

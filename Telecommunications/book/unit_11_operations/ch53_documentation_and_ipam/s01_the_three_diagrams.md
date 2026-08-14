@@ -105,7 +105,7 @@ the diagram. **Put it there.**
 
 ## What to leave off, in general
 
-**The single most useful editorial rule:**
+**The most useful editorial rule:**
 
 > **Diagrams show structure. Databases hold instances.**
 

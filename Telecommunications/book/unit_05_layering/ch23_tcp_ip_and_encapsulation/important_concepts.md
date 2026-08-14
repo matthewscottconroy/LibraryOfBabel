@@ -22,7 +22,7 @@ embryo, seven years before it was formalised.
 
 **The 1978 split** *(§23.1)* — The 1974 protocol was one thing. Splitting it into
 **IP** (addressing and forwarding) and **TCP/UDP** (reliability, or not) is the
-single most important structural decision in the suite. Without it, real-time media
+most important structural decision in the suite. Without it, real-time media
 could not use IP and voice would have needed a separate network — which is exactly what
 the telecoms industry expected.
 

@@ -207,7 +207,7 @@ Which means the argument has to be made in terms that are visible:
 And the pragmatic route is to attach cleanup to work that is already funded. A migration,
 a refresh or a compliance programme is an opportunity to remove rather than to copy, and
 "we will rebuild from the standard rather than migrate the existing configuration" is the
-single most valuable decision available at those moments.
+most valuable decision available at those moments.
 
 ## What breaks here
 

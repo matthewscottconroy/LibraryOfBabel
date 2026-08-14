@@ -15,7 +15,7 @@ saturation; (2) **MAC flapping**, the table rewritten thousands of times per sec
 the same source arrives on multiple ports, which breaks even unicast forwarding;
 (3) **multiple frame delivery**, which higher layers do not expect.
 
-`MACFLAP_NOTIF` means a loop *(§19.1)* — Until proven otherwise. The single most
+`MACFLAP_NOTIF` means a loop *(§19.1)* — Until proven otherwise. The most
 diagnostic log line in this chapter.
 
 **The operations-desk signature** *(§19.1)* — Everything down at once across the whole

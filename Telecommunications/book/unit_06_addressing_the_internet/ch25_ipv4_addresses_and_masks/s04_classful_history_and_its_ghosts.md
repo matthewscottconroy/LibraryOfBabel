@@ -186,7 +186,7 @@ defined on class boundaries:
 
 **The awkward `172.16.0.0/12` exists because it was defined as sixteen class Bs.** The
 `/12` and the odd 16–31 range in the second octet are a direct fossil of classful
-thinking, and it is the single most-forgotten private range for exactly that reason.
+thinking, and it is the most-forgotten private range for exactly that reason.
 
 ### Exam objectives
 

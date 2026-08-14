@@ -44,7 +44,7 @@ much that predictability is worth.
 
 ## The channel arithmetic
 
-The single most-cited piece of Wi-Fi folklore is "use channels 1, 6 and 11," and §43.2
+The most-cited piece of Wi-Fi folklore is "use channels 1, 6 and 11," and §43.2
 derives it rather than repeating it, because the derivation generalises and the rule
 does not.
 

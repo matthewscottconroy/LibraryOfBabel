@@ -30,8 +30,7 @@ thing to do was to promise exactly that and build everything else at the edges.
 
 ## The hourglass
 
-The consequence is the shape usually drawn as an hourglass, and it is the single
-most important diagram about the Internet's architecture:
+The consequence is the shape usually drawn as an hourglass, and it is the most important diagram about the Internet's architecture:
 
 ```
    Applications:   HTTP  SMTP  DNS  SSH  RTP  DHCP  SIP  ...  (many, and growing)

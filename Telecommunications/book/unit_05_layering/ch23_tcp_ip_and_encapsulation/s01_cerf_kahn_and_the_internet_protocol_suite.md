@@ -121,7 +121,7 @@ So TCP was split into two:
 essentially nothing — ports and a checksum — for applications that want the network's
 raw service.
 
-**This is the single most important structural decision in the suite**, and it is what
+**This is the most important structural decision in the suite**, and it is what
 makes the hourglass of §23.4 possible. If reliability were mandatory, real-time media
 could not use IP, and the Internet would have been a data network with a separate voice
 network beside it — which is precisely what the telecoms industry expected and built

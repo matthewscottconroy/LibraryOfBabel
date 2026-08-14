@@ -172,7 +172,7 @@ Size against the peak, with the ρ/(1−ρ) headroom of Chapter 3 §3.2.
 **Assuming independence when it does not hold.** The binomial calculation assumes
 users are independent. A software update pushed to everyone at 09:00, a live event,
 or a school's timetable synchronising four hundred devices destroys the assumption
-and with it the gain. This is the single most common way a capacity plan built on
+and with it the gain. This is the most common way a capacity plan built on
 this arithmetic fails.
 
 **Forgetting that the gain has a price.** An organisation that saved 80% on

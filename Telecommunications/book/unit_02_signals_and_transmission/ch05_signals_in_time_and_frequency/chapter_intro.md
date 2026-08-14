@@ -10,7 +10,7 @@ to work out the precise conditions under which Lagrange's objection was and was
 not correct.
 
 Lagrange was right about a technical detail and wrong about everything that
-mattered. Fourier's claim is essentially true, and it is the single most useful
+mattered. Fourier's claim is essentially true, and it is the most useful
 idea in signal processing, because it provides a second way of looking at any
 signal — and the second view explains things that the first view merely displays.
 

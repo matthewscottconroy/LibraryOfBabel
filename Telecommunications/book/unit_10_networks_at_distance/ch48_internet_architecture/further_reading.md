@@ -94,7 +94,7 @@ exchange, with what capacity, and their peering policy. Maintained by the networ
 themselves, and the first place to look when planning interconnection.
 
 **Public looking glasses** — most large networks run one. Seeing your own prefix from four
-other networks' perspectives is genuinely instructive, and it is F1.
+other networks' perspectives is instructive, and it is F1.
 
 `whois`, and RDAP clients — `whois 8.8.8.8` on any Unix; RDAP via `rdap.org` or the RIRs'
 own endpoints for structured output.

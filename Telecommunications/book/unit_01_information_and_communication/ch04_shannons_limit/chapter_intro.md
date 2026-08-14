@@ -57,7 +57,7 @@ right against a Shannon bound. Why does a fibre span need an amplifier every
 80 km? Because the SNR budget runs out.
 
 **It is the origin of the decibel discipline** that every physical-layer document
-in the field is written in. Learning to think in dB is the single most transferable
+in the field is written in. Learning to think in dB is the most transferable
 skill in this chapter, and §4.3 builds it from nothing.
 
 ## What this chapter does

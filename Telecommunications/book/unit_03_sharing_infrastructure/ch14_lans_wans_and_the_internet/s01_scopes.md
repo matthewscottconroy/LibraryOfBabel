@@ -126,8 +126,7 @@ applying them past the point where they hold.
 ## What breaks here
 
 **Applying LAN assumptions over a WAN.** Chatty protocols, broadcast-dependent
-service discovery, assumptions about sub-millisecond latency. This is the single
-largest source of "it works in the office and not from the branch".
+service discovery, assumptions about sub-millisecond latency. This is the largest source of "it works in the office and not from the branch".
 
 **Assuming the WAN is the bottleneck** because it historically was. Measure. On a
 modern network the bottleneck is frequently the application's round-trip count, a

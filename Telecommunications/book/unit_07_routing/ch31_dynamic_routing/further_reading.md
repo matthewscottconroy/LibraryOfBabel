@@ -85,7 +85,7 @@ an adjacency in each of the eight ways in §31.3's checklist and confirm the sym
 time.
 
 Create an MTU mismatch on purpose and watch the adjacency stick at ExStart. This is
-the single most-diagnosed OSPF fault, and having seen it once you will recognise it
+the most-diagnosed OSPF fault, and having seen it once you will recognise it
 instantly.
 
 **`show ip ospf database`** and read the LSAs. Identify a Type 1, a Type 2 from the DR, a

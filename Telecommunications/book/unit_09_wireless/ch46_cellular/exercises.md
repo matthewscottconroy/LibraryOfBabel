@@ -16,7 +16,7 @@
 
 **A7.** What is cell breathing, and in which technology does it occur?
 
-**A8.** What is the single largest architectural change in LTE?
+**A8.** What is the largest architectural change in LTE?
 
 **A9.** Distinguish 5G SA from NSA, and state what NSA cannot do.
 

@@ -1,6 +1,6 @@
 # 25.2 Network and Host Portions
 
-The single most important structural fact about an IP address:
+The most important structural fact about an IP address:
 
 > **Every IPv4 address is split into two parts. The left part identifies a network. The
 > right part identifies a host on that network.**

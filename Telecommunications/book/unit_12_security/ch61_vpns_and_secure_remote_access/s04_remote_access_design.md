@@ -74,7 +74,7 @@ an endpoint agent or a cloud service rather than by the tunnel. Full tunnel only
 regulation requires all traffic to be inspected on premises, and then size for it.
 
 **What authentication?** Certificate plus a phishing-resistant factor (Chapter 59 §59.1).
-A VPN protected by a password alone is the single most productive target in most
+A VPN protected by a password alone is the most productive target in most
 organisations, and it is how a large share of ransomware incidents begin (Chapter 57 §57.1).
 
 **What does a connected client reach?** This is the question that matters most and is answered
@@ -143,7 +143,7 @@ confusing when it is the cause.
 concentrator's encrypted throughput.
 
 A VPN compromise leading to a ransomware incident. **Password-only authentication.** This
-is the single commonest initial access route into organisations with a VPN, and MFA on it is
+is the commonest initial access route into organisations with a VPN, and MFA on it is
 the highest-value control available.
 
 **A connected contractor reaching the finance servers.** The concentrator applies no per-group

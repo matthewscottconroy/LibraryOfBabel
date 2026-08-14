@@ -201,7 +201,7 @@ numbering lacks.
 ## What breaks here
 
 **Large transfers hanging while small ones work.** Type 3 code 4 filtered. §34.4, and it
-is the single most valuable diagnosis in this chapter.
+is the most valuable diagnosis in this chapter.
 
 **`traceroute` showing stars mid-path with connectivity working.** Rate limiting. **Not a
 fault.**

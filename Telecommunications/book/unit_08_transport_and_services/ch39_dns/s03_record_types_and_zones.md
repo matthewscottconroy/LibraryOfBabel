@@ -270,7 +270,7 @@ ns1.eng IN  A       192.0.2.60                  ← glue for the delegation
 
 **A name without a trailing dot has `$ORIGIN` appended.** So `www` becomes
 `www.example.com.` — **and `www.example.com` without the dot becomes
-`www.example.com.example.com.`**, which is the single most common zone-file mistake and
+`www.example.com.example.com.`**, which is the most common zone-file mistake and
 produces a name nobody can resolve.
 
 **A blank name reuses the previous record's name**, which is convenient and makes

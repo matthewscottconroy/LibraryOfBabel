@@ -151,7 +151,7 @@ The category network engineers most often lack and most often need.
 **Two of those deserve emphasis.**
 
 > **The fibre inspection scope is the highest-value physical tool per pound.** A dirty
-> connector is the single most common fibre fault, and it presents as attenuation,
+> connector is the most common fibre fault, and it presents as attenuation,
 > intermittent errors, or a link that will not come up — all of which are diagnosed
 > expensively by every other means and in ten seconds by looking.
 

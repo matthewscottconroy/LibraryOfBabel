@@ -2,7 +2,7 @@
 
 ## Full duplex, and the abolition of collisions
 
-The single most consequential change in Ethernet's operational history, and it
+The most consequential change in Ethernet's operational history, and it
 required no new physics.
 
 **Twisted pair has separate pairs for each direction.** 10BASE-T and 100BASE-TX use

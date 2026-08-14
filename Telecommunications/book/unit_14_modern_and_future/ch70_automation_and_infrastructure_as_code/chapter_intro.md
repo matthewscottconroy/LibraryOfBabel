@@ -104,7 +104,7 @@ effect on reachability is verified.
 
 That capability did not exist in usable form a decade ago and does now, and it moves
 network changes from "we think this will work" to "we tested that this works," which
-is the single largest available improvement to the change-related outage statistic from
+is the largest available improvement to the change-related outage statistic from
 Chapter 55.
 
 ## AIOps, assessed honestly

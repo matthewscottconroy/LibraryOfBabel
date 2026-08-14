@@ -220,7 +220,7 @@ router bgp 65001
 
 **Four lines are load-bearing:**
 
-**`prefix-list ... out`** — **the single most important line in BGP.** Without an outbound
+**`prefix-list ... out`** — **the most important line in BGP.** Without an outbound
 filter, a misconfiguration or a route leak advertises everything you have learned to
 everyone you peer with, and §32.4's incidents are what follows. **Never configure a BGP
 neighbour without an outbound filter.**

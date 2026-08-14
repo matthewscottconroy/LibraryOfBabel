@@ -94,7 +94,7 @@ for §10.4's wireless links and for checking exercise B6 of Chapter 10.
 **An optical power meter and a visual fault locator**, if your institution has
 them. Measuring a real link's loss and comparing it against a computed budget takes
 twenty minutes and makes §10.3 concrete. A fibre inspection scope showing a dirty
-ferrule before and after cleaning is the single most persuasive demonstration in
+ferrule before and after cleaning is the most persuasive demonstration in
 the chapter.
 
 **A cable certifier**, if available. Lab 02 builds a split pair deliberately; seeing
@@ -108,7 +108,7 @@ transceivers, and the selection criteria. Objective 2.4 covers physical installa
 and PoE. Objective 5.2 covers cable fault diagnosis.
 
 Four things worth over-learning, because they are examined and because they are
-genuinely load-bearing in practice:
+load-bearing in practice:
 
 1. **Distance limits**, and that 100 m for twisted pair is absolute rather than a
    guideline.

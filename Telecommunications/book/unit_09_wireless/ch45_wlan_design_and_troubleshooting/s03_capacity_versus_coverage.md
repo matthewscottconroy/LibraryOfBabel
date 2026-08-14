@@ -148,7 +148,7 @@ client adds beacon-response, probe and management traffic.
 > **Ten access points, not one.** The throughput arithmetic said one and **the client-count
 > arithmetic says ten**, and the client count wins.
 
-This is the single most important idea in capacity design, and it is why lecture theatres,
+This is the most important idea in capacity design, and it is why lecture theatres,
 auditoria and stadiums have far more access points than their area suggests.
 
 ## Making cells small

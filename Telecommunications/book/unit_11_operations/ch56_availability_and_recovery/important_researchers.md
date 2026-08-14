@@ -106,7 +106,7 @@ requirement that is enforced continuously is met; one that is documented is not.
 
 ## The finding that should change what you do
 
-Gray's measurement is the single most useful number in this chapter, and it is forty years
+Gray's measurement is the most useful number in this chapter, and it is forty years
 old.
 
 If hardware is under a fifth of outages and administration plus software is two thirds,

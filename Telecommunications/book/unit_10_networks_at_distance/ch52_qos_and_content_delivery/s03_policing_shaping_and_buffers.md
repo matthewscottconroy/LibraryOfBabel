@@ -198,7 +198,7 @@ device on a rate-limited circuit.
 
 > On a home or small-branch link, `cake bandwidth 47.5Mbit` on the egress interface will
 > outperform most hand-built QoS policies, requires no classification, and cannot be
-> defeated by a host marking its own traffic. It is the single most effective networking
+> defeated by a host marking its own traffic. It is the most effective networking
 > configuration change available to most people, and almost nobody makes it.
 
 ## What breaks here
@@ -229,4 +229,4 @@ it owns.
 > **Network+ note.** Objective 3.2 and 5.x. Over-learn: traffic shaping buffers excess
 > traffic and releases it smoothly; **policing drops or re-marks traffic above a rate**;
 > **shaping introduces delay, policing introduces loss**; and **bandwidth is not the same as
-> throughput.** The shaping-versus-policing distinction is examined and is genuinely useful.
+> throughput.** The shaping-versus-policing distinction is examined and is useful.

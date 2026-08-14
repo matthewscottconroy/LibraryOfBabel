@@ -8,7 +8,7 @@ contended devices while spanning tree blocked half the links.
 
 Most packets in a modern data centre are forwarded by software before reaching any physical
 switch *(§67.1)* — Two VMs on one host generate traffic that never reaches a cable, a switch
-or any monitoring you have deployed. This visibility gap is the single most important
+or any monitoring you have deployed. This visibility gap is the most important
 operational consequence of virtualisation for a network engineer, and it is why
 microsegmentation is enforced at the virtual switch — the only place that sees it.
 

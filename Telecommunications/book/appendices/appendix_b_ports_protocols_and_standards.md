@@ -293,7 +293,7 @@ why crossover cables have largely disappeared.
 | 1122 / 1123 | Requirements for Internet Hosts |
 | 1191 | Path MTU Discovery |
 | 1918 | Private address space |
-| 1918 / 4632 | CIDR |
+| 1519 / 4632 | CIDR |
 | 2131 | DHCP |
 | 2328 | OSPFv2 |
 | 2474 | DiffServ / DSCP |

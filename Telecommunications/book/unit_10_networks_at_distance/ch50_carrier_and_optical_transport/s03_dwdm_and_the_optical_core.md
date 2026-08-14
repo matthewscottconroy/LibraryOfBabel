@@ -16,7 +16,7 @@ over the relevant power range that superposition holds.
    λ1 ──┐                                          ┌── λ1
    λ2 ──┤                                          ├── λ2
    λ3 ──┼──▶ [mux] ═══one fibre═══ [demux] ──▶ ────┼── λ3
-    ⋮  ──┤                                          ├── ⋮
+    :  ──┤                                          ├── :
    λ96──┘                                          └── λ96
 ```
 
@@ -68,7 +68,7 @@ Which meant, for a DWDM system, one regenerator per wavelength per site.
    Without EDFA — every 40 km:
    λ1 ──▶ [O/E] ──▶ [retime] ──▶ [E/O] ──▶ λ1
    λ2 ──▶ [O/E] ──▶ [retime] ──▶ [E/O] ──▶ λ2      96 of these,
-    ⋮                                               in a building,
+    :                                               in a building,
    λ96──▶ [O/E] ──▶ [retime] ──▶ [E/O] ──▶ λ96      with power and cooling
 
    With EDFA — every 80–100 km:

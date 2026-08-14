@@ -116,6 +116,8 @@ where ρ is utilisation. Tabulate it:
 | 0.95 | 19.0 |
 | 0.99 | 99.0 |
 
+![The M/M/1 queueing curve. Delay is flat where capacity is comfortable and vertical where it is not — and utilisation graphs give no warning of the knee.](../../figures/queueing_delay.svg){width=85%}
+
 Going from 50% to 90% utilised — which looks like sensible use of a resource you
 paid for — multiplies queueing delay by nine. This is why network capacity
 planning targets 60–70% peak utilisation rather than 95%, a rule that looks

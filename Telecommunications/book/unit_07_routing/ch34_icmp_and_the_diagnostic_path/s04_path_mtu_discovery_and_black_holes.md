@@ -38,7 +38,7 @@ side effect of a default-deny rule nobody examined.
 ```
    Sender:   1500-byte packets, DF set   ──▶
    Router:   cannot forward, MTU is 1400
-   Router:   drops, sends ICMP 3/4       ──✂── BLOCKED
+   Router:   drops, sends ICMP 3/4       ──╳── BLOCKED
    Sender:   hears nothing
    Sender:   retransmits 1500-byte packets, DF set   ──▶
    Router:   drops

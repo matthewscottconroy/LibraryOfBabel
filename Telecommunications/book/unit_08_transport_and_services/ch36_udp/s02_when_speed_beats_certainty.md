@@ -35,7 +35,7 @@ arrived** and TCP will not deliver them until 5 is retransmitted and received.
 
 ```
    Sent:      1  2  3  4  5  6  7  8
-   Arrived:   1  2  3  4  ✗  6  7  8
+   Arrived:   1  2  3  4  ×  6  7  8
    Delivered: 1  2  3  4  ─── nothing ───   ← waiting for 5
                               ↓
                    +1 RTT for retransmission

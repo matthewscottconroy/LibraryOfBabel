@@ -36,6 +36,8 @@ Sixteen points, four bits each. 4096-QAM — in Wi-Fi 7 — is a 64×64 grid car
 twelve bits per symbol, and drawing it legibly is not possible on this page, which
 is itself informative about how close together those points are.
 
+![Left: QPSK's four well-separated points. Centre: 16-QAM packs sixteen into the same power. Right: the same 16-QAM as a receiver sees it — noise turns points into clouds, and more points means less room for cloud.](../../figures/constellations.svg){width=95%}
+
 ## The cost, computed
 
 Fix the peak power the transmitter can produce, because that is what the amplifier

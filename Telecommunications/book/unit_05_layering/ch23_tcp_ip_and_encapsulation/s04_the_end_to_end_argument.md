@@ -32,11 +32,11 @@ nothing is ever lost.
 |---|---|
 | A bit flips on the wire | ✓ |
 | A router drops a packet | ✓ |
-| A bit flips **in the sending host's memory** | ✗ |
-| The **disk read** returns bad data | ✗ |
-| The **sending application** has a bug | ✗ |
-| The **receiving host's memory** corrupts it | ✗ |
-| The **disk write** fails silently | ✗ |
+| A bit flips **in the sending host's memory** | × |
+| The **disk read** returns bad data | × |
+| The **sending application** has a bug | × |
+| The **receiving host's memory** corrupts it | × |
+| The **disk write** fails silently | × |
 
 A reliable network catches some failures. **The application must check anyway** —
 compute a checksum of the file it read, compare against a checksum of the file

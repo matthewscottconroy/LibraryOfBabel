@@ -35,11 +35,11 @@ one.
 ```
    One big cell:                    Many small cells:
 
-   ┌─────────────────────┐          ⬡ ⬡ ⬡ ⬡ ⬡
-   │                     │         ⬡ ⬡ ⬡ ⬡ ⬡ ⬡
-   │    56 channels      │          ⬡ ⬡ ⬡ ⬡ ⬡
-   │    for the city     │         ⬡ ⬡ ⬡ ⬡ ⬡ ⬡
-   │                     │          ⬡ ⬡ ⬡ ⬡ ⬡
+   ┌─────────────────────┐          ○ ○ ○ ○ ○
+   │                     │         ○ ○ ○ ○ ○ ○
+   │    56 channels      │          ○ ○ ○ ○ ○
+   │    for the city     │         ○ ○ ○ ○ ○ ○
+   │                     │          ○ ○ ○ ○ ○
    └─────────────────────┘
                                     each cell: 8 channels
    56 simultaneous calls            28 cells × 8 = 224 calls
@@ -95,6 +95,8 @@ giving N = 1, 3, 4, 7, 9, 12, 13, 19… — the numbers for which hexagons tile 
 $$\frac{D}{R} = \sqrt{3N}$$
 
 where *D* is the distance between co-channel cells and *R* the cell radius.
+
+![A seven-group reuse pattern. Every cell uses one-seventh of the spectrum, and the same frequencies repeat at a distance where mutual interference is tolerable — capacity now scales with the number of cells, not the amount of spectrum.](../../figures/cell_reuse.svg){width=88%}
 
 | N | D/R | Channels per cell (of 336) | Interference |
 |---|---|---|---|

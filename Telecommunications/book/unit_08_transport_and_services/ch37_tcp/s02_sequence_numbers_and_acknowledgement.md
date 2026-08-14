@@ -128,7 +128,7 @@ sender learns everything it needed. **The acknowledgement is self-repairing.**
 **And it cannot express a gap.** This is the limitation:
 
 ```
-   Received:  1–1000,  ✗ missing 1001–2000,  2001–3000
+   Received:  1–1000,  × missing 1001–2000,  2001–3000
 
    ACK can only say:  1001
 ```

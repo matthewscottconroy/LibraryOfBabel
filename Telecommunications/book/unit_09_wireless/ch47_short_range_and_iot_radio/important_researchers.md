@@ -17,7 +17,7 @@ short range and the modest data rate, was made to keep the silicon small.
 > had been reading a novel about Harald Bluetooth, the tenth-century king who united Denmark
 > and Norway, and proposed it as a placeholder for a technology intended to unite
 > communication protocols. The placeholder was never replaced, and the logo is his initials
-> in runes — the bind rune of ᚼ and ᛒ.
+> in runes — a bind rune of Harald's initials.
 
 Haartsen was inducted into the National Inventors Hall of Fame in 2015, and he has
 observed since that the specification's growth from a cable replacement to a general-purpose

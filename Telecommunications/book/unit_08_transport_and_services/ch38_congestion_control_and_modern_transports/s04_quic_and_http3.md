@@ -49,7 +49,7 @@ order.
 
 ```
    HTTP/2 over TCP:
-   stream A ──▶ ▓▓▓▓ ✗ ▓▓▓▓        one packet lost in stream A...
+   stream A ──▶ ▓▓▓▓ × ▓▓▓▓        one packet lost in stream A...
    stream B ──▶ ▓▓▓▓▓▓▓▓▓▓
    stream C ──▶ ▓▓▓▓▓▓▓▓▓▓
                      ↓
@@ -104,7 +104,7 @@ minimum needed for routing is visible.
 
 ```
    QUIC:
-   stream A ──▶ ▓▓▓▓ ✗ ▓▓▓▓        one packet lost in stream A...
+   stream A ──▶ ▓▓▓▓ × ▓▓▓▓        one packet lost in stream A...
    stream B ──▶ ▓▓▓▓▓▓▓▓▓▓        → delivered
    stream C ──▶ ▓▓▓▓▓▓▓▓▓▓        → delivered
 ```

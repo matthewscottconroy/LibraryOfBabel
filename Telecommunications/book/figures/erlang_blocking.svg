@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" font-family="Georgia, 'Times New Roman', serif">
+<rect width="720" height="430" fill="white"/>
+<text x="379.0" y="32.0" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1a1a2e" text-anchor="middle" font-weight="bold" style="">Erlang B: how many circuits for 1% blocking?</text>
+<line x1="58.0" y1="384.0" x2="58.0" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="58.0" y1="384.0" x2="58.0" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="58.0" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">0</text>
+<line x1="218.5" y1="384.0" x2="218.5" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="218.5" y1="384.0" x2="218.5" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="218.5" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">10</text>
+<line x1="379.0" y1="384.0" x2="379.0" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="379.0" y1="384.0" x2="379.0" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="379.0" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">20</text>
+<line x1="539.5" y1="384.0" x2="539.5" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="539.5" y1="384.0" x2="539.5" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="539.5" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">30</text>
+<line x1="700.0" y1="384.0" x2="700.0" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="700.0" y1="384.0" x2="700.0" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="700.0" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">40</text>
+<line x1="58.0" y1="384.0" x2="700.0" y2="384.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="53.0" y1="384.0" x2="58.0" y2="384.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="49.0" y="389.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">0.01%</text>
+<line x1="58.0" y1="302.5" x2="700.0" y2="302.5" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="53.0" y1="302.5" x2="58.0" y2="302.5" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="49.0" y="307.5" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">0.1%</text>
+<line x1="58.0" y1="221.0" x2="700.0" y2="221.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="53.0" y1="221.0" x2="58.0" y2="221.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="49.0" y="226.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">1%</text>
+<line x1="58.0" y1="139.5" x2="700.0" y2="139.5" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="53.0" y1="139.5" x2="58.0" y2="139.5" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="49.0" y="144.5" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">10%</text>
+<line x1="58.0" y1="58.0" x2="700.0" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="53.0" y1="58.0" x2="58.0" y2="58.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="49.0" y="63.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">100%</text>
+<line x1="58.0" y1="384.0" x2="700.0" y2="384.0" stroke="#1a1a2e" stroke-width="1.5" opacity="1.0"/>
+<line x1="58.0" y1="384.0" x2="58.0" y2="58.0" stroke="#1a1a2e" stroke-width="1.5" opacity="1.0"/>
+<text x="379.0" y="420.0" font-family="Georgia, 'Times New Roman', serif" font-size="15.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">circuits provided (N)</text>
+<text x="16.0" y="221.0" font-family="Georgia, 'Times New Roman', serif" font-size="15.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="" transform="rotate(-90 16.0 221.0)">blocking probability</text>
+<line x1="58.0" y1="221.0" x2="700.0" y2="221.0" stroke="#9a9aa5" stroke-width="1.4" stroke-dasharray="6,4" opacity="1.0"/>
+<text x="74.0" y="211.7" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#9a9aa5" text-anchor="start" font-weight="normal" style="">1% grade of service</text>
+<polyline points="74.0,64.5 90.1,71.9 106.2,80.5 122.2,90.6 138.2,102.4 154.3,116.4 170.3,132.9 186.4,152.1 202.5,174.3 218.5,199.4 234.6,227.6 250.6,258.8 266.6,292.6 282.7,329.1 298.8,368.0 314.8,384.0 330.8,384.0 346.9,384.0 362.9,384.0 379.0,384.0 395.1,384.0 411.1,384.0 427.1,384.0 443.2,384.0 459.2,384.0 475.3,384.0 491.4,384.0 507.4,384.0 523.5,384.0 539.5,384.0 555.5,384.0 571.6,384.0 587.6,384.0 603.7,384.0 619.8,384.0 635.8,384.0 651.9,384.0 667.9,384.0 683.9,384.0 700.0,384.0" fill="none" stroke="#2e7d6f" stroke-width="2.4" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="234.6" cy="221.0" r="4.5" fill="#2e7d6f" opacity="1.0" stroke="none"/>
+<text x="157.5" y="79.2" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#2e7d6f" text-anchor="start" font-weight="normal" style="">A = 5 erlangs</text>
+<text x="234.6" y="249.3" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#2e7d6f" text-anchor="middle" font-weight="normal" style="">11</text>
+<polyline points="74.0,61.4 90.1,65.0 106.2,69.0 122.2,73.4 138.2,78.3 154.3,83.6 170.3,89.6 186.4,96.4 202.5,103.9 218.5,112.5 234.6,122.2 250.6,133.1 266.6,145.5 282.7,159.5 298.8,175.2 314.8,192.6 330.8,211.9 346.9,232.9 362.9,255.8 379.0,280.4 395.1,306.7 411.1,334.6 427.1,364.1 443.2,384.0 459.2,384.0 475.3,384.0 491.4,384.0 507.4,384.0 523.5,384.0 539.5,384.0 555.5,384.0 571.6,384.0 587.6,384.0 603.7,384.0 619.8,384.0 635.8,384.0 651.9,384.0 667.9,384.0 683.9,384.0 700.0,384.0" fill="none" stroke="#23527c" stroke-width="2.4" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="346.9" cy="221.0" r="4.5" fill="#23527c" opacity="1.0" stroke="none"/>
+<text x="237.8" y="79.2" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#23527c" text-anchor="start" font-weight="normal" style="">A = 10 erlangs</text>
+<text x="346.9" y="249.3" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#23527c" text-anchor="middle" font-weight="normal" style="">18</text>
+<polyline points="74.0,59.7 90.1,61.5 106.2,63.4 122.2,65.4 138.2,67.5 154.3,69.7 170.3,72.1 186.4,74.5 202.5,77.1 218.5,79.9 234.6,82.9 250.6,86.1 266.6,89.6 282.7,93.2 298.8,97.2 314.8,101.6 330.8,106.3 346.9,111.4 362.9,117.0 379.0,123.1 395.1,129.8 411.1,137.2 427.1,145.3 443.2,154.2 459.2,163.9 475.3,174.5 491.4,186.1 507.4,198.7 523.5,212.3 539.5,226.9 555.5,242.6 571.6,259.4 587.6,277.2 603.7,296.0 619.8,315.8 635.8,336.7 651.9,358.4 667.9,381.2 683.9,384.0 700.0,384.0" fill="none" stroke="#a63d40" stroke-width="2.4" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="539.5" cy="221.0" r="4.5" fill="#a63d40" opacity="1.0" stroke="none"/>
+<text x="398.3" y="79.2" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#a63d40" text-anchor="start" font-weight="normal" style="">A = 20 erlangs</text>
+<text x="539.5" y="249.3" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#a63d40" text-anchor="middle" font-weight="normal" style="">30</text>
+<text x="494.6" y="339.7" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">18 circuits carry 10 erlangs —</text>
+<text x="494.6" y="359.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">the statistical multiplexing gain</text>
+</svg>

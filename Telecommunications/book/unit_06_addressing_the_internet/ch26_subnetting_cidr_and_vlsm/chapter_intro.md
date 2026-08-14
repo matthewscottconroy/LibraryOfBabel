@@ -79,7 +79,7 @@ First host: 192.168.10.65
 Last host:  192.168.10.94
 Broadcast:  192.168.10.95    ...010 11111    (OR with inverted mask)
 Next net:   192.168.10.96
-Hosts:      2⁵ − 2 = 30
+Hosts:      2^5 − 2 = 30
 ```
 
 And then the shortcut, which is not a trick to memorise but a consequence to

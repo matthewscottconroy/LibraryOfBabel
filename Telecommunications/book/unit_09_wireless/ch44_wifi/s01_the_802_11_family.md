@@ -206,6 +206,8 @@ MCS 4–7.
 And this is why Chapter 42 §42.1's SNR discussion matters operationally: the MCS index a
 client achieves is a direct function of its SNR, and the rate follows from the MCS.
 
+![The modulation ladder against Shannon's bound. Each step needs roughly 6 dB more SNR for two more bits per symbol; your device walks this staircase down as you walk away from the access point.](../../figures/mcs_ladder.svg){width=85%}
+
 **Rate adaptation** — the client and access point continuously adjust the MCS based on
 success rate. A client dropping from MCS 9 to MCS 4 has encountered conditions that will
 not support the higher modulation, and forcing it back up produces errors and

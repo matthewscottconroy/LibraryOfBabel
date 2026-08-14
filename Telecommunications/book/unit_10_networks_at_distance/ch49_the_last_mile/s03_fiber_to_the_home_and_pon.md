@@ -31,7 +31,7 @@ electronics, no active components, nothing to fail and nothing to maintain.
    OLT ═══one fibre═══ [1:32] ┼── ONT     one transceiver at the exchange,
    (exchange)          splitter├── ONT     one fibre in the duct,
                               ├── ONT     thirty-two homes
-                              └── ⋮
+                              └── :
 ```
 
 | | |

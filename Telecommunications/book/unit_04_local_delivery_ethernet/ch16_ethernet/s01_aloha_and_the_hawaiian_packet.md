@@ -86,6 +86,8 @@ $$S = G e^{-G}, \qquad S_{\max} = \frac{1}{e} \approx 0.368$$
 
 **36.8%.** Twice as good, for the cost of distributing a clock.
 
+![ALOHA's throughput curves. Both rise, peak, and then fall — offering more traffic past the peak delivers less of it, which is the instability that every backoff algorithm since exists to damp.](../../figures/aloha_throughput.svg){width=85%}
+
 Both figures are reproducible:
 
 ```bash

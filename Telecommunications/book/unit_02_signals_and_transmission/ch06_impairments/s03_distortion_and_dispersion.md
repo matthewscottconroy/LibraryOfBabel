@@ -135,6 +135,8 @@ Read it as follows:
 | **Width of the crossings** | Jitter |
 | **Asymmetry** | Duty cycle distortion, or a DC offset |
 
+![A computed eye diagram: 120 random symbols through a band-limited channel with noise, overlaid on one symbol clock. The open centre is the margin for a correct decision; every impairment in this chapter closes it from a different side.](../../figures/eye_diagram.svg){width=90%}
+
 A wide-open eye is a healthy link. As distortion, dispersion, noise and jitter
 accumulate, **the eye closes**, and when it closes past the point where a decision
 can be made reliably, the link fails — abruptly, per Chapter 5 §5.1's threshold

@@ -34,7 +34,7 @@ A worked plan for a 12-site organisation with 10.0.0.0/8:
    ├── 10.10.0.0/16   Site A   (headquarters)
    ├── 10.20.0.0/16   Site B   (warehouse)
    ├── 10.30.0.0/16   Site C
-   │   ⋮                                        256 sites available; 12 used
+   │   :                                        256 sites available; 12 used
    └── 10.250.0.0/16  reserved — cloud, DMZ, partners
 
    Within a site, 10.20.0.0/16:
@@ -45,7 +45,7 @@ A worked plan for a 12-site organisation with 10.0.0.0/8:
    ├── 10.20.64.0/20   operational tech scanners, building systems, cameras
    ├── 10.20.80.0/20   guest and BYOD
    ├── 10.20.96.0/20   reserved
-   │   ⋮                                        16 functional blocks; 6 used
+   │   :                                        16 functional blocks; 6 used
    └── 10.20.240.0/20  reserved
 ```
 

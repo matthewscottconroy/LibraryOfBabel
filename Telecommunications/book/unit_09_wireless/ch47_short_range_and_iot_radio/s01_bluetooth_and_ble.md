@@ -9,7 +9,7 @@ versions of one thing is the commonest confusion in this area.
 **Ericsson, 1994**, to replace the serial cable between a phone and a headset. Named after
 Harald "Bluetooth" Gormsson, the tenth-century Danish king who united warring tribes — the
 analogy being a standard uniting incompatible devices — and the logo is his initials in
-runes, ᚼ and ᛒ, superimposed.
+runes for H and B, superimposed.
 
 The design constraints were unusual and they shaped everything: it had to be **very cheap**
 (cheaper than the cable it replaced), **very low power** (battery devices), and **very short

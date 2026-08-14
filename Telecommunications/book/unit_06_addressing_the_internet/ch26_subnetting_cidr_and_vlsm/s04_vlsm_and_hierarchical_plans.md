@@ -57,8 +57,8 @@ leaves the receiver to guess — and it guesses the classful default, which is w
 
 | Protocol | Carries the mask? | VLSM |
 |---|---|---|
-| RIPv1 | **no** | ✗ |
-| IGRP | **no** | ✗ |
+| RIPv1 | **no** | × |
+| IGRP | **no** | × |
 | RIPv2 | yes | ✓ |
 | EIGRP | yes | ✓ |
 | OSPF | yes | ✓ |

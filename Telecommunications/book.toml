@@ -40,6 +40,15 @@ lift_intros = true
 # Front matter renders as chapters, not as Parts I and II.
 front_matter_shift = 1
 
+# The default Latin Modern fonts silently drop every Greek letter in prose
+# and every box-drawing character in the ASCII diagrams. Noto covers the
+# book's entire character inventory (verified char-by-char); the mono scale
+# keeps 80-column diagrams inside the text width.
+# (Noto's variable-font files crash xdvipdfmx, so static faces are used.)
+mainfont = "TeX Gyre Pagella"
+monofont = "Source Code Pro"
+monofontoptions = ["Scale=0.84"]
+
 # The TOC lists parts and chapters only. toc_depth cannot go below 1
 # (pandoc), so section-level TOC lines are suppressed in the preamble.
 toc_depth = 1
@@ -48,6 +57,44 @@ header_includes = [
 \makeatletter
 \renewcommand{\l@section}[2]{}
 \makeatother
+''',
+  # Pagella lacks Unicode sub/superscripts and the deliberate
+  # foreign-script examples (the Pike & Thompson title, the homograph
+  # and mojibake demonstrations). Each such character is made active
+  # and rendered as a true LaTeX sub/superscript, or in a fallback
+  # font for the foreign scripts.
+  '''
+\newfontfamily\fallbackfont{Droid Sans Japanese}
+\newfontfamily\fallbackalpha{Droid Sans}
+\catcode`\ᴳ=\active \defᴳ{\ifmmode ^{G}\else\textsuperscript{G}\fi}
+\catcode`\ᵏ=\active \defᵏ{\ifmmode ^{k}\else\textsuperscript{k}\fi}
+\catcode`\⁰=\active \def⁰{\ifmmode ^{0}\else\textsuperscript{0}\fi}
+\catcode`\⁴=\active \def⁴{\ifmmode ^{4}\else\textsuperscript{4}\fi}
+\catcode`\⁵=\active \def⁵{\ifmmode ^{5}\else\textsuperscript{5}\fi}
+\catcode`\⁶=\active \def⁶{\ifmmode ^{6}\else\textsuperscript{6}\fi}
+\catcode`\⁷=\active \def⁷{\ifmmode ^{7}\else\textsuperscript{7}\fi}
+\catcode`\⁸=\active \def⁸{\ifmmode ^{8}\else\textsuperscript{8}\fi}
+\catcode`\⁹=\active \def⁹{\ifmmode ^{9}\else\textsuperscript{9}\fi}
+\catcode`\ⁿ=\active \defⁿ{\ifmmode ^{n}\else\textsuperscript{n}\fi}
+\catcode`\⁻=\active \def⁻{\ifmmode ^{-}\else\textsuperscript{−}\fi}
+\catcode`\ᵢ=\active \defᵢ{\ifmmode _{i}\else\textsubscript{i}\fi}
+\catcode`\₀=\active \def₀{\ifmmode _{0}\else\textsubscript{0}\fi}
+\catcode`\₁=\active \def₁{\ifmmode _{1}\else\textsubscript{1}\fi}
+\catcode`\₂=\active \def₂{\ifmmode _{2}\else\textsubscript{2}\fi}
+\catcode`\ₐ=\active \defₐ{\ifmmode _{a}\else\textsubscript{a}\fi}
+\catcode`\ₓ=\active \defₓ{\ifmmode _{x}\else\textsubscript{x}\fi}
+\catcode`\ₘ=\active \defₘ{\ifmmode _{m}\else\textsubscript{m}\fi}
+\catcode`\έ=\active \defέ{{\fallbackalpha\char"03AD }}
+\catcode`\ό=\active \defό{{\fallbackalpha\char"03CC }}
+\catcode`\Щ=\active \defЩ{{\fallbackalpha\char"0429 }}
+\catcode`\а=\active \defа{{\fallbackalpha\char"0430 }}
+\catcode`\こ=\active \defこ{{\fallbackfont\char"3053 }}
+\catcode`\ち=\active \defち{{\fallbackfont\char"3061 }}
+\catcode`\に=\active \defに{{\fallbackfont\char"306B }}
+\catcode`\は=\active \defは{{\fallbackfont\char"306F }}
+\catcode`\ん=\active \defん{{\fallbackfont\char"3093 }}
+\catcode`\世=\active \def世{{\fallbackfont\char"4E16 }}
+\catcode`\界=\active \def界{{\fallbackfont\char"754C }}
 ''',
 ]
 

@@ -49,11 +49,11 @@ Multiply each by a voltage. Add. Any point in amplitude-phase space is reachable
 by choosing two voltages, and choosing voltages is what electronics does well.
 
 ```
-     I ──────►[×]──┐
+     I ──────▶[×]──┐
                    │
-   cos(2πft) ──────┘   ├──►[+]──► s(t)
+   cos(2πft) ──────┘   ├──▶[+]──▶ s(t)
                        │
-     Q ──────►[×]──┐   │
+     Q ──────▶[×]──┐   │
                    │───┘
    sin(2πft) ──────┘
 ```

@@ -79,7 +79,7 @@ records together to save the round trip.
 **1. A CNAME cannot coexist with other records at the same name.**
 
 ```
-example.com.    IN  CNAME   something.        ✗ INVALID
+example.com.    IN  CNAME   something.        × INVALID
 example.com.    IN  MX      10 mail.          ← conflicts
 ```
 

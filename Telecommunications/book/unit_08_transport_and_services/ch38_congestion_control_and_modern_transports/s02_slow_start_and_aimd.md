@@ -130,6 +130,8 @@ The resulting behaviour, and it is what a TCP connection looks like:
 
 **Grow linearly until loss, halve, repeat.**
 
+![A connection's congestion window: slow start doubles per round trip until the first loss, then AIMD probes linearly and halves on each loss. The sawtooth's average is about three-quarters of the peak.](../../figures/tcp_cwnd.svg){width=85%}
+
 **Two consequences worth stating:**
 
 **Average utilisation is about 75%.** The window oscillates between *W* and *W*/2, averaging

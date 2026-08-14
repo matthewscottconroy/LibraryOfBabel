@@ -143,8 +143,8 @@ Two stations, A and B, on a shared segment.
  t=8µs   A's signal reaches B. B detects collision, sends jam, aborts.
  t=12µs  B's signal reaches A. A detects collision, sends jam, aborts.
  t=13µs  Both stations idle. Both compute backoff:
-           A: n=1, k=1, r ∈ {0,1} → chooses 0 → waits 0 slot times
-           B: n=1, k=1, r ∈ {0,1} → chooses 1 → waits 51.2 µs
+           A: n=1, k=1, r in {0,1} → chooses 0 → waits 0 slot times
+           B: n=1, k=1, r in {0,1} → chooses 1 → waits 51.2 µs
  t=14µs  A retransmits successfully.
  t=65µs  B senses idle, retransmits successfully.
 ```

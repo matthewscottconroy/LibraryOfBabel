@@ -122,7 +122,7 @@ significant portions of the Internet offline more than once.
 `192.168.4.0/22` — the block covers 4 units of /24, so it must start at a multiple of 4.
 4 ÷ 4 = 1. ✓
 
-`192.168.5.0/22` — 5 is **not** a multiple of 4. ✗ Not a valid /22.
+`192.168.5.0/22` — 5 is **not** a multiple of 4. × Not a valid /22.
 
 **Check by looking at the binary:** the network address must have all zeros in the host
 portion of the summary prefix. If it does not, the prefix is not valid.

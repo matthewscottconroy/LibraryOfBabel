@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" font-family="Georgia, 'Times New Roman', serif">
+<rect width="720" height="430" fill="white"/>
+<text x="379.0" y="32.0" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1a1a2e" text-anchor="middle" font-weight="bold" style="">Slow start, then the AIMD sawtooth</text>
+<line x1="58.0" y1="384.0" x2="58.0" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="58.0" y1="384.0" x2="58.0" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="58.0" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">0</text>
+<line x1="218.5" y1="384.0" x2="218.5" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="218.5" y1="384.0" x2="218.5" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="218.5" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">10</text>
+<line x1="379.0" y1="384.0" x2="379.0" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="379.0" y1="384.0" x2="379.0" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="379.0" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">20</text>
+<line x1="539.5" y1="384.0" x2="539.5" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="539.5" y1="384.0" x2="539.5" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="539.5" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">30</text>
+<line x1="700.0" y1="384.0" x2="700.0" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="700.0" y1="384.0" x2="700.0" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="700.0" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">40</text>
+<line x1="58.0" y1="384.0" x2="700.0" y2="384.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="53.0" y1="384.0" x2="58.0" y2="384.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="49.0" y="389.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">0</text>
+<line x1="58.0" y1="309.9" x2="700.0" y2="309.9" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="53.0" y1="309.9" x2="58.0" y2="309.9" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="49.0" y="314.9" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">10</text>
+<line x1="58.0" y1="235.8" x2="700.0" y2="235.8" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="53.0" y1="235.8" x2="58.0" y2="235.8" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="49.0" y="240.8" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">20</text>
+<line x1="58.0" y1="161.7" x2="700.0" y2="161.7" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="53.0" y1="161.7" x2="58.0" y2="161.7" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="49.0" y="166.7" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">30</text>
+<line x1="58.0" y1="87.6" x2="700.0" y2="87.6" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="53.0" y1="87.6" x2="58.0" y2="87.6" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="49.0" y="92.6" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">40</text>
+<line x1="58.0" y1="384.0" x2="700.0" y2="384.0" stroke="#1a1a2e" stroke-width="1.5" opacity="1.0"/>
+<line x1="58.0" y1="384.0" x2="58.0" y2="58.0" stroke="#1a1a2e" stroke-width="1.5" opacity="1.0"/>
+<text x="379.0" y="420.0" font-family="Georgia, 'Times New Roman', serif" font-size="15.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">time (round trips)</text>
+<text x="16.0" y="221.0" font-family="Georgia, 'Times New Roman', serif" font-size="15.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="" transform="rotate(-90 16.0 221.0)">congestion window (segments)</text>
+<polyline points="58.0,376.6 74.0,369.2 90.1,354.4 106.2,324.7 122.2,265.5 138.2,146.9" fill="none" stroke="#2e7d6f" stroke-width="2.6" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="91.7" y="221.0" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#2e7d6f" text-anchor="start" font-weight="normal" style="">slow start:</text>
+<text x="91.7" y="240.3" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#2e7d6f" text-anchor="start" font-weight="normal" style="">double per RTT</text>
+<circle cx="138.2" cy="146.9" r="5" fill="#a63d40" opacity="1.0" stroke="none"/>
+<text x="144.7" y="128.4" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#a63d40" text-anchor="start" font-weight="normal" style="">loss</text>
+<circle cx="395.1" cy="146.9" r="4" fill="#a63d40" opacity="1.0" stroke="none"/>
+<circle cx="651.9" cy="146.9" r="4" fill="#a63d40" opacity="1.0" stroke="none"/>
+<polyline points="138.2,265.5 395.1,146.9 395.1,265.5 651.9,146.9 651.9,265.5 700.0,243.2" fill="none" stroke="#23527c" stroke-width="2.6" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="58.0" y1="146.9" x2="700.0" y2="146.9" stroke="#9a9aa5" stroke-width="1.2" stroke-dasharray="6,4" opacity="1.0"/>
+<text x="692.0" y="135.1" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#9a9aa5" text-anchor="end" font-weight="normal" style="">path capacity</text>
+<text x="443.2" y="309.9" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">additive increase (+1 MSS per RTT),</text>
+<text x="443.2" y="329.2" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">multiplicative decrease (halve on loss)</text>
+</svg>

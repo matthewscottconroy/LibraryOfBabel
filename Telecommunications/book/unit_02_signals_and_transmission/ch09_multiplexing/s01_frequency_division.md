@@ -18,7 +18,7 @@ each is demodulated back to baseband.
 ```
    ch1  ──[×f₁]──┐
    ch2  ──[×f₂]──┤
-   ch3  ──[×f₃]──┼──[+]──► one medium ──►[filter bank]──► ch1, ch2, ch3, ch4
+   ch3  ──[×f₃]──┼──[+]──▶ one medium ──▶[filter bank]──▶ ch1, ch2, ch3, ch4
    ch4  ──[×f₄]──┘
 ```
 

@@ -101,10 +101,10 @@ Cipher Block Chaining: XOR each plaintext block with the previous ciphertext blo
 encrypting.
 
 ```
-   P1 ──⊕── [E] ──▶ C1 ──┐
+   P1 ─(+)─ [E] ──▶ C1 ──┐
         ▲                 │
        IV                 ▼
-   P2 ──⊕── [E] ──▶ C2 ──┐
+   P2 ─(+)─ [E] ──▶ C2 ──┐
 ```
 
 Identical blocks now encrypt differently, and the IV must be random and unpredictable —

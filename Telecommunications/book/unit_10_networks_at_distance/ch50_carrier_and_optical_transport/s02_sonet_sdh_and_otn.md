@@ -13,7 +13,7 @@ without unwinding the whole hierarchy.
 
 ```
    Primary Reference Clock (caesium / GPS-disciplined)
-        │  accuracy 1 × 10⁻¹¹
+        │  accuracy 1 × 10^-11
         ▼
    Building Integrated Timing Supply ──▶ every network element in the building
         │

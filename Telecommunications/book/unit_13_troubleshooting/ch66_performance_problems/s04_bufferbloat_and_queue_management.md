@@ -24,6 +24,8 @@ speed test reports full rate.
 That gap between idle and loaded latency is bufferbloat, and it is the most common
 unrecognised performance fault on consumer and small-branch links.
 
+![The measurement that finds bufferbloat: the same link, pinged continuously. Idle latency proves nothing; the upload exposes the queue; a shaper with AQM removes it without costing throughput.](../../figures/bufferbloat.svg){width=85%}
+
 ## Why it happens
 
 **Two facts that interact badly.**

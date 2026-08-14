@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" font-family="Georgia, 'Times New Roman', serif">
+<rect width="720" height="430" fill="white"/>
+<text x="360.0" y="28.0" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1a1a2e" text-anchor="middle" font-weight="bold" style="">Frequency reuse: the same channels, far enough apart</text>
+<polygon points="93.3,257.0 55.2,279.0 17.1,257.0 17.1,213.0 55.2,191.0 93.3,213.0" fill="#e3c9c9" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="55.2" y="240.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f4</text>
+<polygon points="131.4,323.0 93.3,345.0 55.2,323.0 55.2,279.0 93.3,257.0 131.4,279.0" fill="#e8e3c4" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="93.3" y="306.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f7</text>
+<polygon points="169.5,389.0 131.4,411.0 93.3,389.0 93.3,345.0 131.4,323.0 169.5,345.0" fill="#eadbc7" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="131.4" y="372.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f3</text>
+<polygon points="93.3,125.0 55.2,147.0 17.1,125.0 17.1,81.0 55.2,59.0 93.3,81.0" fill="#cfe3e0" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="55.2" y="108.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f6</text>
+<polygon points="131.4,191.0 93.3,213.0 55.2,191.0 55.2,147.0 93.3,125.0 131.4,147.0" fill="#cde3cd" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="93.3" y="174.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f2</text>
+<polygon points="169.5,257.0 131.4,279.0 93.3,257.0 93.3,213.0 131.4,191.0 169.5,213.0" fill="#d9cbe3" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="131.4" y="240.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f5</text>
+<polygon points="207.6,323.0 169.5,345.0 131.4,323.0 131.4,279.0 169.5,257.0 207.6,279.0" fill="#c7d7ea" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="169.5" y="306.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#a63d40" text-anchor="middle" font-weight="bold" style="">f1</text>
+<polygon points="245.7,389.0 207.6,411.0 169.5,389.0 169.5,345.0 207.6,323.0 245.7,345.0" fill="#e3c9c9" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="207.6" y="372.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f4</text>
+<polygon points="169.5,125.0 131.4,147.0 93.3,125.0 93.3,81.0 131.4,59.0 169.5,81.0" fill="#e8e3c4" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="131.4" y="108.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f7</text>
+<polygon points="207.6,191.0 169.5,213.0 131.4,191.0 131.4,147.0 169.5,125.0 207.6,147.0" fill="#eadbc7" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="169.5" y="174.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f3</text>
+<polygon points="245.7,257.0 207.6,279.0 169.5,257.0 169.5,213.0 207.6,191.0 245.7,213.0" fill="#cfe3e0" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="207.6" y="240.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f6</text>
+<polygon points="283.8,323.0 245.7,345.0 207.6,323.0 207.6,279.0 245.7,257.0 283.8,279.0" fill="#cde3cd" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="245.7" y="306.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f2</text>
+<polygon points="321.9,389.0 283.8,411.0 245.7,389.0 245.7,345.0 283.8,323.0 321.9,345.0" fill="#d9cbe3" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="283.8" y="372.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f5</text>
+<polygon points="245.7,125.0 207.6,147.0 169.5,125.0 169.5,81.0 207.6,59.0 245.7,81.0" fill="#c7d7ea" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="207.6" y="108.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#a63d40" text-anchor="middle" font-weight="bold" style="">f1</text>
+<polygon points="283.8,191.0 245.7,213.0 207.6,191.0 207.6,147.0 245.7,125.0 283.8,147.0" fill="#e3c9c9" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="245.7" y="174.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f4</text>
+<polygon points="321.9,257.0 283.8,279.0 245.7,257.0 245.7,213.0 283.8,191.0 321.9,213.0" fill="#e8e3c4" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="283.8" y="240.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f7</text>
+<polygon points="360.0,323.0 321.9,345.0 283.8,323.0 283.8,279.0 321.9,257.0 360.0,279.0" fill="#eadbc7" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="321.9" y="306.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f3</text>
+<polygon points="398.1,389.0 360.0,411.0 321.9,389.0 321.9,345.0 360.0,323.0 398.1,345.0" fill="#cfe3e0" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="360.0" y="372.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f6</text>
+<polygon points="321.9,125.0 283.8,147.0 245.7,125.0 245.7,81.0 283.8,59.0 321.9,81.0" fill="#cde3cd" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="283.8" y="108.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f2</text>
+<polygon points="360.0,191.0 321.9,213.0 283.8,191.0 283.8,147.0 321.9,125.0 360.0,147.0" fill="#d9cbe3" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="321.9" y="174.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f5</text>
+<polygon points="398.1,257.0 360.0,279.0 321.9,257.0 321.9,213.0 360.0,191.0 398.1,213.0" fill="#c7d7ea" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="360.0" y="240.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#a63d40" text-anchor="middle" font-weight="bold" style="">f1</text>
+<polygon points="436.2,323.0 398.1,345.0 360.0,323.0 360.0,279.0 398.1,257.0 436.2,279.0" fill="#e3c9c9" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="398.1" y="306.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f4</text>
+<polygon points="474.3,389.0 436.2,411.0 398.1,389.0 398.1,345.0 436.2,323.0 474.3,345.0" fill="#e8e3c4" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="436.2" y="372.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f7</text>
+<polygon points="398.1,125.0 360.0,147.0 321.9,125.0 321.9,81.0 360.0,59.0 398.1,81.0" fill="#eadbc7" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="360.0" y="108.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f3</text>
+<polygon points="436.2,191.0 398.1,213.0 360.0,191.0 360.0,147.0 398.1,125.0 436.2,147.0" fill="#cfe3e0" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="398.1" y="174.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f6</text>
+<polygon points="474.3,257.0 436.2,279.0 398.1,257.0 398.1,213.0 436.2,191.0 474.3,213.0" fill="#cde3cd" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="436.2" y="240.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f2</text>
+<polygon points="512.4,323.0 474.3,345.0 436.2,323.0 436.2,279.0 474.3,257.0 512.4,279.0" fill="#d9cbe3" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="474.3" y="306.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f5</text>
+<polygon points="550.5,389.0 512.4,411.0 474.3,389.0 474.3,345.0 512.4,323.0 550.5,345.0" fill="#c7d7ea" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="512.4" y="372.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#a63d40" text-anchor="middle" font-weight="bold" style="">f1</text>
+<polygon points="474.3,125.0 436.2,147.0 398.1,125.0 398.1,81.0 436.2,59.0 474.3,81.0" fill="#e3c9c9" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="436.2" y="108.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f4</text>
+<polygon points="512.4,191.0 474.3,213.0 436.2,191.0 436.2,147.0 474.3,125.0 512.4,147.0" fill="#e8e3c4" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="474.3" y="174.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f7</text>
+<polygon points="550.5,257.0 512.4,279.0 474.3,257.0 474.3,213.0 512.4,191.0 550.5,213.0" fill="#eadbc7" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="512.4" y="240.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f3</text>
+<polygon points="588.6,323.0 550.5,345.0 512.4,323.0 512.4,279.0 550.5,257.0 588.6,279.0" fill="#cfe3e0" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="550.5" y="306.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f6</text>
+<polygon points="626.7,389.0 588.6,411.0 550.5,389.0 550.5,345.0 588.6,323.0 626.7,345.0" fill="#cde3cd" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="588.6" y="372.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f2</text>
+<polygon points="550.5,125.0 512.4,147.0 474.3,125.0 474.3,81.0 512.4,59.0 550.5,81.0" fill="#d9cbe3" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="512.4" y="108.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f5</text>
+<polygon points="588.6,191.0 550.5,213.0 512.4,191.0 512.4,147.0 550.5,125.0 588.6,147.0" fill="#c7d7ea" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="550.5" y="174.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#a63d40" text-anchor="middle" font-weight="bold" style="">f1</text>
+<polygon points="626.7,257.0 588.6,279.0 550.5,257.0 550.5,213.0 588.6,191.0 626.7,213.0" fill="#e3c9c9" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="588.6" y="240.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f4</text>
+<polygon points="664.8,323.0 626.7,345.0 588.6,323.0 588.6,279.0 626.7,257.0 664.8,279.0" fill="#e8e3c4" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="626.7" y="306.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f7</text>
+<polygon points="702.9,389.0 664.8,411.0 626.7,389.0 626.7,345.0 664.8,323.0 702.9,345.0" fill="#eadbc7" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="664.8" y="372.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f3</text>
+<polygon points="626.7,125.0 588.6,147.0 550.5,125.0 550.5,81.0 588.6,59.0 626.7,81.0" fill="#cfe3e0" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="588.6" y="108.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f6</text>
+<polygon points="664.8,191.0 626.7,213.0 588.6,191.0 588.6,147.0 626.7,125.0 664.8,147.0" fill="#cde3cd" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="626.7" y="174.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f2</text>
+<polygon points="702.9,257.0 664.8,279.0 626.7,257.0 626.7,213.0 664.8,191.0 702.9,213.0" fill="#d9cbe3" stroke="#1a1a2e" stroke-width="1.0"/>
+<text x="664.8" y="240.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">f5</text>
+<line x1="360.0" y1="235.0" x2="550.5" y2="169.0" stroke="#a63d40" stroke-width="2.0" stroke-dasharray="7,5" opacity="1.0"/>
+<circle cx="360.0" cy="235.0" r="16" fill="white" stroke="#a63d40" stroke-width="2"/>
+<text x="360.0" y="240.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#a63d40" text-anchor="middle" font-weight="bold" style="">f1</text>
+<circle cx="550.5" cy="169.0" r="16" fill="white" stroke="#a63d40" stroke-width="2"/>
+<text x="550.5" y="174.5" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#a63d40" text-anchor="middle" font-weight="bold" style="">f1</text>
+<text x="360.0" y="424.0" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#a63d40" text-anchor="middle" font-weight="normal" style="">cells labelled f1 share frequencies; the dashed line is the reuse distance D = R√(3N)</text>
+</svg>

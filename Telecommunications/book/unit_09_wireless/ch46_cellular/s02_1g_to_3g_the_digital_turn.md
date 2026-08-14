@@ -145,7 +145,7 @@ noise floor for everyone (they are all on the same frequency), so as a cell fill
 radius shrinks.
 
 ```
-   Lightly loaded:  ⬤ ⬤ ⬤ ⬤   large cells, gaps covered
+   Lightly loaded:  ● ● ● ●   large cells, gaps covered
    Heavily loaded:  ● ● ● ●    small cells, gaps appear
 ```
 

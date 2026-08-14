@@ -58,7 +58,7 @@ sender intend, and what port does a naive reader report?
 **C1.** A sensor reports one of five states with probabilities 0.90, 0.06, 0.02,
 0.015, 0.005. (a) Compute the information content in bits of each individual
 report. (b) Compute the average (the entropy). (c) A fixed-length code needs
-⌈log₂ 5⌉ = 3 bits per report. What fraction of capacity is being wasted?
+$\lceil \log_2 5 \rceil = 3$ bits per report. What fraction of capacity is being wasted?
 (d) Design a variable-length code that beats 3 bits on average, and compute its
 average length. (Assign short codes to likely states; ensure no code is a prefix
 of another.)

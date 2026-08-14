@@ -24,13 +24,13 @@ for the whole book.
 ## The six components
 
 ```
-  ┌────────┐   message  ┌─────────────┐  signal   ┌─────────┐ received ┌──────────┐  message ┌─────────────┐
-  │ SOURCE │ ─────────▶ │ TRANSMITTER │ ────────▶ │ CHANNEL │ ───────▶ │ RECEIVER │ ───────▶ │ DESTINATION │
-  └────────┘            └─────────────┘           └────┬────┘  signal  └──────────┘          └─────────────┘
-                                                       │
-                                                  ┌────▼────┐
-                                                  │  NOISE  │
-                                                  └─────────┘
+┌────────┐ message ┌─────────────┐ signal  ┌─────────┐ received┌──────────┐ message ┌─────────────┐
+│ SOURCE │ ──────▶ │ TRANSMITTER │ ──────▶ │ CHANNEL │ ──────▶ │ RECEIVER │ ──────▶ │ DESTINATION │
+└────────┘         └─────────────┘         └────┬────┘  signal └──────────┘         └─────────────┘
+                                                  │
+                                             ┌────▼────┐
+                                             │  NOISE  │
+                                             └─────────┘
 ```
 
 **The information source** produces a message. Note that Shannon is careful here:

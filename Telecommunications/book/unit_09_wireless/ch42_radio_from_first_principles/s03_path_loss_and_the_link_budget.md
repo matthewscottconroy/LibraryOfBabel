@@ -45,6 +45,8 @@ Each ten-fold increase in distance costs 20 dB, which follows from the same loga
 5 GHz starts 6.4 dB behind 2.4 GHz before anything is in the way — a factor of about
 4.4 in power, from the frequency alone.
 
+![Free-space path loss for the four bands you will meet. Straight lines on a log axis: +20 dB per decade of distance, and the bands keep their fixed offsets everywhere.](../../figures/fspl.svg){width=85%}
+
 Add the higher absorption of §42.1's material table and the practical range difference
 is larger still, which is why a dual-band deployment has smaller 5 GHz cells than 2.4 GHz
 ones and why Chapter 45 §45.1 designs for the 5 GHz coverage rather than the 2.4.
@@ -206,6 +208,8 @@ with r in metres, d in kilometres, f in GHz.
 | 10 km | **17.7 m** | **10.6 m** |
 
 The rule: keep at least 60% of the first Fresnel zone clear.
+
+![The first Fresnel zone is an ellipsoid, not a line. An obstruction inside it attenuates the link even with the direct path visibly clear — which is how a link surveyed over bare winter trees fails in spring.](../../figures/fresnel.svg){width=90%}
 
 > A 1 km link needs 3.4 m of clearance above any obstruction at the midpoint — not the
 > few centimetres that "line of sight" suggests.

@@ -42,6 +42,8 @@ The formula is not pleasant to evaluate by hand, and there is a recurrence that 
 
 $$B(0, A) = 1, \qquad B(n, A) = \frac{A \cdot B(n-1, A)}{n + A \cdot B(n-1, A)}$$
 
+![Erlang B for three offered loads. Each curve falls off a cliff once the group is adequately sized — the knee is where grade-of-service targets live, and everything past it buys imperceptible improvement.](../../figures/erlang_blocking.svg){width=85%}
+
 Iterate up from *n* = 0 and you have it in a few lines of arithmetic or three lines
 of code.
 

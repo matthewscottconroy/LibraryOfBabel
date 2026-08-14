@@ -49,7 +49,7 @@ $$H = -(0.9 \log_2 0.9 + 0.06 \log_2 0.06 + 0.02 \log_2 0.02 + 0.015 \log_2 0.01
 
 $$= 0.137 + 0.244 + 0.113 + 0.091 + 0.038 = 0.623 \ \text{bits per report}$$
 
-A fixed-length code needs ⌈log₂ 5⌉ = 3 bits per report. The entropy is 0.623. We
+A fixed-length code needs $\lceil \log_2 5 \rceil = 3$ bits per report. The entropy is 0.623. We
 are using nearly five times the necessary capacity.
 
 ## The source coding theorem

@@ -43,6 +43,8 @@ Build it up term by term and watch what happens:
 | + up to 15th | Sharp corners, slight ringing at the edges |
 | All of them | A perfect square wave |
 
+![Partial sums of the square wave's Fourier series. Each added harmonic sharpens the corners; the corners *are* the high frequencies.](../../figures/fourier_square.svg){width=88%}
+
 The lesson, and it is the chapter's central one:
 
 > **The sharp corners *are* the high harmonics.** They are not a separate feature

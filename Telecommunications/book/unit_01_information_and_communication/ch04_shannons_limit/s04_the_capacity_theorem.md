@@ -21,6 +21,8 @@ distinguish levels, and therefore how large *M* can usefully be. The two formula
 are consistent — setting *M* ≈ √(1+SNR) makes them agree — but Shannon's closes
 the loophole.
 
+![Capacity per hertz against SNR. The curve is linear at low SNR and logarithmic at high SNR, which is why power is precious on a deep-space link and nearly worthless as an upgrade to a good one.](../../figures/shannon_capacity.svg){width=85%}
+
 ## Reading the formula
 
 **Capacity is linear in bandwidth.** Double the bandwidth, double the capacity —

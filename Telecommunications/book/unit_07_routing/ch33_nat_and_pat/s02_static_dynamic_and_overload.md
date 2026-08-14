@@ -9,8 +9,8 @@ everything else follows from it.
 **One private address maps to one public address, always, in both directions.**
 
 ```
-   192.168.1.10   ⟷   203.0.113.10
-   192.168.1.11   ⟷   203.0.113.11
+   192.168.1.10   ↔   203.0.113.10
+   192.168.1.11   ↔   203.0.113.11
 ```
 
 ```

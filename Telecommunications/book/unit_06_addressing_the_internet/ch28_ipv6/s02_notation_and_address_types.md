@@ -50,7 +50,7 @@ The `::` stands for *"as many all-zero groups as are needed to make eight"*.
 
    2001::1:0:0:0:1     ✓  (the first run)
    2001:0:0:1::1       ✓  (the second run — the longer one, and preferred)
-   2001::1::1          ✗  ambiguous — how many groups in each gap?
+   2001::1::1          ×  ambiguous — how many groups in each gap?
 ```
 
 Two `::` would be unparseable, because there would be no way to know how to distribute

@@ -59,7 +59,8 @@ sudo airmon-ng start wlan0
 sudo tcpdump -i wlan0mon -nn -e
 
 # macOS — no special tools needed
-sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport en0 sniff 36
+sudo /System/Library/PrivateFrameworks/Apple80211.framework\
+    /Versions/Current/Resources/airport en0 sniff 36
 ```
 
 **Exercise F1 — decode a beacon fully.** SSID, BSSID, channel, rates, capabilities, RSN.

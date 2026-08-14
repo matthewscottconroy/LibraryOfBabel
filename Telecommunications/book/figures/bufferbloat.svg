@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" font-family="Georgia, 'Times New Roman', serif">
+<rect width="720" height="430" fill="white"/>
+<text x="386.0" y="32.0" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#1a1a2e" text-anchor="middle" font-weight="bold" style="">Bufferbloat: measure latency under load</text>
+<line x1="72.0" y1="384.0" x2="72.0" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="72.0" y1="384.0" x2="72.0" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="72.0" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">0</text>
+<line x1="176.7" y1="384.0" x2="176.7" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="176.7" y1="384.0" x2="176.7" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="176.7" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">10</text>
+<line x1="281.3" y1="384.0" x2="281.3" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="281.3" y1="384.0" x2="281.3" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="281.3" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">20</text>
+<line x1="386.0" y1="384.0" x2="386.0" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="386.0" y1="384.0" x2="386.0" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="386.0" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">30</text>
+<line x1="490.7" y1="384.0" x2="490.7" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="490.7" y1="384.0" x2="490.7" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="490.7" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">40</text>
+<line x1="595.3" y1="384.0" x2="595.3" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="595.3" y1="384.0" x2="595.3" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="595.3" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">50</text>
+<line x1="700.0" y1="384.0" x2="700.0" y2="58.0" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="700.0" y1="384.0" x2="700.0" y2="389.0" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="700.0" y="406.0" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">60</text>
+<line x1="72.0" y1="327.2" x2="700.0" y2="327.2" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="67.0" y1="327.2" x2="72.0" y2="327.2" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="63.0" y="332.2" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">10 ms</text>
+<line x1="72.0" y1="218.5" x2="700.0" y2="218.5" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="67.0" y1="218.5" x2="72.0" y2="218.5" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="63.0" y="223.5" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">100 ms</text>
+<line x1="72.0" y1="109.8" x2="700.0" y2="109.8" stroke="#9a9aa5" stroke-width="0.6" stroke-dasharray="2,4" opacity="0.7"/>
+<line x1="67.0" y1="109.8" x2="72.0" y2="109.8" stroke="#1a1a2e" stroke-width="1.2" opacity="1.0"/>
+<text x="63.0" y="114.8" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#1a1a2e" text-anchor="end" font-weight="normal" style="">1 s</text>
+<line x1="72.0" y1="384.0" x2="700.0" y2="384.0" stroke="#1a1a2e" stroke-width="1.5" opacity="1.0"/>
+<line x1="72.0" y1="384.0" x2="72.0" y2="58.0" stroke="#1a1a2e" stroke-width="1.5" opacity="1.0"/>
+<text x="386.0" y="420.0" font-family="Georgia, 'Times New Roman', serif" font-size="15.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="">time (s)</text>
+<text x="16.0" y="221.0" font-family="Georgia, 'Times New Roman', serif" font-size="15.5" fill="#1a1a2e" text-anchor="middle" font-weight="normal" style="" transform="rotate(-90 16.0 221.0)">ping RTT (log scale)</text>
+<polyline points="72.0,336.1 77.2,339.3 82.5,339.2 87.7,340.9 92.9,341.8 98.2,342.5 103.4,336.3 108.6,334.5 113.9,336.4 119.1,336.9 124.3,336.9 129.6,338.1 134.8,334.9 140.0,340.1 145.3,334.7 150.5,338.2 155.7,337.9 161.0,341.5 166.2,337.5 171.4,330.9 176.7,337.9 181.9,338.9 187.1,336.6 192.4,334.9 197.6,334.7 202.8,339.8 208.1,341.3 213.3,340.9 218.5,337.9 223.8,344.1" fill="none" stroke="#2e7d6f" stroke-width="2.0" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="229.0,333.8 234.2,182.5 239.5,156.1 244.7,138.9 249.9,138.4 255.2,130.9 260.4,129.5 265.6,123.9 270.9,125.7 276.1,122.1 281.3,124.2 286.6,118.9 291.8,122.4 297.0,124.3 302.3,119.8 307.5,126.3 312.7,116.2 318.0,118.9 323.2,119.2 328.4,119.7 333.7,116.8 338.9,119.8 344.1,120.5 349.4,121.5 354.6,119.4 359.8,115.8 365.1,122.9 370.3,117.7 375.5,119.5 380.8,118.8 386.0,116.1 391.2,118.2 396.5,122.8 401.7,120.3 406.9,124.1 412.2,119.6 417.4,122.8 422.6,116.3 427.9,118.9 433.1,127.4 438.3,116.6 443.6,121.6 448.8,122.0 454.0,117.0 459.3,114.9 464.5,114.7 469.7,121.7 475.0,123.1 480.2,116.6 485.4,119.3" fill="none" stroke="#a63d40" stroke-width="2.0" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="490.7,311.2 495.9,298.2 501.1,306.1 506.4,304.9 511.6,312.0 516.8,306.0 522.1,306.9 527.3,306.7 532.5,310.6 537.8,309.3 543.0,304.6 548.2,307.5 553.5,305.2 558.7,304.6 563.9,304.3 569.2,302.1 574.4,304.2 579.6,298.5 584.9,302.1 590.1,309.7 595.3,306.6 600.6,304.3 605.8,307.2 611.0,300.2 616.3,315.7 621.5,303.6 626.7,303.0 632.0,311.8 637.2,312.5 642.4,295.6 647.7,303.5 652.9,304.0 658.1,310.2 663.4,301.6 668.6,307.9 673.8,307.7 679.1,302.7 684.3,299.9 689.5,305.2 694.8,312.7" fill="none" stroke="#23527c" stroke-width="2.0" opacity="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="229.0" y1="384.0" x2="229.0" y2="58.0" stroke="#9a9aa5" stroke-width="1.0" stroke-dasharray="4,4" opacity="1.0"/>
+<line x1="490.7" y1="384.0" x2="490.7" y2="58.0" stroke="#9a9aa5" stroke-width="1.0" stroke-dasharray="4,4" opacity="1.0"/>
+<text x="150.5" y="363.8" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#2e7d6f" text-anchor="middle" font-weight="normal" style="">idle: 8 ms</text>
+<text x="359.8" y="82.1" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#a63d40" text-anchor="middle" font-weight="normal" style="">upload starts: same link, ~800 ms</text>
+<text x="595.3" y="356.3" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#23527c" text-anchor="middle" font-weight="normal" style="">CAKE shaper on: 16 ms</text>
+<text x="359.8" y="103.3" font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#a63d40" text-anchor="middle" font-weight="normal" style="">throughput unchanged throughout</text>
+</svg>

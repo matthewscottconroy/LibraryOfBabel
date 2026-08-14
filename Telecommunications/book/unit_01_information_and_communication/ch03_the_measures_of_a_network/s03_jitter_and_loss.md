@@ -88,6 +88,8 @@ fine."
 loss in a hundred thousand packets**, a single classic stream on this path is held
 to about 57 Mb/s. **Loss rates that sound negligible are not.**
 
+![The Mathis ceiling on three round-trip times. Both axes are logarithmic: every 100× increase in loss costs 10× in throughput, and a long path is penalised at every loss rate.](../../figures/mathis_throughput.svg){width=85%}
+
 Modern congestion control (CUBIC, and especially BBR — Chapter 38) is
 substantially more loss-tolerant than the classic algorithm this equation models.
 The numbers above are therefore pessimistic for current stacks. The *shape* —

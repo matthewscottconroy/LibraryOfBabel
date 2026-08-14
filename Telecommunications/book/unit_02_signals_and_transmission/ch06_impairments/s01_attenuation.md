@@ -110,6 +110,8 @@ around them:
 | L-band | 1565–1625 nm | ~0.2 dB/km | DWDM expansion |
 | (850 nm) | multimode only | ~3 dB/km | Short reach, cheap VCSELs |
 
+![Silica fibre's loss curve: Rayleigh scattering falls as 1/λ⁴, infrared absorption rises past 1,600 nm, and the OH⁻ water peak at 1,383 nm splits the low-loss region into the windows the industry built around.](../../figures/fiber_attenuation.svg){width=85%}
+
 **0.17 dB/km.** After 80 km, the loss is 13.6 dB, so about 4% of the light
 survives — which a good receiver can read, and which is exactly why the amplifier
 huts along a long-haul route are spaced where they are (Chapter 50 §50.3).

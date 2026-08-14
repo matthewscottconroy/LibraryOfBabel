@@ -76,6 +76,8 @@ sits exactly on the nulls of every other subcarrier's sinc.
 The spectra overlap and the information does not, which is why OFDM is far more
 spectrally efficient than the guard-banded FDM of Chapter 9 §9.1.
 
+![Seven OFDM subcarriers spaced at exactly 1/T. The spectra overlap heavily, yet at each subcarrier's centre frequency every other subcarrier is passing through zero — orthogonality lets them be separated perfectly.](../../figures/ofdm_subcarriers.svg){width=88%}
+
 ## The cyclic prefix
 
 Orthogonality holds only if the receiver integrates over exactly one symbol period.

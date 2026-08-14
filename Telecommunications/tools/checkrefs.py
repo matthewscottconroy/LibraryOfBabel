@@ -116,6 +116,25 @@ def topic_mismatches(names: dict[int, str]) -> list[str]:
     return suspects
 
 
+IMAGE_LINK = re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
+
+
+def broken_images() -> list[str]:
+    """Image links whose target does not exist relative to the linking file."""
+    problems = []
+    for path in sorted(BOOK.rglob("*.md")):
+        for m in IMAGE_LINK.finditer(path.read_text()):
+            target = m.group(1)
+            if target.startswith(("http:", "https:", "data:")):
+                continue
+            if not (path.parent / target).resolve().exists():
+                problems.append(
+                    f"{path.relative_to(BOOK)}: image link does not resolve: "
+                    f"{target}"
+                )
+    return problems
+
+
 def chapter_of(path: pathlib.Path) -> int | None:
     """Infer the chapter number from a path like .../ch27_address_plans/..."""
     for part in path.parts:
@@ -129,7 +148,7 @@ def main() -> int:
     verbose = "--verbose" in sys.argv
     written, names, declared = load_chapters()
 
-    problems: list[str] = stray_directories(declared)
+    problems: list[str] = stray_directories(declared) + broken_images()
     checked = 0
 
     for path in sorted(BOOK.rglob("*.md")):
@@ -206,6 +225,13 @@ def main() -> int:
           f"/{len(written)}")
     print(f"  exercise numbering         : "
           f"{', '.join(in_use) if in_use else 'none found'}")
+    figures = sorted((BOOK / "figures").glob("*.svg"))
+    used = set()
+    for path in BOOK.rglob("*.md"):
+        for m in IMAGE_LINK.finditer(path.read_text()):
+            used.add(pathlib.PurePosixPath(m.group(1)).name)
+    print(f"  figures                    : {len(figures)} on disk, "
+          f"{sum(1 for f in figures if f.name in used)} referenced")
 
     if verbose and unwritten:
         print(f"  not yet drafted            : "

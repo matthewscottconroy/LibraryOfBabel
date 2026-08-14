@@ -95,11 +95,11 @@ is fragile**, because it disappears the moment the side effect changes.
 | Attack | Stopped by NAT? |
 |---|---|
 | Inbound scanning | ✓ (incidentally) |
-| **Malware phoning home** | ✗ — outbound is unrestricted |
-| **A user visiting a malicious site** | ✗ |
-| **A compromised host attacking others inside** | ✗ |
-| **Anything that establishes an outbound connection** | ✗ |
-| Data exfiltration | ✗ |
+| **Malware phoning home** | × — outbound is unrestricted |
+| **A user visiting a malicious site** | × |
+| **A compromised host attacking others inside** | × |
+| **Anything that establishes an outbound connection** | × |
+| Data exfiltration | × |
 
 Nearly every modern attack begins with an outbound connection, which NAT permits
 without inspection.

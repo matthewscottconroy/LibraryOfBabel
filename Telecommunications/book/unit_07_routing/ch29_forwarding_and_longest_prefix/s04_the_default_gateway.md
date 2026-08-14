@@ -32,7 +32,7 @@ increasing scale:
    Laptop           →  default → home router
    Home router      →  default → ISP edge
    ISP edge         →  default → ISP core
-   ISP core         →  ⟵ HERE IT STOPS
+   ISP core         →  ← HERE IT STOPS
 ```
 
 **At the ISP core the default route disappears.** A router in the Internet's core, or in

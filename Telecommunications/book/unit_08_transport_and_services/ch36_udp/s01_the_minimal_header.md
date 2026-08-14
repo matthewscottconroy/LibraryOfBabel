@@ -1,7 +1,8 @@
 # 36.1 The Minimal Header
 
-RFC 768 is **three pages**, including the title page and the references. David Reed wrote
-it in August 1980, and it has never been revised.
+RFC 768 is **three pages**, including the title page and the references. Jon Postel wrote
+it in August 1980 — the design owes much to David Reed's end-to-end thinking — and it has
+never been revised.
 
 It is the most restrained specification in the Internet suite, and reading it is the
 best possible introduction to what a transport layer is obliged to do — because UDP does

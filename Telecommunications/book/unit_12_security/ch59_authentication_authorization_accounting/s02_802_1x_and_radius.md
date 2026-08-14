@@ -184,7 +184,7 @@ A different protocol for a different job, and the distinction is regularly muddl
 
 | | **RADIUS** | **TACACS+** |
 |---|---|---|
-| Standard | **RFC, open** | **Cisco-originated; now an IETF draft** |
+| Standard | **RFC, open** | **Cisco-originated; documented as RFC 8907 (2020)** |
 | Transport | **UDP** | **TCP 49** |
 | **Encryption** | **the password field only** | **the entire payload** |
 | **AAA separation** | **authentication and authorization combined** | **separate — and this is the point** |

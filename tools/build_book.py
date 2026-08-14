@@ -15,6 +15,16 @@ Manifest schema (``<BookDir>/book.toml``)
     intro_names  = ["overview.md", ...]   # optional; ADDED to the defaults below
     outro_names  = ["exercises.md", ...]  # optional; per-directory back matter,
                                           #   sorted last in the order given
+    numbersections = true                 # optional; false for books that carry
+                                          #   their own numbering in headings
+    toc_depth    = 2                      # optional; passed to pandoc (1-6).
+                                          #   With part division LaTeX reads it
+                                          #   as chapter=0/section=1/...
+    header_includes = ["..."]             # optional; raw LaTeX blocks for the
+                                          #   PDF preamble (via header-includes)
+    lift_intros  = false                  # optional; see "Intro lifting" below
+    front_matter_shift = 0                # optional; heading shift for front
+                                          #   matter (1 = emit as chapters)
     front_matter = ["preface.md", ...]    # optional; ordered, globs allowed
     back_matter  = ["epilogue.md", "appendices/*.md"]  # optional; ordered, globs
     exclude      = ["README.md", "**/scratch.md"]      # optional; globs
@@ -42,6 +52,21 @@ Rule 3 exists because a chapter's back matter is named for what it is, not for
 where it belongs: `exercises.md` and `further_reading.md` sort before `s01_*.md`
 alphabetically, which silently puts the exercises ahead of the sections they
 examine.  There is no default outro list — a book opts in via `outro_names`.
+Directory names may appear in `outro_names` too, which is how an `appendices/`
+directory is sorted after `unit_*/` despite alphabetical order.
+
+Intro lifting (`lift_intros = true`)
+------------------------------------
+By default every file's headings are shifted by its directory depth, which
+treats an intro file as a sibling of the content it introduces.  With
+`lift_intros`, an intro-like file is treated as its *container's* heading:
+
+  - the intro file of a part directory loses its leading H1 (the \\part divider
+    already renders that title) and its remaining headings shift by depth, so
+    its subsections sit below chapter level;
+  - any other intro-like file shifts by depth − 1, so a chapter directory's
+    `chapter_intro.md` H1 becomes the chapter heading and sibling section
+    files sit one level below it.
 
 Modes
 -----
@@ -175,6 +200,11 @@ class Manifest:
         self.intro_globs = DEFAULT_INTRO_NAMES + list(data.get("intro_names", []))
         # No defaults: a book that does not opt in keeps the previous ordering.
         self.outro_globs = list(data.get("outro_names", []))
+        self.numbersections = bool(data.get("numbersections", True))
+        self.toc_depth = int(data.get("toc_depth", 2))
+        self.header_includes = list(data.get("header_includes", []))
+        self.lift_intros = bool(data.get("lift_intros", False))
+        self.front_matter_shift = int(data.get("front_matter_shift", 0))
 
     @classmethod
     def load(cls, book_dir: Path) -> "Manifest":
@@ -227,12 +257,15 @@ class Manifest:
 
 class Entry:
     """A single emitted file plus the context needed to place it."""
-    __slots__ = ("path", "depth", "part_dir")
+    __slots__ = ("path", "depth", "part_dir", "shift", "drop_h1")
 
-    def __init__(self, path: Path, depth: int, part_dir: Path | None):
+    def __init__(self, path: Path, depth: int, part_dir: Path | None,
+                 shift: int | None = None, drop_h1: bool = False):
         self.path = path
         self.depth = depth
         self.part_dir = part_dir
+        self.shift = depth if shift is None else shift
+        self.drop_h1 = drop_h1
 
 
 def _skip_dir(name: str) -> bool:
@@ -254,6 +287,7 @@ def collect_source(
     entries: list[Entry] = []
 
     def walk(directory: Path, depth: int):
+        first_intro_seen = False
         for child in ordered_children(
             directory, manifest.intro_globs, manifest.outro_globs
         ):
@@ -269,7 +303,24 @@ def collect_source(
                 if child.resolve() in handled:
                     continue
                 part_dir = _part_dir_for(child, root, part_level)
-                entries.append(Entry(child, depth, part_dir))
+
+                shift, drop_h1 = depth, False
+                if manifest.lift_intros:
+                    is_intro = (intro_priority(child.name, manifest.intro_globs)
+                                is not None)
+                    if is_intro and not first_intro_seen:
+                        first_intro_seen = True
+                        if part_dir == directory:
+                            # This file's H1 is the part title; the \part
+                            # divider renders it, so the body follows bare and
+                            # its subsections stay below chapter level.
+                            drop_h1 = True
+                        else:
+                            # The container's heading: one level above its
+                            # sibling content.
+                            shift = max(depth - 1, 0)
+
+                entries.append(Entry(child, depth, part_dir, shift, drop_h1))
 
     walk(root, 0)
     return entries
@@ -328,6 +379,11 @@ def shift_headings(text: str, shift: int) -> str:
     return HEADING_RE.sub(_repl, text)
 
 
+def strip_first_h1(text: str) -> str:
+    """Remove the first top-level ATX heading line, if it opens the file."""
+    return re.sub(r"^\s*#[ \t][^\n]*\n+", "", text, count=1)
+
+
 def part_title(part_dir: Path, intro_globs: list[str]) -> str:
     """Human title for a \\part: the intro file's first H1, else the dir name."""
     for child in ordered_children(part_dir, intro_globs):
@@ -379,11 +435,23 @@ def yaml_metadata(m: Manifest) -> str:
         "  - left=1.25in",
         "  - right=1in",
         "toc: true",
-        "toc-depth: 2",
-        "numbersections: true",
+        f"toc-depth: {m.toc_depth}",
+        f"numbersections: {'true' if m.numbersections else 'false'}",
         "colorlinks: true",
         "linkcolor: NavyBlue",
         "urlcolor: NavyBlue",
+    ]
+    if m.header_includes:
+        lines.append("header-includes:")
+        for block in m.header_includes:
+            # A raw-LaTeX fence so pandoc passes the block through verbatim
+            # rather than reading it as markdown.
+            lines.append("  - |")
+            lines.append("    ```{=latex}")
+            for ln in block.splitlines():
+                lines.append(f"    {ln}")
+            lines.append("    ```")
+    lines += [
         "---",
         "",
     ]
@@ -413,7 +481,7 @@ def assemble(m: Manifest, chapter_range=None):
     parts: list[str] = [yaml_metadata(m)]
     stats = {"files": 0, "chars": 0, "skipped_empty": 0}
 
-    def emit(path: Path, shift: int):
+    def emit(path: Path, shift: int, drop_h1: bool = False):
         text = read_content(path)
         if text is None:
             stats["skipped_empty"] += 1
@@ -421,6 +489,8 @@ def assemble(m: Manifest, chapter_range=None):
                   f"{path.relative_to(m.book_dir)}", file=sys.stderr)
             return
         text = strip_yaml_front_matter(text)
+        if drop_h1:
+            text = strip_first_h1(text)
         text = shift_headings(text, shift)
         rel = path.relative_to(m.book_dir)
         parts.append(f"\n\n<!-- === {rel} === -->\n\n")
@@ -431,7 +501,7 @@ def assemble(m: Manifest, chapter_range=None):
 
     # Front matter
     for f in front:
-        emit(f, 0)
+        emit(f, m.front_matter_shift)
 
     # Body, with \part dividers at part boundaries
     current_part: Path | None = None
@@ -440,7 +510,7 @@ def assemble(m: Manifest, chapter_range=None):
             current_part = ent.part_dir
             title = part_title(current_part, m.intro_globs)
             parts.append(f"\n\n# {title}\n\n")
-        emit(ent.path, ent.depth)
+        emit(ent.path, ent.shift, ent.drop_h1)
 
     # Back matter
     for f in back:
@@ -592,7 +662,8 @@ def build_markdown(combined: str, out: Path) -> bool:
 
 
 def _run_pandoc(combined: str, out: Path, to_pdf: bool, engine: str | None,
-                title: str) -> bool:
+                title: str, numbersections: bool = True,
+                toc_depth: int = 2) -> bool:
     out.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.NamedTemporaryFile(
         "w", suffix=".md", encoding="utf-8", delete=False
@@ -605,7 +676,8 @@ def _run_pandoc(combined: str, out: Path, to_pdf: bool, engine: str | None,
             "--from", "markdown+tex_math_dollars+raw_tex+pipe_tables"
                       "+fenced_code_blocks+smart",
             "--top-level-division=part",
-            "--toc", "--toc-depth=2", "--number-sections",
+            "--toc", f"--toc-depth={toc_depth}",
+            *(["--number-sections"] if numbersections else []),
             "--highlight-style=tango",
             "--metadata", f"title={title}",
             "--output", str(out),
@@ -699,7 +771,8 @@ def main() -> int:
         if not _pandoc_available():
             sys.exit("ERROR: pandoc not found (needed for --html).")
         out = Path(args.html) if args.html else out_dir / f"{slug}.html"
-        ok = _run_pandoc(combined, out, False, None, m.title) and ok
+        ok = _run_pandoc(combined, out, False, None, m.title,
+                         m.numbersections, m.toc_depth) and ok
 
     if args.pdf is not None:
         if not _pandoc_available():
@@ -708,7 +781,8 @@ def main() -> int:
         if not engine:
             sys.exit("ERROR: no LaTeX engine (xelatex/pdflatex) for --pdf.")
         out = Path(args.pdf) if args.pdf else out_dir / f"{slug}.pdf"
-        ok = _run_pandoc(combined, out, True, engine, m.title) and ok
+        ok = _run_pandoc(combined, out, True, engine, m.title,
+                         m.numbersections, m.toc_depth) and ok
 
     return 0 if ok else 1
 

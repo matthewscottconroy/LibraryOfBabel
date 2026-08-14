@@ -19,12 +19,36 @@ front_matter = [
 # Chapter back matter, in the order a chapter should close. Without this the
 # build sorts each chapter directory alphabetically, which puts exercises.md and
 # further_reading.md ahead of s01_*.md — the exercises before the sections they
-# examine, and the reading list before the reading.
+# examine, and the reading list before the reading. "appendices" (a directory)
+# sorts the appendix part after the units, which alphabetical order would not.
 outro_names = [
     "exercises.md",
     "important_concepts.md",
     "important_researchers.md",
     "further_reading.md",
+    "appendices",
+]
+
+# The book numbers itself ("Chapter 1 —", "1.1", "Appendix A —"), so LaTeX
+# numbering on top would double it ("Chapter 2: Chapter 1 — ...").
+numbersections = false
+
+# chapter_intro.md becomes the chapter heading with its sections beneath it;
+# unit_intro.md merges into the \part its H1 already titles.
+lift_intros = true
+
+# Front matter renders as chapters, not as Parts I and II.
+front_matter_shift = 1
+
+# The TOC lists parts and chapters only. toc_depth cannot go below 1
+# (pandoc), so section-level TOC lines are suppressed in the preamble.
+toc_depth = 1
+header_includes = [
+  '''
+\makeatletter
+\renewcommand{\l@section}[2]{}
+\makeatother
+''',
 ]
 
 [[sources]]

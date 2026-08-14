@@ -56,7 +56,7 @@ by a factor of √*n* for *n* flows. The practical consequence is §17.4's obser
 that switch buffers are small deliberately, and the theoretical consequence fed
 directly into the bufferbloat discussion.
 
-**Jim Gettys (b. 1953).** Named bufferbloat and demonstrated it was endemic, which
+**Jim Gettys.** Named bufferbloat and demonstrated it was endemic, which
 is why §17.4 can state that more buffer is not better rather than merely suggesting
 it. See Chapter 13's notes.
 

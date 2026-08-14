@@ -73,7 +73,7 @@ OFDMA is borrowed from LTE (Chapter 46 §46.3), which had used it since 2009. 80
 adopting a cellular technique is a notable convergence, and it comes with cellular's
 scheduling model attached.
 
-**Matthew Gast (b. 1974).** Not a standards author primarily — the person who explained
+**Matthew Gast.** Not a standards author primarily — the person who explained
 802.11 to the industry. *802.11 Wireless Networks: The Definitive Guide* and the free
 *802.11ac: A Survival Guide* are how a generation of engineers learned this material.
 

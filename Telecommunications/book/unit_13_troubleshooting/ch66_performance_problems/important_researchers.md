@@ -21,7 +21,7 @@ And he coined the framing that this chapter's §66.1 borrows: that a wide-area t
 performance is determined by the worst of several independent limits, and that identifying which
 one binds is the entire diagnostic task.
 
-**Jim Gettys (b. 1953).** The person who named bufferbloat, and who found it on his own home
+**Jim Gettys.** The person who named bufferbloat, and who found it on his own home
 connection.
 
 Gettys is not primarily a network researcher — he worked on the X Window System, on the

@@ -97,7 +97,7 @@ quickly is fine, and a short queue that persists is not. CoDel targets the persi
 delay, and `fq_codel` (which adds fair queueing) is now the default on most Linux systems
 and in OpenWrt.
 
-**Jim Gettys (b. 1953).** **Bufferbloat** — his fourth appearance. The observation that
+**Jim Gettys.** **Bufferbloat** — his fourth appearance. The observation that
 memory had become cheap enough that everyone added buffers, that no layer could see the
 total, and that the result was multi-second queues that destroyed interactivity while every
 component behaved reasonably.

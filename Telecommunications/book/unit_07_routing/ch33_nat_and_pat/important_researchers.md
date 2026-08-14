@@ -69,7 +69,7 @@ range was needed because providers had run out of addresses and could not use RF
 without colliding with their own customers. **The document exists to solve a problem
 created by the previous workaround**, which is how workarounds accumulate.
 
-**Geoff Huston (b. 1954).** Again, for having measured what NAT actually did — the
+**Geoff Huston.** Again, for having measured what NAT actually did — the
 consumption curves, the deferral of exhaustion, and the ongoing cost. His writing on NAT
 is unsentimental in both directions: he does not defend it architecturally and he does not
 pretend the Internet would have grown without it.

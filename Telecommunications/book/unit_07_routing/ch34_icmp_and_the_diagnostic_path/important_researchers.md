@@ -41,7 +41,7 @@ instrument. The recurring pattern in Jacobson's work is that he builds the measu
 device first**, and the understanding follows from what it shows: `traceroute`, `tcpdump`,
 `pathchar`, and the instrumentation that led to the congestion-control work.
 
-**Jeffrey Mogul (b. 1958) and Steve Deering (b. 1955).** **RFC 1191** (1990), Path MTU
+**Jeffrey Mogul and Steve Deering.** **RFC 1191** (1990), Path MTU
 Discovery.
 
 **They anticipated the black hole.** RFC 1191 explicitly discusses what happens when the
@@ -80,7 +80,7 @@ to a protocol where ICMP is load-bearing. It lists, type by type, what must pass
 It is the most useful firewall document in this book, and the fact that it needed to be
 written is a comment on how deeply the "block all ICMP" reflex was embedded.
 
-**Steve Bellovin (b. 1951).** For the counter-argument, made carefully. His work with
+**Steve Bellovin.** For the counter-argument, made carefully. His work with
 Cheswick and Rubin on firewalls is the authoritative treatment of what ICMP filtering
 actually buys, and their conclusion — **rate-limit, filter selectively, do not block
 wholesale** — is §34.1's position, from people whose professional interest is security

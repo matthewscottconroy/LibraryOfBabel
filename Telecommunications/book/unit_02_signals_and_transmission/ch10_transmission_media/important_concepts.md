@@ -2,7 +2,7 @@
 
 **A medium's properties are a function of the manufacturing art** *(chapter)* —
 Not fixed facts. Glass attenuating 1,000 dB/km in 1966 attenuates 0.17 dB/km today;
-Cat5e specified for 100 Mb/s in 1999 carries 2.5 Gb/s under 802.3bz. Anyone stating
+Cat5e specified to 100 MHz in 1999 carries 2.5 Gb/s under 802.3bz. Anyone stating
 confidently what a medium can do should be asked what year they learned it.
 
 **Solid versus stranded** *(§10.1)* — Solid conductors for permanent horizontal

@@ -22,7 +22,7 @@ point-to-point arrangement with switching, is §11.3's canonical example and is
 the clearest illustration in this book that physical and logical topology are
 independent. Chapter 16 covers him.
 
-**Olof Söderblom (b. 1940).** Swedish engineer who patented token ring in 1967 and
+**Olof Söderblom.** Swedish engineer who patented token ring in 1967 and
 1969, several years before IBM's development of the technology. IBM licensed his
 patents; so, after litigation, did a number of other manufacturers, and Söderblom
 collected royalties on a technology he did not commercialise. Token Ring's

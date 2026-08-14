@@ -26,7 +26,7 @@ therefore believed their whole class network was local. The mechanism is a hack,
 understood as one, and outlived its purpose by three decades. It is a good example of
 a transition mechanism that should have had an expiry date.
 
-**Stuart Cheshire (b. 1965).** Apple, and the author of RFC 5227, *IPv4 Address
+**Stuart Cheshire.** Apple, and the author of RFC 5227, *IPv4 Address
 Conflict Detection* — the formalisation of what gratuitous ARP had been used for
 informally. ACD specifies exactly how a host should probe before claiming an address
 and how it should behave on discovering a conflict, replacing a folk practice with a
@@ -50,7 +50,7 @@ dead first hop without VRRP.
 work, and his repeated argument — that transition mechanisms must have failure modes
 people can diagnose — is visible in DAD's design.
 
-**Tuomas Aura (b. 1971).** Microsoft Research, and the inventor of **cryptographically
+**Tuomas Aura.** Microsoft Research, and the inventor of **cryptographically
 generated addresses** (RFC 3972): binding an IPv6 address to a public key by making
 the interface identifier a hash of it, so that ownership can be proven by signature
 with no certificate authority anywhere. It is a genuinely beautiful idea — the address
@@ -75,7 +75,7 @@ existence of trivially usable attack tooling is what forced switch vendors to
 implement Dynamic ARP Inspection and what made "the LAN is a trust boundary" an
 untenable position.
 
-**Dug Song (b. 1975)**, whose dsniff suite included `arpspoof`, made the broader
+**Dug Song**, whose dsniff suite included `arpspoof`, made the broader
 argument explicitly — that switched networks were being sold as secure and were not —
 and the tooling was the argument. It is a recurring pattern in security: the
 demonstration is the advocacy.

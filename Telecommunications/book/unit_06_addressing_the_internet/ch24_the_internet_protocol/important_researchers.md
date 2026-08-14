@@ -26,7 +26,7 @@ Voice over the ARPANET in the mid-1970s demonstrated that **an application could
 the network to give up on a packet**, which is not an intuition anyone had before someone
 tried it.
 
-**Jeffrey Mogul (b. 1958) and Steve Deering (b. 1955).** **RFC 1191** (1990), *Path MTU
+**Jeffrey Mogul and Steve Deering.** **RFC 1191** (1990), *Path MTU
 Discovery* — §24.3's mechanism. The design is clean and the deployment history is a case
 study in how a mechanism that depends on a third party's cooperation fails.
 
@@ -38,7 +38,7 @@ tens of thousands of engineers over thirty years.
 **Mogul** also authored RFC 1122's fragmentation guidance and much of the early work on
 what hosts should do when the network misbehaves — a persistent theme in his output.
 
-**Steve Deering (b. 1955)**, separately, is the principal architect of **IPv6**, and
+**Steve Deering**, separately, is the principal architect of **IPv6**, and
 several of §24.2's IPv4 criticisms are things he removed: the header checksum, router
 fragmentation, and the options mechanism. Chapter 28 is largely his.
 
@@ -55,7 +55,7 @@ plausibly the most practically influential person in this book. **The recurring 
 in his work is measurement:** he builds the instrument first, and the fix follows from
 what it shows.
 
-**Steve Bellovin (b. 1951).** AT&T Bell Labs, then Columbia. Author of **RFC 3514**, the
+**Steve Bellovin.** AT&T Bell Labs, then Columbia. Author of **RFC 3514**, the
 evil bit, published 1 April 2003 — and one of the most-cited jokes in the RFC series,
 because the point it makes is one that security proposals keep needing to be told.
 
@@ -73,7 +73,7 @@ were folklore among operators for decades, and RFC 8900 collected the evidence a
 it citable. **Turning accumulated operational knowledge into a document you can point at
 is a real contribution**, and an under-recognised category of work.
 
-**Geoff Huston (b. 1954)**, APNIC's chief scientist, deserves separate mention for
+**Geoff Huston**, APNIC's chief scientist, deserves separate mention for
 measuring things the community argues about — fragmentation loss rates, IPv6 deployment,
 routing table growth, DNSSEC validation. His monthly analyses are the empirical
 foundation under a great deal of this book's Unit VI and Unit X.

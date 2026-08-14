@@ -105,7 +105,7 @@ Plus simultaneous bidirectional transmission on every pair, requiring echo
 cancellation.
 
 **802.3bz (2.5GBASE-T / 5GBASE-T)** *(§7.4)* — 10GBASE-T's signalling scaled to fit
-Cat5e and Cat6. Extracted 2.5 Gb/s from cable specified in 1999 for 100 Mb/s,
+Cat5e and Cat6. Extracted 2.5 Gb/s from cable specified in 1999 to 100 MHz,
 entirely by encoding harder.
 
 **Trellis-coded modulation** *(§7.4)* — Ungerboeck, IBM Zurich, 1982. Combines the

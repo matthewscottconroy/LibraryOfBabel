@@ -90,11 +90,11 @@ more power than fibre equivalents: the DSP is doing a great deal of work.
 
 **2.5GBASE-T and 5GBASE-T** (802.3bz, 2016) are 10GBASE-T's signalling scaled down
 to fit Cat5e and Cat6 respectively. This is the standard that extracted 2.5 Gb/s
-from cable specified in 1999 for 100 Mb/s, and it did so entirely by encoding
+from cable specified in 1999 to 100 MHz, and it did so entirely by encoding
 harder — the cable did not change.
 
 **400GBASE-DR4 and the modern optical standards** use PAM-4 per lane. So does
-DDR5 memory. So does PCI Express 6.0, which moved to PAM-4 after five generations
+GDDR6X graphics memory. So does PCI Express 6.0, which moved to PAM-4 after five generations
 of NRZ because the channel had run out of bandwidth headroom.
 
 ## Trellis coding: getting some of the penalty back

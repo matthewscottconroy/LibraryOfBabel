@@ -1,6 +1,6 @@
 # Chapter 28 — The People
 
-**Steve Deering (b. 1955).** The principal architect of IPv6, with Robert Hinden, and the
+**Steve Deering.** The principal architect of IPv6, with Robert Hinden, and the
 author of **RFC 2460** (1998) and its successor **RFC 8200** (2017).
 
 His work spans this book: IP multicast (Chapter 27), path MTU discovery (Chapter 24), and
@@ -25,7 +25,7 @@ the transition difficulty was badly misjudged, and backward incompatibility was 
 central cost — is unusually honest for a protocol's architect, and §28.1's account
 follows him.
 
-**Robert Hinden (b. 1949).** Deering's co-author on the IPv6 specification and the
+**Robert Hinden.** Deering's co-author on the IPv6 specification and the
 addressing architecture (RFC 4291), and co-chair of the IPng working group. He was also
 involved in the earlier gateway and routing work at BBN, so the design reflects operating
 experience rather than only architecture.
@@ -114,7 +114,7 @@ IPv6-only mobile core since 2014.
 464XLAT is the most successful IPv6 transition mechanism by user count, running on
 hundreds of millions of handsets, and almost nobody outside the field has heard of it.
 
-**Geoff Huston (b. 1954).** Again. His IPv6 adoption measurements are the source of every
+**Geoff Huston.** Again. His IPv6 adoption measurements are the source of every
 figure in §28.4, and his long-running commentary on the transition — sceptical,
 data-driven, and unsentimental about the protocol's advocates — is the best available
 antidote to both IPv6 boosterism and IPv6 dismissal.

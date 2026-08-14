@@ -26,7 +26,7 @@ staged rollouts, and slack.
 Which is why §55.2's "change one thing" and "stage it" are more valuable than any approval
 workflow. They reduce coupling. Approval workflows do not.
 
-**Diane Vaughan (b. 1951).** *The Challenger Launch Decision* (1996), and the normalisation
+**Diane Vaughan.** *The Challenger Launch Decision* (1996), and the normalisation
 of deviance.
 
 Vaughan's finding was that the Challenger disaster was not caused by anyone ignoring a known

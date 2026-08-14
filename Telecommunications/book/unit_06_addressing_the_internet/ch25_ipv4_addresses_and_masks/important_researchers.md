@@ -14,7 +14,7 @@ last indefinitely because the growth they were planning for was linear, and what
 happened was exponential. Nobody in 1981 predicted a personal computer on every desk,
 let alone in every pocket.
 
-**Jeffrey Mogul (b. 1958) and Jon Postel.** **RFC 950** (1985), *Internet Standard
+**Jeffrey Mogul and Jon Postel.** **RFC 950** (1985), *Internet Standard
 Subnetting Procedure* — the mask as an explicit object, and the first crack in the
 classful edifice.
 
@@ -73,7 +73,7 @@ relevant here because NAT and CIDR were the two mechanisms that together deferre
 exhaustion by decades. **CIDR reduced waste; NAT reduced demand.** Neither was intended
 as permanent, and both are.
 
-**Geoff Huston (b. 1954).** APNIC's chief scientist and the person who has measured all
+**Geoff Huston.** APNIC's chief scientist and the person who has measured all
 of this most carefully — address consumption, allocation efficiency, routing table
 growth, and the exhaustion projections that turned out to be right. His datasets are
 what turn Chapter 27's exhaustion arithmetic from an argument into a measurement.

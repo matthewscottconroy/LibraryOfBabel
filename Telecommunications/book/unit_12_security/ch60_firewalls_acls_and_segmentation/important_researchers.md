@@ -1,6 +1,6 @@
 # Chapter 60 — The People
 
-**Bill Cheswick and Steven Bellovin (b. 1949).** *Firewalls and Internet Security:
+**Bill Cheswick and Steven Bellovin.** *Firewalls and Internet Security:
 Repelling the Wily Hacker* (1994) — the book that defined the field, and the honesty that
 made it good.
 

@@ -64,7 +64,7 @@ Thirty years later NAT is universal and IPv6 is at roughly half of Internet traf
 **The temporary measure outlived the permanent solution's deployment schedule**, which
 is a pattern worth watching for in every transitional design.
 
-**Jim Kurose (b. 1956) and Keith Ross.** Their textbook popularised the **top-down**
+**Jim Kurose and Keith Ross.** Their textbook popularised the **top-down**
 teaching order — applications first, physical layer last — on the argument that
 students should meet the layer they already use before the layers they do not.
 
@@ -85,7 +85,7 @@ required the violation**, the violation was contained to a single link, and the
 technique is still used — as ROHC — on cellular links where every byte over the air is
 expensive.
 
-**Jim Gettys (b. 1953).** Bufferbloat again (Chapter 13). It appears in this chapter's
+**Jim Gettys.** Bufferbloat again (Chapter 13). It appears in this chapter's
 argument because it is a pure information-barrier failure: buffers were added at every
 layer independently, each addition locally reasonable, and **no layer could see the
 total**. A queue that a designer thought was 20 ms deep was in practice several

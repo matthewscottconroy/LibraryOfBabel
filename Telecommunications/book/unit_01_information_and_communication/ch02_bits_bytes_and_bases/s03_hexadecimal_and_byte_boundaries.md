@@ -68,7 +68,7 @@ Now watch how much structure falls out of Chapter 15's frame format:
 - **Bytes 34–35**: `dcbc` — source port, 56508.
 - **Bytes 36–37**: `0050` — destination port, 80. HTTP.
 
-Eleven fields identified in a wall of hex, using nothing but the nibble table and
+Nine fields identified in a wall of hex, using nothing but the nibble table and
 a frame layout you have not formally met yet. This is the skill Chapter 64 builds
 on, and it is why every protocol analyser in existence displays hex.
 

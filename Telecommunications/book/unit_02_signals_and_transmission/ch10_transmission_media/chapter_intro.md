@@ -29,7 +29,7 @@ That story is the chapter in miniature. **The properties of a medium are not
 fixed facts about the universe; they are the current state of a manufacturing
 art**, and a medium that is hopeless in one decade is the backbone of civilisation
 in the next. Anyone who tells you confidently what copper can and cannot do should
-be asked what year they learned it: Category 5 was specified in 1991 for 100 Mb/s,
+be asked what year they learned it: Category 5 was specified in 1991 to 100 MHz,
 and in 2016 the 2.5GBASE-T standard extracted 2.5 Gb/s from the same cable.
 
 ## What this chapter is for

@@ -159,7 +159,7 @@ If distortion is a known frequency response, you can apply its inverse. That is
   symbols to subtract their known contribution from the current one. Powerful, and
   it has the property that a wrong decision propagates briefly.
 
-Equalisation is why Cat5e, specified in 1999 for 100 Mb/s, carries 2.5 Gb/s under
+Equalisation is why Cat5e, specified in 1999 to 100 MHz, carries 2.5 Gb/s under
 802.3bz (2016). The cable did not change. The transceiver's ability to measure and
 invert the cable's distortion did, and Chapter 10's observation that a medium's
 properties are a function of the current manufacturing art is exactly this.

@@ -67,7 +67,7 @@ produces a rebuke and changes nothing. "The interface names differed by one char
 confirmation prompt did not show which device" produces a change to the tooling, and the next
 person does not make the mistake.
 
-**John Allspaw (b. 1974).** Etsy, and the operationalisation of Dekker and Cook in software
+**John Allspaw.** Etsy, and the operationalisation of Dekker and Cook in software
 and infrastructure.
 
 **Allspaw's contribution was practical:** blameless post-mortems as a documented, mandatory,

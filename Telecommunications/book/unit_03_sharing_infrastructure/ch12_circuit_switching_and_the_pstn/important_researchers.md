@@ -50,7 +50,7 @@ and was prosecuted for it. His subsequent career included writing EasyWriter, an
 early word processor for the IBM PC, reportedly while under a work-release
 arrangement.
 
-**Steve Wozniak (b. 1950) and Steve Jobs (b. 1955–2011).** Built and sold blue boxes
+**Steve Wozniak (b. 1950) and Steve Jobs (1955–2011).** Built and sold blue boxes
 before founding Apple, an episode both discussed publicly and unapologetically.
 Wozniak has said the experience convinced him that two people in a bedroom could
 build something that affected large systems — which is a reasonable summary of what

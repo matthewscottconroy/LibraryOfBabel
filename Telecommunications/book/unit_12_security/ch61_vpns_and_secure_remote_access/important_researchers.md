@@ -57,7 +57,7 @@ Krawczyk's contributions are the constructions rather than the protocols:
 Krawczyk's work is the reason the modern protocols in this chapter are provably sound where
 their predecessors were assembled by argument.
 
-**Jason A. Donenfeld (b. 1989).** WireGuard, released 2016, merged into Linux 5.6 in 2020.
+**Jason A. Donenfeld.** WireGuard, released 2016, merged into Linux 5.6 in 2020.
 
 What is unusual about it is the goal. Donenfeld's stated objective was not better
 cryptography — the primitives are all pre-existing and well-studied — but an

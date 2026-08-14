@@ -1,6 +1,6 @@
 # Chapter 26 — The People
 
-**Jeffrey Mogul (b. 1958) and Jon Postel (1943–1998).** RFC 950 (1985), and the subnet
+**Jeffrey Mogul and Jon Postel (1943–1998).** RFC 950 (1985), and the subnet
 mask. Chapter 25's notes cover the significance; the point that belongs here is that
 **their document created the possibility of VLSM without enabling it.** The mask existed
 locally, and the routing protocols of the day did not carry it, so every subnet of a
@@ -52,7 +52,7 @@ everywhere; a hierarchical one requires log *n*.**
 Chapter 18 §18.1's argument about MAC versus IP addressing is the same principle at a
 different scale, and Chapter 31's areas in OSPF are the same principle again.
 
-**Geoff Huston (b. 1954).** APNIC, and the person who has actually measured the routing
+**Geoff Huston.** APNIC, and the person who has actually measured the routing
 table for thirty years. The figure in §26.3 — roughly 950,000 prefixes — comes from his
 continuously-updated dataset at bgp.potaroo.net, and the projections that made CIDR
 urgent in 1992 were validated against measurements of the same kind.

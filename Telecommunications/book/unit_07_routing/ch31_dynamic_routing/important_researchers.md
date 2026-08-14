@@ -65,7 +65,7 @@ requirement demands.
 A large share of the world's service-provider backbones run IS-IS rather than OSPF, and
 the reason is mostly this: it scales further and it took IPv6 in its stride.
 
-**John Moy (b. 1955).** The author of **OSPF** — RFC 1131 (1989) through RFC 2328 (1998) —
+**John Moy.** The author of **OSPF** — RFC 1131 (1989) through RFC 2328 (1998) —
 and its chief advocate through a decade of standardisation.
 
 The "Open" in the name is a deliberate political statement. Cisco's **IGRP** was
@@ -76,7 +76,7 @@ interior gateway protocol in enterprise networks.**
 His book *OSPF: Anatomy of an Internet Routing Protocol* is the reference, and it is
 unusually candid about which decisions he would make differently.
 
-**J. J. Garcia-Luna-Aceves (b. 1955).** **DUAL** — the Diffusing Update Algorithm — and
+**J. J. Garcia-Luna-Aceves.** **DUAL** — the Diffusing Update Algorithm — and
 the **feasibility condition** of §31.2.
 
 His result is the elegant one in this chapter. Where RIP needs split horizon, poison

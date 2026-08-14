@@ -61,7 +61,7 @@ Cat5's 100 MHz. FDDI used 4B/5B with NRZI over fibre.
 
 ## 8B/10B
 
-Widderburn and Franaszek's 1983 IBM code, and one of the most successful pieces of
+Widmer and Franaszek's 1983 IBM code, and one of the most successful pieces of
 coding engineering ever done. It appears in 1000BASE-X, Fibre Channel, PCI Express
 1.0 and 2.0, SATA, DisplayPort, and InfiniBand.
 

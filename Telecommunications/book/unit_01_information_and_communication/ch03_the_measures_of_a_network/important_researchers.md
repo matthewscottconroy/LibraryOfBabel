@@ -1,7 +1,7 @@
 # Chapter 3 — The People
 
-**Stuart Cheshire (b. 1965).** British-born computer scientist, at Apple since
-1999 and the principal designer of Bonjour/mDNS (Chapter 39) and a co-author of
+**Stuart Cheshire.** British-born computer scientist, at Apple since the late
+1990s and the principal designer of Bonjour/mDNS (Chapter 39) and a co-author of
 the Multicast DNS and DNS Service Discovery standards. His 1996 essay *It's the
 Latency, Stupid* — written while a doctoral student at Stanford, and prompted by a
 modem vendor's marketing claim — is the clearest short statement of why bandwidth
@@ -29,7 +29,7 @@ Davies's supporters and by Baran); what is not disputed is that he supplied the
 mathematics of queueing delay that this chapter uses. Chapter 13 revisits the
 priority argument.
 
-**Matthew Mathis (b. 1955).** American network researcher, at the Pittsburgh
+**Matthew Mathis.** American network researcher, at the Pittsburgh
 Supercomputing Center and later Google. His 1997 paper with Semke, Mahdavi and Ott,
 "The Macroscopic Behavior of the TCP Congestion Avoidance Algorithm," derived the
 inverse-square-root relationship between loss and throughput that §3.3 tabulates.
@@ -52,7 +52,7 @@ Internet implementation must actually do — arguably the most load-bearing pair
 documents in the suite, and the reason independent implementations interoperate at
 all.
 
-**John Nagle (b. 1949).** American engineer whose 1984 RFC 896, *Congestion
+**John Nagle.** American engineer whose 1984 RFC 896, *Congestion
 Control in IP/TCP Internetworks*, identified both the small-packet problem and the
 congestion collapse risk two years before collapse actually happened. Nagle's
 algorithm — coalescing small writes to reduce the overhead computed in §3.1 — is

@@ -48,7 +48,7 @@ specification, and is credited within the field with a great deal of the practic
 engineering that made 10 Mb/s work reliably over coax. Almost never mentioned outside
 it.
 
-**Olof Söderblom (b. 1940).** Patented token ring in 1967 and 1969, before IBM's
+**Olof Söderblom.** Patented token ring in 1967 and 1969, before IBM's
 development. IBM licensed his patents, as did others after litigation, and he
 collected royalties on a technology he did not commercialise. Token Ring's
 determinism — the property §16.3 identifies as genuinely superior and ultimately

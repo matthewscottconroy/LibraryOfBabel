@@ -48,8 +48,8 @@ it cannot detect.
   transmit power hundreds of times per second. This is the technique's principal
   operational burden.
 
-**Where it went.** CDMA dominated 3G — IS-95, CDMA2000 and UMTS all used it — and
-5G does not. LTE and 5G NR use OFDMA instead, because OFDM's per-subcarrier
+**Where it went.** CDMA carried a generation of cellular — IS-95 in 2G, then
+CDMA2000 and UMTS in 3G — and 5G does not use it. LTE and 5G NR use OFDMA instead, because OFDM's per-subcarrier
 flexibility, its easier equalisation in wideband channels, and its lower receiver
 complexity won out. CDMA survives in GPS and other GNSS systems, in some satellite
 links, and as the spreading component inside other schemes.

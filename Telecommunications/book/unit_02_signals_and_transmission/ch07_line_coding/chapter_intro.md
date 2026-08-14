@@ -72,9 +72,9 @@ voltage range means one third the spacing between adjacent levels, which means
 roughly 9.5 dB more SNR required for the same error rate. Modern high-speed copper
 accepts that deal because bandwidth on the cable is the binding constraint and SNR
 is recoverable through equalisation and forward error correction. 400GBASE-DR4
-uses PAM-4; so does every DDR5 memory bus; so does 2.5GBASE-T over ordinary Cat5e,
-which is how that standard managed to run 2.5× faster on cable never designed for
-it.
+uses PAM-4 per lane, GDDR6X graphics memory adopted it, and 2.5GBASE-T runs
+10GBASE-T's PAM-16 signalling scaled down over ordinary Cat5e, which is how that
+standard managed to run 2.5× faster on cable never designed for it.
 
 ## What this chapter does
 

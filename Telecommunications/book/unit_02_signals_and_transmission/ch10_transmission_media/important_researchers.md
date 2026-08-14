@@ -61,7 +61,7 @@ long-haul fibre would need electrical regeneration every 40 km per wavelength. S
 Chapter 9's notes; his work is what turned Kao's medium into an economic
 proposition.
 
-**Michael Marcus (b. 1946).** The FCC engineer who drove the 1985 decision opening
+**Michael Marcus.** The FCC engineer who drove the 1985 decision opening
 the ISM bands to unlicensed spread-spectrum use, described in Chapter 43. He has
 said that the bands were regarded internally as spectral wasteland and that the
 proposal met considerable resistance. What was built on that wasteland is most of

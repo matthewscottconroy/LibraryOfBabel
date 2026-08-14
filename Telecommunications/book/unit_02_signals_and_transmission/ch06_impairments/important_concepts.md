@@ -100,7 +100,7 @@ visualisation of Chapter 5's threshold behaviour: as impairments accumulate the 
 closes, and when it closes the link fails abruptly.
 
 **Equalisation** *(§6.3)* — Applying the inverse of a channel's known distortion.
-Fixed, adaptive, or decision-feedback. It is why Cat5e specified for 100 Mb/s in
+Fixed, adaptive, or decision-feedback. It is why Cat5e specified to 100 MHz in
 1999 carries 2.5 Gb/s under 802.3bz (2016) with no change to the cable.
 
 **Differential signalling and common-mode rejection** *(§6.4)* — The receiver reads

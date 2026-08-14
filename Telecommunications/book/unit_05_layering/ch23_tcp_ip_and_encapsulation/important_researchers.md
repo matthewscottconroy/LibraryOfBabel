@@ -97,7 +97,7 @@ MUST/SHOULD/MAY discipline — telling implementers not merely what the protocol
 He also ran the End-to-End Research Group for many years, which is where much of the
 transport work of Chapter 36 was argued out.
 
-**Scott Bradner (b. 1946).** Author of **RFC 2119**, which defines MUST, SHOULD, MAY,
+**Scott Bradner.** Author of **RFC 2119**, which defines MUST, SHOULD, MAY,
 SHOULD NOT and MUST NOT — three pages that make every other RFC readable without
 ambiguity. It is cited by essentially every specification written since 1997.
 

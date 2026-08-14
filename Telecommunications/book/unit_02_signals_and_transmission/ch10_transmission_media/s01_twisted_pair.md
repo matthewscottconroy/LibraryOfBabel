@@ -38,7 +38,7 @@ rate, and Chapter 5 §5.3 argued why that distinction matters.
 Three observations that matter more than the table.
 
 **Cat5e is not obsolete.** 802.3bz (2016) extracted 2.5 Gb/s from it at 100 m by
-encoding harder (Chapter 7 §7.4), on cable specified in 1999 for 100 Mb/s. The
+encoding harder (Chapter 7 §7.4), on cable specified in 1999 to 100 MHz. The
 enormous installed base of Cat5e is precisely why that standard exists.
 
 **Cat6's 10 Gb/s figure is conditional.** 55 m is the headline, and it falls

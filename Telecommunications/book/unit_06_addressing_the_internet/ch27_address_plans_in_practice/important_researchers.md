@@ -19,7 +19,7 @@ people watching consumption most closely and were the most alarmed.
 companion — private addressing is useless without translation at the boundary. Chapter 21
 and Chapter 33 cover the architecture; the pairing is what actually deferred exhaustion.
 
-**Stuart Cheshire (b. 1965) and Bernard Aboba.** **RFC 3927** (2005), *Dynamic
+**Stuart Cheshire and Bernard Aboba.** **RFC 3927** (2005), *Dynamic
 Configuration of IPv4 Link-Local Addresses* — the standardisation of what Microsoft had
 shipped as APIPA and Apple as part of Zeroconf.
 
@@ -33,7 +33,7 @@ a printer appears on a home network without anyone doing anything.
 one: because the fallback is standardised and universal, its presence is unambiguous
 evidence about what happened.
 
-**Steve Deering (b. 1955).** **IP multicast** — his 1988 Stanford dissertation and
+**Steve Deering.** **IP multicast** — his 1988 Stanford dissertation and
 RFC 1112 (1989). Deering's design is elegant: a group is an address, joining is a local
 operation, and senders need know nothing about receivers.
 

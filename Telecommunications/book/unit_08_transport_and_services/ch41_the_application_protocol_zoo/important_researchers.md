@@ -102,7 +102,7 @@ weights the rest — because a clock that is confidently wrong is worse than no 
 Forty years of production use with essentially unchanged algorithms is an unusual record
 for anything involving statistics.
 
-**Henning Schulzrinne (b. 1961).** **SIP** and **RTP** — his third appearance.
+**Henning Schulzrinne.** **SIP** and **RTP** — his third appearance.
 
 SIP's deliberate resemblance to HTTP was a design choice with a purpose: make it
 implementable by people who already knew how to write HTTP code, and make it debuggable by

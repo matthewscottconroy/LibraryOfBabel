@@ -1,6 +1,6 @@
 # Chapter 43 — The People
 
-**Michael Marcus (b. 1946).** The FCC engineer who drove the 1985 decision permitting
+**Michael Marcus.** The FCC engineer who drove the 1985 decision permitting
 unlicensed spread-spectrum use of the ISM bands — §43.1's accident.
 
 The reasoning was technical and the consequence was economic. Spread-spectrum

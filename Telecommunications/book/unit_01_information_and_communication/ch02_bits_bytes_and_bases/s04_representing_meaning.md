@@ -100,7 +100,7 @@ and read them under four different agreements:
 
 - **As an IPv4 address:** `192.168.10.70`.
 - **As an unsigned 32-bit integer, big-endian:** 3,232,238,150.
-- **As an unsigned 32-bit integer, little-endian:** 1,175,974,592.
+- **As an unsigned 32-bit integer, little-endian:** 1,175,103,680.
 - **As four ASCII characters:** `À¨` followed by a newline and `F` — mostly
   unprintable, because those byte values are not ASCII text.
 - **As two IEEE 802.1Q VLAN tag halves, or as part of a MAC address, or as a

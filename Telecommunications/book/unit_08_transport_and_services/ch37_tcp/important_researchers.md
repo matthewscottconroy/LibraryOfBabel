@@ -42,11 +42,11 @@ non-measurement rule that covers the gap it leaves.
 Karn is also an amateur radio operator (KA9Q) whose TCP/IP implementation for packet radio
 was, for years, the way many people first ran the protocol on a personal computer.
 
-**Craig Partridge (b. 1961).** Karn's co-author, and a great deal of the transport work of
+**Craig Partridge.** Karn's co-author, and a great deal of the transport work of
 the 1980s and 90s — including RFC 1546 (anycast, Chapter 27) and the measurement studies
 that established what the Internet's delay and loss actually looked like.
 
-**Steve Bellovin (b. 1951).** *Security Problems in the TCP/IP Protocol Suite* (1989),
+**Steve Bellovin.** *Security Problems in the TCP/IP Protocol Suite* (1989),
 which described **sequence number prediction** — §37.1's attack — five years before Mitnick
 used it.
 
@@ -66,7 +66,7 @@ papers.
 A demonstrated attack moves an industry that a described one does not — which recurs
 throughout this book, in Chapter 18's ARP tooling and Chapter 32's BGP hijacks.
 
-**John Nagle (b. 1949).** **RFC 896** (1984), and the algorithm that bears his name.
+**John Nagle.** **RFC 896** (1984), and the algorithm that bears his name.
 
 Written to solve a specific problem at Ford Aerospace: interactive traffic generating
 41-byte packets to carry one byte, saturating a link with headers.

@@ -38,7 +38,7 @@ stopped existing. **BGP's path vector makes no assumption about the shape of the
 which is why it survived the flattening of §32.3 that would have destroyed any protocol
 assuming a hierarchy.
 
-**Geoff Huston (b. 1954).** APNIC, and the person who has measured the global routing
+**Geoff Huston.** APNIC, and the person who has measured the global routing
 table continuously since the 1990s. Every figure in this chapter — 75,000 ASes, ~950,000
 prefixes, RPKI coverage — comes from his datasets at bgp.potaroo.net.
 
@@ -66,7 +66,7 @@ under-filtering rather than of one engineer's mistake.
 **The incident is why prefix filtering became standard practice**, and §32.4's list shows
 how incompletely.
 
-**Randy Bush (b. 1949) and Rob Austein.** **RPKI** — RFC 6480 and the surrounding
+**Randy Bush and Rob Austein.** **RPKI** — RFC 6480 and the surrounding
 architecture. Bush has been among the most persistent advocates for routing security, over
 two decades, largely against indifference.
 

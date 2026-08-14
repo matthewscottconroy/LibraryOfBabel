@@ -41,7 +41,7 @@ along a path to agree on what each value means and to be configured accordingly.
 Chapter 52 returns to this. The lesson generalises well beyond networking: **a
 convention for expressing intent is not the same as a mechanism for honouring it.**
 
-**Steve Deering (b. 1955).** Not directly a VLAN figure, but his consistent argument
+**Steve Deering.** Not directly a VLAN figure, but his consistent argument
 against large Layer 2 domains — made from the IP side, over decades — is the
 counterweight to this chapter's enthusiasm. His position is that VLANs allowed
 organisations to defer subnetting decisions they should have made, and that

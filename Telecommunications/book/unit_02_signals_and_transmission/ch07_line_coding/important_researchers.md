@@ -10,7 +10,7 @@ Ethernet thirty-four years later essentially unchanged. Thomas's original polari
 convention is the opposite of IEEE 802.3's, which is why standards documents always
 specify which they mean.
 
-**Albert Widmer (b. 1935) and Peter Franaszek (b. 1940).** IBM researchers whose
+**Albert Widmer and Peter Franaszek.** IBM researchers whose
 1983 paper *A DC-Balanced, Partitioned-Block, 8B/10B Transmission Code* is one of
 the most quietly consequential pieces of coding engineering ever published. The
 partitioning into 5B/6B and 3B/4B was the practical insight — it turned one

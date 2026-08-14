@@ -69,14 +69,14 @@ zooming in or out produces statistically similar pictures — and that Poisson m
 therefore systematically understate queue lengths. It is one of the most cited
 measurement papers in networking and it changed how capacity planning is done.
 
-**Kevin Fall and Sally Floyd.** Floyd's work on Random Early Detection (1993, with
-Van Jacobson) was the first serious attempt at active queue management, and Fall's
-later work with Nichols produced **CoDel** (2012), which finally made AQM
-deployable by removing the need to tune parameters. Floyd's broader contributions to
+**Sally Floyd and Kathleen Nichols.** Floyd's work on Random Early Detection
+(1993, with Van Jacobson) was the first serious attempt at active queue management,
+and Nichols's later work with Jacobson produced **CoDel** (2012), which finally
+made AQM deployable by removing the need to tune parameters. Floyd's broader contributions to
 congestion control and to the culture of network measurement were substantial; she
 died in 2019.
 
-**Jim Gettys (b. 1953).** Coined **bufferbloat** in 2010 after investigating why his
+**Jim Gettys.** Coined **bufferbloat** in 2010 after investigating why his
 home connection behaved so badly under load, and then spent years demonstrating that
 the problem was endemic across the industry — in routers, in operating systems, in
 device drivers, and in cable modems. The campaign that followed produced FQ-CoDel and

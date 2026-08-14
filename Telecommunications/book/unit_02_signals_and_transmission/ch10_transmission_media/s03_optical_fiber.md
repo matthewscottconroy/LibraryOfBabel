@@ -16,7 +16,7 @@ Snell's law gives the condition. For refractive indices *n*₁ (core) and *n*₂
 $$\theta_c = \arcsin\left(\frac{n_2}{n_1}\right)$$
 
 A typical fibre has *n*₁ = 1.4682 and *n*₂ = 1.4629, giving a critical angle of
-about 84.4°. Light entering within a narrow cone of the axis strikes the boundary
+about 85.1°. Light entering within a narrow cone of the axis strikes the boundary
 at more than that and is trapped.
 
 ```

@@ -53,7 +53,7 @@ The abstract machinery of simplicial type theory — Segal types, Rezk types, th
 
 1. Apply the synthetic Yoneda lemma to the case $G = \mathbb{Z}$ (the integers, as a group under addition) and $F = \mathsf{hom}_{\mathbf{Grp}}(-, H)$ for a group $H$. The Yoneda lemma says:
 $$\mathsf{Nat}(\mathsf{hom}(\mathbb{Z}, -), \mathsf{hom}(-, H)) \simeq \mathsf{hom}(\mathbb{Z}, H)$$
-What does this say concretely? A natural transformation between these functors is determined by where the identity homomorphism $\mathsf{id}_\mathbb{Z}$ goes. Express the bijection explicitly: what element of $\mathsf{hom}(\mathbb{Z}, H)$ corresponds to a given natural transformation?
+What does this say concretely? A natural transformation between these functors is determined by where the identity homomorphism $\mathsf{id}_{\mathbb{Z}}$ goes. Express the bijection explicitly: what element of $\mathsf{hom}(\mathbb{Z}, H)$ corresponds to a given natural transformation?
 
 2. Now apply the Yoneda lemma to show that $\mathbb{Z}$ represents the "underlying-set" forgetful functor $U : \mathbf{Grp} \to \mathsf{Set}$. Specifically, use the Yoneda lemma to prove that group homomorphisms from $\mathbb{Z}$ to $H$ correspond to elements of $H$. Write down the correspondence explicitly: given $h \in H$, construct the corresponding homomorphism $\phi_h : \mathbb{Z} \to H$, and verify it is indeed a homomorphism.
 

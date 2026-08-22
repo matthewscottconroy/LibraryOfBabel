@@ -87,17 +87,17 @@ Conversely, any linear $T: F^n \to F^m$ equals $L_A$ for a unique matrix $A$.
 
 Given bases $\mathcal{B} = (\mathbf{b}_1, \ldots, \mathbf{b}_n)$ of $V$ and $\mathcal{C} = (\mathbf{c}_1, \ldots, \mathbf{c}_m)$ of $W$, define the **matrix of $T$ relative to $\mathcal{B}$ and $\mathcal{C}$**:
 
-$$[T]_\mathcal{B}^\mathcal{C} = \begin{pmatrix} | & & | \\ [T(\mathbf{b}_1)]_\mathcal{C} & \cdots & [T(\mathbf{b}_n)]_\mathcal{C} \\ | & & | \end{pmatrix}$$
+$$[T]_{\mathcal{B}}^{\mathcal{C}} = \begin{pmatrix} | & & | \\ [T(\mathbf{b}_1)]_{\mathcal{C}} & \cdots & [T(\mathbf{b}_n)]_{\mathcal{C}} \\ | & & | \end{pmatrix}$$
 
-The $j$-th column of $[T]_\mathcal{B}^\mathcal{C}$ is the coordinate vector of $T(\mathbf{b}_j)$ in the basis $\mathcal{C}$.
+The $j$-th column of $[T]_{\mathcal{B}}^{\mathcal{C}}$ is the coordinate vector of $T(\mathbf{b}_j)$ in the basis $\mathcal{C}$.
 
 **Fundamental equation:**
-$$[T(\mathbf{v})]_\mathcal{C} = [T]_\mathcal{B}^\mathcal{C} \cdot [\mathbf{v}]_\mathcal{B}$$
+$$[T(\mathbf{v})]_{\mathcal{C}} = [T]_{\mathcal{B}}^{\mathcal{C}} \cdot [\mathbf{v}]_{\mathcal{B}}$$
 
 ### 4.2.3 Composition and Matrix Multiplication
 
 If $S: U \to V$ and $T: V \to W$ with bases $\mathcal{A}, \mathcal{B}, \mathcal{C}$:
-$$[T \circ S]_\mathcal{A}^\mathcal{C} = [T]_\mathcal{B}^\mathcal{C} \cdot [S]_\mathcal{A}^\mathcal{B}$$
+$$[T \circ S]_{\mathcal{A}}^{\mathcal{C}} = [T]_{\mathcal{B}}^{\mathcal{C}} \cdot [S]_{\mathcal{A}}^{\mathcal{B}}$$
 
 This is why matrix multiplication is defined as it is: it encodes composition of linear maps.
 
@@ -124,11 +124,11 @@ $$P = [\mathrm{id}_V]_{\mathcal{B}'}^{\mathcal{B}} \in M_{n \times n}(F)$$
 
 Its columns are the coordinates of the new basis vectors $\mathbf{b}'_j$ expressed in the old basis $\mathcal{B}$.
 
-**Coordinate transformation:** $[\mathbf{v}]_\mathcal{B} = P \cdot [\mathbf{v}]_{\mathcal{B}'}$.
+**Coordinate transformation:** $[\mathbf{v}]_{\mathcal{B}} = P \cdot [\mathbf{v}]_{\mathcal{B}'}$.
 
 ### 4.3.2 Similarity
 
-If $T: V \to V$ (an **endomorphism**) has matrix $A = [T]_\mathcal{B}$ in basis $\mathcal{B}$ and $A' = [T]_{\mathcal{B}'}$ in basis $\mathcal{B}'$, then:
+If $T: V \to V$ (an **endomorphism**) has matrix $A = [T]_{\mathcal{B}}$ in basis $\mathcal{B}$ and $A' = [T]_{\mathcal{B}'}$ in basis $\mathcal{B}'$, then:
 
 $$A' = P^{-1} A P$$
 
@@ -195,7 +195,7 @@ For $A \in M_{m \times n}(F)$ (thinking of $A$ as $T: F^n \to F^m$):
 |---------|-----------|
 | Rank-Nullity | $\mathrm{rank}(T) + \mathrm{nullity}(T) = \dim V$ |
 | Linear maps determined by basis images | $T$ is determined by $T(\mathbf{b}_i)$; any assignment extends uniquely to a linear map |
-| Matrix of composition | $[T \circ S]_\mathcal{A}^\mathcal{C} = [T]_\mathcal{B}^\mathcal{C}[S]_\mathcal{A}^\mathcal{B}$ |
+| Matrix of composition | $[T \circ S]_{\mathcal{A}}^{\mathcal{C}} = [T]_{\mathcal{B}}^{\mathcal{C}}[S]_{\mathcal{A}}^{\mathcal{B}}$ |
 | Similarity | Change of basis gives similar matrices |
 | RREF uniqueness | Every matrix has a unique RREF |
 

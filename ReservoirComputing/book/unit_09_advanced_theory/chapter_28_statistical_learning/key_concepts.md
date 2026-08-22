@@ -14,7 +14,7 @@
 
 ## Sauer-Shelah Lemma
 
-The growth function $\Pi_\mathcal{H}(m)$ — the maximum number of distinct labelings $\mathcal{H}$ produces on $m$ points — satisfies $\Pi_\mathcal{H}(m) \leq (em/d_\mathrm{VC})^{d_\mathrm{VC}}$ for $m > d_\mathrm{VC}$. This polynomial (rather than exponential) growth is what makes large-VC-dimension classes PAC learnable.
+The growth function $\Pi_{\mathcal{H}}(m)$ — the maximum number of distinct labelings $\mathcal{H}$ produces on $m$ points — satisfies $\Pi_{\mathcal{H}}(m) \leq (em/d_\mathrm{VC})^{d_\mathrm{VC}}$ for $m > d_\mathrm{VC}$. This polynomial (rather than exponential) growth is what makes large-VC-dimension classes PAC learnable.
 
 ## Rademacher Complexity
 

@@ -20,15 +20,15 @@ Every natural number is either zero or the successor of another natural number. 
 
 **Eliminator (the recursor):**
 
-$$\frac{\Gamma \vdash C : \mathbb{N} \to \mathsf{Type} \quad \Gamma \vdash c_z : C(\mathsf{zero}) \quad \Gamma \vdash c_s : \prod_{n:\mathbb{N}} C(n) \to C(\mathsf{succ}(n)) \quad \Gamma \vdash n : \mathbb{N}}{\Gamma \vdash \mathsf{ind}_\mathbb{N}(C, c_z, c_s, n) : C(n)}$$
+$$\frac{\Gamma \vdash C : \mathbb{N} \to \mathsf{Type} \quad \Gamma \vdash c_z : C(\mathsf{zero}) \quad \Gamma \vdash c_s : \prod_{n:\mathbb{N}} C(n) \to C(\mathsf{succ}(n)) \quad \Gamma \vdash n : \mathbb{N}}{\Gamma \vdash \mathsf{ind}_{\mathbb{N}}(C, c_z, c_s, n) : C(n)}$$
 
 The eliminator says: to define a value (or prove a property) for every natural number n, it suffices to:
 1. Handle n = zero: provide c_z : C(zero)
 2. Handle n = succ(m): given the result for m, provide c_s(m) : C(m) → C(succ(m))
 
 **Computation rules:**
-$$\mathsf{ind}_\mathbb{N}(C, c_z, c_s, \mathsf{zero}) \equiv c_z$$
-$$\mathsf{ind}_\mathbb{N}(C, c_z, c_s, \mathsf{succ}(n)) \equiv c_s(n, \mathsf{ind}_\mathbb{N}(C, c_z, c_s, n))$$
+$$\mathsf{ind}_{\mathbb{N}}(C, c_z, c_s, \mathsf{zero}) \equiv c_z$$
+$$\mathsf{ind}_{\mathbb{N}}(C, c_z, c_s, \mathsf{succ}(n)) \equiv c_s(n, \mathsf{ind}_{\mathbb{N}}(C, c_z, c_s, n))$$
 
 The computation rules say: ind on zero gives c_z; ind on succ(n) applies c_s to n and the result for n.
 

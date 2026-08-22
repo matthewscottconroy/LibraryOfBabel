@@ -39,7 +39,7 @@ Conditional expectation is the most important concept in probability theory for 
 **Definition 2.6.4.** Let $(\Omega, \mathcal{F}, P)$ be a probability space, $X \in L^1(P)$, and $\mathcal{G} \subseteq \mathcal{F}$ a sub-$\sigma$-algebra. The *conditional expectation* $E[X | \mathcal{G}]$ is the unique (a.s.) $\mathcal{G}$-measurable random variable satisfying
 $$\int_G E[X | \mathcal{G}]\,dP = \int_G X\,dP \quad \text{for all } G \in \mathcal{G}.$$
 
-*Existence:* The measure $\nu(G) = \int_G X\,dP$ is absolutely continuous with respect to $P|_\mathcal{G}$, so Radon-Nikodym gives $d\nu/d(P|_\mathcal{G}) = E[X|\mathcal{G}]$.
+*Existence:* The measure $\nu(G) = \int_G X\,dP$ is absolutely continuous with respect to $P|_{\mathcal{G}}$, so Radon-Nikodym gives $d\nu/d(P|_{\mathcal{G}}) = E[X|\mathcal{G}]$.
 
 This is the Radon-Nikodym theorem at work: the conditional expectation exists because we can take a Radon-Nikodym derivative. The definition says: $E[X|\mathcal{G}]$ is the best $\mathcal{G}$-measurable approximation to $X$, in the sense that it matches the integrals of $X$ over all $\mathcal{G}$-measurable sets.
 

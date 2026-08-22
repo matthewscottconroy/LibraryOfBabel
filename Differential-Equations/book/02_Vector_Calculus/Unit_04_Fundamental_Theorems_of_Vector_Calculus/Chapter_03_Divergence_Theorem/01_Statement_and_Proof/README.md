@@ -60,7 +60,7 @@ $\nabla\cdot\mathbf{F} = 3$.
 
 $$\oiint_{\partial V}\mathbf{F}\cdot d\mathbf{S} = \iiint_V 3\,dV = 3\cdot 1 = 3.$$
 
-Direct verification: the six faces each have $\mathbf{F}\cdot\hat{\mathbf{n}} = $ one coordinate evaluated on that face. On the face $x=1$: $\hat{\mathbf{n}} = \mathbf{i}$, flux $= \iint 1\,dydz = 1$. On $x=0$: $\hat{\mathbf{n}} = -\mathbf{i}$, flux $= \iint(-0)\,dydz = 0$. Similarly for $y$ and $z$ faces. Total: $1+0+1+0+1+0 = 3$. Verified.
+Direct verification: the six faces each have $\mathbf{F}\cdot\hat{\mathbf{n}} =$ one coordinate evaluated on that face. On the face $x=1$: $\hat{\mathbf{n}} = \mathbf{i}$, flux $= \iint 1\,dydz = 1$. On $x=0$: $\hat{\mathbf{n}} = -\mathbf{i}$, flux $= \iint(-0)\,dydz = 0$. Similarly for $y$ and $z$ faces. Total: $1+0+1+0+1+0 = 3$. Verified.
 
 **Example 3: Using a Simpler Surface.** Compute $\oiint_S\mathbf{F}\cdot d\mathbf{S}$ for $\mathbf{F} = (e^{yz}, \sin(xz), \cos(xy))$ over the cube $[0,2]^3$.
 

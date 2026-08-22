@@ -30,7 +30,7 @@ $$\frac{dM}{dt} = -\oiint_{\partial V}\rho\mathbf{v}\cdot d\mathbf{S} = -\iiint_
 
 $$\frac{\partial\rho}{\partial t} + \nabla\cdot(\rho\mathbf{v}) = 0.$$
 
-This is the **continuity equation** — the differential form of mass conservation. For incompressible fluid ($\rho = $ const): $\nabla\cdot\mathbf{v} = 0$.
+This is the **continuity equation** — the differential form of mass conservation. For incompressible fluid ($\rho =$ const): $\nabla\cdot\mathbf{v} = 0$.
 
 ## Heat Flow and Laplace's Equation
 

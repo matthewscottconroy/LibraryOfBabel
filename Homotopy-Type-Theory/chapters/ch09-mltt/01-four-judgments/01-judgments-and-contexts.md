@@ -75,7 +75,7 @@ The judgment $\Gamma \vdash a = b : A$ (definitional equality of terms) is an eq
 
 **Includes $\beta$-reduction:** $(\lambda x. t)\, a \equiv t[a/x]$ is definitional equality.
 
-**Includes $\delta$-reduction:** The computation rules for recursors are definitional equalities. E.g., $\mathsf{ind}_\mathbb{N}(P, p_0, p_s, \mathsf{zero}) = p_0$ is a definitional equality.
+**Includes $\delta$-reduction:** The computation rules for recursors are definitional equalities. E.g., $\mathsf{ind}_{\mathbb{N}}(P, p_0, p_s, \mathsf{zero}) = p_0$ is a definitional equality.
 
 **Includes $\eta$-expansion:** (In some formulations) $f = \lambda x. f\, x$ and $p = (\pi_1 p, \pi_2 p)$ are definitional.
 

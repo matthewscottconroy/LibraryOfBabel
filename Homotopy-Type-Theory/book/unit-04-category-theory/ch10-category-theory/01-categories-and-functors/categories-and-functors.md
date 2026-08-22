@@ -6,7 +6,7 @@ A *category* is almost nothing: objects, arrows, and a rule for composing arrows
 
 **Definition.** A *category* $\mathcal{C}$ consists of:
 - A collection $\mathsf{Ob}(\mathcal{C})$ of *objects*
-- For each pair $(A, B)$ of objects, a set $\mathsf{Hom}_\mathcal{C}(A, B)$ of *morphisms* from $A$ to $B$, written $f : A \to B$
+- For each pair $(A, B)$ of objects, a set $\mathsf{Hom}_{\mathcal{C}}(A, B)$ of *morphisms* from $A$ to $B$, written $f : A \to B$
 - For each triple $(A, B, C)$, a *composition* map $\mathsf{Hom}(A,B) \times \mathsf{Hom}(B,C) \to \mathsf{Hom}(A,C)$, written $(f, g) \mapsto g \circ f$
 - For each object $A$, an *identity morphism* $\mathsf{id}_A : A \to A$
 
@@ -49,7 +49,7 @@ This is characteristic of categorical thinking: monoids and groups are not separ
 
 The subtlety: in MLTT, two functions are equal only if they are definitionally equal (or propositionally equal by a proof). The categorical structure of $\mathbf{Type}$ depends on which notion of equality you use. This is one reason why the categorical semantics of type theory is more delicate than the categorical semantics of set-based mathematics.
 
-**The opposite category.** For any category $\mathcal{C}$, the *opposite category* $\mathcal{C}^{op}$ has the same objects but reversed morphisms: $\mathsf{Hom}_{\mathcal{C}^{op}}(A, B) = \mathsf{Hom}_\mathcal{C}(B, A)$. Composition reverses: $f \circ_{op} g = g \circ f$.
+**The opposite category.** For any category $\mathcal{C}$, the *opposite category* $\mathcal{C}^{op}$ has the same objects but reversed morphisms: $\mathsf{Hom}_{\mathcal{C}^{op}}(A, B) = \mathsf{Hom}_{\mathcal{C}}(B, A)$. Composition reverses: $f \circ_{op} g = g \circ f$.
 
 The opposite category underlies the *duality principle* of category theory: every theorem has a dual obtained by reversing all arrows. The dual of "product" is "coproduct"; the dual of "limit" is "colimit"; the dual of "left adjoint" is "right adjoint."
 
@@ -99,13 +99,13 @@ Similarly, $\mathsf{Hom}(-, B) : \mathcal{C}^{op} \to \mathbf{Set}$ sends $A$ to
 
 ## The Category of Categories
 
-Functors between categories compose in an obvious way: if $F : \mathcal{C} \to \mathcal{D}$ and $G : \mathcal{D} \to \mathcal{E}$, then $G \circ F : \mathcal{C} \to \mathcal{E}$ sends $A \mapsto G(F(A))$ and $f \mapsto G(F(f))$. Composition of functors is associative, and there is an identity functor $\mathsf{Id}_\mathcal{C} : \mathcal{C} \to \mathcal{C}$ sending everything to itself.
+Functors between categories compose in an obvious way: if $F : \mathcal{C} \to \mathcal{D}$ and $G : \mathcal{D} \to \mathcal{E}$, then $G \circ F : \mathcal{C} \to \mathcal{E}$ sends $A \mapsto G(F(A))$ and $f \mapsto G(F(f))$. Composition of functors is associative, and there is an identity functor $\mathsf{Id}_{\mathcal{C}} : \mathcal{C} \to \mathcal{C}$ sending everything to itself.
 
 So categories and functors form a category $\mathbf{Cat}$. (There are set-theoretic subtleties here — $\mathbf{Cat}$ is not small — but this is the right intuition.)
 
-What is an isomorphism in $\mathbf{Cat}$? It is a functor $F : \mathcal{C} \to \mathcal{D}$ that has an inverse functor $G : \mathcal{D} \to \mathcal{C}$ with $G \circ F = \mathsf{Id}_\mathcal{C}$ and $F \circ G = \mathsf{Id}_\mathcal{D}$. This is an *isomorphism of categories* — strict equality of composite functors.
+What is an isomorphism in $\mathbf{Cat}$? It is a functor $F : \mathcal{C} \to \mathcal{D}$ that has an inverse functor $G : \mathcal{D} \to \mathcal{C}$ with $G \circ F = \mathsf{Id}_{\mathcal{C}}$ and $F \circ G = \mathsf{Id}_{\mathcal{D}}$. This is an *isomorphism of categories* — strict equality of composite functors.
 
-But this is too strong. In practice, the right notion of "sameness" for categories is *equivalence* (defined in Section 2, via natural transformations). An equivalence of categories requires only that $G \circ F \cong \mathsf{Id}_\mathcal{C}$ and $F \circ G \cong \mathsf{Id}_\mathcal{D}$ — that the composites are naturally isomorphic to the identity, not literally equal. This is why natural transformations are essential.
+But this is too strong. In practice, the right notion of "sameness" for categories is *equivalence* (defined in Section 2, via natural transformations). An equivalence of categories requires only that $G \circ F \cong \mathsf{Id}_{\mathcal{C}}$ and $F \circ G \cong \mathsf{Id}_{\mathcal{D}}$ — that the composites are naturally isomorphic to the identity, not literally equal. This is why natural transformations are essential.
 
 ## Fully Faithful and Essentially Surjective Functors
 

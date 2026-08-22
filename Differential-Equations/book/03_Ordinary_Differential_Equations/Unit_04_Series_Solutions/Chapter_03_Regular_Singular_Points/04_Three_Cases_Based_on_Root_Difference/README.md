@@ -20,7 +20,7 @@ $$y_2 = c y_1 \ln x + x^{r_2}\sum_{n=0}^\infty b_n x^n, \qquad b_0 = 1,$$
 
 where $c$ may be zero or nonzero. If $c = 0$, the second solution is a pure Frobenius series at $r_2$; if $c \neq 0$, the logarithm is essential and cannot be eliminated.
 
-Whether $c = 0$ or not depends on the specific equation. The constant $c$ is determined by the recurrence at $r_2$: when $n = N$, the recurrence gives $0 \cdot a_N = $ (something), and if that "something" is nonzero, then the recurrence is inconsistent unless a $\ln$ term is introduced.
+Whether $c = 0$ or not depends on the specific equation. The constant $c$ is determined by the recurrence at $r_2$: when $n = N$, the recurrence gives $0 \cdot a_N =$ (something), and if that "something" is nonzero, then the recurrence is inconsistent unless a $\ln$ term is introduced.
 
 ## Case 3: $r_1 = r_2$ (Repeated Root)
 

@@ -97,9 +97,9 @@ Modalities correspond exactly to *reflective subcategories* of the ∞-topos.
 The modal types are the objects of $\mathcal{E}_\bigcirc$.
 
 **Examples:**
-- Discrete types: all sets with the discrete topology; $\bigcirc = $ discretization
-- Hausdorff spaces: $\bigcirc = $ Hausdorff-ification (the largest Hausdorff quotient)
-- Sheaves: $\bigcirc = $ sheafification (in a Grothendieck topology)
+- Discrete types: all sets with the discrete topology; $\bigcirc =$ discretization
+- Hausdorff spaces: $\bigcirc =$ Hausdorff-ification (the largest Hausdorff quotient)
+- Sheaves: $\bigcirc =$ sheafification (in a Grothendieck topology)
 
 ## Composing Modalities
 

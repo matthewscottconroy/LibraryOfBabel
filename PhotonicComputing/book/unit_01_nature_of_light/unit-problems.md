@@ -33,7 +33,7 @@ $$r_s = \frac{n_1\cos\theta_i - n_2\cos\theta_t}{n_1\cos\theta_i + n_2\cos\theta
 (a) For normal incidence ($\theta_i = 0$): show $r_s = (n_1-n_2)/(n_1+n_2)$.
 (b) Compute the reflectance $R = r_s^2$ at a Si/air interface ($n_\text{Si} = 3.47$) at normal incidence.
 (c) At what angle (Brewster's angle) does $r_p = 0$? Express in terms of $n_1$, $n_2$.
-(d) At a Si/SiO₂ interface ($n_\text{Si} = 3.47$, $n_\text{SiO_2} = 1.44$), find the critical angle for total internal reflection.
+(d) At a Si/SiO₂ interface ($n_\text{Si} = 3.47$, $n_{\text{SiO}_2} = 1.44$), find the critical angle for total internal reflection.
 
 **Problem 1.5** [Medium]
 Radiation pressure: A 1 mW CW laser beam (diameter 2 mm, $\lambda = 532$ nm) is focused onto a perfectly reflective mirror.

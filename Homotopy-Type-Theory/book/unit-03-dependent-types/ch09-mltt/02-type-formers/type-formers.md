@@ -94,11 +94,11 @@ The elimination rule says: from an element of 𝟘 (the empty type, an element t
 $$\Gamma \vdash \mathsf{zero} : \mathbb{N} \qquad \frac{\Gamma \vdash n : \mathbb{N}}{\Gamma \vdash \mathsf{succ}(n) : \mathbb{N}}$$
 
 **Elimination:**
-$$\frac{\Gamma \vdash C : \mathbb{N} \to \mathsf{Type} \quad \Gamma \vdash c_z : C(\mathsf{zero}) \quad \Gamma \vdash c_s : \prod_{n:\mathbb{N}} C(n) \to C(\mathsf{succ}(n)) \quad \Gamma \vdash n : \mathbb{N}}{\Gamma \vdash \mathsf{ind}_\mathbb{N}(C, c_z, c_s, n) : C(n)}$$
+$$\frac{\Gamma \vdash C : \mathbb{N} \to \mathsf{Type} \quad \Gamma \vdash c_z : C(\mathsf{zero}) \quad \Gamma \vdash c_s : \prod_{n:\mathbb{N}} C(n) \to C(\mathsf{succ}(n)) \quad \Gamma \vdash n : \mathbb{N}}{\Gamma \vdash \mathsf{ind}_{\mathbb{N}}(C, c_z, c_s, n) : C(n)}$$
 
 **Computation:**
-$$\mathsf{ind}_\mathbb{N}(C, c_z, c_s, \mathsf{zero}) \equiv c_z$$
-$$\mathsf{ind}_\mathbb{N}(C, c_z, c_s, \mathsf{succ}(n)) \equiv c_s(n,\, \mathsf{ind}_\mathbb{N}(C, c_z, c_s, n))$$
+$$\mathsf{ind}_{\mathbb{N}}(C, c_z, c_s, \mathsf{zero}) \equiv c_z$$
+$$\mathsf{ind}_{\mathbb{N}}(C, c_z, c_s, \mathsf{succ}(n)) \equiv c_s(n,\, \mathsf{ind}_{\mathbb{N}}(C, c_z, c_s, n))$$
 
 ## W-Types (Well-Founded Trees)
 

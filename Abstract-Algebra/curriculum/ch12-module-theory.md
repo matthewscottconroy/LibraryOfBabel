@@ -208,7 +208,7 @@ A module is **Artinian** if every descending chain of submodules stabilizes.
 
 4. Show that $M \otimes_R (N \oplus P) \cong (M \otimes_R N) \oplus (M \otimes_R P)$.
 
-5. Compute $\mathbb{Z}/m\mathbb{Z} \otimes_\mathbb{Z} \mathbb{Z}/n\mathbb{Z} \cong \mathbb{Z}/\gcd(m,n)\mathbb{Z}$.
+5. Compute $\mathbb{Z}/m\mathbb{Z} \otimes_{\mathbb{Z}} \mathbb{Z}/n\mathbb{Z} \cong \mathbb{Z}/\gcd(m,n)\mathbb{Z}$.
 
 6. Prove: a finitely generated projective module over a PID is free.
 

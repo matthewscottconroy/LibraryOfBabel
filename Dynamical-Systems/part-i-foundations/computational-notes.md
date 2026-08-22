@@ -90,7 +90,7 @@ pi_estimate = 4 * count / N
 
 ### Persistent Homology
 
-Topological data analysis (TDA) computes the Betti numbers $\beta_k = $ rank $H_k(X; \mathbb{Z})$ of a space from a point cloud or a sequence of simplicial complexes. For dynamical systems, this provides quantitative information about the topology of attractors.
+Topological data analysis (TDA) computes the Betti numbers $\beta_k =$ rank $H_k(X; \mathbb{Z})$ of a space from a point cloud or a sequence of simplicial complexes. For dynamical systems, this provides quantitative information about the topology of attractors.
 
 **Algorithm (Vietoris-Rips complex)**: Given a set of points $\{x_i\}$ from an attractor at scale $\varepsilon$:
 1. Build a simplicial complex: add a $k$-simplex $\{x_{i_0}, \ldots, x_{i_k}\}$ whenever $\max_{a,b} d(x_{i_a}, x_{i_b}) \leq \varepsilon$.

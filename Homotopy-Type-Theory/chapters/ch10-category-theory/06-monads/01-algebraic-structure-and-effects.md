@@ -9,7 +9,7 @@ A monad is an endofunctor with extra structure that lets you "compose" its appli
 
 **Definition.** A *monad* on a category $\mathcal{C}$ is a triple $(T, \eta, \mu)$ where:
 - $T : \mathcal{C} \to \mathcal{C}$ is a functor
-- $\eta : \mathsf{id}_\mathcal{C} \Rightarrow T$ is a natural transformation (the *unit*)
+- $\eta : \mathsf{id}_{\mathcal{C}} \Rightarrow T$ is a natural transformation (the *unit*)
 - $\mu : T^2 \Rightarrow T$ is a natural transformation (the *multiplication*)
 
 satisfying:

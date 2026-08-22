@@ -5,7 +5,7 @@ An Anosov diffeomorphism is a hyperbolic system with no "room to breathe" — th
 **Definition 9.3.1.** A $C^1$ diffeomorphism $f: M \to M$ of a compact manifold is an *Anosov diffeomorphism* if $M$ itself is a hyperbolic set: for all $x \in M$, $T_xM = E^s(x) \oplus E^u(x)$ with uniform expansion in $E^u$ and contraction in $E^s$.
 
 **Examples 9.3.2.**
-- *Linear toral automorphisms*: $f_A: {\mathbb T}^n \to {\mathbb T}^n$ for $A \in GL(n, {\mathbb Z})$ with no eigenvalue on the unit circle. The splitting is constant: $E^s = $ span of eigenvectors with $|\lambda| < 1$, $E^u = $ span with $|\lambda| > 1$.
+- *Linear toral automorphisms*: $f_A: {\mathbb T}^n \to {\mathbb T}^n$ for $A \in GL(n, {\mathbb Z})$ with no eigenvalue on the unit circle. The splitting is constant: $E^s =$ span of eigenvectors with $|\lambda| < 1$, $E^u =$ span with $|\lambda| > 1$.
 - The Arnold cat map $A = \begin{pmatrix} 2 & 1 \\ 1 & 1 \end{pmatrix}$ on ${\mathbb T}^2$ with eigenvalues $\lambda_+ = (3+\sqrt{5})/2 > 1$ and $\lambda_- = (3-\sqrt{5})/2 < 1$.
 - It is unknown whether Anosov diffeomorphisms exist on manifolds other than infranilmanifolds (a major open problem).
 

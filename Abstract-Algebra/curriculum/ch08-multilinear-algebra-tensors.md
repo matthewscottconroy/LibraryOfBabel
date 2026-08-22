@@ -176,7 +176,7 @@ is the free associative algebra on $V$. Both $\bigwedge V$ and $\mathrm{Sym}(V)$
 | Universal property of $\otimes$ | Bilinear maps $V \times W \to U$ $\leftrightarrow$ linear maps $V \otimes W \to U$ |
 | $V^* \otimes W \cong \mathcal{L}(V,W)$ | Linear maps are tensors |
 | $\dim \bigwedge^k V = \binom{n}{k}$ | Exterior power dimensions |
-| Det as $\bigwedge^n$ | $\det(T) = $ scalar by which $T$ acts on $\bigwedge^n V$ |
+| Det as $\bigwedge^n$ | $\det(T) =$ scalar by which $T$ acts on $\bigwedge^n V$ |
 | $\mathrm{Sym}(V) \cong F[x_1,\ldots,x_n]$ | Symmetric algebra = polynomial ring |
 
 ---

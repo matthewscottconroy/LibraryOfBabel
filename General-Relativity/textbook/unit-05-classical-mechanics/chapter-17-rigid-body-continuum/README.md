@@ -77,7 +77,7 @@ A symmetric top ($I_1 = I_2$) with one fixed point in a gravitational field has 
 **Three conserved quantities**: 
 1. $E = \frac{1}{2}(I_1(\omega_1^2+\omega_2^2) + I_3\omega_3^2) + MgR\cos\theta$ (energy)
 2. $L_z = (I_1\sin^2\theta + I_3\cos^2\theta)\dot\phi + I_3\omega_3\cos\theta$ (angular momentum about vertical axis — space-fixed $z$)
-3. $\omega_3 = $ const (angular velocity about body symmetry axis — since $\phi$ is cyclic in Euler angle Lagrangian)
+3. $\omega_3 =$ const (angular velocity about body symmetry axis — since $\phi$ is cyclic in Euler angle Lagrangian)
 
 With these three integrals, the motion reduces to a one-dimensional problem for $\theta(t)$ — it can be integrated in terms of elliptic functions.
 

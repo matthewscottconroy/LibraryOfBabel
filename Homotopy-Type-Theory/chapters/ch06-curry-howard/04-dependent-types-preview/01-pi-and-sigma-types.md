@@ -117,11 +117,11 @@ These groupoid laws are provable in MLTT! They're not extra axioms but consequen
 
 The Univalence Axiom (Voevodsky) extends the identity type to the *universe of types* $\mathcal{U}$:
 
-$$\text{ua} : (A \simeq B) \to (A =_\mathcal{U} B)$$
+$$\text{ua} : (A \simeq B) \to (A =_{\mathcal{U}} B)$$
 
 An *equivalence* $A \simeq B$ is a bijection (more precisely, a function with contractible fibers). Univalence says: equivalent types are equal in the universe.
 
-Under the homotopy interpretation: the universe $\mathcal{U}$ is a "classifying space for types," and a path $A =_\mathcal{U} B$ is a continuous deformation of the space $A$ into the space $B$ — which is exactly an equivalence (up to homotopy).
+Under the homotopy interpretation: the universe $\mathcal{U}$ is a "classifying space for types," and a path $A =_{\mathcal{U}} B$ is a continuous deformation of the space $A$ into the space $B$ — which is exactly an equivalence (up to homotopy).
 
 Univalence has the mathematical consequence we've been building toward: *isomorphic mathematical structures are literally equal*. Two constructions of the real numbers that are isomorphic give equal elements of $\mathcal{U}$.
 

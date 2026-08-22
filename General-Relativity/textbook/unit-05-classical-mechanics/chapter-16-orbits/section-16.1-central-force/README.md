@@ -116,7 +116,7 @@ $$\frac{d^2u}{d\phi^2} + u = -\frac{m}{\ell^2 u^2}F(1/u)$$
 
 For a power-law force $F = -k/r^n = -ku^n$: right-hand side $= kmu^{n-2}/\ell^2$.
 
-- **$n = 2$ (inverse square)**: RHS $= km/\ell^2 = $ const. Solution: $u = (1 + e\cos\phi)/p$ (conic, closed orbit).
+- **$n = 2$ (inverse square)**: RHS $= km/\ell^2 =$ const. Solution: $u = (1 + e\cos\phi)/p$ (conic, closed orbit).
 - **$n = 3$ (inverse cube)**: RHS $= kmu/\ell^2$. Solution: $u \propto \cos(\alpha\phi)$ for some $\alpha$. This gives a spiral orbit — not closed.
 - **$n = 1$ (linear)**: RHS $= kmu^{-1}/\ell^2 = km/(u\ell^2)$. Different character.
 

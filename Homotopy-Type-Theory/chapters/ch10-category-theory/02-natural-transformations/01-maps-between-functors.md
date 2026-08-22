@@ -54,7 +54,7 @@ $$(\beta \circ \alpha)_A = \beta_A \circ \alpha_A : F(A) \to H(A)$$
 
 The identity natural transformation $\mathsf{id}_F : F \Rightarrow F$ has components $(\mathsf{id}_F)_A = \mathsf{id}_{F(A)}$.
 
-This makes functors $\mathcal{C} \to \mathcal{D}$ into a category — the *functor category* $[\mathcal{C}, \mathcal{D}]$ or $\mathcal{D}^\mathcal{C}$ — whose objects are functors and morphisms are natural transformations.
+This makes functors $\mathcal{C} \to \mathcal{D}$ into a category — the *functor category* $[\mathcal{C}, \mathcal{D}]$ or $\mathcal{D}^{\mathcal{C}}$ — whose objects are functors and morphisms are natural transformations.
 
 **Horizontal composition.** There's also a way to compose natural transformations "sideways." Given $\alpha : F \Rightarrow G$ (functors $\mathcal{C} \to \mathcal{D}$) and $\beta : H \Rightarrow K$ (functors $\mathcal{D} \to \mathcal{E}$), the *horizontal composition* $\beta * \alpha : H \circ F \Rightarrow K \circ G$ has components:
 

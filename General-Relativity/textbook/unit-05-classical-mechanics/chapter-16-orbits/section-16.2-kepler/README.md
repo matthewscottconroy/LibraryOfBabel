@@ -29,7 +29,7 @@ Choosing $\phi_0 = 0$ (perihelion at $\phi = 0$):
 $$r(\phi) = \frac{p}{1 + e\cos\phi}$$
 
 This is the **polar equation of a conic section** in standard form. The parameter $e \geq 0$ is the **eccentricity**:
-- $e = 0$: circle ($r = p = $ const)
+- $e = 0$: circle ($r = p =$ const)
 - $0 < e < 1$: ellipse (with semi-major axis $a$ and $p = a(1-e^2)$)
 - $e = 1$: parabola
 - $e > 1$: hyperbola (unbound orbit)
@@ -86,7 +86,7 @@ $$v^2 = GM\left(\frac{2}{r} - \frac{1}{a}\right)$$
 
 ## 16.2.4 Kepler's Third Law
 
-**Orbital period**: The area of an ellipse is $A = \pi a b = \pi a^2\sqrt{1-e^2}$. Since the areal velocity is $dA/dt = \ell/(2m) = $ const, the period is:
+**Orbital period**: The area of an ellipse is $A = \pi a b = \pi a^2\sqrt{1-e^2}$. Since the areal velocity is $dA/dt = \ell/(2m) =$ const, the period is:
 
 $$T = \frac{A}{dA/dt} = \frac{2m\pi a^2\sqrt{1-e^2}}{\ell}$$
 

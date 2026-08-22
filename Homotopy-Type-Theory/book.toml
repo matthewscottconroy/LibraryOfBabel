@@ -14,6 +14,15 @@ front_matter = [
     "index.md",
 ]
 
+# The semantic-brackets pair \llbracket/\rrbracket is used ~136 times across
+# the categorical-semantics material; it lives in stmaryrd, which pandoc's
+# default preamble does not load.
+header_includes = [
+  '''
+\usepackage{stmaryrd}
+''',
+]
+
 [[sources]]
 root = "chapters"
 recursive = true

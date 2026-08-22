@@ -22,7 +22,7 @@ A WDM tensor core (Section 27.2.2) requires $K$ mutually coherent wavelength cha
 
 (a) Option A supplies them with $K$ individually packaged DFB lasers at wall-plug power $P_L = 250$ mW each. Option B uses one pump laser at $P_p = 2$ W driving a soliton microcomb of pump-to-comb conversion efficiency $\eta = 2\%$. Write the total electrical power for each option as a function of $K$.
 
-(b) Above what channel count $K^\*$ does the microcomb consume less wall-plug power than the laser bank, on this simple accounting?
+(b) Above what channel count $K^*$ does the microcomb consume less wall-plug power than the laser bank, on this simple accounting?
 
 (c) List three overheads this estimate omits (consider soliton initiation and stabilization, per-line power available at the modulators, thermal control, and comb flatness/equalization), and state for each whether it helps or hurts the comb's case.
 

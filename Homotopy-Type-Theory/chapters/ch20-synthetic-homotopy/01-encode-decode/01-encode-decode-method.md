@@ -72,7 +72,7 @@ This is how Univalence enters the encode-decode method: it's what allows the cod
 
 For $X = S^1$ and $G = \mathbb{Z}$:
 - $\mathsf{code}(\mathsf{base}) :\equiv \mathbb{Z}$
-- $\mathsf{transport}^\mathsf{code}(\mathsf{loop}) :\equiv \mathsf{succ}_\mathbb{Z}$ (the successor equivalence, viewed as a path $\mathbb{Z} = \mathbb{Z}$ via Univalence)
+- $\mathsf{transport}^\mathsf{code}(\mathsf{loop}) :\equiv \mathsf{succ}_{\mathbb{Z}}$ (the successor equivalence, viewed as a path $\mathbb{Z} = \mathbb{Z}$ via Univalence)
 
 The encode function sends a loop $p : \mathsf{base} = \mathsf{base}$ to the integer "how many times $p$ goes around $\mathsf{loop}$" — the winding number. Transporting 0 along $p$ increments by 1 for each traversal of $\mathsf{loop}$.
 

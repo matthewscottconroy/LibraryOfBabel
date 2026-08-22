@@ -24,7 +24,7 @@
 A **representation** of a group $G$ over a field $k$ is a group homomorphism:
 $$\rho: G \to GL(V)$$
 
-where $V$ is a $k$-vector space (the **representation space**) and $GL(V) = $ group of invertible linear maps.
+where $V$ is a $k$-vector space (the **representation space**) and $GL(V) =$ group of invertible linear maps.
 
 The **dimension** (or **degree**) of $\rho$ is $\dim_k V$.
 

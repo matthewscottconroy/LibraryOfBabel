@@ -215,7 +215,7 @@ A **long exact sequence** extends in both directions.
 | $\mathbf{Top}$ | Category of topological spaces |
 | $\mathbf{Vect}_F$ | Category of $F$-vector spaces |
 | $\mathrm{ob}(\mathcal{C})$ | Class of objects of $\mathcal{C}$ |
-| $\mathrm{Hom}_\mathcal{C}(A, B)$ | Set of morphisms $A \to B$ in $\mathcal{C}$ |
+| $\mathrm{Hom}_{\mathcal{C}}(A, B)$ | Set of morphisms $A \to B$ in $\mathcal{C}$ |
 | $\mathcal{C}^{\mathrm{op}}$ | Opposite category (all arrows reversed) |
 
 ### 5.2 Functors

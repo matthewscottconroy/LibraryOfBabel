@@ -12,7 +12,7 @@ Qualitative analysis asks: without solving an ODE explicitly, what can you say a
 - A *homoclinic orbit*: an orbit in $W^s(p) \cap W^u(p)$ for the same equilibrium $p$
 - A *heteroclinic orbit*: an orbit in $W^s(q) \cap W^u(p)$ for distinct equilibria $p, q$
 
-The omega-limit set is the "attractor" of the orbit. If the orbit converges to a fixed point, $\omega(p) = \{q\}$. If it converges to a periodic orbit, $\omega(p) = $ the periodic orbit. If the system is chaotic, $\omega(p)$ can be a complicated Cantor set-like object.
+The omega-limit set is the "attractor" of the orbit. If the orbit converges to a fixed point, $\omega(p) = \{q\}$. If it converges to a periodic orbit, $\omega(p) =$ the periodic orbit. If the system is chaotic, $\omega(p)$ can be a complicated Cantor set-like object.
 
 **Properties of Omega-Limit Sets:**
 1. $\omega(p)$ is closed and positively invariant (the flow maps it to itself).

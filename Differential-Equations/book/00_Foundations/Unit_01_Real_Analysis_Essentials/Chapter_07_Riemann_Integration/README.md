@@ -4,7 +4,7 @@ Integration is the mathematical operation for computing accumulated quantities: 
 
 ## Riemann Sums and Integrability
 
-Section 1 constructs the Riemann integral. A **partition** $\mathcal{P} = \{a = x_0 < x_1 < \cdots < x_n = b\}$ of $[a,b]$ divides it into subintervals. On each subinterval $[x_{i-1}, x_i]$, the function is approximated by a constant, chosen as the infimum (lower Riemann sum $L(f, \mathcal{P})$) or the supremum (upper Riemann sum $U(f, \mathcal{P})$). The function is **Riemann integrable** on $[a,b]$ if $\sup_\mathcal{P} L(f,\mathcal{P}) = \inf_\mathcal{P} U(f,\mathcal{P})$, and the common value is the integral. The Riemann criterion (integrability iff for every $\varepsilon > 0$ there exists a partition with $U - L < \varepsilon$) and the theorem that every continuous function is integrable are the main results.
+Section 1 constructs the Riemann integral. A **partition** $\mathcal{P} = \{a = x_0 < x_1 < \cdots < x_n = b\}$ of $[a,b]$ divides it into subintervals. On each subinterval $[x_{i-1}, x_i]$, the function is approximated by a constant, chosen as the infimum (lower Riemann sum $L(f, \mathcal{P})$) or the supremum (upper Riemann sum $U(f, \mathcal{P})$). The function is **Riemann integrable** on $[a,b]$ if $\sup_{\mathcal{P}} L(f,\mathcal{P}) = \inf_{\mathcal{P}} U(f,\mathcal{P})$, and the common value is the integral. The Riemann criterion (integrability iff for every $\varepsilon > 0$ there exists a partition with $U - L < \varepsilon$) and the theorem that every continuous function is integrable are the main results.
 
 ## The Fundamental Theorem of Calculus
 

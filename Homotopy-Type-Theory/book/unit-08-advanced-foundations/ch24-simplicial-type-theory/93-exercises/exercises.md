@@ -46,8 +46,8 @@
 
 **Exercise 10.** In Rzk, formalize the following:
 - (a) The type $\mathsf{Bool}$ (with two elements `true` and `false`) as a Segal type with hom = equality
-- (b) The type $\mathbb{N}$ as a Segal type with $\mathsf{hom}_\mathbb{N}(m, n) = (m \leq n)$ (the poset structure)
-- (c) Prove that $\mathsf{hom}_\mathbb{N}(m, n)$ is a proposition for all $m, n$
+- (b) The type $\mathbb{N}$ as a Segal type with $\mathsf{hom}_{\mathbb{N}}(m, n) = (m \leq n)$ (the poset structure)
+- (c) Prove that $\mathsf{hom}_{\mathbb{N}}(m, n)$ is a proposition for all $m, n$
 
 **Exercise 11.** The spine of $\Delta^n$ is $\mathsf{Sp}[n] = \{(t_1, \ldots, t_n) : \mathbf{2}^n \mid t_1 \leq \cdots \leq t_n\}$. State the $n = 3$ Segal condition explicitly. What does it say geometrically? What does it say categorically (in terms of composition)?
 

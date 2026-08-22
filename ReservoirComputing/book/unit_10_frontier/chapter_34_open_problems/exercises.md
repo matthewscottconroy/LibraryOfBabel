@@ -75,7 +75,7 @@
 Design a rigorous experimental test of this hypothesis:
 (a) Specify the task class: what temporal tasks would most cleanly distinguish the edge-of-chaos effect from artifacts (task memorability, input statistics)?
 (b) Specify the reservoir class: what reservoir architectures allow precise control of $\lambda_{\max}$ as an independent variable?
-(c) Specify the statistical analysis: what test would distinguish "performance peaks at $\lambda_{\max} = 0$" from "performance peaks at $\lambda_{\max} = $ (some positive value)" with high confidence?
+(c) Specify the statistical analysis: what test would distinguish "performance peaks at $\lambda_{\max} = 0$" from "performance peaks at $\lambda_{\max} =$ (some positive value)" with high confidence?
 (d) What confounds must be controlled, and how?
 
 **Exercise 34.10.** *(Research program)* Write a 2-3 page research proposal for a 5-year program addressing one of the open problems in Section 34.1. The proposal should include:

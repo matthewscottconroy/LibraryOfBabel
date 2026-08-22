@@ -71,7 +71,7 @@ Random $W^{rec}$ generates a diverse set $\{g_i\}$ in the following sense: the p
 
 ## The Role of Nonlinearity
 
-A crucial point: the nonlinearity $f$ is necessary for this approximation property. Consider the case $f = $ identity (a linear reservoir). Then the state is:
+A crucial point: the nonlinearity $f$ is necessary for this approximation property. Consider the case $f =$ identity (a linear reservoir). Then the state is:
 
 $$\mathbf{x}_t = \sum_{s=0}^{t} (W^{rec})^s W^{in} \mathbf{u}_{t-s} + (W^{rec})^t \mathbf{x}_0$$
 
@@ -92,7 +92,7 @@ The parallel with Rahimi and Recht's random kitchen sink is now precise:
 | Input: $\mathbf{x} \in \mathbb{R}^n$ | Input: sequence $\mathbf{u}_1, \mathbf{u}_2, \ldots, \mathbf{u}_t$ |
 | Feature map: $\phi(\mathbf{x}) \in \mathbb{R}^N$ | Feature map: $\mathbf{x}_t \in \mathbb{R}^N$ |
 | Random projections $\boldsymbol{\omega}_i$ | Random recurrent weights $W^{rec}$, $W^{in}$ |
-| Kernel: $k(\mathbf{x}, \mathbf{z}) = e^{-\|\mathbf{x} - \mathbf{z}\|^2}$ | Temporal kernel: $k(\mathbf{u}, \mathbf{v}) = $ inner product in Volterra space |
+| Kernel: $k(\mathbf{x}, \mathbf{z}) = e^{-\|\mathbf{x} - \mathbf{z}\|^2}$ | Temporal kernel: $k(\mathbf{u}, \mathbf{v}) =$ inner product in Volterra space |
 | Output: $y = \mathbf{w}^T \phi(\mathbf{x})$ | Output: $y_t = \mathbf{w}^T \mathbf{x}_t$ |
 | Training: linear regression | Training: linear regression |
 

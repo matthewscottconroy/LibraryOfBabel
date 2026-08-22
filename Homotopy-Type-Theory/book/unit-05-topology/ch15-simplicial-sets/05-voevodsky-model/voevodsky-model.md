@@ -92,4 +92,4 @@ The cubical model is now preferred for computational purposes; the simplicial mo
 | The fiber | Fiber of a fibration | Fiber Kan complex | The type $P(a)$ |
 | Equivalence | Homotopy equivalence | Weak equivalence | Term of $A \simeq B$ |
 | Identity of types | Homeomorphism (wrong!) | Homotopy equivalence | Term of $A = B$ in $\mathcal{U}$ |
-| Univalence | (no classical analogue) | Paths in the universe = equivalences | $A \simeq B \simeq A =_\mathcal{U} B$ |
+| Univalence | (no classical analogue) | Paths in the universe = equivalences | $A \simeq B \simeq A =_{\mathcal{U}} B$ |

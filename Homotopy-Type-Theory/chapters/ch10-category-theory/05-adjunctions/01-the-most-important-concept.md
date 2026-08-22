@@ -10,7 +10,7 @@ An adjunction between $F : \mathcal{C} \to \mathcal{D}$ and $G : \mathcal{D} \to
 
 **Definition.** An *adjunction* $F \dashv G$ between functors $F : \mathcal{C} \to \mathcal{D}$ (left adjoint) and $G : \mathcal{D} \to \mathcal{C}$ (right adjoint) is a natural bijection:
 
-$$\mathsf{Hom}_\mathcal{D}(F(A), B) \cong \mathsf{Hom}_\mathcal{C}(A, G(B))$$
+$$\mathsf{Hom}_{\mathcal{D}}(F(A), B) \cong \mathsf{Hom}_{\mathcal{C}}(A, G(B))$$
 
 for all $A \in \mathcal{C}$ and $B \in \mathcal{D}$, natural in both $A$ and $B$.
 
@@ -23,9 +23,9 @@ These two sets of morphisms are in bijection, and the bijection is natural (comp
 
 The adjunction can equivalently be expressed by:
 
-**Unit:** A natural transformation $\eta : \mathsf{id}_\mathcal{C} \Rightarrow G \circ F$ with components $\eta_A : A \to G(F(A))$.
+**Unit:** A natural transformation $\eta : \mathsf{id}_{\mathcal{C}} \Rightarrow G \circ F$ with components $\eta_A : A \to G(F(A))$.
 
-**Counit:** A natural transformation $\varepsilon : F \circ G \Rightarrow \mathsf{id}_\mathcal{D}$ with components $\varepsilon_B : F(G(B)) \to B$.
+**Counit:** A natural transformation $\varepsilon : F \circ G \Rightarrow \mathsf{id}_{\mathcal{D}}$ with components $\varepsilon_B : F(G(B)) \to B$.
 
 satisfying the *triangular identities*:
 $$(\varepsilon_{F(A)}) \circ F(\eta_A) = \mathsf{id}_{F(A)}$$
@@ -107,7 +107,7 @@ The recognition: if you can express "giving a map out of $X$ is the same as givi
 
 Every adjunction $F \dashv G$ gives a monad $(T, \eta, \mu)$ on $\mathcal{C}$:
 - $T = G \circ F : \mathcal{C} \to \mathcal{C}$ (the monad functor)
-- $\eta : \mathsf{id}_\mathcal{C} \Rightarrow T$ (unit: the adjunction unit)
+- $\eta : \mathsf{id}_{\mathcal{C}} \Rightarrow T$ (unit: the adjunction unit)
 - $\mu : T^2 \Rightarrow T$ (multiplication: $G(\varepsilon_{F(A)}) : G(F(G(F(A)))) \to G(F(A))$)
 
 Every monad arises from some adjunction (Kleisli or Eilenberg-Moore). So monads and adjunctions are closely related.

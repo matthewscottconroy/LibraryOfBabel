@@ -5,10 +5,10 @@
 (b) For the Lindblad equation with $H = \omega\sigma_z/2$ and $L = \sqrt{\gamma}\sigma_-$, write down the ODE for $\vec{r}(t) = (\langle\sigma_x\rangle, \langle\sigma_y\rangle, \langle\sigma_z\rangle)$. Find the steady state $\vec{r}_{\text{ss}}$ and the relaxation rate.
 (c) This qubit driven by a time-varying input $u(t)$ that modulates $\omega$: $\omega \to \omega + \alpha u(t)$. Show that the time-averaged output $\langle\sigma_z\rangle(t)$ is a fading-memory functional of $u$.
 
-**Exercise 31.2.** *(Liouvillian gap)* For an $N$-qubit system with Lindblad operators $L_k$, the Liouvillian $\mathcal{L}$ acts on $N^2 \times N^2$ matrices (as a superoperator on density matrices). The gap $\Delta_\mathcal{L}$ determines the fading memory rate.
-(a) For a single qubit with dephasing $L = \sqrt{\gamma}\sigma_z$: find all eigenvalues of $\mathcal{L}$ and compute $\Delta_\mathcal{L}$.
-(b) For two qubits with independent dephasing on each qubit: find $\Delta_\mathcal{L}$ and show that the two-qubit coherences decay at rate $2\gamma$ (faster than single-qubit coherences).
-(c) Why does a faster Liouvillian gap mean a shorter memory? Relate $\Delta_\mathcal{L}$ to the weight sequence $w_k$ in the Boyd-Chua framework.
+**Exercise 31.2.** *(Liouvillian gap)* For an $N$-qubit system with Lindblad operators $L_k$, the Liouvillian $\mathcal{L}$ acts on $N^2 \times N^2$ matrices (as a superoperator on density matrices). The gap $\Delta_{\mathcal{L}}$ determines the fading memory rate.
+(a) For a single qubit with dephasing $L = \sqrt{\gamma}\sigma_z$: find all eigenvalues of $\mathcal{L}$ and compute $\Delta_{\mathcal{L}}$.
+(b) For two qubits with independent dephasing on each qubit: find $\Delta_{\mathcal{L}}$ and show that the two-qubit coherences decay at rate $2\gamma$ (faster than single-qubit coherences).
+(c) Why does a faster Liouvillian gap mean a shorter memory? Relate $\Delta_{\mathcal{L}}$ to the weight sequence $w_k$ in the Boyd-Chua framework.
 
 **Exercise 31.3.** *(Quantum observables as polynomial functionals)* Consider a 2-qubit quantum reservoir driven by input $u(t)$ via $H_{\text{input}}(t) = u(t)\sigma_z^{(1)}$. The state evolves as $\rho(t+1) = \mathcal{E}_{u(t)}(\rho(t))$ where $\mathcal{E}_u$ is the discretized Lindblad evolution.
 (a) Show that $\text{tr}(O\rho(t))$ for any fixed observable $O$ is a linear functional of $\rho(t)$, hence (by induction) a polynomial functional of the input history $(u(t), u(t-1), \ldots, u(0))$.

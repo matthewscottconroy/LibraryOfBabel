@@ -32,7 +32,7 @@ After $T^*$, the characteristic map is no longer injective: three different char
 
 **Weak formulation.** A function $u \in L^\infty$ is a weak solution of $u_t + (u^2/2)_x = 0$ if for all test functions $\phi\in C_c^\infty(\mathbb{R}\times[0,\infty))$:
 
-$$\int_0^\infty\int_\mathbb{R}\left[u\phi_t + \frac{u^2}{2}\phi_x\right]dx\,dt + \int_\mathbb{R}u_0(x)\phi(x,0)\,dx = 0.$$
+$$\int_0^\infty\int_{\mathbb{R}}\left[u\phi_t + \frac{u^2}{2}\phi_x\right]dx\,dt + \int_{\mathbb{R}}u_0(x)\phi(x,0)\,dx = 0.$$
 
 If $u$ is piecewise smooth with a jump discontinuity at $x = s(t)$, the Rankine-Hugoniot condition (derived by applying the weak formulation with a test function supported near the shock) gives:
 

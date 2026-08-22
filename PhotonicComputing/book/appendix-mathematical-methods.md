@@ -180,7 +180,7 @@ The scattering matrix $S$ relates the outgoing wave amplitudes to the incoming w
 
 $$\mathbf{b} = S \mathbf{a}$$
 
-where $a_j = $ (incoming amplitude at port $j$), $b_j = $ (outgoing amplitude at port $j$), normalized so that $|a_j|^2$ = power incident on port $j$.
+where $a_j =$ (incoming amplitude at port $j$), $b_j =$ (outgoing amplitude at port $j$), normalized so that $|a_j|^2$ = power incident on port $j$.
 
 For a 2-port device:
 

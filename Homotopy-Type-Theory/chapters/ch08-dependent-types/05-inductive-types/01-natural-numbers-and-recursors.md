@@ -29,7 +29,7 @@ The natural numbers are the *smallest* type with these two constructors — ther
 
 The simplest way to define a function out of $\mathbb{N}$ (when you don't need the return type to depend on the natural number) is by *primitive recursion*:
 
-$$\mathsf{rec}_\mathbb{N} : C \to (C \to C) \to \mathbb{N} \to C$$
+$$\mathsf{rec}_{\mathbb{N}} : C \to (C \to C) \to \mathbb{N} \to C$$
 
 Given:
 - A base case $c_0 : C$ (the value at $\mathsf{zero}$)
@@ -37,20 +37,20 @@ Given:
 - A natural number $n : \mathbb{N}$
 
 The recursor returns an element of $C$:
-$$\mathsf{rec}_\mathbb{N}\, c_0\, c_s\, \mathsf{zero} \equiv c_0$$
-$$\mathsf{rec}_\mathbb{N}\, c_0\, c_s\, (\mathsf{succ}(n)) \equiv c_s\, (\mathsf{rec}_\mathbb{N}\, c_0\, c_s\, n)$$
+$$\mathsf{rec}_{\mathbb{N}}\, c_0\, c_s\, \mathsf{zero} \equiv c_0$$
+$$\mathsf{rec}_{\mathbb{N}}\, c_0\, c_s\, (\mathsf{succ}(n)) \equiv c_s\, (\mathsf{rec}_{\mathbb{N}}\, c_0\, c_s\, n)$$
 
 **Example: addition.** Addition $m + n$ iterates the successor function $m$ times starting from $n$:
-$$m + n = \mathsf{rec}_\mathbb{N}\, n\, \mathsf{succ}\, m$$
+$$m + n = \mathsf{rec}_{\mathbb{N}}\, n\, \mathsf{succ}\, m$$
 Check:
-- $0 + n = \mathsf{rec}_\mathbb{N}\, n\, \mathsf{succ}\, \mathsf{zero} \equiv n$ ✓
-- $\mathsf{succ}(m) + n = \mathsf{rec}_\mathbb{N}\, n\, \mathsf{succ}\, (\mathsf{succ}(m)) \equiv \mathsf{succ}(\mathsf{rec}_\mathbb{N}\, n\, \mathsf{succ}\, m) = \mathsf{succ}(m + n)$ ✓
+- $0 + n = \mathsf{rec}_{\mathbb{N}}\, n\, \mathsf{succ}\, \mathsf{zero} \equiv n$ ✓
+- $\mathsf{succ}(m) + n = \mathsf{rec}_{\mathbb{N}}\, n\, \mathsf{succ}\, (\mathsf{succ}(m)) \equiv \mathsf{succ}(\mathsf{rec}_{\mathbb{N}}\, n\, \mathsf{succ}\, m) = \mathsf{succ}(m + n)$ ✓
 
-**Example: multiplication.** $m \times n = \mathsf{rec}_\mathbb{N}\, 0\, (\lambda k. k + n)\, m$. Check:
+**Example: multiplication.** $m \times n = \mathsf{rec}_{\mathbb{N}}\, 0\, (\lambda k. k + n)\, m$. Check:
 - $0 \times n = 0$ ✓
 - $\mathsf{succ}(m) \times n = (m \times n) + n$ ✓
 
-**Example: exponentiation.** $m^n = \mathsf{rec}_\mathbb{N}\, 1\, (\lambda k. k \times m)\, n$. Check:
+**Example: exponentiation.** $m^n = \mathsf{rec}_{\mathbb{N}}\, 1\, (\lambda k. k \times m)\, n$. Check:
 - $m^0 = 1$ ✓
 - $m^{\mathsf{succ}(n)} = m^n \times m$ ✓
 
@@ -60,7 +60,7 @@ The recursor is the uniform way to define all primitive recursive functions on $
 
 The full power of inductive types comes from the *dependent* recursor, which allows the return type to depend on the natural number. This is the formal statement of mathematical induction:
 
-$$\mathsf{ind}_\mathbb{N} : \prod_{P : \mathbb{N} \to \mathsf{Type}} P(0) \to \left(\prod_{n:\mathbb{N}} P(n) \to P(\mathsf{succ}(n))\right) \to \prod_{n:\mathbb{N}} P(n)$$
+$$\mathsf{ind}_{\mathbb{N}} : \prod_{P : \mathbb{N} \to \mathsf{Type}} P(0) \to \left(\prod_{n:\mathbb{N}} P(n) \to P(\mathsf{succ}(n))\right) \to \prod_{n:\mathbb{N}} P(n)$$
 
 Given:
 - A *motive* $P : \mathbb{N} \to \mathsf{Type}$ (the property/type family you're producing)
@@ -70,8 +70,8 @@ Given:
 This gives $\prod_{n:\mathbb{N}} P(n)$: a proof for every natural number.
 
 The computation rules:
-$$\mathsf{ind}_\mathbb{N}\, P\, p_0\, p_s\, \mathsf{zero} \equiv p_0$$
-$$\mathsf{ind}_\mathbb{N}\, P\, p_0\, p_s\, (\mathsf{succ}(n)) \equiv p_s\, n\, (\mathsf{ind}_\mathbb{N}\, P\, p_0\, p_s\, n)$$
+$$\mathsf{ind}_{\mathbb{N}}\, P\, p_0\, p_s\, \mathsf{zero} \equiv p_0$$
+$$\mathsf{ind}_{\mathbb{N}}\, P\, p_0\, p_s\, (\mathsf{succ}(n)) \equiv p_s\, n\, (\mathsf{ind}_{\mathbb{N}}\, P\, p_0\, p_s\, n)$$
 
 **This is mathematical induction.** The motive $P$ is the induction hypothesis; $p_0$ is the base case; $p_s$ is the inductive step. The type-theoretic presentation makes the structure explicit:
 - $p_s$ takes two arguments: the number $n$ itself, and the inductive hypothesis $P(n)$
@@ -85,7 +85,7 @@ The power of the Curry-Howard perspective: the induction principle for $\mathbb{
 
 $$\prod_{P : \mathbb{N} \to \mathsf{Type}} P(0) \to \left(\prod_{n:\mathbb{N}} P(n) \to P(\mathsf{succ}(n))\right) \to \prod_{n:\mathbb{N}} P(n)$$
 
-is precisely the Peano induction axiom, stated as a type. And $\mathsf{ind}_\mathbb{N}$ is a *proof term* — a program of this type.
+is precisely the Peano induction axiom, stated as a type. And $\mathsf{ind}_{\mathbb{N}}$ is a *proof term* — a program of this type.
 
 In a proof assistant, when you write a proof by induction on $n : \mathbb{N}$, you're constructing a term of this type. The proof checker verifies that your construction is type-correct.
 
@@ -105,7 +105,7 @@ So $\mathsf{succ}(n + 0) = \mathsf{succ}(n)$ by applying $\mathsf{succ}$ to both
 Combining: $\mathsf{succ}(n) + 0 = \mathsf{succ}(n)$.
 
 In type theory, this proof term is:
-$$\mathsf{ind}_\mathbb{N}\, (n \mapsto n + 0 = n)\, \mathsf{refl}_0\, (n \mapsto p_n \mapsto \mathsf{ap}_\mathsf{succ}\, p_n)$$
+$$\mathsf{ind}_{\mathbb{N}}\, (n \mapsto n + 0 = n)\, \mathsf{refl}_0\, (n \mapsto p_n \mapsto \mathsf{ap}_\mathsf{succ}\, p_n)$$
 
 where $\mathsf{ap}_\mathsf{succ} : n + 0 = n \to \mathsf{succ}(n + 0) = \mathsf{succ}(n)$ applies the function $\mathsf{succ}$ to both sides of an equality.
 
@@ -129,9 +129,9 @@ and Agda translates this to the recursor internally. The termination checker ens
 
 ## Universes and the Recursor
 
-The recursor $\mathsf{ind}_\mathbb{N}$ takes the motive $P : \mathbb{N} \to \mathsf{Type}$. But which universe does $\mathsf{Type}$ live in? This is where universe polymorphism matters:
+The recursor $\mathsf{ind}_{\mathbb{N}}$ takes the motive $P : \mathbb{N} \to \mathsf{Type}$. But which universe does $\mathsf{Type}$ live in? This is where universe polymorphism matters:
 
-$$\mathsf{ind}_\mathbb{N}^{\ell} : \prod_{P : \mathbb{N} \to \mathsf{Type}_\ell} P(0) \to \left(\prod_{n:\mathbb{N}} P(n) \to P(\mathsf{succ}(n))\right) \to \prod_{n:\mathbb{N}} P(n)$$
+$$\mathsf{ind}_{\mathbb{N}}^{\ell} : \prod_{P : \mathbb{N} \to \mathsf{Type}_\ell} P(0) \to \left(\prod_{n:\mathbb{N}} P(n) \to P(\mathsf{succ}(n))\right) \to \prod_{n:\mathbb{N}} P(n)$$
 
 There's a separate recursor for each universe level $\ell$. Universe polymorphism lets you state this uniformly, and proof assistants handle the level inference automatically.
 
@@ -143,7 +143,7 @@ The natural numbers in type theory satisfy the Peano axioms as theorems:
 2. $\mathsf{succ} : \mathbb{N} \to \mathbb{N}$ — every natural number has a successor ✓ (by $\mathsf{succ}$)
 3. $\mathsf{succ}(n) \neq 0$ for all $n : \mathbb{N}$ — provable from the recursor (define a function that returns $\mathbf{0}$ on $\mathsf{zero}$ and $\mathbf{1}$ on $\mathsf{succ}(\_)$)
 4. $\mathsf{succ}(m) = \mathsf{succ}(n) \to m = n$ — injectivity of $\mathsf{succ}$, provable from the identity type and recursor
-5. Induction: $\mathsf{ind}_\mathbb{N}$ ✓ (built in)
+5. Induction: $\mathsf{ind}_{\mathbb{N}}$ ✓ (built in)
 
 So the type $\mathbb{N}$ defined by constructors $\mathsf{zero}$ and $\mathsf{succ}$ with the induction principle satisfies all five Peano axioms. This isn't a coincidence — the inductive definition *is* the Peano axiomatization in type theory.
 
@@ -155,7 +155,7 @@ $$\mathsf{true} : \mathbb{B}$$
 $$\mathsf{false} : \mathbb{B}$$
 
 Recursor:
-$$\mathsf{rec}_\mathbb{B} : \prod_{P : \mathbb{B} \to \mathsf{Type}} P(\mathsf{true}) \to P(\mathsf{false}) \to \prod_{b:\mathbb{B}} P(b)$$
+$$\mathsf{rec}_{\mathbb{B}} : \prod_{P : \mathbb{B} \to \mathsf{Type}} P(\mathsf{true}) \to P(\mathsf{false}) \to \prod_{b:\mathbb{B}} P(b)$$
 
 This is just a two-case match: given values for the $\mathsf{true}$ case and the $\mathsf{false}$ case, produce a value for any $b$.
 

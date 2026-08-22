@@ -15,7 +15,7 @@ Together, they form a sufficient condition for the LSM to be a universal approxi
 
 ## 3.2 Setting Up: Input Streams and Liquid States
 
-We formalize the setting. Let $\mathcal{U} \subset \mathbb{R}^K$ be the (compact) input space and let $\mathbf{u} = (\ldots, u_{-2}, u_{-1}, u_0, u_1, \ldots) \in \mathcal{U}^\mathbb{Z}$ be a bi-infinite input stream.
+We formalize the setting. Let $\mathcal{U} \subset \mathbb{R}^K$ be the (compact) input space and let $\mathbf{u} = (\ldots, u_{-2}, u_{-1}, u_0, u_1, \ldots) \in \mathcal{U}^{\mathbb{Z}}$ be a bi-infinite input stream.
 
 A **liquid** is a dynamical system that maps input streams to liquid state trajectories. Given an input stream $\mathbf{u}$, the liquid at time $t$ produces a state $L_M(\mathbf{u})(t) \in \mathbb{R}^N$ — the "surface of the pond" at time $t$.
 
@@ -23,13 +23,13 @@ We assume the liquid satisfies the **echo state property** (i.e., its state at t
 
 A **readout** is a map $f : \mathbb{R}^N \to \mathbb{R}^L$ from the liquid state to an output. For LSMs (as for ESNs), the readout is typically trained to be linear: $f(x) = W^{out} x$.
 
-The **target computation** is a target functional $\mathcal{T} : \mathcal{U}^\mathbb{Z} \to \mathcal{Y}^\mathbb{Z}$ that we want the LSM to approximate. We assume $\mathcal{T}$ is causal, time-invariant, and continuous.
+The **target computation** is a target functional $\mathcal{T} : \mathcal{U}^{\mathbb{Z}} \to \mathcal{Y}^{\mathbb{Z}}$ that we want the LSM to approximate. We assume $\mathcal{T}$ is causal, time-invariant, and continuous.
 
 ---
 
 ## 3.3 The Separation Property
 
-**Definition 3.1 (Separation Property).** A liquid $M$ has the **separation property** on input class $\mathcal{C} \subseteq \mathcal{U}^\mathbb{Z}$ if for any two distinct input streams $\mathbf{u} \neq \mathbf{u}' \in \mathcal{C}$, there exists a time $t$ such that:
+**Definition 3.1 (Separation Property).** A liquid $M$ has the **separation property** on input class $\mathcal{C} \subseteq \mathcal{U}^{\mathbb{Z}}$ if for any two distinct input streams $\mathbf{u} \neq \mathbf{u}' \in \mathcal{C}$, there exists a time $t$ such that:
 
 $$L_M(\mathbf{u})(t) \neq L_M(\mathbf{u}')(t) \tag{3.1}$$
 

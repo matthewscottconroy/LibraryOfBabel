@@ -76,7 +76,7 @@ The proper time for a static observer at radius $r$ to receive light from the in
 
 $$z + 1 = \frac{f_{\rm emit}}{f_{\rm obs}} \approx e^{c_s t/4GM}$$
 
-as the proper time $t$ of the distant observer increases, where $c_s = $ appropriate coefficient. The infalling object is seen by the distant observer to freeze at $r = r_s$, dimming exponentially with a characteristic timescale:
+as the proper time $t$ of the distant observer increases, where $c_s =$ appropriate coefficient. The infalling object is seen by the distant observer to freeze at $r = r_s$, dimming exponentially with a characteristic timescale:
 $$t_e = 4GM/c^3 = 2r_s/c$$
 
 For a solar-mass black hole: $t_e \approx 20\,\mu$s. A collapsing star, seen from far away, would fade below any detectability within milliseconds (for a stellar black hole).

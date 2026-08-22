@@ -42,7 +42,7 @@ This chapter develops the Kolmogorov-Sinai (metric) entropy of a measure-preserv
 
 The KS entropy $h_\mu(T)$ is defined via *generating partitions*: a finite measurable partition $\mathcal{P}$ of the phase space $(X, \mu)$ generates an information process $(P_{T^n x})_{n \geq 0}$ where $P_y$ is the label of the atom of $\mathcal{P}$ containing $y$. The *Shannon entropy of the partition under the transformation* is
 $$h_\mu(T, \mathcal{P}) = \lim_{n \to \infty} \frac{1}{n} H\left(\bigvee_{k=0}^{n-1} T^{-k}\mathcal{P}\right),$$
-and the KS entropy is $h_\mu(T) = \sup_\mathcal{P} h_\mu(T, \mathcal{P})$. Sinai's generator theorem reduces this supremum to any single generating partition: if $\mathcal{P}$ generates (meaning $\bigvee_{k \in \mathbb{Z}} T^{-k}\mathcal{P}$ generates the full $\sigma$-algebra), then $h_\mu(T) = h_\mu(T, \mathcal{P})$.
+and the KS entropy is $h_\mu(T) = \sup_{\mathcal{P}} h_\mu(T, \mathcal{P})$. Sinai's generator theorem reduces this supremum to any single generating partition: if $\mathcal{P}$ generates (meaning $\bigvee_{k \in \mathbb{Z}} T^{-k}\mathcal{P}$ generates the full $\sigma$-algebra), then $h_\mu(T) = h_\mu(T, \mathcal{P})$.
 
 The variational principle connects KS entropy to topological entropy: $h_{\text{top}}(f) = \sup_\mu h_\mu(f)$ where the supremum is over all $f$-invariant Borel probability measures. The measure achieving the supremum is the *measure of maximal entropy*. For subshifts of finite type, this is the *Parry measure* (the unique equilibrium state for the zero potential), which has a simple Markov description.
 

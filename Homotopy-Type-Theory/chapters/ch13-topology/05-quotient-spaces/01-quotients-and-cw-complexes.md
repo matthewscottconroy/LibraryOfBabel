@@ -105,15 +105,15 @@ The correspondences:
 
 **The circle:**
 - Classical: $S^1 = D^0 \cup_\phi D^1$ (one point, one edge glued to itself)
-- HoTT: $S^1 := $ a type with $\mathsf{base} : S^1$ and $\mathsf{loop} : \mathsf{base} = \mathsf{base}$
+- HoTT: $S^1 :=$ a type with $\mathsf{base} : S^1$ and $\mathsf{loop} : \mathsf{base} = \mathsf{base}$
 
 **The 2-sphere:**
 - Classical: $S^2 = D^0 \cup D^2$ (one point, one 2-cell attached by a map $S^1 \to \{*\}$)
-- HoTT: $S^2 := $ a type with $\mathsf{north}, \mathsf{south} : S^2$, $\mathsf{merid}(x) : \mathsf{north} = \mathsf{south}$ for $x : S^1$, and a 2-cell filling...
+- HoTT: $S^2 :=$ a type with $\mathsf{north}, \mathsf{south} : S^2$, $\mathsf{merid}(x) : \mathsf{north} = \mathsf{south}$ for $x : S^1$, and a 2-cell filling...
 
 **Suspension:**
 - Classical: $\Sigma X = (X \times I) / (X \times \{0\} \sim * = X \times \{1\})$
-- HoTT: $\Sigma A := $ a type with $\mathsf{N}, \mathsf{S} : \Sigma A$ and $\mathsf{merid}(a) : \mathsf{N} = \mathsf{S}$ for each $a : A$
+- HoTT: $\Sigma A :=$ a type with $\mathsf{N}, \mathsf{S} : \Sigma A$ and $\mathsf{merid}(a) : \mathsf{N} = \mathsf{S}$ for each $a : A$
 
 The HIT construction is a synthetic version of the CW construction. In HoTT, you don't need to specify open sets or attaching maps — you just declare the generators (constructors) and the induction principle takes care of the rest.
 

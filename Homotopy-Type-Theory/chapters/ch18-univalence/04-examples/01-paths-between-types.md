@@ -45,7 +45,7 @@ By Univalence, $\mathsf{Bool} = \mathsf{Fin}(2)$ in the universe (there's a path
 
 Actually, the number of paths $\mathsf{Bool} = \mathsf{Fin}(2)$ equals the number of bijections, which is 2 (match $\mathsf{true}$ with $0$ and $\mathsf{false}$ with $1$, or vice versa).
 
-**Example 4.2 (Isomorphic groups).** Let $G_1 = \mathbb{Z}/2\mathbb{Z}$ (as a type, with the group structure built in as additional data) and $G_2 = $ another presentation of $\mathbb{Z}/2\mathbb{Z}$. As *plain types* (forgetting the group structure), $G_1 \simeq G_2$ (both are two-element sets), so $G_1 = G_2$ in the universe by Univalence.
+**Example 4.2 (Isomorphic groups).** Let $G_1 = \mathbb{Z}/2\mathbb{Z}$ (as a type, with the group structure built in as additional data) and $G_2 =$ another presentation of $\mathbb{Z}/2\mathbb{Z}$. As *plain types* (forgetting the group structure), $G_1 \simeq G_2$ (both are two-element sets), so $G_1 = G_2$ in the universe by Univalence.
 
 **The subtlety of structured equivalences.** When we say "$G_1$ and $G_2$ are isomorphic groups," we mean there's an equivalence of types that also respects the group operations. This is an equivalence in the *type of groups*:
 $$\sum_{G : \mathsf{Type}} \mathsf{GroupStr}(G)$$

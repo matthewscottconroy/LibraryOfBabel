@@ -110,7 +110,7 @@ $$\|\cdot\|_0 : A \mapsto \pi_0(A)$$
 - $\|\mathbb{N}\|_0 = \mathbb{N}$ (since $\mathbb{N}$ is already a set)
 - $\|S^1\|_0 = \mathbf{1}$ (the circle is connected — one component)
 - $\|A + B\|_0 = \|A\|_0 + \|B\|_0$ (disjoint union splits into components)
-- $\|\Sigma_{n:\mathbb{N}} P(n)\|_0 = $ the set of natural numbers satisfying $P$ (where $P$ is a proposition)
+- $\|\Sigma_{n:\mathbb{N}} P(n)\|_0 =$ the set of natural numbers satisfying $P$ (where $P$ is a proposition)
 
 **The homotopy group $\pi_0$.** The set truncation is the type-theoretic version of $\pi_0$: the set of connected components of a space. In HoTT:
 $$\pi_0(A) :\equiv \|A\|_0$$

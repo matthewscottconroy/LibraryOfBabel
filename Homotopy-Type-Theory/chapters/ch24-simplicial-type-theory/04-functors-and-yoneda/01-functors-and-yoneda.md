@@ -4,7 +4,7 @@
 
 In classical category theory, a functor $F : \mathcal{C} \to \mathcal{D}$ requires:
 - A function on objects: $F_0 : \text{Ob}(\mathcal{C}) \to \text{Ob}(\mathcal{D})$
-- A function on morphisms: $F_1 : \text{Hom}_\mathcal{C}(a, b) \to \text{Hom}_\mathcal{D}(F(a), F(b))$
+- A function on morphisms: $F_1 : \text{Hom}_{\mathcal{C}}(a, b) \to \text{Hom}_{\mathcal{D}}(F(a), F(b))$
 - Proof that $F$ preserves identities: $F(\mathsf{id}_a) = \mathsf{id}_{F(a)}$
 - Proof that $F$ preserves composition: $F(g \circ f) = F(g) \circ F(f)$
 
@@ -25,8 +25,8 @@ This is a synthetic miracle: the coherence conditions that classical category th
 ## Natural Transformations are Directed Homotopies
 
 In classical category theory, a natural transformation $\alpha : F \Rightarrow G$ (for functors $F, G : \mathcal{C} \to \mathcal{D}$) requires:
-- Components: $\alpha_c : \mathsf{Hom}_\mathcal{D}(F(c), G(c))$ for each $c : \mathcal{C}$
-- Naturality: for each $f : \mathsf{Hom}_\mathcal{C}(a, b)$, the square $G(f) \circ \alpha_a = \alpha_b \circ F(f)$ commutes.
+- Components: $\alpha_c : \mathsf{Hom}_{\mathcal{D}}(F(c), G(c))$ for each $c : \mathcal{C}$
+- Naturality: for each $f : \mathsf{Hom}_{\mathcal{C}}(a, b)$, the square $G(f) \circ \alpha_a = \alpha_b \circ F(f)$ commutes.
 
 In STT: a natural transformation is a *directed path* from $F$ to $G$ in the function type $A \to B$:
 

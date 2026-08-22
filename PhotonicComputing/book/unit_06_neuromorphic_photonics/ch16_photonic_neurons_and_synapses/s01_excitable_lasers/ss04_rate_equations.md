@@ -26,9 +26,9 @@ with a fast activator $v$ and a slow recovery $w$ ($\varepsilon \ll 1$). The opt
 
 Write the intensity $P = |E|^2$. From (1), $\dot{P} = (G-1)P$ (deterministic). Setting $\dot P = 0$ and $\dot N = 0$ gives two fixed points.
 
-The **lasing (on) state** has $P^\* \neq 0$, which forces $G^\*=1$; by (2) the carrier number clamps at $N^\* = N_{tr} + 1/g$, and the carrier balance gives $P^\* = I/e - N^\*/\tau_s > 0$.
+The **lasing (on) state** has $P^* \neq 0$, which forces $G^*=1$; by (2) the carrier number clamps at $N^* = N_{tr} + 1/g$, and the carrier balance gives $P^* = I/e - N^*/\tau_s > 0$.
 
-The **quiescent (off) state** has $P^\*=0$, so $N^\* = I\tau_s/e$ and $G^\* = g(I\tau_s/e - N_{tr})$. This is the resting state of the neuron; it is stable precisely when the pump sits below threshold, $G^\* < 1$.
+The **quiescent (off) state** has $P^*=0$, so $N^* = I\tau_s/e$ and $G^* = g(I\tau_s/e - N_{tr})$. This is the resting state of the neuron; it is stable precisely when the pump sits below threshold, $G^* < 1$.
 
 ## Linear stability: the Jacobian
 
@@ -36,13 +36,13 @@ Linearize the deterministic system $\dot P = (g(N-N_{tr})-1)P$, $\dot N = I/e - 
 
 $$J = \begin{pmatrix} \dfrac{\partial \dot P}{\partial P} & \dfrac{\partial \dot P}{\partial N} \\[2mm] \dfrac{\partial \dot N}{\partial P} & \dfrac{\partial \dot N}{\partial N} \end{pmatrix} = \begin{pmatrix} G-1 & gP \\[1mm] -G & -\dfrac{1}{\tau_s} - gP \end{pmatrix}. \tag{4}$$
 
-**At the lasing state** ($G^\*=1$, $P^\*>0$) this becomes
+**At the lasing state** ($G^*=1$, $P^*>0$) this becomes
 
-$$J_{\text{on}} = \begin{pmatrix} 0 & gP^\* \\ -1 & -\left(\tfrac{1}{\tau_s} + gP^\*\right) \end{pmatrix}, \qquad \operatorname{tr}J_{\text{on}} = -\left(\tfrac{1}{\tau_s} + gP^\*\right) < 0, \quad \det J_{\text{on}} = gP^\* > 0.$$
+$$J_{\text{on}} = \begin{pmatrix} 0 & gP^* \\ -1 & -\left(\tfrac{1}{\tau_s} + gP^*\right) \end{pmatrix}, \qquad \operatorname{tr}J_{\text{on}} = -\left(\tfrac{1}{\tau_s} + gP^*\right) < 0, \quad \det J_{\text{on}} = gP^* > 0.$$
 
-The eigenvalues are $\lambda_\pm = \tfrac{1}{2}\!\left(\operatorname{tr}J \pm \sqrt{(\operatorname{tr}J)^2 - 4\det J}\right)$. Because the discriminant $(\tfrac{1}{\tau_s}+gP^\*)^2 - 4gP^\*$ is negative in the well-above-transparency regime, the eigenvalues form a **complex-conjugate pair**
+The eigenvalues are $\lambda_\pm = \tfrac{1}{2}\!\left(\operatorname{tr}J \pm \sqrt{(\operatorname{tr}J)^2 - 4\det J}\right)$. Because the discriminant $(\tfrac{1}{\tau_s}+gP^*)^2 - 4gP^*$ is negative in the well-above-transparency regime, the eigenvalues form a **complex-conjugate pair**
 
-$$\lambda_\pm = \underbrace{-\tfrac{1}{2}\!\left(\tfrac{1}{\tau_s}+gP^\*\right)}_{\text{Re}\,\lambda\;=\;\frac{1}{2}\operatorname{tr}J} \;\pm\; i\,\omega_{\text{RO}}, \qquad \omega_{\text{RO}} \approx \sqrt{gP^\*}. \tag{5}$$
+$$\lambda_\pm = \underbrace{-\tfrac{1}{2}\!\left(\tfrac{1}{\tau_s}+gP^*\right)}_{\text{Re}\,\lambda\;=\;\frac{1}{2}\operatorname{tr}J} \;\pm\; i\,\omega_{\text{RO}}, \qquad \omega_{\text{RO}} \approx \sqrt{gP^*}. \tag{5}$$
 
 The imaginary part $\omega_{\text{RO}}$ is the **relaxation-oscillation frequency**: perturb the lasing laser and the intensity rings at $\omega_{\text{RO}}$ while the ring decays. Restoring physical units, $\omega_{\text{RO}}$ scales as $1/\sqrt{\tau_p\tau_s}$, i.e. the characteristic pulse time is the geometric mean $\sqrt{\tau_p\tau_s}$ — the same $\sim\!45\ \text{ps}$ estimate obtained in §16.1.1.
 
@@ -58,15 +58,15 @@ so the qualitative behavior is controlled by the *sign* of the trace:
 - $\operatorname{tr}J > 0 \;\Rightarrow\; \operatorname{Re}\lambda > 0$: the rest state is **unstable**; trajectories spiral out onto a limit cycle. The laser fires periodically with no input — the **self-pulsating / oscillatory** regime.
 - $\operatorname{tr}J = 0 \;\Rightarrow\; \operatorname{Re}\lambda = 0$: the eigenvalues are purely imaginary. This is a **Hopf bifurcation**, the exact boundary between the two behaviors.
 
-For the bare two-variable field–carrier system, $\operatorname{tr}J_{\text{on}} = -(1/\tau_s + gP^\*)$ is always negative, so this model only ever gives *damped* relaxation oscillations — it is on the excitable/quiescent side but cannot spontaneously pulse. Genuine, tunable excitability requires a **third, slow variable** — a saturable-absorber loss $Q$ (the Yamada model of §16.1.1), an injected-field phase, or the free-carrier/thermal shift of a microring (§16.1.3). Such a variable contributes a *positive* term to the trace; as a control parameter (pump current, absorber recovery rate, injection detuning) is increased, this positive term grows until it cancels the damping. At that point $\operatorname{tr}J = 0$: the system crosses the Hopf boundary, $\operatorname{Re}\lambda$ changes sign, and the laser passes from the excitable single-pulse regime into self-sustained pulsation. A well-designed laser neuron is biased **just on the excitable side** of this Hopf boundary, where the rest state is stable, noise rarely triggers spurious spikes, and a deliberate super-threshold input evokes exactly one clean pulse.
+For the bare two-variable field–carrier system, $\operatorname{tr}J_{\text{on}} = -(1/\tau_s + gP^*)$ is always negative, so this model only ever gives *damped* relaxation oscillations — it is on the excitable/quiescent side but cannot spontaneously pulse. Genuine, tunable excitability requires a **third, slow variable** — a saturable-absorber loss $Q$ (the Yamada model of §16.1.1), an injected-field phase, or the free-carrier/thermal shift of a microring (§16.1.3). Such a variable contributes a *positive* term to the trace; as a control parameter (pump current, absorber recovery rate, injection detuning) is increased, this positive term grows until it cancels the damping. At that point $\operatorname{tr}J = 0$: the system crosses the Hopf boundary, $\operatorname{Re}\lambda$ changes sign, and the laser passes from the excitable single-pulse regime into self-sustained pulsation. A well-designed laser neuron is biased **just on the excitable side** of this Hopf boundary, where the rest state is stable, noise rarely triggers spurious spikes, and a deliberate super-threshold input evokes exactly one clean pulse.
 
 ## Worked Example: locating the boundary
 
-Take the schematic trace $\operatorname{tr}J = \gamma_Q - (1/\tau_s + gP^\*)$, where $\gamma_Q>0$ is the effective destabilizing rate contributed by the slow absorber/injection variable. Excitability requires $\operatorname{Re}\lambda = \tfrac12\operatorname{tr}J < 0$, i.e.
+Take the schematic trace $\operatorname{tr}J = \gamma_Q - (1/\tau_s + gP^*)$, where $\gamma_Q>0$ is the effective destabilizing rate contributed by the slow absorber/injection variable. Excitability requires $\operatorname{Re}\lambda = \tfrac12\operatorname{tr}J < 0$, i.e.
 
-$$\gamma_Q < \frac{1}{\tau_s} + gP^\*.$$
+$$\gamma_Q < \frac{1}{\tau_s} + gP^*.$$
 
-Using representative normalized values $\tau_s = 10^3$ (in units of $\tau_p$) and $gP^\* = 5\times10^{-3}$, the damping is $1/\tau_s + gP^\* = 10^{-3} + 5\times10^{-3} = 6\times10^{-3}$. The device is excitable for $\gamma_Q < 6\times10^{-3}$ and self-pulsating for $\gamma_Q > 6\times10^{-3}$; the Hopf boundary sits at $\gamma_Q = 6\times10^{-3}$. The algebra is schematic, but the structure is exact: **the neuron's operating regime is set by the sign of the real part of a complex-conjugate eigenvalue pair, and the useful excitable window is the stable side immediately below a Hopf bifurcation.**
+Using representative normalized values $\tau_s = 10^3$ (in units of $\tau_p$) and $gP^* = 5\times10^{-3}$, the damping is $1/\tau_s + gP^* = 10^{-3} + 5\times10^{-3} = 6\times10^{-3}$. The device is excitable for $\gamma_Q < 6\times10^{-3}$ and self-pulsating for $\gamma_Q > 6\times10^{-3}$; the Hopf boundary sits at $\gamma_Q = 6\times10^{-3}$. The algebra is schematic, but the structure is exact: **the neuron's operating regime is set by the sign of the real part of a complex-conjugate eigenvalue pair, and the useful excitable window is the stable side immediately below a Hopf bifurcation.**
 
 ## References
 

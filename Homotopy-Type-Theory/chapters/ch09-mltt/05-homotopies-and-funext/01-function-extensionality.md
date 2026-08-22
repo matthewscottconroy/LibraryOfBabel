@@ -10,7 +10,7 @@ $$H : \prod_{x:A} f(x) =_B g(x)$$
 
 A homotopy says: for every input $x$, the outputs $f(x)$ and $g(x)$ are equal. This is *pointwise equality*.
 
-**Example.** Let $f = \lambda n. n + 0$ and $g = \mathsf{id}_\mathbb{N} = \lambda n. n$. The proof that $n + 0 = n$ for all $n$ (by induction, as we computed in Section 5.1 of Chapter 8) is a homotopy $H : f \sim g$.
+**Example.** Let $f = \lambda n. n + 0$ and $g = \mathsf{id}_{\mathbb{N}} = \lambda n. n$. The proof that $n + 0 = n$ for all $n$ (by induction, as we computed in Section 5.1 of Chapter 8) is a homotopy $H : f \sim g$.
 
 **Notation.** We write $f \sim g$ for the type of homotopies from $f$ to $g$:
 $$f \sim g = \prod_{x:A} f(x) = g(x)$$

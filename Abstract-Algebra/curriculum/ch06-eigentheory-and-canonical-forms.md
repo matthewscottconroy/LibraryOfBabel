@@ -57,7 +57,7 @@ This is a non-trivial subspace when $\lambda$ is an eigenvalue.
 
 ### 6.2.1 When Is $T$ Diagonalizable?
 
-$T$ is **diagonalizable** if $V$ has a basis of eigenvectors of $T$. Equivalently, $[T]_\mathcal{B}$ is diagonal for some basis $\mathcal{B}$.
+$T$ is **diagonalizable** if $V$ has a basis of eigenvectors of $T$. Equivalently, $[T]_{\mathcal{B}}$ is diagonal for some basis $\mathcal{B}$.
 
 **Theorem:** $T$ is diagonalizable $\Leftrightarrow$ $m_g(\lambda) = m_a(\lambda)$ for every eigenvalue $\lambda$.
 

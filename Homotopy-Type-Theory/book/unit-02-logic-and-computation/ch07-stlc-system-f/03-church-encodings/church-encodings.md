@@ -109,7 +109,7 @@ But Scott numerals don't support iteration naturally: to compute $f^n(x)$ from a
 Church encodings are elegant, but they have limitations that become apparent in type-theoretic settings:
 
 **No dependent elimination**. In MLTT, the elimination rule for natural numbers (recursion) allows the *type of the result* to depend on the *natural number being eliminated*:
-$$\mathsf{rec}_\mathbb{N} : \Pi_{P : \mathbb{N} \to \mathsf{Type}} P(0) \to (\Pi_{n:\mathbb{N}} P(n) \to P(\mathsf{succ}(n))) \to \Pi_{n:\mathbb{N}} P(n)$$
+$$\mathsf{rec}_{\mathbb{N}} : \Pi_{P : \mathbb{N} \to \mathsf{Type}} P(0) \to (\Pi_{n:\mathbb{N}} P(n) \to P(\mathsf{succ}(n))) \to \Pi_{n:\mathbb{N}} P(n)$$
 
 A Church-encoded natural number has type $\forall \alpha.\, (\alpha \to \alpha) \to \alpha \to \alpha$, which does not allow $\alpha$ to depend on the specific number being iterated. The dependent eliminator is strictly more powerful.
 

@@ -67,7 +67,7 @@ For a single 2D FFT, the digital CPU is 1000× faster end-to-end (5 μs vs. 5 ms
    - Digital: $B \times 5 \text{ μs}$
    - Breakeven: $B = 10 \text{ ms} / (5\text{ μs} - 1.3\text{ ns}) \approx 2000$ queries
 
-2. **High-resolution inputs**: For $N \times N$ inputs with large $N$, digital FFT scales as $N^2 \log N$ while optical scales as $N^2$ (through its SBP). For $N = 10^4$: digital $\sim 1.3 \times 10^{10}$ operations, optical $\sim N^2/c = $ same SBP. The optical advantage grows as $N$ exceeds the digital processor's cache.
+2. **High-resolution inputs**: For $N \times N$ inputs with large $N$, digital FFT scales as $N^2 \log N$ while optical scales as $N^2$ (through its SBP). For $N = 10^4$: digital $\sim 1.3 \times 10^{10}$ operations, optical $\sim N^2/c =$ same SBP. The optical advantage grows as $N$ exceeds the digital processor's cache.
 
 3. **Analog input**: If the input is inherently analog (e.g., a camera image at frame rate), the optical system avoids the ADC step.
 

@@ -15,7 +15,7 @@ The expected value decreases. So heuristically, the orbit should eventually reac
 
 The rigorous version of this heuristic uses 2-adic integers:
 
-**Theorem 31.4.3 (Terras-Lagarias).** The Collatz map, viewed as a map on $\mathbb{Z}_2 = $ 2-adic integers, extends to a well-defined map $C: \mathbb{Z}_2 \to \mathbb{Z}_2$. On $\mathbb{Z}_2$ with Haar measure, the map $C$ is measure-preserving and ergodic.
+**Theorem 31.4.3 (Terras-Lagarias).** The Collatz map, viewed as a map on $\mathbb{Z}_2 =$ 2-adic integers, extends to a well-defined map $C: \mathbb{Z}_2 \to \mathbb{Z}_2$. On $\mathbb{Z}_2$ with Haar measure, the map $C$ is measure-preserving and ergodic.
 
 The 2-adic integers $\mathbb{Z}_2$ are the completion of $\mathbb{Z}$ with respect to the 2-adic metric (two integers are "close" if their difference is divisible by a high power of 2). The Collatz map extends naturally to $\mathbb{Z}_2$, and with respect to Haar measure (the natural invariant measure), the map is ergodic.
 

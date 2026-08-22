@@ -104,7 +104,7 @@ This correspondence is not just an analogy — it's a theorem. The groupoid laws
 
 ## The Univalence Axiom as a Higher Homotopy
 
-The Univalence Axiom says: for types $A, B : \mathcal{U}$ (in the universe of types), the identity type $\text{Id}_\mathcal{U}(A, B)$ is equivalent to the type $A \simeq B$ of type equivalences.
+The Univalence Axiom says: for types $A, B : \mathcal{U}$ (in the universe of types), the identity type $\text{Id}_{\mathcal{U}}(A, B)$ is equivalent to the type $A \simeq B$ of type equivalences.
 
 In the topological picture: the universe $\mathcal{U}$ is a "space of spaces," and a path between two types in this space corresponds to an equivalence between the types. Isomorphic mathematical structures are connected by a path in the space of types.
 

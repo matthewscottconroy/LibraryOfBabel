@@ -74,7 +74,7 @@ As $z \to i$, $z + i \to 2i$. So the limit is $2i$. $\square$
 
 It is useful to extend the complex plane by a point at infinity $\infty$, obtaining $\hat{\mathbb{C}} = \mathbb{C} \cup \{\infty\}$ (the Riemann sphere). We say $\lim_{z \to z_0} f(z) = \infty$ if for every $M > 0$ there exists $\delta > 0$ such that $0 < |z - z_0| < \delta \implies |f(z)| > M$. Similarly, $\lim_{z \to \infty} f(z) = L$ means $\lim_{|z| \to \infty} f(z) = L$.
 
-For a polynomial of degree $n \geq 1$, $\lim_{z \to \infty} p(z) = \infty$, as expected. For a rational function $R(z) = p(z)/q(z)$ with $\deg p = \deg q$, $\lim_{z \to \infty} R(z) = $ (leading coefficient of $p$)/(leading coefficient of $q$).
+For a polynomial of degree $n \geq 1$, $\lim_{z \to \infty} p(z) = \infty$, as expected. For a rational function $R(z) = p(z)/q(z)$ with $\deg p = \deg q$, $\lim_{z \to \infty} R(z) =$ (leading coefficient of $p$)/(leading coefficient of $q$).
 
 ## Importance for Differentiation
 

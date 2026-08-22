@@ -50,7 +50,7 @@ All other components vanish.
 $$\ddot\theta - \sin\theta\cos\theta\,\dot\phi^2 = 0$$
 $$\ddot\phi + 2\cot\theta\,\dot\theta\dot\phi = 0$$
 
-The second equation integrates to $\frac{d}{d\lambda}(r^2\sin^2\theta\,\dot\phi) = 0$, i.e., angular momentum conservation: $\ell = r^2\sin^2\theta\,\dot\phi = $ const. The solutions are **great circles** — the spherical analogs of straight lines.
+The second equation integrates to $\frac{d}{d\lambda}(r^2\sin^2\theta\,\dot\phi) = 0$, i.e., angular momentum conservation: $\ell = r^2\sin^2\theta\,\dot\phi =$ const. The solutions are **great circles** — the spherical analogs of straight lines.
 
 ---
 
@@ -86,7 +86,7 @@ $$\frac{d^2x^\mu}{d\tau^2} + \Gamma^\mu_{\nu\rho}\frac{dx^\nu}{d\tau}\frac{dx^\r
 
 **Null geodesics** (massless particles/photons, $g_{\mu\nu}\dot{x}^\mu\dot{x}^\nu = 0$): same equation but with an affine parameter $\lambda$ instead of proper time $\tau$.
 
-**Conserved quantities**: If the metric is independent of coordinate $x^\alpha$ (i.e., $\partial_\alpha g_{\mu\nu} = 0$), then $p_\alpha = g_{\alpha\mu}\dot{x}^\mu$ is conserved along geodesics. More precisely, $\xi^\mu = (\partial/\partial x^\alpha)^\mu$ is a Killing vector, and $p_\mu\xi^\mu = $ const. This is Noether's theorem applied to the geodesic action.
+**Conserved quantities**: If the metric is independent of coordinate $x^\alpha$ (i.e., $\partial_\alpha g_{\mu\nu} = 0$), then $p_\alpha = g_{\alpha\mu}\dot{x}^\mu$ is conserved along geodesics. More precisely, $\xi^\mu = (\partial/\partial x^\alpha)^\mu$ is a Killing vector, and $p_\mu\xi^\mu =$ const. This is Noether's theorem applied to the geodesic action.
 
 **Schwarzschild conserved quantities**:
 - Independence of $t$: $E = -(1-r_s/r)\dot{t}$ (energy per unit mass, conserved)

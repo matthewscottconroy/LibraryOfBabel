@@ -109,7 +109,7 @@ This is a large signal — easily measurable with radar timing.
 A photon emitted from radius $r_{\rm emit}$ with frequency $f_{\rm emit}$ is observed at radius $r_{\rm obs}$ with frequency:
 $$\frac{f_{\rm obs}}{f_{\rm emit}} = \sqrt{\frac{g_{tt}(r_{\rm emit})}{g_{tt}(r_{\rm obs})}} = \sqrt{\frac{1-2M/r_{\rm emit}}{1-2M/r_{\rm obs}}}$$
 
-This follows from the fact that the Killing vector $\xi^\mu = (1,0,0,0)$ gives a conserved frequency along null geodesics: $\omega = -k_\mu\xi^\mu = f(r)dt/d\lambda = \text{const} \times f(r)/f(r) = $ ... more carefully: the conserved quantity along the null geodesic is $E = f\dot{t}$, and the locally measured frequency by a static observer at $r$ is $\omega_{\rm local} = E/\sqrt{f(r)}$. Hence $\omega_{\rm local}\sqrt{f(r)} = \text{const}$, giving the ratio above.
+This follows from the fact that the Killing vector $\xi^\mu = (1,0,0,0)$ gives a conserved frequency along null geodesics: $\omega = -k_\mu\xi^\mu = f(r)dt/d\lambda = \text{const} \times f(r)/f(r) =$ ... more carefully: the conserved quantity along the null geodesic is $E = f\dot{t}$, and the locally measured frequency by a static observer at $r$ is $\omega_{\rm local} = E/\sqrt{f(r)}$. Hence $\omega_{\rm local}\sqrt{f(r)} = \text{const}$, giving the ratio above.
 
 For weak fields:
 $$\frac{f_{\rm obs}}{f_{\rm emit}} \approx 1 + \frac{\Phi_{\rm emit} - \Phi_{\rm obs}}{c^2} = 1 - \frac{g\Delta h}{c^2}$$

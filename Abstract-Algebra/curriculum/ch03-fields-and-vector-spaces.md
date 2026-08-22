@@ -197,7 +197,7 @@ The **dimension** $\dim_F V$ (or just $\dim V$) is this common cardinality.
 ## 3.5 Coordinates and Change of Basis (Preview)
 
 Once a basis $\mathcal{B} = (\mathbf{b}_1, \ldots, \mathbf{b}_n)$ is chosen (ordered), every $\mathbf{v} \in V$ has unique **coordinate vector**:
-$$[\mathbf{v}]_\mathcal{B} = (c_1, \ldots, c_n)^T \quad \text{where } \mathbf{v} = \sum c_i \mathbf{b}_i$$
+$$[\mathbf{v}]_{\mathcal{B}} = (c_1, \ldots, c_n)^T \quad \text{where } \mathbf{v} = \sum c_i \mathbf{b}_i$$
 
 This gives a **coordinate isomorphism** $V \cong F^n$. The choice of basis is a choice of "coordinate system." Change of basis (how coordinates transform when $\mathcal{B}$ changes) is developed in Chapter 4.
 

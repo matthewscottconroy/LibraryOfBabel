@@ -10,7 +10,7 @@ For each of the following modifications to a standard reservoir computer, predic
 
 (b) Replace the random $W^{rec}$ with $W^{rec} = 0$ (no recurrence). What does the system compute? What class of functions can it represent?
 
-(c) Replace the tanh nonlinearity with $f = $ identity (linear reservoir). What class of temporal functions can the linear reservoir + linear readout represent? (Hint: consider Volterra series.)
+(c) Replace the tanh nonlinearity with $f =$ identity (linear reservoir). What class of temporal functions can the linear reservoir + linear readout represent? (Hint: consider Volterra series.)
 
 (d) Replace the linear readout with a two-layer MLP readout. What changes about the training problem? What do you gain? What do you lose?
 
@@ -58,7 +58,7 @@ $$W^{out,T} = V \text{diag}\!\left(\frac{\sigma_i}{\sigma_i^2 + \alpha}\right) U
 
 **Exercise 4.4 — Memory and Spectral Radius**
 
-(a) For a linear reservoir ($f = $ identity) with $W^{rec}$ scalar, $W^{rec} = r$ (a single scalar), and scalar input $u_t$:
+(a) For a linear reservoir ($f =$ identity) with $W^{rec}$ scalar, $W^{rec} = r$ (a single scalar), and scalar input $u_t$:
 
 $$x_{t+1} = r x_t + w^{in} u_t$$
 

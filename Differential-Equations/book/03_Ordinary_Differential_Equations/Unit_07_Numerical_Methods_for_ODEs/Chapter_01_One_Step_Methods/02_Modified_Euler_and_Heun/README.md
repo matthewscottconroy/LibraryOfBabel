@@ -69,7 +69,7 @@ Step 2: $k_1 = f(0.5, 0.75) = 0.5 - 0.75 = -0.25$. $\tilde{y}_2 = 0.75 + 0.5(-0.
 
 Error: $|0.7358 - 0.78125| \approx 0.0455$.
 
-Euler error ($0.2358$) versus Heun error ($0.0455$): ratio $\approx 5.2$. With $h = 0.5$, one expects the ratio of global errors to be about $(h_E/h_H)^{\text{order}} = 1^1 / 1^2 = $ — since $h$ is the same, the factor comes from the order difference. More precisely, with $h$ fixed, higher-order methods produce smaller errors; the actual comparison requires varying $h$.
+Euler error ($0.2358$) versus Heun error ($0.0455$): ratio $\approx 5.2$. With $h = 0.5$, one expects the ratio of global errors to be about $(h_E/h_H)^{\text{order}} = 1^1 / 1^2 =$ — since $h$ is the same, the factor comes from the order difference. More precisely, with $h$ fixed, higher-order methods produce smaller errors; the actual comparison requires varying $h$.
 
 ## The General Framework: Runge-Kutta Stage Structure
 

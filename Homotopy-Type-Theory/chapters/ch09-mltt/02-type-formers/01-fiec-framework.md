@@ -99,11 +99,11 @@ $$\frac{\Gamma \vdash C : \mathbf{0} \to \mathsf{Type} \quad \Gamma \vdash x : \
 $$\mathsf{zero} : \mathbb{N} \qquad \mathsf{succ} : \mathbb{N} \to \mathbb{N}$$
 
 **Eliminator (dependent recursor / induction):**
-$$\mathsf{ind}_\mathbb{N} : \prod_{P : \mathbb{N} \to \mathsf{Type}} P(\mathsf{zero}) \to \left(\prod_{n:\mathbb{N}} P(n) \to P(\mathsf{succ}(n))\right) \to \prod_{n:\mathbb{N}} P(n)$$
+$$\mathsf{ind}_{\mathbb{N}} : \prod_{P : \mathbb{N} \to \mathsf{Type}} P(\mathsf{zero}) \to \left(\prod_{n:\mathbb{N}} P(n) \to P(\mathsf{succ}(n))\right) \to \prod_{n:\mathbb{N}} P(n)$$
 
 **Computation:**
-$$\mathsf{ind}_\mathbb{N}(P, p_0, p_s, \mathsf{zero}) = p_0$$
-$$\mathsf{ind}_\mathbb{N}(P, p_0, p_s, \mathsf{succ}(n)) = p_s\, n\, (\mathsf{ind}_\mathbb{N}(P, p_0, p_s, n))$$
+$$\mathsf{ind}_{\mathbb{N}}(P, p_0, p_s, \mathsf{zero}) = p_0$$
+$$\mathsf{ind}_{\mathbb{N}}(P, p_0, p_s, \mathsf{succ}(n)) = p_s\, n\, (\mathsf{ind}_{\mathbb{N}}(P, p_0, p_s, n))$$
 
 *Reading:* Natural numbers have two constructors. Induction handles both: what happens at zero, and what happens at successors given the inductive hypothesis. The computation rules define what happens when the eliminator meets each constructor.
 
@@ -148,7 +148,7 @@ $$\frac{\Gamma \vdash a : A \quad \Gamma \vdash A = B\ \mathsf{type}}{\Gamma \vd
 
 If $A$ and $B$ are definitionally equal, an element of $A$ is also an element of $B$. The type checker applies this silently: whenever you apply a function to an argument, it checks that the argument type matches, up to definitional equality (i.e., after $\beta$/$\delta$ reduction).
 
-This is what makes $\mathsf{ind}_\mathbb{N}(P, p_0, p_s, \mathsf{succ}(n))$ well-typed: the computation rule gives definitional equality with $p_s\, n\, (\ldots)$, and the conversion rule lets us use this in context.
+This is what makes $\mathsf{ind}_{\mathbb{N}}(P, p_0, p_s, \mathsf{succ}(n))$ well-typed: the computation rule gives definitional equality with $p_s\, n\, (\ldots)$, and the conversion rule lets us use this in context.
 
 ## Why This Framework Is The Right One
 

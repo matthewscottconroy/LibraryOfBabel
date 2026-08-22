@@ -34,7 +34,7 @@ The stationary measure with ESP has a beautifully simple structure: the reservoi
 
 In the proof of Theorem 29.3.1, we used the existence of a measurable function $x^*: \Omega \to \mathcal{X}$. This is not automatic — for set-valued pullback attractors, a measurable selection theorem is needed.
 
-**Theorem 29.4.3 (Measurable Selection Theorem, Castaing-Varadarajan).** *Let $\Omega$ be a measurable space and $\mathcal{X}$ a complete separable metric space. Let $A: \Omega \to 2^\mathcal{X}$ be a set-valued map such that:*
+**Theorem 29.4.3 (Measurable Selection Theorem, Castaing-Varadarajan).** *Let $\Omega$ be a measurable space and $\mathcal{X}$ a complete separable metric space. Let $A: \Omega \to 2^{\mathcal{X}}$ be a set-valued map such that:*
 1. $A(\omega)$ is non-empty and closed for $\mu$-a.e. $\omega$.
 2. The map $\omega \mapsto A(\omega)$ is measurable (the set $\{(\omega, x) : x \in A(\omega)\}$ is measurable in $\Omega \times \mathcal{X}$).
 

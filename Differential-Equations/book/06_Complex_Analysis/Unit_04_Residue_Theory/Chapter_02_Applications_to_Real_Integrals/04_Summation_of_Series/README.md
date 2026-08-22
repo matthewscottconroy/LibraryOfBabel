@@ -26,7 +26,7 @@ As $N \to \infty$, the left side $\to 0$, giving the result. $\square$
 
 **Example 1.** Evaluate $\displaystyle S = \sum_{n=1}^\infty \frac{1}{n^2}$.
 
-Note $\sum_{n=-\infty}^\infty \frac{1}{n^2} = 2S + $ (the $n=0$ term, which doesn't exist). We modify: apply the method to $f(z) = 1/z^2$, which has a double pole at $z = 0$.
+Note $\sum_{n=-\infty}^\infty \frac{1}{n^2} = 2S +$ (the $n=0$ term, which doesn't exist). We modify: apply the method to $f(z) = 1/z^2$, which has a double pole at $z = 0$.
 
 $$\mathrm{Res}\!\left(\frac{\pi\cot(\pi z)}{z^2}; 0\right).$$
 
@@ -59,7 +59,7 @@ Wait: the theorem says the sum $= -$[sum of residues at non-integer poles] $= -\
 
 $-\left(\frac{\pi\coth(\pi a)}{2a} + \frac{\pi\coth(\pi a)}{2a}\right) = -\frac{\pi\coth(\pi a)}{a}$.
 
-But $\sum \frac{1}{n^2+a^2} > 0$. There must be a sign error. Using $\cot(i\pi a) = i\coth(\pi a)/i... $ Let me recompute: $\cot(i\pi a) = \cos(i\pi a)/\sin(i\pi a) = \cosh(\pi a)/(i\sinh(\pi a)) = -i\coth(\pi a)$.
+But $\sum \frac{1}{n^2+a^2} > 0$. There must be a sign error. Using $\cot(i\pi a) = i\coth(\pi a)/i...$ Let me recompute: $\cot(i\pi a) = \cos(i\pi a)/\sin(i\pi a) = \cosh(\pi a)/(i\sinh(\pi a)) = -i\coth(\pi a)$.
 
 Residue at $ia$: $\pi\cot(i\pi a)/(2ia) = \pi(-i\coth(\pi a))/(2ia) = \pi\coth(\pi a)/(2a)$. (Good, positive.)
 

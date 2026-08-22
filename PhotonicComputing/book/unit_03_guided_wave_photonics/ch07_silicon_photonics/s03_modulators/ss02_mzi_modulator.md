@@ -41,7 +41,7 @@ This is the classic MZI transfer function. The intensity varies sinusoidally bet
 
 For intensity modulation, the modulator is biased at the **quadrature point** $\Delta\phi_0 = \pi/2$, where the transfer function has maximum slope and is locally linear:
 
-$$I_{\text{out}} = I_{\text{in}} \cos^2\left(\frac{\pi/4 + \delta\phi/2}\right) \approx \frac{I_{\text{in}}}{2}\left(1 - \sin(\delta\phi)\right) \approx \frac{I_{\text{in}}}{2}(1 - \delta\phi)$$
+$$I_{\text{out}} = I_{\text{in}} \cos^2\left(\pi/4 + \delta\phi/2\right) \approx \frac{I_{\text{in}}}{2}\left(1 - \sin(\delta\phi)\right) \approx \frac{I_{\text{in}}}{2}(1 - \delta\phi)$$
 
 for small modulation depth $\delta\phi \ll 1$. This linear region is essential for analog modulation — photonic matrix multipliers depend on encoding continuous-valued weights as continuous amplitudes.
 

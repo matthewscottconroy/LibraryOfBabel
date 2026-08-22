@@ -109,8 +109,8 @@ Why is $\Delta$ the right category for homotopy theory? Several reasons:
 **2. The nerve construction.** Every small category $\mathcal{C}$ has a *nerve* $N(\mathcal{C}) : \Delta^{op} \to \mathbf{Set}$, which is a simplicial set capturing the structure of $\mathcal{C}$. This is the bridge between category theory and homotopy theory.
 
 **3. The classifying space.** The geometric realization $|N(\mathcal{C})|$ (the classifying space of $\mathcal{C}$) is a topological space with:
-- $\pi_1 = $ the "fundamental groupoid" of $\mathcal{C}$
-- For groupoids: $\pi_1 = $ the group of automorphisms
+- $\pi_1 =$ the "fundamental groupoid" of $\mathcal{C}$
+- For groupoids: $\pi_1 =$ the group of automorphisms
 
 **4. Computational convenience.** The simplex category is simple enough to compute with explicitly, but rich enough to capture all homotopy types. This balance is what makes it ideal for both theoretical and computational purposes.
 

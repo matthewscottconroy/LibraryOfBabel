@@ -96,10 +96,10 @@ $$\langle|\delta\phi_k|^2\rangle = \frac{H^2}{2k^3}$$
 $$|\delta\phi_k| = \frac{H}{2\pi}$$
 
 **Curvature perturbation.** The gauge-invariant curvature perturbation $\mathcal{R}_k$ is related to inflaton fluctuations by $\mathcal{R}_k = H\delta\phi_k/\dot{\phi}$. Its power spectrum:
-$$\mathcal{P}_\mathcal{R}(k) = \frac{k^3}{2\pi^2}|\mathcal{R}_k|^2 = \frac{H^2}{8\pi^2 M_{\rm Pl}^2\epsilon}\bigg|_{k=aH}$$
+$$\mathcal{P}_{\mathcal{R}}(k) = \frac{k^3}{2\pi^2}|\mathcal{R}_k|^2 = \frac{H^2}{8\pi^2 M_{\rm Pl}^2\epsilon}\bigg|_{k=aH}$$
 
 Since $H$ and $\epsilon$ vary slowly during inflation, different modes exit with slightly different amplitudes. The spectral index:
-$$n_s - 1 \equiv \frac{d\ln\mathcal{P}_\mathcal{R}}{d\ln k} = -2\epsilon - \eta$$
+$$n_s - 1 \equiv \frac{d\ln\mathcal{P}_{\mathcal{R}}}{d\ln k} = -2\epsilon - \eta$$
 
 For slow-roll inflation: $n_s \approx 1 - 2\epsilon - \eta < 1$. The red tilt (power slightly decreasing with $k$) arises because modes that exit earlier see a slightly higher $H$ (inflation hasn't slowed yet).
 
@@ -107,7 +107,7 @@ For slow-roll inflation: $n_s \approx 1 - 2\epsilon - \eta < 1$. The red tilt (p
 $$\mathcal{P}_T(k) = \frac{2H^2}{\pi^2 M_{\rm Pl}^2}\bigg|_{k=aH}$$
 
 The tensor-to-scalar ratio:
-$$r \equiv \frac{\mathcal{P}_T}{\mathcal{P}_\mathcal{R}} = 16\epsilon$$
+$$r \equiv \frac{\mathcal{P}_T}{\mathcal{P}_{\mathcal{R}}} = 16\epsilon$$
 
 **Observations.** Planck 2018 measures: $A_s = 2.1\times 10^{-9}$ (amplitude), $n_s = 0.9649 \pm 0.0042$ (spectral index, $>7\sigma$ from scale-invariance). The measured $n_s < 1$ is a direct confirmation of slow-roll inflation: the near-scale-invariance arises from near-exponential expansion, and the departure from exact scale-invariance arises from the slow evolution of $H$ and $\epsilon$.
 
@@ -220,7 +220,7 @@ $$\mathcal{P}_{\delta\phi}(k) = \frac{k^3}{2\pi^2}\frac{|u_k|^2}{a^2}\bigg|_{k\e
 
 Verify this result.
 
-(c) The curvature perturbation power spectrum is $\mathcal{P}_\mathcal{R} = H^2/(8\pi^2 M_{\rm Pl}^2\epsilon)$. The Planck-normalized amplitude is $A_s = \mathcal{P}_\mathcal{R}(k_*) = 2.1\times 10^{-9}$ at $k_* = 0.05$ Mpc$^{-1}$. For $\epsilon = 0.01$, compute $H_*$ at horizon crossing. Express as a fraction of $M_{\rm Pl}$.
+(c) The curvature perturbation power spectrum is $\mathcal{P}_{\mathcal{R}} = H^2/(8\pi^2 M_{\rm Pl}^2\epsilon)$. The Planck-normalized amplitude is $A_s = \mathcal{P}_{\mathcal{R}}(k_*) = 2.1\times 10^{-9}$ at $k_* = 0.05$ Mpc$^{-1}$. For $\epsilon = 0.01$, compute $H_*$ at horizon crossing. Express as a fraction of $M_{\rm Pl}$.
 
 ---
 

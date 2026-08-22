@@ -88,6 +88,6 @@ $$\begin{array}{ccc} A & \xrightarrow{u} & B \\ \downarrow_v & & \downarrow_f \\
 
 (Hint: the functor $P$ assigns to each morphism $f : x \to y$ a "groupoid" $P(x,y,f)$. Define $J(P,d)(x,y,f)$ by ... the groupoid transport along $f$.)
 
-**Exercise 22.** Prove that the Univalence Axiom fails in the set model. That is: find two types (sets) $A$ and $B$ that are isomorphic (as sets) but for which the canonical map $(A =_\mathcal{U} B) \to (A \simeq B)$ is not an equivalence.
+**Exercise 22.** Prove that the Univalence Axiom fails in the set model. That is: find two types (sets) $A$ and $B$ that are isomorphic (as sets) but for which the canonical map $(A =_{\mathcal{U}} B) \to (A \simeq B)$ is not an equivalence.
 
-(Hint: In the set model, $A =_\mathcal{U} B$ means literal equality of sets, which is much more restrictive than bijection.)
+(Hint: In the set model, $A =_{\mathcal{U}} B$ means literal equality of sets, which is much more restrictive than bijection.)

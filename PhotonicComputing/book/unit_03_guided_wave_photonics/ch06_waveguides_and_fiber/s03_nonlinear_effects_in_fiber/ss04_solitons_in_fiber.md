@@ -16,7 +16,7 @@ This is achievable with standard DFB laser output.
 
 ## Fiber Loss and the "Lossy Soliton"
 
-Real fiber has loss $\alpha = 0.046$ km$^{-1}$. A soliton in lossy fiber loses energy as $P_0(z) = P_0 e^{-\alpha z}$, causing $T_0(z) \propto e^{+\alpha z/2}$ (soliton broadens as it loses energy, since $P_0 T_0^2 = $ const for a soliton). After one amplifier span ($L_{span} = 80$ km, $G = e^{\alpha L} = 37$ dB loss compensated by EDFA), the soliton has broadened by $e^{0.046 \times 80/2} = e^{1.84} \approx 6.3\times$. This is called the *adiabatic* limit, valid when $L_{span} \ll L_D$.
+Real fiber has loss $\alpha = 0.046$ km$^{-1}$. A soliton in lossy fiber loses energy as $P_0(z) = P_0 e^{-\alpha z}$, causing $T_0(z) \propto e^{+\alpha z/2}$ (soliton broadens as it loses energy, since $P_0 T_0^2 =$ const for a soliton). After one amplifier span ($L_{span} = 80$ km, $G = e^{\alpha L} = 37$ dB loss compensated by EDFA), the soliton has broadened by $e^{0.046 \times 80/2} = e^{1.84} \approx 6.3\times$. This is called the *adiabatic* limit, valid when $L_{span} \ll L_D$.
 
 For picosecond solitons with $L_D = T_0^2/|\beta_2|$: for $T_0 = 10$ ps, $L_D = 4600$ km $\gg L_{span}$ — the adiabatic limit is excellent. For $T_0 = 1$ ps, $L_D = 46$ km $\approx L_{span}$ — no longer adiabatic; dispersion-managed solitons or other pulse formats are needed.
 

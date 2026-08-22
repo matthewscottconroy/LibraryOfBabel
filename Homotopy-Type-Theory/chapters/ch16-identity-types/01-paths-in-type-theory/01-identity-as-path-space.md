@@ -64,7 +64,7 @@ Geometrically: the degenerate 1-simplex at $a$ is the constant path — a 1-simp
 
 The simplicial identities ensure that the degeneracies have the right properties:
 - $\partial_0(\sigma_0(a)) = a = \partial_1(\sigma_0(a))$ (the constant path starts and ends at $a$)
-- $\sigma_0(\mathsf{refl}_a) = $ a degenerate 2-simplex at $a$ (the "constant homotopy")
+- $\sigma_0(\mathsf{refl}_a) =$ a degenerate 2-simplex at $a$ (the "constant homotopy")
 
 ## Why Identity Types Can Have Multiple Elements
 

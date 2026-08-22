@@ -25,7 +25,7 @@ commutes. The single-dual $V \to V^*$ requires a choice of basis for each $V$ â€
 
 Natural transformations compose: if $\alpha : F \Rightarrow G$ and $\beta : G \Rightarrow H$, their *vertical composite* $\beta \circ \alpha : F \Rightarrow H$ has components $(\beta \circ \alpha)_A = \beta_A \circ \alpha_A$. The identity natural transformation on $F$ has components $(\mathsf{id}_F)_A = \mathsf{id}_{F(A)}$.
 
-This means: for any two categories $\mathcal{C}$ and $\mathcal{D}$, there is a *functor category* $[\mathcal{C}, \mathcal{D}]$ (also written $\mathcal{D}^\mathcal{C}$) whose objects are functors $\mathcal{C} \to \mathcal{D}$ and whose morphisms are natural transformations.
+This means: for any two categories $\mathcal{C}$ and $\mathcal{D}$, there is a *functor category* $[\mathcal{C}, \mathcal{D}]$ (also written $\mathcal{D}^{\mathcal{C}}$) whose objects are functors $\mathcal{C} \to \mathcal{D}$ and whose morphisms are natural transformations.
 
 **Horizontal composition.** There is also a horizontal composition for natural transformations. If $\alpha : F \Rightarrow G$ (functors $\mathcal{C} \to \mathcal{D}$) and $\beta : H \Rightarrow K$ (functors $\mathcal{D} \to \mathcal{E}$), the horizontal composite $\beta \star \alpha : H \circ F \Rightarrow K \circ G$ has components $(\beta \star \alpha)_A = \beta_{G(A)} \circ H(\alpha_A) = K(\alpha_A) \circ \beta_{F(A)}$ (both are equal by naturality of $\beta$).
 
@@ -35,7 +35,7 @@ Natural transformations, with both kinds of composition, form the morphisms of t
 
 A natural transformation $\alpha : F \Rightarrow G$ is a *natural isomorphism* if each component $\alpha_A : F(A) \to G(A)$ is an isomorphism. In this case $F \cong G$.
 
-An *equivalence of categories* consists of functors $F : \mathcal{C} \to \mathcal{D}$ and $G : \mathcal{D} \to \mathcal{C}$ together with natural isomorphisms $G \circ F \cong \mathsf{Id}_\mathcal{C}$ and $F \circ G \cong \mathsf{Id}_\mathcal{D}$. Two categories are *equivalent* if such data exists.
+An *equivalence of categories* consists of functors $F : \mathcal{C} \to \mathcal{D}$ and $G : \mathcal{D} \to \mathcal{C}$ together with natural isomorphisms $G \circ F \cong \mathsf{Id}_{\mathcal{C}}$ and $F \circ G \cong \mathsf{Id}_{\mathcal{D}}$. Two categories are *equivalent* if such data exists.
 
 Equivalence is the right notion of "sameness" for categories â€” much weaker than isomorphism (which requires the composites to be literally equal), and corresponding to the mathematical practice of treating isomorphic objects as identical. The theorem characterizing equivalences: $F : \mathcal{C} \to \mathcal{D}$ is an equivalence if and only if $F$ is fully faithful and essentially surjective.
 

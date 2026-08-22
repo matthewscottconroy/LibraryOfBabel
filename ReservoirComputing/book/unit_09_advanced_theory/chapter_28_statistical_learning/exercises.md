@@ -2,7 +2,7 @@
 
 ## Section 28.1 — PAC Learning and VC Dimension
 
-**Exercise 28.1.** (Warmup) Verify the union-bound derivation of the finite-class PAC sample complexity. Starting from the inequality $\Pr[\exists h : \hat{\mathcal{L}}(h) = 0,\, \mathcal{L}_\mathcal{D}(h) > \varepsilon] \leq |\mathcal{H}|e^{-\varepsilon m}$, show that setting the right-hand side equal to $\delta$ and solving for $m$ yields $m \geq \frac{1}{\varepsilon}(\ln|\mathcal{H}| + \ln\frac{1}{\delta})$.
+**Exercise 28.1.** (Warmup) Verify the union-bound derivation of the finite-class PAC sample complexity. Starting from the inequality $\Pr[\exists h : \hat{\mathcal{L}}(h) = 0,\, \mathcal{L}_{\mathcal{D}}(h) > \varepsilon] \leq |\mathcal{H}|e^{-\varepsilon m}$, show that setting the right-hand side equal to $\delta$ and solving for $m$ yields $m \geq \frac{1}{\varepsilon}(\ln|\mathcal{H}| + \ln\frac{1}{\delta})$.
 
 **Exercise 28.2.** (VC dimension) Show that the VC dimension of the class of halfspaces $\{\mathbf{x} \mapsto \mathrm{sign}(\mathbf{w}^T\mathbf{x} + b) : \mathbf{w} \in \mathbb{R}^N, b \in \mathbb{R}\}$ is $N+1$, not $N$. What does this mean for the PAC sample complexity of a reservoir with bias term in the readout?
 

@@ -87,7 +87,7 @@ $$\frac{Z''}{Z} = -\frac{(rR')'}{rR} = \mu^2.$$
 
 **$z$-equation:** $Z'' = \mu^2 Z$ with $Z'(0) = Z'(L) = 0$ gives $Z_n = \cos(n\pi z/L)$ with $\mu_n = n\pi/L$ for $n = 0,1,2,\ldots$. (The $n=0$ case $Z = \text{const}$ gives the azimuthally uniform mode.)
 
-**$r$-equation:** $(rR')' - \mu_n^2 rR = 0$, or equivalently $r^2R'' + rR' - \mu_n^2 r^2 R = 0$, which is the modified Bessel equation with $\nu = 0$ and $x = \mu_n r$. Regularity at $r=0$ forces $R_n(r) = I_0(\mu_n r)$ (for $n \geq 1$); for $n=0$: $R_0(r) = $ const.
+**$r$-equation:** $(rR')' - \mu_n^2 rR = 0$, or equivalently $r^2R'' + rR' - \mu_n^2 r^2 R = 0$, which is the modified Bessel equation with $\nu = 0$ and $x = \mu_n r$. Regularity at $r=0$ forces $R_n(r) = I_0(\mu_n r)$ (for $n \geq 1$); for $n=0$: $R_0(r) =$ const.
 
 **Solution:**
 

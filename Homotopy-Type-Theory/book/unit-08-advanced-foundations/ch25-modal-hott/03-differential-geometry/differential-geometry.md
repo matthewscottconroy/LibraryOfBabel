@@ -88,7 +88,7 @@ The *de Rham differential* $d : \Omega^n(M) \to \Omega^{n+1}(M)$ is the map that
 
 In the *Dubuc-Kock-Lawvere* approach (synthetic differential geometry inside cohesive HoTT):
 - The *Weil algebra* of $\mathbb{R}$ is the ring $\mathbb{R}[\epsilon]/(\epsilon^2)$ (the dual numbers)
-- A tangent vector at $p : M$ is a $\mathbb{R}$-algebra map $T_p M = \mathsf{Der}_\mathbb{R}(C^\infty(M)_p, \mathbb{R})$
+- A tangent vector at $p : M$ is a $\mathbb{R}$-algebra map $T_p M = \mathsf{Der}_{\mathbb{R}}(C^\infty(M)_p, \mathbb{R})$
 - The differential $df : TM \to \mathbb{R}$ sends a tangent vector $v$ to $v(f)$
 
 The key axiom of synthetic differential geometry — the *Kock-Lawvere axiom* — says: every map $D \to \mathbb{R}$ (where $D = \{x \mid x^2 = 0\}$) is of the form $x \mapsto a + bx$ for unique $a, b : \mathbb{R}$.

@@ -34,7 +34,7 @@
 
 **Exercise 2.1.** Verify that the poset $\mathbb{N} = (ℕ, \leq)$ is a Segal type:
 
-1. What is $\mathsf{hom}_\mathbb{N}(m, n)$?
+1. What is $\mathsf{hom}_{\mathbb{N}}(m, n)$?
 2. What is the composition of $m \leq n$ and $n \leq p$?
 3. What is the identity at $n$?
 4. Is the Segal condition satisfied? (Is composition unique?)

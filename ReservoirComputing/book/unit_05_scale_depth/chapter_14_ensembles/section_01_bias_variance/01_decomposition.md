@@ -6,27 +6,27 @@ Let $\mathcal{D} = \{(\mathbf{x}_1, y_1), \ldots, (\mathbf{x}_T, y_T)\}$ be a tr
 
 The expected squared error of a predictor $\hat{f}$ trained on dataset $\mathcal{D}$ at a new test point $\mathbf{x}^*$ with true output $y^* = f(\mathbf{x}^*) + \varepsilon$ (where $\varepsilon$ is mean-zero noise with variance $\sigma^2$) is:
 
-$$\mathbb{E}_\mathcal{D}\!\left[(y^* - \hat{f}(\mathbf{x}^*))^2\right] = \text{Bias}^2\!\left[\hat{f}(\mathbf{x}^*)\right] + \text{Var}\!\left[\hat{f}(\mathbf{x}^*)\right] + \sigma^2$$
+$$\mathbb{E}_{\mathcal{D}}\!\left[(y^* - \hat{f}(\mathbf{x}^*))^2\right] = \text{Bias}^2\!\left[\hat{f}(\mathbf{x}^*)\right] + \text{Var}\!\left[\hat{f}(\mathbf{x}^*)\right] + \sigma^2$$
 
 where:
-$$\text{Bias}\!\left[\hat{f}(\mathbf{x}^*)\right] = \mathbb{E}_\mathcal{D}\!\left[\hat{f}(\mathbf{x}^*)\right] - f(\mathbf{x}^*)$$
-$$\text{Var}\!\left[\hat{f}(\mathbf{x}^*)\right] = \mathbb{E}_\mathcal{D}\!\left[\left(\hat{f}(\mathbf{x}^*) - \mathbb{E}_\mathcal{D}[\hat{f}(\mathbf{x}^*)]\right)^2\right]$$
+$$\text{Bias}\!\left[\hat{f}(\mathbf{x}^*)\right] = \mathbb{E}_{\mathcal{D}}\!\left[\hat{f}(\mathbf{x}^*)\right] - f(\mathbf{x}^*)$$
+$$\text{Var}\!\left[\hat{f}(\mathbf{x}^*)\right] = \mathbb{E}_{\mathcal{D}}\!\left[\left(\hat{f}(\mathbf{x}^*) - \mathbb{E}_{\mathcal{D}}[\hat{f}(\mathbf{x}^*)]\right)^2\right]$$
 
-The expectation $\mathbb{E}_\mathcal{D}$ is over the randomness of the training dataset. The bias measures how far the expected prediction is from the truth. The variance measures how sensitive the predictor is to the particular training set drawn.
+The expectation $\mathbb{E}_{\mathcal{D}}$ is over the randomness of the training dataset. The bias measures how far the expected prediction is from the truth. The variance measures how sensitive the predictor is to the particular training set drawn.
 
-**Proof of the decomposition.** Let $\bar{f}(\mathbf{x}^*) = \mathbb{E}_\mathcal{D}[\hat{f}(\mathbf{x}^*)]$ denote the expected prediction. Then:
+**Proof of the decomposition.** Let $\bar{f}(\mathbf{x}^*) = \mathbb{E}_{\mathcal{D}}[\hat{f}(\mathbf{x}^*)]$ denote the expected prediction. Then:
 
-$$\mathbb{E}_\mathcal{D}[(y^* - \hat{f})^2] = \mathbb{E}_\mathcal{D}[(f^* + \varepsilon - \hat{f})^2]$$
+$$\mathbb{E}_{\mathcal{D}}[(y^* - \hat{f})^2] = \mathbb{E}_{\mathcal{D}}[(f^* + \varepsilon - \hat{f})^2]$$
 
 Expanding and using $\mathbb{E}[\varepsilon] = 0$, $\mathbb{E}[\varepsilon^2] = \sigma^2$, and the independence of $\varepsilon$ from $\hat{f}$:
 
-$$= \mathbb{E}_\mathcal{D}[(f^* - \hat{f})^2] + \sigma^2$$
+$$= \mathbb{E}_{\mathcal{D}}[(f^* - \hat{f})^2] + \sigma^2$$
 
-$$= \mathbb{E}_\mathcal{D}[(f^* - \bar{f} + \bar{f} - \hat{f})^2] + \sigma^2$$
+$$= \mathbb{E}_{\mathcal{D}}[(f^* - \bar{f} + \bar{f} - \hat{f})^2] + \sigma^2$$
 
-$$= (f^* - \bar{f})^2 + 2(f^* - \bar{f})\underbrace{\mathbb{E}_\mathcal{D}[\bar{f} - \hat{f}]}_{=0} + \mathbb{E}_\mathcal{D}[(\bar{f} - \hat{f})^2] + \sigma^2$$
+$$= (f^* - \bar{f})^2 + 2(f^* - \bar{f})\underbrace{\mathbb{E}_{\mathcal{D}}[\bar{f} - \hat{f}]}_{=0} + \mathbb{E}_{\mathcal{D}}[(\bar{f} - \hat{f})^2] + \sigma^2$$
 
-$$= \underbrace{(f^* - \bar{f})^2}_{\text{Bias}^2} + \underbrace{\mathbb{E}_\mathcal{D}[(\hat{f} - \bar{f})^2]}_{\text{Variance}} + \underbrace{\sigma^2}_{\text{Noise}}$$
+$$= \underbrace{(f^* - \bar{f})^2}_{\text{Bias}^2} + \underbrace{\mathbb{E}_{\mathcal{D}}[(\hat{f} - \bar{f})^2]}_{\text{Variance}} + \underbrace{\sigma^2}_{\text{Noise}}$$
 
 $\square$
 

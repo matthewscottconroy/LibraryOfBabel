@@ -32,7 +32,7 @@ This is a **contraction** and produces a scalar (invariant). We never write a fr
 
 We use the **abstract index notation** (Penrose notation): indices are labels on the type of a tensor, not specific numerical values. $V^\mu$ denotes a vector (the $\mu$ labels it as a contravariant vector), not a specific component.
 
-When we write a **specific component**, we use explicit values: $V^0 = $ time component, $V^1 = x$-component, etc.
+When we write a **specific component**, we use explicit values: $V^0 =$ time component, $V^1 = x$-component, etc.
 
 In some places we use **boldface** for abstract 3-vectors in the Euclidean sense: $\mathbf{v} = (v^x, v^y, v^z)$ (in Newtonian physics or in an inertial frame locally).
 

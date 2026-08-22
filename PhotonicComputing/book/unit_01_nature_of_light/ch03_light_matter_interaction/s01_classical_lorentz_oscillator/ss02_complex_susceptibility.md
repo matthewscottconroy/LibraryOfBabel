@@ -51,7 +51,7 @@ $$\chi_e'' = \frac{\omega_p^2\gamma\omega}{(\omega_0^2 - \omega^2)^2 + \gamma^2\
 - $\chi_e'' \geq 0$ for $\omega > 0$: the imaginary part is always positive for a passive medium, corresponding to absorption.
 - $\chi_e''$ has a Lorentzian shape centered at $\omega_0$ with width $\gamma$.
 - $\chi_e'$ is dispersive (S-shaped curve crossing zero at $\omega_0$): positive (increases $n$) below resonance, negative (decreases $n$) above resonance.
-- At $\omega = 0$: $\chi_e' = \omega_p^2/\omega_0^2 = $ static susceptibility.
+- At $\omega = 0$: $\chi_e' = \omega_p^2/\omega_0^2 =$ static susceptibility.
 - At $\omega \to \infty$: $\chi_e' \to -\omega_p^2/\omega^2 \to 0^-$; the refractive index approaches 1 from below.
 
 ## Physical Meaning of the Real and Imaginary Parts

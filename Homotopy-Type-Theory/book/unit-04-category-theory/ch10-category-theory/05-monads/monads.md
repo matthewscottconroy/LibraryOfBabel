@@ -6,7 +6,7 @@ Every adjunction $F \dashv G$ gives a monad. This is not a construction — it i
 
 **Definition.** A *monad* on a category $\mathcal{C}$ is a triple $(T, \eta, \mu)$ where:
 - $T : \mathcal{C} \to \mathcal{C}$ is a functor (the *underlying functor*)
-- $\eta : \mathsf{Id}_\mathcal{C} \Rightarrow T$ is a natural transformation (the *unit*)
+- $\eta : \mathsf{Id}_{\mathcal{C}} \Rightarrow T$ is a natural transformation (the *unit*)
 - $\mu : T^2 \Rightarrow T$ is a natural transformation (the *multiplication*, where $T^2 = T \circ T$)
 
 satisfying:
@@ -21,7 +21,7 @@ These axioms are exactly the axioms of a monoid: if you think of $\eta$ as the u
 Given an adjunction $F \dashv G$ with $F : \mathcal{C} \to \mathcal{D}$, $G : \mathcal{D} \to \mathcal{C}$, unit $\eta$, and counit $\varepsilon$, define:
 
 - $T = G \circ F : \mathcal{C} \to \mathcal{C}$
-- Unit of the monad: $\eta : \mathsf{Id}_\mathcal{C} \Rightarrow G \circ F$ (the adjunction unit)
+- Unit of the monad: $\eta : \mathsf{Id}_{\mathcal{C}} \Rightarrow G \circ F$ (the adjunction unit)
 - Multiplication: $\mu_A = G(\varepsilon_{F(A)}) : G(F(G(F(A)))) \to G(F(A))$ (i.e., $G \varepsilon F : T^2 \Rightarrow T$)
 
 The monad axioms follow from the triangular identities of the adjunction.

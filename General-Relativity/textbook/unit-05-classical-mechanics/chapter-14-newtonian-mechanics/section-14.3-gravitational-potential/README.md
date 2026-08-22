@@ -28,7 +28,7 @@ $$\Phi(\mathbf{r}) = -G \int \frac{\rho(\mathbf{r}')}{|\mathbf{r} - \mathbf{r}'|
 
 where $\rho(\mathbf{r}')$ is the mass density. (Linearity fails in GR: the Einstein equations are nonlinear, and the mass-energy of the gravitational field itself contributes to gravity.)
 
-**Units**: $[\Phi] = $ energy/mass = m²/s². The gravitational potential at Earth's surface is $\Phi \approx -6.25 \times 10^7$ m²/s², i.e., $|\Phi|/c^2 \approx 7 \times 10^{-10}$ — a very weak field.
+**Units**: $[\Phi] =$ energy/mass = m²/s². The gravitational potential at Earth's surface is $\Phi \approx -6.25 \times 10^7$ m²/s², i.e., $|\Phi|/c^2 \approx 7 \times 10^{-10}$ — a very weak field.
 
 ---
 

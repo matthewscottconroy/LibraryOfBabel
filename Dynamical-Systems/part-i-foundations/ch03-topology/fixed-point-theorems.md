@@ -8,7 +8,7 @@ The most classical result:
 
 **Theorem 3.7.1 (Brouwer Fixed Point Theorem).** Every continuous map $f: D^n \to D^n$ (the closed $n$-disk) has a fixed point.
 
-*(proof sketch, $n=2$)* Suppose $f$ has no fixed point. Define $g(x) = $ the point on $\partial D^2$ where the ray from $f(x)$ through $x$ exits the disk. Then $g: D^2 \to \partial D^2 = S^1$ is a continuous retraction of the disk onto its boundary with $g|_{S^1} = \text{id}$. But $H_2(D^2) = 0$ while $H_1(S^1) = \mathbb{Z}$, and a retraction would give a contradiction on homology.
+*(proof sketch, $n=2$)* Suppose $f$ has no fixed point. Define $g(x) =$ the point on $\partial D^2$ where the ray from $f(x)$ through $x$ exits the disk. Then $g: D^2 \to \partial D^2 = S^1$ is a continuous retraction of the disk onto its boundary with $g|_{S^1} = \text{id}$. But $H_2(D^2) = 0$ while $H_1(S^1) = \mathbb{Z}$, and a retraction would give a contradiction on homology.
 
 The proof by contradiction is illuminating. If there's no fixed point, you can "project" every interior point radially toward the boundary — but this would give a retraction of the disk onto its boundary. And no such retraction can exist: the disk is simply connected (can be contracted to a point), but the circle is not. The topology of $D^2$ and $S^1$ are different enough to make this impossible.
 

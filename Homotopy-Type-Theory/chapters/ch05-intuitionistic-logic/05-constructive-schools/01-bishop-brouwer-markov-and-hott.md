@@ -19,7 +19,7 @@ Brouwer accepted *choice sequences*: infinite sequences of natural numbers that 
 
 **The Fan Theorem (Brouwer):** Any decidable spread (a certain kind of finitely branching tree) has a finite "bar." This is equivalent (over IPC) to the statement that $[0,1]$ is compact in Brouwer's mathematics.
 
-**The Continuity Principle (Brouwer):** Every total function from the Baire space $\mathbb{N}^\mathbb{N}$ to $\mathbb{N}$ is *continuous* (in the standard topology on $\mathbb{N}^\mathbb{N}$).
+**The Continuity Principle (Brouwer):** Every total function from the Baire space $\mathbb{N}^{\mathbb{N}}$ to $\mathbb{N}$ is *continuous* (in the standard topology on $\mathbb{N}^{\mathbb{N}}$).
 
 This principle has a dramatic consequence: in Brouwer's intuitionism, every real-valued function defined on $[0,1]$ is uniformly continuous. This contradicts classical mathematics, where discontinuous functions exist.
 

@@ -151,7 +151,7 @@ where $A_j$ is the matrix $A$ with column $j$ replaced by $\mathbf{b}$.
 
 For $T: V \to V$ (endomorphism), the **characteristic polynomial** is:
 $$p_T(\lambda) = \det(\lambda I - A)$$
-where $A = [T]_\mathcal{B}$ for any basis $\mathcal{B}$.
+where $A = [T]_{\mathcal{B}}$ for any basis $\mathcal{B}$.
 
 This is a degree-$n$ polynomial in $\lambda$, with leading term $\lambda^n$.
 

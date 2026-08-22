@@ -47,7 +47,7 @@ So the components of $\nabla_\nu V$ are:
 
 $$(\nabla_\nu V)^\rho \equiv \nabla_\nu V^\rho = \partial_\nu V^\rho + \Gamma^\rho_{\nu\mu}V^\mu$$
 
-**Covariant derivative of a covector** (1-form): By requiring the Leibniz rule to be compatible with $\omega_\mu V^\mu = $ scalar (so $\nabla_\nu(\omega_\mu V^\mu) = \partial_\nu(\omega_\mu V^\mu)$):
+**Covariant derivative of a covector** (1-form): By requiring the Leibniz rule to be compatible with $\omega_\mu V^\mu =$ scalar (so $\nabla_\nu(\omega_\mu V^\mu) = \partial_\nu(\omega_\mu V^\mu)$):
 
 $$\nabla_\nu\omega_\mu = \partial_\nu\omega_\mu - \Gamma^\rho_{\nu\mu}\omega_\rho$$
 

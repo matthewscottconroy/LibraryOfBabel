@@ -260,7 +260,7 @@ Numerically integrate the coupled SHG equations beyond the undepleted pump appro
 
 (c) Implement quasi-phase matching by making $d_{eff}(z) = d_{33} \cdot \text{sign}[\cos(2\pi z/\Lambda)]$ where $\Lambda$ is the poling period. Show that QPM suppresses back-conversion. How does the QPM efficiency compare to perfect phase matching with $d_{33}$?
 
-(d) The coupled equations conserve the Manley-Rowe relation: $I_\omega/({\hbar\omega}) + 2I_{2\omega}/(\hbar \cdot 2\omega) = $ const. Verify this numerically throughout your integration.
+(d) The coupled equations conserve the Manley-Rowe relation: $I_\omega/({\hbar\omega}) + 2I_{2\omega}/(\hbar \cdot 2\omega) =$ const. Verify this numerically throughout your integration.
 
 ---
 

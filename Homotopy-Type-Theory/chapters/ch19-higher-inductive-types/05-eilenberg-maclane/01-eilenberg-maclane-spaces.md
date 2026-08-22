@@ -59,7 +59,7 @@ Wait — this reverses: $K(G, 0) = G$, and $K(G, n) = B^n G$ where $B$ is the de
 **The delooping in practice.** In HoTT, the delooping of a group $G$ can be constructed as a HIT:
 - One point $* : BG$
 - For each group element $g : G$: a loop $g : * = *$
-- For each multiplication: a 2-path $\mathsf{mul}(g, h)$ saying $g \cdot h = $ (their concatenation)
+- For each multiplication: a 2-path $\mathsf{mul}(g, h)$ saying $g \cdot h =$ (their concatenation)
 - Truncation to 1-type
 
 Then $B^n G = K(G, n)$ has exactly one non-trivial homotopy group in dimension $n$.

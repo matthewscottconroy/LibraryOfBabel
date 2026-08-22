@@ -49,9 +49,9 @@ $$\mathsf{transport}^\mathsf{code}(\mathsf{loop}^{-1}) = \mathsf{pred} : \mathbb
 Define:
 $$\mathsf{encode} : \prod_{x:S^1}\, (\mathsf{base} = x) \to \mathsf{code}(x)$$
 
-by: $\mathsf{encode}(x, p) :\equiv \mathsf{transport}^\mathsf{code}(p, 0_\mathbb{Z})$
+by: $\mathsf{encode}(x, p) :\equiv \mathsf{transport}^\mathsf{code}(p, 0_{\mathbb{Z}})$
 
-where $0_\mathbb{Z} : \mathbb{Z}$ is the integer zero.
+where $0_{\mathbb{Z}} : \mathbb{Z}$ is the integer zero.
 
 **What $\mathsf{encode}$ does.** For a loop $p : \mathsf{base} = \mathsf{base}$, $\mathsf{encode}(\mathsf{base}, p)$ transports $0 \in \mathbb{Z}$ along $p$. Each traversal of $\mathsf{loop}$ increments by 1 (transport = successor). Each traversal of $\mathsf{loop}^{-1}$ decrements by 1. So $\mathsf{encode}(\mathsf{base}, \mathsf{loop}^n) = n$ — the winding number!
 

@@ -32,7 +32,7 @@ For the decreasing branch: $U' = -U\sqrt{c+2U}$. Separate variables: $\frac{dU}{
 
 $$U' = -2AB\,\text{sech}^2(B\xi)\tanh(B\xi), \qquad U'' = -2AB^2\text{sech}^2(B\xi)[1-2\tanh^2(B\xi)] \cdot (-2) = 4AB^2\text{sech}^2\tanh^2 - 2AB^2\text{sech}^2.$$
 
-More precisely: $U'' = -2AB^2\text{sech}^2(B\xi) + 4AB^2\text{sech}^2\tanh^2(B\xi)$... Let me use $\frac{d^2}{d\xi^2}\text{sech}^2 = 2\text{sech}^2(2\text{sech}^2-1) \cdot 2B^2$, so $U'' = 2AB^2\text{sech}^2(B\xi)(2\text{sech}^2(B\xi)-1)\cdot 2 = $ — use: $(\text{sech}^2)' = -2\text{sech}^2\tanh$, $(\text{sech}^2)'' = -2[(\text{sech}^2)'\tanh + \text{sech}^2\text{sech}^2\tanh'] = -2[-2\text{sech}^2\tanh^2 + \text{sech}^4] \cdot 2B^2$. Actually $(d/d\xi)\text{sech}^2(B\xi) = -2B\text{sech}^2\tanh$, $(d^2/d\xi^2)\text{sech}^2 = -2B^2[(\text{sech}^2)'\tanh/B + \text{sech}^2(\text{sech}^2)''] = 2B^2\text{sech}^2(2\text{sech}^2 - \text{id})$... 
+More precisely: $U'' = -2AB^2\text{sech}^2(B\xi) + 4AB^2\text{sech}^2\tanh^2(B\xi)$... Let me use $\frac{d^2}{d\xi^2}\text{sech}^2 = 2\text{sech}^2(2\text{sech}^2-1) \cdot 2B^2$, so $U'' = 2AB^2\text{sech}^2(B\xi)(2\text{sech}^2(B\xi)-1)\cdot 2 =$ — use: $(\text{sech}^2)' = -2\text{sech}^2\tanh$, $(\text{sech}^2)'' = -2[(\text{sech}^2)'\tanh + \text{sech}^2\text{sech}^2\tanh'] = -2[-2\text{sech}^2\tanh^2 + \text{sech}^4] \cdot 2B^2$. Actually $(d/d\xi)\text{sech}^2(B\xi) = -2B\text{sech}^2\tanh$, $(d^2/d\xi^2)\text{sech}^2 = -2B^2[(\text{sech}^2)'\tanh/B + \text{sech}^2(\text{sech}^2)''] = 2B^2\text{sech}^2(2\text{sech}^2 - \text{id})$... 
 
 The cleanest approach: $U'' = cU + 3U^2$ with $U = A\text{sech}^2(B\xi)$:
 

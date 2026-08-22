@@ -60,7 +60,7 @@ with the subspace topology from $X^{[0,1]}$ (the function space with the compact
 
 **The correspondence:** In the simplicial set model, the identity type $x =_A y$ is interpreted as the simplicial set of "simplicial paths" from $x$ to $y$ in $\llbracket A \rrbracket$. For a topological space, the singular complex $\mathsf{Sing}(X)$ has $n$-simplices that are continuous maps $\Delta^n \to X$. The "simplicial path space" has 1-simplices from $x$ to $y$ as its elements — which are continuous paths.
 
-So the translation is: $\llbracket x =_A y \rrbracket = $ the simplicial set of paths from $x$ to $y$ in $\llbracket A \rrbracket$.
+So the translation is: $\llbracket x =_A y \rrbracket =$ the simplicial set of paths from $x$ to $y$ in $\llbracket A \rrbracket$.
 
 **The J rule as the path induction principle.** The classical version: any property $P$ of paths from $x$ to $y$ that holds for the constant path at $x$ (when $x = y$) holds for all paths. This is a lifting property (see Chapter 11, Section 5).
 

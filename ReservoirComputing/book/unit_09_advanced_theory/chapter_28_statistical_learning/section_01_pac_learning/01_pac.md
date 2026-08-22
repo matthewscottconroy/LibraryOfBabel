@@ -38,10 +38,10 @@ $$
 d_{\mathrm{VC}}(\mathcal{H}) = \sup\{m \in \mathbb{N} : \exists S \subseteq \mathcal{X},\, |S| = m,\, S \text{ is shattered by } \mathcal{H}\}.
 $$
 
-The **Sauer-Shelah lemma** [Sauer 1972, Shelah 1972] bounds the growth function $\Pi_\mathcal{H}(m)$ — the maximum number of distinct labelings $\mathcal{H}$ can produce on any $m$ points:
+The **Sauer-Shelah lemma** [Sauer 1972, Shelah 1972] bounds the growth function $\Pi_{\mathcal{H}}(m)$ — the maximum number of distinct labelings $\mathcal{H}$ can produce on any $m$ points:
 
 $$
-\Pi_\mathcal{H}(m) \leq \sum_{i=0}^{d_{\mathrm{VC}}} \binom{m}{i} \leq \left(\frac{em}{d_{\mathrm{VC}}}\right)^{d_{\mathrm{VC}}}.
+\Pi_{\mathcal{H}}(m) \leq \sum_{i=0}^{d_{\mathrm{VC}}} \binom{m}{i} \leq \left(\frac{em}{d_{\mathrm{VC}}}\right)^{d_{\mathrm{VC}}}.
 $$
 
 This polynomial growth (once $m > d_{\mathrm{VC}}$) is the key. Using the Sauer-Shelah bound in place of $|\mathcal{H}|$, the PAC sample complexity for any class with finite VC dimension $d$ becomes [Blumer et al. 1989]:

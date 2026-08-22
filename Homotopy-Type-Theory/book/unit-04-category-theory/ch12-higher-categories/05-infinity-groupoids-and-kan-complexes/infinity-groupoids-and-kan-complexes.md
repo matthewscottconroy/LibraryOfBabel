@@ -119,9 +119,9 @@ The Kan property of types is what makes the simplicial set model work: types in 
 
 ## The Univalence Axiom and the Object Classifier
 
-The Univalence Axiom says: $(A =_\mathcal{U} B) \simeq (A \simeq B)$ — the path space of the universe is the space of equivalences.
+The Univalence Axiom says: $(A =_{\mathcal{U}} B) \simeq (A \simeq B)$ — the path space of the universe is the space of equivalences.
 
-In terms of Kan complexes: the universe $\mathcal{U}$ is interpreted as a Kan complex (the "universe of small Kan complexes"), and the path space $\mathsf{Path}_\mathcal{U}(A, B)$ is equivalent to the Kan complex of equivalences from $A$ to $B$.
+In terms of Kan complexes: the universe $\mathcal{U}$ is interpreted as a Kan complex (the "universe of small Kan complexes"), and the path space $\mathsf{Path}_{\mathcal{U}}(A, B)$ is equivalent to the Kan complex of equivalences from $A$ to $B$.
 
 This is the ∞-categorical *object classifier*: an object $\mathcal{U}$ in an ∞-topos such that maps $X \to \mathcal{U}$ correspond to "families of objects over $X$." The universal property of $\mathcal{U}$ is that any family of ∞-groupoids parametrized by $X$ corresponds to a map $X \to \mathcal{U}$.
 

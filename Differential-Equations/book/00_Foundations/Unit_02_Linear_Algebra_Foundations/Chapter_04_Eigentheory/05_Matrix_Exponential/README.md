@@ -51,7 +51,7 @@ $$e^{J_k(\lambda)t} = e^{\lambda t}e^{Nt} = e^{\lambda t}\sum_{j=0}^{k-1}\frac{N
 
 **Case 3: Cayley-Hamilton method (small matrices).**
 
-By Cayley-Hamilton, $A^n = $ linear combination of $\{I, A, \ldots, A^{n-1}\}$. Every term $A^k$ (for $k \geq n$) can be reduced, so $e^{At} = \alpha_0(t)I + \alpha_1(t)A + \cdots + \alpha_{n-1}(t)A^{n-1}$ for some scalar functions $\alpha_i(t)$. These are determined by requiring $e^{\lambda_i t} = \sum_j \alpha_j(t)\lambda_i^j$ for each eigenvalue $\lambda_i$ (with appropriate conditions at repeated eigenvalues).
+By Cayley-Hamilton, $A^n =$ linear combination of $\{I, A, \ldots, A^{n-1}\}$. Every term $A^k$ (for $k \geq n$) can be reduced, so $e^{At} = \alpha_0(t)I + \alpha_1(t)A + \cdots + \alpha_{n-1}(t)A^{n-1}$ for some scalar functions $\alpha_i(t)$. These are determined by requiring $e^{\lambda_i t} = \sum_j \alpha_j(t)\lambda_i^j$ for each eigenvalue $\lambda_i$ (with appropriate conditions at repeated eigenvalues).
 
 ## The ODE Solution
 

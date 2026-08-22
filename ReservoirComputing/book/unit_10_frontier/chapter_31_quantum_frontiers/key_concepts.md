@@ -10,7 +10,7 @@
 
 **Decoherence.** The decay of off-diagonal elements of the density matrix (quantum coherences) due to coupling to an environment. The quantum mechanism of fading memory. The decoherence rate $\gamma$ determines how quickly the reservoir forgets its initial state.
 
-**Liouvillian Gap $\Delta_\mathcal{L}$.** The spectral gap of the Lindblad superoperator $\mathcal{L}$: the difference between the zero eigenvalue (steady state) and the next eigenvalue. The convergence rate to the steady state is $e^{-\Delta_\mathcal{L} t}$. The quantum analogue of the ESP contraction rate.
+**Liouvillian Gap $\Delta_{\mathcal{L}}$.** The spectral gap of the Lindblad superoperator $\mathcal{L}$: the difference between the zero eigenvalue (steady state) and the next eigenvalue. The convergence rate to the steady state is $e^{-\Delta_{\mathcal{L}} t}$. The quantum analogue of the ESP contraction rate.
 
 **Pauli Operators.** $\{I, X, Y, Z\}^{\otimes N}$: tensor products of Pauli matrices $\sigma_x, \sigma_y, \sigma_z$ and identity, forming a basis for all $2^N \times 2^N$ Hermitian matrices. There are $4^N$ such operators. Measuring their expectation values $\text{tr}(P_k \rho)$ gives the quantum readout features.
 

@@ -43,9 +43,9 @@ This preserves the diagonal elements of $\rho$ (populations) but decays the off-
 
 **General decoherence.** For a general Lindblad equation with multiple jump operators, the density matrix converges to a steady state $\rho_{\text{ss}}$ at a rate determined by the *Liouvillian gap* — the spectral gap of the superoperator $\mathcal{L}$. The Liouvillian gap plays the role of the contraction rate in the classical ESP:
 
-$$\|\rho(t) - \rho_{\text{ss}}\|_1 \leq \|\rho(0) - \rho_{\text{ss}}\|_1 \cdot e^{-\Delta_\mathcal{L} t},$$
+$$\|\rho(t) - \rho_{\text{ss}}\|_1 \leq \|\rho(0) - \rho_{\text{ss}}\|_1 \cdot e^{-\Delta_{\mathcal{L}} t},$$
 
-where $\Delta_\mathcal{L} = -\text{Re}(\lambda_1) > 0$ is the gap between the zero eigenvalue (corresponding to $\rho_{\text{ss}}$) and the next eigenvalue of $\mathcal{L}$.
+where $\Delta_{\mathcal{L}} = -\text{Re}(\lambda_1) > 0$ is the gap between the zero eigenvalue (corresponding to $\rho_{\text{ss}}$) and the next eigenvalue of $\mathcal{L}$.
 
 **Quantum ESP.** A quantum reservoir with input-dependent Lindblad equation $\mathcal{L}_u$ has the *quantum echo state property* if for every input sequence $(u(0), u(-1), \ldots)$ satisfying a fading-memory condition, there is a unique density matrix $\rho^*$ (the quantum echo state response) such that $\rho(t) \to \rho^*$ regardless of initial conditions.
 

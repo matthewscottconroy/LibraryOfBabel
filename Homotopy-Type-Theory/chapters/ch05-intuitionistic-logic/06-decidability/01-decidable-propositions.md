@@ -48,7 +48,7 @@ This means: if two elements of $A$ are equal, there's at most one proof of their
 
 **Non-sets (higher h-levels):**
 - $S^1$ (the circle): the identity type $\text{Id}_{S^1}(\text{base}, \text{base})$ is equivalent to $\mathbb{Z}$ (the winding number). Not a mere proposition.
-- The universe $\mathcal{U}$ of all types: $\text{Id}_\mathcal{U}(A, B)$ is equivalent to $A \simeq B$ (type equivalences), by Univalence. Not a mere proposition in general.
+- The universe $\mathcal{U}$ of all types: $\text{Id}_{\mathcal{U}}(A, B)$ is equivalent to $A \simeq B$ (type equivalences), by Univalence. Not a mere proposition in general.
 
 ## Decidable Equality for Sets
 

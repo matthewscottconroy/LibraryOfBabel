@@ -69,7 +69,7 @@ $$W^\perp = \{\mathbf{v} \in V \mid \langle \mathbf{v}, \mathbf{w} \rangle = 0 \
 
 **Theorem:** $V = W \oplus W^\perp$ (orthogonal direct sum) when $V$ is finite-dimensional.
 
-**Orthogonal projection** onto $W$: $\mathrm{proj}_W \mathbf{v} = $ the unique element of $W$ closest to $\mathbf{v}$.
+**Orthogonal projection** onto $W$: $\mathrm{proj}_W \mathbf{v} =$ the unique element of $W$ closest to $\mathbf{v}$.
 
 ### 7.2.2 Gram–Schmidt Orthogonalization
 
@@ -152,7 +152,7 @@ The singular values are unique; $U$ and $V$ are not (when singular values repeat
 
 ### 7.5.3 Applications
 
-- **Rank:** $\mathrm{rank}(A) = $ number of nonzero singular values
+- **Rank:** $\mathrm{rank}(A) =$ number of nonzero singular values
 - **Pseudoinverse:** $A^+ = V \Sigma^+ U^*$ (replace nonzero diagonal entries of $\Sigma$ with their reciprocals)
 - **Least squares:** $A\mathbf{x} \approx \mathbf{b}$ solution is $\mathbf{x} = A^+ \mathbf{b}$
 - **Low-rank approximation:** Truncate to top $k$ singular values → best rank-$k$ approximation (Eckart–Young theorem)
@@ -165,7 +165,7 @@ The singular values are unique; $U$ and $V$ are not (when singular values repeat
 ### 7.6.1 General Bilinear Forms
 
 A **bilinear form** on $V$ is a map $B: V \times V \to F$ linear in each argument. In matrix form (with basis $\mathcal{B}$):
-$$B(\mathbf{u}, \mathbf{v}) = [\mathbf{u}]_\mathcal{B}^T M [\mathbf{v}]_\mathcal{B}$$
+$$B(\mathbf{u}, \mathbf{v}) = [\mathbf{u}]_{\mathcal{B}}^T M [\mathbf{v}]_{\mathcal{B}}$$
 
 **Symmetric forms** ($M = M^T$), **skew-symmetric forms** ($M = -M^T$), **Hermitian forms**.
 

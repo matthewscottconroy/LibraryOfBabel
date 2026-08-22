@@ -120,7 +120,7 @@ The filter mask $H(x_F, y_F)$ at the Fourier plane has direct physical meaning:
 - $H = 1$ everywhere: pass all spatial frequencies → identity (perfect imaging)
 - $H = 0$ for $|x_F| > r$: low-pass filter → blur (remove high spatial frequencies)
 - $H = 0$ for $|x_F| < r$: high-pass filter → edge detection (remove low spatial frequencies)
-- $H = $ complex pattern: arbitrary linear filter
+- $H =$ complex pattern: arbitrary linear filter
 
 The spatial frequency axis is calibrated: $f_x = x_F/(\lambda f)$ cycles/mm. For $\lambda = 633$ nm, $f = 100$ mm:
 - Scale factor: $1/(\lambda f) = 1/(633\times10^{-6} \times 100) = 15.8$ cycles/mm per mm of Fourier plane position

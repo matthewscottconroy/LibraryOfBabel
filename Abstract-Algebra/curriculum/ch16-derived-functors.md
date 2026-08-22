@@ -58,7 +58,7 @@ Both computations give the same groups — this is a non-trivial symmetry of the
 ### 16.2.2 Low-Degree Interpretations
 
 - $\mathrm{Ext}^0_R(M, N) \cong \mathrm{Hom}_R(M, N)$
-- $\mathrm{Ext}^1_R(M, N) \cong $ {equivalence classes of SES $0 \to N \to E \to M \to 0$} / ${\sim}$
+- $\mathrm{Ext}^1_R(M, N) \cong$ {equivalence classes of SES $0 \to N \to E \to M \to 0$} / ${\sim}$
 
 The second identification is the Baer sum construction: extensions are a group under a "stacking" operation.
 
@@ -67,7 +67,7 @@ The second identification is the Baer sum construction: extensions are a group u
 **Projective resolution of $\mathbb{Z}/n\mathbb{Z}$:**
 $$0 \to \mathbb{Z} \xrightarrow{\times n} \mathbb{Z} \to \mathbb{Z}/n\mathbb{Z} \to 0$$
 
-Apply $\mathrm{Hom}_\mathbb{Z}(-, \mathbb{Z}/m\mathbb{Z})$:
+Apply $\mathrm{Hom}_{\mathbb{Z}}(-, \mathbb{Z}/m\mathbb{Z})$:
 $$0 \to \mathrm{Hom}(\mathbb{Z}/n\mathbb{Z}, \mathbb{Z}/m\mathbb{Z}) \to \mathrm{Hom}(\mathbb{Z}, \mathbb{Z}/m\mathbb{Z}) \xrightarrow{\times n} \mathrm{Hom}(\mathbb{Z}, \mathbb{Z}/m\mathbb{Z}) \to 0$$
 $$= 0 \to \mathbb{Z}/\gcd(m,n)\mathbb{Z} \to \mathbb{Z}/m\mathbb{Z} \xrightarrow{\times n} \mathbb{Z}/m\mathbb{Z} \to 0$$
 
@@ -110,7 +110,7 @@ where $P_\bullet \to M$ is a projective resolution.
 
 ### 16.3.3 Computing Tor over $\mathbb{Z}$
 
-Using the same resolution of $\mathbb{Z}/n\mathbb{Z}$, apply $- \otimes_\mathbb{Z} \mathbb{Z}/m\mathbb{Z}$:
+Using the same resolution of $\mathbb{Z}/n\mathbb{Z}$, apply $- \otimes_{\mathbb{Z}} \mathbb{Z}/m\mathbb{Z}$:
 $$\mathbb{Z}/m\mathbb{Z} \xrightarrow{\times n} \mathbb{Z}/m\mathbb{Z}$$
 
 Taking homology:
@@ -142,8 +142,8 @@ where $\mathbb{Z}$ is the trivial $G$-module.
 
 **Low degrees:**
 - $H^0(G, M) = M^G = \{m \in M \mid gm = m \text{ for all } g\}$ (invariants)
-- $H^1(G, M) = $ group homomorphisms $G \to M$ (when $M$ abelian, trivial action) / crossed homomorphisms
-- $H^2(G, M) = $ extensions of $G$ by $M$ (group extensions!)
+- $H^1(G, M) =$ group homomorphisms $G \to M$ (when $M$ abelian, trivial action) / crossed homomorphisms
+- $H^2(G, M) =$ extensions of $G$ by $M$ (group extensions!)
 
 ### 16.4.3 Bar Resolution
 
@@ -170,11 +170,11 @@ A standard projective resolution of $\mathbb{Z}$ over $\mathbb{Z}[G]$ — the **
 
 ## Milestone Exercises
 
-1. Compute $\mathrm{Ext}^n_\mathbb{Z}(\mathbb{Z}/4\mathbb{Z}, \mathbb{Z}/6\mathbb{Z})$ for all $n \geq 0$.
+1. Compute $\mathrm{Ext}^n_{\mathbb{Z}}(\mathbb{Z}/4\mathbb{Z}, \mathbb{Z}/6\mathbb{Z})$ for all $n \geq 0$.
 
-2. Compute $\mathrm{Tor}_n^\mathbb{Z}(\mathbb{Z}/m\mathbb{Z}, \mathbb{Z}/n\mathbb{Z})$ for all $n \geq 0$.
+2. Compute $\mathrm{Tor}_n^{\mathbb{Z}}(\mathbb{Z}/m\mathbb{Z}, \mathbb{Z}/n\mathbb{Z})$ for all $n \geq 0$.
 
-3. Show that $\mathrm{gl.dim}(\mathbb{Z}) = 1$ (i.e., $\mathrm{Ext}^n_\mathbb{Z}(M,N) = 0$ for all $n \geq 2$ and all $M,N$).
+3. Show that $\mathrm{gl.dim}(\mathbb{Z}) = 1$ (i.e., $\mathrm{Ext}^n_{\mathbb{Z}}(M,N) = 0$ for all $n \geq 2$ and all $M,N$).
 
 4. Classify all extensions of $\mathbb{Z}/2\mathbb{Z}$ by $\mathbb{Z}/2\mathbb{Z}$ using $\mathrm{Ext}^1$.
 

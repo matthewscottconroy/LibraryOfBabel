@@ -75,7 +75,7 @@ This application is largely prospective but represents one of the most important
 
 *The long exact sequence of a fibration*: For $F \to E \to B$ a fibration, there is an exact sequence $\cdots \to \pi_n(F) \to \pi_n(E) \to \pi_n(B) \to \pi_{n-1}(F) \to \cdots$. In cohesive HoTT: the fibration is a map $E \to B$ with contractible fibers, and the exact sequence is a consequence of the homotopy-theoretic structure.
 
-*Rational homotopy theory*: The rationalization of a space $X$ (the space $X_\mathbb{Q}$ obtained by inverting all primes in the homotopy groups) is a modality — the $\mathbb{Q}$-localization. In cohesive HoTT, rational homotopy theory is modal homotopy theory: all the results about rational equivalences, minimal models, and formality are instances of the general theory of modalities applied to the $\mathbb{Q}$-localization.
+*Rational homotopy theory*: The rationalization of a space $X$ (the space $X_{\mathbb{Q}}$ obtained by inverting all primes in the homotopy groups) is a modality — the $\mathbb{Q}$-localization. In cohesive HoTT, rational homotopy theory is modal homotopy theory: all the results about rational equivalences, minimal models, and formality are instances of the general theory of modalities applied to the $\mathbb{Q}$-localization.
 
 **Formal verification applications**: These synthetic proofs are, in principle, formalizable in Cubical Agda with cohesion. A formally verified algebraic topology — where the theorems of Seifert-van Kampen, Hurewicz, and Whitehead are machine-checked — is within reach of current technology.
 

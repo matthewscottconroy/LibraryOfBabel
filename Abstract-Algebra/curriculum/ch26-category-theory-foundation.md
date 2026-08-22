@@ -174,7 +174,7 @@ The **derived category** $D(\mathrm{Sh}(X))$ provides the correct framework: coh
 
 2. Show that in the topos $G$-**Set** (sets with $G$-action), $\Omega$ = set of subgroups of $G$. What is the internal logic?
 
-3. Define a sheaf on the topological space $\mathbb{R}$ by $F(U) = $ locally bounded functions on $U$. Check the sheaf axioms.
+3. Define a sheaf on the topological space $\mathbb{R}$ by $F(U) =$ locally bounded functions on $U$. Check the sheaf axioms.
 
 4. Show that Diaconescu's theorem holds: if every epimorphism in a topos splits (AC), then the topos is Boolean.
 

@@ -126,7 +126,7 @@ A brief taxonomy:
 
 - **Without $W^{in}$:** No input coupling. Reservoir ignores the task. Fail.
 - **Without $W^{rec}$ (i.e., $W^{rec} = 0$):** No memory. Readout receives only current input. Same as a linear classifier with no temporal context. Limited.
-- **Without the nonlinearity $f$ (i.e., $f = $ identity):** The reservoir is a linear dynamical system. Linear reservoirs can compute Volterra series expansions of the input, which is useful but restricts the class of computable functions. The nonlinearity is what enables approximation of nonlinear temporal functions.
+- **Without the nonlinearity $f$ (i.e., $f =$ identity):** The reservoir is a linear dynamical system. Linear reservoirs can compute Volterra series expansions of the input, which is useful but restricts the class of computable functions. The nonlinearity is what enables approximation of nonlinear temporal functions.
 - **Without the washout:** The state trajectory is contaminated by the initial condition, which has nothing to do with the input signal. Training on contaminated states reduces readout accuracy, especially for the early part of the training sequence.
 - **Without regularization ($\alpha = 0$):** The solution to the linear regression problem may overfit, especially when $N$ is large relative to $T_{train}$. Regularization is essential for generalization (Chapter 8).
 

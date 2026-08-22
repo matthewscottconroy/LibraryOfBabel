@@ -40,7 +40,7 @@ $$|f(x) - f(y)| \leq K|x-y| \quad \text{for all } x, y \in D.$$
 
 *Proof.* Given $\varepsilon > 0$, choose $\delta = \varepsilon/K$. Then $|x-y| < \delta \Rightarrow |f(x)-f(y)| \leq K|x-y| < K \cdot (\varepsilon/K) = \varepsilon$. $\square$
 
-The Lipschitz condition is stronger than uniform continuity. Examples of Lipschitz functions: linear functions (constant $K = $ slope), $\sin$ and $\cos$ (constant $K = 1$, since $|\sin x - \sin y| \leq |x-y|$ by the mean value theorem). The function $f(x) = \sqrt{x}$ is uniformly continuous on $[0,\infty)$ but not Lipschitz (its derivative is unbounded near $0$).
+The Lipschitz condition is stronger than uniform continuity. Examples of Lipschitz functions: linear functions (constant $K =$ slope), $\sin$ and $\cos$ (constant $K = 1$, since $|\sin x - \sin y| \leq |x-y|$ by the mean value theorem). The function $f(x) = \sqrt{x}$ is uniformly continuous on $[0,\infty)$ but not Lipschitz (its derivative is unbounded near $0$).
 
 ## Extension of Uniformly Continuous Functions
 

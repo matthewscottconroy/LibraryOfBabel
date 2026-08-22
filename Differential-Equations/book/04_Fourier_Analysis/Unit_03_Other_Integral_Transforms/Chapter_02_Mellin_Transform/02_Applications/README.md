@@ -18,7 +18,7 @@ The standard approach is to write $\int_0^\infty \frac{\sin x}{x}\,dx = \lim_{s\
 
 **Example: The Beta function integral.** $B(a,b) = \int_0^\infty \frac{x^{a-1}}{(1+x)^{a+b}}\,dx = \frac{\Gamma(a)\Gamma(b)}{\Gamma(a+b)}$.
 
-This follows by writing $1/(1+x)^{a+b} = $ a product and applying the Mellin convolution theorem, or by a direct substitution $x = t/(1-t)$ converting to the standard Beta function.
+This follows by writing $1/(1+x)^{a+b} =$ a product and applying the Mellin convolution theorem, or by a direct substitution $x = t/(1-t)$ converting to the standard Beta function.
 
 ## Asymptotic Analysis of Algorithms
 

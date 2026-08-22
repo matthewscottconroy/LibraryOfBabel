@@ -23,7 +23,7 @@ This function $f(\alpha)$ is the complete picture: it tells you, for each possib
 
 What this is saying is: the multifractal spectrum is a concave arch shape. The peak is the Hausdorff dimension of the attractor itself, achieved at the "typical" value of the local dimension — the value that $\mu$-a.e. point has. Points with atypical local dimensions (too high or too low) form smaller fractal sets.
 
-For the Bernoulli measure $\mu_p = (p, 1-p)$ on $\{0,1\}^\mathbb{N}$ (which arises from the doubling map), the multifractal spectrum is computable in closed form — see Exercise 11.5.
+For the Bernoulli measure $\mu_p = (p, 1-p)$ on $\{0,1\}^{\mathbb{N}}$ (which arises from the doubling map), the multifractal spectrum is computable in closed form — see Exercise 11.5.
 
 ## The Legendre Transform and Rényi Dimensions
 

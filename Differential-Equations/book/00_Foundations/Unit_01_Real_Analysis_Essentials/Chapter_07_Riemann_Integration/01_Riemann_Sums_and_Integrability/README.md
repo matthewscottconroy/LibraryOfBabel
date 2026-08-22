@@ -30,7 +30,7 @@ A partition $\mathcal{Q}$ is a **refinement** of $\mathcal{P}$ if $\mathcal{P} \
 
 ## The Lower and Upper Integrals
 
-Define the **lower integral** $\underline{\int}_a^b f = \sup_\mathcal{P} L(f,\mathcal{P})$ and the **upper integral** $\overline{\int}_a^b f = \inf_\mathcal{P} U(f,\mathcal{P})$.
+Define the **lower integral** $\underline{\int}_a^b f = \sup_{\mathcal{P}} L(f,\mathcal{P})$ and the **upper integral** $\overline{\int}_a^b f = \inf_{\mathcal{P}} U(f,\mathcal{P})$.
 
 By the corollary, $\underline{\int} f \leq \overline{\int} f$ always.
 

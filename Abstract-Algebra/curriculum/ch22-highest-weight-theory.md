@@ -96,7 +96,7 @@ A weight $\lambda \in \mathfrak{h}^*$ is **dominant integral** if:
 $$\langle \lambda, \alpha^\vee \rangle = \frac{2(\lambda, \alpha)}{(\alpha, \alpha)} \in \mathbb{Z}_{\geq 0} \quad \text{for all simple roots } \alpha$$
 
 The set of dominant integral weights is the **dominant Weyl chamber intersected with the weight lattice**:
-$$P^+ = \{\lambda \in \mathfrak{h}^*_\mathbb{Z} \mid \langle \lambda, \alpha^\vee \rangle \geq 0 \text{ for all simple } \alpha\}$$
+$$P^+ = \{\lambda \in \mathfrak{h}^*_{\mathbb{Z}} \mid \langle \lambda, \alpha^\vee \rangle \geq 0 \text{ for all simple } \alpha\}$$
 
 $P^+$ is a free commutative monoid on the **fundamental weights** $\{\omega_1, \ldots, \omega_r\}$ defined by $\langle \omega_i, \alpha_j^\vee \rangle = \delta_{ij}$.
 

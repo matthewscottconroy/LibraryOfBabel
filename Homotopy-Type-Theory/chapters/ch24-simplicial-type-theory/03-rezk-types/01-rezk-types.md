@@ -44,7 +44,7 @@ This is the categorical completeness condition. It says: the only way for two ob
 **The universe $\mathsf{Type}$ is Rezk if and only if univalence holds.** The Rezk condition for $\mathsf{Type}$ says:
 $$(A =_\mathsf{Type} B) \simeq \mathsf{Iso}_\mathsf{Type}(A, B)$$
 
-The isomorphisms in $\mathsf{Type}$ (with $\mathsf{hom} = $ functions) are exactly the equivalences $A \simeq B$. So the Rezk condition for $\mathsf{Type}$ is exactly the univalence axiom! This is the key connection:
+The isomorphisms in $\mathsf{Type}$ (with $\mathsf{hom} =$ functions) are exactly the equivalences $A \simeq B$. So the Rezk condition for $\mathsf{Type}$ is exactly the univalence axiom! This is the key connection:
 
 **Univalence is the Rezk condition for the universe.**
 

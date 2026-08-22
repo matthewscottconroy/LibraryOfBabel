@@ -50,7 +50,7 @@ $$H_n(C_\bullet) = \ker(d_n) / \mathrm{im}(d_{n+1})$$
 $$0 \to \mathbb{Z} \xrightarrow{\times n} \mathbb{Z} \xrightarrow{\pi} \mathbb{Z}/n\mathbb{Z} \to 0$$
 This is a short exact sequence; $H_0 = \mathbb{Z}/n\mathbb{Z}$, $H_k = 0$ for $k \neq 0$.
 
-**Simplicial homology:** A simplicial complex gives a chain complex with $C_n = $ free module on $n$-simplices and $d_n = $ signed sum of faces. $H_n$ measures $n$-dimensional "holes."
+**Simplicial homology:** A simplicial complex gives a chain complex with $C_n =$ free module on $n$-simplices and $d_n =$ signed sum of faces. $H_n$ measures $n$-dimensional "holes."
 
 ---
 

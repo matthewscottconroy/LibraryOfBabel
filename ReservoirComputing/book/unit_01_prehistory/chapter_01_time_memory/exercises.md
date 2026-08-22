@@ -201,8 +201,8 @@ Functionals to consider:
 6. $y_t = u_{t-5} \cdot u_{t-10}$ (product of two lagged inputs)
 7. $y_t = u_t$ if $u_{t-1} > 0$ else $-u_t$ (sign-dependent relay)
 8. $y_t = \exp(-\sum_{k=0}^{t} u_k^2)$ (cumulative energy decay) — does this have fading memory?
-9. $y_t = $ the $k$-th Legendre polynomial of the recent input window (for $k = 3$)
-10. $y_t = $ the autocorrelation of the input at lag 5: $\mathbb{E}[u_t u_{t-5}]$, estimated from recent history
+9. $y_t =$ the $k$-th Legendre polynomial of the recent input window (for $k = 3$)
+10. $y_t =$ the autocorrelation of the input at lag 5: $\mathbb{E}[u_t u_{t-5}]$, estimated from recent history
 
 ---
 

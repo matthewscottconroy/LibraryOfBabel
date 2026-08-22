@@ -27,7 +27,7 @@
 
 **Exercise 6.** A functor $F : \mathbf{B}G \to \mathbf{Set}$ (where $G$ is a group viewed as a one-object category) corresponds to what classical mathematical structure? What is a natural transformation between two such functors?
 
-**Exercise 7.** Show that the identity functor $\mathsf{Id}_\mathcal{C} : \mathcal{C} \to \mathcal{C}$ and the composite of functors give $\mathbf{Cat}$ (small categories and functors) the structure of a category.
+**Exercise 7.** Show that the identity functor $\mathsf{Id}_{\mathcal{C}} : \mathcal{C} \to \mathcal{C}$ and the composite of functors give $\mathbf{Cat}$ (small categories and functors) the structure of a category.
 
 ## Section 2: Natural Transformations and Yoneda
 
@@ -81,7 +81,7 @@
 
 **Exercise 25.** In type theory: the currying equivalence $(A \times B \to C) \simeq (A \to (B \to C))$ is an adjunction. Identify the functors, the unit, and the counit. Verify the triangular identities.
 
-**Exercise 26.** Show that propositional truncation $\|-\| : \mathcal{U} \to \mathsf{Prop}$ is left adjoint to the inclusion $\iota : \mathsf{Prop} \hookrightarrow \mathcal{U}$ by verifying the hom-set bijection: $\mathsf{Hom}_\mathsf{Prop}(\|A\|, P) \simeq \mathsf{Hom}_\mathcal{U}(A, P)$ for any proposition $P$.
+**Exercise 26.** Show that propositional truncation $\|-\| : \mathcal{U} \to \mathsf{Prop}$ is left adjoint to the inclusion $\iota : \mathsf{Prop} \hookrightarrow \mathcal{U}$ by verifying the hom-set bijection: $\mathsf{Hom}_\mathsf{Prop}(\|A\|, P) \simeq \mathsf{Hom}_{\mathcal{U}}(A, P)$ for any proposition $P$.
 
 ## Section 5: Monads
 

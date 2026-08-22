@@ -78,7 +78,7 @@ Since $S^0$ has two components with fundamental group $\mathbf{1}$, and the two 
 
 **The torus.** $T^2 = S^1 \sqcup_{S^1 \vee S^1} S^1 \times \mathsf{D}^2$... the torus can be seen as a circle crossed with a circle. A cleaner decomposition: $T^2 = A \sqcup_C B$ where $A$ and $B$ are the "top hemisphere" and "bottom hemisphere" (both cylinders $S^1 \times [0,1]$) and $C = S^1$ is the equator.
 
-By van Kampen: $\pi_1(T^2) \cong \mathbb{Z} *_\mathbb{Z} \mathbb{Z} \cong \mathbb{Z}^2$ (the free abelian group on two generators, because the relation says the two generators commute). ✓
+By van Kampen: $\pi_1(T^2) \cong \mathbb{Z} *_{\mathbb{Z}} \mathbb{Z} \cong \mathbb{Z}^2$ (the free abelian group on two generators, because the relation says the two generators commute). ✓
 
 **The wedge $S^1 \vee S^1$.** The wedge is the pushout $S^1 \sqcup_{\mathbf{1}} S^1$ (identifying one point of each circle). By van Kampen:
 $$\pi_1(S^1 \vee S^1) \cong \mathbb{Z} *_{\mathbf{1}} \mathbb{Z} = \mathbb{Z} * \mathbb{Z} = F_2$$

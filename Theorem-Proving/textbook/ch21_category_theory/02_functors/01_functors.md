@@ -14,7 +14,7 @@ Examples:
 - **Forgetful** $U : \mathbf{Grp} \to \mathbf{Set}$: send a group to its underlying set, a homomorphism to itself as a function. Forgetting is structure-preserving — trivially but usefully, as Section 4 shows.
 - **Free** $F : \mathbf{Set} \to \mathbf{Grp}$: send a set $S$ to the free group $F(S)$ of reduced words (see the construction in [proofs/10_category_theory/free_group_universal_property/](../../../proofs/10_category_theory/free_group_universal_property/paper_proof.md)), a function to its extension on words.
 - **Fundamental group** $\pi_1 : \mathbf{Top}_{\ast} \to \mathbf{Grp}$: a continuous basepoint-preserving map induces a homomorphism of fundamental groups. Functoriality is the engine of algebraic topology: topological problems ride functors into algebra, where they can be settled by computation.
-- **Hom-functors**: for locally small $\mathcal{C}$ and fixed $A$, the functor $\mathrm{Hom}(A, -) : \mathcal{C} \to \mathbf{Set}$ sends $B \mapsto \mathrm{Hom}(A, B)$ and $g : B \to C$ to postcomposition $g \circ - $.
+- **Hom-functors**: for locally small $\mathcal{C}$ and fixed $A$, the functor $\mathrm{Hom}(A, -) : \mathcal{C} \to \mathbf{Set}$ sends $B \mapsto \mathrm{Hom}(A, B)$ and $g : B \to C$ to postcomposition $g \circ -$.
 
 **Contravariant functors** reverse arrows: a contravariant functor $\mathcal{C} \to \mathcal{D}$ is exactly a covariant functor $\mathcal{C}^{op} \to \mathcal{D}$, so it sends $f : A \to B$ to $F(f) : F(B) \to F(A)$ with $F(g \circ f) = F(f) \circ F(g)$. The paradigm is $\mathrm{Hom}(-, A)$, acting by precomposition; other examples are the preimage powerset $f \mapsto f^{-1}[-]$ and the dual space $V \mapsto V^{\ast}$ in $\mathbf{Vect}_k$.
 

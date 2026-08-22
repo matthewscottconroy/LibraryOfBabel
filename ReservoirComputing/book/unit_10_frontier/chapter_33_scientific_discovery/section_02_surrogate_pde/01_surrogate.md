@@ -64,7 +64,7 @@ Autonomous rollout suffers from **error accumulation**: small prediction errors 
 Condition 3 is the most stringent and is not guaranteed by ridge regression training. [Lu et al. 2018] showed that adding a regularization term penalizing the deviation of the surrogate's Lyapunov exponent from the target value can improve long-term stability:
 
 $$
-\mathcal{L}_{\mathrm{reg}}(\mathbf{W}^{\mathrm{out}}) = \underbrace{\|\mathbf{X}\mathbf{w} - \mathbf{y}\|^2}_{\text{prediction error}} + \underbrace{\lambda_\mathcal{L}\left(\hat{\lambda}_1(\mathbf{w}) - \lambda_1^{\mathrm{target}}\right)^2}_{\text{Lyapunov regularization}},
+\mathcal{L}_{\mathrm{reg}}(\mathbf{W}^{\mathrm{out}}) = \underbrace{\|\mathbf{X}\mathbf{w} - \mathbf{y}\|^2}_{\text{prediction error}} + \underbrace{\lambda_{\mathcal{L}}\left(\hat{\lambda}_1(\mathbf{w}) - \lambda_1^{\mathrm{target}}\right)^2}_{\text{Lyapunov regularization}},
 $$
 
 where $\hat{\lambda}_1(\mathbf{w})$ is the estimated largest Lyapunov exponent of the closed-loop reservoir.

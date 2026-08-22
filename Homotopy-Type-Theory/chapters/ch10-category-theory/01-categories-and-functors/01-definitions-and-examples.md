@@ -6,7 +6,7 @@ A *category* is one of the simplest mathematical structures: objects (things) an
 
 **Definition.** A *category* $\mathcal{C}$ consists of:
 - A collection $\mathsf{Ob}(\mathcal{C})$ of *objects*, written $A, B, C, \ldots$
-- For each pair of objects $A, B$, a set $\mathsf{Hom}_\mathcal{C}(A, B)$ of *morphisms* (or *arrows*) from $A$ to $B$, written $f : A \to B$
+- For each pair of objects $A, B$, a set $\mathsf{Hom}_{\mathcal{C}}(A, B)$ of *morphisms* (or *arrows*) from $A$ to $B$, written $f : A \to B$
 - For each triple $A, B, C$, a *composition* operation: given $f : A \to B$ and $g : B \to C$, their composite $g \circ f : A \to C$
 - For each object $A$, an *identity morphism* $\mathsf{id}_A : A \to A$
 
@@ -43,7 +43,7 @@ So a monoid is a category with one object. And a group is a one-object category 
 
 **Discrete category.** For any set $S$, the *discrete* category on $S$ has elements of $S$ as objects and only identity morphisms (no non-identity morphisms). Composition is trivial.
 
-**Opposite category.** For any category $\mathcal{C}$, the *opposite* $\mathcal{C}^{op}$ has the same objects but reversed morphisms: $\mathsf{Hom}_{\mathcal{C}^{op}}(A, B) = \mathsf{Hom}_\mathcal{C}(B, A)$. Composition reverses too: $f \circ_{op} g = g \circ f$.
+**Opposite category.** For any category $\mathcal{C}$, the *opposite* $\mathcal{C}^{op}$ has the same objects but reversed morphisms: $\mathsf{Hom}_{\mathcal{C}^{op}}(A, B) = \mathsf{Hom}_{\mathcal{C}}(B, A)$. Composition reverses too: $f \circ_{op} g = g \circ f$.
 
 The opposite category is why category theory has a *duality principle*: every theorem has a dual obtained by reversing all arrows. For example, the dual of "products" is "coproducts."
 
@@ -99,7 +99,7 @@ The functoriality of $\pi_1$ is central to algebraic topology: $\pi_1(f \circ g)
 
 Functors are the structure-preserving maps for categories. Just as group homomorphisms preserve group operations and continuous maps preserve topology, functors preserve categorical structure: composition and identities.
 
-This leads to the category of all (small) categories, $\mathbf{Cat}$, where objects are categories and morphisms are functors. This is a well-defined category: functor composition is associative (since function composition is), and the identity functor $\mathsf{Id}_\mathcal{C}$ is the identity morphism.
+This leads to the category of all (small) categories, $\mathbf{Cat}$, where objects are categories and morphisms are functors. This is a well-defined category: functor composition is associative (since function composition is), and the identity functor $\mathsf{Id}_{\mathcal{C}}$ is the identity morphism.
 
 **Fully faithful functors.** A functor $F : \mathcal{C} \to \mathcal{D}$ is:
 - *Full* if $F : \mathsf{Hom}(A, B) \to \mathsf{Hom}(F(A), F(B))$ is surjective for all $A, B$

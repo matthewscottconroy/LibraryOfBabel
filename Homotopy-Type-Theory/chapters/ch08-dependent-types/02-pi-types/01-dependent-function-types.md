@@ -112,7 +112,7 @@ One subtle aspect of dependent types: when you pattern-match on an element of an
 
 For example, to define a function by recursion on $\mathbb{N}$ with a dependent return type:
 
-$$\mathsf{rec}_\mathbb{N} : \prod_{P : \mathbb{N} \to \mathsf{Type}} P(0) \to \left(\prod_{n:\mathbb{N}} P(n) \to P(\mathsf{succ}(n))\right) \to \prod_{n:\mathbb{N}} P(n)$$
+$$\mathsf{rec}_{\mathbb{N}} : \prod_{P : \mathbb{N} \to \mathsf{Type}} P(0) \to \left(\prod_{n:\mathbb{N}} P(n) \to P(\mathsf{succ}(n))\right) \to \prod_{n:\mathbb{N}} P(n)$$
 
 The first argument $P : \mathbb{N} \to \mathsf{Type}$ is the *motive* — the type family you want to produce. The recursor then has two cases: a base case in $P(0)$ and an inductive step taking you from $P(n)$ to $P(\mathsf{succ}(n))$, producing a function $\prod_{n:\mathbb{N}} P(n)$.
 

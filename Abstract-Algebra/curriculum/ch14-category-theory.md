@@ -23,7 +23,7 @@
 
 A **category** $\mathcal{C}$ consists of:
 - A collection of **objects**: $\mathrm{ob}(\mathcal{C})$
-- For each pair $A, B \in \mathrm{ob}(\mathcal{C})$, a set of **morphisms** $\mathrm{Hom}_\mathcal{C}(A, B)$
+- For each pair $A, B \in \mathrm{ob}(\mathcal{C})$, a set of **morphisms** $\mathrm{Hom}_{\mathcal{C}}(A, B)$
 - **Composition**: $\mathrm{Hom}(B, C) \times \mathrm{Hom}(A, B) \to \mathrm{Hom}(A, C)$, $(g, f) \mapsto g \circ f$
 - **Identity morphisms**: $\mathrm{id}_A \in \mathrm{Hom}(A, A)$
 
@@ -73,7 +73,7 @@ This is a **covariant** functor. A **contravariant** functor reverses arrows: $F
 
 | Functor | Domain | Codomain | What it does |
 |---------|--------|----------|--------------|
-| Free group $F$ | **Set** | **Grp** | $S \mapsto $ free group on $S$ |
+| Free group $F$ | **Set** | **Grp** | $S \mapsto$ free group on $S$ |
 | Forgetful $U$ | **Grp** | **Set** | $(G, \cdot) \mapsto G$ (forget structure) |
 | Abelianization | **Grp** | **Ab** | $G \mapsto G/[G,G]$ |
 | $- \otimes_R M$ | $R$-**Mod** | $R$-**Mod** | Tensor with $M$ |
@@ -115,7 +115,7 @@ Natural transformations capture "canonical" maps — maps that don't depend on a
 ### 14.4.1 Representable Functors
 
 For each $A \in \mathcal{C}$, define the **hom-functor**:
-$$\mathrm{h}^A = \mathrm{Hom}_\mathcal{C}(A, -): \mathcal{C} \to \mathbf{Set}, \quad B \mapsto \mathrm{Hom}_\mathcal{C}(A, B)$$
+$$\mathrm{h}^A = \mathrm{Hom}_{\mathcal{C}}(A, -): \mathcal{C} \to \mathbf{Set}, \quad B \mapsto \mathrm{Hom}_{\mathcal{C}}(A, B)$$
 
 A functor $F: \mathcal{C} \to \mathbf{Set}$ is **representable** if $F \cong \mathrm{h}^A$ for some $A$.
 
@@ -138,7 +138,7 @@ Natural transformations from $\mathrm{h}^A$ to $F$ correspond bijectively to ele
 
 Functors $F: \mathcal{C} \to \mathcal{D}$ and $G: \mathcal{D} \to \mathcal{C}$ are **adjoint** ($F \dashv G$, $F$ is left adjoint to $G$) if:
 
-$$\mathrm{Hom}_\mathcal{D}(F(A), B) \cong \mathrm{Hom}_\mathcal{C}(A, G(B))$$
+$$\mathrm{Hom}_{\mathcal{D}}(F(A), B) \cong \mathrm{Hom}_{\mathcal{C}}(A, G(B))$$
 
 naturally in $A \in \mathcal{C}$ and $B \in \mathcal{D}$.
 
@@ -156,8 +156,8 @@ naturally in $A \in \mathcal{C}$ and $B \in \mathcal{D}$.
 ### 14.5.3 Unit and Counit
 
 Every adjunction $F \dashv G$ has:
-- A **unit** $\eta: \mathrm{Id}_\mathcal{C} \Rightarrow G \circ F$ (natural transformation)
-- A **counit** $\varepsilon: F \circ G \Rightarrow \mathrm{Id}_\mathcal{D}$
+- A **unit** $\eta: \mathrm{Id}_{\mathcal{C}} \Rightarrow G \circ F$ (natural transformation)
+- A **counit** $\varepsilon: F \circ G \Rightarrow \mathrm{Id}_{\mathcal{D}}$
 
 satisfying triangle identities: $(G\varepsilon) \circ (\eta G) = \mathrm{id}_G$ and $(\varepsilon F) \circ (F\eta) = \mathrm{id}_F$.
 

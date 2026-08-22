@@ -18,4 +18,4 @@ The general $(p,q)$-Collatz maps are interesting objects in their own right. For
 
 The symbolic representation converts the Collatz conjecture into a statement about parity sequences: every Collatz orbit eventually enters one of the two known cycles. But analyzing parity sequences turns out to be just as hard as the original conjecture — the sequences are deterministic and complicated.
 
-What makes this connection to symbolic dynamics useful is that it allows techniques from shift spaces and substitution systems to be brought to bear. The Collatz shift — the set of all parity sequences of Collatz orbits — is a closed shift-invariant subset of $\{0,1\}^\mathbb{N}$, and understanding its topological properties might give insight into the conjecture.
+What makes this connection to symbolic dynamics useful is that it allows techniques from shift spaces and substitution systems to be brought to bear. The Collatz shift — the set of all parity sequences of Collatz orbits — is a closed shift-invariant subset of $\{0,1\}^{\mathbb{N}}$, and understanding its topological properties might give insight into the conjecture.

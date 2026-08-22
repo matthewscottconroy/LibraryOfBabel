@@ -93,7 +93,7 @@ This completes the proof that $\Phi$ and $\Psi$ are mutual inverses. $\square$
 
 **Corollary.** The Yoneda embedding $\mathbf{y} : \mathcal{C} \to [\mathcal{C}^{op}, \mathbf{Set}]$ is fully faithful:
 
-$$\mathsf{Hom}_\mathcal{C}(A, B) \cong [\mathcal{C}^{op}, \mathbf{Set}](\mathbf{y}(A), \mathbf{y}(B))$$
+$$\mathsf{Hom}_{\mathcal{C}}(A, B) \cong [\mathcal{C}^{op}, \mathbf{Set}](\mathbf{y}(A), \mathbf{y}(B))$$
 
 naturally in $A$ and $B$.
 

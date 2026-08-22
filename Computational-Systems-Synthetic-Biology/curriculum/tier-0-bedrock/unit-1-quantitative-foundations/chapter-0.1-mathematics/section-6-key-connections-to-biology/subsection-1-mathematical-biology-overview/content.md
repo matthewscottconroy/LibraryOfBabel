@@ -74,7 +74,7 @@ Dimensional consistency is a necessary (though not sufficient) condition for mod
 | mRNA copy number | $1 - 10^3$ per cell |
 | Transcription rate | $1 - 100$ mRNA/gene/hour |
 | Translation rate | $1 - 10$ proteins/mRNA/min |
-| Protein half-life | $20 \text{ min} - $ hours (bacteria); hours - days (eukaryotes) |
+| Protein half-life | $20 \text{ min} -$ hours (bacteria); hours - days (eukaryotes) |
 | Cell doubling time (*E. coli*) | $20 - 60$ min |
 | Transcription factor binding | $K_d \sim 1 - 100$ nM |
 | Diffusion coefficient (protein) | $\sim 1 - 10\ \mu\text{m}^2/\text{s}$ |

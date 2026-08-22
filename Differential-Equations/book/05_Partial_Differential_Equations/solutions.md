@@ -66,7 +66,7 @@ $\frac{\cos(x-2t)+\cos(x+2t)}{2} = \frac{2\cos x\cos 2t}{2} = \cos x\cos 2t$ (pr
 
 $\frac{1}{4}\int_{x-2t}^{x+2t}\sin s\,ds = \frac{1}{4}[-\cos s]_{x-2t}^{x+2t} = \frac{1}{4}(-\cos(x+2t)+\cos(x-2t))$.
 
-$= \frac{1}{4}(2\sin x\sin 2t\cdot(-2)) $... let me be careful:
+$= \frac{1}{4}(2\sin x\sin 2t\cdot(-2))$... let me be careful:
 
 $-\cos(x+2t)+\cos(x-2t) = -[\cos x\cos 2t - \sin x\sin 2t] + [\cos x\cos 2t + \sin x\sin 2t] = 2\sin x\sin 2t$.
 

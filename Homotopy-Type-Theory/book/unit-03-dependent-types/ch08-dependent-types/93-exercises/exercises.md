@@ -75,7 +75,7 @@ and then say: what is the correct type for f, and at which universe level does �
 ## Section 5: Inductive Types
 
 **22.** Compute the normal form of the following (ℕ defined inductively with ind_ℕ):
-$$\mathsf{ind}_\mathbb{N}(\lambda n.\, \mathbb{N},\ 0,\ \lambda n\, r.\, n + r,\ \mathsf{succ}(\mathsf{succ}(\mathsf{zero})))$$
+$$\mathsf{ind}_{\mathbb{N}}(\lambda n.\, \mathbb{N},\ 0,\ \lambda n\, r.\, n + r,\ \mathsf{succ}(\mathsf{succ}(\mathsf{zero})))$$
 
 **23.** Define multiplication of natural numbers using ind_ℕ. Specify C, c_z, and c_s explicitly.
 

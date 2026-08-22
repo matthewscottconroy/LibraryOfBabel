@@ -39,7 +39,7 @@ If the input sequence $u$ is drawn from a stationary ergodic process with measur
 **Definition 29.2 (Stationary Measure for Driven Reservoir).** A probability measure $\mu$ on $\mathbb{R}^N$ is **stationary** for the driven reservoir if it is invariant under the expected action of $F$:
 
 $$
-\mu(A) = \mathbb{E}_u[F(\cdot, u)_* \mu](A) = \int_\mathcal{U} \mu(F(\cdot, u)^{-1}A)\,\mathbb{P}_u(du), \quad \forall A \in \mathcal{B}(\mathbb{R}^N).
+\mu(A) = \mathbb{E}_u[F(\cdot, u)_* \mu](A) = \int_{\mathcal{U}} \mu(F(\cdot, u)^{-1}A)\,\mathbb{P}_u(du), \quad \forall A \in \mathcal{B}(\mathbb{R}^N).
 $$
 
 In words: if the reservoir state $\mathbf{x}$ is distributed according to $\mu$ and the input $u$ is drawn from its marginal distribution, then the next reservoir state $F(\mathbf{x}, u)$ is also distributed according to $\mu$.

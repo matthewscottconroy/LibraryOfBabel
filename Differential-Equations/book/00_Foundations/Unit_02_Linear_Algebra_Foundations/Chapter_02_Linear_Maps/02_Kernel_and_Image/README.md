@@ -22,9 +22,9 @@ The **nullity** of $T$ is $\text{null}(T) = \dim \ker T$, and the **rank** of $T
 
 **Differentiation $D: P_n \to P_{n-1}$.** $D(p) = p'$. $\ker D = \{p \in P_n : p' = 0\} = \{c : c \in \mathbb{R}\} = P_0$ (the constant polynomials, 1-dimensional). $\text{im}\, D = P_{n-1}$ (every polynomial of degree $\leq n-1$ is the derivative of some element of $P_n$).
 
-**Differentiation $D: C^1(I) \to C(I)$.** $\ker D = $ constants. $\text{im}\, D = C(I)$ (every continuous function is the derivative of its antiderivative, by FTC).
+**Differentiation $D: C^1(I) \to C(I)$.** $\ker D =$ constants. $\text{im}\, D = C(I)$ (every continuous function is the derivative of its antiderivative, by FTC).
 
-**The ODE operator $L[y] = y'' + py' + qy$ on $C^2(I)$.** $\ker L = $ solution space of $L[y] = 0$ (2-dimensional). $\text{im}\, L$ is a subspace of $C(I)$; the equation $L[y] = f$ has a solution iff $f \in \text{im}\, L$.
+**The ODE operator $L[y] = y'' + py' + qy$ on $C^2(I)$.** $\ker L =$ solution space of $L[y] = 0$ (2-dimensional). $\text{im}\, L$ is a subspace of $C(I)$; the equation $L[y] = f$ has a solution iff $f \in \text{im}\, L$.
 
 ## Injectivity and Surjectivity
 
@@ -53,9 +53,9 @@ This is the linear algebra formulation of "general solution = particular solutio
 ## Kernel and Image for Matrices
 
 For an $m \times n$ matrix $A$:
-- $\ker A = $ null space of $A$ = solutions to $Ax = 0 \subseteq \mathbb{R}^n$.
-- $\text{im}\, A = $ column space of $A$ = $\text{span}(\text{columns of }A) \subseteq \mathbb{R}^m$.
-- $\text{rank}(A) = $ number of pivot columns in row-reduced form = $\dim \text{im}\, A$.
+- $\ker A =$ null space of $A$ = solutions to $Ax = 0 \subseteq \mathbb{R}^n$.
+- $\text{im}\, A =$ column space of $A$ = $\text{span}(\text{columns of }A) \subseteq \mathbb{R}^m$.
+- $\text{rank}(A) =$ number of pivot columns in row-reduced form = $\dim \text{im}\, A$.
 - $\text{null}(A) = n - \text{rank}(A)$ (by Rank-Nullity Theorem, next section).
 
 The equation $Ax = b$ has a solution iff $b \in \text{im}\, A$ (i.e., $b$ is in the column space). The solution is unique iff $\ker A = \{\mathbf{0}\}$, i.e., $\text{null}(A) = 0$.

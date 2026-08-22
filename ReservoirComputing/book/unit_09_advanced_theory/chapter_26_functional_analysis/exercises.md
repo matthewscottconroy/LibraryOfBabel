@@ -28,7 +28,7 @@
 
 **Exercise 26.9.** *(Delay-line reservoir realization)* Let $P(\mathbf{u}) = \sum_{k=0}^{N-1} a_k u_{-k} + \sum_{k,\ell=0}^{N-1} b_{k\ell} u_{-k} u_{-\ell}$ be a degree-2 polynomial functional depending on $N$ time steps. Write down explicitly a reservoir computer (specifying $W_{\text{res}}, W_{\text{in}}, W_{\text{out}}$, and the activation function) that exactly computes $P$. How many reservoir units are required?
 
-**Exercise 26.10.** *(Fading memory and stability)* Suppose a reservoir is driven by input $\mathbf{u}$ and has state $x(t) \in \mathbb{R}^N$. The functional $H(\mathbf{u}) = $ (the asymptotic state $x(0)$ as a function of the past inputs) has the fading memory property if and only if the reservoir is globally uniformly asymptotically stable (the state forgets its initial conditions). Make this equivalence precise and prove one direction.
+**Exercise 26.10.** *(Fading memory and stability)* Suppose a reservoir is driven by input $\mathbf{u}$ and has state $x(t) \in \mathbb{R}^N$. The functional $H(\mathbf{u}) =$ (the asymptotic state $x(0)$ as a function of the past inputs) has the fading memory property if and only if the reservoir is globally uniformly asymptotically stable (the state forgets its initial conditions). Make this equivalence precise and prove one direction.
 
 ## Section 26.5: Approximation Rates
 

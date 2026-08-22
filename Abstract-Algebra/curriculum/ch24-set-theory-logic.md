@@ -101,7 +101,7 @@ A **cardinal** $\kappa$ is an ordinal that is not bijective with any smaller ord
 
 Cardinals: $0, 1, 2, \ldots, \aleph_0, \aleph_1, \aleph_2, \ldots, \aleph_\omega, \ldots$
 
-$\aleph_0 = |\mathbb{N}|$, $\aleph_1 = $ smallest uncountable cardinal, etc.
+$\aleph_0 = |\mathbb{N}|$, $\aleph_1 =$ smallest uncountable cardinal, etc.
 
 **Cardinal arithmetic:**
 - $\kappa + \lambda = |\kappa \sqcup \lambda|$
@@ -163,7 +163,7 @@ Large cardinal axioms imply consistency of many weaker theories. Their study is 
 ### 24.5.1 Transfinite Recursion
 
 Define functions on ordinals by:
-- $f(0) = $ initial value
+- $f(0) =$ initial value
 - $f(\alpha+1) = g(f(\alpha))$ (successor step)
 - $f(\lambda) = h(\{f(\beta) \mid \beta < \lambda\})$ (limit step)
 

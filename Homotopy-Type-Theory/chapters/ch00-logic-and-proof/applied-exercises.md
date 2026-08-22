@@ -10,7 +10,7 @@ The logical structures introduced in this chapter — propositional connectives,
 **Setup:** Digital circuits are built from logic gates — physical devices that compute Boolean functions. A NAND gate computes $\neg(P \wedge Q)$: it outputs 0 (false) only when both inputs are 1 (true). The claim is that NAND gates alone can implement any Boolean function — a property called *functional completeness*. This is why real hardware can be (and historically was) built entirely from a single gate type.
 
 **Questions:**
-1. Using only NAND gates (i.e., only the connective $\nand(P,Q) = \neg(P \wedge Q)$), express $\neg P$, $(P \wedge Q)$, and $(P \vee Q)$ as formulas built from NAND. Verify each using truth tables.
+1. Using only NAND gates (i.e., only the connective $\mathrm{NAND}(P,Q) = \neg(P \wedge Q)$), express $\neg P$, $(P \wedge Q)$, and $(P \vee Q)$ as formulas built from NAND. Verify each using truth tables.
 2. Using the connectives $\{\neg, \wedge, \vee\}$ as primitives, construct the *exclusive or* (XOR) connective $P \oplus Q$, defined as: $P \oplus Q$ is true iff exactly one of $P$, $Q$ is true. Write a truth table and give a formula.
 3. Prove by structural induction that every Boolean function $f : \{0,1\}^n \to \{0,1\}$ can be expressed as a propositional formula using only $\{\neg, \wedge, \vee\}$. (*Hint:* the disjunctive normal form argument — what is the base case? What is the inductive step when you add a new variable?)
 

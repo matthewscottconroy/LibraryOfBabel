@@ -43,7 +43,7 @@ The Schrödinger picture evolves states and keeps operators fixed. The **Heisenb
 
 $$\hat{A}_H(t) = \hat{U}^\dagger(t)\,\hat{A}\,\hat{U}(t), \qquad \frac{d\hat{A}_H}{dt} = \frac{i}{\hbar}[\hat{H}, \hat{A}_H]$$
 
-All predictions — expectation values, probabilities, correlations — are identical: $\langle\psi(t)|\hat{A}|\psi(t)\rangle = \langle\psi(0)|\hat{A}_H(t)|\psi(0)\rangle$. Quantum optics lives mostly in the Heisenberg picture, for a practical reason: field states like coherent or squeezed states are unwieldy, while mode operators transform *simply* through optical elements. "The beam splitter maps $\hat{a} \to (\hat{a} + i\hat{b})/\sqrt{2}$" is one line in the Heisenberg picture (Section 18.2.1); the equivalent Schrödinger statement acts on an infinite-dimensional state space. Correlation functions such as $g^{(2)}(\tau) $ (Section 18.1) are defined directly as Heisenberg-picture operator products at two times.
+All predictions — expectation values, probabilities, correlations — are identical: $\langle\psi(t)|\hat{A}|\psi(t)\rangle = \langle\psi(0)|\hat{A}_H(t)|\psi(0)\rangle$. Quantum optics lives mostly in the Heisenberg picture, for a practical reason: field states like coherent or squeezed states are unwieldy, while mode operators transform *simply* through optical elements. "The beam splitter maps $\hat{a} \to (\hat{a} + i\hat{b})/\sqrt{2}$" is one line in the Heisenberg picture (Section 18.2.1); the equivalent Schrödinger statement acts on an infinite-dimensional state space. Correlation functions such as $g^{(2)}(\tau)$ (Section 18.1) are defined directly as Heisenberg-picture operator products at two times.
 
 ## Closed versus Open: Where Unitarity Ends
 

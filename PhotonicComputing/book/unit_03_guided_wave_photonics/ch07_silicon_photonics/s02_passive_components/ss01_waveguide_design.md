@@ -8,7 +8,7 @@ Silicon waveguide propagation loss has three contributions at 1550 nm:
 
 2. **Two-photon absorption (TPA)**: $\beta_{TPA} \approx 5 \times 10^{-12}$ m/W. For $P = 10$ mW in a 450 nm strip ($A_{eff} = 0.14$ μm²): intensity $I = P/A_{eff} = 71$ MW/cm². TPA loss $\alpha_{TPA} = \beta_{TPA} I = 0.36$ cm$^{-1}$ = 1.5 dB/cm. This limits silicon photonic circuits to <10 mW per waveguide for TPA not to dominate over roughness loss.
 
-3. **Free-carrier absorption**: TPA generates electron-hole pairs that absorb light. In undoped waveguides, the carrier density due to TPA is $\Delta N = \beta_{TPA} I^2 \tau/(2\hbar\omega) $ where $\tau$ is carrier lifetime (~1 ns in undoped Si). For 10 mW: $\Delta N \approx 10^{14}$ cm$^{-3}$ → $\Delta\alpha_{FC} \approx 8.5 \times 10^{-18} \Delta N \approx 8.5 \times 10^{-4}$ cm$^{-1}$ — negligible. But for 100 mW: $\Delta N \approx 10^{16}$ cm$^{-3}$ → $\Delta\alpha_{FC} \approx 0.085$ cm$^{-1}$ = 0.37 dB/cm — significant.
+3. **Free-carrier absorption**: TPA generates electron-hole pairs that absorb light. In undoped waveguides, the carrier density due to TPA is $\Delta N = \beta_{TPA} I^2 \tau/(2\hbar\omega)$ where $\tau$ is carrier lifetime (~1 ns in undoped Si). For 10 mW: $\Delta N \approx 10^{14}$ cm$^{-3}$ → $\Delta\alpha_{FC} \approx 8.5 \times 10^{-18} \Delta N \approx 8.5 \times 10^{-4}$ cm$^{-1}$ — negligible. But for 100 mW: $\Delta N \approx 10^{16}$ cm$^{-3}$ → $\Delta\alpha_{FC} \approx 0.085$ cm$^{-1}$ = 0.37 dB/cm — significant.
 
 **Design rule for loss**: Keep power < 5–10 mW per waveguide to stay roughness-limited. Above this, TPA and free-carrier absorption add significant excess loss.
 

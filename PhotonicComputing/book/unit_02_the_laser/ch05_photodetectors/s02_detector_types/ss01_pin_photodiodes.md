@@ -30,7 +30,7 @@ When a photon with $\hbar\omega > E_g$ is absorbed in the intrinsic layer, an el
 
 For analog photonic computing, linearity of $I_{ph}$ vs. $P_{in}$ is critical. p-i-n photodiodes are highly linear over many orders of magnitude:
 
-- **Low power**: Shot noise limited, but the responsivity is constant: $\mathcal{R} = $ const
+- **Low power**: Shot noise limited, but the responsivity is constant: $\mathcal{R} =$ const
 - **High power**: Saturation occurs when the space-charge of the photogenerated carriers screens the internal electric field, reducing sweep-out velocity. The 1-dB compression point (where responsivity drops by 1 dB from small-signal value) is typically at photocurrents of 10–100 mA for standard detectors.
 
 For photonic matrix processors operating at powers of 0.1–10 mW, corresponding to photocurrents of 0.1–10 mA, standard p-i-n detectors remain in the linear regime. The nonlinearity-induced precision loss is negligible compared to shot noise and thermal noise.

@@ -58,7 +58,7 @@ If $\rho$ is the fluid density and $\mathbf{v}$ the velocity field, the mass flu
 
 $$\dot{M} = \iint_S\mathbf{J}\cdot d\mathbf{S} = \iint_S\rho\mathbf{v}\cdot\hat{\mathbf{n}}\,dS.$$
 
-For an incompressible fluid ($\rho = $ const, $\nabla\cdot\mathbf{v} = 0$), the net mass flow rate through any closed surface is zero: as much fluid enters as leaves.
+For an incompressible fluid ($\rho =$ const, $\nabla\cdot\mathbf{v} = 0$), the net mass flow rate through any closed surface is zero: as much fluid enters as leaves.
 
 For a compressible fluid, the continuity equation $\partial\rho/\partial t + \nabla\cdot(\rho\mathbf{v}) = 0$ (mass conservation) relates the time rate of change of mass inside a volume to the flux through its boundary:
 

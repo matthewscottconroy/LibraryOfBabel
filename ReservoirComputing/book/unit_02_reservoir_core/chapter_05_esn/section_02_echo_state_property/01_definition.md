@@ -22,11 +22,11 @@ This is the essential requirement. When it holds, the reservoir state at time $t
 
 We follow the formalization of [Jaeger2001] and the rigorous treatment in [Yildiz2012].
 
-Let $\mathcal{U} \subseteq \mathbb{R}^K$ be the (compact) input space and let $\mathcal{U}^\mathbb{Z}$ denote the space of bi-infinite input sequences. For a reservoir map $F: \mathbb{R}^N \times \mathcal{U} \to \mathbb{R}^N$, define the **driven state trajectory** starting from initial state $x$ under input sequence $\mathbf{u}$:
+Let $\mathcal{U} \subseteq \mathbb{R}^K$ be the (compact) input space and let $\mathcal{U}^{\mathbb{Z}}$ denote the space of bi-infinite input sequences. For a reservoir map $F: \mathbb{R}^N \times \mathcal{U} \to \mathbb{R}^N$, define the **driven state trajectory** starting from initial state $x$ under input sequence $\mathbf{u}$:
 
 $$X_t(\mathbf{u}, x) = F(X_{t-1}(\mathbf{u}, x); u_t), \quad X_0(\mathbf{u}, x) = x$$
 
-**Definition 2.1 (Echo State Property).** The reservoir map $F$ has the **echo state property** with respect to a compact input space $\mathcal{U}$ and a compact state space $\mathcal{X} \subseteq \mathbb{R}^N$ if for every input sequence $\mathbf{u} \in \mathcal{U}^\mathbb{Z}$ and every pair of initial states $x, x' \in \mathcal{X}$:
+**Definition 2.1 (Echo State Property).** The reservoir map $F$ has the **echo state property** with respect to a compact input space $\mathcal{U}$ and a compact state space $\mathcal{X} \subseteq \mathbb{R}^N$ if for every input sequence $\mathbf{u} \in \mathcal{U}^{\mathbb{Z}}$ and every pair of initial states $x, x' \in \mathcal{X}$:
 
 $$\lim_{t \to \infty} \|X_t(\mathbf{u}, x) - X_t(\mathbf{u}, x')\| = 0 \tag{2.3}$$
 
@@ -36,7 +36,7 @@ In words: the reservoir **forgets its initial conditions**. No matter where you 
 
 ## 2.3 The Echo Function
 
-When the ESP holds, something remarkable follows. For any input sequence $\mathbf{u} \in \mathcal{U}^\mathbb{Z}$, the limit:
+When the ESP holds, something remarkable follows. For any input sequence $\mathbf{u} \in \mathcal{U}^{\mathbb{Z}}$, the limit:
 
 $$\bar{x}_t(\mathbf{u}) = \lim_{s \to \infty} X_t(\mathbf{u}_{(-\infty, t]}, x) \tag{2.4}$$
 
@@ -142,7 +142,7 @@ This is the spectral norm condition for the ESP. Note that it is *sufficient but
 
 The echo state property is intimately connected to the concept of **fading memory**, formalized by Boyd and Chua [BoydChua1985] in the context of analog signal processing.
 
-**Definition 2.3 (Fading Memory Property).** A causal time-invariant operator $H : \mathcal{U}^\mathbb{Z} \to \mathcal{Y}^\mathbb{Z}$ has the **fading memory property** if for any $\epsilon > 0$, there exists a weighting sequence $w_k > 0$ with $w_k \to \infty$ such that for any two input sequences $\mathbf{u}, \mathbf{u}'$ satisfying:
+**Definition 2.3 (Fading Memory Property).** A causal time-invariant operator $H : \mathcal{U}^{\mathbb{Z}} \to \mathcal{Y}^{\mathbb{Z}}$ has the **fading memory property** if for any $\epsilon > 0$, there exists a weighting sequence $w_k > 0$ with $w_k \to \infty$ such that for any two input sequences $\mathbf{u}, \mathbf{u}'$ satisfying:
 
 $$\sup_{k \geq 0} w_k |u_{t-k} - u'_{t-k}| < \delta$$
 
@@ -162,7 +162,7 @@ The difference in the echo states is bounded by $\gamma^T$ times the diameter of
 
 ## 2.8 The ESP as a Uniformity Condition
 
-A subtle but important point: the ESP as defined in (2.3) requires convergence for **all** input sequences $\mathbf{u} \in \mathcal{U}^\mathbb{Z}$. This is a uniformity condition. There exist reservoirs where the ESP holds for some inputs but not others — for example, a reservoir with $\rho(W^{rec}) > 1$ might satisfy the ESP for small-amplitude inputs (where the reservoir operates in the linear regime near zero) but violate it for large-amplitude inputs.
+A subtle but important point: the ESP as defined in (2.3) requires convergence for **all** input sequences $\mathbf{u} \in \mathcal{U}^{\mathbb{Z}}$. This is a uniformity condition. There exist reservoirs where the ESP holds for some inputs but not others — for example, a reservoir with $\rho(W^{rec}) > 1$ might satisfy the ESP for small-amplitude inputs (where the reservoir operates in the linear regime near zero) but violate it for large-amplitude inputs.
 
 The standard definition (2.3) over a compact $\mathcal{U}$ handles this correctly: the ESP must hold for all bounded inputs simultaneously. This is why the compactness of $\mathcal{U}$ appears in the definition — it ensures a uniform bound on input magnitude, which is necessary for the contraction argument to apply uniformly.
 

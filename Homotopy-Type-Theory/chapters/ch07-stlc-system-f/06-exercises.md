@@ -10,7 +10,7 @@
 
 (c) $\lambda x. x\, x$ (self-application)
 
-(d) $\lambda f : A \to A. \lambda n : \mathbb{N}. \mathsf{rec}_\mathbb{N}(\lambda\_. A, \text{base}, \lambda k. \lambda r. f\, r, n)$
+(d) $\lambda f : A \to A. \lambda n : \mathbb{N}. \mathsf{rec}_{\mathbb{N}}(\lambda\_. A, \text{base}, \lambda k. \lambda r. f\, r, n)$
 
 ---
 

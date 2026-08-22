@@ -128,7 +128,7 @@ Show that $\mathsf{happly}(\mathsf{refl}_f)(x) = \mathsf{refl}_{f(x)}$ for any $
 
 **Exercise 5.5 (Paths in ℕ).**
 Show that the identity type on $\mathbb{N}$ is "discrete": for any $m, n : \mathbb{N}$:
-- $m =_\mathbb{N} n$ is a proposition (at most one element)
+- $m =_{\mathbb{N}} n$ is a proposition (at most one element)
 - Equality of natural numbers is decidable
 
 This uses the fact that $\mathbb{N}$ is a set (h-level 0), which we'll prove in Chapter 17 using the path characterization of $\mathbb{N}$ via its inductive structure.

@@ -28,7 +28,7 @@ An orthogonal set $\{f_n\}$ in a Hilbert space $H$ is **complete** (also called 
 
 **Theorem (Completeness of the Trigonometric System).** The trigonometric system is complete in $L^2([-\pi, \pi])$. That is, if $f \in L^2([-\pi, \pi])$ satisfies $\int_{-\pi}^\pi f(x)\cos(nx)\,dx = 0$ and $\int_{-\pi}^\pi f(x)\sin(nx)\,dx = 0$ for all $n \geq 0$, then $f = 0$ a.e.
 
-This theorem is typically proved via the Weierstrass approximation theorem (continuous functions on $[-\pi, \pi]$ can be uniformly approximated by trigonometric polynomials) combined with a density argument. The completeness is what allows us to write $f = \sum c_n f_n$ (in $L^2$) rather than merely $f = \langle f, f_n\rangle / \|f_n\|^2 + $ some unexplained remainder.
+This theorem is typically proved via the Weierstrass approximation theorem (continuous functions on $[-\pi, \pi]$ can be uniformly approximated by trigonometric polynomials) combined with a density argument. The completeness is what allows us to write $f = \sum c_n f_n$ (in $L^2$) rather than merely $f = \langle f, f_n\rangle / \|f_n\|^2 +$ some unexplained remainder.
 
 ## Classical Families of Orthogonal Polynomials
 

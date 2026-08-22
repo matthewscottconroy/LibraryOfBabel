@@ -79,7 +79,7 @@ The **Morris method** (also called Elementary Effects method) provides a computa
 
 1. Sample $r$ trajectories through parameter space; each trajectory changes one parameter at a time by a fixed step $\Delta$.
 2. Compute the elementary effect of parameter $j$ for each trajectory: $EE_j = (y(\ldots, \theta_j + \Delta, \ldots) - y(\ldots, \theta_j, \ldots)) / \Delta$.
-3. Summary statistics: $\mu^* = $ mean of $|EE_j|$ (overall importance); $\sigma = $ std of $EE_j$ (nonlinearity/interaction).
+3. Summary statistics: $\mu^* =$ mean of $|EE_j|$ (overall importance); $\sigma =$ std of $EE_j$ (nonlinearity/interaction).
 
 Parameters with high $\mu^*$ are influential. Parameters with high $\sigma$ have interactions with other parameters (their effect depends on what other parameters are set to).
 

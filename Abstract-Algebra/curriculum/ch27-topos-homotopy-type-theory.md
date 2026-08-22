@@ -209,7 +209,7 @@ The foundations of mathematics are not below algebra — they are beside it, int
 
 1. Look up the statement of Voevodsky's Milnor conjecture (now theorem). Identify which parts of this curriculum provide the necessary background vocabulary.
 
-2. In cubical type theory: what is the computational content of the proof that $\mathrm{Id}_\mathbb{N}(0, 1)$ is empty? (This should be a decision procedure.)
+2. In cubical type theory: what is the computational content of the proof that $\mathrm{Id}_{\mathbb{N}}(0, 1)$ is empty? (This should be a decision procedure.)
 
 3. Formulate what "the integers" look like in HoTT. What is $\pi_1(S^1)$ in HoTT? (It should be $\mathbb{Z}$.)
 
@@ -217,7 +217,7 @@ The foundations of mathematics are not below algebra — they are beside it, int
 
 5. Read the introduction of Lurie's "Higher Algebra" (freely available). Identify three ideas from this curriculum that appear and three that are new.
 
-6. The sphere spectrum $\mathbb{S}$ is called the "absolute base" ring. What is $\mathbb{S} \otimes_\mathbb{S} H\mathbb{Z}$? What does this say about the relationship between stable homotopy theory and classical algebra?
+6. The sphere spectrum $\mathbb{S}$ is called the "absolute base" ring. What is $\mathbb{S} \otimes_{\mathbb{S}} H\mathbb{Z}$? What does this say about the relationship between stable homotopy theory and classical algebra?
 
 7. Final capstone: Choose one of the following and write a 3-5 page outline of the mathematical content and why it requires the foundations built in this curriculum: (a) The local Langlands correspondence for $GL_2(\mathbb{Q}_p)$, (b) The geometric Satake equivalence, (c) Derived intersection theory in algebraic geometry, (d) Topological modular forms $\mathrm{TMF}$.
 

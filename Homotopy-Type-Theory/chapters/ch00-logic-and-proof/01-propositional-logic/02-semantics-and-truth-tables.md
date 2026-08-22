@@ -13,7 +13,7 @@ $$v : \{\text{atomic propositions}\} \to \{\mathbf{T}, \mathbf{F}\}$$
 
 Given a valuation, we extend it to all formulas recursively — this is the *semantic evaluation function*, often written $[\![\varphi]\!]_v$ or just $v(\varphi)$:
 
-- $v(P) = $ whatever $v$ assigns to the atom $P$
+- $v(P) =$ whatever $v$ assigns to the atom $P$
 - $v(\neg\varphi) = \mathbf{T}$ iff $v(\varphi) = \mathbf{F}$
 - $v(\varphi \wedge \psi) = \mathbf{T}$ iff $v(\varphi) = \mathbf{T}$ and $v(\psi) = \mathbf{T}$
 - $v(\varphi \vee \psi) = \mathbf{T}$ iff $v(\varphi) = \mathbf{T}$ or $v(\psi) = \mathbf{T}$ (or both)

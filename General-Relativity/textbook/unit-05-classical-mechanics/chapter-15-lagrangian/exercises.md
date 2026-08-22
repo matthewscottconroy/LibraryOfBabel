@@ -16,7 +16,7 @@
 
 The geodesic equation extremizes the length $\int \sqrt{g_{ij}\dot{q}^i\dot{q}^j}\,dt$ (equivalently, the energy $\int g_{ij}\dot{q}^i\dot{q}^j\,dt$).
 
-(a) For the metric on the sphere $S^2$: $ds^2 = d\theta^2 + \sin^2\theta\,d\phi^2$, write the Lagrangian $L = \dot\theta^2 + \sin^2\theta\,\dot\phi^2$ and derive the geodesic equations (the Euler-Lagrange equations). Show that great circles ($\phi = $ const) are solutions.
+(a) For the metric on the sphere $S^2$: $ds^2 = d\theta^2 + \sin^2\theta\,d\phi^2$, write the Lagrangian $L = \dot\theta^2 + \sin^2\theta\,\dot\phi^2$ and derive the geodesic equations (the Euler-Lagrange equations). Show that great circles ($\phi =$ const) are solutions.
 
 (b) For the flat metric in polar coordinates ($ds^2 = dr^2 + r^2\,d\phi^2$), derive the geodesic equations. Show that they are equivalent to straight lines in Cartesian coordinates.
 

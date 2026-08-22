@@ -7,7 +7,7 @@ Many data sources produce constrained sequences. Magnetic recording (hard drives
 **Application:** Many data sources produce constrained sequences — magnetic recording (runlength limited codes), DNA sequences (codon constraints), natural language (grammar constraints). Modeling these as subshifts allows optimal compression.
 
 **Rate-Constrained Coding:** Given a source $\mu$ on alphabet $\mathcal{A}$ and a constraint (subshift $X \subseteq \mathcal{B}^{\mathbb Z}$), we want to code the source into $X$. The achievable rate is:
-$$R = \frac{h_\mu(\sigma_\mathcal{A})}{h_{\text{top}}(X)} \text{ input symbols per output symbol}.$$
+$$R = \frac{h_\mu(\sigma_{\mathcal{A}})}{h_{\text{top}}(X)} \text{ input symbols per output symbol}.$$
 
 This formula has a clean interpretation: you need $h_\mu$ bits per source symbol, and each constrained output symbol can carry up to $h_{\text{top}}(X)$ bits. The ratio $R$ is how many source symbols you can pack per channel symbol.
 

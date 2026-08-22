@@ -50,8 +50,8 @@ A **Cartan subalgebra** (CSA) $\mathfrak{h} \subseteq \mathfrak{g}$ is a nilpote
 **Key fact:** For semisimple $\mathfrak{g}$, CSAs are abelian and all CSAs are conjugate.
 
 **Examples:**
-- For $\mathfrak{sl}_n$: $\mathfrak{h} = $ diagonal matrices with trace 0
-- For $\mathfrak{so}_{2n}$: $\mathfrak{h} = $ block diagonal $2 \times 2$ rotation generators
+- For $\mathfrak{sl}_n$: $\mathfrak{h} =$ diagonal matrices with trace 0
+- For $\mathfrak{so}_{2n}$: $\mathfrak{h} =$ block diagonal $2 \times 2$ rotation generators
 
 The **rank** of $\mathfrak{g}$ is $r = \dim \mathfrak{h}$.
 
@@ -112,7 +112,7 @@ Choose a hyperplane not meeting $\Phi$; call roots on one side **positive** ($\P
 
 **Simple roots** $\Delta \subseteq \Phi^+$: the positive roots that cannot be written as sums of other positive roots.
 
-$|\Delta| = \dim V = $ rank of the root system.
+$|\Delta| = \dim V =$ rank of the root system.
 
 Every positive root is a non-negative integer linear combination of simple roots.
 

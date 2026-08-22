@@ -8,7 +8,7 @@ The idea is this: two points in a dynamical system are "distinguishable" up to t
 
 A set $E \subseteq X$ is $(n, \varepsilon)$-*separated* if for all distinct $x, y \in E$: $\max_{0 \leq k \leq n-1} d(f^k(x), f^k(y)) > \varepsilon$.
 
-Let $s_n(\varepsilon) = $ maximum size of an $(n, \varepsilon)$-separated set. The *topological entropy* is:
+Let $s_n(\varepsilon) =$ maximum size of an $(n, \varepsilon)$-separated set. The *topological entropy* is:
 $$h_{\text{top}}(f) = \lim_{\varepsilon \to 0} \limsup_{n\to\infty} \frac{1}{n}\log s_n(\varepsilon).$$
 
 Here $s_n(\varepsilon)$ counts how many initial conditions are "distinguishable" by observing $n$ steps of the orbit at resolution $\varepsilon$. So $\frac{1}{n} \log s_n(\varepsilon)$ is the rate of information production at that resolution. As $\varepsilon \to 0$, we push to the limit: the topological entropy is the rate at which new distinguishable orbits appear, regardless of measurement precision.

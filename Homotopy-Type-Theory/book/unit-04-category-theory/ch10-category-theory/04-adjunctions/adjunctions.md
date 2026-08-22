@@ -4,13 +4,13 @@
 
 Saunders Mac Lane called adjunctions "the most important concept in category theory." After seeing the definition and its consequences, this claim becomes difficult to dispute. Adjunctions appear in every branch of mathematics. They unify many constructions that look superficially different. They are the categorical formalization of the ubiquitous mathematical pattern: "giving [data of type X] is the same as giving [data of type Y]."
 
-An adjunction between two functors $F : \mathcal{C} \to \mathcal{D}$ and $G : \mathcal{D} \to \mathcal{C}$ captures the idea that $F$ and $G$ are "inverse to each other in a weak, natural sense." They are not actual inverses (which would require $G \circ F = \mathsf{Id}_\mathcal{C}$), but they are related by a natural bijection between hom-sets.
+An adjunction between two functors $F : \mathcal{C} \to \mathcal{D}$ and $G : \mathcal{D} \to \mathcal{C}$ captures the idea that $F$ and $G$ are "inverse to each other in a weak, natural sense." They are not actual inverses (which would require $G \circ F = \mathsf{Id}_{\mathcal{C}}$), but they are related by a natural bijection between hom-sets.
 
 ## The Hom-Set Definition
 
 **Definition.** An *adjunction* $F \dashv G$ between functors $F : \mathcal{C} \to \mathcal{D}$ (left adjoint) and $G : \mathcal{D} \to \mathcal{C}$ (right adjoint) is a natural bijection:
 
-$$\mathsf{Hom}_\mathcal{D}(F(A), B) \cong \mathsf{Hom}_\mathcal{C}(A, G(B))$$
+$$\mathsf{Hom}_{\mathcal{D}}(F(A), B) \cong \mathsf{Hom}_{\mathcal{C}}(A, G(B))$$
 
 for all $A \in \mathcal{C}$ and $B \in \mathcal{D}$, natural in both $A$ and $B$.
 
@@ -24,9 +24,9 @@ The bijection $\mathsf{Hom}(F(A), B) \cong \mathsf{Hom}(A, G(B))$ is sometimes c
 
 An equivalent and often more convenient formulation uses the unit and counit.
 
-**Unit:** A natural transformation $\eta : \mathsf{Id}_\mathcal{C} \Rightarrow G \circ F$ with components $\eta_A : A \to G(F(A))$.
+**Unit:** A natural transformation $\eta : \mathsf{Id}_{\mathcal{C}} \Rightarrow G \circ F$ with components $\eta_A : A \to G(F(A))$.
 
-**Counit:** A natural transformation $\varepsilon : F \circ G \Rightarrow \mathsf{Id}_\mathcal{D}$ with components $\varepsilon_B : F(G(B)) \to B$.
+**Counit:** A natural transformation $\varepsilon : F \circ G \Rightarrow \mathsf{Id}_{\mathcal{D}}$ with components $\varepsilon_B : F(G(B)) \to B$.
 
 satisfying the *triangular identities*:
 $$(\varepsilon_{F(A)}) \circ F(\eta_A) = \mathsf{id}_{F(A)} \quad \text{and} \quad G(\varepsilon_B) \circ \eta_{G(B)} = \mathsf{id}_{G(B)}$$
@@ -77,7 +77,7 @@ This is the categorical semantics of quantification. The rules for $\Pi$ and $\S
 
 **Propositional Truncation.** In HoTT, the propositional truncation $\|-\| : \mathcal{U} \to \mathsf{Prop}$ is left adjoint to the inclusion $\iota : \mathsf{Prop} \hookrightarrow \mathcal{U}$:
 
-$$\mathsf{Hom}_\mathsf{Prop}(\|A\|, P) \cong \mathsf{Hom}_\mathcal{U}(A, P)$$
+$$\mathsf{Hom}_\mathsf{Prop}(\|A\|, P) \cong \mathsf{Hom}_{\mathcal{U}}(A, P)$$
 
 for any proposition $P$. A map from the truncation $\|A\|$ to a proposition $P$ is the same as a map from $A$ to $P$ (a proof of $A \to P$). This is the universal property of propositional truncation: to prove something about $\|A\|$ in a proposition, it suffices to prove it about $A$.
 

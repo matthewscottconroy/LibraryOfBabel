@@ -18,7 +18,7 @@ Consider $y'' + \omega_0^2 y = \delta(t)$, $y(0) = 0$, $y'(0) = 0$ (undamped osc
 
 $(s^2 + \omega_0^2)Y = 1$, so $Y = 1/(s^2 + \omega_0^2)$. Inverting: $y(t) = \sin(\omega_0 t)/\omega_0$.
 
-This is the **impulse response** (or Green's function for zero initial conditions): the system's response to a unit impulse. It starts at rest, receives the impulse, and then oscillates freely. The impulse imparts a velocity of $1/m$ (for mass $m = 1$) at $t = 0^+$: indeed $y(0^+) = 0$ and $y'(0^+) = 1 = $ impulse/mass.
+This is the **impulse response** (or Green's function for zero initial conditions): the system's response to a unit impulse. It starts at rest, receives the impulse, and then oscillates freely. The impulse imparts a velocity of $1/m$ (for mass $m = 1$) at $t = 0^+$: indeed $y(0^+) = 0$ and $y'(0^+) = 1 =$ impulse/mass.
 
 ## The Property $\delta(t-a) = u'(t-a)$
 

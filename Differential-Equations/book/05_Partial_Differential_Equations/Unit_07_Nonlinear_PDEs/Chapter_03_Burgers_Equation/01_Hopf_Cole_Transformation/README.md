@@ -99,7 +99,7 @@ This is consistent with the entropy condition: the rarefaction is the entropy so
 **Theorem.** For any $u_0 \in L^\infty(\mathbb{R})$ (or more generally $u_0 \in L^1(\mathbb{R})\cap L^\infty(\mathbb{R})$), the Hopf-Cole formula gives a unique smooth solution $u\in C^\infty(\mathbb{R}\times(0,\infty))$ of Burgers' equation. Moreover:
 - $\|u(\cdot,t)\|_{L^\infty} \leq \|u_0\|_{L^\infty}$ (maximum principle).
 - For $p\geq 1$: $\|u(\cdot,t)\|_{L^p} \leq \|u_0\|_{L^p}$ ($L^p$ contraction).
-- $\int_\mathbb{R} u(x,t)\,dx = \int_\mathbb{R} u_0(x)\,dx$ (conservation of mass, if $u_0\in L^1$).
+- $\int_{\mathbb{R}} u(x,t)\,dx = \int_{\mathbb{R}} u_0(x)\,dx$ (conservation of mass, if $u_0\in L^1$).
 
 **Proof.** The positivity $\phi > 0$ of the heat equation solution (since $\phi_0 = e^{-\psi_0/(2\varepsilon)} > 0$) ensures the Hopf-Cole formula is well-defined. Smoothness follows from the smoothness of the heat kernel for $t > 0$. The $L^\infty$ bound follows from the maximum principle for the heat equation applied to $\phi$.
 

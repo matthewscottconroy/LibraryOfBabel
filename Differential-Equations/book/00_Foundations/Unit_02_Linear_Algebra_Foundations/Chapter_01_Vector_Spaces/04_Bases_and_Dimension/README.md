@@ -32,11 +32,11 @@ The number $n$ is called the **dimension** of $V$, written $\dim V = n$. If no f
 
 ## Computing Coordinates
 
-Given a basis $\mathcal{B} = \{v_1, \ldots, v_n\}$ of $V$, any $v \in V$ has a unique expression $v = \sum \alpha_i v_i$. The **coordinate vector** of $v$ with respect to $\mathcal{B}$ is $[v]_\mathcal{B} = (\alpha_1, \ldots, \alpha_n) \in \mathbb{R}^n$.
+Given a basis $\mathcal{B} = \{v_1, \ldots, v_n\}$ of $V$, any $v \in V$ has a unique expression $v = \sum \alpha_i v_i$. The **coordinate vector** of $v$ with respect to $\mathcal{B}$ is $[v]_{\mathcal{B}} = (\alpha_1, \ldots, \alpha_n) \in \mathbb{R}^n$.
 
-**Example.** In $P_2$ with basis $\mathcal{B} = \{1, x, x^2\}$: $[3 - 2x + x^2]_\mathcal{B} = (3, -2, 1)$.
+**Example.** In $P_2$ with basis $\mathcal{B} = \{1, x, x^2\}$: $[3 - 2x + x^2]_{\mathcal{B}} = (3, -2, 1)$.
 
-**Example.** In $P_2$ with basis $\mathcal{C} = \{1, x-1, (x-1)^2\}$ (Taylor basis at $x=1$): $3 - 2x + x^2 = 3 - 2(1 + (x-1)) + (1 + (x-1))^2 = 3 - 2 - 2(x-1) + 1 + 2(x-1) + (x-1)^2 = 2 + 0\cdot(x-1) + (x-1)^2$. So $[3-2x+x^2]_\mathcal{C} = (2, 0, 1)$.
+**Example.** In $P_2$ with basis $\mathcal{C} = \{1, x-1, (x-1)^2\}$ (Taylor basis at $x=1$): $3 - 2x + x^2 = 3 - 2(1 + (x-1)) + (1 + (x-1))^2 = 3 - 2 - 2(x-1) + 1 + 2(x-1) + (x-1)^2 = 2 + 0\cdot(x-1) + (x-1)^2$. So $[3-2x+x^2]_{\mathcal{C}} = (2, 0, 1)$.
 
 Different bases give different coordinates for the same vector, but the space is the same.
 
@@ -63,7 +63,7 @@ The initial conditions $y(t_0) = y_0, y'(t_0) = y_0', \ldots, y^{(n-1)}(t_0) = y
 
 ## Change of Basis
 
-If $\mathcal{B}$ and $\mathcal{C}$ are two bases for $V$, the **change-of-basis matrix** $P$ relates coordinates: $[v]_\mathcal{C} = P[v]_\mathcal{B}$. This matrix is invertible. Change of basis is the linear algebra behind the substitution methods for ODEs: choosing a basis of normal modes (eigenvectors) for a linear system simplifies the ODE into decoupled equations.
+If $\mathcal{B}$ and $\mathcal{C}$ are two bases for $V$, the **change-of-basis matrix** $P$ relates coordinates: $[v]_{\mathcal{C}} = P[v]_{\mathcal{B}}$. This matrix is invertible. Change of basis is the linear algebra behind the substitution methods for ODEs: choosing a basis of normal modes (eigenvectors) for a linear system simplifies the ODE into decoupled equations.
 
 ## Common Pitfalls
 

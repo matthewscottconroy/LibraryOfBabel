@@ -102,7 +102,7 @@
 
 (a) Given a 1-type $A$ (a type where all identity types are sets), show that $A$'s path structure forms a groupoid $\mathcal{G}(A)$.
 
-(b) Given a groupoid $\mathcal{G}$, sketch how to construct a 1-type $B\mathcal{G}$ (the "classifying type" of $\mathcal{G}$) such that $\pi_0(B\mathcal{G}) = \pi_0(\mathcal{G})$ and $\pi_1(B\mathcal{G}, b) = \mathsf{Aut}_\mathcal{G}(b)$ for each $b$.
+(b) Given a groupoid $\mathcal{G}$, sketch how to construct a 1-type $B\mathcal{G}$ (the "classifying type" of $\mathcal{G}$) such that $\pi_0(B\mathcal{G}) = \pi_0(\mathcal{G})$ and $\pi_1(B\mathcal{G}, b) = \mathsf{Aut}_{\mathcal{G}}(b)$ for each $b$.
 
 (c) Informally: why are these constructions mutually inverse? What does this say about the homotopy hypothesis for 1-types?
 

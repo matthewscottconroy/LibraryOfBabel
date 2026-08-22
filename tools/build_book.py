@@ -377,6 +377,44 @@ def strip_yaml_front_matter(text: str) -> str:
     return text[end + 4:].lstrip("\n")
 
 
+# A thematic break written as `---` is indistinguishable from the opening of a
+# YAML metadata block, and pandoc accepts those *anywhere* in a document, not
+# only at the top.  Left alone, a `---` rule pairs with the next one and pandoc
+# either aborts with a YAML parse error or -- worse, when the enclosed prose
+# happens to parse as YAML -- silently drops everything between the two rules.
+# `***` is the same thematic break to every markdown reader and can never open
+# a metadata block.
+FENCE_RE = re.compile(r"^\s{0,3}(`{3,}|~{3,})")
+THEMATIC_BREAK_RE = re.compile(r"^\s{0,3}-{3,}\s*$")
+
+
+def normalize_thematic_breaks(text: str) -> str:
+    lines = text.split("\n")
+    out: list[str] = []
+    fence: str | None = None
+    for i, line in enumerate(lines):
+        m = FENCE_RE.match(line)
+        if m:
+            char = m.group(1)[0]
+            if fence is None:
+                fence = char
+            elif char == fence:
+                fence = None
+            out.append(line)
+            continue
+        # A run of dashes directly under a paragraph line is a setext H2
+        # underline, not a rule -- leave those for pandoc to read as a heading.
+        if (
+            fence is None
+            and THEMATIC_BREAK_RE.match(line)
+            and (i == 0 or not lines[i - 1].strip())
+        ):
+            out.append("***")
+            continue
+        out.append(line)
+    return "\n".join(out)
+
+
 def shift_headings(text: str, shift: int) -> str:
     if shift <= 0:
         return text
@@ -505,6 +543,7 @@ def assemble(m: Manifest, chapter_range=None):
                   f"{path.relative_to(m.book_dir)}", file=sys.stderr)
             return
         text = strip_yaml_front_matter(text)
+        text = normalize_thematic_breaks(text)
         if drop_h1:
             text = strip_first_h1(text)
         text = shift_headings(text, shift)

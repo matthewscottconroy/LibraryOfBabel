@@ -2,7 +2,7 @@
 
 ## 1. Hardware Verification
 
-Every modern processor contains billions of transistors executing billions of operations per second. A single logical flaw in the design can have catastrophic consequences. In 1994, Intel's Pentium processor contained a bug in its floating-point division unit — a flaw in the microcode implementing division caused errors in the sixth to ninth significant digits of certain quotients. Intel recalled the affected chips at a cost of approximately $475 million.
+Every modern processor contains billions of transistors executing billions of operations per second. A single logical flaw in the design can have catastrophic consequences. In 1994, Intel's Pentium processor contained a bug in its floating-point division unit — a flaw in the microcode implementing division caused errors in the sixth to ninth significant digits of certain quotients. Intel recalled the affected chips at a cost of approximately \$475 million.
 
 Since then, hardware companies have invested heavily in formal verification: using logical tools to prove that hardware designs are correct before fabrication.
 

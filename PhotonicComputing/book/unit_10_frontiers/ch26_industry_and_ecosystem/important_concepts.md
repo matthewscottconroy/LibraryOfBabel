@@ -22,7 +22,7 @@ Moving transceiver optics from faceplate pluggables (~12–15 pJ/bit) into the A
 
 ## 4. The Foundry Layer and MPW Access
 
-No photonic startup owns a fab. AIM Photonics (US), imec (EU), GlobalFoundries Fotonix, TSMC, CEA-Leti, AMF, and Tower provide the CMOS-photonics processes; LioniX/Ligentec (Si₃N₄), HyperLight (thin-film LiNbO₃), and SMART Photonics (InP) provide specialty platforms. Multi-project wafer runs put credible prototypes under $100k per tape-out, which is the economic enabler of the entire startup wave — and the reason photonic hardware startups can exist on venture timescales at all.
+No photonic startup owns a fab. AIM Photonics (US), imec (EU), GlobalFoundries Fotonix, TSMC, CEA-Leti, AMF, and Tower provide the CMOS-photonics processes; LioniX/Ligentec (Si₃N₄), HyperLight (thin-film LiNbO₃), and SMART Photonics (InP) provide specialty platforms. Multi-project wafer runs put credible prototypes under \$100k per tape-out, which is the economic enabler of the entire startup wave — and the reason photonic hardware startups can exist on venture timescales at all.
 
 ---
 
@@ -46,7 +46,7 @@ QuiX (Si₃N₄ interferometers), Quandela (quantum-dot sources), ORCA (memory-b
 
 ## 8. Vertical Overreach as the Canonical Failure Mode
 
-Luminous Computing attempted photonic compute, memory access, packaging scale-up, and a software stack simultaneously, pre-revenue; it wound down by ~2023–2024 despite ~$115M raised. Rockley Photonics (health-sensing photonics via SPAC) reached bankruptcy in 2023. The survivors share one property: a single, narrowly scoped, incrementally adoptable product.
+Luminous Computing attempted photonic compute, memory access, packaging scale-up, and a software stack simultaneously, pre-revenue; it wound down by ~2023–2024 despite ~\$115M raised. Rockley Photonics (health-sensing photonics via SPAC) reached bankruptcy in 2023. The survivors share one property: a single, narrowly scoped, incrementally adoptable product.
 
 ---
 

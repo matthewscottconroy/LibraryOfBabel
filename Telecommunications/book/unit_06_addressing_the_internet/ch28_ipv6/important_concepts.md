@@ -159,6 +159,6 @@ unmonitored unfiltered path. Most organisations are in the third.
 
 IPv6 wins where one party controls both ends *(§28.4)* — Mobile carriers,
 hyperscaler fabrics, content-provider edges. It lags where many parties must
-coordinate, which is the enterprise LAN. AWS charging ~$43/year per public IPv4
+coordinate, which is the enterprise LAN. AWS charging ~\$43/year per public IPv4
 address from February 2024 moved more workloads in a year than the preceding decade of
 advocacy.

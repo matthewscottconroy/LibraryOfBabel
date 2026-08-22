@@ -14,7 +14,7 @@ In 2008, a group of biology enthusiasts in Brooklyn rented space in a former ind
 - Community: contribute to open access knowledge
 - Non-maleficence: do not create or deploy agents intended to harm
 
-**2010s expansion**: the movement grew globally. Community labs in Europe (LabBiotech.eu, La Paillasse in France, biohack.me in Germany), Australia, and Asia. The availability of affordable CRISPR kits (e.g., The Odin's ~$150 CRISPR bacterial kit) significantly lowered barriers.
+**2010s expansion**: the movement grew globally. Community labs in Europe (LabBiotech.eu, La Paillasse in France, biohack.me in Germany), Australia, and Asia. The availability of affordable CRISPR kits (e.g., The Odin's ~\$150 CRISPR bacterial kit) significantly lowered barriers.
 
 **Current landscape**: hundreds of community biology spaces worldwide, varying from well-equipped community labs (BSL-1 to limited BSL-2) to informal home operations.
 

@@ -4,7 +4,7 @@
 
 If you had to identify the single mathematical operation that modern artificial intelligence most relies on, it would be matrix-vector multiplication. A feedforward neural network layer is, at its mathematical core, a linear map: $\mathbf{y} = W\mathbf{x}$, where $W$ is a weight matrix and $\mathbf{x}$ is an input vector. A transformer's attention mechanism computes $\text{softmax}(QK^T/\sqrt{d_k})V$ — three matrix multiplications. A convolutional layer is (in its frequency-domain form) a multiplication of spectral vectors. The training process that finds the weights is itself gradient descent on a loss function whose gradients are computed by backpropagating through — matrix multiplications.
 
-Modern AI accelerators (GPU, TPU, Cerebras, Graphcore) are therefore, at their core, matrix multiplication engines. The H100 GPU delivers 3958 TFLOPS of FP16 matrix multiply performance per chip. NVIDIA's revenue in 2024 exceeded $60 billion, almost entirely because training and running large language models requires performing astronomical numbers of matrix multiplications.
+Modern AI accelerators (GPU, TPU, Cerebras, Graphcore) are therefore, at their core, matrix multiplication engines. The H100 GPU delivers 3958 TFLOPS of FP16 matrix multiply performance per chip. NVIDIA's revenue in 2024 exceeded \$60 billion, almost entirely because training and running large language models requires performing astronomical numbers of matrix multiplications.
 
 The question this chapter addresses: can optical systems perform matrix-vector multiplication more efficiently than electronics? Under specific conditions, the answer is yes — and understanding precisely when and why requires the physics developed in Units I–III and the mathematical framework of this chapter.
 

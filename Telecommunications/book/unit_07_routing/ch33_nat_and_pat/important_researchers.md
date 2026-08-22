@@ -76,7 +76,7 @@ is unsentimental in both directions: he does not defend it architecturally and h
 pretend the Internet would have grown without it.
 
 **The anonymous engineers of the home router industry.** Worth acknowledging, because the
-practical experience of NAT for billions of people is a $30 box that does PAT, DHCP, a
+practical experience of NAT for billions of people is a \$30 box that does PAT, DHCP, a
 firewall, and a wireless access point, and mostly works without configuration.
 
 That it works at all is a real achievement, and the failures in this chapter —

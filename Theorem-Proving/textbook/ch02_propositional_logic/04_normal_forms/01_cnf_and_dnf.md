@@ -94,9 +94,9 @@ The connection between CNF and resolution means that SAT solvers are, in a deep 
 
 ## Real-World Significance: Industrial SAT Solving
 
-The conversion to CNF enables the $1.2 billion industry of **formal hardware verification**. Modern CPU designs contain billions of transistors and are too complex to test exhaustively. Hardware verification tools convert correctness properties into SAT instances (in CNF) and use SAT solvers to either find bugs or prove correctness.
+The conversion to CNF enables the \$1.2 billion industry of **formal hardware verification**. Modern CPU designs contain billions of transistors and are too complex to test exhaustively. Hardware verification tools convert correctness properties into SAT instances (in CNF) and use SAT solvers to either find bugs or prove correctness.
 
-After Intel's Pentium FDIV bug in 1994 — a flaw in the floating-point division unit that cost Intel $475 million in recalls — the company invested heavily in formal verification. Today, every Intel and AMD processor goes through formal equivalence checking (a form of SAT) before manufacture. The mathematical content of that verification is, at its core, the question: is this CNF formula satisfiable?
+After Intel's Pentium FDIV bug in 1994 — a flaw in the floating-point division unit that cost Intel \$475 million in recalls — the company invested heavily in formal verification. Today, every Intel and AMD processor goes through formal equivalence checking (a form of SAT) before manufacture. The mathematical content of that verification is, at its core, the question: is this CNF formula satisfiable?
 
 ---
 

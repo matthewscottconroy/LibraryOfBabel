@@ -4,7 +4,7 @@
 
 Silicon photonics has adopted the multi-project wafer (MPW) model from the semiconductor industry: multiple customers share a single wafer run, each occupying a small "tile" of the wafer. A typical MPW run produces chips of 3 × 3 mm to 20 × 20 mm, with quantities of 5–50 chips per design. Cost per chip in MPW: $500–$5000 depending on foundry and chip area.
 
-This model has democratized photonic chip design: university research groups, startups, and small companies can access advanced fabrication (45 nm CMOS + photonics) without a $50M wafer run. The major photonic foundry MPW services:
+This model has democratized photonic chip design: university research groups, startups, and small companies can access advanced fabrication (45 nm CMOS + photonics) without a \$50M wafer run. The major photonic foundry MPW services:
 
 | Foundry | Platform | Node | Notable for |
 |---|---|---|---|

@@ -8,11 +8,11 @@
 
 **M26.1 — The Startup Fab Budget**
 
-A photonic computing startup plans its first two years around foundry MPW runs: 4 tape-outs at $60k each (shared-wafer cost for ~25 mm² in an advanced photonic process), plus packaging and fiber attach at $40k per run, test infrastructure at $500k (one-time), and a 6-person team at a fully loaded $250k/person/year.
+A photonic computing startup plans its first two years around foundry MPW runs: 4 tape-outs at \$60k each (shared-wafer cost for ~25 mm² in an advanced photonic process), plus packaging and fiber attach at \$40k per run, test infrastructure at \$500k (one-time), and a 6-person team at a fully loaded \$250k/person/year.
 
 (a) Compute the two-year technical budget. What fraction is silicon, and what fraction is people?
 
-(b) A full custom wafer run costs $2–5M. At what team size does the MPW-versus-full-run cost ratio stop dominating the budget?
+(b) A full custom wafer run costs \$2–5M. At what team size does the MPW-versus-full-run cost ratio stop dominating the budget?
 
 (c) Discuss: why does the MPW model (Section 26.3 of Chapter 7) effectively determine the *minimum viable seed round* for a photonic hardware company?
 
@@ -22,7 +22,7 @@ A 51.2 Tb/s Ethernet switch uses 64 × 800G pluggable transceivers at 14 W each.
 
 (a) Compute total optics power for both configurations and the percentage saving.
 
-(b) A large AI data center operates 10,000 such switches. At $0.08/kWh and PUE 1.3, what is the annual electricity cost difference?
+(b) A large AI data center operates 10,000 such switches. At \$0.08/kWh and PUE 1.3, what is the annual electricity cost difference?
 
 (c) List two costs the CPO configuration *adds* (consider serviceability and yield) and estimate their sign and rough magnitude qualitatively.
 

@@ -1,6 +1,6 @@
 # Section 3: Databases
 
-The first complete sequence of the human genome was announced in 2001. By the time you read this, the cost of sequencing an entire human genome has fallen below $1,000. In 2024, the gnomAD database contains whole-genome sequences from over 76,000 individuals. The Protein Data Bank holds over 215,000 experimentally determined structures. UniProt contains entries for over 250 million proteins. The AlphaFold database has predicted structures for essentially all of them.
+The first complete sequence of the human genome was announced in 2001. By the time you read this, the cost of sequencing an entire human genome has fallen below \$1,000. In 2024, the gnomAD database contains whole-genome sequences from over 76,000 individuals. The Protein Data Bank holds over 215,000 experimentally determined structures. UniProt contains entries for over 250 million proteins. The AlphaFold database has predicted structures for essentially all of them.
 
 Biology generates data at a scale that requires systematic storage and retrieval infrastructure. The question is not whether to use databases — it is which databases to use, for what purpose, and how to query them efficiently. This section covers three layers of the database landscape that every computational biologist encounters.
 

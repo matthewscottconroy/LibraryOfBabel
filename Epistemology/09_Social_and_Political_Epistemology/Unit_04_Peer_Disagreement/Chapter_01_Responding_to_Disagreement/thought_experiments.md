@@ -1,6 +1,6 @@
 ## The Restaurant Bill
 
-**The scenario**: Christensen's classic case: you and a friend split a restaurant bill. You both calculate what each person owes. You get $43; your friend gets $45. You know you are both equally good at arithmetic, equally careful, and equally sober. Should you maintain your own calculation, average the two, or suspend judgment?
+**The scenario**: Christensen's classic case: you and a friend split a restaurant bill. You both calculate what each person owes. You get \$43; your friend gets \$45. You know you are both equally good at arithmetic, equally careful, and equally sober. Should you maintain your own calculation, average the two, or suspend judgment?
 
 **The philosophical point**: This simple scenario isolates the peer disagreement question in a domain where there is a clear fact of the matter and roughly equal competence. Most people find it intuitive that you should not simply assume you got it right; you should at least reconsider. Christensen uses this to motivate conciliationism: discovering a peer's disagreement is evidence that your shared process went wrong somewhere, and it would be unreasonably self-trusting to assume the error was theirs. The scenario is deliberately mundane to set aside the special pleading that often attaches to philosophical, religious, or political disagreements.
 

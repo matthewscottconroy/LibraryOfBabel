@@ -63,11 +63,11 @@ are bought and sold:
 
 | Period | Approximate price per address |
 |---|---|
-| 2011 | $8 |
-| 2015 | $10 |
-| 2019 | $20 |
-| 2021 | **$50–60** |
-| 2024–26 | $30–50, volatile |
+| 2011 | \$8 |
+| 2015 | \$10 |
+| 2019 | \$20 |
+| 2021 | **\$50–60** |
+| 2024–26 | \$30–50, volatile |
 
 **A /16 — 65,536 addresses — trades for two to three million dollars.**
 
@@ -158,7 +158,7 @@ expected.
 |---|---|
 | **Mobile networks** | T-Mobile US, Verizon, Jio and others run **IPv6-only** cores with translation for IPv4. Hundreds of millions of devices. |
 | **Large content providers** | Google, Facebook, Netflix, Cloudflare all dual-stack. If the content is there, the demand exists. |
-| **Cost** | $40 per address makes IPv6 the cheaper option at scale |
+| **Cost** | \$40 per address makes IPv6 the cheaper option at scale |
 | **Government mandates** | US federal agencies required to be IPv6-only by 2025 |
 | **Hyperscale internal networks** | 10/8's 16.7 million addresses are **not enough** for a large cloud provider |
 

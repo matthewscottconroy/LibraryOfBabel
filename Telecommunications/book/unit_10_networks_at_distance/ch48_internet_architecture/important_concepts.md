@@ -41,7 +41,7 @@ billed. Brief spikes are free; sustained load is what costs — which is why bul
 are scheduled overnight and why operators watch a graph at month end.
 
 The peering decision is a spreadsheet, and then it isn't *(§48.2)* — The worked example
-saves $340/month, which is marginal. The decision turns on latency, resilience, and the
+saves \$340/month, which is marginal. The decision turns on latency, resilience, and the
 knowledge that traffic will grow while the port cost will not. **Peer early** is the
 industry's rule of thumb for exactly that reason.
 
@@ -76,8 +76,8 @@ prefix is a small permanent tax on every router in the world, which is why polic
 it and why the table grew when restrictions loosened.
 
 Exhaustion turned an allocated resource into a traded asset *(§48.3)* — IANA's pool went in
-**February 2011**; all RIRs were effectively exhausted by 2020. Prices ran from ~$10 per
-address in 2015 to $40–60 by 2021. MIT sold half of 18.0.0.0/8 in 2017. A new entrant
+**February 2011**; all RIRs were effectively exhausted by 2020. Prices ran from ~\$10 per
+address in 2015 to \$40–60 by 2021. MIT sold half of 18.0.0.0/8 in 2017. A new entrant
 now pays what an incumbent received free, which is Chapter 28's argument for IPv6 in its
 sharpest form.
 

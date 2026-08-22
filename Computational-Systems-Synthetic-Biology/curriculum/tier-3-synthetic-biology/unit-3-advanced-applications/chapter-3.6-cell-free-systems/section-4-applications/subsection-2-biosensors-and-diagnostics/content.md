@@ -43,7 +43,7 @@ The original Pardee et al. (2016) paper demonstrated diagnostic detection of Zik
 - Sensitivity: detected Zika RNA at concentrations present in patient serum during acute infection (estimated 10⁵–10⁷ viral copies/mL)
 - Specificity: no cross-reactivity with Dengue virus when switches were designed to target Zika-specific sequence variants
 - Time to result: 2–3 hours
-- Cost per test: estimated ~$6 per reaction
+- Cost per test: estimated ~\$6 per reaction
 
 **Limitation identified**: raw patient serum required isothermal amplification (NASBA — Nucleic Acid Sequence-Based Amplification) before the cell-free step to achieve clinical sensitivity. The amplification step added complexity but remained simpler than RT-PCR with gel electrophoresis.
 

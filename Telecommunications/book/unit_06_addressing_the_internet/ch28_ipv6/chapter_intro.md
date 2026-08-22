@@ -6,7 +6,7 @@ APNIC, covering the Asia-Pacific region, reached its final `/8` fifteen weeks la
 RIPE NCC exhausted in September 2012, LACNIC in 2014, ARIN in September 2015, and
 AFRINIC in 2017. There has been no meaningful IPv4 free pool anywhere in the world
 since 2019, and addresses now change hands on a transfer market at prices that have
-ranged between roughly $20 and $60 each.
+ranged between roughly \$20 and \$60 each.
 
 None of this was a surprise. The IETF had seen it coming in 1990, formed a working
 group in 1993, and published the IPv6 specification — RFC 1883, later revised as

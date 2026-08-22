@@ -113,7 +113,7 @@ Four reasons, each fatal on its own.
 ```
 
 **OSPF would choose A**, because 2 < 4. **You may well want B**, because A costs
-$8,000/month more and adequate is adequate.
+\$8,000/month more and adequate is adequate.
 
 Or the reverse for your latency-sensitive traffic, and both simultaneously depending on
 the destination.

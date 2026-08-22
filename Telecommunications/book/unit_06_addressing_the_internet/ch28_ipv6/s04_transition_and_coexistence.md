@@ -204,7 +204,7 @@ where **many parties must coordinate**, which is the enterprise LAN.
 
 That is §28.1's incentive argument, visible in the deployment statistics.
 
-AWS began charging for public IPv4 addresses in February 2024 — around $43 per
+AWS began charging for public IPv4 addresses in February 2024 — around \$43 per
 address per year. That single pricing change moved more workloads to IPv6 in a year than
 the preceding decade of advocacy, and it is the clearest evidence for §28.1's claim that
 **cost is the argument that works.**

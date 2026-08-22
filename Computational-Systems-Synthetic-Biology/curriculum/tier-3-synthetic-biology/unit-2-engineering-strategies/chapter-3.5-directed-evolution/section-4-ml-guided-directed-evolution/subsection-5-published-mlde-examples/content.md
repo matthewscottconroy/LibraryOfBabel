@@ -39,7 +39,7 @@ Machine learning-guided directed evolution has progressed from theoretical propo
 
 **Comparison**: classical random mutagenesis + FACS screening of the same CDR3 library required >5,000 measurements to find the same 3 pM variant.
 
-**Lesson**: for expensive assays (SPR requires purified protein per measurement; cost ~$50–100/measurement), MLDE's 30-fold reduction in experimental cost is decisive. Total cost: BO approach ~$8,000 vs. random approach ~$250,000.
+**Lesson**: for expensive assays (SPR requires purified protein per measurement; cost ~$50–100/measurement), MLDE's 30-fold reduction in experimental cost is decisive. Total cost: BO approach ~$8,000 vs. random approach ~\$250,000.
 
 ## TEM Beta-Lactamase: Functional Prediction Across Homologs
 

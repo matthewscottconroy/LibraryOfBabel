@@ -4,7 +4,7 @@ The third subsection of this survey pairs a cautionary tale with two companies t
 
 ## Luminous Computing: The Maximal Bet
 
-Luminous Computing, founded in 2018 and backed by prominent investors including Bill Gates, raised roughly $115M (a $105M Series A in 2022 on top of seed funding) toward the most ambitious framing in the sector: build an entire AI supercomputer — compute, memory, and interconnect — around silicon photonics, vertically integrated from chip to system, and compete head-on with GPU clusters for training the largest models.
+Luminous Computing, founded in 2018 and backed by prominent investors including Bill Gates, raised roughly \$115M (a \$105M Series A in 2022 on top of seed funding) toward the most ambitious framing in the sector: build an entire AI supercomputer — compute, memory, and interconnect — around silicon photonics, vertically integrated from chip to system, and compete head-on with GPU clusters for training the largest models.
 
 The ambition compressed every hard problem in this book into one product: analog optical arithmetic (Chapter 25's precision and conversion taxes), photonic memory access (Chapter 28's unsolved memory problem), massive laser and packaging scale-up (Chapter 23), and a software stack — all before first revenue, and all against an incumbent improving on a yearly cadence. By public accounts the company had wound down its supercomputer ambitions by around 2023–2024. The lesson is not that the physics was wrong; it is that *the number of simultaneously unsolved problems a startup can carry is small*. Luminous carried nearly all of them at once.
 
@@ -17,7 +17,7 @@ Ayar sells exactly two things:
 - **TeraPHY**, an optical I/O chiplet that sits in-package beside a customer's ASIC or GPU and converts its die-to-die electrical interface (including the UCIe standard) to dense WDM optical fiber I/O — terabit-per-second-class bandwidth per chiplet at single-digit pJ/bit [Wade et al., *IEEE Micro*, 2020];
 - **SuperNova**, an external multi-wavelength laser source supplying the (deliberately off-chip, field-replaceable) optical power.
 
-Note what Ayar does *not* claim: no optical arithmetic, no new programming model, no displacement of the customer's compute. Its strategic investors — which by its 2024 round included the venture arms of Intel, NVIDIA, and AMD simultaneously, with total funding around $370M — are the incumbents themselves. When all three leading compute vendors invest in the same optical I/O supplier, you are looking at the industry's own forecast of where photonics enters the computer first.
+Note what Ayar does *not* claim: no optical arithmetic, no new programming model, no displacement of the customer's compute. Its strategic investors — which by its 2024 round included the venture arms of Intel, NVIDIA, and AMD simultaneously, with total funding around \$370M — are the incumbents themselves. When all three leading compute vendors invest in the same optical I/O supplier, you are looking at the industry's own forecast of where photonics enters the computer first.
 
 ## Celestial AI: Interconnect Aimed at the Memory Wall
 

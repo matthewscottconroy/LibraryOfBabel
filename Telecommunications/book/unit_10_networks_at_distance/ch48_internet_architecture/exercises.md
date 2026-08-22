@@ -40,11 +40,11 @@ table.
 (d) The network runs a two-hour backup at full line rate every night. Is it billed for it?
 Show the arithmetic.
 
-**B2.** An ISP's 95th percentile is 8 Gb/s and transit costs $0.30 per Mb/s per month.
+**B2.** An ISP's 95th percentile is 8 Gb/s and transit costs \$0.30 per Mb/s per month.
 
 (a) What is the monthly transit bill?
 (b) Joining the local IXP would move 60% of traffic off transit. What is the new bill?
-(c) The IXP port costs $800/month and colocation $300/month. Is peering worth it on cost
+(c) The IXP port costs \$800/month and colocation \$300/month. Is peering worth it on cost
 alone?
 (d) Traffic is growing 40% a year. Recompute (a)–(c) for two years' time and state when the
 decision changes.

@@ -34,7 +34,7 @@ The process design kit is the foundry-designer interface: layer map, DRC deck (m
 
 ## 6. MPW Economics
 
-Multi-project wafers amortize mask sets (tens of masks, thousands of dollars each) across many customers: $10k–75k buys 5–50 dies of a few-mm² design, in 4–9 months. Consequences: designs sweep parameters and carry heavy test-structure overhead; e-beam rapid prototyping (weeks) de-risks custom devices before MPW commitment; and one MPW's dies sample only local process variation — never lot-to-lot statistics.
+Multi-project wafers amortize mask sets (tens of masks, thousands of dollars each) across many customers: \$10k–75k buys 5–50 dies of a few-mm² design, in 4–9 months. Consequences: designs sweep parameters and carry heavy test-structure overhead; e-beam rapid prototyping (weeks) de-risks custom devices before MPW commitment; and one MPW's dies sample only local process variation — never lot-to-lot statistics.
 
 ---
 

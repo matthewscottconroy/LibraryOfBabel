@@ -20,7 +20,7 @@ The migration from Envise to Passage is the cleanest single example of the indus
 
 ## Funding and Scale
 
-Lightmatter's capital trajectory tracked the AI cycle: a $154M Series C in 2023, extensions later that year, and a reported $400M Series D in late 2024 at a valuation of roughly $4.4B — approximately $850M raised in total by that point, making it the most heavily funded photonic AI company. Note what the market priced: by the time of the largest rounds, the pitch was interconnect.
+Lightmatter's capital trajectory tracked the AI cycle: a \$154M Series C in 2023, extensions later that year, and a reported \$400M Series D in late 2024 at a valuation of roughly \$4.4B — approximately \$850M raised in total by that point, making it the most heavily funded photonic AI company. Note what the market priced: by the time of the largest rounds, the pitch was interconnect.
 
 ## How to Read Lightmatter
 

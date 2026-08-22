@@ -22,7 +22,7 @@ That both siblings of the 2017 paper independently migrated from selling optical
 
 ## Reported Scale
 
-Lightelligence's disclosed venture funding totaled over $200M within its first several years — smaller than Lightmatter's later AI-cycle rounds, but sufficient to carry two generations of full-system silicon. As with every company in this chapter, treat specific figures as a dated snapshot and the trajectory as the durable fact.
+Lightelligence's disclosed venture funding totaled over \$200M within its first several years — smaller than Lightmatter's later AI-cycle rounds, but sufficient to carry two generations of full-system silicon. As with every company in this chapter, treat specific figures as a dated snapshot and the trajectory as the durable fact.
 
 ## How to Read Lightelligence
 

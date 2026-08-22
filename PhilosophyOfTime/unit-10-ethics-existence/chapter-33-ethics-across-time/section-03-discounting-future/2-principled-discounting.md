@@ -20,7 +20,7 @@ Moreover, Cline (1999: 238–252) and Heal (1997: 1113–1135) argue that the re
 
 ## Diminishing Marginal Utility (Growth-Based) Discounting
 
-A second principled reason for discounting is based on expected economic growth and the diminishing marginal utility of consumption. The standard welfare-economic model holds that the marginal utility of consumption decreases as consumption increases: an extra $1 of income matters more to someone who is poor than to someone who is wealthy.
+A second principled reason for discounting is based on expected economic growth and the diminishing marginal utility of consumption. The standard welfare-economic model holds that the marginal utility of consumption decreases as consumption increases: an extra \$1 of income matters more to someone who is poor than to someone who is wealthy.
 
 If future people will, on average, be wealthier than we are today (because of economic growth, technological progress, and capital accumulation), then the marginal utility of a given unit of consumption will be lower for them than for us. It follows that the same amount of resources transferred from now to the future will produce less welfare improvement. This provides a principled basis for some discounting.
 

@@ -57,8 +57,8 @@ costs real money, which is the argument that finally moved IPv6.
 
 Because the alternative is not having addresses.
 
-A provider adding a million subscribers needs a million addresses. At $40 each on the
-transfer market (Chapter 28 §28.1), that is $40 million — for a resource that will only
+A provider adding a million subscribers needs a million addresses. At \$40 each on the
+transfer market (Chapter 28 §28.1), that is \$40 million — for a resource that will only
 get scarcer.
 
 CGNAT costs a few hundred thousand in equipment. The arithmetic is not close.

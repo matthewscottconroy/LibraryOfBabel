@@ -66,8 +66,8 @@ backhauled path goes Manchester → London → Dublin, 1,100 km total.
 (c) The application performs 12 sequential round trips to load a page. What is the user-visible
 difference?
 
-**B5.** A company egresses 60 TB per month from AWS. Internet egress is $0.09/GB; Direct
-Connect egress is $0.02/GB. A 1 Gb/s hosted connection costs $900/month all-in.
+**B5.** A company egresses 60 TB per month from AWS. Internet egress is \$0.09/GB; Direct
+Connect egress is \$0.02/GB. A 1 Gb/s hosted connection costs \$900/month all-in.
 
 (a) Compute the monthly egress cost each way.
 (b) Compute the total monthly cost each way.

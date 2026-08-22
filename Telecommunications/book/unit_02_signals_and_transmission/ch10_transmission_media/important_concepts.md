@@ -106,7 +106,7 @@ no blink reflex, and long-haul power levels cause retinal damage.
 **Spectrum as a regulated resource** *(§10.4)* — Free space is the one medium you do
 not own. **Licensed** (exclusive, expensive, protected), **unlicensed** (free,
 shared, no protection), **lightly licensed** (CBRS, 6 GHz AFC). The 2021 US C-band
-auction raised $81 billion, which calibrates what predictability is worth.
+auction raised \$81 billion, which calibrates what predictability is worth.
 
 **Higher frequency: more bandwidth, less range** *(§10.4)* — From the 20 log₁₀(*f*)
 term in path loss plus rising material absorption. 60 GHz's oxygen absorption

@@ -85,7 +85,7 @@ few days. They are managing the 95th percentile, not the capacity.
 | Router capacity | **capital, amortised** |
 | Engineering time | **real, and often underestimated** |
 
-So it saves $340/month before capital and staff — **marginal**, and the decision turns on
+So it saves \$340/month before capital and staff — **marginal**, and the decision turns on
 things the arithmetic does not show:
 
 Latency and quality improve whether or not the money works. One hop to a content network
@@ -97,8 +97,8 @@ users want.
 Transit prices fall as volume falls, but they fall in steps and commitments are usually
 contractual for a year or more, so the saving may not be realisable immediately.
 
-**And the traffic will grow.** At 20 Gb/s the same peering decision saves $3,600/month against
-the same $1,100 of port cost. The decision is usually made ahead of the arithmetic, in
+**And the traffic will grow.** At 20 Gb/s the same peering decision saves \$3,600/month against
+the same \$1,100 of port cost. The decision is usually made ahead of the arithmetic, in
 anticipation.
 
 > The rule of thumb in the industry: peer early, because the cost of an IXP port is fixed

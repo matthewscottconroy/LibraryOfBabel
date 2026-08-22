@@ -13,7 +13,7 @@ contents cease to matter to any of them. A crane that can lift a container of
 televisions can lift a container of coffee, because it has never needed to know the
 difference.
 
-Loading cost fell from around $5.86 per ton to about $0.16. That is not an
+Loading cost fell from around \$5.86 per ton to about \$0.16. That is not an
 improvement; it is a different industry. And the mechanism was purely the
 standardisation of an interface, with a deliberate refusal to standardise anything
 on either side of it.

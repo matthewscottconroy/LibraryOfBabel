@@ -24,7 +24,7 @@ consequences:
 geographic area. In exchange you get legal protection: nobody else may transmit
 there, interference is an enforceable offence, and you can plan capacity with
 confidence and use high power. Cellular operators live here. The 2021 US C-band
-auction raised $81 billion, which is a useful figure for calibrating how much
+auction raised \$81 billion, which is a useful figure for calibrating how much
 predictability is worth.
 
 **Unlicensed.** Free, shared, no protection. You must accept interference from

@@ -5,7 +5,7 @@
 
 ## The Problem: Hardware Bugs Are Expensive
 
-In 1994, Intel shipped the Pentium processor with a flaw in the floating-point division unit. The bug affected only certain calculations, but its impact was enormous: Intel recalled the processor at a cost of $475 million. The Pentium FDIV bug became a defining moment that catalyzed the development of formal verification for hardware.
+In 1994, Intel shipped the Pentium processor with a flaw in the floating-point division unit. The bug affected only certain calculations, but its impact was enormous: Intel recalled the processor at a cost of \$475 million. The Pentium FDIV bug became a defining moment that catalyzed the development of formal verification for hardware.
 
 The problem: hardware circuits execute the same deterministic logic billions of times per second. A bug baked into the hardware cannot be patched the way software bugs can. And testing, no matter how thorough, cannot exhaustively check all possible inputs to a modern processor.
 

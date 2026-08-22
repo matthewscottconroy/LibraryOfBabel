@@ -90,7 +90,7 @@ Chapter 24 §24.3.
 
 (a) the 5,585 km London–New York great circle
 (b) a 6,600 km cable route between the same cities
-(c) the difference, and what it is worth to a trading firm at $1M per millisecond per year
+(c) the difference, and what it is worth to a trading firm at \$1M per millisecond per year
 
 **B9.** A country is served by two submarine cables that both land within 30 km of each other
 and both transit the same strait.

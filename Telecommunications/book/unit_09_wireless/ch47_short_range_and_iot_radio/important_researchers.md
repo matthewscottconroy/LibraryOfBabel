@@ -44,7 +44,7 @@ The insight was to apply a technique from radar to a low-power link. A chirp —
 sweeping across a band — correlates against a known sweep with substantial processing gain,
 which permits decoding at around **−20 dB SNR**. Conventional modulation needs positive SNR.
 
-Semtech acquired Cycleo in 2012 for about $5 million, which in retrospect was inexpensive
+Semtech acquired Cycleo in 2012 for about \$5 million, which in retrospect was inexpensive
 for a modulation now in hundreds of millions of devices.
 
 > **LoRa's commercial structure is unusual and worth noticing.** **The modulation is

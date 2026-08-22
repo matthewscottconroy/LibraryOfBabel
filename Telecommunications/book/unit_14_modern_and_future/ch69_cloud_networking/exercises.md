@@ -83,7 +83,7 @@ reach shared services and on-premises.
 region.
 
 (a) Describe the default path and what is charged.
-(b) Compute the saving from a gateway endpoint, assuming $0.045/GB of NAT processing.
+(b) Compute the saving from a gateway endpoint, assuming \$0.045/GB of NAT processing.
 (c) State the security benefit, which is larger.
 (d) State when an interface endpoint would be required instead.
 

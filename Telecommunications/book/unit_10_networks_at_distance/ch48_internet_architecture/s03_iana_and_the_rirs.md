@@ -88,7 +88,7 @@ table grew as those restrictions loosened.
 What remains is a waiting list and a market.
 
 **The transfer market.** IPv4 space is now bought and sold, with the RIRs recording transfers
-and applying policy to them. Prices rose from roughly $10 per address in 2015 to $40–60 by
+and applying policy to them. Prices rose from roughly \$10 per address in 2015 to \$40–60 by
 2021, and have since softened somewhat — but the direction over a decade has been sharply
 upward.
 

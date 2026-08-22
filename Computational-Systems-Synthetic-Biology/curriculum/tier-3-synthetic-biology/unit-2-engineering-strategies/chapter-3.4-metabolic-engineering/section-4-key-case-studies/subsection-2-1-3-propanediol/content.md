@@ -54,7 +54,7 @@ The 1,3-PDO fermentation process received FDA GRAS (Generally Recognized as Safe
 
 **Commercial impact**:
 - Annual production: ~100,000 metric tons by 2010
-- Price competitive with petroleum-derived 1,3-PDO (<$1/kg)
+- Price competitive with petroleum-derived 1,3-PDO (<\$1/kg)
 - 37% reduction in energy use vs. petroleum process
 - Lower greenhouse gas emissions (bio-based carbon)
 

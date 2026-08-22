@@ -118,7 +118,7 @@ All come with security proofs — formal reductions showing that breaking the cr
 
 Blockchain smart contracts present a verification challenge: **the code is law**. When a smart contract says "transfer $X to whoever calls this function," it will do exactly that — regardless of whether that was intended.
 
-The DAO attack (2016, Ethereum): $60 million stolen through a reentrancy vulnerability. The code was "correct" — it did what it said. But what it said was not what was intended.
+The DAO attack (2016, Ethereum): \$60 million stolen through a reentrancy vulnerability. The code was "correct" — it did what it said. But what it said was not what was intended.
 
 **Formal verification of smart contracts**:
 - **Solidity verifiers** (K framework, Certora Prover): Verify that a smart contract satisfies a formal specification written in predicate logic

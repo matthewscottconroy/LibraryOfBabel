@@ -14,7 +14,7 @@ physically are.
 | Satellite's share | **a fraction of a percent** |
 | Typical design capacity, modern system | **100–400 Tb/s** |
 | Design life | **25 years** |
-| Cost of a transoceanic system | **$200–400 million** |
+| Cost of a transoceanic system | **\$200–400 million** |
 
 > The public imagines the Internet is in space. It is at the bottom of the sea, and the
 > maps are published — TeleGeography's is the well-known one — because there is nothing

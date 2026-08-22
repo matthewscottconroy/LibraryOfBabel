@@ -92,8 +92,8 @@ The Select Agent Program creates specific constraints for synthetic biology rese
 ## Enforcement and Penalties
 
 Select Agent violations can result in:
-- **Civil penalties**: up to $250,000 per violation per day
-- **Criminal penalties**: up to $1,000,000 fine and 10 years imprisonment for willful violations (5 years for negligent violations involving interstate commerce of Select Agents without authorization)
+- **Civil penalties**: up to \$250,000 per violation per day
+- **Criminal penalties**: up to \$1,000,000 fine and 10 years imprisonment for willful violations (5 years for negligent violations involving interstate commerce of Select Agents without authorization)
 - **Institutional debarment**: an institution with significant Select Agent violations may be prohibited from possessing any Select Agents
 
 Real enforcement cases include:

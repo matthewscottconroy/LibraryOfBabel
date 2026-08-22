@@ -10,7 +10,7 @@ produced the Radio Act within months, and the pattern has repeated at every expa
 radio use.
 
 **Licensed versus unlicensed** *(§43.1)* — Licensed is exclusive, expensive and legally
-protected — the 2021 US C-band auction raised $81 billion. Unlicensed is free, open
+protected — the 2021 US C-band auction raised \$81 billion. Unlicensed is free, open
 to anyone, and has no interference protection whatsoever. A quality guarantee is
 possible in one and impossible in the other.
 

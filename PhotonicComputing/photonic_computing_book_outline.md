@@ -914,7 +914,7 @@ $$\frac{\partial A}{\partial z} + \frac{\alpha}{2}A + \frac{i\beta_2}{2}\frac{\p
 #### 7.1.2 The Ecosystem
 - Foundries: IMEC (Belgium), AMF (Singapore), AIM Photonics (USA), GlobalFoundries, TSMC
 - Process design kits (PDKs): standardized component libraries
-- Multi-project wafer (MPW) runs: shared cost prototyping (~$20k for a chip)
+- Multi-project wafer (MPW) runs: shared cost prototyping (~\$20k for a chip)
 - Open-source PDKs: SiEPIC-EBeam, IHP SG25H, AIM Photonics
 
 ### 7.2 Passive Components
@@ -2767,7 +2767,7 @@ $$\hat{H}_{JC} = \hbar\omega_c\hat{a}^\dagger\hat{a} + \frac{\hbar\omega_a}{2}\h
 - PDK-based design: only components in the PDK guaranteed to work
 
 #### 23.2.2 Multi-Project Wafer (MPW) Runs
-- Share a wafer with other designs: $15,000-50,000 per run
+- Share a wafer with other designs: \$15,000-50,000 per run
 - Turnaround time: 4-9 months
 - Essential for academic research prototyping
 - Providers: IMEC, AMF, AIM Photonics, CMC Microsystems (Canada)
@@ -3026,7 +3026,7 @@ $$\hat{H}_{JC} = \hbar\omega_c\hat{a}^\dagger\hat{a} + \frac{\hbar\omega_a}{2}\h
 - Goal: fault-tolerant photonic quantum computer with 1M+ physical qubits
 - Approach: silicon photonics at scale + SNSPDs at 4K + FBQC error correction
 - Partnership: GlobalFoundries for silicon photonic fab, cryo system manufacturers
-- Funding: >$600M (as of 2024)
+- Funding: >\$600M (as of 2024)
 - Timeline: first useful fault-tolerant QC claimed "in the 2020s"
 
 #### 26.2.2 Xanadu (Toronto, Canada)

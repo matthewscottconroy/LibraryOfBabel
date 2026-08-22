@@ -93,7 +93,7 @@ performed exactly as specified throughout.
 | **April 2010** | **China Telecom** announced ~50,000 prefixes; for about 18 minutes a substantial share of Internet traffic transited China |
 | **April 2018** | **MyEtherWallet** — attackers hijacked Amazon's Route 53 DNS prefixes, served a fake site, and stole cryptocurrency. **A deliberate, financially-motivated BGP attack.** |
 | **2020** | Rostelecom announced 8,800 prefixes including major cloud and financial networks |
-| **2022** | KLAYswap — BGP hijack used to serve malicious JavaScript, ~$1.9M stolen |
+| **2022** | KLAYswap — BGP hijack used to serve malicious JavaScript, ~\$1.9M stolen |
 
 The MyEtherWallet and KLAYswap incidents changed the conversation. Before them, BGP
 incidents were understood as accidents. Both were deliberate, targeted, and profitable,

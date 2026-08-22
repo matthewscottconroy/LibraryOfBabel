@@ -126,7 +126,7 @@ Every link in a modern hyperscale spine layer is optical. The distances involved
 
 **Very long reach (80–120 km, inter-data-center)**: Coherent transceivers using DP-QPSK or DP-16QAM with DSP. 400G or 800G per single fiber pair.
 
-The quantities involved are staggering: Google's data center network reportedly uses more than 10 million optical transceiver modules [2]. At $100 per transceiver, this represents $1B in optical components for a single hyperscaler's network — before counting the fiber, the switches, or the installation.
+The quantities involved are staggering: Google's data center network reportedly uses more than 10 million optical transceiver modules [2]. At \$100 per transceiver, this represents \$1B in optical components for a single hyperscaler's network — before counting the fiber, the switches, or the installation.
 
 **The co-packaged optics transition** (covered in Section 10.1.2) addresses the energy cost of the electrical-to-optical conversion at the switch ASIC boundary: the pluggable transceiver is moved from a faceplate connector to the same package as the switch chip, cutting the SerDes power by ~4×. As discussed there, the target is ~100 fJ/bit for the optical transceiver itself.
 

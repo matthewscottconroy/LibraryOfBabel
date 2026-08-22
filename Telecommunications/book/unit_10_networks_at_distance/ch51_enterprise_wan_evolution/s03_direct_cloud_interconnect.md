@@ -59,11 +59,11 @@ Representative figures — check current pricing, which changes:
 
 | Monthly egress | Internet | Direct | **Saving** |
 |---|---|---|---|
-| 10 TB | $922 | $205 | **$717** |
-| 50 TB | $4,608 | $1,024 | **$3,584** |
-| **100 TB** | **$9,216** | **$2,048** | **$7,168** |
+| 10 TB | \$922 | \$205 | **\$717** |
+| 50 TB | \$4,608 | \$1,024 | **\$3,584** |
+| **100 TB** | **\$9,216** | **$2,048** | **$7,168** |
 
-Against a 1 Gb/s hosted connection costing perhaps $500–1,500 a month all-in, the crossover
+Against a 1 Gb/s hosted connection costing perhaps \$500–1,500 a month all-in, the crossover
 sits somewhere around 10–20 TB of monthly egress — and above that the circuit pays for
 itself and then keeps paying.
 

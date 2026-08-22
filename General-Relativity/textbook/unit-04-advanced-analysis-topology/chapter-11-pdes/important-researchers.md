@@ -37,7 +37,7 @@ French mathematician, the first woman elected to the French Académie des scienc
 American mathematician who introduced Ricci flow in 1982 — the "heat equation for Riemannian metrics" — and proved its short-time existence and uniqueness. Hamilton's program was to use Ricci flow to geometrize 3-manifolds (classify their topology via their curvature evolution), but the program stalled at singularities. Perelman completed Hamilton's program by analyzing these singularities. Hamilton's techniques — maximum principles for tensor equations, monotone quantities, Harnack inequalities — were the key mathematical tools.
 
 **Grigori Perelman (1966–)**
-Russian mathematician who, in three preprints (2002–2003), proved the Poincaré conjecture and the full geometrization conjecture for 3-manifolds using Ricci flow. Perelman introduced the entropy monotonicity (a Lyapunov function for Ricci flow) and the "reduced volume" and "reduced length" concepts that allowed control of singularities. He was awarded the Fields Medal (2006) and the Millennium Prize ($1,000,000) for the Poincaré conjecture, but declined both. He has since withdrawn from mathematical life and lives reclusively in St. Petersburg.
+Russian mathematician who, in three preprints (2002–2003), proved the Poincaré conjecture and the full geometrization conjecture for 3-manifolds using Ricci flow. Perelman introduced the entropy monotonicity (a Lyapunov function for Ricci flow) and the "reduced volume" and "reduced length" concepts that allowed control of singularities. He was awarded the Fields Medal (2006) and the Millennium Prize (\$1,000,000) for the Poincaré conjecture, but declined both. He has since withdrawn from mathematical life and lives reclusively in St. Petersburg.
 
 ---
 

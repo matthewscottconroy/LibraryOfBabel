@@ -32,7 +32,7 @@ that had not been virtualised.
 
 Their product — network virtualisation with a distributed control plane, overlays and policy
 attached to workloads rather than to ports — became VMware NSX, and the acquisition price in
-2012 (about $1.26 billion for a company with modest revenue) is the clearest available statement
+2012 (about \$1.26 billion for a company with modest revenue) is the clearest available statement
 of what the industry thought the idea was worth.
 
 The argument has aged well and its framing is the useful part:

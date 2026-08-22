@@ -18,7 +18,7 @@ Xanadu's most widely used product is not hardware. **PennyLane**, its open-sourc
 
 ## Capital
 
-Xanadu raised on the order of $250M in venture funding through its 2021 Series C (at a valuation crossing $1B), placing it second to PsiQuantum among pure photonic quantum ventures in the period covered here.
+Xanadu raised on the order of \$250M in venture funding through its 2021 Series C (at a valuation crossing \$1B), placing it second to PsiQuantum among pure photonic quantum ventures in the period covered here.
 
 ## How to Read Xanadu
 

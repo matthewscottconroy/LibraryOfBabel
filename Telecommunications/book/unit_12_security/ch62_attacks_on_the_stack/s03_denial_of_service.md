@@ -127,7 +127,7 @@ A distributed attack removes the defence of blocking the source.
 |---|---|
 | **Botnets of compromised devices** | **IoT in particular** (Chapter 47) — **Mirai was 600,000 devices** |
 | **Reflectors** | above — no compromise required |
-| **Booter / stresser services** | **rented, from about $10 for a short attack** |
+| **Booter / stresser services** | **rented, from about \$10 for a short attack** |
 | **Compromised cloud instances** | **very high bandwidth per node** |
 
 The Mirai case is worth knowing precisely because it explains the current threat landscape:

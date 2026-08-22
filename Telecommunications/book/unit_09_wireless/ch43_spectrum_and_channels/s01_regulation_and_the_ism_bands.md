@@ -59,7 +59,7 @@ guarantee because the licensee controls it; unlicensed spectrum cannot, because 
 transmit at any moment for any reason.
 
 And the auction figures are worth knowing to appreciate what unlicensed access is worth:
-the US C-band auction in 2021 raised **$81 billion**, and European 5G auctions have raised
+the US C-band auction in 2021 raised **\$81 billion**, and European 5G auctions have raised
 tens of billions. That is the price of exclusivity.
 
 ## The ISM accident

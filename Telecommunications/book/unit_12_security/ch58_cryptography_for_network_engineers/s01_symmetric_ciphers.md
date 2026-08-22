@@ -34,7 +34,7 @@ it is the answer.
 
 | Key | Keys to search | |
 |---|---|---|
-| **56-bit (DES)** | $7.2 \times 10^{16}$ | **brute-forced in 1998, in 56 hours, for $250,000** |
+| **56-bit (DES)** | $7.2 \times 10^{16}$ | **brute-forced in 1998, in 56 hours, for \$250,000** |
 | **128-bit** | $3.4 \times 10^{38}$ | **beyond any conceivable brute force** |
 | 256-bit | $1.2 \times 10^{77}$ | more so |
 

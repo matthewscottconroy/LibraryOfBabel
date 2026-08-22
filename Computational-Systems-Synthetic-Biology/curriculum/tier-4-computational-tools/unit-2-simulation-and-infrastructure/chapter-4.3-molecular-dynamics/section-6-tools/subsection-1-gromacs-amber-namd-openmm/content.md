@@ -56,7 +56,7 @@ echo "C-alpha" | gmx rms -s md.tpr -f md.xtc -o rmsd.xvg
 - H-mass repartitioning natively supported
 
 **Limitations:**
-- Commercial license (AmberTools free; AMBER itself ~$500)
+- Commercial license (AmberTools free; AMBER itself ~\$500)
 - Less convenient for non-AMBER force fields (CHARMM requires conversion)
 - Analysis tools (cpptraj) have a learning curve
 

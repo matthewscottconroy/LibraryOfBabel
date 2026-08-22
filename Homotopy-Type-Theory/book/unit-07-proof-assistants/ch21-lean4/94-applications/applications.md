@@ -62,7 +62,7 @@ Formal verification of cryptographic protocols:
 
 ## Application 5: Hardware Verification — Intel, AMD, and Beyond
 
-Hardware contains bugs. The famous Intel Pentium FDIV bug (1994) caused incorrect floating-point division results, costing Intel $475 million in recalls. The Spectre and Meltdown vulnerabilities (2018) were design flaws in CPU microarchitectures that allowed unauthorized memory access. These are not software bugs — they are in the hardware itself.
+Hardware contains bugs. The famous Intel Pentium FDIV bug (1994) caused incorrect floating-point division results, costing Intel \$475 million in recalls. The Spectre and Meltdown vulnerabilities (2018) were design flaws in CPU microarchitectures that allowed unauthorized memory access. These are not software bugs — they are in the hardware itself.
 
 Formal verification of hardware has been pursued since the 1980s, and today it is standard practice at Intel, AMD, IBM, Arm, and other semiconductor companies:
 
@@ -94,7 +94,7 @@ The mathematics behind these verifications: control system correctness (Lyapunov
 
 ## Application 7: Blockchain and Smart Contract Verification
 
-Smart contracts — programs that run on blockchain platforms like Ethereum — manage billions of dollars in assets. They are also extremely hard to get right. The DAO hack (2016, $60 million stolen), the Parity wallet bug (2017, $150 million frozen permanently), and the Wormhole bridge hack (2022, $320 million stolen) were all caused by bugs in smart contracts.
+Smart contracts — programs that run on blockchain platforms like Ethereum — manage billions of dollars in assets. They are also extremely hard to get right. The DAO hack (2016, \$60 million stolen), the Parity wallet bug (2017, \$150 million frozen permanently), and the Wormhole bridge hack (2022, \$320 million stolen) were all caused by bugs in smart contracts.
 
 Formal verification is increasingly applied to smart contracts:
 

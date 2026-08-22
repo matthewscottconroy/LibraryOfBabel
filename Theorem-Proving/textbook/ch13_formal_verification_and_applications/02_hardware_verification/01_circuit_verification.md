@@ -2,7 +2,7 @@
 
 ## Why Hardware Verification Matters
 
-Software can be patched. Hardware cannot. A bug in a processor or ASIC affects every unit shipped and can only be fixed by a hardware recall — enormously expensive (the Pentium FDIV recall cost $475M) or by abandoning faulty products.
+Software can be patched. Hardware cannot. A bug in a processor or ASIC affects every unit shipped and can only be fixed by a hardware recall — enormously expensive (the Pentium FDIV recall cost \$475M) or by abandoning faulty products.
 
 Hardware verification uses formal methods to prove that a circuit implementation matches its specification *before* manufacturing.
 

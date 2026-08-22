@@ -73,7 +73,7 @@ Ask what happens when the controller is unreachable *(§51.2)* — Existing tunn
 forwarding; no policy change, no new site, no visibility. Be sceptical of a vague answer.
 
 Egress cost is usually the real reason for direct cloud interconnect *(§51.3)* — Roughly
-$0.09/GB over the Internet against $0.02/GB direct, with ingress free both ways. The
+\$0.09/GB over the Internet against \$0.02/GB direct, with ingress free both ways. The
 crossover sits near 10–20 TB per month, and above it the circuit pays for itself
 repeatedly. Model the egress before designing the connectivity.
 

@@ -8,7 +8,7 @@ In 2013, a paper in *Nature* described a yeast strain capable of producing 25 gr
 
 **Supply problem**: artemisinin is produced by the plant only at 0.01–1% dry weight. Cultivation of *A. annua* requires tropical climate, specific agricultural conditions, and 12–18 months from planting to harvest. The supply chain is dominated by smallholder farmers in sub-Saharan Africa and Asia, and the price fluctuates dramatically with growing season conditions, creating shortfalls in the exact years when malaria burden is highest.
 
-The price per unit of artemisinin from plant extraction ranges from $200–700/kg depending on the year — putting it out of reach for many patients in the countries with highest malaria burden.
+The price per unit of artemisinin from plant extraction ranges from \$200–700/kg depending on the year — putting it out of reach for many patients in the countries with highest malaria burden.
 
 **The Keasling group's goal** (Jay Keasling, UC Berkeley): engineer *Saccharomyces cerevisiae* to produce artemisinic acid at titers that could supply >100 million doses per year, at prices competitive with plant-derived material.
 

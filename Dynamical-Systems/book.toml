@@ -15,6 +15,14 @@ exclude = [
     "README.md",
 ]
 
+# \ket is used in the quantum-dynamics sections; braket supplies it and is not
+# part of pandoc's default preamble.
+header_includes = [
+  '''
+\usepackage{braket}
+''',
+]
+
 [[sources]]
 root = "."
 recursive = true

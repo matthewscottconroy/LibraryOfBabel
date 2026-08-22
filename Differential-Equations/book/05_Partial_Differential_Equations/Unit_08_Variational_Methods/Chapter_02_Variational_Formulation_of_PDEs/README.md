@@ -26,7 +26,7 @@ A classical solution satisfies the weak form. But the weak form makes sense for 
 
 ## Key Theorem: Lax-Milgram
 
-**Theorem (Lax-Milgram, 1954).** Let $H$ be a real Hilbert space with inner product $\langle\cdot,\cdot\rangle$ and norm $\|\cdot\|$. Let $a:H\times H\to\mathbb{R$ be a bilinear form satisfying:
+**Theorem (Lax-Milgram, 1954).** Let $H$ be a real Hilbert space with inner product $\langle\cdot,\cdot\rangle$ and norm $\|\cdot\|$. Let $a:H\times H\to\mathbb{R}$ be a bilinear form satisfying:
 
 1. **Boundedness:** $|a(u,v)| \leq M\|u\|\,\|v\|$ for all $u,v\in H$.
 2. **Coercivity:** $a(u,u) \geq \alpha\|u\|^2$ for all $u\in H$, some $\alpha > 0$.

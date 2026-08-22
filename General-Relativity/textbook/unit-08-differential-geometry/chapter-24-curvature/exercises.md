@@ -105,7 +105,7 @@ Lovelock (1971) proved the following theorem: in 4 spacetime dimensions, the onl
 
 (a) Why does this theorem "explain" the form of the Einstein equations? What constraints does it impose on modifications of GR?
 
-(b) In $n > 4$ dimensions, there are additional Lovelock tensors. The Gauss-Bonnet term $\mathcal{G} = R^2 - 4R_{\mu\nu}R^{\mu\nu} + R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$ contributes a new tensor $H_{\mu\nu} = 2(RR_{\mu\nu} - 2R_{\mu\alpha}R^\alpha_{\ \nu} - 2R_{\alpha\beta}R^\alpha_{\ \mu}_{\ \nu}^{\ \beta} - R_{\mu\alpha\beta\gamma}R_\nu^{\ \alpha\beta\gamma}) - \frac{1}{2}g_{\mu\nu}\mathcal{G}$ in $n\geq 5$ dimensions. Show that $\nabla_\mu H^{\mu\nu} = 0$ identically (it is divergence-free).
+(b) In $n > 4$ dimensions, there are additional Lovelock tensors. The Gauss-Bonnet term $\mathcal{G} = R^2 - 4R_{\mu\nu}R^{\mu\nu} + R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$ contributes a new tensor $H_{\mu\nu} = 2(RR_{\mu\nu} - 2R_{\mu\alpha}R^\alpha_{\ \nu} - 2R_{\alpha\beta}R^\alpha{}_{\ \mu}{}_{\ \nu}{}^{\ \beta} - R_{\mu\alpha\beta\gamma}R_\nu^{\ \alpha\beta\gamma}) - \frac{1}{2}g_{\mu\nu}\mathcal{G}$ in $n\geq 5$ dimensions. Show that $\nabla_\mu H^{\mu\nu} = 0$ identically (it is divergence-free).
 
 (c) $f(R)$ gravity modifies the action to $S = \int f(R)\sqrt{-g}\,d^4x$. The field equations are $f'(R)G_{\mu\nu} + \frac{1}{2}g_{\mu\nu}(f(R) - Rf'(R)) - \nabla_\mu\nabla_\nu f'(R) + g_{\mu\nu}\Box f'(R) = 8\pi GT_{\mu\nu}$. These contain fourth derivatives of the metric and violate Lovelock's conditions. What goes wrong physically with higher-derivative theories?
 

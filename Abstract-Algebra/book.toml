@@ -13,6 +13,32 @@ back_matter = [
     "book/notation-guide.md",
 ]
 
+# The prose uses amsthm-style environments as raw LaTeX (325 definitions, 334
+# theorems, 896 examples, ...).  Nothing in pandoc's default preamble declares
+# them, so every one of them is an "Environment definition undefined" error.
+# tikz-cd supplies the single commutative diagram in the category-theory part.
+header_includes = [
+  '''
+\usepackage{amsthm}
+\usepackage{tikz-cd}
+\usepackage{ytableau}
+% `Young` is the book's own name for a Young-tableau environment.
+\newenvironment{Young}{\begin{ytableau}}{\end{ytableau}}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{construction}[theorem]{Construction}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+''',
+]
+
 [[sources]]
 root = "book"
 recursive = true

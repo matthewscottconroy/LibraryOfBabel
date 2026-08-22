@@ -18,7 +18,7 @@ For each of the following, determine whether the limit exists, and if so, find i
 - (d) lim_{x→∞} (1 + 1/x)^x
 
 **Exercise 4.1.4** *(building continuity)*  
-Define f: ℝ → ℝ by f(x) = x² if x is rational, f(x) = 0 if x is irrational. Prove that f is continuous only at x = 0, and discontinuous everywhere else. (Hint: use the density of both ℚ and ℝ\ℚ in ℝ.)
+Define f: ℝ → ℝ by f(x) = x² if x is rational, f(x) = 0 if x is irrational. Prove that f is continuous only at x = 0, and discontinuous everywhere else. (Hint: use the density of both ℚ and ℝ\\ℚ in ℝ.)
 
 **Exercise 4.1.5** *(IVT in action)*  
 Prove that the equation x⁵ − 3x + 1 = 0 has at least three real solutions. (Find three sign changes.) Then prove that for any continuous function f: [0, 1] → [0, 1], there is a fixed point: some c with f(c) = c. (Apply IVT to g(x) = f(x) − x.)

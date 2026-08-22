@@ -12,7 +12,7 @@ The properties of harmonic functions are extraordinary: they are infinitely smoo
 
 **Section 3: The Mean Value Property** proves the theorem that the value of a harmonic function at any point equals its average over any ball (or sphere) centered at that point:
 
-$$u(\mathbf{x}_0) = \frac{1}{|B_r|}\int_{B_r(\mathbf{x}_0)}u\,d\mathbf{x} = \frac{1}|\mathcal{S}_{r}|}\int_{\partial B_r(\mathbf{x}_0)}u\,dS.$$
+$$u(\mathbf{x}_0) = \frac{1}{|B_r|}\int_{B_r(\mathbf{x}_0)}u\,d\mathbf{x} = \frac{1}{|\mathcal{S}_{r}|}\int_{\partial B_r(\mathbf{x}_0)}u\,dS.$$
 
 This is one of the most elegant results in analysis and has profound consequences.
 

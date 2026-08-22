@@ -5,7 +5,7 @@
 ## Section 13.1: Topological Spaces
 
 **Exercise 13.1.1.** Verify the topology axioms for:
-(a) The cofinite topology on an infinite set X: a set U ⊂ X is open iff U = ∅ or X\U is finite.
+(a) The cofinite topology on an infinite set X: a set U ⊂ X is open iff U = ∅ or X\\U is finite.
 (b) The lower limit topology on ℝ: the basis consists of half-open intervals [a, b).
 (c) The subspace topology on {0} ∪ {1/n : n ≥ 1} ⊂ ℝ.
 

@@ -16,6 +16,17 @@ back_matter = [
     "textbook/appendix-*.md",
 ]
 
+# graphicx: unicode-math renders \smallsetminus via \rotatebox.
+# The semantic-brackets pair \llbracket/\rrbracket is used 17 times in the
+# denotational-semantics material; it lives in stmaryrd, which pandoc's default
+# preamble does not load.
+header_includes = [
+  '''
+\usepackage{stmaryrd}
+\usepackage{graphicx}
+''',
+]
+
 [[sources]]
 root = "textbook"
 recursive = true

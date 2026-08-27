@@ -28,8 +28,6 @@ adder from Chapter 2 can be constructed from them. The second section is Java's
 conditionals, which will look — as promised in Chapter 6 — like a transition
 table with better notation.
 
-## Why this is not review
-
 If you have programmed before, `if` and `else` are familiar and you may be
 tempted to skim.
 

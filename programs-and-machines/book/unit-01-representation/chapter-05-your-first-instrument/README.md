@@ -31,8 +31,6 @@ We meet Java's primitive types, which are precisely the fixed-width boxes of
 Chapters 2 and 3 with names attached, and we write the program that displays
 their contents.
 
-## What I am not going to do
-
 I am not going to explain every word of `public static void main(String[] args)`
 in this chapter. I am going to explain some of it, tell you honestly which parts
 you should accept for now, and name the chapter where each remaining piece gets

@@ -37,8 +37,8 @@ Chain 32 of them for 32-bit addition — and the thirty-second carry-out having
 nowhere to go is exactly why `int` arithmetic wraps.
 
 **Multiplexer and latch.** `(S && B) || (!S && A)` is `if` in hardware.
-Cross-coupled NOR gates hold a bit, which is how a circuit remembers, which is
-how Chapter 6's state physically exists.
+Cross-coupled NOR gates hold a bit — how a circuit remembers, and therefore how
+the state described in Chapter 6 physically exists.
 
 **Boolean algebra.** Commutative, associative, distributive (both ways),
 identity, annihilation, double negation, idempotence, complement. Each provable

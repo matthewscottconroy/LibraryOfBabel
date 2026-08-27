@@ -30,9 +30,9 @@ negations, and conversely — were known in some form to medieval logicians, but
 Morgan stated them in a form general enough to be used as algebra. They are the
 most practically useful identities in this chapter.
 
-He was also an early and clear writer on mathematical induction, which he named,
-and which is the reasoning principle behind Chapter 13's recursion and Chapter
-9's loop invariants.
+He was also an early and clear writer on mathematical induction, and he gave it
+that name. It is the reasoning principle behind both the loop invariants of
+Chapter 9 and the recursion of Chapter 13.
 
 ## Claude Shannon (1916–2001)
 

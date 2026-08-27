@@ -22,8 +22,6 @@ expressions. When a structure is defined in terms of itself, a procedure defined
 in terms of itself fits it exactly, and the alternative — managing your own stack
 of pending work — is longer and harder to get right.
 
-## The connection backwards
-
 Chapter 9 asked you to prove a loop correct with an invariant: establish it, show
 each iteration preserves it, and read off the result when the loop stops. I said
 then that this is mathematical induction.
@@ -37,8 +35,6 @@ short.
 That is not a metaphor and it is worth taking literally. It gives you a technique
 for writing recursion that does not involve tracing anything.
 
-## What is here
-
 **Self-Reference** covers the base case, the leap of faith that makes recursive
 thinking possible, and the induction connection.
 
@@ -46,8 +42,6 @@ thinking possible, and the induction connection.
 a recursive *process* — a distinction that explains why one recursive method runs
 in constant space and another exhausts the stack, and why the naive Fibonacci is
 catastrophically slow while the naive factorial is fine.
-
-## A warning about tracing
 
 The natural response to a recursive method is to trace it: what calls what, in
 what order, with what values.

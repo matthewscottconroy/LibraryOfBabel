@@ -7,8 +7,6 @@ Every clause in that sentence is doing work, and the chapter takes them in turn:
 why fixed size, why the same type, why consecutive, and what "by position" costs
 and buys.
 
-## The thing worth understanding
-
 If you take one idea from this chapter, take this: **an array index is
 arithmetic.**
 
@@ -30,8 +28,6 @@ storage must be consecutive, so the addition works.
 Chapter 1 said fixed width buys constant-time addressing, and Chapter 15 is where
 that promise is collected.
 
-## What is here
-
 **The Array** covers declaring, filling, and accessing; the index-as-arithmetic
 argument; and bounds checking — a run-time check Java performs on every access,
 which costs something and prevents an entire category of security defect.
@@ -39,10 +35,9 @@ which costs something and prevents an entire category of security defect.
 **Arrays of Arrays** covers two-dimensional data, which in Java is not really
 two-dimensional, and the traversal patterns you will use constantly.
 
-## A note for people who have programmed before
-
-Arrays are usually taught early and mechanically: here is the syntax, here is a
-loop, remember that indices start at 0.
+A word for people who have programmed before. Arrays are usually taught early and
+mechanically: here is the syntax, here is a loop, remember that indices start
+at 0.
 
 That treatment leaves you able to use them and unable to reason about them. Why
 *do* indices start at 0? Why can an array not grow? Why is `int[]` fast and

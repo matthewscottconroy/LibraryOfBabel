@@ -16,8 +16,6 @@ nobody can change.
 This unit introduces the first and most important remedy: **giving a process a
 name**.
 
-## Why naming is the whole thing
-
 Consider what happens when you name something.
 
 Before: a block of eleven lines that walks an array, compares elements, and keeps
@@ -47,8 +45,6 @@ before.
 That is the theme of this unit. A method is a **contract**, and the value of the
 abstraction is exactly the reliability of the contract.
 
-## What is here
-
 **Chapter 11 — Giving a Process a Name.** Methods: parameters, return values, and
 the discipline of deciding what a method promises. This is also where we start
 paying the debts from Chapter 5.
@@ -65,8 +61,6 @@ problem becomes dramatically easier to solve.
 **Chapter 14 — Designing with Procedures.** Decomposition — how to decide what
 the methods should be, which is a design skill rather than a syntax one — and
 testing, which is how you check a contract without reading its implementation.
-
-## A note on what changes here
 
 Units I and II were about the machine. From here the book is increasingly about
 *you*: what you can hold in mind, what a reader can follow, how to divide work so

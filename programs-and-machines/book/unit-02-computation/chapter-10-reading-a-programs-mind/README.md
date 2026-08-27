@@ -23,8 +23,6 @@ making observations that distinguish between hypotheses.
 
 That is all debugging is. The rest is technique.
 
-## What is here
-
 **Tracing by Hand** is the fundamental skill: following a program's state through
 its execution on paper. It is slow, and doing it a dozen times builds an accurate
 mental model of the machine that nothing else supplies. Chapter 6 said a
@@ -34,8 +32,6 @@ computation is a sequence of states; a trace is that sequence, written down.
 and stack trace — which contains far more information than beginners extract from
 it. How to find a bug by bisection rather than by guessing. And what a debugger
 gives you that printing does not.
-
-## The attitude that matters
 
 One thing before we start, and it is not technical.
 

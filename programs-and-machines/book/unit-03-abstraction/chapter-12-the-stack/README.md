@@ -17,8 +17,6 @@ works, why a runaway recursion produces the specific error it does, why local
 variables vanish between calls, what a stack trace is, and why Java's parameter
 passing behaves the way it does.
 
-## The sentence everyone gets wrong
-
 This chapter also settles a question that generates more confusion than any other
 in introductory Java.
 
@@ -34,19 +32,14 @@ pass-by-value, always; for objects, the value that is passed is a reference.**
 Every consequence follows from that one sentence, including the two behaviors
 that seem to contradict each other.
 
-## What is here
-
 **Frames and Calls** builds the mechanism. The call frame, the stack discipline
 that makes returning possible, and what happens when the stack runs out.
 
 **What Gets Passed** uses the mechanism to settle parameter passing, and covers
 overloading — several methods sharing a name, resolved by their parameters.
 
-## Why this level of detail
-
-A fair question, since you can write working methods without any of it.
-
-Because the alternative is a set of memorized rules that occasionally produce
+You may wonder why this deserves such detail, since you can write working methods
+without any of it. Because the alternative is a set of memorized rules that occasionally produce
 wrong predictions and cannot be repaired. "Primitives are copied but objects are
 not" is such a rule: it works until you assign to a parameter, at which point it
 predicts the wrong thing and you have nowhere to go.

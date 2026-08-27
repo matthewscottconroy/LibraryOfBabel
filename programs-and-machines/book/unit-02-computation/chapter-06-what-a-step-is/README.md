@@ -35,9 +35,7 @@ answer will turn out to be less clear-cut than you expect, and that lack of
 clarity is the most productive idea in the whole book — it is what Unit VI is
 built on.
 
-## What this chapter does not do
-
-No Java. Chapter 7 resumes it.
+There is no Java in this chapter. Chapter 7 resumes it.
 
 I realize that is the second time this book has asked you to wait, and I will not
 do it again after this. But the model in this chapter takes about twenty pages to

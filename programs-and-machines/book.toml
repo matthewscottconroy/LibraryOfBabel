@@ -10,6 +10,7 @@ author = "Matthew Conroy"
 # The outline is the structural contract, not a chapter; keep it out of the PDF.
 exclude = [
     "programs_and_machines_outline.md",
+    "PROMISES.md",
     "README.md",
 ]
 

@@ -19,8 +19,6 @@ Chapter 11 said a method is a contract. A test is **the contract, executed** —
 automatic check that the promise still holds. The two subjects are the same
 subject: a method you can trust is a method whose contract is stated and checked.
 
-## What is here
-
 **Decomposition** is about finding the seams — where a computation naturally
 divides — and about the principle that a method should have one job. This includes
 the practical business of taking a long method apart, which is something you will
@@ -29,8 +27,6 @@ do constantly.
 **Testing a Method** covers what a test is, how to choose cases that actually find
 bugs, and the observation that tests are the most reliable documentation available
 because they cannot drift out of date without failing.
-
-## A note on when to do this
 
 Decomposition is often taught as something you do first: analyze the problem,
 identify the components, then write them.

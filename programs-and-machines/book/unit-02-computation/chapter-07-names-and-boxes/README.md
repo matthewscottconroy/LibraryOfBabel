@@ -21,16 +21,12 @@ like bookkeeping and is actually about limiting how much you have to think about
 at once. A name that exists everywhere is a name that could be changed by
 anything, and a program made of those is a program nobody can reason about.
 
-## What is here
-
 **Naming a Value** covers what a variable actually is in terms of Chapter 6's
 state, why assignment is not equality, and what a type declaration promises.
 
 **Where a Name Lives** covers scope and lifetime, and then mutation — the fact
 that a variable can change, which is the whole point of variables and also the
 source of most of the difficulty in the rest of the book.
-
-## A word about the pace
 
 Chapters 6 was abstract. This one is concrete and mostly straightforward, and if
 you have programmed before you will find much of it familiar.

@@ -120,7 +120,7 @@ happens.
 pair has two stable states — it holds a bit. That is a latch, and it is how a
 circuit remembers, which is how the state of Chapter 6 exists at all.
 
-Arithmetic, comparison, choice, and memory. From NAND, which is from switches,
-which is from Chapter 1's agreement about voltage.
+Arithmetic, comparison, choice, and memory. All of it from NAND; NAND from
+switches; switches from the agreement about voltage in Chapter 1.
 
 Next: the algebra that lets you rewrite conditions without changing them.

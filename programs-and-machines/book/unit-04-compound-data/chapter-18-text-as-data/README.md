@@ -8,17 +8,16 @@ This chapter does, and it is a good place for the unit to end, because a `String
 turns out to be a worked example of nearly everything the unit has said.
 
 It is a **collection of values** — characters — with a fixed size once created,
-which is Chapter 15's array. It is an **abstract data type**, whose representation
-changed underneath everyone in Java 9 without a line of source changing anywhere,
-which is Chapter 16's argument in its strongest instance. It is **immutable**,
-which is a design decision this chapter defends and which Chapter 20 will
-generalize. And building one efficiently requires exactly the growth-by-doubling
+so it is the array of Chapter 15. It is an **abstract data type**: its
+representation changed underneath everyone in Java 9 without a line of source
+changing anywhere, which is the strongest instance of Chapter 16's argument there
+is. It is **immutable**, a design decision this chapter defends and Chapter 20
+generalizes. And building one efficiently requires exactly the growth-by-doubling
 of Chapter 17.
 
-## Why text is worth a chapter
-
-Because most programs are mostly text handling, and most people learn it as a
-collection of remembered methods rather than as a subject with a shape.
+Text deserves a chapter because most programs are mostly text handling, and most
+people learn it as a collection of remembered methods rather than as a subject
+with a shape.
 
 There is a shape. The chapter's two halves are it.
 
@@ -32,8 +31,6 @@ from files, users, and networks, and must become structured data. Structured dat
 must become text for display and for storage. Both are conversions between
 representations, and Chapter 1's warning applies: a conversion is where information
 is lost and where wrong assumptions surface.
-
-## The one thing to know first
 
 `String` is **immutable**. Once created, its contents never change.
 

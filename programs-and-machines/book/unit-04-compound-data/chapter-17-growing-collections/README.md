@@ -11,8 +11,6 @@ This chapter is about what you use instead, and — more usefully — about how 
 works, because the collections library offers a dozen types and choosing well
 requires knowing what each is doing underneath.
 
-## The plan
-
 **When the Size Is Not Known** starts with `ArrayList`, which is the one you will
 use most, and then does something unusual for an introductory treatment: it shows
 you how growth actually works. The answer is a nice piece of engineering, it
@@ -26,9 +24,7 @@ answer three different questions and are chosen by asking which question you hav
 examples, what they promise, how to walk a collection safely, and a short guide to
 choosing.
 
-## What this chapter assumes
-
-Chapter 16, and specifically two things from it.
+This chapter assumes Chapter 16, and specifically two things from it.
 
 Collections hold **objects**, so a collection of numbers holds `Integer` rather
 than `int`, and everything Section 16.2.2 said about autoboxing applies constantly

@@ -23,10 +23,8 @@ reason the loop stopped — tells you the answer is right. It is the most powerf
 idea in this unit, and it is not difficult. It is mostly a matter of writing down
 what you already believe and then checking that you were entitled to believe it.
 
-## Why bother
-
-A fair question, since the loops you will write this month are short enough to
-eyeball.
+You may reasonably ask why this is worth the trouble, since the loops you will
+write this month are short enough to eyeball.
 
 Two reasons. The first is that off-by-one errors are the most common bug in
 programming and eyeballing does not catch them, because the mistake is invisible
@@ -40,8 +38,6 @@ question that unlocks it, and it is much faster than tracing.
 I will not pretend every loop deserves a written proof. Most do not. But the
 *habit* of asking what stays true is cheap, and it is the difference between a
 loop you hope works and one you know works.
-
-## What is here
 
 **The Shape of a Loop** covers `while`, `for`, and `do`-`while`, and argues that
 `while` is the real construct and the others are abbreviations.

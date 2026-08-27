@@ -13,8 +13,6 @@ This chapter is about closing that gap. The tool is the **abstract data type**:
 state the agreement about what a collection of values means, and make it
 enforceable rather than hoped for.
 
-## The connection
-
 Chapter 11 gave a method a contract — a precondition and a postcondition — and
 observed that this was Chapter 9's loop invariant at a different scale. I promised
 a third scale, and this is it.
@@ -34,8 +32,6 @@ Three scales, one technique:
 That is the intellectual centre of the unit, and once you have it, Unit V's
 classes become the mechanism for enforcing it rather than a new subject.
 
-## What is here
-
 **The Abstract Data Type** is the idea: separating what a thing *is* from how it
 is *stored*, and the invariant that makes the separation worth having. Java's
 mechanism for enforcement arrives in Chapter 19; here we establish what it is for,
@@ -50,8 +46,6 @@ surprising bugs in the language.
 
 And then `null`, which is where the chapter ends and which its inventor has called
 a billion-dollar mistake.
-
-## A note on order
 
 This chapter comes before classes, which may seem backwards — how can we discuss
 data abstraction before the construct that provides it?

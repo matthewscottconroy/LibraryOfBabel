@@ -7,7 +7,7 @@ about the judgment involved in deciding what they should be.
 The mechanics take about two pages. The judgment takes the rest of the unit and,
 honestly, a career.
 
-## The mechanics, in brief
+Here are the mechanics:
 
 ```java
 static int square(int n) {
@@ -21,8 +21,6 @@ which evaluates to 49.
 That is nearly everything mechanical about methods, and if you have programmed
 before it is familiar. The rest of this chapter is about the parts that are not
 mechanical.
-
-## The part that is not mechanical
 
 Here is the question this chapter is really about: **what should be a method?**
 
@@ -46,8 +44,6 @@ selecting for:
 clearly which inputs it accepts.
 
 That third one is the contract, and the second half of the chapter is about it.
-
-## What is here
 
 **The Method** covers why naming a process is valuable, how parameters carry
 information in, how return values carry it out, and the debts from Chapter 5 —

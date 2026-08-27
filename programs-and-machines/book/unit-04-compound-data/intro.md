@@ -7,8 +7,6 @@ borrowed from a chapter that had not happened yet.
 Real programs handle thousands of things at once, and this unit is about what
 that requires.
 
-## The problem
-
 Suppose you need the average of a hundred test scores. With what you have, you
 would need a hundred variables:
 
@@ -36,8 +34,6 @@ think of together.
 
 Every part of this unit addresses one of those.
 
-## The deeper problem
-
 There is a fourth issue, and it is the one that makes this a unit rather than a
 chapter.
 
@@ -55,8 +51,6 @@ means whatever we have agreed it means**, and the agreement is not in the bits.
 The remedy this unit builds is the **abstract data type**: a way of stating the
 agreement and making it enforceable rather than merely hoped for.
 
-## What is here
-
 **Chapter 15 — Many Things at Once.** Arrays. Contiguous storage, the index as
 arithmetic, bounds checking, and two-dimensional data. The mechanism is Chapter
 1's fixed width paying off directly.
@@ -73,8 +67,6 @@ generics as a promise about content.
 **Chapter 18 — Text as Data.** Strings. Immutability and why it is the right
 choice, building text efficiently, and turning characters into meaning — which is
 Chapter 4's encodings, now something you manipulate rather than merely store.
-
-## What changes here
 
 Until now, a variable held a value. From Chapter 15 onwards, a variable usually
 holds a *reference to a thing that holds values*, and Chapter 12's aliasing stops

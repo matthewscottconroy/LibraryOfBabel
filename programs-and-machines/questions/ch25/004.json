@@ -1,0 +1,21 @@
+{
+  "question_id": "db1e799d-f8c4-4fb3-b147-9939c94b3f4a",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "mc",
+  "text": "`String::length` satisfies `Function<String, Integer>`, which takes one argument. But `length()` takes none. How?",
+  "choices": [
+    "`length` has a hidden static overload that the compiler selects in this context.",
+    "It is an unbound instance-method reference: the receiver becomes the first argument.",
+    "The compiler generates a wrapper class whose single method calls `length` on a cached instance.",
+    "`Function` permits a mismatch of one argument, filling the gap with the target type's default."
+  ],
+  "answer": 1,
+  "explanation": "It looks like a static reference and is not. Java works out from the target type that the receiver should be supplied by the caller, which is what makes `Person::name` usable as a `Function<Person, String>` in a stream. The four kinds are: a method on a particular object (`System.out::println`), a static method (`Integer::sum`), an unbound instance method (`String::length`), and a constructor (`ArrayList::new`).",
+  "tags": [
+    "method-references",
+    "syntax"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

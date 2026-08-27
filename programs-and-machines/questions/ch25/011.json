@@ -1,0 +1,19 @@
+{
+  "question_id": "27eef2ff-84b0-4fc5-9b6c-8e136d9588b9",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "blank",
+  "text": "A function that reads only its arguments and does nothing but return a value — movable, cacheable, testable in isolation, and safe on several threads — is called a ___ function.",
+  "choices": [
+    "pure",
+    "pure"
+  ],
+  "answer": "pure",
+  "explanation": "The related property is referential transparency: a call can be replaced by its result without changing the program's meaning. It is what the parallel counter lacked and what the stream assumed. None of this requires a lambda — pure methods were available since Chapter 11 — but lambdas make the pure parts small enough to pass around, which turns a discipline into a convenience.",
+  "tags": [
+    "purity",
+    "functional"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

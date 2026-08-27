@@ -1,0 +1,21 @@
+{
+  "question_id": "ddede5f4-6262-4715-9fcd-964af0939a0b",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which of these is the best reason to write a loop rather than a stream pipeline?",
+  "choices": [
+    "The team is unfamiliar with streams, so the loop will be correct more often.",
+    "The result needs to be mutable, which a stream pipeline cannot produce.",
+    "The collection has fewer than a thousand elements, below which streams do not pay off.",
+    "The computation is not map, filter or reduce — some stage would do a bit of everything."
+  ],
+  "answer": 3,
+  "explanation": "Section 26.2.1's test: name what each stage does. If a stage resists naming, the decomposition failed. The other honest cases are needing an index, iterating two collections in step (Java has no `zip`), an early exit conditioned on accumulated state, mutation, and a long body. Team fluency is a real consideration but an argument for consistency, not for loops; and `collect(Collectors.toList())` yields a mutable list.",
+  "tags": [
+    "style",
+    "judgment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

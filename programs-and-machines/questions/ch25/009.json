@@ -1,0 +1,21 @@
+{
+  "question_id": "3363254d-b16d-4bf1-98eb-6c8a6e984de3",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Ten million ints filtered, squared and summed took 3 ms as a loop, 3 ms as an `IntStream`, and 29 ms as a `Stream<Integer>`. What is the lesson?",
+  "choices": [
+    "The abstraction is free; the boxing is not — use the primitive streams for numbers.",
+    "Loops are faster in principle, and the `IntStream` result was a measurement artifact.",
+    "Streams carry a constant overhead that only shows up above a million elements.",
+    "The JIT cannot inline lambdas that appear in a generic pipeline, so `Stream<T>` is always slower."
+  ],
+  "answer": 0,
+  "explanation": "The JIT inlines the lambdas and fuses the stages, so `IntStream` produces essentially the loop. The tenfold gap is ten million `Integer` objects allocated, dereferenced and collected — Chapter 16's measurement in a new place. `mapToInt` is one word and it is the difference between the two rows, which means performance is rarely the reason to avoid a stream. Readability usually is.",
+  "tags": [
+    "performance",
+    "boxing"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "bf6bbb58-fc9c-4429-be11-3028f427d2bb",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "mc",
+  "text": "`int[] counter = {0}; stream.parallel().forEach(n -> counter[0]++);` over a million elements gave 97282, 78637, and 906250 on three runs. What does that show?",
+  "choices": [
+    "The lambda was not pure, and the stream assumed it was — so the increments raced and roughly nine in ten were lost.",
+    "`forEach` makes no guarantee about visiting each element exactly once, even sequentially.",
+    "The array escape hatch defeats the JIT's inlining, so the counter is updated out of order.",
+    "Parallel streams sample their input rather than visiting every element."
+  ],
+  "answer": 0,
+  "explanation": "Each element is visited exactly once; the problem is that `counter[0]++` is a read, an add, and a write, and several threads interleave them. The effectively-final restriction was a nudge toward lambdas that do not mutate shared state, and the array trick removes the nudge without removing the reason for it. The rule to carry: a lambda that modifies something outside itself is one you must think hard about.",
+  "tags": [
+    "parallelism",
+    "purity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

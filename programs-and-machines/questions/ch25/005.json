@@ -1,0 +1,21 @@
+{
+  "question_id": "98f2ffd2-376c-4fdf-a121-1a7324ea816a",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What does `adder(int n) { return x -> x + n; }` actually produce?",
+  "choices": [
+    "A partially applied static method, resolved by the JIT at the first call.",
+    "A new anonymous class per distinct value of `n`, generated at run time.",
+    "A reference into `adder`'s stack frame, kept alive by the returned lambda.",
+    "An object holding the captured value and code that uses it — a closure, which is also a one-field, one-method object."
+  ],
+  "answer": 3,
+  "explanation": "`n` lived in `adder`'s stack frame, which was destroyed when `adder` returned, and the lambda still has it because the value was copied in. `adder(5).apply(1)` gives 6 and `adder(100).apply(1)` gives 101 — two functions from one method. That a closure and a one-field object are the same thing under two notations is the Lambda Papers' claim, visible in six lines.",
+  "tags": [
+    "closures",
+    "higher-order"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

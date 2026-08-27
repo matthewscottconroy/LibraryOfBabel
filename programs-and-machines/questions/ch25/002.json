@@ -1,0 +1,21 @@
+{
+  "question_id": "80b36714-9f97-4413-aef2-f88abaec8076",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why must a local variable captured by a lambda be effectively final?",
+  "choices": [
+    "Mutable capture would require the lambda to be synchronized, which Java forbids by default.",
+    "The lambda can outlive the method's stack frame, so the value is copied — and allowing assignment would make the copy silently disagree with the original.",
+    "The compiler cannot infer a lambda's parameter types if any captured variable is mutable.",
+    "The JVM stores captured variables in a read-only region of the constant pool."
+  ],
+  "answer": 1,
+  "explanation": "A local lives in Chapter 12's stack frame, and the frame is destroyed when the method returns. A lambda stored in a field, handed to a thread, or returned outlives it, so the value must be copied in. Once it is a copy, permitting assignment would be a lie. JavaScript captures the variable itself, which is why closures over a loop counter used to all see the final value — a trap Java's restriction has no equivalent of.",
+  "tags": [
+    "closures",
+    "capture"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

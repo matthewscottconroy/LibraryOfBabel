@@ -1,0 +1,21 @@
+{
+  "question_id": "0e87a553-8b44-46c5-99cb-381b6eb58eea",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What is a Java lambda expression, at the level of the type system?",
+  "choices": [
+    "A method pointer, resolved statically at the call site like an overload.",
+    "An implementation of a functional interface, written in a shorter notation — nothing more exotic.",
+    "A compiled closure object that the JVM treats as a primitive rather than a reference.",
+    "A value of a new function type introduced in Java 8, distinct from any interface."
+  ],
+  "answer": 1,
+  "explanation": "`x -> x * x` assigned to an `IntOp` *is* an `IntOp`, and calling it is an ordinary `invokeinterface` from Section 22.1.1. Java chose this over adding function types for compatibility: `Comparator`, written in 1998, accepts lambdas without a line changing. The cost is that a lambda has no type of its own, which is why `var f = x -> x * x;` does not compile — the compiler has no context to infer from.",
+  "tags": [
+    "lambdas",
+    "interfaces"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

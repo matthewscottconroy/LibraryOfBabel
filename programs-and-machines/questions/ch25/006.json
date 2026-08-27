@@ -1,0 +1,21 @@
+{
+  "question_id": "07e1e5a8-958a-4302-93e3-74b53e5f8d20",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In `reduce(identity, operator)`, why does the identity value have to be genuinely neutral?",
+  "choices": [
+    "Reducing an empty input returns it, so a wrong identity gives wrong answers only when the input is empty.",
+    "A non-neutral identity prevents the JIT from fusing the reduction with earlier stages.",
+    "The operator is applied to the identity twice when the stream is parallel.",
+    "The identity determines the result type, so a wrong one causes a class cast at run time."
+  ],
+  "answer": 0,
+  "explanation": "0 for addition, 1 for multiplication, `\"\"` for concatenation. Choose wrong and every test with non-empty data passes, which is what makes it a durable bug. This is Chapter 13's accumulator passing with the accumulator as the only state — which is exactly why the pattern parallelizes, provided the operator is also associative.",
+  "tags": [
+    "reduce",
+    "correctness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

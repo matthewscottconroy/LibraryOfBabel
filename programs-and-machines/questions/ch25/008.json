@@ -1,0 +1,21 @@
+{
+  "question_id": "99a3eaf2-76de-4735-81f7-f5caa4f69164",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "mc",
+  "text": "`ns.stream().peek(seen::add).filter(n -> n > 3).findFirst()` over the list 1 to 10 reported examining `[1, 2, 3, 4]`. Why only four?",
+  "choices": [
+    "`peek` samples the stream rather than observing every element that passes.",
+    "The stream was split into batches of four, and only the first batch was needed.",
+    "`filter` evaluated its predicate on the first four elements and cached the rest.",
+    "Streams are lazy — elements are pulled through the whole pipeline one at a time, and `findFirst` stopped as soon as it had an answer."
+  ],
+  "answer": 3,
+  "explanation": "The hand-written `filter` from Section 26.2.1 cannot do this: it builds the entire filtered list, then `findFirst` looks at element zero, having done ten times the necessary work. On a million-element list where the answer is early, that is the difference between instant and slow. The same mechanism is what makes `Stream.iterate(1, n -> n * 2).limit(10)` terminate over an infinite source.",
+  "tags": [
+    "streams",
+    "laziness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -52,8 +52,8 @@ It also means the hash code can be computed once and cached inside the string,
 which `String` does. Repeated map lookups with the same key do the hashing work
 once.
 
-**Threads are safe.** Chapter 31's subject, and immutable objects need no
-coordination at all: if nothing writes, no reader can see a half-finished state.
+**Threads are safe.** This is the subject of Chapter 31, and immutable objects need
+no coordination at all: if nothing writes, no reader can see a half-finished state.
 
 ## What it costs
 
@@ -98,12 +98,13 @@ Worth flagging, because the chapter is a special case of something larger.
 
 An immutable object is one you can stop thinking about. Its value at any point in
 the program is the value it was created with, so understanding it requires finding
-one line rather than tracing every path — Chapter 7's argument about `final`, at
-the scale of a whole object.
+one line rather than tracing every path. Chapter 7 made that argument for `final`;
+this is the same argument at the scale of a whole object.
 
 Java applies this to `String`, to the wrapper types of Chapter 16, and to the
 `List.of` collections of Chapter 17. Chapter 20 argues you should apply it to your
-own types wherever you can, and Chapter 22's records exist to make it convenient.
+own types wherever you can, and the records of Chapter 22 exist to make it
+convenient.
 
 The cost is allocation. The benefit is that an entire category of reasoning —
 *could this have changed since I last looked?* — disappears.

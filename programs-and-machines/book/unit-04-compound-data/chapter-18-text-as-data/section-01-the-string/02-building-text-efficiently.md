@@ -10,7 +10,7 @@ for (int i = 0; i < 40_000; i++) {
 That took **79 ms** on the machine used for this book. The equivalent using
 `StringBuilder` took **1 ms** — about eighty times faster.
 
-The reason is immutability, and the arithmetic is Chapter 17's in reverse.
+The reason is immutability, and the arithmetic is the one from Chapter 17 run in reverse.
 
 ## Why concatenation in a loop is quadratic
 
@@ -28,7 +28,7 @@ Iteration *i* copies *i* characters. Over *n* iterations that is
 For 40,000 characters that is 800 million character copies, plus 40,000
 allocations, plus 40,000 strings for the garbage collector.
 
-This is the same shape as Chapter 17's grow-by-one analysis. The remedy is the same
+This has the same shape as the grow-by-one analysis in Chapter 17. The remedy is the same
 too.
 
 ## StringBuilder
@@ -42,7 +42,7 @@ String result = sb.toString();
 ```
 
 A `StringBuilder` is a **mutable** sequence of characters, backed by an array that
-grows by doubling — Chapter 17's `ArrayList`, specialized for characters.
+grows by doubling: the `ArrayList` of Chapter 17, specialized for characters.
 
 So `append` is amortized constant time, the whole loop is linear, and one string is
 created at the end when you call `toString`.

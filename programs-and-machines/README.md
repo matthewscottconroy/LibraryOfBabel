@@ -65,8 +65,13 @@ cd quiz && cargo run -q -p quiz-cli -- --subject ../programs-and-machines --stat
 ## Validating
 
 ```bash
-python3 tools/validate.py --book programs-and-machines
+python3 tools/validate.py --book programs-and-machines   # repo-wide checks
+cd programs-and-machines && python3 tools-lint.py        # this book's contract
 ```
+
+`tools-lint.py` parses the outline and checks the tree against it, along with the
+prose failure modes that have each cost a rebuild. It must print `clean` before a
+commit. `tools-fix.py` repairs the mechanical ones.
 
 ## Conventions
 

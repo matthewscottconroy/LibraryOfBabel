@@ -42,7 +42,7 @@ the elements and there is no arithmetic that finds them.
 
 **The size is fixed**, because consecutive storage means the space after the array
 may belong to something else. Growing would require moving everything — which is
-what Chapter 17's `ArrayList` does, and it is why growth costs something.
+what the `ArrayList` of Chapter 17 does, and it is why growth costs something.
 
 Three properties, one cause. Not arbitrary rules to memorize.
 
@@ -72,7 +72,7 @@ is idiomatic because it fits both.
 
 ## What an array variable holds
 
-Chapter 12's point, made concrete:
+Here is the point of Chapter 12, made concrete:
 
 ```java
 int[] a = {3, 1, 4, 1, 5};
@@ -111,8 +111,8 @@ accident that everyone trips over and nobody can fix.
 
 The honest other side.
 
-**Fixed size.** Deciding the size in advance is frequently impossible, and it is
-Chapter 17's whole subject.
+**Fixed size.** Deciding the size in advance is frequently impossible, and that is the whole
+subject of Chapter 17.
 
 **No insertion or removal.** Inserting at position 3 of a ten-element array means
 shifting seven elements — linear work, where a linked structure would do it in

@@ -1,8 +1,11 @@
 # Promises Outstanding
 
-Every forward reference made by Units I-IV to a chapter that is not yet written.
-Units V-VIII must honour these: each entry is a commitment the reader has already
-been given. Generated from the source; regenerate after any edit.
+Every forward reference made by the written chapters to a chapter that does not
+yet exist. Each is a commitment the reader has already been given, and the units
+that follow have to honour them.
+
+Regenerate after any edit; `tools-lint.py` guarantees the references are in range,
+not that they are kept.
 
 **88 promises across 16 unwritten chapters.**
 
@@ -70,7 +73,7 @@ been given. Generated from the source; regenerate after any edit.
 - **unit-04-compound-data/chapter-18-text-as-data/important-researchers.md**
   > …ators, no subclassing, all fields private and final, and defensive copies of any mutable component — are what Chapter 20 will formalize. His summary is the sentence worth carrying: *classes should be immutable unless there is a very good reason to make them mutable.* Th…
 - **unit-04-compound-data/chapter-18-text-as-data/section-01-the-string/01-immutability-and-why.md**
-  > …applies this to `String`, to the wrapper types of Chapter 16, and to the `List.of` collections of Chapter 17. Chapter 20 argues you should apply it to your own types wherever you can, and Chapter 22's records exist to make it convenient. The cost is allocation. The bene…
+  > …applies this to `String`, to the wrapper types of Chapter 16, and to the `List.of` collections of Chapter 17. Chapter 20 argues you should apply it to your own types wherever you can, and the records of Chapter 22 exist to make it convenient. The cost is allocation. The…
 
 ## Chapter 21 — Families of Types  *(Unit V: Objects, State, and Identity)*
 
@@ -94,7 +97,7 @@ been given. Generated from the source; regenerate after any edit.
 - **unit-04-compound-data/chapter-17-growing-collections/section-01-when-the-size-is-not-known/03-list-set-and-map.md**
   > …ite needs `equals` and `hashCode`** before it can be used as a key or put in a set. Chapter 20 shows how, and Chapter 22's records do it for you. ## Declaring by interface Repeating the convention because it matters: ```java List<String> names = new ArrayList<>(); // ye…
 - **unit-04-compound-data/chapter-18-text-as-data/section-01-the-string/01-immutability-and-why.md**
-  > ….of` collections of Chapter 17. Chapter 20 argues you should apply it to your own types wherever you can, and Chapter 22's records exist to make it convenient. The cost is allocation. The benefit is that an entire category of reasoning — *could this have changed since I…
+  > …s of Chapter 17. Chapter 20 argues you should apply it to your own types wherever you can, and the records of Chapter 22 exist to make it convenient. The cost is allocation. The benefit is that an entire category of reasoning — *could this have changed since I last look…
 
 ## Chapter 23 — Designing Object Systems  *(Unit V: Objects, State, and Identity)*
 
@@ -181,7 +184,7 @@ been given. Generated from the source; regenerate after any edit.
 - **unit-04-compound-data/chapter-17-growing-collections/section-02-generics-and-iteration/03-choosing-a-collection.md**
   > …pes cover almost everything, and the remainder — `ArrayDeque`, `PriorityQueue`, the concurrent collections of Chapter 31 — announce themselves when you need them. ## Costs, roughly Chapter 32 gives the notation; the shape is useful now. | operation | `ArrayList` | `Link…
 - **unit-04-compound-data/chapter-18-text-as-data/section-01-the-string/01-immutability-and-why.md**
-  > …, which `String` does. Repeated map lookups with the same key do the hashing work once. **Threads are safe.** Chapter 31's subject, and immutable objects need no coordination at all: if nothing writes, no reader can see a half-finished state. ## What it costs Modificati…
+  > …Repeated map lookups with the same key do the hashing work once. **Threads are safe.** This is the subject of Chapter 31, and immutable objects need no coordination at all: if nothing writes, no reader can see a half-finished state. ## What it costs Modification means a…
 - **unit-04-compound-data/chapter-18-text-as-data/section-01-the-string/02-building-text-efficiently.md**
   > …fer You will meet `StringBuffer`, which is `StringBuilder` with every method synchronized for thread safety — Chapter 31's subject. It is older, it is slower, and it is almost never what you want, because a builder is nearly always local to one method and therefore touc…
 

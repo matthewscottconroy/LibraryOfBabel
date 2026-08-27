@@ -47,6 +47,32 @@ familiar, because each will have been derived rather than announced.
   "Chapter 7" — silently invalidating every cross-reference in the book.
 - Exponents are written as LaTeX math (`$2^{n}$`), never as Unicode superscript
   letters, which the PDF's serif font cannot render.
+- A chapter runs 7,000–9,500 words across 12–13 files. Units I–IV average 7,800;
+  do not let later units drift below that, or the back half of the book will
+  feel thinner than the front.
+- Back-references are necessary and easy to overdo. `, which is …` and
+  `Chapter N's …` are this book's two habitual constructions; keep their
+  combined density under about four per thousand words in any one file, and vary
+  the phrasing rather than repeating one appositive.
+
+## Enforcement
+
+`tools-lint.py` parses this outline and checks the tree against it, so the
+contract above is enforced rather than merely described. It also checks the
+failure modes that have each cost a rebuild at least once: overview files
+carrying `##` headings, Unicode superscripts, bare backslash commands in prose,
+glyphs no installed font carries, inline math pandoc will not close, missing
+back matter, unmarked exercise sets, out-of-range chapter references, and the
+voice spec's banned words. Every check is verified by fault injection.
+
+```bash
+python3 tools-lint.py          # must print "clean"
+python3 tools-fix.py           # repairs the mechanical ones
+```
+
+Run it before every commit. The heading rule above was fixed once by hand and
+then reintroduced in fourteen files, which is why it is now a check rather than
+an intention.
 
 ---
 
@@ -117,7 +143,7 @@ Characters, Unicode, and the long argument about what a letter is.
   - `02-unicode-and-code-points.md` — Unicode and Code Points
   - `03-encodings-on-the-wire.md` — Encodings on the Wire
 - **Everything Else Is Also Bits** — `section-02-everything-else-is-also-bits/README.md`
-  - `01-colour-sound-and-images.md` — Colour, Sound, and Images
+  - `01-color-sound-and-images.md` — Color, Sound, and Images
   - `02-the-representation-question.md` — The Representation Question
 
   Back matter: `exercises.md`, `further-reading.md`, `important-concepts.md`, `important-researchers.md`

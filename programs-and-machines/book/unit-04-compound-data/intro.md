@@ -21,7 +21,7 @@ they point at three different needs.
 
 **You cannot write a loop over them.** There is no way to say "the next one" —
 `score1` and `score2` are unrelated names as far as the machine is concerned.
-Chapter 6's transitions can consult state, and here there is no state that
+The transitions of Chapter 6 can consult state, and here there is no state that
 represents *position among the scores*.
 
 **The count must be known when you write the program.** A hundred and one scores
@@ -46,7 +46,7 @@ Those facts are true and they are not in the data. They live in your head, or in
 comment, or in the code that happens to respect them — and any part of the program
 can violate them without anything noticing.
 
-That is Chapter 1's argument arriving for the fifth time. **A collection of values
+That is the argument of Chapter 1, arriving for the fifth time. **A collection of values
 means whatever we have agreed it means**, and the agreement is not in the bits.
 The remedy this unit builds is the **abstract data type**: a way of stating the
 agreement and making it enforceable rather than merely hoped for.
@@ -56,8 +56,8 @@ arithmetic, bounds checking, and two-dimensional data. The mechanism is Chapter
 1's fixed width paying off directly.
 
 **Chapter 16 — Contracts for Data.** The abstract data type and the
-representation invariant — Chapter 11's contract, applied to data rather than to
-process. Also the wrapper classes, autoboxing, and `null`, which is the most
+representation invariant — the contract of Chapter 11, applied to data rather than
+to process. Also the wrapper classes, autoboxing, and `null`, which is the most
 consequential mistake in the language's ancestry.
 
 **Chapter 17 — Growing Collections.** `ArrayList` and the collections framework.
@@ -66,7 +66,7 @@ generics as a promise about content.
 
 **Chapter 18 — Text as Data.** Strings. Immutability and why it is the right
 choice, building text efficiently, and turning characters into meaning — which is
-Chapter 4's encodings, now something you manipulate rather than merely store.
+the encodings of Chapter 4, now something you manipulate rather than merely store.
 
 Until now, a variable held a value. From Chapter 15 onwards, a variable usually
 holds a *reference to a thing that holds values*, and Chapter 12's aliasing stops

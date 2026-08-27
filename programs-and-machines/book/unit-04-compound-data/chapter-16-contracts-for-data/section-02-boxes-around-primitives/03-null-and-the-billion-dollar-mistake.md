@@ -37,7 +37,7 @@ rather than merely quoting.
 ## What is wrong with it
 
 **It defeats the type system.** When a method declares that it returns a `String`,
-the type is supposed to be a promise — Chapter 7's argument. But it may return
+the type is supposed to be a promise, as Chapter 7 argued. But it may return
 `null`, which is not a `String` and supports none of a `String`'s operations. So
 the promise is really "a String, or nothing", and the type does not say which.
 
@@ -46,8 +46,8 @@ will not tell you which you have.
 
 **The failure is remote.** A `null` can be stored, passed through several layers,
 and put in a collection without complaint. It fails when someone finally uses it,
-which may be far from where it entered. Chapter 10's distance between mistake and
-symptom, maximized — and the stack trace shows you the use, not the origin.
+which may be far from where it entered — the distance between mistake and symptom
+that Chapter 10 warned about, maximized — and the stack trace shows you the use, not the origin.
 
 **It has no meaning of its own.** `null` might mean not found, not yet
 initialized, not applicable, an error occurred, or genuinely absent. The value is
@@ -87,7 +87,7 @@ This is the modern answer, added in Java 8. Use it for **return values** that ma
 legitimately be absent. It is not intended for fields or parameters, and using it
 everywhere is its own mistake.
 
-**Fail fast on `null` parameters.** Chapter 11's argument:
+**Fail fast on `null` parameters.** Chapter 11 made the case:
 
 ```java
 Objects.requireNonNull(name, "name must not be null");

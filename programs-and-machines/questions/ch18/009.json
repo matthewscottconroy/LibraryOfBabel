@@ -1,0 +1,21 @@
+{
+  "question_id": "37e6b955-daa7-404c-8bbe-8bce6561d4d5",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What does `private` actually accomplish, given that reflection can bypass it?",
+  "choices": [
+    "It makes field access faster",
+    "It is required for the field to be inherited",
+    "It stops an ordinary reader from having to consider the possibility, making the preservation check finite",
+    "It prevents malicious code from reading the field"
+  ],
+  "answer": 2,
+  "explanation": "It is a reasoning tool, not a security boundary. It converts a question you cannot answer — could anything have made this negative? — into one you can: do these six methods each preserve the invariant?",
+  "tags": [
+    "private",
+    "reasoning"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

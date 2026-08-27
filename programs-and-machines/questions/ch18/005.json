@@ -1,0 +1,21 @@
+{
+  "question_id": "0fddb97b-e6ed-43d8-991f-7e239f8721bd",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "`private final List<String> items` — is the class immutable?",
+  "choices": [
+    "Yes, provided no setter exists",
+    "No; the reference cannot be reassigned but the list can still be modified",
+    "Yes, final makes it immutable",
+    "Only if the list is empty"
+  ],
+  "answer": 1,
+  "explanation": "final on a reference stops reassignment, not modification of what it points at. items = new ArrayList<>() fails; items.add(\"x\") succeeds. This is the rule people most often miss when writing an immutable class.",
+  "tags": [
+    "final",
+    "immutability"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

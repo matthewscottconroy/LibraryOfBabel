@@ -1,0 +1,21 @@
+{
+  "question_id": "f567ae73-14ce-4747-a2d5-204846da935e",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why can a static method not reference an instance field?",
+  "choices": [
+    "Instance fields are private by default",
+    "The JVM loads static code into a separate area",
+    "It is not called on any object, so there is no object whose field it could mean",
+    "Static methods run before objects are created"
+  ],
+  "answer": 2,
+  "explanation": "The question has no answer, so the compiler refuses. The fix is either to make the field static — if it really is one per class — or to create an object and ask that.",
+  "tags": [
+    "static",
+    "errors"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

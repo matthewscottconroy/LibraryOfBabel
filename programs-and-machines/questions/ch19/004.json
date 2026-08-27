@@ -1,0 +1,19 @@
+{
+  "question_id": "ad842dac-0fa4-43c9-bb7f-7fd6bfffe5b8",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Aliasing is a bug.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "It is usually what you want — an account passed to three subsystems should be the same account, or a deposit recorded by one would be invisible to the others. The trouble is unintended aliasing, where a caller believes they hold their own copy.",
+  "tags": [
+    "aliasing",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

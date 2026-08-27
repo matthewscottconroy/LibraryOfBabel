@@ -1,0 +1,21 @@
+{
+  "question_id": "346ee973-5ea3-46e2-9bbb-872b61ff8c68",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "You put a mutable list in a HashMap as a key, then add an element to it. What happens?",
+  "choices": [
+    "The entry becomes permanently unreachable — it cannot be retrieved or removed",
+    "An exception is thrown on the next lookup",
+    "The map updates its index automatically",
+    "The entry is silently deleted"
+  ],
+  "answer": 0,
+  "explanation": "It was filed in the bucket for its hash at insertion. Changing the hash sends the lookup to a different bucket, and the entry sits in the old one forever. Use immutable types as keys — which is a large part of why Map<String, ...> is so common.",
+  "tags": [
+    "hashcode",
+    "mutation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

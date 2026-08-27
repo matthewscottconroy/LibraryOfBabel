@@ -1,0 +1,21 @@
+{
+  "question_id": "14394ebe-793a-42c0-8559-a23ef9818e7e",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why prefer `if (account.withdraw(price))` over checking the balance first and then withdrawing?",
+  "choices": [
+    "It is fewer lines",
+    "It keeps the decision inside the class that owns the data, so a rule change is one edit",
+    "withdraw is faster than balance",
+    "It avoids a race condition"
+  ],
+  "answer": 1,
+  "explanation": "Asking for state and deciding elsewhere spreads knowledge of the rules across every call site. When the rule changes to allow a small overdraft, the first version needs finding and fixing everywhere. This is sometimes called 'tell, don't ask'.",
+  "tags": [
+    "design",
+    "tell-dont-ask"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

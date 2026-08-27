@@ -1,0 +1,21 @@
+{
+  "question_id": "7e7d96b5-9b99-430c-86bc-822de2c3fe42",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the difference between a class and an object?",
+  "choices": [
+    "An object is a class that has been made public",
+    "A class is compiled and an object is interpreted",
+    "They are the same thing",
+    "A class is a description written once; an object is a particular thing built to it, with its own fields"
+  ],
+  "answer": 3,
+  "explanation": "One class, many objects. Each has its own copy of the fields, which is why ada.deposit(500) changes one account and leaves the other alone.",
+  "tags": [
+    "classes",
+    "objects"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

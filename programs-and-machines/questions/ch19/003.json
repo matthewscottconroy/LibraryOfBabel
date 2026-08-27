@@ -1,0 +1,21 @@
+{
+  "question_id": "e0c8441b-4180-4699-b4aa-a89467cb3dcf",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why does `public boolean equals(Point o)` fail to override anything?",
+  "choices": [
+    "Point is not a subclass of Object",
+    "The method being overridden takes Object, so this is an overload and the collections call the inherited version",
+    "equals cannot be overridden",
+    "The return type is wrong"
+  ],
+  "answer": 1,
+  "explanation": "Chapter 12's overloading rules: a different parameter type is a different method. The result is a silent wrong-behaviour bug, which is exactly why @Override should always be written — it turns this into a compile error.",
+  "tags": [
+    "equals",
+    "override"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

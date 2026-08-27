@@ -1,0 +1,21 @@
+{
+  "question_id": "36037371-dd43-49fc-aba2-4debc5094a02",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why must main be static?",
+  "choices": [
+    "Because it returns void",
+    "No objects exist when the JVM starts, so something must be callable before anything has been created",
+    "So that it can be called from any class",
+    "Because it takes an array parameter"
+  ],
+  "answer": 1,
+  "explanation": "This is the essential one of the four words. public because the JVM is outside your class; void because no caller in your program wants a value; String[] args because the person starting the program may have something to say to it.",
+  "tags": [
+    "static",
+    "main"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

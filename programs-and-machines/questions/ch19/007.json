@@ -1,0 +1,21 @@
+{
+  "question_id": "9a59c826-f07f-4f8a-b152-1b19891b2489",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In a copy constructor, why does a String field not need copying?",
+  "choices": [
+    "It is immutable, so sharing it is safe and copying would be waste",
+    "String fields are always final",
+    "Strings are copied automatically",
+    "It does need copying"
+  ],
+  "answer": 0,
+  "explanation": "Immutable things never need copying, and noticing which of your fields are immutable is most of the work of writing a correct copy.",
+  "tags": [
+    "copying",
+    "immutability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

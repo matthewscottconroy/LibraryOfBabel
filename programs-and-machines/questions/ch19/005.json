@@ -1,0 +1,21 @@
+{
+  "question_id": "ebd9a1ba-cf03-4a91-8340-95bf76295232",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which is NOT a way an alias gets created?",
+  "choices": [
+    "Assignment",
+    "Returning an internal field",
+    "Declaring a variable final",
+    "Passing an argument"
+  ],
+  "answer": 2,
+  "explanation": "final stops reassignment of the variable and creates no alias. The four sources are assignment, argument passing, returning an internal, and storing in a collection — collections hold references, not copies.",
+  "tags": [
+    "aliasing",
+    "references"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

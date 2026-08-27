@@ -1,0 +1,21 @@
+{
+  "question_id": "fb504e03-1c52-4bfb-b830-71842b68ac22",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A class defines equals but not hashCode. What happens to a HashSet of two equal objects?",
+  "choices": [
+    "Behaviour is unspecified",
+    "It throws an exception",
+    "It contains both, because they hash to different buckets and are never compared",
+    "It contains one, correctly"
+  ],
+  "answer": 2,
+  "explanation": "The lookup computes the hash, goes to that bucket, and compares with equals. Different hashes mean different buckets, so the comparison that would have found them equal never happens. A set containing two equal elements is not a set.",
+  "tags": [
+    "hashcode",
+    "collections"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

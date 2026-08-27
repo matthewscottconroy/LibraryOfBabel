@@ -1,0 +1,21 @@
+{
+  "question_id": "f8cdd04a-365a-43e4-bc78-01090bd0ca75",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is every copying facility in Java shallow?",
+  "choices": [
+    "Shallow copying preserves identity",
+    "Deep copying is not well defined in general — how deep, and what about cycles?",
+    "Deep copying is too slow",
+    "The JVM cannot traverse object graphs"
+  ],
+  "answer": 1,
+  "explanation": "A deep copy of one order might duplicate the customer and every order they ever placed, and a structure referring back to itself would not terminate. The language does the one thing that is always well defined and leaves the rest to you.",
+  "tags": [
+    "copying",
+    "shallow"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

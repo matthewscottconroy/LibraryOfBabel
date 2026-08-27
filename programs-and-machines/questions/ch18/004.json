@@ -1,0 +1,19 @@
+{
+  "question_id": "21cf54b4-907a-4ab5-b58f-1307e9db2d18",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Giving a constructor a return type of void makes it a method that new never calls.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 1,
+  "explanation": "A constructor has the class's name and no return type at all. Adding void produces a perfectly legal method that happens to share the class's name and is never invoked by new — which is worth checking when a constructor appears not to run.",
+  "tags": [
+    "constructors",
+    "syntax"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

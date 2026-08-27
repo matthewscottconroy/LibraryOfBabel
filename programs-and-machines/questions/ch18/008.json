@@ -1,0 +1,19 @@
+{
+  "question_id": "e6b6140c-10f2-4b16-81d8-e084763351af",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Java's default access level, written by using no modifier at all, is called ___-private.",
+  "choices": [
+    "package",
+    "package"
+  ],
+  "answer": "package",
+  "explanation": "Visible to the class and to others in the same package. More useful than its obscurity suggests: classes that work together can see each other's internals while remaining hidden from the rest of the program.",
+  "tags": [
+    "access",
+    "package-private"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

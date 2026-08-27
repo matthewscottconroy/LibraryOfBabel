@@ -1,0 +1,21 @@
+{
+  "question_id": "30b5dbfe-7318-4f29-960b-e7f46f240784",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is wrong with writing getCents and setCents for a private balance field?",
+  "choices": [
+    "setCents allows any value, so the invariant is gone and the encapsulation is ceremony",
+    "The names violate convention",
+    "Nothing; it is the standard pattern",
+    "Getters should return copies"
+  ],
+  "answer": 0,
+  "explanation": "You made the field private and then supplied a public method doing exactly what direct access would. What a caller actually wants is deposit or withdraw — operations in the domain that can enforce the rules.",
+  "tags": [
+    "encapsulation",
+    "accessors"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

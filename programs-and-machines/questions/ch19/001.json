@@ -1,0 +1,21 @@
+{
+  "question_id": "6d96bff4-e769-4a76-944c-d7b51bc81af2",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What question does `a == b` ask about two objects?",
+  "choices": [
+    "Do they have the same hash code?",
+    "Do they have the same field values?",
+    "Are these the same object — one thing, or two?",
+    "Are they of the same class?"
+  ],
+  "answer": 2,
+  "explanation": "Identity, not equality. English uses 'the same' for both, which is why this is hard. equals asks the other question: do these count as the same for my purposes?",
+  "tags": [
+    "identity",
+    "equality"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

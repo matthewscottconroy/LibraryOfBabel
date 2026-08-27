@@ -1,0 +1,21 @@
+{
+  "question_id": "b897a461-af71-48ff-9557-e9e4d02729f4",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is a constructor's job?",
+  "choices": [
+    "To allocate memory for the object",
+    "To leave the object satisfying its invariant, so a badly-formed one cannot exist",
+    "To give the object a name",
+    "To set every field to a default"
+  ],
+  "answer": 1,
+  "explanation": "Fields default to 0, false or null, so without a constructor an object can exist satisfying nothing — and a half-initialized object is indistinguishable from a real one until it misbehaves. Validating here means the bad value never enters the system.",
+  "tags": [
+    "constructors",
+    "invariants"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

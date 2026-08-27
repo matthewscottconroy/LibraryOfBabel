@@ -1,0 +1,21 @@
+{
+  "question_id": "c49f5b17-4b3e-43ff-9cbd-ee96b3dee3c6",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is a class for, most precisely?",
+  "choices": [
+    "Enabling inheritance",
+    "Putting a boundary around an invariant so the code that could break it is small enough to check",
+    "Reusing code across programs",
+    "Grouping related methods together"
+  ],
+  "answer": 1,
+  "explanation": "Chapter 16 said an invariant is worth having when the set of code that could break it is checkable. private is what makes that set small — the code that can modify a field becomes one file rather than the whole program.",
+  "tags": [
+    "classes",
+    "invariants"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

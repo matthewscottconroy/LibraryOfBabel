@@ -1,0 +1,21 @@
+{
+  "question_id": "35fe3d1d-4749-46c5-8fa7-0dd5f0d03d3b",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Two Point objects with identical coordinates. `a.equals(b)` is false. Why?",
+  "choices": [
+    "The coordinates are primitives",
+    "equals requires hashCode to be defined first",
+    "Point defines no equals, so it inherits Object's, which compares references",
+    "equals only works on Strings"
+  ],
+  "answer": 2,
+  "explanation": "Object.equals is == with a longer name. By default equality IS identity, and if you want anything else you must say so.",
+  "tags": [
+    "equals",
+    "defaults"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

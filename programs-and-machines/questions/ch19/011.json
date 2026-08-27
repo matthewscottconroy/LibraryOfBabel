@@ -1,0 +1,21 @@
+{
+  "question_id": "63ea9d5c-266b-4fe3-a216-51856b40cc5a",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which benefit of immutability will not be visible until Chapter 31?",
+  "choices": [
+    "No defensive copying is needed",
+    "Thread safety with no coordination at all",
+    "Hash keys stay valid",
+    "Aliasing becomes harmless"
+  ],
+  "answer": 1,
+  "explanation": "The hardest problems in concurrency are about coordinating writes; an object that is never written needs no coordination. It is the largest benefit and the one you cannot yet feel.",
+  "tags": [
+    "immutability",
+    "concurrency"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

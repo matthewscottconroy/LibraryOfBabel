@@ -1,0 +1,19 @@
+{
+  "question_id": "d6c89ec7-289c-4078-9a56-1ed72d9d6afc",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Equal objects must have equal hash codes. The converse does not hold: two unequal objects sharing a hash is a legitimate ___ .",
+  "choices": [
+    "collision",
+    "collision"
+  ],
+  "answer": "collision",
+  "explanation": "The map handles it by comparing with equals. Which is why return 0 is a technically legal hashCode that turns constant-time lookup into a linear scan.",
+  "tags": [
+    "hashcode",
+    "collisions"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

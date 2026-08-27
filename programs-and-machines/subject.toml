@@ -1,0 +1,221 @@
+title = "Programs and Machines Adaptive Quiz"
+chapters_dir = "./book"
+system_prompt = "You are an expert quiz question generator for an introductory computer-science course taught in Java and built from first principles. Topics include: binary and hexadecimal representation, two's complement and overflow, floating-point representation and its failure modes, character encodings and Unicode, compilation and the JVM, state machines and the stored-program idea, variables and scope, boolean logic and gates, control flow, loop invariants and termination, methods, the call stack, parameter passing, recursion, arrays, abstract data types, wrapper classes and autoboxing, ArrayList and the collections framework, generics, String immutability and text processing, classes and encapsulation, references, identity versus equality, inheritance, polymorphism and dynamic dispatch, interfaces, enums and records, object-oriented design, grammars and parsing, interpreters and the eval/apply loop, lambdas and higher-order methods, reflection, exceptions, file I/O, event-driven GUIs, concurrency, algorithmic complexity, information and entropy, and undecidability. Questions must test understanding of the underlying mechanism rather than memorisation of syntax. Distractors should be misconceptions a beginner actually holds. Assume no prior programming background beyond the book itself. Write explanations in the book's voice: warm, direct, addressed to the reader as \"you\", and always saying why the tempting wrong answer is tempting."
+
+# ---------- Unit I: Representation ----------
+[[chapters]]
+index = 0
+phase = 0
+name = "Two Voltages and an Agreement"
+file = "unit-01-representation/chapter-01-two-voltages-and-an-agreement/README.md"
+
+[[chapters]]
+index = 1
+phase = 0
+name = "Numbers That End"
+file = "unit-01-representation/chapter-02-numbers-that-end/README.md"
+
+[[chapters]]
+index = 2
+phase = 0
+name = "Numbers That Do Not End"
+file = "unit-01-representation/chapter-03-numbers-that-do-not-end/README.md"
+
+[[chapters]]
+index = 3
+phase = 0
+name = "Text and Other Agreements"
+file = "unit-01-representation/chapter-04-text-and-other-agreements/README.md"
+
+[[chapters]]
+index = 4
+phase = 0
+name = "Your First Instrument"
+file = "unit-01-representation/chapter-05-your-first-instrument/README.md"
+
+# ---------- Unit II: Computation ----------
+[[chapters]]
+index = 5
+phase = 1
+name = "What a Step Is"
+file = "unit-02-computation/chapter-06-what-a-step-is/README.md"
+
+[[chapters]]
+index = 6
+phase = 1
+name = "Names and Boxes"
+file = "unit-02-computation/chapter-07-names-and-boxes/README.md"
+
+[[chapters]]
+index = 7
+phase = 1
+name = "Choosing"
+file = "unit-02-computation/chapter-08-choosing/README.md"
+
+[[chapters]]
+index = 8
+phase = 1
+name = "Repeating"
+file = "unit-02-computation/chapter-09-repeating/README.md"
+
+[[chapters]]
+index = 9
+phase = 1
+name = "Reading a Program's Mind"
+file = "unit-02-computation/chapter-10-reading-a-programs-mind/README.md"
+
+# ---------- Unit III: Abstraction by Procedure ----------
+[[chapters]]
+index = 10
+phase = 2
+name = "Giving a Process a Name"
+file = "unit-03-abstraction/chapter-11-giving-a-process-a-name/README.md"
+
+[[chapters]]
+index = 11
+phase = 2
+name = "The Stack"
+file = "unit-03-abstraction/chapter-12-the-stack/README.md"
+
+[[chapters]]
+index = 12
+phase = 2
+name = "Recursion"
+file = "unit-03-abstraction/chapter-13-recursion/README.md"
+
+[[chapters]]
+index = 13
+phase = 2
+name = "Designing with Procedures"
+file = "unit-03-abstraction/chapter-14-designing-with-procedures/README.md"
+
+# ---------- Unit IV: Compound Data ----------
+[[chapters]]
+index = 14
+phase = 3
+name = "Many Things at Once"
+file = "unit-04-compound-data/chapter-15-many-things-at-once/README.md"
+
+[[chapters]]
+index = 15
+phase = 3
+name = "Contracts for Data"
+file = "unit-04-compound-data/chapter-16-contracts-for-data/README.md"
+
+[[chapters]]
+index = 16
+phase = 3
+name = "Growing Collections"
+file = "unit-04-compound-data/chapter-17-growing-collections/README.md"
+
+[[chapters]]
+index = 17
+phase = 3
+name = "Text as Data"
+file = "unit-04-compound-data/chapter-18-text-as-data/README.md"
+
+# ---------- Unit V: Objects, State, and Identity ----------
+[[chapters]]
+index = 18
+phase = 4
+name = "Bundling State and Behavior"
+file = "unit-05-objects/chapter-19-bundling-state-and-behavior/README.md"
+
+[[chapters]]
+index = 19
+phase = 4
+name = "Identity and Equality"
+file = "unit-05-objects/chapter-20-identity-and-equality/README.md"
+
+[[chapters]]
+index = 20
+phase = 4
+name = "Families of Types"
+file = "unit-05-objects/chapter-21-families-of-types/README.md"
+
+[[chapters]]
+index = 21
+phase = 4
+name = "Contracts Without Implementation"
+file = "unit-05-objects/chapter-22-contracts-without-implementation/README.md"
+
+[[chapters]]
+index = 22
+phase = 4
+name = "Designing Object Systems"
+file = "unit-05-objects/chapter-23-designing-object-systems/README.md"
+
+# ---------- Unit VI: Programs as Data ----------
+[[chapters]]
+index = 23
+phase = 5
+name = "Languages and Grammars"
+file = "unit-06-programs-as-data/chapter-24-languages-and-grammars/README.md"
+
+[[chapters]]
+index = 24
+phase = 5
+name = "An Evaluator"
+file = "unit-06-programs-as-data/chapter-25-an-evaluator/README.md"
+
+[[chapters]]
+index = 25
+phase = 5
+name = "Functions as Values"
+file = "unit-06-programs-as-data/chapter-26-functions-as-values/README.md"
+
+[[chapters]]
+index = 26
+phase = 5
+name = "Programs That Inspect Themselves"
+file = "unit-06-programs-as-data/chapter-27-programs-that-inspect-themselves/README.md"
+
+# ---------- Unit VII: The World Outside the Program ----------
+[[chapters]]
+index = 27
+phase = 6
+name = "When Things Go Wrong"
+file = "unit-07-the-world-outside/chapter-28-when-things-go-wrong/README.md"
+
+[[chapters]]
+index = 28
+phase = 6
+name = "Persistence"
+file = "unit-07-the-world-outside/chapter-29-persistence/README.md"
+
+[[chapters]]
+index = 29
+phase = 6
+name = "Events and Interfaces"
+file = "unit-07-the-world-outside/chapter-30-events-and-interfaces/README.md"
+
+[[chapters]]
+index = 30
+phase = 6
+name = "Many Things at Once, Really"
+file = "unit-07-the-world-outside/chapter-31-many-things-at-once-really/README.md"
+
+# ---------- Unit VIII: Limits and Cost ----------
+[[chapters]]
+index = 31
+phase = 7
+name = "Counting the Cost"
+file = "unit-08-limits-and-cost/chapter-32-counting-the-cost/README.md"
+
+[[chapters]]
+index = 32
+phase = 7
+name = "Information"
+file = "unit-08-limits-and-cost/chapter-33-information/README.md"
+
+[[chapters]]
+index = 33
+phase = 7
+name = "What No Program Can Do"
+file = "unit-08-limits-and-cost/chapter-34-what-no-program-can-do/README.md"
+
+[[chapters]]
+index = 34
+phase = 7
+name = "Where You Are Now"
+file = "unit-08-limits-and-cost/chapter-35-where-you-are-now/README.md"

@@ -1,0 +1,46 @@
+# Build manifest for "Programs and Machines".
+#
+# book/ recurses: unit-NN-slug/ (a \part) -> chapter-NN-slug/ -> section-NN-slug/
+# -> NN-topic.md.  Each unit opens with intro.md; each chapter opens with
+# README.md and closes with the four back-matter files named in `outro_names`.
+title = "Programs and Machines"
+subtitle = "A First Course in Computer Science, in Java"
+author = "Matthew Conroy"
+
+# The outline is the structural contract, not a chapter; keep it out of the PDF.
+exclude = [
+    "programs_and_machines_outline.md",
+    "README.md",
+]
+
+front_matter = [
+    "book/preface.md",
+]
+
+# Chapter back matter is named for what it is, not for where it belongs, so it
+# would otherwise sort alphabetically ahead of the section-NN directories it is
+# supposed to follow.  `appendices` is listed so it trails the units.
+outro_names = [
+    "exercises.md",
+    "further-reading.md",
+    "important-concepts.md",
+    "important-researchers.md",
+    "appendices",
+]
+
+# Font choice is constrained by the diagrams.  The book draws memory layouts and
+# call stacks with box-drawing characters inside code fences, and most mono
+# fonts on a stock TeX Live -- Noto Sans Mono and DejaVu Sans Mono included --
+# fail to embed them at all ("xdvipdfmx: Invalid font"). Source Code Pro carries
+# them. Noto Serif is likewise unusable as a main font here; Pagella is not.
+mainfont = "TeX Gyre Pagella"
+monofont = "Source Code Pro"
+monofontoptions = ["Scale=0.82"]
+
+lift_intros = true
+toc_depth = 2
+
+[[sources]]
+root = "book"
+recursive = true
+part_level = 1   # unit-01 .. unit-08 become \part

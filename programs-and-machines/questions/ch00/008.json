@@ -1,0 +1,21 @@
+{
+  "question_id": "f3fb1e5c-c066-406d-89a0-bfd01d72671d",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A 32-bit value reads as 1,095,237,632 on a big-endian machine and 18,497 on a little-endian one, from the same bytes. Which reading is correct?",
+  "choices": [
+    "Neither; the bytes are corrupt",
+    "The big-endian reading, which is the mathematical standard",
+    "The little-endian reading, since most processors are little-endian",
+    "Both — endianness is a convention, and what matters is that the two ends agree"
+  ],
+  "answer": 3,
+  "explanation": "Each machine correctly applied its own stated convention to undamaged bytes. That was exactly Danny Cohen's point when he named the camps after Swift's dispute over which end of an egg to open: neither end is superior. Choosing little-endian because it is more common confuses popularity with correctness — Java in fact specifies big-endian for its own data formats regardless of the hardware underneath.",
+  "tags": [
+    "endianness",
+    "convention"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

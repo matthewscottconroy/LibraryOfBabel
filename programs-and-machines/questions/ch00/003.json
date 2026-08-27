@@ -1,0 +1,22 @@
+{
+  "question_id": "249df3c7-17b5-400a-9e55-02dc36a5cf59",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "With 8 bits, how many distinct patterns are there, and what is the largest value if one pattern is spent on zero?",
+  "choices": [
+    "128 patterns, largest value 127",
+    "255 patterns, largest value 255",
+    "256 patterns, largest value 255",
+    "256 patterns, largest value 256"
+  ],
+  "answer": 2,
+  "explanation": "Eight bits give 2^8 = 256 patterns; spending one on zero leaves 255 for the values 1 through 255. The '256 patterns, largest 256' answer is the mistake almost everyone makes once — it counts the patterns correctly and then forgets that zero consumed one of them. A three-digit odometer has a thousand readings and a top value of 999.",
+  "tags": [
+    "bits",
+    "counting",
+    "off-by-one"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "9c716aa7-1f58-4b76-afe6-719d7fed4741",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The bytes 11000011 10101001 are UTF-8 for 'é'. Read under a single-byte encoding they display as 'Ã©'. What was lost?",
+  "choices": [
+    "The second byte was reinterpreted as a control code",
+    "One byte was discarded during conversion",
+    "The original character was overwritten in memory",
+    "Nothing — only the interpretation was wrong, so the damage is often reversible"
+  ],
+  "answer": 3,
+  "explanation": "Both bytes survive intact: two bytes went in and two characters came out, exactly as the single-byte convention specifies. Only the reading was wrong, which is why this garbling can frequently be undone once you know which two encodings were involved. The distractors all imagine a destructive step that never occurred.",
+  "tags": [
+    "utf-8",
+    "mojibake",
+    "encoding"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

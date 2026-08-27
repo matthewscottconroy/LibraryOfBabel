@@ -1,0 +1,20 @@
+{
+  "question_id": "3b83b2ca-7ca4-4f1f-a617-70089106c557",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Applying the wrong character encoding to a sequence of bytes will normally cause the program to raise an error.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "It fails silently, which is what makes encoding mismatches expensive. Valid bytes were read under a valid convention, so both sides behaved correctly; the machine has no access to what you meant and therefore cannot detect that the agreement was violated. This is why 'café' turns into 'cafÃ©' without complaint.",
+  "tags": [
+    "encoding",
+    "mojibake",
+    "silent-failure"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

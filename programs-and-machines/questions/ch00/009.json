@@ -1,0 +1,22 @@
+{
+  "question_id": "76cbe153-7eac-44a5-8614-0dfcebc276c2",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Shannon's sense, how much information do you gain from learning the result of flipping a two-headed coin?",
+  "choices": [
+    "None, because the outcome was already certain",
+    "One bit, because a coin flip is by definition one bit",
+    "Half a bit, because only one outcome is possible",
+    "One bit, because the coin has two faces"
+  ],
+  "answer": 0,
+  "explanation": "Shannon defines a bit as the information gained by resolving a question whose outcomes were equally likely. A two-headed coin has a certain outcome, so learning it resolves nothing. The tempting answers apply the everyday shorthand 'a coin flip is one bit' without checking the equally-likely condition the definition actually requires — a distinction that becomes the basis of compression in Unit VIII.",
+  "tags": [
+    "shannon",
+    "information",
+    "entropy"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

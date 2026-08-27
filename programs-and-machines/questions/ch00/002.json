@@ -1,0 +1,22 @@
+{
+  "question_id": "12101c54-655a-4323-9db3-160e207b925e",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why did digital hardware converge on two voltage states rather than ten?",
+  "choices": [
+    "Two is the only base in which hardware can perform addition",
+    "Two states maximise noise margin and require only comparison, never measurement",
+    "Ten-state machines were never attempted",
+    "Binary arithmetic is mathematically faster than decimal arithmetic"
+  ],
+  "answer": 1,
+  "explanation": "A two-state circuit never has to measure a quantity — it only asks which side of a threshold a signal is on — and it leaves the widest possible forbidden gap between legitimate levels. Base has no bearing on mathematical speed, so that distractor confuses notation with computation. And decimal machines certainly were built: ENIAC was one, and Brusentsov's Setun was ternary.",
+  "tags": [
+    "binary",
+    "noise-margin",
+    "hardware"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

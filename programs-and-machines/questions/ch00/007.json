@@ -1,0 +1,21 @@
+{
+  "question_id": "41954fee-877e-4b24-948d-738cb57a40f5",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "When a value exceeds the representable range, a system must refuse, saturate, or ___ .",
+  "choices": [
+    "wrap",
+    "wrap around",
+    "wraparound",
+    "roll over"
+  ],
+  "answer": "wrap",
+  "explanation": "The three available policies are refuse (check and raise an error), saturate (clamp at the extreme, as image processing does when you brighten an already-white pixel), and wrap (keep the bits that fit and roll over like an odometer). Java wraps for int and long, which costs nothing because it is what the hardware does when the extra checking circuitry is simply not built.",
+  "tags": [
+    "overflow",
+    "policy"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

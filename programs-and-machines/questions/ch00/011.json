@@ -1,0 +1,20 @@
+{
+  "question_id": "5a95e4f2-6945-4352-9693-983673a364e1",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Digital circuits resist the accumulation of noise because each stage regenerates a clean, full-strength signal instead of passing degradation along.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 1,
+  "explanation": "This is why a processor can run billions of operations per second for years and stay exact. Because only two states are legitimate, a gate handed a degraded 2.9 V does not emit a degraded output — it emits a fresh full-strength high generated locally, discarding the error. Analogue systems cannot do this, which is why a photocopy of a photocopy decays: nothing tells the machine which part was signal.",
+  "tags": [
+    "noise",
+    "signal-restoration",
+    "digital"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

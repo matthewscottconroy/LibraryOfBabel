@@ -1,0 +1,22 @@
+{
+  "question_id": "2aa9afc2-6d2e-45a8-ab32-0759ec8617f6",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "The chapter argues that no pattern can announce its own encoding. Yet a PNG file opens with a distinctive byte sequence identifying it. How do these fit together?",
+  "choices": [
+    "Magic numbers are interpreted by the operating system, not the program",
+    "PNG headers are stored outside the file's byte stream",
+    "The reader must already have agreed how to read those leading bytes, so an outer agreement remains",
+    "The claim holds only for text files, not binary formats"
+  ],
+  "answer": 2,
+  "explanation": "A magic number works only because writer and reader agreed in advance that the first bytes carry that meaning. The agreement has been pushed outward, not removed — any self-description is itself a pattern in need of a convention. The other options invent mechanisms that do not exist, or draw a text/binary distinction the argument never depended on.",
+  "tags": [
+    "encoding",
+    "self-description",
+    "magic-number"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

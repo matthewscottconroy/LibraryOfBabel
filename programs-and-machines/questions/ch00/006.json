@@ -1,0 +1,22 @@
+{
+  "question_id": "ba16e482-3deb-473c-86be-99c9a2ae01d9",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why must the width of a stored value be fixed in advance?",
+  "choices": [
+    "Variable-width values cannot represent negative numbers",
+    "It buys constant-time addressing and lets arithmetic be built from finite hardware",
+    "Fixed width removes the possibility of overflow",
+    "The JVM specification forbids variable-width data"
+  ],
+  "answer": 1,
+  "explanation": "If values vary in length, finding the n-th means walking the n−1 before it — linear instead of constant time — and an adder is a physical arrangement with a specific number of columns that cannot stretch. The answer about overflow inverts the truth: fixed width is precisely what creates overflow rather than preventing it.",
+  "tags": [
+    "fixed-width",
+    "addressing",
+    "hardware"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

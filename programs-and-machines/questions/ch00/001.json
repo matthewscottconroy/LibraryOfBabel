@@ -1,0 +1,22 @@
+{
+  "question_id": "4f433f2f-a020-40e3-92d4-6de4d42aa302",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A wire measures 3.2 volts. Under the convention 'below 1 V is 0, above 2 V is 1', what value is the wire holding?",
+  "choices": [
+    "3.2, since that is what was measured",
+    "A 1 — but only because the convention assigns that meaning",
+    "A 1, because 3.2 volts is physically a 'one' state",
+    "Nothing determinable without knowing the word size"
+  ],
+  "answer": 1,
+  "explanation": "The wire holds 3.2 volts and nothing else. The value 1 comes from the convention applied to it. The tempting wrong answer is the one that also says '1' but locates the one-ness in the voltage rather than in the agreement — change the threshold to 4 V and the very same wire reads 0, with no physical change at all.",
+  "tags": [
+    "encoding",
+    "voltage",
+    "convention"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

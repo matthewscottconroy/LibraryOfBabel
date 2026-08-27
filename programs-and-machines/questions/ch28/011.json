@@ -1,0 +1,19 @@
+{
+  "question_id": "6a433eca-29ce-426c-a5da-283b8d56e052",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "blank",
+  "text": "The four guarantees a database offers, which files do not — atomicity, consistency, isolation and durability — are known together by the acronym ___ .",
+  "choices": [
+    "ACID",
+    "ACID"
+  ],
+  "answer": "ACID",
+  "explanation": "Each is something you could implement over files, and the field took two decades to do it well; Jim Gray largely invented how. The ladder is a file for configuration and write-once data, SQLite as soon as you want queries, indexes, incremental updates or transactions, and a server when several processes need concurrent access. A program with a CSV file, an in-memory index, a locking scheme and a backup routine has reimplemented SQLite badly.",
+  "tags": [
+    "databases",
+    "acid"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

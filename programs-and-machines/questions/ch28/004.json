@@ -1,0 +1,21 @@
+{
+  "question_id": "727c311f-3308-4f0e-baff-0221d609577e",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "mc",
+  "text": "How do you reliably determine a text file's encoding?",
+  "choices": [
+    "You cannot from the bytes alone — the encoding is metadata that must live in a convention, a declaration, or a specification.",
+    "Attempt a UTF-8 decode; if it succeeds the file is UTF-8, and if it fails it is Latin-1.",
+    "Check for a byte-order mark, which every correctly written text file begins with.",
+    "Read the first kilobyte and count the high-bit bytes, which is exact above 100 characters."
+  ],
+  "answer": 0,
+  "explanation": "A byte sequence does not carry its encoding. The partial answers are convention (\"this program's files are UTF-8\"), declaration (an HTTP header, a `<meta charset>`), a byte-order mark (legal, and a nuisance that breaks parsers expecting data first), and statistical guessing (right most of the time, which is not a property you want in a data pipeline). The practical position: decide, write it down, state it in code.",
+  "tags": [
+    "encoding",
+    "metadata"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

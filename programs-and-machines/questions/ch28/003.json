@@ -1,0 +1,21 @@
+{
+  "question_id": "ffad6e8b-15e4-4fde-997d-31c4cd9645cc",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "mc",
+  "text": "A file containing \"Gödel\" is read as ISO-8859-1 and comes back as \"GÃ¶del\", with no exception. Why no exception?",
+  "choices": [
+    "The decoder substitutes a replacement character and continues, which is not an error condition.",
+    "Latin-1 assigns a character to all 256 byte values, so no byte sequence is invalid and no error is possible.",
+    "Java suppresses decoding errors unless a `CharsetDecoder` is configured to report them.",
+    "The exception is thrown only when the string is written back out in the original charset."
+  ],
+  "answer": 1,
+  "explanation": "The `ö` is one character encoded in UTF-8 as two bytes, and Latin-1 decodes those as two characters — hence 207 characters from 207 bytes rather than 206. The program read the file, got nonsense, and reported success: Section 28.2.3's plausible wrong answer in its purest form. Worse, it is invisible in ASCII, so an English test suite passes and the bug is found by someone called Müller.",
+  "tags": [
+    "encoding",
+    "mojibake"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

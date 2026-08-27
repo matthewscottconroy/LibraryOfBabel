@@ -7,22 +7,9 @@ that follow have to honor them.
 Regenerate after any edit; `tools-lint.py` guarantees the references are in range,
 not that they are kept.
 
-**56 promises across 7 unwritten chapters.**
+**56 promises across 6 unwritten chapters.**
 
 ---
-
-## Chapter 29 — Persistence  *(Unit VII: The World Outside the Program)*
-
-- **unit-01-representation/chapter-05-your-first-instrument/section-02-looking-at-the-bits/01-printing-and-observing.md**
-  > …typed " + n); } } ``` Three things there are unexplained — `import`, `new`, and the fact that `in` is an object with methods. All three are Unit V, and `Scanner` will be treated properly in Chapter 29 when we deal with input generally. For now it is a recipe you can copy when you want interactive programs. I would encourage you not to use it much yet. Programs that hard-code their inputs…
-- **unit-07-the-world-outside/chapter-28-when-things-go-wrong/exercises.md**
-  > …rward] Add error handling to Chapter 25's interpreter so that a parse failure reports the token position and an evaluation failure reports which statement was running. Keep the interpreter; Chapter 29 gives it the ability to read a program from a file, at which point the file may not exist.
-- **unit-07-the-world-outside/chapter-28-when-things-go-wrong/important-researchers.md**
-  > …rk on transactions gave the field the idea that a group of operations should either all happen or none — atomicity — which is a stronger guarantee than any exception mechanism provides, and Chapter 29 needs it. His 1985 paper "Why Do Computers Stop and What Can Be Done About It?" observed that most failures in production are transient and that the most effective recovery is often to rest…
-- **unit-07-the-world-outside/chapter-28-when-things-go-wrong/section-02-designing-for-failure/03-failing-loudly.md**
-  > …re bad data enters, with the supplier still on the stack. **When something you believed turns out to be false, say so loudly** — and never convert it into a value that looks like an answer. Chapter 29 takes this to the world of files, where the failures are not hypothetical: the file will be missing, the encoding will be wrong, and the disk will fill.
-- **unit-07-the-world-outside/intro.md**
-  > …he design question of where a failure should be handled. Also Java's checked exceptions, which are a genuinely contested feature and worth understanding as an argument rather than a rule. **Chapter 29 — Persistence.** Files and streams. Storage outlives the process, which sounds obvious and has consequences — a format is a promise to your future self, encoding is Chapter 4's problem retu…
 
 ## Chapter 30 — Events and Interfaces  *(Unit VII: The World Outside the Program)*
 
@@ -30,6 +17,8 @@ not that they are kept.
   > … ask what is supposed to change it. ## Infinite loops on purpose Sometimes forever is right: ```java while (true) { Event e = waitForNextEvent(); handle(e); } ``` That is an event loop, and Chapter 30 builds one. A program that services requests has no natural end, and the loop expresses that honestly. The exit, when it comes, is by `break`, by `return`, or by the process ending. ## brea…
 - **unit-07-the-world-outside/chapter-28-when-things-go-wrong/section-02-designing-for-failure/01-where-to-handle.md**
   > …h item, records the failure, and continues with the rest. One bad record does not lose the run. **The user's action.** A desktop application catches around each command and shows a message. Chapter 30's event loop is exactly this. **The top of `main`.** The last resort, so that an unexpected failure produces a useful log rather than a bare trace. Between those boundaries, most code shoul…
+- **unit-07-the-world-outside/chapter-29-persistence/section-02-structured-storage/03-a-glimpse-of-databases.md**
+  > … Injection is Chapter 24. Leaked connections is Chapter 28. A database is not a new subject; it is the subjects you have been reading about, solved carefully by people who did it full time. Chapter 30 turns from data that outlives the program to a user who interrupts it.
 - **unit-07-the-world-outside/intro.md**
   > …vious and has consequences — a format is a promise to your future self, encoding is Chapter 4's problem returning, and a half-written file is a state your program can be interrupted into. **Chapter 30 — Events and Interfaces.** A graphical program inverts control: you do not call the toolkit, it calls you. That inversion changes the shape of a program, and understanding it is more useful…
 
@@ -75,6 +64,14 @@ not that they are kept.
   > …sources and Cleanup Some things must be released. An open file holds an operating-system handle, a socket holds a connection, a database connection holds a server-side session, and a lock — Chapter 31 — holds up every thread waiting for it. Java's garbage collector does not help. It reclaims **memory**, eventually, and knows nothing about handles. An object with an open file inside it ma…
 - **unit-07-the-world-outside/chapter-28-when-things-go-wrong/section-02-designing-for-failure/02-resources-and-cleanup.md**
   > … `try (...) { }` does that syntactically. A field holding a resource acquired in one method and released in another does not, and such a class is where leaks live. The stronger version, and Chapter 31 will need it: **prefer a scope to a lifetime.** If a resource can be acquired, used, and released inside one block, do that, even if it means opening the file twice. A resource whose lifeti…
+- **unit-07-the-world-outside/chapter-29-persistence/exercises.md**
+  > …read a program from a file named on the command line. Handle the file not existing, the file being empty, and the file being in the wrong encoding, each with a message naming what happened. Chapter 31 asks you to make it serve programs over a socket.
+- **unit-07-the-world-outside/chapter-29-persistence/section-01-files-and-streams/01-the-stream-abstraction.md**
+  > … abstraction is useful and also why it occasionally surprises. **Blocking.** `read()` does not return until data is available. On a file that is microseconds; on a socket it can be forever. Chapter 31 returns to this. **Physical structure.** Disks read in blocks of some thousands of bytes, and the operating system caches aggressively. Your one-byte `read()` usually does not touch the dis…
+- **unit-07-the-world-outside/chapter-29-persistence/section-02-structured-storage/03-a-glimpse-of-databases.md**
+  > … 19's encapsulation applied to data, and for the same reason: a constraint anyone can bypass is not a guarantee. **Isolation.** Concurrent transactions do not see each other's partial work. Chapter 31's problem, solved once by people who specialize in it. **Durability.** Once a transaction commits, it survives a crash. This is the `force()` question from Section 29.1.3 taken seriously, w…
+- **unit-07-the-world-outside/chapter-29-persistence/section-02-structured-storage/03-a-glimpse-of-databases.md**
+  > …e system chooses. That is the same move as every abstraction in this book, taken further than any of them. **And the failure modes are the ones you have already met.** Concurrent writers is Chapter 31. Partial writes is Section 29.2.2. Injection is Chapter 24. Leaked connections is Chapter 28. A database is not a new subject; it is the subjects you have been reading about, solved careful…
 - **unit-07-the-world-outside/intro.md**
   > … program inverts control: you do not call the toolkit, it calls you. That inversion changes the shape of a program, and understanding it is more useful than any particular widget library. **Chapter 31 — Many Things at Once, Really.** Concurrency. Chapter 26 showed a parallel stream producing three different wrong answers; here is why, what to do about it, and why almost everyone finds th…
 

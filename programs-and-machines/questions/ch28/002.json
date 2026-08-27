@@ -1,0 +1,21 @@
+{
+  "question_id": "d8f089c7-1a8e-49a0-8847-b35ff94ecf68",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "mc",
+  "text": "`new BufferedInputStream(new GZIPInputStream(raw))` composes behavior by wrapping rather than subclassing. What does that buy?",
+  "choices": [
+    "Only a wrapper can be closed independently of the stream it decorates.",
+    "One buffering class works for files, sockets and decompressors, instead of a method for every combination.",
+    "Wrapping avoids the virtual dispatch cost that inheritance would impose on each read.",
+    "Subclassing is forbidden for JDK classes, so decoration is the only mechanism available."
+  ],
+  "answer": 1,
+  "explanation": "It is Section 23.1.2's argument in the standard library: `BufferedInputStream` holds an `InputStream` rather than extending `FileInputStream`, so it can buffer a socket. The alternative would be `readGzippedUtf8FileWithBuffering` and every other combination. The library chose composability over convenience and then spent twenty years adding convenience — `Files.readString` and `Files.lines` — on top.",
+  "tags": [
+    "streams",
+    "decorators"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

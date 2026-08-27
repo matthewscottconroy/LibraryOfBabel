@@ -1,0 +1,19 @@
+{
+  "question_id": "c93eb5e4-f568-463b-a927-34d6d1999ef1",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "tf",
+  "text": "CSV can be parsed by splitting each line on the delimiter.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "A field containing the delimiter is quoted, and a quote inside a quoted field is doubled, so parsing needs a small state machine — twelve lines and one boolean, which is Chapter 24's tokenizer at its smallest. Worse, RFC 4180 permits a newline inside a quoted field, which means CSV is not a line-oriented format at all and a correct reader cannot use `readLine`. Use a library for CSV you did not write.",
+  "tags": [
+    "csv",
+    "parsing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

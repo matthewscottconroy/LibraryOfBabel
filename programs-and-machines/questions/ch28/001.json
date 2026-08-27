@@ -1,0 +1,21 @@
+{
+  "question_id": "58043666-ed60-4364-82a5-f8b31634106f",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Why is a stream defined as a one-way sequence of items rather than as random access into a file?",
+  "choices": [
+    "A file's length cannot be known before it is read, so seeking has no meaning.",
+    "Sequential access is always faster, so the library removes the slower option.",
+    "Random access is impossible on modern solid-state drives, which have no seek operation.",
+    "The smaller abstraction also describes a socket, a pipe, and standard input, so code written against it works on all of them."
+  ],
+  "answer": 3,
+  "explanation": "A file could be seeked; a network connection has no length at all, and data arrives until it stops. Deliberately offering less means the same `BufferedReader` code works whether the source is a file, a socket, or a string. Chapter 26's `Stream<T>` is the same idea applied to collections — a sequence pulled one element at a time, consumed once, with no going back.",
+  "tags": [
+    "streams",
+    "abstraction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "c01ff328-830b-46ac-873d-0ab84c6254c0",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Why is `byte b = (byte) in.read(); while (b != -1)` wrong?",
+  "choices": [
+    "`read()` returns 0-255 plus -1, which does not fit in a `byte` — the byte `0xFF` becomes -1 and ends the loop early.",
+    "`-1` is a valid data byte, so the loop can never terminate correctly in any formulation.",
+    "The cast loses the high bit, so any byte above 127 is read as its unsigned complement.",
+    "`read()` may return a partial byte on a non-blocking stream, which the cast discards."
+  ],
+  "answer": 0,
+  "explanation": "Three hundred and fifty-seven distinct values do not fit in eight bits, which is why the return type is `int`. Chapter 2's two's complement is why `0xFF` cast to `byte` is -1. The correct form keeps the `int`: `int b; while ((b = in.read()) != -1)`. And when you have a `byte` and want its numeric value, `b & 0xFF` is the conversion, for the same reason.",
+  "tags": [
+    "bytes",
+    "twos-complement"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

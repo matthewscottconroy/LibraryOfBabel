@@ -1,0 +1,21 @@
+{
+  "question_id": "4c9f5e6d-c1b9-4ecf-8e9d-2c57c0983b6d",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What does writing to a temporary file and renaming it over the target protect against?",
+  "choices": [
+    "Two processes writing the same file at the same time and interleaving their output.",
+    "An interruption leaving a file that is neither the old contents nor the new — the old data gone, the new data partial.",
+    "A reader opening the file while a writer holds it, which would otherwise block indefinitely.",
+    "Disk corruption caused by writing more data than the filesystem can allocate."
+  ],
+  "answer": 1,
+  "explanation": "A rename within a filesystem is atomic: the target is either the old file or the new one. An interruption during the write leaves a stray temporary file and the original intact, which is recoverable. Two caveats: the rename must be on the same filesystem, and atomicity against a *power* failure additionally requires forcing the file to disk first. It does not help with concurrent writers, which is one of the five reasons files run out.",
+  "tags": [
+    "atomicity",
+    "files"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

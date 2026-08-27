@@ -1,0 +1,21 @@
+{
+  "question_id": "57548d5f-4e62-4f38-b49b-20846c9025f8",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Running `countdown` from 500 with a step budget of 100 returned `?`. What exactly does that tell you?",
+  "choices": [
+    "That it halts, but takes longer than the budget allows the simulator to observe.",
+    "Nothing about whether it halts — simulation can confirm halting and can never confirm non-halting.",
+    "That it does not halt, since 100 steps is enough for a program of four instructions.",
+    "That the budget was too small to be meaningful, and any budget above 1000 would decide the question."
+  ],
+  "answer": 1,
+  "explanation": "With a budget of 2000 the same program halted in 1500 steps. At any moment during a simulation the possibilities are \"it will stop later\" and \"it never will\", and no finite observation separates them. A decision procedure would have to reason about the program rather than watch it — which is exactly what the proof shows is impossible.",
+  "tags": [
+    "halting",
+    "simulation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

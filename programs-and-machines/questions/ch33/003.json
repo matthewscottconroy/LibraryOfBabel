@@ -1,0 +1,21 @@
+{
+  "question_id": "9c4f5255-58d9-45b6-8633-e8a518b3cf35",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "mc",
+  "text": "What would a correct `halts` procedure let you do to the Collatz conjecture?",
+  "choices": [
+    "Nothing, since Collatz is a statement about all integers and `halts` takes one input.",
+    "Prove it false, since the loop is known not to terminate for some starting value.",
+    "Verify it only up to the largest integer the machine can represent.",
+    "Settle it by running a program — which is a strong hint that no such procedure exists."
+  ],
+  "answer": 3,
+  "explanation": "The loop is six lines and every value tested halts — verified for 27 at 111 steps, and the longest start under 100,000 is 77,031 at 350 steps — but nobody has proved every value does, and it has been open since 1937. That answers Chapter 9's question: \"this loop terminates\" is a claim requiring proof, and the proof can be arbitrarily hard. You should feel the same suspicion about anything that would make hard mathematics automatic.",
+  "tags": [
+    "collatz",
+    "halting"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "4f5c99c3-a2fe-4739-9fa0-1aed96bb1756",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why is the argument called a diagonal argument?",
+  "choices": [
+    "Because the contradiction arises from the intersection of two independent assumptions.",
+    "Because the proof proceeds diagonally through the cases rather than exhaustively.",
+    "Because the programs are enumerated along a diagonal path through a two-dimensional grid.",
+    "Rows are programs and columns are inputs; flipping each diagonal entry builds a row differing from every row, so it is not in the table."
+  ],
+  "answer": 3,
+  "explanation": "The constructed row disagrees with P₀ at input 0, with P₁ at input 1, and with Pᵢ at input i for every i — so it is not any row. The finite verified table is the picture, not the proof: the real argument needs the rows to be *all* programs, which requires their countability. Cantor used it in 1891, Gödel in 1931, and Turing in 1936.",
+  "tags": [
+    "diagonal",
+    "cantor"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

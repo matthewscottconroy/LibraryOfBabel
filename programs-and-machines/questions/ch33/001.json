@@ -1,0 +1,21 @@
+{
+  "question_id": "07a81949-e60d-4347-bab4-34fed7e439fe",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why does `halts` take both a program and an input, rather than just a program?",
+  "choices": [
+    "Because the input determines how much memory the program needs, and memory limits halting.",
+    "Halting is a property of the two together — the verified `countdown` halts for positive inputs and not for zero.",
+    "Because the proof requires two arguments in order to construct the diagonal.",
+    "Because a program with no input always halts, so the case would be trivial otherwise."
+  ],
+  "answer": 1,
+  "explanation": "`countdown` decrements before testing for zero, so on input 0 the register goes to -1 and never returns. That is not a bug in the demonstration; it is the interesting case. A program is not simply halting or non-halting, which is why the question must be asked of a pair.",
+  "tags": [
+    "halting",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

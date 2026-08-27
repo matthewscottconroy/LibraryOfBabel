@@ -1,0 +1,21 @@
+{
+  "question_id": "d0b02c30-af1e-4186-bf9a-1fa93c73cfa5",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Java rejects `int x; if (cond()) x = 1; System.out.println(x);` even when `cond()` is always true. Which property did the compiler give up?",
+  "choices": [
+    "Completeness — it stays sound and terminating, so it must reject some correct programs.",
+    "Soundness, since it accepts programs whose variables may be uninitialized at run time.",
+    "Termination, since the analysis may loop on programs with complex control flow.",
+    "None — the rejection is a bug that later Java versions fixed."
+  ],
+  "answer": 0,
+  "explanation": "Sound, complete, terminating — pick two. The compiler will never say a variable is definitely assigned when it might not be (sound) and always finishes (terminating), so it must sometimes refuse code that is in fact fine. That false positive is deliberate and is the price of soundness. Type systems make the same trade: they decide \"no type errors\", which is weaker than \"no errors\" and is checkable.",
+  "tags": [
+    "tools",
+    "tradeoffs"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "caa9bd35-32a2-4b31-a83e-eb30e9d982d1",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why can no program compute K(s)?",
+  "choices": [
+    "Because computing K requires running every program, and some do not halt.",
+    "Because K depends on the language, and no program can enumerate all languages.",
+    "Because the search would never terminate, since high-complexity strings may not exist.",
+    "A short program searching for the first string with K(s) > n would itself be a short description of a string that by definition has none."
+  ],
+  "answer": 3,
+  "explanation": "The searching program has length about c + log₂ n, which gives K(s) ≤ c + log₂ n while the search guaranteed K(s) > n — false for large n. The search does terminate, because most strings of length n+1 have complexity above n. It is the Berry paradox made rigorous, and it is the same shape as `trouble`: a construction that contradicts its own defining property.",
+  "tags": [
+    "kolmogorov",
+    "uncomputability"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

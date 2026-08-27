@@ -1,0 +1,21 @@
+{
+  "question_id": "4155e48a-5e84-4616-8fac-fb49cd1d47f2",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "mc",
+  "text": "In the proof, why does `trouble` produce a contradiction in both cases?",
+  "choices": [
+    "Because `trouble` never terminates, which makes `halts(trouble, trouble)` undefined.",
+    "Because passing a program its own text is not legal, so the construction is ill-formed.",
+    "Because `halts` must simulate `trouble`, which simulates `halts`, and the recursion never ends.",
+    "It does the opposite of what `halts` predicts, so a correct prediction is self-defeating either way."
+  ],
+  "answer": 3,
+  "explanation": "If `halts` says it halts, `trouble` loops; if `halts` says it loops, `trouble` halts. `trouble` is built from `halts` by ordinary programming — a call, an `if`, a loop — so the only assumption that can be wrong is that `halts` exists. Passing a program its own text is perfectly legal: a program is a string, which is Unit VI's thesis and the reason this proof comes after Chapter 25.",
+  "tags": [
+    "halting",
+    "proof"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

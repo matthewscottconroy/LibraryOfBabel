@@ -1,0 +1,21 @@
+{
+  "question_id": "890800a1-73ff-4eed-b4bc-a2b336796a5e",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "mc",
+  "text": "What does Rice's theorem say, and what does it not cover?",
+  "choices": [
+    "Every non-trivial property of a program's *behavior* is undecidable; properties of its *text* remain decidable.",
+    "Undecidable properties become decidable if the program is restricted to a finite input set.",
+    "Every property of a program is undecidable, including syntactic ones.",
+    "Only properties concerning termination are undecidable; others can be decided."
+  ],
+  "answer": 0,
+  "explanation": "So there is no clever special case — not \"is it correct\", not \"is it secure\". But how many lines a program has, whether it uses `goto`, and whether the types check are all decidable. That is why compilers work: they analyse syntax, which is decidable, and cannot analyse behavior, which is not. Every static analysis tool lives on that line.",
+  "tags": [
+    "rice",
+    "decidability"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

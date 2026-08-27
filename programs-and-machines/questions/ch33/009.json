@@ -1,0 +1,21 @@
+{
+  "question_id": "6a386a8d-47e5-47ef-b1ca-0adccfc71f2f",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why does the choice of programming language change K(s) only by an additive constant?",
+  "choices": [
+    "Because all Turing-complete languages have the same number of instructions.",
+    "Because compression ratios are language-independent by the source coding theorem.",
+    "Because K is defined as the minimum over all languages, so no single language matters.",
+    "An interpreter for one language can be written in another, so any program can be converted by prepending a fixed-length interpreter."
+  ],
+  "answer": 3,
+  "explanation": "The constant depends on the two languages and not on the string, so for long strings the choice is negligible and K is well defined up to an additive constant. That is the invariance theorem, and it is Chapter 25 used as a proof technique: the reason languages are interchangeable up to a constant is that you can write one inside another, which you have done.",
+  "tags": [
+    "kolmogorov",
+    "invariance"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

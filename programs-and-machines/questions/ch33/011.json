@@ -1,0 +1,19 @@
+{
+  "question_id": "c6cdb165-c7e1-43d6-a7cc-aafb2cbab094",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "blank",
+  "text": "Probability cannot distinguish `HHHHHHHH` from a patternless sequence, since a fair coin produces each with the same probability. Kolmogorov's definition can: a string is random exactly when it is ___ .",
+  "choices": [
+    "incompressible",
+    "incompressible"
+  ],
+  "answer": "incompressible",
+  "explanation": "K(s) ≥ |s|, up to a constant. Statistical properties then follow rather than being assumed — a string with too many H's could be described as \"mostly H with exceptions here\", which is shorter. The definition also applies to individual strings, which probability cannot do. And the sting: almost every string is random, and no program can exhibit a single one. Both true, and not in tension.",
+  "tags": [
+    "randomness",
+    "kolmogorov"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

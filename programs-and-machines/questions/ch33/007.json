@@ -1,0 +1,19 @@
+{
+  "question_id": "b7e481cb-92bc-4dda-a191-ca539b751bf6",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "tf",
+  "text": "Undecidability means no program's halting behavior can be determined.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "`System.out.println(\"hi\")` halts and `while (true) { }` does not, and both are easy. The result says no *single procedure* works for *all* programs — not that every case is hard, and most cases in practice are easy. Nor does it make verification pointless: seL4 and CompCert are formally verified. And it says nothing about machines versus people, since no human decides halting either.",
+  "tags": [
+    "halting",
+    "misconceptions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

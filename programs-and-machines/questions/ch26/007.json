@@ -1,0 +1,21 @@
+{
+  "question_id": "2416b270-8634-4d4a-9084-2b04b4498921",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why did Java implement generics by erasure rather than reifying them like C#?",
+  "choices": [
+    "Reified generics would have required a new bytecode instruction the JVM could not add.",
+    "Migration compatibility — code compiled before 2004 had to keep working with new generic libraries, and erasure makes the bytecode identical.",
+    "The designers judged runtime type information a security risk in a networked language.",
+    "Erasure allows primitives as type arguments, which reification would have forbidden."
+  ],
+  "answer": 1,
+  "explanation": "Generics arrived into an ecosystem with nine years of existing compiled code, and the hard requirement was that old compiled code call new generic code. `List<String>` and `List` compile to the same thing, so a class from 1999 can pass its `List` where a `List<String>` is expected. C# reified in 2005 because the CLR was five years old and the ecosystem was small enough to break. Both decisions were right for their circumstances.",
+  "tags": [
+    "erasure",
+    "history"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

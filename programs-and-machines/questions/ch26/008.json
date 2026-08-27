@@ -1,0 +1,21 @@
+{
+  "question_id": "ee64e1dc-cbbb-4962-bfd9-6797e950bae6",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which of these is a *consequence* of erasure rather than an independent design choice?",
+  "choices": [
+    "A class may implement many interfaces but extend only one class.",
+    "Interfaces may declare `default` methods with bodies.",
+    "`ArrayList` grows by roughly half its capacity when it fills.",
+    "`List<int>` is illegal, so numbers in collections must be boxed."
+  ],
+  "answer": 3,
+  "explanation": "Erasure requires the element to be an `Object` reference, so a primitive cannot be a type argument. That single restriction is why autoboxing exists, why `Stream<Integer>` measured ten times slower than `IntStream` in Chapter 26, and why `java.util.function` needs forty interfaces instead of six. Chapter 16 introduced the primitive/object split as a 1995 decision; this is where the bill arrives.",
+  "tags": [
+    "erasure",
+    "primitives"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

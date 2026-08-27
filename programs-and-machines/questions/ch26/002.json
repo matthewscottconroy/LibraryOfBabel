@@ -1,0 +1,21 @@
+{
+  "question_id": "d09b0bf1-d58a-4959-9f53-f30140bee385",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Reflection can read a `private` field, call a `private` method, and assign to a `final` one. What does that mean for encapsulation?",
+  "choices": [
+    "It means `private` is a compile-time hint that the JVM discards along with generic types.",
+    "The access checks apply only to fields, which is why methods and finals can always be reached.",
+    "Encapsulation is purely a documentation convention with no runtime enforcement at all.",
+    "It is enforced against code playing by the rules, and negotiable against reflection — a deliberate trade, not an oversight."
+  ],
+  "answer": 3,
+  "explanation": "The checks are real and they run — without `setAccessible(true)` each attempt throws `IllegalAccessException`. They are suppressible because frameworks legitimately need to reach into classes they do not own: a serializer must read private fields, a dependency injector must call a private constructor. Java 9's modules restored some of it by letting a module declare which packages are `open`.",
+  "tags": [
+    "reflection",
+    "encapsulation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -7,26 +7,9 @@ that follow have to honor them.
 Regenerate after any edit; `tools-lint.py` guarantees the references are in range,
 not that they are kept.
 
-**59 promises across 9 unwritten chapters.**
+**52 promises across 8 unwritten chapters.**
 
 ---
-
-## Chapter 27 — Programs That Inspect Themselves  *(Unit VI: Programs as Data)*
-
-- **appendices/appendix-b-testing.md**
-  > …sEmptyArray() { assertThrows(IllegalArgumentException.class, () -> Largest.of(new int[]{})); } } ``` Four things to notice. **`@Test`** marks a method as a test. This is an **annotation** — Chapter 27's subject — and it is how JUnit finds your tests without you listing them. A forgotten call is no longer possible. **The method names are sentences.** `largestOfSingleElementIsThatElement` …
-- **unit-04-compound-data/chapter-17-growing-collections/section-02-generics-and-iteration/01-generics-as-a-promise.md**
-  > …. ## Erasure Java's generics are checked at compile time and then **discarded**. At run time, `List<String>` and `List<Integer>` are the same class: `List`. This is called **type erasure**. Chapter 27 covers it properly. Three consequences are worth having now, because they cause confusing errors. **You cannot ask what a generic type is at run time:** ```java if (list instanceof List<Str…
-- **unit-05-objects/chapter-19-bundling-state-and-behavior/section-02-encapsulation/01-what-private-is-for.md**
-  > …he argument It is tempting to read `private` as protection against malice, and that is the wrong frame. Java's access control is not a security boundary — reflection can reach around it, as Chapter 27 will show, and anyone editing the source can delete the keyword. What it is for is **reasoning**. Chapter 16 said an invariant is worth having when the set of code that could break it is sm…
-- **unit-06-programs-as-data/chapter-25-an-evaluator/exercises.md**
-  > …You will find that `eval` can no longer return `int`. Report every place that had to change, and then say what a type checker would be for. **25.13** [carries forward] Keep the interpreter. Chapter 27 uses it as the example for reflection, and Chapter 32 uses its measured costs. If you have added features of your own, keep those too.
-- **unit-06-programs-as-data/chapter-26-functions-as-values/exercises.md**
-  > … add first-class procedures, so a procedure can be passed as an argument and returned as a value. Your language will then have what this chapter describes, and you will have implemented it. Chapter 27 assumes the interpreter still runs.
-- **unit-06-programs-as-data/chapter-26-functions-as-values/section-02-pipelines/03-when-not-to.md**
-  > …ter foundation. He overstated it — the language he proposed found no users — but the diagnosis was right, and thirty years later every mainstream language grew the features in this chapter. Chapter 27 closes the unit by turning the mirror the other way: a program that examines not its data but itself.
-- **unit-06-programs-as-data/intro.md**
-  > … interfaces, higher-order methods, and the map/filter/reduce vocabulary — introduced here rather than earlier because the evaluator makes the concept concrete first and the syntax second. **Chapter 27 — Programs That Inspect Themselves.** Reflection: a running Java program examining its own classes. Then erasure, which is where the generics of Chapter 17 turn out to be a compile-time fic…
 
 ## Chapter 28 — When Things Go Wrong  *(Unit VII: The World Outside the Program)*
 

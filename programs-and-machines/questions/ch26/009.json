@@ -1,0 +1,19 @@
+{
+  "question_id": "15bd0c71-87cd-4dcc-ae09-a42dc691369f",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "tf",
+  "text": "Generic type information is completely absent from the class file after compilation.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "It is retained where it is *declared* and erased where it is *used*. `getGenericParameterTypes()` recovers `java.util.List<java.lang.String>` for a method parameter, because the signature is kept as metadata in the class file. What is unrecoverable is a particular object's type argument, because the object never had one. Frameworks exploit the retained half heavily — it is how Jackson knows a field is a `List<Person>`.",
+  "tags": [
+    "erasure",
+    "metadata"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

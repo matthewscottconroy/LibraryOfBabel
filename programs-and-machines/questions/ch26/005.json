@@ -1,0 +1,21 @@
+{
+  "question_id": "5986a700-fe21-4e08-b081-ea97a853c4bb",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "mc",
+  "text": "`new ArrayList<String>().getClass() == new ArrayList<Integer>().getClass()` is true. Why?",
+  "choices": [
+    "Both lists are empty, so the JVM shares a single instance until an element is added.",
+    "Type arguments are erased after compilation — both are `java.util.ArrayList` holding `Object` references at run time.",
+    "`getClass()` returns the raw type by design, though the parameterized types differ underneath.",
+    "The two type arguments happen to erase to the same bound; `List<int[]>` would differ."
+  ],
+  "answer": 1,
+  "explanation": "There is no class `ArrayList<String>` at run time. The compiler checks the type argument and inserts casts, then removes it entirely — what runs is what Java 1.4 had. So generics are a compile-time discipline over an untyped runtime, and the guarantee is conditional: if your code compiled without unchecked warnings, the inserted casts will never fail.",
+  "tags": [
+    "erasure",
+    "generics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

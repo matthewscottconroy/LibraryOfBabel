@@ -1,0 +1,21 @@
+{
+  "question_id": "f0b169d0-9cc9-40f6-a335-0f9240c09b9f",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A `List<String>` is assigned to a raw `List`, an `Integer` is added, and `get(0)` is read as a `String`. Where does it fail?",
+  "choices": [
+    "Nowhere — the value is silently converted to the string \"42\" on retrieval.",
+    "At the `add`, because the list checks each element against its declared type argument.",
+    "At the assignment to the raw type, which the compiler rejects outright.",
+    "At the read — in the compiler-inserted cast, which is why the exception mentions a cast that appears nowhere in the source."
+  ],
+  "answer": 3,
+  "explanation": "At run time the list holds `Object` references and is happy to take an `Integer`. This is heap pollution, and it is why unchecked warnings are worth taking seriously: they mark exactly the places where the compile-time guarantee has a hole. The failure arriving far from its cause is what makes it a genuinely nasty class of bug.",
+  "tags": [
+    "erasure",
+    "heap-pollution"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

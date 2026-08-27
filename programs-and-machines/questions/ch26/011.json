@@ -1,0 +1,19 @@
+{
+  "question_id": "a67ac2ab-f7de-45da-b9b9-70f82c43c905",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "blank",
+  "text": "`@Override` has no members and `SOURCE` retention, so it is discarded before the class file exists. Its entire effect is a rule enforced by the ___ .",
+  "choices": [
+    "compiler",
+    "compiler"
+  ],
+  "answer": "compiler",
+  "explanation": "It is not a modifier and it does not change dispatch — overriding happens whether you write it or not. It is an assertion: if the marked method overrides nothing, report an error. That is the third kind of annotation reader, after nobody and the running program, and `@SuppressWarnings` and `@FunctionalInterface` are the same. One line turns Chapter 20's silent `equals(Point)` bug into a compile error.",
+  "tags": [
+    "annotations",
+    "override"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

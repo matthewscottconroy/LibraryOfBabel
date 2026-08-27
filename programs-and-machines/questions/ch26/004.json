@@ -1,0 +1,21 @@
+{
+  "question_id": "c65a478b-6cda-439d-96ad-24679c5d1edb",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Which is the strongest argument against using reflection in ordinary application code?",
+  "choices": [
+    "It is forty to sixty times slower than a direct call, which no program can afford.",
+    "The module system will eventually forbid it, so such code has no future.",
+    "It requires catching three checked exceptions, which makes the code verbose.",
+    "Every compile-time check is suspended — a misspelled method name becomes a run-time exception, and renaming in an IDE misses it."
+  ],
+  "answer": 3,
+  "explanation": "The speed cost is real but usually irrelevant; the safety cost is not. Rename a method and every ordinary call site updates while the string in a reflective call does not. It also breaks find-usages, dead-code elimination, obfuscation, and ahead-of-time compilation — which is why the ecosystem has spent years moving reflective work to compile-time code generation. The rule: if you know the class at compile time, call the method.",
+  "tags": [
+    "reflection",
+    "judgment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

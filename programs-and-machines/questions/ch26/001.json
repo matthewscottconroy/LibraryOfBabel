@@ -1,0 +1,21 @@
+{
+  "question_id": "12ee52d2-3247-4961-8935-b675f5010841",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What is `Account.class`?",
+  "choices": [
+    "An object the JVM created for the loaded class — the same object `getClass()` returns on any instance.",
+    "A compile-time literal that the compiler replaces with the class's fully qualified name.",
+    "A new object created each time the expression is evaluated, describing the class's shape.",
+    "A reference to the class file on disk, opened lazily when a member is requested."
+  ],
+  "answer": 0,
+  "explanation": "The JVM creates exactly one `Class` per loaded class, which is why `a.getClass() == Account.class` is true. It can be stored, compared, passed to a method, and asked for its name, superclass, fields, methods, modifiers and annotations. Everything `javac` knew is still there, with one large exception — the type arguments that Section 27.2.1 shows were erased.",
+  "tags": [
+    "reflection",
+    "class-objects"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

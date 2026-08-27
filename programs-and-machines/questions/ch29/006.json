@@ -1,0 +1,19 @@
+{
+  "question_id": "ac06350a-9014-446e-8e27-c43b3fa56cc2",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "tf",
+  "text": "You should call `paintComponent` directly when your data changes.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "You call `repaint()`, which posts a request to the event queue — possibly merged with other pending requests — and the toolkit calls `paintComponent` later. The indirection means several rapid changes produce one redraw rather than ten, and it keeps all drawing on the dispatch thread. It follows that `paintComponent` must run at any time, must be fast, and must be idempotent: drawing is a function of state, not a step in a process.",
+  "tags": [
+    "drawing",
+    "repaint"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "eeb1c97e-fe19-42a2-85b9-4cdffe55088b",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "mc",
+  "text": "A handler that sleeps 300 ms delayed the next event by 300 ms. What does that look like to a user of a real application?",
+  "choices": [
+    "The toolkit spawns a second dispatch thread to keep the interface alive.",
+    "Events queue up and are then delivered faster to catch up, so nothing is noticeable.",
+    "Only the control that was clicked becomes unresponsive; the rest of the window still works.",
+    "The whole interface freezes — nothing repaints and no button responds, because repaint is an event too."
+  ],
+  "answer": 3,
+  "explanation": "There is one loop, and it is inside your handler. Every unresponsive application you have used was a handler that took too long. Anything over about 100 ms is noticeable and anything over a second reads as broken; the blocking operations are file reads, network requests, database queries, sleeps, large loops, and waiting for a lock.",
+  "tags": [
+    "events",
+    "blocking"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

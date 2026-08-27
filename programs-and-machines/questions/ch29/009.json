@@ -1,0 +1,21 @@
+{
+  "question_id": "3e43e74f-236a-4059-9491-532c81ca9067",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In a model-view separation, which direction does the dependency run?",
+  "choices": [
+    "The view knows the model's type and calls its methods; the model notifies through a functional interface and knows no view type.",
+    "Neither knows the other; a controller holds references to both and mediates every call.",
+    "Both know each other, since the view must update the model and the model must update the view.",
+    "The model knows the view's type so it can call the right rendering method."
+  ],
+  "answer": 0,
+  "explanation": "That asymmetry is what allows the model to exist with no view at all, which is the concrete meaning of \"the model knows nothing about the interface\". In the verified example the model held `IntConsumer`s and notified two views that knew nothing of each other. If you find yourself importing a UI class into your model, the arrow has reversed and the benefits are gone.",
+  "tags": [
+    "mvc",
+    "dependencies"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

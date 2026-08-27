@@ -1,0 +1,19 @@
+{
+  "question_id": "a49fc06d-8613-4ccc-add8-e2984d0b5dea",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "blank",
+  "text": "The pattern in which a source notifies any number of registered listeners that know nothing of each other, and which the source knows only through an interface, is called ___ .",
+  "choices": [
+    "Observer",
+    "Observer"
+  ],
+  "answer": "Observer",
+  "explanation": "It is what `addActionListener` is, and what the model's notification list is in Section 30.2.3. The decoupling is the point: a button knows how to detect a press and nothing about saving files, and neither would change if the other were replaced. It shows up well beyond interfaces — message queues, change notifications, and Chapter 26's higher-order methods are the same inversion at the smallest scale.",
+  "tags": [
+    "patterns",
+    "observer"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

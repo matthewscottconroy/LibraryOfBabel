@@ -1,0 +1,21 @@
+{
+  "question_id": "fd22bb42-2252-4dbd-a43e-7740604d45f2",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Why does an event loop use a queue rather than calling handlers directly when input arrives?",
+  "choices": [
+    "Queuing allows events to be reordered by priority, so clicks are handled before repaints.",
+    "A queue lets the toolkit drop events when the program falls behind, preventing memory growth.",
+    "The operating system must not wait for your program, and queuing gives ordered, one-at-a-time handling that needs no locks.",
+    "Direct calls would run on the operating system's thread, which cannot execute Java bytecode."
+  ],
+  "answer": 2,
+  "explanation": "The OS detects a click, appends, and returns. Your program drains at its own pace with the ordering preserved. Because no two handlers run simultaneously, handler code needs no locks and Chapter 31's problems do not arise inside it — a large simplification that is why the design has survived fifty years. The cost is the other consequence: a slow handler delays everything behind it.",
+  "tags": [
+    "events",
+    "queues"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

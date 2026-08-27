@@ -1,0 +1,21 @@
+{
+  "question_id": "66c2e6af-1150-446a-a1cf-562f89032e24",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What is the correct structure for a button handler whose work takes four seconds?",
+  "choices": [
+    "Update the interface immediately, do the work on another thread, and post the result back to the loop with `invokeLater`.",
+    "Do the work in the handler but call `repaint()` periodically so the interface stays current.",
+    "Do the work on another thread and update the components directly from that thread when done.",
+    "Split the work across several events posted to the queue, updating components from each."
+  ],
+  "answer": 0,
+  "explanation": "Three phases, and all three are required. The first tells the user something is happening; the second keeps the loop free; the third is not optional, because only the dispatch thread may touch components. The second wrong answer is the common one and it is the single-thread rule violated — it will usually work, which is what makes it dangerous.",
+  "tags": [
+    "threading",
+    "patterns"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

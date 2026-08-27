@@ -1,0 +1,21 @@
+{
+  "question_id": "d44ff2e2-211c-45a6-8f27-576fef09fcb8",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Why do toolkits use layout managers instead of absolute positions?",
+  "choices": [
+    "The coordinate system's origin moves between platforms, so absolute values are not portable.",
+    "Absolute positioning requires a repaint of the whole window on every change.",
+    "Layout managers compute positions once at construction, which is faster than per-frame layout.",
+    "Absolute positions break on resize, larger fonts, translated text, and different pixel densities — all of which happen."
+  ],
+  "answer": 3,
+  "explanation": "The principle transfers completely: describe the relationships, not the positions, and let the layout compute the pixels. That is what CSS flexbox and grid do, what Android's ConstraintLayout does, and what every declarative toolkit does. Sizing is a negotiation — minimum, preferred and maximum are requests and the container decides — which is why a misbehaving layout is usually the container's doing, not the component's.",
+  "tags": [
+    "layout",
+    "portability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

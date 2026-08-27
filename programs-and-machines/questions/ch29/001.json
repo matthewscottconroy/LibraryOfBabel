@@ -1,0 +1,21 @@
+{
+  "question_id": "35c3212d-d3b9-49d9-a754-ac3e9f3344d5",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What is inverted in \"inversion of control\"?",
+  "choices": [
+    "The component tree is built from the leaves upward rather than from the window down.",
+    "Your code no longer calls the toolkit in an order you wrote; the toolkit calls your handlers when things happen.",
+    "Events are delivered in reverse order of registration, so the last listener runs first.",
+    "The model depends on the view rather than the other way round."
+  ],
+  "answer": 1,
+  "explanation": "After the interface is built, `main` does nothing until the program exits, and all behavior lives in handlers called from outside in an order nobody wrote down. Section 22.1.2's template method was a small version of the same idea — a parent calling into a subclass's steps — and this is it governing a whole program. Three things follow: there is no single flow to read, state becomes the connection between handlers, and no handler may assume another has run.",
+  "tags": [
+    "events",
+    "control"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

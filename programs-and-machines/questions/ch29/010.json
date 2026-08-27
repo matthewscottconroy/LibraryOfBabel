@@ -1,0 +1,21 @@
+{
+  "question_id": "817b0c43-bff9-4bff-aa99-502168e3d0ff",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What is the strongest argument for keeping state out of components?",
+  "choices": [
+    "Component state is stored as strings, which wastes memory compared to primitive fields.",
+    "Only one component may hold a given piece of state, so a second view is impossible.",
+    "The model can then be tested with no screen, in milliseconds, which means those tests actually run in a build.",
+    "Components are recreated on every repaint, so any state stored in them is lost."
+  ],
+  "answer": 2,
+  "explanation": "Interface tests need a display, are slow, and break when a button moves — so everything you move out of the view becomes testable and everything you leave in effectively is not. The verified example ran the model to a value of 10 with no view attached. The invariant also then holds no matter which view or listener attempts the change, rather than being duplicated in every handler.",
+  "tags": [
+    "mvc",
+    "testing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

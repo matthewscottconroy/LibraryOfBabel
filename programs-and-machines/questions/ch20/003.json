@@ -1,0 +1,21 @@
+{
+  "question_id": "11bb55f8-6d9d-4eee-95da-5109eeca8c28",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A superclass constructor calls a method that a subclass overrides, and the override reads one of the subclass's own fields. What happens?",
+  "choices": [
+    "The call is deferred until the subclass constructor finishes, then runs normally.",
+    "The superclass version runs instead, because the subclass is not yet constructed.",
+    "The compiler rejects it, because overridable methods may not be called from constructors.",
+    "The override runs before the subclass's fields are initialized, so it sees null or zero."
+  ],
+  "answer": 3,
+  "explanation": "Constructors run superclass-first. When the superclass constructor makes the call, dynamic dispatch finds the subclass's override, but the subclass constructor body has not run, so its fields still hold their defaults. The usual symptom is a NullPointerException in a method that looks perfectly correct. Constructors should call only private, static, or final methods.",
+  "tags": [
+    "constructors",
+    "dispatch"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "f3b3eb97-a618-4143-9da5-b627b1a470b6",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "mc",
+  "text": "How does the JVM find the right method for an `invokevirtual` call?",
+  "choices": [
+    "It follows the object's class pointer to a method table and reads a slot number the compiler fixed in advance.",
+    "It searches the class hierarchy upward from the object's class until a matching name is found.",
+    "It consults a global registry of method names built when the program starts.",
+    "It compares the declared type against every loaded subclass and selects the closest match."
+  ],
+  "answer": 0,
+  "explanation": "Each class holds a table whose inherited entries keep the same positions as the superclass's, with overridden entries replaced and new methods appended. Because the layout is stable, the compiler can fix a slot number without knowing the runtime type, and that number stays valid for subclasses written years later. The call costs two indirections and a jump.",
+  "tags": [
+    "dispatch",
+    "method-table"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

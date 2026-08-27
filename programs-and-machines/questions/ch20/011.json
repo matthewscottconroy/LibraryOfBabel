@@ -1,0 +1,19 @@
+{
+  "question_id": "f305be92-c13a-43f3-a872-66a2e4daf1c3",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "blank",
+  "text": "`Stack extends Vector` leaks list operations that break the stack discipline. Its modern replacement, which holds an array instead of extending a list, is ___ .",
+  "choices": [
+    "ArrayDeque",
+    "ArrayDeque"
+  ],
+  "answer": "ArrayDeque",
+  "explanation": "The one guarantee a stack exists to provide — access at a single end — can be violated by anyone holding the reference, since `remove(0)` and `insertElementAt` come along with the inheritance. `ArrayDeque` exposes stack operations and only stack operations, because it composes rather than extends. It is Chapter 23's argument visible in the standard library.",
+  "tags": [
+    "composition",
+    "stack"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "d7e11b1b-7aa6-440d-8800-7596a28f5b37",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Given `Shape c = new Circle(1);`, calling `c.area()` runs `Circle.area`, but the overloaded call `describe(c)` selects the `Shape` version. Why do the two disagree?",
+  "choices": [
+    "Overriding is resolved at run time from the object's actual type; overload resolution happens at compile time from the reference's declared type.",
+    "The cast to `Circle` was omitted, so the JVM discards the subclass method table.",
+    "`describe` is static, and static methods ignore inheritance entirely.",
+    "Overloaded methods are always resolved against the superclass, regardless of the declared type."
+  ],
+  "answer": 0,
+  "explanation": "Two different resolution rules meet in one line. `c.area()` compiles to invokevirtual, which follows the object's class pointer to `Circle.area`. `describe(c)` was resolved by the compiler, which knew only that `c` was declared `Shape`. Writing `describe((Circle) c)` selects the other overload, because the cast changes the declared type at that call site.",
+  "tags": [
+    "overriding",
+    "overloading"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

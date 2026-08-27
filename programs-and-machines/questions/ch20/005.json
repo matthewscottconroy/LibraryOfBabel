@@ -1,0 +1,19 @@
+{
+  "question_id": "f4ee9a03-08b8-40a0-b11c-718a9daaf919",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "tf",
+  "text": "`String` is declared `final` mainly to save memory in the string pool.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "It is a correctness and security decision. If `String` could be subclassed, a subclass could override `length()` or `equals` to lie, and any check performed on a string — a path check, a permission check — could be defeated by handing in an instance of that subclass. Immutability alone is not enough; the class must also be unextendable for the guarantee to hold.",
+  "tags": [
+    "final",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

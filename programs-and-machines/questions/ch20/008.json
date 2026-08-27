@@ -1,0 +1,21 @@
+{
+  "question_id": "66be6e54-57c9-42c0-ba7c-3a758d500f76",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Measured in Section 21.2.2, 20 million interface calls took 28 ms through one implementing class and 42 ms across three. What does that support?",
+  "choices": [
+    "That interfaces are inherently slower than abstract classes and should be replaced by them.",
+    "That the JIT cannot optimize a call site which sees more than one implementing type.",
+    "That polymorphism should be avoided in any loop running more than a million times.",
+    "That dispatch cost is real but small — under a nanosecond per call — and should change a design only when a measurement says it matters."
+  ],
+  "answer": 3,
+  "explanation": "The JIT devirtualizes a monomorphic site — one type ever seen — into a direct, usually inlined call. Three types push it toward the table lookup. The ratio is about one and a half and the absolute difference is roughly 0.7 nanoseconds per call, which puts it in Chapter 18's category: measurable, rarely decisive, and never a reason to distort a design before profiling.",
+  "tags": [
+    "performance",
+    "jit"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

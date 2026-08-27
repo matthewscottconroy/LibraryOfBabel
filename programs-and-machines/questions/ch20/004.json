@@ -1,0 +1,21 @@
+{
+  "question_id": "ff602bda-6fd5-4a04-8ad6-7e72b1a4a4f9",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "mc",
+  "text": "`class A { String name = \"A\"; }` and `class B extends A { String name = \"B\"; }`. With `B b = new B(); A a = b;`, what do `b.name` and `a.name` print?",
+  "choices": [
+    "`B` and `B`, because fields are overridden the same way methods are.",
+    "`A` and `A`, because the superclass field is initialized last and wins.",
+    "`B` and `A` — the object holds two fields, and the declared type selects which one you see.",
+    "`B` and `B`, because both references point to the same object."
+  ],
+  "answer": 2,
+  "explanation": "Fields are not overridden; they are shadowed. `B` declares a second field called `name` rather than replacing the first, and the object contains both. Field access is resolved statically, like overloading, so the declared type of the reference decides. Making fields private removes the possibility entirely.",
+  "tags": [
+    "shadowing",
+    "fields"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "cd8bbe9c-f801-4ebb-ac7d-c96b35645553",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Under the substitution principle, which of these is a subclass permitted to do?",
+  "choices": [
+    "Permit state changes the superclass forbade, provided its own invariant still holds.",
+    "Reduce a public method's visibility to protected when the behavior is internal.",
+    "Accept a wider range of inputs than the superclass did.",
+    "Refuse inputs the superclass accepted, provided it documents the restriction clearly."
+  ],
+  "answer": 2,
+  "explanation": "Preconditions may be weakened but never strengthened: accepting more is safe, because every call that was valid against the supertype remains valid. The other three are the classic violations — strengthening a precondition, narrowing access (which Java actually rejects outright), and the history violation that broke the square. Postconditions run the opposite way: they may be strengthened, never weakened.",
+  "tags": [
+    "liskov",
+    "contracts"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "c9d4d020-3c6e-4096-870d-6796814d31e8",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What does `@Override` do that the compiler would not do without it?",
+  "choices": [
+    "It permits a subclass method to narrow the access of the method it replaces.",
+    "It makes the compiler reject the method if it does not actually replace an inherited one.",
+    "It generates the `super` call automatically at the start of the method body.",
+    "It forces the method to be dispatched dynamically rather than statically."
+  ],
+  "answer": 1,
+  "explanation": "It converts a silent mistake into a compile error. Chapter 20's `equals(Point o)` is the standard case: the parameter type is wrong, so it is an overload rather than an override, the collections keep calling the inherited `Object.equals`, and nothing reports it. With `@Override` present the code does not compile.",
+  "tags": [
+    "override",
+    "annotations"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

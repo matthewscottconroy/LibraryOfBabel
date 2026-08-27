@@ -1,0 +1,21 @@
+{
+  "question_id": "ddaaad70-784e-4ea4-8981-fa59aa448655",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "mc",
+  "text": "`Sq extends Rect` overrides both setters to keep the sides equal. A method calls `setWidth(4)`, then `setHeight(5)`, then prints the area. What does it print, and what is the fault?",
+  "choices": [
+    "20, because the overrides restore the width before `area()` is computed.",
+    "25, and the fault is that `Sq` failed to call `super` in its overrides.",
+    "25 — `Sq` cannot honor `Rect`'s unwritten guarantee that the two dimensions are independent.",
+    "A compile error, because the overrides change the meaning of the inherited setters."
+  ],
+  "answer": 2,
+  "explanation": "Nothing is wrong in the ordinary sense: the caller reasons correctly from `Rect`, and `Sq` maintains its own invariant honestly. What fails is the word `extends`, which promised substitutability. `Rect`'s contract includes something nobody wrote down — that setting one dimension leaves the other alone — and inheritance inherits the unwritten parts too.",
+  "tags": [
+    "liskov",
+    "substitution"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "a2ef283a-4e04-43b7-9f28-434dee544eeb",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is an interpreter built from two mutually recursive functions, `eval` and `apply`, rather than one?",
+  "choices": [
+    "`eval` handles the global environment and `apply` handles local ones, which cannot share a function.",
+    "Java forbids a method from recursing on two different parameter types, so the work must be split.",
+    "An expression is syntax and needs case analysis; a procedure is a value and needs none, so the two halves change for different reasons.",
+    "`apply` runs at compile time and `eval` runs at run time, so they belong to different phases."
+  ],
+  "answer": 2,
+  "explanation": "Adding a new expression form — a conditional, a comparison — adds a case to `eval` and touches nothing else. Adding a new calling mechanism — closures, tail calls — changes `apply` and touches no expression case. The separation is why an interpreter can be extended repeatedly without becoming tangled, and Section 25.2 extends it three times.",
+  "tags": [
+    "eval-apply",
+    "structure"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

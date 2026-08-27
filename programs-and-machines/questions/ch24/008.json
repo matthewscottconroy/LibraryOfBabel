@@ -1,0 +1,19 @@
+{
+  "question_id": "bab8ab0a-2088-4f39-a2c0-e2b283d24f45",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "tf",
+  "text": "The interpreter's numbers wrap at 2^31 because that behavior was chosen for the language.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "It was inherited, not chosen. `print 2000000000 + 2000000000;` gives a negative number silently because our `+` is Java's `+`. This is the general hazard of writing an interpreter in a high-level language: whatever you do not decide, you inherit — the width, the two's complement, the truncating division, the rounding on negatives. Python chose arbitrary precision, JavaScript chose doubles, Scheme chose exact rationals; each was a decision made in the equivalent of that switch.",
+  "tags": [
+    "design",
+    "inheritance"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

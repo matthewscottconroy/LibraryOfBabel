@@ -1,0 +1,21 @@
+{
+  "question_id": "6c90847f-9092-44d9-8e4f-86d708e369b0",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What makes `Bin('+', Num(2), Num(3))` a program rather than just a record with three fields?",
+  "choices": [
+    "Its construction by the parser, which only builds nodes that correspond to valid programs.",
+    "The `sealed` keyword, which marks a type as executable by the interpreter.",
+    "Nothing about the record itself — it becomes an addition because `eval` has a case for it.",
+    "The `Expr` interface, whose contract requires implementations to be evaluable."
+  ],
+  "answer": 2,
+  "explanation": "This is the unit's thesis, promised back in Chapter 16: a data structure becomes a program purely because our evaluator agrees to treat it as one. The meaning lives in the evaluator, not in the tree. Change `eval` and the same tree means something else — which is exactly what SICP does when it makes the evaluator lazy without touching the parser.",
+  "tags": [
+    "programs-as-data",
+    "meaning"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

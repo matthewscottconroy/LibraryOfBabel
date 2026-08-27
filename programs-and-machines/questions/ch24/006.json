@@ -1,0 +1,21 @@
+{
+  "question_id": "ad16dc33-307c-4826-9a6c-49686a17d220",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "mc",
+  "text": "`eval` contains no table of operator precedences, yet `2 + 3 * 4` gives 14. Where was precedence decided?",
+  "choices": [
+    "In the `Bin` record, whose constructor reorders its children by operator strength.",
+    "In the tokenizer, which emits operators in the order they must be applied.",
+    "In `eval`'s inner switch, whose case order determines which operator binds tighter.",
+    "In the parser — Chapter 24's layered grammar built `(+ 2 (* 3 4))`, and the multiplication is evaluated first because it is deeper."
+  ],
+  "answer": 3,
+  "explanation": "Depth in the tree is order of evaluation. To compute the addition, `eval` must first evaluate both children, and the right child is the multiplication. `(2 + 3) * 4` gives 20 because the parser built a different tree; `eval` cannot tell that brackets were involved and does not need to. This is why getting the grammar right in Chapter 24 mattered.",
+  "tags": [
+    "evaluation",
+    "precedence"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

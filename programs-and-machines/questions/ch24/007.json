@@ -1,0 +1,21 @@
+{
+  "question_id": "9025de04-6748-460b-9203-c22d128c999d",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why does `eval` check for division by zero explicitly instead of letting Java throw `ArithmeticException`?",
+  "choices": [
+    "An interpreter must not let its implementation's errors escape into its language, or the user sees a Java stack trace.",
+    "The check is faster than allowing the JVM to detect the condition.",
+    "Integer division by zero returns infinity in Java rather than throwing.",
+    "`ArithmeticException` is a checked exception and would have to be declared on every method."
+  ],
+  "answer": 0,
+  "explanation": "Every operation that can fail needs a check that converts the failure into an error in the language's own terms — which is why `EvalError` exists as its own type. It costs a few lines per operation and it is what distinguishes an interpreter from a demonstration. Note also that the check belongs in `eval` and not the parser: `1 / 0` is perfectly well-formed, and only its meaning fails.",
+  "tags": [
+    "errors",
+    "abstraction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

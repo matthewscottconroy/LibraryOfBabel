@@ -1,0 +1,21 @@
+{
+  "question_id": "9c80eef2-7e7f-4fdd-8dff-b0ef6f80f209",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The language has no loops, no data structures, no strings and no input. What is it nonetheless?",
+  "choices": [
+    "Turing complete — arithmetic, conditionals and recursion suffice for anything computable.",
+    "A domain-specific language, since its capabilities are fixed by its operator set.",
+    "A regular language, since it can be recognized without a stack.",
+    "Equivalent to a finite automaton, since its memory is bounded by the environment chain."
+  ],
+  "answer": 0,
+  "explanation": "Chapter 6's claim, now built rather than asserted. Loops are unnecessary because any loop can be written as a recursive procedure, which is Chapter 13's equivalence. The gap between *possible* and *bearable* is what the rest of a language is for — and an infinite recursion in it produces the JVM's `StackOverflowError`, because our recursion is implemented by Java's.",
+  "tags": [
+    "turing",
+    "completeness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

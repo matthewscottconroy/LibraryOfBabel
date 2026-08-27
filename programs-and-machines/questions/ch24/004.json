@@ -1,0 +1,21 @@
+{
+  "question_id": "8c7d3846-2e52-411a-ab28-42b9d326e9c2",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "mc",
+  "text": "`apply` creates a new `Env` per call rather than per procedure. Why does that matter?",
+  "choices": [
+    "Two calls to the same procedure get two environments, so a recursive procedure has a different parameter value at each depth.",
+    "It ensures that two procedures with the same parameter name do not collide.",
+    "It lets the garbage collector reclaim the environment as soon as the procedure returns.",
+    "It prevents a procedure from accidentally modifying the global environment."
+  ],
+  "answer": 0,
+  "explanation": "`fact(5)` calling `fact(4)` has two live environments, each with its own `n`. That is exactly Chapter 12's stack frame — a frame holds a call's local variables, and an `Env` holds a call's local variables. The JVM allocates frames on a stack; we allocate `Env` objects on the heap and let the chain of `eval` calls keep them alive.",
+  "tags": [
+    "apply",
+    "recursion"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

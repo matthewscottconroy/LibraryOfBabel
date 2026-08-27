@@ -1,0 +1,21 @@
+{
+  "question_id": "d50db719-ba9e-4c47-afca-1560936e0b4f",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In the twelve-line `Env` class, what implements shadowing?",
+  "choices": [
+    "The `define` method, which refuses to overwrite a name inherited from a parent.",
+    "The `HashMap`, which stores the most recently defined value for each key.",
+    "The `parent` field being final, which prevents an inner scope from rebinding an outer name.",
+    "The order of the two clauses in `lookup` — local map first, then the parent."
+  ],
+  "answer": 3,
+  "explanation": "`x = 100; def f(x) = x + 1; print f(1); print x;` prints 2 then 100. Inside `f` the name finds the parameter because `apply` put it in the local environment and `lookup` looks there first. Reverse the two clauses — parent first, then local — and parameters stop working entirely. That is how small the mechanism is, and it is the same chain Java follows to resolve a name.",
+  "tags": [
+    "environments",
+    "scope"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

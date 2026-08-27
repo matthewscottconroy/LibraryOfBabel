@@ -1,0 +1,21 @@
+{
+  "question_id": "38875d89-94f7-486b-9132-983b13cab901",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is `If` the only node type that does not evaluate all of its children?",
+  "choices": [
+    "Because a conditional is a statement rather than an expression, and statements have no value.",
+    "Because the test's value is not known until run time, unlike an operator's operands.",
+    "Because evaluating the unused branch would be a performance cost the interpreter cannot afford.",
+    "Because evaluating both branches would call the recursive branch even at the base case, so no recursion could ever terminate."
+  ],
+  "answer": 3,
+  "explanation": "`if n < 2 then 1 else n * fact(n - 1)` would call `fact` at every level including the base case. Conditional evaluation is not an optimization; it is the thing that makes recursion possible. It is also why `&&` and `||` short-circuit in Java and why they cannot be ordinary methods — a method's arguments are evaluated before the call, and short-circuiting requires not evaluating one.",
+  "tags": [
+    "conditionals",
+    "recursion"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

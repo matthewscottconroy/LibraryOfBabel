@@ -7,7 +7,7 @@ invented objects.
 
 Simula was built to write simulations — ships in a harbour, customers in a queue —
 and the insight came from the problem domain. A simulation is full of things that
-have their own state and their own behaviour and act over time, and writing that
+have their own state and their own behavior and act over time, and writing that
 as a pile of arrays and procedures loses the correspondence. Simula 67 gave them
 classes, objects, inheritance, and virtual methods: essentially the whole
 vocabulary this unit uses.

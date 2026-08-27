@@ -1,0 +1,21 @@
+{
+  "question_id": "374ebe5a-9ef9-4bda-ac03-a513a86cf7b4",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What is the full composition pattern the chapter recommends in place of extending a library class?",
+  "choices": [
+    "Copy the superclass's source into your own class and modify the methods you care about.",
+    "Extend the class but mark every override `final` so no further subclass can interfere.",
+    "Hold the object in a field and expose it through a getter, so callers can use it directly.",
+    "Take the type from an interface and the implementation from a field, forwarding the methods you need."
+  ],
+  "answer": 3,
+  "explanation": "Composition alone loses the type — `CountingSet` is not a `Set` and cannot be passed where one is expected. Implementing the interface restores it without inheriting any implementation, which is what the standard library's wrapper classes do. The cost is real: you must forward by hand, and Java has no delegation keyword. The gain is that the inner object's internal calls can no longer reach back into your class.",
+  "tags": [
+    "composition",
+    "interfaces"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

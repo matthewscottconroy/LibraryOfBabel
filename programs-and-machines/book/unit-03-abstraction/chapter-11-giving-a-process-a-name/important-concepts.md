@@ -11,7 +11,7 @@ correct; and a reasoning boundary, since the internals become unreachable rather
 than merely inadvisable to touch.
 
 **The name is the abstraction.** `process()` yields none of the benefits except
-reuse, because the reader must still go and look. Naming is not labelling
+reuse, because the reader must still go and look. Naming is not labeling
 something you built; it is the point of building it.
 
 **The one-sentence test.** If you cannot say what a method does in a sentence

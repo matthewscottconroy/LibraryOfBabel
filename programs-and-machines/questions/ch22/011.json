@@ -1,0 +1,19 @@
+{
+  "question_id": "92a474bb-f0a9-4ed6-868b-646791691c4d",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Adding structure to a design against a change nobody has asked for, at the cost of an extra type to name, construct and read past, is called ___ generality.",
+  "choices": [
+    "speculative",
+    "speculative"
+  ],
+  "answer": "speculative",
+  "explanation": "It is the counterweight to every principle in the chapter. The flashcard design's weak point — a timing parameter would touch four files — could have been avoided by wrapping the arguments in a `ReviewEvent` record, and probably should not have been, because the specification said nothing about timing. You cannot make every change cheap; you choose which to make cheap based on which you actually expect.",
+  "tags": [
+    "design",
+    "judgment"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

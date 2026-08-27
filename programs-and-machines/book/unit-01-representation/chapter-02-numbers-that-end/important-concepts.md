@@ -9,7 +9,7 @@ numerals for one number.
 *b* − 1. The invention that makes arithmetic mechanical.
 
 **Locality of arithmetic.** Positional notation lets a column be handled without
-comprehending the whole number, passing only a carry to its neighbour. This is
+comprehending the whole number, passing only a carry to its neighbor. This is
 why arithmetic can be built from circuits.
 
 **Base two.** Positional notation with *b* = 2. Positions are powers of two;

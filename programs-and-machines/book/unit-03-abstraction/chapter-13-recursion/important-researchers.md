@@ -2,7 +2,7 @@
 
 ## John McCarthy (1927–2011)
 
-The creator of Lisp in 1958, and the person who put recursion at the centre of
+The creator of Lisp in 1958, and the person who put recursion at the center of
 programming.
 
 Lisp was built on recursive definitions from the start: its data structure — the

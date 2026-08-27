@@ -1,0 +1,21 @@
+{
+  "question_id": "d0dd15d6-ac61-43a6-92cb-26d88899230b",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the flashcard design, why does `Deck.review` take the day as a parameter instead of calling the clock?",
+  "choices": [
+    "Date handling belongs in the scheduler, which already receives the current day.",
+    "The JVM's clock call is expensive enough to dominate the cost of a review.",
+    "A class that reads the clock cannot be tested without waiting, and time is a common source of untestable code.",
+    "Reading the clock inside a method makes it impossible to mark the method static."
+  ],
+  "answer": 2,
+  "explanation": "It is one of the highest-value habits in the chapter. Passing the day in means every scenario — a card due tomorrow, a card overdue by a week — is one line in a test rather than a wait or a mocked system clock. It is the same move as taking the `Scheduler` in the constructor: push the decision outward so that the class depends on data rather than on the environment.",
+  "tags": [
+    "testability",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

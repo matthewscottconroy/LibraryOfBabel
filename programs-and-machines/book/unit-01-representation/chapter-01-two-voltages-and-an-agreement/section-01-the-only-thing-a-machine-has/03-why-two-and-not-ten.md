@@ -44,7 +44,7 @@ It gets worse, because the problem is not only reading but *writing*. A binary
 circuit must produce two output levels, and it can do that by driving as hard as
 it can in one direction or the other — slam the switch fully on or fully off. A
 decimal circuit must produce 0.5 volts *accurately*, and hold it, across
-temperature changes and manufacturing variation and whatever the neighbouring
+temperature changes and manufacturing variation and whatever the neighboring
 circuits are doing. Precision is expensive. Extremes are cheap.
 
 That asymmetry is the heart of it. Two states are not merely fewer; they are the

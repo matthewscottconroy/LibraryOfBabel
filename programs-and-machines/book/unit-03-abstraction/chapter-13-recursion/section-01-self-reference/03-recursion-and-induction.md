@@ -104,7 +104,7 @@ a stack, use the one the machine already provides.**
 
 Unit IV builds these structures and Unit VI uses them heavily, since a parsed
 program is a tree and an interpreter is a recursive walk over it. This chapter is
-the groundwork for the centre of the book.
+the groundwork for the center of the book.
 
 ## Strong induction
 

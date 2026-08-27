@@ -23,7 +23,7 @@ and explain the first output.
 ## Constructors
 
 **19.5.** What happens if you write no constructor at all? What happens to that
-behaviour the moment you write one?
+behavior the moment you write one?
 
 **19.6.** Why does a constructor have no return type? What happens if you give it
 `void` by mistake?

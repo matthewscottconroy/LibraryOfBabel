@@ -72,7 +72,7 @@ than column-major for identical work.
 loop.
 
 **Traversal idioms.** The diagonal `grid[i][i]`; the upper triangle with
-`c = r + 1`, which visits each unordered pair once; and the eight-neighbour offset
+`c = r + 1`, which visits each unordered pair once; and the eight-neighbor offset
 pattern, where the bounds check at the edges is most of the work.
 
 **What arrays cannot do.** Grow; insert or remove without shifting; find by content

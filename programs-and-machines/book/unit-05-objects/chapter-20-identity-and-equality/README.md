@@ -20,7 +20,7 @@ Java answers the first with `==` and the second with `.equals`, and Chapter 18
 already showed the damage when they are confused: `==` on strings works for
 literals and fails for anything built at run time, so the bug passes every test.
 
-It is hard because the right answer depends on what you are modelling, and the language
+It is hard because the right answer depends on what you are modeling, and the language
 cannot know.
 
 Two banknotes with the same serial number are a forgery — identity matters. Two

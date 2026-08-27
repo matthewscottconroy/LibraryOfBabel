@@ -1,0 +1,19 @@
+{
+  "question_id": "acfc4403-728c-4f7b-8a9f-211e97323268",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A class named `UserManager` that validates passwords, sends emails, and writes to the database has low cohesion.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "It fails the sentence test: describing it requires two \"and\"s, which means three jobs. Names like `Manager`, `Handler`, `Processor` and `Utils` are reliable predictors of this, because such a name means the author could not say what the class is. The field test confirms it — the fields will cluster, with each group of methods using three and ignoring the others, which means several classes sharing a file.",
+  "tags": [
+    "cohesion",
+    "naming"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

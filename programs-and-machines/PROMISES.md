@@ -7,42 +7,9 @@ that follow have to honor them.
 Regenerate after any edit; `tools-lint.py` guarantees the references are in range,
 not that they are kept.
 
-**79 promises across 13 unwritten chapters.**
+**66 promises across 12 unwritten chapters.**
 
 ---
-
-## Chapter 23 — Designing Object Systems  *(Unit V: Objects, State, and Identity)*
-
-- **unit-03-abstraction/chapter-14-designing-with-procedures/section-01-decomposition/02-one-job-per-method.md**
-  > …s two classes that have not been separated yet. Cohesion has a partner, **coupling** — how much one unit depends on another — and the general aim is stated as *high cohesion, low coupling*. Chapter 23 takes both seriously. Introducing the vocabulary now gives you something to notice with while you write the next few chapters' code. Next: how to check that any of this works.
-- **unit-05-objects/chapter-21-families-of-types/README.md**
-  > …warning before we start. If you have met object orientation before, you were probably shown `Dog extends Animal` and left with the impression that hierarchies are the center of the subject. Chapter 23 will argue the opposite — that composition is right far more often — and this chapter is written to give you the grounds for that judgment rather than a set of hierarchies to imitate.
-- **unit-05-objects/chapter-21-families-of-types/exercises.md**
-  > …ng inheritance from a common `Item`, one using composition around a shared `Catalogued` record. For each, name one change that would be easy and one that would be painful. Keep your answer; Chapter 23 asks about it again. **21.10** *Longer.* Write an `Account` class with a non-negative-balance invariant and a `withdraw` method that refuses overdrafts. Then write three subclasses: one tha…
-- **unit-05-objects/chapter-21-families-of-types/important-researchers.md**
-  > …*Effective Java*'s item on the subject shows how a superclass's own internal calls become part of its contract the moment subclassing is allowed, which is why the choice must be deliberate. Chapter 23 takes up his case for composition.
-- **unit-05-objects/chapter-21-families-of-types/section-01-inheritance/01-sharing-by-extension.md**
-  > …st: **code reuse for its own sake**. If two classes share some code but one is not a kind of the other, inheritance is the wrong tool — it commits you to a relationship you do not mean, and Chapter 23 will show what composition does instead. The test is the phrase: **is a `Circle` a `Shape`?** Yes, in every context where a shape is expected. If the answer needs qualification — "a `Stack`…
-- **unit-05-objects/chapter-21-families-of-types/section-01-inheritance/01-sharing-by-extension.md**
-  > …sured a string would be defeated. The guidance: **design for extension explicitly, or forbid it.** A class that is neither is a class whose subclasses will break in ways nobody anticipated. Chapter 23 returns to this with Bloch's version of the rule. ## The depth problem One practical warning. Inheritance hierarchies grow, and a class four levels down is genuinely hard to understand: to …
-- **unit-05-objects/chapter-21-families-of-types/section-01-inheritance/01-sharing-by-extension.md**
-  > … usually comfortable. Three should make you ask a question. Beyond that, the hierarchy has almost certainly become a way of organizing code rather than a statement about kinds of thing, and Chapter 23's alternative is waiting. Next: replacing a behavior rather than inheriting it.
-- **unit-05-objects/chapter-21-families-of-types/section-02-polymorphism/03-the-substitution-principle.md**
-  > …which offers stack operations and *only* stack operations, because it does not inherit from a list. That is composition choosing what to expose rather than inheritance exposing everything — Chapter 23's whole argument, visible in a class you can look up today. ## How to use the principle In practice it is a question to ask before writing `extends`: **Is there anything a caller could beli…
-- **unit-05-objects/chapter-21-families-of-types/section-02-polymorphism/03-the-substitution-principle.md**
-  > …tion.** Hold the other object in a field and expose the operations that genuinely apply. `Sq` holds a side. `ArrayDeque` holds an array. Nothing is inherited, so nothing unwanted leaks, and Chapter 23 makes this the default. ## Where the principle came from Liskov has appeared throughout this book — abstract data types in Chapter 19, the argument for restricted visibility, and now this. …
-- **unit-05-objects/chapter-22-contracts-without-implementation/exercises.md**
-  > …atalogued`, a record for the shared bibliographic data, and an enum for the item kind. Then write a method that sorts a mixed list by title without knowing any concrete type. Keep the code; Chapter 23 revisits the design.
-- **unit-05-objects/chapter-22-contracts-without-implementation/section-01-interfaces/02-abstract-classes.md**
-  > …sit` is common, and a savings account really is a kind of account. If you find yourself unsure, choose the interface. It constrains implementers less, it composes with other interfaces, and Chapter 23 will argue that the inheritance an abstract class requires is a commitment worth avoiding when you can. ## Both at once The standard library frequently does both, and it is a useful idiom t…
-- **unit-05-objects/chapter-22-contracts-without-implementation/section-01-interfaces/03-programming-to-an-interface.md**
-  > … a method's name is a promise and its body is nobody's business. Chapter 19 put a boundary around a class. This is that idea applied to the type system, and it is the last form of it before Chapter 23 asks how to design a system out of these parts. The counterweight, since this book has tried to give both sides: interfaces are not free. Every one is a type to name, understand and keep cu…
-- **unit-05-objects/chapter-22-contracts-without-implementation/section-02-restricted-shapes/02-records-as-plain-data.md**
-  > …n **algebraic data type**, arriving in Java forty years after ML had it, and Chapter 24 will show why the idea belongs to how languages are described. That completes the material of Unit V. Chapter 23 asks the design question: given classes, interfaces, inheritance, composition, enums and records, how do you decide what to build?
-- **unit-05-objects/intro.md**
-  > … as a syntax to learn. **Chapter 22 — Contracts Without Implementation.** Interfaces, abstract classes, enums, and records — four ways of saying what something must do without saying how. **Chapter 23 — Designing Object Systems.** Responsibility, composition against inheritance, coupling and cohesion, and a worked design from a problem statement to a set of classes. A warning about how t…
-- **unit-05-objects/intro.md**
-  > … the centre of the subject and that you should use it wherever a hierarchy suggests itself. That is close to backwards. Inheritance is the most easily misused construct in the language, and Chapter 23 will argue that composition is right far more often. What is actually central is the thing Unit IV set up: **a boundary around an invariant**, so that a reader knows which code could possib…
 
 ## Chapter 24 — Languages and Grammars  *(Unit VI: Programs as Data)*
 
@@ -61,7 +28,7 @@ not that they are kept.
 - **unit-05-objects/chapter-22-contracts-without-implementation/important-concepts.md**
   > …en. Both are ways of moving work to the compiler. **Sealed interfaces and algebraic data types** — a closed set of implementations, each a record, switched over with exhaustiveness checked. Chapter 24 returns to the idea.
 - **unit-05-objects/chapter-22-contracts-without-implementation/important-researchers.md**
-  > …eck that every pattern match covered all of them. That was 1973. Java 21 has it. Milner also gave the field type inference and, separately, the calculus behind concurrent process modelling; Chapter 24 owes him a good deal. Turing Award, 1991. **Brian Goetz** (born 1968) led the design of records, sealed types, and pattern matching as Java's language architect, and wrote the design docume…
+  > …heck that every pattern match covered all of them. That was 1973. Java 21 has it. Milner also gave the field type inference and, separately, the calculus behind concurrent process modeling; Chapter 24 owes him a good deal. Turing Award, 1991. **Brian Goetz** (born 1968) led the design of records, sealed types, and pattern matching as Java's language architect, and wrote the design docume…
 - **unit-05-objects/chapter-22-contracts-without-implementation/section-02-restricted-shapes/02-records-as-plain-data.md**
   > …tches over the result with exhaustiveness checked — a closed set of shapes, each carrying its own data. That is an **algebraic data type**, arriving in Java forty years after ML had it, and Chapter 24 will show why the idea belongs to how languages are described. That completes the material of Unit V. Chapter 23 asks the design question: given classes, interfaces, inheritance, compositio…
 
@@ -83,7 +50,7 @@ not that they are kept.
 - **unit-03-abstraction/chapter-11-giving-a-process-a-name/section-01-the-method/03-returning-a-value.md**
   > …mpute something interesting.** A method that both modifies state and returns a value is one whose calls cannot be moved or removed without thought, and every reader has to notice both jobs. Chapter 26 returns to this when functions become values, and Unit VII is largely about the parts of a program where effects are unavoidable. ## Returning one thing Java methods return exactly one valu…
 - **unit-03-abstraction/chapter-13-recursion/section-02-shapes-of-process/02-recursive-process-vs-recursive-procedure.md**
-  > …method, and buys nothing the JVM will honour. It is worth knowing about because the *idea* — carry the answer forward rather than leaving work pending — is one you will use, particularly in Chapter 26 when reductions appear. But do not write accumulator-passing Java for performance. It does not do anything. ## The general shape The distinction is really about **where the state lives**. I…
+  > … method, and buys nothing the JVM will honor. It is worth knowing about because the *idea* — carry the answer forward rather than leaving work pending — is one you will use, particularly in Chapter 26 when reductions appear. But do not write accumulator-passing Java for performance. It does not do anything. ## The general shape The distinction is really about **where the state lives**. I…
 - **unit-03-abstraction/chapter-14-designing-with-procedures/section-02-testing-a-method/02-choosing-cases.md**
   > …ame + ": expected an exception"); } catch (IllegalArgumentException e) { passed++; } } checkThrows("empty array rejected", () -> largest(new int[]{})); ``` The `() ->` is a lambda, which is Chapter 26. For now read it as "a piece of code to run later". This matters because failure behavior is part of the contract. A method that quietly returns garbage instead of throwing has broken its p…
 - **unit-04-compound-data/chapter-15-many-things-at-once/section-01-the-array/02-declaring-and-filling.md**
@@ -96,6 +63,8 @@ not that they are kept.
   > …actories, often returning an anonymous class. **Anonymous class** — a class declared and instantiated in one expression, with no name. The pre-Java-8 way to supply a one-off implementation; Chapter 26 shows the short form. **invokeinterface** — the call instruction for interface methods. A class may implement any combination of interfaces, so no single method-table layout works and the J…
 - **unit-05-objects/chapter-22-contracts-without-implementation/section-01-interfaces/01-a-promise-with-no-body.md**
   > … `(nothing)`. That inner construction is an **anonymous class** — a class with no name, declared and instantiated in one expression. It is how you supply a small one-off implementation, and Chapter 26 shows the much shorter form that replaced it for interfaces with a single method. ## How the call works Chapter 21 left `invokeinterface` unexplained. Here is why it is separate. For a clas…
+- **unit-05-objects/chapter-23-designing-object-systems/section-01-assigning-responsibility/02-composition-over-inheritance.md**
+  > … The `CountingSet` could take a `Set` parameter and count for a `TreeSet` just as happily. Flexibility deferred to run time is nearly always worth more than structure fixed at compile time. Chapter 26 pushes the same idea one step further, when the thing you compose in stops being an object and becomes a function. Next: the vocabulary for talking about all this.
 
 ## Chapter 27 — Programs That Inspect Themselves  *(Unit VI: Programs as Data)*
 
@@ -157,6 +126,8 @@ not that they are kept.
   > …ctical for real structures". Goetz, B., et al. (2006). *Java Concurrency in Practice*. Addison-Wesley. Chapter 3. The thread-safety benefit that Section 20.2.3 could only assert. Read after Chapter 31; it is where the largest argument for immutability actually lands.
 - **unit-05-objects/chapter-20-identity-and-equality/section-02-when-are-two-things-the-same/03-immutability-as-a-strategy.md**
   > …ere is nothing to protect against, so passing and returning are free. **Safe as a hash key**, permanently. The hash cannot change because nothing can. **Thread safe with no effort at all.** Chapter 31's hardest problems are about coordinating writes; an object that is never written needs no coordination. This is the largest benefit and it will not be visible to you until that chapter. **…
+- **unit-05-objects/chapter-23-designing-object-systems/section-01-assigning-responsibility/03-coupling-and-cohesion.md**
+  > …al calls, which are not documented and may change. **Global coupling.** Shared mutable static state. Everything that touches it is coupled to everything else that touches it, invisibly, and Chapter 31 shows what this does when threads arrive. The rule follows: **use the weakest coupling that does the job.** Prefer a parameter to a field, a field to a `new`, an interface to a class, compo…
 
 ## Chapter 32 — Counting the Cost  *(Unit VIII: Limits and Cost)*
 

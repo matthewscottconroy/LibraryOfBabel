@@ -498,7 +498,7 @@ Responsibility, composition, and drawing before coding.
 
 ## Unit VI — Programs as Data
 
-*The centre of the book. Grammars, parsing, and an evaluator written in Java that runs a language of our own.*
+*The center of the book. Grammars, parsing, and an evaluator written in Java that runs a language of our own.*
 
 `book/unit-06-programs-as-data/intro.md`
 

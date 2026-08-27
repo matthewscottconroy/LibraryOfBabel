@@ -1,0 +1,21 @@
+{
+  "question_id": "7f8cb6d1-b5c3-48e9-bb34-ccc515f54a5c",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is a class consisting of private fields and a getter for each of them not actually encapsulated?",
+  "choices": [
+    "The getters add a virtual call per field, which the JIT cannot always eliminate.",
+    "Private fields are still reachable by subclasses, so the boundary was never real.",
+    "The getters expose the representation as thoroughly as public fields would, so callers still depend on it.",
+    "A getter can be overridden, so the class cannot guarantee what a caller receives."
+  ],
+  "answer": 2,
+  "explanation": "The access modifier is not the point; the dependency is. If every field can be read, every caller can reason about the class the same way it would about public fields, and the representation is just as frozen. Real encapsulation means callers have no reason to want the fields, which comes from putting the behavior that uses them inside the class.",
+  "tags": [
+    "encapsulation",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

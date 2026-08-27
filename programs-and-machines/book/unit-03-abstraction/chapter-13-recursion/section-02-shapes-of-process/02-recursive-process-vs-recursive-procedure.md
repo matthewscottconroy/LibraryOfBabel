@@ -110,7 +110,7 @@ distinction is fundamental rather than academic.
 For Java, honestly: the plain recursive one, or a loop.
 
 The accumulator version is longer, needs a helper method, and buys nothing the
-JVM will honour. It is worth knowing about because the *idea* — carry the answer
+JVM will honor. It is worth knowing about because the *idea* — carry the answer
 forward rather than leaving work pending — is one you will use, particularly in
 Chapter 26 when reductions appear.
 

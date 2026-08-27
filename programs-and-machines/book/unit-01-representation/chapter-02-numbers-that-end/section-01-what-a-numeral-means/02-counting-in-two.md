@@ -124,7 +124,7 @@ Look at the rightmost column: it alternates every row — 0, 1, 0, 1. The next
 column alternates every two rows. The next every four. The leftmost every eight.
 
 That is the doubling from Chapter 1, seen from a different angle. Each bit you
-add doubles the count, so each bit changes half as often as its neighbour to the
+add doubles the count, so each bit changes half as often as its neighbor to the
 right.
 
 Notice also the last row: `1111` is 15, not 16. Four bits, sixteen patterns,

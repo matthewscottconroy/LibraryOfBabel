@@ -9,7 +9,7 @@ structure, and reorganize. Waiting to see the right division before writing
 anything is not how it goes.
 
 **Seam signals.** Blank lines (the most reliable — you put them there to separate
-ideas); comments labelling a section (a name looking for a method); repetition;
+ideas); comments labeling a section (a name looking for a method); repetition;
 indentation depth; and difficulty naming without "and". A comment explaining
 *what* is a method name; a comment explaining *why* is information and stays.
 
@@ -30,7 +30,7 @@ level of abstraction and a caller would think of it as one action. `mean` sums a
 divides and still does one job; `saveAndEmail` does two.
 
 **Single level of abstraction.** A method's body should read as steps at
-comparable altitude. When one step is markedly more detailed than its neighbours,
+comparable altitude. When one step is markedly more detailed than its neighbors,
 it wants to be a method.
 
 **Command–query separation.** A method should either *do* something or *answer*

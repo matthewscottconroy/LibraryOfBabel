@@ -53,7 +53,7 @@ to a set of classes.
 
 A warning about how this is usually taught. Object orientation is often introduced as a set of four words — encapsulation,
 inheritance, polymorphism, abstraction — followed by a `Dog extends Animal`
-example, and the impression left is that inheritance is the centre of the subject
+example, and the impression left is that inheritance is the center of the subject
 and that you should use it wherever a hierarchy suggests itself.
 
 That is close to backwards. Inheritance is the most easily misused construct in

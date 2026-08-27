@@ -69,7 +69,7 @@ those are is a decision about your domain.
 The parameter type is worth dwelling on. Writing `equals(GoodPoint o)` compiles and
 does **not** override anything — it is an overload, per Chapter 12, and the
 collections will call the inherited `Object` version instead. This is why
-`@Override` should always be written: it turns a silent wrong-behaviour bug into a
+`@Override` should always be written: it turns a silent wrong-behavior bug into a
 compile error.
 
 ## Which fields count

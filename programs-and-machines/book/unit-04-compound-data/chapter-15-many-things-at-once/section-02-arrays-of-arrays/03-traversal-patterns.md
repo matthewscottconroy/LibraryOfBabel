@@ -106,7 +106,7 @@ for (int dr = -1; dr <= 1; dr++) {
 ```
 
 Longer than it looks like it should be, and every line is necessary: the offsets
-generate the eight neighbours, the `continue` skips the centre, and the bounds
+generate the eight neighbors, the `continue` skips the center, and the bounds
 check handles cells at the edges. Cellular automata, image filters, and grid-based
 games are all built on this shape, and getting the edge handling right is most of
 the work.

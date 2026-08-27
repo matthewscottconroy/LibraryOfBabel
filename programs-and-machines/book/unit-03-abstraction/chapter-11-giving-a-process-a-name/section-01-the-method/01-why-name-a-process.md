@@ -48,7 +48,7 @@ The value of `largest(scores)` comes from the *name*. If the method were called
 `process()` or `doIt()`, the reader would still have to go and read it, and every
 benefit above evaporates except reuse.
 
-So: **naming is not labelling a thing you already built. It is the point of
+So: **naming is not labeling a thing you already built. It is the point of
 building it.** A method whose purpose you cannot name in a few words is usually a
 method that does not have a single purpose — which means it should be two
 methods, or a different one.

@@ -30,7 +30,7 @@ sealed-interface-plus-record combination at the end of this chapter. ML let a
 programmer declare that a type is one of a fixed set of shapes, each carrying its
 own data, and made the compiler check that every pattern match covered all of
 them. That was 1973. Java 21 has it. Milner also gave the field type inference
-and, separately, the calculus behind concurrent process modelling; Chapter 24 owes
+and, separately, the calculus behind concurrent process modeling; Chapter 24 owes
 him a good deal. Turing Award, 1991.
 
 **Brian Goetz** (born 1968) led the design of records, sealed types, and pattern

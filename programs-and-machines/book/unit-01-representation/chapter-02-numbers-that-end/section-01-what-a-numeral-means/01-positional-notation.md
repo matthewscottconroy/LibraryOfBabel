@@ -48,7 +48,7 @@ at once. You need a small table of single-digit sums and a rule for carrying.
 
 Hold on to that word "local". It is the reason a machine can do arithmetic at
 all. A circuit cannot comprehend a number. It can handle one column, and pass a
-carry to its neighbour, and that turns out to be enough. Section 2 of this
+carry to its neighbor, and that turns out to be enough. Section 2 of this
 chapter builds exactly that circuit.
 
 ## Ten is arbitrary

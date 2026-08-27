@@ -1,0 +1,21 @@
+{
+  "question_id": "34a3f451-0ebb-44d0-8551-76d55be72f6e",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "`CountingHashSet extends HashSet` overrides both `add` and `addAll` correctly, yet reports 6 after `addAll` of three elements. Why?",
+  "choices": [
+    "The overridden `addAll` fails to call `super`, so the elements are counted before being rejected.",
+    "`addAll` returns the collection's size rather than the number of elements actually inserted.",
+    "`HashSet.addAll` is implemented by calling `add`, so the overridden `add` counts each element a second time.",
+    "`HashSet` caches its size, and the override invalidates the cache once per element."
+  ],
+  "answer": 2,
+  "explanation": "The override adds 3, calls `super.addAll`, which calls `this.add` three times, and the override adds 1 each time. Nobody made a mistake — `HashSet`'s implementation is reasonable and both overrides are correct. The bug lives between them, because extending a class couples you to its undocumented internal calls. Worse, removing the `addAll` override fixes it today and breaks if a future JDK stops routing through `add`.",
+  "tags": [
+    "inheritance",
+    "fragility"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -35,7 +35,7 @@ disagree with the rest.
 West, D. (2004). *Object Thinking*. Microsoft Press.
 
 An argument that most object-oriented code is procedural code in disguise —
-classes as containers for data with the behaviour elsewhere. Overstated in places
+classes as containers for data with the behavior elsewhere. Overstated in places
 and a useful corrective to the getter-and-setter habit.
 
 ## Historical

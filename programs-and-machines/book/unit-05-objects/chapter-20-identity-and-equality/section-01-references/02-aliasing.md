@@ -36,7 +36,7 @@ internals, and this is the failure it prevents.
 
 ## Where aliases come from
 
-Four places, and being able to name them is most of the defence.
+Four places, and being able to name them is most of the defense.
 
 **Assignment.** `b = a`.
 

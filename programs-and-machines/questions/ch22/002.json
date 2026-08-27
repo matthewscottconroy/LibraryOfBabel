@@ -1,0 +1,21 @@
+{
+  "question_id": "389605fe-039a-4b88-b1cf-92e344732494",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A `Playlist` exposes `items()` and callers sum the durations themselves. What is the objection?",
+  "choices": [
+    "The loop is slower than a method call, because it cannot be inlined across the class boundary.",
+    "The playlist can no longer be made immutable while callers hold a reference to its list.",
+    "Three facts about the playlist's insides now live outside it, so its representation is frozen by every caller that loops.",
+    "Callers cannot be trusted to handle an empty playlist, so the sum may throw."
+  ],
+  "answer": 2,
+  "explanation": "The caller must know that items can be obtained, that items have durations, and that a total is a sum. Write that loop in four places and changing `minutes` to `seconds` means finding four sites. Behavior belongs with the data it needs: if a computation reads only one object's state, it is that object's method. This is Chapter 19's encapsulation restated as a design rule rather than an access modifier.",
+  "tags": [
+    "responsibility",
+    "encapsulation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

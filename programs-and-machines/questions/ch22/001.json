@@ -1,0 +1,21 @@
+{
+  "question_id": "611244c0-6c7a-45c9-8e86-c4fa978f18a7",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "By what standard is a software design judged, according to this chapter?",
+  "choices": [
+    "By how closely it follows the established object-oriented design principles.",
+    "By its measured performance, since a good structure compiles to tighter code.",
+    "By what happens when a requirement changes — how many files a likely change touches.",
+    "By how few classes it uses, since every extra type is a cost to the reader."
+  ],
+  "answer": 2,
+  "explanation": "A badly designed program runs as fast as a well designed one, passes the same tests, and produces the same output. The difference appears only later, when someone has to change it. That is why the chapter's closing advice is to stop auditing a design against principles and instead name the three changes most likely to arrive, trace each one, and count the files. That number is a measurement rather than an opinion.",
+  "tags": [
+    "design",
+    "change"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

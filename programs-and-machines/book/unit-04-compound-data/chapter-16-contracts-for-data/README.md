@@ -29,7 +29,7 @@ Three scales, one technique:
 | method (Ch. 11) | contract | caller establishes, method ensures |
 | data (Ch. 16) | representation invariant | every operation preserves it |
 
-That is the intellectual centre of the unit, and once you have it, Unit V's
+That is the intellectual center of the unit, and once you have it, Unit V's
 classes become the mechanism for enforcing it rather than a new subject.
 
 **The Abstract Data Type** is the idea: separating what a thing *is* from how it

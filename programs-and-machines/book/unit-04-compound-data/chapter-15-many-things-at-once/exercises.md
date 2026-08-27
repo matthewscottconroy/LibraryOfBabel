@@ -92,8 +92,8 @@ grid. Explain why, using cache lines. Would the ratio be larger or smaller for a
 `transpose`, stating its precondition.
 
 **15.22.** Implement Conway's Game of Life on a fixed grid: a cell with two or
-three live neighbours survives, a dead cell with exactly three becomes alive.
-Use the neighbour pattern from Section 15.2.3, and say how you handle the edges.
+three live neighbors survives, a dead cell with exactly three becomes alive.
+Use the neighbor pattern from Section 15.2.3, and say how you handle the edges.
 
 **15.23.** Section 15.2.1 calls the symmetric notation `grid[1][2]` a leaky
 abstraction. Explain what leaks, and name one other leaky abstraction you have

@@ -66,7 +66,7 @@ one level.
 
 The rule of thumb: **a method's body should read as a sequence of steps at
 comparable altitude.** When one step is markedly more detailed than its
-neighbours, it wants to be a method.
+neighbors, it wants to be a method.
 
 ## Command and query
 

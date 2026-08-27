@@ -117,4 +117,4 @@ from a program you have written, and say whether each should be immutable.
 
 **20.27.** Construct a bug caused by unintended aliasing where the stack trace at
 the point of damage names no code responsible for it. Then say which of Section
-20.1.2's defences would have prevented it.
+20.1.2's defenses would have prevented it.

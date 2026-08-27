@@ -1,0 +1,21 @@
+{
+  "question_id": "a918a1dc-4801-420e-9271-a86ff7f3a683",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Beyond fragility, what does composition give you that inheritance cannot?",
+  "choices": [
+    "The relationship is chosen at run time, so the inner object can be swapped, injected, or configured later.",
+    "A smaller memory footprint, since no method table is duplicated for the subclass.",
+    "Compile-time verification that every forwarded method matches the inner type's signature.",
+    "Automatic access to the inner object's private fields, which a subclass is denied."
+  ],
+  "answer": 0,
+  "explanation": "Inheritance is decided when the class is written and cannot change. A `CountingSet` that takes a `Set` in its constructor can count for a `TreeSet` just as happily, and a test can pass a fake. Flexibility deferred to run time is nearly always worth more than structure fixed at compile time — which is exactly why the flashcard design put the `Scheduler` in `Deck`'s constructor.",
+  "tags": [
+    "composition",
+    "flexibility"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

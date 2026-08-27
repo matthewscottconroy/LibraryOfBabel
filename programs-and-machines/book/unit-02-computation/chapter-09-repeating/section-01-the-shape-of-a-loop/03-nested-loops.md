@@ -89,7 +89,7 @@ for (int i = 0; i < 3 && !done; i++) {
 }
 ```
 
-A labelled break, which Java supports for exactly this:
+A labeled break, which Java supports for exactly this:
 
 ```java
 outer:

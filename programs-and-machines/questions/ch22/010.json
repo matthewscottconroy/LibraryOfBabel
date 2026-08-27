@@ -1,0 +1,21 @@
+{
+  "question_id": "09f78636-6d17-4bfb-993e-1ff715136429",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The flashcard design's first attempt put `review(Grade, int)` on `Card`. What signaled that this was wrong?",
+  "choices": [
+    "Grades are an enum, and enums may not be passed to methods on immutable types.",
+    "The method needed the scheduling policy, a collaborator the card has no business knowing about.",
+    "The method mutated the card, which would have made it unusable as a map key.",
+    "`Card` was a record, and records may not declare methods that use their components."
+  ],
+  "answer": 1,
+  "explanation": "Either every card carries a reference to the same scheduler, or `review` takes one as a parameter — in which case the caller must know about scheduling, which is the thing the design was trying to encapsulate. Needing a collaborator to do its own job is the signal that a responsibility has been written on the wrong card. The second attempt, `LeitnerCard extends Card`, failed differently: a policy is not a kind of card, and the choice needed to be made at run time.",
+  "tags": [
+    "responsibility",
+    "wrong-turns"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

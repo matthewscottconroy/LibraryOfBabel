@@ -1,0 +1,21 @@
+{
+  "question_id": "31b03dd5-2ad6-4d54-bf8f-735c37e06c7b",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Formally, what is a language?",
+  "choices": [
+    "A grammar together with the rules for interpreting the strings it generates.",
+    "A subset of all the finite strings over some alphabet — the ones that are in it, with no reference to meaning.",
+    "Any infinite set of symbols closed under concatenation.",
+    "A finite list of strings, since an infinite language cannot be specified."
+  ],
+  "answer": 1,
+  "explanation": "The definition deliberately throws away meaning, which is what makes both halves tractable. Java under this definition is the set of character sequences that are legal Java programs; what `int x = 3;` does is a separate question. That split is the same move Chapter 1 made between a bit pattern and what it means, and it is why a compiler's front end and back end are separate programs with separate theories.",
+  "tags": [
+    "languages",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

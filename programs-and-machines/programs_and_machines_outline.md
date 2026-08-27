@@ -513,7 +513,7 @@ Syntax as a formal object.
   - `02-grammars.md` — Grammars
   - `03-ambiguity.md` — Ambiguity
 - **From Text to Tree** — `section-02-from-text-to-tree/README.md`
-  - `01-tokenising.md` — Tokenising
+  - `01-tokenizing.md` — Tokenizing
   - `02-the-syntax-tree.md` — The Syntax Tree
   - `03-a-recursive-descent-parser.md` — A Recursive-Descent Parser
 

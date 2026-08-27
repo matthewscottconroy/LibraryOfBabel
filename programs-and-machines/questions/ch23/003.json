@@ -1,0 +1,21 @@
+{
+  "question_id": "b895579c-dda3-426b-b7bf-23b970fe21e4",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What makes a grammar able to describe infinitely many strings with finitely many rules?",
+  "choices": [
+    "The `*` and `+` operators of EBNF, which are the only way to express repetition.",
+    "Recursion — a non-terminal appearing in its own definition, with a non-recursive alternative as the base case.",
+    "The start symbol, which may be re-entered from any point in a derivation.",
+    "The distinction between terminals and non-terminals, which lets one rule stand for many."
+  ],
+  "answer": 1,
+  "explanation": "`expression := expression '+' expression` defines a name in terms of itself, which is Chapter 13's recursion in a new place. Without a non-recursive alternative the grammar would generate nothing at all — every derivation would run forever and never reach a string, for the same reason a recursive method without a base case never returns. EBNF's `*` is shorthand for exactly this kind of recursive rule.",
+  "tags": [
+    "grammars",
+    "recursion"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

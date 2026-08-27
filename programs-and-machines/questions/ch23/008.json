@@ -1,0 +1,19 @@
+{
+  "question_id": "be35f399-e510-4b78-96c4-19a250f068c7",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "tf",
+  "text": "The abstract syntax tree for `(2 + 3) * 4` contains a node recording that parentheses were written.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "It is abstract precisely because it keeps the structure and discards the notation. The parentheses change the tree's shape — `(* (+ 2 3) 4)` rather than `(+ 2 (* 3 4))` — and then vanish. A concrete syntax tree does record them, along with a node for every grammar rule applied, and that is what a code formatter or refactoring tool needs, since it must reproduce the original text.",
+  "tags": [
+    "trees",
+    "abstraction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

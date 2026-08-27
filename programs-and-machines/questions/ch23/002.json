@@ -1,0 +1,21 @@
+{
+  "question_id": "26bb9d18-ffad-4062-81fb-0cf7b4b4e566",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is tokenizing a separate pass from parsing, rather than a convenience?",
+  "choices": [
+    "The two passes were separated for historical reasons and modern parsers merge them.",
+    "Words are regular and can be recognized with finite memory; nesting is context-free and provably requires a stack.",
+    "Parsers cannot process whitespace, so it must be removed before they run.",
+    "Tokenizing must run to completion before the file's character encoding can be determined."
+  ],
+  "answer": 1,
+  "explanation": "A number is a run of digits and an identifier is a letter followed by letters and digits — both recognizable by a machine with finite memory. Checking that `(((...)))` is balanced requires counting without bound, which a finite automaton provably cannot do. So the two-stage design of every language implementation follows from the Chomsky hierarchy rather than from engineering taste.",
+  "tags": [
+    "tokenizing",
+    "chomsky"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

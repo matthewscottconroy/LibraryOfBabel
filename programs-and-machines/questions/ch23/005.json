@@ -1,0 +1,21 @@
+{
+  "question_id": "15ca51af-fec0-4a1d-b3f9-daa17ff032fa",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "mc",
+  "text": "In `expression := term (('+' | '-') term)*`, where does left-associativity actually come from?",
+  "choices": [
+    "From the parser's loop, which puts the accumulated tree on the left of each new node.",
+    "From the grammar rule itself, since `*` in EBNF is defined to expand leftward.",
+    "From the tokenizer, which emits operators in the order the parser must apply them.",
+    "From operator precedence, since `-` at the same level always groups leftward by definition."
+  ],
+  "answer": 0,
+  "explanation": "The rule gives a flat sequence and says nothing about grouping. `left = new Bin(op, left, term())` is the line that decides: the accumulated tree becomes the left child, so `2 - 3 - 4` builds `(- (- 2 3) 4)`, which is -5. Building it as `new Bin(op, term(), left)` would be right-associative and wrong for subtraction. Assignment and exponentiation are right-associative and are built with recursion instead of a loop.",
+  "tags": [
+    "associativity",
+    "parsing"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

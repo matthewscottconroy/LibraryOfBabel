@@ -1,0 +1,19 @@
+{
+  "question_id": "938d017a-17f5-43a6-b2b5-1ef9ecb61cb7",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "blank",
+  "text": "The tokenizer rule that takes the longest character run which could form a token — so that `123` is one number and not three — is called ___ munch.",
+  "choices": [
+    "maximal",
+    "maximal"
+  ],
+  "answer": "maximal",
+  "explanation": "It is why scanning forward while characters keep qualifying is the right loop, and why `x1` is a single name while `1x` produces `NUMBER(1)` followed by `NAME(x)` rather than an error. Tokenizers are usually permissive that way; rejecting `1x` is the parser's job, and keeping the split clean is part of why the two passes are separate.",
+  "tags": [
+    "tokenizing",
+    "rules"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

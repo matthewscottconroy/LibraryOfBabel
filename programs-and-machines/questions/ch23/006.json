@@ -1,0 +1,21 @@
+{
+  "question_id": "4e2bf47a-f5d1-4fe3-93ad-caf5ae635d5f",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "mc",
+  "text": "What does the `END` sentinel token buy the parser?",
+  "choices": [
+    "It marks where error recovery should resume after a failed parse.",
+    "The parser can always ask for a next token, so end-of-input becomes an ordinary case rather than a check at every step.",
+    "It allows the tokenizer to signal that the input was valid.",
+    "It carries the total token count, which the parser uses to size its stack."
+  ],
+  "answer": 1,
+  "explanation": "Without it every `peek` and `advance` would need a bounds check first. With it, running off the end produces a token like any other, and the parser's error messages fall out naturally — `2 +` reports `unexpected END` because `factor` reached for an operand and got the sentinel. A sentinel turning a special case into a normal one is a technique worth recognizing generally.",
+  "tags": [
+    "tokenizing",
+    "sentinel"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

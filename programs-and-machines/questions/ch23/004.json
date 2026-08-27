@@ -1,0 +1,21 @@
+{
+  "question_id": "d860055b-bd38-47e2-bdc6-7e9ef54a0756",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is an ambiguous grammar fatal rather than merely untidy?",
+  "choices": [
+    "Ambiguous grammars cannot be parsed by any algorithm, so no implementation is possible.",
+    "Parsers built from ambiguous grammars run in exponential time on all inputs.",
+    "The ambiguity propagates into the tokenizer, which can no longer classify operators.",
+    "It does not determine the meaning of its own language — `2 + 3 * 4` could be 14 or 20 depending on which derivation the parser found."
+  ],
+  "answer": 3,
+  "explanation": "Two distinct derivation trees for one string means two meanings, and a specification that does not say which is not a specification. The fix is not an annotation saying `*` binds tighter — grammars have no such mechanism — but restructuring so that only the intended tree is derivable: one level per precedence tier, loosest binding at the top.",
+  "tags": [
+    "ambiguity",
+    "grammars"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

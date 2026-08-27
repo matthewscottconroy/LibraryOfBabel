@@ -1,0 +1,21 @@
+{
+  "question_id": "ecb4b274-0883-4d16-a4c8-ea32a9275e4e",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is a syntax tree declared as a sealed interface with record implementations rather than as a class hierarchy?",
+  "choices": [
+    "A class hierarchy could not express that `Bin` holds two sub-expressions of the same type.",
+    "Records are faster to allocate, which matters because a parser creates many nodes.",
+    "Sealed interfaces are the only Java construct that permits recursive type references.",
+    "It states that an expression is exactly one of a fixed set of shapes, so a `switch` over them needs no `default` and gains a new case as a compile error."
+  ],
+  "answer": 3,
+  "explanation": "A syntax tree is the example algebraic data types were designed for: an expression is a number or a variable or a binary operation, and nothing else. The exhaustiveness check is the practical payoff — adding a `Call` node in Chapter 25 turns every tree walker into a compile error listing exactly what to update, which is the difference between a safe refactor and a search.",
+  "tags": [
+    "trees",
+    "sealed"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

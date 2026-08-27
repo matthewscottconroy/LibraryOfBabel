@@ -1,0 +1,21 @@
+{
+  "question_id": "1c2e85fe-affa-4c63-af78-be64639847cb",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "mc",
+  "text": "For a source with probabilities 1/2, 1/4, 1/8, 1/8, Huffman coding achieved exactly 1.75 bits per symbol — the entropy. Why exactly?",
+  "choices": [
+    "Every probability is a power of two, so each ideal code length -log₂ pᵢ is a whole number.",
+    "Huffman coding always achieves the entropy; the theorem guarantees it for any source.",
+    "The string was short enough that rounding effects cancelled out.",
+    "The four symbols happened to form a balanced tree, which is the optimal shape."
+  ],
+  "answer": 0,
+  "explanation": "Huffman produces integer-length code words, so it hits the entropy exactly when the ideal lengths are already integers — here 1, 2, 3, 3. Otherwise it is within one bit per symbol and no better integer-length code exists. Arithmetic coding closes the remaining gap by abandoning the whole-number requirement, which is what modern compressors use.",
+  "tags": [
+    "huffman",
+    "entropy"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

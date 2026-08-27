@@ -1,0 +1,21 @@
+{
+  "question_id": "7b20872a-873c-4488-afe0-f19af758bfe8",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why is the information measure a logarithm rather than, say, 1/p?",
+  "choices": [
+    "Information from independent events must add, while their probabilities multiply — and the logarithm is the function that converts one into the other.",
+    "Because the measure must be zero at p = 0, which 1/p is not.",
+    "Because a bit is defined as a base-2 quantity, and only a logarithm is base-dependent.",
+    "Because logarithms are bounded, so no single event can carry infinite information."
+  ],
+  "answer": 0,
+  "explanation": "Two coin flips should be two bits, not one and not four. p(two heads) = 1/4, and -log₂(1/4) = 2. The base-2 choice is what makes the unit a bit; base e gives nats and base 10 gives hartleys, differing by a constant factor. Note also that an impossible event carries infinite information under this measure, which is why it does not happen.",
+  "tags": [
+    "information",
+    "logarithms"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "33f0e92c-5921-49b2-8680-e53568f524d9",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why can no lossless compressor shrink every input?",
+  "choices": [
+    "Because the compressor's own header occupies space that cannot be recovered.",
+    "Because compression is only defined for inputs above a minimum length.",
+    "There are 2ⁿ inputs of length n but only 2ⁿ - 1 strings shorter than n, so two inputs must collide and the decompressor cannot tell them apart.",
+    "Because random data has maximum entropy, and most inputs are random."
+  ],
+  "answer": 2,
+  "explanation": "Three lines, using Chapter 17's sum of powers of two. The conclusion is stronger than \"some inputs do not shrink\": for every lossless compressor, some inputs must *grow*. Verified — 200 of 200 random 64-byte inputs grew. Which is why every real compressor stores an incompressible block uncompressed with a flag saying so; that flag is the unavoidable growth, minimized.",
+  "tags": [
+    "compression",
+    "impossibility"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

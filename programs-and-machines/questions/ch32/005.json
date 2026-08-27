@@ -1,0 +1,21 @@
+{
+  "question_id": "51be7809-0e57-4c27-9d54-6c921e04932b",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "mc",
+  "text": "A coin lands heads 99.9% of the time. Its entropy is 0.0114 bits per flip. What follows?",
+  "choices": [
+    "The coin is broken, since a fair source is required for entropy to be defined.",
+    "A thousand such flips carry about 11 bits in total and could be transmitted in two bytes.",
+    "The entropy will rise toward 1 as more flips are observed and the estimate improves.",
+    "Each flip must still be stored in one bit, since a bit is the smallest addressable unit."
+  ],
+  "answer": 1,
+  "explanation": "Predictable data is cheap to transmit and unpredictable data is not — that curve is the whole practical content of the chapter. The source coding theorem makes it exact: a source of entropy H can be encoded in H bits per symbol on average, and no encoding does better. So H is not an estimate; it is the size of the data.",
+  "tags": [
+    "entropy",
+    "compression"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

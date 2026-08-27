@@ -1,0 +1,21 @@
+{
+  "question_id": "a74c860b-1f88-4997-9da8-3437bff425b1",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Estimates of English's entropy fall from 4.7 bits per letter to about 1. Why?",
+  "choices": [
+    "Longer texts have more repetition, so the estimate falls as the sample grows.",
+    "English has been simplifying over time, so modern text is more predictable than older text.",
+    "Conditional entropy: H(X|Y) ≤ H(X), so accounting for more context leaves less surprise to measure.",
+    "The earlier estimates included punctuation and spaces, which the later ones exclude."
+  ],
+  "answer": 2,
+  "explanation": "4.7 ignoring frequency, 4.1 with letter frequencies, 3.5 with pairs, about 1 with real context — Shannon's own figure from guessing experiments. The information was always about that low; the earlier estimates were not looking at enough. This is also why a system that predicts the next symbol well is a good compressor: prediction and compression are the same problem.",
+  "tags": [
+    "entropy",
+    "context"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

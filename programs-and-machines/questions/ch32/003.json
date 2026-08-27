@@ -1,0 +1,21 @@
+{
+  "question_id": "84ab7ccb-4f2b-400c-a9ec-c7624d21a23b",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Binary search takes log₂ n steps. What does information theory add to that fact?",
+  "choices": [
+    "It explains why the base of the logarithm matters, since bits are base 2.",
+    "Each comparison yields at most one bit, and identifying one of n items requires log₂ n bits — so the complexity bound and the information bound are the same bound.",
+    "It shows the bound can be beaten if the comparisons are chosen adaptively.",
+    "It proves binary search is optimal only for uniformly distributed keys."
+  ],
+  "answer": 1,
+  "explanation": "The information in a message is the number of well-chosen yes-or-no questions needed to determine it. Guessing a number from 1 to 1000 takes about 10 questions, and log₂ 1000 ≈ 9.97. A limit on how fast an algorithm can run turns out to be a limit on how fast information can be gathered — the same connection underlies Chapter 32's comparison-sort lower bound.",
+  "tags": [
+    "information",
+    "complexity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

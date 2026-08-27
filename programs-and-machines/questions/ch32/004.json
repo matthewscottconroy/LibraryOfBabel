@@ -1,0 +1,21 @@
+{
+  "question_id": "ed906531-47cd-4d4f-98b9-fb81d0b384fe",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "mc",
+  "text": "What is entropy, and when is it maximized?",
+  "choices": [
+    "The number of distinct symbols in a source, maximized when no symbol repeats.",
+    "The total information in a message, maximized when the message is longest.",
+    "The average surprise per symbol, maximized at log₂ n when all n outcomes are equally likely.",
+    "The redundancy of a source, maximized when one outcome is certain."
+  ],
+  "answer": 2,
+  "explanation": "H = -Σ pᵢ log₂ pᵢ — each outcome's surprise weighted by how often it occurs. Verified: 0.0000 bits for a repeated character, 1.0000 for two alternating, 3.0000 for eight equally frequent — each exactly log₂ n. Entropy is maximized by uniformity, which is another way of saying the hardest thing to predict is the thing with no pattern.",
+  "tags": [
+    "entropy",
+    "definitions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

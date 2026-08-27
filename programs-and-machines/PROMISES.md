@@ -7,20 +7,9 @@ that follow have to honor them.
 Regenerate after any edit; `tools-lint.py` guarantees the references are in range,
 not that they are kept.
 
-**18 promises across 3 unwritten chapters.**
+**23 promises across 2 unwritten chapters.**
 
 ---
-
-## Chapter 33 — Information  *(Unit VIII: Limits and Cost)*
-
-- **unit-01-representation/chapter-01-two-voltages-and-an-agreement/section-02-encoding-as-convention/01-agreements-not-facts.md**
-  > …etween them is choosing an agreement. In **Chapter 25**, we will write an interpreter, and a data structure will become a program purely because our evaluator agreed to read it as one. In **Chapter 33**, Shannon will let us measure how much information an agreement can carry at all. Each of those will feel like a new topic when you reach it. It is worth noticing that it is the same topic…
-- **unit-08-limits-and-cost/chapter-32-counting-the-cost/section-02-cost-in-practice/01-searching-and-sorting.md**
-  > …sorting, and the way past a lower bound is always to change the problem. That structure — count the possibilities, count what the algorithm can distinguish, conclude — is worth remembering. Chapter 33 uses it to prove that no compressor shrinks everything, and Chapter 34's argument is a relative of it. ## In practice **Do not write a sort.** `Arrays.sort` and `Collections.sort` are imple…
-- **unit-08-limits-and-cost/chapter-32-counting-the-cost/section-02-cost-in-practice/03-measuring-honestly.md**
-  > …is what that looks like when it works. The bubble-sort row above is what it looks like when it does not, and reporting the second is as much a part of the discipline as reporting the first. Chapter 33 turns from how long a program takes to how much a message contains, and the counting arguments start proving things impossible.
-- **unit-08-limits-and-cost/intro.md**
-  > …s you will meet. Then the practical half — searching and sorting, space as a cost, and the gap between what theory predicts and what a machine does, which is wider than the theory admits. **Chapter 33 — Information.** How much is in a message. Entropy, which measures surprise, and compression, which is what you can do about it. It ends with a counting argument proving that no compressor …
 
 ## Chapter 34 — What No Program Can Do  *(Unit VIII: Limits and Cost)*
 
@@ -44,6 +33,24 @@ not that they are kept.
   > …e, and it doubles with every doubling of $n$. Section 32.2.3 has one more row of this table, and it does not behave. ## The lower bound A genuine impossibility result, and a mild preview of Chapter 34. **No comparison sort can be faster than $O(n \log n)$ in the worst case.** The argument is a counting one. A sorting algorithm's behavior is determined by the answers to its comparisons, e…
 - **unit-08-limits-and-cost/chapter-32-counting-the-cost/section-02-cost-in-practice/01-searching-and-sorting.md**
   > …. That structure — count the possibilities, count what the algorithm can distinguish, conclude — is worth remembering. Chapter 33 uses it to prove that no compressor shrinks everything, and Chapter 34's argument is a relative of it. ## In practice **Do not write a sort.** `Arrays.sort` and `Collections.sort` are implemented by specialists, tuned over decades, and better than what you wil…
+- **unit-08-limits-and-cost/chapter-33-information/README.md**
+  > …ssor can shrink every input**, which is a counting argument three lines long and the first outright impossibility result in this book. That last item is the reason this chapter comes before Chapter 34. The halting problem's argument is harder, but it has the same shape: count the things that exist, count the things a program can distinguish, and observe that the second number is smaller.…
+- **unit-08-limits-and-cost/chapter-33-information/important-concepts.md**
+  > …ow one is there. **The counting technique** — count what exists, count what the mechanism can distinguish, observe the second is smaller. The sorting lower bound, the compression bound, and Chapter 34's results are all this argument. **Almost every string is incompressible** — fewer than one $n$-bit string in 512 can be shrunk by ten bits. Compression works only because the files we care…
+- **unit-08-limits-and-cost/chapter-33-information/important-researchers.md**
+  > …s a forward reference. His alternative definition of information — the length of the shortest program that produces a string — needs no probabilities and is a property of the string itself. Chapter 34 takes it up, along with the reason it cannot be computed.
+- **unit-08-limits-and-cost/chapter-33-information/section-01-how-surprising-is-a-message/01-information-as-surprise.md**
+  > … what was likely. In practice one estimates the model from the data, which Section 33.1.2 does, and it is worth knowing that this is an estimate rather than a property of the string itself. Chapter 34 gives the other definition — Kolmogorov complexity — which *is* a property of the string, needs no probabilities, and is uncomputable. The trade between those two is the subject there. Next…
+- **unit-08-limits-and-cost/chapter-33-information/section-02-compression/02-why-you-cannot-compress-everything.md**
+  > …sult lets you dismiss a class of claim without inspecting it.** You do not need to find the flaw in the scheme; you know one is there. ## The shape of the argument Worth extracting, because Chapter 34 uses the same shape twice. 1. Count the things that exist: $2^n$ inputs. 2. Count the things the mechanism can produce or distinguish: $2^n - 1$ outputs. 3. The second is smaller, so the me…
+- **unit-08-limits-and-cost/chapter-33-information/section-02-compression/02-why-you-cannot-compress-everything.md**
+  > … $2^n - 1$ outputs. 3. The second is smaller, so the mechanism cannot be one-to-one. Section 32.2.1's sorting bound is this exact argument: $n!$ orderings against $2^k$ comparison outcomes. Chapter 34's uncomputability results are relatives of it — countably many programs against uncountably many functions, which is the same observation with infinite sets and Cantor's diagonal in place o…
+- **unit-08-limits-and-cost/chapter-33-information/section-02-compression/02-why-you-cannot-compress-everything.md**
+  > …use the files we actually care about — text, images, audio, programs — are a vanishingly small and highly structured corner of the space of possible files. That observation is the bridge to Chapter 34. A string that cannot be described more briefly than by writing it out is, in Kolmogorov's sense, **random** — and the counting above says almost every string is. Chapter 34 then shows that…
+- **unit-08-limits-and-cost/chapter-33-information/section-02-compression/02-why-you-cannot-compress-everything.md**
+  > …s the bridge to Chapter 34. A string that cannot be described more briefly than by writing it out is, in Kolmogorov's sense, **random** — and the counting above says almost every string is. Chapter 34 then shows that although almost all strings are random, no program can identify a single one of them. Chapter 34 is the last technical chapter, and it is the one where the impossibility res…
+- **unit-08-limits-and-cost/chapter-33-information/section-02-compression/02-why-you-cannot-compress-everything.md**
+  > …ov's sense, **random** — and the counting above says almost every string is. Chapter 34 then shows that although almost all strings are random, no program can identify a single one of them. Chapter 34 is the last technical chapter, and it is the one where the impossibility results stop being about compressors and start being about programs.
 - **unit-08-limits-and-cost/intro.md**
   > …ssion, which is what you can do about it. It ends with a counting argument proving that no compressor can shrink everything — the first impossibility result in the book, and a gentle one. **Chapter 34 — What No Program Can Do.** The halting problem. Undecidability. Kolmogorov complexity, and the observation that most strings cannot be described more briefly than by writing them out. Turi…
 - **unit-08-limits-and-cost/intro.md**

@@ -1,0 +1,21 @@
+{
+  "question_id": "1ea19029-17e0-4afc-a621-8ffd1035f5b4",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "mc",
+  "text": "9,000 bytes of repeated English compressed to 108, far below what its per-character entropy of 4.40 predicts. Why?",
+  "choices": [
+    "Per-character entropy overestimates whenever the alphabet is smaller than 256 symbols.",
+    "The source coding theorem applies only to random sources, not to natural language.",
+    "gzip applies Huffman coding twice, which halves the entropy bound each pass.",
+    "The text was one sentence repeated, and LZ77 found the repetition — which per-character entropy cannot see, since it looks at one character at a time."
+  ],
+  "answer": 3,
+  "explanation": "It is conditional entropy again: with context, the real entropy of that particular source is near zero. The random-letters row behaved as predicted — entropy 4.70, compressed to 62.6%, close to 4.70/8 = 58.75% — because there was no structure beyond the fact that only 26 of 256 byte values occurred, and gzip extracted approximately that and nothing more.",
+  "tags": [
+    "compression",
+    "lz77"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

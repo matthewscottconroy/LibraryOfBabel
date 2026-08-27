@@ -1,0 +1,19 @@
+{
+  "question_id": "a75ac65c-ad41-43dc-b15d-db1cddf8f810",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "blank",
+  "text": "Count what exists, count what the mechanism can distinguish, observe the second is smaller. This technique — used for the sorting lower bound, the compression bound, and Chapter 34's results — rests on the ___ principle.",
+  "choices": [
+    "pigeonhole",
+    "pigeonhole"
+  ],
+  "answer": "pigeonhole",
+  "explanation": "It is the most reliable tool in the subject for proving something cannot be done, and it works precisely because it says nothing about *how* the thing would be done. That is what makes an impossibility result practically valuable: you can dismiss a universal-compression claim without inspecting the method, because you know a flaw is there. Chapter 34's uncomputability results are the same argument with infinite sets and Cantor's diagonal in place of pigeonhole.",
+  "tags": [
+    "counting",
+    "proofs"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

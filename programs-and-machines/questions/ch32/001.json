@@ -1,0 +1,21 @@
+{
+  "question_id": "7a9d9691-46fc-4893-973c-43fad1272a25",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why does \"the sun rose this morning\" carry no information in Shannon's sense?",
+  "choices": [
+    "It is longer than one bit, so the surplus characters carry redundancy rather than information.",
+    "You were already certain, so no uncertainty was reduced — information is a property of the message *and* what the receiver believed.",
+    "It contains no numbers, and Shannon's measure applies only to quantitative messages.",
+    "It is a statement about the past, and information concerns only future events."
+  ],
+  "answer": 1,
+  "explanation": "An event of probability 1 carries -log₂(1) = 0 bits. A fair coin carries 1, a fair die 2.58, a one-in-a-thousand event about 10. The same words carry different information to different receivers, which is a feature of the definition rather than a problem with it — and it is why entropy is defined over a source rather than over a string.",
+  "tags": [
+    "information",
+    "surprise"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

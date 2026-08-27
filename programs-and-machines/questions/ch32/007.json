@@ -1,0 +1,21 @@
+{
+  "question_id": "8651aaa9-5a97-4c63-81a1-a74251f28f08",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why must a variable-length code have the prefix property?",
+  "choices": [
+    "Without it the code words cannot be arranged in a binary tree, which compression requires.",
+    "Without it the code cannot achieve the entropy bound, though it remains decodable.",
+    "Without it the bit stream is ambiguous — with a→0, b→1, c→01, the bits `01` could be `c` or `a` then `b`.",
+    "Without it the decoder must buffer the whole message before producing any output."
+  ],
+  "answer": 2,
+  "explanation": "The prefix property means no code word is a prefix of another, so a decoder reading left to right knows a symbol has ended the moment it recognizes one — no lookahead, no separators. It is equivalent to putting symbols at the leaves of a binary tree, since no leaf is an ancestor of another. UTF-8 is a prefix code, which is why it can resynchronize after a corrupted byte.",
+  "tags": [
+    "codes",
+    "prefix"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

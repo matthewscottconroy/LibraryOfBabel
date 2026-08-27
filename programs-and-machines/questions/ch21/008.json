@@ -1,0 +1,21 @@
+{
+  "question_id": "6e91a2a3-2f5e-44e2-b11f-86fdaae15479",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why should a `switch` over an enum usually omit its `default` clause?",
+  "choices": [
+    "Without `default`, adding a constant turns every incomplete switch into a compile error that lists the places to update.",
+    "A `default` clause on an enum switch is a compile error, because the set is already closed.",
+    "Omitting `default` allows the switch to return null for unhandled constants rather than throwing.",
+    "Without `default`, the JVM can compile the switch to a jump table instead of a chain of comparisons."
+  ],
+  "answer": 0,
+  "explanation": "The compiler knows the set is closed and can verify that every constant is covered. That check is the entire payoff of using an enum instead of `int` constants. Writing `default` tells the compiler you have handled everything, so it stops checking, and a fourth constant then compiles fine and misbehaves at run time in whichever branch you forgot.",
+  "tags": [
+    "enums",
+    "switch"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

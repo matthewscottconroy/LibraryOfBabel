@@ -1,0 +1,21 @@
+{
+  "question_id": "2f2b3f2c-7277-4666-bfa6-42399cf342ca",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why may a Java class implement any number of interfaces but extend only one class?",
+  "choices": [
+    "Interfaces are erased during compilation, so only one of them actually reaches the bytecode.",
+    "The single-superclass rule exists to keep method tables small enough to fit in a cache line.",
+    "Interfaces carry no state, so combining several creates nothing to conflict; combining implementations would.",
+    "Interfaces are resolved at run time, so the JVM can merge as many as it needs."
+  ],
+  "answer": 2,
+  "explanation": "Multiple inheritance of implementation raises the question of what happens when two superclasses define the same field or supply the same method body. Multiple inheritance of contract has no such problem: two interfaces both demanding `draw()` is not a conflict, it is the same demand made twice. The restriction is about state, not about dispatch or size.",
+  "tags": [
+    "interfaces",
+    "multiple-inheritance"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

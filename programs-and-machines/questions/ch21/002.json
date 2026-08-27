@@ -1,0 +1,21 @@
+{
+  "question_id": "3b53690a-1464-4e57-a3b9-9c58cae64fa6",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What problem were `default` methods added to solve in Java 8?",
+  "choices": [
+    "The JVM could not dispatch an interface call unless some implementation was present at load time.",
+    "Interfaces could not be used as generic type parameters without at least one concrete method.",
+    "Abstract classes were being deprecated, so interfaces needed to supply constructors.",
+    "Adding a method to an existing interface broke every class already implementing it, which had frozen the collection interfaces."
+  ],
+  "answer": 3,
+  "explanation": "It is Chapter 21's commitment problem: once callers depend on a type, its method set is effectively fixed, and for `java.util.List` the implementers included code the JDK authors had never seen. A default method has a body, so a class that never mentions it still compiles. That is how `List` gained `sort`, `forEach` and `removeIf` without breaking anything, and it is what made the streams library possible.",
+  "tags": [
+    "interfaces",
+    "default-methods"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

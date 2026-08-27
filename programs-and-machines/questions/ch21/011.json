@@ -1,0 +1,19 @@
+{
+  "question_id": "5faff222-9032-45ed-8eab-a0352f52d9fe",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "blank",
+  "text": "A record constructor written with no parameter list, used for validation before the compiler adds the field assignments, is called a ___ constructor.",
+  "choices": [
+    "compact",
+    "compact"
+  ],
+  "answer": "compact",
+  "explanation": "It means a record is not limited to invariant-free data, which is the usual first assumption. `Point { if (x < 0 || y < 0) throw new IllegalArgumentException(\"negative\"); }` rejects negatives at construction, and because a record is immutable, a constraint checked once holds forever — a stronger guarantee than a class with setters can offer.",
+  "tags": [
+    "records",
+    "constructors"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

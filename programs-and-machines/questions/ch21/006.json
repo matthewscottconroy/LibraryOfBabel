@@ -1,0 +1,21 @@
+{
+  "question_id": "2f3835fa-4227-47a3-95b6-50d19cc14e74",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is `void process(List<String> items)` better than `void process(ArrayList<String> items)`?",
+  "choices": [
+    "It defers the choice of implementation to run time rather than compile time.",
+    "It avoids the cast the JVM would otherwise insert at every call site.",
+    "It allows the method to modify the list, which an `ArrayList` parameter would forbid.",
+    "It accepts every kind of list, including `List.of` results, and does not let the body depend on anything `List` did not promise."
+  ],
+  "answer": 3,
+  "explanation": "On a parameter, take the weakest type that does the job. Demanding `ArrayList` rejects perfectly good lists for no reason, and it invites the body to reach for `ensureCapacity` or `trimToSize`, at which point the restriction becomes real. The rule has limits: on a return type, the weakest type is not always right — returning `Collection` where every caller wants indexing has weakened the contract for no gain.",
+  "tags": [
+    "interfaces",
+    "declaration"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

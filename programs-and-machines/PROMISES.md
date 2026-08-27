@@ -7,44 +7,9 @@ that follow have to honor them.
 Regenerate after any edit; `tools-lint.py` guarantees the references are in range,
 not that they are kept.
 
-**86 promises across 14 unwritten chapters.**
+**79 promises across 13 unwritten chapters.**
 
 ---
-
-## Chapter 22 — Contracts Without Implementation  *(Unit V: Objects, State, and Identity)*
-
-- **unit-02-computation/chapter-08-choosing/section-02-choice-in-a-program/03-switch-and-dispatch.md**
-  > …an` — for `boolean` an `if` is clearly better, and for the others the reason is historical and to do with how `switch` is implemented. Switching on an `enum` is where it is at its best, and Chapter 22 returns to it: ```java String advice = switch (weather) { case SUNNY -> "Sunglasses"; case RAINY -> "Umbrella"; case SNOWY -> "Coat"; }; ``` No `default` is needed, because the compiler kno…
-- **unit-03-abstraction/chapter-11-giving-a-process-a-name/section-01-the-method/03-returning-a-value.md**
-  > …a maximum, a quotient and a remainder — and the options are all imperfect: **Return an object holding both.** Unit V's answer, and usually the right one. A `MinMax` with two fields, or from Chapter 22 a `record`, which exists for exactly this. **Return an array.** `return new int[]{min, max};` Works, and the caller has to remember which index is which, so it is a positional-argument prob…
-- **unit-04-compound-data/chapter-17-growing-collections/section-01-when-the-size-is-not-known/01-the-arraylist.md**
-  > …List<String>`** is the declared type of the variable: *a list of strings*. It is an **interface** — Chapter 16's abstract data type — naming the operations without saying how they are done. Chapter 22 covers interfaces properly. **`new ArrayList<>()`** creates the actual object: a particular implementation, which stores elements in an array. **The declared type is the interface, not the …
-- **unit-04-compound-data/chapter-17-growing-collections/section-01-when-the-size-is-not-known/03-list-set-and-map.md**
-  > …ed as a key, then modified, is effectively lost inside the map. **A class you write needs `equals` and `hashCode`** before it can be used as a key or put in a set. Chapter 20 shows how, and Chapter 22's records do it for you. ## Declaring by interface Repeating the convention because it matters: ```java List<String> names = new ArrayList<>(); // yes ArrayList<String> names = new ArrayLis…
-- **unit-04-compound-data/chapter-18-text-as-data/section-01-the-string/01-immutability-and-why.md**
-  > …to `String`, to the wrapper types of Chapter 16, and to the `List.of` collections of Chapter 17. Chapter 20 argues you should apply it to your own types wherever you can, and the records of Chapter 22 exist to make it convenient. The cost is allocation. The benefit is that an entire category of reasoning — *could this have changed since I last looked?* — disappears. Next: what to do when…
-- **unit-05-objects/chapter-19-bundling-state-and-behavior/section-02-encapsulation/01-what-private-is-for.md**
-  > …thods is a place to decide what the class means by printing, comparing, or storing. But it is real, and when a class is a genuine bag of values with no invariant, the ceremony buys nothing. Chapter 22's `record` exists for exactly that case, and it is the right answer far more often than people realize. ## An honest exception There is a case where a public field is fine: a small class wi…
-- **unit-05-objects/chapter-19-bundling-state-and-behavior/section-02-encapsulation/01-what-private-is-for.md**
-  > …een them to violate, and a getter would add a line and no information. Java's own library does this in places. But note the conditions — final, no invariant, immutable types — and note that Chapter 22's `record` does the same thing in one line with `equals`, `hashCode`, and `toString` supplied. When you find yourself reaching for the public-field form, a record is usually what you want. …
-- **unit-05-objects/chapter-20-identity-and-equality/section-02-when-are-two-things-the-same/01-double-equals-vs-equals.md**
-  > …` is right: comparing primitives, and deliberately asking whether two references are the same object — checking for identity, or comparing against `null`, or comparing enum constants, which Chapter 22 explains are singletons. Next: the contract that makes hash collections work, and what breaks without it.
-- **unit-05-objects/chapter-20-identity-and-equality/section-02-when-are-two-things-the-same/02-the-equals-hashcode-contract.md**
-  > …afe by construction, which is a large part of why `Map<String, ...>` is so common. This is also the strongest practical argument in the chapter for the next lesson. ## Records do it for you Chapter 22's preview, and it is the reason most of this discipline can be avoided: ```java record Point(int x, int y) { } ``` That generates `equals`, `hashCode`, and `toString` using all the componen…
-- **unit-05-objects/chapter-21-families-of-types/further-reading.md**
-  > …n Kay, "The Early History of Smalltalk" (1993).** What he meant by object-oriented, in his own words, and how far it is from class hierarchies. Entertaining, and it will change how you read Chapter 22.
-- **unit-05-objects/chapter-21-families-of-types/important-concepts.md**
-  > …with `extends`, so that the subclass has the superclass's members and may add its own. **Superclass and subclass** — the general type and the specific one. Java permits a single superclass; Chapter 22 shows how interfaces relax that. **Subclasses and private members** — a subclass's code cannot name a superclass's private fields, though the object contains them. Encapsulation holds again…
-- **unit-05-objects/chapter-21-families-of-types/important-researchers.md**
-  > … Smalltalk's emphasis was message passing and late binding — the receiver decides what to do — rather than class hierarchies, and Kay later remarked that he had not had inheritance in mind. Chapter 22's interfaces are closer to his idea than this chapter's hierarchies are. Turing Award, 2003. **Bjarne Stroustrup** (born 1950) made the opposite default choice in C++: methods are staticall…
-- **unit-05-objects/chapter-21-families-of-types/section-02-polymorphism/01-one-name-many-behaviors.md**
-  > …ment.** Once callers depend on `Shape`, the method set is effectively fixed. Adding a method to `Shape` breaks every subclass that does not implement it — including ones you do not control. Chapter 22 shows the escape hatch Java 8 added for exactly this problem. Next: how the machine actually finds the method.
-- **unit-05-objects/chapter-21-families-of-types/section-02-polymorphism/02-dynamic-dispatch.md**
-  > …— the target is fixed, which is precisely why `private` and `static` methods are safe to call from a constructor and overridable ones are not. `invokeinterface` is the awkward one and it is Chapter 22's subject. A class may implement several interfaces, so an interface method cannot be guaranteed a fixed slot in every implementing class's table, and the lookup is correspondingly less dir…
-- **unit-05-objects/chapter-21-families-of-types/section-02-polymorphism/03-the-substitution-principle.md**
-  > …ut behavior. That distinction is nearly forty years old and it is still the most common mistake in object-oriented code. She received the Turing Award in 2008. That completes Unit V's core. Chapter 22 asks what happens when you want the substitutability without the inheritance — a common type with no shared implementation at all — which is what interfaces are for.
-- **unit-05-objects/intro.md**
-  > …f the difficulty disappear. **Chapter 21 — Families of Types.** Inheritance and polymorphism, treated as a design decision with a principle underneath it rather than as a syntax to learn. **Chapter 22 — Contracts Without Implementation.** Interfaces, abstract classes, enums, and records — four ways of saying what something must do without saying how. **Chapter 23 — Designing Object Syste…
 
 ## Chapter 23 — Designing Object Systems  *(Unit V: Objects, State, and Identity)*
 
@@ -66,6 +31,14 @@ not that they are kept.
   > …which offers stack operations and *only* stack operations, because it does not inherit from a list. That is composition choosing what to expose rather than inheritance exposing everything — Chapter 23's whole argument, visible in a class you can look up today. ## How to use the principle In practice it is a question to ask before writing `extends`: **Is there anything a caller could beli…
 - **unit-05-objects/chapter-21-families-of-types/section-02-polymorphism/03-the-substitution-principle.md**
   > …tion.** Hold the other object in a field and expose the operations that genuinely apply. `Sq` holds a side. `ArrayDeque` holds an array. Nothing is inherited, so nothing unwanted leaks, and Chapter 23 makes this the default. ## Where the principle came from Liskov has appeared throughout this book — abstract data types in Chapter 19, the argument for restricted visibility, and now this. …
+- **unit-05-objects/chapter-22-contracts-without-implementation/exercises.md**
+  > …atalogued`, a record for the shared bibliographic data, and an enum for the item kind. Then write a method that sorts a mixed list by title without knowing any concrete type. Keep the code; Chapter 23 revisits the design.
+- **unit-05-objects/chapter-22-contracts-without-implementation/section-01-interfaces/02-abstract-classes.md**
+  > …sit` is common, and a savings account really is a kind of account. If you find yourself unsure, choose the interface. It constrains implementers less, it composes with other interfaces, and Chapter 23 will argue that the inheritance an abstract class requires is a commitment worth avoiding when you can. ## Both at once The standard library frequently does both, and it is a useful idiom t…
+- **unit-05-objects/chapter-22-contracts-without-implementation/section-01-interfaces/03-programming-to-an-interface.md**
+  > … a method's name is a promise and its body is nobody's business. Chapter 19 put a boundary around a class. This is that idea applied to the type system, and it is the last form of it before Chapter 23 asks how to design a system out of these parts. The counterweight, since this book has tried to give both sides: interfaces are not free. Every one is a type to name, understand and keep cu…
+- **unit-05-objects/chapter-22-contracts-without-implementation/section-02-restricted-shapes/02-records-as-plain-data.md**
+  > …n **algebraic data type**, arriving in Java forty years after ML had it, and Chapter 24 will show why the idea belongs to how languages are described. That completes the material of Unit V. Chapter 23 asks the design question: given classes, interfaces, inheritance, composition, enums and records, how do you decide what to build?
 - **unit-05-objects/intro.md**
   > … as a syntax to learn. **Chapter 22 — Contracts Without Implementation.** Interfaces, abstract classes, enums, and records — four ways of saying what something must do without saying how. **Chapter 23 — Designing Object Systems.** Responsibility, composition against inheritance, coupling and cohesion, and a worked design from a problem statement to a set of classes. A warning about how t…
 - **unit-05-objects/intro.md**
@@ -85,6 +58,12 @@ not that they are kept.
   > … like; the library works out how to test it. It is a small declarative language embedded in a procedural one, which is a genuinely different way of expressing a computation and a preview of Chapter 24, where we build a parser for a language of our own. ## Enough syntax to read one | pattern | matches | |---|---| | `abc` | exactly that | | `.` | any single character | | `\d` | a digit; `\…
 - **unit-04-compound-data/chapter-18-text-as-data/section-02-parsing-and-formatting/02-patterns-and-regular-expressions.md**
   > … same argument means **you cannot parse HTML, JSON, or arithmetic expressions with a regular expression**, and attempts to do so are a recurring internet joke with a real theorem behind it. Chapter 24 builds the machinery that can. **They become unreadable fast.** A pattern for a valid email address, written properly, is over four hundred characters and nobody can verify it. If your patt…
+- **unit-05-objects/chapter-22-contracts-without-implementation/important-concepts.md**
+  > …en. Both are ways of moving work to the compiler. **Sealed interfaces and algebraic data types** — a closed set of implementations, each a record, switched over with exhaustiveness checked. Chapter 24 returns to the idea.
+- **unit-05-objects/chapter-22-contracts-without-implementation/important-researchers.md**
+  > …eck that every pattern match covered all of them. That was 1973. Java 21 has it. Milner also gave the field type inference and, separately, the calculus behind concurrent process modelling; Chapter 24 owes him a good deal. Turing Award, 1991. **Brian Goetz** (born 1968) led the design of records, sealed types, and pattern matching as Java's language architect, and wrote the design docume…
+- **unit-05-objects/chapter-22-contracts-without-implementation/section-02-restricted-shapes/02-records-as-plain-data.md**
+  > …tches over the result with exhaustiveness checked — a closed set of shapes, each carrying its own data. That is an **algebraic data type**, arriving in Java forty years after ML had it, and Chapter 24 will show why the idea belongs to how languages are described. That completes the material of Unit V. Chapter 23 asks the design question: given classes, interfaces, inheritance, compositio…
 
 ## Chapter 25 — An Evaluator  *(Unit VI: Programs as Data)*
 
@@ -113,6 +92,10 @@ not that they are kept.
   > …ite ```java counts.put(name, counts.getOrDefault(name, 0) + 1); ``` which is also fine and slightly more legible if `merge` is unfamiliar. The `Integer::sum` is a method reference, which is Chapter 26. ## The implementations Each shape has several, and the choice is about cost. **`ArrayList`** — a growable array. Fast access by position, fast appending, slow insertion or removal in the m…
 - **unit-04-compound-data/chapter-17-growing-collections/section-02-generics-and-iteration/02-iterating-safely.md**
   > …justs its position. This is why `Iterator` has a `remove` method at all. **Use `removeIf`, which is clearest:** ```java names.removeIf(n -> n.equals("Ada")); ``` The `n -> ...` is a lambda, Chapter 26. Read it as "for each n, is it Ada?". **Collect and remove afterwards**, when the condition is complicated: ```java List<String> doomed = new ArrayList<>(); for (String n : names) { if (com…
+- **unit-05-objects/chapter-22-contracts-without-implementation/important-concepts.md**
+  > …actories, often returning an anonymous class. **Anonymous class** — a class declared and instantiated in one expression, with no name. The pre-Java-8 way to supply a one-off implementation; Chapter 26 shows the short form. **invokeinterface** — the call instruction for interface methods. A class may implement any combination of interfaces, so no single method-table layout works and the J…
+- **unit-05-objects/chapter-22-contracts-without-implementation/section-01-interfaces/01-a-promise-with-no-body.md**
+  > … `(nothing)`. That inner construction is an **anonymous class** — a class with no name, declared and instantiated in one expression. It is how you supply a small one-off implementation, and Chapter 26 shows the much shorter form that replaced it for interfaces with a single method. ## How the call works Chapter 21 left `invokeinterface` unexplained. Here is why it is separate. For a clas…
 
 ## Chapter 27 — Programs That Inspect Themselves  *(Unit VI: Programs as Data)*
 

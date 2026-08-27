@@ -1,0 +1,21 @@
+{
+  "question_id": "ea9d5b1a-eca9-46d0-a937-48e465b38268",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What does `record Point(int x, int y) { }` actually declare?",
+  "choices": [
+    "That a `Point` is exactly an `x` and a `y` — from which the fields, constructor, accessors, `equals`, `hashCode` and `toString` all follow.",
+    "A mutable value class whose generated setters preserve the declared component order.",
+    "A class identical to a normal one, except that the constructor is written for you.",
+    "An abstract data holder that must be extended before it can be instantiated."
+  ],
+  "answer": 0,
+  "explanation": "The generated methods are a consequence of the claim rather than the point of it. Because a record is its components, `equals` compares them, `hashCode` agrees, `toString` shows them, the fields are private and final, there are no setters, and the class is implicitly final. Two separately constructed `Point(3, 4)` objects are equal and hash alike, so a `HashSet` given both holds one element.",
+  "tags": [
+    "records",
+    "data"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

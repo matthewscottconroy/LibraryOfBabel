@@ -1,0 +1,19 @@
+{
+  "question_id": "dee6ea94-c7f6-4c42-a696-60c34ffe307a",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Comparing two enum constants with `==` is a bug that should be replaced by `equals`.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "Enum constants are singletons — created once at class load, with an implicitly private constructor and no way to make another — so reference equality is value equality. `==` is also faster, null-safe, and checked by the compiler: comparing two different enum types with `==` is an error, while `equals` would silently return false. This is Chapter 20's promised exception to the rule.",
+  "tags": [
+    "enums",
+    "identity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

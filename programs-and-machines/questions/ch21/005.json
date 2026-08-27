@@ -1,0 +1,21 @@
+{
+  "question_id": "1c8fb400-d98d-4c6c-ae37-499e30ac8b56",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Which of these is the strongest reason to prefer an interface over an abstract class?",
+  "choices": [
+    "Implementers may already have a superclass, and unrelated types can share the capability.",
+    "Interfaces can hold state, so they express more of the design than an abstract class can.",
+    "Interfaces dispatch faster, because they avoid the superclass method table entirely.",
+    "Abstract classes cannot declare methods that subclasses are required to implement."
+  ],
+  "answer": 0,
+  "explanation": "Since Java 8 gave interfaces default and static methods the distinction narrowed, and what remains is state and the single-superclass budget. An interface costs an implementer nothing they may need elsewhere, and it lets `String` and `LocalDate` share `Comparable` despite having no common ancestor. Reach for an abstract class when implementations genuinely share state and code and are honestly kinds of one thing.",
+  "tags": [
+    "interfaces",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

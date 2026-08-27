@@ -1,0 +1,21 @@
+{
+  "question_id": "96ed2156-0575-4205-a1a1-4b1b93bfbb8b",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "mc",
+  "text": "In the `Account` example, `deposit` is fully implemented in the abstract parent and calls the abstract `fee`. What is that arrangement called, and what does it buy?",
+  "choices": [
+    "The strategy pattern — the subclass replaces the whole algorithm while keeping the parent's type.",
+    "The template method — the algorithm's order lives in one place, and a subclass supplies steps without being able to rearrange them.",
+    "Constructor chaining — the parent guarantees its invariant before the subclass contributes.",
+    "Double dispatch — the parent and the subclass each contribute half of the method resolution."
+  ],
+  "answer": 1,
+  "explanation": "The parent writes the sequence and calls out to the holes; the subclass fills holes and never sees the sequence. That inversion is the value: the balance-updating logic exists once, so if it is wrong it is wrong in one place. The attached caution is Chapter 21's constructor trap in stronger form — the parent is deliberately calling a method the child overrides, which is fine after construction and dangerous during it.",
+  "tags": [
+    "abstract-classes",
+    "template-method"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

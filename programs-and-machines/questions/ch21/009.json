@@ -1,0 +1,21 @@
+{
+  "question_id": "819b8bb4-4067-4a30-acd2-1a066b5ce807",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "mc",
+  "text": "An `EnumSet` over a type with eight constants is much faster than a `HashSet` of the same constants. Why?",
+  "choices": [
+    "It stores references in declaration order, so lookup is a binary search rather than a hash.",
+    "It is backed by the same array `values()` returns, so membership is a reference comparison.",
+    "It caches the constants' hash codes at class-load time, so hashing never runs twice.",
+    "The closed set and small ordinals let it store membership as bits in a single `long`, so a test is a bit test and a union is an OR."
+  ],
+  "answer": 3,
+  "explanation": "Because there are at most as many constants as were declared and each has a small ordinal, the whole set fits in a register for any enum with 64 or fewer constants. `EnumMap` does the analogous thing with an array indexed by ordinal. Both also iterate in declaration order rather than hash order, and both cost nothing to adopt when the elements are enum constants.",
+  "tags": [
+    "enums",
+    "performance"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

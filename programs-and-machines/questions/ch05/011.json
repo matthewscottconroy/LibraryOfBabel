@@ -1,0 +1,21 @@
+{
+  "question_id": "7b28c81a-8d5a-4b23-9c44-939bebd34feb",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A computation can do exactly three things. Which is NOT one of them?",
+  "choices": [
+    "Reach a designated final state and stop",
+    "Produce a result without changing state",
+    "Continue generating new states indefinitely",
+    "Cycle, returning to a state it has been in before"
+  ],
+  "answer": 1,
+  "explanation": "Halting, cycling, and running on are the complete list. Producing a result is not a fourth option — it is what reaching a final state means. In Unit VIII we will find that deciding which of the three will happen, in general, is impossible.",
+  "tags": [
+    "computation",
+    "outcomes"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

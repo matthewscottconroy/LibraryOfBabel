@@ -1,0 +1,21 @@
+{
+  "question_id": "933a2f23-86ae-44eb-b4bc-9af9c8b4a70e",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Where should a breakpoint be placed?",
+  "choices": [
+    "At the line that throws",
+    "Before the problem, so you can step forward while the evidence still exists",
+    "At the first line of main",
+    "At the end of the method"
+  ],
+  "answer": 1,
+  "explanation": "By the time the failure happens the evidence is often gone. Stop earlier and step forward. The debugger makes observation cheap; it does not supply the expectation, locate the divergence, or ask what would have to be true.",
+  "tags": [
+    "debugger",
+    "technique"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

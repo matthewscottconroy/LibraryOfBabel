@@ -1,0 +1,19 @@
+{
+  "question_id": "f3ba6168-625c-4c28-b7aa-846c3199eaae",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "blank",
+  "text": "A method should either do something or answer something, not both. This rule is called command–___ separation.",
+  "choices": [
+    "query",
+    "query"
+  ],
+  "answer": "query",
+  "explanation": "A query can be called freely — twice, or not at all, or reordered — because it changes nothing. A command cannot. When a method is both, every call site must think about both aspects.",
+  "tags": [
+    "command-query",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

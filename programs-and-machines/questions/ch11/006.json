@@ -1,0 +1,21 @@
+{
+  "question_id": "6cd3e44f-def4-489c-9065-ca55684e3f79",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What does a variable of object type actually hold?",
+  "choices": [
+    "A reference — where the object is, not the object itself",
+    "An index into a table of objects",
+    "The object, stored in the frame",
+    "A copy of the object"
+  ],
+  "answer": 0,
+  "explanation": "A frame is fixed-size and created on every call, so an object of unknown size cannot live there. Objects go on the heap and the variable holds a reference, which is small and fixed-size. That is Chapter 1's fixed-width argument deciding a language's design.",
+  "tags": [
+    "references",
+    "heap"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

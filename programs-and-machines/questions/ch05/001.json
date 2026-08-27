@@ -1,0 +1,21 @@
+{
+  "question_id": "862745e6-4fed-4189-8082-05daf39b3ce8",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the state of a computation?",
+  "choices": [
+    "The values of all its variables",
+    "Everything that must be known in order to continue it",
+    "The contents of memory",
+    "The current line number"
+  ],
+  "answer": 1,
+  "explanation": "The test is whether losing it would stop the work continuing correctly. That includes position within a procedure — which column you are on, which instruction is next — not only data. A machine's program counter is state as much as any variable.",
+  "tags": [
+    "state",
+    "definition"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

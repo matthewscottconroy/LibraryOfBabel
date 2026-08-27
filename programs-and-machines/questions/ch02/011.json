@@ -1,0 +1,19 @@
+{
+  "question_id": "9d6ff30e-8edd-492e-a0b0-60c56ece5cd8",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Double.NaN == Double.NaN evaluates to true.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "NaN is not equal to anything, including itself, and this is deliberate: it means a NaN cannot hide in your data pretending to be a value. The consequence is that the natural-looking test does not work and you must use Double.isNaN.",
+  "tags": [
+    "nan",
+    "comparison"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "9a586d20-bf63-49a4-ad6a-95a58289b8b9",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Adding a million 1.0s to 10^16 leaves it unchanged, but summing them first and then adding gives the right answer. Why?",
+  "choices": [
+    "The million additions overflowed",
+    "The gap between adjacent doubles at 10^16 is 2.0, so adding 1 rounds straight back",
+    "The loop was optimized away in one case",
+    "Floating-point addition is not defined for large values"
+  ],
+  "answer": 1,
+  "explanation": "A value less than half a step away rounds back to where it started, so each of the million additions was individually discarded. Summing the small values first produces 10^6, which is large enough to survive the addition. This is why floating-point addition is not associative, and why you add small values first.",
+  "tags": [
+    "associativity",
+    "ordering"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "ad5feebd-9299-4343-bdef-0ed9d89a9798",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why do `Integer a = 127, b = 127;` compare equal with == but `128` does not?",
+  "choices": [
+    "valueOf caches instances for -128 to 127, so the small values are one object",
+    "The compiler optimizes small literals",
+    "== is undefined for wrapper types",
+    "127 fits in a byte and 128 does not"
+  ],
+  "answer": 0,
+  "explanation": "The real lesson is not the boundary. It is that == on wrappers compares identity, and the cache makes it accidentally work for small numbers — worse than if it never worked, because the bug passes every test using small values.",
+  "tags": [
+    "autoboxing",
+    "identity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

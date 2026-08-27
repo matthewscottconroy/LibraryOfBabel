@@ -1,0 +1,21 @@
+{
+  "question_id": "58739e18-183e-4ff6-88fb-3cb33779a772",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Applying flip-and-add-one to the 8-bit pattern 10000000 gives back 10000000. Why?",
+  "choices": [
+    "The pattern is a special reserved value",
+    "The recipe only works for positive numbers",
+    "+128 is not representable in 8 bits, so the most negative value has no positive counterpart",
+    "An extra carry was discarded, which is a bug in the recipe"
+  ],
+  "answer": 2,
+  "explanation": "The range is -128 to 127, so there is no +128 for the negation to land on. This is real and it is in Java: Math.abs(Integer.MIN_VALUE) returns a negative number, by specification. Code that computes an absolute value and then assumes it is non-negative has a bug that fires once every four billion inputs.",
+  "tags": [
+    "twos-complement",
+    "edge-case"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

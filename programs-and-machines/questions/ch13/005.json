@@ -1,0 +1,21 @@
+{
+  "question_id": "f7cd4578-2c68-4e4c-9a35-ad018538fd6e",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is wrong with a method body whose steps sit at different levels of detail?",
+  "choices": [
+    "It will run more slowly",
+    "Reading it means shifting gears mid-method",
+    "Nothing, provided each step is correct",
+    "The compiler cannot inline it"
+  ],
+  "answer": 1,
+  "explanation": "Three high-level calls and one raw loop over item prices reads badly, and extracting the loop gives four steps at one altitude. When one step is markedly more detailed than its neighbours, it wants to be a method.",
+  "tags": [
+    "abstraction-level",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

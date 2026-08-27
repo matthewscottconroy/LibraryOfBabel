@@ -1,0 +1,21 @@
+{
+  "question_id": "650de012-56ba-4d7c-aede-c6f84d7f6828",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "`mean` sums and divides — two operations. Why does it still do one job?",
+  "choices": [
+    "Both serve one purpose, at one level of abstraction, that a caller thinks of as one action",
+    "It does not; it should be split",
+    "Because it is short",
+    "Because it has one return statement"
+  ],
+  "answer": 0,
+  "explanation": "The count of operations is not the criterion. saveAndEmail also has two operations and clearly does two jobs, because persisting and notifying are separate concerns a caller might want independently — and because the name needs 'and'.",
+  "tags": [
+    "cohesion",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

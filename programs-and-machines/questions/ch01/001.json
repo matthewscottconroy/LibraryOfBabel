@@ -1,0 +1,21 @@
+{
+  "question_id": "80e6b5d0-a9d9-4650-8c6b-df0d7796668d",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What does positional notation mean?",
+  "choices": [
+    "A digit's contribution depends on its position, which is worth a power of the base",
+    "Digits are limited to 0 through 9",
+    "Numbers must be written left to right",
+    "Each digit has a fixed value regardless of where it appears"
+  ],
+  "answer": 0,
+  "explanation": "In base b the positions from the right are worth 1, b, b squared, and so on, and a digit contributes its value times its position's worth. The 'fixed value' answer describes Roman numerals, which is exactly why you cannot add two Roman numerals column by column and why calculation was done on a counting board.",
+  "tags": [
+    "positional-notation",
+    "bases"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "31f8c30d-59fe-46e0-8340-517977e7b607",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the right way to think about a recursive method?",
+  "choices": [
+    "Assume the recursive call returns the correct answer for its smaller input, and check only that you build this answer from it",
+    "Count how many frames it will use",
+    "Convert it mentally to a loop",
+    "Trace the calls down to the base case"
+  ],
+  "answer": 0,
+  "explanation": "Two sentences, regardless of input size. Tracing does not scale past about five levels and is not how fluent programmers read recursion. The assumption is legitimate because it is the induction hypothesis.",
+  "tags": [
+    "recursion",
+    "reasoning"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

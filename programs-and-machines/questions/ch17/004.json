@@ -1,0 +1,21 @@
+{
+  "question_id": "a4416d11-62d8-451d-afa6-48af29fdaac4",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why is `result += \"a\"` in a loop quadratic?",
+  "choices": [
+    "String concatenation uses recursion",
+    "Each iteration allocates a new string and copies all existing characters",
+    "The compiler cannot optimize string literals",
+    "Garbage collection runs on every iteration"
+  ],
+  "answer": 1,
+  "explanation": "Iteration i copies i characters, so n iterations copy about n squared over two. For 40,000 characters that is 800 million character copies plus 40,000 allocations — measured at 79 ms against 1 ms for StringBuilder.",
+  "tags": [
+    "concatenation",
+    "performance"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

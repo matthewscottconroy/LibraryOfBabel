@@ -1,0 +1,19 @@
+{
+  "question_id": "a8a73cf1-52a2-4219-8893-03141a26e91b",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "tf",
+  "text": "A loop invariant proves that the loop terminates.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "It proves that IF the loop finishes, the answer is right. A loop can satisfy its invariant forever — for (int k = 1; k <= 5; k = k) preserves 'sum is the total of 1 to k-1' and hangs. Termination is a separate obligation needing a decreasing non-negative variant.",
+  "tags": [
+    "invariant",
+    "termination"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

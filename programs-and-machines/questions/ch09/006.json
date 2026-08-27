@@ -1,0 +1,21 @@
+{
+  "question_id": "ba8ec9ee-023f-4e38-85bf-e142a0e7df3b",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why does bisection require an expectation at each checkpoint?",
+  "choices": [
+    "Because the debugger needs a breakpoint condition",
+    "Because the compiler cannot check intermediate values",
+    "Without a prediction there is no way to judge whether the state at that point is correct",
+    "Because otherwise the halving is not exact"
+  ],
+  "answer": 2,
+  "explanation": "Bisection is not 'look at values and see if they seem odd'. It is 'I expect 500 elements sorted ascending; are there 500 and are they sorted?' This is why the technique fails for people who cannot say what their program should contain at intermediate stages.",
+  "tags": [
+    "bisection",
+    "expectation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "e1916433-7f2c-4e02-b5d9-de55d4856e41",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The parity machine tracks whether the count of 1s is even or odd rather than counting them. Why does that matter?",
+  "choices": [
+    "It needs one bit of memory regardless of input length, so it scales",
+    "Counting would give the wrong answer",
+    "The machine cannot perform addition",
+    "It is faster to compute parity than to count"
+  ],
+  "answer": 0,
+  "explanation": "A machine that counted would need memory growing with the input; tracking parity needs one bit forever. Both answer the question and only one scales. Choosing what to remember is choosing what your program can afford.",
+  "tags": [
+    "finite-state",
+    "representation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

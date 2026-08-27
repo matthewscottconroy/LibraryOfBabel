@@ -1,0 +1,21 @@
+{
+  "question_id": "20525804-4d38-4277-9164-b983da823063",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A comment says `// compute the mean` above five lines. What should you do?",
+  "choices": [
+    "Expand it to explain how the mean is computed",
+    "Replace it with a method named mean, so the comment becomes unnecessary",
+    "Move it inside the block",
+    "Leave it; comments aid readability"
+  ],
+  "answer": 1,
+  "explanation": "A comment explaining WHAT a section does is a method name looking for a home. A comment explaining WHY is genuine information and should stay — that is the distinction worth holding.",
+  "tags": [
+    "comments",
+    "extraction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

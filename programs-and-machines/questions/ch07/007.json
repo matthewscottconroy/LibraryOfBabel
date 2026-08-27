@@ -1,0 +1,20 @@
+{
+  "question_id": "4f1579e1-9cef-403e-9243-84323c4836fd",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "`&&` stops evaluating when the left operand is false. This is called ___ evaluation.",
+  "choices": [
+    "short-circuit",
+    "short-circuit",
+    "short circuit"
+  ],
+  "answer": "short-circuit",
+  "explanation": "It is what lets a left operand guard a right one, as in s != null && s.length() > 0. Write the same thing with & and both sides evaluate, the guard does not guard, and the program crashes on exactly the input the check was written for.",
+  "tags": [
+    "short-circuit",
+    "guards"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

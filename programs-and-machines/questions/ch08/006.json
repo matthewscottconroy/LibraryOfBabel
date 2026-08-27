@@ -1,0 +1,21 @@
+{
+  "question_id": "d048828a-906d-43a9-b913-6320bee314eb",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is a variant, and what does it prove?",
+  "choices": [
+    "The changing value the loop computes",
+    "A different version of the loop with the same result",
+    "A non-negative whole number that strictly decreases each iteration, proving the loop stops",
+    "The invariant restated for the exit condition"
+  ],
+  "answer": 2,
+  "explanation": "A non-negative integer cannot decrease forever, so the loop can only run as many times as the variant's starting value. Invariant plus variant is total correctness — the strongest thing you can say about a loop.",
+  "tags": [
+    "variant",
+    "termination"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "240425d1-be25-4287-847a-84b298bdaa96",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "When should you use `assert` rather than an if-and-throw?",
+  "choices": [
+    "For anything that must never happen",
+    "Whenever performance matters",
+    "For beliefs about your own code; assertions are disabled by default so they cannot validate external input",
+    "For validating user input cheaply"
+  ],
+  "answer": 2,
+  "explanation": "A check that does not run in production is not a check, and assertions require -ea to be enabled. Use if-and-throw for input from outside your control; assert for internal invariants you expect to hold.",
+  "tags": [
+    "assertions",
+    "validation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

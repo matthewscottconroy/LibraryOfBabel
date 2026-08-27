@@ -1,0 +1,21 @@
+{
+  "question_id": "691702e5-fd5d-40f7-96f6-eb2640ce9fb1",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which way of breaking an invariant is worst?",
+  "choices": [
+    "A missed case in one operation",
+    "An escaping reference, because the damage happens outside the unit responsible for the property",
+    "An operation that throws partway through",
+    "A concurrency race"
+  ],
+  "answer": 1,
+  "explanation": "Returning the internal array means anyone can write to your storage, and no amount of care inside the class will help. The fix is to return a copy or something unmodifiable.",
+  "tags": [
+    "invariants",
+    "encapsulation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

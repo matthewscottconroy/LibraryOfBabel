@@ -1,0 +1,21 @@
+{
+  "question_id": "20c86984-0828-48da-a7e3-edf1cf8091af",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does `==` on strings work in tests and fail in production?",
+  "choices": [
+    "Identical literals are pooled into one object, but strings built at run time are not",
+    "Strings longer than 16 characters are not pooled",
+    "== is slower than equals",
+    "Production uses a different JVM"
+  ],
+  "answer": 0,
+  "explanation": "It works for literals, which is what beginners test with, and fails for strings from user input, files, or concatenation — which is what programs actually handle. A comparison that passes every test and fails on real data. Use equals, always.",
+  "tags": [
+    "equality",
+    "strings"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

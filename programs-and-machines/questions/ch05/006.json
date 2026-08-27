@@ -1,0 +1,21 @@
+{
+  "question_id": "f132550c-9ff4-4811-9305-4337ffc7d584",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What was Turing's machine invented for?",
+  "choices": [
+    "To demonstrate that computers could think",
+    "To be built as a practical computer",
+    "To define 'mechanical procedure' precisely, so that something could be proved about all such procedures",
+    "To make computation faster than by hand"
+  ],
+  "answer": 2,
+  "explanation": "He was answering Hilbert's Entscheidungsproblem, and you cannot prove that no procedure exists until you have said exactly what a procedure is. The machine was never meant to be built; it is a reference, not a design.",
+  "tags": [
+    "turing-machine",
+    "history"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

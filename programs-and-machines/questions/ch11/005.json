@@ -1,0 +1,21 @@
+{
+  "question_id": "ae71e1ee-c2aa-499f-ad82-f36250299879",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What does StackOverflowError almost always indicate?",
+  "choices": [
+    "That the JVM needs more heap",
+    "An unintended infinite recursion",
+    "That the program used too much memory",
+    "That an array index went out of range"
+  ],
+  "answer": 1,
+  "explanation": "A missing base case, a base case never approached, or accidental mutual recursion. The trace is long and repetitive, and the repetition is the diagnosis — two methods alternating tells you which pair is looping and gives both line numbers.",
+  "tags": [
+    "stack-overflow",
+    "recursion"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

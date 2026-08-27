@@ -1,0 +1,21 @@
+{
+  "question_id": "727405fc-7f24-45ec-8069-761e9bf49f55",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why does a method containing `int counter = 0; counter++;` print 1 on every call?",
+  "choices": [
+    "The local's lifetime is one execution, so each call gets a fresh cell",
+    "Because integers cannot accumulate",
+    "Because counter is not declared static",
+    "Because the increment happens before the print"
+  ],
+  "answer": 0,
+  "explanation": "A local variable lives in the method's call frame, which is created on entry and destroyed on return. To remember something across calls you need state with a longer lifetime — a field, which is Unit V.",
+  "tags": [
+    "lifetime",
+    "frames"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

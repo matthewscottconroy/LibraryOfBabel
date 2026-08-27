@@ -1,0 +1,21 @@
+{
+  "question_id": "63df6727-06f3-4b77-b46d-5afe86bade2b",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the requirement beyond simply having a base case?",
+  "choices": [
+    "There must be exactly one base case",
+    "Every recursive call must move strictly closer to it, and it must be reachable from every accepted input",
+    "The recursion must be no more than ten deep",
+    "The base case must return zero"
+  ],
+  "answer": 1,
+  "explanation": "factorial(n) calling factorial(n) has a base case and never approaches it. This is Chapter 9's termination argument unchanged: n is a non-negative integer decreasing by one, so it cannot decrease forever.",
+  "tags": [
+    "termination",
+    "recursion"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -85,6 +85,10 @@ def expected_paths(units):
                 want.add(base / s['slug'] / 'README.md')
                 for f in s['files']:
                     want.add(base / s['slug'] / f)
+    # appendices, listed in the outline's own Appendices section
+    apx = re.findall(r'^- `(appendices/[^`]+\.md)`', OUTLINE.read_text(encoding='utf-8'), re.M)
+    for rel in apx:
+        want.add(BOOK / rel)
     return want, written
 
 
@@ -159,7 +163,8 @@ def main():
     written_bases = {b for _, b in written}
     for p in sorted(have - want):
         # a stray file inside a written chapter is a real finding
-        if any(str(p).startswith(str(b)) for b in written_bases):
+        if any(str(p).startswith(str(b)) for b in written_bases) \
+           or p.parent == BOOK / 'appendices':
             note('STRUCTURE', f"{p.relative_to(ROOT)} present but not in the outline")
 
     # --- back matter --------------------------------------------------------
@@ -208,6 +213,41 @@ def main():
                                  if not l.lstrip().startswith('>'))
             for m in BANNED.finditer(unquoted):
                 note('WORD', f"{rel}: {m.group(0)!r}")
+
+    # --- question bank ------------------------------------------------------
+    import json
+    qroot = ROOT / 'questions'
+    if qroot.exists():
+        for num, _ in written:
+            d = qroot / f'ch{num - 1:02d}'          # subject.toml index is 0-based
+            files = sorted(d.glob('*.json')) if d.exists() else []
+            if not files:
+                note('QUESTIONS', f"chapter {num} has no questions ({d.name}/ is empty)")
+                continue
+            idxs = []
+            for f in files:
+                try:
+                    q = json.loads(f.read_text(encoding='utf-8'))
+                except Exception as exc:
+                    note('QUESTIONS', f"{f.name}: invalid JSON ({exc})"); continue
+                if q.get('chapter') != num - 1:
+                    note('QUESTIONS', f"{d.name}/{f.name}: chapter is {q.get('chapter')}, expected {num - 1}")
+                kind = q.get('kind')
+                if kind == 'blank':
+                    if q.get('answer') != q.get('choices', [None])[0]:
+                        note('QUESTIONS', f"{d.name}/{f.name}: blank answer must equal choices[0]")
+                    if '___' not in q.get('text', ''):
+                        note('QUESTIONS', f"{d.name}/{f.name}: blank question has no ___ in its text")
+                elif kind in ('mc', 'tf'):
+                    a = q.get('answer')
+                    if not isinstance(a, int) or not 0 <= a < len(q.get('choices', [])):
+                        note('QUESTIONS', f"{d.name}/{f.name}: answer {a!r} is not a valid index")
+                    else:
+                        idxs.append(a)
+                else:
+                    note('QUESTIONS', f"{d.name}/{f.name}: bad kind {kind!r}")
+            if idxs and len(set(idxs)) == 1:
+                note('QUESTIONS', f"{d.name}: every correct answer is at index {idxs[0]}")
 
     if not quiet:
         for line in detail[:50]: print(line)

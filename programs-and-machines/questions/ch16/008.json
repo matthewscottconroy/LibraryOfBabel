@@ -1,0 +1,21 @@
+{
+  "question_id": "657274a3-0139-4683-a19c-980accf5a80e",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What are generics, precisely?",
+  "choices": [
+    "A runtime type check",
+    "A way to make collections faster",
+    "A promise about contents, checked at compile time and then erased",
+    "A replacement for casting at runtime"
+  ],
+  "answer": 2,
+  "explanation": "Wrong things cannot go in and right things come out without a cast. Before Java 5 every read required a cast checked at run time, and getting it wrong gave ClassCastException far from where the wrong thing was added.",
+  "tags": [
+    "generics",
+    "types"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

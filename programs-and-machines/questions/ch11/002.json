@@ -1,0 +1,21 @@
+{
+  "question_id": "3acde9db-8f20-4821-abf0-ed49b2aa626a",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why is a stack the right structure for call frames?",
+  "choices": [
+    "Because methods can call themselves",
+    "Calls nest, so the most recently started is always the first to finish",
+    "It was an arbitrary choice made early",
+    "Stacks are faster than other structures"
+  ],
+  "answer": 1,
+  "explanation": "It is not a design choice so much as a recognition: given that calls nest, last-in-first-out is the shape the problem already has. Push on call, pop on return, and frames are always in the right order with no bookkeeping.",
+  "tags": [
+    "stack",
+    "nesting"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

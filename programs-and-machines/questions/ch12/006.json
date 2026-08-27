@@ -1,0 +1,21 @@
+{
+  "question_id": "39153622-ad2e-4690-9186-94b110b5757d",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What question should you ask of any tree recursion?",
+  "choices": [
+    "How deep will it go?",
+    "Do the branches overlap?",
+    "Is it tail recursive?",
+    "Can it be written as a loop?"
+  ],
+  "answer": 1,
+  "explanation": "If they do not, it is fine and possibly optimal. If they do, you are recomputing and need memoization or a different approach. Divide-and-conquer is the good case: the halves are disjoint, so nothing is recomputed, and halving gives depth about log n.",
+  "tags": [
+    "tree-recursion",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

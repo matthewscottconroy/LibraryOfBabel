@@ -1,0 +1,19 @@
+{
+  "question_id": "2e88f56d-b9ac-4a3d-99a5-0bd95224f1a6",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Restricting where a name is visible is called ___ , and its real purpose is limiting how much a reader must hold in mind.",
+  "choices": [
+    "scope",
+    "scope"
+  ],
+  "answer": "scope",
+  "explanation": "A name in scope is a name you must consider. If every variable were visible everywhere, reading any ten lines would require knowing about all of them. Declare each variable in the smallest scope that works.",
+  "tags": [
+    "scope",
+    "readability"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

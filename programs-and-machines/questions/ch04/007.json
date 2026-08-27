@@ -1,0 +1,19 @@
+{
+  "question_id": "cd4286fd-c91d-4da4-9907-b0d009cfb87b",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A conversion that cannot lose information happens automatically and is called ___ .",
+  "choices": [
+    "widening",
+    "widening"
+  ],
+  "answer": "widening",
+  "explanation": "int to long, int to double. Going the other way can lose information, so Java requires an explicit cast — which is the language making you state that you accept the loss.",
+  "tags": [
+    "conversion",
+    "widening"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

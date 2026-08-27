@@ -1,0 +1,19 @@
+{
+  "question_id": "a6fbad9d-1c5d-452b-b635-19c64de5effa",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Adding 1 to the largest int in Java raises an exception.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "It wraps silently to the most negative int. The carry propagates through all thirty-one 1s and lands in the sign position, and the resulting pattern is read under the same agreement as always. Nothing exceptional happened, which is precisely why nothing is reported — and why Math.addExact exists for when you need the alternative.",
+  "tags": [
+    "overflow",
+    "wrapping"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

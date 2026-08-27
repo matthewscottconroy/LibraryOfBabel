@@ -1,0 +1,21 @@
+{
+  "question_id": "289da082-d7d4-4ac3-a65c-756735b48ae6",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "`String s = \"hello\"; s.toUpperCase();` then printing s gives what?",
+  "choices": [
+    "A compile error",
+    "An empty string",
+    "hello — the method returned a new string that was discarded",
+    "HELLO"
+  ],
+  "answer": 2,
+  "explanation": "Nothing happened because nothing could. Every String method returns a new string; there is no operation that modifies one. This is the most common early mistake with strings and it follows from immutability rather than being an arbitrary rule.",
+  "tags": [
+    "immutability",
+    "strings"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

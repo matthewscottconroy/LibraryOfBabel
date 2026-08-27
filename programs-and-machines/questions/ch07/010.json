@@ -1,0 +1,21 @@
+{
+  "question_id": "a0037814-cc3c-43c7-b59b-37aee7fde487",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What happens in an old-style switch when a case has no break?",
+  "choices": [
+    "The default case runs instead",
+    "The switch ends",
+    "A compile error is reported",
+    "Execution falls through into the next case and keeps going"
+  ],
+  "answer": 3,
+  "explanation": "Fall-through is the default and is rarely wanted, which makes it a design error: the common case requires extra work and the rare case requires none. The arrow form corrects it, and comma-separated labels express deliberate grouping better.",
+  "tags": [
+    "switch",
+    "fall-through"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

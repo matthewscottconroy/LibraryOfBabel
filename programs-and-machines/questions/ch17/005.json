@@ -1,0 +1,20 @@
+{
+  "question_id": "28eb159e-01c8-46cb-aa18-80b46c3c406d",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "blank",
+  "text": "For building a string across multiple statements, especially in a loop, use a ___ .",
+  "choices": [
+    "StringBuilder",
+    "StringBuilder",
+    "string builder"
+  ],
+  "answer": "StringBuilder",
+  "explanation": "It is a mutable character sequence backed by a doubling array — Chapter 17's ArrayList specialized for characters — so append is amortized constant and the whole loop is linear.",
+  "tags": [
+    "stringbuilder",
+    "performance"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

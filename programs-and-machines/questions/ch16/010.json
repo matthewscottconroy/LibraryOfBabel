@@ -1,0 +1,19 @@
+{
+  "question_id": "68210624-7b4b-4cef-9bdc-e7fe3b033f57",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "tf",
+  "text": "ConcurrentModificationException means two threads touched the collection.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "The name is misleading. It means the collection changed while being iterated, and it fires with one thread. The iterator's position invariant was broken, and failing fast beats silently skipping elements. Use removeIf, or the iterator's own remove.",
+  "tags": [
+    "iteration",
+    "exceptions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

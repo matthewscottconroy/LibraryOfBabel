@@ -1,0 +1,21 @@
+{
+  "question_id": "d7bb4c03-0bd6-4538-8764-8844ec16bbc6",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Boolean algebra says A && B equals B && A. How can Java violate that?",
+  "choices": [
+    "Evaluation can stop partway, so one order may crash before producing a value",
+    "&& is not really a boolean operator in Java",
+    "Java evaluates operands in an unspecified order",
+    "It does not; the two are always interchangeable"
+  ],
+  "answer": 0,
+  "explanation": "The law holds for expressions that terminate normally. s != null && s.length() > 0 is safe and the reverse throws. A useful way to hold it: && and || are control flow closer to if than to AND, which happen to produce a boolean.",
+  "tags": [
+    "short-circuit",
+    "commutativity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

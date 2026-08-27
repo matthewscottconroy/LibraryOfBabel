@@ -1,0 +1,21 @@
+{
+  "question_id": "13962587-1d03-45bf-9f41-4f3f3e818206",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In the truth table for adding two bits, what are the sum and carry columns?",
+  "choices": [
+    "Both are NAND",
+    "Sum is OR and carry is XOR",
+    "Sum is XOR and carry is AND",
+    "Sum is AND and carry is OR"
+  ],
+  "answer": 2,
+  "explanation": "Sum is 0,1,1,0 — exactly XOR. Carry is 0,0,0,1 — exactly AND. Two gates give a half adder, and Chapter 2's arithmetic is thereby derived from logic rather than built in.",
+  "tags": [
+    "half-adder",
+    "gates"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "81350679-e112-483f-883e-5b71f4d6cd73",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the deepest consequence of storing instructions in the same memory as data?",
+  "choices": [
+    "A program becomes something another program can read and write",
+    "Instructions can be encrypted",
+    "Memory is used more efficiently",
+    "Programs load faster than by rewiring"
+  ],
+  "answer": 0,
+  "explanation": "Faster loading is real and minor. That a program is data is what makes compilers, operating systems, interpreters, and the JVM possible — and it is also what makes buffer overflow attacks possible, because anything that can write data can write instructions. The capability and the vulnerability are one feature seen from two sides.",
+  "tags": [
+    "stored-program",
+    "von-neumann"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

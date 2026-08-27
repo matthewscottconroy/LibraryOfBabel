@@ -1,0 +1,19 @@
+{
+  "question_id": "ac707834-9a50-4498-bbce-fe113a351627",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Recursion is mathematical ___ written as code: the base case is the base case and the recursive case is the inductive step.",
+  "choices": [
+    "induction",
+    "induction"
+  ],
+  "answer": "induction",
+  "explanation": "Writing a correct recursive method is constructing a proof, which is why the correctness argument is two steps long. Chapter 9's loop invariants are the same principle, which is why loops and recursions interconvert.",
+  "tags": [
+    "induction",
+    "proof"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "81c0f516-7cc2-4890-b62c-776a339fd022",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why is returning -1 an acceptable sentinel for indexOf but not for a temperature?",
+  "choices": [
+    "Because temperatures are floating point",
+    "Because -1 is a special value in Java",
+    "Because indexOf is in the standard library",
+    "An index cannot be negative, so the value cannot be mistaken for a real answer"
+  ],
+  "answer": 3,
+  "explanation": "A sentinel is dangerous exactly when it could pass as a valid result. -1 is impossible as an index and entirely plausible as a temperature, and a sentinel used as if it were an answer produces a wrong result with no error — the worst outcome available.",
+  "tags": [
+    "sentinels",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

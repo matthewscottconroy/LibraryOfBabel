@@ -1,0 +1,21 @@
+{
+  "question_id": "33dcbce3-23e3-45a1-8e4f-201c2a2b1052",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why does failing fast matter?",
+  "choices": [
+    "It makes the stack trace shorter",
+    "The distance between a mistake and its symptom is the cost of the bug",
+    "Exceptions are faster than return values",
+    "It reduces the number of tests needed"
+  ],
+  "answer": 1,
+  "explanation": "A bad value caught at entry is a two-minute fix. The same value stored, passed through four layers, and detected when a report comes out wrong is an afternoon — and the information that would have identified the mistake is long gone.",
+  "tags": [
+    "fail-fast",
+    "errors"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

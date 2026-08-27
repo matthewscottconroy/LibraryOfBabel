@@ -1,0 +1,21 @@
+{
+  "question_id": "9dfe8107-6abe-4298-a5c8-459f31b7ab97",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What does a call frame hold?",
+  "choices": [
+    "The parameters, locals, and return address for one execution of one method",
+    "All variables visible in the program",
+    "The objects a method has created",
+    "The compiled code of a method"
+  ],
+  "answer": 0,
+  "explanation": "One execution, not one method — three calls mean three frames with independent variables. That is why a local is fresh on every call, and it is what makes recursion unremarkable: two executions of one method are as separate as two of different methods.",
+  "tags": [
+    "frames",
+    "stack"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

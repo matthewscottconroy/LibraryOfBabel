@@ -1,0 +1,21 @@
+{
+  "question_id": "c1bf7a38-2af1-4c98-974a-7cf4ea340fd0",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why are tests the most reliable documentation available?",
+  "choices": [
+    "They are checked by the compiler",
+    "They are shorter than prose",
+    "They cannot become wrong without failing",
+    "They are written by the person who wrote the code"
+  ],
+  "answer": 2,
+  "explanation": "A comment saying a method returns 0 for empty input stays there after someone changes it to throw, and actively misleads. Change the behavior and the corresponding test fails — stale documentation becomes a build failure rather than a trap.",
+  "tags": [
+    "documentation",
+    "testing"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

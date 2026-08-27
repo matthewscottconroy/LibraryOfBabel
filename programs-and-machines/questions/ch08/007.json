@@ -1,0 +1,21 @@
+{
+  "question_id": "fd3f0a5a-54f1-4016-b905-00b9cebd2a36",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why is the Collatz loop included in a chapter about termination?",
+  "choices": [
+    "It demonstrates integer overflow",
+    "It is an example of an infinite loop",
+    "Whether it always halts is an unproved open problem, showing termination can be genuinely hard",
+    "Its invariant is unusually difficult to state"
+  ],
+  "answer": 2,
+  "explanation": "Six lines, posed in 1937, verified by computer to about 2^68, and unproved. If deciding whether that loop halts is beyond us, you might guess that deciding it for arbitrary programs is beyond any method — which Turing proved in 1936.",
+  "tags": [
+    "collatz",
+    "termination"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

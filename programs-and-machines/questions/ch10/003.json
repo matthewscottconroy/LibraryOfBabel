@@ -1,0 +1,19 @@
+{
+  "question_id": "e9933b49-83be-4ab2-90cc-063d1dc64b9d",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "blank",
+  "text": "If you cannot describe what a method does in one sentence without the word ___ , it probably does two things.",
+  "choices": [
+    "and",
+    "and"
+  ],
+  "answer": "and",
+  "explanation": "Sometimes 'readAndValidate' is a coherent operation, but usually the conjunction marks a seam where the method should split. The test costs nothing and catches most over-large methods early.",
+  "tags": [
+    "cohesion",
+    "naming"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

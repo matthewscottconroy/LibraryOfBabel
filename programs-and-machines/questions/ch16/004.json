@@ -1,0 +1,20 @@
+{
+  "question_id": "f70cb2e7-0e9b-4e9c-bf08-507a526791c8",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Any single add may be expensive but a sequence of n is cheap per add. This is called ___ constant time.",
+  "choices": [
+    "amortized",
+    "amortized",
+    "amortised"
+  ],
+  "answer": "amortized",
+  "explanation": "The expensive operations are rare and get rarer as the list grows. Java's ArrayList grows by about 1.5x rather than 2x, trading slightly more copying for less wasted space; any factor greater than 1 gives the result.",
+  "tags": [
+    "amortized",
+    "complexity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

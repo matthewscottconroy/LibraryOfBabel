@@ -1,0 +1,21 @@
+{
+  "question_id": "9a4d6177-e990-43ba-93fa-4bdcb067e045",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What is Unicode's central contribution?",
+  "choices": [
+    "Providing a bigger table of characters than ASCII",
+    "Separating which character this is (a code point) from how it is stored (an encoding)",
+    "Making every character exactly two bytes",
+    "Replacing bytes with characters as the unit of storage"
+  ],
+  "answer": 1,
+  "explanation": "The bigger table is real and secondary. ASCII merged identity and storage — 'A' was 65 was the byte 01000001 — and prising them apart is what dissolves most text confusion. Unicode certainly does not fix the width: code points run to U+10FFFF and UTF-8 uses one to four bytes.",
+  "tags": [
+    "unicode",
+    "code-points"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "d526881c-9db4-4d88-9a53-2c6187a9b0d3",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "tf",
+  "text": "100% line coverage means the code is well tested.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "divide(6,2) gives full coverage of a one-line division method and misses the only interesting case, b being zero. Coverage reports which lines ran, not whether the assertions meant anything. Use it to find code tested by nothing; do not make it a target.",
+  "tags": [
+    "coverage",
+    "testing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

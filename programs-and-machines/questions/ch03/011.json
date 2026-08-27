@@ -1,0 +1,19 @@
+{
+  "question_id": "18c03dd3-591b-4583-ab60-affa7b318d8e",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "ASCII assumed the eighth bit of a byte was spare, and everyone used it differently.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 1,
+  "explanation": "ASCII is a 7-bit code in an 8-bit byte, and the 128 free values were claimed by every vendor and national body separately. All agreed below 128 and disagreed above, so English text moved safely between systems and a single accented character became a lottery. That is the world Unicode was built to end.",
+  "tags": [
+    "ascii",
+    "code-pages"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

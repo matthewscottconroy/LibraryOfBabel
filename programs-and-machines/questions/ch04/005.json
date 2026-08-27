@@ -1,0 +1,21 @@
+{
+  "question_id": "7205e618-7762-40b9-8a6c-b16d68da3271",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "1 / 0 throws but 1.0 / 0 returns Infinity. Why the difference?",
+  "choices": [
+    "Integers have no representation for infinity; floating point does",
+    "Infinity is an error value that will throw later",
+    "The compiler replaces 1.0 / 0 with a constant",
+    "Floating-point division is checked and integer division is not"
+  ],
+  "answer": 0,
+  "explanation": "The type decides which arithmetic is performed. IEEE 754 reserves an exponent pattern for infinity, so the operation succeeds and returns it. int has no such pattern, so there is no value to return and the operation fails. Same operator, different agreement.",
+  "tags": [
+    "division",
+    "types"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

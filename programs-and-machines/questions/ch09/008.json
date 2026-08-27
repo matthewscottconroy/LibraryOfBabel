@@ -1,0 +1,21 @@
+{
+  "question_id": "274112b6-5cf1-44c7-ac78-4eb324f011e1",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Bisection, minimization and boundary testing share one move. What is it?",
+  "choices": [
+    "Each observation eliminates a fraction of the possibilities rather than testing one candidate",
+    "Each requires a debugger",
+    "Each works only on small programs",
+    "Each tests candidates one at a time"
+  ],
+  "answer": 0,
+  "explanation": "Testing candidates one by one is linear; halving is logarithmic. The difference is between an afternoon and five minutes, and it is available in almost every debugging situation — which is why it is worth making explicit rather than discovering by accident.",
+  "tags": [
+    "method",
+    "logarithmic"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "b095d698-0d88-45e4-8f69-61bd15be9f0c",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "IEEE 754 breaks ties by rounding to even rather than always up. Why?",
+  "choices": [
+    "It matches the convention taught in schools",
+    "Always rounding halves up biases every tie the same way, and the biases accumulate into a drift",
+    "It guarantees the result is always exact",
+    "Rounding to even is faster in hardware"
+  ],
+  "answer": 1,
+  "explanation": "Splitting ties between up and down lets errors tend to cancel across a long computation instead of compounding. The school convention is exactly the one being rejected. Nothing here makes a result exact — the value was already not representable.",
+  "tags": [
+    "rounding",
+    "ties-to-even"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

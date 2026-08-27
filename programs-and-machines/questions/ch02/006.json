@@ -1,0 +1,21 @@
+{
+  "question_id": "a1529f3b-697a-4d8c-9f00-83e27da3c77a",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why is a fixed absolute tolerance such as 1e-6 unreliable?",
+  "choices": [
+    "It fails only for negative numbers",
+    "It is meaningless without knowing the magnitude: at 10^-9 everything passes, at 10^16 nothing does",
+    "Tolerances must always be powers of two",
+    "It is too small for any practical use"
+  ],
+  "answer": 1,
+  "explanation": "Near 10^16 the gap between adjacent doubles is 2.0, so values as close as the format allows differ by more than 1e-6 and the test always says 'different'. Near 10^-9 every pair is within 1e-6 and it always says 'equal'. Scaling the tolerance to the larger operand makes the test mean the same thing at every scale.",
+  "tags": [
+    "comparison",
+    "tolerance"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

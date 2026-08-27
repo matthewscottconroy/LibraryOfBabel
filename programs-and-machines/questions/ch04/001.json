@@ -1,0 +1,21 @@
+{
+  "question_id": "b6bc4b02-01b9-4f96-94a4-f9d4641a7dc4",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What does javac produce?",
+  "choices": [
+    "Machine code for your processor",
+    "A running program",
+    "An optimized copy of your source",
+    "Bytecode: instructions for a specified machine that does not exist in silicon"
+  ],
+  "answer": 3,
+  "explanation": "It produces a .class file of bytecode, targeting the JVM — a machine defined by a document rather than by hardware. That indirection is why one compiled file runs on Intel and ARM alike. Compiling is translation; running is a separate act performed later, possibly elsewhere.",
+  "tags": [
+    "compilation",
+    "bytecode"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

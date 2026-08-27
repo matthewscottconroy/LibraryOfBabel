@@ -1,0 +1,21 @@
+{
+  "question_id": "eaa35419-900b-424c-8c7c-1dfcf4d4abc8",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What does a state table record?",
+  "choices": [
+    "One row per state change, one column per variable, with values after each line executes",
+    "Which lines were executed",
+    "The order in which methods were called",
+    "The final values of all variables"
+  ],
+  "answer": 0,
+  "explanation": "It is Chapter 6's sequence of states, written down. The discipline that makes it work is predicting each row before writing it — the prediction is the learning, and a disagreement between prediction and reality locates a false belief precisely.",
+  "tags": [
+    "tracing",
+    "state-table"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

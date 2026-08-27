@@ -1,0 +1,19 @@
+{
+  "question_id": "d24df5b9-6a8e-464a-b687-42e3aba149a0",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "tf",
+  "text": "A stack trace is a printout of the call stack at the moment of failure.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 1,
+  "explanation": "It is the data structure, printed — not a summary someone wrote. That is why the reading rule works and why a debugger can show you a caller's variables: those frames are suspended, not gone.",
+  "tags": [
+    "stack-trace",
+    "frames"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

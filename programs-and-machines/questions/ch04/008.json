@@ -1,0 +1,21 @@
+{
+  "question_id": "ec63d12a-5784-45df-aa2f-ea7c8fc16c11",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What does the JVM's just-in-time compiler do?",
+  "choices": [
+    "Interprets bytecode one instruction at a time forever",
+    "Compiles the whole program before it starts",
+    "Converts Java source directly to machine code",
+    "Compiles frequently executed methods to native machine code while the program runs"
+  ],
+  "answer": 3,
+  "explanation": "It interprets at first while watching, then compiles hot methods natively. This is why a Java program is slow for its first few thousand iterations and abruptly faster afterwards — and why any benchmark that ignores warm-up is worthless.",
+  "tags": [
+    "jvm",
+    "jit"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

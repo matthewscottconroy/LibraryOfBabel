@@ -1,0 +1,21 @@
+{
+  "question_id": "6c767031-9563-4b5d-a1d5-21dc6868d87f",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "How does an ArrayList grow?",
+  "choices": [
+    "It links a new block to the old one",
+    "It extends the existing array in place",
+    "It allocates a larger array and copies, growing by a constant factor",
+    "It reallocates one element at a time"
+  ],
+  "answer": 2,
+  "explanation": "Arrays cannot grow, so it replaces its array. The size it chooses is the interesting part: growing by a factor gives amortized constant time, while growing by a fixed amount gives quadratic behavior.",
+  "tags": [
+    "arraylist",
+    "growth"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

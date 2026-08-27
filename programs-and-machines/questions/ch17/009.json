@@ -1,0 +1,21 @@
+{
+  "question_id": "689c40c4-5f63-408f-953b-df8ce0aaa635",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why can `\"title\".toUpperCase()` break on a Turkish machine?",
+  "choices": [
+    "Turkish has no uppercase letters",
+    "The default encoding differs",
+    "toUpperCase is not implemented there",
+    "Turkish uppercases i to a dotted capital, so the result is not TITLE"
+  ],
+  "answer": 3,
+  "explanation": "The Turkish-I problem. A program comparing against an uppercased user input fails on a setting nobody thought about. Pass Locale.ROOT for keys and protocol strings; use the user's locale only for text they will read.",
+  "tags": [
+    "locale",
+    "case"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

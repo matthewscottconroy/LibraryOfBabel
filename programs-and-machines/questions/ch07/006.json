@@ -1,0 +1,21 @@
+{
+  "question_id": "d28a6333-db10-4a98-af2d-e5966c258dcb",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Rewrite `!(a >= 18 && hasLicence)` without a negation on a compound expression.",
+  "choices": [
+    "a < 18 && !hasLicence",
+    "a <= 18 || !hasLicence",
+    "!(a < 18) || hasLicence",
+    "a < 18 || !hasLicence"
+  ],
+  "answer": 3,
+  "explanation": "De Morgan turns a negated AND into an OR of negations, and the comparison inverts too. Note the boundary: the opposite of >= is <, not <=. Getting that wrong is an off-by-one that fires on exactly one input value.",
+  "tags": [
+    "de-morgan",
+    "conditions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

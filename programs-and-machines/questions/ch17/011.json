@@ -1,0 +1,21 @@
+{
+  "question_id": "449079d0-01c2-4f2d-9e6a-a1eef04e463b",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why can no regular expression match balanced brackets?",
+  "choices": [
+    "It requires backtracking, which is disabled",
+    "They describe exactly what a finite state machine can recognize, and that cannot count without bound",
+    "Java's regex implementation is incomplete",
+    "Brackets are special characters in regex syntax"
+  ],
+  "answer": 1,
+  "explanation": "This is a theorem, not a limitation of an implementation — Kleene's equivalence between regular expressions and finite automata, plus Chapter 6's result that no finite machine accepts n zeros followed by n ones. So no HTML, no JSON, no arithmetic expressions; that needs Chapter 24.",
+  "tags": [
+    "regex",
+    "limits"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

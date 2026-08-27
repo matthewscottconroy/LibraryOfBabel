@@ -1,0 +1,21 @@
+{
+  "question_id": "0a7cba17-183b-4e4d-973a-e137d03d6e7b",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why does System.out.println(\"sum: \" + 1 + 2) print \"sum: 12\"?",
+  "choices": [
+    "The numbers are converted to characters",
+    "Integer addition is not defined inside println",
+    "Java always concatenates rather than adds",
+    "+ evaluates left to right, so the string absorbs 1 before 2 is appended"
+  ],
+  "answer": 3,
+  "explanation": "Once one operand is a string, + means concatenation. \"sum: \" + 1 gives \"sum: 1\", and + 2 appends \"2\". Parenthesize the arithmetic — \"sum: \" + (1 + 2) — to get 3.",
+  "tags": [
+    "concatenation",
+    "evaluation-order"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

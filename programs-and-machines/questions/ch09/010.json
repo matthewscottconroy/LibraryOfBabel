@@ -1,0 +1,19 @@
+{
+  "question_id": "ea06dccc-d77c-461d-bbb3-68091f0d9972",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "tf",
+  "text": "A debugger is the right tool for diagnosing a concurrency bug.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "Pausing a thread changes the timing, and timing is frequently the bug — observing alters what you are observing. Logging is usually the only workable approach, along with any failure that is intermittent or not on your machine.",
+  "tags": [
+    "concurrency",
+    "logging"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

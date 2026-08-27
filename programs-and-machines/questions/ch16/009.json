@@ -1,0 +1,21 @@
+{
+  "question_id": "506a0fb3-6944-4e25-b166-885f0545cae5",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Because of erasure, which of these is impossible?",
+  "choices": [
+    "Passing a List<Integer> to a method",
+    "Creating an array of a type parameter, as in new T[10]",
+    "Writing a generic method",
+    "Declaring List<String>"
+  ],
+  "answer": 1,
+  "explanation": "Type parameters are checked then discarded, so List<String> and List<Integer> are one class at run time. Hence no instanceof List<String>, no new T[10], and no overloads differing only by parameter. The cause is compatibility with pre-generic code.",
+  "tags": [
+    "erasure",
+    "generics"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

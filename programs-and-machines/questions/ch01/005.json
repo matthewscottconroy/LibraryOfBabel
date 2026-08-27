@@ -1,0 +1,21 @@
+{
+  "question_id": "6e1e9334-101a-454a-b551-084a6c1bfcd6",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why does an 8-bit signed type run from -128 to 127 rather than -127 to 127?",
+  "choices": [
+    "One of the 256 patterns is spent on zero, leaving 255 to split, and 255 is odd",
+    "It is an arbitrary decision made by the language designers",
+    "Because the sign bit cannot represent positive 128",
+    "Because 128 is a power of two and 127 is not"
+  ],
+  "answer": 0,
+  "explanation": "256 patterns, one used for zero, leaves 255 for non-zero values — an odd number, which cannot split evenly. Zero is grouped with the positives, so there are 127 positives and 128 negatives. The asymmetry is arithmetic, not a design whim.",
+  "tags": [
+    "twos-complement",
+    "range"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

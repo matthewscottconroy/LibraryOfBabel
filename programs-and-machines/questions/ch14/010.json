@@ -1,0 +1,21 @@
+{
+  "question_id": "45a32fa6-1507-435c-af34-6f74359ad291",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What does `clone()` do to an `int[][]`?",
+  "choices": [
+    "Copies the inner arrays but not the outer one",
+    "Copies the outer array's references, so both share the same inner arrays",
+    "Copies everything recursively",
+    "Copies nothing; it returns the same array"
+  ],
+  "answer": 1,
+  "explanation": "A shallow copy, which is the default everywhere in Java. Changing shallow[0][0] changes deep[0][0]. A genuine deep copy has to be written by hand, cloning each row.",
+  "tags": [
+    "copying",
+    "shallow"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

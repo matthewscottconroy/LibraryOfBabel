@@ -1,0 +1,21 @@
+{
+  "question_id": "425b1d24-ce6b-4bae-b40b-43280e82e7b3",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What are the three separately real parts of `int score = 0;`?",
+  "choices": [
+    "A declaration and two statements",
+    "A type, an operator and a literal",
+    "A cell of state is reserved, a name is bound to it, and an initial value is written",
+    "A stack slot, a heap object and a reference"
+  ],
+  "answer": 2,
+  "explanation": "The cell is state in Chapter 6's sense; the name exists only in the source and is gone after compilation; the initialization was a transition. For a primitive there is no heap object at all.",
+  "tags": [
+    "variables",
+    "state"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

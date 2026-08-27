@@ -1,0 +1,21 @@
+{
+  "question_id": "a1a34aeb-3cbc-4a72-96bc-505d12622881",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why must BigDecimal be constructed from a string rather than a double?",
+  "choices": [
+    "String construction is faster",
+    "A double literal has already lost the exact decimal value before BigDecimal sees it",
+    "Doubles are always negative in BigDecimal",
+    "BigDecimal cannot accept numeric arguments"
+  ],
+  "answer": 1,
+  "explanation": "new BigDecimal(0.10) gives 0.1000000000000000055511151231257827021181583404541015625, because the damage happened at the literal. new BigDecimal(\"0.10\") parses the decimal text exactly and never passes through binary floating point at all. No care inside BigDecimal could repair the first case.",
+  "tags": [
+    "bigdecimal",
+    "precision"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "c069aca4-9956-4a47-9c48-5e1c652c7e5d",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "tf",
+  "text": "`new String[3]` creates three empty strings.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "It creates three nulls. An array of objects starts empty of objects, and every element must be filled before use — a common source of NullPointerException that bounds checking does nothing to prevent.",
+  "tags": [
+    "arrays",
+    "defaults"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

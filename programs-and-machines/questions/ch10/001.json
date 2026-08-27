@@ -1,0 +1,21 @@
+{
+  "question_id": "460c3c3d-b6a8-45cf-bb68-5e0f69553455",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is abstraction?",
+  "choices": [
+    "Making code shorter",
+    "Hiding detail behind a name so that the detail no longer needs to be considered",
+    "Reusing code in several places",
+    "Removing implementation details from documentation"
+  ],
+  "answer": 1,
+  "explanation": "The last clause is what distinguishes abstraction from concealment: if you still have to think about the hidden part, nothing was gained. A method that returns the largest except in one odd case is worse than none, because now you carry the name and the exception.",
+  "tags": [
+    "abstraction",
+    "definition"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

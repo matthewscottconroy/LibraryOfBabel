@@ -1,0 +1,21 @@
+{
+  "question_id": "08e55212-982a-42f9-8bad-421640078fc7",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "How many distinct two-input boolean operators are there?",
+  "choices": [
+    "8",
+    "16",
+    "Infinitely many",
+    "4"
+  ],
+  "answer": 1,
+  "explanation": "Four input rows, each independently producing true or false, gives 2^4 = 16. We name four of them; the rest include implication, NAND, NOR, and trivial ones like 'always true'. That the set can be counted is Chapter 1's counting argument applied to functions.",
+  "tags": [
+    "boolean-operators",
+    "counting"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

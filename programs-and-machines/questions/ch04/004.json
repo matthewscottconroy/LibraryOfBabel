@@ -1,0 +1,21 @@
+{
+  "question_id": "f27cc293-5283-436d-bc36-c8056421e6d3",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What does 7 / 2 evaluate to in Java, and why?",
+  "choices": [
+    "4, because it rounds to nearest",
+    "3.5, because Java promotes to double",
+    "An error, because the division is not exact",
+    "3, because both operands are int so integer division truncates"
+  ],
+  "answer": 3,
+  "explanation": "Both operands are int, so the operation is integer division and the fractional part is discarded rather than rounded — which is why -7 / 2 is -3, truncating toward zero. Make one operand floating point, as in 7 / 2.0, to get 3.5.",
+  "tags": [
+    "arithmetic",
+    "integer-division"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

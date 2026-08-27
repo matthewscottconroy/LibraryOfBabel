@@ -1,0 +1,21 @@
+{
+  "question_id": "eac1255d-a2e1-4751-bdd2-715a97a5103a",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "When is StringBuilder unnecessary?",
+  "choices": [
+    "Whenever the strings are short",
+    "For a fixed number of concatenations, which the compiler already turns into one builder",
+    "When the result is printed immediately",
+    "It is always necessary"
+  ],
+  "answer": 1,
+  "explanation": "\"Hello, \" + name compiles to a StringBuilder automatically, and so does a + b + c + d. Only loops matter, because the compiler cannot hoist a builder out of a loop — each iteration's += is a separate expression.",
+  "tags": [
+    "stringbuilder",
+    "compiler"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

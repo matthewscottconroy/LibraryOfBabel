@@ -1,0 +1,21 @@
+{
+  "question_id": "c11a1089-55a2-4e53-9cbb-cddf898f0eb2",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An array of ints holding test scores. What is NOT in the data?",
+  "choices": [
+    "Their values",
+    "How many there are",
+    "That they are scores, that they are bounded, and that -1 means absent",
+    "Their order"
+  ],
+  "answer": 2,
+  "explanation": "Those facts are true and live in your head, in a comment, or in whichever code happens to respect them. Anything that can reach the array can violate them and nothing will notice. Closing that gap is what the chapter is for.",
+  "tags": [
+    "representation",
+    "invariants"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

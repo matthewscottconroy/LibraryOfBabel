@@ -1,0 +1,21 @@
+{
+  "question_id": "352f128a-9f41-4ea8-b65c-a0b9833b2216",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Reading 100,000 elements by index took 1 ms from an ArrayList and 2,589 ms from a LinkedList. Why?",
+  "choices": [
+    "The ArrayList was cached in memory",
+    "The array does arithmetic; the linked list follows i references to reach element i",
+    "LinkedList checks bounds and ArrayList does not",
+    "LinkedList was not warmed up"
+  ],
+  "answer": 1,
+  "explanation": "Constant time versus linear, plus poor cache locality — a linked list's nodes are scattered, so each hop may be a fresh memory fetch. The practical advice surprises people: use ArrayList almost always.",
+  "tags": [
+    "linkedlist",
+    "performance"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

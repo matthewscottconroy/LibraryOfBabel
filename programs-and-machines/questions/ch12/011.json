@@ -1,0 +1,21 @@
+{
+  "question_id": "e0426b5f-b1eb-4d81-935c-40f53c26b31f",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why is the naive Fibonacci a poor teaching example despite being the standard one?",
+  "choices": [
+    "It requires understanding of the golden ratio",
+    "It is too difficult for beginners",
+    "It cannot be written in Java",
+    "It is faithful to the definition and catastrophically wrong as an implementation"
+  ],
+  "answer": 3,
+  "explanation": "It is beautiful, matches the mathematics exactly, and is unusable beyond small inputs. Elegance that helps reveals the problem's structure; elegance admired for itself is a different thing, and presenting this one as an exemplar teaches the wrong lesson.",
+  "tags": [
+    "fibonacci",
+    "pedagogy"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

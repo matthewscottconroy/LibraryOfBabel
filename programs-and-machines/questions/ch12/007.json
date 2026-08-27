@@ -1,0 +1,21 @@
+{
+  "question_id": "d417e19b-e98c-42cf-b757-24ca94f568d1",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the difference between a recursive procedure and a recursive process?",
+  "choices": [
+    "A process is what happens when recursion is too deep",
+    "The procedure is syntactic; the process is about whether work is left pending at each level",
+    "They are the same thing",
+    "One uses the stack and the other the heap"
+  ],
+  "answer": 1,
+  "explanation": "factorial with an accumulator is still a recursive procedure, and nothing is pending — the answer is complete when the base case is reached. That is an iterative process, which could run in constant space.",
+  "tags": [
+    "tail-recursion",
+    "process"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

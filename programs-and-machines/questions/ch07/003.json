@@ -1,0 +1,19 @@
+{
+  "question_id": "2ff2001e-30ba-4e80-903e-f2ffd86535e1",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Every boolean function can be built from NAND alone.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "NOT A is A NAND A; AND and OR follow. This is functional completeness, and it is why a manufacturer able to fabricate one reliable gate type can build every circuit. NOR has the same property.",
+  "tags": [
+    "nand",
+    "functional-completeness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

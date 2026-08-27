@@ -1,0 +1,19 @@
+{
+  "question_id": "81883f2b-7373-45f4-bc45-6bf8ca38e1c4",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "tf",
+  "text": "A stack trace should be read from the bottom upwards.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Top line is where it broke; lines below are how execution got there. In a long trace, find the topmost frame naming a file you wrote — frames above it are usually a library correctly rejecting something you passed it.",
+  "tags": [
+    "stack-trace",
+    "errors"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

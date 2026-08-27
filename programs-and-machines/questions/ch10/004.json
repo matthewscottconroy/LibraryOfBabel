@@ -1,0 +1,21 @@
+{
+  "question_id": "e46af44f-8755-4dd5-8354-00c3a1dd9f94",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the difference between a parameter and an argument?",
+  "choices": [
+    "Parameters are typed and arguments are not",
+    "They are two words for the same thing",
+    "Arguments belong to constructors and parameters to methods",
+    "The parameter is the name in the definition; the argument is the value at the call site"
+  ],
+  "answer": 3,
+  "explanation": "One method has fixed parameters and sees a different argument on every call. The parameter behaves exactly like a local variable that was initialized for you, and it vanishes when the frame is discarded.",
+  "tags": [
+    "parameters",
+    "terminology"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

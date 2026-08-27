@@ -1,0 +1,21 @@
+{
+  "question_id": "342e704b-7db4-43ca-a466-4ac7e4305cd5",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What does `final` buy a reader?",
+  "choices": [
+    "Faster execution",
+    "Protection against other threads",
+    "The certainty that the name means one thing throughout its scope, so it can be stopped being tracked",
+    "A guarantee the object cannot be modified"
+  ],
+  "answer": 2,
+  "explanation": "It removes a variable from the set of things that might have changed, and that set is what makes code hard to read. Note the limit: final on a reference prevents reassignment, not modification of the object it points at.",
+  "tags": [
+    "final",
+    "immutability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

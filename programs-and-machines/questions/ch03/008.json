@@ -1,0 +1,19 @@
+{
+  "question_id": "fc826259-c1fd-4f60-b73d-cbf9e820f281",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Recording a continuous signal by measuring it at regular intervals is called ___ .",
+  "choices": [
+    "sampling",
+    "sampling"
+  ],
+  "answer": "sampling",
+  "explanation": "The two decisions that follow are how often to measure — settled by the sampling theorem — and how precisely to measure each one, which is bit depth. CD audio uses 44,100 samples per second at 16 bits.",
+  "tags": [
+    "sampling",
+    "audio"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

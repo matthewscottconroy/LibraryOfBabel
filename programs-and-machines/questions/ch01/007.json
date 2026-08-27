@@ -1,0 +1,21 @@
+{
+  "question_id": "3aa77192-6118-4299-8845-4836650751aa",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What makes two's complement worth its awkwardness compared with sign-magnitude?",
+  "choices": [
+    "Subtraction becomes addition, so one adder serves for both and there is a single zero",
+    "It can represent larger numbers in the same width",
+    "It makes multiplication a single instruction",
+    "It is easier for humans to read by eye"
+  ],
+  "answer": 0,
+  "explanation": "Because values live on a circle of size 2^W, subtracting n and adding 2^W − n are the same operation — so no subtraction hardware is needed, and there is only one representation of zero. It is certainly not easier to read by eye, which is the price paid.",
+  "tags": [
+    "twos-complement",
+    "hardware"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

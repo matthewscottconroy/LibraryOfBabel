@@ -1,0 +1,21 @@
+{
+  "question_id": "a931c942-b666-4afe-8dee-318d2b7087bd",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why does one tenth not terminate in binary?",
+  "choices": [
+    "Its denominator has a prime factor of 5, and 5 does not divide 2",
+    "Because floating point has only 52 bits of fraction",
+    "Because binary cannot represent fractions at all",
+    "Because 0.1 is an irrational number"
+  ],
+  "answer": 0,
+  "explanation": "A reduced fraction terminates in base b exactly when every prime factor of its denominator divides b. Base two has only the factor 2, and 10 = 2 x 5. One tenth is perfectly rational — it repeats in binary for the same reason one third repeats in decimal. The 52-bit answer confuses the symptom with the cause: more bits would not help, just as more decimal digits never finish one third.",
+  "tags": [
+    "binary-fractions",
+    "termination"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

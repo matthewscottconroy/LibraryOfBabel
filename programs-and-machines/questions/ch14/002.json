@@ -1,0 +1,21 @@
+{
+  "question_id": "d655e05d-8999-4a0b-904b-447b94e6a4fa",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why must all array elements be the same type?",
+  "choices": [
+    "It makes printing easier",
+    "Java forbids mixing types anywhere",
+    "So that sorting works",
+    "The address formula uses a single element size"
+  ],
+  "answer": 3,
+  "explanation": "Mixed sizes would make position 47 unfindable without inspecting the preceding 47 elements — linear rather than constant, which defeats the point. Consecutive storage and fixed size follow from the same formula.",
+  "tags": [
+    "arrays",
+    "constraints"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

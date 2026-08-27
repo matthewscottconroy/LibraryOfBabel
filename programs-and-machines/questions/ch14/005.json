@@ -1,0 +1,21 @@
+{
+  "question_id": "7ab243e2-3b1c-4df1-b5c1-e9fe9f3513a8",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What would happen without bounds checking when you write past the end of an array?",
+  "choices": [
+    "You would silently modify whatever else occupies that memory",
+    "The program would crash immediately",
+    "The write would be ignored",
+    "The array would grow automatically"
+  ],
+  "answer": 0,
+  "explanation": "Not an error — a silent corruption of unrelated data that misbehaves somewhere far away. Chosen deliberately, it is the buffer overflow that accounts for a large share of security defects in languages without the check. Java's check is why it has essentially none.",
+  "tags": [
+    "bounds-checking",
+    "security"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

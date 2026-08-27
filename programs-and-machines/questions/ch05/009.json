@@ -1,0 +1,19 @@
+{
+  "question_id": "60c9f575-83f8-47cd-9ead-3c45d37b6592",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Java computes strictly more than a Turing machine with three rules and a tape.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "Java is Turing complete, meaning it computes exactly the same set of functions — no more. Everything the language adds is expressiveness, not power. That is a claim about what a person can describe without error, which is the constraint that actually binds.",
+  "tags": [
+    "turing-complete",
+    "expressiveness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "eb66ba69-40b1-4ab1-8347-e3d46b8e4d2d",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Every representation answers four questions. Which is the one people forget?",
+  "choices": [
+    "How much memory it uses",
+    "Which programming language it was designed for",
+    "What happens to everything that does not fit — and whether that policy is loud or silent",
+    "Whether it is human-readable"
+  ],
+  "answer": 2,
+  "explanation": "Integer overflow wraps silently, floating point rounds silently, encoding mismatches garble silently, image compression discards silently. The machine will not tell you what it discarded, and knowing what you asked it to discard is your job.",
+  "tags": [
+    "representation",
+    "policy"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

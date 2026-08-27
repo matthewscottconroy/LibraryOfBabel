@@ -1,0 +1,21 @@
+{
+  "question_id": "ea2f2aa2-f5b1-40d6-8f92-ad359cad3d1a",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why can no finite state machine accept exactly the strings of n zeros followed by n ones?",
+  "choices": [
+    "Because n is unbounded and machines are finite",
+    "The number of states is fixed in advance, so some input is long enough to overflow its memory",
+    "Because the machine can only read left to right",
+    "Because zeros and ones cannot be distinguished"
+  ],
+  "answer": 1,
+  "explanation": "Recognizing that language requires remembering how many zeros were seen, and that count is unbounded. Whatever finite machine you build, there is an input too long for it. Adding unbounded memory — a tape — removes the limit, which is the step from the parity machine to Turing's.",
+  "tags": [
+    "finite-state",
+    "limits"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

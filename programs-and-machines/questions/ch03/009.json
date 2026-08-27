@@ -1,0 +1,21 @@
+{
+  "question_id": "0a9af241-4be6-468e-8602-391db558af9a",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Three bytes per pixel gives about 16.7 million colours. Why is three enough?",
+  "choices": [
+    "Because screens have three physical layers",
+    "Human retinas have three cone types, so three numbers reproduce a colour for a human observer",
+    "Because 256 cubed is the largest convenient number",
+    "Because light contains exactly three wavelengths"
+  ],
+  "answer": 1,
+  "explanation": "Two physically different spectra producing the same three cone responses look identical — they are metamers. The encoding is a choice about the observer, which is why scientific instruments use dozens of channels rather than three.",
+  "tags": [
+    "colour",
+    "representation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

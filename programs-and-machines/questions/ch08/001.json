@@ -1,0 +1,21 @@
+{
+  "question_id": "ba7037af-6295-47d6-a96a-46ace1648ed3",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What single capability does a loop add to the model?",
+  "choices": [
+    "The ability to call the same code twice",
+    "The program counter can move backwards, so running time is no longer bounded by program length",
+    "Faster execution of repeated statements",
+    "The ability to store more than one value"
+  ],
+  "answer": 1,
+  "explanation": "Without a backward jump, a program executes each line at most once and its running time is bounded by its length. Once the counter can go back, a three-line loop can run for a billion steps or forever — which is what makes loops powerful and dangerous, and it is exactly the step from the parity machine to Turing's.",
+  "tags": [
+    "loops",
+    "control-flow"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

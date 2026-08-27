@@ -1,0 +1,21 @@
+{
+  "question_id": "4659f8e1-2e6b-4d51-a32e-05b4a5fc6d6c",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Locals must be assigned before use, but fields default to 0. Why the difference?",
+  "choices": [
+    "The compiler can see every path through a method, but not every path to a field",
+    "Fields are stored differently in memory",
+    "It is an inconsistency with no reason",
+    "Locals are faster to check"
+  ],
+  "answer": 0,
+  "explanation": "A field's lifetime is not tied to one path through the code — an object might be created here and its field read there. Rather than reject every such program, the language guarantees a defined starting value. The consequence is that a field you forgot to initialize looks exactly like one you did.",
+  "tags": [
+    "fields",
+    "defaults"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "71077bc7-608a-4f14-8a75-8647bc3d5a2d",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why does 0.1 + 0.2 print as 0.30000000000000004?",
+  "choices": [
+    "The addition itself is performed inaccurately",
+    "The result is stored in a smaller type than the operands",
+    "Java prints doubles with a rounding error",
+    "Both stored values are slightly high, and their exact sum falls midway between two doubles and rounds to the upper one"
+  ],
+  "answer": 3,
+  "explanation": "Every arithmetic step is correctly rounded — IEEE 754 requires it. The error entered when the decimal literals were converted to binary, before any addition happened. The exact sum lands precisely halfway between two representable doubles, and round-half-to-even picks the one whose last mantissa bit is 0.",
+  "tags": [
+    "floating-point",
+    "rounding"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

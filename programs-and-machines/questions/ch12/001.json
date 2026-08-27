@@ -1,0 +1,21 @@
+{
+  "question_id": "6bc33fa0-e6fa-4e7c-b708-7fcdb30eb5b3",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why does a self-referential definition not go round forever?",
+  "choices": [
+    "The base case answers directly, without recursing",
+    "The compiler detects the cycle",
+    "Each call uses less memory",
+    "The JVM limits recursion depth"
+  ],
+  "answer": 0,
+  "explanation": "n! = n x (n-1)! would be circular except for 0! = 1, which is not. Two parts are required: a base case, and a recursive case that moves strictly closer to it.",
+  "tags": [
+    "base-case",
+    "recursion"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

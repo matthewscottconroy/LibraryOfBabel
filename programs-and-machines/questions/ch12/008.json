@@ -1,0 +1,19 @@
+{
+  "question_id": "4152de25-3ed0-45c0-b027-f310103098f3",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Java eliminates tail calls, so an accumulator-passing recursion uses constant stack space.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Java does not. The accumulator version still pushes n frames and overflows at the same depth. The distinction remains worth knowing — it tells you the space cost in principle and how mechanical the loop rewrite would be — but it buys no runtime benefit here.",
+  "tags": [
+    "tail-calls",
+    "java"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

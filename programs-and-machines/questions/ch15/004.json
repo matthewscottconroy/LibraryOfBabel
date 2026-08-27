@@ -1,0 +1,21 @@
+{
+  "question_id": "2533c736-de74-413f-aee0-d8bf2a44eaca",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "String changed its internal storage in Java 9 and no source code anywhere needed altering. What made that possible?",
+  "choices": [
+    "Strings are immutable",
+    "Users only ever used the interface, never the representation",
+    "The JVM recompiled everything",
+    "The change was backward compatible at the byte level"
+  ],
+  "answer": 1,
+  "explanation": "length(), charAt(), substring() — that is all anyone used, so switching from char[] to a byte array with an encoding flag affected essentially every Java program and required nothing from anybody. That is what the separation buys, at a scale worth taking seriously.",
+  "tags": [
+    "adt",
+    "java"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

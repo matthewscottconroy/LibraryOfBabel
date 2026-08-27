@@ -1,0 +1,21 @@
+{
+  "question_id": "9fcf441a-a9fb-4f55-868f-65db245fc39e",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why does gcd(a, b) calling gcd(b, a % b) still terminate?",
+  "choices": [
+    "The second argument is a non-negative integer that strictly decreases, which is enough",
+    "Because a and b are always positive",
+    "It does not always terminate",
+    "Because it decreases by one each time"
+  ],
+  "answer": 0,
+  "explanation": "The variant argument does not require the decrease to be by one. This corresponds to strong induction — assuming the claim for all smaller values rather than just the previous one — which is also the shape of binary search and merge sort.",
+  "tags": [
+    "termination",
+    "strong-induction"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

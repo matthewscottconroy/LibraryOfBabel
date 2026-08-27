@@ -1,0 +1,19 @@
+{
+  "question_id": "59ec68e5-6560-48c2-a8c4-d4dd19990f5d",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "An intermittent bug means the machine is behaving unpredictably.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "The machine is deterministic. An intermittent bug is a machine behaving deterministically on a state larger than the one you were thinking about — a clock, a file, thread interleaving, an uninitialized value. Finding the bug means finding the hidden state.",
+  "tags": [
+    "determinism",
+    "debugging"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

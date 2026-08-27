@@ -1,0 +1,21 @@
+{
+  "question_id": "48057c81-b644-4e6a-803e-cc82d35f4a74",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Sampling theory says a signal with no frequencies above f can be reconstructed from samples taken faster than 2f. What is remarkable about that?",
+  "choices": [
+    "The reconstruction is exact, not approximate — discreteness need not lose information",
+    "It applies only to audio and not to images",
+    "It proves analogue recording is always better",
+    "It means any sampling rate is sufficient"
+  ],
+  "answer": 0,
+  "explanation": "The Nyquist-Shannon result is much stronger than 'close enough': a continuous wave can be recovered exactly from discrete instants, provided you know what it does not contain. Sampling too slowly gives aliasing, where high frequencies masquerade as low ones — the wagon-wheel effect.",
+  "tags": [
+    "sampling",
+    "nyquist"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

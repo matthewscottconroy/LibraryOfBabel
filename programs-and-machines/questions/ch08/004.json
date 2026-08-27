@@ -1,0 +1,21 @@
+{
+  "question_id": "8f386fe9-ed8b-4337-95ab-a69530aa97aa",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What are the three obligations of a loop invariant proof?",
+  "choices": [
+    "Initialization, condition, and progress",
+    "Correctness, termination, and efficiency",
+    "Establishment, preservation, and what the invariant gives you at termination",
+    "Base case, inductive step, and conclusion"
+  ],
+  "answer": 2,
+  "explanation": "Establishment: it is true when the loop is first reached. Preservation: if true at the top of an iteration, still true at the top of the next. Termination: combined with the exit condition, it yields the result you wanted. Those three prove correctness for every input, without tracing anything.",
+  "tags": [
+    "invariant",
+    "proof"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

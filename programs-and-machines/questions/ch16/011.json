@@ -1,0 +1,21 @@
+{
+  "question_id": "bde3bb66-af1f-4c0b-89f3-b67bbe11a665",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why must you not depend on HashMap iteration order?",
+  "choices": [
+    "It is unspecified and not stable across versions or even runs",
+    "Iteration order is stable but undocumented",
+    "It is always sorted",
+    "It is always reverse insertion order"
+  ],
+  "answer": 0,
+  "explanation": "Code depending on it is broken and may pass every test on your machine. If order matters, say so: LinkedHashMap for insertion order, TreeMap for sorted order at logarithmic cost.",
+  "tags": [
+    "hashmap",
+    "ordering"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "5fcfb736-d082-4bb2-b579-2a13ff4a68f4",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "This loop is quadratic. What is the fix?\n```java\nfor (String c : candidates)\n    if (names.contains(c)) hits++;\n```",
+  "choices": [
+    "Put names in a HashSet first, making contains constant rather than linear",
+    "Sort names before the loop",
+    "Use an enhanced for over names instead",
+    "Cache the result of contains"
+  ],
+  "answer": 0,
+  "explanation": "contains on a list examines every element, so m candidates against n names is m x n comparisons. One extra line makes it m + n. If you are searching a list inside a loop, you want a set or a map — that sentence catches a large fraction of accidentally-quadratic beginner code.",
+  "tags": [
+    "performance",
+    "sets"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -34,7 +34,19 @@ The book has one claim, made eight times over:
 | VII | The World Outside the Program | Exceptions, files, events, concurrency |
 | VIII | Limits and Cost | Complexity, information, undecidability |
 
+Five appendices close the book: the toolchain, testing with JUnit, documentation
+and style, version control, and a syntax reference.
+
 Full blueprint: [the outline](programs_and_machines_outline.md).
+Outstanding forward references: [PROMISES.md](PROMISES.md).
+
+## Status
+
+Units I–IV are complete — 18 of 35 chapters, and all five appendices. The
+adaptive quiz has 198 questions covering every written chapter. Units V–VIII are
+scaffolded, and `subject.toml` already names their chapters, so
+`tools/validate.py` reports one unresolved entry per unwritten chapter until each
+is written.
 
 ## Who it is for
 

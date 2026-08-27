@@ -1,0 +1,21 @@
+{
+  "question_id": "2e0f1a5f-b964-461e-9934-66952326ec16",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What does minimizing a failing input accomplish?",
+  "choices": [
+    "It makes the program run faster",
+    "The smallest input that still fails is usually close to self-explaining",
+    "It removes the need for a debugger",
+    "It proves the bug is not in the input"
+  ],
+  "answer": 1,
+  "explanation": "A bug needing ten thousand records is mysterious; the same bug reduced to two records, one with an empty name field, nearly explains itself. It is also what turns a bug into something you can report to someone else, which is why a minimal reproducing case is respected — it has done most of the diagnostic work.",
+  "tags": [
+    "minimization",
+    "debugging"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

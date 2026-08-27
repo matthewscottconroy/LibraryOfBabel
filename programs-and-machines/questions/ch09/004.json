@@ -1,0 +1,21 @@
+{
+  "question_id": "e22f4019-4ee5-4326-a3a6-0478e990d3fe",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "`Index 3 out of bounds for length 3` tells you what, beyond the fact of a failure?",
+  "choices": [
+    "A negative index was computed",
+    "The index was one too many, which is the signature of <= where < was meant",
+    "The array was not initialized",
+    "The array should have been longer"
+  ],
+  "answer": 1,
+  "explanation": "Both numbers are given. Length 3 means valid indices are 0 to 2, so an index of 3 is exactly one past the end. Read properly, the message is close to a diagnosis: exception type, offending values, line, and call path.",
+  "tags": [
+    "errors",
+    "off-by-one"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

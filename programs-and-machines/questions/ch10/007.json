@@ -1,0 +1,21 @@
+{
+  "question_id": "2d5217d5-3a48-445f-b8cc-feb369257028",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What does a precondition let a method do?",
+  "choices": [
+    "Guarantee the caller passes valid input",
+    "Document the return type",
+    "Not handle a case — the method is excused from deciding what the excluded input means",
+    "Run faster by skipping checks"
+  ],
+  "answer": 2,
+  "explanation": "Declaring that the array must be non-empty excuses largest from answering 'what is the largest of nothing', a question with no good answer. It does not guarantee anything about the caller; it states what the method's promise depends on.",
+  "tags": [
+    "contracts",
+    "preconditions"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

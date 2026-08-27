@@ -1,0 +1,19 @@
+{
+  "question_id": "e5fc7f5c-7115-46cc-9349-e3889bfc3c9e",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Testing two doubles for equality with == is usually a mistake.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 1,
+  "explanation": "Two computations that should agree mathematically often land on adjacent grid points instead of the same one. Compare with a tolerance — and scale the tolerance to the magnitudes involved, because a fixed epsilon means nothing without knowing whether the values are near 10^-9 or near 10^16.",
+  "tags": [
+    "comparison",
+    "tolerance"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

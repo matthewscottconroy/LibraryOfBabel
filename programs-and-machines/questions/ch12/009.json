@@ -1,0 +1,21 @@
+{
+  "question_id": "d55280af-6f46-46d7-8cd7-ffaca65f42eb",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "When is recursion the better choice over a loop?",
+  "choices": [
+    "When performance matters most",
+    "Whenever the code would be shorter",
+    "When the data or problem is itself recursive — trees, nested structures, divide-and-conquer",
+    "When the input size is unknown"
+  ],
+  "answer": 2,
+  "explanation": "When a structure is defined in terms of itself, a method defined in terms of itself matches it exactly, and the alternative is maintaining by hand the stack the machine already provides. For a straight walk through a sequence, a loop says what is happening.",
+  "tags": [
+    "design",
+    "recursion"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

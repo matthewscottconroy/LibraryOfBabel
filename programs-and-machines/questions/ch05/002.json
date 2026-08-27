@@ -1,0 +1,21 @@
+{
+  "question_id": "c0507cab-2a68-4a5d-992a-63c0d98d5724",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A program uses two int variables. How many distinct states can it be in?",
+  "choices": [
+    "It depends on the values assigned",
+    "About 1.8 x 10^19, because the possibilities multiply",
+    "Two",
+    "Four billion"
+  ],
+  "answer": 1,
+  "explanation": "Each int has 2^32 possibilities and they are independent, so 2^32 x 2^32 = 2^64. This is why programs cannot be tested exhaustively — testing samples the space rather than covering it — and why loop invariants matter.",
+  "tags": [
+    "state-space",
+    "testing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

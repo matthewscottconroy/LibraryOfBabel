@@ -1,0 +1,21 @@
+{
+  "question_id": "f25afe21-2fbf-4490-a7ee-f70efbf94648",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why does Java use half-open ranges — include the start, exclude the end?",
+  "choices": [
+    "Because it is faster to compute",
+    "Because C did it and Java copied C",
+    "Because arrays are indexed from zero",
+    "The count is the difference, adjacent ranges join without gaps, and empty is natural"
+  ],
+  "answer": 3,
+  "explanation": "A range from a to b half-open holds b − a elements with no adjustment; 0..k followed by k..n covers 0..n exactly once with no +1 at the join; and 0..0 is empty without writing an end below its start. Dijkstra set this out in EWD831 with the reasoning attached.",
+  "tags": [
+    "ranges",
+    "convention"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "8430a7a7-e10f-4673-8c4f-e0afba6b0551",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "blank",
+  "text": "Checking the middle, discarding the half that was still correct, and repeating is called ___ .",
+  "choices": [
+    "bisection",
+    "bisection",
+    "bisecting"
+  ],
+  "answer": "bisection",
+  "explanation": "Each observation halves the search, so a thousand steps take about ten questions and a million about twenty. It requires an expectation at each checkpoint — without a prediction, an observation tells you nothing.",
+  "tags": [
+    "bisection",
+    "debugging"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

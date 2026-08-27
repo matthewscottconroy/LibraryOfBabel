@@ -1,0 +1,21 @@
+{
+  "question_id": "bccd52c8-17cf-4e20-8994-227a15d9fd0c",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What does `byte b = 10; b += 300;` produce, and why?",
+  "choices": [
+    "A compile error, because 300 exceeds byte",
+    "127, because it saturates at the maximum",
+    "54, because += performs an implicit narrowing cast",
+    "310, because the value is promoted"
+  ],
+  "answer": 2,
+  "explanation": "b = b + 300 would not compile; += silently inserts the cast. 310 modulo 256 is 54. The convenience hides a narrowing, which is Chapter 2's truncation arriving unannounced.",
+  "tags": [
+    "compound-assignment",
+    "narrowing"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

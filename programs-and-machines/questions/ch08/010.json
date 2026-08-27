@@ -1,0 +1,21 @@
+{
+  "question_id": "5a44a52d-02b3-4b66-a107-a31dbbb7f03b",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "This loop's invariant fails at establishment. Why?\n```java\nint max = a[0];\nfor (int i = 0; i < a.length; i++)\n    if (a[i] > max) max = a[i];\n```",
+  "choices": [
+    "The comparison should be >=",
+    "It reads past the end of the array",
+    "Before the loop i is 0, so the invariant claims max is the largest of an empty range",
+    "max should be initialized to zero"
+  ],
+  "answer": 2,
+  "explanation": "The invariant is 'max is the largest of a[0..i-1]', and a[0..-1] is empty — but max was set to a[0], which is not the largest of nothing. Starting the loop at 1 establishes it. The original merely wastes an iteration here; in a loop whose body has a side effect the same misalignment is a real bug.",
+  "tags": [
+    "invariant",
+    "establishment"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

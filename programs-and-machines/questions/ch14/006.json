@@ -1,0 +1,21 @@
+{
+  "question_id": "ecd60d99-af60-4150-b975-6a40ef567d0d",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Bounds checking costs a comparison on every access. Why is the real cost usually near zero?",
+  "choices": [
+    "Branch prediction handles it, and the JIT eliminates checks the loop condition already proves safe",
+    "Modern processors have a dedicated bounds instruction",
+    "The cost is not near zero; it is substantial",
+    "The check is performed only in debug builds"
+  ],
+  "answer": 0,
+  "explanation": "In for (int i = 0; i < a.length; i++), the condition already guarantees i is in range, so the compiler removes the per-access check. Writing the ordinary obvious loop lets the optimizer help; a clever hand-optimized version often defeats it.",
+  "tags": [
+    "performance",
+    "jit"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

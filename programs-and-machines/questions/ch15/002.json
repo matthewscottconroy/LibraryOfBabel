@@ -1,0 +1,21 @@
+{
+  "question_id": "0fcf0e38-7b9a-4838-96e4-1c3faff4061f",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is an abstract data type?",
+  "choices": [
+    "A set of operations with contracts, considered apart from any particular storage",
+    "A class with no implementation",
+    "A type whose values cannot be created",
+    "A Java interface"
+  ],
+  "answer": 0,
+  "explanation": "Every implementation answers 'what can I do with this' the same way and 'how is it stored' differently — which is why a user who knows only the first can be handed any implementation. A Java interface is one mechanism for expressing it, not the idea itself.",
+  "tags": [
+    "adt",
+    "abstraction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

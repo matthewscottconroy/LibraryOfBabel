@@ -1,0 +1,21 @@
+{
+  "question_id": "0a4227f4-bed1-448c-90e8-b701804ea4fe",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Of the four things a method buys, which is least important?",
+  "choices": [
+    "A boundary for reasoning",
+    "A unit of thought",
+    "A single place to be correct",
+    "Reuse"
+  ],
+  "answer": 3,
+  "explanation": "Reuse is the answer everyone gives and the smallest benefit. The big one is that a reader reads a word instead of mentally executing four lines. Naming is not labelling something you built — it is the point of building it.",
+  "tags": [
+    "methods",
+    "abstraction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

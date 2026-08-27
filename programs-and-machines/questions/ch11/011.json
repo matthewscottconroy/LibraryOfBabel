@@ -1,0 +1,21 @@
+{
+  "question_id": "2b258c7d-0321-439c-853a-22e1f7eed196",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why does list.remove(1) remove by index rather than by value?",
+  "choices": [
+    "Because List has no remove(Object) method",
+    "Because autoboxing is disabled for remove",
+    "Because integers are always treated as indices",
+    "Overload resolution prefers an exact match, and 1 matches remove(int) exactly"
+  ],
+  "answer": 3,
+  "explanation": "Exact match beats boxing, so remove(int) wins over remove(Object). To remove the value you must force the other overload with Integer.valueOf(1). Two calls that look like spelling variants do entirely different things.",
+  "tags": [
+    "overloading",
+    "autoboxing"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

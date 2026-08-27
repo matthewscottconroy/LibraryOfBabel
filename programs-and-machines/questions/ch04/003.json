@@ -1,0 +1,19 @@
+{
+  "question_id": "5e6641cb-5467-420b-80e5-2aeda7c3a1c0",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A missing semicolon is reported by the JVM when the program runs.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "It is a compile-time error from javac, before anything runs. Knowing which of the two you have tells you what kind of mistake to look for: compile errors are about what you wrote, run-time errors about what the program met.",
+  "tags": [
+    "errors",
+    "compile-time"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "5d2ff21a-8a20-484a-af04-fdf62b8e77fe",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Three questions choose the collection. Which is NOT one of them?",
+  "choices": [
+    "What is associated with this key?",
+    "Is this thing present?",
+    "What is at position i, and in what order?",
+    "How much memory is available"
+  ],
+  "answer": 3,
+  "explanation": "Position gives List, presence gives Set, association gives Map. Get the shape right first; the implementation is a second, smaller decision. A frequent beginner pattern — a List plus a loop that searches it — is almost always a Map or a Set.",
+  "tags": [
+    "collections",
+    "choosing"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

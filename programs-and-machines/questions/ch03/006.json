@@ -1,0 +1,21 @@
+{
+  "question_id": "9490d59e-33db-4d20-9e7e-e2011608c0c3",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why can the same visible text compare as unequal?",
+  "choices": [
+    "Java compares strings by memory address",
+    "Accented characters are always unequal to themselves",
+    "é can be one code point or an e followed by a combining accent, and the sequences differ",
+    "The comparison depends on the display font"
+  ],
+  "answer": 2,
+  "explanation": "equals compares code point sequences, and both forms are legitimate. Normalize with NFC before comparing text that came from outside — usernames, filenames, search terms — and do it once at the boundary rather than remembering at every comparison.",
+  "tags": [
+    "normalization",
+    "comparison"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

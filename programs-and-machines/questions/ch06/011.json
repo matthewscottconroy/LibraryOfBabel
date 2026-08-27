@@ -1,0 +1,21 @@
+{
+  "question_id": "973ff6a8-21c3-4b76-b135-0a6244d2a409",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why is scattered mutation harder to read than an accumulator loop?",
+  "choices": [
+    "Because the compiler cannot optimize it",
+    "Because loops are always clearer than straight-line code",
+    "A variable assigned in several distant places has several possible histories at any point",
+    "Because it uses more memory"
+  ],
+  "answer": 2,
+  "explanation": "An accumulator changes many times in one place following one rule, so a single sentence describes it — and that sentence is a loop invariant. A variable assigned in five scattered places has five histories to trace, and two such variables have twenty-five combinations.",
+  "tags": [
+    "mutation",
+    "readability"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

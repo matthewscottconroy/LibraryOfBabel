@@ -1,0 +1,21 @@
+{
+  "question_id": "b7585115-ce69-4a85-b885-99a260cde743",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why are method calls cheap?",
+  "choices": [
+    "Allocating a frame is moving the stack pointer by one arithmetic operation",
+    "The JIT removes all method calls",
+    "Frames are reused between calls",
+    "The JVM caches frames in registers"
+  ],
+  "answer": 0,
+  "explanation": "Subtract the frame size from the stack pointer to push, add it back to pop. No searching for free space and no bookkeeping about what is in use, unlike the heap. This is why breaking code into small methods costs essentially nothing.",
+  "tags": [
+    "performance",
+    "stack"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

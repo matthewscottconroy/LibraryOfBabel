@@ -1,0 +1,21 @@
+{
+  "question_id": "382e355a-e9ed-455a-a1d3-58dea1f91d08",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why is char unsigned when every other integral type in Java is signed?",
+  "choices": [
+    "There is no such thing as a negative character",
+    "Because 16 bits cannot represent negatives",
+    "Because it makes char faster to compare",
+    "It is signed; the range is -32,768 to 32,767"
+  ],
+  "answer": 0,
+  "explanation": "char runs 0 to 65,535 because a code unit is an index into a character set, and indices are not negative. It does mean char behaves differently from short in arithmetic, which occasionally surprises.",
+  "tags": [
+    "char",
+    "types"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

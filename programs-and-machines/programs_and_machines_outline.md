@@ -47,6 +47,9 @@ familiar, because each will have been derived rather than announced.
   "Chapter 7" — silently invalidating every cross-reference in the book.
 - Exponents are written as LaTeX math (`$2^{n}$`), never as Unicode superscript
   letters, which the PDF's serif font cannot render.
+- `appendices/README.md` emits a raw `\appendix` block. Without it LaTeX
+  continues the chapter counter, so Appendix A prints as "Chapter 19" — colliding
+  with the real Chapter 19 and contradicting every "Appendix B" in the text.
 - A chapter runs 7,000–9,500 words across 12–13 files. Units I–IV average 7,800;
   do not let later units drift below that, or the back half of the book will
   feel thinner than the front.
@@ -711,6 +714,8 @@ What was actually learned, and the shape of the road ahead.
 
 ## Appendices
 
+- `appendices/README.md` — the part opener; emits the raw `\appendix` block
+  that switches LaTeX from chapter numbers to letters
 - `appendices/appendix-a-the-toolchain.md` — **Appendix A — The Toolchain**: javac, java, classpath, jar, and build tools.
 - `appendices/appendix-b-testing.md` — **Appendix B — Testing with JUnit**: Writing and running automated tests.
 - `appendices/appendix-c-documentation-and-style.md` — **Appendix C — Documentation and Style**: Javadoc, naming conventions, and readable code.

@@ -1,0 +1,19 @@
+{
+  "question_id": "1b73de43-f638-4291-b9a5-95210b4775da",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A sequence of bytes can indicate which encoding it uses.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Any such announcement would itself be a pattern needing an encoding. Formats that appear to self-describe — a byte order mark, an XML declaration — work because reader and writer already agreed in advance how to read those leading bytes. The agreement is pushed outward, not eliminated.",
+  "tags": [
+    "encoding",
+    "metadata"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

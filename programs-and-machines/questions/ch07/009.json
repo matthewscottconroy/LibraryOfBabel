@@ -1,0 +1,21 @@
+{
+  "question_id": "911492fd-3827-430f-bbde-3eaa2a47ccd4",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why must braces always be used, even for a single statement?",
+  "choices": [
+    "Adding a second statement later silently changes control flow while the indentation still looks right",
+    "The compiler requires them for correctness",
+    "Without them the code runs more slowly",
+    "They are needed only inside loops"
+  ],
+  "answer": 0,
+  "explanation": "The indentation says both lines are conditional; the compiler says only the first is. This exact shape allowed Apple's 2014 'goto fail' defect, where a stray line outside a brace-less conditional caused certificate validation to be skipped. It costs two characters.",
+  "tags": [
+    "braces",
+    "style"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

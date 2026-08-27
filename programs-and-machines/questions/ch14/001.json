@@ -1,0 +1,21 @@
+{
+  "question_id": "3e54521d-f684-4d17-aa7a-21d4561b1172",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does array access by position cost the same regardless of position?",
+  "choices": [
+    "Elements are stored in a hash table",
+    "The address is computed arithmetically: base plus index times element size",
+    "The JVM caches every element",
+    "The array is searched from the nearest end"
+  ],
+  "answer": 1,
+  "explanation": "One multiplication and one addition, so element 4,700,000 costs what element 47 costs. No searching and no comparison. That property is the reason arrays exist.",
+  "tags": [
+    "arrays",
+    "indexing"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

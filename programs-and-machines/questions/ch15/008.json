@@ -1,0 +1,21 @@
+{
+  "question_id": "57aa5fd8-b2af-442f-ac3b-2b2b7a370f80",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is a class actually for?",
+  "choices": [
+    "Grouping related methods",
+    "Putting a boundary around an invariant so the code that could break it is small enough to check",
+    "Organizing files in a project",
+    "Enabling inheritance"
+  ],
+  "answer": 1,
+  "explanation": "That sentence converts `private` from ceremony into the thing that makes the reasoning possible. Everything else a class does is secondary to this.",
+  "tags": [
+    "classes",
+    "invariants"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

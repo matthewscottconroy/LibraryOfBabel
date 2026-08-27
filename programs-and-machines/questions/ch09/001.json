@@ -1,0 +1,21 @@
+{
+  "question_id": "19fbf155-0ec9-4dba-8c17-507a733611da",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is wrong with changing something plausible and rerunning until the symptom goes?",
+  "choices": [
+    "Nothing; it is how most bugs are found",
+    "It is too slow for large programs",
+    "It has no memory, cannot terminate, and often masks the cause rather than removing it",
+    "It requires a debugger to be installed"
+  ],
+  "answer": 2,
+  "explanation": "Nothing accumulates, there is no point at which you have excluded anything, and a change that makes the symptom disappear is not thereby a change that removes the cause. The productive method is the experimental one: find where belief and behavior first diverge.",
+  "tags": [
+    "debugging",
+    "method"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

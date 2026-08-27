@@ -1,0 +1,21 @@
+{
+  "question_id": "f4fb23c6-4f19-4094-8360-fa347b867235",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why can a truth table define a logical operator completely?",
+  "choices": [
+    "There are finitely many input combinations, so all of them can be listed",
+    "Because two-valued logic has no edge cases",
+    "Because the operators are all commutative",
+    "Because logic is simpler than arithmetic"
+  ],
+  "answer": 0,
+  "explanation": "Two boolean inputs give four rows, and listing all four leaves nothing to interpretation and no case forgotten. This kind of verification by exhaustion is possible here and impossible for programs generally, which is why Chapter 9 needs invariants.",
+  "tags": [
+    "truth-tables",
+    "logic"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "293ba8b9-317b-4b86-8157-89161202d125",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why is hexadecimal used as a shorthand for binary rather than decimal?",
+  "choices": [
+    "16 is 2 to the fourth, so each hex digit is exactly four bits and conversion is regrouping",
+    "Hexadecimal is what the processor actually stores",
+    "Decimal cannot represent values above 255",
+    "Hexadecimal numbers are shorter than decimal ones"
+  ],
+  "answer": 0,
+  "explanation": "Because 16 = 2^4, converting is a lookup per group of four bits with no arithmetic, and the bit structure stays visible: you can see that 0xD6 ends in 0110. Decimal is neither arithmetic-free nor structure-preserving — 214 tells you nothing about which bits are set. The processor stores neither; it stores bits.",
+  "tags": [
+    "hexadecimal",
+    "encoding"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

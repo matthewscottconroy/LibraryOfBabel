@@ -1,0 +1,22 @@
+{
+  "question_id": "d3fdc77e-954f-4d61-b8f4-d8e221d36294",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In Java, why does a string holding one emoji report a length of 2?",
+  "choices": [
+    "length() returns the number of bytes",
+    "The string contains an invisible joining character",
+    "Emoji are always stored as two separate characters",
+    "char is 16 bits, so characters above U+FFFF are stored as two surrogate values"
+  ],
+  "answer": 3,
+  "explanation": "Java's char was fixed at 16 bits when Unicode was expected to fit in 65,536 code points. It did not. length() counts 16-bit units, not characters, so codePointCount exists to give 1. It is a 1993 decision showing through, not a bug — and it is Chapter 1's fixed-width problem at a larger scale.",
+  "tags": [
+    "java",
+    "utf-16",
+    "surrogates"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

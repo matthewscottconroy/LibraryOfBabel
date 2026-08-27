@@ -1,0 +1,19 @@
+{
+  "question_id": "da953ec7-b610-4e5a-b3b6-f9942e2a6851",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A claim about the state that is true at the top of every iteration is called a loop ___ .",
+  "choices": [
+    "invariant",
+    "invariant"
+  ],
+  "answer": "invariant",
+  "explanation": "Almost always a statement about the part already processed, expressed in terms of the loop variable — which is why a[0..i-1] keeps appearing. It replaces 'trace the execution' with 'check that one claim survives each step'.",
+  "tags": [
+    "invariant",
+    "proof"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

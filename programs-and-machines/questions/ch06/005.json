@@ -1,0 +1,21 @@
+{
+  "question_id": "54b30e5e-594d-4663-89ba-623d131335cf",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "After `int x = 5; int y = x; x = 10;` what is y?",
+  "choices": [
+    "5",
+    "0",
+    "10",
+    "undefined"
+  ],
+  "answer": 0,
+  "explanation": "y received a copy of the value, not a connection to x. For primitives the box holds the value itself. In Unit V the same syntax on objects copies a reference instead, and then changing the object through x does change what y sees — which is why this paragraph is worth remembering.",
+  "tags": [
+    "copy-semantics",
+    "primitives"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "f02a2567-7d61-477a-9c63-7da17b9b2705",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why is the return type not part of a method's signature?",
+  "choices": [
+    "A call that discards the result would be ambiguous",
+    "Because Java only allows one return type",
+    "It is part of the signature",
+    "Because the JVM erases return types"
+  ],
+  "answer": 0,
+  "explanation": "Given int g(int) and long g(int), the call g(5); with the result discarded gives the compiler nothing to choose from. Rather than allow it sometimes, Java forbids it always.",
+  "tags": [
+    "overloading",
+    "signatures"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

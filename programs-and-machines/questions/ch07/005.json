@@ -1,0 +1,21 @@
+{
+  "question_id": "45444978-7541-43db-a742-be66300bc319",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What did Shannon's 1937 observation make possible?",
+  "choices": [
+    "Binary replaced decimal in hardware",
+    "Boolean algebra was invented",
+    "Circuits could be calculated, simplified and proved rather than only built and tested",
+    "Computers could be made from relays"
+  ],
+  "answer": 2,
+  "explanation": "Boole published the algebra in 1854 and relay networks already existed. What Shannon supplied was the recognition that the one describes the other — after which you could take a specification, write it as a boolean expression, simplify it algebraically, and build the result with a guarantee it behaves identically.",
+  "tags": [
+    "shannon",
+    "circuits"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

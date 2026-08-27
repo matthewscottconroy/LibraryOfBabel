@@ -1,0 +1,21 @@
+{
+  "question_id": "3ce5dd07-573b-40d8-b71c-8f84e453a36d",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Does Java pass objects by reference?",
+  "choices": [
+    "Only when the parameter is declared final",
+    "Yes for objects and no for primitives",
+    "Yes, which is why a method can modify an object",
+    "No — it copies the contents of the variable, and for an object those contents are a reference"
+  ],
+  "answer": 3,
+  "explanation": "The decisive test: assigning a new object to a parameter does not change the caller's variable. Under genuine pass-by-reference it would. 'Objects are passed by reference' predicts correctly until it does not, and then offers no explanation.",
+  "tags": [
+    "pass-by-value",
+    "references"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

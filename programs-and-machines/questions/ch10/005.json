@@ -1,0 +1,21 @@
+{
+  "question_id": "5d066c7d-5cdb-411d-89e4-0f5d4713288b",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Five or more parameters is a signal of what?",
+  "choices": [
+    "That the method is well-generalized",
+    "Either the method does too much, or several parameters belong together as one object",
+    "That the method needs to be static",
+    "Nothing; parameter count does not matter"
+  ],
+  "answer": 1,
+  "explanation": "Arguments bind by position and Java has no named arguments, so a swapped pair of ints compiles cleanly and does the wrong thing. When a group of parameters always travels together, that group is an object waiting to be named.",
+  "tags": [
+    "parameters",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

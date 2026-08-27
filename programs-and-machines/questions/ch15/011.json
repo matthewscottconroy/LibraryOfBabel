@@ -1,0 +1,21 @@
+{
+  "question_id": "97a8ef94-a2da-460b-8a19-f8cd8dfc98d3",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Hoare called null his billion-dollar mistake. What is the deepest problem with it?",
+  "choices": [
+    "It defeats the type system: every reference type is secretly itself-or-nothing and the compiler will not say which",
+    "It wastes memory",
+    "It cannot be printed",
+    "It is slow to check"
+  ],
+  "answer": 0,
+  "explanation": "When a method declares it returns a String, the type is supposed to be a promise. If it may return null, the promise is really 'a String, or nothing' and nothing tells you which. It also fails remotely, and it has no meaning of its own — not-found, not-initialized and error are indistinguishable.",
+  "tags": [
+    "null",
+    "types"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

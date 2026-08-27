@@ -1,0 +1,20 @@
+{
+  "question_id": "be95856a-6790-4118-93ab-b4a36c47914d",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Fixed-width addition is really addition ___ 2 to the power of the width.",
+  "choices": [
+    "modulo",
+    "mod",
+    "modulo"
+  ],
+  "answer": "modulo",
+  "explanation": "The discarded carry is worth exactly 2^W, so dropping it subtracts 2^W. Values behave like an odometer: count past the top and you arrive back at the bottom. This one fact explains every wrapping result in the chapter.",
+  "tags": [
+    "modular-arithmetic",
+    "overflow"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

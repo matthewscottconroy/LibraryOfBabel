@@ -1,0 +1,21 @@
+{
+  "question_id": "94d0f69b-90f5-4b6c-adda-2c189e145325",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What does the number 0.1 actually hold when stored as a double?",
+  "choices": [
+    "0.1000000000000000055511151231257827021181583404541015625, exactly",
+    "An unpredictable value that varies between runs",
+    "0.1 with some digits truncated at the end",
+    "Exactly one tenth"
+  ],
+  "answer": 0,
+  "explanation": "A binary fraction with 52 fraction bits is a precise rational number, and that is it written out. It is not an approximation of what is stored — it is what is stored. And it is entirely deterministic: the same literal gives the same bits every time, on every conforming machine.",
+  "tags": [
+    "floating-point",
+    "representation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

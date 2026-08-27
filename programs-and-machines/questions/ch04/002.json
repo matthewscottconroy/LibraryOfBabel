@@ -1,0 +1,21 @@
+{
+  "question_id": "1e3ce260-25a7-4552-a539-42601adccb0f",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why does a public class named Hello have to live in Hello.java?",
+  "choices": [
+    "It does not; the rule is only a convention",
+    "Because javac cannot read two classes at once",
+    "So the compiler and JVM can find a class by name without searching every file",
+    "Because the file system requires it"
+  ],
+  "answer": 2,
+  "explanation": "It is a convention with teeth — get it wrong and javac refuses. The point is locatability: given a class name, the tooling knows exactly which file to open.",
+  "tags": [
+    "files",
+    "classes"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

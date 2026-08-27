@@ -1,0 +1,21 @@
+{
+  "question_id": "866a3c8d-33bf-401d-b6b5-5baa03d80335",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What is a representation invariant?",
+  "choices": [
+    "A rule the compiler enforces",
+    "The order in which fields are declared",
+    "A claim about the fields that must hold whenever anyone outside can observe",
+    "A field that never changes"
+  ],
+  "answer": 2,
+  "explanation": "It is what turns two variables sitting near each other into a set of names. Every operation may assume it on entry and must restore it on exit — and between those points it may legitimately be false, because the structure is under repair.",
+  "tags": [
+    "invariants",
+    "data"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

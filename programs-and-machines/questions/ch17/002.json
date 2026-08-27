@@ -1,0 +1,21 @@
+{
+  "question_id": "90f608e3-f2a3-4c78-86f9-56deb7476720",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which is NOT a benefit of String immutability?",
+  "choices": [
+    "Identical literals can be pooled into one object",
+    "Strings use less memory than mutable character sequences",
+    "A method cannot alter a string you pass it",
+    "Strings are safe as hash keys"
+  ],
+  "answer": 1,
+  "explanation": "Immutability costs memory when you modify, since every change allocates. What it buys is safe sharing (hence the literal pool), safe passing with no defensive copy, safe hashing with a cacheable hash code, and thread safety with no coordination.",
+  "tags": [
+    "immutability",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

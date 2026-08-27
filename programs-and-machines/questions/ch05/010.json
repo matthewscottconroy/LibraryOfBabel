@@ -1,0 +1,21 @@
+{
+  "question_id": "4a69df4d-5b9d-4500-ab40-1df59142a9ff",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "In Chapter 6's model, what is an object?",
+  "choices": [
+    "A new kind of computation not available to a Turing machine",
+    "A bundle of state together with the transitions permitted to touch it",
+    "A synonym for a variable",
+    "A region of the stack"
+  ],
+  "answer": 1,
+  "explanation": "Mechanically an object adds nothing — the model already had state and transitions. Its value is in what it forbids, which is why Unit V treats it as a design decision rather than a mechanism.",
+  "tags": [
+    "objects",
+    "model"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

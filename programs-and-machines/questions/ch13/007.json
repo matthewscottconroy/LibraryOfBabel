@@ -1,0 +1,21 @@
+{
+  "question_id": "312382a7-ae91-4720-8718-0f99ab2516b1",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which reason to test is the most valuable?",
+  "choices": [
+    "It catches bugs later, when you change the code six months from now",
+    "It proves the code is correct",
+    "It satisfies a coverage requirement",
+    "It catches bugs now"
+  ],
+  "answer": 0,
+  "explanation": "Catching bugs now you would probably have done by running the program. The real value is that a change six months later tells you immediately if you broke something — and that untested code becomes code nobody dares touch, which accumulates workarounds instead of fixes.",
+  "tags": [
+    "testing",
+    "value"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

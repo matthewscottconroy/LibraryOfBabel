@@ -1,0 +1,21 @@
+{
+  "question_id": "7674f5a7-af2c-4ae8-be73-1687a58212bc",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is a test, most precisely?",
+  "choices": [
+    "The contract, made executable",
+    "A sample of the program's output",
+    "A check that the code compiles",
+    "A program that finds bugs"
+  ],
+  "answer": 0,
+  "explanation": "Each case supplies something satisfying the precondition and checks the postcondition. A contract is a test you have not automated yet, and the difference is that a comment stays silently wrong while a test fails loudly.",
+  "tags": [
+    "testing",
+    "contracts"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

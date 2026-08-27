@@ -1,0 +1,21 @@
+{
+  "question_id": "b1429de1-7c47-4718-89dc-9b34eae3732d",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Convert the binary numeral 1011 to decimal.",
+  "choices": [
+    "13",
+    "11",
+    "23",
+    "1011"
+  ],
+  "answer": 1,
+  "explanation": "The positions are worth 8, 4, 2, 1; the ones that are set are 8 + 2 + 1 = 11. Answering 1011 treats the pattern as a decimal numeral, which is the confusion the whole chapter exists to remove.",
+  "tags": [
+    "binary",
+    "conversion"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

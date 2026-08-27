@@ -1,0 +1,19 @@
+{
+  "question_id": "7eaf100f-1583-46e2-9ab2-b7fa39b3a052",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "tf",
+  "text": "The Java compiler checks that a method's documented contract is honoured.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "It checks types and nothing else. A contract is a claim in a comment, and a wrong comment is worse than none because it is believed. You rely on care, explicit checks where they are cheap, and tests that verify postconditions.",
+  "tags": [
+    "contracts",
+    "compiler"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

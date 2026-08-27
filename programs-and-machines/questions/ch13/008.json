@@ -1,0 +1,21 @@
+{
+  "question_id": "08c1ae6c-2dce-4ff7-b200-a256091b4d36",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is an equivalence class in test design?",
+  "choices": [
+    "Tests that take equal time to run",
+    "A group of inputs the code handles the same way, from which one representative suffices",
+    "Inputs of the same type",
+    "A set of tests that all pass"
+  ],
+  "answer": 1,
+  "explanation": "Testing {1,2,3} and {1,2,4} and {1,2,5} gives you one class three times. A suite's size matters far less than how many distinct classes it covers.",
+  "tags": [
+    "testing",
+    "equivalence-classes"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

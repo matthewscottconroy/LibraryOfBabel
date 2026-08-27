@@ -1,0 +1,20 @@
+{
+  "question_id": "b9c0833a-d2bb-4af6-9bb8-99041dcfd8df",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The claim that anything computable at all is computable by a Turing machine is called the ___ thesis.",
+  "choices": [
+    "Church-Turing",
+    "Church-Turing",
+    "Church–Turing"
+  ],
+  "answer": "Church-Turing",
+  "explanation": "A thesis rather than a theorem, because 'computable at all' is not a mathematical object and so nothing can be proved about it. Ninety years of alternative models — lambda calculus, recursive functions, every programming language — have all computed exactly the same set of functions.",
+  "tags": [
+    "church-turing",
+    "computability"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

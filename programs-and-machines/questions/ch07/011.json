@@ -1,0 +1,19 @@
+{
+  "question_id": "7afe2fa8-cc9d-4bb0-8b18-f60eaeb897d4",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "A switch over an enum with no default stops compiling when a new constant is added.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 1,
+  "explanation": "The compiler knows every value and checks you covered them, so adding WINDY to the enum breaks the build until the new case is handled. That is a failure delivered at exactly the right time, and it is the argument for enums over integer constants in one sentence.",
+  "tags": [
+    "enums",
+    "exhaustiveness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

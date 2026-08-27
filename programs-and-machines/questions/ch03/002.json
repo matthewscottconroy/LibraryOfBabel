@@ -1,0 +1,21 @@
+{
+  "question_id": "df453dc9-568f-44db-a3c3-9070760f1708",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why did UTF-8 win over UTF-16 and UTF-32?",
+  "choices": [
+    "It is the only encoding that covers all of Unicode",
+    "It uses less memory for every possible character",
+    "It was standardized first",
+    "ASCII files are already valid UTF-8, each byte announces its role, and readers can resynchronize after damage"
+  ],
+  "answer": 3,
+  "explanation": "All three cover all of Unicode. UTF-8 is larger than UTF-16 for East Asian text, so it does not always win on size. What it has is compatibility — an ASCII file needs no conversion — plus self-synchronization and the guarantee that an ASCII byte never appears inside a multi-byte character, so byte-oriented software kept working.",
+  "tags": [
+    "utf-8",
+    "encoding"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

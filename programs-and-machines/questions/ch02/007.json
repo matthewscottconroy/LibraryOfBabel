@@ -1,0 +1,21 @@
+{
+  "question_id": "d417b1d3-178d-4593-9c7d-a02c3f16ac77",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Adding 0.1 ten times in a loop gives 0.9999999999999999. What does this show?",
+  "choices": [
+    "The addition operator is broken for small values",
+    "Individually correct operations accumulate loss across many steps",
+    "Java loses precision when a loop runs more than a few times",
+    "The compiler optimized the loop incorrectly"
+  ],
+  "answer": 1,
+  "explanation": "Every one of the ten additions returned the correctly rounded result. The loss is in the accumulation of ten 'best possible' answers, which is a different thing from a mistake and needs a different kind of vigilance — Kahan summation, or a different representation.",
+  "tags": [
+    "accumulation",
+    "error"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

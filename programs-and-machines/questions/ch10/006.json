@@ -1,0 +1,21 @@
+{
+  "question_id": "fa98816a-e72e-43b2-a89f-9aec46357c69",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What makes a method pure, and why does it matter?",
+  "choices": [
+    "It takes no parameters",
+    "It never throws an exception",
+    "It contains no loops",
+    "It has no effect beyond its return value, so calls can be moved, removed or reordered freely"
+  ],
+  "answer": 3,
+  "explanation": "Call square(7) a hundred times and nothing in the program differs for it. A method with effects can be none of those things — order matters, testing means capturing output, and whether a call can be deleted depends on whether anyone wanted the effect.",
+  "tags": [
+    "purity",
+    "effects"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

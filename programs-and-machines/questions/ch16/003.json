@@ -1,0 +1,21 @@
+{
+  "question_id": "842f752e-c267-44cc-b401-607d50af16d4",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does doubling give amortized constant time per add?",
+  "choices": [
+    "Because copying is faster than allocating",
+    "Because the JIT removes the copies",
+    "Because each add copies only one element",
+    "The total copying over n additions is 1 + 2 + 4 + ... + n/2, which is less than n"
+  ],
+  "answer": 3,
+  "explanation": "Fewer than n copies in total for n additions, so each one costs a constant amount on average even though individual adds occasionally copy a great deal. Growing by a fixed 100 instead would cost about five billion copies for a million items.",
+  "tags": [
+    "amortized",
+    "analysis"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

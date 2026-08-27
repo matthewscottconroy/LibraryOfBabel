@@ -1,0 +1,19 @@
+{
+  "question_id": "2e4ba87f-6e89-4a01-88da-627efc51be5a",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Writing 742 in base seven gives 2110.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 1,
+  "explanation": "Repeated division by 7 gives remainders 0, 1, 1, 2, read bottom to top as 2110. Check it: 2(343) + 1(49) + 1(7) + 0 = 686 + 49 + 7 = 742. The procedure is the same one you would use for any base; only the divisor changes.",
+  "tags": [
+    "bases",
+    "conversion"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

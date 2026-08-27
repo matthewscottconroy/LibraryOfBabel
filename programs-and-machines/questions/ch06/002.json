@@ -1,0 +1,21 @@
+{
+  "question_id": "bd87ef0c-736d-4f2d-afcf-fafe5d2ad68c",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why is `n = n + 1` not a contradiction?",
+  "choices": [
+    "Because Java evaluates right to left",
+    "Because n is a special kind of variable",
+    "Because the compiler rewrites it as n++",
+    "= is a command performed at a moment, and the two sides refer to different times"
+  ],
+  "answer": 3,
+  "explanation": "The right side is evaluated using the old value; the left receives the new one. Assignment is not symmetric — n = 5 is legal and 5 = n is not, because the left must have a location and the right a value.",
+  "tags": [
+    "assignment",
+    "semantics"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

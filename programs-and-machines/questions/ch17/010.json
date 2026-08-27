@@ -1,0 +1,21 @@
+{
+  "question_id": "ea8bde21-54dc-4a54-8e47-3846601cd8d6",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What does `\"a.b.c\".split(\".\")` return?",
+  "choices": [
+    "An empty array, because the argument is a regular expression and . matches any character",
+    "A compile error",
+    "Three elements: a, b, c",
+    "One element containing the whole string"
+  ],
+  "answer": 0,
+  "explanation": "Everything matched and everything was consumed. To split on a literal dot you must escape it. split also discards trailing empty strings unless you pass a limit of -1, which matters when your fields are positional.",
+  "tags": [
+    "split",
+    "regex"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

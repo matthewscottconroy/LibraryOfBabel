@@ -1,0 +1,21 @@
+{
+  "question_id": "e4f7c36b-17ed-48db-ba49-9d11d4ccb2eb",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why do array indices start at 0?",
+  "choices": [
+    "Because negative indices are reserved",
+    "An index is an offset, so element 0 sits at base plus zero",
+    "Because computers count from zero",
+    "To save one byte of storage"
+  ],
+  "answer": 1,
+  "explanation": "One-based indexing would require base + (i-1) x size, adding a subtraction to every array access ever performed. Dijkstra's half-open-range argument gives the other half: counts subtract cleanly and adjacent ranges join without adjustment.",
+  "tags": [
+    "indexing",
+    "convention"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

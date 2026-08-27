@@ -1,0 +1,20 @@
+{
+  "question_id": "84efd0a3-c256-44fc-aae4-a0c858679c25",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Always write grid[row].length rather than grid[0].length, because rows may differ in length — such an array is called ___ .",
+  "choices": [
+    "ragged",
+    "ragged",
+    "jagged"
+  ],
+  "answer": "ragged",
+  "explanation": "Using row 0's length assumes every row matches it, which Java does not guarantee. The correct form works for rectangular arrays too, so there is no reason to write anything else.",
+  "tags": [
+    "ragged-arrays",
+    "bugs"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

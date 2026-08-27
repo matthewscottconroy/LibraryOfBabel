@@ -1,0 +1,19 @@
+{
+  "question_id": "f948addb-3f47-4e61-9bff-638c54554952",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Loop invariant, method contract, representation invariant: three scales of one technique — state what stays true, and check that each step ___ it.",
+  "choices": [
+    "preserves",
+    "preserves"
+  ],
+  "answer": "preserves",
+  "explanation": "That is arguably the central intellectual tool in the subject, and by Chapter 16 you have it in all three forms.",
+  "tags": [
+    "invariants",
+    "technique"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

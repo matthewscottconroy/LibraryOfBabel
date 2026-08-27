@@ -1,0 +1,19 @@
+{
+  "question_id": "4b0b1916-1b98-4eb9-8217-4921c2e4358b",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Two variables holding the same reference are two names for one object. This is called ___ .",
+  "choices": [
+    "aliasing",
+    "aliasing"
+  ],
+  "answer": "aliasing",
+  "explanation": "Changing the object through either name is visible through both, because there is only one object. It is the source of a large fraction of the confusion in the rest of the book, and Chapter 20 is devoted to it.",
+  "tags": [
+    "aliasing",
+    "references"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

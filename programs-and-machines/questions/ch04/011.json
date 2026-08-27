@@ -1,0 +1,19 @@
+{
+  "question_id": "2ebfb53b-85ce-4d8e-9c4a-dad22de82be4",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "tf",
+  "text": "java Hello.java compiles the file in memory and runs it, leaving no .class file.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 1,
+  "explanation": "Single-file source execution, added in Java 11. Convenient for experiments, and it does not remove the two-step model — the compilation still happens, it is merely not left on disk. It stops working as soon as your program is two files.",
+  "tags": [
+    "tooling",
+    "single-file"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

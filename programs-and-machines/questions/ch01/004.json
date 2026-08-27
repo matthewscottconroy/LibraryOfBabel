@@ -1,0 +1,21 @@
+{
+  "question_id": "537696b2-c949-4373-b8c0-2b33310d70c3",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In 8-bit two's complement, what is the bit pattern for -5?",
+  "choices": [
+    "00000101",
+    "11111010",
+    "10000101",
+    "11111011"
+  ],
+  "answer": 3,
+  "explanation": "Flip the bits of 00000101 to get 11111010, then add one: 11111011. The 10000101 answer is sign-magnitude, the scheme everyone invents first and which fails because ordinary addition gives wrong answers. Forgetting the add-one gives 11111010, which is -6.",
+  "tags": [
+    "twos-complement",
+    "negative-numbers"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

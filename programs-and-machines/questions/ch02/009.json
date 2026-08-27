@@ -1,0 +1,20 @@
+{
+  "question_id": "2229201f-65ff-40bc-9719-9a296e5984bb",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "A quantity with a natural smallest unit whose correctness matters — money, counts, identifiers — should not use floating point but an integer count or a ___ type.",
+  "choices": [
+    "decimal",
+    "decimal",
+    "BigDecimal"
+  ],
+  "answer": "decimal",
+  "explanation": "Money has a smallest unit and correctness at that unit is enforced by auditors. Store integer cents, or use BigDecimal — constructed from a string, since new BigDecimal(0.10) faithfully preserves the error the double already had.",
+  "tags": [
+    "money",
+    "decimal"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

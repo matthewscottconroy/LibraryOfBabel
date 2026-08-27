@@ -1,0 +1,21 @@
+{
+  "question_id": "f2969491-80cf-452d-a080-b1b76bac4348",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A method does `a = new int[]{9,9,9};` to its array parameter. The caller passed an array holding 1,2,3. What is element 0 afterwards?",
+  "choices": [
+    "9, because arrays are shared",
+    "A compile error",
+    "Undefined",
+    "1 — the parameter was reassigned, which the caller cannot see"
+  ],
+  "answer": 3,
+  "explanation": "Assigning to the parameter overwrites the copied reference; the caller's variable was never shared, only its contents were copied. Compare a[0] = 9, which follows the reference and is visible everywhere. Two operations that look alike in source.",
+  "tags": [
+    "pass-by-value",
+    "parameters"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

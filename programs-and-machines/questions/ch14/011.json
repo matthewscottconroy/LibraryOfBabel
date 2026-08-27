@@ -1,0 +1,21 @@
+{
+  "question_id": "15b6876f-70f9-485d-b4c7-f1763c5a817d",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "`x == y` is false for two arrays holding 1,2 but `Arrays.equals(x,y)` is true. Why?",
+  "choices": [
+    "== does not work on arrays",
+    "The arrays have different lengths",
+    "== compares references — whether they are the same array — while Arrays.equals compares contents",
+    "Arrays.equals ignores order"
+  ],
+  "answer": 2,
+  "explanation": "Two different arrays with identical contents. This is Chapter 20's identity-versus-equality distinction meeting you early, on the gentlest possible example.",
+  "tags": [
+    "equality",
+    "references"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

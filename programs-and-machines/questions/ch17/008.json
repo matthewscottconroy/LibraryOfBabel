@@ -1,0 +1,21 @@
+{
+  "question_id": "9f5e11e9-1457-41d6-a752-b4409701dcc3",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Two strings both display as café and are not equal. Why?",
+  "choices": [
+    "They use different fonts",
+    "One uses a single combined code point and the other an e plus a combining accent",
+    "One is a literal and the other was built at run time",
+    "One contains a trailing space"
+  ],
+  "answer": 1,
+  "explanation": "equals compares code point sequences, and both forms are legitimate Unicode. Normalize with NFC before comparing text from outside — usernames, filenames, search terms — and do it once at the boundary.",
+  "tags": [
+    "normalization",
+    "unicode"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

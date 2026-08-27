@@ -1,0 +1,21 @@
+{
+  "question_id": "19abda1e-0a00-4d8d-918e-7e14dc9bf8a5",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why does (byte) 300 give 44?",
+  "choices": [
+    "It rounds 300 down to the nearest byte",
+    "Narrowing keeps the low eight bits and discards the rest",
+    "The cast is undefined and the result is arbitrary",
+    "It clamps to the maximum byte value"
+  ],
+  "answer": 1,
+  "explanation": "300 is 100101100; the low eight bits are 00101100, which read as a signed byte is 44. This is Chapter 2's discarded carry arriving from a different direction, and the cast is you accepting responsibility for the loss.",
+  "tags": [
+    "casting",
+    "narrowing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

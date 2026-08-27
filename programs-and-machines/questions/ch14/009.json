@@ -1,0 +1,21 @@
+{
+  "question_id": "199bc7ab-23bb-40e9-875d-d4bf1512bcee",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Row-major traversal of a 4000x4000 grid measured 3x faster than column-major for identical work. Why?",
+  "choices": [
+    "Memory is fetched in cache lines, so consecutive access gets many elements nearly free",
+    "The compiler reorders row-major loops",
+    "Column access requires a multiplication",
+    "The rows were shorter than the columns"
+  ],
+  "answer": 0,
+  "explanation": "Reading grid[r][0] pulls in a line containing the next fifteen or so ints; reading down a column touches a different array each time and pays full price. Walk data in the order it is stored — vary the last index innermost.",
+  "tags": [
+    "cache",
+    "locality"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

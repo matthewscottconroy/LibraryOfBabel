@@ -1,0 +1,21 @@
+{
+  "question_id": "3aefbde8-06ee-4d6c-adc2-76048d3eb3cd",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A loop over n items inside another loop over n items runs how many times?",
+  "choices": [
+    "n, because the inner loop resets",
+    "It depends on the loop bodies",
+    "n squared — the counts multiply",
+    "2n, because there are two loops"
+  ],
+  "answer": 2,
+  "explanation": "Ten thousand items becomes a hundred million iterations. This is where beginners first write something accidentally unusable: instant on the ten-item test data, unusable on the real data. Whenever you nest, notice that you have multiplied.",
+  "tags": [
+    "nesting",
+    "complexity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

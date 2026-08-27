@@ -1,0 +1,21 @@
+{
+  "question_id": "a2d0b63c-6398-46e0-a1e5-e59b65919906",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which debugger feature makes a failure at iteration 4,999 tractable?",
+  "choices": [
+    "Modifying a variable and continuing",
+    "Watching the call stack",
+    "A conditional breakpoint that pauses only when the condition holds",
+    "Stepping over method calls"
+  ],
+  "answer": 2,
+  "explanation": "Printing a million iterations is useless and clicking continue five thousand times is not a plan. Conditional breakpoints are the feature people most often do not know exists, along with clicking up a frame to inspect the caller's variables.",
+  "tags": [
+    "debugger",
+    "breakpoints"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

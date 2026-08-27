@@ -1,0 +1,21 @@
+{
+  "question_id": "4038d986-a574-4074-a94d-26ca937219e3",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "How many objects does `new int[3][4]` create?",
+  "choices": [
+    "One",
+    "Twelve",
+    "Three",
+    "Four — one outer array of references and three inner arrays"
+  ],
+  "answer": 3,
+  "explanation": "Java has no two-dimensional arrays; it has arrays whose elements are arrays. So grid[1][2] is two memory accesses rather than one multiplication, rows are objects you can pass around, and columns are not.",
+  "tags": [
+    "2d-arrays",
+    "structure"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

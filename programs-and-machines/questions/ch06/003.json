@@ -1,0 +1,19 @@
+{
+  "question_id": "77d71548-bf1d-4ba1-b909-011db0b12550",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Reading a local variable that might not have been assigned is a compile error in Java.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "The compiler proves that on some path the variable could be read before assignment and refuses the whole program. The check is deliberately conservative, so it will occasionally reject a program that would in fact always assign first — that is the cost of the guarantee.",
+  "tags": [
+    "definite-assignment",
+    "compile-time"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

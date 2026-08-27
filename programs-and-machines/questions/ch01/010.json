@@ -1,0 +1,21 @@
+{
+  "question_id": "d1c2ea40-907d-4433-8316-b723026ae9bb",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Signed overflow when adding two numbers can only happen when:",
+  "choices": [
+    "The result is larger than either operand",
+    "Either operand is negative",
+    "The operands have opposite signs",
+    "The two operands have the same sign and the result has the opposite sign"
+  ],
+  "answer": 3,
+  "explanation": "Adding a positive and a negative gives a result lying between them, so it is already representable and cannot overflow. Only like-signed operands can push past an end of the range, and the tell is that the sign flips.",
+  "tags": [
+    "overflow",
+    "detection"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

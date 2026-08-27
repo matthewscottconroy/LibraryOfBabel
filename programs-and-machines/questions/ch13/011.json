@@ -1,0 +1,21 @@
+{
+  "question_id": "d7057f22-9a01-49f5-a9f2-23958472e153",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "A method is hard to test. What does that usually indicate?",
+  "choices": [
+    "That the test framework is inadequate",
+    "That the method is performance-critical",
+    "A design problem: too many jobs, an uncontrollable dependency, or no observable result",
+    "That more setup code is needed"
+  ],
+  "answer": 2,
+  "explanation": "The test is the method's first client, and if the first client finds it awkward so will the rest. The method was already awkward to use; writing a test is what made the awkwardness explicit.",
+  "tags": [
+    "testing",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "90a448be-5245-4edc-b06f-0c293ea3d6df",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "`var` makes Java dynamically typed.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "The type is still fixed at compile time and still enforced — var score = 0 then score = \"hello\" remains an error. The only thing that changed is that you did not type the word int.",
+  "tags": [
+    "var",
+    "type-inference"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "36fefe6f-4ca8-4809-94b6-a7d8f8530c3c",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A loop is missing its progress step. What happens?",
+  "choices": [
+    "The loop runs once and exits",
+    "The condition stays true and the program runs forever, with nothing crashing",
+    "An infinite loop error is thrown",
+    "The JVM detects it and stops"
+  ],
+  "answer": 1,
+  "explanation": "The machine is working perfectly and will continue for as long as you let it — Chapter 6's second outcome, a cycle. If a program appears to freeze, find the variable the condition depends on and ask what is supposed to change it.",
+  "tags": [
+    "infinite-loop",
+    "progress"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

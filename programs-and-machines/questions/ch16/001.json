@@ -1,0 +1,21 @@
+{
+  "question_id": "f7aea06b-7b10-49e0-a1d6-a44cbcd4f2ea",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why should you declare `List<String> x = new ArrayList<>()` rather than `ArrayList<String> x = ...`?",
+  "choices": [
+    "ArrayList is not a valid variable type",
+    "It reduces memory usage",
+    "Changing the implementation then touches one line",
+    "List is faster"
+  ],
+  "answer": 2,
+  "explanation": "The declared type is the interface — the abstract data type — so switching to LinkedList, or returning something else from a method, requires no other change. The exception is when you need an operation the interface lacks, such as trimToSize.",
+  "tags": [
+    "collections",
+    "interfaces"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

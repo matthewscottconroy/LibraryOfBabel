@@ -1,0 +1,21 @@
+{
+  "question_id": "9c086170-6855-496e-983f-18be853bc37b",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "fib(10) makes 177 calls, fib(20) makes 21,891, fib(30) makes 2,692,537. What is the problem?",
+  "choices": [
+    "The branches overlap, so the same subproblems are computed repeatedly",
+    "Integer overflow corrupts the count",
+    "The base case is wrong",
+    "Two recursive calls per invocation is always too many"
+  ],
+  "answer": 0,
+  "explanation": "fib(5) needs fib(4) and fib(3), but fib(4) also needs fib(3). Nothing remembers a value already found. Branching is not the problem — size(tree) makes two calls per node and is efficient, because a tree's subtrees share nothing.",
+  "tags": [
+    "tree-recursion",
+    "efficiency"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

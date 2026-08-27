@@ -1,0 +1,21 @@
+{
+  "question_id": "3b5f7a3a-e2ee-478e-a36f-cf73f0e8cf91",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does `\"Zebra\".compareTo(\"apple\")` return a negative number?",
+  "choices": [
+    "compareTo uses code point order, and uppercase letters come before lowercase in ASCII",
+    "The strings have different lengths",
+    "compareTo is case-insensitive",
+    "Z comes before a alphabetically"
+  ],
+  "answer": 0,
+  "explanation": "All uppercase sorts before all lowercase, so a list of mixed-case names gives Adams, Brown, adams, brown — correct by the specification and wrong by any user's expectation. For order shown to people, use a Collator with a locale.",
+  "tags": [
+    "comparison",
+    "collation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

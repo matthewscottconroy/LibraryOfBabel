@@ -1,0 +1,19 @@
+{
+  "question_id": "de508633-48df-4efe-8ab1-0b66276f52b5",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "tf",
+  "text": "If users can observe the representation, you cannot change it.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 1,
+  "explanation": "Not 'should not' — cannot, without breaking their code. Every detail that leaks becomes part of the contract whether you intended it or not. Whatever people can observe, they come to depend on.",
+  "tags": [
+    "encapsulation",
+    "representation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

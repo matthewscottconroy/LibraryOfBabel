@@ -1,0 +1,21 @@
+{
+  "question_id": "590cbabc-8cc8-40f8-ba77-210104936248",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Which is the most reliable signal that a method wants to be divided?",
+  "choices": [
+    "The depth of nesting",
+    "The line count",
+    "The number of parameters",
+    "The blank lines you put in while writing, which separate ideas"
+  ],
+  "answer": 3,
+  "explanation": "You placed them to separate ideas, and each group they separate is a candidate method. Nesting depth and parameter count are real signals too; blank lines cost nothing to notice and are almost always right.",
+  "tags": [
+    "decomposition",
+    "seams"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

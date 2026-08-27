@@ -1,0 +1,21 @@
+{
+  "question_id": "369cbd3f-35fe-4587-aae5-bc08c37f0ce8",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "mc",
+  "text": "`a` calls `b` calls `c` calls `d`, and `d` fails. What is the decisive advantage of an exception over a returned error code?",
+  "choices": [
+    "The exception is faster, since no return value has to be checked at each level.",
+    "The compiler forces `b` and `c` to acknowledge the failure, so it cannot be forgotten.",
+    "The failure passes through `b` and `c` without their cooperation, so methods with nothing to say about it say nothing.",
+    "The exception carries a stack trace, which an error code cannot."
+  ],
+  "answer": 2,
+  "explanation": "With return-based failure, `b` and `c` each need a check that exists only to forward something neither can act on — repetitive, obscuring, and easy to skip. Exceptions decouple where a failure is detected from where it is handled, which is the argument for them in one sentence. The costs are real too: the control flow becomes invisible at the call site, which is why Go declined them.",
+  "tags": [
+    "exceptions",
+    "propagation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

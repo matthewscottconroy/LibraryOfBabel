@@ -1,0 +1,21 @@
+{
+  "question_id": "2d94628b-b64b-44fd-98e6-16ec8bb01460",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "mc",
+  "text": "`parseOrMinusOne` returns -1 for `\"oops\"` and also -1 for `\"-1\"`. What is the general form of that defect?",
+  "choices": [
+    "The method should have returned `Integer.MIN_VALUE`, which no valid input produces.",
+    "The failure is not the sentinel but the catch, which converts a checked exception to unchecked.",
+    "Parsing should never fail, so the sentinel branch indicates a defect in `Integer.parseInt`.",
+    "A sentinel steals a value from the result space, so it is a bug whenever that value is a legitimate answer."
+  ],
+  "answer": 3,
+  "explanation": "It is structural rather than a defect of one example. `String.indexOf` gets away with -1 because an index cannot be negative — and even there callers forget to check, and -1 flows onward as an index to produce a confusing failure elsewhere. Choosing a rarer sentinel narrows the problem without removing it.",
+  "tags": [
+    "errors",
+    "sentinels"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

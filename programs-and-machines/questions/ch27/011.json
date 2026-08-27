@@ -1,0 +1,19 @@
+{
+  "question_id": "811d73d2-e0b3-4685-a2df-3319f4317f2c",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "blank",
+  "text": "Java's `assert` construct is ___ by default — the JVM ignores assertions unless run with `-ea` — which is why it must never be used to validate input.",
+  "choices": [
+    "disabled",
+    "disabled"
+  ],
+  "answer": "disabled",
+  "explanation": "Assertions are for internal invariants checked during development, where being wrong means a bug in your own code. A check that must run in production must be an `if` and a `throw`, because an assertion in production is a check that is not happening. The indefensible position is writing assertions and assuming they run.",
+  "tags": [
+    "assertions",
+    "validation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

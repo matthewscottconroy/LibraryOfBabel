@@ -1,0 +1,21 @@
+{
+  "question_id": "9b3d2f10-218f-4aa6-b488-c78dd79e9be5",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Why should a custom exception carry a field like `shortfall` rather than only a message?",
+  "choices": [
+    "Fields are included in the stack trace, whereas messages are not.",
+    "A handler that has to parse the message string to act on the failure is a handler the exception has failed.",
+    "A message longer than the JVM's limit is silently truncated.",
+    "Messages are discarded in production builds, so data must be stored separately."
+  ],
+  "answer": 1,
+  "explanation": "Messages are for humans; fields are for code. A handler reading `e.shortfall` keeps working when the message is reworded, and one parsing `\"short by 4300 cents\"` does not. The related guidance is to use the standard exception types when they fit, and invent one only when a caller might plausibly want to catch that specific thing.",
+  "tags": [
+    "exceptions",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

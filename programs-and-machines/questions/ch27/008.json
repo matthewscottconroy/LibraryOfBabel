@@ -1,0 +1,21 @@
+{
+  "question_id": "6ad0111a-936d-4267-9fb2-9bcfb9c42bc9",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Where should an exception be caught?",
+  "choices": [
+    "Only at the top of `main`, so all error handling is in one place.",
+    "As close to the throw as possible, so the failure does not propagate through unrelated code.",
+    "Where something meaningful can be done: retry, fall back, report to a user, record and continue, or add context and rethrow.",
+    "In every method that calls something which might fail, so no failure goes unnoticed."
+  ],
+  "answer": 2,
+  "explanation": "If none of those applies at this point, do not catch. Catching feels responsible and letting an exception through feels careless, but it is the other way round: a catch that does not improve the situation has only hidden information. Most programs want handling concentrated at a few boundaries — the top of a request, a task, a user action, or `main`.",
+  "tags": [
+    "error-handling",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

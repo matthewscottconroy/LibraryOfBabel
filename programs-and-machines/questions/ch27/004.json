@@ -1,0 +1,21 @@
+{
+  "question_id": "1850f2ab-11cd-40b8-bd69-3da968311de3",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "mc",
+  "text": "In a try-with-resources block, the body throws and `close` also throws. What propagates?",
+  "choices": [
+    "Whichever is checked; if both are, the compiler rejects the block.",
+    "Both, wrapped together in a `CompositeException`.",
+    "The body's exception, with the close failure attached as a suppressed exception.",
+    "The close failure, since it happened last and represents the final state."
+  ],
+  "answer": 2,
+  "explanation": "The important exception is on top and nothing is lost — `getSuppressed()` retrieves the other, and the default handler prints it. The hand-written `finally` version got this wrong: a naive inner catch replaced the original exception with the close failure, so the interesting error vanished and you were told the file would not close. Multiple resources also close in reverse order, each closing even if an earlier close failed.",
+  "tags": [
+    "resources",
+    "cleanup"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

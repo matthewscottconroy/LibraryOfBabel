@@ -1,0 +1,21 @@
+{
+  "question_id": "81a6efc3-eed0-4383-a76c-8be02d27f313",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "mc",
+  "text": "A stack trace shows where the exception was created rather than where it was thrown. Why does that distinction exist at all?",
+  "choices": [
+    "`throw` is compiled to a jump, which leaves no record, so only construction can be observed.",
+    "The trace is captured by the constructor walking the live frames, so reusing an exception object gives a stale trace.",
+    "The JVM records creation sites for garbage-collection purposes and reuses that data.",
+    "Java records the throw site too, but prints the creation site because it is more useful."
+  ],
+  "answer": 1,
+  "explanation": "It matters in practice because the stack-trace-suppression trick — a pre-allocated exception whose `fillInStackTrace` does nothing — relies on it, and because the capture is where the cost lives: one million throws took 355 ms with a trace and effectively nothing without one.",
+  "tags": [
+    "stack-traces",
+    "cost"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

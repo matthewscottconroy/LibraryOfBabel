@@ -1,0 +1,21 @@
+{
+  "question_id": "d62942de-41eb-4ebc-8c25-253360a5df0e",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Why does relying on garbage collection to release an open file fail?",
+  "choices": [
+    "The collector calls `close` but does so on a background thread that may be starved.",
+    "The collector reclaims memory, eventually, and knows nothing about operating-system handles.",
+    "Files are allocated outside the heap, so they are collected only at JVM shutdown.",
+    "Handles are reference-counted separately, and the count is only decremented on explicit close."
+  ],
+  "answer": 1,
+  "explanation": "An object holding an open file may sit uncollected for minutes with the file open the whole time. A program that leaks handles is fine in testing and fails in production after a few hours with `Too many open files` — an error naming the symptom, not the cause, in a part of the program that did nothing wrong. `finalize` is deprecated for removal and `Cleaner` is a backstop, not a mechanism.",
+  "tags": [
+    "resources",
+    "gc"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

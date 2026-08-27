@@ -1,0 +1,19 @@
+{
+  "question_id": "48c7fa1e-c563-41aa-af40-e6a303634a7e",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "tf",
+  "text": "No mainstream language designed after Java has adopted checked exceptions.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 1,
+  "explanation": "C#, Kotlin, Scala, Swift, Go and Rust all declined, several of their designers having written about the choice. Java's own newer APIs moved the same way — `java.time` throws an unchecked `DateTimeParseException` where `SimpleDateFormat` threw a checked `ParseException` — and lambdas cannot carry checked exceptions at all, which effectively settled it for new code. `UncheckedIOException` exists in the JDK specifically to wrap `IOException`.",
+  "tags": [
+    "checked-exceptions",
+    "history"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

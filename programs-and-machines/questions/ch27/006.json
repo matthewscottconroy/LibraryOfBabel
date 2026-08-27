@@ -1,0 +1,21 @@
+{
+  "question_id": "21a51a1d-72ee-478e-adf1-0d4beae5512c",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What was the strongest practical objection to Java's checked exceptions?",
+  "choices": [
+    "They are slower, since the compiler inserts a check at every declared call site.",
+    "A programmer who cannot handle one is pushed toward catching and ignoring it, converting a failure into a wrong answer with no record.",
+    "They prevent an exception from carrying a cause, so diagnostic information is lost.",
+    "They cannot be caught by a `catch (Exception e)` clause, so generic handlers miss them."
+  ],
+  "answer": 1,
+  "explanation": "The three options facing such a programmer are to declare it and push the problem up, wrap it, or write an empty catch — and the language's own mechanism produced the incentive for the third. The diagnosis was right, since failure is part of a method's contract, but the remedy was too rigid: it made \"I cannot handle this here\" impossible to express except by lying.",
+  "tags": [
+    "checked-exceptions",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

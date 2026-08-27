@@ -1,0 +1,21 @@
+{
+  "question_id": "c3848c3a-6de8-4f37-8859-e3a811b8817d",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Why is catching an exception, adding the line number and file name, and rethrowing with the cause a legitimate handler?",
+  "choices": [
+    "It resets the stack trace to the current frame, removing irrelevant library internals.",
+    "It is the only way to ensure the exception reaches the top of `main`.",
+    "It adds information that exists only at that point, which can be the difference between an hour of debugging and a minute.",
+    "It converts a checked exception to unchecked, which callers prefer."
+  ],
+  "answer": 2,
+  "explanation": "The rule is catch to add context, or catch to act — never catch to be seen catching. An operator reading `NumberFormatException: For input string: \"N/A\"` and one reading `line 4,127 of customers.csv, caused by NumberFormatException` are in very different positions, and the second cost one line of code.",
+  "tags": [
+    "error-handling",
+    "context"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

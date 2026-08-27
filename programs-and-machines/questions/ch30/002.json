@@ -1,0 +1,21 @@
+{
+  "question_id": "c1f194db-b625-4a84-bb57-66388903a9c8",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What is the difference between concurrency and parallelism?",
+  "choices": [
+    "Concurrency uses threads within one process; parallelism uses several processes.",
+    "Concurrency is cooperative and yields voluntarily; parallelism is preemptive and is scheduled by the OS.",
+    "They are the same thing, with the second word preferred when the work is CPU-bound.",
+    "Concurrency is structuring a program as independent activities; parallelism is executing several simultaneously, which needs several processors."
+  ],
+  "answer": 3,
+  "explanation": "A single-core machine running four threads is concurrent and not parallel — the OS interleaves them. Pike's formulation: concurrency is about dealing with many things at once, parallelism about doing many at once. The distinction matters because it separates the two reasons for using threads: responsiveness needs only concurrency, while throughput needs parallelism and gets it only if the work genuinely divides.",
+  "tags": [
+    "concurrency",
+    "definitions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

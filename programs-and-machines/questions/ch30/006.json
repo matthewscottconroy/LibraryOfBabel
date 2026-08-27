@@ -1,0 +1,21 @@
+{
+  "question_id": "6a951cad-3788-46e6-b956-629f35d85602",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "mc",
+  "text": "For the same 1.6 million increments, an unshared local took 0 ms, `AtomicInteger` took 17 ms, and `synchronized` took 193 ms. What does the gap between the last two show?",
+  "choices": [
+    "`synchronized` acquires a global JVM lock, whereas atomics lock only the variable.",
+    "The cost of synchronization is contention — an atomic is one hardware instruction, while a contended lock means threads blocking and being rescheduled by the kernel.",
+    "Locks are always eleven times slower than atomics, so atomics should replace them everywhere.",
+    "The atomic version skipped increments, which is why it finished sooner."
+  ],
+  "answer": 1,
+  "explanation": "An uncontended lock is nearly free — the JVM optimizes it heavily. A lock eight threads are fighting over serializes them, and the blocking and waking are kernel operations costing microseconds. A locked region is by definition sequential, so this is Amdahl's law arriving through a back door: a program can end up slower than single-threaded.",
+  "tags": [
+    "locks",
+    "performance"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

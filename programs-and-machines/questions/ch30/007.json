@@ -1,0 +1,19 @@
+{
+  "question_id": "2e0d4980-d6b3-4b4a-8d33-43b8f428817a",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "tf",
+  "text": "Using a `ConcurrentHashMap` makes `if (!map.containsKey(k)) map.put(k, v);` thread-safe.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "A concurrent collection makes each *operation* atomic, not your *sequence* of operations. Two threads can both find the key absent and both put. `putIfAbsent`, `merge` and `computeIfAbsent` exist for exactly this reason — the verified example used `merge` from eight threads and got the expected 80,000.",
+  "tags": [
+    "collections",
+    "atomicity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

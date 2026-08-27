@@ -1,0 +1,21 @@
+{
+  "question_id": "704d5edc-de4c-4e22-87fe-e8ecbc2bf626",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "mc",
+  "text": "TCP delivers bytes reliably and in order. Why does a receiver still need framing?",
+  "choices": [
+    "TCP may reorder messages under congestion, so a sequence number is required.",
+    "TCP silently drops packets over 1500 bytes, so long messages must be split by the sender.",
+    "TCP gives a stream of bytes, not messages — ten writes may arrive as one read, or one write as three.",
+    "TCP does not guarantee delivery, so each message must be acknowledged at the application level."
+  ],
+  "answer": 2,
+  "explanation": "There is no `readMessage`, because TCP does not know what a message is. The three answers are a delimiter, a length prefix, or closing the connection. Omitting framing produces a program that works on localhost — which happens to deliver each write as one read — and fails over a real network, which is the classic symptom.",
+  "tags": [
+    "sockets",
+    "protocols"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

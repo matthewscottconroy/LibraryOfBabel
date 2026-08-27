@@ -1,0 +1,21 @@
+{
+  "question_id": "54a51982-319d-47cb-9e12-a1e6bad55e9c",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "mc",
+  "text": "A request to a payment service times out with no reply. What is the right response?",
+  "choices": [
+    "Do not retry, since a timeout means the operation may have succeeded and must not be repeated.",
+    "Query the service for the operation's status, which is always available after a timeout.",
+    "Retry, but only if the original request carried an idempotency key the server can recognize.",
+    "Retry immediately, since a timeout means the request was never received."
+  ],
+  "answer": 2,
+  "explanation": "You cannot tell whether the request was lost going out or the reply was lost coming back — and you cannot tell a slow machine from a dead one. So a network gives you at-least-once or at-most-once and never exactly-once. Exactly-once is achieved by making at-least-once safe, which is idempotency: the client generates a unique identifier, the server records which it has processed, and a repeat gets the original result.",
+  "tags": [
+    "networks",
+    "idempotency"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "17d625f8-97d4-4fdf-bf10-6140347639e0",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Marking the shared counter `volatile` still gave 533,401 instead of 1,600,000. Why?",
+  "choices": [
+    "`volatile` fixes visibility of a single write; it does not make read-modify-write atomic, so the interleaving is unchanged.",
+    "`volatile` only applies to reference types, not to primitive `int` fields.",
+    "The JIT ignores `volatile` on fields it can prove are thread-local at the call site.",
+    "`volatile` guarantees atomicity only for 32-bit values on 64-bit processors."
+  ],
+  "answer": 0,
+  "explanation": "Each step now sees fresh memory and the three steps are still three steps. The rule: `volatile` for visibility of a single write, never for read-modify-write. Its legitimate use is a flag one thread sets and another polls — without it the JIT may hoist the read out of the loop and the loop spins forever.",
+  "tags": [
+    "volatile",
+    "visibility"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

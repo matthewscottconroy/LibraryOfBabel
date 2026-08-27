@@ -1,0 +1,19 @@
+{
+  "question_id": "7b6a86b5-381c-4467-919e-57e6a4111082",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "blank",
+  "text": "With a fraction p of a program parallelizable, the best possible speedup on n processors is 1/((1-p) + p/n). This limit is known as ___ law.",
+  "choices": [
+    "Amdahl's",
+    "Amdahl's"
+  ],
+  "answer": "Amdahl's",
+  "explanation": "At p = 0.95 — ninety-five percent parallel, which is very good — the ceiling is 20 no matter how many processors you buy, and on 24 cores you would get about 13. At p = 0.5 the ceiling is 2. The sequential part dominates, which is why Chapter 18's insistence on measuring first applies with particular force here: concurrency also costs correctness, and paying that for a 1.3-times speedup is a bad trade.",
+  "tags": [
+    "amdahl",
+    "limits"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

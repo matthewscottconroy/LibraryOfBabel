@@ -1,0 +1,21 @@
+{
+  "question_id": "548f2855-34b7-4d53-b2d0-bdb3576eb8e4",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Which of these is *not* shared state between threads?",
+  "choices": [
+    "An `ArrayList` whose reference was passed to two threads.",
+    "A static field, which is reachable from anywhere in the program.",
+    "A one-element array captured by a lambda that runs on a parallel stream.",
+    "A local variable of primitive type inside a method."
+  ],
+  "answer": 3,
+  "explanation": "Each thread has its own stack, so local primitives are private — which is why a pure function from Chapter 26 is automatically safe. The last option is Chapter 26's array escape hatch, and it is exactly what broke the parallel counter there: the array reference is effectively final, its contents are not, and the increments race.",
+  "tags": [
+    "sharing",
+    "threads"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "fd2da724-cbca-40cb-961f-326a25cac13e",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Two threads deadlock holding one lock each and wanting the other. What is the standard fix?",
+  "choices": [
+    "Add a timeout to each lock acquisition and retry after a random delay.",
+    "Reduce the number of locks to one, so no ordering question can arise.",
+    "Choose a global order for acquiring locks and always acquire in it.",
+    "Make both locks `volatile` so each thread sees the other's state promptly."
+  ],
+  "answer": 2,
+  "explanation": "Verified: the same two threads acquiring in the same order both finished. It is reliable if followed everywhere — and \"everywhere\" includes code you call, which may take locks you do not know about. That is why calling an unknown method while holding a lock is a known hazard, and it is what Chapter 30's toolkit deadlocks were. Timeout-and-retry is a real technique but it invites livelock and hides a design problem.",
+  "tags": [
+    "deadlock",
+    "locks"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

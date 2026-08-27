@@ -1,0 +1,21 @@
+{
+  "question_id": "3b2de7de-22f6-4f67-8f84-9d97a983c108",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Eight threads each incremented a shared `int` 200,000 times, and three runs gave 414,984, 649,224 and 799,209 instead of 1,600,000. What happened?",
+  "choices": [
+    "Each thread cached the counter and wrote its own total at the end, so only the last write survived.",
+    "Threads were descheduled mid-loop and their remaining iterations were never run.",
+    "`x++` is a read, an add, and a write; threads interleave between those steps and increments are silently overwritten.",
+    "The JVM dropped increments once the counter exceeded the safe range for concurrent access."
+  ],
+  "answer": 2,
+  "explanation": "Thread A reads 100, thread B reads 100, both add one, both write 101 — two increments, one recorded, no error. With eight threads on 24 cores hammering one location, most increments collide. Three different answers from three runs is the property that makes this class of bug so hard: a passing test proves nothing, and the failure cannot be reproduced on demand.",
+  "tags": [
+    "races",
+    "atomicity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

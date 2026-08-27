@@ -1,0 +1,21 @@
+{
+  "question_id": "af11bab1-240f-46a7-a490-fd4ac393fd0e",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Why did programs stop getting faster on their own around 2005?",
+  "choices": [
+    "Compilers reached the limit of the optimizations they could apply to sequential code.",
+    "Memory latency stopped improving, so faster processors would have spent all their time waiting.",
+    "Transistor densities stopped improving, ending Moore's law and with it all further gains.",
+    "Power dissipation rises sharply with clock frequency, so frequencies plateaued and transistors were spent on cores instead."
+  ],
+  "answer": 3,
+  "explanation": "A chip at 10 GHz would need cooling no consumer device can carry, so clocks have sat between 3 and 5 GHz for twenty years. Manufacturers had transistors and no way to spend them on speed, so they spent them on cores — 24 on the machine these measurements were taken on. A sequential program there uses one twenty-fourth of the machine, and using the rest is now the programmer's problem.",
+  "tags": [
+    "concurrency",
+    "hardware"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

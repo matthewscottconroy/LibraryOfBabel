@@ -1,0 +1,21 @@
+{
+  "question_id": "3ce0216c-e674-4772-b2c7-53574d99d19c",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why count operations rather than measure seconds?",
+  "choices": [
+    "Counting is more accurate, since timing includes scheduling noise that cannot be removed.",
+    "Seconds vary between runs, while operation counts are constant for a given algorithm.",
+    "Operation counts include memory effects that a wall-clock measurement misses.",
+    "Counts are machine-independent and let you predict behavior at input sizes you have not run."
+  ],
+  "answer": 3,
+  "explanation": "Twenty-four comparisons is twenty-four comparisons on any processor, in any language, in any decade. A timing cannot be extrapolated, because you do not know which effects are linear in n and which are not. Verified: searching ten million elements took 10,000,000 linear comparisons and 24 binary ones, and from those counts you can state what a billion elements costs without running anything.",
+  "tags": [
+    "complexity",
+    "measurement"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

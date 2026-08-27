@@ -1,0 +1,19 @@
+{
+  "question_id": "d762da4d-6690-4591-a9b6-f1363e77a684",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "blank",
+  "text": "The discipline this chapter proposes has two halves: ___ to predict how a program scales, and measure to know what it costs.",
+  "choices": [
+    "analyse",
+    "analyse"
+  ],
+  "answer": "analyse",
+  "explanation": "Both, for different questions. Analysis without measurement produces programs optimized for the wrong constant; measurement without analysis produces programs that pass every test and fail when the data grows. A measurement at n = 1000 tells you nothing about n = 10⁶, and no amount of profiling today reveals that an O(n²) method fine on today's data will not survive next year's.",
+  "tags": [
+    "discipline",
+    "measurement"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

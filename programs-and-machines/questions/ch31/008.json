@@ -1,0 +1,19 @@
+{
+  "question_id": "7e0d74a7-edc6-4176-ba7a-644a4f46d734",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "tf",
+  "text": "Two algorithms in the same big-O class will perform about the same.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "Constant factors are exactly what big-O discards, and two O(n log n) sorts can differ tenfold. Big-O also cannot see the memory hierarchy — Chapter 15 measured a threefold difference between row-major and column-major traversal doing identical operation counts, both O(n²) — nor branch prediction, nor what the JIT does. It tells you how a program behaves as the input grows, and nothing else.",
+  "tags": [
+    "big-o",
+    "limits"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "8adb5a90-0030-4565-99e9-0c3b5ef74752",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "mc",
+  "text": "`for (String s : list) if (otherList.contains(s)) n++;` — what is its complexity, and why is it easy to miss?",
+  "choices": [
+    "O(n + m), because each list is traversed once in total across the whole loop.",
+    "O(n), because the loop runs once per element of `list` and `contains` is constant time.",
+    "O(n log m), because `contains` performs a binary search on the backing array.",
+    "O(n·m), because `List.contains` is itself a linear scan hidden inside a method call."
+  ],
+  "answer": 3,
+  "explanation": "The loop looks linear and the cost is inside the call. Making `otherList` a `HashSet` makes it O(n), and that substitution is one of the highest-value changes available in ordinary code. String concatenation in a loop is the same shape — O(n²) because each `+` copies the accumulated string, which is Chapter 18's measured 84-fold StringBuilder improvement with a reason attached.",
+  "tags": [
+    "big-o",
+    "hidden-costs"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

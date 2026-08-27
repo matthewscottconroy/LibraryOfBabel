@@ -1,0 +1,21 @@
+{
+  "question_id": "14247d23-5458-4f07-89d5-37443ab31bbc",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Bubble sort's timings grew by 3.28, then 3.88, then 4.13 per doubling, and then by 11.98. What does the chapter conclude?",
+  "choices": [
+    "The JIT deoptimized the loop at that size, which accounts for the entire difference.",
+    "The 11.98 row is measurement noise and should be discarded from the analysis.",
+    "Bubble sort is O(n³) for large inputs, which the earlier rows were too small to reveal.",
+    "The measurement is reproducible and disagrees with the prediction by about threefold, and the chapter has not established why."
+  ],
+  "answer": 3,
+  "explanation": "Three separate runs gave 11.98, 12.44 and 11.66. Cache is the obvious candidate — 64,000 ints is 256 KB against 48 KB of L1 per core — but 32,000 elements already exceeds L1 and behaved, so a simple L1 boundary does not explain it, and establishing the cause needs hardware counters. It is left in deliberately: the apparatus is a model, models have residuals, and a chapter showing only the rows that fit would teach something false.",
+  "tags": [
+    "measurement",
+    "honesty"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

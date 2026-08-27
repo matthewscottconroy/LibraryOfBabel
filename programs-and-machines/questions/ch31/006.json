@@ -1,0 +1,21 @@
+{
+  "question_id": "05253f30-7058-4101-a8d7-c5d4ba48faaa",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "mc",
+  "text": "An `int[]` measured 4.2 bytes per element and an `ArrayList<Integer>` measured 20.3. Where do the other 16 bytes go?",
+  "choices": [
+    "The `ArrayList` reserves extra capacity, so the measurement includes unused slots.",
+    "Each `Integer` stores a cached hash code and a lock word alongside the value.",
+    "Generic type information is stored per element, which erasure would otherwise discard.",
+    "Each `Integer` is an object with a header and padding, plus a reference from the list to it."
+  ],
+  "answer": 3,
+  "explanation": "A twelve-to-sixteen byte object header, the four-byte value, padding to a multiple of eight, and a four-byte compressed reference. That is Chapter 16's boxing measured in bytes rather than nanoseconds, and it is why `int[]` and `IntStream` exist — and why Chapter 27's erasure, which forbids `List<int>`, has a cost visible in a heap dump.",
+  "tags": [
+    "space",
+    "boxing"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "1517469c-9360-4e92-9372-b5c2918aa931",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "mc",
+  "text": "An `ArrayList` frequently beats a `LinkedList` at operations the theory says the linked structure should win. Why?",
+  "choices": [
+    "The array's elements are contiguous, so the processor's prefetcher is right; the list's are scattered, so each step is a cache miss.",
+    "Traversing a `LinkedList` allocates an iterator object per step, dominating the cost.",
+    "The JIT cannot inline `LinkedList` methods because the node class is package-private.",
+    "`LinkedList` in Java is implemented over an array internally, so it inherits the same costs."
+  ],
+  "answer": 0,
+  "explanation": "A value in L1 cache arrives in about a nanosecond and one in main memory takes a hundred. Chapter 17 measured 2,589 ms for one such case. This is the largest single source of disagreement between complexity analysis and a real machine, because the analysis models a uniform-memory machine that does not exist.",
+  "tags": [
+    "cache",
+    "measurement"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "54913be5-8249-4b3b-9320-dff019a90675",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The nested loop `for r... for (c = r+1)...` performs n(n-1)/2 iterations, exactly half of `c = 0`. Why is it still O(n²)?",
+  "choices": [
+    "Because the inner loop's bound depends on r, which makes the analysis non-constant.",
+    "Because the two loops are nested, and nesting always yields the square regardless of bounds.",
+    "Big-O discards constant factors, so halving the work is a real improvement the notation cannot express.",
+    "It is not — starting from r+1 makes it O(n log n), since the work per row shrinks."
+  ],
+  "answer": 2,
+  "explanation": "The definition excludes constant factors via c and small inputs via n₀, deliberately. n²/2 - n/2 is O(n²): the 1/2 goes and the -n/2 goes. Verified, each doubling multiplied the pair count by exactly 4.00, which is the quadratic signature and is unaffected by the halving. Half the running time is still half the running time; the notation is measuring something else.",
+  "tags": [
+    "big-o",
+    "constants"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

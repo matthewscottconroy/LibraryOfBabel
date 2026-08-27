@@ -1,0 +1,21 @@
+{
+  "question_id": "29cbf3f6-3a0e-41b3-9a60-54838e38b526",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why is `ArrayList.add` O(1) amortized rather than O(n)?",
+  "choices": [
+    "Because the copy happens on a background thread and does not block the caller.",
+    "Because the JIT eliminates the capacity check once the loop is proven hot.",
+    "Doubling to capacity n copies n-1 elements in total across n additions — fewer than one copy per add on average.",
+    "Because the array is over-allocated at construction, so no copy is ever needed in practice."
+  ],
+  "answer": 2,
+  "explanation": "The sum 1 + 2 + 4 + ... + n/2 = n - 1 is Chapter 17's promised sum of powers of two. The rare expensive operation is paid for by the many cheap ones. Growing by a constant 10 instead would copy about n²/20 elements, making `add` O(n) amortized and building a list quadratic — which is the difference between a good dynamic array and a catastrophic one.",
+  "tags": [
+    "amortized",
+    "arraylist"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

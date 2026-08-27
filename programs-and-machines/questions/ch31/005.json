@@ -1,0 +1,21 @@
+{
+  "question_id": "1ee979f5-558d-4582-94dd-3bf2723deaa9",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why can no comparison sort do better than O(n log n) in the worst case?",
+  "choices": [
+    "Because any algorithm must read all n elements and then sort them, costing n plus n log n.",
+    "k comparisons distinguish at most 2^k orderings, and there are n! of them, so k ≥ log₂(n!) = Θ(n log n).",
+    "Because the pivot in quicksort can always be chosen adversarially to force n² behavior.",
+    "Because merging two sorted halves requires n comparisons and the recursion is log n deep."
+  ],
+  "answer": 1,
+  "explanation": "It is a counting argument, and it constrains every comparison sort that could ever be written — no cleverness helps, because the bound comes from how much information the comparisons can carry. The escape is to stop comparing: counting sort and radix sort are O(n) because they use values as indices, and they work only when the values are constrained. The way past a lower bound is always to change the problem.",
+  "tags": [
+    "sorting",
+    "lower-bounds"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

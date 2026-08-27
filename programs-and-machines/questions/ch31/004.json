@@ -1,0 +1,21 @@
+{
+  "question_id": "d7c47d97-c5e2-4c79-bb0e-1dc57c47ba50",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Naive Fibonacci's call counts grew by a factor of about 11.09 for every 5 added to n. What does that confirm?",
+  "choices": [
+    "That the recursion depth rather than the branching factor determines the cost.",
+    "The per-step growth factor is 11.09^(1/5) ≈ 1.618 — the golden ratio, exactly as Chapter 13 predicted.",
+    "That memoization was partially applied, since pure exponential growth would double each step.",
+    "That the growth is quadratic, since 11.09 is close to the square of the step size."
+  ],
+  "answer": 1,
+  "explanation": "The measured counts were 177 at n=10, 21,891 at n=20, 2,692,537 at n=30, and 331,160,281 at n=40 — a factor of about 123 per 10, and 11.09² ≈ 123, so the two agree. The growth rate was predicted from the recurrence and confirmed by measurement to three digits, which is what deriving rather than asserting looks like when it works.",
+  "tags": [
+    "exponential",
+    "fibonacci"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

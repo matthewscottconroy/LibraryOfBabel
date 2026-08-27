@@ -1,0 +1,21 @@
+{
+  "question_id": "9841f703-c6af-40ce-83bf-c2e5091f97bb",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The chapter says the book has opinions and some are wrong, and names four candidates. What does it ask the reader to do?",
+  "choices": [
+    "Take the reasoning rather than the conclusions, and reconstruct each argument well enough to find where it fails.",
+    "Verify every measurement independently before relying on any claim.",
+    "Prefer the consensus position wherever the book departs from it.",
+    "Treat the opinions as settled, since they reflect the field's current state."
+  ],
+  "answer": 0,
+  "explanation": "Where a chapter argued for a position, the argument is what is on offer; where it measured something, the number is one machine on one day. The habit of asking for the reason, applied to the book itself, is the habit working as intended — which is why Exercise 35.9 asks you to find a claim you think is overstated and write down why.",
+  "tags": [
+    "reflection",
+    "epistemics"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

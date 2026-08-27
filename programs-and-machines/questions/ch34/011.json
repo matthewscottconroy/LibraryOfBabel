@@ -1,0 +1,19 @@
+{
+  "question_id": "80de5e87-74c9-42b8-b75e-c440c507378c",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "blank",
+  "text": "The book's last claim is that the systems you use were designed by people, under constraints, with trade-offs they could name — so they are not natural facts and they are not ___ you.",
+  "choices": [
+    "beyond",
+    "beyond"
+  ],
+  "answer": "beyond",
+  "explanation": "You started with two voltages and an agreement, and ended thirty-five chapters later with agreements built on that one, up through numbers, text, methods, stacks, structures, objects, grammars, evaluators, failure, threads, cost, information, and the boundary past which no program reaches. None of it was in the voltages. Every layer was somebody's decision, and several of them went another way in other languages, for reasons those chapters gave.",
+  "tags": [
+    "closing",
+    "perspective"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

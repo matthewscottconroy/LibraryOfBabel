@@ -1,0 +1,21 @@
+{
+  "question_id": "18bf1a3c-02e2-4b47-839b-6d09f48a5c3d",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "mc",
+  "text": "According to the book's second idea, where does an abstraction's value lie?",
+  "choices": [
+    "In the number of implementations it permits, since more is better.",
+    "In the code it removes, since less code has fewer defects.",
+    "In the efficiency it gains by hiding a better implementation.",
+    "In what it lets you stop thinking about, not in what is behind it."
+  ],
+  "answer": 3,
+  "explanation": "A method's name is a promise and its body is nobody's business. A representation invariant makes the code that could break it small enough to check. `private` makes the boundary real rather than advisory. An interface is the purest form — the boundary with nothing behind it at all. And Chapter 23's whole argument is about keeping boundaries narrow so changes stay local.",
+  "tags": [
+    "abstraction",
+    "boundaries"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

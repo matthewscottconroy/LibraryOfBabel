@@ -1,0 +1,21 @@
+{
+  "question_id": "ac985c86-13b6-46c2-9398-9599292ad51a",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The chapter's honest list of what a reader does *not* know includes maintenance, working with others, and building anything large. Why are these grouped together?",
+  "choices": [
+    "They are management concerns rather than programming ones.",
+    "They are covered in the further reading and were omitted only for space.",
+    "They are experience that cannot be read, and they are the distance between finishing a first course and competence.",
+    "They are specific to Java and would not transfer to another language."
+  ],
+  "answer": 2,
+  "explanation": "The hardest problems in software are not writing code but changing code you did not write, six months after everyone who understood it left. Nothing in a first course prepares you for it, which also means Chapter 23's design principles are advice you have not yet had the experience to properly evaluate. Exercise 35.10 asks you to revisit the list in six months.",
+  "tags": [
+    "reflection",
+    "limits"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "5747290b-0674-472a-bb25-279a5fe25436",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "tf",
+  "text": "A well-designed abstraction does not leak.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "`ArrayList` and `LinkedList` implement the same interface and differ by 2,589 ms, because contiguity is not in the interface and the cache does not care about your types. `IntStream` and `Stream<Integer>` differ tenfold because boxing is not in the abstraction. The response is not distrust — you cannot write a program without abstractions — but knowing which leak and where, and being able to drop a level when a measurement disagrees with the model.",
+  "tags": [
+    "abstraction",
+    "leaks"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

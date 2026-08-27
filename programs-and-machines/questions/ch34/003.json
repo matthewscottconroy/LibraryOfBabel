@@ -1,0 +1,21 @@
+{
+  "question_id": "95d6007f-eb60-4e56-b7a3-e3b4ce2f7ecc",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Two's complement, UTF-8, and left-associativity were each chosen rather than arbitrary. What does that add to the claim that representation is agreement?",
+  "choices": [
+    "There are better and worse agreements, and the difference is what becomes possible afterward.",
+    "That the agreements are actually natural facts, discovered rather than designed.",
+    "That agreements should be avoided where a direct representation is available.",
+    "That any agreement works equally well provided both parties adopt the same one."
+  ],
+  "answer": 0,
+  "explanation": "Two's complement makes one adder do both operations; UTF-8 is backward compatible with ASCII and self-synchronizing; left-associativity matches how subtraction works. A good representation makes the operations you need cheap and the errors you fear impossible — Chapter 22's records and enums being the purest case, giving up openness for compiler-enforced guarantees.",
+  "tags": [
+    "design",
+    "representation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

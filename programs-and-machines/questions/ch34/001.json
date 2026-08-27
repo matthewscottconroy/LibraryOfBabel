@@ -1,0 +1,21 @@
+{
+  "question_id": "6e858f37-4931-400e-a76f-bc83dd7398f1",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The book's central claim was stated in the preface. What was it?",
+  "choices": [
+    "Correctness must be proved rather than tested, since testing shows only the presence of bugs.",
+    "Java is the best language for learning computer science, because it forces explicitness.",
+    "A computer holds patterns and changes them, and everything else — numbers, text, objects, programs, meaning — is an agreement layered on top.",
+    "Every program can be reduced to a Turing machine, so all languages are equivalent."
+  ],
+  "answer": 2,
+  "explanation": "It was made in eight registers: voltage and convention, two's complement, floating point, UTF-8, the parity table whose knowledge lives in the arrangement, the representation invariant, the object as a pattern plus a claim, and the tree that is a program because `eval` treats it as one. It is not philosophy — it is the reason a whole family of confusing bugs turn out to be one bug.",
+  "tags": [
+    "through-line",
+    "representation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

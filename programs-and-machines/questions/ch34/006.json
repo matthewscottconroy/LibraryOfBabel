@@ -1,0 +1,21 @@
+{
+  "question_id": "14232a6e-5332-47dd-bad3-1cca3c12204f",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why did the book keep explaining the layer below — cache lines, method tables, erasure?",
+  "choices": [
+    "Because performance work always requires knowledge of the hardware.",
+    "Because Java's abstractions are unusually poor and require compensation.",
+    "A leak is only mysterious if you have never seen the layer beneath it.",
+    "Because a complete understanding requires knowing every layer down to the transistor."
+  ],
+  "answer": 2,
+  "explanation": "Chapter 15's cache material existed so Chapter 17's LinkedList result would make sense. Chapter 21 explained method tables so dispatch cost would not be magic. Chapter 27 explained erasure so the absence of `List<int>` would have a reason. In each case the layer below turns a surprising measurement into an expected one.",
+  "tags": [
+    "abstraction",
+    "pedagogy"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

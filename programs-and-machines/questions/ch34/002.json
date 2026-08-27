@@ -1,0 +1,21 @@
+{
+  "question_id": "dce05de7-c141-4414-8697-ca55bf54e44e",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "mc",
+  "text": "What do a misread unsigned int, a wrong charset, a mutable map key, and a CSV field containing a comma have in common?",
+  "choices": [
+    "Each is a failure to validate input at the boundary of the program.",
+    "In each, the reader and the writer were operating under different agreements.",
+    "Each is undetectable at compile time and therefore requires a runtime check.",
+    "Each arises from mutable state, which immutability would have prevented."
+  ],
+  "answer": 1,
+  "explanation": "Eight such bugs are listed, spanning eight chapters, and the value of seeing them as one is that you stop learning them individually and start asking the general question: what did the other side assume? That is what the central claim was for.",
+  "tags": [
+    "bugs",
+    "agreements"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,5 +1,12 @@
 # Annotations
 
+You have been writing `@Override` since Chapter 20 on the strength of a promise
+that it catches a specific bug. It is time to say what it actually is, and the
+answer is smaller than expected: it has no members, it is thrown away before the
+class file exists, and it changes nothing about how your program runs.
+
+It is also the same construct that lets a test framework find your tests.
+
 An **annotation** attaches information to a piece of code for another program to
 read. It changes nothing by itself. `@Override` does not alter what a method does;
 it tells the compiler to check something.

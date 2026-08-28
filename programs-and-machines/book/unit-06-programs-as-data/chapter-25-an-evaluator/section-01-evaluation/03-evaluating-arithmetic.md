@@ -1,5 +1,12 @@
 # Evaluating Arithmetic
 
+This is the moment the tree stops being a picture and produces a number.
+
+Watch for one thing as it does. The code coming up contains no table of operator
+precedences, no comparison of which operator binds tighter, nothing about
+precedence at all — and `2 + 3 * 4` comes out 14. Where the precedence went is the
+most useful observation in the lesson.
+
 Here is `eval` for the three node types Chapter 24 built.
 
 ```java

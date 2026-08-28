@@ -1,5 +1,14 @@
 # Environments
 
+`x` is three pixels wide and carries no value.
+
+Something, somewhere, has to hold the association between that name and a number,
+and every question you have ever had about scope — why a parameter hides a field,
+why a local vanishes when a method returns, why two calls to the same method do not
+tread on each other — is a question about how that something is arranged.
+
+It is twelve lines.
+
 A name means nothing by itself. `x` is three pixels wide and carries no value.
 Something has to hold the association, and that something is an **environment**.
 

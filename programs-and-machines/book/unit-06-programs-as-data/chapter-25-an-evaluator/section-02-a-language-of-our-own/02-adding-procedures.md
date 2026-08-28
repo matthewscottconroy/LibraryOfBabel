@@ -1,5 +1,12 @@
 # Adding Procedures
 
+Two additions, and after them the language can compute anything computable.
+
+That is a large claim for a small amount of code, and it is exact rather than
+rhetorical. The second addition is the one to watch: it is a single line of `eval`,
+it looks like the least significant thing in the chapter, and without it every
+recursive definition runs forever.
+
 Two additions, and together they take the language from a calculator to something
 that can compute anything computable.
 

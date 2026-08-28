@@ -1,5 +1,13 @@
 # Higher-Order Methods
 
+`Collections.sort` has taken a comparison as an argument since 1998. You supply how
+to compare; it supplies a good sorting algorithm somebody wrote once and got right.
+
+That division is sixteen years older than lambdas, which is the tell: the *idea*
+never needed new syntax. What the syntax changed is how small a piece of behavior
+it is worth passing — and once that threshold drops, the technique shows up in
+places it never used to.
+
 A **higher-order** method is one that takes a function as an argument, returns one
 as a result, or both. `mapArray` from Section 26.1.1 was the first kind.
 

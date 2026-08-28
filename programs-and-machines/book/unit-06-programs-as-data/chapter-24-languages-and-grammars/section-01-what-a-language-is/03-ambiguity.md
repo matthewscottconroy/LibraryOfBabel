@@ -1,5 +1,13 @@
 # Ambiguity
 
+The grammar you have just been given is broken, and the break is instructive
+because it looks perfectly reasonable.
+
+Under it, `2 + 3 * 4` is 14. It is also 20. Both readings follow from the rules,
+neither is a misapplication, and a parser built from it would return whichever it
+happened to find first. A specification that does not determine the meaning of its
+own programs is not a specification.
+
 The grammar from the last lesson has a problem.
 
 ```

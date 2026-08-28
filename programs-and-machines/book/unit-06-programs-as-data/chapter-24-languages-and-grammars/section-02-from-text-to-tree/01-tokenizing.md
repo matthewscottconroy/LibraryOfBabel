@@ -1,5 +1,16 @@
 # Tokenizing
 
+`2 + 3 * width` is thirteen characters, three of which are spaces that mean
+nothing.
+
+A parser that worked directly on those characters would have to skip whitespace at
+every position, reassemble multi-digit numbers in the middle of its expression
+rules, and mix two entirely different concerns in every method. It would work and
+it would be miserable to read.
+
+So nobody does it. Every language implementation ever built runs a smaller pass
+first, and there is a reason for that beyond convenience.
+
 The parser should not think about characters. Given `2 + 3 * width`, it wants to
 see *number, plus, number, star, name* — five things — not thirteen characters,
 three of which are spaces that mean nothing.

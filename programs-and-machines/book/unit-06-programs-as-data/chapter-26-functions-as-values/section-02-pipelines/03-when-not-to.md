@@ -1,5 +1,13 @@
 # When Not To
 
+A new tool arrives and gets used for everything for about two years. Streams
+arrived in Java 8 and the two years were memorable.
+
+So here is the counterweight, argued with measurements rather than taste — because
+the honest answer turns out to be more interesting than either "always" or
+"never", and the reason streams are sometimes wrong is not the reason people
+usually give.
+
 Streams arrived in Java 8 and were immediately overused. This lesson is the
 counterweight, and the argument is made with measurements where measurements are
 available.

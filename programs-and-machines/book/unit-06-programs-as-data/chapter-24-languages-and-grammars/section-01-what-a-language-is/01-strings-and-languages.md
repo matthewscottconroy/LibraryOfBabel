@@ -1,6 +1,16 @@
 # Strings and Languages
 
-Start with vocabulary, precisely, because the rest of the chapter leans on it.
+Before the machinery, one definition — and it is worth warning you that it will
+look like it has thrown away everything interesting.
+
+The definition of a language, in this subject, says nothing about meaning. Nothing
+about what a program does, nothing about whether it is any good. That omission is
+not carelessness; it is the move that makes the whole subject tractable, and it is
+the same move Chapter 1 made when it separated a bit pattern from what the pattern
+denotes.
+
+Here is the vocabulary, and it is worth a slow minute because everything after
+it is built from these four words.
 
 An **alphabet** is a finite set of symbols. Call it $\Sigma$. For English text
 that might be the 26 letters; for Java source it is the Unicode characters of

@@ -1,5 +1,11 @@
 # What Reflection Costs
 
+The last lesson made every guarantee in Chapter 19 look negotiable, which ought to
+provoke a question: if this is available, why not use it everywhere?
+
+There are four answers. Only the first is a number, and it is the least important
+of the four.
+
 Four costs. The first is measurable and the other three are worse.
 
 ## Speed

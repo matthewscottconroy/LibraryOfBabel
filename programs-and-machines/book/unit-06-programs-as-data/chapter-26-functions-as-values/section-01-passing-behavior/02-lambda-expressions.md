@@ -1,5 +1,13 @@
 # Lambda Expressions
 
+The notation first, briefly, and then the part that is genuinely surprising.
+
+A lambda can use a variable from the method that created it — and go on using it
+after that method has returned and its stack frame is gone. Chapter 25 said the
+interpreted language lacked this and called the missing thing a closure. Java has
+it, and the restriction it comes with is not tidiness but a consequence of where
+local variables live.
+
 The syntax, then the interesting part.
 
 ## Forms

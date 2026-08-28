@@ -1,5 +1,18 @@
 # Functional Interfaces
 
+Here is a small frustration you have probably already felt.
+
+You write a method that squares every element of an array. Then you want one that
+adds ten to every element, so you copy it and change one expression. Then doubling.
+Then negating. Four methods, six lines each, and five of the six lines are
+identical every time.
+
+Chapter 11 taught you to extract a repeated *value* into a parameter. The obvious
+wish is to do the same with the repeated *expression* — but you cannot pass an
+expression, because parameters hold values.
+
+Unless the expression can be made into one.
+
 Start with the problem. Here is a method that squares every element of an array:
 
 ```java

@@ -1,5 +1,13 @@
 # Grammars
 
+There are infinitely many legal Java programs. Nobody has listed them, and nobody
+could.
+
+Yet `javac` decides membership in that infinite set, quickly, for any program you
+hand it — which means somewhere there is a *finite* description of an infinite
+collection of strings. That description is the thing this lesson is about, and the
+trick that makes it possible is one you already know from Chapter 13.
+
 A **grammar** is a finite set of rules that generates a language.
 
 Here is one, for a language of arithmetic:

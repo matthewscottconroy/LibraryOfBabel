@@ -1,5 +1,12 @@
 # A Class as an Object
 
+Chapter 21 used `getClass()` in passing to find out what an object actually was.
+That was a hint, and it is worth taking seriously now.
+
+If `getClass()` *returns* something, then a class is not only a compile-time notion.
+There is an object, at run time, standing for `Account` — and if you can hold it,
+you can ask it questions.
+
 Every class you write becomes an object at run time.
 
 ```java

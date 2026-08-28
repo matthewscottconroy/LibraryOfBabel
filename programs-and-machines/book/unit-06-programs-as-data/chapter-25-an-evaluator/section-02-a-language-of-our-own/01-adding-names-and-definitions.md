@@ -1,5 +1,12 @@
 # Adding Names and Definitions
 
+A calculator computes and forgets. A program remembers — which is what lets its
+second line depend on its first, and is most of the difference between the two
+things.
+
+Remembering requires a construct that has an *effect* rather than a value, and Java
+draws that line too, in a place worth noticing before you draw it yourself.
+
 So far the language evaluates one expression. A language needs to *remember*
 things, which means a second category of construct.
 

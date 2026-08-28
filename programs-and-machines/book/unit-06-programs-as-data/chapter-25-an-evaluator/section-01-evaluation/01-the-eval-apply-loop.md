@@ -1,5 +1,15 @@
 # The eval/apply Loop
 
+McCarthy wrote this in 1960 as a *definition* — a precise way of saying what Lisp
+meant, in Lisp, so the language would not have to be explained in English. He did
+not expect anyone to run it.
+
+His student Steve Russell noticed that a definition this precise is also a
+program, hand-compiled it into machine code, and Lisp had an interpreter nobody
+had planned to build.
+
+The structure he compiled is the structure you are about to write.
+
 Every interpreter ever written has the same skeleton. Two functions:
 
 > **`eval`** takes an expression and an environment, and produces a value.

@@ -1,5 +1,13 @@
 # Evaluation
 
+You are about to write the part of a language implementation that decides what
+things *mean* — and it is under fifty lines.
+
+That is worth bracing for, because the gap between how large the idea sounds and
+how small the code is turns out to be the lesson. Every interpreter ever written
+has the same two-function skeleton, and the reason it keeps being rediscovered is
+that there is not much else it could be.
+
 Three lessons.
 
 The `eval`/`apply` structure first — two mutually recursive functions that between

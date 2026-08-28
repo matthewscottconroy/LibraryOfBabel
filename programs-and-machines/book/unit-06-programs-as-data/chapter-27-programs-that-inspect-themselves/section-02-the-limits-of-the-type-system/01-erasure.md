@@ -1,5 +1,15 @@
 # Erasure
 
+Here is an experiment you can run in two lines.
+
+Make a `List<String>` and a `List<Integer>`, and ask each for its class. They come
+back the same.
+
+Not similar — the same object. Whatever the angle brackets did, they did not
+produce two different types at run time, and following that observation explains a
+set of restrictions that otherwise look arbitrary, plus the performance gap
+Chapter 26 measured.
+
 Chapter 17 said a `List<String>` is a list of strings and the compiler enforces
 it. That was true and it was not the whole truth.
 

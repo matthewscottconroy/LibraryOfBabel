@@ -1,5 +1,9 @@
 # What We Have Built
 
+It runs. Before moving on, it is worth an honest accounting — because a list of
+what a language *lacks* describes it at least as well as a list of what it has,
+and because the missing pieces are where the next three chapters come from.
+
 Roughly two hundred lines of Java. A tokenizer, a parser, a tree, an environment,
 `eval`, and `apply`. It runs programs.
 

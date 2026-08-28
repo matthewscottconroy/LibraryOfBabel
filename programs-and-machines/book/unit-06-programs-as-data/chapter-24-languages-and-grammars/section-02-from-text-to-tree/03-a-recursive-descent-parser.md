@@ -1,5 +1,12 @@
 # A Recursive-Descent Parser
 
+Everything is now in place, and this lesson is where the chapter's claim gets
+tested.
+
+The claim was that a grammar is not merely a description of a language but very
+nearly a program for recognising it. Read the code beside the rules and judge for
+yourself — each rule became one method, in the same order, with the same shape.
+
 Here is the grammar again, unambiguous, from Section 24.1.3:
 
 ```

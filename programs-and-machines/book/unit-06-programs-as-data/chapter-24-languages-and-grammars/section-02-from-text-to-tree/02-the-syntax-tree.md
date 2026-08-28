@@ -1,5 +1,12 @@
 # The Syntax Tree
 
+Tokens are an improvement and they are not enough.
+
+`2 + 3 * 4` is five tokens in a row, and a row is exactly the wrong shape: nothing
+in it records that `3 * 4` belongs together and `2 +` does not. The structure the
+last lesson fought to make unambiguous has to live *somewhere*, and a sequence has
+nowhere to put it.
+
 A token list is flat. `2 + 3 * 4` is five tokens in a row, and nothing in the row
 says that `3 * 4` belongs together.
 

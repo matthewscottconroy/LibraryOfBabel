@@ -1,17 +1,27 @@
 # Information
 
-Chapter 1 asked what a bit is and answered: a choice between two possibilities.
-Everything since has taken that as a starting point.
+A message arrives. It reads: *the sun rose this morning.*
 
-This chapter asks the harder version. **How much information is in a message?**
-Not how many bytes it occupies — that is a fact about the encoding — but how much
-it actually tells you.
+Another one arrives. It reads: *the sun did not rise this morning.*
 
-The answer exists, it is exact, and it was given by one person in one paper in
-1948. Claude Shannon's *A Mathematical Theory of Communication* defined
-information as **surprise**, measured it in bits, and in doing so created a field.
-It is one of the few papers in this book's bibliography that has no real
-antecedents; before it, the question was not thought to have a numerical answer.
+Same language, same length, same count of bytes on the wire. And one of them has
+told you nothing whatsoever, while the other is the most important sentence you
+will ever be handed.
+
+So whatever it is that the second message has more of, your byte count cannot see
+it. Something is being measured here that we have not yet learned how to measure.
+
+We have been counting bits since the first chapter — a bit being a choice between
+two possibilities. This chapter asks the far harder question hiding underneath
+that one. **How much information is in a message?** Not how much room it takes up.
+How much it actually tells you.
+
+There is an answer. It is exact, it is numerical, and one person produced the
+whole of it in a single paper in 1948. Claude Shannon's *A Mathematical Theory of
+Communication* defined information as **surprise**, gave it a unit, and brought a
+field into existence in about eighty pages. Almost nothing in this book's
+bibliography arrived so completely without ancestors. Before Shannon, nobody
+thought the question had a number for an answer.
 
 Section 33.1 develops the measure. Why a certain message carries no information.
 Why an unlikely one carries more than a likely one. And **entropy**, which is the

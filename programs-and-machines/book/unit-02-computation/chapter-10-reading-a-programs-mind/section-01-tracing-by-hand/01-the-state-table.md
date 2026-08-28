@@ -1,7 +1,20 @@
 # The State Table
 
-Chapter 6 said a computation is a sequence of states. A **state table** is that
-sequence written down: one row per step, one column per variable.
+The most reliable debugging technique anyone has found needs no debugger, no
+tooling, and no cleverness whatsoever. It needs a piece of paper and a willingness
+to be bored for ninety seconds.
+
+Almost nobody does it. What people do instead is read the code again, harder — as
+though the mistake might confess under pressure. It will not. You already read it
+that way when you wrote it, and that is exactly how the mistake got in. Your eyes
+skate over what you *meant*; the machine is running what you *typed*.
+
+So we are going to stop reasoning about the program and start writing down what it
+does, one line at a time, whether or not that feels beneath us.
+
+A computation is a sequence of states — that was Chapter 6's whole claim. A
+**state table** is that sequence written down: one row per step, one column per
+variable.
 
 ## Doing one
 

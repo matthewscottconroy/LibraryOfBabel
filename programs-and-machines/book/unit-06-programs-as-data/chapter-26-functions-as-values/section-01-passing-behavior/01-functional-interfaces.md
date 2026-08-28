@@ -7,9 +7,11 @@ adds ten to every element, so you copy it and change one expression. Then doubli
 Then negating. Four methods, six lines each, and five of the six lines are
 identical every time.
 
-Unless the expression can be made into one.
+Everything you have learned so far says that repetition is a signal. When five
+lines keep recurring unchanged, you give them a name and call them. That was the
+whole argument of Chapter 11.
 
-Start with the problem. Here is a method that squares every element of an array:
+So try it here:
 
 ```java
 static int[] squareAll(int[] a) {
@@ -19,11 +21,15 @@ static int[] squareAll(int[] a) {
 }
 ```
 
-And here is one that adds ten to every element. And one that doubles. And one that
-negates. Each is six lines, five of which are identical.
+The five lines that never change are the array allocation, the loop, the
+assignment, and the return. The one varying part is `a[i] * a[i]`.
 
-The varying part is `a[i] * a[i]`. One expression, in the middle of five lines that
-never change.
+And there is the wall. To factor out the repetition you would need to pass in the
+part that differs — but the part that differs is not a number, or a string, or an
+object. It is *an operation*. Every tool you have takes values as parameters, and
+this is not a value.
+
+Unless it can be made into one.
 
 And you already know what to do with a repeated *value* — Chapter 11 said extract
 it into a parameter. But this is a repeated *expression*, and you cannot pass one

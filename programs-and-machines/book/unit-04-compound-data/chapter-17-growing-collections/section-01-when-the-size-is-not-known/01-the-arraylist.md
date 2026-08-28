@@ -1,5 +1,11 @@
 # The ArrayList
 
+You almost never know how many. How many lines in the file, how many words the user
+types, how many results the search returns — all of it decided while the program is
+running, and an array wants the number before it will let you start.
+
+Here is what you write instead:
+
 ```java
 import java.util.ArrayList;
 import java.util.List;

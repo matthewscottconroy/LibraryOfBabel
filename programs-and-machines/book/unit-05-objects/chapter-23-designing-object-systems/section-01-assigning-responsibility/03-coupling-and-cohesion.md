@@ -11,8 +11,7 @@ they are proxies for a question you can answer with a number.
 **Cohesion** is how strongly the parts of one unit belong together.
 **Coupling** is how much one unit depends on another.
 
-The aim is stated the same way everywhere: **high cohesion, low coupling.** Both
-halves need unpacking, because stated that way it is a slogan.
+Both halves need unpacking before they mean anything at all. Take them in turn.
 
 ## Cohesion
 

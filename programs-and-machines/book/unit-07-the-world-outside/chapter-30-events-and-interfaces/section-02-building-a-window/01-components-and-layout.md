@@ -8,6 +8,8 @@ it also breaks when the font is larger, when the text is translated into German,
 and when the display has different pixel density. All four happen, which is why
 every toolkit ever built has the same answer.
 
+Open any application you like and look at it as a structure rather than a picture.
+
 A window is a tree.
 
 ```
@@ -20,11 +22,13 @@ JFrame
         └── JButton "-"
 ```
 
-Each node is a **component**: it knows its size and position, it can draw itself,
-and it can receive events. Some components — **containers** — hold others.
+Each node is a **component** — it knows its own size and position, it can draw
+itself, and it can be sent events. Some of them, the **containers**, hold others.
 
-That is the model in every toolkit. HTML's DOM is this tree. Android's view
-hierarchy is this tree. The names differ and the structure does not.
+And that is the model in every graphical toolkit anybody has built. The DOM in a
+browser is this tree. Android's view hierarchy is this tree. Swap the vocabulary
+and the structure survives intact, which is the first hint that learning this one
+was not wasted.
 
 ## A minimal window
 

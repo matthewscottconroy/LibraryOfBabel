@@ -20,13 +20,14 @@ x -> x * x                        // one parameter, one expression
 x -> { int y = x * 2; return y + 1; }    // a block, so return is required
 ```
 
-The rules, briefly: parentheses are optional for exactly one parameter; types are
-inferred from the target interface and are usually omitted; a single expression is
-the return value, and a braced block needs an explicit `return`.
+Four rules, and then you can stop thinking about the syntax. Parentheses are
+optional when there is exactly one parameter. Types are inferred from whatever
+interface you are assigning to, so you almost never write them. A single expression
+*is* the return value. A braced block needs an explicit `return`.
 
-The arrow was chosen over other candidates because it reads as *maps to*, which is
-what it means. The name comes from Church's lambda calculus, which Chapter 13
-introduced — `λx.x*x` is the same expression in the notation of 1936.
+The arrow beat the other candidates because it reads as *maps to*, which is what it
+means. And the name is older than any of it: `λx.x*x` is the same expression in
+Church's notation, from 1936, which is where Chapter 13 met him.
 
 ## What a lambda can see
 

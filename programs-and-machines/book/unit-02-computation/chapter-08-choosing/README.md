@@ -1,27 +1,39 @@
 # Choosing
 
-Chapter 6 gave us transitions that change state. This chapter gives us
-transitions that *consult* it — the machine looks at what it holds and decides
-what to do next.
+In 1854 a largely self-taught mathematician named George Boole published a book
+announcing that he had found the algebra of human thought. He called it *An
+Investigation of the Laws of Thought*, and he meant the title. Reasoning, he
+claimed, could be *calculated* — written in symbols, and manipulated by rules, the
+way you manipulate numbers.
 
-This is where a program stops being a fixed sequence and starts being responsive.
-The parity machine of Chapter 6 already did it: the table had different entries
-for input `0` and input `1`, and that difference is a decision.
+It was received as an elegant curiosity. There was no machine in the world for it
+to be about.
 
-The chapter goes deeper than `if` statements, and I want to say why before we
-start.
+Eighty-three years later a master's student at MIT read Boole and noticed
+something the author could not possibly have noticed, because the thing did not
+exist yet. Boole's algebra of true and false describes an electrical switch. A
+switch is open or closed. A proposition is false or true. The rules are the same
+rules. Claude Shannon wrote this down in 1937, and it may be the most consequential
+master's thesis ever submitted.
 
-Underneath every conditional is **boolean logic** — a small algebra of true and
-false, worked out by George Boole in 1854 for reasons having nothing to do with
-machines. In 1937 Claude Shannon noticed that this algebra describes electrical
-switching circuits exactly: a switch is open or closed, a proposition is false or
-true, and the same rules govern both.
+Which is where this chapter is going, and it starts somewhere far more ordinary:
+with a machine that looks at what it is holding and decides what to do next.
 
-That observation is why computers can be *designed*. Before it, a circuit was
-something you built and tested. After it, a circuit was something you could
-calculate — simplify with algebra, prove correct, derive from a specification.
-Chapter 1 said two states won because two states are robust; Shannon's result is
-the other half of the answer, which is that two states are also *calculable*.
+The transitions of Chapter 6 changed state. These *consult* it. That is the step
+where a program stops being a fixed sequence of instructions and becomes something
+that responds — though the parity machine was already doing it quietly, since its
+table held different entries for input `0` and input `1`, and a difference like
+that is a decision in everything but name.
+
+Shannon's observation is the reason computers can be *designed* at all. Before
+it, a circuit was something you built and then tested to find out what it did.
+After it, a circuit was something you could calculate — simplify with algebra,
+prove correct, derive from a specification before anyone picked up a soldering
+iron.
+
+Two states won, back in Chapter 1, because two states are robust against noise.
+Here is the other half of that answer, and it is the half that mattered: two
+states are also *calculable*.
 
 So the first section builds the logic, connects it to gates, and shows that the
 adder from Chapter 2 can be constructed from them. The second section is Java's

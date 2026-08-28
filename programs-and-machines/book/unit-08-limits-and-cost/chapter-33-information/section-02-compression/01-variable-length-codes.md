@@ -1,13 +1,5 @@
 # Variable-Length Codes
 
-Samuel Morse had the right idea in 1838, and the way he got it is the best argument
-for it.
-
-Vail went to a printer's shop and counted how many pieces of each letter were in
-the type case. Common letters got short codes; rare ones got long. `E` is one dot.
-`Q` is dash-dash-dot-dash. That is a century before anyone could say why it worked,
-and this lesson is about doing it optimally rather than by eye.
-
 One bit per character, stored at eight. Seven eighths of every English text file
 you have ever saved is, in a precise sense, nothing at all.
 
@@ -16,9 +8,14 @@ the one everything else is built on.
 
 **Give frequent symbols short codes and rare symbols long ones.**
 
-Samuel Morse did this in 1838 by counting the type in a printer's case to find out
-which letters were common. `E` is one dot; `Q` is dash-dash-dot-dash. It is the
-right idea a century before there was a theory saying why.
+The way that idea first arrived is the best argument for it. In 1838, Alfred Vail
+walked into a printer's shop and counted the pieces of type in the case — on the
+reasoning that a printer stocks most of the letters that get used most. Common
+letters were given short codes. Rare ones got long. `E` is one dot; `Q` is
+dash-dash-dot-dash.
+
+That is a full century before anybody could say *why* it worked. What this lesson
+adds is how to stop doing it by eye and start doing it optimally.
 
 ## The prefix property
 

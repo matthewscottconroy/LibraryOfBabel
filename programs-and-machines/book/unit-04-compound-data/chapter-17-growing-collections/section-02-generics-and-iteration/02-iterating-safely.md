@@ -1,5 +1,11 @@
 # Iterating Safely
 
+There are three ways to walk a collection. Two are fine. The third looks like the
+most natural thing in the world and has a trap in it that fires only sometimes,
+which is the worst way for a trap to behave.
+
+Start with the one you already use:
+
 ```java
 for (String name : names) {
     System.out.println(name);

@@ -1,16 +1,22 @@
 # Frames and Calls
 
-Chapter 11 asked you to trust that a method call works — that the caller's
-variables survive it, that the right value comes back, that recursion is coherent.
+You have been taking a great deal on faith.
 
-This section is where that trust gets its mechanism. It turns out to be one data
-structure, chosen because the shape of the problem leaves almost no alternative.
+That a method call leaves the caller's variables exactly where they were. That the
+right value finds its way back to the right place, out of a method that may have
+called four others on the way. That a method calling *itself* does not descend into
+incoherence, with a hundred copies of `n` fighting over one name.
 
-Three lessons on the mechanism.
+None of that is obvious. All of it has to be arranged by something.
 
-The call frame is the packet of state belonging to one execution of one method:
-its parameters, its locals, and the address to return to. The stack discipline is
-the rule for organizing frames, and it turns out to be forced — given that calls
-nest, no other arrangement works. And stack overflow is what happens when the
-frames run out of room, which is a genuinely useful error to understand rather
-than merely to recognize.
+Here is where the arrangement gets shown to you, and the pleasure of it is that
+there is barely a design decision in sight. One data structure does the whole job,
+and it is not chosen so much as *conceded* — the shape of the problem leaves almost
+nothing else available.
+
+We start with the packet of state belonging to a single execution of a single
+method: its parameters, its locals, and the address it must return to when it is
+finished. Then the rule for organizing those packets, which we will find is forced
+rather than invented — given that calls nest, nothing else works. And finally what
+happens when the packets run out of room, which is an error worth genuinely
+understanding rather than merely recognizing on sight.

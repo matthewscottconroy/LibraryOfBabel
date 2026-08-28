@@ -8,11 +8,15 @@ of and not a line of code, and yet one sorting method works on both. Whatever ma
 that possible cannot be inheritance in Chapter 21's sense, and it is the most
 important construct in this chapter.
 
-Three lessons.
+We begin with the interface itself — a set of method signatures with no bodies at
+all, a type that wholly unrelated classes can share, and what Java 8 changed when
+it allowed some of those signatures to come with code after all.
 
-The interface itself: a set of method signatures with no bodies, a type that
-several unrelated classes can share, and what Java 8's default methods added.
-Then abstract classes, which supply some implementation and leave the rest open,
-and the question of which to reach for. Then the convention that governs how you
-declare variables, which is Chapter 17's `List<String> names = new ArrayList<>()`
-finally explained.
+Then abstract classes, which take a middle position: some implementation supplied,
+the rest left open, and a genuine question about when to reach for which.
+
+And then a convention about how you declare your variables that has been sitting in
+front of you, unexplained, since Chapter 17. You have written
+`List<String> names = new ArrayList<>()` and wondered why the two halves of that
+line disagree with each other. By the end of the section they will not look like a
+disagreement.

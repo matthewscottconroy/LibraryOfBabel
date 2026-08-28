@@ -4,12 +4,13 @@ You have a program with a CSV file, an index kept in memory to make lookups fast
 locking scheme so two copies do not corrupt each other, and a routine that takes
 backups.
 
-You have reimplemented SQLite, badly, and probably without noticing when it
-happened. This lesson is about recognising the point where files stop being the
-right answer — which is a specific list of five things, not a matter of scale.
+You have reimplemented SQLite, badly, and probably without noticing the moment it
+happened. Nobody sits down to write a database. You write one feature at a time,
+each of them reasonable, and arrive somewhere you never chose to go.
 
-At some point a file stops being the right answer. This lesson is about
-recognizing that point, and about what you get in exchange for the complexity.
+So this lesson is about recognizing the point where a file stops being the right
+answer — which turns out to be a specific list of five things rather than a matter
+of scale — and about what you get in exchange for the complexity.
 
 ## Where files run out
 

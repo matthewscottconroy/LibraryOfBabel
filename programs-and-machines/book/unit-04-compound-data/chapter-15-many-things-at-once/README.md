@@ -1,11 +1,24 @@
 # Many Things at Once
 
-An **array** is a fixed-size sequence of values of the same type, stored
+Suppose I hand you a hundred numbers and ask you to keep hold of them.
+
+You know how to keep hold of one. A name, a type, a value. Do it a hundred times
+and you have `score0` through `score99`, which is not a solution so much as a
+confession — because the moment I ask for the average you need to mention all
+hundred names in one expression, and the moment I make it a thousand numbers you
+have to go back and edit the program. A program that must be rewritten when the
+amount of data changes is barely a program at all.
+
+What you want is a single name for the whole collection, and a way of saying
+*which one* that is itself computable. Say the forty-seventh, without having
+written the word forty-seven anywhere in advance.
+
+That is an **array**: a fixed-size sequence of values of the same type, stored
 consecutively, and reachable by position.
 
-Every clause in that sentence is doing work, and the chapter takes them in turn:
-why fixed size, why the same type, why consecutive, and what "by position" costs
-and buys.
+Every clause in that sentence is load-bearing, and this chapter takes them one at a
+time — why fixed size, why the same type, why consecutive, and what "by position"
+costs as well as what it buys.
 
 If you take one idea from this chapter, take this: **an array index is
 arithmetic.**

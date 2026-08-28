@@ -1,16 +1,29 @@
 # Contracts Without Implementation
 
-Chapter 21 got substitutability by inheriting. A `Circle` could stand where a
-`Shape` stood because it extended `Shape` and took the implementation along with
-the type.
+Consider two things with nothing in common: a piece of text, and a date on a
+calendar.
 
-Often you want only the first half. You want a common type — something a method
-can be written against — with no shared code at all, because the implementations
-have nothing in common except what they promise to do. A `Comparable` string and
-a `Comparable` date share a promise and not a line of code.
+They share no parts. Ask each one what it is made of and the answers have no
+overlap at all — characters on one side, a year and a month and a day on the
+other. There is no sense in which a date is a kind of string or a string is a kind
+of date.
 
-That is what an **interface** is: a contract with no implementation, and the most
-important construct in the chapter.
+And yet one sorting routine, written once, by somebody who had never heard of
+either of them, will put a list of dates in order and a list of words in order and
+never know the difference.
+
+What do they share, then, if not substance? Only this: each of them can be asked
+whether it comes before another of its kind, and each of them will answer. Not the
+same way. The same *question*.
+
+That is worth sitting with for a moment, because it is the whole chapter. Circles
+could stand in for shapes in the previous chapter by inheriting from `Shape` —
+taking the type and the implementation together, in one move. Here you want the
+first half without the second. A common type that methods can be written against,
+and no shared code at all, because there is none to share.
+
+An **interface** is that: a contract with no implementation. It is the most
+important construct in this chapter and arguably in the language.
 
 Three more follow, and the four together are the vocabulary for saying what
 something must do without saying how.

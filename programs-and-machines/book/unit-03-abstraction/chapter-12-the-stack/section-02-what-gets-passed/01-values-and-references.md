@@ -1,7 +1,9 @@
 # Values and References
 
-Chapter 7 gave you the box picture: a variable is a labeled box holding a value.
-It also warned that the picture expires. Here is where.
+Chapter 7 handed you a picture — a variable is a labelled box with a value in it —
+and quietly added that it would stop being true later.
+
+This is later.
 
 ## Two kinds of variable
 

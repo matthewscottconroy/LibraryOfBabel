@@ -1,11 +1,16 @@
 # The Representation Invariant
 
-Take the name collection again:
+Here are two fields. Look at them and tell me what is wrong:
 
 ```java
 String[] names = new String[100];
 int count = 0;
 ```
+
+Nothing is wrong, and nothing is right either, because on their own they do not
+mean anything at all. An array and a number. What makes them a *collection* is a
+promise that is not written anywhere in that code — and this lesson is about
+writing it down.
 
 Some things are true of these two variables together, and the program only works
 because they are true:

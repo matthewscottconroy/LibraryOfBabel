@@ -7,8 +7,11 @@ most obvious is eleven times more expensive.
 There is also a way for locks to fail that has no error message, no CPU usage, and
 no indication that anything is wrong. The program stops, and stays stopped.
 
-When you must share mutable state, you need **mutual exclusion**: a guarantee that
-only one thread is inside a section of code at a time.
+Sometimes you cannot avoid sharing. Two threads, one counter, and no way to give
+each its own.
+
+What you need then is a promise that only one of them is inside the dangerous part
+at a time — **mutual exclusion**, and Java hands it to you in one keyword.
 
 ```java
 synchronized (lock) {
@@ -16,9 +19,10 @@ synchronized (lock) {
 }
 ```
 
-Every object has a **monitor**. Entering a `synchronized` block acquires it;
-leaving releases it, including by exception. A second thread arriving while it is
-held waits.
+Every object in Java carries a **monitor** — a lock nobody asked for, sitting
+unused on every object you have ever made. Entering a `synchronized` block takes
+it. Leaving gives it back, including when you leave by throwing. A second thread
+arriving while it is held stops at the door.
 
 The method form locks `this`:
 
@@ -33,9 +37,10 @@ any other code can lock on it too. A private lock object is safer:
 private final Object lock = new Object();
 ```
 
-## What a lock actually guarantees
+## What you are actually being promised
 
-Two things, and people usually think of only the first.
+Ask most people what a lock does and you get one answer. There are two, and the
+second is the one that makes the first worth anything.
 
 **Mutual exclusion.** One thread at a time.
 
@@ -43,10 +48,13 @@ Two things, and people usually think of only the first.
 the next thread that acquires it. Without this, mutual exclusion alone would be
 useless: you would take turns and still read stale values.
 
-That pairing is the **happens-before** relationship, and it is what the Java Memory
-Model is a specification of. The practical consequence: **all access to shared
-state must be synchronized, reads included.** A read outside the lock may see a
-value from before someone else's write, no matter how careful the writers were.
+That pairing has a name — **happens-before** — and the Java Memory Model is
+essentially a document about when it holds.
+
+The practical consequence catches people out, so it is worth stating flatly:
+**every access to shared state must be synchronized, reads included.** Not just
+the writes. A read taken outside the lock is entitled to see a value from before
+somebody else's write, no matter how scrupulous the writers were being.
 
 ## The cost
 
@@ -81,9 +89,10 @@ region is by definition sequential.
 Which is why the practical advice is: **hold locks for as short a time as
 possible**, and prefer designs where threads do not contend.
 
-## Deadlock
+## The failure with no error message
 
-The first classic failure. Two threads, two locks, opposite orders:
+Two threads. Two locks. Each takes them in the order that seemed natural where it
+was written:
 
 ```java
 // thread 1                 // thread 2
@@ -92,9 +101,12 @@ synchronized (a) {          synchronized (b) {
 }                           }
 ```
 
-Thread 1 holds `a` and wants `b`. Thread 2 holds `b` and wants `a`. Neither will
-ever proceed, and the program stops with no error, no CPU usage, and no
-indication of what happened.
+Thread 1 is holding `a` and waiting for `b`. Thread 2 is holding `b` and waiting
+for `a`. Neither will ever move again.
+
+And nothing happens. No exception, no stack trace, no CPU usage — the program is
+not spinning, it is politely waiting, forever, and the only symptom is that it has
+stopped doing anything at all.
 
 The fix is a **lock ordering**: choose a global order and always acquire in it.
 Verified — the same two threads acquiring `a` then `b` in both cases:

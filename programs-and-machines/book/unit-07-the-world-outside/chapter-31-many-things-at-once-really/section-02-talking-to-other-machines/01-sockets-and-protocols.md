@@ -8,11 +8,10 @@ mean — where one message ends, what encoding is in force, what may follow what
 Getting that agreement wrong produces a program that works perfectly on your own
 machine and fails the first time it crosses a real network.
 
-A **socket** is one end of a connection between two programs. Once it is open, it
-is a pair of streams — Chapter 29's abstraction, unchanged — and everything you
-know about reading and writing applies.
-
-That is the useful thing about sockets: the hard part is not the API.
+A **socket** is one end of a connection between two programs, and the whole of
+what it offers you is a pair of streams — Chapter 29's abstraction, arriving here
+completely unchanged, with everything you know about reading and writing still
+true.
 
 ## A server and a client
 

@@ -1,16 +1,31 @@
 # Truth Tables
 
-A **boolean** value is one of exactly two things: true or false. Chapter 1 called
-this one bit, and noted that we would sometimes call the two states 0 and 1 and
-sometimes false and true, depending on what we wanted to do with them. Here we
-want to do logic.
+Here is a claim that ought to sound too strong.
+
+You are about to meet a handful of operators, and for each one we will write down
+*everything it does.* Not a description. Not the important cases with the rest left
+to your judgment. The complete behavior, on a few lines, with a guarantee attached
+that nothing has been left out.
+
+For almost every operator you will ever meet, that is impossible. Addition works on
+more numbers than anyone could list. But when the entire world contains exactly two
+values, the number of questions you can ask collapses to something you can hold in
+your hand — and completeness stops being an aspiration and becomes a small piece of
+arithmetic.
+
+A **boolean** value is one of exactly two things: true or false. That is one bit,
+the same bit from Chapter 1, wearing the other of its two names. We called the
+states 0 and 1 when we wanted to count with them. Now we want to reason with them,
+so they are false and true.
 
 ## The operators
 
-Because there are only two values, an operator taking two booleans has only four
-possible input combinations. So we can specify it *completely* by listing all
-four. That listing is a **truth table**, and it is an unusually strong kind of
-definition — nothing is left to interpretation, and there are no cases we forgot.
+An operator taking two booleans has four possible inputs and no more. Four. So we
+can specify it *completely* by listing all four and saying what comes out.
+
+That listing is a **truth table**, and it is an unusually strong kind of
+definition — nothing left to interpretation, no case anybody forgot on a Friday
+afternoon.
 
 **AND** is true when both inputs are true.
 

@@ -12,9 +12,11 @@ interfaces in `java.util.function`.
 It comes from a decision made in 1995, and the decision was this. Java has a split
 at the bottom of its type system.
 
-**Primitives** — `int`, `double`, `char`, `boolean` and the rest — are the
-fixed-width values of Unit I. They live in variables directly, they are copied on
-assignment, and they are not objects. They have no methods and cannot be `null`.
+On one side, **primitives** — `int`, `double`, `char`, `boolean` and the rest.
+These are the fixed-width values of Unit I, and they are exactly what they appear
+to be: the value lives in the variable, assignment copies it, and there is nothing
+else there. No methods to call. No possibility of `null`. Small, fast, and not
+objects.
 
 **Objects** live on the heap and are reached by reference, as Chapter 12
 described.

@@ -3,13 +3,14 @@
 Chapter 21 used `getClass()` in passing to find out what an object actually was.
 That was a hint, and it is worth taking seriously now.
 
-If `getClass()` *returns* something, then a class is not only a compile-time notion.
-There is an object, at run time, standing for `Account` — and if you can hold it,
-you can ask it questions.
+Pull on it and something gives way. If `getClass()` *returns* something, then a
+class is not only a compile-time notion that evaporates once the compiler is done
+with it. There is an object, sitting in memory while your program runs, standing
+for `Account` itself.
 
-Every class you write becomes an object at run time. Not an instance of it — an
-object standing *for* the class, which you can hold in a variable and ask
-questions of.
+Not an instance of `Account` — not Ada's account with its balance and its number.
+An object standing *for the class*, which you can put in a variable, pass to a
+method, and ask questions of.
 
 ```java
 Class<?> c = Account.class;

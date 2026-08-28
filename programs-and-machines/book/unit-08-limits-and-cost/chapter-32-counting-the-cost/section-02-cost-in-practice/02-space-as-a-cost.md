@@ -7,9 +7,9 @@ not, and the boundary arrives sooner than you would guess — Chapter 12's recur
 limit is about twenty thousand frames deep, which a linked list of a hundred
 thousand elements will walk straight past.
 
-Time gets the attention. Memory is a cost too, it is analysed the same way, and it
-is the binding constraint more often than people expect — because running out of
-it does not slow a program down, it stops it.
+The good news is that you already own the tools. Memory is analyzed exactly the way
+time was — same notation, same counting, same habit of ignoring the constants and
+watching the shape.
 
 ## Space complexity
 

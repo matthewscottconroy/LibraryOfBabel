@@ -1,7 +1,9 @@
 # When Recursion Is Wrong
 
-This chapter has been advocating. Here is the other side, because recursion is
-frequently the wrong choice and knowing when is part of using it well.
+This chapter has spent four lessons selling you something. Here is the other side,
+delivered honestly, because recursion is frequently the wrong choice — and knowing
+which cases those are is part of using it well rather than an argument against
+it.
 
 ## When a loop is better
 

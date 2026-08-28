@@ -1,8 +1,15 @@
 # Scope and Lifetime
 
-A name is not visible everywhere. Where it is visible is its **scope**, and in
-Java the rule is short: a local variable is in scope from its declaration to the
-closing brace of the block containing it.
+Two questions that sound like one and are not.
+
+*Where can I write this name?* And: *when does the thing it names actually exist?*
+
+For everything you have written so far the answers coincide, which is why the
+difference has not mattered yet. It stops coinciding the moment objects arrive, so
+it is worth separating them now while the examples are small.
+
+The first is **scope**, and Java's rule is one sentence: a local variable is in
+scope from its declaration to the closing brace of the block containing it.
 
 ```java
 public static void main(String[] args) {

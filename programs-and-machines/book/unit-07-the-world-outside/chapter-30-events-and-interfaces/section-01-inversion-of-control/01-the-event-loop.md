@@ -8,8 +8,12 @@ program you are reading this on are all sitting in one loop, waiting, and the lo
 is small enough to write from memory. Once you have written it, the single most
 common cause of an unresponsive program becomes obvious rather than mysterious.
 
-A user interface has to cope with a program that does not know what happens next.
-The answer, in every toolkit ever built, is the same twelve lines:
+The difficulty they are all solving is this. A program with a user in front of it
+cannot know what happens next. It cannot ask. The person might click, or type, or
+resize the window, or wander off for lunch, and the program has to sit there
+prepared for any of it without knowing which.
+
+Here is the answer, and it has been the answer in every toolkit ever built:
 
 ```java
 while (running) {

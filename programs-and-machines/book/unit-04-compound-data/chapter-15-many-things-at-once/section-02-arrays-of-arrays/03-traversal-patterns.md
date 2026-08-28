@@ -1,6 +1,10 @@
 # Traversal Patterns
 
-There are two ways to visit every cell of a grid, and they are not equivalent.
+There are two ways to visit every cell of a grid. They do identical work — the same
+number of reads, the same additions, the same total — and one of them is about
+three times slower than the other on a large enough grid.
+
+Here they are. Before reading on, decide which you would guess is which.
 
 ```java
 // row by row

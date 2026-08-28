@@ -1,7 +1,13 @@
 # Comparing Text
 
-Deciding whether two pieces of text are the same is harder than it looks, and it
-gets harder the more of the world you admit.
+"Are these two pieces of text the same?"
+
+You would think that has an answer. It does, four or five times over, and which one
+you want depends on questions you have probably never had to ask: whether case
+counts, whether accents count, whether two different ways of spelling the same
+accented letter count, and whose alphabet you are sorting by.
+
+It gets harder the more of the world you let in.
 
 ## Never use ==
 

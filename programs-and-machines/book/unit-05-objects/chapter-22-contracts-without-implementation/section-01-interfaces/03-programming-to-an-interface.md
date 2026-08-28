@@ -6,18 +6,11 @@ There is a line you have been writing since Chapter 17 without being told why:
 List<String> names = new ArrayList<>();
 ```
 
-Two different type names for one object, which looks like an inconsistency a
-careful person would want to remove. The argument for it is now available, and it
-generalises well past collections.
+Two different type names for one object. If that has ever struck you as an
+inconsistency somebody ought to tidy up — you were paying attention, and Chapter 17
+gave you the rule without the argument.
 
-Chapter 17 gave a rule without an argument:
-
-```java
-List<String> names = new ArrayList<>();       // yes
-ArrayList<String> names = new ArrayList<>();  // no
-```
-
-The argument is now available.
+Here is the argument, and it reaches a long way past collections.
 
 The declared type is what the rest of your code sees; the constructor is a
 decision about representation. Writing `List` on the left says: this variable
@@ -46,8 +39,12 @@ void process(List<String> items)             // yes
 void process(ArrayList<String> items)        // no — refuses List.of, Arrays.asList
 ```
 
-A method that demands `ArrayList` rejects perfectly good lists for no reason. On
-a parameter, take the weakest type that will do the job.
+Look at what that second signature costs you. A method demanding `ArrayList`
+refuses `List.of(...)`, refuses `Arrays.asList(...)`, refuses anything anybody
+hands it that is not the one implementation you happened to name — all for a
+capability it does not use.
+
+On a parameter, take the weakest type that will do the job.
 
 ## Where the rule stops
 

@@ -28,9 +28,12 @@ your program into the operating system kernel and back. The transition costs a f
 hundred nanoseconds regardless of how much data crosses it, because the processor
 must switch privilege level, save state, and switch back.
 
-Unbuffered, that is 200,000 transitions to move 200,000 bytes. About 215
-nanoseconds each, and essentially all of it is overhead — the data was in the
-operating system's cache the whole time.
+Count that up. Unbuffered, you are making 200,000 kernel transitions in order to
+move 200,000 bytes — one crossing per byte, at about 215 nanoseconds each.
+
+And here is the part that should sting: essentially all of that was overhead. The
+data was sitting in the operating system's cache the entire time. Nothing touched
+a disk. You paid 43 milliseconds in tolls.
 
 `BufferedInputStream` keeps an internal array, by default 8192 bytes. Your `read()`
 takes the next byte from the array, and only when the array is empty does it make
@@ -42,8 +45,10 @@ The general form is worth extracting, because it recurs everywhere:
 > **Batch the expensive operation.** When each unit of work carries a fixed
 > overhead much larger than the work itself, do many units per operation.
 
-Chapter 15's cache lines were this. Chapter 17's `ArrayList` growth was this.
-Database round trips, network packets, and screen redraws are all this.
+Once you have that sentence, go back and look at how many things in this book were
+already an instance of it. Chapter 15's cache lines. Chapter 17's `ArrayList`
+growth by doubling. Database round trips, network packets, screen redraws — all the
+same shape, all solved the same way.
 
 ## What to actually do
 

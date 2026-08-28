@@ -1,11 +1,15 @@
 # What to Read Next
 
-Each chapter listed sources for its own material. This is the other question: given
-all of it, what next?
+Every chapter here listed sources for its own material. This is the other question,
+and the one you are more likely to be asking now: given all of it, what next?
 
-The answer depends on what you are trying to become, so the list below is arranged
-that way rather than by topic — and the second half, about what to *build*, matters
-more than the first.
+The honest answer is that it depends on what you are trying to become, so what
+follows is arranged by direction rather than by topic. Find the paragraph that
+sounds like you.
+
+One thing before you start, though. The second half of this lesson — about what to
+*build* — matters considerably more than the first half, about what to read. If you
+only act on one of them, act on that one.
 
 ## The three books after this one
 

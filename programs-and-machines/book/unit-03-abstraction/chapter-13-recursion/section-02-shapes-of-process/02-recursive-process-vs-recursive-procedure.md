@@ -20,7 +20,8 @@ static int factorial(int n) {
 }
 ```
 
-Recursive procedure, and the process is recursive too. Watch what is pending:
+Recursive procedure, and the process is recursive too. Watch the right-hand side
+and keep your eye on what is still *waiting* to be done:
 
 ```
 factorial(4)
@@ -33,9 +34,12 @@ factorial(4)
           24
 ```
 
-The multiplications pile up. Nothing can be completed until the innermost call
-returns, and the machine holds *n* pending multiplications. Space grows with the
-input — visible on the stack as *n* frames.
+The multiplications pile up, and nothing can be finished until the innermost call
+comes back. The machine is holding *n* pending multiplications, and it has to hold
+them somewhere.
+
+That somewhere is the stack, and it means the space this uses grows with the input
+— *n* frames deep, for a method that returns a single number.
 
 Now:
 

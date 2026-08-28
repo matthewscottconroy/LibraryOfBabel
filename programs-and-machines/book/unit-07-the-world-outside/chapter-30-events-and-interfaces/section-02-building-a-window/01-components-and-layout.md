@@ -53,12 +53,17 @@ public static void main(String[] args) {
 }
 ```
 
-Six lines of construction and one of them is the important one.
+Most of that is construction. One line is doing something you would never guess
+at, so find it before reading on: which line is load-bearing in a way the others
+are not?
 
-`SwingUtilities.invokeLater` wraps the whole thing, and it is not decoration.
-Components must be built and touched on the event dispatch thread, and
-`main` is not it. Building the interface directly in `main` usually works and
-occasionally does not, which is the worst kind of bug.
+It is `SwingUtilities.invokeLater`, and it is not decoration.
+
+Components have to be built and touched on the event dispatch thread, and `main` is
+not that thread. Build your interface directly in `main` and it will usually work —
+which is precisely the problem. A thing that usually works is the worst kind of bug
+there is, because it passes every test you run and fails on somebody else's
+machine.
 
 `pack()` asks the tree to size itself from its contents. `setVisible(true)` shows
 it and — importantly — returns immediately. `main` then ends, and the program
@@ -99,12 +104,17 @@ Three sizes per component: minimum, preferred, and maximum. A layout manager rea
 them, applies its policy, and assigns actual bounds — which may be none of the
 three, because the container may not have room.
 
-This is a negotiation rather than a command, and it is the source of most layout
-frustration. A component that will not shrink usually has a minimum size somewhere
-in the tree; a component that will not grow usually has a maximum.
+Notice that this is a negotiation and not a command. Your component does not
+*have* a size; it has an opinion about its size, which the parent may overrule. And
+that is the source of nearly all layout frustration, including the kind that makes
+people give up on layout managers entirely and start positioning things by pixel.
 
-The practical advice: **when a layout misbehaves, look at the container, not the
-component.** The child asked; the parent decided.
+So when something will not shrink, go looking for a minimum size somewhere in the
+tree. When something will not grow, go looking for a maximum.
+
+Which gives you the one piece of advice that will save you the most time here:
+**when a layout misbehaves, look at the container rather than the component.** The
+child only asked. The parent decided.
 
 ## Toolkits, briefly
 

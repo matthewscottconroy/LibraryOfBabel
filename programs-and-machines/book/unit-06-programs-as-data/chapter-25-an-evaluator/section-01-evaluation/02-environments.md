@@ -7,10 +7,10 @@ and every question you have ever had about scope — why a parameter hides a fie
 why a local vanishes when a method returns, why two calls to the same method do not
 tread on each other — is a question about how that something is arranged.
 
-It is twelve lines.
+That something is called an **environment**, and I want to tell you its size
+before you see it, because the size is the surprising part.
 
-A name means nothing by itself. `x` is three pixels wide and carries no value.
-Something has to hold the association, and that something is an **environment**.
+It is twelve lines.
 
 ```java
 static final class Env {
@@ -30,9 +30,12 @@ static final class Env {
 }
 ```
 
-Twelve lines. They implement scope, shadowing, nesting, and undefined-variable
-errors, and it is worth going through what each piece is doing because each
-corresponds to something you have taken for granted since Chapter 7.
+That is the whole thing. Those twelve lines implement scope, shadowing, nesting,
+and undefined-variable errors — four things you have been relying on since Chapter
+7 without ever being shown the machinery.
+
+Go through it piece by piece with me, because every part corresponds to something
+you already know from the outside.
 
 ## The map
 
@@ -40,11 +43,13 @@ A `HashMap<String, Integer>` from names to values. This is what a variable *is*
 in our language — not a memory location, not a box, but a key in a map the
 interpreter owns.
 
-And there goes the box metaphor from Chapter 7 — not wrong, but revealed as an
-implementation choice rather than a fact about machines. Our language could have used an array with names resolved to
-indices at parse time, which is faster and is roughly what a compiled language
-does. The map is chosen because it is obvious, and Section 25.2.3 says what it
-costs.
+And there goes the box metaphor from Chapter 7. It was not wrong, exactly. It has
+just been demoted — from a fact about how machines work to one implementation
+choice among several.
+
+We could have used an array, with names resolved to indices at parse time. That is
+faster, and it is roughly what a compiled language actually does. We chose the map
+because it is the obvious thing, and Section 25.2.3 says what the choice costs.
 
 ## The parent
 
@@ -82,8 +87,12 @@ Inside `f`, the name `x` finds the parameter, because `apply` put it in the loca
 environment and `lookup` looks there first. The global `x` is not modified, not
 consulted, and not damaged — it is merely not the nearest `x`.
 
-Reverse the two clauses in `lookup` — parent first, then local — and parameters
-would stop working. That is how small the mechanism is.
+Now go back and swap the two clauses in `lookup` in your head — parent first, then
+local. Follow the same example through.
+
+Parameters stop working. Every one of them, everywhere in the language, broken by
+exchanging two lines. That is how small this mechanism is, and how much is resting
+on it.
 
 ## The error
 
@@ -141,8 +150,9 @@ stack keep them alive through the chain of `eval` calls.
 is what positional arguments *are*, and it is why Chapter 11 warned about long
 parameter lists: nothing in this loop can tell you that the caller swapped two.
 
-**The parent is `global`, not the caller's environment.** This is a real language
-design decision and it is easy to miss.
+**The parent is `global`, and not the caller's environment.** Read that line in
+the code again, because it looks like an arbitrary choice and it is one of the most
+consequential decisions in the whole interpreter.
 
 ## Lexical and dynamic scope
 

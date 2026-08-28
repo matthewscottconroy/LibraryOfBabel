@@ -1,10 +1,14 @@
 # The Stream Abstraction
 
-A file might be four bytes or four hundred gigabytes. A network connection has no
-length at all — data arrives until it stops. Neither fits in memory as a matter of
-course, and neither is available all at once.
+A file might be four bytes. It might be four hundred gigabytes. And a network
+connection has no length at all — data turns up until it stops turning up, and
+nobody can tell you in advance how much there will be.
 
-So the abstraction is not "a file is an array of bytes". It is:
+So think about what abstraction could possibly cover all of those. It cannot be
+"a file is an array of bytes", because an array has a length and you can hold it
+all at once, and neither of those is available here.
+
+What survives is considerably weaker, and its weakness is the point:
 
 > A **stream** is a sequence of items, available one at a time, in order, possibly
 > without a known end.
@@ -56,10 +60,14 @@ decompression, decoding, line handling. They compose in any sensible order, and
 the same `BufferedReader` code works whether the source is a file, a socket, or a
 string.
 
-This is the **decorator** pattern, and Java's I/O library is the standard textbook
-example of it. It is also the standard example of the pattern's cost: the
-five-line incantation above is genuinely off-putting, the correct order is not
-obvious, and a beginner reasonably asks why reading a file takes five objects.
+This is the **decorator** pattern, and Java's I/O library is the textbook example
+of it — in both directions. It is also the textbook example of what the pattern
+costs.
+
+Be honest about that five-line incantation. It is off-putting. The correct order is
+not something you could derive, and if your reaction on first meeting it was to
+wonder why reading a file needs five objects, your reaction was entirely
+reasonable.
 
 The answer is that the alternative is a method for every combination —
 `readGzippedUtf8FileWithBuffering` — and there are more combinations than methods
@@ -91,8 +99,11 @@ configuration file and wrong for a ten-gigabyte log. `Files.lines` is lazy — i
 reads as you consume — which is right for the log and needs closing, hence the
 try-with-resources.
 
-That is essentially the whole decision: **does it fit in memory?** If yes, read it
-all and stop thinking about streams. If no, or if you do not know, stream it.
+And that is essentially the entire decision, every time, for the rest of your
+career: **does it fit in memory?**
+
+If yes, read the whole thing and stop thinking about streams. If no — or, and this
+is the case people get wrong, if you do not actually know — stream it.
 
 ## Path
 

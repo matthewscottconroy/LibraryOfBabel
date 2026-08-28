@@ -33,7 +33,8 @@ Two annotations on the declaration, and they are the important part.
 local variable. Getting this right turns a misplaced annotation into a compile
 error.
 
-**`@Retention`** says how long it survives, and there are three answers:
+**`@Retention`** says how long it survives — and this is the one that will cost
+you an afternoon if you get it wrong. There are three answers:
 
 | policy | survives to | example |
 |---|---|---|
@@ -41,10 +42,14 @@ error.
 | `CLASS` | in the class file, not loaded | rare |
 | `RUNTIME` | readable by reflection | `@Test`, `@Column`, `@Deprecated` |
 
-That table is the practical content of this lesson. An annotation you intend to
-read reflectively **must** be `RUNTIME`, and forgetting it produces the single
-most common annotation bug: everything compiles, nothing is found, and there is no
-error to read.
+That table is the practical content of this lesson, and the middle row is a trap
+with your name on it.
+
+An annotation you intend to read reflectively **must** be `RUNTIME`. Forget it and
+you get the most common annotation bug there is: everything compiles cleanly,
+nothing is ever found, and there is no error message anywhere to tell you why. Your
+framework silently does nothing, and the thing you would need to see is the absence
+of one word.
 
 ## Reading them
 
@@ -69,9 +74,12 @@ The third field had no annotation and was skipped. That pattern — enumerate,
 check for the annotation, act on its members — is essentially all of how an
 object-relational mapper works.
 
-Note `value` is special: an annotation with a single member named `value` may be
-written `@Column("acct_id")` instead of `@Column(value = "acct_id")`. That is why
-so many annotations have a member with that unhelpful name.
+One naming detail, which answers a question you may have been quietly carrying.
+`value` is special: an annotation with a single member called `value` may be
+written `@Column("acct_id")` rather than `@Column(value = "acct_id")`.
+
+That is the entire reason so many annotations you meet have a member with such an
+unhelpful name. It was never meant to be read.
 
 ## A test runner
 
@@ -105,11 +113,14 @@ FAIL  this one fails : java.lang.AssertionError: expected 5
 
 The unannotated method was not run, though it would have thrown if it had been.
 
-Compare with Chapter 14's hand-rolled test harness, which required every test to
-be listed in a `main` method. The annotation removes the list: a new test is a new
-annotated method, discovered automatically, and nothing else changes. That is the
-difference the mechanism makes, and it is why every testing framework since 2005
-works this way.
+Now put that beside the hand-rolled test harness from Chapter 14, where every
+single test had to be listed by hand in a `main` method — and where the way you
+lost a test was by writing it and forgetting to add it to the list.
+
+The annotation deletes the list. A new test is a new annotated method, found
+automatically, and nothing else in the program has to change to accommodate it.
+That is what this mechanism actually buys, and it is why every testing framework
+written since about 2005 works this way.
 
 `e.getCause()` is doing necessary work. `invoke` wraps whatever the method threw in
 `InvocationTargetException`; report that and the user learns nothing, report the

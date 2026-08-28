@@ -7,11 +7,11 @@ most obvious is eleven times more expensive.
 There is also a way for locks to fail that has no error message, no CPU usage, and
 no indication that anything is wrong. The program stops, and stays stopped.
 
-Sometimes you cannot avoid sharing. Two threads, one counter, and no way to give
-each its own.
+Start where the last lesson left you stuck. Sometimes you cannot avoid sharing.
+Two threads, one counter, and no honest way to give each of them their own.
 
-What you need then is a promise that only one of them is inside the dangerous part
-at a time — **mutual exclusion**, and Java hands it to you in one keyword.
+What you need is a promise that only one thread is inside the dangerous part at any
+moment — **mutual exclusion** — and Java hands it to you in a single keyword.
 
 ```java
 synchronized (lock) {
@@ -19,10 +19,14 @@ synchronized (lock) {
 }
 ```
 
-Every object in Java carries a **monitor** — a lock nobody asked for, sitting
-unused on every object you have ever made. Entering a `synchronized` block takes
-it. Leaving gives it back, including when you leave by throwing. A second thread
-arriving while it is held stops at the door.
+Here is something you have been carrying around without knowing. **Every object in
+Java has a monitor** — a lock, built in, sitting unused on every object you have
+ever created. Every `String`, every `ArrayList`, every instance of every class you
+have written this year. They all have one.
+
+Entering a `synchronized` block takes that lock. Leaving gives it back, including
+when you leave by throwing an exception. A second thread arriving while the lock is
+held stops at the door and waits.
 
 The method form locks `this`:
 
@@ -37,16 +41,20 @@ any other code can lock on it too. A private lock object is safer:
 private final Object lock = new Object();
 ```
 
-## What you are actually being promised
+## What a lock actually promises you
 
-Ask most people what a lock does and you get one answer. There are two, and the
-second is the one that makes the first worth anything.
+Ask most people what a lock does and you will get one answer. There are two, and
+the one they leave out is what makes the one they give worth having.
 
-**Mutual exclusion.** One thread at a time.
+**Mutual exclusion.** One thread at a time. This is the answer everybody has.
 
-**Visibility.** Everything a thread wrote before releasing the lock is visible to
-the next thread that acquires it. Without this, mutual exclusion alone would be
-useless: you would take turns and still read stale values.
+**Visibility.** Everything a thread wrote before releasing the lock is guaranteed
+visible to the next thread that acquires it.
+
+Consider what you would have without that second promise. Threads would take
+orderly turns at the counter, one at a time, perfectly excluded — and still read
+stale values, because nothing obliged one thread's writes to become visible to the
+next. Mutual exclusion on its own buys you nothing at all.
 
 That pairing has a name — **happens-before** — and the Java Memory Model is
 essentially a document about when it holds.
@@ -58,7 +66,8 @@ somebody else's write, no matter how scrupulous the writers were being.
 
 ## The cost
 
-Verified on this machine, eight threads incrementing:
+Eight threads incrementing, measured on this machine. Before you look, order the
+three from cheapest to most expensive and guess the spread between them.
 
 ```
 1 thread, unshared local : 0 ms
@@ -101,8 +110,8 @@ synchronized (a) {          synchronized (b) {
 }                           }
 ```
 
-Thread 1 is holding `a` and waiting for `b`. Thread 2 is holding `b` and waiting
-for `a`. Neither will ever move again.
+Trace it. Thread 1 holds `a` and wants `b`. Thread 2 holds `b` and wants `a`.
+Neither of them will ever move again, and neither of them did anything wrong.
 
 And nothing happens. No exception, no stack trace, no CPU usage — the program is
 not spinning, it is politely waiting, forever, and the only symptom is that it has

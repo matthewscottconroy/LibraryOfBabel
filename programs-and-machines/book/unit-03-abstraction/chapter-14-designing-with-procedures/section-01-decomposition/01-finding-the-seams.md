@@ -22,14 +22,22 @@ static void report(int[] scores) {
 }
 ```
 
-Nothing is wrong with it. It is also asking to be divided, and it is telling you
-where.
+Nothing is wrong with it. It compiles, it runs, it prints the right numbers, and
+if you found it in a codebase you would have no complaint.
 
-## The signals
+It is also asking to be divided — and here is the part I want you to notice — it is
+*telling you where*. Go back and look at it before reading on. Decide where you
+would cut, and hold on to your answer.
 
-**Blank lines.** Look at where they are. You put them there while writing, to
-separate ideas — and each group they separate is a candidate method. This is the
-most reliable signal available and it costs nothing to notice.
+## The signals it is giving you
+
+**Blank lines.** Look at where they fall. This is almost certainly where you cut,
+and it is worth understanding why you were right.
+
+You did not put those blank lines there for decoration. You put them there while
+writing, to separate ideas, because your hand knew the ideas were separate before
+your attention did. Each group a blank line separates is a candidate method. It is
+the most reliable signal available and it costs nothing whatever to read.
 
 **Comments that label a section.** A comment saying `// compute the mean` above
 five lines is a name looking for a method. Replace it with `double mean =
@@ -41,8 +49,9 @@ changed. Repetition is not always worth removing, but it is always worth noticin
 **Indentation depth.** Three levels of nesting usually means the inner part is a
 separate operation. Chapter 9 said this about nested loops and it generalizes.
 
-**Difficulty naming.** If you cannot name a method without "and", it does several
-things — Chapter 11's test, used in reverse to find the divisions.
+**Difficulty naming.** If you cannot name a method without using the word "and",
+it is doing several things. That is Chapter 11's test — run backwards, as a
+divining rod for where the seams are.
 
 **Comments explaining how.** A comment explaining *what* a section does is a
 method name. A comment explaining *why* is genuine information and should stay.
@@ -80,8 +89,11 @@ static void report(int[] scores) {
 }
 ```
 
-More lines in total. Better, and it is worth being precise about why rather than
-asserting it.
+That is more lines than we started with. Count them if you like: the file grew.
+
+It is better anyway, and I would rather be precise about why than assert it
+at you, because "smaller methods are better" is advice that has done real damage
+when followed without a reason.
 
 **`report` now reads as what it does.** Three lines, each naming an idea. A reader
 who wants to know how the mean is computed can go and look; a reader who wants to
@@ -107,10 +119,12 @@ across a large codebase it is a real navigational burden.
 **The relationship is less visible.** In the original, you could see that all three
 statistics walk the same array. Now that is implied rather than shown.
 
-**Three passes instead of one.** The original walked `scores` three times too, so
-nothing changed here — but a decomposition *can* cost performance by preventing a
-single combined pass. Chapter 32 gives you the tools to judge when that matters. It
-usually does not.
+**Three passes instead of one.** Check this one before you believe it: the
+original walked `scores` three times as well, so nothing actually changed here. But
+a decomposition *can* cost you performance by preventing a single combined pass,
+and it is worth knowing that the cost is real even when this example does not pay
+it. Chapter 32 gives you the tools to judge when it matters. It usually does
+not.
 
 ## The judgment
 
@@ -127,9 +141,12 @@ For a three-line fragment that does something specific to this one situation, th
 steps may be clearer than a name nobody will recognize. Extracting
 `incrementCounterAndCheckThreshold` helps nobody.
 
-The failure in both directions is real. Under-decomposed code is a wall of
-statements. Over-decomposed code is a maze of tiny methods where every question
-requires following a chain. The second is less commonly warned about and I have
-seen it do as much damage.
+Both failures are real, and you should be equally afraid of them. Under-decomposed
+code is a wall of statements you have to read all of. Over-decomposed code is a
+maze of tiny methods in which answering any question means following a chain of
+four calls to find the two lines that matter.
+
+You will be warned about the first constantly and about the second almost never. I
+have seen the second do just as much damage.
 
 Next: what "one job" means.

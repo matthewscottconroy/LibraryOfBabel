@@ -1,21 +1,20 @@
 # When Not To
 
-A new tool arrives and gets used for everything for about two years. Streams
-arrived in Java 8 and the two years were memorable.
+A new tool arrives and gets used for everything for about two years. Streams landed
+in Java 8 and those two years were memorable.
 
-So here is the counterweight, argued with measurements rather than taste — because
-the honest answer turns out to be more interesting than either "always" or
-"never", and the reason streams are sometimes wrong is not the reason people
+So here is the counterweight. It is argued with measurements rather than taste,
+because the honest answer turns out to be more interesting than either "always" or
+"never" — and because the real reason to avoid a stream is not the reason people
 usually give.
 
-Streams arrived in Java 8 and were immediately overused. This lesson is the
-counterweight, and the argument is made with measurements where measurements are
-available.
+## Start with the accusation everyone makes
 
-## The performance question
+"Streams are slow." Let us find out.
 
-Ten million `int`s, filtered to the evens, squared, summed. Three
-implementations, timed after warm-up on this machine:
+Ten million `int`s, filtered down to the even ones, squared, summed. Three
+implementations, timed after warm-up on this machine. Before you look, put money on
+the ordering.
 
 ```
 loop    3 ms   IntStream    3 ms   Stream<Integer>   29 ms
@@ -23,69 +22,79 @@ loop    3 ms   IntStream    3 ms   Stream<Integer>   28 ms
 loop    3 ms   IntStream    3 ms   Stream<Integer>   36 ms
 ```
 
-Two conclusions, and they point in opposite directions.
+Two conclusions, pointing in opposite directions.
 
-**`IntStream` costs nothing.** Three milliseconds against three. The JIT inlines
-the lambdas, fuses the stages, and produces essentially the loop. The stream
-abstraction is free here, and "streams are slow" is false as a general claim.
+**`IntStream` costs nothing whatsoever.** Three milliseconds against the loop's
+three. The JIT inlines the lambdas, fuses the stages together, and emits
+essentially the loop you would have written by hand. The abstraction is free. So
+"streams are slow" is false as a general claim, and you can stop worrying about it.
 
 **`Stream<Integer>` costs ten times as much.** Twenty-eight to thirty-six
-milliseconds against three. The difference is not the stream; it is the boxing —
-ten million `Integer` objects allocated, dereferenced, and collected.
+milliseconds against three.
 
-That is Chapter 16's measurement again, in a new place, and it gives a precise
-rule: **use the primitive streams for numbers.** `mapToInt` is one word and it is
-the difference between the two rows.
+And notice what the difference is not. It is not the stream — the row above proves
+that. It is the boxing: ten million `Integer` objects allocated, chased through a
+pointer, and collected. That is the Chapter 16 measurement turning up again in a
+new costume.
 
-So performance is rarely the reason to avoid a stream. Readability usually is.
+Which gives you a precise rule rather than a vague suspicion: **use the primitive
+streams for numbers.** `mapToInt` is one word, and it is the entire distance
+between those two rows.
 
-## When a loop is clearer
+So performance is hardly ever the reason to avoid a stream. Readability usually
+is — and that is a harder argument, so it gets the rest of the lesson.
 
-**When the loop is not map, filter, or reduce.** Section 26.2.1's test: name what
-each stage does. If a stage does a bit of everything, the decomposition failed.
+## Six times a loop is the clearer choice
 
-**When you need the index.** Streams have no natural index. `IntStream.range(0,
-list.size()).mapToObj(i -> ...)` works and is worse than a `for` loop with an `i`
-in it.
+**When what you are doing is not map, filter, or reduce.** Apply the test from
+Section 26.2.1: name what each stage does. If a stage does a bit of everything, the
+decomposition has failed and the pipeline is a disguise.
 
-**When you are iterating two things in step.** Java has no `zip`. Pairing two
-lists element by element is a loop, and pretending otherwise produces something
-nobody enjoys reading.
+**When you need the index.** Streams have no natural notion of position.
+`IntStream.range(0, list.size()).mapToObj(i -> ...)` does work, and it is worse
+than a `for` loop with an `i` in it. Everyone agrees about this and people write it
+anyway.
 
-**When there is an early exit with a condition on accumulated state.** `findFirst`
-and `anyMatch` cover simple cases; "stop when the running total exceeds a
-threshold" does not fit, and `takeWhile` only fits when the condition depends on
-the element alone.
+**When you are walking two things in step.** Java has no `zip`. Pairing two lists
+element by element is a loop, and the alternatives produce something nobody enjoys
+meeting in a review.
 
-**When you are mutating.** A pipeline whose stages modify things is a loop written
-with more punctuation, and it has given up every property that made the pipeline
-worth having.
+**When there is an early exit that depends on accumulated state.** `findFirst` and
+`anyMatch` handle the easy cases. "Stop once the running total crosses a threshold"
+does not fit, and `takeWhile` only helps when the condition depends on the element
+alone.
 
-**When the loop body is long.** A ten-line lambda inside a pipeline is worse than
-a ten-line loop body, because the loop's braces are load-bearing and the
-pipeline's are decoration. Extract the body to a named method and then decide
-again.
+**When you are mutating something.** A pipeline whose stages modify state is a loop
+wearing more punctuation, and it has surrendered every property that made a
+pipeline worth having in the first place.
 
-## Debugging
+**When the body is long.** A ten-line lambda buried in a pipeline is worse than a
+ten-line loop body, because the loop's braces are structural and the pipeline's are
+decorative. Extract the body into a named method, then come back and decide again —
+you will often find the pipeline is fine once the body has a name.
 
-A real and under-discussed cost.
+## Debugging, which nobody warns you about
 
-Setting a breakpoint inside a lambda works, but stepping through a pipeline moves
-in an order that does not match the source: laziness means the elements go through
-all the stages one at a time, so the debugger appears to jump between lines. Stack
-traces show synthetic frames with names like `lambda$main$0`, and a deep pipeline
-produces a trace that is mostly stream internals.
+This is a real cost and it goes largely undiscussed.
 
-`peek` is the tool for this — it lets you observe elements passing a point without
-changing them, and Section 26.2.2 used it to count what `findFirst` examined. It
-is for diagnosis, not production.
+Setting a breakpoint inside a lambda works. Stepping through a pipeline, however,
+moves in an order that has nothing to do with the order of the source: laziness
+means each element travels through *all* the stages before the next element starts,
+so the debugger appears to leap around between lines at random. Stack traces show
+synthetic frames with names like `lambda$main$0`, and a deep pipeline gives you a
+trace that is mostly stream internals with your code somewhere inside it.
 
-If a pipeline is hard to debug, that is evidence it is too long. Three or four
-stages is comfortable. Beyond that, name an intermediate result.
+`peek` is the instrument for this. It lets you watch elements pass a point without
+disturbing them — Section 26.2.2 used it to count what `findFirst` actually looked
+at. Use it to diagnose, not in production.
 
-## The style question
+And take the difficulty itself as evidence. **If a pipeline is hard to debug, it is
+probably too long.** Three or four stages is comfortable. Past that, give an
+intermediate result a name and let the reader breathe.
 
-Two versions of the same computation:
+## The style question, answered honestly
+
+Two versions of one computation:
 
 ```java
 // loop
@@ -100,61 +109,67 @@ int total = orders.stream()
     .sum();
 ```
 
-The stream version is not clearly better. It is one line longer, it names each
-step, and it will read better to someone who is fluent and worse to someone who
-is not.
+The stream version is not clearly better, and you should be suspicious of anyone
+who tells you it is. It is a line longer. It names each step, which is a genuine
+gain. And it will read beautifully to somebody fluent in streams and poorly to
+somebody who is not.
 
-That last point is a real engineering consideration rather than a concession. Code
-is read more than written, and the relevant fluency is that of the people who will
-read it. On a team where streams are the house style, the stream version is
-clearer. On a team where they are not, it is a small tax on every reader.
+That last point is engineering, not a concession. Code is read far more often than
+it is written, and the fluency that matters is the fluency of the people who will
+read *this* code. On a team where streams are the house style, the stream version
+is clearer, full stop. On a team where they are not, it is a small tax collected
+from every future reader.
 
-The honest position is that both are fine, that neither is worth arguing about,
-and that consistency within a codebase is worth more than either.
+The honest position: both are fine, neither is worth an argument, and consistency
+within a codebase is worth more than whichever one you personally prefer.
 
-## Where streams clearly win
+## And where streams win outright
 
-To be fair in the other direction:
+Fairness in the other direction, because the list is real:
 
-**Grouping and partitioning.** `groupingBy` in one expression against six lines of
-`computeIfAbsent`. This is the single strongest case.
+**Grouping and partitioning.** `groupingBy` in a single expression against six
+lines of `computeIfAbsent`. This is the strongest case there is.
 
-**Multi-stage transformations.** Four operations chained read better than four
-nested loops or four intermediate lists.
+**Multi-stage transformations.** Four chained operations read better than four
+nested loops or four intermediate lists, and it is not close.
 
 **Reading files.** `Files.lines(path).filter(...).map(...)` is genuinely nicer than
-the reader loop, and it closes the file if you use try-with-resources.
+the reader loop, and with try-with-resources it closes the file for you.
 
-**Anything with `flatMap`.** Flattening nested structures is awkward as a loop and
-natural as a pipeline.
+**Anything needing `flatMap`.** Flattening a nested structure is awkward as a loop
+and natural as a pipeline.
 
-## Functional style beyond streams
+## The part of this chapter that outlives the syntax
 
-The most valuable idea in this chapter is not the syntax. It is the discipline
-Section 26.1.3 named:
+If you remember one thing from these lessons, do not let it be the syntax. Let it
+be the discipline named in Section 26.1.3.
 
-**Write pure functions where you can.** Read the arguments, return a value, touch
-nothing else. Such a method is testable without setup, safe to call twice, safe to
-move, and safe on several threads.
+**Write pure functions wherever you can.** Read the arguments, return a value,
+touch nothing else. A method like that is testable with no setup, safe to call
+twice, safe to move, and safe on several threads at once.
 
-**Separate the pure part from the effectful part.** A program that reads input,
-computes, and writes output should have the computation in pure methods and the
-reading and writing at the edges. That structure is testable in the middle, which
-is where the logic is, and it is Chapter 23's "do not read the clock inside a
-class" generalized.
+**Keep the pure part away from the effectful part.** A program that reads input,
+computes, and writes output should hold the computation in pure methods with the
+reading and writing pushed out to the edges. That shape is testable in the middle,
+which is where all the logic lives — and it is Chapter 23's "do not read the clock
+inside a class", generalized to the whole program.
 
-**Prefer immutable data.** Chapter 20's argument, and it is what makes purity
-achievable — a function cannot accidentally modify what it cannot modify.
+**Prefer immutable data.** This is Chapter 20's argument, and it is what makes
+purity reachable rather than aspirational: a function cannot accidentally modify
+what it is not able to modify.
 
-None of these require a lambda. They are available in the Java of Chapter 11, and
-this chapter's real contribution is that lambdas make the pure parts small enough
-to pass around, which turns a discipline into a convenience.
+Here is the thing worth noticing about all three. **None of them needs a lambda.**
+Every one was available in the Java of Chapter 11. What this chapter actually
+contributed is that lambdas make the pure parts small enough to pass around
+comfortably — which quietly turns a discipline into a convenience, and that is why
+the ideas spread.
 
-Backus argued for exactly this in his 1977 Turing Award lecture, which Chapter 24
-recommended: that assignment and iteration make programs hard to reason about, and
-that composing functions is the better foundation. He overstated it — the language
-he proposed found no users — but the diagnosis was right, and thirty years later
-every mainstream language grew the features in this chapter.
+John Backus argued for exactly this in his 1977 Turing Award lecture, the one
+Chapter 24 recommended: that assignment and iteration make programs hard to reason
+about, and that composing functions is a better foundation to build on. He
+overstated the case, and the language he proposed found no users at all. But the
+diagnosis was right, and thirty years later every mainstream language had grown the
+features in this chapter.
 
-Chapter 27 closes the unit by turning the mirror the other way: a program that
-examines not its data but itself.
+Chapter 27 closes the unit by turning the mirror around: a program that examines
+not its data, but itself.

@@ -1,37 +1,42 @@
 # Where to Handle
 
-Catching an exception feels responsible. Letting one pass through your method feels
-careless.
+Catching an exception feels responsible. Letting one travel straight through your
+method feels like getting away with something.
 
-It is the other way round, and this lesson is about why. A `catch` block that
-cannot improve the situation has not handled anything — it has only removed
-information that somebody further up was going to need.
+It is the other way round, and this lesson is about why.
 
-The mechanism was the easy part. This is the part that decides whether anybody
+Here is the claim, and it is worth stating baldly before we soften it: **a `catch`
+block that cannot improve the situation has not handled anything.** It has removed
+information that somebody further up the call stack was going to need, and it has
+done so while looking diligent.
+
+The mechanism was the easy part. This is the part that determines whether anybody
 enjoys operating your program at three in the morning.
 
-## The test
+## One test, and it fits on a line
 
 **Catch an exception where you can do something meaningful about it.**
 
-Meaningful means one of a short list:
+"Meaningful" is not a matter of taste. It means one of these:
 
-- retry, possibly after a wait
-- fall back to an alternative — a cached value, a default, a second server
-- report it to a user in terms they can act on
-- record it and continue with the remaining work
+- retry, possibly after waiting
+- fall back to something else — a cached value, a default, a second server
+- tell a user something they can act on
+- record it and carry on with the remaining work
 - add context and rethrow
 
-If none of those applies at this point in the program, do not catch. Let it pass.
+Look at where you are in the program and ask which of those five you are in a
+position to do. If the answer is none of them, do not catch. Let it go past.
 
-## The three wrong places
+## Three wrong places, and you have probably written all three
 
 **Too low.** A parsing method that catches its own failure and returns a default
-has destroyed the caller's ability to distinguish "the field was 0" from "the
-field was garbage". The parser does not know which the caller wants; only the
-caller does.
+has destroyed something. The caller can no longer distinguish "the field contained
+0" from "the field contained garbage" — and those call for different responses.
+The parser cannot know which one the caller wanted, because only the caller knows.
 
-**Too broad.**
+**Too broad.** Read this one and count the distinct failures it is pretending are
+the same failure:
 
 ```java
 try {
@@ -43,39 +48,43 @@ try {
 }
 ```
 
-Three different failures with three different responses, collapsed into one
-message that says nothing. And `catch (Exception e)` also caught the
-`NullPointerException` from the bug in `loadConfig`, reported it as "startup
-failed", and lost the stack trace.
+Three operations, three completely different things that could go wrong, three
+different sensible responses — flattened into one message that tells the operator
+nothing at all.
 
-**Everywhere.** A `try/catch` around every call produces code where the error
-handling outweighs the logic and no reader can find the main path. It also
-guarantees the too-low problem at every level.
+And it is worse than it looks. That `catch (Exception e)` also caught the
+`NullPointerException` from the bug in `loadConfig`, announced it as "startup
+failed", and threw away the stack trace that would have located it.
 
-## The right shape
+**Everywhere.** A `try/catch` wrapped around every call gives you code in which the
+error handling outweighs the logic and no reader can find the main path through it.
+It also guarantees the too-low problem, at every single level.
 
-Most programs want error handling concentrated at a small number of **boundaries**:
+## What the right shape looks like
 
-**The top of a request.** A web server catches around each request, logs, and
-returns a 500. One handler covers every failure inside, and the request that
-failed does not take the server down.
+Most programs want their error handling gathered at a small number of
+**boundaries** — places where a unit of work begins and ends.
+
+**The top of a request.** A web server catches around each incoming request, logs
+it, returns a 500. One handler covers every failure that could happen inside, and
+the request that failed does not take the whole server with it.
 
 **The top of a task.** A batch job catches around each item, records the failure,
-and continues with the rest. One bad record does not lose the run.
+and moves to the next one. One bad record does not cost you the run.
 
-**The user's action.** A desktop application catches around each command and shows
-a message. Chapter 30's event loop is exactly this.
+**The user's action.** A desktop application catches around each command and puts a
+message on the screen. The event loop of Chapter 30 is precisely this.
 
-**The top of `main`.** The last resort, so that an unexpected failure produces a
-useful log rather than a bare trace.
+**The top of `main`.** Last resort, so that something unexpected produces a useful
+log entry rather than a bare stack trace on somebody's terminal.
 
-Between those boundaries, most code should not mention exceptions at all. That is
-the propagation argument from Section 28.1.1 paying off: the methods with nothing
-to say say nothing.
+In between those boundaries, most of your code should not mention exceptions at
+all. Which is the propagation argument from Section 28.1.1 finally paying for
+itself: the methods with nothing useful to say get to say nothing.
 
-## Adding context on the way through
+## The one exception to the rule
 
-The exception to the rule, and it is worth taking:
+Take this one, because it is legitimate and badly undervalued:
 
 ```java
 try {
@@ -85,37 +94,42 @@ try {
 }
 ```
 
-This handler does not fix anything. It adds information that only exists here —
-the line number and the file name — and passes the failure on with the cause
-attached.
+That handler fixes nothing. It cannot. What it does is attach information that
+exists *only here* — the line number, the file name — and send the failure onward
+with the original cause still attached.
 
-That is legitimate and undervalued. The difference between an operator reading
-`NumberFormatException: For input string: "N/A"` and reading `line 4,127 of
-customers.csv, caused by NumberFormatException: For input string: "N/A"` is the
-difference between an hour and a minute.
+Consider the difference from the other end. An operator reading
 
-The rule: **catch to add context, or catch to act. Never catch to be seen
-catching.**
+`NumberFormatException: For input string: "N/A"`
 
-## Recovery is rarer than it looks
+against an operator reading
 
-Most exceptions cannot be recovered from in any local sense, and it helps to be
-realistic about which can.
+`line 4,127 of customers.csv, caused by NumberFormatException: For input string: "N/A"`
 
-**Genuinely recoverable**: a transient network failure, worth retrying with a
-backoff. A missing optional config file, worth defaulting. A malformed record in
-a batch, worth skipping and recording.
+is the difference between an hour of work and a minute of it. Same bug. Same
+exception. One of them tells you where to look.
 
-**Not recoverable**: a missing required config file. A `NullPointerException`. An
-unparseable database schema. Anything indicating the program's assumptions are
-wrong.
+So: **catch to add context, or catch to act. Never catch to be seen catching.**
 
-For that second group the right response is to stop, which is what the next lesson
-is about. Carrying on means running code whose preconditions you already know are
-false, and what happens next is unpredictable and usually worse than
-stopping.
+## Recovery is rarer than you would like
 
-## Retries, since everyone writes one
+It is worth being honest about how few exceptions can actually be recovered from
+where they happen.
+
+**Genuinely recoverable**: a transient network failure, worth a retry with a
+backoff. A missing *optional* config file, worth a default. A malformed record in
+the middle of a batch, worth skipping and recording.
+
+**Not recoverable**: a missing *required* config file. A `NullPointerException`. A
+database schema that will not parse. Anything at all that means your program's
+assumptions about the world are wrong.
+
+For that second group the correct response is to stop, which is what the next
+lesson argues in full. Carrying on means executing code whose preconditions you
+already know to be false, and what happens after that is unpredictable and
+generally worse than the stopping would have been.
+
+## Retries, since you are going to write one
 
 ```java
 for (int attempt = 1; attempt <= 3; attempt++) {
@@ -127,21 +141,22 @@ for (int attempt = 1; attempt <= 3; attempt++) {
 }
 ```
 
-Three things this gets right and that naive retry loops get wrong.
+Three things in there are right, and naive retry loops get all three wrong.
 
-**A bound.** Retrying forever converts a failure into a hang, which is harder to
-diagnose.
+**There is a bound.** Retrying forever turns a failure into a hang, and a hang is
+considerably harder to diagnose than a crash — nothing is reported, nothing is
+logged, and the program sits there looking busy.
 
-**A backoff.** Immediate retries hammer a service that is already struggling, and
-if many clients do it the effect is an outage that would otherwise have been a
-blip.
+**There is a backoff.** Retrying instantly hammers a service that is already in
+trouble. When many clients do it at once, the thing that would have been a
+five-second blip becomes an outage, and the clients caused it.
 
-**The last failure is rethrown with a cause.** Giving up silently after three
-attempts is the swallowing problem with extra steps.
+**The final failure is rethrown, with its cause.** Giving up quietly after three
+attempts is the swallowing problem again, wearing a loop.
 
-And one thing to check before writing any retry: **is the operation safe to repeat?**
-Retrying a read is fine. Retrying a payment may charge twice. If the operation is
-not idempotent, a retry needs a request identifier the server can recognize, and
-that is a design decision rather than a loop.
+And one question to settle before you write any retry at all: **is this operation
+safe to repeat?** Retrying a read is fine. Retrying a payment may charge somebody
+twice. If the operation is not idempotent then a retry needs a request identifier
+the server can recognize as a duplicate — which is a design decision, not a loop.
 
 Next: making sure things get closed.

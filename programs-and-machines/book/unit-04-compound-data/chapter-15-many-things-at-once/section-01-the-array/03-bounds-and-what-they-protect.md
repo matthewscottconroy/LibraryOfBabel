@@ -5,51 +5,70 @@ int[] a = {3, 1, 4, 1, 5};
 System.out.println(a[5]);
 ```
 
+Five elements, and we have asked for the sixth. Decide what happens before you read
+on — and in particular, decide whether you think anything *should* happen.
+
 ```
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
 ```
 
-Java checks every array access. Every single one, at run time, comparing the index
-against the length before doing the arithmetic.
+Java checked. It compared the index against the length before doing any arithmetic,
+and it does that on **every single array access** in every program you have ever
+run.
 
-That is a cost, and it is worth understanding what it buys.
+That is not free. So the question worth asking is what you are getting for it, and
+the answer is considerably larger than the question suggests.
 
-## What would happen without the check
+## What happens on a machine that does not check
 
-The address formula does not care whether the index is in range:
+Go back to the address formula. Notice that it has no opinion about whether your
+index is sensible:
 
 ```
 address = base + 5 × 4 = base + 20
 ```
 
-For a five-element array occupying bytes 0–19, that address is the byte
-*immediately after* the array — which belongs to something else. Another variable,
-another object, or part of the machinery of the program.
+For a five-element array living in bytes 0 through 19, that address is the byte
+*immediately after* the array. Which is not nothing. It belongs to something —
+another variable, another object, or a piece of the machinery that is running your
+program.
 
-Without a check, reading it returns whatever is there, and writing it **modifies
-something else**. Not an error; a silent corruption of unrelated data, which then
-misbehaves somewhere far away. Chapter 10's distance between mistake and symptom,
-maximized.
+So without a check, reading `a[5]` hands you whatever happens to be sitting there.
+And writing to `a[5]` **modifies something else entirely**.
 
-Worse, the something else can be chosen deliberately. Chapter 6 described the
-stored-program idea and noted its cost: anything that can write data can write
-instructions. A **buffer overflow** attack supplies input long enough to write past
-the end of an array and into the region holding a return address, so that when the
-method returns, control transfers wherever the attacker chose.
+Sit with that for a second. Not an error. Not a crash. A silent corruption of
+unrelated data, which then goes on to misbehave somewhere else in the program,
+possibly much later, in code that is completely innocent. It is the distance
+between mistake and symptom from Chapter 10, stretched about as far as it will go.
 
-That single technique accounts for an enormous share of the security
-vulnerabilities of the past four decades. It is possible in C, and it is
-impossible in Java, and this check is why.
+And now the part that turns a bug into a catastrophe: **the something else can be
+chosen deliberately.**
 
-## The cost
+Chapter 6 described the stored-program idea, and noted the price it carries —
+anything that can write data can write instructions. A **buffer overflow** attack
+is that price being collected. Supply input long enough to run off the end of an
+array and into the region holding a return address, and when the method returns,
+control goes wherever the attacker put it. Their data has become your program's
+next instruction.
 
-A comparison and a branch on every access. In a tight loop over a large array,
-that is real.
+That one technique accounts for an enormous share of the security vulnerabilities
+of the past forty years. It is possible in C. It is impossible in Java. This check
+is the entire reason.
 
-It is also less than you would expect, for two reasons. Modern processors predict
-the branch correctly nearly every time, so the cost is close to nothing in
-practice. And the JIT compiler of Chapter 5 can often prove the check unnecessary
-— in
+## So what does the check cost?
+
+A comparison and a branch, on every access. In a tight loop over a large array that
+sounds expensive, and your instinct is probably that it is.
+
+It is much cheaper than you would think, for two separate reasons.
+
+First, modern processors predict that branch correctly nearly every time — the
+index is almost always in range, the predictor learns this immediately, and the
+cost collapses to approximately nothing.
+
+Second, and more satisfying, the JIT compiler from Chapter 5 can often prove the
+check is unnecessary and delete it. Look at this loop and you can make the same
+argument the compiler makes:
 
 ```java
 for (int i = 0; i < a.length; i++) {
@@ -57,58 +76,63 @@ for (int i = 0; i < a.length; i++) {
 }
 ```
 
-the loop condition already guarantees `i < a.length`, so the compiler removes the
-per-access check entirely. This is called **bounds check elimination**, and it
-means idiomatic loops usually pay nothing.
+The loop condition *already guarantees* `i < a.length`. Checking it again inside is
+redundant, the compiler can see that it is redundant, and so it removes the
+per-access check completely. This is called **bounds check elimination**, and it
+means that ordinary idiomatic loops usually pay nothing at all.
 
-Which is a nice illustration of a general point: writing the ordinary, obvious
-form of a loop lets the optimizer help you, while a clever hand-optimized version
-frequently defeats it.
+There is a general lesson hiding in there, and it is one of the more useful things
+to know about optimizers: **writing the plain, ordinary form of a loop lets the
+optimizer help you.** A clever hand-tuned version frequently defeats it, because
+the compiler can no longer prove the thing it needed to prove.
 
 ## The trade, stated plainly
 
-Java made a choice: **spend a little speed to eliminate a category of failure
-entirely.**
+Java made a choice here: **spend a little speed to eliminate an entire category of
+failure.**
 
-C made the other one, and it is not a foolish choice — it was made when processors
-were far slower and the cost mattered more, and C's purpose is to be usable where
-nothing else is.
+C made the opposite choice, and it was not a foolish one. It was made when
+processors were far slower and that comparison genuinely mattered, and C exists to
+be usable in places where nothing else is.
 
-But the consequences are on record. Analyses of the vulnerability histories of
-large C and C++ codebases — including Microsoft's and Google's Chromium — have
-repeatedly attributed something in the region of two thirds of serious security
-defects to memory safety errors, of which out-of-bounds access is the largest
-category. Java has essentially none of these.
+But the consequences are now a matter of public record. Analyses of the
+vulnerability histories of large C and C++ codebases — Microsoft's and Google's
+Chromium among them — have repeatedly attributed something in the region of two
+thirds of serious security defects to memory safety errors, with out-of-bounds
+access the largest single category. Java has essentially none of these.
 
-This is Chapter 1's pattern once more. A fixed-size region with an enforced
-boundary buys safety and costs flexibility. The novelty here is that the price is
-now known and the industry has largely decided it was worth paying — newer
-systems languages are designed for memory safety from the start.
+Which is Chapter 1's pattern again, for the third time in this book. A fixed region
+with an enforced boundary buys safety and costs flexibility. What is new here is
+that the price has now been measured, in public, at scale — and the industry has
+largely concluded it was worth paying. Newer systems languages are designed for
+memory safety from the first day.
 
-## Reading the error
+## Reading the error when it happens to you
 
-Chapter 10 covered this and it is worth repeating because you will see it often:
+You will meet this message often enough that it repays thirty seconds of attention:
 
 ```
 Index 5 out of bounds for length 5
 ```
 
-Both numbers are given. Index 5, length 5, so valid indices are 0 to 4 — the
-index is exactly one too large, which is the signature of `<=` where `<` was
-meant, or of `a.length` where `a.length - 1` was meant.
+Both numbers are right there. Index 5, length 5, so the valid indices were 0
+through 4. The index is exactly one too large — which is the fingerprint of a `<=`
+where you meant `<`, or an `a.length` where you meant `a.length - 1`.
 
-An index of −1 usually means a search returned "not found" and the result was used
-without checking. A wildly wrong index usually means the wrong variable.
+Two other patterns worth recognizing on sight. An index of −1 almost always means a
+search returned "not found" and somebody used the result without checking it. A
+wildly wrong index — 4,000,000 for a length of 10 — almost always means you indexed
+with the wrong variable.
 
-## Defensive habits
+## Habits that keep you out of it
 
-**Use `a.length`, never a literal.** Writing `for (int i = 0; i < 5; i++)` breaks
-silently when the array changes size.
+**Use `a.length`, never a literal.** `for (int i = 0; i < 5; i++)` works today and
+breaks silently the day the array changes size.
 
-**Prefer the enhanced `for`** when you do not need the index — no index, no index
-error.
+**Prefer the enhanced `for`** whenever you do not actually need the index. No
+index, no index error, and nothing to get wrong.
 
-**Check before indexing** when the index comes from outside:
+**Check before indexing** when the index came from outside your program:
 
 ```java
 if (i >= 0 && i < a.length) {
@@ -116,10 +140,12 @@ if (i >= 0 && i < a.length) {
 }
 ```
 
-Note the order, which is Chapter 8's short-circuit rule: check the range before
-using it.
+The order of those two conditions is not arbitrary — it is Chapter 8's
+short-circuit rule doing real work. Check that the index is in range *before* you
+use it.
 
-**Remember that arrays of objects start full of `null`.** Bounds checking protects
-you from indices, not from unfilled elements.
+**And remember that an array of objects starts out full of `null`.** Bounds
+checking protects you from bad indices. It has nothing at all to say about elements
+you never filled in.
 
 Next: arrays containing arrays.

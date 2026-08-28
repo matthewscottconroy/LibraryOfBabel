@@ -55,8 +55,10 @@ An interface with one method — Chapter 26's functional interface:
 interface Listener { void handle(Event e); }
 ```
 
-So a lambda satisfies it, which is why modern interface code reads as it does.
-Before Java 8 the same thing was:
+One method, so a lambda satisfies it — which is why the code above is one line.
+
+It was not always. Here is the same registration, written the only way it could be
+written before 2014:
 
 ```java
 button.addActionListener(new ActionListener() {
@@ -64,17 +66,23 @@ button.addActionListener(new ActionListener() {
 });
 ```
 
-Five lines for one call. Multiply by every control in an application and you have
-the reason lambdas were added; interface code was the motivating use case, and
-`ActionListener` had been a functional interface for sixteen years before there
-was a notation for it.
+Five lines to say `save()`. Now multiply that by every button, menu item, slider
+and checkbox in an application, and you have a fair share of why lambdas were added
+to the language at all.
 
-## Inversion of control
+And here is the part I find genuinely funny. `ActionListener` had been a
+functional interface since 1998. Nothing about it needed to change. Java spent
+sixteen years with the concept fully in place and no notation short enough to use
+it comfortably.
 
-Step back and notice what has happened to the shape of the program.
+## What has happened to your program
 
-A batch program's `main` reads top to bottom, and you can follow it. An
-event-driven program's `main` is:
+Step back from the syntax for a moment and look at the shape of the thing you are
+building, because it has quietly turned inside out.
+
+You know how a program reads. `main` starts at the top, goes to the bottom, and if
+you are patient you can follow every step. Here is `main` in an application with a
+window:
 
 ```java
 public static void main(String[] args) {
@@ -83,33 +91,37 @@ public static void main(String[] args) {
 }
 ```
 
-After `run()`, `main` does nothing until the program exits. All the behavior is in
-handlers, called from outside, in an order nobody wrote down.
+That is the whole of it. After `run()`, `main` does nothing for the rest of the
+program's life. Every behaviour your application has lives in a handler, called
+from outside, in an order that appears nowhere in your source.
 
-This is **inversion of control**, sometimes stated as the Hollywood principle:
-*don't call us, we'll call you.* Section 22.1.2's template method was a small
-version — a parent calling into a subclass's steps — and this is the same idea
-governing a whole program.
+This is **inversion of control**, and it has a nickname — the Hollywood principle:
+*don't call us, we'll call you.* You met a small version of it in Chapter 22, where
+a parent class called down into a subclass's steps. This is the same idea, scaled
+up until it governs everything.
 
-Three things change, and they are worth anticipating.
+Three things change once you are living here, and it is worth knowing them in
+advance rather than discovering them.
 
 **There is no single flow to read.** Understanding what happens when a button is
 pressed means finding its listener, and understanding the program means
 understanding a set of handlers and the state they share.
 
-**State becomes the connection between handlers.** One handler sets something, a
-later one reads it. That shared state is the program's real structure, and it is
-Chapter 19's argument arriving with force — if the state is scattered across
-handlers, nothing can be reasoned about.
+**State becomes the wiring.** One handler sets something; a later one reads it.
+That shared state is now the real structure of your program — it is what connects
+behaviours that never call each other. Which makes Chapter 19's argument urgent
+rather than tidy: scatter that state across a dozen handlers and there is nothing
+left to reason about.
 
 **Order is not yours.** A handler cannot assume another has run. Anything one
 handler needs must either be established at construction or be checked.
 
-## Handlers should be small
+## Keep handlers small
 
-Which gives the rule that keeps event-driven code readable:
+All of which gives one rule, and following it is most of what keeps event-driven
+code readable:
 
-**A handler should decide what to do and delegate.**
+**A handler decides what to do, and then delegates.**
 
 ```java
 saveButton.addActionListener(e -> {                     // good
@@ -122,12 +134,12 @@ saveButton.addActionListener(e -> {                     // good
 });
 ```
 
-The listener translates a user action into a call on the model, and reports the
-outcome. The saving logic is in `Document`, where it can be tested without a
-window.
+The listener does two things: turn a click into a call, and report what happened.
+The actual work of saving lives in `Document`, where you can test it without ever
+opening a window.
 
-The alternative — a hundred lines of file handling inside a listener — is the
-commonest failure mode in interface code, and it produces a program whose logic
+The alternative — a hundred lines of file handling inside the listener — is the
+single commonest failure in interface code, and it produces a program whose logic
 cannot be tested at all, because reaching it requires a click.
 
 Note also that the handler catches. It is the boundary Section 28.2.1 described:

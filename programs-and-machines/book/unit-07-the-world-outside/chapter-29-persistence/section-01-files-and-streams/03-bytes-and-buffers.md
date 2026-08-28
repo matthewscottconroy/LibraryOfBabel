@@ -3,13 +3,11 @@
 Two programs read the same 200,000-byte file one byte at a time. One takes 43
 milliseconds and the other takes 3.
 
-They differ by a single wrapper object. What that wrapper does is worth
-understanding beyond the fourteen-fold speedup, because the same shape — a fixed
-cost per operation, much larger than the work itself — is behind cache lines,
-`ArrayList` growth, database round trips, and network packets.
+They differ by one wrapper object.
 
-Under the text lies a byte stream, and under the byte stream lies a system call.
-That last layer is why buffering exists.
+That is a fourteen-fold difference from a single line of code, and the reason for
+it lives two layers below anything you have written: under the text is a byte
+stream, and under the byte stream is a system call.
 
 ## The measurement
 

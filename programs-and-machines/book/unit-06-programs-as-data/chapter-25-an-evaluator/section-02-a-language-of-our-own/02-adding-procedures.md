@@ -30,13 +30,14 @@ be walked later, possibly many times, possibly never. A procedure definition is
 the act of putting a piece of unevaluated syntax somewhere retrievable.
 
 Stay with that, because it is the sharpest form this unit's claim ever takes.
-`x * x` sitting inside a `Procedure` is a data structure and nothing more. It
-becomes a
-computation when `apply` hands it to `eval`, and not before.
+
+`x * x`, sitting inside a `Procedure`, is a data structure. Three fields and a
+pointer. It is no more a computation than a recipe is a dinner — and it becomes one
+at the exact moment `apply` hands it to `eval`, and not one instant before.
 
 ## Calling one
 
-The tree gains a node — the fourth shape Chapter 24 predicted:
+The tree needs a fourth shape, and Chapter 24 told you this one was coming:
 
 ```java
 sealed interface Expr permits Num, Var, Bin, Call, If { }
@@ -64,8 +65,9 @@ case NAME: {
 }
 ```
 
-`square` is a `Var`; `square(` is a `Call`. One token of lookahead, which is
-Section 24.2.3's LL(1) exactly.
+`square` is a variable. `square(` is a call. The whole distinction is one
+character, and the parser resolves it by peeking exactly one token ahead — which
+is the LL(1) property of the last chapter, being used rather than described.
 
 ## eval and apply meet
 
@@ -91,20 +93,23 @@ int apply(Procedure p, List<Integer> args) {
 }
 ```
 
-There is the loop. `eval` evaluates the arguments **in the caller's environment**,
-then `apply` binds them **in a new one**, then `eval` runs the body there.
+And there is the loop the whole chapter was named for. `eval` evaluates the
+arguments **where the caller stands**, `apply` binds them **somewhere new**, and
+`eval` runs the body there.
 
-Three details, each a language decision.
+Now look at three details in those ten lines. Not one of them is forced. Each is a
+decision somebody made about what a language should be, and you are making all
+three right now by writing this code rather than different code.
 
 **Arguments are evaluated before the call.** Call by value, and it means
 `square(2 + 3)` computes 5 and passes 5. The alternative — passing the unevaluated
 expression and evaluating it if the body uses it — is call by name, and it changes
 what `f(expensive())` costs when `f` ignores its argument.
 
-**The values are `int`, so nothing is shared.** Our language has no reference
-semantics, which means Chapter 20's aliasing cannot happen and Chapter 11's
-pass-by-value discussion has nothing to qualify. Add a mutable value type and the
-whole of Chapter 20 arrives at once.
+**The values are `int`, so nothing is shared.** Our language has no references,
+which means aliasing cannot occur in it — the entire difficulty of Chapter 20
+cannot arise here at all. Enjoy that while it lasts. Add one mutable value type and
+all of Chapter 20 walks in at once, uninvited.
 
 **Arity is checked here, at run time.** Verified:
 
@@ -112,11 +117,14 @@ whole of Chapter 20 arrives at once.
 def g(a) = a; print g(1, 2);   ==>  g expects 1 arguments but got 2
 ```
 
-Java checks this at compile time, because it knows every method's signature before
-running. We could too — the procedure table is complete once parsing finishes. It
-is the same static-versus-dynamic decision as the undefined-variable check, in a
-second place, which is a hint that these decisions come as a set rather than one
-at a time.
+Java catches that before your program ever starts, because it knows every
+signature at compile time. We could too — our procedure table is complete the
+moment parsing finishes, and nothing stops us walking the tree once and checking.
+
+Notice that this is the *second* time the same choice has come up, after the
+undefined-variable check. That is not a coincidence. These decisions arrive as a
+set: a language tends to be early-checking or late-checking throughout, because
+the machinery you build for one gives you the other for free.
 
 Verified:
 

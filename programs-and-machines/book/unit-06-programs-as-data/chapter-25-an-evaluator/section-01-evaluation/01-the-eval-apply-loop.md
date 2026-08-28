@@ -8,9 +8,8 @@ His student Steve Russell noticed that a definition this precise is also a
 program, hand-compiled it into machine code, and Lisp had an interpreter nobody
 had planned to build.
 
-The structure he compiled is the structure you are about to write.
-
-Every interpreter ever written has the same skeleton. Two functions:
+The structure Russell compiled is the structure you are about to write, and it has
+not changed since. Two functions:
 
 > **`eval`** takes an expression and an environment, and produces a value.
 >
@@ -68,11 +67,9 @@ Computation by Machine, Part I*. The paper defines Lisp, and about half way
 through it defines a function called `eval` that takes a Lisp expression —
 represented as a Lisp list — and computes its value.
 
-McCarthy's intent was theoretical. He wanted a small, precise definition of the
-language, in the language, to show that it was well defined: a **metacircular
-evaluator**. His student Steve Russell then observed that this definition could
-be *implemented* as it stood, hand-compiled it into machine code, and Lisp had an
-interpreter. McCarthy reportedly did not expect this to work.
+That is the definition this lesson opened with, and it has a proper name: a
+**metacircular evaluator** — a language described in itself, precisely enough that
+the description leaves no room for argument.
 
 One idea outlived all the rest of it, and it is the reason this unit exists.
 

@@ -10,23 +10,22 @@ does not start next time.
 The fix is two lines, and knowing it is the difference between a program that
 survives being switched off and one that does not.
 
-The data will be read by a version of your program that does not exist yet. That
-is the design constraint, and almost everything in this lesson follows from it.
+Behind that, and behind everything else in this lesson, is one constraint: the data
+you write today will be read by a version of your program that does not exist yet.
 
 ## The interrupted write
-
-Start with the failure that surprises people.
 
 ```java
 Files.writeString(target, newContents);
 ```
 
-That window — between the truncation of `target` and the last byte written — is
-where the trouble lives. Come out of it early and you have a file that is neither
-the old contents nor the new.
+One line, and a window inside it. Between the truncation of `target` and the last
+byte written, the file on disk is neither the old contents nor the new — and
+anything that stops the program in that window leaves it that way permanently.
 
-For a configuration file, that means the program does not start next time. For a
-data file, it means silent loss.
+For a data file that is silent loss. For a configuration file it is worse: the
+program will not start next time, and the thing that would have told you why is the
+file that is now half written.
 
 The fix is two lines and it is standard practice:
 

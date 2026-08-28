@@ -12,10 +12,8 @@ there are four billion of them.
 Every one of those problems comes from the same source: you knew the set was
 closed and had no way to say so.
 
-Some sets are finite and known. Days of the week. Suits in a deck. The three
-states a traffic light can be in.
-
-The bad way to represent them, which was normal in Java before 1.5:
+Here is how everybody did it before Java 1.5, and how a surprising amount of code
+still does:
 
 ```java
 static final int SUNNY = 0;
@@ -23,11 +21,13 @@ static final int RAINY = 1;
 static final int SNOWY = 2;
 ```
 
-Chapter 1's argument about encodings, in its unhappiest form. Nothing stops
-`weather = 7`. Nothing stops passing a weather where a day was expected — both
-are `int`. Printing gives `1`, not `RAINY`. And the compiler cannot tell you that
-a `switch` forgot a case, because as far as it knows there are four billion of
-them.
+Three names, three numbers, and every failure listed above now available to you in
+your own code. `weather = 7` compiles. So does handing a weather to something
+expecting a day. Printing gives you `1`.
+
+It is Chapter 1's argument about encodings in its most miserable form: a pattern
+that means whatever anybody decides it means, with nothing anywhere to hold the
+agreement in place.
 
 ## The construct
 

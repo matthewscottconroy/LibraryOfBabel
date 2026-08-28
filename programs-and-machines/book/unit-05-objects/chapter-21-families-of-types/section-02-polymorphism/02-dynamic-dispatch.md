@@ -10,11 +10,9 @@ Nothing was recompiled. So the decision about *which* method runs cannot have be
 made when the call was compiled — and the mechanism that makes this work is worth
 knowing, because it explains both the power and the price.
 
-When the program reaches `s.area()`, something has to decide which `area` runs.
-The decision cannot be made when the code is compiled, because at that moment
-nobody knows what `s` will hold. It is made when the call happens, from the object
-itself. That mechanism is **dynamic dispatch**, and it is worth knowing how it
-works because it explains both the power and the price.
+The mechanism has a name — **dynamic dispatch** — and it is worth following in
+detail, because the same few instructions explain both why this is powerful and
+what it costs.
 
 ## The method table
 

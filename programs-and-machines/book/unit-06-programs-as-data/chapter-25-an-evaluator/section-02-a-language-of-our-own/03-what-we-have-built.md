@@ -27,9 +27,6 @@ understanding is not proportional to code size.
 
 ## What it is missing
 
-An honest list, because a list of absences describes a language as well as a list
-of features.
-
 **Closures.** Procedures cannot be defined inside procedures, and a `Procedure`
 does not remember where it was created. Six lines fixes it: store the defining
 `Env` in the record and use it as the parent in `apply`. Chapter 26 shows what

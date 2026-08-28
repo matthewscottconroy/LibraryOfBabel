@@ -66,10 +66,6 @@ people the first time.
 The hard part of interface construction is not creating components; it is
 deciding where they go when the window is resized.
 
-The naive approach is absolute positioning: `setBounds(10, 10, 100, 30)`. It works
-until the window is resized, or the font is larger, or the text is translated into
-German, or the display has a different pixel density. All four happen.
-
 So toolkits use **layout managers**: an object attached to a container that
 computes its children's positions from a policy.
 

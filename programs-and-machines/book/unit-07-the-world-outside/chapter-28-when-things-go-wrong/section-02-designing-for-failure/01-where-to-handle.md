@@ -7,9 +7,8 @@ It is the other way round, and this lesson is about why. A `catch` block that
 cannot improve the situation has not handled anything — it has only removed
 information that somebody further up was going to need.
 
-The mechanism is easy. The question that decides whether a program is pleasant to
-operate is *where* the `catch` goes, and the usual answer is: further up than you
-first want to put it.
+The mechanism was the easy part. This is the part that decides whether anybody
+enjoys operating your program at three in the morning.
 
 ## The test
 
@@ -24,10 +23,6 @@ Meaningful means one of a short list:
 - add context and rethrow
 
 If none of those applies at this point in the program, do not catch. Let it pass.
-
-That rule is uncomfortable at first, because catching feels responsible and
-letting an exception through feels careless. It is the other way round: a `catch`
-that does not improve the situation has only hidden information.
 
 ## The three wrong places
 

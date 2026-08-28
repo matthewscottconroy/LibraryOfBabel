@@ -2,11 +2,6 @@
 
 Now the syntax, and one warning that prevents most of the confusion.
 
-A stream is not a collection. It holds no elements. It is a description of a
-computation that has not happened yet, and every surprising thing about streams —
-why nothing runs until the last line, why an infinite one terminates, why a
-pipeline can examine four elements out of ten — follows from that one fact.
-
 ```java
 int total = ns.stream()
               .filter(n -> n % 2 == 0)

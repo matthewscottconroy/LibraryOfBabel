@@ -1,7 +1,12 @@
 # Printing and Observing
 
-A program that computes without reporting is not much use to a learner. Before we
-can look at bits, we need to be able to look at anything.
+A program that computes without reporting anything is no use to somebody trying to
+learn what it did.
+
+That matters more here than it might elsewhere, because this whole chapter is about
+building yourself an instrument — something you can point at a value to find out
+what is actually in there. And before you can look at bits, you have to be able to
+look at anything at all.
 
 ## The three printing methods
 
@@ -66,6 +71,8 @@ System.out.println("value is " + 214);
 
 When one operand is a string, Java converts the other to a string and joins them.
 This is convenient and has one trap worth meeting now:
+
+Cover the comments and predict both lines.
 
 ```java
 System.out.println("sum: " + 1 + 2);      // prints  sum: 12

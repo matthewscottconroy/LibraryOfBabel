@@ -1,9 +1,11 @@
 # A Class as an Object
 
-Chapter 21 used `getClass()` in passing to find out what an object actually was.
-That was a hint, and it is worth taking seriously now.
+Back in Chapter 21 you called `getClass()` to find out what an object really was,
+and moved on without asking a question that was sitting right there.
 
-Pull on it and something gives way. If `getClass()` *returns* something, then a
+`getClass()` *returns* something. What?
+
+Pull on that and something gives way. If `getClass()` *returns* something, then a
 class is not only a compile-time notion that evaporates once the compiler is done
 with it. There is an object, sitting in memory while your program runs, standing
 for `Account` itself.
@@ -100,10 +102,14 @@ id.setLong(a, 42);
 
 Verified: `final field now Account[42, 999999]`.
 
-The field was declared `private final`, assigned once in the constructor, and
-reflection changed it. Chapter 20's argument that immutability makes a whole
-category of reasoning disappear has just been shown to depend on nobody doing
-this.
+Read that output again, because it should bother you.
+
+The field was declared `private final`. It was assigned once, in the constructor,
+and the compiler enforced that. And reflection changed it anyway.
+
+Chapter 20's argument — that immutability makes an entire category of reasoning
+disappear — has just been revealed to rest on nobody doing what we did in three
+lines.
 
 ## setAccessible
 
@@ -135,8 +141,11 @@ k.getMethod("add", Object.class).invoke(list, "hello");
 
 Verified: `[hello] of ArrayList`.
 
-Nothing in that code mentions `ArrayList` as a type. The class was found from a
-string, instantiated, and had a method called on it, all decided at run time.
+Go through those three lines and try to find the word `ArrayList` used as a type.
+
+It is not there. It appears once, inside a string. The class was located from that
+string, instantiated, and had a method called on it — every one of those decisions
+taken while the program was running.
 
 That is the capability frameworks are built on, and it is worth being precise
 about what it enables: **a program can use a class that did not exist when the

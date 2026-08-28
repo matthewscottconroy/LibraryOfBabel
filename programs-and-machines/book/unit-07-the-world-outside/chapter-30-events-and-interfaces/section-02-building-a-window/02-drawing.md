@@ -3,10 +3,8 @@
 Pre-made components cover most interfaces, and then one day you need a chart, or a
 board, or a picture of a data structure, and there is no component for it.
 
-So you draw. The mechanism is a single method — and the rule governing it is the
-one that surprises everyone, because you are never allowed to call it.
-
-The mechanism is one method.
+So you draw it yourself. And the mechanism for that is smaller than you would
+expect — one method, which you override and never call.
 
 ```java
 class Canvas extends JPanel {
@@ -49,27 +47,34 @@ The consequences:
 **`paintComponent` must be able to run at any time.** It cannot assume anything
 about what has happened since the last call.
 
-**It must be fast.** It runs on the event loop, and you know what happens to
-everything else when the loop is busy. No file reading, no computation of any
-size. Compute into fields, draw
-from fields.
+**It must be fast.** It runs on the event loop, and you already know from Section
+30.1.1 what happens to every other part of the interface while that loop is busy.
+So: no file reading, no network, no computation of any size. Compute into fields
+elsewhere, and draw from fields here.
 
 **It must be idempotent** — drawing the same state twice must produce the same
 picture. A `paintComponent` that mutates state, advances an animation, or appends
 to a list is broken, because the number of calls is not yours to know.
 
-That last one is the trap. Drawing is a *function of state*, not a step in a
-process, and treating it as a step produces bugs that depend on how often the
-window happened to be uncovered.
+That last one is the real trap, and it is worth saying in one sentence you can
+keep: **drawing is a function of state, not a step in a process.**
+
+Treat it as a step and you get bugs whose behavior depends on how many times
+somebody happened to drag another window across yours. Those are not fun to
+find.
 
 ## The coordinate system
 
 The origin is the **top left**, x increases rightward, and y increases
 **downward**.
 
-That is upside down from mathematics and it catches everyone once. It comes from
-raster displays, which scan top to bottom, so a memory address increasing means a
-position moving down.
+That is upside down from every graph you have ever drawn, and it catches everybody
+exactly once.
+
+The reason is physical. Raster displays scan from the top of the screen to the
+bottom, so an increasing memory address corresponds to a position further down the
+glass. The coordinate system is the shape of a cathode ray tube, still visible
+fifty years later.
 
 Every graphics system does it — HTML canvas, Android, iOS, OpenGL's window
 coordinates. If your chart is mirrored vertically, this is why.

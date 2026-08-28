@@ -1,15 +1,17 @@
 # Abstraction Revisited
 
-The book's second idea ran alongside the first from Chapter 11 onward, and it is
-the one that took longer to say plainly.
-
-An abstraction's value is not what is behind it. It is what it lets you stop
-thinking about — and that framing explains why a method's name matters more than
-its body, why `private` is worth the keystrokes, and why an interface with nothing
-behind it at all is the purest form of the thing.
+The book's second idea has been running alongside the first since Chapter 11, and
+it took considerably longer to say plainly. Here it is in the form it finally
+reached:
 
 > An abstraction is a boundary. Its value is not what is behind it — it is what it
 > lets you stop thinking about.
+
+Read that a second time with the emphasis on *stop thinking about*, because the
+whole of Unit III and Unit V follow from it. It is why a method's name matters more
+than its body. It is why `private` is worth the keystrokes. And it is why an
+interface, which has nothing behind it whatsoever, turns out to be the purest form
+of the thing rather than a degenerate one.
 
 ## The climb again
 
@@ -69,11 +71,15 @@ same thing, and Chapter 26 measured ten times the cost, because boxing is not in
 the abstraction. `Files.lines` and `Files.readString` read the same file, and one
 works on ten gigabytes.
 
-The response is not to distrust abstractions — you cannot write a program without
-them — but to know **which** leak and **where**. The competent version of this
-skill is knowing that `List` hides memory layout, that generics hide erasure, that
-the JVM hides the processor, and being able to drop a level when the measurement
-disagrees with the model.
+The response to that is not to distrust abstractions. You cannot write a program
+without them, and a programmer who refuses to trust any of them writes assembly
+slowly.
+
+The response is to know **which** ones leak and **where**. That is the competent
+version of this skill, and it is smaller than it sounds: knowing that `List` hides
+memory layout, that generics hide erasure, that the JVM hides the processor — and
+being willing to drop a level on the day the measurement disagrees with the
+model.
 
 That is why this book kept going down. Chapter 15 explained cache lines so that
 Chapter 17's `LinkedList` result would make sense. Chapter 21 explained method

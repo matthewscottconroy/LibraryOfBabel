@@ -1,0 +1,31 @@
+{
+  "question_id": "b190e24f-8b85-42ab-a1bc-7b1256b3c64a",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Build a Huffman code with a priority queue. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Huffman {",
+    "    record Node(int freq, char ch, Node left, Node right) { }",
+    "    public static void main(String[] args) {",
+    "        Map<Character,Integer> f = Map.of('a',8,'b',4,'c',2,'d',2);",
+    "        PriorityQueue<Node> q = new PriorityQueue<>(___);",
+    "        f.forEach((c,n) -> q.add(new Node(n, c, null, null)));",
+    "        while (q.size() > 1) {",
+    "            Node x = ___, y = q.poll();     // the two least frequent",
+    "            q.add(___);                     // joined under a new parent",
+    "        }",
+    "        System.out.println(q.poll().freq());   // 16 -- the total",
+    "    }",
+    "}"
+  ],
+  "answer": "Comparator.comparingInt(Node::freq)|q.poll()|new Node(x.freq() + y.freq(), '\\0', x, y)",
+  "explanation": "Verified: 16. The greedy rule — always join the two least frequent — provably produces an optimal integer-length code, which neither Fano nor Shannon managed with their top-down approaches. Huffman found it as a graduate student who had taken the term paper instead of the final exam, and said later he would never have attempted it had he known they had tried and failed.",
+  "tags": [
+    "huffman",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

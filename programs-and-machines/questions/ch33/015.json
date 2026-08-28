@@ -1,0 +1,21 @@
+{
+  "question_id": "394bfe2b-6353-47a4-b7b6-76281c4604b8",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Programs are countable but languages over an alphabet are not. What follows immediately?",
+  "choices": [
+    "That every language has a grammar, since grammars are also countable.",
+    "That some programs cannot be written in any language, only described.",
+    "That the halting problem is decidable for the countable subset of programs.",
+    "Most languages have no recogniser at all, by counting alone, before any specific one is exhibited."
+  ],
+  "answer": 3,
+  "explanation": "A program is a finite string over a finite alphabet, so they can be listed and numbered; the languages are all the *subsets* of a countably infinite set, and there are uncountably many. So there are more questions than programs. This is Chapter 33's counting technique with infinite sets — count what exists, count what the mechanism can produce, observe the second is smaller — and it tells you the impossible cases are the overwhelming majority while saying nothing about which.",
+  "tags": [
+    "countability",
+    "impossibility"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

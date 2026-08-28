@@ -1,0 +1,21 @@
+{
+  "question_id": "f70dd5c6-842b-42c6-bacf-fd4349909b10",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Rice's theorem says every non-trivial property of a program's behaviour is undecidable. What escapes it?",
+  "choices": [
+    "Properties that hold for all programs, since those are decidable by returning true.",
+    "Properties of programs written in total languages, which are not Turing complete.",
+    "Properties of the program's *text* — line count, whether it uses `goto`, whether the types check.",
+    "Properties checkable in polynomial time, which form a decidable subclass."
+  ],
+  "answer": 2,
+  "explanation": "The escape clause is the word *behaviour*, and it is why compilers work at all: they analyse syntax, which is decidable, and cannot analyse behaviour, which is not. Every static analysis tool lives on that line. The first distractor describes trivial properties, which the theorem excludes by definition rather than as an escape.",
+  "tags": [
+    "rice",
+    "decidability"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

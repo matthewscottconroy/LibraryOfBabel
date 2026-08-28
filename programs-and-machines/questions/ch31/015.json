@@ -1,0 +1,21 @@
+{
+  "question_id": "73e92494-cc90-49f4-b3ed-3f4b4271d7aa",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Why is `(lo + hi) / 2` a bug in binary search, and `(lo + hi) >>> 1` not?",
+  "choices": [
+    "`/` rounds toward zero and `>>>` rounds down, which matters for the loop's termination.",
+    "Division is slower than shifting, so the shift is an optimisation rather than a fix.",
+    "The shift avoids a branch, which the JIT cannot eliminate from the division.",
+    "For very large arrays `lo + hi` overflows to a negative int; the unsigned shift interprets the same bits as positive."
+  ],
+  "answer": 3,
+  "explanation": "Chapter 2's overflow, in a place nobody expected it. The bug was in Java's own `Arrays.binarySearch` from 1997 until 2006, and Joshua Bloch — who wrote it — published the correction with the observation that essentially every binary search in every textbook had the same flaw. It needs an array of over a billion elements to fire, which is why it survived so long.",
+  "tags": [
+    "complexity",
+    "overflow"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

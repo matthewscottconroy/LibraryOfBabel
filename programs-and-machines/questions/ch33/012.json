@@ -1,0 +1,28 @@
+{
+  "question_id": "b9ce596f-32e2-495e-85eb-c2847bef34fb",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Write the halting-problem contradiction as code, assuming `halts` exists. Fill in the three blanks.",
+  "choices": [
+    "public class Trouble {",
+    "    // assume: static boolean halts(Program p, Program input)  -- always terminates, always correct",
+    "    static void trouble(Program p) {",
+    "        if (___) {                          // does p halt when given itself?",
+    "            ___;                            // then loop forever",
+    "        } else {",
+    "            ___;                            // then halt",
+    "        }",
+    "    }",
+    "    // Now ask: does trouble halt when given trouble?",
+    "}"
+  ],
+  "answer": "halts(p, p)|while (true) { }|return",
+  "explanation": "If `halts` says it halts, `trouble` loops; if it says it loops, `trouble` halts. Both cases contradict, and `trouble` is built from `halts` by ordinary programming — a call, an `if`, a loop — so the only assumption that can be wrong is that `halts` exists. Passing a program its own text is legal because a program is a string, which is Unit VI's thesis and the reason this proof comes after Chapter 25 rather than after Chapter 6.",
+  "tags": [
+    "halting",
+    "proof"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

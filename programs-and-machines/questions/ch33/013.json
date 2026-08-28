@@ -1,0 +1,28 @@
+{
+  "question_id": "b8a12ab1-e93a-4c45-8ea6-022cfbdf866b",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Write a step-budgeted runner and show why a budget cannot decide halting. Fill in the three blanks.",
+  "choices": [
+    "public class Budget {",
+    "    static int run(int start, int budget) {",
+    "        long n = start; int steps = 0;",
+    "        while (n != 1 && ___) { n = n % 2 == 0 ? n / 2 : 3 * n + 1; steps++; }",
+    "        return n == 1 ? ___ : ___;          // steps taken, or a marker for 'unknown'",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(run(27, 100));    // -1: unknown, NOT 'never'",
+    "        System.out.println(run(27, 1000));   // 111",
+    "    }",
+    "}"
+  ],
+  "answer": "steps < budget|steps|-1",
+  "explanation": "Verified: -1 then 111. The first answer is *unknown*, not *never* — the program was still running. Simulation can confirm halting and can never confirm non-halting, because at any moment the possibilities are \"it will stop later\" and \"it never will\", and no finite observation separates them. A decision procedure would have to reason about the program rather than watch it.",
+  "tags": [
+    "halting",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

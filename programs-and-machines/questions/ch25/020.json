@@ -1,19 +1,19 @@
 {
-  "question_id": "a1f7a673-3e37-42a7-acdc-be32fb782069",
+  "question_id": "cde7890d-028e-4ad8-a4a2-6d6a40a95773",
   "chapter": 25,
   "phase": 5,
   "kind": "tf",
-  "text": "A stream is a collection that has been prepared for functional operations.",
+  "text": "`list.parallelStream()` is a safe drop-in replacement for `list.stream()` when a pipeline is slow.",
   "choices": [
-    "False",
-    "True"
+    "True",
+    "False"
   ],
-  "answer": 0,
-  "explanation": "A stream holds no elements; it describes a computation over a source. Everything else follows: nothing happens until the terminal operation runs, so a pipeline without one does nothing at all and does so silently. Elements are pulled through the whole pipeline one at a time rather than stage by stage, which is why no intermediate collections are built and why `findFirst` can stop after four of ten.",
+  "answer": 1,
+  "explanation": "It is safe only if every function in the pipeline is pure and the reduction is associative, and when either fails you get a wrong answer rather than an error — Chapter 31's counter gave 97282, 78637 and 906250 on three runs of the same million elements. It is one word, which is exactly the danger, and the cases where it helps are narrower than they look: large data, expensive per-element work, no shared state.",
   "tags": [
     "streams",
-    "model"
+    "parallelism"
   ],
-  "difficulty": "intermediate",
+  "difficulty": "advanced",
   "generated": true
 }

@@ -1,0 +1,23 @@
+{
+  "question_id": "cd81ea87-b9bd-4c1b-843c-e9c1ca5b684e",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Show why K, the length of the shortest program producing a string, cannot be computed. Fill in the three blanks.",
+  "choices": [
+    "// Suppose K were computable. Write a program that, given n, searches strings",
+    "// in order and returns the first with ___ .",
+    "// Such a string exists (most strings of length n+1 qualify), so the search ends.",
+    "// But that program's own length is about ___ bits,",
+    "// and it outputs a string whose complexity exceeds n. So n < K(s) <= that length.",
+    "// This is false for large n, because ___ . Contradiction."
+  ],
+  "answer": "K(s) > n|c + log2(n)|c + log2(n) grows more slowly than n",
+  "explanation": "It is the Berry paradox made rigorous — \"the smallest number not describable in fewer than twelve words\" is a description of it in eleven — and Chaitin turned that wordplay into a theorem. Note the shape: a short description producing something which by assumption has no short description, exactly as `trouble` was a program contradicting its own prediction.",
+  "tags": [
+    "kolmogorov",
+    "derivation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

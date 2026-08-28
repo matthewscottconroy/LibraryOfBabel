@@ -1,0 +1,19 @@
+{
+  "question_id": "aa0c7c68-daf1-4bec-aba3-2b30f29dd7bd",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "blank",
+  "text": "Given a behavioural property, a tool can be at most two of: sound, terminating, and ___ .",
+  "choices": [
+    "complete",
+    "complete"
+  ],
+  "answer": "complete",
+  "explanation": "Java's definite-assignment analysis keeps soundness and termination and therefore rejects some correct programs — which is why `int x; if (alwaysTrue()) x = 1; use(x);` does not compile. Type systems make the same trade: they decide \"no type errors\", which is weaker than \"no errors\" and is checkable. Every real tool is conservative, accepts false positives, accepts false negatives, or bounds its effort.",
+  "tags": [
+    "undecidability",
+    "vocabulary"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

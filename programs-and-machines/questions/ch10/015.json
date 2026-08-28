@@ -1,21 +1,21 @@
 {
-  "question_id": "cfc98abd-9dfe-4107-aabe-a29865c8459f",
+  "question_id": "6a8e264a-7687-42e3-aba1-49a02eed738a",
   "chapter": 10,
   "phase": 2,
   "kind": "mc",
-  "text": "Chapter 11 says naming is not labelling something you already built. What is the alternative claim?",
+  "text": "Chapter 11 argues a method should either do something or compute something, not both. What goes wrong when it does both?",
   "choices": [
-    "That names are for the compiler's benefit, so any consistent scheme works equally well.",
-    "That choosing the name is how you decide what the method should be, so the name comes first and constrains the body.",
-    "That names should be chosen after the implementation, when its behaviour is known.",
-    "That a good name makes documentation unnecessary, so naming replaces comments."
+    "It becomes impossible to test, since the effect must be mocked before the value can be checked.",
+    "Its calls cannot be moved, removed, or repeated without thought, and every reader must notice two responsibilities instead of one.",
+    "It cannot be made static, since effects require access to instance state.",
+    "It violates encapsulation, since a value-returning method exposes internal state."
   ],
   "answer": 1,
-  "explanation": "If you can name it, you know what it does; if you cannot, you have not decided. That is why a comment labelling a section of a long method is Chapter 14's signal that a method is waiting to be extracted — the comment is a name looking for a home. The practical test is whether the name is a promise you could keep while replacing the body entirely.",
+  "explanation": "The property being protected is substitutability of the call for its result. `int n = list.size()` can be called twice, hoisted out of a loop, or deleted if unused; `int n = queue.take()` can do none of those. Chapter 26 names the ideal — referential transparency — and shows that it is what lets a stream be parallelised, and what the counter lambda lacked when it produced three different wrong answers.",
   "tags": [
     "methods",
-    "naming"
+    "design"
   ],
-  "difficulty": "intermediate",
+  "difficulty": "advanced",
   "generated": true
 }

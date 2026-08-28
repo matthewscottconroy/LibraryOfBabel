@@ -1,0 +1,27 @@
+{
+  "question_id": "df888dd5-b59c-4158-bdfc-df2b9ef42886",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Verify that Huffman achieves the entropy exactly when the probabilities are powers of two. Fill in the three blanks.",
+  "choices": [
+    "public class Optimal {",
+    "    // codes: a=0 (1 bit), b=10 (2), c=110 (3), d=111 (3)",
+    "    public static void main(String[] args) {",
+    "        double entropy   = ___;             // using the H method from before",
+    "        double avgLength = ___;             // weighted mean code length",
+    "        System.out.println(entropy + \" \" + avgLength);",
+    "        System.out.println(___);            // true",
+    "    }",
+    "}"
+  ],
+  "answer": "H(\"aaaaaaaabbbbccdd\")|(8*1 + 4*2 + 2*3 + 2*3) / 16.0|entropy == avgLength",
+  "explanation": "Verified: 1.75 both ways. It matches exactly because every probability is a power of two — 1/2, 1/4, 1/8, 1/8 — so each ideal length -log2(p) is already a whole number. Otherwise Huffman is within one bit per symbol and no better integer-length code exists; arithmetic coding closes the gap by abandoning whole-number code lengths.",
+  "tags": [
+    "huffman",
+    "entropy",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

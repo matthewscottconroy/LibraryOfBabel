@@ -1,19 +1,19 @@
 {
-  "question_id": "e66e1842-744d-4ce4-9b26-4c622b909c43",
+  "question_id": "b75ad26e-2c91-4191-a14a-8faabfdb8883",
   "chapter": 23,
   "phase": 5,
   "kind": "tf",
-  "text": "The abstract syntax tree for `(2 + 3) * 4` contains a node recording that parentheses were written.",
+  "text": "A regular expression can check that brackets in a string are correctly nested.",
   "choices": [
-    "False",
-    "True"
+    "True",
+    "False"
   ],
-  "answer": 0,
-  "explanation": "It is abstract precisely because it keeps the structure and discards the notation. The brackets change the tree's shape — `(* (+ 2 3) 4)` rather than `(+ 2 (* 3 4))` — and then vanish. A *concrete* syntax tree does record them, along with a node for every rule applied, and that is what a code formatter or refactoring tool needs, since it must reproduce the original text exactly.",
+  "answer": 1,
+  "explanation": "Nesting is context-free and regular expressions recognise regular languages, so the general case is impossible rather than merely difficult — no cleverness with the syntax helps. That is the exact boundary behind the perennial failure to parse HTML with a regex. Within a line, for a token-shaped pattern, a regex is the right tool; the moment matching depends on counting depth, you need a stack.",
   "tags": [
-    "trees",
-    "abstraction"
+    "grammars",
+    "regex"
   ],
-  "difficulty": "intermediate",
+  "difficulty": "advanced",
   "generated": true
 }

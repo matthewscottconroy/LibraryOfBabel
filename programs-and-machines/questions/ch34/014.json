@@ -1,0 +1,21 @@
+{
+  "question_id": "2708865b-d4fd-4034-97e1-6ecb02fd53ad",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The book's two ideas — representation and abstraction — are claimed to be one idea. What is the unifying statement?",
+  "choices": [
+    "Both are compile-time constructs that disappear entirely at run time.",
+    "Both reduce to naming: a representation names a pattern and an abstraction names a process.",
+    "Both are ways of hiding complexity, differing only in whether data or behaviour is hidden.",
+    "Both are agreements with parties, and both fail when one side assumes something the other did not promise."
+  ],
+  "answer": 3,
+  "explanation": "A representation is an agreement about what a pattern means; an abstraction is an agreement about what you may rely on. `equals` and `hashCode` are both at once — a decision about what counts as the same object, and a contract a `HashMap` relies on — which is why Chapter 20 was hard. The single question underneath the whole book: what is agreed, and by whom?",
+  "tags": [
+    "synthesis",
+    "through-line"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

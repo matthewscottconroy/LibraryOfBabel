@@ -1,20 +1,20 @@
 {
-  "question_id": "a1f2098b-9b27-465f-b519-930c471d3e0d",
+  "question_id": "7639d4af-3f4d-489d-9a68-69bd554de321",
   "chapter": 24,
   "phase": 5,
   "kind": "mc",
-  "text": "Under lexical scope, what does `apply` pass as the new environment's parent?",
+  "text": "`DefFun` stores a procedure's body without evaluating it. Why does that matter for the unit's thesis?",
   "choices": [
-    "The environment of whoever called, so names resolve against the caller's bindings.",
-    "A fresh empty environment, so a procedure sees only its own parameters.",
-    "The environment where the procedure was defined, so a body's names mean what they meant where it was written.",
-    "The environment in which the argument expressions were evaluated."
+    "Because evaluating it early would bind its free variables to the wrong environment.",
+    "Because storing evaluated bodies would make the procedure table type-heterogeneous.",
+    "Because the body may contain a recursive call to a procedure not yet defined.",
+    "Because an unevaluated tree sitting in a map is data, and it becomes a computation only when `apply` hands it to `eval`."
   ],
-  "answer": 2,
-  "explanation": "That is the entire difference between lexical and dynamic scope, and it is one argument in `apply`. Every mainstream language chose lexical because it lets you read a procedure and know what its names mean from the text alone; under dynamic scope the meaning of a body depends on every call site, including ones written later by other people. Early Lisp was dynamically scoped partly by accident.",
+  "answer": 3,
+  "explanation": "It is the sharpest instance of the claim that a program is data. `x * x` in a `Procedure` is a record with three fields; nothing about it is a computation until something walks it. The second distractor names a real consideration — recursive definitions do need the table populated first — but that is a consequence of storing syntax rather than the reason for it.",
   "tags": [
-    "scope",
-    "design"
+    "programs-as-data",
+    "procedures"
   ],
   "difficulty": "advanced",
   "generated": true

@@ -1,0 +1,21 @@
+{
+  "question_id": "a3163f07-b096-4e1a-94fa-a14fbf1e2e6c",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Almost every string is random in Kolmogorov's sense, yet no program can exhibit one. Is that a contradiction?",
+  "choices": [
+    "Yes, and it shows Kolmogorov complexity is not a coherent definition.",
+    "No — the property is overwhelmingly common and individually unverifiable, which are compatible.",
+    "Yes, and it is resolved by noting that randomness is undefined for finite strings.",
+    "No, because 'almost every' means measure-theoretically, not for any actual string."
+  ],
+  "answer": 1,
+  "explanation": "Pick a string at random and it is random with probability essentially 1; verify that any particular one is, and you cannot, ever. The two feel as though they should conflict and do not. It is the unit in miniature: the reachable part of a space can be vanishingly small and still be the only part you can work in.",
+  "tags": [
+    "kolmogorov",
+    "randomness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

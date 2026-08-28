@@ -1,27 +1,21 @@
 {
-  "question_id": "11e374ee-60aa-4d30-98fc-4743e0edeaf1",
+  "question_id": "17bf6b18-0b3c-454d-a7c8-34d31a1f141b",
   "chapter": 22,
   "phase": 4,
-  "kind": "proof",
-  "text": "Write a class that takes the current time as a parameter rather than reading the clock. Fill in the three blanks.",
+  "kind": "mc",
+  "text": "Chapter 23 says a design is judged by what happens when a requirement changes. What is the concrete procedure it recommends?",
   "choices": [
-    "public class Testable {",
-    "    static int due(___, int interval) {     // the day is supplied, not fetched",
-    "        return ___;",
-    "    }",
-    "    public static void main(String[] args) {",
-    "        System.out.println(___);            // 3 -- no waiting, no mocking",
-    "        System.out.println(due(10, 3));     // 13",
-    "    }",
-    "}"
+    "Count the lines of code, since smaller designs are easier to change.",
+    "Measure the coupling between every pair of classes and minimise the total.",
+    "Audit the design against the SOLID principles and record any violations.",
+    "Name the three changes most likely within a year, trace each through the design, and count the files each touches."
   ],
-  "answer": "int today|today + interval|due(0, 3)",
-  "explanation": "Verified: 3 then 13. A class that calls `LocalDate.now()` cannot be tested without waiting or installing a fake clock, and time is the single most common source of untestable code. Passing it in means every scenario — due tomorrow, overdue by a week, a leap day — is one line in a test. It is the same move as taking the `Scheduler` in the constructor: push the decision outward so the class depends on data rather than on the environment.",
+  "answer": 3,
+  "explanation": "It replaces an opinion with a measurement. The flashcard design's own accounting is the model: a new scheduling policy touches one file, a new field on `Card` touches two, and a timing parameter touches four — and the chapter reports the four rather than retrofitting a fix, because wrapping three parameters against a change nobody has asked for is speculative generality with its own cost.",
   "tags": [
-    "testability",
     "design",
-    "code"
+    "method"
   ],
-  "difficulty": "intermediate",
+  "difficulty": "advanced",
   "generated": true
 }

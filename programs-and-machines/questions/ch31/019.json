@@ -1,0 +1,21 @@
+{
+  "question_id": "102da288-cb86-441b-b05d-7a8432249795",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "mc",
+  "text": "An `ArrayList` frequently beats a `LinkedList` at operations theory says the list should win. Why?",
+  "choices": [
+    "The array's elements are contiguous, so the prefetcher is right; the list's are scattered, so each step is a cache miss.",
+    "The JIT cannot inline `LinkedList` methods because its node class is package-private.",
+    "`LinkedList` is implemented over an array internally, inheriting the same costs.",
+    "Traversing a `LinkedList` allocates an iterator object per step, dominating the cost."
+  ],
+  "answer": 0,
+  "explanation": "A value in L1 arrives in about a nanosecond and one in main memory takes a hundred; Chapter 17 measured 2,589 ms for one such case. This is the largest single source of disagreement between complexity analysis and a real machine, because the analysis models a uniform-memory machine that does not exist.",
+  "tags": [
+    "complexity",
+    "cache"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

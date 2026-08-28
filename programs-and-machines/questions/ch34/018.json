@@ -1,0 +1,21 @@
+{
+  "question_id": "fd29d5f7-409f-4a5d-8098-2ae648766b06",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Chapter 35 lists what a reader does *not* know: maintenance, working with others, anything large. Why are those grouped?",
+  "choices": [
+    "They are covered in the further reading and were omitted only for space.",
+    "They are management concerns rather than programming ones.",
+    "They are experience that cannot be read, and they are the distance between finishing a first course and competence.",
+    "They are specific to Java and would not transfer to another language."
+  ],
+  "answer": 2,
+  "explanation": "The hardest problems are not writing code but changing code you did not write, six months after everyone who understood it left. That also means Chapter 23's design principles are advice you have not yet had the experience to properly evaluate — which is why Exercise 35.10 asks you to revisit the list in six months and mark what has changed.",
+  "tags": [
+    "reflection",
+    "limits"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

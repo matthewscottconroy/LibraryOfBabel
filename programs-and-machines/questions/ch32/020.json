@@ -1,0 +1,19 @@
+{
+  "question_id": "fce580ba-ea4b-4ea0-95c6-37a152ccffdd",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "blank",
+  "text": "No code word may be a prefix of another, so a decoder reading left to right knows a symbol has ended without lookahead or separators. Such a code is called a ___ code.",
+  "choices": [
+    "prefix",
+    "prefix"
+  ],
+  "answer": "prefix",
+  "explanation": "It is equivalent to putting the symbols at the leaves of a binary tree, since no leaf is an ancestor of another — which is why Huffman's algorithm builds one. UTF-8 is a prefix code, which is why a decoder that lands mid-character can resynchronise by scanning forward for a byte that does not begin with 10.",
+  "tags": [
+    "compression",
+    "vocabulary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

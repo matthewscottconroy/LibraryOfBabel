@@ -1,0 +1,28 @@
+{
+  "question_id": "c6ca90c2-d93c-459a-9f5d-55084e9e2e1b",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Confirm exponential growth by measuring naive Fibonacci's call count. Fill in the three blanks.",
+  "choices": [
+    "public class Exponential {",
+    "    static long calls;",
+    "    static long fib(int n) { ___; return n < 2 ? n : ___; }",
+    "    public static void main(String[] args) {",
+    "        calls = 0; fib(20); long a = calls;",
+    "        calls = 0; fib(25); long b = calls;",
+    "        double ratio = b / (double) a;",
+    "        System.out.printf(\"%d %d ratio %.2f per-step %.3f%n\", a, b, ratio, ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "calls++|fib(n - 1) + fib(n - 2)|Math.pow(ratio, 1.0 / 5)",
+  "explanation": "Verified: 21,891 and 242,785, a ratio of about 11.09 for five more steps, giving a per-step factor of 1.618 — the golden ratio, exactly what the recurrence predicts. That is a prediction derived from theory and confirmed by measurement to three digits, which is what the book means by deriving a claim rather than asserting it.",
+  "tags": [
+    "complexity",
+    "exponential",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

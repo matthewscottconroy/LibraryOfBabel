@@ -1,0 +1,28 @@
+{
+  "question_id": "20725940-d5ee-45d0-a35b-139ebf011acc",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Build the diagonal on a finite table and show the constructed row is not in it. Fill in the two blanks.",
+  "choices": [
+    "public class Diagonal {",
+    "    public static void main(String[] args) {",
+    "        int n = 6; int[][] table = new int[n][n];",
+    "        java.util.Random r = new java.util.Random(5);",
+    "        for (int i = 0; i < n; i++) for (int j = 0; j < n; j++) table[i][j] = r.nextInt(2);",
+    "        int[] d = new int[n];",
+    "        for (int i = 0; i < n; i++) d[i] = ___;      // flip the diagonal entry",
+    "        for (int i = 0; i < n; i++)",
+    "            System.out.println(\"row \" + i + \" differs from D at \" + i + \": \" + ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "1 - table[i][i]|d[i] != table[i][i]",
+  "explanation": "Every row differs from D at its own index, so D is not any row. In the real argument the table is infinite — rows are all programs, which are countable — and D is `trouble`. The finite table is the picture, not the proof: the proof needs the rows to be *all* programs, which is what the countability argument supplies.",
+  "tags": [
+    "diagonal",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

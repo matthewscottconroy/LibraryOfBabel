@@ -1,20 +1,20 @@
 {
-  "question_id": "0d04f83e-8b4a-410d-b930-cd0ef2535de9",
+  "question_id": "197730e6-14b6-4fe4-a3d5-06330bc1f938",
   "chapter": 30,
   "phase": 6,
   "kind": "mc",
-  "text": "TCP delivers bytes reliably and in order. Why does a receiver still need framing?",
+  "text": "Why does `setSoTimeout` matter more than it appears, and why is choosing its value hard?",
   "choices": [
-    "TCP silently drops packets over 1500 bytes, so long messages must be split by the sender.",
-    "TCP gives a stream of bytes, not messages — ten writes may arrive as one read, or one write as three.",
-    "TCP may reorder messages under congestion, so a sequence number is required.",
-    "TCP does not guarantee delivery, so each message needs an application-level acknowledgement."
+    "It is required for the socket to be closed correctly when the peer disappears.",
+    "Without it a failure becomes a hang, which consumes a resource forever and produces no diagnostic; too short a value fails requests that would have succeeded and adds retry load.",
+    "Without it the operating system will eventually close the socket at an unpredictable time.",
+    "It controls how long the connection attempt takes, which is the only phase that can hang."
   ],
   "answer": 1,
-  "explanation": "There is no `readMessage`, because TCP does not know what a message is. The three answers are a delimiter, a length prefix, or closing the connection. Omitting framing produces a program that works on localhost — which happens to deliver each write as one read — and fails over a real network, which is the classic symptom.",
+  "explanation": "A hang is worse than an error because there is nothing to alert on and nothing in a log. The honest way to choose a value is to measure your own latency distribution and set the timeout well above the high percentile, then revisit it. Note that connecting and reading need separate timeouts: an unreachable host and a silent connected peer are different failures.",
   "tags": [
-    "sockets",
-    "protocols"
+    "networks",
+    "timeouts"
   ],
   "difficulty": "advanced",
   "generated": true

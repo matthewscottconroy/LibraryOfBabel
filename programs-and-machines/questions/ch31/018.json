@@ -1,0 +1,23 @@
+{
+  "question_id": "9ebb1d22-e5c6-4112-9fa9-e02ce90cc363",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Derive the comparison-sort lower bound. Fill in the three blanks.",
+  "choices": [
+    "// A sorting algorithm's behaviour is determined by its comparison answers, each yes or no.",
+    "// After k comparisons there are at most ___ distinct answer sequences,",
+    "// so it can distinguish at most that many orderings.",
+    "// There are ___ possible orderings, and the algorithm must produce each one.",
+    "// So 2^k >= n!, giving k >= ___ , which is Theta(n log n) by Stirling."
+  ],
+  "answer": "2^k|n!|log2(n!)",
+  "explanation": "It is a counting argument and it constrains every comparison sort that could ever be written — no cleverness helps, because the bound comes from how much information the comparisons can carry. The escape is to stop comparing: counting sort and radix sort are O(n) because they use values as indices, and the way past a lower bound is always to change the problem.",
+  "tags": [
+    "sorting",
+    "lower-bounds",
+    "derivation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

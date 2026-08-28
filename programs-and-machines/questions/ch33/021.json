@@ -1,0 +1,19 @@
+{
+  "question_id": "eb4f9c6c-5b9c-46e0-b65f-7ffdb257b5b2",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "tf",
+  "text": "Undecidability means software verification is pointless.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "The seL4 microkernel and the CompCert C compiler are formally verified. Undecidability says no *automatic* procedure works for every program; it says nothing against proving a specific program correct with human guidance. What it does mean practically is that no tool can be sound, complete and terminating at once — every static analyser has given up one of the three, and knowing which explains its behaviour.",
+  "tags": [
+    "undecidability",
+    "verification"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

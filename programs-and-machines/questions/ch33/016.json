@@ -1,0 +1,24 @@
+{
+  "question_id": "99010881-3fbf-43b0-b4d6-ce7d7d93318b",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Show by reduction that \"does this program ever print hello?\" is undecidable. Fill in the three blanks.",
+  "choices": [
+    "// Suppose printsHello(Q) is decidable. Given any P and x, build Q as:",
+    "//     Q: { ___;                     // whatever P does",
+    "//          ___; }                   // then unconditionally print",
+    "// Then Q prints hello exactly when ___ .",
+    "// So deciding printsHello would decide halting -- which is impossible.",
+    "// Therefore printsHello is undecidable."
+  ],
+  "answer": "run P on x|System.out.println(\"hello\")|P halts on x",
+  "explanation": "That technique is reduction, and it is how undecidability spreads without a new diagonal argument each time. By the same route: does this program reach line 42, do these two programs compute the same function, does this program dereference null, does it contain a virus. Rice's theorem generalises all of it — every non-trivial property of a program's *behaviour* is undecidable.",
+  "tags": [
+    "reduction",
+    "undecidability",
+    "derivation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

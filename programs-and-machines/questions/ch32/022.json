@@ -1,0 +1,21 @@
+{
+  "question_id": "aa7499e9-f64e-4381-8b0d-7e960d80b541",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "mc",
+  "text": "The source coding theorem has two halves. Why does the second one matter as much as the first?",
+  "choices": [
+    "Entropy is not merely a lower bound but is achievable, so H is the exact size of the data rather than an estimate.",
+    "Because it establishes that Huffman coding is optimal among all possible codes.",
+    "Because it shows the bound applies only to sources with known probabilities.",
+    "Because it proves that lossy compression can beat the bound, which lossless cannot."
+  ],
+  "answer": 0,
+  "explanation": "A bound alone would tell you what is impossible and nothing about what to build. The achievability half means any file larger than H bits per symbol contains redundancy some encoding could remove — Huffman reaches it exactly when the probabilities are powers of two, and arithmetic coding reaches it in general. The last distractor overstates: Huffman is optimal among *integer-length* codes only.",
+  "tags": [
+    "entropy",
+    "theorem"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

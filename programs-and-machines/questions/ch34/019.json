@@ -1,0 +1,27 @@
+{
+  "question_id": "1463c5ee-fa99-4937-b25b-8fab85c5316c",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Write the smallest program that demonstrates the book's opening claim. Fill in the three blanks.",
+  "choices": [
+    "public class Opening {",
+    "    public static void main(String[] args) {",
+    "        ___;",
+    "        System.out.println(n);              // 200",
+    "        System.out.println(___);            // -56",
+    "        System.out.println(___);            // È",
+    "        System.out.println(Integer.toHexString(n));   // c8",
+    "    }",
+    "}"
+  ],
+  "answer": "int n = 200|(byte) n|(char) n",
+  "explanation": "Verified: 200, -56, È, c8. One pattern, four readings, and the casts are not conversions in any meaningful sense — nothing about the bits changes. They are instructions about which agreement to apply when printing. Chapter 1 argued this on paper before Java had appeared; this is the same claim in four lines, and the book ends where it began.",
+  "tags": [
+    "synthesis",
+    "representation",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

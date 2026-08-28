@@ -1,0 +1,21 @@
+{
+  "question_id": "1708cc99-ab3b-437f-87e0-ff9cac59022d",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Bubble sort's measured ratios were 3.28, 3.88, 4.13 per doubling, then 11.98. What does the chapter conclude?",
+  "choices": [
+    "The JIT deoptimised the loop at that size, which accounts for the entire difference.",
+    "The 11.98 row is noise and should be discarded from the analysis.",
+    "Bubble sort is O(n³) for large inputs, which the earlier rows were too small to reveal.",
+    "The measurement is reproducible and disagrees with the prediction by about threefold, and the chapter has not established why."
+  ],
+  "answer": 3,
+  "explanation": "Three separate runs gave 11.98, 12.44 and 11.66. Cache is the obvious candidate and does not fit cleanly, since 32,000 elements already exceeds L1 and behaved; establishing the cause needs hardware counters. It is left in deliberately — the apparatus is a model, models have residuals, and a chapter showing only the rows that fit would teach something false about what analysis does.",
+  "tags": [
+    "complexity",
+    "honesty"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

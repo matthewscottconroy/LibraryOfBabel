@@ -1,0 +1,32 @@
+{
+  "question_id": "0fefa5bf-6860-49cb-a7e0-cad56994ef90",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Instrument linear and binary search to count comparisons rather than time them. Fill in the three blanks.",
+  "choices": [
+    "public class Counting {",
+    "    static long ops;",
+    "    static int linear(int[] a, int x) { for (int i = 0; i < a.length; i++) { ___; if (a[i] == x) return i; } return -1; }",
+    "    static int binary(int[] a, int x) {",
+    "        int lo = 0, hi = a.length - 1;",
+    "        while (lo <= hi) { ops++; int mid = ___;   // avoid overflow on huge arrays",
+    "            if (a[mid] == x) return mid; else if (___) lo = mid + 1; else hi = mid - 1; }",
+    "        return -1;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        int n = 1_000_000; int[] a = new int[n]; for (int i = 0; i < n; i++) a[i] = i;",
+    "        ops = 0; linear(a, n-1); System.out.println(\"linear \" + ops);",
+    "        ops = 0; binary(a, n-1); System.out.println(\"binary \" + ops);",
+    "    }",
+    "}"
+  ],
+  "answer": "ops++|(lo + hi) >>> 1|a[mid] < x",
+  "explanation": "Verified: 1,000,000 against 20. The unsigned shift is worth noticing — `(lo + hi) / 2` overflows for arrays above about a billion, a bug that lived in the JDK's own binary search for nine years. Counting rather than timing is what lets you state what happens at a billion elements without running anything, which a measurement cannot.",
+  "tags": [
+    "complexity",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

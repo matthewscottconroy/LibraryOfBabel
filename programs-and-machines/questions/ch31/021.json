@@ -1,0 +1,19 @@
+{
+  "question_id": "4ba8d175-181d-4411-b81e-989a852da7de",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "tf",
+  "text": "Amortised O(1) and average-case O(1) mean the same thing.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "Amortised is a worst-case bound over a *sequence* of operations — no adversary can choose inputs that make `ArrayList.add` average worse than constant, because the doubling argument holds for every sequence. Average-case is an expectation over an assumed input distribution, which an adversary can violate; `HashMap.get` is average O(1) and O(n) against chosen colliding keys, which is a real denial-of-service technique.",
+  "tags": [
+    "amortised",
+    "complexity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

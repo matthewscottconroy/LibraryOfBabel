@@ -1,0 +1,19 @@
+{
+  "question_id": "5d2c3ba8-5b6c-4f67-a9d3-238e3fccb1bb",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "blank",
+  "text": "Chapter 32 reported a bubble-sort measurement that grew by a factor of 12 where the prediction was 4, and said it had not established why. Leaving that row in rather than removing it is an instance of intellectual ___ .",
+  "choices": [
+    "honesty",
+    "honesty"
+  ],
+  "answer": "honesty",
+  "explanation": "A model with a residual is still a model; a chapter showing only the rows that fit would teach something false about what analysis does. The same discipline produced Chapter 15's cache material (a LinkedList result that surprised me), Chapter 31 (a counter that gave three different wrong answers), and Chapter 35's admission that four of the book's own opinions may be wrong.",
+  "tags": [
+    "reflection",
+    "method"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

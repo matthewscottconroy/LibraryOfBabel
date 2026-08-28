@@ -1,0 +1,30 @@
+{
+  "question_id": "e88878c4-01d5-4d3b-be18-addb264e4f88",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Show that compressing twice makes things worse. Fill in the three blanks.",
+  "choices": [
+    "import java.io.*; import java.util.zip.*;",
+    "public class Twice {",
+    "    static byte[] gzip(byte[] in) throws IOException {",
+    "        ByteArrayOutputStream b = new ByteArrayOutputStream();",
+    "        try (GZIPOutputStream g = new GZIPOutputStream(b)) { g.write(in); }",
+    "        return b.toByteArray();",
+    "    }",
+    "    public static void main(String[] args) throws Exception {",
+    "        byte[] raw = (\"the quick brown fox jumps over the lazy dog. \").repeat(200).getBytes();",
+    "        byte[] once = ___, twice = ___;",
+    "        System.out.println(raw.length + \" -> \" + once.length + \" -> \" + ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "gzip(raw)|gzip(once)|twice.length",
+  "explanation": "Verified on the book's data: 9,000 to 108 to 109. The second pass found no structure — the first had removed it — and added a header. That is the counting argument made visible, and it is why any claim of universal compression is false: you can dismiss the scheme without inspecting it, which is what makes an impossibility result practically valuable.",
+  "tags": [
+    "compression",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

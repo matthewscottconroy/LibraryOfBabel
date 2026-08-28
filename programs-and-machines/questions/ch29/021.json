@@ -1,20 +1,20 @@
 {
-  "question_id": "1da54b0f-4c1f-4bb0-9adc-a64e9ec9e3ae",
+  "question_id": "24bf5120-ee18-4f63-852c-28dc5f6aa910",
   "chapter": 29,
   "phase": 6,
   "kind": "mc",
-  "text": "What is the strongest argument for keeping state out of components?",
+  "text": "A window is a tree of components. What survives when you move from Swing to a browser?",
   "choices": [
-    "Only one component may hold a given piece of state, so a second view is impossible.",
-    "The model can then be tested with no screen, in milliseconds, which means those tests actually run in a build.",
-    "Components are recreated on every repaint, so state stored in them is lost.",
-    "Component state is stored as strings, wasting memory compared to primitive fields."
+    "Only the event loop, since HTML has no component hierarchy.",
+    "Nothing structural; a web interface is built on fundamentally different concepts.",
+    "The tree, the layout principle, the event loop, and the model/view separation — everything except the widget API.",
+    "Only the model/view separation; the browser's rendering model shares nothing else."
   ],
-  "answer": 1,
-  "explanation": "Interface tests need a display, are slow, and break when a button moves — so everything you move out of the view becomes testable and everything you leave in effectively is not. That is the same argument Chapter 23 makes about reading the clock: push the decision outward so the logic depends on data rather than on the environment.",
+  "answer": 2,
+  "explanation": "HTML's DOM is that tree, CSS flexbox is that layout principle, JavaScript's single-threaded event loop is that loop with the same rule about not blocking it, and every front-end framework is arguing about that separation. Which is why the chapter is not a Swing tutorial: the toolkit is documentation and the shape is the transferable part.",
   "tags": [
-    "mvc",
-    "testing"
+    "events",
+    "portability"
   ],
   "difficulty": "intermediate",
   "generated": true

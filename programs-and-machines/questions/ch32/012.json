@@ -1,0 +1,31 @@
+{
+  "question_id": "52841ead-7b7b-4bc4-9abf-980c7e6bd113",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Write a method that computes the entropy of a string from its character frequencies. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Entropy {",
+    "    static double H(String s) {",
+    "        Map<Character,Integer> freq = new TreeMap<>();",
+    "        for (char c : s.toCharArray()) ___;",
+    "        double h = 0, n = s.length();",
+    "        for (int count : freq.values()) { double p = ___; ___; }",
+    "        return h;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        for (String s : new String[]{\"aaaa\", \"abab\", \"abcdefgh\"})",
+    "            System.out.printf(\"%-9s %.4f%n\", s, H(s));",
+    "    }",
+    "}"
+  ],
+  "answer": "freq.merge(c, 1, Integer::sum)|count / n|h -= p * Math.log(p) / Math.log(2)",
+  "explanation": "Verified: 0.0000, 1.0000, 3.0000 — each exactly log2 of the number of distinct equally frequent symbols. The division by `Math.log(2)` is the base change, since Java has no log2 for doubles; using natural logs instead would give nats rather than bits, differing by a constant factor. The minus sign is there because log p is negative for p below 1.",
+  "tags": [
+    "entropy",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

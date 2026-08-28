@@ -1,32 +1,18 @@
 {
-  "question_id": "ca4225f7-2051-4671-a465-95dfaac9912d",
+  "question_id": "92cadf50-6e3e-43c2-a941-29954ab38105",
   "chapter": 22,
   "phase": 4,
-  "kind": "proof",
-  "text": "Write a class whose behaviour lives with its data, and the caller-does-the-work version, for comparison. Fill in the three blanks.",
+  "kind": "tf",
+  "text": "A class named `OrderManager` is a design smell.",
   "choices": [
-    "import java.util.*;",
-    "public class Responsibility {",
-    "    record Item(String title, int minutes) { }",
-    "    static class Playlist {",
-    "        private final List<Item> items = new ArrayList<>();",
-    "        void add(Item i) { items.add(i); }",
-    "        int totalMinutes() { int t = 0; ___; return t; }",
-    "        List<Item> items() { return ___; }",
-    "    }",
-    "    public static void main(String[] args) {",
-    "        Playlist p = new Playlist();",
-    "        p.add(new Item(\"a\", 45)); p.add(new Item(\"b\", 33));",
-    "        System.out.println(___);            // 78",
-    "    }",
-    "}"
+    "False",
+    "True"
   ],
-  "answer": "for (Item i : items) t += i.minutes()|p.totalMinutes()|List.copyOf(items)",
-  "explanation": "Verified: 78, and calling `add` on the returned list throws. The caller-side loop would need three facts about the playlist's insides — that items can be obtained, that they have durations, that a total is a sum — and writing it in four places freezes the representation. `List.copyOf` on the way out is the other half: a getter returning the field hands out the ability to break the invariant.",
+  "answer": 1,
+  "explanation": "Names like `Manager`, `Handler`, `Processor` and `Utils` mean the author could not say what the class *is*, and they reliably predict unrelated contents. The two tests are cheap: describe it in one sentence with no \"and\", and for each field count the methods that use it. If two disjoint clusters appear, you have two classes sharing a file, and the clusters show you where the seam is.",
   "tags": [
-    "responsibility",
-    "encapsulation",
-    "code"
+    "cohesion",
+    "naming"
   ],
   "difficulty": "intermediate",
   "generated": true

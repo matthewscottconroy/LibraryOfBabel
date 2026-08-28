@@ -1,0 +1,22 @@
+{
+  "question_id": "d4bbbae2-7f51-4c58-982f-96fbf32ca7d9",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Prove `ArrayList.add` is amortised constant by summing the copies. Fill in the three blanks.",
+  "choices": [
+    "// Growing to capacity n by doubling copies:",
+    "//     ___",
+    "// which sums to ___ elements in total,",
+    "// spread over ___ additions -- fewer than one copy per add on average.",
+    "// Growing by a constant 10 instead would copy about n^2/20, making add O(n)."
+  ],
+  "answer": "1 + 2 + 4 + ... + n/2|n - 1|n",
+  "explanation": "Chapter 17's sum of powers of two, in its second of three appearances. The rare expensive operation is paid for by the many cheap ones, and the difference between a good dynamic array and a catastrophic one is which growth rule was chosen. Note that amortised is not average-case — it is a worst-case bound over a sequence, which is a stronger guarantee.",
+  "tags": [
+    "amortised",
+    "derivation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

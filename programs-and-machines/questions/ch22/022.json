@@ -1,21 +1,38 @@
 {
-  "question_id": "4e1ad87e-c4cf-4b8a-8968-02f6d67c8720",
+  "question_id": "30433819-7096-420f-9b9f-ff555504a5dd",
   "chapter": 22,
   "phase": 4,
-  "kind": "mc",
-  "text": "The flashcard design put review history in a separate `Progress` record rather than inside `Card`. What did that buy?",
+  "kind": "proof",
+  "text": "Write the CRC-card exercise as code: a class whose responsibilities fit on one card. Fill in the three blanks.",
   "choices": [
-    "Cards became shareable content while history stayed per-student, so supporting multiple students is a small change rather than a rewrite.",
-    "It allowed `Card` to be a record, which requires having no mutable fields.",
-    "It reduced memory use, since a `Card` no longer carries fields most code ignores.",
-    "It made the scheduler simpler, since it no longer needs to know about cards."
+    "import java.util.*;",
+    "public class Card {",
+    "    record Item(String title, int minutes) { }",
+    "    // RESPONSIBILITIES        COLLABORATORS",
+    "    //   hold an ordered list    Item",
+    "    //   report its duration",
+    "    //   report its size",
+    "    static class Playlist {",
+    "        private final List<Item> items = new ArrayList<>();",
+    "        void add(Item i) { items.add(i); }",
+    "        int totalMinutes() { return ___; }",
+    "        int size()        { return ___; }",
+    "        List<Item> items(){ return ___; }",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        Playlist p = new Playlist();",
+    "        p.add(new Item(\"a\", 45)); p.add(new Item(\"b\", 33));",
+    "        System.out.println(p.totalMinutes() + \" \" + p.size());",
+    "    }",
+    "}"
   ],
-  "answer": 0,
-  "explanation": "The separation came from two wrong turns being made first — `review()` on the `Card`, then `LeitnerCard extends Card` — and the insight was that content and one student's relationship with that content are different things with different lifetimes. That is the kind of judgment Chapter 23 argues cannot be derived from principles, only from having been wrong about it before.",
+  "answer": "items.stream().mapToInt(Item::minutes).sum()|items.size()|List.copyOf(items)",
+  "explanation": "Verified: `78 2`. Three responsibilities, all about the same data, and the card stays small — which is the test. Beck and Cunningham's point was that the physical smallness of an index card is doing real work: a class whose responsibilities do not fit is doing too much, and moving one means physically moving a line, which makes alternatives cheap to try and cheap to abandon.",
   "tags": [
     "design",
-    "modelling"
+    "crc-cards",
+    "code"
   ],
-  "difficulty": "advanced",
+  "difficulty": "intermediate",
   "generated": true
 }

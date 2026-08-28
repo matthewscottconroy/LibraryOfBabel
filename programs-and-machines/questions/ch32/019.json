@@ -1,0 +1,19 @@
+{
+  "question_id": "b3973f0f-fbdf-4c97-9e0a-3fe09f1b92bc",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "tf",
+  "text": "A million random characters carry more Shannon information than a million characters of Shakespeare.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 1,
+  "explanation": "They are less predictable, so under Shannon's definition they carry more. That sounds wrong and is the correct consequence: Shannon was measuring what a communication channel must faithfully carry, and the random string needs every bit. Meaning is a separate question with no comparable theory, and keeping the two apart is what makes the measure usable.",
+  "tags": [
+    "information",
+    "definitions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

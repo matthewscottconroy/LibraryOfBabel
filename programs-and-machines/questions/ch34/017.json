@@ -1,0 +1,23 @@
+{
+  "question_id": "41fd4499-d63f-4f52-87f0-4c70deea8166",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Trace one idea through four chapters by writing the four forms of the same boundary. Fill in the four blanks.",
+  "choices": [
+    "// The same boundary, four ways:",
+    "//   Chapter 19, enforced by the compiler:        ___",
+    "//   Chapter 20, enforced by copying:             ___",
+    "//   Chapter 22, a boundary with nothing behind:  ___",
+    "//   Chapter 22, a boundary you cannot cross:     ___"
+  ],
+  "answer": "private long cents|List.copyOf(items)|interface Shape { double area(); }|record Point(int x, int y) { }",
+  "explanation": "Four mechanisms, one purpose: making the code that could break a promise small enough to check. Chapter 35's claim is that this is the book's second idea in four costumes, and that its value is never what is behind the boundary — it is what the boundary lets you stop thinking about.",
+  "tags": [
+    "abstraction",
+    "synthesis",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

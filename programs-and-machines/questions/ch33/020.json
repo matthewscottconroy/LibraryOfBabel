@@ -1,0 +1,26 @@
+{
+  "question_id": "ab9e9efe-df7a-481d-a3dc-165b43336ed2",
+  "chapter": 33,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Show that pseudorandom output is not Kolmogorov-random. Fill in the three blanks.",
+  "choices": [
+    "public class NotRandom {",
+    "    public static void main(String[] args) {",
+    "        java.util.Random r = ___;",
+    "        StringBuilder sb = new StringBuilder();",
+    "        for (int i = 0; i < 1_000_000; i++) sb.append(___);",
+    "        // The output is a megabyte. Its Kolmogorov complexity is about",
+    "        // ___ -- a few hundred bits.",
+    "    }",
+    "}"
+  ],
+  "answer": "new Random(42)|r.nextInt()|the seed plus the generator's code",
+  "explanation": "The whole sequence is determined by the seed, so a description of it is the generator plus 42. It passes statistical tests and is not random in Kolmogorov's sense, and for simulation that is fine — reproducibility is a feature, since the same seed gives the same run. The practical rule is `Random` for simulation and `SecureRandom` for anything security-related: `Random`'s state can be recovered from two consecutive outputs.",
+  "tags": [
+    "randomness",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "eee26ef5-d860-4f35-9665-12279738ae51",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Of everything in the book, which habit does the closing chapter single out as most worth keeping?",
+  "choices": [
+    "When something surprises you, find out why — the actual mechanism, not \"it works now\".",
+    "Write the test before the code, so the specification comes first.",
+    "Measure before optimising, since intuition about performance is unreliable.",
+    "Prefer composition to inheritance, since it keeps run-time choices open."
+  ],
+  "answer": 0,
+  "explanation": "It costs twenty minutes and it is the difference between getting steadily better and plateauing early with a collection of things that seem to work. Every measurement in the book exists because of it: the `LinkedList` result produced Chapter 15's cache material, the parallel counter produced Chapter 31, and Chapter 32's bubble-sort anomaly was reported rather than removed.",
+  "tags": [
+    "habits",
+    "learning"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

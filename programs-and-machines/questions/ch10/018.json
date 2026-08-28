@@ -1,26 +1,28 @@
 {
-  "question_id": "471a6227-b6ed-4fcd-a22f-58c4d24df5b9",
+  "question_id": "3d204bf8-ae71-41ee-82aa-399fad82f362",
   "chapter": 10,
   "phase": 2,
   "kind": "proof",
-  "text": "Write overloaded methods and a call that shows resolution happening at compile time. Fill in the three blanks.",
+  "text": "Write a method whose name is a promise and whose body could be replaced entirely. Fill in the two blanks so both implementations pass the same check.",
   "choices": [
-    "public class Overload {",
-    "    static String ___ { return \"int\"; }",
-    "    static String ___ { return \"Object\"; }",
+    "public class Promise {",
+    "    static long countAs(String s) {",
+    "        return ___;                         // one implementation",
+    "    }",
     "    public static void main(String[] args) {",
-    "        Object o = 42;                    // an Integer, in an Object variable",
-    "        System.out.println(___);          // which overload runs?",
+    "        long count = countAs(\"banana\");",
+    "        System.out.println(count);",
+    "        System.out.println(___);            // the promise the name makes",
     "    }",
     "}"
   ],
-  "answer": "describe(int x)|describe(Object x)|describe(o)",
-  "explanation": "Verified: it prints `Object`. The value is an `Integer` at run time, and the compiler chose using the *declared* type of `o`. That is the whole difference between overloading and overriding, and Chapter 21 puts them side by side — overload resolution is static and uses the declaration, override dispatch is dynamic and uses the object. Getting this backwards produces surprises that look like the language misbehaving.",
+  "answer": "s.chars().filter(c -> c == 'a').count()|count == 3",
+  "explanation": "Verified: 3, then true. A loop over `toCharArray` would satisfy the same check, which is the point — the name states what is guaranteed and the body is an implementation detail the caller must not depend on. Chapter 35 calls this the second of the book's two ideas: an abstraction's value is not what is behind it but what it lets you stop thinking about.",
   "tags": [
     "methods",
-    "overloading",
+    "abstraction",
     "code"
   ],
-  "difficulty": "advanced",
+  "difficulty": "intermediate",
   "generated": true
 }

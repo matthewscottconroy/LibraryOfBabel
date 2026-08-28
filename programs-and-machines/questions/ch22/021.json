@@ -1,19 +1,21 @@
 {
-  "question_id": "92cadf50-6e3e-43c2-a941-29954ab38105",
+  "question_id": "4e1ad87e-c4cf-4b8a-8968-02f6d67c8720",
   "chapter": 22,
   "phase": 4,
-  "kind": "tf",
-  "text": "A class named `OrderManager` is a design smell.",
+  "kind": "mc",
+  "text": "The flashcard design put review history in a separate `Progress` record rather than inside `Card`. What did that buy?",
   "choices": [
-    "False",
-    "True"
+    "Cards became shareable content while history stayed per-student, so supporting multiple students is a small change rather than a rewrite.",
+    "It allowed `Card` to be a record, which requires having no mutable fields.",
+    "It reduced memory use, since a `Card` no longer carries fields most code ignores.",
+    "It made the scheduler simpler, since it no longer needs to know about cards."
   ],
-  "answer": 1,
-  "explanation": "Names like `Manager`, `Handler`, `Processor` and `Utils` mean the author could not say what the class *is*, and they reliably predict unrelated contents. The two tests are cheap: describe it in one sentence with no \"and\", and for each field count the methods that use it. If two disjoint clusters appear, you have two classes sharing a file, and the clusters show you where the seam is.",
+  "answer": 0,
+  "explanation": "The separation came from two wrong turns being made first — `review()` on the `Card`, then `LeitnerCard extends Card` — and the insight was that content and one student's relationship with that content are different things with different lifetimes. That is the kind of judgment Chapter 23 argues cannot be derived from principles, only from having been wrong about it before.",
   "tags": [
-    "cohesion",
-    "naming"
+    "design",
+    "modelling"
   ],
-  "difficulty": "intermediate",
+  "difficulty": "advanced",
   "generated": true
 }

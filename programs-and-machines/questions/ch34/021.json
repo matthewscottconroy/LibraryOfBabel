@@ -1,0 +1,19 @@
+{
+  "question_id": "2e7388b7-b7ce-46db-90ed-8c0039218360",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "tf",
+  "text": "Having finished this book, you know Java.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "You have not used the module system, most of the standard library, build tools beyond the basics, or any framework — deliberately, since those are learnable in days when you need them and the ideas in the book are not. What you have is the foundation they sit on, which is a different and more durable thing, and the honest accounting in Section 35.2.2 is more useful than a certificate.",
+  "tags": [
+    "reflection",
+    "scope"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

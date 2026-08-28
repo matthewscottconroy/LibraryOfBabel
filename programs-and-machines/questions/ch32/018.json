@@ -1,0 +1,21 @@
+{
+  "question_id": "f591fa78-93da-47c4-91ed-bf334a540227",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "mc",
+  "text": "Shannon estimated English at about one bit per character, against log2(26) = 4.7 for uniform letters. What accounts for the gap?",
+  "choices": [
+    "The alphabet is effectively smaller, since some letters almost never occur.",
+    "Context: knowing the preceding letters removes most of the uncertainty, which is conditional entropy.",
+    "Letter frequencies alone, since e is far more common than z.",
+    "The estimate counts only content words, ignoring function words and spaces."
+  ],
+  "answer": 1,
+  "explanation": "The progression is 4.7 ignoring frequency, 4.1 with letter frequencies, 3.5 with pairs, and about 1 with real context — H(X|Y) <= H(X), and knowing more never hurts. It also explains why you can read text with the vowels removed, why autocomplete works, and why a language model can predict the next word: prediction and compression are the same problem.",
+  "tags": [
+    "entropy",
+    "language"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

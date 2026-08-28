@@ -1,0 +1,27 @@
+{
+  "question_id": "4b3f167e-7ce6-4e14-86bd-969b9530ae7e",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Write a pure function and its impure twin, the distinction the book keeps returning to. Fill in the three blanks.",
+  "choices": [
+    "public class Purity {",
+    "    static int counter = 0;",
+    "    static int pure(int a, int b)   { return ___; }",
+    "    static int impure(int a, int b) { ___; return a + b + counter; }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___);                            // true, always",
+    "        System.out.println(impure(2,3) == impure(2,3));     // false",
+    "    }",
+    "}"
+  ],
+  "answer": "a + b|counter += 1|pure(2, 3) == pure(2, 3)",
+  "explanation": "Verified: true then false. The impure version returns a different answer for identical arguments, so its calls cannot be reordered, cached, deleted when unused, or run on two threads. That single property connects Chapter 11's do-or-compute rule, Chapter 26's referential transparency, and Chapter 31's parallel counter giving three different wrong answers — three chapters, one idea.",
+  "tags": [
+    "purity",
+    "synthesis",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

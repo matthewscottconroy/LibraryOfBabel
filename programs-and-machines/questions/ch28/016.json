@@ -1,17 +1,17 @@
 {
-  "question_id": "46718b25-c99c-406f-ad93-b9c922f8855b",
+  "question_id": "165cf257-34fe-45b8-a6be-dc0c56474b4b",
   "chapter": 28,
   "phase": 6,
   "kind": "mc",
-  "text": "Reading 200,000 bytes one at a time took 43 ms unbuffered and 3 ms buffered. Where did the cost go?",
+  "text": "A buffered writer is never closed and the program exits. What is lost, and why is it worse than a leaked handle?",
   "choices": [
-    "The buffered version reads ahead on a background thread, overlapping I/O with computation.",
-    "Buffering lets the JIT inline the read loop, which it cannot do across a stream boundary.",
-    "Each unbuffered read is a system call; a buffer turns 200,000 of them into about 25 refills plus array accesses.",
-    "The unbuffered version reads the physical disk each time while the buffered one uses the OS cache."
+    "Only the file's modification timestamp is wrong, since the data reached the OS.",
+    "The file is deleted, since an unclosed writer leaves it in a temporary state.",
+    "The last partial buffer is never written, so the file exists, is shorter than expected, and is missing its end.",
+    "Nothing is lost; the JVM flushes all open streams during shutdown."
   ],
   "answer": 2,
-  "explanation": "A system call is a transition into the kernel and back, costing a few hundred nanoseconds regardless of how much data crosses it — about 215 ns each here, essentially all overhead, since the data was in the OS cache the whole time. The general form recurs everywhere: batch the expensive operation. Cache lines, `ArrayList` growth, database round trips and network packets are all this.",
+  "explanation": "The resource being released here is not merely a descriptor — it is unwritten data, so failing to release it loses information rather than leaking a handle. That is why try-with-resources matters more for writers than for readers, and why `flush()` exists for the case where you need the bytes out without closing. Note that flushing reaches the operating system, not the disk.",
   "tags": [
     "files",
     "buffering"

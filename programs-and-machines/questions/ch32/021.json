@@ -1,0 +1,22 @@
+{
+  "question_id": "1c92a7b9-b9be-494f-a506-8d13bba8906f",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Show that entropy is maximised by uniformity, by measuring three distributions over four symbols. Fill in the three blanks.",
+  "choices": [
+    "// Using the H(String) method from earlier, compute the entropy of:",
+    "//   uniform    (4 each):        ___",
+    "//   skewed     (8,4,2,2):       ___",
+    "//   near-certain (15,1):        ___",
+    "// The results are 2.0000, 1.7500 and 0.3373 bits per character."
+  ],
+  "answer": "aaaabbbbccccdddd|aaaaaaaabbbbccdd|aaaaaaaaaaaaaaab",
+  "explanation": "Verified: 2.0000, 1.7500, 0.3373. The uniform case is exactly log2(4), and it is the largest entropy four symbols can have — the hardest thing to predict is the thing with no pattern. The third is a source you can almost always guess, so a symbol from it teaches you almost nothing, and a compressor can encode it in about a third of a bit each.",
+  "tags": [
+    "entropy",
+    "derivation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

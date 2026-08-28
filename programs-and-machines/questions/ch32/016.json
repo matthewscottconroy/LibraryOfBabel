@@ -1,0 +1,23 @@
+{
+  "question_id": "14b60eca-be7b-440a-8844-d756f3409b9c",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Prove that no lossless compressor shrinks every input. Fill in the three blanks.",
+  "choices": [
+    "// Suppose a compressor shrinks every n-bit input by at least one bit.",
+    "// There are ___ inputs of length exactly n.",
+    "// The strings of length n-1 or less number ___ .",
+    "// So by the pigeonhole principle ___ ,",
+    "// and the decompressor cannot know which was meant. Contradiction."
+  ],
+  "answer": "2^n|2^(n-1) + 2^(n-2) + ... + 1 = 2^n - 1|two distinct inputs share an output",
+  "explanation": "Three lines, using Chapter 17's sum of powers of two for the third time. The conclusion is stronger than \"some inputs do not shrink\": for every lossless compressor, some inputs must *grow* — verified, with 200 of 200 random 64-byte inputs growing under gzip. Which is why every real compressor stores an incompressible block uncompressed with a flag, and that flag is the unavoidable growth minimised.",
+  "tags": [
+    "compression",
+    "impossibility",
+    "derivation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

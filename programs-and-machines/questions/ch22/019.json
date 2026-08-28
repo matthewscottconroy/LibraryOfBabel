@@ -1,21 +1,33 @@
 {
-  "question_id": "17bf6b18-0b3c-454d-a7c8-34d31a1f141b",
+  "question_id": "ca4225f7-2051-4671-a465-95dfaac9912d",
   "chapter": 22,
   "phase": 4,
-  "kind": "mc",
-  "text": "Chapter 23 says a design is judged by what happens when a requirement changes. What is the concrete procedure it recommends?",
+  "kind": "proof",
+  "text": "Write a class whose behaviour lives with its data, and the caller-does-the-work version, for comparison. Fill in the three blanks.",
   "choices": [
-    "Count the lines of code, since smaller designs are easier to change.",
-    "Measure the coupling between every pair of classes and minimise the total.",
-    "Audit the design against the SOLID principles and record any violations.",
-    "Name the three changes most likely within a year, trace each through the design, and count the files each touches."
+    "import java.util.*;",
+    "public class Responsibility {",
+    "    record Item(String title, int minutes) { }",
+    "    static class Playlist {",
+    "        private final List<Item> items = new ArrayList<>();",
+    "        void add(Item i) { items.add(i); }",
+    "        int totalMinutes() { int t = 0; ___; return t; }",
+    "        List<Item> items() { return ___; }",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        Playlist p = new Playlist();",
+    "        p.add(new Item(\"a\", 45)); p.add(new Item(\"b\", 33));",
+    "        System.out.println(___);            // 78",
+    "    }",
+    "}"
   ],
-  "answer": 3,
-  "explanation": "It replaces an opinion with a measurement. The flashcard design's own accounting is the model: a new scheduling policy touches one file, a new field on `Card` touches two, and a timing parameter touches four — and the chapter reports the four rather than retrofitting a fix, because wrapping three parameters against a change nobody has asked for is speculative generality with its own cost.",
+  "answer": "for (Item i : items) t += i.minutes()|p.totalMinutes()|List.copyOf(items)",
+  "explanation": "Verified: 78, and calling `add` on the returned list throws. The caller-side loop would need three facts about the playlist's insides — that items can be obtained, that they have durations, that a total is a sum — and writing it in four places freezes the representation. `List.copyOf` on the way out is the other half: a getter returning the field hands out the ability to break the invariant.",
   "tags": [
-    "design",
-    "method"
+    "responsibility",
+    "encapsulation",
+    "code"
   ],
-  "difficulty": "advanced",
+  "difficulty": "intermediate",
   "generated": true
 }

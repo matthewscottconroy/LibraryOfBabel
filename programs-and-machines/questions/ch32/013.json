@@ -1,0 +1,28 @@
+{
+  "question_id": "c592d50d-ceeb-43cd-9d97-4c06c4da1513",
+  "chapter": 32,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Compute the entropy of a biased coin and watch it collapse. Fill in the three blanks.",
+  "choices": [
+    "public class Coin {",
+    "    static double log2(double x) { return ___; }",
+    "    static double H(double p) {",
+    "        if (___) return 0;                  // certainty (p is 0 or 1) carries none",
+    "        return ___;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        for (double p : new double[]{0.5, 0.9, 0.99, 0.999})",
+    "            System.out.printf(\"p=%-6s H=%.4f%n\", p, H(p));",
+    "    }",
+    "}"
+  ],
+  "answer": "p * (1 - p) == 0|-(p * log2(p) + (1 - p) * log2(1 - p))|Math.log(x) / Math.log(2)",
+  "explanation": "Verified: 1.0000, 0.4690, 0.0808, 0.0114. A coin landing heads 99.9% of the time carries about a hundredth of a bit per flip, so a thousand flips carry about 11 bits and could be sent in two bytes. The guard for p = 0 and p = 1 is necessary rather than tidy: `log(0)` is negative infinity and the product would be NaN.",
+  "tags": [
+    "entropy",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

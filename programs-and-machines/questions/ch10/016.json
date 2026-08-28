@@ -1,30 +1,26 @@
 {
-  "question_id": "b2aa626a-3190-412e-a136-14ae2b6cd554",
+  "question_id": "471a6227-b6ed-4fcd-a22f-58c4d24df5b9",
   "chapter": 10,
   "phase": 2,
   "kind": "proof",
-  "text": "Write a method with a precondition it actually enforces, so a caller's mistake is reported at the boundary. Fill in the three blanks.",
+  "text": "Write overloaded methods and a call that shows resolution happening at compile time. Fill in the three blanks.",
   "choices": [
-    "public class Guard {",
-    "    static int largest(int[] a) {",
-    "        if (___)                            // reject the input the method cannot serve",
-    "            throw ___;",
-    "        int max = a[0];",
-    "        for (int v : a) if (v > max) max = v;",
-    "        return max;",
-    "    }",
+    "public class Overload {",
+    "    static String ___ { return \"int\"; }",
+    "    static String ___ { return \"Object\"; }",
     "    public static void main(String[] args) {",
-    "        try { ___; } catch (IllegalArgumentException e) { System.out.println(e.getMessage()); }",
+    "        Object o = 42;                    // an Integer, in an Object variable",
+    "        System.out.println(___);          // which overload runs?",
     "    }",
     "}"
   ],
-  "answer": "a.length == 0|new IllegalArgumentException(\"empty array\")|largest(new int[]{})",
-  "explanation": "Verified: it prints `empty array`. Without the guard, `a[0]` throws `ArrayIndexOutOfBoundsException`, which names an index rather than the actual problem — the caller passed something the method never promised to handle. A method's contract includes what it demands of its inputs, and stating that demand in code is what makes it a contract rather than an assumption.",
+  "answer": "describe(int x)|describe(Object x)|describe(o)",
+  "explanation": "Verified: it prints `Object`. The value is an `Integer` at run time, and the compiler chose using the *declared* type of `o`. That is the whole difference between overloading and overriding, and Chapter 21 puts them side by side — overload resolution is static and uses the declaration, override dispatch is dynamic and uses the object. Getting this backwards produces surprises that look like the language misbehaving.",
   "tags": [
     "methods",
-    "contracts",
+    "overloading",
     "code"
   ],
-  "difficulty": "intermediate",
+  "difficulty": "advanced",
   "generated": true
 }

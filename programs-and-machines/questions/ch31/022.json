@@ -1,0 +1,19 @@
+{
+  "question_id": "2197b329-ca52-43cc-9bdb-c49a41eadc5e",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "blank",
+  "text": "Analysis tells you how a program scales and measurement tells you what it costs today. A recursion whose depth grows with the input has a limit far below what memory suggests, because recursion depth is ___ complexity.",
+  "choices": [
+    "space",
+    "space"
+  ],
+  "answer": "space",
+  "explanation": "Chapter 12 measured this machine's stack at about 20,000 frames, so a recursive walk of a hundred-thousand-element list overflows where the iterative version does not. A recursion of depth log n — divide and conquer — is fine forever, since the logarithm of anything is small. That is one of the more useful practical consequences of taking space seriously alongside time.",
+  "tags": [
+    "complexity",
+    "vocabulary"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

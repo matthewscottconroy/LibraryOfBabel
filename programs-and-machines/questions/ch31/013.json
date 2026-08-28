@@ -1,0 +1,30 @@
+{
+  "question_id": "0a9fd207-e5e9-4b51-abc5-ee24e5d37f21",
+  "chapter": 31,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Measure quadratic growth by counting, and check the count against the closed form. Fill in the three blanks.",
+  "choices": [
+    "public class Quadratic {",
+    "    public static void main(String[] args) {",
+    "        long prev = 0;",
+    "        for (int n : new int[]{1000, 2000, 4000}) {",
+    "            long count = 0;",
+    "            for (int i = 0; i < n; i++) for (int ___; j < n; j++) ___;",
+    "            System.out.printf(\"n=%d count=%d formula=%d ratio=%s%n\",",
+    "                n, count, ___, prev == 0 ? \"-\" : String.format(\"%.2f\", count / (double) prev));",
+    "            prev = count;",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "j = i + 1|count++|n * (n - 1) / 2",
+  "explanation": "Verified: 499,500 then 1,999,000 then 7,998,000, with the ratio exactly 4.00 each time and the formula matching. Four per doubling is the signature of quadratic growth, and the `1/2` in the formula does not affect the ratio — which is the first concrete hint of why big-O discards constant factors.",
+  "tags": [
+    "complexity",
+    "growth",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

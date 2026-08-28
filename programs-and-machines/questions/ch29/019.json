@@ -1,21 +1,21 @@
 {
-  "question_id": "fac8aa28-6014-454a-b9c8-828a7d15385a",
+  "question_id": "467fec24-00ba-4da7-9a88-bee4a747b8f5",
   "chapter": 29,
   "phase": 6,
   "kind": "mc",
-  "text": "Why do toolkits use layout managers instead of absolute positions?",
+  "text": "Why does `repaint()` post a request rather than drawing immediately?",
   "choices": [
-    "Absolute positions break on resize, larger fonts, translated text, and different pixel densities — all of which happen.",
-    "Layout managers compute positions once at construction, which is faster.",
-    "Absolute positioning requires a full-window repaint on every change.",
-    "The coordinate origin differs between platforms, so absolute values are not portable."
+    "So painting can be moved to a background thread when the loop is busy.",
+    "So the toolkit can compute which region became dirty before painting it.",
+    "So several changes in quick succession produce one redraw, and so all drawing stays on the event dispatch thread.",
+    "So the component can be validated and laid out before its contents are drawn."
   ],
-  "answer": 0,
-  "explanation": "The principle transfers completely: describe the relationships, not the positions, and let the layout compute the pixels. That is what CSS flexbox and grid do, what Android's ConstraintLayout does, and what every declarative toolkit does. Sizing is a negotiation — minimum, preferred and maximum are requests and the container decides — so a misbehaving layout is usually the container's doing.",
+  "answer": 2,
+  "explanation": "Coalescing is the first reason and thread confinement the second, and both matter. It also explains the constraints on `paintComponent`: it must be able to run at any time, must be fast because it is on the loop, and must be idempotent, since the number of calls is not yours to know.",
   "tags": [
-    "layout",
-    "portability"
+    "drawing",
+    "events"
   ],
-  "difficulty": "intermediate",
+  "difficulty": "advanced",
   "generated": true
 }

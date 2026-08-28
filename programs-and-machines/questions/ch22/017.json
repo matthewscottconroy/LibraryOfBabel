@@ -1,21 +1,27 @@
 {
-  "question_id": "166dd683-c609-4cba-afaf-c520e7e96d54",
+  "question_id": "11e374ee-60aa-4d30-98fc-4743e0edeaf1",
   "chapter": 22,
   "phase": 4,
-  "kind": "mc",
-  "text": "Order these couplings from weakest to strongest: extending a class, a `List` parameter, shared mutable static state, a `new` call on a collaborator.",
+  "kind": "proof",
+  "text": "Write a class that takes the current time as a parameter rather than reading the clock. Fill in the three blanks.",
   "choices": [
-    "`List` parameter, extending a class, `new` call, shared mutable static state.",
-    "Extending a class, `new` call, `List` parameter, shared mutable static state.",
-    "`List` parameter, `new` call, extending a class, shared mutable static state.",
-    "`new` call, `List` parameter, extending a class, shared mutable static state."
+    "public class Testable {",
+    "    static int due(___, int interval) {     // the day is supplied, not fetched",
+    "        return ___;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___);            // 3 -- no waiting, no mocking",
+    "        System.out.println(due(10, 3));     // 13",
+    "    }",
+    "}"
   ],
-  "answer": 2,
-  "explanation": "A parameter is data coupling, the weakest. A `new` call adds knowledge of how to build the collaborator, which is why moving it to the caller — dependency injection — removes half of it. Inheritance is stronger still, since you depend on internal calls nobody documented. Shared mutable static state is worst: everything touching it is coupled to everything else touching it, invisibly.",
+  "answer": "int today|today + interval|due(0, 3)",
+  "explanation": "Verified: 3 then 13. A class that calls `LocalDate.now()` cannot be tested without waiting or installing a fake clock, and time is the single most common source of untestable code. Passing it in means every scenario — due tomorrow, overdue by a week, a leap day — is one line in a test. It is the same move as taking the `Scheduler` in the constructor: push the decision outward so the class depends on data rather than on the environment.",
   "tags": [
-    "coupling",
-    "design"
+    "testability",
+    "design",
+    "code"
   ],
-  "difficulty": "advanced",
+  "difficulty": "intermediate",
   "generated": true
 }

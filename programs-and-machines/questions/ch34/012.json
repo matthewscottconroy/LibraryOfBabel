@@ -1,0 +1,25 @@
+{
+  "question_id": "a4af29b2-a01e-47a2-9fa3-2973ab66a5ec",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Write one program that exhibits four of the book's agreement bugs at once, so the family is visible as a family. Fill in the four blanks.",
+  "choices": [
+    "public class Family {",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___);            // -56: a pattern read two ways",
+    "        System.out.println(___);            // false: a base-2 fraction",
+    "        System.out.println(___);            // false: identity, not value",
+    "        System.out.println(___);            // false: outside the cache range",
+    "    }",
+    "}"
+  ],
+  "answer": "(byte) 200|0.1 + 0.2 == 0.3|new String(\"ab\") == \"ab\"|Integer.valueOf(128) == Integer.valueOf(128)",
+  "explanation": "Verified: -56, false, false, false. Four chapters, four surprises, one cause — in each the reader and the writer of the value were operating under different agreements. Seeing them as one bug rather than four is the point of Section 35.1.1, because it replaces four things to memorise with one question to ask: what did the other side assume?",
+  "tags": [
+    "synthesis",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

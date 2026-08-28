@@ -1,0 +1,31 @@
+{
+  "question_id": "5c7446a3-43bc-4862-a2e2-8ad65f9ae526",
+  "chapter": 34,
+  "phase": 7,
+  "kind": "proof",
+  "text": "Demonstrate that an abstraction leaks: two lists with the same interface and very different costs. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Leak {",
+    "    static long time(List<Integer> list) {",
+    "        for (int i = 0; i < 100_000; i++) list.add(i);",
+    "        long t = System.nanoTime(); long s = 0;",
+    "        for (int i = 0; i < 100_000; i++) s += ___;   // indexed access",
+    "        return (System.nanoTime() - t) / 1_000_000;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(\"ArrayList  \" + time(___) + \" ms\");",
+    "        System.out.println(\"LinkedList \" + time(___) + \" ms\");",
+    "    }",
+    "}"
+  ],
+  "answer": "new ArrayList<Integer>()|new LinkedList<Integer>()|list.get(i)",
+  "explanation": "Verified on the book's machine: `ArrayList 0 ms` against `LinkedList 2494 ms` for the same 100,000 indexed reads through the same interface — matching Chapter 17's 2,589 ms. `get(i)` is address arithmetic on one and a walk from the head on the other, and contiguity is not in the interface. The response is not to distrust abstractions but to know which leak and where, and to be able to drop a level when a measurement disagrees with the model.",
+  "tags": [
+    "abstraction",
+    "leaks",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

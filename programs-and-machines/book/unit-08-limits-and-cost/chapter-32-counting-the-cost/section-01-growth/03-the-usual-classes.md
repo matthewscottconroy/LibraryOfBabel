@@ -134,11 +134,15 @@ from recomputation, and a cache removes it.
 counting sort is linear. Comparison sorting's lower bound applies only to
 comparison sorting.
 
-Notice that all four are *changes of approach*, not micro-optimizations. That is
-the general truth: **changing the class beats improving the constant, past some
-size, and no amount of tuning changes the class.**
+Look at what those four have in common. Not one of them is a tweak. Nobody made a
+loop tighter or avoided an allocation — in every case somebody stepped back and
+solved the problem a different way.
 
-And the converse, which is Section 32.2.3's subject: below that size, the constant
-is everything and the class is noise.
+Which is the rule underneath all of them: **past some size, changing the class
+beats improving the constant, and no amount of tuning will ever change the
+class.**
+
+And the converse is just as true, and is where the last lesson of this chapter
+lives: below that size, the constant is everything and the class is noise.
 
 Next: sorting and searching, where the classes become concrete.

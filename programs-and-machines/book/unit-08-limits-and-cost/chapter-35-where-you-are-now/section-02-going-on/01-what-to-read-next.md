@@ -7,9 +7,6 @@ The answer depends on what you are trying to become, so the list below is arrang
 that way rather than by topic — and the second half, about what to *build*, matters
 more than the first.
 
-Each chapter's further reading listed sources for that chapter. This is the other
-question: what to read next, given all of it.
-
 ## The three books after this one
 
 If you read only three, these.

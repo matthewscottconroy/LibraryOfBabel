@@ -7,9 +7,6 @@ Here it is as a bug report. A file written on one machine displays on another as
 `GÃ¶del` instead of `Gödel`. Nothing threw. Nothing was corrupted. Both programs
 did exactly what they were told, and the file is fine.
 
-Chapter 4 argued that an encoding is an agreement and that the same bytes read
-under two agreements mean two different things. Here is that, on a real file.
-
 ## Writing
 
 ```java

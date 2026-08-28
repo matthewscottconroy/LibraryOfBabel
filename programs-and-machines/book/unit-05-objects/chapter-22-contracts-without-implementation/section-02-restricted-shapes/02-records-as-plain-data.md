@@ -8,10 +8,7 @@ a `y`.
 
 If it is all derivable, something ought to be able to derive it.
 
-Chapter 20 asked a lot of you. A class holding two coordinates needed private
-fields, a constructor, two getters, `equals` obeying five clauses, `hashCode`
-consistent with it, and `toString`. Forty lines, all of it mechanical, all of it
-derivable from the fact that a point is an `x` and a `y`.
+Something can:
 
 ```java
 record Point(int x, int y) { }

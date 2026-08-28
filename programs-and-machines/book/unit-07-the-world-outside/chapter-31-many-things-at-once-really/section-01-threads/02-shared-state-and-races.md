@@ -8,10 +8,7 @@ reported anywhere.
 
 The cause is one line of code that looks like a single action and is not.
 
-Eight threads, each incrementing a shared counter two hundred thousand times.
-Expected total: 1,600,000.
-
-Verified, three runs:
+Here are those three runs in full:
 
 ```
 expected 1600000, got  414984

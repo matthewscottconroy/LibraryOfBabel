@@ -80,8 +80,10 @@ Three questions suffice, and $\log_2 8 = 3$.
 
 Guessing from 1 to 1000: about 10 questions, and $\log_2 1000 \approx 9.97$.
 
-That is Chapter 9's binary search and Section 32.1.1's logarithm, arriving from a
-third direction. **Binary search takes $\log_2 n$ steps because that is how many
+Which should feel familiar, because you have now arrived at the same logarithm
+from three completely different directions — a search in Chapter 9, a cost in
+Chapter 32, and now a count of questions. **Binary search takes $\log_2 n$ steps
+because that is how many
 bits of information it needs to acquire**, and each comparison yields at most one
 bit. The complexity bound and the information bound are the same bound.
 

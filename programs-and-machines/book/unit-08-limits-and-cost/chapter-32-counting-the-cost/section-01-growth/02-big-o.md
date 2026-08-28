@@ -54,8 +54,8 @@ time — and it is invisible to this notation, which is measuring something else
 
 ## Related notation
 
-Three symbols, and the distinction is worth knowing because the third is what
-people usually mean.
+Three symbols. You will meet all of them, you will almost always want the third,
+and you will almost always see the first.
 
 $O(g)$ — grows **no faster than** $g$. An upper bound.
 $\Omega(g)$ — grows **no slower than** $g$. A lower bound.
@@ -64,9 +64,10 @@ $\Theta(g)$ — both. A tight bound.
 Linear search is $O(n)$ and also $\Theta(n)$. It is also, correctly, $O(n^2)$ and
 $O(2^n)$ — those are true upper bounds and useless ones.
 
-Almost everyone writes $O$ where they mean $\Theta$, and this is harmless in
-practice because the intent is understood. It is worth knowing that "this is
-$O(n^2)$" is technically compatible with the algorithm being linear.
+Almost everyone writes $O$ where they mean $\Theta$, and no harm comes of it,
+because everyone understands what was meant. But keep the pedantic fact in a back
+pocket: "this is $O(n^2)$" is, strictly, entirely compatible with the algorithm
+being linear. It is an upper bound. Nobody promised it was a tight one.
 
 ## Reading code
 

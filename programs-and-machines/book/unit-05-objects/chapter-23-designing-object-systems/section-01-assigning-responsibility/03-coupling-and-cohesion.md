@@ -8,8 +8,6 @@ empty — nobody has ever set out to write incoherent, tightly coupled code. Wha
 makes the pair useful is that both are measurable enough to argue about, and that
 they are proxies for a question you can answer with a number.
 
-Chapter 14 introduced two words and promised to take them seriously here.
-
 **Cohesion** is how strongly the parts of one unit belong together.
 **Coupling** is how much one unit depends on another.
 

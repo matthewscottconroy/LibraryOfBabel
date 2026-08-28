@@ -8,13 +8,10 @@ they should — three times in a row, and then by twelve. That row is reproducib
 It is left in, and this lesson explains why leaving it in matters more than the
 tidier alternative.
 
-This chapter has spent two sections building an apparatus for predicting cost. This
-lesson is about its limits, and it begins with a case where the apparatus and the
-machine disagreed.
-
 ## The row that did not behave
 
-Section 32.2.1's bubble-sort table, extended by one row:
+Here is the bubble-sort table from two lessons ago with one more row on the
+bottom. Read down the ratio column, and stop when something goes wrong:
 
 ```
          n      bubble ms    ratio

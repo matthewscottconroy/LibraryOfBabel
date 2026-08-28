@@ -9,21 +9,13 @@ It compiles, it silences a problem, and it is the reason somebody will spend a d
 next month looking for a wrong number whose cause was destroyed at the moment it
 was available.
 
-A program that has detected an impossible situation has two options: stop, or
-continue in a state it does not understand.
+A program that has just discovered an impossible situation has two choices: stop,
+or carry on in a state it does not understand. This lesson argues hard for the
+first, and then takes some of it back.
 
-This lesson argues for stopping, and then qualifies it.
+## What that line costs
 
-## The case
-
-```java
-try { ... } catch (Exception e) { }
-```
-
-The empty catch. It is the worst line in this chapter, and it appears in almost
-every large codebase.
-
-What it produces: the failure happened, nothing recorded it, and the program
+Look at what actually happens after it runs. the failure happened, nothing recorded it, and the program
 carried on with a variable unassigned or a file unwritten. The symptom appears
 minutes or days later, somewhere else, as a wrong number or a missing record. The
 stack trace that would have named the cause was constructed and discarded.

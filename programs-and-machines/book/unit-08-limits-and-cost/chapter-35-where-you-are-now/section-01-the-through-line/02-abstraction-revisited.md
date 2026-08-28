@@ -8,8 +8,6 @@ thinking about — and that framing explains why a method's name matters more th
 its body, why `private` is worth the keystrokes, and why an interface with nothing
 behind it at all is the purest form of the thing.
 
-The second idea, and it ran alongside the first from Chapter 11 onward.
-
 > An abstraction is a boundary. Its value is not what is behind it — it is what it
 > lets you stop thinking about.
 

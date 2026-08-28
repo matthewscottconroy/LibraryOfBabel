@@ -7,9 +7,6 @@ algorithm.
 It has a proof that no faster one can exist. Not that nobody has found one: that
 nobody can, ever, and the argument is short enough to follow in a page.
 
-These two problems are where complexity analysis was developed and they remain the
-clearest examples, partly because one of them has a proven lower bound.
-
 ## Searching
 
 **Unsorted data**: linear search, $O(n)$, and you cannot do better. To be certain a
@@ -35,7 +32,8 @@ the access pattern — with the arithmetic behind it.
 
 ## Sorting
 
-The comparison sorts worth knowing:
+Here are the comparison sorts you will actually meet, and the two columns on the
+right are the ones people forget to look at:
 
 | algorithm | average | worst | space | stable |
 |---|---|---|---|---|
@@ -50,9 +48,10 @@ sort by one field having already sorted by another.
 
 **Insertion sort** is $O(n^2)$ and is genuinely the best choice for small arrays —
 under about fifty elements — because its constant factor is tiny and it is
-$O(n)$ on nearly sorted input. Real sort implementations use it for small
-subarrays, which is Section 32.1.2's point about small inputs arriving in
-production code.
+$O(n)$ on nearly sorted input. Which is why, if you open the source of a serious
+sorting routine, you will find an insertion sort hiding inside it for the small
+cases — the caveat about small inputs, turning up in production code written by
+people who knew exactly what they were doing.
 
 **Merge sort** is the canonical divide-and-conquer, promised in Chapter 13: split
 in half, sort both halves, merge. The recursion is $\log n$ deep and each level
@@ -122,9 +121,10 @@ only when the values are constrained, small integers or fixed-length keys. The
 lower bound applies to comparison sorting, and the way past a lower bound is
 always to change the problem.
 
-That structure — count the possibilities, count what the algorithm can distinguish,
-conclude — is worth remembering. Chapter 33 uses it to prove that no compressor
-shrinks everything, and Chapter 34's argument is a relative of it.
+Hold on to that structure — count what exists, count what the method can tell
+apart, conclude. You are going to see it twice more before the book ends, once to
+prove that no compressor can shrink everything and once to prove something rather
+larger than that.
 
 ## In practice
 

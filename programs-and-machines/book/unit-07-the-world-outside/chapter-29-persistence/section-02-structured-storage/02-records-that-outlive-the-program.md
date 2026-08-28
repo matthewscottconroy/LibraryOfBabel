@@ -21,10 +21,9 @@ Start with the failure that surprises people.
 Files.writeString(target, newContents);
 ```
 
-Between the truncation of `target` and the last byte written, the process can be
-killed, the machine can lose power, or the disk can fill. The result is a file
-that is neither the old contents nor the new: the old data is gone and the new
-data is partial.
+That window — between the truncation of `target` and the last byte written — is
+where the trouble lives. Come out of it early and you have a file that is neither
+the old contents nor the new.
 
 For a configuration file, that means the program does not start next time. For a
 data file, it means silent loss.

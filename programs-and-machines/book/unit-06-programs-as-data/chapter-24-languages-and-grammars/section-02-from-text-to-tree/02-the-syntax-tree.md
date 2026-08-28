@@ -7,10 +7,7 @@ in it records that `3 * 4` belongs together and `2 +` does not. The structure th
 last lesson fought to make unambiguous has to live *somewhere*, and a sequence has
 nowhere to put it.
 
-A token list is flat. `2 + 3 * 4` is five tokens in a row, and nothing in the row
-says that `3 * 4` belongs together.
-
-The structure is a **tree**:
+The structure you need is a **tree**:
 
 ```
         +

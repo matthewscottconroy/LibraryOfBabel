@@ -7,7 +7,7 @@ Everyone agrees the second is more complicated. Chapter 33's entropy cannot quit
 say why — entropy is defined over a *source*, and here there are two strings and no
 probabilities in sight. So what is it that we are all agreeing about?
 
-Two strings, each a thousand characters:
+Here they are, or as much of each as will fit:
 
 ```
 ababababababababababab ... ab
@@ -17,11 +17,7 @@ ababababababababababab ... ab
 4c1j5b2p0cv4w1x8rx2y39umgw5q85s7 ... uhy4
 ```
 
-The same length. They are not equally complicated, and Chapter 33's entropy cannot
-quite say why — entropy is defined over a *source*, and here we have two strings
-and no probabilities.
-
-Kolmogorov's answer needs none:
+Kolmogorov's answer needs no probabilities at all:
 
 > The **Kolmogorov complexity** $K(s)$ of a string $s$ is the length of the
 > shortest program that outputs $s$ and halts.
@@ -115,9 +111,10 @@ This is the **Berry paradox** made rigorous — "the smallest number not describ
 in fewer than twelve words" is a description of it in eleven — and Chaitin turned
 that piece of wordplay into a theorem.
 
-Note the shape once more: a short description that produces something which,
-by assumption, has no short description. Section 34.1.2's `trouble` was a program
-contradicting its own prediction; this is a program contradicting its own length.
+Stand back and look at the shape of that, because you have seen it before within
+the last few pages. A short description, producing something which — by
+assumption — has no short description. `trouble` was a program that contradicted
+its own prediction. This is a program that contradicts its own length.
 
 ## Two definitions of information
 

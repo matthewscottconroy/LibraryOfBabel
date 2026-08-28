@@ -7,9 +7,6 @@ rhetorical. The second addition is the one to watch: it is a single line of `eva
 it looks like the least significant thing in the chapter, and without it every
 recursive definition runs forever.
 
-Two additions, and together they take the language from a calculator to something
-that can compute anything computable.
-
 ## Defining one
 
 ```java

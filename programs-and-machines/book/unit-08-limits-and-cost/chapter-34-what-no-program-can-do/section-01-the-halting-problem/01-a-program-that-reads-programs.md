@@ -70,7 +70,8 @@ A decision procedure would have to reason about the program rather than watch it
 
 ## Collatz
 
-Chapter 9 introduced a loop and left a question hanging:
+Chapter 9 showed you a loop and then walked away from an awkward question about
+it. The question has been waiting ever since:
 
 ```java
 while (n != 1) {
@@ -106,8 +107,9 @@ defeated the field for nearly ninety years. Termination is not a formality you
 check after establishing correctness; it is a separate question and it can be the
 harder one.
 
-Note also what a `halts` procedure would give you. Ask it about the Collatz loop
-for every starting value, and you settle a famous open problem by running a
+And now consider what a working `halts` would hand you. Point it at this loop, ask
+it about every starting value, and you have settled a problem that has resisted
+ninety years of attention — by running a
 program. That is a strong hint that no such procedure exists — the same hint you
 should feel about anything that would make hard mathematics automatic.
 

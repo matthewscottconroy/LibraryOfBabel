@@ -123,8 +123,8 @@ By reduction, all of these are undecidable:
 
 ## Rice's theorem
 
-Henry Rice proved the general form in 1951, and it is worth stating because it is
-much stronger than any list.
+In 1951 Henry Rice proved the general version, and it is worth meeting properly,
+because it is enormously stronger than any list of examples could be.
 
 > Every non-trivial property of a program's **behavior** is undecidable.
 

@@ -8,11 +8,6 @@ warm the cache is. They are the right unit for "is this fast enough today" and
 useless for "will this survive ten times the data" — and the second question is
 usually the one you actually have.
 
-Chapter 18 measured seconds. Seconds depend on the processor, the JIT's mood, the
-operating system's scheduling, what else is running, and how warm the cache is.
-They are the right unit for "is this fast enough today" and the wrong one for "is
-this algorithm any good".
-
 So count **operations** instead: how many times the essential work happens, as a
 function of the input size.
 

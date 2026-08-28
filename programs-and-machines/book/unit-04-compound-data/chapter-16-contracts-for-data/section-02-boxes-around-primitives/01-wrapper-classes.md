@@ -1,7 +1,7 @@
 # Wrapper Classes
 
 You have a list of names and it works beautifully. So you want a list of numbers,
-and you write the thing that obviously ought to work:
+and you write the line that ought to work:
 
 ```java
 List<int> numbers = new ArrayList<>();

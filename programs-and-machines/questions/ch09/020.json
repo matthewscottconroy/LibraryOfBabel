@@ -1,0 +1,21 @@
+{
+  "question_id": "78ccfeb3-6925-4028-8221-1b7a31c04d68",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why does the book recommend forming a hypothesis before changing code?",
+  "choices": [
+    "Because version control makes it expensive to revert speculative changes.",
+    "Because a change made without a prediction teaches you nothing when it works, and leaves you unable to distinguish a fix from a coincidence.",
+    "Because changing code without a hypothesis risks introducing a second bug.",
+    "Because hypotheses can be tested automatically, while changes must be verified by hand."
+  ],
+  "answer": 1,
+  "explanation": "\"I changed something and the error went away\" is the state Chapter 35 identifies as the difference between people who get steadily better at this and people who plateau. A prediction turns each edit into an experiment with an outcome you can learn from — and when the prediction is wrong, that is more informative than when it is right, because your model of the program has just been corrected.",
+  "tags": [
+    "debugging",
+    "method"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

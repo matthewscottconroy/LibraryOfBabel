@@ -1,0 +1,28 @@
+{
+  "question_id": "3909011d-b0b1-4550-886a-8c28a75ccbe7",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that traces a computation's state after each step, making the sequence of states visible. Fill in the three blanks.",
+  "choices": [
+    "public class Trace {",
+    "    public static void main(String[] args) {",
+    "        long n = 27; int step = 0;",
+    "        while (n != 1) {",
+    "            n = ___ ? ___ : ___;              // halve if even, else triple and add one",
+    "            step++;",
+    "            if (step <= 5 || n == 1) System.out.println(\"  step \" + step + \": \" + n);",
+    "        }",
+    "        System.out.println(\"  halted after \" + step + \" steps\");",
+    "    }",
+    "}"
+  ],
+  "answer": "n % 2 == 0|n / 2|3 * n + 1",
+  "explanation": "Verified: it halts after 111 steps for n = 27. Every step is a state and a rule, and the whole program's state is one number — which is what makes this a good illustration of the chapter's model and a terrible illustration of predictability. Run it and watch the value climb above 9,000 on its way down to 1. Chapter 34 returns to it: nobody has proved this loop halts for every starting value.",
+  "tags": [
+    "state-machine",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,27 @@
+{
+  "question_id": "a1dd9f94-712a-4eda-a683-54a514b3ae05",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that shows `Arrays.binarySearch` returning a wrong answer, to make the point that a precondition is part of a method's contract. Fill in the three blanks.",
+  "choices": [
+    "import java.util.Arrays;",
+    "public class Precondition {",
+    "    public static void main(String[] args) {",
+    "        int[] a = ___;                          // deliberately unsorted",
+    "        System.out.println(\"unsorted: \" + ___);  // look for 3, which IS present",
+    "        ___;",
+    "        System.out.println(\"sorted  : \" + Arrays.binarySearch(a, 3));",
+    "    }",
+    "}"
+  ],
+  "answer": "{5, 3, 9, 1, 7}|Arrays.binarySearch(a, 3)|Arrays.sort(a)",
+  "explanation": "Verified: -1 then 1. The value 3 is in the array and binary search reports it absent, because the method documents a precondition — the array must be sorted — and the caller broke it. No exception is thrown; the contract simply stops applying. This is the shape of a whole family of bugs, and Chapter 16 gives it a name: a representation invariant that some code failed to maintain.",
+  "tags": [
+    "debugging",
+    "contracts",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

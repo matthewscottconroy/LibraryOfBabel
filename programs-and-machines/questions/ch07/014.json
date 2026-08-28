@@ -1,0 +1,28 @@
+{
+  "question_id": "33b6f994-2e2a-4851-b6fe-fe6f4ca84809",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that uses short-circuit evaluation to make an otherwise unsafe expression safe. Fill in the two blanks.",
+  "choices": [
+    "public class ShortCircuit {",
+    "    public static void main(String[] args) {",
+    "        int n = 10, d = 0;",
+    "        System.out.println(___);         // safe: uses the short-circuiting operator",
+    "        try {",
+    "            System.out.println(___);     // unsafe: uses the eager operator",
+    "        } catch (ArithmeticException e) {",
+    "            System.out.println(\"threw: \" + e.getMessage());",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "d != 0 && n / d > 2|d != 0 & n / d > 2",
+  "explanation": "Verified: the first prints false and the second throws `/ by zero`. `&&` evaluates its right side only if the left is true; `&` always evaluates both. So short-circuiting is not an optimisation, it is a control-flow construct that changes which code runs — which is exactly why Chapter 25 shows it cannot be written as an ordinary method: a method's arguments are all evaluated before the call.",
+  "tags": [
+    "operators",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

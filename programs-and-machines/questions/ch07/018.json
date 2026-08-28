@@ -1,0 +1,21 @@
+{
+  "question_id": "0e2a0e14-e9ba-474c-a5a8-2a169ce44092",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Complete the truth table derivation showing that `a && b` and `!(!a || !b)` are the same function. Give each fill as `true` or `false`.",
+  "choices": [
+    "a=false b=false:  a&&b = false,   !(!a||!b) = !(true||true)  = ___",
+    "a=false b=true :  a&&b = false,   !(!a||!b) = !(true||false) = ___",
+    "a=true  b=false:  a&&b = false,   !(!a||!b) = !(false||true) = ___",
+    "a=true  b=true :  a&&b = true,    !(!a||!b) = !(false||false)= ___"
+  ],
+  "answer": "false|false|false|true",
+  "explanation": "false, false, false, true — matching `a && b` in all four rows, which is De Morgan's law verified exhaustively. Four rows is a complete proof here because the input space is finite, which is a luxury this book loses by Chapter 34. The practical use is rewriting a negated compound condition: `!(a && b)` is `!a || !b`, and getting that transformation wrong is a common source of inverted logic.",
+  "tags": [
+    "logic",
+    "derivation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

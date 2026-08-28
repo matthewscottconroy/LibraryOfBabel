@@ -1,0 +1,26 @@
+{
+  "question_id": "6aafe415-8b58-46ec-9332-a650b0583de6",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that shows why printing an array directly is useless, and what to do instead. Fill in the two blanks.",
+  "choices": [
+    "import java.util.Arrays;",
+    "public class Printing {",
+    "    public static void main(String[] args) {",
+    "        int[] a = {1, 2, 3};",
+    "        ___;                    // prints something like [I@1b6d3586",
+    "        ___;                    // prints [1, 2, 3]",
+    "    }",
+    "}"
+  ],
+  "answer": "System.out.println(a)|System.out.println(Arrays.toString(a))",
+  "explanation": "Verified: the first prints `[I@` followed by a hash, the second prints `[1, 2, 3]`. Arrays do not override `toString`, so they inherit `Object`'s, which reports the type and identity hash — `[I` means \"array of int\". Chapter 19 argues you should override `toString` on nearly every class you write for exactly this reason: a value you cannot print is a value you cannot debug. `Arrays.deepToString` handles nested arrays.",
+  "tags": [
+    "debugging",
+    "arrays",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

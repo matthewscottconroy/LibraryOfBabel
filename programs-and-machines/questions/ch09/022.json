@@ -1,0 +1,20 @@
+{
+  "question_id": "54d2d597-7eaf-400f-9583-d6e2dab2b7fa",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "blank",
+  "text": "The debugging technique of halving the region in which a fault can lie, by observing state at the midpoint and then repeating, is called ___ .",
+  "choices": [
+    "bisection",
+    "bisection",
+    "bisecting"
+  ],
+  "answer": "bisection",
+  "explanation": "It is binary search applied to a program rather than to an array, and `git bisect` applies it to a project's history — halving the range of commits in which a regression was introduced. Chapter 32 explains why it is so effective: each observation carries about one bit, so ten of them narrow a thousand candidates and twenty narrow a million.",
+  "tags": [
+    "debugging",
+    "vocabulary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

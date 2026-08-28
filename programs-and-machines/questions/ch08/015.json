@@ -1,0 +1,28 @@
+{
+  "question_id": "aa52bb56-d6c6-46a1-ad93-7da64672b141",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write nested loops that visit each unordered pair exactly once, and count them. Fill in the three blanks.",
+  "choices": [
+    "public class Pairs {",
+    "    public static void main(String[] args) {",
+    "        int n = 10, count = 0;",
+    "        for (int i = 0; i < n; i++)",
+    "            for (int ___; j < n; j++)      // start after i, so each pair once",
+    "                ___;",
+    "        System.out.println(\"visited : \" + count);",
+    "        System.out.println(\"formula : \" + ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "j = i + 1|count++|n * (n - 1) / 2",
+  "explanation": "Verified: 45 both ways. The `j = i + 1` idiom is worth recognising on sight — it is how you say \"each pair once, unordered\" — and the formula check is the habit Chapter 32 asks for, deriving a count rather than trusting the loop. Note that halving the work does not change the complexity class: both this and `j = 0` are quadratic, which is the first hint of why big-O discards constant factors.",
+  "tags": [
+    "loops",
+    "counting",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

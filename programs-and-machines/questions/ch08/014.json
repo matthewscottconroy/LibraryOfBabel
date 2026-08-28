@@ -1,0 +1,21 @@
+{
+  "question_id": "81883f2b-7373-45f4-bc45-6bf8ca38e1c4",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A loop invariant plus a termination argument gives you what, exactly?",
+  "choices": [
+    "A proof that the loop has no off-by-one errors in its bounds.",
+    "Total correctness — the invariant establishes the right answer if the loop ends, and the variant establishes that it does.",
+    "Partial correctness, which is the strongest guarantee available for loops.",
+    "A guarantee that the loop is optimal, since a correct invariant implies minimal work."
+  ],
+  "answer": 1,
+  "explanation": "The two halves answer different questions and both are needed. An invariant alone gives partial correctness: *if* this terminates, the answer is right — which is worth nothing for a loop that runs forever. The variant is a quantity that strictly decreases and cannot go below a bound. Chapter 34 shows why the second half is genuinely hard in general: the Collatz loop is six lines and nobody has produced its termination argument in ninety years.",
+  "tags": [
+    "invariants",
+    "correctness"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

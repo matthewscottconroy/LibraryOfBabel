@@ -1,0 +1,21 @@
+{
+  "question_id": "45444978-7541-43db-a742-be66300bc319",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Grace Hopper's contribution to naming was which of these?",
+  "choices": [
+    "That the first computer bug was a moth, which established debugging as a discipline.",
+    "That programming languages should be standardised across manufacturers.",
+    "That programs could be written in human-readable names and translated to machine code automatically, which was widely doubted at the time.",
+    "That variables should have descriptive names rather than single letters."
+  ],
+  "answer": 2,
+  "explanation": "The doubted part was whether a machine could do the translation at all, and whether the result would be efficient enough to be worth it. Chapter 24's Backus faced the same scepticism with FORTRAN a few years later, and the project's credibility rested on proving a compiler could match hand-written assembly. Every name in every program you write is downstream of that argument being won.",
+  "tags": [
+    "history",
+    "naming"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

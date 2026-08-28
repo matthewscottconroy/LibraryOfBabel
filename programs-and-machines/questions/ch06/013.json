@@ -1,0 +1,21 @@
+{
+  "question_id": "ffad6795-6caf-4dfe-a347-f2d3f4fb23c6",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Chapter 7 calls a variable a box with a name on it. Where does that metaphor break down?",
+  "choices": [
+    "For reference types the box holds an arrow rather than the object, so two boxes can point at one thing and changing it changes what both see.",
+    "It breaks down for local variables, which live on the stack rather than in memory.",
+    "It breaks down for `final` variables, which have no box because the value is inlined.",
+    "It does not break down; it is accurate for every Java type including objects."
+  ],
+  "answer": 0,
+  "explanation": "The metaphor is right about primitives and misleading about everything else, which is a good example of why a mental model needs its boundary stated alongside it. Chapter 25 makes the underlying reality concrete: a variable in the interpreted language is an entry in a `HashMap`, so the box is not a fact about machines but an implementation choice, and a different interpreter could resolve names to array slots instead.",
+  "tags": [
+    "references",
+    "models"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

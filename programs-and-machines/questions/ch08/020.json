@@ -1,0 +1,30 @@
+{
+  "question_id": "f7c371bc-b032-44ba-8a77-5ce62f2da295",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that finds the largest value in an array, stating the invariant that makes it correct. Fill in the three blanks.",
+  "choices": [
+    "public class Largest {",
+    "    static int largest(int[] a) {",
+    "        int max = ___;                     // start with a real element, not 0",
+    "        // invariant: max is the largest of a[0..i-1]",
+    "        for (int ___; i < a.length; i++)   // so start from the second",
+    "            if (___) max = a[i];",
+    "        return max;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(largest(new int[]{-5, -2, -9}));",
+    "    }",
+    "}"
+  ],
+  "answer": "a[0]|i = 1|a[i] > max",
+  "explanation": "Verified: -2. Starting `max` at 0 rather than at `a[0]` is the classic bug, and the test data is chosen to expose it — with an all-negative array, the 0 version returns 0, a value that is not in the array at all. The invariant is what tells you the initialisation is wrong: `max is the largest of a[0..i-1]` is false at i=0 unless max came from the array.",
+  "tags": [
+    "loops",
+    "invariants",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

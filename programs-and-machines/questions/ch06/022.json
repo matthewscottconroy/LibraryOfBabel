@@ -1,0 +1,19 @@
+{
+  "question_id": "ec16bbc6-4c68-4f9a-8e55-6c204aa07275",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "blank",
+  "text": "When an inner scope declares a name that already exists in an enclosing scope, the inner one hides the outer for the duration of the block. This is called ___ .",
+  "choices": [
+    "shadowing",
+    "shadowing"
+  ],
+  "answer": "shadowing",
+  "explanation": "It is not always an error — a parameter named `x` shadowing a field named `x` is the ordinary case, and `this.x` reaches past it. It becomes a problem with fields, where Chapter 21 shows that declaring a field with an inherited name adds a second field rather than replacing the first, and which one you see depends on the declared type of the reference. Making fields private removes the possibility entirely.",
+  "tags": [
+    "scope",
+    "vocabulary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

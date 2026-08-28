@@ -1,0 +1,21 @@
+{
+  "question_id": "131335cf-59fc-4126-bda0-8ee85d62881d",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What did the stored-program idea change about ENIAC-style machines?",
+  "choices": [
+    "It introduced binary representation, replacing ENIAC's decimal digit encoding.",
+    "It made programs portable between different machines for the first time.",
+    "Programs became data in the same memory as everything else, so changing a program stopped meaning rewiring the machine.",
+    "It allowed machines to run more than one program, which fixed-program machines could not."
+  ],
+  "answer": 2,
+  "explanation": "Setting up a new ENIAC problem meant physically repositioning cables and switches and took days. Once a program is data in memory, loading a new one is writing to memory — and, more consequentially, a program can then read and write programs. That is what makes a compiler possible, and Chapter 25's interpreter is the same idea in the smallest form that still shows it.",
+  "tags": [
+    "stored-program",
+    "history"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

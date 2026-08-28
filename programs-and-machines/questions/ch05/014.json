@@ -1,0 +1,21 @@
+{
+  "question_id": "bd87ef0c-736d-4f2d-afcf-fafe5d2ad68c",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A Turing machine has an infinite tape. Since no real machine does, why is the model still relevant?",
+  "choices": [
+    "Real machines approximate it closely enough, since modern memory is effectively unbounded.",
+    "It is not relevant in practice; it survives for historical reasons in theory courses.",
+    "It is relevant because real processors are implemented internally as Turing machines.",
+    "It marks the boundary of what is computable at all, and no real machine can exceed it — the tape's infinity only removes a memory limit, not a capability limit."
+  ],
+  "answer": 3,
+  "explanation": "The point of the infinite tape is to make the model about *computability* rather than about capacity. A result proved for Turing machines — such as Chapter 34's undecidability of halting — applies to every real machine, because a real machine can do strictly less. The infinity makes the negative results stronger, not weaker, which is the opposite of the usual intuition about idealised models.",
+  "tags": [
+    "turing",
+    "theory"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

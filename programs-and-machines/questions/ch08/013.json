@@ -1,0 +1,30 @@
+{
+  "question_id": "3a47d860-19fb-4155-8ec9-9dba8c17507a",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a loop that computes a sum, and instrument it so the invariant is checked on every iteration. Fill in the three blanks.",
+  "choices": [
+    "public class Invariant {",
+    "    public static void main(String[] args) {",
+    "        int[] xs = {4, 8, 15, 16, 23, 42};",
+    "        int sum = 0;",
+    "        for (int i = 0; ___; i++) {",
+    "            ___;",
+    "            int expected = 0; for (int k = 0; k <= i; k++) expected += xs[k];",
+    "            if (!(___)) throw new AssertionError(\"invariant broken at i=\" + i);",
+    "        }",
+    "        System.out.println(sum);",
+    "    }",
+    "}"
+  ],
+  "answer": "i < xs.length|sum += xs[i]|sum == expected",
+  "explanation": "Verified: it prints 108 and the assertion never fires. The invariant is `sum holds the total of xs[0..i]`, and the check recomputes it the slow way. Nobody ships this — it turns a linear loop into a quadratic one — but writing it once for a loop you do not trust is the cheapest debugging technique in Chapter 10, and it forces you to *state* the invariant, which is usually where the bug becomes visible.",
+  "tags": [
+    "loops",
+    "invariants",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

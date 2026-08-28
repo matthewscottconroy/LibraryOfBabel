@@ -1,0 +1,21 @@
+{
+  "question_id": "a0e7df3b-2c5c-4e3f-85a5-4c7010cedaab",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why is `for (int i = 0; i <= a.length; i++)` wrong, and why is the error so common?",
+  "choices": [
+    "Valid indices run 0 through length-1, and `<=` visits one past the end; the error is common because natural counting is inclusive and array indexing is not.",
+    "Because `i` should be declared outside the loop for the bound to be checked correctly.",
+    "Because the loop mutates `i` after the comparison, so the final index is off by one.",
+    "Because `length` is a method call on arrays, so it is re-evaluated each iteration."
+  ],
+  "answer": 0,
+  "explanation": "The mismatch is between how humans count — first through last, inclusive — and how zero-based indexing works. Java catches it with `ArrayIndexOutOfBoundsException` rather than reading whatever memory follows the array, which is what C does and is the mechanism behind decades of buffer-overflow vulnerabilities. Chapter 15 makes the case that the bounds check is worth its cost for exactly this reason.",
+  "tags": [
+    "loops",
+    "off-by-one"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "f5fab283-c254-4fb6-82df-179133996b66",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Chapter 8 derives conditionals from logic gates. What is the point of going down to that level?",
+  "choices": [
+    "To explain why boolean operations are faster than arithmetic on modern processors.",
+    "To show that a branch is not a primitive idea but something built from a truth table, so the same reasoning applies at every layer.",
+    "To prepare for writing hardware description code later in the book.",
+    "Because the JVM compiles conditionals directly to the gate patterns described."
+  ],
+  "answer": 1,
+  "explanation": "The parity table earlier in the chapter is the same move: behaviour that looks like knowledge turns out to be arrangement. Once you have seen a conditional built from gates, `if` stops being magic, and the habit of asking what a construct is *made of* transfers — it is the same habit that makes Chapter 25's interpreter demystify `eval` and Chapter 21's method tables demystify dispatch.",
+  "tags": [
+    "logic",
+    "pedagogy"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

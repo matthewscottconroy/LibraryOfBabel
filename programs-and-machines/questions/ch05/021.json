@@ -1,0 +1,21 @@
+{
+  "question_id": "727405fc-7f24-45ec-8069-761e9bf49f55",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "The Church-Turing thesis is not a theorem. Why not, and what supports it?",
+  "choices": [
+    "It equates an informal notion — effective procedure — with a formal one, so it cannot be proved; it is supported by every formalism proposed turning out to be equivalent.",
+    "It is a definition, so it is true by stipulation and needs no support at all.",
+    "It is unproved only because no one has found a proof, and it remains an open problem.",
+    "It is false in general and holds only for machines with unbounded memory."
+  ],
+  "answer": 0,
+  "explanation": "You cannot prove that a formal definition captures an intuitive idea, because the intuitive side has no definition to argue from. What you can do is notice that Turing machines, Church's lambda calculus, Godel's recursive functions, and every later model define the same class of computable functions — arrived at independently, from different directions. Chapters 13 and 26 use the lambda calculus side, and Chapter 34 notes that Church and Turing proved the same undecidability result in different formalisms.",
+  "tags": [
+    "turing",
+    "theory"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

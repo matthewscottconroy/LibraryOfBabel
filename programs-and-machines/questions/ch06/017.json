@@ -1,0 +1,21 @@
+{
+  "question_id": "88db96e2-bc0a-42bd-a73f-492aec070456",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is the practical difference between `final int x = 1;` and `final int[] a = {1};`?",
+  "choices": [
+    "`final` prevents reassignment of the array reference and also fixes the array's length.",
+    "`final` forbids rebinding the name in both cases, so `x` cannot change but `a[0]` can.",
+    "`final` on a primitive is a compile-time constant, while on an array it has no effect at all.",
+    "`final` on an array makes its contents immutable as well, so neither can change."
+  ],
+  "answer": 1,
+  "explanation": "`final` constrains the arrow, never the thing at the end of it. That distinction is why Chapter 20 has to argue for immutability as a design discipline rather than as a keyword — a `final` field holding a mutable object gives you no guarantee at all about what the object holds, and defensive copying exists precisely to close that gap.",
+  "tags": [
+    "final",
+    "references"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

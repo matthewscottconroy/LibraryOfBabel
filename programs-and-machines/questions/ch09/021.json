@@ -1,0 +1,29 @@
+{
+  "question_id": "39b3a052-7393-4728-ad52-17d53a48745f",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that verifies its own assumption instead of trusting it, converting a silent wrong answer into a loud failure. Fill in the two blanks.",
+  "choices": [
+    "public class CheckFirst {",
+    "    static void requireSorted(int[] sorted) {",
+    "        for (int i = 0; i < sorted.length - 1; i++)",
+    "            if (!(___))",
+    "                throw ___;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        int[] a = {5, 3, 9};",
+    "        try { requireSorted(a); } catch (IllegalStateException e) { System.out.println(e.getMessage()); }",
+    "    }",
+    "}"
+  ],
+  "answer": "sorted[i] <= sorted[i + 1]|new IllegalStateException(\"not sorted at \" + i)",
+  "explanation": "Verified: it prints `not sorted at 0`. The check costs a linear pass and buys a message naming the exact index where the assumption failed, instead of a wrong search result three call frames later. Chapter 28 makes this the general rule — fail fast, at the earliest point the assumption can be checked, with the caller who supplied the bad value still on the stack.",
+  "tags": [
+    "debugging",
+    "contracts",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

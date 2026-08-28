@@ -1,0 +1,21 @@
+{
+  "question_id": "eceeafde-e822-48ee-a8d8-437bb572109d",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why does Java require you to declare a variable before assigning to it, when many languages do not?",
+  "choices": [
+    "Because the JVM must know the type in advance to allocate the correct number of bytes.",
+    "Because a misspelled assignment then becomes a compile error rather than the silent creation of a new variable.",
+    "Because without declarations the JIT could not decide which variables to keep in registers.",
+    "Because declarations are what make a variable's scope determinable by the compiler."
+  ],
+  "answer": 1,
+  "explanation": "The check exists for the programmer, not for the machine — languages without it run fine. What they do not do is catch `totl = total + 1`, which in Java is an error and elsewhere is a new variable holding a value nobody reads. Chapter 25's Exercise 25.7 asks you to add this rule to the interpreted language, and the exercise's real content is noticing that Java's rule is a choice made for your benefit rather than a technical necessity.",
+  "tags": [
+    "declarations",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

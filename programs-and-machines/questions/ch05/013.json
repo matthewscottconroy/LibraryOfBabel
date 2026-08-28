@@ -1,0 +1,21 @@
+{
+  "question_id": "425b1d24-ce6b-4bae-b40b-43280e82e7b3",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "A four-entry lookup table computes the parity of two bits. In what sense does the table \"know\" what parity is?",
+  "choices": [
+    "In the sense that a lookup is a computation, so the table computes parity by definition.",
+    "In the sense that each entry encodes one case of the parity function's definition.",
+    "In the sense that the table is a compiled form of the XOR operation, which is parity.",
+    "In no sense — the knowledge is in the arrangement of the entries, and no part of the table contains it."
+  ],
+  "answer": 3,
+  "explanation": "Pull the table apart and every piece is a bit; nothing in any of them is about parity. The behaviour lives in how they are organised relative to the inputs that index them. This pattern recurs at every scale in the book — a `HashMap` does not know what a key means, a neural network's weights do not contain concepts, and Chapter 34 uses a version of this to argue about what programs can and cannot be told about themselves.",
+  "tags": [
+    "state",
+    "reasoning"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

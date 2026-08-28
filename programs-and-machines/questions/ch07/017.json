@@ -1,0 +1,21 @@
+{
+  "question_id": "b1059105-e12a-4a34-a0ac-b18c368eb8fb",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Which of these is a genuine reason to prefer `switch` over a chain of `if`/`else if`?",
+  "choices": [
+    "When switching over an enum or sealed type, the compiler can verify that every case is covered.",
+    "Because `switch` is always compiled to a constant-time jump table and `if` chains are linear.",
+    "Because `switch` allows fall-through, which makes grouped cases more concise.",
+    "Because `switch` evaluates its subject expression once and `if` chains re-evaluate it."
+  ],
+  "answer": 0,
+  "explanation": "Exhaustiveness is the reason that survives scrutiny. The jump-table claim is conditional — it holds for dense integer cases and not for sparse ones or strings. Fall-through is a misfeature that the arrow form removed and that caused decades of missing-`break` bugs. And a well-written `if` chain evaluates its subject once too, into a local.",
+  "tags": [
+    "switch",
+    "judgment"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

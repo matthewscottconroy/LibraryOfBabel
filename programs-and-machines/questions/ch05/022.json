@@ -1,0 +1,19 @@
+{
+  "question_id": "e4305cd5-2748-4685-bd64-472b6cb802ac",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A machine whose instructions live in the same memory as its data - so that a program can be read, written and treated as data by another program - is called a ___-program machine.",
+  "choices": [
+    "stored",
+    "stored"
+  ],
+  "answer": "stored",
+  "explanation": "The idea is usually credited to the 1945 EDVAC report circulated under von Neumann's name, though Eckert and Mauchly had been working toward it and the authorship dispute is genuine. Everything in Unit VI depends on it: a parser reads a program as text, an evaluator walks it as a tree, and reflection lets a program examine its own classes. Without it, none of those are possible.",
+  "tags": [
+    "stored-program",
+    "vocabulary"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

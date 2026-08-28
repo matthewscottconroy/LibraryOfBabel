@@ -1,0 +1,29 @@
+{
+  "question_id": "6c258dcb-45e0-4ddc-be3d-03ae16a0378d",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that shows a name being reused for a different value over time, and explain by construction why order matters. Fill in the two blanks.",
+  "choices": [
+    "public class Order {",
+    "    public static void main(String[] args) {",
+    "        int count = 5;",
+    "        ___;                                // add one",
+    "        ___;                                // then double",
+    "        System.out.println(count);          // 12",
+    "        count = 5;",
+    "        count = count * 2;",
+    "        count = count + 1;",
+    "        System.out.println(count);          // 11",
+    "    }",
+    "}"
+  ],
+  "answer": "count = count + 1|count = count * 2",
+  "explanation": "Verified: 12 then 11. Assignment is not equality — `count = count + 1` is false as a mathematical statement and perfectly meaningful as an instruction — and because it is an instruction, order changes the answer. Chapter 26's pure functions are the alternative: an expression whose value does not depend on when you evaluate it, which is what makes it safe to move, cache, or run on another thread.",
+  "tags": [
+    "assignment",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

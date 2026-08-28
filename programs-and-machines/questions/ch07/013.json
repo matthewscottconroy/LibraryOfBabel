@@ -1,0 +1,21 @@
+{
+  "question_id": "14b6a7d8-f853-4c3c-b225-4d5b60cd6687",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why does Java require the condition in an `if` to be `boolean`, rather than accepting any value like C?",
+  "choices": [
+    "It turns `if (x = 5)` from a silent assignment into a compile error, since the assignment's value is an `int`.",
+    "It allows the compiler to optimise branches better, since the condition is known to be one bit.",
+    "It prevents null pointer exceptions, since a null reference cannot be used as a condition.",
+    "It is required by the JVM, whose branch instructions only accept boolean operands."
+  ],
+  "answer": 0,
+  "explanation": "The rule exists to catch one specific and famously costly typo. In C, `if (x = 5)` assigns 5, yields 5, and takes the branch — every time. Java makes the assignment's type `int`, which is not `boolean`, so it does not compile. Note the cost: `if (b = true)` on a `boolean` still compiles, so the protection is real but not total.",
+  "tags": [
+    "conditionals",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "b90500b9-cebd-4a36-987e-377308ab246e",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "tf",
+  "text": "`&` and `&&` produce the same result for boolean operands, differing only in efficiency.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "They produce the same result only when evaluating the right side is safe and free of effects. `d != 0 & n / d > 2` throws where the `&&` version returns false, because `&` evaluates both sides. Short-circuiting is a difference in *which code runs*, not in speed, and the idiom `x != null && x.foo()` depends on it entirely.",
+  "tags": [
+    "operators",
+    "semantics"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

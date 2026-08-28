@@ -1,0 +1,19 @@
+{
+  "question_id": "a5fc6d6c-7be7-4a52-b66a-336147335545",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Because the JVM is a stored-program machine, a Java program can modify its own bytecode while running.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "The stored-program idea means instructions live in memory *as data*, which is what makes compilers, interpreters and loaders possible, and Unit VI is built on it. But the JVM deliberately does not let a running method rewrite itself: bytecode is verified at load time and then treated as read-only, precisely so that the verification stays meaningful. Chapter 27's reflection lets a program *inspect* itself, which is a much weaker capability, and the distinction is a security decision rather than a technical limit.",
+  "tags": [
+    "stored-program",
+    "jvm"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

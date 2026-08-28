@@ -1,0 +1,25 @@
+{
+  "question_id": "88930314-1a26-491b-ac1c-6788eaca56ec",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program demonstrating the danger of a brace-less `if`. Fill in the two blanks so the output matches the comments.",
+  "choices": [
+    "public class Braces {",
+    "    public static void main(String[] args) {",
+    "        int x = -1;",
+    "        ___",
+    "            System.out.println(\"only when positive\");",
+    "            ___;                       // NOT part of the if, despite the indentation",
+    "    }",
+    "}"
+  ],
+  "answer": "if (x > 0)|System.out.println(\"always runs\")",
+  "explanation": "Verified: with x = -1 the program prints only `always runs`. Indentation is invisible to the compiler; only the braces are load-bearing, and an `if` without them governs exactly one statement. This is not hypothetical — Apple's 2014 `goto fail` bug was a duplicated line under a brace-less `if`, and it disabled TLS certificate validation across every Apple product. Write the braces.",
+  "tags": [
+    "conditionals",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

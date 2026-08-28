@@ -1,0 +1,19 @@
+{
+  "question_id": "13962587-1d03-45bf-9f41-4f3f3e818206",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Two variables of primitive type can be aliases for the same storage.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Assigning one primitive to another copies the value, so afterwards the two are independent — this is why local primitives are automatically safe across threads, as Chapter 31 notes. Aliasing requires a reference, which is why it appears exactly when objects do. The one apparent exception, an array element passed around, is not one: what is shared is the array, and the element is reached through it.",
+  "tags": [
+    "references",
+    "aliasing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

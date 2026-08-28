@@ -1,0 +1,21 @@
+{
+  "question_id": "8ac1dbca-a359-4161-860c-3c3db6a8d5cf",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Chapter 10 says a debugger's most useful question is not \"what does this do\" but something else. What?",
+  "choices": [
+    "\"What exactly did I expect, and what exactly happened instead?\" - because the gap between those two is the bug.",
+    "\"What changed since it last worked?\", since most bugs are introduced by recent edits.",
+    "\"Can I reproduce it reliably?\", since an intermittent fault cannot be diagnosed.",
+    "\"Which line threw the exception?\", since the stack trace localises the fault."
+  ],
+  "answer": 0,
+  "explanation": "The other three are genuinely useful and all are downstream of the first. Without an explicit expectation there is no gap to measure — you are looking at output with no standard to compare it against, which is why \"it doesn't work\" is not yet a bug report. The preface asks for this habit and Chapter 35 says it is the single thing most worth keeping from the book.",
+  "tags": [
+    "debugging",
+    "method"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

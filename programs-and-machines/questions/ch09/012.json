@@ -1,0 +1,27 @@
+{
+  "question_id": "cb6e16b3-6356-4e6e-bdae-c44eef2bcaab",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that bisects a failing computation, printing state at each stage so you can see where it goes wrong. Fill in the three blanks.",
+  "choices": [
+    "public class Bisect {",
+    "    public static void main(String[] args) {",
+    "        int n = 7;",
+    "        ___;",
+    "        n = n * 1000;",
+    "        ___;",
+    "        n = Math.min(n, 5000);",
+    "        ___;",
+    "    }",
+    "}"
+  ],
+  "answer": "System.out.println(\"after read : \" + n)|System.out.println(\"after scale: \" + n)|System.out.println(\"after clamp: \" + n)",
+  "explanation": "Verified: 7, 7000, then 5000. This is the cheapest debugging technique there is, and its value is not the printing but the *bisection* — you are halving the region where the bug can be, exactly as binary search halves a range. Chapter 32 makes that connection precise: ten well-chosen observations narrow a thousand-step program, and twenty narrow a million, because each one carries a bit of information.",
+  "tags": [
+    "debugging",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

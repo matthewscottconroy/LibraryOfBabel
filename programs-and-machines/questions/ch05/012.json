@@ -1,0 +1,32 @@
+{
+  "question_id": "7aaf4542-e6ae-4c3c-ba6b-b9c4b5ef5e70",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that is a state machine: it reads a string and reports whether the parentheses balance, holding all its knowledge in one integer. Fill in the three blanks.",
+  "choices": [
+    "public class Balanced {",
+    "    static boolean ok(String s) {",
+    "        int depth = 0;",
+    "        for (char c : s.toCharArray()) {",
+    "            if (c == '(') ___;",
+    "            else if (c == ')') ___;",
+    "            if (depth < 0) return false;        // closed one too many",
+    "        }",
+    "        return ___;                             // ended level with the start",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        for (String s : new String[]{\"(())\", \"(()\", \"())(\", \"\"})",
+    "            System.out.println(s + \" -> \" + ok(s));",
+    "    }",
+    "}"
+  ],
+  "answer": "depth++|depth--|depth == 0",
+  "explanation": "Verified: true, false, false, true. The whole state of this computation is one integer, and each character is one step that changes it — which is the chapter's definition made concrete. The early `depth < 0` return matters: without it \"())(\" ends at depth 0 and is wrongly accepted, because the counter cannot tell that it went negative in the middle. Chapter 24 shows why a counter suffices here and a stack is needed for nested *kinds* of bracket.",
+  "tags": [
+    "state-machine",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

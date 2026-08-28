@@ -1,0 +1,21 @@
+{
+  "question_id": "a940a5d8-cb01-45da-9710-118af30230cd",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What is a minimal reproduction, and why is producing one usually most of the fix?",
+  "choices": [
+    "The original program with the inputs reduced, so the failing data is small.",
+    "A test case that runs in under a second, so the debugging loop stays fast.",
+    "A version of the program with logging added at every level of the call stack.",
+    "The smallest program that still shows the bug; producing it forces you to remove everything irrelevant, which is exactly the process of localising the cause."
+  ],
+  "answer": 3,
+  "explanation": "Reduction is diagnosis. Every piece you delete without the bug disappearing is a piece proven innocent, and by the time twelve lines remain there is nowhere left for the fault to hide. It also happens to be what a maintainer needs in order to help you, which is why Chapter 35's exercise on contributing to a project asks specifically for one.",
+  "tags": [
+    "debugging",
+    "method"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

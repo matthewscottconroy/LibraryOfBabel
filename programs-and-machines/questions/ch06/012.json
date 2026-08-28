@@ -1,0 +1,28 @@
+{
+  "question_id": "c42e1ca0-94cf-4aba-9eab-cba13f19711e",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that shows the difference between copying a value and copying a reference. Fill in the three blanks.",
+  "choices": [
+    "public class Copies {",
+    "    public static void main(String[] args) {",
+    "        int a = 1, b;",
+    "        ___;  b = 99;                       // copy the value, then change the copy",
+    "        System.out.println(\"a = \" + a);",
+    "        int[] p = {1}, q;",
+    "        ___;                                // copy the reference",
+    "        ___;                                // change through the copy",
+    "        System.out.println(\"p[0] = \" + p[0]);",
+    "    }",
+    "}"
+  ],
+  "answer": "b = a|q = p|q[0] = 99",
+  "explanation": "Verified: a = 1, p[0] = 99. Same syntax, opposite outcome. `b = a` copies a number; `q = p` copies an arrow, and both arrows then point at one array. This is the single most consequential asymmetry in the language for a beginner, and Chapter 20 gives it a name — aliasing — and an argument about when it is what you wanted.",
+  "tags": [
+    "references",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

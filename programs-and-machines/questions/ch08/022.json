@@ -1,0 +1,19 @@
+{
+  "question_id": "b09bbe4e-4428-44f7-aa06-dcccd77c061d",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "blank",
+  "text": "A quantity that strictly decreases on every iteration and cannot fall below a fixed bound - and therefore proves a loop terminates - is called the loop's ___ .",
+  "choices": [
+    "variant",
+    "variant"
+  ],
+  "answer": "variant",
+  "explanation": "Its partner is the invariant, which stays true; the variant is what must change. In Euclid's algorithm the variant is `b`, which strictly decreases and cannot go below zero, so the loop must stop. Finding a variant is exactly what a termination checker in Coq or Agda demands of you, and Chapter 34 explains why the system checks your argument rather than finding one for you.",
+  "tags": [
+    "loops",
+    "vocabulary"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

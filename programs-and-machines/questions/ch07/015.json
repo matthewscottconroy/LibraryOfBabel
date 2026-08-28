@@ -1,0 +1,21 @@
+{
+  "question_id": "8f386fe9-ed8b-4337-95ab-a69530aa97aa",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "mc",
+  "text": "You are told a `switch` over an enum needs no `default` clause. What do you lose by adding one anyway?",
+  "choices": [
+    "Nothing — the `default` is unreachable, so it is harmless documentation.",
+    "The switch can no longer be compiled to a jump table, so it becomes a chain of comparisons.",
+    "The compiler stops checking exhaustiveness, so adding a constant later compiles silently instead of failing at every switch that missed it.",
+    "You lose the ability to use arrow syntax, since `default` requires the older colon form."
+  ],
+  "answer": 2,
+  "explanation": "The exhaustiveness check is the entire payoff of using an enum rather than `int` constants, and `default` is you telling the compiler that everything is handled. Add a fourth weather and the check would have handed you the list of places to update; with `default`, the program compiles and misbehaves at run time in whichever branch you forgot. Chapter 22 makes this the argument for enums generally.",
+  "tags": [
+    "switch",
+    "enums"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

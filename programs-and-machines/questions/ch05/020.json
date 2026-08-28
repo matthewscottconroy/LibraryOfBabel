@@ -1,0 +1,29 @@
+{
+  "question_id": "2e88f56d-b9ac-4a3d-99a5-0bd95224f1a6",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program implementing a state machine that recognises the language of strings over {a,b} containing an even number of a's. Fill in the two blanks.",
+  "choices": [
+    "public class EvenAs {",
+    "    static boolean accepts(String s) {",
+    "        boolean even = true;                  // zero a's so far, and zero is even",
+    "        for (char c : s.toCharArray())",
+    "            if (c == 'a') ___;                // one more 'a' flips the state",
+    "        return ___;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        for (String s : new String[]{\"\", \"aa\", \"aba\", \"abb\", \"aaa\"})",
+    "            System.out.println(\"\\\"\" + s + \"\\\" -> \" + accepts(s));",
+    "    }",
+    "}"
+  ],
+  "answer": "even = !even|even",
+  "explanation": "Verified: true, true, true, false, false. Two states, one boolean, and no memory of what came before beyond which state you are in — this is a finite automaton, and it needs no stack because it never has to count without bound. Chapter 24 uses exactly this distinction: recognising *words* is finite-state, recognising *nesting* is not, which is why tokenising and parsing are separate passes rather than a convention.",
+  "tags": [
+    "state-machine",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "eaea8419-7be4-41e1-919a-6272f8763132",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "blank",
+  "text": "`&&` and `||` evaluate their right operand only when the left has not already decided the answer. This behaviour is called ___ evaluation.",
+  "choices": [
+    "short-circuit",
+    "short-circuit",
+    "short circuit",
+    "shortcircuit"
+  ],
+  "answer": "short-circuit",
+  "explanation": "It is what makes `x != null && x.length() > 0` safe, and Chapter 25 shows it is the same mechanism that makes recursion possible: a conditional must not evaluate both branches, or a recursive base case would recurse anyway. That is why `if` cannot be an ordinary method in a language with call-by-value, and why Java needs it as a construct rather than a library function.",
+  "tags": [
+    "operators",
+    "vocabulary"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

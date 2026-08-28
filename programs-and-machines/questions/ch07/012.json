@@ -1,0 +1,24 @@
+{
+  "question_id": "15bf60ec-d0cd-49f3-b71e-45122169c619",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program showing that Java's `%` is a remainder, not a mathematical modulo. Fill in the three blanks.",
+  "choices": [
+    "public class Remainder {",
+    "    public static void main(String[] args) {",
+    "        System.out.println(\"remainder : \" + ___);    // Java's operator",
+    "        System.out.println(\"floorMod  : \" + ___);    // the mathematical modulo",
+    "        System.out.println(\"division  : \" + ___);    // truncates toward zero",
+    "    }",
+    "}"
+  ],
+  "answer": "-7 % 2|Math.floorMod(-7, 2)|-7 / 2",
+  "explanation": "Verified: -1, 1, and -3. Java's `%` takes the sign of the dividend, because division truncates toward zero and the two must stay consistent. So `n % 2 == 1` is a broken test for oddness — it is false for every negative odd number — and `n % 2 != 0` is the correct one. `Math.floorMod` gives the non-negative answer, which is what you want when computing an array index by wrapping.",
+  "tags": [
+    "operators",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

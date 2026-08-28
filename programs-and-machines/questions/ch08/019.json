@@ -1,0 +1,19 @@
+{
+  "question_id": "274112b6-5cf1-44c7-ac78-4eb324f011e1",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "tf",
+  "text": "Every loop can be rewritten as a recursive method, and every recursive method as a loop.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "This is Chapter 13's equivalence, and it is why Chapter 25's interpreted language needs no loop construct at all — `fact` iterates by recursing, and the language is still Turing complete. The practical asymmetry is that the mechanical rewrite from recursion to iteration is easy only for tail recursion; a tree recursion generally needs an explicit stack, which is Chapter 12's stack made visible in your own code.",
+  "tags": [
+    "loops",
+    "recursion"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

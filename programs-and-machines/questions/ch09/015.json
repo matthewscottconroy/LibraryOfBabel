@@ -1,0 +1,21 @@
+{
+  "question_id": "e9933b49-83be-4ab2-90cc-063d1dc64b9d",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "mc",
+  "text": "You add a print statement and the bug disappears. What are the two most likely explanations?",
+  "choices": [
+    "The bug was in the print statement's absence, meaning output buffering was the fault.",
+    "The print changed timing, exposing a concurrency bug; or it forced evaluation of something the compiler was otherwise reordering or eliding.",
+    "The print statement caught an exception that was otherwise silently swallowed.",
+    "The bug was fixed by recompiling, and the print statement is coincidental."
+  ],
+  "answer": 1,
+  "explanation": "Both explanations point at the same underlying fact: observation changes the thing observed. Chapter 31 gives the concurrency case, where a print slows one thread enormously and the interleaving that caused the race stops happening. A bug that vanishes under observation is not a bug that went away, and it is a strong signal that you are looking at a race rather than a logic error.",
+  "tags": [
+    "debugging",
+    "concurrency"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

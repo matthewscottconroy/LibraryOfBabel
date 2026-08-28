@@ -1,0 +1,28 @@
+{
+  "question_id": "30ba6e80-503e-42ff-9865-35e147c4e859",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program showing that a method cannot change its caller's variable, even for an object, unless it mutates through the reference. Fill in the three blanks.",
+  "choices": [
+    "import java.util.Arrays;",
+    "public class PassBy {",
+    "    static void reassign(int[] arr) { ___; }   // point the parameter elsewhere",
+    "    static void mutate(int[] arr)   { ___; }   // change what it points at",
+    "    public static void main(String[] args) {",
+    "        int[] a = {1};",
+    "        reassign(a); System.out.println(___);   // still [1]",
+    "        mutate(a);   System.out.println(Arrays.toString(a));   // now [99]",
+    "    }",
+    "}"
+  ],
+  "answer": "arr = new int[]{99}|arr[0] = 99|Arrays.toString(a)",
+  "explanation": "Verified: [1] then [99]. Java is pass-by-value always — what is copied is the reference, so reassigning the parameter rebinds a local copy and the caller sees nothing, while writing through it reaches the shared object. \"Java passes objects by reference\" is a common summary and it is wrong in a way that predicts the wrong answer for the first method. Chapter 12 gives the stack-frame account of why.",
+  "tags": [
+    "parameters",
+    "references",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

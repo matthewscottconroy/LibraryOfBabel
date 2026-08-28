@@ -1,0 +1,21 @@
+{
+  "question_id": "eb49cd73-6669-457f-8f15-79e19cef103e",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why does `=` mean assignment and `==` mean comparison, given the confusion it causes?",
+  "choices": [
+    "Because `=` already meant assignment in mathematics, and `==` was invented for programming.",
+    "Because a single `=` cannot be parsed unambiguously as a comparison in an expression context.",
+    "Assignment is far more frequent than comparison in imperative code, so the shorter symbol went to the common case.",
+    "Because C required a distinct token so that assignment could be used inside conditions."
+  ],
+  "answer": 2,
+  "explanation": "It is a frequency argument, and it was a defensible call that has cost the field a great many bugs — `if (x = 5)` compiles in C and assigns. Java's response was not to change the symbols but to require `if` conditions to be `boolean`, which makes the mistake a type error rather than a silent success. Chapter 8 covers that, and Chapter 25 inherits the original bug deliberately by making its own conditionals test integers.",
+  "tags": [
+    "syntax",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

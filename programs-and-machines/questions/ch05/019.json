@@ -1,0 +1,21 @@
+{
+  "question_id": "bccd52c8-17cf-4e20-8994-227a15d9fd0c",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "mc",
+  "text": "Why is \"a step\" a definition that has to be chosen rather than discovered?",
+  "choices": [
+    "Because steps are only meaningful for sequential programs, and concurrency has no such notion.",
+    "Because the definition depends on the programming language's operational semantics.",
+    "Because the same computation can be divided into steps at many granularities, and which division you pick determines what counts as one unit of work.",
+    "Because processors differ, so a step means different things on different hardware."
+  ],
+  "answer": 2,
+  "explanation": "A Java statement, a bytecode instruction, a machine instruction, and a processor cycle are four different step sizes for the same program, and each is the right one for some question. Chapter 32 depends on the choice — counting operations requires deciding which operation — and Chapter 6's Turing machine picks the smallest defensible unit precisely so that the *count* stops mattering and only the possibility remains.",
+  "tags": [
+    "state",
+    "definitions"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

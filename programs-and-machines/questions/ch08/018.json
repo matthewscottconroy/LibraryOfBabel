@@ -1,0 +1,21 @@
+{
+  "question_id": "a9b362ae-df39-43c7-a7b7-d0e8fd414c22",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "When should you prefer a `while` loop over a `for` loop?",
+  "choices": [
+    "When performance matters, since `while` compiles to fewer bytecode instructions.",
+    "When the loop body may need to modify the loop variable, which `for` forbids.",
+    "When there is no natural counter — the loop runs until a condition changes for reasons other than counting.",
+    "When the number of iterations is known in advance, since `while` is clearer for fixed counts."
+  ],
+  "answer": 2,
+  "explanation": "`for` gathers initialisation, test and update into one line, which is exactly right when they are all about a counter and misleading when they are not. Euclid's algorithm, reading until end of input, and iterating until convergence are all `while` loops — there is a condition and no count. Putting unrelated work into a `for` header is a way of hiding it.",
+  "tags": [
+    "loops",
+    "style"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

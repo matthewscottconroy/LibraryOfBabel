@@ -1,0 +1,26 @@
+{
+  "question_id": "56525445-ba8e-49ee-823f-3e38c5bfe142",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that demonstrates a `do`-while loop running its body even when the condition is false from the start. Fill in the two blanks.",
+  "choices": [
+    "public class DoWhile {",
+    "    public static void main(String[] args) {",
+    "        int n = 0;",
+    "        do {",
+    "            ___;",
+    "        } ___;                             // a condition that is never true",
+    "        System.out.println(n);             // prints 1, not 0",
+    "    }",
+    "}"
+  ],
+  "answer": "n++|while (false)",
+  "explanation": "Verified: 1. The body runs before the test, which makes `do`-while the right shape for \"try, then decide whether to try again\" — reading input until it parses, retrying a request. It is also the shape most likely to surprise a reader, which is why it is rare in practice, and the honest guidance is to use it only when the once-at-minimum is the point.",
+  "tags": [
+    "loops",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

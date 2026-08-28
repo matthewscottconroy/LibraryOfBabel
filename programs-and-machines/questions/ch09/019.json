@@ -1,0 +1,19 @@
+{
+  "question_id": "68369272-fe59-46d9-9bad-f6c681dadcbe",
+  "chapter": 9,
+  "phase": 1,
+  "kind": "tf",
+  "text": "A stack trace's most useful line is the last one.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "The topmost frame is where the exception was constructed, and the most useful line is usually the topmost one in *your* code — everything above it is library internals and everything below is how you arrived. Reading downward tells you the story of the call chain. Chapter 28 adds the other half: an exception rethrown without its cause has destroyed this information, which is why passing the cause is a one-argument habit worth forming.",
+  "tags": [
+    "debugging",
+    "stack-traces"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

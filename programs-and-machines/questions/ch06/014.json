@@ -1,0 +1,28 @@
+{
+  "question_id": "40078fc7-1fb9-4808-811b-c1bf8b4260e7",
+  "chapter": 6,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that demonstrates scope: an inner block's variable is invisible outside it. Fill in the two blanks so the program compiles and prints what the comments claim.",
+  "choices": [
+    "public class Scope {",
+    "    public static void main(String[] args) {",
+    "        int outer = 1;",
+    "        {",
+    "            ___;                            // declare a variable in the inner block",
+    "            System.out.println(outer + inner);   // prints 3 -- inner sees outer",
+    "        }",
+    "        ___;                                // prints 1 -- outer survives the block",
+    "        // System.out.println(inner);       // would not compile: out of scope",
+    "    }",
+    "}"
+  ],
+  "answer": "int inner = 2|System.out.println(outer)",
+  "explanation": "Verified: 3 then 1. Scope is a compile-time rule about where a name is visible, and the commented line is the whole demonstration — uncomment it and the program does not build. Chapter 25 implements this rule in nine lines: look in the local map, then ask the parent, and the search order *is* shadowing. Reverse the two clauses and parameters stop working.",
+  "tags": [
+    "scope",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

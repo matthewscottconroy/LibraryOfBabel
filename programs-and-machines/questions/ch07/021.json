@@ -1,0 +1,32 @@
+{
+  "question_id": "05f4a484-fcaf-4505-b6bc-e9ab7d6c52a8",
+  "chapter": 7,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a program that classifies a number using a `switch` expression with no `default`, over an enum. Fill in the three blanks.",
+  "choices": [
+    "public class Classify {",
+    "    enum Sign { NEGATIVE, ZERO, POSITIVE;",
+    "        static Sign of(int n) { return n < 0 ? NEGATIVE : n == 0 ? ZERO : POSITIVE; } }",
+    "    public static void main(String[] args) {",
+    "        int n = -4;",
+    "        String s = switch (___) {          // the enum value to switch on",
+    "            ___;                           // the negative case, arrow form",
+    "            case ZERO     -> \"zero\";",
+    "            case POSITIVE -> \"positive\";",
+    "        };",
+    "        System.out.println(s);",
+    "        System.out.println(Sign.of(0) == ___);   // enum constants compare with ==",
+    "    }",
+    "}"
+  ],
+  "answer": "Sign.of(n)|case NEGATIVE -> \"negative\"|Sign.ZERO",
+  "explanation": "Verified: `negative` then `true`. Two things are being demonstrated at once — a switch expression that yields a value rather than performing statements, and the fact that removing a case makes this program stop compiling. The `==` on the last line is safe because enum constants are singletons, which Chapter 20 flags as the one place `==` is right for objects and Chapter 22 explains.",
+  "tags": [
+    "switch",
+    "enums",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

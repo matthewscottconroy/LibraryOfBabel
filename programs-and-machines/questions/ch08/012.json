@@ -1,0 +1,30 @@
+{
+  "question_id": "733611da-7593-4e8d-baa0-c8cd4792c102",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Write a loop that computes a greatest common divisor by Euclid's method, and state its invariant. Fill in the three blanks.",
+  "choices": [
+    "public class Euclid {",
+    "    static int gcd(int a, int b) {",
+    "        // invariant: ___",
+    "        while (___) {                      // stop when the remainder is zero",
+    "            int t = b;",
+    "            b = ___;                       // replace b with a mod b",
+    "            a = t;",
+    "        }",
+    "        return a;",
+    "    }",
+    "    public static void main(String[] args) { System.out.println(gcd(1071, 462)); }",
+    "}"
+  ],
+  "answer": "b != 0|a % b|gcd(a, b) is unchanged",
+  "explanation": "Verified: 21. The invariant is the interesting fill — every iteration changes both variables and leaves their gcd alone, which is why the value you return at the end is the value you wanted at the start. That is what a loop invariant is for: it is the thing that stays true so that the final state tells you something about the initial one. The variant, separately, is that `b` strictly decreases, which is why it terminates.",
+  "tags": [
+    "loops",
+    "invariants",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

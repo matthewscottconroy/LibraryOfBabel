@@ -1,0 +1,23 @@
+{
+  "question_id": "d0a85d11-54b3-4e5e-994d-366349ba623d",
+  "chapter": 5,
+  "phase": 1,
+  "kind": "proof",
+  "text": "Complete the reasoning that a machine with only increment, decrement, and jump-if-zero can compute addition. Give each fill as a short phrase or expression.",
+  "choices": [
+    "To compute a + b using only INC, DEC and JZ, repeatedly move one from ___ to ___:",
+    "  loop:  if ___ goto done      // nothing left to move",
+    "         DEC b",
+    "         INC a",
+    "         goto loop",
+    "  done:  a now holds the sum"
+  ],
+  "answer": "b|a|b == 0",
+  "explanation": "Three instructions and a jump suffice for addition, and from addition you can build multiplication by repeating it, and from there everything else. That is Chapter 6's claim about a minimal instruction set being enough, and Chapter 25 makes it concrete by building a language on almost exactly this basis and then showing it is Turing complete. The five-instruction machine in Chapter 34's exercises is this machine with a STOP added.",
+  "tags": [
+    "turing",
+    "derivation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

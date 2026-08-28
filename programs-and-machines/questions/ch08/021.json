@@ -1,0 +1,21 @@
+{
+  "question_id": "fbb36809-1f0d-4972-bbeb-6ce4a2d0b63c",
+  "chapter": 8,
+  "phase": 1,
+  "kind": "mc",
+  "text": "What does it mean that termination is a *separate* question from correctness?",
+  "choices": [
+    "It means a loop that terminates is automatically correct, so termination is the harder half.",
+    "It means termination must be verified by testing, since it cannot be proved.",
+    "It means correctness proofs are only valid for loops with constant bounds.",
+    "An invariant tells you what is true if the loop ends, and says nothing about whether it does — so a loop can be provably correct and never finish."
+  ],
+  "answer": 3,
+  "explanation": "The separation is why the two proof obligations have different names — partial correctness and total correctness — and why Chapter 34 can pose the halting problem as a real question. The Collatz loop is the standing example: its invariant is trivial and its termination is an open problem from 1937, which shows the two questions are not merely distinct in theory but wildly different in difficulty.",
+  "tags": [
+    "invariants",
+    "termination"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

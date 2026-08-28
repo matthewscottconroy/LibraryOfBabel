@@ -1,0 +1,29 @@
+{
+  "question_id": "a40d8d82-e399-420e-88b8-e4c1f948addb",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a program that reverses an array in place, using two indices that move toward each other. Fill in the three blanks.",
+  "choices": [
+    "import java.util.Arrays;",
+    "public class Reverse {",
+    "    public static void main(String[] args) {",
+    "        int[] a = {1, 2, 3, 4, 5};",
+    "        for (int i = 0, j = a.length - 1; ___; i++, j--) {",
+    "            int t = a[i];",
+    "            ___;",
+    "            ___;",
+    "        }",
+    "        System.out.println(Arrays.toString(a));   // [5, 4, 3, 2, 1]",
+    "    }",
+    "}"
+  ],
+  "answer": "i < j|a[i] = a[j]|a[j] = t",
+  "explanation": "Verified: `[5, 4, 3, 2, 1]`. The condition is the part worth attention — `i < j` stops correctly for both odd and even lengths, where `i <= j` would swap the middle element with itself for odd lengths (harmless) and `i != j` would run past the end for even ones (not harmless). In-place means no second array, which is O(1) extra space in Chapter 32's terms.",
+  "tags": [
+    "arrays",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

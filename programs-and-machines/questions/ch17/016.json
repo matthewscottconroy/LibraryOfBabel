@@ -1,0 +1,26 @@
+{
+  "question_id": "25660a5d-8451-4768-8cda-2c2d91bdbc90",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a program that normalises whitespace correctly, keeping the result rather than discarding it. Fill in the three blanks.",
+  "choices": [
+    "public class Normalise {",
+    "    public static void main(String[] args) {",
+    "        String s = \"  a   b \\t c  \";",
+    "        s = ___;                            // remove the ends",
+    "        String t = ___;                     // collapse runs of whitespace",
+    "        System.out.println(\"[\" + t + \"]\");",
+    "        System.out.println(___);",
+    "    }",
+    "}"
+  ],
+  "answer": "s.trim()|s.replaceAll(\"\\\\s+\", \" \")|t.equals(\"a b c\")",
+  "explanation": "Verified: `[a b c]` then `true`. Two things worth noticing. The result of each call must be assigned — a `String` method never modifies the receiver, and `s.trim();` alone is a statement that does nothing. And `\\\\s+` collapses a run of any whitespace, which is why the tab disappears; matching a literal space would have left it.",
+  "tags": [
+    "strings",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

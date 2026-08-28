@@ -1,0 +1,27 @@
+{
+  "question_id": "f401607d-50af-46d4-905b-03ae73b320fd",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a stack whose interface is the abstraction and whose array is the representation. Fill in the three blanks.",
+  "choices": [
+    "public class Stack {",
+    "    private int[] items = new int[8];",
+    "    private int size = 0;",
+    "    void push(int v) { ___; }",
+    "    int pop() { return ___; }",
+    "    public static void main(String[] args) {",
+    "        Stack s = new Stack(); s.push(1); s.push(2);",
+    "        System.out.println(___ + \" \" + s.pop());   // 2 1",
+    "    }",
+    "}"
+  ],
+  "answer": "items[size++] = v|items[--size]|s.pop()",
+  "explanation": "Verified: it prints `2 1`. The two side-effecting expressions are worth reading slowly — `items[size++]` writes then advances, and `items[--size]` retreats then reads, which is exactly the symmetry that makes a stack work. Note that a caller sees only push and pop, so replacing the array with a linked list would change nothing they can observe. That is what makes the array a representation rather than the type.",
+  "tags": [
+    "adt",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

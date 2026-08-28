@@ -1,0 +1,30 @@
+{
+  "question_id": "4fea6a7a-2eba-48d7-a1c4-84b3b602ef1b",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Measure the cost of string concatenation in a loop against a `StringBuilder`. Fill in the three blanks.",
+  "choices": [
+    "public class Cost {",
+    "    public static void main(String[] args) {",
+    "        int n = 40_000;",
+    "        long t0 = System.nanoTime(); String s = \"\";",
+    "        for (int i = 0; i < n; i++) ___;",
+    "        long t1 = System.nanoTime(); StringBuilder sb = new StringBuilder();",
+    "        for (int i = 0; i < n; i++) ___;",
+    "        long t2 = System.nanoTime();",
+    "        System.out.printf(\"concat %d ms, builder %d ms, same %b%n\",",
+    "            (t1-t0)/1_000_000, (t2-t1)/1_000_000, ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "s += \"x\"|sb.append(\"x\")|s.equals(sb.toString())",
+  "explanation": "Verified on the book's machine: 90 ms against 1 ms, same result. The concatenation is quadratic — each `+=` allocates a new string and copies everything accumulated so far, so 40,000 appends copy about 800 million characters. Chapter 32 gives the shape: a loop that looks linear is O(n^2) because the cost hidden inside the operator grows with what you have already built.",
+  "tags": [
+    "strings",
+    "performance",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

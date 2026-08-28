@@ -1,0 +1,28 @@
+{
+  "question_id": "35b48ae6-2a16-4769-ae70-cb693d776476",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a program that shows `List.remove` doing two different things depending on the argument's type. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class RemoveTrap {",
+    "    public static void main(String[] args) {",
+    "        List<Integer> nums  = ___;",
+    "        List<Integer> nums2 = new ArrayList<>(List.of(10, 20, 30));",
+    "        ___;                                // remove(int index)",
+    "        ___;                                // remove(Object)",
+    "        System.out.println(nums + \" \" + nums2);",
+    "    }",
+    "}"
+  ],
+  "answer": "nums.remove(1)|nums2.remove(Integer.valueOf(20))|new ArrayList<>(List.of(10, 20, 30))",
+  "explanation": "Verified: `[10, 30] [10, 30]` — the same result, reached two entirely different ways. The first removed index 1; the second removed the value 20. With a `List<Integer>` both overloads apply and Java picks `remove(int)` without a word, so `list.remove(1)` on a list of integers is almost always a bug. This is Chapter 21's static overload resolution producing a trap that Chapter 16's boxing made possible.",
+  "tags": [
+    "collections",
+    "overloading",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

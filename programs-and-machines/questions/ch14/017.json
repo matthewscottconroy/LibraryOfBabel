@@ -1,0 +1,21 @@
+{
+  "question_id": "2533c736-de74-413f-aee0-d8bf2a44eaca",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does Java check array bounds on every access, given the cost?",
+  "choices": [
+    "Because bounds checking is required to support garbage collection of arrays.",
+    "Because the alternative is reading or writing memory outside the array, which is the mechanism behind decades of buffer-overflow vulnerabilities.",
+    "Because without it, array indices could not be computed from user input safely.",
+    "Because the JVM cannot determine array lengths at compile time, unlike C."
+  ],
+  "answer": 1,
+  "explanation": "The cost is real and the JIT eliminates much of it by proving indices in range for simple loops. What you buy is that an out-of-range index becomes an exception naming the index and the length, rather than a silent read of adjacent memory. Chapter 15 cites the vulnerability histories directly: this is one of the clearest cases in the book where a language's safety decision has a measurable effect on the world.",
+  "tags": [
+    "arrays",
+    "safety"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

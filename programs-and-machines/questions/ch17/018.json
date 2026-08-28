@@ -1,0 +1,30 @@
+{
+  "question_id": "c1490fa0-487e-4fd3-a08d-db94ddf421ec",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a palindrome check that ignores case and non-letters. Fill in the three blanks.",
+  "choices": [
+    "public class Palindrome {",
+    "    static boolean check(String s) {",
+    "        StringBuilder sb = new StringBuilder();",
+    "        for (char c : s.toCharArray()) if (___) sb.append(___);",
+    "        String clean = sb.toString();",
+    "        for (int i = 0; i < clean.length() / 2; i++)",
+    "            if (clean.charAt(i) != ___) return false;",
+    "        return true;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(check(\"A man, a plan, a canal: Panama\"));",
+    "    }",
+    "}"
+  ],
+  "answer": "Character.isLetter(c)|Character.toLowerCase(c)|clean.charAt(clean.length() - 1 - i)",
+  "explanation": "Verified: true. The two-index comparison stops at the midpoint, which handles odd and even lengths without a special case. `Character.isLetter` is Unicode-aware, so this works on Greek and Cyrillic too — which is Chapter 4's decision paying off, and the reason to prefer it over `c >= 'a' && c <= 'z'`.",
+  "tags": [
+    "strings",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

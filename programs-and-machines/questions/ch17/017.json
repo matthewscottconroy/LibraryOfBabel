@@ -1,0 +1,21 @@
+{
+  "question_id": "f5749c8a-e146-4b69-a0dd-609ecee52ed6",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "`str.toUpperCase()` on a Turkish locale turns \"i\" into \"İ\" rather than \"I\". What does that tell you?",
+  "choices": [
+    "That Turkish text should be normalised to ASCII before comparison.",
+    "That `toUpperCase` is unreliable and `equalsIgnoreCase` should be used instead.",
+    "That the JVM's default locale should always be set explicitly at startup.",
+    "That case conversion is locale-dependent, so a locale-free operation needs `toUpperCase(Locale.ROOT)`."
+  ],
+  "answer": 3,
+  "explanation": "The classic failure is uppercasing an identifier or a protocol keyword for comparison, on a machine configured for Turkish, and getting a string that no longer matches. It is a real bug that has shipped repeatedly. The rule: when case-folding *text for a person*, use the locale; when case-folding *an identifier for a machine*, use `Locale.ROOT`, which is Chapter 1's point that the agreement must be stated rather than inherited.",
+  "tags": [
+    "strings",
+    "locale"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

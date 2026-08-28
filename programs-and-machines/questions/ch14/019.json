@@ -1,0 +1,19 @@
+{
+  "question_id": "d46a96e6-a1c4-4b6c-b30e-669dc93a7b3a",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "tf",
+  "text": "In Java, `int[][]` is a genuine two-dimensional array laid out as one contiguous block.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "It is an array of references to arrays, so the rows are separate objects that may be different lengths and may live anywhere in memory. That has two consequences: ragged arrays are natural rather than a special feature, and row-major traversal is fast while column-major is slow, because each row is contiguous but the rows are not contiguous with each other. Chapter 32 measures the resulting threefold difference.",
+  "tags": [
+    "arrays",
+    "layout"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

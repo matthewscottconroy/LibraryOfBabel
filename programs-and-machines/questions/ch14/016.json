@@ -1,0 +1,28 @@
+{
+  "question_id": "d10aad79-de50-4633-88df-5efe0ab10b66",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write nested loops over a jagged array, using each row's own length. Fill in the three blanks.",
+  "choices": [
+    "public class Jagged {",
+    "    public static void main(String[] args) {",
+    "        int[][] jag = ___;                  // three rows, lengths not yet fixed",
+    "        for (int r = 0; r < 3; r++) {",
+    "            jag[r] = new int[r + 1];",
+    "            for (int c = 0; c < ___; c++)   // this row's length, not the first row's",
+    "                ___ = c;",
+    "        }",
+    "        for (int[] row : jag) System.out.println(java.util.Arrays.toString(row));",
+    "    }",
+    "}"
+  ],
+  "answer": "new int[3][]|jag[r].length|jag[r][c]",
+  "explanation": "Verified: it prints `[0]`, `[0, 1]`, then `[0, 1, 2]` — three rows of different lengths. Writing `jag[0].length` for the inner bound is the bug this question exists to prevent: it works on rectangular data and throws on the first ragged row. Java has no true two-dimensional array — only arrays of arrays — so ragged is the general case and rectangular is a special one you happen to have built.",
+  "tags": [
+    "arrays",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "e43c876a-995e-4249-86e3-4a44b70766ff",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Traversing a two-dimensional array along its rows is faster than along its columns, because each row occupies contiguous memory and the processor fetches whole ___ lines.",
+  "choices": [
+    "cache",
+    "cache"
+  ],
+  "answer": "cache",
+  "explanation": "The difference is measured at about threefold in Chapter 32, for identical operation counts — which is the clearest demonstration in the book that big-O cannot see everything. Both traversals are O(n^2); one keeps the prefetcher right and the other misses on nearly every access. Ulrich Drepper's memory paper, recommended three times in the book, is the full account.",
+  "tags": [
+    "arrays",
+    "cache"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

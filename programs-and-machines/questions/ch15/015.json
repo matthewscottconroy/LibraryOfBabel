@@ -1,0 +1,21 @@
+{
+  "question_id": "12bccb33-92a8-4fe5-aef9-3ebcdd849c00",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "What makes an abstract data type abstract?",
+  "choices": [
+    "It is defined by the operations you can perform and the promises they make, with the representation deliberately unspecified.",
+    "It cannot be instantiated directly and must be extended by a concrete subclass.",
+    "It stores its elements in a form the programmer never sees, such as compressed memory.",
+    "It is declared with the `abstract` keyword, which forbids direct construction."
+  ],
+  "answer": 0,
+  "explanation": "The second distractor confuses the concept with Java's `abstract` keyword, which is a related but different thing — Chapter 22's abstract class. Liskov's 1974 sense is about *specification*: a stack is push, pop, and the promise that pop returns the most recent push, and whether it is an array or a linked list is nobody's business. Chapter 22's interfaces are the purest expression of that in the language.",
+  "tags": [
+    "adt",
+    "definitions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,30 @@
+{
+  "question_id": "8efd0f56-289d-4082-97d4-cac3665c7567",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a program that counts occurrences with `merge`, then with `getOrDefault`. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Counting {",
+    "    public static void main(String[] args) {",
+    "        Map<String,Integer> counts = new HashMap<>(), counts2 = new HashMap<>();",
+    "        for (String w : new String[]{\"a\",\"b\",\"a\"}) {",
+    "            ___;",
+    "            counts2.put(w, ___);",
+    "        }",
+    "        System.out.println(counts);",
+    "        System.out.println(___);            // the two agree",
+    "    }",
+    "}"
+  ],
+  "answer": "counts.merge(w, 1, Integer::sum)|counts2.getOrDefault(w, 0) + 1|counts.equals(counts2)",
+  "explanation": "Verified: `{a=2, b=1}` and `true`. Both are correct and `merge` states the intent more directly — combine the new value with whatever is there, using this function. `Integer::sum` is Chapter 26's method reference, promised there and used here. The version to avoid is `counts.put(w, counts.get(w) + 1)`, which throws on the first occurrence because `get` returns null and unboxing it fails.",
+  "tags": [
+    "collections",
+    "maps",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

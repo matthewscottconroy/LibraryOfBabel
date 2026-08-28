@@ -1,0 +1,26 @@
+{
+  "question_id": "c702a3d5-326a-44f5-8882-cb35e559dbb2",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a program showing what an array holds before you put anything in it. Fill in the three blanks.",
+  "choices": [
+    "import java.util.Arrays;",
+    "public class Defaults {",
+    "    public static void main(String[] args) {",
+    "        int[] nums    = ___;",
+    "        String[] refs = ___;",
+    "        System.out.println(Arrays.toString(nums));   // [0, 0, 0]",
+    "        System.out.println(___);                     // [null, null]",
+    "    }",
+    "}"
+  ],
+  "answer": "new int[3]|new String[2]|Arrays.toString(refs)",
+  "explanation": "Verified: `[0, 0, 0]` and `[null, null]`. Allocation zeroes the memory, and what zero *means* depends on the element type — a numeric zero, or a reference pointing nowhere. That is Chapter 1's claim again: the same bits, two agreements. It also explains why an array of objects is an array of empty slots rather than of objects, which is the source of a great many first `NullPointerException`s.",
+  "tags": [
+    "arrays",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

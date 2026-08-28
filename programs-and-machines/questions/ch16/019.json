@@ -1,0 +1,27 @@
+{
+  "question_id": "a2e1c751-bdd2-415a-97a5-103a2eac112b",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write the declaration convention Chapter 17 recommends, and one that violates it. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Declare {",
+    "    public static void main(String[] args) {",
+    "        ___;                                // declare by interface",
+    "        ___;                                // declare by implementation",
+    "        ___;                                // only the second can call this",
+    "        System.out.println(good.size() + \" \" + bad.size());",
+    "    }",
+    "}"
+  ],
+  "answer": "List<String> good = new ArrayList<>()|ArrayList<String> bad = new ArrayList<>()|bad.ensureCapacity(100)",
+  "explanation": "Verified: `0 0`. `ensureCapacity` exists on `ArrayList` and not on `List`, so declaring the interface makes it unreachable — which is the point rather than a limitation. Chapter 22 gives the full argument: the declared type is what the rest of your code sees, so declaring the interface keeps you free to change the implementation and keeps callers from depending on what you did not promise.",
+  "tags": [
+    "collections",
+    "interfaces",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

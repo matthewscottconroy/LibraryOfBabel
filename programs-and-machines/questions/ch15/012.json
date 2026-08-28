@@ -1,0 +1,31 @@
+{
+  "question_id": "8bd5502c-998c-450d-bed9-c258d2447cb9",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a class whose representation invariant is checked on every mutation, so a violation is caught where it happens. Fill in the three blanks.",
+  "choices": [
+    "public class Bag {",
+    "    private String[] items = new String[4];",
+    "    private int size = 0;",
+    "    // invariant: 0 <= size <= items.length, and items[0..size-1] are non-null",
+    "    private void checkInvariant() {",
+    "        boolean ok = size >= 0 && ___;",
+    "        for (int i = 0; i < size; i++) ok = ok && items[i] != null;",
+    "        if (!ok) throw ___;",
+    "    }",
+    "    void add(String s) { items[size++] = s; ___; }",
+    "    public static void main(String[] args) {",
+    "        Bag b = new Bag(); b.add(\"x\"); b.add(\"y\"); System.out.println(\"ok\");",
+    "    }",
+    "}"
+  ],
+  "answer": "size <= items.length|checkInvariant()|new IllegalStateException(\"invariant broken\")",
+  "explanation": "Verified: it prints `ok`, and adding a fifth item throws — because the invariant catches the overflow the moment it happens rather than letting a corrupted `size` propagate. Chapter 16's claim is that the invariant *is* the data structure: an array plus a `size` is a heap of values, and the promise that the first `size` entries are the real ones is what makes it a bag.",
+  "tags": [
+    "invariants",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "30b5dbfe-7318-4f29-960b-e7f46f240784",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "When should you reach for a regular expression, and when not?",
+  "choices": [
+    "Use one for pattern matching within a line; avoid one for nested or recursive structure, which regular languages cannot describe.",
+    "Use one only for validation, never for extraction, since capture groups are unreliable.",
+    "Use one whenever performance matters, since regex engines are compiled to native code.",
+    "Avoid them entirely, since `split` and `indexOf` cover every realistic case."
+  ],
+  "answer": 0,
+  "explanation": "The boundary is Chapter 24's, and it is exact rather than stylistic: regular expressions recognise regular languages, and matched nesting is context-free. That is why the perennial attempt to parse HTML with a regex fails — not because it is difficult but because it is impossible for the general case. Within a line, for a token-shaped pattern, a regex is the right tool.",
+  "tags": [
+    "strings",
+    "regex"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "c559a23e-f981-4e7e-8044-6a86a5da243b",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "blank",
+  "text": "Because `String` is immutable, building one incrementally in a loop is quadratic. The mutable companion class designed for that job is ___ .",
+  "choices": [
+    "StringBuilder",
+    "StringBuilder"
+  ],
+  "answer": "StringBuilder",
+  "explanation": "Measured at 90 ms against 1 ms for 40,000 appends. Note that the compiler already rewrites simple `a + b + c` expressions into `StringBuilder` calls — the quadratic case is specifically concatenation *in a loop*, where each iteration starts a fresh builder. `StringBuffer` is the older synchronised version and is almost never what you want, since the object is usually local.",
+  "tags": [
+    "strings",
+    "vocabulary"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

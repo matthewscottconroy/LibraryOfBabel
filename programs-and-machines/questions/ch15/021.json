@@ -1,0 +1,32 @@
+{
+  "question_id": "43ff7c4d-8b2c-4d34-a7bc-0ed290766628",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a ring buffer's index arithmetic, which is where its invariant lives. Fill in the three blanks.",
+  "choices": [
+    "public class Ring {",
+    "    private final String[] items = new String[3];",
+    "    private int head = 0, size = 0;",
+    "    void add(String v) {",
+    "        int tail = ___;                     // where the next item goes, wrapping",
+    "        ___;",
+    "        if (size < items.length) size++; else head = ___;   // full: overwrite oldest",
+    "    }",
+    "    String get(int i) { return items[(head + i) % items.length]; }",
+    "    public static void main(String[] args) {",
+    "        Ring r = new Ring();",
+    "        for (String s : new String[]{\"a\",\"b\",\"c\",\"d\"}) r.add(s);",
+    "        System.out.println(r.get(0) + r.get(1) + r.get(2));   // bcd",
+    "    }",
+    "}"
+  ],
+  "answer": "(head + size) % items.length|items[tail] = v|(head + 1) % items.length",
+  "explanation": "Verified: it prints `bcd` — the oldest entry was overwritten. Every field here is meaningless alone; the structure lives entirely in the promise that the logical contents are `items[head]` through `items[(head+size-1) % length]`. That is why writing the invariant down first is the practical technique: the index arithmetic is impossible to get right by intuition and straightforward once the promise is stated.",
+  "tags": [
+    "invariants",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

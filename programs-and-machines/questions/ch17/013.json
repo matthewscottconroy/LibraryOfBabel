@@ -1,0 +1,26 @@
+{
+  "question_id": "4b3ed3ff-5cbd-4e96-b3de-e3c6195917fa",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a program that shows why `==` on strings sometimes works, which is worse than never working. Fill in the three blanks.",
+  "choices": [
+    "public class Interning {",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___);            // compile-time constant: folded and interned",
+    "        String made = new String(\"ab\");",
+    "        System.out.println(___);            // a fresh object: different identity",
+    "        System.out.println(___);            // the comparison you meant",
+    "    }",
+    "}"
+  ],
+  "answer": "\"ab\" == \"a\" + \"b\"|made == \"ab\"|made.equals(\"ab\")",
+  "explanation": "Verified: true, false, true. The first is true because the compiler folds the constant expression and interns the result, so both sides are literally the same object. That is why `==` on strings appears to work in small tests and fails on strings that arrive from input at run time — the worst possible behaviour, since testing does not catch it. Chapter 20 gives the general rule: `==` asks about identity, `equals` asks about value.",
+  "tags": [
+    "strings",
+    "identity",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

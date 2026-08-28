@@ -1,0 +1,19 @@
+{
+  "question_id": "5fcfb736-d082-4bb2-b579-2a13ff4a68f4",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "blank",
+  "text": "The promise a class makes about how its fields relate - the thing that turns a heap of values into a structure, and that its methods must never leave false - is its representation ___ .",
+  "choices": [
+    "invariant",
+    "invariant"
+  ],
+  "answer": "invariant",
+  "explanation": "It is the same word as Chapter 9's loop invariant and the same idea: something that stays true across every step, so that you can reason about the end from the beginning. The difference is scope — a loop invariant holds across iterations, a representation invariant across method calls — and Chapter 19 adds the enforcement that makes the second one a guarantee rather than a hope.",
+  "tags": [
+    "invariants",
+    "vocabulary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

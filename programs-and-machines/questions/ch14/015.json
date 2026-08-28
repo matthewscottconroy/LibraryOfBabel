@@ -1,0 +1,27 @@
+{
+  "question_id": "276f52b5-24bf-42e1-8d11-6f518c07f2ad",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a program that shows why `==` on arrays is almost never what you want. Fill in the three blanks.",
+  "choices": [
+    "import java.util.Arrays;",
+    "public class Compare {",
+    "    public static void main(String[] args) {",
+    "        int[] a = {1, 2, 3}, b = {1, 2, 3};",
+    "        System.out.println(___);            // false: two different arrays",
+    "        System.out.println(___);            // also false: Object's identity equals",
+    "        System.out.println(___);            // true: compares contents",
+    "    }",
+    "}"
+  ],
+  "answer": "a == b|a.equals(b)|Arrays.equals(a, b)",
+  "explanation": "Verified: false, false, true. Arrays do not override `equals`, so they inherit `Object`'s identity comparison — which means `a.equals(b)` looks like a content comparison and is not. Chapter 20 explains the distinction between identity and equality; the practical rule here is `Arrays.equals` for one dimension and `Arrays.deepEquals` for more.",
+  "tags": [
+    "arrays",
+    "equality",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

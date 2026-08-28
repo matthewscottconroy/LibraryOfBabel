@@ -1,0 +1,19 @@
+{
+  "question_id": "0fddb97b-e6ed-43d8-991f-7e239f8721bd",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "tf",
+  "text": "`String.length()` returns the number of characters a reader would see.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "It returns the number of UTF-16 code units. For ASCII they coincide; for an emoji they differ by a factor of two, and for a flag or a family emoji by more. Chapter 4 gives the three questions hiding behind \"length\" — code units, code points, and grapheme clusters — and the one you want is almost never the first, which is nevertheless the one the method name suggests.",
+  "tags": [
+    "strings",
+    "unicode"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

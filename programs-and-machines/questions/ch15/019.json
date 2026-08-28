@@ -1,0 +1,19 @@
+{
+  "question_id": "25fbf7ed-5d2f-421a-8a20-484aaf04fdf6",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "tf",
+  "text": "A data structure is fully described by the fields it contains.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "An array and an `int` describe a bag, a stack, a queue, a ring buffer, and a priority heap equally well — what distinguishes them is the promise about how the fields relate, which is the representation invariant. Chapter 16's argument is that the invariant *is* the structure, and Chapter 25 makes the same point about programs: a tree of records is a program only because an evaluator agrees to treat it as one.",
+  "tags": [
+    "invariants",
+    "definitions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

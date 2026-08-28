@@ -1,0 +1,20 @@
+{
+  "question_id": "058b260d-9f14-452b-9f5e-11e9145711d6",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "blank",
+  "text": "`ArrayList.add` is usually constant time and occasionally linear, when the backing array must be copied. The average over many calls is constant, a cost described as ___ O(1).",
+  "choices": [
+    "amortised",
+    "amortised",
+    "amortized"
+  ],
+  "answer": "amortised",
+  "explanation": "The proof is Chapter 17's sum of powers of two: doubling to capacity n copies 1 + 2 + 4 + ... + n/2 = n - 1 elements in total, spread over n additions. The rare expensive operation is paid for by the many cheap ones, and Chapter 32 shows that a constant growth increment would break the argument and make building a list quadratic.",
+  "tags": [
+    "collections",
+    "vocabulary"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

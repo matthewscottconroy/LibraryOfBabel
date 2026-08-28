@@ -1,0 +1,21 @@
+{
+  "question_id": "f7aea06b-7b10-49e0-a1d6-a44cbcd4f2ea",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Chapter 16 says the value of a representation invariant is not that it is true, but something else. What?",
+  "choices": [
+    "That it can be verified automatically by the compiler at each mutation point.",
+    "That it makes the class immutable, since an invariant forbids state changes.",
+    "That the code able to break it is small enough to check — the invariant scopes your reasoning to one class.",
+    "That it documents the data structure for readers who have not seen the implementation."
+  ],
+  "answer": 2,
+  "explanation": "An invariant nobody could violate needs no protection; an invariant anyone could violate is not a guarantee. The value is the boundary: if the fields are private, the only code that can break the promise is the code in this file, and that is a finite thing you can read. Chapter 19 supplies `private` as the mechanism and Liskov's argument for why a convention anyone can reach around does not count.",
+  "tags": [
+    "invariants",
+    "reasoning"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "question_id": "fb227c01-de26-4a61-b7be-e27c8772841d",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write the eight-neighbour traversal pattern, skipping the centre and staying inside the grid. Fill in the three blanks.",
+  "choices": [
+    "public class Neighbours {",
+    "    public static void main(String[] args) {",
+    "        int[][] g = {{1,2,3},{4,5,6},{7,8,9}};",
+    "        int r = 1, c = 1, sum = 0;",
+    "        for (int dr = -1; dr <= 1; dr++)",
+    "            for (int dc = -1; dc <= 1; dc++) {",
+    "                if (___) continue;          // skip the cell itself",
+    "                int nr = ___, nc = c + dc;",
+    "                if (___) sum += g[nr][nc];  // stay inside the grid",
+    "            }",
+    "        System.out.println(sum);            // 40: everything but the centre",
+    "    }",
+    "}"
+  ],
+  "answer": "dr == 0 && dc == 0|r + dr|nr >= 0 && nr < g.length && nc >= 0 && nc < g[nr].length",
+  "explanation": "Verified: 40, which is 45 minus the centre 5. The offset pair plus a `continue` plus a bounds test is the idiom for this, and it is worth recognising on sight because it appears in every grid problem — cellular automata, image filters, board games, flood fill. Writing the bounds test against `g[nr].length` rather than `g[0].length` is what makes it survive a ragged grid.",
+  "tags": [
+    "arrays",
+    "grids",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

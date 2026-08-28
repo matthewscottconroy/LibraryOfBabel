@@ -1,0 +1,27 @@
+{
+  "question_id": "1128b661-6f32-4bb4-9fec-f778f9b27e62",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a program showing three sets with three different iteration orders. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Orders {",
+    "    public static void main(String[] args) {",
+    "        List<String> input = List.of(\"b\", \"a\", \"c\");",
+    "        System.out.println(___);            // hash order",
+    "        System.out.println(___);            // sorted order",
+    "        System.out.println(___);            // insertion order",
+    "    }",
+    "}"
+  ],
+  "answer": "new HashSet<>(input)|new TreeSet<>(input)|new LinkedHashSet<>(input)",
+  "explanation": "Verified: `[a, b, c]`, `[a, b, c]`, `[b, a, c]`. The first two agree here by accident — hash order for short strings often looks sorted — and that accident is the lesson: code that relies on `HashSet` iteration order works until the data changes. If order matters, say so in the type. `LinkedHashSet` is the one that actually promises insertion order, and it costs one extra reference per element.",
+  "tags": [
+    "collections",
+    "ordering",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

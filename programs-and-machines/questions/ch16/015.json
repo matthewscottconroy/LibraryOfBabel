@@ -1,0 +1,21 @@
+{
+  "question_id": "20c86984-0828-48da-a7e3-edf1cf8091af",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why does `ArrayList` grow by roughly half rather than by a fixed number of slots?",
+  "choices": [
+    "Because proportional growth makes `add` constant time when averaged over many calls, while fixed growth makes it linear.",
+    "Because copying is cheaper when the new array is a multiple of the old one's size.",
+    "Because a fixed increment would waste memory on large lists.",
+    "Because the JVM allocates in power-of-two blocks, so proportional growth matches the allocator."
+  ],
+  "answer": 0,
+  "explanation": "Doubling to capacity n copies about n elements in total across n additions — fewer than one copy per add on average, which is Chapter 32's amortised O(1) and Chapter 17's sum of powers of two. Growing by a constant 10 instead would copy roughly n²/20 elements, making list construction quadratic. The difference between a good dynamic array and a catastrophic one is which growth rule was chosen.",
+  "tags": [
+    "collections",
+    "amortised"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

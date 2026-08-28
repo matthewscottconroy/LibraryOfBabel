@@ -1,0 +1,21 @@
+{
+  "question_id": "352f128a-9f41-4ea8-b65c-a0b9833b2216",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "You are choosing between exposing a `getItems()` returning the internal list and exposing `contains`, `size`, and `forEach`. What is the real trade?",
+  "choices": [
+    "The getter is faster, since the three operations each require a method call.",
+    "The getter is one method and freezes the representation; the three operations are more code and leave you free to change how items are stored.",
+    "The three operations are safer only if the list is immutable, otherwise they are equivalent.",
+    "There is no trade — the getter is strictly worse in every respect."
+  ],
+  "answer": 1,
+  "explanation": "Once callers hold your list, its type and its mutability are part of your interface, and switching to a `Set` or a database becomes a breaking change. The three operations cost more to write and buy the freedom to change. The last distractor overstates: a getter is sometimes right, particularly when the class is a transparent carrier of data, which is the case Chapter 22's records are for.",
+  "tags": [
+    "encapsulation",
+    "judgment"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

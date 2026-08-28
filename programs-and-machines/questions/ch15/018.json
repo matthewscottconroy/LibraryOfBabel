@@ -1,0 +1,28 @@
+{
+  "question_id": "706bd42b-675c-496b-9416-3db51aeeb876",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a method that returns an unmodifiable view, so a caller cannot break the class's invariant through the getter. Fill in the two blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Guarded {",
+    "    private final List<String> items = new ArrayList<>(List.of(\"a\", \"b\"));",
+    "    List<String> items() { return ___; }        // hand out a snapshot, not the field",
+    "    public static void main(String[] args) {",
+    "        Guarded b = new Guarded();",
+    "        try { ___; }",
+    "        catch (UnsupportedOperationException e) { System.out.println(\"boundary held\"); }",
+    "    }",
+    "}"
+  ],
+  "answer": "List.copyOf(items)|b.items().add(\"smuggled\")",
+  "explanation": "Verified: it prints `boundary held`. Returning the field directly hands out the ability to modify it, and the invariant stops being the class's to maintain — Chapter 23 calls this the most commonly skipped piece of encapsulation in real code. Note the cost: `List.copyOf` allocates. The alternative, and often the better one, is not to hand out the collection at all but to expose the operations callers actually need.",
+  "tags": [
+    "invariants",
+    "encapsulation",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

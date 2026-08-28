@@ -1,0 +1,21 @@
+{
+  "question_id": "578f49b6-9bb1-4fb8-b7c8-196a8200c9d0",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why is `String` immutable, given that mutation would avoid a great deal of copying?",
+  "choices": [
+    "Because immutability is required for the string pool, which exists to save memory.",
+    "Because the JVM stores strings in read-only memory alongside the class constants.",
+    "Because mutable strings would require every string operation to be synchronised.",
+    "Because it can then be shared freely — cached, interned, used as a map key, and passed between threads — with no possibility of change underneath."
+  ],
+  "answer": 3,
+  "explanation": "The list of things you stop having to think about is the payoff: a string used as a `HashMap` key cannot be mutated into a different bucket, a string passed to a method cannot come back changed, and a string handed to another thread needs no lock. Chapter 20 argues this generally, and Chapter 21 adds the security half — `String` is also `final`, so no subclass can lie about its contents to a check.",
+  "tags": [
+    "strings",
+    "immutability"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

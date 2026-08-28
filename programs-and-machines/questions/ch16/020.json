@@ -1,0 +1,19 @@
+{
+  "question_id": "712855e5-8ce5-4732-ba01-c6d47bc32804",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "tf",
+  "text": "A `LinkedList` is faster than an `ArrayList` for inserting in the middle.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "The insertion itself is O(1) once you are there, and *getting* there is O(n) with cache misses at every step, where the `ArrayList`'s O(n) shift is a contiguous block move the hardware is extremely good at. Chapter 17 measured 2,589 ms for a case theory says the linked list should win. The honest summary is that `LinkedList` is almost never the right answer in Java, and `ArrayDeque` beats it even at the ends.",
+  "tags": [
+    "collections",
+    "performance"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

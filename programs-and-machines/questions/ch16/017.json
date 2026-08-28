@@ -1,0 +1,29 @@
+{
+  "question_id": "a4416d11-62d8-451d-afa6-48af29fdaac4",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a program that demonstrates why a mutable object must not be used as a map key. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class LostKey {",
+    "    public static void main(String[] args) {",
+    "        Map<List<String>,String> map = new HashMap<>();",
+    "        List<String> key = ___;",
+    "        map.put(key, \"value\");",
+    "        ___;                                // mutate the key after inserting",
+    "        System.out.println(___);            // null: the entry is unreachable",
+    "        System.out.println(map.size());     // 1: it is still in there",
+    "    }",
+    "}"
+  ],
+  "answer": "new ArrayList<>(List.of(\"a\"))|key.add(\"b\")|map.get(key)",
+  "explanation": "Verified: `null` then `1`. The entry is in the map and cannot be found, because it was filed under the old hash code and lookup computes the new one. Nothing throws and the map is not corrupt in any detectable way — it simply contains an entry no lookup will ever reach. Chapter 20 gives the contract this violates, and Chapter 22's records are immutable precisely so this cannot happen.",
+  "tags": [
+    "collections",
+    "hashing",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

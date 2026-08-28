@@ -1,0 +1,21 @@
+{
+  "question_id": "90f608e3-f2a3-4c78-86f9-56deb7476720",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Removing an element during a for-each loop throws `ConcurrentModificationException` — except sometimes it does not. When?",
+  "choices": [
+    "When the collection has fewer than three elements, since the check requires a full traversal.",
+    "When you remove the second-to-last element, because the iterator then reports no next element and the check never runs.",
+    "When the element removed is the first, since the iterator has not yet advanced.",
+    "Never — the exception is thrown deterministically on any structural modification."
+  ],
+  "answer": 1,
+  "explanation": "Verified on a three-element list: removing \"a\" throws, removing \"c\" throws, and removing \"b\" silently succeeds and leaves `[a, c]`. That is worse than always throwing, because the code appears to work on the data you tested with. The check happens in `next()`, and after removing the second-to-last element `hasNext()` is already false. Use `removeIf`, or an explicit `Iterator` and its `remove`.",
+  "tags": [
+    "collections",
+    "iteration"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,26 @@
+{
+  "question_id": "ab34bde0-d61c-44f8-9b5e-3d6b415116da",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a program that joins strings correctly, without a trailing separator, using the library. Fill in the three blanks.",
+  "choices": [
+    "public class Joining {",
+    "    public static void main(String[] args) {",
+    "        String[] parts = {\"a\", \"b\", \"c\"};",
+    "        String joined = ___;",
+    "        System.out.println(\"[\" + joined + \"]\");",
+    "        System.out.println(\"[\" + ___ + \"]\");   // no separator at all",
+    "        System.out.println(___);",
+    "    }",
+    "}"
+  ],
+  "answer": "String.join(\", \", parts)|String.join(\"\", parts)|joined.equals(\"a, b, c\")",
+  "explanation": "Verified: `[a, b, c]`, `[abc]`, `true`. Chapter 10 built this by hand to expose the trailing-separator bug; the point of building it once is to recognise what the library is doing for you. `String.join` handles the boundary, the empty case, and a single element — three places a hand-written loop can be wrong, and Chapter 26's `Collectors.joining` extends it to streams.",
+  "tags": [
+    "strings",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

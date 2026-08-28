@@ -1,0 +1,21 @@
+{
+  "question_id": "3f47be61-9bff-438c-9455-4952866a3c8d",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "An array's length is fixed at creation. What does that buy, and what does it cost?",
+  "choices": [
+    "It buys type safety, since a fixed length prevents index computation errors.",
+    "It buys memory efficiency, since a growable array must reserve spare capacity.",
+    "It buys the constant-time address arithmetic; it costs the ability to grow, which is what `ArrayList` is for.",
+    "It costs nothing, since arrays can be resized with `Arrays.copyOf`."
+  ],
+  "answer": 2,
+  "explanation": "Contiguity and fixed size are the same decision: base + i x size only works if the elements are laid out together, and you cannot guarantee that while growing without moving everything. `Arrays.copyOf` does exactly that move — it allocates a new array and copies — which is what `ArrayList` automates, and Chapter 17's amortised analysis is about how often that copy is worth paying for.",
+  "tags": [
+    "arrays",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

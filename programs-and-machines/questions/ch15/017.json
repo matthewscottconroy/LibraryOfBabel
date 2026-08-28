@@ -1,0 +1,21 @@
+{
+  "question_id": "84a2462e-cf2c-45b8-8e16-3c3bf70cb2e7",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why is `java.util.Stack extends Vector` cited as a design error even though it works?",
+  "choices": [
+    "Because `Stack` predates generics, so its elements must be cast on retrieval.",
+    "Inheriting from a list exposes operations that break the stack discipline, so the one guarantee the type exists to provide can be violated by any holder.",
+    "Because `Vector` is synchronised and `Stack` does not need to be, so it is slower than necessary.",
+    "Because `Vector` grows by doubling, which is the wrong strategy for stack access patterns."
+  ],
+  "answer": 1,
+  "explanation": "`s.remove(0)` removes from the bottom, and it compiles. The abstract data type promised access at one end and the inheritance handed out access to the middle, which means the invariant is no longer the class's to keep. Chapter 21 uses this as the standard-library example of a substitution violation and Chapter 23 as the argument for composition — `ArrayDeque` holds an array rather than extending a list.",
+  "tags": [
+    "adt",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,27 @@
+{
+  "question_id": "54fbf74f-4dc3-4b3d-849a-fd50c49f5b17",
+  "chapter": 17,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a program showing that `split` silently discards trailing empty fields. Fill in the three blanks.",
+  "choices": [
+    "import java.util.Arrays;",
+    "public class Splitting {",
+    "    public static void main(String[] args) {",
+    "        String[] parts = ___;",
+    "        System.out.println(Arrays.toString(parts) + \" length \" + ___);",
+    "        String[] all = ___;                 // keep the trailing empties",
+    "        System.out.println(Arrays.toString(all) + \" length \" + all.length);",
+    "    }",
+    "}"
+  ],
+  "answer": "\"a,b,,\".split(\",\")|\"a,b,,\".split(\",\", -1)|parts.length",
+  "explanation": "Verified: length 2 and length 4. `split` drops trailing empty strings unless you pass a negative limit, which means a CSV row ending in two empty fields loses them and every row afterwards has the wrong number of columns. This is a default that is convenient for interactive use and wrong for data processing, and Chapter 29 recommends a real CSV library partly because of it.",
+  "tags": [
+    "strings",
+    "parsing",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

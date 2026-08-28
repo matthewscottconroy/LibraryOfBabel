@@ -1,0 +1,28 @@
+{
+  "question_id": "462bccca-3ef6-4a44-b4ac-bde27bdca0d9",
+  "chapter": 15,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a class that guards its invariant on construction, so an invalid instance never exists. Fill in the three blanks.",
+  "choices": [
+    "public class Account {",
+    "    private final long cents;",
+    "    Account(long cents) {",
+    "        if (___) throw ___;",
+    "        this.cents = cents;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        try { ___; } catch (IllegalArgumentException e) { System.out.println(e.getMessage()); }",
+    "    }",
+    "}"
+  ],
+  "answer": "cents < 0|new IllegalArgumentException(\"negative balance: \" + cents)|new Account(-1)",
+  "explanation": "Verified: it prints `negative balance: -1`. Checking in the constructor means every method afterwards can rely on the field without re-checking, and the failure arrives with the caller who supplied the bad value still on the stack. Chapter 22's compact constructor is this same move for records, and Chapter 28 generalises it as fail-fast.",
+  "tags": [
+    "invariants",
+    "constructors",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

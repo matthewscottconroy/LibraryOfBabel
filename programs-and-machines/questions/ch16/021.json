@@ -1,0 +1,21 @@
+{
+  "question_id": "e752b440-9701-4cc3-9cc8-418f57e849b6",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Which collection would you choose for \"is this word in my dictionary?\" over a million words, and why?",
+  "choices": [
+    "A sorted `ArrayList` with binary search, since it uses less memory per element.",
+    "A `TreeSet`, since the ordering makes lookups logarithmic rather than linear.",
+    "A `HashSet`, because membership is the only operation and it is average constant time.",
+    "A `LinkedList`, since dictionaries grow and shrink and linked structures resize cheaply."
+  ],
+  "answer": 2,
+  "explanation": "Choose by access pattern. Membership by value with no ordering requirement is exactly what a hash set is for, and O(1) beats the sorted list's O(log n) and the tree's O(log n). The sorted-list option is not absurd — it does use less memory and is cache-friendlier — which is why Chapter 32 says the class is one input to the decision and a measurement is another.",
+  "tags": [
+    "collections",
+    "judgment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

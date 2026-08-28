@@ -1,0 +1,26 @@
+{
+  "question_id": "55a2de53-1cbb-4ddf-898f-0eb21d0661d2",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "proof",
+  "text": "Write a program showing that `clone()` on a two-dimensional array does not copy the rows. Fill in the three blanks.",
+  "choices": [
+    "public class Shallow {",
+    "    public static void main(String[] args) {",
+    "        int[][] deep = {{1, 2}, {3, 4}};",
+    "        int[][] shallow = ___;              // copy the outer array",
+    "        ___;                                // change a value through the copy",
+    "        System.out.println(___);            // prints 99, not 1",
+    "    }",
+    "}"
+  ],
+  "answer": "deep.clone()|shallow[0][0] = 99|deep[0][0]",
+  "explanation": "Verified: it prints 99. A two-dimensional array in Java is an array *of references to* arrays, so cloning the outer one copies the references and both outer arrays point at the same rows. This is Chapter 20's shallow-copy problem arriving before Chapter 20 has named it, and the fix is to clone each row — which is the same defensive-copying decision, one level down.",
+  "tags": [
+    "arrays",
+    "aliasing",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

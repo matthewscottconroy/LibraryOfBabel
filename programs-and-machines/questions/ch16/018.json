@@ -1,0 +1,21 @@
+{
+  "question_id": "a3b90e95-6cc1-47e1-b403-e0e128eb159e",
+  "chapter": 16,
+  "phase": 3,
+  "kind": "mc",
+  "text": "`List.of(\"a\").add(\"b\")` throws `UnsupportedOperationException`. Is that a design flaw?",
+  "choices": [
+    "No — `add` is a default method with no implementation, so the exception is expected.",
+    "It is a deliberate trade: the factory returns an immutable list, and the interface admits an `add` that not every implementation supports.",
+    "Yes — an interface should not declare methods some implementations cannot honour.",
+    "Yes, and it is why `List.of` should be avoided in favour of `new ArrayList<>()`."
+  ],
+  "answer": 1,
+  "explanation": "The first distractor states a real principle that Java's collections framework knowingly violates, and the violation is worth understanding rather than dismissing. `Collection` was designed in 1998 with optional operations; a modern design would separate a read-only interface from a mutable one, as Kotlin and Scala do. Chapter 21 would call this a substitution problem, and the reason it survives is compatibility.",
+  "tags": [
+    "collections",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

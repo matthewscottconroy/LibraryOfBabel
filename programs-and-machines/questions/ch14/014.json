@@ -1,0 +1,21 @@
+{
+  "question_id": "0fcf0e38-7b9a-4838-96e4-1c3faff4061f",
+  "chapter": 14,
+  "phase": 3,
+  "kind": "mc",
+  "text": "Why is `array[i]` a constant-time operation regardless of the array's size?",
+  "choices": [
+    "Because the address is computed as base + i x elementSize — one multiplication and one addition, with no searching.",
+    "Because the JVM caches recently accessed indices, making repeated access constant.",
+    "Because bounds checking is performed once at allocation rather than per access.",
+    "Because arrays are stored in a hash table keyed by index, giving constant-time lookup."
+  ],
+  "answer": 0,
+  "explanation": "The arithmetic is why arrays exist. It also explains the two properties that follow: elements must be the same size, so the multiplication works, and they must be contiguous, so the addition works. Chapter 32 writes this as O(1), and Chapter 15's cache discussion notes the second-order consequence — contiguity means the processor's prefetcher guesses correctly, which is why an `ArrayList` often beats a `LinkedList` at operations theory says it should lose.",
+  "tags": [
+    "arrays",
+    "addressing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

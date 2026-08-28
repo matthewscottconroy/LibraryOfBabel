@@ -1,25 +1,34 @@
 # Resources and Cleanup
 
-Java has a garbage collector, which is why you have never had to think about
-freeing anything.
+Java has a garbage collector, which is why you have gone this far without ever
+freeing anything. It has been quietly cleaning up behind you since your first
+program.
 
-It will not help you here. The collector reclaims *memory*, on its own schedule,
-and knows nothing about the operating-system handle sitting inside the object it is
-about to reclaim. A program that leaks those runs fine in testing and dies a few
-hours into production with an error that names the symptom and not the cause.
+It is about to stop being enough, and it is worth being precise about why.
 
-Some things must be released. An open file holds an operating-system handle, a
-socket holds a connection, a database connection holds a server-side session, and
-a lock — Chapter 31 — holds up every thread waiting for it.
+The collector reclaims **memory**, on its own schedule, when it feels like it. That
+is the whole of its job description. It knows nothing whatsoever about the
+operating-system handle sitting inside the object it is about to reclaim, and it
+has no opinion about when that handle ought to be released.
 
-Java's garbage collector does not help. It reclaims **memory**, eventually, and
-knows nothing about handles. An object with an open file inside it may sit
-uncollected for minutes, and the file stays open the whole time.
+So some things are your responsibility. An open file holds an OS handle. A socket
+holds a connection. A database connection holds a session on a server somewhere
+else. And a lock — which Chapter 31 will make vivid — holds up every single thread
+waiting to acquire it.
 
-So releasing is your job, and the difficulty is that failure can happen between
-acquiring and releasing.
+An object with an open file inside it can sit uncollected for minutes, and the file
+stays open for every one of them.
 
-## The wrong way
+Here is what that looks like when it goes wrong, because the failure mode is
+distinctive. The program passes every test. It runs fine for hours. Then production
+falls over with `Too many open files` — an error that names the symptom rather than
+the cause, raised in a part of the program that did nothing wrong, at a moment
+unrelated to the mistake.
+
+Releasing things is your job. And the difficulty, as ever, is that failure can
+strike between acquiring and releasing.
+
+## The wrong way, which looks fine
 
 ```java
 BufferedReader r = new BufferedReader(new FileReader(path));
@@ -28,11 +37,11 @@ process(line);
 r.close();
 ```
 
-If `readLine` throws, or `process` throws, `close` never runs. The handle leaks.
+Find the leak before reading on. The `close` is right there at the end.
 
-A program that leaks handles is fine in testing and fails in production after a
-few hours, with `Too many open files` — an error that names the symptom and not
-the cause, in a part of the program that did nothing wrong.
+It is right there at the end, and it runs only if nothing above it throws. If
+`readLine` fails, or `process` fails, control leaves by another door and `close`
+never executes. The handle is gone.
 
 ## The old right way
 
@@ -49,17 +58,21 @@ try {
 }
 ```
 
-This is correct, and look at it. A null initialization outside the block, a null
-check, and a nested try because `close` itself can throw — and the inner catch has
-no good answer, because a failure while closing after a failure while reading
-leaves you with two exceptions and one stack to travel up.
+That is correct. Look at what correct costs: a null initialization outside the
+block, a null check inside the handler, and a nested `try` because `close` can
+itself throw.
 
-Worse, the naive version of that inner block *replaces* the original exception
-with the close failure, so the interesting error is lost and you are told the file
-would not close.
+And look at that inner comment, because it is not a joke. There genuinely is no
+good answer. A failure while closing, *after* a failure while reading, leaves you
+holding two exceptions and one stack to send them up.
 
-Every Java program written before 2011 contains this, and a meaningful fraction
-got it wrong.
+The naive version of that inner block does the worst possible thing: it lets the
+close failure **replace** the original exception. So the interesting error — the
+one that explains what actually went wrong — vanishes, and you are informed that
+the file would not close.
+
+Every Java program written before 2011 contains some version of this, and a
+meaningful fraction of them got it wrong.
 
 ## try-with-resources
 
@@ -69,8 +82,8 @@ try (BufferedReader r = new BufferedReader(new FileReader(path))) {
 }
 ```
 
-`close` is called automatically when the block exits, however it exits. Verified
-in Section 28.1.2, where the resource was closed before the handler ran:
+`close` is called when the block exits, no matter how it exits. It was verified in
+Section 28.1.2, where the resource closed before the handler ran:
 
 ```
 open bob
@@ -78,18 +91,18 @@ close bob
 caught: short by 989 cents
 ```
 
-The `close` happened on the way out of the block, before control reached the
-`catch`.
+Read that ordering carefully. The `close` happened on the way out of the block,
+*before* control ever reached the `catch`.
 
-Two details that the manual version got wrong and this gets right.
+Two things the manual version got wrong, which this gets right without being asked.
 
 **The original exception wins.** If the body throws and `close` also throws, the
-body's exception propagates and the close failure is attached as a **suppressed**
-exception, retrievable with `getSuppressed()` and printed by the default handler.
-Nothing is lost and the important one is on top.
+body's exception is the one that propagates, and the close failure is attached to
+it as a **suppressed** exception — retrievable with `getSuppressed()`, and printed
+by the default handler. Nothing is lost, and the one you care about is on top.
 
-**Multiple resources close in reverse order**, and each is closed even if an
-earlier one's close failed:
+**Multiple resources close in reverse order**, and each one closes even if an
+earlier close already failed:
 
 ```java
 try (var in = Files.newInputStream(src);
@@ -98,12 +111,13 @@ try (var in = Files.newInputStream(src);
 }
 ```
 
-`out` closes first, then `in`. Reverse of acquisition, which is the correct order
-whenever the later resource might depend on the earlier.
+`out` closes first, then `in` — the reverse of the order they were acquired in,
+which is the only correct order whenever the later resource might depend on the
+earlier one.
 
-## AutoCloseable
+## Letting your own classes join in
 
-Any class can participate:
+Any class can participate, and the barrier is lower than you would guess:
 
 ```java
 static class Account implements AutoCloseable {
@@ -111,53 +125,57 @@ static class Account implements AutoCloseable {
 }
 ```
 
-That is all it takes — one interface, one method. The demonstration in Section
-28.1.2 used exactly this.
+One interface, one method. That is the entire cost of admission, and the
+demonstration in Section 28.1.2 used exactly this.
 
-If you write a class that holds something needing release, implement
-`AutoCloseable` and let callers use the block form. It is a small courtesy and it
-removes an entire category of mistake from every use site.
+So if you write a class holding something that needs releasing, implement
+`AutoCloseable` and let your callers use the block form. It is a small courtesy
+that removes a whole category of mistake from every place your class is used —
+which is a very good exchange rate.
 
-Two conventions worth following:
+Two conventions worth honoring:
 
-**`close` should be idempotent.** Calling it twice should not fail. Callers
-sometimes close explicitly and then leave the block.
+**`close` should be idempotent.** Calling it twice must not fail, because callers
+sometimes close explicitly and then leave the block anyway.
 
-**`close` should not throw if it can avoid it.** A close that throws puts the
-caller in the awkward position described above, and there is usually nothing they
-can do.
+**`close` should avoid throwing if it possibly can.** A close that throws puts your
+caller in the awkward position described above, and there is usually nothing useful
+they can do about it.
 
-## What about finalizers
+## The two things that look like automatic cleanup and are not
 
-Java has two things that look like automatic cleanup. Both are traps, and you
-should know them well enough to recognise them in somebody else's code from ten
-years ago.
+You should know both of these well enough to recognize them in somebody's code from
+ten years ago.
 
-`finalize()` is deprecated for removal. It runs at an unpredictable time, or
-never, it can resurrect objects, it delays collection, and its failures are
-swallowed. It was a mistake and the JDK says so.
+`finalize()` is deprecated for removal, and deserves it. It runs at an
+unpredictable time, or never. It can resurrect objects. It delays collection. Its
+failures are swallowed silently. It was a mistake, and the JDK now says so in
+writing.
 
-`Cleaner`, its replacement, is better and is still a *safety net* rather than a
-mechanism. It runs after an object becomes unreachable, which may be long after
-the resource should have been freed.
+`Cleaner`, its replacement, is genuinely better and is still a *safety net* rather
+than a mechanism. It runs after an object becomes unreachable, which may be a very
+long time after the resource ought to have been freed.
 
-The rule the JDK's own documentation gives: **use try-with-resources; use a
-`Cleaner` only as a backstop for callers who forget.** Nothing that must happen
-promptly should depend on collection.
+The rule the JDK's own documentation gives: **use try-with-resources, and use a
+`Cleaner` only as a backstop for callers who forget.** Nothing that has to happen
+promptly should ever be made to depend on garbage collection.
 
-## The general principle
+## The principle underneath
 
-There is a shape here that reaches past resources.
+There is a shape here that reaches well past files and sockets.
 
-**Acquisition and release should be visible in the same place**, so that reading
-one you can see the other. `try (...) { }` does that syntactically. A field
-holding a resource acquired in one method and released in another does not, and
-such a class is where leaks live.
+**Acquisition and release belong in the same place**, close enough together that
+reading one puts the other in front of you. `try (...) { }` enforces that
+syntactically — you cannot write the acquisition without the scope that releases
+it.
 
-The stronger version, and Chapter 31 will need it: **prefer a scope to a
-lifetime.** If a resource can be acquired, used, and released inside one block,
-do that, even if it means opening the file twice. A resource whose lifetime spans
-methods is a resource whose release depends on control flow you have to reason
-about.
+A field holding a resource acquired in one method and released in another does the
+opposite, and classes shaped like that are where leaks live.
+
+And here is the stronger version, which Chapter 31 will need badly: **prefer a
+scope to a lifetime.** If a resource can be acquired, used, and released inside one
+block, do that — even at the cost of opening the file twice. A resource whose
+lifetime spans several methods is a resource whose release depends on control flow,
+and control flow is a thing you have to reason about rather than see.
 
 Next: what to do when something impossible happens.

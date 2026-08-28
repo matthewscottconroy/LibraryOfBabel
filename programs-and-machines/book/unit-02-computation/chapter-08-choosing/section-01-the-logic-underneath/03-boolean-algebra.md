@@ -1,12 +1,25 @@
 # Boolean Algebra
 
-Boole's contribution was noticing that logic obeys algebraic laws — that you can
-transform a logical expression the way you transform an arithmetic one, and be
-certain the meaning is unchanged.
+Here is a condition. It is not a made-up one; conditions like this are everywhere.
 
-This is practical. Conditions in real code get complicated, and a complicated
-condition is where bugs hide. The laws let you rewrite one into a provably
-equivalent form that a human can read.
+```java
+if (!(age >= 18 && hasLicence)) {
+    refuse();
+}
+```
+
+Work out when it fires. Not roughly — exactly. Who gets refused?
+
+You can do it. It takes a few seconds of holding a negation over a conjunction in
+your head, and by the end you are fairly confident and not completely certain.
+Somewhere in a codebase near you there is a condition three times that size, and
+somebody wrote it at the end of a long day.
+
+Boole's contribution was to notice that logic obeys **algebraic laws** — that a
+logical expression can be transformed the way an arithmetic one can, with a
+guarantee that the meaning survives the transformation. Which means the tangle
+above is not something you have to be clever about. It is something you can
+*calculate* your way out of.
 
 ## The laws
 
@@ -23,8 +36,8 @@ A || B   ==   B || A
 (A && B) && C   ==   A && (B && C)
 ```
 
-**Distributive** — like multiplication over addition, and, unlike arithmetic, it
-works both ways round.
+**Distributive** — like multiplication over addition, except for one bonus:
+unlike arithmetic, it works in both directions.
 ```
 A && (B || C)   ==   (A && B) || (A && C)
 A || (B && C)   ==   (A || B) && (A || C)
@@ -41,7 +54,7 @@ A || false == A          A || true  == true
 !!A  ==  A
 ```
 
-**Idempotence** — repetition adds nothing.
+**Idempotence** — saying it twice adds nothing.
 ```
 A && A  ==  A
 A || A  ==  A
@@ -53,34 +66,27 @@ A && !A  ==  false
 A || !A  ==  true
 ```
 
-Every one of these can be verified by writing out the truth table for both sides
-and checking the columns match. That is a complete proof, because there are
-finitely many rows. Do one or two by hand; the finiteness is the thing to
-appreciate.
+Every one of these can be proved by writing out the truth table for both sides and
+checking that the columns match. Pick one and do it by hand before moving on — it
+takes a minute, and the thing to appreciate is not the particular law but the
+**finiteness**. There are only so many rows. When you have checked them all there
+is nothing left to check, and you are not confident, you are certain. Very little
+else in programming offers you that.
 
 ## De Morgan's laws
 
-The two most useful, named for Augustus De Morgan, a contemporary of Boole:
+Two more, named for Augustus De Morgan, a contemporary of Boole, and by some
+distance the most useful in daily work:
 
 ```
 !(A && B)   ==   !A || !B
 !(A || B)   ==   !A && !B
 ```
 
-In words: **negating an AND gives an OR of the negations, and vice versa.** The
-negation moves inward and flips the operator.
+In words: **negating an AND gives you an OR of the negations, and the other way
+round.** The negation moves inward, and the operator flips as it passes.
 
-They are worth internalizing because negated compound conditions are common and
-hard to read. Consider:
-
-```java
-if (!(age >= 18 && hasLicence)) {
-    refuse();
-}
-```
-
-Working out when that fires requires holding a negation over a conjunction in
-your head. De Morgan turns it into:
+Now go back and apply that to the condition we started with:
 
 ```java
 if (age < 18 || !hasLicence) {
@@ -88,23 +94,27 @@ if (age < 18 || !hasLicence) {
 }
 ```
 
-"Too young, or no licence." Which is what a person would say, and now the code
-says it too.
+"Too young, or no licence."
 
-Note that the inner comparison flipped as well: `!(age >= 18)` became
-`age < 18`. Negating a comparison inverts it, and the boundary is where mistakes
-happen — the opposite of `>=` is `<`, not `<=`. Get that wrong and you have an
-off-by-one that fires on exactly one input value.
+That is what a human being would have said in the first place, and now the code
+says it too. Nothing about the behavior changed. What changed is that a reader can
+tell at a glance what it means, and could not before.
 
-## Using this in practice
+One detail in that rewrite is worth stopping on, because it is where people
+actually get hurt. The inner comparison flipped as well: `!(age >= 18)` became
+`age < 18`. Negating a comparison inverts it — and the opposite of `>=` is `<`,
+**not** `<=`. Get that wrong and you have an off-by-one error that fires on exactly
+one input value in the entire range, which is the hardest kind to find and the
+easiest kind to ship.
 
-Three habits that follow.
+## Three habits worth having
 
-**Push negations inward.** A `!` on a compound expression is harder to read than
-negations on the pieces. De Morgan lets you move it without risk.
+**Push negations inward.** A `!` sitting on a compound expression is harder to read
+than negations sitting on the pieces. De Morgan lets you move it and guarantees you
+have not changed anything.
 
-**Name intermediate conditions.** Boolean algebra tells you a rewrite is safe;
-naming tells the reader what it means.
+**Name intermediate conditions.** The algebra tells you a rewrite is *safe*; a name
+tells the reader what it *means*, and those are different services.
 
 ```java
 // hard
@@ -115,18 +125,21 @@ boolean canProceed = user != null && user.isActive() && !user.isSuspended();
 if (!canProceed) { ... }
 ```
 
-Nothing was simplified logically. It became readable, which was the actual
-problem.
+Notice that nothing was logically reduced there. Not one operator was removed. It
+became readable, which was the actual problem all along.
 
-**Beware the English "and".** Specifications say things like "reject users under
-18 and users without a licence". That "and" describes two rules; the condition
-that implements it is an OR. Translating requirements into conditions is where
-this chapter's algebra earns its keep, and where a truth table on paper is often
-the fastest route to certainty.
+**Be suspicious of the English word "and".** A specification says: "reject users
+under 18 and users without a licence." That "and" is describing two rules. The
+condition that implements it uses an OR.
 
-## Simplification
+This is a place where requirements quietly turn into bugs, and it is where this
+chapter's algebra earns its keep. When a specification and a condition seem to
+disagree about "and", a truth table on a piece of paper is usually the fastest
+route to being sure.
 
-The laws let you shrink expressions:
+## Making things smaller
+
+The laws also let you shrink an expression, with each step justified by name:
 
 ```
 (A && B) || (A && !B)
@@ -135,16 +148,20 @@ The laws let you shrink expressions:
   = A                   identity
 ```
 
-So `(A && B) || (A && !B)` is just `A`. If you found that condition in real code
-you could delete two thirds of it, and you would know — not suspect — that the
-behavior is unchanged.
+So `(A && B) || (A && !B)` was `A` the whole time.
 
-This is the same activity as simplifying an algebraic expression, and it has the
-same value: fewer terms, fewer places to be wrong.
+Find that condition in real code and you could delete two thirds of it — and here
+is the part that matters — you would **know** the behavior was unchanged. Not
+believe. Not have tested. Know, by the same kind of argument that says $2x - x$ is
+$x$.
 
-In hardware it matters directly, since each removed operator is removed gates,
-and there are systematic methods — Karnaugh maps, the Quine–McCluskey algorithm —
-for finding minimal forms. For software the benefit is comprehension rather than
-cost, which is worth as much.
+This is the identical activity to simplifying an algebraic expression, and it pays
+the same dividend: fewer terms means fewer places to be wrong.
+
+In hardware the benefit is direct, since every operator you remove is a gate you do
+not have to build, and there are systematic methods for finding minimal forms —
+Karnaugh maps, the Quine–McCluskey algorithm. In software the benefit is
+comprehension instead of cost, which over the life of a program is worth at least
+as much.
 
 Next: what Java actually gives you to write conditions with.

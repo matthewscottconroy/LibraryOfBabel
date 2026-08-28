@@ -1,5 +1,15 @@
 # Records That Outlive the Program
 
+Your program writes a file. Between the first byte and the last, the process can be
+killed, the machine can lose power, or the disk can fill.
+
+Where does that leave the file? Not the old contents and not the new — the old data
+gone and the new data half-written. For a configuration file that means the program
+does not start next time.
+
+The fix is two lines, and knowing it is the difference between a program that
+survives being switched off and one that does not.
+
 The data will be read by a version of your program that does not exist yet. That
 is the design constraint, and almost everything in this lesson follows from it.
 

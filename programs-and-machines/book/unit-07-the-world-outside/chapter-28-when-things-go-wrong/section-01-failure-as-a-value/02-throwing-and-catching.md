@@ -1,5 +1,13 @@
 # Throwing and Catching
 
+The mechanism is two keywords and takes ten minutes. What takes longer is noticing
+what an exception actually *is*.
+
+It is not an error message. It is a value — constructed at the point where things
+went wrong, carrying whatever the handler will need, and then travelling. Where it
+travels is Chapter 12's stack, unwound frame by frame until something is prepared
+to deal with it.
+
 ```java
 void withdraw(long amount) {
     if (amount <= 0)     throw new IllegalArgumentException("amount must be positive: " + amount);

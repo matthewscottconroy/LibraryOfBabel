@@ -1,5 +1,13 @@
 # Why Concurrency
 
+For about thirty years, a program written today ran faster next year without anyone
+touching it. Clock speeds doubled roughly every two years and everyone planned
+around it.
+
+That stopped, around 2005, and it stopped for a reason from physics rather than
+engineering. What the manufacturers did instead is why this chapter exists — and it
+moved a problem that used to belong to hardware onto your desk.
+
 Two different reasons, and conflating them is the source of a good deal of
 confused advice.
 

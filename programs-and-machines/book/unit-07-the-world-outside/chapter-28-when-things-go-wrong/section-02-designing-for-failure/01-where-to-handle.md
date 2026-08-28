@@ -1,5 +1,12 @@
 # Where to Handle
 
+Catching an exception feels responsible. Letting one pass through your method feels
+careless.
+
+It is the other way round, and this lesson is about why. A `catch` block that
+cannot improve the situation has not handled anything — it has only removed
+information that somebody further up was going to need.
+
 The mechanism is easy. The question that decides whether a program is pleasant to
 operate is *where* the `catch` goes, and the usual answer is: further up than you
 first want to put it.

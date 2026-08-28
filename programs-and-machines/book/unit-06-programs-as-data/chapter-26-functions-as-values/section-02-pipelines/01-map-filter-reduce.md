@@ -5,8 +5,6 @@ the useful part of that sentence is not the taxonomy. It is that once you can se
 which of the three a loop is doing, you can see when a loop is doing two of them at
 once and would be clearer as two.
 
-Almost every loop you have written does one of three things, or a combination.
-
 **Map** — produce a new collection by transforming each element. Same size,
 different values.
 

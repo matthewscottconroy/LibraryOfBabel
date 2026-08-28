@@ -1,5 +1,13 @@
 # Separating Model from View
 
+There is a shortcut sitting right there in every event handler, and taking it is
+the single most damaging thing you can do to an interactive program.
+
+The shortcut is to keep the program's state in the components — the count in the
+label's text, the selection in the list widget. It works, it is less code, and it
+produces a program whose rules cannot be tested without a screen and whose logic
+dies with the toolkit.
+
 This is the lesson worth keeping.
 
 The single most damaging thing you can do to an interactive program is to put its

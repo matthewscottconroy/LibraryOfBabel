@@ -1,5 +1,13 @@
 # A Glimpse of Databases
 
+You have a program with a CSV file, an index kept in memory to make lookups fast, a
+locking scheme so two copies do not corrupt each other, and a routine that takes
+backups.
+
+You have reimplemented SQLite, badly, and probably without noticing when it
+happened. This lesson is about recognising the point where files stop being the
+right answer — which is a specific list of five things, not a matter of scale.
+
 At some point a file stops being the right answer. This lesson is about
 recognizing that point, and about what you get in exchange for the complexity.
 

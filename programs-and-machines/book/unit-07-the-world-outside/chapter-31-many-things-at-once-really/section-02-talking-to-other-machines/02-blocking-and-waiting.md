@@ -1,5 +1,12 @@
 # Blocking and Waiting
 
+You send a request. Nothing comes back.
+
+Did it arrive? Did it arrive and get processed, with the reply lost on the way
+home? Is the server dead, or merely busy? You cannot tell — not with more effort,
+not with a better library. The information is not available to you, and nearly
+everything in distributed systems is a way of living with that.
+
 Two facts about networks, and nearly everything in distributed systems follows
 from them.
 

@@ -1,5 +1,14 @@
 # Failing Loudly
 
+```java
+try { ... } catch (Exception e) { }
+```
+
+That is the worst line in this chapter and it is in almost every large codebase.
+It compiles, it silences a problem, and it is the reason somebody will spend a day
+next month looking for a wrong number whose cause was destroyed at the moment it
+was available.
+
 A program that has detected an impossible situation has two options: stop, or
 continue in a state it does not understand.
 

@@ -2,6 +2,13 @@
 
 You do not call the toolkit. The toolkit calls you.
 
+That sentence sounds like a slogan and it has a consequence you will feel
+immediately: after the interface is built, `main` does nothing at all. There is no
+line of code anywhere describing the order things happen in, because the order is
+not yours to decide.
+
+You do not call the toolkit. The toolkit calls you.
+
 ```java
 button.addActionListener(e -> save());
 ```

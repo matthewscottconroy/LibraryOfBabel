@@ -1,5 +1,13 @@
 # Sockets and Protocols
 
+The good news is that the API is not the hard part. Once a connection is open it
+is a pair of streams, and you already know what to do with those.
+
+The hard part is that two programs exchanging bytes have to agree on what the bytes
+mean — where one message ends, what encoding is in force, what may follow what.
+Getting that agreement wrong produces a program that works perfectly on your own
+machine and fails the first time it crosses a real network.
+
 A **socket** is one end of a connection between two programs. Once it is open, it
 is a pair of streams — Chapter 29's abstraction, unchanged — and everything you
 know about reading and writing applies.

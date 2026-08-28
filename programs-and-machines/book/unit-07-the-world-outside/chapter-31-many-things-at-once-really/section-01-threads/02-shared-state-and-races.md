@@ -1,5 +1,13 @@
 # Shared State and Races
 
+Eight threads. Each adds one to a shared counter, two hundred thousand times.
+
+The right answer is 1,600,000. Three runs of the same program gave 414,984, then
+649,224, then 799,209 — none of them right, none of them the same, and no error
+reported anywhere.
+
+The cause is one line of code that looks like a single action and is not.
+
 Eight threads, each incrementing a shared counter two hundred thousand times.
 Expected total: 1,600,000.
 

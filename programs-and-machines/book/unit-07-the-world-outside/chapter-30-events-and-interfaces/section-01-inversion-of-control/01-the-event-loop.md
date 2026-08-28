@@ -1,5 +1,13 @@
 # The Event Loop
 
+Every application you have ever used that did not freeze was running the same
+twelve lines.
+
+That is not a figure of speech. Word processors, browsers, phones, games, and the
+program you are reading this on are all sitting in one loop, waiting, and the loop
+is small enough to write from memory. Once you have written it, the single most
+common cause of an unresponsive program becomes obvious rather than mysterious.
+
 A user interface has to cope with a program that does not know what happens next.
 The answer, in every toolkit ever built, is the same twelve lines:
 

@@ -1,5 +1,12 @@
 # Locks and Their Cost
 
+The last lesson broke something. This one fixes it, three different ways, and then
+measures what each fix costs — because the cheapest of the three is free and the
+most obvious is eleven times more expensive.
+
+There is also a way for locks to fail that has no error message, no CPU usage, and
+no indication that anything is wrong. The program stops, and stays stopped.
+
 When you must share mutable state, you need **mutual exclusion**: a guarantee that
 only one thread is inside a section of code at a time.
 

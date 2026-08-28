@@ -1,5 +1,13 @@
 # Bytes and Buffers
 
+Two programs read the same 200,000-byte file one byte at a time. One takes 43
+milliseconds and the other takes 3.
+
+They differ by a single wrapper object. What that wrapper does is worth
+understanding beyond the fourteen-fold speedup, because the same shape — a fixed
+cost per operation, much larger than the work itself — is behind cache lines,
+`ArrayList` growth, database round trips, and network packets.
+
 Under the text lies a byte stream, and under the byte stream lies a system call.
 That last layer is why buffering exists.
 

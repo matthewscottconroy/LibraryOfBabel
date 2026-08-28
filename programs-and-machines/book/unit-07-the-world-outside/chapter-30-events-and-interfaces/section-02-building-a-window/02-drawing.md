@@ -1,5 +1,11 @@
 # Drawing
 
+Pre-made components cover most interfaces, and then one day you need a chart, or a
+board, or a picture of a data structure, and there is no component for it.
+
+So you draw. The mechanism is a single method — and the rule governing it is the
+one that surprises everyone, because you are never allowed to call it.
+
 Pre-made components handle most interfaces. Sometimes you need to put pixels down
 yourself — a chart, a game, a diagram, a visualization of a data structure — and
 the mechanism is one method.

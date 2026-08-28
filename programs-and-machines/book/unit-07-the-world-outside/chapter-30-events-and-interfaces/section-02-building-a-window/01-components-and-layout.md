@@ -1,5 +1,13 @@
 # Components and Layout
 
+Drag a window's corner and everything inside rearranges itself. Nobody wrote code
+for your particular window size.
+
+The obvious way to place things — this button at pixel 10, 40 — cannot do that, and
+it also breaks when the font is larger, when the text is translated into German,
+and when the display has different pixel density. All four happen, which is why
+every toolkit ever built has the same answer.
+
 A window is a tree.
 
 ```

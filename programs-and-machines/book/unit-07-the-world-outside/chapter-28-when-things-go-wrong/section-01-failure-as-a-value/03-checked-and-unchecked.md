@@ -1,5 +1,12 @@
 # Checked and Unchecked
 
+Here is a feature that exists in Java and in no mainstream language designed since.
+
+That is unusual enough to be worth understanding rather than obeying. The idea
+behind it was good, the arguments for it are still sound as far as they go, and it
+lost — and the way it lost is more instructive than either the feature or its
+replacement.
+
 Java divides exceptions in two, and it is the only mainstream language that does.
 
 **Checked** exceptions — anything extending `Exception` but not `RuntimeException`

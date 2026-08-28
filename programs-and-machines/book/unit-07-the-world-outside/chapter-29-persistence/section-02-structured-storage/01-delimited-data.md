@@ -1,5 +1,12 @@
 # Delimited Data
 
+Everyone knows how to parse CSV. Split each line on commas.
+
+Everyone is wrong, and the counterexample takes one line to produce: a book
+called `Programming, with a comma`. The moment your data can contain your
+delimiter — and it always can — the obvious approach stops working, and the
+standard fix is more interesting than it looks.
+
 The simplest structure you can put on a text file: one record per line, fields
 separated by a character.
 

@@ -1,5 +1,13 @@
 # Resources and Cleanup
 
+Java has a garbage collector, which is why you have never had to think about
+freeing anything.
+
+It will not help you here. The collector reclaims *memory*, on its own schedule,
+and knows nothing about the operating-system handle sitting inside the object it is
+about to reclaim. A program that leaks those runs fine in testing and dies a few
+hours into production with an error that names the symptom and not the cause.
+
 Some things must be released. An open file holds an operating-system handle, a
 socket holds a connection, a database connection holds a server-side session, and
 a lock — Chapter 31 — holds up every thread waiting for it.

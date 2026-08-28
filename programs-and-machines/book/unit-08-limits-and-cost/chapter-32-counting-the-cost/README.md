@@ -1,6 +1,7 @@
 # Counting the Cost
 
-Chapter 18 said: measure, do not guess. That advice stands and it has a gap.
+*Measure, do not guess.* That was the rule in Chapter 18 and it still holds. It
+also has a hole in it, and this chapter is what goes in the hole.
 
 A measurement tells you what a program cost on one machine, with one input, on one
 day. It does not tell you what happens when the input is ten times larger, and
@@ -23,12 +24,18 @@ binding one than people expect. And then a lesson on measuring honestly, which
 includes a case where this chapter's own prediction and this chapter's own
 measurement do not agree, and the disagreement is left in.
 
-Several debts come due here. Chapter 9 promised that halving a search space
-repeatedly gives a logarithm. Chapter 13 promised that naive Fibonacci's growth
-had a name. Chapter 15 promised that a `LinkedList` can lose a race the theory
-says it should win. Chapter 17 promised that the sum of powers of two would come
-back. Chapter 25 promised that its interpreter's measured application counts meant
-something. All five are paid.
+This is also the chapter where a number of loose threads get tied off, and you may
+have been carrying some of them for a while.
+
+Halving a search space over and over gives you a logarithm — you were asked to take
+that on trust in Chapter 9. Naive Fibonacci grew alarmingly and we said the growth
+had a name without saying what it was. A `LinkedList` lost a race the theory
+insisted it should win, and the explanation was postponed. The sum of powers of two
+turned up in Chapter 17 and was told it would be needed again. And the interpreter
+of Chapter 25 counted its own applications, on the promise that the count would
+eventually mean something.
+
+Every one of those is settled here.
 
 One warning, since this material invites a particular error. Big-O is a statement
 about **large inputs**, and it says nothing about small ones. A program with worse

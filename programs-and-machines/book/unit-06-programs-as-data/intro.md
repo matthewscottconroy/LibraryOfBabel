@@ -13,10 +13,15 @@ configuration files, database engines, spreadsheets, regular expressions, and th
 `javac` that produced your first `.class` file. It is also, historically, the idea
 that turned computing from a collection of machines into a subject.
 
-You have everything needed to do it. Chapter 13 gave recursion. Chapter 12 gave
-the stack, which is what makes recursion work and what a language's own function
-calls run on. Chapter 22 gave records and sealed types, which are what a syntax
-tree is made of. Chapter 23 gave the design judgment. There is nothing new to
+And here is the surprising part: you are already equipped. Nothing has been held
+back for this moment.
+
+You have recursion, which is how a structure that contains smaller copies of itself
+gets walked. You have the stack, which is both what makes recursion work and what
+every real language runs its own function calls on. You have records and sealed
+types, which turn out to be precisely what a syntax tree is made of, as though they
+had been designed for it. And you have the design judgment to put them together.
+There is nothing new to
 learn about Java before starting; what is new is the object of study.
 
 Four chapters.

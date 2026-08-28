@@ -55,8 +55,9 @@ correctness argument is two sentences: proofs by induction are two steps.
 
 ## Back to loops
 
-Chapter 9 said loop invariants are induction too. So loops and recursion are the
-same principle in different notation, which is worth making explicit:
+Loop invariants were induction as well, back in Chapter 9, though nobody said the
+word at the time. So loops and recursion are not cousins. They are the same
+principle wearing different clothes:
 
 | | loop | recursion |
 |---|---|---|

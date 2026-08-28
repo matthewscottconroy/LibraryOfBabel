@@ -1,12 +1,12 @@
 # Returning a Value
 
-So far a method has been a one-way street. You hand it information and it does
-something — prints, perhaps. But most of the methods you actually want are not
-like that. You want to *ask* something and get an answer back that you can then
-use: store it, compare it, feed it into another method.
+So far a method has been a one-way street. You hand it something and it goes off
+and does a thing — prints, perhaps.
 
-`Math.max(a, b)` is not useful because of anything it does. It is useful because
-of what it hands back.
+But most of the methods you actually want are not like that. You want to *ask*,
+and get an answer you can hold: store it, compare it, feed it to something else.
+`Math.max(a, b)` is not useful for anything it does. It is useful entirely for
+what it hands back.
 
 Parameters carry information in. **Return values** carry it out.
 
@@ -16,33 +16,35 @@ static int square(int n) {
 }
 ```
 
-The `int` before the name is the **return type** — the promise that this method
-produces an `int`. The `return` statement supplies it and ends the method
-immediately.
+The `int` before the name is the **return type** — a promise, made in the header,
+that whatever else happens in this method, an `int` is coming out. `return`
+supplies it and ends the method on the spot.
 
-## return ends the method
+## return leaves. Immediately.
 
-Worth stating plainly, because it is used constantly:
+That word "immediately" does more work than it looks like:
 
 ```java
 static int firstNegative(int[] a) {
     for (int i = 0; i < a.length; i++) {
-        if (a[i] < 0) return i;      // done: leave now
+        if (a[i] < 0) return i;      // done — out of the loop, out of the method
     }
-    return -1;                        // got through without finding one
+    return -1;                        // got all the way through, found nothing
 }
 ```
 
-The `return i` exits the whole method, not just the loop. That is what makes the
-guard-clause style of Chapter 8 work, and it is the clean answer to Chapter 9's
-problem of breaking out of nested loops.
+`return i` does not leave the loop. It leaves the *method*, from wherever it is,
+however deep. Which is what makes the guard-clause style work, and it is the clean
+answer to a problem Chapter 9 left you with — how to escape from the middle of
+nested loops without a flag variable and a lot of hoping.
 
-Any code after a `return` on the same path is unreachable, and Java rejects it at
-compile time — Chapter 5's reachability check.
+Write anything after a `return` on the same path and Java refuses to compile it. It
+knows that line can never run, and it would rather tell you than let you believe
+otherwise.
 
 ## void
 
-A method that produces no value declares `void`:
+A method that hands nothing back says so:
 
 ```java
 static void greet(String who) {
@@ -50,99 +52,105 @@ static void greet(String who) {
 }
 ```
 
-`void` is the second debt from Chapter 5 paid: `main` returns nothing, because
-there is nothing for it to hand back to the JVM.
+There is the second word of `main` accounted for. `main` returns `void` because
+there is nothing it could usefully hand back — the JVM is not waiting for an
+answer, it is waiting for the program to be over.
 
-A `void` method may still use `return;` with no value, to leave early:
+A `void` method can still leave early. Just `return;`, with nothing after it:
 
 ```java
 static void process(int[] data) {
-    if (data.length == 0) return;      // nothing to do
+    if (data.length == 0) return;      // nothing here to do
     // ...
 }
 ```
 
-## The distinction worth making
+## Two kinds of method, and one of them is much easier to live with
 
 A method either **computes a value** or **causes an effect**. `square` computes.
-`greet` causes — it prints, which changes something outside the method.
+`greet` causes — it prints, which changes something in the world outside itself.
 
-Methods that only compute are dramatically easier to reason about. Call `square(7)`
-a hundred times and you get 49 a hundred times; nothing else in the program is
-different for having called it. You can test it by comparing input to output, move
-it, delete a redundant call, or reorder calls freely.
+Now look at what you can do with the first kind. Call `square(7)` a hundred times
+and you get 49 a hundred times, and nothing else about your program is different
+for having called it. So you can test it by comparing what went in with what came
+out. You can move the call. You can delete one you did not need. You can reorder
+two of them. None of it requires thought.
 
-Methods that cause effects can do none of that. Calling `greet` twice prints
-twice. Order matters. Testing means capturing output. And whether a call can be
-removed depends on whether anyone wanted the effect.
+Try any of that with `greet`. Call it twice and it prints twice. Move it and the
+output comes out in a different order. Delete one and something is missing. Test
+it and you find you have to capture the output first. Every one of those
+operations now requires you to stop and think about consequences.
 
 A method with no effects beyond its return value is called **pure**, and the rule
-of thumb is: **prefer pure methods, and when a method must have an effect, do not
-also make it compute something interesting.** A method that both modifies state
-and returns a value is one whose calls cannot be moved or removed without
-thought, and every reader has to notice both jobs.
+of thumb worth carrying is this: **prefer pure methods, and when a method has to
+have an effect, do not also make it compute something interesting.**
 
-Chapter 26 returns to this when functions become values, and Unit VII is largely
-about the parts of a program where effects are unavoidable.
+A method that both changes state *and* returns a value is one whose calls cannot
+be moved or removed without care, and every reader has to notice both jobs, every
+time. When functions themselves become values in Chapter 26 this comes back with
+much sharper teeth, and Unit VII is largely about the parts of a program where
+effects cannot be avoided and have to be corralled instead.
 
-## Returning one thing
+## Java hands back exactly one thing
 
-Java methods return exactly one value. Sometimes you want two — a minimum and a
-maximum, a quotient and a remainder — and the options are all imperfect:
+Which is occasionally not enough. You want a minimum and a maximum. A quotient and
+a remainder. And every option is a little unsatisfying:
 
-**Return an object holding both.** Unit V's answer, and usually the right one. A
-`MinMax` with two fields, or from Chapter 22 a `record`, which exists for exactly
-this.
+**Return an object holding both.** Usually right, and Chapter 22 has a one-line way
+to make one that exists for precisely this.
 
-**Return an array.** `return new int[]{min, max};` Works, and the caller has to
-remember which index is which, so it is a positional-argument problem in
-reverse.
+**Return an array.** `return new int[]{min, max};` — works, and now the caller has
+to remember which index is which. You have turned a positional-argument problem
+around and pointed it at yourself.
 
-**Use parameters as outputs.** Pass in something the method fills. Common in
-older APIs and generally worse, because it makes the method's effect invisible at
-the call site.
+**Fill in something the caller passed.** Common in older libraries, generally
+worse, because the method's real effect has become invisible at the call site.
 
-**Split into two methods.** Frequently best when the two results are independently
-useful. Two passes over the data is usually a cost worth paying for clarity, and
-Chapter 32 will let you judge when it is not.
+**Write two methods.** Often the best answer, particularly when the two results are
+useful separately. Two passes over the data is usually a price worth paying for
+clarity, and Chapter 32 will give you the tools to know when it is not.
 
-## Naming, again
+## Say what you mean in the name
 
-Return type and name should agree, and readers rely on it more than they realize.
+Readers lean on the agreement between a return type and a name far more than they
+realise:
 
 ```java
-int  count(...)         // returns a number
-boolean isValid(...)    // returns true or false
-String format(...)      // returns text
-void save(...)          // does something
+int  count(...)         // a number
+boolean isValid(...)    // true or false
+String format(...)      // text
+void save(...)          // an action
 ```
 
-Two conventions worth adopting. A method returning `boolean` is usually named
+Two conventions are worth adopting outright. A `boolean` method is called
 `isSomething` or `hasSomething`, so that `if (isValid(x))` reads as English. A
-method returning a value is usually named for the value — `largest`, `count`,
-`total` — while a method causing an effect is named for the action — `save`,
-`print`, `update`.
+method that returns a value is named for the value — `largest`, `count`, `total`
+— and a method that causes an effect is named for the action — `save`, `print`,
+`update`.
 
-Get the convention wrong and you mislead. A method called `getBalance` that
-silently opens a network connection is a betrayal of the reader, and the code
-that uses it will be written on the assumption that calling it is cheap and safe.
+Break the convention and you mislead people who trusted you. A method called
+`getBalance` that quietly opens a network connection is a small betrayal, and the
+code written around it will assume calling it is cheap and safe, because that is
+what the name said.
 
-## What a signature says
+## What a signature tells you, and what it hides
 
-Put it together. The first line of a method is its **signature**, and it is a
-summary of the contract:
+Here is the first line of a method — its **signature** — doing a remarkable amount
+of work:
 
 ```java
 static int largest(int[] values)
 ```
 
-*Given an array of `int`, this produces an `int`.* A reader learns what goes in
-and what comes out without reading a line of the body — which is the whole
-purpose of the abstraction.
+*Give me an array of `int`, and I will give you back an `int`.* A reader learns
+what goes in and what comes out without reading a single line of the body. That is
+the abstraction paying for itself.
 
-What the signature does *not* say is nearly as important. It does not say what
-happens for an empty array. It does not say whether `values` is modified. It does
-not say whether the result is the largest, the smallest, or the first.
+Now notice what it does *not* say.
 
-Those are the contract's remaining terms, and the next section is about stating
-them.
+It does not say what happens if the array is empty. It does not say whether
+`values` comes back modified. It does not even promise the answer is the largest
+rather than the smallest, or the first, or 42.
+
+All of that is real, all of it matters, and none of it is in the signature. Those
+are the rest of the terms — and the next section is about writing them down.

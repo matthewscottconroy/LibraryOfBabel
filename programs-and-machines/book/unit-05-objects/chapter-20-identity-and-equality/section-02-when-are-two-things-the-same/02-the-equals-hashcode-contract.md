@@ -1,6 +1,9 @@
 # The equals/hashCode Contract
 
-Define `equals` and forget `hashCode`, and this happens:
+You have written `equals`. It works — you tested it, two points with the same
+coordinates come back equal, and you moved on to something else.
+
+Here is a set. A set holds no duplicates; that is the one thing a set is for.
 
 ```java
 Set<GoodPoint> t = new HashSet<>();
@@ -9,49 +12,68 @@ t.add(new GoodPoint(1, 2));
 System.out.println(t.size());
 ```
 
-With both methods defined, the size is 1 — the second is recognized as a
-duplicate. With only `equals`, it is 2. A set containing two equal elements, which
-is not what a set is.
+Say the number out loud before you read on.
 
-## Why hashing needs the pair
+It is 2.
 
-Chapter 17 said a `HashMap` converts a key to a number indicating where to look.
-That number is `hashCode()`.
+The two objects are equal. Your `equals` says so, and it is right. The set added
+both of them anyway, and it did not hesitate, and it will not tell you.
 
-The lookup is: compute the hash, go to that bucket, and compare with `equals`
-against what is there.
+## Follow the key
 
-So if two equal objects produce **different** hash codes, they go to different
-buckets, and the comparison that would have found them equal never happens. The
-set never notices the duplicate; the map never finds the key.
+To see why, walk in behind a key and watch where it goes.
 
-`Object.hashCode` returns something derived from the object's address, so two
-distinct objects almost always get different codes — which is consistent with
-`Object.equals`, and inconsistent with any `equals` you write.
+The map takes the object you handed it and asks for a number — not a comparison,
+a single integer, from `hashCode()`. It uses that number to choose a shelf. Then,
+and only then, does it walk along that one shelf, comparing with `equals`, until
+it finds a match or runs out of shelf.
 
-## The contract
+Now put two equal objects through that. They hand back two different numbers.
+They are filed on two different shelves. And the comparison that would have caught
+them — the `equals` you wrote so carefully — is never reached, because nothing ever
+looks on both shelves at once.
 
-Four rules for `equals`, from the specification:
+The set is not confused. It looked exactly where the number told it to look, found
+nothing, and did as it was asked.
 
-**Reflexive** — `a.equals(a)` is true.
-**Symmetric** — if `a.equals(b)` then `b.equals(a)`.
+Which means the method you inherited and ignored was not decoration. It was the
+filing system.
+
+The inherited `hashCode` derives its number from the object's memory address, so
+two distinct objects get two distinct numbers almost every time. That is a perfect
+match for the inherited `equals`, which also asks about addresses. The moment you
+replace one of them and not the other, you have a filing clerk and a librarian who
+disagree about what counts as the same book.
+
+## The five promises
+
+The specification asks four things of `equals`. None will surprise you, which is
+the point of reading them once.
+
+**Reflexive** — `a.equals(a)` is true. A thing is itself.
+
+**Symmetric** — if `a.equals(b)` then `b.equals(a)`. Order is not a factor.
+
 **Transitive** — if `a.equals(b)` and `b.equals(c)` then `a.equals(c)`.
-**Consistent** — repeated calls give the same answer while nothing changes.
 
-And `a.equals(null)` is always false.
+**Consistent** — ask twice, get the same answer, as long as nothing changed.
 
-Two for `hashCode`:
+And `a.equals(null)` is false, always.
 
-**Equal objects must have equal hash codes.** This is the one that breaks
-collections.
+Then two of `hashCode`, and only one of them can hurt you:
 
-**Unequal objects need not differ** — but should, as often as is practical, or
-everything lands in one bucket and lookup degrades to a linear scan.
+**Equal objects must have equal hash codes.** This is the promise the set above
+was relying on when you broke it.
 
-Note the asymmetry: equal implies same hash, and same hash does not imply equal.
-A collision is legitimate and the map handles it by comparing with `equals`.
+**Unequal objects are allowed to collide.** Two different things may land on the
+same shelf. That is fine — the map walks the shelf and sorts it out with `equals`.
 
-## Writing hashCode
+Read those two together and you will find they do not mirror each other. Equal
+forces the hashes to match; matching hashes force nothing at all. The arrow points
+one way only, and every strange-looking rule in this lesson is that asymmetry
+having consequences.
+
+## Writing it
 
 ```java
 @Override
@@ -60,15 +82,30 @@ public int hashCode() {
 }
 ```
 
-`Objects.hash` takes the fields and combines them. **Use the same fields you used
-in `equals`** — that is the whole discipline, and writing the two methods adjacent
-makes it hard to forget one when you add a field.
+`Objects.hash` takes your fields and stirs them into one number. There is one
+discipline and it fits in a sentence: **use the same fields you used in `equals`.**
 
-Do not write `return 0;`. It is technically legal — equal objects certainly have
-equal codes — and it puts every object in one bucket, turning constant-time lookup
-into a linear scan.
+Which is also the argument for writing the two methods next to each other, touching.
+Six months from now you will add a field, and the only thing standing between you
+and a very quiet bug is that you cannot edit one of these without your eye falling
+on the other.
 
-## The trap that surprises everyone
+You may be tempted, at some point, by this:
+
+```java
+@Override
+public int hashCode() { return 0; }
+```
+
+It is legal. It satisfies the contract exactly — equal objects certainly do get
+equal hash codes this way. It also puts every object you own on a single shelf, so
+every lookup walks the whole thing, and a `HashMap` that was finding your key
+instantly is now reading the entire map to find it. Nothing breaks. It just
+quietly stops being a hash map.
+
+## A thing I would like you to predict
+
+Read this, and before the last two lines, decide what they print.
 
 ```java
 List<Integer> key = new ArrayList<>(List.of(1, 2));
@@ -78,49 +115,63 @@ m.put(key, "value");
 System.out.println(m.get(key));      // value
 
 key.add(3);
-System.out.println(m.get(key));      // null
-System.out.println(m.size());        // 1
+System.out.println(m.get(key));      // ?
+System.out.println(m.size());        // ?
 ```
 
-The map still contains the entry. Looking it up with the very object used as the
-key returns null.
+`null`, and `1`.
 
-The key was filed in the bucket for its hash at insertion time. Mutating it
-changed its hash, so the lookup now goes to a different bucket. The entry is
-there, in the old bucket, and nothing will ever find it — you cannot retrieve it,
-and you cannot remove it either.
+Sit with that pair for a second, because it is stranger than either line alone.
+The map contains one entry. You are holding the exact object you filed it under —
+not a copy, the same object — and the map tells you there is nothing there.
 
-**Never mutate an object that is being used as a hash key.** In practice: use
-immutable types as keys. `String` and the wrapper types are safe by construction,
-which is a large part of why `Map<String, ...>` is so common.
+Nothing is broken. The key was filed on the shelf its hash chose at insertion.
+Then you changed the key, so the hash changed, so `get` walks confidently to a
+different shelf and finds it empty. The entry is still on the old shelf. It will
+be there forever. You cannot read it and you cannot remove it, because every
+operation you might use to reach it starts by asking for a number that no longer
+points there.
 
-This is also the strongest practical argument in the chapter for the next lesson.
+You have lost data inside a live collection, in four lines, with no exception and
+no warning.
 
-## Records do it for you
+So: **never mutate an object while it is serving as a key.** The reliable way to
+obey that is not vigilance, it is choosing keys that cannot be mutated in the
+first place. `String` and the wrapper types are safe by construction, and that is
+a large part of why `Map<String, ...>` is the shape you see everywhere.
 
-Chapter 22's preview, and it is the reason most of this discipline can be avoided:
+Hold on to that feeling. In a few pages it becomes an argument.
+
+## Or let the compiler do it
+
+There is a way out of this entire lesson, and it arrives properly in two chapters:
 
 ```java
 record Point(int x, int y) { }
 ```
 
-That generates `equals`, `hashCode`, and `toString` using all the components,
-correctly and consistently. For a value object — which is exactly the case where
-you wanted value equality — a record is the right answer, and writing the two
-methods by hand is a choice you should have a reason for.
+That one line generates `equals`, `hashCode` and `toString` from the components,
+consistent with each other by construction, and it cannot forget a field because
+it never had to remember one.
 
-## Getting it right
+When your class is a value — when two of them with the same contents would be
+interchangeable, which is exactly the situation that made you want value equality
+— a record is the answer, and writing the two methods by hand is a decision you
+should be able to justify.
 
-**Write them together.** Adding a field means updating both.
+## Before you move on
 
-**Use the same fields in each.**
+**Write them together, touching.** Adding a field means editing both.
 
-**Prefer a record** when the class is a value object.
+**Use the same fields in each.** The rest of the contract follows.
 
-**Let your IDE generate them** when it is not. Every IDE will, correctly, and the
-generated code is better than most handwritten attempts.
+**Reach for a record** when the class is a value.
 
-**Always write `@Override`**, so that a wrong signature is a compile error rather
-than a silent inherited method.
+**Let your IDE generate them** when it is not. It will do it correctly, which is
+more than most of us manage by hand at four in the afternoon.
 
-Next: the strategy that makes most of this unnecessary.
+**Always write `@Override`.** A wrong parameter type is then a compile error
+instead of a method that never runs.
+
+There is a way to make almost all of this stop mattering, and it is the next
+lesson.

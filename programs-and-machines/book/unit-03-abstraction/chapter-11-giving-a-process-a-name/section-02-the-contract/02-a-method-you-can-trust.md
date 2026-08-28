@@ -1,21 +1,26 @@
 # A Method You Can Trust
 
-The precondition says `values` must be non-empty. A caller passes an empty array.
-Now what?
+Your precondition says `values` must be non-empty.
 
-Java gives four answers, and choosing between them is a real design decision.
+Somebody passes an empty array.
 
-## The four options
+They were not being careless, particularly. They had an array, it happened to have
+nothing in it that day, and they called your method. Now what should happen?
 
-**1. Undefined behavior.** Do nothing about it; whatever happens, happens. Here,
-`values[0]` throws `ArrayIndexOutOfBoundsException` from inside the method.
+Java will let you choose any of four answers, and choosing is a real design
+decision rather than a formality.
 
-Cheapest, and the failure is confusing: the caller sees an exception about array
-indices from a method they asked for a maximum. The message describes the
-*symptom* at the point of failure rather than the *mistake* at the point of the
-call.
+## The four answers
 
-**2. Check and throw.** Detect the violation and report it clearly:
+**1. Let it fall over.** Do nothing; whatever happens, happens. Here `values[0]`
+throws `ArrayIndexOutOfBoundsException` from somewhere in your method's body.
+
+It costs nothing to implement and the failure is baffling. Your caller asked for a
+maximum and received a complaint about array indices from inside code they have
+never read. The message describes the *symptom*, at the place it surfaced, rather
+than the *mistake*, at the place it was made.
+
+**2. Check, and say so.** Catch the violation and name it:
 
 ```java
 static int largest(int[] values) {
@@ -25,103 +30,106 @@ static int largest(int[] values) {
 }
 ```
 
-Now the caller gets a message naming their mistake. Chapter 28 covers exceptions
-properly; for now, `throw` stops the method and reports.
+Now the caller gets a sentence about the thing they actually did. Chapter 28 gives
+exceptions the treatment they deserve; for now, `throw` stops the method and
+reports.
 
-**3. Return a sentinel.** Hand back a value meaning "no answer" — `-1`, or `null`,
-or `Integer.MIN_VALUE`.
+**3. Hand back a sentinel.** Return something meaning "no answer" — `-1`, or
+`null`, or `Integer.MIN_VALUE`.
 
-Convenient and dangerous, because the caller may not check. A sentinel that gets
-used as if it were a real answer produces a wrong result with no error, which is
-the worst outcome available. `-1` is a plausible maximum.
+Convenient, and quietly dangerous, because nothing forces the caller to look. A
+sentinel that slips through and gets used as a real answer produces a wrong result
+with no error attached — the worst outcome on this list. And note that `-1` is a
+perfectly plausible maximum.
 
-**4. Widen the contract.** Decide what the empty case *should* return and
-document it. For a maximum there is no defensible answer, which is why the
-precondition exists. For a sum, zero is exactly right and the precondition is
-unnecessary.
+**4. Change the deal.** Decide what the empty case *should* return, and say so in
+the contract. For a maximum there is no defensible answer, which is exactly why
+the precondition exists. For a sum, zero is not a fudge — it is right, and the
+precondition was never needed.
 
-## Choosing
+## Choosing between them
 
-The guidance that holds up:
+The guidance that survives contact with real code:
 
-**For public methods called by code you do not control: check and throw.** You
-cannot rely on strangers reading documentation, and a clear exception at the point
-of the mistake is worth its cost.
+**Public methods, called by people you have never met: check and throw.** You
+cannot make strangers read your documentation, and a clear exception at the point
+of the mistake is worth what it costs.
 
-**For private helpers within one class: rely on the precondition.** The callers are
-in the same file and you can see them. Checking is noise.
+**Private helpers inside one class: trust the precondition.** Every caller is in
+the same file and you can see all of them. Checking here is noise, and noise makes
+the real checks harder to notice.
 
-**Never return a sentinel that could be mistaken for a valid answer.** If you must
-signal absence, use something that cannot be confused — `Optional` in modern Java,
-or an exception. `-1` is fine for an index, because indices cannot be negative; it
-is not fine for a temperature.
+**Never return a sentinel that could pass for a real answer.** If you must signal
+absence, use something that cannot be mistaken for presence — `Optional`, or an
+exception. `-1` is fine for an index, because there is no such thing as element
+minus one. It is not fine for a temperature.
 
-**Fail as early as possible.** A bad value detected at the call is a two-minute
-fix. The same value stored, passed through four layers, and detected when a report
-comes out wrong is an afternoon. This principle is called *failing fast*, and it
-is one of the highest-value habits available.
+**Fail as early as you possibly can.** This one deserves more than a bullet.
 
-## Why failing fast matters
+## Why early matters so much
 
-Worth an example, because the reasoning is not obvious.
+Picture a method that accepts a negative age and stores it without comment.
 
-Suppose a method accepts a negative age and stores it. Nothing fails. Later a
-report divides by it, or sorts by it, or displays it, and something looks wrong
-three subsystems away from where the bad value entered.
+Nothing fails. The program carries on. Sometime later a report divides by it, or
+sorts by it, or renders it, and a number comes out looking wrong three subsystems
+away from the place the bad value walked in.
 
-Debugging that means working backwards through everything the value touched —
-Chapter 10's bisection, over a much larger space than necessary. The information
-that would have identified the mistake instantly, namely *who passed a negative
-age*, is long gone.
+Now you are debugging. And you are not looking for a mistake — you are working
+backwards through everything that value touched, over a search space vastly larger
+than it needed to be. The single piece of information that would have ended this in
+ten seconds, namely *who passed a negative age*, evaporated hours ago.
 
-An exception at the point of entry would have carried the whole diagnosis in its
-stack trace.
+An exception thrown at the front door would have carried the entire diagnosis in
+its stack trace, for free.
 
-The general principle: **the distance between a mistake and its symptom is the
-cost of the bug.** Everything that shortens that distance is worth doing, and
-checking preconditions is the cheapest way to shorten it.
+So: **the distance between a mistake and its symptom is the cost of the bug.**
+Anything that shortens that distance is worth doing, and checking a precondition is
+the cheapest way to shorten it that anyone has found.
 
-## Assertions
+## A construct that is not quite what it looks like
 
-Java has a construct for checking things you believe are true:
+Java has something for stating things you believe:
 
 ```java
 assert values.length > 0 : "largest requires a non-empty array";
 ```
 
-If the condition is false, an `AssertionError` is thrown with that message.
+If the condition is false you get an `AssertionError` carrying that message.
 
-The catch: **assertions are disabled by default** and must be enabled with `-ea`
-on the command line. That makes them unsuitable for validating input from
-outside — a check that does not run in production is not a check.
+And here is the catch that catches everyone once: **assertions are switched off by
+default.** Unless somebody runs the program with `-ea`, that line does nothing at
+all. Which makes it entirely unsuitable for validating input from outside — a
+check that does not run in production is not a check, it is a comment with
+punctuation.
 
-What they are good for is stating and verifying your *internal* beliefs: an
-invariant you expect to hold, a case you think is impossible. During development
-they catch broken assumptions early; in production they cost nothing.
+What they are genuinely good for is your *internal* beliefs. An invariant you
+expect to hold. A branch you are confident is unreachable. During development they
+catch a broken assumption the moment it breaks; in production they cost nothing
+because they are not there.
 
-The division is worth remembering:
-
-| situation | tool |
+| what you are checking | what to use |
 |---|---|
-| input from outside your control | `if` + `throw` |
+| input from outside your control | `if` and `throw` |
 | a belief about your own code | `assert` |
 
-## Trust
+## What all of this was for
 
-Pulling the chapter together.
+Here is the chapter, in one sentence.
 
-A method is worth having when you can call it **without reading it**. That
-requires the name to say what it does, the signature to say what goes in and out,
-and the contract to state what is required and what is guaranteed. When all three
-hold, the method is a genuine unit of thought and your attention is freed.
+A method is worth having when you can call it **without reading it**.
 
-When any fails — a name that misleads, a precondition that is not stated, a
-method that quietly does something extra — the abstraction leaks. You have to
-remember the method's peculiarities, which is more to carry than the code it
-replaced.
+That takes three things, and you now have all three. The name has to say what it
+does. The signature has to say what goes in and what comes out. The contract has to
+say what is required and what is guaranteed. When all three hold, the method is a
+real unit of thought, and your attention is genuinely free for something else.
 
-Trustworthiness is not a nicety. It is the property that makes the abstraction
-work at all.
+When any one of them fails — a name that misleads, a precondition nobody wrote
+down, a method that quietly does one extra thing — the abstraction leaks. And now
+you have to remember the method's peculiarities on top of everything else, which
+is *more* to carry than the four lines it replaced.
 
-Next, the mechanism underneath: what the machine actually does when a method is
-called, and why Java's parameter passing is more subtle than it first appears.
+Trustworthiness is not a nicety here. It is the property that makes the whole
+device work.
+
+Next, the machinery underneath: what actually happens when a method is called, and
+why Java's parameter passing has a surprise in it.

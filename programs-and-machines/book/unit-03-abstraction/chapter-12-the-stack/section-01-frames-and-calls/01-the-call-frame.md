@@ -36,12 +36,14 @@ A frame holds everything belonging to *one execution* of *one method*:
 **Working space** for intermediate values, which on the JVM is the operand stack
 of Chapter 5.
 
-Chapter 6 called all of this state. A frame is the state belonging to one call,
-and the "where to resume" part is the program counter's value, saved.
+All of which is state, in the sense Chapter 6 gave the word — and a frame is
+nothing more than the state belonging to one call. Even the "where to resume" is state: it is
+the program counter, saved, so the caller can be put back exactly where it was
+standing.
 
 ## One execution, not one method
 
-That phrase matters and is easy to slide past.
+Read that phrase again, because it is doing quiet work.
 
 If `largest` is called three times, there are three frames — one after another,
 or several at once if the calls are nested. Each has its own parameters and its
@@ -117,9 +119,9 @@ hands 15 back, and it **discards the frame**.
 `n` and `result` no longer exist. They were not saved, moved, or cleaned up
 later; the space they occupied is available for the next call.
 
-## Why the frame is discarded
+## Why the frame can be thrown away
 
-This is the part worth appreciating.
+Here is the part that is genuinely elegant.
 
 Method calls **nest**: if `a` calls `b` and `b` calls `c`, then `c` finishes
 first, then `b`, then `a`. There is no way for `b` to outlive `a` — it was called
@@ -138,7 +140,7 @@ you have addresses at all.
 
 ## Where objects live instead
 
-A preview, because it explains something otherwise puzzling.
+Something about all this should be bothering you.
 
 If frames are discarded on return, how can a method create an object and return
 it? The object was made during the call; should it not vanish with the frame?

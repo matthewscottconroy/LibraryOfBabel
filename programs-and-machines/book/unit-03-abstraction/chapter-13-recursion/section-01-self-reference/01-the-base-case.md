@@ -7,8 +7,9 @@ Here is factorial, defined mathematically:
 n! = n × (n-1)!        for n > 0
 ```
 
-Note the shape. The second line defines factorial in terms of factorial — which
-would be circular except for the first line, which does not.
+Look at the shape of that for a moment. The second line defines factorial using
+factorial, which ought to be an unforgivable piece of circular reasoning — and is
+rescued entirely by the first line, which does not.
 
 In Java:
 

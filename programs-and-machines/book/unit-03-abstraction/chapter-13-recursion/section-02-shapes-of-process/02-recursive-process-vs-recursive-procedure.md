@@ -1,6 +1,7 @@
 # Recursive Process vs. Recursive Procedure
 
-A distinction that is easy to miss and clarifies a great deal once seen.
+There is a distinction hiding in this chapter that almost nobody points out, and
+once you see it a great deal of confusing advice about recursion resolves itself.
 
 **A recursive procedure** is a method whose text contains a call to itself. That
 is a syntactic property — you can see it by looking.

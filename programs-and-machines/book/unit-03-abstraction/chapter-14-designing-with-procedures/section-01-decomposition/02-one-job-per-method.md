@@ -123,7 +123,8 @@ is real.
 
 ## The number of parameters, again
 
-Chapter 11 said five parameters is a signal. Here is what it signals.
+Five parameters was a signal, back in Chapter 11, and I left it at that. Here is
+what it is signalling.
 
 Frequently it means the method does too much — it needs many inputs because it has
 many jobs, and splitting it reduces both.

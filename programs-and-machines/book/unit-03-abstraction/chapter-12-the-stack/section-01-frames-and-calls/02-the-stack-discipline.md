@@ -65,9 +65,10 @@ above to finish.
 That is the picture to keep. At any instant, one method is running and the rest of
 the stack is a record of how the program got there.
 
-## A stack trace is the stack
+## You have been looking at this for chapters
 
-Now Chapter 10's error messages make complete sense:
+Here is an error message of the kind you met in Chapter 10, and you can now read
+every line of it:
 
 ```
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
@@ -121,7 +122,7 @@ For recursion it is a real limit, and it is the subject of the next lesson.
 
 ## Two regions, two purposes
 
-Worth tabulating, because the distinction organizes a lot:
+Put them side by side once and a surprising amount falls into place:
 
 | | stack | heap |
 |---|---|---|

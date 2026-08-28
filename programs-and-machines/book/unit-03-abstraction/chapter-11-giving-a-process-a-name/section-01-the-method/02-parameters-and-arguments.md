@@ -1,7 +1,9 @@
 # Parameters and Arguments
 
-A method that always did the same thing would be a poor abstraction. Information
-gets in through **parameters**.
+A method that did the same thing every time would be a poor sort of abstraction.
+`largest` is worth having because you can point it at any array you like.
+
+Information gets in through **parameters**.
 
 ```java
 static int square(int n) {
@@ -9,29 +11,28 @@ static int square(int n) {
 }
 ```
 
-`n` is a parameter: a variable, declared in the method's header, that receives a
-value when the method is called.
+`n` is the parameter — a variable, declared in the header, that will be handed a
+value when somebody calls.
 
 ```java
 int result = square(7);
 ```
 
-`7` is an **argument**: the actual value supplied at the call.
+`7` is the **argument** — the actual value at the actual call.
 
-The distinction is worth keeping. The parameter is the name in the definition;
-the argument is the value at the call site. One method has fixed parameters and
-sees a different argument every time it is called.
+Two words for what looks like one thing, and the distinction earns its keep. The
+parameter is written once, in the definition. The argument is different every time
+anybody calls. One `n`, a thousand different sevens.
 
-## The parameter is a local variable
+## A parameter is a local variable that was filled in for you
 
-This is the mental model to hold, and it settles most questions.
+Hold that sentence and most of the awkward questions answer themselves.
 
-When `square(7)` is called, a fresh variable `n` comes into existence, holding a
-**copy** of 7. It lives for the duration of the call — Chapter 7's lifetime,
-Chapter 12's call frame — and vanishes on return.
+When `square(7)` runs, a fresh variable `n` is born, holding a **copy** of 7. It
+lives exactly as long as the call does, and when the method returns it is gone —
+along with everything else the call was keeping.
 
-So a parameter behaves exactly like a local variable that was initialized for
-you. It can be reassigned inside the method, and doing so affects nothing outside:
+So you can assign to it, and it changes nothing anywhere else:
 
 ```java
 static void tryToChange(int n) {
@@ -43,27 +44,29 @@ tryToChange(x);
 System.out.println(x);      // 5
 ```
 
-`x` is unchanged. `n` received a copy, the copy was overwritten, and the copy is
-gone.
+Five. The method received a copy, scribbled on the copy, and the copy was thrown
+away when it returned. `x` never knew anything had happened.
 
-That is **pass by value**, and Java does it for everything. Chapter 12 will show
-what it means for objects, where the answer surprises people; for primitives it
-is exactly as straightforward as it looks.
+This is **pass by value**, and Java does it for absolutely everything, without
+exception. For primitives it is exactly as simple as it looks. For objects the
+same rule produces an answer that catches nearly everyone, and it has a chapter of
+its own coming.
 
-Reassigning a parameter is legal and generally poor practice, because a reader
-expects the parameter to hold what the caller passed. If you want a modified
-version, make a local:
+One habit while we are here. Assigning to a parameter is legal and mostly a bad
+idea, because a reader arriving mid-method expects the parameter to still hold
+what the caller sent. If you want a version you can move around, take a copy and
+say so:
 
 ```java
 static int countdown(int start) {
-    int n = start;         // clearer than reassigning start
+    int n = start;         // now it is obvious that start is untouched
     while (n > 0) { ... }
 }
 ```
 
-## Several parameters
+## More than one
 
-Separated by commas, and matched to arguments **by position**:
+Comma-separated, and matched to arguments **by position**:
 
 ```java
 static int max(int a, int b) {
@@ -73,43 +76,50 @@ static int max(int a, int b) {
 max(3, 9);      // a is 3, b is 9
 ```
 
-Position is the whole story, and it is a real hazard once there are several
-parameters of the same type:
+Position is the whole mechanism. There is nothing else. Which is fine with two,
+and becomes a genuine hazard the moment several parameters share a type:
 
 ```java
 drawRectangle(10, 20, 5, 3);
 ```
 
-Which is width and which is height? Which pair is the position? Nothing in the
-call says, and passing them in the wrong order compiles cleanly and draws the
-wrong thing.
+Quick — which of those is the height?
 
-Some languages let the caller name arguments — `drawRectangle(x: 10, y: 20, ...)`
-— and Java does not. Three partial defenses:
+You cannot tell, and neither can the compiler, and neither can the person who
+swapped two of them last Tuesday. That call compiles perfectly and draws the wrong
+rectangle, and there is no error anywhere to lead you to it.
 
-**Fewer parameters.** A method needing six is often a method needing to be
-restructured. Three or four is usually the point at which to worry.
+Some languages let you write `drawRectangle(x: 10, y: 20, ...)` and settle the
+question at the call site. Java does not. What you have instead are three partial
+defences:
 
-**Distinct types where possible.** The compiler cannot catch a swapped pair of
-`int`s and can catch a swapped `int` and `String`. Unit V's custom types make this
-much stronger — a `Width` and a `Height` cannot be exchanged.
+**Take fewer parameters.** A method that wants six is usually a method that wants
+restructuring. Somewhere around three or four is where you should start feeling
+uneasy.
 
-**Order by convention.** If related methods take `(row, column)`, take
-`(row, column)` everywhere. Consistency is the cheapest protection available.
+**Use types the compiler can tell apart.** It cannot catch two swapped `int`s. It
+can catch a swapped `int` and `String` instantly. Later you will be able to make a
+`Width` and a `Height` that refuse to be exchanged, and that is a real fix rather
+than a mitigation.
+
+**Be relentlessly consistent about order.** If one method takes `(row, column)`,
+they all take `(row, column)`. It costs nothing and it means a reader's instinct is
+usually right.
 
 ## How many is too many
 
-A rough guide: **zero to two is comfortable, three is fine, four asks a question,
-five or more is a signal.**
+Roughly: zero to two is comfortable, three is fine, four raises an eyebrow, five
+or more is telling you something.
 
-The signal is usually one of two things. Either the method is doing too much and
-wants splitting, or several of the parameters belong together and want to become
-one object — a `Rectangle` rather than four numbers. Unit V gives you that second
-option, and it is frequently the right answer.
+What it is usually telling you is one of two things. Either the method is doing
+too much and wants splitting — or several of those parameters travel everywhere
+together and are secretly one thing that does not have a name yet. A `Rectangle`
+instead of four numbers. Unit V is where you get to make that second one, and it
+is more often the right answer than people expect.
 
-## Variable numbers of arguments
+## When you genuinely do not know how many
 
-Occasionally a method genuinely takes any number:
+Sometimes the count really is open:
 
 ```java
 static int sum(int... xs) {
@@ -122,33 +132,37 @@ sum(1, 2, 3, 4);      // 10
 sum();                // 0
 ```
 
-The `...` makes `xs` an array holding whatever was passed. `System.out.printf`
-works this way, which is why it accepts any number of values after the format
-string.
+The `...` gathers whatever was passed into an array. This is how `System.out.printf`
+manages to accept any number of values after its format string, which you have been
+using since Chapter 5 without asking how.
 
-Use it where the count is genuinely open-ended. It is not a way to avoid deciding
-what your parameters are.
+Use it where the count is honestly unbounded. It is not a way of avoiding the
+decision about what your parameters are.
 
-## The debt from Chapter 5
+## One word of the incantation
 
-We can now pay part of one.
+You have been typing this since your first program:
 
 ```java
 public static void main(String[] args)
 ```
 
-`String[] args` is a parameter. It is an array of strings — Chapter 15 for
-arrays — holding whatever was typed on the command line after the class name.
+And we can now take a piece of it apart. `String[] args` is a parameter — an array
+of strings, holding whatever somebody typed on the command line after the class
+name.
 
 ```
 $ java Hello Alice Bob
 ```
 
-gives `args` two elements, `"Alice"` and `"Bob"`.
+`args` arrives with two elements in it, `"Alice"` and `"Bob"`.
 
-So `main` is a method like any other, and the JVM is its caller. It takes a
-parameter because the person starting the program may have something to say to
-it. That is one word of the incantation explained; `static`, `void`, and `public`
-remain, and two of them arrive in the next lesson.
+So `main` is not a magic word. It is a method, like the ones you have been writing
+in this lesson, and the JVM is the thing that calls it. It takes a parameter for
+the same reason `square` does: whoever starts the program might have something to
+say to it.
+
+That is one word explained. `static`, `void` and `public` are still outstanding,
+and two of them come due before this chapter is over.
 
 Next: how information gets back out.

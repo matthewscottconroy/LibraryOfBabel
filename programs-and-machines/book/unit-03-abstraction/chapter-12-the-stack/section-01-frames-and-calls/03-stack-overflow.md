@@ -87,17 +87,19 @@ partly on the grounds that stack traces are more useful when frames are not
 removed, and it is a real limitation compared with languages that do. Section
 13.2.2 returns to it.
 
-## The other side of the same limit
+## You have seen this shape four times now
 
-One more observation before leaving the mechanism.
+Before we leave the mechanism, step back and look at what kind of limit this is.
 
 The stack's boundedness is why Java can be memory-safe cheaply, and it is also why
 some entirely reasonable programs need rewriting. That is a trade, and it is the
 same shape as every trade in Unit I: a fixed-size region gives you speed and
 simplicity, and takes away the cases that do not fit.
 
-Chapter 1's fixed width, Chapter 2's integer range, Chapter 3's floating point
-grid, and now the call stack. Four instances of one pattern, and you should expect
-a fifth.
+A fixed-width byte. An integer range that wraps. A floating-point grid with holes
+between its points. And now a call stack with a floor.
+
+Four instances of one pattern, and if you are starting to expect a fifth, you have
+understood the pattern.
 
 Next: what actually gets copied into a frame when a method is called.

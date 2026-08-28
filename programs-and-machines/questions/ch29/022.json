@@ -1,0 +1,19 @@
+{
+  "question_id": "266e5106-d7ee-45f8-a7a7-8775e9a1444e",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "blank",
+  "text": "After the interface is built, `main` does nothing and all behaviour lives in handlers the toolkit calls. This reversal of who calls whom is known as inversion of ___ .",
+  "choices": [
+    "control",
+    "control"
+  ],
+  "answer": "control",
+  "explanation": "Sometimes stated as the Hollywood principle: don't call us, we'll call you. Chapter 22's template method was a small version — a parent calling into a subclass's steps — and this is the same idea governing a whole program. Three things follow: there is no single flow to read, state becomes the connection between handlers, and no handler may assume another has run.",
+  "tags": [
+    "events",
+    "vocabulary"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

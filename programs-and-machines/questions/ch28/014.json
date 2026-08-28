@@ -1,0 +1,27 @@
+{
+  "question_id": "6617dd57-f482-40a5-b1dc-01d6e36bbfe6",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Show the encoding failure that produces mojibake. Fill in the three blanks.",
+  "choices": [
+    "import java.nio.charset.StandardCharsets;",
+    "public class Mojibake {",
+    "    public static void main(String[] args) {",
+    "        byte[] bytes = ___;",
+    "        System.out.println(bytes.length + \" bytes\");",
+    "        System.out.println(___);            // Gödel",
+    "        System.out.println(___);            // GÃ¶del",
+    "    }",
+    "}"
+  ],
+  "answer": "\"Gödel\".getBytes(StandardCharsets.UTF_8)|new String(bytes, StandardCharsets.UTF_8)|new String(bytes, StandardCharsets.ISO_8859_1)",
+  "explanation": "Verified: 6 bytes, then `Gödel`, then `GÃ¶del`. Nothing throws — Latin-1 assigns a character to all 256 byte values, so no byte sequence is invalid and no error is possible. The program read the file, got nonsense, and reported success, which is Chapter 28's plausible wrong answer in its purest form. And it is invisible in ASCII, so an English test suite passes.",
+  "tags": [
+    "encoding",
+    "files",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

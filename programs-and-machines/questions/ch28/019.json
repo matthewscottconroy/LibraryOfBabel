@@ -1,0 +1,21 @@
+{
+  "question_id": "6c21aa71-e668-41f8-af2b-42aaffd7ee07",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Why does a `PreparedStatement` placeholder prevent SQL injection where concatenation does not?",
+  "choices": [
+    "Prepared statements are compiled once and the compiled form cannot be modified.",
+    "The driver validates each parameter against the column type and rejects mismatches.",
+    "The placeholder escapes quote characters in the value before substituting it.",
+    "Concatenation puts user data into the query's grammar; a placeholder sends it separately as a value, so it cannot become syntax."
+  ],
+  "answer": 3,
+  "explanation": "Escaping is what a naive fix attempts and gets wrong; the placeholder never builds a query string at all. This is Chapter 24's distinction exactly — data in the grammar versus data as a value — and once you have written a parser the vulnerability is obvious in a way it was not before. It has been the top-ranked web vulnerability for most of two decades.",
+  "tags": [
+    "databases",
+    "injection"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

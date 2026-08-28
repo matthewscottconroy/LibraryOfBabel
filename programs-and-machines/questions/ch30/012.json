@@ -1,0 +1,28 @@
+{
+  "question_id": "820c33d3-c516-471b-9f58-d8c050c05c5b",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write the race: eight threads incrementing a shared counter. Fill in the three blanks.",
+  "choices": [
+    "public class Race {",
+    "    ___;",
+    "    public static void main(String[] args) throws Exception {",
+    "        Thread[] ts = new Thread[8];",
+    "        for (int i = 0; i < 8; i++) ts[i] = new Thread(() -> { for (int k = 0; k < 200_000; k++) ___; });",
+    "        for (Thread t : ts) t.start();",
+    "        for (Thread t : ts) ___;            // wait for all of them",
+    "        System.out.println(\"expected 1600000, got \" + plain);",
+    "    }",
+    "}"
+  ],
+  "answer": "static int plain = 0|plain++|t.join()",
+  "explanation": "Verified across three runs on the book's machine: 414,984, then 649,224, then 799,209. `plain++` is a read, an add and a write, and threads interleave between them, so most increments are overwritten. Three runs, three answers, none right — which is the property that makes this class of bug so hard: a passing test proves nothing.",
+  "tags": [
+    "races",
+    "threads",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

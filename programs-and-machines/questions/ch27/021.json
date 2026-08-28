@@ -1,0 +1,19 @@
+{
+  "question_id": "10f62c7a-263a-4e4f-9013-6cc3242c610b",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "tf",
+  "text": "Java assertions are a suitable way to validate method arguments.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Assertions are disabled by default — the JVM ignores them unless run with `-ea` — so an assertion in production is a check that is not happening. They are for internal invariants during development, where being wrong means a bug in your own code. Anything that must run must be an `if` and a `throw`. The indefensible position is writing assertions and assuming they run.",
+  "tags": [
+    "exceptions",
+    "assertions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

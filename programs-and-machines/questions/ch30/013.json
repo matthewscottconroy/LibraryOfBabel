@@ -1,0 +1,25 @@
+{
+  "question_id": "0458018c-496d-4a4d-a495-1784166c1a92",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Fix the race three ways and rank them. Fill in the three blanks.",
+  "choices": [
+    "// (a) mutual exclusion:",
+    "//        ___",
+    "// (b) an atomic, one hardware instruction:",
+    "//        ___",
+    "// (c) do not share at all -- a local per thread, summed at the end:",
+    "//        int local = 0; ... ___ ... then add local to a total under one lock",
+    "// Measured for the same 1.6 million increments: 193 ms, 17 ms, and 0 ms."
+  ],
+  "answer": "synchronized (lock) { guarded++; }|counter.incrementAndGet()|local++",
+  "explanation": "The third is the one to reach for. Locals live on each thread's own stack, so no synchronisation is needed at all, and it is both the fastest and the simplest. That shape is exactly Chapter 26's `reduce` — an accumulator per worker combined by an associative operator — which is why the pattern parallelises and why the counter lambda did not.",
+  "tags": [
+    "races",
+    "synchronisation",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

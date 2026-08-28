@@ -1,0 +1,25 @@
+{
+  "question_id": "f7255cd8-9806-4195-90a6-e586591c9fb9",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write a deadlock and then the fix. Fill in the three blanks.",
+  "choices": [
+    "// Thread 1:                         Thread 2:",
+    "//   synchronized (a) {                synchronized (b) {",
+    "//       ___ { }                           ___ { }",
+    "//   }                                 }",
+    "// Thread 1 holds a and wants b; thread 2 holds b and wants a. Neither proceeds,",
+    "// with no error, no CPU use, and no indication of what happened.",
+    "// The fix is to acquire every lock in ___ , globally."
+  ],
+  "answer": "synchronized (b)|synchronized (a)|the same order",
+  "explanation": "Verified: two threads acquiring `a` then `b` in both cases both finish. Lock ordering is reliable if it is followed everywhere — and \"everywhere\" includes code you call, which may take locks you do not know about. That is why calling an unknown method while holding a lock is a known hazard, and it is what Chapter 30's toolkit deadlocks were.",
+  "tags": [
+    "deadlock",
+    "locks",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

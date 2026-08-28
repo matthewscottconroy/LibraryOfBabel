@@ -1,0 +1,29 @@
+{
+  "question_id": "70ada6b4-cc37-4ad3-a902-b8dabda4fb60",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Measure what a slow handler does to the event behind it. Fill in the three blanks.",
+  "choices": [
+    "public class Blocking {",
+    "    public static void main(String[] args) throws Exception {",
+    "        long[] finished = new long[1];",
+    "        long start = System.currentTimeMillis();",
+    "        // handler 1, for a click:",
+    "        ___;                                // slow work, on the loop",
+    "        // handler 2, for a key, runs next:",
+    "        finished[0] = ___;",
+    "        System.out.println(\"the key event waited \" + ___ + \" ms\");",
+    "    }",
+    "}"
+  ],
+  "answer": "Thread.sleep(300)|System.currentTimeMillis()|finished[0] - start",
+  "explanation": "Verified: about 300 ms. There is one loop and it was inside the first handler, so everything behind it waited — which in a real application is the interface freezing, because repaint is an event too. Anything over about 100 ms is noticeable and anything over a second reads as broken. Every unresponsive program you have used was a handler that took too long.",
+  "tags": [
+    "events",
+    "blocking",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

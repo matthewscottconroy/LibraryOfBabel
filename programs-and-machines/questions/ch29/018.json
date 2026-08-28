@@ -1,0 +1,23 @@
+{
+  "question_id": "a7985b23-070f-4333-a56c-f2b55efa5318",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write the correct structure for a handler whose work takes four seconds. Fill in the three blanks.",
+  "choices": [
+    "// button.addActionListener(e -> {",
+    "//     ___;                             // 1. tell the user immediately, on the loop",
+    "//     ___;                             // 2. do the slow work off the loop, post the result back",
+    "// });",
+    "// The call that gets you back onto the dispatch thread is ___ ."
+  ],
+  "answer": "status.setText(\"Loading...\")|new Thread(() -> { String data = fetch(); SwingUtilities.invokeLater(() -> display(data)); }).start()|SwingUtilities.invokeLater",
+  "explanation": "Three phases and all three are required. The first tells the user something is happening; the second keeps the loop free; the third is not optional, because only the dispatch thread may touch components. Updating components directly from the worker thread is the common mistake, and it will usually work — which is exactly what makes it dangerous.",
+  "tags": [
+    "events",
+    "threading",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

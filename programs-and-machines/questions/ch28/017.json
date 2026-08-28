@@ -1,0 +1,21 @@
+{
+  "question_id": "75240b72-cb6d-41c2-986b-8a88bae148c7",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Which format change is the one no automated check can detect?",
+  "choices": [
+    "Reordering two columns while keeping their names unchanged.",
+    "Removing a column that no current reader consults.",
+    "Changing the meaning of an existing field — publication year becoming acquisition year, without a rename.",
+    "Adding a new column at the end of a CSV file that has a header."
+  ],
+  "answer": 2,
+  "explanation": "The data parses perfectly and is wrong. Adding is safe with header-driven readers; removing and reordering break loudly enough to be caught. A change of meaning produces plausible values of the right type in the right place — which is why the rule is to add a new field and deprecate the old one rather than repurpose, and why a version number in the file is worth its two lines.",
+  "tags": [
+    "formats",
+    "versioning"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

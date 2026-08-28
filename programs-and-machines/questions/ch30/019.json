@@ -1,0 +1,26 @@
+{
+  "question_id": "bb457da9-023f-43ef-90e1-8b77bcbc4456",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Use a concurrent collection correctly, and then incorrectly. Fill in the three blanks.",
+  "choices": [
+    "import java.util.concurrent.*;",
+    "public class Concurrent {",
+    "    static final ConcurrentHashMap<String,Integer> counts = new ConcurrentHashMap<>();",
+    "    // correct -- one atomic operation:",
+    "    //     ___",
+    "    // wrong -- three operations, so another thread can interleave between them:",
+    "    //     if (!___) counts.put(\"k\", 1); else ___;",
+    "}"
+  ],
+  "answer": "counts.merge(\"k\", 1, Integer::sum)|counts.containsKey(\"k\")|counts.put(\"k\", counts.get(\"k\") + 1)",
+  "explanation": "Verified: eight threads calling `merge` 10,000 times each gave exactly 80,000. The check-then-act version is still a race, because a concurrent collection makes each *operation* atomic and not your *sequence* of them. `putIfAbsent`, `merge` and `computeIfAbsent` exist for exactly this reason, and reaching for them is the habit worth forming.",
+  "tags": [
+    "collections",
+    "concurrency",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

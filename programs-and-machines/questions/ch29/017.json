@@ -1,0 +1,21 @@
+{
+  "question_id": "c0aec7b4-f4c6-4dae-8711-9a906a048309",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Why is a `paintComponent` that increments an animation counter broken?",
+  "choices": [
+    "The `Graphics` object is reused, so state stored during painting is overwritten.",
+    "The number of calls is not yours to know — the toolkit repaints on resize, uncover, and its own schedule.",
+    "Double buffering calls it exactly twice per frame, doubling the count.",
+    "`paintComponent` runs on a background thread, so the counter would race."
+  ],
+  "answer": 1,
+  "explanation": "Drawing is a function of state, not a step in a process, and treating it as a step produces bugs that depend on how often the window happened to be uncovered — essentially unreproducible. The correct division is visible in the animation pattern: a timer advances the model and *requests* a repaint, and `paintComponent` only draws.",
+  "tags": [
+    "events",
+    "drawing"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

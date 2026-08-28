@@ -1,0 +1,21 @@
+{
+  "question_id": "5f345ff4-c2b9-4e2d-8a7a-cb3107918460",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What is the decisive argument for exceptions over returned error codes?",
+  "choices": [
+    "Exceptions carry a stack trace, which an error code cannot.",
+    "The compiler forces every caller to acknowledge the failure, so it cannot be ignored.",
+    "A failure passes through intermediate methods without their cooperation, so methods with nothing to say about it say nothing.",
+    "Exceptions are faster, since no return value must be checked at each level."
+  ],
+  "answer": 2,
+  "explanation": "With return codes, `a` calls `b` calls `c` calls `d`, and `b` and `c` each need a check that exists only to forward something neither can act on — repetitive, obscuring, and easy to skip. The honest costs are real too: control flow becomes invisible at the call site, which is precisely why Go declined exceptions and accepted the verbosity instead.",
+  "tags": [
+    "exceptions",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "bdb91df8-d0c7-4826-af07-2be1a48deb3c",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Measured: 10,000 virtual threads each sleeping 100 ms finished in 146 ms. What does that change?",
+  "choices": [
+    "It makes thread pools obsolete, since unbounded thread creation is now free.",
+    "Blocking code becomes the right default again — the async machinery built to avoid blocking a scarce thread was solving a problem virtual threads mostly remove.",
+    "It means blocking calls no longer occupy a thread at all, so locks are unnecessary.",
+    "Nothing about correctness; virtual threads are also immune to race conditions."
+  ],
+  "answer": 1,
+  "explanation": "A virtual thread costs a few hundred bytes and unmounts from its carrier when it blocks, where ten thousand platform threads would need ten thousand stacks. So the modern advice is the older advice: write blocking code, one thread per task. What it does not change is anything about shared state — they are cheaper threads, not safer ones.",
+  "tags": [
+    "threads",
+    "virtual-threads"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

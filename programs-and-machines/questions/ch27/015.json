@@ -1,0 +1,26 @@
+{
+  "question_id": "a10d04b2-4069-4a83-8a1d-921ca352a3c3",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Show that a `return` inside `finally` discards the value the `try` was returning. Fill in the two blanks.",
+  "choices": [
+    "public class Discard {",
+    "    @SuppressWarnings(\"finally\")",
+    "    static int worse() {",
+    "        try { ___; }",
+    "        finally { ___; }",
+    "    }",
+    "    public static void main(String[] args) { System.out.println(worse()); }",
+    "}"
+  ],
+  "answer": "return 1|return 2",
+  "explanation": "Verified: it prints 2. Worse than losing a return value, a `return` in `finally` swallows an in-flight *exception* — the method completes normally and the failure vanishes with no record. Java warns and most linters flag it. The rule is absolute: never return from `finally`, and if you find yourself wanting to, the logic belongs after the block.",
+  "tags": [
+    "exceptions",
+    "finally",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

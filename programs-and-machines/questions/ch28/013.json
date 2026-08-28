@@ -1,0 +1,29 @@
+{
+  "question_id": "e994fca3-e266-4782-8bd2-05e0459481d2",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write CSV field escaping, the part that `split` cannot handle. Fill in the three blanks.",
+  "choices": [
+    "public class Escape {",
+    "    static String esc(String s) {",
+    "        return ___ || s.contains(\"\\\"\")",
+    "            ? \"\\\"\" + ___ + \"\\\"\"           // wrap, and double any inner quote",
+    "            : s;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(esc(\"plain\"));",
+    "        System.out.println(esc(\"has,comma\"));",
+    "        System.out.println(___);",
+    "    }",
+    "}"
+  ],
+  "answer": "s.contains(\",\")|s.replace(\"\\\"\", \"\\\"\\\"\")|esc(\"has\\\"quote\")",
+  "explanation": "Verified: `plain`, `\"has,comma\"`, `\"has\"\"quote\"`. This is what RFC 4180 specifies, and it means you cannot parse CSV with `split(\",\")` — a correct reader needs a twelve-line state machine. Worse, a quoted field may contain a newline, so CSV is not even line-oriented and a reader using `readLine` is wrong on data it will eventually meet.",
+  "tags": [
+    "csv",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

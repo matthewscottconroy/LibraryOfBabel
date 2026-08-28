@@ -1,0 +1,28 @@
+{
+  "question_id": "5190feda-277a-4c28-bc37-7c61075dce9e",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Show what happens when the body throws and `close` also throws. Fill in the three blanks.",
+  "choices": [
+    "public class Both {",
+    "    static class Bad implements AutoCloseable { public void close() { ___; } }",
+    "    public static void main(String[] args) {",
+    "        try { try (Bad b = new Bad()) { ___; } }",
+    "        catch (RuntimeException e) {",
+    "            System.out.println(\"propagated: \" + e.getMessage());",
+    "            for (Throwable s : ___) System.out.println(\"suppressed: \" + s.getMessage());",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "throw new IllegalStateException(\"close failed\")|throw new RuntimeException(\"body failed\")|e.getSuppressed()",
+  "explanation": "Verified: `propagated: body failed` then `suppressed: close failed`. The body's exception wins and the close failure is attached rather than lost — which is what the hand-written `finally` version gets wrong, since a naive inner catch *replaces* the interesting error with the boring one. Nothing is discarded and the important one is on top.",
+  "tags": [
+    "resources",
+    "exceptions",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

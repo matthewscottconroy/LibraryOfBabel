@@ -1,0 +1,19 @@
+{
+  "question_id": "441f7b77-75b0-4c56-9336-4c151355e4e9",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "blank",
+  "text": "Java requires certain exceptions to be declared or handled. No language designed after Java adopted the idea, and its own newer APIs avoid it. Such exceptions are called ___ exceptions.",
+  "choices": [
+    "checked",
+    "checked"
+  ],
+  "answer": "checked",
+  "explanation": "The diagnosis was right — failure is part of a method's contract and should be visible — and the remedy too rigid, because it made \"I cannot handle this here\" impossible to express except by lying. The pressure on a programmer who cannot handle one is toward an empty catch block, which converts a failure into a wrong answer with no record. `UncheckedIOException` exists in the JDK specifically to wrap around the problem.",
+  "tags": [
+    "exceptions",
+    "vocabulary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "1da54b0f-4c1f-4bb0-9adc-a64e9ec9e3ae",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "mc",
+  "text": "What is the strongest argument for keeping state out of components?",
+  "choices": [
+    "Only one component may hold a given piece of state, so a second view is impossible.",
+    "The model can then be tested with no screen, in milliseconds, which means those tests actually run in a build.",
+    "Components are recreated on every repaint, so state stored in them is lost.",
+    "Component state is stored as strings, wasting memory compared to primitive fields."
+  ],
+  "answer": 1,
+  "explanation": "Interface tests need a display, are slow, and break when a button moves — so everything you move out of the view becomes testable and everything you leave in effectively is not. That is the same argument Chapter 23 makes about reading the clock: push the decision outward so the logic depends on data rather than on the environment.",
+  "tags": [
+    "mvc",
+    "testing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "c983e693-e830-4dee-9793-23792a6480a0",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "tf",
+  "text": "A local variable of primitive type can be shared between threads.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "Each thread has its own stack, so local primitives are private — which is why a pure function is automatically thread-safe and why Chapter 26's parallel counter only broke when it reached through an array reference into the heap. What is shared is the heap: static fields, object fields with a shared reference, collections, arrays, and anything a lambda captured.",
+  "tags": [
+    "threads",
+    "sharing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "8c2af2d4-0bc9-4c5c-a9e0-8ddb14ad8cc0",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "tf",
+  "text": "Lambdas were added to Java largely because of interface code.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 0,
+  "explanation": "`ActionListener` had been a functional interface for sixteen years before there was a notation for it. Every button handler was a five-line anonymous class, and multiplied by every control in an application the noise was the motivating case. Note what that implies: the *concept* never needed lambdas — `Collections.sort` has taken a `Comparator` since 1998 — only the notation did.",
+  "tags": [
+    "events",
+    "lambdas"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

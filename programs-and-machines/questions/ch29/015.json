@@ -1,0 +1,30 @@
+{
+  "question_id": "38cf6a0f-56a0-4537-94c6-81373d717e3c",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Show that the model's invariant holds regardless of which view attempts the change. Fill in the three blanks.",
+  "choices": [
+    "public class Invariant {",
+    "    static class Counter {",
+    "        private int value;",
+    "        int value() { return value; }",
+    "        void add(int n) { if (___) throw ___; value += n; }",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        Counter model = new Counter(); model.add(5);",
+    "        try { model.add(-100); } catch (IllegalArgumentException e) { System.out.println(e.getMessage()); }",
+    "        System.out.println(___);            // still 5",
+    "    }",
+    "}"
+  ],
+  "answer": "value + n < 0|new IllegalArgumentException(\"would go negative\")|model.value()",
+  "explanation": "Verified: `would go negative` then 5. The rule lives in the model, so it holds no matter which view, listener, or test attempts the change — where in the store-it-in-a-label version it would have to be duplicated in every handler that modifies the count, and one of them would eventually be missed.",
+  "tags": [
+    "mvc",
+    "invariants",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,36 @@
+{
+  "question_id": "c8d611ab-45f8-48ea-aceb-3add85102adc",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write an event loop: a queue, registered listeners, and dispatch. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Loop {",
+    "    interface Listener { void handle(Object e); }",
+    "    static final Deque<Object> queue = new ArrayDeque<>();",
+    "    static final Map<Class<?>,List<Listener>> listeners = new LinkedHashMap<>();",
+    "    static void post(Object e) { ___; }",
+    "    static void on(Class<?> k, Listener l) { listeners.computeIfAbsent(k, x -> new ArrayList<>()).add(l); }",
+    "    static void run() {",
+    "        while (true) {",
+    "            Object e = ___;",
+    "            if (e == null) break;",
+    "            for (Listener l : ___) l.handle(e);",
+    "        }",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        on(String.class, e -> System.out.println(\"got \" + e));",
+    "        post(\"a\"); post(\"b\"); run();",
+    "    }",
+    "}"
+  ],
+  "answer": "queue.addLast(e)|queue.pollFirst()|listeners.getOrDefault(e.getClass(), List.of())",
+  "explanation": "Verified: `got a` then `got b`. Thirty lines and it is a real event loop — take the next event, deliver it to whoever registered, repeat. Every graphical program you have used is running one. Because events are handled one at a time, handler code needs no locks, which is a large simplification and why the design has survived fifty years.",
+  "tags": [
+    "events",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

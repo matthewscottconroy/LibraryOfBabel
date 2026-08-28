@@ -1,0 +1,30 @@
+{
+  "question_id": "67d9849f-3c94-48e0-9974-b822f0a612e1",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write a custom exception carrying data a handler can act on. Fill in the three blanks.",
+  "choices": [
+    "public class Funds {",
+    "    static class InsufficientFunds extends RuntimeException {",
+    "        ___;",
+    "        InsufficientFunds(long shortfall) { ___; this.shortfall = shortfall; }",
+    "    }",
+    "    static void withdraw(long have, long want) {",
+    "        if (want > have) throw new InsufficientFunds(want - have);",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        try { withdraw(1000, 5000); }",
+    "        catch (InsufficientFunds e) { System.out.println(e.getMessage() + \" / \" + ___); }",
+    "    }",
+    "}"
+  ],
+  "answer": "final long shortfall|super(\"short by \" + shortfall + \" cents\")|e.shortfall",
+  "explanation": "Verified: `short by 4000 cents / 4000`. The field is the point — a handler that must parse the message string to learn the shortfall is a handler the exception has failed. Messages are for humans and fields are for code, and a handler reading `e.shortfall` keeps working when the wording changes. Note also that `super(...)` must come first, exactly as in any constructor.",
+  "tags": [
+    "exceptions",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

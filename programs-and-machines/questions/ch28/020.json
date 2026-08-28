@@ -1,0 +1,29 @@
+{
+  "question_id": "2ccd6e19-947a-4a91-bd93-02b10ad0d8cd",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write the read-it-all and stream-it forms, and say when each is right. Fill in the three blanks.",
+  "choices": [
+    "import java.nio.file.*; import java.util.stream.*;",
+    "public class Two {",
+    "    public static void main(String[] args) throws Exception {",
+    "        Path p = Files.createTempFile(\"x\", \".txt\");",
+    "        Files.writeString(p, \"a\\n\\nb\\n\");",
+    "        System.out.println(___.length());   // whole file in memory",
+    "        try (Stream<String> lines = ___) {  // lazy, and must be closed",
+    "            System.out.println(___);",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "Files.readString(p)|Files.lines(p)|lines.filter(l -> !l.isBlank()).count()",
+  "explanation": "Verified: 5 then 2 — the file is five characters (`a`, newline, newline, `b`, newline) and holds two non-blank lines. The decision is essentially one question: does it fit in memory? `readString` is right for a configuration file and wrong for a ten-gigabyte log; `Files.lines` reads as you consume and therefore holds an open handle, which is why it needs try-with-resources and `readString` does not.",
+  "tags": [
+    "files",
+    "streams",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

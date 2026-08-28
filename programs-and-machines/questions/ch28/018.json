@@ -1,0 +1,28 @@
+{
+  "question_id": "42520771-1a9a-4fcd-b558-0f4122544ec2",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write a file format header that makes the file self-describing. Fill in the three blanks.",
+  "choices": [
+    "public class SelfDescribing {",
+    "    public static void main(String[] args) {",
+    "        String[] file = { \"___\",             // a version, so incompatibility is detected",
+    "                          \"___\",             // a header, so columns are found not counted",
+    "                          \"Dune,Herbert,1965\" };",
+    "        for (String line : file) {",
+    "            if (___) { System.out.println(\"comment: \" + line); continue; }",
+    "            System.out.println(\"data: \" + line);",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "# books v2|title,author,year|line.startsWith(\"#\")",
+  "explanation": "A version, a header, a comment convention, and a stated encoding are the four things that let someone who has never seen your format work out what it means. The header earns its place beyond readability: a reader that consults it tolerates reordered or added columns, where one that counts positions cannot. All four cost a few lines and a file format cannot be refactored once someone has a file.",
+  "tags": [
+    "formats",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

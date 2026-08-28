@@ -1,0 +1,28 @@
+{
+  "question_id": "b7895f8e-d584-4285-a921-95e81f767879",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write a retry loop with the three things naive retry loops omit. Fill in the three blanks.",
+  "choices": [
+    "public class Retry {",
+    "    public static void main(String[] args) throws Exception {",
+    "        Exception last = null;",
+    "        for (int attempt = 1; ___; attempt++) {   // bounded",
+    "            try { throw new java.io.IOException(\"boom\"); }",
+    "            catch (java.io.IOException e) { last = e; ___; }   // exponential backoff",
+    "        }",
+    "        throw ___;                                // rethrow with the cause",
+    "    }",
+    "}"
+  ],
+  "answer": "attempt <= 3|Thread.sleep(100L * (1L << attempt))|new RuntimeException(\"gave up after 3\", last)",
+  "explanation": "The three omissions are all present here: a bound, so a failure does not become a hang; a backoff, so a struggling service is not hammered by its own clients; and a rethrow carrying the cause, so giving up is not silent. And one question to ask before writing any retry — is the operation safe to repeat? Retrying a read is fine; retrying a payment may charge twice.",
+  "tags": [
+    "exceptions",
+    "retry",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

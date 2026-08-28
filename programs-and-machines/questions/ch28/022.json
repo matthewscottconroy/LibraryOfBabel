@@ -1,0 +1,19 @@
+{
+  "question_id": "53ae361d-4b94-4152-9e5b-eb1a40acbba8",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "blank",
+  "text": "Storage outlives the process, so a file format has consumers you do not control and must change without breaking them. In that sense a file format is best understood as an ___ .",
+  "choices": [
+    "interface",
+    "interface"
+  ],
+  "answer": "interface",
+  "explanation": "And a harder one than a class's, because you can refactor a class and you cannot refactor a file somebody already has. Every field is a commitment, backups surface years later, and the rules that make change survivable — add freely, remove in a new version, never repurpose — are the same rules that govern a published API.",
+  "tags": [
+    "formats",
+    "vocabulary"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

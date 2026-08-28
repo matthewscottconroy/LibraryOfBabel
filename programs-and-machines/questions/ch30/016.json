@@ -1,0 +1,37 @@
+{
+  "question_id": "38dec6c5-2bff-4766-b5be-2c3419af41ff",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write a socket echo server and client in one program. Fill in the three blanks.",
+  "choices": [
+    "import java.io.*; import java.net.*;",
+    "public class Echo {",
+    "    public static void main(String[] args) throws Exception {",
+    "        try (ServerSocket server = ___) {   // 0 = any free port",
+    "            int port = server.getLocalPort();",
+    "            Thread.ofVirtual().start(() -> {",
+    "                try (Socket c = ___;        // blocks until a client arrives",
+    "                     BufferedReader in = new BufferedReader(new InputStreamReader(c.getInputStream()));",
+    "                     PrintWriter out = new PrintWriter(c.getOutputStream(), true)) {",
+    "                    String line; while ((line = in.readLine()) != null) out.println(\"ECHO \" + line);",
+    "                } catch (IOException e) { }",
+    "            });",
+    "            try (Socket c = ___;",
+    "                 BufferedReader in = new BufferedReader(new InputStreamReader(c.getInputStream()));",
+    "                 PrintWriter out = new PrintWriter(c.getOutputStream(), true)) {",
+    "                out.println(\"hello\"); System.out.println(in.readLine());",
+    "            }",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "new ServerSocket(0)|server.accept()|new Socket(\"127.0.0.1\", port)",
+  "explanation": "Verified: `ECHO hello`. Once open, a socket is a pair of streams — Chapter 29's abstraction unchanged — which is why the hard part is never the API. Passing 0 as the port asks the OS for any free one, which is the right thing in a test; hard-coding a port makes a test that fails when something else is already listening.",
+  "tags": [
+    "sockets",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

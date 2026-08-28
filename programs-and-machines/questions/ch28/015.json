@@ -1,0 +1,30 @@
+{
+  "question_id": "dd848e2d-5453-400d-b986-04aaa1808a5c",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write a reader that reports which line failed and why, rather than stopping at the first problem. Fill in the three blanks.",
+  "choices": [
+    "public class Robust {",
+    "    public static void main(String[] args) {",
+    "        String[] lines = {\"a,b,1\", \"bad,line\", \"c,d,2\", \"also,bad\"};",
+    "        int lineNo = 0, errors = 0;",
+    "        for (String line : lines) {",
+    "            ___;",
+    "            String[] parts = line.split(\",\");",
+    "            if (___) { System.out.println(___); errors++; continue; }",
+    "        }",
+    "        System.out.println(errors + \" bad lines\");",
+    "    }",
+    "}"
+  ],
+  "answer": "lineNo++|parts.length != 3|\"line \" + lineNo + \": expected 3 fields, got \" + parts.length",
+  "explanation": "Verified: it reports line 2 and line 4, then `2 bad lines`. Reporting all of them rather than the first is what makes a batch job useful — a run that fails on line 2, is fixed, and then fails on line 4 wastes a cycle per error. The line number is Chapter 28's catch-and-add-context: it is information that exists only here, and it turns a diagnosis into an address.",
+  "tags": [
+    "files",
+    "errors",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

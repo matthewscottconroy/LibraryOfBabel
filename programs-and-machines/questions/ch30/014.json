@@ -1,0 +1,23 @@
+{
+  "question_id": "1f8938a1-e54b-4b88-8774-292f63f611ae",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Show that `volatile` fixes visibility and not atomicity. Fill in the two blanks.",
+  "choices": [
+    "public class NotEnough {",
+    "    ___;                                    // visible to every thread immediately",
+    "    // eight threads each run: for (int k = 0; k < 200_000; k++) ___;",
+    "    // expected 1,600,000",
+    "}"
+  ],
+  "answer": "static volatile int v = 0|v++",
+  "explanation": "Verified: 533,401 — still wrong, and by about as much as without `volatile`. Each step now sees fresh memory and the three steps are still three steps. The rule: `volatile` is for visibility of a single write, never for read-modify-write. Its legitimate use is a flag one thread sets and another polls, where without it the JIT may hoist the read and the loop spins forever.",
+  "tags": [
+    "volatile",
+    "races",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

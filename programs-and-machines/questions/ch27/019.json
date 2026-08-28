@@ -1,0 +1,28 @@
+{
+  "question_id": "520f6f47-7e52-492d-9312-eeb9786d6f68",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Show what a rethrow loses when the cause is omitted. Fill in the three blanks.",
+  "choices": [
+    "public class Cause {",
+    "    static void withCause() { try { Integer.parseInt(\"xyz\"); }",
+    "        catch (NumberFormatException e) { throw ___; } }",
+    "    static void without()   { try { Integer.parseInt(\"xyz\"); }",
+    "        catch (NumberFormatException e) { throw ___; } }",
+    "    public static void main(String[] args) {",
+    "        try { withCause(); } catch (IllegalStateException e) { System.out.println(___); }",
+    "        try { without(); }  catch (IllegalStateException e) { System.out.println(e.getCause()); }",
+    "    }",
+    "}"
+  ],
+  "answer": "new IllegalStateException(\"config bad\", e)|new IllegalStateException(\"config bad\")|e.getCause()",
+  "explanation": "Verified: the first prints `java.lang.NumberFormatException: For input string: \"xyz\"` and the second prints `null`. \"Config bad\" tells an operator nothing; \"config bad, caused by NumberFormatException on xyz\" tells them where to look. It is one extra argument, and its absence is responsible for a great many unproductive afternoons.",
+  "tags": [
+    "exceptions",
+    "chaining",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "d7273a2f-5b24-45d1-ab09-034685249596",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "mc",
+  "text": "A `catch` block that adds the line number and file name and rethrows fixes nothing. Why is it legitimate?",
+  "choices": [
+    "It resets the stack trace, removing irrelevant library frames.",
+    "It converts a checked exception to unchecked, which callers prefer.",
+    "It adds information that exists only at that point, which can be the difference between an hour of debugging and a minute.",
+    "It is the only way to guarantee the exception reaches the top of `main`."
+  ],
+  "answer": 2,
+  "explanation": "The rule is catch to add context, or catch to act — never catch to be seen catching. An operator reading `NumberFormatException: For input string: \"N/A\"` and one reading `line 4,127 of customers.csv, caused by ...` are in very different positions, and the second cost one line. Passing the cause is what makes it work; omitting it destroys what you were trying to preserve.",
+  "tags": [
+    "exceptions",
+    "context"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

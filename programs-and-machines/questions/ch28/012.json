@@ -1,0 +1,30 @@
+{
+  "question_id": "853720c5-c833-4e01-9e37-20e8960a80da",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write the atomic-replace pattern that survives an interrupted write. Fill in the three blanks.",
+  "choices": [
+    "import java.nio.file.*;",
+    "public class Atomic {",
+    "    public static void main(String[] args) throws Exception {",
+    "        Path dir = Files.createTempDirectory(\"demo\");",
+    "        Path target = dir.resolve(\"config.txt\");",
+    "        Files.writeString(target, \"version=1\\n\");",
+    "        Path tmp = ___;                     // beside the target, same filesystem",
+    "        ___;",
+    "        Files.move(tmp, target, ___, StandardCopyOption.REPLACE_EXISTING);",
+    "        System.out.println(Files.readString(target).trim() + \" \" + !Files.exists(tmp));",
+    "    }",
+    "}"
+  ],
+  "answer": "target.resolveSibling(\"config.txt.tmp\")|Files.writeString(tmp, \"version=2\\n\")|StandardCopyOption.ATOMIC_MOVE",
+  "explanation": "Verified: `version=2 true`. A plain overwrite has a window in which the old data is gone and the new is partial; a rename within a filesystem is atomic, so the target is either wholly old or wholly new. The temporary file must be beside the target — across filesystems the move becomes a copy and the atomicity is lost, which is why a system temp directory is the wrong place for it.",
+  "tags": [
+    "files",
+    "atomicity",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "0d7dfbba-c796-455b-bbfa-1af53dc13462",
+  "chapter": 28,
+  "phase": 6,
+  "kind": "tf",
+  "text": "Java's garbage collector will eventually close a file you forgot to close.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "It reclaims memory, eventually, and knows nothing about operating-system handles. An object holding an open file may sit uncollected for minutes with the file open the whole time, and a program that leaks handles is fine in testing and fails after a few hours in production with `Too many open files` — an error naming the symptom in a part of the program that did nothing wrong. `finalize` is deprecated for removal and `Cleaner` is a backstop, not a mechanism.",
+  "tags": [
+    "files",
+    "resources"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

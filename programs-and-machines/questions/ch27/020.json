@@ -1,0 +1,21 @@
+{
+  "question_id": "e996ab04-3286-4bc7-8117-20d0d7bbc777",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Measured: one million throw-and-catch cycles cost 355 ms with a stack trace and effectively nothing with `fillInStackTrace` suppressed. What follows?",
+  "choices": [
+    "The expense is walking the frames, not the throw — so never use exceptions for control flow, and never avoid them for exceptional cases.",
+    "The JIT cannot optimise a method containing a try block, which explains the gap.",
+    "Exceptions should be pre-allocated and reused wherever performance matters.",
+    "Exceptions are too slow for server code and should be replaced by result objects."
+  ],
+  "answer": 0,
+  "explanation": "Both halves of the conclusion matter. A million exceptions in a loop is a third of a second of pure overhead, so control flow is out. But 355 nanoseconds against the microseconds of an ordinary request is nothing, and the trace is worth far more than that. The suppression trick exists and should make you uneasy: an exception without a trace tells you nothing about where it came from.",
+  "tags": [
+    "exceptions",
+    "performance"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

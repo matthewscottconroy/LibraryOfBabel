@@ -1,0 +1,26 @@
+{
+  "question_id": "7bb2dae3-2250-463d-9d2d-816782f2681e",
+  "chapter": 27,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write a try-with-resources block with two resources and show the closing order. Fill in the three blanks.",
+  "choices": [
+    "public class Order {",
+    "    static class Res ___ {",
+    "        final String n; Res(String n) { this.n = n; System.out.println(\"open \" + n); }",
+    "        ___ { System.out.println(\"close \" + n); }",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        ___ { System.out.println(\"body\"); }",
+    "    }",
+    "}"
+  ],
+  "answer": "implements AutoCloseable|public void close()|try (Res first = new Res(\"first\"); Res second = new Res(\"second\"))",
+  "explanation": "Verified: open first, open second, body, close second, close first. Reverse of acquisition, which is the correct order whenever the later resource depends on the earlier — closing a writer before the stream it wraps, for instance. One interface and one method is all it takes to participate, and any class holding something that needs releasing should.",
+  "tags": [
+    "resources",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

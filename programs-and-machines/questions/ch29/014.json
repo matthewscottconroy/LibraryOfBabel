@@ -1,0 +1,34 @@
+{
+  "question_id": "5bbd9a94-059d-457b-b579-03e1a5b1d8ef",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "proof",
+  "text": "Write a model with observers and two views, and show both updating. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*; import java.util.function.IntConsumer;",
+    "public class Mvc {",
+    "    static class Counter {",
+    "        private int value; private final List<IntConsumer> observers = new ArrayList<>();",
+    "        void observe(IntConsumer o) { ___; }",
+    "        void add(int n) { value += n; ___; }",
+    "    }",
+    "    static class View { final List<String> painted = new ArrayList<>();",
+    "        void render(int v) { painted.add(\"[\" + v + \"]\"); } }",
+    "    public static void main(String[] args) {",
+    "        Counter model = new Counter(); View a = new View(), b = new View();",
+    "        model.observe(a::render); ___;",
+    "        model.add(5); model.add(3);",
+    "        System.out.println(a.painted + \" \" + b.painted);",
+    "    }",
+    "}"
+  ],
+  "answer": "observers.add(o)|for (IntConsumer o : observers) o.accept(value)|model.observe(b::render)",
+  "explanation": "Verified: `[[5], [8]] [[5], [8]]` — two views, both current, neither knowing the other exists. The dependency runs one way: the view knows the model's type and calls its methods, while the model holds `IntConsumer`s and knows no view type. That asymmetry is what lets the model exist with no view at all, which is the concrete meaning of \"the model knows nothing about the interface\".",
+  "tags": [
+    "mvc",
+    "observer",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

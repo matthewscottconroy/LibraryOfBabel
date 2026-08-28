@@ -1,0 +1,21 @@
+{
+  "question_id": "a742a22a-f370-4247-aef2-691a8ef01cdf",
+  "chapter": 29,
+  "phase": 6,
+  "kind": "mc",
+  "text": "Why must interface toolkits be single-threaded?",
+  "choices": [
+    "Because the JVM permits only one thread to hold a native window handle.",
+    "A thread-safe widget hierarchy would need locking on every access, would be slow, and would deadlock — every toolkit tried and gave up.",
+    "Because Swing components are immutable, so a second thread would have nothing to modify.",
+    "Because repainting requires exclusive display access enforced by the operating system."
+  ],
+  "answer": 1,
+  "explanation": "AWT was thread-safe, which is precisely why Swing is not. A repaint holding a lock while a handler waits for one is a classic deadlock. Verified: `main` is not the event dispatch thread, and `invokeAndWait` runs on `AWT-EventQueue-0`. The dangerous part is that touching a component from the wrong thread usually appears to work, so it fails intermittently, under load, in ways that do not reproduce.",
+  "tags": [
+    "events",
+    "threading"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,20 @@
+{
+  "question_id": "c776f49e-1f41-4da3-9f90-bb86993867dd",
+  "chapter": 30,
+  "phase": 6,
+  "kind": "blank",
+  "text": "A request that times out may have been lost on the way out or completed with the reply lost on the way back. Since you cannot tell, safe retrying requires the client to supply a unique ___ key the server can recognise.",
+  "choices": [
+    "idempotency",
+    "idempotency",
+    "idempotence"
+  ],
+  "answer": "idempotency",
+  "explanation": "A network gives you at-least-once or at-most-once and never exactly-once; exactly-once is achieved by making at-least-once *safe*, which is idempotency rather than a delivery guarantee. Every payment API you will meet works this way, and now you know why the parameter is there. The deeper fact underneath is that you cannot distinguish a slow machine from a dead one.",
+  "tags": [
+    "networks",
+    "vocabulary"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

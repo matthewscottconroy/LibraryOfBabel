@@ -1,0 +1,21 @@
+{
+  "question_id": "dc0d35dd-f8b4-46f0-adb9-0ded787c57eb",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why is calling an overridable method from a constructor dangerous?",
+  "choices": [
+    "Because the object is not yet registered with the garbage collector.",
+    "Because `this` is not available until the constructor body completes.",
+    "The superclass constructor runs first, so the override executes before the subclass's fields are initialised and sees them as null or zero.",
+    "Because the JIT cannot devirtualise a call made during construction."
+  ],
+  "answer": 2,
+  "explanation": "The symptom is a `NullPointerException` in a method that looks perfectly correct, and the cause is three frames away in a parent class. The rule that follows is mechanical: constructors should call only `private`, `static`, or `final` methods, none of which can be overridden. Chapter 22's template method makes the parent call into the child deliberately, and notes that this must happen after construction rather than during it.",
+  "tags": [
+    "inheritance",
+    "constructors"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

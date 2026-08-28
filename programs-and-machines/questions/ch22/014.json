@@ -1,0 +1,36 @@
+{
+  "question_id": "d6a82a95-1b92-4e0a-843c-def36840ff07",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Fix the counting set with composition. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Fixed {",
+    "    static class CountingSet<E> {",
+    "        ___;                                // hold one, do not extend one",
+    "        int added = 0;",
+    "        boolean add(E e) { ___; }",
+    "        boolean addAll(Collection<? extends E> c) {",
+    "            boolean changed = false;",
+    "            for (E e : c) ___;             // count and delegate, one at a time",
+    "            return changed;",
+    "        }",
+    "        int size() { return inner.size(); }",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        CountingSet<String> good = new CountingSet<>();",
+    "        good.addAll(List.of(\"a\", \"b\", \"c\"));",
+    "        System.out.println(good.added + \" \" + good.size());   // 3 3",
+    "    }",
+    "}"
+  ],
+  "answer": "private final Set<E> inner = new HashSet<>()|added++; return inner.add(e)|if (add(e)) changed = true",
+  "explanation": "Verified: `3 3`. The difference is that `inner.add` is a call to *another object*, and whatever that object's `addAll` does internally cannot reach back into this class. What it costs is the forwarding — `size()` had to be written by hand — and the type, since `CountingSet` is not a `Set`. The full pattern recovers the type from an interface while keeping the implementation in a field.",
+  "tags": [
+    "composition",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

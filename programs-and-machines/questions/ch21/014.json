@@ -1,0 +1,21 @@
+{
+  "question_id": "bbddfd53-ab4a-490e-95e6-4a0df9433a96",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why can a class implement many interfaces but extend only one class?",
+  "choices": [
+    "Because interfaces are erased at compile time, so only the class survives to run time.",
+    "Because the JVM's method tables have a fixed number of slots for superclasses.",
+    "Interfaces carry no state, so combining several creates nothing to conflict; combining implementations would.",
+    "Because multiple inheritance was considered too confusing for the language's audience."
+  ],
+  "answer": 2,
+  "explanation": "Multiple inheritance of implementation raises the question of what happens when two parents define the same field or supply the same method body. Multiple inheritance of *contract* has no such problem: two interfaces both demanding `draw()` is one demand made twice. The restriction is about state — which is also why `default` methods, which added bodies, came with careful rules for resolving conflicts.",
+  "tags": [
+    "interfaces",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

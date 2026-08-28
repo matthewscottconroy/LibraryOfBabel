@@ -1,0 +1,21 @@
+{
+  "question_id": "b4aaa894-67cb-4dcf-84f3-ab939545b9d0",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Now that Chapter 19 has explained them, what does each word in `public static void main(String[] args)` do?",
+  "choices": [
+    "public: it is in the class's interface. static: it is compiled ahead of time. void: it has no side effects. String[]: the classpath entries.",
+    "public: it can be overridden. static: it runs first. void: it never throws. String[]: the environment variables.",
+    "public: the launcher can see it. static: no object need exist. void: nothing is returned to the JVM. String[]: the command-line arguments.",
+    "public: it is exported from the module. static: it is thread-safe. void: it returns via System.exit. String[]: the JVM flags."
+  ],
+  "answer": 2,
+  "explanation": "Chapter 5 asked you to guess and Chapter 19 pays the debt. `static` is the load-bearing one: the launcher has a class name and nothing else, so a non-static method would require constructing an object, which would require choosing a constructor and having something to pass it. Nothing in the signature is decoration, and the exit status comes from `System.exit` rather than from a return value because `void` was chosen.",
+  "tags": [
+    "static",
+    "main"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

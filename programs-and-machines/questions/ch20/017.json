@@ -1,0 +1,26 @@
+{
+  "question_id": "737c6afe-56e3-4bff-80c4-d4d3e3299d43",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write the polymorphic loop that replaces a chain of type tests. Fill in the three blanks.",
+  "choices": [
+    "public class Poly {",
+    "    interface Shape { ___; }",
+    "    record Circle(double r) implements Shape { public double area() { return ___; } }",
+    "    record Square(double s) implements Shape { public double area() { return s * s; } }",
+    "    public static void main(String[] args) {",
+    "        Shape[] shapes = { new Circle(1), new Square(2) };",
+    "        for (Shape s : shapes) System.out.printf(\"%.4f%n\", ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "double area()|Math.PI * r * r|s.area()",
+  "explanation": "Verified: 3.1416 then 4.0000. The loop asks nothing about which shape it has, which means adding a triangle touches one new file and leaves the loop alone. The alternative — an `instanceof` chain — collects every area in one place, away from the data each uses, and the compiler cannot tell you when you have missed a case.",
+  "tags": [
+    "polymorphism",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

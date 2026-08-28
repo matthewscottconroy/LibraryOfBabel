@@ -1,0 +1,21 @@
+{
+  "question_id": "79172858-61c1-4cfe-bbaf-27c1f8cdd04a",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "A class has six fields; three methods use fields 1-3 and three use fields 4-6, with no overlap. What has that told you?",
+  "choices": [
+    "That the class is well decomposed, since each method uses only what it needs.",
+    "That the fields should be reordered so related ones are adjacent in memory.",
+    "That three of the methods should be made static, since they ignore half the state.",
+    "That two classes are sharing a file, and the field clusters mark where the seam is."
+  ],
+  "answer": 3,
+  "explanation": "This is Chapter 23's field test, and it works on real code because it needs no judgment — you count. Cohesion is how strongly a unit's parts belong together, and two disjoint clusters is the clearest possible signal that they do not. Splitting raises cohesion and also lowers coupling for callers, who then depend on one small class rather than one large one.",
+  "tags": [
+    "cohesion",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

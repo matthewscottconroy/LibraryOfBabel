@@ -1,0 +1,19 @@
+{
+  "question_id": "ce1c8a53-6517-4f78-a25c-241be0d127f9",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Two objects with the same hash code must be equal.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "The contract runs one way: equal objects must have equal hash codes, and unequal objects *may* share one. A shared hash is a collision and is handled by comparing with `equals` within the bucket. That is why `return 0` is a technically legal `hashCode` that turns constant-time lookup into a linear scan — and why a hash-collision attack, feeding a server keys chosen to collide, is a real denial-of-service technique.",
+  "tags": [
+    "hashcode",
+    "contracts"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

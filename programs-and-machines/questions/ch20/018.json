@@ -1,0 +1,21 @@
+{
+  "question_id": "1d8e4cc0-c912-4a99-ae03-bb802eead0d4",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why does the JVM need `invokeinterface` when it already has `invokevirtual`?",
+  "choices": [
+    "Interface methods are always public, and `invokevirtual` cannot express public dispatch.",
+    "Interfaces are loaded lazily, so their methods do not exist when `invokevirtual` resolves.",
+    "A class may implement any combination of interfaces, so no single method-table layout can give an interface method a fixed slot.",
+    "Interface methods may have `default` bodies, which `invokevirtual` cannot locate."
+  ],
+  "answer": 2,
+  "explanation": "For classes, a subclass keeps the parent's table layout, so a slot number computed at compile time stays valid forever — including for subclasses written years later. Interfaces break that: if one class implements two interfaces, both cannot claim slot 0, and there is no layout that works for every combination. So the lookup must search, and call-site caching brings the measured cost back down.",
+  "tags": [
+    "dispatch",
+    "bytecode"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,30 @@
+{
+  "question_id": "ddfac7f6-011a-46a1-984c-581a078fcd5d",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write the standard `equals` skeleton, in the order the checks should appear. Fill in the three blanks.",
+  "choices": [
+    "public class Point {",
+    "    final int x, y;",
+    "    Point(int x, int y) { this.x = x; this.y = y; }",
+    "    @Override public boolean equals(Object o) {",
+    "        if (___) return true;               // fast path: same object",
+    "        if (!(___)) return false;           // type check and bind in one step",
+    "        return ___;                         // compare the components",
+    "    }",
+    "    @Override public int hashCode() { return java.util.Objects.hash(x, y); }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(new Point(1,2).equals(new Point(1,2)));",
+    "    }",
+    "}"
+  ],
+  "answer": "this == o|o instanceof Point p|p.x == x && p.y == y",
+  "explanation": "Verified: true. The identity check is an optimisation and the `instanceof` pattern handles the null case for free — `null instanceof Point` is false, so no separate null test is needed. Note the parameter is `Object`: writing `equals(Point o)` is an overload rather than an override, the collections keep calling the inherited version, and only `@Override` catches it.",
+  "tags": [
+    "equality",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

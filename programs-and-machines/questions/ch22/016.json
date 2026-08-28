@@ -1,0 +1,30 @@
+{
+  "question_id": "5573ae2d-8f9b-44c9-9653-d4bd2293202c",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write the Strategy pattern: an algorithm as an object, chosen by the constructor. Fill in the three blanks.",
+  "choices": [
+    "public class Strategy {",
+    "    interface Scheduler { int next(int box, int grade); }",
+    "    static class Deck {",
+    "        ___;",
+    "        Deck(Scheduler scheduler) { ___; }",
+    "        int review(int p, int g) { return ___; }",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(new Deck((box, g) -> g == 0 ? 0 : box + 1).review(2, 1));   // 3",
+    "        System.out.println(new Deck((box, g) -> box).review(2, 1));                    // 2",
+    "    }",
+    "}"
+  ],
+  "answer": "private final Scheduler scheduler|this.scheduler = scheduler|scheduler.next(p, g)",
+  "explanation": "Verified: 3 then 2. Same class, same call, different answer — and the only difference is the constructor argument. That is what \"the caller chooses the policy\" means concretely, and it is why `Deck` never calls `new` on a scheduler: doing so would tie it to one policy and make the class untestable without that policy's behaviour.",
+  "tags": [
+    "strategy",
+    "composition",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

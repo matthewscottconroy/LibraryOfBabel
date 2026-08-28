@@ -1,0 +1,21 @@
+{
+  "question_id": "db9bf29f-3920-4c08-b6c0-e8f4caf8606f",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why must `equals` be symmetric, and what commonly breaks it?",
+  "choices": [
+    "Because `hashCode` is derived from `equals`, and asymmetry would produce two hashes.",
+    "Because the JVM caches comparison results and assumes both directions agree.",
+    "Because collections may compare in either order; a subclass adding a field and comparing with `instanceof` typically breaks it.",
+    "Because sorting requires symmetry, though hashing does not."
+  ],
+  "answer": 2,
+  "explanation": "If `a.equals(b)` and not `b.equals(a)`, then whether a collection contains an element depends on which argument it happened to test first — and that is an implementation detail you cannot see. The classic break is a `ColorPoint extends Point` whose `equals` demands a matching colour: a `Point` accepts the `ColorPoint` and the `ColorPoint` rejects the `Point`. It is one reason Chapter 21 and Chapter 23 argue for composition.",
+  "tags": [
+    "equality",
+    "contracts"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

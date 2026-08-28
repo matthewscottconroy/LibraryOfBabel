@@ -1,0 +1,21 @@
+{
+  "question_id": "17bf6b18-0b3c-454d-a7c8-34d31a1f141b",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Chapter 23 says a design is judged by what happens when a requirement changes. What is the concrete procedure it recommends?",
+  "choices": [
+    "Count the lines of code, since smaller designs are easier to change.",
+    "Measure the coupling between every pair of classes and minimise the total.",
+    "Audit the design against the SOLID principles and record any violations.",
+    "Name the three changes most likely within a year, trace each through the design, and count the files each touches."
+  ],
+  "answer": 3,
+  "explanation": "It replaces an opinion with a measurement. The flashcard design's own accounting is the model: a new scheduling policy touches one file, a new field on `Card` touches two, and a timing parameter touches four — and the chapter reports the four rather than retrofitting a fix, because wrapping three parameters against a change nobody has asked for is speculative generality with its own cost.",
+  "tags": [
+    "design",
+    "method"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

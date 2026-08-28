@@ -1,0 +1,21 @@
+{
+  "question_id": "b9f8e433-60e2-4573-a5d6-1c428edeab18",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "mc",
+  "text": "An annotation is declared, read reflectively, and never found. What is the most likely cause?",
+  "choices": [
+    "The annotated members are private, and annotations are readable only on public ones.",
+    "Its retention is not `RUNTIME`, so it did not survive into the loaded class.",
+    "It lacks a member named `value`, which reflection requires in order to match.",
+    "`@Target` was omitted, so the compiler discarded it as unplaceable."
+  ],
+  "answer": 1,
+  "explanation": "The default retention is `CLASS` — kept in the class file but not loaded — which is almost never what anyone wants. It is the commonest annotation bug precisely because everything compiles and there is no error to read; the code simply finds nothing. Chapter 27 gives the three retention policies and the four kinds of reader.",
+  "tags": [
+    "annotations",
+    "retention"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

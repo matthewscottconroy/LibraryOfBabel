@@ -1,0 +1,33 @@
+{
+  "question_id": "c589d255-2462-44a3-b17f-391ca0d9d4d6",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write an abstract class implementing an algorithm with one hole, and two subclasses filling it. Fill in the three blanks.",
+  "choices": [
+    "public class Template {",
+    "    static abstract class Account {",
+    "        private long balance;",
+    "        Account(long start) { this.balance = start; }",
+    "        void deposit(long amount) { ___; }",
+    "        ___;                                // the hole subclasses fill",
+    "        long balance() { return balance; }",
+    "    }",
+    "    static class Free    extends Account { Free(long s){super(s);}    long fee(long a) { return 0; } }",
+    "    static class Percent extends Account { Percent(long s){super(s);} long fee(long a) { ___; } }",
+    "    public static void main(String[] args) {",
+    "        for (Account a : new Account[]{ new Free(1000), new Percent(1000) }) {",
+    "            a.deposit(500); System.out.println(a.balance());",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "abstract long fee(long amount)|balance += amount - fee(amount)|return a / 100",
+  "explanation": "Verified: 1500 then 1495. `deposit` was written once; the 5 that `Percent` withheld came from a method the parent calls and does not implement. That shape is the template method, and its value is that the *order* lives in one place and a subclass cannot get it wrong because it never sees it. Chapter 26 shows the same structure with a functional parameter instead, needing no class at all.",
+  "tags": [
+    "abstract-classes",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

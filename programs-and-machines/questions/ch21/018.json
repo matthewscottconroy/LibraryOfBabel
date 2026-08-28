@@ -1,0 +1,27 @@
+{
+  "question_id": "ce425271-c782-4c89-87c2-63695423d570",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write an `EnumSet` and show it behaving as a set with declaration order. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Sets {",
+    "    enum Col { RED, GREEN, BLUE }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___);            // [RED, BLUE] -- declaration order, not insertion",
+    "        System.out.println(___);            // []",
+    "        System.out.println(___);            // [RED, BLUE]",
+    "    }",
+    "}"
+  ],
+  "answer": "EnumSet.of(Col.BLUE, Col.RED)|EnumSet.noneOf(Col.class)|EnumSet.complementOf(EnumSet.of(Col.GREEN))",
+  "explanation": "Verified: `[RED, BLUE]`, `[]`, `[RED, BLUE]`. Note the first line: the constants were supplied BLUE-then-RED and printed RED-then-BLUE, because an `EnumSet` is a bit field over the ordinals and iterates in declaration order. For an enum of 64 or fewer constants the whole set is one `long`, so membership is a bit test and union is an OR — dramatically faster than `HashSet` and free to adopt.",
+  "tags": [
+    "enums",
+    "collections",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

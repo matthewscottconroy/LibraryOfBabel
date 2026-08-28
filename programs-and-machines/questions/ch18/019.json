@@ -1,0 +1,19 @@
+{
+  "question_id": "1b9adea5-e6bb-4578-aa9d-daddf1cb790a",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Making a field `private` guarantees that no code outside the class can change it.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "Chapter 27 shows reflection reading a private field, calling a private method, and assigning to a `final` one, in eight lines. The access checks are real and they run — without `setAccessible(true)` each attempt throws — but they are suppressible, because frameworks legitimately need to reach into classes they do not own. The guarantee holds against every reader playing by the rules, which is all the code you should be writing.",
+  "tags": [
+    "encapsulation",
+    "reflection"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

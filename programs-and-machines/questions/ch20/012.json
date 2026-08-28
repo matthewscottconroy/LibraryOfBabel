@@ -1,0 +1,29 @@
+{
+  "question_id": "df947fcc-9574-425f-b7d8-cb30165963e8",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write a program where overriding and overloading disagree in a single line. Fill in the three blanks.",
+  "choices": [
+    "public class Split {",
+    "    static class A { String who() { return \"A\"; } }",
+    "    static class B extends A { ___ }",
+    "    static String pick(A x) { return \"A-overload\"; }",
+    "    static String pick(B x) { return \"B-overload\"; }",
+    "    public static void main(String[] args) {",
+    "        A obj = new B();",
+    "        System.out.println(___);            // follows the actual type",
+    "        System.out.println(___);            // follows the declared type",
+    "    }",
+    "}"
+  ],
+  "answer": "@Override String who() { return \"B\"; }|obj.who()|pick(obj)",
+  "explanation": "Verified: `B` then `A-overload`. One object, two resolution rules. The override is dispatched at run time from what the object *is*; the overload was chosen at compile time from what the variable was *declared* as. That is the whole contrast, and it is why Chapter 12 advises against overloading methods that do different things — the reader cannot see which one runs.",
+  "tags": [
+    "dispatch",
+    "overloading",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "b3763154-3324-4726-a0f0-e303f5514ed3",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "When is `==` the right comparison for reference types?",
+  "choices": [
+    "Whenever both operands are known to be non-null, since `equals` then adds no value.",
+    "When the class does not override `equals`, since the two are then equivalent.",
+    "Never — `equals` is always correct for references and `==` only for primitives.",
+    "When you genuinely mean identity: checking against null, comparing enum constants, or asking whether two references are the same object."
+  ],
+  "answer": 3,
+  "explanation": "The last distractor is true and useless as a rule, since you would have to check every class. The legitimate cases are narrow and worth memorising: `x == null`, enum constants (which are singletons, so identity *is* equality), and deliberate identity checks such as the first line of a well-written `equals`. Everything else is `equals`.",
+  "tags": [
+    "equality",
+    "judgment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

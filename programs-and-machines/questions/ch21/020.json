@@ -1,0 +1,19 @@
+{
+  "question_id": "9895dc49-8601-4b04-94f5-d0b69e847bcc",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A record cannot enforce an invariant, since it has no place to validate.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "The compact constructor is exactly that place, and because a record is immutable, a constraint checked once holds forever — which is a stronger guarantee than a class with setters can offer. The usual first assumption is that records are only for invariant-free data; Chapter 22's `Frac` rejects a zero denominator and reduces to lowest terms before the fields are ever assigned.",
+  "tags": [
+    "records",
+    "invariants"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

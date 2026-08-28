@@ -1,0 +1,21 @@
+{
+  "question_id": "034095bf-7629-4232-a16f-30bf35624479",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Why does Chapter 19 argue that `toString` should be overridden on nearly every class you write?",
+  "choices": [
+    "Because logging frameworks require it and will otherwise refuse to serialise the object.",
+    "Because collections call `toString` when computing hash codes for their elements.",
+    "Because the default implementation is slow, since it formats the identity hash.",
+    "Because the inherited version prints a class name and a hash, so a value you cannot print is a value you cannot debug."
+  ],
+  "answer": 3,
+  "explanation": "`Account@1b6d3586` tells you the type and nothing about the state, which is precisely what you need at the moment something has gone wrong. Chapter 10 makes the same point about arrays and `Arrays.toString`. It is a small habit with a disproportionate payoff, and Chapter 22's records supply it automatically, which is one of several reasons they changed what counts as reasonable for a small type.",
+  "tags": [
+    "encapsulation",
+    "debugging"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

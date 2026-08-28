@@ -1,0 +1,33 @@
+{
+  "question_id": "2d2bcb9e-ea27-46dc-a02e-da1d65d30abe",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Reproduce the square-rectangle substitution violation. Fill in the three blanks.",
+  "choices": [
+    "public class Lsp {",
+    "    static class Rect { protected int w, h;",
+    "        void setWidth(int x)  { this.w = x; }",
+    "        void setHeight(int x) { this.h = x; }",
+    "        int area() { return w * h; } }",
+    "    static class Sq extends Rect {",
+    "        @Override void setWidth(int x)  { ___; }",
+    "        @Override void setHeight(int x) { this.w = x; this.h = x; } }",
+    "    static void resize(Rect r) {",
+    "        r.setWidth(4);",
+    "        ___;",
+    "        System.out.println(\"expected 20, got \" + ___);",
+    "    }",
+    "    public static void main(String[] args) { resize(new Rect()); resize(new Sq()); }",
+    "}"
+  ],
+  "answer": "this.w = x; this.h = x|r.setHeight(5)|r.area()",
+  "explanation": "Verified: `expected 20, got 20` then `expected 20, got 25`. Nobody made a mistake in the ordinary sense — `resize` reasons correctly from `Rect` and `Sq` maintains its own invariant honestly. The mistake was the word `extends`, which promised substitutability that cannot hold, because `Rect` carries an unwritten guarantee that setting the height leaves the width alone.",
+  "tags": [
+    "liskov",
+    "inheritance",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

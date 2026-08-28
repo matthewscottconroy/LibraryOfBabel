@@ -1,0 +1,28 @@
+{
+  "question_id": "f7f9f5bf-b9fe-4989-ad0f-eae00eee1bd0",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write a program showing that `static` methods are hidden rather than overridden. Fill in the three blanks.",
+  "choices": [
+    "public class Hiding {",
+    "    static class A { static String s() { return \"A.static\"; } String who() { return \"A\"; } }",
+    "    static class B extends A { ___",
+    "                               @Override String who() { return \"B\"; } }",
+    "    public static void main(String[] args) {",
+    "        A obj = new B();",
+    "        System.out.println(___);            // the class decides",
+    "        System.out.println(___);            // the object decides",
+    "    }",
+    "}"
+  ],
+  "answer": "static String s() { return \"B.static\"; }|A.s()|obj.who()",
+  "explanation": "Verified: `A.static` then `B`. A `static` method belongs to the class, so there is nothing to dispatch on and the declared type decides — the same rule as overloading. Calling a static method through a reference is legal and misleading, which is why most tools warn about it and why writing `A.s()` makes the situation impossible to misread.",
+  "tags": [
+    "dispatch",
+    "static",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

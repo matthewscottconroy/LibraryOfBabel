@@ -1,0 +1,31 @@
+{
+  "question_id": "a5df526c-3c65-44ff-afd8-912f5207472a",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write the four obligations check: a subclass that widens what it accepts is safe. Fill in the two blanks.",
+  "choices": [
+    "public class Widening {",
+    "    static class Base { void record(int amount) {",
+    "        if (amount <= 0) throw new IllegalArgumentException(\"positive only\");",
+    "        System.out.println(\"base recorded \" + amount); } }",
+    "    static class Wider extends Base { @Override void record(int amount) {",
+    "        if (___) System.out.println(\"wider recorded \" + amount);   // accepts negatives too",
+    "        else throw new IllegalArgumentException(\"nonzero only\"); } }",
+    "    public static void main(String[] args) {",
+    "        new Wider().record(-5);             // legal: preconditions may be weakened",
+    "        new Base().record(5);",
+    "        // a subclass calling ___ would keep the parent's stricter rule",
+    "    }",
+    "}"
+  ],
+  "answer": "amount != 0|super.record(amount)",
+  "explanation": "Verified: `wider recorded -5` then `base recorded 5`. Accepting more is safe because every call valid against the supertype remains valid — preconditions may be weakened, never strengthened. Postconditions run the opposite way: they may be strengthened, never weakened. Java enforces only the fifth, mechanical rule, that access may not be narrowed, and leaves the other four to you.",
+  "tags": [
+    "liskov",
+    "contracts",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

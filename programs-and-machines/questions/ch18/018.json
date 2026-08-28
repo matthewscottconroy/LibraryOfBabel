@@ -1,0 +1,26 @@
+{
+  "question_id": "84d80992-8531-42c5-abd9-a1bacf036a91",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write a class where a public field would be defensible, and note the conditions. Fill in the two blanks.",
+  "choices": [
+    "public class Pt {",
+    "    ___;                                    // final, no invariant, immutable type",
+    "    public final int y;",
+    "    Pt(int x, int y) { this.x = x; this.y = y; }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___);            // 1",
+    "    }",
+    "}"
+  ],
+  "answer": "public final int x|new Pt(1, 2).x",
+  "explanation": "Verified: 1. The conditions are all three at once — final, no invariant relating the fields, and immutable types — and Java's own library does this in places. But note what Chapter 22 offers instead: `record Pt(int x, int y) { }` gives the same transparency plus `equals`, `hashCode` and `toString`, in one line. When you find yourself reaching for the public-field form, a record is usually what you actually want.",
+  "tags": [
+    "encapsulation",
+    "records",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

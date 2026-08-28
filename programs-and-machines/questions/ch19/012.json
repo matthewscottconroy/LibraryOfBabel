@@ -1,0 +1,31 @@
+{
+  "question_id": "f1ff7a3c-304b-4f17-bf75-a07f83d2f947",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write two classes differing only in whether they override `hashCode`, and put equal objects in a set. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Contract {",
+    "    static class Good { final int x,y; Good(int x,int y){this.x=x;this.y=y;}",
+    "        @Override public boolean equals(Object o){ return o instanceof Good g && g.x==x && g.y==y; }",
+    "        @Override public int hashCode(){ return ___; } }",
+    "    static class Bad { final int x,y; Bad(int x,int y){this.x=x;this.y=y;}",
+    "        @Override public boolean equals(Object o){ return ___; } }",
+    "    public static void main(String[] args) {",
+    "        Set<Good> good = new HashSet<>(); good.add(new Good(1,2)); good.add(new Good(1,2));",
+    "        Set<Bad>  bad  = new HashSet<>(); bad.add(new Bad(1,2));   bad.add(new Bad(1,2));",
+    "        System.out.println(good.size() + \" \" + ___);   // 1 2",
+    "    }",
+    "}"
+  ],
+  "answer": "Objects.hash(x, y)|o instanceof Bad b && b.x == x && b.y == y|bad.size()",
+  "explanation": "Verified: `1 2`. Both classes report the two objects equal; only one set agrees. `HashSet` finds the bucket by hash code first and only compares within it, so two equal objects with different hashes never meet. Nothing throws and nothing warns — the collection quietly holds a duplicate, which is why the contract is a contract rather than a suggestion.",
+  "tags": [
+    "equality",
+    "hashcode",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,28 @@
+{
+  "question_id": "9a59c826-f07f-4f8a-b152-1b19891b2489",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write a constructor that delegates to another rather than duplicating its checks. Fill in the two blanks.",
+  "choices": [
+    "public class Money {",
+    "    private final long cents; private final String currency;",
+    "    Money(long cents, String currency) {",
+    "        if (currency == null) throw new IllegalArgumentException(\"currency required\");",
+    "        this.cents = cents; this.currency = currency;",
+    "    }",
+    "    Money(long cents) { ___; }              // delegate, do not duplicate",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___.currency);   // USD",
+    "    }",
+    "}"
+  ],
+  "answer": "this(cents, \"USD\")|new Money(500)",
+  "explanation": "Verified: `USD`. `this(...)` must be the first statement, for the same reason `super(...)` must — the object's invariant has to be established exactly once, by one path. Duplicating the validation instead is how a class acquires two constructors that disagree about what is valid, which is a bug nobody notices until the less-used constructor is called with bad input.",
+  "tags": [
+    "constructors",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

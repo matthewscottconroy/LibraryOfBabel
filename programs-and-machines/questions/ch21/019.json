@@ -1,0 +1,21 @@
+{
+  "question_id": "8585e071-1e96-4097-b935-e75dcebeca55",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "mc",
+  "text": "When should you choose an abstract class over an interface?",
+  "choices": [
+    "Whenever the subclasses will be numerous, since interfaces do not scale past a few implementers.",
+    "Whenever you need to provide any shared behaviour, since interfaces cannot have bodies.",
+    "When the implementations genuinely share state and code and are honestly kinds of one thing, and you control them all.",
+    "Whenever you want to forbid instantiation, which an interface cannot do."
+  ],
+  "answer": 2,
+  "explanation": "Since Java 8 gave interfaces default and static methods, the distinction narrowed to state and the single-superclass budget. An abstract class costs implementers their one inheritance slot; an interface costs them nothing they may need elsewhere. When unsure, choose the interface — it constrains less and composes with others, and Chapter 23 argues that the commitment inheritance requires is worth avoiding when you can.",
+  "tags": [
+    "interfaces",
+    "judgment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

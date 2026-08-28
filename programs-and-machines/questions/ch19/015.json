@@ -1,0 +1,29 @@
+{
+  "question_id": "1be09a36-f0fb-4eb0-a937-40d1bd4f282c",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write a class that defends its mutable field on the way in and on the way out. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Defensive {",
+    "    private final List<String> items;",
+    "    Defensive(List<String> items) { this.items = ___; }   // copy on the way in",
+    "    List<String> items() { return ___; }                  // snapshot on the way out",
+    "    public static void main(String[] args) {",
+    "        List<String> outside = new ArrayList<>(List.of(\"a\"));",
+    "        Defensive d = new Defensive(outside);",
+    "        ___;                                // caller keeps mutating their list",
+    "        System.out.println(d.items());      // [a] -- unaffected",
+    "    }",
+    "}"
+  ],
+  "answer": "new ArrayList<>(items)|List.copyOf(items)|outside.add(\"x\")",
+  "explanation": "Verified: `[a]`. Both copies are needed and for the same reason: without the inbound one the caller retains a reference to your state, and without the outbound one you hand it to the next caller. The cost is allocation, which is why Chapter 22's records — immutable by construction — are the cheaper answer whenever the type is genuinely just its data.",
+  "tags": [
+    "defensive-copy",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

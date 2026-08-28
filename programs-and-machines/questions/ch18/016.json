@@ -1,0 +1,27 @@
+{
+  "question_id": "bfffe5b8-6e32-4d82-a0c8-441b41803699",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write a class with a static factory method instead of a public constructor, and one thing a constructor cannot do. Fill in the three blanks.",
+  "choices": [
+    "public class Temperature {",
+    "    private final double celsius;",
+    "    ___ { this.celsius = c; }               // hidden, so callers use the factories",
+    "    static Temperature fromCelsius(double c)    { return new Temperature(c); }",
+    "    static Temperature fromFahrenheit(double f) { return ___; }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___.celsius);    // 100.0",
+    "    }",
+    "}"
+  ],
+  "answer": "private Temperature(double c)|new Temperature((f - 32) * 5 / 9)|Temperature.fromFahrenheit(212)",
+  "explanation": "Verified: 100.0. Two constructors both taking a `double` would be identical signatures and would not compile, which is the concrete thing a factory buys — a *name*. It also lets you return a cached instance or a subtype, which is why `List.of`, `Integer.valueOf` and `Optional.of` are factories. Chapter 22 notes that `Integer.valueOf` caching is exactly why `==` on boxed 128 differs from `==` on boxed 127.",
+  "tags": [
+    "constructors",
+    "factories",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

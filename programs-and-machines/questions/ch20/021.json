@@ -1,0 +1,21 @@
+{
+  "question_id": "559d7e88-e207-4db4-a53d-a71305ad9390",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Bloch's rule is \"design and document for inheritance, or prohibit it\". What is wrong with a class that is neither?",
+  "choices": [
+    "It forces subclasses to be in the same package, limiting reuse.",
+    "It cannot be extended at all without reflection, so the choice is illusory.",
+    "Its subclasses will break for reasons nobody chose, because the parent's internal calls become part of a contract it never stated.",
+    "It will not compile if a subclass overrides a method the parent calls internally."
+  ],
+  "answer": 2,
+  "explanation": "Chapter 23's counting set is the demonstration: `CountingHashSet extends HashSet` reports 6 for three elements because `HashSet.addAll` happens to call `add`, which no documentation was obliged to mention and a future version may change. There is no version of that class that is correct against `HashSet` as specified — which is why `final` on a class is a considered decision rather than an unfriendly one.",
+  "tags": [
+    "inheritance",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

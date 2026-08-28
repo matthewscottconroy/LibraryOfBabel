@@ -1,0 +1,21 @@
+{
+  "question_id": "28dfa298-0d49-4d4b-9a22-594f573e8d77",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "What does composition give you that inheritance cannot, beyond avoiding the fragility?",
+  "choices": [
+    "Compile-time verification that every forwarded method matches the inner type.",
+    "Access to the inner object's private fields, which a subclass is denied.",
+    "Lower memory use, since no method table is duplicated for the subclass.",
+    "The relationship is chosen at run time, so the inner object can be swapped, injected for a test, or configured."
+  ],
+  "answer": 3,
+  "explanation": "Inheritance is fixed when the class is written; composition is decided when the object is constructed. A `CountingSet` taking a `Set` parameter can count for a `TreeSet` just as happily, and a test can pass a fake. Chapter 23's flashcard design turns on exactly this — \"the student can choose a policy\" became an argument to `Deck`'s constructor.",
+  "tags": [
+    "composition",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

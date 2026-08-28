@@ -1,0 +1,21 @@
+{
+  "question_id": "6c11083f-a31a-4b7d-993d-6aac2f437ae9",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "mc",
+  "text": "The square-rectangle problem is usually stated as a fact about geometry. What is it actually about?",
+  "choices": [
+    "Mutability — an immutable square is a perfectly good subtype of an immutable rectangle.",
+    "Access modifiers, since `protected` fields let the subclass break the parent's invariant.",
+    "Method naming, since setters imply independence that the geometry does not support.",
+    "Inheritance depth, since the violation disappears if the hierarchy is only one level."
+  ],
+  "answer": 0,
+  "explanation": "Remove the setters and nothing breaks: every property provable about an immutable `Rect` remains true of a `Sq`. What broke it was that `setWidth` and `setHeight` are independent in the parent and cannot be in the child, and independence was something callers could rely on. That is one more entry on Chapter 20's list of problems immutability makes disappear.",
+  "tags": [
+    "liskov",
+    "immutability"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

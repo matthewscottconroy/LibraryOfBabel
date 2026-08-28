@@ -1,0 +1,21 @@
+{
+  "question_id": "166dd683-c609-4cba-afaf-c520e7e96d54",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Order these couplings from weakest to strongest: extending a class, a `List` parameter, shared mutable static state, a `new` call on a collaborator.",
+  "choices": [
+    "`List` parameter, extending a class, `new` call, shared mutable static state.",
+    "Extending a class, `new` call, `List` parameter, shared mutable static state.",
+    "`List` parameter, `new` call, extending a class, shared mutable static state.",
+    "`new` call, `List` parameter, extending a class, shared mutable static state."
+  ],
+  "answer": 2,
+  "explanation": "A parameter is data coupling, the weakest. A `new` call adds knowledge of how to build the collaborator, which is why moving it to the caller — dependency injection — removes half of it. Inheritance is stronger still, since you depend on internal calls nobody documented. Shared mutable static state is worst: everything touching it is coupled to everything else touching it, invisibly.",
+  "tags": [
+    "coupling",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

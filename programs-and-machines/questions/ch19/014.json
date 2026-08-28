@@ -1,0 +1,30 @@
+{
+  "question_id": "5fe73dfb-5235-456e-b90f-c5c9404cef84",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write a program showing aliasing changing a value you never touched. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Alias {",
+    "    public static void main(String[] args) {",
+    "        List<String> original = ___;",
+    "        List<String> copy;",
+    "        ___;                                // not a copy: a second name",
+    "        ___;                                // change it through the second name",
+    "        System.out.println(original);       // [a, b]",
+    "        List<String> real = new ArrayList<>(original);",
+    "        real.add(\"c\");",
+    "        System.out.println(original);       // still [a, b]",
+    "    }",
+    "}"
+  ],
+  "answer": "new ArrayList<>(List.of(\"a\"))|copy = original|copy.add(\"b\")",
+  "explanation": "Verified: `[a, b]` then `[a, b]`. The variable named `copy` is not one, which is the whole trap — the word in your head was \"copy\" and the operation was \"alias\". Chapter 20's point is that aliasing is usually what you want: an account passed to three subsystems should be the same account. The trouble is *unintended* aliasing, where a caller believes they hold their own.",
+  "tags": [
+    "aliasing",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

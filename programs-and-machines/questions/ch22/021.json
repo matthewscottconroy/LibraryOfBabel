@@ -1,0 +1,19 @@
+{
+  "question_id": "92cadf50-6e3e-43c2-a941-29954ab38105",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "tf",
+  "text": "A class named `OrderManager` is a design smell.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 1,
+  "explanation": "Names like `Manager`, `Handler`, `Processor` and `Utils` mean the author could not say what the class *is*, and they reliably predict unrelated contents. The two tests are cheap: describe it in one sentence with no \"and\", and for each field count the methods that use it. If two disjoint clusters appear, you have two classes sharing a file, and the clusters show you where the seam is.",
+  "tags": [
+    "cohesion",
+    "naming"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

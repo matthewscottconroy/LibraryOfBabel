@@ -1,0 +1,34 @@
+{
+  "question_id": "1b235996-2907-414a-97b1-a3aaf99efae1",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write an enum carrying per-constant data, and switch over it exhaustively. Fill in the three blanks.",
+  "choices": [
+    "public class Weather {",
+    "    enum W {",
+    "        ___, RAINY(\"Umbrella\"), SNOWY(\"Coat\");",
+    "        private final String advice;",
+    "        W(String advice) { ___; }",
+    "        String advice() { return advice; }",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        W w = W.SNOWY;",
+    "        String s = switch (w) {",
+    "            case SUNNY -> \"Sunglasses\";",
+    "            case RAINY -> \"Umbrella\";",
+    "            ___;",
+    "        };",
+    "        System.out.println(s + \" \" + w.advice());",
+    "    }",
+    "}"
+  ],
+  "answer": "SUNNY(\"Sunglasses\")|this.advice = advice|case SNOWY -> \"Coat\"",
+  "explanation": "Verified: `Coat Coat`. Two things at once — the constants carry their own data, so there is no parallel lookup table to keep aligned, and the switch has no `default`, so adding a fourth constant turns it into a compile error listing exactly where to update. Delete one case and the program stops building, which is the check that makes an enum better than `int` constants.",
+  "tags": [
+    "enums",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

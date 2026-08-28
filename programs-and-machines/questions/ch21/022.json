@@ -1,0 +1,19 @@
+{
+  "question_id": "5090b140-dc89-4ded-9dcd-66348a263807",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "blank",
+  "text": "A closed set of implementations, each a record, switched over with the compiler checking that every case is covered, is an example of what functional languages call an ___ data type.",
+  "choices": [
+    "algebraic",
+    "algebraic"
+  ],
+  "answer": "algebraic",
+  "explanation": "ML had it in 1973 and Java reached it around 2021 with sealed interfaces and pattern matching. Chapter 24's syntax tree is the canonical example — an expression is a number, a variable, a binary operation, or a call, and nothing else — which is why adding a `Call` node turned every tree walker into a compile error listing exactly what to update.",
+  "tags": [
+    "sealed",
+    "vocabulary"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

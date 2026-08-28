@@ -1,0 +1,19 @@
+{
+  "question_id": "c548b37c-2f3d-473a-8cb4-212099389e94",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Bundling state with the behaviour that uses it, and restricting outside access so the invariant is enforceable rather than merely documented, is called ___ .",
+  "choices": [
+    "encapsulation",
+    "encapsulation"
+  ],
+  "answer": "encapsulation",
+  "explanation": "Liskov's argument is the one to keep: a convention anyone can reach around is not a guarantee. Chapter 16 supplies the thing being protected (a representation invariant), Chapter 19 the mechanism (`private`), Chapter 23 the design judgment about where to draw the boundary, and Chapter 27 the honest caveat that reflection can reach past all of it.",
+  "tags": [
+    "encapsulation",
+    "vocabulary"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

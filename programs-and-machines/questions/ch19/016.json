@@ -1,0 +1,21 @@
+{
+  "question_id": "37b0c9f2-4aa7-4c01-8953-bb6d483b1841",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "`Integer a = 127, b = 127; a == b` is true, but with 128 it is false. Why?",
+  "choices": [
+    "Because autoboxing uses `new Integer` above 127 and the cache only below it.",
+    "`Integer.valueOf` caches boxed values from -128 to 127, so small values share an object and larger ones do not.",
+    "Because 128 exceeds the range of a `byte`, so a wider boxed type is allocated.",
+    "Because the JIT interns small integers after the method has been called enough times."
+  ],
+  "answer": 1,
+  "explanation": "The cache is required by the specification for that range and permitted above it, which means `==` on boxed integers is correct for some values and wrong for others — the worst possible behaviour, since it passes small tests. Chapter 16 introduces boxing and Chapter 27 explains why it exists at all: erasure forbids `List<int>`, so numbers in collections must be objects.",
+  "tags": [
+    "boxing",
+    "identity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

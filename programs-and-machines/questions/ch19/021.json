@@ -1,0 +1,21 @@
+{
+  "question_id": "64902b8f-07a0-4aaa-810b-d0c8167e5c5f",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Chapter 20 recommends immutability as the strategy that makes most of this difficulty disappear. Which difficulties, specifically?",
+  "choices": [
+    "Unintended aliasing, defensive copying, mutable map keys, and thread safety — all of them presuppose that something can change.",
+    "The equals/hashCode contract, since immutable objects need neither method.",
+    "Only the map key problem, since immutability fixes hashing but not aliasing.",
+    "Debugging difficulty, since immutable objects can be printed at any time safely."
+  ],
+  "answer": 0,
+  "explanation": "Each of the four is a question of the form *could this have changed since I last looked?*, and immutability answers it in advance. Chapter 31 promotes the argument from clarity to correctness: a program with no shared mutable state cannot have a race, and that property is established by reading rather than by testing.",
+  "tags": [
+    "immutability",
+    "reasoning"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

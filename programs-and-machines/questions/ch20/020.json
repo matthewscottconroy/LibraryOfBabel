@@ -1,0 +1,19 @@
+{
+  "question_id": "a6ee2faa-2e9b-435d-bd0d-acb0879d748d",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "tf",
+  "text": "Declaring a field in a subclass with the same name as one in the superclass overrides it.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "Fields are not overridden; they are shadowed. The subclass declares a *second* field, the object contains both, and which one you see depends on the declared type of the reference — resolved statically, like overloading. It is essentially always a mistake, and making fields `private` removes the possibility entirely, which is one more argument for Chapter 19's rule.",
+  "tags": [
+    "inheritance",
+    "shadowing"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

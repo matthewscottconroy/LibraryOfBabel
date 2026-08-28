@@ -1,0 +1,22 @@
+{
+  "question_id": "0a0de10f-9f6d-44e2-ae7f-5b69ee9c1add",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Chapter 22 says enums and records get their power from restriction. Restriction of what, in exchange for what?",
+  "choices": [
+    "Openness — a closed set of constants, or a type that is nothing but its components — in exchange for guarantees the compiler enforces.",
+    "Mutability — both forbid state changes — in exchange for thread safety alone.",
+    "Memory — both use less space than the equivalent class — in exchange for flexibility.",
+    "Visibility — both restrict access to their fields — in exchange for encapsulation."
+  ],
+  "answer": 0,
+  "explanation": "An enum cannot gain a fourth constant at run time, so switches can be checked for exhaustiveness and `==` is safe. A record cannot be extended or mutated or hold hidden state, so `equals`, `hashCode` and thread safety follow. This is the opposite move from interfaces, which get their power by promising *less*, and knowing which you want is most of the skill.",
+  "tags": [
+    "records",
+    "enums",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

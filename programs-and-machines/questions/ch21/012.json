@@ -1,0 +1,30 @@
+{
+  "question_id": "df368030-98d4-4ddc-b68b-43ae829092bf",
+  "chapter": 21,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write a record with a compact constructor that both validates and normalises. Fill in the three blanks.",
+  "choices": [
+    "public class Fractions {",
+    "    record Frac(int num, int den) {",
+    "        Frac {",
+    "            if (___) throw new IllegalArgumentException(\"zero denominator\");",
+    "            int g = gcd(Math.abs(num), Math.abs(den));",
+    "            if (g > 0) { num /= g; den /= g; }        // normalise before assignment",
+    "        }",
+    "        static int gcd(int a, int b) { return b == 0 ? a : gcd(b, a % b); }",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___.equals(___));   // true: both reduce to 1/2",
+    "    }",
+    "}"
+  ],
+  "answer": "den == 0|new Frac(2, 4)|new Frac(1, 2)",
+  "explanation": "Verified: true. The compact constructor assigns to the *parameters*, and the compiler copies them into the fields afterwards — which is why normalising here works and is the idiomatic place to do it. Because the record is immutable, a constraint checked once holds forever, so `Frac(2,4)` and `Frac(1,2)` are genuinely the same value rather than two spellings of it. That is a stronger guarantee than a class with setters can offer.",
+  "tags": [
+    "records",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

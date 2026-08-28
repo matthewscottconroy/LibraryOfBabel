@@ -1,0 +1,19 @@
+{
+  "question_id": "b90b8851-4a08-47d5-bbe1-c2245ba255d4",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Two references naming the same object, so that a change made through one is visible through the other, is called ___ .",
+  "choices": [
+    "aliasing",
+    "aliasing"
+  ],
+  "answer": "aliasing",
+  "explanation": "It is usually what you want — an account passed to three subsystems should be the same account, or a deposit recorded by one would be invisible to the others. The trouble is the unintended kind, where a caller believes they hold their own copy. Chapter 20's four places to look are: assignment, passing an argument, returning a field, and storing a reference someone else supplied.",
+  "tags": [
+    "aliasing",
+    "vocabulary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

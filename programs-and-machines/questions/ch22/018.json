@@ -1,0 +1,27 @@
+{
+  "question_id": "11e374ee-60aa-4d30-98fc-4743e0edeaf1",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write a class that takes the current time as a parameter rather than reading the clock. Fill in the three blanks.",
+  "choices": [
+    "public class Testable {",
+    "    static int due(___, int interval) {     // the day is supplied, not fetched",
+    "        return ___;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___);            // 3 -- no waiting, no mocking",
+    "        System.out.println(due(10, 3));     // 13",
+    "    }",
+    "}"
+  ],
+  "answer": "int today|today + interval|due(0, 3)",
+  "explanation": "Verified: 3 then 13. A class that calls `LocalDate.now()` cannot be tested without waiting or installing a fake clock, and time is the single most common source of untestable code. Passing it in means every scenario — due tomorrow, overdue by a week, a leap day — is one line in a test. It is the same move as taking the `Scheduler` in the constructor: push the decision outward so the class depends on data rather than on the environment.",
+  "tags": [
+    "testability",
+    "design",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

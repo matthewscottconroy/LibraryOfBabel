@@ -1,0 +1,20 @@
+{
+  "question_id": "bc8c761b-5f52-43a8-9dbb-df0c75f78f5d",
+  "chapter": 20,
+  "phase": 4,
+  "kind": "blank",
+  "text": "Anything a caller could prove about a supertype must remain true of every subtype. This test for whether `extends` is honest is the ___ substitution principle.",
+  "choices": [
+    "Liskov",
+    "Liskov",
+    "Liskov's"
+  ],
+  "answer": "Liskov",
+  "explanation": "Stated in a 1987 keynote and made precise in a 1994 paper with Jeannette Wing. It is the thing the compiler cannot check: signatures line up mechanically and behaviour does not, which is why `Sq extends Rect` compiles and still makes a correct caller compute 25 where 20 was guaranteed. Chapter 23 shows what following it looks like in practice, and the answer is usually composition.",
+  "tags": [
+    "liskov",
+    "vocabulary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

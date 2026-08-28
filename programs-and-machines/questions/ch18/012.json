@@ -1,0 +1,32 @@
+{
+  "question_id": "bd0fd87c-2e08-4d5a-8937-17c4ed22d6f2",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write a class whose invariant cannot be broken from outside, and show the attempt failing to compile. Fill in the three blanks.",
+  "choices": [
+    "public class Account {",
+    "    ___;                                    // the field callers must not reach",
+    "    Account(long cents) { this.cents = cents; }",
+    "    void deposit(long amount) {",
+    "        if (___) throw ___;",
+    "        cents += amount;",
+    "    }",
+    "    long balance() { return cents; }",
+    "    public static void main(String[] args) {",
+    "        Account a = new Account(100);",
+    "        // a.cents = -5;                     // would not compile",
+    "        try { a.deposit(-5); } catch (IllegalArgumentException e) { System.out.println(e.getMessage()); }",
+    "        System.out.println(a.balance());",
+    "    }",
+    "}"
+  ],
+  "answer": "private long cents|amount <= 0|new IllegalArgumentException(\"amount must be positive\")",
+  "explanation": "Verified: `amount must be positive` then 100. The commented line is the demonstration — uncomment it and the program does not build, which is the difference between a convention and a guarantee. Chapter 16 argued that an invariant's value is that the code able to break it is small enough to check; `private` is what makes \"this file\" the answer to how small.",
+  "tags": [
+    "encapsulation",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

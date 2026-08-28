@@ -1,0 +1,31 @@
+{
+  "question_id": "c4da537c-1651-4dae-8486-7db30d67b366",
+  "chapter": 22,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Reproduce Bloch's counting set, where both overrides are correct and the answer is wrong. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Counting {",
+    "    static class CountingHashSet<E> extends HashSet<E> {",
+    "        int added = 0;",
+    "        @Override public boolean add(E e) { ___; return super.add(e); }",
+    "        @Override public boolean addAll(Collection<? extends E> c) { ___; return super.addAll(c); }",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        CountingHashSet<String> bad = new CountingHashSet<>();",
+    "        bad.addAll(List.of(\"a\", \"b\", \"c\"));",
+    "        System.out.println(___ + \" \" + bad.size());   // 6 3",
+    "    }",
+    "}"
+  ],
+  "answer": "added++|added += c.size()|bad.added",
+  "explanation": "Verified: `6 3`. Three elements added, counter says six. `HashSet.addAll` is implemented by calling `add`, so the override counts each element twice — and no documentation was obliged to mention that, and a future version may change it. There is no version of this class that is correct against `HashSet` as specified, which is the sharpest available argument against casual inheritance.",
+  "tags": [
+    "inheritance",
+    "composition",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "f6c21252-a173-43f1-ad96-bff4e7692a76",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "mc",
+  "text": "Chapter 19 says a getter for every field is not encapsulation. What is it?",
+  "choices": [
+    "A necessary first step, since getters can later be changed to compute values.",
+    "Correct encapsulation, since the fields are private and access is mediated.",
+    "Public fields with extra typing — callers can still read the representation, so it stays frozen.",
+    "A performance problem, since each access now costs a virtual call."
+  ],
+  "answer": 2,
+  "explanation": "The access modifier is not the point; the dependency is. If every field can be read, callers reason about the class exactly as they would with public fields, and changing the representation still breaks them. Real encapsulation means callers have no *reason* to want the fields, which comes from putting the behaviour that uses them inside — Chapter 23's \"behaviour belongs with its data\".",
+  "tags": [
+    "encapsulation",
+    "reasoning"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

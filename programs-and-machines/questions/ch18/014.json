@@ -1,0 +1,27 @@
+{
+  "question_id": "40cba8d2-2db1-4b3c-bd95-5a143e4a4ec1",
+  "chapter": 18,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write a class demonstrating that instance fields are per-object and static fields are per-class. Fill in the three blanks.",
+  "choices": [
+    "public class Widget {",
+    "    ___;                                    // one per object",
+    "    ___;                                    // one for the whole class",
+    "    void bump() { mine++; ours++; }",
+    "    public static void main(String[] args) {",
+    "        Widget a = new Widget(), b = new Widget();",
+    "        a.bump(); a.bump(); b.bump();",
+    "        System.out.println(a.mine + \" \" + b.mine + \" \" + ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "private int mine = 0|private static int ours = 0|Widget.ours",
+  "explanation": "Verified: `2 1 3`. Each object has its own `mine`; there is exactly one `ours` no matter how many objects exist. That is why a mutable static field is Chapter 23's strongest coupling and Chapter 31's worst concurrency hazard — everything touching it is coupled to everything else touching it, invisibly, and no lock is implied.",
+  "tags": [
+    "static",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

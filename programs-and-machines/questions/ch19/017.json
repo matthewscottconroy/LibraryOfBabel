@@ -1,0 +1,29 @@
+{
+  "question_id": "82413f8d-e8ad-449c-8092-e22930d15b3b",
+  "chapter": 19,
+  "phase": 4,
+  "kind": "proof",
+  "text": "Write a record and show it supplying the whole `equals`/`hashCode`/`toString` discipline for free. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Free {",
+    "    ___",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___);                        // true",
+    "        Set<Point> set = new HashSet<>();",
+    "        set.add(new Point(1,2)); set.add(new Point(1,2));",
+    "        System.out.println(___);                        // 1",
+    "        System.out.println(new Point(1,2));             // Point[x=1, y=2]",
+    "    }",
+    "}"
+  ],
+  "answer": "record Point(int x, int y) { }|new Point(1, 2).equals(new Point(1, 2))|set.size()",
+  "explanation": "Verified: true, 1, `Point[x=1, y=2]`. One line replaces the forty this chapter spent deriving, and the compiler cannot forget a field. Chapter 22 makes the deeper point: a record is not a boilerplate reducer but a *declaration* that the type is exactly its components, from which the generated methods follow.",
+  "tags": [
+    "records",
+    "equality",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

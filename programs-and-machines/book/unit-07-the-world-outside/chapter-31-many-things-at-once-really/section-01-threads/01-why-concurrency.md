@@ -8,13 +8,14 @@ That stopped, around 2005, and it stopped for a reason from physics rather than
 engineering. What the manufacturers did instead is why this chapter exists — and it
 moved a problem that used to belong to hardware onto your desk.
 
-Two different reasons, and conflating them is the source of a good deal of
-confused advice.
+There are two quite different reasons to want concurrency, and most of the confused
+advice you will read about it comes from somebody running them together.
 
 ## Responsiveness
 
-The first reason is Chapter 30's. A program doing something slow must remain able
-to do something else — respond to a click, accept a request, redraw a window.
+The first is the one Chapter 30 was built on. A program doing something slow must
+remain able to do something else — respond to a click, accept a request, redraw a
+window.
 
 Here the work is not necessarily large; it is *blocking*. A thread waiting for a
 network response is doing nothing at all, and while it waits another thread can
@@ -28,11 +29,7 @@ threads.
 The second reason is newer, and it is the one that changed how programs are
 written.
 
-For thirty years, processors got faster. A program written in 1990 ran faster in
-1995 without being touched, because clock speeds doubled roughly every two years,
-and this was so reliable that it was planned around.
-
-It stopped, around 2005, and it stopped for a physical reason. Power dissipation
+That free lunch had a physical cause, and it had a physical end. Power dissipation
 rises sharply with clock frequency, and the heat became unmanageable — a chip at
 10 GHz would need cooling that no consumer device can carry. Frequencies plateaued
 around 3 to 5 GHz and have stayed there for twenty years.

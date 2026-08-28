@@ -7,10 +7,7 @@ It sounds too vague to be useful. It is not, because getting it wrong has a
 recognisable shape — facts about one object's insides start showing up in code that
 lives somewhere else — and once you can see that shape you can see it everywhere.
 
-Design, in practice, is mostly a sequence of small decisions of one form: **which
-class should be responsible for this?**
-
-Here is the decision in its smallest form. A playlist holds items; each item has a
+Here is the question in its smallest form. A playlist holds items; each item has a
 duration. Where does the total go?
 
 ```java

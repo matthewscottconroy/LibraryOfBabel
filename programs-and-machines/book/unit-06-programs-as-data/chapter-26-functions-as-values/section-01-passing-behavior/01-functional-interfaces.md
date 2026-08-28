@@ -7,10 +7,6 @@ adds ten to every element, so you copy it and change one expression. Then doubli
 Then negating. Four methods, six lines each, and five of the six lines are
 identical every time.
 
-Chapter 11 taught you to extract a repeated *value* into a parameter. The obvious
-wish is to do the same with the repeated *expression* — but you cannot pass an
-expression, because parameters hold values.
-
 Unless the expression can be made into one.
 
 Start with the problem. Here is a method that squares every element of an array:
@@ -26,12 +22,14 @@ static int[] squareAll(int[] a) {
 And here is one that adds ten to every element. And one that doubles. And one that
 negates. Each is six lines, five of which are identical.
 
-The varying part is `a[i] * a[i]` — one expression. Chapter 11 taught you to
-extract a repeated *value* into a parameter, and the natural wish is to do the
-same with a repeated *expression*. But you cannot pass an expression; parameters
-hold values.
+The varying part is `a[i] * a[i]`. One expression, in the middle of five lines that
+never change.
 
-Unless the expression is wrapped in something that is a value.
+And you already know what to do with a repeated *value* — Chapter 11 said extract
+it into a parameter. But this is a repeated *expression*, and you cannot pass one
+of those, because parameters hold values.
+
+Unless you can find a way to make the expression into a value.
 
 ## An interface with one method
 

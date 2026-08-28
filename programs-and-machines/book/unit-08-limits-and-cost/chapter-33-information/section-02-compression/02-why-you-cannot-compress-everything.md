@@ -7,11 +7,7 @@ People have patented versions of this and raised money for it. The argument that
 kills it is three lines long, requires no knowledge of the method being proposed,
 and is the first outright impossibility proof in this book.
 
-Here is a plausible claim. Since `gzip` shrinks text by 80% and images by more,
-why not apply it repeatedly? Compress the compressed output, and again, until
-everything is a few bytes.
-
-Verified:
+So let us try it. Compress something, compress the result, compress that:
 
 ```
 original 9,000 -> gzip 108 -> gzip again 109 -> again 130

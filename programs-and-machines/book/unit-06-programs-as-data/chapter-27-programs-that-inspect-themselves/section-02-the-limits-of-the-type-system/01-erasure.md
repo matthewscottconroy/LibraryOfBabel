@@ -1,154 +1,186 @@
 # Erasure
 
-Here is an experiment you can run in two lines.
-
-Make a `List<String>` and a `List<Integer>`, and ask each for its class. They come
-back the same.
-
-Not similar — the same object. Whatever the angle brackets did, they did not
-produce two different types at run time, and following that observation explains a
-set of restrictions that otherwise look arbitrary, plus the performance gap
-Chapter 26 measured.
-
-Chapter 17 said a `List<String>` is a list of strings and the compiler enforces
-it. That was true and it was not the whole truth.
+Try this. It takes two lines and it will unsettle something.
 
 ```java
 List<String> strings = new ArrayList<>();
 List<Integer> ints = new ArrayList<>();
-strings.getClass() == ints.getClass()
+
+System.out.println(strings.getClass() == ints.getClass());
 ```
 
-Verified: `true`. Both are `java.util.ArrayList`.
+`true`.
 
-There is no class `ArrayList<String>` at run time. The type argument was checked
-during compilation and then **erased** — removed from the bytecode entirely. What
-runs is an `ArrayList` holding `Object` references, exactly as Java 1.4 had.
+Not "similar". Not "compatible". The same object. Ask either list what it is and
+both answer `java.util.ArrayList`, with no mention of strings or integers
+anywhere.
 
-## What that means
+So whatever those angle brackets have been doing for the last ten chapters, they
+did not produce two types. At run time there is no such thing as an
+`ArrayList<String>`. There never was.
 
-The compiler does two things and then forgets:
+Chapter 17 told you that a `List<String>` is a list of strings and the compiler
+enforces it. Every word of that is true. It is also not the whole story, and the
+rest of the story explains a set of rules that have probably struck you as
+arbitrary, plus the tenfold performance gap you measured in Chapter 26.
 
-**It checks.** `strings.add(42)` does not compile.
+## What the compiler actually does
 
-**It inserts casts.** `String s = strings.get(0)` compiles to a `get` returning
-`Object` followed by a cast to `String`.
+It checks. Then it forgets.
 
-So the generics of Chapter 17 are a compile-time discipline over an untyped
-runtime, and the guarantee is: *if all your code compiled without unchecked
-warnings, the casts will never fail.*
+`strings.add(42)` will not compile — the check is real and it happens. But once it
+has passed, the compiler strips the type argument out of the bytecode entirely.
+That is the word: **erased.** What survives into the running program is a plain
+`ArrayList` full of `Object` references, exactly what Java 1.4 had before generics
+existed.
 
-The condition matters, and here is what happens when it is violated:
+Where you wrote `String s = strings.get(0)`, the compiler quietly wrote `get`
+returning `Object`, followed by a cast to `String`. It has been inserting those
+casts on your behalf the whole time. You just never had to look at them.
+
+So generics are a compile-time discipline laid over an untyped runtime, and the
+guarantee they offer has a condition attached:
+
+> If all your code compiled without unchecked warnings, the casts the compiler
+> inserted will never fail.
+
+Now watch what happens when somebody violates the condition.
 
 ```java
-List raw = strings;      // raw type — a warning, not an error
+List raw = strings;      // a raw type: warning, not error
 raw.add(42);
 ```
 
-Verified:
+That compiles. And:
 
 ```
 smuggled in: [42]
 read fails: class java.lang.Integer cannot be cast to class java.lang.String
 ```
 
-An `Integer` is now inside a `List<String>`. The list was happy to take it,
-because at run time it is a list of `Object`. The failure arrives later, at the
-*read*, in the compiler-inserted cast — which is why the exception mentions a
-class cast that appears nowhere in the source.
+There is an `Integer` living inside your `List<String>`. The list took it without
+complaint, because at run time it is a list of `Object` and an `Integer` is an
+`Object`.
 
-This is called **heap pollution**, and it is why unchecked warnings are worth
-taking seriously. They mark exactly the places where the compile-time guarantee
-has a hole.
+Look at *where* it failed. Not at the `add` — the list was perfectly happy. It
+failed at the *read*, in a cast you never wrote, mentioned in an exception that
+names a line of code you cannot find because it does not appear in your source.
 
-## Why erasure
+The name for this is **heap pollution**, and it is the reason to treat unchecked
+warnings as real. Each one marks a spot where the compile-time guarantee has a
+hole in it, and where the failure — if it comes — will surface somewhere else
+entirely.
 
-The reason is migration compatibility, and it is worth stating because it explains
-a great deal.
+## Why anyone would design it this way
 
-Generics arrived in Java 5, in 2004, into an ecosystem with nine years of existing
-code and compiled libraries. The requirement was that old code keep working, that
-new generic code call old non-generic code, and — the hard one — that old compiled
-code call new generic code.
+The answer is a date.
 
-Erasure achieves all three. `List<String>` and `List` compile to the same thing, so
-a class compiled in 1999 can pass its `List` to a method written in 2024 expecting
-a `List<String>`, and the bytecode is identical.
+Generics arrived in Java 5, in 2004, into an ecosystem that had been accumulating
+code since 1995. Nine years of libraries, most of them shipped as compiled class
+files by people who had moved on. And the requirement was not merely that old code
+keep working. It was that new generic code call old non-generic code, *and* — the
+brutal one — that old compiled code call new generic code, without recompilation,
+because nobody had the source.
 
-The cost is everything below.
+Erasure gets all three. `List<String>` and `List` compile to the same bytecode, so
+a class compiled in 1999 can hand its `List` to a method written next year that
+expects a `List<String>`, and neither side can tell the difference, because at the
+level where they meet there *is* no difference.
 
-C# made the other choice, adding **reified** generics in 2005 with runtime type
-information preserved — and could do so because the CLR was five years old and the
-ecosystem was small enough to break. Both decisions were right for their
-circumstances, which is a more interesting conclusion than either being better.
+Everything in the next section is the bill for that.
 
-## What erasure forbids
+C# faced the same question the following year and answered it the other way,
+keeping type arguments alive at run time. It could afford to: the CLR was five
+years old and the ecosystem was small enough to break. Both teams made the right
+call for the situation they were standing in, which is a more interesting
+conclusion than one of them being cleverer.
 
-The restrictions follow mechanically, and knowing the cause makes them stop being
-arbitrary.
+## The bill
 
-**No `instanceof` with a type argument.**
+Every restriction below is the same fact, wearing a different hat. Once you know
+the cause you stop having to memorise them.
+
+**You cannot ask `instanceof` about a type argument.**
 ```java
 if (x instanceof List<String>)     // does not compile
 if (x instanceof List<?>)          // fine
 ```
-There is nothing at run time to test.
+There is nothing at run time to ask about.
 
-**No `new T[]` and no `new T()`.** The type argument is unknown when the code
-runs, so there is nothing to allocate. Library code works around this with
-`(T[]) new Object[n]` and an unchecked warning, which is why `ArrayList`'s
-internals contain exactly that.
+**You cannot write `new T[]` or `new T()`.** At the moment that code runs, nobody
+knows what `T` was. Library code works around it with `(T[]) new Object[n]` and an
+unchecked warning — open `ArrayList` and you will find exactly that line, with a
+comment apologising for it.
 
-**No overloading on type arguments.**
+**You cannot overload on type arguments.**
 ```java
 void f(List<String> xs)
-void f(List<Integer> xs)     // does not compile: same erasure
+void f(List<Integer> xs)     // does not compile
 ```
-Both erase to `f(List)`.
+Both erase to `f(List)`, and the compiler will not define the same method twice.
 
-**No generic exceptions.** `catch` needs a runtime type test.
+**You cannot have generic exceptions**, because `catch` has to do a runtime type
+test.
 
-**No primitives as type arguments.** `List<int>` is illegal, because erasure
-requires the element to be an `Object` reference. This is the single largest
-consequence — it is why autoboxing exists, why `Stream<Integer>` was ten times
-slower than `IntStream` in Chapter 26, and why `java.util.function` needs forty
-interfaces instead of six.
+**And you cannot write `List<int>.**
 
-Chapter 16 introduced the primitive/object split as a decision made in 1995. This
-is where the bill arrives.
+That last one is the expensive one. Erasure needs every element to be an `Object`
+reference, and a primitive is not one. So numbers in collections have to be
+wrapped — which is why autoboxing exists, why `Stream<Integer>` took ten times as
+long as `IntStream` when you measured it, and why `java.util.function` contains
+forty near-identical interfaces instead of six.
+
+Chapter 16 introduced the split between primitives and objects as a decision made
+in 1995 and left it there. This is where the invoice arrives.
 
 ## What survives
 
-Not everything is erased, which surprises people who have been told it all is.
+Now the part that surprises people who have been told everything is erased,
+because it is not.
 
 ```java
 static void takesList(List<String> xs) { }
 ```
 
-Verified:
+Ask reflection about that parameter and you get this:
 
 ```
 parameter type: java.util.List<java.lang.String>
 erased type   : interface java.util.List
 ```
 
-`getGenericParameterTypes()` recovered `List<String>`. The information is retained
-in the class file's signature attribute — as **metadata**, not as a runtime type —
-for the benefit of the compiler when it reads a library, and of tools.
+The full generic type came back. It is sitting in the class file's signature
+attribute — as *metadata*, not as a runtime type — kept there for the compiler to
+read when it compiles something against your library, and for tools to read when
+they want to know what you meant.
 
-The rule: **generic information is retained where it is declared, and erased where
-it is used.** A field's declared type, a method's signature, a class's supertype
-are all recoverable. The type argument of a particular *object* is not, because
-the object never had one.
+Which gives a rule worth carrying:
 
-Frameworks exploit the retained part heavily. Jackson knows a field is a
-`List<Person>` by reading the signature attribute, which is how it deserializes
-into the right element type. There is also a well-known trick — the "super type
-token", subclassing an abstract generic class so the argument becomes part of a
-class declaration and is therefore retained — which is why serialization APIs
-sometimes ask you to write `new TypeReference<List<Person>>() {}` with the empty
-braces that create a subclass.
+> Generic information is kept where it is **declared**, and erased where it is
+> **used**.
 
-That empty pair of braces is doing real work, and now you know what.
+A method's signature, a field's declared type, a class's supertype — all
+recoverable. The type argument of a particular object in your hand — gone, because
+that object never had one to begin with.
 
-Next: the mechanism for attaching information the type system cannot express.
+Frameworks live off the surviving half. Jackson knows a field is a `List<Person>`
+by reading the signature attribute, which is how it manages to deserialise into
+the right element type instead of handing you a list of maps.
+
+And there is a trick built on the same fact that you have almost certainly typed
+without knowing why. Subclass a generic type and the argument becomes part of a
+*class declaration* — declared, therefore kept. Which is why serialisation
+libraries ask you for this:
+
+```java
+new TypeReference<List<Person>>() {}
+```
+
+Those empty braces are not punctuation. They create an anonymous subclass, purely
+so that `List<Person>` ends up somewhere erasure cannot reach.
+
+You have probably copied that line off the internet at some point and wondered
+what the braces were for.
+
+Next: the mechanism for attaching information the type system was never able to
+express.

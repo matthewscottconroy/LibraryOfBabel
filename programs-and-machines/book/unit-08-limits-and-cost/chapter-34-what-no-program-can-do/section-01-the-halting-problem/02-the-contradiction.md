@@ -48,8 +48,7 @@ is that `halts` exists.
 
 ## What happened
 
-The argument is short enough to feel like a trick, so it is worth saying what
-carried it.
+So what actually did the work there?
 
 **Self-reference.** `trouble` is applied to itself. That is only possible because
 a program is data, which is Unit VI's entire thesis and the reason this proof

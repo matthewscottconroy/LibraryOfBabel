@@ -1,6 +1,7 @@
 # Formatting for Humans
 
-Data becomes text for two audiences, and they want different things.
+Every time you turn data into text, somebody is going to read it. The trouble is
+that there are two somebodies and they want opposite things.
 
 **Machines** want exactness and stability: a format that round-trips, that sorts
 correctly, that another program can parse. ISO dates, decimal points, no thousands
@@ -9,8 +10,9 @@ separators.
 **People** want readability in their own conventions: local date order, local
 decimal separator, currency symbols, aligned columns.
 
-Confusing the two produces a recurring class of bug, and the first rule is to know
-which you are serving.
+Serve the wrong one and you get a bug that is invisible on your machine and
+obvious on somebody else's. So before you format anything, answer the question:
+who is reading this?
 
 ## printf and format
 
@@ -42,23 +44,29 @@ String.format("%,d", 1234567);      // "1,234,567"
 String.format("%05.1f", 3.14159);   // "003.1"
 ```
 
-The value of this over concatenation is that **the layout is visible in one
-place**. Changing a column width means editing the format string; with
-concatenation it means restructuring the expression. And alignment is achievable at
-all, which it is not with `+`.
+What you get over gluing strings together with `+` is that **the layout lives in
+one place, where you can see it.** Widen a column and you edit one number in the
+format string. Do the same with concatenation and you are restructuring an
+expression.
 
-## Rounding, and a warning
+And alignment is possible at all, which it flatly is not with `+`.
 
-`%.2f` rounds for display, and Chapter 3 applies: the underlying `double` is
-unchanged, and its value was never exactly what you wrote.
+## A warning about rounding
+
+`%.2f` rounds the *display*. It does not round the number. The `double` underneath
+is untouched, and — as Chapter 3 spent some time establishing — its value was never
+exactly what you typed in the first place.
 
 ```java
 String.format("%.2f", 0.125)      // "0.13" or "0.12" depending on the stored value
 ```
 
-Do not use display formatting to fix an arithmetic problem. If the number must be
-exact to the cent, it should have been a `BigDecimal` or an integer count of cents
-— Section 3.2.3's argument, and this is where people discover they ignored it.
+So do not reach for display formatting to paper over an arithmetic problem. If a
+number has to be exact to the penny, it needed to be an integer count of pennies
+or a `BigDecimal` from the beginning.
+
+Chapter 3 said so. This is the lesson where people discover they were not
+listening.
 
 ## Locale
 
@@ -71,18 +79,18 @@ String.format("%,.2f", 1234.5)                  // "1,234.50" in the US
 String.format(Locale.ROOT, "%,.2f", 1234.5)     // "1,234.50" always
 ```
 
-Both are right for their audience and disastrous when confused. Writing a data file
-with the platform default means the file's format depends on where it was written,
-and a German-configured machine produces `1.234,50` which a comma-splitting parser
-reads as two fields.
+Both of those are correct. Each is a disaster in the other one's context.
+
+Write a data file using the platform default and you have made the file's format
+depend on which machine happened to produce it — so a colleague in Berlin runs your
+exporter, out comes `1.234,50`, and your comma-splitting parser reads one number as
+two fields and never says a word about it.
 
 **Use `Locale.ROOT` for machine-readable output. Use the user's locale for
 display.** The same distinction as `toUpperCase` in Section 18.1.3, and the same
 class of bug.
 
-## Dates
-
-Worth a note, because dates are where formatting goes wrong most often.
+## Dates, where this goes wrong most often
 
 ```java
 LocalDate d = LocalDate.of(2024, 1, 15);
@@ -91,8 +99,9 @@ d.format(DateTimeFormatter.ISO_DATE);                // "2024-01-15"
 d.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM));  // locale-dependent
 ```
 
-`java.time`, added in Java 8, replaced an earlier API that was genuinely bad. Use
-it.
+`java.time` arrived in Java 8 to replace an earlier date API that was, by common
+consent including its authors', bad. Use the new one. If you find yourself holding
+a `java.util.Date`, you are in old code.
 
 ISO 8601 — `2024-01-15` — is the format for storage and interchange. It is
 unambiguous, it sorts correctly as text, and it does not depend on whether the

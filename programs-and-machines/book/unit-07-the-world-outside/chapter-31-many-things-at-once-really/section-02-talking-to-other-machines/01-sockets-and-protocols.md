@@ -19,7 +19,8 @@ That is the useful thing about sockets: the hard part is not the API.
 ```java
 try (ServerSocket server = new ServerSocket(0)) {          // 0 = any free port
     int port = server.getLocalPort();
-    Socket connection = server.accept();                   // blocks until someone connects
+    Socket connection = server.accept();                   // blocks until someone
+connects
     ...
 }
 ```
@@ -90,10 +91,9 @@ Which is why you need the next section.
 
 ## A protocol is an agreement
 
-Two programs exchanging bytes must agree on what the bytes mean. That agreement is
-a **protocol**, and designing one is the same activity as designing a file format
-in Chapter 29 — with one addition: it is a *conversation*, so it has states and an
-order.
+That agreement — on what the bytes mean — is a **protocol**, and designing one is
+very nearly the same activity as designing a file format in Chapter 29. With one
+addition: a protocol is a *conversation*, so it has states, and an order.
 
 The echo server's protocol, stated properly:
 

@@ -9,34 +9,29 @@ it is worth passing — and once that threshold drops, the technique shows up in
 places it never used to.
 
 A **higher-order** method is one that takes a function as an argument, returns one
-as a result, or both. `mapArray` from Section 26.1.1 was the first kind.
+as a result, or both. `mapArray` in the first lesson was the first kind, and you
+have been calling others for chapters without noticing.
 
 ## Taking behavior
 
-The pattern generalizes past `mapArray`. Anywhere you have written nearly the
-same method twice, with one expression differing, a functional parameter collapses
-them.
-
-You have already been using this without noticing. `Collections.sort` takes a
-`Comparator`, which is a functional interface, and has since 1998:
+Here is the general shape. Anywhere you have written nearly the same method twice
+with one expression differing, a functional parameter collapses the pair into one.
 
 ```java
 list.sort((a, b) -> a.length() - b.length());
 list.sort(Comparator.comparing(Person::name));
 ```
 
-The sorting algorithm is fixed — someone implemented a good one once. The
-comparison is yours. That division is the whole idea, and the reason it predates
-lambdas by sixteen years is that the *concept* never needed them; only the
-notation did.
+The algorithm stays put; the comparison is yours. And once you have the shape in
+your eye you start seeing it everywhere in the library — `removeIf`, `forEach`,
+`computeIfAbsent`, and the `merge` that quietly took `Integer::sum` back in
+Chapter 17.
 
-The same shape appears in `removeIf`, `forEach`, `computeIfAbsent`, and `merge` —
-which is where Chapter 17's `Integer::sum` came from.
+## What this replaces
 
-## The templates it replaces
-
-Section 22.1.2's template method solved a related problem: a parent implementing
-an algorithm and calling abstract steps the subclass fills. Compare:
+You have solved this problem before, with more machinery. The template method in
+Chapter 22 had a parent write an algorithm and call abstract steps for a subclass
+to fill in. Put the two side by side:
 
 ```java
 abstract class Processor {           // template method
@@ -47,10 +42,11 @@ abstract class Processor {           // template method
 static void run(int[] a, IntOp step) { ...; step.apply(a[i]); ... }
 ```
 
-Same structure, and the second requires no class, no inheritance, and no
-commitment at compile time. This is Section 23.1.2's argument — composition over
-inheritance, run-time choice over compile-time — with the composed part shrunk
-from an object to a function.
+Identical structure. The second needs no class, no inheritance, and no decision
+made at compile time about who fills the hole.
+
+Which is the composition argument from Chapter 23 all over again — except that
+the thing being composed in has shrunk from a whole object to a single function.
 
 The template method still earns its place when the parent needs *several* holes
 filled by one coherent implementer, or when there is shared state. For one hole,

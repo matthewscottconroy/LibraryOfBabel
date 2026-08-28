@@ -11,11 +11,11 @@ it would be miserable to read.
 So nobody does it. Every language implementation ever built runs a smaller pass
 first, and there is a reason for that beyond convenience.
 
-The parser should not think about characters. Given `2 + 3 * width`, it wants to
-see *number, plus, number, star, name* — five things — not thirteen characters,
-three of which are spaces that mean nothing.
+What the parser wants to see is *number, plus, number, star, name*. Five things,
+already sorted into kinds, with the spaces gone.
 
-**Tokenizing** is that first pass. It is also called lexing or scanning, and the
+**Tokenizing** is the pass that gives it that. It is also called lexing or
+scanning, and the
 component is a lexer or scanner. All the same thing.
 
 ## Tokens
@@ -28,9 +28,11 @@ enum Kind { NUMBER, NAME, PLUS, MINUS, STAR, SLASH, LPAREN, RPAREN, END }
 record Token(Kind kind, String text) { }
 ```
 
-An enum and a record, both for exactly the reasons Chapter 22 gave. The set of
-token kinds is closed, so a `switch` over it can be checked for exhaustiveness. A
-token is its kind and its text, so it is a record.
+An enum and a record, and both choices are the ones Chapter 22 argued for. There
+are exactly nine kinds of token and there will never be a tenth without somebody
+editing this line — a closed set, so every `switch` over it can be checked for
+exhaustiveness. And a token *is* its kind and its text and nothing else, which is
+the definition of a record.
 
 `text` matters only for `NUMBER` and `NAME` — the others are determined by their
 kind — but carrying it uniformly is simpler than not, and it is what an error
@@ -82,9 +84,13 @@ if (Character.isDigit(c)) {
 }
 ```
 
-Scan forward while the characters keep qualifying, then emit the span. This is
-the **maximal munch** rule: take the longest thing that could be a token. It is
-why `123` is one number and not three, and why `width` is one name.
+Scan forward while the characters keep qualifying, then emit the whole span at
+once.
+
+That greedy inner loop has a name — **maximal munch** — and it is the rule that
+takes the longest thing that could be a token. Without it you would get three
+numbers out of `123` and five names out of `width`, which is not a subtle bug so
+much as a complete failure to have started.
 
 Names are the same with a wrinkle:
 
@@ -125,10 +131,13 @@ of the three error messages this chapter can generate:
 2 $ 3  ==>  unexpected character '$' at position 2
 ```
 
-Note the position. An error message that does not say *where* is close to useless,
-and the tokenizer is the only component that still knows the character offset —
-by the time the parser has tokens, the offsets are gone unless they were stored.
-Real compilers store them, which is why `javac` can underline the exact column.
+Look at the end of that message, because it is doing more work than the rest of
+it. An error that does not tell you *where* is close to useless — and the
+tokenizer is the last component that still knows, since once the parser has tokens
+the character offsets are gone unless somebody thought to keep them.
+
+Real compilers keep them. That is how `javac` manages to draw a caret under the
+exact column of your mistake.
 
 ## The result
 
@@ -145,9 +154,10 @@ Verified:
 Thirteen characters became five tokens and a sentinel. The whitespace is gone, the
 digits are grouped, and the parser now has a clean sequence.
 
-## Why this is a separate pass
+## Why this is a separate pass at all
 
-Two reasons, and the first is the theoretical one from Section 24.1.1.
+You could, in principle, do all of this inside the parser. Two reasons nobody
+does, and the first is not a matter of taste.
 
 **Tokens are regular; structure is not.** Every token here can be recognized by a
 machine with finite memory — a run of digits, a run of letters, a single symbol.

@@ -9,9 +9,10 @@ there is no mistake visible.
 
 Add three elements and it reports six.
 
-The argument this book has been deferring since Chapter 21.
+We will come back to that. First, the argument this book has been deferring since
+Chapter 21.
 
-Two ways for class `A` to use class `B`:
+There are two ways for class `A` to use class `B`:
 
 ```java
 class A extends B { ... }              // inheritance: A is a B
@@ -23,10 +24,10 @@ The claim, from the 1994 design patterns book and repeated by everyone since:
 
 That sounds like taste. It is not. Here is the demonstration.
 
-## A set that counts
+## The set that counts to six
 
-Suppose you want a `Set` that also tracks how many elements have been added over
-its lifetime. The obvious approach:
+So: a `Set` that also tracks how many elements have been added over its lifetime.
+The obvious approach, and the one almost everybody writes:
 
 ```java
 class CountingHashSet<E> extends HashSet<E> {
@@ -44,8 +45,8 @@ class CountingHashSet<E> extends HashSet<E> {
 }
 ```
 
-Both methods are overridden. Both increment correctly. Both delegate to `super`.
-Read it as carefully as you like; there is no mistake visible.
+Look at it again with the counter in mind. Both methods overridden, both
+incrementing, both delegating to `super`. There is no mistake in it.
 
 Add three elements with `addAll` and the verified output is:
 

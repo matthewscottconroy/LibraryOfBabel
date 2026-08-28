@@ -139,10 +139,9 @@ transactions, and there is one process.
 **A database server** — PostgreSQL, MySQL — when several processes or machines
 need concurrent access, or when the data outgrows one machine's attention.
 
-The mistake to avoid is the middle one skipped: a program that has grown a CSV
-file, an index kept in memory, a locking scheme, and a backup routine has
-reimplemented SQLite badly, and usually without noticing that that is what
-happened.
+The mistake is skipping the middle rung — which is how the program at the top of
+this lesson came to exist, one reasonable decision at a time, with nobody ever
+deciding to write a database.
 
 ## What to take from this
 

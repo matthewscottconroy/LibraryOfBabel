@@ -7,7 +7,7 @@ behind it was good, the arguments for it are still sound as far as they go, and 
 lost — and the way it lost is more instructive than either the feature or its
 replacement.
 
-Java divides exceptions in two, and it is the only mainstream language that does.
+Java divides its exceptions into two kinds.
 
 **Checked** exceptions — anything extending `Exception` but not `RuntimeException`
 — must be declared or handled. The compiler enforces it:

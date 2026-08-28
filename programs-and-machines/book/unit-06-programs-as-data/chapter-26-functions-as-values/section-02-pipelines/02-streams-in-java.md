@@ -16,9 +16,8 @@ int total = ns.stream()
 
 Verified: `220`, the same as the loop.
 
-That is the previous lesson's three operations in Java's notation. A **stream** is
-not a collection — it holds no elements — it is a description of a computation over
-a source, and understanding that distinction explains everything else.
+There are the previous lesson's three operations, in Java's own notation, and
+nothing in that pipeline runs until the last line of it.
 
 ## The three parts of a pipeline
 

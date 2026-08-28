@@ -15,28 +15,35 @@ A problem, in one paragraph:
 > decides when to show it again. Different scheduling policies exist and the
 > student should be able to choose one.
 
-That is a real specification: incomplete, slightly ambiguous, and enough to start.
+Read it again and notice what it does not tell you. How many cards. What a grade
+looks like. Whether two students share a deck. Whether "policy" means two options
+or twenty.
 
-What follows is the design as it actually goes, wrong turns included.
+That is what a real specification is like — incomplete, faintly ambiguous, and
+entirely enough to start with.
 
-## First pass: name the nouns
+## First pass: underline the nouns
 
-The oldest technique there is. Underline the nouns and see which survive.
+It is the oldest trick in the subject and it still works. Write down every noun in
+the paragraph and then argue with the list.
 
 *study program, flashcard, front, back, student, grade, scheduling policy.*
 
 **Card** — clearly a class. Front and back are its data.
 
-**Grade** — a fixed, small set of possibilities. This is Chapter 22's enum, and
-it is the easiest decision in the design.
+**Grade** — a small, fixed set of possibilities that nobody is going to extend at
+run time. That is an enum, and it is the one decision here you can make without
+thinking.
 
 **Scheduling policy** — "different policies exist and the student chooses" is an
 interface, almost word for word. Several implementations, no shared state, chosen
 at run time.
 
-**Student** — probably not. Nothing in the specification asks the program to know
-anything about a student, and a class with no state and no behavior is a class
-waiting to be deleted. Leave it out; add it when something needs it.
+**Student** — probably not, and this is the interesting one. The word is in the
+paragraph, so the instinct is to make a class for it. But read the requirements
+again: nothing asks the program to *know* anything about a student. A class with
+no state and no behaviour is a class waiting to be deleted, so leave it out. If
+something later needs it, it will say so.
 
 **Study program** — the whole application, not a class. But something has to hold
 the collection of cards, and that will need a name. Call it **Deck**.
@@ -45,7 +52,8 @@ Four types: `Card`, `Grade`, `Scheduler`, `Deck`.
 
 ## The first wrong turn
 
-Here is what I wrote first:
+Here is what I actually wrote first, and I would encourage you to look at it and
+decide whether you would have caught it:
 
 ```java
 class Card {
@@ -57,19 +65,22 @@ class Card {
 }
 ```
 
-It seems right. The card knows its own state, and Section 23.1.1 said behavior
-belongs with the data.
+And it looks right. The card knows its own state, and the last section spent
+several pages arguing that behaviour belongs with the data it needs.
 
-It is wrong for a reason worth naming: **`review` needs the scheduling policy, and
-the policy is not the card's business.** Either every card carries a reference to
-a scheduler — a field duplicated across ten thousand cards, all pointing at the
-same object — or `review` takes one as a parameter, which means the caller must
-supply it, which means the caller must know about scheduling, which is the thing
-we were trying to encapsulate.
+It is wrong, and the reason is worth naming carefully, because it is subtle enough
+that I did not see it until I tried to write the next method: **`review` needs the
+scheduling policy, and the policy is none of the card's business.**
 
-The signal was there before I noticed it: the class needed a collaborator to do
-its own job. That is what Section 23.1.1's card exercise catches — a
-responsibility written on the wrong card.
+Follow it through. Either every card carries a reference to a scheduler — one field
+duplicated across ten thousand cards, all pointing at the same object — or `review`
+takes a scheduler as a parameter, which means the caller has to supply it, which
+means the caller has to know about scheduling, which was precisely the thing we
+were trying to keep out of sight.
+
+The signal was there before I noticed it, and it is a useful one: **the class
+needed a collaborator to do its own job.** That is exactly what the index-card
+exercise catches — a responsibility written on the wrong card.
 
 ## The second wrong turn
 
@@ -80,11 +91,11 @@ class LeitnerCard extends Card { ... }             // ← also wrong
 class CramCard extends Card { ... }                // ←
 ```
 
-A card that schedules itself one way, a card that schedules itself another.
+A card that schedules itself one way, a card that schedules itself another. Two
+problems with it, and Chapter 21 gave you both.
 
-Two problems, and both are Chapter 21's.
-
-The scheduling policy is not a *kind of card*. A card is a front and a back; how
+Start by saying it out loud: *a Leitner card is a kind of card.* Is it? A
+scheduling policy is not a kind of card. A card is a front and a back; how
 often it comes back is a fact about the study session, not about the card. The
 `is-a` test fails on reading it out loud.
 
@@ -93,13 +104,17 @@ choose a policy" means choosing at run time, for the whole deck. Inheritance
 decides at compile time, per object. To change policy you would have to rebuild
 every card.
 
-That is Section 23.1.2's closing point arriving in practice: inheritance fixes a
-choice when the class is written, and this choice needs to be made later.
+Which is the closing point of the last section, turning up in practice rather than
+in the abstract: inheritance fixes a choice at the moment the class is written, and
+this particular choice has to be made much later than that.
 
-## The separation
+## What the wrong turns were pointing at
 
-The insight, once the wrong turns had made it obvious: **a card and its review
-history are two different things.**
+Two failed attempts, and both failed at the same place — something about a card was
+refusing to sit inside the card. Look at what that something was, and the design
+falls out:
+
+**a card and its review history are two different things.**
 
 A card is content — front and back — and never changes. History is state, and it
 is state about *this student's* relationship with the card, which is exactly why
@@ -113,13 +128,14 @@ record Progress(int box, int dueOnDay) {
 }
 ```
 
-Both records, and both for the reason Chapter 22 gave: they are their data, two of
-each with equal contents are interchangeable, and `Card` in particular is going to
-be a map key, where immutability and a correct `hashCode` are not optional.
+Both records, for the reason Chapter 22 gave: each of them *is* its data, two with
+equal contents are interchangeable, and `Card` in particular is about to become a
+map key — where immutability and an honest `hashCode` stop being preferences.
 
-The compact constructor is doing real work. A negative box is meaningless, it is
-rejected once, and because the record is immutable it can never become negative
-later.
+And that compact constructor is not decoration. A negative box number is
+meaningless, so it is refused once, at the only moment a `Progress` can come into
+existence. Because the record is immutable, that check can never be undone. One
+line, and a whole category of bad state is now unrepresentable.
 
 ## The policy
 
@@ -133,10 +149,14 @@ interface Scheduler {
 One method that matters. Given where a card stands, how it was graded, and what
 day it is, produce the new standing.
 
-Notice what the signature does not have. No `Card` — scheduling does not depend on
-the content, and taking one would couple the policy to a type it has no use for.
-No mutation — it returns a new `Progress` rather than modifying one, so a
-scheduler has no state and two threads may share it safely.
+Read the signature for what is missing from it.
+
+There is no `Card`. Scheduling has nothing to do with what is written on the front
+of the card, and accepting one would tie the policy to a type it has no use for.
+
+And there is no mutation. It returns a *new* `Progress` rather than editing the old
+one — so a scheduler holds no state at all, which means two threads can share one
+without any of Chapter 31's difficulties arising.
 
 Two implementations:
 
@@ -160,12 +180,13 @@ final class Cram implements Scheduler {
 }
 ```
 
-`intervals.clone()` is Chapter 20's defensive copy on the way in — without it, the
-caller keeps a reference to the array and can change the schedule afterwards.
+That `intervals.clone()` is a defensive copy on the way in. Leave it out and the
+caller still holds a reference to the array they handed you, and can quietly
+rewrite your schedule from outside at any point afterwards.
 
-The pattern has a name, **Strategy**, and it is the one design pattern that is
-worth learning early: an algorithm as an object, chosen by whoever constructs the
-thing that uses it.
+What you have just built has a name — **Strategy** — and of the twenty-three
+patterns in that book it is the one worth learning first: an algorithm as an
+object, chosen by whoever constructs the thing that uses it.
 
 ## The deck
 
@@ -193,22 +214,23 @@ final class Deck {
 }
 ```
 
-Several decisions in there, each traceable to something earlier.
+Five decisions in twenty lines, and every one of them traces back to something
+earlier in the book.
 
-**A `Map<Card, Progress>`** rather than a card that holds its progress. The
-separation, made concrete. Chapter 17's warning about mutable keys does not apply,
-because `Card` is a record and immutable.
+**A `Map<Card, Progress>`** rather than a card holding its own progress — the
+separation, made concrete. And Chapter 17's warning about mutable map keys does
+not apply here, because `Card` is a record and cannot change under the map.
 
 **`LinkedHashMap`** so iteration order is insertion order rather than hash order.
 The specification did not ask, but unpredictable ordering is the kind of thing
 that produces a bug report about "random" behavior, and this costs nothing.
 
-**The scheduler arrives in the constructor.** Section 23.1.3's construction
-coupling, avoided: `Deck` never calls `new` on a scheduler, so a test can pass a
-fake one and the class is not tied to any policy.
+**The scheduler arrives in the constructor.** `Deck` never calls `new` on one,
+which is the construction coupling from earlier in the chapter, avoided — so a test
+can hand it a fake, and the class is tied to no policy at all.
 
-**`due` returns `List.copyOf`.** Section 23.1.1's boundary. Verified — calling
-`add` on the returned list throws.
+**`due` returns `List.copyOf`.** Try calling `add` on what comes back and it
+throws, which is the boundary holding.
 
 **`review` takes the day as a parameter** rather than calling `LocalDate.now()`.
 This is one of the highest-value habits in the chapter: a class that reads the
@@ -232,10 +254,13 @@ Both cards are due on day 0. Card `a` graded GOOD moves to box 1 and returns on
 day 2; card `b` graded AGAIN stays in box 0 and returns on day 1. On day 1 exactly
 one is due; on day 2 both are.
 
-The `cram` line is the one to look at. Same cards, same review, different result —
-and the only difference in the program is the argument to `Deck`'s constructor.
-That is what "the student can choose a policy" turned into, and it is the payoff
-for both wrong turns.
+Now look at the `cram` line, because that is the one the whole design was for.
+
+Same cards. Same review. Different answer. And the only thing that differs
+anywhere in the program is one argument to `Deck`'s constructor.
+
+That sentence in the requirements — *the student should be able to choose one* —
+turned into that. Both wrong turns were the price of getting there.
 
 ## What was left out, deliberately
 

@@ -13,8 +13,11 @@ recursive definition runs forever.
 record Procedure(List<String> params, Expr body) { }
 ```
 
-A procedure is a parameter list and a body. Nothing else — no name, because the
-name is how it was found, not what it is.
+A parameter list and a body. That is a procedure, entirely.
+
+Notice what is absent: there is no name in there. The name is how you *found* the
+procedure, not part of what it is — the same distinction as between a variable and
+the value sitting in it.
 
 `DefFun` stores one:
 

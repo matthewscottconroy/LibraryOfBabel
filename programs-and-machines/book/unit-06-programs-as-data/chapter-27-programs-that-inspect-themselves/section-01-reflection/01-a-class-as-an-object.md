@@ -7,7 +7,9 @@ If `getClass()` *returns* something, then a class is not only a compile-time not
 There is an object, at run time, standing for `Account` — and if you can hold it,
 you can ask it questions.
 
-Every class you write becomes an object at run time.
+Every class you write becomes an object at run time. Not an instance of it — an
+object standing *for* the class, which you can hold in a variable and ask
+questions of.
 
 ```java
 Class<?> c = Account.class;

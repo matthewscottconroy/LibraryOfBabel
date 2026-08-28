@@ -19,9 +19,10 @@ expected 1600000, got  799209
 Three runs, three answers, none of them right, and one of them lost three quarters
 of the increments.
 
-## Why
+## Where the increments went
 
-`plain++` looks like one thing. It is three:
+`plain++` is one keystroke away from `plain = plain + 1`, and it looks like one
+action. Ask the machine and it is three:
 
 ```
 read  the current value from memory into a register
@@ -40,27 +41,35 @@ thread A: write 101
 thread B: write 101
 ```
 
-Two increments, one recorded. The other is lost, silently, with no error and no
-way to detect it after the fact.
+Read that trace once more and count. Two threads incremented. The counter went up
+by one.
 
-This is a **race condition**: the result depends on the relative timing of
-operations whose order nobody specified. The operation is not **atomic** — it
-cannot be observed half-done from the outside, and `plain++` can.
+Nothing detected it. No exception, no warning, and — this is the part that should
+worry you — no way to find out afterwards that it happened. The increment did not
+fail. It was overwritten by a thread that had read the old value a microsecond
+earlier and had no idea anybody else was there.
 
-The scale of the loss in the measurement above is not exaggeration. With eight
-threads on 24 cores all hammering one memory location, most increments collide.
+That is a **race condition**: the answer depends on the relative timing of
+operations whose order nobody ever specified. And the property `plain++` lacks is
+**atomicity** — the guarantee that an operation cannot be caught half-finished from
+outside.
 
-## Why it is worse than it looks
+The scale of the loss up there is not dramatic licence. Eight threads on
+twenty-four cores, all hammering one memory location, collide nearly every time.
 
-Three things make this harder than the interleaving story suggests.
+## It is worse than that
+
+The interleaving story is the easy half. Three things make this genuinely nasty in
+a way that ordinary bugs are not.
 
 **It is not deterministic.** Three runs gave three answers. A test that passes
 proves nothing, and a bug that appears once a week cannot be reproduced on demand.
 
-**A debugger changes it.** Stepping through slows one thread enormously and the
-interleaving disappears. Print statements do the same. The observation changes the
-behaviour, which is why these bugs are diagnosed by reasoning rather than by
-watching.
+**A debugger makes it go away.** Stepping through slows one thread to a crawl, the
+interleaving stops happening, and everything works — which is the most
+demoralising possible outcome, because it looks like the bug is afraid of you. Print
+statements do the same thing. Here, uniquely, observing changes the behaviour, and
+these bugs have to be reasoned about rather than watched.
 
 **The processor and compiler reorder.** Both are permitted to execute your
 statements out of order, and to keep values in registers or per-core caches rather
@@ -77,14 +86,17 @@ static volatile int volatileOnly = 0;
 `volatile` addresses visibility: a write is immediately visible to other threads,
 and reordering around it is restricted.
 
-It does **not** make an operation atomic. Verified:
+What it does not do is make anything atomic. Run the same eight threads with it:
 
 ```
 expected 1600000, got 533401
 ```
 
-Still wrong, and by about as much. `volatileOnly++` is still read-add-write; each
-step now sees fresh memory, and the interleaving is unchanged.
+Still wrong, and wrong by about as much as before.
+
+`volatileOnly++` is still read, add, write. Every one of those three steps now sees
+perfectly fresh memory — and the interleaving between them is completely
+untouched. You have fixed a different problem.
 
 The rule: **`volatile` is for visibility of a single write, never for
 read-modify-write.** Its legitimate use is a flag one thread sets and another

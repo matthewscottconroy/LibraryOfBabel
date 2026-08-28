@@ -19,6 +19,12 @@ Verified: `220`, the same as the loop.
 There are the previous lesson's three operations, in Java's own notation, and
 nothing in that pipeline runs until the last line of it.
 
+A **stream** holds no elements. It is not a collection that has been made
+fashionable; it is a *description of a computation that has not happened yet*.
+
+Every surprising thing about streams falls out of that one fact, so it is worth
+fixing before the syntax arrives.
+
 ## The three parts of a pipeline
 
 ```java
@@ -37,9 +43,11 @@ ns.stream()                        // source
 **A terminal operation** produces a result and ends the stream. `reduce`, `sum`,
 `count`, `collect`, `toList`, `forEach`, `findFirst`, `anyMatch`, `min`, `max`.
 
-The rule that follows: **nothing happens until the terminal operation runs.** A
-pipeline with no terminal operation does nothing at all, silently — which is a
-mistake people make once.
+From which: **nothing runs until the terminal operation does.**
+
+Write a pipeline and forget the last line, and it does not fail, and it does not
+warn you. It does nothing at all, in complete silence. Most people make that
+mistake exactly once.
 
 ## Laziness
 

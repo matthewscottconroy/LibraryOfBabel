@@ -9,7 +9,9 @@ know a way to have two methods with the same name. This lesson is largely about
 why that is a *different* mechanism, and why confusing the two produces surprises
 that look like the language misbehaving.
 
-**Overriding** is replacing an inherited method with your own.
+**Overriding** is replacing an inherited method with one of your own — same name,
+same parameters, different body — and from that point your version is the one that
+runs.
 
 ```java
 class Shape {

@@ -7,15 +7,15 @@ immediately: after the interface is built, `main` does nothing at all. There is 
 line of code anywhere describing the order things happen in, because the order is
 not yours to decide.
 
-You do not call the toolkit. The toolkit calls you.
+It starts with one line:
 
 ```java
 button.addActionListener(e -> save());
 ```
 
-You hand over a piece of behavior, and something else decides when to run it.
-Chapter 26 called this passing behavior as a value; here it is the basis of an
-entire program's structure.
+You hand over a piece of behaviour and walk away. Something else will decide when
+it runs, and how often, and whether at all. Chapter 26 called that passing
+behaviour as a value; here it is holding up an entire program.
 
 ## Registration
 
@@ -33,13 +33,14 @@ key i
 typed = hi
 ```
 
-That is the general contract: **many listeners per event, called in the order
-registered, each independent.** No listener knows the others exist, and the source
-knows nothing about any of them beyond the interface.
+So the contract is: **as many listeners per event as you like, called in
+registration order, each one independent.** No listener knows the others are
+there. The button knows nothing about any of them beyond the interface.
 
-That decoupling is the point. A button knows how to detect a press and nothing
-about saving files; the code that saves files knows nothing about buttons. Neither
-would have to change if the other were replaced.
+Sit with how thoroughly those two ends have been separated. A button knows how to
+notice a press and nothing whatsoever about saving files. The file-saving code has
+never heard of buttons. Replace either one and the other does not change — which is
+why the same button class can serve every application ever written with it.
 
 The pattern's name is **Observer**, it is Chapter 23's design-patterns material,
 and of all the patterns in that book it is the one you will meet most often away

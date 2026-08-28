@@ -1,7 +1,9 @@
 # switch and Dispatch
 
-When the choice is among many values of one thing, a chain of `else if` gets
-repetitive:
+Some choices are not really true-or-false questions. You have one value and a list
+of possibilities, and all you want to know is which one it is.
+
+Written with `else if`, that reads like somebody counting on their fingers:
 
 ```java
 if (day == 1)      name = "Monday";
@@ -10,8 +12,10 @@ else if (day == 3) name = "Wednesday";
 // ...
 ```
 
-Every branch compares the same variable against a different constant. `switch`
-says that once.
+Look at how much of that is the same words over and over. Every branch compares
+the same variable against a different constant, and says so out loud each time.
+
+`switch` says it once.
 
 ## The modern form
 

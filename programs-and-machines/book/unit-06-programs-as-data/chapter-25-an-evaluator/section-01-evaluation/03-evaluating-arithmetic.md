@@ -41,9 +41,10 @@ print 100 / 7;        ->  14
 print 0 - 5;          ->  -5
 ```
 
-## It is the tree walk again
+## You have written this before
 
-Compare with `depth` from Section 24.2.2:
+Put it beside the `depth` method from the last chapter, which measured how tall a
+tree was:
 
 ```java
 case Num n -> 1;
@@ -51,12 +52,15 @@ case Var v -> 1;
 case Bin b -> 1 + Math.max(depth(b.left()), depth(b.right()));
 ```
 
-Same skeleton. Base cases return; the recursive case recurses on the children and
-combines. `depth` combines with `max`; `eval` combines with the operator. That is
-the only difference between measuring a tree and running it.
+Identical skeleton. Base cases return something; the recursive case walks the
+children and combines what comes back. `depth` combines with `max`. `eval`
+combines with the operator.
 
-This is worth dwelling on because it demystifies the word *interpreter*. An
-interpreter is a recursive function over a tree. You have written several.
+That is the entire difference between *measuring* a tree and *running* one.
+
+Which should take some of the mystique out of the word interpreter. An interpreter
+is a recursive function over a tree. You have written several already; this one
+just has a more impressive name.
 
 ## Where precedence went
 

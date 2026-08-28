@@ -1,7 +1,15 @@
 # Why an Index Is Arithmetic
 
-Memory is a numbered sequence of bytes. Chapter 1 called the numbering
-*addressing* and said it was why widths had to be fixed. Here is the payoff.
+Here is a question that sounds too simple to be worth asking. When you write
+`a[500]`, how does the machine find element 500?
+
+It could search. It could keep a table of where everything is. It does neither,
+and what it does instead accounts for every property an array has — including the
+irritating ones.
+
+Start with memory, which is a numbered sequence of bytes. Chapter 1 called that
+numbering *addressing* and said it was why widths had to be fixed. This is the
+payoff.
 
 ## The layout
 

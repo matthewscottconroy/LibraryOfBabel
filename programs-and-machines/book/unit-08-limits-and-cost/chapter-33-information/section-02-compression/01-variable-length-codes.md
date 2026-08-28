@@ -8,8 +8,11 @@ the type case. Common letters got short codes; rare ones got long. `E` is one do
 `Q` is dash-dash-dot-dash. That is a century before anyone could say why it worked,
 and this lesson is about doing it optimally rather than by eye.
 
-Section 33.1.2 said English carries about one bit per character and is stored at
-eight. Closing that gap is compression, and the first idea is the oldest one.
+One bit per character, stored at eight. Seven eighths of every English text file
+you have ever saved is, in a precise sense, nothing at all.
+
+Closing that gap is compression, and the first idea anybody had about it is still
+the one everything else is built on.
 
 **Give frequent symbols short codes and rare symbols long ones.**
 
@@ -19,13 +22,15 @@ right idea a century before there was a theory saying why.
 
 ## The prefix property
 
-Variable-length codes have a problem fixed-length ones do not. Given
+Except that variable-length codes have a problem fixed-length ones never face.
+Try to decode this:
 
 ```
 a -> 0        b -> 1        c -> 01
 ```
 
-the bits `01` could be `c`, or `a` then `b`. The code is ambiguous.
+The bits `01` are `c`. They are also `a` followed by `b`. Nothing in the stream
+says which, and no amount of looking further along will settle it.
 
 The fix is the **prefix property**: no code word is a prefix of another. Then a
 decoder reading left to right knows a symbol has ended the moment it recognizes
@@ -37,9 +42,13 @@ a -> 0        b -> 10       c -> 110      d -> 111
 
 Decode `0101110`: `0` is `a`; `10` is `b`; `111` is `d`; `0` is `a`. Unambiguous.
 
-Such a code is exactly a **binary tree** with symbols at the leaves — left is 0,
-right is 1, and a path from the root spells a code word. Nothing is a prefix of
-anything else precisely because no leaf is an ancestor of another.
+And now look at what a prefix code actually *is*. Put the symbols at the leaves of
+a binary tree, call left 0 and right 1, and a path from the root spells out a code
+word.
+
+No code word can be a prefix of another, because no leaf is ever an ancestor of
+another leaf. The property you wanted turns out to be a fact about trees, which is
+why the algorithm coming next builds one.
 
 That is the Chapter 24 tree in a third role, and it is why the algorithm below
 builds one.
@@ -50,8 +59,15 @@ resynchronize after damage.
 
 ## Huffman's algorithm
 
-David Huffman, 1952, as a term-paper alternative to a final exam. The algorithm is
-four lines and it is provably optimal.
+In 1952 David Huffman was a graduate student who had been offered a choice: sit the
+final exam, or write a term paper on finding the most efficient binary code.
+
+He took the paper. He worked at it for months and very nearly gave up. Then he
+found this, which is four lines long and provably optimal — and which neither his
+professor nor Shannon had managed, both having attacked it from the top down.
+
+He said afterwards that he would never have attempted it if he had known they had
+tried and failed.
 
 > Put every symbol in a priority queue keyed by frequency.
 > While more than one remains: remove the two smallest, join them under a new node

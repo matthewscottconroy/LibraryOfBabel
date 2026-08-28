@@ -17,13 +17,15 @@ Shannon also carried out the guessing experiment behind Section 33.1.2's estimat
 that English is about one bit per character, using his wife Betty as a subject and
 a text she had not read.
 
-**David Huffman** (1925–1999) was a graduate student in 1951 when his professor,
-Robert Fano, offered a choice between a final exam and a term paper on finding the
-most efficient binary code. Huffman took the paper, worked at it for months,
-nearly gave up, and then found the bottom-up greedy construction — which turned
-out to be optimal, which neither Fano nor Shannon had managed with their own
-top-down approaches. He said later he would never have attempted it had he known
-they had tried and failed.
+**David Huffman** (1925–1999) produced the coding algorithm of Section 33.2.1 as a
+graduate student, in circumstances the lesson describes. What is worth adding here
+is the shape of what he found: Fano and Shannon had both attacked the problem from
+the top down, splitting the symbol set repeatedly, and both had produced codes that
+were good and not optimal. Huffman built from the bottom, joining the two least
+frequent symbols first. The direction was the whole difference. He spent the rest of
+his career on rather different problems — finite-state machines, signal designs, and
+the mathematics of folding paper — and is said to have been mildly irritated that
+one term paper defined him.
 
 **Abraham Lempel** (1936–2023) and **Jacob Ziv** (1931–2023) published LZ77 and
 LZ78 in 1977 and 1978, introducing dictionary compression: replace a repeated

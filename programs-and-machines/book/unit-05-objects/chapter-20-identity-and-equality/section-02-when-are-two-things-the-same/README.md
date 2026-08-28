@@ -1,5 +1,14 @@
 # When Are Two Things the Same?
 
+Java offers two ways to ask whether two things are the same. They look almost
+identical, and choosing wrongly gives you a program that passes on your test data
+and fails on real data — the worst failure mode there is, since testing does not
+catch it.
+
+The difficulty is not the syntax. It is that "the same" is genuinely ambiguous,
+and the language cannot settle the ambiguity for you, because the answer depends on
+what you are modelling.
+
 Three lessons, and the chapter's reason for existing.
 
 `==` against `.equals` first: two operators asking two genuinely different

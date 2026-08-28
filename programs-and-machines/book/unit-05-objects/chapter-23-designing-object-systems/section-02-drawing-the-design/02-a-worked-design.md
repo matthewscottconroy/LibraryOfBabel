@@ -1,5 +1,13 @@
 # A Worked Design
 
+Every design in this chapter so far has arrived finished, which is a dishonest way
+to present the subject. Finished designs make the decisions look inevitable, and
+they were not — somebody tried something else first.
+
+So here is one worked from a paragraph of requirements to running code, with the
+wrong turns left in. The wrong turns are the part worth reading; watching somebody
+change their mind is more instructive than watching them be right.
+
 A problem, in one paragraph:
 
 > A study program holds flashcards. Each card has a front and a back. After

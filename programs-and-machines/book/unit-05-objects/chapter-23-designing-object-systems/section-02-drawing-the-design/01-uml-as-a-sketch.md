@@ -1,5 +1,12 @@
 # UML as a Sketch
 
+Ten minutes with a pen, before any code exists, is frequently the highest-value ten
+minutes in a project. The same ten minutes spent after the code exists is worth
+close to nothing.
+
+That asymmetry is the whole of what follows, and it explains why this lesson
+recommends drawing and also recommends throwing the drawing away.
+
 **UML** — the Unified Modeling Language — is a notation for drawing software.
 It was standardized in 1997, it has thirteen diagram types, and there was a period
 when serious people believed programs would be drawn rather than written.

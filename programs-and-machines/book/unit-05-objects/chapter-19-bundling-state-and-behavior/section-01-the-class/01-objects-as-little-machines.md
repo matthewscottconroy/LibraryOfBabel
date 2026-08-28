@@ -1,5 +1,19 @@
 # Objects as Little Machines
 
+Think about a vending machine for a moment.
+
+At any instant it is in some condition: how much money you have put in, what is in
+stock, whether it is waiting for a selection. That condition is not visible from
+outside except through what the machine lets you do — insert a coin, press a
+button, take the change. And each of those actions moves it from one condition to
+the next.
+
+You cannot reach in and set the credit to five pounds. Not because it would be
+philosophically wrong, but because the panel does not offer it, and the panel is
+all you have.
+
+That is this chapter, and you have been carrying the idea since Chapter 6.
+
 Chapter 6 described a machine as state plus transitions that change it. An
 **object** is exactly that, at a scale you choose.
 

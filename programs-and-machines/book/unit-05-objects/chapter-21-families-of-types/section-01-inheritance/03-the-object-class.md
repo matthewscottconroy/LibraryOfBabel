@@ -1,5 +1,12 @@
 # The Object Class
 
+You have overridden `toString` and `equals` on classes that extend nothing. Where
+did they come from?
+
+Something must already have declared them, or there would be nothing to override —
+and whatever declared them is a class you have never named and every class you have
+ever written is descended from.
+
 Every class in Java extends something. If you do not say what, it extends
 `Object`.
 

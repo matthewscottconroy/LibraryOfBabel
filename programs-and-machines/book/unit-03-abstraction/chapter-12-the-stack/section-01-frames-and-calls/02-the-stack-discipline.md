@@ -1,5 +1,19 @@
 # The Stack Discipline
 
+You are reading a sentence in a book and it mentions a word you do not know. You
+stop, look the word up, and the dictionary entry uses a second word you do not
+know. You look *that* up. Now finish something.
+
+You cannot finish the sentence first. You cannot even finish the first dictionary
+entry first. The only thing you can finish is the second lookup — the one you
+started most recently — and finishing it lets you finish the one before it, and
+so on back to the sentence.
+
+Nobody taught you that rule. It falls out of the situation: interruptions nest,
+and nested things must be completed inside out. Method calls are interruptions of
+exactly this kind, which is why the machine can store them in the simplest
+possible structure.
+
 A **stack** is a collection with one rule: the last thing added is the first thing
 removed. Add is called **push**, remove is called **pop**.
 

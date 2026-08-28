@@ -1,5 +1,15 @@
 # Programming to an Interface
 
+There is a line you have been writing since Chapter 17 without being told why:
+
+```java
+List<String> names = new ArrayList<>();
+```
+
+Two different type names for one object, which looks like an inconsistency a
+careful person would want to remove. The argument for it is now available, and it
+generalises well past collections.
+
 Chapter 17 gave a rule without an argument:
 
 ```java

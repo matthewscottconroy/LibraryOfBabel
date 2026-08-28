@@ -1,5 +1,13 @@
 # The Substitution Principle
 
+Every hierarchy in this chapter has compiled. That is a low bar, and this lesson is
+about what it does not clear.
+
+Coming up is a class that extends another, overrides two methods, keeps its own
+rules honestly, and compiles without a warning — and makes a correct caller compute
+25 where it was entitled to 20. Nobody makes a mistake. Every line is defensible.
+The error is in the relationship itself, and the compiler has no way to see it.
+
 The compiler will let you write any hierarchy you like. It checks that the method
 signatures line up and stops there. Whether the hierarchy *means* anything — whether
 a subclass can actually stand in for its superclass — is not a question the type

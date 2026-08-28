@@ -1,5 +1,19 @@
 # What a Test Is
 
+You write a method. You run it once with an input you had in mind, look at the
+output, and it is right. Good.
+
+Now you change something — rename a variable, extract a helper, fix an unrelated
+bug three lines away. Is it still right?
+
+You could run it again and look. You could run it with the three other inputs you
+thought of at the time, if you can remember what they were and what they were
+supposed to produce. In practice nobody does this reliably, which is why the
+answer to "is it still right" is usually a shrug, and why programs decay.
+
+The alternative is to write the checking down once, in code, so that the machine
+does the remembering and the looking.
+
 A **test** is a piece of code that runs your code and checks the result against
 what it should be.
 

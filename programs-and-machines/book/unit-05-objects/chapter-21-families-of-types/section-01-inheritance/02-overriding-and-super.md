@@ -1,5 +1,14 @@
 # Overriding and super
 
+A subclass that could only add things would be a weak tool. Most of the time what
+you want is to change something — to keep everything a `Shape` does except the one
+method where a circle differs.
+
+That sounds obvious and it collides with something from Chapter 11. You already
+know a way to have two methods with the same name. This lesson is largely about
+why that is a *different* mechanism, and why confusing the two produces surprises
+that look like the language misbehaving.
+
 **Overriding** is replacing an inherited method with your own.
 
 ```java

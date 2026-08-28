@@ -1,8 +1,27 @@
 # The Call Frame
 
-When a method is called, the machine needs somewhere to keep that call's
-information. That place is a **call frame**, sometimes called a stack frame or an
-activation record.
+Here is a small puzzle. This method calls itself:
+
+```java
+static int countdown(int n) {
+    if (n == 0) return 0;
+    return countdown(n - 1);
+}
+```
+
+Call `countdown(3)` and, for a moment, four calls are alive at once — one holding
+3, one holding 2, one holding 1, one holding 0. Four different values of a
+variable that the source code declares exactly once.
+
+So where is the second `n`?
+
+It cannot be in the same place as the first, or the first would have been
+overwritten and the outer call would have nothing to come back to. There must be
+somewhere the machine puts *this call's* variables, distinct from every other
+call's, and that gets cleared away when the call finishes.
+
+That place is a **call frame**, sometimes called a stack frame or an activation
+record.
 
 ## What is in one
 

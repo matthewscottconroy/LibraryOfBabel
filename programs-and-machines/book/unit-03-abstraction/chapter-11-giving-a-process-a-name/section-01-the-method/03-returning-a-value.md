@@ -1,5 +1,13 @@
 # Returning a Value
 
+So far a method has been a one-way street. You hand it information and it does
+something — prints, perhaps. But most of the methods you actually want are not
+like that. You want to *ask* something and get an answer back that you can then
+use: store it, compare it, feed it into another method.
+
+`Math.max(a, b)` is not useful because of anything it does. It is useful because
+of what it hands back.
+
 Parameters carry information in. **Return values** carry it out.
 
 ```java

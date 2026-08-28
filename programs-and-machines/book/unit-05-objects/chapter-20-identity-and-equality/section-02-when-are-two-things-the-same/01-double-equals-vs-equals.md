@@ -1,5 +1,16 @@
 # == vs. equals
 
+Ask whether these are "the same coin" and you will get two different answers:
+
+- the fifty-pence piece in your left hand, and the one in your right
+- the fifty-pence piece in your left hand, and the fifty-pence piece in your left hand
+
+Everyone agrees about the second. The first depends entirely on what you meant —
+same *value*, plainly yes; same *object*, plainly no. Neither reading is wrong,
+and neither is the one a language should assume.
+
+Java refuses to guess, and hands you one operator for each question.
+
 Two operators, two questions.
 
 **`a == b`** asks: are these the same object? One thing, or two?

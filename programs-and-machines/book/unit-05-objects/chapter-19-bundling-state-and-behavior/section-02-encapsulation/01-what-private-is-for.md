@@ -1,5 +1,13 @@
 # What private Is For
 
+Here is a keyword that looks like bureaucracy. It adds a word to every field
+declaration and appears to buy nothing: the data is still there, and you have only
+made it harder to reach.
+
+The argument of this lesson is that "harder to reach" is the entire point, and that
+it buys one specific thing — it makes the set of code that could have broken a rule
+small enough to read.
+
 ```java
 public class Account {
     private long cents;

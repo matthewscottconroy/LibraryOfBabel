@@ -1,6 +1,22 @@
 # null and the Billion-Dollar Mistake
 
-Every reference type in Java can hold `null`, meaning *refers to nothing*.
+In 2009 Tony Hoare stood up at a conference and apologized for something he had
+done in 1965.
+
+He had been designing a type system, and it was, he said, the first comprehensive
+one for references in an object-oriented language. He wanted it to guarantee that
+every use of a reference was safe, checked by the compiler. Then he put in a null
+reference anyway:
+
+> I couldn't resist the temptation to put in a null reference, simply because it
+> was so easy to implement.
+
+He called it his billion-dollar mistake, and the estimate was not a generous one —
+he was counting the errors, vulnerabilities, and crashes that have followed from
+it over four decades.
+
+You are about to inherit it. Every reference type in Java can hold `null`, meaning
+*refers to nothing*.
 
 ```java
 String s = null;

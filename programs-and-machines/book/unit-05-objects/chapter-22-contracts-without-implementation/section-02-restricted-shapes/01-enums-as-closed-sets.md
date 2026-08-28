@@ -1,5 +1,17 @@
 # Enums as Closed Sets
 
+Some sets do not grow. There are seven days, four suits, three states a traffic
+light can be in, and no amount of future requirements will produce an eighth day.
+
+Represent those with numbers — 0 for Monday, 1 for Tuesday — and nothing stops a
+variable holding 9, nothing stops you passing a day where a suit was expected since
+both are `int`, and printing gives you `1` rather than `TUESDAY`. Worst of all, the
+compiler cannot tell you that a `switch` forgot a case, because as far as it knows
+there are four billion of them.
+
+Every one of those problems comes from the same source: you knew the set was
+closed and had no way to say so.
+
 Some sets are finite and known. Days of the week. Suits in a deck. The three
 states a traffic light can be in.
 

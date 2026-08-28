@@ -1,6 +1,16 @@
 # Wrapper Classes
 
-Java has a split at the bottom of its type system.
+You have a list of names and it works. You want a list of numbers, so you write
+`List<int>` — and it does not compile.
+
+That is a strange thing for a language to refuse. Numbers are the most ordinary
+data there is, and a collection of them is the most ordinary thing to want. The
+refusal is not arbitrary, and it is not a small wart either: it reaches into
+Chapter 26's stream performance, Chapter 27's erasure, and the forty near-identical
+interfaces in `java.util.function`.
+
+It comes from a decision made in 1995, and the decision was this. Java has a split
+at the bottom of its type system.
 
 **Primitives** — `int`, `double`, `char`, `boolean` and the rest — are the
 fixed-width values of Unit I. They live in variables directly, they are copied on

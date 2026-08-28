@@ -1,6 +1,8 @@
 # Declaring and Filling
 
-The mechanics, which are brief.
+The last lesson argued that an index is arithmetic. That argument is what an
+array *is*; this lesson is how you get one, which is short, and worth reading
+slowly anyway — two of these four lines are where beginners lose an hour.
 
 ## Creating one
 

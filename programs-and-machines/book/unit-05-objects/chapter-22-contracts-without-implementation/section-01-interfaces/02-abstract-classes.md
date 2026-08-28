@@ -1,5 +1,12 @@
 # Abstract Classes
 
+Sometimes neither extreme fits. You have four kinds of account that genuinely share
+a balance and genuinely share the logic for depositing into it — but they differ on
+one step, the fee, and you cannot write that step without knowing which kind you
+have.
+
+You want to write the algorithm once and leave a hole.
+
 An interface has no implementation. A class has all of it. An **abstract class**
 is the position between: some methods supplied, some left as holes.
 

@@ -1,5 +1,17 @@
 # One Name, Many Behaviors
 
+Suppose you are drawing shapes and you write the obvious thing: check what kind of
+shape it is, then compute its area accordingly. A circle here, a square there, a
+triangle when you add triangles.
+
+Now add a triangle. You must find that chain of checks and extend it — and every
+other chain like it in the program, and hope you found them all. Nothing will tell
+you that you missed one; you will discover it from the `else` at the bottom, at run
+time, in front of a user.
+
+There is an arrangement in which adding a triangle means writing a triangle and
+touching nothing else.
+
 *Polymorphism* is Greek for "many forms". In Java it means: a single call site
 runs different code depending on the actual type of the receiver.
 

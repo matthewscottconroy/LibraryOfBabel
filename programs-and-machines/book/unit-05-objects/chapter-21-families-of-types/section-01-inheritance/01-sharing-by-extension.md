@@ -1,5 +1,13 @@
 # Sharing by Extension
 
+Some things really are special cases of other things. A circle is a shape. A
+savings account is an account. Saying so in code lets you write a method that
+works on shapes and hand it a circle.
+
+Java gives you a keyword for that claim. What makes this chapter more than syntax
+is that the keyword is a *promise*, the compiler checks only the smaller half of
+it, and the half it does not check is where the trouble lives.
+
 ```java
 class Shape {
     double area() { return 0; }

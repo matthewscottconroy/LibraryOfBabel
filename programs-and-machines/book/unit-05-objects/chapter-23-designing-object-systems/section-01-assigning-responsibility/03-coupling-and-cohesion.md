@@ -1,5 +1,13 @@
 # Coupling and Cohesion
 
+Chapter 14 handed you two words and asked you to notice things with them. Now they
+have to do some work.
+
+The slogan is *high cohesion, low coupling*, and as slogans go it is unusually
+empty — nobody has ever set out to write incoherent, tightly coupled code. What
+makes the pair useful is that both are measurable enough to argue about, and that
+they are proxies for a question you can answer with a number.
+
 Chapter 14 introduced two words and promised to take them seriously here.
 
 **Cohesion** is how strongly the parts of one unit belong together.

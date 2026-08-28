@@ -1,5 +1,15 @@
 # Dynamic Dispatch
 
+The last lesson made a claim that ought to seem impossible on reflection.
+
+Code compiled today calls `area()` on a shape. A class written next year, which
+the compiler that produced that code never saw, supplies its own `area()`. And the
+old, already-compiled code calls the new method.
+
+Nothing was recompiled. So the decision about *which* method runs cannot have been
+made when the call was compiled — and the mechanism that makes this work is worth
+knowing, because it explains both the power and the price.
+
 When the program reaches `s.area()`, something has to decide which `area` runs.
 The decision cannot be made when the code is compiled, because at that moment
 nobody knows what `s` will hold. It is made when the call happens, from the object

@@ -1,6 +1,13 @@
 # How Growth Actually Works
 
-An `ArrayList` stores its elements in an array. Arrays cannot grow. So how does it?
+There is something faintly impossible about the last lesson.
+
+An `ArrayList` stores its elements in an array. Chapter 15 established that an
+array's length is fixed when it is created, and that this is not an oversight but
+the price of `base + i * size` — you cannot guarantee contiguity while growing
+without moving everything.
+
+So an `ArrayList` is a growable thing built out of an ungrowable thing. How?
 
 It does not. **It replaces the array with a bigger one**, and the interesting part
 is how often.

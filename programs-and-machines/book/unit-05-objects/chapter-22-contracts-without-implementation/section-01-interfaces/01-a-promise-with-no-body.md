@@ -1,5 +1,11 @@
 # A Promise with No Body
 
+Here is a construct that sounds useless when described: a type with no fields, no
+constructor, and no method bodies. It cannot do anything. You cannot even make one.
+
+It is the most useful thing in the chapter, and the reason is that it is *nothing
+but a promise* — which turns out to be exactly what a caller needs and nothing more.
+
 ```java
 interface Drawable {
     void draw();

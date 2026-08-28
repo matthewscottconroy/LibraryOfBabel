@@ -1,5 +1,14 @@
 # Aliasing
 
+Here is something that has happened to nearly everyone who writes Java.
+
+You pass a list to a method to have it process the contents. The method returns.
+Your list is now shorter. You did not ask for that, nothing at the call site looked
+as though it modified anything, and the method's author would tell you — accurately
+— that they never touched *your* list.
+
+You are both right, and the reason has a name.
+
 Two names for one object.
 
 ```java

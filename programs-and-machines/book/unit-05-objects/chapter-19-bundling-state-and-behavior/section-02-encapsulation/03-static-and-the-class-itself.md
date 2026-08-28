@@ -1,5 +1,16 @@
 # static and the Class Itself
 
+Everything so far has belonged to an *object*. Each account has its own balance;
+each point has its own coordinates.
+
+But some things plainly belong to the kind rather than to any one instance. How
+many accounts have ever been created is not a fact about one account. Pi is not a
+fact about one circle. A method converting Fahrenheit to Celsius should not need a
+temperature to exist before it can run.
+
+Java spells all three with a single keyword, which is unfortunate, because that
+keyword means something different in each case.
+
 `static` shares its syntax with everything else in this chapter and means
 something different. It is where the Chapter 5 debts finally come due.
 

@@ -1,5 +1,10 @@
 # Fields and Constructors
 
+An object needs somewhere to keep what it knows, and it needs to begin life
+knowing something sensible. Those are two different problems, and Java gives them
+two different constructs — one saying what an object *holds*, the other saying how
+it comes into existence in a state worth having.
+
 A **field** is a variable belonging to an object. Chapter 7 met them briefly and
 noted the odd rule: unlike locals, fields are given a default automatically — 0,
 `false`, or `null`.

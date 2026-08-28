@@ -244,6 +244,21 @@ def main():
                         note('QUESTIONS', f"{d.name}/{f.name}: answer {a!r} is not a valid index")
                     else:
                         idxs.append(a)
+                elif kind == 'proof':
+                    # choices are the scaffold lines, some carrying '___';
+                    # answer is the pipe-separated fills, one per blank, in order.
+                    ch = q.get('choices', [])
+                    ans = q.get('answer')
+                    if not isinstance(ans, str):
+                        note('QUESTIONS', f"{d.name}/{f.name}: proof answer must be a string")
+                    else:
+                        blanks = sum(c.count('___') for c in ch if isinstance(c, str))
+                        fills = len([x for x in ans.split('|') if x.strip()])
+                        if blanks == 0:
+                            note('QUESTIONS', f"{d.name}/{f.name}: proof has no ___ blank")
+                        elif blanks != fills:
+                            note('QUESTIONS', f"{d.name}/{f.name}: "
+                                              f"{fills} fills for {blanks} blanks")
                 else:
                     note('QUESTIONS', f"{d.name}/{f.name}: bad kind {kind!r}")
             if idxs and len(set(idxs)) == 1:

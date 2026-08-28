@@ -1,5 +1,14 @@
 # Composition over Inheritance
 
+Here is a class you would write without hesitating. You want a `Set` that also
+counts how many elements have ever been added, so you extend `HashSet` and override
+the two methods that add things, incrementing a counter in each.
+
+Both overrides are correct. Both call `super`. Read it as carefully as you like;
+there is no mistake visible.
+
+Add three elements and it reports six.
+
 The argument this book has been deferring since Chapter 21.
 
 Two ways for class `A` to use class `B`:

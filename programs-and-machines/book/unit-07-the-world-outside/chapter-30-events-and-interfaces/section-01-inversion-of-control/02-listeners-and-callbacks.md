@@ -13,9 +13,9 @@ It starts with one line:
 button.addActionListener(e -> save());
 ```
 
-You hand over a piece of behaviour and walk away. Something else will decide when
+You hand over a piece of behavior and walk away. Something else will decide when
 it runs, and how often, and whether at all. Chapter 26 called that passing
-behaviour as a value; here it is holding up an entire program.
+behavior as a value; here it is holding up an entire program.
 
 ## Registration
 
@@ -92,7 +92,7 @@ public static void main(String[] args) {
 ```
 
 That is the whole of it. After `run()`, `main` does nothing for the rest of the
-program's life. Every behaviour your application has lives in a handler, called
+program's life. Every behavior your application has lives in a handler, called
 from outside, in an order that appears nowhere in your source.
 
 This is **inversion of control**, and it has a nickname — the Hollywood principle:
@@ -109,7 +109,7 @@ understanding a set of handlers and the state they share.
 
 **State becomes the wiring.** One handler sets something; a later one reads it.
 That shared state is now the real structure of your program — it is what connects
-behaviours that never call each other. Which makes Chapter 19's argument urgent
+behaviors that never call each other. Which makes Chapter 19's argument urgent
 rather than tidy: scatter that state across a dozen handlers and there is nothing
 left to reason about.
 

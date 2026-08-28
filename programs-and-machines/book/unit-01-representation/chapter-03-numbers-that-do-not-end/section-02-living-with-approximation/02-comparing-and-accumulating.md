@@ -21,7 +21,7 @@ This is called an absolute-tolerance comparison, and it works when you know the
 scale of your numbers in advance. It fails badly when you do not.
 
 Suppose your tolerance is $10^{-6}$. If `a` and `b` are around $10^{-9}$ — plausible for
-probabilities, or for values in metres that are really nanometres — then *every*
+probabilities, or for values in meters that are really nanometres — then *every*
 pair passes, because all such numbers are within $10^{-6}$ of each other. Your test
 always says "equal" and has told you nothing.
 

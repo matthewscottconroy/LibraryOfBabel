@@ -49,7 +49,7 @@ line of defense.
 
 **Correctness becomes conditional.** Until now a program was correct or it was
 not. Now it is correct *if* the file exists, *if* the encoding matches, *if* the
-network responds, *if* the interleaving is favourable. Programs at this level are
+network responds, *if* the interleaving is favorable. Programs at this level are
 built out of assumptions, and the skill is naming them, checking the ones you can,
 and failing usefully on the rest.
 

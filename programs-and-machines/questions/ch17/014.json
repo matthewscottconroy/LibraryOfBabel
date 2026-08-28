@@ -15,7 +15,7 @@
     "    }",
     "}"
   ],
-  "answer": "\"a,b,,\".split(\",\")|\"a,b,,\".split(\",\", -1)|parts.length",
+  "answer": "\"a,b,,\".split(\",\")|parts.length|\"a,b,,\".split(\",\", -1)",
   "explanation": "Verified: length 2 and length 4. `split` drops trailing empty strings unless you pass a negative limit, which means a CSV row ending in two empty fields loses them and every row afterwards has the wrong number of columns. This is a default that is convenient for interactive use and wrong for data processing, and Chapter 29 recommends a real CSV library partly because of it.",
   "tags": [
     "strings",

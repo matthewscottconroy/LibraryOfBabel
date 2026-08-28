@@ -31,7 +31,7 @@ distinction lives in one character — `<` versus `<=`, or `0` versus `1` — so
 wrong choice looks exactly like a right one.
 
 There is also the fencepost problem, which is the same thing in a different suit.
-A fence 100 metres long with posts every 10 metres needs **eleven** posts, not
+A fence 100 meters long with posts every 10 meters needs **eleven** posts, not
 ten. Count the gaps and you get ten; count the posts and there is one more,
 because both ends have one.
 

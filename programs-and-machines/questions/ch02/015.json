@@ -10,8 +10,8 @@
     "        double sum = 0;",
     "        for (int i = 0; i < 100; i++) ___;      // accumulate one hundredth",
     "        System.out.println(sum);",
-    "        System.out.println(\"exact  : \" + ___);  // the naive comparison",
-    "        System.out.println(\"within : \" + ___);  // the tolerance comparison",
+    "        System.out.println(\"exact  : \" + (___));  // the naive comparison",
+    "        System.out.println(\"within : \" + (___));  // the tolerance comparison",
     "    }",
     "}"
   ],

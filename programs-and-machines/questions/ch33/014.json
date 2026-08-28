@@ -13,7 +13,7 @@
     "        int[] d = new int[n];",
     "        for (int i = 0; i < n; i++) d[i] = ___;      // flip the diagonal entry",
     "        for (int i = 0; i < n; i++)",
-    "            System.out.println(\"row \" + i + \" differs from D at \" + i + \": \" + ___);",
+    "            System.out.println(\"row \" + i + \" differs from D at \" + i + \": \" + (___));",
     "    }",
     "}"
   ],

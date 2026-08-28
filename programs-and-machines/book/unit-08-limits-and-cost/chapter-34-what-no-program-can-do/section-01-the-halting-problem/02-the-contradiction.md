@@ -139,7 +139,7 @@ perfectly decidable: how many lines it has, whether it uses `goto`, whether a
 variable is declared before use, whether the types check. That is why compilers
 work.
 
-**Compilers analyse syntax, which is decidable. They cannot analyse behavior,
+**Compilers analyze syntax, which is decidable. They cannot analyze behavior,
 which is not.** Every static analysis tool lives on that line, and Section 34.1.3
 is about what they do at it.
 

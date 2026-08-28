@@ -22,7 +22,7 @@
     "    }",
     "}"
   ],
-  "answer": "abstract long fee(long amount)|balance += amount - fee(amount)|return a / 100",
+  "answer": "balance += amount - fee(amount)|abstract long fee(long amount)|return a / 100",
   "explanation": "Verified: 1500 then 1495. `deposit` was written once; the 5 that `Percent` withheld came from a method the parent calls and does not implement. That shape is the template method, and its value is that the *order* lives in one place and a subclass cannot get it wrong because it never sees it. Chapter 26 shows the same structure with a functional parameter instead, needing no class at all.",
   "tags": [
     "abstract-classes",

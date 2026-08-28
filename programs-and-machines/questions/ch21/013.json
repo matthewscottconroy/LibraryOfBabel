@@ -16,7 +16,7 @@
     "    }",
     "}"
   ],
-  "answer": "default String label() { return \"shape: \" + name(); }|String name()|new Dot().label()",
+  "answer": "String name()|default String label() { return \"shape: \" + name(); }|new Dot().label()",
   "explanation": "Verified: `shape: dot`. `Dot` never mentions `label` and has it anyway, which is exactly what let Java 8 add `sort`, `forEach` and `removeIf` to `List` without breaking implementations the JDK authors had never seen. Note that a default method may call the abstract ones, so it can supply real behaviour built out of the contract rather than merely a stub.",
   "tags": [
     "interfaces",

@@ -51,7 +51,7 @@ if (!(user != null && user.isActive())) { deny(); }
 ```
 
 **8.13.** A specification says: "reject applicants who are under 18, and
-applicants without a licence." Write the condition. Explain why the "and" in the
+applicants without a license." Write the condition. Explain why the "and" in the
 sentence becomes an `||` in the code.
 
 ## Java

@@ -1,6 +1,6 @@
 # Values and References
 
-Chapter 7 handed you a picture — a variable is a labelled box with a value in it —
+Chapter 7 handed you a picture — a variable is a labeled box with a value in it —
 and quietly added that it would stop being true later.
 
 This is later.

@@ -92,6 +92,6 @@ of 12 rather than the predicted 4, reproducibly, and this chapter does not
 establish why. A model with a residual is still a model; a chapter showing only the
 rows that fit would teach something false.
 
-**Analyse to predict how it scales; measure to know what it costs.** Both, for
+**Analyze to predict how it scales; measure to know what it costs.** Both, for
 different questions. Analysis without measurement optimizes the wrong constant;
 measurement without analysis ships something that fails when the data grows.

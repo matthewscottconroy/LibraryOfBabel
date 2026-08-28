@@ -39,6 +39,6 @@ All of them are paid here.
 One thing to hold on to. This chapter is not pessimistic. A result that says
 something is impossible is a result that stops you looking, tells you which
 approximations are the honest ones, and explains why the tools you use behave as
-they do — why a compiler warns rather than proves, why a static analyser has false
+they do — why a compiler warns rather than proves, why a static analyzer has false
 positives, why an antivirus scanner cannot be complete. Knowing where the wall is
 is more useful than believing there is no wall.

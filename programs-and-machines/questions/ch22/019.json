@@ -21,7 +21,7 @@
     "    }",
     "}"
   ],
-  "answer": "for (Item i : items) t += i.minutes()|p.totalMinutes()|List.copyOf(items)",
+  "answer": "for (Item i : items) t += i.minutes()|List.copyOf(items)|p.totalMinutes()",
   "explanation": "Verified: 78, and calling `add` on the returned list throws. The caller-side loop would need three facts about the playlist's insides — that items can be obtained, that they have durations, that a total is a sum — and writing it in four places freezes the representation. `List.copyOf` on the way out is the other half: a getter returning the field hands out the ability to break the invariant.",
   "tags": [
     "responsibility",

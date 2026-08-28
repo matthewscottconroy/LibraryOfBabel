@@ -19,7 +19,7 @@
     "    }",
     "}"
   ],
-  "answer": "new ArrayList<Integer>()|new LinkedList<Integer>()|list.get(i)",
+  "answer": "list.get(i)|new ArrayList<Integer>()|new LinkedList<Integer>()",
   "explanation": "Verified on the book's machine: `ArrayList 0 ms` against `LinkedList 2494 ms` for the same 100,000 indexed reads through the same interface — matching Chapter 17's 2,589 ms. `get(i)` is address arithmetic on one and a walk from the head on the other, and contiguity is not in the interface. The response is not to distrust abstractions but to know which leak and where, and to be able to drop a level when a measurement disagrees with the model.",
   "tags": [
     "abstraction",

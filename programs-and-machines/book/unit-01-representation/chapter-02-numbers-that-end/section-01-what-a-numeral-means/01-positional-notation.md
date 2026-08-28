@@ -131,7 +131,7 @@ can reject it without computing anything, because 8 is not a base-seven digit.
 Digits always run from 0 to *b* − 1. Learning to spot that sort of impossibility
 at a glance is worth more than being quick at conversion.
 
-## Why this generalises
+## Why this generalizes
 
 The reason to care is that base two is just this rule with *b* = 2.
 

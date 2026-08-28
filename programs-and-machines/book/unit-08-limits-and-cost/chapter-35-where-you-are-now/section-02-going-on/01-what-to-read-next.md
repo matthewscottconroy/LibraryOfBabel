@@ -16,7 +16,7 @@ only act on one of them, act on that one.
 If you read only three, these.
 
 **Abelson and Sussman, *Structure and Interpretation of Computer Programs*.** Free
-online. This book's Unit VI is modelled on it and said so. Read it now for the
+online. This book's Unit VI is modeled on it and said so. Read it now for the
 same material in Scheme, which strips away Java's syntax and leaves the ideas
 uncomfortably visible. Chapter 4 builds the metacircular evaluator you have
 already built, and sections 4.2 and 4.3 then change it to be lazy and then

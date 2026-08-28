@@ -17,7 +17,7 @@
     "    }",
     "}"
   ],
-  "answer": "p * (1 - p) == 0|-(p * log2(p) + (1 - p) * log2(1 - p))|Math.log(x) / Math.log(2)",
+  "answer": "Math.log(x) / Math.log(2)|p * (1 - p) == 0|-(p * log2(p) + (1 - p) * log2(1 - p))",
   "explanation": "Verified: 1.0000, 0.4690, 0.0808, 0.0114. A coin landing heads 99.9% of the time carries about a hundredth of a bit per flip, so a thousand flips carry about 11 bits and could be sent in two bytes. The guard for p = 0 and p = 1 is necessary rather than tidy: `log(0)` is negative infinity and the product would be NaN.",
   "tags": [
     "entropy",

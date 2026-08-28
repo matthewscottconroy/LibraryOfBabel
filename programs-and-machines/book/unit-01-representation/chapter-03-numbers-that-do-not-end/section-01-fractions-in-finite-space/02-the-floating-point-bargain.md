@@ -16,7 +16,7 @@ you to. The largest value is about 4 billion, and the smallest step is about
 2 × $10^{-10}$. Every number gets the same absolute precision.
 
 That is the flaw. If you are measuring interstellar distances you have no use for
-ten decimal places of a metre, and 4 billion is nowhere near enough range. If you
+ten decimal places of a meter, and 4 billion is nowhere near enough range. If you
 are measuring the mass of an electron, a step size of 2 × $10^{-10}$ is uselessly
 coarse. The precision you need is almost always *relative* to the size of the
 thing you are measuring — you want a fixed number of significant figures, not a

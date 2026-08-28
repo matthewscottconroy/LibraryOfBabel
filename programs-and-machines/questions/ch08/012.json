@@ -18,7 +18,7 @@
     "    public static void main(String[] args) { System.out.println(gcd(1071, 462)); }",
     "}"
   ],
-  "answer": "b != 0|a % b|gcd(a, b) is unchanged",
+  "answer": "gcd(a, b) is unchanged|b != 0|a % b",
   "explanation": "Verified: 21. The invariant is the interesting fill — every iteration changes both variables and leaves their gcd alone, which is why the value you return at the end is the value you wanted at the start. That is what a loop invariant is for: it is the thing that stays true so that the final state tells you something about the initial one. The variant, separately, is that `b` strictly decreases, which is why it terminates.",
   "tags": [
     "loops",

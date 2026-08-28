@@ -24,7 +24,7 @@ both abandoned them is the strongest available evidence about the feature.
 **Andrei Alexandrescu** and **Walter Bright**, working on D, and the Go team of
 **Rob Pike**, **Ken Thompson** and **Robert Griesemer**, are worth naming together
 for having designed languages after Java with full knowledge of it and having
-declined to copy checked exceptions — Go declining exceptions altogether in favour
+declined to copy checked exceptions — Go declining exceptions altogether in favor
 of returned error values, on the argument from Section 28.1.1 that invisible
 control flow is too high a price. Go's approach has its own well-known
 verbosity problem, which is the propagation cost arriving as predicted.

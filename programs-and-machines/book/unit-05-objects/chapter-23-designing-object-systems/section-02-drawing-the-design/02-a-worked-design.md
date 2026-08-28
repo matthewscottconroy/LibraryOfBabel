@@ -42,7 +42,7 @@ at run time.
 **Student** — probably not, and this is the interesting one. The word is in the
 paragraph, so the instinct is to make a class for it. But read the requirements
 again: nothing asks the program to *know* anything about a student. A class with
-no state and no behaviour is a class waiting to be deleted, so leave it out. If
+no state and no behavior is a class waiting to be deleted, so leave it out. If
 something later needs it, it will say so.
 
 **Study program** — the whole application, not a class. But something has to hold
@@ -66,7 +66,7 @@ class Card {
 ```
 
 And it looks right. The card knows its own state, and the last section spent
-several pages arguing that behaviour belongs with the data it needs.
+several pages arguing that behavior belongs with the data it needs.
 
 It is wrong, and the reason is worth naming carefully, because it is subtle enough
 that I did not see it until I tried to write the next method: **`review` needs the

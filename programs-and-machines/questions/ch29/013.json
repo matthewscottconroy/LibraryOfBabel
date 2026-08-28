@@ -13,7 +13,7 @@
     "        ___;                                // slow work, on the loop",
     "        // handler 2, for a key, runs next:",
     "        finished[0] = ___;",
-    "        System.out.println(\"the key event waited \" + ___ + \" ms\");",
+    "        System.out.println(\"the key event waited \" + (___) + \" ms\");",
     "    }",
     "}"
   ],

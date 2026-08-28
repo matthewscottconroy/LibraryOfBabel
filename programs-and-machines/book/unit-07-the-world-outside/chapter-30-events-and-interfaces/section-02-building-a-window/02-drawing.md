@@ -138,7 +138,7 @@ qualifier: `java.util.Timer` also exists and fires on its own thread, which
 violates the single-thread rule. The Swing one fires on the event dispatch thread,
 which is what you want.
 
-And note the division of labour: the timer advances the model and *requests* a
+And note the division of labor: the timer advances the model and *requests* a
 repaint. `paintComponent` still only draws. This is Section 30.2.3's separation
 appearing in the smallest possible case.
 

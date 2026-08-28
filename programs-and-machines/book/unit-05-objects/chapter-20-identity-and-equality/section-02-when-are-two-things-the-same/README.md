@@ -7,7 +7,7 @@ catch it.
 
 The difficulty is not the syntax. It is that "the same" is genuinely ambiguous,
 and the language cannot settle the ambiguity for you, because the answer depends on
-what you are modelling.
+what you are modeling.
 
 Three lessons, and the chapter's reason for existing.
 

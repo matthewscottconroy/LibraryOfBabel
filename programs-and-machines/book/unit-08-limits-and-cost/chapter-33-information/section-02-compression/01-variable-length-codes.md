@@ -130,7 +130,7 @@ the standard additions are two.
 **Dictionary compression** — Lempel and Ziv, 1977 and 1978 — replaces a repeated
 sequence with a reference to its earlier occurrence. This is where most of the win
 comes from in text, because text repeats words and phrases rather than merely
-favouring letters.
+favoring letters.
 
 `gzip` is LZ77 followed by Huffman: find the repetitions, then encode what remains
 by frequency. Almost every general-purpose compressor is some version of that
@@ -167,7 +167,7 @@ particular source is near zero.
 Everything above is **lossless** — the original is recovered exactly.
 
 JPEG, MP3 and video codecs are **lossy**: they discard information deliberately,
-choosing what a human will not notice. Frequencies outside hearing, colour detail
+choosing what a human will not notice. Frequencies outside hearing, color detail
 the eye resolves poorly, small differences between adjacent frames.
 
 The ratios are much larger — ten to a hundred times, against two or three for

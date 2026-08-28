@@ -2,7 +2,7 @@
 
 **Joshua Bloch, *Effective Java*, third edition.** Items 69 through 77 are the
 best short treatment of this chapter's material: use exceptions only for
-exceptional conditions, favour unchecked exceptions where the caller cannot
+exceptional conditions, favor unchecked exceptions where the caller cannot
 recover, include failure-capture information, and — Item 77 — do not ignore
 exceptions. Item 72 on standard exceptions is the reference for which type to
 throw.

@@ -54,7 +54,7 @@ operations whose order nobody ever specified. And the property `plain++` lacks i
 **atomicity** — the guarantee that an operation cannot be caught half-finished from
 outside.
 
-The scale of the loss up there is not dramatic licence. Eight threads on
+The scale of the loss up there is not dramatic license. Eight threads on
 twenty-four cores, all hammering one memory location, collide nearly every time.
 
 ## It is worse than that
@@ -67,8 +67,8 @@ proves nothing, and a bug that appears once a week cannot be reproduced on deman
 
 **A debugger makes it go away.** Stepping through slows one thread to a crawl, the
 interleaving stops happening, and everything works — which is the most
-demoralising possible outcome, because it looks like the bug is afraid of you. Print
-statements do the same thing. Here, uniquely, observing changes the behaviour, and
+demoralizing possible outcome, because it looks like the bug is afraid of you. Print
+statements do the same thing. Here, uniquely, observing changes the behavior, and
 these bugs have to be reasoned about rather than watched.
 
 **The processor and compiler reorder.** Both are permitted to execute your
@@ -182,7 +182,7 @@ a failure is not evidence.
 
 What does work: reason about which state is shared, keep the amount of it small
 enough to enumerate, and use tools built for the job — Java's `jcstress` harness,
-thread sanitizers, and static analysers that find unsynchronized access.
+thread sanitizers, and static analyzers that find unsynchronized access.
 
 And the strongest technique remains the structural one. **A program with no shared
 mutable state cannot have a race**, and that property can be established by

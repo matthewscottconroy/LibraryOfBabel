@@ -94,7 +94,7 @@ if (age < 18 || !hasLicence) {
 }
 ```
 
-"Too young, or no licence."
+"Too young, or no license."
 
 That is what a human being would have said in the first place, and now the code
 says it too. Nothing about the behavior changed. What changed is that a reader can
@@ -129,7 +129,7 @@ Notice that nothing was logically reduced there. Not one operator was removed. I
 became readable, which was the actual problem all along.
 
 **Be suspicious of the English word "and".** A specification says: "reject users
-under 18 and users without a licence." That "and" is describing two rules. The
+under 18 and users without a license." That "and" is describing two rules. The
 condition that implements it uses an OR.
 
 This is a place where requirements quietly turn into bugs, and it is where this

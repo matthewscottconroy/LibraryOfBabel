@@ -44,7 +44,7 @@ Section 25.1.2 describes as one argument in `apply`. Their "Lambda Papers" of th
 following years argued that procedure calls and message sends and `goto` are the
 same operation seen from different angles, and that a well-implemented function
 call needs no more machinery than a jump. Sussman later co-wrote *Structure and
-Interpretation of Computer Programs*, which this unit is modelled on and which
+Interpretation of Computer Programs*, which this unit is modeled on and which
 builds this chapter's interpreter in Scheme.
 
 **Harold Abelson** (born 1947) co-wrote SICP with Sussman and taught the course it

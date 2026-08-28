@@ -20,7 +20,7 @@
     "    }",
     "}"
   ],
-  "answer": "size <= items.length|checkInvariant()|new IllegalStateException(\"invariant broken\")",
+  "answer": "size <= items.length|new IllegalStateException(\"invariant broken\")|checkInvariant()",
   "explanation": "Verified: it prints `ok`, and adding a fifth item throws — because the invariant catches the overflow the moment it happens rather than letting a corrupted `size` propagate. Chapter 16's claim is that the invariant *is* the data structure: an array plus a `size` is a heap of values, and the promise that the first `size` entries are the real ones is what makes it a bag.",
   "tags": [
     "invariants",

@@ -70,7 +70,7 @@ method decides halting for arbitrary programs.
 right, which is why it was written. A range has two ends and four plausible
 conventions, and the difference is one character.
 
-**The fencepost.** 100 metres with a post every 10 metres needs eleven posts. Gaps
+**The fencepost.** 100 meters with a post every 10 meters needs eleven posts. Gaps
 and posts differ by one.
 
 **Half-open ranges.** Java includes the start and excludes the end. The count is

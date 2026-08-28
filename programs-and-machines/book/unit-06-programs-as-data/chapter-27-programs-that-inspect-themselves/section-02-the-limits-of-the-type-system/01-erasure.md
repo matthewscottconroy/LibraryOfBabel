@@ -98,7 +98,7 @@ conclusion than one of them being cleverer.
 ## The bill
 
 Every restriction below is the same fact, wearing a different hat. Once you know
-the cause you stop having to memorise them.
+the cause you stop having to memorize them.
 
 **You cannot ask `instanceof` about a type argument.**
 ```java
@@ -110,7 +110,7 @@ There is nothing at run time to ask about.
 **You cannot write `new T[]` or `new T()`.** At the moment that code runs, nobody
 knows what `T` was. Library code works around it with `(T[]) new Object[n]` and an
 unchecked warning — open `ArrayList` and you will find exactly that line, with a
-comment apologising for it.
+comment apologizing for it.
 
 **You cannot overload on type arguments.**
 ```java
@@ -164,12 +164,12 @@ recoverable. The type argument of a particular object in your hand — gone, bec
 that object never had one to begin with.
 
 Frameworks live off the surviving half. Jackson knows a field is a `List<Person>`
-by reading the signature attribute, which is how it manages to deserialise into
+by reading the signature attribute, which is how it manages to deserialize into
 the right element type instead of handing you a list of maps.
 
 And there is a trick built on the same fact that you have almost certainly typed
 without knowing why. Subclass a generic type and the argument becomes part of a
-*class declaration* — declared, therefore kept. Which is why serialisation
+*class declaration* — declared, therefore kept. Which is why serialization
 libraries ask you for this:
 
 ```java

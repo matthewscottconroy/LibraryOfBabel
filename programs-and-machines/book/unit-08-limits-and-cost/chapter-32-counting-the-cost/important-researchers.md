@@ -2,7 +2,7 @@
 
 **Donald Knuth** (born 1938) returns from Chapter 24, and this is his subject. *The
 Art of Computer Programming*, begun in 1962 and still unfinished, established that
-algorithms could be analysed mathematically rather than merely timed — that you
+algorithms could be analyzed mathematically rather than merely timed — that you
 could state what a program costs as a function of its input and prove it. He
 popularized big-O notation for this purpose, borrowing it from analytic number
 theory, and the practice of deriving costs rather than measuring them is largely

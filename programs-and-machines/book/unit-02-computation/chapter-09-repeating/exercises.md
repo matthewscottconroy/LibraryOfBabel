@@ -92,7 +92,7 @@ without.
 
 ## Off-by-one
 
-**9.14.** A fence 100 metres long has a post every 10 metres, including both
+**9.14.** A fence 100 meters long has a post every 10 meters, including both
 ends. How many posts? Explain the connection to `<` versus `<=`.
 
 **9.15.** Section 9.2.3 gives three reasons Java uses half-open ranges. Restate

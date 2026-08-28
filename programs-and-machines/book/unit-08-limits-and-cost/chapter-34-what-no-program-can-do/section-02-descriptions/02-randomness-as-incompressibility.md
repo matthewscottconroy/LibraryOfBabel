@@ -133,7 +133,7 @@ And each has a practical form.
 The sorting bound tells you to stop looking for a faster comparison sort and to
 consider not comparing. The compression bound tells you to disbelieve universal
 compression claims without reading them. Undecidability tells you why your
-compiler warns instead of proving, why your static analyser has false positives,
+compiler warns instead of proving, why your static analyzer has false positives,
 and why "just write a tool that checks it" is sometimes not available.
 
 **Knowing where the wall is is more useful than believing there is no wall.**

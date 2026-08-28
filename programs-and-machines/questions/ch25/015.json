@@ -14,7 +14,7 @@
     "    }",
     "}"
   ],
-  "answer": "Collectors.groupingBy(String::length, Collectors.counting())|Collectors.joining(\", \")|words.stream()",
+  "answer": "words.stream()|Collectors.groupingBy(String::length, Collectors.counting())|Collectors.joining(\", \")",
   "explanation": "Verified: `{3=3, 4=1, 5=1}` — three words of length 3, one of 4, one of 5 — and then the joined list. Written as a loop, the grouping is six lines of `computeIfAbsent` bookkeeping; here it is one expression that names what is happening. This is where streams clearly win, and Chapter 26 is careful to name the cases where they clearly do not — no index, no `zip`, awkward early exits, and mutation.",
   "tags": [
     "streams",

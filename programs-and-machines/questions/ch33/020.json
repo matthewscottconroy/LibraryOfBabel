@@ -15,7 +15,7 @@
     "    }",
     "}"
   ],
-  "answer": "new Random(42)|r.nextInt()|the seed plus the generator's code",
+  "answer": "new java.util.Random(42)|r.nextInt()|the seed plus the generator's code",
   "explanation": "The whole sequence is determined by the seed, so a description of it is the generator plus 42. It passes statistical tests and is not random in Kolmogorov's sense, and for simulation that is fine — reproducibility is a feature, since the same seed gives the same run. The practical rule is `Random` for simulation and `SecureRandom` for anything security-related: `Random`'s state can be recovered from two consecutive outputs.",
   "tags": [
     "randomness",

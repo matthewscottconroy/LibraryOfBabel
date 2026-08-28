@@ -16,7 +16,7 @@
     "    }",
     "}"
   ],
-  "answer": "nums.remove(1)|nums2.remove(Integer.valueOf(20))|new ArrayList<>(List.of(10, 20, 30))",
+  "answer": "new ArrayList<>(List.of(10, 20, 30))|nums.remove(1)|nums2.remove(Integer.valueOf(20))",
   "explanation": "Verified: `[10, 30] [10, 30]` — the same result, reached two entirely different ways. The first removed index 1; the second removed the value 20. With a `List<Integer>` both overloads apply and Java picks `remove(int)` without a word, so `list.remove(1)` on a list of integers is almost always a bug. This is Chapter 21's static overload resolution producing a trap that Chapter 16's boxing made possible.",
   "tags": [
     "collections",

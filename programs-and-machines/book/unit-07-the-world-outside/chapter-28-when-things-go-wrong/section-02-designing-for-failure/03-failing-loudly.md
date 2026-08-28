@@ -133,7 +133,7 @@ believe about your own logic.
 There is one honest criticism, which is that a check disabled in production is a
 check whose failure you learn about from a customer. Some teams therefore enable
 assertions everywhere and treat them as ordinary checks; others avoid them
-entirely in favour of explicit `if`s. Both positions are defensible; the
+entirely in favor of explicit `if`s. Both positions are defensible; the
 indefensible one is writing assertions and assuming they run.
 
 ## The habit worth forming

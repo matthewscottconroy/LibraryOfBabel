@@ -18,7 +18,7 @@
     "    }",
     "}"
   ],
-  "answer": "Deque<Integer> todo = new ArrayDeque<>()|todo.push(n)|todo.pop()",
+  "answer": "Deque<Integer> todo = new ArrayDeque<>()|todo.pop()|todo.push(m)",
   "explanation": "Verified: it prints 5 4 3 2 1. This is what \"rewrite the recursion as a loop\" actually means for a non-tail recursion — you do not eliminate the stack, you take responsibility for it. The gain is that the stack now lives on the heap, so its depth is bounded by memory rather than by the thread's stack size, which is exactly the trade Chapter 32 describes when it says recursion depth is space complexity.",
   "tags": [
     "stack",

@@ -28,7 +28,7 @@ mutual exclusion, and for the general position that programs should be reasoned
 about rather than tested into submission. Uncompromising, frequently right, and
 the source of Chapter 9's insistence that you can prove a loop correct.
 
-**Donald Knuth** established that algorithms could be analysed rather than timed,
+**Donald Knuth** established that algorithms could be analyzed rather than timed,
 and then said the thing everyone quotes half of. Chapter 32 is his subject and
 Chapter 18 is his warning.
 

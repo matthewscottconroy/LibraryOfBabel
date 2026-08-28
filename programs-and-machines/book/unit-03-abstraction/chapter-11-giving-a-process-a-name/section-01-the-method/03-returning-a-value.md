@@ -113,7 +113,7 @@ clarity, and Chapter 32 will give you the tools to know when it is not.
 ## Say what you mean in the name
 
 Readers lean on the agreement between a return type and a name far more than they
-realise:
+realize:
 
 ```java
 int  count(...)         // a number

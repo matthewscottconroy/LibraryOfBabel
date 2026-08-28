@@ -52,7 +52,7 @@ range. Given the cost of vacuum tubes in 1946, this was a serious position rathe
 than a blind spot.
 
 He was right about the hardware and wrong about the people. As machines spread to
-users who were not numerical analysts, the labour of manual scaling became the
+users who were not numerical analysts, the labor of manual scaling became the
 dominant cost, and floating point won. It is a useful case of a technical
 judgment that was correct on its own terms and overturned by a change in who was
 doing the work.

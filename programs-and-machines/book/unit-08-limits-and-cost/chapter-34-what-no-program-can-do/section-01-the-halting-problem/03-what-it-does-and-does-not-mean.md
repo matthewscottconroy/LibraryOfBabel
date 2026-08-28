@@ -5,7 +5,7 @@ directions. You will meet people who think it means software cannot be verified,
 and people who think it is a technicality with no practical reach.
 
 Both are wrong, and the truth is more useful than either: it explains why your
-compiler warns instead of proving, why your static analyser reports things that
+compiler warns instead of proving, why your static analyzer reports things that
 cannot happen, and why nobody has written a complete virus scanner.
 
 ## What it does not mean
@@ -74,7 +74,7 @@ is rejected even when the condition is always true. The compiler cannot know, so
 it refuses. That is a **false positive**, it is deliberate, and it is the price of
 soundness.
 
-**Accept false positives.** Static analysers report possible null dereferences that
+**Accept false positives.** Static analyzers report possible null dereferences that
 cannot actually occur. Annoying, and better than missing real ones.
 
 **Accept false negatives.** Most linters and type checkers miss real problems in

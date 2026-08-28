@@ -1,0 +1,20 @@
+{
+  "question_id": "b095d698-0d88-45e4-8f69-61bd15be9f0c",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Convert 0xBEEF to binary and to decimal, using the fact that each hex digit is exactly four bits. Give the binary as one sixteen-digit string and the decimal as an integer.",
+  "choices": [
+    "0xB = 1011,  0xE = 1110,  0xF = 1111",
+    "So 0xBEEF in binary is ___",
+    "and in decimal, 11*4096 + 14*256 + 14*16 + 15 = ___"
+  ],
+  "answer": "1011111011101111|48879",
+  "explanation": "1011111011101111 and 48879. This is why hexadecimal exists: each digit maps to exactly four bits with no arithmetic, so a programmer reads bit patterns in hex and never in decimal. The conversion to decimal, by contrast, required four multiplications — which is the point, because decimal and binary share no convenient boundary and hex and binary share one at every digit.",
+  "tags": [
+    "hexadecimal",
+    "derivation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

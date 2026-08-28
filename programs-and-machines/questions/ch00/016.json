@@ -1,0 +1,21 @@
+{
+  "question_id": "5dd3ecf5-898e-43e0-8517-a35a71f965b9",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "You are told a file contains the two bytes 0x48 0x69. What can you conclude about its contents?",
+  "choices": [
+    "That it is ambiguous only because the file lacks a header; the bytes themselves have a definite meaning.",
+    "That it is a two-byte integer, since files store numbers unless marked otherwise.",
+    "Nothing, until you know the agreement — they are \"Hi\" in ASCII, 18537 as a big-endian integer, 26952 little-endian, and a pair of small positive numbers.",
+    "That it is text, since both bytes fall in the printable ASCII range."
+  ],
+  "answer": 2,
+  "explanation": "The bytes have no definite meaning — that is the point. Notice the third distractor is nearly right and wrong in an instructive way: a header would tell *you* the agreement, but it would be more bytes, which themselves mean nothing until read under an agreement. The regress stops at a convention that lives outside the file, which is exactly what Chapter 29 concludes about encodings.",
+  "tags": [
+    "encoding",
+    "files"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

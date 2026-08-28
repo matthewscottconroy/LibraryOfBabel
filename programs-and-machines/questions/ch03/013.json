@@ -1,0 +1,26 @@
+{
+  "question_id": "641a7dc4-3a45-4647-854e-6f4abb5e253d",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that prints the raw UTF-8 bytes of a character in hex. Fill in the two blanks.",
+  "choices": [
+    "import java.nio.charset.StandardCharsets;",
+    "public class Raw {",
+    "    public static void main(String[] args) {",
+    "        byte[] bytes = ___;                                   // encode the character",
+    "        for (byte b : bytes)",
+    "            System.out.print(Integer.toHexString(___) + \" \");  // print unsigned",
+    "    }",
+    "}"
+  ],
+  "answer": "\"é\".getBytes(StandardCharsets.UTF_8)|b & 0xFF",
+  "explanation": "Verified: it prints c3 a9. Two bytes for one character, and the mask matters for the same reason it did in Chapter 2 — `0xC3` as a signed byte is negative, and printing it without masking gives ffffffc3. Those two bytes are what a file actually contains; reading them under Latin-1 yields the two characters Ã and ©, which is Chapter 29's mojibake at its smallest.",
+  "tags": [
+    "unicode",
+    "utf8",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

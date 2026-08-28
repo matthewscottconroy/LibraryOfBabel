@@ -1,0 +1,21 @@
+{
+  "question_id": "ad36cce4-eb9c-43b5-9f33-dcb1e1916433",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A JVM interprets bytecode at first and compiles hot methods to machine code later. Why not compile everything up front?",
+  "choices": [
+    "Most code runs rarely, compiling costs time, and running first lets the JIT observe actual types and branches before optimising.",
+    "Because bytecode verification must complete before compilation, and it runs lazily per method.",
+    "Because compiling everything would exceed the memory available for the code cache.",
+    "Because ahead-of-time compilation would lose the platform independence bytecode provides."
+  ],
+  "answer": 0,
+  "explanation": "The second half is the interesting half. A JIT knows things an ahead-of-time compiler cannot: which branch is usually taken, which type actually arrives at a call site, which method is worth inlining. Chapter 21 measures the payoff — a call site that only ever sees one implementing class gets devirtualized and inlined, and the virtual call disappears entirely.",
+  "tags": [
+    "jvm",
+    "jit"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

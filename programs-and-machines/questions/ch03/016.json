@@ -1,0 +1,21 @@
+{
+  "question_id": "dcbe0111-0f94-49e6-a53f-a0cc5e6641cb",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why does `'7' - '0'` give 7, and what does that reveal about ASCII?",
+  "choices": [
+    "Because `'0'` has code point 0, so subtracting it is a no-op that unboxes the character.",
+    "Because Java overloads `-` on `char` to perform numeric parsing.",
+    "Because character arithmetic is defined to operate on the glyph's decimal interpretation.",
+    "The digit characters are assigned consecutive code points, so subtracting the first recovers the numeric value."
+  ],
+  "answer": 3,
+  "explanation": "'0' is 48 and '7' is 55, so the subtraction gives 7. The consecutiveness was a deliberate design choice, and so was placing 'A' at 65 and 'a' at 97 — exactly 32 apart, one bit — so that case conversion is a single bit flip. Those are agreements chosen to make operations cheap, which is Chapter 35's point that agreements are not arbitrary.",
+  "tags": [
+    "ascii",
+    "reasoning"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

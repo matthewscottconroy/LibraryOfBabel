@@ -1,0 +1,21 @@
+{
+  "question_id": "0a6cb16d-68da-4271-8c92-ac60a0d92351",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A file written on one machine displays as `cafÃ©` on another. What happened?",
+  "choices": [
+    "The file was corrupted in transfer, and the two extra characters are damaged bytes.",
+    "It was written as UTF-8 and read as a single-byte encoding, so the two bytes of é were decoded as two separate characters.",
+    "The file was written as UTF-16 and read as UTF-8, so each character gained a null byte.",
+    "The receiving machine lacks a font containing é, so it substituted the nearest available glyphs."
+  ],
+  "answer": 1,
+  "explanation": "The bytes C3 A9 are é in UTF-8 and Ã followed by © in Latin-1. Nothing was corrupted and nothing threw, because Latin-1 assigns a character to all 256 byte values and therefore has no invalid input. The pattern is called mojibake, and recognising that it means \"UTF-8 read as a single-byte encoding\" will save you an afternoon at some point.",
+  "tags": [
+    "unicode",
+    "mojibake"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

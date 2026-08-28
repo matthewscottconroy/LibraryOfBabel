@@ -1,0 +1,26 @@
+{
+  "question_id": "ef2843ff-74cf-46a6-b6dc-0914faa30751",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program showing that floating-point addition is not associative. Fill in the three blanks.",
+  "choices": [
+    "public class Assoc {",
+    "    public static void main(String[] args) {",
+    "        double left  = ___;                 // group the first two",
+    "        double right = ___;                 // group the last two",
+    "        System.out.println(left);",
+    "        System.out.println(right);",
+    "        System.out.println(___);            // compare them",
+    "    }",
+    "}"
+  ],
+  "answer": "(0.1 + 0.2) + 0.3|0.1 + (0.2 + 0.3)|left == right",
+  "explanation": "Verified: 0.6000000000000001, then 0.6, then false. Addition of real numbers is associative; addition of doubles is not, because each intermediate result is rounded to the nearest representable value and the two groupings round differently. This is not a curiosity — it is why a parallel sum can disagree with a sequential one, since splitting the work changes the grouping, and why reproducible numerical results require fixing the order of operations.",
+  "tags": [
+    "floating-point",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

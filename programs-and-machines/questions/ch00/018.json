@@ -1,0 +1,19 @@
+{
+  "question_id": "6c1bfcd6-6765-4e61-8a8b-c116a32e6908",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A bit is fundamentally a 1 or a 0.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "A bit is a choice between two distinguishable states. In a wire it is two voltages, on a disk two magnetic orientations, on optical media a pit or a land, in flash memory trapped charge or its absence. Calling the states 1 and 0 is a naming convention we apply on top, and it is arbitrary — the same hardware works identically if you swap the names, which is what active-low signalling does.",
+  "tags": [
+    "bits",
+    "definitions"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

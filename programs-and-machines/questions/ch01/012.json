@@ -1,0 +1,21 @@
+{
+  "question_id": "5bb58492-9daf-46be-ad21-914625ee8c4c",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Derive the two's complement representation of -5 in eight bits by the standard rule. Give each fill as an eight-digit binary string, except the last, which is a decimal integer.",
+  "choices": [
+    "Step 1. Write +5 in eight bits:            ___",
+    "Step 2. Invert every bit:                  ___",
+    "Step 3. Add one:                           ___",
+    "Step 4. That same pattern read as unsigned is ___"
+  ],
+  "answer": "00000101|11111010|11111011|251",
+  "explanation": "Verified: 00000101, 11111010, 11111011, and 251. Step 4 is the point of the exercise. The bit pattern for -5 and the bit pattern for 251 are the same eight wires, and 251 = 256 - 5 is not a coincidence: two's complement is arithmetic modulo 256, which is exactly why one adder handles both signed and unsigned addition and why the hardware needs no subtractor.",
+  "tags": [
+    "twos-complement",
+    "derivation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

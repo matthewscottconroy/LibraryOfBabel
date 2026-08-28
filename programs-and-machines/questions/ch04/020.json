@@ -1,0 +1,21 @@
+{
+  "question_id": "f132550c-9ff4-4811-9305-4337ffc7d584",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Java specifies that an `int` is exactly 32 bits on every platform. C does not. What does Java gain and lose?",
+  "choices": [
+    "It loses the ability to represent values above 2^31, which C can do with a wider native int.",
+    "It gains speed, since fixed widths let the JIT skip range checks that C compilers must emit.",
+    "It gains that arithmetic behaves identically everywhere; it loses the ability to use the native word size on machines where a different width would be faster.",
+    "It gains nothing, since every modern processor is 64-bit and the widths coincide anyway."
+  ],
+  "answer": 2,
+  "explanation": "The gain is that a program producing a particular overflow on one machine produces it on all of them, which makes Chapter 2's arithmetic a property of the language rather than of the hardware. The cost is real but small in practice, and the trade fits the language's central promise. It is also why porting C code that assumes `sizeof(int)` is a portability exercise and porting Java is not.",
+  "tags": [
+    "java",
+    "portability"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

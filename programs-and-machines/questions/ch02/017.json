@@ -1,0 +1,20 @@
+{
+  "question_id": "065457e8-f912-41c3-93fd-c77e954fed61",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Complete the derivation of how many decimal digits a `double` can be trusted to carry.",
+  "choices": [
+    "A double's significand holds ___ bits of precision, counting the implicit leading 1.",
+    "That many bits carry log10(2^53) = ___ decimal digits (to two decimal places).",
+    "So a double round-trips at most ___ significant decimal digits reliably."
+  ],
+  "answer": "53|15.95|15",
+  "explanation": "53 bits, about 15.95 digits, so 15 reliably. That is where the familiar \"about 16 digits\" figure comes from, and it explains a specific failure: a 19-digit database identifier stored in a double loses its low digits silently and two distinct records become equal. `float` has 24 bits, giving about 7 digits, which is why the verified `16777216f + 1` is still 16777216.",
+  "tags": [
+    "floating-point",
+    "derivation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

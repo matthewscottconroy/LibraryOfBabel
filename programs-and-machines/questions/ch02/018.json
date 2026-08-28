@@ -1,0 +1,21 @@
+{
+  "question_id": "85ff2e1c-9b70-4e1f-a0ac-e668b10341e6",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "When is `double` the wrong choice, and what should replace it?",
+  "choices": [
+    "For very large numbers, since `double` overflows sooner than `long` does.",
+    "For any value that will be compared for equality, since `==` is unreliable on all doubles.",
+    "For scientific measurement, since measured quantities carry uncertainty that `double` cannot express.",
+    "For money and any value where exactness is part of the specification — use integer minor units, or `BigDecimal` where scaling rules matter."
+  ],
+  "answer": 3,
+  "explanation": "The test is whether exactness is required by the problem. Money is the standard case: a cent is a discrete unit and a total that is off by 10^-16 is not merely imprecise, it is wrong in a way an auditor will find. The second option overstates — `==` is fine on doubles that were never arithmetic results — and the first is backwards, since `double` reaches far beyond `long`.",
+  "tags": [
+    "floating-point",
+    "judgment"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

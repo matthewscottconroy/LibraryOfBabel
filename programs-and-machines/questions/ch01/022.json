@@ -1,0 +1,21 @@
+{
+  "question_id": "bf6359a4-6d6a-45a5-8289-b8b931c9d4e6",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Adding one to `Integer.MAX_VALUE` yields `Integer.MIN_VALUE`. This wrap-around, which is fully specified rather than erroneous, is called ___ .",
+  "choices": [
+    "overflow",
+    "overflow",
+    "integer overflow",
+    "wraparound"
+  ],
+  "answer": "overflow",
+  "explanation": "The machine did what it agreed to do: arithmetic modulo 2^32. The surprise lives in the gap between that agreement and the programmer's assumption that integers behave like the integers of mathematics. Every fixed-width representation has this boundary somewhere, it is a wall rather than a gradient, and `Math.addExact` is how you ask to be told when you hit it.",
+  "tags": [
+    "overflow",
+    "vocabulary"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

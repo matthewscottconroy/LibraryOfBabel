@@ -1,0 +1,20 @@
+{
+  "question_id": "9e4b868d-b17e-4e06-b226-1a6137f27c4a",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Comparing doubles with `==` is unreliable after arithmetic, so the standard practice is to test whether the difference is smaller than some small threshold, called a ___ .",
+  "choices": [
+    "tolerance",
+    "tolerance",
+    "epsilon"
+  ],
+  "answer": "tolerance",
+  "explanation": "Also accepted: epsilon. The harder question is what value it should take, and there is no universal answer — a fixed 1e-9 is fine for values near 1 and meaningless for values near 10^12, where the gap between adjacent doubles is already larger than that. A relative tolerance, scaled to the magnitudes being compared, is the more defensible default.",
+  "tags": [
+    "floating-point",
+    "vocabulary"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

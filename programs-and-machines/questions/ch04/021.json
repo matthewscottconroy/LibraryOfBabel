@@ -1,0 +1,27 @@
+{
+  "question_id": "b9c0833a-d2bb-4af6-9bb8-99041dcfd8df",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that prints one pattern under several agreements, closing the loop on Chapter 1. Fill in the three blanks.",
+  "choices": [
+    "public class Agreements {",
+    "    public static void main(String[] args) {",
+    "        int n = 200;",
+    "        System.out.println(\"as int  : \" + n);",
+    "        System.out.println(\"as byte : \" + ___);      // narrow to eight bits",
+    "        System.out.println(\"as char : \" + ___);      // read as a character",
+    "        System.out.println(\"as hex  : \" + ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "(byte) n|(char) n|Integer.toHexString(n)",
+  "explanation": "Verified: 200, -56, È, and c8. Chapter 1 argued this on paper; here it is, four lines of Java, four readings of one number. Notice that the casts are not conversions in any meaningful sense — nothing about the pattern changes — they are instructions to the compiler about which agreement to apply when printing. That is what a cast between primitive types largely is.",
+  "tags": [
+    "java",
+    "encoding",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

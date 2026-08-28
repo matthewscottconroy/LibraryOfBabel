@@ -1,0 +1,21 @@
+{
+  "question_id": "c91d1da4-9907-40d0-89cf-b87b19abda1e",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Unicode separates a code point from its encoding. Why is that separation useful?",
+  "choices": [
+    "It keeps the character set small enough to fit in 16 bits, with encodings handling the rest.",
+    "It lets the character set be defined once and stored several ways, so a new encoding does not require renumbering every character.",
+    "It permits variable-length encodings, which fixed code points would otherwise forbid.",
+    "It allows the same code point to mean different characters in different languages."
+  ],
+  "answer": 1,
+  "explanation": "U+00E9 is é permanently and independently of storage; UTF-8 spends two bytes on it, UTF-16 spends two, UTF-32 spends four. That is the same abstraction move the rest of the book keeps making — separate what a thing *is* from how it is *represented* — and it is why UTF-8 could be invented in 1992, years after the character assignments, without disturbing them.",
+  "tags": [
+    "unicode",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

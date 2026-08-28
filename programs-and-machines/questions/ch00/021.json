@@ -1,0 +1,21 @@
+{
+  "question_id": "3aa77192-6118-4299-8845-4836650751aa",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What does it mean to say an encoding is an agreement rather than a fact?",
+  "choices": [
+    "That it could have been otherwise, that both parties must hold the same one, and that nothing in the data enforces it.",
+    "That encodings are arbitrary, so no encoding is better than any other.",
+    "That the agreement is written down in a standard, which is what makes it binding.",
+    "That encodings are conventions and therefore cannot be verified or tested."
+  ],
+  "answer": 0,
+  "explanation": "All three clauses matter, and the first distractor is the misreading to guard against: agreements can be better or worse. Two's complement was chosen because it makes one adder do subtraction; UTF-8 was designed to be ASCII-compatible and self-synchronizing. Chapter 35 returns to this — the difference between a good agreement and a bad one is what becomes possible afterward.",
+  "tags": [
+    "encoding",
+    "definitions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

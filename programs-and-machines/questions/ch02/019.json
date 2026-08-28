@@ -1,0 +1,19 @@
+{
+  "question_id": "dc664e50-68d1-4742-bef1-27d42ef561cb",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "tf",
+  "text": "`Double.NaN == Double.NaN` is true.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "NaN compares unequal to everything including itself, which is required by IEEE 754 and is deliberate: NaN means \"this computation had no meaningful result\", and two such non-results are not thereby the same. The practical consequence is that `x == Double.NaN` is always false and never a valid test — use `Double.isNaN(x)`. It also means a sort comparator written with `<` and `>` can behave inconsistently if NaN is present, which is why `Double.compare` exists.",
+  "tags": [
+    "floating-point",
+    "nan"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

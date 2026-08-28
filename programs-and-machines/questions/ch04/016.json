@@ -1,0 +1,26 @@
+{
+  "question_id": "9d9701eb-6e1c-4a8f-98c7-46e92b45b34c",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that reads its own command-line arguments and reports on them. Fill in the three blanks.",
+  "choices": [
+    "public class Args {",
+    "    public static void main(String[] args) {",
+    "        System.out.println(\"count: \" + ___);",
+    "        for (int i = 0; i < args.length; i++)",
+    "            System.out.println(\"  [\" + i + \"] \" + ___);",
+    "        if (___) System.out.println(\"  (none supplied)\");",
+    "    }",
+    "}"
+  ],
+  "answer": "args.length|args[i]|args.length == 0",
+  "explanation": "Run it with no arguments and it prints count: 0 — verified. That is worth checking rather than assuming, because in C the equivalent array's first entry is the program's own name and the count is therefore at least 1. Java's `args` contains only what the user typed after the class name. An assumption carried over from another language is exactly the kind of thing that produces an off-by-one nobody can see.",
+  "tags": [
+    "java",
+    "main",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

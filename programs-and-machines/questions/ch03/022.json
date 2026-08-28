@@ -1,0 +1,19 @@
+{
+  "question_id": "5784c5df-6a2f-4a7c-8fc1-6c114094e2b1",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Java fixed `char` at 16 bits in 1995, when Unicode was believed to fit. Characters above U+FFFF are now stored as two `char` values, a pair called a ___ pair.",
+  "choices": [
+    "surrogate",
+    "surrogate"
+  ],
+  "answer": "surrogate",
+  "explanation": "It is a compatibility scar rather than a design. The consequence reaches every program that indexes into a string: `charAt` can return half a character, `substring` can split one, and `length` counts storage rather than content. Languages designed after the 16-bit assumption collapsed — Go, Rust, Swift — chose differently, and had the freedom to because their ecosystems did not yet exist.",
+  "tags": [
+    "unicode",
+    "vocabulary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,27 @@
+{
+  "question_id": "94aa3bff-595f-46ff-9761-1f4ee0cb1e6b",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write the program this unit has been building toward: one that shows you the bits inside a value. Fill in the four blanks.",
+  "choices": [
+    "public class Look {",
+    "    public static void main(String[] args) {",
+    "        int n = 200;",
+    "        System.out.println(\"binary : \" + ___);",
+    "        System.out.println(\"hex    : \" + ___);",
+    "        System.out.println(\"width  : \" + ___ + \" bits\");   // the constant, not a literal",
+    "        System.out.println(\"all 1s : \" + ___);              // the pattern for -1",
+    "    }",
+    "}"
+  ],
+  "answer": "Integer.toBinaryString(n)|Integer.toHexString(n)|Integer.SIZE|Integer.toBinaryString(-1)",
+  "explanation": "Verified: 11001000, c8, 32 bits, and thirty-two ones for -1. That last line is Chapter 2 confirmed by observation rather than argument — -1 is every bit set, which is what invert-and-add-one gives you for 1, and it is why `-1` is the conventional all-bits-set mask. Using `Integer.SIZE` rather than typing 32 is a small habit worth forming: the constant cannot drift from the truth.",
+  "tags": [
+    "java",
+    "bits",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,25 @@
+{
+  "question_id": "008205da-f39b-4ce8-9bc1-ea75ca6cddbf",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that prints the exact bit pattern of a `double`, revealing the repeating fraction behind 0.1. Fill in the two blanks.",
+  "choices": [
+    "public class Reveal {",
+    "    public static void main(String[] args) {",
+    "        double x = 0.1;",
+    "        long bits = ___;                       // the raw 64 bits as a long",
+    "        System.out.println(___);               // print them in hex",
+    "    }",
+    "}"
+  ],
+  "answer": "Double.doubleToLongBits(x)|Long.toHexString(bits)",
+  "explanation": "Verified: it prints 3fb999999999999a. The run of 9s is the repeating binary fraction of one tenth, cut off and rounded up at the last digit — the `a` where the pattern would have continued with another 9. Chapter 3 argued that 0.1 is not stored exactly; this is that claim as sixteen hex digits you can look at, and it is what Chapter 5 means by using Java as an instrument.",
+  "tags": [
+    "java",
+    "floating-point",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

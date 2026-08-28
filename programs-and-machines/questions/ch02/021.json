@@ -1,0 +1,21 @@
+{
+  "question_id": "9490d59e-33db-4d20-9e7e-e2011608c0c3",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "What does the floating-point bargain actually trade away, and for what?",
+  "choices": [
+    "Speed for accuracy, since floating-point arithmetic is slower than integer arithmetic.",
+    "Memory for precision, since a double occupies eight bytes where an int occupies four.",
+    "Exactness for range — a fixed number of bits buys enormous dynamic range by storing an exponent, at the cost that most values are approximations.",
+    "Portability for performance, since floating-point results differ between processors."
+  ],
+  "answer": 2,
+  "explanation": "A 64-bit integer counts to about 9 x 10^18 exactly and stops. A 64-bit double reaches 10^308 and represents almost nothing along the way exactly. The same 64 bits, spent differently, and which spending is right depends entirely on whether your problem needs reach or needs exactness. Naming the trade is what lets you choose deliberately rather than by default.",
+  "tags": [
+    "floating-point",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

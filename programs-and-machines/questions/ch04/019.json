@@ -1,0 +1,26 @@
+{
+  "question_id": "d1172c03-ea2f-4aa2-b5b1-e0d64f92ad35",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that shows the declared width of each primitive type, using the library constants rather than literals. Fill in the four blanks.",
+  "choices": [
+    "public class Widths {",
+    "    public static void main(String[] args) {",
+    "        System.out.println(\"byte  : \" + ___);",
+    "        System.out.println(\"char  : \" + ___);",
+    "        System.out.println(\"int   : \" + ___);",
+    "        System.out.println(\"long  : \" + ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "Byte.SIZE|Character.SIZE|Integer.SIZE|Long.SIZE",
+  "explanation": "Verified: 8, 16, 32, 64. The `char` row is the one to look at — 16 bits, which is Chapter 4's surrogate problem stated as a number, and the reason a Java `char` cannot hold every character. Note also that these widths are fixed by the language specification, not by the machine: a Java `int` is 32 bits on a 64-bit processor and on an 8-bit one, which is a deliberate departure from C.",
+  "tags": [
+    "java",
+    "primitives",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

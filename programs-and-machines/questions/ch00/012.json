@@ -1,0 +1,21 @@
+{
+  "question_id": "e88b7591-31db-4e32-98dc-b35f94c662cd",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Work out what the single byte 11001000 denotes under three different agreements. Give each fill as a plain number, except the last, which is two hex digits.",
+  "choices": [
+    "Pattern: 1 1 0 0 1 0 0 0",
+    "(a) read as an unsigned binary numeral, 128+64+8 = ___",
+    "(b) read as two's complement: the leading 1 means negative, so the value is (a) - 256 = ___",
+    "(c) read as hexadecimal, grouping into 1100 and 1000 = 0x___"
+  ],
+  "answer": "200|-56|C8",
+  "explanation": "Verified: 200, -56, and 0xC8. Three answers, one pattern, and nothing in the bits chooses between them — which is the chapter's entire claim made arithmetic. The same eight wires, held at the same voltages, are a pixel's blue channel, a small negative number, and a byte of a UTF-8 sequence, depending only on which agreement the reader is operating under.",
+  "tags": [
+    "encoding",
+    "derivation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

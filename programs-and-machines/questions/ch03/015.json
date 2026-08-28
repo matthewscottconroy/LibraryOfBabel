@@ -1,0 +1,23 @@
+{
+  "question_id": "25a70552-e539-4260-9adc-cb0f2aac70ea",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Derive the UTF-8 encoding of the character é, which is code point U+00E9. Give the binary fills as digit strings and the hex fills as two digits each.",
+  "choices": [
+    "U+00E9 in binary is 1110 1001, which needs 8 bits, so UTF-8 uses two bytes.",
+    "The two-byte form is 110xxxxx 10xxxxxx, holding 11 payload bits: 00011101001",
+    "First byte:  110 followed by 00011  = ___",
+    "Second byte: 10  followed by 101001 = ___",
+    "As hex, those are 0x___ and 0x___"
+  ],
+  "answer": "11000011|10101001|C3|A9",
+  "explanation": "11000011, 10101001, C3, A9 — matching the bytes the previous program printed. The structure is worth noticing: the leading bits of the first byte say how many bytes follow, and every continuation byte begins 10. That makes UTF-8 a prefix code (Chapter 33) and self-synchronizing, so a decoder that lands mid-character can find the next boundary by scanning forward for a byte that does not start with 10.",
+  "tags": [
+    "unicode",
+    "utf8",
+    "derivation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "be95856a-6790-4118-93ab-b4a36c47914d",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "blank",
+  "text": "Every pattern of bits denotes whatever we have agreed it denotes; nothing in the pattern itself decides. The general term for such a decision about what a pattern means is an ___ .",
+  "choices": [
+    "encoding",
+    "encoding",
+    "agreement",
+    "convention"
+  ],
+  "answer": "encoding",
+  "explanation": "Also acceptable: agreement, or convention. The word matters less than the habit it names — when a value surprises you, the first question is which encoding you assumed and which one the other side used. Chapter 35 collects eight bugs from across the book and shows they are all this one question, unasked.",
+  "tags": [
+    "encoding",
+    "vocabulary"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

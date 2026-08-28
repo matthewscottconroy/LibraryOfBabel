@@ -1,0 +1,24 @@
+{
+  "question_id": "d1798f84-bc21-4121-b24c-01beb8065be4",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that reveals what a `double` actually holds when you write 0.1. Fill in the two blanks.",
+  "choices": [
+    "import java.math.BigDecimal;",
+    "public class Exact {",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___);   // the exact stored value of the double 0.1",
+    "        System.out.println(___);   // the shortest decimal that round-trips",
+    "    }",
+    "}"
+  ],
+  "answer": "new BigDecimal(0.1)|BigDecimal.valueOf(0.1)",
+  "explanation": "Verified: the first prints 0.1000000000000000055511151231257827021181583404541015625 and the second prints 0.1. The contrast is the lesson. `new BigDecimal(double)` shows the binary fraction exactly; `BigDecimal.valueOf(double)` goes through the shortest decimal that maps back to the same double, which is what `toString` prints. So the 0.1 you see is a display convention, and the value underneath has never been one tenth.",
+  "tags": [
+    "floating-point",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

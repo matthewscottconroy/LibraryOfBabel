@@ -1,0 +1,21 @@
+{
+  "question_id": "1f361dcd-bd38-4424-9a4d-6177e990d3ba",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why can a `double` represent 0.5 and 0.75 exactly but not 0.1?",
+  "choices": [
+    "Because decimal literals are parsed as `float` before widening, losing precision at the conversion.",
+    "Its fraction is a sum of negative powers of two, and one tenth is not such a sum, exactly as one third is not a finite decimal.",
+    "Because 0.1 is below the smallest normal double, so it is stored as a denormalised approximation.",
+    "Because 0.1 requires more significant digits than a double's 53-bit fraction provides."
+  ],
+  "answer": 1,
+  "explanation": "0.5 is 2^-1 and 0.75 is 2^-1 + 2^-2, so both terminate. One tenth in binary is 0.0001100110011... repeating forever, and the fraction field has to stop somewhere. The analogy with one third in decimal is exact and worth keeping: neither is a defect of the number, it is a mismatch between the number and the base. Chapter 29 adds the practical rule that follows — store money in integer minor units.",
+  "tags": [
+    "floating-point",
+    "representation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

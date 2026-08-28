@@ -1,0 +1,21 @@
+{
+  "question_id": "38f4d8e2-21d3-4294-950d-48f07d3650f7",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "mc",
+  "text": "`1e16 + 1 == 1e16` evaluates to `true`. What does that demonstrate?",
+  "choices": [
+    "That the literal `1e16` is parsed as an integer, so the addition happens in integer arithmetic.",
+    "Above a certain magnitude the gap between adjacent doubles exceeds 1, so adding 1 lands on the same representable value.",
+    "That `1e16` exceeds `Double.MAX_VALUE`, so both sides saturate to infinity and compare equal.",
+    "That the compiler folded the constant expression and discarded the addition as redundant."
+  ],
+  "answer": 1,
+  "explanation": "Doubles have 53 bits of fraction, so they are spaced evenly only within a binade — the spacing doubles as the exponent grows. Around 10^16 the gap is 2, so 1 is less than half a step and rounds away. This is the reason a floating-point loop counter eventually stops advancing, and the reason large integer identifiers must never be stored in a double, which JavaScript learned the hard way.",
+  "tags": [
+    "floating-point",
+    "precision"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

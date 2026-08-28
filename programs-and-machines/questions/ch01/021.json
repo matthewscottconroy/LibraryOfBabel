@@ -1,0 +1,21 @@
+{
+  "question_id": "b008561a-60a4-4829-953e-4661d417b1d3",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In binary, what does shifting a value left by one position do, and why?",
+  "choices": [
+    "It doubles the value, but only for unsigned types; for signed types it also flips the sign bit.",
+    "It multiplies by two and rounds, since the vacated low bit is filled by the previous high bit.",
+    "It has no arithmetic meaning; the correspondence with doubling holds only for powers of two.",
+    "It doubles the value, because each digit's place value is twice its right-hand neighbour's, exactly as a decimal left shift multiplies by ten."
+  ],
+  "answer": 3,
+  "explanation": "Positional notation is positional in any base, and shifting is multiplying by the base — which is why `x << 3` is `x * 8` and why compilers make that substitution. The caution the distractors point at is real but different: left-shifting can push significant bits off the top, so the doubling holds only while the value fits, and shifting a negative number left is where the correspondence gets delicate.",
+  "tags": [
+    "binary",
+    "shifts"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

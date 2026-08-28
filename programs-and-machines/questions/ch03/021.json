@@ -1,0 +1,24 @@
+{
+  "question_id": "29cbd326-d3fc-4cb2-9fba-bececd4286fd",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that correctly counts the characters a human would see, rather than storage units. Fill in the two blanks.",
+  "choices": [
+    "public class Counting {",
+    "    public static void main(String[] args) {",
+    "        String s = \"a😀b\";",
+    "        System.out.println(\"code units : \" + ___);",
+    "        System.out.println(\"code points: \" + ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "s.length()|s.codePointCount(0, s.length())",
+  "explanation": "Verified: 4 code units, 3 code points. Even the second is not quite \"what a human sees\" — a flag emoji is two code points, and a family emoji can be seven joined by zero-width joiners, all rendering as one glyph. The unit a person perceives is a grapheme cluster, which needs a library. The lesson is that \"length of a string\" is three different questions, and the method you reach for answers whichever one it was written for.",
+  "tags": [
+    "unicode",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "592a63c0-d98d-4724-a9ee-0bd04af099ef",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "In `public static void main(String[] args)`, what does `static` actually buy you?",
+  "choices": [
+    "It lets the JVM call the method without constructing an object first, which matters because at startup no object of your class exists yet.",
+    "It makes the method run before any other code, which is why it is the entry point.",
+    "It allocates the method in a fixed memory region so the JVM can locate it by address.",
+    "It prevents the method from being overridden, guaranteeing the program starts in your class."
+  ],
+  "answer": 0,
+  "explanation": "The launcher has a class name and nothing else. A non-static method would need a receiver, so the JVM would have to construct one — which would require choosing a constructor and having something to pass it. `static` sidesteps the regress. Chapter 19 gives the full account, and the point of raising it now is that every word in that signature is a decision with a reason rather than an incantation.",
+  "tags": [
+    "java",
+    "main"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

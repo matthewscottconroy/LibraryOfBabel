@@ -1,0 +1,21 @@
+{
+  "question_id": "38d69c75-d662-4f80-8044-385de5fc7f5c",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why does two's complement make a subtractor unnecessary?",
+  "choices": [
+    "Because a - b equals a + (-b) in arithmetic modulo 2^n, and negation is invert-and-add-one, so one adder does both operations.",
+    "Because subtraction of two's complement numbers never overflows, so no separate circuit is needed.",
+    "Because the sign bit lets the adder detect which operation was intended and switch modes.",
+    "Because subtraction is performed by the compiler at build time whenever possible."
+  ],
+  "answer": 0,
+  "explanation": "This is the reason the representation was chosen, and it is a good example of a design decision paying off in silicon rather than in elegance. Sign-magnitude needs a comparator, a subtractor, and logic to decide the result's sign. Two's complement needs an inverter and the adder you already had — which is a real reduction in transistor count, and it is why every processor you will use represents integers this way.",
+  "tags": [
+    "twos-complement",
+    "design"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

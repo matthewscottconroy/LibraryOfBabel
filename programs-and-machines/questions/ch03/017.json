@@ -1,0 +1,27 @@
+{
+  "question_id": "6421e6d3-41c5-4ba7-94de-84de33fc3422",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program demonstrating that `String` methods do not modify the string. Fill in the three blanks.",
+  "choices": [
+    "public class Immutable {",
+    "    public static void main(String[] args) {",
+    "        String s = \"abc\";",
+    "        ___;                                  // call the method, ignore the result",
+    "        System.out.println(___);              // print the original",
+    "        ___;                                  // now keep the result",
+    "        System.out.println(s);",
+    "    }",
+    "}"
+  ],
+  "answer": "s.toUpperCase()|s|s = s.toUpperCase()",
+  "explanation": "Verified: it prints abc then ABC. `toUpperCase` returns a new string and changes nothing, so a call whose result is discarded does nothing at all — and the compiler does not warn, because discarding a return value is legal. This is among the most common beginner errors in Java and it survives into professional code with `trim`, `replace` and `substring`. Chapter 20 explains why immutability is worth this trap.",
+  "tags": [
+    "strings",
+    "immutability",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

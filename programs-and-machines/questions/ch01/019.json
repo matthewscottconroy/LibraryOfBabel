@@ -1,0 +1,27 @@
+{
+  "question_id": "2535cac5-8690-4053-87c8-e601b6daa440",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that prints the eight-bit pattern of a `byte` correctly, including for negative values. Fill in the two blanks.",
+  "choices": [
+    "public class Bits {",
+    "    static String bits(byte b) {",
+    "        int v = ___;                                  // widen without sign extension",
+    "        return String.format(\"%8s\", Integer.toBinaryString(v))",
+    "                     .replace(' ', ___);              // pad the left with zeros",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        for (byte b : new byte[]{5, -5, 127, -128}) System.out.println(b + \" -> \" + bits(b));",
+    "    }",
+    "}"
+  ],
+  "answer": "b & 0xFF|'0'",
+  "explanation": "Verified output: 5 -> 00000101, -5 -> 11111011, 127 -> 01111111, -128 -> 10000000. The mask is the load-bearing part. Writing `Integer.toBinaryString(b)` for a negative byte sign-extends to 32 bits and prints thirty-two ones and zeros, because widening a `byte` to an `int` preserves the value rather than the pattern. `b & 0xFF` keeps the low eight bits and clears the rest, which is the standard idiom and one you will write many times.",
+  "tags": [
+    "twos-complement",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

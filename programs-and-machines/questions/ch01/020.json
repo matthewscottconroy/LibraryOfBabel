@@ -1,0 +1,19 @@
+{
+  "question_id": "7a88f02e-a152-4f3b-a97a-8d8c9f0083e2",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Integer overflow in Java is undefined behaviour.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "It is fully specified: arithmetic on `int` and `long` wraps modulo 2^32 and 2^64, and the result is exactly determined. That is a real difference from C and C++, where signed overflow *is* undefined and a compiler may legally assume it never happens — which has produced a well-known class of security bug where an optimizer deletes an overflow check because the overflow it tests for is, by assumption, impossible. Java's specification forbids that.",
+  "tags": [
+    "overflow",
+    "specification"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

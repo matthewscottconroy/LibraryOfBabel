@@ -1,0 +1,24 @@
+{
+  "question_id": "b96ba886-0b10-4d1b-94d0-f69b90f5eb6c",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that demonstrates the one integer whose absolute value is negative. Fill in the two blanks.",
+  "choices": [
+    "public class AbsTrap {",
+    "    public static void main(String[] args) {",
+    "        int n = ___;                       // the value with no positive counterpart",
+    "        System.out.println(n + \" -> \" + ___);   // apply the standard library's abs",
+    "    }",
+    "}"
+  ],
+  "answer": "Integer.MIN_VALUE|Math.abs(n)",
+  "explanation": "Verified: it prints -2147483648 -> -2147483648. `Math.abs` is documented to do this, and the reason is Section 2.2.2's asymmetry — there is no positive 2147483648 in an `int`, so negating MIN_VALUE overflows back to itself. Write it, run it, and note that no exception is thrown. Any code that assumes `Math.abs(x) >= 0` has a bug for exactly one input, which is the hardest kind to find by testing.",
+  "tags": [
+    "twos-complement",
+    "overflow",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

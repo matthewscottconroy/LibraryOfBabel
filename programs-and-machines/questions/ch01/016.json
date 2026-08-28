@@ -1,0 +1,21 @@
+{
+  "question_id": "20c7d6bc-8295-4c5d-ba12-2b9571077bc7",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A programmer proposes detecting overflow in `a + b` by testing whether the result is smaller than `a`. When does this fail?",
+  "choices": [
+    "When `b` is negative, since a correct sum is then legitimately smaller than `a`.",
+    "Only when the result is exactly zero, which the comparison cannot distinguish.",
+    "Only when both operands are negative, since two negatives always overflow downward.",
+    "Never for positive `b`, and negative `b` cannot overflow, so the test is sound."
+  ],
+  "answer": 0,
+  "explanation": "The test is a reasonable instinct and it is sound only under an unstated precondition — that `b` is non-negative. Adding a negative `b` makes the sum smaller than `a` every time, so the test reports overflow constantly. This is why `Math.addExact` exists: the general condition is fiddly enough that the right answer is to use the library rather than to re-derive it at each site.",
+  "tags": [
+    "overflow",
+    "reasoning"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

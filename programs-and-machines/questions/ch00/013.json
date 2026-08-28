@@ -1,0 +1,21 @@
+{
+  "question_id": "9a1f7aa5-36ea-4a28-80e6-b5d0a9d93650",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "A colleague says \"this variable is 200, so it can't be negative\". What is wrong with the sentence, precisely?",
+  "choices": [
+    "The error is that variables hold values rather than patterns, so the premise is backwards.",
+    "The variable holds a pattern; 200 is one reading of it, and whether a different reading is negative depends on an agreement the sentence does not state.",
+    "Nothing is wrong — 200 is positive under every encoding, so the conclusion holds.",
+    "The error is only that 200 might overflow, which would produce a negative value later."
+  ],
+  "answer": 1,
+  "explanation": "The pattern 11001000 is 200 unsigned and -56 as a byte. Saying \"it is 200\" has silently asserted an agreement. This is not pedantry: it is the shape of a real family of bugs, in which a value written under one reading is consumed under another, and nothing in the machine objects because there is nothing there to object.",
+  "tags": [
+    "encoding",
+    "reasoning"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

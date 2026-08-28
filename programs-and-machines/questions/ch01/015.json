@@ -1,0 +1,28 @@
+{
+  "question_id": "bf110e27-9ea1-4b4b-8b01-4dc387b5d489",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that detects integer overflow instead of ignoring it. Fill in the three blanks.",
+  "choices": [
+    "public class Overflow {",
+    "    public static void main(String[] args) {",
+    "        int a = ___, b = 1;                // the largest int",
+    "        System.out.println(\"silent : \" + ___);          // ordinary addition",
+    "        try {",
+    "            System.out.println(\"checked: \" + ___);      // the checked form",
+    "        } catch (ArithmeticException e) {",
+    "            System.out.println(\"checked: \" + e.getMessage());",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "Integer.MAX_VALUE|a + b|Math.addExact(a, b)",
+  "explanation": "Verified: the first line prints -2147483648 and the second prints `integer overflow`. Overflow is not a bug in the machine — it is arithmetic modulo 2^32 behaving exactly as specified — but it is almost never what the programmer meant. `Math.addExact`, `multiplyExact` and `subtractExact` turn a wrong answer into an exception, which is Chapter 28's argument for failing loudly, available here in one method call.",
+  "tags": [
+    "overflow",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

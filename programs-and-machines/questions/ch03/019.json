@@ -1,0 +1,19 @@
+{
+  "question_id": "4222dae0-3e6d-4d6f-894c-e5987205e618",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "tf",
+  "text": "Colour, sound, and images are stored fundamentally differently from text.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "All four are the same move: choose a set of things to distinguish, assign each a number, and store the numbers. A pixel is three numbers under an agreement about which is red; a sound sample is a number under an agreement about amplitude and rate; a character is a number under an agreement about which glyph. The differences are in the sampling and the compression, not in the kind of thing being done.",
+  "tags": [
+    "representation",
+    "media"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

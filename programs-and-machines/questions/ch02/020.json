@@ -1,0 +1,26 @@
+{
+  "question_id": "ac3a7d83-b916-4c2e-94ac-2f25bbb20fed",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that computes ten dimes two ways and shows which is right. Fill in the three blanks.",
+  "choices": [
+    "public class Dimes {",
+    "    public static void main(String[] args) {",
+    "        long cents = 0; double dollars = 0;",
+    "        for (int i = 0; i < 10; i++) { ___; ___; }   // add a dime each way",
+    "        System.out.println(\"integer cents : \" + ___);  // convert for display only",
+    "        System.out.println(\"double dollars: \" + dollars);",
+    "    }",
+    "}"
+  ],
+  "answer": "cents += 10|dollars += 0.10|cents / 100.0",
+  "explanation": "Verified: 1.0 from the integer path and 0.9999999999999999 from the double path. Ten dimes is a dollar, and one of these two programs disagrees. Note where the division sits: the integers accumulate exactly and are converted to a decimal fraction only at the moment of display, which is the general pattern — compute in the exact representation and convert at the boundary, never the reverse.",
+  "tags": [
+    "floating-point",
+    "money",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

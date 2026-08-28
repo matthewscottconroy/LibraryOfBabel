@@ -1,0 +1,21 @@
+{
+  "question_id": "ae1e1d03-9ffa-4c44-92c9-c8e2a6fbad9d",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "proof",
+  "text": "A three-state ('ternary') machine has been built more than once. Work out how many wires each system needs to hold one thousand distinct values. Give fills as plain integers.",
+  "choices": [
+    "Binary: the smallest n with 2^n >= 1000 is n = ___",
+    "Ternary: the smallest n with 3^n >= 1000 is n = ___",
+    "Binary capacity at that width: 2^10 = ___",
+    "Ternary capacity at that width: 3^7 = ___"
+  ],
+  "answer": "10|7|1024|2187",
+  "explanation": "10 binary wires, 7 ternary wires, giving 1024 and 2187 values. Ternary genuinely is more compact — Setun, built in Moscow in 1958, used it. It lost anyway, and the reason is the last lesson's: three states means two thresholds in the same voltage range, so every ternary wire is less tolerant of noise than every binary one. Density lost to reliability, which is usually how this argument ends.",
+  "tags": [
+    "bits",
+    "derivation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

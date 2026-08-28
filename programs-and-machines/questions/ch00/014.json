@@ -1,0 +1,21 @@
+{
+  "question_id": "543bcd04-365e-42e7-8873-83f4b1429de1",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why did digital machines settle on two states rather than ten, given that ten would store more per wire?",
+  "choices": [
+    "Two states can be separated by a wide voltage margin, so noise and component variation do not flip a value; ten states would need nine thresholds in the same range.",
+    "Because Boolean algebra was discovered before decimal arithmetic was formalised for circuits.",
+    "Because two states map directly onto the true/false values that programs need anyway.",
+    "Because binary arithmetic is mathematically simpler, so the circuits require fewer transistors."
+  ],
+  "answer": 0,
+  "explanation": "It is an engineering decision, not a mathematical necessity, and decimal computers were built — ENIAC among them. The deciding factor is reliability under noise: with two states you need one threshold and can leave an enormous gap either side, and a signal degraded by temperature, manufacturing variation, or a neighbouring wire still reads correctly. Ten states in the same voltage range leaves each level a tenth of the room.",
+  "tags": [
+    "bits",
+    "engineering"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

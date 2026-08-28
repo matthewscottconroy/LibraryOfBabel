@@ -1,0 +1,19 @@
+{
+  "question_id": "2f82fd11-e13a-4a5c-ac2a-9afac3e967c9",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "blank",
+  "text": "`javac` translates source into instructions for a specified machine that exists only as a document. That machine is the Java ___ Machine.",
+  "choices": [
+    "Virtual",
+    "Virtual"
+  ],
+  "answer": "Virtual",
+  "explanation": "Specified rather than built, which is what makes \"compile once, run anywhere\" possible and what gives Chapter 21 something to look up when it asks what `invokevirtual` does. It is also a stack machine with no registers, chosen partly because that makes bytecode compact and easy to verify, and partly because it bakes in no assumption about how many registers a real processor has.",
+  "tags": [
+    "jvm",
+    "vocabulary"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

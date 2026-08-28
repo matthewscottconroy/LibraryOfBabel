@@ -1,0 +1,21 @@
+{
+  "question_id": "ee564492-59ec-48e5-a560-d8c2a8c4d4dd",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why does `javac` produce bytecode for a machine that does not exist, rather than machine code for yours?",
+  "choices": [
+    "Because Java's type system requires runtime type information that machine code cannot carry.",
+    "Because a virtual machine can verify bytecode for safety, which is impossible for machine code.",
+    "So that one compiled artifact runs anywhere a JVM exists, moving the per-processor work into the JVM rather than into every build.",
+    "Because bytecode is smaller than machine code, which mattered for applet download times."
+  ],
+  "answer": 2,
+  "explanation": "The alternative is a separate build per operating system and processor — and the combinations multiply. Compile once to a specified machine, then write one interpreter per real processor. The second option names a genuine benefit rather than the reason: bytecode verification is real and valuable, and it was made possible by the choice rather than causing it.",
+  "tags": [
+    "jvm",
+    "compilation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

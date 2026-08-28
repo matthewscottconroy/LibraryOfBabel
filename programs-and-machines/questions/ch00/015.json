@@ -1,0 +1,21 @@
+{
+  "question_id": "41578916-1202-4125-b01f-9706f89a6643",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "proof",
+  "text": "A fixed-width encoding assigns every symbol the same number of bits. Derive the width needed for some alphabets. Give each fill as a plain integer.",
+  "choices": [
+    "26 lowercase letters need ceil(log2 26) = ___ bits",
+    "128 ASCII characters need exactly log2 128 = ___ bits",
+    "256 byte values need exactly log2 256 = ___ bits",
+    "Unicode's 1,114,112 code points need ceil(log2 1114112) = ___ bits"
+  ],
+  "answer": "5|7|8|21",
+  "explanation": "5, 7, 8, and 21. The last is the interesting one: Unicode's space needs 21 bits, which fits in no natural machine word, and that awkwardness is why UTF-32 wastes 11 bits per character and why UTF-8 exists instead. Chapter 4 takes it up, and Chapter 33 shows that the waste in a fixed-width encoding can be quantified exactly.",
+  "tags": [
+    "encoding",
+    "derivation"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

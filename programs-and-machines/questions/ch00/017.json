@@ -1,0 +1,22 @@
+{
+  "question_id": "537696b2-c949-4373-b8c0-2b33310d70c3",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Complete the reasoning about how many distinct values a fixed-width field can hold, and what that costs. Give fills as plain integers.",
+  "choices": [
+    "A field of n bits holds 2^n distinct patterns.",
+    "So 4 bits hold ___ patterns,",
+    "and 16 bits hold ___ patterns.",
+    "If 16 bits must represent 0 through 65535 inclusive, the largest value is ___,",
+    "and representing 65536 as well would require ___ more bit(s)."
+  ],
+  "answer": "16|65536|65535|1",
+  "explanation": "16, 65536, 65535, and 1 more bit. That last line is the whole of fixed-width's price: the boundary is not a soft limit that degrades, it is a wall, and one more value on the far side costs a doubling of the field. Chapter 2 shows what a machine does when a program walks into that wall, and the answer is not an error.",
+  "tags": [
+    "fixed-width",
+    "derivation"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

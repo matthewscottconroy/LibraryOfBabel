@@ -1,0 +1,21 @@
+{
+  "question_id": "1c5d552b-3635-49c6-8de5-effa77bc394e",
+  "chapter": 0,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Which of these is the best evidence that meaning is not in the bits?",
+  "choices": [
+    "Different processors store multi-byte integers in different orders, so the same number has two patterns.",
+    "Compression can shrink a file without losing meaning, so the extra bits carried none.",
+    "The identical byte sequence is displayed as text by one program and played as audio by another, and neither is misreading it.",
+    "Corrupted files display as nonsense, which shows the meaning was fragile."
+  ],
+  "answer": 2,
+  "explanation": "Two programs, one byte sequence, two correct readings — neither is wrong, because correctness is relative to an agreement. The second option is endianness, which is a real instance of the claim but shows something weaker: one meaning with two patterns rather than one pattern with several meanings. The third is Chapter 33's subject and concerns redundancy rather than interpretation.",
+  "tags": [
+    "encoding",
+    "reasoning"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

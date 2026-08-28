@@ -1,0 +1,26 @@
+{
+  "question_id": "e3c39070-760f-4708-a1d9-9ac1a7820e12",
+  "chapter": 2,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that adds one hundredth to itself one hundred times, and shows the drift. Fill in the three blanks.",
+  "choices": [
+    "public class Drift {",
+    "    public static void main(String[] args) {",
+    "        double sum = 0;",
+    "        for (int i = 0; i < 100; i++) ___;      // accumulate one hundredth",
+    "        System.out.println(sum);",
+    "        System.out.println(\"exact  : \" + ___);  // the naive comparison",
+    "        System.out.println(\"within : \" + ___);  // the tolerance comparison",
+    "    }",
+    "}"
+  ],
+  "answer": "sum += 0.01|sum == 1.0|Math.abs(sum - 1.0) < 1e-9",
+  "explanation": "Verified: 1.0000000000000007, then false, then true. Each addition rounds, and a hundred roundings accumulate. Note what the two comparisons say: the value is wrong by about 7 parts in 10^16, which is negligible for a measurement and fatal for a loop condition or an equality test. The tolerance comparison is the right default, and choosing the tolerance is a decision about the problem rather than about Java.",
+  "tags": [
+    "floating-point",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

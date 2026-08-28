@@ -1,0 +1,21 @@
+{
+  "question_id": "6dda2c18-9e14-4325-8af5-25996263f0db",
+  "chapter": 1,
+  "phase": 0,
+  "kind": "mc",
+  "text": "Why is the range of a signed byte -128 to +127 rather than -127 to +127?",
+  "choices": [
+    "Because two's complement rounds toward negative infinity, which gains one extra value below zero.",
+    "Zero occupies one of the 256 patterns and has only one representation, so the 255 remaining split 128 negative and 127 positive.",
+    "Because the sign bit is stored separately, leaving seven bits for magnitude on the positive side only.",
+    "Because -128 is a special sentinel value the hardware reserves for overflow detection."
+  ],
+  "answer": 1,
+  "explanation": "This is the asymmetry the preface promised a reason for. Sign-magnitude and ones' complement both give two representations of zero — +0 and -0 — which wastes a pattern and forces the adder to handle a special case. Two's complement has exactly one zero, so the leftover pattern goes to the negative side. The asymmetry is the price of a single, uniform zero.",
+  "tags": [
+    "twos-complement",
+    "range"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

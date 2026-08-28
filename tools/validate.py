@@ -42,7 +42,7 @@ ROOT = Path(__file__).resolve().parent.parent
 BUILD = ROOT / "tools" / "build_book.py"
 EXCEPTIONS_FILE = ROOT / "tools" / "validate-exceptions.toml"
 
-VALID_KINDS = {"mc", "tf", "blank"}
+VALID_KINDS = {"mc", "tf", "blank", "proof"}
 VALID_DIFFICULTY = {"beginner", "intermediate", "advanced"}
 REQUIRED_QUESTION_FIELDS = (
     "kind", "text", "choices", "answer", "explanation", "difficulty", "chapter",
@@ -197,6 +197,30 @@ def check_questions(book: Path) -> list[Failure]:
                 if any(not isinstance(c, str) for c in choices):
                     fails.append(Failure(book.name, "questions", tag,
                                          "blank choices must all be strings (acceptable answers)"))
+            elif kind == "proof":
+                # proof → choices are the scaffold lines, some containing '___';
+                # answer is the pipe-separated canonical fills, one per blank, in
+                # order. Mirrors Question::Proof::validate in question.rs.
+                if any(not isinstance(c, str) for c in choices):
+                    fails.append(Failure(book.name, "questions", tag,
+                                         "proof choices must all be strings (scaffold lines)"))
+                    continue
+                if not choices:
+                    fails.append(Failure(book.name, "questions", tag,
+                                         "proof questions need at least one scaffold line"))
+                if not isinstance(q["answer"], str):
+                    fails.append(Failure(book.name, "questions", tag,
+                                         f"proof answer must be a pipe-separated string, got {q['answer']!r}"))
+                    continue
+                n_blanks = sum(c.count("___") for c in choices)
+                n_fills = len([f for f in q["answer"].split("|") if f.strip()])
+                if n_blanks == 0:
+                    fails.append(Failure(book.name, "questions", tag,
+                                         "proof choices must contain at least one '___' blank"))
+                elif n_fills != n_blanks:
+                    fails.append(Failure(book.name, "questions", tag,
+                                         f"proof answer has {n_fills} fills but choices have "
+                                         f"{n_blanks} blanks"))
     return fails
 
 

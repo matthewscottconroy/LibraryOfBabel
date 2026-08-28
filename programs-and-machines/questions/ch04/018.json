@@ -1,0 +1,19 @@
+{
+  "question_id": "9cad3d1a-2edf-46ae-bce3-789fb50104ba",
+  "chapter": 4,
+  "phase": 0,
+  "kind": "tf",
+  "text": "A `.class` file contains machine code for the processor that compiled it.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "It contains bytecode for the Java Virtual Machine — a stack machine defined by a specification document rather than by silicon, with around 200 opcodes and no general-purpose registers. That is why the same `.class` file runs on an Intel laptop and an ARM server. Chapter 21 shows four of those opcodes doing real work: the distinction between `invokestatic`, `invokespecial`, `invokevirtual` and `invokeinterface` is exactly the distinction between the kinds of dispatch.",
+  "tags": [
+    "jvm",
+    "bytecode"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

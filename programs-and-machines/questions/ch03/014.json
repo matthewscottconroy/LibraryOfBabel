@@ -1,0 +1,21 @@
+{
+  "question_id": "e998164b-0447-49b4-9155-3cfdce84821d",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "mc",
+  "text": "`\"a😀b\".length()` returns 4, not 3. Why?",
+  "choices": [
+    "Because the emoji is stored as two separate characters, a base and a modifier.",
+    "Because Java strings are null-terminated and the terminator is counted for non-ASCII text.",
+    "`length()` counts UTF-16 code units, and the emoji is outside the Basic Multilingual Plane, so it occupies a surrogate pair.",
+    "Because `length()` counts UTF-8 bytes, and the emoji requires four of them."
+  ],
+  "answer": 2,
+  "explanation": "A Java `char` is 16 bits, fixed in 1995 when Unicode was believed to fit in 16 bits. It did not, so characters above U+FFFF are stored as two `char`s — a high surrogate and a low one. So `length()` is a count of storage units rather than of characters, `charAt` can return half a character, and `codePointCount` is the method that answers the question you meant.",
+  "tags": [
+    "unicode",
+    "surrogates"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,27 @@
+{
+  "question_id": "32a7cae9-df32-4560-8500-2635f5bffffb",
+  "chapter": 3,
+  "phase": 0,
+  "kind": "proof",
+  "text": "Write a program that shows a string's length in characters, in UTF-8 bytes, and in UTF-16 bytes. Fill in the three blanks.",
+  "choices": [
+    "import java.nio.charset.StandardCharsets;",
+    "public class Widths {",
+    "    public static void main(String[] args) {",
+    "        for (String s : new String[]{\"hello\", \"café\", \"naïve\"}) {",
+    "            System.out.printf(\"%-6s chars=%d utf8=%d utf16=%d%n\", s,",
+    "                ___, ___, ___);",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "s.length()|s.getBytes(StandardCharsets.UTF_8).length|s.getBytes(StandardCharsets.UTF_16BE).length",
+  "explanation": "Verified: hello is 5/5/10, café is 4/5/8, naïve is 5/6/10. Three different numbers for the same text, and none of them is *the* length. ASCII text costs one byte per character in UTF-8 and two in UTF-16; accented text costs more in UTF-8 and the same in UTF-16. Which encoding is smaller depends on the language being written, which is why the argument between them was never settled on technical grounds alone.",
+  "tags": [
+    "unicode",
+    "encoding",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

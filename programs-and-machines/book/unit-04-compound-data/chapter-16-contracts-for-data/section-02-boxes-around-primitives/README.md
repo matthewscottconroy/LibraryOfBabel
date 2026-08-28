@@ -1,5 +1,13 @@
 # Boxes Around Primitives
 
+`List<int>` does not compile. It is one of the first genuinely arbitrary-looking
+refusals a Java beginner meets.
+
+It is not arbitrary, and it is not small: the same decision explains autoboxing,
+the traps that come with it, why Chapter 26's stream measurement differs tenfold,
+and why one package in the standard library contains forty near-identical
+interfaces.
+
 Three lessons on a wrinkle in Java's type system and the trouble it causes.
 
 Java has two kinds of value: primitives, which are the fixed-width boxes of Unit

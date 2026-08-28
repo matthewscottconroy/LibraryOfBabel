@@ -1,5 +1,12 @@
 # What to Read Next
 
+Each chapter listed sources for its own material. This is the other question: given
+all of it, what next?
+
+The answer depends on what you are trying to become, so the list below is arranged
+that way rather than by topic — and the second half, about what to *build*, matters
+more than the first.
+
 Each chapter's further reading listed sources for that chapter. This is the other
 question: what to read next, given all of it.
 

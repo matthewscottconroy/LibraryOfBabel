@@ -1,5 +1,12 @@
 # The Contradiction
 
+Here is the whole proof. It is about fifteen lines, most of them a program you
+could write this afternoon if the thing it depends on existed.
+
+Read it slowly the first time — it is short enough to feel like a trick, and it is
+not one. Everything it does is ordinary programming, which is exactly what makes
+the conclusion unavoidable.
+
 Suppose `halts(P, x)` exists: always terminates, always correct, works for every
 program and input.
 

@@ -1,5 +1,13 @@
 # Information as Surprise
 
+Two messages arrive, each one bit long:
+
+- the coin came up heads
+- the sun rose this morning
+
+They are the same size in every encoding, and one of them told you nothing. Whatever
+information *is*, it cannot be a property of the message alone.
+
 Two messages, each one bit long.
 
 **"The coin came up heads."** A fair coin, so before the message you thought heads

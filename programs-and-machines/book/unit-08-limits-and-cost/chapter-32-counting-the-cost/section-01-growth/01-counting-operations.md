@@ -1,5 +1,13 @@
 # Counting Operations
 
+Chapter 18 told you to measure rather than guess, and meant it. Here is the gap in
+that advice.
+
+Seconds depend on the processor, on the JIT's mood, on what else is running, on how
+warm the cache is. They are the right unit for "is this fast enough today" and
+useless for "will this survive ten times the data" — and the second question is
+usually the one you actually have.
+
 Chapter 18 measured seconds. Seconds depend on the processor, the JIT's mood, the
 operating system's scheduling, what else is running, and how warm the cache is.
 They are the right unit for "is this fast enough today" and the wrong one for "is

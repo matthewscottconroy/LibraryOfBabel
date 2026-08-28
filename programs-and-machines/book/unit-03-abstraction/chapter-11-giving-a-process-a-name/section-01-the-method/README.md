@@ -1,5 +1,12 @@
 # The Method
 
+You already write methods. `main` is one, and you have called dozens of others.
+
+What you have not had to decide is when to *make* one — and that decision, unlike
+the syntax, has no rule you can be handed. A program is a heap of statements until
+somebody chooses where the seams go, and choosing well is most of what separates
+code that can be changed from code that can only be replaced.
+
 Three lessons.
 
 The first is about why naming a process is worth doing at all — an argument, not

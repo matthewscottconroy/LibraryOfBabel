@@ -1,5 +1,11 @@
 # Compression
 
+English carries about one bit per character and is stored at eight. That gap is
+not an inefficiency anyone overlooked; it is what a fixed-width encoding costs, and
+Chapter 1 predicted it without being able to say how much.
+
+This section closes the gap, and then proves a limit on how far anyone can.
+
 Two lessons.
 
 Variable-length codes: giving frequent symbols short codes, the prefix property

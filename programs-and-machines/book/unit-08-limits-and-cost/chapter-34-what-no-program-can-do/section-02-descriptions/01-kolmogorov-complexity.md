@@ -1,5 +1,12 @@
 # Kolmogorov Complexity
 
+Two strings, each a thousand characters. One is `abab` repeated five hundred times.
+The other came from a random number generator.
+
+Everyone agrees the second is more complicated. Chapter 33's entropy cannot quite
+say why — entropy is defined over a *source*, and here there are two strings and no
+probabilities in sight. So what is it that we are all agreeing about?
+
 Two strings, each a thousand characters:
 
 ```

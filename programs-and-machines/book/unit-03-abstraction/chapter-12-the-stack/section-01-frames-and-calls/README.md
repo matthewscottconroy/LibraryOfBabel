@@ -1,5 +1,11 @@
 # Frames and Calls
 
+Chapter 11 asked you to trust that a method call works — that the caller's
+variables survive it, that the right value comes back, that recursion is coherent.
+
+This section is where that trust gets its mechanism. It turns out to be one data
+structure, chosen because the shape of the problem leaves almost no alternative.
+
 Three lessons on the mechanism.
 
 The call frame is the packet of state belonging to one execution of one method:

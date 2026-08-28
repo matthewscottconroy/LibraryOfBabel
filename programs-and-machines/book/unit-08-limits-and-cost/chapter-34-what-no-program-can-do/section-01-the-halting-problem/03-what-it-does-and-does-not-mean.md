@@ -1,5 +1,13 @@
 # What It Does and Does Not Mean
 
+This result is over-claimed more than anything else in the subject, in both
+directions. You will meet people who think it means software cannot be verified,
+and people who think it is a technicality with no practical reach.
+
+Both are wrong, and the truth is more useful than either: it explains why your
+compiler warns instead of proving, why your static analyser reports things that
+cannot happen, and why nobody has written a complete virus scanner.
+
 Undecidability is the most over-claimed result in this book's subject, and the
 overclaiming runs in both directions — people conclude both far too much and far
 too little from it. This lesson is the careful version.

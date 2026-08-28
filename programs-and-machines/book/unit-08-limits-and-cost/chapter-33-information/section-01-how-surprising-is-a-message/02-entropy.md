@@ -1,5 +1,12 @@
 # Entropy
 
+The last lesson measured the surprise of one message. That is a start and it is not
+yet useful, because you rarely send one message.
+
+What you want is the average — how much a symbol from this source tells you,
+typically — because that number turns out to be the exact size the data can be
+compressed to. Not an estimate. The exact size, with a theorem behind it.
+
 The surprise of one message is $-\log_2 p$. The interesting quantity is the
 **average** surprise of a source — how much a symbol from it tells you, on
 average.

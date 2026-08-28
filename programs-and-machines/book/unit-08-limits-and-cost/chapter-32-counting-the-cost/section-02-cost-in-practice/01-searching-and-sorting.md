@@ -1,5 +1,12 @@
 # Searching and Sorting
 
+Searching and sorting are where this subject was invented, and they are still the
+clearest examples — partly because one of them has something rarer than a fast
+algorithm.
+
+It has a proof that no faster one can exist. Not that nobody has found one: that
+nobody can, ever, and the argument is short enough to follow in a page.
+
 These two problems are where complexity analysis was developed and they remain the
 clearest examples, partly because one of them has a proven lower bound.
 

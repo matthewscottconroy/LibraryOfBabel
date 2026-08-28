@@ -1,5 +1,13 @@
 # Abstraction Revisited
 
+The book's second idea ran alongside the first from Chapter 11 onward, and it is
+the one that took longer to say plainly.
+
+An abstraction's value is not what is behind it. It is what it lets you stop
+thinking about — and that framing explains why a method's name matters more than
+its body, why `private` is worth the keystrokes, and why an interface with nothing
+behind it at all is the purest form of the thing.
+
 The second idea, and it ran alongside the first from Chapter 11 onward.
 
 > An abstraction is a boundary. Its value is not what is behind it — it is what it

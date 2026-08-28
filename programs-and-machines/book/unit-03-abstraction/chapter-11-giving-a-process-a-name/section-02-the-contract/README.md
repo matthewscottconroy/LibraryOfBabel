@@ -1,5 +1,12 @@
 # The Contract
 
+`static int largest(int[] values)` — what does that promise?
+
+It is a fair question and the obvious answer is incomplete in ways that will bite
+somebody. What if the array is empty? What if it is null? Is the result guaranteed
+to be an element of the array? The signature answers none of that, and the answers
+are still part of what the method means.
+
 Two lessons on what a method promises.
 
 A signature says what goes in and what comes out. It leaves out everything else:

@@ -1,5 +1,12 @@
 # Testing a Method
 
+You ran it, it printed the right thing, and you moved on. Then you changed
+something nearby.
+
+Is it still right? The honest answer, for most code most of the time, is a shrug —
+and that shrug is why programs decay. This section is about writing the checking
+down so the machine does the remembering.
+
 Three lessons.
 
 What a test actually is — an executable claim, which turns Chapter 11's contract

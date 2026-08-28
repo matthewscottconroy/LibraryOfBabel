@@ -1,5 +1,13 @@
 # Randomness as Incompressibility
 
+Sixteen coin flips come up all heads. You would say something was wrong with the
+coin.
+
+But a fair coin produces `HHHHHHHHHHHHHHHH` with exactly the same probability as
+any other particular sequence — one in 65,536, the same as the messy-looking one
+you would have accepted without comment. Probability cannot tell them apart, and
+yet you are clearly noticing something real.
+
 What does it mean for a string to be random?
 
 The word is used constantly and it resists definition. Consider three sequences of

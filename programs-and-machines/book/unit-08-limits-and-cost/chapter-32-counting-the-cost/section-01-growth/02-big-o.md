@@ -1,5 +1,13 @@
 # Big-O
 
+The counts in the last lesson were exact, and exactness turns out to be the wrong
+thing to want.
+
+An exact count depends on how you chose to count, and it is machine-specific the
+moment you care what an operation costs. What survives all of that — what is a
+property of the algorithm rather than of your afternoon — is coarser, and the
+notation for it is built out of throwing two things away on purpose.
+
 The counts in the last lesson were exact: $n$, $\log_2 n$, $n(n-1)/2$. Exact
 counts are more precision than the question needs, and the extra precision is
 misleading — it depends on how you counted, and it is machine-dependent the moment

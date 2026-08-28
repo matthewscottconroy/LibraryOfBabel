@@ -1,5 +1,12 @@
 # Self-Reference
 
+Recursion is the first idea in this book that people report as a *feeling* rather
+than a difficulty — the sense that a definition using itself must be circular, that
+somewhere a trick is being pulled.
+
+No trick is being pulled, and the discomfort has a specific cause worth naming
+early: you are being asked to rely on something you have not finished writing.
+
 Three lessons.
 
 The base case first: the reason a self-referential definition does not go round

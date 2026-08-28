@@ -1,5 +1,13 @@
 # Variable-Length Codes
 
+Samuel Morse had the right idea in 1838, and the way he got it is the best argument
+for it.
+
+Vail went to a printer's shop and counted how many pieces of each letter were in
+the type case. Common letters got short codes; rare ones got long. `E` is one dot.
+`Q` is dash-dash-dot-dash. That is a century before anyone could say why it worked,
+and this lesson is about doing it optimally rather than by eye.
+
 Section 33.1.2 said English carries about one bit per character and is stored at
 eight. Closing that gap is compression, and the first idea is the oldest one.
 

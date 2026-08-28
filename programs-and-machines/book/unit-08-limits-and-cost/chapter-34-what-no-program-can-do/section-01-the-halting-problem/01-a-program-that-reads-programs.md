@@ -1,5 +1,12 @@
 # A Program That Reads Programs
 
+Before the proof, the setup — and the setup is the part that would have been
+impossible to explain before Unit VI.
+
+The argument turns on a program being handed another program *as data*, which
+sounds exotic until you remember that you wrote one in Chapter 25. Your evaluator
+took a program apart and ran it. The only new move is to hand it its own text.
+
 The halting problem asks for a program `halts(P, x)` that returns `true` if
 program `P` eventually stops on input `x`, and `false` if it runs forever.
 

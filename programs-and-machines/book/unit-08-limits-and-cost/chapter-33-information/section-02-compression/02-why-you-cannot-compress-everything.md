@@ -1,5 +1,12 @@
 # Why You Cannot Compress Everything
 
+Here is a plausible business plan. `gzip` shrinks text by eighty percent, so run it
+twice. Then again. Repeat until everything is a few bytes.
+
+People have patented versions of this and raised money for it. The argument that
+kills it is three lines long, requires no knowledge of the method being proposed,
+and is the first outright impossibility proof in this book.
+
 Here is a plausible claim. Since `gzip` shrinks text by 80% and images by more,
 why not apply it repeatedly? Compress the compressed output, and again, until
 everything is a few bytes.

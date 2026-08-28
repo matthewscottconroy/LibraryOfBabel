@@ -1,5 +1,11 @@
 # A Last Word
 
+The temptation at the end of a book is to congratulate the reader. This is more
+useful than that.
+
+What follows is what you know, what you do not, the one habit worth keeping, and an
+admission that some of the opinions in these thirty-five chapters are wrong.
+
 An honest account of where you are, which is more useful than congratulation.
 
 ## What you know

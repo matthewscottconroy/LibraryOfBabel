@@ -1,5 +1,13 @@
 # The Usual Classes
 
+There are seven growth classes you will meet in practice, and the useful way to
+hold them is not as formulas.
+
+It is as an answer to one question: **what happens when the data doubles?** Nothing.
+One more step. Twice the work. Four times. The work squared. Those answers are what
+you actually feel when a system grows, and the table below is mostly a way of
+attaching names to them.
+
 Seven classes cover nearly everything.
 
 | class | name | doubling $n$ means | example |

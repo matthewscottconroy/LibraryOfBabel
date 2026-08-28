@@ -1,5 +1,12 @@
 # Arrays of Arrays
 
+A chessboard, a spreadsheet, an image, a table of results. Grids are everywhere,
+and Java has no grid.
+
+What it has is arrays of arrays, which is *nearly* the same thing — and the places
+where it is not the same thing are the source of every two-dimensional array bug
+worth knowing about.
+
 Three lessons on two-dimensional data.
 
 The first observes that Java has no two-dimensional arrays at all — what it has is

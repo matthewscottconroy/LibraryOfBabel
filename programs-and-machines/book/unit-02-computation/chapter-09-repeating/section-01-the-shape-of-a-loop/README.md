@@ -1,5 +1,11 @@
 # The Shape of a Loop
 
+Everything you have written so far runs each line once. That is a hard ceiling: a
+program of a hundred lines can do a hundred things.
+
+Repetition removes the ceiling, and it is the point at which a program stops being
+a list of instructions a person could have carried out by hand.
+
 Three lessons.
 
 `while` first, because it is the primitive one — everything else in this chapter

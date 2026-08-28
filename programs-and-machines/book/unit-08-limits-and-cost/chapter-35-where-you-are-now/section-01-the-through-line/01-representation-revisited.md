@@ -1,5 +1,12 @@
 # Representation Revisited
 
+Here is a test of whether the preface's claim was worth making.
+
+Below is a list of eight bugs from eight different chapters — an unsigned integer
+misread, a `double` comparison, a wrong charset, a mutable map key. They look like
+eight things to memorise. If the claim was any good, they are one thing, and
+knowing which one replaces eight rules with a single question.
+
 > A computer holds patterns and changes them. Everything else is an agreement we
 > have layered on top.
 

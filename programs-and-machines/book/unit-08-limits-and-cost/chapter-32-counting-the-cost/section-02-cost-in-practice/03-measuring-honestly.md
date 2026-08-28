@@ -1,5 +1,13 @@
 # Measuring Honestly
 
+This chapter has spent two sections building a way to predict cost. This lesson
+is about its limits, and it opens with a measurement that does not fit.
+
+Bubble sort's timings grow by a factor of four per doubling, as the theory says
+they should — three times in a row, and then by twelve. That row is reproducible.
+It is left in, and this lesson explains why leaving it in matters more than the
+tidier alternative.
+
 This chapter has spent two sections building an apparatus for predicting cost. This
 lesson is about its limits, and it begins with a case where the apparatus and the
 machine disagreed.

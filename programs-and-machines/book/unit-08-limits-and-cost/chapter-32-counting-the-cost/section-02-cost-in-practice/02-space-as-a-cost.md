@@ -1,5 +1,12 @@
 # Space as a Cost
 
+Time gets all the attention, and memory is the one that actually stops you.
+
+A program that is too slow still finishes. A program that runs out of memory does
+not, and the boundary arrives sooner than you would guess — Chapter 12's recursion
+limit is about twenty thousand frames deep, which a linked list of a hundred
+thousand elements will walk straight past.
+
 Time gets the attention. Memory is a cost too, it is analysed the same way, and it
 is the binding constraint more often than people expect — because running out of
 it does not slow a program down, it stops it.

@@ -1,11 +1,19 @@
 # Reading and Writing Text
 
-Chapter 4 argued that an encoding is an agreement, and you may have filed that
-under philosophy.
+Back in Chapter 4 you were told that an encoding is an agreement. It is possible
+you filed that under philosophy and moved on. Most people do.
 
-Here it is as a bug report. A file written on one machine displays on another as
-`GÃ¶del` instead of `Gödel`. Nothing threw. Nothing was corrupted. Both programs
-did exactly what they were told, and the file is fine.
+Here it is again as a bug report.
+
+A file is written on one machine. It is read on another. The name of the
+mathematician Kurt Gödel comes out the other end as `GÃ¶del`.
+
+Now, the interesting part. Nothing threw an exception. Nothing was corrupted in
+transit. The disk is fine, the network is fine, and both programs did exactly what
+they were told to do. If you open the file with the right tool it is perfect. The
+bytes on disk are not damaged in any way.
+
+Somebody has been let down by an agreement, and this lesson is about who.
 
 ## Writing
 
@@ -19,24 +27,29 @@ try (BufferedWriter w = Files.newBufferedWriter(f, StandardCharsets.UTF_8)) {
 
 Verified: `wrote 207 bytes`.
 
-Two things done deliberately.
+Two choices in there were made on purpose, and both are worth a minute.
 
-**The charset is stated.** `StandardCharsets.UTF_8`, explicitly, on every read and
-write in this chapter.
+**The charset is stated out loud.** `StandardCharsets.UTF_8`, explicitly, on every
+read and every write in this chapter.
 
-Before Java 18, omitting it meant the platform default — which is UTF-8 on most
-Linux systems, was `windows-1252` on many Windows installations, and could differ
-between the machine that wrote the file and the machine that read it. That is a
-bug that does not reproduce, appears only for non-ASCII data, and is discovered by
+You are allowed to leave it out. Before Java 18, leaving it out meant *the platform
+default*, and the platform default was UTF-8 on most Linux systems and
+`windows-1252` on a great many Windows installations. Read that sentence again with
+a suspicious eye: the encoding depended on which machine the program happened to be
+running on.
+
+So a file written on one machine and read on another could disagree with itself,
+producing a bug that never reproduces on the developer's laptop, appears only when
+the data contains a non-ASCII character, and is discovered several months later by
 a user in another country.
 
-Java 18 made UTF-8 the default everywhere, which fixed it for new code. State it
-anyway: it costs one argument, it documents the intent, and it works on older
-runtimes.
+Java 18 made UTF-8 the default everywhere and closed that hole for new code. State
+it anyway. It costs you one argument, it tells the next reader what you intended,
+and it keeps working on older runtimes.
 
-**`newLine()` rather than `"\n"`.** It writes the platform's line separator —
-`\n` on Unix, `\r\n` on Windows. Whether you want that is a real question, taken
-up below.
+**`newLine()` rather than `"\n"`.** This writes the platform's line separator —
+`\n` on Unix, `\r\n` on Windows. Whether that is what you want turns out to be a
+real question with a real answer, and we come back to it at the end.
 
 ## Reading
 
@@ -55,18 +68,21 @@ Book[title=Gödel, Escher, Bach, author=Hofstadter, year=1979]
 Book[title=Programming, with a comma, author=Nobody, year=2026]
 ```
 
-`skip(1)` drops the header. Line splitting handles `\n`, `\r\n` and a bare `\r`,
-which is one fewer thing to get wrong.
+`skip(1)` throws away the header row. The line splitting copes with `\n`, `\r\n`
+and even a lonely `\r`, which is one fewer thing available for you to get wrong.
 
-## Getting the encoding wrong
+## Now break it on purpose
 
-The same 207 bytes, decoded two ways:
+Here are the same 207 bytes, unchanged, decoded two different ways.
 
 ```java
 byte[] utf8 = Files.readAllBytes(f);
 String correct = new String(utf8, StandardCharsets.UTF_8);
 String wrong   = new String(utf8, StandardCharsets.ISO_8859_1);
 ```
+
+Before you look at the output, predict two things. First, which of those two lines
+throws. Second, how many characters come out of 207 bytes in each case.
 
 Verified:
 
@@ -79,76 +95,95 @@ UTF-8   : Gödel
 Latin-1 : GÃ¶del
 ```
 
-The file contains "Gödel". Read as UTF-8 it is "Gödel". Read as Latin-1 it is
-"GÃ¶del".
+Neither line threw. And the character counts differ by exactly one.
 
-The reason is exactly Chapter 4's. `ö` is one character, encoded in UTF-8 as two
-bytes, `0xC3 0xB6`. Latin-1 is a one-byte encoding, so it decodes those as two
-characters: `Ã` and `¶`. Hence 207 characters from 207 bytes rather than 206.
+That difference of one is the whole story, and it is Chapter 4's argument arriving
+to collect. The character `ö` is one character. UTF-8 encodes it as two bytes,
+`0xC3` and `0xB6`. Latin-1 is a one-byte-per-character encoding, so when it meets
+those two bytes it does the only thing it knows how to do: it decodes them as two
+characters, `Ã` and `¶`. Two characters where there should have been one. Hence 207
+out of 207, instead of 206.
 
-Two things worth noticing about this failure.
+Two features of this failure deserve your attention more than the mechanism does.
 
-**Nothing threw.** Latin-1 assigns a character to all 256 byte values, so no byte
-sequence is invalid and no error is possible. The program read the file, got
-nonsense, and reported success. This is Section 28.2.3's "plausible wrong answer"
-in its purest form.
+**Nothing threw, and nothing could have.** Latin-1 assigns a character to all 256
+possible byte values. There is no such thing as a byte sequence that is invalid
+Latin-1. So the decoder cannot detect a problem, because from where it is standing
+there is no problem — it was handed bytes, it turned them into characters, it did
+its job. The program read the file, got nonsense, and reported complete success.
+That is the "plausible wrong answer" of Section 28.2.3 in its purest available
+form.
 
-**It is invisible in ASCII.** Every character in "The Mythical Man-Month" decodes
-identically under both. A test suite with English test data passes, and the bug
-ships and is found by someone called Müller.
+**It is completely invisible in ASCII.** Go back and look at the four book titles.
+Every single character in "The Mythical Man-Month" decodes identically under both
+encodings. So a test suite written in English passes. Every test. The bug ships,
+and it is found by somebody called Müller.
 
-That pattern — `Ã©`, `Ã¶`, `â€™` — is called **mojibake**, and once you know it
-means "UTF-8 read as Latin-1" you will see it everywhere: in badly configured web
-pages, in exported spreadsheets, in database columns.
+That pattern — `Ã©` where an `é` should be, `Ã¶` for `ö`, `â€™` for a curly
+apostrophe — has a name. It is **mojibake**, from the Japanese for "character
+transformation". Once you know that it means *UTF-8 read as Latin-1*, you will
+start seeing it everywhere: on badly configured web pages, in spreadsheets exported
+from the wrong tool, in database columns that were set up in a hurry. It is one of
+the small pleasures of knowing this material that a category of everyday ugliness
+turns into a diagnosis.
 
-## Detecting the encoding
+## So can you detect the encoding?
 
-You cannot, reliably. A byte sequence does not carry its encoding, so a file's
-encoding is metadata that lives outside the file — in a convention, a header, or
-a specification.
+No. Not reliably, and it is worth understanding why not, because the reason is
+structural rather than a gap somebody will fill in later.
 
-The partial answers:
+A sequence of bytes does not carry its encoding. There is nowhere for it to live.
+The encoding of a file is metadata that necessarily sits *outside* the file — in a
+convention, a header, or a specification — and if that outside information is lost
+then the meaning is lost with it, no matter how intact the bytes are.
 
-**Convention.** "This program's files are UTF-8." The best answer, and it works
-until someone hands you a file from elsewhere.
+Which leaves four partial answers, in rough order of how much you should like them.
 
-**Declaration.** HTTP sends a `Content-Type` header, HTML has a `<meta charset>`,
-XML has a declaration. All of them are the file saying what it is.
+**Convention.** "The files this program writes are UTF-8." The best answer
+available, and it works beautifully right up until somebody hands you a file from
+somewhere else.
 
-**A byte-order mark.** A three-byte prefix, `EF BB BF`, marking UTF-8. Legal,
-occasionally useful, and a nuisance — it appears as an invisible character at the
-start of a string and breaks parsers that expect the first byte to be data. Do not
-write one.
+**Declaration.** HTTP sends a `Content-Type` header. HTML has a `<meta charset>`.
+XML has a declaration on the first line. All of these are the file, or its wrapper,
+announcing what it is.
 
-**Guessing.** Statistical detection, as browsers do. It is right most of the time,
-which is not a property you want in a data pipeline.
+**A byte-order mark.** Three bytes, `EF BB BF`, glued to the front to mark a file
+as UTF-8. It is legal, it is occasionally useful, and it is mostly a nuisance,
+because it shows up as an invisible character at the start of your first string and
+quietly breaks any parser expecting the first byte to be data. Do not write one.
 
-The practical position: **decide, write it down, and state it in code.**
+**Guessing.** Statistical detection, of the sort browsers do. It is right most of
+the time. Ask yourself whether "right most of the time" is a property you want in
+something that moves your data around.
+
+The position to take: **decide, write it down, and say it in the code.**
 
 ## Line endings
 
-The other portability trap, and it is smaller than the encoding one but it bites
-more often.
+One more portability trap. Smaller than the encoding one, and it bites more often.
 
-Unix ends a line with `\n`. Windows ends it with `\r\n`. Classic Mac used `\r`.
-The difference is a historical accident of teletype mechanics — carriage return
-and line feed were two physical motions — and it has outlived teletypes by fifty
-years.
+Unix ends a line with `\n`. Windows ends it with `\r\n`. Classic Mac OS used a
+bare `\r`. The disagreement is a fossil of teletype mechanics, back when a carriage
+return and a line feed were two separate physical movements of an actual machine —
+one to slide the carriage back, one to roll the paper up. Those machines have been
+gone for fifty years. The two characters are still here.
 
-For **reading**, do nothing: `readLine`, `Files.lines` and `readAllLines` all
-handle every variant.
+For **reading**, do nothing at all. `readLine`, `Files.lines` and `readAllLines`
+handle every variant without being asked.
 
-For **writing**, decide:
+For **writing**, you have to decide, and the decision is genuinely a decision:
 
-- If the file is for a person on this machine, `newLine()` is right.
-- If it is a data format read by other programs, **write `\n` unconditionally**.
-  Every reader handles it, and a file whose bytes depend on which machine produced
-  it is a file that will differ under version control for no reason.
+- If the file is for a person sitting at this machine, `newLine()` is right.
+- If it is a data format that other programs will read, **write `\n` and nothing
+  else.** Every reader on earth copes with it, and a file whose actual bytes depend
+  on which machine produced it is a file that will show up as changed in version
+  control when nobody changed it.
 
-The second case is more common than the first, so `\n` is the better default and
-`newLine()` is the special case.
+The second case is far more common than the first. So `\n` is the better default,
+and `newLine()` is the exception you reach for deliberately.
 
-If you have ever seen `^M` at the end of every line in a text editor, or a git
-diff claiming every line changed when nothing did, that is this.
+If you have ever seen `^M` sitting at the end of every line in an editor, or opened
+a diff that claims all four hundred lines changed when you edited one — you have
+already met this, without knowing its name.
 
-Next: what happens underneath, and why buffering exists.
+Next: what is happening underneath all of this, and why buffering exists at all.

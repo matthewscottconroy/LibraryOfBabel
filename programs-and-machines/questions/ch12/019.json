@@ -1,0 +1,25 @@
+{
+  "question_id": "a58212bc-448a-4a77-9b3a-af933843cdab",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write mutually recursive methods, where neither is defined without the other. Fill in the three blanks.",
+  "choices": [
+    "public class Mutual {",
+    "    static boolean isEven(int n) { return n == 0 ? true  : ___; }",
+    "    static boolean isOdd(int n)  { return n == 0 ? false : ___; }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___ + \" \" + isOdd(7));",
+    "    }",
+    "}"
+  ],
+  "answer": "isOdd(n - 1)|isEven(n - 1)|isEven(10)",
+  "explanation": "Verified: true true. Neither method makes sense alone and together they terminate, because each call reduces `n` — the well-foundedness argument does not require a method to call itself, only that the *system* descends. Chapter 25's `eval` and `apply` are the same shape and the same argument: each calls the other, and each call is on a structurally smaller piece of the tree.",
+  "tags": [
+    "recursion",
+    "mutual",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "50299879-087a-44ab-8dd5-a8cf7ffb4eb4",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why is a long parameter list a design problem rather than merely inconvenient?",
+  "choices": [
+    "Because each parameter adds a stack slot, so long lists risk overflow in deep recursion.",
+    "Because the JVM limits methods to 255 parameters, which long lists approach.",
+    "Because arguments are bound by position, so nothing detects a caller swapping two of the same type.",
+    "Because the compiler cannot type-check more than a few arguments reliably."
+  ],
+  "answer": 2,
+  "explanation": "`transfer(from, to, amount)` called as `transfer(to, from, amount)` compiles perfectly and does the wrong thing, and Chapter 25 shows exactly why: `apply` binds `params.get(i)` to `args.get(i)` and nothing in that loop can notice. The fixes are to introduce types that cannot be confused, or to gather the parameters into a named object, which is Chapter 23's advice about a computation deserving its own class.",
+  "tags": [
+    "methods",
+    "parameters"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

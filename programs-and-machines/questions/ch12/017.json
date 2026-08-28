@@ -1,0 +1,30 @@
+{
+  "question_id": "4ffc3492-f3ba-4168-a25c-cc2877aa846c",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write fast exponentiation, which halves the exponent rather than decrementing it, and count the calls. Fill in the three blanks.",
+  "choices": [
+    "public class Fast {",
+    "    static int calls = 0;",
+    "    static long fastPow(long b, int e) {",
+    "        calls++;",
+    "        if (e == 0) return 1;",
+    "        long h = ___;                       // solve the half-sized problem once",
+    "        return e % 2 == 0 ? ___ : ___;      // square it, and multiply by b if odd",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(fastPow(2, 10) + \" in \" + calls + \" calls\");",
+    "    }",
+    "}"
+  ],
+  "answer": "fastPow(b, e / 2)|h * h|h * h * b",
+  "explanation": "Verified: 1024 in 5 calls, against 11 for the decrement-by-one version. Note the single recursive call bound to `h` — writing `fastPow(b, e/2) * fastPow(b, e/2)` computes the same thing twice and throws the whole saving away, turning the logarithm back into a linear count. That is the same duplication that makes naive Fibonacci exponential, appearing in a place where it is easy to write by accident.",
+  "tags": [
+    "recursion",
+    "divide-and-conquer",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

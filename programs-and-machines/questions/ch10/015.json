@@ -1,0 +1,21 @@
+{
+  "question_id": "cfc98abd-9dfe-4107-aabe-a29865c8459f",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Chapter 11 says naming is not labelling something you already built. What is the alternative claim?",
+  "choices": [
+    "That names are for the compiler's benefit, so any consistent scheme works equally well.",
+    "That choosing the name is how you decide what the method should be, so the name comes first and constrains the body.",
+    "That names should be chosen after the implementation, when its behaviour is known.",
+    "That a good name makes documentation unnecessary, so naming replaces comments."
+  ],
+  "answer": 1,
+  "explanation": "If you can name it, you know what it does; if you cannot, you have not decided. That is why a comment labelling a section of a long method is Chapter 14's signal that a method is waiting to be extracted — the comment is a name looking for a home. The practical test is whether the name is a promise you could keep while replacing the body entirely.",
+  "tags": [
+    "methods",
+    "naming"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

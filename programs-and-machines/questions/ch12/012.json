@@ -1,0 +1,29 @@
+{
+  "question_id": "cfd8984b-de1c-472f-a763-7e0807d27934",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write naive Fibonacci with a call counter, and see the cost directly. Fill in the three blanks.",
+  "choices": [
+    "public class Cost {",
+    "    static long calls = 0;",
+    "    static long fib(int n) {",
+    "        ___;",
+    "        return n < 2 ? n : ___;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        fib(25);",
+    "        System.out.println(\"calls for fib(25): \" + ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "calls++|fib(n - 1) + fib(n - 2)|calls",
+  "explanation": "Verified: 242,785 calls to compute a number you can reach in 25 additions. The tree contains enormous duplication — `fib(23)` is computed twice, `fib(22)` three times, and so on — and nothing remembers a result once found. Chapter 32 measures the growth factor as 1.618 per step, the golden ratio, which is exactly what the recurrence predicts.",
+  "tags": [
+    "recursion",
+    "cost",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

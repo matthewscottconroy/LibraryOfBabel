@@ -1,0 +1,21 @@
+{
+  "question_id": "3199eaae-650d-4012-96ba-3d7c6edec6f8",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "`fib(n-1) + fib(n-2)` is tree recursion and `fact(n-1)` is linear recursion. What distinguishes them?",
+  "choices": [
+    "The number of recursive calls per level — one call gives a chain, two give a branching tree whose size grows exponentially.",
+    "Tree recursion requires memoisation to terminate; linear recursion terminates on its own.",
+    "Tree recursion returns a value while linear recursion accumulates into a parameter.",
+    "Tree recursion uses more stack, since each level holds two frames simultaneously."
+  ],
+  "answer": 0,
+  "explanation": "Two calls per level means 2^n nodes in the worst case, which is why Fibonacci is expensive and factorial is not. The last distractor is a common misreading: the two calls happen one after the other, so the *depth* is still linear and only the *count* is exponential — the program runs out of time long before it runs out of stack.",
+  "tags": [
+    "recursion",
+    "shapes"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

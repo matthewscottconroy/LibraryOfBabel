@@ -1,0 +1,29 @@
+{
+  "question_id": "561b1172-190f-4327-900e-58363dadf2e8",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Decompose one long method into named pieces. Fill in the three blanks so each piece does one job.",
+  "choices": [
+    "public class Decompose {",
+    "    static boolean isVowel(char c) { return \"aeiou\".indexOf(c) >= 0; }",
+    "    static int countVowels(String s) {",
+    "        int count = 0;",
+    "        for (char c : s.toCharArray()) if (___) ___;",
+    "        return count;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        for (String word : new String[]{\"rhythm\", \"queueing\"})",
+    "            System.out.println(word + \": \" + ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "isVowel(c)|count++|countVowels(word)",
+  "explanation": "Verified: rhythm 0, queueing 5. Two methods, each nameable in a phrase, and the test for a vowel is now a thing you can change in one place — try adding 'y' and note that only one method moves. Chapter 14's rule is that a comment labelling a section of a longer method is a name looking for a home, and `isVowel` is that name found.",
+  "tags": [
+    "decomposition",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

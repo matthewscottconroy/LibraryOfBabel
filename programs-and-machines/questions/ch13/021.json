@@ -1,0 +1,26 @@
+{
+  "question_id": "144d6b7c-f870-4ee3-9961-41cce5e73b8d",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a method whose contract is documented by its tests rather than by prose. Fill in the three blanks.",
+  "choices": [
+    "public class Clamp {",
+    "    static int clamp(int v, int lo, int hi) { return Math.max(lo, Math.min(hi, v)); }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___);   // inside the range: unchanged",
+    "        System.out.println(___);   // below the range: pulled up to lo",
+    "        System.out.println(___);   // above the range: pulled down to hi",
+    "    }",
+    "}"
+  ],
+  "answer": "clamp(5, 1, 10) == 5|clamp(-3, 1, 10) == 1|clamp(99, 1, 10) == 10",
+  "explanation": "Verified: true, true, true. Three cases and the contract is fully stated — and unlike a comment, these stop compiling if the signature changes and start failing if the behaviour does. Notice the cases are chosen at and around the boundaries rather than at random, which is where a clamp is most likely to be wrong.",
+  "tags": [
+    "testing",
+    "contracts",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

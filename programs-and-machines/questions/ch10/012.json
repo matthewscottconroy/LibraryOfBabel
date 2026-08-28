@@ -1,0 +1,29 @@
+{
+  "question_id": "ebd05eb7-3677-44a5-b2df-6035d3c17334",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a method that returns two values by returning an object, rather than by using an out-parameter or two passes. Fill in the three blanks.",
+  "choices": [
+    "public class Range {",
+    "    ___                                     // a two-field carrier type, one line",
+    "    static MinMax range(int[] a) {",
+    "        int lo = a[0], hi = a[0];",
+    "        for (int v : a) { ___; hi = Math.max(hi, v); }",
+    "        return ___;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(range(new int[]{7, 2, 9, 4}));",
+    "    }",
+    "}"
+  ],
+  "answer": "record MinMax(int min, int max) { }|lo = Math.min(lo, v)|new MinMax(lo, hi)",
+  "explanation": "Verified: it prints MinMax[min=2, max=9]. This is the answer Chapter 11 promises and Chapter 22 delivers — the alternatives are an array whose indices you must remember, two passes doing the same work twice, or an out-parameter that hides a second output at the call site. One line declares a named type whose `toString` explains itself, which is why records changed what counts as reasonable for small local types.",
+  "tags": [
+    "methods",
+    "records",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

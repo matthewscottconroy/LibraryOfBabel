@@ -1,0 +1,21 @@
+{
+  "question_id": "ba8d8786-3c78-4cce-b685-0ee1986c2618",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Java does not optimise tail calls, so `sumTail(1_000_000, 0)` overflows even though it never needs its caller's frame again. Why not?",
+  "choices": [
+    "Because the JIT cannot prove a call is in tail position without whole-program analysis.",
+    "Because tail-call optimisation is impossible on a stack machine like the JVM.",
+    "Because stack frames are what stack traces are made of, and Java's security and debugging model depends on being able to see the caller chain.",
+    "Because the language specification requires every call to allocate a frame."
+  ],
+  "answer": 2,
+  "explanation": "It is a trade, and it is defensible. Discarding the caller's frame means the trace no longer shows how you got there, and Java's older stack-walking security checks inspected exactly that chain. Scheme requires the optimisation and Kotlin offers it on request with `tailrec`; Java chose diagnosability. The practical consequence is that in Java, deep recursion must be rewritten as a loop rather than trusted to the runtime.",
+  "tags": [
+    "stack",
+    "tail-calls"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

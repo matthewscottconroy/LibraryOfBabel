@@ -1,0 +1,29 @@
+{
+  "question_id": "f37c87ff-e11f-4ea1-bce5-dd07573b70d8",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a method that returns early rather than nesting, and observe the difference in indentation depth. Fill in the three blanks.",
+  "choices": [
+    "public class Guard2 {",
+    "    static String normalise(String s) {",
+    "        if (___) return \"\";                // guard clause",
+    "        if (___) return \"\";                // guard clause",
+    "        return ___;                        // the real work, unindented",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(\"[\" + normalise(null) + \"]\");",
+    "        System.out.println(\"[\" + normalise(\"  hi \") + \"]\");",
+    "    }",
+    "}"
+  ],
+  "answer": "s == null|s.isEmpty()|s.trim().toUpperCase()",
+  "explanation": "Verified: `[]` then `[HI]`. The alternative — nesting the real work inside two `if` bodies — is the same logic with the important part indented twice and the reader tracking two open conditions. Guard clauses trade one property for another: more return statements, less nesting. For methods that begin by rejecting bad input, that trade is almost always worth taking.",
+  "tags": [
+    "methods",
+    "style",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

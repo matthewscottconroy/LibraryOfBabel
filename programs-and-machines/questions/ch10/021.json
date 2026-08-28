@@ -1,0 +1,19 @@
+{
+  "question_id": "6cd3e44f-def4-489c-9065-ca55684e3f79",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "tf",
+  "text": "A method that returns `void` cannot be useful.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "It is useful precisely when its purpose is an effect — printing, writing a file, adding to a collection, notifying a listener. What Chapter 11 warns against is a method that does both: performs an effect *and* returns a value that callers use. `void` is an honest signal that the reason to call this is what it does, and Chapter 26's advice to keep effects at the edges is about arranging for those methods to be few and shallow.",
+  "tags": [
+    "methods",
+    "design"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

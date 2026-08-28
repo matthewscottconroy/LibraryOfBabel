@@ -1,0 +1,20 @@
+{
+  "question_id": "2dce7ff7-7200-4256-891b-4d36041b22c2",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "blank",
+  "text": "Storing a recursive function's results so that a repeated sub-problem is looked up rather than recomputed is called ___ .",
+  "choices": [
+    "memoisation",
+    "memoisation",
+    "memoization"
+  ],
+  "answer": "memoisation",
+  "explanation": "It turns naive Fibonacci from about 331 million calls at n = 40 into 40, which is Chapter 32's exponential-to-linear transformation and the clearest time-space trade in the book. The technique generalises: whenever a recursion's tree contains the same sub-problem more than once, a cache collapses the duplication, and dynamic programming is the systematic version of that observation.",
+  "tags": [
+    "recursion",
+    "vocabulary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

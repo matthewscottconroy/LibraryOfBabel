@@ -1,0 +1,26 @@
+{
+  "question_id": "471a6227-b6ed-4fcd-a22f-58c4d24df5b9",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write overloaded methods and a call that shows resolution happening at compile time. Fill in the three blanks.",
+  "choices": [
+    "public class Overload {",
+    "    static String ___ { return \"int\"; }",
+    "    static String ___ { return \"Object\"; }",
+    "    public static void main(String[] args) {",
+    "        Object o = 42;                    // an Integer, in an Object variable",
+    "        System.out.println(___);          // which overload runs?",
+    "    }",
+    "}"
+  ],
+  "answer": "describe(int x)|describe(Object x)|describe(o)",
+  "explanation": "Verified: it prints `Object`. The value is an `Integer` at run time, and the compiler chose using the *declared* type of `o`. That is the whole difference between overloading and overriding, and Chapter 21 puts them side by side — overload resolution is static and uses the declaration, override dispatch is dynamic and uses the object. Getting this backwards produces surprises that look like the language misbehaving.",
+  "tags": [
+    "methods",
+    "overloading",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

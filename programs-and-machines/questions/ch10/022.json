@@ -1,0 +1,21 @@
+{
+  "question_id": "371c8f84-e453-436d-b5c5-438756bd9ac3",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What does it mean that a method's parameters are its interface and its locals are not?",
+  "choices": [
+    "Locals are optimised away by the JIT, so they have no runtime existence to expose.",
+    "Parameters are type-checked at the call site while locals are checked only within the body.",
+    "Parameters are stored on the heap and locals on the stack, so only parameters persist.",
+    "Callers can see and must supply the parameters; the locals are invisible, so renaming or removing them cannot break anyone."
+  ],
+  "answer": 3,
+  "explanation": "This is the smallest instance of the boundary idea that runs through the book. The parameter list is a commitment — changing it is a breaking change for every caller — and everything inside is free to change. Chapter 12 supplies the mechanism that makes the second half true: each call gets its own frame, so a method's locals cannot be reached or disturbed by anything it calls.",
+  "tags": [
+    "methods",
+    "boundaries"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

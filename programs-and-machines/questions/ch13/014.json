@@ -1,0 +1,29 @@
+{
+  "question_id": "94e6a4fa-4b4e-4cff-846a-8d30acbb9d8e",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a hand-rolled test harness — the kind Chapter 14 builds before JUnit exists. Fill in the three blanks.",
+  "choices": [
+    "public class Harness {",
+    "    static int passed = 0, failed = 0;",
+    "    static int countVowels(String s) { int n=0; for (char c : s.toCharArray()) if (\"aeiou\".indexOf(c)>=0) n++; return n; }",
+    "    static void check(String name, boolean ok) {",
+    "        if (ok) ___; else { ___; System.out.println(\"FAIL \" + name); }",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        ___;",
+    "        check(\"vowels in queueing\", countVowels(\"queueing\") == 5);",
+    "        System.out.println(passed + \" passed, \" + failed + \" failed\");",
+    "    }",
+    "}"
+  ],
+  "answer": "passed++|failed++|check(\"vowels in rhythm\", countVowels(\"rhythm\") == 0)",
+  "explanation": "Verified: 2 passed, 0 failed. Notice what this harness cannot do — one failing check does not stop the others, but a check that *throws* takes the whole run down, and there is no way to assert that a call fails as promised. Chapter 27 shows the fix in fifteen lines: an annotation and reflection, which is how JUnit finds your tests without a list.",
+  "tags": [
+    "testing",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

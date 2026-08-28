@@ -1,0 +1,21 @@
+{
+  "question_id": "87d7bcc3-fb16-4776-84c7-2b83274e5a9b",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Chapter 14 says three passes over an array are usually a cost worth paying. Worth paying for what, and when is that wrong?",
+  "choices": [
+    "It is never wrong, since three passes and one pass are both linear.",
+    "For clarity, since each pass has one nameable job; it is wrong when measurement shows the traversal itself dominates.",
+    "For memory, since three passes need no intermediate storage while one pass does.",
+    "For correctness, since a single combined pass cannot maintain three invariants at once."
+  ],
+  "answer": 1,
+  "explanation": "The last option is the trap, and it is nearly right. Chapter 32 confirms that both are O(n) — sequential work adds, and adding does not change the class — so asymptotically the decomposition is free. What it can cost is constant-factor and cache behaviour, which big-O cannot see, and the honest position is that the clarity is worth it until a measurement says otherwise.",
+  "tags": [
+    "decomposition",
+    "cost"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

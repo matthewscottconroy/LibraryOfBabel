@@ -1,0 +1,21 @@
+{
+  "question_id": "a9dec607-c076-494a-abc3-3fa0e6faae7c",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why does each method call get its own frame rather than sharing storage?",
+  "choices": [
+    "So a method's locals cannot be disturbed by anything it calls, which is what makes recursion work and what makes a method's body private.",
+    "So the JIT can allocate registers independently for each method.",
+    "So exceptions can unwind to any frame without corrupting the ones above it.",
+    "So the garbage collector can reclaim locals as soon as a method returns."
+  ],
+  "answer": 0,
+  "explanation": "The per-call frame is the mechanism behind Chapter 11's claim that a method's locals are not part of its interface. It is also what makes recursion coherent: `fact(5)` and `fact(4)` are simultaneously live with different values of `n`, which requires two storage locations. Chapter 25 builds the same thing by hand — a fresh `Env` per call, not per procedure — and the correspondence is exact.",
+  "tags": [
+    "stack",
+    "frames"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

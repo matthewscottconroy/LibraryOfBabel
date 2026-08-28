@@ -1,0 +1,28 @@
+{
+  "question_id": "59fe96e0-4340-4179-b7e7-b60774bf780d",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a program showing that a stack trace records where an exception was *created*, not where it was thrown. Fill in the two blanks.",
+  "choices": [
+    "public class Where {",
+    "    static IllegalStateException prepared;",
+    "    static void maker() { prepared = ___; }        // create it here",
+    "    static void thrower() { ___; }                 // throw it somewhere else",
+    "    public static void main(String[] args) {",
+    "        maker();",
+    "        try { thrower(); }",
+    "        catch (IllegalStateException e) { System.out.println(e.getStackTrace()[0]); }",
+    "    }",
+    "}"
+  ],
+  "answer": "new IllegalStateException(\"made in maker\")|throw prepared",
+  "explanation": "Verified: the top frame names `maker`, not `thrower`. The constructor walks the live frames and records them, so an exception object carries the stack from its birth. That is why reusing a pre-allocated exception gives a misleading trace — and why Chapter 28's measurement found that a throw costs 355 nanoseconds with a trace and essentially nothing with `fillInStackTrace` suppressed. The expense is the walk, not the throw.",
+  "tags": [
+    "stack",
+    "exceptions",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

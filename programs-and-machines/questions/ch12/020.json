@@ -1,0 +1,19 @@
+{
+  "question_id": "46c41152-2a13-4e58-b674-f5a7af2cdae8",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "tf",
+  "text": "Any recursive method can be mechanically rewritten as a loop without an explicit stack.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "Tail recursion converts to a loop mechanically. A tree recursion generally does not — you must manage the pending sub-problems yourself, which means building the stack the runtime was providing. Chapter 12's exercise does exactly this, and the gain is real: the explicit stack lives on the heap, so its depth is bounded by memory rather than by the thread's much smaller stack.",
+  "tags": [
+    "recursion",
+    "iteration"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

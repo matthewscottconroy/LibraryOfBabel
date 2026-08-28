@@ -1,0 +1,19 @@
+{
+  "question_id": "39153622-ad2e-4690-9186-94b110b5757d",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "tf",
+  "text": "`StackOverflowError` is caught by `catch (Exception e)`.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "`Error` and `Exception` are separate branches under `Throwable`, and `StackOverflowError` is an `Error` — the JVM reporting that something outside your program's control has gone wrong. That is deliberate: `Error`s are generally not meant to be caught, because there is usually nothing useful to do and the recovery machinery may itself fail. Chapter 28 gives the hierarchy and the reasoning.",
+  "tags": [
+    "stack",
+    "exceptions"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

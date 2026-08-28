@@ -1,0 +1,30 @@
+{
+  "question_id": "b2aa626a-3190-412e-a136-14ae2b6cd554",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a method with a precondition it actually enforces, so a caller's mistake is reported at the boundary. Fill in the three blanks.",
+  "choices": [
+    "public class Guard {",
+    "    static int largest(int[] a) {",
+    "        if (___)                            // reject the input the method cannot serve",
+    "            throw ___;",
+    "        int max = a[0];",
+    "        for (int v : a) if (v > max) max = v;",
+    "        return max;",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        try { ___; } catch (IllegalArgumentException e) { System.out.println(e.getMessage()); }",
+    "    }",
+    "}"
+  ],
+  "answer": "a.length == 0|new IllegalArgumentException(\"empty array\")|largest(new int[]{})",
+  "explanation": "Verified: it prints `empty array`. Without the guard, `a[0]` throws `ArrayIndexOutOfBoundsException`, which names an index rather than the actual problem — the caller passed something the method never promised to handle. A method's contract includes what it demands of its inputs, and stating that demand in code is what makes it a contract rather than an assumption.",
+  "tags": [
+    "methods",
+    "contracts",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

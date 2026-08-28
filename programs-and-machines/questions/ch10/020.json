@@ -1,0 +1,28 @@
+{
+  "question_id": "3d204bf8-ae71-41ee-82aa-399fad82f362",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a method whose name is a promise and whose body could be replaced entirely. Fill in the two blanks so both implementations pass the same check.",
+  "choices": [
+    "public class Promise {",
+    "    static long countAs(String s) {",
+    "        return ___;                         // one implementation",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        long count = countAs(\"banana\");",
+    "        System.out.println(count);",
+    "        System.out.println(___);            // the promise the name makes",
+    "    }",
+    "}"
+  ],
+  "answer": "s.chars().filter(c -> c == 'a').count()|count == 3",
+  "explanation": "Verified: 3, then true. A loop over `toCharArray` would satisfy the same check, which is the point — the name states what is guaranteed and the body is an implementation detail the caller must not depend on. Chapter 35 calls this the second of the book's two ideas: an abstraction's value is not what is behind it but what it lets you stop thinking about.",
+  "tags": [
+    "methods",
+    "abstraction",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,26 @@
+{
+  "question_id": "f027f310-1030-48f3-83a6-e12dcd76d27e",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a program that prints the call stack at an arbitrary point, without throwing anything. Fill in the two blanks.",
+  "choices": [
+    "public class Peek {",
+    "    static void inner() {",
+    "        StackTraceElement[] frames = ___;",
+    "        System.out.println(\"depth: \" + ___);",
+    "        for (StackTraceElement f : frames) System.out.println(\"  \" + f);",
+    "    }",
+    "    static void outer() { inner(); }",
+    "    public static void main(String[] args) { outer(); }",
+    "}"
+  ],
+  "answer": "Thread.currentThread().getStackTrace()|frames.length",
+  "explanation": "Verified: it prints the frames for `getStackTrace`, `inner`, `outer` and `main`, plus the launcher's. The stack is not a metaphor — it is a data structure you can read while the program runs, which is what profilers and debuggers do. This is also Chapter 27's reflection in its mildest form: a program examining its own state rather than its own structure.",
+  "tags": [
+    "stack",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

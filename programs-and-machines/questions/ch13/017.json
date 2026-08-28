@@ -1,0 +1,21 @@
+{
+  "question_id": "f8832d9e-ec84-49a6-8069-aca499560a47",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why does Chapter 14 introduce testing alongside decomposition rather than as a separate topic?",
+  "choices": [
+    "Because untested code cannot be safely decomposed without changing behaviour.",
+    "Because a method small enough to name is a method small enough to test, so the two disciplines make each other cheap.",
+    "Because tests must be written before the decomposition to drive the design.",
+    "Because test frameworks require methods to be static, which decomposition encourages."
+  ],
+  "answer": 1,
+  "explanation": "The relationship runs both ways and is worth noticing. A hundred-line method with six responsibilities is hard to test because reaching any one of them requires setting up all six; six named methods are each testable in isolation. Chapter 30 makes the same argument about interfaces — everything you move out of the view becomes testable, and everything you leave in effectively is not.",
+  "tags": [
+    "decomposition",
+    "testing"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

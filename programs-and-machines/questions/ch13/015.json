@@ -1,0 +1,21 @@
+{
+  "question_id": "d4ccb2eb-1b36-4ba4-b4b9-ab1b5677cffa",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What is the strongest signal that a method is doing too much?",
+  "choices": [
+    "It contains more than one loop, since each loop is a separate traversal.",
+    "It is longer than about twenty lines, which is the usual threshold.",
+    "It has more than three parameters, which indicates unrelated inputs.",
+    "You cannot describe it in one sentence without using \"and\"."
+  ],
+  "answer": 3,
+  "explanation": "The line-count and parameter heuristics are correlates rather than causes — a forty-line method that does one thing is fine, and a five-line method that both validates and writes to a file is not. Chapter 23 generalises the sentence test to classes and adds a second: for each field, count the methods that use it, and if two clusters appear you have two classes sharing a file.",
+  "tags": [
+    "decomposition",
+    "cohesion"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

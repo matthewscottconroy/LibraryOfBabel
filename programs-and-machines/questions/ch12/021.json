@@ -1,0 +1,21 @@
+{
+  "question_id": "b07453a8-317d-4960-b123-82a7ae910720",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Why does the book place recursion before Unit VI rather than treating it as an advanced topic?",
+  "choices": [
+    "Because grammars, trees, and evaluators are all recursive, so the technique is a prerequisite for the unit the book is built around.",
+    "Because recursion is easier than iteration once the base case is understood.",
+    "Because the JVM handles recursion more efficiently than loops for small depths.",
+    "Because recursion is required to understand the call stack, which comes earlier."
+  ],
+  "answer": 0,
+  "explanation": "Chapter 24 says the same recursion appears three times over: a grammar rule mentions itself, so the syntax-tree type contains itself, so the parser that walks it calls itself. None of that reads as anything but machinery unless recursion is already comfortable — which is why Chapter 13 introduces it with a warning that its natural home is several chapters away, and Chapter 24 says the home has been reached.",
+  "tags": [
+    "recursion",
+    "structure"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

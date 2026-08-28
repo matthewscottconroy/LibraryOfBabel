@@ -1,0 +1,26 @@
+{
+  "question_id": "946dd889-aa84-46d2-953d-50bd7b32fabb",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a program that measures your machine's actual stack depth, by recursing until it fails. Fill in the three blanks.",
+  "choices": [
+    "public class Depth {",
+    "    static int depth(int n) {",
+    "        try { return ___; }                 // one more frame",
+    "        catch (___ e) { return n; }         // the error, not an exception",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(\"frames: \" + ___);",
+    "    }",
+    "}"
+  ],
+  "answer": "depth(n + 1)|StackOverflowError|depth(0)",
+  "explanation": "Verified on the book's machine: about 20,000 frames, and the number varies between runs and machines because it depends on frame size and the JIT. Two things worth noting. `StackOverflowError` is an `Error`, not an `Exception`, so `catch (Exception e)` misses it — the hierarchy is Chapter 28's. And catching it at all is unusual: here it is a measuring instrument, and in production it usually means the recursion was wrong.",
+  "tags": [
+    "stack",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

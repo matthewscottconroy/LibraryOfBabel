@@ -1,0 +1,27 @@
+{
+  "question_id": "86bade2b-388e-49de-9ccc-3f84299ea215",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write two versions of a summation, one recursive and one iterative, and find where the recursive one fails. Fill in the three blanks.",
+  "choices": [
+    "public class Limits {",
+    "    static long sumRec(int n) { return n == 0 ? 0 : ___; }",
+    "    static long sumLoop(int n) { long acc = 0; for (int i = n; i > 0; i--) ___; return acc; }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(sumLoop(1_000_000));",
+    "        try { System.out.println(sumRec(1_000_000)); }",
+    "        catch (___ e) { System.out.println(\"recursive version ran out of stack\"); }",
+    "    }",
+    "}"
+  ],
+  "answer": "n + sumRec(n - 1)|acc += i|StackOverflowError",
+  "explanation": "Verified: the loop prints 500000500000 and the recursion overflows. Both compute the same function; only one has a depth proportional to its input. Chapter 32 states the general rule — a recursion whose depth grows with the input has an input-size limit far below what memory suggests, while a recursion of depth log n is fine forever, which is why divide-and-conquer is safe and a linear walk is not.",
+  "tags": [
+    "stack",
+    "recursion",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "8ff8fbb7-a98c-4a53-8152-de253ed005c0",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "blank",
+  "text": "The region of the stack holding one call's parameters, local variables, and return address is called a stack ___ .",
+  "choices": [
+    "frame",
+    "frame"
+  ],
+  "answer": "frame",
+  "explanation": "Chapter 25 builds the same thing deliberately: `apply` creates a new `Env` per call rather than per procedure, which is why a recursive procedure has a different parameter value at each depth. A frame holds a call's locals; an `Env` holds a call's locals. The correspondence is exact, and noticing it is most of what writing an interpreter does to your understanding of the language you wrote it in.",
+  "tags": [
+    "stack",
+    "vocabulary"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

@@ -1,0 +1,28 @@
+{
+  "question_id": "5e9d1957-e26f-46b2-8d2a-f91b870dfd2e",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a test that asserts a call *fails* as promised — something the naive harness cannot express. Fill in the three blanks.",
+  "choices": [
+    "public class Throws {",
+    "    static int largest(int[] a) { if (a.length == 0) throw new IllegalArgumentException(\"empty\"); return a[0]; }",
+    "    static void checkThrows(String name, Runnable body) {",
+    "        try { ___; System.out.println(\"FAIL \" + name + \": no exception\"); }",
+    "        catch (___ e) { System.out.println(\"pass \" + name); }",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        ___;",
+    "    }",
+    "}"
+  ],
+  "answer": "body.run()|IllegalArgumentException|checkThrows(\"empty rejected\", () -> largest(new int[]{}))",
+  "explanation": "Verified: it prints `pass empty rejected`. The `() ->` is Chapter 26's lambda, and this is the use case that motivated adding them — you need to hand over *code to run later*, because running it now would throw before the harness could catch it. Before Java 8 this was a five-line anonymous class, which is why JUnit 3 tested exceptions with a much clumsier idiom.",
+  "tags": [
+    "testing",
+    "lambdas",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

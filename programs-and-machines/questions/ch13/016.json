@@ -1,0 +1,26 @@
+{
+  "question_id": "cbe33928-e4f7-436b-97ed-08dbfa499d11",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a method that is pure — its result depends only on its arguments — and one that is not, so the difference is visible. Fill in the three blanks.",
+  "choices": [
+    "public class Purity {",
+    "    static int counter = 0;",
+    "    static int pure(int a, int b)   { return ___; }",
+    "    static int impure(int a, int b) { ___; return a + b + counter; }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___);                                    // true, always",
+    "        System.out.println(impure(2, 3) == impure(2, 3));           // false",
+    "    }",
+    "}"
+  ],
+  "answer": "a + b|counter++|pure(2, 3) == pure(2, 3)",
+  "explanation": "Verified: true then false. The impure version returns a different answer for identical arguments, so its calls cannot be reordered, cached, deleted when unused, or run on two threads. Chapter 26 names the property — referential transparency — and Chapter 31 shows what its absence costs when a lambda incrementing a counter gave three different wrong answers under parallelism.",
+  "tags": [
+    "purity",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

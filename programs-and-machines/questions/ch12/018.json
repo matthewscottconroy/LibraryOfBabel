@@ -1,0 +1,21 @@
+{
+  "question_id": "c2c821bb-9e16-4c74-b7cd-45782c680e4c",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Chapter 13 says recursion is a boundary in time. What does that mean?",
+  "choices": [
+    "That recursion trades execution time for the programmer's time, since it is faster to write.",
+    "That recursive calls are deferred until the base case is reached, then evaluated backwards.",
+    "That each frame is created at a different moment, so the stack records the program's history.",
+    "You assume the smaller case already works and write only the step that reduces to it, trusting an abstraction you are in the middle of building."
+  ],
+  "answer": 3,
+  "explanation": "The psychological difficulty of recursion is that the abstraction you are relying on is the one you have not finished. Once you accept the assumption, the code is usually shorter than the iterative version and reads as a statement of what is true rather than a sequence of what happens. Chapter 35 lists this as one instance of the book's second idea: an abstraction's value is what it lets you stop thinking about.",
+  "tags": [
+    "recursion",
+    "reasoning"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

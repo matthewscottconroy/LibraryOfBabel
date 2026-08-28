@@ -1,0 +1,21 @@
+{
+  "question_id": "583f18be-853b-437b-b3c8-4496bf1e7b5a",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What does it mean that the parser in Chapter 24 \"never declares a stack\"?",
+  "choices": [
+    "The token list serves as the stack, since the parser pushes and pops positions within it.",
+    "Context-free parsing does not actually require a stack; that is a theoretical simplification.",
+    "Its recursion uses the JVM's call stack, so the unbounded memory the theory requires is inherited rather than built.",
+    "It uses an explicit `Deque` instead, which the JVM optimises into stack storage."
+  ],
+  "answer": 2,
+  "explanation": "Each nested parenthesis is a live `expression` frame waiting for its closing bracket, so the theory's demand for unbounded stack is satisfied by writing a recursive method. Feed it five thousand open brackets and you get `StackOverflowError` — which is the theoretical requirement showing up as a practical limit, and a satisfying moment where a chapter of theory and a chapter of mechanism turn out to be describing the same thing.",
+  "tags": [
+    "stack",
+    "parsing"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

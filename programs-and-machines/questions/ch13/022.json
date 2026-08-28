@@ -1,0 +1,19 @@
+{
+  "question_id": "a94d26ca-9372-49e3-a21d-e838de0b0dd9",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "blank",
+  "text": "How strongly the parts of one unit belong together is its cohesion; how much one unit depends on another is its ___ .",
+  "choices": [
+    "coupling",
+    "coupling"
+  ],
+  "answer": "coupling",
+  "explanation": "Chapter 14 introduces the pair as vocabulary and Chapter 23 takes them seriously, ranking couplings from weakest to strongest: a parameter, an interface, a concrete class, a `new` call, inheritance, and shared mutable static state. The rule that falls out is to use the weakest coupling that does the job, and the measurement they are both proxies for is how far a change propagates.",
+  "tags": [
+    "design",
+    "vocabulary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

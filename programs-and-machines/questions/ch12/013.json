@@ -1,0 +1,28 @@
+{
+  "question_id": "7a772101-0493-4248-864f-6b5bb8d9f935",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Fix the previous program with memoisation, and compare. Fill in the three blanks.",
+  "choices": [
+    "public class Memo {",
+    "    static long fib(int n, long[] memo) {",
+    "        if (n < 2) return n;",
+    "        if (___) return memo[n];            // already computed",
+    "        return ___;                         // compute, store, and return",
+    "    }",
+    "    public static void main(String[] args) {",
+    "        System.out.println(fib(40, ___));   // big enough for fib(40)",
+    "    }",
+    "}"
+  ],
+  "answer": "memo[n] != 0|memo[n] = fib(n - 1, memo) + fib(n - 2, memo)|new long[41]",
+  "explanation": "Verified: 102334155, effectively instantly, where the naive version would make about 331 million calls. The assignment-as-expression in the second fill is doing double duty — storing and returning — which is idiomatic here and worth reading carefully. Chapter 32 states the transformation generally: exponential time becomes linear time at the cost of linear space, which is the clearest time-space trade in the book.",
+  "tags": [
+    "recursion",
+    "memoisation",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

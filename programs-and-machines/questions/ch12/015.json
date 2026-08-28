@@ -1,0 +1,24 @@
+{
+  "question_id": "4c4b6a7b-9938-4b07-a052-58044d38f277",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a recursive method that reverses a string, and identify its base case. Fill in the three blanks.",
+  "choices": [
+    "public class Rev {",
+    "    static String rev(String s) {",
+    "        if (___) return s;                  // the base case",
+    "        return ___;                         // reverse the rest, then append the first",
+    "    }",
+    "    public static void main(String[] args) { System.out.println(___); }",
+    "}"
+  ],
+  "answer": "s.isEmpty()|rev(s.substring(1)) + s.charAt(0)|rev(\"recursion\")",
+  "explanation": "Verified: it prints `noisrucer`. The structure is worth reading as a claim rather than as steps: *the reverse of a string is the reverse of its tail followed by its head*, which is true and says nothing about how. That is the difference between a recursive definition and a recursive procedure — Chapter 25's evaluator is built entirely from definitions of this shape, and each one is a single `switch` case.",
+  "tags": [
+    "recursion",
+    "code"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

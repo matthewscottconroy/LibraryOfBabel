@@ -1,0 +1,21 @@
+{
+  "question_id": "1164b983-da82-4063-87f9-a4d3e1bb0b42",
+  "chapter": 12,
+  "phase": 2,
+  "kind": "mc",
+  "text": "What makes a recursive definition well-founded rather than circular?",
+  "choices": [
+    "That the recursion depth is bounded by the JVM's stack, which forces eventual termination.",
+    "That the recursive call appears after the base case in the source, so the base is checked first.",
+    "Every recursive call is on a strictly smaller sub-problem, and there is a base case that smallness eventually reaches.",
+    "That the method returns a value, since void recursion cannot terminate."
+  ],
+  "answer": 2,
+  "explanation": "The two conditions together are what let you assume the smaller case works — which is the whole psychological trick of writing recursion, and it is induction. Chapter 9's loop variant is the same requirement in a different costume: a quantity that strictly decreases toward a bound. Note that the stack limit is not a substitute; it converts non-termination into a crash rather than preventing it.",
+  "tags": [
+    "recursion",
+    "induction"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

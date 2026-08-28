@@ -1,0 +1,19 @@
+{
+  "question_id": "7ab243e2-3b1c-4df1-b5c1-e9fe9f3513a8",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "tf",
+  "text": "A method extracted purely to give a section of code a name, with only one caller, is over-engineering.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "Naming is the point, and reuse is a frequent side effect rather than the justification. A method called once, whose name says what a dozen lines do, has replaced a comment with something the compiler checks and a stack trace can mention. Chapter 11 puts it directly: naming is not labelling something you already built, it is how you decide what to build.",
+  "tags": [
+    "decomposition",
+    "naming"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

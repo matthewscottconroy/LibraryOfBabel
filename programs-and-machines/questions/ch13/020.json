@@ -1,0 +1,21 @@
+{
+  "question_id": "ecd60d99-af60-4150-b975-6a40ef567d0d",
+  "chapter": 13,
+  "phase": 2,
+  "kind": "mc",
+  "text": "You extract a method and find it needs six parameters. What has that told you?",
+  "choices": [
+    "That the extracted code was not a separate concern — the parameter list is measuring how entangled it was with its surroundings.",
+    "That the parameters should be gathered into an object, after which the extraction is fine.",
+    "That the extraction is correct but should be made private to limit the exposure.",
+    "That the original method was too long and should be split differently."
+  ],
+  "answer": 0,
+  "explanation": "The parameter count is a measurement of coupling, and it is telling you the seam was in the wrong place. Sometimes the answer is to move the seam; sometimes it is that a parameter object is a genuine missing concept, which is the second option and is right often enough to try. What it is not is a formatting problem to be solved by bundling and moving on.",
+  "tags": [
+    "decomposition",
+    "coupling"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,30 @@
+{
+  "question_id": "4114cd79-6625-4eb5-9c08-61706855296e",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "proof",
+  "text": "Write a program that converts a recursive tree walk into an iterative one using an explicit stack. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Explicit {",
+    "    public static void main(String[] args) {",
+    "        ___;                                // the stack we now manage ourselves",
+    "        todo.push(5);",
+    "        while (!todo.isEmpty()) {",
+    "            int n = ___;                    // take the top",
+    "            System.out.print(n + \" \");",
+    "            if (n > 1) { int m = n - 1; ___; }   // push the sub-problem",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "Deque<Integer> todo = new ArrayDeque<>()|todo.push(n)|todo.pop()",
+  "explanation": "Verified: it prints 5 4 3 2 1. This is what \"rewrite the recursion as a loop\" actually means for a non-tail recursion — you do not eliminate the stack, you take responsibility for it. The gain is that the stack now lives on the heap, so its depth is bounded by memory rather than by the thread's stack size, which is exactly the trade Chapter 32 describes when it says recursion depth is space complexity.",
+  "tags": [
+    "stack",
+    "recursion",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

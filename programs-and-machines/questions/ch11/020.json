@@ -1,0 +1,21 @@
+{
+  "question_id": "d417e19b-e98c-42cf-b757-24ca94f568d1",
+  "chapter": 11,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Two threads run the same recursive method simultaneously. What do they share and what do they not?",
+  "choices": [
+    "They share the frames of any method marked `static`, since static methods have no receiver.",
+    "They share the heap, so any objects reached are common; each has its own stack, so their locals and their recursion depths are independent.",
+    "They share the stack, so their recursion depths add and overflow arrives sooner.",
+    "They share nothing, since each thread is given a complete copy of the program's memory."
+  ],
+  "answer": 1,
+  "explanation": "This is the division that generates every problem in Chapter 31. Locals are private because each thread has its own stack — which is why a pure function is automatically thread-safe and why Chapter 26's parallel counter only broke when it reached through an array reference into the heap. Nothing about `static` changes where locals live; it changes only whether there is a receiver.",
+  "tags": [
+    "stack",
+    "threads"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

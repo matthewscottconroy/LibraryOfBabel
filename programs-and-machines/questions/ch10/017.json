@@ -1,0 +1,21 @@
+{
+  "question_id": "6a8e264a-7687-42e3-aba1-49a02eed738a",
+  "chapter": 10,
+  "phase": 2,
+  "kind": "mc",
+  "text": "Chapter 11 argues a method should either do something or compute something, not both. What goes wrong when it does both?",
+  "choices": [
+    "It becomes impossible to test, since the effect must be mocked before the value can be checked.",
+    "Its calls cannot be moved, removed, or repeated without thought, and every reader must notice two responsibilities instead of one.",
+    "It cannot be made static, since effects require access to instance state.",
+    "It violates encapsulation, since a value-returning method exposes internal state."
+  ],
+  "answer": 1,
+  "explanation": "The property being protected is substitutability of the call for its result. `int n = list.size()` can be called twice, hoisted out of a loop, or deleted if unused; `int n = queue.take()` can do none of those. Chapter 26 names the ideal — referential transparency — and shows that it is what lets a stream be parallelised, and what the counter lambda lacked when it produced three different wrong answers.",
+  "tags": [
+    "methods",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

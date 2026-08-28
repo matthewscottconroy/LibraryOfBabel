@@ -4,11 +4,9 @@ A calculator computes and forgets. A program remembers — which is what lets it
 second line depend on its first, and is most of the difference between the two
 things.
 
-Remembering requires a construct that has an *effect* rather than a value, and Java
-draws that line too, in a place worth noticing before you draw it yourself.
-
-So far the language evaluates one expression. A language needs to *remember*
-things, which means a second category of construct.
+Remembering requires a kind of construct we have not built yet — one that has an
+*effect* rather than a value. Java draws that same line, and you are about to draw
+it yourself, which is a good moment to notice where it goes.
 
 ## Expressions and statements
 
@@ -33,10 +31,12 @@ record DefFun(String name, List<String> params, Expr body) implements Stmt { }
 record Print(Expr value)                                   implements Stmt { }
 ```
 
-A second sealed interface, sitting beside `Expr`. And look at the relationship
-between them: a `Define` *contains* an `Expr`. The two are not parallel, they are
-nested, which is exactly right, because
-that a statement can contain an expression and not the reverse.
+A second sealed interface, sitting beside `Expr`. And look carefully at the
+relationship between the two, because it is not the one you might expect.
+
+They are not parallel. A `Define` *contains* an `Expr` — the nesting runs one way
+only, and that asymmetry is exactly right, because a statement can contain an
+expression and an expression can never contain a statement.
 
 ## The grammar grows
 
@@ -96,11 +96,16 @@ void exec(Stmt s, Env env) {
 }
 ```
 
-Three cases, three lines, and the first is the interesting one.
+Three cases, three lines, and the first one contains a decision you could easily
+read straight past.
 
-**`Define` evaluates before it binds.** `area = width * height` computes the value
-first, then stores it. So the right-hand side sees the environment as it was — and
-`x = x + 1` works, reading the old `x` and storing a new one.
+**`Define` evaluates before it binds.** Look at the order in that line: `eval`
+runs, and only then does `define`. So `area = width * height` computes the value
+first and stores it second, which means the right-hand side sees the environment as
+it was before the statement began.
+
+That is why `x = x + 1` works at all — the read of `x` happens while the old `x` is
+still there.
 
 This is **eager** evaluation, and it is what nearly every language does. The
 alternative is to store the *expression* and evaluate it when the name is used,
@@ -144,9 +149,10 @@ twice is an error. The check catches typos — a misspelled assignment becomes a
 variable in our language and a compile error in Java — and it is why Chapter 7
 insisted on declarations.
 
-Our language could add it: keep a set of declared names and require `var` before
-the first assignment. That is Exercise 25.7, and the exercise is really about
-noticing that Java's rule is a choice made for the programmer's benefit rather
-than a technical necessity.
+You could add it here in a few lines: keep a set of declared names, and require
+`var` before the first assignment. That is Exercise 25.7 — and the real point of
+the exercise is not the code. It is noticing that Java's rule is a choice somebody
+made for your benefit, and not a technical necessity of any kind. Nothing forced
+it. Somebody decided you would rather be told about your typo.
 
 Next: procedures, and the language becomes capable of anything.

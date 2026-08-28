@@ -1,13 +1,16 @@
 # Immutability as a Strategy
 
-Everything difficult in this chapter has one cause: objects change.
+Look back over everything that has been difficult in this chapter and find what
+the difficulties have in common.
 
-Aliasing is a problem because a change through one name surprises the holder of
-the other. Defensive copying exists because a caller might modify what you gave
-them. A mutated hash key is lost because its hash changed after filing.
+Aliasing is a problem because a change made through one name surprises whoever is
+holding the other. Defensive copying exists because a caller might modify what you
+handed them. A hash key gets lost because its hash changed after it was filed.
 
-Make the object unable to change and all three disappear. Not mitigated —
-**gone**.
+Three separate problems, one cause. **Objects change.**
+
+Now take away the ability to change, and watch what happens to all three. They do
+not get easier to manage. They stop existing.
 
 ## What immutable means
 
@@ -45,8 +48,9 @@ changing existing ones, exactly as `String.toUpperCase` does.
 
 ## The rules
 
-There are five, and they are worth having as a checklist, because between them they
-account for most of the difficulty in this chapter:
+There are five. Have them as an actual checklist rather than a feeling, because
+between them they account for very nearly everything that has been hard in this
+chapter — and because the fourth one is easy to miss:
 
 **No mutators.** No method changes observable state.
 
@@ -62,9 +66,13 @@ reassigned and the list can still be modified.
 **No reference to a mutable internal escapes**, including through the
 constructor.
 
-The fourth is the one people miss. `private final List<Item> items` looks safe and
-is not, unless the constructor copies what it is given and the accessor returns a
-copy or an unmodifiable view.
+Read the fourth one again. `private final List<Item> items` looks completely safe.
+It is private, it is final, and it is not immutable at all.
+
+`final` stops the *reference* being reassigned. It has nothing whatever to say
+about the list on the other end of that reference, which anybody holding it can
+modify all day. Unless the constructor copies what it is given, and the accessor
+returns a copy or an unmodifiable view, your immutable class is not one.
 
 ## What it buys
 

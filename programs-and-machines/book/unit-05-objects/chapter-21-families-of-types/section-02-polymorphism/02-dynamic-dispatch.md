@@ -6,13 +6,12 @@ Code compiled today calls `area()` on a shape. A class written next year, which
 the compiler that produced that code never saw, supplies its own `area()`. And the
 old, already-compiled code calls the new method.
 
-Nothing was recompiled. So the decision about *which* method runs cannot have been
-made when the call was compiled — and the mechanism that makes this work is worth
-knowing, because it explains both the power and the price.
+Nothing was recompiled. So the decision about *which* method runs cannot possibly
+have been taken when the call was compiled — the information did not exist yet.
 
-The mechanism has a name — **dynamic dispatch** — and it is worth following in
-detail, because the same few instructions explain both why this is powerful and
-what it costs.
+The mechanism has a name, **dynamic dispatch**, and it is worth following all the
+way down, because the same handful of instructions explain both why this is
+powerful and exactly what it costs you.
 
 ## The method table
 
@@ -31,10 +30,13 @@ Shape's table            Circle's table
                            3: Circle.radius    <- added
 ```
 
-So `area` is slot 0 in both. The compiler, seeing `s.area()` where `s` is declared
-`Shape`, does not need to know the runtime type — it only needs to know that
-`area` lives in slot 0 of whatever table the object points to. It emits a single
-instruction:
+Look at the two tables side by side and find what they have in common. `area` is
+slot 0 in both. `toString` is slot 1 in both. `Circle`'s additions went on the end.
+
+That is the whole trick. The compiler, meeting `s.area()` where `s` is declared as
+a `Shape`, does not need to know the runtime type at all — it only needs to know
+that `area` lives in slot 0 of whatever table the object turns out to point at. So
+it emits one instruction:
 
 ```
 invokevirtual  Shape.area()D
@@ -88,9 +90,12 @@ million calls spread across three implementing classes took 42 ms, about 2.1
 nanoseconds. Roughly one and a half times slower, and the absolute difference is
 0.7 nanoseconds per call.
 
-That is the honest size of the effect. It matters in the innermost loop of a
-numerical kernel and it does not matter anywhere else, which puts it firmly in
-Chapter 18's territory: measure before you let it change a design.
+Sit with that number for a second, because it is the honest size of the thing
+people write blog posts about. Zero point seven nanoseconds per call.
+
+It matters in the innermost loop of a numerical kernel. It does not matter anywhere
+else in any program you are likely to write, which puts it squarely in Chapter 18's
+territory: measure before you let it change a design.
 
 ## Why it is called virtual
 

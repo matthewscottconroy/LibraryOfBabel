@@ -3,9 +3,12 @@
 Almost every design decision you will make, stripped of its particulars, is the
 same small question: **which class should be responsible for this?**
 
-It sounds too vague to be useful. It is not, because getting it wrong has a
-recognisable shape — facts about one object's insides start showing up in code that
-lives somewhere else — and once you can see that shape you can see it everywhere.
+It sounds too vague to be worth asking. It is not — because getting it wrong has a
+recognizable shape, and the shape is this: **facts about one object's insides start
+turning up in code that lives somewhere else.**
+
+Once you can see that, you will see it everywhere, including in things you wrote
+last week.
 
 Here is the question in its smallest form. A playlist holds items; each item has a
 duration. Where does the total go?
@@ -23,13 +26,16 @@ int total = playlist.totalMinutes();
 
 Verified, version B prints `total = 78` for two items of 45 and 33.
 
-Version A is not wrong, and for a one-off it is fine. But notice what it requires:
-the caller must be able to get the items, must know that items have durations, and
-must know that a total is a sum. Three facts about the playlist's insides, now
-living outside it.
+Version A is not wrong, and written once for a one-off it is perfectly fine.
 
-Write that loop in four places and the playlist's representation is frozen. Change
-`minutes` to `seconds` and you have four sites to find.
+But count what it needs to know. The caller must be able to get at the items. It
+must know that items have durations. And it must know that a total is what you get
+by adding them up. Three separate facts about the playlist's insides, all of them
+now living outside the playlist.
+
+Write that loop in four places and you have frozen the playlist's representation.
+Change `minutes` to `seconds` and there are four sites to find — and nothing
+anywhere marks them as related, so finding them is on you.
 
 ## The heuristic
 
@@ -102,7 +108,8 @@ fit on a card is doing too much. Moving a responsibility means physically moving
 line from one card to another, which makes the alternatives easy to try and cheap
 to abandon.
 
-It sounds quaint. It is faster than any tool and it works, and Section 23.2 uses
-it on a real problem.
+It sounds quaint, and I would encourage you to try it once before deciding. It is
+faster than any tool you own, it works, and Section 23.2 uses it on a real
+problem.
 
 Next: the choice this chapter exists to argue about.

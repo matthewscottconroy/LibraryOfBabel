@@ -48,8 +48,11 @@ method's.
 
 ## Two ways to refuse
 
-`deposit` throws; `withdraw` returns `false`. That difference is deliberate and
-worth thinking about.
+Go back and look at the two methods again. `deposit` throws an exception when it
+refuses. `withdraw` returns `false`.
+
+That inconsistency is not an oversight, and working out why is worth more than the
+rule I am about to give you.
 
 A negative deposit is a **programming error** — no sensible caller ever wants one,
 and it means something upstream is wrong. Throwing is right: it fails fast and
@@ -90,13 +93,15 @@ public long getCents()          { return cents; }
 public void setCents(long c)    { cents = c; }
 ```
 
-This is worth examining, because it is extremely common and it undoes the entire
+Look hard at that pair, because it is taught everywhere and it undoes this entire
 chapter.
 
-`setCents` allows any value, including a negative one. The invariant is gone —
-you have made the field private and then supplied a public method that does
-exactly what direct access would have done. The class now has the ceremony of
-encapsulation and none of the protection.
+`setCents` accepts any value at all, negative ones included. So the invariant is
+gone. You made the field private, and then you supplied a public method that does
+precisely what direct field access would have done — with an extra step.
+
+The class now has all the ceremony of encapsulation and none of the protection,
+which is the worst of both: the cost is paid and the benefit is not received.
 
 The useful test: **does this accessor correspond to something a user of the class
 actually wants to do?** `balance()` does — asking an account its balance is a
@@ -134,10 +139,15 @@ if (account.withdraw(price)) {
 }
 ```
 
-The second keeps the decision inside the class that owns the data. The first
-spreads knowledge of the rules across every call site — and when the rule changes
-to allow a small overdraft, the first version needs finding and fixing everywhere
-while the second needs one edit.
+Read both versions and ask where the *rule* lives in each.
+
+In the second, it lives inside `Account`. In the first, it has leaked out to the
+call site — and to every other call site that does the same check.
+
+Now imagine the bank decides to permit a small overdraft. The second version needs
+one edit, in one file. The first version needs you to find every place anybody
+compared a balance to a price, which is a search you cannot do reliably, because
+nothing marks those lines as related.
 
 This is sometimes stated as "tell, don't ask", and it is the practical form of
 Chapter 16's argument. The point of a boundary is that decisions about the data

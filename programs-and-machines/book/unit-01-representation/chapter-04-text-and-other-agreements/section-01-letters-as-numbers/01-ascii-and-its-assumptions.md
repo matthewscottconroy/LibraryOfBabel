@@ -1,8 +1,12 @@
 # ASCII and Its Assumptions
 
-To store text we need an agreement mapping characters to numbers. Any agreement
-would do, as long as everyone used the same one — which was the problem, because
-in the 1950s everyone did not.
+To store text you need an agreement mapping characters to numbers.
+
+Here is the thing worth noticing about that requirement: *any* agreement would do.
+There is nothing about the letter `A` that makes 65 a better number for it than 12
+or 200. The only property that matters is that everybody uses the same one.
+
+Which was precisely the problem, because in the 1950s nobody did.
 
 Different manufacturers used different codes. Moving a tape from an IBM machine
 to a Univac meant translating every byte. The American Standards Association set
@@ -26,7 +30,12 @@ ASCII is a 7-bit code: 128 characters, numbered 0 to 127.
   127     delete
 ```
 
-Several of those choices are cleverer than they look.
+Look down that table for a minute before reading on. It appears to be an
+arbitrary list — somebody had to put the characters somewhere, and they did.
+
+It is not arbitrary. At least four of those placements are doing real work, and
+you can find them yourself if you look at the *numbers* rather than the
+characters.
 
 **Digits start at 48.** So the numeric value of a digit character is the
 character minus 48. Since 48 is `0110000` in binary, the low four bits of any
@@ -56,8 +65,9 @@ could uppercase a string with a bitwise AND and no lookup table at all.
 punching out every hole in its column, which physically cannot be undone and
 produces the all-ones pattern. The code was designed around the medium.
 
-None of this was inevitable. Each is a decision, made by people, that we still
-live inside.
+None of that was inevitable. Every one of those is a decision, taken by particular
+people in a particular room in 1963, and you are still living inside all four of
+them.
 
 ## What it assumed
 
@@ -93,11 +103,15 @@ at once.
 All of them agreed on the bottom 128 values, because all of them were ASCII down
 there. All of them disagreed above 127.
 
-So a document containing only English text moved between systems perfectly, and a
-document containing a single accented character became a lottery. Byte 233 is `é`
-in ISO-8859-1, `щ` in ISO-8859-5, and `ι` in ISO-8859-7. Nothing in the file said
-which. The receiving program guessed, usually by assuming its own local default,
-and when it guessed wrong the text was quietly wrong.
+Follow the consequence through. A document of pure English text moved between any
+two systems perfectly, every time. A document containing one accented character
+became a lottery.
+
+Byte 233 is `é` in ISO-8859-1, `щ` in ISO-8859-5, and `ι` in ISO-8859-7. Three
+different letters from three different alphabets, one byte, and **nothing in the
+file said which one was meant.** The receiving program guessed — normally by
+assuming its own local default — and when it guessed wrong, the text was quietly
+wrong with no error anywhere.
 
 This is the world Unicode was created to end, and understanding how bad it was
 makes Unicode's design decisions look less like over-engineering.

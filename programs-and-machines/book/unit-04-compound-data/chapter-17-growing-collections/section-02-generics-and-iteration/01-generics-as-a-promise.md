@@ -4,11 +4,16 @@
 List<String> names = new ArrayList<>();
 ```
 
-The `<String>` is a **type parameter**, and it says: this list holds strings.
+You have been typing those angle brackets since Chapter 17 began, and doing it on
+faith. Here is what you have been promising.
 
-## What it buys
+The `<String>` is a **type parameter**, and it says one thing: this list holds
+strings.
 
-The compiler enforces it, which gives two things.
+## What the promise buys you
+
+The value is not in the saying. It is that the compiler holds you to it, and that
+buys two separate things.
 
 **Wrong things cannot go in:**
 
@@ -31,12 +36,17 @@ names.add("Ada");
 String first = (String) names.get(0);      // the old way
 ```
 
-That cast is an assertion — *trust me, this is a String* — checked at run time. Get
-it wrong and you get `ClassCastException`, at the point of the cast, which may be
-far from where the wrong thing was added.
+Look at what that cast actually is. It is an assertion — *trust me, this is a
+String* — and it is checked when the program runs.
 
-Generics move the check to compile time. Chapter 5's principle: an error caught by
-`javac` costs seconds, and the same error at run time costs more.
+So consider where it fails. Not where somebody put the wrong object in. At the
+point of the cast, which may be in a different method, in a different file, written
+by a different person, hours of runtime later. The mistake and the symptom have
+been separated as far as they can be.
+
+Generics move that check to compile time, which is Chapter 5's principle collecting
+again: an error caught by `javac` costs you seconds, and the identical error at run
+time costs considerably more.
 
 ## The declaration
 
@@ -164,8 +174,11 @@ same promise about *contents*:
 
 > This collection contains only Strings, and I want you to hold me to it.
 
-And, like every promise in this book, its value is that you can then stop checking.
-A `List<String>` needs no defensive `instanceof`, no cast, no wondering. That is
-what removing a category of doubt is worth.
+And like every promise in this book, its real value is that you get to stop
+checking. A `List<String>` needs no defensive `instanceof`, no cast, and no
+wondering on your part about what might be in there.
+
+That is what removing a category of doubt is worth, and it is why you should feel
+the raw-type warning as a genuine loss rather than a nag.
 
 Next: walking one safely.

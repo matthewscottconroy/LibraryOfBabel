@@ -13,17 +13,22 @@ String[] parts = line.split(",");
 // ["Ada", "Lovelace", "1815"]
 ```
 
-Three things about `split` that catch people.
-
-**The argument is a regular expression**, not a literal string. For a comma this
-makes no difference. For a dot it makes all the difference:
+Three things about `split` catch people, and the first one is worth meeting as a
+puzzle rather than a warning. What does this give you?
 
 ```java
-"a.b.c".split(".")      // an empty array
+"a.b.c".split(".")      // ?
 ```
 
-In a regular expression `.` means *any character*, so everything matched and
-everything was consumed. To split on a literal dot, escape it: `split("\\.")`.
+An empty array. Not three pieces, not one piece — nothing at all.
+
+**The argument is a regular expression**, and never a literal string. For a comma
+that distinction costs you nothing, which is exactly why it goes unnoticed until
+the day you split on a dot.
+
+In a regular expression, `.` means *any character*. So every character was a
+separator, everything matched, everything was consumed, and what came back was the
+nothing that remained. To split on an actual dot, escape it: `split("\\.")`.
 
 **Trailing empty strings are discarded:**
 
@@ -89,12 +94,15 @@ String line = in.nextLine();
 `Scanner` reads tokens of a requested type from a source — the console, a file, or
 a string.
 
-It has one trap, and everyone meets it:
+It has one trap, and every single person meets it. Predict what lands in `name`
+when the user types `42` and presses return and then types their name:
 
 ```java
 int n = in.nextInt();
-String name = in.nextLine();      // returns "" — not what you wanted
+String name = in.nextLine();      // ?
 ```
+
+An empty string.
 
 `nextInt` consumes the number and **leaves the newline**. `nextLine` then reads to
 that newline and returns an empty string.
@@ -123,10 +131,14 @@ The convention is that a quoted field may contain commas, and that a quote insid
 quoted field is doubled — and implementing that correctly is a small state machine,
 not a `split`.
 
-The lesson generalizes and it is worth taking seriously: **for any format with a
-specification, use a library.** CSV, JSON, XML, dates, URLs. Every one of them has
-escaping rules, edge cases, and a decade of accumulated bug fixes in the library,
-and every hand-rolled parser rediscovers them one production incident at a time.
+Take the general lesson seriously, because it will save you more time than
+anything else in this chapter: **for any format that has a specification, use a
+library.**
+
+CSV, JSON, XML, dates, URLs. Every one of them has escaping rules and edge cases,
+and every library for them carries a decade of accumulated bug fixes contributed by
+people who found those edge cases the hard way. A hand-rolled parser rediscovers
+them too — one production incident at a time.
 
 Hand-splitting is fine for data you control and whose shape you know. It is not
 fine for anything that came from a user or another system.

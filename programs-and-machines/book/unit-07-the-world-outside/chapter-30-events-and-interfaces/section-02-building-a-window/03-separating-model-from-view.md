@@ -8,11 +8,11 @@ label's text, the selection in the list widget. It works, it is less code, and i
 produces a program whose rules cannot be tested without a screen and whose logic
 dies with the toolkit.
 
-This is the lesson worth keeping.
+And it is the easiest mistake in the world to make, which is why it is worth a
+whole lesson. The listener is right there. The field you need is a component. Every
+force acting on you at the moment you write the code is pushing you toward it.
 
-The single most damaging thing you can do to an interactive program is to put its
-logic inside its interface. It is also the easiest thing to do, because the
-listener is right there and the field you need is a component.
+Here it is:
 
 ```java
 // the thing to avoid
@@ -24,13 +24,17 @@ up.addActionListener(e -> {
 });
 ```
 
-The count is stored in a label's text. To know the value you parse a string; to
-change it you format one. Every rule about the count — that it cannot go negative,
-that it saves to a file, that it resets on Tuesdays — must live in a listener and
-be reachable only by clicking.
+Look at where the count actually lives. It is in a label's text — which means the
+authoritative record of your program's state is a piece of display formatting. To
+find out the value you parse a string. To change it you format one.
 
-That program cannot be tested without a screen, cannot show the same value in two
-places, and cannot be reused behind a different interface.
+Now think about where the *rules* have to go. That the count cannot go negative.
+That it gets saved to a file. That it resets on Tuesdays. Every one of them has to
+live inside a listener, and can only be reached by clicking something.
+
+So that program cannot be tested without a screen. It cannot show the same value in
+two places. And it cannot be reused behind any other interface, ever, because there
+is no "it" — there is only the window.
 
 ## The separation
 
@@ -99,13 +103,15 @@ in every handler that modifies the count.
 
 ## What the separation buys
 
-**Testability**, and this is the big one:
+**Testability**, and this is the one that matters most. Read that output and note
+what is missing from it:
 
 ```
 no view attached, value = 10
 ```
 
-The model was exercised with no view at all. Every rule the program has can be
+There was no view. None. The model was exercised with nothing attached to it at
+all. Every rule the program has can be
 tested in milliseconds, with no window, no clicking, and no screen — which means
 those tests can run in a build, which means they will actually run.
 

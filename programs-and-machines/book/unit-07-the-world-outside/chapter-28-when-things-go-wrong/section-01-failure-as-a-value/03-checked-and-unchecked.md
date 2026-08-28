@@ -65,9 +65,11 @@ before an implementation's needs were known constrain it permanently. `Runnable.
 run()` declares nothing, so no `Runnable` may throw a checked exception, which is
 why every lambda that does any I/O needs a wrapper.
 
-**The pressure is toward the wrong behaviour.** Faced with a checked exception it
-cannot handle, a programmer under time pressure has three options: declare it and
-push the problem up, wrap it in a `RuntimeException`, or — the common one —
+**The pressure is toward the wrong behavior.** This is the one that killed it.
+
+Put yourself in front of a checked exception you cannot do anything about, at five
+in the afternoon. You have three options: declare it and push the problem up to
+somebody else, wrap it in a `RuntimeException`, or the one people actually take —
 
 ```java
 try { ... } catch (IOException e) { }
@@ -79,9 +81,12 @@ Catch and ignore. Verified, in the sense that this compiles and prints nothing:
 (that catch block printed nothing and lost everything)
 ```
 
-The failure has been converted into a wrong answer with no record. That is worse
-than every alternative, and the language's own mechanism produced the incentive
-for it.
+The failure has now been converted into a wrong answer with no record anywhere
+that anything went wrong. That is worse than every other option on the list — worse
+than crashing, worse than propagating, worse than doing nothing at all.
+
+And notice where the incentive came from. The language feature designed to make you
+handle failures carefully is the thing that produced the empty catch block.
 
 ## The verdict
 
@@ -130,9 +135,9 @@ catch (IOException e) {
 `UncheckedIOException` exists in the JDK for exactly this, which is itself a
 comment on the feature.
 
-**Never catch and ignore.** If there is genuinely nothing to do, log it and say
-why in a comment. An empty catch block is the most reliable indicator of a bug
-that has not happened yet.
+**Never catch and ignore.** If there is genuinely nothing you can do, log it and
+write a comment saying why. An empty catch block is the single most reliable
+indicator in all of Java of a bug that has not happened yet.
 
 **Do not declare `throws Exception`.** It tells callers nothing and forces them to
 catch everything. Declare the specific types or none.

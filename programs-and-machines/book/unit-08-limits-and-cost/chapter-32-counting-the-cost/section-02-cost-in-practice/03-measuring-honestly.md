@@ -1,17 +1,13 @@
 # Measuring Honestly
 
-This chapter has spent two sections building a way to predict cost. This lesson
-is about its limits, and it opens with a measurement that does not fit.
+Two sections of this chapter have gone into building a way to predict what a
+program will cost. This lesson is about where that apparatus stops working, and
+rather than describe its limits I would rather show you one.
 
-Bubble sort's timings grow by a factor of four per doubling, as the theory says
-they should — three times in a row, and then by twelve. That row is reproducible.
-It is left in, and this lesson explains why leaving it in matters more than the
-tidier alternative.
+## A row that did not behave
 
-## The row that did not behave
-
-Here is the bubble-sort table from two lessons ago with one more row on the
-bottom. Read down the ratio column, and stop when something goes wrong:
+Here is the bubble-sort table from two lessons ago, with one extra row on the
+bottom. Read down the ratio column and stop when something goes wrong.
 
 ```
          n      bubble ms    ratio
@@ -24,9 +20,12 @@ bottom. Read down the ratio column, and stop when something goes wrong:
 
 The first four rows converge on 4, as $O(n^2)$ predicts. The fifth is 12.
 
-That is reproducible. Three separate runs gave ratios of 11.98, 12.44 and 11.66,
-against a predicted 4. Bubble sort at 64,000 elements is three times slower than
-its own complexity class says it should be.
+Your first instinct should be that somebody's laptop was busy compiling something.
+Mine was. It is not that.
+
+Three separate runs gave ratios of 11.98, 12.44 and 11.66, against a predicted 4.
+Bubble sort at 64,000 elements is three times slower than its own complexity class
+says it can be, reproducibly.
 
 Something on this machine changes between 32,000 and 64,000 elements. The obvious
 candidate is memory hierarchy — 64,000 `int`s is 256 kilobytes, and this machine's
@@ -38,9 +37,14 @@ counters, which is beyond what these measurements can show.
 The honest statement is: **the measurement is reproducible, it disagrees with the
 prediction by a factor of three, and this chapter has not established why.**
 
-That is left in deliberately. The apparatus is genuinely useful and it is a model,
-and models have residuals. A chapter that showed only the rows that fit would be
-teaching something false about what analysis does.
+That row is left in this book deliberately, and I want to be plain about why.
+
+The apparatus is genuinely useful. It is also a model, and models have residuals.
+A chapter that quietly showed you only the rows that fit would be teaching you
+something false about what analysis is — not about bubble sort, about analysis. You
+would come away believing the predictions are tighter than they are, and the first
+time reality disagreed with you in your own work you would assume you had made a
+mistake.
 
 ## The four things big-O cannot see
 
@@ -106,7 +110,7 @@ why.
 
 The rule this chapter proposes, which is Chapter 18's with an addition:
 
-> **Analyse to predict how it scales. Measure to know what it costs.**
+> **Analyze to predict how it scales. Measure to know what it costs.**
 
 Both, and for different questions. Analysis without measurement produces programs
 optimized for the wrong constant. Measurement without analysis produces programs

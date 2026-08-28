@@ -31,16 +31,24 @@ wrong frame. Java's access control is not a security boundary — reflection can
 reach around it, as Chapter 27 will show, and anyone editing the source can delete
 the keyword.
 
-What it is for is **reasoning**.
+What it is for is **reasoning**, and the argument is worth following slowly
+because it is the argument for most of Unit V.
 
 Chapter 16 said an invariant is worth having when the set of code that could break
-it is small enough to check. `private` is what makes the set small. With a private
-field, the code that can modify `cents` is the code in `Account.java` — a hundred
-lines you can read — rather than every line in the program.
+it is small enough to check. Ask yourself what that set is for a public field: it
+is every line in the program. Every file, including the ones written next year by
+somebody you have not met.
 
-That converts a question you cannot answer (*could anything have made this
-negative?*) into one you can (*do these six methods each preserve the
-invariant?*). Chapter 16's preservation check becomes finite.
+Now make it private. The set becomes the code inside `Account.java` — a hundred
+lines, which you can sit down and read this afternoon.
+
+And notice what has happened to the question. You have gone from *could anything
+anywhere have made this negative?*, which you cannot answer and never will, to *do
+these six methods each preserve the invariant?*, which you can answer in ten
+minutes by reading them.
+
+Chapter 16's preservation check just became finite. That is the whole trade, and it
+is a very good one.
 
 So the sentence to hold is:
 
@@ -84,8 +92,9 @@ depend on.
 
 ## What private fields cost
 
-Honesty, because there is a real cost and pretending otherwise is how people end
-up writing getters and setters mechanically.
+Now the honest part, because there is a real cost here and pretending there is not
+is exactly how people end up generating getters and setters by the hundred without
+ever asking what they are for.
 
 Some things become more work. Printing an object's internals for debugging needs a
 `toString`. Comparing two objects needs `equals`. Serializing one needs

@@ -36,8 +36,12 @@ U+0800 – U+FFFF         3        1110xxxx 10xxxxxx 10xxxxxx
 U+10000 – U+10FFFF      4        11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
 ```
 
-The `x`s are where the code point's bits go. Read the scheme carefully and you
-will see four properties fall out, none of them accidental.
+The `x`s are where the code point's own bits go.
+
+Now spend a minute on that table before reading further. It is one of the genuinely
+beautiful pieces of design in this book, and four separate properties fall out of
+it — none of them by accident, all of them consequences of exactly where the 1s and
+0s were placed. See how many you can find.
 
 **ASCII is unchanged.** Code points below 128 use the one-byte form `0xxxxxxx`,
 which is exactly the ASCII byte. An ASCII file *is* a UTF-8 file, unmodified. That
@@ -73,18 +77,24 @@ place into pattern:    110 00011  10 101001
                      = C3        A9
 ```
 
-And indeed `é` in UTF-8 is the bytes `C3 A9` — which we met in Chapter 1 as the
-two bytes that become `Ã©` when read under a single-byte encoding. Now you can
-see exactly why: `C3` and `A9` are both legitimate single-byte characters in
-ISO-8859-1, and a program using that encoding has no reason to suspect they
-belong together.
+And `é` in UTF-8 is indeed the two bytes `C3 A9`.
+
+You have met those two bytes before. In Chapter 1 they were the pair that turns
+into `Ã©` when something reads them under a single-byte encoding, and at the time
+you had to take that on trust. You can now see exactly why it happens: `C3` and
+`A9` are each a perfectly legitimate single character in ISO-8859-1, and a program
+using that encoding has no reason whatsoever to suspect the two of them belong
+together.
 
 GRINNING FACE, U+1F600, is in the four-byte range, and encodes as
 `F0 9F 98 80`.
 
-The word `café` is therefore 4 characters but 5 bytes: `c`, `a`, `f` are one byte
-each, and `é` is two. If you have ever seen a database column reject a name that
-"fits", this is why — the limit was in bytes and the count was in characters.
+So the word `café` is 4 characters and 5 bytes. Count them: `c`, `a` and `f` take
+one byte each, and `é` takes two.
+
+If you have ever watched a database reject a name that visibly fits in the field,
+that is this. The limit was counted in bytes and the name was counted in
+characters, and somebody assumed those were the same number.
 
 ## The remaining problem
 

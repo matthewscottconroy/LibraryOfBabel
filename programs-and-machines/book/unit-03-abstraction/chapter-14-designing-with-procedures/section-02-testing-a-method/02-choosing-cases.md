@@ -1,9 +1,14 @@
 # Choosing Cases
 
-A test suite is only as good as its cases. Ten tests of ordinary input give
-confidence without warrant; three well-chosen ones can establish a great deal.
+A test suite is worth exactly as much as its cases are, and no more.
 
-This lesson is about choosing.
+That is worth being blunt about, because a passing suite feels like evidence and
+often is not. Ten tests of perfectly ordinary input will give you a green tick and
+a warm feeling and establish almost nothing. Three well-chosen ones can establish a
+great deal.
+
+So the skill here is not writing tests. It is choosing what to test, and this
+lesson is about how.
 
 ## Equivalence classes
 
@@ -42,10 +47,15 @@ So test:
 - the empty case
 - the one-element case
 
-The last two find more bugs than any others, in my experience. `largest` on an
-empty array; a loop over an empty list; a `substring` of an empty string. Code is
-usually written with a typical case in mind and the degenerate cases are an
-afterthought.
+Those last two find more bugs than all the others put together, in my experience.
+`largest` on an empty array. A loop over an empty list. A `substring` of an empty
+string.
+
+The reason is not mysterious, and knowing it will make you a better tester
+immediately: **code gets written with a typical case in mind.** Whoever wrote the
+method was picturing an array with several things in it. The degenerate cases were
+an afterthought, if they were thought about at all — which is precisely why that is
+where you should go looking.
 
 ## Some standard traps
 
@@ -102,7 +112,9 @@ You will meet the term **code coverage**: the fraction of lines or branches your
 tests execute. Tools report it, and it is genuinely useful for finding code that
 is tested by *nothing*.
 
-It is a poor target, and it is worth understanding why.
+It is also a poor target, and rather than argue that, let me show you. Read this
+method and the test below it, and work out what percentage of its lines the test
+covers.
 
 ```java
 static int divide(int a, int b) {
@@ -110,8 +122,10 @@ static int divide(int a, int b) {
 }
 ```
 
-One test, `divide(6, 2)`, gives 100% line coverage. It also misses the only
-interesting case — `b` being zero, which throws.
+One test, `divide(6, 2)`, and you have 100% line coverage. A perfect score.
+
+It also misses the only interesting thing that can happen in this method — `b`
+being zero — which throws.
 
 Coverage tells you which lines *ran*. It says nothing about whether the assertions
 were meaningful, whether the interesting inputs were tried, or whether the expected

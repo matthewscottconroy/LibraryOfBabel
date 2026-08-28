@@ -1,7 +1,15 @@
 # Reading an Error
 
-Java tells you a great deal when a program fails. Most beginners read the first
-line, feel bad, and start changing things. The information is right there.
+Java tells you a great deal when a program fails.
+
+What most people do with it is read the first line, feel a small drop in the
+stomach, and start changing things. I did this for years. The stack trace looks
+like an accusation, and the natural response to an accusation is to get away from
+it.
+
+It is not an accusation. It is a report, it was written by something that watched
+the whole thing happen, and this lesson is about slowing down for the eight seconds
+it takes to read one properly.
 
 ## A real one
 
@@ -29,7 +37,10 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 3 out
 	at Boom.main(Boom.java:5)
 ```
 
-Four pieces of information. Take them in turn.
+There are four separate pieces of information in there. Before reading on, see how
+many you can name — and in particular, see whether you can find the line number of
+the bug and the line number of the call that led to it, which are both present and
+are not the same.
 
 **`java.lang.ArrayIndexOutOfBoundsException`** — the *kind* of failure. An index
 outside an array's bounds. That already tells you the defect is arithmetic about
@@ -46,9 +57,12 @@ culprit.
 **`at Boom.main(Boom.java:5)`** — *how execution got there*. `main`, at line 5,
 called `sumTo`.
 
-The bug is `<=` where `<` was meant. The message contained the exception type, the
-two numbers that did not fit, the line, and the call path. Read properly, it is
-close to a diagnosis.
+The bug is `<=` where `<` was meant.
+
+Now look back at what you were handed: the kind of failure, the two numbers that
+did not fit, the exact line, and the path the program took to reach it. Nothing was
+withheld from you. Read properly, that message is not a complaint about your
+program — it is very nearly the diagnosis, written out.
 
 ## The stack trace
 

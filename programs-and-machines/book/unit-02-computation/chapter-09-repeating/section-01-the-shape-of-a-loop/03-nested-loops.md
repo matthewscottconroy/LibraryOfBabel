@@ -21,8 +21,9 @@ The inner loop runs **completely** for each iteration of the outer one. Outer
 takes its first value, inner runs all four of its values, outer moves on, inner
 runs all four again.
 
-If tracing that is not immediate, do it on paper once. Almost everyone needs to,
-and once done it is permanent.
+If that is not immediately obvious to you, trace it on paper once — actual paper,
+writing down `row` and `col` at each step. Almost everybody needs to do this once,
+nobody needs to do it twice, and the understanding it gives you is permanent.
 
 ## The multiplication
 
@@ -40,9 +41,12 @@ That is the important fact about nesting, and it is not a small one. A loop over
 | 10,000 | 100,000,000 |
 | 100,000 | 10,000,000,000 |
 
-The last row is ten billion iterations, which on a modern machine is seconds to
-minutes rather than the microseconds you might have assumed from the fact that
-the code is six lines long.
+Look at the bottom row before moving on. Ten billion iterations — seconds to
+minutes on a modern machine, from six lines of code that look exactly as
+inexpensive as the six lines above them.
+
+Nothing in the appearance of a nested loop tells you which row of that table you
+are standing on.
 
 This is Chapter 32's subject, and the reason to raise it here is that nesting is
 where beginners first write something accidentally unusable. Code that is
@@ -65,7 +69,7 @@ best arguments.
 
 ## break and continue in nests
 
-Here is a trap.
+Here is a trap. Decide what this `break` does before reading the comment.
 
 ```java
 for (int i = 0; i < 3; i++) {

@@ -1,6 +1,11 @@
 # Linear and Tree Recursion
 
-Two recursive methods, superficially similar, with wildly different behavior.
+Here are two recursive methods. They are four lines each. They have the same
+shape, the same base case, the same style of definition, and if you saw them side
+by side in a review you would have nothing to say about either.
+
+One of them is fine. The other becomes unusable somewhere around *n* = 45, and the
+difference between them is a single extra call.
 
 ## Linear
 
@@ -42,7 +47,8 @@ Each call makes **two** further calls. The calls form a tree:
  fib(2) fib(1)          ... and so on
 ```
 
-And now count. Here are the actual call counts:
+Look at that tree and try to guess how it grows. Then look at the measured call
+counts, which are worse than almost anybody's guess.
 
 | `fib(n)` | result | calls |
 |---:|---:|---:|
@@ -50,9 +56,12 @@ And now count. Here are the actual call counts:
 | 20 | 6,765 | 21,891 |
 | 30 | 832,040 | 2,692,537 |
 
-Ten more in the input multiplies the work by more than a hundred. `fib(50)` would
-take something like two hundred million times the work of `fib(10)` — hours,
-for a number a loop produces instantly.
+Read down that last column. Ten more in the input multiplies the work by more than
+a hundred.
+
+Carry that forward and `fib(50)` needs something like two hundred million times the
+work of `fib(10)` — hours of computation, for a number that a five-line loop
+produces before you have taken your finger off the key.
 
 ## Why it explodes
 
@@ -116,9 +125,12 @@ improved.
 The difference is that a tree's left and right subtrees share nothing, while
 `fib(n-1)` and `fib(n-2)` overlap almost entirely.
 
-So the question to ask of any tree recursion is: **do the branches overlap?** If
-they do not, it is fine. If they do, you are recomputing, and you need memoization
-or a different approach.
+So there is one question to ask of any tree recursion you meet, and it is short
+enough to ask every time: **do the branches overlap?**
+
+If they do not, you are fine, and the shape of the calls matches the shape of the
+data. If they do, you are recomputing — and you need memoization, or you need to
+work in the other direction.
 
 ## Divide and conquer
 

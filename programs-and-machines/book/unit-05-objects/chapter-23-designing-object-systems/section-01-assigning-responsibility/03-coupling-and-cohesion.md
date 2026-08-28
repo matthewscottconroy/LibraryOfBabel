@@ -1,12 +1,17 @@
 # Coupling and Cohesion
 
-Chapter 14 handed you two words and asked you to notice things with them. Now they
-have to do some work.
+*High cohesion, low coupling.*
 
-The slogan is *high cohesion, low coupling*, and as slogans go it is unusually
-empty — nobody has ever set out to write incoherent, tightly coupled code. What
-makes the pair useful is that both are measurable enough to argue about, and that
-they are proxies for a question you can answer with a number.
+You will hear that slogan for the rest of your working life, and as slogans go it
+is unusually empty. Nobody has ever sat down at a keyboard intending to write
+incoherent, tightly coupled code. Advice that only tells you to avoid the thing
+nobody wants is not advice.
+
+What rescues the pair is that both halves are concrete enough to argue about with
+evidence, and that both are standing in for a single question you can answer with
+an actual number. We will get to the number at the end. First the two words have to
+do some work, because Chapter 14 handed them to you and asked only that you
+notice things with them.
 
 **Cohesion** is how strongly the parts of one unit belong together.
 **Coupling** is how much one unit depends on another.
@@ -32,10 +37,14 @@ and reports facts about them" passes — the second clause is about the first. "
 `UserManager` validates passwords and sends emails and writes to the database"
 does not.
 
-**The field test.** For each field, count the methods that use it. If a class has
-six fields and two clusters of methods, each using three fields and ignoring the
-others, you have two classes sharing a file. That is Chapter 14's observation and
-it works on real code.
+**The field test.** Go through the class field by field and count which methods
+touch each one. Then look at the pattern.
+
+If a class has six fields and the methods fall into two clusters — one cluster
+using three fields and ignoring the other three, the second cluster doing the
+reverse — you are looking at two classes that happen to share a file. This is
+Chapter 14's observation, and unlike most design advice it works on real code, in
+five minutes, without any judgment being required of you.
 
 Cohesion also has a lower bound. A class with one field and one method that
 returns it is not cohesive so much as pointless; splitting until everything is
@@ -103,10 +112,16 @@ should touch `Playlist` and nothing else. Adding a new item type should touch th
 new type and the place that creates it. Changing an output format should touch the
 formatter.
 
-When you are unsure whether a design is good, do not audit it against principles.
-Name the three changes most likely to arrive within a year, and trace each one
-through the design counting files. That number is the answer, and it is a
-measurement rather than an opinion.
+So when you are unsure whether a design is any good, do not sit down and audit it
+against a list of principles. Do this instead.
+
+Name the three changes most likely to arrive within the next year. Take each one
+and trace it through the design, counting the files it touches. Write down the
+three numbers.
+
+That is your answer, and the reason it is worth more than any principle in this
+chapter is that it is a measurement rather than an opinion — yours or anybody
+else's.
 
 The three principles this section gave — behavior with its data, composition over
 inheritance, weakest coupling that works — are all just accumulated experience

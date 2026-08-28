@@ -4,8 +4,10 @@ Splitting works when the structure is positional — field 2 is the surname. Oft
 the structure is a *shape* instead: a date, an email address, a number embedded in
 a sentence.
 
-**Regular expressions** are a small language for describing shapes of text, and
-they are worth meeting even though this section cannot teach them properly.
+**Regular expressions** are a small language for describing shapes of text. I
+should say at the outset that this section cannot teach them properly — people
+write whole books — and that what it can do is show you what they are, what they
+are for, and the one thing about them that is a theorem rather than an opinion.
 
 ## The idea
 
@@ -15,11 +17,16 @@ they are worth meeting even though this section cannot teach them properly.
 
 The pattern says: four digits, a hyphen, two digits, a hyphen, two digits.
 
-That is a description of a shape rather than a procedure for checking one. You
-state what the text should look like; the library works out how to test it. It is a
-small declarative language embedded in a procedural one, which is a genuinely
-different way of expressing a computation and a preview of Chapter 24, where we
-build a parser for a language of our own.
+Stop and notice what kind of thing you just wrote, because it is not like the rest
+of your program. There is no loop in it. There is no index, no comparison, no
+control flow of any kind. You did not write a *procedure for checking* a date — you
+wrote a *description of what a date looks like*, and handed the checking to
+somebody else.
+
+That is a small declarative language living inside a procedural one, and it is a
+genuinely different way to express a computation. It is also a preview of Chapter
+24, where you build a parser for a language of your own and find yourself on the
+other side of this arrangement.
 
 ## Enough syntax to read one
 
@@ -96,11 +103,16 @@ fine occasionally and wasteful in a loop.
 
 Regular expressions are seductive and frequently the wrong tool.
 
-**They cannot parse nested structures.** This is not a limitation of a particular
-implementation; it is a theorem. Regular expressions describe exactly the languages
-a *finite state machine* can recognize — Chapter 6's machine, with a fixed number
-of states — and matching nested brackets requires unbounded counting, which a
-finite machine cannot do.
+**They cannot parse nested structures.** And this is the one worth having
+properly, because it is not a complaint about somebody's implementation and it is
+not a matter of the pattern being awkward to write. It is a theorem, and nothing
+will ever fix it.
+
+Regular expressions describe exactly the languages a *finite state machine* can
+recognize — Chapter 6's machine, with its fixed number of states. Matching nested
+brackets requires counting how deep you are, with no bound on the depth. A machine
+with finitely many states cannot count without a bound, because it would need a
+state for every depth.
 
 Chapter 6 showed this: no finite machine accepts *n* zeros followed by *n* ones.
 The same argument means **you cannot parse HTML, JSON, or arithmetic expressions

@@ -37,17 +37,22 @@ System.out.println(i);      // error: cannot find symbol
 
 ## Why restrict visibility?
 
-The mechanical answer is that the compiler needs to know which cell a name refers
-to. The useful answer is about you.
+The mechanical answer is that the compiler has to know which cell a name refers
+to. That is true and it is not the interesting answer. The interesting answer is
+about you.
 
-A name in scope is a name you must consider. If every variable in a
-thousand-line program were visible everywhere, then reading any ten lines would
-require knowing about all of them — because any of them might be involved, and
-any might have been changed by code you have not read.
+**A name in scope is a name you have to consider.** Sit with that for a moment,
+because it turns a restriction into a gift.
 
-Restricting scope is **restricting how much you have to think about**. A variable
-declared inside a loop cannot possibly be affecting anything after the loop,
-and knowing that costs you nothing to establish.
+Picture a thousand-line program in which every variable is visible everywhere.
+Reading any ten lines of it now requires knowing about all thousand names — because
+any of them might be involved here, and any of them might have been changed by code
+you have not read yet. You cannot understand a small piece without understanding
+the whole.
+
+Restricting scope is **restricting how much you have to hold in your head**. A
+variable declared inside a loop cannot possibly affect anything after the loop, and
+establishing that fact costs you nothing at all — you can see the brace.
 
 This is the same argument the rest of the book keeps making. Chapter 6 said
 language constructs exist to extend what a person can hold in their head; scope
@@ -90,10 +95,13 @@ int counter = 0;
 counter++;
 ```
 
-If those two lines are inside a method, then every call gets a *fresh* `counter`
-starting at 0. The variable does not remember anything between calls. Beginners
-frequently expect otherwise, and write a method they expect to count how many
-times it has run.
+If those two lines sit inside a method, what does `counter` hold on the fifth
+call?
+
+Zero, then one. Every call gets a *fresh* `counter` starting at 0, and the variable
+remembers nothing whatsoever between calls. This catches almost everybody once,
+usually in the form of a method written to count how many times it has been
+called — which reports 1, forever, and looks like it should work.
 
 To remember something across calls you need state whose lifetime is longer than
 one call — a field, which is Unit V.

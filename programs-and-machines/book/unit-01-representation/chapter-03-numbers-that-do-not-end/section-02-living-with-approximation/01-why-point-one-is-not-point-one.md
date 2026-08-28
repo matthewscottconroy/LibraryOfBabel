@@ -1,7 +1,12 @@
 # Why 0.1 Is Not 0.1
 
-We have all the pieces. Let us take the most famous result in floating point and
-derive it completely, so that nothing about it remains mysterious.
+You now have every piece you need, so let us go and get the most famous result in
+all of floating point and take it completely apart.
+
+I want to be ambitious about what "completely" means here. Not an explanation that
+leaves you nodding. A derivation, every step, until there is nothing left in it
+that could still surprise you — because this result is the one that makes people
+decide computers are unreliable, and it deserves better than a shrug.
 
 ```
 0.1 + 0.2  →  0.30000000000000004
@@ -58,18 +63,22 @@ The two candidate doubles either side of our exact sum are:
 0.3000000000000000444089209850062616169452667236328125     ← the next one up
 ```
 
-Our exact sum, 0.30000000000000001665…, sits between them. Which is nearer?
+Our exact sum, 0.30000000000000001665…, sits between those two. So: which is
+nearer?
 
-Work out both distances and something unexpected happens:
+Do not take my word for it. Subtract, both ways, and watch what happens.
 
 ```
 distance down to 0.29999999999999998889…  =  2.77555756156289135105907917022705078125e-17
 distance up   to 0.30000000000000004440…  =  2.77555756156289135105907917022705078125e-17
 ```
 
-They are not merely close. They are **exactly equal**. Our sum lands precisely
-halfway between two representable doubles, and "round to nearest" has no nearest
-to choose.
+Those are not merely close. Look at them digit by digit — they are **exactly
+equal**, to the last place.
+
+Our sum has landed precisely halfway between two representable doubles. "Round to
+nearest" has been handed a value with no nearest, and something has to break the
+tie.
 
 IEEE 754 settles ties with a rule called **round half to even**: when a value is
 exactly midway, pick the candidate whose last mantissa bit is 0. Of our two, the
@@ -137,8 +146,10 @@ Strip away the specifics and the pattern is one you should expect everywhere:
 4. A comparison, a subtraction of near-equal values, or a long accumulation makes
    the hidden discrepancy visible, and it looks like the arithmetic went wrong.
 
-It did not go wrong. Step 1 went wrong, quietly, before any arithmetic happened.
+It did not go wrong. Step 1 went wrong — quietly, before a single arithmetic
+operation had been performed.
 
-Keep that ordering in mind and floating-point surprises stop being surprises.
-They become a question with a definite answer: *what was actually stored, and how
-far is that from what I wrote?*
+Hold on to that ordering and floating-point surprises stop being surprises
+altogether. They turn into a question with a definite answer, which you now know
+how to work out: *what was actually stored, and how far is that from what I
+wrote?*

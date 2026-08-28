@@ -48,12 +48,17 @@ That is Chapter 1's fixed-width argument, deciding a language's design.
 Assignment copies **the contents of the box**. For primitives that is the value;
 for objects it is the reference.
 
+Predict the last line before you read it. We never mention `a` after the second
+statement.
+
 ```java
 int[] a = {1, 2, 3};
 int[] b = a;              // copies the reference
 b[0] = 99;
 System.out.println(a[0]); // 99
 ```
+
+99. We wrote to `b` and read from `a`.
 
 `a` and `b` are two boxes holding the same reference, so there is one array with
 two names:
@@ -79,11 +84,15 @@ y = 99;
 System.out.println(x);    // 5
 ```
 
-Two boxes, two independent values. The rule is the same in both — *assignment
-copies the contents of the box* — and it produces opposite-seeming results because
-the contents are different in kind.
+Two boxes, two independent values, and no surprise at all.
 
-**One rule, not two.** That is the thing worth holding.
+Now put the two examples side by side and notice that the rule did not change
+between them. *Assignment copies the contents of the box*, both times. It produced
+results that look like opposites purely because the contents were different in
+kind — a number in one case, a reference in the other.
+
+**One rule, not two.** That is the thing worth carrying, and it will keep you out
+of trouble in every chapter after this one.
 
 ## Java does not have addresses
 

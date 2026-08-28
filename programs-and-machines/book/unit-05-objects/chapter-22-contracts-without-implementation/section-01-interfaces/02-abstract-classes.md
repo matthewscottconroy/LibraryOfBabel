@@ -42,8 +42,12 @@ Free 1500
 Percent 1495
 ```
 
-`deposit` was written once. The 5 that `Percent` withheld came from a method
-`Account` calls but does not implement.
+Look at what just happened there. `deposit` was written exactly once, in
+`Account`, and it produced two different answers.
+
+The 5 that `Percent` withheld came out of a method that `Account` calls and does
+not implement — a hole in the parent, filled by the child, at a moment the parent
+chose.
 
 ## What abstract means
 
@@ -61,9 +65,12 @@ The shape above has a name — Gamma and colleagues called it the **template
 method**, and it is one of the few design patterns that earns its keep.
 
 The parent writes the algorithm and calls out to the steps. The subclass supplies
-the steps and does not control the order. That inversion is the value: the
-sequence lives in one place, and a subclass cannot get it wrong, because it never
-sees it.
+the steps and has no say at all in when they happen.
+
+That inversion is the entire value, and it is worth saying the consequence out
+loud: **the subclass cannot get the sequence wrong, because it never sees the
+sequence.** You have not asked subclass authors to be careful. You have arranged
+things so that carefulness is not required of them.
 
 Compare with what you would otherwise write — each subclass implementing
 `deposit` in full — and the difference is that in the abstract version the
@@ -99,10 +106,10 @@ code, when they are honestly kinds of one thing, and when you control them all.
 `Account` qualifies: the balance is common, `deposit` is common, and a savings
 account really is a kind of account.
 
-If you find yourself unsure, choose the interface. It constrains implementers
-less, it composes with other interfaces, and Chapter 23 will argue that the
-inheritance an abstract class requires is a commitment worth avoiding when you
-can.
+And if you are genuinely unsure, choose the interface. It constrains your
+implementers less, it composes with other interfaces where an abstract class cannot,
+and Chapter 23 is going to argue that the inheritance an abstract class demands is a
+commitment worth avoiding whenever you have the choice.
 
 ## Both at once
 

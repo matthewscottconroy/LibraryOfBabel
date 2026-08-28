@@ -1,5 +1,8 @@
 # Building Text Efficiently
 
+Here is a loop that builds a string of forty thousand characters. It is about as
+plain as code gets, and there is nothing wrong with any individual line of it.
+
 ```java
 String result = "";
 for (int i = 0; i < 40_000; i++) {
@@ -7,10 +10,13 @@ for (int i = 0; i < 40_000; i++) {
 }
 ```
 
-That took **79 ms** on the machine used for this book. The equivalent using
-`StringBuilder` took **1 ms** — about eighty times faster.
+Guess how long it takes. Then guess how long the `StringBuilder` version takes.
 
-The reason is immutability, and the arithmetic is the one from Chapter 17 run in reverse.
+**79 ms** against **1 ms** — about eighty times slower, for a loop that appends a
+single character forty thousand times.
+
+The reason is immutability, and the arithmetic is Chapter 17's, running in
+reverse.
 
 ## Why concatenation in a loop is quadratic
 
@@ -22,11 +28,14 @@ The reason is immutability, and the arithmetic is the one from Chapter 17 run in
 4. make `result` refer to the new string
 5. leave the old one as garbage
 
-Iteration *i* copies *i* characters. Over *n* iterations that is
-1 + 2 + 3 + … + *n*, which is about $n^{2}/2$.
+Now count. Iteration *i* copies *i* characters, so over *n* iterations you are
+paying 1 + 2 + 3 + … + *n*, which is about $n^{2}/2$.
 
-For 40,000 characters that is 800 million character copies, plus 40,000
-allocations, plus 40,000 strings for the garbage collector.
+Put 40,000 into that and the loop above performed **800 million character copies**
+— along with 40,000 allocations and 40,000 dead strings handed to the garbage
+collector.
+
+To append forty thousand letters.
 
 This has the same shape as the grow-by-one analysis in Chapter 17. The remedy is the same
 too.

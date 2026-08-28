@@ -75,9 +75,9 @@ for (int i = 0; i < line.length(); i++) {
 ```
 
 Twelve lines, one boolean, and it is Chapter 24's tokenizer at its smallest — a
-position moving forward, a mode, and a decision per character. It is a regular
-language, so no stack is needed, which is Section 24.1.1's classification doing
-practical work.
+position moving forward, a mode, and one decision per character. No stack anywhere
+— because quoting is a *regular* problem, and Chapter 24's classification just
+earned its keep on a task you will actually be given.
 
 This version still does not handle everything real CSV does. A quoted field may
 contain a **newline**, which means CSV is not a line-oriented format at all and a

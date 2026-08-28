@@ -72,8 +72,8 @@ nearly free — the JVM optimizes it heavily — but a *contended* one means thr
 blocking, being descheduled by the operating system, and being woken again. Those
 are kernel operations and they cost microseconds.
 
-The general shape: **the cost of synchronization is contention, not
-synchronization.** A lock nobody is waiting for is cheap. A lock eight threads are
+Which gives you the shape of the whole problem: **what costs you is contention,
+not synchronization.** A lock nobody is waiting for is cheap. A lock eight threads are
 fighting over serializes them, and the program can end up slower than
 single-threaded — Amdahl's law arriving through a back door, since the locked
 region is by definition sequential.

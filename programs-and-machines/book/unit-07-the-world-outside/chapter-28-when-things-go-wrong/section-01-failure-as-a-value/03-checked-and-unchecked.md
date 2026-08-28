@@ -33,7 +33,8 @@ signature mentions it.
 
 ## The idea
 
-The reasoning was good, and it is worth stating fairly before the criticism.
+Before the criticism, the case for it — put as well as I can put it, because it is
+a better argument than its reputation suggests.
 
 An `IOException` is not a bug. Files genuinely go missing, disks genuinely fill,
 networks genuinely fail, and a caller who has not thought about it has an

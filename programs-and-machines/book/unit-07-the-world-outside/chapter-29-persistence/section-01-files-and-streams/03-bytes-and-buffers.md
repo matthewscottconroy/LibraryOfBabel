@@ -75,8 +75,9 @@ try (BufferedWriter w = Files.newBufferedWriter(f)) {
 }                                  // close flushes
 ```
 
-try-with-resources closes it, and closing flushes. That is Section 28.2.2's
-argument in a concrete case: the resource here is not merely a handle, it is
+try-with-resources closes it, and closing flushes. Which sharpens the last
+chapter's point considerably: the thing you are failing to release here is not a
+handle, it is
 *unwritten data*, and failing to release it loses information rather than leaking
 a descriptor.
 

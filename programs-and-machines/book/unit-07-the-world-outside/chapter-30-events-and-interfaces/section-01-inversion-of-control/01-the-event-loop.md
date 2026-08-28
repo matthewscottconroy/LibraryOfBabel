@@ -177,8 +177,8 @@ In Swing that thread is the **Event Dispatch Thread**, and `main` is not it.
 `SwingUtilities.invokeLater` and `invokeAndWait` are how other threads get code
 onto it — they post a `Runnable` to the same queue the clicks go into.
 
-The rule is absolute and the reason is Chapter 31's: making a whole widget
-hierarchy thread-safe would require locking on every access, would be slow, and
+The rule is absolute, and the reason belongs to the next chapter: making an entire
+widget hierarchy thread-safe would mean a lock on every access, would be slow, and
 would deadlock — a repaint holding a lock while a handler waits for one is a
 classic. Every toolkit tried it in the 1990s and every toolkit gave up. Swing's
 predecessor AWT was thread-safe and it is why Swing is not.

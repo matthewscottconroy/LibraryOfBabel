@@ -115,9 +115,9 @@ a batch, worth skipping and recording.
 unparseable database schema. Anything indicating the program's assumptions are
 wrong.
 
-For the second group, the right response is to stop, which is Section 28.2.3's
-argument. Attempting to continue means executing code whose preconditions you know
-to be false, and what happens next is unpredictable and usually worse than
+For that second group the right response is to stop, which is what the next lesson
+is about. Carrying on means running code whose preconditions you already know are
+false, and what happens next is unpredictable and usually worse than
 stopping.
 
 ## Retries, since everyone writes one

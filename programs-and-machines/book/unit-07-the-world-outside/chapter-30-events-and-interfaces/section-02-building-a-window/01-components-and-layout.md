@@ -51,8 +51,8 @@ public static void main(String[] args) {
 
 Six lines of construction and one of them is the important one.
 
-`SwingUtilities.invokeLater` wraps the whole thing, because of Section 30.1.1's
-rule: components must be created and touched on the event dispatch thread, and
+`SwingUtilities.invokeLater` wraps the whole thing, and it is not decoration.
+Components must be built and touched on the event dispatch thread, and
 `main` is not it. Building the interface directly in `main` usually works and
 occasionally does not, which is the worst kind of bug.
 

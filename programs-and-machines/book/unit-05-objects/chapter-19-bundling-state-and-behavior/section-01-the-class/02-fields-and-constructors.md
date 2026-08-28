@@ -107,13 +107,14 @@ private long cents;
 `final` on a field means it must be assigned exactly once — in the constructor —
 and never again. An account's owner does not change; its balance does.
 
-This is worth doing wherever it is true, for the reason Chapter 7 gave: it removes
-a field from the set of things a reader must track. It also makes a class safer to
+Do this wherever it is honestly true. It takes a field out of the set of things a
+reader has to keep an eye on, which was the argument for narrow scope back in
+Chapter 7 and has not got any weaker. It also makes a class safer to
 share between threads, which Chapter 31 will explain.
 
-A field that is `final` and whose type is immutable is a field you can stop
-thinking about entirely. Note the second condition — `final` on a reference stops
-reassignment, not modification of the object it points at:
+A field that is `final` *and* whose type is immutable is a field you can stop
+thinking about altogether. Both halves are load-bearing: `final` on a reference
+freezes the arrow, not the object it points at:
 
 ```java
 private final List<String> items = new ArrayList<>();

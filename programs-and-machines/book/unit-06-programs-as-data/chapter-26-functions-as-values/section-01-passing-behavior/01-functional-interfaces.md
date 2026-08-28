@@ -76,8 +76,8 @@ IntOp square = new IntOp() {
 };
 ```
 
-Five lines to say `x * x`. Chapter 22 introduced this form and promised a shorter
-one. Here it is:
+Five lines to say `x * x`. You met this shape in Chapter 22 and I promised you
+something shorter was coming. Here it is:
 
 ```java
 IntOp square = x -> x * x;

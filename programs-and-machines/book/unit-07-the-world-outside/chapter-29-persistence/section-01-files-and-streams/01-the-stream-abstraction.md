@@ -66,9 +66,11 @@ The answer is that the alternative is a method for every combination —
 anyone would write. The library chose composability over convenience, and then
 spent twenty years adding convenience on top.
 
-Note also that this is Section 23.1.2's argument in the standard library.
-`BufferedInputStream` **holds** an `InputStream` rather than extending one. If it
-had extended `FileInputStream` it could not buffer a socket.
+And look at what the library is quietly demonstrating here. `BufferedInputStream`
+**holds** an `InputStream`; it does not extend one. Had it extended
+`FileInputStream` instead, it could never have buffered a socket — which is the
+whole composition-over-inheritance argument, sitting in the JDK, decided correctly
+in 1996.
 
 ## The convenience layer
 

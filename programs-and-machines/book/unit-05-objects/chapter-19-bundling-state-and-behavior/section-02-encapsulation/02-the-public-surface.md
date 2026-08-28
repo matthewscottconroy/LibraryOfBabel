@@ -26,8 +26,9 @@ For an account: deposit, withdraw, ask the balance, ask the owner. Four
 operations, none of which mentions `cents` or `long` or the fact that money is
 stored in pence.
 
-Notice what that buys. The representation could change to `BigDecimal`, or to a
-currency-plus-amount pair, and none of the four operations changes. That is
+Now count what that bought you. The representation could become a `BigDecimal`, or
+a currency paired with an amount, and not one of those four operations would
+change its signature. Which is
 Chapter 16's argument — the storage decision is exactly the kind of thing that
 changes, so it belongs behind a boundary.
 
@@ -112,8 +113,8 @@ Chapter 11's contracts belong here, and the class deserves one of its own:
 public class Account { ... }
 ```
 
-Three things worth stating at class level: what the thing is, what its invariant
-is, and whether it is safe to share between threads. The last one is easy to omit
+Say three things at class level: what the thing is, what its invariant is, and
+whether it is safe to share between threads. That third one is the easiest to omit
 and Chapter 31 will show what it costs.
 
 Next: the keyword that belongs to the class rather than to any object.

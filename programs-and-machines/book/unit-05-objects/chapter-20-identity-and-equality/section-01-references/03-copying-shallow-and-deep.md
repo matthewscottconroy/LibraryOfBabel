@@ -71,8 +71,9 @@ public Order(Order other) {
 }
 ```
 
-Note the first line. `customer` is a `String`, which is immutable, so sharing it is
-safe and copying it would be waste. **Immutable things never need copying**, and
+Look at the first line and what it does *not* do. `customer` is a `String`, and a
+`String` cannot change, so sharing it is entirely safe and copying it would be pure
+waste. **Immutable things never need copying** —
 noticing which of your fields are immutable is most of the work of writing a
 correct copy.
 
@@ -99,9 +100,9 @@ Order copy = Order.copyOf(original);       // static factory
 
 Before writing any copy, ask: **why?**
 
-Frequently the honest answer is "so the caller cannot modify mine", which is
-Section 20.1.2's defensive copying — and the better fix is usually to make the
-thing immutable.
+Frequently the honest answer is "so the caller cannot modify mine" — which is the
+defensive copying from earlier in this section, and which usually has a better fix
+sitting next to it: make the thing immutable and stop needing to defend it.
 
 Sometimes it is "I need to modify one without affecting the other", which is a
 genuine reason and a copy is right.

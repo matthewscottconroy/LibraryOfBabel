@@ -28,7 +28,8 @@ Same name, same parameters, same return type. When `area()` is called on a
 
 ## Overriding is not overloading
 
-The distinction Chapter 12 promised, and it is worth stating side by side:
+This is the distinction Chapter 12 promised and then postponed. Set the two
+side by side and it stops being subtle:
 
 | | overloading | overriding |
 |---|---|---|

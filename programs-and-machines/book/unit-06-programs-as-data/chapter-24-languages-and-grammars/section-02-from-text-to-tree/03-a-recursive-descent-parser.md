@@ -129,8 +129,9 @@ It is Chapter 12's call stack. Each nested parenthesis is a live `expression`
 frame, waiting for its `expect(RPAREN)`. The parser never declares a stack because
 it inherited one.
 
-That is worth pausing on. The theory said this problem needs unbounded memory
-arranged as a stack; the implementation gets it for free by being recursive. Deep
+Stop and enjoy that for a moment. The theory said this problem requires unbounded
+memory, arranged as a stack. The implementation obtained one without asking, by
+the simple act of being recursive. Deep
 enough nesting will exhaust it and produce Chapter 12's `StackOverflowError` — try
 five thousand open brackets — which is the theory's requirement showing up as a
 practical limit.

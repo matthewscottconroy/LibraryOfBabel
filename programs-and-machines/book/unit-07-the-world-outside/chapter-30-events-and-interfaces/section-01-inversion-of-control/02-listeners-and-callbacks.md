@@ -42,8 +42,9 @@ about saving files; the code that saves files knows nothing about buttons. Neith
 would have to change if the other were replaced.
 
 The pattern's name is **Observer**, it is Chapter 23's design-patterns material,
-and it is the one that shows up most often outside user interfaces — in message
-queues, in change notifications, in Section 30.2.3's model.
+and of all the patterns in that book it is the one you will meet most often away
+from user interfaces — in message queues, in change notifications, and in the model
+at the end of this chapter.
 
 ## What a listener is
 

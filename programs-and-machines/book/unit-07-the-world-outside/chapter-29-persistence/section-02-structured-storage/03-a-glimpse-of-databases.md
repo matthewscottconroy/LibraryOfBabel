@@ -98,8 +98,9 @@ try (Connection c = DriverManager.getConnection(url);
 Two things in that snippet matter more than the API.
 
 **try-with-resources on everything.** A connection is a scarce server-side
-resource, and a leaked one is worse than a leaked file handle — the pool exhausts
-and the whole application stops. Section 28.2.2's material, at its most consequential.
+resource, and leaking one is worse than leaking a file handle: the pool empties and
+the entire application stops serving anybody. Everything the last chapter said
+about releasing things, at its most expensive.
 
 **A `PreparedStatement` with a `?`, not string concatenation.** Writing
 

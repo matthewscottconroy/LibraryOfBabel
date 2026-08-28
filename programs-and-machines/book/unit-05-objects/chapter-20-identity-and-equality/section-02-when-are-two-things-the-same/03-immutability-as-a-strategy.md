@@ -45,7 +45,8 @@ changing existing ones, exactly as `String.toUpperCase` does.
 
 ## The rules
 
-Five, and they are worth knowing as a checklist:
+There are five, and they are worth having as a checklist, because between them they
+account for most of the difficulty in this chapter:
 
 **No mutators.** No method changes observable state.
 

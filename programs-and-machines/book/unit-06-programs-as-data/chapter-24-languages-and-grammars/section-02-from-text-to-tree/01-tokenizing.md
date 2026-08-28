@@ -39,8 +39,11 @@ the same reason.
 
 `END` is a sentinel appended after the last real token. It saves the parser from
 checking for the end of the list at every step; instead it can always ask for the
-next token and get something. That trick is worth remembering: **a sentinel turns
-a special case into a normal one.**
+next token and get something back.
+
+Steal that trick. It shows up everywhere once you have a name for it: **a sentinel
+turns a special case into an ordinary one**, and special cases are where bugs
+live.
 
 ## The loop
 

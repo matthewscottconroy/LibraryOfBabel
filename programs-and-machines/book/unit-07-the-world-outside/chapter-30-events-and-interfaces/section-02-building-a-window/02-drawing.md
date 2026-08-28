@@ -49,8 +49,9 @@ The consequences:
 **`paintComponent` must be able to run at any time.** It cannot assume anything
 about what has happened since the last call.
 
-**It must be fast**, because it runs on the event loop and Section 30.1.1's rule
-applies. No file reading, no computation of any size. Compute into fields, draw
+**It must be fast.** It runs on the event loop, and you know what happens to
+everything else when the loop is busy. No file reading, no computation of any
+size. Compute into fields, draw
 from fields.
 
 **It must be idempotent** — drawing the same state twice must produce the same

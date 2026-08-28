@@ -43,9 +43,10 @@ an enum's is. The records carry each shape's data. Together they are an
 **algebraic data type**, and a syntax tree is the example every language with the
 feature was designed for.
 
-Look at `Bin` for a moment. Its `left` and `right` are `Expr`, so a `Bin` can
-contain a `Bin` can contain a `Bin`. That is the recursion Chapter 13 described,
-now in a data structure rather than a method — and it is the direct image of the
+Look hard at `Bin` for a second. Its `left` and `right` are both `Expr` — so a
+`Bin` can contain a `Bin` can contain a `Bin`, downward as far as you like. That
+is the recursion of Chapter 13, except that this time it is sitting in a data
+structure rather than in a method — and it is the direct image of the
 grammar rule `expression := expression '+' expression`.
 
 The grammar is recursive, so the type is recursive. That correspondence is not a
@@ -69,10 +70,12 @@ Two things to notice, and both are payoffs from earlier chapters.
 
 **No `default` clause.** The interface is sealed, so the compiler knows there are
 exactly three cases and that all three are covered. Add a fourth shape — say
-`Call` for function calls, which Chapter 25 does — and every `switch` like this
-one becomes a compile error listing the places to update. That is Section 22.2.1's
-exhaustiveness, and on a tree walker it is the difference between a refactor that
-is safe and one that is a search.
+`Call` for function calls, which the next chapter does — and every `switch` like
+this one stops compiling until you have handled it, with the compiler naming each
+place.
+
+On a tree walker that is not a convenience. It is the difference between a
+refactor you can trust and an afternoon of grepping.
 
 **The method calls itself on the children.** `show` handles a `Bin` by showing its
 parts, which are smaller trees. The base cases, `Num` and `Var`, do not recurse.

@@ -74,7 +74,9 @@ evaluator**. His student Steve Russell then observed that this definition could
 be *implemented* as it stood, hand-compiled it into machine code, and Lisp had an
 interpreter. McCarthy reportedly did not expect this to work.
 
-The idea that survived is worth stating on its own. **A program is data.** Lisp's
+One idea outlived all the rest of it, and it is the reason this unit exists.
+
+**A program is data.** Lisp's
 expressions are lists, lists are Lisp's data structure, and so a Lisp program can
 be built, taken apart, and evaluated by another Lisp program with no parsing
 whatsoever. Our language is not self-representing — the tree is a Java data

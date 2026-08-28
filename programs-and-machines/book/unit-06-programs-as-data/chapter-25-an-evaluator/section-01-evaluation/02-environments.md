@@ -40,8 +40,8 @@ A `HashMap<String, Integer>` from names to values. This is what a variable *is*
 in our language — not a memory location, not a box, but a key in a map the
 interpreter owns.
 
-Notice that this makes Chapter 7's box metaphor into an implementation choice
-rather than a fact. Our language could have used an array with names resolved to
+And there goes the box metaphor from Chapter 7 — not wrong, but revealed as an
+implementation choice rather than a fact about machines. Our language could have used an array with names resolved to
 indices at parse time, which is faster and is roughly what a compiled language
 does. The map is chosen because it is obvious, and Section 25.2.3 says what it
 costs.
@@ -97,8 +97,8 @@ Verified:
 print y;   ==>  undefined variable: y
 ```
 
-This is the moment Chapter 24 promised. A grammar cannot express "every name must
-be defined" — it is not a property of the string's shape — so the parser accepted
+Here is the moment the last chapter promised you. A grammar cannot express "every
+name must be defined" — it is not a property of the string's shape — so the parser accepted
 `y` happily and the check had to happen somewhere else.
 
 Here it happens at run time, when the lookup fails. Java checks the same thing at

@@ -33,8 +33,9 @@ record DefFun(String name, List<String> params, Expr body) implements Stmt { }
 record Print(Expr value)                                   implements Stmt { }
 ```
 
-A second sealed interface beside `Expr`. Note that a `Define` *contains* an
-`Expr` — the two hierarchies are not parallel, they are nested, which reflects
+A second sealed interface, sitting beside `Expr`. And look at the relationship
+between them: a `Define` *contains* an `Expr`. The two are not parallel, they are
+nested, which is exactly right, because
 that a statement can contain an expression and not the reverse.
 
 ## The grammar grows

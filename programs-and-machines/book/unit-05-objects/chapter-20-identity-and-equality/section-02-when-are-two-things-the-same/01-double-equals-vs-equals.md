@@ -17,7 +17,8 @@ Two operators, two questions.
 
 **`a.equals(b)`** asks: do these count as the same for our purposes?
 
-English uses "the same" for both, which is why this is hard.
+English is no help here. It uses "the same" for both, cheerfully, and leaves you
+to work out which one anybody meant.
 
 ## The demonstration
 

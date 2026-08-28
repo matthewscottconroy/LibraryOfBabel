@@ -129,8 +129,9 @@ can do.
 
 ## What about finalizers
 
-Java has two mechanisms that look like automatic cleanup, and both are traps
-worth knowing about so you can recognize them in old code.
+Java has two things that look like automatic cleanup. Both are traps, and you
+should know them well enough to recognise them in somebody else's code from ten
+years ago.
 
 `finalize()` is deprecated for removal. It runs at an unpredictable time, or
 never, it can resurrect objects, it delays collection, and its failures are

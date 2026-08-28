@@ -82,9 +82,9 @@ view a = [[ 5 ], [ 8 ], [ 6 ]]
 view b = [[ 5 ], [ 8 ], [ 6 ]]
 ```
 
-Two views, both current, neither knowing about the other. The model notified both
-because both registered — Section 30.1.2's Observer pattern, and this is what it
-is for.
+Two views, both current, neither with any idea the other exists. The model told
+both of them because both had asked to be told — which is the Observer pattern
+from earlier in the chapter, finally doing the job it was invented for.
 
 And the rule held:
 
@@ -163,8 +163,8 @@ question than whether you have done it at all.
 
 ## Where the line goes
 
-The judgment that takes practice, and Section 23.1.1's test applies directly:
-*would this still make sense if the interface changed?*
+This is the part that takes practice, and there is a test from Chapter 23 that
+works here unchanged: *would this still make sense if the interface changed?*
 
 **Model**: the count, the rule that it cannot go negative, the file format, the
 calculation, the validation, anything about the subject matter.

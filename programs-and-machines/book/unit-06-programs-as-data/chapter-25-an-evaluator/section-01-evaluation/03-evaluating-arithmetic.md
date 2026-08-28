@@ -63,8 +63,8 @@ interpreter is a recursive function over a tree. You have written several.
 `2 + 3 * 4` gives 14, and there is nothing in `eval` about precedence. No table,
 no comparison of operator strengths, no special case.
 
-Precedence was settled by the parser. Section 24.1.3's layered grammar built the
-tree `(+ 2 (* 3 4))`, and `eval` only walks what it is given. To compute the
+The parser already settled it. Its layered grammar built the tree `(+ 2 (* 3 4))`,
+and `eval` does nothing but walk what it is handed. To compute the
 addition it must first evaluate both children, and the right child is the
 multiplication, so the multiplication happens first — because it is deeper.
 
@@ -99,7 +99,7 @@ this one.
 print 1 / 0;   ==>  division by zero
 ```
 
-Two things worth noting about that check.
+Two things about that one check, and both are larger than they look.
 
 It is in `eval`, not in the parser, because it is not a property of the shape.
 `1 / 0` is a perfectly well-formed expression; it is only its *meaning* that

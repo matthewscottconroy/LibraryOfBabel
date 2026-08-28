@@ -26,8 +26,9 @@ Note what does *not* happen: the body is not evaluated. It is stored as a tree, 
 be walked later, possibly many times, possibly never. A procedure definition is
 the act of putting a piece of unevaluated syntax somewhere retrievable.
 
-That is worth pausing on, because it is the sharpest instance of this unit's
-thesis. `x * x` sitting in a `Procedure` is a data structure. It becomes a
+Stay with that, because it is the sharpest form this unit's claim ever takes.
+`x * x` sitting inside a `Procedure` is a data structure and nothing more. It
+becomes a
 computation when `apply` hands it to `eval`, and not before.
 
 ## Calling one
@@ -40,9 +41,9 @@ sealed interface Expr permits Num, Var, Bin, Call, If { }
 record Call(String name, List<Expr> args) implements Expr { }
 ```
 
-Adding it turned every `switch` over `Expr` into a compile error until the case was
-added. That is Section 22.2.1's exhaustiveness doing precisely the job it exists
-for, on a real refactor.
+The moment I added it, every `switch` over `Expr` in the whole program stopped
+compiling until I had handled it — which is the exhaustiveness check of Chapter 22
+earning its keep on a real change rather than a toy one.
 
 The parser distinguishes a call from a variable by looking one token ahead:
 

@@ -100,8 +100,9 @@ public class Account {
 Four parts, and every one of them is discussed in this chapter: the class header,
 the fields, the constructor, and the methods.
 
-Note that the methods use `cents` without qualifying it. Inside an instance
-method, the fields of *this particular object* are in scope, which is what makes
+Look at how the methods refer to `cents` — no prefix, no ceremony, just the name.
+Inside an instance method the fields of *this particular object* are already in
+scope, and that is the thing that makes
 `deposit` mean "deposit into the account I was called on".
 
 ## this

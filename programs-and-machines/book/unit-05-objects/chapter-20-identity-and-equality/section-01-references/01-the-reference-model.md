@@ -1,7 +1,8 @@
 # The Reference Model
 
-Chapter 12 established this and Chapter 19 relied on it. Here it is once more,
-because everything in this chapter is a consequence.
+You have seen this twice — Chapter 12 built it, Chapter 19 leaned on it. Here it
+is a third time, because every difficulty in this chapter is downstream of it and
+it is worth having fresh.
 
 ```java
 Account a = new Account("Ada", 1000);

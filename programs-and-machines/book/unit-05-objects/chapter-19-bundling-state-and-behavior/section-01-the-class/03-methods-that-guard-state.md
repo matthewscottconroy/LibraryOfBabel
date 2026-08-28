@@ -41,8 +41,9 @@ Neither method could be written without knowing the invariant, and neither is
 correct without its guard. Delete the `amount > cents` check and the class no
 longer means what it says.
 
-Note that these are the two obligations from Chapter 9 and Chapter 16 in yet
-another setting: establishment is the constructor's job, preservation is every
+You have met these two obligations twice already, in loops and then in data
+structures, and here they are a third time wearing a class: establishment is the
+constructor's job, preservation is every
 method's.
 
 ## Two ways to refuse

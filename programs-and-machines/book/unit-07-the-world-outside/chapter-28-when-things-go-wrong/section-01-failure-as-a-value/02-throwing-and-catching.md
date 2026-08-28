@@ -173,10 +173,12 @@ message: something broke down here
 Read it **top down**: the throw was in `level2`, at line 33. Read it **downward**
 for the story: `main` called `demoStack` called `level1` called `level2`.
 
-That is Chapter 12's call stack, captured. It exists because the exception's
-constructor walked the live frames and recorded them, which is why the trace shows
-where the exception was *created* rather than where it was thrown, and why the two
-differ if you reuse an exception object.
+What you are looking at is Chapter 12's call stack, photographed. The exception's
+constructor walked the live frames on its way into existence and wrote them down.
+
+Which has a consequence people trip over: the trace records where the exception
+was *born*, not where it was thrown. Reuse an exception object and the photograph
+is of somewhere you left hours ago.
 
 Beginners tend to look at the last line. The most useful line is usually the
 topmost one in *your* code — the frames above it are library internals, and the

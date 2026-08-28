@@ -96,9 +96,12 @@ largely because of this.
 
 ## Encapsulation
 
-Section 27.1.1 read a private field, called a private method, and assigned to a
-`final` one. Sit with what that means: **every invariant a class maintains can be
-broken from outside by anybody willing to type `setAccessible(true)`.**
+Now back to those three demonstrations from the opening, and what they actually
+imply.
+
+**Every invariant a class maintains can be broken from outside by anybody willing
+to type `setAccessible(true)`.** Not worked around. Not made awkward. Broken, from
+outside, by one method call.
 
 That is not a bug in Java. It is a trade the language made deliberately. But it
 does mean the guarantees of Chapters 19 and 20 hold **against code that plays by

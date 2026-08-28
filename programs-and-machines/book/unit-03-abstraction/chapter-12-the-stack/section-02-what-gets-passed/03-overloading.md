@@ -61,8 +61,9 @@ static int  g(int x)
 static long g(int x)      // error: g(int) is already defined
 ```
 
-At first this looks arbitrary. The reason is that a call can be written where the
-return value is discarded:
+That looks arbitrary the first time you meet it, and it is not. Here is the
+argument, and you can construct it yourself if you think about how a call can be
+written.
 
 ```java
 g(5);       // which one?
@@ -107,10 +108,13 @@ list.remove(1);              // removes the element at index 1
 list.remove(Integer.valueOf(1));   // removes the value 1
 ```
 
-`List` has both `remove(int)` and `remove(Object)`. Passing `1` matches
-`remove(int)` exactly, so the index version wins, and code that meant to remove
-the value 1 removes whatever is second. This is a real bug that catches
-experienced people, and Chapter 17 returns to it.
+`List` has both `remove(int)` and `remove(Object)`. The literal `1` is an exact
+match for `remove(int)`, and rule 1 says exact matches win before boxing is even
+considered — so the index version takes it, and code that meant to remove the value
+1 removes whatever happens to be sitting in second place.
+
+No warning. No error. A different element quietly disappears. This one catches
+experienced people, and Chapter 17 comes back to it.
 
 **Overload resolution is static.** The compiler chooses using the *declared* type
 of the argument, not what it turns out to be at run time. Chapter 21 contrasts

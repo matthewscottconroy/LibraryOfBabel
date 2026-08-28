@@ -27,12 +27,16 @@ problem every delimited format has.
 Programming, with a comma,Nobody,2026
 ```
 
-Four fields, or three with a comma in the first? Splitting on a comma gives four,
-and the record is wrong.
+Four fields, or three fields with a comma inside the first one? Look at the line
+and decide. Then notice that you decided using knowledge about book titles that
+the parser does not have.
 
-Any delimiter can appear in the data. Choosing a rarer one — a tab, a pipe, an
-ASCII unit separator — makes it less likely and not impossible, and "less likely"
-means the bug arrives later, in production, on someone's real data.
+Splitting on a comma gives four, and the record is wrong.
+
+The instinct at this point is to pick a rarer delimiter — a tab, a pipe, an ASCII
+unit separator. Follow that instinct through, though: rarer is not impossible. All
+you have bought is that the bug arrives later, in production, in somebody's real
+data, when you have stopped thinking about it.
 
 ## The two fixes
 
@@ -74,15 +78,22 @@ for (int i = 0; i < line.length(); i++) {
 }
 ```
 
-Twelve lines, one boolean, and it is Chapter 24's tokenizer at its smallest — a
-position moving forward, a mode, and one decision per character. No stack anywhere
-— because quoting is a *regular* problem, and Chapter 24's classification just
-earned its keep on a task you will actually be given.
+Twelve lines and one boolean. Look at what the boolean is doing: it is a *mode*,
+and the parser reads each character differently depending on which mode it is in.
 
-This version still does not handle everything real CSV does. A quoted field may
-contain a **newline**, which means CSV is not a line-oriented format at all and a
-correct reader cannot use `readLine`. RFC 4180 says so; most hand-written parsers
-do not know.
+That is Chapter 24's tokenizer at its very smallest — a position moving forward, a
+mode, and exactly one decision per character. And notice what is not there: no
+stack, nowhere. That is not a simplification, it is a fact about the problem.
+Quoting is a *regular* problem, and Chapter 24's classification just earned its
+keep on a task somebody is going to hand you.
+
+And this version still does not handle everything real CSV does. Here is the one
+that gets everybody.
+
+A quoted field may contain a **newline**. Read that again and work out what it
+costs you: it means CSV is not a line-oriented format at all, and a correct reader
+cannot use `readLine`. RFC 4180 says so plainly. Almost no hand-written parser in
+the world knows it.
 
 **Use a library for CSV you did not write.** Apache Commons CSV, OpenCSV,
 univocity. Write your own only for data you also produce, where you control what

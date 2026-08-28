@@ -1,16 +1,13 @@
 # Strings and Languages
 
-Before the machinery, one definition — and it is worth warning you that it will
-look like it has thrown away everything interesting.
+Before any machinery, one definition — and I should warn you in advance that it is
+going to look as though it has thrown away everything interesting about the
+subject.
 
-The definition of a language, in this subject, says nothing about meaning. Nothing
-about what a program does, nothing about whether it is any good. That omission is
-not carelessness; it is the move that makes the whole subject tractable, and it is
-the same move Chapter 1 made when it separated a bit pattern from what the pattern
-denotes.
+Read it anyway, and reserve judgment until the paragraph after it.
 
-Here is the vocabulary, and it is worth a slow minute because everything after
-it is built from these four words.
+Here is the vocabulary. Give it a slow minute, because everything in the next two
+chapters is built out of these four words.
 
 An **alphabet** is a finite set of symbols. Call it $\Sigma$. For English text
 that might be the 26 letters; for Java source it is the Unicode characters of
@@ -31,13 +28,17 @@ And then the definition:
 That is all. A language is a set of strings — the ones that are *in* it, against
 all the others that are not.
 
-## Why this definition
+## Why throw so much away
 
-It looks like it has thrown away everything interesting. There is nothing about
-meaning, nothing about grammar, nothing about what a program does. That is exactly
-the point, and it is a move this book has made before: Chapter 1 separated a bit
-pattern from what it means, and this separates a program's *form* from its
-*meaning* in the same way.
+Notice everything that definition does not mention. Not meaning. Not grammar. Not
+what a program does, or whether it does it well. A language is a set of strings and
+nothing else whatsoever.
+
+That is not an oversight, and it is not the definition being lazy before getting to
+the real one. It is the move that makes the entire subject tractable — and it is a
+move this book has made before. Chapter 1 separated a bit pattern from what the
+pattern means. This separates a program's *form* from its *meaning* in exactly the
+same way, and for exactly the same reason.
 
 Java, under this definition, is the set of character sequences that are legal Java
 programs. `int x = 3;` is in the set. `int x = ;` is not. The question of what
@@ -76,9 +77,12 @@ Worth knowing now, because Chapter 34 collects the debt.
 
 $\Sigma^*$ is countably infinite — you can list all strings in order of length.
 But the *languages* over $\Sigma$ are all the subsets of $\Sigma^*$, and there are
-uncountably many of those. So there are strictly more languages than there are
-finite descriptions, and therefore languages that no grammar generates and no
-program recognizes.
+uncountably many of those. Put those two facts together and something falls out that you cannot argue with.
+There are strictly more languages than there are finite descriptions to go around
+— so there must exist languages that no grammar generates and no program
+recognizes.
+
+We have not shown you one. We have shown that they have to be there.
 
 This is not a curiosity about exotic sets. Chapter 34 exhibits a specific,
 extremely natural language — the set of programs that halt — and shows no

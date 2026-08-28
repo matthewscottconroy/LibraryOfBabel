@@ -38,10 +38,10 @@ default*, and the platform default was UTF-8 on most Linux systems and
 a suspicious eye: the encoding depended on which machine the program happened to be
 running on.
 
-So a file written on one machine and read on another could disagree with itself,
-producing a bug that never reproduces on the developer's laptop, appears only when
-the data contains a non-ASCII character, and is discovered several months later by
-a user in another country.
+Which is where the `GÃ¶del` at the top of this lesson comes from. The bug never
+reproduces on the developer's laptop, appears only when the data contains a
+non-ASCII character, and is found several months later by a user in another
+country.
 
 Java 18 made UTF-8 the default everywhere and closed that hole for new code. State
 it anyway. It costs you one argument, it tells the next reader what you intended,

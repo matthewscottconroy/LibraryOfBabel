@@ -1,17 +1,19 @@
 # What Reflection Costs
 
-The last lesson made every guarantee in Chapter 19 look negotiable, which ought to
-provoke a question: if this is available, why not use it everywhere?
+The last lesson made every guarantee in Chapter 19 look negotiable. A private field
+read from outside. A private method called. A `final` field assigned to.
 
-There are four answers. Only the first is a number, and it is the least important
-of the four.
+Which ought to provoke an uncomfortable question, and you should let it: if all of
+that is available, why is anybody still writing ordinary code?
 
-Four costs. The first is measurable and the other three are worse.
+There are four answers. Only the first is a number, and it is comfortably the least
+important of the four.
 
 ## Speed
 
 Twenty million method calls — ten million pairs of a mutator and an accessor —
-timed directly and through `Method.invoke`, after warm-up:
+timed directly and through `Method.invoke` after warm-up. Guess the ratio before
+you look.
 
 ```
 direct    1 ms   reflective   92 ms
@@ -19,109 +21,127 @@ direct    1 ms   reflective   64 ms
 direct    2 ms   reflective   81 ms
 ```
 
-Roughly forty to sixty times slower.
+Somewhere between forty and sixty times slower.
 
-The reason is that a direct call is Chapter 21's two indirections and a jump,
-inlined away entirely by the JIT once the site proves monomorphic. A reflective
-call cannot be: the target is a `Method` object known only at run time, the
-arguments must be boxed into an `Object[]`, the return value must be boxed, and
-access must be re-checked.
+The reason is worth having, because it explains why the gap cannot be closed by a
+cleverer JVM. A direct call is the two indirections and a jump from Chapter 21, and
+the JIT deletes even that once the call site proves monomorphic. A reflective call
+can never get there: the target is a `Method` object that is not known until run
+time, the arguments have to be boxed into an `Object[]`, the return value has to be
+boxed on the way back, and the access permission has to be re-checked. None of that
+is overhead that a smarter compiler could notice was unnecessary. It is the work.
 
-The looking-up is cheaper than people assume:
+Now here is the part that contradicts the folklore. Looking a method *up* is cheap:
 
 ```
 1,000,000 getMethod lookups: 20 ms
 ```
 
-Twenty nanoseconds each, because modern JDKs cache the results. So the cost is
-concentrated in `invoke`, not in finding the method — but the standard advice
-still applies, because a `Method` object is worth hoisting out of a loop anyway.
+Twenty nanoseconds each, because modern JDKs cache the results. So the cost lives
+almost entirely in `invoke`, not in finding the method — though you should still
+hoist a `Method` object out of a loop, on general principle.
 
-Whether forty times matters is Chapter 18's question. A framework doing reflective
-work once at startup — scanning classes, wiring objects — pays it once and nobody
-notices. A framework doing it per request, or per element of a large collection,
-has a real problem, and this is why serialization libraries generate bytecode at
-run time rather than reflecting on every field.
+Whether forty times slower actually matters is Chapter 18's question, and the
+answer depends entirely on where it sits. A framework doing reflective work once at
+startup — scanning classes, wiring objects together — pays the cost once and nobody
+ever notices. A framework doing it once per request, or once per element of a large
+collection, has a genuine problem. That is precisely why serialization libraries
+generate bytecode at run time instead of reflecting over every field.
 
 ## Safety
 
-The larger cost, and it does not show up in a benchmark.
+The bigger cost, and it will never show up in a benchmark.
 
 ```java
 m = obj.getClass().getMethod("proccess", String.class);   // typo
 ```
 
-That compiles. It fails when it runs, with `NoSuchMethodException`, possibly in
-production, possibly only on the code path nobody tests.
+Look at that string. Now consider: that code compiles. The compiler has no opinion
+about it whatsoever.
 
-Everything the compiler does for you is suspended. Rename a method in your IDE and
-every ordinary call site is updated; the string in a reflective call is not, and
-nothing warns you. Change a parameter type and the same. Delete a field that only
-a serializer reads and the program compiles cleanly and fails at run time.
+It fails when it runs, with `NoSuchMethodException` — possibly in production,
+possibly only on the one code path nobody covered with a test.
+
+Everything the compiler normally does for you is suspended here. Rename a method in
+your IDE and every ordinary call site updates automatically; the string inside a
+reflective call does not, and nothing warns you. Change a parameter type, same
+story. Delete a field that only a serializer ever reads, and the program compiles
+perfectly and dies at run time.
 
 This is the real argument against casual reflection, and it is Chapter 17's
-argument for generics running in reverse: the value of static types is that
-mistakes are found at the earliest possible moment, and reflection moves them to
-the latest.
+argument for generics running backwards. The whole value of static types is that
+mistakes surface at the earliest possible moment. Reflection moves them to the
+latest possible moment.
 
 ## Tooling
 
-A consequence of the above that deserves separate mention.
+A consequence of the above, and it deserves its own heading because people are
+caught by it repeatedly.
 
-**Find usages** does not find reflective ones. A method called only through
-reflection looks unused, and someone will delete it.
+**Find usages does not find reflective usages.** A method called only through
+reflection looks unused to every tool that examines it. Sooner or later somebody
+tidying up will delete it, entirely reasonably, and the failure will appear
+somewhere unrelated.
 
-**Dead code elimination** and **obfuscation** break for the same reason. Tools that
-strip unreachable code — which matters greatly on Android and in native images —
-cannot see reflective references, which is why such tools need configuration files
-listing what to keep.
+**Dead code elimination and obfuscation break** for the same reason. Tools that
+strip unreachable code — which matters enormously on Android and in native images —
+cannot see a reference that exists only as a string. Which is why every such tool
+needs a configuration file telling it what to keep.
 
-**Ahead-of-time compilation** is the sharpest version. GraalVM native images must
-know every reachable class at build time, and reflection defeats that analysis. The
-entire ecosystem of Java frameworks has spent years moving work from run-time
-reflection to compile-time code generation, largely for this reason.
+**Ahead-of-time compilation** is the sharpest form of the problem. A GraalVM native
+image has to know every reachable class at build time, and reflection defeats that
+analysis by construction. The entire Java framework ecosystem has spent years now
+moving work out of run-time reflection and into compile-time code generation,
+largely because of this.
 
 ## Encapsulation
 
 Section 27.1.1 read a private field, called a private method, and assigned to a
-`final` one. Every invariant a class maintains can be broken from outside by
-someone willing to type `setAccessible(true)`.
+`final` one. Sit with what that means: **every invariant a class maintains can be
+broken from outside by anybody willing to type `setAccessible(true)`.**
 
-That is not a bug in Java; it is the trade the language made. But it means that
-the guarantees of Chapters 19 and 20 hold **against code that plays by the rules**,
-which is all code except reflection and all the code you should be writing.
+That is not a bug in Java. It is a trade the language made deliberately. But it
+does mean the guarantees of Chapters 19 and 20 hold **against code that plays by
+the rules** — which is all code except reflection, and all the code you should be
+writing.
 
-Java 9's modules restored some of it. A module lists which packages are `open` for
-reflection, and the rest genuinely cannot be reached. The JDK closed its own
-internals this way, and the software that broke was software that had been
-reaching into implementation details for years.
+Java 9's module system restored some of it. A module declares which packages are
+`open` for reflection, and everything else genuinely cannot be reached. The JDK
+closed its own internals this way, and the software that broke as a result was
+software that had been reaching into implementation details for years and getting
+away with it.
 
-## When reflection is right
+## So when is reflection right?
 
 The rule, stated plainly: **reflection is for code that must work with classes it
 has never seen.**
 
-**Frameworks and libraries.** JUnit finding `@Test` methods. Jackson mapping
-fields to JSON. Spring examining constructors. A plugin loader. None of these can
-name your classes, because your classes did not exist when they were written.
+**Frameworks and libraries.** JUnit finding your `@Test` methods. Jackson mapping
+your fields to JSON. Spring examining your constructors. A plugin loader. Not one
+of these can name your classes, for the excellent reason that your classes did not
+exist when they were written.
 
 **Tools.** Debuggers, profilers, IDEs, class-file analyzers. Their subject matter
-is code.
+is code itself.
 
-**Loading by configuration.** A driver named in a properties file, an
-implementation chosen at deployment. `ServiceLoader` is the standard mechanism and
-is preferable to raw `Class.forName` because it is declared rather than implicit.
+**Loading by configuration.** A driver named in a properties file; an
+implementation chosen at deployment time. `ServiceLoader` is the standard mechanism
+and is better than raw `Class.forName`, because what it does is declared rather
+than implicit.
 
-And the corresponding rule for everything else: **if you know the class at compile
-time, call the method.** Reflection used to avoid a cast, to work around a
-`private` you could have made package-private, or to call one of several methods
-by name is a design problem being papered over. The alternatives are almost always
-an interface, a functional parameter from Chapter 26, or an enum with per-constant
-behavior from Chapter 22.
+And the matching rule for everything else: **if you know the class at compile time,
+call the method.**
 
-The one honest exception in application code is testing: reaching into a private
-field to check state, or to inject a stub, is common and defensible. Even there,
-a class that can only be tested reflectively is usually telling you something
-about its design.
+Reflection reached for to dodge a cast, or to work around a `private` you could
+have made package-private, or to pick one of several methods by name, is a design
+problem wearing a disguise. The honest alternatives are nearly always an interface,
+a functional parameter from Chapter 26, or an enum with per-constant behavior from
+Chapter 22.
+
+There is one defensible exception in ordinary application code, and it is testing.
+Reaching into a private field to check state, or to inject a stub, is common and
+reasonable. Even there, notice what it might be telling you: a class that can
+*only* be tested reflectively is usually saying something about its design that is
+worth hearing.
 
 Next: the largest thing reflection cannot see.

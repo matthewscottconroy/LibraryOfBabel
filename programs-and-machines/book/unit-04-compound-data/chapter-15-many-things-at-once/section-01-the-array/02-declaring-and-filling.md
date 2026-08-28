@@ -1,63 +1,71 @@
 # Declaring and Filling
 
-The last lesson argued that an index is arithmetic. That argument is what an
-array *is*; this lesson is how you get one, which is short, and worth reading
-slowly anyway — two of these four lines are where beginners lose an hour.
+An index is arithmetic. That was the last lesson, and it is what an array *is*.
+
+This one is how you get hold of one, which is short. Read it slowly anyway — there
+are four or five places in here where beginners reliably lose an hour, and they all
+look harmless on the way past.
 
 ## Creating one
 
-Two ways. With a known size, and default values:
+Two ways. Either you know the size and take the defaults:
 
 ```java
 int[] scores = new int[5];
 ```
 
-Five elements, all 0. The defaults follow Chapter 7's rule for fields — 0 for
-numeric types, `false` for `boolean`, `null` for references:
+Five elements, every one of them 0. The defaults follow Chapter 7's rule for
+fields: 0 for numeric types, `false` for `boolean`, `null` for references.
 
 ```java
 int[] a    = new int[3];      // [0, 0, 0]
 String[] s = new String[3];   // [null, null, null]
 ```
 
-That second one matters. An array of objects is created full of `null`, not full
-of objects. Every element must be filled before it can be used, and forgetting is
-a common source of `NullPointerException`.
+Stop on that second line, because it is the first of the hours.
 
-Or with the contents written out:
+An array of objects is created full of `null`. Not full of empty strings, not full
+of objects waiting to be used — full of nothing. Every element has to be put there
+before it can be used, and forgetting is one of the most common sources of
+`NullPointerException` there is. The array exists. Its contents do not.
+
+Or you write the contents out and let Java count:
 
 ```java
 int[] scores = {87, 92, 78, 95, 88};
 ```
 
-The size comes from the count. This form works only at the point of declaration;
-later you need the longer version:
+That short form works only at the moment of declaration. Later on you need the
+longer one:
 
 ```java
 scores = new int[]{1, 2, 3};
 ```
 
-## The declaration syntax
+## Two spellings, one of which is a trap
 
-Java accepts two spellings:
+Java accepts both of these:
 
 ```java
 int[] a;      // preferred
 int a[];      // legal, inherited from C
 ```
 
-Use the first. `int[]` is a type — "array of int" — and putting the brackets with
-the type says so. The second form is a C compatibility feature and it misleads:
+Use the first, and here is the concrete reason rather than an appeal to style.
+`int[]` is a type — "array of int" — and putting the brackets on the type says
+exactly that. The second form is a C compatibility feature, and it lies to you:
 
 ```java
 int a[], b;      // a is an array, b is a plain int
 ```
 
-That is a genuine trap, and it does not arise if the brackets are on the type.
+Read that line again. Two variables declared together, and they have different
+types. Nobody writing it intended that, and it does not happen at all if you keep
+the brackets attached to the type where they belong.
 
 ## Reading and writing
 
-By position, using the arithmetic of the last lesson:
+By position, using the arithmetic from the last lesson:
 
 ```java
 scores[0] = 87;
@@ -65,7 +73,7 @@ int first = scores[0];
 scores[2] = scores[2] + 5;
 ```
 
-An index may be any `int` expression:
+The index can be any `int` expression at all:
 
 ```java
 scores[i]
@@ -73,15 +81,15 @@ scores[i + 1]
 scores[a.length - 1]      // the last element
 ```
 
-That last one is worth committing to memory. The last index is `length - 1`,
-because indices run from 0 to `length - 1`. Writing `a[a.length]` is Chapter 9's
-off-by-one and throws.
+Commit that last one to memory now and save yourself the trouble later. The final
+index is `length - 1`, because the indices run from 0 up to `length - 1`. Writing
+`a[a.length]` is the off-by-one from Chapter 9, and it throws.
 
 ## Walking one
 
-Three ways, and the choice communicates something.
+Three ways, and which you choose tells your reader something.
 
-**The counted loop**, when you need the index:
+**The counted loop**, when you actually need the index:
 
 ```java
 for (int i = 0; i < scores.length; i++) {
@@ -89,7 +97,7 @@ for (int i = 0; i < scores.length; i++) {
 }
 ```
 
-**The enhanced for**, when you do not:
+**The enhanced `for`**, when you do not:
 
 ```java
 for (int s : scores) {
@@ -97,8 +105,9 @@ for (int s : scores) {
 }
 ```
 
-Chapter 9 said this removes a class of bug by removing the index. It does have a
-restriction worth knowing: you cannot assign to the array through it.
+Chapter 9 sold you this on the grounds that it removes a whole class of bug by
+removing the index. True. It also has a restriction, and this is the next hour
+somebody loses:
 
 ```java
 for (int s : scores) {
@@ -106,8 +115,11 @@ for (int s : scores) {
 }
 ```
 
-`s` is a fresh variable receiving a copy of each element — Chapter 12's
-pass-by-value in a new setting. To modify elements you need the index:
+That loop runs. It completes without complaint. And the array is untouched.
+
+`s` is a fresh variable receiving a *copy* of each element — which is Chapter 12's
+pass-by-value showing up in a new place. If you want to modify the elements
+themselves, you need the index:
 
 ```java
 for (int i = 0; i < scores.length; i++) {
@@ -115,21 +127,21 @@ for (int i = 0; i < scores.length; i++) {
 }
 ```
 
-**A stream**, from Chapter 26. Mentioned so you know it exists:
+**A stream**, from Chapter 26, mentioned here only so that you recognize it:
 
 ```java
 int total = Arrays.stream(scores).sum();
 ```
 
-## Copying
+## Copying, and the trap inside the trap
 
-Assignment does not copy — Chapter 12 again:
+Assignment does not copy. Chapter 12 again:
 
 ```java
 int[] b = a;              // one array, two names
 ```
 
-To copy, ask explicitly:
+To actually copy, you have to ask:
 
 ```java
 int[] b = a.clone();
@@ -137,27 +149,33 @@ int[] c = Arrays.copyOf(a, a.length);
 int[] d = Arrays.copyOfRange(a, 1, 4);     // elements 1, 2, 3
 ```
 
-All three make a new array. But note the qualification, because it is the trap:
+All three give you a genuinely new array. And now the qualification, which is the
+part worth slowing down for. Predict the output:
 
 ```java
 int[][] deep = { {1, 2} };
 int[][] shallow = deep.clone();
 shallow[0][0] = 42;
-System.out.println(deep[0][0]);      // 42
+System.out.println(deep[0][0]);      // ?
 ```
 
-`clone` copies the *outer* array's elements — which for an array of arrays are
-references. Both outer arrays now point at the same inner arrays, so a change
-through one is visible through the other.
+42.
 
-This is a **shallow copy**, and it is the default everywhere in Java. A **deep
-copy** — copying the contents recursively — has to be written by hand. Chapter 20
-returns to this properly; for now, know that `clone` on a nested structure copies
-one level.
+We cloned. We changed the clone. The original changed too.
+
+`clone` copies the *outer* array's elements — and for an array of arrays, those
+elements are references. So both outer arrays are now pointing at the very same
+inner arrays, and a change made through one is a change seen through the other.
+
+This is a **shallow copy**, and it is the default absolutely everywhere in Java. A
+**deep copy** — following the references down and copying the contents too — is
+something you write by hand. Chapter 20 returns to this properly. For now, hold on
+to one sentence: `clone` on a nested structure copies exactly one level.
 
 ## The Arrays utility class
 
-`java.util.Arrays` holds the operations arrays do not have as methods:
+Arrays are not objects with rich methods, so the operations live in
+`java.util.Arrays`:
 
 ```java
 Arrays.toString(a)              // "[3, 1, 4, 1, 5]" — for printing
@@ -167,18 +185,20 @@ Arrays.equals(a, b)             // element-by-element comparison
 Arrays.binarySearch(a, 4)       // requires a sorted array
 ```
 
-`Arrays.toString` is worth adopting immediately, because printing an array
-directly does not do what you want:
+Adopt `Arrays.toString` today, because printing an array directly does not do what
+any reasonable person expects:
 
 ```java
 System.out.println(a);          // [I@1b6d3586
 ```
 
-That is the type and a hash code, not the contents. Chapter 20 explains where it
-comes from; for now, use `Arrays.toString`.
+That is the type and a hash code. Not one of your numbers appears in it. Chapter 20
+explains where that string comes from; until then, just use `Arrays.toString` and
+enjoy being able to see your own data.
 
-And `Arrays.equals` deserves the same emphasis. `a == b` compares *references* —
-whether they are the same array — not contents:
+`Arrays.equals` deserves the same emphasis for the same kind of reason. `a == b`
+compares *references* — it asks whether these are the same array — and has nothing
+at all to say about contents:
 
 ```java
 int[] x = {1, 2};
@@ -187,7 +207,8 @@ x == y                  // false: two different arrays
 Arrays.equals(x, y)     // true: same contents
 ```
 
-That distinction is Chapter 20's subject and one of the genuinely hard ideas in
-the book. Meeting it here, on arrays, is a gentle introduction.
+That distinction is Chapter 20's whole subject, and one of the genuinely hard ideas
+in this book. Meeting it here, on arrays, where you can see both objects at once,
+is about as gentle an introduction to it as you are going to get.
 
 Next: what happens when the index is wrong.

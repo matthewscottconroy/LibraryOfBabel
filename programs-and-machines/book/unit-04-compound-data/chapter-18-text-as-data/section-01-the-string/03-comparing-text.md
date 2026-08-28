@@ -55,11 +55,13 @@ relied upon. Test `< 0`, `== 0`, `> 0`.
 Code point order — Chapter 4's numbers — not alphabetical order in any human
 sense.
 
-Consequences:
+Which has consequences. Predict the sign of this before you read the comment:
 
 ```java
 "Zebra".compareTo("apple")      // negative: uppercase Z (90) before lowercase a (97)
 ```
+
+Negative — meaning `"Zebra"` sorts *before* `"apple"`.
 
 All uppercase letters sort before all lowercase ones, because ASCII put them in
 that order. Sorting a list of names with mixed capitalization gives `Adams`,
@@ -95,8 +97,14 @@ Chapter 4's other warning, with teeth:
 "café"      // as two: e + combining accent
 ```
 
-These display identically and are **not equal**. `equals` compares code point
-sequences, and the sequences differ.
+Those two lines are pixel-for-pixel identical on your screen. Your eyes cannot
+separate them, your terminal cannot, and neither can a search box.
+
+And they are **not equal**. `equals` compares sequences of code points, and the two
+sequences are different lengths — one has four, the other five.
+
+This is the kind of bug that produces a support ticket saying "I typed my name in
+exactly and it says no such user".
 
 If you compare text that came from outside — usernames, filenames, search terms —
 normalize first:
@@ -124,10 +132,13 @@ uppercasing `i` gives `İ` rather than `I`. So:
                            // "TİTLE" in Turkish
 ```
 
-A program comparing `"TITLE"` against an uppercased user input will fail on a
-Turkish machine, and the failure depends on a setting nobody thought about. This
-is a real class of bug with a name — the Turkish-I problem — and the defense is to
-pass a locale explicitly when the comparison is internal:
+Follow that through. A program comparing `"TITLE"` against an uppercased user
+input works perfectly everywhere you tested it and fails on a Turkish machine —
+and the thing that decides whether it works is a system setting that nobody
+involved in writing the program ever considered.
+
+It has a name, because it happens often enough to need one: the Turkish-I problem.
+And the defense is to say what you mean when the comparison is internal:
 
 ```java
 s.toUpperCase(Locale.ROOT)

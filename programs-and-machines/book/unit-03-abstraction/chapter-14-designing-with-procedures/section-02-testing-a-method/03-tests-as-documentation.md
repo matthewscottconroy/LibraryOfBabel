@@ -16,11 +16,17 @@ static int largest(int[] a) {
 }
 ```
 
-The comment is wrong. It was true once. Someone changed the behavior and did not
-update it, and now the documentation actively misleads — worse than no comment,
-because it is believed.
+Read the comment, then read the first line of the method.
 
-Nothing detects this. The compiler does not read comments. Reviewers skim them.
+The comment is wrong. It was true once — somebody wrote it honestly, and it
+described the method accurately on the day it was written. Then somebody changed
+the behavior and did not update the comment, and now the documentation is not
+merely useless. It actively misleads, which is worse than nothing at all, because a
+comment gets believed.
+
+And notice that nothing anywhere will catch this. The compiler does not read
+comments. Reviewers skim them. There is no mechanism by which this comment ever
+becomes right again.
 
 A test cannot drift this way:
 
@@ -114,7 +120,9 @@ The last observation, and it is the one that changes how people work.
 
 **Difficulty testing something is evidence about its design.**
 
-If a method is hard to test, ask why. Usually one of:
+So when you find a method hard to test, do not reach for a mocking framework
+first. Ask why it is hard, and check the answer against this list — it is nearly
+always one of four things:
 
 - it does too many things, so a test must set up all of them
 - it depends on something external — a file, a clock, a network — that a test

@@ -5,8 +5,11 @@ the unit has been circling.
 
 ## The question
 
-Whenever you put something into a computer, you answer four questions. Usually
-without noticing, which is the problem.
+Every time you put something into a computer, you answer four questions.
+
+You answer them whether or not you notice, and mostly you do not notice, which is
+where the trouble comes from. Here they are, so that from now on you can answer
+them deliberately.
 
 **What am I keeping?** Of everything true about this thing, which properties go
 in? A color keeps three numbers and discards the spectrum. A `char` keeps the
@@ -38,9 +41,11 @@ can only do if you know what the representation keeps.**
 
 ## Why this is the right first idea
 
-I have put this unit first, ahead of loops and methods and objects, because in my
-experience it is what separates programmers who can debug from programmers who
-can only rewrite.
+I put this unit first — ahead of loops, ahead of methods, ahead of objects — and I
+owe you the reason, because it is not the conventional order.
+
+In my experience this material is what separates programmers who can debug from
+programmers who can only rewrite.
 
 When a program behaves inexplicably, the novice's instinct is to change something
 and rerun. Sometimes that works. When it does not, they have no next move,
@@ -96,7 +101,7 @@ not a tenth. A letter arrives as two. When that happens, the ability to descend 
 level and ask what is actually there is the difference between fixing the problem
 and guessing at it.
 
-You can descend now. That was the point of the unit.
+You can descend now. That was the whole point of the unit, and you have it.
 
 Next chapter, Java finally arrives — and its first job will be to show you the
 bits we have spent four chapters talking about.

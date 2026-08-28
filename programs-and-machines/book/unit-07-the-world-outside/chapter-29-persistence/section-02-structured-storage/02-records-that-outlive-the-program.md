@@ -3,15 +3,12 @@
 Your program writes a file. Between the first byte and the last, the process can be
 killed, the machine can lose power, or the disk can fill.
 
-Where does that leave the file? Not the old contents and not the new — the old data
-gone and the new data half-written. For a configuration file that means the program
-does not start next time.
+Where does that leave the file? Think about it for a second before reading on,
+because the answer is worse than "the write failed".
 
-The fix is two lines, and knowing it is the difference between a program that
-survives being switched off and one that does not.
-
-Behind that, and behind everything else in this lesson, is one constraint: the data
-you write today will be read by a version of your program that does not exist yet.
+Behind that question, and behind everything else in this lesson, sits one
+constraint worth keeping in view: the data you write today will be read by a
+version of your program that does not exist yet.
 
 ## The interrupted write
 
@@ -19,15 +16,18 @@ you write today will be read by a version of your program that does not exist ye
 Files.writeString(target, newContents);
 ```
 
-One line, and a window inside it. Between the truncation of `target` and the last
-byte written, the file on disk is neither the old contents nor the new — and
-anything that stops the program in that window leaves it that way permanently.
+One line, with a window hidden inside it.
 
-For a data file that is silent loss. For a configuration file it is worse: the
-program will not start next time, and the thing that would have told you why is the
-file that is now half written.
+`writeString` truncates `target` first and then writes. Between those two moments
+the file on disk is neither the old contents nor the new — and anything that stops
+your program during that window leaves it that way permanently. Not corrupted in
+some detectable sense. Just wrong, and looking entirely normal.
 
-The fix is two lines and it is standard practice:
+For a data file that is silent loss. For a configuration file it is worse than
+that: the program will not start next time, and the file that would have told you
+why is the one that is now half written.
+
+The fix is two lines, and it is standard practice everywhere:
 
 ```java
 Path tmp = target.resolveSibling(target.getFileName() + ".tmp");
@@ -87,8 +87,10 @@ a stronger condition than people assume; files are found in backups years later.
 acquisition year, without renaming it, produces data that parses perfectly and is
 wrong. Add a new field and deprecate the old one.
 
-That last rule is the one that costs the most to violate, because the failure is
-undetectable by any check.
+That last rule is the one that costs most to break, and the reason is worth
+dwelling on: no check anywhere can catch it. The file parses. The types are right.
+The values are plausible. Every automated defense you have passes it through, and
+the data is wrong.
 
 ## Self-description
 

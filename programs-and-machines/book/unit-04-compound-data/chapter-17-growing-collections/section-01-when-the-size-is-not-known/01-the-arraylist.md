@@ -17,7 +17,9 @@ System.out.println(names);          // [Ada, Grace]
 System.out.println(names.size());   // 2
 ```
 
-No size was declared. Elements were added and it grew.
+Read that again and notice what is missing. No size was declared anywhere. We
+never said how many names there would be, we added two, and the thing grew to fit
+them.
 
 ## Reading the declaration
 
@@ -40,8 +42,9 @@ and it is the single most useful convention in the chapter. Declaring
 implementation on one line and nothing else needs touching — Section 16.1.1's
 argument, made available in one keystroke.
 
-**`<>`** is the diamond, and it means *the same type parameter as on the left*.
-Writing `new ArrayList<String>()` is equivalent and longer.
+**`<>`** is called the diamond, and it means *whatever type parameter is on the
+left*. You may write `new ArrayList<String>()` instead; it means exactly the same
+thing and is nine characters longer.
 
 ## The operations
 
@@ -123,10 +126,16 @@ libraries exist for it. For ordinary work it does not matter and clarity wins.
 List<String> fixed = List.of("Ada", "Grace", "Alan");
 ```
 
-Compact, and note what it makes: an **immutable** list. Calling `add` on it throws
-`UnsupportedOperationException`. That is frequently what you want — Chapter 20
-argues that unchangeable things are easier to reason about — and it is a trap when
-you wanted a working list.
+Compact, and now look closely at what you actually got, because it is not what
+most people assume.
+
+That is an **immutable** list. Call `add` on it and you get
+`UnsupportedOperationException` at run time, from a line that looks entirely
+reasonable.
+
+Frequently that is exactly what you wanted — Chapter 20 will argue at length that
+things which cannot change are easier to reason about. It is a trap on the
+occasions when you wanted a list you could work with.
 
 To get a mutable one from a fixed set of values:
 

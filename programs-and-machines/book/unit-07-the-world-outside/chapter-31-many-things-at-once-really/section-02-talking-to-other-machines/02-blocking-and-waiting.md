@@ -2,19 +2,22 @@
 
 You send a request. Nothing comes back.
 
-Did it arrive? Did it arrive and get processed, with the reply lost on the way
-home? Is the server dead, or merely busy? You cannot tell — not with more effort,
-not with a better library. The information is not available to you, and nearly
-everything in distributed systems is a way of living with that.
+Did it arrive? Did it arrive, get processed, and lose its reply on the way home?
+Is the server dead, or is it merely busy?
 
-Two facts about networks, and nearly everything in distributed systems follows
-from them.
+You cannot tell. Not with more effort, not with a better library, not with a
+cleverer protocol — the information is not available to you at any price. Almost
+everything in distributed systems is a technique for living with that sentence.
 
-**Everything is slow.** A memory read takes about a nanosecond. A disk read takes
-tens of microseconds. A network round trip within a data centre takes half a
-millisecond, and across the world it takes about 150 — a hundred million times a
-memory read, and bounded below by the speed of light, which is not going to
-improve.
+It follows from two facts about networks.
+
+**Everything is slow.** Line the numbers up and let them land. A memory read takes
+about a nanosecond. A disk read takes tens of microseconds. A network round trip
+inside one data center takes half a millisecond, and a round trip across the world
+takes about 150.
+
+That last one is a hundred million times the memory read. And it is bounded below
+by the speed of light, so nobody is going to improve it.
 
 **Anything can fail, at any point, without telling you.** A cable is cut, a
 machine reboots, a router drops packets. And the failure is often
@@ -89,14 +92,16 @@ the high percentile, then revisit it.
 
 ## The at-least-once problem
 
-You send a request. No reply arrives. Did it happen?
+Now back to the question this lesson opened with, because it has a consequence we
+have not drawn out yet.
 
-You cannot know. The request may have been lost on the way out, or processed with
-the reply lost on the way back. Both look identical to you.
+The request may have been lost on the way out, or it may have been processed with
+the reply lost on the way back. Both possibilities look identical from where you
+are standing, and you have to do something anyway.
 
-So you retry, and Section 28.2.1's warning arrives with consequences: if the
-operation is not **idempotent**, the retry may do it twice. Retrying a read is
-fine. Retrying "charge this card" is a second charge.
+So you retry — and Section 28.2.1's warning arrives with real money attached. If
+the operation is not **idempotent**, your retry may do it a second time. Retrying a
+read costs nothing. Retrying "charge this card" charges the card again.
 
 The standard fix is an **idempotency key**: the client generates a unique
 identifier per logical operation, the server records which identifiers it has

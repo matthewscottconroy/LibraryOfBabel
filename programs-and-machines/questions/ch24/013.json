@@ -1,0 +1,28 @@
+{
+  "question_id": "913400e0-4d0a-43ee-9941-7427cedc267a",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write `eval` for arithmetic, noticing what it does not contain. Fill in the three blanks.",
+  "choices": [
+    "int eval(Expr e, Env env) {",
+    "    return switch (e) {",
+    "        case Num n -> ___;",
+    "        case Var v -> ___;",
+    "        case Bin b -> {",
+    "            int l = ___, r = eval(b.right(), env);",
+    "            yield switch (b.op()) { case '+' -> l + r; case '*' -> l * r;",
+    "                                    default -> throw new EvalError(\"op\"); };",
+    "        }",
+    "    };",
+    "}"
+  ],
+  "answer": "n.value()|env.lookup(v.name())|eval(b.left(), env)",
+  "explanation": "Verified: `2 + 3 * 4` gives 14. There is nothing about precedence here — no table, no comparison of operator strengths. The parser settled it by building `(+ 2 (* 3 4))`, and `eval` only walks what it is given, so the multiplication happens first because it is deeper. Depth in the tree *is* order of evaluation, which is why getting the grammar right in Chapter 24 mattered.",
+  "tags": [
+    "eval",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

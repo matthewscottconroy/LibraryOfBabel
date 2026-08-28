@@ -1,0 +1,21 @@
+{
+  "question_id": "88ae7b2d-f5fc-40b7-8b3b-2e6f500e6e46",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Twenty million calls took 1-2 ms directly and 64-92 ms through `Method.invoke`. Where is that cost?",
+  "choices": [
+    "The JVM interprets reflective calls rather than compiling them, since they cannot be verified.",
+    "The target is known only at run time, so nothing inlines, arguments are boxed into an `Object[]`, and access is re-checked.",
+    "Each `invoke` performs a fresh `getMethod` lookup, which dominates.",
+    "Reflective calls acquire a lock on the `Class` object for thread safety."
+  ],
+  "answer": 1,
+  "explanation": "A direct call is two indirections and a jump, inlined away entirely once the site proves monomorphic. Lookup is cheap by comparison — a million `getMethod` calls took 20 ms — so the cost is concentrated in `invoke`. Whether forty to sixty times matters is Chapter 18's question: a framework wiring objects once at startup pays it once and nobody notices.",
+  "tags": [
+    "reflection",
+    "performance"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

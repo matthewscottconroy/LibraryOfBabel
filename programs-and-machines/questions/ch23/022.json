@@ -1,0 +1,19 @@
+{
+  "question_id": "21c87e15-1702-4416-b1fe-72cce1c9c5d3",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "blank",
+  "text": "Grammars can express that a program is well-formed but not that a name is declared before use. Checking such conditions requires a pass after parsing, which real compilers call ___ analysis.",
+  "choices": [
+    "semantic",
+    "semantic"
+  ],
+  "answer": "semantic",
+  "explanation": "The grammar generates `1 / 0` and an undeclared variable happily, because neither is a property of the string's shape. Chapter 25's evaluator meets this directly when a lookup fails, and the interesting observation is that it could be done either way — Java checks at compile time, our interpreted language at run time, and the information for both is available once parsing finishes.",
+  "tags": [
+    "grammars",
+    "vocabulary"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

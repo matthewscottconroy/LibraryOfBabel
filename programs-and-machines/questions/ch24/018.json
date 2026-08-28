@@ -1,0 +1,24 @@
+{
+  "question_id": "ddfeaf80-2fd2-4929-a652-35f07d6a99cc",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Add closures — the six lines the language is missing. Fill in the three blanks.",
+  "choices": [
+    "// 1. store the defining environment in the procedure:",
+    "___",
+    "// 2. use it as the parent when applying:",
+    "//    Env local = ___;",
+    "// 3. capture it where the procedure is created:",
+    "//    case DefFun f -> procs.put(f.name(), ___);"
+  ],
+  "answer": "record Procedure(List<String> params, Expr body, Env defined) { }|new Env(p.defined())|new Procedure(f.params(), f.body(), env)",
+  "explanation": "That is the whole change, and it is the single largest capability the language lacks. Without the stored `Env`, a procedure defined inside another cannot see the outer one's parameters. Chapter 26 shows Java doing exactly this: `adder(5)` returns a lambda holding the captured 5, which is a `Procedure` and an environment under a different name.",
+  "tags": [
+    "closures",
+    "environments",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

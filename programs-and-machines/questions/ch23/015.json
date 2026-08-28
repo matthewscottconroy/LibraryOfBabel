@@ -1,0 +1,24 @@
+{
+  "question_id": "6bd0202d-d0c6-47c5-8fa2-dcaaf7d1e109",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write the loop that produces left-associativity, and note the one line that decides it. Fill in the three blanks.",
+  "choices": [
+    "// Building the tree for 2 - 3 - 4 from a flat token sequence:",
+    "//   correct:   ___              -- accumulated tree becomes the LEFT child",
+    "//   wrong:     ___              -- accumulated tree becomes the RIGHT child",
+    "// The first gives (- (- 2 3) 4) = -5; the second gives (- 2 (- 3 4)) = 3.",
+    "// Print the tree with the walker from the previous question:",
+    "//   System.out.println(___);"
+  ],
+  "answer": "left = new Bin('-', left, term())|left = new Bin('-', term(), left)|show(parse)",
+  "explanation": "Verified with the book's parser: `2 - 3 - 4` produces `(- (- 2 3) 4)`, which evaluates to -5. The EBNF rule says nothing about grouping — it gives a flat sequence — so associativity lives entirely in which side the accumulator goes on. Assignment and exponentiation are right-associative and are built with recursion instead of a loop.",
+  "tags": [
+    "parsing",
+    "associativity",
+    "derivation"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

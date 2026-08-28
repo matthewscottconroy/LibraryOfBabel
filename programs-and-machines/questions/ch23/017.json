@@ -1,0 +1,21 @@
+{
+  "question_id": "50e8b822-6735-46b0-99ef-b4ba37ecfc67",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Where is the stack that the theory says a context-free language requires?",
+  "choices": [
+    "It is the token list, which the parser pushes and pops positions within.",
+    "There is none; recursive descent avoids needing one, which is why it is used.",
+    "It is the JVM's call stack — each nested bracket is a live `expression` frame waiting for its closing token.",
+    "It is an explicit `Deque` the parser maintains alongside its position."
+  ],
+  "answer": 2,
+  "explanation": "The parser never declares a stack because recursion supplies one. Feed it five thousand open brackets and you get `StackOverflowError`, which is the theoretical requirement showing up as a practical limit — a satisfying moment where Chapter 6's classification, Chapter 12's mechanism, and Chapter 24's implementation turn out to be describing the same thing from three directions.",
+  "tags": [
+    "parsing",
+    "stack"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

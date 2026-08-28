@@ -1,0 +1,30 @@
+{
+  "question_id": "949b7030-9fb8-4994-a990-bf360b6951b3",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write a program that reads and modifies a private field from outside its class. Fill in the three blanks.",
+  "choices": [
+    "import java.lang.reflect.*;",
+    "public class Break {",
+    "    static class Account { private long cents = 100;",
+    "        @Override public String toString() { return \"Account[\" + cents + \"]\"; } }",
+    "    public static void main(String[] args) throws Exception {",
+    "        Account a = new Account();",
+    "        Field f = ___;",
+    "        ___;                                // suppress the access check",
+    "        ___;",
+    "        System.out.println(a);              // Account[999]",
+    "    }",
+    "}"
+  ],
+  "answer": "Account.class.getDeclaredField(\"cents\")|f.setAccessible(true)|f.setLong(a, 999)",
+  "explanation": "Verified: `Account[999]`. Three lines, and Chapter 19's boundary is gone. The checks are real — remove `setAccessible` and it throws `IllegalAccessException` — but they are suppressible, because frameworks legitimately need to reach into classes they do not own. Encapsulation is enforced against code playing by the rules, which is all the code you should be writing.",
+  "tags": [
+    "reflection",
+    "encapsulation",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

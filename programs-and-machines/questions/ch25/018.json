@@ -1,0 +1,27 @@
+{
+  "question_id": "f6415004-8412-4f43-bd53-91407aa3ad41",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write the four kinds of method reference. Fill in the four blanks.",
+  "choices": [
+    "import java.util.*; import java.util.function.*;",
+    "public class Refs {",
+    "    public static void main(String[] args) {",
+    "        Consumer<String> a = ___;           // a method on a particular object",
+    "        BinaryOperator<Integer> b = ___;    // a static method",
+    "        Function<String,Integer> c = ___;   // an instance method, receiver as argument",
+    "        Supplier<List<String>> d = ___;     // a constructor",
+    "        a.accept(\"hi\"); System.out.println(b.apply(3,4) + \" \" + c.apply(\"hello\") + \" \" + d.get());",
+    "    }",
+    "}"
+  ],
+  "answer": "System.out::println|Integer::sum|String::length|ArrayList::new",
+  "explanation": "Verified: `hi`, then `7 5 []`. The third is the one that confuses people — `String::length` looks static and is not; the receiver becomes the first argument, which is what makes `Person::name` usable as a `Function<Person,String>` in a stream. Java works this out from the target type, which is convenient and occasionally produces an error message that takes some reading.",
+  "tags": [
+    "method-references",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

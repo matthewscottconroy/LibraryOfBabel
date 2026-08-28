@@ -1,0 +1,21 @@
+{
+  "question_id": "3347178d-5bd3-4140-a432-1f6189fed7ca",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "mc",
+  "text": "A lambda that increments a captured array element gave 97282, 78637 and 906250 across three parallel runs of a million elements. What went wrong?",
+  "choices": [
+    "The array escape hatch defeats the JIT's inlining, so updates are reordered.",
+    "Parallel streams sample their input rather than visiting every element.",
+    "The lambda was not pure, and the stream assumed it was — the increments raced and most were lost.",
+    "`forEach` makes no guarantee about visiting each element exactly once."
+  ],
+  "answer": 2,
+  "explanation": "Each element is visited exactly once; the problem is that `counter[0]++` is a read, an add and a write, and several threads interleave them. The effectively-final restriction on captured locals was a nudge toward lambdas that do not mutate shared state, and the array trick removes the nudge without removing the reason for it. Chapter 31 gives the full account.",
+  "tags": [
+    "parallelism",
+    "purity"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

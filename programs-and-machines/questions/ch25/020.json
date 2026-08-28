@@ -1,0 +1,19 @@
+{
+  "question_id": "a1f7a673-3e37-42a7-acdc-be32fb782069",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "tf",
+  "text": "A stream is a collection that has been prepared for functional operations.",
+  "choices": [
+    "False",
+    "True"
+  ],
+  "answer": 0,
+  "explanation": "A stream holds no elements; it describes a computation over a source. Everything else follows: nothing happens until the terminal operation runs, so a pipeline without one does nothing at all and does so silently. Elements are pulled through the whole pipeline one at a time rather than stage by stage, which is why no intermediate collections are built and why `findFirst` can stop after four of ten.",
+  "tags": [
+    "streams",
+    "model"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

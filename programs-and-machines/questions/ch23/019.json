@@ -1,0 +1,28 @@
+{
+  "question_id": "c13a0e9f-4b9b-403c-89a4-a8975b3f425e",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write a walker that collects the variable names in a tree, following the same skeleton as every tree operation. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "// sealed interface Expr permits Num, Var, Bin  (records as before)",
+    "static Set<String> vars(Expr e) {",
+    "    return switch (e) {",
+    "        ___;                                // a number has none",
+    "        case Var v -> ___;                  // a variable is itself",
+    "        case Bin b -> ___;                  // combine both children",
+    "    };",
+    "}",
+    "// where union(a, b) returns a new set containing both"
+  ],
+  "answer": "case Num n -> Set.of()|Set.of(v.name())|union(vars(b.left()), vars(b.right()))",
+  "explanation": "For `width * 2 + height * height` this yields two names. The skeleton is the one every tree operation shares — switch on the shape, base cases return, recursive cases combine — and it is worth recognising that `depth`, `show`, `vars` and Chapter 25's `eval` are the same method with a different combining step. An interpreter stops looking like a large program once you see that.",
+  "tags": [
+    "trees",
+    "recursion",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

@@ -1,0 +1,30 @@
+{
+  "question_id": "d413ffc6-38f7-4030-be28-02d6e66a3733",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write the environment — the twelve lines that implement scope, shadowing and undefined-variable errors. Fill in the three blanks.",
+  "choices": [
+    "static final class Env {",
+    "    private final Map<String,Integer> values = new HashMap<>();",
+    "    private final Env parent;",
+    "    Env(Env parent) { this.parent = parent; }",
+    "    void define(String name, int value) { values.put(name, value); }",
+    "    int lookup(String name) {",
+    "        Integer v = ___;                    // look here first",
+    "        if (v != null) return v;",
+    "        if (parent != null) return ___;     // then ask the enclosing scope",
+    "        throw ___;                          // nowhere left to ask",
+    "    }",
+    "}"
+  ],
+  "answer": "values.get(name)|parent.lookup(name)|new EvalError(\"undefined variable: \" + name)",
+  "explanation": "Verified in the book's interpreter: `x = 100; def f(x) = x + 1; print f(1); print x;` gives 2 then 100. The order of the two clauses *is* shadowing — reverse them and parameters stop working, because the global would always win. That is how small the mechanism is, and it is the same chain Java follows to resolve a name inside a method inside a class.",
+  "tags": [
+    "environments",
+    "scope",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

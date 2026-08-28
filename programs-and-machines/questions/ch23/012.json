@@ -1,0 +1,32 @@
+{
+  "question_id": "0177f6dd-8c5a-45dd-871e-6c53f5f5ba41",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write the tokenizer's number rule, using maximal munch. Fill in the three blanks.",
+  "choices": [
+    "public class Numbers {",
+    "    public static void main(String[] args) {",
+    "        String src = \"123+45\"; int i = 0;",
+    "        while (i < src.length()) {",
+    "            char c = src.charAt(i);",
+    "            if (___) {                          // a number starts here",
+    "                int j = i;",
+    "                while (j < src.length() && ___) j++;   // take as much as qualifies",
+    "                System.out.println(\"NUMBER \" + ___);",
+    "                i = j; continue;",
+    "            }",
+    "            System.out.println(\"SYMBOL \" + c); i++;",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "Character.isDigit(c)|Character.isDigit(src.charAt(j))|src.substring(i, j)",
+  "explanation": "Verified: `NUMBER 123`, `SYMBOL +`, `NUMBER 45`. The inner loop is maximal munch — take the longest run that could be a token — and it is why `123` is one number rather than three. Note that `i = j` rather than `i++` after emitting: forgetting that is an infinite loop, and it is the single most common bug when writing a scanner by hand.",
+  "tags": [
+    "tokenizing",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

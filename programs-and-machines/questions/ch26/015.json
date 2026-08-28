@@ -1,0 +1,30 @@
+{
+  "question_id": "acbcebbf-4c97-428b-ba0a-5295687adef7",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Reproduce heap pollution: put an `Integer` into a `List<String>`. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Pollution {",
+    "    @SuppressWarnings({\"rawtypes\",\"unchecked\"})",
+    "    public static void main(String[] args) {",
+    "        List<String> strings = new ArrayList<>();",
+    "        ___;                                // a raw type: a warning, not an error",
+    "        ___;                                // smuggle in an Integer",
+    "        System.out.println(strings);        // [42]",
+    "        try { String s = ___; }",
+    "        catch (ClassCastException e) { System.out.println(\"failed at the READ: \" + e.getMessage()); }",
+    "    }",
+    "}"
+  ],
+  "answer": "List raw = strings|raw.add(42)|strings.get(0)",
+  "explanation": "Verified: it prints `[42]`, then fails at the read with a class cast the source never contains. At run time the list holds `Object` references and is happy to take an `Integer`; the failure arrives later, in a compiler-inserted cast. That distance between cause and symptom is why unchecked warnings mark exactly where the compile-time guarantee has a hole.",
+  "tags": [
+    "erasure",
+    "generics",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

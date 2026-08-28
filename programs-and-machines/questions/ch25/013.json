@@ -1,0 +1,30 @@
+{
+  "question_id": "2cde10dc-a527-4f45-bf5b-add374d32c6f",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write map, filter and reduce by hand, then compose them. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*; import java.util.function.*;",
+    "public class ByHand {",
+    "    static <T,R> List<R> map(List<T> in, Function<T,R> f) {",
+    "        List<R> out = new ArrayList<>(); for (T x : in) ___; return out; }",
+    "    static <T> List<T> filter(List<T> in, Predicate<T> p) {",
+    "        List<T> out = new ArrayList<>(); for (T x : in) ___; return out; }",
+    "    static <T> T reduce(List<T> in, T id, BinaryOperator<T> op) {",
+    "        T acc = id; for (T x : in) ___; return acc; }",
+    "    public static void main(String[] args) {",
+    "        List<Integer> ns = List.of(1,2,3,4,5,6,7,8,9,10);",
+    "        System.out.println(reduce(map(filter(ns, n -> n % 2 == 0), n -> n * n), 0, Integer::sum));",
+    "    }",
+    "}"
+  ],
+  "answer": "out.add(f.apply(x))|if (p.test(x)) out.add(x)|acc = op.apply(acc, x)",
+  "explanation": "Verified: 220 — the sum of the squares of the evens from 1 to 10, matching the equivalent loop. Writing the three by hand is worth doing once, because it shows that the identity in `reduce` is not decoration: an empty input returns it, so it must be genuinely neutral. Choose 1 for a sum and every test with non-empty data still passes.",
+  "tags": [
+    "map-filter-reduce",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

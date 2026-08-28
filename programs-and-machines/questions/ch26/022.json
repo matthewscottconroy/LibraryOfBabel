@@ -1,0 +1,19 @@
+{
+  "question_id": "86361614-5ecb-4e9d-8054-68d818c40d5b",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "blank",
+  "text": "A running program examining its own classes, fields and methods by name, and invoking them, is using ___ .",
+  "choices": [
+    "reflection",
+    "reflection"
+  ],
+  "answer": "reflection",
+  "explanation": "It is what makes a framework possible — JUnit finding `@Test` methods, Jackson walking fields, Spring examining constructors — because all of them were written before your classes existed. The corresponding rule is that it belongs in code which must work with classes it has never seen, and essentially nowhere else: if you know the class at compile time, call the method.",
+  "tags": [
+    "reflection",
+    "vocabulary"
+  ],
+  "difficulty": "beginner",
+  "generated": true
+}

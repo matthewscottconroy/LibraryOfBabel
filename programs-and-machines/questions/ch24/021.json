@@ -1,0 +1,19 @@
+{
+  "question_id": "0e54e935-1028-4f5d-a93f-999fda75b822",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "tf",
+  "text": "An infinite recursion in the interpreted language produces an error defined by that language.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "It produces the JVM's `StackOverflowError`, because our language's recursion is implemented by Java's. Verified: `def loop(n) = loop(n); print loop(1);` gives exactly that. It is a fair summary of what an interpreter is — the interpreted language's resources are the implementation's resources, wearing our names — and it is the same reason our integers wrap at 2^31 without anyone deciding they should.",
+  "tags": [
+    "eval",
+    "limits"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,21 @@
+{
+  "question_id": "9b572054-1c2c-4681-84c7-0e4dee960415",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is a language defined as a set of strings, with no reference to meaning?",
+  "choices": [
+    "Because a grammar generates strings, so any definition involving meaning would be circular.",
+    "Because the set of strings is finite while the set of meanings is not.",
+    "Because meaning cannot be defined formally, so only syntax admits precise treatment.",
+    "Because separating form from meaning makes both tractable — a compiler's front end decides membership and its back end decides meaning."
+  ],
+  "answer": 3,
+  "explanation": "It is the same move Chapter 1 made between a bit pattern and what it means, applied to programs. `int x = ;` fails membership; what `int x = 3;` *does* is a different question, and Chapter 25 answers it. The separation is not an accident of engineering — it is this definition, and it is why the two halves of a compiler have separate theories.",
+  "tags": [
+    "languages",
+    "definitions"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

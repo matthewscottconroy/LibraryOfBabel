@@ -1,0 +1,34 @@
+{
+  "question_id": "060877be-191b-416d-928f-e89f9065a872",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write the fifteen-line test runner that is JUnit's core idea. Fill in the three blanks.",
+  "choices": [
+    "import java.lang.annotation.*; import java.lang.reflect.*;",
+    "public class Runner {",
+    "    @Retention(RetentionPolicy.RUNTIME) @interface Test { }",
+    "    static class Suite {",
+    "        @Test void ok()   { }",
+    "        @Test void fails(){ throw new AssertionError(\"expected 5\"); }",
+    "        void notATest()   { throw new AssertionError(\"never run\"); } }",
+    "    public static void main(String[] args) throws Exception {",
+    "        for (Method m : Suite.class.getDeclaredMethods()) {",
+    "            if (___ == null) continue;      // skip unannotated methods",
+    "            m.setAccessible(true);",
+    "            try { ___; System.out.println(\"PASS \" + m.getName()); }",
+    "            catch (InvocationTargetException e) { System.out.println(\"FAIL \" + m.getName() + \": \" + ___); }",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "m.getAnnotation(Test.class)|m.invoke(new Suite())|e.getCause()",
+  "explanation": "Verified: one PASS, one FAIL reporting `java.lang.AssertionError: expected 5`, and `notATest` never runs though it would have thrown. Unwrapping with `getCause()` is not optional — `invoke` wraps whatever the method threw, and reporting the wrapper tells the user nothing. Compare with Chapter 14's harness, which required every test to be listed by hand.",
+  "tags": [
+    "reflection",
+    "annotations",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

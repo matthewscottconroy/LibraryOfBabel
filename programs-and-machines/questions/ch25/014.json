@@ -1,0 +1,30 @@
+{
+  "question_id": "3a9eda4b-790a-4302-a157-421d78cae60d",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Demonstrate laziness: show how many elements a short-circuiting pipeline actually examines. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Lazy {",
+    "    public static void main(String[] args) {",
+    "        List<Integer> ns = List.of(1,2,3,4,5,6,7,8,9,10);",
+    "        List<Integer> seen = new ArrayList<>();",
+    "        Optional<Integer> first = ns.stream()",
+    "            .peek(___)                      // record every element that passes here",
+    "            .filter(n -> ___)",
+    "            .findFirst();",
+    "        System.out.println(\"found \" + ___ + \" after examining \" + seen);",
+    "    }",
+    "}"
+  ],
+  "answer": "seen::add|n > 3|first.get()",
+  "explanation": "Verified: `found 4 after examining [1, 2, 3, 4]`. Four of ten. Elements are pulled through the whole pipeline one at a time, so `findFirst` stops the moment it has an answer — where the hand-written `filter` from the previous question builds the entire filtered list first and does ten times the necessary work. On a million elements with an early match, that is the difference between instant and slow.",
+  "tags": [
+    "streams",
+    "laziness",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

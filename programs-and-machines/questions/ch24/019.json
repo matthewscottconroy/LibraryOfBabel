@@ -1,0 +1,21 @@
+{
+  "question_id": "a1f2098b-9b27-465f-b519-930c471d3e0d",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Under lexical scope, what does `apply` pass as the new environment's parent?",
+  "choices": [
+    "The environment of whoever called, so names resolve against the caller's bindings.",
+    "A fresh empty environment, so a procedure sees only its own parameters.",
+    "The environment where the procedure was defined, so a body's names mean what they meant where it was written.",
+    "The environment in which the argument expressions were evaluated."
+  ],
+  "answer": 2,
+  "explanation": "That is the entire difference between lexical and dynamic scope, and it is one argument in `apply`. Every mainstream language chose lexical because it lets you read a procedure and know what its names mean from the text alone; under dynamic scope the meaning of a body depends on every call site, including ones written later by other people. Early Lisp was dynamically scoped partly by accident.",
+  "tags": [
+    "scope",
+    "design"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

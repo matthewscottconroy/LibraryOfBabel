@@ -1,0 +1,29 @@
+{
+  "question_id": "058a99ed-597e-42b0-b9e3-2ba95ececb13",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write an annotation that survives to run time, and read it. Fill in the three blanks.",
+  "choices": [
+    "import java.lang.annotation.*; import java.lang.reflect.*;",
+    "public class Meta {",
+    "    ___",
+    "    ___",
+    "    static class Row { @Column(\"acct_id\") long id; long ignored; }",
+    "    public static void main(String[] args) {",
+    "        for (Field f : Row.class.getDeclaredFields()) {",
+    "            Column c = ___;",
+    "            if (c != null) System.out.println(f.getName() + \" -> \" + c.value());",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "answer": "@Retention(RetentionPolicy.RUNTIME)|@interface Column { String value(); }|f.getAnnotation(Column.class)",
+  "explanation": "Verified: `id -> acct_id`, and `ignored` is skipped. Change the retention to the default and the loop finds nothing — everything compiles and no error appears, which is the commonest annotation bug. That enumerate-check-act pattern is essentially all of how an object-relational mapper works, and the single-member-named-`value` convention is why so many annotations have a member with that unhelpful name.",
+  "tags": [
+    "annotations",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

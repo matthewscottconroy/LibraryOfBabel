@@ -1,0 +1,21 @@
+{
+  "question_id": "858f49bd-a25c-43b4-b703-36a56065d46b",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "mc",
+  "text": "With arithmetic, conditionals and recursion but no loops and no data structures, what is the language?",
+  "choices": [
+    "A domain-specific language, since its capabilities are fixed by its operator set.",
+    "Turing complete — it can compute anything computable, though a great many things would be unbearable to write.",
+    "Equivalent to a finite automaton, since its memory is bounded by the environment chain.",
+    "Context-free, since its grammar is and the evaluator adds no power."
+  ],
+  "answer": 1,
+  "explanation": "Chapter 6's claim, built rather than asserted. Loops are unnecessary because any loop can be written as a recursive procedure, which is Chapter 13's equivalence. The gap between *possible* and *bearable* is what the rest of a language is for — and Chapter 25's honest accounting of what is missing is a better description of the language than its feature list.",
+  "tags": [
+    "turing",
+    "completeness"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

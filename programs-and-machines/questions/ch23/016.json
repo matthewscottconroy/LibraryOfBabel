@@ -1,0 +1,28 @@
+{
+  "question_id": "9de32fa0-794c-4a0e-8b05-ac930591bc54",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write the `factor` rule, including the case that makes parentheses work. Fill in the three blanks.",
+  "choices": [
+    "Expr factor() {",
+    "    Token t = advance();",
+    "    return switch (t.kind()) {",
+    "        case NUMBER -> ___;",
+    "        case LPAREN -> { Expr e = ___;      // start over at the top level",
+    "                         ___;               // and insist on the closing bracket",
+    "                         yield e; }",
+    "        default -> throw new IllegalArgumentException(\"unexpected \" + t);",
+    "    };",
+    "}"
+  ],
+  "answer": "new Num(Integer.parseInt(t.text()))|expression()|expect(RPAREN)",
+  "explanation": "Verified: `(2 + 3) * 4` parses to `(* (+ 2 3) 4)`. The `LPAREN` case is the recursion — the bottom level calls the top level, which is exactly what parentheses mean: inside brackets, begin again with no precedence context. And `expect(RPAREN)` is the only thing in the parser that makes brackets balance, working because the recursive call returns precisely when the inner expression is finished.",
+  "tags": [
+    "parsing",
+    "recursion",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,25 @@
+{
+  "question_id": "98711d84-93fb-4ec3-8f6a-6b17929463a5",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write a method that returns a function, capturing a value in the process. Fill in the three blanks.",
+  "choices": [
+    "public class Closures {",
+    "    interface IntOp { int apply(int x); }",
+    "    static ___ { return ___; }              // returns a function that adds n",
+    "    public static void main(String[] args) {",
+    "        System.out.println(___);            // 6",
+    "        System.out.println(adder(100).apply(1));   // 101",
+    "    }",
+    "}"
+  ],
+  "answer": "IntOp adder(int n)|x -> x + n|adder(5).apply(1)",
+  "explanation": "Verified: 6 then 101. `n` lived in `adder`'s stack frame, which was destroyed when `adder` returned, and the lambda still has it because the value was copied in. That is a closure — and it is also, exactly, an object with one field and one method. Chapter 25 said our interpreted language lacked this; here is Java doing it, and the two are the same mechanism.",
+  "tags": [
+    "closures",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,22 @@
+{
+  "question_id": "a1c0c8cc-9d6e-49fc-8e57-e5019b85a888",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Add the conditional — the one node type that must not evaluate all its children. Fill in the three blanks.",
+  "choices": [
+    "___",
+    "// and the case in eval:",
+    "case If f -> ___",
+    "        ? eval(f.then(), env) : ___;"
+  ],
+  "answer": "record If(Expr test, Expr then, Expr otherwise) implements Expr { }|eval(f.test(), env) != 0|eval(f.otherwise(), env)",
+  "explanation": "Verified: with this in place, `def fact(n) = if n < 2 then 1 else n * fact(n - 1); print fact(10);` prints 3628800. Only one branch is evaluated, and that is what makes recursion possible — if both were, `fact` would call itself at the base case too and never terminate. It is the same reason `&&` short-circuits in Java, and why neither can be an ordinary method in a call-by-value language.",
+  "tags": [
+    "eval",
+    "conditionals",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

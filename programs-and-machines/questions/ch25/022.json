@@ -1,0 +1,19 @@
+{
+  "question_id": "347722a8-684b-41c2-84ef-7c043ff98330",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "blank",
+  "text": "A local variable captured by a lambda must never be assigned after initialisation. Java describes such a variable as effectively ___ .",
+  "choices": [
+    "final",
+    "final"
+  ],
+  "answer": "final",
+  "explanation": "The reason is a lifetime problem: a local lives in a stack frame that may be gone before the lambda runs, so the value is copied in — and once it is a copy, permitting assignment would make the copy silently disagree with the original. JavaScript captures the variable itself, which is why closures over a loop counter used to all see the final value, a trap Java's restriction has no equivalent of.",
+  "tags": [
+    "closures",
+    "vocabulary"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

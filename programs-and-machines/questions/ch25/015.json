@@ -1,0 +1,26 @@
+{
+  "question_id": "ea517c09-2208-43e5-ad65-165f28341703",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write the grouping-and-counting pipeline that is the strongest case for streams. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*; import java.util.stream.*;",
+    "public class Grouping {",
+    "    public static void main(String[] args) {",
+    "        List<String> words = List.of(\"ada\", \"bob\", \"carol\", \"dan\", \"erin\");",
+    "        System.out.println(___.collect(___));   // {3=3, 4=1, 5=1}",
+    "        System.out.println(words.stream().collect(___));   // ada, bob, carol, dan, erin",
+    "    }",
+    "}"
+  ],
+  "answer": "Collectors.groupingBy(String::length, Collectors.counting())|Collectors.joining(\", \")|words.stream()",
+  "explanation": "Verified: `{3=3, 4=1, 5=1}` — three words of length 3, one of 4, one of 5 — and then the joined list. Written as a loop, the grouping is six lines of `computeIfAbsent` bookkeeping; here it is one expression that names what is happening. This is where streams clearly win, and Chapter 26 is careful to name the cases where they clearly do not — no index, no `zip`, awkward early exits, and mutation.",
+  "tags": [
+    "streams",
+    "collectors",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

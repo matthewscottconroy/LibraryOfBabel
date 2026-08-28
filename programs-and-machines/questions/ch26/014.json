@@ -1,0 +1,26 @@
+{
+  "question_id": "33f9aaa7-f0ac-45f8-84a9-68e807a3577d",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write a program showing that generics are erased. Fill in the three blanks.",
+  "choices": [
+    "import java.util.*;",
+    "public class Erased {",
+    "    public static void main(String[] args) {",
+    "        List<String>  strings = ___;",
+    "        List<Integer> ints    = ___;",
+    "        System.out.println(___);            // true",
+    "        System.out.println(strings.getClass().getName());   // java.util.ArrayList",
+    "    }",
+    "}"
+  ],
+  "answer": "new ArrayList<String>()|new ArrayList<Integer>()|strings.getClass() == ints.getClass()",
+  "explanation": "Verified: `true` and `java.util.ArrayList`. There is no class `ArrayList<String>` at run time — the compiler checks the type argument, inserts casts, and removes it. So generics are a compile-time discipline over an untyped runtime, and the guarantee is conditional: if your code compiled without unchecked warnings, the inserted casts will never fail.",
+  "tags": [
+    "erasure",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

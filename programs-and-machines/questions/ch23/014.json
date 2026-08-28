@@ -1,0 +1,21 @@
+{
+  "question_id": "65bf393f-2a5c-43a3-9118-30730816409d",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "mc",
+  "text": "The layered grammar `expression -> term -> factor` fixes an ambiguity. How, exactly?",
+  "choices": [
+    "By making the intended tree the only derivable one — a `term` cannot contain a `+`, so `2 + 3` can never be one.",
+    "By ordering the alternatives so the parser tries multiplication before addition.",
+    "By annotating each rule with a precedence level the parser consults at run time.",
+    "By requiring parentheses wherever two operators of different precedence meet."
+  ],
+  "answer": 0,
+  "explanation": "Grammars have no precedence mechanism, so the structure has to encode it. Since `expression` is a sequence of `term`s joined by `+`, and `term` is a sequence of `factor`s joined by `*`, the multiplication is assembled into a node before the addition can use it. The general recipe is one level per precedence tier, loosest binding at the top — Java's grammar has about fifteen.",
+  "tags": [
+    "grammars",
+    "ambiguity"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

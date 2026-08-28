@@ -1,0 +1,27 @@
+{
+  "question_id": "071edaaf-6ddc-4ee1-998f-dd7088d96c79",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Instrument the evaluator to count procedure applications, so the cost of a program is visible. Fill in the two blanks.",
+  "choices": [
+    "static final class Interp {",
+    "    int applyCount = 0;",
+    "    int apply(Procedure p, List<Integer> args) {",
+    "        ___;",
+    "        // ... bind parameters and eval the body",
+    "    }",
+    "}",
+    "// then, after running fib(n):",
+    "//   System.out.println(\"applications: \" + ___);"
+  ],
+  "answer": "applyCount++|in.applyCount",
+  "explanation": "Verified on the book's interpreter: fib(5) took 15 applications, fib(10) 177, fib(15) 1,973, fib(20) 21,891, fib(25) 242,785. Each step of 5 multiplies the work by about eleven, which is the golden ratio to the fifth power — exponential growth measured rather than asserted, and Chapter 32 confirms the same figure from Java's own naive Fibonacci.",
+  "tags": [
+    "eval",
+    "instrumentation",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

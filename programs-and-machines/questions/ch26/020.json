@@ -1,0 +1,21 @@
+{
+  "question_id": "486c8e23-b091-486f-a079-d293d88a389a",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why is `List<int>` illegal, and what does that cost?",
+  "choices": [
+    "Because `int` has no null value, and collections require one to signal absence.",
+    "Because primitives have no `hashCode`, so they cannot be stored in collections.",
+    "Erasure requires the element to be an `Object` reference, which is why autoboxing exists and why `java.util.function` needs forty interfaces.",
+    "Because the JVM's generic signature format cannot encode primitive type arguments."
+  ],
+  "answer": 2,
+  "explanation": "It is the single largest consequence of a compatibility decision made in 2004, and its bill arrives everywhere: `Integer` at 20.3 bytes per element against `int[]`'s 4.2, `Stream<Integer>` at ten times `IntStream`, and a functional-interface package with a primitive specialisation for nearly every shape. Chapter 16 introduced the primitive/object split; this is where it is paid for.",
+  "tags": [
+    "erasure",
+    "primitives"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

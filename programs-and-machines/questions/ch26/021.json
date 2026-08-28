@@ -1,0 +1,19 @@
+{
+  "question_id": "9e2396d7-4168-40e1-9f2e-eb5d8177e7ec",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "tf",
+  "text": "`@Override` changes how a method is dispatched.",
+  "choices": [
+    "True",
+    "False"
+  ],
+  "answer": 1,
+  "explanation": "It has no members and `SOURCE` retention, so it is discarded before the class file exists — there is nothing left at run time to affect anything. Its entire effect is a rule in the compiler: if the marked method overrides nothing, report an error. Overriding happens whether you write it or not; what the annotation buys is turning Chapter 20's silent `equals(Point)` bug into a compile error.",
+  "tags": [
+    "annotations",
+    "override"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

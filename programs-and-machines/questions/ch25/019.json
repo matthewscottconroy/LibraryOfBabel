@@ -1,0 +1,27 @@
+{
+  "question_id": "10ea98ea-a108-4379-8a88-7e6c0073d385",
+  "chapter": 25,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Show that a lambda is an interface implementation by writing both forms. Fill in the three blanks.",
+  "choices": [
+    "public class Same {",
+    "    interface IntOp { int apply(int x); }",
+    "    public static void main(String[] args) {",
+    "        IntOp oldWay = ___;",
+    "        IntOp newWay = ___;",
+    "        System.out.println(oldWay.apply(7) + \" \" + newWay.apply(7));",
+    "        System.out.println(___);            // true",
+    "    }",
+    "}"
+  ],
+  "answer": "new IntOp() { public int apply(int x) { return x * x; } }|x -> x * x|oldWay.apply(7) == newWay.apply(7)",
+  "explanation": "Verified: `49 49` then true. A lambda is not a new kind of value and not a function type — it is an implementation of a functional interface in a shorter notation, and calling it is an ordinary `invokeinterface`. Java chose this for compatibility: `Comparator`, written in 1998, accepts lambdas without a line changing. The cost is that `var f = x -> x * x;` does not compile, since there is no target type to infer from.",
+  "tags": [
+    "lambdas",
+    "interfaces",
+    "code"
+  ],
+  "difficulty": "intermediate",
+  "generated": true
+}

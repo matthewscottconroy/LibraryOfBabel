@@ -1,0 +1,21 @@
+{
+  "question_id": "a6263740-dd2d-4e97-84d3-21d130f438ea",
+  "chapter": 23,
+  "phase": 5,
+  "kind": "mc",
+  "text": "Why must the grammar be written with `*` rather than as `expression := expression '+' term`?",
+  "choices": [
+    "The second requires two tokens of lookahead, which recursive descent cannot supply.",
+    "The second would build a right-associative tree, which is wrong for subtraction.",
+    "The second is left-recursive, so the generated method calls itself having consumed nothing — immediate stack overflow.",
+    "The second is ambiguous, since it permits both left and right groupings."
+  ],
+  "answer": 2,
+  "explanation": "`expression()` would begin by calling `expression()` at the same position and recurse forever. Rewriting left recursion as iteration is the standard transformation, and it is why the parser has `while` loops where the grammar has stars. It is one of the two real limits of the technique; the other is that the grammar must be decidable with limited lookahead.",
+  "tags": [
+    "parsing",
+    "left-recursion"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,24 @@
+{
+  "question_id": "269a25b5-59df-4f7c-ae6d-3732bcb7d9c4",
+  "chapter": 24,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Write `apply`, the three lines where a procedure call becomes a new scope. Fill in the three blanks.",
+  "choices": [
+    "int apply(Procedure p, List<Integer> args) {",
+    "    Env local = ___;                        // a fresh scope, parented at the definition site",
+    "    for (int i = 0; i < p.params().size(); i++)",
+    "        ___;                                // bind by position",
+    "    return ___;                             // run the body in it",
+    "}"
+  ],
+  "answer": "new Env(global)|local.define(p.params().get(i), args.get(i))|eval(p.body(), local)",
+  "explanation": "A new `Env` per *call*, not per procedure — which is why a recursive procedure has a different parameter value at each depth, exactly as Chapter 12's stack frames do. The parent being `global` rather than the caller's environment is what makes the language lexically scoped; passing the caller's would make it dynamically scoped, and that one argument is the whole difference.",
+  "tags": [
+    "apply",
+    "scope",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}

@@ -1,0 +1,27 @@
+{
+  "question_id": "ec461ee5-ef27-4cb0-9e8b-05afaaff97ff",
+  "chapter": 26,
+  "phase": 5,
+  "kind": "proof",
+  "text": "Show what survives erasure and what does not. Fill in the three blanks.",
+  "choices": [
+    "import java.lang.reflect.*; import java.util.*;",
+    "public class Erased {",
+    "    static void takes(List<String> xs) { }",
+    "    public static void main(String[] args) throws Exception {",
+    "        Method m = ___;",
+    "        System.out.println(___);            // java.util.List<java.lang.String>",
+    "        System.out.println(___);            // interface java.util.List",
+    "    }",
+    "}"
+  ],
+  "answer": "Erased.class.getDeclaredMethod(\"takes\", List.class)|m.getGenericParameterTypes()[0]|m.getParameterTypes()[0]",
+  "explanation": "Verified: the generic type is recovered and the erased one is not. The rule is that generic information is retained where it is *declared* and erased where it is *used* — a method's signature is metadata in the class file, while a particular object's type argument never existed. Frameworks exploit the retained half heavily; it is how Jackson knows a field is a `List<Person>`.",
+  "tags": [
+    "erasure",
+    "reflection",
+    "code"
+  ],
+  "difficulty": "advanced",
+  "generated": true
+}
